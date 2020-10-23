@@ -5,3 +5,5 @@ This is a TEI Publisher-based application aggregating the [ELTeC literary texts]
 Beyond the direct purpose of presenting the ELTeC corpus texts, the application code itself and the accompanying commentary is intended for self-study by TEI practitioners looking for a case study guide: how to publish a larger corpus of TEI encoded material online.
 
 This application is released under GNU General Public License v3.0.
+
+**ELTeC** *European Literary Text Collection*, version 0.5.0, November 2019, edited by Carolin Odebrecht, Lou Burnard and Christof Schöch. COST Action Distant Reading for European Literary History (CA16204). [DOI:doi.org/10.5281/zenodo.3462436](doi.org/10.5281/zenodo.3462436).
