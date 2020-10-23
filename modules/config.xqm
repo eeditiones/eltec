@@ -103,6 +103,7 @@ declare variable $config:facets := [
         "hierarchical": false(),
         "output": function($label) {
             switch($label)
+                case "en" return "English"
                 case "de" return "German"
                 case "es" return "Spanish"
                 case "fr" return "French"
@@ -112,6 +113,11 @@ declare variable $config:facets := [
                 case "ro" return "Romanian"
                 case "hu" return "Hungarian"
 
+                (: erroneous but used in ELTec:)
+                    case "SPA" return "Spanish"
+                    case "sl" return "Slovenian"
+                    case "ENG" return "English"
+                    
                 default return $label
         }
     },
