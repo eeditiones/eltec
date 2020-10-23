@@ -96,6 +96,26 @@ declare variable $config:pagination-fill := 5;
  : are configured in the index configuration, collection.xconf.
  :)
 declare variable $config:facets := [
+        map {
+        "dimension": "language",
+        "heading": "facets.language",
+        "max": 15,
+        "hierarchical": false(),
+        "output": function($label) {
+            switch($label)
+                case "de" return "German"
+                case "es" return "Spanish"
+                case "fr" return "French"
+                case "en" return "English"
+                case "pt" return "Portuguese"
+                case "si" return "Slovenian"
+                case "ro" return "Romanian"
+                case "hu" return "Hungarian"
+
+                default return $label
+        }
+    },
+
     map {
         "dimension": "genre",
         "heading": "facets.genre",
@@ -103,17 +123,55 @@ declare variable $config:facets := [
         "hierarchical": true()
     },
     map {
-        "dimension": "language",
-        "heading": "facets.language",
+        "dimension": "period",
+        "heading": "eltec.facets.period",
         "max": 5,
         "hierarchical": false(),
         "output": function($label) {
             switch($label)
-                case "de" return "German"
-                case "es" return "Spanish"
-                case "la" return "Latin"
-                case "fr" return "French"
-                case "en" return "English"
+                case "T1" return "1840-59"
+                case "T2" return "1860-79"
+                case "T3" return "1880-99"
+                case "T4" return "1900-20"
+                default return $label
+        }
+    },
+    map {
+        "dimension": "gender",
+        "heading": "eltec.facets.authorGender",
+        "max": 5,
+        "hierarchical": false(),
+        "output": function($label) {
+            switch($label)
+                case "F" return "Female"
+                case "M" return "Male"
+                default return $label
+        }
+    },
+    map {
+        "dimension": "size",
+        "heading": "eltec.facets.size",
+        "max": 5,
+        "hierarchical": false(),
+        "output": function($label) {
+            switch($label)
+                case "short" return "Short"
+                case "long" return "Long"
+                case "medium" return "Medium"
+                default return $label
+        }
+    },
+
+    map {
+        "dimension": "reprint",
+        "heading": "eltec.facets.reprint",
+        "max": 5,
+        "hierarchical": false(),
+        "output": function($label) {
+            switch($label)
+                case "low" return "Low"
+                case "high" return "High"
+                case "medium" return "Medium"
                 default return $label
         }
     }

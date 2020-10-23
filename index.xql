@@ -28,25 +28,23 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
     return
         switch ($field)
             case "title" return
-                string-join((
-                    $header//tei:msDesc/tei:head, $header//tei:titleStmt/tei:title[@type = 'main'],
-                    $header//tei:titleStmt/tei:title,
-                    $root/dbk:info/dbk:title
-                ), " - ")
+                string-join($header//tei:titleStmt/tei:title, " - ")
             case "author" return (
-                $header//tei:correspDesc/tei:correspAction/tei:persName,
-                $header//tei:titleStmt/tei:author,
-                $root/dbk:info/dbk:author
+                $header//tei:titleStmt/tei:author
             )
             case "language" return
-                head((
-                    $header//tei:langUsage/tei:language/@ident,
-                    $root/@xml:lang,
-                    $header/@xml:lang
-                ))
+                $root/@xml:lang
+            case "period" return
+                $header//tei:textDesc/*:timeSlot/@key
+            case "gender" return
+                $header//tei:textDesc/*:authorGender/@key
+            case "size" return
+                $header//tei:textDesc/*:size/@key
+            case "reprint" return
+                $header//tei:textDesc/*:canonicity/@key
             case "date" return head((
-                $header//tei:correspDesc/tei:correspAction/tei:date/@when,
                 $header//tei:sourceDesc/(tei:bibl|tei:biblFull)/tei:publicationStmt/tei:date,
+                $header//tei:sourceDesc/(tei:bibl|tei:biblFull)/tei:date/@when,
                 $header//tei:sourceDesc/(tei:bibl|tei:biblFull)/tei:date/@when,
                 $header//tei:fileDesc/tei:editionStmt/tei:edition/tei:date,
                 $header//tei:publicationStmt/tei:date

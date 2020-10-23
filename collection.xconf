@@ -13,6 +13,11 @@
                 <field name="file" expression="util:document-name(.)"/>
                 <facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
                 <facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+                <facet dimension="period" expression="nav:get-metadata(ancestor::tei:TEI, 'period')"/>
+                <facet dimension="gender" expression="nav:get-metadata(ancestor::tei:TEI, 'gender')"/>
+                <facet dimension="size" expression="nav:get-metadata(ancestor::tei:TEI, 'size')"/>
+                <facet dimension="author" expression="nav:get-metadata(ancestor::tei:TEI, 'size')"/>
+                <facet dimension="reprint" expression="nav:get-metadata(ancestor::tei:TEI, 'reprint')"/>
             </text>
             <text qname="tei:div">
                 <ignore qname="tei:div"/>
