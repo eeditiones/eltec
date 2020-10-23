@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM008" xml:lang="ro">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title> Boierii haiduci. Nuvela originală compusă de N.D. Popescu cu patru ilustrațiuni: ediție ELTeC</title>
+    <author> Popescu, N.D. (1843-1921)</author>
+    <respStmt>
+     <resp>codare ELTeC</resp>
+     <name>Roxana Patras</name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">31921</measure>
+    <measure unit="pages">136</measure>
+   </extent>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-11"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Încorporat în ELTeC 2019-08-28--></publicationStmt>
+   <sourceDesc><bibl type="printSource">
+     <author>N.D. Popescu</author>
+     <title>Boierii haiduci. Nuvela originală compusă de N.D. Popescu cu patru ilustrațiuni</title>
+     <pubPlace>Bucharest</pubPlace>
+     <publisher>Depositul la librarul anticar H. Steinberg</publisher>
+     <date>1892 (1882)</date>
+     <ref target="http://doi.org/10.5281/zenodo.2648505">Facsimile on zenodo</ref>
+             </bibl></sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="ro"/>
+   </langUsage>
+   <textDesc>
+    <e:authorGender key="M"/>
+    <e:size key="short"/>
+    <e:canonicity key="low"/>
+    <e:timeSlot key="T3"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc><change when="2019-11-11">Checked by releaseChecker script</change>
+   <change when="2019-09-28">Initial TEI version generated.</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+   <front>
+   <div type="titlepage">
+    <p>BUJOR HAIDUCUL</p>
+    <p>NUVELĂ ORIGINALĂ</p>
+    <p>COMPUSĂ DE</p>
+    <p>N.D. POPESCU</p>
+    <p>ILUSTRATĂ CU PATRU GRAVURI</p>
+    <p>EDIȚIUNEA III</p>
+    <p>REVĂZUTĂ ȘI ADĂOGITĂ</p>
+    <p>BUCURESCI</p>
+    <p>DEPOSITUL LA LIBRARUL ANTICAR H. STEINBERG</p>
+    <p>Calea Rahovei No 7</p>
+    <p>1892</p></div>
+    <div type="liminal"><p>DE ACELAS AUTOR</p>
+<p>în ediție separată</p>
+<p>DEPOSITUL LA H. STEINBERG</p>
+<p>Amazoana de la Rachova.......2a ediție....1 volum</p>
+<p>Banul Mărăcine, ilustrat.......2a ediție....1 volum</p>
+<p>Botezul de sânge .........2a ediție....1 volum</p>
+<p>Bujor Haiducul, ilustrat .......3a ediție....1 volum</p>
+<p>Căpitan Buzdugan ilustrat.......2a ediție....1 volum</p>
+<p>Carte de Basme, ilustrată .......2a ediție....3 volum</p>
+<p>Codreanu Haiducul, ilustrat......2a ediție....1 volum</p>
+<p>Constantin Brâncoveanu, ilustrat.....2a ediție....1 volum</p>
+<p>Fata de la Cozia, ilustrat.......2a ediție....1 volum</p>
+<p>lancu Jianu Zapciu, ilustrat......1a editie.... 1volum</p>
+<p>Iancu Jianu Haiduc, ilustrat......4a ediție....1 volum</p>
+<p>Istoria Resboiululul Româno-Turc ....3a ediție....2 volum</p>
+<p>Maria Putoianca, ilustrat...... 2a ediție....1 volum</p>
+<p>Meșterul Manole, ilustrat .......2a ediție....1 volum</p>
+<p>Miul Haiducul, ilustrat .......2a ediție....1 volum</p>
+<p>Peneș Curcanu ilustrat.......2a ediție....1 volum</p>
+<p>Primul Rănit ilustrat.........2a ediție....1 volum</p>
+<p>Moartea lui Bujor, ilustrat ......2a ediție....1 volum</p>
+<p>Prisonierul de la Plevna, ilustrat......3a ediție....1 volum</p>
+<p>Radu Anghel, ilustrat .......1a ediție....1 volum</p>
+<p>Radu al 111-Zea cel frumos epuisat ....1a ediție....1 volum</p>
+<p>Sentinela de la Grivița, ilustrat ....2a ediție....1 volum</p>
+<p>Sora de caritate..........2a ediție....1 volum</p>
+<p>Tunsa Haiducu, ilustrat .......3a ediție....1 volum</p>
+<p>Voinea Haiducul, ilustrat.......1a ediție....1 volum</p>
+<p>Si vor eși in curând succesiv:</p>
+<p>Alexandru Lăpușneanu, ilustrat.......1 volum</p>
+<p>Dumitrașcu Cantemir, ilustrat ........1 volum</p>
+<p>Epoca Ghiculescilor, ilustrat........1 volum</p>
+<p>Epoca Mavrocordaților, ilustrat.......1 volum</p>
+<p>Istoria unei dinastii Basarabii ilustrat......1 volum</p>
+<p>Junețea Iul Mihaiu Viteazu, ilustrat.....1 volum</p>
+<p>Mihaiu Viteazul și călăul, ilustrat.......1 volum</p>
+<p>Mihaiu Viteazul, domn al Ardealului, Moldovei, și Țerei Românești....1 volum</p>
+<p>Mihnea cel reu, ilustrat..........1 volum</p>
+<p>Mircea cel bătrân, ilustrat.....1 volum</p>
+<p>Moartea lui Michaiu Viteazul, ilustrat.....1 volum</p>
+<p>Moștenitorii Iul Radu Negru, ilustrat.....1 volum</p>
+<p>Postelnicul Constantin Cantacusino, ilustrat....1 volum</p>
+<p>Radu al III-lea cel frumos, ediție noue ilustrat....1 volum</p> 
+<p>Radu Negru și descălicătoarea, ilustrat ....1 volum</p>
+<p>Radu Vodă de la Afumați, ilustrat......1 volum</p>
+<p>Ștefan Vodă cel mare, ilustrat.....1 volum</p>
+<p>Testamentul lui Petru cel mare, ilustrat ....1 volum</p> 
+<p>Colecțiuni de nuvele, ilustrate........6 volum</p>
+</div>
+</front>
+
+<body>
+<div type="chapter">
+ <head>I. ȚERILE ROMÂNE IN SECOLUL AL XVIII-lea</head>
+<p>In secolul alu XVIII supranumit: secolul filosofilor, a fost pentru poporele din occident, aceia ce este aurora pentru premergătorul luminei, crepuscula unei senine, secolulu de lupte și de frământări pentru dobîndirea marelor concliiste, antemergătorul câștigării dreptății și a libertății, începutulu emanci păriî popoarelor, sfărîmătorul lanțurilor robiei, preludiul consfințăriî drepturilor de omu pentru toate ființele omenescî, fără nici o deosebire de clasă.</p>
+<p>Acestu secolu pentru țerile Române a fost din contra: un secolu de durere, un secolu de apăsare, un secolu do robire ! La începutul seu Românii erau liberi, de sine stătători, înzestrați cu armate numerose și viteze, care adesea orî bătuse pe vecinii lor îndoit mai numeroși; ei erau cărmuițî de către domnitorii lor, aleși dintre fruntașii lor de boeril țerrei, și în fruntea administrației publice și a crucilor de oșteni Români, erau Români și numai Români care se purtau cu milă și îndurare către cel săracu și nevoiașiu.</p>
+<p>In decursul acestui secolu și chiar de la începutul său aceste drepturi scumpe care făcu tăria unei națiuni fură perdute încetul cu încetul până ce nu rămase în picioare nici unul dintr’ensele. Din țări libere și numai nominală legate cn Turcia, căreia îi plătea numai un tribut, fără ca ea să aibă drept a se amesteca în afacerile sale interioare, ele pe nesimțite, prin nenumărate și neintrerupte cotropiri, fură transformate, dacă nu tocmai în niște pașalicurî turcești' dar în niște beilicurî cu totul dependințe de Turcia.</p>
+<p>Domnul țerrei nu mai fu ales de către boerii țerei dintre Români; el fură numiți direct do către Poartă și aleși dintre tot ce are străinătatea mai abjectă' dintre dragomanii fanarioțî, care mai întăî trădară pe compatrioțiî lor Greci, iar patria lor și'o transformară într’un adevărat pașalic, și pe urmă se năpustiră eu îndoită poftă de cotropire spre principatele române, ca să le aducă într’un hal mult mai reă, sa îi nimicească.</p>
+<p>In fruntea administrației țerrei nu mai fură vechii boeri Români care se purtau omenesce cu connaționalii lor, ci năvăli o leotă de venetici, Fanarioți ca și Domnitorii, cel mai mulțî creditori ai acestor Domnitori streini, care pusese mâna pe resursele ambelor state, pe toate funcțiunile, pe toate arterele de viețuire ale principatelor, și începu a le exploata cu cruzime și neomenie ca să poată produce cat se pote mai mult și ca poporul să fie stors de toată sudorea sa, chiar până la sânge.</p>
+<p>Armatele ambelor țărei, fala Românismului, gloria, strămoșilor noștri și mândria cea mai mare a neamului' fu desființată, ca una ce era o piedică puternică realizărei planurilor iubitorilor de cotropire, și fu înlocuită cu o sumedenie de slujitori, bostangii, beșliî, arnăuțî și sbiri armați cn bice, nuele și falange, uneltele de tortură ale tiraniei, cu care arme se năpăsteat cu urgie spre bietul popor, și prin chinuri și cruzimi care făcea să spue și laptele ce a supt la masa, îl îndupleca să scoață chiar apă din piatră seacă ca să le dea cât se poate mai mult și să sature neinfrănata lor lăcomie.</p>
+<p>Românii îndurară toate aceste strîmbătățî cu mâhnire multă, dar cu resemnare, căci de mult fusese deprinși cu strămbătățile; își plecară ei cu răbdare gru-majii sub jugul turcesc și fanariot, plătiră cu averea, sângele și chiar libertatea lor tot ce li se cerură, unii din ei se dădură ca robi, împreună cu copii și urmașii lor veneticilor pentru ca să scape de grelele angarale ce li se cereau, dar când fu la iubita lor armă, la flinta ce țineau atârnată în cuiu, când fură siliți să se desarmeze, să înceteză de a mai fi oșteni, lucrurile se schimbară, luară altă turnură, devenită nu mult mai anevoioase: Românul se revoltă.</p>
+<p>Foștii oșteni și fii lor, mai ales cei de la țară, tot ce avea țările române mai voinic, mai vânjos și mai viteaz, se revoltară contră ordinului de desarmare, se opuse cu putere la invitația ce li se făcuse de stăpânire de a depune armele, și preferară a-i părăsi familia, casa, satul și gospădăria sa și a se înfunda în bungetul pădurilor și în sghiaburile munților, de unde jncepu o luptă teribilă contra străinilor apăsători ai neamului românesc.</p>
+<p>Se desființă armata regulată care se resboia cu streinul fățiș la lumina soarelui și în luciul câmpiei, și se înființa în locu-i <quote>haiducismul</quote> teribila luptă de partisani, caro isbea pe inimic pe la spate, pe furiș, la umbra codrilor și a nopței, resboiu care nu cruță, nu face prisonierî, nu acordă gratie învinșilor, și-și resbună mai adesea contra unor dezarmați. Aceasta e în tot d’auna rezultatul strambătățiî, prigonirii, a“ suprirei, tiraniei. Și robul odată rupe lanțurile și cu ele sdrobește capul stăpânului ne uman.</p>
+<p>Haiduci au fost în ambele principate, dar cel mai vestiți, cei mal viteji și cei mai teribili, au fost în Moldova, căci ea sermană a fost mai apăsată ca sora sa de către cotropitori, fiindjmai săracă si mai istovită. Legenda care a cântat faptele lor, bine-faeerile aduse de ei celor suferinzi, resbunările cu care au pedepsit ei pe apăsători și reparațiunile făcute de ei celor im-pilațî în dauna împilătorilor, fapte fără de care de mult s’ar fi despopulat Moldova, în cât n’ar mai fi remas Român în ea, păstrează pentru posteritate nu-male lor. Cei mai principali dÎntr'înșiî fură : <hi>Păunașiu Codrilor, Corbea, Românu Gruia Grozoveanu, Ghiță Cătănuțâ, Stoian Șoimul, Popa respopit, Grozea</hi> si în cele din urmă <hi>Bujor</hi> și <hi>Codreanu</hi> toți Români, toți ne temători de moarte, toțî dușmani ai păgânilor, gădî ai veneticilor și frați ai Românilor.</p>
+<p>Viața lor fu un șir nesfîrșit de peripeții mișcătoare, de lupte eroice cu dușmanii neamului Românesc, de cruzimi ne închipuite, de fapte patriotice, de jertfe neasemănat de mari pentru binele comun și de fapte umane către Români, sacrificii care erau tot atât de mari pe cât de mari erau faptele neumane cu care pedepseau p? străini.</p>
+<p>Voiu descri o dată pe rînd viețele și faptele vitejesci ale tuturor acestor stranii luptători pentru neatârnarea neamului românesc, pentru că trebue ca posteritatea să le afle faptele, să le scuze crinjimele, comparăndu-le cu estravaganța situațiunilor și necesitățile timpului, spre a se constata din chiar expunerea faptelor, că între haiducii de altă dată și tâlharii de adzi, chiar când ar fi ore-care asemănare de purtare pe la unele locuri, este aceiași deosebire ca aceia ce esistă între faptele oșteanului și ale rebelului.</p>
+<p>De o cam data însă voiu descri numai istoria lui Bujor și a lui Codreanu, cei din urmă haiduci moldoveni, căci istoria faptelor lor se găsesce în strînsa legătură cu istoria Moldovei dintr’acele timpuri, căci el au fost primii Români care au cutezat să se ridice cu armele în mâni contra unei oști străine de inva-ziune și el singur au îndrăsnit să se resboiască, de și erau o mână de oameni, contra acelor ce venise să resluiască o parte din patria lor: Basarabia, și să se încerce d’a desființa cu totul existența țerrei lor : Moldova.</p>
+</div>
+<div type="chapter">
+ <head>II.NUNTA DE LA COPĂCESCI</head>
+<p>Doue flagele îngrozitoare bântuiau Moldova pe la finele secolului al XVIII; unul din ele se numea fanariotismul în totă ororea sa și altul haiducismul în totă cumplirea lui; unul era încarnat în personele beilor trimiși de Portă din Stambul, care au luat în arendă tronul acestei nefericite țerrî spre a o sărăci, și cel alt era representat prin Ștefan Bujor haiducul care domnea peste pădurile Moldovei.</p>
+<p>Cel d’ănteiu, prin asupririle și strămbitățile sbirilor lor, Greci ca și el, făceau să țipe pruncul în pântecele mumei de Român, și cel alt, prin îndrăneala voinicilor lui băgase groază de moarte în inimele tuturor străinilor și apăsătorilor sărmanului popor.</p>
+<p>Unii svântau pe serac, sărăceau pe văduvă, lăsau pe drumuri pe orfan și pustiau satele și orașele, spre a’și înțoli golanii compatrioțl, și cel alt punea la a-spră globă pe bogătașii țerigrădenî și ucideau și jefuiau pe apăsători, spre a pune în loc o parte din ceia ce luau veneticii prin strămbătate din spinarea serm a nulul Român.</p>
+<p>Era o luptă cumplită între ambii dușmani, o luptă de uriași teribilă prin armele de care se serveau și groasnică prin nedreptatea și violența cu care se întrarmau. Vai ! triste vremuri era pe atunci când nenorocitul popor ascepta mântuirea de la codru și a-suprirea îi venea de la tron! Oamenii pacinici, oamenii cu frica lui Dumnezeu erau nevoiți să ajute și să ocrotească pe haiduci, și să mință și să păcălescă pe a-ceia ce țineau în mână cumpenile lege! !</p>
+<p>De aci o luptă surdă și îndărătnică între putere și norod, între guvernanți și guvernați, între străini și Români. Unii se luptau pentru conservarea Fanarioților și cel alți pentru isbânda haiducului Bujor.</p>
+<p>Astă adversitate îndărătnică, astă ațîțare surdă, astă luptă dîrjă asmuțea pe ambele părți dușmane neintrerupt una asupra alteia și’i făcea și pe unii și pe alții să fie mai aprigi, mal violenți, mai neînduplecăcioși.</p>
+<p>&gt; Fanarioțil aduceau din patria lor falange întregi de simigii, bragagii și clefți de drumul mare, golani și sdrențeroși, și pe aceia îi asmuțeau spre avutul bieților Români, și Românii câțî mai păstrase o farîmă de bărbăție în inimă, părăseau satele și orașele și populau pădurile și scorburile munților ca să îngroașe ceata lui Bujor și a semenilor sei, pentru ca să potă a se împotrivi contra acestor apăsători, iar cel mal slabi îemăneau p’acasă și răbdau toate strâmbătățile ca să dea pe sub mâna apărătorilor lor ajutor la vreme de nevoie,</p>
+<p>Vedzându-se astfel încuragiat și sprijinit de români haiducul devenea din ce în ce mai îndrăsneț și săvîrșea fapte care făcea să înghețe sângele în inimele chiar a celor ce se ascundeau după trîmbele compacte ale lefegilor palatului.</p>
+<p>Cine era acest om și de unde venea lui astă putere în cât se putea bizui a se lupta cu puterea unei domnii și a o birui ? Legenda purtată din gură în gură, singurul mijloc prin care s'a transmis generațiunelor presente istoria acestor cutezători apărătărî ai drepturilor poporului în epoca de apăsare, nu ne spune nimic alt decât că Bujor era Bujor, iar dosarul judecării lui aflat în archiva moldovenească ce se găsesce acum în Kișineu, precum și contele de Langeron în memoriile sale publicate în colecția Hurmuzache, ne spune numai că era un originară din Basarabia și că era om deștept și cunoscător de mai multe limbi.</p>
+<p>Desigur ei a fost fiu din popor, căci numai un fiu din popor iubesce poporul până a'și jertfi viața pentru el, dar negreșit a avut părinți de oare care considerațiune și cu oare care avere ; a fost cum se zicea pe atunci <quote>fecior de oameni</quote> (cuvînt boeresc care pe fii poporului, pe talpa casei, prostimea, nu îi considerau ca pe oameni, ci începea a privi om numai pe acela ce începea a se apropia de ciocoi ; el după presupunere a trăit o parte din copilăria și primii ani ai junețiî sale în Cetatea Albă numită atunci Akerman, și că acolo a învețat până la perfecțiune limba turcească, grecească și italienească de la negustorii Genovezi, care încă aveau pe atunci stabilite într’acele oraș Important e cantore de comerciu.</p>
+<p>El trebue să fi suferit mult, să fi îndurat adversități grave, să fi fost isbit de sortă în modul cel mai cumplit, și din acea cauză a fost silit să părăsească lumea locuită, să se ia după Grozea care haiducea prin Bugeac pe atunci, cam de la vârsta de 22 de ani și peste doi ani, murind Grozea, să-lu urmeze ca căpitan, găsindu-se cel mai capabil dintre toți.</p>
+<p>El era brav, dibaciu, ager, impunător, teribil în momentele de luptă și dușmanul cel mai de temut. El ar fi fost și mai teribil și mai de temut dacă n’ar fi avut un defect, un singur defect, dar care cu toate acestea fu pentru un om ca el un foarte mare defect, care era în stare să nimicească de multe orî marele sale calități, să î înstrăineze o foarte mare parte din afecținî și să ’i compromită siguranța sa și a cetei sale. Bujor era mueratic, iubea peste măsură femeile si fetele și cam avea obiceiul sădea cu japca prin nevestele altora.</p>
+<p>Ast învăț reu nu venea de loc la socoteală părinților și bărbaților însurați, căci mai cu seamă hoțomanului îi plăcea fete și neveste tinere și frumoase, viță curată de Român, și nu câte una, ci câte mai mai multe de o dată.</p>
+<p>De aceia balada ni-l zugrăvește ast-fel :</p>
+<l>Colea ’n vale la fîntănă </l>
+<l>Doă fete spală lînă,</l>
+<l>Bujor le ține de mână;</l>
+<l>Colea ’n vale la pârîu </l>
+<l>Doă fete spală grîu,</l>
+<l>Bujor le ține de brîu.</l>
+<p>Ei ! dar ce să vezi!  avea de ce să fie birbant diavolul, căci era frumos de pica hoțul, în căt se înamora fetele și nevestele după el, și de multe orî chiar dînsele îl puneau în ispită de a călca în gura lăcomiei.</p>
+<p>Unde ’l vedeai nalt ca un brad, falnic, subțire și mlădios ca o salcie pletosă, cu mustăcioara mijindă pe buze ca un spiculeț de grîu în luna lui Iunie, cu o buzișoară rumenă ca garofa înflorită făcută tocmai bună pentru sărutat și cu niște dințișorî de os de fildeșul; cu nisce ochi mari și negri înnecăndu-se în lacrărai ca nisce ochi de fată mare, și niște mânușițe făcute să mânuiască condeiul de grămătic în locul flintei de haiduc ! Când îl vedeai de departe mal mult îți venea să'l mănâncî cu ochi de drăguț ce îțî părea, de cât să te îngrozești de el ca de un tâlhar.</p>
+<p>Când mergea el pe calul seu cel sereap și cu stemă albă în frunte, jucându-se și sbeguindu-se pe pajiște ca un copil ce era, sau sburând în goana fugaciului seu cu coma resfirată în vent, ori câad îl vedeai călcând falnic iarba cea mătăsoasă cu piciorușele sale de femee strânse în nisce imenei numai flori pe denșil, sau când îl audeai grăind cu vocea sa cea dulce și argintină, vorbe de marghiolii și de dragoste, dzeu că credeai că te afli de faciă cu un logofăt tinerel croit pentru îndrăgostire iar nu cu un căpitan de voinici, care băgase năbădăile in mii de cochinți.</p>
+<p>Ei așa era el de faciă cu fetele și nevestele și cu dragii lui de Românași, dar când se vedea în facia dușmanului, se schimbă omul. Alelei maică ! atunci ochii lui cei dulci și afemeiați se roșiau întocmai ca sângele și se roteau în orbita lor bolovănoși și înspăimântători; figura lui cea drăgălașe se brăzda de niște cute care ’i da o înfățișare îngrozitoare și mânușița lui mică și mlădioasă se transforma într’un arc de oțel. Val de nenorocitul care cădea într’acele minute în ghiara lui! el era jertfit fără milă sau îndurare, căci ruga și umilința n’aveau înaintea sa nici o trecere.</p>
+<p>Dar și când vedea câte o fată sau femee care să-i placă! numai era chip să scape din brațele sale, de s’ar fi pus d’a curmezișul dorințelor lui orî-ce obstacol, ori-ce împotrivire.</p>
+<p>Nici chiar temerea d’a înmulți prea mult numărul dușmanilor sei și d’ași primejdui. Nimene nu’l stînjinea din îndeplinirea scopului său.</p>
+<p>Aceste lucruri se petreceau cum pe la 1783, pe când domnea în Moldova năbădăiosul Alexandru Mavrocordat supranumit <hi><foreign>Delli Beiu</foreign></hi> dușmanul cel mai înverșunat al haiducilor.</p>
+<p>Mavrocordat fu în curând informat despre astă parte slabă a dușmanului său și numai de cât luă măsurile cuvenite ca să se folosească de dînsa. Până să nu afle astă particularitate lăsase pe haiduc să haiducească în voe și nu luase nici o măsură ca să se scape de un asemenea rival păgubaș, fiind că scia prea bine că era de surda orî-ce încercare, căci dușmanul său se bucura de favoarea norodului; dar după ce află că era cu putință să compteze pe concursul celor nedreptățiți de sburdălniciele haiducului, atunci își schimbă Vodă tactică și își trămise spre pădurea Șerbilor din județul Putna, presupusa reședință a lui Bujor, o ceată mare de poterașî cu poruncă să’l aducă la Iași viu sau mort. Spre a ajunge mai lesne scopul ce urmărea, ei trămise pristavi pretutindeni ca să vestescă prin surle și tobe întote unghiurile țărei că ori cine va da de gât pe Bujor, va dobîndi ertare pentru ori'ce crimă ar fi săvîrșit, va fi scutit pe viață de ori-ce biruri și angarale, și va căpătă pe d’asupra și un bacșiș de 200 de galbeni turalii, chiar dacă ar fi fost din ceata lui.</p>
+<p>Făgăduiala era măreață și amăgitătoare, dar nu găsi între Români nici un vînzător; nici chiar într’aceia  are aveau să se plăngă de el că le spărsese casa și le amărîse zilele, căci Românii aveau arme și sânge în vine ca să se lupte și să și’l verse în luptă drâptă cu asupritorul lor, dar inimă d’a-și resbuna prin vînzare n'avea nici unul. De aceia nădejdea toată remase în isprava poterașilor. Aceștia își îndepliniră cu chiu cu vai sarcina, înconjurară codru Șerbilor și începură să'l bată pe de margini cu hăitași și pușcași întocmai ca la o vînătoare domnească, dar în inima codrului nu întrară nici morți.</p>
+<p>Pe când oamenii stăpănirei își dau asemenea trude care băgasă spaimă și groza în toți lupii și epurii din pădure, se întâmplă să fie într'o dzi de Duminică o nuntă mare și frumoasă în satul Copăcesci care era la o palmă de loc departe de pădure.</p>
+<p>Alergătorul satului, cum am dzice azi perceptorul, se însura și lua de nevastă pe fata lui al de moș popa.</p>
+<p>Nunta era veselă și frumosă, căci satul era populat și bogat : în sat și prin împrejurimi se aflau o mulțime de fete tinere și mândre precum și o mulțime de tineri voioși gata de joc, va să în bătutura popii hora era mare și largă, mai cu seamă că în mijlocul curții stau desfundate doue buți cu vin ca rubinul și chihli-barul și din mila sfîntului era o vremefrumosă luminată de un soare de Maiu care scotea de după vatră chiar pe hărca de o sută de ani, și pe lângă astea mai cântau și doue tacâmuri de lăutari de sootea din fire pe sfinți, ne cum pe fete și pe voinici !</p>
+<p>Ah! Domne ce mai veselie și chiloman! ce joc ! ce de nebunii ! fetele și flăcăi jucau de detuna pământul sub umbrarul de verdeață, dinaintea tindei casei, însuflețiți de bătăioase cântece, balaurii de lăutari cântau de scotau morții din groapă, însurăței și însurățelele de doi trei ani, cât pe aci pe lângă tineri bateau la tălpi opinca de sărea ca la trei palme de pământ; codanii și codanele umblau și ei forfota încurcând dănțul cu jocurile lor copilăresci, și mai la o parte fruntașii satului, oameni mai învîrstiți și mai potoliți făceau cinste împreună cu nevestele lor sfintei plosci, pe care o sărutau într’una, dzicându’și mereu unul altuia :</p>
+<p>— Noroc cuscre.</p>
+<p>— Noroc cumetre.</p>
+<p>— Noroc să dea Dumnezeu.</p>
+<p>Tocmai când era nunta în toiul ei și jucau tinerii mai cu foc, iacă că deodată se auzi despre pădure o detunătură formidabilă, după care urmară mai multe împușcături isolate care ținură aproape un minut. Pe vremea noastră astă întâmplare n’ar fi pricinuit nici o turburare, dar pe atunci când țara era desarmată și creștinul dormea epuresce de frica lefigiilor stăpânirei și groza încălcărilor haiducilor, care se resboiau într’una cu poterașii, aceste pocnituri îi făcu să tresară înspăimântați și să se desprindă din danț, asceptând când de când să dea dosul în cad de vr’o primejdie.</p>
+<p>În acele momente de uluială, intră pe poarta casei unde era nunta un flăcău tîner nalt și chipeșiu, mai mare dragul să te uiți la el, îmbrăcat cu vestminte albe ca fulgu, cn ilecelu alb și găitănat cu negru, cu brîul numai bete împodobite cu mătăsuri și fluturi și în cap cu o căciuliță de hârșie pusă cam pe o sprinceană; băețandru, căci n’avea mai mult de 24 de ani după arătare, venise pe jos tocmai din partea pădurei. Intrarea sa fu salutată cu un chiloman de bucurie ; toți flăcăi își aruncară căciulele și pălăriile în sus spre semn de veselie eșind întru întâmpinarea lui, și tote fetele și nevestele tinere se roșiră ca cireșele de bucurie că l’a văzut, și începură a se îndesa unaintr’alta ca să’l vadză mai bine și mai pe sub ascunsu.</p>
+<p>— Ei ! bine ai venit sănătos frate Voineo ! începură să strige flăcăii stringându-i mâna cu căldură.</p>
+<p>— Bine v’am găsit sănătoși verișcanilor, răspunse Voinea, strîngend cu transport manele ce i se oferea. </p>
+<p>— Dar de ce ai venit așa de tîrdziu, bădiță Voineo? întrebă o fată făcându-se roșie ca bujorul de rumeoră.</p>
+<p>— De ! surată, respunse Voinea stringând’o nițelu cu mâna cam pe lângă talie, cum obișnuesc a saluta tinerii pe la țară pe fetele frumoase. Am vrut să me fac și eu mândru cu voi, și vremea vremuesce și drumul lung ceasurile jecmănesce.</p>
+<p>— Ai trecut prin pădure ? întrebă un bărbat mai în ilichie.</p>
+<p>— Ba o ocoliiu, căcî scii vorba celuia : nici pe dracu să’l vedzi nici cruce să’ți faci.</p>
+<p>— Dar ce ? ție ți e frică de pădure măi nea Voineo ? întrebă un camarad.</p>
+<p>— Ba nu neiculiță, dar nici dragă părdalnica; căcî de o diastimică de vreme satele s’au puștiit și colnicele s’au bătătorit.</p>
+<p>— Măi! pe semne că ție ți e frică de haiduci! esclamă uu flăcău, care lipsea cam des noaptea d’acasă.</p>
+<p>— Ba nu tocmai, dar sciî vorba celuia : când se gălcevesc doi, se întîmplă adesea ca să plătească aldămașiu al treilea, mai ales dacă o fi adevărat că codru Sîrbilor este cercetat de un cîrd de vreme de cinstitele obraze ale slujbașilor stăpănirei.</p>
+<p>— D’aia așa e, și bine faci, replică un om mai invîrstit; cine ocolesce, mai curînd sosesce, dzice povestea.</p>
+
+<gap unit="graphic"/>
+ <p>Voinea întinse mânele, o apucă repede cu o mână peste mijloc, și o aruncă cu totul leșinată d’acurmezișul pe cal.</p>
+
+<p>— Tote bune, esclamă Voinea, dar ia spuseți-mî pentru ce stațî voi locului nemișcați ca nisce cocostârci și procleții de scripcarî au amorțit ca nisce degerați?</p>
+<p>— Dar bine mă tu nu scii ? n'ai auzit ? strigară cu mirare toți flăcăii de o data.</p>
+<p>— Ce să sciu și ce s’aud ? esclamâ la rîndul seiî Voinea sperios; ce vi s’a întemplat? spuneți-mî ați pățit vre un pocinog ?</p>
+<p>— Ba una asta nu, feresce Domne, răspunse unu unchiașiu; dar despre codru; vii din partea locului și nu ai auzit nimic ?</p>
+<p>— Dar ce s’auz tăiculiță ? ce s’a întemplat frățiore ? ca spuneți o dată că stau pe ghimpi, răspunse Voinea cu un aer îngrijurat și intrigat.</p>
+<p>— N’auzișî acel pocnet de împușcaturi ce isbucniră din pădure mai adineaori ?</p>
+<p>— Ti ! bată-vă să vă bată că hâtri mai sunteți, esclamă Voinea puindu-se pe un rîs sgomotos; să mă speriați și pace bună pentru un lucru așa de nimic ! măre zurlubiați v’ați mai făcut de un cărd de vreme să’mi vie alte alea pentru un lucru de nimica.</p>
+<p>— Dar ce lucru de nimic sunt la tine împușcăturile', măi creștine ? eclamă un unchiașiu.</p>
+<p>— Dar ce pote fi moșicule ? căci doar nu suntem în resboiu sad în rășmiriță !</p>
+<p>— Nu, slavă Domnului; dar potera e aprope.</p>
+<p>— Ei și !</p>
+<p>— Te pomenesci cu Doamne apără când cu gândul nu gândesci, și țoropoc beleaua ! vezi că se încinge o luptă țapănă între haiduci și poterași chiar îm inima satului, Ei ! atunci ce ne facem ?</p>
+<p>— Ce să ne facem ? ce ne pasă noă ? sucească-și și unii și alții gatul cât le place, și noi să ne vedem de jocu.</p>
+<p>— Noi să jucăm când s’or omorî unii pe alții ?</p>
+<p>— Bună morte î o lua.</p>
+<p>— Și la sfîrșit biruitorii să se puie a prăsnui isbânda pe spinarea hoților de păgubași, adica a nostră care n’am sărit să dâm ajutor unora sau altora ?</p>
+<p>— Ia taci moșicule și nu purta grijea altora, că Bujor nu e așa de neghiob ca să vie tocmai în codru Șerbilor și să le dzică poterașilor care l’au înconjurat cu surle și cu tobe : mănâncă-me lupe d’a gata. Ia aide fraților să ne apucâm de joc, că vreamea trece și sorele se apropie de scăpătat; iar voi lăutari cântați fără nici o frică, căci cu bună seama potărașiî au dat câte o împușcătură în vent ca să se îmbărbătese unii pe alții, și acum au plecat spre politie.</p>
+<p>Flăcăii îl ascultară, lăutarii începură să cânte, hora se alcătui la loc și nunta reincepu să fie animată ca și mai nainte.</p></div>
+ <milestone unit="footer" type="line"/>
+<div type="chapter">
+ <head>III.BUJOR !</head>
+<p>Multe din fetele prinse la horă erau mândre și nurlii dar ca Ioana Simziana fata lui al de moș Condoi din Pădurenî nu era nici una și nici că putea fi; par-că era un luceafăr pintre stele, un crin între ghiocei, o roșă între bujori, un diamant între perozele. Unde o vedeai înaltă, subțirică, bine făcută, cu ochi verzi ca smarandul și mari ca paharele; cu buzele sângerânde ca sâmburii de rodii, cu obrăjori rumeni ca trandafirii înfloriți, cu dinții de măgăritar și gătu de lebădă; pe cap avea un păr galbean ca beateala, pe faciă, pe găt și pe tot corpul o pieliță albă ca cașu. Cum era îmbrăcată cu nisce haine albe ca fulgul pestrițate maestrit cu felurite flori de mătăsuri și fire de aur și argint,zeu ți-ar fi venit s’o mănânci de drag!</p>
+<p>Pe cât era de frumosă pe atât era și de bogat îmbrăcată ; catrințe le ei erau numai de mătase, fir și fluturi de aur, la gâtul său atârna o salbă de mai multe sute de rubiele, mahmudele și taleri de aur, șî mijlocelul ei era prins într’un colan de sărmă de aur cu paftelele numai flori de aur și de pietre scumpe. Asemeni pe cât era de bogată și de frumosă pe atât era de modestă, sfiiciosă și nevinovată la înfățișare, o adevărată comoră de tote darurile.</p>
+<p>Cum se formă iarăși hora, Voinea își roti ochii în tote părțile, și zărind’o, scose un mic țipet de bucurie și alergă să se prinză lăngă dînsa; ea văzîndu-l și simțind manele lui într’ale salle, se făcu roșia ca para, și feciorescul său sînișior începu să tresalte de palpituri de bucurie.</p>
+<p>— Bună ziua surată Ionă, zise Voinea prinzîndu-se la joc și stângându-i ușurel mănișuța ei cea de zahar.</p>
+<p>— Bine ai venit sănătos, bădiță Voineo, răspunse încetinel Ioana, silindindu-se a’și stăpâni tremuratul ce vrea să’i dea de gol emoțiunea de care era coprinsă.</p>
+<p>— De mult ai venit?</p>
+<p>— După la prânzcior ; gândeam că și d-ta o să fii tot așa de grăbit.</p>
+<p>— Me iartă surățică dragă, că nu sunt eu de vină cam întîrziat, murmură Voinea cu o voce dulce și armoniosă.</p>
+<p>— Cine a zis că esc! d-ta de vină ? replica țărăncuța cu acel ton întepat și apăsat cu care se servă tote femeile după suprafața globului spre a’și manifesta supărarea și neincrederea.</p>
+<p>— N’ai zise cu gura, dar o arăți cu chipu, și n’ai dreptate, zeu pre legea mea, n’ai dreptate.</p>
+<p>— Dar de unde să am eu dreptate ? esclamă Ióna cu acellași ton răutăcios, are Sultănica din Șindrilari care te face să’ti uiți jurămintele și să’ți calci fagăduelile.</p>
+<p>— Iac’o năpaste pe bună dreptate ! esclamă Voinea, rîzînd cam silit; de unde tătarii ți'a mai dat în cap și astă nagodă, surioră dragă ?</p>
+<p>— Lasă neică, lasă nu mai tăgădui, căci unde tai tu lemnele eu adun surcelele.</p>
+<p>— O fi surată unde o fi, iar aicea n’ai dreptate.</p>
+<p>— Zeu ! dar de unde ai neicuță aceste bete cu mărgele havaii, că acu doă septemănî când jucarăm amândoi la hora de la Făurei nu le aveai?</p>
+<p>— Le am cumpărat de la bâlciu de Sâmbătă de la Panciu.</p>
+<p>— Ce spui? să nu fie alea care le purta Sultănica Duminica trecută la hora de la Izesci ? că prea seamănă ca două picături de apă.</p>
+<p>— Zeu pre lagea mea nu, zise Voinea cu un ton cam ne sigur.</p>
+<p>— Taci neicuță, nu te mai jura, căcî aminterî te crez că esci un minciunos, și îmi iau și eu vorba în napoî. Spune mai bine pe șleau sântul adever, și mărturisesce că’ți sare cățușea în cârcă și’ți face silă, de ciudă că vrei să me ei pe mine de nevastă și nu pe ea.</p>
+<p>— Eu îți spui drept că nu sciă nimic din câte ’mi spuî tu și nici nu cunosc cine e Sultănica aia</p>
+<p>— Vai! de mine câtă minciună ! și Duminică a jucat până seara lăngă dînsa!</p>
+<p>— Am jucat cu cine mi s’a întâmplat să me prind dacă am vedzut că tu nu vii cum ne-a fost vorba.</p>
+<p>— Și întâmplarea a brodit ca să te prinzi tocmai lângă dușmana mea, ai ? tii, că prefăcut mai esci nenișorule!</p>
+<p>— Ia să lăsăm noi vorba asta la o parte, și dacă e pă așea să’mi spuî mie și d-ta, care îmi bagi atâtea ponoase, unde ’mi ai fost Duminică de n’ai venit la hora de la Izesci.</p>
+<p>— Am stat a casă căcî am avut treabă.</p>
+<p>— Zeu! dacă e așa spune unde erai când ’ți a furat năframa Dragomir al lui Moș Onofrei ?</p>
+<p>— Mie năframa! esclamă la rîndul seu Ioana coborînd ochii în jos rușinată.</p>
+<p>— Nu tăgădui Ioano, că nu e bine să’ți minți logodnicu care mâine poimâne are să’ți fie bărbat; mai bine grăesce adevărul.</p>
+<p>— Ce sunt eu de vină dacă e el obraznic și ’mi face dragoste cu sila?</p>
+<p>— Pentru ce te ai dus la horă în lipsa mea ?</p>
+<p>— Pentru că ’mi era urîț să stau singură acasă.</p>
+<p>— De ce n’ai venit unde sciai că sunt eu?</p>
+<p>— Pentru că mama și tata erau duși la Odobesci și n’avea cine să mă ducă la Izesci.</p>
+<p>— Ei și acum ai rămas fără măramă ?</p>
+<p>— Ba zeu nu, căci pe mine nu mă chiamă Sultănica, ca să’mi dau betele pe la flăcăi care sunt în vorba să se cunune cu alte fete, ci cum am vedzut că birbantul îmi smulge marama de la brîu fără să prindz da veste, m’am luat după el ca să-i o iau, și vedzând că nu vrea să ’mi o dea cu binele, m’am dus plângînd la masa, și nu m’am lăsat până n’am luat’o înapoi.</p>
+<p>— Bine, om descurca noî altă dată tote aste socoteli.</p>
+<p>— Nu am teamă, răspunse Ióna ridicând în sus fruntea cu mândrie și pronuncind aceste cuvinte cu acel ton impunător și fără replică ce ese din peptul unei consciințe curată.</p>
+<p>Intr’acest timp intrase în curte mosafiri noi, o ceată de peste doă sute de poterași cu căpetenia lor în frunte, îmbrăcați după moda de atunci, adică în haine turcesci, și luase locuri pe lavițele ce li se aședzase pe lângă zaplaz. Gazda casei, adică tatăl ginerului, cum afla că i se face o așea mare cinste de către oamenii stăpînirei, eși întru întâmpinarea lor în mână cu plosca plină, după obiceiu românesc, semn de pace și îndestulare, și pofti bimbașii și oamenilor sei bun venit.</p>
+<p>După ce se schimbară gratulările obicinuite și se goliră mai multe plosci, bimbașa începu să spue gazdei și bătrînilor satului care se adunase în juru-i, că el și oamenii sei erau trimiși de stăpînire ca să curețe țâra de hoți; pe ei negreșit nu se numera, și că au venit să înconjura și să cutriereze codru Șerbilor, în care, după spusa celor de la Iași, își avea conacul vestitul hoț numit Bujor.</p>
+<p>— Vedzi lucru comedios! esclamă moș popa, noi stăm aici la o palmă de loc de codru Șerbilor și nici n’am audzit de Bujor, și cei de la Iași îi scie și culcusiul unde e! mari oameni trebue să fie ăia după acolo!</p>
+<p>— Mie mi se pare că sunt secături curate, răspunse bimbașea, căci de cinci Și el ne’a făcut să trapădăm și să hoinărim prin pădure în crucișiu și în curmezișiu fără să dăm de picior sau măcar de urmă de hoț.</p>
+<p>— Cine scie cine! o fi legat la gard! murmură socru cel mare.</p>
+<p>— Sunt oameni cu cap haiducii ăia! obiectă moș dascălul.</p>
+<p>— D’ar fi cu capul căt banița tot ași pune mana pe ei dacă așiu sci unde sunt, replică bimbașea cu fudulie, dar cine umblă după icre verdzi mănâncă răbdări prăjite.</p>
+<p>— <foreign>Efendi</foreign>, obiectă ciaușul poterașilor, eu me prindz că noi nu umblăm după icre vertjb și suntem pe urma tâlharului.</p>
+<p>— Iar vrei să ’mi vii la omul teu eu bârsana în spinare ? replică bimbașa cam restit.</p>
+<p>— Iar, fiind că acel om a fost Bujor, cum sunt eu Pavlache Loghiopopulo, ceaușiu de poterași în oștile hatmăniei Mării sale Alexandru Mavrocordat voevod, respunse ciaușul. I’am cunoscut calul, i’am cunoscut boiul, căci el e acel care mi'a crestat ici obrazul dziua namezea mare în lupta de la Cosmin.</p>
+<p>— Ia lasă-mă măi Pavlache cu parimiile tale, replică bimbașea, căci cine face ca mine de se ia după poveștile voastre, o pate ca mine, adică sperie de surda pe oamenii pacinici și nevinovați cum făcui eu mai adineaori.</p>
+<p>— Adineaori dacă me ascultai dai cu mâna de Bujor, murmură Pavlache cu necaz.</p>
+<p>— Cum am dat mai deună-dzi când am ascultat pe tovarășiul teu Spirache! Dacă v'ar crede lumea pe voi, n’ar sci ce să creazâ de acel Bujor. Unul dzice că e nalt, bine făcut, subțire, smead, cu perul castaniu și cu mustăciora plăviță pe buze : altul că e mărunt, oacheșiu, gros, fălcos și cu mustăți negri și mari d’un cot: altul că e mijlociu la statură, cu fața roșie și ciupit de vărsat, cu ochii veriji spălăciți în sânge, și cu perul plăviț și spîn ; altulu că e pitic slab ca un țîr, cu părul negru și creț, și mustățile cătînd a oală. Unul că are nu mai mustăți, altul că are barbă mare ; unul că e tîner, altul că e betrîn, unul că e drept ca un brad, altul că e cocoșat; unul că e cbipeșiu și frumos, altul că e urît ca păcatul în sfîrșit D-dzeu să ve înțeleagă.</p>
+<p>— Toate astea dovedesc că Bujor e un hoț dibaciu! care scie să se prefacă, murmură Pavlache.</p>
+<p>— Me iartă căpitane, dzise popa dar mi se pare că mai adineaori ai că s’a întâmplat nu sciu ce în pădure, care negreșit a pricinuit acele pocnituri de pușcă ce aurirăm mai adineaori. Ce s’a întâmplat tăiculiță, spune-ne așa să trăesci că o sfeclisem ?</p>
+<p>— ei ce să se întâmple? am vdzut un om, nu sciu cine o fi fost, călare pe un cal sereap, pe spinare cu o sarică mocănească și în cap cu o căciulă de bârsană, trecend agale prin mijlocul pădurii fără să se gândească că noi suntem la pândă. Cum l’a vetjut Pavlache al meu a început să strige : iată Bujor, și eu ca un prost am poruncit să se ia după el și să se dea focuri.</p>
+<p>— L’ați omorît? strigă popa spăimântat.</p>
+<p>— Ba nu, căci săracul a rupt’o la fugă în cotro a vezut cu ochii, și a scăpat din norocire teafăr și nevătămat dar fără de sarică, căci i-a cădzut jos din spinare.</p>
+<p>— Bine ca dat D-dzeu de n’ați săverșit morte de om c’ar fi fost păcat: dzise popa scoțînd din pept un suspin ușărător.</p>
+<p>— Bine ar fi fost de l’am fi nemerit, căci atancî hotărît scăpăm de Bujor, murmură îndărătniculu de Pavlache.</p>
+<p>Puțin după astă convorbire hora se sparse și flăcăii și fetele se apropiară de poterașî și începură să se uite la ei cu curiositate, căci p’acele timpuri de umilire, când armata țeriî era desființată și paza poporului lăsată în grija haiducilor, vederea unei cete de omeni armați pricinuia poporului cea mai mare curiositate.</p>
+<p>Bimbașa care era bulgar din nascere, se întâmplase a fi om chefliu și apropiat, pe cât era de arțăgos și respingător locotenentu seu ciauș Pavrache Loghiopopulo care era grec. El începu să vorbescă voios cu băețiî și fetele și să spue la snoave și vorbe glumețe, pe când grecul, uitându-se pe sub coada ochiului, observa cu atențiune toate fisionomiile bărbaților, ca cum ar fi vrut să le scruteze consciințele. Cănd zări pe Voinea tresări, și apropiindu-se de moș popa îl dzice :</p>
+<p>— Taică părinte, cunosc! cine este acel tîner ?</p>
+<p>— Dar cum să nu’l cunosc dacă e baștină de Român crescut sub ochii noștri! și locuesce la o palmă de loc d’aci, adică în tergul Panciu.</p>
+<p>— Îl cunosc! bine, bine de totu ?</p>
+<p>— D’apoi cum nu? când e mai în tot d’auna, când nu umblă după negoțul lui, aici în sat de bedreag cu noi!</p>
+<p>— Ce fel de negoț învîrtesce ? cu ce se îndeletnicesce elu ?</p>
+<p>— Cu strângerea de grâne și de vite, pe care le vinde la Brăila și la Galați cum a făcut moișu seu și strămoșii sei?</p>
+<p>— Este răzașiu sau iobag ?</p>
+<p>— E Vrănceanu boerule; în Vrancea nu se scie ce este iobăgia.</p>
+<p>— Me iartă părinte că eu sunt străin și nu sciu tote alea. Unde e locașiu lui de hrană ?</p>
+<p>— El are mai multe case unde șa de și mai multe petice de moșie lăsate de părinți: una la munte p’aproapede Soveja; alta în preajma Mărăsescilor, a treia în sus de Bacău și o vie cu obrațe în dealul Odobescilor, dar locuința lui de obiceiu este, cum ziseiu, în Panciu.</p>
+<p>— Cine îi lucrează moșiile ?</p>
+<p>— Elu singur, prin oameni plătiți, că este harnic nevoe mare, om slujit și sciutor de carte, căci copilăria 'și a făcuto în curtea boerului de la Mircesci.</p>
+<p>— Ce purtare are el ? e om de ispravă, sau are niscava narăvuri ?</p>
+<p>— E florea flăcăilor din toate satele din prejur.</p>
+<p>— Lipsesce adesea de acasă ?</p>
+<p>— Dar cum ciorele să nu lipsească când el umblă după negoțul seu prin totă țară. Când este acasă însă, atunci își face veacul numai lângă logotnica lui, acea fetișoră mândră ca un soare ce se gudură Lngă el.</p>
+<p>— Ce fel ? se însoară ? murmură grecul oare cum pus pe gânduri.</p>
+<p>— Da, după secerată în câslegile lui sântu Petru o să facem o nuntă mai abitir ca asta.</p>
+<p>— Me iartă tată de supărarea ce ți-am făcut cu atâtea întrebări.</p>
+<p>— Nu face nimica fiule, căci am grăit numai adeverulu.</p>
+<p>Grecul se depărta de moș popa, dar ochii de la Voinea nu’și lua. De mai multă ori se opri drept în faciă-i și se uită țintă în ochii lui, dar Voinea n’avea ochi să vadză d’ai de astea, căci privirea și atențiunea lui era pironită numai spre frumoasa Iona' care asemeni nu'și deslipea ochii de la el. Dacă vedzu și vedzu că căutătura sa mereu ațintită asupră-i nu producea nici un efect asupra lui Voinea și nu’l distra de loc de la preocupațiunea sa, Păvlache se depărtă de dînsulu ca omul ce crede că sa înșelat d’o asemănare, și se duse să se amestece printre camarazii sei</p>
+<p>Ploscile începură să circule cu îmbelșugare între poterași limbele să se deslege și voioșia să se general iseze prin bine fâcătoarea influență a fericitei pome descoperită de tata Noe. Chefliul bimbașea sumese la brău poalele antiriului, se prinse voios cu țăranii la danț, și se puse a trage o sîrbă pe a pajiște mare, să se ducă pomina de danț de beșleagă ; subalternii sei se grăbiră a’lu imita ; mai marii satului nu se lăsară mai pe jos, și într’o clipă țeranii și poterașii, românii și străinii, se făcură tot o apă și se pusă se joace vîrtos. Numai cobea de Pavlache sta la o parte sudând mereu din nas întocmai ca prepeli carul care se simte lângă vînat dar nu poate să’i dea de urmă.</p>
+<p>Pe când danțul era în toiul seu, se audzi un tropot formidabil de copite de calu și Pavlache avu satisfacțiunea d’a vedea mai întăl ca toți, pe cei doi fustanlii lăsați de pândă la capătul codrului, trăgând în silă de căpăstru după ei un cal sereap cu stea albă în frunte, care sufla groznic din nări, asvărlea din piciore și se smăcea întocmai ca un cal sălbatic.</p>
+<p>— A ! strigă cu satisfacțiune grecul sărind din loc și alergând întru întîmpinarea camarazilor lui care aduceau acel cal furios ; iată vorbele mele adeverite, iată dovadă că vederea nu m’a înșelat ; iată calul lui Bujor; <foreign>bimbașa Efendi </foreign>acu n’ai ce să mai zici.</p>
+<p>Bimbașa aurind aste vorbe se deprinse cam cu inima îndoită din horă, se apropiă de cal, se învîrti împrejurul lui, se uită la dînsul cu băgare de seamă și n'avu ce să mai zică, căci dacă era opinii atât de felurite și nepotrivite în privința fisionomiî lui Bujor, nu esista însă nici o contradicțiune în privința semnalmentelor calului lui, a căruî pele avea o culoare cu totul deosebită de a celor alțî cai. Bimbașa rămase dar mut înaintea evidenței, și ne avînd ce să răspunză locotenentului seu, care se uită la el cu un aer triumfător, dzise </p>
+<p>— Sa dam slavă Cerului și să’i mulțumim ca ne-a dat un ajutor așa de neașteptat; căcî cu puțină dibăcie și prin mijlocirea astui cal, putem descoperi cu înlesnire scorbora tîlharului. Să încalice unul din noi pe el iar toți cel l’alțî să ne aținem ici colea după dînsul, căcî el negreșit ne va duce la viziunea hoțomanului, pe care ’1 vom prinde fără de veste și pe nepusă masă ; ai ce credzi Pavlache de părerea mea ? nu e așa că e nemerită ?</p>
+<p>— E plănuită întocmai după gândul meu, răspunse cu fudulie grecu.</p>
+<p>— Atunci dacă e așa, să încaleci tu pe cal, căci esci mai dibaciu și mai cu răbdare de cat noi toți, și apoi să ne luăm după tine.</p>
+<p>Pavlache prinse bucuros și se apropia de cal, începu să’l netezească pe cap și pe lângă coamă, dar șoimanul haiducesc cum simți pe pielea sa mâna de cochinț, ninchezi groasnic, se smuci cumplit, și sucindu-se fără veste la dreapta, lovi pe grec cu pulpa piciorului din napoi și ’l aruncă cât colo d’a rostogolul în țerînă.</p>
+<p>Bimbașea începu să rîză cu poftă de neindemnarea ceaușului lui, se apropiă el de calu cu un pas înțepat și îngănfat, dar cum îl simți calul lângă densul, se smăci din noă și, lovindul cu piciorul din napoi, îl aruncă și pe el cam în acelaș loc unde căzuse bietu Pavlache.</p>
+<p>Vedzîndu’se astefel umilit în facea subalternilor sei, bimbașea, ca ră’și scape ne atinsă demnitatea și amorul propriu de șef superior și în tóte competinte, dete ordin tuturor oamenilor săi ca sa încerce pe rând d'a domoli cumplita! dobitoc, ca încă! s o pață toțî ar niun urna! el, și avu satisfacțiunea d’a vedea tote încercările încoronate de cel mal deplin nesucces, adică d'a vedea pe toți oameni sei răsturnați, loviți, cotonogiți și speriațî de teribilul dobitoc, ale cărui nebunii, din noiocire, nu pricinui nici un accident regretabil.</p>
+<p>Intr’ast timp Pavlache nu perdea din ochi pe Voinea, ci se uita țintă mereu spre el ca cum inima ’i ar fi spus că între el și năbădiosul cal esista oare-care legături tainice; dar de geabă fură toate spionările lui, căci în mușchii trăsurilor lui Voinea nu putu descoperi alt de cât mirarea și curiositatea ca p’alle tuturor celor alți spectatori.</p>
+<p>Vezînd că nu scoate la cale cu spionaju, se apropiă de cal, și despletind după cotul mănei sale un biciu gros și nodoros, legă calul de un copaciîi gros din bătătură, începu să’l bată într’un mod cumplit peste nas, peste bot, peste ochi și pe sub burtă pe unde doare mai reu, doar mila va da de gol pe stăpânul lui, dar Voinea nu se arăta mai milos de cât cel lalți, nici mai rece ca ei în fața unuî spectacol așa de neomenos.</p>
+<p>Vedzend că nicî cu chinuirele n’o scoate la cale, făcu cu ochiu un semn bimbașiî și acesta dzîse adresându-se către țeranî :</p>
+<p>— Ia cercați și dumneavoastră, care sunteți mai deprinși cu caii de munte, să vedem dacă sunteți mai norocoși.</p>
+<p>Țeraniî se puse cu ardoare la astă cercare, care reaprindea în animele lor firescele lor deprinderi cu luptele vitejescî; flăcăi și bărbații mai în vîrstă dovediră că în adever erau mai esperimentațî în mânuirea cailor selbaticî ; unii din ei isbutiră chiar d’a se urca pe spinarea lui și da-i apuca frânele în mână dar nici unul nu putu să se menție pe spinarea lui, căci năbădăiosul dobitoc începu să sară în loc în piciórele dinainte și dinapoi și nu se oprea până ce nu se vedea scăpat de povară, pe care o aruncă cât colo la păment.</p>
+<p>— Ia să fac și eu o încercare, dzise în și Voi-nea, vedzînd mai mulțî camarazi rostogoliți la pămînt rușinați și cotonogiți ; să’mi încerc și eă într’o doră norocul, căci cat am fost în curtea boerească am dumesnicit mulțî cai selbaticî aduși din pustietățile Bujeacului, și dacă nu’i-oiu face eu de petrecanie, să scițî că nici dracul nu’i vine de bac.</p>
+<p>— Se va da în sfîrșit de gel, dzse în sine Pavlache scoțînd un mic țipet de satisfacțiune, cercând cremenea de la pistdalele ce avea înfipte în brîu. Din, nenorocire însă bucuria sa n’avu lungă durată, căci cum simți mâna lui Voinea pe lângă gâtul seu, calul se smăci și mai cumplit, rupse hățurile cu care era legat de pom și o reteză d’a fuga prin curte, aruncând cu picioarele de dinapoi de ridica în urmă’i un nor de praf și de bolovani de păment.</p>
+<p>Voinea însă în loc d’a se da drept bătut, se agăță vîrtos de coma lui, începu să fugă alături de el tot așa de repede ca și dînsul, și când simți că ’și-a făcut în destul vînt, se repezi în sus, și căzu drept pe spinarea lui. Calul în loc d’a se da de învins începu să sară când în picioarele din nainte, când în cele din napoî, să fugă într’o goană vîrtegioasă aplecându-se când la dreapta când la stânga, mai să dea cu șoldurile de pămînt, dar Voinea se făcu scaiu cu manele înfipte în coama lui ti cu picioarele încolecite sub burta sa, și se lăsa a fi smăcit și bălăbănit de furio-lus cursier fără să’și piardă de loc cumpătul,</p>
+<p>In decursul acestei lupte supreme între om și dobitoc, între dibăcie și selbătăcie, toate sentimentele străine închietudinei ce pricinuia desîegarea acestei res-boiri încetară ; chiar Pavlache uită bănuitorele sale cercetări și nu se gândea de cât a privi cu nelinisce la toate peripețiile astei înourrări primejdioase și a lua chiar oare-eare măsuri de precauțiune la ca de catastrofă.</p>
+<p>încă de când rupsese calul șleaul, lumea speriată se retrăsese spre tinda casei și spre laturile gardului, lăsând câmp liber luptătorilor ca să se combată în voe. Intr’astă alergare rotită, Voinea trecuse de mai multe ori pe lîngâ draga lui Ioana, care pe jumătate leșinată, privea plină de groză acea în-currare de care spânzura viața iubitului său, și de mai multe ori îi trămisese în treacăt cuvinte încuragiatóre ; când mai trecu însă încă o di tă mai ars ca ori când pe lîngă dînsa, Voinea întinse măinele, o apucă repede cu o mână pe sub mijloc și o aruncă cu totul leșinată d’a curmeziș’ul pe cal; dapă aceia sburâ ca o nălucă pe lângă Pavlache, care deschisese ochii mari de tot, și cât clipesci din ochi, și mai na-inte d’a se desmetici cine va din uimire, întinse a doua mană, în care ținea un pistol ascuns pe sub betele brîului, îl descărcă drept în facia grecului, apoi scose din pept un țipet ascuțit, și sălbaticul cursier ciuli urechile, se supuse frîului, se repedzi spre gard și sări împreună cu îndoita sa povară dincolo de gard peste țăruși și oamenii fără ca măcar să ’I atingă.</p>
+<p>— Bujor ! stiigă toată mulțimea înfiorăndu-se cu groază.</p>
+<p>— Foc, foc spre el, strigă și bimbașa, tocmai când îndrăsnețul haiduc intra în dumbră viora de dincolo de gard.</p>
+<p>— Nu dați, îndurare stapîne, nu dațî că’mi omo-rîțî copila, strigară doî unchiașî, un bătrîn și o babă, părinții Idnei eșind din mulțime și îngenunchind la picidrele străinului; nu ve faceți păcat că’mi omorîțî de surda fata, adaose unchiașu sărutând cu transport pdla hainei veneticului.</p>
+<p>— Foc, vă dzic, că ne scapă tîlharul și ne spânzură pe toți pârcălabul, esclamă din noubimbașa, desfăcîndu-se brusc de îmbrățișările bătrînilor, care căzură grmadă la pămînt scoțînd căte un gemet dureros.</p>
+<p>— E prea târziu, cinstiți boeri, replică popa, care nu perduse din ochi pe haiducu în fugă, și’l urmărise cu vederea cu o stăruință, în care poterașii, dacă ar fi fost in mințile lor, ar fi cetit cel mai viu interes. Uitați-ve a și intrat în pădure și d’acolo nici tătarii nu’l scdte.</p>
+<p>— După el copii; cine l’o prinde viu sau mort are de la mine 4ece pungi cu bani, strigă bimbașa eșind în fugă din curte în fruntea oamenilor săi care încă nu eșise de tot din zăpăceala ce le causase astă faptă îndrăsneață a vestitului cupitan de haiduci.</p></div>
+ <milestone unit="footer" type="line"/>
+<div type="chapter">
+<head>IV</head>
+<head>STRUNGA HANGULUI.</head>
+ 
+<p>Până la jumătatea secolului al XIX; supranumit secolul luminei, trei părți din pămîntul Moldovei și al țărei Românesci era acoperit de nisce paduri falnice și stufoase, care de când lumea nu fusese atinse de secura pădurarului; astădzi lumina a pătruns până și în păduri, căci unde mai nainte domnea cea mai deplină obscuritate în mijlocul acum omul se prigoresce vara de arșița soarelui și iarna înghiață bântuit de asprimea frigului.</p>
+<p>Acolo unde acum se întinde cămpii întinse goale de orî-ce urmă de vegetație, p’atuncî cresceau falnici nisce codri magnifici înconjurați de o vegetațiune luxuriantă, sălașiu nepetrunzibil pentru haiduci și fiare sălbatice. Monăstirile mai cu seamă erau ocolite de nisce veritabile speluncî. Iată pentru ce haiduci! erau pe atunci în așa mare prosperitate și pentru ce elenii grecesc nu prea s’a încuibat prin chinoviile depărtate de orașe!</p>
+<p>Intre amândoă țările Române, Moldova era cea mai ădurósă, și strunga Hangului cea mai mare și mai deasă dintre pădurile monastiresci. Acea strungă era virgină in totă puterea cuvîntului; eea mai mare parte din ea nu vexase așcuțitul toporului de când eșise primul lăstar din pămînt, și pajiștea de sub uriașii sei copaci nu fusese brăsdată cu poteci de nici o urmă de păsuri omenescî. Abia lupii, urșii, vulpele, rîșiî și câte un plăpând epurașiu călcafi cu labele piciorelor lor frunza cea uscată ce acoperea de veacuri acele locuri isolate. Monăstirea nu era clădită drept în mijlocul pădurei, ci la o parte, la marginea dreaptă, pe o moviliță din capătul codrului, adică tocmai unde copacii erau mai rari și mai tineri. Imprejurimele monastirii erau cutreerate și dziua noptes de călugurî și închinători, secura resturnase mulți bușteni prin preajma locului și chiar ferul plugului se înfipsese în pămînt pe ici pe colo, dar mai departe spre laturea stângă a drumului ce conducea la chinovie, nimeni nu cutezase să înfrunte prăpăstiile speluncelor și desimea copacilor, de teama fiarelor sălbatice, care, după spusa călugărilor, erafi în stare să sfâșie omul în mijlocul verei și dziua nămiaza mare.</p>
+<p>Toată lumea credea că acele spelunci, în care soarele nu pătrundea nici o dată, erau pustii și necălcate de picior omenesc, și cu toate astea într’una din dzilele lunei lui Iunie din anul 1786, un foc viu strălucea prin desișul frunzelor și un fum gros plana pe d’asupra copacilor, chiar în anima pădurei. Dacă s’ar fi văzut din marginea pădurei sau de la mănăstire acel foc licăritor, negreșit toată lumea ’și ar fi scuipat în sin, și făcendu-și cruce ar fi dzis cu siguranță, că s'a deschis iadul și s’a ivit necuratul spre a pedepsi omenirea pentru multele sale păcate; dar din norocire pădurea era mare, foarte: deasă și brăsdată cu văgăuni adănci, în cât sătenii din cătunele vecine și sfinții părinți din mo-năstire, nu văzură nimic și se culcară în pace o dată, cu găinele.</p>
+<p>Pe când lumea de afară se astâmpăra și se arunca fără grijă în brațele somnului, focul misterios se a-țăta într’una și într’una se împrospăta de către cinci șase ființe înfășurate în nisce ipingele negre, care stau tolănite pe saltele de frunte uscate împrejurul focului, și care semenau mai mult a voinici de codru, de cât a demoni.</p>
+<p>— Câte ceasuri o fi măi Hărgot? dzise unul dintre voinici, aruncând d’asupra văpăi un maldăr de ratini uscate.</p>
+<p>— O fi câte-va, măi Coșmeliță, căci cucuvaia din ulmul scorboros a cântat pănă acum de trei ori.</p>
+<p>— Și pănă acum n’a mai sosit nici unul dintr’ai noștri ! esclamă un al treilea tolănindu-se pe iarbă..</p>
+<p>— Ce ’ți e frică de dihănii, m[i Țandură ? întreba Hărgot cu un ton luător îu rîs.</p>
+<p>— Mie frică ! replică cu o voce detunătoare Țandură, lovind cu putere paturile pistoalelor care’i orna încingătoarea de la brîu; se vede neică Hărgot că ți s’a urît cu haiducia, de ’mi grăesci astfel!</p>
+<p>— Ba nu mi s’a urît vericule, răspunse Hărgot cu același ton, dar pe semne că ție ’ți a plesnit în cap să te faci arnăut domnesc, de nu ’ți mai place să mai stai singur în codru.</p>
+<p>— Hărgot, striga acesta cu o voce detunătoare sărind în sus și scoțînd de la brîu doă pistole, pe care le îndreptă spre camaradul seu, hotărît că n’ai să mar vedzi lumina de mâine Și fără să ascepte replică, furiosul haiduc trase piedeca cocoșiului și două pocnituri sburară în spațiu spre a fi repetate de mii de orî de către aprigul ecou; glonțele însă în loc d'a se înfige în peptul lui Hărgot, spre care fusese îndreptate, șuerară printre frunte și sburară în văzduh pe d’asupra copacilor, căci o mană nevăzută apucase pe la spate brațul haidncului și 'i strâmbase direcțiunea.</p>
+<p>— Dzii Țandăra si lasă-l în pace, dzise după aceia o voce de la spate, și îndată se ivi în zarea focului o noă ființă omenească, un tinerel scund, dar chipeș și bine legat.</p>
+<p>— Codreanu ! esclamară cei alțî haiduci sculându-se de jos și salutând respectos pe noul venit.</p>
+<p>— Ei ce noimă a mai avut și ăsta nouă ceartă ? dzise Codreanu așezându-se și el la toc lângă camarazii sei.</p>
+<p>— A vrut să'și râdză de mine, strigă Țandără ca un ton necăjit</p>
+<p>— Am glumit Codrene taică, replică Hărgot, care se esprima astfel fiind că începuse să cărunțească; nu lua și tu în seamă tote snoavele unchiașului.</p>
+<p>— Ia ascultați, zise Codreanu cu resfire, căpitanului nu ’i plac nici glumele nici gllcevile, și când pedepsesce nu glumesce ; aide dați-vă mâna și gloanțele păstrațile pentru dușmani.</p>
+<p>Țandără dete cam fără voe și cam mărăind cu fostul seu dușman, mănă ce vrusese să’l curețe din lume cu un minut mai nainte, dar în sfârșit o dete căci n'avea ce face, căci căpitanul care nu glumea, nu scia altă pedeapsă de cât ștreangul, păstrând glonțele pentru dușmani; de aceia baeții și camarazii sei i se supuneau orbesce. Hărgot însă care era mai bun la animă, el întinse mana mai cu voie bună acelui ce era sâ’l șteargă din numărul celor vil, și uită cu totul necazul.</p>
+<p>Intr’ast timp pădurea pustie și tăcută începu să fie ne întrerupt turburată, când de urlete de lupî^ când de lătrături de câini, când de miorlăituri de pisici, când de chelălăituri de vulpi și de țipete de bufniță, și după fie-care glas de dihanie, apărea în cercul luminos câte o ființă omenească sau câte o grupă de două sau trei individe, în felurite costume țărănesci și tergovețe, care, cum soseau în dreptul focului intrau într’un desișiu de crîng din apropiere, și după o lipsă de câte-va minute eșau cu totul transformați, adică, din nisce ființe sfiose și inofensive, se schimbau în nisce haiduci groasnici la înfățișare și armați până în dinți cu pusei, pistoale, iatagane, cuțite și alte u-nelte de destrucțiune.</p>
+<p>Cum eșeau din crîng, acești noi voinici se apropiau de foc, dau mana în tăcere sau într’un mod sgomotos, după temperament, cu cel sosiți de mai nainte, și îngroșeau mereu grupa ce sta pitulată pe lângă foc, până ce pâlcul de cățî-va omeni se schimbă într’o ceată de aproape două sute de inși ; o veritabilă armată pentru acele vremuri.</p>
+<p>Era curios și instructiv aspectul acestei masse de oameni strînșî împrejurul unul foc mereu crescând și asceptând în linisce sau cu neastâmpăr desfășurarea unor evenimente ne prevăzute, foarte adesea periculoase și mai tot d’auna sângeroase. Eisionomiele lor era o adevărată colecțiune de tipuri, și vîrstele lor curat o scare cu tdte treptele etăței omenesc!. Se găsea întră el tot soiul de vîrste : copii, tineri, bărbați și bătrînî, de la 15 până la 60 de ani; tot felul de fisionomii de la heruvimi omenesci, pană la scbi-lodenii monstruoase ; o colecțiune întreagă de chipuri frumóse, potrivite, mal așea, urîte, spâimăntătoare; cu pelițe albe, rumene, roșcate, smeade, ocbeșe, arâmii, aprope negre ; cu boiuri nalte, mijlocii, merunte și pitici. Unii erau cu fisionomie simpatice, inocente ori indiferente, alții cu înfățișări respingetore. viclene, răutăciose, stupide, deștepte, diavolice; în fine mai tote variațiunile lăsate de natură spre a împestrița neamul omenesc.</p>
+<p>Aceste individe adunate pentru un singur scop : ținta d’a jefui la drumul mare sau în păduri, în sate și chiar orașe pe cochinții apăsători sau pe străinii groși la pungă, ceia ce era tot una pe atunci, din cauză că Romanii sărăcise, boerii calicise, străinii de alte neamuri nu făceau stare, ci numai grecoteii din Fanar se îmbogățise, și devenise fruntașii țerei. împinși la plecarea d’acasă de diferite imbolduri, ei luase flinta haiduciei la spinare, unii fiind revoltați de asupririle cu care autoritatea vitregă năpăstuia pe sărmanul popor, alții alergase în codru alungați de biciul cu trei sfircurî al arendașilor asupritori, unii se făcuse haiduci ca să’și resbune contra acelor ce vindeau dreptatea pe bani și’i despoiase de răzășia strămoșească spre a o da la parpaleți; cei mai mulți fusese urniți d’acasă de dragostea de a se face păunașl de codru, și o parte destul de bunicică alergase în creeriî strungilor îndemnați de lenea de a munci, de pofta d’a se îmbogăți repede, de firea cea rea și sângeroasă ce le dădusa natura. Cum vedeți ațâtea caractere deosebite câte fisonomii, atâtea țeluri opuse câte ființe; tote acestea trebuiau conduse într’o deplină armonie și spre un singur scop, de un om cu însușiri superiore și cu o înaltă artă de a guverna. Cum vedeți posițiunea de căpitan de haiduci nu era o sinecătură, și Bujor, comandantul lor, nu putea fi un om de rînd, dacă putea să satisfacă atâtea aspirațiunî, să cârmuiască atâtea înclinări și să astâmpere atâtea pofte. Dar cârtirile uemulțu-miților și ale invidioșilor cătă bătaie de cap îl da ca să înlăture revolta dintr’o massă de oameni atât de variată și atât de certată cu ascultarea ! . . .</p>
+<p>Intre cei ce sosi mai în urmă în strunga Hangului fu un om scund, oacheșiu, cu ceafa groasă, mustățile negre și lungi până după urechi, cu chica ca abanosul, căzind în bucle legate pe latul seu spate ; cu sprîncele negre, grose și îmbinate, cu nasul pleoștit pe buse, cu gura mare și busele late, cu un cap gros, urechi mari și gîtu scurt cu o talie grosă și burtósă, cu măinî scurte, piciore mici, un adevărat tip de boloboc, dar cu toate astea agil în mișcările lui. Ochii acestui individ verdzî spălăciți nu stau nici o dată astămpărați în orbita lor sângerosă, și buza lui era în veci contractată de un surîs sarcastic și batjocoritor. Gura lui nu tăcea de cât numai când vedea că se îngroașe gluma, atunci își lua vorbele înapoi spuind c’a șeguit. Căpitanul chiar nu era cruțat de mușcăturile lui, mal ales când lipsea, dar căpitanul nu lua în serios înțepăturile mușcăturile lui veninose, care adesea deveneau primejdiose, și acest despreț îl desaspera pe flecar.</p>
+<p>Din causa ăstor însușiri firesci, camarazii sei, pe lângă numele seu de Ion, îl dăduse și porecla de 
+<hi>Bot de năpărcă.</hi></p>
+<p>El cum intră în cercul luminos al focului, după ce eși din stufișiu unde își schimbase portul, nu dzise ca tot omul camarazilor sei : nópte bună sau bine v’am găsit sănătoși, ci’și roti ochii în juru-î și esclamă cu un ton de satisfacțiune ;</p>
+<p>— Mă prind că nici acum nu e căpitanul intre voî.</p>
+<p>— Nu, răspunse Hărgot.</p>
+<p>— Nu ’ți am spus eu de aqju dimineață că n'o să vie nici astă nopte? replică Bot de năpârcă; cine scie cu ce catrință de fată sau nevastă ’și o petrecând el desmierdări, pe când noi ne prigorim sub focul carabinelor poterașilor.</p>
+ <p>— Ei, si ce ’ți pasă ție dacă e sau nu căpitanul, între noî odată ce sunt eu aici ? esclamă Codreanu apropiindu-se de <hi>Bot de năpârcă</hi> cu mâinele rezemate de paturile pistoalelor ce-i erau înfipte în brîu, și măsurîndu-l de sus până jos cu o privire provocătorc.</p>
+<p>— Ei și dacă esci tu ! replică Ioniță aruncându-i o căutătură desprețuitore, tu nu esci căpitanul.</p>
+<p>— Sunt vechilul lui, răspunse Codreanu ridicând fruntea în sus cu mândrie.</p>
+<p>— Tu vechilul lui Bujor! esclamă <hi>Bot de năpârcă</hi> isbucnind într’un rîs sgomotos; șterge-ți nasul măi băiete, că încă nu ți s’a uscat.</p>
+<p>— Ioniță ai să te căesci ! strigă Codreanu cu un ton detunător, dând fisionomiei sale, cu totă frăgezimea juneței, o înfățișare împunătóre, și aruncând din orbita ochilor sei nisce scăntei ardzutore.</p>
+<p>— Ce te ai supărat plodule dac’am vrut să glumesc o țîră ? întrebă Ioniță cu un ton care ca prin farmec se făcu dulce și blajin ; ia lasă la tătaiiî mănia că nu e bună de nimic, și să ne gândim la ale ndstre, la folosul nostru obstesc, tară fudulie că unul e mai mare și altul mal bătrân, căci aminteri</p> 
+<gap unit="pages" extent="2"/>
+
+<p>— Ce spui tu măi de grabă ’ți o fi? esclamă rînjind Ioniță cu un aer îndrăsneț și un ton dîrz; ce pe la voi omnl care spune adevărul se spânzură de mucoș! ca al de tine ? Ce gândesc! așa merge treaba cu una cu două, măi? hă! hă! hă! că hătru mai esci!</p>
+<p>— Nu sunt nici hătru, nicî mucos, ci om în toată firea și în mințele mele, care mă gândesc și judec cu totul șiartul; dar nu gură rea și treabă rea ca tine! dar ce să clic! nu trebue să mă mir de loc de ceea ce faci tu, căci așa te-a făcut măta, flleoncă cățăitătoare, care șa ațâțe pe alții la rele și el să nu fie vrednic să se măsoare nicî cu un purece. Me mir numai de Hărgot, de Țărăngoiu, de Țandnră și de Coșmeliță, oamenii în totă firea și voinici care nu dă dosul în facia primejdiei, me mir de ei că dă ascultare unu! farfara și’lu îmbărbătează să tae la burețî de surda, cu tote că toți scie că acestea toate sunt fleacurî curate. Dar cine v’a pricopsit pe vo! mă! ? cine v'a făcut din pălmaș! nevoiaș! și fără rost, fruntașr cu câte șease perechi de boî, cu vaci, o! și ban! buluc Ia chimir? Bujor săracul, Bujor pe care acum îl ocărîțî, Bujor pe care vreți să’lu răsturnați, Bujor căruia î! sunteți dator! pănă și viața. Dacă. nu era el, mă! Țărăngoiu, așa e că te lua poterași! care pusese mana pe tine la încăerarea de la Cosmin, și pănă acum bănănăia! în furcî?</p>
+<p>Așa e, ce ce dreptul, murmură Țărăngoiu șiop-tind abea în buze umilit și rușinat.</p>
+<p>— Așa e mă! Hărgot că fără el te manca fript parpalețiî care pusese ghiara pe tine când cu călcarea de la Mușătesci.</p>
+<p>— Așa e, murmura și Hărgot cu vocea mai francă.</p>
+<p>— Și tu Țandură, și tu Coandă și tu Coșmeiiță, și tu Usturoiu, mai v’ațî resfăța voi acu sub umbra mândrului codru, dacă nu ar fi fost Bujor care să ve scape din feluritele toroape în care ațî căzut la Găvanele și Poiana Mărului în Muntenia, la Moinesci și Agafton la noi dincoa, și la Girgani dincolo peste Prut. Dacă el nu și'ar fi pus viața lui în primejdia pentru a voastră ați mai fi în viață acum ?</p>
+<p>— Nu, murmurară cei patru.</p>
+<p>—Și cu toate acestea acum vreți să’l dațî de gît să’lu resturnațl, să puneți pe altul în locu’i, pentru că nu-i mai place ochii logofătului Ioniță Bot de Năpârcă, limbă de șearpe, inimă de Iudă, viteaz între cel mal viteji și ne fricos între cei mai nefricoșî, care intră în doî ca în doi-spre-zece și nu poată să-l scoță nici doă-zeci și patru!</p>
+<p>— Hă! hă! hă! esclainară toți haiducii într’o isbucnire de rîs.</p>
+<p>— Și pentru ce pricină fotă astă ură pe d-lui ? oare pentru că nu l’a îmbogățit și pe d-lui ? din potrivă, era nevoiașul nevoiașilor, nemernic la nemernici, argat la argați, gol pușcă și fără opinci în pici ore, și Bujor ’l-a făcut om cu chiag, chiabur între cei mai chiaburi, căpetenia fruntașilor din satul lui, póte că l-o fi lăsat pe el de mai în vr’o primejdie, pe când pentru alții s’a făcut luntre și punte că să’i scape dar nici asta nu e măre, căci pe el l-a scăpat din ghiarele morții de trei ori; așa e mai gură veninósă ?</p>
+<p>— Cine tăgăduesce binele ce mi’a făcut, murmură Ioniță bosumflat, căci vedea bine că vorba lui Codreanu începuse să schimbe facia lucrurilor și să potolească furtuna.</p>
+<p>— Atunci pentru ca cărtesci? pentru ce te plângi de el, pe cătă vreme îți umple mereu chimiru și ’ți încarcă într’una desagii după urma lui? Poate te simți mai destoinic ca el, mai cu cap ca el, mai viteaz ca el ? așa să fie măi Bot de Năpîrcă ?</p>
+<p>— Cine ’ți tocănesce toate astea? murmură cu același ton Bot de Năpîrcă.</p>
+<p>— Tu destoinic ! tu care dac’ai fost trămis o dată de căpitanu, o singură dățică, cu doi agiamii de cu-rînd venițî ca sa puneți mâna pe un grecoteii! care mergea singur pe drumul mare, te-ai întors pe jos perdut de tovarășii tel, bătut măr și jefuit de grec. Tu cu cap? tu care dacă o dată te-ai întâlnit piept în pept cu un poterașiu, care ’și vedea de treabă mergînd pe drumul mare, fără să tecunoscă, n’ai trecut pe lângă el ars ca cum usturoii! n’ai fi mâncat, ci ai luat’o rasna în gona calului înapoî spre tabără și ai venit glonț la noi în codru Adjudului, cu poterașiul cât colea după tine, cu care prilej am fi perit cu toții dacă Bujor n’avea cap și nu fugea cu noi cu toți prin potecî ascunse pănă să nu ne înconjoare potera Despre vitejia ta nu mai vorbesc, căcî este sciut de toți că inima ți se face cât un purece ori de câte ori pleci la vr’o ispravă, și că căpitanul te ar fi dat de mult ca p’o măsea rea din ceata sa, dacă nu’i era milă de copiii tei și nu te scia nevrednic d’a te hrăni cu munca. Dacă toate sunt ast-fel precum în adevăr sunt, pentru ce ore îlu dușmănescî ?</p>
+<p>— Eu nu ’lu doșmănesc, murmură Ioniță din ce în ce mai domol, ci dzic numai că ar fi bine să stea mai mult cu noi.</p>
+<p>— Și ce să facă mereu cu noi aici ?</p>
+<p>— Ce facem si noi.</p>
+<p>— Dar el e ca noi ? grija lui e numai cât a n6s-tră? el are numai o ceată? și păstrarea acestor cete nu’lu îndatorează pe el să îngrijească de paza oamenilor sei ? Măi de geaba stai tu lângă el, căci n’ai fost în stare să’lu pricepi. Voi fraților sciți mai bine ca acest nevoiaș, urmâ Codreanu, adresându-se către cei alțî camarazi, că capul lui este pas la preț, și că pe lângă bani mulțî să hârădesce și ertarea oricărui nevoiaș, care ține minte binele cum ține ciuru apa ; ce trebue să facă el ca să scape de atâtea curse ? Ca să amăgească prigonirele vîndătorilor și să ne pădească pe noi neatinși, e silit sa șî schimbe fața și să ste între noî fără să’lu cunoscem. Ca să scane de goana poterașilor e nevoit să fugă de la Dorohoî la Covurlui și de la Neamțu la Fălciu, făcând felurite negustorii sub nume și chip de om de treabă, cunoscut de lumea toată, și ca să adorme ori-ce bănuelî trebue să mai stea și prin sate pe lângă fete și neveste, că ele au limba mai lungă și poate să tragă mai lesne cu urechia lucruri care să’lu scape de multe primejdii. Cuî să dea prin cap că groasni-cul căpitan este acel făt frumos care joacă într’una la horă sbeguindu-se cu codanele ? Toate le face măre pentru binele vostru, și voî mai cărtițî! și voî care ’i sunteți dator tot, ve folosițî de bine-facerile lui fără să se găsească dintre voî unul măcar care să’i ia apărarea încât sunt nevoit să ’i o iau eu, eu un mucos, cum dzice Ioniță, un venetic de erî de alaltăieri, care n’am apucat să’i fiu dator cu nimic, dar am apucat să ’li înțeleg și să sciu cât îi plătesce pielea ? !...</p>
+<p>— Codrene frate, dzise Hărgot înduioșat, întindîndu-i amândoă măinele, ai vorbit ca un Dumnezeu, am greșit, iartă-me; viața mea întreagă este a lui Bujor.</p>
+<p>— Iartă-mă și pe mine, dzise Țandără cu vocea sa cea bruscă, așa pate cine se ia după muște.</p>
+<p>— Și pe mine, și pe mine, și pe mine, strigară toți haiducii.</p>
+<p>— Eu feții mei, n’am să ve ert nimic, dar vă po-vățuesc să aveți încredere în Bujor, că el scie ce face și ve iubesce.</p>
+<p>— Avem pe viață și pe morte; trăiască Bujor ! strigară toți haiducii entusiasmați.</p>
+<p>— Trăiască Bujor, strigă la urma urmelor și Bot de Năpârcă ne mai avend în cotro.</p>
+<p>— Vă mulțumesc băeți, răspunse o mogăldeață neagră, care se ivi fără veste în mijlocul lor fără să se scie de unde și pe unde a venit; dar acum nu e vremea de înduioșări și litanii, ci de treabă ; luați în fugă iarbă și gloanțe multe, umpleți-vă dăsagil bine cu merinde și năvală la cai, că avem o treabă bănoasă de tot dar primejdiosă.</p>
+<p>— Primejdiosă, esclamă Ioniță înfiorându-se.</p>
+<p>— Da primejdidsă, respunse noul venit care nu era altul de căt Bujor; dacă ’ți-e frică tu poți să remăi.</p>
+<p>— Ba nu rămăîu căci cu tine nu ’mi e frică nici în iad. Aideți băeți, trăiască Bujor!</p>
+<p>Intr’o clipă doă sute de voinici tot unul și unu fură încărcați cu arme și muniții și călare pe caii scosese din inima pădure! unde păsceau dzina și noptea când n’aveau de lucru.</p>
+ <gap unit="graphic"/>
+ <p>Bujor... ridicând d asupra capului șeii o ghioagă mare și grea de rădcină de alun, ferecata cu cue de oțel, o repedi cu o adresă surprindzătoare și o lăsă să cadă cu greutate drept în fața inamicului. Pag. 57</p>
+</div>
+<div type="chapter">
+ <head>V.LUPTA DIN PĂDUREA DOCOLINEI</head>
+<p>In Moldova ca și în țara Românescă era obiceiu ca cu ocasia sărbătorilor turcesc! numite Baeram să se trimită la înalta Portă haraciul consfințit prin felurite tractate, precum și ploconul de bairam, care consista în mai mulți cai, mai multe bordușe de unt și 360 pungî de bani, adică 180000 de le! vechi.</p>
+<p>De obicinuit acei bani și acele plocoane se trimeteau prin boerî mânați într’adins la Gapuchehaiaoa țeril din Stambul, care îi da în mâna marelui vizir și pentru care primea răvașiu de primire de la marele hasnatar.</p>
+<p>Une orî însă, când guvernul turcesc avea lipsă mare de bani, trăiuitea ei însuși pe cate un funcționar într’adins, sau pe câte o pașe de pe marginea Dunărei mai nainte de soroc ca să ’și primescă dreptul seu de suzeran, și forte rar se întorcea cu mâna golă, fiind câ plata haraciului era însoțită de mai multe contese și firmane de învestitură, iar refusul atrăgea după sine o mazilie sigură. Pas de refusă !</p>
+<p>Domnii după atunci care n’aveau nici o milă de țară sau dur de păsurile sărmanului popor, de care era înstrăinat și prin sânge și prin sentimente, daca avea bani plătea și petrecea ne trămis până la Dunăre cu o escortă cuviinciosă, al cărei cap lua de la trămis răvașul de primire și nu se mai făcea vălvă, iar daca visteriea țerei era golă, ceia ce se întîmpla forte adesea, atunci se mai complica lucrurile. Vodă nu deschidea de loc visteriele domnesc! nici se atingea de veniturile domenielor, care asemeni erau apanagiul trănului, ci orânduia numai de cât cisiă peste iote braslele și isnafurile; impunea cate o ludă extraordinară, și daca nu se ajungea sau nu se găsea nimic ca să ia jecmănii ce să năpusteau cu urgie peste țeră, atunci puneau la glóbă mănăstirile pământene și câți fcoerî Român! mai rămăsese cu avere, ferindu-se ca de foc d’a se atinge de veniturile monastirilor închinate și de averea boerilor venetici.</p>
+<p>In timpul domniei lui Alexandru Mavrocordat Deli Beiiî, Turcia avu forte multe strîmtorări, fiind că se pregătea în ruptul capului de resboiu cu Nemții și Muscalii, care după tote probabilitățile erau gata să-’i caute certă, și trămesese de multe ori pe pașalele sale ca să strângă din Moldova și Țara Românescă și ce avea și ce n’avea să ia. Vodă ar fi avut de multe ori dreptul să refuse, dar nu făcu nici o împotrivire, ci cum primi poruncă împărătescă numai de cât își trimise sbiriî cubicele în mână și-i asmuți spre săracul popor, care nu sciu de unde ma! scotea globe și angarale câte erau pe capul său. Dintr’astă causă o mulțime marș de Români strănepoți ai verdzișiorilor lui Mihaiu Viteazu și panțirilor lui Ștefan cel mare, uitară vecinica ură ce esista între e! si Turci, și trecură Dunărea spre a se stabili de veci : Olteni! în Serbia, Muntenii în Bulgaria și Moldovenii în Dobrogea, și Bugeae, sub oblânduirea acelui guvern vitreg și apăsător de care țipa pruncul în pântecele mumelor Șerbilor, Bulgarilor și al Dobrogenilor, dar care nu era atât de vitreg ca al Fanarioților din țara Românescă și Moldova.</p>
+<p>Se vede că Pórta Otomană era din nou la aman, pentru că pe la începutul lunei lui Iunie din anul mântuirei 1785, trămise din nou pe pașa de la Măcin cu ordin d’a cere de la Domnul Moldovei tributul și ploconul obicinuit pe anul de la begiră 1161. Acel funcționar informându-se că drumurile în Moldova nu prea erau sigure, din causa mnlțimei de haiduci ce populau pădurile, trecuse Dunărea însoțit de cinci sute ianicerî anatolițî, cel mai mulțî negri ca tăciunele și spurcați la sânge; și ajungînd la Iași, trăsese drept la palatul Domnesc și se constituise ca oaspete al țerei cu ianiceriî lui cu toți până ce vodă va face de bani.</p>
+<p>In acele vremuri se întâmplase, ca mai tot-d’auna, ca vodă să n’aibă bani ghiață în vistierie, și până să strângă ceva, să mai trecă ore-care cantitate de apă pe Bahlnî: Pașiaoa nu se păru de loc grăbit, ci stătu locului pe bere și pe mâncare doă septemânî încheiate, în cât nu se mai găsea orez și cirvișiu îu piață, iar după ce se vedzu la chimir cu sumușiora sciută și pe d’asupra cu un ploconașiu deosebit pentru obrazul efendiei sale, a-tuncî nu mai vru să stea o diulică mai mult și șî aduse aminte că era grăbit și asceptat-</p>
+<p>In acele vremuri tocmai se întâmplase să domne3că în atmosferă o căldură de ferbâu apele și ardeu petrele, în cât călătoria în timpul dzilei și în starea primitivă în care se aflau pe atunci drumurile, era cu neputință. Vodă, ce e drept, cam în vîrful buzelor îl îndemnă să mai rămâe, dar în fandai ănimei îi poftî călătorie sprâncenată; noroc că Țarcul, ca cam ar fi citit în resfrângerile rărunchilor săi, refusâ și dispuse ea să plece pe dată, și 4-iua să se odihnescă iar noptea să călătorescă la lamina lunei și a câtor-va (^cirni de facle ce vor purta în mâni arămii sal însocitorl.</p>
+<p>Vodă îi propuse o escortă pămentenă sau cel pu-cin câte-va călău(|e care să T petrescă până la Dunăre ca că’i ia după obieeiu chitanță de primirea ha-raciului, dar Turcul refusă și ’i dete le minut chitanța în regulă pentru primirea haraciului. Vodă nu prea insistă mult, îl petrecu cu saltanat până la Copoii și îl lăsă să apuce, urmat de numero3a sa escortă, drumul cel mare ce cobora spre Dunăre.</p>
+<p>Pașiaoa călătorea într’o calescă mare și comodă care la trebuința se putea transforma în carîtă, și care conținea în cuferul de sub perne banii haraciu-lui; el mergea însoțit de dragomanul său, personagiu nelipsit pelîngăun demnitar Turc dintr acele vremuri', ca să’I comunice convorbirea ce întreținea eu necredincioșii, chiar când el cunoscea limba străinului ; iar suita sa îl precedași urma călare pe cai arâ-pescl, pentru care căldura cea tropicală pentru Moldoveni, părea a fi pentru ei o adiare de zefiri dulce și răco-ritore. Ast cortegiu însemnat și curios la vedere mergea, cum am mai spus, numai sera de la apusul sorelul și noptea pene în fjorl, iarziua trăgea în sate sau sul&gt; umbra imenselor păduri și se odihnea până ce iarăși apunea sorele.</p>
+<p>După ce merse ast-fel cinci și cinci nopți a-gale agale, abia mișcând piciorele fugoșilor lor cursierî care ardeau de dorință d’a despica spațiul ca săgeta, cu puternicile lor pepturî, ajuuse în capătul pădure!</p>
+<p>Docolinei din marginea din jos a județului Vasluiu, care altă dată era desă, întinsă și întunecosă, și intrară sub obscurele ei boite fără să se temă de reputația sa destul de faimbsă prin desele isprăvi sânge-rose ale cetei lut Bujor. Avea și dreptate de ce să nu se temă, fiind că escorta sa era o veritabilă armată în stare d’a înfrunta cea mai formidabilă ceată de Haiduci.</p>
+<p>Tocmai înnoptase când intrară în ănima pădurei, și se întâmplase că acea nopte să fie norosâ și fără de lună, o nopte în care nu se darea în spaciu nici o ra^a de lumină. Pe asemenea timp posomorit și în mijlocul unei păduri dese și întunecose, lumina roșa-tică și fălfăetore a decimelor de facle de rășină ce purtau în mâni ianicerii pașii, care lumina tipurib cele mai variate și mai sp dmântătore, producea un efect mișcător ; par-că defila unul’din acele cortegiurî fantastice descrise de Hofmann în poveștile sale.</p>
+<p>Turcii tembeli, cum’i a lăsat natura, mergeu încet de tot, legănându-se a lene pe latele șele după spinarea cailor lor, cei mai mulțî dormitând și chiar visând fericirele paradisului promis de profet adeve-raților credincioși, fără temă de vr’un pericol și fără grije d’a sosi cu o di mai curînd ori mai târdiu.</p>
+<p>Ca să dispue și mai mult spiritele spre acea stare de amorțelă înbătătore, o mică meterhanea ce călărea în capul cortegiului esecuta din fluere și tamburine, nisce manele line și melancolice, și câțl-va arabi negri ca tăciunele, intonau din gura cu voci dulci și melodioase, când tăcea meteahaneaoa, o cântare a-răbâscă și mai ațipitore. In mijlocul atâtor stimulente arangiate înt’andins pentru o viață visătore, pașeaoa, ca sâ’i trâcă de urît, mesteca în gură sa-cîs preparat eu o mică cantitate de hacișiu, și stând eu ochii deschiși sbura cu mintea prin regiunele nălucirilor celor mai sensuale.</p>
+<p>De o dată în mijlocul acestei aromeli generale, is-buoni pe ne asceptate din desișiul copacilor o îndoită și formidabilă bubuitură de pusei, care împrăs-ciă în spațiu o negură de fum gros și răsturnă la pământ neinsuflețiți caii de trăsura pașii și mai mulțî cai și călăreți din jurul seu.</p>
+<p>Acest accident ne asceptat și ne prevedut produse o panică și o confusiune cu neputință de descris, dar avu o durată numai de câte va secunde, căci pașea cum auzi detunarea puscei lor și simți mirosul fumului, se dete iute jos din trăsură, sări arăpesoe, a-dieă din fugă pe spinarea unui cal văduv de stăpân, care se încurca prin prejur ninche^ănd spe-rios, și scoțându-și iataganul de la brîu, năvăli cu bărbăție spre partea pădurei, de unde venise împușcarea de gloanțe. Același lucru făcu și Drago' mânui. Escorta sa care era compusă din fii de bravi, aleși din elita fiilor Anadolului, cei mai res-boinici dintre Turci, îl imitară pe dată, și aruncând cât colo faclele ee țineu în mâini, năvăliră unii spre drepta după stăpânul lor și alții spre st nga după dragoman, în vinele căruia curgea sânge nobil de grec epirot, fără să se teamă de besna întunericului ce să făcuse.</p>
+<p>Când se năpustiră ei în pădure, o a doua salva de împușcături răsturnă la pămînt noi victime, dar le lumina calea spre a ’și croi o direcțiune și spre a răspunde și el la foc prin foc. După ee se schimbară prin întuneric mai multe salve formidabile, dar nu așa sângerose, se re3xândi farade veste în spațiu o lumina viă, și se vedu la spatele Turcilor o pîndă nemărginită de flăcări care se mărea cu o repezi' ciune prodigios! și cuprindea bătrânii arbori ce mărgineau de ambele laturi drumul cel mare, incendiu teribil care despărțea pe Turci în două cete ce nu se puteau împreuna, și care fusese produs de faclele a-runcate jos de dânșii când se văzuse atacați, fără să se gândescă că pământul era căptușit cu un strat gros de îrunde uscate cădute din tomna trecută care ei au forte lesne de aprins.</p>
+<p>La lumina acestui incendiu, Turcii din ambele cete vedură cu mirare, dar fără groză năvălind din deși-siul pădure! o eetă fărmidabilă de omeni armați, care se repediră spre ei, de și erau superiori la numer plini de îndrăsnelă și de bărbăție, lucru ne asceptat, înntr’o țară desarmată și desmoralisată printr’o jumătate de secol de aservire. Acesta vedenie aprinse în sufletele Turcilor sete și mal mare de resbunare și îl făcu să se arunce spre dușmani cu o furie sălbatică, Incăerarea fu din cele mai crâncene! inimicii se a-runcară unii asupra altora cu furia fiarelor de pradă și se încleștară ast-fel în cât numai mortea mai putea ca să’I despart!.</p>
+<p>A descrie tote peripețiele acestei lupte uriașe, luminată așa de grandios de un incendiu care lua din ce în ce proporțiunî mal mari, este lucru anevoios și chiar imposibil pentru micul cadru ce avem la dis-posiție ! vom spune numai că dușmanii erau demni unii de alții, că nici într’o parte, nici într’alta nu se codacî, că nici unii nici alții nu ’șl ertau</p>
+<p>învinșii, și că Românii cel năpăstuițî și clevetiți erau demni d’a se măsura eu nisce dușmani aleși ca Turcii. Intre aceste falange de bravi unii din el se distingeiî mal cu asupra și sabia lor în cumpăna luptei atârnau mai greu ea Zece</p>
+<p>Orî unde se ivea pașea cu iataganul lui care licărea ca săgeta omorîtore a trăsnetului, Românii cădeu cu dzecimele gâlgâind în sânge, și unde întâmpina el vre un obstacol, obstacolul dispărea mușcând țărîna în agoniele morții. El însă nu vrea succese lesniciose.</p>
+<p>Căta pretutindeni, câta cu lăcomie un dușman demn de el, un dușman care să’i resiste, iar să nu cadză întocmai ca paiul sub ascuțișul secure!, dar nu găsea. Zări în aprinderea luptei un om mal gros și mai bine legat ca alții, care mal mult ordona de cât se lupta, și creând că acela era căpetenia, se repezi spre dânsul învârtind în juru-i iataganul seu ca o morișcă, și retezând ca spicele capetele ce întâlnea în cale spre a 'șî face loc să ajungă până la el : dar o minune! o! lucru neasceptat de la nisce oameni ce dovediră prin Jnenumârate fapte că erau nisce brav: plini de bărbăție ! acea presupusă căpetenie dâtu dosul îndată ce ’1 zări că se apropie de el, și nu vru să primescă lupta ce i se oferea !</p>
+<p>? Pe când acest dușman fugea ca un mișel și se silea a scăpa ascundzîndu-se de prigonirea Turcului care îi urmărea cu înverșunare, un bărbat tînăr și chipeșiu la față, care făcea între Turci aceleaș ravagiurî ce făcea pașea între Români, se repetji de unde era, și punâudu-se d’a curmezișul drumului în dreptul Românului fugar îl Zise cu o voce detunătora :</p>
+<p>— In dărăt mișelule, și înveță-te a sci să mori, daca nu scil să te lupți, căci faci parte din ceta lui Bujor și ai o limbă defăimătore care nu găsește nimic bun, Bot de Năpârcă ce ești !</p>
+<p>Bot de Nâpîrcă, căci el era vitezul fugar, în loc d’a asculta cuvintele șefului săă, pe care eu doue zile mai înainte îl sfârcuia fără de cruțare, numindu-l muere, coti la stânga spre partea unde nu era bătae, și se perdu în desișiul copacilor, lăsând pe Bujor, pe care de sigur l’ațî cunoscut în acel tînăr chipeș care Jeciuiă fără cruțare vieți de Turci, în drumul Pașia-lei turcesci care venea glonț spre el învărtindu-și iataganul în mână ca o sfârleză.</p>
+ <gap unit="graphic"><!-- Bujor în loc d’a se da la o parte spre a scăpa de ascuțișul acelei sfîrleze ucigătoare, din contra se repezi spre densa, și ridicând d’asupra capului seu o ghioagă mare și grea de rădăcină de alun ferecată cu cue de oțel, o repedzi cu o adresă surprimjătore și o lașă să cază cu greutate drept în fața inamicului.--></gap>
+ 
+<p>Acea bardă grea și bine aruncată sfărâma ca paiul sfirleaza cea ascuțită, dar împreună cu dînsa sfărâmă și mâna ce o mănuia și capul care conducea mâna, și viața șefului Turcilor, care că4u grămadă la pământ, lipsit de suflare, după ce secerase atâtea vieți în câte-va minute.</p>
+<p>Acest eveniment neasceptat spăimăntă și clătină foarte mult moralul fatalist al Turcilor, și îl făcu să se încovoae și să bată în retragere; dar din nenorocire pentru e! nu aveau a face cu nisce inimici care cruțau pe dușman! în retragere, și întâmpinară o urmărire eumplitâ și ucigătore ! Dacă ar fi fost toți la un loc și dacă n’ar fi avut la spate o pân4a de foc care să'l oprească d’a ajnnge până la drumul cel mare, pe unde ar fi putut să fugă, fiindu-le calea cunoscută, de sigur că ar fi scăpat de ucigătorul cerc de fer și foc ce’i strângea mereu, căci numărul, cu toate perderile superioare ce încercase, tot era covârșitor dușmanilor lor; dar în poliția în care se aflau ei, mișcările le erau împedicate de necunoscința locului, dușmanii aveau în parte-le avantagiul terenului, lăsîndu-i pe ei tot mereu spre partea incenduliului ce crescea și se întindea mereu în cat începuse a’i dogori, și din nenorocirea lor per' duse căpetenia care să î conducă spre biruință.</p>
+<p>— Facă-se văința lui Alah ! strigară ei cu resemnațiunea fatalistă a orientalului, și mai se lăsară a fi uciși de dușmani, luptându-se numai de formă, ca să nu cadză fără de apărare.</p>
+<p>Aceiași soartă avu și cea altă ceată de dincolo de incendiu condusă de către dragăman, căruia îi mânca viața Codreanu conducătorul cetei românesci.</p>
+<p>Lupta într’acea parte se curmă mai curând, căci bătînd vîntul într’acea parte, fumul puse iute pe gónă pe dușmani, și Românii începură să’i urmărească și să-i prigonească prin pădure cu o îndărătnicie salbatică.</p>
+<p>In fine lupta se termină pe la răvărsatul zorilor cea mai mare parte din Turci peri, și prea puțini, abia cate-va dzecimi putură să scape teafări din pădure și să ajungă ne vătâmați până la Dunăre ca să spue în țara lor pașei de la Măcin frecușul ce le-a tras haiducii Români. După terminarea luptei, Bujor își adună ceata prin semnale de fluer convenite și începu să’și numere oamenii; nouădzeci și trei din două sute nu răspunse la apel, șeapte-dzeci din acei viteji, cari mai alaltăerîse răsfațau pe pajiște plini de viață și sănătate, acum dăceaula pământ lipsiți de viață, și douădzeci și trei răniți și schilodiți reu se văetau tăvălindu-se în sănge le lor; numai unul nu se găsea nici mort, nici rănit: Bot de Năpârcă, lașul ! Bujor care n’avea ce să facă cu cei 23 greu răniți, în loc d’a ’i culege spre a dota societatea cu nisce invalizi care naveau nici meritul d’a fi glorioși, își manifesta mila pentru ei trimițend că ți-va voinici să le risipească creierii cu câte-va lovituri de pistol, în loc d'ai lăsa să fie sfășiați de vii de fiarele selbatice sau de mistuirea focului. Făcu acesta poate și pentru a se mântui de nisce denunțători primejdios!.</p>
+<p>După ce se îndeplini și această tristă formalitate, Bujor se retrașe împreună cu ceata sa în partea despre răsărit a pădurei, spre care n’avea să se întindă focul, fiind apărată prin bătaia vîntului, și începură a se curăță, a se lega la răni cei cu sgărieturi mai ușore și a se reîntări prin o mâncare frugală și puțină odihnă.</p>
+<p>Pe când haiducii își petreceau ast-fel restul zilei până să sosescă nóptea ca să se întoarcă nesuperați la conac, Hărgot trase la o parte pe Bujor și îi zise :</p>
+<p>— Ei căpitane, ia spune-mi și mie ce folos am tras din astă luptă care a scădut cu 93 de inși numerul cetei nostre ? unde e câștigul ? Dă-ni-lu mai iute căci ni l'ai vestit a fi gras.</p>
+<p>— Ah ! bine uitasem; strigă Bujor lovindu-se peste frunte, tii dar năuc mai sunt; Dzicețî’mi îndrăgostit și pace! Bine că îmi aduseși aminte la vreme și că resboiul nu v’a amețit ca pe mine. Aduceți-mi calul și pregătiți-vă de drum că viu numai de cât. Rostind aceste cuvinte, Bujor se sculă după pajiște, încălică pe cal și se repezi spre partea unde încă ardea fo-culu.</p>
+<p>Cei alțî haiduci îl lăsară să se ducă fără să se gândească de a’l reține sau însoți, dar Codreanu nu fu atât de nepăsător pentru șeful său, ci, încălicând și el pe cal, se luă după densul.</p>
+<p>Bujor merse drept spre vatra incendiului.</p> <gap unit="pages" extent="2"/>
+<p>Cum vedzu această primejdie. Bujor, care deja descălicase, se repezi la rîndul seu, coprinse în vînjoasele lui brațe pe Codreanu care amețise și își perduse cumpătul, fiind înăbușit de fum, și cum puse măna pe el îl scoase afară din tarlaoa de jaratic, reintră din nou în foc, și după ce scormoni de departe focul cu o prăjină ce ’și făcuse dintr’o cracă de copac și vezu că nu mai eșia nici flăcări nici fum, se apropie de mușuroiu și scoase din el mai multe pungi de piele sgărcite și pe jumătate arse, pe care le cară iute dincolo de jar.</p>
+<p>Peste căte-va minute Bujor și Codreanu fură reinturnațî în tabără.</p>
+<p>— Iată plata sângelui ce ațî vărsat; împarțiți-ve și găndiți-ve la nevestele și copiii celor morțl, cărora le las partea mea, strigă Bujor aruncând la piciorele oamenilor sei mai multe pungi carbonisate din care eși câte un bulz mare de aur topit.</p>
+<p>— Luați și partea mea, adaosă Codreanu.</p></div>
+<div type="chapter">
+ <head>VI.IOANA SIMZEANA</head>
+<p>Haiducii după ce statură toată dziua în pădurea incendiată, eșiră din ea îndată ce înnoptă și se îndreptară spre conacul lor care nu era aproape. Toată noptea umblară și tocmai în revărsatul zorilor se văzură în bătătura acelui conac, care era un hă nișor situat în mijlocul unei păduri. Ajungând acolo își lăsară caii căți mai rămăsese în paza cărciumarului care era însărcinat ca să’i îngrijească, se desbrăcară de haine și arme, pe care le depuse în magazia dintr’un stufișiu care era într’o sub-pământă lungă, ascunsă privirilor esterioare,și după ce ’și împărți câștigul, tăind în bucățele mici bulzurile de aur și cântărindu-le eu cumpănă de galbeni, plecară p’acasă să se odihnească și să profite de o săptămână de congediu ce le acordase Bujor. Plecarea lor fu sgomotoasă și veselă, căci partea ce se dătuse fiecăruia, cu toată topirea aurului și împărțeala favorizatoare pentru văduvele și părinții celor căluți, era din cele mai groase ce făcuse de când haiduceau.</p>
+<p>Codreanu plecă și el să mai vază a lume; căci casă, părinți sau rude sărmanul nu avea; numai Bujor nu pleca nicăeri și îndată ce rămase cârciuma goală, se duse la un tron ce se găsea în cămara de culcare a hangiului, scoase dintr’insui un braț de țoale, și cat te ștergi la un ochiu, din haiducul Bujor el fu transormat în mucheleful și birbantul Voinea. După ce se vădzu ast-fel transformat, scoase din grajd alt cal negru ca pana corbului și înșelat negustoresce, si după ce încălecă pe dânsul, se îndreptă spre un crâng opus celui care ascundea magazia, și merse, merse prin pădure până ce eși la drumul mare. Vedzăndu-se acola merse întins înainte pănă ce se se vădzu iarăși în pădurea Hangului, și cum intră într’insa, se apropie de un copaciu uscat, gros și scorboros, apăsă vârtos în coaja lui cea putredă, și îndată se desf ăcu în tulpina lui o parte din coaje ca un fel de portiță strîmtă și pitică, dincolo de care se vedea capătul unei scări învîrtite ca acelea ce conduc în clopotnițele bisericelor vechi. Acea scară în loc d'a se urca în sus se scufunda în pământ.</p>
+<p>Bujor cum vezu acea ușe deschisă, întră în acea mică scorboră, încue ușa după elu cu uu resort inferior, luă pe pipăite dintr’un cuiu bătut în lemn un felinărașiu mic, scăpară cu amnarul ce nelipsit avea la brîu, în cremenea ce nu’lu părăsea nici o dată, și aprinse îndată luminarea din felinar. Dupe acea apucă pe scară în jos, și dupe cescoborî douedzeci de trepte de tălpoae de lemn, se pomeni în facia unul zid de pămînt care se dete la o parte prin apăsarea altul resort, spre a da la iveală căpătâiul unul coridor suteran mărginit pe dreapta și pe stânga din distanță în distanță cu uși închise întocmai ca la o chinovie de călugări.</p>
+<p>Bujor trecu prinfr’acel coridor cu plafonul de bîrna ai cărui pereți erau de pământ bine bătut și ale cărui uși erau de stejar căptușite cu tăblii de fer, fără să se oprească și fără să se uite la ele, până ce ajunse la o respăntie, unde coridorul se despărțea în vr’o opt ramuri, la împreunarea căroia se aflau opt ușî toate de stejar căptușite cu foi groase de fier. Ajungând în acea răspăntie, căpetenia de haiduci nu stătu mult la gânduri, ci apucă la dreapta pe un coridor asemeni cu acel ce lăsase în urmă-i și merse până ce dete de un nou perete de pământ neted întocmai ca acela ce ascundea capătul scării pe unde venise, care’i împedica drumul. Acel perete se desfăcu după ce Bujor învîrti o cheie ce purta la brîu într’o broască mai invisibilă și dete la iveală o altă scăricică răsucită, pe care Bujor o sui cu repediciune, și intr’o clipă se pomeni într'o cameră simplu mobilată dar sclipitoare de curățenie și de bună orînduială. După ce se vedzu în întru elu închise ușea pe unde intrase, și lucru de mirare în locu-î apăru un mare Ierusalim foarte frumos zugrăvit care acoperea ușa cu totul. Acea casă era luminată numai de candelă atârnată de plafond înaintea Ierusalimului, și la lumina cea slabă a acelei licăriri, el zări moțăind pe un scaun de lemn alb forte bine spălat o bătrână care tresări și se sculă drept în picioare cum auzi sunetul pașilor sei.</p>
+<p>— Ei ce s’a mai petrecut p’aci ? dzise Bujor adresându-se către betrîna, care avea aerul unei vechi servitoare credincioasă și devotată.</p>
+<p>— Nimic alt de cât tot ce scii.</p>
+<p>— Plânge într’una?</p>
+<p>— Plânge mereu.</p>
+<p>— Tot pe tată-seu și pe masa?</p>
+<p>— Numai pe el.</p>
+<p>— Dar de mine nu pomenesce ?</p>
+<p>— Cum de nu? ta blestemă într’una.</p>
+<p>— Las’o eă se îmblânzesce ea mâne ; a început să mănânce ?</p>
+<p>— Atât cât să nu moară de foame.</p>
+<p>— Acum ce face ?</p>
+<p>— Doarme ; abea adineaori a ațipit.</p>
+<p>— Las’o să doarmă și asterne-mi în cămara mea.</p>
+<p>— Este așternut.</p>
+<p>— Atunci aprinde luminarea că viu și eu.</p>
+<p>Intr’adever Bujor intră după servitoare într’o cămară întunecoasă; și îndată ce se făcu lumină, trămise pe bătrînă să se culce, și el se desbrăca și se aruncă în pat, după ce baricadă unica ușe cu nisce drugi de fier țintuiți în zid într’adins, și se încredința de soliditatea gratilor de la ferestre; apoi puse spre mai mare siguranță și pistoalele încărcate pe o masă de lângă căpătăiu. Somnul nu fu eăinos cu densul căci nu dormise totă noaptea precedentă, ast-fel că îndată ce închise ochii fu transportat în lumea celor mai bizare năluciri.</p>
+<p>Când redeschise ochii Bujor, casa era scăldată de nisce strălucitoare radze aurii; se făcuse dziua și sórele se ridicase pe cer îndestul ca să poate pătrunde în cămară prin ferestrele sale micuțe și fără perdele. Acea radză indiscretă nu făcu să se vadă mare lucru într’acea cameră; căci nu se afla în ea mai mult decâț patul pe care dormise, un dulap, o masă și câte-va scaune de lemn alb. Cum zări lumina dzilei și dădu cu ochii de razele sorelui ce se jucau printre perii capului seu, Bujor sări sperios în sus drept în mijlocul casei și începu să se îmbrace cu grabă nu cu hainele ce purtase în ajun, care erau pline de praf și de sânge, ci cu un costum simplu dar arătos de negustorașiu de țară cu dare de mână, pe care ’lu scoase dintr’un dulap care se afla situat întrunu colț al camerei.</p>
+<p>După ce se spălă și se găti bine, ascunse hainele și armele compromițitoare într’alt dulap ascuns în dzidul de la spatele patului care era mascat cu un chilimu ce acoperea tot peretele, dupe aceia eși din cămară, și fără să prevestească pe nimeni, traversă o mică săliță, intră în camera din faciă cere era tot simplă dar ceva mai gătită și, apropiindu-se de zidul din faciă, scoase o cheiță din sîn și o introduse într o mică deschizătură mascată după o icoană mare ce representa aceia ce se numesce în limba populară Vămile văsduhului. O singură învîrtitură făcu să se misce din loc Vămile cu zid cu tot și să permită căpitanului de haiduci transformat în boerănașiu să intre într’o cameră spațioasă și ornată cu tot ce avea mai frumos și mal scump luxul rafinat al orientalilor din acea vreme.</p>
+<p>Acea cameră era luminata de doue ferestrue care respundeau în partea opusă ferestrelor cămării în care dormise Bujor dar în care pătrundea numai atâta lumină cat că gonească întunerecul nopții și să producă în întru o crepusculă dulce și învitătoare la plăceri molatice și voluptose Mobilământul asemeni era cu dinadins arangiat ca să producă aceleași disposițiuni sensuale. Ferestrele erau aproape mascate cu nisce perdele bogate de stofă de mătasă și spițurî subțiri care puteau cădea în cute a mari la o singură mișcare spre a ascunde cu totul lumina, pardoseala dispărea de tot sub un chilim de o Persia gros și păros, care amorțea cel mal greoiu sgomot de pași; între ferestre erau așezate pe corlate și date mai multe ghivece cu plante înflorite cu mirosul cel mai pătrunzător, și în fundul casei, între' mai multe sofaluțe cochete și comode, se aflau așezate mal multe măsuțe încărcate cu mii de nimicuri care farmecă ochii și plac femeilor, d’asupra cărora atârnau de perete mai multe oglindi, lucru rar p’acele timpuri; în sfîrșit în fundul cămării se răsfăța un divan, sau mai bine un cuib de zîuă, cri mal nemerit un altar consacrat cultului Zeiței frumuseței.</p>
+<p>Intr’acel pat sta răsturnată sau mai bine ghemuită, și ca cum nu ’i ar fi dat anima să se resfețe îu comoditățile acelei locuințe, o ființă care după port părea a fi femeiască, dar al cărei cap nu se vedea, fiind vîrît într’o pernă de puf aruncată în mijlocul patului.</p>
+<p>Bujor văzînd’o se apropia de divan încetinel ca să n’o deștepte, dar convingendu-se că piciorele sale care se îngropau în grosul covor nu produceau nici un sgomot, păși cu mai multă vivacitate, și ajungând în dreptul patului, se așeză binișor pe un colț al unui divănașiu de alături, asculta puțin ușiurea respirațiune ce eșea din peptul necunoscutei, și, asigurându-se ore' cum, din acea respirațiune ușdră și lină că nimic extraordinar nu s’a petrecut în lipsa sa, îl luă binișor mâna în manele sale, și apropiând’o încetinel de buzele lui, depuse pe ea un ferbinte sărutat.</p>
+<p>Necunoscuta simțind acel contact tresări ca cum ar fi atins un cărbune aprins și sări drept în mijlocul casei aruncând în juru-i nisce căutături sperióse. Atunci se descoperi chipul necunoscutei care era îmbrăcată într’un frumos costum țărănesc, chip care, cu toată groază ce era întipărită pe dînsul, scănteiea de frăgezime și frumusețe. Era Ioana Simziana.</p>
+<p>— Vai de mine ! ce e asta ? unde sunt ? ce aveți de gând să faceți cu mine? lăsați-me, strigă ea în primele momente ale spaimei, dar după ce vădzu chipul lui Bujor, scose un alt feliu de țipăt, în care se citea speranța și bucuria, și repezindu-se spre el, îi cădzu în genunche la picioare, și împreunându-și mâinele, îi dzise cu voce rugătore :</p>
+<p>— Ah! fie-ți milă de mine și scapă-mă, du-me mai curînd la tata și la mama.</p>
+<p>— Ți s’a urît așa de curând la mine? întrebă Bujor cu o voce dulce și desmierdătore, ridicândo binișor în sus și aședzând’o pe divan nu departe de el.</p>
+<p>— Această lăcuință îmi insuflă groază, groază mare? răspunse Ioana cutremurîndu-se.</p>
+<p>— Și pentru ce? ’ți-a făcut cine-va vre un rău? ai să te plângi de cine-va? slujnica nu ’ți-a dat îndestulă ascultare?</p>
+ <p>— Ba nu, nu mă plâng de nimeni, nu învinovățesc pe nimeni, dar voiu să me vedz mai curând în casa părinților mei, departe de astă închisóre ; vroiu câmpia largă, văzduhul ne țărmuit, slobozenia de a alerga în voe orî unde oi vedea cu ochii.</p>
+<p>— Pentru ce nu te plimbi prin curte ? dacă ți place aerul și dacă ’ți plac florile și verdeața pentru ce nu te cobori în grădină? ce? vederea acestor locuri este mai puțin frumoasă ca a satului teu ?</p>
+ <p>Dzicend aceste cuvinte dete la o parte perdelele și radele sórelui năvăliră cu violență înăuntru și lăsară să se vază dincolo de giamuri un peisagiu din cele mai frumóse și mai răpitóre, un paradis pământesc, o grădină feerică, un amestec sublim între grandios și cochet, între impunător și desfătător, între munte și câmpie! Aci vadeai dealuri, aci văi, aci isvoare aci cataracte, aci părăiașe și torente, natura în totă splendórea sa unită cu arta cea mai meșteșugită.</p>
+<p>— Toate acestea sunt ale tale, adaose Bujor, fii stăpâna lor, bucură-te de dînsele, însuflețesce-le prin ființa ta.</p>
+ <p>— O ! nu, nu, răspunse Ioana dând din cap ; tóte acele frumuseți ca și acestea dintr’astă cămară nu’mi insuflă nic: o plăcere, ci din potriva me îngrozesc, căci mi împrospătează mereu aducerea minte că sunt surghinită, oropsită, închisă ca într’o colivie poleită departe de casa părintească.</p>
+<p>— Nu ’mi vorbeai tot astfel altă dată, replică Bujor cu o voce melancolică și nuanțată cu mare întristare ; atunci când îmi spuneai că me iubesc! îmi dziceai adesea că fericirea te va urma ori unde te voiu duce eu, că pentru dragostea mea vei uita cu bucurie casă și părinți, și că nu ți se va urî nici într’o temniță, dacă vel vedea lucind în întunericul nopții radza ochilor mei.</p>
+<p>— Atunci era altceva ! murmură Ioana acoperin-du-și facia cu mânele și scoțînd din pept un lung suspin.</p>
+<p>— Ba ! replică cu acelaș ton Bujor, atunci nu me cunosceai cine sunt ; atunci iubeai și te bucurai că esci iubită.</p>
+<p>— Atunci credeam că ești Voinea, logodnicul meu, viitorul meu bărbat, o ființă de seama mea, un fiu de țeran ca și mine.</p>
+<p>— Da și acuma sunt Bujor; Bujor haiducul, Bujor ucigașul... Bujor tâlharul... Bujor prigonitul și urgisitul!... nu e așa?</p> <gap unit="pages" extent="4"/>
+</div>
+<div type="chapter">
+ <head>VII.IENICERII PAȘII DE LA MACIN</head>
+<p>Intîmplarea din pădurea Docolinei făcu mare sgomot Vodă se făcu de pămînt. Fanarioții înghețară de frică și Turcii de peste Dunăre se necăjiră foc pe o administrațiune atât de netrebnică.</p>
+<p>Sultanul aflând de astă faptă îndrăsneață, se necăji și mai reu ca toți și numai de cât mazili pe Deli-Beiu</p>
+<p>care de frică fugi la Ruși și ’lu înlocui cu verul seu Alexandru Mavrocordat supranumit Firariul și cunoscut mai bine sub porecla de Pârlea Vodă ; vom afla în curend pentru ce.</p>
+<p>Noul Domn cum se sui pe tron, scrise un pitac către urmașul nenorocitului pașă care perise în lupta de la Docolina, prin care pitac îl ruga să binevoiască a’i trimete o orta întreagă de ianiceri, care să pălească palatul Domnesc și să apere visteria țerei de lacomele cercări ale unor răpitori atât de primejdios!.</p>
+<p>Astă măsură păru înțeleaptă tuturor curtenilor, căci poterașii își perduse cu totul credetul înaintea streinilor, în cât sub paza lor nimeni nu mai era sigur de viața și avutul seu, nici în centrul orașiului și nicî chiar între zidurile orgadei domnesci. Ce triste vremuri !—</p>
+<p>Această măsură sau că nu fu ținută secretă, sau că pereții palatului domnesc, ca toți pereții caselor celor mari, erau căptușiți cu urechi curiose, căci se află îndată și se împrăscie în lume cu iuțeala fulgerului Grecii se bucurară, căci n’aveau să mal tremure de frica, dar Romăniî se întristară căci ajunsese să fie apărați de vecinii lori dușmani, iar haiducii o băgară pe mânecă ; numai Bujor care află între cei d’ănteiu nu se întrista nici se spăimnntă, ci își vedzu înainte de desmierdările ceh procura luna de miere în drăgălașele brațe ale Ioanei.</p>
+<p>Cartea palatului Domnesc de când pusese grecii mana pe ea fusese golită de Români și populată numai de funcționari, slujitori și slugi greci sau bulgari; numai un Român mai remasese într’acea curte Romanească, un român care slujise cu credință și cu istețime pe Racoviță și care albise în slujba statului. Acel Român era curierul de taină al curții Domnesci. Grecii voise de mai multe ori să 'lu doboare ca să smulgă din măinele Românilor și ast colțișor de loc, dar le fusese rușine grecilor și Mavrocordaților să fie atât de nedrepți cu o slugă credinciosă contra căruia n’avusese să se plângă, și îl menținură ca pe unul ce își făcuse datoria cu discrețiune și pricepere.</p>
+<p>Acel funcționar fu însărcinat să ducă scrisorea sciută pașii de la Măcin.</p>
+<p>Trei zile după plecarea sa un călăreț acoperit de praf și cu calul pliu de asudeală se opri în pragul cărciumei din marginea unul sat situat pe drumul cel mare dintre Bîrlad și Galați, și descălecănd lega calul de parul unul gard și ’I scoase zăbalele spre a ronțăi nițel fîn ce ’I data cărciumarul. După aceia intră înăuntru și ceru să ’I gătească ceva de mâncare și să ’I aducă o olă cu vin în odaia din dos unde și intră.</p>
+<p>Peste căte-va minute intră în cârciumă un alt călăreț tot plin de praf, care ’și legă calul asudat lângă cel ce deja mănca fîn, și după ce ’lu vădzu și pe al său cu nutreț dinaintea botului, intră în cârciumă, ceru și el de mâncare și trase tot în odaia din dos. Cel d’intăiu era un om nalt, roșiu la față și cu părul și cu mustățile colilie, și cel nalt om un bărbat potrivit, cam tras la față și cu părul și barba mari și aprope cărunte.</p>
+<p>Intrând acest din urmă salută pe moșneagu verde' cum salută un străin pe altul cu care are să petreacă câte va minute, și se aședă la o masă vecină.</p>
+<p>înaintea meselor și cu paharele în mână cunoscin-țele se fac lesne ! căruntul propuse unchiașului verde sâ’și unească la un loc mesele ca să ospăteze mal cu poftă, și unchiașul nu făcu nici o împotrivire și trecu la masa vecină.</p>
+<p>Unchiașul era om voios, dar conmeseanul seu îl întrecea ; el scia să spue snoave și povești mucalite care te făcea să 'ți treacă orele ca minutele și cănta din gură de îngheța puțul ; pas de te mal declipesce de asemenea giuvaer de om! Masa ținu mal mult de cât se ascepta unchiașul, oalelele se succedau una după alta, și vinul curgea gâlgâind în gâtlejuri. Cu vinul, cu snoavele și cu cântecele vremea se scurse încetinel și noapte sosi ca cu olacul. Tocmai atunci unchiașul băgă de seamă c’a întârdziat și vru să se scole ca să plece, dar picioarele și nu mai putea să ’lu ție că se muiase de tot și 'lu făcu să recadâ pe scaun cu totul amețit; numai era chip de ducă, Căruntul care avea capul ci mai puțin amețit și picioarele mai sdravene, se duse de închise caii într’un coșar și apoi se întorse ca să se culce bine reu pe singurul pat învelit cu rogojină n ce se afla în camară alături cu unchiașul care deja  sforăia.</p>
+<p>Peste nopte unchiașul se simți sguiduit de o mână puternică, și la lumina feștilei de seu ce ardea într'un sfeșnic de pământ vădu înaintea-i în locul căruntului cu față trasă, un voinic tînăr și bine legat, care sta lângă patul lui ca îngerul Mihail gata să ’lu umfle.</p>
+<p>— Cine esci și ce ai cu mine? strigă bătrînul sărind în sus sperios.</p>
+<p>— Sunt Bujor, răspunse tînerul și voiu să ’mi dat scrisorea domnească ce ai asupra-ți.</p>
+<p>— Nici mort, strigă puind mâna la sân curierul Domnesc, căci el era unchiasu.</p>
+<p> — Nu mai face împotriviri de surda, răspunse Bujor cu voce liniscită, că esci în mâna mea ; cei din casă dorm sub paza oamenilor mei și casa e înconjurata de ceata mea.</p>
+<p>— Atunci omoară-me dacă vrei să’mi furi scrisorea, răspunse moșneagu cu hotărîre.</p>
+<p>— Ba ferească D-dzeu, răspunse Bujor aședzîndu-se pe un scaun; eu n’am venit cu gânduri rele asupra-ți nici să-ți fur scrisorea fără de voe-ți, căci asta puteam s’o fac și atunci când dormeai colo lângă mine amețit de vinul se te am făcut sâ înghiți sub chipul de om cărunt, ci voiu să ’mi-o dai singur și cu voe bună ca om de înțeles ce escî.</p>
+<p>— La asta să nu te aștepți nici o dată.</p>
+<p>— Om vedea, răspunse Bujor surîdzînd, și apoi începu să cuvintele cu o voce dulce și ton convingător, să aducă aminte cine e și pe cine slujește, să ’i zugrăvească cu culori spăimântătore resultatele ce va aduce pentru țeră acea scrisore blestemată, și apoi urma: închipuește-ți ce vor face acei ieniceri setoși de sănge, a căror trecere chiar când a fost vremelnică a fost în totdeauna însemnată cu jaful și pustiirea întocmai ca trecerea pîrjolului; închipuesce-țî bătrîne ce vor face din astă nenorocită țeră, care e moșia ta strămoșească, acei păgîni cînd se vor vedea statornici într’astă țeră, încuragiați de oamenii stăpînirei și volnici să facă ori ce vor vrea, și sciindu-se de capul lor? Bogatul va fi jefuit, săracul prigonit, fecioara prihănită, femeia necinstită, văduva batjocorită și sfintele locașiuri pângărite, fără să ai la cine să alergi cui să te jeluesci, spre cine să năzuesci! . . . Atunci când vei audzi țipetele copiilor jertfiți, strigătele nenorociților chinuiți și blestemele celor ce vor peri în dureri cumplite, un glas tainic dar îngrozitor îți va șiopti la ureche și te va învinovăți dzicendu-ți : Tu esci pricina atâtor nenorociri.</p>
+<p>Această cuvăntare rostită de haiduc cu mult foc, produse efectul dorit ; sentimentele de Romăn începură să bată în acea ănimă de betrîn, lealitatea și buna sa credință fură sdruncinate și gura sa abia mai putu să îngâne :</p>
+<p>— Dar bine, dacă te voiu asculta pe tine, eu ce mă voiu face ?</p>
+<p>— Vei urma d’a fi aceia ce esci, credincios al lui Vodă, și pe lângă asta vei pune la chimir și patru pungi cu banî numai turalii pe care uite ți-i dau d’acuma.</p>
+<p>— Bine, dar ia spune-mî ce ai de gând să faci cu acea scrisore ?</p>
+<p>— Voiu face pe Vodă să’i vie acru de ieniceri în totă viața lui și să nu mai cheme altă dată pe păgîni ca să’lu păzească.</p>
+<p>— Cum frate ?</p>
+<p>— Asta e taina mea, d’aceia nu ’ți am luat cu sila scrisorea și nu’ți am făcut nici un rău, căci vreau ca să nu bănuiască nimeni că este fapta mea aceia ce am să fac.</p>
+<p>— Dar eu pân’utunci ce mă fac ?</p>
+<p>— Me însoțesci ori și unde voiu merge.</p>
+<p>— Vedzî așa îmi place mai bine.</p>
+<p>Peste vr’o două săptămâni se pomeni într’o dimineața marele Hatman al Mării sale Alexandru'Vodă cu curierul ce trămisese la Măcin că intră fără veste în camăra sa de lucru din palatul Domnesc ; acestă vedere îi causă multă bucurie și'l făcu să scoață esclamațiune de surprisă.</p>
+<p>— Ai venit ? strigă el voios.</p>
+ <p>— Da, Măria ta, răspunse în grecesce curierul.</p>
+<p>— Ai adus ceva ?</p>
+<p>— Da.</p>
+<p>— Mulți?</p>
+<p>— Sunt căți-va.</p>
+<p>— Unde sunt?</p>
+<p>— Dincolo.</p>
+<p>— Du-mă să’i vedz.</p>
+<p>Și numai de cât aruncă cât colo cafeaoa și ciubucul din care sorbea cu plăcere și trecu în camera de alături unde vădzu așezați roata pe parchetul gol și cu picioarele încolăcite sub ei vr’o șepte-zeci și mai bine de spoitori negri ca tăciunele și urâți ca necuratul, în mijlocul cărora presida un turc gros și burtos, care purta pe cap un turban cât roata carului.</p>
+<p>Cum îl văzură intrând spoitorii își puseră mâna dreapta la barba și apoi la cap și strigară într’un glas selbaticu:</p>
+<p>— Ișala!</p>
+<p>Vedzîndu-se în mijlocul unei asemenea societăți arămii cu ochii atât de sălbatici și înfățișarea așa de fioroasă, viteazul cap al armatei ce nu exista, nu se putu opri d’a se cutremura cum se cade de frică ; dar fu nevoit să se stăpânească și să dzică numai.</p>
+<p>— Care este căpetenia vostră ?</p>
+<p>— Neder, răspunse turcul cel burtos</p>
+<p>— Cine e mai mare între voi ? întrebă cu paciență, grecul.</p>
+<p>— Neder, răspunse acelaș turcii.</p>
+<p>— Nu șciți grecește ? esclamă grecul cu mirare, ca cum ar fi fost peste putință ca să nu cunoască cineva limba zeilor.</p>
+<p>— Neder, neder, respunse în cor spoitorii ca cum ar fi înțeles întrebarea.</p>
+<p>— Nu e chip de înțeles ! murmură Hatmanul în cea mai mare încurcătură, și dragomanul de Turcesci nu e aici ! Mă duc la Măria Sa că elu știe turcește.</p>
+<p>Turcul burtos vedzîndu’l că pleacă se sculă repede în sus și se agăță de pulpana hainei sale și începu să meargă după el.</p>
+<p>— Ciorbagi, ciorbagi, strigară toți arămii sărind și ei din loc și agățîndu-se unii de alții de poalele binișilor, și formând ast-fel un lanț al cărui cap era bietul hatman, care nu avea curagiu de a’i contraria.</p>
+<p>Alexandru Vodă venind ca intră în camera sa un lanț atât de curios și împestrițat cu toate culorile posibile, mai întăiu pufni de rîs, dar pe urma se posomori și strigă răstit :</p>
+<p>— Dar asta pe d-ta arhon hatmane ? ce noimă are ast caraghioslâc ?</p>
+<p>— Ianiceriî pașii de la Macin, murmură bietul hatman rușinat, arătând ceata de spoitori ce nu’i slăbea pulpana.</p>
+<p>— Ianiceriî pașii! esclamă vodă mirat; numai ațâți ’mi a trimes ? adaogă posomorîndu-se din nou.</p>
+<p>— Atâția.</p>
+<p>— Ce să fac cu ei ? Bujor îi înghite dintr’o dată ; apoi adaose adresându-se în turcește către Turcul burtos cu un ton restit :</p>
+<p>— Cine sunteți voi ?</p>
+<p>— Gura adevărului îți va respunde prin coprinde -rea ăstui pitac, răspunse ciorbagiu pe turcesce, dând lui vodă un plicu mare sigilat, și pe urmă încrucișând mâinele pe piept și plecând capul în jos remase nemișcat într’o posiție respectuoasă.</p>
+<p>Vodă după ce luă scrisoarea din mâna turcului, sărută cu evlavie pecetia pe care figura turaoa Padișahului, desfăcu plicu și începu să citească încetu. După ce citi câte-va rînduri, facia începu să i se însenineze și căutătura sa căzu spre mosafirî într’un chip mai bine-voitor. Făcu o lungă preumblare de la capul lor arămiu, în mijlocul căruia luminau nisce ochi scânteitori, pănă la picioarele lor mari și late care erau înțepenite în nisce pulpe de oțel, și de la brațele lor groase și vânoase, care dau de gol o putere peste fire, la pieptul lor cel lat și bine legat, și în fine dzise:</p>
+<p>— Măria sa vă laudă foarte.</p>
+<p>— Gura adevărului nu minte nici o dată, respunse ciorbagiul salutând profund.</p>
+<p>— Imi spune că fie-care face cât patru.</p>
+<p>— Gura adevărului putea spune și cât opt.</p>
+<p>— Imi fâgăduește că mă veți sluji cu credință.</p>
+<p>— Gura adevărului scie că noi nu putem face alminteri.</p>
+<p>— Mă încredințează că pot să mă sprijin fără de teamă în voi, ca în însuși înălțimea sa.</p>
+<p>— Chiar gura adevărului ne-a dat poruncă a te socoti ca pe Măria sa.</p>
+<p>— Imi făgăduițî a mă sluji cu bună credință ?</p>
+<p>— Pentru aceia am venit tocmai din Anadol la Măcin și de la Macin aici.</p>
+<p>— Imî jurați că vețî fi ai mei pe viață și pe moarte?</p> 
+ <p>— Ițî juram.</p>
+<p>— Imî jurați că vețî fi atât de viteji ca să venițî de hac unor haiduci ca Bujor?</p>
+<p>— In viața noastră n’am făcut alta de cât să venim de hac clefților și palicarilor.</p>
+<p>— Chiar mâne o să ve pun la încercare.</p>
+<p>— Măria ta are să rămăie foarte mulțumit.</p>
+<p>— Bine; acum mergeți de ve odihniți, și mâne dimineața o să porniți împreună cu omul care v’a adus și cu duoi visternicei la Dorohoi, ca să aduceți o mare cătățime de bani și zaherale ce stau grămădite în cămările sămeșiei de mai bine de o jumătate de an de frica să nu fie jefuite pe drum de tâlhari.</p>
+<p>— Să fie încredințat Măria sa că cu noî are să vie negreșit în pungile stăpânilor lor.</p>
+<p>— Imi făgăduițî acesta ?</p>
+<p>— Ve jurăm pe capetele noastre.</p>
+<p>— Foarte bine; apoî adaosă în grecește : mare hatmane, dă poruncă să găsduiască și să ospeteze după cuviință pe acești oameni de omenie.</p>
+<p>A doua zi des de dimineață iancerii încălicară pe caii lor cei mărunți dar plini de foc, porniră spre Do-rohoiu însoțiți de doi grecotei vistiernici precum și de curierul domnesc care purta pitacul de liberarea banilor adresat către sămeșie.</p>
+<p>Intr’acea noapte se găsi vornicul Miltiade al cărui palat era aproape de conacul iauicerilor sugrumat, în palatul seu cu un taclit turcesc care servise de turban, și tot aurul și sculele ce avea erau furate. Se mai găsi pustelnicul Iamandi înjunghiat în mijlocul casei sale care se învecina cu a vornicului, și în rana sa se atiâ înfipt un cuțit pe ferul căruia erau încrustate mai multelitere turcești. In fine se găsi și camisul Afendis spînzurat de grinda tavanului sâlei celei mari, iar bănetul cu toată giuavericaoa și argintăria ia-le de unde nu e !....</p>
+<p>— Acest întreit asasinat produse o spaimă mare în oraș și o mare panică în grecimea Palatului, care ’lu atribuia fără cea mai mică îndoială ianicerilor celor arămii.</p>
+<p>Audzînd Firariu despre astă scire se cruci, și trămise într’adins un curier sprinten după ianiceri ca să’i aducă înapoi și să le ia pitacul cei prețios care le da pe mană visteria țerei, dar plecă prea târziu căci cu toată iuțeala picioarelor calului seu ca celor gare aproape cu burta pe pămînt, tot nu putu să’i ajungă.</p>
+<p>Intr’acest timp ianiceriî sosiră la destinație, luară în primire banii și productele care umplură mai multe care, se făcură trâmbă în jurul lor și porniră cântând, ei manele turcescî și chirigii doine românesci. Cei doi vistiernici care stau grecesce sus pe sacii plini cu zeherale începură și ei să sbărnie din tambure o sdrăngănitură ne înțeleasă, pe care o numea căutare, și ast-fel desfătăndu-se întrară într’o pădure mare și întunecoasă.</p>
+<p>Ei întrară, dar dintr’acea pădure nu mai eșiră la iveală nici se mai audi de urma lor; nici tu car nici tu banî, nicî tu grecii, nici tu ianicer, parcă’i ar fi înghițit pământul de vii. !</p>
+<p>Asceptă Vodă multu și bine banii și ianicerii ca să vie de la Dorohoi, trimise el mult și bine olace preste olace ca să i găsească dar de urma banilor și a ianicerilor nu fu chip să mai dea! Trecu o săptămână, trecu o lunăo trecu trei luni întregi, se frichniră de colo până colo ,o sumă de slujbași și spioni, dar fără de nicî un pi Ide folos le fu toată serta ferta.</p>
+<p>Cum se încredința de tristul adever, Alexandru îndată scrise numai de cât pașei de la Măcin plângându-se de purtarea oamenilor sei, dar peste trei septămânî spre cea mai mare și uimitore surprisă, primi de a pașea un respuns cam aspru, prin care-i făcea cunoscut că oamenii sei au remas la Măcin pregătiți de plecare, dar n’au ajuns să pue piciorul afară din oraș din pricină că olăcarii domnesci îndată ce i au luat respunsul la pitacui primit, s’au făcut nevăzuțî cu scrisoare cu tot fără să ia și oamenii cu ei.</p>
+<p>— Astea sunt minunile lui Bujor ! esclamă Vodă mușcându-și buzele de necaz. Trebue să me scap cu orî-ce preț de acest tâlhar îndrăsneț, căci aminteri sunt perdut.</p> 
+<milestone unit="footer" type="line"/>
+</div>
+<div type="chapter">
+ <head>VIII.NEPOTUL VISTIERULUI ALECACHE</head>
+<p>Această cutezătoare faptă a lui Bujor spaimăntă mai mult pe greci și îndârji și mai rău pe Mavrocordat Firariu. Intr’un moment de mare supărare se jură pe cuca și pe topozul seu că va face petrecanie în scurt timp acestui haiduc obraznic, în cu oamenii de care dispunea el nu era chip d’a se ți de jurământ, căci intrase groza în ănima poterașilor domnescî, ast-fel că de îndată ce audzea pronuțându-numele lui Bujor numai de cât îngălbineau ca turta de ceară și le scăpa armele din mână.</p>
+<p>Ce să facă dar vodă ca să nu remăe de minciună își deschise visteriele domnesci și dădu sfoara în țară și afară din țeară că va plăti 25 lei bani buni ; lună, haine frumoase și tain cu înbelșugare ori car voinic care se va învoi să intre în ceata poterașilor Domnesci spre a bate toate pădurile pănă o pune măna pe Bujor.</p>
+<p>Astă publicațiune și acele promisiuni bogate pe ace timpuri aduse în Iași multă leotă de venetici, o mulțime de clefți grecești, deliormani turcești, cărjalii bulgărști, bandiți unguri, și chiar haiduci românești remași fără căpitan, toti vagabonzii și dalcaucii din toate unghiurile de pe unde se ascundeau de urmările justiției năvăliră în Iași și se instalară în conacul domnesc spre a apăra stăpânirea de camarazi lor Moldoveni, dar d’a surda fura tóte acestea.</p>
+<p>Din aceste lepădături ale societății, Alexandru-Voda făcu un corp de armată de cinci sute de inși tot unul și unul și’i porni împărțiți în doue cete spre cele doue estremități ale țerei, adică spre Dorohoi și spre Covurlui pe unde Bujor își făcea mai ades sângeroasele sale aparițiuni; cetele merseră spre câmpiele de luptă fără de teamă, cutrierară pădurile cu cel mai mare curagiu, dovediră cu toții ca aveau niște inimi pline de bravură, dar un lucru de mirare: de urma lui Bujor și a cetei lui nu putură să mai dea ! Isprăvile haiducilor încetară de o dată, formidabila ceată dispăru ca prin farmec! In deșert cetașii lui vodă cutreierară Moldova în susî și în jos în deșert se năpustiră unii în contra altora întocmai ca gonaci la vănetorile cele mari, căci în urma urmelor fură nevoițî să se întoarcă la Iași fără de nici o ispravă negăsind nici un dușmau în cale, sau cel puțin vr’o urmă de tainiță unde să se fi ascuns !</p>
+<p>Vodă remase foarte nemulțumit de ast rasultat și începu să se îndoiască de buna credință a cetașilor sei și să miroasă că și aci ’și-a vărât coada diavolul de Bujor, dar cum? pe cine să pue vina? căci în seimenii sei erau oameni de toate națiile și legile ; pe cine din ei să gonească și pe cine să oprească ? asta iera o cimilitură grea de deslegatu și reclama o gândire mai serioasă, Vodă mai înainte d’a lua o măsură hotărâtoare și practică, se puse să se gândească, căci ieri greu lucru a scăpa de nisce viteji cu nisce trecuturi atât de glorioase; dar pe când se gândea el, vremea trecea și cetașii își mâncau leafa de geaba.</p>
+<p>Intr’ast timp de repaos Bujor nu dete nici un semn de viață, încât mulțî începură să crează că teribilul căpitan ar fi perit victima vre unui accident necunoscut și că ceata sa rămasă fără cap sar fi împrăștiat, sau că el s’a făcut cap de poterași și tovarășii lui ’și-au găsit refugiu chiar în ceata domnească.</p>
+<p>In mijocul acestor schimbări de se dice, unele îngrijitoare și altele mai asigurătoare, se presentă în-tr'o dimineața ca multe alte dimineți la poarta marelui Vistiernic un grecoteiu costeliv, pipernicit, chipul tenăr și curățel, dar sărăcios îmbrăcat, cu haine murdare și roase pe la coate, cu fustanelă de pânză de corabie neagră și terfelită, cu un fes soios în cap și în piciore cu nisee iminei rupțî și scâlciați încălțați în picioarele gole, de ți se făcea mai mare milă vezîndu-lu.</p>
+<p>Arnăutul care sta la scara boerească, tot grecoteiu dar ajuns, căpătuit, îngrășat, cu ceafa grosă și roșie, cu fața rumenă și bucâlatâ și cu burta mare și umflată, îmbrăcat numai în fir și catifea, țanțoșii! și fudul că vermele sătul, tăe drumul gângăniei flămânde și cu un ton arogant îl dise :</p>
+ <p>— <foreign>Ke taxi bre </foreign> ?</p>
+ <p>— Voiu să dau ochi cu <foreign>megaloprepia</foreign> sa marele Vistiernicos, <foreign>telebi</foreign> cocóne, răspunse flămândul ploconindu-se înaintea slugii ma să dea cu capul de pietrele scărei.</p>
+<p>— Și ce vrei sa i spui? întrebă în grecește arnăutul tot răstită.</p>
+<p>—Să’i dzic multă sănătate, respunse grecoteiul tot blajin și tot în grecesce.</p>
+<p>— Numai atâta? ha! ba! ha! de surda ai dat bani la corabie și ți-ai trepădat picioarele pănă’aici. Că Măria sa n’are urechi ca să au4ă multă sănătate de la toți budalaciî din patrida sa.</p>
+ <p>— Me iartă, <foreign>arhonda mu</foreign>, respunse grecoteiu tot cu acelaș ton supus; dă-mi voe să-și spuiu că eu nu sunt <foreign>budalas</foreign> venit numai să dic <foreign>evgheniei</foreign> sale: <foreign>filotocherisa</foreign>, ci am să’i dau și o scrisoare deia frăține-seu.</p>
+<p>— A! atunci e alt-ce-va; se vede că esci dintr’un sat cu el?</p>
+<p>— Se poate.</p>
+<p>— Dacă e așa adu scrisoarea încoa și asceaptă-mă.</p>
+<p>— Ba me iartă, scrisoarea nu’ți o dau, eăcî am să îi spui și ceva din gură.</p>
+<p>— Bine, stai aci în tindă până m’oî întoarce eiu dar să nu faci care cum-va să stai pe o laviță și s’o murdăresci că atâtea îți e, mai înțeles ?</p>
+<p>— Sunt prea umilită slugă a țelebiei tale.</p>
+<p>Arnăutul apăru peste un minut mai puțin arogant și dzise grecoteiului care așteptase în picioare afară în soare, cu un ton tot restit dar mai domol:</p>
+<p>— Haide vino încoa după mine.</p>
+<p>Grecoteiul sui treptele și intră în anticameră. Când să pășească pragul, Arnăutul îl opri și îl dzise cu asprime :</p>
+<p>— Mai ștergeți picioarele și curăță-te necioplitule să nu mânjești covoarele boeresci.</p>
+<p>Grecul primi toate aste insulte umilitoare cu o răbdare înperească, ba încă și mai mult îi ceru singur ertăciune de neajunsurile ce era nevoit să’i facă și merse tot ploconindu-se și făcând metanii până ajunse în camera marelui Vistier.</p>
+<p>Acest om se cunoscea după faciă că avea a facă cu banii țerei, fiind-că, după cum se vedea, îi mergea minunat de bine; stomacul ii sta umflat doldora sub un pept durduliu, și gușa îi atârna în mod respectabil d’asupra unui gât cu ceafa groasă. Nu vorbim despre mobila din casă și despre îmbrăcăminte, ci dzicem numai spre a fi înțeleși, că boerul era un parvenit, născut în cea mai din urmă miserie care se îmbogățise foarte mult prin mila Mavrocordaților și prin sudoarea Românilor. Avem destule modele de parveniți și în dziele noastre înaintea ochilor; luesul desfrânat ce desfășoră ne sare în ochi și acum; cum vedeți dar, nu este nevoe d’a spune de ce lucsu și strălucire orbitoare fu isbiți ochii bietului grecoteiu.</p>
+<p>— Cine esci tu ? întrebă marele Vistiernic cu ton înalt, aruncând asupra noului venit o căutătură obosită.</p>
+<p>Grocoteiul în loc de răspuns; căzu în genuche, lovi de trei ori cu fruntea parchetul, și pe urmă sărută căputa papucului boeresc.</p>
+<p>— Ridică-te și respunde-mi, dzise boerul măgulit de o salutare așa de înjosită.</p>
+<p>— Strălucite Doamne, răspunse stărpiciunea Fanarului, astă scrisoare ve va respunde în locu-mî.</p>
+<p>Zicând aste cuvinte se ridică în picioare și dete boerului o epistolă cu trei sigiliuri.</p>
+<p>Acesta o desfăcu cu o lene din ce în ce crescândă, își aruncă ochii pe ea și după ce citi căt-va câscând de câte-va ori, îi dzise :</p>
+<p>— Ce tu ești feciorul fratelui meu Aristidis ?</p>
+<p>— Așa, Măria Ta.</p>
+<p>— Nu te-am cunoscut; erai numai de trei ani când am plecat din Mețova. Ce face el ?</p>
+<p>— Sănătos, Maria Ta.</p>
+<p>— Cum îi merge treburile ?</p>
+<p>— Reu, Măria Ta; cei trei măslini s-au uscat, cei patru lămîi au degerat de o brumă ce a cădut și cei cinci portocali s’au rupt de vijelie.</p>
+<p>— Cu ce trăesce dar ?</p>
+<p>— Cu pescuitul.</p>
+<p>— Ii aduce vre un folos ?</p>
+<p>— Mai nimic.</p>
+<p>— De ce nu vine aici, sau la frate-meu din țara Romănească ?</p>
+<p>— Nu vrea, dzice că a îmbătrânit.</p>
+<p>— Dar mama ?</p>
+<p>— A murit.</p>
+<p>— Sermana: dar soră mea Arhonta?</p>
+<p>— Este bucătăreasă la cadiul orașului vecin.</p>
+<p>— Mai încet să nu te audă cine-va. O sa trămit eu bani ca să nu mai fie săraci. Bine că ai venit, căci dacă vei fi cu minte o să te pricopsesc! încă! tu și o să ajungi la oameni îndată. Ce știi tu ?</p>
+<p>— Să dreg corăbiile, să fac luntre, să întind pîndzele, să cărmuesc cu dibăcie, să...</p>
+<p>— Cu aste sciințe mori de foame aici; alt ce-va, alt ce-va.</p>
+<p>— Sciu să prăjesc cafea, să săr măsline și pesce.</p>
+<p>— Nici de acestea, scii carte tu ?</p>
+<p>— Nu sciu.</p>
+<p>— Nu faci nimic ! esci încă șiret; te tae capul la drăcii?</p>
+<p>— Sunt nepot al Mării tale, respunse grecul cu fudulie.</p>
+<p>— Mi se pare că eșci cam deștept, ai să ajungi departe , dar ce stai tu în picioare; ședzi jos pe un scaun.</p>
+<p>— ’mi e teamă să nu murdăresc ceva.</p>
+<p>— Nu e nimic, am destule slugi care să curețe ce a murdărit un nepot al stăpânului lor ; afară de astea și tu ai să-ți faci în eurînd nisce asemenea nimicuri.</p>
+<p>Grecul aupind astă promisiune înbucurătoare, se aședză pe un scaun, pe urmă își roti ochii înjurai său cu o mirare crescândă și în line </p>
+<p>— Se vede că Măria Ta ai dat peste vreo comóră.</p>
+<p>Cum vedeți, vermuțul vîzându-se bine primit prinsese limbă.</p>
+<p>— Ce comoară prostule ? răspunse unchiul care se întâmplase să fie cu chef în acea qd- Unde se afiâ comoară mai bogată și procopseală mai mare ca în astă țară mănoasă ?</p>
+<p>— Nu șciu ce fel de mănoasă e, căci cât am umblat printr'însa numai de oameni jerpeliți și de bordee sarăcioase am dat; mai rău ca în sat la noi.</p>
+<p>— Ascultă nerodule ca să scit și tu: unde este mojicimea de jos săracă, boerimea de sus e mai bogată ca ori unde, fiind că sângele celor de jos se scurge ca să îngrașe p’alu celor de sus.</p>
+<p>— Așa mi-am dat și eu cu părerea.</p>
+<p>— Am uitat să te mai întreb ceva ; ești tu curagios ?</p>
+<p>— Ca un palicari.</p>
+<p>— Scii să dai cu arma ?</p>
+<p>— Am fost trei ani cleft în Tesalia sub vestitul căpitan Deli Bacali.</p>
+<p>— Atunci tu o să faci stare mai eurînd de cât credeam. ’Mi-a venit o ideie; hoț pe hoț dovedesce, am să te duc la M. Sa.</p>
+<p>Dupe ce aste cuvinte, bătu de trei ori în palme și amantul cel gras și mustăcios apăru în pragul ușei cu capul plecat și cu manile încrucișate. Acesta când vedzu pe grecul cel soios stând tabla bașa pe scaunele de catifea ale boierului remase cu gura căscată.</p>
+<p>— Ascultă bre Iane, dzise boerul arnăutului arătând pe grec, du pe d-lui să se îmbăeze; după aceia priminesce-l cu cele mai bune albituri ale mele, po urmă ospetează-l ca pe mine însu-mi, apoi îmbracă’l cu hainele mele cele mai scumpe, și după aceia vino cu d-lui aici. De astă-zi în colo esci sub poruncele Evgheniei sale ; să’l slujesc cu supunere și credință ca și pe mine, că de unde nu, îmi scii patarama.</p>
+<p>Pân'acum s’a înspăimântat nu s’a înspăimântat arnăutul, dar când audi că i se poruncesce de stăpânul seu să se poarte cu așa respect faciă cu lutosul de grecoteiu credzu că sub acele otrepe soiose zace cine scie ce mare beizedea, ceia ce ce’l făcu să se plece cu capul până aproape de pământ.</p>
+<p>Grecoteiul după ce’și salută unchiul cu respectul datorit, ieși din casă trecend ars și țanțoș pe lângă acela pe care mai adineaori îlu numea telibi.</p>
+<p>— Bre ciocoiu, strigă vedzîndu-se în anti-cameră, care este cămara mea ?</p>
+<p>— Acea ce va plăcea M. Sale, respunse arnăutul țiind’o la rîndu-î într’una cu temenelele.</p>
+<p>— Dar casa de baie ?</p>
+<p>— Bine-voiască înălțimea-Sa să me urmeze.</p>
+<p>Peste doue ore nepotul reintră în camera unchiului seu cu burta doldora, spălat și dichisit, cu obrazul ras ca gușa somnului, cu mustețile cosmeticate și încărligate după urechi, cu perul tuns și pomădat, în cap cu un fes mare aplecat spre dreapta de’i atingea ciucurele de fir și ibrișim până la cotul mănei, pe corp cu o cămașă subțire de filaliu cu vărgi de mătase, albă ca fulgul de lebăda, peste care era pusă o fermenea de catifea verde cusută cu fir de aur și un caftan stacojiu de aceiași materie asemenea cusut, cu a le cărui măneci spintecate atingea genuchele; încins peste mijloc cu un brâu numai fir în care se sprijinea două perechi pistoale numai argint și un hangier de damasc pus într’o teacă bătută în aur și pietre prețioase; sub acest brîu împodobit cu un sileaf de filigram lucrat foarte artistic eșea o flustanelă albă și creață, în care intrase mal bine de o sută de coturi de percal; și în jos de flanelă, în picioare avea nisce poturi iarăși de catifea verde iarăș cusuți cu fir la extremitatea poturilor și în fine purta în piciore nisce iminei de saftian subțire roșiu.</p>
+<p>Sub acest costum marțial pe care îl purtase boerul când fusese mai tener, costelivul grecoteiu părea asemăna cu un Aristide. Boerul când îl văzu abia îl cunoscu.</p>
+<p>— Bravo per-de-câne, strigă el cu satisfasțiune, parcă esci un Alexandru Machedon.</p>
+<p>Pe fostul cleft nu’l mai încăpea pelea de mândrie și bucurie; tot mereu se uită pe sine, tot mereu se privea în multele oglinzi atârnate de perete, tot mereu pipăia pistoalele și hangerul; i se părea că visa.</p>
+<p>— Nu te mai uita că ’ți șade destul de bine, vei plăcea lui vodă nevoe mare, fiind că semeni cu M. S. când veni pentru ântăia oară în Moldova. Iți plac și ție aste haine?</p>
+<p>— O ! unchiule! strigă junele cu entusiasm ; mă mai întrebi ?</p>
+<p>— Aide, fie-ți dăruite; acest dar este începutul multor altor dacă vei fi cu minte.</p>
+<p>Dupe aceste cuvinte se sculă, plecă spre palat impreună cu nepotul într’o butcă superbă, și ajungâdu acolo intră la M. Sa, și Vodă îl primi ca pe nepotul unui favorit și’i promise tot ajutorul și protecția dacă va semăna unchiului seu, a căreia primă calitate era aceia de a sci cum să lingușească patimele și slăbiciunile stăpânului seu.</p>
+<p>Se vede că nepotul călca bine în urmele unchiului seu, fiind- că plăcu foarte mult M. Sale, îl pofti la masă, și pe urmă, după ce îl îmbiă cu toate bunătățile ce nu gustase el de când l’a născut masa, îi dzise:</p>
+ <p>— Ei <foreign>geanîm</foreign>, spune’mi cu ce să te hărăzescă mila mea Domnească ?</p>
+<p>— Măria Ta, răspunse grecoteiul cărând în genunche, dacă milostivirea măriei Tale voesce să se îndure a me hărăzi cu ce-va, bine voiască a me numi căpitan peste delii ce voiu alege eu din oștile M. Tale, ca împreună cu ei să adne neatinși banii hasnalii de prin ținuturi și să stîrpesc toată suflarea vie de tîl-har! din toată întinderea acestei țeri.</p>
+<p>— Mare lucru ceri tu! strigă vodă surprins.</p>
+<p>— Dacă e mare, atunci remâne ca mila M. Tale să’ml poruncească orî-ce va bine-voi.</p>
+<p>— Ei-vei tu vrednică să îndeplinesci o sarcină grea ca aceasta ?</p>
+<p>— Dacă o dată o cer de la îndurarea înălțimei Vóstre...</p>
+<p>— Scii tu cu cine ai a face ? ai audzit tu cine e Bujor?</p>
+<p>— Da, Măria ta, și fiind că sunt sigur că numai eu voiu da de cap acestui tâlhar de nimic pentru aceia am îndrăsnit.</p>
+<p>— Bine,fie-ți dăruită cererea, dar îți repet încă o dată : pădzește-te fătul meu că Bujor e alu dracului.</p>
+<p>A doua dzi toate cetele de arnăuțî, bostangiî, buiuclii, bezi ceata de seimeni străini, și cea de poterași de țară în fine toată suflarea ce compunea puterea armată a țerei în acele timpuri și care păzea mai mult averea domnitorilor de cât siguranță statului, se înșiruiră în aintea palatului domnesc și fură trecuți în revistă de către nepotul vistiernicului. Acesta trecând călare pe dinaintea lor, făcu semn la un arnăut să iasă din șir și să se dea la o parte, apoi la altul și iar la altul; asemenea făcu semn și la câte unul din bostangii, buiuclii, poterași și seimeni, până ce dete la o parte vre o 80 inși tot unul și unul.</p>
+<p>— Aceștia sunt oamenii mei, dzise după ce fine cu alesul, adresându-se către marele Hatman care asistase la astă operație.</p>
+<p>— N’ai fost norocos la alegere, răspunse Hatmanul ; aceștia sunt niște recruți veniți numai de iert din Rumelia și Albania și înscriși în cetele de pază ale M Sale; catastișele ogeacul lui sunt de faciă ca să te încredințeze.</p>
+ <p>— Nu face nimic, respunse vechiul <foreign>cleft</foreign> (hoț grec); eu am un meșteșug cum să fac în câte-va dintr'un agiamiu un soldat fruntaș.</p>
+<p>— Nu credzi să isbutesci cu ăștia, fiind-că nu s’au învrednicit să dea cea mal mică dovadă de destoinicie la sciința armelor prin nici un fel de teșcherea sau mărturie!</p>
+<p>— O să cerc; dacă n’oiu isbuti lesne îmi aleg eu alții.</p>
+<p>Cercarea lui fu încoronată cu un succes neasceptat, căci peste o săptămână ceru și obținu voe d’a concura în evoluțiuni reshelnice cu cel mai aleși din veteranii celor alte corpuri de armată, și recruții re' purtară toate victoriile atât în precisiunea mișcărilor și școala de tir cât și în cnragiu și bărbăție. El asediară un sat vecin pădzit de oști îndoite, și în două ore îl luară cu asalt; ne mulțumindu-se cu atât el stinseră și focul care se iscase în satul atacat prin aprinderea unei șire de pae, spre marea bucurie și bine cuvîntarea bieților țeranî ce fugeau de colo până eolo coprinșî de groză ca puii de șorecî udați cu spirt și aprinși, și tot ei adunară pe învinși care o luară rasnă pe câmp îngroziți de frică. Astă bravură puse în mirare pe toți și atrasă toată iubirea și confiența lui vodă.</p>
+<p>— De bună seamă, dise M. Sa, cu acești pui de lei când se va isbi Bujor este perdut.</p>
+<p>Peste trei dzile primi visteria soirea că în ținutul Bacăului a început să se sune vorba iarăși de ivirea lui Bujor care voia sa atace însuși orașul și mai ales sămeșia, și, că spre siguranță, ar voi să trimită banii în Capitală, dar n’avea îndestul oameni ca să pălească și să apere de vre-un atac o sumă atât de considerabilă.</p>
+<p>Vodă chemă pe nepotul vistiernicului, îi ordonă să se ducă la Bacău cu voinicii lui și să aducă banii neatinși dacă vrea să fie de odată numit Stolnic' grecoteiul plecă cu delii lui, și peste patru dzile se întoarse cu banii în per spre marea bucurie a unchiului și a stăpânului seu.</p>
+<p>— Bun început, dzise Sa îmbrăcând pe junele grec cu conteșul de Stolnic; să te ved și la altele și mai mari.</p>
+<p>A treia zi după ce oștenii sei băură până într’o para gratificația ce dobândiseră, plecară la Botoșani se aducă o sumă și mai considerabilă, și se înturnară cu banii neatinși ea și de la Bacău. Vodă de bucurie îl numi vătaf peste ocolul Sorocii și ’i dărui și o sumă de bani.</p>
+<p>Intr’o zi Măria Sa îi dzise:</p>
+<p>— Acum ai să’ți arăți vitejia care să te norocească pe toată viață pe tine și pe ai tei, ai să faci două vitejii de o dată ; pârcălabul de la Galați îmi scrie că Bujor și cu ai sei este conăcit într’o pădure din acel județ vecin cu Brateșul și tot de o dată că are strînși la sine mai bine de 50 mii pungi cu bani; dar ’i este frică să nu fie călcat de acestu hoț îndrăsneț și jefuit de o sumă atât de însemnată. Dacă vei putea cu un tertip care-care să înconjuri pădurea și să înneci în Brateș pe Bujor și ceata sa, ori să’l silesci să se dea prins, dacă vei aduce mort sau viu pe căpetenia lor Bujor și împreună cu ei cele 50 mii pungi, îți dau 1000 din ele ție și te numesc mare Spătar.</p>
+<p>— Primesc stăpâne, răspunse vătaful Sorocei, și a doua dzi plecă cu ai sei spre Galați.</p>
+<p>Opt zile după aceia vodă primi veste că pădurea din vecinătatea Brateșului a fost cutreierată în toate sensurile de delii Stolnicului Apostolache, dar că urmă de hoț n’au găsit ; așa dar au plecat cu banii spre Iași, luând precauțiunile d’a se apăra contra ori-cărui atac și d’a prinde pe ori-cine ’i ar părea vrednic de bănuială.</p>
+<p>Acești bani sosiră ca și cei alți, visteria țerei fu ca nici o dată înțesată de bani și bolțile sale nu mai încăpea să coprinză sutele de mii de pungi ce adusese Apostolache. Vodă de bucurie îl îmbrăca eu conteșu de mare Spătaru, îi dărui 1000 pungi după făgăduiala, dărui și la fie-care deliu cate o pungă, și spre a le dovedi deplina sa încredere îl însărcina cu esclusiva pază a orașiului și a visteriei până ce se va face împărțeala cuvenită banilor dintr’insa.</p>
+<p>Marele vistier cam greoiu din fire, măndru că era unchiul unui așa viteaz, îl luă pe densul drept ajutor ca să așede prin bolți maldările de pungi, și după cc obosea îi dedea și cheia pe mâna și îl lăsa să aședze și să reașeze bănetul chiar în timpul nopții sub paza oamenilor sei, care, cum scim, aveau dreptul să cu-noaptea toate stradele orașului fără să fie de nimeni supăraț?.</p>
+<p>Toata noaptea aceia în care Apostolache își petrecea orele de somn în boltă, oamenii sei alergară de colo până colo prin oraș, prin jurul palatului, pe la barieri, prin împrejurimi și pe ori unde era teama de vr’o năvălire de haiduci; toată noaptea nu închiseră ochii săracii și nici la dziuă nu se astâmpârară.</p>
+<p>Apostolache tocmai a doua dzi noaptea termină cu deretecatul fără ca unchiu-seu să mai dea p’acolo. și cum termină se duse de’i dete cheia, și în loc să se oulce plecă împreună cu ciata sa la Piatra ca să escorteze un nou convoiu de bani.</p>
+<p>A treia vodă chemă pe vistier și'l rugă să’i a-ducă din boltă vre o două mii de pungi ; Alecache luă cheia adusă de cu seară de către nepotul seu și se coborî în boaită fredonând o cântare de dragoste îa modă în țara lui când părăsise cei doi lămâi acum degerați. Ușa se deschise lesne, dar când să intre în întru se luă cu mâinele de per și de barbă și începu să țipe ca un năbădios îngrozit de ceia ce vedea înaintea ochilor. Câte trele bolțile erau goale toacă și pe peretele celei d’ântaiu era lipită o hârtie pe care era scris cu litere grecești următoarele rînduri:</p>
+<quote><p>„Iubite unchiule."</p>
+<p>„Să nu’ți mai dai osteneala a căta banii si pe scumpul D-tale nepoțel împreună cu ceta lui, căci și banii și el sunt acum puși bine de Bujor ca să nu mai dai cu mâna de ei cât aminul. Iartă-me de supărarea ce ’ți-a pricinuit; al D-tale smerit nepot.</p>
+<p><hi>„ Apostolache“.</hi></p></quote>
+<p>Mai josul acestor rîndurî era scris în românesci :</p>
+<quote><p>„Vistiernice”</p>
+<p>„Fă bunătate de primesce de la Bujor acest răvaș ca să nu remăi păgubaș, prin care încredințează că a primit din visteria țerei spre a le da înapoi la adeverațiî lor stăpân 200,000 pungi cu bani.</p>
+<p><hi> Bujor</hi></p></quote>
+ <milestone unit="footer" type="line"/>
+</div>
+<div type="chapter">
+ <head>XII.PÂRLEA VODĂ</head>
+<p>Alergătura inutilă a poterașilor după haiduci dură mai multe luni și poate ar fi durat și ani întregi fără ca oamenii stăpânire! să poată pună măna pe haiducii din codru, pentru că, cum am dzis mai sus grosul armatei haiducesci locuia prin sate printre săteni, și numai la ordin se duceau în codru, iar statul său major, adică căpitanul, locotenenții sei și voinicii cei mai diochiați, în vreme de prigoniere își petreceau timpul ascunși în tainițe și hrube săpate sub pămînt în inima codrilor, a căror misterioasă intrare era cunoscută numai de căpitanul.</p>
+<p>Acele hrube pe care le am mul descris și in alta parte, erau îndestul de spațiose ca la caz de trebuință să ascundă chiar o armată întreagă cu cal, aprovisionări îndestulătoare și tesaurul cetei; elle erau compuse din mai multe compartemente, unele cu pereții dzidițî și boltite cu piatră și cărămidă, altele cu pereții căptușiți de scânduri și altele ne căptușite de loc. Acele compartimente erau mobilate întocmai ca nisce camere în acea epocă, altele împodobite în tot ce are luxul mai scump, mai frumos și mai rafinat; elle e-<gap unit="pages" extent="1"/></p>
+<p>Vodă aflând nenorocirea cea neașteptată fu p’aci p’aproape să’i vie apoplexie, iar Vistieru plânse toată viața sa, nu pe nepoțelu ce perduse, ci grația domnescă ce’l oropsise slujba de care fusese despărțit și drăgulița de avere ce’i fusese confiscată de domnie.</p>
+<gap unit="pages" extent="1"/>
+<p>— Cine vrei să fiu alt de cât bărbățelul teu? și ce datorii mai sfinte cată să’mi îndeplinesc, față de tine de cât acelea de’a me face vrednic de iubirea ta?</p>
+<p>— Voiu să fii haiduc cum ai fost mai înainte d’a me lua pe mine și să pleci chiar de mâine în codru.</p>
+<p>— Haiduc! esclamă Bujor încruntându-se și uitându-se cu o căutătură bănuitoare spre iubita sa. Cine ți-a însuflat acest gând ?</p>
+<p>— Nimeni.</p>
+<p>— Nu se poate.</p>
+<p>— Me jur pe ce am mai scump pe lume.</p>
+<p>— Dar tu ? tu ce te vei face ? adaose Bujor uităndu-se drept în ochii ei.</p>
+<p>— Eu te voiu însoți ori unde vei merge.</p>
+<p>— Pe mine? tu ? o femee în codru! cu neputință.</p>
+<p>— Numai eu am fost haiduciță într’astă lume? O! Bujor, dragă, dacă în adever me iubești fă ce te <hi>rog </hi>. Aide în codru, că multe lăcrămi ai să ștergi, multe nedreptăți ai să isbăndesci ; dacă nu vrei să ți se isbescă ochii în codru de vederea unei femei, se pote să facem lucrările alt-fel ; pot să te fac să capeți un frate, un frățior mai mic ca tine care va împărți cu tine tote primejdiile și nu te va părăsi nici o dată. Așteaptă să vedzi.</p>
+ <p>Zicând aceste cuvinte, numai de cât trecu într’o cameră laterală sburând ușure ca o păsărică, și peste câte-va minute apăru în locu-i un puiu de haiduc cu poturi, brîu și arme haiducești, care semăna la chip cu Ióna, dar nu mai avea nici aerul, nici părul ondalos nici menținerea femeiască a Iónei.</p>
+ <p>Bujor remase încremenit înaintea astei transfigurări neașteptate, pe care Ióna de mult o pusese în lucrare cu ajutorul betrănei servitoare, și voi să protesteze, dar rugăciunile, desmerdările și tot arsenalul armelor ce întrebuințează o femeie când vrea să triumfe, îl făcu să se înduplice și săi dea voe de alu însoți în codru.</p>
+ <p>Indrăsnețele înterprinderi cu ianicerii și nepotul vistierului se petrecură în urma întrărei Ioanei în codru ; Ióna fu introdusă în ceată sub chipul junelui Nițu, si în calitatea de frate mic alu căpitanului luă o parte foarte activă în ambele întreprinderi și se distinse mai cu asupra ca un voinic.</p>
+<p>După ce le aduse bine la capăt pe toate și își îmbogăți bine voinicii cu prădarea vistieriei, al cărui conținut îl îngropase mai întăiu în timpul nopții afară din oraș în apa Bahluiului și apoi îl cărase încetul cu încetul în timp de o lună la conac, Bujor dete drumu cetei sale ca să se odăhnească cate-va septămăni și fie-care se duse pe la satul său ca să’și vază de gospodărie.</p>
+ <p>Într’ast timp Bujor trecu cu Ióna în misterioasa lor cămăruță și codru remase pe mâna lui Codreanu,</p>
+<p>Junele haiduc ca să îi treacă de urît, se hotărî să facă sânge reu lui vodă prin căte-va atacuri micî și singuratice, dar indrăsneața sa încercare fu p aci să’l coste viața.</p>
+<p>Intr’o zi Codreanu primind scire de la emișarii sei secrețî cu care Bujor împănase întreaga țară, că un grecoteiu bogat mergea spre Galați cu o sumă considerabilă ce strânsese din sudoarea Românului, spre a o încredința unul căpitan de corabie ca c’o ducă la patria lui, plecă singur spre partea locului, și între Roman și Bacău întâlni pe grec, îi dădu bună ziua ca un creștin de omenie, și grecul răspunse cu bruschețe :</p>
+ <p><foreign>— Carnacsi diavolo Bogdani</foreign>.</p>
+<p>— Dar de ce me ocăresci boerule ? întreabă haiducul deghisat apropriindu-și calul de calul fanariotului.</p>
+ <p>— <foreign>Bre merzi d’ați, îi răspunse acesta cu ton arțăgos, că te umflo cu afti vena de bou</foreign>.</p>
+<p>— Boerule mi se pare că esci cam arțăgos, obiectă haiducul cam rînjînd.</p>
+ <p>— <foreign>Asia plațe la domnia mea</foreign>.</p>
+<p>— Să’ți placă boerule în țara D-taie, dar nu într'a noastră.</p>
+ <p>— <foreign>Ma, a cui țara ie asta ha! ? A voastră moziților</foreign> ?</p>
+<p>— Negreșit ; dacă ne-am născut în ea și vorbim limba ei.</p>
+ <p>— <foreign>A nóstra este bodurlane, cățî al nostru este vodă, âi noi i muncamo bunu</foreign>.</p>
+<p>— De asta așa e; d’aia ve iubesce Românul ca sarea în ochi.</p>
+ <p>— <foreign>Ce pasă la domnia mea ? stringo eu bani</foreign> ?</p>
+<p>— Strîngî, strîngî până ce vine Bujor cu ai lui, ca să te gătuiască și să-ți ia tot.</p>
+ <p>— <foreign>Buzoris este un budalas; se vina la mine dacă o da mâna la Dumialui</foreign>.</p>
+<p>— Dacă ar veni aici, chiar pe ast câmp, ce i-ai face ?</p>
+ <p>— <foreign>Ego? vedzi afti pistolo? adaogă grecul bătând cobori calului, cu ele nu e frică la mine de Buzoris</foreign>.</p>
+<p>— Ce ie drept tare curagios se vede că esci, boerule, de umbli singur pe așa vremuri, cu Codreanu umblând.</p>
+ <p>— <foreign>Ei, ei ! sunto palisaris ego</foreign>.</p>
+<p>— Ce ie dreptul, trebuie să fii și bun la inimă, fiind să proverbul zice omul Curagios este și milos.</p>
+ <p>— <foreign>Căte odată; nu pot vede chindo tai ghito la uno puio de gaina</foreign>.</p>
+<p>— Dar cu bieții români cum te porți cocoane ?</p>
+ <p>— <foreign>Chindo este omo de ispravă si munțeste multe si bine, ego țintește pe el cu una litra de rachio, iar chindo nu, dao cu afti vina de bou până curdze sîndze si la bostani groși dezugo boi de la plugo si le pui pe eli se traga</foreign>.</p>
+<p>— Dar dacă nu vor ?</p>
+ <p><foreign>—Îi bătu cu haraptnico țel de patru cai</foreign>.</p>
+<p>— Dar dacă moare ?</p>
+ <p>— <foreign>Îi plătescu cu dio floria și nimeni nu dzițe pis</foreign>.</p>
+<p>— Bine stai D-ta! esclamă haiducu, d’aia vă îmbogățiți aici ! dar când vine unul să ve ceara împrumut ce-va ?</p>
+ <p>— <foreign>Iî țeru zalogu si-i dau mesa mesa</foreign>.</p>
+<p>— Cu dobîndă ?</p>
+ <p>— <foreign>Mai este vorba frățico ? una si una</foreign>.</p>
+<p>— Dar când ți-aș cere eu să me împrumuți fără zălog și dobândă m’ai împrumuta ?</p>
+ <p>— <foreign>Țe spui dimiata? țe ești cu mine? frațicu al meu ? una ruda ? ai </foreign>?</p>
+<p>— Nu, dar fiind că sunt om sărac și la mare ananghie, am crezut că oi fi om a lui Dumnezeu și oi compătimi.</p>
+ <p>— <foreign>Mută-ți ghindu bădiță; cu bani mila nu încape</foreign>!</p>
+<p>— Unde nu încape mila, încape sila cucoane, dzise Codreanu cu o voce detunătoare.</p>
+ <p>— <foreign>Ce cănți tu mozico ?</foreign> esclamă grecul schimbându’și facia.</p>
+<p>— Un cântec care nu’ți va plăcea, respunse Haiducul scoțînd de la brău doue pistole; senate bani cațaoane.</p>
+ <p>— <foreign>Țe glumești, frațico</foreign> ? grecul tremurând.</p>
+<p>— Nici glumă nici nimic, scoate bani.</p>
+<p>— N’am la mine nimic, crede-me.</p>
+<p>— Ia nu mai spune minciuni? ai 20,000 galbeni pe care vrei să-i trimeti în țara cațaonească; scoate-i mai iute dacă nu vrei să ți-i scot eu.</p>
+ <p>— <foreign>Iți zuro, că n’amo niți frântă para</foreign>.</p>
+<p>— Ia ascultă, pe Bujor nu’l minți cu una cu doue.</p>
+ <p>— <foreign>Buzoris</foreign>! . . , esclamă grecul terificat. <foreign>Pana-ghia-mu</foreign> !..</p>
+ <p>— Așa <foreign>budalaoa de Buzoris</foreign>; ia scoate pistoalele de’l împușcă daca îți dă mâna.</p>
+ <p>— Iată-le, respunse bietul cochinț scoțînd pistoalele din cobur și dându-le hoțului tremurând ca varga, <foreign>le harizesco Dumitale</foreign>.</p>
+<p>— Mulțumim, dar mai scoate încă.</p>
+ <p>— <foreign>Iți plațe armăsaru meu ? ei haide, ți-l dau și pe dânsul dacă vom azundze la Galați</foreign>.</p>
+<p>— Să lăsăm gloaba în pace și să trecem la bani! hai scoate mai curând.</p>
+ <p>— <foreign>Dar n’am, n’am la mine, îți zuro ; nu credzi ? nu ești creștin? aide la mine a casă si acolo vom vedea</foreign>.</p>
+<p>— Nu e vorba de ce ai acasă, ci de ce ai la tine ; aide că scot fiarele și aprind focul.</p>
+<p>— Căpitane, fie'ți mila, murmură grecul perdut.</p>
+<p>— Lasă că nici ție nu’ți este milă de Român, ci’l pui ca pe boi la jug și îl plătesci cu doi galbeni dacă moare ; aide dă bani mai iute.</p>
+ <p>— <foreign>Azutor, hoți, tîlharii</foreign>! strigă grecul sbătîndu-se în brațele de oțel ale haiducului.</p>
+<p>— Tacă’ți fleoanca că’ți repui viața, strigă Codreanu cu o voce detunatoare snopindu’l cumplit.</p>
+<p>Grecul nu mai audzea, nu mai vedea, ci striga, sbera, urla cât îl lua gura.</p>
+<p>— Ved bine că trebue sa’ți amuțesc fleonca crestându'țî pelea, strigă haiducu scoțând cuțitul de la brîu; o să me dai de pagubă cațaoane ca să te plătesc și eu cu doi galbeni.</p>
+<p>După ce pronunciă aste cuvinte, înfipse cuțitul în gâtlejul bietului grec, îl lăsă să cază jos după cal într’un lac de sânge, scotoci prin coburi, desage și busunare, găsi banii băgâți în patru pungi, le luă numai de cât în brațe, le așeză în desagele șelei calului seu și pe urmă dădu drumul caului remas fără de stăpân, se șterse de sânge și plecă ca glonțul temându-se c’a zăbovit prea mult și a făcut prea mare sgomot.</p>
+ <p>Temerea haiducului era fundată, fiind-că în adever se zări la spatele seu un nor de praf care ascundea o ceată de vreo 15 seimeni ce se întorceau spre reședința districtului, după ce însoțise un convoiu de producte pentru armata turcească tăbărîtă la M[cin. Ei mergeau cum zice grecul: <foreign>agali, agali</foreign>; abiau clătinau frânele în gurele cailor care, cum se vede erau molipsiți de pustia de lene ce bântuia pe stăpînii lor; ei ar fi trecut de locul unde zăcea bietul grec îri prada ultimelor agitări de agonie, fără să vază nimic fără sa scie nimic, fără să miroasă chiar urmă de haiduc, dacă n’ar fi venit calul murindului și nu le-ar fi turburat monotonul cântec cu care voiau să momeamescă urîtul, printr’uu sforăit și un nichezat semnicativ.</p>
+<p>Auzind ast nichezat precum și respunsul bidiviilor lor, bravii apărători ai Domniei, rădicară nasurile în <gap unit="pages" extent="1"/> sus și văzură înainte-le un cal înșelat și închingatu dar fără stăpîn. Unul din ei se apropie de el, îl a-pucă de frîu fără nici o opunere dinparte’iși vedu pe o ipingeaoa albă pusă d’asupra șelei mai multe picături de sânge. Acest sânge îi făcură mai atențî, le ațâțară euriositatea și'î îndemnară ca să se ia după urma făcută de copitole calului și să descopere pe grec sbătându- se în ultimele momente ale agoniei avînd înfipt în gramaj un cuțit pe care era stampat numele lui Bujor. Venind acest spectacol îngrozitor seimenii se cutremurară și începură să se uite sperioșî în toate părțile, credendu-se deja înconjurați de ceata teribilului cap de haiduci.</p>
+<p>Pe pajiștea cea verde a întinsei câmpii se vedea încă fugind un om care avea toate aluriie unui haiducii.</p>
+<p>— Ei e ucigașu, dzise unul uin poterași vedzîndu’l ; după el băeți până nu intră în crâng.</p>
+<p>Poterașii audzind că era numai unul câpătară curagiul ce ’i părăsise și se luară în goana celui ce fugea înainte.</p>
+<p>Codreanu, căci în adever el era fugarul, simțindu-se urmărit înfipse câlcăile în burta calului, și fugaciu începu să sboare, dar era deja ostenit și caii odihniți ai poterașilor îl sosea mereu din urmă.</p>
+<p>In fine sosi în marginea crângului și când să se afunde în el ca să nu se mai vadă, întoarse capul în-napoi ca să vază dacă mai ei a urmărit. Într acel moment poterașiî perdzînd speranța de a’lu mai prinde, își descurcară armele spre el și un glonț inimic trecu pe lângă ureehia sa pe care o sdreli puțin și ’l făcu să pue mâna la dânsa ca sa pipăe. Atunci îi dzise 0 voce din napoi:</p>
+<p>— Te cunosc acum câne spurcat căci bine te am însemnat. Ne mai întâlnim noi altă dată.</p>
+<p>Cea mai mare parte din haiducii din ceata lui Bujor, ca toți haiducii care au voinicit pe timpul Fanarioților spre a apăra Românismul contra prigonirii lăcomiei străinismului, acei viteji păunași de codru care își luau de bună voe misiunea de a resbuna cum puteau strămbătățile pe care apărătorii siguranții și liniscei societății nici gănd n'aveau să le pedepsească, o săptămână ședeau în codru și doue săptămâni acasă, schimbându-se pe rând ca dorobanții în dzilele nostre.</p>
+<p>Îndată ce lăsau pușca din mână, se duceau la satul lor, unde aveau casă, nevastă și copii, unde își plăteau toate angaralele și erau cunoscuțî și considerați de consătenii lor; ei luau plugul de coarne sau lopata de coadă și munceau de îi treceau mii de nădușeli ca să fecundeze pământul spre a sătura pe lacomii venetici, iar după ce trecea săptămânele, da plugul, cosa sau sapa pe mâna celor d’acasă, aruncau dulama pe spinare și apucau poteca codrilor înecându-și dorul ce le producea suferințele țerei prin vre o doină duioasă. ei spuneau consătenilor lor că merg la oraș ca să cumpere sau să vînză ceva, satul însă scia unde mergeau, dar nimeni nu deschidea gura să’i trădeze la vre un venetic, pentru că toți sciau causa care apăreau ei. </p>
+<p>Șeapte dzile după moartea grecului, Codreanu își lasă pușca, pistoale și șoimuleanul lui în tabăra căpitanului și apucă poteca în vale spre casă. Eșind în drumul mare, se abătu la un hănișor să’și ude puțin gatul și să ’și înnece aleanul în nițel vinișor, și intră în cârciumă dzicând :</p>
+<p>— Noroc fraților.</p>
+<p>— Noroc să dea Dumnezeu, răspunse cel din cârciuma.</p>
+<p>După salutare și răspuns, Codreanu se puse pe o laviță dinaintea unui mese lungi și ceru vin. In cârciumă pe lângă țărani și țărance era și vre o șase seimeni care ’și beau vinul și ’și făceau cheful retrași într’un colț deosebit de țărani. Unul din acei soldați, a cărui întreagă facia era o cicatrice îngrozitoare, se sculă de la masă, și pe când Codreanu rădica fundul oalei în sus ca să tragă o dușcâ țepână, simți pe umărul drept apăsarea unui mâni. Când lăsă oala în jos și 'și aruncă ochii vădzu înnainte-i nu fără nelinisce pe soldatul cel groasnie la vedere.</p>
+<p>— Ah tâlharule ce esci! strigă acesta într’o grecească românească amestecată, apucând țeapăn de braț pe haiduc, dracul mi te dete pe mână mai curând de cat nădăjduiam; nu’ți am spus eu c’o să puiu mâna pe tine ?</p>
+<p>— Ce ai cu mine, mei creștine ? răspunse haiducul prefăcându-se a fi mirat, ce ți am făcut eu de nu mă lași în pace ?</p>
+<p>— Te faci că nu scii ? ce ai uitat pe neguțătorul ce omorăși mai de unădzi între Roman și Bacău?</p>
+<p>— Eu ucigaș ? feritu-m’a Dumnezeu, răspunse haiducul făcendu-și cruce.</p>
+<p>— Aide, nu te mai ascunde viperă spurcată că te cunosc eu după sdrelitura ce ’ți am făcut la ureche care nu s’a vindecat nici până acum; esci dintr’ai lui Bujor, dintr’ai tâlharului care 'mi a făcut asta rană ce m’a schilodit așa de grozav cănd puseiu mana pe el la nunta de la Copacesci. Ah! d’ar da D-dzeu ca cu tine să pui mana pe el și să'mi sar inima, proclete.</p>
+<p>La audzul acestui teribil nume, toți asistenții se sculară după unde ședeau și se făcură cerc împrejurul lui Codreanu și a seimenului.</p>
+<p>— Eu din ai lui Bujor!... esclamă haiducul. Ia lasă-me omule în pace cu Bujor al teu, și dute de ’ți vezi de vin și prieteni dacă a început să ți se pupuzeze vedzul.</p>
+<p>— Ti!... hoț șireț, că nu ’mi scapi tu așa lesne din mană; e hoțul de alaltă-eri, verișcanilor, adaose adresăndu-se către seimeni,</p>
+<p>— Să-lu legăm cobza, răspunse cei alți soldați punând mana pe nefericitul Codreanu.</p>
+<p>In deșert se smuci el, în deșert se sbătu, în deșert protestă, în deșert apelă la țărani asigurându-’i de inocența lui, fiind-că țăranii cu inimă cat purecele de frică ce le inspira seimenii nu dzise nici nici cărc și soldații tîrără în voe după ei pe haiduc.</p>
+<p>Chiar în acea seară află Bujor de la necunoscuții lui spioni că Codreanu a cădzut pe măinile Grecilor.</p>
+<p>Haiducul prins fu transportat drept la Iași unde fu aruncat în cea mai profundă și mai bine pălită din temnițe. Audind astă veste Vodă Mavrcordat simți o bucurie nespusă și se scoboră însuși cu marele logofăt în temniță ca să înterogeze pe haiduc, de la care prin dibăcie ar fi putut dobândi amănunte fórte interesante despre Bujor. Insă nici vicleana fineță a fanariotului, nici promisiunile și nici amenințările nu scoase din gura închisului alte amănunte de cât că e inocent, nu cunoasce cine e Bujor, că vine de la Galați și ca n’a trecut nici de loc pe la Bacău, fiind că a venit prin Fălciu, unde este casa și toate ale lui, și mai ales ca în dziua comiterei omorului el era în Galați.</p>
+<p>— Sa ’l lăsâm câtă-va vreme pane să aflăm sciri de la Fălciu și Galați, dzise Vodă plecând.</p>
+<p>Pane să vie a celle sciri, temnicerul lui Codreanu se întîlni într’o dzi la porta temniții cu un om de o statură mijlocie, șchiop și urît întocmai ca un temnicer, acesta cum îl vedu îi disse:</p>
+<p>—D-ta esci temnicerul de aici ?</p>
+<p>— Da , dar ce vrei ?</p>
+<p>—Vreau să’ți dau bună dziua.</p>
+<p>—Mulțumim Dumitale, dar pentru care cuvânt ?</p>
+<p>— Pentru că am fost o dată prieten cu D-ta și acum nu ne mai cunóscem.</p>
+<p>—Prieten de când sunt temnicer ? sau pe când eram seimen ?</p>
+<p>— O ! pe atunci pe când ne resboirăm o di întregă în pădurea Simnicului cu o ceată de hoți d’ai lui Bujor. Ce viteaz erai ! ce bine ’ți cunoscea-i prietinii!....</p>
+<p>Uite eram lîngă D-ta când mi-au împușcat piciorul tâlharii !</p>
+<p>—Cum veci D-ta me conosci bine și eu nici de cât.</p>
+<p>—Așa uită omenii cei mari pe cei mici.</p>
+<p>—Așiu vrea să ’mi duc aminte, dar aici nu putem sta mult fără a fi băgați de seamă.</p>
+<p>— Dacă ai voe bună și vreme, ai să tragem o dușcă la chir Iane d’alături.</p>
+<p>Vinul lui chir Iane îi făcu cei mai buni amici, le a-mintiră trecutul ca diua de ieri și'î îndrăgostiră astfel în cât nu se mai îndurau să se despărțească.</p>
+<p>Dupe ce ’și spuseră multe și mărunte, prietenul cel nou întrebă pe temnicer :</p>
+<p>— Cum te mulțumesc! aci ?</p>
+<p>— Petrecem bine pene mai deună-dî ; dar de când a adus un hoț din ceata lui Bujor, nu me odihnesc deloc, fiind că trebue să stau di și nopte deștept; mi s’a’dat poruncă să găsesc un tovarășiu, dar n’am putut găsi om de încredere, scii colea cum îmi place mie, bun pentru un asemenea mosafir.</p>
+<p>— Aoleo, pune-me pe mine nenișiorule și vei vedea dacă se va putea mișca din loc tâlharul; drac d’o fi tot nu-mi va scăpa.</p>
+<p>— De scăpat nu va scăpa că nu va putea, fiind bine legat și bine pădzit, dar să nu dea ochi cu vre unul d’ai lui, asta e totul.</p>
+<p>— Lasă-l pe mine că numai eu am ac de cojocul lui.</p>
+<p>— Zeu ai vrea să fii temnicer ?</p>
+<p>— Chiar din acest minut.</p>
+<p>— Aide cu mine atunci să te înfățișez la vătaful temniții, dar păzea să nu me dai de rușine.</p>
+<p>— Să n’ai grije nici de cât.</p>
+<p>Peste o oră și jumătate amicul temnicerului era instalat și el în calitate de temnicer și făcea împreună cu camaradul seu revisia arestanților. Când intră la Codreanu, temnicerul îi dzise :</p>
+<p>— Aici ai să faci cunoscință cu unul din acei blestemați care cu glonțele lor ’ți a făcut piciorul neputincios cum mie brațul.</p>
+<p>— Ah! d’ar fi pe voia mea, eu singur m’aș face gânde numai să fie spânzurat de mânele mele.</p>
+<p>— Ce e mai lesne ; moș Călin de și e țigan, a albit și nu mai pote să-și vază de treaba.</p>
+<p>Cu aste cuvinte în gură temnicerul deschise porta de fer a chilii lui Codreanu și intră în întru. Hoțul vedzend pe acela ce însoțea pe temnicer, tresări și se sculă repede în sus; dar se domoli pe dată și se reașeză pe lavița de piatră de care erau prinse lanțurile ce i legau mânele și piciorele.</p>
+<p>— Iată-ți pașnicul, dzise temnicerul cel mai vechiu adresându-se către haiduc ; să nu te împingă dracu să faci vre-o dobitocie, căci ăsta e voinic și nu scie să glumescă.</p>
+<p>De la venirea noului temnicer se operase în caracterul arenstatului o mare schimbare; din tăcut, gânditor, trist și desolat cum era, se făcu vesel, neingrijitor și nepăsător. Nimeni nu pricepea astă transformațiune și toți se mirau și se minunau.</p>
+<p>In fine sosi și vestele asceptate de la Falciu care afirmau că în adevăr esista într’un sat din acel tinut un om cu semnele și numele indicate, dar de la Galați se răspunse că de nimeni nu s’a vădzut pe undeva un asemenea om. Aste vești ne fiind îndestul de ușiurătore pentru acusat, făcură pe logofeții și judecătorii divanului să se adune și să cheme înnainte-le pe presupusul hoț. El tăgădui într’una tóte acusațiunele ce i se aduse și respinse tote propunerile de ertare și răsplătire ce i se făcu dac’o vinde pe căpitanul, țiind într’una că el nu era hoț și nu scia ce dihanie era Bujor ăla.</p><p>— Te vom face noi să scii și să ne spui chiar laptele ce ai supt din sânul mumă-tei, dise un divanliu. Să vie gâdea încoa, adaogă acesta cu o voce restită.</p>
+<p>Intr’o clipă gâdea fu înaintea divanului. Nu era țiganul care îmbătrînise în temnița Iașilor schingiuind la condamnați, ci o aramină tare și venósă în florea vîrstii.</p>
+<p>— Dar nu este ăsta gâdele! dzîse divanliu uitându-se chiorîșiu la dihania ce ținea în mână paloșiu dreptății.</p>
+<p>— Nu, Măria Ta, răspunse temnicerul, gâdea este bolnav și feciorii lui sunt la Vaslui ca să spândzure un osândit.</p>
+<p>— Dar bine ăsta cine e ?</p>
+<p>— Este un temnicer de curând însărcinat cu asta slujbă, om forte destoinic și deștept.</p>
+<p>— Acest temnicer e în stare să ție locul de gâde ?</p>
+<p>— Mai mult ca bătrînul, răspundz eu de densul.</p>
+<p>— Bine ; fie cine va fi, numai să ’și facă datoria cum trebue ; ia băete pe acest nemernic și fă'mi-l cum vei sci tu mai bine ca'să ’și deslege limba ; ți-l dau pe mână, dar bagă de semă că dacă n’oi fi bun de trebă, te puiu pe tine în locul lui.</p>
+<p>Noul gâde luă pe acusat de marginea lanțului, îl împinse cu brutalitate înnainte, îl cobori pe scară, silindu-l să sară câte trei trepte d’o dată, și ’1 îmbrânci într’o suteranâ luminată de un foc vulcanic care permitea ochilor să vadză o mulțime de instrumente de tortură de forme care de care mai oribile. Judecătorii veniră după dânșii, se așezară dinaintea unei mese și dziseră:</p>
+<p>— Începe gâdeo mai ânteiu cu butucul.</p>
+<p>Cum audzi acest ordin, gâdele luă pe acusat în brațe ca pe o pană, îl răsturnă pe un pat de lemn, îi apucă piciorele, le puse între două lemne, vîrî un al treilea lemn între ambele labe, le puse apoî între alte doue lemne grose și începu să strîngă cu un fel de vîrtej. Pacientul nici nu crâcnea,</p>
+<p>— Fie-ți milă de tine, băete, gise divanlîu, și spune mai bine ce șeii înainte d’a ți se sdrobi piciorele; dă de gol un tîlhar ca să le scap! pe tine de dureri și moșia de asemenea lepră.</p>
+<p>— Nu sciu nimic, nu pot spune nimic de cât că sunt nevinovat, răspunse Codrenu fără turburare.</p>
+<p>— Ia mai strâuge-l nițel că prea ’i vorba o bras-mea, dzise divanliul.</p>
+<p>Gâdele se supuse, dar pacientul nu dzise nici pis.</p>
+<p>— Se vede că nu’ți este brațul vârtos, măi băete, strigă judele, de nu ai făcut încă să deschidă gura pene acum.</p>
+<p>— Vei vedea acuși, stăpâne, răspunse gâdele aplecându-se spre condamnat ea să ’i potrivescă penele dintre genuchi și glesne. Apropiindu-se cu capul de urechile acuzatului, el îi dzise repede și încetinel :</p>
+<p>— La dracu sbiară, și tu, și urlă ca toți câinii din lume ca să nu încep aminteri.</p>
+<p>Abia mai strînse puțin vârtejul, abia mai lovi o pană eu ciocanul, și începu să iasă din gura și din peptul pacientului o mulțime de țipete, urlete, blesteme, înjurături, dar nici o mărturisire.</p>
+<p>— Bravo, strigară adeverații gâzi ; dă vertos băete ca ’și-a descleștat hoțul fălcile.</p>
+<p>Gâdea dete pene ce obosi, pacientul țipă pene răguși, dar din gura lui nu eși de cât :</p>
+<p>— Sunt nevinovat, nu sunt hoț ; fie-ve milă de mine, fiți creștini; cadză păcatul asupra celui ce m’a dat în manele vostre.</p>
+<p>— Dă mereu, strigară boerii încă o dată.</p>
+<p>— De surda, răspunse gâdele stând ; ciolanile i s’au sdrobit cu totul și osânditul a leșinat.</p>
+<p>— Treci la seri pete.</p>
+<p>— Ar muri și n ar mai dice nici cârc.</p>
+<p>— Ce e de făcut atunci ?</p>
+<p>— Pote că se va îngrozi de vederea spînzurătorii și va spune ceva.</p>
+<p>— Bine, atunci pregătesce spînzurătórea pentru mâne.</p>
+<milestone unit="footer" type="line"/>
+</div>
+<div type="chapter">
+ <head>X.PAȘEA DE LA SILISTRA</head>
+<p>A doua dzi, dis de dimineță orașul Iași era într'o mișcare și o ferbere estraordinară ; tótă lumea cu mic cu mare din dzori de dzi se înhăita cete cete și se îndruma spre estremitatea orașului, astfel că răsăritul sórelui găsi câmpul de osîndă acoperit de mii și mii de curioși care înconjurau o furcă de spînzurătore și estrada judecătorilor. Stradele învecinate, casele și învelitorele nu mai încăpeau de lume.</p>
+<p>Intr’acea dzi de dimineță intră în capitală un pașe turc cu un cortegiu lucsos care trase drept la Palatul Domnesc. Vodă îl priimi de la scară și ’l conduse în întru cu mare cinste. Era pașa de la Silistra, care venise în Iași avend trecere pe acolo spre a merge pe uscat la Hanul Tătarilor Nogaiți.</p>
+ <p>— Ce este asta mare alaiu ? întrebă Turcu pe vodă după ce se aședză pe sofa și începu să sorbă din cafeaoa ce i se servise ; ce întîmplare a scos din case pe tóte raialele de stau cu gura căscată la sóre ? ai!</p>
+<p>— Să spânzură astăzi un hoț mare, răspunse vodă, și lumea s’a adunat ca să se uite la îndeplinirea osândei.</p>
+<p>— Frumosă privelisce! strigă Turcul cu pasiune mergi și Măria Ta ?</p>
+<p>— Mergeam daca nu m’aș fi învrednicit de cintea d’a găsdui pe înnălțimea Ta.</p>
+ <p>— Merg și eu ; place la mine așa privelisce frumósă.</p>
+<p>Îndată după aste cuvinte se trămise grabnice ordine ca sa se amâne esecuțiunea pene la sosirea M. Sale și să se prepare un loc potrivit cu rangul oaspetului M. Sale. Ordinul se esecută pe dată și vodă însoțit de pase și totă suita lor ajunse la locul de esecuțiune și se sui pe estrada ce fusese clădită în facia spândzurătorii. După un cuart de oră sosi și condamnatul care sta culcat într’o căruță cu două rote mânate de gâdea, nu de cel tener care îi sfărîmase pîciorele, ci de bătrînul Călin, și în urma lor se închise uu dzid gros de seimenii care să poprească prostimea d’a năvăli spre spândzurătore.</p>
+<p>Ajungend la locul fatal, condamnatul fu luat în brațe, pus pe estrada ce înconjura furca de esecuțiune și i se atîrnă de gît lațul omorîtor. Când se apropiă preotul ca să ’l dea bine-cuventarea de ertarea păcatelor, condamnatul se sculă în genuchî, își preumblă ochii peste toți asistenții, și pironindu-i spre estrada domnească, strigă din tote puterile ;</p>
+<p>— Sunt scăpat, sunt scăpat, Dumnedzeu a avut milă de mine.</p>
+<p>— Ce noimă are aste strigăte ? întrebă vodă pe logofătul dreptății privind cu mirare spre condamnat care se sbătea într’un spasm de bucurie.</p>
+ <p>— M. Ta, strigă condamnatul sărind tot în genuche după estradă, cu tótă opunerea sentinelelor, și cădzend la piciorele tronului domnesc, înnălțimea ta esci drept și nepărnitor care nu vrei mortea nevinovatului; aibi îndurare și îngădu-mă a dovedi ca mântuirea și îndreptățirea mea stă lingă M. Ta.</p>
+<p>Toți ochii se îndreptară spre pașa.</p>
+<p>— Da, mărite Domne, adaose cu foc osânditul plîngera, da, cinstiți boeri, da fraților, numai Aga care este colo lîngă scaunul domnesc, pote mărturisi că eu eram la Galați, ba încă pe Dunăre, când spuneți că s'a săvîrșit omorul.</p>
+<p>— Ce ondronesce acel tâlhar și întinde mânele spre mine ? întrebă pașa pe vodă în turcesce.</p>
+<p>— Dzice că măria ta îl cunosci și poți să mărturisesci că nu este vinovat, răspunse vodă.</p>
+<p>— Nu ’l cunosc; replică pașa încruntându-se :</p>
+ <p>— Mă va cunósce, strigă haiducul aflând sensul răspunsului pașei, o ! sunt sigur că mă va cunósce când îl voiu face eu să ’și aducă aminte spuindu’i ore care lucruri. Ago, Mărite pase, îndură-te de mine, ai milă; de și ești păgân, fii creștin și adu'ți aminte de sărmanul luntraș care acum două săptămâni, într’o dzi de vineri, v'a trecut Dunărea de la Ghecetul Turcesc la Galați și de la Galați înnapoi la Ghecetul Turcesc.</p>
+<p>— Țiu minte, răspunse pașa gândindu-se puțin după ce i se traduse vorbele osânditului; da, adaose apoi cu convincțiune, îmi aduc bine aminte că acum două săptămâni am trecut Dunărea cu un luntrașiu ghiaur într’o dzi de vineri, fiind că în așa dzi mare nu puteam merge cu luntrele împărătesci, dar nu țiu minte cu cine a nume nici nu ’mi aduc aminte de chipul luntrașiului.</p>
+<p>—Iți vei aduce bine aminte, replică osânditul după ce i se traduse noima vorbelor pașei. Adu'ți aminte M. Ta de vîltorea aceea în care cădzurăm când ne întorserăm de la Galați și în care ne învîrtirăm vr'o câte-va minute; era p’aci p’aci să ne înnecăm.</p>
+<p>— Da... ’mi aduc aminte, respunse pașa audzind traducțiunea cuvintelor lui Codreanu.</p>
+<p>— Adu-ți aminte de lovitura ce ’mi dete M. Ta peste obraz și ureche cu o nuia supțire, din care pricină îmi sângeră sfârcul urechii.</p>
+<p>— Așa, de necaz te-am lovit, dar ’ți am plătit astă iuțelă.</p>
+<p>—Ai fost darnic si milos ca un adevărat creștin: fii și acuma Măria Ta după ce te-ai încredințat, și spune M. Sale că vineri la 25 Septembre când s’a săvîrșit omorul, eram pe Dunăre cu M. Ta, m’ai lovit peste ureche, iată și semnul, și mi-ai dat drumul plătindu-mî ca un Pașe.</p>
+<p>— Dacă s’a săvîrșit omorul, dzîse Pașa întorcându-se spre vodă, în dziua în care spune acest om, pe viul Dumnedzeu și pe cinstea mea ve încredințez ca ast om e nevinovat, fiind-că atunci a fost cu mine pe Dunăre.</p>
+<p>— Me încredințez pe vorba M. Tale, respunse Vodă, și dau drumul nevinovatului. Deslegați pe acest om, adăogă, adresându-se către gâde, și dați-i drumul să se ducă într’ale sale.</p>
+<p>— Minune, minune ! strigă poporul entusiasmat primind pe osîndit în brațe; să trăiască M. Sa, să trăiască Pașa de la Silistra.</p>
+<p>Codreanu îndată ce scăpă din mânele mulțimei, prin o nouă minune neînțelesă își însdreveni piciorele sdrobite și o luă la sănetosa pe nisce strade laterale, iar Pașa, după ce se ospătă cu Vodă, plecă cu suita sa spre Sculeni.</p>
+ <p>Peste câte-va dzile vodă găsi pe masa lui de culcare o epistolă în care citi plin de mirare și ciudă coprinderea următóre:</p>
+<quote><p>„Măria Ta,“</p>
+ <p>„De trei ori ai cercat tu să te lupți cu mine și de trei ori ai remas biruit; ai vrut să me strivesci prin ianicerî lepădați de lege, eu am pus mâna pe olacul ce ai trămis la Pașa de la Măcin, ’i-am luat scrisorea, i'am îndatorat prin mită și groză, care este mai înfricoșetore ca ale M, Tale, să nu spue nimic, și el n’a spus nimic și m-a lăsat ca eu cu ceata mea să ne jucăm cu M. Ta d’a ianicerii vre-o câte-va zile și să punem mâna pe banii ce asceptai de la Dorohoiu. Puteam să te omor, dar n’am vrut, căci de și strein, ești Domnul țerei, unsul lui Dumnedeu și nu sunt așa de câînos la ânimă ca M. Ta. După aceea m’am făcut grec, mai grec ca M. Ta; am împănat certele păzitorilor vieții M.Tale cu delii d’ai mei, și împreună cu ei am arătat seimenilor voștri ce va să dică vitejie haiducesă; apoi am pus mâna pe totă vistieria țărei și iar m’am făcut nevedzut. In sfîrșit când Codreanu, cel mai vitez din haiducii mei, a cădut în mânele vostre, m’am făcut temnicer ca să-i însuflu curaj prin înfățișarea și povețele mele, m’am făcut gâde ca prin chinuri închipuite să'l cruț de chinuirile vostre, și în urmă de tot m’am făcut pase ca să adeveresc minciunele omului meu și să te fac pe tine, străine care te închini pene la păment la tote slugile străine, să te pleci înnainte-mi, sa mi credzi cumintele și să dai drumul omului meu. Așa este că am lucrat cu dibăcie și te-am înșelat ca pe un prost? Dacă o dată ’mi o plesni în cap să me fac domn în locu-ți, am să isbutesc cu aceiași înlesnire, și isbutind fii sigur că am să fiu sărbătorit și lingușit de omenii tei cu aceeași înjosire cu care ești lingușit și sărbătorit M. Ta care T ai înțolit și înbogățit. Așa sunt tóte șarlele. Cum vedzi e cu neputință să te resboescî cu mine; astâmpăre-te dar și lasă-me pe mine în codrul meu ca să apăr pe nenorociți mei frați de hoțiile și nedreptățile slugarnicilor voștri pene ce Dumnedeu se va indura să 'i scape de asemenea lipitori, căci de nu, me jur pe sânta Cruce că te ucid și me puiu pe tron în locu-ți.</p>
+<p>„A Mării Tale plecată slugă”</p></quote>
+<p><hi>Bujor</hi></p>
+ <milestone unit="footer" type="line"/>
+</div>
+<div type="chapter">
+ <head> XI.FOAMETEA CEA MARE </head>
+<p>Vodă după ce citi epistola de mai sus, în loc d’a se necăji, dinpotrivă se minună de curagiul și istețimea astui hoț dibaciu care vorbea turcesce ca turcul, greeesce ca grecul, scia să’și compue facia astea să amăgescă ochii cei mai bănuitori, să-și schimbe vocea în fel de fel de chipuri și să’și modifice manierele după port și deghisare.</p>
+<p>Fiul fanarului care era din nascere aplicat spre admirarea artelor, se minună pene la entusiasm de profunda instrucțiune a haiducului, pentru care cartea viuțiului cu mii de foi nu avea nici un secret, și începu să'l considere ca p’un mare artist, prin urmare să nu'l mai urmărescă nici să distrugă o ființă atît de alesă, ci din contră se gândi cum să ’l conserve și sâ’l ocrotescă. Așa dar dete ordine tuturor cetelor de seimeni să'l trecă cu vederea, săT lase să haiducescâ nesupărat, și când o vedea că se întinde prea mult, să'l alunge spre codrul lui și să’l facă scăpat.</p>
+<p>Făcu ceva și mai mult, îi trămise prin mijloace piedise vorba d’a părăsi codru și d’a intra în slujba lai, făgăduindu'i că ’i-va dărui ertare și'i va face grămăticu lui de taină, dar Bujor iubea prea mult haiducia și ura prea mult pe greci ca să primescă o propunere așia de strălucită; remase dar în codru între frații lui și în brațele Iónei care din dzi în dzi se făcea mai vrednică de iubire, și își vedzu de haiducia lui, adică urmă înnainte cu pedepsirea arendașilor asupritori, a birnicilor împovărători, a proprietarilor usurpători și a străinilor cotropitori.</p>
+ <p>Mai era încă o considerațiune care îndemna pe vodă să suspende antagonismul contra lui Bujor ; se vedea de departe că haiducul era ajutat pe sub mână de obraze puternice din jurul palatului, și chiar dintre compatrioțiî lui, căci aminterî nu ’și putea esplica el cum Bujor afla din vreme tóte tainicele alcătuiri proectate în contră-i, nici presința epistolei sub semnată de el pe masa din camera sa, și i se păru că nu era bine nici prudent ca să se lupte cu un dușman care dispunea de atâtea mijloce in nisce timpuri de agitare și ferbere când chestiuni politice ca influența Rusiei și a Austriei să bateau în capete chiar în privința ambelor Principate, și chestiuni economice ca descobirea țăranilor de iobăgie erau de scurt timp aduse la îndeplinire.</p>
+<p>Astă hotărîre putea să mai aibă și un alt mobil; Bujor prigonit, urmărit, combătut, devenise încarnațiunea Românismului în luptă cu străinismul; hoțul se transformase în partisan politic, tâlharul în luptător patriotic. Piedestalul pe care urcase pe haiduc evenimentele și situațiunea critică a țerei și care crescea și se înnălța mereu trebuia răsturnat, sfârîmat, nimicit, și numai prin amnestie, prin lipsă de luptă putea să se nimicescă acel piedestal.</p>
+<p>Calculele lui Alexandru Mavrocordat Firariul nu fură nici de loc greșite ; Bujor care nu era un hoț cum îl învinovăția grecii, ci un resbunător al poporului pentru tote strâmbătățile ce ’i făcea să sufere apăsătorii sei, nevedendu-se atacat nu mai atacă, nevedzându-se urmărit nu mai urmări nici el și nevedzendu-se prin nimic prigonit încetă de a prigoni. Fu silit să ia acestă determinare fiind împins și de altă împrejurare; Firariu, de și fanariot, însă nu era lacom de bani, se mulțumea mai cu puțin de cât predecesorii sei și apăsa poporul mai cu cumpătare.</p>
+ <p>Póte că daca ar mai fi dăinuit mai mult timp acestă stare de lucruri, strălucirea aureolei ce încingea fruntea lui Bujor s'ar fi pălit, numele seu ar fi fost dat uitărei de către popor care este cam lesne uitător al facerilor de bine, și voinicii care pe atunci treceau la numer peste sută, vedzând că le rugineau puscele și iataganele de ne lucrare, ar fi părăsit pe căpitanul spre a ’și încerca norocul în alte codruri unde haiduceau alți căpitani; din norocire pentru renumele lui Bujor, și din nenorocire pentru țară, o mare calamitate, <hi>foametea</hi> se năpusti peste Moldova și aruncă în ghiarele celei mai înfricoșate mizerii un numer însemnat de mare de români. Acest teribil flagel scose pe Bujor din toropeala în care cădzuse și din albele și catifelatele brațe ale Iónei.</p>
+ <p>Bogătașii nu se ridicară cu inima la înnălțimca mărirei nenorocirii; ei nu făcură aceia ce făcuse o dată în țara Românoscă, tot pe un timp de fómete, comisul Radu Belșug din familia Văcărescilor, adică nu ’și deschisese hambarele ca să ia cât va vrea mulțimea fometósă și să le strige : <hi><quote>Veniți de luați cat vreți că D-zeu a dat mare belșug în casa Comisului Radu Văcărescu,</quote></hi> ci din contră închise și ferecă hambarele, ascunse în păment prisosul bucatelor ee aveați, și mulțî din ei se încercară să scoță folóse însemnate din acest biciu D-zeesc, adică să ’și vîndă bucatele cu greutatea aurului și chiar să cumpere suflete de ómeni liberi ca robi pentru o bucată da pâine. In același timp Domnul tocmai atunci fiind silit de lăcomia turcescă ca să trămită sume însemnate regialulul din Stambul, în loc de a lua o mesură de îndreptare, în loc de a aduce din țeri vecine ne bântuite de secetă producte îndestulătóre, pe care să le dea celor lipsiți în împrumut pane la noua recoltă, se mărgini a trămite tot ce avea la Constantinopole și pe urmă a sta cu mânele în sân și a nu mai cere birurile pâne la închiderea crizei.</p>
+ <p>Acesta nenorocire, acesta nepăsare, acesta calamitate publică determină pe Bujor să iasă din retragerea sa, să se pue în fruntea voinicilor lui, să dea busna prin tóte curțile boeresci după la țară, să deschidă hambarele și pătulele bogătașilor ca să ia din ele mulțimea fometbsă, ori-cât vavrea și începu săpedepsescă cu cea mai mare cruzime ori-ce cercare de împotrivire. Totă Moldova de la Dorohoi la Galați și de la Câmpulung la Chișănău fu visitată intr’acest chip de acest oaspete ne poftit, în cât de frică mulți deschiseră de la sine hambarele flămânzilor ca să se scape de o visită atât de puțin dorită.</p>
+ <p>Acest espedient sumariu dar practic în momente excepționale, făcu să înceteze fómetea numai în restimpul de câte-va săptămâni de și să procure locuitorilor mijloce de traiu pâne la recolta viitore, dar nu resolva cu totul criza; locuitorii fiind siliți de fómete și de lipsa de nutreț, își tăiase vitele în cât nu se mai găsea nicî la doă sate o pereche de boi de jug, și bani nu se găseau cu care creștinii să 'și cumpere la primăvară vitele trebuinciose pentru plugărie. Pentru a o remedia și acest reu, Bujor recurse la a-celași expedient, și făcu să încapă sila unde nu vrea să scie voia bună. O mulțime de bogătași fură căleați chiar în casele lor din orașe de Bujor și ai sei, despuiați de o parte din avutul lor și apoi acel avut împărțit cu dărnicie. Trei părți fură d?,te la nevoiași și o parte pentru ascuțitul măselele la cetașii sel, fără ca să fie împiedecat întru cât-va de omenii stăpânirei care tremurau ca varga sub un arsenal de arme numai la audzul numelui lui Bujor.</p>
+<p>Boerii și mai cu semă Fanarioții, vedzend nepăsarea celor plătiți ca să ’i apere, vedzând apatia lui Vodă care nu lua nici o mesură energică spre a ’l scăpa de acest flagel forte păgubitor lor, și temăndu-se că reul de care sufereau va cresce prin încuragiarea ce le procura această nepăsare, se duse cu mic cu mare la palat, cădzură piciorele lui Vodă, și într’o voce cerură Domnului ca să ia măsuri energice și chiar extraordinare spre a scăpa de acestă năpaste.</p>
+ <p>Alexandru Vodă care orice s’ar dzice era om bun și milos de suferința sărăcimei, dar care n’avea puteri ca s’o facă să înceteze și pe care ’l supărase fórte mult atitudinea nepăsătore a sfetnicilor sei, mai ales a grecilor față cu nenorocirea publică, se seusă cum putu, se apără cum putu, promise ce putu dar vedzând că boerii nu ’l slăbeau și cereau cu insistență să ia la minut mesuri strajnice pentru a înfrâna hoțiele și prinde pe făptuitori, subscrise o poruncă strajnică către căpitanii de plaiuri și ocoale, ca să strângă pe toți plăiașiî și pandurii, să întocmesca potere de țară și să pornâscă cu toții spre cuiburile haiducilor ca să le stergă și urmele după fața pământului.</p>
+<gap unit="graphic"/>
+ <p>Sunt scăpat, sunt scăpat, D-deu a avut milă de mine.</p>
+<p>Ordinul lui vodă fu ascultat cu grăbire, poterile fură întocmite, plăiașii și pandurii sa intră in țară și bieții țerăni porniră mai mult de nevoe de cât de voe ca să se resboiaseă cu aceia ce ’i scăpase de fomete, dar când să pue mâna pe haiduci, ia pe haiduci de unde nu e, par-că intrase în gaură de șarpe, par-că ’i înghițise pămentul de vii. Pădurele în care de obiceiu se iveau ei, cu tote bătăile cele mai miuuțiose ce li se făcuse ca la o adevărată venatdre, nu scose la ivâlă alt de cât iepuri, vulpi si un numer nu mic de lupi, iar despre haiduci 
+<hi><foreign>tipotis </foreign></hi> cum dzice grecul.</p>
+<p>Ce se făcuse oare haiducii? de sigur cei mai mulți, daca nu mai toți, fusese surprinși de ordinul de concentrare pe a casă, adică pe la locuințele lor din satele unde se adăposteau iarna sau cănd nu haiduceau, prin urmare fusese transformați în plăeșî și panduri, și cutrierau munții și văile, pădurile și câmpiele ca să prindă pe haiduci !</p>
+ <milestone unit="footer" type="line"/>
+</div>
+
+<div type="chapter">
+ <head>IX.CODREANU IN TEMNIȚĂ</head>
+ <p>Am lăsat pe Bujor în brațele Iónei Simizanei cu care se cununase în monăstirea Hangului. De atunci se făcu se mare schimbare în caracterului; fetele și nevestele n’avură să mai sufere prigonirele după urma lui și părinții și bărbații n’avură ocaziune să mai blesteme cu urgie pe groasnicul hoț de fete și de neveste, fiind-că tótă afecțiunea lui, toată dragostea lui, toate ținerile lui sentimente fură închinate Iónei, și numai Iónei</p>
+<p>Pentru ea nu mai dădu prin codru aprope trei luni, pentru ea lăsă pe Codreanu sa facă cu ceata sa ori ce’i plăcea, pentru ea uitase jurământul ce făcuse lui Grozea și ar fi uitat cu totul datoria sa, daca chiar ea nu’i ar fi adus aminte. Dar într'o dzi ea între două sărutări îi dzise :</p>
+<p>— Dar scii tu mai bădiță că te-ai cam trândăvit?</p>
+<p>— Eu ! esclamă haiducul surprins, dar ce nu te sărut îndestul ?</p>
+<p>—Despre asta nu tînjesc eu; nu, din potrivă ; dar mi se pare că ai cam uitat cine ești, și ce datorii ai!</p>
+<gap/>
+<p>Erau legate între dînsele prin lungi coridoare asemeni boltite și luminate cu felinare, și comunicau cu lumea exterioare assemeni prin nisce coridoare une-orî lungi de sute de stânjeni, la extremitatea cărora era cate o scară care respundea în ti unchiul vre-unuî copac gros sfredelit pe din întru sau scorboros de bătrânețe, în a cărui coje se afla ascunsă cu multă dibăcie câte o uscioară pitulată după stufiturî dese de mărăcini sau crâng. Secretul acestor eșiri nu era cunoscut de cât numai de căpitanul și uneori de către un locotenent al seu forte credincios.</p>
+<p>In una din nenumăratele subpamănte, construite de Bujor mai în tote pădurile mai principale sau de predecesorii săi care ’i lăsase ceata ca moscenire, se ascundea Bujor, Codreanu și cei mai fruntași din ceta-șiisei, bănd, măncănd și chefuind, căci provizii aveau destule strânse din vreme, fără teama să vor fi des-coperițî vre odată de ómenii lui Mavrocordat.</p>
+ <p>Cu tóte acestea, de ’și pandurii și poterașii nu le causau nici un reu, dar pentru că îi țineau în nelucrare și îl opreau d’a-și îndeplini misiunea lor de reparatori, echilibratori și răzbunători între apăsători și apăsați Bujor și ai sei se hotărîră să’și resbune chiar contra luiVodă ast-fel cum sciau el și ei să’și răsbune spre a-l învăța minte de a se lua la luptă cu niște omeni ca ei'</p>
+ <p>Scurt timp după ce haiducul luâ această hotărîre, Iașiul se pomeni într’o noapte luminat de o lumină roșetică, lumina unui incendiu, și toți locuitorii se desceptară din somn în sunetul lugubru al tuturor clopotelor dela tóte bisericele din capitală, și de țipătul îndoit mai lugubru al crainicilor turci care alergau în fuga cailor pe strade în mani cu câte o faclă de rășină și strigau mereu : 
+<quote><foreign>iangân vaaaa....r!</foreign></quote></p>
+ <p>Aceăte sunete sinistre desceptară din somn tótă Iași pusse în picioare toată suflarea omenească,</p>
+<p>— Unde e foc? unde arde? strigau toți din toate părțile.</p>
+<p>— La conac, arde palatul și biserica Sf. Nicolae, respundeau cei sculați mai de curînd și mai bine informați.</p>
+<p>Audzind acest respuns grămezi de lume adunate cete cete porniră spre palat din diferite direcțiuni și merse pana în apropiere de teatru sinistrului. Aspectul era din celle mai îngrozitore, mai mișcătore și mai impunătoare ! Limbi imense de foc eșiau ca nisce balauri uriași din mulțimea ferestrelor și ferestruelor de sus ale palatului, se încolăceau învărtindu-se și sucindu-se unele cu altele peste nemăsurată învelit ore de șindrilă care se transformase într’o nemăsurata tarla de foc, și ardeau plesnind și păraind, luminând spațiul în o culore galbenă sângeroasă din celle mai fioroase la vedere, și de un fum negru roșiatic des și innecăcios.</p>
+<p>Acestă învelitore de șiță veche, bârnele celle groase de care erau bătute scândurile plafonelor și tălpoaele pardoselei, nenumăratele pridvoare, pălimare, cafasuri și eoridore tote de lemn și vechi, erau atâta material tocmai bun să alimenteze acest incendiu uriaș și să ’l conducă prin comunicație pane la distanțe îndepărtate.</p>
+ <p>Lungul privdor acoperit, sprijinit pe stâlpi groși de stejar înfipți în pămînt, și îngrădit eu cafasuri dese de vergele de lemn încrucișate, care se întindea de la palat până la biserica Sf. Nicolae Domnesc, prin care se duceau Dómna, Domnițele și femeile palatului la biserică fără a eși din palat, aprindzendu-se și el, comunica cu iuțeala fulgerului focul de la palat la biserica Sf. Nicolae și o înfâșiură și pe ea în flăcări împreună cu tot banul ce o înconjura, și de a-colo s’a lățit incendiul în partea orașiului despre Beilic, în cât pâne la dziuă a treia parte a capitalei Moldovei fu în flăcări împreună cu mai multe biserici din partea despre răsărit a curței Domnesci.</p>
+ <p>Acest teribil flagel adânci într’o conternație profundă întreaga capitală, căci mai bine de o mie familii remase pe drumuri fără adăpost și muritore de fóme ; un mare număr de victime fură surprinse de sinistru în prada somnului și periră în flăcări, și un numer însemnat de persóne se culcară bogați sau cu dare de mână și se sculară săraci ca Iov.</p>
+<p>Vodă fu cel mai încercat ca toți; din palatul domnesc, de și acest colosal edificiu adăpostea peste trei sute de arnăuți, bostangii, cavaji, slujitori și ediclii de diferite clase, nu se putu scoate mai nimic, și fură consumate de flăcări o mulțime de lucruri scumpe strânse în decurs de mai bine de un secol, de când capitala se strămutase de la Suceava la Iași. Acest flagel fu atăt de destrugetor din causă că serviciul de pompieri și de sovetagiu pe atunci se mărginea în câte-va tulumbe primitive, pe care le transportau de la agie la palat, adică de la o distanță bunicică, în spinare, nisce tulumbagii ne abili, care sosiau în tot d’auna aproape după încingerea focului. Asemenea serviciu reu făcut precum și o manevrare din cele mai stângace, făceau să devie aproape peste putință orice încercare de a împiedica stingerea flagelului.</p>
+ <p>Acest incendiu dură tótă noptea, în dziua următore, și ar fi durat încă și mai mult, daca a doua dzi Pe sub seră nu s’ar fi îndurat D-zeu să trămită o sfîntă de ploae repede și mărunțică care stinse pojarul.</p>
+<p>După aceia autoritățile respective, îndemnate fiind de vodă, începură o anchetă minuțiosă ca să afle căușele acestei nenorociri. O mulțime de păreri fură emise de diferite persone din curtea Domnescă. Unii susțineau că focul a isbucnit de o dată în pod de la un coșiu plesnit; alții că dupe coșiul pităriei curțeioare era în permanență înfierbîntat ca să coacă mulțimea de pânl menită să sature pe omenii curței, ar fi sărit scântei mari și groase care ar fi aprins șindrila nemăsuratei învelitori care era tot atât de naltă ca și cele doă etagiuri din care era compus palatul.</p>
+<p>Alții mal fantastici spuneau că ar fi vedut furi-șindu-se ca nisce năluce în fânăria de la spatele palatului în partea despre miaza-dzi a Curței, nisce umbre înfășurate în nisce ipingele negre care s’ar fi tîrăt pe amant ca nisce șierpi pe costa cea repede a malului dintre fânărie și curtea din dos a palatului, care umbre ajungând sub zidurile palatului drept lângă scara cea mare care conduce de jos la streașină învelitoril, s'ar fi suit pe densa, ar fi început să furnice a’a bușele întocmai ca nisce demoni întunecoșî pe repedea înclinătură a învelitorii, după care s’ar fi ivit în întunerec mai multe steluțe agățate de șindrila în velitorei. După aceia umbrele s’ar fi scoborât cu aceiași iuțelă spre streașină, și de acolo pe scară jos, apoi la fânărie și în fine afară de cuprinsurile palatului, în partea despre Balilui, fără să fie dzăriți de pui de slujitori, căci curtea Domnescă nu era pe a-tunci ca acum înconjurată de un cordon des de santinele, ci numai în fata palatului pazeau câțî-va arnăuți. Peste câte-va minute stelele fură transformate în incendiu.</p>
+ <p>Vodă chiar din nóptea sinistrului își mută reședința în casele numite ale lui Razu, care se întemplase a fi nelocuite, dar nu trecu bine trei dzile acea strămutare, și iată că și acele case se aprinse în a treia nópte și arse ca și palatul domnesc păne la temelii, de astă dată fără să mai pricinuiască și altcui-va pagube, căci casa lui Razu era singuratică și înconjurată de grădini vaste, ast-fel că focul nu putu să se comunice și la vecini.</p>
+ <p>După ce arse și acestă casă, Mavrocordat se mută într’alta, dar și acesta se aprinse și arse pâne în temelii peste câte-va dzile după instalarea lui întrân-sele. Aceiași parte avu și a patra casă, a lui Ghica bătrînul, care peste o săptămână cădzu iarăși prada incendiului. In urma acestui șir de catastrofe, boerii nu mai vrură să ’și dea casele cu chirie lui Vodă ca să nu le mai vadză prefăcute în cenușe, în cât Măria Sa fu silit să se schimbe la Frumósa, la Cetățue și la Galata, mutându-se ca țiganul din loc în loc, tară să mai cuteze a se stabili definitiv unde-va, iar poporul șiugubeț și glumeț cum Va făcut natura pe el, îl porecli <quote>Pârlea Vodă</quote> și nu'l mai slăbi cu acest ponos pâne ce nu ’și luă lumea în cap și fugi în anul 1787 în Rusia.</p>
+<p>Urmașul seu, bătrînul Alexandru Ipsilant fost Domn îu Valahia, îndată ce se sui pe tron își aședză reședința îu vechiul <hi><foreign>beilic </foreign></hi> și cum se vedu instalat pe tron, găsi pe masă un bilet scris în cea mai curată elenica, prin care era vestit că daca nu va da ordin de desconcentrarea plăiașilor și pandurilor, Bujor haiducul îi va aprinde și lui reședințele domnesci, cum aprinsese pe ale lut Pârlea Vodă.</p>
+<p>Ipsilante nu avu timp să ia nici o dispoziție bună sau rea contra groasnicului haiduc, căci peste câteva luni după suirea sa pe tron, Rusii și Austriacii declarară resboiu Turciei, și Austriacii intrară în Moldova pe la Sănăuți și puse mâna pe și curtea sa în apropiere de Borda și ’l făcu prisonier de răsboiu</p>
+<p>Aceia ce făcu Bujor și ai sei în timpul războiului dintre Turci, Nemți și Ruși, al cărui teatru mai principal se desfașiură în ambele principate, și ceia ce se petrecu după resboiul de la 1788—92, vom vedea în volumul al doilea al acestei scrieri intitulat: <title>Boerii Haiduci.</title></p>
+<p>FINE</p>
+</div>
+<milestone unit="footer" type="lines"/>
+</body>
+<back>
+ <div type="liminal">
+<p>TABLA DE MATERIE</p>
+<p>Pag.</p>
+<p>Cap. I Țerile române în secolul al XVII I-lea . 3</p>
+<p>„ II Nunta de la Copăcesei...... . . . . 8</p>
+<p>„ III Bujor.................... 19</p>
+<p>„ IV Strunga Hangului............. 34</p>
+<p>V Lupta din pădurea Doeolinei ...... 49</p>
+<p>VI Ioana Simziana.............. 63</p>
+<p>„ VII laniceriî pașii de la Macin....... 75</p>
+<p>„VIII Nepotnl Vistierului Alechaehe..... 87</p>
+<p>„ IX Codreanu în temniță . . . ,.......102</p>
+<p>, X Pașea de la Silistra. . ......... . 118</p>
+<p>„ XI Foametea cea mare. ...........123</p>
+<p>„ XII Pârlea Vodă..................130</p>
+</div>
+</back>
+ </text>
+
+</TEI>

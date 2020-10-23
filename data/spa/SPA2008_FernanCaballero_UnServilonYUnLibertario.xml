@@ -1,0 +1,4086 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2008" xml:lang="SPA">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Un servilón y un liberalito, ó Tres almas de Dios : Edición ELTeC </title>
+				<author ref="viaf:9859150">Caballero, Fernán (1796-1877)</author>
+				<respStmt>
+					<resp>Edición ELTeC</resp>
+					<name>Paula Serrano López </name>
+					<name>Borja Navarro Colorado</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">22719</measure>
+				<measure unit="pages">247</measure>
+			</extent>
+           <publicationStmt>
+               <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+               <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+               <date when="2019-01-20"/>
+               <availability>
+                   <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+               </availability>
+               <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
+           </publicationStmt>
+			<sourceDesc>
+				<bibl type="firstEdition">
+					<date>1857</date>
+				</bibl>
+				<bibl type="printSource">
+					<publisher>Imprenta del Establecimiento de Mellado </publisher>
+					<pubPlace>Madrid</pubPlace>
+					<date>1863</date>
+					<idno type="BDH">bdh0000185562</idno>
+					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000185562">Biblioteca Digital Hispánica - Biblioteca Nacional de España</ref>
+				</bibl>
+				<bibl type="digitalSource"> 
+					<publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
+					<pubPlace>Universidad de Alicante</pubPlace>
+					<ref target="http://www.cervantesvirtual.com/obra/un-servilon-y-un-liberalito-o-tres-almas-de-dios-novela--0/">Biblioteca Virtual Miguel de Cervantes</ref>
+					<date when="20071205"/>
+					<respStmt>
+						<resp> Transformación automática de HTML a XML (HTML2XML 2.0),Etiquetado del texto en XML-TEI, Revisión del etiquetado </resp>
+						<name>Sonia Jover Sánchez</name>
+					</respStmt>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-1">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="SPA" usage="97">Español</language>
+				<language ident="LAT" usage= "01">Latín</language>
+				<language ident="FRA" usage= "02">Francés</language>
+			</langUsage>
+			<textDesc>
+				<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
+				<size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+				<reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+				<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019-01-19">Anotación formato ELTeC: Paula Serrano López</change>
+			<change when="2019-01-20">Revisión formato ELTeC y correcciones varias: Borja Navaro Colorado</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div type="titlepage">
+				<p>Un servilón y un liberalito, o Tres almas de Dios </p>
+				<p>Novela </p>
+				<p>por Fernán Caballero </p>
+			</div>
+			<gap/>
+		</front>
+		<body>
+			<div type="chapter" n="SPA2008001">
+				<head>Capítulo I. El castillo de Mnesteo</head>
+					<quote xml:lang="FRA">
+						<l>Souvent a l'aspect d'une belle</l>
+						<l>contrée on est tenté de croire</l>
+						<l>qu'elle á pour unique but d'exciter</l>
+						<l>en nous des sentiments</l>
+						<l>élevés et nobles.</l>
+						<l>Al contemplar una hermosa</l>
+						<l>vista, suele uno sentirse llevado</l>
+						<l>a creer que es su único objeto</l>
+						<l>excitar en nosotros sentimientos</l>
+						<l>elevados y nobles.</l>
+						<l>Madame de Stael</l>
+						
+					</quote>
+					<p>
+					Ya en otra ocasión hemos hecho mención
+					del antiguo castillo de Mnesteo, que existe en el Puerto de Santa
+					María, y pertenece a los Duques de Medinaceli,. Fue llamado de
+					Mnesteo por haber sido construido por un príncipe fenicio de igual
+					nombre. Pasó después a la dominación romana: luego a la de los
+					moros; hasta que en 1264 lo conquistó el Rey D. Alfonso el Sabio,
+					para cuya conquista le alentó, apareciéndosele la Virgen de los
+					cristianos; en memoria de lo cual dio el sabio y religioso Rey su
+					venerado nombre a aquella población, perdiendo así la bautizada
+					villa su pagano nombre de Mnesteo.
+					</p>
+					<p>
+					Mas si interesase ahora a alguno de
+					nuestros lectores penetrar con nosotros en su recinto, le
+					serviremos gustosos de
+					<emph> 
+					cicerone 
+					</emph>.
+					Haremos aun más; toda vez que en
+					ello le complazcamos, le haremos conocer a sus moradores, y
+					tendremos, según la expresión de una amiga nuestra de infinito
+					talento y gracia <ref target="#SPA2008N01">[1]</ref>, un rato de
+					<emph>
+					comadreo
+					</emph>.
+					</p>
+					<p>
+					Sentimos que a fuer de verídicos no
+					nos sea posible divertir al lector con una descripción lúgubre y
+					medrosa en el género de las de la autora inglesa Anna Radeliff, en
+					vista de que, según dice Custine, 
+					<foreign xml:lang="FRA">
+					l'imagination aime á frémir
+					</foreign>
+					(la imaginación gusta de extremecerse). Porque opuestamente, para ser
+					verídicos, tenemos que descender a los pormenores más sencillos,
+					más cándidos, y si se quiere, más triviales de la vida común, si
+					hemos de describir el estado actual del castillo, de este adalid
+					muerto y petrificado, de este grandioso y fuerte esqueleto con pies
+					fenicios, cuerpo romano, cabeza morisca y brazos españoles, que
+					ostenta el Puerto como antiguo y noble blasón de cuatro cuarteles
+					sobre una eminencia, a la entrada de su río Guadalete, a cuya
+					orilla y al amparo de su valiente defensor, se ha ido extendiendo
+					la población, como crece el vástago a la sombra del árbol que lo
+					cría.
+					</p>
+					<p>
+					Al penetrar en el recinto por la
+					puerta que se halla en la gran plaza a que da nombre, esto es, la
+					plaza del Castillo, se atraviesa un pequeño espacio, se suben unas
+					gradas, y se entra en el compás que precede a la iglesia, que es el
+					punto céntrico del edificio. Fórmala un espacio grande, abovedado,
+					cuyo techo está sostenido por enormes pilares, sin tener más luz
+					que la que recibe por una gran ventana que está al pie de la
+					iglesia, y la toma de un corral interior. No hemos podido averiguar
+					el primitivo destino de esta vasta pieza: si fue aduana, lonja,
+					mezquita o almacenen que se depositasen víveres. Hoy es el
+					adornado, bendito y recogido santuario de un culto sostenido y
+					devoto, al que con gran asiduidad concurren los habitantes de la
+					ciudad.
+					</p>
+					<p>
+					A la derecha del compás hay una
+					escalera empinada que conduce a lo alto. La plataforma o azotes que
+					está sobre la iglesia, constituye un gran espacio enladrillado, que
+					fue, -y conserva aún hoy día el nombre- de 
+					<emph>
+					Plaza de Armas. 
+					</emph>
+					Alrededor de esta plazoleta
+					están las habitaciones que fueron morada de los caudillos, y salas
+					de armas; y que hoy subdivididas forman habitaciones. Vive en la
+					mejor el capellán del castillo; en otra el sacristán; en otra un
+					maestro de escuela; en la más pequeña una anciana viuda: todos
+					tipos los más genuinos de gentes pacíficas; por lo cual uno de los
+					formidables torreones se ha convertido en oratorio, otro en cocina,
+					otro en palomar y otro en jardín. ¿Cómo, pues, amalgamamos con
+					estos objetos la aparición de un moro feroz llevando su cortada
+					cabeza debajo del brazo o de un formidable caudillo cristiano entre
+					cuya celada se divisase una calavera siniestra? ¿Cómo podrían oírse
+					gemidos ni amenazas entre las bóvedas y escaleras de aquellas
+					torres, en que tan pacíficamente cuelgan los chorizos y ristras de
+					pimientos, en que tan amorosamente arrullan los palomos; en que
+					unidas están las almenas con las flores, a las que sirven de
+					reclinatorio, y que por ellas han olvidado de un todo dardos,
+					flechas y arcabuces; en las que tan suaves suenan las preces, y con
+					tan esforzado ¿
+					<emph>
+					qué se me da a mi
+					</emph>
+					retumba el doméstico
+					almirez?... No, no; allí no hay malos espíritus, asombros ni
+					horrores: las oraciones, el sol de Dios, la paz material y la del
+					alma, las buenas conciencias y las flores los han ahuyentado.
+					</p>
+					<p>
+					Si nos asomamos por la ventana de la
+					sala del capellán, que está a la derecha de la plaza de armas,
+					vemos un corral, que sería quizás el cementerio en tiempos de
+					guerra, convertido en un diminuto huerto, presidido por una aislada
+					y austera torre cuadrada, en la que se han amontonado gran cantidad
+					de huesos de bizarros cristianos y valientes moros enterrados en
+					aquel lugar. En cuanto a los huesos romanos que allí puedan
+					hallarse, deben bailar de contento, al considerar que la tierra, a
+					fuerza de oír su famosa plegaria, 
+					<emph>
+					de que les sea ligera
+					</emph>
+					, se ha ido aligerando
+					hasta el punto de no cubrirlos. Los honrado moradores actuales del
+					castillo suplicaron atentamente a estos huesos errantes que
+					cediesen su sitio a las coles y rábanos, a la yerba-buena y al
+					perejil; y que se fuesen apiñando en amor y compañía en aquella
+					torre, testigo de sus hazañas. Los huesos no se negaron a acceder a
+					lo que con tan buen modo se les pedía, y allí están sin que nadie
+					se meta con ellos, sino unos preciosos conejos caseros, que viven,
+					juegan y procrean alegre y pacíficamente a su lúgubre sombra.
+					</p>
+					<p>
+					Necesaria, es, pues, una fuerza de
+					abstracción, -que no le es dada sino al historiador o al
+					anticuario-, para poder prestar todo el vivo y solemne colorido de
+					su heroico pasado, a aquella mansión de sol, de flores, de paz y
+					silencio, de lindos animalitos caseros y de buenos vecinos.
+					</p>
+					<p>
+					Hasta los ecos que repitieron los
+					bélicos sonidos de trompas y clarines, han caído en un obstinado
+					mutismo, no queriendo descender a alternar con el canto del gallo,
+					cantor que cual no otro, cumple con una de las primeras reglas de
+					su arte, que es la de echar la voz; con la algarabía de las
+					golondrinas que charlan hasta por las alas; con el ronco y poco
+					armonioso arrullo de los palomos, amantes formales, fieles y
+					comedidos; ni con los destemplados arranques de los patos poco
+					filarmónicos, que sin la más mínima aprehensión, hieren el aire que
+					los rodea y los oídos que los oyen; pero ni aun con los alegres
+					cantares del canario saltimbanqui, que prefiero a las de laurel,
+					coronas de jaramago.
+					</p>
+					<p>
+					Un lugar hay, sin embargo, en que la
+					mente deja de sonreír, y el alma se eleva ampliamente a otras
+					esferas. Es esta la plataforma de las altas torres, que coronadas
+					de sus almenas, se alzan erguidas en su ancianidad y abandono, tan
+					bellas, tan derechas y tan señoras, como cuando dominaban y
+					defendían el país.
+					</p>
+					<p>
+					La vista que desde su altura se
+					descubre admira, eleva, embelesa; y si nos es permitido decirlo,
+					deslumbra. ¡Tal es el esplendor de la atmósfera, del cielo y de la
+					mar, la lontananza de los horizontes, la belleza de los objetos, y
+					lo grandioso del inmenso paisaje, que desde aquellas alturas se
+					presenta a la vista!
+					</p>
+					<p>
+					Al lado del Sur, se extiende en toda
+					su majestad y su brillo el mar, que hacia la izquierda viene a
+					ostentar sobre la barra que precede al río Guadalete el garbo de
+					sus olas y la blancura de sus espumas. Al frente se ve a Cádiz, que
+					aunque distante dos leguas, muestra claro sus tersos y delineados
+					contornos, como dibujados con firme pulso en el esmalte del
+					horizonte.
+					</p>
+					<p>
+					A la izquierda, siguiendo con la vista
+					el recto camino real por medio de un verde coto, se llega con él, a
+					las dos leguas, al elegante Puerto Real, y siguiéndolo después en
+					su curva, se llega a la isla, o ciudad de San Fernando, donde muere
+					entre albinas la bahía, dejándoles por legado gran cantidad de la
+					afamada sal, que en blancos montes apiñan. En lontananza se
+					extiende Chiclana en su llano, llevando por bandera una ruina, que
+					fue lindísima capilla de Santa Ana, y se encarama Medina en su
+					monte, como vigilando sus verdes campos y sus ganados.
+					</p>
+					<p>
+					Volviendo la vista a la derecha, se ve
+					subir la carretera en suave cuesta por entre viñas y arboledas, la
+					que más adelante se arrastra por ricos campos de trigo, hasta
+					llegar a San Lucar de Barrameda.
+					</p>
+					<p>
+					Al Norte, esto es, en dirección
+					opuesta al mar, vése el camino de Jerez atravesar la vega, derecho
+					como el que quiere llegar pronto, y torcer después a la derecha,
+					para salvar los altos cerros, en cuyo seno se ocultan las
+					magníficas canteras que hace tantos siglos están formando los
+					edificios que levanta el hombre, y dedica ya al culto, ya a
+					labrarse sus moradas; y después de pasar cerca de lo que fueron
+					ruinas del castillo de doña Blanca, desaparece detrás del
+					monte.
+					</p>
+					<p>
+					Este castillo, de que apenas resta
+					vestigio, fue edificado por D. Alonso el Sabio sobre una eminencia
+					que dominaba el río; pero el río ha tomado las de Villadiego como
+					un desertor, si no a sus banderas, a su cauce. Relevado por
+					consiguiente el castillo del cargo de vigilarlo, cansado de su
+					soledad y de su 
+					<emph>
+					farniente
+					</emph>
+					, se ha caído como una barraca sin
+					respeto a su poético nombre de Castillo de doña Blanca, nombre que
+					debe a la tradición, que jura y perjura que en aquel solitario
+					albergue encerró el Rey D. Pedro a la mujer que le faltó a la fe
+					debida.
+					</p>
+					<p>
+					Vése también en la vega otro objeto
+					lleno de 
+					<emph>
+					actualidad y palpitante de interés
+					</emph>
+					(según se
+					espresan en francés traducido los periódicos de la corte y sus
+					socios de las provincias), se ve, sí, se ve, poniendo cuidado o
+					sacando un anteojo de larga vista, el camino de hierro; pero...
+					¡qué chico! ¡qué mezquino! Cuando en seguida se baja la vista, y se
+					mira aquel castillo de otras edades, tan grande, tan fuerte y
+					sólido; cuando se miran las iglesias seculares, allí, en Cádiz, en
+					Puerto Real, serenas e inmutables entre huracanes, vicisitudes,
+					guerras y siglos... y se comparan a esa moderna 
+					<emph>
+					obra magna
+					</emph>
+					, no puede uno menos de considerar
+					que mientras más se emancipa el hombre de Dios, más mezquinas,
+					efímeras, e inconsistentes son, no solamente sus ideas, sino
+					también sus obras.
+					</p>
+					<p>
+					Sirven de punto de vista a este cuadro
+					del Norte, los montes de Ronda, que el San Cristóbal tiene á sus
+					pies, mientras alza su cabeza entre nubes.
+					</p>
+					<p>
+					Esta vista toda es magnífica y
+					grandiosa. Ostenta el país tan abierta y completamente sus
+					contornos, como muestra su índole una persona franca. Todo lo
+					alcanza la mirada, que después de vagar con delicia por la tierra,
+					tan bella como la ha hecho Dios, se alza al cielo más bello aun,
+					lleno de admiración y gratitud ofreciendo ambos al Criador; que
+					agradecer es amar, y admirar es tributar homenaje
+					</p>
+					<p>
+					Pero volvamos a bajar con cuidado para
+					no perder pie, los vetustos y carcomidos escalones de las
+					escaleras, y regresemos a la 
+					<emph>
+					Plaza de Armas
+					</emph>
+					, la más pacífica del mundo que
+					conserva, -a pesar de ser el más descarado anacronismo, -su nombre,
+					como prueba palpable de la fuerza de la tradición.
+					</p>
+					<p>
+					A la derecha de la escalera está la
+					habitación del sacristán, que es la menos buena, por tener Inces a
+					corrales; en esta es donde se halla el torreón, poco elevado, sobre
+					cuyo turbante de almenas ha puesto la sobrina del sacristán una
+					corona de flores.
+					</p>
+					<p>
+					Una vez en la Plaza de Armas, vemos a
+					la izquierda la habitación de la viuda, dueña del corral de
+					gallinas y del torreón-palomar, torreón bonachón que no se desdeña
+					de proteger al palomo persergido por el gavilán, como protegió a
+					príncipes contra reyes, a caudillos contra caudillos.
+					</p>
+					<p>
+					A la derecha está la habitación del
+					capellán, que es la mejor, y tiene la hermosa torre ochavada que le
+					sirve de oratorio, y donde la Virgen de la Paz la derrama en los
+					corazones.
+					</p>
+					<p>
+					Al frente está la habitación en que
+					vive el maestro de escuela D. José Mentor, con su buena mujer Doña
+					Escolástica, y su buenísima hermana Doña Liberata.
+					</p>
+					<p>
+					No hemos querido describir las
+					anteriores habitaciones, por no cansar al lector, que es probable
+					que no sienta la simpatía que tenemos nosotros por el castillo de
+					Mnesteo. Pero, en cuanto a esta, nos precisa describirla
+					gráficamente, por ser en ella en la que van a tener lugar la mayor
+					parte de los eventos que vamos a referir.
+					</p>
+					<p>
+					Después de atravesar la alegre y
+					tranquila Plaza llamada de 
+					<emph>
+					Armas
+					</emph>
+					por antonomasia,. en la que en lugar de
+					fieros hombres de guerra, se ven como ya indicamos, hermosos
+					palomos que andan presumido, volviendo sus cabecitas para lucir los
+					tornasoles de su plumaje, se entra en una pequeña antesala o
+					pasadizo, que a la izquierda tiene una puerta, que da entrada a un
+					cuarto con una ventana a la Plaza de Armas, y que es el que ocupa
+					Doña Liberata.
+					</p>
+					<p>
+					Entrase por este pasadizo a la sala,
+					que es lindísima, por tener al andar una azotea que domina la
+					pescadería, la aduana, el muelle, el río, y va a descansar en el
+					siempre verde coto de la orilla opuesta. La sala está aseadamente
+					amueblada, con su estera, sus sillones de caoba, que cubren con una
+					careta de tela de algodón blanco, unas crines contemporánea, de las
+					de Bucéfalo, que cansadas de sentirse aplastadas, se esfuerzan por
+					salir de su purgatorio. En el testero hay una mesa 
+					<emph>
+					puritana
+					</emph>
+					, sin ninguna clase de adornos sobre
+					la cual se ve un nicho de caoba y cristales que encierra una
+					hermosa efigie de la Virgen. En la pared cuelga un cuadro, antiguo
+					de poca estima como obra artística, pero de muchísima como objeto
+					de veneración, que representa al Santo de la profunda y sincera
+					devoción de la familia, de Padres a hijos, San Cayetano.
+					</p>
+					<p>
+					Debajo de este cuadro, en otro de
+					media caña pintado de negro, está un mamarracho con una banda azul
+					y blanca, que pasa por el retrato de Don Fernando VII, y fue
+					colocado allí por el dueño cuando la guerra de la
+					Independencia.
+					</p>
+					<p>
+					A la izquierda, a los pies de la sala,
+					hay una puerta pequeña, por la que se entra en la alcoba del
+					matrimonio, la cual tiene ventana a la referida azotea, y no tiene
+					nada de notable sino una cómoda papelera vetusta y secular, cuya
+					tapa viene a cerrarse en diagonal sobre una tabla angosta, en la
+					que se ven un Crucifijo y algunos libros; y encima de la cómoda,
+					colgado en la pared, otro cuadro de San Cayetano.
+					</p>
+					<p>
+					Esta alcoba tiene una puerta que
+					comunica con un pasadizo triangular, en cuyo extremo está la
+					entrada del valiente torreón convertido en cocina. ¿Quién vio nunca
+					un caballero con cota de malla y lanza en ristre, convertido en
+					ranchero? Con entrada a ese mismo pasadizo hay un cuarto pequeño
+					con ventana a la Plaza de Armas, que sirve de comedor a la
+					familia.
+					</p>
+					<p>
+					En este partido, (nombre que se da en
+					Andalucía a cada una de las partes en que se divide un edificio
+					grande, para que sirva a vecinos), vivía desde innumerables años la
+					familia del maestro de Escuela. Ahora, pues, que conocemos el
+					local, vamos a ocuparnos de los habitantes que han sucedido en él a
+					fenicios, romanos y moros, y a los guerreros del sabio Rey; esto
+					es, los gorriones y tórtolas que se han posesionado del nido
+					abandonado por las águilas y milanos.
+					</p>
+					<p>
+					Es de suponer que, si los miembros de
+					la Sociedad de la Paz tuviesen noticias de las transformaciones que
+					en beneficio de ésta ha sufrido el descrito castillo, ese león
+					hecho cordero, ese Hérculos hilando, ese Aquiles vestido de
+					Matrona, ese dragón narcotizado, lo hubiesen elegido para punto de
+					reunión de sus sesiones; pues ciertamente con plena aprobación de
+					sus habitantes se habrían podido anatematizar en aquella 
+					<emph>
+					Plaza de Armas
+					</emph>
+					todas ellas, inclusas las
+					flechas de Cupido.
+					</p>
+			</div>
+			<div type="chapter" n="SPA2008002">
+				<head>Capítulo II. Tres almas de Dios</head>
+					<quote>
+						<p>
+						Bienaventurados los pobres de espíritu.
+						</p>
+						<p>
+						Evangelio de San Lucas
+						</p>
+					</quote>
+					<quote xml:lang="FRA">
+						<l>Il est vrai qui la grandeur selon </l>
+						<l>les hommes n'est pas le</l>
+						<l>grandeur selon Dieu.</l>
+						<p>Alexandre Dumas</p>
+					</quote>
+					<p>
+					Don José Mentor era, como ya hemos
+					dicho, un Maestro de escuela. Los adelantos de la época atrasaron
+					al pobre D. José: el colegio, la gratuita, la escuela mutua,
+					aquellos rayos de las luces del siglo, le arrebataron todos sus
+					niños como lo habían hecho los de Apolo con los de Niobe. Pero D.
+					José no se descorazonó: siguió viviendo en su pacífico castillo, en
+					su tranquilo hogar doméstico; con su mujer y su hermana, en paz y
+					en gracia de Dios, tan confiados los tres en el Santo de su
+					devoción, San Cayetano, ahogado de la Providencia, que a ninguno
+					robó su desgracia un cuarto de hora de sueño.
+					</p>
+					<p>
+					Don José contaba con un vitalicio en
+					que vendió una casa ruinosa. Consistía aquel en una peseta diaria
+					-¿qué tal sería la finca?- vitalicio que con su imprevisión de
+					niño, puso sobre su cabeza, sin acordarse de que su mujer y su
+					hermana deberían probablemente sobrevivirle. Tenía algunos otros
+					recursos; era el uno llevar del brazo a misa a una anciana
+					extranjera ciega, por cuyo obsequio recibían tres cuartos; y era
+					otro, algunas lecciones de leer y de escribir que daba a las
+					Maritornes con pretensiones de ilustrarse, con lo que lograban leer
+					novelas perversas, descuidar sus quehaceres y la aguja, y llevar
+					calcetas con puntos. -Mire Vd., niña, solía decir D. José a las
+					talludas discípulas que hacían palotes, ¿ve Vd. esas viguitas del
+					techo? Pues así deben ir, derechitos y bien alineados.
+					</p>
+					<p>
+					Don José era feo, -preciso es
+					confesarlo; que amor no quita conocimiento-; de un feo que llamaba
+					la atención. Sus narices desmedidamente salientes y gruesas,
+					necesitaban todo el extremado largor de la cara en que se
+					ostentaban, para vivir en paz con la boca y la frente, sus vecinas.
+					No eran menos largas sus orejas, ni menos gruesos sus labios,
+					siendo el inferior colgante y pendiente como pabellón. Sus ojos
+					pequeños, enterrados en gruesos párpados, tenían una expresión
+					bondadosa, a la par que atónita o curiosa; lo que era debido a su
+					sordera; y eran cobijados por unas cejas tremendas, que formaban un
+					entrecejo formidable, que hubiera sentado bien en un busto de
+					Júpiter, pero que estaban en la cara de nuestro buen D. José
+					completamente fuera de lugar, y podían competir con la carabina de
+					Ambrosio. Era alto, y su cuerpo se había torcido de una manera
+					lastimosa, teniendo un hombro muy alto y otro muy bajo, como si se
+					esforzase en probar que nada hay igual en este mundo, -que es lo
+					que le hace original-; nada... ni aun los hombros en un mismo
+					sujeto!
+					</p>
+					<p>
+					Sin embargo, cuando por Semana Santa o
+					el día del Corpus, vestía D. José un frac negro que estrenó a
+					principios del siglo, y salía pavoneándose y arrastrando los pies,
+					su mujer y su hermana lo seguían con la vista al atravesar la Plaza
+					de Armas, mirándose después con una sonrisa de satisfacción que
+					parecía decir: 
+					<emph>
+					¡que se presente otro!
+					</emph>
+					</p>
+					<p>
+					Doña Liberata tenía la misma fealdad
+					que su hermano, en pequeño, así como la misma sordera; aunque como
+					mujer, era menos torpe, y se enteraba más pronto de lo que deseaba
+					saber, o de lo que se le quería comunicar. Ligera, dispuesta,
+					hacendosa, acudía a todo con paso menudo y precipitado, y ayudaba a
+					los gastos, cosiendo ageno. Nunca se había casado por no habérselo
+					presentado ocasión, ni haberla ella buscado jamás.
+					</p>
+					<p>
+					Doña Escolástica era algo gruesa, muy
+					pastorona, sin hiel, como los palomos pisaverdes, que paseaban la
+					Plaza de Armas; de un feo menos subido, pero de una insulsez más
+					marcada que su cuñada.
+					</p>
+					<p>
+					Estas tres personas tan semejantes,
+					existían felices y bien avenidas en medio de sus escaseces, no
+					amargaban su pan con quejas, ni su vida con apuros; y nunca se
+					vieron en la triste situacion, a que gradualmente fueron
+					descendiendo, genios más alegres, ni índoles más apacibles: pues la
+					alegría y la apacibilidad, las dan las conciencias limpias y la fe
+					virgen y firme, que poseen los ricos de corazón y pobres de
+					espíritu. Este su envidiable temple de alma, esta completa sumisión
+					y confianza en Dios, crea la mansedumbre; y esta ahuyenta los
+					angustiosos cuidados, los excesos de la sensibilidad, la hiel
+					contra los hombres y las cosas. Y sobre todo, crea el hermoso don
+					de la conformidad, que espontáneamente brota en las almas de
+					aquellos, y que las cobija con su dulce sombra, sin que noten ellos
+					siquiera que la tranquilidad de su espíritu es debida a la
+					excelencia de sus almas, y que el epíteto burlesco de alma de dios
+					con que con tanta ligereza los ridiculiza el mundo, significa nada
+					menos que haber llegado al apogeo del cristianismo. Ha dicho muy
+					bien Dumas; que la grandeza, según Dios, no es la grandeza según
+					los hombres. Por lo cual nada de extraño tiene, que a pesar de la
+					bondad de los individuos que hemos descrito, ocupasen en la
+					sociedad una posición más que subalterna, tanto por su clase, como
+					por su pobreza, como por su desgraciado exterior, como por esas
+					mismas virtudes, que desdeña el mundo, ese señorón que en nuestro
+					globo se emancipa de su Criador, relegándole, -¡y gracias! -a los
+					templos y a los libros no sin mofarse de los que sacan su santo
+					nombre de la clausura de las obras teológicas, que no lee. Miran
+					los hombres descreídos que a él pertenecen, estas virtudes de alto
+					abajo, como miran los bullidores delfines y peces espadas que se
+					agitan en la superficie del mar, a la perla que tranquila yace en
+					el firme fondo.
+					</p>
+					<p>
+					La índole bondadosa y la falta de hiel
+					de D. José eran tan conocidas en el pueblo, que para pintarla
+					burlescamente, habían inventado sus paisanos, que necesitan poco
+					para ejercitar su humor burlesco, el siguiente chascarrillo.
+					<ref target="#SPA2008N02">[2]</ref></p>
+					<p>
+					Contábase que D. José entró un día en
+					su casa cuando menos se le aguardaba y halló a un amante con su
+					mujer. ¿Qué hace el ultrajado marido? coge en los brazos a su
+					rival, le lleva al fin del paseo de la Victoria, esto es, de
+					extremo a extremo del pueblo; allí le deposita en el suelo, y le
+					dice con voz severa: -«¡esto es por la primera vez! Pero le
+					prevengo a Vd., que si otra vez le encuentro con mi mujer, que como
+					me llamo José, y como espero salvarme, le llevaré hasta allí!» y le
+					señaló un ventorrillo que se halla a un cuarto de legua. D. José,
+					satisfecho con la reparación que había dado a su ultrajado honor,
+					se volvió a su casa. Añadían que desde aquella época databa el
+					desquiciamiento de los hombros del héroe de la aventura.
+					</p>
+					<p>
+					Para principiar nuestra Relación desde
+					el principio, -como suele hacerse-, es preciso retroceder al año
+					1823, en cuya época estaban el castillo y sus habitantes idénticos
+					a como los volveremos a hallar después, y a como los hemos
+					descrito. Hay personas que no tienen juventud, así como hay otras
+					que son jóvenes toda su vida, no sólo en su sentir sino hasta en su
+					físico; jóvenes arrugados, modernizados con modas de París,
+					embalsamados con ungüentos, encurtidos con esencias; a cuyos
+					miembros no pesan, y a cuyas cabezas no sirven de lastre los años.
+					Si a las primeras falta la fragancia de la primavera; a los
+					segundos falta la madurez del otoño.
+					</p>
+					<p>
+					Como hemos dicho, el torreón del
+					ángulo izquierdo servía de cocina a la familia del ex-maestro de
+					escuela. Una noche de dicho verano, estaba Doña Liberata majando
+					con el mayor ahínco, la miga, el ajo, la sal y el tomate para el
+					gazpacho. Aunque no hubiese sido un poco sorda, la atención
+					profunda que prestaba a su faena, y los vigorosos golpes que daba
+					al mortero, habrían bastado para abstraerla completamente. ¡Cuál
+					sería, pues, su asombro, cuando de repente y como llovido de la
+					bóveda, se vio a un hombre enfrente de ella! Las cejas de Doña
+					Liberata, -que como las de su hermano, tenían una aptitud
+					particular para alzarse, formando un arco agudo-, arrastrando
+					detrás de sí a los párpados, dejando sus ojitos negros
+					desmesuradamente abiertos; su boca los imitó, y la mano del mortero
+					quedó levantada inmóvil en la suya.
+					</p>
+					<p>
+					Un ladrón en aquel castillo, donde no
+					había nada que robar, -era un fenómeno más extraño y sobrenatural
+					que hubiese podido serlo la aparición de un mero o do un
+					romano.
+					</p>
+					<p>
+					Sin embargo, la persona aparecida no
+					justificaba tanto espanto. Era un joven de vinos veinte años; traía
+					una chaqueta y un pantalón estrafalario, y en la cabeza una gorra
+					con visera, y ésta muy echada a la cara. Un tanto de barba juvenil,
+					que no había sido afeitada en varios días, daba alguna sombra y
+					algo de varonil a aquel rostro de colegial. De estatura mediana,
+					tenía elegantes formas, y su flexible cuerpo parecía hallarse poco
+					a gusto en el traje que llevaba, en el cual se movía extraño e
+					impaciente; como la serpiente que ansía por soltar y zafarse de su
+					deslucida piel, cuando debajo tiene otra más adherente, más lucida,
+					y más nueva.
+					</p>
+					<p>
+					-Pe... ro... -articuló Doña Liberata,
+					que no pudo acabar de pronunciar el nombre de sus hermanos.
+					</p>
+					<p>
+					-Señora, -dijo el aparecido-; me vais
+					a perder Soy perseguido por fieros esbirros; he trepado por grietas
+					de este desmoronado muro con la intención de entrar por esa abierta
+					ventana, y con la esperanza de hallar pechos nobles e
+					independientes que amparasen una víctima del despotismo.
+					</p>
+					<p>
+					Doña Liberata, que era sorda, que era
+					novicia en percances aventureros, y que a esto añadía el haber
+					perdido la cabeza por el miedo, contestó temblando:
+					</p>
+					<p>
+					-¡Señor! ¡por la Virgen del Carmen!
+					somos unos pobres; a mi hermano le han cerrado la escuela; yo no he
+					cobrado todavía la costura de esta semana. Nada tengo, sino mi
+					rosario y mi caja de plata; si usted las quiere...
+					</p>
+					<p>
+					La pobre doña Liberata metió con dolor
+					profundo su temblorosa mano en la faltriquera.
+					</p>
+					<p>
+					El aparecido, haciéndose cargo de la
+					dificultad de oído de su interlocutora, se acercó a ella, y le
+					dijo:
+					</p>
+					<p>
+					-Yo no soy ladrón.
+					</p>
+					<p>
+					-¿No? -contestó Doña Liberata algo
+					tranquilizada, y soltando con íntima satisfacción el rosario y la
+					caja de plata que tenía asidas.- Pues entonces, ¿a qué se entra Vd.
+					a deshoras por las ventanas?
+					</p>
+					<p>
+					-Porque un poder tiránico me persigue
+					para prenderme, contestó en recia voz el aparecido.
+					</p>
+					<p>
+					Las cejas de Doña Liberata, que habían
+					emprendido su descenso, se remontaron instantáneamente.
+					</p>
+					<p>
+					-¿Qué? ¿quieren prender a Vd.? ¡Ave
+					María Purísima! -exclamó angustiada-, ¡éste ha hecho una muerte!
+					-añadió mentalmente-; si chisto me deja en el sitio. ¡Dios tenga
+					misericordia de mi!
+					</p>
+					<p>
+					El desconocido conoció cuanto pasaba
+					por la aterrada mente de su interlocutora, y se apresuró a
+					decirle.
+					</p>
+					<p>
+					-No he cometido delito alguno; soy un
+					prófugo político.
+					</p>
+					<p>
+					Esta voz culta que significa fugitivo,
+					errante, y que ha sido aplicada por la ley al que se sustrae al
+					servicio de las armas, el pueblo la ha adoptado con la variante de 
+					<emph>
+					préfulo
+					</emph>
+					, y ha hecho de ella la denominación
+					genérica y exclusiva de aquel que acude a la huida para escapar al
+					sorteo. Bajo este concepto inspira siempre un 
+					<emph>
+					préfulo
+					</emph>
+					interés y lástima.
+					</p>
+					<p>
+					-¿Un 
+					<emph>
+					préfulo
+					</emph>
+					? ¡pobrecito! -dijo la buena Doña
+					Liberata, volviendo sus cejas a ocupar su línea recta.- Vamos, esté
+					Vd. sosegado, añadió con bondad, que nosotros no le hemos de
+					delatar. Pero voy a avisar a Escolástica y a Pepe, para que no se
+					asusten.
+					</p>
+					<p>
+					Doña Liberata se fue, con los pasitos
+					cortos y precipitados que le eran propios, dejando abierta la
+					ventana por la que había entrado el fugitivo, y la puerta por la
+					que ella salió, con tanta confianza en el intruso, como terror le
+					había inspirado al aparecerse.
+					</p>
+					<p>
+					Don José, que mediante a ser sordo,
+					tenía algo de desconfiado y otro algo de 
+					<emph>
+					gruñón
+					</emph>
+					(ambas cosas empero en dosis muy
+					inofensivas), no estuvo tan propicio como su hermana para esconder
+					a un fugitivo, ni para creer sobre su palabra, que lo fuese por
+					huir de la quinta.
+					</p>
+					<p>
+					-¡Qué prófugo!... -gruñó con su gruesa
+					y pastosa voz-; ¡si ahora no hay quinta! ese es un prófugo, pero
+					prófugo de presidio. Los tiempos están revueltos, y cuando esto
+					sucede, hacen los tunantes de las suyas. ¿Por qué le dejaste
+					entrar?
+					</p>
+					<p>
+					-¿Acaso me pidió licencia? -contestó
+					su hermana-. Pero mira, José, no tiene mala traza, y es casi un
+					chiquillo.
+					</p>
+					<p>
+					-¡Chiquillo que de noche trepa por las
+					paredes y allana las casas!... nada, nada; que se vaya... o voy a
+					llamar a la guardia.
+					</p>
+					<p>
+					-¡Hombre! cómo se va, si está cerrado
+					el castillo y es preciso despertar al sacristán para que abra la
+					puerta!... observó Doña Escolástica.
+					</p>
+					<p>
+					-Que se vaya por donde ha venido; no
+					quiero líos con la justicia, ni dimes ni diretes con los franceses,
+					aunque no sean éstos los malvados de Napoleón.
+					</p>
+					<p>
+					-Pepe, no te conozco; ¡qué despiadado
+					estás! -le dijo su hermana-; por los cantos descarnados ha podido
+					subir, pero no se puede bajar por ellos.
+					</p>
+					<p>
+					Mientras que con su acostumbrada calma
+					discutían D. José, su hermana y su mujer el asunto, el fugitivo
+					cansado de esperar, había seguido el camino que vio tomar a Doña
+					Liberata, y se presentó de repente con mucha soltura a los ojos
+					atónitos del trío.
+					</p>
+					<p>
+					Don José frunció sus cejas
+					jupiterianas, y se levantó erguido, con su hombro izquierdo más
+					remontado que nunca.
+					</p>
+					<p>
+					Pero el que se presentaba no era
+					hombre a quien impusieran las cejas de D. José, puesto que si la
+					impavidez y el 
+					<foreign xml:lang="FRA">
+					sans fazon
+					</foreign>
+					francés se hubiesen unido,
+					habrían engendrado al que se presentó a su vista. Habíase quitado
+					el prófugo su feísima gorra, y levantado de sobre su frente, tersa
+					y erguida, sus negros rizos; su boca sonreía, luciendo la bella
+					dentadura que la adornaba, y dirigiéndose a su huésped, dijo con
+					gran frescura:
+					</p>
+					<p>
+					-¿Usted es D. José Qué-sé-yo-qué
+					hermano de esa señora Qué-sé-yo-cuánto, a la que he dado, mal que
+					me pese, un susto magno?
+					</p>
+					<p>
+					-Don José Mentor, servidor de Vd.,
+					-contestó Doña Escolástica-; no ha oído a Vd. porque es un poco
+					tardo...
+					</p>
+					<p>
+					-¿Mentor? -exclamó, soltando una
+					carcajada el aparecido-; por consiguiente, Vds. serán los Calipsos
+					de esta gruta, y yo vengo de molde para ser el Telémaco.
+					</p>
+					<p>
+					-¿Qué dice? -preguntó D. José a su
+					mujer.
+					</p>
+					<p>
+					-Que se llama Telémaco -contestó
+					ésta.
+					</p>
+					<p>
+					-No digo eso, -repuso alzando la voz,
+					y redoblando sus carcajadas el aparecido-; me llamo Leopoldo Ardaz.
+					¡Ay! -añadió, golpeándose la frente-: lo primero que me encargó
+					Ramón fue que ocultase mi nombre.
+					</p>
+					<p>
+					-No hay cuidado por eso, advirtió D.
+					José; que lo que a Vd. ni a nadie pueda perjudicar no saldrá nunca
+					de nuestros labios. ¡Mas que fuese Vd. Barrabás en propia persona!
+					además... yo no lo he oído.
+					</p>
+					<p>
+					La hermana, que se preciaba de oír
+					mejor que su hermano, se acercó a su oído y le dijo sin gritar: se
+					llama D. 
+					<emph>
+					Deopolvo
+					</emph>
+					Ardaz.
+					</p>
+					<p>
+					El huésped volvió a empezar a reírse,
+					y como la risa se pega, sobre todo entre gentes sin hiel, uno
+					después de otro se pusieron todos a reír.
+					</p>
+					<p>
+					-Pero vamos al caso, -dijo después de
+					un rato don José-; aunque Vd. perdone, ¿Vd. quién es, señor Ardaz?
+					¿Qué ha hecho, y por qué se esconde?
+					</p>
+					<p>
+					-¿Quién soy? -contestó éste-: un
+					hombre libre; ¿qué he hecho? ¡Defender la libertad! ¿Por qué me
+					escondo? porque volvemos a los tiempos (y se puso a cantar) en que
+					se asaban, cual salmonetes, la carne humana.
+					</p>
+					<p>
+					-¡Dios del cielo! ¡Un nacional de
+					Madrid! -exclamó asustado D. José.
+					</p>
+					<p>
+					-¡Jesús, un tragalista! -murmuró
+					temblando Doña Escolástica.
+					</p>
+					<p>
+					-¡Madre mía, un bullanguero! -dijo con
+					dolor Doña Liberata.
+					</p>
+					<p>
+					-Vamos, -dijo Leopoldo, que notó la
+					impresión que había causado su terminante declaración, conozco que
+					deben Vds. estar en dudas sobre mi persona; pero voy a tranquilizar
+					a Vds. Dádme avíos de escribir; escribiré a quien salga responsable
+					de mí, y llevareis la carta, señor Mentor.
+					</p>
+					<p>
+					-¡Que lleve yo la carta a las diez de
+					la noche, y quizás a los quintos infiernos! ¡En eso estaba yo
+					pensando! -gruñía D. José, mientras estaba escribiendo su
+					huésped.
+					</p>
+					<p>
+					Después de cerrar la esquela, preguntó
+					éste a Don José:
+					</p>
+					<p>
+					-¿Vd. conocerá al Gobernador?
+					</p>
+					<p>
+					-¿Don Juan de Soto? ¡pues no le he de
+					conocer!
+					</p>
+					<p>
+					-Id a su casa; preguntad por su
+					ayudante Valverde, y entregadle en mano propia esta esquela.
+					</p>
+					<p>
+					-¡El ayudante del Gobernador! -exclamó
+					D. José-. Este se quiere perder, y nos va a comprometer, -pensó
+					apurado; y añadió en voz recia-: Señor, es tarde.
+					</p>
+					<p>
+					-No le hace, id.
+					</p>
+					<p>
+					-Es que el castillo está cerrado.
+					</p>
+					<p>
+					-Haced que os abran
+					</p>
+					<p>
+					-¡Cascabeles con el mocito este, y
+					como sabe mandar! ¡Parece que en su vida ha hecho otra cosa! -gruñó
+					D. José.
+					</p>
+					<p>
+					-Pepe, le dijo su hermana, complácele;
+					se conoce que es persona fina.
+					</p>
+					<p>
+					-Lo mismo me da a mí, si es
+					delincuente, que sea fino o que sea basto.
+					</p>
+					<p>
+					-Hombre, si se vale de ti, ¿le has de
+					huir cara? -le dijo su mujer-; haz lo que te dice, en caridad; que
+					él sabrá lo que le conviene; ¡es tan bonito!
+					</p>
+					<p>
+					-¡Pues mire que recomendación para un
+					consejo de guerra!... ¡Y si siquiera lo pidiese con buen modo!...
+					-gruñó D. José, y salió arrastrando los pies, precedido de su
+					hermana, que iba alumbrando con el velón.
+					</p>
+			</div>
+			<div type="chapter" n="SPA2008003">
+				<head>Capítulo III.Un servilón y un liberalito</head>
+					<quote>
+						<l>Las plazas abundaban en legisladores</l>
+						<l>de veinte años, que encontraban</l>
+						<l>a Cristo demasiado viejo,</l>
+						<l>y que deseaban suplirle abrogándose</l>
+						<l>el cuidado de dirigir la humanidad.</l>
+						<l>Julio Sandeau</l>
+					</quote>
+					<quote>
+						<p>No es el 
+						<emph>
+						tormento
+						</emph>
+						, sino la 
+						<emph>
+						causa
+						</emph>
+						, lo que constituye el martirio.
+						Santos Padres
+						</p>
+					</quote>
+					<p>
+					Apenas había transcurrido un cuarto de
+					hora, cuando se oyeron pasos acelerados por la plaza de armas, y
+				    entró la persona a quien iba dirigida la carta, que se precipitó
+					hacia el recién venido, al que abrazó, exclamando.
+					</p>
+					<p>
+					-¡Leopoldo! ¡Leopoldo! ¡Tú aquí, tú,
+					escondido! ¿Qué locura o qué desgracia es esta?
+					</p>
+					<p>
+					Dona Escolástica y Doña Liberata se
+					retiraron consideradamente, y se fueron con una luz a aguardar a su
+					Pepe en la escalera.
+					</p>
+					<p>
+					Cuando estuvieron solos, hizo Leopoldo
+					la siguiente relación a su amigo:
+					</p>
+					<p>
+					-Habiéndose unido mi regimiento a las
+					tropas del Rey, tres oficiales, que éramos exaltados, desertamos.
+					Pudimos llegar a Gibraltar donde nos recibieron los ingleses como
+				    héroes, y nos embarcamos disfrazados, llevando pasaportes con
+					nombres supuestos, y con algunos pasageros de pésimas trazas en un
+					queche con destino a Cádiz; pero apresados por una lancha cañonera,
+					fuimos traídos aquí. Como esto sucedió de noche, pude esconderme
+					entre los dobleces de una vela que estaba arrollada en el camarote.
+					Los demás fueron desembarcados, y yo permanecí todo el día en mi
+					escondite; pero llegada la noche, salí, y me dí a conocer a los dos
+					marineros que habían quedado guardando la embarcación. Estos me
+					depositaron sigilosamente en tierra, y atravesaba la plaza de la
+					Pescadería, cuando oí que desde la casilla del muelle me llamaban.
+					Aunque era claro que esto sería para cerciorarse de que no llevaba
+					contrabando, no creí prudente exponerme a ninguna clase de
+				    registro, y proseguí mi camino.
+					</p>
+					<p>
+					Entonces oí que salían a alcanzarme, y
+					para que no lograsen su intento, puse mis piernas a todo vapor. No
+					sabiendo dónde refugiarme, presentóse ante mí el torreón de ese
+					castillo, con su abierta y alumbrada ventana, que parecía decirme:
+					-pase usted adelante.-Sabes desde el colegio que soy buen gimnasta;
+					trepando por los intersticios de los descarnados cantos, subí a la
+					ventana, por la que entré, y me encontré frente a frente con una de
+					las castellanas de este castillo, a la que aparecí bajo la celada
+					de mi yelmo (vulgo a la sombra de mi visera), algún Orlando
+					furioso, o Barbarroja renegado... y... colorín colorado, cate Vd.
+					mi cuento acabado.
+					</p>
+					<p>
+					-¿Y qué hacemos ahora? -exclamó
+					Valverde apurado.
+					</p>
+					<p>
+					-Respirar para no ahogarnos. -repuso
+					Leopoldo con su imperturbable calma.- ¿Tan imbuido y contaminado
+					estás con las ideas y máximas tiránicas de los que te rodean en la
+					actualidad, que te parece ver colgado sobre mi cabeza, a guisa de
+					espada de Damocles, un nudo corredizo?
+					</p>
+					<p>
+					-Desertar de sus banderas, ser cogido
+					disfrazado y con pasaporte falso, al ir a entrar en una plaza
+					sitiada, con todo el carácter de un espía... -exclamó con dolor su
+					amigo, ¡y te muestras tan impasible y tan sobre ti!
+					</p>
+					<p>
+					-¿Y qué quieres que haga? -repuso
+					Leopoldo-, ¿que me eche de cabeza en lo patético? No; lo patético
+					me es antipático; (¡qué lindo esdrújulo!). El hombre debe ser
+					franco y verdadero; el hombre noble y liberal nunca sale de su
+					carácter, y si me condenasen, me verías ir al patíbulo
+					cantando.
+					</p>
+					<p>
+					Leopoldo, que no tenía muy bonita voz,
+					se puso a cantar.
+					</p>
+					<quote>
+						<l>Se levante Merino mil veces,</l>
+						<l>se reúna la turba servil,</l>
+						<l>me designen por víctima suya,</l>
+						<l>me preparen mil muertes y mil...</l>
+					</quote>
+					<p>
+					-No temas a las mil muertes, ni a una
+					tampoco -dijo sonriendo Valverde-; no se trata de eso. Se trata de
+					que no se pueda sospechar en ti una acción vil; de que tu ilustre
+					nombre no figure en los tribunales, y de que tu persona no sufra
+					detenciones y disgustos. Debes, por ahora, quedar oculto.
+					</p>
+					<p>
+					-No tengo inconveniente, con tal que
+					no sea por mucho tiempo, repuso Leopoldo, porque este castillo, que
+					chochea, y sus moradores que le imitan, son capaces de convertirme
+					en idiota en poco tiempo. Y si en breve no me procuras los medios
+					de salir de aquí por la puerta, me saldré por la ventana por la que
+					he entrado, aunque al bajar me encuentre a la derecha con los
+					bigotes negros de tu Fierabrás Soto, y a la izquierda con los
+					rubios del Duque de Angulema, esa sosa y ajada flor de lis.
+					</p>
+					<p>
+					-Cuánto confías propuso Valverde, en
+					tu buena estrella, en la amistad de tus amigos, y en la falta de
+					tiranía de la causa a la que gratuitamente se la atribuye! Pero, en
+					fin, vuestra insolencia misma y vuestra osadía hace nuestro elogio.
+					No volveré cuanto deseo, por no despertar sospechas, pero trabajaré
+					por sacarte de aquí con seguridad y honor. Prométeme tener
+					entretanto paciencia, y ser prudente.
+					</p>
+					<p>
+					-Procúrame ante todo mi equipaje,
+					excelente Pílades; porque la ropa que tengo puesta me pesa y agobia
+					como la concha de una tortuga. Además, quiero hacer la conquista de
+					aquella torre matrona que se atreve a descollar entre las demás, y
+					ver por ese medio de infundirle algunas ideas liberales sobre la
+					igualdad.
+					</p>
+					<p>
+					Valverde le prometió lo que le pedía,
+					y se fue después a recomendar a sus huéspedes el sigilo.
+					</p>
+					<p>
+					Mientras la conversación de los dos
+					amigos, habían las hermanas preparado lo mejor posible la piececita
+					que les servía de comedor; habían pedido al capellán un catre de
+					tijera y cubiértolo con ropas no finas, pero blanquísimas y
+					sahumadas con alhucema, y habían aprestado, con huevos frescos y
+					con el gazpacho tan bruscamente interrumpido en su confección, una
+					frugal cena a su huésped, el que se la engulló con un apetito
+					propio de los veinte años, reforzado por un día de ayuno; y durmió
+					como un bienaventurado.
+					</p>
+					<p>
+					-Don Leopoldo, -le dijo a la mañana
+					siguiente Doña Escolástica, que a fuer de mujer, era curiosa, y a
+					fuer de buena, se interesaba por él-, ¿tiene usted Madre?
+					</p>
+					<p>
+					-Este contestó: Madre, Padre, Abuela,
+					tías, tíos, hermanos, primos, cuñados y sobrinos, y cuidado, añadió
+					vizqueando, que no caiga sobre Vd. un vizconde con toda su
+					parentela.
+					</p>
+					<p>
+					-¿Y es su padre de Vd. de tropa?
+					-tornó a preguntar Doña Escolástica.
+					</p>
+					<p>
+					-Sí; es guardia de Corps del Padre
+					Quieto, por orden superior del general Gota.
+					</p>
+					<p>
+					-Pues sino tiene más pan y prest que
+					los que le dé ese Padre, tendrá su estómago que alistarse en la
+					compañía de hambrientos, dijo haciéndose gracioso contra la
+					voluntad del que le crió, D. José.
+					</p>
+					<p>
+					-Tiene rentas propias, individuales e
+					independientes, sin contar con la bolsa ajena, -esto es, la paga
+					del Gobierno, que sale de las contribuciones que aniquilan el
+					país.
+					</p>
+					<p>
+					-Pero, ¿qué es su Mercé? -tornó a
+					preguntar la curiosa.
+					</p>
+					<p>
+					-Su Mercé no es Mercé, que es Señoría;
+					y Conde y Marqués.
+					</p>
+					<p>
+					-¡Hola! ¡Marqués! ¡Sea para bien, y
+					por muchos años! -dijo respetuosamente Doña Escolástica, repitiendo
+					recio la noticia a su marido y a su cuñada.
+					</p>
+					<p>
+					-También San Cayetano era hijo de
+					título, dijo Doña Liberata, del Conde Gaspar Tiene. Felicito a
+					Vd.
+					</p>
+					<p>
+					-¿Y eso qué significa para que me
+					feliciten ustedes? -exclamó impaciente Leopoldo; y poniéndose de
+					pie se puso a cantar gesticulando esta canción, en voga en aquella
+					época.
+					</p>
+					<quote>
+						<l>Todo Conde o Marqués nace hombre.</l>
+					</quote>
+					<p>
+					-¿Qué dice? -preguntó D. José al verlo
+					tan enfuncionado.
+					</p>
+					<p>
+					-Que todo Conde o Marqués nace hombre,
+					contestó su mujer.
+					</p>
+					<p>
+					-¿Y qué había de nacer mujer? -repuso
+					Don José.
+					</p>
+					<p>
+					Leopoldo entretanto había concluido la
+					discreta copla, y cantaba el estribillo o coro:
+					</p>
+					<quote>
+						<l>¡A, las armas corred, ciudadanos! </l>
+						<l>¡A lidiar, a morir o vencer!</l>
+					</quote>
+					<p>
+					Don José entretanto movía impaciente
+					su cabeza.
+					</p>
+					<p>
+					Leopoldo proseguía:
+					</p>
+					<quote>
+						<l>Guerra a muerte a la tiranía...</l>
+					</quote>
+					<p>
+					-¿Y quién es el tirano? -preguntó D.
+					José.
+					</p>
+					<p>
+					-Ese Nerón, -contestó Leopoldo,
+					señalando al mamarracho que figuraba la hermosa Persona del Rey
+					Fernando a caballo.
+					</p>
+					<p>
+					-Mocito, repuso D. José, no hable Vd.
+					así del Rey de España, mientras humea aún en los campos y en las
+					ciudades la sangre noble y leal de los que murieron por él; que eso
+					saca los colores a la cara a todo español legítimo.
+					</p>
+					<p>
+					-¿Es Vd. por lo visto un servilón de
+					siete suelas? -exclamó sofocado Leopoldo.
+					</p>
+					<p>
+					-¿Y Vd., según parece, un liberalito a
+					casquete quitado? -repuso D. José.
+					</p>
+					<p>
+					-Ser lo que soy lo tengo a mucha
+					gloria, -dijo Leopoldo.
+					</p>
+					<p>
+					-Ser lo que soy lo tengo a mucha
+					honra, -repuso D. José.
+					</p>
+					<p>
+					-¿Cómo tiene Vd. valor, -exclamó muy
+					en sí Leopoldo-, de expresarse así en la presencia de un mártir de
+					la santa libertad?
+					</p>
+					<p>
+					-Dice Vd. dos despropósitos,
+					mocito.
+					</p>
+					<p>
+					-Y Vd. cada salomonada que asombra; es
+					Vd. un badulaque, o está loco.
+					</p>
+					<p>
+					-Estoy muy cuerdo, señorito. ¿Dónde ha
+					visto usted canonizada esa santa y abogada de las bullangas? Santo
+					quiere decir el que posee la santidad, el que es perfecto y libre
+					de toda culpa; y sólo se dice de las cosas de Dios en español puro,
+					¿está usted? Tampoco es Vd. un mártir, pues dicen los Santos Padres
+					que no constituye el martirio el tormento que se padece, sino la
+					causa por lo cual se sufre ¿está Vd.?
+					</p>
+					<p>
+					-A Vd, es preciso o matarlo o dejarlo,
+					-exclamó furioso Leopoldo. Es Vd., añadió saliéndose, un bolonio,
+					un fanático, un preocupado, un... un... ostrogodo!
+					</p>
+					<p>
+					-¡Pues está bueno! dijo D. José,
+					cuando su contrincante hubo salido. ¡Que me diga que soy un
+					atrevido en decir que soy realista, cuando anda él escondido y
+					huyendo por no serlo! ¡Habráse visto tal descaro!... ¡Vaya con el
+					mocito!
+					</p>
+					<p>
+					-¡Pobrecito! dijo Doña Liberata:
+					déjale, José, no le respondas; está caído; y a los caídos no se les
+					canta el trágala como hacen ellos.
+					</p>
+					<p>
+					-¿Y yo se lo he cantado, ni nada que
+					se le parezca? -repuso D. José-. No he hecho más que responderle;
+					que para decir mi parecer, tengo boca como cualquier liberal, y
+					voz, aunque no tan chillona como las suyas.
+					</p>
+					<p>
+					-José, ya ves, opinó su mujer, que
+					como es hijo de Marqués...
+					</p>
+					<p>
+					-Y aunque sea hijo de Duque, ¿qué
+					derecho tiene, me querrás decir, para decirme a mí badulaque, loco,
+					bolonio, y hasta ostrogodo? -repuso su marido.
+					</p>
+					<p>
+					-Oye, Pepe, y eso ¿qué quiere
+					decir?
+					</p>
+					<p>
+					-Mira tú, que yo soy y no lo sé. Pero
+					me hago, cargo que querrá decir un hombre muy rudo, muy basto, y
+					muy templado a la antigua. ¡Puede echar plantas lo moderno!,
+					¡cascabeles!
+					</p>
+					<p>
+					Leopoldo a los pocos días sintió un
+					fastidio desmedido, como es de suponer. Su humor era tan malo y
+					estaba tan propenso a la impaciencia, que sería largo al referir
+					las escenas que tuvieron lugar entre él y los pacíficos habitantes
+					del castillo, víctimas todos ya de sus bromas, ya de sus arranques
+					de impaciencia ya de sus desdeñosos aires de superioridad, ya de
+					sus travesuras.
+					</p>
+					<p>
+					Sin embargo, como Leopoldo aunque
+					tenía desparpajo, no tenía acritud; como aunque era desvergonzado,
+					no era acerbo; como desdeñaba y befaba sin despreciar; como sus
+					pocos años, su viveza, y su buen fondo, al través de la maleza que
+					lo cubría, se patentizaban a cada instante, y como todos los que le
+					rodeaban eran tan buenos, no sólo se interesaban por él, sino que
+					le iban tomando sincero cariño. Y así, nunca estuvo un escondido
+					más seguro que él entre aquellos contrarios a su opinión, a quienes
+					cada día contradecía, atacaba, burlaba, y escandalizaba
+					descaradamente y con la más completa falta, no ya de delicadeza
+					sino de equidad.
+					</p>
+					<p>
+					Cuando Doña Liberata le veía muy
+					desesperado, le decía:
+					</p>
+					<p>
+					-Don Deopolvo, encomiéndese Vd. a San
+					Cayetano, abogado de la Providencia. Sus devotos nunca llegan a
+					ricos; pero nunca, nunca les falta la subsistencia. Hágale Vd. una
+					promesa, y verá Vd. cómo le saca en bien de este atajo.
+					</p>
+					<p>
+					-¡Vaya Vd. a freír monas! -contestaba
+					con coraje Leopoldo-. Pues qué, ¿me cree Vd. algún fanático
+					supersticioso como Vd.?
+					</p>
+					<p>
+					Leopoldo estaba entonces, por
+					desgracia imbuido en las acerbas máximas anti-religiosas que de la
+					mano traía consigo el liberalismo, que, -por ese instinto de verdad
+					que hay en todo corazón recto-., rechazaban las gentes religiosas,
+					a las que tan ampliamente ha dado razón el tiempo.
+					</p>
+					<p>
+					Cuando entraban en la sala, solían
+					siempre las hermanas hallar a su amado protector San Cayetano
+					vuelto de cara a la pared.
+					</p>
+					<p>
+					-Lo ven Vds., les decía entonces
+					Leopoldo, autor del trastorno, el Santo les vuelve las espaldas.
+					¡Milagro! ¡milagro! Pronto un ex-voto, para conservar la memoria de
+					que al santo no le gusta que le muelan, como hacen Vds., y no
+					quiere pesados delante de sus ojos.
+					</p>
+					<p>
+					Un día, no sabiendo qué hacerse se
+					entró en el oratorio del Capellán que estaba ausente. Era este
+					aficionado a la pintura, y tenía sobre el caballete un cuadro sin
+					concluir, que representaba a Santa Ana enseñando a leer a la
+					Virgen. No bien lo hubo visto Leopoldo, cuando, sin pensarlo dos
+					veces, cogió un pincel con pintura negra, y trazó en las hojas del
+					abierto libro que en sus manos tenía la Santa estas palabras: 
+					<emph>
+					Código de la Constitución
+					</emph>
+					. Se salió muy serio
+					silbando, y se subió a una de las torres donde se echó de bruces
+					sobre el pretil, y se puso a mirar a la bahía, sin acordarse más de
+					lo que había hecho.
+					</p>
+					<p>
+					Cuando D. José con su mujer y su
+					hermana se ponían a rezar por el Rey, como tenían de costumbre,
+					interrumpía los rezos para decirles impaciente:
+					</p>
+					<p>
+					-¿Qué les importa a Vds. el Rey? ¡El
+					Rey es un pecador como yo, y un zoquete, tan zoquete como los que
+					rezan por él!
+					</p>
+					<p>
+					Las hermanas se ponían entonces las
+					manos en la cabeza exclamando:
+					</p>
+					<p>
+					-¡Por Dios, por Dios, no diga Vd. eso
+					ni en chanza, señor! que se debe dar a Dios lo que es de Dios, y al
+					César lo que es del César; esto dice el Evangelio.
+					</p>
+					<p>
+					Y D. José añadía:
+					</p>
+					<p>
+					-Al Rey lo ha puesto Dios en el trono,
+					y debemos acatarle, ¿está Vd., mocito? Hemos de ser mandados, no
+					hay tu tía; y para eso está ahí el Rey legítimo, que lo tiene de
+					derecho, por herencia, y en la masa de la sangre. Y esto vale más
+					que cien reyezuelos, a cual más malo, a cual más amigo de destruir,
+					que están abriendo una puerta... por la que se nos entrarán muchos
+					males!
+					</p>
+					<p>
+					-En teniendo yo veinte y cinco años,
+					-respondía con coraje Leopoldo-, si hay entonces Constitución, he
+					de procurar ser diputado a Cortes, nada más que para meter el palo
+					en candela, y proponer que se les ponga una mordaza a Vd., y a
+					otros malvados servilones como Vd.
+					</p>
+					<p>
+					-No lo dudo, no dudo, que si vuelven
+					Vds. a sacar la cabeza, así lo hagan, -contestaba D. José-. Lo que
+					tiene que a la Verdad no se la podrán Vds. poner, y cuando no hable
+					por boca de los hombres, hablará por medio de los hechos ¿Está Vd.,
+					mocito?
+					</p>
+					<p>
+					-¡Cuándo saldré de este maldito
+					castillo! -exclamaba Leopoldo tirando la silla-: ¡castillo de la
+					tontería, digna morada de la vejez, cuartel general de ineptos,
+					mansión del opio, fortaleza del 
+					<foreign xml:lang="FRA">
+					 statu quo
+					</foreign>
+					!!!
+					</p>
+			</div>
+			<div type="chapter" n="SPA2008004">
+				<head> Capítulo IV. La tertulia a la luna </head>
+					<quote>
+						<p>
+						De la misma manera que excita el asombro el recio nadador, que
+						corta con fuerza y vence una corriente impetuosa, así también
+						admira que haya imaginaciones bastante vigorosas para hallar
+						inspiraciones poéticas al través de las tendencias y del espíritu
+						del siglo actual.
+						</p>
+						<p>
+						Velisla
+						</p>
+					</quote>
+					<p>
+					A la caída de una tarde estaban los
+					habitantes del castillo reunidos en la Plaza de Armas tomando el
+					fresco. Ya el sol había hecho su última caricia a la alta torre,
+					que más encumbrada que las demás, alza sobre todas sus almenas, las
+					que parece haber levantado, como pirámides conmemoratorias, a cada
+					siglo que cuenta y ha visto morir. La luna, que empezaba su lenta y
+					silenciosa ascensión, las alumbraba triste y pálidamente, como si
+					fuese un gran cirio que en sufragio de sus hijas hubiese encendido
+					su Padre el Tiempo. Las estrellas, que están más altas que la luna,
+					brillaban alegremente, cual si alcanzasen a ver a su Criador.
+					</p>
+					<p>
+					Los animales domésticos, moradores del
+					castillo, no prorrumpían ya sino en aquellas voces lentas y
+					arrulladoras, precurosas del sueño que anuncian, y que precede a su
+					descanso; cuando de repente y como bajados del cielo, se oyeron
+					unos sonidos encantadores. Al resonar aquellos suaves acentos en
+					aquel severo y callado edificio, los ecos que se durmieron al
+					extinguirse los últimos sonidos de las trompas y clarines
+					guerreros, despertaron dulcemente sorprendidos al oír las melodías
+					de Rossini; si eran estos ecos moros, pudieron creerse muertos en
+					los campos de batalla, y resucitados entre huríes. Y no fueron
+					ellos los solos agradablemente sorprendidos, sino todos los demás
+					moradores del castillo. Los palomos posados sobre las almenas,
+					torciendo en todas direcciones sus cabecitas, buscando con su
+					serena mirada a su alado vate el ruiseñor. Los conejitos salieron
+					de su confortable osario, se pusieron en dos pies lavándose sus
+					caras con ambas manitas a compás. Los jilgueros y canarios se
+					entusiasmaron, lanzando a deshoras sus más puros trinos y más
+					sonoros gorjeos, como para formar el coro a aquellas encantadoras
+					melodías. El gallo salió erguido de debajo de su higuera, como
+					Aquiles de debajo de su tienda, levantando tan bien y metódicamente
+					sus patas, como si se lo hubiese enseñado un maestro de equitación;
+					las gallinas, más prosaicas, fueron las que no se distrajeron de
+					sus únicas ocupaciones, que son buscar con qué llenar el buche, y
+					nido donde poner el huevo.
+					</p>
+					<p>
+					-¿Qué es esto? -dijo el ama del
+					Capellán.
+					</p>
+					<p>
+					-Es, -respondió Doña Escolástica- D.
+					Deopolvo...
+					</p>
+					<p>
+					-Dale con el Deopoldo, -observó D.
+					José- te he dicho que es Leopoldo, Leo-pol-do, ¿te enteras?
+					</p>
+					<p>
+					Doña Escolástica hizo una señal de
+					asentimiento, y continuó:
+					</p>
+					<p>
+					-Don Leopoldo, pues, recibió esta
+					mañana su equipaje que por fin pudo rescatar su amigo; en él venía
+					su flauta, y se ha ido a tocarla a la torre: ¡y qué bien lo
+					hace!
+					</p>
+					<p>
+					-¡Qué primor! -añadió la sobrina del
+					sacristán, que no por ser sobrina, dejaba de poder ser tía-; ¡no
+					parece sino que baja del cielo la música, como si fuera la de los
+					ángeles!
+					</p>
+					<p>
+					-Oye, Pepe, -preguntó Doña Liberata,
+					que medio se enteró-, ¿toca el Santo Dios?
+					</p>
+					<p>
+					-¡No, qué! -respondió su hermano-:
+					toca cosa profana y alegre: ¡unas seguidillas o cosa por el estilo,
+					pero bonitas,... bonitas!
+					</p>
+					<p>
+					-Preciosas, repuso con fe -Doña
+					Liberata.
+					</p>
+					<p>
+					A poco sonó la Oración, y los vecinos
+					del castillo se pusieron a saludar a la Señora con el Ángel, en
+					seguida a rezar el rosario.
+					</p>
+					<p>
+					Leopoldo no lo notó; y es probable que
+					aunque lo hubiese notado, no habría interrumpido su tocar. Y no
+					obstante, como todo lo que son cosas 
+					<emph>
+					sentidas
+					</emph>
+					se armonizan unas con otras en el
+					corazón, sin profanarse y sin despoetizarse, aquellas voces
+					monótonas, que con respeto se alzaban, y aquellas dulces y sonoras
+					melodías que alegres bajaban, parecían responderse, como el pájaro
+					enjaulado que no puede volar, y la alegre alondra en altas esferas.
+					Todas las cosas de este mundo tienen dos modos de mirarse, el uno
+					con la helada mirada de la razón, que todo lo enfría y lo rebaja,
+					como la luz de la bujía, y el otro con la ardiente y simpática
+					mirada del corazón, que todo lo dora y vivifica como el sol de
+					Dios. Esta vista del corazón se llama 
+					<emph>
+					Poesía
+					</emph>
+					. ¡Felices aquellos que, teniéndola, la
+					expresan en palabras armoniosas! ¡Y más felices aun los que la
+					conservan y entretejen en la vida práctica, en la que se la cree
+					inútil, y aun nociva, por los que no la comprenden, siendo un don
+					del cielo!
+					</p>
+					<p>
+					Cuando concluyeron de rezar, hacía
+					rato que Leopoldo había dejado de tocar. Porque Leopoldo, aunque
+					amaba la música,-si no con 
+					<emph>
+					pasión
+					</emph>
+					, con 
+					<emph>
+					extremo
+					</emph>
+					, como lo amaba y odiaba todo-, no
+					tenía paciencia para hacer mucho tiempo de seguido una misma
+					cosa.
+					</p>
+					<p>
+					-Ya calló el canario sin jaula, -dijo
+					Doña Escolástica-; ¿qué estará haciendo?
+					</p>
+					<p>
+					-Puede que haya mandado por almagra,
+					como hizo al otro día, para echarla en mi tinaja, -dijo la sobrina
+					del sacristán.
+					</p>
+					<p>
+					-O por pimiento chile para untar los
+					bordes de mi alcarraza, como hizo ayer, de manera que me abrasé los
+					labios: ¿ve Vd. la pupa? -dijo don José señalando su gran
+					labio.
+					</p>
+					<p>
+					-¡Si esto no se puede tolerar! -dijo
+					el sacristán.
+					</p>
+					<p>
+					-No lleva mala intención, -repuso Doña
+					Escolástica.
+					</p>
+					<p>
+					-¡Cascabeles! -exclamó D. José-, ¡con
+					buena o mala intención... a mi me dolió de lo lindo!
+					</p>
+					<p>
+					-¿Qué estará haciendo? -volvió a decir
+					al cabo de un rato Doña Escolástica.
+					</p>
+					<p>
+					-Ve a verlo, si tanto empeño tienes en
+					averiguarlo, -le respondió su marido.
+					</p>
+					<p>
+					Pero, ¡cuál sería el asombro de todos,
+					cuando vieron a su huésped elegantemente vestido de paisano, y
+					puesto de punta en blanco, que con un junquito en la mano, y
+					silbando el himno de Riego, atravesó la Plaza de Armas, les hizo un
+					saludo con la mano, y se echó a la calle.
+					</p>
+					<p>
+					Fue tal el general asombro, que todos
+					quedaron gran rato callados y con la boca abierta.
+					</p>
+					<p>
+					-Pues valía la pena, -dijo al fin D.
+					José- de romperse las uñas y exponerse a quebrarse la cabeza
+					trepando por un muro, y entrarse por la ventana, para salirse con
+					tanto descaro por la puerta.
+					</p>
+					<p>
+					-¡Quién vio otra! -opinó el
+					sacristán-. Disfrazado se esconde, ¡y con su ropa se deja ver tan
+					cariparejo!
+					</p>
+					<p>
+					-¡Y cantando que iba el himno de
+					pliego! -exclamó asustada Doña Escolástica.
+					</p>
+					<p>
+					-¡Vaya por Dios! -dijo Doña Liberata-,
+					pues siempre que sale el cante del 
+					<emph>
+					niño de Diego
+					</emph>
+					, hay jarana.
+					</p>
+					<p>
+					-Te he dicho cien veces, -le gritó su
+					hermano- que no se dice el 
+					<emph>
+					niño de Diego
+					</emph>
+					, sino el himno de Riego.
+					</p>
+					<p>
+					-Oye, José; -preguntó ésta- ¿qué es
+					himno?
+					</p>
+					<p>
+					-Himno es -contestó su hermano-, un
+					canto en alabanza de Dios o de sus Santos, o bien entre los
+					gentiles un poema para celebrar sus dioses o sus héroes.
+					</p>
+					<p>
+					-Pues no le viene bien el nombre a ese
+					cante -observó su hermana.
+					</p>
+					<p>
+					-Ya se ve que no -repuso D. José-.
+					Pero si han trabucado todos los nombres, porque les ha dado la
+					gana, ¿eso quién lo remedia?
+					</p>
+					<p>
+					-¡Si no fuera más que los nombres!...
+					-suspiró el sacristán.
+					</p>
+					<p>
+					-Pues si le digo eso a ese mocito,
+					-prosiguió Don José- me dice con el salero del mundo, bolonio,
+					badulaque y loco.
+					</p>
+					<p>
+					-Y 
+					<emph>
+					ostrobobo
+					</emph>
+					-añadió su mujer.
+					</p>
+					<p>
+					-¡Pues eso es jarabe de pico! En el
+					fondo es un infeliz; alegría... pocos años!... -observó Doña
+					Liberata.
+					</p>
+					<p>
+					-Sí, -dijo D. José- pero tiene una
+					lengua muy larga.
+					</p>
+					<p>
+					-Como todos -repuso el sacristán.
+					</p>
+					<p>
+					-¿Si estará libre? -dijo la viuda
+					</p>
+					<p>
+					-NO; sino que al loco y al aire, darle
+					calle -repuso D. José.
+					</p>
+					<p>
+					-¡Dios vaya con él, y le libre de mal!
+					-dijo Doña Liberata.
+					</p>
+					<p>
+					-¡Y a nosotros también! -repuso su
+					hermano suspirando- Pero este mocito no ha de parar hasta que nos
+					atraiga una desazón: ¡ya lo verán Vds.!...
+					</p>
+					<p>
+					-Dios quiera que no hayan cerrado el
+					castillo cuando vuelva -dijo Doña Escolástica.
+					</p>
+					<p>
+					-A bien que se entrará por la ventana,
+					-repuso mal humorado su hermano- o puede que acabe la noche en la
+					cárcel. Un hombre que estaba aquí como la propia rosa, ir tan
+					impávido a meterse por los ojos, diciendo 
+					<emph>
+					¡aquí estoy yo!
+					</emph>
+					... ¡Vamos; sí es preciso que
+					haya perdido los pocos sesos que tiene! Bien dice la copla.
+					</p>
+					<p>
+						<quote>
+						  <l>Un loquito del Hopicio</l>
+						  <l>me dijo en una ocasión:</l>
+						  <l> «Ni son todos los que están,</l>
+						  <l>ni están todos los que son.»</l>
+						</quote>
+					</p>
+			</div>
+
+
+			<div type="chapter" n="SPA2008005">
+				<head>Capítulo V. La perla</head>
+					<quote>
+						<p>
+						Angelitos de Dios, testiguitos del diablo.
+						</p>
+						<p>
+						Refrán
+						</p>
+					</quote>
+					<quote>
+						<p>
+						La Fe es un vaso sagrado en el que cada uno debe estar pronto a
+						sacrificar sus sentimientos, su razón y su imaginación. Se puede
+						disputar sobre el saber, porque este se puede rectificar,
+						extenderse; pero la Fe siempre es una.
+						</p>
+						<p>
+						Goethe
+						</p>
+					</quote>
+					<p>
+					Leopoldo paseó las calles del Puerto
+					lo más tranquila y garbosamente del mundo. No era conocido en
+					aquella población, y así confiaba en que iba muy bien disfrazado
+					con su propia ropa.
+					</p>
+					<p>
+					Bajó toda la bien denominada calle
+					Larga, a cuyo epíteto se puede sin lisonja añadir el de hermosa;
+					anduvo por el espacioso paseo de la Victoria, y hallándolo muy
+					solitario, se encaminó al Vergel, que es otro paseo más pequeño y
+					más céntrico a la orilla del río, paseo que estaba lleno de gentes,
+					y en el que se entró nuestro héroe como Pedro por su casa.
+					</p>
+					<p>
+					No bien hubo dado una vuelta, cuando
+					oyó una vocecita, aunque infantil, muy recia y sonora, que decía:
+					¡Mamaíta, Mamaíta! ahí esta Leopoldo Ardaz.
+					</p>
+					<p>
+					El nombrado hizo como si no hubiese
+					oído aquella señal de reconocimiento, y apretó el paso; pero se
+					encontró delante de sí colocada -a la manera que Alcibiades niño lo
+					hizo para parar un carro, esto es, decidido a morir o vencer-, a
+					una niña de seis a siete años, ataviada con lujo y primor, que le
+					dijo con su agudo tiple:
+					</p>
+					<p>
+					-Ardaz, ¿por qué está Vd. vestido de
+					paisano? El uniforme le sienta a Vd. mejor.
+					</p>
+					<p>
+					-Calla, calla, Margarita de mi alma
+					(¡de mis pecados! añadió mentalmente el interpelado) voy de prisa;
+					tengo una cita con un amigo.
+					</p>
+					<p>
+					-¿Y no quiere Vd. ver a Mamaíta? Allí
+					está sentada en aquel poyo: ¡venga Vd., venga Vd.!
+					</p>
+					<p>
+					Y Margarita asió de la mano a
+					Leopoldo, al que arrastró hacia uno de los asientos.
+					</p>
+					<p>
+					-¿Vd. por acá, Ardaz? -exclamó,
+					sorprendida de verle, una elegante señora.
+					</p>
+					<p>
+					-Sorpresa también, aunque más grata,
+					me causa a mí, Condesa, el ver a Vd. en este Vergel, cuya atmósfera
+					asfixia, según lo cargadísima que está por la aglomeración de
+					tantos hijos de San Luis.
+					</p>
+					<p>
+					-¿Quién son los hijos de San Luis,
+					Mamaíta? -preguntó la niña, que en toda conversación se
+					entremetía.
+					</p>
+					<p>
+					-Son los franceses, mi corazón.
+					</p>
+					<p>
+					-¡Ay, cuántos hijos tuvo ese Santo!
+					-dijo la niña-, ¡y qué guapos son! ¿No es verdad, Ardaz?
+					</p>
+					<p>
+					-¡Vaya!... ¿te gustan? -repuso con
+					reprimido coraje Leopoldo-; ¡pues cómprales dulces, mi alma!
+					</p>
+					<p>
+					-¿Sabe Vd. lo que me ha dicho el
+					sobrino del General Gundi? -prosiguió muy ancha la niña-: que
+					Margarita quiere decir perla.
+					</p>
+					<p>
+					-Cosa digna de repetirse, hija
+					mía.
+					</p>
+					<p>
+					 -Y que soy yo la Perla de las
+					Antillas.
+					</p>
+					<p>
+					-Hasta ahora lo había sido la
+					Habana.
+					</p>
+					<p>
+					-No; esa es demasiado grande para ser
+					perla. Yo lo soy, ¿no es verdad, Mamaíta?
+					</p>
+					<p>
+					-Si, hija de mi vida; y la de más
+					valor a mis ojos.
+					</p>
+					<p>
+					La Condesa de la Enramada era una
+					Habanera tan sencillamente fina, como naturalmente amable, que no
+					tenía más defecto para sus amigos, que el de mimar de una manera
+					exagerada e incómoda a su hija. Era esta señora tan esmerada y
+					sibarita en sus refinamientos de lujo, que mandaba su ropa a
+					lavarse a la Habana, por parecerle que no se lavaba bastante bien
+					en España, que es el país de Europa en que la lavan mejor.
+					<ref target="#SPA2008N03">[3]</ref>
+					Había venido a la Península a traer a un hijo suyo al
+					colegio de artillería; había después permanecido en Madrid, donde
+					conoció a Leopoldo; y cuando auyentada por las circunstancias
+					políticas, salió de Madrid para regresar a la Habana, se halló a
+					Cádiz sitiado, por lo que permanecía en el Puerto hasta que
+					terminase el sitio.
+					</p>
+					<p>
+					-Pero... ¿cómo os halláis aquí?
+					-preguntó la Condesa a Leopoldo-: A juzgar por vuestras ideas
+					belicosas, yo os hacía en Cádiz al pie de un cañón con la mecha
+					encendida en la mano.
+					</p>
+					<p>
+					-No lo estoy, -contestó Leopoldo- por
+					haber sido apresada la embarcación que a Cádiz me conducía, por una
+					lancha cañonera, Cancerbero de la entrada de su bahía.
+					</p>
+					<p>
+					-¿Estáis, pues, preso?
+					</p>
+					<p>
+					-No, señora; que escapé: estoy
+					escondido.
+					</p>
+					<p>
+					La Condesa soltó una alegre
+					carcajada.
+					</p>
+					<p>
+					-Esto es -dijo-, que os hacéis la
+					ilusión, cuando paseáis por los paseos públicos, de llevar el
+					sombrero de Merlin.
+					</p>
+					<p>
+					-No es eso, Condesa. Si me veis aquí
+					es porque confiado en que nadie me conoce en este campamento
+					francés, he salido a dar una vuelta entre dos luces.
+					</p>
+					<p>
+					-Sí, la luz del sol y la de los
+					reverberos, para disfrutar de ambas donde más resplandecen. ¿No
+					veis, imprudente, que os exponéis?
+					</p>
+					<p>
+					-Ya me vuelvo a mi guarida, en la que
+					no me hallarán, ni me buscarán, porque es el puro inmaculado limbo
+					del servilismo.
+					</p>
+					<p>
+					-Y ¿cuál es esa mansión, ese palomar
+					en que albergan las palomas al halcón? -preguntó admirada e
+					irreflexivamente la Condesa.
+					</p>
+					<p>
+					-Es el Castillo, -contestó sin
+					detenerse y con su acostumbrada imprevisión- Leopoldo.
+					</p>
+					<p>
+					-Mamaíta, yo quiero ver ese castillo
+					-dijo Margarita.
+					</p>
+					<p>
+					Los oídos que a mis estúpidas lechuzas
+					del castillo faltan, sobran a esta perla fina, que me viene de
+					perlas para comprometerme, pensó Leopoldo.
+					</p>
+					<p>
+					-Hija de mi vida, eso no puede ser,
+					contestó la madre a su hija.
+					</p>
+					<p>
+					-Lléveme Vd., Ardaz -rogó la niña.
+					</p>
+					<p>
+					-No, hija mía, me guardaré de hacerlo.
+					Ese castillo es el de 
+					<emph>
+					No volverás
+					</emph>
+					. El que entra en él ¡ay! mal que
+					me pese, no vuelve a salir. Además, hay un fiero dragón llamado D.
+					José, que se traga a cuantas perlas se le presentan, inclusa a la
+					de las Antillas, esto es, la isla de Cuba, si se le pusiera por
+					delante.
+					</p>
+					 <p>
+					-Ese dragón será 
+					<emph>
+					yankée
+					</emph>
+					, -dijo riendo la Condesa.
+					</p>
+					<p>
+					-Lo que puedo decir a Vds. sin mentir,
+					es que es feróstico, y tan gigante que tiene un hombro en Flandes y
+					otro en Aragón. Si no fuera por eso, con mil amores te llevaría,
+					Margarita (donde no te diera el sol en seis meses, añadió
+					mentalmente Leopoldo).
+					</p>
+					<p>
+					La Condesa insistió en que Leopoldo se
+					fuese, y éste, que ya estaba aburrido, se volvió poco después a su
+					pacífica guarida.
+					</p>
+					<p>
+					Merced a la costumbre popular que
+					existe, tanto en el campo como en las ciudades, entre los
+					españoles, de dormir poco, sobre todo en verano, estaban todavía
+					levantados sus huéspedes cuando llegó Leopoldo: D. José, para
+					abrirle la puerta del castillo: Doña Liberata, por si quería cenar
+					o se le ofrecía algo; y Doña Escolástica para acompañar a los
+					otros. Los tres demostraron la mayor alegría de verle, y le dieron
+					mil parabienes por su feliz regreso.
+					</p>
+					<p>
+					-¡Qué majaderías! -dijo Leopoldo, que
+					venía de mal talante-: ¡no están Vds. poco cansados y machacones en
+					gracia de Dios! ¡No parece sino que, como Noé, he escapado de algún
+					diluvio universal! ¡Podríase creer, al ver ese cuidado con que
+					están Vds. por mí, que pesa sobre mi cabeza alguna carga de graves
+					delitos! Si Vds. me siguen moliendo con sus advertencias y
+					apremiando con sus consejos, tan fijo como dos y tres son cinco,
+					que me presento a D. Juan de Soto o al General Córdoba, y arda
+					Troya.
+					</p>
+					<p>
+					Al oír esto, D. José, su mujer y su
+					hermana, en fila y sin chistar, como mansos corderos, tomaron el
+					camino de la puerta.
+					</p>
+					<p>
+					-No tengo sueño, -añadió Leopoldo-
+					estoy aburrido, dado al demonio: ¿no tienen Vds. algún libro que
+					leer, aunque sea el Bertoldo?
+					</p>
+					<p>
+					Salieron todos apresurados para
+					complacer a su huésped y la primera que volvió muy ufana y
+					contenta, fue Doña Liberata.
+					</p>
+					<p>
+					-Aquí tiene Vd., -dijo presentando a
+					su huésped unos libritos en rústica muy usados- este es la vida de
+					la Virgen; nunca la leo sin llorar y morir de gozo; estas lo son de
+					Santos, y verá Vd. los milagros que ha obrado Dios por su
+					mediación, no que ese Martín Lutero no sanó ni un dolor de
+					muelas
+					</p>
+					<p>
+					Seguía sus pasos D. José, llevando en
+					sus manos un librote panzudo en una encuadernación negra muy
+					deteriorada.
+					</p>
+					<p>
+					-Bajo una mala capa hay un buen
+					bebedor- dijo, al presentársela con íntima satisfacción a Leopoldo
+					y abriendo el libro en el sitio donde había por señal una cuartilla
+					de papel con palotes, provechos de su ex-escuela, se puso a leer
+					con su gruesa y pastosa voz este trozo:
+					</p>
+						<quote>
+							<l>En este tiempo Francia corrompida,</l>
+							<l>la católica ley adulterando,</l>
+							<l>negará la obediencia al Rey debida,</l>
+							<l>las sacrílegas armas levantando;</l>
+							<l>y con el cebo de la suelta vida</l>
+							<l>cobrará la maldad fuerza, juntando</l>
+							<l>de gente infiel ejército formado</l>
+							<l>contra la Iglesia y propio Rey jurado.</l>
+						</quote>
+					<p>
+					-No se canse Vd. más en leer esos
+					malos versos, que serán de algún maestro de escuela bolonio, como
+					Vd., o de algún fraile panzón y pendolista -dijo Leopoldo.
+					</p>
+					<p>
+					-¡Qué está Vd. diciendo, mocito!
+					-exclamó Don José, y señalando con el dedo la portada añadió-:son
+					de un militar como Vd., pero que tenía más seso, y por eso se ha
+					granjeado fama y renombre.
+					</p>
+					<p>
+					Leopoldo leyó en la portada.
+					</p>
+						<quote>
+							 <p>
+							  «La Araucana de Ercilla»
+							 </p>
+						</quote>
+					  <p>
+					-Déjeme Vd. de vejestorios, -dijo
+					rabioso a Don José- que bastante tengo con Vd., su mujer y su
+					hermana.
+					</p>
+					<p>
+					-Pues mire Vd. que tras que le trae
+					uno buenos libros!... -murmuró D. José, encaminándose arrastrando
+					los pies hacia la puerta.
+					</p>
+					<p>
+					-Tome Vd. -añadió Leopoldo, corriendo
+					a Doña Liberata, y entregándole sus tan queridas vidas de Santos-:
+					tome Vd.,... para hacer cartuchos.
+					</p>
+					<p>
+					-¡Ay qué irreverencia! -exclamó con
+					dolor la buena y religiosa mujer.
+					</p>
+					<p>
+					-No es irreverencia, señora, es
+					despreocupación, -repuso Leopoldo.
+					</p>
+					<p>
+					-Mire Vd. mocito, -le dijo D. José-
+					que de la que usted llama despreocupación, a la herejía y al
+					apostatado hay camino, pero tenga presente que es pendiente y se
+					anda muy pronto.
+					</p>
+					<p>
+					Diciendo esto salió D. José seguido de
+					su hermana.
+					</p>
+					<p>
+					-¡Y que no entre la pesadez en la
+					nomenclatura de las plagas del mundo! -exclamó al verlos salir
+					Leopoldo.
+					</p>
+					<p>
+					No sabiendo que hacerse, se sentó en
+					su mesa y se puso a escribir a su amigo Ramón Ortiz.
+					</p>
+					<p>
+					Carta a Ramón Ortiz
+					</p>
+					<p>
+					«¡Dónde discurres que se halla tu
+					íntimo? Se halla hecho víctima del despotismo y de la tiranía en el
+					Puerto de Santa María, que bien puede serlo de todos los diablos;
+					escondido en un castillote el más desencantado del mundo, en un
+					castillo de Chuchurumbel en el que tontos son cuantos habitan en
+					él.
+					</p>
+					<p>
+					»¿Te figuras a tu amigo el liberal, el
+					ilustrado, el adorador de lo moderno y sede de la elegancia,
+					encerrado en un cotarro vulgar, santurrón, servilón; con un
+					capellán sin más luces que las de un cirio pascual, con un
+					sacristán que tiene un apagador en la mano, otro sobre su
+					intelecto, y los ojos apagados; con dos viejas beatas, más feas que
+					Barrabás, que quieren a la fuerza que rece el rosario con ellas,
+					como un santurrón, y haga una promesa a San Cayetano, de su
+					devoción; y por último con un maestro santo de escuela, que es en
+					lo físico y en lo moral un borrico en pie, sin que le falten las
+					descomunales orejas propias de la especie? Me tiene este
+					rinoceronte con sus subversivos axiomas monárquicos y teológicos
+					tan frita la sangre, que se me van y vienen unos ímpetus feroces de
+					ahogarle entre mis manos. ¡Sí, sí! llegará el caso en que no pueda
+					contener mi ira, y el día menos pensado se quedarán estáticos los
+					coquineros <ref target="#SPA2008N04">[4]</ref>, y estupefactos los vandeanos de segunda edición, al ver en
+					una de las torres litografiado a un maestre de escuela
+					</p>
+					<p>
+					»Por fortuna tenía yo aquí a un
+					Padrino que no te nombro, pues voy viendo que en los tiempos
+					retrógrados que corren, la prudencia se hace necesaria; y mientras
+					sea necesaria la prudencia, que es un freno, que es una hipocresía,
+					que es una contemplación del parecer ajeno, nada hemos adelantado
+					en la luminosa senda de la libertad y de la independencia. Este
+					padrino me ha prometido sacarme pronto de este centro de oscuridad,
+					de este pantano de turbias, mansas y estancadas aguas, de esta
+					jaula vetusta y ruinosa de lechuzas y pájaros bobos. Mi primer
+					vuelo será el de las golondrinas, esto es, surcaré los mares para
+					reunirme, a los míos, a ustedes, queridos, para morir o cantar,
+					según las circunstancias.
+					</p>
+					<p>
+					»Esta noche cansado de mi odiosa
+					prisión y de mis insoportables carceleros, que a los demás tomentos
+					que me causan, añaden, sin mi licencia, el de quererme muchísimo,
+					salí a dar una vuelta, y me encontré en el paseo a la... ya iba a
+					poner su nombre sin acordarme de mi reciente alianza con la señora
+					Prudencia, persona cuyo trato estirado me es antipático. La... me
+					ha dicho que estás en Cádiz, y me ha ofrecido encargarse de esta
+					carta, y cuidar de que llegue a tus manos.
+					</p>
+					<p>
+					»Con ella estaba su insoportable
+					apéndice, la niña Margarita, ese inoportuno 
+					<emph>
+					Métome en todo
+					</emph>
+					, que con sus ojos de lince me
+					reconoció a un cuarto de legua y con su voz de silbato se puso a
+					llamarme, comprometiendo mi incógnito, para participarme que los
+					franceses la apellidaban 
+					<emph>
+					perla
+					</emph>
+					, por llamarse Margarita. Las hijas de
+					la primera pecadora del mundo no han degenerado nunca, sacan la
+					vanidad y la presunción del seno de sus madres. ¡Qué crianza da su
+					lladre a esa niña! Asombra. ¡Qué niña! ¡Qué niña! ¡Quién pudiera
+					disolver esta perla en vinagre, como lo hizo la hermosa Cleopatra
+					con otra!»
+					</p>
+    
+
+			</div>
+			<div type="chapter" n="SPA2008006">
+				<head>Capítulo VI. El<foreign xml:lang="LAT">quid pro quo</foreign></head>
+					<quote>
+						<p>
+						La buena fe es el primer distintivo del hombre honrado, y el
+						espontáneo brote de un corazón sano.
+						</p>
+						<p>
+						Máxima
+						</p>
+					</quote>
+					<quote>
+					   <l>El alma buena, llena de pureza,</l>
+					   <l>juzga por bien lo que es indiferente,</l>
+					   <l>y en el mal halla achaques de flaqueza.</l>
+					   <l>Aquí tiene principio, de aquí nace</l>
+					   <l>aquella santa celestial simpleza,</l>
+					   <l>que a Dios tanto enamora y tanto place.</l>
+					   <p>Diego Murillo</p>
+					</quote>
+					<p>
+					A la mañana siguiente y temprano,
+					recibió Leopoldo un billete sin firma, que le entregó un Marinero.
+					Leopoldo reconoció la letra, que era la de Valverde. Contenía estas
+					palabras:
+					</p>
+					<p>
+					«Leopoldo: eres incorregible, y has
+					nacido para desesperar a tus amigos. Has tenido el atrevimiento de
+					presentarte en un paseo público, de saludar y estar largo rato
+					hablando con una señora muy conocida: su niña lo ha dicho, y ha
+					descubierto tu paradero: esta mañana vas a ser preso. Para
+					evitarlo, vistete el traje de marinero que te lleva el dador, que
+					es hombre de toda mi confianza, y síguele. Él cuidará igualmente de
+					poner en salvo tu equipaje.»
+					</p>
+					<p>
+					Apenas concluyó Leopoldo de leer la
+					esquela, cuando se puso a liar su equipaje, vistió el traje que le
+					llevaban, escribió una esquela a D. José, que con su familia estaba
+					en misa, en que le avisaba su marcha, se despedía y le rogaba
+					comprase a su mujer y hermana una memoria, con diez onzas que
+					quedaban con la carta; en seguida añadió estos reglones a la carta
+					de Ramón Ortiz.
+					</p>
+					<p>
+					«Estoy descubierto, y es preciso huir.
+					La niña Margarita, esa cotorrita habanera, esa sabonetilla de
+					repetición, me ha vendido. No tengo tiempo para más. Ya te
+					participaré los futuros destinos de tu amigo, el más perseguido y
+					el más errante.»
+					</p>
+					<p>
+					En seguida cerró ambas cartas, y con
+					su acostumbrado atolondramiento, equivocó las direcciones, poniendo
+					a la de D. José el sobre a Ramón Ortiz, y dirigiendo la que había
+					escrito a Ramón Ortiz a Don José. Puso esta con las diez onzas
+					sobre la mesa de la sala, hecho lo cual siguió a su guía.
+					</p>
+					<p>
+					Media hora después volvían de misa los
+					habitantes del partido.
+					</p>
+					<p>
+					-¿Y D. Leopoldo? -preguntó D. José,
+					que fue el último que llegó.
+					</p>
+					<p>
+					-No se habrá levantado -contestó su
+					mujer.
+					</p>
+					<p>
+					-Si no se hubiese acostado tan
+					tarde... -gruñó Don José.
+					</p>
+					<p>
+					-¡Pobrecito! déjale que duerma; que
+					dormir mucho es propio de la poca edad -dijo Doña Escolástica.
+					</p>
+					<p>
+					-Si, si, que duerma, -opinó Doña
+					Liberata- mientras duerme no se fastidia, ni se impacienta, ni
+					peca.
+					</p>
+					<p>
+					-¡Pobrecito, pobrecito!... Están Vds.
+					con el señorito que han de acabar por tocar rosarios en él.
+					</p>
+					<p>
+					-¡Pobrecito! Pobre es el diablo que no
+					ha de ver a Dios... Bien que con el camino que lleva, puede que a
+					él le suceda lo propio, regruñó D. José.
+					</p>
+					<p>
+					-¡Pepe! No te conozco, observó su
+					hermana; esos son malos juicios; D. Leopoldo es un bendito, y sus
+					cosas no son más que chamarasca.
+					</p>
+					<p>
+					-En nada lleva mala intención, -añadió
+					su mujer- ni tiene hiel; y nos quiere bien.
+					</p>
+					<p>
+					Don José se había acercado a la mesa,
+					y vio entonces la carta que sobre ella había colocado Leopoldo.
+					</p>
+					<p>
+					Una carta para D. José era cosa
+					demasiado extraordinaria. ¿Quién podrá escribirme? pensó, sacando
+					de su estuche de zapa negra sus espejuelos.
+					</p>
+					<p>
+					En este momento Doña Liberata, que
+					había ido al cuarto del huésped, entró con sus pasitos cortos
+					apresurados, diciendo azorada.
+					</p>
+					<p>
+					-¡Pepe!... ¡Escolástica!... no está en
+					su cuarto; no está en su cama... no está en parte alguna!
+					</p>
+					<p>
+					-¡Ay! ¡Qué habrá sido de él! -exclamó
+					Doña Escolástica cruzando las manos.
+					</p>
+					<p>
+					-¡Toma!, se habrá largado con viento
+					fresco -dijo Don José, sin decir ni chuz ni muz, y sin pedir
+					parecer a nadie; de la misma manera que entró.
+					</p>
+					<p>
+					-¿Si será del pobrecito esa carta?
+					Pepe, hermano, leela.
+					</p>
+					<p>
+					Mientras D. José se ponía sus grandes
+					espejuelos, murmuraban su mujer y su hermana: -¡San Rafael vaya con
+					él! ¡San Cayetano lo proteja!
+					</p>
+					<p>
+					Don José abrió la carta y se puso a
+					leer:
+					</p>
+					<p>
+					«
+					<emph>
+					¿Dónde discurres que se halla tu íntimo?
+					</emph>
+					»
+					</p>
+					<p>
+					-¿Mi íntimo? -dijo D. José- ¿Donde
+					está esa intimidad? ¡Y me dice de tu! ¡Eso no está bien con un
+					hombre de mis años!
+					</p>
+					<p>
+					-Eso es franqueza -dijo su mujer.
+					</p>
+					<p>
+					-¡Patrañas! -contestó el lector, que
+					prosiguió:
+					</p>
+					<p>
+					«
+					<emph>
+					Se halla hecho una víctima del despotismo y de la
+					tiranía.
+					</emph>
+					»
+					</p>
+					<p>
+					-¡Las paparruchas de siempre! -gruñó
+					D. José.
+					</p>
+					<p>
+					«
+					<emph>
+					De... de... de la tírania en el Puerto de Santa
+					María... que bien puede serlo de todos los diablos.
+					</emph>
+					</p>
+					<p>
+					-¡Buen principio de semana! -observó
+					el lector.
+					</p>
+					<p>
+					«
+					<emph>
+					Los diablos... escondido en un castillote el más
+					desencantado del mundo.
+					</emph>
+					»
+					</p>
+					<p>
+					-¡Ya! -dijo Doña Liberata-, desde la
+					bula de la Santa Cruzada...
+					</p>
+					<p>
+					Don José prosiguió sin detenerse:
+					</p>
+					<p>
+					«
+					<emph>
+					En el castillo de Chuchurunbel, en el qne son
+					tontos cuantos habitan en él.
+					</emph>
+					»
+					</p>
+					<p>
+					Don José paró su lectura, miró a su
+					mujer, y después a su hermana, que bajaron los ojos, y
+					continuó:
+					</p>
+					<p>
+					«
+					<emph>
+					¡Te figuras a tu amigo el liberal, el ilustrado,
+					el adorador de lo moderno y sede de la elegancia, encerrado en un
+					cotarro vulgar, santurrón, servilón, con un capellán sin más luces
+					que la de un cirio pascual!
+					</emph>
+					»
+					</p>
+					<p>
+					-¡Jesús, Jesús! ¡Vaya por Dios, vaya
+					por Dios! -exclamaron a una voz Doña Escolástica y Doña
+					Liberata.
+					</p>
+					<p>
+					Don José después de escombrarse
+					estrepitosamente y con coraje, prosiguió:
+					</p>
+					<p>
+					«
+					<emph>
+					Con un sacristán que tiene un apagador en la mano,
+					otro sobre su intelecto, y los ojos apagados; con dos viejas
+					beatas, más feas que Barrabás...
+					</emph>
+					»
+					</p>
+					<p>
+					-¿Lo oyes Liberata?
+					</p>
+					<p>
+					-¿El qué? -preguntó esta que no había
+					oído bien, a causa de que la recia y corajuda voz de D. José al
+					leer los cumplidos dirigidos a su mujer y a su herrnana, se había
+					apagado.
+					</p>
+					<p>
+					-Que somos más feas que Barrabás -le
+					gritó muy formal, pero sin incomodidad, su cuñada.
+					</p>
+					<p>
+					-¡Vaya, eso es ponderación! -opinó
+					Doña Liberata.
+					</p>
+					<p>
+					-¡El 
+					<emph>
+					pobrecito
+					</emph>
+					... el 
+					<emph>
+					bendito
+					</emph>
+					!... ¡Cascabeles con el mocito! -dijo
+					D. José que volvió a leer:
+					</p>
+					<p>
+					«
+					<emph>
+					Más feas que Barrabás; que quieren a la fuerza que
+					rece el rosario con ellas como un santurrón y haga una promesa a
+					San Cayetano, santo de su devoción; y por último, con un maestro de
+					escuela...
+					</emph>
+					»
+					</p>
+					<p>
+					-Por lo visto, -observó el lector- en
+					el modo de pensar de este mocito sólo oran los 
+					<emph>
+					santurrones
+					</emph>
+					. Pero vamos a ver, -prosiguió,
+					estirando bien la carta, y acercándose a la ventana- ahora la
+					emprende el 
+					<emph>
+					angelito
+					</emph>
+					sin hiel conmigo, y ahora viene el
+					trueno gordo:
+					</p>
+					<p>
+					«
+					<emph>
+					Un... un... un... maestro de escuela, que en lo
+					físico y en lo moral parece un borrico en pie, sin que le falten
+					las descomunales orejas propias de su especie.
+					</emph>
+					»
+					</p>
+					<p>
+					-¿Que t-a-l, tal? -dijo el lector,
+					cuyas mencionadas orejas se habían puesto del color de la grana, y
+					cuyo labio inferior estaba más caído y saliente que nunca- ¿Qué
+					tal? ¿Qué decís ahora del 
+					<emph>
+					pobrecito
+					</emph>
+					, del 
+					<emph>
+					bendito
+					</emph>
+					? ¿Sabe insultar el nene? ¡Liberal,
+					liberal de los exaltados; que para eso se pintan solos! ¡Y dejarnos
+					esta sarta de desvergüenzas y oprobios por despedida, al largarse a
+					la francesa! ¿Puede esto concebirse entre gentes blancas?
+					</p>
+					<p>
+					-Eso no está bien -dijo Doña
+					Liberata.
+					</p>
+					<p>
+					-Eso no es regular, -añadió Doña
+					Escolástica.
+					</p>
+					<p>
+					Don José continuó leyendo.
+					</p>
+					<p>
+					«
+					<emph>
+					Me tiene este rinoceronte con sus subersivos
+					axiomas monárquicos y teológicos tan frita la sangre...
+					</emph>
+					»
+					</p>
+					<p>
+					-¿Rinoceronte? Oye Pepe, ¿y eso qué
+					quiere decir? -preguntó su mujer.
+					</p>
+					<p>
+					-Quiere decir -contestó con despecho
+					el interrogado-, un animal, un animal disforme, primo, paisano y
+					compadre del elefante.
+					</p>
+					<p>
+					-¡Qué cabeza de chorlito! -dijo Doña
+					Liberata.
+					</p>
+					<p>
+					-¡Qué cabeza de novillo de cuatro
+					años! -rectificó D. José furioso-, que con cada embestida tumba
+					patas arriba al que entrecoje!
+					</p>
+					<p>
+					-Vamos, sigue, Pepe; veremos en qué
+					viene a parar -pidió su mujer.
+					</p>
+					<p>
+					-¡Sigue!... -repuso éste- Como que es
+					muy divertida la lectura y da un buen rato a cualquiera.
+					</p>
+					<p>
+					Don José volvió a ponerse, con un
+					gesto violento, la carta ante la vista, y prosiguió:
+					</p>
+					<p>
+					«
+					<emph>
+					Rinoceronte,... la sangre, que se me van y vienen
+					unos impulsos feroces de ahogarle entre mis manos...
+					</emph>
+					»
+					</p>
+					<p>
+					Al llegar a este párrafo, la carta
+					cayó de las manos de D. José, que palideció.
+					</p>
+					<p>
+					-¡Intenciones de asesino! ¡Ánimas
+					benditas!... ¡Quién hubiera pensado que tales pensamientos
+					abrigara, al verle tan gentil y tan galán! -exclamó Doña
+					Escolástica.
+					</p>
+					<p>
+					-¡Gentil!... ya lo dijiste -repuso D.
+					José-. ¡Un mal cristiano sin fe ni ley; un hombre a quien nada
+					habíamos hecho sino bienes, que siente conatos de matar a uno, sólo
+					porque oye de sus labios la palabra de Dios! Esto es una iniquidad,
+					una ingratitud poco vista.
+					</p>
+					<p>
+					-No nos pese el poco bien que le hemos
+					hecho, Pepe -dijo Doña Liberata-. El bien agradecido es pagado por
+					el que lo recibe, el bien no agradecido lo paga Dios; pues nada de
+					lo que hagan los hombres, de bueno ni de malo, ha de quedar sin
+					compensación.
+					</p>
+					<p>
+					-Si volviese, haríamos por él lo que
+					pudiésemos, ¿no es verdad, José? -añadió Doña Escolástica.
+					</p>
+					<p>
+					-Menos meterle en casa, -repuso su
+					marido- que de los escarmentados nacen los avisados. Así me harán
+					Vds. el favor, aunque se ahoguen de calor, de tener de noche la
+					ventana de la cocina cerrada, no vuelva a entrarse ese mal alma la
+					noche menos pensada; que ya sabe el camino.
+					</p>
+					<p>
+					-Pero ¿qué es lo que hay en este
+					papel? -preguntó Doña Liberata, que se había acercado a la mesa, y
+					que, abriéndolo, vio aparecer a sus ojos las diez onzas que debían
+					acompañar la carta escrita a D. José y que había tomado el camino
+					de Cádiz.
+					</p>
+					<p>-¡Qué les parecen a Vds. los sesos a
+					la gineta del mozo! -dijo D. José- ¡Se deja olvidado su dinero!
+					¡Vamos!... ¡si ese hombre no tiene atadero!
+					</p>
+					<p>
+					-¡Dios mío! ¡y falta que le va a hacer
+					al infeliz! -exclamó Doña Liberata.
+					</p>
+					<p>
+					-¿Pepe, no se le podría enviar?
+					-preguntó su mujer.
+					</p>
+					<p>
+					-¿Y a dónde se le dirije, mujer de
+					Dios? -contestó impaciente su marido- Nada, guardadlo; que cuidado
+					tendrá él de reclamarlo.
+					</p>
+					<p>
+					-¿Y si no lo reclama?
+					</p>
+					<p>
+					-En pasando estos barullos se indagará
+					dónde para, y se le enviará.
+					</p>
+					<p>
+					-Pepe, ¿y si nos morimos? -dijo su
+					hermana.
+					</p>
+					<p>
+					-Mujer, casualidad sería que de aquí a
+					que las cosas se serenen muriésemos los tres. Pero por si acaso,
+					dame el papel y el tintero.
+					</p>
+					<p>
+					Don José escribió en una cuartilla de
+					papel estas palabras: «Estas diez onzas de oro pertenecen a Don
+					Leopoldo Ardaz, teniente que era en el año de 1823 del Regimiento
+					de Reales, al que deberán ser entregadas.» Dobló el papel, lo lió
+					con las diez onzas en un pliego con todo primor, le puso tres
+					obleas cuadradas, y escribió encima la palabra depósito. Diolo a su
+					mujer para que lo guardase en el arca de cedro, en que se guardaban
+					con reverencia las alhajas de la casa (incluso el consabido frac
+					negro de D. José, y sus títulos y licencias para abrir escuela), y
+					se preparaba a seguir la lectura de la carta, cuando se oyó un
+					tropel por la escalera, y asomándose los tres a la pequeña
+					antesala, vieron con asombro presentarse en la Plaza de Armas a un
+					Coronel francés, que hacía de mayor de plaza, con algunos soldados
+					y un intérprete.
+					</p>
+					<p>
+					El Coronel mandó poner un centinela a
+					la subida de la escalera y dijo en voz recia:
+					</p>
+					<p>
+					-Monsieur Josef Mentor, maitre
+					d'école.
+					</p>
+					<p>
+					Omitiremos pintar, -porque el lector
+					lo habrá comprendido ya-, el susto y alarma que se apoderó de
+					aquellas buenas gentes, que habían pasado su tranquila vida en
+					aquel castillo, verdadero paréntesis de piedra en la activa ciudad,
+					tan olvidado, tan petrificado, tan extraño y tan inaccesible al
+					bullir de mundo y al ruido de los acontecimientos, como lo está una
+					roca en medio del mar al movimiento y estrépito de las olas que no
+					la mueven ni impregnan.
+					</p>
+					<p>
+					-¿No os dije siempre que ese
+					desatinado nos había de atraer algún pesar? -exclamó consternado
+					Don José- ¡Esto es salir de Herodes, y entrar en Pilatos! ¡Cúmplase
+					la voluntad de Dios! Servidor de Usía, añadió presentándose ante el
+					Coronel y haciendo la cortesía más desgarbada que han visto ojos
+					humanos.
+					</p>
+					<p>
+					-Usted tiene aquí escondido a un preso
+					fugado -dijo el Coronel.
+					</p>
+					<p>
+					Don José contestó: señor, aquí vino un
+					sujeto que yo no conocía, y que por más señas se entró de noche por
+					la ventana, y sin pedir mi venia. Buscaba amparo, y se lo dí; que
+					no creo yo, que amparar al desvalido está prohibido, ni por las
+					leyes divinas ni por las humanas. Así, pues, aquí ha estado, en mi
+					casa; pero ya no está.
+					</p>
+					<p>
+					El Coronel mandó registrar el
+					castillo, y no se encontró a nadie.
+					</p>
+					<p>
+					-Usted le ha hecho fugar -dijo el
+					Coronel-. Así pues, es Vd. cómplice.
+					</p>
+					<p>
+					-¿Cómplice? ¿De qué? -preguntó D.
+					José.
+					</p>
+					<p>
+					-Usted le ayudaba en su intento; era
+					un espía.
+					</p>
+					<p>
+					-Qué, señor, no puede ser; ni escribía
+					ni veía a nadie.
+					</p>
+					<p>
+					-Pues él debía tener precisamente
+					informes, y algún amigo que le ha avisado de haber sido reconocido
+					anoche, y que le ha proporcionado los medios de fugarse.
+					</p>
+					<p>
+					-Eso no sé yo.
+					</p>
+					<p>
+					-Pero de cierto sabrá Vd. quien es ese
+					amigo.
+					</p>
+					<p>
+					Don José calló un instante, en el que
+					el miedo y su honrada veracidad sostuvieron un recio combate, y
+					después contestó:
+					</p>
+					<p>
+					-Le conozco, pero aseguro, a fuer de
+					hombre de bien, que sólo de vista.
+					</p>
+					<p>
+					-¿Y quién es? -preguntó el
+					Coronel.
+					</p>
+					<p>
+					Don José pasó su dedo alrededor de su
+					cuello, y respondió con decisión:
+					</p>
+					<p>
+					-Eso no lo digo; ¡aunque pierda
+					esta!
+					</p>
+					<p>
+					Su mujer y su hermana se precipitaron
+					hacia él acongojadas, como si viesen ya en peligro aquella cabeza
+					tan querida.
+					</p>
+					<p>
+					-
+					<foreign xml:lang="FRA">
+					Oh! le sot!
+					</foreign>
+					-exclamó el Coronel.
+					</p>
+					<p>
+					-¿Qué dice? -preguntó su hermana.
+					</p>
+					<p>
+					-Me dice sóo, porque creerá que quiero
+					huir -contestó su hermano-. No, señor -añadió con creciente
+					entereza-; no trato de huir: no puedo ya correr, ni quiero. Aquí
+					estoy: Usía es el cuchillo y yo la carne; haga Usía lo que quiera
+					de este infeliz, que en los años que tiene, no ha tenido un sí ni
+					un no con la justicia. Pero que por mi dicho se lo siga perjuicio a
+					nadie; que José Mentor sea un delator... ¡eso no! aunque me lo
+					mandase el mismo Rey, que Dios guarde.
+					</p>
+					<p>
+					-Pues irá Vd. a la cárcel -dijo para
+					intimidarle el Coronel.
+					</p>
+					<p>
+					-Iré -gritó en un arranque de
+					desesperado valor Don José, señalando con el brazo heroicamente la
+					escalera.
+					</p>
+					<p>
+					Su mujer y su hermana se abrazaron a
+					él llorando amargamente.
+					</p>
+					<p>
+					-¿Le ha confiado a Vd. el fugitivo
+					algunos papeles? -preguntó el Coronel.
+					</p>
+					<p>
+					-Ninguno.
+					</p>
+					<p>
+					-Que registren al señor -mandó el
+					jefe.
+					</p>
+					<p>
+					Esta orden fue ejecutada al punto, y
+					la carta de Leopoldo fue hallada en el bolsillo en que la había
+					metido su dueño.
+					</p>
+					<p>
+					-¿Lo ve Vd? -dijo el Coronel, esta
+					carta es para usted- y debe ser de su preso.
+					</p>
+					<p>
+					-Verdad es -contestó D. José.
+					</p>
+					<p>
+					-Así, pues, Vd. me engañaba.
+					</p>
+					<p>
+					-¡Yo engañar! -exclamó ofendido D.
+					José-. ¡No, señor, yo no engaño nunca. Esta carta es mía, escrita a
+					mí, y no es ningún papel que pertenezca al que se busca, ni menos
+					es un depósito. ¿Usía me comprende?
+					</p>
+					<p>
+					Apenas empezó el Coronel a leer la
+					carta, cuando a pesar del carácter de Juez de que venía revestido,
+					empezó a reírse tan irresistiblemente, que aquella escena de
+					tribunal acabó en escena de sainete.
+					</p>
+					<p>
+					En esta carta aparecía la no
+					complicidad de Don José tan patente, pintaba tan a las claras la
+					situación, que el Coronel, al devolvérsela, le pidió excusas, le
+					hizo un ligero saludo, y se retiró.
+					</p>
+					<p>
+					Apenas se hubo ido, cuando D. José,
+					cogiendo, con una de sus manos el brazo de su mujer, y con la otra
+					el de su hermana, se las llevó, arrastrándolas precipitadamente a
+					la sala.
+					</p>
+					<p>
+					-¿No han caído Vds.?... -les preguntó
+					con toda la alegre animación de que era capaz su tranquila
+					naturaleza.
+					</p>
+					<p>
+					Su mujer y su hermana le miraron
+					atónitas, diciendo:
+					</p>
+					<p>
+					-No. ¿Qué hay?
+					</p>
+					<p>
+					-Hay -contestó entusiasmado D. José-,
+					hay que ese D. Leopoldo es un hombre bueno si los hay; prevenido, a
+					pesar de sus pocos años; un hombre honrado, un amigo leal, y con
+					muchísimo criterio, con un corazón bueno y noble -añadió
+					enternecido, dándose una palmada en el pecho-. Esta carta, esta
+					carta! -repitió, dando sobre el papel golpes con el reverso de su
+					mano-; esta carta, que creíamos un insulto, esta carta nos ha
+					salvado. Y, previendo lo que iba a suceder, la escribió solo con
+					este fin. ¿No lo estáis viendo claro como la luz del día?
+					</p>
+					<p>
+					-¡Verdad es! ¡Verdad es! -exclamaron
+					gozosas y asombradas las cuñadas.
+					</p>
+					<p>
+					-¡Mira si discurrió el pobrecito!
+					-añadió Doña Liberata- ¿No decía yo que nos quería bien?
+					</p>
+					<p>
+					-Si tenía muy buenas entrañas, hijo
+					mío, y las luces muy espabiladas!... -dijo Doña Escolástica.
+					</p>
+					<p>
+					-Cuidado, -previno D. José- que aunque
+					tengáis frío, dejéis todas las noches la ventana de la cocina
+					abierta.
+					</p>
+					<p>
+					-Y una mariposa para que se distinga
+					bien en la oscuridad -añadió su mujer.
+					</p>
+					<p>
+					-El Faro de San Sebastián
+					<ref target="#SPA2008N05">[5]</ref>
+					-dijo con una especie de asomo de bosquejo de sonrisa el
+					grave Don José.
+					</p>
+					<p>
+					-No -observó su hermana-, el de San
+					Cayetano abogado de la Providencia!
+					</p>
+			</div>
+			<div type="chapter" n="SPA2008007">
+				<head>Capítulo VII. El eco</head>
+					<quote>
+						<p>
+						Eco, Hija del Aire y de la Tierra, amó a Narciso; mas viéndose
+						desdeñada por ese amante de sí mismo, se retiró a las cuevas, los
+						montes y los bosques, en los que la consumió su dolor, no quedando
+						de ella sino la voz.
+						</p>
+						<p>Mitología</p>
+					</quote>
+					<p>
+					Merced a su disfraz, había llegado
+					Leopoldo a Cádiz embarcado en el falucho que llevaba las frutas y
+					legumbres al Rey, en vista de que la casualidad suele mimar a los
+					que en ella confían, así como la prudencia suele desamparar
+					cabalmente a sus más fervientes subordinados.
+					</p>
+					<p>
+					Una vez en Cádiz, Leopoldo se halló en
+					su centro, rodeado de amigos y camaradas, y en sus glorias por
+					haber salido del espantoso centro del servilismo, proponiéndose
+					persuadir al Duque que lo demoliese, lo que contribuiría a
+					modernizar el Puerto. Pero el día menos pensado, exclamó:-Pues para
+					tan poco tiempo no fuera Príncipe yo!- cuando se halló al Rey en su
+					Trono absoluto, y a sí mismo 
+					<emph>
+					indefinido
+					</emph>
+					. Leopoldo hizo varias
+					exclamaciones corajudas, ensartó una docena de maldiciones contra
+					los 
+					<emph>
+					servitas
+					</emph>
+					y los esbirros de la Santa Alianza, y
+					se puso a tocar la flauta.
+					</p>
+					<p>
+					Había llegado a Cádiz la Condesa de la
+					Enramada con su inseparable Margarita. Cuando fue Leopoldo a verla,
+					miró de una manera feroz a la niña, que en cambio le dijo con su
+					nunca atajada franqueza.
+					</p>
+					<p>
+					-¡Ay, Ardaz, en todas partes está Vd.!
+					Yo pensaba que se hallaba Vd. para siempre en el castillo de 
+					<emph>
+					No volverás
+					</emph>
+					.
+					</p>
+					<p>
+					-Aquí estoy para servirte, hijita mía
+					-contestó Leopoldo-. Te lo digo porque no me importa que lo
+					repitas. ¿Sabes, señorita Eco?
+					</p>
+					<p>
+					-¿Eco? ¿Qué es Eco, Ardaz?
+					</p>
+					<p>
+					-La primera parte de una virtud muy
+					apreciable, y que yo deseara que gastases en tus palabras, perlita
+					Eco.
+					</p>
+					<p>
+					-¡Mamaíta, que Ardaz me dice señorita
+					Eco!
+					</p>
+					<p>
+					-Es un nombre muy bonito, mi corazón
+					-repuso su madre.
+					</p>
+					<p>
+					-¡Pues no quiero, no quiero, no
+					quiero! -repitió la niña alzando gradualmente la voz- Me llamo
+					Margarita, que quiere decir perla.
+					</p>
+					<p>
+					-Eco -dijo con los labios sin que se
+					oyese Ardaz-, que era poco menos niño que su interlocutora.
+					</p>
+					<p>
+					-Mamaíta -dijo esta desesperada-,
+					prohíba Vd. a Ardaz que me diga Eco: me llamo Margarita, que quiere
+					decir perla.
+					</p>
+					<p>
+					-Perlesía -enmendó entre dientes
+					Leopoldo.
+					</p>
+					<p>
+					-Hablando de eco. Ardaz, ¿ha oído Vd.
+					hablar de uno muy famoso que suena en los fosos de Puerta de
+					Tierra? -dijo la Condesa.
+					</p>
+					<p>
+					-Es la primera noticia que tengo
+					-respondió el interrogado.
+					</p>
+					<p>
+					-¿Qué es eco? -preguntó la niña
+					dirigiéndose a Ardaz, en vista de que su madre se acababa de
+					levantar para recibir a unas amigas suyas que entraron.
+					</p>
+					<p>
+					-Ese eco es -le contestó Leopoldo, una
+					ninfa muy amiga de repetir cuanto oye, a quien, para castigarla, ha
+					preso en los fosos de Puerta de Tierra Don Fulano Hércules,
+					quefundó esta ciudad. Ya lo sabes: escarmienta.
+					</p>
+					<p>
+					-¿Y qué son fosos, Ardaz?
+					</p>
+					<p>
+					-Zanjas.
+					</p>
+					<p>
+					-¿Y qué son zanjas!
+					</p>
+					<p>
+					-Hoyas.
+					</p>
+					<p>
+					-¿Para guisar?
+					</p>
+					<p>
+					-Sí, al eco; que cuando hierve, suena
+					muy bien.
+					</p>
+					<p>
+					-¿Quién? -dijo la Condesa dirigiéndose
+					de nuevo a Leopoldo. No puede oírse cosa más linda que el sonido de
+					una flauta en aquellos parajes. Ardaz. Vd. que toca tan bien ese
+					instrumento, ¿podría proporcionarnos el buen rato de oírle allí?
+					Estas amigas mías lo desean tan vivamente como yo.
+					</p>
+					<p>
+					-Con el mayor placer, Condesa
+					-contestó Leopoldo.
+					</p>
+					<p>
+					-Quedamos, pues, convenidos y
+					aplazados para mañana a las dos de la tarde -dijo alegremente la
+					condesa.
+					</p>
+					<p>
+					-Yo también quiero ir -exclamó
+					Margarita.
+					</p>
+					<p>
+					Leopoldo, que como hemos dicho, era
+					poco menos niño que ella, estuvo para decirle: si tú vas, no voy
+					yo.
+					</p>
+					<p>
+					Al día siguiente fueron todos
+					puntuales a la cita, y se pusieron en camino, subiendo a la muralla
+					por disfrutar de mejor vista y mejor piso.
+					</p>
+					<p>
+					-¿Dónde lleva Vd. la flauta? -preguntó
+					Margarita a Leopoldo.
+					</p>
+					<p>
+					-En la petaca -contestó éste.
+					</p>
+					<p>
+					-¡Ay, qué chica es! A verla.
+					</p>
+					<p>
+					-No puede ser: en la muralla están
+					prohibidas las armas.
+					</p>
+					<p>
+					-¿Pues qué, es un arma?
+					</p>
+					<p>
+					-Si... en caso de guerra sirve de
+					pistola.
+					</p>
+					<p>
+					-Eso no es verdad...
+					</p>
+					<p>
+					-Qué fina eres, 
+					<emph>
+					perla
+					</emph>
+					no oriental.
+					</p>
+					<p>
+					-¡Mamaíta, Ardaz no me quiere enseñar
+					la flauta!
+					</p>
+					<p>
+					-En los fosos la verás, vida mía -le
+					respondió su madre.
+					</p>
+					<p>
+					No habían andado diez minutos cuando
+					dijo la niña:
+					</p>
+					<p>
+					-Mamaíta, tengo sed.
+					</p>
+					<p>
+					-Hija, ¿qué te ha producido esa sed!
+					¿Te sientes indispuesta, mi corazón?
+					</p>
+					<p>
+					-No, sino que tengo mucha sed.
+					</p>
+					<p>
+					-Ardaz, allí veo a un rosquetero con
+					vasos de agua: si tuviese Vd. la bondad de llamarle.
+					</p>
+					<p>
+					-Con mucho gusto, señora.
+					</p>
+					<p>
+					Y Leopoldo echó a correr, renegando
+					enérgicamente de la niña.
+					</p>
+					<p>
+					No habían llegado a la mitad de la
+					muralla cuanda dijo la niña:
+					</p>
+					<p>
+					-¡Mamaíta, estoy cansada!
+					</p>
+					<p>
+					-¡Pobrecita mía! -repuso su madre
+					compadecida- Sentémonos un poco en este pretil para que
+					descanses.
+					</p>
+					<p>
+					El diván de los pordioseros, pensó
+					desesperado Leopoldo. ¡Dios sabe si habrán dejado en él
+					reminiscencias animadas!
+					</p>
+					<p>
+					A poco, con la inestabilidad de los
+					niños, Margarita se levantó, atravesó la muralla, y se fue al lado
+					opuesto que domina la bahía, mas siendo muy alto el parapeto, se
+					puso a gritar:
+					</p>
+					<p>
+					-Ardaz, Ardaz aúpeme Vd. que quiero
+					ver los barcos.
+					</p>
+					<p>
+					Leopoldo hizo como si no lo oyese.
+					</p>
+					<p>
+					-Ardaz, ¡cuánto agradecería a Vd.
+					-dijo la Condesa-, que alzase un instante a la niña! La pobrecita
+					mía no alcanza a ver los barcos.
+					</p>
+					<p>
+					-Con mil amores, Condesa.
+					</p>
+					<p>
+					Vamos, ¡esto es insopartable! iba
+					murmurando Leopoldo al atravesar la muralla, ¡vaya con la
+					zangoncita de la niña que es preciso levantar en peso, como si
+					tuviese dos años!
+					</p>
+					<p>
+					-Oye niña -te dijo alzándola del suelo
+					lo suficiente para que su cabeza sobresaliese del parapeto, de
+					manera que la niña apoyó en él sus manos y su barba-; oye, niña,
+					¿tú no vas a la amiga?
+					</p>
+					<p>
+					-¿Y Vd. no va al colegio? Pues yo he
+					visto en el de artillería en que está mi hermano, unos colegiales
+					más altos que Vd.
+					</p>
+					<p>
+					Un segundo después dijo Leopoldo:
+					</p>
+					<p>
+					-Ya puedes haber contado los barcos,
+					los faluchos y hasta las lanchas de la bahía, y soltando de repente
+					a la niña, que tenía apoyada su barba en la piedra tosca del
+					parapato, se la desolló al caer, y prorrumpió en los más lastimeros
+					ayes y quejidos.
+					</p>
+					<p>
+					¡Ahí fue ella!... La Condesa temblaba
+					convulsa; sus amigas estaban a cual más azoradas y compadecidas. Lo
+					que es Leopoldo, causante del mal, hacía el papel más desairado;
+					sus muestras de interés eran rechazadas por la paciente con
+					imponente rencor, a punto de coger y arrojar por encima del
+					parapeto un pañuelo de holan que Leopoldo le presentaba, para
+					estancar una mostacilla encarnada que se había asomado a la
+					rozadura.
+					</p>
+					<p>
+					Fue preciso bajar de la muralla, e ir
+					a una botica, donde se aplicó a la lánguida doliente sobre su
+					desolladura un papelito de estraza humedecido con agua y sal, y a
+					instancias de la misma, que ardía en curiosidad de oír el eco que
+					cantaba al hervir en una olla, volvieron a emprender su caminata a
+					los fosos de Puerta de Tierra.
+					</p>
+					<p>
+					Llegaron, y salvaron la puerta de la
+					ciudad, puerta fuerte, colosal, revestida de su armadura de
+					baluartes y parapetos, armada de punta en blanco, que con su puente
+					levadizo parece extender una mano amiga al que acoge, o levantarlo
+					como un puño amenazador contra el que como conquistador, quisiese
+					penetrar en el recinto que guarda, y que es el nunca profanado
+					asilo del españolismo, pues aquella puerta nunca se abrió sino a la
+					voz de ¡viva España! aquel eco nunca repitió con su dulce acento
+					sino ¡viva España!
+					</p>
+					<p>
+					Mientras nos hemos entretenido en
+					considerar la puerta, habían bajado la Condesa y los que la
+					acompañaban, a los fosos; a Margarita se le había caído el papel de
+					estraza sin sentir, aguardando con la boca abierta el ver salir una
+					flauta, de una petaca, y Leopoldo se había puesto a tocar.
+					</p>
+					<p>
+					Hallábanse todos embebidos en el
+					efecto encantador que producían los sonidos de la flauta, tan
+					distinta como suavemente repetidos por el eco, y embalsamados por
+					aquellas melodías aéreas, que se cernían entre murallas, fosos y
+					baluartes como rayos de sol que hubiesen bajado a brillar y reír en
+					un calabozo, cuando, sin haberlos notado venir, se hallaron a su
+					lado el Capitán francés que estaba de guardia en la puerta de
+					Tierra, acompañado de dos amigos, que habían sido atraídos por la
+					magia de aquellas melodías gemelas.
+					</p>
+					<p>
+					Leopoldo que, como hemos dicho siempre
+					se dejaba llevar por su primer movimiento, derecho, pronto, y sin
+					detenerse, como salen las muñecas de muelle de las cajas en que
+					están encerradas, Leopoldo, que sentía un odio tremebundo, que
+					había de durar dos meses, hacia los franceses, no bien los vio
+					cuando apartando la flauta de sus labios, la desmontó y guardó en
+					el bolsillo.
+					</p>
+					<p>
+					-¡Ay! -dijo Margarita-; Ardaz no
+					quiere tocar más porque han venido aquí esos oficiales.
+					</p>
+					<p>
+					-Espero que no será así -dijo el
+					Capitán saludando a las señoras- y como hemos bajado aquí atraídos
+					por el duo encantador que ejecuta el señor con el eco, el
+					suspenderlo sería una desatencíon que no merece nuestro deseo de
+					oírle, puesto que nada tiene que no sea lisonjero para ese
+					caballero.
+					</p>
+					<p>
+					-Llamad como gustéis a mi negativa
+					-dijo Leopoldo-;... pero no toco más.
+					</p>
+					<p>
+					-Caballero -repuso el francés-, una
+					desatención confesada, es un insulto. ¿Debo interpretarlo así?
+					</p>
+					<p>
+					-
+					<foreign xml:lang="LAT">
+					Ad libitum
+					</foreign>
+					-respondió con su usual
+					frescura Leopoldo.
+					</p>
+					<p>
+					Las señoras, a quienes la sorpresa
+					había dejado paradas hasta entonces, intervinieron, pero era tarde.
+					Sus reflexiones y sus persuasiones se estrellaron contra el 
+					<foreign xml:lang="LAT">
+					ultimatum
+					</foreign>
+					del ofendido Capitán.
+					</p>
+					<p>
+					-El señor me ha insultado, y sólo
+					tocando podrá darme la satisfacción que me debe. Si no me otorga
+					esta, pediré otra que no se niega.
+					</p>
+					<p>
+					Leopoldo por su lado respondía a los
+					agentes de la conferencia, con el más perentorio:
+					</p>
+					<p>
+					-No toco; pero me hallo muy dispuesto
+					a complacer al señor en su segunda exigencia.
+					</p>
+					<p>
+					Por más que la Condesa les hizo
+					presente que un desafío en las circunstancias de entonces tendría
+					para ambos contrincantes los más funestos resultados, y les
+					proporcionaría los más trascendentales compromisos, ninguno cedía.
+					¡Cómo habían de ceder, si creían ambos, con mucha formalidad, que
+					en aquellas insignificantes quisquillas estaba comprometido nada
+					menos que... su honor!!! Nosotros los hombres nos burlamos del sexo
+					bello; pero, confesemos internos, que a veces debemos los del sexo
+					feo parecer muy ridículos al bello, en particular cuando nos
+					metemos a confeccionar códigos, que es nuestra parte flaca.
+					</p>
+					<p>
+					Entonces las señoras acudieron a las
+					súplicas, y a las lágrimas. El francés se mantuvo inmutable como el
+					destino, impasible como una de las pirámides de Egipto, que son una
+					de las maravillas del mundo. Pero Leopoldo que, a pesar de sus
+					ligeros cascos, era un caballero, sintió haber, y sobre todo en
+					presencia de señoras, dado lugar a aquella escena tragi-ridícula.
+					Considerando esto, sacó su flauta con mucha cachaza, y dirigiéndose
+					a las señoras:
+					</p>
+					<p>
+					-Conozco que he sido un imprudente,
+					que he faltado a los miramientos debidos a señoras. Pero es de
+					cuerdos reconocer su error, y de prudentes enmendar su yerro. Voy a
+					complacer, no a los señores, sino a ustedes, a las que debo esta
+					reparación.
+					</p>
+					<p>
+					Leopoldo tocó algunos compases, guardo
+					su flauta, y se retiraron.
+					</p>
+					<p>
+					Las señoras iban tan satisfechas y tan
+					agradecidas a la prueba de consideración que les había dado
+					Leopoldo, que no sabían cómo demostrárselo y encomiar su fineza, su
+					buen trato y su prudencia. Las pobres señoras no habían notado que
+					al pasar cerca del Capitán le había Leopoldo entregado su tarjeta,
+					en señal de que volverían a verse, y que por consiguiente, estaba
+					muy lejos de merecer los justos y sensatos elogios que admitia el
+					hipócrita con una modestia admirable.
+					</p>
+					<p>
+					Había Leopoldo entregado su tarjeta,
+					porque decía de buena fe, según el 
+					<emph>
+					código de honor
+					</emph>
+					de los espadachines, que en
+					este lance estaba su 
+					<emph>
+					honor
+					</emph>
+					comprometido. ¡Hasta este punto han
+					llegado los varones con barba y sin ella, a tergiversar el sentido
+					de la palabra 
+					<emph>
+					honor
+					</emph>
+					, que genuinamente significa gloria o
+					buena reputación, que sigue a la 
+					<emph>
+					virtud
+					</emph>
+					, al 
+					<emph>
+					mérito
+					</emph>
+					y a las 
+					<emph>
+					acciones heroicas
+					</emph>
+					, haciendo como ciertos
+					salvajes, que llaman 
+					<emph>
+					dioses
+					</emph>
+					a unos ídolos que ellos mismos
+					confeccionan, a los ojos de los cuales creen hacer una obra
+					meritoria inmolando víctimas humanas, y rociando sus aras con
+					sangre! ¿Pues qué es un llamado 
+					<emph>
+					lance de honor
+					</emph>
+					, sino un asesinato
+					premeditado?
+					</p>
+					<p>
+					Así sucedió, que a la mañana siguiente
+					a las cinco, estaba Leopoldo con sus padrinos y el Capitán con los
+					suyos en Puntales, el uno frente al otro con una pistola en la
+					mano.
+					</p>
+					<p>
+					La suerte había decidido que al
+					marchar el uno sobre el otro, fuese el Capitán el que tirase
+					primero, y así sucedió. Pero Leopoldo tenía razón en confiar en su
+					buena estrella, que no lo desamparó. La bala francesa pasó rozando
+					por su hombro, y fue a herir mortalmente a una inocente retama.
+					</p>
+					<p>
+					Ambos desafiados siguieron
+					avanzando.
+					</p>
+					<p>
+					-¿Qué vas a hacer? -gritó a Leopoldo
+					su padrino Ramón Ortiz.
+					</p>
+					<p>
+					-A matarle -contestó Leopoldo con su
+					inalterable sonido de voz-; o a perdonarle la vida bajo una
+					condición.
+					</p>
+					<p>
+					Los desafiados se pararon y quedaron
+					inmóviles en su misma posición.
+					</p>
+					<p>
+					-¿Y cuál es esa condición?
+					-preguntaron los franceses.
+					</p>
+					<p>
+					-Esta condición es -contestó
+					Leopoldo-, que cante el señor una canción.
+					</p>
+					<p>
+					-¡Cantar!... ¡en estas circunstancias!
+					-exclamaron.
+					</p>
+					<p>
+					-No hay más: cantar o morir -repuso
+					Leopoldo-. El señor me forzó a tocar sin ganas; yo le obligo a mi
+					vez a cantar sin ellas. Sólo así quedamos pagados; es el finiquito
+					de nuestras cuentas. Ya veis que no abuso de mi ventaja, cuando
+					sólo pido la aplicación del talión.
+					</p>
+					<p>
+					El Capitán se negó, Leopoldo
+					insistió.
+					</p>
+					<p>
+					¡Era de ver la inmovilidad de aquellos
+					dos hombres, impávidos ambos, el uno cerca de recibir la muerte, el
+					otro próximo a darla, por una canción, por unos sonidos de flauta,
+					por una de esas fruslerías, dignas bases de los insensatos lances
+					de honor! ¡Era de ver, repetimos, esa inmovilidad, que contrastaba
+					con la activa intervención de los testigos, que iban, venían y se
+					afanaban sin resultado!
+					</p>
+					<p>
+					Mas al fin, viendo que Leopoldo estaba
+					resuelto a no ceder, conociendo que el tiro de su pistola a la
+					distancia en que se hallaban, no podía marrar, empezó a vacilar el
+					Capitán, porque el valor que no se apoya en una buena causa y que
+					no es sostenido por la conciencia, es bravata, y decae cuando no
+					logra su objeto. Se penetró por último, del argumento que uno de
+					los testigos le hizo, y fue, que si su Enrique IV había dicho que
+					bien valía París una misa, y la oyó, aunque era entonces
+					protestante podía él decir, sin rebajarse, que bien valía su vida
+					una canción. El Capitán, pues, apretó los dientes, y cantó con una
+					voz poco armoniosa este estribillo (
+					<foreign xml:lang="FRA">
+					refrain
+					</foreign>
+					) de una canción de su
+					romancero en boga, Béranger:
+					</p>
+					<quote>
+						<l><foreign xml:lang="FRA">«Reviens ma vois faible, mais douce et
+						pure:</foreign></l>
+						<l><foreign xml:lang="FRA">il est encore des beaux jours á
+						chanter.» </foreign></l>
+					</quote>
+					<p>
+					Leopoldo y sus testigos, mudos e
+					impasibles saludaron y se retiraron. El lance costó al Capitán dos,
+					sangrías y quinientas sanguijuelas (sistema Brousais).
+					</p>
+					<p>
+					Por más que se esmeraron los actores
+					de este acontecimiento en callarlo, empezó a cundir, esparcido por
+					conductos invisibles, impalpables y desconocidos, como suele
+					acontecer con todas las cosas que se quieren tener secretas; como
+					si la justicia divina anticipase premios y castigos, desvaneciendo
+					con su soplo el velo con que piensan los hombres cubrir sus
+					maldades; pues ciertamente en esta inconcebible publicidad hay algo
+					de providencial.
+					</p>
+					<p>
+					Pocos días después, estando Leopoldo
+					en casa de la Condesa de la Enramada, y hallándose la sala llena de
+					gentes, un caballero, ignorante del todo de las personas que habían
+					figurado en el lance, lo refirió desde su principio hasta su fin
+					con todos sus pormenores.
+					</p>
+					<p>
+					La condesa, que ignoraba el desenlace,
+					palideció y miró a Leopoldo, que estaba tan sereno e impasible como
+					si se estuviese refiriendo un hecho del tiempo de los moros.
+					</p>
+					<p>
+					-¿Y no se ha podido averiguar quiénes
+					han sido los actores del lance? -preguntó al narrador uno de los
+					concurrentes.
+					</p>
+					<p>
+					-Nada absolutamente. -contestó éste- Y
+					es una suerte; porque las autoridades están furiosas, y dicen que
+					es necesario un escarmiento y una enérgica represión, para evitar
+					en las delicadas circunstancias actuales que estos lances se
+					repitan.
+					</p>
+					<p>
+					-Pues yo sé quiénes son. -dijo
+					Margarita.
+					</p>
+					<p>
+					-¡Niña! -gritó en la mayor angustia su
+					madre, cogiéndola por un brazo.
+					</p>
+					<p>
+					-Sí que lo sé -gritó contrariada la
+					niña-. El que tocó la flauta fue Ardaz, y el francés que le quería
+					oír era el que estaba de guardia en la Puerta de Tierra.
+					<ref target="#SPA2008N06">[6]</ref>
+					</p>
+					<p>
+					A la madrugada siguiente, Ardaz, de
+					nuevo fugitivo por causa de la niña Margarita, se embarcaba en un
+					vapor inglés, maldiciendo a todas las niñas mal criadas, mimadas,
+					entremetidas y parlanchinas.
+					</p>
+			</div>
+			<div type="chapter" n="SPA2008008">
+				<head>Capítulo VIII. San Cayetano</head>
+					<quote>
+						<p>
+						El tránsito de la Iglesia a una secta, se hace generalmente por
+						el camino de los vicios: y el de una secta a la Iglesia, siempre
+						por el de las virtudes.
+						</p>
+						<p>
+						Fitz Williams
+						</p>
+					</quote>
+					<quote>
+						<p>
+						Una pobre mujer es la que me ha enseñado o ilustrado sobre las
+						vías de la Providencia. Ella había puesto en Dios la misma
+						confianza y esperanza que yo había puesto en los hombres; y nunca
+						he visto un ánimo más sereno en una situación más desgraciada.
+						</p>
+						<p>
+						Bernardino de Saint-Pierre
+						</p>
+					</quote>
+					<p>
+					Para volver a hallar a las personas
+					que han actuado en nuestra relación, en circunstancias que tengan
+					analogía con las anteriores, tenemos que salvar diez y ocho años,
+					los cuales, vistos de frente, parecen un siglo, y vistos de
+					espaldas, parecen un átomo. Totalmente se transforma el Tiempo, ese
+					Rey coronado de las canas que platea, ese Padre de la experiencia y
+					de la ciencia, ese campeón despacioso de la verdad, ese viejo
+					ligero con dos alas, que le sirven, según dice Julio Sandeau, la
+					una para borrar nuestras alegrías, la otra para enjugar nuestras
+					lágrimas.
+					</p>
+					<p>
+					Más, este viejo, que tantas supulturas
+					abre, había en el trascurrido espacio abierto la de uno de los que
+					hemos visto en los anteriores capítulos, ¡y era Don José! Había
+					acaecido su muerte de la manera siguiente.
+					</p>
+					<p>
+					Una noche, después de haber rezado, se
+					acostó Don José en perfecta salud, al lado de su buena compañera: a
+					la mañana siguiente llamó ésta a su cuñada Doña Liberata, acudió,
+					y...
+					</p>
+					<p>
+					-Hermana, le dijo, mira que me parece
+					que Pepe se ha muerto.
+					</p>
+					<p>
+					-¡Qué! no; no puede ser... -repuso
+					ésta acercándose a su hermano ya cadáver.-¡Pepe, Pepe! llamó; pero
+					viendo que no respondía, se puso a tentarle la frente y el pulso,
+					hecho lo cual, volviéndose a su cuñada, le dijo:
+					</p>
+					<p>
+					-Mujer, creo que tienes razón...
+					¡muerto está!
+					</p>
+					<p>
+					-Nos cogió la delantera -dijo su
+					mujer.
+					</p>
+					<p>
+					-Ayer me dijo: allí te espero, añadió
+					Doña Liberata. Pero se ha ido sin los Santos Sacramentos,
+					Escolástica.
+					</p>
+					<p>
+					-Ayer confesó y comulgó -repuso su
+					mujer-; ¿si le daría el corazón que se iba a morir?
+					</p>
+					<p>
+					-Se lo diría al oído el ángel de su
+					guarda -dijo Doña Liberata-. Vamos, hermana, a encomendar su alma a
+					Dios, que es lo que nos queda.
+					</p>
+					<p>
+					Y ambas cayeron de rodillas, y se
+					pusieron a rezar con voz tranquila y espíritu recogido y fervoroso,
+					pero sereno.
+					</p>
+					<p>
+					¡Oh, almas de Dios! sencillas, mansas,
+					tranquilas y conformes. ¡Almas mil veces bienaventuradas! ¡Qué
+					lecciones dais a las almas mundanales, inquietas, apuradas,
+					extremosas, que refinan y alambican el dolor, gastando su buena
+					savia en hojarasca!
+					</p>
+					<p>
+					Con la muerte de D. José cesaron el
+					vitalicio y los demás mezquinos recursos de la familia, y por
+					último, la pobre Doña Liberata perdió tanto la vista, que sólo
+					podía dedicarse a hacer calceta, triste y postrer recurso de las
+					pobres mujeres hacendosas. Los telares de medias deberían
+					prohibirse en caridad de Dios. La miseria, pues, habían invadido
+					aquel interior, antes tan feliz; pero no embozada sino, en
+					esqueleto, sin un girón que la cubriese, con las manos vacías y la
+					boca hambrienta, acompañada de la vejez, a la que tanto abruma,
+					pero que tanto resiste. Bien podía esta doble tremenda visión, la
+					vejez inerte y desvalida y la miseria sin lenitivo ni esperanza,
+					asombrar a cuantos se le presentasen; pero no así a aquellas
+					hermanas, a aquellas almas de Dios que no las veían, interpuesta
+					como estaba entre ellas y los ojos de estas la imagen de San
+					Cayetano, abogado de la Providencia, con sus planes de ley, símbolo
+					y atributo de almas puras.
+					</p>
+					<p>
+					Sin embargo, había dos días que no
+					comían, dos días que Doña Liberata estaba enferma y postrada en su
+					lecho. ¿Olvidábalas el Santo?
+					</p>
+					<p>
+					-Liberata -dijo Doña Escolástica-, dos
+					días hay que no has probado alimento. Voy al cuarto del Padre
+					Capellán a pedirle una taza de caldo.
+					</p>
+					<p>
+					-No, no, -repuso esta-; acaba de pagar
+					por nosotras la casa; nos dio un socorro la semana pasada; su mercé
+					no está muy sobrado; no se debe abusar.
+					</p>
+					<p>
+					-Pero mujer... ¿te dejo morir?
+					</p>
+					<p>
+					-No cuides tú de eso; el que esto no
+					suceda está al cargo del Santo bendito -dijo la buena anciana
+					alzando sus amortiguados ojos hacia el cuadro de San Cayetano.
+					</p>
+					<p>
+					-¡Ay, hermana! -repuso Doña
+					Escolástica-, ya me voy temiendo que nos ha olvidado.
+					</p>
+					<p>
+					-¡Qué disparate, Escolástica! lo que
+					hace es probar nuestra fe.
+					</p>
+					<p>
+					-Dos días hay que no comemos, y
+					mañana...
+					</p>
+					<p>
+					-Dios proveerá, Escolástica.
+					</p>
+					<p>
+					-Así, hermana, dejémonos de cuidados y
+					angustias y vamos a rezar.
+					</p>
+					<p>
+					-Vamos -respondió su hermana; y
+					dirigiéndose a su cuadro tan querido del Santo abogado de la
+					Providencia:- ¡Ampáranos, -oró mentalmente-: no te lo pido por mí,
+					sino por aquella pobrecita que está en la cama, que no ha tomado en
+					tanto tiempo ni una cucharada de caldo!
+					</p>
+					<p>
+					-¡Santo mío! -invocaba a su vez con el
+					corazón la pobre enferma-, intercede por nosotras con Dios para que
+					nos socorra; no lo pido por mí, sino por la pobre Escolástica, que
+					tanto siente no poder asistirme.
+					</p>
+					<p>
+					Apenas habían rezado diez minutos,
+					cuando Escolástica calló. En aquella silenciosa Plaza de Armas
+					sonaban voces y tropel.
+					</p>
+					<p>
+					-¿Qué podrá ser esto? -dijo Doña
+					Escolástica, saliendo de la alcoba en que dormían ahora ambas
+					hermanas; y asomándose a la puerta, notó en la Plaza de Armas
+					cantidad de gentes, aumentándose su sorpresa al ver destacarse de
+					aquel grupo a un caballero cuyo traje de General estaba cubierto de
+					bandas y cruces, que llevando del brazo a una hermosa joven se
+					dirigía hacia ella.
+					</p>
+					<p>
+					-Estos señores -pensó Doña
+					Escolástica-, vienen a ver el castillo.
+					</p>
+					<p>
+					-Señor -dijo al General que en este
+					momento llegaba a la sala-; esta casa está toda a la disposición de
+					V. E. Pero, señor, en esta alcoba hay una persona enferma.
+					</p>
+					<p>
+					-¿Quién es la persona enferma?
+					-preguntó el General.
+					</p>
+					<p>
+					Esta pregunta, que hubiera causado
+					sorpresa a cualquiera otra, no se la causó a Doña Escolástica, que
+					contestó sencillamente.
+					</p>
+					<p>
+					-Mi cuñada Liberata.
+					</p>
+					<p>
+					-Doctor -dijo el General, llamando a
+					uno de los señores que habían quedado en la Plaza de Armas-;
+					hacedme el favor de examinar a la enferma que se halla en esta
+					alcoba.
+					</p>
+					<p>
+					El facultativo entró en la pieza
+					designada, y el General preguntó a Doña Escolástica:
+					</p>
+					<p>
+					-¿Y D. José?
+					</p>
+					<p>
+					-Mi José, señor, -contestó ésta- está
+					donde quisiera estar yo -y señaló al Cielo-. En seguida añadió:
+					</p>
+					<p>
+					-¿Pero ha conocido V. E., que es un
+					caballero tan principal, a mi Pepe, que era un pobre maestro de
+					escuela?
+					</p>
+					<p>
+					-¿Y habiendo faltado él, con qué
+					cuentan ustedes para subsistir? -preguntó el General, sin contestar
+					a la pregunta.
+					</p>
+					<p>
+					Doña Escolástica señaló al cuadro que
+					sobre la mesa colgaba en la pared, y contestó:
+					</p>
+					<p>
+					-Con aquel que es abogado de la
+					Providencia, hasta hoy no nos ha desamparado.
+					</p>
+					<p>
+					En este instante salía el facultativo
+					de la alcoba.
+					</p>
+					<p>
+					-¿Qué tiene la enferma? -preguntó el
+					General.
+					</p>
+					<p>
+					-Inanición, señor; hay dos días que no
+					toma alimento.
+					</p>
+					<p>
+					El General procuró ocultar que se
+					hallaba dolorosamente conmovido; dijo algunas palabras al oído del
+					médico, y en seguida se entró en la alcoba, seguido de la hermosa
+					joven y de la atónita Doña Escolástica.
+					</p>
+					<p>
+					-¡Doña Liberata! -exclamó con
+					alegría-; ¿con que San Cayetano ha dado a Vds. un chasco? ¿No decía
+					yo, cuando se lo ponía a Vds. de espaldas, que el Santo no quería a
+					las gentes cansadas?
+					</p>
+					<p>
+					-¡Jesús María! -exclamaron alborozadas
+					ambas buenas mujeres-; ¿V. E. es aquel loqui..., perdone Vuecencia,
+					aquel jovencito, que se nos entró como un pajarito por la
+					ventana?
+					</p>
+					<p>
+					-¡El mismo!... que ahora se entra por
+					vuestras puertas como un hombre formal, a pediros perdón por lo
+					mucho que sin consideración os mortifiqué, y a daros gracias por
+					las inmerecidas bondades y favores que os debí; pues ya no soy
+					aquel loquillo, sino un hombre que ha aprendido a pensar y a
+					sentir. ¿No es verdad, Margarita?
+					</p>
+					<p>
+					-¡Margarita! -exclamaron asombradas
+					las dos hermanas.
+					</p>
+					<p>
+					-¿Qué, os asombra mi nombre? -preguntó
+					con bondadosa sonrisa la hermosa joven.
+					</p>
+					<p>
+					-No es el nombre, señora -contestó
+					Doña Escolástica-; es porque es el mismo de una pícara niña que
+					delató al señor; y si no se lo avisan a tiempo, Dios sabe lo que
+					hubiese sucedido pues apenas huyó cuando se llenó la Plaza de
+					Armas, de tropa y a mi Pepe, porque no quiso decir el nombre del
+					amigo de V. E., se lo quisieron llevar preso. Pero como Vuecencia,
+					a pesar de su locu... de sus cosas, tenía tan buenas entrañas, dejó
+					a mi Pepe aquella carta, -V. E. se acordará -que escribió con
+					objeto de que le sirviese de salvaguardia; y así fue, que apenas la
+					leyó el oficial que venía haciendo de Gobierno, cuando se echó a
+					reír, y le dejó en paz.
+					</p>
+					<p>
+					-¡Que escribí una carta con ese
+					objeto! -exclamó admirado el General. No lo recuerdo.
+					</p>
+					<p>
+					-¿Tampoco recuerda V. E. que se le
+					olvidó el dinero? -preguntó Doña Escolástica- Diez onzas, ¡diez
+					onzas nada menos! se dejó V. E. al lado de la carta.
+					</p>
+					<p>
+					-La carta decía -observó el General,
+					que eran destinadas a comprarles una memoria del huésped que tanto
+					les dio que hacer.
+					</p>
+					<p>
+					-No señor, nada de eso decía la carta,
+					así fue que mi Pepe las metió en un papel, que selló, diciendo a
+					quién pertenecían, y escribió encima la palabra 
+					<emph>
+					depósito
+					</emph>
+					, por si moríamos antes que V. E. las
+					reclamase o hubiésemos podido averiguar su paradero. Pero ni una ni
+					otra cosa sucedió, y ahí están, señor.
+					</p>
+					<p>
+					El General se volvió a la señora que
+					le acompañaba, y dijo:
+					</p>
+					<p>
+					-¡Y iban a perecer de hambre! ¡Esto
+					admira!
+					</p>
+					<p>
+					-Esto enternece, Leopoldo -contestó la
+					jóven secando con su rico pañuelo dos lágrimas que surcaban sus
+					mejillas.
+					</p>
+					<p>
+					-Pero recuerdo muy bien -dijo el
+					General-, que mi carta expresaba el destino de esa suma.
+					</p>
+					<p>
+					-No señor; y si os queréis convencer,
+					aquí está la carta -dijo Doña Escolástica, sacando de la vetusta
+					papelera una carta envuelta en una plana de palotes que puso en
+					manos del General, añadiendo: -siempre la guardó mi Pepe como
+					reliquia.
+					</p>
+					<p>
+					El General miró el sobre para
+					cerciorarse de que era dirigida a D. José, y se puso a leerla con
+					curiosidad, a la par de la joven Señora que se había apoyado en su
+					hombro.
+					</p>
+					<p>
+					Los lectores recordarán el contenido
+					de la carta que han leído ha poco. Pero no así el General Leopoldo
+					Ardaz, que había diez y ocho años que la había escrito. Pero tanto
+					él como la joven Señora tenían demasiada bondad de corazón, y eran
+					demasiado finos, delicados y cultos para que aquella carta ingrata
+					y denigrativa les moviese a risa.
+					</p>
+					<p>
+					-¡Qué cabeza era entonces la mía!
+					-murmuró el General al oído de la señora-: esta carta era dirigida
+					a Ramon Ortiz, y equivoqué el sobre.. ¡y se han hecho la ilusión de
+					que la escribí con la intención de evitarles compromisos!... ¡Oh
+					corazón sano y sin malicia, que todo lo alzas a tu pura esfera,
+					como rebaja todo a la mustia suya el corazón gangrenado por la hiel
+					de la malevolencia y el agraz de la malicia!
+					</p>
+					<p>
+					Por fortuna, al volver la hoja
+					hallaron el párrafo que hablaba de Margarita, lo que volvió a traer
+					la escena al florido terreno del buen humor.
+					</p>
+					<p>
+					<emph>
+					El insoportable apéndice de su madre
+					</emph>
+					, -leyó
+					la joven riendo de corazón- 
+					<emph>
+					¡qué crianza dan a esa niña!...
+					asombra!
+					</emph>
+					-prosiguió leyendo-, 
+					<emph>
+					¡quién pudiera disolver esta perla en vinagre,
+					como hizo la hermosa Cleopatra con otra!
+					</emph>
+					-Pues ha sido al
+					revés, -dijo sin cesar de reír-: la perla ha sido la que ha
+					absorbido al vinagre.
+					</p>
+					<p>
+					-Y sin impregnarse de él -contestó el
+					General-; cumpliendo cual no otra con la misión de la mujer
+					cristiana y culta, que no consiste en seguir los errores de su
+					marido, ni menos en identificarse con sus maldades, si las tuviese;
+					sino en constituirse en ángel visible de su guarda; que le retraiga
+					del mal y del error, y le guíe al bien y la verdad. La mujer que
+					yerra con su marido, tiene dos cargos ante la suprema ley, que
+					quiso que fuese para el hombre no el aguijón que irrita sino el
+					freno que contiene:
+					</p>
+					<p>
+					-
+					<emph>
+					Estoy descubierto
+					</emph>
+					, -prosiguió leyendo la
+					joven- 
+					<emph>
+					la niña Margarita, esa cotorrita habanera, esa
+					sabonetilla de repetición, me ha vendido.
+					</emph>
+					</p>
+					<p>
+					-¿Lo ven Vuecencias? -dijo Doña
+					Escolástica-: esa pícara niña fue...
+					</p>
+					<p>
+					-Esa pícara niña, -exclamó volviendo a
+					reír la joven- hizo otras muchas fechorías de que fue víctima
+					vuestro huésped.
+					</p>
+					<p>
+					-¿Puede darse?.. -repuso Doña
+					Escolástica-, ¡pobrecito!... Válgame Dios, y qué malas entrañas
+					tenía, la dichosa niña ¿Qué más hizo?
+					</p>
+					<p>
+					-Poco después en Cádiz le originó un
+					desafío con un francés.
+					</p>
+					<p>
+					-¡Santo Dios de Israel!... -exclamaron
+					las buenas ancianas.
+					</p>
+					<p>
+					-A los pocos días lo divulgó, por lo
+					cual el huésped de Vds. tuvo que huir y que expatriarse.
+					</p>
+					<p>
+					-¿Pues no es nada! ¡Ay que
+					niña!...
+					</p>
+					<p>
+					-Pues no es esta la peor partida que
+					le jugó; porque años después, habiendo ido su merced a la Habana,
+					le puso como a un manso cordero el santo yugo; pues yo, su mujer y
+					servidora vuestra, soy la pícara niña Margarita.
+					</p>
+					<p>
+					-¡Dios mío! ¡Dios mío! ¿Y cómo ha sido
+					eso! -preguntaron asombradas las hermanas.
+					</p>
+					<p>
+					-El loco huésped de Vds. -contestó la
+					interrogada-, después de doce años bien empleados en su carrera, en
+					los que sobre los campos de batalla ganó sus grados, no sin que le
+					dejase la muerte, -de la que siempre escapó- esta cicatriz en la
+					sien y un hombro atravesado por memoria, vino destinado a la
+					Habana, donde se encontró con su antigua contraria la pícara niña
+					Margarita, que -por lo visto- entonces tenía juicio y era
+					apreciable, puesto que su adversario trocó en un todo sus
+					sentimientos hacia ella.
+					</p>
+					<p>
+					La sorpresa de las buenas ancianas,
+					que iba siempre en aumento, llegó a su colmo cuando vieron entrar
+					unos mozos de fonda, que traían en bateas una suculenta comida.
+					</p>
+					<p>
+					Margarita corrió hacia ellos, destapó
+					una sopera, llenó un plato de sopa, y se apresuró a llevarlo a la
+					desfallecida; mas esta no le tocaba, y permanecía profundamente
+					abstraída.
+					</p>
+					<p>
+					-Tomad, tomad -le dijo Margarita-;
+					esta es la medicina que ha prescrito el facultativo.
+					</p>
+					<p>
+					-¿En que os detenéis Doña Liberata,
+					que no gustáis el alimento que debéis apetecer y que tanto
+					necesitáis?
+					</p>
+					<p>
+					-Señor, -repuso la anciana- ¿dudaréis
+					aún de la influencia de la intercesión de mi Santo sobre la
+					Providencia, que en el día de hoy desde la Habana os ha guiado
+					aquí?
+					</p>
+					<p>
+					-No por cierto, no por cierto, Doña
+					Liberata -contestó el General-. Soy español, soy cristiano, soy
+					católico: creo por lo tanto en las gracias espirituales y
+					materiales que obtiene la fe, esa fe que nos une a Dios, a su
+					redil, a nuestros hermanos. Si la hallo en almas puras y en
+					corazones sanos más robusta, más ciega, más cándida y confiada que
+					lo es la mía, lejos de condenarla o burlarme de ella, la venero y
+					la admiro. Y para no envidiarla, me esfuerzo por adquirirla, no por
+					la convicción del entendimiento, -que la fe no desciende a los
+					torpes y estrechos alcances del hombre- sino por medio de la
+					voluntad, poderosa hija del alma.
+					</p>
+					<p>
+					Al oír estas palabras, las dos
+					excelentes mujeres cruzaron sus manos, y dos lágrimas corrieron
+					lentas y brillantes por sus mejillas.
+					</p>
+					<p>
+					-¡Quien a Dios busca, a Dios halla!
+					-dijo Doña Liberata.
+					</p>
+					<p>
+					-¡Que no le hubiese oído mi José!
+					-dijo Doña Escolástica.
+					</p>
+					<p>
+					-¿Con que... nada os ha quedado?
+					-preguntó el General.
+					</p>
+					<p>
+					-¡Nada! -contestó Doña Escolástica-,
+					pues el vitalicio murió con mi José.
+					</p>
+					<p>
+					-Y yo veo tan poco que apenas puedo
+					coser, -añadió Doña Liberata- que a medida que caía aquel sano
+					alimento en su desfallecido estómago, se iba vivificando.
+					</p>
+					<p>
+					-Pues el vitalicio que murió con D.
+					José resucita con Leopoldo -dijo el General.
+					</p>
+					<p>
+					-Tú cuidarás del vitalicio de Doña
+					Liberata, a quien tan terrible susto diste entrándote por la
+					ventana; pero la pícara niña Margarita cuidará de Doña
+					Escolástica.
+					</p>
+					<p>
+					-Señora -exclamó Doña Escolástica-,
+					¡si con una peseta nos sobra! ¡Y nunca nos falte!
+					</p>
+					<p>
+					-No, nunca os faltará a cada una
+					-repuso el General, que añadió sonriendo:- San Cayetano se me ha
+					aparecido, y me ha encargado que cuide de que así suceda.
+					</p>
+			</div>
+			<div type="chapter" n="SPA2008009">
+				<head>Epílogo</head>
+				<p>
+				-¡Oh, Leopoldo! -exclamó con dolor
+				Margarita, cuando hubieron salido:- ¡Y habrá hombres de ideas
+				rectas y de corazón sano que se atrevan a decir a los creyentes y a
+				imbuir en el pueblo: «Vuestra fe es necia, vuestra confianza es
+				vana: no hay esfera espiritual; el mundo es una bola material y
+				estúpida, que no tiene Criador; sin más luces que la de los
+				hombres; sin más motor ni más poder que el de la
+				casualidad!...»
+				</p>
+				<p>
+				-Si son jóvenes, acuérdate de mí y no
+				desesperes de ellos, -contestó su marido- que ellos volverán si son
+				buenos, a la grey, en cuya serena atmósfera se eleva el alma, se
+				ensancha el corazón y descansa la mente. Si son viejos, esto es, si
+				tienen ya el corazón seco, sin brotes de amor al Criador y a la
+				criatura, si tienen la mente estacionada y encallada en sus
+				errores, si su voluntad inerte y estéril no puede crearles la fe
+				que salva; si sus ojos están ya sin lágrimas, sus pechos sin
+				suspiros, su vida sin esperanzas ulteriores a estas transitorias...
+				¡compadécelos!... ¡Dios se ha alejado de ellos porque ellos se han
+				alejado de Dios!
+				</p>
+			</div>
+		</body>
+		<back>
+			<div type="notes">
+				<note xml:id="SPA2008N01">La señora Doña Espíritu Santo Moreno de Escalante.</note>
+				<note xml:id="SPA2008N02">Mucho hemos sentido ver en las gacetillas de un periódico de Madrid esta chuscada. Reclamamos en nombre de D. José la invención sacada y aplicada por sus paisanos exprofeso para él, y no para un caballero gallego que en la gacetilla le usurpa su lugar. ¡Cómo corren los cuentos! -No corren así las máximas, no.</note>
+				<note xml:id="SPA2008N03">Cuéntase esto de la tan renombrada habanera la Condesa de Jaruco, cuya hija casó en la guerra de la Independencia con el General francés Conde de Merlín.</note>
+				<note xml:id="SPA2008N04">Ya hemos dicho en otro lugar que este nombre dan a los habitantes del Puerto de Santa María, por la gran abundancia de una almeja pequeña de aquel nombre, que se vende por sus calles.</note>
+				<note xml:id="SPA2008N05">Así se denomina al Faro de Cádiz.</note>
+				<note xml:id="SPA2008N06">El lance referido nos ha sido comunicado por personas fidedignas que en aquella época se hallaban en Cádiz.</note>
+			</div>
+		</back>
+	</text>
+</TEI>

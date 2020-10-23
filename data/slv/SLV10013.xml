@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl" xml:id="SLV10013">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mladi gozdar : edicija ELTeC</title>
+            <author ref="viaf:81042077">Kovačič, Ivo (1873-1936)</author>
+            <respStmt>
+               <resp>Pretvorba zapisa WikiVir v ELTeC.</resp>
+               <resp xml:lang="en">Conversion from WikiVir to ELTeC encoding.</resp>
+               <name>Tomaž Erjavec</name>
+            </respStmt>
+            <respStmt>
+               <resp>Izbira romanov in dodajanje metapodatkov ELTeC.</resp>
+               <resp xml:lang="en">Novel selection and ELTeC metadata.</resp>
+               <name>Marko Juvan</name>
+               <name>Miran Hladnik</name>
+               <name>Katja Mihurko Poniž</name>
+            </respStmt>
+            <respStmt>
+               <resp>Skrbištvo WikiVira.</resp>
+               <resp xml:lang="en">Stewardship of WikiVir (Slovene WikiSource).</resp>
+               <name>Miran Hladnik</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">25942</measure>
+         </extent>
+         <publicationStmt xml:lang="en">
+            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+            <distributor ref="https://github.com/COST-ELTeC/ELTeC-slv">GitHub</distributor>
+            <date>2020-03-19</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Kovačič, Ivo. Mladi gozdar : edicija WikiVir</title>
+               <idno type="wikilink">https://sl.wikisource.org/wiki/Mladi_gozdar</idno>
+               <date>2018</date>
+            </bibl>
+            <bibl type="printSource">
+               <author>Kovačič, Ivo</author>
+               <title>Mladi gozdar</title>
+               <title>Izvirni roman</title>
+               <date>1904</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-1">
+         <p xml:lang="en">This ELTeC edition was automatically converted from the <ref target="https://sl.wikisource.org/">Slovene WikiSource</ref> digital library edition, and several pieces of ELTeC-specific metadata were added. In particular, the source mark-down was first downloaded, and then fixed with a Perl script, which substitutes Wiki MD marking for heads with the regular one, normalises some characters and removes interal markup expressed in {{..}} and as XML tags. This also means that certain markup from the source is lost, e.g. pagebreaks, original vs. corrected words (corrected are retained), poems and their lines, and notes (which are removed). However, it would be extremely difficult to convert this, furthermore it seems that such markup is used only in some novels. The "cooked" MD files are then converted to TEI with the docx2tei stylesheet, ELTeC metadata is added, and the resulting file fixed to ELTeC schema via a XSLT stylesheet.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language xml:lang="en" ident="sl">Slovenian</language>
+         </langUsage>
+         <textDesc xmlns:eltec="http://distantreading.net/eltec/ns">
+            <eltec:authorGender key="M"/>
+            <eltec:size key="short"/>
+            <eltec:canonicity key="low"/>
+            <eltec:timeSlot key="T4"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-03-19">Tomaž Erjavec: converted to ELTeC</change>
+      </revisionDesc>
+   </teiHeader>
+   <text n="SLV10013">
+      <body>
+         <div type="chapter">
+            <head>I.</head>
+            <p n="SLV10013.1">„V deželi srečni svoje dni Prebival sem vesel ...“</p>
+            <p n="SLV10013.2">Ant. Hribar.</p>
+            <p n="SLV10013.3">Jarko pomladansko solnce je priplavalo ravnokar izza strmega, z gostim bukovjem obrastenega Viškovca ter obsijalo jednonastropno gozdarsko hišo, stoječo sredi male jase v trnovskem gozdu. V vrtič pred hišo sta vstopila dva možaka. Prvi je bil čokal in uže prileten, drugi pa blizu petindvajsetleten mladenič visoke, krepke rasti. Zelenkasta obleka in puška sta pričala, da sta bila gozdarja. Šla sla naravnost v hišo, odložila puški ter sedla v čedni izbici za malo štirivoglato mizo.</p>
+            <p n="SLV10013.4">„Tako je, vidite, gospod Hostnik“ je rekel mladeinč resno in nekako otožno ter naslonil laket ob mizo. „Čudno se menjajo prizori življenja. Zibelka mi je tekla daleč doli ob hrvatski meji, sedaj sem pa tukaj“.</p>
+            <p n="SLV10013.5">„Res, moj mladi prijatelj, izkusili ste uže dovolj za svoja leta. — Zaslužili ste boljše bodočnosti, nego je smete pričakovati. O človeku, ki je izgubil kot otrok stariše in ostal na svetu sam, ne da bi radi tega opešal ali zdvojil, reče se lahko, de je ne samo možatega, ampak tudi blagega značaja“.</p>
+            <p n="SLV10013.6">„Gorje mu, ki mora sedati za tujo mizo! Vsak grižljej greni mu zavest, da je odvisen. Mnogo dobrih src utriplje sicer na svetu; a jeden je Bog, in materino srce le — eno“. Mladenič umolkne in si otare solzo, potem pa nadaljuje: „Če bi bila živela rajna mati, dovršil bi bil gimnazij in dosegel marsikaj, o čemer ne smem sedaj niti sanjati“.</p>
+            <p n="SLV10013.7">„Čudim se v resnici, kako ste se dali v šestem gimnazijskem razredu pregovoriti, da ste šli na gozdarske šole. Saj bi si bili prislužili takrat uže sami lahko toliko, da bi mogli skromno izhajati“.</p>
+            <p n="SLV10013.8">„Saj ne razumem sedaj niti sam, kako sem se bil dal premotiti takrat. Kaj hočete: Človek je v mladosti lahkomiseln in omahljiv. Imel sem prijatelja. sošolca, ki je bil sin bogatih starišev. Njemu ni šlo na gimnaziju nič kaj gladko, in sklenil je, da pojde v gozdarske šole. Razkril je to tudi meni in mi večkrat tako živo in idejalno slikal gozdarsko življenje, da bi bil kmalu še mene pregovoril za to. Ker mi je pa vedno in povsod polnil ušesa s pogovori o gozdarstvu, bil sem nazadnje uže tako nevoljen, da sem mu rekel kar naravnost, naj mi ne zine več o tem niti besedice. A kaj se je pripetilo na to! — On je pregovoril doma svoje stariše, da bi vzdrževali tudi mene, ako bi šel ž njim v gozdarske sole. In to me je zapeljalo. — Zdelo se mi je, da je zažarela na obzorju mojega življenja nova zvezda — zvezda sreče. Šel sem s prijateljem v Zagreb, odkoder sem se pa vrnil sam, ker on — je umrl tarn za sušico. Izgubil sem očeta, izgubil sem mater, izgubil jedinega prijatelja: sedaj — sem na svetu sam“. — Molče, kakor bi ga bilo prevladalo sočutje, zre nadgozdar Hostnik nekoliko časa na solzo, ki se je zalesketala v mladeničevem očesu; potem pa udari, kakor bi se bil premislil, ob mizo in reče:</p>
+            <p n="SLV10013.9">„Gospod Mirko, pogum velja! Pustimo preteklost, in poračunimo raje malo se sedanjostjo. Prišli ste torej sami semkaj in nimate nikogar, ki bi vam snažil in pospravljal po hiši?“</p>
+            <p n="SLV10013.10">„Začasno nikogar ne; pomagala mi bodeta sila in potreba. Revež sem bil, odkar me nosi zemlja. Vajen sem vsemu“.</p>
+            <p n="SLV10013.11">„No, saj si bodeva soseda, in kot sosedu vam ne odrečem nobene usluge, dokler ne uredite svojega gospodarstva. — Vem tudi za dobrega kuharja in pometača, a nisem gotov, bi vam-li bil všeč ali ne. Tu v okolici živi namreč človek, star okoli štirideset let, povsem pošten in zanesljiv in vrhu tega dober kuhar. Jedina napaka njegova je ta, da je sem pa tje malo zmešan. Izvršil je vseh osem gimnazijskih razredov; v drugem letu bogoslovskih študij je pa zbolel na umu, tako, da se še sedaj pojavljajo pri njem nasledki one bolezni“.</p>
+            <p n="SLV10013.12">„Povem vam odkritosrčno, gospod nadgozdar, bilo bi mi ljubše, ako bi dobil v hišo pripravnega moškega, nego žensko. Spoznal bi pa vendar rad tega človeka sam malo natančneje, predno ga vzamem k sebi“.</p>
+            <p n="SLV10013.13">„To se zgodi prav lahko. — On blodi rad tu okrog po gozdu; gotovo ga srečate kje v kratkem. — Toda, gospod Mirko, oprostite, jaz moram domov. — Prosim, poglejte večkrat malo k nam. — Z Bogom!“</p>
+            <p n="SLV10013.14">Nato spremi Mirko Stojan — tako namreč se je novi gozdar pisal — nadgozdarja do vrtnega prelaza. Od tam se vrne sam zopet v izbo, vrže puško čez rame, zaklene vrata in jo zavije mej drevje, da bi si malo ogledal okolico.</p>
+         </div>
+         <div type="chapter">
+            <head>II.</head>
+            <p n="SLV10013.15">„Dekle je zajemalo v vedro vode, V vedro kovano vodice hladne ...“</p>
+            <p n="SLV10013.16">Levstik.</p>
+            <p n="SLV10013.17">Sveža sapica je vela skozi niladc drevesne liste ter igrala se z blestečimi rosnimi kapljicami po drevju in grmičju. Sem pa tje je smuknila lahkonoga veverica po raskavem drevesu in se plaho skrila v gostem vrhu kake smreke. V nizkem grmiču je gostolel slavček milo jutranjo pesem. V tamno-zelenem bršljanu, ovijajočem se okrog močnega, razsohastega gabra, oglašal se je rumeno-kljuni kos. —</p>
+            <p n="SLV10013.18">Mej temi prijetnimi naravnimi prizori koraka Mirko naprej po stezi, posuti z večletnim listjem. Pol ure ne hodi še, kar se odpre pred njim precej prostorna dolina, katere naravno središče je selo po imenu Prelazje. Krog in krog sem so zeleni vrtovi in plodna polja. Vsa poslopja v selu so krita se slamo; le eno, ki se pa po velikosti zelo razlikuje od drugih, je krito z opeko. —</p>
+            <p n="SLV10013.19">Kakor očaran od prijetnega razgleda stoji Mirko na strmini in misli, — misli morda na detinska leta, na rojstni kraj, na zeleno gomilo svoje mamice...</p>
+            <p n="SLV10013.20">Iz teh mislij ga vzdrami droban ženski glas, pojoč pesmico:</p>
+            <p n="SLV10013.21">„Davi je pa slan’ca pala, Na zelene travnike, In vse rož’ce pomorila, Vse te žlahtne rožice ...“</p>
+            <p n="SLV10013.22">Mirko srka kakor med va-se milo melodijo, z očmi pa išče brhko pevko. A ker je ne more dolgo ugledati, spusti se počasi nizdolu, odkoder je prihajal glas. Kar naenkrat postoji. Pod seboj vidi namreč odrastlo deklico, zajemajočo z lesenim korcem vode iz studenca in pevajočo mirno dalje. Mirko jo noče motiti, še manj pa iznenaditi, zato se skrije za bližnji grm, odkoder je prav lepo videl deklico, ona njega pa ne.</p>
+            <p n="SLV10013.23">Ko je bedenj poln, vspne se deklica kvišku in hoče zadeti bedenj na glavo; a vzdignila ga je premalo visoko in vrgla vsled tega svitek na tla. Kakor bi ga nekaj vrglo, skoči Mirko izza grma, pobere svitek in ga dene deklici na glavo. Ona zardi, reče prav tiho: „Lepa hvala!“ in odide.</p>
+            <p n="SLV10013.24">V istcm trenutku začujo se po klancu navzgor trdi moški koraki, in surov krohot:</p>
+            <p n="SLV10013.25">„Ha... ha... ha, kaj sta mislila, da Sever ni videl, da je bil škiljav, slep? Ha... ha... ha...</p>
+            <p n="SLV10013.26">Za svitkom pride venec, Tu priča ta studenec; In solnce, ti si priča: Kar pravim, ni od niča ...“</p>
+            <p n="SLV10013.27">Kmalu nato se prikaže izza grmovja suhljat možicelj, star blizu stirideset let. Na glavi ima slamnik se širokim, pisanim trakom. Obleka mu je pol gosposka, pol kmetska in deloma pretesna, deloma preohlapna. — Črevlji njegovi pogrešajo popolnoma onega, čemur bi rekli mi — jedinost, sloga. Nobena krpa in mešina ne stoji več na njih, kakor jej je bil zapovedal boter smolec, ko je potegnil zadnji živ in zalučil s krepko kletvico črevelj v kot. — Ta možicelj je Tone Sever, ponesrečen student, katerega je priporočal nadgozdar Mirku za kuharja. To se je nekako pozdevalo tudi Mirku, zato ga je pa nagovoril:</p>
+            <p n="SLV10013.28">„No, prijatelj, kako, da ste tako židane volje? Ste-li srečali srečo?“</p>
+            <p n="SLV10013.29">Sever se niti ne zmeni za Mirkovo vprašanje, zavrti se na peti okoli in okoli in zapoje zopet:</p>
+            <p n="SLV10013.30">„Za svitkom pride venec...“</p>
+            <p n="SLV10013.31">„Mož, ste-li izgubili pamet?“</p>
+            <p n="SLV10013.32">„Ne, ampak pamet je izgubila mene“ odreže se Sever.</p>
+            <p n="SLV10013.33">„No, to je isto“.</p>
+            <p n="SLV10013.34">„Oho, kdo je rekel! — Če je izgubila pamet mene, kriva je ona; če bi bil izgubil pa jaz njo, kriv bi bil jaz“.</p>
+            <p n="SLV10013.35">„Hentaj, saj govorite kakor Salomon!“</p>
+            <p n="SLV10013.36">„Ne, ampak Salomon je govoril kakor jaz. Jaz nisem hodil k njemu v šolo, in on ne k meni; a Salomona sva oba; on prvi, jaz drugi...“</p>
+            <p n="SLV10013.37">„Odkod ste pa doma?“</p>
+            <p n="SLV10013.38">„Moj je ves svet, dasi nimam drugega, nego pod seboj — pot, okoli sebe — zrak“.</p>
+            <p n="SLV10013.39">„Torej nimate stalnega doma?“</p>
+            <p n="SLV10013.40">„Kaj, jaz — nimam stalnega doma?! — Vsak dom se poruši poprej, nego moj. Moj bo stal, dokler ne potrese Bog drevo vesoljstva, da pocepajo ž njega kakor zrele tepke — solnce, luna in zvezde“.</p>
+            <p n="SLV10013.41">„Vendar je žalostno gospodariti v takem domu“.</p>
+            <p n="SLV10013.42">„Čemu žalostno?!</p>
+            <p n="SLV10013.43">„Povsod poznan, nikjer doma, kjer vležem uro se poslednjo, Tam smrt mi domovanje da“.</p>
+            <p n="SLV10013.44">kaj hočeš, duša, več!?“</p>
+            <p n="SLV10013.45">„Je-li še kdo vaših živ?“</p>
+            <p n="SLV10013.46">„Nikdo, in — bolje tako. Kdor sam do večera potuje skoz svet — Izgine za zarjo večerno“. —</p>
+            <p n="SLV10013.47">„Torej ste v pravem pomenu — samec?“</p>
+            <p n="SLV10013.48">Sever odgovori pojoč:</p>
+            <p n="SLV10013.49">„Sam samcat samec sem in bom, Če tudi šepast, slep in hrom. Zakonski jarem ni za me, Le drugi naj pod njim ječe.“ —</p>
+            <p n="SLV10013.50">„Dokler Adam je samec bil, Ga zlomek v mrežo ni vlovil; Še-le ko Eva je prišla, Sta v mrežo cepnila oba ...“</p>
+            <p n="SLV10013.51">Nato se Sever urno zasukne in zbeži mej grmovje. Mirko pa stoji kakor pribit na mestu in rešuje težko uganko — Severjev značaj. Naposled se odpravi pa tudi on proti domu, ker solnce je stalo uže visoko nad jednajsto uro.</p>
+         </div>
+         <div type="chapter">
+            <head>III.</head>
+            <p n="SLV10013.52">„Mladenič dojde vitke rasti, Rdečih lic, ravan kot smreka ...“</p>
+            <p n="SLV10013.53">Ant. Hribar.</p>
+            <p n="SLV10013.54">Bilo je v nedeljo potem. V farni cerkvi v Lesju, pod katero je spadalo tudi selo Prelazje, je ravnokar končala jutranja služba božja. Ljudje so vreli iz cerkve, kakor čebele iz panja. Mladeniči in možje so se po stari navadi vstavili pred cerkvijo. Nekateri so sedli na nizki zid, ki je bil okrog cerkve, drugi so se pa kar stoje pomenkovali o raznih stvareh in dogodkih. Matere in dekleta so šle vsaka na svoj dom; le tam za cerkvijo je stalo poleg mladeničev tudi nekaj deklet iz Prelazja. Nekateri izmej teh so čakali menda še popoldanske službe božje.</p>
+            <p n="SLV10013.55">„Glej, glej, Tine Podleskov, kdo gre tam z župnikom in županom! — Naj me šment, če ni ta oni gozdar, katerega so nam poslali te dni na novo!“ dejal je nizek, čokat mladenič svojemu dolgemu, orjaškemu tovarišu. Vsi so se pri tem ozrli na ono stran, odkoder je prihajal v družbi z duhovnikom in županom čeden, krepak mladenič, naš znanec Mirko. S posebnim zanimanjem se je pa ozrla tje prelažanska deklica, katero poznamo vže kot „brhko pevko pri studencu“, ta je županova hčerka, Milka. Zardela je do črnih las, ko je ugledala mladeniča, ki ji je priskočil pri studencu tako prijazno na pomoč. A mnogo bolj, nego ona mala usluga, katero ji je napravil, je ugajalo Milki na njeni to, da hodi tudi v cerkev in da se ne ogiblje duhovnikove družbe, kakor navadno vsi njegovi predniki v službi. „Ta mladenič mora biti pošten in dober“, rekla je Milka tiho v svojem priprostem srcu in gledala za odhajajočim, dokler ni izginil za bližnjim ovinkom.</p>
+            <p n="SLV10013.56">„Ta bo zopet glavo zmedel kakemu dekletu, da ne bo ločilo lune od solnca“, opomni zbadljivo Podleskov Tine in pogleda od strani zamišljeno Milko.</p>
+            <p n="SLV10013.57">„Res, — ni varno“, pridene drug mladenič.</p>
+            <p n="SLV10013.58">„Nič ne skrbite radi tega. — Jaz poznam zdravilo za take. Če bo le kaj lazil za našimi dekleti, razmočim mu malo možgane v koritu, pa mu odleže gotovo. — Skusil sem to zdravilo uže na onem škrijcu, ki je prišel predlanskega poletja gori k nam požirat, dober zrak“, oglasi se bahato in samooblastno Podleskov Tine.</p>
+            <p n="SLV10013.59">„No, otroci, čakate-li blagoslova, ka-li?“ vpraša mimogrede postaren mož iz Prelazja.</p>
+            <p n="SLV10013.60">„Nekateri čakamo“, oglasi se jih več zajedno.</p>
+            <p n="SLV10013.61">„Kdor ne čaka, naj gre z menoj. Deževalo bo“.</p>
+            <p n="SLV10013.62">Nekateri res odidejo za starcem; mej njimi tudi Milka županova.</p>
+         </div>
+         <div type="chapter">
+            <head>IV.</head>
+            <p n="SLV10013.63">„Toda tak naj pride, Da mi bo po volji, Da kaj več ne umeje Kot orati v polji!“</p>
+            <p n="SLV10013.64">Ant. Hribar.</p>
+            <p n="SLV10013.65">Zagričarjeva, to je županova hiša, je bila jedina v celem Prelazju krita z opeko. Imela pa ni samo te prednosti, ampak je bila tudi v gospodarskem oziru najtrdnejša, najpremožnejša. K tenm je pripomogla največ varčnost in treznost njenih gospodarjev, katerih pa ni mogel kljub temu nikdo dolžiti skoposti; ker takemu očitanju bi se bili slovesno in odločno uprli vsi berači in nemaniči v okolici. — S kratka: Zagričarjevi so bili v tako dobrem razmerju z Bogom in z ljudmi, da so jih spoštovali in ljubili vsi sosedje, občani in znanci.</p>
+            <p n="SLV10013.66">Mati županja, precej postarna in rejena ženska, stala je one nedelje malo nevoljua na pragu hiše in gledala doli po klancu, kakor bi pričakovala nekoga.</p>
+            <p n="SLV10013.67">„Kake opravke je moral neki imeti v farovžu, da ga še sedaj ni domov! — Kosilo bo popolnoma mrzlo“, pravi sama pri sebi mati županja in se umakne s praga v hišo. Takoj za njo pa pride v hišo sin Jože, prijazen, dvajsetleten mladenič in začne malo iznenaden pripovedodati:</p>
+            <p n="SLV10013.68">„Mati, oče je uže doli pod klancem; a ni sam, ampak ž njim je še nekdo.“</p>
+            <p n="SLV10013.69">„Kdo neki? Se ti-li prav nič ne pozdeva?“</p>
+            <p n="SLV10013.70">„Obleko ima zeleno; kdo pa je, ne vem“.</p>
+            <p n="SLV10013.71">„Oh!“ vsklikne županja vsa v skrbeh. „Oče je večkrat res malo čuden. Ve, da nimam danes nič kaj takega pripravljenega, pa mi vodi gosposke ljudi v hišo“.</p>
+            <p n="SLV10013.72">„Mati, novi gozdar je prišel z očetom“, prihiti Milka vsa preplašena povedat materi.</p>
+            <p n="SLV10013.73">„Kako veš?“ — Ga-li poznaš?“</p>
+            <p n="SLV10013.74">„Videla sem ga davi, ko sta šla z očetom skupaj od maše“.</p>
+            <p n="SLV10013.75">„Sta uže na dvorišču“, opomni Jože in stopi proti pragu.“</p>
+            <p n="SLV10013.76">„Milka, kam bežiš sedaj?“ pokliče županja hčerko, ki je hitela navzgor po stopnicah v svojo sobo.</p>
+            <p n="SLV10013.77">„Nisem nič lačna, ne bom jedla“, opravičuje se Milka.</p>
+            <p n="SLV10013.78">„Milka, ubogaj lepo in vrni se, saj nimaš več pet let!“ pokara jo mati resno.</p>
+            <p n="SLV10013.79">Dasi nerada, ubogala je Milka vendar in se vrnila k materi uprav, ko je vstopil Mirko v hišo z navadnim, domačim pozdravom:</p>
+            <p n="SLV10013.80">„Bog daj srečen dan!“ Potem je pa prijazno v roko segel županji, Jožetu in Milki. Kar v hipu se je prikupil vsem trem se svojo odkritosrčno priprostostjo tako, da je županja popolnoma pozabila vse skrbi radi postrežbe in rekla:</p>
+            <p n="SLV10013.81">„O, gospod gozdar, pri nas ste bili znani in domači uže, predno ste prestopili prag naše hiše. Hči, Milka, nam je povedala, kdo ste“.</p>
+            <p n="SLV10013.82">„Hči, — Milka?“ začudil se je Mirko. „Kako me neki pozna? Je-li morda to dekle tukaj vaša hči?“</p>
+            <p n="SLV10013.83">„Da, ta je moja jedina hči, Milka, in ta moj jedini sin, Jože, vse druge nam je vzel Bog“, odvrnila je županja in si otrnila s predpasnikom solzo. Milka je pa sramezljivo skrila obraz za materino ramo.</p>
+            <p n="SLV10013.84">Mirko je potegnil s prsti desne roke preko čela, kakor bi se hotel nečesa domisliti, na to se je pa obrnil k Milki:</p>
+            <p n="SLV10013.85">„Zdi se mi, Milka, da sem vas uže videl nekje, a spomniti se ne morem, kje“.</p>
+            <p n="SLV10013.86">Milka se je nasmehnila in smuknila urno v izbo, da bi obrisala hitro še enkrat mizo in klopi, dasi so bile uže poprej očejene in osnažene.</p>
+            <p n="SLV10013.87">„Gospod gozdar!“ poseže v tem vmes oče župan. „Prav veselilo bi nas, če bi sedaj, ko ste uže v naši hiši, sedli malo tudi k naši mizi“.</p>
+            <p n="SLV10013.88">„Če ste uže tako prijazni proti meni, ne bilo bi prav, ako bi žalil vašo gostoljubnost“, odgovoril je Mirko in šel z drugimi vred v izbo, kjer je dobil za javorjevo mizo kmalu vsak svoj prostor. Prvi je bil seveda določen gostu, Mirku.</p>
+            <p n="SLV10013.89">Iz prva je bilo pri mizi le bolj tiho. Naposled pa, ko so bili uže vsi vtešili svoje želje po jedi, razvnel se je razgovor o vremenu, o letinah, o vojaščini itd.</p>
+            <p n="SLV10013.90">Ob štirih popoldne še-le se je poslovil Mirko od prijazne Zagričarjeve družine. Sladka zadovoljnost mu je lajšala korake navkreber po opolzli stezi. Srce mu je bilo nekako zadovoljno in prosto, da bi bil kar zaukal od sreče in veselja. Prijazno, odkritosrčno vedenje Zagričarjevih je vplivalo nanj zelo ugodno. Sedaj se ni čutil več tujca v teh krajih, ampak zdelo se mu je vse prerojeno, vse tako domače, kakor bi bilo ž njim skupaj izrastlo ......</p>
+         </div>
+         <div type="chapter">
+            <head>V.</head>
+            <p n="SLV10013.91">„Dulce est desipere in loco“.</p>
+            <p n="SLV10013.92">Horacij.</p>
+            <p n="SLV10013.93">V takih sladkih mislih je dospel Mirko do gozda in tam krenil z glavne steze na stransko in krajšo, vodečo naravnost k njegovemu stanovanju. Bil je uže dobra dva streljaja globoko v gozdu, ko je začul precej daleč za seboj petje. Zdelo se mu je, da je uže slišal ta glas. Ker se je čulo petje vedno le bliže, postal je malo, da bi videl, kdo je. Kmalu je mogel uže razločiti besede v pesmi, in te so bile:</p>
+            <p n="SLV10013.94">Pa pride bleda smrt, Moj hramček bo zaprt, In glažek d’jan na stran, Oh, jaz pa pokopan! Kako lepo pač je, Da, kdor rodi se, vmre: Ker vsak tu le trpi, Se trudi in poti. Le pridi, bleda smrt, Da hramček bo zaprt, Da Tone tje zleti Kjer muh posvetnih ni.</p>
+            <p n="SLV10013.95">Tako je odpel svojo pesem pevec, ki ni bil nikdo drug, nego Tone Sever. Tudi Mirko ga je spoznal po glasu in po besedilu koncem pesmi. Kmalu ga je tudi ugledal v daljavi mej drevjem. Stopal je počasi in zrl zamišljeno pred se v tla. „Mm“ misli si Mirko „ne bi-li lahko izkušal kar nocoj poštenost tega posebneža? Prav po tisti stezi gre, kakor jaz“. Nato potegne iz žepa mošnjiček, v katerem je bilo nekaj goldinarjev drobiža, in ga vrže uprav na sredo steze, sam pa odide naglo dalje. Bil je uže pri svojem vrtu in hotel ravno prekoračiti prelaz, ko je začul zopet Tonetovo petje:</p>
+            <p n="SLV10013.96">„Hudobec je seme sejal, Da Tone za njim bi je bral: To seme se zove zlato Ker mnogo zakrivi zla to.“</p>
+            <p n="SLV10013.97">Kmalu se je prikazal iz šume Sever, korakajoč naravnost proti Mirkovemu stanovanju. Mirko je malo postal in ga počakal, a Tone jo je mahnil kar mimo njega skozi vrt k hišnim vratam. Prišedši do vrat, obrnil se je proti Mirku in vprašal oblastno:</p>
+            <p n="SLV10013.98">„Kje je ključ?“</p>
+            <p n="SLV10013.99">Mirko mu je ves osupnem dal ključ in molčal.</p>
+            <p n="SLV10013.100">„Vidiš, mladenič! — Daj mi ključ, in odprem ti vsaka vrata“, dejal je važno Sever in vstopil prvi v hišo. Tam je sedel, ne zmeneč se za Mirka, na ognjišče in začel: „Ali ti ni morda ljubo, da te tikam? — Dragi moj, mlad si še in življenje ti ni še pristriglo peruti; a le počakaj še malo, in letal boš nizko kakor jaz. — Poglej to hišo! — Koliko jih je stanovalo v njej pred teboj, in koliko jih bo še za teboj... Kaj si torej ti v primeri s tem poslopjem, ki se nazadnje vendar-le poruši? — Domišljaš si, da si gospodar te hiše, a povem ti v zobe, da nisi...“</p>
+            <p n="SLV10013.101">„Toda, prijatelj“, seže mu Mirko v besedo, „kaj pomeni vaše propovedovanje in prorokovanje?“</p>
+            <p n="SLV10013.102">„Vaše... ha... S kom govoriš?“ vpraša porogljivo Sever.</p>
+            <p n="SLV10013.103">„No, z vami, vendar!“</p>
+            <p n="SLV10013.104">„Koliko nas pa je, da govoriš z nami?“</p>
+            <p n="SLV10013.105">„Vi ste — sami!“</p>
+            <p n="SLV10013.106">„Torej, ako sem jaz sam, reci: Govorim s teboj, — Reci tako, drugače pojdem izpod te strehe in se ne vrnem več“.</p>
+            <p n="SLV10013.107">„Torej: s teboj govorim“, odvrnil je nazadnje Mirko.</p>
+            <p n="SLV10013.108">„No, tako je prav! — Sedaj pa povej mi odkritosrčno, kaj si misliš in kaj čutiš, kadar vidiš mene?“</p>
+            <p n="SLV10013.109">„Nič slabega ne“.</p>
+            <p n="SLV10013.110">„Nič slabega — Za ti dve besedi bi se lahko pričkala Bog in satan. — Povej razločno, kar misliš“.</p>
+            <p n="SLV10013.111">„Vselej, ko te vidim, mislim si, da vidim revnega trpina; čut pa, ki me obhaja, ko te vidim, je čut usmiljenja“.</p>
+            <p n="SLV10013.112">Kako se je začudil Mirko, ko si je Sever po teh njegovih besedah otrl solzo, segel mu v roko in dejal iskreno:</p>
+            <p n="SLV10013.113">„Bog s teboj, brate! — Potekla so leta, odkar ni porosila solza tega lica, a danes ga je... Blagor tebi, mladenič, in tvoji materi, bodisi da živi ali da je vže mrtva! — Revež sem, nesrečen, strgan, zapuščen; a vedi, da bije tudi pod to razcapano zunanjostjo srce, v katerem tli še marsikatero blago čustvo. Prepričaš se o tem, ko bova dalje časa bivala pod isto streho“.</p>
+            <p n="SLV10013.114">„Kaj?“ vpraša strme Mirko. „Ti veš, da sem nameraval prositi te, da bi mi bil kuhar?“</p>
+            <p n="SLV10013.115">„Poslušaj, kako je bilo. — Danes sem bil v Lesju. Dobila sva se tam z gospodom župnikom. Začel mi je pripovedovati, da bi rad imel kuharja in da misliš nekaj na-me. Tudi župnik mi je svetoval, naj bi pustil to peripatetično, beraško postopanje ter se raje vstavil pod varno streho in v pošteni službi. Jaz — ne bodi en — sem se takoj poslovil od župnika ter šel v gozd, kjer sem tudi našel tebe in tvoj mošnjiček“. Nato privleče Sever iz žepa mošnjiček ter ga vrne Mirku. Mirka je spravilo to v vidno zadrego. Mislil bi bil skoro, da ima pred seboj čarovnika.</p>
+            <p n="SLV10013.116">„Nič ne bodi zbegan radi tega. Previdnost je krepost. — Zaupaj, a pazi, komu!“ pomiruje Sever Mirka, ki potem res zopet mirno nadaljuje pogovor.</p>
+            <p n="SLV10013.117">„Ah misliš torej res ostati pri meni?“</p>
+            <p n="SLV10013.118">„Mož-beseda! Ako je tebi prav, tu imaš roko“. In oba si krepko in odločno stisneta desnici. Potem pa pravi Sever Mirku:</p>
+            <p n="SLV10013.119">„Sedi malo sem k ognjišču na klop. Seznaniti te hočem malo se svojo preteklostjo. — O otroških letih povem ti samo to, da so bila najsrečnejša v mojem življenju. Preživel sem jih na Štajerskem blizu Maribora. Starišem se je zdelo, da sem bistre glave, zato so me poslali v mesto v šolo. Učil sem se res lahko; mudil se nisem v nobenem razredu predolgo. Koncem osme šole sem se odločil ali bolje odločili so me drugi — za duhovski stan. A duhovski poklic ni bil za-me; čutil sem to vže v celem višjem gimnaziju. Drugim sem se seveda bal razkriti svoje prepričanje, ker sem vedel, da žele stariši jedino le to, da bi me videli pred oltarjem. In res, nisem mogel drugače: šel sem, ali bolje moje telo je šlo v bogoslovnico, duh moj pa je ostal mej svetom, in z duhom tudi moja zadovoljnost. Kadarkoli je zapel semeniški zvonec, bodisi da nas je budil k jutranji molitvi ali pa klical k nočnemu počitku, vselej se mi je zdelo, da je pel nagrobnico moji sreči. — Videl sem uže naprej, da bo konec mojemu bivanju v semenišču žalosten. A pomagati si nisem ne mogel, ne znal takrat, in trpel sem, trpel grozovito. Morda bi se bil vendar udal s časom, a moje razmere bile so za bogoslovje uže predaleč. Vsadilo se mi je bilo namreč v srce lepo dekle iz rojstne vasi. — Prvo leto je še prešlo nekako, a drugo leto bilo mi je neznosno... Polotil se me je večkrat uže skoraj obup. Pri vsaki izpovedi tožil sem izpovedniku o svojem težkem stanju. Dobil sem od njega modrih svetov, a bil sem uže prešibak, da bi te svete dejanski izvajal v življenju. Da bi se izkopal iz te mučne potrtosti, pričel sem mnogo brati, in sicer vse od kraja, kar mi je prišlo v roke. A ozdravilo me ni tudi otanje, da, še poslabšalo je moje stanje. Opazil sem tu in tam sam pri sebi, da mi roje po glavi večkrat nenavadne, protislovne, zblojene misli. Konči moral sem pustiti učenje, in šel sem domov. Šel sem rad; saj je srce hotelo biti tam, kjer je bil njegov zaklad. — A kakšna prevara! — Dekle, poprej tako zvesto, se je izogibalo zmešanega študenta; da, celo sramovalo se je govoriti z menoj. — Sedaj priznavam, da je imelo prav. Prerana nezrela ljubezen ne zasluži drugega plačila... Čez kratko:</p>
+            <p n="SLV10013.120">„Deklica druz’ga moža je objela, Ki od ljubezni do nje sem bil vnet —“</p>
+            <p n="SLV10013.121">Neke noči — snežilo je in brila je ostra burja — sem spravil vse svoje reči v malo culico in pobegnil od doma. Pozneje sem pisal domov, naj mi pošljejo potni in domovni list. Ta je bila zadnja želja, ki so mi jo izpolnili stariši. Pisal jim nisem pozneje nobenkrat več. — Nekoliko časa taval sem okrog kakor izgubljen. Nazadnje me je prignala skrajna sila do vrat nekega samostana, v katerem sta bila dva moja sošolca redovnika. Poprosil sem, da bi se me usmilili ter mi dali v samostanu kako delo. Prav takrat so potrebovali še enega pomogača v kuhinji in to službo so odkazali meni. V tem samostanu sem prebil pet let ter se naučil prav dobro kuhati. Moja zmešanost me je skoraj popolnem popustila v mirnem samostanskem življenju. — Nekega dne pa — delal sem sam nekaj na vrtu — mi je začelo kar naenkrat zopet čudno vreti po možganih. Ne vedoč skoraj, kaj počenjam, sem pustil delo ter splezal čez samostanski zid na prosto. Drugega dne, ko sem se malo zbrihtal, mi je bilo žal, a vrnil se vendar nisem v samostan. Nekaj časa sem se potikal okrog brez dela in doma. Nazadnje me je zanesel vihar usode v te kraje, kjer se mudim vže dolgo vrsto let in kjer menim počakati jedino zvesto nevesto — belo smrt. Ljudstvo mi ugaja tu, kraj tudi. Doslej sem stanoval, ali bolje, prenočeval pri nekem beraču, Mraku, ki ima doli v Prelazju kos slamnate strehe.</p>
+            <p n="SLV10013.122">Priprosto življenje mej ljudstvom pripomoglo je mnogo, da sem skoraj do cela okreval na duhu; a vendar — to povem le tebi — se delam večkrat neumnega, ker vem, da zinem pod krinko norca lahko marsikatero, katere ne bi smel drugače.</p>
+            <p n="SLV10013.123">To, mladi gospodar moj, je površna slika mojega življenja“.Tako je zaključil Sever svoje pripovedovanje. Govorila sta potem z Mirkom še o tem in onem, kar pa nima za našo povest nikake važnosti.</p>
+         </div>
+         <div type="chapter">
+            <head>VI.</head>
+            <p n="SLV10013.124">„Kaj od mene proč oko, Proč obraz obračaš mili?“</p>
+            <p n="SLV10013.125">Prešern.</p>
+            <p n="SLV10013.126">Kdo ni pač uže doživel trenotka, ko je bil vesel, da je bil sam? — Važne skrbi, sladke misli, visokoleteči naklepi, v katere smo vtopljeni, narede nam samoto prijetno, da, celo potrebno.</p>
+            <p n="SLV10013.127">O resniniosti teh besed se je prepričala dva dni potem županova Milka. — Žela je ne daleč od hiše na polju deteljo. Videti je bila silno zamišljena, ker večkrat je prenehala žeti, se vzravnala kvišku in zrla nepremično proti trnovskemu gozdu.</p>
+            <p n="SLV10013.128">„Kako sem vendar nespametna!“ rekla je polglasno sama pri sebi, ko se je bila nekoč zopet vzbudila iz svoje zamišljenosti. „Noč in dan mislim nanj; a kaj hočem s tem!? — On je sedaj tu, kmalu bo drugje. — A vendar tako uljuden, prijazen in pošten človek... Oh, kako smo me ženske šibke!“</p>
+            <p n="SLV10013.129">Tu je naenkrat nehala govoriti, ker izza ograje ob potu se je prikazal visok, močan mladenič, Podleskov Tine, najstarejši sin precej premožnega kmeta v Prelazju. Prvi mah, ki mu je začel uprav malo hitreje poganjati pod nosom, je kazal, da mora biti mladenič blizu v dvajsetem letu. Stare vsevedne mamice so si pošepetavale pri svojih tajnih sestankih na uho, da pogleduje ta Tine Podleskov rad za Zagričarjevo Milko. Vrhu tega so uganile pa še z diplomatsko bistroumnostjo, da ne bosta Tine in Milka kar tako z lepa še mož in žena.</p>
+            <p n="SLV10013.130">„Je-li pretežko breme, ka-li, Milka, ker praviš, da si šibka?“ ogovoril jo je Tine, ki je bil ujel njene zadnje besede ter mislil, da so veljale bremenu detelje.</p>
+            <p n="SLV10013.131">„Kaj mi bo pretežko, saj nisem naložila še ničesar?“ odgovorila je Milka hladno.</p>
+            <p n="SLV10013.132">„Hencaj, kako si osorna danes!“</p>
+            <p n="SLV10013.133">„Nikdo ni rad, ako ga kdo moti pri delu“, odrezala se je kratko Milka, videvša, da je stopil Tine za korak bliže.</p>
+            <p n="SLV10013.134">„No, no, ti bodeča rožica! — Govorila bi lahko malo lepše z mano, saj nisem cigan, ki prosi slanine“.</p>
+            <p n="SLV10013.135">„Vem, da nisi, a jaz imam delo“.</p>
+            <p n="SLV10013.136">„Danes se ti pa res mudi z delom. — Ne smem te več nadlegovati. — Z Bogom, Milka!“</p>
+            <p n="SLV10013.137">„Z Bogom!“ odzdravila je Milka hladno kot poprej in začela nakladati nažeto deteljo v jerbas, katerega je potem zadela na glavo in nesla domov. Prišedša v hišo, odložila je jerbas v kot k peči ter stopila k ognjišču. A kako je ostrmela, ko je zagledala na klopi ob ognjišču Toneta Severja.</p>
+            <p n="SLV10013.138">„Kaj pa delaš sam tukaj, Tone?“</p>
+            <p n="SLV10013.139">„Solnce mi vzhaja, ko te vidim, dete Adamovo!“ vsklikne Sever ter pristavi važno: „Stopi bliže in poglej tu mojo dlan. — Ali vidiš kaj na njej?“</p>
+            <p n="SLV10013.140">„Seveda vidim“, odvrne se šegavim nasmehom Milka.</p>
+            <p n="SLV10013.141">„Kaj pa vidiš?“</p>
+            <p n="SLV10013.142">„No, kaj drugega, nego dlan?!“</p>
+            <p n="SLV10013.143">„Milka, tvoje oči preprega še mrena mladostne neizkušenosti, zato ne vidiš, kar vidim jaz. — Glej, tu je pisano, da nosiš ti v srcu skrivnost, katero se bojiš razodeti“, razlaga Tone in gleda nepremično in resno v dlan.</p>
+            <p n="SLV10013.144">„Blodi se ti menda, Tone!“ zasmeje se Milka, kakor bi bile Tonetove besede res popolnem prazne.</p>
+            <p n="SLV10013.145">„He ... he ... dekle! Norec sem, a mnogo vem, kar je drugim skrito — Glej, tvoje srce je mojim očem tako odkrito, kakor ta dlan. Ti si zardela enkrat pred cerkvijo, ko si ugledala nekega mladeniča. — Rdečica pomeni ljubezen“.</p>
+            <p n="SLV10013.146">„Ne daj Bog, da bi bilo vedno res, kar praviš! — Kolikokrat človek zardi, ne da bi se mu niti sanjalo o ljubezni“, pomaga si Milka iz vidne zadrege.</p>
+            <p n="SLV10013.147">„Hej, ti tajiš, a izdaja te rdečica na licih“. Nato umolkne Sever za trenotek; a kmalu stopi pred Milko z nenadnim vprašanjem:</p>
+            <p n="SLV10013.148">„Poznaš-li novega gozdarja?“</p>
+            <p n="SLV10013.149">Milka ne odgovori besedice, skrije obraz mej dlani in začne jokaje prositi Severja, naj ne pove tega nikomur.</p>
+            <p n="SLV10013.150">„Molčal bom kot grob. — Povem ti pa vrhu tega še, da vidi tudi moj gospodar rad brhko županovo Milko. Večkrat, ko sva se o čem pogovarjala, napeljal je kar nenadoma pogovor na-te ter me izpraševal o tebi in vaši hiši. To pomeni nekaj“.</p>
+            <p n="SLV10013.151">Milka molči: veselje in bojazen se bojujeta v njenem sreu. Sever jo gleda nekoliko časa, potem pa reče:</p>
+            <p n="SLV10013.152">„Izvedela si menda dovolj, Milka. Vidiš: tudi norec ve nekaj. — Pozdravi očeta, mater in Jožka, ko se vrnejo zvečer s polja. Z Bogom!“ In, kakor bi pihnil, je izginil Sever skozi vrata. Milka je stala še nekoliko časa nepremično na istem mestu, potem je pa šla vsa zamišljena v svojo sobico. Bog vedi, kaj je tam premišljevala.......</p>
+         </div>
+         <div type="chapter">
+            <head>VII.</head>
+            <p n="SLV10013.153">„Pomladje tu, družice ni, Ženiti se bo treba...“</p>
+            <p n="SLV10013.154">Ant. Hribar.</p>
+            <p n="SLV10013.155">Sever ni šel domov po krajši stezi, vodeči čez potok k studencu, ampak po kolovozu nizdolu skozi selo. Mudilo se mu ni, ker korakal je počasi. Sem pa tje je postal malo, kakor bi nekaj preudarjal. Komaj je bil prišel dober lučaj ven iz sela, kar ga sreča star, razcapan človek. Glava mu tiči do ušes pod velikim rujavim klobukom, na katerem je najmanj za tri obele maščobe. Neznanec je močno nagubančenega in zagorelega obraza, iz čegar sredine mu strči dolg nos višnjeve barve, — zanesljiva priča, da ni njegov začasni gospodar nič kaj slabo sporazumljen z ono „duhovito“ pijačo, katero je izumil človek le zato, da bi privezal pameti jezik, ko ne bi hotel, da bi ga rabila. — Na upognenem hrbtu mu počiva stara, natlačena vreča. O hlačah njegovih priznati moramo pa odkritosrčno in nepristransko, da takih se ne dobi kar tako za počen groš, ker so popolnem — prozorne. Črevlji so mu pa taki, da bi se smilili v srce vsakomur, ki ima le količkaj človeškega v sebi ali na sebi; ker revčki zevajo tako, kakor ne bi bili jedli uže cele kvatre. Vem, da je uže uganil bistroumni bralec, da ima pred seboj pristaša one, po vsem svetu razkropljene bratovščine, ki roma s prazno malho in kislim obrazom od praga do praga, od vasi do vasi.</p>
+            <p n="SLV10013.156">Bil je to Kozmek Mrak, glavni berač v celem županstvu. Motil bi se pa jako, kdor bi mislil, da ni imel Mrak lastne strehe. Bival je namreč v Prelazju v slamnati kolibi, ki ni imela druge prednosti, nego to, da je bila v vasi najmanjša. Podedoval jo je po svojih starih, ki so bili — ako smemo verjeti kroniki — istotako vpisani v malharsko bratovščino. Mrak je bil torej berač stare korenine. Najvažnejše je pa za nas to, da je bil našemu Severju iskren prijatelj. Prav radi tega srečal ga bo čestiti bralec večkrat v teku te povesti.</p>
+            <p n="SLV10013.157">„Hoho, Tone, kod te nosi slana, da te ni bilo tako dolgo ne na nebu, ne na zemlji?“ zakliče Kozmek uže od daleč Severju.</p>
+            <p n="SLV10013.158">„Kod nosi pa tebe šment, ako bi se smelo vedeti?“</p>
+            <p n="SLV10013.159">„Ha... ha, šment — šment nosi! Lahko vprašaš sedaj, ko si se prelevil v gospoda. — Kaj sva ti sedaj jaz in moja koliba!“</p>
+            <p n="SLV10013.160">„Ne govori tako, Kozmek, če nočeš, da sva si povedala sedaj zadnjo besedo! — Kako ti pa gre sedaj ? — Je-li kaj mokrega?“</p>
+            <p n="SLV10013.161">„Slabo, šmentrano slabo mi gre v tem oziru. Svet je slekel staro kožo. Nekdaj, ko smo se mi držali še malo bolj po konci, bilo je drugače. Pili smo ga — hej, da je bilo veselje!</p>
+            <p n="SLV10013.162">„Ha, kaj boš neki hvalil stare čase! — Piškavo bilo je nekdaj, piškavo je sedaj in piškavo bo do konca“.</p>
+            <p n="SLV10013.163">„Amen“ pristavi Mrak zroč zamišljeno v tla.</p>
+            <p n="SLV10013.164">„Potrpeti je treba pa biti vesel“, nadaljuje Sever. „Čemu bi se cmerdil? Saj veš kako smo peli nekdaj:</p>
+            <p n="SLV10013.165">Mošnjica je prazna, Kozarček izpit; A vendar še upam, Ker imam — kredit.</p>
+            <p n="SLV10013.166">Hojdri-hojlaleja, Hojdri-hojlalo, Ko drugega nimam, Pa pijem — vodo“.</p>
+            <p n="SLV10013.167">„Ej, ti lahko vriskaš in poješ, ker ti gre dobro; a pri meni je žaltava, veš, žaltava. Moj voz gre pod cesto“.</p>
+            <p n="SLV10013.168">„Buu... mraz me stresa! — Kako govoriš!? — Ti, Kozmek, čuj! — Kako je pa s tvoju ljubeznijo? Kaj pravi Špela?“</p>
+            <p n="SLV10013.169">„Se ti-li meša, ka-li? — Kakšna ljubezen ? — Špela? — Jaz sem nedolžen“.</p>
+            <p n="SLV10013.170">„Hm, čemu bi skrival meni? — Kar povej, kakor si mi povedal onega večera — bilo je o pustu — ko si se ga bil malo navlekel v Lesju“.</p>
+            <p n="SLV10013.171">„Jaz — povedal? — Pojdi, ne sanjaj ob belem dnevu!</p>
+            <p n="SLV10013.172">„Ni mi treba sanjati! — Povedal si mi, pa je. Še dobro vem, da so cikale tvoje besede nekako na zakon“.</p>
+            <p n="SLV10013.173">„Veš kaj, Tone? — Samec sem prišel na svet, samec pojdem v grob, tudi če bi letale za mano same princezinje. Vrag je ta, škrat je ona. Druga je hujša od druge“.</p>
+            <p n="SLV10013.174">„Ej, da bi ti vedel, kaj je žena možu, govoril bi drugače!“</p>
+            <p n="SLV10013.175">„I no, kaj je neki? — Žena je možu, kar oslu . Nositi ga mora, ko si naloži rad ali nerad.“</p>
+            <p n="SLV10013.176">„Ha, čemu bi se zvijal, Kozmek; saj vem, da misliš drugače, nego govoriš. Ti in Špela imata nekaj mej sabo in vzeti se mislita tudi. Kaj bi ongavil, ko je res tako!“</p>
+            <p n="SLV10013.177">„Gotovo ti je kdo vse to natvezil na nos. — A ne veruj vragu, ker vse je črno, kar oblazi se svojim jezikom. Kar se pa tiče ženitve, ljubezni in drugih nemožatih opravil, povem ti to-le: Če imaš ženo, je dobro; če je nimaš, je bolje; če je ne poželiš, je pa najbolje“.</p>
+            <p n="SLV10013.178">„Vse lepo in prav, Kozmekček. Povedal si jo kakor Salomon. — A priznal si vendar-le toliko, da je dobro imeti ženo, ha... ha...“</p>
+            <p n="SLV10013.179">„No — hentaj — kedaj sem pa to tajil? — V hiši so nekatera dela, katerih se ne more lotiti mož tako lahko, kakor ženska. Tudi pri meni — Bog me varuj slabe misli — ne bi bila sem pa tje nepotrebna kaka ženska roka“.</p>
+            <p n="SLV10013.180">„No vidiš, tako se govori! — Špela bi bila res kot nalašč za-te. — Če bi bil jaz v tvoji koži, ne bi odlašal s tem kar nič več. Res je ona malo priletna, a nič ne de, bode vsaj pametna“.</p>
+            <p n="SLV10013.181">„Kaj si dejal, — priletna? — Kako ti bo priletna? — Šestdeset jih je imela pomladi, ko so proso sejali, in tebi se zdi priletna ? — Najpripravnejše dekle je sedaj“.</p>
+            <p n="SLV10013.182">„Ali si pa vže govoril ž njo kaj o tem?“</p>
+            <p n="SLV10013.183">„Kdo pravi, da nisem? — Onega dne — bilo je o vseh svetih — sva šla skupaj opresnike brat v Lesje. Prav lepo je govorila tačas z menoj. Takoj mi je reklo srce: Kozmek, rabi pamet! — Bog ti ponuja družico. — Izpraševal sem jo o tem in onem in sem izvedel nazadnje, da je tudi njej težko biti sami brez pomoči in opore. Nato sem napeljal pogovor na zakonski stan, na svojo bajtico, na srečno življenje itd. Ona je vedela brž, kako in kaj. Solze so ji stopile v oči in rekla je: Vidim te prav rada, Kozmek, ker napačen nisi, neumen tudi ne, tudi v letih nisi, da bi človek dejal, a — kaj poreko ljudje, ljudje?!</p>
+            <p n="SLV10013.184">„In to te skrbi, ka-li?“</p>
+            <p n="SLV10013.185">„Skrbi me, skrbi, in še kako! Uže kedaj bi bila v lepi sreči skupaj živela se Špelo, ako ne bi se bila bala ljudij in — župnika“. — Debela solza se je prikotala pri tem Kozmeku po razoranem licu, in obraz se mu je nakremžil kakor na jok.</p>
+            <p n="SLV10013.186">„No, no Kozmekček, jokal pa mi ne boš. Ženiti se meniš, deš, pa se držiš kislo, kakor bi bil pojedel na tešče skledo kisle repe. — Ali ne veš, da mora biti vsak človek trikrat neumen? Namreč kot otrok, ko se ženi in na starost, ko leze v grob. Ti se ženiš sedaj. Bodi torej vsaj vesel, ako ne moreš biti neumen“.</p>
+            <p n="SLV10013.187">„Skoraj, da imaš prav. Kdor se ženi, ne umira in kdor umira se ne ženi. — Ali nekaj mi pravi notri pri srcu, da je ves moj trud zastonj. — Tone, zini ti pametno besedo! Povej, kaj mi je početi?“</p>
+            <p n="SLV10013.188">„Jaz ti svetujem: zastavi za dobro stvar meso in kosti. Poskusi srečo in podvizaj se, da ti je ne šapne kdo iz pred ust“.</p>
+            <p n="SLV10013.189">„Veš, Severček, prijatelja sva, odkar muhe brenče in volkovi tulijo. Marsikaj sva si uže povedala na uho, in vse je ostalo mej nama. — Veš, če bi znal jaz postaviti na papir, kar imam na jeziku, dokazal bi Špeli črno na belem, kako jo ljubim“.</p>
+            <p n="SLV10013.190">„Saj ni treba, da jej pišeš sam. Spišem ti lahko jaz, ti mi le poveš, kako in kaj misliš“.</p>
+            <p n="SLV10013.191">„Kosmata kapa, saj res! — Pisal bodeš ti, moje srce bo pa govorilo. To narediva lahko še danes, če vtegneš“.</p>
+            <p n="SLV10013.192">„I no, vtegnil bi, vtegnil. A treba črnila in papirja za pismo“.</p>
+            <p n="SLV10013.193">„Na — zlomek! — Tu imaš zopet! — Ko misli človek, da ima vse pri rokah, pa nima ničesar. — Hm, ono čobodro, ali kakor jo uže zmerjaš, uže na pravimo. Zmeša se kar malo vode in malo saj skupaj, pa je“.</p>
+            <p n="SLV10013.194">„To se ne bo prijelo papirja“.</p>
+            <p n="SLV10013.195">„Se pa oslini malo. — Ni zlomek, da ne bi se klek potem prijel“.</p>
+            <p n="SLV10013.196">„Ha... ha, ti si res iznajdljiv. Toda, za božjo voljo, ali potrosiš tako težko boro šestico za tako važno stvar?“</p>
+            <p n="SLV10013.197">„Kaj? — Celo šestico? — Jaz naj dam šestico za kapljo blodne vode? — Našel si pravega. — Padel nisem na glavo in potrlo se mi ni še nobeno kolesce. Za šestico dobim merico žganja, da ga bosta duša in želodec vesela. Kaj bom imel na od one vode?“</p>
+            <p n="SLV10013.198">„Kaj? — Še vprašaš? — Ženo boš imel, z ženo srečo in se srečo raj na zemlji. Ni-li to vredno šestice?“</p>
+            <p n="SLV10013.199">„Aaa — pamet nad žamet! Ženo moram dobiti zastonj, ali pa je nočem. — Zakaj jo je pa Adamu dal Bog zastonj in ga ni vprašal po šestici? Kaj, kaj pravim — po šestici! — Niti božjaka ni zahteval od njega“.</p>
+            <p n="SLV10013.200">„Hehe, ta je pa bosa! — Kaj, zastonj jo je dal Adamn? — Ali mu ni moral dati enega rebra zanjo?“</p>
+            <p n="SLV10013.201">„Kaj, rebro! — Jaz jim dam pet mesto enega, saj ga ni nič bolelo. — A šestice, šestice pa ne dam, raje pustim Špelo, kjer in kar je“.</p>
+            <p n="SLV10013.202">„S teboj ni kupčije, razven pri žganju. — A opravila nisva še. — Kje imaš pa papir? — Kje ga dobiš?“</p>
+            <p n="SLV10013.203">„Papir — hm... Aha, ga vže imam. Doma v skrinji imam list po rajnem očetu, — Bog mu daj nebesa — katerega mu je dal cesar, ko ga je izpustil od vojakov. Po eni plati je še popolnem bel. Dober bo, kaj meniš?“</p>
+            <p n="SLV10013.204">„I no, če bo za-te, bo tudi za-me. — Pa veš-li, da mora biti pismo zaprto?“</p>
+            <p n="SLV10013.205">„No, kaj ne bi vedel tega! — Ko je bila rajna mati — Bog jo shrani — še v nerodnih letih in je ravno jela pogledovati za rajnim očetom, imela je lepo škatljico. V tej škatljici hranila je samo žensko šaro. In kakor nalašč imam to škatljico še sedaj doma v skrinji. Volk me podiši, če ni ta škatljica varnejša za pisma, kakor vse pošte, kar jih leta okrog po deželi. — Toda, Tone, čemu bi izgubljala tukaj čas? — Stopiva v mojo kočo, da ukreneva takoj, česar treba“.</p>
+         </div>
+         <div type="chapter">
+            <head>VIII.</head>
+            <p n="SLV10013.206">„Čudna reč je zakon, Pa je imenitna...“</p>
+            <p n="SLV10013.207">Ant. Hribar.</p>
+            <p n="SLV10013.208">Molčte sta korakala nato Kozmek in Tone navzgor proti selu. Vsak je bil zatopljen v svoje misli. Kozmek poromal je v duhu najbrž naprej v one čase, ko bode živel srečno, sladko življenje z ljubljeno Špelo. — Tone je pa, hudomušno smeje se, mislil na odpustni list v stari skrinji, na lepo škatljico, na črnilo iz saj in na cvetočo — šestdesetletno devico Špelo. Videl je uže naprej, koliko smeha bo, ko se raznese novica o Kozmekovi ženitvi.</p>
+            <p n="SLV10013.209">Končno dospeta pred nizko, zakajeno kočo. Kozmek stopi naprej, odrine trhlen jesenov zapah pri durih in oba vstopita. — V koči je bilo v istem prostoru vse: kuhinja, klet, izba in spalnica. Sever je sedel kar brez prošenj in poklonov na staro klop ob ognjišču; Kozmek je pa privlekel v tem iz razpoke v zidu velik rjav ključ ter pričel odpirati skrinjo, v kateri je vže toliko let spal spanje pravičnih imenitni odpustni list. — Hudo je zaječala stara ključavnica, kakor bi ji bilo težko dati od sebe, kar je zaklepala toliko let. Nazadnje se je odprl pokrov in videlo se je v skrinji kup zakrpane obleke, nekoliko perila ne prav nedolžne zunanjosti in nekaj druge brezpomembne starine.</p>
+            <p n="SLV10013.210">Mrak je kar malo pobrodil po skrinji in takoj je prinesel ven nadepolni odpustni list. Veselo ga je razgrnil in dejal Severju:</p>
+            <p n="SLV10013.211">„Sedaj poglej, bo-li dober ali ne. Na tej strani je še bel in čist, da — Bog varuj žal besede! Res, da so ga uže malo oblazile muhe, a kaj bo to! — Kje pa ni muh, povej mi? — Povsod so, tudi na županovem nosu“.</p>
+            <p n="SLV10013.212">„Še nekaj! — Kje imas pa škatljo?“</p>
+            <p n="SLV10013.213">„Hej, ne bodi siten! — Saj ni še sodnji dan“, reče Mrak in privleče iz skrinje pisano škatljico od — „cikorije“.</p>
+            <p n="SLV10013.214">„Šment, to bo pa res pismo, da malo takih! Lahko ga bo Špela vesela“, vsklikne ironično Sever. „Toda, kje imaš pa pero? — Ali misliš, da bom pisal z nosom?“</p>
+            <p n="SLV10013.215">Strela iz jasnega so bile to besede Mraku. Obupne misli so mu švigale po glavi. Vže je imel na jeziku usodepolne besede: „Idi se solit Špela, ljubezen, zakon in sreča! Samec sem in ostanem do sodnjega dne“. A za časa se je spomnil, da nosi hlače, da je mož in da mož ne sme obupati nikdar. Ta misel na hlače — ga je potegnila od brezdna pogube in mu položila na jezik besede:</p>
+            <p n="SLV10013.216">„Bog in vsi svetniki! — Kje pa pero? — Mislil sem uže, da držim srečo za rep, a sedaj vidim, da sem še daleč od nje. — Svetuj mi, Tone, kaj naj počnem, a tako, da opravim lahko brez troškov.“</p>
+            <p n="SLV10013.217">„I no saj ni prav tako hudo, kakor misliš. Gosje pero dobi, pa sva na konju“.</p>
+            <p n="SLV10013.218">„Kaj, gosje pero? — No, gos in kokoš, obe sta prilezli iz jajca... Mrak, namiguje ti sreča! — Glej, prav sedaj je zunaj sosedov petelin... Kar za njim, pa izpuli mu pero. V njegovem repu tiči vsa tvoja sreča. — Ti, Tone, pripravi mej tem malo čobodre, da se bo lahko pisalo. Tu je lonec, tam voda, saje so povsod“.</p>
+            <p n="SLV10013.219">Nato se je spustil Mrak na perutih ljubezni kakor blisk za petelinom. Ta je kriče pobegnil na domače dvorišče in se zamešal mej kokoši, misleč, da bo tako zavarovan. A motil se je revež. Mrak je bil podjetnega duha, kakor še nikdar v svojem življenju. In kaj ne bi bil? Saj je ljubezen — vsemogočna. — Bal se ni niti tujega dvorišča, niti jezične sosede, niti kurje armade. Hlastno, kakor volk mej jagnjeta, je planil Kozmek mej kokoši, ki so se s kričanjem in kokodakanjem razpršile na vse strani. A Kozmek je bil hiter. Takoj je vjel za rep najmastnejšo in največjo kokoš, ki je bila opešala na obupnem begu. Predno je vedela kokoš, kako in kaj, ji je uže izpukal Kozmek tri peresa ter jo zopet izpustil. Nesreča je pa hotela, da je prihitela prav v tem stara Štrena v smrtnem strahu v hišno vežo, češ: kaj pač davi moje Ijubke putike? — V prvi razburjenosti je mislila, da je pritacala lisica mej drago ji kurjo obitelj; a kaka prevara! Mesto lisice zagleda soseda Mraka z dušo, telesom in kurjim peresom, moško korakajočega čez dvorišče. Pero je prešibko, da bi moglo povedati, kaj se je tačas godilo v Štrenini duši. — Dragi bralec, pomagaj si sam in spomni se — francozke revolucije. Jaz ti ne morem povedati več, nego da je pograbila Štreno zelena jeza pravičnih. Skočila je, kakor besna, v hišo po lopar in tako oborožena zakadila se v ubogega Kozmeka. Ako ne bi se bil ta takoj srečno umaknil, moral bi bil nesti črepinjo v nedriji domov, ker Štrena je mahnila s tako silo, da je lopar kar žvižgal po zraku. A nikar ne misli, dragi bralec, da je smuknilo radi tega Kozmeku srce v hlače. — Ne! — Takoj se je zavedel svojega moštva in naskočil zopet prvotno mesto.</p>
+            <p n="SLV10013.220">„Babišče! — Bog te vidi in zelenec te sliši! — Jezo v stran in lopar v kot, da ti ne povem drugače, kaj je Bog zapovedal Evi, predno si ti mahala z loparjem okrog sebe“. — Te besede govoril je Kozmek tako odločno in slovesno, da ni Štrena več dvignila loparja. A čakaj, mislila si je, z loparjem te ne bom, bom le pa z — loparčkom. In začela se je dreti, peniti in repenčiti:</p>
+            <p n="SLV10013.221">„Kaj ti hočejo moje kokoši? — Kaj preganjaš moje živali? — Kdo jih redi, ti ali jaz? — Tam imaš svoje gnezdo, tarn razsajaj, tarn gospodari, tam....“</p>
+            <p n="SLV10013.222">„Molči in premisli, da niso tvoje kokoši prav tako nedolžne, kakor se ti zde“.</p>
+            <p n="SLV10013.223">„Komu so storile moje kokoši kaj žalega? — Malhar malharski, beraški! Potepin, grdun, šleva, slepar, tat, zmikavt, rokomavh.... Poberi se, da te ne česnem z loparjem po butici!“</p>
+            <p n="SLV10013.224">„Česni no, le česni! — Pet srebrnih stane dandanes vsaka zaušnica...“</p>
+            <p n="SLV10013.225">„Skidaj se mi domov, malhar, domov!“</p>
+            <p n="SLV10013.226">„Ti boš mene gonila domov? — Te je-li še kje kaj, ali samo to, kar te tu vidim? — Mož je mož, a baba je škratelj, učil me je rajni oče, in prav je povedal“.</p>
+            <p n="SLV10013.227">„Spravi se mi domov, pa Bog ti posveti v črepinjo, budalo staro!“</p>
+            <p n="SLV10013.228">„Kaj, meni bo kdo svetil v črepinjo? — Tebi, tebi naj sveti, da boš imela vsaj toliko pameti, kolikor je imajo tvoje kokoši preveč. — Glej, one molče lepo sedaj in se ne dero, kakor ti, ker vedo, da jeza ni poštena reč. — Z Bogom, botra! — Ne zameri, da si zastonj mahnila z loparjem“. — S tem hladnokrvnim slovesom se je odpravil Mrak in korakal hitro proti domu. Botra Štrena je stala pa še dolgo na istem mestu in rentačila, da se je čulo v deveto vas. Jezilo jo je najbolj to, da ji je odgovarjal Mrak tako mirno. Nazadnje je pa vendar uvidela, da morata biti pri vsakem prepiru najmanj dva, in potegnila je „loparček“ za zobe, lopar je nesla pa v hišo.</p>
+         </div>
+         <div type="chapter">
+            <head>IX.</head>
+            <p n="SLV10013.229">„Čuk sedi, čuk sedi Na borovem trčku, Sam sedi, sam sedi, Sam devojku snubi“.</p>
+            <p n="SLV10013.230">Nar. p.</p>
+            <p n="SLV10013.231">Sever je bil mej tem pripravil iz saj, oglja in vode umazano vodo — črnilo na pozno ljubezen. Zdelo se mu je čudno, ker ni bilo Mraka toliko časa nazaj. A začuvši vpitje stare Štrene, je uganil takoj, kje tiči vzrok. Zato je pa nalašč povprašal vrnivšega se Mraka:</p>
+            <p n="SLV10013.232">„Kje si pa bil toliko časa?“</p>
+            <p n="SLV10013.233">„I, kje nekil — Pomudil sem se malo pri sosednji“.</p>
+            <p n="SLV10013.234">„Kregala sta se menda, ka-li?“</p>
+            <p n="SLV10013.235">„Hm, bilo ni sile... Ona rada vpije, jaz nerad molčim“.</p>
+            <p n="SLV10013.236">„No, Mrak, naj je bilo vže karkoli: — na delo! — Možak si, star si, pameten si tudi dovolj, da veš, da je pot do sreče trnjeva... Daj mi pero, da je narežem“.</p>
+            <p n="SLV10013.237">„Kaj? — Rezal boš? — Ne bo dal! — Jaz sem se toliko trudil, ti bi mi pa vse razrezal! Tega pa ne, dokler miga ta mezinec“, postavi se moško in odločno Kozmek, ki ni imel niti pojma ne o pisanju, ne o pisalnem peresu.</p>
+            <p n="SLV10013.238">„Kako bom pa pisal, ako malo ne narežem?“</p>
+            <p n="SLV10013.239">„Kakor hočeš; a povem ti, da rezal mi ne boš“, odreže se Kozmek zopet in skrije peresa za hrbet.</p>
+            <p n="SLV10013.240">„Daj mi eno pero, videl boš, da mu ne bo sile“, pregovarja ga z lepa Sever.</p>
+            <p n="SLV10013.241">„Na, — toda glej, kaj delaš!“ zagrozi se resno Kozmek ter mu da eno pero, ostali dve pa zaklene v skrinjo.</p>
+            <p n="SLV10013.242">Sever je jel nato narezovati pero. Kozmek ga je pa gledal, vedno pripravljen, da mu je vzame, ako bi bila sila. Ko je bilo pero pripravljeno, je pokleknil Sever na tla — drugače ni mogel namreč pisati na klopi — in čakal tako Kozmeka, da mu začne narekovati. Ta je pa stal zamišljen zraven, se praskal za ušesi in gledal gori v sajaste svili. Prestopal se je na levo in desno, hrkal in pokašljeval, kakor bi imel ikre v goltancu.</p>
+            <p n="SLV10013.243">„No, bo-li kaj, ali nič?“ povpraša nevoljno Sever čez nekoliko časa.</p>
+            <p n="SLV10013.244">„Le piši, kakor ti porečem... Stoj! — Ne še!“</p>
+            <p n="SLV10013.245">„Kdo te bo čakal? — Pisal bom kar sam“.</p>
+            <p n="SLV10013.246">„Saj res, prav imaš. — A ko končaš, mi prebereš vse“.</p>
+            <p n="SLV10013.247">„Ne boj se za to“ odvrne Sever in začne pisati:</p>
+            <p n="SLV10013.248">„Predrago srce mojega srca!</p>
+            <p n="SLV10013.249">S tresočo se roko sem prijel kurje pero in napisal par črnih besed na beli papir. Spominjaš se morebiti še, kako sva o vseh svetih brala opresnike. Povedala sva si tačas to in ono in bilo nama je dobro, kakor bi gledala od dales nebesa. Ti si rekla, da me vidiš rada, zlata Špela, jaz sem pa molče prikimal in dejal, da Te imam rad. Glej, manjkalo je tačas samo križa in bila bi mož in žena, kakor sva sedaj Kozmek in Špela. A križa ni bilo, in ga ni bilo, in midva sva bila in sva še, kar sva bila. In vendar — en sam križ, in midva bi bi bila, kar nisva. Ljubim Te na vse kriplje in pretege, ljubim Te v potu svojega obraza, prezlata Špela. Ljubim Te nad vse žgnajske merice in „frakeljčke“, nad vse gnjati in klobase, nad vse kislo in sladko. — Noč in dan precejam debele solze za teboj in tudi v spanjii rogovili mi Tvoja rajska podoba po glavi.</p>
+            <p n="SLV10013.250">Čas je, da odložim kurje pero, namočeno — v ognju moje ljubezni do Tebe. Prosim te lepo, potrudi se še ti, da se malo razvije najina stvar in da pride do cilja in konca. Tri tisoč tri sto in triintrideset poljubov čez hribe in doline notri do zelenega groba.</p>
+            <p n="SLV10013.251">Tvoj na veke zvesti</p>
+            <p n="SLV10013.252">Kozmek Mrak“.</p>
+            <p n="SLV10013.253">Nato prebere Tone pismo na glas. Kozmeka je tako pretreslo, da so se mu kakor bob debele solze udirale po licih.</p>
+            <p n="SLV10013.254">„Nadejam se, da bo Špela ganjena“, pripomni nalašč Sever, potem pa hlastno povpraša: „Kako pa pošlješ to pismo?“</p>
+            <p n="SLV10013.255">„Eh, kako! — Pritisne se gori cesarski pečat, pa gre lahko po pošti. Sicer ga pa ne mislim poslati po pošti, ker se mi ne zdi varno. Nocoj, ko bo uže vse spalo, kakor klada na tnalu, postavim škatljico s pismom na Špelino okno. Ni vrag, da ne bi ga videla zjutraj, ko vstane“.</p>
+            <p n="SLV10013.256">„Naj se pes obesi, ti Kozmekček si pa pretkana glavica! — Toda, meni se uže mudi domov. Srečno opravi. Z Bogom!“ Rekši, odide Sever naglo proti domu.</p>
+            <p n="SLV10013.257">„Z Bogom! — Povrni ti Bog, Tone; a Mrak tudi ne ostane umazan“, vpije srečni Kozmek za odhajajočim.</p>
+         </div>
+         <div type="chapter">
+            <head>X.</head>
+            <p n="SLV10013.258">„Tekel čas je mladih dni, Pome b’lo nikogar ni...“</p>
+            <p n="SLV10013.259">Prešeren.</p>
+            <p n="SLV10013.260">Nekoliko dnij potem je švedrala za ranega jutra nizdolu proti Lesju precej starikava ženska. Dolgi, uže malo osiveli lasje viseli so ji čez čelo, ne zmeneč se za staro ruto, ki jih je hotela zadržati na odmerjenem jim prostoru. Na obrazu starkinem je izklesal očanec čas uže marsikatero znamenje minljivosti.</p>
+            <p n="SLV10013.261">Tu imaš, dragi bralec, površno slike „zlate“ Špele, Kozmekove neveste. Res, čuditi se je Kozmeku in njegovemu ukusu.... Toda, kaj hocemo: — de gustibus....</p>
+            <p n="SLV10013.262">Nenavadno hitro je merila Špela korake po grdem kolovozu. Od časa do časa je privlekla varno iz nedrij zamazan list, na katerem je bilo nekaj prav bledega pisanja.</p>
+            <p n="SLV10013.263">Dospela je bila uže do znamenja sv. Jurija, ki je stalo pred Lesjem. Tu je naenkrat obstala, vzela zopet list iz nedrij, sedla v travo ob poti in jela migati z ustnicami, kakor da bi brala. Kmalu je pa zopet spravila list, se zagledala v podobo sv. Jurija in začela sama pri sebi polglasno:</p>
+            <p n="SLV10013.264">„O sv. Jurček, naš varih! — Bi mi-li mogel ti razkriti, kaj je prineslo na moje okno to pisanje? — O povej mi, če veš, povej! — Kaj mara pač nas gospod župnik, ki zmeraj bere na bukve, še po noči. — Ti Špela pa, ti ne znaš ne brati, ne pisati. Učila se nisi, zato pa ne znaš. — K župniku moraš sedaj, reva... Pokazati moraš drugim, kar bi lahko vedela sama.... Ta papir ni prazen... Tu ni brez skrivnosti... Sreča, Špela, sreča morda in bogastvo...“</p>
+            <p n="SLV10013.265">V tem se oglase zvonovi cerkve sv. Jurija v Lesju. Špela plane nemudoma kvišku in se podviza proti cerkvi k maši.</p>
+            <p n="SLV10013.266">Cerkev je bila malone prazna, ker je bil le navaden delaven dan. Tu pa tam je klečal na kameniten tlaku star ded z molekom v roki in pobožno žebral svoje molitvice. Drugje klečala je zopet uvela mamica in zrla se solznimi očmi na altar.... Špela pa je pokleknila prav sredi cerkve. Klečala je na obeh kolenih, zgorenji del života močno naprej sklonjen. Molila je tako goreče, da se ji je moral čuditi vsak, ki jo je poznal in videl....</p>
+            <p n="SLV10013.267">Končala je sveta maša, a Špela je le še molila in vzdihovala. Stari Drozeg, uže od pamtiveka cerkovnik in ključar v Lesju, je bil uže davno vse pospravil po sakristiji, ko se je še-le odpravila Špela iz cerkve proti župnišču.</p>
+            <p n="SLV10013.268">„Hvaljen bodi Jezus Kristus! — Bog daj dobro jutro! — Rada bi govorila z gospodom župnikom“, ogovori ponižno in priliznjeno Špela župnikovo služabnico, vstopivša v kuhinjo.</p>
+            <p n="SLV10013.269">„Počakajte malo“, reče stara služabnica in odide v sobo, ki je stala nasproti kuhinji. Kmalu pa pride nazaj in pove Špeli, da Iahko vstopi v gospodovo sobo. Se svetim strahom stopi Špela pred župnika in začne:</p>
+            <p n="SLV10013.270">„Prišla sem, gospod župnik, semkaj s posebnim opravkom. Ne zamerite, da sem tako nadležna; a nisem si mogla pomagati drugače. Vem pa tudi, da mi...“</p>
+            <p n="SLV10013.271">„No, no, le hitro povej, kar imaš“, pretrga ji župnik besedo.</p>
+            <p n="SLV10013.272">„Vem, da mi radi pomorete, gospod župnik. Če bi znala sama brati, ne bi prišla sem nadlegovat, ker vem, da imate...“</p>
+            <p n="SLV10013.273">„Ali ne bo še konca?“</p>
+            <p n="SLV10013.274">„Vem, gospod župnik, da imate dela čez glavo... Sedaj pa povem. Ko sem predvčeranjim zjutraj vstala, našla sem v leseni škatljici na oknu ta list“. Nato izroči župniku s tresočo roko list in nadaljuje: „Čudno se mi je zdelo pisanje, in rekla sem sama pri sebi: Špela, nikar ne bodi šibke pameti! Bog ve, kaj pomeni to pisanje. V loteriji te čaka terno ali pa kje drugod velika sreča. Bog dela še zmeraj čudeže, da pomaga revežem, ki so res potrebni“.</p>
+            <p n="SLV10013.275">Župnik se ni niti zmenil za Špeline čenče, ampak se je lotil kar branja. A pisava na listu je bila tako bleda, da je moral nazadnje pomagati si z naočniki. Špelo je to veselilo, ker si je mislila, da mora uže biti nekaj posebnega, ko si mora gospod župnik se štirimi očmi pomagati. Še bolj je bila pa v svoji misli potrjena, ko je videla, kako se župniku čelo bolj in bolj grbanči, obraz zresnuje.... Kmalu se ni mogla več vzdrževati, ampak vskliknila je vsa vzradoščena:</p>
+            <p n="SLV10013.276">„Nikar ne strmite, gospod župnik, nikar; temveč veselite se z menoj!“</p>
+            <p n="SLV10013.277">„Špela, si-li ob pamet?“ reče župnik ostro in resno.</p>
+            <p n="SLV10013.278">„Ne ob pamet, gospod župnik, ne! — Špela je srečna, bogata, ne več razcapana, ne več beračica...“</p>
+            <p n="SLV10013.279">„Špela, jaz te ne razumem!“ reče zopet župnik in gleda strmec sedaj Špelo, sedaj list.</p>
+            <p n="SLV10013.280">„Kako ne? — Saj je pisano“.</p>
+            <p n="SLV10013.281">„Ženska, ali res ničesar ne slutiš?“ prične župnik s huda in resno.</p>
+            <p n="SLV10013.282">„Kaj ne bi slutila! — Slutim pač slutim, a brati ne znam. Ta papir mi prorokuje srečo — —“</p>
+            <p n="SLV10013.283">„Kakšno srečo?“</p>
+            <p n="SLV10013.284">„No, denar in še kaj drugega — —“</p>
+            <p n="SLV10013.285">„Dozdevalo se mi je, da tu ni vse prav. — Tega lista ne dobiš nazaj“, pravi nato župnik in vtakne list v žep.</p>
+            <p n="SLV10013.286">„Kaj!? — Kako, gospod župnik? — Bog vam daj zdravje in srečno smrt; list pa nazaj“.</p>
+            <p n="SLV10013.287">„Sedaj ne še“.</p>
+            <p n="SLV10013.288">„Kedaj pa?“</p>
+            <p n="SLV10013.289">„Ko se prepričam, koliko je resnice na tem, kar sem bral v listu“.</p>
+            <p n="SLV10013.290">„Zagotovim vas, gospod župnik, da je vse sama živa resnica. Papir ne laže: Špelo čaka sreča“.</p>
+            <p n="SLV10013.291">„Torej je res, da imaš znanje z beračem Mrakom in da se mislita vzeti?“</p>
+            <p n="SLV10013.292">„List nazaj, gospod župnik, list nazaj! — Naj bo Mrak berač, a Špelo čaka sreča, sreča — —“.</p>
+            <p n="SLV10013.293">„Povej, ali imaš kaj opraviti z Mrakom ?“</p>
+            <p n="SLV10013.294">„Mrak je spak; — a moja sreča, moj list...“</p>
+            <p n="SLV10013.295">„Odgovori, kar te vprašam, drugače — —“.</p>
+            <p n="SLV10013.296">„Seveda imam opraviti z Mrakom. — Ali ni tudi on berač? — Jeseni sva brala skupaj opresnike, krompir in oblice. — Sedaj mi pa daste papir, gospod župnik, ne-li?“</p>
+            <p n="SLV10013.297">„Še norčevala se boš z menoj?“</p>
+            <p n="SLV10013.298">„Bog me varuj tega!“</p>
+            <p n="SLV10013.299">„Pokažem Ti vrata!“</p>
+            <p n="SLV10013.300">„Papir, gospod župnik, papir, — ne vrata. Mudi se mi domov“, prosi Špela jokaje.</p>
+            <p n="SLV10013.301">„Mir sedaj, in jezik za zobmi! Spametuj se; solze pa shrani za čase, ko jih bodeš potrebovala bolj, nego sedaj. Ničesar nimaš na svetu, kakor prazno malho in podrto kolibo, pa bi se hotela možiti!? — Sedaj pa le pojdi. Opravila sva“. Župnik se na to obrne in odide k pisalni mizi. Takoj se pa zopet oglasi in naroči odhajajoči Špeli: „Reci Mraku, naj pride k meni“.</p>
+            <p n="SLV10013.302">Potrta in žalostna je šla Špela iz župnišča. Srečevali so jo vaščani, a zmenila se ni za nikogar tako, da so nekateri uže ugibali, kaj se je moralo neki pripetiti, da je blebetava Špela izgubila besedo...</p>
+            <p n="SLV10013.303">„Vse svoje žive dni“, mrmra Špela mej potjo sama pri sebi, „ni mi še tako huda predla, kakor danes. Največ miloščine dobivala sem doslej pri župniku, in sedaj je vse skaženo.... O ti Mrak, stari spak, kam si me pripravil! Čakaj, škratelj! — Prideva uže enkrat do računa....“</p>
+         </div>
+         <div type="chapter">
+            <head>XI.</head>
+            <p n="SLV10013.304">„Petelin šel pod okence, Potrkal je na polkence. Prišla je majhna mačica, Podala mu je tačico“.</p>
+            <p n="SLV10013.305">Nar. p.</p>
+            <p n="SLV10013.306">Temna polnoč je ležela nad Prelazjem v soboto potem. Vse v vasi je bilo uže pozaspalo, tudi lajanje psov se je čulo le poredkoma. Motilo je nočno tišino le enakomerno ploskanje dežja. — Obsorej je pritipal po ozki gazi mej hišami človek, noseč na ramenu kratko lestvico. Tiho in oprezno je stopal po zagreznem blatu in nazadnje obstal pred jednonadstropno kočo. Lestvico je pristavil k zidu tako, da je prišla z gorenjim koncem uprav pod malo okence pod streho.</p>
+            <p n="SLV10013.307">„Sedaj poskusiš pa srečo Kozmek“, dejal je sam pri sebi ponočnjak, ki ni bil nikdo drug, nego berač Kozmek Mrak. „Glej, vse je tiho, vse spi, kakor polh v duplu.... Bog in vsi sveti, pomagajte mi, da dobim Špelico! —“</p>
+            <p n="SLV10013.308">Nato je začel Kozmek počasi in oprezno kobacati navzgor po lestvi. Prišel je bil uže do okenca in hotel potrkati, kar je rekel klin pod nogami; „hrsk!“ — in Kozmek je cmoknil vznak na tla — v blato.</p>
+            <p n="SLV10013.309">„Prokleta lestva, da bi te griža!“ klel je tiho Kozmek pobiraje se iz blata. „Vrag Te podiši, trhlena burkla! — Toda, čemu bi se jezil, saj se mi ni pripetilo nič hudega? — Kaj bo to, če sede človek malo v blato! — Šment, ženim se, pa bi se zmenil za take reči! — Naj velja kar hoče: dvakrat se lahko poskusi vsako pošteno delo“ —.</p>
+            <p n="SLV10013.310">In zopet se je spravil na lestvo. Previdno in počasi je prekoračil pomanjkljivi klin in prišel z glavo uprav do okna Špeline spalnice.</p>
+            <p n="SLV10013.311">„Špelica, Špelica, Tvoj Kozmek je tukaj!“ klical je Kozmek polglasno in se dotikal z nosom šipe v oknu. „Špelica, vstani, izpregovori, reci le besedico. in — Tvoj Kozmek bo srečen... Srce mi gori in živi le za-te... Duša mi pravi, da morava biti midva — mož in žena... S teboj, Špelica, stojim, s teboj padem... Vse, kar imam, bo Tvoje.... Ti boš nosila hlače, krilo in klobuk, jaz ti bom pa bos in gologlav — hlapec...“ Sedaj je Kozmek malo prenehal ter vlekel na uho, če se morda notri kaj oglasi ali zgane. Toda nič — vse tiho...“</p>
+            <p n="SLV10013.312">„Oh Špelica, kje imaš srce, da me puščaš tu v temi!“ zajavkal je Kozmek še glasneje, nego poprej. A vse zastonj. Špela je molčala in spala. — Kozmeka je pograbila uže majhna nevolja. Začel je torej precej močno trkati na šipe in okvir v oknu. Nazadnje se mu je res zdelo, da je notri nekaj zamrmralo. A kmalu je bilo zopet vse tiho.</p>
+            <p n="SLV10013.313">„Hm“, misli si Kozmek,“ prebudila se je bila malo, legla na drugo uho, pa zopet zaspala. O, da bi ona vedela, kdo je pred oknom, ne zmenila bi se več za spanje...“ Po teh mislih z novim upom navdahnen, butne Kozmek s pestjo ob okvir, da je vse zazvenelo: in to je pomagalo. —</p>
+            <p n="SLV10013.314">Kar naenkrat se začuje od znotraj grozovito vpitje:</p>
+            <p n="SLV10013.315">„Pomagajte, ljudje božji, pomagajte! O Bog, bodi mi milostljiv! — Škratelj je pred oknom, sam škratelj... Joj meui, joj meni! — O Bog, odpusti mi grehe! — Jaz umrjem, jaz umrjem...“ Nato je za trenotek vse vtihnilo, a takoj se je začulo še hujše vpitje:</p>
+            <p n="SLV10013.316">„Joj meni, vže zopet nabija! — Po župnika, ljudje božji, po župnika, hitite, hitite... Sem opravljala, klela, sovražila berača Kozmeka... O, žal mi je, iz srca žal!“</p>
+            <p n="SLV10013.317">Zadnje besede so tako nemilo pretresle Kozmeka, da bi bil kmalu zopet telebnil z lestve v blato. A dobro, da ni imel tedaj časa premišljevati o teh besedah, ker mu je stala preživo pred očmi — zakonska sreča. Ali nocoj, ali pa nikdar, si je mislil, ter začel z medenimi ljubeznivimi besedami tolažiti do smrti preplašeno Špelo. Dokazoval ji je na razne bolj in manj vspešne načine, da ni pred okuom ne škratlja, ne vraga, ampak njen dragi Kozmek. — A Špela je trdila trdovratno le svojo in se ni dala preveriti, da Kozmek ni škratelj. Še-le po dolgem pričkanju in pravdanju so se odmašila Špeli ušesa toliko, da je spoznala po glasu starega znanca in kolega — Kozmeka Mraka. Razveselilo je pa to spoznanje nikakor ni, ampak jo je še bolj razjarilo. Spomnila se je bila namreč dogodka v župnišču. — Začela je Kozmeka tako neusmiljeno oštevati in zmerjati, da se je siromaku kar v glavi vrtelo. Od presenečenja ni mogel izpregovoriti niti besedice, dasi je bil poprej trdno sklenil, da povpraša to noč Špelo odločno, ali ga hoče, ali ne. Vsi sklepi so splavali po vodi, ko ga je jela Špela obkladati s priimki, kakoršnih ne bi bil nikdar pričakoval od nje. Molčal je, kakor kamen. To molčanje je pa se bolj uverilo Špelo o njegovi krivdi; zato ga je še z večjim ognjem in navdušenjem oštevala.</p>
+            <p n="SLV10013.318">Nazadnje udrla se je Kozmeku po licu debela solza bridke prevare, začel je — jokati... Z ginljivim „tremolo“ je prosil svojo neusmiljeno, naj mu da vsaj toliko odloga, da se opraviči; a vse zastonj: Špelin jezik je tekel in drdral neprenehoma. Obupal pa Kozmek vendar še ni, ampak začel je še mileje prositi in tarnati. Pa kak vspeh so imele njegove prošnje in solze?!... Naenkrat se odpre okno in — bedenj mrzle vode vcedi se Kozmeku čez glavo in hrbet. — Zamrzlelo ga je, da je zarujovel kakor obstreljen volk in telebnil z lestve na tla. — A ta voda je zanetila v Kozmekovein srcu ogenj svete jeze. Krčevito je stisnil pest, jo pomolel proti Špelinemu oknu in dejal:</p>
+            <p n="SLV10013.319">„Volk te podiši, Špela špelasta! — Da bi dobila konjski lišaj in plešo kakor luna veliko! — Drugo pot naj te snubi škratelj, jaz te ne bom več. — Z Bogom, copernica, ki jahaš metlo!“ Nato popade Kozmek lestvo in odide nevoljen domov....</p>
+         </div>
+         <div type="chapter">
+            <head>XII.</head>
+            <p n="SLV10013.320">„Lehka pač v gozdu je stopinja, Ko solnce žge po zemlji žejni. Mehka te senca tod ogrinja: V nji zrak ti veje blagodejni.</p>
+            <p n="SLV10013.321">Ant. Hribar.</p>
+            <p n="SLV10013.322">Vdarci sekir in enakomerno hreščanje žag je odmevalo jasnega poletnega jutra po trnovskem gozdu. Gozdar Mirko in nadgozdar Hostnik sta stala na nizkem, golem gričku sredi mej drvarji in se razgovarjala.</p>
+            <p n="SLV10013.323">„Najeli ste pridnih delavcev, gospod nadgozdar“, pravi Mirko in gleda zadovoljno krepke drvarje.</p>
+            <p n="SLV10013.324">„No, vsi bi še bili, le oni dolgin Podleskov mi ne ugaja. Neprenehoma zija okoli, govori in se smeje“, odvrne nadgozdar, kažoč Mirku orjaškega mladeniča, Podleskovega Tineta.</p>
+            <p n="SLV10013.325">„Opazil sem tudi jaz“, pripomni Mirko, „da se nekako čudno vede ta človek“.</p>
+            <p n="SLV10013.326">„Uprav sinoči me je prišel njegov oče prosit, da ne bi dal sinu več zaslužka v gozdu, ker ima doma pri živini in na polju dovolj dela“.</p>
+            <p n="SLV10013.327">„Je-li od premožne hiše?“</p>
+            <p n="SLV10013.328">„Njegov oče ima srednjo kmetijo, a brez novčiča dolga. — Toda jedini sin, ki ga ima, bo spravil po smrti starega vse na boden. — Uže sedaj se mu ne ljubi delati doma. Kar zasluži mej tednom, zapije v nedeljo“.</p>
+            <p n="SLV10013.329">„Škoda za hišo! — Dandanes so posestva brez dolga bele vrane“.</p>
+            <p n="SLV10013.330">„Res — škoda! — Fant bi imel pa tudi še srečo, ako bi hotel hiti pameten. Županovo Milko, brhko, vzgldno deklico, bi kot nevesto hišo; a tako ne bo menda nič“.</p>
+            <p n="SLV10013.331">„Menite?“ zavpraša skoraj nevede in nehote Mirko vidno zbegan — —</p>
+            <p n="SLV10013.332">„Zagričar je previden mož. — Dal ne bo hčere od hiše.</p>
+            <p n="SLV10013.333">„Ali morebiti mladenič tudi uže kaj misli na ovo hčer?“ poizveduje Mirko navidezno hladno . —</p>
+            <p n="SLV10013.334">„No, seveda. — Sosedje so, dekletce je čedne zunanjosti... Toda pustiva to, saj naju itak nič ne briga. — Hotel sem nekaj reči — — — A, da! — Drevi izplačajte Podleskovemu vse dnine, — menda ima tri — in odslovite ga, naj gre domov pomagat očetu“.</p>
+            <p n="SLV10013.335">„Kakor velite, gospod nadgozdar“.</p>
+            <p n="SLV10013.336">„Kako ste zadovoljni se Severjem?“ zasukne naenkrat nadgozdar, in poznalo se mu je, da ga je radovednost napeljala k temu vprašanju.</p>
+            <p n="SLV10013.337">„Povem odkritosrčno, gospod nadgozdar, da vam bom vedno hvaležen, ker ste mi nasvetovali takega slugo. — Svoje delo opravlja tako, da sem zadovoljen; vrhu tega izvem pa tudi od njega marsikatero, ker je dovtipen in učen“.</p>
+            <p n="SLV10013.338">„Zakaj pa ne prideta nikoli oba k meni? — Jaz in soproga sva sama, družine nimava. — Veselilo naju bo zelo vselej, ko prideta, da se malo pokratkčasimo“.</p>
+            <p n="SLV10013.339">„Oprostite, gospod nadgozdar, kar se še ni zgodilo, se lahko še zgodi. Hvala za prijazno povabilo!“</p>
+            <p n="SLV10013.340">„Veselilo bi me pa, ako bi se to zgodilo kmalu, — recimo uže prihodnjo nedeljo“.</p>
+            <p n="SLV10013.341">„Kar se tiče mene velja; a za Toneta — —“</p>
+            <p n="SLV10013.342">„Kaj? — Ne mara-li priti?“</p>
+            <p n="SLV10013.343">„Maral bi, ... a kaj hočete, original. — Ne morem ga pregovoriti, da bi oblekel novo obleko, ki sem mu jo kupil“.</p>
+            <p n="SLV10013.344">„Kako ne?!“</p>
+            <p n="SLV10013.345">„Trdi, da je ni še zaslužil“.</p>
+            <p n="SLV10013.346">„Ha... ha..., ta je pa res originalna!“ zasmeje se nadgozdar in pridene: „Takih poslov je malo“.</p>
+            <p n="SLV10013.347">„A Tone govori to popolnoma resno“.</p>
+            <p n="SLV10013.348">„Recite, da ga prosita moja gospa in jaz, naj vas uboga ter nas poseti v novi obleki, da se malo posmejemo. Ne pozabite, prosim, v nedeljo! — Na svidenje!“</p>
+            <p n="SLV10013.349">Nato odide nadgozdar proti domu; Mirko pa gre k delavcem in se prijazno razgovarja sedaj s tem, sedaj z onim.</p>
+         </div>
+         <div type="chapter">
+            <head>XIII.</head>
+            <p n="SLV10013.350">„Kadar pri mizi sedim, Glažžek v rok’ držim, Se srce mi smeje. Oj kakšno veselje!“</p>
+            <p n="SLV10013.351">Nar. p.</p>
+            <p n="SLV10013.352">Majhno uro hoda proč od Mirkovega stanovanja je stala sredi velike jase nadgozdarjeva hiša. Bila je mnogo večja, nego Mirkova, nikakor pa ne lepša, ker zidovje ji je bilo uže zastarelo in očrnelo. Krog in krog hiše je bil prostoren vrt, obdan z živim plotom in zasajen z razno zelenjavo, a tudi z mnogovrstnimi cvetlicami.</p>
+            <p n="SLV10013.353">Solnce se je nagibalo uže blizu proti štirih popoludne, ko sta korakala po vrtu proti nadgozdarjevi hiši Mirko in Sever. Tega bilo je komaj poznati, ker je bil nov ves, od pete do glave.</p>
+            <p n="SLV10013.354">Še predno sta prišla do hiše, vsprejela sta ju uže s prisrčno prijaznostjo nadgozdar in njegova gospa, nekoliko čez štirideset let stara, šibkotna ženska, prikupljive zunanjosti.</p>
+            <p n="SLV10013.355">Predstavlja se vam, cenjena gospa, — stari norec v novi obleki“, ogovori Sever nadgozdarico, ki ga je pa uže mnogo let poznala.</p>
+            <p n="SLV10013.356">„No, Tone, le notri, potem si kako povemo po domače“ de nadgozdar in spravi Toneta v vežo, od tam pa v priprosto, a ukusno opravljeno sobo, kjer je že čakal Mirko. Kmalo sede vsi, razven gospe, za majhno, štirioglato mizo. — Čez nekoliko časa pride tudi gospa in prinese na mizo bokal vipavca in pa krožnik suhe svinjine ter sede k gostom.</p>
+            <p n="SLV10013.357">„Aha, — v tem je resnica!“ oglasi se šegavo Sever, zroč v polni bokal.</p>
+            <p n="SLV10013.358">„Ven z resnico! — Vsak naj jo pokusi nekoliko!“ pridene takoj nadgozdar in nalije vsem kozarce.</p>
+            <p n="SLV10013.359">„Kaj? — Samo nekoliko?“ poseže vmes Mirko in pogleda od strani Severja, ki se takoj resno postavi:</p>
+            <p n="SLV10013.360">„Ali celo, ali nič! — Resnica je nerazdeljiva. — Ni-li res, gospa?“</p>
+            <p n="SLV10013.361">„Res je; prav imaš, Tone“, pritrdi gospa smeje se.</p>
+            <p n="SLV10013.362">„Torej bodi! — Tu imaš, Tone, cela naj bo tvoja“ de nadgozdar in postavi pred Toneta bokal.</p>
+            <p n="SLV10013.363">„Zlezla mu bo v lase,“ pripomni Mirko.</p>
+            <p n="SLV10013.364">„Lase lahko odstrižem“, odreže se Sever navidezno resno, drugi se mu pa smejejo.</p>
+            <p n="SLV10013.365">Nato opomni gospa uljudno goste, da treba tudi malo jesti in malo piti, ako hočejo biti dolgo časa zgovorni in dovtipni. In vsi so ubogali gospo. Jedli so in pili ter bili nekoliko časa precej tihi. Nazadnje je pa Sever vstal, prijel kozarec in napil:</p>
+            <p n="SLV10013.366">„Živela naprej resnica! — Živela gospod nadgozdar in gospa! — Živel naš Mirko! — Živela žeja, dokler se nam vinček v bokalu smeja!“</p>
+            <p n="SLV10013.367">Vsi so veselo smeje se vstali in trčili drug drugemu na zdravje. Kar pol kozarca ga ja potegnil Sever v dušku ter se zadovoljno oddahnil:</p>
+            <p n="SLV10013.368">„Star študent ga pije, kakor šolska goba...“</p>
+            <p n="SLV10013.369">„Gospod Mirko, kako to, da ste danes tako tihi?“ povpraša prijazno gospa, ki je uže več časa skrivaje opazovala nagovorjenca.</p>
+            <p n="SLV10013.370">„Sam ne vem“, odvrne Mirko malo v zadregi. „Vstal sem morda davi z levo nogo“.</p>
+            <p n="SLV10013.371">„No, ako ni hujšega vzroka“, poseže vmes nadgozdar, „to preide kmalu“.</p>
+            <p n="SLV10013.372">„Mirko, — pogum! — Pij! — Vtopi skrbi v vinu!“ oglasi se Sever z glasom, ki je očitno kazal, da ve za vzrok Mirkove molčečnosti.</p>
+            <p n="SLV10013.373">„Ti nič izdajaš, Tone“, reče pol resno, pol šaljivo Mirko.</p>
+            <p n="SLV10013.374">„Ha, — izdajam skrivnosti, ki ne zaslužijo tega imena“, zasmeje se Sever.</p>
+            <p n="SLV10013.375">„Prav imaš“, pritrdi mu nekako zadovoljno Mirko. „Čemu bi skrival? — Povedati hočem, kaj me dela tako tihega. — Spominjate se gotovo še, gospod nadgozdar, da ste mi naročili v sredo, naj odpustim od dela mladeniča, Podleskovega Tineta. Naredil sem, kakor ste mi veleli: še istega večera izplačal sem mu, kar je zaslužil, ter ga odslovil. Molče, a z izpremenjenim obrazom, je vzel denar ter mi odhajaje zagrozil s pestjo“. — Tu preneha Mirko, kakor da bi hotel počakati, kaj poreče nadgozdar. Nekaj hipov je vse tiho, potem pa vstane nadgozdar, vpre obe pesti trdo ob mizo, ter vpraša, vidno razburjen, resno in odločno Mirka:</p>
+            <p n="SLV10013.376">„Imate-li priče?“</p>
+            <p n="SLV10013.377">„Ne; godilo se je vse to na štiri oči, ker nisem hotel osramotiti mladeniča vpričo drugih delavcev“.</p>
+            <p n="SLV10013.378">„Mirko, vi ste predobri! — A prav je, da ste razkrili to stvar meni; čutil bo še fant, kaj se pravi —“ reče nadgozdar in sede.</p>
+            <p n="SLV10013.379">„Ako smem prositi, gospod nadgozdar“, oglasi se Mirko, „pustimo vse to v miru. Ne bilo bi mi ljubo, ako bi si v tujem kraju nakopal na glavo sovražnikov. — Mladenič se bo pomiril in pozabil, kar je bilo...“</p>
+            <p n="SLV10013.380">„Ako sami tako želite, dragi prijatelj“, odgovori nadgozdar malo mirneje, „bodi! Prizanesem mu za sedaj. Če se vam pa še kedaj zgodi tudi najmanjša krivica, kar naznanite mi“.</p>
+            <p n="SLV10013.381">Tako je potekla prijateljski družbi pri nadgozdarju onega popoludne ura za uro. Kozarec za kozarcem bil je poln in zopet prazen. Beseda je dala besedo; dovtip in resnoba segala sta si v roko, dokler ni nastal trd mrak, — čas odhoda.</p>
+            <p n="SLV10013.382">„Lahko noč!“ voščijo si prijazno drug drugemu in Mirko in Sever odideta.</p>
+            <p n="SLV10013.383">„Nocoj ne pojdcva po navadni stezi, ampak ubereva jo po stranski, ki je krajša“, de Sever, ko sta stopila čez prelaz nadgozdarjevega vrta.</p>
+            <p n="SLV10013.384">„Čemu neki? — Temna je; daljša steza je lepša in varnejša“, pripomni Mirko.</p>
+            <p n="SLV10013.385">„Nocoj ne. — Stopaj za menoj in molči!“</p>
+            <p n="SLV10013.386">„Ali slutiš kaj, Tone?“ —</p>
+            <p n="SLV10013.387">„Tiho! — Pojdiva“.</p>
+            <p n="SLV10013.388">Mirko je ubogal in ves čas molče stopal za Tonetom. Kmalu sta prikorakala do stanovanja. Pred hišnimi vrati se pa Tone kar naenkrat vstavi in reče tiho Mirku:</p>
+            <p n="SLV10013.389">„Postojva malo tukaj, morda bodeva kaj slišala“. — Res, čakala nista dolgo, in začula sta iz daljave surove kletvine, ki jih je nekdo z močnim, hreščečim glasom bruhal iz sebe.</p>
+            <p n="SLV10013.390">„Poznaš-li ta glas?“ vpraša Sever važno.</p>
+            <p n="SLV10013.391">„Meni je neznan. — Najbrže je zgrešil kak pijanec pravo stezo, pa kolne“.</p>
+            <p n="SLV10013.392">„Prav praviš: — pijanec je, Tine Podleskov. — Izgrešil pa ni steze, ampak tebe in mene. — Ali veš sedaj, zakaj sem hotel, da pojdiva po stranski stezi?“ — —</p>
+            <p n="SLV10013.393">Nato je odprl Tone vrata in, ko sta bila oba vstopila, zaklenil jih je takoj zopet in še zapahnil. — Nenavadno dolgo je gorela onega večera luč v Mirkovem stanovanju....</p>
+         </div>
+         <div type="chapter">
+            <head>XIV.</head>
+            <p n="SLV10013.394">„Naš je narod vazda hrabar bio, Pa je uz to rujno vince pio....“</p>
+            <p n="SLV10013.395">Vatroslav Vernak.</p>
+            <p n="SLV10013.396">Stari Strug, blizu šestdesetleten mož, je točil v Lesju boljše in slabše vino, kakor je nanesla sreča pri kupčiji. Bil je bogat; a pri vsem tem pa prijazen, postrežljiv, zgovoren, s kratka: kakor nalašč stvarjen za krčmarja. Jedina njegova napaka je bila, da je neizmerno ljubil — denar. —</p>
+            <p n="SLV10013.397">Vže petindvajset let je preživel mirno v zakonu se svojo Meto; a otroka ni mu dal Bog nobenega. Ob delavnikih, ko sta sedela z Meto navadno sama v krčmi, vpletlo se jima je večkrat mej razne pogovore tudi važno vprašauje, komu prepustita po smrti — svetle denarce. Ta skrb jima je bila — rekel bi — jedina in najmičnejša. Zato sta se je pa vselej kolikor mogoče hitro rada iznebila z navidezno tolažbo: „Saj se ne mudi. — Mlada sva še: smrt je že daleč“.</p>
+            <p n="SLV10013.398">Kako sta bila vesela Strug in njegova zvesta ženica, ko sta imela nekaj mesecev po zgoraj omenjenih dogodkih natlačeno krčmo pivcev. Bila je namreč nedelja, — lep, vroč dan v mesecu avgustu. Postarna Meta se je onega dne kar pomladila od zadovoljnosti. Tekala je kakor osemnajstletno dekle iz pivnice v klet, iz kleti pa zopet v pivnico. Največ dela so ji prizadeli vaški in okoliški mladeniči, sedeči okrog dolge mize v vrtu za hišo. Mej mladeniči je bil tudi nam uže znani Podleskov Tine.</p>
+            <p n="SLV10013.399">„Hoho, Tine, sedaj treba, da plačas pa ti enkrat“, oglasi se nekdo mej mladeniči in pahne prazno steklenico pred nagovorjenca.</p>
+            <p n="SLV10013.400">„I, kaj meniš, da sem tako na suhem!?“ odvrne bahavo Tine, položi na mizo denar in zakliče: „Oče Strug, napolnite vse, kar je praznega; tu je denar“.</p>
+            <p n="SLV10013.401">Mladeniči se začudeno spogledajo in eden reče nagajivo:</p>
+            <p n="SLV10013.402">„Kdo bi bil mislil, Tine, da si tako petičen!“</p>
+            <p n="SLV10013.403">„Kaj ne bi bil, saj je žagal celo pomlad v gozdu za žive in mrtve“, pristavi drug mladenič in skrivaje namežikne tovarišem.</p>
+            <p n="SLV10013.404">„Molči mi o gozdu, drugače — —“ zagrozi se Tine in se ozre srdito po tovariših.</p>
+            <p n="SLV10013.405">„Kaj, ali nisi vedno rad delal v gozdu?“</p>
+            <p n="SLV10013.406">„Kaj meni mar za gozd in za onega zelenega gozdarskega pritepenca! — Jaz sem Podleskov, in ne potrebujem nikogar“.</p>
+            <p n="SLV10013.407">„Aha“, pravi zopet prejšnji mladenič „zaradi onega zelenca, gozdarja, ti smrdi gozd!“</p>
+            <p n="SLV10013.408">„Molči, sem dejal, če ne ti stlačim glavo mej ramena!“ zadere se Tine jezno.</p>
+            <p n="SLV10013.409">„Ne pojde kar tako, Tine! — Ali misliš, da ne vem, kje le prav za prav žuli čevelj?“</p>
+            <p n="SLV10013.410">„Kaj boš vedel ti, šleva zašlevljena!“</p>
+            <p n="SLV10013.411">„Vedel, vedel, kaj je tam gori pri —“</p>
+            <p n="SLV10013.412">„Ven z besedo, če te je kaj moža!“ zavpije Tine in se vspne za mizo kvišku.</p>
+            <p n="SLV10013.413">„Toliko me je, da vem, da te nekaj mika gori pri — županovih. —“</p>
+            <p n="SLV10013.414">„Kaj — mika — mene — ?“ —</p>
+            <p n="SLV10013.415">„No, — županova Milka. —“</p>
+            <p n="SLV10013.416">Sedaj je bilo Tinetu pa uže preveč. — Kakor besen plane izza mize, pograbi vegasto stolico in hoče mahniti ž njo nagajivca preko glave. A v istem hipu se prikaže, kot bi vzrastel iz tal — Tone Sever, ki je uže več časa poslušal za vrati pogovore mladeničev. Ko ugleda Tine Severja, postavi stol na tla, umolkne in odide, ne da bi koga pozdravil. — Vsem pričujočim se je zdelo to vedenje Tinetovo silno čudno, tako, da so tudi Severja nezaupno in sumljivo gledali, dokler jih ni sani prijazno po domače ogovoril:</p>
+            <p n="SLV10013.417">„Bog vas živi, mladeniči! — Suša in moča sta kakor pes in mačka; a vendar je suša rada, ako jo moča malo poboža — tako-le —“ rekši vzame najbližnjemu mladeniču kozarec in ga polovico izprazni.</p>
+            <p n="SLV10013.418">„Tone, kako li gre pri gozdarju?“ vpraša nekdo mej mladeniči.</p>
+            <p n="SLV10013.419">„Hm — hvala Bogu — doslej vedno po nogah,“ odvrne Sever resno in vsi so se zasmejali.</p>
+            <p n="SLV10013.420">„Lepše imaš gotovo sedaj, nego poprej, ko si pomagal Mraku nositi beraško malho“, pripomni nekdo.</p>
+            <p n="SLV10013.421">„Veste kaj, mladeniči! — Povein vain odkritosrčno, da spoštujem Mraka in njegovo malho. On je — dasi sam revež delil revežem kruh.... Toda, — lahko noč!“ kot bi trenil, je smuknil Tone iz vrta čez prelaz na cesto in odšel proti domu. Od daleč odmevala je še vesela pesem, ki jo je pel:</p>
+            <p n="SLV10013.422">„Kjer vince se toči, Kjer petje doni; Po dnevi, po noči, Lepo se živi. Če vse bi pomrlo, Le jaz sam še žil, Namakal bi grlo In pil, pil, pil, pil...“</p>
+         </div>
+         <div type="chapter">
+            <head>XV.</head>
+            <p n="SLV10013.423">„Menil, da ima roko ljubčino, Pa je imel le taco mačkino“ —</p>
+            <p n="SLV10013.424">Nar. p.</p>
+            <p n="SLV10013.425">Prišla je jesen. Listje po drevju je pričenjalo rumeneti in odpadati. Cvetice so se jele otresati pisanega cvetja ter počasi veneti in umirati. Studenček nad Prelazjem je tiho žuborel pod odejo bukovega listja. Le sem pa tje je pokazal svoje biserne valčke izpod listja, a jih takoj zopet skril, kakor da ne bi mogel prenašati otožnega pogleda v hirajočo naravo. V tem letnem času torej je korakal nekega jutra Sever navzgor proti Prelazju, nesoč v rokah malo, zaprto košarico. Stopal je počasi in zrl zamišljeno pred se v tla. — Kar začuje v bližini korake. Nasproti mu prikrevsa siromašno oblečen berač. Lice mu je vpadlo, oči globoko vdrte, hrbet vpognen. — Skoraj bi ne bil mogel Sever več spoznati svojega nekdanjega tovariša, Kozmeka Mraka.</p>
+            <p n="SLV10013.426">„O, Kozmek, dobro jutro! — Kako!? — Tak star fant, pa tako čmeren, kisel...!“</p>
+            <p n="SLV10013.427">Mrak ne črhne besedice, ampak meri se srpim pogledom Severja od pete do glave. Čez nekoliko časa pa vendar izpregovori z osornim glasom:</p>
+            <p n="SLV10013.428">„Ti volk v ovčji podobi! — Kaj praviš, — kisel — čmeren...!?“ — Haaa, le pljuvaj, pljuvaj na — revnega capina... Srečen si, — jaz nisem; zato pljuvaj, haaa, pljuvaj...“</p>
+            <p n="SLV10013.429">„Kozmek, misliš-li resno?“</p>
+            <p n="SLV10013.430">„Kdo se zmeni zato, kar misli, — kar čuti berač ob cesti!! — —</p>
+            <p n="SLV10013.431">„Kozmek, jaz sem še vedno stari Tone, — tvoj prijatelj.“</p>
+            <p n="SLV10013.432">„Bodi! — Jaz vem le to, da nič v trebuhu kruli po črevesu. — Tiii ..., ti pa lahko veš še marsikaj; veš tudi, kako si spravil mene trideset let prezgodaj pod zemljo. — Ti, strupena gomaz, ti kuščarjev rep: ti si kriv, da ne morem ne živeti, ne umreti“.</p>
+            <p n="SLV10013.433">„Kaj ongaviš, za božjo voljo?!“</p>
+            <p n="SLV10013.434">„Vprašaj svojo vest, ne mene!“</p>
+            <p n="SLV10013.435">„Si-li zblaznel? — Ti je-li zlezla pamel v peto?“</p>
+            <p n="SLV10013.436">„Pamet v peto ali peta v pamet; to ni vse nič — A ti si me vničil! —</p>
+            <p n="SLV10013.437">„Kako? — Kje? — Kedaj?“</p>
+            <p n="SLV10013.438">„Veš sam prav na tanko, kako, kje in kedaj.“</p>
+            <p n="SLV10013.439">„Sedaj pa vidim, da se ti je kolesce potrlo v možganih“.</p>
+            <p n="SLV10013.440">„Prav govoriš: potrl, — strl si me...“</p>
+            <p n="SLV10013.441">„Jaz?“</p>
+            <p n="SLV10013.442">„Ti!“</p>
+            <p n="SLV10013.443">„Kdo je norec: ali ti ali jaz ali oba?“</p>
+            <p n="SLV10013.444">„Resnica je v sredi.“</p>
+            <p n="SLV10013.445">„Torej sem jaz. — Prav imaš. — Sedaj sva vsaj na čistem. — Z Bogom!“ Nato Sever odide.</p>
+            <p n="SLV10013.446">„Hej, prijatelj, končala nisva še!“ vpije Mrak za odhajajočim, ki se takoj vstavi in navidezno jezno reče:</p>
+            <p n="SLV10013.447">„Kar imaš še; povej hitro. Meni se mudi.“</p>
+            <p n="SLV10013.448">„Tone — sveti križ božji — če si ti se škratljem v zvezi, jaz nisem.“</p>
+            <p n="SLV10013.449">„Je pa škratelj s teboj.“</p>
+            <p n="SLV10013.450">„Čakaj, da ti povem! — Če bi bil ti z golo človeško roko pisal ono pismo, uže veš, ono pismo, — ne bi se bil nikdar dvignil proti meni tak pekel, kot se je sedaj“. —</p>
+            <p n="SLV10013.451">„Pismo in — pekel!?“</p>
+            <p n="SLV10013.452">„Da, tvoje pismo mi je zanetilo ogenj pod nogmi... Sam škratelj ti je vodil roko, ko si pisal.“ —</p>
+            <p n="SLV10013.453">„Nikak škratelj, Mraček! — Moja volja je vodila roko in kurje pero...“</p>
+            <p n="SLV10013.454">„Vražje pero, ki mi je zaprlo farovž, vzelo nevesto, izkopalo preran grob...!“ Debela solza se je prikotala pri teh besedah Mraku po razoranem licu ter padla v cestni prah. —</p>
+            <p n="SLV10013.455">„Mrak! — Zdi se mi, kakor da bi se pravdala za oslovo senco“.</p>
+            <p n="SLV10013.456">„To ni oslova senca, ampak osel sam s kostmi in ušesi. Vest te peče, zato bi rad napeljal govor drugam“.</p>
+            <p n="SLV10013.457">„Vidim, da je najbolje, ako te danes pustim v miru“.</p>
+            <p n="SLV10013.458">„Da bi me bil pustil uže poprej, poprej....“</p>
+            <p n="SLV10013.459">„Z Bogom! — Pozdravi nevesto!“ reče hudomušno Sever in odide.</p>
+            <p n="SLV10013.460">„Le pojdi, škratov zet! — Povem ti pa, da se še srečava...“</p>
+            <p n="SLV10013.461">„Gotovo! — Na sodnji dan popoldne, ko bosta imela se Špelo poroko,“ oglasi se Sever iz daljave.</p>
+         </div>
+         <div type="chapter">
+            <head>XVI.</head>
+            <p n="SLV10013.462">„Dan jasni, dan oblačni v noči mine, Srce veselo in bolno, trpeče Vpokoj ’le bodo groba bolečine. —“</p>
+            <p n="SLV10013.463">Prešeren.</p>
+            <p n="SLV10013.464">Bilo je istega dne uže pozno zvečer. Nad trnovskim gozdom so se kopičili črni oblaki in hladen veter je pihal preko vrhov košatih bukev. Kmalu je začel šumeti po orumenelem listju močan, mrzel dež. Mirko in Sever sta sedela tačas doma v izbi. Pred njima na mizi je gorela velika petrolejka. Odvečerjela sta bila uže davno, nato sta se pa razgovarjala o tem in onem.</p>
+            <p n="SLV10013.465">Mirko je imel uže nekaj tednov mnogo več dela nego poprej. Obolela je bila namreč nadgozdarjeva gospa, zato je moral nadgozdar skoraj vse nadzorovanje v gozdu za oni čas prepustiti Mirku. Po obilnem delu se pa vsak rad malo razvedri. Tako je tudi Mirko sedaj tem raje malo kramljal zvečer s Tonetom.</p>
+            <p n="SLV10013.466">„Človeška misel je, kakor petelin na strehi;“ pravi Tone zamisljeno pred se zroč, — „kamor potegnejo razmere, tje se obrnejo misli“. — Pridejo leta, ko boš srečen pri svoji ženski. Tedaj ne boš več neizkušen mladič, ampak resen mož, skrben oče; le sanjal boš morebiti še kakšenkrat o mladostni zarji. S časom pride vse, tudi — smrt.“</p>
+            <p n="SLV10013.467">„Prav deš, tudi smrt pride,“ pritrdi Mirko, a videlo se mu je, da so bile njegove misli drugod. —</p>
+            <p n="SLV10013.468">„A zdi se mi, da zanima tebe nekaj drugega bolj, nego smrt.“ —</p>
+            <p n="SLV10013.469">„Nekaj drugega! — Kako misliš?“</p>
+            <p n="SLV10013.470">„No, saj veš. — Ona deklica pri studencu...“</p>
+            <p n="SLV10013.471">„Tone, ti me skušaš,“ pomaga si Mirko iz vidne zadrege.</p>
+            <p n="SLV10013.472">„Ne, ljubi Mirko, jaz te ne skušam; a skušali te bodo kmalu drugi bolj, nego se nadejaš“.</p>
+            <p n="SLV10013.473">„Drugi? — Kdo more sploh kaj slutiti o rečeh, ki se gode v mojem srcu?“</p>
+            <p n="SLV10013.474">„Pri županovih si bil uže večkrat, ne-li?“</p>
+            <p n="SLV10013.475">„Res je.“</p>
+            <p n="SLV10013.476">„Vidiš, to je nekaj. — Mej ljudmi pa kroži vrhu tega še govorica, da pogleduje tudi dekle rado za teboj. Jožek, njen brat sam, mi je preteklo nedeljo nekaj namigoval o tem“.</p>
+            <p n="SLV10013.477">„Ha, ne govori vendar takih neslanostij! — Ali misliš, da je ona tako nespametna, da bi take stvari kar tako razodevala bratu?“</p>
+            <p n="SLV10013.478">„Ti ne poznaš teh dveh otrok, a jaz ju poznam do dna duše. Brat in sestra sta v najlepšem pomenu besede: ene krvi in enega srca. Mej njima ni skrivnosti“.</p>
+            <p n="SLV10013.479">„Tone, ako poznaš Jožka in Milko, poznaš menda tudi mene. — Veš, da mi ni vnela srca slepa strast, ampak čista ljubezen, ki ne želi nikomur hudega, ki vse pretrpi, vse prenese.“</p>
+            <p n="SLV10013.480">„Vem, Mirko moj, da si možat; vem, da trpiš raje sam, nego bi pahnil v trpljenje svojega bližnjega. A pomisli, bo moglo-li dekle storiti to, kar storiš ti: odpovedati se?“</p>
+            <p n="SLV10013.481">„Tiho! — Ne čuješ-li ničesar? — Nekdo trka zunaj“, pretrga naenkrat Mirko govorjenje in vstane.</p>
+            <p n="SLV10013.482">„Oj, ni-li nikogar doma?“ oglasi se krepak moški glas zunaj.</p>
+            <p n="SLV10013.483">„Cerkovnik iz Lesja je. — Kaj bo neki?“ reče Sever in vstane nekoliko preplašen.</p>
+            <p n="SLV10013.484">„Kaj bi radi?“ zavpraša Mirko držeč za ključ v vratih.</p>
+            <p n="SLV10013.485">„Za božjo voljo, odprite! Sveča je odgorela, z gospodom župnikom ne moreva naprej, nadgozdarica pa umira......“ odgovori zunaj cerkovnik Drozeg.</p>
+            <p n="SLV10013.486">„Previdet gredo gospo! — Tone, prinesi hitro svečo!“</p>
+            <p n="SLV10013.487">Nato odklene Mirko vrata. Cerkovnik vstopi, vtakne hitro novo svečo v svetilnico in odide.</p>
+            <p n="SLV10013.488">„Jaz grem tudi k nadgozdarju,“ de Mirko Tonetu.</p>
+            <p n="SLV10013.489">„Kako, v takem dežju?“ začudi se Tone.</p>
+            <p n="SLV10013.490">„Prinesi mi dežnik! — Gospo bi rad še videl živo“.</p>
+            <p n="SLV10013.491">Tone prinese takoj dežnik in Mirko pohiti za duhovnikom po razmočeni stezi.</p>
+            <p n="SLV10013.492">Skrivnostno-milo je odmeval droben zvončkov glas mej šumenjem dežja po gozdni samoti, in bleda svetloba sveče je žalostno obsevala orumenelo listje.... Klobuk v rokah držeč je stopal Mirko za starčkom- duhovnikom. V očeh so mu igrale solze tajnostnega ginenja, iz srca so mu kipele pa k Bogu v sveti hostiji goreče molitve za blago gospo in za nepozabljivo rajno mater — — — —</p>
+         </div>
+         <div type="chapter">
+            <head>XVII.</head>
+            <p n="SLV10013.493">„Milo zvon po dolu poje, Se razlega čez vrhe; Mlado mamico zakopat Štirje nesejo možje“.</p>
+            <p n="SLV10013.494">—X—</p>
+            <p n="SLV10013.495">Spravljena z Bogom in se svetom je umrla blaga gospa Hostnikova se isto noč, ko je bil pri njej gospod župnik. Dva dni potem je bil pogreb z mašo. Dasi je bilo to na delavnik, vendar se je zbrala skoraj polna cerkev ljudij, da bi spremili na poslednji poti splošno priljubljeno rajnico. Mej nosilci bil je županov Jožek in — kar je posebno ugajalo priprostemu ljudstvu — tudi gozdar Mirko. —</p>
+            <p n="SLV10013.496">Prvi za krsto je šel ves čas soprog rajnice, gospod Hostnik. Solz ni bilo videti v njegovih očeh; a vse na njem je kazalo, kako hudo ga je zadela bolezen in smrt ljubljene soproge. Tedni bolečin in skrbij začrtali so v njegov obraz znamenja dolgih, mučnih let. —</p>
+            <p n="SLV10013.497">Ko je na pokopališču župnik vrgel lopato prsti na krsto rajnice in je s tresočo se roko isto storil za njim nadgozdar, zaihtelo je ljudstvo in se solzami v očeh pokleknilo ter molilo za rajnico....</p>
+            <p n="SLV10013.498">Tiho so se nazadnje razšii pogrebci. Še enkrat se je ozrl nadgozdar v grob, v katerem je imelo počivati njemu vedno zvesto srce, potem je pa šel z župnikom, županom in Mirkom v župnišče.</p>
+            <p n="SLV10013.499">Na pokopališču sta pa ostala še dva človeka: Tone Sever in vaški grobar Krt.</p>
+            <p n="SLV10013.500">„No, čemu se obotavljaš?“ de Sever grobarju, oprtemu ob lopato in zročemu zamišljeno v novi grob. —</p>
+            <p n="SLV10013.501">„Mi boš-li hotel verjeti, Tone, da mi je težko?“</p>
+            <p n="SLV10013.502">„Kaj? — Težko tebi, ki imaš srce, da bi iskre kresal iz njega?“</p>
+            <p n="SLV10013.503">„Nad štirideset let uže kopljem in zasipljem grobove, a solza se mi ni še pri tem delu vtrnila iz očesa, — danes se mi je. —“</p>
+            <p n="SLV10013.504">„Te je-li te solze sram?“</p>
+            <p n="SLV10013.505">„Ni me, — Bog mi je priča. — grobar Krt je trd, a kamen ni bil, ni in ne bo — — —“</p>
+            <p n="SLV10013.506">„Prav imaš: midva sva ene misli. — Toda grob se ne bo zasul sam, ako ga ne bova midva. Glej, tu je še ena lopata. Pomagati ti hočem, da poprej končaš“.</p>
+            <p n="SLV10013.507">Sever vzame lopato in jo zasadi v kup zemlje. Hrst — je rekla lopata in v grob se je zvalila čez pol preklana lobanja.</p>
+            <p n="SLV10013.508">„Huu, Krst, ali vidiš“.</p>
+            <p n="SLV10013.509">„Vidim, a jo tudi poznam“.</p>
+            <p n="SLV10013.510">„Poznaš?“</p>
+            <p n="SLV10013.511">„Srepova Anka, najlepše dekle v devetih vaseh tu okoli, je nosila to črepinjo. Prehlad na plesu je naredil, da je bila v dvajsetem letu zrela za grob.“</p>
+            <p n="SLV10013.512">„In zanjo nisi imel solze?“</p>
+            <p n="SLV10013.513">„Ne; — danes je bila prva. — Krtove solze so redke, a — prave“.</p>
+            <p n="SLV10013.514">„To velja Krst! — Midva sva možaka“.</p>
+            <p n="SLV10013.515">„Kdo nama more kaj?!“</p>
+            <p n="SLV10013.516">„Nobeden“.</p>
+            <p n="SLV10013.517">Tako sta Krst in Tone modrovala, dokler ni bil grob zasut. Potem sta pa shranila lopati v mrtvašnico ter po kratkem posvetovanju soglasno sklenila, da pojdeta k Strugu na frakeljček brinjevca.</p>
+         </div>
+         <div type="chapter">
+            <head>XVIII.</head>
+            <p n="SLV10013.518">„Muha se potajila, Komarja razsrdila Komar je mož, komar je mož, Komar je moška plava!“</p>
+            <p n="SLV10013.519">Nar. p.</p>
+            <p n="SLV10013.520">Ljubezen — prijateljstvo! — Kolikokrat imajo Ijudje ti besedi na jeziku, a kako poredkoma v srcu! — Dan na dan se sklepajo vezi Ijubezni in prijateljstva, a vendar je na svetu toliko strank, kolikor src. Ljubezen ne rodi več Ijubezni. Kdor seje ljubezen, žanje navadno sovraštvo, nehvaležnost, preziranje. O svet, kako si hudoben! — Tako nekako je modroval Mrak v nedeljo po pogrebu nadgozdarjeve gospe, ko je — navdušen od vinskih duhov — meril na vse kraje cesto iz Lesja proti domu.</p>
+            <p n="SLV10013.521">„Samo pameten bodi, Mrak“, opominja polglasno samega sebe „drugo je vse — nič. Kakor meriš se ti odmeri. — Ne! — Ni res. Mrak, to si zlagal — Meril si ljubezen, odmerili so ti strup, hudobni jeziki... Dekle je zlomek, žena je zlodej, baba je vrag. — Dekle je šara, žena je ropotija, baba je žlindra... Špela bo plesala z vragom, ha... ha... hopsasa... Sukal se bo ves svet, Kozmek bo pa jahal na zvezdi in smejal se na vse grlo...“</p>
+            <p n="SLV10013.522">Dočim je Mrak glasno premišljeval take in slične reči, prišla je od nasprotne strani revno opravljena ženska — Špela. Zapazivša Mraka, je postala malo, kakor bi hotela premisliti, bi se ga ognila ali bi šla kar dalje po cesti. Ko pa začuje, da Mrak govori, stopi za grm kraj ceste in vleče radovedno na uho. — Mrak se pa neskrbno guglje naprej v večih in manjših ovinkih in vedno ognjeviteje povdarja svoja načela. — Ko pride do grma, za katerim je stala Špela, zareži ta nad njim:</p>
+            <p n="SLV10013.523">„Ali boš kedaj pameten, stariha?“</p>
+            <p n="SLV10013.524">„Blisk in grom!“ zahrešči Kozmek, ki bi bil kmalu vznak padel od strahu. Takoj se pa zave svojega dostojanstva in reče: „Špela, dal te je spak, vzel te bo škrat!“</p>
+            <p n="SLV10013.525">„Ti stari potepuh, pijanec, zmikavt, lažnik, obrekovalec, ti grešni meh, ti boš vedel, kdo me je dal in kdo me bo vzel!?“</p>
+            <p n="SLV10013.526">„Brrr — škrat! — Škrat te bo pekel na ražnju, pa bo šumelo in šuštelo: šrr — šrr — šrr“.</p>
+            <p n="SLV10013.527">„Ti tat časti in dobrega imena!“</p>
+            <p n="SLV10013.528">„Mir s tabo in ropot za tabo! — Bog vidi tebe in tvojo marogasto dušo. — Ljubezen se je izpremenila v greh, grehu so vzrastli rogovi, da bode ž njimi... Pomolova krava se je zrožila; a rog je še rog, in krava je tudi še krava, samo rogata ni več... haha... hiu...</p>
+            <p n="SLV10013.529">„O Bog, znorel je! — Prav se ti godi! — Malopridnež stari, molil bi, molil in pripravljal se za grob, ne pa...“</p>
+            <p n="SLV10013.530">„Hehe-hi! — Grob čaka, smrt čaka, jaz tudi čakam: vsi trije čakamo. — A Špela je vendar vsa škratova... Med se je izpremenil v strup, ljubezen je zdivjala v bolezen, bolezen je izlegla smrt, smrt je konec, konec je — amen...“</p>
+            <p n="SLV10013.531">„Oh znorel je zares!“</p>
+            <p n="SLV10013.532">„Amen, amen, Špela pod kamen, Kozmek pod lonec: Vsega bo konec.“</p>
+            <p n="SLV10013.533">„Tiho, hudobni klopotec! — Poštene dlake ni na tebi. — Rokomavh si, glavar vseh tatov“.</p>
+            <p n="SLV10013.534">„Jaz sem — angel pod klobukom. — Kaj si pa ti — škrat!?“</p>
+            <p n="SLV10013.535">„Obseden si — Bog mi odpusti grehe!“</p>
+            <p n="SLV10013.536">„Rad bi obsedel, rad, ker noge mi ne zlužijo več. A kje naj obsedim, kje, tu na cesti?“</p>
+            <p n="SLV10013.537">„Bog ti odpusti saj ne ves, kaj bledeš!“</p>
+            <p n="SLV10013.538">„Kaj? — Odpustim naj — tebi — grehe? Ne in ne! — Tovori ž njimi po svetu kakor kraški osel. — Špela je in ostane — škrat“.</p>
+            <p n="SLV10013.539">„Če mi ne molčiš, pljusknem te po ustih, da ti —“</p>
+            <p n="SLV10013.540">„Kaj? — Ali misliš ‚zobe‘, ker nobenega nimaš?“</p>
+            <p n="SLV10013.541">Staro dekle trikrat tri, Fantov ima dvakrat tri, Modercev le enkrat tri, Zob pa kar — nobenkrat tri“.</p>
+            <p n="SLV10013.542">„Molči, potepin, malharjev sin!“</p>
+            <p n="SLV10013.543">„Špela! — Bog te vidi, jaz te slišim! O mojih poštenih rajnikih ne zini mi pa kar nobene več. drugače — — —“</p>
+            <p n="SLV10013.544">„Potepin si, malharjev sin, — slišiš!“</p>
+            <p n="SLV10013.545">To je pa bilo Mraku uže preveč. Besno se je zaletel proti Špeli, da bi jo udaril; a k sreči se mu je umaknila in zbežala nizdolu proti Lesju, kar so jo nesle noge. A tudi Mrak je sklical vse svoje trezne in netrezne moči skupaj in jo ucedil za Špelo. Pot so mu lajšale razne kletvice, krajše in daljše, kakor mu je dopuščala sapa. Pridirjala sta skoraj vže v vas, ko se je Mrak izpodtaknil in padel, kakor je dolg in širok, po cesti. Stalo ga je precej časa in truda, predno se je zopet postavil na obe nogi. Tedaj pa ni bilo o Špeli ne duha ne sluha več. Še enkrat je Kozmek krepko zaklel, prepustil potem Špelo pravici božji in krevsal proti Prelazju.</p>
+         </div>
+         <div type="chapter">
+            <head>XIX.</head>
+            <p n="SLV10013.546">„Pa se v stran ozrl je, Pa je spet pogledal, Kaj je v srci čutil, Težko bi povedal“.</p>
+            <p n="SLV10013.547">Ant. Hribar.</p>
+            <p n="SLV10013.548">Preteklo jo dobro Ieto, odkar je bil Mirko namenščen kot gozdar v trnovskem gozdu. Zadnji čas je zahajal bolj pogostoma k Zagričarjevim, in sicer po posebnem opravku. Jožka so bili namreč potrdili za vojaka. Oče župan, ki je ljubil svojega jedinca, ni bil še zadovoljen s tem, da so mu vslišali prošnjo in vzeli sina le za dva meseca, ampak hotel je sinu še to kratko dobo vojaške službe olajšati. Zato je naprosil Mirka, da bi naučil Jožka malo nemščine. Mirko je iz srca rad vstregel tej prošnji. — Prihajal je k županovim ob nedeljah, sem pa tje, ko je bilo slabo vreme, pa tudi mej tednom.</p>
+            <p n="SLV10013.549">Nekoč — bilo je na delavnik — primerilo se je kakor nalašč, da ni našel Mirko pri županovih nikogar doma, razven Milke. Radi tega se seveda ni vrnil kar na pragu, ampak sedel je na klop ob ognjišču in začel razgovarjati se z Milko. Pogovori o vsakdanjih rečeh razpletli so se mej njima tako daleč, da sta si nazadnje razkrila, kar sta čutila skrivoma uže dolgo. — —</p>
+            <p n="SLV10013.550">Na binkoštno nedeljo, ki je bila prva potem, šli so od desete maše skupaj domov Mirko, Jožek in Milka. Tedaj je bil Mirko prvič očitno v družbi z Milko. Sam od sebe ne bi se jej bil pridružil tudi takrat ne, a pridržal ga je bil njen brat Jožek. — Seveda je provzročilo to mnogo govorjenja in ugibanja, posebno mej zarjavelimi devicami. Beračica Špela je takoj skrivnostno zaregljala na uho stari teti Čobodri:</p>
+            <p n="SLV10013.551">„Ali vidiš, Mica? — Saj sem rekla, saj sem rekla: županova hči si zna izbrati“. —</p>
+            <p n="SLV10013.552">A tudi resni očanci so uganili katero o tej velevažni zadevi. Naravno je, da niso premozgovali te stvari tako na tanko in na drobno, kakor blebetave ženice. Tudi tako tajno ni bilo njihovo ugibanje, ampak povedali so si jo tako, da bi jo bil v mlinu lahko slišal, kdor ni gluh.</p>
+            <p n="SLV10013.553">Na Leskovo palico oprt prorokoval je Kozmek Mrak za cerkvijo gruči postarnih mož:</p>
+            <p n="SLV10013.554">„Povoha naj me pes, možje, če ne bo res, kar vam povem. — Videli boste — jaz ne bom več videl tačas — a vi boste videli lep par pred oltarjem sv. Jurija“. —</p>
+            <p n="SLV10013.555">Molče so vsi pritrdili proroškim Kozrnekovim besedam, vzeli zakajene vivčke in gledali za mladim gozdarjem in županovo hčerjo. Le mladeniča, ki se je bil slučajno pridružil možem uprav, ko je Mrak to govoril, so zadele te besede bridko v srce. Ta mladenič je bil Podleskov Tine. On je uže več časa smrtno sovražil gozdarja, a strastno ljubil županovo hčer. V tem hipu je pa vsplamtel ogenj sovraštva v njegovem srcu še s hujšo silo. Kri mu je vdarila v lica, obrvi so se mu nasršile in divji gnjev mu je žarel iz očij.</p>
+            <p n="SLV10013.556">„Kaj?“ dejal je star možicelj, ki je bil opazil Tinetovo vznemirjenost. „Ali ne privoščiš gozdarju take neveste, Tine? — He, županova hči pogleda lahko malo preko naših kmetskih klobukov“. —</p>
+            <p n="SLV10013.557">Tine ni odgovoril na to niti besedice, ampak je skrivaje namignil Mraku, naj bi šel ž njim. Mrak je takoj pozdravil može in odšel za Tinetom.</p>
+            <p n="SLV10013.558">„Ha, prava sta se našla! — Dva obupana snubača — oglasil se je zopet prejšnji možicelj in vsi so mu pritrjevali z glasnim smehom.</p>
+            <p n="SLV10013.559">Ne zmene se za to, kar se je godilo za njunim hrbtom, korakala sta Tine in Kozmek proti Prelazju. Ko sta prišla možem izpred očij, zavila sta jo s kolovoza po stranski stezi mej gosto grmovje. Tam sta se na zavetnem prostorčku precej daleč od poti zleknila v mehak mah.</p>
+            <p n="SLV10013.560">„Torej, ti misliš, da bi bilo vse opravljeno s tem, da starima povem, kaj se snuje mej Milko in gozdarjem“, de pomišljuje Mrak.</p>
+            <p n="SLV10013.561">„Le besedico jima črhni o tem, pa boš videl ogenj v strehi“. —</p>
+            <p n="SLV10013.562">„Ej Tine, slabo poznaš svet! — Ne prikupiš se mački, če ji boš drezal mladiče“.</p>
+            <p n="SLV10013.563">„Verjemi mi! — Stara sta uže toliko skopa, da ne bosta kar tako z lahka dala hčere beraškemu gozdarju, o katerem se ne ve, ne odkod je prišel, ne kam pojde“.</p>
+            <p n="SLV10013.564">„O tem mi bodi pa kar tiho, Tine! Županovi niso skopi; jaz vem, da niso! — Zamera pri njih bi bila meni velika izguba“. —</p>
+            <p n="SLV10013.565">„I — vraga! — kaj bi vedno mislil na svojo malho!“</p>
+            <p n="SLV10013.566">„Pomisli, da drugega nimam“. —</p>
+            <p n="SLV10013.567">„Ti naredi, kakor sem ti rekel, pa je... Za nasledke bom odgovoren jaz“.</p>
+            <p n="SLV10013.568">„Hm, govoriti je lahko, a storiti je drugo“.</p>
+            <p n="SLV10013.569">„Ti — zajčja peta, kurja polt!“</p>
+            <p n="SLV10013.570">„Vse prav, Tine; a meni gre za malho“. —</p>
+            <p n="SLV10013.571">„Kaj malha! — Srčnost velja, — saj ne bo zastonj!“ —</p>
+            <p n="SLV10013.572">„Ali veš pa za gotovo, da bo dekle maralo za-te?“</p>
+            <p n="SLV10013.573">„Maralo bo, kakor hitro je neha slepiti oni zelenec gori v gozdu“.</p>
+            <p n="SLV10013.574">„O Štmihelovem boš moral odriniti za tri leta k vojakom. — Kaj bo pa potem?“</p>
+            <p n="SLV10013.575">„Šment, to skrbi malo tudi mene!“</p>
+            <p n="SLV10013.576">„Ko te ne bo doma, skazi ti gozdar lahko vse“.</p>
+            <p n="SLV10013.577">„Veš kaj! — Ta čas boš moral pa ti delati mesto mene“.</p>
+            <p n="SLV10013.578">„Jaz — mesto tebe? — Se ti-li blodi, ka-li?“</p>
+            <p n="SLV10013.579">„Vse dosežeš, če boš le hotel. — Pazi na vse korake gozdarjeve, opravljaj, obrekuj ga, samo da prečrtaš njegove račune. — Torej Kozmek, velja! — Jutri ali te dni enkrat pojdi k županovim in poveš tam, kakor sem ti naročil. Za drugo se domeniva pozneje. Na, — tu imaš za sedaj!“ Rekši, stisne Tine Mraku nekaj v roko. —</p>
+            <p n="SLV10013.580">„Bodi torej, — pojdem! — Toda tiho! — Nekdo poje gori nad nama...“</p>
+            <p n="SLV10013.581">„Tri sto zelencev!“ vsklikne Tine osupnen. „Sever je. Stavil bi glavo, da je slišal vse, kar sva govorila. Ta človek je nevaren“.</p>
+            <p n="SLV10013.582">„Nevaren. — On ni sam. Bog nas varuj pekla!“ pristavi Mrak in se pokriža.</p>
+            <p n="SLV10013.583">Oba sta nato vstala in šla molče po stezi, po kateri sta bila poprej prišla, proti kolovozu. Tine je odšel zamišljen proti domu, Mrak pa je veselo švedral nazaj v Lesje — k Strugu. —</p>
+         </div>
+         <div type="chapter">
+            <head>XX.</head>
+            <p n="SLV10013.584">„Da zginja med sosedi mir, Da srd rodi se in prepir, Da ječe so in so sodniki, Tega so krivi le jeziki“.</p>
+            <p n="SLV10013.585">Ant. Hribar.</p>
+            <p n="SLV10013.586">„Hvaljeti bodi Jezus!“ dejal je po stari krščanski navadi berač Kozmek drugega jutra, stopivši v Zagričarjevo hišo.</p>
+            <p n="SLV10013.587">„Na veke!“ odzdravila je mati županja pri ognjišču. —</p>
+            <p n="SLV10013.588">„Kako? — Ste-li sami doma, mati, le sami?“</p>
+            <p n="SLV10013.589">„Sama sem; drugi so šli vsi na delo“.</p>
+            <p n="SLV10013.590">„Kakor nalašč“ misli si tiho Kozmek, sede na hrastovo klop ob ognjišču in vzdihne:</p>
+            <p n="SLV10013.591">„Eh, stari smo, mati, stari! — Dolgo ne bomo več...“</p>
+            <p n="SLV10013.592">„Dokler bo božja volja“. —</p>
+            <p n="SLV10013.593">„Prav imate: dokler bo božja volja. — A nam revežem traja to le predolgo, predolgo“. —</p>
+            <p n="SLV10013.594">„Škodilo ti ne bo malo pokore, Kozmek. — Česa pa prosiš danes?“</p>
+            <p n="SLV10013.595">„Nič drugega ne, mamica, kakor malo kosila, ko se skuha. — Vže tri dni ni bilo gorke žlice v mojih ustih, uže tri dni, verujte mi, mamica“.</p>
+            <p n="SLV10013.596">„No, če boš počakal, malo kosila uže dobiš. — Jaz imam še delo v hlevu; ti pa skrbi mej tem, da ne ugasne ogenj okoli loncev“.</p>
+            <p n="SLV10013.597">Županja odide nato iz hiše, Mrak pa zre nekako v skrbeh v žrjavico na ognjišču in premišljuje, kako bi mogel najlaže napeljati pogovor na to, kar ga je prav za prav napotilo k županovim. Dolgo je ugibal sem in tje. Nazadnje se mu zdi, da spravi najprej vodo na svoj mlin, ako bo začel hvaliti stare čase, grajati pa mladi svet. Uprav za časa je prišel do te rešilne misli, da ga ni prehitela mati županja, ko se je vrnila iz hleva.</p>
+            <p n="SLV10013.598">„No, sedaj si pa uže zaslužil kosilo, opomni županja šaljivo. „Po loncih vre, da je veselje“.</p>
+            <p n="SLV10013.599">„Vre, mamica, vre, čudno vre dandanes“.</p>
+            <p n="SLV10013.600">„Kaj meniš s tem?“</p>
+            <p n="SLV10013.601">„Čudno se nam meša štrena. Vse gre na svetu le narobe. Nekdaj ni bilo tako“.</p>
+            <p n="SLV10013.602">„Kaj hočeš! — Vse prav ni bilo in ne bo nikdar na svetu“.</p>
+            <p n="SLV10013.603">„Ej, bilo je uže, bilo, a ni več. — Jajce hoče vedeti dandanes več, kot kura: pokorsčine ni več“.</p>
+            <p n="SLV10013.604">„Kaj ti je, Kozmek, danes, da tako modruješ?“</p>
+            <p n="SLV10013.605">„Težko je povedati, ljuba mamica. — Srce me boli, a vest me sili, da moram —“.</p>
+            <p n="SLV10013.606">„Kaj je neki?“ povpraša županja uže radovedna in stopi bliže k Mraku.</p>
+            <p n="SLV10013.607">„Bojim se zamere, mamica...“</p>
+            <p n="SLV10013.608">„Brez strahu povej, kar veš. Nič ti ne zamerim“.</p>
+            <p n="SLV10013.609">„Bodi torej — Pa ne da bi mislili, mamica, da želim komu škode. Ne škode, ampak dobro želim vam in vaši pošteni hiši. Glejte, oni mladi gozdar, ki zahaja pogostoma k vam, je zmedel glavico vaši dobri Milki. Zatrjuje, da jo ljubi; pa ne ljubi nje, verujte mi, ampak njeno lepo doto. — Vsi ljudje vedo uže to in govore o tem, posebno, ker so še včeraj videli, da sta šla skupaj od desete maše. To glejte, mamica, ni mi dalo miru, dokler vam nisem razodel. Upam, da sem izpolnil svojo dolžnost“.</p>
+            <p n="SLV10013.610">Županja je bila popolnem presenečena. Izpregovoriti ni mogla niti besedice. Molče je zrla sedaj pred-se, sedaj v Mraka, kakor bi mu hotela iz očij brati resnico. Sama ni vedela, ali bi verjela, ali ne bi. Gozdar je zahajal res pogostoma v hišo in dobil sem pa tje morebiti tudi samo Milko doma. V takih slučajih se je lahko kaj spletlo mej njima. — A gozdar je v govorjenju in vedenju tako možat in resen; Milka pa tako nedolžna, še skoraj otročja.</p>
+            <p n="SLV10013.611">„Ne, ni mogoče! Milka ni taka. Preodkritosrčna je, da bi mogla za mojim hrbtom počenjati kaj takega. Vendar hočem to stvar dognati do kraja;“ prevdarja in sklepa županja na tihem v srcu, potem pa reče Mraku :</p>
+            <p n="SLV10013.612">„Obljubila sem ti, da ti ne zamerim; in to hočem tudi izpotniti. — Povem ti pa, da ne prikaži se mi nikdar več čez prag, ako boš okoli raznašal te reči o moji hčeri“.</p>
+            <p n="SLV10013.613">„Mamica, storil sem, kar mi je velela vest. Odslej bom tih kakor grob. Če bodo pa drugi govorili o tem, kakor uže govore, nikakor ne dolžite mene“.</p>
+            <p n="SLV10013.614">„Govoriš prav, Kozmek; glej da boš še delal tako.“</p>
+            <p n="SLV10013.615">„Saj veste mamica, da ni meni nič mar, naj vzame vaša hči gozdarja ali padarja. Ne bojim se pri tem izgube, ne pričakujem dobička. Vas in vašo hišo imam pa rad, zato sem prišel danes k vam“.</p>
+            <p n="SLV10013.616">Te besede Mrakove so precej pomirile županjo. Odstavila je lonec od ognja in nalila polno skledico okusne drobne kaše za Kozmeka. Potem mu je prinesla pa še vrhan krožnik dobro zabeljenih mlincev. Hvalil je Kozmek in jedel, jedel in hvalil. In ko je odhajal, zahvalil je županjo še enkrat za tečno kosilo ter ji voščil, da bi ji povrnil Bog vse sto- in stokrat.</p>
+         </div>
+         <div type="chapter">
+            <head>XXI.</head>
+            <p n="SLV10013.617">„Ropotajo oča, , Mati prose in svare...“</p>
+            <p n="SLV10013.618">Levstik.</p>
+            <p n="SLV10013.619">„Vlati je uže prinesla kosilo“ opomnila je Milka očeta in brata, ki sta v isti njivi, kot ona, ogrebala turščico.</p>
+            <p n="SLV10013.620">Vsi trije odlože krampe in gredo kosit. Mati je pa mej tem poveznila jerbas v travo, pogrnila čez-anj bel prt in postavila nanj skledo. Cela družina sede okoli jerbasa na tla, odmoli in začne jesti.</p>
+            <p n="SLV10013.621">Govorili so mej kosilom nenavadno malo. Kriva je bila tega mati, ki se je držala ves čas nekako čemerno in nevoljno. — Po kosilu sta odšla oče in Jožek takoj zopet delat; Milka je pa pomagala materi pospravljati posodo v jerbas. Pri tem ji mati ukaže, naj nažanje breme detelje za krave in prinese takoj domov.</p>
+            <p n="SLV10013.622">Milka uboga, nič hudega sluteč. — Ko pride pa domov in odloži breme, pokliče jo mati v izbo. Ondi sede mati ob oglu mize na klop; Milka pa se vstavi sredi izbe in čaka, kaj bo. Precej časa zre mati molče hčerki v obraz. Oči ji postajajo bolj in bolj rosne in dve svetli solzi vtrneta se iz njih...</p>
+            <p n="SLV10013.623">Milki vtriplje srce od mučnih slutenj in sočutja.</p>
+            <p n="SLV10013.624">„Milka“, reče z ihtečim glasom županja, „ali veš še, da sem jaz tvoja mati?“</p>
+            <p n="SLV10013.625">„Mati ljuba, kaj vam je!?“ vsklikne Milka pol v strahu, pol v žalosti.</p>
+            <p n="SLV10013.626">„Milka, ti nisi več moja“, reče zopet županja in prične še bolj ihteti.</p>
+            <p n="SLV10013.627">Milka se ne more več , od slabosti omahne materi v naročje, mati jo odrine od sebe . Nasloni glavico na materino koleno . Nazadnje se materi uže .</p>
+            <p n="SLV10013.628">„Milka, ali mi poveš bom vprašala?“</p>
+            <p n="SLV10013.629">„Vse vam povem, ljuba mati, vse, kar vem“.</p>
+            <p n="SLV10013.630">„Ali res rada vidiš mladega gozdarja?“ Milka dvigne glavo, vpre svoje črne oči v materine in odgovori z nedolžno odkritostjo:</p>
+            <p n="SLV10013.631">„Oh mati, rada!“</p>
+            <p n="SLV10013.632">„Ali ga zares ljubiš?“</p>
+            <p n="SLV10013.633">„Zares, Ijuba mati, zares“.</p>
+            <p n="SLV10013.634">Županja je izvedela dovolj. Praktična nrav njena je bila zadeta v živo. — Ali naj da svojo edinko kar na vrat na nos mladeniču, ki nima pod solncem drugega, kot borno službo? — Nima stalnega doma, nima zemljišča, nima denarja in morebiti še poštenih starišev ne. In kaj poreko o tem ljudje? — Ne, to ne sme biti, pa ne sme! Taka sramota ne sme doleteti naše hiše. Dekle se mora vdati, mora ubogati! — In s trdnim upanjem, dn se bo hči vdala, začela jo je županja prav ljubeznjivo pregovarjati:</p>
+            <p n="SLV10013.635">„Vselej si ljubila svojo mater. Milka vselej, si me rada ubogala; ubogaj me še sedaj. Izbij si iz glave onega človeka in niti ne sanjaj več o tem, da bi ga vzela“.</p>
+            <p n="SLV10013.636">„Oh mati, to je težko, to je nemogoče!“</p>
+            <p n="SLV10013.637">„Vstani, pa sedi sem k meni .</p>
+            <p n="SLV10013.638">„V božjih rokah smo, bodimo doma ali drugod. — Vedno se bom težko ločila od vas, ljuba mati, a vendar se bom enkrat morala, ako poprej ne, — ob smrti“. —</p>
+            <p n="SLV10013.639">„A pomisli, ljubo dete, da on je prav za prav revež kljubu svoji službici. Kaj pa ima?“</p>
+            <p n="SLV10013.640">„Blago srce ima, kakoršnega navadno nimajo bogati ženini“.</p>
+            <p n="SLV10013.641">„Černu ti bo njegovo srce, ako ne boš imela kaj jesti?“</p>
+            <p n="SLV10013.642">„Dobro srce, ljuba mati,- je zvesto; bogatstvo pa ni“, —</p>
+            <p n="SLV10013.643">„Ljubi otrok, ti ne veš še, kaj se pravi živeti. Bog te razsvetli in pregovori, jaz te ne morem! Ne ostane mi drugo, kot spomin na trud, skrbi in bolečine, ki sem jih prestala radi tebe. In ko bodo sedaj na večer življenja lasje siveli na moji glavi, mislila bom, kakor v sanjah, na jedino hčerko, na nehvaležno Milko, ki me je zapustila in šla, po svetu za tujim človekom — —“</p>
+            <p n="SLV10013.644">Jok je zadušil materi besede in umolknila je. je z otroško ljubeznjivostjo oklene ter prosi glasom:</p>
+            <p n="SLV10013.645">„Ljuba mati, ne mučite me tako! Ali se vam ne smilim?“</p>
+            <p n="SLV10013.646">„Ubogaj, otrok, ubogaj ! Pomisli, kaj poreče oče...“</p>
+            <p n="SLV10013.647">„Da ga ne vzamem, to mi lahko zabranite, da bi pa tega pozabila in ljubila drugega, — ni mogoče...“</p>
+            <p n="SLV10013.648">„Trmasta si in nepokorna!“</p>
+            <p n="SLV10013.649">„Saj sem rekla, mati da ga pustim; a drugega ne bom ljubila nikdar“.</p>
+            <p n="SLV10013.650">„Da ga le pustiš, za drugo je še čas. — Nobene besedice ne izpregovori mi več ž njim. Tudi nočem, da bi še kedaj prestopil naš prag. Oče mu bo uže povedal, kolikor mu jih gre“.</p>
+            <p n="SLV10013.651">Nato odide županja nevoljna iz izbe. Kmalu za njo gre tudi Milka. Predno stopi iz hiše, otare si še enkrat s predpasnikom solzne oči in gre zopet delat na polje. A delo se ji slabo odlega. Sama potrta in žalostna misli, da žaluje ž njo vsa narava. Solnce nima prave svetlobe, cvetke povešajo otožne glavice, nobena ptičica ne poje....</p>
+         </div>
+         <div type="chapter">
+            <head>XXII.</head>
+            <p n="SLV10013.652">„Nič ne dene v strah Ijubezni, Dokler srca plamene“. —</p>
+            <p n="SLV10013.653">Levstik.</p>
+            <p n="SLV10013.654">Počasi, počasi so tekli dnevi in tedni pri Zagričarjevih, odkar je izginil mir iz hiše. — Razpor v hiši se je posebno poostril, ko je stari poslal h gozdarju Mirku moža z naročilom, naj se nikdar več ne prikaže v njegovo hišo in naj pretrga sploh vsako zvezo z njegovo hčerjo. Od tačas nastali sta v mali Zagričarjevi družini dve stranki. Stara sta držala skupaj, Jožek je pa branil in zagovarjal Milko in gozdarja. Stara sta hotela, da bi bila Milka vesela in živahna, kot poprej, da bi vsi ljudje videli, da niti od daleč ne misli več na gozdarja. A Milka je bila vedno le žalostna in tiha. Delala je, a brez veselja, vedno le drugam zamišljena. To je stara dva silno jezilo, in začela sta hčer zavidati in očitno prezirati. Jožku se je pa uboga sestra smilila. Tolažil jo je, kolikor je mogel, ter ji vzbujal upanje, da ne bo dolgo, ko bosta oče in mati drugačnih mislij.</p>
+            <p n="SLV10013.655">Bilo je jasnega večera v začetku avgusta istega leta. Župan in županja sta šla na božjo pot na sv. Višarje. Seveda sta pred odhodom ostro zažugala otrokoma, naj pazita, kako bosta mej tem doma gospodarila in delala.</p>
+            <p n="SLV10013.656">Stari Drozeg je bil uže odzvonil Ave-Marijo, ko je Milka zajemala vode iz studenca pod gozdom. Navadno je ob enakih priložnostih prepevala, da je lepo odmevalo po dolini; a onega večera je bila tiha, zamišljena. Potrle so jo žalostne domače razmere in zamorile v njej vse veselje brezskrbne rnladosti. Bila je kakor mlado drevo se zamorjenim cvetom. — Nosila pa ni v srcu le svoje nesreče, ampak tudi nesrečo Mirkovo. Ta je nameraval namreč radi nenadne izpremembe pri županovih umakniti se predno mogoče daleč proč. Milka je vedela, da je Mirko potrt in užaljen; zato je tem huje trpela. Vedela je pa tudi, da je njeno upanje pokopano za vselej, ako se Mirko preseli drugam. In ta misel jo je kot kruta Erinija mučila noč in dan, ta misel je bila ž njo tudi onega večera pri studencu...</p>
+            <p n="SLV10013.657">„Dober večer, Milka!“ iznenadi jo naenkrat prijazen glas. Ko se ozre, vidi pred seboj — Mirka. Razveselila in ob enem vstrašila se ga je, tako, da ni vedela skoraj, kedaj mu je segla v desnico.</p>
+            <p n="SLV10013.658">„Kam si pa namenjen obsorej, Mirko?“</p>
+            <p n="SLV10013.659">„Doli k vam. A sedaj opravim lahko kar tukaj, če tudi vem, da bi mi danes nikdo ne branil v hišo, ker ni doma očeta in matere“.</p>
+            <p n="SLV10013.660">„Si-li prišel poslavljat se?“ vpraša s trepetajočim glasom Milka ter si zakrije obraz z belim predpasnikom.</p>
+            <p n="SLV10013.661">„Ne, nikar se ne boj, Milka. Zaupaj v Boga, ki ve, da so najini nameni čisti. Pot do sreče je strma in trnjeva, a ne obupaj. Ako Bog da, ostanem stalno tukaj. Glej, gospod nadgozdar namerava iti v pokoj; obenem pa hoče vplivnim prijateljem mene priporočiti kot svojega naslednika. Potem, draga Milka, ne bo me mogel nikdo več imenovati berača, potem bom lahko prosto stopil pred tvojega očeta in ga prosil — tvoje roke“.</p>
+            <p n="SLV10013.662">Milka ni vedela, ali so sanje; ali je resnica, kar sliši. Jokala je od samega veselja. Najraje bi pa bila padla na kolena in zahvalila dobrega Boga, ki pošilja v potrta srca zlate žarke upanja. —</p>
+            <p n="SLV10013.663">„To sem ti menil povedati, Milka, da ne boš preveč žalovala. Nikar ne misli, da zavrže človeka tudi Bog, kadar ga zavržejo ljudje. — Predno se uresniči, kar upava, preteklo bo sicer še nekaj mesecev ali morda celo leto. Prestati boš morala doma v tem času še marsikaj; a bodi neomahljiva, trdna... Ljubezen se v trpljenju sčisti, izpopolni. — Zadrževal te ne bom več tukaj, ker ni varno. — Pozdravi Jožka! — Lahko noč, Milka!“</p>
+            <p n="SLV10013.664">Še enkrat si rahlo stisneta desnici, še enkrat se ljubeznjivo pogledata, in Mirko odhiti nazaj proti gozdu. Milka pa zadene bedenj na glavo in gre domov.</p>
+         </div>
+         <div type="chapter">
+            <head>XXIII.</head>
+            <p n="SLV10013.665">„Slišal sem tičke pet, Fante pa vriskati, Oni naj vriščejo, Srca so žalostna —“.</p>
+            <p n="SLV10013.666">Nar. p.</p>
+            <p n="SLV10013.667">Bilo je v predvečer sv. Mihaela. Po Prelazju je odmevalo kasno po noči petje mladeničev, ki so v tesnem krogu stali sredi sela. Mej njimi sta bila tudi Podleskov Tine in Zagričarjev Jožek. Poslednji ni imel sicer navade izostajati po noči z doma, a onega večera ga je zadržal poseben vzrok. S Tinetom sta imela namreč drugo jutro odriniti k vojakom daleč tje doli v Trst. Spodobilo se je torej, da sta zapela se svojimi sovrstniki odhodnico.</p>
+            <p n="SLV10013.668">V Lesju je odbilo uže polnoči, ko so se mladeniči začeli še-le razhajati. Tine je spremil Jožka do doma ter mu dejal ob slovesu:</p>
+            <p n="SLV10013.669">„Do šeste bodi gotovo pripravljen. Lahko noč!“</p>
+            <p n="SLV10013.670">„Ne skrbi za to. — Dobro spi!“ odzdravi Jožek in zaklene za seboj hišna vrata.</p>
+            <p n="SLV10013.671">Tudi Tine odide, a ne domov, ampak ovije jo počasi in oprezno okoli županove hiše. Zadej za hišo obstoji in zre nekako vznemirjen sedaj na sklad bukovih polen, sedaj pa više gori v okno Milkine spalnice. Mučen boj divja v njegovih prsih, boj mej upom in strahom.</p>
+            <p n="SLV10013.672">„Nocoj sem še doma“, misli si „potem me ne bo tri leta, morebiti celo — nikdar več. Nocoj naj se odloči, ali bo meni zvesta, ali ne, tega ne sme, tega ne bo storila, dokler je še moč v tej pesti...“</p>
+            <p n="SLV10013.673">V take misli vtopljen, se pripogne, pobere nekoliko kamenčkov in jih prične enega po enem metati v okno. Večinoma je — menda od razburjeuosti — meril slabo, ker le malokateri kamenček je zadel v okno.</p>
+            <p n="SLV10013.674">„Ali spi res tako trdo, ali mi nagaja nalašč. — Toda, saj ne ve, da sem jaz tukaj“ ugiblje Tine uže malo nevoljen, pograbi pest grušča in ga vrže v okno, da so vse šipe zažvenketale.</p>
+            <p n="SLV10013.675">„Ni vrag, da bi se sedaj ne prebudila“ misli si Tine. In res! Čez nekoliko minut se odpre okno in na njem se prikože Milka, vprašajoč precej glasno:</p>
+            <p n="SLV10013.676">„Kdo je?“</p>
+            <p n="SLV10013.677">„Jaz, Tine Podleskov“ dejal je Tine z negotovim, skoraj tresočim glasom.</p>
+            <p n="SLV10013.678">„Kaj pa delaš obsorej tukaj?“ vpraša Milka, kakor da ne bi niti slutila, kaj namerava Tine.</p>
+            <p n="SLV10013.679">„Milka, jutri pojdem k vojakom. — Bog ve, ali se bova videla še kedaj“.</p>
+            <p n="SLV10013.680">„Ne bodi vendar tako malosrčen! — Koliko jih je uže šlo pred teboj k vojakom, pa so se vendar vrnili“.</p>
+            <p n="SLV10013.681">„Šel bi prav lahko od doma, verjemi mi, Milka, če bi vedel, da mara kdo tu doma kaj za-me.“</p>
+            <p n="SLV10013.682">„Jejh, pa si čuden! — Očeta in mater imaš še živa, pa praviš, da nikdo ne mara za-te“.</p>
+            <p n="SLV10013.683">„Oh Milka, ti me nočeš razumeti!“</p>
+            <p n="SLV10013.684">„Kako mores to reči?“</p>
+            <p n="SLV10013.685">„Privošči mi le eno prijazno besedo, Milka, pa bom vesel in potolažen“.</p>
+            <p n="SLV10013.686">„Euo prijazno besedico! — Ne govorim-li ves čas prijazno s teboj?“</p>
+            <p n="SLV10013.687">„Ako si mi res prijazna, reci, da me imaš rada“.</p>
+            <p n="SLV10013.688">„Rada te imam, saj si moj bližnjik. — Ne želim ti slabega, ne kratim ti dobrega...“</p>
+            <p n="SLV10013.689">„Ne tako, Milka! — Reci, da me ljubiš kakor jaz tebe“.</p>
+            <p n="SLV10013.690">„Saj ne vem, kako me ljubiš“.</p>
+            <p n="SLV10013.691">„Ljubim te tako, da bi dal za-te vse...“</p>
+            <p n="SLV10013.692">„To ni prav, Tine; duše ne smeš dati“.</p>
+            <p n="SLV10013.693">„Ne muči me, Milka! — Daj mi srce. — Obljubi, prisezi, da boš moja...“</p>
+            <p n="SLV10013.694">„Ne morem, ne smem! —“</p>
+            <p n="SLV10013.695">„Moreš in smeš, če hočeš. — Ali nočeš, Milka?“</p>
+            <p n="SLV10013.696">„Nočem!“</p>
+            <p n="SLV10013.697">Ta beseda je zadela Tineta kot strela. Kri mu je šinila v glavo in maščevalne misli so mu švigale kakor razdraženi gadje po zdvojeni duši — Vendar se je še premagal in vsaj navidezno mirno vprašal:</p>
+            <p n="SLV10013.698">„Kdo je oni, ki ti je ukradel srce, Milka? — Imenuj mi ga, prosim te... Nocoj pridem lahko še do svoje pravice...“</p>
+            <p n="SLV10013.699">„Ukradel ni meni srca — nikdo“.</p>
+            <p n="SLV10013.700">„Kdo je oni, ki ga imaš raje, nego mene?“</p>
+            <p n="SLV10013.701">„Ne hlini se tako grdo! — Poznaš ga dobro, saj ga sovražiš iz dna duše“.</p>
+            <p n="SLV10013.702">„Kaj moram slišati iz tvojih ust! — Ali misliš resno, Milka?“</p>
+            <p n="SLV10013.703">„Resno. — Zato ne nadleguj me več; trudna sem. — Lahko noč! — Z Bogom!“ rekši zapre Milka okno in gre spat.</p>
+            <p n="SLV10013.704">Kakor od strele raztreščen hrast stoji Tine pod oknom. Obupno zre pred se v tla. Srce mu burno polje, tako, da skoraj sliši njegove udarce. Najraje bi šel v gozd, izvlekel gozdarja s postelje in naredil ž njim tako, da bi nikdar več ne gledal za dekleti. — Besen od jeze pograbi poleno na skladu ter ga hoče zabrusiti v okno; a v tistem hipu odbije v Lesju dve uri po polnoči in petelin zapoje v kurniku. Skoraj nevede spusti Tine poleno iz rok in odide. Na hišnem oglu se pa obrne nazaj, pomoli trdo pest proti oknu in se zagrozi:</p>
+            <p n="SLV10013.705">„Pes naj bom in ne človek, če ima s tebaj kdo drug iti pred oltar, in ne jaz! Onemu zelenemu pritepencu gori v gozdu jo pa umesim, da me bo pomnil do smrti. — Grem, a le zato, da se kmalu vrnem. Le spita mirno še nekoliko nočij, le sanjajta še nekolikokrat o poroki in zakonski sreči; moja skrb bo, da se vajine sanje nikdar ne vresničijo...“ Nato je Tine odšel proti domu. Stopal je trdo in hitro, kakor da bi se mu mudilo. Vsak korak njegov pa so spremljale hude grožnje in kletve...</p>
+         </div>
+         <div type="chapter">
+            <head>XXIV.</head>
+            <p n="SLV10013.706">„Če vzamem v roko grčav les, Ne briši, sestrica, očes!“</p>
+            <p n="SLV10013.707">Levstik.</p>
+            <p n="SLV10013.708">Drugega jutra bili so pri Zagričarjevih uže zgodaj vsi na nogah. Milka je zanetila ogenj, potem so vsi po lepi krščanski navadi kleče odmolili rožni venec. Po molitvi sta sedla oče župan in Jožek na klop ob ognjišču in molče zrla v živahno plapolajoči ogenj; mati je izginila v izbo, najbrže brisat si skrivaje solze; Milka je pa pristavila k ognju dva lončka, da bi skuhala bratu zajutrek — kavo, ki ni bila v Zagričarjevi hiši vsakdanja jed. —</p>
+            <p n="SLV10013.709">„Ali si vzel robce, ki sem ti jih pripravila, Jožek?!“ prekrši Milka dolgo molčanje, da bi se malo iznebila mislij na bratov odhod.</p>
+            <p n="SLV10013.710">„Oh glej! — Zabil sem. — Pojdi mi ponje, pojdi“, odvrne Jožek, ko je zastonj pretipal vse žepe.</p>
+            <p n="SLV10013.711">„Pazi, da ne pustiš doma še kaj potrebnejšega“ oglasi se takoj nato oče.</p>
+            <p n="SLV10013.712">„Drugo, mislim, da sem vse spravil v kovčeg“.</p>
+            <p n="SLV10013.713">„Glej, kako boš obrnil denar, ki sem ti ga dal. Ne mislim s tem, da si ne bi smel privoščiti od časa do časa kozarčka vina, a po pameti“.</p>
+            <p n="SLV10013.714">„Saj veste, oče, kako sem delal pri vas doma“.</p>
+            <p n="SLV10013.715">„Očitati ne morem ti doslej ničesar, a pri vojakih boš imel drugačnih priložnostij. — Zato varuj se! — Z onim le Podleskovim se mi nikar ne brati preveč...“</p>
+            <p n="SLV10013.716">„V osmih tednih bom imel sploh malo časa bratiti se s kom“.</p>
+            <p n="SLV10013.717">„Kaj, — malo časa!? — Za greh ni ga treba veliko“.</p>
+            <p n="SLV10013.718">V tem sta prišli k ognjišču mati in Milka, obe solznih očij. Jokali sta gotovo vsaka v svojem kotu. — Oče in Jožek sta zopet vtihnila.</p>
+            <p n="SLV10013.719">Milka je vrgla še pest suhih tresek na ogenj, da bi hitreje zavrelo v lončkih. Potem je pa šla po skodelico, krožnik in Ieseno žlico. Še nekoliko minut, in Milka je povabila brata, naj gre v izbo zajutrekovat.</p>
+            <p n="SLV10013.720">„Ne, Milka! druge dni sem jedel tukaj, danes bom tudi“.</p>
+            <p n="SLV10013.721">Molče je ubogala Milka in prinesla bratu zajutrek k ognjišču. Ko je pojedel, obrnil se je k sestri in dejal:</p>
+            <p n="SLV10013.722">„Še nekaj te poprosim, Milka. — Poglej doli k Podleskovim, ali je Tine uže pripravljen“. Milka je malo obstala, kakor da bi ji ne bilo lahko storiti, česar jo brat prosi. Vendar je pa takoj odšla. Tedaj je pa mati začela z ihtečim glasom:</p>
+            <p n="SLV10013.723">„Jožek, glej, da ne pozabiš Boga in Iepih naukov, ki si jih slišal v domači hiši. — Moli rad in varuj se slabih tovarišev“.</p>
+            <p n="SLV10013.724">„Mati, neroden bi bil prav tako lahko doma, kakor zunaj v svetu“.</p>
+            <p n="SLV10013.725">„Eh, ne jokaj mi vendar toliko! — Komu neki pomagaš kaj se svojim jokom?!“ pokara župan ženo.</p>
+            <p n="SLV10013.726">„Oh, Jožek!“ prisopiha v tem Milka vsa preplašena v hišo. „Podleskov je odšel uže po noči, nobeden njegovih ne ve, kedaj“.</p>
+            <p n="SLV10013.727">Jožka je prvi hip presenetilo to nepričakovano sporočilo. Vzbudile so se mu čudne sumnje; vendar ni hotel tega pokazati zunanje, ampak je mirno dejal:</p>
+            <p n="SLV10013.728">„Ne boj se, Milka! Ali misliš, da imam pet let, da ne bi si upal sam par korakov od hiše?“</p>
+            <p n="SLV10013.729">„Ali ti je obljubil, da te počaka?“ vpraša oče malo osupnen.</p>
+            <p n="SLV10013.730">„Seveda. Dogovorila sva se tako še sinoči“.</p>
+            <p n="SLV10013.731">„No, vidiš“ pripomni takoj župan z nekakim zadovoljstvom, „vidiš; da ta človek ni kaj prida. Ogibaj se ga, kakor da ne bi ga poznal“.</p>
+            <p n="SLV10013.732">„Čas je, da grem“ de Jožek ter vstane in vzame kovčeg in palico. Milka smukne tačas v izbo in prinese ven bratov klobuk. Jožek ga vzame ter ga hoče posaditi na glavo; a v tem zagleda za klobukovim trakom lep šopek svežih cvetic. Strmeč drži klobuk pred seboj in vpraša:</p>
+            <p n="SLV10013.733">„Kdo mi je naredil to?“</p>
+            <p n="SLV10013.734">Natnesto odgovora, objela je Milka dragega ji brata in se na glas zjokala, kakor bi mu hotela potožiti:</p>
+            <p n="SLV10013.735">„Sedaj, ko tebe ne bo, bom sama, zapuščena“. — Kakor je bil Jožek moškega značaja, utrnili sta se mu tačas vendar dve svetli solzi in padli na sestrino lice. Mati si je od ginjenja zakrila obraz s predpasnikom; župan pa je stal kot pribit in vidno presunjen gledal, kako se ljubita njegova jedinca...</p>
+            <p n="SLV10013.736">Da bi bil poprej konec pretresljivemu prizoru, izvil se je Jožek sestri iz rok, segel najprej očetu, potem materi in Milki v desnico ter dejal ob slovesu še enkrat bolj s tihim glasom:</p>
+            <p n="SLV10013.737">„Z Bogom, oče in mati! Z Bogom, Milka!“ Še dolgo sta gledala stara molče s hišnega praga za sinom. Milka pa je pohitela v svojo sobico in od tamkaj skozi okno zrla za bratom, dokler ni izginil doli v klancu za ovinkom.</p>
+         </div>
+         <div type="chapter">
+            <head>XXV.</head>
+            <p n="SLV10013.738">„Druga čaša, bračo, sada Našira slavnim mrtvim spada...“</p>
+            <p n="SLV10013.739">P. Preradovič.</p>
+            <p n="SLV10013.740">Na praznik vseh svetnikov dopoludne sedeli so v Strugovi krčmi Sever, grobar Krt in še dva druga vaška kmeta.</p>
+            <p n="SLV10013.741">„Torej umrl je, deš, moj pobratim Kozmek?“ vpraša Sever grobarja.</p>
+            <p n="SLV10013.742">„Umrl; praznil ne bo več frakeljčkov“, reče Krt.</p>
+            <p n="SLV10013.743">„Dobro, da ga ni smrt dohitela za kakim plotom“, pripomni prvi kmet.</p>
+            <p n="SLV10013.744">„Ne, tega pa ne: umrl je pošteno pod svojo streho“, povdari Krt.</p>
+            <p n="SLV10013.745">„No, tebi je pač malo mar za njegovo pošteno smrt, tem bolj pa za groše, ki jih dobiš“, ponagaja Krtu drugi kmet.</p>
+            <p n="SLV10013.746">„Ha, — za groše njegove!? — Kozmek bo še v nebesih živel na občinske troške“ zavrne Krt kmeta.</p>
+            <p n="SLV10013.747">„Daj mu Bog nebesa! — Privoščim mu jih iz srca, saj je bil dobra duša“, meni resno Sever.</p>
+            <p n="SLV10013.748">„Privoščiš mu jih lahko, a dati mu jih ne moreš“ de Krt. „Kozmek je preveč migal z jezikom tudi tam, kjer ni bilo potreba“.</p>
+            <p n="SLV10013.749">„No, rajnik je imel slabosti, mi jih pa še imamo“, reče Sever.</p>
+            <p n="SLV10013.750">„Kako lepo so se razumeli v županovi hiši; odkar je pa rajni Kozmek — daj mu Bog nebesa! jezik predaleč stegnil, ni več pravega miru in ga ne bo. Stara dva vlečeta na eno stran, otroka njuna pa na drugo“, pripoveduje Krt.</p>
+            <p n="SLV10013.751">„Meni se smili hči; dobro dekletce je“, pravi prvi kmet.</p>
+            <p n="SLV10013.752">„Kaj smili!“ oglasi se takoj drugi. „Jaz bi ji pokazal še drugače, kako treba ubogati. Ni hudir, da bi dal župan hčer kar prvemu pritepencu, ki prišvedra mimo po cesti, Bog vedi odkod“.</p>
+            <p n="SLV10013.753">„Bolje stori, ako da hčer revnemu poštenjaku, nego premožnemu malopridnežu. — Sicer pa, boter, pazite kaj govorite! — Kako morete gozdarja imenovati pritepenca? — Naj je prišel odkoderkoli, prišel je pošteno in na lastne stroške, ne pa na vaše“, zadere se jezno in odločno Sever.</p>
+            <p n="SLV10013.754">„Tako je; prav govoriš, Sever“, potrdi prvi kmet.</p>
+            <p n="SLV10013.755">„No, saj nisem imenoval naravnost gozdarja pritepenca, ampak hotel sem le povedati, da ne gre, da bi ga vzela županova hči, ker ima premalo pod palcem“, opravičuje se drugi kmet, boječ se zamere pri Severju.</p>
+            <p n="SLV10013.756">„Meniš-li, da človek le toliko velja, kar plača? — Ta bi bila lepa! — Kam naj bi se potem skrila Krt in Sever?“ segne šaljivo vmes Krt.</p>
+            <p n="SLV10013.757">„Škoda dekleta! Tako dobra in pametna je, a zdi se mi, da se je zadnji čas vsa nekako izpremenila in postala otožna. To je nevarno znamenje“, meni zopet prvi kmet.</p>
+            <p n="SLV10013.758">„Ha!“ oglasi se sarkastično Sever. „Starina v grob, mladina na krmilo! — Rad bo še plesal župan, kakor mu bo hči godla. Hudič, ki sta si ga stara naslikala, se jima bo kmalu razodel kot angel. — In oba bosta zopet vesela in zadovoljna, kakor nekdaj“.</p>
+            <p n="SLV10013.759">„Kako je pa se sinom pri vojakih?“ vpraša Krt Severja.</p>
+            <p n="SLV10013.760">„Hm, kako! Še mesec dnij, pa bo doma. Potem bo pihal pri Zagričarjevih drugačen veter —“.</p>
+            <p n="SLV10013.761">„Jožek je pošten mladenič. Boljši mož bo, nego stari“, de prvi kmet.</p>
+            <p n="SLV10013.762">„Kaj moreš očitati staremu?“ zavpraša hlastno drugi kmet, ki ni mogel pozabiti, da ni poprej njegova obveljala glede na županovo hčer.</p>
+            <p n="SLV10013.763">„Očitam mu ničesar ne, ampak trdim samo, da bo sin boljši od starega“, izgovarja se prvi kmet.</p>
+            <p n="SLV10013.764">„Bo vže kako; a hčer bo dal župan gozdarju. Zapomnite si to, možje: hčer bo dal župan gozdarju. — Hvala za pijačo, boter Krt!“ Rekši, vstane Sever in izgine skozi vrata ven na prosto, kjer so naletale snežinke v širokih plahticah. Drugi so pa ostali še dolgo potem v krčmi ter si z raznimi pogovori krajšali uže tako kratek jesenski dan.</p>
+         </div>
+         <div type="chapter">
+            <head>XXVI.</head>
+            <p n="SLV10013.765">„Ne vriska več, ne poje več, Molče domov koraka. —“</p>
+            <p n="SLV10013.766">Jos. Kržišnik.</p>
+            <p n="SLV10013.767">Debel adventni sneg je pokrival polja in griče okrog Prelazja. Mrzla burja je brila nad sneženo odejo in vznašala v zrak suhi sneg. Od Lesja proti Prelazju koraka potnik, imajoč na glavi vojaško kapo, na palici čez ramo pa kovčeg. — Slovenski mladenič, vračajoč se od vojakov k ljubim starišem, k dragi izvoljenki, je navadno vesel in židane volje. Vso pot vriska in poje, da odmeva od dolin in hribov. Njegovo srce se raduje v mislih na mili dom, na stare prijatelje in znance. — A vse drugače je pri našem mladem potniku. On ne vriska in ne poje; obraz mu je mračen, resen. Od časa do časa se vstavi, potrka parkrat s čevlji ob cestni kamen, da si otrese sneg od podplatov, ter gre zopet molče in zamišljeno dalje. Tako prispe v selo, da sam ne ve, kedaj. —</p>
+            <p n="SLV10013.768">Sem pa tje se je odprlo kako zameteno okno in skozi je pokukal radoveden ženski obraz, ki se je pa kmalu zopet skril. Nekoliko paglavcev kepalo se je mej hišami, a ko so ugledali potnika z vojaško kapo, pometali so kepe iz rok ter zbežali na vse strani. Samo najdrznejši med njimi se je vstavil za oglom bližnje hiše in skrivoma opazoval potnika.. „Županov Jožek!“ zaklical je precej glasno za potnikom ter jo ucedil kar so ga nesle noge hitro proti domu. Potnik, ki je bil v resnici županov Jožek, se pa ni zmenil za otrokov klic, ampak je korakal svojo pot dalje. Vstopivši doma v hišo, ne najde nikogar, zato odpre v izbi. Ondi sta sedeli mati in Milka vsaka za svojim kolovratom in predli. Ko je pa Jožek vstopil, prenehala sta kolovrata hipoma drdrati in Milka, ki je brata koj spoznala, skočila mu je nasproti in ga molče iskreno objela. Županja je pa od iznenadenja in veselja premagana nepremično sedela na svojem mestu in, kakor na dan Jožkovega odhoda, se solzami v očeh občudovala, kako odkritosrčno se ljubita njena otroka.</p>
+            <p n="SLV10013.769">Ko so se polegli prvi občutki ginjenja, segel je Jožek še materi v roko, odložil kovčeg ter sedel na klop mej mater in sestro.</p>
+            <p n="SLV10013.770">„Kje pa je oče?“ bilo je njegovo prvo vprašanje.</p>
+            <p n="SLV10013.771">„Šel je pokladat živini. Pride kmalu“, odvrne županja in gleda sinu naravnost v oči, kakor bi hotela spoznati vzrok, zakaj je tako nenavadno resen.</p>
+            <p n="SLV10013.772">„Kako je pa bilo doma? — Ste-li bili zdravi?“ vprašuje dalje Jožek in pogleda Milko, katero je to njegovo vprašanje spravilo v vidno zadrego. Zarudela je, pobesila glavico in molčala. — Tudi mater županjo je precej vznemirilo to vprašanje, vendar se je znala prikriti in je odgovorila:</p>
+            <p n="SLV10013.773">„O — hvala Bogu! — zdravi smo pa bili vsi ves čas; le pri očetu se je oni dan oglasila stara bolezen: trganje po levi nogi. Sedaj je pa tudi on zopet dober“.</p>
+            <p n="SLV10013.774">Komaj je županja to izgovorila, vstopil je v izbo župan. Kar obstal je, ko mu kar nenadoma stopi sin nasproti in ga pozdravi. Nato se je razvnel živ razgovor mej očetom, sinom in materjo. Milka je pa šla mej tem v kuhinjo, da bi — kakor je mati dejala — pripravila bratu kaj gorkega za prigrizek.</p>
+            <p n="SLV10013.775">Če tudi je Jožek rad govoril in odgovarjal na razna vprašanja, vendar sta stara zapazila, da ima nekaj na srcu, kar ga žalosti in teži, kar bi rad povedal, a se boji in ne more... Slutila sta tudi s precejšnjo gotovostjo, kaj bi to bilo. — V srcu jelo se jima je nekaj oglašati kot opomin: vdajta se, ne podirajta sreče svojih dobrih otrok, ne podita miru od hiše... Čemu ne bi bili pri županovih veseli in zadovoljni mej seboj, kot nekdaj...? — Stara sta jela omahovati; zmagala je ljubezen do dobrih otrok vse druge ovire in ozire. —</p>
+            <p n="SLV10013.776">„Jožek“, reče naenkrat ljubeznjivo županja, „Jožek, povej odkritosrčno meni in očetu, kaj ti je, da si celo danes tako resen in otožen?“</p>
+            <p n="SLV10013.777">„Mati“ odvrne Jožek proseče, „je-li treba, da to povem? — Saj veste, kaj me teži. — Jaz trpim radi — Milke. —“</p>
+            <p n="SLV10013.778">Stara sta se spogledala; vsi trije so obmolkhili. Nazadnje se pa oglasi oče resno in odločno:</p>
+            <p n="SLV10013.779">„Ako je Bog Milki to namenil, zgodi se volja božja“.</p>
+            <p n="SLV10013.780">„Bog blagoslovi oba!“ dostavila je mati in si otela s predpasnikom solzo. Jožek pa ves iz sebe vstane, prime očeta in mater za desnici in reče:</p>
+            <p n="SLV10013.781">„Ljuba oče in mati, verjemita mi: cela gora se mi je sedaj odvalila od srca. Jaz sem zopet vesel kot nekdaj, v našo hišo se je zopet vselil mir in Milka bo srečna —“.</p>
+            <p n="SLV10013.782">Uprav, ko je Jožek izgovoril zadnje besede, je prinesla Milka jed na mizo. Ona ni seveda nič slutila o tem, kar se je zgodilo v izbi. Zato pa stopi Jožek k njej in ji ves srečen pove:</p>
+            <p n="SLV10013.783">„Sestrica, nehaj biti tiha in žalostna. Oče in mati te imata zopet rada; vse je poravnano“.</p>
+            <p n="SLV10013.784">Milka ni vedela, je-li resnica ali so sanje to, kar sliši. Skoraj nehote in nevede omahne materi v naročje, jo objame in začne od radosti jokati. —</p>
+            <p n="SLV10013.785">Mej veselimi pogovori je prešel srečni županovi družini popoldne, in približala se je noč. Po večerji so pokleknili in molili rožni veiiec. Vže dolgo, ali morebiti še nikdar ga še niso molili vsi tako goreče in s tako hvaležnim srcem, kakor oni večer.</p>
+            <p n="SLV10013.786">Po dokončani molitvi so se še dolgo razgovarjali o tem in onem. Nikomur se ni mudilo spat, ker mir in zadovoljnost v družini sta več, nego nadomeščala, ves počitek. — Kar naenkrat se pa okoli desetih zvečer odpro hišna vrata in, kakor mlinar bel od snega, vstopi z razgrnjenim papirjem v roki — Toni Sever.</p>
+            <p n="SLV10013.787">„Lahko noč, ako dremljete, sanjate ali spite!“ — bil je došlecev pozdrav.</p>
+            <p n="SLV10013.788">„Hoho, Sever, te trka luna, ka-li?“ vsklikne v šali župan.</p>
+            <p n="SLV10013.789">„Luna — pa mene!? — Mislite-li, da sem Mohamed, kateremu je luna tako zlezla v možgane, da nosi še dandanes njene rožičke? — Ne, Sever ne brani starim babnicam v nebesa, kakor Mohamed, ampak privošči nebesa iz srca vsakomur. — Toda“ — stopi korak bliže in jame motriti Jožka — „Tone, če vidiš biriča, potuhni se, kakor bi videl hudiča! — Oh Jožek, stari brus te pozdravlja : — servus!! Zlata duša, kje imaš roko?“ Nato segneta si z Jožkom v desnici. Severju se prikota po licu debela solza. Za hip obmolknejo vsi. Prvi pretrga molčanje Jožek, vpražajoč:</p>
+            <p n="SLV10013.790">„Kako gre pa gospodu gozdarju, Tone?“</p>
+            <p n="SLV10013.791">„Vremena bodo Mirku se zjasnila, milejše zvezde kot do zdaj sijale“, odvrne Tone važno in maha zmagovalno, kakor z zastavo, po zraku s papirjem, ki ga je imel v roki.</p>
+            <p n="SLV10013.792">„Kaj pa plašiš okoli z onim-le papirjem?“ zavpraša župan malo radoveden.</p>
+            <p n="SLV10013.793">„Ž njim odganjam nesrečnih dnij spomine in lečim mladim srcem bolečine....“ To rekši upre Sever svoje bistro oko v Milko ter nadaljuje: „To pisanje pravi, da bo gosp. nadgozdar Hostnik z novim letom upokojen in da nastopi tačas njegovo službo moj blagi gospodar Mirko.</p>
+            <p n="SLV10013.794">Zagričarjevi se, ob tej novici veselo iznenadeni, začudeno spogledajo. Milka pobesi glavico in skrije drobni obrazek mej dlani, da bi je nič ne motilo v njeni radosti in sreči. —</p>
+            <p n="SLV10013.795">Sever se v tem urno osukne, vošči: „Lahko noč!“ in izgine tako hitro, da so imeli županovi komaj časa dovolj naročiti mu, naj pozdravi gospoda gozdarja ter ga prosi, da bi jih kmalu obiskal. —</p>
+         </div>
+         <div type="chapter">
+            <head>XXVII.</head>
+            <p n="SLV10013.796">„Saj takrat o vsakem Največ govori se. Kadar stmt ga vzame, Ali pa moži se“.</p>
+            <p n="SLV10013.797">Ant. Hribar.</p>
+            <p n="SLV10013.798">Čudom so se čudili v nedeljo potem Prelažani in Lesjani, ko so videli mladega gozdarja na poti v cerkev in iz cerkve v družbi z županom in njega sinom Jožkom. Vse vprek je ugibalo, kaj je moglo neki kar čez noč prekiniti tako trdega moža, kot je bil njihov župan. Stare mamice so se vse osupnene zbirale v goste gruče, stikale skupaj glave in ušesa in tako hitro migale se suhimi čeljustmi, da se ni moglo razločiti nou od brade. Kar so mamice uganile, ostalo je pa do današnjega dne zgodovinska tajnost. —</p>
+            <p n="SLV10013.799">Poleg brezzobih staric belila so si s to rečjo glavo, in sicer še z večjo pravico, domača dekleta. — O vspehu njihovega ugibanja vemo samo to, da je bilo z veliko večino vsprejeto mnenje:</p>
+            <p n="SLV10013.800">„Lahko ga je vesela Milka. Dobiti ne bi mogla ne lepšega, ne boljšega, če tudi je županova“.</p>
+            <p n="SLV10013.801">V velik krog so se postavili po maši za cerkvijo sivi vaški dedje, resni možje in nekateri starejši mladeniči, dasi je bilo mraz, da bi bil človek najraje kar sam va-se zlezel.</p>
+            <p n="SLV10013.802">„Naj me šment, možaki, ako ni res tako, kakor vam bom jaz zdaj povedall“ — prične važno postaren možicelj stopivši v sredo mej druge. „Bilo je letos na binkoštno nedeljo. Stali smo možaki tukaj, kjer stojimo danes, samo ne v snegu, ampak na kopnem. In tedaj vam zine rajni Kozmek — Bog mu daj dobro tam onstran — in pove kot prorok: Videli boste — jaz ne bom več videl tačas — a vi boste videli lep par pred altarjem sv. Jurija. — Tako je dejal, in pogodil jo je. Če nas ne vzame advent, videli bomo v pustu gozdarja in županovo hčer pred altarjem“. —</p>
+            <p n="SLV10013.803">„Sedaj povem pa jaz svojo“, oglasi se grobar Krt, ki je nestrpno čakal, da bi prišel do besede. „Bilo je tudi letos na vseh svetih dan popoldne, ko smo ga se Severjem in z dvema možema tako malo po božje vlekli pri botru Strugu. Govorili smo o županovih in o gozdarju. Bili nismo v tej stvari vsi ene misli. Kar se zadere Tone Sever in jo pove, kakor bi pribil: Rad bo še plesal župan, kakor mu bo hči godla. — Možaki, je-li bila ta beseda prazna?“</p>
+            <p n="SLV10013.804">Tako in enako so prevdarjali možje še nekoliko časa, dokler se ni drug za drugim pobral domov za peč.</p>
+            <p n="SLV10013.805">V tem je bila pri Zagričarjevih cela družina zbrana v gorko zakurjeni izbi in poleg domačih bil je tam tudi gozdar Mirko. A bil ni tam več samo kot navaden gost, ampak kot zaročenec lepe županove Milke. — V dokaz svojega posebnega veselja in zadovoljstva priskrbel je župan majoliko vina, županja pa nekaj ocvrtega za prigrizek. Stara nista zrla več v Mirku beraškega pritepenca in zapeljivca, ampak pametnega, poštenega mladeniča, ki je ljubil njuno hčerko resnično in s čistim namenom. Milka je razkrila namreč mej tednom očetu in materi vse, kar se je bilo do takrat zgodilo mej njo in Mirkom. Povedala jima je, kako se je hotel za vselej posloviti od nje in umakniti se daleč proč samo, da ne bi motil družinskega miru v njih hiši. Toda upanje, da bo kmalu imenovan za nadgozdarja in njene prošnje so ga pridržale, da ni naredil usodepolnega koraka. Solze so se starima zasvetile v očeh, ko sta čula take reči pripovedovati o mladeniču, katerega sta tolikokrat tako ostro in krivično sodila.</p>
+            <p n="SLV10013.806">Čuditi se nam torej ni, ako sta stara sama prva pričela govoriti o poroki in o dnevu ženitovanja. Domenili so se, da bo o pustu, kakor hitro bo vse potrebno pripravljeno.</p>
+            <p n="SLV10013.807">Ko je bila glavna stvar določena in sklenjena, prišli so na vrsto drugi za nas manj važni pogovori. Bilo je vže precej požno popoldne, ko se je Mirko poslovil pri županovih. Po dolgem času čutil se je tedaj zopet v tem kraju domačega in zadovoljnega.</p>
+         </div>
+         <div type="chapter">
+            <head>XXVIII.</head>
+            <p n="SLV10013.808">„Hudobec Ostudnejsi od lepe ženske ni, ki padla je...“</p>
+            <p n="SLV10013.809">Šekspir.</p>
+            <p n="SLV10013.810">Prišel je čas Kurentovega slavlja — pust. Skopnel je sneg skoraj do cela in solnce se je jelo od dne do dne više pomikati. Lepega jutra je sedel v malem vrtu pred gozdarsko hišo na bukovi klopi Sever sam in nekam zamišljen. — Kar zacvilijo lesena vrtna vrata. Sever dvigne naglo glavo in kaj ugleda!? — Dve ženski temne polti ter črnih očij in las se mu bližata. Ena je starikava, suha, zoprnega obraza in osatega pogleda; druga pa je okoli dvajset let stara, po zunanjosti precej simpatična mladenka. Vse kaže na njima, da sta ciganki.</p>
+            <p n="SLV10013.811">Sever se je iz prva nekoliko ustrašil žensk, misleč si: Kaj neki stika ta ciganska svojat tukaj po gozdu? — Ko mu prične starka s hripavim glasom pripovedovati, kako sta po naklučju zašli, ker jima je kraj popolnem neznan, pomiri se Sever in ni več tako nezaupen. Stara ciganka zapazi to takoj, zato porabi ugodni trenutek in prične beračiti:</p>
+            <p n="SLV10013.812">„Očka, dragi očka, dajte, peščico moke, ocvirek zabele, kako jajce, kaj obleke, kake stare črevlje ali klobuk za moža mojega...“</p>
+            <p n="SLV10013.813">„Da, še hlače ti bom dal, pa srajco, pa ključ od hiše, pa hišo samo, potem boš, botra ciganka, dovolj otovorjena, ka-li ne? — Le idita z Bogom! Jaz sem tukaj toliko gospodar, kot vedve“, de hudomušno Sever, vedoč, da se ciganki ne bosta dali kar tako odpraviti.</p>
+            <p n="SLV10013.814">„Bog vam daj dobro srečo, gospodar, Bog se usmili duše...“ drgne dalje nadležna starka.</p>
+            <p n="SLV10013.815">„Ali veš, da imaš dušo?“</p>
+            <p n="SLV10013.816">„Eh, dobri gospodar, imam dušo, imam“.</p>
+            <p n="SLV10013.817">„Pa ona tam ima tudi dušo?“</p>
+            <p n="SLV10013.818">„Ima, dobri gospodar, ima“.</p>
+            <p n="SLV10013.819">„Zakaj pa molči kot pust v pratiki?“</p>
+            <p n="SLV10013.820">„Eh, dobri gospodar, ne zna slovenski“.</p>
+            <p n="SLV10013.821">„Odkod sta pa doma?“</p>
+            <p n="SLV10013.822">„Tamo — tamo —“ kaže starka proti vzhodu.</p>
+            <p n="SLV10013.823">„Da, da, tamo — izza plota.... ha.... ha.....“ zasmeje se Sever prav debelo.</p>
+            <p n="SLV10013.824">„Da tamo, dobri gospodar. — A dajte revicama malo zabele, kako jajce, novčič... Hočeve moliti...“</p>
+            <p n="SLV10013.825">„Kaj?! Ti stara metla s Kleka boš molila? — Pojdi no koga drugega s tem tolažit! — Zaradi tvoje molitve me lahko vrag pozoblje s klobukom in črevlji vred“.</p>
+            <p n="SLV10013.826">„Dobri gospodar“, stopi starka korak bliže. „Pokažite mi roko; povedati vam hočem srečo“.</p>
+            <p n="SLV10013.827">„Na, — tu jo imaš“, pomoli Sever starki desno dlan pod nos. „Toda le hitro povej; mudi se mi, ker sem uže star“.</p>
+            <p n="SLV10013.828">Ciganka prime Severjevo roko, nabere čelo v resne gube, premišljuje nekoliko časa, potem pa začne počasi, a z nekako gotovostjo:</p>
+            <p n="SLV10013.829">„Glejte, gospodine, ta črta proti levici pomeni, da ste srčno ljubili ženo; a ta večji križ pa pravi, da je ona uže mrtva. Ti mali križci kažejo grobove vaših otrok. — Ta dolga črta proti desni pa pomeni dolgo življenje, veliko prijateljev in smrt doma v postelji...“</p>
+            <p n="SLV10013.830">Vže mej starkinim prorokovanjem se je Sever komaj zdržal smeha; ko je pa starka končala, začel se je tako krohotati, da bi bili ciganki kmalu zbežali. A v tern hipu pride Mirko s puško na rami, strmeč seveda nad nenavadnim prizorom v vrtu. Vendar se ne vstavi zunaj, ampak gre naravnost v hišo. Ciganki — ne bodita leni — pa kar za njim.</p>
+            <p n="SLV10013.831">Mirko se je mudil nekoliko časa v izbi, kamor je bil nesel puško; starejša ciganka je takoj vporabila ta hip v to, da si je malo natančneje ogledala kuhinjo; mlajša si je dala opraviti pa pri vratih in je vtaknila nekaj v žep, na kar je skočila starka hlastno k njej ter jo tiho zavprašala:</p>
+            <p n="SLV10013.832">„Ali si?“</p>
+            <p n="SLV10013.833">„Sem“.</p>
+            <p n="SLV10013.834">„Dobro! — Drevi se ne bo več krohotal stari —“ Sedaj pride Mirko iz izbe in se nenavadno osorno obrne k cigankama:</p>
+            <p n="SLV10013.835">„Česa pa iščete tukaj?“</p>
+            <p n="SLV10013.836">„Eh, lepi gospodine, malo zabele dajte, peščico moke, kaj obleke, lepi gospodine....“</p>
+            <p n="SLV10013.837">„Tu imata par novčičev. Sedaj pa le spravita se mi takoj!“</p>
+            <p n="SLV10013.838">„Eh, lepi, mladi gospodine!“ jame zopet starka vsiljivo.</p>
+            <p n="SLV10013.839">„Kaj — lepi, mladi! — Tudi vedve sta dovolj mladi, a bi si lahko kruha služili s poštenim delom, ne pa se vlačita okoli kot — — Poberita se!“</p>
+            <p n="SLV10013.840">„Eh, eh, lepi —“</p>
+            <p n="SLV10013.841">V tern plane Sever v hišo, pograbi metlo v kotu ter začne mahati po cigankah, da zbežita preko vrta kakor dve furiji.</p>
+            <p n="SLV10013.842">„Pokazal vama bom jaz srečo, potepinki vlačugarski!“ rohni Sever ter pridno ometa starejši ciganki pleča in hrbet, dočim se mu Mirko smeje na hišnem pragu. Zunaj vrta se starka trepetajoča od jeze obrne in zažuga se suho, rujavo roko Severju in Mirku, potem pa izgine naglo za mlajšo tovarišico v gozd.</p>
+         </div>
+         <div type="chapter">
+            <head>XXIX.</head>
+            <p n="SLV10013.843">„Lasje mi vstajajo po glavi, Tak krut zločin mi zgodba pravi. —“</p>
+            <p n="SLV10013.844">Ant. Hribar.</p>
+            <p n="SLV10013.845">„Nekaj novega, nekaj novega!“ vskliknil je Sever nekako razburjen, ko se je istega dne v mraku vruil iz Lesja s košarico raznih kuhinjskih potrebščin na roki.</p>
+            <p n="SLV10013.846">„Kaj pa takega?“ zavpraša iznenaden Mirko.</p>
+            <p n="SLV10013.847">„Ne vem, kaj bi mislil in kaj rekel,“ odvrne Sever še vedno vznemirjen, odloži košarico ter sede kakor spehan na klop ob ognjišču. „Mimogrede sem pogledal malo k Zagričarjevim in koga sem dobil tam? —“</p>
+            <p n="SLV10013.848">Mirko se zgane, zarudi, potem pa takoj prebledi in čaka nestrpno, kaj bo Sever še dalje povedal.</p>
+            <p n="SLV10013.849">„Dva orožnika sta sedela v izbi in ž njima Zagričarjevi vsi prepadeni; — le Milke ni bilo videti. — Komaj sem vstopil v izbo, uže me vprašata orožnika, sem-li kaj čul o vojaškem beguncu, Valentinu Podlesek iz Prelazja, ki se uže tri tedne klati okoli s tolpo ciganov. — Kakor blisk v temno noč posvetilo je to vprašanje v moje možgane. Povedal sem orožnikoma o cigankah, ki sta bili zjutraj tu pri nas, in kako nama je starejša odhajaje zažugala z roko. Orožnika sta vzela vse na zapisnik“.</p>
+            <p n="SLV10013.850">Mirko si ni upal niti dihati, tako pazljivo je poslušal Severjevo pnpovedovanje. Ko je pa ta končal, zavprašal ga je hlastno:</p>
+            <p n="SLV10013.851">„Kaj pa je z Milko?“</p>
+            <p n="SLV10013.852">„Upam, da nič hudega. Boji se Podleskovega, in ne brez vzroka, ker tak človek je za vse sposoben. — Županja mi je povedala skrivno pred hišo, ko sem odhajal, da je Podleskov zadnjo noč, ko je bil še doma, prišel Milko klicat pod okno, a dekle ga je mrzlo in odločno odslovilo. — Zato se je Podleskov hudo zarotil, da se bo maščeval ter odšel ne da bi bil počakal Jožka, kakoi sta se bila zmenila?“</p>
+            <p n="SLV10013.853">„Kaj sta rekla pa orožnika?“</p>
+            <p n="SLV10013.854">„Rekla sta, da bo eden njiju nocoj pazil okoli Zagričarjeve hige, drugi pa pošlje na orožniško postajo na pomoč, da bosta nocoj vsaj dva patrolirala tukaj po gozdu“,</p>
+            <p n="SLV10013.855">„Smeva-li zanesti se na to?“</p>
+            <p n="SLV10013.856">„Menim da; orožnikova beseda vendar ni babja“.</p>
+            <p n="SLV10013.857">„Pojdi hitro, Tone, in zapri pri vseh oknih veternice; jaz pa zaklenem in zapahnem hišna vrata“.</p>
+            <p n="SLV10013.858">Oba vstaneta nato ter gresta vsak na svoje delo.</p>
+            <p n="SLV10013.859">„Prokleti ciganki!“ zakolne Mirko proti svoji navadi ter zaloputne in zapahne vrata.</p>
+            <p n="SLV10013.860">„Kaj pa je?“ prihiti Sever ves zbegan iz zgorenjih sob.</p>
+            <p n="SLV10013.861">„Ključa ni v vratih. — Odnesli sta ga ciganki“.</p>
+            <p n="SLV10013.862">„Grom in strela!“ zanirmra Sever skozi zobe in se pograbi z obema rokama za glavo.</p>
+            <p n="SLV10013.863">„Kar je, to je“ reče čez nekoliko časa mirneje Mirko. „Nocoj morava biti pripravljena na najhujše. Zaupati smeva le na lastno moč, ker Bog vedi kod bodo hodili orožniki. Zapah bo uže držal toliko, da ne bo ciganom nič pomagal vkradeni ključ. — Jaz bom imel puško in bodalo, ti vzemi pa samokres. Luč ugasi takoj, potem pa vleciva na ušesa. Ako zapaziva, da so orožniki zavohali cigane, ne bova streljala; drugače pa — brez usmiljenja“.</p>
+            <p n="SLV10013.864">Nato se oborožita, vpihneta luč ter se postavita na stražo Sever v izbi, Mirko pa v kuhinji tik glavnih vrat. Dobro uro čakata zaman: tiho je vse kot na pokopališču. Okoli desete po noči pa začuje Mirko na vrtu tihe, goste stopinje, kakor bi prihajalo več oseb. Krčevito pritisne nastavljeno puško k sebi, kakor bi hotel reči: „Ti me čuvaj in reši!“ — Namesto stopinj zasliši pa kmalu nato pred vrati šepetanje:</p>
+            <p n="SLV10013.865">„Le pogum! — Oba uže spita; luči ni več. — Zadavim ga kar v postelji“.</p>
+            <p n="SLV10013.866">Mraz strese Mirka ob teh besedah, osobito, ker je spoznal, da jih je izgovoril njegov smrtni sovražnik — Podleskov Tine. A ta groza se je morala kmalu umakniti drugi: — ključ se je tiho zdrsnil v ključavnico.</p>
+            <p n="SLV10013.867">„Kaj, ko ne bi držal zapah?!“ šine Mirku kot blisk skozi glavo, zato dvigne puško na strel. — Ključ se varno obrne v vratih enkrat — dvakrat, tretjikrat ne gre več. Nato pritisne nekdo polagoma na kljuko in se upre z lahtom v vrata: a zapah drži, vrata se ne odpro.</p>
+            <p n="SLV10013.868">„Strela — nič ne bo!“ zakolne nekdo potihoma zunaj.</p>
+            <p n="SLV10013.869">„Kaj početi sedaj? — Pustimo!“ oglasi se nekdo drug.</p>
+            <p n="SLV10013.870">„Ne!“ pravi zopet prvi. „Nocoj ali nikdar! — Naj bom mrtev jaz ali on. — Stopi sem in podložmi ramena, da se vspnem do okna. Če še tam, ne pojde, pa kar zapalim to prokleto gnezdo“.</p>
+            <p n="SLV10013.871">Nato odideta oba prav oprezno izpred vrat. Kmalo zaropotajo lopatice pri veternicah, šipa v oknu se žvenketaje zdrobi, Severjev samokres poči, od zunaj se začuje strašna kletev — Podleskovega Tineta. — Za hip je vse tiho. — A takoj se oglasi v vrtu močan, zapovedovalen glas:</p>
+            <p n="SLV10013.872">„V imenu postave, Valentin Podlesek in tovariši, stojte!“</p>
+            <p n="SLV10013.873">Odgovor na to je bilo glušeče brlizganje, s katerim je nekdo napadalcev gotovo ali klical tovariše na pomoč, ali pa jih opomnil, naj beže.</p>
+            <p n="SLV10013.874">„V imenu postave, stojte in podajte se!“ zagromi zopet orožnikov glas.</p>
+            <p n="SLV10013.875">V tem se začuje v bližini lomastenje več oseb in težak skok izpod okna na tla. Še enkrat zavpije orožnik: „V imenu postave!“ in opomni napadalce, da bi se podali. Nato nastane strahovito vpitje, krik, skakanje in pretepanje, vmes pa se votlo zasmejeta dva strela hkratu. Nekoliko minut potem pa začne nekdo — gotovo orožnik — klicati:</p>
+            <p n="SLV10013.876">„Gospod gozdar, — na pomoč!“</p>
+            <p n="SLV10013.877">Mirko — ne bodi len — ukaže takoj Severju, naj strelja se samokresom skozi veternice v zrak, da se napadalci preplašijo; sam pa odrine zapah in plane ven na vrt. Ker je noč precej svetla, vidi dovolj razločno, kako enega orožnika dva cigana na tleh mikastita, in kako hočeta druga dva cigana drugemu orožniku izviti puško iz rok. Tu ni bilo časa dolgo pomišljati se. Urno pograbi Mirko puško na sprednjem koncu in zamahne po glavah prvih dveh ciganov tako, da kljukneta oba nezavestna na zemljo. Kakor hitro čuti, daje prost, plane na tleh ležeči orožnik takoj kvišku, in kmalu sta z Mirkom rešila še drugega orožnika.</p>
+            <p n="SLV10013.878">Uprav, ko sta orožnika z Mirkovo pomočjo na rokah in nogah trdno povezala in vklenila vse štiri cigane, je prišel iz hiše Sever se svetilnico v roki.</p>
+            <p n="SLV10013.879">„Strašna noč! — Tukaj je kri, in nekdo leži mrtev“ zakliče Sever ves zmešan in tresoč se na celem životu.</p>
+            <p n="SLV10013.880">Orožnika z Mirkom pristopita k ranjencu, ki je imel prestreljene prsi in desno roko, v kateri je še vedno držal dolg nož, v levici je imel pa pištolo.</p>
+            <p n="SLV10013.881">„Zadeli smo pravega. Ta je vojaški begunec, Valentin Podlesek“, reče postajevodja, položi ranjencu roko na srce in pristavi: „Vtekel je svetni pravici, — mrtev je“.</p>
+            <p n="SLV10013.882">„Toda izvršili nismo še vsega“, pripomni drugi orožnik. „Treba, da poiščemo še ciganki, in sicer čim prej tem bolje“.</p>
+            <p n="SLV10013.883">„Seveda“, pritrdi postajevodja „tu je vsak trenutek drag. Vi“ — obrne se k orožniku — „boste tukaj na straži, dokler se ne vrnem“. Rekši, pozdravi postajevodja gozdarja in odide v gozd.</p>
+            <p n="SLV10013.884">Sever je mej tem postavil svetilko na tla tik mrtvega mladeniča in jo kar molče pobral v posteljo. Mirko se je še nekoliko časa razgovarjal z orožnikom, potem je šel pa tudi on počivat, ker bilo je uže skoraj dve po polnoči. Orožnik je ostal nazadnje sam. Vršeč svojo strogo dolžnost, je korakal enakomerno, a oprezno, gori in doli mej žrtvami propalosti; svetila mu je luč, ki je brlela poleg mrtveca.....</p>
+         </div>
+         <div type="chapter">
+            <head>XXX.</head>
+            <p n="SLV10013.885">„Zahvalim vas, pogrebci vi, Da ste k pogrebu mi prišli! Oj prosite Boga za-me!“</p>
+            <p n="SLV10013.886">Nar. p.</p>
+            <p n="SLV10013.887">Zjutraj, komaj se je zazoril dan, pomikal se je uže čuden sprevod iz gozda proti Prelazju. Spredaj so nesli štirje krepki možaki iz Prelazja na nosilih, spletenih iz bukovih vej, — mrtvega Tineta Podleskovega. Zadej so šli štirje cigani in dve ciganki: vsi so imeli roke na hrbtu zvezane. Na vsaki strani sprevoda je ponosno korakal po en orožnik. Zadej je pa z uradno odmerjenim korakom krevsal vaški grobar in mrliški oglednik — Krt.</p>
+            <p n="SLV10013.888">Kolikor bolj so se bližali Prelazju, toliko več ljudij je bilo ob poti. Nekatere je prignala od zakurjenih pečij radovednost, druge pa tudi groza in pravo sočutje. Le dveh Prelažanov ni bilo videti nikjer zunaj, in sicer starega Podleska in njegove žene. Ko je stari izvedel, kaj je se sinom, ni rekel nobene besede, in ne zastokal ne vzdihnil, ampak pobesil je glavo, noge so se mu jele šibiti in kot pijan se je vlekel v hlev. Vrata je zaprl za seboj, omahnil vznak v kup listja in se začel tam obračati, kakor bi ga vile hude bolečine. —</p>
+            <p n="SLV10013.889">Stara je pa celo jutro kakor zmešana letala po hiši iz sobe v sobo ter jokala in vpila, da se je k vsem sosedom slišalo:</p>
+            <p n="SLV10013.890">„O moj Bog, kaj sem doživela! O moj Bog, kaj sem doživela!“</p>
+            <p n="SLV10013.891">Ko so pa prinesli možje mrtvega Tineta v hišo in odložili nosilnice, tako, da je mati lahko videla mrtvega sina, padla je v nezavest. Sosedinje so jo morale takoj nesti v posteljo, kjer je prišla še-le po več urah zopet k sebi. —</p>
+            <p n="SLV10013.892">Samega Podleska pa ni mogel onega dne nikdo pregovoriti, da bi bil šel pogledat sina. Sosedje so morali sami poskrbeti za vse, česar je bilo treba, da so napravili nesrečnemu rajniku mrtvaški oder. —</p>
+            <p n="SLV10013.893">Dasi niso ljudje rajnika nič kaj čislali v življenju, vendar so ga vsi sočutno pomilovali po smrti. Ne samo iz Prelazja, ampak tudi iz Lesja in cele okolice so prihajali škropit ga in molit za njegovo dušo. Prišli so tudi vsi Zagričarjevi: župan in županja uže po dnevu, Jožek in Milka pa zvečer ob mraku. S tresočo roko je pomočila Milka pušpanov vršiček v blagoslovljeno vodo ter poškropila truplo mladeniča, katerega sta do tega groznega konca dovedla — strastna Ijubezen in maščevalnost. Potem je pokleknila ob vznožju odra na tla in molila dolgo — dolgo —. Mej molitvijo so se ji ves čas solze udirale po lepih licih, tako, da se je prav milo storilo vsem pričujočim, — osobito ženskam, in da so si začele kmalu tudi one druga za drugo oči brisati....</p>
+            <p n="SLV10013.894">Ko je odzvonil cerkovnik v Lesju ‚eno uro v noč‘, to je zadnjo Ave-Marijo, odpravila se je Milka z nekaterimi tovarišicami domov. Jožek, dva druga fanta iz vasi in tri stare ženice so pa ostali, da bi po stari navadi čuli pri mrliču celo noč.</p>
+            <p n="SLV10013.895">Bila je uprav ura polnoči, ko dregne eden mladeničev z lahtom Jožka in malo prestrašen reče:</p>
+            <p n="SLV10013.896">„Ali slišiš ti kaj?“</p>
+            <p n="SLV10013.897">„Ničesar ne“.</p>
+            <p n="SLV10013.898">„Poslušaj! — Nekdo poje“.</p>
+            <p n="SLV10013.899">In res! — Vedno bliže se je čula žalostna, pretresljiva pesem:</p>
+            <p n="SLV10013.900">Čudno bode trornba pela, Mrtvim po grobeh donela, Pred Sodnika jim velela. Bog, usmili se, usmili! Jezus, ti Gospod premili, Večni daj mu mir in pokoj —“</p>
+            <p n="SLV10013.901">Ravno hoče Jožek reči: „Ta glas je Severjev“ — ko petje naenkrat vtihne in Sever privihra v sobo — gologlav, z razmršenimi lasmi, ves raztrgan in opraskan, pogled mu je zblojen in divji, v rokah ima dolgo gorjačo. — Vsi se prestrašijo, nikdo se ne upa ziniti besedice, da še dihati skoraj ne. Tudi Sever se molče — ne da bi koga pogledal ali pozdravil — vstavi pred odrom, nasloni suho brado na gorjačo in strmi nepremično mrtvecu v obraz. Ta prizor je trajal precej časa. Nazadnje se pa Sever vzravna, prime nekako slovesno in resnobno z desno roko gorjačo na sredi, naredi ž njo nad mrtvecem tri velike križe, se urno zasukne in zbeži ven v temo. Toda uže par korakov od hiše postoji, zažene strašen, pošasten smeh in krohot, in vse vtihne.... Tudi varhi pri mrliču so še dolgo tihi; vsak je zatopljen v svoje misli.</p>
+            <p n="SLV10013.902">„Ubogi gozdar!“ pretrga Jožek čez nekoliko časa molčanje. „Komaj preboli en udarec, zadene ga uže drugi. Sinoči je bil napaden, sedaj se je pa Tonetu zmešalo, da ga ne bo mogel več rabiti v hiši. Če bi bilo doletelo to Toneta dobrih štirinajst dnij pozneje, ko bo imel gozdar uže gospodinjo v hiši, ne bi bilo tako narobe“. —</p>
+            <p n="SLV10013.903">„Ali mi verjameš, da me je še sedaj groza onega Severja?“ meni eden mladeničev.</p>
+            <p n="SLV10013.904">„Saj se nama z Jožkom godi ravno tako“, opomni drugi.</p>
+            <p n="SLV10013.905">Tako bi se bili mladeniči dalje pomenkovali in nazadnje pozabili, kako resno službo opravljajo, ako jih ne bi bila opomnila pobožna Somrakova Lešpeta, da treba zmoliti še tretji del rožnega venca. Tako je pretekla počasi noč mej molitvami, pogovori in molčanjem.</p>
+            <p n="SLV10013.906">Drugega jutra se je grobar Krt, oprt na svojo staro družico — lopato, sam pri sebi precej glasno priduševal in priverjal, da ni še tako dolge jame izkopal, in je ni, odkar nosi častni naslov — grobar in mrliški oglednik. V ono dolgo jamo je bil tistega dne popoldne vpričo obilnega števila pogrebcev pokopan nesrečni mladenič — Tine Podleskov. —</p>
+         </div>
+         <div type="chapter">
+            <head>XXXI.</head>
+            <p n="SLV10013.907">„Pred Bogom že združena sta za vsikdar, Že dnevi ji vstajejo zlati. —“</p>
+            <p n="SLV10013.908">S. Gregorčič.</p>
+            <p n="SLV10013.909">Očanec čas se je postaral za dve leti, in to mu ni bilo všeč; zato je nevoljno nasršil osivele obrvi in dejal: „Kakor se spreminjam jaz, tako naj se vse!“ In bil je mož, ki ni samo govoril, ampak tudi storil. — O tem naj nam priča konec naše povesti.</p>
+            <p n="SLV10013.910">Prazno in zapuščeno stoji v trnovskem gozdu Mirkovo stanovanje. Okna so zaprta, vrata zaklenjena. — Porušene in opustošene so gredice v vrtu. V neredu poganjajo v njih cvetice; drug ne skrbi za nje, kot jarko pomladansko solnce in hladna jutranja rosa.</p>
+            <p n="SLV10013.911">Vse drugače je pa v nadgozdarjem stanovanju; Od vseh vseh stranij nam diha nasproti bujno življenje. — V vrtu je vse v najlepšem redu. Nekatere cvetice so uže v krasnem cvetju; po njih se bleste, kakor dragoceni biseri, rosne kapljice, s kojimi se igrajo zlati solčni žarki. Bučele, čmrlji, metuljčki letajo od cvetke do cvetke in srkajo sladki prašec iz pestrih čašic.</p>
+            <p n="SLV10013.912">Na vrzeli sede poredni vrabci in opazujejo zavistno od strani trop kokošij in piščet, ki pobirajo z veliko slastjo sladka zrnca po tleh pred hišnim pragom. Poglejmo malo še v hišo! — Toda, kaj je to? — Kje je blagi gospod Hostnik? — Tuje pohištvo, tuji vsi obrazi v hiši, — ne tuji!! — Glej tam dragega znanca iz prejšnjih časov — Mirka. Mož je sedaj in oče, a še vedno prijazen, kot nekdaj. — Tik njega sedi mlada soproga — Milka; v naročju ji igra mal, ljubeznjiv deček, Mirče. — Milka je lepa, kot nekdaj, dasi ji je izginila z obraza dekliška brezskrbnost in vgasnil v očeh paleči mladostni ogenj; iž njih odseva sedaj v milem svitu materina ljubezen in miloba.</p>
+            <p n="SLV10013.913">Srečna sta bila Mirko in Milka. A, kar je še več vredno, veselila se nista svoje sreče le sama, ampak veselili so se je tudi vsi Zagričarjevi, razven matere, ki je bila, ko je videla Milko in Jožka v srečnem zakonu, kmalu potem umrla. Oče župan je z gospodarstvom odložil tudi županovanje in živel še toliko let, da je učakal ne samo otroke svojih otrok, ampak tudi to, da je prišla županska čast zopet v njegovo hišo — Jožku v roke. —</p>
+            <p n="SLV10013.914">Žalostno so se pa stvari zasukale pri Podleskovih. Stara dva, ki sta že od žalosti in sramote umrla takoj prvo leto po Tinetovi smrti, morala sta prepustiti svoje lepo imetje tujim ljudem, s katerimi nista bila niti v sorodu. In tujci, kakor so na lahkem premoženje dobili v roke, tako so tudi lahkomiseljno ž njim gospodarili, dokler niso vsega skupaj spravili na boben. —</p>
+            <p n="SLV10013.915">Kam se je umaknil pa nadgozdar Hostnik? — vprašal bo morda radovedni bralec. No, tudi on ni daleč. Ker sta bila se starim gospodom župnikom skoraj ob enem vpokojena, sklenila sta, da bosta tudi skupaj preživela ostale dni življenja. Najela sta majhno hišico v Lesju blizu cerkve, jo malo osnažila in popravila, ter v lepi slogi vživala zasluženi pokoj. Stregla jima je stara župnikova služabnica.</p>
+            <p n="SLV10013.916">Izvedi, ljubi bralec, koncem povesti še žalostno usodo izgubljenega študenta, Toneta Severja. — Odkar se mu je z nova omračil duh, ni ga več trpelo doma; po cele dneve in noči je taval revež okrog brez hrane. Govoril ni z nikomu, prepeval pa je razne pesmi: slovenske, latinske, nemške, vse v prek. Po noči so ga ljudje večkrat slišali peti čudne, žalostne pesmi na pokopališču. In nekega jutra — dober mesec po Mirkovi poroki — našel ga je grobar Krt mrtvega pred velikim črnim križem sredi pokopališča. Tonetu so v popolnem obsegu veljale besede pesnikove:</p>
+            <p n="SLV10013.917">„Povsod poznan, nikjer doma, Kjer vležem uro se poslednjo, Tam smrt mi domovanje da — — —“</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl" xml:id="SLV10011">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lepa Vida : edicija ELTeC</title>
+            <author ref="viaf:54483391">Jurčič, Josip (1844-1881)</author>
+            <respStmt>
+               <resp>Pretvorba zapisa WikiVir v ELTeC.</resp>
+               <resp xml:lang="en">Conversion from WikiVir to ELTeC encoding.</resp>
+               <name>Tomaž Erjavec</name>
+            </respStmt>
+            <respStmt>
+               <resp>Izbira romanov in dodajanje metapodatkov ELTeC.</resp>
+               <resp xml:lang="en">Novel selection and ELTeC metadata.</resp>
+               <name>Marko Juvan</name>
+               <name>Miran Hladnik</name>
+               <name>Katja Mihurko Poniž</name>
+            </respStmt>
+            <respStmt>
+               <resp>Skrbištvo WikiVira.</resp>
+               <resp xml:lang="en">Stewardship of WikiVir (Slovene WikiSource).</resp>
+               <name>Miran Hladnik</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">21126</measure>
+         </extent>
+         <publicationStmt xml:lang="en">
+            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+            <distributor ref="https://github.com/COST-ELTeC/ELTeC-slv">GitHub</distributor>
+            <date>2020-07-17</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Jurčič, Josip. Lepa Vida : edicija WikiVir</title>
+               <idno type="wikilink">https://sl.wikisource.org/wiki/Lepa_Vida_(Josip_Jur%C4%8Di%C4%8D)</idno>
+               <date>2007</date>
+            </bibl>
+            <bibl type="printSource">
+               <author ref="https://sl.wikipedia.org/wiki/Josip_Jur%C4%8Di%C4%8D">Jurčič, Josip</author>
+               <title>Lepa Vida</title>
+               <title>Roman</title>
+               <date>1877</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-1">
+         <p xml:lang="en">This ELTeC edition was automatically converted from the <ref target="https://sl.wikisource.org/">Slovene WikiSource</ref> digital library edition, and several pieces of ELTeC-specific metadata were added. In particular, the source mark-down was first downloaded, and then fixed with a Perl script, which substitutes Wiki MD marking for heads with the regular one, normalises some characters and removes interal markup expressed in {{..}} and as XML tags. This also means that certain markup from the source is lost, e.g. pagebreaks, original vs. corrected words (corrected are retained), poems and their lines, and notes (which are removed). However, it would be extremely difficult to convert this, furthermore it seems that such markup is used only in some novels. The "cooked" MD files are then converted to TEI with the docx2tei stylesheet, ELTeC metadata is added, and the resulting file fixed to ELTeC schema via a XSLT stylesheet.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language xml:lang="en" ident="sl">Slovenian</language>
+         </langUsage>
+         <textDesc xmlns:eltec="http://distantreading.net/eltec/ns">
+            <eltec:authorGender key="M"/>
+            <eltec:size key="short"/>
+            <eltec:canonicity key="high"/>
+            <eltec:timeSlot key="T2"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-07-17">Tomaž Erjavec: converted to ELTeC</change>
+      </revisionDesc>
+   </teiHeader>
+   <text n="SLV10011">
+      <body>
+         <div type="chapter">
+            <head>Prvo poglavje</head>
+            <p n="SLV10011.1">Adrijansko morje se je nekega popoldne o prvi jeseni leta, katero je skončevalo prejšnje stoletje, burno gibalo kakor vselej pred viharjem. Otve so letale nad valčki in valovi, ki so se vedno nemirneje zibali, dasi je bilo vetra še prav malo čuti. Ovčji pastir Stoklas, ki je šepal na eno nogo, a vendar visoko nad morjem na redki in pičli travi med skalovjem pasel po skromnih kraških tleh svojo brav, opazoval je z veščim očesom nebo, ogrnil svoj dežni plašč iz lipovega lubja čez ramo, tako da je bil videti kakor kak pokonci hodeč oven, stopil na visoko skalo in zagnal preko doline glasan "hoj-hoj!" Na onem hribu, daleč proč, odzval se mu je tovariš in zategnjeno vpijoča sta se črednika zmenila, da danes je treba prej domov gnati, ker bode vihar.</p>
+            <p n="SLV10011.2">Oni prekogorski pastir kmalu izgine s svojo čredo za skalami v notranjost suhe zemlje od morja proč, ker je bil s posestva Basnigojevega, katero je ležalo v rodovitni, z drevjem lepo obrasteni oazi kraške zemlje. Ovčar Stoklas pa je bil služabnik Samorodov, gospodarja, čigar posestvo je ležalo prav na morski obali komaj za dober streljaj od morja vzreber, tudi na samoti. Da bi ga vihar predaleč od doma ne prehitel, požene Stoklas čredo proti jugu. Žvižgaje pada njegov dolgi bič po kosmatinskih hrbteh ovnom in ovcam, da se gnetoč in rijoč spuste v hiter dir proti potu, bosopeti pastir kakor strela šepa jim vedno za petami z divjim kričem in neusmiljenim bičem.</p>
+            <p n="SLV10011.3">Tam na potu pa sta stala dva jezdeca in opazovala neusmiljenega pastirja dalje časa, a tako, da ju on ni ugledal.</p>
+            <p n="SLV10011.4">"Čakaj, jaz mu pokazem, žival tako pretepavati," reče eden jezdecev, skoči z malega konja, s katerega so dolge noge velikanske njegove postave tako že skoro do tal mahale, vrže vajeti svojemu drugu in zavihti mali konjski bič ter z gromovitim glasom zavpije Stoklasu ovčarju: "Kaj je to, ti pes! Semkaj k meni!"</p>
+            <p n="SLV10011.5">Kakor okamenel obstane pastir: njegova prej preplašena čreda dirja še nekaj korakov dalje, potem se pa zopet začne pasti. Mož je bil njegov gospodar Anton Samorod in oni, na konju obsedeli, Samorodov brat, duhovnik, župnik pri cerkvi dve uri proč.</p>
+            <p n="SLV10011.6">"Pusti ga zdaj, razkačen si, kaznuj ga drug pot," reče duhovnik, mož okoli petdeset let star in mnogo manjši od brata Antona.</p>
+            <p n="SLV10011.7">Ali Anton Samorod je že svojega ovčarja imel v železni pesti; z eno roko ga je za obleko pod hrbtom čez sredo ubral in privzdignil suhega Stoklasa kakor snop ovsen, z drugo pa z bičem neusmiljeno udrihal po zadnji pastirjevi oplati, tako da je prej tolikanj pogumni ovčar zdaj na vse čeljusti kričal: "Jazes! Jazes! Jazes!" Njegovo vpitje se je razlegalo tjakaj do morja, da so celo pomorske otve strmele ter sta tudi konja na potu ušesa nastavila in gledala, kaj tu gospodar Samorod z ovčarjevim častitim sedalom vrši in dela, da vrli Stoklasek kriče pači sveto ime zveličarjevo.</p>
+            <p n="SLV10011.8">"Dovolj, dovolj, pusti ga!" prosi duhovnik, ali Samorod tepe prilično dolgo, nazadnje pa izpusti pastirja ne ravno na mehko ob tla.</p>
+            <p n="SLV10011.9">"Obležal je! Bog pomagaj, ubil si ga!" vpije prestrašen dobrodušni duhovnik dolgemu bratu, ki je počasi korakal proti njemu in konju nazaj. Zdaj se Samorod obrne, postoji in vidi, da se pastir res ne gane z mesta.</p>
+            <p n="SLV10011.10">"Za Boga, kam te spravlja tvoja nagla jeza!" toži duhovnik in hoče že tudi s konja splezati, da bi šel ubogi potepeni človeški podobi pomagat.</p>
+            <p n="SLV10011.11">"Ubil sem ga?" zagrohoče se Anton, naglo stopi k ležečemu Stoklasu ter govori: "Pritajil se je, žaba, pritajil; stoj, da vidiš!" Rekši, dvakrat ležečo kepo po bosih nogah z bičem švrkne. Kakor blisk je bil pastir na nogah in se je brzonog spustil v beg in točil čez kamen in brin, tako da se je sam duhovnik ta hipec malo nasmehnil.</p>
+            <p n="SLV10011.12">"Prekleta mačka!" jezi se Anton, ko zopet konja zaseda, ves bled.</p>
+            <p n="SLV10011.13">"To je prav, da kaznuješ takega človeka; ali prav ni, da se sam tako raztogotuješ, da ne moreš svoje nagle narave prevladovati," kara starejši brat, morda že po svojem poklicu karanja vajen.</p>
+            <p n="SLV10011.14">"Pusti, spremenil me ne bodeš. — Kaj sva govorila prej? Obtičalo mi je nekaj v možganih, a ne domišljam se kaj. Pomagaj mi. Da, že vem! Tebi ni po volji moj prijatelj in gost Alberto Paoli. Zakaj ne? Zopet samo zaradi tega ne, ker je Italijan? Ti imaš rajši Nemce, Španjole in vse druge, to vem. Ali kaj pomaga? Mi tu ob morju imamo največ z Italijani posla, oni s trgovino vladajo in jaz sem trgovec."</p>
+            <p n="SLV10011.15">"To mi še na mislih ni bilo. Res, da sem dostikrat obžaloval, da naš rod do zdaj ni pokazal še toliko moči, da bi bil mogel tuj element odrivati, ali zdaj o tem nisem mislil. Temu tvojemu prijatelju Paoliju jaz iz drugih razlogov ne bi zaupal in ga ne bi vabil na tako dolga gostovanja kakor ti. Benečana se je treba paziti, posebno pa tega."</p>
+            <p n="SLV10011.16">"A zakaj govoriš tako?" vpraša Anton z nekim nevoljnim glasom.</p>
+            <p n="SLV10011.17">"Vidiš, že zopet si na pol vzkipel: kako bi ti mogel kaj mirno povedati? Kako dolgo je bil zdaj zopet pri tebi?"</p>
+            <p n="SLV10011.18">"Paoli? Včeraj v jutro je odplul domov v Benetke, ni ga več pri meni; ne boj se, ne bodeš ga videl, če ti je tako zoprn, čemur se moram čuditi, ker nima nič strašnega na sebi. Sicer pa je bil samo štirinajst dni moj gost."</p>
+            <p n="SLV10011.19">"Bilo bi morda bolje, ko bi imel kaj strašnega na sebi, kakor praviš ti," reče svečenik z naglasom, "in bolje, da ne bi po štirinajst dni ostajal."</p>
+            <p n="SLV10011.20">"A zakaj? Kakov razlog mi vendar moraš povedati! Ali si pozabil, da je že najin oče s Paolijevim dedom po trgovini in prijateljstvu znan bil in vezan in da sem jaz morda za polovico zdajnega premoženja in vsa svoja potovanja samo temu znanju hvale dolžan?"</p>
+            <p n="SLV10011.21">"Vse res! Ali zaradi tega ni potreba, da zdaj mladi Paoli brez trgovanja, brez posla, brez dela kar po tri dni ali celo po štirinajst dni pri tebi na domu gostuje. Ti hodiš po kupčevalstvu in po poslih naokoli in okoli, ni te po več ur na dan, časi ves dan doma, a doma – ne zameri, da ti naravnost govorim – doma puščaš mladega gosta z mlado in lepo svojo ženo, ti, ki sam nisi več tako mlad."</p>
+            <p n="SLV10011.22">"Mlado in lepo svojo ženo!" zakliče Anton, ustavi konja, prestrašeno pogleda brata, kri mu šine v zarjavelo, že malo nagubančeno suho lice in oko mu divje iskri. "Kaj si rekel?"</p>
+            <p n="SLV10011.23">"Nič!" odgovori brat duhovnik naglo; ustrašil se je bil vtisa, ki so ga naredile njegove besede na Samoroda. "Jaz nisem nič rekel, da kaj vem. Samo tako malo opominjati sem te mislil."</p>
+            <p n="SLV10011.24">"Ti si kaj slišal!" grmi brat.</p>
+            <p n="SLV10011.25">"Nič, verjemi, da nič. Ali jaz sem duhovnik, iz spovednice poznam slabosti človeškega bitja in imam v vednem vidu in spominu, da molimo vsak dan Boga: ,Ne vodi nas v skušnjavo!' No, vidiš, kar prosimo Boga, da naj nam stori, to storimo sami prvi, kjer moremo, to je: kjer je kakova skušnjava, ogibljimo se je, če se da. Tako sem jaz mislil, nič drugače, brate."</p>
+            <p n="SLV10011.26">"Pojdi drugam s takimi nauki in pridigami, a meni prizanesi – vsaj v delavnik," reče Anton in požene svojega konja, tako da tudi duhovnikov konj poskoči in dolgi otepki duhovnikove črne suknje čudno v vetru zafrfotajo.</p>
+            <p n="SLV10011.27">"Menim, da ravno jaz imam pravico reči ti, kar spoznam, da je potrebno."</p>
+            <p n="SLV10011.28">"Da, da, in vedi še, da, ko bi ti ne bil tisti, ki je moje žene s tako mislijo omenjal, zgovoril bi se bil Anton Samorod drugače z njim, brate moj." Rekoč, naredi v zraku naglo s pestjo razumno znamenje.</p>
+            <p n="SLV10011.29">"Petinštirideset let si star, mnogo morja si že prevozil, vdrugič si že oženjen, a še vedno si tako nagel in hitro jezen, kakor si bil pred tridesetimi leti."</p>
+            <p n="SLV10011.30">Anton ne reče na to novo pripovedovanje nekaj časa ničesar.</p>
+            <p n="SLV10011.31">"Zdaj bode pa treba brže pognati, če ne, bodeva mokra domov prišla," spregovori potem mirno in oba izpodbodeta konja, da sta zaporedoma v diru bežala, kolikor hitro se je pač dalo po vrlo slabem, kamnitem potu.</p>
+            <p n="SLV10011.32">Res je bila že sila. Preoblačilo se je bilo po vsem nebesu in morje pod njima je že velikanske valove metalo.</p>
+            <p n="SLV10011.33">"Smo že tukaj, hvala Bogu!" reče duhovnik, ko se jima naglo z vrha v dolinico razgled odpre, kjer je stal komaj streljaj nad morjem dom Samorodov. "Rojstna hiša! Glej, komaj pol leta je, kar sem bil tu pri vas, a zdaj, ko zopet vidim svoj dom, zdi se mi, kakor da bi bilo že dolgo in dolgo."</p>
+            <p n="SLV10011.34">Anton zopet nič ne odgovori, molče jezdi pred bratom proti svojim dvorom, od koder ga je z glasnim lajanjem tropa velikih psov, čuvajev samotne hiše, pozdravljala.</p>
+         </div>
+         <div type="chapter">
+            <head>Drugo poglavje</head>
+            <p n="SLV10011.35">Domovje Samorodovo je imelo več poslopij. Najviše je stala njegova stanovalna hiša, sicer samo pritlična, ali iz belega kamna zidana, na širjavo prostrana in lepo s korci krita zaradi znane silovite kraške burje. Na severovzhodu se je raztezal precej daleč rodoviten kraj, porasten z oljko in hrastjem. Proti jugu pa se je kmalu zopet začel bolj kraški kamniti in spiljasti zemeljski značaj.</p>
+            <p n="SLV10011.36">Razen Samorodove – tako bi smeli reči – gosposke hiše bilo je pa še več poslopij za njegovo gospodarstvo ter shrambe in za stanovanja mnogim služabnikom, katerih je kot pomorski trgovec kakor tudi kot kmetovalec in prekupec na suhem potreboval.</p>
+            <p n="SLV10011.37">Narava pa je bila pod Samorodovim domom že sama naredila majhno luko, prostorno za zavetje nekoliko čolnom in neveliki Samorodovi trgovski ladji na jadra. Velikanska in visoka skalna pečina je namreč kakor objemajoča roka tako v vodo molela, da je bilo Samorodovim prednikom le z nekolikim delom mogoče luko napraviti, in najbrz je bila ravno ta naravna naredba prvi in morebiti edini razlog, da se je tukaj kdaj naselbina začela, ker sicer zaradi samote in burje kraj sam na sebi ni bil posebno vabljiv.</p>
+            <p n="SLV10011.38">Hlapcem izročita konje in vstopita v dom.</p>
+            <p n="SLV10011.39">"Kje je moja žena?" vpraša Anton Samorod deklo na hodniku.</p>
+            <p n="SLV10011.40">"Pri Tončku. Gospa pridejo, videli so vas," odgovori dekla.</p>
+            <p n="SLV10011.41">Z mračnim čelom vstopi Anton v veliko izbo, duhovnik za njim. Tam ukaže gospodar prinesti vina in prigrižljaja ter poklicati ženo.</p>
+            <p n="SLV10011.42">Krasna mlada žena pride in pozdravi najprej svaka, hladno rekoč: "Bog vas sprejmi, duhovni gospod!"</p>
+            <p n="SLV10011.43">"Zakaj me za svaka ne pozdravljaš?" reče duhovnik prijazno in ji seže v mehko roko.</p>
+            <p n="SLV10011.44">"Jaz sem vas najprej kot duhovnika poznala in odvaditi se ne morem."</p>
+            <p n="SLV10011.45">"A klicati te je treba, če mož domov pride in gosta privede s seboj?"</p>
+            <p n="SLV10011.46">"Nisem vedela, da si prišel – da prideš že nocoj."</p>
+            <p n="SLV10011.47">"Že nocoj?" zategne on in jo ostro pogleda. Ona oči ne povesi; še ponosneje, nego je bila sicer vsa njena krasna mlada prikazen, dvigne lasato glavo in njen bistri pogled premaga moževe oči.</p>
+            <p n="SLV10011.48">Niso zastonj obvisele celo oči pobožnega in vendar ne več mladega duhovnika občudujoč nad krasno postavo in dovršeno lepoto života in obraza te svakinje njegove, žene Samorodove.</p>
+            <p n="SLV10011.49">Bila je šele enaindvajset let stara, bolj močnega nego šibkega telesa, obraz najblažji oval, krasni svilnati lasje, oči v srce človeku segajoče, sicer pa nekako zarjavelo gladko lice, kakor se je zdelo, da pristoji temu obrazu.</p>
+            <p n="SLV10011.50">"Pojdi, Vida," reče zdaj gospodar z nekako mečjim in prijaznejšim glasom svoji ženi, "ukaži in priskrbi nama dobre večerje, da moj brat tu ne poreče, da pri nas, na svojem rojstnem domu, slabše živi nego na svoji župniji poleg dolgočasnega kaplana in sitne stare svoje kuharice."</p>
+            <p n="SLV10011.51">Ko mlada žena odide, reče župnik:</p>
+            <p n="SLV10011.52">"Ne pravijo ljudje po okolici zastonj tvoji ženi še zmerom lepa Vida, kakor so jo zvali, ko je bila še deklica gori pri sosedovih na Basnigojevini. Res je vedno lepša in lepša."</p>
+            <p n="SLV10011.53">"Ali jaz bi nekaj njene lepote rad oddal za nekoliko več – srca, ljubi moj; tebi menda že smem to povedati," reče Anton Samorod pol tiho, vstane ter stopa potem gor in dol po obširni izbi, v kateri so bili videti lepi stoli, stolci, omare - vse drago in tuje, a raznovrstno in brez okusa.</p>
+            <p n="SLV10011.54">Brat si natoči črnega vina, kraškega terana, pazno ogleda lepe rdeče pene v časi, pokuša prej, kakor da bi grizel, a potem vince hrabro popije in odgovori:</p>
+            <p n="SLV10011.55">"Več srca? Morda si pa ti sam kriv, če ga ne vidiš, več srca. Glej, jaz sem pred oltarjem sveto obljubo storil in sem jo držal, da ti povem, a ne spodobi se mi o tem mnogo govoriti. Vendar sodim, da bi jaz na tvojem mestu drugače ravnal s svojo ženo, ko bi jo imel, bolj mehko, bolj nežno."</p>
+            <p n="SLV10011.56">"Tega ne znam, to ni v moji naravi," odgovori Anton nekako otožno. "Če poskušam ljubeznivejši biti, smešim se sam, to vem že. Pustite me takega, kakor sem, jaz ne morem drugačen biti. Da nisem človek zlega srca, to si vsaj sam mislim in morda mi bodeš tudi ti, moj vedni koritelj, priznal in priznala mi bode moja žena. Njo sem prosil z vsem srcem, naj ima časi potrpljenje z mojimi slabostmi, in rekel sem, da ji bodem hvaležen, ako potrpi z menoj."</p>
+            <p n="SLV10011.57">"Pritoževati se menda ravno nimaš, kakor vidim."</p>
+            <p n="SLV10011.58">"Ne pritožujem se. Ali vendar je tako trda! Nisi li opazoval? Vidiš, ti ne veš, kako človeka v srce peče, ako je dva dni zdoma, vedno o domu misli, potem pa je tako sprejet, kakor sem jaz sprejeman skoraj vedno. Čisto enako ji je, zdi se mi, ali sem doma ali ne. To ti je bila moja pokojna Tereza čisto drugačna: sicer v vsem nagla, časi sitna, vedno bolehna, ali imela je nekaj, za kar bi jaz pol premoženja dal ali vse, da bi Vida imela, nekaj prave ženske vdanosti."</p>
+            <p n="SLV10011.59">"Ha-ha! Da se tudi pri tebi vdovec pokazuje, tega pa nisem še vedel," smeje se brat duhovnik. "To je stara vdovska slabost, da se tako kmalu enkrat po drugi poroki začne hvaliti prva žena ali prvi mož."</p>
+            <p n="SLV10011.60">"Jaz sem svoje prve žene po poroki zdaj prvič omenil, in samo tebi."</p>
+            <p n="SLV10011.61">"Nič ne de, pusti jo še zdaj, naj počiva. Premisli pa tudi, da si bil nekdaj dvajset let star, zdaj si jih pa nad štirideset!"</p>
+            <p n="SLV10011.62">"Sem li Vidi leta skrival, ko sem jo snubil ali ko mi je, to veš, tako rekoč ona sama naproti pritekla?"</p>
+            <p n="SLV10011.63">"Da, in ko si ti srečen bil kakor sedemnajstleten deček. Da, da, in ti se domisliš, kako sem zopet jaz bil tisti, ki ti je odgovarjal in ki je odgovarjal Vido in odgovarjal očeta Basnigoja, da opustite to neravno ženitovanje. Če se kesaš, sam sebi pripiši, jaz ti ne morem pomagati, bratec."</p>
+            <p n="SLV10011.64">"Kesam? O, nikdar ne! Tega nisem rekel, to mi ne more na misel! Očitaj mi ti starost, kolikor hočeš, vendar je moje srce tako mlado kakor v sedemnajstem letu, če se prav ne pokazuje; sicer pa starosti še sam nikakor ne čutim. In kaj je to, petinštirideset let? Ti veš, da so nama oče bili osemdeset let stari."</p>
+            <p n="SLV10011.65">"Da, ali najini starejši bratje pa so vsi pred njimi šli na oni svet."</p>
+            <p n="SLV10011.66">"Nič ne de. V tej stvari me ne smeš napačno razumevati. Jaz ljubim Vido, če je prav taka, bolj jo ljubim nego vse na tem svetu, bolj nego sem pokojno Terezo in vse bi rajši izgubil nego njo, ker ne zabi mi, ona je tudi mati mojega sinka."</p>
+            <p n="SLV10011.67">"A da, kje je mali?" vpraša duhovnik vesel. Opomin o Samorodovem detetu je obema brzo misli zaobrnil.</p>
+            <p n="SLV10011.68">"Sedaj že spi. Potrpi do jutri zjutraj. Videl bodeš, kak čvrst in lep dečko je postal."</p>
+            <p n="SLV10011.69">Zdaj vstane Samorod in zakliče. Dekla pride. On ji reče zapovedno:</p>
+            <p n="SLV10011.70">"Kje je moja žena? Poišči jo in reci, naj pride sem. Pokliči mi tudi Bernarda."</p>
+            <p n="SLV10011.71">"Prej si ji ukazal za večerjo skrbeti, čakaj," tolaži duhovnik.</p>
+            <p n="SLV10011.72">"Ljudi imam dovolj v hiši, da ona lahko samo ukazuje in naroča, ni ji treba sami povsod poleg biti," odgovori brat.</p>
+         </div>
+         <div type="chapter">
+            <head>Tretje poglavje</head>
+            <p n="SLV10011.73">Mlada hišna gospodinja pride. Sede k njima, vpraša duhovenskega svaka, kako dolgo ostane tukaj, kje sta se z možem dobila, ali je bil kaj na njenem domu, na Basnigojevini, kako so ji starši.</p>
+            <p n="SLV10011.74">Duhovnik je obširno odgovarjal; in glas njegove besede je bil vesel in dobrovoljen; vidno je bilo, da bi bil rad svoje sorodne ljudi razvedril in smejoče videl pred seboj.</p>
+            <p n="SLV10011.75">A ni se mu posrečilo. Vida, katero je nekdaj, pred tremi, štirimi leti, kot najveselejšo deklico poznal, bila je danes nenavadno resna. Nobena šala ji ni obraza razvedrila, noben dovtip se je ni prijel. Kakor neobčutna in nepazljiva je govorila, kar je govorila kratko in tako, da se je videlo, da je posiljeno, neiskreno.</p>
+            <p n="SLV10011.76">"Zakaj to?" vprašal se je župnik, oster opazovalec. Tudi njen mož je videl, da je žena bolj bleda nego druge krati, in vprašal jo je, ali je morda kaj bolna; ona mu je odločno in skoraj nevoljno dejala, da ne.</p>
+            <p n="SLV10011.77">Zdajci stopi Bernard, prvi med Samorodovimi služabniki in krmilec njegove ladje, v izbo.</p>
+            <p n="SLV10011.78">Anton mu da piti iz svoje čaše črnega vina terana ter pravi:</p>
+            <p n="SLV10011.79">"Davi sem bil v Trstu in tam sem nekaj zvedel, česar ne bodeš vesel. Zato sem te dal poklicati."</p>
+            <p n="SLV10011.80">Preko obraza mlade gospodinje, katera se je pri tej priliki močno zganila, premaknil se je majhen oblak zardenja, vendar oči obeh prič so bile v Antona obrnjene.</p>
+            <p n="SLV10011.81">"Kaj takega, gospodar?" vpraša Bernard.</p>
+            <p n="SLV10011.82">"Pomorski razbojniki od Afrike so se zopet na naših obalah prikazali. Trebalo bode, da smo mi obrežniki pripravljeni in da se pazno stražimo."</p>
+            <p n="SLV10011.83">"Kdo ti je to povedal?" vpraša Vida in se pripogne nekaj pobirat.</p>
+            <p n="SLV10011.84">"Govorilo se je glasno v gostilni, kjer smo bili," odgovori mož.</p>
+            <p n="SLV10011.85">"Ali nisi človeka poznal?"</p>
+            <p n="SLV10011.86">"Ne. A zakaj vprašaš ti to?"</p>
+            <p n="SLV10011.87">"Zato, ker sem danes popoldne sama videla majhno ladjo, manjšo, nego je tvoja, ob obali navzdol pluti in ljudje na njej so se mi sumni zdeli," reče gospodinja možu; a ne pogleda mu v lice, nego igra se z oglom miznega prta.</p>
+            <p n="SLV10011.88">"Kje si jih videla?" vpraša Samorod.</p>
+            <p n="SLV10011.89">"Onkraj Pečin."</p>
+            <p n="SLV10011.90">"Od blizu? Kako so bili?"</p>
+            <p n="SLV10011.91">"Od daleč samo."</p>
+            <p n="SLV10011.92">"In to mi šele zdaj praviš in tako, kakor da bi bilo kaj navadnega! Bernard, glej, da imajo te dni vsi moji ljudje orožje pri roki. Vso noč mora eden od vas stražiti. Vrata morate povsod zapirati. V luki veliko verigo potegnite. Za nocoj se ni bati ničesar, dokler je vihar. Vendar kadar potihne, potem ne smemo biti brez pažnje, zlasti nekoliko dni. Lopovi si dolgo ne bodo upali tod strašiti, odšli bodo, ako jih prej ne ulove. Pojdi in precej stori, kar sem ti rekel," ukazuje Samorod.</p>
+            <p n="SLV10011.93">"Vso noč morate pokonci biti!" kliče prestrašeni duhovnik za njim.</p>
+            <p n="SLV10011.94">"Tako se bojite?" vpraša Vida z ne posebno spoštljivim nasmehom.</p>
+            <p n="SLV10011.95">"Previdnost je povsod potrebna," reče njen mož karajoč.</p>
+            <p n="SLV10011.96">"Nisi li slišala, kako so bili nekdaj – naju dveh ni bilo še na svetu, še manj pa tebe, ali pokojni najin oče je rad to pripovedoval – kako so bili taki pomorski razbojniki enkrat napali našo hišo, dva človeka nam ubili in mnogo škode storili?"</p>
+            <p n="SLV10011.97">Duhovnik začne obširno pripovedovati, kako je tačas bilo grozovito, da nikdar tega, kako je še dandanes treba čuvati se in kako je res človek dalje od morja proč, globočje v deželi stanujoč, vendar še bolj gotov svojega življenja, katero pa je sicer v božjih rokah povsod in povsod.</p>
+            <p n="SLV10011.98">"A kam si hodila, ko si videla ono ladjo?" vpraša Samorod.</p>
+            <p n="SLV10011.99">"Domov, k staršem."</p>
+            <p n="SLV10011.100">"Sama?"</p>
+            <p n="SLV10011.101">"Z Volkom," odgovori ona. Volk je bil velik pes, ki je rad spremljal svojo gospodinjo.</p>
+            <p n="SLV10011.102">"Sama mi nimaš več hoditi ob morju in sploh nikamor z doma," reče mož.</p>
+            <p n="SLV10011.103">"Nimaš?" zategne ona.</p>
+            <p n="SLV10011.104">"Ne spotikaj se ob malo besedo, ko vendar vidiš, da zate skrbim," odgovori on.</p>
+            <p n="SLV10011.105">Odslej pa sta govorila samo brata med seboj. Mlada žena je molčala; ako jo je duhovni svak kaj vprašal, odgovarjala je pač, ali tako kratko, da se je videlo, da sedi še samo iz vljudnosti pri njima. Zatorej se je župnik pobrigal, da je v prilično kratkem času toliko pojedel, kolikor mu je trebalo, in popil oni del terana, katerega je bil vsak večer vajen, da je dobro spaval; potem je pa vzdignil ude svojega telesa in rekel, da želi v božjem imenu spat iti.</p>
+            <p n="SLV10011.106">Oba, gospodar in gospodinja, sta ga po stari hišni šegi spremila v veliko izbo, ki je bila nalašč za spalnico tujim gostom odločena. Tam je Vida nažgala gostu luč v svečniku, drug svečnik pripravila možu in hotela oditi.</p>
+            <p n="SLV10011.107">"Zadnji je bil mladi Paoli, ki je tu spal, ne li?" vpraša duhovnik in pogleda odhajajočo gospodinjo, ki se pa še ozrla ni.</p>
+            <p n="SLV10011.108">"Lahko noč!" reče ona in odide iz izbe.</p>
+            <p n="SLV10011.109">"Ne pojdeš z menoj?" vpraša Anton, za njo gledajoč po hodniku.</p>
+            <p n="SLV10011.110">"Ne, nocoj hočem pri dečku spati, bolan je," odgovori ona osorno in si sveti do zadnjih vrat po dolgem hodniku ter tam vrata za seboj zaloputne.</p>
+         </div>
+         <div type="chapter">
+            <head>Četrto poglavje</head>
+            <p n="SLV10011.111">Idimo v sobico za njo. Tam ukaže dekli, ki je čakala gospodinje pri posteljici malega spečega dečka, kateremu se je sama črnolasa glavica izpod odeje videla, naj ide danes v kuhinjsko izbo spat, ker ostane sama tu. Dekla odide. Mlada gospa postavi svečo na malo mizico, povesi obraz in se zamisli.</p>
+            <p n="SLV10011.112">"Tu spati tri noči sem mu morala obljubiti," šepeta. "Nocoj je druga noč. In kar je obetal, to je storil. V Trstu je raztrosil novost o pomorskih tolovajih, da jo je zvedel moj mož. Moj mož?"</p>
+            <p n="SLV10011.113">Pri tej besedi se Vida stresne, vrže od sebe nekaj vrhovne obleke, kakor v nevolji zapahne duri. Sede potem na stolec pri mizi, odpne si naprsje in iz belih nederij izvleče majhno jajčje okroglo podobico, obrobljeno z rdečo svilo, ter jo začne gledati; gleda jo dolgo, nepremično.</p>
+            <p n="SLV10011.114">Slika je kazala mladega, lepega moža z italijanskim tipom, črnimi lasmi in črnimi obrvmi, živimi, simpatičnimi očmi, grškim nosom in mladeniško smelim, krasnim obličjem.</p>
+            <p n="SLV10011.115">Strastno začne Vida čez nekaj časa to sliko poljubljati, solze ji prilezejo po gladkem licu in polglasno jame govoriti:</p>
+            <p n="SLV10011.116">"O ti, mož ljubljeni, zakaj nisi prišel prej, prej že pred moje oči, ko je bil še čas za mojo srečo, ko nisem bila še na večno vezana, vezana na tega človeka ..." Stresne z lepo glavo, postane, potem se pa zopet na podobico pripogne in nadaljuje:</p>
+            <p n="SLV10011.117">"Večno nanj navezana, do smrti nesrečna! In vendar si ti na svetu, ki bi bil moja sreča, ki te je Bog ustvaril zame, a peklenska volja te mi je prekasno pokazala, privedla pred oči, prej slepe, preden se niso odprle, tebe videč, moj sladki, moj ljubljeni Alberto, Alberto, o – o!"</p>
+            <p n="SLV10011.118">Zunaj buči vihar, dežne kaplje udarjajo na okno, ona pa nasloni komolce na kolena in skrije mlado razjarjeno obličje v beli roki ter sloni, kakor da bi dremala.</p>
+            <p n="SLV10011.119">Psi zalajajo. Mlada žena skoči pokonci prestrašena, mahoma vtakne sliko v nedrje in stori dva koraka proti oknu, a obstane takoj in posluša z naprej pripognjeno glavo.</p>
+            <p n="SLV10011.120">Psi ne lajajo več. Vse je tiho. Le posamezne kaplje se bijejo ob okno in doli spodaj se čuje pljuskanje morsko.</p>
+            <p n="SLV10011.121">"Ni ne," odgovori si sama na svoje misli in se obrne.</p>
+            <p n="SLV10011.122">"Ko bi pa zares prišel, kakor je obetal! Ko bi prišel, dasi sem ga prosila, naj ne hodi! Prosila? Oh, ne vselej!</p>
+            <p n="SLV10011.123">Že sem bila na pol odločila se, vse vezi pretrgati, vse ojnice podreti, svoje spone poteptati in se vreči svoji sreči v naročje. In ko bi zdaj le prišel? Da, pridi, pridi. Alberto moj, brez tebe jaz umrjem."</p>
+            <p n="SLV10011.124">"Mama!" začuje se zaspano zategnjen otroški glasek iz posteljice in mlada žena skoči tja, odene razgaljenega dečka, sede na posteljo k njemu in, oprimši z obema rokama vročo njegovo glavico, poljubi ga na čelo.</p>
+            <p n="SLV10011.125">"Kako morem zabiti tebe, sladko dete moje? Samo moje, njegovo nič, ne! Oh, zakaj ni Alberto tvoj oče? Potem bi tebe vzel s seboj in jaz bi lahko šla z njim daleč proč, kjer je lepši svet in kjer biva sreča. A zdaj on pravi, da si Samorodov, tega odurnega človeka kri, in nima te rad, kakor ima mene. A jaz te ne pustim, tebe ne, ne, zlato dete moje!"</p>
+            <p n="SLV10011.126">Sinek pa ni poslušal mlade matere, kajti spal je že zopet z vso trdnostjo otroškega spanca, vendar so bili njegovi prstki instinktivno ovili se kazalca Vidine roke, kakor bi hotelo dete pridržavati mater: "Pri meni bodi, matka rodna, zlata matka!"</p>
+            <p n="SLV10011.127">Ko je nekaj časa pri detetu sedela, vstane in korači proti mizi, da bi se pripravila spat iti. Tam pa zopet obstoji, zopet ono sliko iz nedrja izvleče, zopet jo dolgo gleda, nazadnje pa možato, odločno s peto ob tla udari in govori strastno, s plamenečimi očmi ter v pest stisnjeno desnico.</p>
+            <p n="SLV10011.128">"Moj Bog, moj Bog, kaj bode iz mene! Moram li zblazneti, živeti ali poginiti? Dva dni šele je, kar je od mene šel, a zdi se mi, da tretjega in četrtega dneva že ne prestanem, če ga ne vidim. Če se silim misliti na kaj drugega, mislim le nanj; če si ga hočem iz glave izbiti, prikaže se mi še lepši, zmerom in povsod on! In kako bi mogla vse življenje brez njega biti? Zdaj, ko sem ga videla! Bog, zakaj si mi ga pokazal, če mi ga ne daš, zakaj!"</p>
+            <p n="SLV10011.129">Sede, nasloni se in zopet zatopljena v svoje misli dolgo tako čepi.</p>
+            <p n="SLV10011.130">Nekdo na okno potrka.</p>
+            <p n="SLV10011.131">Silno prestrašena Vida pokonci skoči in strmi na okno. Pri luči stoje v temo gledajoč ni mogla razločiti, vendar je opazila pri oknu nekaj črnega kakor človeška glava, a samo premakniti se prvi hip z mesta ni mogla.</p>
+            <p n="SLV10011.132">"Vida!" zakliče nekdo zamolklo in zopet potrka na okno.</p>
+            <p n="SLV10011.133">Ona skoči tja in hlastno odpre ter reče:</p>
+            <p n="SLV10011.134">"Ti tukaj? Za Boga svetega, beži, beži, da te ne izdado psi, da te hlapci ne zapazijo! Beži! On, on ..."</p>
+            <p n="SLV10011.135">"Odpri mi!" reče oni zunaj.</p>
+            <p n="SLV10011.136">"Jezus ..." hoče ona ugovarjati.</p>
+            <p n="SLV10011.137">"Odpret pojdi brzo, če ne, izgubljen sem, pse že težko krotim in na onem koncu sem videl, da nekdo hodi, da ne spe vsi. Odpri!"</p>
+            <p n="SLV10011.138">Vida se obrne od okna, hlastno poseže po sveči, ali ker je preveč razburjena, preobrne tresoča se njena roka svečnik z mize na tla, da luč ugasne, svečnik glasno zaropota, dečko v posteljici se zbudi in začne jokati, psi zunaj pod oknom zalajajo ...</p>
+            <p n="SLV10011.139">"Ženska, ne pogubi me, ali mi nisi obljubila? Odpri!" sili oni skozi okno.</p>
+            <p n="SLV10011.140">"Bog mi pomagaj!" zaječi ona, tipajoč po steni za ključem in ne misleč, zakaj Boga potrebuje, in kliče Boga, ostrega in pravičnega.</p>
+            <p n="SLV10011.141">"Mama," vpije dete in joka na vse pretege, kajti prepih hladne nočne sape vleče skozi odprto okno in skozi odprta puščena vrata in poleg nezdravega hlada prinaša v temno izbo tudi tuleče glasove lajajočih psov.</p>
+         </div>
+         <div type="chapter">
+            <head>Peto poglavje</head>
+            <p n="SLV10011.142">Sonce je ravno pogledovalo izza skalnatega hribovja in sijalo na dolgo kamnito klop pred veliko hišo očeta Basnigoja, katerega smo že v prvem poglavju omenjali. Basnigoj je bil siv starček drobne postave, ali, dasi že nad sedemdeset let star, še vedno čil in krepak; in dasi so mu bili razen lepe Vide, Samorodove žene, vsi drugi otroci pomrli ali onesrečili se, bil je zdaj na stara leta vendar dobre volje in ni nadlegoval sveta in Boga z neugodnimi izdihljaji ter sitnimi tožbami.</p>
+            <p n="SLV10011.143">Na prag pride sedaj postarna žena, Basnigojeva žena, kakih deset let mlajša od njega, nekoliko rdečelična in okrogla, ter zakliče:</p>
+            <p n="SLV10011.144">"Oj mene, stari, ne sedi tu v hladu tako golorok, kašelj boš dobil."</p>
+            <p n="SLV10011.145">"Ne vidiš sonca?" odgovori Basnigoj, žena pa gre k njemu in poleg njega sede rožljaje s ključi, katere je imela na rdečem jermenčku privezane za pasom poleg nožička, ki je na srebrni benečanski veričici dol do tal visel.</p>
+            <p n="SLV10011.146">"Vino iz srednje velikega soda mora pretočeno biti, ali Jernej ne utegne, da bi mi pomagal," reče stari.</p>
+            <p n="SLV10011.147">"Tedaj pretakaj jutri ali pojutrišnjem," tolaži ga starka.</p>
+            <p n="SLV10011.148">"Ni tako, glej jo!" odgovori moški starina in strese svoje dolge, na ramo viseče, čisto bele lase. "Vsako delo ima svoj dan, to sama veš. Ne bode drugače, da pojdem pretakat sam, ker tudi Jernej ima drugo delo."</p>
+            <p n="SLV10011.149">Zdaj pa mati gospodinja nevoljna še bolj s ključi zarožlja in pravi:</p>
+            <p n="SLV10011.150">"Ne boš sam pretakal, ne, jaz ne pustim. Bolje je, da se vino nikoli ne učisti ali da se zavrelica iz vsega vina naredi, nikar le iz srednjega velikega soda, nego da bi se ti pri pretakanju prevzdignil ali kako drugače pohabil. Ni ti treba, ne! Hvala Bogu in svetemu Florijanu, toliko že imava, da, kadar naju Zveličar k sebi pokliče na oni svet, ne bode mogel Samorod govoriti, da bi bil kje drugje tod blizu več priženil, nego je pri Basnigojevih; toliko ostane, če vse delo pustiva. Zakaj bi potlej na stare dni toliko trpel, kakor ti trpiš z delom."</p>
+            <p n="SLV10011.151">Ženi oko zarosi, on pa se nasmehlja in reče:</p>
+            <p n="SLV10011.152">"Glej jo, glej! Ti sama začni, sama. Nisi li vedno na nogah in pri delu, tako da še umreti ne boš utegnila, kadar pride pote božja dekla, bela smrt?" In se ona se nasmehne ter pravi:</p>
+            <p n="SLV10011.153">"Beži mi, ne veš, da volka ni smeti klicati? Sicer pa vem, da brez dela bi ti bilo dolgčas, vajena sva ga oba. Le preveč ne dej."</p>
+            <p n="SLV10011.154">"Kdo je pa tam?" vpraša starec in kaže v dolinico, kjer je nekdo, oddaljen za tri streljaje, jezdil proti Basnigojevemu domovanju.</p>
+            <p n="SLV10011.155">"Anton je, tako se mi zdi," pravi starka in z roko nad čelom, braneč se sonca, ogleduje jezdeca, ki je v diru podil konja po slabem, od dežja razjedenem in skalnatem potu.</p>
+            <p n="SLV10011.156">"Kaj bi rad? Včeraj je bila Vida tukaj, a ni ničesar povedala, da hoče on danes priti ali da bi imel po kaj hoditi, posebno v delavnik," reče stari Basnigoj.</p>
+            <p n="SLV10011.157">"Ali si kaj opazil, kako je Vida čudna zdaj? Bog moj in sveta mati, prav bojim se zanjo. Vsa se je spremenila. Poprej je bila vesela, poskočna, še bolj, nego mi je bilo ljubo, a zdaj! Bog sam vedi, kaj ima," toži mati v srčni svoji skrbi.</p>
+            <p n="SLV10011.158">"Joje, kaj bi moglo biti hudega? Ne veš li več, kako si mi ono leto, ko se je možila, odsvetovala in govorila, da ni prav; in zdaj vidiš, da jima gre dobro in da je vse po volji božji," teši zopet oče.</p>
+            <p n="SLV10011.159">"Bog ga vedi in mati njegova, je li vse prav ali ni morda," žalostno govori mati. "Ne da bi Antonu rekla žal besede. On je dober človek, če je tudi časi nagle jeze. Pa saj so skoro vsi ljudje, ki so nagle jeze, tudi dobrega srca ljudje; glej, ni li bila naša Vida, dokler je bila še tu doma, nagla kakor vihra, svojeglava in trmasta? On je dober, nič ne rečem. Ali ko sem jo videla včeraj, da je tako čudna, in sem jo vprašala: Vidka, kaj ti pa je? in ni nič hotela povedati mi, veš, prišlo mi je na misel: morda pa vendar ni bilo prav, da si jo dal temu Antonu tako brž."</p>
+            <p n="SLV10011.160">"Dal? Ali ga ni sama vzela?" zagovarja se stari.</p>
+            <p n="SLV10011.161">"Pst! Glej, že je tu."</p>
+            <p n="SLV10011.162">Res je bil jezdec Anton Samorod, zet naših dveh starih, že v dvorišče prijezdil in s konja skočil; prihajal je po trati k starima.</p>
+            <p n="SLV10011.163">"Kje je Vida?" vpraša Samorod.</p>
+            <p n="SLV10011.164">"Vida?" zavzameta se obadva roditelja in vstaneta prestrašena s klopi.</p>
+            <p n="SLV10011.165">"Ni je pri vas? Ni prišla danes na vse rano jutro?" vpraša Samorod hlastno.</p>
+            <p n="SLV10011.166">"Ne!" klikne mati.</p>
+            <p n="SLV10011.167">"Kaj je to?" vpraša stari.</p>
+            <p n="SLV10011.168">Anton Samorod obledi kakor zid. "Morda sem se zmotil," pravi, obrne se, zasede konja in brez druge besede v najhitrejšem diru odjaha.</p>
+            <p n="SLV10011.169">"Jezus, kaj je to?" jadikuje starka. "Kaj se je prigodilo? Precej pojdi za njim gledat ali pa idem jaz; ne, pojdi ti ali pa Janeza pošlji; Janez! Janez!"</p>
+            <p n="SLV10011.170">"Tiho, tiho! Nič ne bode hudega. Čakaj! Jaz stopim sam dol in pogledam," pravi starec in z drobnimi, negotovimi, starimi stopinjami koraka v hišo po palico in pokrivalo.</p>
+         </div>
+         <div type="chapter">
+            <head>Šesto poglavje</head>
+            <p n="SLV10011.171">Štiri leta poprej bile so tu na kraškem posestvu, na Basnigojevini, čisto druge skrbi za lepo Vido nego danes, ko jo je prišel njen mož iskat, a je prestrašen ni našel.</p>
+            <p n="SLV10011.172">Tačas je bila ona še deklica sedemnajstletna, ravno vrha dorasla in razcvela, razposajena, nemirna, vesela, tresonoga, vriščeča – hoj! – dekletce, kakor mlado žrebe ognjevita, nagla kakor strela in lahkih misli tako, kakor iskrih oči in nestanovitna pri delu. Delala je namreč vse in nič, bila je povsod in nikjer. V vinogradu, ko so kopali, vzela je mlada Vidka prvi delavki motiko iz rok in kopala je s tako naglostjo in pridnostjo, da je drugi s potom v obrazu niso mogli dohajati. Ali že čez kake pol ure je Vida vrgla motiko ob tla, poskočila navzdol in, vse popustivši, pevajoč koračila na travnik, kjer so se konji pasli, ter jim je nagajala ali kruhovih drobtin dajala - nekoliko časa namreč, dokler ji ni na misel prišlo, da danes ni mladim mačicam, ki so visoko gori na senu na svet prišle, še nič mleka nesla; tedaj je treba, da brzo sopiha zopet proti domu. In hajdi po sokolovje urno navzgor!</p>
+            <p n="SLV10011.173">Oče in mati sta jo pri takih prilikah rada karala in grajala. Ali ker jima je bila Vida edinica, imela sta jo prerada, vzgojila sta jo bila le z mehkobo in ljubezensko prizanesljivostjo; zatorej ni vselej mnogo pazila na to, kaj mamika karajo ali zakaj oče s staro glavo majo. Na taka karanja je imela različne odgovore. Časi se jima je nasmejala izpod las, ljubo izza ušes po licu zmršenih, zasuknila se na peti in pij! – že je bila izginila za oglom. Druge krati je obadva stara pošteno sama okarala in je zmagala, večkrat pa je skočila mamici na vrat ter ji s poljubi usta zamašila ali pa hudega očko prijela za obe rami in ga, glasno smeje se, zasuknila, kakor da bi hotela plesati z njim, tako da je stari le še na pol jezen, a že na pol zadovoljen dejal: "Ali mi pojdeš stran, seme ti semensko!" Časi pa, kadar je karana Vida videla, da je stvar resna, umolknila je tudi in umaknila se, a potem se je na njenem vedenju dva dni poznalo, da ni pozabila. Poleg vsega tega pa je deklica svoje roditelje jako rada imela in, kar nekaj pomenja, berači so jo daleč okoli po Krasu hvalili, da je deklica "dobrih rok"; a tudi Basnigojeva velika družina hlapcev in dekel ni bila zlogolčna o njej, dasi so nekateri, zlasti mlajši, mogli pritoževati se, da je njihovo uho že čulo in čutilo drobno, pa dovolj težko njeno ročico.</p>
+            <p n="SLV10011.174">Taka je bila Vida tedaj štiri leta prej.</p>
+            <p n="SLV10011.175">In tačas je bila Vida neki dan hudo pokarana; najprej jo je mati, potem pa še bolj oče, in sicer tako, da enkrat zopet ni bila šala. Ona pa je bila preverjena, da se ji krivica godi, zato se je skrila za poslednji hišni ogel in tam sedela na soncu ter na ležeči kladi celo jokati začela – od jeze in samousmiljenja. Poslednji čut je, slišali smo, posebno pri prenežno in ljubeznivo vzgojenih otrocih udomačen.</p>
+            <p n="SLV10011.176">"Kaj ti pa je, Vida?" vpraša nekdo. Ona glavico dvigne in vidi Antona Samoroda pred seboj. Vsa zardi, ker ni ji bilo prav, da jo je ta mož videl jokajočo.</p>
+            <p n="SLV10011.177">"Kaj te briga!" odgovori mu dekle, podpre glavico z eno roko in spodnjo ustnico malo naprej pomoli, kar ji je pa kaj lepo pristalo.</p>
+            <p n="SLV10011.178">"No, meni, staremu svojemu prijatelju, bi pa vendar smela tožiti, kaj ti je," reče on nič užaljen, nategne svoj vedno resni obraz na lahek smeh in brez okolišev prisede k nji na klado.</p>
+            <p n="SLV10011.179">"Pusti me in pojdi, kamor si mislil," reče ona vedno bolj jezna, kar pa je Antona vedno bolj veselilo.</p>
+            <p n="SLV10011.180">"Povej mi, zakaj si jokala, potlej pojdem; drugače ostanem tu," reče on smeje se. Bil je sosed in najboljši znanec tu v hiši, smel je tako siten biti iz dobre volje.</p>
+            <p n="SLV10011.181">"Pojdi!" reče ona srdito in zamahne po strani z roko.</p>
+            <p n="SLV10011.182">"Hoj, deklica, tepla me pa menda vendar ne bodeš?" smeje se on.</p>
+            <p n="SLV10011.183">"Precej, če ne greš!"</p>
+            <p n="SLV10011.184">On se zasmeje, a v tistem trenutku mu močno lopne njena dlan po obrazu, po ustih in po nosu.</p>
+            <p n="SLV10011.185">Ne vem, kako je to, ali je bil udarec res težji, nego se more od nežne, drobne dekliške ročice pričakovati, ali pa je bilo oblično predgorje velikana Samoroda ta dan nekako mecje - nekoliko kapelj krvi udari Antonu iz nosa.</p>
+            <p n="SLV10011.186">Ko deklica to vidi, obledi in strepeta, oklene se velikega svojega soseda z eno roko okoli vratu in reče z nepopisno nežnim in skrbljivim glasom: "Ne, ne, ne, ne!"</p>
+            <p n="SLV10011.187">"Dobro znaš," reče on brisoč se.</p>
+            <p n="SLV10011.188">"Jaz te nisem..." dahne ona boječe in njena usta pridejo tako blizu njegovemu zagorelemu licu, da so ga mehki njeni laski gladili po obrazu.</p>
+            <p n="SLV10011.189">"Ne ti: sam sem se," reče on pol šaljivo, pol očitajoč.</p>
+            <p n="SLV10011.190">"Jaz nisem mislila tako," govori ona s prosečim glasom. Kri se mu je bila tako že precej ustavila.</p>
+            <p n="SLV10011.191">"Ne bodi hud," prosi deklica dalje, še vedno nedolžno sestrsko roko okoli njegovega mogočnega vratu držeč.</p>
+            <p n="SLV10011.192">"Če me enkrat poljubiš," reče on zopet smehljaje se.</p>
+            <p n="SLV10011.193">"Hočem, če ne ... če nikomur ne poveš."</p>
+            <p n="SLV10011.194">"Da si me poljubila?"</p>
+            <p n="SLV10011.195">"Da sem te udarila, ne materi ne očetu, ne..."</p>
+            <p n="SLV10011.196">"Nikomur, no..."</p>
+            <p n="SLV10011.197">Dekle vstane na pol, prepogne se čez njegovo koleno in ga poljubi; v tem hipu jo on objame in stisne k sebi za trenutje, da ji vrne poljub, a potem, izpustivši jo poleg sebe, obdrži njeno ročico v svoji velikanski roki, česar mu ona ne brani, ter reče nekako v zadregi, zardel in na pol tiho:</p>
+            <p n="SLV10011.198">"No, zdaj mi pa morda poveš, zakaj si prej jokala?"</p>
+            <p n="SLV10011.199">"Zato, ker me vedno zmerjajo."</p>
+            <p n="SLV10011.200">"Kdo?"</p>
+            <p n="SLV10011.201">"Vsi, mati, oče... vsak, kdor nima drugega dela, pa se ob mene huduje," reče ona zopet zlovoljna in glasna.</p>
+            <p n="SLV10011.202">"Tedaj meniš, da se jim posebno prijetno delo zdi tebe karati, ti ubožica?"</p>
+            <p n="SLV10011.203">"No! Zdaj misliš še ti začeti!" reče ona in ga ljuto pogleda s svojimi velikimi očmi.</p>
+            <p n="SLV10011.204">"Nočem ne," odgovori on, "a zakaj bi mi ne povedala, kaj ti je bilo? Glej, zdaj ti precej lahko svetujem, kako naredi, da te ne bodo več karali. — Omoži se!"</p>
+            <p n="SLV10011.205">"Kam?" vpraša ona brezmiselno.</p>
+            <p n="SLV10011.206">"K nam," reče Anton pol šaljivo, pol resno, a vendar mu obraz zopet malo od rdečice zatemni.</p>
+            <p n="SLV10011.207">"K vam? Dol na Samorodovino?"</p>
+            <p n="SLV10011.208">"Da! Ali ni prijetneje nego tu pri vas."</p>
+            <p n="SLV10011.209">"Povsod je prijetneje nego pri nas."</p>
+            <p n="SLV10011.210">"No, bodi moja žena in potem je vse tvoje, kar je moje, in domov sem lahko prideš, kadar te bo volja," reče Anton in želja, hipoma v njem vstala, da bi on, že štiridesetletnik, dobil to krasno deklico za ženo, razvnela mu je govor in odvzela mu ono neumno moževsko sramežljivost, ki junake pred slabotno žensko spreminja v strahopetce.</p>
+            <p n="SLV10011.211">Čudno, deklici je stvar bila po volji! Doma tu ji ni bilo več po volji. Želela je proč, drugam, kamor bodi. In kar je bilo spočetka na pol šala, postala je prava, pravcata resnica.</p>
+            <p n="SLV10011.212">Samorod je že čez nekoliko dni stopil k očetu Basnigoju in prosil lepo Vido za ženo, rekoč iznenadenemu starcu, da ima od deklice že besedo zagotovljeno.</p>
+            <p n="SLV10011.213">Oče Basnigoj je Antona Samoroda močno spoštoval zaradi njegovega moštva. Premoženja je imel tudi dosti, bil je iz častitega doma in roda in celo župnik, ki je tudi Basnigojevino obiskaval in ki ni nikdar zastonj dajal dobrega sveta, bil je Antonu brat. Kdo bi bil mogel vrtavostnemu dekletcu biti boljši varuh nego Anton? Če je bil že bolj prileten in vdovec, no, ona ga hoče in čudno je, da je še tolikanj pametna, da ne sanjari tako kakor navadno neumna mladost.</p>
+            <p n="SLV10011.214">To so bili razlogi starega Basnigoja.</p>
+            <p n="SLV10011.215">Njegova žena se je sicer s čudom čudila, ko je zvedela za to snubitev, celo odgovarjala je nekoliko, ali uvaževala je vendar tudi moževe razloge. "Naj bi bilo v božjem imenu, ali vendar premisli, če ti je prav," rekla je Vidi.</p>
+            <p n="SLV10011.216">Vida je najnaprvo zbežala in ni hotela o tem govoriti. Drugič je pa rekla: "Ne, kar nalašč ga bodem vzela, samo da me ne boste vsak dan karali, veste, mati?" Tako je dejala Vida in se poredno smejala.</p>
+            <p n="SLV10011.217">"I, dete, še gledalo bodeš enkrat, kadar me ne bode že več, in prosilo bodeš Boga, da bi me imelo, ko bi te tudi karala," reče stara mati s pol jokajočim glasom in užaljena se obrne v stran.</p>
+            <p n="SLV10011.218">"No, no, no!" vzklikne Vida. "Le neumni ne bodite." Rekši to nevljudnost z ljubim smehom, zgrabi mamico in se zasukne, po svoje plesoč, trikrat okoli braneče se roditeljice, potem pa iz veže skoči na polje.</p>
+            <p n="SLV10011.219">Štiri tedne potem je bilo svatovanje. Pekli so pod milim nebom celega vola, popili so mnogo sodov vina, skladanice pogač pojeli in Stoklasek, Samorodov ovčji pastir, bil je tačas tako pijan, da je bil zgrešil ljubega Boga in da je mački botra rekel.</p>
+         </div>
+         <div type="chapter">
+            <head>Sedmo poglavje</head>
+            <p n="SLV10011.220">Ko je stari Basnigoj prišel na Samorodino, bilo je vse v strahu in vse pokonci. Vide ni bilo nikjer.</p>
+            <p n="SLV10011.221">Pomorski razbojniki so jo davi ugrabili, ko je menda mislila iti gor na Basnigojevino, na rojstni svoj dom k roditeljem.</p>
+            <p n="SLV10011.222">Tako je Samorodova družina pravila starcu na prva usta in ubogi oče je moral brzo sesti, da se ni zgrudil na tla, ko je čul to strahovito novico.</p>
+            <p n="SLV10011.223">In takoj, ko so mu povedali to groznost, ni se nihče več menil za šibkostnega starca. Tekali so sem ter tja, drug drugemu ukazovali, povpraševali se, mešali se in ne vedeli, kaj bi, ter so bili drug drugemu napoti.</p>
+            <p n="SLV10011.224">"Kje je Anton, za Boga svetega, Anton, Anton?" vprašuje oče Basnigoj in po dobršnem času zve, da je Anton tekel ali jezdil na jug ob obali, njegov brat na sever iskat, povpraševat, da je ribičem ukaze dajal, naj pozvedujejo in bogve kaj, vse za Vido, ki je od davi ni in ki so jo gotovo odnesli razbojniki, o katerih se je že včeraj govorilo.</p>
+            <p n="SLV10011.225">"Razbojniki? Ni mogoče, ni mogoče," jadikuje stari, a ne ve si pomoči, ne ve odločiti, kaj bi storil.</p>
+            <p n="SLV10011.226">Nazadnje mu na misel pride, da je morda ona, ki je iščejo, kje v hiši, a drugi je iščejo zunaj; ali pa je morda na sprehodu, kje nedaleč od tod. "Razbojniki, razbojniki, to ni mogoče! Dostikrat se je že prigodilo, da smo iskali česa daleč proč, a bilo je nam blizu in ni bilo izgubljeno, ni ne, ne bode ne daleč."</p>
+            <p n="SLV10011.227">A neusmiljeni ljudje so povedali dedu, da je že od zore iščejo, da je vse preiskano, daleč okoli že, povsod se je klicalo ime gospodinjino, a ni bilo ni glasu ni sledu. Glasu ne, ker ni klicev slišala, sledu ne, ker ga je dež lahko izpral, ki je šel pred dnem in se potem po malem zopet padal.</p>
+            <p n="SLV10011.228">In starec se je tresel kakor mrzličen, kakor pribit na svojem sedežu ter je klical v polglasnih stokih Boga na pomaganje in svetce njegove. V svojem strahu se še takoj domislil ni, da ima svoji ženi takoj poročiti, kaj se je zgodilo. In ko mu je to na um prišlo, obvzel ga je znova strah, kaj bode iz matere, ko bode čula, da je njen edini otrok pomorskim razbojnikom, divjim, neusmiljenim ljudem v roke prišel.</p>
+            <p n="SLV10011.229">Pošiljati sicer na Basnigojevino poročila ni bilo treba, ker tudi gori je družina brzo zvedela, da iščejo Vide in kaj sumijo, da se je zgodilo z njo. Došlo je tudi starki na ušesa in jo podrlo na tla v nesvest.</p>
+            <p n="SLV10011.230">Prvi, ki je jenjal iskati, bil je starejši Samorod, župnik. "Tu je vse zastonj, treba je samo v božjo previdnost zaupati, ki bode še vse prav izvela," rekel je in ustregel vsem upehanim.</p>
+            <p n="SLV10011.231">Ko je prišel tudi Anton domov, ves zamolklo tih, s strašnim obrazom, truden in obupan, spustil se na stol ter obraz pokril z obema rokama, bližal se mu je brat ter je rekel z lahko modrostjo in tolažljivostjo onega, kogar nesreča v prvi vrsti ne zadeva:</p>
+            <p n="SLV10011.232">"Anton, v Boga zaupaj, še ni izgubljena."</p>
+            <p n="SLV10011.233">"Izgubljena!" reče veliki mož, roka mu opade kakor otrpla ob životu.</p>
+            <p n="SLV10011.234">"Če so jo razbojniki ugrabili in s seboj vzeli, poslali ti bodo gotovo poročilo, kam pridi z odkupnino ponjo. Za odkupnino jim je, denar, to je vse."</p>
+            <p n="SLV10011.235">"Misliš?" reče Anton in naglo vstane.</p>
+            <p n="SLV10011.236">"Gotovo in nekaj še imamo."</p>
+            <p n="SLV10011.237">"Potem niso šli daleč, lopovi. Dohitel bi jih," reče Anton in premišlja.</p>
+            <p n="SLV10011.238">"Jaz idem na morje," reče potem naglo. "Poroči ti mojim prijateljem v Trst, naj skrbe tudi oni od svoje strani. Bodi še nekaj dni tu, če mene ne bode. Skrbi za dete. Če ti treba kaj denarja, dala ti bosta oče in mati."</p>
+            <p n="SLV10011.239">"Dala, dala bova," prikima stari tast Basnigoj z ginjenim, na pol otročjim glasom.</p>
+            <p n="SLV10011.240">Anton korači iz sobe ven in ukazuje pripraviti ladjo. Povsod mu je brat na pomoč s svojo večjo hladnostjo in stari tast bi rad pomogel, rad svetoval, ali strašna iznenadna novica ga je bila tako potrla, da ni mogel še govoriti, le zdaj pa zdaj je klical tiho Boga.</p>
+            <p n="SLV10011.241">"Ali, brate, tako prav gotovo pa tudi ni, da bi jo bili razbojniki vzeli, morda jo je kaka druga nesreča zadela, morda..."</p>
+            <p n="SLV10011.242">"Ne, glej!" In Anton pokaže košček njene obleke, ki jo je bil našel na malem obsteznem kolcu. "Tam doli je hodila. In pozna se, da se je tam nocoj čoln izkrcal. Ribič je v jutro čul veslanje."</p>
+            <p n="SLV10011.243">Tedaj je bilo dokazano.</p>
+            <p n="SLV10011.244">Anton je odplul rote se, da brez nje ne pride domov, in ko bi jo imel vzeti iz globočine morja ali z onega konca sveta.</p>
+            <p n="SLV10011.245">Vest pa, da je tako čudovito izginila lepa Vida, razširila se je med ljudmi daleč po deželi, nastale so pripovedke, v katerih se je natanko povedovalo, kako je prišel "črn zamorec preko sivega morja, ladjo ustavil, ko je lepa Vida plenice prala", pa jo je zvabil in odpeljal v daljno deželo ter da jo mož išče ali, kakor se se dandanes v pesmi, katero je slovenski narod o nasi lepi Vidi zložil, poje:</p>
+            <p n="SLV10011.246">... tvoj mož je šel od hiše, se po morju vozi, tebe iše, tebe iše in se grozno joka, od bridkosti njemu srce poka.</p>
+         </div>
+         <div type="chapter">
+            <head>Osmo poglavje</head>
+            <p n="SLV10011.247">Župnik, ki je bil tako ob nesrečnem dnevu prišel brata na domu obiskat, moral je zdaj nekaj dni tu ostati, ker ni bilo po odhodu Antonovem nobenega domačega.</p>
+            <p n="SLV10011.248">Prvo, kar je storil, bilo je to, da je premestil dete na Basnigojevino k babici Basnigojki, ki se je strastno oklenila malega vnučica, ko hčere ni več imela.</p>
+            <p n="SLV10011.249">Drugo delo pa je bilo župniku, da je od kraja začel preiskavati in povpraševati zaradi Vide. Zvedel in videl je mnogokatero znamenje, ki ga v burnosti prej ne Anton ne on ni bil zapazil. In po vsem tem je mož z glavo majal in sumnjivo molčal.</p>
+            <p n="SLV10011.250">Na pesku namreč doli, kjer je moral tuj čoln čakati, ni bilo mnogo sledu poznati. Čoln je bil majhen. Imajo li pomorski razbojniki majhne čolne? Dalje tudi psa Volka ni bilo nikjer, pač pa se je poznala ena stopinja njegova skoro do tja, kjer je bila Vida v čoln nesena - če je bila. Čudno, da bi bil pes miren. A vsi sledovi so bili jako slabi, negotovi, zato se ni dalo trdno sklepati o ničemer.</p>
+            <p n="SLV10011.251">Bolj čudno pa se mu je zdelo - da, celo ostrmel je sam pri sebi - ko je od dekel čul, da so one na vse rano jutro našle glavna dvorska vrata odprta in da so slišale malega Tončka samega jokati. Kako je to, da je danes tako zgodaj odšla kakor nikoli? Kako, da ni prej kake dekle poklicala ter ji svoje dete izročila, preden se je k roditeljem napotila?</p>
+            <p n="SLV10011.252">Strašna misel mu je urezala preko glave, zlasti ker se je domislil sinočnjega pogovora in Antonove pritožbe o svoji ženi.</p>
+            <p n="SLV10011.253">A dobri mož ni hotel sumničiti, obrisal si je hladen pot z obraza in se skušal razmisliti, hodeč od tod do tam, med družino, ki se je zopet dela polotila.</p>
+            <p n="SLV10011.254">V mraku je sedel župnik zamišljen na južnem oglu hiše in gledal po enakomernem morju.</p>
+            <p n="SLV10011.255">Ovčar Stoklasek je bil prignal ovce v hlev, pa se je bil postavil nedaleč, kakih deset korakov, od duhovnega gospoda in ga gledal nekako posebno. Nekaj je držal v roki in noga se mu je kakor krčevito večkrat premaknila, da bi stopila naprej do gospoda, a strah ga je bilo blagoslovljenega moža, dasi ga je Stoklasek rad imel, ker je včeraj dobro slišal, kako ga je župnik branil gori med skalami, ko ga je Anton Samorod z bičem tepel.</p>
+            <p n="SLV10011.256">"Kaj bi rad?" vpraša ga župnik, ko zagleda blizu stoječega in proti sebi obrnjenega ovčarja.</p>
+            <p n="SLV10011.257">"Tole," reče Stoklasek in predse moli nekaj okroglega v roki, pa samo z eno, šepavo nogo naprej stopi.</p>
+            <p n="SLV10011.258">"Kaži sem, kaj je?"</p>
+            <p n="SLV10011.259">Pastir priskaklja in izroči gospodu majhen, rdeče obrobljen portret. Slika je kazala mladega lepega moža. Župnik jo je samo enkrat pogledal, barvo na licu spremenil, oči v starega pastirčka uprl in naglo vprašal:</p>
+            <p n="SLV10011.260">"Kje si to dobil, povej!"</p>
+            <p n="SLV10011.261">"Našel," reče šepec.</p>
+            <p n="SLV10011.262">"Kje? Kdaj?"</p>
+            <p n="SLV10011.263">"Davi, tam doli." Rekoč, kaže s prstom ob morju.</p>
+            <p n="SLV10011.264">"Pojdi z menoj, da pokažeš," reče župnik hlastno in, dasi je bil že mrak, stopal je postarni duhovnik tako hitro, da ga je Stoklasek s težavo dohajal.</p>
+            <p n="SLV10011.265">"Tule," pokaže pastir. Ni bilo daleč od mesta, kjer se je poznalo prislonjenje čolna na pesku. Duhovnik je iz pastirja izvlekel, da je to našel davi rano, ko je ovce mimo gnal, da je bilo že rosno, da je že od daleč z vrha videl in ponj stopil, da ni še nikomur pokazal, nikomur nič pravil, kaj je našel.</p>
+            <p n="SLV10011.266">"Molči tudi zdaj. Nikomur ne pripoveduj, da si kaj našel. Če ne pomolčiš, greha bodeš kriv," zabičuje mu duhovnik nekako slovesno in v nekem strahu.</p>
+            <p n="SLV10011.267">Iz tega je Stoklasek videl, da je gospodu ustregel s to podobico, zatorej si je upal vprašati:</p>
+            <p n="SLV10011.268">"Bogve kakov svetnik je tisto, ali je svetnica?"</p>
+            <p n="SLV10011.269">"Ni svetnik, le pojdi, pa molči."</p>
+            <p n="SLV10011.270">Pastir odide, župnik Samorod starejši pa na mestu obstane, prime se za glavo in vzdihne:</p>
+            <p n="SLV10011.271">"Bog! Je li vendar res! Tako daleč! O ubogi moj brat, ubogi Anton!"</p>
+         </div>
+         <div type="chapter">
+            <head>Deveto poglavje</head>
+            <p n="SLV10011.272">Ko je prišla sobota, moral je župnik zapustiti svojo rojstno hišo in prepustiti družini gospodarstvo. A opravivši v nedeljo svojo cerkveno službo, šel je k starima Basnigojevima tolažit ju in jima je skrivnostno takole govoril:</p>
+            <p n="SLV10011.273">"Jutri za dne jaz tudi odidem iskat je. In če je božja volja, najdem jo jaz, ne moj brat Anton. In če hoče Bog moje delo blagosloviti, dovedem jo nazaj. A vidva molita za to, molita pa še posebej, da bi jaz z njo prej prišel domov nego Anton. Ne vprašajta zakaj: molita."</p>
+            <p n="SLV10011.274">In mati Basnigojka je molila, da si je skoraj srce in dušo iz telesa izmolila, noč in dan, skoraj neprenehoma, še v sanjah, vse dni, kar je bil starejši Samorod odšel. Oče Basnigoj pa je hodil skrben za ogel gledat, kdaj zopet pride kdo od župnije navzgor po stezi s kakim poročilom. Obenem je pošiljal povpraševat dol in v Samorodino, zjutraj pa je opazoval, da mu sivi lasje izpadajo, in mislil je: "Zadnji las bi dal, vse bi dal, da bi jo le dobili." In ko je videl svojo ženo vso obupano, vedno jokajočo in molčečo, celo kadar je z malim vnukom posel imela, moral se je v stran obrniti, da je solzo skril in mislil si je: "Bog, ti sam veš, s kom je zaslužila, da mora toliko trpeti, jaz bi dejal, da ni zaslužila in ni."</p>
+            <p n="SLV10011.275">Vrnil se je župnik res, a sam. Vrnil se je prej nego Anton, a brez Vide in žalosten je z glavo majal in rekel starima: "Zmotil sem se, zmotil sem se!" Več ni hotel povedati, ne kje je bil ne o čem se je zmotil. Tolažil ju je z verskimi besedami, kakor je bila njegova dolžnost in navada, potem je odšel.</p>
+            <p n="SLV10011.276">Vrnil se je tudi Anton, tudi on sam. Vse njegovo prizadevanje je bilo zastonj. Ne duha ne sluha, ne sledu ne tiru o njegovi ženi, celo o kakih morskih razbojnikih ob vsej drugi obali ni nihče ničesar vedeti hotel, kar je bilo neizrečeno čudno in nerazložno. Da so prekomorski lopovi prišli in niso ničesar in nikogar drugega zaplenili nego samo Samorodovo ženo!</p>
+            <p n="SLV10011.277">Nekoliko časa je bil Anton kakor top. Ni delal, ne mislil, ne govoril. Sedeval je sam in glava mu je ob takih prilikah sama zlezla med roke ter oči so se zatisnile same, glava pa je začela siveti in lice je postajalo še bolj podolgasto in nabrano.</p>
+            <p n="SLV10011.278">A le nekoliko časa. Hladnejši starejši brat njegov je premišljal, kako bi ga zdramil, in kmalu je pravo našel: klin s klinom, skrb s skrbjo izbiti, kar se mu je posrečilo. Samorodovo dete, mali Tonček, jel je morda zaradi malega prehlada bolehati. Na to je župnik brata opozoril in res je pravo zadel, kajti velika očetovska briga, da ne bi izgubil poslednjega, kar ima še, sinka, delovala je ugodno tolikanj, da se je Anton razživil in, ko je otrok kmalu zopet dober bil, začel je Anton delati to in ono, delo pa je najboljši razmišljevalec in prvi tešitelj.</p>
+            <p n="SLV10011.279">Upanja nekoliko pa, da bode svojo ženo se videl, ni mu ugasnilo, dasi ni imel nobenega razloga ne upravičenja do njega.</p>
+            <p n="SLV10011.280">Kako jo je ljubil, to je vedel in videl šele zdaj, ko je ni imel, ko je bila tako kruto odtrgana od njega. Ko bi bila umrla, vedel bi bil vendar za gotovo, da je ni več na tem svetu, a tako je bogve kje, bogzna v čigavi oblasti. To je bila strašna misel vselej, kadar mu je prišla. Zajela se mu je v možgane vselej, kakor se lačen kragulj oprime prijetega plena. Trpel je mož hude duševne muke, trpel človek zaradi drugega človeka, a vprašal ni, je li pa drugi tudi vreden, da trpi zanj.</p>
+         </div>
+         <div type="chapter">
+            <head>Deseto poglavje</head>
+            <p n="SLV10011.281">Svetla luna je čarobno srebrila pretoke benečanskega mesta in orisavala temne, v gladki morski površini odsevajoče velike, visokooknate dome in palače.</p>
+            <p n="SLV10011.282">Na majhnem, tako rekoč morju ukradenem vrtiču benečanskem poleg manj obiskovanega in prevoževanega pretoka je v večernem hladu stala mlada žena bolj močnega nego šibkega telesa, ovalnega obraza, krasna postava! Nestrpno je gledala po morski stezi, ki je držala za hišami okoli in, ker dolgo ni nikogar pričakala, pomaknila se je nazaj, sedla na klopco, obraz podprla in se zamislila. Naposled se začuje sum lahkega vesla, ona skoči pokonci in, ko vidi, da se je mala gondola približala stopnicam na njen vrtič, zakliče hlastno in veselo:</p>
+            <p n="SLV10011.283">"Alberto?"</p>
+            <p n="SLV10011.284">"Še čakaš?" vpraša veslač, ovijaje verižico svojega čolnica na priveznico.</p>
+            <p n="SLV10011.285">Ona je bila stopila naprej, da bi mu šla naproti, a kakor da bi se pomislila, vrne se in sede na klopco ter tam čaka prišleca, kateri polagoma prihaja in sede poleg nje vprašaje:</p>
+            <p n="SLV10011.286">"Kaj ti je, Vida?"</p>
+            <p n="SLV10011.287">"Kaj mi je? Tako pozno prihajaš, toliko časa me puščaš samo, da moram čakati in hrepeneti po tebi, a potem vprašaš, kaj mi je. O!"</p>
+            <p n="SLV10011.288">In solze ji udero po gladkem, malo zarjavelem, a krasnem licu.</p>
+            <p n="SLV10011.289">On ji odteza roko od plakajočih oči ter govori hladno tolažilno: "Bodi mirna, draga moja, in premisli, da podnevi moram jaz biti pri delu; moj oče me ne pušča, da bi posel zanemarjal, in glej, ali nisem zdaj pri tebi?"</p>
+            <p n="SLV10011.290">"Tvoj oče te ne pušča? Ali sem jaz vprašala, da li me moj oče pušča, ko sem vse zapustila, vse, dom in svoje dete! Da, kje je moje ljubo dete? Ali mi nisi obetal, ko sem šla s teboj, ko sem tvoji ljubezni vse žrtvovala, da mi kasneje prineseš moje dete? Kje je? Zakaj ga še ni tu? Zakaj mi vedno obetaš, a me puščaš samo? Alberto, Alberto, ti me ne ljubiš, ti nimaš srca, kakor je moje..."</p>
+            <p n="SLV10011.291">"Nikar tako ne govori, Vida. Ko bi te ne ljubil, bi li bil pri tebi?"</p>
+            <p n="SLV10011.292">"Pri meni?" odgovarja mu jezna. "Le zdaj, samo na večer, ves dan pa moram sama biti in čakati in sem kakor zaprta. In še tega mi ne storiš, kar si mi obetal, da bi mi moje dete, mojega Tončka, dobil in sem privedel k meni. O Alberto, stori mi to, stori mi to, jaz te hočem na kolenih hvaliti in, če je mogoče, še bolj ljubiti, nego te ljubi to vroče srce; tvoja skrb kako, samo moje ljubo dete mi privedi.</p>
+            <p n="SLV10011.293">"Povedal sem ti že, da to ni tako lahko, kakor si misliš," odgovarja on nevoljen.</p>
+            <p n="SLV10011.294">"A zakaj si mi tačas obetal?" vzkipi ona.</p>
+            <p n="SLV10011.295">"Mar ti ni moja ljubezen zadosti, Vida? Zakaj hočeš, da bi jaz svoje življenje v nevarnost deval, samo da ti to dete dobim, ki je njegovo, čuješ, njegovo."</p>
+            <p n="SLV10011.296">"Moje!" klikne žena.</p>
+            <p n="SLV10011.297">"A moje ne. Jaz pa hočem tebe, ne njegovega deteta. Zakaj mi vedno tega deteta spominjaš, zakaj mora vedno njegova senca temniti mojo srečo. Če mene ljubiš, moraš pozabiti vse, kar je za teboj, kar je bilo, njega in to dete njegovo."</p>
+            <p n="SLV10011.298">"Ne morem, ne, deteta svojega ne! Ne govori mi tega, ti ne veš, kako mi je pri srcu. Moje zapuščeno dete mi je moja huda vest, ki me teži noč in dan; dete mi pripravi in vse hočem pozabiti, vse, vse! Potem ne bode nikaka senca več temnila najine sreče, potem se ti hočem samo smejati v ljubo lice, da, smejati in veseliti se te in dobra biti in pokorna tvoji besedi kakor jagnje. Samo dobodi mi ga. Ti moreš in znaš, idi, vzemi ga jim, ukradi ga ali siloma ga vzemi, samo dobodi ga. Jaz brez njega ne prestanem."</p>
+            <p n="SLV10011.299">"A ljuba moja, misli, da si pri meni, in domišljaj se, kaj si mi obetala, kako si me ljubila, preden ti je začelo to dete po glavi rojiti. Čakaj ..."</p>
+            <p n="SLV10011.300">"Čakaj?" zaklikne ona, stopi ob njem pokonci in ga svetlo, ostro gleda. "Jaz nočem čakati. In nič več ne bodem prosila, ti moraš, jaz ukazujem!"</p>
+            <p n="SLV10011.301">"Če pa ne morem?" izvija se on z nasmehom, ali sprememba na licu, ki bi se bila celo v mesečini videla, pričala je, da se sili.</p>
+            <p n="SLV10011.302">"Ti ne pojdeš prej od mene, da mi zopet obljubiš moje dete dobiti. Nočem, da bi bila danes ves dan zastonj o tem mislila. Če ne ..."</p>
+            <p n="SLV10011.303">"No, kaj, če ne?"</p>
+            <p n="SLV10011.304">"Pustim te in vrnem se domov."</p>
+            <p n="SLV10011.305">"Domov? Kam? Tvoj dom je samo tu pri meni, drugega nimaš. Le pojdi, tvoj mož te ne bode hvalil ni gladil. Da te je njegov brat že tu v mestu iskal, to sem ti pripovedoval že večkrat. Torej tvoja in moja povest o morskih razbojnikih najbrž ni tako trdne vere našla na Samorodovem domu. Pojdi, da skliče stare kmete Kraševce, da te bodo po vaših šegah sodili in obsodili..."</p>
+            <p n="SLV10011.306">"Moj Bog!"</p>
+            <p n="SLV10011.307">"Tako je, ljubica, in čas je, da jenjaš govoriti o tem, kar je bilo. Jaz sem zate tu, jaz sam in nočem te z nikomer deliti, do zdaj še ne."</p>
+            <p n="SLV10011.308">"Do zdaj še ne?" ponavlja ona strme.</p>
+            <p n="SLV10011.309">On naglo vstane in reče odločno: "Danes ni, da bi s teboj govoril. Ti si čudna."</p>
+            <p n="SLV10011.310">"Kakovšna sem?" vpije mlada žena jezno.</p>
+            <p n="SLV10011.311">"Bolna, ali sitna, ali kar hočeš. Premisli in pozdravi se, pridem jutri ali pojutrišnjem, če hočeš pametnejša in boljša biti."</p>
+            <p n="SLV10011.312">Rekši, naglo odide proti stopnicam, držečim do čolniča. Ona prestrašena in neverna gleda za njim. Ko on stopa v gondolo in veslo v roko jemlje, zakliče ona:</p>
+            <p n="SLV10011.313">"Alberto!"</p>
+            <p n="SLV10011.314">"Zbogom!" odgovori on.</p>
+            <p n="SLV10011.315">Kakor blazna in otrpla gleda ona za odplujočim čolničem in, ko ji za oglom iz vida izgine, pade na kolena in z rokami oči zatisne.</p>
+         </div>
+         <div type="chapter">
+            <head>Enajsto poglavje</head>
+            <p n="SLV10011.316">V trgovsko pisarno daleč po obmorskem svetu znane firme Paoli stopil je malo raztrgan in bosopet deček ter naravnost šel v drugo sobo in pismo izročil mlademu možu, v katerem mi takoj svojega znanca Alberta Paolija spoznamo. Mladi mož vtakne hlastno pismo v žep, zardi in nevoljno migne dečaku, naj odide.</p>
+            <p n="SLV10011.317">"Rekli so..." začne dečak.</p>
+            <p n="SLV10011.318">"Nič ne! Pojdi!" osorno odpravlja Alberto malega sla, ki prestrašen ubere pot pod noge proti vratom in ven na ulico.</p>
+            <p n="SLV10011.319">Tam pri drugi pisalni mizi pa sivobrad mož vtakne gosje pero za uho, bistro pogleda zardelega mladega tovariša in se sumnjivo nasmehne z vprašanjem:</p>
+            <p n="SLV10011.320">"Od kod je ta deček? Kaj ti je prinesel? Danes ga vidim že vdrugič tu!"</p>
+            <p n="SLV10011.321">"Nič, prijatelj..." odgovori Alberto, a zadrega se mu na licu pozna.</p>
+            <p n="SLV10011.322">"Sinko, le glej, da zopet kake neumnosti ne zvem. Menim, da sem ti jih že dovolj pozabil. Še kaj takega – že veš kaj – potem je moje potrpežljivosti konec. Delaj, delaj!"</p>
+            <p n="SLV10011.323">Rekši, odide stari v notranjo izbico. Ko pride nazaj, ne najde sina več. Hitro stopi k steni in potegne dvakrat za zvončni ročaj. Sluga pride. Stari mu reče:</p>
+            <p n="SLV10011.324">"Jakob, pojdi gledat, kam gre Alberto, v tem hipu je odšel. Za njim! A tako, da te ne bode opazil. Če le moreš, skušaj izvedeti, kam ide."</p>
+            <p n="SLV10011.325">Stari Jakob se pripogne in obrne.</p>
+            <p n="SLV10011.326">Naglo doide v ozkih ulicah Alberta ter ga zakliče. "Kaj hočeš?" vpraša ta nevoljen.</p>
+            <p n="SLV10011.327">"Gospod so me za vami poslali, da bi pazil, kam greste, in jim prišel povedat," reče sluga ter reže se odpre široka usta.</p>
+            <p n="SLV10011.328">"Tako?" začudi se Alberto in obstane. Po kratkem premolku izvleče zlat iz žepa ter ga da slugi, rekoč:</p>
+            <p n="SLV10011.329">"Na, tu imaš; hodi nekaj časa okoli, koder se ti zdi, potem pa pojdi mojemu staremu povedat, da si me videl na Markovem trgu v to ali ono gostilnico iti. Spravi se."</p>
+            <p n="SLV10011.330">Brzonog odide sluga naprej in zavije potem v stran. Alberto pa mrmra sam s seboj:</p>
+            <p n="SLV10011.331">"Vražja stvar utegne še iz tega biti! Starec je začel tedaj slutiti! Zakaj nisem bolj premislil?"</p>
+            <p n="SLV10011.332">Ko je Alberto s to mislijo dalje koračil, sreča ga mlad znanec, ki ga že od daleč z vzklikom pozdravi in vpraša, kam gre. Ne dobivši odločnega odgovora, počne z njim stopati in vpraša prisiljeno:</p>
+            <p n="SLV10011.333">"Ne da bi šel k svoji ljubici, kaj? Je li res, da imaš zopet nekaj čisto novega, skritega, lepega?"</p>
+            <p n="SLV10011.334">"In kaj bi bilo, ko bi bilo res?" odgovori oni.</p>
+            <p n="SLV10011.335">"Nič, nič! Le presrečen človek si, ko ti veselje nikdar ne poide in se ti vse posreči. Zaboga da ne vem, kaj imajo in vidijo ženske na tebi; res si čeden dečko, nič ti ni redi, ali mi drugi smo vendar tudi ravnih kosti in obrazov ravno tudi nimamo takih, da bi jih pes oblajal, a jaz se trudim zastonj, tebi pa vse samo priletava. Ti si srečen, Alberto, ne li? Glej, prijatelji ti moramo to dopovedati, sicer bi morda ne vedel tako natanko in to bi bilo škoda."</p>
+            <p n="SLV10011.336">"Ko bi ti vedel, kako bi ti jaz ta hip vso svojo srečo z ženskami rad na vrat obesil in pobegnil od tebe!" reče Alberto potrt.</p>
+            <p n="SLV10011.337">"Oho, kaj pa je? Povedi no, nekaj te peče. Ali se prepirata? Ali je nezvesta? Povej, bratec, odpri mi svojo dušo in moder svet ti je od mene gotov, svet in pomoč, če le hočeš in če le morem."</p>
+            <p n="SLV10011.338">"Ne moreš, menda. Vendar pojdi, popijeva čašo vina, da vidim, kaj mi moreš svetovati."</p>
+            <p n="SLV10011.339">Stopita v pivnico in tam sedeta v poseben oddelek pri oknu, narejen za dva posamezna gosta, kakor se po redkem nahajajo še vedno v italijanskih vinskih pivnicah.</p>
+            <p n="SLV10011.340">"Neko žensko imam, lepo kot pomlad, ali vendar sit sem je skoraj. Daj mi svet, kako bi se je zlepa znebil," reče Alberto in se leno z glavo nasloni na svoje dlani.</p>
+            <p n="SLV10011.341">"Lepa je, praviš?" vpraša oni hlastno in preko obraza zažari.</p>
+            <p n="SLV10011.342">Alberto se nesramno zasmeje, pa reče, uganivši misli vrednega prijatelja:</p>
+            <p n="SLV10011.343">"Meni se zdi, da se motiš. Nič kaj navadnega ni, nič lahkega, temveč težko in s trudom pridobljeno. Skoraj bi bil utonil tisto noč, ko sem jo dobil, prej sem bil pa v opasnosti, da me psi raztrgajo. Vidiš in vendar sem se je že naveličal."</p>
+            <p n="SLV10011.344">"Ali povej, razloži malo to reč. Kje jo imaš? Kje si jo dobil? Kje bi bil utonil? Kakovšni psi? Vraga, kdo te more razumeti? Govori jasneje. Ti si zopet nekje katero odpeljal, ne?"</p>
+            <p n="SLV10011.345">"Onkraj morja."</p>
+            <p n="SLV10011.346">"Tako daleč? No, kaj potem? Vendar od tam ne bode nihče ponjo hodil, če si je pa sit, e, potem jo pošlji domov. Devica ali žena?"</p>
+            <p n="SLV10011.347">"Žena."</p>
+            <p n="SLV10011.348">"Tem bolje. Če je še lepa, vzame jo mož onkraj Adrije gotovo rad nazaj ali pa nerad. Pošlji jo, pa bo; samo da prej jo bodeš poštenemu prijatelju vsaj pokazal, drugače smemo misliti, da je tvoja hvala le prikrivanje slabega okusa."</p>
+            <p n="SLV10011.349">"Ko bi ti njenega moža poznal, vedel bi, da s pošiljanjem domov tu ne gre. Če zve, da je pri meni bila, ubije njo in mene."</p>
+            <p n="SLV10011.350">"Potem se je pa že treba ogibati. Kajti, da bi zaradi ženske prezgodaj pod travo prišli, zato smo predobri, dejal bi," govori vredni tovariš ter lije vino v grlo. "Kaj pa meni oni srečni mož, kateremu si sladko polovico izvabil iz gnezda, kam da je šla, k spovedi v Rim ali kam?"</p>
+            <p n="SLV10011.351">"Skrbel sem sicer za razširjenje govorice, da so jo morski razbojniki odvedli. Ali neki prekleti pop, brat njegov, je bil že dvakrat tukaj in je hodil tako sumnjivo okoli mene, da sem se ga bal. Danes pa je začel že tudi moj oče sumnjati, tako da sem res v veliki zadregi. Iznebiti se je moram. A težko jo bom pogrešal, navadil sem se je."</p>
+            <p n="SLV10011.352">"Eno ali drugo. Najprvo pa je treba, da mi jo pokažeš," reče oni.</p>
+            <p n="SLV10011.353">"Pojdi z menoj."</p>
+            <p n="SLV10011.354">"A ne zastonj."</p>
+            <p n="SLV10011.355">"Plačeval te ne bodem."</p>
+            <p n="SLV10011.356">"Če si pa jaz s svojo znano ljubeznivostjo sam plačilo pridobim, ne bodeš branil vzeti mi ga, kaj?" Oba se surovo zasmejeta.</p>
+            <p n="SLV10011.357">"Bodeš videl, ženska je res lepa. Jaz sem bil prej prav zares zaljubljen vanjo in zdi se mi, da sem nekoliko še, dasiravno me je s tem najbolj ozdravila, da zmerom o svojem otroku govori. Dobro je res, da ni razumela tako dobiti me in držati, kakor vem, da bi me bila mogla."</p>
+            <p n="SLV10011.358">"Dolgo vendar nobena."</p>
+            <p n="SLV10011.359">"Ta pač. Ali jo vidiš! Pojdi z menoj, samo previden bodi, jezik pazi, kajti neumna ni, drugič se ji bode pa čudno zdelo, kako da si z menoj prišel. Lagati znaš menda še?"</p>
+            <p n="SLV10011.360">"Izvrstno."</p>
+            <p n="SLV10011.361">"Jaz ti dajem vse pravice, samo da jih moraš sam izvajati si, razumeš?"</p>
+            <p n="SLV10011.362">"Dobro," reče oni, popije vino in oba častita rojaka vstaneta, zapustita krčmo in se posedeta v isto gondolo. Alberto ukaže vozniku veslati v oni vodotoč, kjer smo v prejšnjem poglavju našli Vido z njim.</p>
+         </div>
+         <div type="chapter">
+            <head>Dvanajsto poglavje</head>
+            <p n="SLV10011.363">Tovariš Albertov, Pietro Musolino po imenu, bil je dolg, tenak mlad človek z nemškimi rdečerumenimi lasmi in izredno velikim ostrim nosom, skozi katerega je zategujoč in nekako leno govoril. Spadal je v vrsto onih ljudi, ki nič nimajo, nič ne delajo, a vendar vedno dobro žive, vedno se lepo oblačijo in imajo svoboden vhod v sobe sinov prvih rodovin; bil je igralec, pivec, zapeljivec, eleganten goljufivec ali kakor se hoče že imenovati znana vrsta ljudi, ki so mogoči le v večjih mestih.</p>
+            <p n="SLV10011.364">Ko sta prišla na določeni kraj in izstopila iz gondole, premisli šele Alberto nekoliko, kaj je storil, da je vrednega si prijatelja s seboj vzel, in zardi, ko se zmisli, da se ni lahko šaliti z Vido.</p>
+            <p n="SLV10011.365">"Ti moraš nekoliko tukaj počakati, jaz jo sem privedem, svojo prijateljico," reče prijatelju, a misli: hitro bodem nekoliko govoril z njo, potem ga zopet odvedem od tod.</p>
+            <p n="SLV10011.366">"No, nič ne de, če me ne moreš v stanici predstaviti svoji lepoti, pa me tu; samo ne daj, da bi dolgo čakal." Rekši, sede Musolino na klop pred cvetice, kjer sta Alberto in Vida prej tolikokrat že sedela.</p>
+            <p n="SLV10011.367">Ko Alberto mala zadnja vrata za seboj zapre in v prvo stanico stopi, pride mu stara žena, pri kateri je imel Vido in morda pred njo že drugo lepotico na stanovanju, na videz v velikih skrbeh naproti in govori:</p>
+            <p n="SLV10011.368">"O, sam Bog, da ste prišli, in mati božja! Kako vas želi, ubogo dekle! Kako hoče, da bi vedno po vas pošiljala, ni mogoče povedati. Bala sem se že, da bi uma ne izgubila, ker ne spi. Bogve kaj ste ji zadnjič rekli, mladi gospod! In tako dolgo vas ni!"</p>
+            <p n="SLV10011.369">Tako pozdravljen stopi Alberto tiho v drugo sobo. Tam je stala Vida, od duri proč obrnjena proti oknom. Oblečena je bila v tanko, belo domačo obleko, okoli okroglih golih rok so se svetili zlati zapestniki, na polnem vratu je lepo sedel niz biserov - vse darila Albertova. Z eno roko se je držala zglavja odgrnjene postelje, kateri se je poznalo, da je mlada ženska ravnokar ležala v njej, z drugo roko pa je podpirala čelo, kakor da bi gledala v sonce, tako da je rokavček nazaj odpadal in se je celo lepota njenega krasnega lakta videla.</p>
+            <p n="SLV10011.370">Alberta ni slišala, ko je vstopil. Šele ko ji je roko na ramo položil in jo po imenu zaklical, obrnila se je naglo, hlastno in s ponavljanimi vzkliki njegovega imena pritekla, oklenila se ga strastno okoli vratu, poljubljala ga, pogledovala ga in vpraševala po rečeh, o katerih odgovora ni čakala.</p>
+            <p n="SLV10011.371">Bodisi da je njen ogenj tudi njega, to je: njegovo telesnost, ogrel, ali pa da je to storil iz navade, ali da bi jo potolažil, stisnil jo je tudi on nase, vzdignil in posadil poleg sebe. Njej se solze v očeh zasvetijo; ko mu zre v obraz, v oči, iz katerih pa uboga žena ni brala duše in misli njegove, brala je svojo željo izpolnjeno.</p>
+            <p n="SLV10011.372">"Kaj ti je, zakaj solze?" vpraša on lahko.</p>
+            <p n="SLV10011.373">"Pusti mi, to so sladke solze sreše in veselja, veselja, da te zopet pri sebi imam, da me še ljubiš. Glej! Jaz sem že čudne in grde misli imela te ure, kar te ni bilo - zakaj te ni bilo, ti, ti! Oh, jaz sem mislila, da me ne ljubiš več, tudi ti ne, da sem te razžalila. Povej, sem te li? S katero besedo, povej!"</p>
+            <p n="SLV10011.374">"Nisi ne."</p>
+            <p n="SLV10011.375">"Kajne, da te nisem? Oh, saj je nemogoče, nemogoče, da bi me ne ljubil ti, da bi me pustil ti. Nisi li ti vse, kar imam na svetu? Vse si ti: moj mož, moje dete, moji roditelji, moj dom, vse si ti, vse sem pustila, ker sem tebe ljubila. Ali je mogoče, da bi ti mene ne ljubil? Kajne, Alberto, da je to nemogoče?"</p>
+            <p n="SLV10011.376">"Ali, draga moja, bodi vendar nekoliko bolj vesela," reče, "to sva že tolikokrat govorila."</p>
+            <p n="SLV10011.377">"Zakaj mi ne odgovarjaš? Odgovori mi, potem hočem vesela biti, da, tako vesela, kakor sem bila nekdaj kot dete, kot šestnajstletna deklica. Oh, Alberto moj, zakaj ni Bog dal, da bi bila jaz tačas tebe spoznala, tebe le enkrat zagledala tačas! Zakaj moja dobra sreča ni tebe prinesla, tvojega milega obraza, tvoje sladke podobe na dvor, kjer sem bila jaz mlada, tačas, ko sem bila še mlada!"</p>
+            <p n="SLV10011.378">"Tudi zdaj nisi stara, kaj ti na misel hodi," vrže on vmes in jo spusti iz rok.</p>
+            <p n="SLV10011.379">"Zdaj? Oh, čemu me domišljaš, kak razloček je med tem, kakor sem, in onim, kako bi mogoče bila, da bi sicer bila, ko bi bil ti prvi prišel, ti edini."</p>
+            <p n="SLV10011.380">"Jaz te tega domišljam? Kolikokrat sem ti že rekel, da pozabi, kar je bilo, in uživaj to, kar je."</p>
+            <p n="SLV10011.381">"Pozabiti?" vpraša ona in njen obraz močno prešine zopet neprijetna zavest njenega greha; najprej glavo povesi, potem jo pa počasi nasloni ljubimcu na ramo in tožeče govori: "Oh, da bi mogla pozabiti! Da bi mogla izbrisati iz spomina vse one podobe, ki mi možgane mešajo, kadar tebe ni tu pri meni! Le pri tebi mi je moči pozabiti jih, ljubljeni moj, sicer me one prikazni mučijo in preganjajo noč in dan. Glej, in tebe tako dolgo ni bilo k meni."</p>
+            <p n="SLV10011.382">"Jaz ne utegnem; zato ti bom pa skrbel še za kako drugo družbo."</p>
+            <p n="SLV10011.383">"Kako družbo?" vpraša ona in glavo vzdigne.</p>
+            <p n="SLV10011.384">"In nu, kak prijatelj moj ali kaka prijateljica..." Kakor nalašč odpro se malo duri in stara ženica strežajka vpraša, sme li pustiti gospoda, ki zunaj čaka in hoče po sili priti v sobo, rekoč, da je gospodov znanec in da sme vstopiti.</p>
+            <p n="SLV10011.385">"Tu sem k meni?" zavzame se Vida.</p>
+            <p n="SLV10011.386">"Reci mu, naj me zunaj počaka," reče Alberto stari služkinji. A komaj ona vrata za seboj zapre, čuje se zunaj glasan govor in takoj vstopi Musolino v izbo.</p>
+            <p n="SLV10011.387">"Če sta tako, ne vem, kako bi mogel dober prijatelj, kakor sem jaz, nadležen biti. Predstavi me gospici ali lepi gospe tu, čemu si me sicer vabil s seboj," reče vsiljivec nesramno in se jima približuje.</p>
+            <p n="SLV10011.388">"Kaj hoče ta!" vzklikne mlada žena.</p>
+            <p n="SLV10011.389">"Pojdi ven, prosim te, jaz pridem takoj; saj vidiš, da nisi dobrodošel," šepeče mu Alberto nevoljen in v zadregi zaradi svoje lahkomiselnosti.</p>
+            <p n="SLV10011.390">"A tako?..."</p>
+            <p n="SLV10011.391">"Tiho!" ukaže Alberto.</p>
+            <p n="SLV10011.392">Vidi se je bil med tem povrnil ves prejšnji ženski ponos. Vzpela se je v vsej svoji lepoti in visokosti in ukazalno tujcu s prstom in obrazom vrata pokazala.</p>
+            <p n="SLV10011.393">Musolinu je vrhu vse svoje spačenosti in vsegavajenosti vendar zardel pred to podobo, imponirala mu je, da se je dva koraka nazaj pomaknil, priklonil ji in rekel potem s prisiljeno šalo Albertu:</p>
+            <p n="SLV10011.394">"Krasna je tvoja prijateljica in divna, to moram priznati, res, čeravno obžalujem, da ne sprejema ravno prevljudno gostov, katere ti v hišo vabiš. Oprostite!"</p>
+            <p n="SLV10011.395">Rekši, sobo zapusti, a s pogledom, o katerem bi bilo težko reči, ali je imel surove poželjivosti ali vrebajoče, prezave zlobnosti, ki zaničevalno pomilovaje govori: čakaj, ubožica, pridejo ti še drugi časi in drugačni.</p>
+            <p n="SLV10011.396">Albertu, lahki duši, bila je stvar neprijetna, a menil je, da jo bode nalahno odpravil. Stopi k oknu in tja od sebe govori: "Na, to je siten človek, draga moja, dasi sicer dober; obesil se mi je, ko sem k tebi šel; rekel sem mu, da naj me zunaj čaka; ali ker je že enkrat prišel tu sem, mogla in smela bi z njim lepše ravnati že zaradi tega, ker je moj prijatelj, veš!"</p>
+            <p n="SLV10011.397">Nič odgovora.</p>
+            <p n="SLV10011.398">"Sploh ti moram reči, da ti preveč zahtevaš od mene in nisi več taka, kakor si bila prej," nadaljuje polglasno Alberto v okno.</p>
+            <p n="SLV10011.399">Še nič odgovora.</p>
+            <p n="SLV10011.400">"Misliš li, da je res taka nesreča, če se seznani dober znanec moj s teboj in zve od mene, kaj si mi in kako? To ni nič. To se imenuje svobodno živeti in svoboda je vsem ljudem lepa reč."</p>
+            <p n="SLV10011.401">Zmerom nič odgovora. To se mu čudno zdi, obrne se od okna in pogleda po njej.</p>
+            <p n="SLV10011.402">Stala je zopet ob postelji, glavo naprej predse držeč, lasje so ji bili pali čez polovico obraza, po vsem enem licu, drugo vidno oko je pa strmelo vanj in lice njeno je bilo bledo in tem nelepše, ker po njeni nekoliko temnejši lični boji ni postalo zaradi bledote belo, nego voščeno.</p>
+            <p n="SLV10011.403">"Ti me ne ljubiš, ti me prodajaš!" zavpila je ona s strašnim glasom in po vsem dolgem svojega života pala na tla.</p>
+         </div>
+         <div type="chapter">
+            <head>Trinajsto poglavje</head>
+            <p n="SLV10011.404">Dve leti potem je sedel zimskega večera župnik Samorod za mizico, primaknjeno h gorki peči, izpil zadnji požir iz čaše, stoječe pred njim, nataknil velike naočnike pod visoko čelo in sivkaste redke lase, da bi bral iz velike knjige italijanske kratkočasne stvari, ki bi samotarju nadomeščale večerno družbo. Njegov kaplan je bil zdoma za več dni, razen njega pa ni bilo žive duše, s komer bi se bil rad razgovarjal, kajti svoje stare gospodinje Polone je bil ves dan že sit, stala je vsak hip za njim vprašujoč in pripovedujoč. V takih pričinah mu je bila knjiga ljuba tovarišica in edina tolažnica ter odganjalka dolgega časa. Gorka peč mu je prijetno grela hrbet, ocopatane noge pa je bil starec prešerno po mehkem, poleg stoječem drugem stolu razpoložil kakor mož, ki ve in zna, kako človek pripravno živi in si pomagati zna.</p>
+            <p n="SLV10011.405">Zunaj je sneg na okna naletaval, da se je slišalo kakor lahno žvenketanje na šipe, zlasti kadar ga je burja z večjo silo nametavala. Veter je zapiskaval zdaj pa zdaj ob oknih, da se je slišalo to stokanje narave, kakor da bi od daleč daleč tam izza gore žalostno tulili mladiči sive volkulje.</p>
+            <p n="SLV10011.406">"Ubogi ljudje, ki morajo zdaj zunaj biti," mislil je župnik in se stisnil ter nogo preložil.</p>
+            <p n="SLV10011.407">V tem hipu zazvoni doli pri tleh znani njegov zvonček pri velikih vratih, veliki pes v veži dvakrat zalaja.</p>
+            <p n="SLV10011.408">"Hoj, pa vendar ne bolnik! Ne, nocoj pa ni mogoče nikamor hoditi, ne pojdem!" reče župnik in nevoljen vstane s stola ter se ob peči nasloni, nevoljen čakaje, da pride Polona povedat, kaj je.</p>
+            <p n="SLV10011.409">Kmalu je bila tu, starka, huda, glasna in nevljudna, rekoč:</p>
+            <p n="SLV10011.410">"Nič ni hoditi! Za božjo in Kriščevo rano! Pesa človek pred prag ne bi pustil iz usmiljenja in srca, pa bi starega človeka na daljni pot gonil? Bog tega ne terja, bogve da ne, do jutri bode že živela, če ne, naj se pa tako izkesa, bolje je, da ona umrje, kot da bi se gospod župnik prehladili in umrli, o ti moj Bog."</p>
+            <p n="SLV10011.411">"In kdo pa je?" vpraša župnik.</p>
+            <p n="SLV10011.412">"Naj bode, kdor hoče, jaz ne pustim, da bi šli; posebno gor v to goro ne, saj se priti ne bode, pravim," huduje se mogočna kuharica.</p>
+            <p n="SLV10011.413">"A kam? Kdo je zvonil?"</p>
+            <p n="SLV10011.414">"Saj še doli čaka, Smuciper je, oglar z Goljvrha, tisti dolgi, črni, grdi."</p>
+            <p n="SLV10011.415">"Smuciper? Ta nima ne žene ne otrok, nikogar. On ne bode k bolniku klical, ima kaj drugega, kaj je rekel?"</p>
+            <p n="SLV10011.416">"Ima, ima! Misli si, da naj bi šli nekovo mlado beračico previdet. Bogve kakošna sitna babnica je in, če je beračica, moli tako dan na dan, dejala bi, in ne bode tako brž umrla," misli stara kuharica.</p>
+            <p n="SLV10011.417">"Pokliči ga, naj pride sem," reče župnik.</p>
+            <p n="SLV10011.418">Smuciper, oglar z Goljvrha, ki je stopil v snažno veliko župnikovo sobo, prinesel je na vsaki nogi velikansko obtovorjenega snega, tako da ga je moral župnik brzo pred duri zavrniti, kjer ga je kuharica, oštevaje ga, z metlo očedila.</p>
+            <p n="SLV10011.419">Ko je osnažen zopet smel v župnikovo sobo stopiti, potegne s svojo silno roko enkrat od kazalca blizu do komolca pod nosom, hoče nekaj reči, pa ne ve kako.</p>
+            <p n="SLV10011.420">"No, kaj bi rad tako kasno in ob tem vremenu?"</p>
+            <p n="SLV10011.421">"I, grdo je grdo, ali ko sem siroto videl in mislim, da jutra ne dočaka, jaz nisem mogel drugače; dejal sem, kaj bode pa tebi, kadar te začne smrt tipati, in sem mislil, povem gospodu, kako je, naj store, kar hoče, samo da ne poreče Bog, ti, Smuciper, nisi vedel telesnih dobrih del ali kako se jim pravi, saj gospod to bolje vedo kot jaz, ki le malo tako kaj poberem iz krščanskega nauka, kadar nimam kope vžgane tudi v nedeljo popoldne."</p>
+            <p n="SLV10011.422">Po dolgem in širokem je potem s težavo povedal, presekovan z raznimi vprašanji, katera so zaradi jasnote stvari potrebna bila, da je danes ob mraku, ko je bil ravno sneg začel padati, na stezi, katera vodi od one severne strani, pri tem in tem kamnu našel bolno žensko, na pol mrtvo, na tleh, da bi bila umrla tam na mestu kakor kakova podlasica v meji, ko bi njega ne bilo.</p>
+            <p n="SLV10011.423">On jo je s seboj vzel, nesti jo je moral domov v svojo hišo, ker ni mogla prav nič na noge stopiti, ne na levo, ne na desno, in vrat se ji je šibil kakor pozebli travulji. Le dobro, da ga ni mogel nihče videti, ker je bil že pomrak in ga srečal ni nihče, samo vrane so se pojale od smrečja dol do treh lesnik in nazaj, ko je ono tujo žensko na rami domov nesel kakor kakovega otroka. No, pripovedoval je, težka ni bila, ali vendar je precej sloka, nesel bi še dve taki, zato mu ravno ni bilo, da bi dejal; ali sitno bi mu vendar bilo, ko bi ga bil kdo videl. Zdaj pa v njegovi koči leži, sama za sebe govori, ne sliši nič, ne vidi dosti, kar umrla bode in, ker je Smuciper na samoti, ne bi rad, da bi brez Boga umrla pri njem, posebno ker se mu je celo blagoslovljena voda že vsa posušila in ima ženska bogve kakove grehe na sebi; ne da bi ji ravno kaj očital, tega ne, ker, če je Bog ne pozna bolj kot on, Smuciper, potem bosta težak obštev imela, kadar umrje in če umrje v njegovi koči, česar ne bi rad, ali bi vsaj rad, da se prej z Bogom spravi, ker, dasi on do zdaj duhov še ni videl, ne bi rad, da bi potlej nazaj hodila z onega sveta.</p>
+            <p n="SLV10011.424">Po nadaljnjih vprašanjih je župnik zvedel, da je ta tuja ženska mladega lica, le upadenega; da je drugače oblečena, kakor so v onem kraju ljudje, da se obleki pozna, da je bila nekdaj lepa in mehka. Med seboj take reči govori, katerih Smuciper ni razumel.</p>
+            <p n="SLV10011.425">Torej je bila poleg možatega čutja poklicne dolžnosti morda tudi nekoliko zvedavost pri dobrosrčnem gospodu odločilna, da je mirno ukazal kuharici, naj pošlje dečka po cerkovnika, naj mu pripravi plašč, kučmo, škornje, naj pokliče še hlapca, da pojde tudi z njim, ker je gaz slab, naj malo čutarico z vinom napolni, cerkovniku pa v culo malo boljšega kruha priloži.</p>
+            <p n="SLV10011.426">Pol ure potem so štirje možje, prvi med njimi dolgi Smuciper, predzadnji stari župnik, v gosjem redu koračili prav počasi, kakor je gospod želel, po ozkem snežnem gazu, katerega so si morali s samohojo delati po vedno naletavajočem snegu in katerega je brleča cerkvena svetilnica le slabo osvetljevala. Tako so potrebovali v reber več nego uro hoda za pot, ki se je sicer v pol ure prehodil.</p>
+            <p n="SLV10011.427">Dosedši na mesto in vstopivši v samotno, temno kočo Smuciperovo, katera še železne ključavnice ni imela, najde župnik bolnico, ležečo na slami, ki je bila sicer ležišče staremu oglarju. Ogrnjena je bila s staro njegovo plahto, obrnjena v črno leseno steno.</p>
+            <p n="SLV10011.428">"Ženska!" zakliče Smuciper in z okorno, pa krepko pestjo prime vse vkup in bolnico preloži, da je bil obraz obrnjen po mali izbi, razsvetljeni zdaj s cerkovnikovo svetilnico in velikansko leseno trsko, katero je oglar vzgal, da je visoko baklala in obsevala vsa kota.</p>
+            <p n="SLV10011.429">Ko je župnik zagledal obraz bolne ženske, obledi in počasi ter, ne pogledavši od postelje, z levo roko nazaj od sebe mahne proti durim. Vsi trije možje so razumeli to znamenje tako, da zdaj se spoved začne, ter so odšli v vežo. Tam je Smuciper trsko ob tla usekaval, kadar je preveč utrinka imela, pa mrmraje molil češčenamarije za cerkovnikom za "srečno zadnjo uro".</p>
+            <p n="SLV10011.430">Prve besede župnikove, ko je še enkrat, še dvakrat, trikrat pogledal raztrgani, suhi, razmršeni, a mladi bolni ženski v lice, bile so na pol glasno, s tresočim se glasom in strahom izrečene: "Jezus, Marija – ona!"</p>
+            <p n="SLV10011.431">Potem je sedel župnik poleg bolnice in zamišljen, z največjim zanimanjem, pa tudi s strahom poslušal, kaj govori mlada tujka v svojih bolezenskih fantazijah. Razumeti jo je moral, ker večkrat se je, čudeč se, stresnil, večkrat celo v pest naslonil in dejal na koncu:</p>
+            <p n="SLV10011.432">"O moj Bog, tako je tedaj, tako grozno!"</p>
+         </div>
+         <div type="chapter">
+            <head>Štirinajsto poglavje</head>
+            <p n="SLV10011.433">V majhni izbici, kateri so bila okenca skrbno zagrnjena, slonela je v postelji mlada žena, poleg nje je sedela stara mati in solze veselja so se ji iskrile v očesu, ko je videla, da izgubljena, najdena, na smrt bolna hči Vida zopet ozdravlja.</p>
+            <p n="SLV10011.434">"Kako sem prišla sem, mati?" vpraša z bojazljivim glasom bolnica.</p>
+            <p n="SLV10011.435">"Tiho, tiho bodi, ne govori!" reče stara. "Gospod je ukazal, da ne smeš nič govoriti, dokler njega ne bode. In ko bi gospoda ne bilo, umrla bi nam bila. Zato nikar ne govori, ljuba moja, škoduje ti, rekel je, gospod je rekel."</p>
+            <p n="SLV10011.436">Če je stara o "gospodu" govorila, vedel je vsakdo, da je to starejši Samorod, župnik.</p>
+            <p n="SLV10011.437">"Tiho bodem. - Ali povejte mi, ... me li še zdaj ljubite, mati?"</p>
+            <p n="SLV10011.438">"O Vidka, Vidka, kako to vprašaš? Kako dolgo te nisem videla, kako sem prejokovala noči in dni, mislila sem, da umrjem, in hudo mi je bilo, ko nisem mogla. In nam vsem je bilo hudo, strašno! Ali tiho bodi, nikar ne govori, gospod je rekel, da bi ti škodovalo, potrpi, saj pride kmalu. Potem nam bodeš povedala, kje si bila, kaj ti je bilo, ti ubožica ti! Le tiho bodi!"</p>
+            <p n="SLV10011.439">Temna rdečica zalije obraz bolnici, ki res molči dobro dolgo ter posluša mater kako ji na njeno zopetno prošnjo pripoveduje o njenem sinku Tončku, kateri je že "velik" in lep. A župnik je tudi prepovedal, da ne sme prej k njej, preden on ne vidi, da je dovolj zdrava. Njega, gospoda, je pa treba poslušati, ker je najbolj moder med ljudmi.</p>
+            <p n="SLV10011.440">"In kaj je on ... Anton ... rekel?"</p>
+            <p n="SLV10011.441">"Vse ti povem, on sam ti pove, kadar pride k nam, a do zdaj še tudi ni smel zvedeti. Tiho bodi, škoduje ti," prosi starka.</p>
+            <p n="SLV10011.442">Mladi bolnici se oči zaiskre, srpo pogleda mater in jo šepetaje ter naglo vpraša:</p>
+            <p n="SLV10011.443">"Samo to še: ve li Anton, kje sem bila? Misli li kaj?"</p>
+            <p n="SLV10011.444">"O Bog, kako bi vedel? Ni li rekel, da bi šel do konca sveta, v globočino morja, v deveto deželo pote, ko bi mu bil živ človek povedal, kje si in med kakovimi ljudmi si. Ali nobeden ni prinesel poročila ne s suhe zemlje ne po vodi, tako da smo že mislili, Bog te je nam vzel za vselej. - Pa lezi in miruj; kaj gospod poreče, ako zve, da ga nisva poslušali?"</p>
+            <p n="SLV10011.445">"On ne ve nič, kje sem bila..." mrmra mlada žena kakor sama zase, zatisne oči, dene roko na čelo in umolkne za dolgo časa. Hipoma stegne roki in zakliče:</p>
+            <p n="SLV10011.446">"Mati!"</p>
+            <p n="SLV10011.447">Prestrašena se starka obrne k njej, toda ona molči in hladno reče čez nekaj časa: "Naj spim, spim in prespim."</p>
+            <p n="SLV10011.448">Starka meni, da je zaspala, in hoče za nekaj časa iz izbe izlesti, prav tiho po prstih stopajoč. Ali mlada jo opazi, iz svojih sanj se vzburi in kliče:</p>
+            <p n="SLV10011.449">"Ne hodite proč od mene, zdajle ne, pomagajte mi misliti, mati, misliti, veste? Kako je že tista povest, ki ste mi jo pripovedovali, ko sem bila še otrok, znate, o onem samcu možu, ki je ob morju kočo imel, pa sta prišla vihar in povodenj; vihar je možu dom podrl, povodenj ga je odnesla v široko morje, a mož se je držal panja, na katerem je prej tesaril, in panj ga je odnesel v čudno, daljno deželo, iz katere je nazaj prišel, pa ni smel in ni hotel povedati ... mati, mati, kako je bilo to?"</p>
+            <p n="SLV10011.450">Stara mati s skrbjo in začudenjem gleda v žareče hčerino lice in misli, da se ji meša v glavi.</p>
+            <p n="SLV10011.451">"To je za otroke povest, ti si bolna, Vida. Čakaj, kadar ozdraviš, hočemo take pripovedi pripovedovati, zdaj se umiri; o, Bog ti pomagaj!"</p>
+            <p n="SLV10011.452">In kakor da bi poslušna bila materini prošnji, zatisne bolna Vida oči in miruje. Le zdaj pa zdaj se ji ustne zagibljejo, kakor da bi tiho sama s seboj govorila ali molila. Tiha je ostala potem ves dan.</p>
+            <p n="SLV10011.453">Župnika ni bilo. Drugi dan pošlje mati Basnigojevka ponj. Ko hčeri pove, da pride ta dan, zgane se ta in se od matere z nekim strahom proč obrne. Kmalu pa vpraša:</p>
+            <p n="SLV10011.454">"Nisem li tisti večer, ko sem jaz odšla, ko me niste več našli, govorila o pomorskih razbojnikih? Ste li čuli? Kajne, da sem govorila in drugi so govorili?"</p>
+            <p n="SLV10011.455">Mati ji to potrdi in pri tej priči radovedna ženska v njej pozabi ostrega naročila župnikovega in vpraša:</p>
+            <p n="SLV10011.456">"Za Boga svetega, tedaj so te bili vendar res tisti grdi ljudje ugrabili? In kam so te peljali? Kaj so ti hudega storili?"</p>
+            <p n="SLV10011.457">"Kasneje vam povem, zdaj ne, pustite me," reče Vida nekako razdražena, skrije glavo v zglavje in molči.</p>
+         </div>
+         <div type="chapter">
+            <head>Petnajsto poglavje</head>
+            <p n="SLV10011.458">Dva dni pozneje je župnik zopet prišel in našel Vido že močno okrevano v izbici. Sicer se je pa strogo po njegovem ukazu ravnalo, razen starih dveh ni nihče v hiši vedel, kaj je s tujo žensko in kdo je, ter tudi nihče ni še videl je.</p>
+            <p n="SLV10011.459">"A zakaj jo skrivamo, zakaj ne bi brž po Antona poslali?" vpraša župnika stara majka na dvorišču, ko je bil prišel.</p>
+            <p n="SLV10011.460">"Zakaj? Jaz sem se sam že tako vprašal, ali treba je se premisliti kako in kaj, le potrpite," reče župnik zamišljenega obraza.</p>
+            <p n="SLV10011.461">Mož je vedel več, nego bi bil rad, a ni vedel, kako bi ravnal, da bi še večje nesreče ne bilo, nego je bila že.</p>
+            <p n="SLV10011.462">"Pojdiva k njej," reče potem in oba počasno stopata v hišo.</p>
+            <p n="SLV10011.463">Ko Vida župnika zagleda, odloži svoje jelo, s katerim se je ravno pečala s slastjo človeka, ki še ravno okreva, ter vstane in pogleda župniku tako naravnost v oči, da bi bil skoro ta svoje povesil in da razen prvega hladnega pozdrava ni vedel, kako bi razgovor začel.</p>
+            <p n="SLV10011.464">"Mati, pojdite ven," reče Vida in starka poslušno odide. Župnik sede. Ona tudi.</p>
+            <p n="SLV10011.465">"No, kako je?" vpraša duhovni svak. Ona zatisne oči pa reče:</p>
+            <p n="SLV10011.466">"Kajne, kar se na spovedi pove duhovnemu, mora on zamolčati in mora molčati o tem do smrti. Ni li res tako?"</p>
+            <p n="SLV10011.467">"Res je."</p>
+            <p n="SLV10011.468">"Kar sem vam jaz povedala pri spovedi, ko ste me dobili pri tistem črnem možu, vi ne smete več povedati nikomur?"</p>
+            <p n="SLV10011.469">"Kar sem pri spovedi od tebe slišal, tega ne vem več, ne smem vedeti," reče duhovnik resno.</p>
+            <p n="SLV10011.470">"In vi morate spovedno skrivnost čuvati tudi bratu nasproti?" vpraša ona hlastno.</p>
+            <p n="SLV10011.471">"Tvojemu možu tako kakor vsakemu človeku," odgovori duhovnik in upre oči v tla.</p>
+            <p n="SLV10011.472">"Vi ne veste nič, nič, nego kar vam zdajle povem: pomorski razbojniki so me bili odpeljali, bila sem na Španskem, pri zleh ljudeh, težko sem ušla, težko sem prišla na ljubi dom. Tako je. Tako sem vam povedala in vi ne veste ničesar drugega. Recite mi še enkrat. Le vas se bojim, drug ... drug nihče ne bode zvedel, ne sme. Moj, moj – mož ne sme, on bi me..."</p>
+            <p n="SLV10011.473">"Ne govori dalje: premisli, da zdaj ne govoriš na spovedi z menoj," reče on zamolklo.</p>
+            <p n="SLV10011.474">Mlada žena pade na kolena predenj, sklene roki in ga prosi:</p>
+            <p n="SLV10011.475">"Usmilite se me, pokore sem dovolj storila in vse življenje me bode vest pokorila! Vse vam hočem povedati, potem me ne boste obsojali tako ostro, kakor me zdaj. Usmilite se me in ne povejte bratu, mojemu ..."</p>
+            <p n="SLV10011.476">"Možu!"</p>
+            <p n="SLV10011.477">"Vem, da nisem vredna tega imena izgovarjati, ali zaradi svojega deteta moram k njemu, moram in hočem in vi mi ne smete otemniti, kar mi je sam Bog na koncu moje nesreče posvetil."</p>
+            <p n="SLV10011.478">"Pred njim bodeš tudi sama odgovarjala. Stori, kar hočeš. Jaz kot brat Samorodov ne vem ničesar."</p>
+            <p n="SLV10011.479">"Povedala vam bodem vse."</p>
+            <p n="SLV10011.480">"Ničesar ne! Bolje, da ne. Vstani in čuvaj se, da zopet ne zboliš. Mene ne bode več sem. Tudi k vam, če se vrneš domov, pridem malo odslej; kadar pa pridem, pojdi mi, kolikor moreš, spota, da me obraz ne izda. Zdaj grem. Vzroka ni več, da si sama, pokliči očeta, pokliči moža, ali zopet pojdi, kar sama hočeš. Že vidim, da ... znaš!"</p>
+            <p n="SLV10011.481">Župnik odide. Vida glavo nasloni na blazinico in premišlja, kaj početi.</p>
+         </div>
+         <div type="chapter">
+            <head>Šestnajsto poglavje</head>
+            <p n="SLV10011.482">Drugi dan je vedro nebo in jasno sonce delalo milijone bleščečih demantov po snegu ob obeh straneh ozkega gazu, ki je držal od Basnigojevega do Samorodovega doma. In po gazu je gostopeto stopical sivi oče Basnigoj z dolgo palico, zatikaje jo v sneg za podporo starim kostem. Šel je dol na obalo, da sam pove zetu nezaslišano, preveselo novost, oj, novost, katere stari ni več upal doživeti: da se je našla izgubljena hči, Vida, da je prišla iz daljne dežele, kamor so jo odvlekli bili zli ljudje, da jim je morala služiti kakor zadnja dekla, stradati, trpeti in sam Bog ve kaj hudega še, saj je on star in ne more že vsega v glavi obdržati, kar ljudje pripovedujejo. Ali zdaj je tu, gori doma v gorki postelji, kjer ima, hvala Bogu, ki nam je dal, vsega dovolj. To veselo novico torej koraca sam stari Basnigoj povedat zetu Antonu Samorodu.</p>
+            <p n="SLV10011.483">In kakor starec tako z upognjenim tilnikom predse gleda v razgaženi snežni pot, raztezajo se mu usta na dva kraja, tako da tam bliže okučmanih ušes dve luknjici delajo, na vsaki strani brezzobe čeljusti po eno. In sosedni delavec, ki sreča očeta Basnigoja, gleda za njim ter se smeje, češ kaj ima, starina stari.</p>
+            <p n="SLV10011.484">Ko je prišel na dvor svojega zeta, zagleda ga njegov vnuk, mali Tonček, ter hitro zavpije:</p>
+            <p n="SLV10011.485">"Stari oče, stari oče!"</p>
+            <p n="SLV10011.486">"Pojdi sem, Tonček, pojdi, pojdi!" kliče starec s takim čudnim glasom, da ni povedati.</p>
+            <p n="SLV10011.487">Dečak priskoči k njemu in ga vpraša: "Kaj ste mi prinesli? Pokažite."</p>
+            <p n="SLV10011.488">"Mater sem ti prinesel, mater, pravo mater," reče starec vesel.</p>
+            <p n="SLV10011.489">"Kje jo pa imate? Saj je nimate," odgovori mala sirota.</p>
+            <p n="SLV10011.490">"Gori pri nas je, oče ide ponjo, po pravo tvojo mater," pripoveduje ded.</p>
+            <p n="SLV10011.491">"Zakaj je pa nimate pri sebi? Saj je nimate. Vi lažete... Kje ste pa to palico dobili, ki ima kljuko, oče, kje ste jo dobili?"</p>
+            <p n="SLV10011.492">"Oj ti ljuba malopridnost mala ti; ne veš in ne umeš, kaj ti pripovedujem; ne veš, kaj je mati, pa te moja palica bolj briga," toži ded.</p>
+            <p n="SLV10011.493">"Dobro jutro, oče! Kako je to, da ste vi prišli po takem potu?" pozdravlja ga zdajci iz hiše prišli gospodar Anton Samorod.</p>
+            <p n="SLV10011.494">Stari usta raztegne in od veselja ne more spregovoriti, le na glas se zasmeje.</p>
+            <p n="SLV10011.495">"Kaj pa je?"</p>
+            <p n="SLV10011.496">"Vida je prišla!" sune stari iz sebe.</p>
+            <p n="SLV10011.497">Anton ga samo srpo gleda, a se ne gane.</p>
+            <p n="SLV10011.498">"Nu da, Vida, Vida, naša Vida, tvoja Vida je nazaj prišla," ponavlja stari.</p>
+            <p n="SLV10011.499">"Oče, ali ste zdravi?!" zavpije Anton.</p>
+            <p n="SLV10011.500">"Zdrav! Kaj ne bi bil? Kaj meniš...?"</p>
+            <p n="SLV10011.501">"Kaj govorite?"</p>
+            <p n="SLV10011.502">"Ne verjameš, da je Vida prišla? Da, dejal sem, to je tako čudno, da ne bode hotel verjeti. Glej, jaz sam nisem verjel, preden je nisem videl; starki svoji nisem verjel. Pa še ti pojdi pogledat, skoči gor, skoči! Midva s Tončkom prideva bolj počasi za teboj. Jaz ne morem tako hitro stopati kot ti, ta mali tudi ne. Pojdi, pojdi!"</p>
+            <p n="SLV10011.503">In ko je kmalu potem Anton res šel po gazu proti domu svojega tasta, hodil je štirikrat tako brzo kot starec. V glavi pa mu je bilo, kakor da bi zvonilo po njej. Verjeti ni mogel in vendar bi bil rad verjel.</p>
+            <p n="SLV10011.504">Ko pa je prišel v Basnigojevino, videl je tu na licih družinčet, ki so bila po dvorišču, da je res, da je res, kar mu je tast prišel pravit! In vrabci na senici izpod slame so čivkali, da je Vida prišla!</p>
+            <p n="SLV10011.505">"Od truda in dolge hoje je bolna in nekako čudna, Anton," s temi besedami ga stara tašča na pragu sprejme. A on je imel le eno vprašanje:</p>
+            <p n="SLV10011.506">"Kje je?"</p>
+            <p n="SLV10011.507">In ko jo je ugledal, bledo, upalo, a svojo poročeno si ženo Vido, lepo še zmerom, kako je ob postelji stala, z eno roko se zglavja držala in velike oči vanj upirala, kakor bi ji bil on iznenadna prikazen, priskoči s preglasnim vzklikom njenega imena k njej in, objemši jo, zjoka se dolgi, trdni mož, kakor bi se bil dečak njegov.</p>
+            <p n="SLV10011.508">"Ali si res ti? Izpregovori, da bodem vedel, da se mi ne sanja, kakor se mi je že tolikrat sanjalo, da te imam, a bil sem sam, ko sem se zbudil; izpregovori, da si res ti, ki te imam."</p>
+            <p n="SLV10011.509">"Anton!" reče ona in se ga z eno roko oklene ter skrije obraz na njegovo ramo.</p>
+            <p n="SLV10011.510">"Ti se treseš in bleda si? Trudna in bolna. Lezi in počij tu pri meni, Vida," govori srečni mož z otroškim srcem in jo položi na posteljo pa jo poljublja.</p>
+            <p n="SLV10011.511">"Ti me nisi pozabil?" vpraša ona in zdihne. Morda ji je ta zdih iz globočine srca prišel in govoril: "Jaz te nisem vredna. Hinavčevati moram, a še tega ne znam."</p>
+            <p n="SLV10011.512">Ali Anton Samorod je bil presrečen, da je dobil zopet svojo ženo, mater svojemu sinu.</p>
+         </div>
+         <div type="chapter">
+            <head>Sedemnajsto poglavje</head>
+            <p n="SLV10011.513">Daleč s Krasa vkup so ljudje hodili povpraševat in pozvedovat čudovito zgodbo, ki so jo slišali. Divji, črnokoži pomorski razbojniki so bili lepo Vido, Samorodovo mlado ženo, uplenili in odveli onkraj morja v deveto deželo. Tam so jo bili prodali kraljični, da je služila in bridke solze točila pa zdihovala po domu, po možu in detetu. In čudovito jo je Bog rešil iz rok njenih mučiteljev, pomogel ji ubegniti in bežala je noč in dan, dolgo in dolgo, po pustinjah, daljinah in tujih vaseh, da je prišla srečno do blizu Basnigojevine, kjer jo je na pol mrtvo od dolgega pota v snegu našel in k roditeljem prinesel oglar Smuciper. Zdaj pa je doma na Samorodini in gospodinji svojemu možu in pestuje svojega sina kakor nekdaj, ko je niso bili še prijeli ljuti pomorščaki in naprodaj odpeljali tja daleč za morje v deveto deželo.</p>
+            <p n="SLV10011.514">Tako so ljudje pripovedovali daleč okoli in, kdor je mogel priti Vido pogledat, prišel je in se sam prepričal, da je res Vida nazaj prišla. Nekateri so znali celo povest bolj obširno, eni tako, eni drugače, ti bolj grozno, oni bolj zanimivo.</p>
+            <p n="SLV10011.515">In tudi Vida je bila nekako tako povedala, pa ne natanko. Ko so jo pa hoteli izpraševati, stresnila se je in prosila, naj jo puste, da pozabi grozno preteklost.</p>
+            <p n="SLV10011.516">In Anton Samorod ni pustil, da bi jo bil kdo z vprašanji mučil, pa tudi sam je ni hotel. Kar ji je na očeh bral, storil ji je. Čuval jo je kakor ženico v očesu, kakor da bi se bal, da bi mu ne bila še enkrat odvedena.</p>
+            <p n="SLV10011.517">A tudi ona je bila vsa drugačna nego prej. Izginila je bila nekdanja ošabnost. Prejšnjih časov svojeglavost in upornost sta se umaknili nasprotnim lastnostim: vdanosti in pohlevni pokorščini.</p>
+            <p n="SLV10011.518">Svojemu možu nasproti je bila tiho ljubezniva, storila mu je vse, pazila na njegove želje, povsod je bila njena mehka roka.</p>
+            <p n="SLV10011.519">Z res preveliko ljubeznijo pa je ljubila svoje dete, katero bi bila najrajši zmerom gledala. Mož jo je moral nežno opozarjati, naj ne dela preveč dobrega v svoji ljubezni, da svojega sinka ne preneguje.</p>
+            <p n="SLV10011.520">"Zakaj ne prideš več k nam, zdaj ko smo zopet srečni?" vprašal je Anton brata župnika.</p>
+            <p n="SLV10011.521">"Star sem in najrajši sem sam," odgovori župnik, pa tiho posluša dalje Antonovo hvale polno pripovedovanje o Vidi. Molči, pa s časom na drugo stvar pregovor zavije.</p>
+            <p n="SLV10011.522">Tako sta pretekli Anton Samorodu dve leti srečno, izjemši smrt tasta in tašče, katera je bil Bog oba v eni zimi k sebi poklical.</p>
+            <p n="SLV10011.523">Je li bila tudi Vida srečna ta čas? Pogrešala ni ničesar. Vsi ljudje so mislili, da mora biti srečna. Če ona ni, kdo bi bil? Samo obilico ima okoli sebe, dobrega moža, zdravo, ljubo dete, kaj more več zahtevati? Da sta ji roditelja umrla, to je pač samo naravno, ker stara sta bila oba in pripravljena zameniti dolgo življenje, polno dobrih del in pobožnosti, z boljšim onim svetom.</p>
+            <p n="SLV10011.524">Ni bilo videti, da bi bila srečna. Usta njena, ki so nekdaj na Basnigojevini gori v dekliški dobi znala lahko regečoče nasmejati se, da je od skal odmevalo, držala so se zdaj vedno resno; celo lice je imelo nekak otožen izraz in, kadar jo je Anton skušal v dobro voljo spraviti, opazila je to in poskusala ustreči mu, a njeni nasmehi so bili vidno posiljeni.</p>
+         </div>
+         <div type="chapter">
+            <head>Osemnajsto poglavje</head>
+            <p n="SLV10011.525">Vida ni ves čas po svoji vrnitvi nikamor z doma šla dalje nego do cerkve. Z nekako naglo strastjo se je branila iti z možem h kakim daljnim znancem ali v tržaško mesto.</p>
+            <p n="SLV10011.526">"Ali jaz bi rad, da greš enkrat z menoj," reče Anton, ko se je pripravljal v Trst.</p>
+            <p n="SLV10011.527">Imela je sicer namen in vzrok, da bi ne šla. Ali prvič želja moževa, drugič lastna ženska radovednost in poleg tega tista morda tudi človeska lahkomiselnost, ki nas goni v nevarne položaje, ako smo nevarnost že večkrat srečno prebili ali strah pred njo pozabili; vse to jo je nagnilo, da je šla z možem. On je hotel tri dni v mestu ostati in z bratom sta bila zmenjena, da on tretji dan tudi tja pride.</p>
+            <p n="SLV10011.528">Prvi dan je hodil po svojih opravkih, drugi dan pa je spremljal ženo okoli. Ko sta hodila ob morju, opazovala je Vida izredno vesela velike in male ladje vseh narodov in vetrov.</p>
+            <p n="SLV10011.529">Naenkrat pa glavo upogne, obraz na pol zakrije in začne se tresti.</p>
+            <p n="SLV10011.530">"Kaj ti je?" vpraša mož ostrašen.</p>
+            <p n="SLV10011.531">Ona nič ne odgovori, ampak zavije v stransko ulico. On, držeč jo, gre z njo in jo izprašuje, ali ji je slabo ali kaj je.</p>
+            <p n="SLV10011.532">"Nič," reče naposled. On ne odjenja. "Nič mi ni," odgovarja ona. "Pojdimo domov." Vede jo v svojo gostilnico. Od tam je ni bilo več nikakor v mesto spraviti, neprestano je silila kakor razvajen otrok domov in domov!</p>
+            <p n="SLV10011.533">Navsezadnje Antonu res ni kazalo drugega nego ustreči ji ter peljati jo domov, dasi je moral drugi dan zopet v mesto. A storil je to rad, dasi mu nenadna slaba volja žene ni bila pogodu.</p>
+            <p n="SLV10011.534">Tretji dan je bil zopet sam v Trstu in je z bratom v pogovoru stal na javnem trgu, ko zapazi dva moža mimo gredoča.</p>
+            <p n="SLV10011.535">"Paoli!" zakliče in, pustivši brata, stopi k njima.</p>
+            <p n="SLV10011.536">"To je tisti, ali ga ti poznaš?" vzklikne veselo dolg, tenek mlad človek z nemškimi rdečerumenimi lasmi in izredno velikim, ostrim nosom, vredni tovariš Paolijev, katerega že poznamo, Pietro Musolino.</p>
+            <p n="SLV10011.537">"Kdo tisti?" vpraša Samorod osorno po strani, ker Musolina ni poznal in je hotel s Paolijem govoriti.</p>
+            <p n="SLV10011.538">"Nič, nič, pusti, pozna te po videzu," odgovarja hitro in vidno v hudi zadregi Alberto Paoli.</p>
+            <p n="SLV10011.539">To pa je Samorodu še bolj sum zbujalo. Izrek "to je tisti!" zdel se mu je razžaljivo, nekako porogljivo rečen, hotel je torej vedeti, kaj pomeni, in on ni bil človek, ki bi se bil dal oplašiti; zapored ostro tujca vpraša, kaj pomeni ta beseda.</p>
+            <p n="SLV10011.540">Musolino je bil s tem tudi žaljen. Torej se je jezno vzpel in grobo odgovoril vso istino:</p>
+            <p n="SLV10011.541">"To je tisti, ki za Paolijem ostanke pobira, tisti, ki sem ga včeraj videl doli pri morju hoditi z ono žensko, ki je pred dvema letoma nama ušla ali pravzaprav le Paoliju, on jo je v Benetkah imel. No, ali ste zadovoljni s to novico? Ali pa jo morda že veste. Midva sva časi govorila o tem, zato sem mu ravno zdaj pravil, da sem jo videl. In z vami je šla. Vas si človek pač lahko zapomni, za eno glavo ..."</p>
+            <p n="SLV10011.542">Dalje ni mogel izgovoriti, kajti Antonova silna desnica se je bila stegnila proti njemu in dolgi Samorodovi prsti so ubrali kakor železne klešče naprsno obleko Italijanovo.</p>
+            <p n="SLV10011.543">"Kaj si rekel?" zamolklo vpije Anton.</p>
+            <p n="SLV10011.544">"Pomagaj!" vpije Musolino, a ko se ozre, vidi, da je bil prijatelj Paoli pobegnil.</p>
+            <p n="SLV10011.545">"Anton, kaj pa delaš?" tolaži ga brat, ki je bil pristopil in se ustrašil, videč divji pogled svojega brata.</p>
+            <p n="SLV10011.546">"Si li čul, kaj je rekel?" vpije Anton.</p>
+            <p n="SLV10011.547">Ljudje se začno nabirati in gledati.</p>
+            <p n="SLV10011.548">"Pustite me!" prosi Italijan.</p>
+            <p n="SLV10011.549">"Rekel je, da je bila moja žena pri njem in Paoliju, ni li res? Nisi tega rekel?"</p>
+            <p n="SLV10011.550">"Ne pri meni, tega nisem rekel! Pri Paoliju! Jaz nisem vedel, da je vaša žena."</p>
+            <p n="SLV10011.551">"Pusti ga, Anton, in pojdi z menoj, glej ljudi," pravi župnik, katerega je bilo strah, kaj utegne se priti iz tako naglo in strašno razkritega tajnega greha.</p>
+            <p n="SLV10011.552">"Ljudje, kaj so mi ljudje? Kje je oni? Paoli, jaz ga hočem imeti. Zakaj je pobegnil? Brate, ali je res?"</p>
+            <p n="SLV10011.553">S trudom ga je brat pregovoril, da je pustil Italijana in da so odšli, češ da gre iskat Paolija. Anton je bil nekaj časa potem tako zmeden, da se je dal v gostilnico peljati, da ni videl, kdaj je Musolino bil zapustil ju. Ali medtem je mislil in razni slučaji, razne podobe, izkušnje, prikazni, besede, celo molčanje njeno, čas, vse vkup mu je vrelo po glavi in strinjalo se v podobo.</p>
+            <p n="SLV10011.554">"Laž je bila, kar mi je pripovedovala? Ona me je bila sama zapustila in z njim šla in mu potem ušla, ko se ga je naveličala? Reci mi, da ni res, reci, brate, da ni res tako!"</p>
+            <p n="SLV10011.555">Brat župnik ni nikoli lagal, on ni mogel reči, da ni res tako, on, ki je že davno resnico vedel.</p>
+         </div>
+         <div type="chapter">
+            <head>Devetnajsto poglavje</head>
+            <p n="SLV10011.556">Večer se je bližal, a vedno je še župnik Samorod v velikih skrbeh čakal v gostilni svojega brata Antona, ki je bil popustil ga in šel iskat Italijana Paolija. V navadnih stvareh je imel dober svet starejšega brata duhovnika vselej veljavo pri Antonu, ali kadar je govorila strast, tačas bi bil župnik zastonj govoril. Tako tudi danes župnik ni nič opravil, ko ga je prosil, naj skuša mirno premisliti stvar in ne prenagljeno delati. Kakor vihar je Anton zdirjal po mestu s prisego, da mora najti Italijana. Župnik je Boga molil, da bi se bratu ne posrečilo dobiti Paolija, ker vedel je, da tu mu pojde za življenje in smrt. Zatorej se v strahu ni upal ganiti nikamor in minute so mu bile dolge kot ure.</p>
+            <p n="SLV10011.557">Edino, kar je bil storil, bilo je, da je odposlal hlapca na dom Samorodov, Vidi poročat, da Anton vse ve, naj se torej umakne z doma, naj se dobro in kam dalje skrije, dokler moža prva divja jeza ne mine. Kajti kaj bode Anton z ženo storil, tega si župnik misliti ni upal; kakor je pa brata poznal, bal se je najhujšega.</p>
+            <p n="SLV10011.558">Mrak je že bil, ko Anton ves spehan pride k čakajočemu bratu v gostilno. Truden sede za mizo in glavo podpre. Obraz mu je bil ves spremenjen, pogled divji, lasje razmršeni. Župnik se ga je bal ogovoriti.</p>
+            <p n="SLV10011.559">"Nisem ga našel, ušel mi je za danes," reče Anton zamolklo.</p>
+            <p n="SLV10011.560">"Bog je tako hotel, da ne storiš česa v naglosti, kar bi ti kasneje žal bilo, kadar stvar hladno premisliš."</p>
+            <p n="SLV10011.561">"Žal? Meni žal? Morem li ga večkrat ubiti, gada? Ko bi imel vsaj sto src, da bi ga stokrat zabol! Bog? Kaj ima Bog tu opravka? Zakaj ga ni z nebeško strelo zadel ali v zemljo pogreznil tačas, ko mi je prinesel hudiča s seboj v hišo. Zato naj zdaj meni delo prepusti in jaz ga dovršim, če sam zraven devetkrat poginem."</p>
+            <p n="SLV10011.562">"Ne kolni Boga!" prosi župnik.</p>
+            <p n="SLV10011.563">"Ne boj se zame. Poginem ne prej, preden ne kaznujem obeh. Njega in nje." (Tu da Anton svoji ženi ime, ki ga nismo zapisali.) "Ha-ha-ha! Pojdi sem in pljuni mi v obraz, brate! Jaz nisem mož. Še stara krmežljava baba, ki sama sebe pozablja, ne bi se bila dala tako grdo za nos voditi, tako slepariti, kakor sem se dal jaz. Brate, zaničuj me, prosim te, smej se mi. Smešen sem prekleto! Uteče mi žena za laškim fantalinom. Kadar se ga naveliča, pride nazaj zopet k meni in jaz vsaki pripovedki rad verjamem! Povedi mi, ali bi bil še kdo verjel. Povedi mi, kako jo naj zadavim?"</p>
+            <p n="SLV10011.564">"Kazen prepuščaj Bogu, njegova je sodba. Ona je tudi dovolj kaznovana za svojo mlado lahkomiselnost, skesana je, se Bog ji bode odpustil," reče župnik.</p>
+            <p n="SLV10011.565">"Dovolj kaznovana? Koliko je dovolj? Mlado lahkomiselnost praviš? Ti hočeš reči s tem, da je mene starega zapustila in šla za mladim laškim gizdalinom. Mene starega? Pa ne samo mene, ne, ne samo mene!" vpije Anton in iskre se mu divje oči.</p>
+            <p n="SLV10011.566">"Zapustila je mlado dete svoje, dete moje. Mačka bi se s tigrom v boj spustila, preden bi svoje mlado ostavila in šla, plaha zajkla brani svoj zarod, le Basnigojeva prekleta hči je mogla svoje dete zapustiti in za tujim obrazom ubegniti! In to mi svetuješ ne kaznovati? Bog tega ne sme odpuščati. Pa če hoče on, Anton Samorod noče, veš, čuješ? Ko bi bila samo mene pustila, dejal bi bil morda, pa le morda: prestar, pregrd sem ji, prepust, naj ide, naj se nasiti ..." (govor Antonov je bil tu nadalje nezapisan) "pa naj se ne prikaže več. Ali ženska, ki more svoje dete zapustiti, ki prestane biti mati, ne more pri meni živeti. Si li že slišal kdaj o taki materi? Nisi! Vida sama je to mogla in glej, jaz sem to žensko rad imel, jaz. Ali te ni sram takega brata?" Zakrije si oči in med prsti so mu tekle solze od silne jeze.</p>
+            <p n="SLV10011.567">Kaj je mogel župnik na take besede odgovarjati? Kar bi bil rekel, bilo bi olje v ogenj. Oba molčita nekaj časa.</p>
+            <p n="SLV10011.568">Anton potem le zdaj pa zdaj v mizo zarenči, znamenje, da se mu divje misli v možganih dalje razpletajo.</p>
+            <p n="SLV10011.569">"Pij, potem ideva počivat in jutri bodeš bolje sklepal, kar ti je storiti," reče župnik.</p>
+            <p n="SLV10011.570">Anton je pač pil, a rekel: "Kaj mi je storiti, to je že sklenjeno. Počival prej ne bodem, preden nimam njega pod pestjo. Kadar oni ..." – naše pero ne sme zapisati imen, katere je Samorod Paoliju dejal – "jenja dihati, potlej pride ona na vrsto. Potlej hočem počivati ali kar bode. Morda pridem potem sam na vrsto; vse enako mi je. Ona za njim! Ti greš domov. Vzemi otroka od nje proč, z njo ne govori, če si moj brat. Ona ni več žena moja. Žena! Ha-ha-ha! Kako jo naj imenujem? Ali mi ne veš najgršega imena povedati, da ga dajem tej babi, katero iskaje sem pol sveta prehodil, od bolesti skoraj zblaznel, za katero bi si bil dal srce iz telesa iztrgati. Povej mi najgrše ime zanjo!"</p>
+            <p n="SLV10011.571">"Nikar ne pozabi, da je bila zapeljana, da je bila premlada, ko te je vzela. Misli sam na sebe več," reče župnik.</p>
+            <p n="SLV10011.572">"Zapeljana! Da, ali zato je treba dveh, zapeljivca in nje, ki se je dala. — Spal ne bom prej, to ti prisežem, preden zapeljivca ne dobim."</p>
+            <p n="SLV10011.573">"Kje ga moreš iskati, če je mesto zapustil? Jutri idiva rajši domov..."</p>
+            <p n="SLV10011.574">"Ne. Še nocoj gre ladja v Benetke in jaz z njo. Drugam ni šel kot domov. Jutri ga najbrž že imam. Potem pridem domov. In potem pride ona na vrsto ... Vidiš ga!"</p>
+            <p n="SLV10011.575">S to besedo zasadi s silno močjo svoj dolgi nož v mizo. "Tako gotovo, kakor je Bog za nas umrl, ti povem: krvav in še gorak prinesem ta nož domov, izpuljen iz prsi one italijanske kače, in potlej je njen, če me doma počaka, če se mi ne umakne tako daleč, da naše sonce ne posije za njo več. Pa otroka ji vzemi, precej! Ali pa molči! Da, tiho bodi, da pridem jaz domov."</p>
+            <p n="SLV10011.576">Strah je bilo župnika. Poskušal je tolažiti, pogovarjati, ali Anton je enako govoril dalje in, ko je ura prišla, ob kateri je začel mesec vzhajati, odšel je na ladjo, ki ga je imela nesti v Benetke na krvavi pot osvete.</p>
+            <p n="SLV10011.577">Župnik je mogel le Boga prositi naj varuje brata umora. Ali vedel je, da se reši le, če Bog da slučaj, da Paolija doma ne najde. Odhod Antonov bi bil potem še celo ugoden, ker bode mogoče Vido daleč od razljutenega moža odpraviti in rešiti.</p>
+         </div>
+         <div type="chapter">
+            <head>Dvajseto poglavje</head>
+            <p n="SLV10011.578">Župnik je bil na potu domov preverjen, da Vide ne najde več na Samorodini, temveč da se je na njegov opomin in svet, ki ga ji je bil v naglosti pismeno iz Trsta poslal, že umaknila in skrila. Da bode on zvedel njeno bivališče, to je trdno upal in namenjen je bil, če ni šla dovolj daleč in če ni dovolj varna, skriti jo še bolje. Čas, mislil je, bode tudi Antona spremenil, ohladil mu maščevalni duh in bogve da li se ne bode dala stvar zravnati toliko, kolikor je mogoče. Saj je bil dober posrednik za prihodnost tu, mali sinko, najboljši prosilec za mater. Torej časa dobiti in morda bode še vse dobljeno in popravljeno.</p>
+            <p n="SLV10011.579">Kako pa se začudi, ko pride na svoj in Antonov dom, na Samorodino, in Vido tam najde. Bila je prvi hip, ko je njegovo poročilo dobila, poslušajoč le naravni nagon samohranjenja, res zbežala v rojstno svojo hišo, na Basnigojevino, kjer bi je Anton vsaj prvi hip ne bil iskal in kjer bi se mu bila utegnila skriti, ako bi prišel. Ali drugo jutro se je bila že sama zopet v Samorodino vrnila, preden je bil župnik tja prišel. Vrnil se je bil oni kljubovalni ponos, kateri ji je bil kot deklici lasten. Naj se zgodi, kar hoče! Naj stori z njo, kar hoče! Naj jo ubije ali zapodi po svetu, če hoče!</p>
+            <p n="SLV10011.580">"Zaboga! Kaj delaš tu, pojdi proč, da te ne najde, doma ne smeš biti," prosi župnik.</p>
+            <p n="SLV10011.581">"A jaz hočem biti," reče ona.</p>
+            <p n="SLV10011.582">"Ti ga ne poznaš, kakšen je v svoji divjosti. On te more usmrtiti!"</p>
+            <p n="SLV10011.583">"Naj me! Ali poslušati me mora prej. Povedati mu hočem, da sem kriva, da me ima pravico umoriti. Ali nisem sama jaz kriva, on tudi, vi tudi, moji starši tudi, vsi vi ste krivi. Pomagajte mi, da mu to v obraz povem, potlej me pa naj ubije. Vi znate to bolje povedati in veste vse in razložiti si morete vse. Kolikrat sem premišljevala jaz, ali povedati ne znam, zato mi vi pomagajte. Kadar bode to vse slišal in pozneje vse premislil, kakor sem jaz, odpustil mi bode morda vsaj nekoliko. Ne bežim, ne! Ko sem prišla sem nazaj iz svoje sramote, nisem mislila lagati. Nič nisem mislila zakrivati. Menila sem, da on in ves svet že ve in zna mojo sramoto. Šele ko sem videla, da ne on, ne mati, ne nihče ne ve, kaj je res z menoj bilo, porabila sem one izmišljene govorice. Hotela sem, ko sem domov hodila, le še svoje dete enkrat videti. Potem naj me mož ubije, če me hoče. Ostala sem potlej pri njem, saj veste, nič ni slutil, da mu lažem. Ali ponoči si trdno spati poleg njega nisem upala iz vednega strahu, da mu v spanju in v sanjah ne bi izdala, kar mi je težko ležalo na vesti. Kaj mi je pomagalo, ko sem se moža spoštovati naučila šele potlej, ko ga več vredna nisem bila. Nikamor si nisem upala, govoriti nisem več znala, vse misli so me bodle, o vsakem tujem beraču sem se ustrašila izdajalca, vsak pogovor med ljudmi me je pikal, vsako vprašanje me je vznemirjalo. Tako sem živela. Zatorej naj zve vse, saj je enkrat tega konec. V Trstu, ko sem onega nesrečnega človeka ugledala, strepetala sem in slutnja me je obšla, da zdajci pride, kar je res prišlo. Zato le pustite, naj me umori, če me hoče. Le poslušati me mora. Zakaj je bil tak z menoj od kraja? Zakaj mi je onega človeka v hišo pripeljal in priliko dal? Vi ste vedeli, da ni prav, da vašega brata vzamem, vi ste mi enkrat odgovarjali, dobro se domišljam. Ali zakaj mi niste vsega povedali, da bi bila jaz, mlada in neumna kakor junica na paši, razumela zakaj! Vi vsi mi niste povedali, da ga moram ljubiti, če ga hočem vzeti in če hočem srečna biti z njim. Kdo mi je to povedal? Mati ne, oče ne, on ne, vi ne, a jaz sama nisem vedela. Vzela sem ga iz lahkomiselnosti in otročje nevednosti. Oni človek šele, njegov znanec Paoli, moral je priti, da mi je povedal, česa pogrešam v zakonu, da mi je iskro ukresal, ki je dremala v meni, iz katere se je razpalila vroča strast, ki me je gnala do tja, kjer sem bila in kjer sem, ki mi je v nebesa kazala, pa me v pekel pahnila. Mlad je bil kakor jaz, lep, meni vrsten, govoril je, kakor je moje vroče srce hrepenelo in kakor še nikdo z menoj ni govoril prej. Jaz sem mu verjela. Kako ne bi bila, saj se mi je zdelo, da vsak dih v meni resnico njegovih besedi tisočkrat potrjuje. Tačas sem vas preklinjala vse vkup, da ste me nepodučeno in prenagljeno pustili v jarem, ki mi ni bil znan, preklinjala, da ste mi tako vso srečo, vso ljubezen odtegnili, kakor sem jo imela pravico zahtevati jaz kakor vsaka druga ženska pod soncem, da, še bolj jaz kot vsaka druga. Zakaj ste me tako nepodučeno pustili, zakaj me je on vzel, mi priliko dal, da sem verjela človeku, ki ga zdaj kolnem do nebes? To, to mu dopovedati mi pomagajte, potem naj me zabode, če hoče, ali sama grem na pečino in naj me v morje sune."</p>
+            <p n="SLV10011.584">"Ubožica! Tudi ko bi ti bili prej pripovedovali in te učili, ne bi bila verjela. Mušici se dopade svetla luč, leti k njej po večjo srečo, nego je v navadnem večernem hladu, pa najde trpljenje in smrt. Jaz to umem. Ali tvoj mož tebi nasproti tega zdaj ne bode hotel ne mogel umeti. Pusti ga samo meni, s časom mu dopovem sam, kar mu ti hočeš. Zato se moraš od tod umakniti proč," reče župnik.</p>
+            <p n="SLV10011.585">"Nikamor ne grem."</p>
+            <p n="SLV10011.586">Pri tem, rekel bi, svojeglavnem izreku je Vida ostala. Bila je zopet vsa ona kljubovalnost, ona ponositost v njej, ki ji je kot deklici tako dobro pristala, a vendar – kak razloček v njej med tedaj in zdaj!</p>
+            <p n="SLV10011.587">Kar je župnik rekel in dejal, da bi jo pregovoril, bilo je zastonj. Vdala se je v neko apatijo in nič ni odgovarjala. Staremu možu je bilo strašno težko pri srcu in silno se je bal vsakega prihodnjega dneva.</p>
+            <p n="SLV10011.588">Ostal je na Samorodini. Hotel je in moral je osebno navzočen biti, kadar pride brat domov, ker le on ga je mogel zadrževati, in bil je tudi namenjen z vso životno močjo, da ne bode kaj silovitega storil.</p>
+            <p n="SLV10011.589">Čakal je dva, tri dni, pet dni, teden. To je bil strahovito dolg čas, vsak dan leto in več.</p>
+            <p n="SLV10011.590">Antona ni bilo.</p>
+            <p n="SLV10011.591">Župnik je postajal od dne do dne bledejši. Poslal je posle v Trst pozvedovat.</p>
+            <p n="SLV10011.592">Čez štirinajst dni je dobil pismo.</p>
+            <p n="SLV10011.593">Nesel je pismo Vidi, zaničljivo jo je pogledal, oh tako, kakor ta zmerom dobri obraz nikdar pogledati ni znal, vrgel ji pismo pod noge na tla in rekel:</p>
+            <p n="SLV10011.594">"Ne boj se, ženska, nič hudega ti ne bode storil tvoj mož, ne more ti več, ti si mu vse."</p>
+            <p n="SLV10011.595">S temi besedami se obrne in odide.</p>
+            <p n="SLV10011.596">Vida se hlastno pripogne po pismo, a ko ga ima v roki, trese se vsa, ne upa si pogledati, kaj je v njem. Nazadnje bere, bere, bere, pismo ji odpade na tla, počasi vzdigne obe roki in objame svojo lepo žarečo glavo, pa zavriska tako strahovito, da se je razleglo po vsem Samorodovem dvorcu, potem pa se zgrudi.</p>
+         </div>
+         <div type="chapter">
+            <head>Enaindvajseto poglavje</head>
+            <p n="SLV10011.597">Adrijansko morje je ležalo gladko in svetlo v večernem jesenskem soncu, krasen pogled z vzvišene kraške obale. Človek bi bil ta prizor gledal in se ga nagledati ne mogel, pa rekel: ej, lep je ta svet, radujmo se ga, dokler živimo, saj dolgo ne bomo in, kadar nas ne bode, veselili se ga bodo drugi, če bodo pametni.</p>
+            <p n="SLV10011.598">Ali Samorodov ovčar Stoklas ni gledal velikanske podobe gladkega morskega lica v večernem jesenskem soncu. Koracal je za ovcami, ki so se pasle pred njim med skalovjem po borni travi, pa skoro ničesar ni videl, ne svoje ljubljenke velike bige, ki je zadnja mlade imela, ne najmlajše backe, posebno ljube, ne starega ovna, na katerega je imel sicer posebno pozorno oko, ker znal je njegovo čredo zapeljavati. Ničesar ni videl kot zadnjim ovcam repe in časi malo hrbta pa svojega psička, ki ga je žalostno hodil gledat, kakor bi hotel vprašati: "Kaj ti je, Stoklasek, suha goba, kaj jokaš? Glej, ti in solza, to se ne sklada, kdo bi dejal, da si tak?" In tam za skalami se oglasi znani klic "hoj-hoj!" Vselej je znal Stoklasek odgovoriti preko skal in dupel še z lepšim "hoj-hoj!" Ali danes mu je tako grlo zdrgavalo, tako goltanec davilo, glas jemalo, sapo zapiralo, da se s psom govoriti ni mogel ne z veliko bigo, kako se da bi zaukal, da bi slišal sosednji pastir ovac najemnikovih na Basnigojevini.</p>
+            <p n="SLV10011.599">Ali ravno ker mu je v njegovi žalosti treba bilo človeka in ker ga je tudi prijatelj ovčar zopetno klical, začne svoje ovce poganjati navzgor proti njemu, oni pa svoje poganja dol. Pa danes Stoklasek ni srdito bičal svoji jati debelih, malo občutnih kožuhov, temveč pomalo in mehko je padal sukani jermen po ovčjih hrbteh kakor lahak opomin ali pastirska prošnja: stopi, stopi, živalca, dve pedi naprej! Ko sta blizu prignala, drug do drugega, pustita čredo ter se bližata kakor dve vojskovodji v Agamemnonovem času, psa sta jima za pobočnika.</p>
+            <p n="SLV10011.600">"Sedi no, da kaj poveš. Kaj je vendar doli pri vas na Samorodini? Čudno govore in pripovedujejo. Je li res, da ni gospodarja več? Da so ga ujeli tisti grdi, hudi zamorci in ga ne dade več od sebe, temveč ga bodo živega na raženj deli in pekli, zato ker jim je žena njegova ušla?" vpraša sosednji ovčar Stoklasa, ko je bil do njega prišepal in trdno na trda tla šel, kakor da bi se na mehko blazino spustil.</p>
+            <p n="SLV10011.601">"Zamorci?" vpraša poslednji, "e, kajpa! Kdo je dejal, da je med zamorce pal? Med Lahe je pal, Lahe, tam med one onkraj morja, in nikoli več ga ne bom videl, umorili ga bodo, pravijo vsi takisto." Stoklasa zopet jok posili.</p>
+            <p n="SLV10011.602">"Soli se, soli! Če ne boš njegovih ovac pasel, e nu, bodo pa čigaver že drugega. Ne veš, kako te je nekdaj tepel tule doli?"</p>
+            <p n="SLV10011.603">"O tepel! Naj me tepe, da me potepe, naj koža od mene visi kakor iz lipovega lubja plašč, naj mi oklesti pol zadnje oplati proč in proč, samo da bi me še mogel, da bi ga še živega videl," reče Stoklasek, poštena duša, in jaz verujem, da mu je bila živa istina, kar je možiček govoril.</p>
+            <p n="SLV10011.604">"A zakaj ga bodo umorili, praviš?"</p>
+            <p n="SLV10011.605">"Ko bi jaz vedel! Ali nekaj hudega in groznega mora biti, ker od tistega časa, kar je naša gospodinja to zvedela, čisto je iz uma, ne ve, kaj govori, meša se ji, da je človeka strah pred njo. Pomisli si, včeraj me je dobila za hlevom in kaj stori? Poleno, leseno poleno s tnala mi moli in pravi, da je nož, nož, čuješ! in hoče, da naj ji ga jaz v srce zasadim. Hitro sem bil na oni kraj hleva zbežal in smuknil po lestvi na hlev, od groze sem se tresel, dokler nisem dva očenaša zmolil in vero," pripoveduje Stoklas.</p>
+            <p n="SLV10011.606">"Ali kaj je vendar naredil? Nekaj vendar pravijo?"</p>
+            <p n="SLV10011.607">"I, meni se zdi, da jih je sila potolkel, tako za kakove pol vojske. Menda so ga že dražili, da so mu jezo zbudili. Kadar je pa naš gospodar jezen, joj, ti ne veš, kakovo moč ima!"</p>
+            <p n="SLV10011.608">"A Lahi so ga vendar."</p>
+            <p n="SLV10011.609">"Ni vrag, ko jih je toliko. Saj še ose, če jih je cel osir, človeka do smrti opikajo, če mu vse pridejo do kože," dejal je pastir.</p>
+            <p n="SLV10011.610">Jezdec se je prikazal po potu proti Samorodini. "Kdo je ono?"</p>
+            <p n="SLV10011.611">"Jej, to so gospod," reče Stoklas in vstane.</p>
+            <p n="SLV10011.612">Gospod je bil samo župnik, ki je počasi na konju prihajal.</p>
+            <p n="SLV10011.613">"Tega vprašaj, on natanko ve vse, ker je brat," svetuje sosednji pastir.</p>
+            <p n="SLV10011.614">"To je, da ve. Ali jaz si ne upam vprašati. Pojdi ti. Jaz vem, da je dolgo zdoma bil že dvakrat. Gotovo je bil šel čez morje in mislili smo, da ga bode otel ali izmolil, ali odkupil, ali kakor je božja volja. A glej, sam je. Pojdi, vprašaj!"</p>
+            <p n="SLV10011.615">Oba stopita k bližnjemu potu.</p>
+            <p n="SLV10011.616">"Kako je gospodinji?" vpraša župnik Stoklasa.</p>
+            <p n="SLV10011.617">"Nisem je videl danes," odgovori ta in župnik počasi mimo jezdi.</p>
+            <p n="SLV10011.618">"Ali je res, da bodo gospodarja Samoroda Lahi umorili?" vpraša boječe sosednji pastir.</p>
+            <p n="SLV10011.619">"Molita zanj," odgovori župnik in odjaha.</p>
+            <p n="SLV10011.620">Ko sta pastirja ugibala, da mora biti res hudo zanj, če je že molitve treba kakor za umirajoče, prišel je župnik do svoje rojstne hiše.</p>
+            <p n="SLV10011.621">Poznalo se je, da ni tu pravega očesa več. Vse je bilo razvlečeno, družina je delala, kar in kolikor je kdo hotel, jemali so, kjer je bilo kaj.</p>
+            <p n="SLV10011.622">Notri v veliki izbi je našel Vido. Srpo ga je pogledala, a nič ni spregovorila. Sedela je na klopi pri veliki peči, oblečena samo na pol, neomita, zmršenih las, votlih oči, bleda in suha - Vida, a nobena podoba lepe Vide več.</p>
+            <p n="SLV10011.623">"Kako ti je?" vpraša on.</p>
+            <p n="SLV10011.624">Nobenega odgovora.</p>
+            <p n="SLV10011.625">"Pojdeš z menoj? Anton bi rad s teboj govoril, rad bi ti povedal, da je vse pozabljeno, vse odpuščeno," reče župnik mehko in glasno.</p>
+            <p n="SLV10011.626">A ona se ne gane. Dekla pride noter in župniku pove: "Večidel tako sede in ne govore in ne slišijo."</p>
+            <p n="SLV10011.627">Zastonj se je župnik trudil, da bi jo do govorjenja pripravil. Ničesar se ni spominjala, ničesar vedela v tem hipu.</p>
+            <p n="SLV10011.628">Zblaznela je bila, ko je brala vest, da je njen mož, umorivši njenega zapeljivca in enega onih, ki so ga za to prijemali, v zapor dejan in čaka smrtne kazni od neizsprosnega tujega zakona.</p>
+            <p n="SLV10011.629">Ona je bila grešnica, a njega je spravila v smrt! On, najpoštenejši mož, za njen greh mora svoje življenje pustiti. Misel, ki je pač tako velika, tako strašna, da je zmožna, uničiti vezi, ki vežejo duha in telo, uničiti ono veliko moč, ki dela človeka za človeka.</p>
+            <p n="SLV10011.630">Žalosten je župnik nazadnje poleg neme ženske sam obsedel nem in se vdal otožnim mislim. In daleč jih ni bilo treba iskati. Tu pred njim je sedela ženska, ki se v sreči svoje sreče ni zavedela, ki je hotela srečnejša biti, a je prišla v največjo nesrečo. Nezadovoljnost z malim želi velikega; z dobrim in dosežnim nenasiten, išče človek boljšega, najboljšega, a najde ne le slabše, nego pogin svoj in drugih.</p>
+         </div>
+         <div type="chapter">
+            <head>Dvaindvajseto poglavje</head>
+            <p n="SLV10011.631">Med štirimi stenami v majhni izbici v Benetkah, v katero je puščalo samo majhno, debelo omreženo okence nekoliko sončne luči, sedel je nekdaj ponosni Anton Samorod na surovem lesenem stolu in glavo ob mizo podpiral. Kakor se je preganil, zarožljalo je železje na njem, ki mu je roko in noge težilo. Na mizi je bil vrč z vodo in vinom, kruh in druge jedi. On ni tajil pred sodniki, in tajiti bi bilo zastonj. Vpričo ljudi je nasel Paolija v krčmi, pritisnil ga v kot, tam sta šepetaje govorila, a le malo časa, potem je Paoli zakričal in padel, v srce zaboden. Samorod je bežal skozi duri ven, a ljudje za njim in zunaj so ga prijemali. A ni šlo lahko, več jih je bilo ranjenih, med temi eden, ki je bil javni stražnik, tudi usmrčen. Zdaj je Samorod čakal sodbe. Ni bilo dvombe kakšne. Glavo za glavo je veljalo pri benečanskih republikancih tako kakor drugod.</p>
+            <p n="SLV10011.632">Prvi dan zapora Samorod ni mislil drugega nego o svojem zadoščenju, o sebi nič. Zdelo se mu je kakor samo ob sebi razumno, da tu ne ostane, da že kako premaga vsa protivja. Ali kmalu je prišla hladna kri, premislek mu je razjasnil celo njegovo stanje. Smrti se ni bal, ali zdaj se ne bi bil rad umrl, doma bi bil rad še opravil, kar se moževi pristuje, potem naj bi bilo, kar hoče. Pa tudi v tej misli se je spremenil, čim jasnejse mu je bilo njegovo položje.</p>
+            <p n="SLV10011.633">Pisal je bil bratu. On je bil prišel precej. Prepričati se je moral nesrečni mož le, da ne z denarjem ne s prošnjo ne more za brata ničesar, ničesar storiti. Kar pa je bilo poskušati mogoče, poskušal je vse.</p>
+            <p n="SLV10011.634">Samota in bližnjost smrti omeči človeka. Tako je tudi Anton v svoji ječi kmalu drug postal. Naročil je bratu, da mu privede sina, da ga še enkrat vidi. In ko mu je brat prigovarjal, naj tudi ženo pusti k sebi, ker to je edini pomoček, da zopet k umu pride, bil je zadovoljen in pripravljen vse pozabiti.</p>
+            <p n="SLV10011.635">Z nestrpnostjo je čakal svojih. In ko je ob nenavadnem času ključ v ključavnici zarožljal, stresnil se je, čuvši glas svojega sinka.</p>
+            <p n="SLV10011.636">Vzel ga je v naročaj, na eno koleno, dete se ga je oklenilo okoli vratu in, zapazivši železje na očetu, vprašalo je nedolžno:</p>
+            <p n="SLV10011.637">"Kaj imate pa to?"</p>
+            <p n="SLV10011.638">Dete ni vedelo, da sedi zadnjič očetu na kolenu, vtis novega prizora mu je bil imenitnejši nego kakova skrb. "In kje je ona? Ni hotela priti?" vpraša Anton brata.</p>
+            <p n="SLV10011.639">"Ne more več," odgovori župnik zamolklo.</p>
+            <p n="SLV10011.640">Ujetnik spusti svojega dečka, da mu s kolena zdrsne, ter vstane počasi, kakor da ne bi mogel sedeč slišati, kar je njegova duša precej sumila,</p>
+            <p n="SLV10011.641">"Zakaj ne, izreci, ne čakaj."</p>
+            <p n="SLV10011.642">"Na tem svetu je ne boš več videl."</p>
+            <p n="SLV10011.643">"Umrla?" hlastne Anton še bolj obledel.</p>
+            <p n="SLV10011.644">"Da! Bog jo je rešil vsega duševnega trpljenja." Samorod pade na stol, glavo povesi in čez nekaj časa reče:</p>
+            <p n="SLV10011.645">"Ti veš, kaj mi je storila, koliko bridkosti, in da je kriva, da sem tu in da dolgo ne bom več. Ali tega ti ne veš, kako sem hrepeneče želel še enkrat videti jo, le še enkrat videti jo na tem svetu."</p>
+            <p n="SLV10011.646">Ko je to izgovoril, dvignejo se mu korenjaške, široke prsi, kakor da bi se hotele razpočiti, in glasno zajoka. Starejšemu bratu so se tudi tihe solze polile in ko je otrok videl očeta in strica plakati, plakal je še on; celo stari ujetničar, vajen podobnih prizorov, pogledal je v stran in zarožljal s ključi, kakor da bi hotel reči: "Pustite jok, kar je, to je, malo časa še imate, dogovorite se o svojih stvareh."</p>
+            <p n="SLV10011.647">In res so imeli malo časa.</p>
+            <p n="SLV10011.648">Štiri dni po tem prizoru je terjala državna pravica benečanska Samorodovo življenje.</p>
+            <p n="SLV10011.649">Sin njegov, mali Tonček, je dorastel, šolal se, postal pač velik gospod. Ni nam znano, ali se je večkrat spominjal svojih roditeljev, to pa vemo, da narod je to daleč okoli dolgo in različno pripovedoval v pripovedi in pesmi o lepi Vidi.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl" xml:id="SLV10008">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Med dvema stoloma : edicija ELTeC</title>
+            <author ref="viaf:54483391">Jurčič, Josip (1844-1881)</author>
+            <respStmt>
+               <resp>Pretvorba zapisa WikiVir v ELTeC.</resp>
+               <resp xml:lang="en">Conversion from WikiVir to ELTeC encoding.</resp>
+               <name>Tomaž Erjavec</name>
+            </respStmt>
+            <respStmt>
+               <resp>Izbira romanov in dodajanje metapodatkov ELTeC.</resp>
+               <resp xml:lang="en">Novel selection and ELTeC metadata.</resp>
+               <name>Marko Juvan</name>
+               <name>Miran Hladnik</name>
+               <name>Katja Mihurko Poniž</name>
+            </respStmt>
+            <respStmt>
+               <resp>Skrbištvo WikiVira.</resp>
+               <resp xml:lang="en">Stewardship of WikiVir (Slovene WikiSource).</resp>
+               <name>Miran Hladnik</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">21557</measure>
+         </extent>
+         <publicationStmt xml:lang="en">
+            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+            <distributor ref="https://github.com/COST-ELTeC/ELTeC-slv">GitHub</distributor>
+            <date>2020-03-19</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Jurčič, Josip. Med dvema stoloma : edicija WikiVir</title>
+               <idno type="wikilink">https://sl.wikisource.org/wiki/Med_dvema_stoloma</idno>
+               <date>2008</date>
+            </bibl>
+            <bibl type="printSource">
+               <author ref="https://sl.wikipedia.org/wiki/Josip_Jur%C4%8Di%C4%8D">Jurčič, Josip</author>
+               <title>Med dvema stoloma</title>
+               <title>Izviren roman</title>
+               <date>1876</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-1">
+         <p xml:lang="en">This ELTeC edition was automatically converted from the <ref target="https://sl.wikisource.org/">Slovene WikiSource</ref> digital library edition, and several pieces of ELTeC-specific metadata were added. In particular, the source mark-down was first downloaded, and then fixed with a Perl script, which substitutes Wiki MD marking for heads with the regular one, normalises some characters and removes interal markup expressed in {{..}} and as XML tags. This also means that certain markup from the source is lost, e.g. pagebreaks, original vs. corrected words (corrected are retained), poems and their lines, and notes (which are removed). However, it would be extremely difficult to convert this, furthermore it seems that such markup is used only in some novels. The "cooked" MD files are then converted to TEI with the docx2tei stylesheet, ELTeC metadata is added, and the resulting file fixed to ELTeC schema via a XSLT stylesheet.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language xml:lang="en" ident="sl">Slovenian</language>
+         </langUsage>
+         <textDesc xmlns:eltec="http://distantreading.net/eltec/ns">
+            <eltec:authorGender key="M"/>
+            <eltec:size key="short"/>
+            <eltec:canonicity key="high"/>
+            <eltec:timeSlot key="T2"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-03-19">Tomaž Erjavec: converted to ELTeC</change>
+      </revisionDesc>
+   </teiHeader>
+   <text n="SLV10008">
+      <body>
+         <div type="chapter">
+            <head>I</head>
+            <p n="SLV10008.1">Na mostu preko Save je na plošči zapisano v slovenskem in po nepotrebnosti tudi v nemškem jeziku, da se ima tod počasi voziti. To povelje izpolnjevaje, je premikala se tudi kočija mladega sodskega pristava gospoda Martina ''Kralja'', počasi in neprijetno s posameznih bolj vzvišenih mostnic poskakovaje. Dve mladi dami, ki sta sedeli zadaj, gospodu pristavu nasproti, gledali sta z zanimanjem v vodo, dasi tam ni bilo nič posebnega videti.</p>
+            <p n="SLV10008.2">»Tukaj pri Pridanu reci ustaviti, da nam bode ključe dal in da se dogovorimo ž njim,« reče starejša izmed mladih dam, bledolična, suha žena pristavova, kateri se je že na glasu bolehnost in ona trudnost poznala, katero daje zavest bolezni.</p>
+            <p n="SLV10008.3">»Veselim se že svojo Tončko zopet videti,« pristavi druga dama, krasna, polna deklica, ter se na stran v odprtem vozu pripogne, da bi prej videla k Pridanovi hiši, krčmi, ki je stala precej blizu na koncu mosta v mali vasici, kamor je mlada družba namenjena.</p>
+            <p n="SLV10008.4">Pred Pridanovo veliko krčmo voz obstoji. Gospod pristav izstopi, obema damama z voza pomaga in takoj tudi hišni gospodar iz veže pride.</p>
+            <p n="SLV10008.5">»Ho, ho!« vpije že od daleč vesel. On ve, da je pripeljal gospod pristav Kralj svojo bolehno gospo na bližnje njeno posestvo za poletne mesece na stanovanje, on od lani sem pozna tudi že lepo gospodično Luizo, sestrično Kraljeve gospe.</p>
+            <p n="SLV10008.6">»Vendar so gospoda prišli. Že smo se bali, da vas letos ne bode,« pravi Pridan, pol kmetsko oblečen, velik, a ne debel mož s krčmarsko prijaznim obrazom.</p>
+            <p n="SLV10008.7">Takoj za njim se iz veže prikaže dekliški obraz.</p>
+            <p n="SLV10008.8">»Tončka!« zakliče lepa mlada dama in skokonožno ji priteče klicana vesela krčmar jeva deklica naproti; gospodična jo objame in poljubi.</p>
+            <p n="SLV10008.9">»Kako ste zrasli in lepo spremenili se!«</p>
+            <p n="SLV10008.10">»Tudi vi ste vedno lepši,« reče naivno domača hči. »Ostanete li dolgo pri nas? Kajneda, dolgo?«</p>
+            <p n="SLV10008.11">»Luiza, jaz mislim, da z vozom lahko gre naprej in mi peš za njim pridemo, konci ni daleč,« reče pristavova žena.</p>
+            <p n="SLV10008.12">»Kakor ti želiš; če ti lahko hodiš, jaz gotovo.«</p>
+            <p n="SLV10008.13">Voz odide. Krčmar in njegova hči Tončka spremita nove goste na mali vrtič pod kolibo. Tam posedejo. Tončka pogrne, Pridan prinese vina, njegova hči kmalu še okusne slanine, potem pak oče in hči prisedeta k znanim gostom, katerih nista videla leto in dan.</p>
+            <p n="SLV10008.14">Izpraševalo se je sem ter tam. Bolehna gospa je hotela natanko vedeti: ali je in kdaj je Pridan bil gori na Podvinu na njenem posestvu, ali je zadnje dni res večkrat že vse odprto bilo, kakor je pisala, da ne bode letos tako zimski vzduh od sten udarjal, kakor je lani, ko so prišli sem ven; ali imajo tega in onega pripravljenega, kar je potrebno za prijeten preživek tu na deželi. Vse je bilo v redu.</p>
+            <p n="SLV10008.15">Tončko pak je izpraševala njena »prijateljica«, gospodična Luiza, kaj je čez zimo počela, zakaj je v mestu ni obiskala, ali še lepi mladi kaplan pri maši ob desetih pridiguje, ali je letos bila že kaj pri kapelici na Brinovem brdu.</p>
+            <p n="SLV10008.16">In ko je na vse odgovorjeno bilo, pripovedovala je gospodična Luiza, kako je že pri odhodu z doma tudi nje domislila se in ji s seboj prinesla nekaj lepih povesti, katere bode gotovo z veseljem in zanimanjem čitala. In preprosta Tončka jo je tako hvaležno pogledala, kajti to se ji ni zdelo majhna stvar, da se nje, deklice na kmetih, spominja tako lepa mestna gospodična in jo celo imenuje prijateljico.</p>
+            <p n="SLV10008.17">Pridan ni bil le krčmar, on je imel tudi obširna posestva in kot priden živinorejec bil je dedno premoženje pomnožil tako, da ni bilo od njega v tem kraju nobenega premožnejšega moža razen njegovega sorodnika, starega Luke Kolodeja, ki je imel kakih deset minut hoda gori više napodi največji mlin v tem kraju, nekaj više v brdo od vode proč pa veliko hišo z njivami ter daleč okoli mnogo gozdov in vinogradov.</p>
+            <p n="SLV10008.18">Edina hči Pridanova je bila črnooka in plavolasa Tončka. Dasi zdrava in krepka, vendar je bila bolj nežna in šibka deklica, katere lepota je stoprav potem prav vidna bila, ko jo je človek govorečo pred seboj imel. V mladosti je bila v mestnem kloštru in je nekoliko več omike dobila nego druge kmetske deklice v tem kraju. Oče Pridan je kot župan in povsod od kmetov voljeni zaupni mož dobro znal ceniti, kaj je dandanes vredno, da človek kaj zna, če je tudi samo ženska, kakor je rekel.</p>
+            <p n="SLV10008.19">Gospodična Luiza Vit je bila drugačna, če je bila Tončka prisrčna prikazen, mogla se je Luiza označiti kot ženska krasota, katera ima nekako v istini aristokratične oblike vseh delov telesa; imela je goste pepelnate lase, globoke, velike plave oči, smehljaj njen je očaroval, govor njen je bil prijeten in pridobljiv, a morda narejeno preprost, vse na njej je bilo popolno razcvela mladost, katera takoj oko nase vleče.</p>
+         </div>
+         <div type="chapter">
+            <head>II</head>
+            <p n="SLV10008.20">Med pogovorom z gosti je bil Pridan zapazil, da za plotom nekdo proti hiši koraka. Takoj je moža spoznal, dasi se je samo glava videla.</p>
+            <p n="SLV10008.21">»Luka!« zakliče Pridan soseda. Glava za plotom se obrne in stari bogati Luka Kolodej, videč tujo družbo, reče:</p>
+            <p n="SLV10008.22">»Ne utegneš? Pridem pa drugič,« in se obrača, da bi se vrnil.</p>
+            <p n="SLV10008.23">»Hoj, sosed, ali ne vidiš, kdo je? Gospoda s Podvina. Prišli so zopet za nekaj tednov k nam. Ali ti nisem pravil? Pojdi sem, nismo li znanci?« vpije Pridan preko plota.</p>
+            <p n="SLV10008.24">»Pridite no k nam, sosed Kolodej,« pokliče sedaj tudi gospod adjunkt Kralj. »Menda se nas vendar ne bojite; dobri ljudje smo in celo ženske imajo večino; potem bodemo vsaj na pare.« Oni za plotom ni bil odločen, ali bi šel naprej ali nazaj. A brezobzirni Pridan je podrl zadnjo zapreko.</p>
+            <p n="SLV10008.25">»Pridi, pridi! Misliš li, da ne vem, kaj te nosi k meni? Pismo si dobil. Sin ti piše. Daj, da vidimo kaj. Ka brati ne znaš, čemu bi se sramoval; nisi sam tak.«</p>
+            <p n="SLV10008.26">Skrivnost je bila izdana, Kolodej gre torej naprej ob plotu.</p>
+            <p n="SLV10008.27">Kolodej — kakor že rečeno — najbogatejši kmet v okolici, bil je korenit mož srednje postave, širok čez pleča in čez prsi, obilen in lepo okrogel čez dolnji del telesa, podoben hodečemu sodčku piva. Rdečelična, debela glava je bila široka, usta prav tako; nad nizkim čelom so bili gosti, že sivi lasje vedno na kratko ostriženi in ob navadnih dnevih je imel majhno zeleno kapico na glavi; sicer pa je nosil vedno po starem narejene kratke hlače iz irhovine, pod koleni pa volnate nogavice ali pa čevlje z golenicami do kolen. Sedemdeset let je bil star, a ni se mu jih poznalo. Zavestno in trdno je stopal, tega je bil od nekdaj vajen. Njegovo gosto stopinjo bi bil lahko bolj trebušatosti nego starosti pripisoval.</p>
+            <p n="SLV10008.28">»Kdo ti je pa povedal, da mi je sin pisal?« vpraša Pridana, ko je bil, nikogar iz družbe pogledavši, samo majhno kapico na glavi privzdignil kot znamenje pozdrava.</p>
+            <p n="SLV10008.29">»Ali se ti čudno zdi, da vem?«</p>
+            <p n="SLV10008.30">»Kajpak. Jaz nisem nikomur pripovedoval, da sem pismo dobil.«</p>
+            <p n="SLV10008.31">»Nu, jaz sem bil na pošti in tam sem pismo videl in precej od zunaj z napisa poznal, od koga je, da je tvoj Nikelj pisal. Pokaži no, kaj je. Meni se zdi, da je letos njegova šola pri kraju, ali ni?«</p>
+            <p n="SLV10008.32">»Tega jaz ne vem, zdi se mi pač,« reče Kolodej, izpod naprsnika izvleče zapečateno pismo in ga Pridanu izroči.</p>
+            <p n="SLV10008.33">»Kaj je v njem, debelo je,« ugiblje Pridan, potehta pismo, razvije in dobi fotografijo iz njega.</p>
+            <p n="SLV10008.34">»To je njegov obraz, glejte, glejte, kako mu je brada porasla,« rekši, kaže fotografijo staremu Kolodeju, kateri se na prste postavi in pazno gleda sliko svojega sina, ali vendar obraza ne zgane in se niti fotografije ne dotakne; pod hrbtom drži roki sklenjeni.</p>
+            <p n="SLV10008.35">»Ej, da bi te, spet novota,« pravi kakor sam sebi. »Včasi so le božje svetnike malali na papir ali na steno, zdaj pa že ljudi.«</p>
+            <p n="SLV10008.36">Sedaj pogleda tudi Tončka v roko svojega očeta, kateri ji fotografijo izroči, potem ko se je stari Kolodej odpovedovale kar odmaknil. Pogledavši sliko, se Tončka preko mladih, belih lic nalahko zardi; tega si je morala sama v svesti biti, zato se brž na stran nagne in da fotografijo prijateljici gospodični Luizi brez vse besede. Ta s kritičnim očesom sliko ogleda daljnooko in blizovidno ter reče:</p>
+            <p n="SLV10008.37">»Lepo brado ima ta mladi mož, spodnji del obraza je sploh zanimiv, a zgornji je preširok in oko ... Kaj misliš?«</p>
+            <p n="SLV10008.38">S tem pokaže sliko bolehni sestrični. Ta brez zanimanja pogleda mehanično, z ramami zgane in ne reče ničesar. Zanjo ni bil noben obraz zanimiv, ker je bila bolna.</p>
+            <p n="SLV10008.39">Nekako naglo vzame potem Tončka fotografijo nazaj. Medtem, sta bila stara dva pismo prebrala. Stalo je v njem prav kratko poročilo, da je sdn Nikolaj Kolodej svoje študije na višji gospodarski šoli dokončal, da pride v nekoliko dnevih domov in prosi očeta, naj na postajo pošlje voz. Fotografijo prilaga, da bode oče videl, koliko se je spremenil v dveh letih. Stari Kolodej potem odide, pustivši celo fotografijo, rekši Pridanu: »To naj le tvoja punca ima, če če, meni že take igrače niso po veselju.«</p>
+            <p n="SLV10008.40">Gospodična Luiza pak vpraša Tončko: »Ali ste kaj bolj znani s tem mladim gospodom?« »O da, celo v rodu smo nekoliko in, ko smo bili otroci, smo se igrali skupaj. Tudi potlej ... Še ko je zadnjič odšel ... bil je pri nas ... To se ve, da smo dobro znani.« Gospodična se lepo nasmehne, tako da Tončka oči povesi. »Na fotografiji ni sicer videti idealne lepote, a čeden mlad mož je,« ponavlja Luiza.</p>
+            <p n="SLV10008.41">»In bogat bode. On je edini sin tega starca, ne?« vpraša pristav Kralj krčmarja.</p>
+            <p n="SLV10008.42">»Nobenega drugega ne,« odgovori krčmar ter pristavi: »Bogat bode, bogat. Stari njegov, ki je zdaj tu bil, imel je posebno srečo. Iz vsega se mu je denar delal. Zraven tega je še po smrti drugih dobival. Da, bogat, bogat.«</p>
+            <p n="SLV10008.43">Po lepem čelu gospodične Luize se nabere zanimiv oblak globočjega premišljevanja. Pogovor preide na druge stvari. Drugi govore o svojih zadevah. Luiza spregovori naenkrat, a bolj samo Tončki, tiho in zaupno:</p>
+            <p n="SLV10008.44">»Pokaži mi fotografijo še enkrat.« Deklica jo pokaže.</p>
+            <p n="SLV10008.45">»Res ni navaden obraz to, lep mlad mož ta tvoj sorodnik,« pravi gosposka prijateljica, a tako nekako, kakor ko bi svojim lastnim mislim odgovarjala.</p>
+            <p n="SLV10008.46">»Kako ste si v rodu?« vpraša čez nekaj časa.</p>
+            <p n="SLV10008.47">»Prav malo; že ne vem natanko,« odgovori deklica.</p>
+         </div>
+         <div type="chapter">
+            <head>III</head>
+            <p n="SLV10008.48">Nekoliko dni kasneje sta sedeli toplega popoldne v senci orehovega drevesa obe naši mladi znanki, Tončka in Luiza, prva je šivala, druga pak s plavo in rdečo volno krasne rože v tankovino vpletala. Luiza je skoro vsak dan prihajala obiskat svojo prijateljico in poslednja ji je bila hvaležna ter je rada vse drugo delo prepustila skrbni stari veliki dekli Jeri ter kaj lahkega v roko vzela, da je gospodični družinovala. Oče ji je dajal v izbiri dela popolno svobodo; bil je preponosen na svojo edinico.</p>
+            <p n="SLV10008.49">»Jutri ima tisti tvoj interesantni sorodnik domov priti?« vpraša naenkrat po vsem drugem pogovoru gospodična, bistro pogleda svojo družico ter tako nepazno stegne nogo po travi, da je mah njen čeveljček skoro preveč koketno izpod sive proste, a okusne obleke na beli dan pogledal.</p>
+            <p n="SLV10008.50">»Jutri v večer,« pritrdi Tončka, ne pogledavši od svojega šivanja.</p>
+            <p n="SLV10008.51">Potem Luiza na druge stvari pogovor navede, na čisto navadne in dolgočasne, in skokoma od tega predmeta na oni prehaja. Nazadnje spusti delo in roki v krilo in reče:</p>
+            <p n="SLV10008.52">»Tončka, jaz te včasi vičem, včasi tičem, ti pa mene vedno kličeš 'vi'. To ni prav. Ti ne veš, kako te imam jaz rada. Bodive prijateljici. Ti imaš dobro srce in jaz ti vse zaupam, vse. Reci mi odslej 'ti'. Hočeš li?«</p>
+            <p n="SLV10008.53">Solza veselja zablisne pri teh besedah v očeh mladi kmetske deklice; ona stegne roki, nagne se k Luizi in jo objame ter poljubi tako strastno, kakor do sedaj še nikdai nikogar ni. Koga pač bi bila? Mati ji je umrla, ko je bila ona osen let stara; sester in bratov ni imela; oče je bil sicer dober, ali bal je bolj praktičen mož in nič manj nego nežniočuted ali poljubov vajen.</p>
+            <p n="SLV10008.54">Tako je ta tujka bila prvo bitje, katero je smela s celim ognjem svojega ljubezni polnega srca objeti in strastno poljubiti; in kaj to znači, o tem vedo ona srca praviti, katera so morala izobilje v sebi nakupičenega čutja ali skrivati ali zatirati pred seboj in pred drugimi. Misliti se torej more, kako hvaležna je bila Tončka svoji prijateljici za ta dokaz ljubezni. In govorili sta tikaje se o malostnih rečeh: kaj je pozimi počela, ah je že začela knjigo citati, katero ji je prinesla, kako ji je dopala. Potem je bil zopet premolk.</p>
+            <p n="SLV10008.55">»Torej jutri, misliš, pride tvoj sorodnik. Kako mu je že ime?« vpraša zopet gospodična Luiza.</p>
+            <p n="SLV10008.56">»Nikolaj, ali doma smo mu rekli Nikelj. Slišala sem, da ga je prvi tako imenoval njegov stric, ki je bil duhoven.«</p>
+            <p n="SLV10008.57">»Nikelj. Ah se ti to ime lepo zdi?«</p>
+            <p n="SLV10008.58">»Lepo. Ali vam ... ali tebi ne?«</p>
+            <p n="SLV10008.59">»Meni? Zakaj?«</p>
+            <p n="SLV10008.60">»Zato, ker se meni zdi najlepše ime, res.« »Ti ga ljubiš,« reče Luiza naglo.</p>
+            <p n="SLV10008.61">Tončka se pretrese, kakor da bi jo bila električna iskra prešinila, ter nekako plašno, če ne prestrašeno pogleda svojo prijateljico. Njene velike oči so vprašaje bile uprte v obraz gospodičnin! kdo si ti, kako je pod bogom mogoče, da veš, kar noben in noben človek ne zna, ker nikomur ni povedala, celo sebi sami tajila. Svojemu lastnemu srcu ni verjela, ki je rekalo, da ga v sebi nosi že dolgo dolgo. In tu pride ta prijateljica in ji v lice tako skrivnost pove! Luiza je menda takoj videla, kaj prestrašeni obraz in vprašujoče oko pomenja, zato reče:</p>
+            <p n="SLV10008.62">»Nič si posebnega ne misli. Kadar bodeš ljudi bolj poznala, mogla bodeš to bolj skrivati, kar čutiš; a sedaj tega ne znaš še. Glej, jaz sem ti oni dan že, precej tačas, ko si sliko v roki imela, na obrazu poznala, da imaš tega Nikolaja nekoliko v srcu. Videla sem, da si zardela pri pogledu one slike in, ko sem te potem govoriti slišala, nisem dvomila več.«</p>
+            <p n="SLV10008.63">Tončka ne odgovori ničesar, samo svoje lice globoko na šivanje pripogne.</p>
+            <p n="SLV10008.64">»Ti se sramuješ, kajne?« reče ona in ji dobrikaje se ovije belo, polno roko okoli vratu ter, gledajoč ji še niže od zdolaj v oči, nadaljuje:</p>
+            <p n="SLV10008.65">»Ni treba se sramovati svojega srca, Tončka moja; čemu vendar? Ljubiti, ah, to je pač najlepše in najslajše v življenju in, kdor ne more, ta človek ni, vsaj dober človek ne, zakaj bi se sramovala; slišiš, ti?«</p>
+            <p n="SLV10008.66">»Ni tako, kakor ti misliš,« šepeče deklica.</p>
+            <p n="SLV10008.67">»No, kako pak je, kaj?«</p>
+            <p n="SLV10008.68">Tončka ni mogla nobene besede dalje spregovoriti, da bi bil odgovor, a vzdignila je glavo in žareče čelo položila za trenutek prijateljici na ramo. Potem sta molče delali dalje.</p>
+            <p n="SLV10008.69">Bodisi vzrok občna ženska radovednost, bodisi resnično prijateljsko zanimanje, Luiza je kmalu zopet vprašala:</p>
+            <p n="SLV10008.70">»Ali te je že poljubil?«</p>
+            <p n="SLV10008.71">»Enkrat,« dahne Tončka na pol tiho. »Samo enkrat? No, to je še malo. A kdaj je to bilo?«</p>
+            <p n="SLV10008.72">»Tačas, ko se je od mene posloval, pred dvema letoma.«</p>
+            <p n="SLV10008.73">»Pred dvema letoma! Oj, to je dolgo. — A potem ti je vendar redno pisal? Vsaj vsak teden.« Začudeno Tončka zopet pogleda.</p>
+            <p n="SLV10008.74">»Vsak teden! Oh, ni bilo tako,« odkima z glavico.</p>
+            <p n="SLV10008.75">»Torej vsaj vsak mesec?«</p>
+            <p n="SLV10008.76">»Izprva večkrat, a letos — samo za god.«</p>
+            <p n="SLV10008.77">»Samo? A! Potem ga moramo mi v delo vzeti, kadar pride. Ti grdi častilec ti. Čakaj, sedaj, kadar pride in te zopet vidi, moramo pomoči.«</p>
+            <p n="SLV10008.78">»Ne, ne, molči,« naglo in proseče reče devče.</p>
+            <p n="SLV10008.79">»Nič se ne boj. To se mora znati tako začeti, da nobeden nič ne opazi, on pa še najmanj,« reče Luiza.</p>
+            <p n="SLV10008.80">»Jaz nečem ničesar,« ponavlja Tončka odločneje in morda je to odbitje pomoči od strani te prijateljice izviralo ne le iz blage deviške sramežljivosti, kateri se upira vsako ponujanje, nego iz nekovega dobrega instinkta.</p>
+         </div>
+         <div type="chapter">
+            <head>IV</head>
+            <p n="SLV10008.81">Mrak se je bil že naredil, ko je zvečer preko mosta drdral drug voz in hlapec Kolodejev, Tomaž, je vozil gospodarjevega sina domov, Niklja. Ali iz Niklja, katerega je stari hlapec nekdaj pred leti celo zauhljati ali zlasati smel, kadar je bil dečko poreden, naredili so učeni ljudje tam po svetu takega velikega, lepega mladega gospoda, da si ga Tomaž kar ni upal več tikati.</p>
+            <p n="SLV10008.82">»Tu je Pridanova hiša. Kaj dela Tončka? Ali je še tako lepa?« vpraša mladi mož hlapca, pred seboj sedečega.</p>
+            <p n="SLV10008.83">»Kako? Menda je. Kaj jaz vem; tega ne gledam,« odgovori Tomaž.</p>
+            <p n="SLV10008.84">»Ali je imela kaj snubačev že?«</p>
+            <p n="SLV10008.85">»Nič ni bilo slišati. Premladό je še, z možitvijo se ne mudi še,« modro odgovori hlapec.</p>
+            <p n="SLV10008.86">Medtem sta bila prišla vštric Pridanove hiše. Nikolaj zapazi pri oknu v prvem nadstropju med zelenim rožmarinom glavico, a somrak je bil že tako močan, da mladenič ni natanko razločeval.</p>
+            <p n="SLV10008.87">»Ali ni tam na srednjem oknu Tončka?« vpraša hlapca.</p>
+            <p n="SLV10008.88">»Je, je,« odgovori ta.</p>
+            <p n="SLV10008.89">»Dober večer, Tončka!« zakliče Nikolaj; voz zdrdra po cesti dalje, tam od okna pa glava naglo v izbo izgine.</p>
+            <p n="SLV10008.90">»Misliš, da me je spoznala, Tomaž?« vpraša Nikelj hlapca.</p>
+            <p n="SLV10008.91">»Nu, če vas ne pozna, pa mene pozna; če mene ne, pa to našo kobilo in vsaj voz; kako potlej ne bi vedela, kdo je,« odgovori Tomaž. Njegovi razlogi so bili vselej silni.</p>
+            <p n="SLV10008.92">Nikolaj Kolodej je bil dvaindvajset let star. Ker je bil edinec svojega bogatega očeta, ni nikdar poskusil, kaj je slabo na svetu. V šolo je prej hodil v bližnjem trgu, potem v mestu, potem ga je oče dve leti doma imel in v devetnajstem letu poslal ga na gospodarsko šolo. Tak tečaj bi se utegnil komu čuden ali nenavaden zdeti, zlasti če premisli, kar smo prej povedali, da namreč stari njegov sam ni znal ni pisati ni citati. A stvar ni čudna. Oče je bil namreč prisiljen sina šolati. Stvar je bila taka:</p>
+            <p n="SLV10008.93">Ko je bil Nikelj leto star, umrla mu je bila mati in staremu Kolodeju druga žena. Od prve žene so Luki Kolodeju bili vsi otroci pomrli. Vdovec je bil krepak dovolj in dosti dober gospodar ter kmet dovolj, da bi se bil še v tretje oženil. A tu je bil posegel njegov svak previdno in odločilno vmes. Brat pokojne druge Kolodejeve žene je bil namreč župnik nekje nedaleč proč za hribi. To je bil baje mož, ki je trideset let znal eno suknjo nositi, mož, ki ni imel slabe navade, namesto vode vino. Piti, iz tobaka dim delati, omikane ali neomikane prepotnike ali postopače preveč gostiti; zato je znal kupček delati, zbirati, množiti in rekli so na njegove stare dni: ta ima novcev!</p>
+            <p n="SLV10008.94">Na obletnico po smrti svoje sestre, Kolodejeve druge žene in Nikolajeve matere, prišel je bil fajmošter stric. Vzel je našega dveletnega malega Miklavžka na stara kolena, nasmehnil se je lepemu detetu od veselja, ukazal, da se mu mora Nikelj reči, čudil se svaku Luki, kako lep dečko je to, premišljeval sam pri sebi, obrisal solzo s častitega si lica ter pred odhodom takole govoril očetu Kolodeju:</p>
+            <p n="SLV10008.95">»Ljubi moj Luka! Da imam nekaj krajcarjev, to veš. S seboj jih ne ponesem, kadar me bog pokliče. Če hočeš, da ti kaj dobiš po moji smrti, ne ženi se več, ne dajaj fantičku mačehe.</p>
+            <p n="SLV10008.96">»Ne oženim se,« rekel je Luka Kolodej brez premišljevanja. Kajti kakor je bil vsega poštenja vreden mož, nazor mu je bil tak, da tista velika nogavica cekinov, o kateri mu je skrivaj že pokojna žena pripovedovala, da jih je pri bratu fajmoštru videla, vendar še več vrednosti ima nego vsaka ženska, ki bi njega priletnega še vzela.</p>
+            <p n="SLV10008.97">In tako je ostalo. Luka ni iskal tretje žene. Ko je pa duhovenski brat njegove pokojne druge umrl, podedoval je Kolodej lep kupček novcev, s katerimi je prikupil svojemu že obilnemu posestvu še velik malin in žago, travnikov in gozda velik raztezaj. Nekoliko kapitala je pa na stran del, kajti v poslednji oporoki umrlega Nikolajevega strica bilo je izrekoma tako ukazano z namenom, da se mora mali Nikolaj, kadar doraste, s tem denarjem popolnoma izšolati, in sicer za oni stan, kateri si sam izbere, ako ne bode hotel ostati na domu. A tudi v poslednjem slučaju pokojnik želi, da se deček pošlje v kakovo višje učilišče.</p>
+            <p n="SLV10008.98">To je bil vzrok, da se je Nikolaj Kolodej izobrazil bolj, nego je bil oče njegov izobražen. Sicer bi ga stari valjda ne bil dal v šolo — kmetovati in gospodariti učit se, ker o takem učenju je on po svoji glavi vrlo slabo sodil, ker je menil, da gospodariti uči samo delo in poskušanje, vse drugo je prazno in neumno. Da človek citati in pisati zna, to potrebo je pač tudi on čutil; da, celo še to bi bil kakor stari Slovenec privolil, da se sin nekoliko tujega jezika nauči, dasiravno je on tujski govoreče uradnike in druge neslovensko golčeče ljudi slabo v čislih imel, česar mu ne štejemo v grajo.</p>
+            <p n="SLV10008.99">Veselilo je pa starega vendar, da sin ni silil kaj drugega študirati. Juristov, zdravnikov, vse gospode ni spoštoval. Kot pobožen in krščanski mož in morda še iz enega vzroka, ki ga pa nam po spredaj povedanem ni treba navajati, imel je pač za duhovenski stan veliko čislanje. Ah tudi tega ne bi bil rad videl, ko bi bil njegov sin silil študirati bogoslovje, ker bil mu je edinec. Brez posebnega preračuna je želel oče, tako kakor kateri koli fidejkomisni plemenitaš, da bi njegovo ime ostalo, njegov rod ne izumrl ž njim, ker — »hvala bogu, kruha mu tudi tu doma ne bode manjkalo, če bode hotel priden biti«.</p>
+            <p n="SLV10008.100">Tako je samemu starcu godilo, da je bil sin izbral si gospodarsko učilišče in ne kaj drugega. Nocoj se je sin povrnil domov od svojih študij.</p>
+         </div>
+         <div type="chapter">
+            <head>V</head>
+            <p n="SLV10008.101">Velika dva psa na Kolodejevem dvorišču skočila sta oba naenkrat pokonci in zalajala, ko sta videla, da je neki nenavaden človek z znanega jim voza stopal. V sredi veže pak je stal oče Luka Kolodej in, pipo snevši iz ust, vprašal svojo staro deklo in gospodinjo Mreto, ki je bila zdaj na prag stopila:</p>
+            <p n="SLV10008.102">»Ali je naš prišel?«</p>
+            <p n="SLV10008.103">»Kdo pak?« reče ona. »Pojte no k njemu, mene je sram. Pestovala sem ga, a zdaj, glejte no, kakov je!« šepetaje pristavlja Mreta ter s praga odskoči nazaj in stopi v vezno kuhinjo.</p>
+            <p n="SLV10008.104">»Že sam pride,« reče starec nenavadno rdeč od pričakovanja ali radovednosti.</p>
+            <p n="SLV10008.105">Sedaj stopi Nikolaj v vežo.</p>
+            <p n="SLV10008.106">»Dober večer, oče,« pozdravlja Nikolaj in roko stegne, da bi v očetovo posegel. Oče obe roki mirno pod hrbtom obdrži in sin se domisli brzo, da roko dajati, sploh ljubezen izkazovati ni očetova slabost.</p>
+            <p n="SLV10008.107">»Dolgo sta se vozila!« Tako začne stari Luka svoj duhoviti prvi odzdrav svojemu sinu.</p>
+            <p n="SLV10008.108">»Kobilica ni spočita, ves oni teden je vozil z njo; rekel sem Tomažu, naj vzame Rjavca; ta bi bil vaju za pol ure prej domov pripeljal. A rekel mi je, da je na levi nogi malo zakovan. Davi sem pogledal nalašč. Prepodil sem ga dvakrat gor in dol, pa ni zakovan, ne šepa nič in nič se mu ne pozna.«</p>
+            <p n="SLV10008.109">»I, kaj vendar to govorite, to vse vkup nič ni,« pokara dekla Mreta starca iz kuhinje.</p>
+            <p n="SLV10008.110">»O, Mreta, dober večer,« pozdravlja mladi prišlec i starko, katere glas mu je znan bil. Rdeča kakor sramežljiva deklica pride starica ven in, roko mu podavši, reče: »Bog ti daj zdravje in srečo na domu.« Potem jo solze oblijo.</p>
+            <p n="SLV10008.111">»Ali si lačen? Mreta, večerjo daj!« reče zopet oče in odpre duri na desno, kjer je bila že miza pogrnjena in goreča sveča na njej.</p>
+            <p n="SLV10008.112">Hlapec prinese z voza kovčke in zavoje mladega gospoda, starec mu ukazuje, kam naj se zdaj postavi, kam kasneje pride. Potem pak sede za mizo in povabi gospoda sina k sebi, rekoč:</p>
+            <p n="SLV10008.113">»No, le brž, da ne bode mrzlo. Nate sem čakal.«</p>
+            <p n="SLV10008.114">Ko večerjata, starec zopet vpraša prevažno stvar za prvo snidenje po dveh letih:</p>
+            <p n="SLV10008.115">»Okorej, rekel si, da sta bila v Kobiljem klancu?«</p>
+            <p n="SLV10008.116">»Okoli štirih je bilo, a na uro nisem gledal,« odgovori sin in starec začne daljavo ceste od tukaj do Kobiljega klanca in od Kobiljega klanca pa do tukaj ozbiljno pretehtavati in sina o tem važnem predmetu podučevati, samo enkrat med tem nudeč mu skledo z zagotovilom, da je piščanec danes dobro narejen, naj še en košček vzame.</p>
+            <p n="SLV10008.117">Po jedi prime stari po svoji pipi. Sin mu ponudi cigaro. Z zadovoljnim obrazom jo vzame, najprej od vseh strani ogleda, z veliko pobožnostjo in nekoliko nerodnostjo na enem koncu odgrizne, prižge, potem pa vpraša, po čem so take cigare, ali so drage pač. S čudom se potem začudi o njih draginji. Prizna pa, da so dobre, ali, reče, za kmeta niso. »Sedaj ne bodeš smel več takih kaditi, če hočeš, da boš kaj imel.«</p>
+            <p n="SLV10008.118">Sin je dobro znal, da cigare, kar jih on pokadi, ne morejo pojesti očetovega premoženja, a vedel je tudi, da v takih rečeh očetu ni dobro ugovarjati. Po večerji prinese stari Kolodej buteljo boljšega vina iz kleti in natoči najprej sebi, potem sinu ter deje:</p>
+            <p n="SLV10008.119">»Da se laže doma privadiš, pokusi tega.«</p>
+            <p n="SLV10008.120">Izpivši, odstavi čašo, potegne iz smotke ter čez nekaj časa pol boječe, pol porogljivo vpraša:</p>
+            <p n="SLV10008.121">»Nu, ko si se izšolal, praviš, kaj so te pa naučili učena gospoda, kaj ? Maševati menda ne, bolnike zdraviti ne, biricevati ne, pravdati se ne — i, kaj pak vraga vendar, ka je toli in toliko denarja treba bilo?«</p>
+            <p n="SLV10008.122">Nikolaj je imel težko stališče, očetu razložiti, česa se je v gospodarski šoli učil, kajti starec mu je bil vedno z ugovorom pripravljen, da tega in tega pa bi se bil pri njem bolje naučil nego v gospodarskih šolah.</p>
+            <p n="SLV10008.123">Mreta pa, ki je zunaj poslušala, občudovala je gospodarja, kajti toliko že dolgo ni z nobenim domačim govoril. »Vendar ga ima še rad, reci kdo, kar bi dejal,« menila je dekla. Nikolaj pak je menil drugače, ko je v stranski sobici, kjer je že prej, ko je doma bil, spaval in kjer je skoro vse reči tako našel, kakor jih. je bil pred dvema letoma pustil, ulegel se in odejo čez utrujene ude potegnil. Do nocoj ni nikdar premišljeval, kakovšen je njegov oče. Nocoj, ko ga je čez dolgo zopet videl, tako hladnega, tako le vsakdanjosti govorečega, brez ene ljubeznive besede, čutil se je osamljenega. Smilil se je sam sebi, da ga nihče na celem svetu ne. ljubi, ni rodni oče ne, a drugega svojega nima nobenega človeka.</p>
+            <p n="SLV10008.124">Od narave naš Nikolaj ni bil sentimentalen, kakor bi po baš rečenem utegnil kdo soditi. Bil je zdrav, nepopačen mladenič dobrega srca, mehak in sprejemljiv za vse; ali sveta ni poznal drugače nego malo iz knjig in iz površnosti. Ker se mu z življenjem ni bilo treba nikdar boriti, tudi ni mislil mnogo o njem; od tod je izvirala morda ona lahkota, s katero je opazoval vsako svojo okolico.</p>
+            <p n="SLV10008.125">Skratka, naš prijatelj je bil eden onih ljudi, ki so material, iz katerega se dà vse narejati, ki lahko prav srečni ah zelo nesrečni postanejo, zelo osrečijo ali pak z razdiralno roko posegnejo v usodo čutečega srca, ki se je približalo.</p>
+         </div>
+         <div type="chapter">
+            <head>VI</head>
+            <p n="SLV10008.126">Danilo se je že, ko se je drugo jutro stari gospodar zbudil. Prestrašen skoči Luka Kolodej tako naglo s postelje, kolikor so mu starikave kosti dopuščale, in bosopet taplja do okna, z debelim železom omreženega, ter hlastno odgrne zaveso. Na dvorišču ni bilo še nikogar, vendar je bil že na pol beli dan.</p>
+            <p n="SLV10008.127">In take sramote, da bi bil na Kolodejevini kdaj kdo prej vstal in vse druge klicat šel nego gospodar Luka, ni bilo zlepa slišati. Danes bi bil pa skoraj zaspal; tega je bila sinočnja butelja kriva; nikdar več zvečer, stara glava!</p>
+            <p n="SLV10008.128">Tako je gospodar mrmral in razljutil se nad seboj in nad hlačami, ker je v nagli vihri stlačil bil levo nogo v desno hlačnico, vse, da bi se prej oblekel. Tudi robače brisalke ni mogel najti, tako da je bil, v strahu, da ne bi zamudil, prisiljen danes jutranjo molitev na kolenih opustiti. Svojo sobo zaklenivši, odrinil je potem veliki zapah veznih vrat, odprl in stopil na dvorišče. Dva velikanska psa sta skočila dobrikaje se proti njemu in on, ki včeraj sinu ni v roko segel, smehljal se je psoma, tapljal ju po glavah in vrateh in hvalil: »Nu, Švigelj, ti si že priden in ti, Pastuh, priden, da, i-i-i, priden.«</p>
+            <p n="SLV10008.129">Osvobodivši se psov, koraca stari gospodar preko dvorišča do vodnjaka, lastnoročno navleče vode ter jo s periščem nalovi, da si umije roke in obraz ter se s s seboj prineseno robačo iz najdebelejšega domačega platna obriše. Potem gre polagamo, kakor bi vsak korak premišljeval, proti konjskim hlevom. Tam slone na oglu dolge grablje. Luka Kolodej jih oprime in nese nekoliko od sebe proč — kakor škof svojo palico — pokonci, stopa pod podstrešnim odrom naprej. Blizu vrat pa kvišku pogleda in z grabljami trikrat v strop v deske sune, da se sliši po vsem odru, kjer hlapci spe, in vpije:</p>
+            <p n="SLV10008.130">»Hoj, hoj! Ves svet je že vstal, beli dan je že, ali vas ni sram, lenobe lene!«</p>
+            <p n="SLV10008.131">Rekši, nasloni grablje ob steno in korači nazaj v hišo dekle budit. Hlapci pa vedo, da smejo še deset minut pospati, ker stari pride gotovo še enkrat z grabljiščem razbijat in povedat, da jim »že sonce sije v ...« Taka je vsakdanja šega očetu Kolodeju, katere se drži kakor ura. Ko bi kdo prej vstal kot on, ta bi se mu močno zameril in, ko bi kdo po drugem klicanju brž ne zapustil ležišča, temu pride grom in hudovanje na glavo, v slučaju, ko bi se ponavljalo, pa resen svet: izkidaj se iz mojega doma, grdin!</p>
+            <p n="SLV10008.132">Do sedme ure je stikal Luka in ukazoval, zmerjal in pregledaval tu in tam, ob sedmih pak je šel zajtrkovat.</p>
+            <p n="SLV10008.133">Tako je bilo dan na dan od nekdaj. Vselej bi bil mrmral, ko ne bi bil že pripravljene našel kave in slanine, a danes še je okoli ozrl in hud bil, ker je bilo zanj že vse pripravljeno, pa samo zanj.</p>
+            <p n="SLV10008.134">»Kam je pa oni šel? Ali ne more počakati, da bi vkup jela? Mar je pregosposki, ka-li?« zadere se ob Mreto. »I, kdo?« vpraša ženska. »Nikelj!« »Še spi.«</p>
+            <p n="SLV10008.135">»Spi? Hoj, kakšen gospodar bode to, ki do sedmih spi? Tako ne bodeva orala, sinko,« mrmra on.</p>
+            <p n="SLV10008.136">»Uj vi! Ali vas ni sram,« zavzame se stara Mreta za mladega. »Če ves truden prvo jutro eno uro dalje spi, pa že usta odpirate nad njimi. Mislite li, da mora prvo jutro na polje teči? Ali bi vas ne bilo sram, ko bi ljudje s prstom kazali ga in rekli in govorih: glejte, ljudje, bogatega Kolodeja sin je, a reso kosi. Matere nima, matere; vi dedci pa nimate nobene ljubezni.«</p>
+            <p n="SLV10008.137">Rekši, se stari dekli solze udero. Ona je bila sama mati nekdaj, in sicer žalibog brez potrebnega cerkvenega blagoslova, a mati je bila, dokler ji dete ni umrlo, in bridko je v mladosti svojega življenja čutila to, kar je zdaj svojemu gospodarju očitala. Stari gospodar je morda njeno očitanje v poštev jemal ali pa ne. Molčal je, ugovarjal ni, ah obraza ni spremenil. Njegovo lice je bilo vedno kakor iz usnja.</p>
+            <p n="SLV10008.138">A dolgo o tem premišljevati ni utegnil, kajti čul je, da so gori nad stopnicami vrata zaškripala. Nikolaj pride. Bodisi da je deklin govor na rodovitno zemljo padel ali pa da je starec, ki je sedaj prvič podnevi videl sina po vrnitvi, čudil se, kako lep, močan mladenič je tačas zrastel in razvil se, in je v skrivnem očetovskem veselju vse pozabil.</p>
+            <p n="SLV10008.139">»Kaj bodeš pa zdaj delal?« vpraša oče po zajtrku.</p>
+            <p n="SLV10008.140">»Kaj bi? Ničesar ne nekoliko dni. Moram prej nekoliko privaditi se in ogledati, potlej začnem,« odgovori sin.</p>
+            <p n="SLV10008.141">Stari molči. Pred odhodom pak se k sinu obrne in reče: »Ti — kaj sem hotel reči, stopi dol, stopi k Pridanovim. Saj veš, da smo si v rodu in vselej po tebi vprašajo; spodobi se, da se oglasiš in poveš, da si prišel.«</p>
+            <p n="SLV10008.142">Čudno je morda, da bi Nikolaj ne bil mogel nobenega ukaza dobiti od osornega očeta, ki bi ga bil tako z veseljem pripravljen izpolniti, nego je bil ta. Da, celo verovati bi se smelo, da je bil že sam tako Vljuden in bi bil skoraj gotovo tudi brez očetove besede k Pridanovim šel oglasit svoj srečni prihod v domovje nazaj.</p>
+            <p n="SLV10008.143">Lepo jutro je bilo, sonce je pripekalo na zoreče sadje dolgega Kolodejevega vrta, lahkomiselni škrjanec je visoko v višave dvigal se pevajoč. Travnik, preko katerega je veselo žvižgajoč Nikolaj koračil, bil je pisan in lep. Po stezi preko travnika so stopale lahke noge, noseče lahko srce in srečno.</p>
+         </div>
+         <div type="chapter">
+            <head>VII</head>
+            <p n="SLV10008.144">Na Pridanovem domu ne najde »strica« Pridana, pač pa njegovo hčerko Tončko in ta mu je še ljubša. Baš grah je luščila za očetovo prikuho. In do ušes je zardela, ko jo je Nikolaj pri tem delu zasačil ter ni vedela, kaj bi rekla, zato je luščila dalje. Nikolaj je zaradi te njene zadrege tudi v zadrego prišel, ni vedel, kje bi povzel zopet kaj za pogovor, ter bilo mu je, kakor bi se moral nekako sramovati pred Tončko.</p>
+            <p n="SLV10008.145">»Ah si me sinoči spoznala, ko sem te klical?« vpraša jo in se nasloni na mizo s pričakujočim pogledom vanjo. »Kdaj ?«</p>
+            <p n="SLV10008.146">»Sinoči, ko sem se mimo vozil, zaklical sem te. Tomaž je tudi mislil, da si ti pri oknu.«</p>
+            <p n="SLV10008.147">Deklica se nasmehne in zardi.</p>
+            <p n="SLV10008.148">»Ti ne veš, kako močno si se spremenila, kar te nisem videl,« razklada ji dalje Nikolaj, prižigajoč cigaro.</p>
+            <p n="SLV10008.149">»Ti si se tudi,« odgovori ona in ga pride z očmi na pol skrivaj z enim pogledom pogledat.</p>
+            <p n="SLV10008.150">»Zrasla si in lepa si postala, da sama ne veš kako. Le v zrcalo se pogledi, če ne verjameš,« deje on in krepko dim iz ust vali.</p>
+            <p n="SLV10008.151">»Beži, beži,« zavrača ona in zardi zopet.</p>
+            <p n="SLV10008.152">»Če je pa resnica, zakaj bi ti ne rekel tega, posebno ker sva še v rodu.«</p>
+            <p n="SLV10008.153">»Ko si prišel, nisem se te upala precej tikati. Če bodeš pa tako govoril. . .«</p>
+            <p n="SLV10008.154">»No, kaj? Vendar me ne začneš vikati? Ti, to bi ti jaz jako slovesno prepovedal! Rajši bi se razprl s teboj.«</p>
+            <p n="SLV10008.155">»Res ?«</p>
+            <p n="SLV10008.156">»Prav res.«</p>
+            <p n="SLV10008.157">»Tedaj se rad prepiraš?«</p>
+            <p n="SLV10008.158">»S teboj bi se že nerad, s teboj bi se menda ne mogel.«</p>
+            <p n="SLV10008.159">»Vidiš, 'menda' praviš; gotovo ni.«</p>
+            <p n="SLV10008.160">»Ne, gotovo je,« zatrjuje on in s prstom pepel s cigare otresa. Ona ga z velikimi plavimi očmi pogleda in hiti luščiti. Razgovor ni šel dalje. Oba sta mislila, oba valjda ne posebno globokih misli.</p>
+            <p n="SLV10008.161">»Ali si pred pustom kaj plesala?« vpraša jo dalje.</p>
+            <p n="SLV10008.162">»Nič,« odgovori ona važno. »Kje pač? Tukaj pri nas ni za mene, v mesto me oče ne bi pustili in tudi ne veseli me.«</p>
+            <p n="SLV10008.163">»Snubcev si pa gotovo že imela kaj?«</p>
+            <p n="SLV10008.164">»Čemu mi bodo?«</p>
+            <p n="SLV10008.165">»Da bi te eden odvel na svoj dom. Glej, zdaj ko te zopet pred seboj vidim, mislim, da bi se tudi o tebi že lahko pelo: Dokaj jo baronov snubi: troje iz dežele laške, troje iz dežele nemške, troje iz štajerske in kranjske.«</p>
+            <p n="SLV10008.166">»Veš, od kod so ti verzi?« »Da bi tega ne vedela?« »No?«</p>
+            <p n="SLV10008.167">»Iz Prešerna.«</p>
+            <p n="SLV10008.168">»Že res. Ali ga imaš sama?«</p>
+            <p n="SLV10008.169">»Glej, kako si pozabljiv, že ne veš, da si mi ga ti dal in si rekel, da si ga nalašč ...«</p>
+            <p n="SLV10008.170">»Aj, zdaj se spominjam. Nalašč zate sem ga bil vezati dal v narodnih barvah z zlatim obrezkom. To me je pa sram, da sem bil pozabil. Ne bodi huda, odslej ne pozabim ničesar enakega, kar se tebe tiče.«</p>
+            <p n="SLV10008.171">Deklica vstane, pobere naglo svoj pletarček in zbeži, rekoč:</p>
+            <p n="SLV10008.172">»Pojdi, ne govori mi, kar res ni.«</p>
+            <p n="SLV10008.173">Nekaj hipov je bil Nikolaj sam in je gledal s slabo zavestjo v srcu, da je deklico razžalil, ter s sramom prej samim seboj, da je s svojim odkritosrčno mišljenim govorjenjem tako neroden in nesrečen.</p>
+            <p n="SLV10008.174">A takoj se je mogel utolažiti, ker za nekaj trenutkov se vrne Tončka in že od daleč z veselim glasom in jasnim obrazom, ki je pričal, da je vsa zamera že pozabljena, kliče:</p>
+            <p n="SLV10008.175">»Veš li, kaj sem jaz od tvojega očeta dobila?«</p>
+            <p n="SLV10008.176">»Kaj?«</p>
+            <p n="SLV10008.177">»Tvojo fotografijo.«</p>
+            <p n="SLV10008.178">In dalje si po tej naši karakteristiki obeh mladih ljudi lahko ostroumni in premišljavi bralec njiju razgovore sam misli. Onadva sta menila, da so važni, ker deklica je ves dan in celo ponoči s sladkim čutom premišljala to in ono, kar je rekel, njemu pa je dekličin glas tak vtis naredil, da ga je vedno in vedno še slišal, tudi ko je bil odšel proč.</p>
+         </div>
+         <div type="chapter">
+            <head>VIII</head>
+            <p n="SLV10008.179">Nikolaj bi bil sedaj priliko imel, pokazati, kaj se je učil. Svetoval je očetu pri poljedelstvu in gospodarstvu to in to zboljšanje in preinačenije, pripovedoval mu, kako bi se to in to dalo po »racionalnih načelih« poskušati. Stari ga je poslušal, a navadno z glavo zmajal in dejal:</p>
+            <p n="SLV10008.180">»To je vse vkup nič. In ko bi tudi bilo, dokler sem jaz gospodar, bode tako, kakor je bilo. Kadar bodeš ti, ravnaj si, kakor ti glava.«</p>
+            <p n="SLV10008.181">Tako je Nikolaj, ker vendar za navadnega delavca ni bil siljen biti, mnogo časa imel in mnogo ur je bival pri Pridanovih, to se ve, največ pri Tončki, s katero sta govorila kakor dva otroka: nikdar jima ni zmanjkalo in vse jim; je bilo važno in govorjenja vredno.</p>
+            <p n="SLV10008.182">»Včeraj popoldne te ni bilo doma?« vpraša jo enkrat on. »Kje si bila? Spet na Podvinu?«</p>
+            <p n="SLV10008.183">»Zakaj govoriš 'spet'?« čudi se ona, ali tako mirno, da se ji pozna, da vzrok že ve ali vsaj z gotovostjo sluti. On cigarni ostanek od sebe vrže, da iskre odlete; in je hud.</p>
+            <p n="SLV10008.184">»Luiza me je vprašala, kakšen si ti?« pripoveduje deklica in se glasno zasmeje.</p>
+            <p n="SLV10008.185">»Kaj je to briga!« deje on resno.</p>
+            <p n="SLV10008.186">Preplašena ga deklica pogleda, ni si svesta, da bi ga bila razžalila.</p>
+            <p n="SLV10008.187">»Luiza, Luiza in zmerom Luiza! To je tako neslano ime, da te prosim, ne imenuj mi ga več, veš?«</p>
+            <p n="SLV10008.188">Tudi mlada dekletca imajo svojo psihologijo. Aha, ti si ljubosumen na mojo prijateljico, tako je precej zaslutila Tončka in sedaj ga je po malem včasi še nalašč podražila, hvaleč ljubeznivost in zgovornost in druge lepe lastnosti svoje prijateljice, ki je na Podvinu, dobra dva streljaja proč od Pridanovih, pod gorico.</p>
+            <p n="SLV10008.189">Posestvo »Podvin« je bilo sicer skraja kmetsko, vendar sedaj že v rokah drugega gosposkega gospodarja, hiša, z novimi opekami krita, z zelenimi okni in ograjena s cvetličnimi gredami — vse, kakor za zabavno poletensko stanovanje. Kupil je bil to selišče od prejšnjega posestnika že tast pristavov, kateri je prej sam s svojo ženo sem zahajal, po svoji smrti pak zetu prepustil.</p>
+            <p n="SLV10008.190">Tako je bilo naravno, da Nikolaj iz svojih prejšnjih, doma prebitih časov sedanjih poletnih prebivalcev ni poznal, razen pristava samega.</p>
+            <p n="SLV10008.191">A slučaj je hotel, da se tudi sedaj dolgo ni seznanil, da je že tri tedne skoro vsak dan zahajal k Pridanovim Tončko obiskavat, a ni njene prijateljice, gospice Luize, tako blizu stanujoče, niti poznal, dasi je v svojo tiho in sedaj enkrat zdraženo jezo toliko in toliko o njej slišal. Vzroka temu sta bila dva: prvič je bilo naključje tako, da je gospodična baš tačas k Pridanovim prihajala, kadar njega ni bilo, drugič pa ni mogla vsak dan prihajati, nego je celo po več dni čisto izostala, ker je bila njena sestrična, pristavova žena, morda zaradi premenjenega podnebja bolj obolela, dasi je bila sem prišla zdravit se.</p>
+            <p n="SLV10008.192">»In zakaj si hud, če Luizo v misel jemljem?« vpraša deklica zopet čez nekoliko minut, potem ko sta že druge reči obravnavala in je bil Nikolaj, skrbno kakor tat ozrši se okoli, deklici poljub ukradel. »Ona je dobra in jaz jo imam rada.«</p>
+            <p n="SLV10008.193">»Jaz pa nečem, da bi jo rada imela,« reče on naivno resen in tihotno.</p>
+            <p n="SLV10008.194">»Zakaj ne?« šepeče ona.</p>
+            <p n="SLV10008.195">»Zato, ker hočem, da samo mene rada imaš, samo mene,« reče strastno on in od radosti tresoča se deklica ni imela moči braniti se njegovemu objet ju.</p>
+            <p n="SLV10008.196">Verjela je, da jo ljubi. In on — on je tudi verjel, da jo ljubi. Na veke, to se ve.</p>
+         </div>
+         <div type="chapter">
+            <head>IX</head>
+            <p n="SLV10008.197">Nazadnje je vendar, čeprav že v četrtem tednu Nikolajevega bivanja na domu, slučaj nanesel, da je z gospico Luizo sešel se, in sicer pri Tončki jo je našel. In kakšno je bilo to prvo seznanje? Njemu nič prijetno.</p>
+            <p n="SLV10008.198">Vesel in brezskrben, kakor je zmerom bil, prišel je po vrtni stezi dol, žvižgal si pesem »Hej Slovani, naša reč slovanska živo klije« in mahal s svojo paličico, da so obsteznim travnim cvetkam glave odletale.</p>
+            <p n="SLV10008.199">Zdajci pogleda na stran in zagleda, da je bil morda že dalje časa opazovan Zardi in obstane za hip. Na vrtu pod jablano sta stali Tončka in krasna mlada dama. Nikolaj je takoj vedel, kdo to mora biti, saj ni bilo precej daleč okoli civilnih ljudi. Najrajši bi bil mimo šel, a to se ni spodobilo, torej nekako v zadregi in neveselju pristopi in pozdravi deklici.</p>
+            <p n="SLV10008.200">»Moj bratranec — gospodična Vit ...« predstavlja Tončka malko nerodno, ker takih, le v mestu videnih in navadnih šeg tako imenovanega boljšega obnašanja ni bila vajena. Nikolaj se prikloni, a nobena primerna beseda mu v prvi hipec na misel ne pride. Bil je ženstva še malo vajen in tukaj ga je tudi nenavadna, ponosna lepota predstavljene mu mlade dame nekoliko iznenadila.</p>
+            <p n="SLV10008.201">»Pravzaprav je predstavljanje odvisno, ker smo tako rekoč že znani; prvič smo tu na kmetih, kjer se izobraženi ljudje sami po sebi morajo zbližati, ker jih je malo, drugič pa sem jaz o gospodu od tebe že toliko slišala, Tončka, in ti si mi sama pravila, da si tudi njemu o meni govorila,« reče ona in svoje preko desnega ramena viseče lepe kodre z roko na pleča nazaj vrže.</p>
+            <p n="SLV10008.202">»Večkrat, gospodična,« odgovori Nikolaj, a zardi, morda zaradi slabe vesti, ker je Tončki bil prepovedal o njej govoriti mu, prepoved, o kateri je, to se ve da, sam z raznim vpraševanjem skrbel, da se ni izpolnjevala.</p>
+            <p n="SLV10008.203">»S Tončko sva ravno govorili, da naredimo enkrat, kadar moj svak pride, izlet na Brinovo brdo. Vi pojdete z nami, na to se sme računati, ne li?« vpraša ona takoj domača z njim, vendar z nekim prevladnim glasom, ki je Nikolaja nekako poniževal.</p>
+            <p n="SLV10008.204">»Bil sem predvčeranjim gori na lovu,« odgovori on.</p>
+            <p n="SLV10008.205">»Na lovu! Ali to ne izključuje, da pojdete tudi tačas, kadar idemo mi samo na zabavni izlet.«</p>
+            <p n="SLV10008.206">»To se razume, da, če me bodo gospoda povabili, bode mi čast in veselje,« reče on tudi nekaj bolj z višjim glasom.</p>
+            <p n="SLV10008.207">»Sicer pa vaju jaz motim. Vidva imata svoje pogovore,« deje ona, a pogleda s čudnim nasmehom in prebodljivim očesom Nikolaja.</p>
+            <p n="SLV10008.208">»Pridi jutri kaj k nam,« reče že odhajaje še Tončki.</p>
+            <p n="SLV10008.209">Nikolaj je gledal za njo.</p>
+            <p n="SLV10008.210">»Kako ti je po volji moja prijateljica?« vpraša deklica.</p>
+            <p n="SLV10008.211">»Nekaj ošabnega ima ta ženska v sebi, kar mi jo močno odvrača. Ko bi bil jaz ti, moja prijateljica ne bi bila,« reče on.</p>
+            <p n="SLV10008.212">»Ni li lepa?«</p>
+            <p n="SLV10008.213">Tega Nikolaj ni mogel tajiti, zato je dejal na pol zaničljivo le besedico: »No!«</p>
+            <p n="SLV10008.214">»Nobene ni lepše, kakor je ona,« reče deklica smeje se ter povesi oči, morda pričakujoča natihoma v svojem srcu, da bode on rekel: »Le ti si meni lepša.«</p>
+            <p n="SLV10008.215">Ali tega ni rekel. Tih je bil in čez nekaj časa vprašali:</p>
+            <p n="SLV10008.216">»Ali so oče doma?«</p>
+            <p n="SLV10008.217">»Ni jih, v vas so šli nekaj kupovat.«</p>
+            <p n="SLV10008.218">To je bila zopet proza in takih vprašanj je bilo več, kratkih, brez zveze in brez zanimanja.</p>
+            <p n="SLV10008.219">»Rekla je, da si večkrat o meni z njo govorila,« odskoči Nikolaj zopet od navadnih predmetov. »Kako si govorila?«</p>
+            <p n="SLV10008.220">»Jaz te ne razumem. Kako?«</p>
+            <p n="SLV10008.221">»Nu, kaj si pripovedovala tej visokonosi dami? Mogoče, da si me včasi tudi kaj zatožila, če ti nisem kaj prav storil. Si li?«</p>
+            <p n="SLV10008.222">»In ko bi te bila?« vpraša smeje se.</p>
+            <p n="SLV10008.223">»Da bi mi ljubo ne bilo, to veš, če ti povem, da mi ni po volji,« reče on z resnim glasom.</p>
+            <p n="SLV10008.224">»Ne moreš li vedeti, ''kako'' jaz govorim o tebi, če govorim?« vpraša ona tudi resna in skoro žalostna.</p>
+            <p n="SLV10008.225">On nekaj časa zre predse, sam ne vedoč, o čem premišlja, "potem, kakor da bi se zdramil, pogleda deklico in, videč jo tako, oklene ji naglo roko okoli vratu in jo z vso ljubeznijo po imenu pokliče. Domov gredočemu in zvečer mu je pa po glavi šla tudi podoba one ošabne dame. Primerjal jo je s svojo Tončko in si je prigovarjal, koliko je ta bolj prava ženska, ona pa nekaj afektiranega, naučenega, ošabnega, visoko se nosečega, morda puhlega, brezsrčnega itd. Ko je Nikolaj drugo jutro vstal, slišal je, da je star kmet na dvorišču z njegovim očetom govoril in dejal:</p>
+            <p n="SLV10008.226">»I, oče, oče Luka, vi ste pa vendar zmerom in zmerom okoli dela in prida.«</p>
+            <p n="SLV10008.227">»Mora se, brez dela ni jela,« odgovori stari Kolodej.</p>
+            <p n="SLV10008.228">»Kajpak! če vi tako govorite, kaj čemo potlej mi drugi? Vi se brez skrbi lahko uležete v travo v senco pod hruško, pa belega kruha zraven sebe denete in meseno klobaso.«</p>
+            <p n="SLV10008.229">»Kdo bi pa gospodaril?« vpraša stari Kolodej, ki sicer nikakor ni zamerjal, če je kdo' njegovo premožnost v misel jemal.</p>
+            <p n="SLV10008.230">»Sina oženite, sina,« odgovori oni. Kolodej nekaj nerazumljivega zamrmra. Nikolaj pa v svojem poslušku ostrmi. Oženiti ga! Njega? Glej, p tem pa resno do sedaj ni še mislil sam nikoli.</p>
+         </div>
+         <div type="chapter">
+            <head>X</head>
+            <p n="SLV10008.231">Nekaj dni sem je bil Nikolaj opazil, da mu stric — tako je oddaljenega sorodnika od mladega klical — Pridan nekako hladno odzdravlja, da se ogiblje z njim govoriti, da nosi obraz okoli, kakor bi bil kaj jezen nanj. To se je Nikolaju čudno zdelo, ker si ni bil v svesti, da bi mu bil kaj zalega storil.</p>
+            <p n="SLV10008.232">Skoraj pak je prilika nanesla, da je izvedel vzrok tega Pridanovega obnašanja.</p>
+            <p n="SLV10008.233">Po navadi je bil namreč prišel vasovat. Hlapec zunaj mu je rekel na vprašanje, da se mu zdi, da strica ni doma. Nikolaj je torej ves pogumen v sobo stopil, kjer je Tončka bila, prijel jo in po sili poljubil dvakrat zavrstjo, kar zagrmi za njim očeta Pridana debeli glas: »Tako?!« Nikolaj se zgane in zardi, obrnivši se. Oba mlada človeka stojita kakor dva naglavna grešnika, brez jezika in izgovora, Pridan pa sivo pogleduje zdaj njega, zdaj njo.</p>
+            <p n="SLV10008.234">»Tako je? Zdelo se mi je, a nisem mislil,« pravi naposled in migne hčerki: »Ti ven! Da midva govoriva.«</p>
+            <p n="SLV10008.235">»Oče ...« skuša deklica.</p>
+            <p n="SLV10008.236">»Tiho, pravim, kasneje že še tudi ti na vrsto prideš; sedaj ven, precej!« Deklica odide.</p>
+            <p n="SLV10008.237">Nikolaj ni vedel, kaj bi rekel, zatorej je čakal, da bi stric začel. Pridan koraka dva pota po izbi in pipo tlači. V usta devši jo in tobakov mehur zavijajoč, reče tele resne besede:</p>
+            <p n="SLV10008.238">»Veš, fant — nosi gosposko suknjo ali kmetsko coklo, jaz ti ne bom drugače rekel — takole ne smeš kratko ni malo v mojo hišo hoditi. Jaz imam samo eno hčer, a ko bi jih imel tri kope, vsaka bi bila predobra, da bi jo izpriditi pustil takemu mlademu vetrniku, ki ne premisli, kaj dela in kaj govori.«</p>
+            <p n="SLV10008.239">»Jaz nisem noben vetrnik,« skoči Nikolaj, od jeze ohrabren in razžaljen, pokonci.</p>
+            <p n="SLV10008.240">»No, kdo pak si, če mi tule v hišo hodiš in s punco ...«</p>
+            <p n="SLV10008.241">Oče ni našel prave besede; robate ni smel rabiti iz spoštovanja pred svojo hčerjo, katero je rad imel, in tudi da njemu ne bi pohujšanja dajal. Zatorej stavek pretrga in misel opusti ter dostavi:</p>
+            <p n="SLV10008.242">»Ti delaš kakor mlad dečak, pa ne pomišljaš predse nič, ne presojaš, kaj gre v pošteni hiši in kaj biti ne sme, če ni zanaprej zmenjeno in gotovo tako, kakor je pri poštenih in krščanskih ljudeh. To je in amen.«</p>
+            <p n="SLV10008.243">»Kdo je rekel, da ne premišljam! Jaz bom Tončko za ženo vzel in ne vem, čemu bi branili.«</p>
+            <p n="SLV10008.244">Pridan se proč obrne, morda svoj zadovoljni obraz skrit, potem pa vpraša:</p>
+            <p n="SLV10008.245">»Ali si premislil, kaj praviš?«</p>
+            <p n="SLV10008.246">»Sem,« odgovori Nikolaj, a ne posebno pogumno, kajti, po pravici rečeno, o tem ni razen zadnjič, ko je čul razgovor onega kmeta s svojim očetom, nikdar še dobro in temeljito premišljal. Kako bi bil? Vendar ni vedel, da bode prišel na tako hitro in naglo spovedovanje, kakor je bil zdaj.</p>
+            <p n="SLV10008.247">»To bi bilo že drugače, to je res,« reče zdaj Pridan. »Jaz te poznam, da si vselej priden in vesten bil, človek, ki ima boga pred očmi in ni brez poštenja. Zato ti moram verovati, da si in da bodeš mož, ki ve, kaj je govoril in komu je obljubil, kar si ti zdaj meni.«</p>
+            <p n="SLV10008.248">Nikolaj reče nekaj takega, kakor da do sedaj še nihče ne more reči, da bi mu bil on besedo snel.</p>
+            <p n="SLV10008.249">»Ve li tvoj oče, da se misliš ženiti in pri nas?« vpraša Pridan mehko.</p>
+            <p n="SLV10008.250">»Nič ne,« odgovori Nikolaj z neprijetnim čutom.</p>
+            <p n="SLV10008.251">»A povedati mu moraš.«</p>
+            <p n="SLV10008.252">Nikolaj z glavo; zmaje.</p>
+            <p n="SLV10008.253">»Zakaj ne, brez tega ni nič, oče mora vedeti, on je prvi,« razlaga Pridan.</p>
+            <p n="SLV10008.254">»Jaz ne morem takih reči z očetom govoriti, saj ga poznate,« izvleče Nikolaj nekako težko iz sebe.</p>
+            <p n="SLV10008.255">Pridan se zopet nekaj časa proč obrne, potem pa, ponosno svojo vestjo na trebuh dol popravljaje, pravi:</p>
+            <p n="SLV10008.256">»Nu, če si ti ne upaš — Luka je res malo čuden, ali rad te ima vendar, to vem — to bom pa jaz zinil, jaz vem, kako se more potipati ga.«</p>
+            <p n="SLV10008.257">Potem pride več lepih naukov, kaj in kako se spodobi, koliko pa zdaj ne gre po krščanski postavi v pošteni hiši. Tudi nekaj trdih kletev je Pridan priložil v zatrjenje, kako bi on znosil se nad takim, ki bi glede njegove hčere ... že veste kaj. Naposled pa vrata odpre in zakliče, da se po vsej hiši razlega njegov bas:</p>
+            <p n="SLV10008.258">»Tončka!« Deklica plahoma po stopnicah dol pride in stopi na prag, sluteča in boječa se, da sedaj nanjo pride očetov grom. A namesto hude besede reče oče z navadnim glasom:</p>
+            <p n="SLV10008.259">»Poglej sem, dekle, s klobukom sem ti tu na oknu vršiček tvojega rožmarina zlomil, popravi ga precej, da se ne usuši.«</p>
+            <p n="SLV10008.260">Rekši, odide iz izbe.</p>
+            <p n="SLV10008.261">Iznenadena deklica popravlja Svojo cvetko v loncu, plahota iz nje izgine, rdečica jo oblije in upa si pogledati ljubega, ki jo smehljaje ogleduje nepremično sedeč.</p>
+            <p n="SLV10008.262">»Kaj so ti oče rekli?« vpraša ona naposled tiho.</p>
+            <p n="SLV10008.263">»Nič. Dogovorila sva se,« odgovori Nikolaj, kakor da bi bil popolnoma mirnokrven ali pa nekako s takim hladnim ponosom kakor kdo, ki je baš v tem hipu z majhnim trudom velikansko delo zvršil.</p>
+            <p n="SLV10008.264">»Kaj — dogovorila?«</p>
+            <p n="SLV10008.265">»Da te jaz za ženo vzamem, zatorej smem poljubljati te, kolikor hočem.«</p>
+            <p n="SLV10008.266">Deklica ga srpo pogleda, obledi, zardi — in pade presrečna na kolena pred sedečega.</p>
+         </div>
+         <div type="chapter">
+            <head>XI</head>
+            <p n="SLV10008.267">Drugo jutro je dobil Nikolaj od svojega očeta nalog, zapreči voz in v mesto voziti se, da plača neke večje vsote denarja, katere stari ni hotel hlapcu zaupati, ali pa je sina poslal, da ga navadi v poslovanju. Obenem mu je bilo naročeno mnogo manjših reči, tako da je mogel stoprav drugi dan domov priti. Zato ni bil nič pri Pridanu.</p>
+            <p n="SLV10008.268">Med potom v mesto, ko je spehan konj, v klanec vozeč, počasno korakaje, glavo nekoliko povesil, razpustil je bil tudi Nikolaj vajete in s konjem vred premišljal; konj je mislil, vedi Darwin o čem, Nikelj pak o včerajšnjem dnevu.</p>
+            <p n="SLV10008.269">In zdelo se mu je, da ni prav zadovoljen. Vse je prenaglo prišlo. Tako brž ženiti se! Mudi se prav nič še! In kaj njegov oče — ta čudni mož — k temu poreče? Nazadnje se bode še zasmejal po svoje ali se celo jezil, kar ni potrebno, še manj pa prijetno. Vrag vzemi strica Pridana, da je baš ob takem času prišel! Ko je enkrat videl in zvedel, potem, to se ve, da ni bilo mogoče drugače ravnati; Nikolaj se je moral moža izkazati. Ko bi se bila stvar dala le malo odložiti še, pa bi bilo bolje. Sicer bi bilo pa res lepo, ah, in krasno življenje, ko bi bila Tončka že precej njegova, to je res. A kakova žena bode? O tem prej ni še mislil. Dobra. Samo ko bi ... E, kaj, bode že kako!</p>
+            <p n="SLV10008.270">Medtem je bil konj po klancu do vrha na ravno prišel, voznik se vzpne, nategne vajeti, konj se domisli, da ga krepka roka vlada, in brzo ubere hiter dir pod nogami, da hladilna sapa Nikolaju preko ušes zapiše in mu težke misli odnese.</p>
+            <p n="SLV10008.271">Ob istem dnevu, le kasneje proti večeru, pak je sedela mlada Tončka gori pred vilo na Podvinu pri svoji prijateljici, gospodični Luizi. Malokdaj je bila tu, ker morala je vendar doma gospodinjiti, čeravno siljena ni bila. Ali kadar je bila tu, brigala se je močno za rože in cvetice, ki so bile v gredah pred hišo, brigala se za divjo trto, ki je ob zidu do strehe rasla, in stopala je rada sem ter tam.</p>
+            <p n="SLV10008.272">Danes pak nič tega. Prijateljica ji je poznala, da nekaj ima; to se ji je videlo na ustih. A čakala je hudomušno, da bi sama začela pripovedovati, kaj je novega. Ni se motila. Tončka je počasi začela, bila izpraševana potem in nazadnje naglo vse povedala — radostno novico, da je nevesta!</p>
+            <p n="SLV10008.273">Ko bi bila srečna deklica boljša opazovalka, a ne tako v svoje srčno čutilo utopljena, zapazila bi bila, da se je gospodična zganila od začudenja in ji je prvi hipec oko prav čudno zaiskrilo se.</p>
+            <p n="SLV10008.274">»Tako?« zavzame se gospodična s čudom in vpraša: »Ali ni malo prehitro?«</p>
+            <p n="SLV10008.275">»Zakaj?« vpraša deklica osupnjeno.</p>
+            <p n="SLV10008.276">A ona vzrokov povedati dolžna ostane. Tudi baš v tem hipu zakašlja v izbi njena tovarišica, bolehna gospa pristavova; zato se spne oh zidu in jo skozi odprto okno vpraša, če kaj želi.</p>
+            <p n="SLV10008.277">»Posedi, skoraj pridem nazaj,« reče — potem skoči v hišo in je precej dolgo ni nazaj. Tončka je mirno sedela na klopci, zrla v trnovo mejo, kjer so vrabci vpili; a ni slušala vrabcev, njene misli so bile daleč proč.</p>
+            <p n="SLV10008.278">S svojo polspleteno nogavico v belih prstih pride gospica zopet nazaj, sede k Tončki in začne čisto navadne reči izpraševati, skakaje sem ter tja, od nič do nič. Naposled vpraša:</p>
+            <p n="SLV10008.279">»Ali še misliš o našem izletu enkrat kako dopoldne ali nedeljo, kadar moji svak pride sem?«</p>
+            <p n="SLV10008.280">»Da.«</p>
+            <p n="SLV10008.281">»To se ve, da pojde tvoj ženin z nami.«</p>
+            <p n="SLV10008.282">In takoj je začela zopet o neki novi obleki razpravljati. Tončka si sama ni upala več besede obrniti na ono, kar ji je prej zaupala tako iz srca in duše. In vendar bi bila tako rada in rada govorila, veliko govorila o tem s prijateljico. Zakaj se ji to tako malo važno zdi?</p>
+            <p n="SLV10008.283">Prvič v svojem življenju je čutila, čeprav si o tem čutu z mislijo ali besedami ne bi bila mogla razjasnila dati, kako je nemilo polnemu srcu, če je tudi ''sreče'' polno, če nima prijateljske odprte duše poleg sebe, kateri se brez skrbi sme odkriti.</p>
+            <p n="SLV10008.284">Nagloma vstane in reče: »Jaz moram iti.« »Že?« vpraša Luiza hladno. »Kasno je.« »Lahko noč.«</p>
+            <p n="SLV10008.285">Nocoj je bil prvi večer, da ji ni gospica Luiza rekla: jutri zopet pridi.</p>
+            <p n="SLV10008.286">Imela je namreč svoje misli in včasi človek najrajši premišlja na samem.</p>
+         </div>
+         <div type="chapter">
+            <head>XII</head>
+            <p n="SLV10008.287">V velikem uljnjaku pri Kolodeju je bilo samo letos dve sto novih rojev. Torej je oh lepem vremenu, kakršno je bilo v nedeljo popoldne, pred panji tako gosto šumelo čebel v zraku kakor črn oblak. V sredi tega oblaka izletajočih in s paše priletajočih čebel je stal stari Luka Kolodej, z eno roko držal pipo v ustih, drugo pa v žepu imel in široko razkoračen gledal venomer v panje pridne živalce.</p>
+            <p n="SLV10008.288">»Opikale te bodo,« reče Pridan, ki okoli uljmjaka pride, a bolj pri strani postoji.</p>
+            <p n="SLV10008.289">»Kajpak!« odgovori Luka, a se ne gane.</p>
+            <p n="SLV10008.290">Po tem moževskem pozdravu in odzdravu oba soseda vsak na svojem mestu obstojata mimo; vendar je Luka Kolodej močno sam pri sebi ugibal, kakov bes je prinesel Pridana ob tej uri k njemu — Pridan je pak premišljal, kako bi začel o tem govoriti, kar je bil namenjen; sicer ni bil nikdar za besedo v zadregi, črtal je celo časopise, ali današnja stvar je bila bolj sitne vrste.</p>
+            <p n="SLV10008.291">»Tobak sem doma pozabil,« reče Pridan in dvakrat loputne po stegnih, da je drobni denar v žepih bahato zažvenkljal.</p>
+            <p n="SLV10008.292">»Na!« Rekši, vrže Kolodej svojo irhasto mošnjo tobaka iz oblaka čebel ven proti sosedu. A ker je bil pri tem z roko zamahnil, zažene se mu ena čebelica v lase in raje jezno, da bi do kože prišla. Skočen stari Luka uide iz roja ven, ali sovražnica ga podi in ne odneha, preden mu žela ne pusti v čelu.</p>
+            <p n="SLV10008.293">»Te je? Te je? Kaj sem ti pravil,« vpije Pridan, pristopi in z veščo roko potegne sosedu želo iz kože.</p>
+            <p n="SLV10008.294">»Med imajo, pa se boje zanj, zato so hude,« reče stari Luka hladnokrvno, kajti njegove čutnice so bile vsega vajene.</p>
+            <p n="SLV10008.295">»I mene! Veš, da je stari pregovor, da so čebele hude zato, ker so ženske. Trot nima nobeden žela. Le ženska pika. Kakor so nas pikale naše, saj veš, bog jim daj nebesa. A smo jih vendar radi imeli, ženske, ko smo bili mlajši, vedi ga vendar ...« smeje se Pridan.</p>
+            <p n="SLV10008.296">»Beži, beži!« posvari ga starejši sosed.</p>
+            <p n="SLV10008.297">»E, kaj se boš delal, kakor da bi bil od nekdaj mrzel. Kar tiho bodi. Tako je bilo in bode. In je še, Luka, tako je še!«</p>
+            <p n="SLV10008.298">»Kaj?« vpraša z začudenjem oni.</p>
+            <p n="SLV10008.299">»Ne mislim tebe ali sebe; ali poglej: ti imaš sina, ta že gleda, kako bi ... in nu, kaj ti bom pravil, saj veš.«</p>
+            <p n="SLV10008.300">»Nič ne vem. In pazi naj se. Komaj je otroške hlače sezul fant.«</p>
+            <p n="SLV10008.301">»Kajpak! Jaz pa rečem, če ga prej oženiš, bolje storiš. Če ga pa nečeš, potlej ga pa v strah vzemi, veš, ker jaz nečem, da bi-doli okoli mojih oglov hodil. Povej mu to.«</p>
+            <p n="SLV10008.302">»Okoli ...?«</p>
+            <p n="SLV10008.303">»Moje hčere, no, če že moram sam povedati,« zahuduje se Pridan osorno, kakor da bi mu bil sosed Luka bogzna kako krivico storil.</p>
+            <p n="SLV10008.304">»Moj fant?« zavzame se ta.</p>
+            <p n="SLV10008.305">»Tvoj, tvoj!«</p>
+            <p n="SLV10008.306">»Pu-u!«</p>
+            <p n="SLV10008.307">»Nu, veš, takega ga ni na svetu, da bi jaz svojo hčer za njim lučal. Ti stori, kar hočeš. Vem, da te ni še volja gospodarstva prepustiti mu. Ali za zdaj mu lahko prepustiš malin.«</p>
+            <p n="SLV10008.308">»Komaj je domov prišel.«</p>
+            <p n="SLV10008.309">»Hitro je, hitro. Ali baš zato ni, da bi odlagali in cincali. Kar se hitro začne, mora hiter konec imeti, pravijo, drugače se ne skonča dobro. Meni samemu ni po volji, da je tvoj sin že zdaj tako brž k meni snubit prišel, in še brez tebe. Stori, kar moraš.«</p>
+            <p n="SLV10008.310">Luka Kolodej je glavo povesil in venomer gledal v eno travico, a molčal. Sosed mu je govoril nadalje, a on je premišljal in molčal. Videlo se mu je, da mu cela stvar ni pogodu, vendar povedal tega ni, ker sosedu nasproti je bil previden, kajti duševno je bil Pridan nad njim, to je vselej čutil in zato se je med vsemi samo tega soseda nekako bal.</p>
+            <p n="SLV10008.311">Dva žandarja prideta mimo, pozdravita župana Pridana in obstaneta. Luka Kolodej je kot bogatin imel od nekdaj nekovo posebno spoštovanje pred temi čuvaji javne sigurnosti, zato jih je vselej z vinom in slanino pogostil. Tudi danes ni umanjkal, dasi ni tako prijaznega obraza delal kakor druge krati.</p>
+         </div>
+         <div type="chapter">
+            <head>XIII</head>
+            <p n="SLV10008.312">Nikolaj je, ko je v šolah bil, pridno učil se tega, kar je imel učiti se dolžnost, a tudi sam je mnogo čital, torej je bil iz samouka izobražen bolj, nego bi bil kdo pričakoval od njega, ki je vedno v svobodi in obilici živel in ni roditeljev imel, kateri bi ga bili zmožni v tem nadzorovati in priganjati.</p>
+            <p n="SLV10008.313">Ko je torej od dne do dne bolj zapazil, da njegova nevesta, Tončka, tega in onega še ne zna, sklenil jo je sam »izobraziti« in mislil, da se bode od njega naenkrat vsega naučila.</p>
+            <p n="SLV10008.314">Mogoče je, da ga je nagibalo to, da je videl, ko je gospica Luiza mnogokrat bila pri njej, razloček med njima. Primerjal je duševne zmožnosti ene in druge in je do želje prišel, da bi to in ono njegova Tončka tako razumela ali pa morda še bolje kakor ona mestna gospodična. Kot dober domoljub, to se ve, da je najprej bral z njo slovenske pesnike in boljše novele. Pa tudi tuje literarne stvari ji je razkazoval in razkladal. Njegovo naukovanje je bilo sicer brez sistema in brez temeljitosti, česar pa on ni opazil. Ona ga je pridno poslušala, dasi ni mogla včasi prav razumeti, čemu je to potrebno za srečno življenje, včasi pa celo ni razumela, kaj hoče ljubi s svojim ukom. A ker je od njega prihajalo, bilo ji je vendarle vse lepo, vse prav. Ni bil prav zadovoljen, če ni brzo vsega razumela in v spominu ohranila, kar ji je takega pripovedoval, a ni pomislil, da je bil morda on slab učitelj ali pa da je deklici manjkalo dovolj znanostne podloge, da bi bilo možno ono razumljenje.</p>
+            <p n="SLV10008.315">Enkrat ji je razlagal, kaj je »ideja«, lovil primerne izraze od tu in od tam, prav razumljivo in temeljito. Ali na koncu je videl, da ga je bolj z očmi nego z ušesi poslušala. Tedaj je pač malo nevolje pokazal, ali ona se mu je tako ljubo nasmehnila in s poljubom nevoljo mu odvzela. Da Tončka v izobraženju ne bode dosegla svoje gosposke prijateljice, to se mu je kmalu gotovo zdelo, a domišljal se je pregovora: če ima ženska preveč v glavi, ima premalo v srcu. Dobro srce pa je prva stvar pri ženski, brez tega nič in nič. To je bilo njegovo istinito in prvo prepričanje in s tem se je tolažil, če se sme tukaj sploh o kakovi tolažbi govoriti.</p>
+         </div>
+         <div type="chapter">
+            <head>XIV</head>
+            <p n="SLV10008.316">Pridan je bil Nikolaju povedal, da je z očetom govoril zaradi ženitve, pa da ni bil protiven. Stari pa sinu o tem več tednov ni nič omenil, kar je bilo temu najljubše, ker ni si mogel misliti, kako bosta s trdim očetom o takih mehkih rečeh govorila. Kmalu je videl. Sedela sta po večerji še vkup.</p>
+            <p n="SLV10008.317">»Tako, ti se ženiš, pravijo,« začne stari.</p>
+            <p n="SLV10008.318">Nikolaj zardi, a nič ne odgovori.</p>
+            <p n="SLV10008.319">»Mudi se ti res!«</p>
+            <p n="SLV10008.320">Zopet molk, ker sin ne odgovarja, misleč: to naj le stric naredi z očetom.</p>
+            <p n="SLV10008.321">»Zato ker si star in se ti je treba bati, da bi skoraj nobene ne dobil!« nadaljuje starec čez nekaj časa.</p>
+            <p n="SLV10008.322">Zopet molk.</p>
+            <p n="SLV10008.323">»I, kaj vendar misliš?«</p>
+            <p n="SLV10008.324">Nekaka jeza poprime sina, da vstane in reče: »če menite, da se naj ne, ne bodem se in konec je, jaz nisem silil.« Hoče oditi.</p>
+            <p n="SLV10008.325">»Počakaj! Kaj ne moreš malo posedeti? Naspal se boš že! Budi te nihče. Zamudiš nič, kaj ne bi počakal?« Nikolaj sede.</p>
+            <p n="SLV10008.326">Zopet oba molčita. Stari bobna po mizi ter primajuje s sivo glavo, sin na sveči dolgo prižiga cigaro.</p>
+            <p n="SLV10008.327">»Ne. A ti ne smeš že zdaj tako odločno proti meni postavljati se. Glej, ljubica moja mala, kaj bode še kasneje iz tebe, ko bodeš moja žena, če mi že zdaj zanikavaš.«</p>
+            <p n="SLV10008.328">Ona zmaje z glavico, a odgovoriti ne more. Tiha, nevidena, zatrta solzica ji zarosi oko.</p>
+         </div>
+         <div type="chapter">
+            <head>XV</head>
+            <p n="SLV10008.329">Gospod pristav ''Kralj'' je bil dobil od svoje službe odpust in je prišel k ženi in svakinji na kmete.</p>
+            <p n="SLV10008.330">Z Nikolajem je bil nekoliko že prej znan, a bolj se je seznanil zdaj, na kar je bil tem bolj prisiljen, ker moškega omikanega društva tu ni bilo na izbiranje.</p>
+            <p n="SLV10008.331">Nekega popoldne sta v gošči na gori pod samotno smreko ležala, puške poleg sebe. Po brezuspešnem lovu sta svoj lovski obed končajla in pila s seboj nošeno dobro kapljo.</p>
+            <p n="SLV10008.332">»Ženske so mi sinoči pripovedovale, da se že ženite, gospod Kolodej,« začne pristav, sicer človek, ki je le potrebne in vsakdanje stvari ž njimi govoril. Nikolaju je beseda »že« na neljubo uho udarila, zato je kratko odrezal se z »da!«</p>
+            <p n="SLV10008.333">Gospod Kralj dene komolec pod glavo, gleda proti nebu in reče z nekim neznosno vsiljivim glasom:</p>
+            <p n="SLV10008.334">»Vi ste zdaj strašno zaljubljeni, strašno!«</p>
+            <p n="SLV10008.335">Nikelj je bil še premalo znan ž njim, drugače bi mu bil ostro odgovoril, a tu je rajši molčal. Hitro pristav pokonci skoči, odklene svoj žepni nož in zareže v gladko smrekovo deblo velik križ, glasno se zasmeje in zopet leže.</p>
+            <p n="SLV10008.336">»Kaj se smejete?« vpraša Nikolaj.</p>
+            <p n="SLV10008.337">»Vidite križ, ki sem ga v smreko zarezal?«</p>
+            <p n="SLV10008.338">»In kaj s tem?«</p>
+            <p n="SLV10008.339">Gospod Kralj zopet leže, dene komolec pod glavo in z lahkomiselno obžalujočim vzdihljajem reče:</p>
+            <p n="SLV10008.340">»Mladost, mladost! Pridite čez deset let semle, poglejte to smreko, tačas bode ta križ velik in zasmoljen. In domislite se, da ste danes tu ležali zaljubljeni pred ženitvijo in da sem se jaz smejal. Tačas boste vedeli, zakaj sem se jaz smejal. Godilo se vam bode kakor nam vsem. Meni je bilo ravno tako, ko sem zaljubljen bil.«</p>
+            <p n="SLV10008.341">»Niso povsod enake razmere niti enaki ljudje,« reče Nikolaj pikro.</p>
+            <p n="SLV10008.342">»Vi mislite mene, kakor sem zdaj. Ali krivo sodite. Jaz ne mislim razmere z mojo zdanjo ženo, ki je res zaradi svoje bolehnosti precej sitna. Z njo sem naredil stvar bolj po paragrafu državljanskega zakonika. Ali drugače je bilo prej, ko smo bili mlajši, ko sem bil v vaših letih. Da, vi, ki me vidite in poslušate zdaj, ne bi verjeli, da sem nekdaj bil kakor vi zdaj, da sem čutil neprijetno resnico Schefflovega, Trompeterja:</p>
+            <p n="SLV10008.343">Liebe ist ein schlimmes Feuer, frißt den, so es angeblasen.</p>
+            <p n="SLV10008.344">Poznate Schefflovega ,Trompeterja Säkkinskega?«</p>
+            <p n="SLV10008.345">»Ne,« odgovori Nikolaj.</p>
+            <p n="SLV10008.346">Pristav pa mu kakor nalašč citira ona dva nemška verza zopet in zopet. Za ta dan je bila dobra volja Nikolajeva izgubljena. Na potu domov je največ molčal in, ko bi si bil upal, bil bi »materialistu« pristavu, ki je razne prazne šale uganjal, odkrito svoje zaničevanje izpovedal.</p>
+            <p n="SLV10008.347">Žarek ogenj je ljubezen, uje te, ki si ga vpihal.</p>
+            <p n="SLV10008.348">Vedno pa sta mu šumela po ušesih ona dva nemška verza. Še zvečer, ko se je ulegel spat, ponavljalo se mu je v spominu, kakor da bi kdo na ulične vrtilne orglice muziciral: »Liebe ist ein schlimmes Feuer, frißt den, so es angeblasen.«</p>
+            <p n="SLV10008.349">In začel je premišljevati, da Ii je njegova ljubezen taka. Zazdelo se mu je — da ni. Kje je v njem tak ogenj? — Morda ... vsa ta njegova ljubezen ni prava in cela ... In kako se sme potem za celo življenje vezati? ... Morda ... on sploh ljubezni, kakor polni in objema druga blaga srca, sploh zmožen ni? ... Tako je mladenič premišljal in nemirno se je prekladal brez spanja. Črv dvoma se je oglasil.</p>
+            <p n="SLV10008.350">Uboga Tončka! Morda srečna v tem hipu moliš za njegovo zdravje in srečo njegovo.</p>
+         </div>
+         <div type="chapter">
+            <head>XVI</head>
+            <p n="SLV10008.351">Brinovo brdo je bila nevisoka gora pol ure od torišča naše povesti. Na vrhu je stala kapelica, zidanje nekdanje stare graščakinje iz obližja, o kateri je pripovedka trdila, da je kot mlada vdova razkošno živela in vsa veselja uživala, zato pa na stara leta zidala na Brinovem brdu kapelico na čast svetemu Antonu.</p>
+            <p n="SLV10008.352">Pobožno ljudstvo je hodilo ob nekih dnevih v letu tu gor na božji pot; drugi bolj posvetni ljudje so hvalili lep razgled z gore na jug in na sever po deželi ter narejali tja izlete. Tako se je bil tak izlet po prizadevanju gospoda pristava tudi to jesen naredil. Bazen naših mladih znancev, bolehne gospe pristavove ne izvzemši, ker je vsekako hotela zraven biti, obljubilo se je tudi od one strani gore po drugem potu priti več uradniških družin in kaplan je bil naprošen, da pride maševat. Od one strani je bila večja druščina napovedana, od te pak so zjutraj ob petih vzdignili se pristav Kralj z ženo in njeno sestrično, gospodično Luizo, Nikolaj in Tončka. Hlapec je bil že pred njimi odšel, obtovorjen z vsemi pripravami za tečen zajtrk, kateri se je imel na gori pri ognju na prostem pred kapelico pripravljati.</p>
+            <p n="SLV10008.353">Do pod gore so se vozili, potem pak je bilo treba peš korakati. Jutro je bilo krasno, nobene meglice nikjer videti. Kmalu ko so začeli navzgor hoditi, videlo se je, da bolehna pristavova žena ne more dohajati drugih, zato sta jo prijela njen mož in Tončka vsak za eno podpazduho. A še tako je šlo po polževo.</p>
+            <p n="SLV10008.354">»Midva nečeva tako počasi hoditi. Stopiva brže, nič ne de, če sva prej na vrhu,« reče gospodična Luiza Nikolaju, izroči mu svoj plčdin stopi z urnim korakom naprej. Nikolaj je tako moral tudi urneje stopiti. Ker se je steza med brinjem in češminovim ter drugim grmovjem po kačje vila, kmalu onih treh za seboj nista več videla, ko sta nazaj pogledovala.</p>
+            <p n="SLV10008.355">»Zdaj sem pa že trudna,« reče gospica, ki je do zdaj pred Nikolajem hitro navzgor stopala, ter postoji. Krasna rdečica je bila oblila njeno polno, lepo lice in labodji vrat in oči so se ji veselo iskrile.</p>
+            <p n="SLV10008.356">Ko Nikolaj do nje pride, dene mu roko pod njegovo ramo, široki rokav se odgane po belem laktu nazaj, kakršnega on še nikiar ni videl.</p>
+            <p n="SLV10008.357">»Če ste vi tako negalantni, da mi roke in podpore ne ponudite, jemljem si jo sama,« reče ona. Nikolaj kasneje ni vedel povedati, kaj je na to odgovoril. Posebno kaj pametnega menda ni bilo.</p>
+            <p n="SLV10008.358">Tu je treba dodati, da Nikolaj zaradi daljšega občevanja z gospodično ni imel več one »antipatije«, o kateri si je od početka mislil, da jo ima do nje, vendar sam ni bil še nikdar z njo. Vselej jo je našel le pri Tončki.</p>
+            <p n="SLV10008.359">»Slišite, nekaj mi morate pojasniti, gospod Nikolaj. (Ona ga je s krstnim imenom klicala, ker je od Tončke vedno tako slišala, ali pa mogoče tudi, da njegov priimek njenim mestnim ušesom ni ugajal.) Hočete?«</p>
+            <p n="SLV10008.360">»Gotovo, če morem.«</p>
+            <p n="SLV10008.361">»Prav lahko. Vi ste edini zmožni odgovoriti na vprašanje. Jaz sem Tončko vprašala, ali me bode povabila na svoje ženitovanje, Pri tej priliki pa sem zvedela, da se niti ne ve, kdaj bode. Zatorej se moram na vas obrniti.«</p>
+            <p n="SLV10008.362">»Tega pa tudi jaz natanko še ne vem,« odgovori on; ni mu bilo ljuba, da je o tem začela govoriti.</p>
+            <p n="SLV10008.363">»Kako to, da ne?«</p>
+            <p n="SLV10008.364">»Nisem še odločil časa; a tudi ni le od mene odvisno, temveč so še neke majhne razmere.«</p>
+            <p n="SLV10008.365">»Kake razmere? Le glejte, da mi nazadnje mojo ljubo, drago prijateljico še pustite in se drugod zaljubite. Tedaj, kdaj me boste povabili?«</p>
+            <p n="SLV10008.366">»Boste li vsak čas iz mesta hoteli priti?«</p>
+            <p n="SLV10008.367">»Za svojo prijateljico, svojo sestrico Tončko, pridem, kadar koli in od koder bodi. Bes! Jaz jo imam tako rada, kakor da bi mi sestra bila. Zaradi nje pridem. In nazadnje — da ne boste hudi — tudi nekoliko zaradi vas, ker menda ženin moje sestrice je vendar tudi nekoliko moj ...«</p>
+            <p n="SLV10008.368">»Moj brat... le izrecite,« dopolni on.</p>
+            <p n="SLV10008.369">»Ne ... svak sem hotela reči.« «</p>
+            <p n="SLV10008.370">»Je li to velik razloček?«</p>
+            <p n="SLV10008.371">»Velik. Sicer pa, če mi ravno hočete biti brat, nimam nič zoper to ugovarjati.«</p>
+            <p n="SLV10008.372">»In vi meni sestra?« vpraša on. »To se razume da.« »Hočem!«</p>
+            <p n="SLV10008.373">Ona se pripogne naprej in z nazaj obrnjenim obrazom mu v oči pogleda, z nepopisno sladkim nasmehom vprašaje: »Bes? Dajte roko na to.«</p>
+            <p n="SLV10008.374">Oči so se srečale z očmi. Nikolaj ni še nikdar takih videl. Niti zavedal se ni, da je stisnjeno držal njeno ročico več sekund, preden mu jo je zmuznila.</p>
+            <p n="SLV10008.375">»Vi niste nobene sestre imeli?« vpraša ona potem, ko stopata vštric naprej navzgor.</p>
+            <p n="SLV10008.376">»Nobene.«</p>
+            <p n="SLV10008.377">»In brata ne?«</p>
+            <p n="SLV10008.378">»Tudi ne.«</p>
+            <p n="SLV10008.379">»Jaz pač, ali pomrli so mi.« Zdaj mu začne ona pripovedovati svoje življenje. In lepo je znala pripovedovati.</p>
+            <p n="SLV10008.380">Ginljivo družinsko sliko mu je narisala iz svoje mladosti, ko je imela še mater, brata in sestro, kako ljubo je živela ž njimi tako dolgo, da jih je zaporedoma smrt pokosila in je ona, sirota, morala pri omoženi sestrični, gospe Kraljevi, zavetja iskati.</p>
+            <p n="SLV10008.381">Nikolaj je naenkrat spoznal tu veliko srce, ljubezni polno in ljubezni potrebno. Zanimalo ga je njeno pripovedovanje in podaljšal ga je s tem, da jo je izpraševal o tem in onem nadrobneje, a ona mu je z veliko odkritosrčnostjo na vse odgovarjala.</p>
+            <p n="SLV10008.382">Medtem sta hodila bolj počasi in on je morda nehote pod pazduho njeno roko tesneje držal nego prej. A tudi če je hote to storil, saj je smel, ni li bil odslej njen brat?</p>
+         </div>
+         <div type="chapter">
+            <head>XVII</head>
+            <p n="SLV10008.383">Ko sta na goro prišla, bilo je nekaj gospode že pred cerkvico na travi zbrane, drugih so še pričakovali. Počasi je bila cela družba skupaj in tudi pristavovo ženo sta bila njen mož in Tončka srečno dovela.</p>
+            <p n="SLV10008.384">Nečemo govoriti o pobožnosti, katera je bila pri tem in onem udu družbe med mašo videti. To bodi bogu prepuščeno. Le tolikanj naj bode naš Nikolaj zatožen pri pobožni bralki, da je jako razmišljen slonel ob zidu med sv. opravilom. A bila je Tončka tolikanj pridnejša. Ona je klečala pri stranskem oltarčku pri podobi matere božje in ni imela oči ni sluha za druge stvari nego za božjo.</p>
+            <p n="SLV10008.385">Po maši so na prostem pri ognju kuhali si zajtrk, sedeli in čepeli okoli in šale uganjali, dovtipne in navadne, vsak po svojih darovih. Pozneje se je improviziral celo ples in družba je bila tako vesela, da je celo kaplan s staro gospo trikrat zavrtel se, spremljan z velikim ploskanjem.</p>
+            <p n="SLV10008.386">»Kako vam dopade?« vpraša gospodična Luiza, prišedši k Nikolaju, ki je danes precej malo udeleževal se občnega veselja.</p>
+            <p n="SLV10008.387">»Prilično. A vam?«</p>
+            <p n="SLV10008.388">»No! Bilo bi, a preveč nas je, preveč je takih ljudi prišlo, ki ne spadajo med nas; poglejte onole žensko, kako lice! Nekatere osebe se mi zde pre ... pre ..., oprostite, da naravnost rečem, preordinarne.«</p>
+            <p n="SLV10008.389">Nikolaj začne društvo opazovati in zdaj se je še njemu zdelo, da je tako, kakor je gospodična rekla.</p>
+            <p n="SLV10008.390">»Kaj ti je danes?« vpraša ga do zdaj vesela Tončka s tiho skrbjo.</p>
+            <p n="SLV10008.391">»Kaj mi hoče biti?« odgovori on pol osorno, a se popravi takoj, meče pristavljajoč: »Ne zahtevaj, da bi jaz tako bil kakor vsak drug, kadar nisem pri dobri volji, in danes slučajno nisem.«</p>
+            <p n="SLV10008.392">»Kako je to: slučajno,« vpraša ona, »si li bolan?«</p>
+            <p n="SLV10008.393">»Ne!« odgovori on s takim glasom, da se ga ni upala dalje izpraševati.</p>
+            <p n="SLV10008.394">Med prvimi, ki so odšli z brda domov, bili so naši znanci. Gospa Kraljeva je med potom govorila, da ji letos ni bilo tako prijetno pri sv. Antonu kakor lani.</p>
+            <p n="SLV10008.395">Tudi Tončka ni bila zadovoljna zvečer doma, ko je spat šla. Zakaj je bil ''on'' danes tako čuden, včasi na potu domov celo skoro neprijazen? Mar je ne ljubi?</p>
+            <p n="SLV10008.396">Dvom, dvom, ti prvi črv, ki glodati začenjaš v ljubečem srcu in v sreči delaš nesrečne ljudi. Tako zelo se je veselila že dolgo prej na ta izlet, a zdaj se je tako čudno končal ... Nikelj, Nikelj, ti nisi tako dober, kakor sem včasi mislila, ne, nisi! Ali vendar te tako neizrečeno rado ima, to dekletce tu, in sicer takega, kakršen si, prav takega, tebe vsega. Ni treba, da bi boljši bil. Samo ljubiti bi jo moral ...</p>
+            <p n="SLV10008.397">In solze so lezle po gladkem mladem licu in kapale na belo zglavje v postelji uboge Tončke.</p>
+         </div>
+         <div type="chapter">
+            <head>XVIII</head>
+            <p n="SLV10008.398">V pivni izbi Pridanove hiše sta pri vinu sedela delavnega dne dva kmeta pri vinu, umazana tovariša, in ista se zabavala po svoje.</p>
+            <p n="SLV10008.399">Vrata se odpro in še tretji pride. Na močnati obleki se mu pozna, da je malinar.</p>
+            <p n="SLV10008.400">»Vidiš ga? Kadar ni mačke doma, miši plešejo,« pravi eden kmetov. »Davi sem videl starega Kolodeja, ki se je s sinom nekam vozil. Menda ga še domov ni in glej ga malinarja njegovega tu. Kam je pa šel tvoj stari?«</p>
+            <p n="SLV10008.401">»V mesto sta šla. Nikelj je dobil leta in bode potegnil denar, kar ga ima po materi dobiti. Od zdaj bode on gospodar doli pri nas v malimi,« pripoveduje malinar.</p>
+            <p n="SLV10008.402">»Tako je vendar res, da se oženi?« vpraša drugi kmet.</p>
+            <p n="SLV10008.403">»To je da! Malo hišo zraven malina že popravljajo. Ves teden imamo zidarje. Pred pustom bode počilo.«</p>
+            <p n="SLV10008.404">»Pridan naj bode vesel.«</p>
+            <p n="SLV10008.405">»Dobro bode hčer oddal, to je res.«</p>
+            <p n="SLV10008.406">»Kje pa je, da ga ni videti?«</p>
+            <p n="SLV10008.407">»Tisti svoj časnik bere zunaj,« pravi malinar.</p>
+            <p n="SLV10008.408">»Ni čudo, da je tako moder, ki zmerom v časnike gleda in zna pozvedeti, kaj se po svetu godi in pravi,« primerne kmet.</p>
+            <p n="SLV10008.409">»I, kajpak,« odvrača drugi. »Meniš li, da je v tistih časnikih kaj resničnega in pametnega? Nič, jaz ti povem. Kako se more zmerom toliko novega na svetu zgoditi, da bi toliko popisali, kakor popišejo ti, kateri časnike izdajajo. Ne more se! Zato morajo lagati.«</p>
+            <p n="SLV10008.410">»Kdo jih sili?« opomisli bistroumno drugi.</p>
+            <p n="SLV10008.411">»Ali pa neumne reči pišejo,« nadaljuje prvi. »Ali sta slišala tam pozimi, kaj je nam enkrat Pridan iz časnika bral o tistih dveh golobih?«</p>
+            <p n="SLV10008.412">»Nisva ne.«</p>
+            <p n="SLV10008.413">»Nu, zapisano je stalo, da so, ne vem že kje, dva goloba iz snega izkopali, katera sta bila s strehe pala, ko je sneg šel, in osem dni v snežnem zametu živa ostala.«</p>
+            <p n="SLV10008.414">»Ni mogoče.«</p>
+            <p n="SLV10008.415">»Ka ne bi bilo? Jaz pa pravim, to ni nič posebnega, nič čudnega. Ko bi jaz znal časnik pisati, jaz bi pa nekaj bolj čudnega povedal in opisal. Kaj bode to, osem dni pod snegom? To ni nič. Jaz sem pak zraven bil, ko smo pri Nastavniku seno iz senice nakladali na voz. Veste, kaj smo v senu našli okoli vseh svetnikov? Eno kokoš smo našli, živo kokoš, živo, ki je bila dvanajst tednov prej v seno zakopana. Živo smo še našli, naj me ta ali tisti vzame, če ni resnica. Res je, da je bila tako shujšana, da je je bilo sama kost in koža, prav sama; ali živa je še bila. Vidiš, kaj takega pa ne denejo v časnike.«</p>
+            <p n="SLV10008.416">»Bogve ali bodo dejali to v časnike, da se naš Nikelj ženi?« vpraša malinar.</p>
+            <p n="SLV10008.417">»To bi bilo pa že vredno,« meni kmet.</p>
+            <p n="SLV10008.418">»Potlej pa veste kaj,« oglasi se še malinar, »dva glažka brinovca bi plačal jaz tistemu, ki bi v časnike dal, kako je naš Luka, ta stari, siten gospodar.«</p>
+            <p n="SLV10008.419">»Bogve kakšen bode sin?« pristavi kmet.</p>
+            <p n="SLV10008.420">»Dobro in pridno gospodinjo dobi, Pridanovo,« reče drugi.</p>
+            <p n="SLV10008.421">»Ali je še nima. Dokler duhoven ne govori, se lahko še vse razvali.«</p>
+            <p n="SLV10008.422">»Včasi je bilo že tako, to je res.«</p>
+         </div>
+         <div type="chapter">
+            <head>XIX</head>
+            <p n="SLV10008.423">Jesen je bila tu, že kasna jesen. Perje na divji vinski trti okoli gosposke hiše na Podvinu je bilo rdečkasto postalo, potem pa rumeno in je odpadalo. Dan je bil kratek, jutro hladno, večer otožen — več ni bil čas bivanja na kmetih. Gospodu Kralju je bil potekel tudi odpust, drugi dan je bil odhod v mesto napovedan.</p>
+            <p n="SLV10008.424">Gospodična Luiza se je bila na večer Tončki napovedala, da pride po slovo. Tudi Nikolaj je bil povabljm, naj pride k Pridanovim tega dne popoldne. In prišel je bil.</p>
+            <p n="SLV10008.425">Sedeli so vsi trije skupaj do mraka in govorili.</p>
+            <p n="SLV10008.426">O mraku reče gospica Luiza:</p>
+            <p n="SLV10008.427">»Ker je danes zadnji večer letos, da sem pri vas, Tončka, ostanem še nekoliko dalje; da me kasneje ne bode strah, spremi me gospod Nikolaj, ne li?«</p>
+            <p n="SLV10008.428">»Z veseljem, če hočete, do mesta, ne le do doma tu gori,« odgovori Nikolaj brzo. In resnico je govoril. Gospica se mu je zdaj vsa drugačna zdela nego od početka in jako žal mu je bilo, da odhaja.</p>
+            <p n="SLV10008.429">»Do mesta? Potem bi bila Tončka huda,« pravi gospodična.</p>
+            <p n="SLV10008.430">»O nič, naj bi te spremil, dokler je; samo da potem skoraj nazaj pride,« meni zvestodušno Tončka.</p>
+            <p n="SLV10008.431">Že tema, prav gosta tema je bila, ko se je začela gospodična poslavljati. Tončka je hotela hlapca dati jima, da bi svetil, ali Luiza je to odbila, češ prvič ni daleč, drugič z gospodom Nikolajem pot poznava, da prideva lahko z zavezanimi očmi domov. To je bilo res.</p>
+            <p n="SLV10008.432">»Če te danes zadnjič kot deklico vidim, srečna bodi!« S temi besedami se je končno Luiza od prijateljice poslovila, katera jo je v tretje poljubila in solze v očeh imela ter govoriti ne mogla, dasi je vedela, da jo jutri, ko se bode mimo vozila, lahko še enkrat vidi.</p>
+            <p n="SLV10008.433">Petnajst korakov od hiše nista govorila Luiza in njen spremljevalec Nikolaj ničesar. Nikolaju je bilo nekako hudo, da odhaja ta prijateljica njegova in njegove — neveste. Ona bogzna kaj je mislila.</p>
+            <p n="SLV10008.434">»Tema je,« reče potem ona in globočje potisne svojo roko pod njegovo pazduho.</p>
+            <p n="SLV10008.435">»Kod ideva, po cesti ali po stezi?« vpraša Nikolaj. Po stezi je bilo prav blizu, po cesti pa dalje naokoli.</p>
+            <p n="SLV10008.436">»Po cesti,« odgovori ona.</p>
+            <p n="SLV10008.437">»Tudi meni je ljubše po cesti.«</p>
+            <p n="SLV10008.438">»Zakaj vam?«</p>
+            <p n="SLV10008.439">»Ker dalje ostaneva skupaj.«</p>
+            <p n="SLV10008.440">Premolk. Naenkrat ona postane in, ne snevši roke izpod njegove rame, tudi njega zadrži.</p>
+            <p n="SLV10008.441">»Ali se domislite pota na Brinovo brdo in najinega pogovora?« vpraša ona in glas ji je bil čudno mehak.</p>
+            <p n="SLV10008.442">»Dobro. Kako se ne bi domislil? Ob oni priliki sem vas, gospodična, stoprav popolnoma spoznal in tako spoštovati začel, kakor . . .«</p>
+            <p n="SLV10008.443">»Nič komplimentov od vas! Od vas samo odkritosrčnost. No, veste, da sem vam tačas ponudila se in obljubila na vaše ženitovanje priti? Danes pa moram svojo obljubo oporeči. Vi boste svatovali že pred pustom, slišala sem; a jaz ne bodem mogla priti.«</p>
+            <p n="SLV10008.444">»Potem jaz vse preložim čez veliko noč,« reče on naglo in odločno.</p>
+            <p n="SLV10008.445">»Zaradi mene?«</p>
+            <p n="SLV10008.446">»Zaradi vas.«</p>
+            <p n="SLV10008.447">»A jaz najbrž tudi po veliki noči ne bodem mogla priti.« »Zakaj ne, gospodična? Smem li vedeti ali ugibati vzrok.«</p>
+            <p n="SLV10008.448">»Pustite. Uganiti ga vi ne morete, povedati ga vam pa jaz ne morem.«</p>
+            <p n="SLV10008.449">Počasi, prav počasi sta koračila dalje.</p>
+            <p n="SLV10008.450">»Ali se domišljate, da tačas, ko sva prijateljstvo ali bratstvo sklenila, izgovorila sem si jaz pravice take zveze?« vpraša ona glasneje in videzno veselejša.</p>
+            <p n="SLV10008.451">»Domišljam se, ali žalibog da do sedaj teh pravic niste rabili, vsaj jaz nisem čutil, da bi jih bili.«</p>
+            <p n="SLV10008.452">»Tedaj hočem eno sedaj rabiti: Tončko, svojo malo prijateljico, ki bode kmalu vaša žena, vam priporočam . . . Jaz mislim, da smem z vami govoriti kakor z bratom, brez okolišev ... Spoznala sem vas, da imate blago srce, plemenito dušo in vse lastnosti, ki morejo mlado deklico osrečiti. Zato sem vesela, da boste osrečili mojo ljubo prijateljico, mojo Tončko. Ona je res dobra deklica in jaz ne dvomim, da boste to iz nje naredili, kar za svojo srečo potrebujete in kar zaslužite, to vam brez uklanjanja rečem. Ona je še nekoliko — kako bi rekla — dete, ljubeznivo dete, a vendar dete. Zato me je prav srčno veselilo, ko sem zapazila, da imate sami odprte oči in veste, kje je dobro, da Tončka še kaj pridobi, namreč, da ste začeli njeno nekoliko pomanjkljivo literarno izobraženje dopolnjevati. To ste jako dobro učinili. A morate nadaljevati. In sicer zdaj, pred poroko, gospod moj, potem, pravijo, ne gre več tako rado lepo in gladko. To se ve, Tončka je v tem oziru izjema. Na vaši strani mora vedno tako ljubo in sprejemljivo dete ostati, kakor je. Pa, morda ste nevoljni name, da vam take reči govorim.«</p>
+            <p n="SLV10008.453">»Na vas ni mogoče, da bi nevoljen bil, posebno ne, če govorite iz moje duše, gospodična,« reče Nikolaj. »Baš na tem govorjenju vas zopet spoznam kot prijateljico, sestro...« Rekši, nehote vzdihne.</p>
+            <p n="SLV10008.454">»Vzdihnili ste?« vpraša ga j»na mehko.</p>
+            <p n="SLV10008.455">»Mislite li, da bodem jaz srečen ž njo, prav srečen?« vpraša on polglasno in boječe.</p>
+            <p n="SLV10008.456">»Jaz upam,« odgovori ona. »Ali ne smete pozabiti pregovora, da vsak človek je sam kovač svoje sreče. Vi se sami srečnega naredite, ker morete. Mož ste, zato imate izbiro. Me ženske smo na slabšem v tem oziru, ker se moramo izbirati dati. Ko bi vi ne bili že izbrali, reklo bi se vam bilo lahko: glej, da dobiš in najdeš tako srce, kakor je tvojemu prikladno in sorodno. Zdaj pa, ko ste že izbrali in že zavezali se na pol, zdaj vam je samo svetovati, da izbrano srce sebi priklonite, da mlado drevesce v tako rast pripravite, kakor je za vas dobro, po svojih srčnih in duševnih potrebah.«</p>
+            <p n="SLV10008.457">»In kake mislite, da so te pri meni?« vpraša on. »Jaz vam bodem odkritosrčno govorila.«</p>
+            <p n="SLV10008.458">»Tako, kakor v duši govorite.«</p>
+            <p n="SLV10008.459">»Vi, gospod Nikolaj,« začne ona in roka njena pod njegovo pazduho naglo v tem hipu malo više zleze, »vi imate mehko srce, torej potrebujete tudi žene, ki vaš čut razume ne z glavo, temveč s srcem; pa tudi razum vaš in izobraženje sploh se pri vas kakor pri vseh blažjih naturah opira na srce. Zatorej morate na to gledati, da bode vaša žena v vsem i znala i rada hotela in mogla vaše misli misliti, vaše nazore ceniti, vaše skrbi skrbeti, vaše ljubezni ljubiti. Jaz vsaj si ne morem bolj pustega misliti kakor moža, duhovitega in pametnega, ki je na vse življenje navezan živeti z ženskim bitjem v najožji zvezi, katero ga ne ume ali kateremu se celo ono smešno zdi, kar je izobraženemu in zna-čajnemu možu važno in imenitno.«</p>
+            <p n="SLV10008.460">»To je istina,« reče Nikolaj zategnjeno.</p>
+            <p n="SLV10008.461">»No, vidite! Potem glejte, da bodete iz Tončke pred poroko vse to naredili.«</p>
+            <p n="SLV10008.462">»Iz nje? Je li toliko mogoče?« vpraša on.</p>
+            <p n="SLV10008.463">»Jaz mislim, a ne vem. Mislim da. Ker že tako zaupno govoriva, vam menda že lahko tudi povem, da mé mlade ženske smo sploh sprejemljive, mehke, učljive. Vi ne veste, koliko tak mlad mož, kakor ste vi, z ljubeznijo in dobro besedo pri nas opravi, ako hoče. Storite vi tako v svoji stvari.«</p>
+            <p n="SLV10008.464">To sta zopet stoje govorila. Zdaj se jameta počasi dalje premikati.</p>
+            <p n="SLV10008.465">»Ali boste vi taki, ko se omožite, kakor ste mi prej govorili, gospodična?« vpraša zdajci on ter zopet obstane z njo.</p>
+            <p n="SLV10008.466">»Jaz imam previsoke misli o sreči zakonskega življenja, nego da bi drugače ravnala. Rajši se ne omožim nikdar; a če to pravim, ne smete misliti, da govorim tako kakor vsako mlado dekletce, pa drugače mislim. Ne, jaz vam prav naravnost povem, da se bodem še celo rada možila, ako, a samo ''ako'' dobim moža, ljubezni vrednega in ljubezni zmožnega. Jaz si ne morem misliti nikjer večje sreče nego v takem zakonu. Kaj pa je mogoče lepšega in slajšega nego zavest, da imaš dušo poleg sebe, katero z vso ljubeznijo ljubiti smeš, da, celo ljubiti moraš, in ona tebe ljubiti sme in mora.«</p>
+            <p n="SLV10008.467">»In jaz te moram ljubiti!« zakliče kakor blazen Nikolaj, potegne jo za roko pod pazduho k sebi, z drugo jo burno objame in strastno lice ji poljubuje ...</p>
+            <p n="SLV10008.468">Nikolaj je bil v tem hipu tako razburjen, da tudi kasnejše čase ni mogel domisliti se, kako in ali se mu je Luiza branila poljubljanja in kaj je rekla, le toliko ve, da je stopinje na cesti zaslišal. Adjunkt Kralj je bil sestrični naproti prišel.</p>
+            <p n="SLV10008.469">Nikolaj se je vrnil domov. A kak!</p>
+         </div>
+         <div type="chapter">
+            <head>XX</head>
+            <p n="SLV10008.470">Drugi dan je močno deževalo.</p>
+            <p n="SLV10008.471">»Brinovo brdo ima meglen klobuk, to kaže, da bode dolgo dež šel, a mi še stelje nimamo, repa je tudi še na polju, hu-hu-hu!« jadikoval je stari oče Luka Kolodej doli na veznem pragu, zlo vreme opazovaje.</p>
+            <p n="SLV10008.472">Nikolaju pa je bilo to vreme po volji.</p>
+            <p n="SLV10008.473">»Zdaj ne more še odpotovati, danes še ne, in videl jo bodem!« šepeče on sam pri sebi in naslanja žareče čelo na hladno steklo svojega okna. Tako razburjen še nikdar ni bil kakor od sinoči do zdaj. Vse se mu je zdelo kakor sanje, a znal je, da je velika resnica.</p>
+            <p n="SLV10008.474">»Ona, samo ona razumeva in govori jezik mojega srca, ona mora moja biti,« to so mu misli o gospodični Luizi ponavljale v vseh razlikah; in Tončke se ni spominjal, a če mu je v misel prišla, bila mu je sitna misel in otresal se je je.</p>
+            <p n="SLV10008.475">Pisal je bil gospodični navsezgodaj v jutru kratko, a strastno pisemce, v katerem jo je rotil, da danes naj ne odhaja, pa da mu naznani, kje more na samem ž njo govoriti, kar ''mora in hoče. Odgovor dojde. Pisala mu je, da zaradi slabega vremena danes ne odpotujejo še, morda celo še jutri ne. Naj pride ob mraku pod samotni kozolec, ki stoji za mejo pod njih hišo. A naj tako pride, da ga nihče ne opazi.</p>
+            <p n="SLV10008.476">Ta dan je bil dolg dan Nikolajevega življenja, dasi so jeseni baje dnevi kratki in je malo do mraka.</p>
+            <p n="SLV10008.477">Že pred mrakom je Nikolaj pod zaznamovanim kozolcem stal, srce mu je nemirno bilo, ko se je vedno oziral po oglu, izza katerega je morala priti.</p>
+            <p n="SLV10008.478">Nazadnje je prišla, krasna ženska, kakor kraljica.</p>
+            <p n="SLV10008.479">Kakor boječe se je okoli in okoli ozrla in rekla: »Ko bi naju kdo videl?«</p>
+            <p n="SLV10008.480">»In ko bi naju ves svet videl, jaz bi mu zaklical, kar sem vam sinoči rekel!« vzklikne Nikolaj.</p>
+            <p n="SLV10008.481">»Počasi, prijatelj,« reče ona in mu ljubeznivo odkaže sedež poleg sebe na nakupičeni slami.</p>
+            <p n="SLV10008.482">»Vi ste prenagli.«</p>
+            <p n="SLV10008.483">»Ne, ne ...«</p>
+            <p n="SLV10008.484">»Pst! Dajte meni izgovoriti. Na sinočnjo besedo se ne sklicujte. Hitra je bila. Jaz vam je ne zamerim. Vendar, gospod Nikolaj, vi veste, da so še drugi, ki imajo pravico, za vas zanimati se, in ki bi vam zamerili, ko bi vas bili slišali.«</p>
+            <p n="SLV10008.485">»Ne omenjajte mi . . .«</p>
+            <p n="SLV10008.486">»Prosim! Vi ste zaročeni, z mojo prijateljico zaročeni, a tako govorite z menoj? Ne izvira li tako postopanje bolj iz lahkomiselnosti nego iz globokega čuta? Odgovorite mi na to!«</p>
+            <p n="SLV10008.487">»Na videz mi smete lahkomišljenost očitati, ali le na videz. Sicer pa mi recite, kar hočete, recite, kaj naj storim, da dokažem globokost svojega čutenja do vas, le do vas . . .«</p>
+            <p n="SLV10008.488">»Prijatelja sva si lahko, brat in sestra, dragi gospod Kolodej, več ne moreva, ne smeva,« dahne ona in ga s svojim pogledom pogleda, s pogledom, ki mu je noter v dušo posegel.</p>
+            <p n="SLV10008.489">»Ne smeva? Kdo more braniti, ako hočeva, ako hočete vi?« vzplameni on.</p>
+            <p n="SLV10008.490">»Dolžnost prijateljstva.«</p>
+            <p n="SLV10008.491">»Nič, nikdar! Moja bodi, biti moraš! Zakaj si mi odkrila svojo dušo, zakaj si se mi pokazala, kakor te želim, zakaj si mi odkrila bogato srce, da mi hočeš zdaj, ko sem poželjivo roko stegnil po večji sreči, nego sem jo upal doseči, odtegniti vse, odtegniti sebe? Ne, ne beži, ostani pri meni, sreča moja!«</p>
+            <p n="SLV10008.492">Poljubi ji roko in ona se ne brani.</p>
+            <p n="SLV10008.493">»In ti me res ljubiš?« vpraša ona kakor v misli zatopljena.</p>
+            <p n="SLV10008.494">»Vprašati moreš še? Po moji sinočnji in zdanji izpovedbi? Ali ti sinoči ni globoko v dušo donelo, kakor je meni globoko iz duše prišlo, po sili, ne vem kako ne kdaj: da te ljubim?«</p>
+            <p n="SLV10008.495">»In kaj poreče ''ona''?«</p>
+            <p n="SLV10008.496">Za trenutek prevleče Nikolajevo čelo oblak nezadovoljstva, a precej pravi:</p>
+            <p n="SLV10008.497">»Kar hoče! Sem li jaz dolžan zato, ker sem se enkrat prenaglil, svojo boljšo, svojo največjo srečo žrtvovati? Nisem!«</p>
+            <p n="SLV10008.498">»Nisi, to je res. Ali pač, prijatelj moj, ako hočeš ti mene ljubiti, moral bi me spoštovati. Kako pak me moreš spoštovati, ako storim, kar ti hočeš, in ti dam srce, katero ti ni neprijazno, jaz, prijateljica njena, Tončkina, ki ima tvojo besedo in tako neko pravica da tebe? Ne bi li to nelepo bilo od mene?«</p>
+            <p n="SLV10008.499">»Ne govori mi tako!« vzklikne on. »Ne očitaj mi ene moje zmote, ker le zmota je bila moja razmera z njo. Ne sili me, da bi bil nesrečen; in nesrečen bi bil, ko bi moral zdaj na njeni strani biti, kar sem v tvoje srce videl, kar tebe poznam, duša moja. Ti si blaga, ti o prijateljstvu ne moreš drugače misliti in govoriti, kadar govoriš. Ali če je kaj greha v tem, moj naj bode, sama moj, jaz vse na sebe vzamem, samo ne odrekaj mi, brez česar mi je zdaj življenje nič, svoje ljubezni!«</p>
+            <p n="SLV10008.500">Žareče so se staknile ustne z ustnami v dolg poljub.</p>
+            <p n="SLV10008.501">Dež je začel liti in je polglasno padal na slamnato streho, pod katero sta bila, nekoliko še škropil po strani do sedeža njunega.</p>
+         </div>
+         <div type="chapter">
+            <head>XXI</head>
+            <p n="SLV10008.502">Prihodnji dan pak je bilo brez dežja. Sicer je gosta in pusta mokra megla pokrivala dol, ali voziti se je bilo že moči, zato so se Kraljevi odpeljali.</p>
+            <p n="SLV10008.503">Pristav je bil že prej pri Pridanu vse poravnal. Vendar je Tončka stala, ko so ji povedali, da se podvinski voz bliža, na pragu in pričakovala ga. Prepričana je bila, da bode njena prijateljica, gospica Luiza, dasi se je že predvčeranjim poslavljala, še ustavila se na zadnji poljub. Ko je voz prav blizu bil, stopi s praga in gre proti cesti.</p>
+            <p n="SLV10008.504">A strmeč in sramovaje se obstoji. Voz je mimo nje zdrdral, kakor se je zdelo, na ukaz njene prijateljice same, pristav ji je samo z roka migal pozdrav in prijateljica je ponosno počasno z glavo naklonila se.</p>
+            <p n="SLV10008.505">To je bilo ponižanje, razžaljenje. Zakaj? Nič hudega si ni bila v svesti, nobene zle besede, nobenega takega dejanja, nobene zamere. Solze ji v oči pridejo, ko v vežo stopi. Nameni si, kako bode Nikolaju vse ta povedala. Vendar je Nikolaj prav sodil, ko je dejal, da so ta gospoda neodkritosrčna, spremenljiva, danes drugače nego včeraj.</p>
+            <p n="SLV10008.506">Ali Nikolaja ni bilo drugi dan nič k njej; ni ga bilo niti tretji dan. Tončka pozabi, da se je gospodična Luiza brez zadnjega slovesa mimo vozila, a skrbeti jo začne, kaj je vendar Nikolaju, da ga ni. Ko niti peti dan ni blizu prišel, dosegla je skrb uboge deklice tak vrhunec, da je morala nekemu zaupati, kar jo je težilo.</p>
+            <p n="SLV10008.507">Tiho potoži stari dekli, kaj jo peče. Ta se namuzne, dene obe roki pod umazani predprt in reče odpravljaje se:</p>
+            <p n="SLV10008.508">»Čakaj, čakaj, postopim jaz gor na Kolodejevino in Mreto povprašam, ali je on doma in kaj dela. Nič ne maraj, že rad pride, bog da ga hočeš. Že ne more priti. Ali verjemi mi: če ga dalje ne bode k tebi, bolj te bo zaželel.«</p>
+            <p n="SLV10008.509">Rekši, odide dekla na Kolodejevino in v kuhinjo k Mreti. Tu vse pozve. A kar čuje in domov prinese, ni bilo tako, da bi bilo moglo Tončko utolažiti.</p>
+            <p n="SLV10008.510">Predvčeranjim je v mesto odšel, s starim sta se prej nekaj prepirala, ker mu je povedal, da bode več dni v mestu ostal, oče pak ni razumeti mogel čemu, zakaj, s kakim opravkom. Za zapravek v mesto hoditi, samo denar trositi, to se je pa Luki Kolodeju tak greh zdelo, da je v vsem licu zardel, sinu hrbet obrnil in psa Pastuha neusmiljeno z nogo brcnil, ko mu je dobrikajoč se naproti prišel.</p>
+            <p n="SLV10008.511">In kljub tej očevi nevolji odšel je bil Nikolaj v mesto, a pri Tončki se ni nič oglasil, nič povedal! Ko bi bil le eno besedico prej rekel ali pošto dal ali pisal!</p>
+            <p n="SLV10008.512">Nepopisna skrb se polasti deklice. Kam je šel? Po kaj? Zakaj tako tiho? Ali pride nazaj in kdaj? Ali se mu ne bode nič hudega zgodilo?</p>
+            <p n="SLV10008.513">Na vsa ta vprašanja ni znala odgovora najti si. A stoprav zdaj si je bila v svesti, kako neizrečeno ga ljubi, da življenje brez njega odslej ne more biti pravo življenje. Ah, ko bi ga izgubila!</p>
+            <p n="SLV10008.514">Daleč, kamor bi bilo, šla bi bila, da bi ga enkrat pogledala in videla, da mu ni nič hudega pripetilo se, pa bi bila zadovoljna zdaj!</p>
+            <p n="SLV10008.515">»Kaj ti je, dekle?« vpraša jo oče Pridan.</p>
+            <p n="SLV10008.516">»Nič,« morala je lagati, ker sram je je bilo povedati, da se za Niklja boji, ker ga že pet dni ni blizu; bala se je, da bi se oče ne posmehaval ji, ker je tako ... nespametna, da se boji, kjer se ni treba bati. Ni treba! Lahko rečeno, ali ...</p>
+         </div>
+         <div type="chapter">
+            <head>XXII</head>
+            <p n="SLV10008.517">Minilo je štirinajst dni. Nikolaja ni bilo iz mesta domov. Luka Kolodej je zamišljen okoli doma hodil, v tem malem času so se mu bile na licu neke nove gube pokazale, hlapce je manj kregal, psov ne več vsako jutro božal.</p>
+            <p n="SLV10008.518">Tončka je tačas prestala nepopisne muke, izvirajoče iz negotovosti. Ali jo zapušča? Zakaj je tako neusmiljen, da tega niti ne pove? Zakaj vsaj ne piše, naravnost, kakor bi se spodobilo možu? Ali je mar bolan?</p>
+            <p n="SLV10008.519">Solze je niso utolažile, molitev le nekoliko; lice ji je bledelo. Oče je to videl, vzrok lahko uganil in jezen je bil, a tudi slutil, da iz vsega tega ne bode dobro. Brusil se je sam pri sebi, kako ga bode robato izpovedal, kadar ga le dobi.</p>
+            <p n="SLV10008.520">Neki dan je prišel Pridan domov in Tončko poklical v vežo. Tam je počasi iz naprsnega žepa vzel svojo veliko rdečeusnjato listnico in rekel hčeri:</p>
+            <p n="SLV10008.521">»Nekaj ti bom dal. Zdi se mi, da te ne bode razveselilo. Ali pametna bodi. Bog je tako hotel. Če ni ta, bode pa drug. Tako si misli, ako bodeš brala, kar ti všeč ne bode.«</p>
+            <p n="SLV10008.522">Rekši, ji izroči pisemce.</p>
+            <p n="SLV10008.523">»Tole sem dobil gori pri Luki. Priloženo je bilo v drugem pismu in je do tebe. Ker očetu nič dobrega ne piše, tudi tebi ne, sodim. Vetrnik hoče to zimo v mestu ostati. Nič ne dene, naj bode, kjer hoče.«</p>
+            <p n="SLV10008.524">Tončki se je delalo črno pred očmi, ko je pisemce vzela in z zadnjimi močmi šla po stopnicah gor v svojo izbico. Tam sede na svojo posteljo in po majhnem odmoru s tresočima se rokama raztrga pisemski zavitek in bere:</p>
+            <p n="SLV10008.525">»Ljuba sestrična! Jaz sem trdno prepričanje dobil, da bi ti ne mogla srečna biti z menoj! Zato ti dam tvojo in jemljem svojo besedo nazaj. Nikolaj «</p>
+            <p n="SLV10008.526">Oče Pridan prehodi enkrat svoje dvorišče. Vrnivši se v vežo, pogleda v kuhinjo ter reče dekli Barbi:</p>
+            <p n="SLV10008.527">»Skoči, skoči gor in pogledaj, kaj Tončka dela. Le precej!«</p>
+            <p n="SLV10008.528">Ko dekla duri Tončkine sobice odpre, na ves glas zakrikne. Deklica je ležala v nezavesti na tleh.</p>
+         </div>
+         <div type="chapter">
+            <head>XXIII</head>
+            <p n="SLV10008.529">Huda zima je bila zunaj po mestu in na stolpih je bila ura odbila enajst, ko so v majhni krčmi v predmestju še trije mladi gospodje skupaj pri vinu sedeli in pušili. Gost dim, kateri je okuževal zrak v mali vinski ekstra sobici, dokazoval.je, da je moralo prej več gostov tu biti, ki so pokušali izvrstno kapljo, kakršna se je tu »Pri belem psu« zmerom že od nekdaj dobivala. Ti trije so bili zadnji ostali, a že izmed teh se je eden vzdigoval in ta je bil naš znanec, pristav Kralj.</p>
+            <p n="SLV10008.530">»Pij še polovičico in počakaj še pol ure; ne boj se pridige za gardinami; tisto imaš že tako ali tako,« reče eden izmed onih dveh, kakih devetindvajset let star mlad mož z naočniki.</p>
+            <p n="SLV10008.531">»Ne morem, ljubi moj doktorček. Jutri moram zgodaj vstati, imam komisijo,« odgovori oni.</p>
+            <p n="SLV10008.532">»Še samo eno vprašanje,« pravi dalje doktor ter prime Kralja za zimsko suknjo, kakor bi ga hotel ustaviti. »Ali prideš na trgovski ples?«</p>
+            <p n="SLV10008.533">»Vabljen sem. Veseli me baš ne. Ali ker gre žena in njena sestrična, moram tudi jaz iti. Zakaj vprašaš?«</p>
+            <p n="SLV10008.534">»Dobro! Ti si znan s tistim mladim Kolodejem. Meni je do tega, da se z njim seznanim, če bode prilika nanesla, predstavi me, a ne da bi povedal, da sem te prosil; tako, kakor da bi slučajno bilo.«</p>
+            <p n="SLV10008.535">»Saj ti ga lahko jutri sem pripeljem.«</p>
+            <p n="SLV10008.536">»Izvrstno! A nič praviti!«</p>
+            <p n="SLV10008.537">Pristav odide.</p>
+            <p n="SLV10008.538">»Kako zanimanje pa imaš za onega človeka? Kako si ga imenoval?«</p>
+            <p n="SLV10008.539">»Kolodej. Če bodeš molčal, pa ti povem nekaj, česar ti še nisem, dasiravno se sicer do dobrega poznava in, kakor upam, boljših prijateljev ni prav mnogo več, nego sva si midva.« Prijatelja trčita in oni reče:</p>
+            <p n="SLV10008.540">»Tako? Torej skrivnosti imaš še? Ven z njimi; menda ti molčanja ni treba posebno še prisegati od moje strani.«</p>
+            <p n="SLV10008.541">»Ali poznaš sestrično ženi tega Kralja?«</p>
+            <p n="SLV10008.542">»Lepo Vitko? Kako bi je ne poznal. Saj bi se bil skoraj zaljubil vanjo!«</p>
+            <p n="SLV10008.543">»Jaz pak sem že bil zaljubljen vanjo popolnoma, do ušes!«</p>
+            <p n="SLV10008.544">»Glej, glej! In nič nisi povedal? Zakaj praviš 'bil'? Torej nisi več? To jako obžalujem, lepa deklica je res.«</p>
+            <p n="SLV10008.545">»A samo lepa. Sicer samopridnica. To sem jaz izkusil. Tudi je bila cela najina reč tiha, ali pozabiti je vendar čisto ne morem. In ker se mi oni človek, ki ga zdaj v mrežah ima, poštenega lica vidi, rad bi ga vsaj poznal, dasi od kraja, ko sem slišal, da je nalašč zaradi nje s kmetov v mesto prišel prezimovat, nisem nič kaj simpatij zanj imel. Ali človek se mora tudi premagovati.«</p>
+            <p n="SLV10008.546">»Da bi mu odsvetoval, ti veliki modrec?«</p>
+            <p n="SLV10008.547">»Tudi mogoče. Kakršen je človek.«</p>
+            <p n="SLV10008.548">»Beži, beži. Ne smeši se mi s takimi intrigami. Kaj ti mar? Skrbi zase. Jaz bi se že ne vtikal.«</p>
+            <p n="SLV10008.549">»A jaz se morda bodem. Pusti me. Nekoliko je tudi maščevanja zraven. Sicer pa pravim: morda se bodem vtikal. Odvisno je od tega, kakšen človek je on in ali bode prilika nanesla možnost.«</p>
+            <p n="SLV10008.550">»Mož se nad žensko najbolj maščuje, če se ne zmeni zanjo,« pravi pivski filozof in si počasi cigaro prižge, potem pa iz polne čaše zalije vina vase. Ali drugi večer je bil vendar Kralj privel Kolodeja s seboj v krčmo in predstavljal: »Gospod Kolodej — dr. Lok.« Znanje je bilo storjeno, čez nekaj večerov — tudi slovenska bratovščina pita.</p>
+         </div>
+         <div type="chapter">
+            <head>XXIV</head>
+            <p n="SLV10008.551">Cel mesec se je že govorilo po mestu o velikih pripravah za tako zvani trgovski ples, ki bi imel biti letos krasnejši nego kateri koli, in nade polno srce najmlajšega trgovskega pomočnika primestne špecerijske prodajalnice poskakovalo je v pričakovanju veselja, ki ga bode mogoče uživati; starejši tovariš njegov pak je v polnem taktu premeril ozki prostor za prodajalno mizo in potegnil umazane manšete za pol pedi iz rokavcev, češ tako bodemo storili z lepimi, belimi, ko bodemo stopili v plesno dvorano.</p>
+            <p n="SLV10008.552">Ženski spol pak je kupoval, meril in šival ter belil si lepo glavo, kako se bode to podajalo, kako se bode ono prilegalo. Toaletne skrivnosti so se nosile in poročale po mestu kakor najimenitnejši, svet pretresujoči dogodki in celo skopi filister, ki je nerad in le po hudem boju s svojo ženo ali »boljšo polovico« posegel v žep, nasmehljal se je naposled, čuvši, kako bode to lepo, kako ono zmagovito krasno.</p>
+            <p n="SLV10008.553">Godilo se je, kakor se godi v večji ali manjši meri vsako leto, vsak predpust, in čas je v svojem enakomernem teku vendar pripeljal tudi zaželeni večer.</p>
+            <p n="SLV10008.554">V dvorani, pri katere okinčavanju so se merili vsi izvedenci v urejevanju uličnih trgovskih razstav, zbral se je točno cel odbor, ki je prevzel častno nalogo, osnovati in voditi ta ples. Prihajali so prvi gosti in iz toaletne sobe so prišumele prve dame v dvorano. Odborniki so jih obstopili ter vodili k sedežem, trudivši se zabavati jih kolikor moč. Take zabavne fraze tudi na trgovskem plesu niso drugačne kakor drugod.</p>
+            <p n="SLV10008.555">Dvorana se je urno polnila.</p>
+            <p n="SLV10008.556">Tu je pristopala mati s tremi sila odkritimi hčerami ter zasedla kot dvorane, od koder ji je bilo moč prezreti cel prostor; tam je pripeljal oče svojo ne več mlado, a tudi še ne staro dvomljivo krasotico in izročil jo v varstvo znani dami, ki je imela že celo tropo deklic vsake starosti, od osemnajstega do šestindvajsetega leta, pod svojimi krili. Tu je prišumel oblak bele tančice, iz katerega je kakor z nebesa zableščala sedaj in sedaj, tu in tam skrita srebrna zvezdica in kateri se je po natančnem opazovanju odkril kot toaletna lastnina mlade gospe, ki je koketno in zmagovalno pomerila dva kavalerijska lajtnanta, stoječa blizu vhoda in kritikujoča oči, nosove, lase in toalete.</p>
+            <p n="SLV10008.557">Tako so prihajali drug za drugim in, ko je zavreščala godba, stopili so oni, katere je doletela čast, pričeti ples, s ponosnimi obrazi in zavedni imenitnosti te naloge v prvo vrsto in pričeli kolobar. Trgovski ples je bil otvorjen. Potem pak se je venomer plesalo, koketiralo, kramljalo, dovtipno in neumno, pogledovalo ljubeznivo in zavidljivo, sovražno in intrigantno, pohajkovalo in postajalo, za pahalnikom ali klakom zevalo, in vse to celo noč, pred kotiljonom in po njem, med njim pa ravno tako.</p>
+            <p n="SLV10008.558">A nas ne zanimajo tolikanj druge osebe in nove gruče, torej jih ne bodemo predstavljali. Zadostuje morda povedati, da je bila, čeprav ne po toaleti, pa gotovo po lepoti in gracioznem obnašanju kraljica med plesalkami gospodična Luiza Vit. Imela je, to se razume, mnogo častilcev, ki so se skušali do nje preriti, a med vsemi je odlikovala Nikolaja, o katerem so že znanci vedeli, od kod in kdo je ter da je njen bodoči. Poleg Nikolaja pak je odlikovala gospica še enega moža, nekega štiridesetletnega slokega in tankega človeka z dolgim licem, dolgim krivim nosom in črnimi, močno kodrajočimi se kratkimi lasmi, ki so pa že malo v sivo barvo cikali.</p>
+            <p n="SLV10008.559">Predstavljen je bil Nikolaju kot gospod Majer, torej človek z imenom, kakršno baje v srednji Evropi ni redko. Do danes ga Nikelj ni še videl.</p>
+            <p n="SLV10008.560">Kdo je ta človek? Zakaj se peča Luiza toliko ž njim? Odgovor na drugo vprašanje bode izviral že iz odgovora na prvo. Na to pa bode gotovo znal odgovoriti novi prijatelj, dr. Lok. Njega se napoti Nikolaj iskat iti, v katerem kotu tiči.</p>
+            <p n="SLV10008.561">Najde ga pri butelji s tovariši. Na Nikolajev migljaj pak je takoj vstal, sezute rokavice brž nataknil in, pod pazduho vzevši ga, šel ž njim v drugo sobo na plesišče nazaj.</p>
+            <p n="SLV10008.562">»Nekatere osebe so, o katerih mi bodeš razložil, kdo in kaj,« reče Nikolaj.</p>
+            <p n="SLV10008.563">»Jaz sem v tej zadevi kakor naučni slovnik. Vse poznam; kvečjemu kaki dve mali, drobni, boječi grlici sta tukaj, kateri je mati letos vprvič na oglede prívela in ki sta mi še neznani.«</p>
+            <p n="SLV10008.564">In za istino, ni se zastonj bahal doktorček. Poznal je vse ljudi in razkladal in obiral pred Nikolajem zdaj tega, zdaj onega, moške in še bolj ženske.</p>
+            <p n="SLV10008.565">»In kdo je ta Majer?«</p>
+            <p n="SLV10008.566">»Kdo? Preden na to vprašanje odgovorim, povem ti, da vrlo dobro vem, da si me do zdaj o vseh drugih samo zato izpraševal, da si prišel tako na videz in kakor nehote do tega Majerja.«</p>
+            <p n="SLV10008.567">»O ne!« reče Nikolaj, ali pri tej laži zardi do ušes.</p>
+            <p n="SLV10008.568">»No, tiho! Ta Majer je iz onega slovečega rodu, ki je čez Rdeče morje hodil in v puščavi prepelice jedel zato, da zdaj vse človeštvo denarno odira. Vendar on ni več obrezan, ker že njegov oče je prejel zakrament sv. krsta, to se razume, da ne iz pobožnosti ali prepričanja, temveč zato, da je laže kupčeval in občeval. Vidiš, in mali kramarji z dežele, ki so pri njem kupovali in ki zdaj pri temle kupujejo, so mu sila veliko denarja skupaj znesli. In ti, brate, si malo ljubosumen nanj.«</p>
+            <p n="SLV10008.569">»Na tega človeka?« reče Nikolaj kakor s čudečo se nevoljo.</p>
+            <p n="SLV10008.570">»Hm, da, na tega si lahko,« reče oni neusmiljeno. »Sicer je res, da imaš bolj ravne ude kot oni, in zrcalo te je bogzna kolikokrat že podučilo (ne vem, koliko stopinj občečloveške nečimrnosti je v tebi), da imaš sploh neprimerno lepšo postavo od njega; tudi pripovedujejo, da nisi rojen v raztrgani koči kakor na priliko jaz (hvala bogu, da je bilo samo enkrat). Ali s temle krščenim čifutom se najbrž glede dediščine ne bodeš mogel meriti. In to je glavno! Denar, prijatelj, denar! Dandanes je čas materializma, žalibog, ali — je! In ženske se tudi po duhu časovnem obračajo. Meniš li, da tvoja ne?«</p>
+            <p n="SLV10008.571">»Tako govorjenje si jaz odločno prepovedujem,« reče Nikolaj nevoljen.</p>
+            <p n="SLV10008.572">»Pst! Ne iz kože! Jaz vem, kaj govorim. Sicer pa ti bodem jutri na razpolaganje, svojo trditev z razlogi podpreti in z dejanji, kadar bode prilika, da se vidimo še! Plesat pojdi, tebi še dopade. Glej, začenja se.« Rekši, se izgubi med množico.</p>
+            <p n="SLV10008.573">Nikolaj je še plesal, ali dobra volja je bila čisto pri kraju za ta večer.</p>
+            <p n="SLV10008.574">»Kaj ti je danes?« vprašala ga je ona.</p>
+            <p n="SLV10008.575">Ta hip sicer ne, a kasneje se je domislil, da mu je isto vprašanje stavila enkrat tudi neka druga deklica. Kasneje se je tudi domislil, da od one je bilo to malo vprašanje mehko, sočutno, skrbljivo, od te pak je bilo nekako trše, karajoče, očitajoče.</p>
+         </div>
+         <div type="chapter">
+            <head>XXV</head>
+            <p n="SLV10008.576">Kakor blisk z jasnega neba je zadela Nikolaja v sredi mestnih veselic strašna novica. Na očevem domu je pogorelo vse poslopje razen hiše, ki je pa tudi oškodovana. Požar s svojo strahoto je starega očeta Luko Kolodeja tako prestrašil, da ga je mrtvoud zadel in v nesvesti leži, v sv. olje dejan, vsak čas more umreti.</p>
+            <p n="SLV10008.577">Razume se, da je Nikolaj z viharno brzostjo na voz sel in poditi dal domov, domov, cel pot boga moleč, da bi očeta vsaj še živega našel.</p>
+            <p n="SLV10008.578">Ni se mu izpolnila molitev. Ko je stopil v rojstno hišo, ležal je oni že brez življenja tu, ki je njemu življenje dal.</p>
+            <p n="SLV10008.579">Okoli mrliča so stali domači, pa tudi oče Pridan in Tončka. Poslednja dva odideta, ko se sin jokaje vrže na brezčutnega, mrtvega očeta.</p>
+            <p n="SLV10008.580">Tončka, bleda močno, s solznimi očmi koraka domov, Pridan pa postane pred Kolodejevo hišo in pravi: »Zdaj joka, zdaj! Ali kdo je pomagal pri smrti? On, sin! Ko je starec tako utihnil bil, kuhalo je v njem, in to ni bilo dobro.«</p>
+            <p n="SLV10008.581">Tako dolgo, da je bil pogreb končan, pomagal je »stric« Pridan malo izvedenemu Nikolaju zvesto, a precej, ko so šli od pogreba, obrnil mu je hrbet ter mu niti ne odgovarjal več. Premoženjske škode požar ni bil mnogo naredil, ker je bil stari Luka za vse stvari pri dobri zavarovalnici za tako nesrečo preskrbljen.</p>
+            <p n="SLV10008.582">Tončke Nikolaj ni več videl. K Pridanovim se ni upal. Slaba vest ga je odganjala. Ni misliti ni mogel rad o teh rečeh.</p>
+            <p n="SLV10008.583">A imel je zdaj res toliko skrbi, toliko dela, toliko pregledovanja, da ni utegnil o drugem čem misliti nego o urejevanju vsega, kar mu je kot edinemu naravnemu dediču pripalo.</p>
+            <p n="SLV10008.584">Zato tudi v mesto ni pisal štirinajst dni, dasi se niti poslovil ni bil pri odhodu od Luize. Zdajci se začne čuditi, da mu tudi ona ni nič pisala, ona, ki ima toliko časa in nobene skrbi. Ali ni imela, ko je gotovo zvedela, kaj ga je zadelo, nobene besede tolažbe zanj?</p>
+            <p n="SLV10008.585">Piše ji, a nalašč prav kratko.</p>
+            <p n="SLV10008.586">Odgovora čaka teden dni, vsak dan pošto težko pričakovaje. Nazadnje pride drobno pismo z njeno pisavo na zavitku. Raztrga ovoj in bere:</p>
+            <p n="SLV10008.587">»Dragi gospod Kolodej! Obžalujem prav srčno veliko dvojno nesrečo, ki vas je zadela. Jaz za dalje časa odpotujem, torej ne pišite. Pozdravlja Vas Luiza.«</p>
+            <p n="SLV10008.588">Nikolaju je bilo, kakor da bi mu bila kri iz lica šla in bi koža na njem ledenela. To je vse? Tako kratko? Kaj to znači? Odpotuje, a niti ne pove kam, po kaj? ''Njemu'' tega ne pove? To hladno, kratko pismo!</p>
+            <p n="SLV10008.589">Rekši, se skloni proti kočijažu in mu naroči ulico, kamor naj vozi.</p>
+            <p n="SLV10008.590">Ničesar nista govorila med to vožnjo. Pred majhno hišo z velikim vrtom ukaže doktor vozniku obstati.</p>
+            <p n="SLV10008.591">»Tu?« vpraša Nikolaj.</p>
+            <p n="SLV10008.592">»Še ne, počakaj na vozu.« S tem odide in pride s srednje lepim bukejem v roki nazaj in v voz stopaje vozniku ukaže v drugo ulico voziti ter pred imenovano številko na nasprotni strani postati. Po kratki vožnji so bili na mestu.</p>
+            <p n="SLV10008.593">Tam reče doktor najetemu vozniku: »Dajte sem, jaz podržim konja, vi pa nesite tale šop cvetja gor v prvo nadstropje, pri prvih vratih potrkajte, dajte gospodični ta šop, pa samo gospodični v roke. In ko vas bode vprašala, recite tako bolj pomežikavo, natihoma, da tisti gospod, ki vas je poslal, tu doli v vozu sedi. Le brž!«</p>
+            <p n="SLV10008.594">Voznik steče v hišo, doktor pa Nikolaju reče:</p>
+            <p n="SLV10008.595">»Ti pa obrni vid svojih oči na prva tri okna tu gori, na vsa tri okna.«</p>
+            <p n="SLV10008.596">In glej! Na oknu se prikaže ženski obraz, pogleda na ulico, zardi in se brzo odmakne. To je bil — njen obraz!</p>
+            <p n="SLV10008.597">»Videl?« vpraša doktor tovariša, ki je bil prebledel in naslonil se v vozu nazaj. Na ukaz voznik obrne in odpeljeta se naglo.</p>
+         </div>
+         <div type="chapter">
+            <head>XXVI</head>
+            <p n="SLV10008.598">Nikolaj bi se bil dal od doktorja voditi, kamor bi bil hotel le-ta. Bil je kakor brez volje. V preprosto samčevsko stanovanje doktorjevo prišedši, zgrudil se je na stol in, z obema rokama glavo prijemši, naslonil se na pisalno mizo.</p>
+            <p n="SLV10008.599">Dr. Lok je po sobi hodil gor in dol, a molčal. Znal je, da v takih trenutkih tolažbe ni med možmi, da je treba le časa in počakanja. Dobršno dolgo je bilo med njima to zamolklo molčanje.</p>
+            <p n="SLV10008.600">»Torej nalagala se mi je, da bi ji ne pisal več!« vzdihne sam zase Nikolaj, solze se mu udero in glasno, da zabobni, pade mu glava na mizo, izpod lica priteko solze.</p>
+            <p n="SLV10008.601">Dr. Lok si z obema rokama popravlja oni del obleke, ki ga prefini Francozje ne izgovarjajo, sune zdaj z levo, zdaj z desno nogo od sebe, kakor da bi se za ples pripravljal, pa stare dve mokroti v svojih očeh ter reče:</p>
+            <p n="SLV10008.602">»Ko bi ne vedel, da nič ne pomaga v takih prilikah govoriti, v kakršni si ti, rekel bi pač, da nobena ženska ni moške solze vredna, kvečjemu mati, da, mati že! Tako pa, le iztoči se, mož, marsikdo je že imel podobne položaje, trpel, kakor da bi imel kakovo dušo rešiti, in mislil, zdaj zdaj se mora svet podreti. A se le ni podrl! Da, zavoljo ene ženske! In vendar statistika, na priliko našega mesta, uči, da jih več na svet prihaja nego nas, gospodov stvarjenja. Na tisoče torej je tega božjega ali vražjega blaga, pa se mož joka zaradi ene, ki ga povrhu tega ni vredna ni in ga nikdar bila ni! Če to ni uganka, kaj pa je?«</p>
+            <p n="SLV10008.603">Tako govori doktor sam dalje. Potem pak zopet obstane, položi roko prijatelju na ramo in pravi:</p>
+            <p n="SLV10008.604">»Jaz ne vem, ali ti razumeš stvari ali ne, v katerih si, ali bolje: iz katerih si se izkopal.«</p>
+            <p n="SLV10008.605">»Izkopal?«</p>
+            <p n="SLV10008.606">»Da, srečno izkopal, rečem ti.«</p>
+            <p n="SLV10008.607">»Ne govori tega. Jaz bi bil za tega dekleta celo v nesrečo, v svojo lastno nesrečo rad šel.«</p>
+            <p n="SLV10008.608">»To še lahko storiš,« odgovori hladnokrvno doktor. »Kaj ?«</p>
+            <p n="SLV10008.609">»Ti torej ne umeješ, kako se stvari ujemajo? Vidiš, to izvira od tod, ker značaja te ženske nisi poznal, a meni nisi hotel verjeti, ko sem ti že pripovedoval, kakov je. Zdaj imaš</p>
+            <p n="SLV10008.610">dokaz, da je ljubila najprej tvoj denar, potem šele tebe. Razumeš?«</p>
+            <p n="SLV10008.611">»Nič ne razumem,« odvrne oni.</p>
+            <p n="SLV10008.612">»Pismo preberi še enkrat, ki si ga dobil od nje. Tam imaš obžalovanje za svojo dvojno nesrečo. Ali nisi mislil, kaj je poleg izgube tvojega roditelja druga tvoja nesreča?«</p>
+            <p n="SLV10008.613">»Ne!« odgovori Nikolaj in se opozori.</p>
+            <p n="SLV10008.614">»No, celo mesto govori, t. j. večidel vsi, ki te poznajo tukaj, izvzemši nas malo, ki smo pak molčali, nalašč molčali, govore, da si do tal pogorel z vsem premoženjem, zavarovan pak tvoj stari ni bil, skopuh.«</p>
+            <p n="SLV10008.615">»To ni res!«</p>
+            <p n="SLV10008.616">»Meni ni treba govoriti, da ni; jaz vem. Ali glej, ona je verjela in našli so se dobri ljudje, ki pa niso tvoji sovražniki (kasneje ti morem tudi z imeni poslužiti), kateri so ji to potrdili. Baš zadnje dni je gospod Majer, ki ni pogorel, mnogo pri Kraljevih bil. Nasledek tega in baš povedanega si danes videl. Boga zahvali, da si jo ob pravem času spoznal.«</p>
+            <p n="SLV10008.617">»Kdo si je predrznil to laž trositi?« vpraša Kolodej.</p>
+            <p n="SLV10008.618">»Katero? Da si pogorelec, brez premoženja? Da, kakor rečeno, imena kasneje. Če ti je pa na tem, da se pri gospodični Vit ta neljuba pomota popravi, hajdi brzo, morda ustrežeš gospodični, če prideš k njej in ji kako takole rečeš: Oprostite, krasna gospodična, vaše spremenjeno obnašanje meni nasproti se oslanja na majhno zmoto. Jaz si v veliko srečo štejem, da vam morem one pomisleke, ki vas od mene odvračajo, ako v premoženjskih razlogih tiče, kar se mi je povedalo, z zagotovilom pregnati, da so vsi tisti glasovi o podrtem mojem premoženjskem stanju neosnovani, netemeljiti, izmišljeni, neresnični, lažnivi; temveč jaz sem zdaj po smrti svojega ljubeznivega očeta v prijetnem položaju, vam, gospica, mnogo večje imenje pred noge položiti, nego sem si prej kdaj domišljeval, da bode mogoče; samo ljubite me zopet, kakor ste me ljubili, ko ste mislili, da sem bogat dedič. — Tako ali podobno pojdi govorit in zopet si na sedlu. Greš?« »Nikdar!«</p>
+            <p n="SLV10008.619">»No, tedaj potem boga zahvali za spoznanje. Vsako spoznanje je bridko. Sicer pa, tu imaš klobuk, nasadi ga in pojdiva iskat tolažbe tam, kjer jo je še vsak našel, vsaj za nekaj časa.«</p>
+         </div>
+         <div type="chapter">
+            <head>XXVII</head>
+            <p n="SLV10008.620">Na svet svojega prijatelja šel je bil Nikolaj z namenom, nekaj tednov izostati, na potovanje po južnih krajih. A vrnil se je stoprav čez več mesecev ob poletju. Zarjavel, zdrav na duhu in telesu, prišel je bil s primorja k prijatelju nazaj in mu pravil z neko veliko samozadovoljnostjo, da je sklenil, popraviti nekaj, kar je zagrešil. Kaj je to, ni vedel doktor, ker o prejšnji svoji razmeri Nikolaj z njim ni nikdar govoril. Zdaj se je malo časa mudil v mestu, z neko hlastno naglostjo se je odpravljal domov.</p>
+            <p n="SLV10008.621">In zopet je drdral voz po mostu preko vode pri Pridanovih, Nikolaj Kolodej ha njem. Kako ves drugačen nego pred dobrim letom! Zdaj ga ni več vozil domači hlapec, zaupni Tomaž. Po smrti starega Luke je bila vsa Kolodejevina z mlinom vred v najem dana tujim ljudem, stara družina je bila raztepla se na vse vetrove, celo obeh dveh psov ni bilo več na dvoru. Tuj voznik vozi gospodarja Kolodejeve častite hiše domov.</p>
+            <p n="SLV10008.622">Luka Kolodej bi se bil v grobu obrnil, ko bi bil videl to spremembo!</p>
+            <p n="SLV10008.623">A zdaj se vrača Nikolaj z namenom domov, vse zopet v stari red spraviti, z najemnikom pogodbo pretrgati, sam gospodariti, delati in še več.</p>
+            <p n="SLV10008.624">Ko mu Pridanova hiša pred oči pride, gleda neprestano tja in dvakrat se nagne proti vozniku, kakor bi nekaj vprašati hotel.</p>
+            <p n="SLV10008.625">»Ali naj tu pri Pridanu ustavim?« vpraša ga voznik.</p>
+            <p n="SLV10008.626">»Vozi naprej. — Torej ti ljudi poznaš?«</p>
+            <p n="SLV10008.627">»Gospodarja samo,« odgovori oni človek.</p>
+            <p n="SLV10008.628">Tedaj za Tončko ni mogel vprašati. Ali je ostala še tako, kakor je bila, ali bode mogoče popraviti, kar je grešil proti njej?</p>
+            <p n="SLV10008.629">Želel je poslednje tako vroče, kakor da bi bilo to prvo njegovo čutilo.</p>
+            <p n="SLV10008.630">Drugo jutro je na svoji postelji zbudil se, rano vstal, ogledal stvari okoli doma in delal črteže in namene, kako bode začel delavno in ugodno življenje, z malim zadovoljen in v malem veliko srečen. Zdelo se mu je, kakor da bi ga jako dolgo časa že ne bilo tukaj in kakor da bi se bil tačas močno postaral, izmodroval in ves drugačen postal.</p>
+            <p n="SLV10008.631">Po staro deklo Mreto, katera se je bila v bližnji vasi po smrti njegovega očeta kot osebenjica naselila, poslal je precej drugi dan. Saj ni imel druge zaupne osebe tu, katero hi si bil upal o vsem izprašati.</p>
+            <p n="SLV10008.632">Da je Tončka še neomožena in zdrava, to je bil takoj precej prvi večer zvedel in to ga je napolnilo z nekim zadovoljstvom, da je lahko čakal obširnejšega poročila od Mrete. Naravnost k Pridanu iti ni hotel precej, dasi so bili sorodniki. Hotel je prej pozornost nase privabiti, da je doma in da hoče tu ostati. Tudi je imel namen, vse bolj počasi, moževo, hladno opraviti. Potem bode več veljave imelo, govoril si je, a moral si je priznati, da je v duši vendar še nestrpljiv.</p>
+            <p n="SLV10008.633">Naposled pride starka. Glasno zajoče od veselja, ko ga zopet vidi na domu. Potem pak ga odločno kara, kako more po svetu hoditi kakor deseti brat, ko vendar ima doma tako</p>
+            <p n="SLV10008.634">»lepe reči« kakor nobeden drug daleč okoli po treh farah ne. Nikolaj jo utolaži z obljubo, da bode tu ostal, ona pak brž zagotavlja, da potem pride nazaj na Kolodejevino, ker do sedaj ji je bilo dolg čas, da nikdar takega; človek se je navadil in je navajen, pa je.</p>
+            <p n="SLV10008.635">O Tončki mu je morala pripovedovati. Da je bila kmalu potem, ko je on odšel, hudo zbolela, to je že čul. A novo mu je bilo, da je prej tiste dni pošiljala povpraševat po njem, da je v resnici le o njem govorila. Novo mu je tudi bilo, kar je pobožni berač Ceščenas po svetu okoli pripovedoval, da jo je videl precej potem, ko je bila s postelje vstala, moliti gori pri kapeli sv. Antona dolgo in jako.</p>
+            <p n="SLV10008.636">»Oh, kako sem bila nekdaj vesela, ko sem mislila, da bode ona enkrat pri nas gospodinja,« reče starka in zopet zaplače.</p>
+            <p n="SLV10008.637">»More še biti,« imel je Nikolaj na jeziku, ali previdno zamolčal to svojo skrivnost ter se le nasmehnil.</p>
+            <p n="SLV10008.638">»Je li imela kaj snubcev?« vpraša Nikolaj.</p>
+            <p n="SLV10008.639">»Govore o Tratnikovem, da bi jo rad.«</p>
+            <p n="SLV10008.640">»Kakov je?« vpraša z zardenjem ljubosumnega človeka. In ni mu bilo prav, ko je starka hvalila Tratnikovega, da je priden, delaven, čeden.</p>
+         </div>
+         <div type="chapter">
+            <head>XXVIII</head>
+            <p n="SLV10008.641">S precej veliko odškodnino odpravi Nikolaj najemnika s svojega doma proč in se loti sam gospodarstva s tako pridnostjo, kakor da bi bil od nekdaj le sam pri vsakem delu. Z oddaljenimi sosedi začne znanje delati in, to se razume, tudi v Pridanovi hiši je večkrat. S »stricem« govorita o vremenu, o voleh, o malinu in vodi. Tončka se nekako ogiblje, ali vendar ga s polnim pogledom vselej v lice pogleda, tako da mora skoraj on oči povesiti. Govorita pa vselej le navadne, resne reči, ker prve dni ni bilo- še nikdar prilike, da bi bila sama. Ona je bila med tem časom, kar je Nikolaj zdoma bil ali, kakor je njen oče rekel, trape lovil, obilnejša v lice in život postala, in sicer nikakor ne v kvar svoje lepote. Z nekim veseljem jo je Nikolaj pogledoval od strani, ko jo je prvič dalje časa opazovati mogel. Še nekaj spremembe je bilo na njej; ali nalašč ali ne, oblačila se ni več pol gosposko kakor prej, nego bolj kmetski.</p>
+            <p n="SLV10008.642">»Ali mi moreš odpustiti?« vpraša jo z najmehkejšim glasom vprvič, ko jo na pragu samo dobi.</p>
+            <p n="SLV10008.643">»Jaz ti nimam nič odpuščati, ljubi moj bratranec,« reče ona odločno, glasno, celo trdo in odide proč.</p>
+            <p n="SLV10008.644">Nikolaja je to bolelo, ali mislil si je, tu je treba časa. Kadar bode videla mojo resno voljo, potem bodeva laže zgovorila se in poravnala, kar naj bi se ne bilo nikdar zgodilo.</p>
+            <p n="SLV10008.645">Da se prva ljubezen nikdar popolnoma iz srca izruvati ne da, to je mnogokrat .črtal, a zdaj dan na dan globoko sam v sebi čutil. Torej je tudi v njenem srcu prve ljubezni gotovo še nekaj koreninic, ki bodo pognale s časom. Tako se je tolažil, dasiravno mu resničnost nikakor ni dajala dokazov, da je njegova tolažba upravičena.</p>
+            <p n="SLV10008.646">V svojo nesrečo je opazil s časom celo, da deklica mnogo veselejša in rajša govori z drugimi, tudi manj omikanimi ljudmi, nego z njim. Pa tudi to si je nekako na svojo korist razlagal: »Kaznovati me malo hoče in žalibog, da me sme.«</p>
+         </div>
+         <div type="chapter">
+            <head>XXIX</head>
+            <p n="SLV10008.647">Neki dan dobi Nikolaj dve pismi z mestnim poštnim kolkom. Prvo je precej spoznal po napisu in po obliki, da je od prijatelja dr. Loka. Drugo pa, ličnejše in drobno, imelo je napis njegovega imena s spačenimi, nenaravno stoječimi črkami, katere so mu bile znane, ali vendar se ni mogel takoj spomniti, čigave bi bile. Zato ga radoveden brzo odpre in čita:</p>
+            <p n="SLV10008.648">»Ljubljeni Nikolaj! Ti si me neusmiljeno kaznoval! Moj nesrečni namen, tvojo ljubezen, katero si mi tako vroče zagotavljal, le nekoliko izkušati, jemal si ti za resnico! Izginil si mi in do danes nisem vedela, kje si, da bi te na kolenih za zamero prosila. In ko bi tudi jaz kriva bila, kakor nisem — za boga se ti rotim, da nisem — ko bi bil trenutni dvom zapeljal me — da, samo dvomila sem! — potem še ne smeš za vselej od mene proč, Nikolaj! Moraš me zopet ljubiti s staro ljubeznijo, moraš! Odgovori mi, odgovori, kar in kakor hočeš! Samo molči ne, tvoje molčanje bi me morilo bolj od vsake zle besede, ki mi jo rečeš.«</p>
+            <p n="SLV10008.649">V tem strastnem tonu, ponavljaje z drugimi besedami iste misli, bilo je pismo še dolgo, na koncu pa podpis: ''Luiza Vit''.</p>
+            <p n="SLV10008.650">Prvi trenutek je čitanje tega pisma Nikolaja segrelo. Siore bi bil veroval, kar je čital. Zadnje iskre pokopane nekdanje strasti so se bile v njem razpihale, ali tlele so le en hipec. Kmalu se je v njem oglasil neblažji čut nekega zadostenja, nekega zadovoljstva zaradi poglajene njegove moške nečimrnosti.</p>
+            <p n="SLV10008.651">A takoj ga je bilo sram samega pred seboj tega čuta; in domislil se je, kako strahovito ga je pekla zavest, da ga je pustila, ko ni vedel: ali jo bolj sovraži zaradi njene neiskrenosti ali bolj divje ljubi, ker je nima več. In vera vanjo je izginila zopet; črke pred njim so mrtve postale, bridko se jim nasmeje.</p>
+            <p n="SLV10008.652">Ko pa drugo pismo od prijatelja doktorja prebere, skoči pokonci in vznemirjen gor in dol hodi, glasno grohotaje se sam sebi. Prijatelj mu je pisal več nepotrebnih brbljanj in govoric, priliko imel, sniti se s tvojo nekdanjo — saj veš — in vprašala me je po tebi, kje si. Vedela je — izvedavost ženska! — da si bil na potovanju. Jaz ji nisem utajil, da si zopet doma. Ker sem bil nekdaj nekoliko jaz kriv, da se je zveza med vama razdrla, kar me sicer še dandanes ne peče mnogo, smatram za svojo dolžnost, naznaniti svojemu prijatelju, da se je gospod Majer drugje oženil in da lepa gospodična Vit zdaj ''med dvema stoloma'' na tleh sedi, ako prvi stol, s katerega se je razsesti izvolila, ni zopet zanjo pripravljen.«</p>
+            <p n="SLV10008.653">Nikolaj raztrga drugo pismo precej, hoče tudi prvo, a se premisli in ga spravi. Prvi njegov sklep, nič odgovoriti ji, bil je zdaj gotov, kakor pribit.</p>
+            <p n="SLV10008.654">S Tončko o njej ni do zdaj govoril. A zdelo se mu je, da bode moral. To pismo mu bode dokaz pri njej, dokaz, da ga nobena ponudba in nobena prošnja ne odpravi od njegovega namena, ponoviti samo svojo prvo zvezo z njo.</p>
+         </div>
+         <div type="chapter">
+            <head>XXX</head>
+            <p n="SLV10008.655">»Jaz moram enkrat s teboj na samem govoriti,« rekel je Nikolaj enkrat Tončki, ko je po več dnevih z njo sešel se.</p>
+            <p n="SLV10008.656">»Midva sva na samem nekdaj že preveč govorila,« reče ona.</p>
+            <p n="SLV10008.657">»Ti me moraš poslušati ...«</p>
+            <p n="SLV10008.658">»No, če moram, pridi jutri popoldne. Sicer ti pa povem, da potreba ni,« pristavi deklica; njen glas ni bil vabljiv.</p>
+            <p n="SLV10008.659">Vendar je on drugi dan prišel. Bila je res sama. Odzdravila mu je, kakor bi bila vsakemu drugemu, samo zdelo se mu je, da je bolj rdeča nego sicer. On je hotel, baš ker je tako resna bila, uvesti pogovor polahko, zato je rekel, kazaje na okno, kjer so kakor nekdaj razne cvetlice v loncih stale:</p>
+            <p n="SLV10008.660">»Glej, to je še tisti rožmarin, katerega so bili tvoj oče polomili tačas, ko sva se midva prvič zmenila, da bodeš ti moja ...«</p>
+            <p n="SLV10008.661">»Tale je?« vpraša ona še bolj zardela in vzame lonec z rožmarinom z okna ter ga na mizo postavi, kjer je krušni nož ležal.</p>
+            <p n="SLV10008.662">»Tončka ...« začne on mehko in jo hoče prijeti za roko.</p>
+            <p n="SLV10008.663">Ona mu jo odtegne in ga resno pogleda: »Ne tako! Pametno kot bratranec povedi, kaj želiš, drugo pa pusti.«</p>
+            <p n="SLV10008.664">Ni se ji upal bližati. Sede na stol in žalosten vpraša:</p>
+            <p n="SLV10008.665">»Tedaj tebi res ni mogoče odpustiti mi? Ni ti mogoče prilike dati mi, da bi s tisočerno ljubeznijo poravnal ono, kar sem ti neprijetnega storil? O Tončka, ko bi ti jaz dopovedati mogel, kako šele zdaj prav znam in vem ceniti tvojo vrednost, tvojo ...«</p>
+            <p n="SLV10008.666">»Tiho, tiho!« prestriže mu ona besedo. »Odgovarjaj mi na to, kar te bom zdajle vprašala. Ali z vso resnico mi odgovarjaj.«</p>
+            <p n="SLV10008.667">»Z vso resnico, prisezam ti.«</p>
+            <p n="SLV10008.668">»Le brez prisezanja! Povedi mi, kdo je kriv, da si ti zdajle pri meni, ali če hočeš: kdo je to zaslužil, ti ali pa moja nekdanja prijateljica? Kdo je vajini zvezi kanec storil?«</p>
+            <p n="SLV10008.669">»Sicer ona, ali jaz sem ...«</p>
+            <p n="SLV10008.670">»Tedaj ona! Čakaj! — Resnico si govoril, to je res. Glej, jaz to že vse vem. Vendar sem rada videla, da si mi tudi ti potrdil, ti, ki k meni prihajaš, potem ko se te je ona naveličala in je ravnala s teboj kakor prej — ti z menoj! Zdaj, šele zdaj, misliš, da bi bila jaz zopet dobra! Večkrat si mi povedal, da sva malo v rodu. Že zavoljo tega bi me ne bilo treba tako zaničevati, da mi prihajaš pred oči in mi kažeš, da sem ti izbirek, ki se zdaj prime, zdaj proč vrže, potem pa zopet pobira! O ne, ljubi moj bratranček, zmotil si se, nisem več tista ubožica, kakor si jo nekdaj poznal, ti si me izučil.«</p>
+            <p n="SLV10008.671">Solze so ji prišle, a ne solze ljubezni, nego solze jeze, užaljenega ženskega dostojanstva. Nikolaj zardi silno, seže v žep in izvleče Luizino zadnje pismo.</p>
+            <p n="SLV10008.672">»Motiš se ti,« pravi, »če misliš, da se vračam k tebi, ker — me ona neče. Prosim, beri to pismo in prepričaj se.«</p>
+            <p n="SLV10008.673">»Nečem nobenega pisma več od tebe,« reče deklica.</p>
+            <p n="SLV10008.674">»Ni od mene. Prosim te, čitaj samo to, da se prepričaš, da mi krivico delaš! Odgovori mi potem, kar koli hočeš, samo čitaj!«</p>
+            <p n="SLV10008.675">Deklica vzame in prečita.</p>
+            <p n="SLV10008.676">Potem ji on odgovori: »Vidiš li, da nimaš pravice soditi tako, kakor si? Vidiš, da si ti edina, h kateri se moje srce vrača. In ko bi me ne le ona, nego ves svet na kolenih prosil ...«</p>
+            <p n="SLV10008.677">»Stoj, stoj!« prestriže ga deklica z odločnostjo, kakršne ne bi bil nikdo pričakoval, kdor je njeno krotkost prej poznal. »Kaj si ji odgovoril na to pismo?«</p>
+            <p n="SLV10008.678">»Nič!«</p>
+            <p n="SLV10008.679">»Nič? Zakaj ne? Vsak človek je vsaj odgovora vreden.« »Ona ne.«</p>
+            <p n="SLV10008.680">»Zavoljo tega ne, ker je nestanovitna, neznačajna in kakor se še pravi, kajne?«</p>
+            <p n="SLV10008.681">»Da tudi zaradi tega, a tudi . . .«</p>
+            <p n="SLV10008.682">»Le stoj! No, glej! Ti njo zaničuješ, ker se je od tebe odvrnila in ji niti ne odgovarjaš, če te odgovora prosi. K meni pa prihajaš in želiš, da bi jaz drugače ravnala, kakor ravnaš sam? Ali mi ne daješ sam zgleda, kako ti moram odgovoriti? Tako ti tudi odgovarjam! Enkrat za vselej — za vselej, zapomni si in nobenkrat več mi o tem ne govori.«</p>
+            <p n="SLV10008.683">Rekši to, strastno ona vstane in prime nož na mizi ter v hipu odkosi prej tjakaj postavljeni rožmarin čez sredo, da zeleni vrh pade na tla izbe.</p>
+            <p n="SLV10008.684">»Vidiš, tako si ti presekal živo vez med nama. Naredi, da se ta vrh priraste, če moreš. Da, krvavelo je tačas v meni, a zdaj, hvala bogu, je rana zarasla, morala je, ker sem hotela, da je!«</p>
+            <p n="SLV10008.685">»To je tvoja zadnja beseda?« vpraša Nikolaj zamolklo.</p>
+            <p n="SLV10008.686">»Zadnja v tej stvari!« reče ona in odide ven.</p>
+            <p n="SLV10008.687">Nikolaj je sam obsedel. In obvzelo ga je s strašno oblastjo nekaj kakor čut zapuščenosti, samozavest svoje ne-vrednosti. Za njega ni tu na celi božji zemlji nobenega, nobenega ljubečega srca in ga biti ne more! To se mu je v tem hipu zdela nesreča, le s smrtjo končljiva.</p>
+         </div>
+         <div type="chapter">
+            <head>XXXI</head>
+            <p n="SLV10008.688">Ino v mali predmestni krčmi »Pri belem psu« je bilo štiri leta kasneje, to je 1875, še zmerom dobro vino. In doktor Lok, s katerim smo se v drugem delu naše povesti nekoliko seznanili, imel je še zmerom staro žejo, vsak dan se ponavljajočo, ter hodil je sem k okrogli mizici v posebni obi kakor pred štirimi leti. Okoli njega je bilo nekaj starih, kaj novih znancev.</p>
+            <p n="SLV10008.689">»Ste li že čitali današnje večerne liste?« vpraša eden suknjo obešaje. kaj novega z bojišča?« vpraša Lok. akega. Ali Kralj je imenovan za sodca.«</p>
+            <p n="SLV10008.690">»Titulus Bibendi!« oglasi se majhen možiček z zabuhlim obrazom: moral je biti človek uradne številke.</p>
+            <p n="SLV10008.691">»Kralj? Zatorej je te dni vselej tako zamišljen sedel tu za mizo kakor koklja na jajcih. Gotovo je že prej kaj vedel, a nič povedal.«</p>
+            <p n="SLV10008.692">»To je, da je vedel! Ženska protekcija! Njegova druga žena, katero je lani takoj pol leta po smrti prve vzel, ima nekove zveze zgoraj, ne vem že kake,« reče tretji.</p>
+            <p n="SLV10008.693">»A kje je zdaj tista sestrična njegova, ki je pred štirimi leti še tako na glasu bila?« vpraša prvi.</p>
+            <p n="SLV10008.694">»Sestrične on ni nobene imel,« popravlja drugi. »Tista je bila sestrična njegove prve žene. Ni več tu. Bogve kod se klati. Enkrat je bilo slišati, da so jo na Dunaju videli v ne prav častni družbi.«</p>
+            <p n="SLV10008.695">»Ljudje so hitro pripravljeni kakovi ženski dobro ime vzeti. Morda pa ni res,« primetne Lok.</p>
+            <p n="SLV10008.696">»Oho, to pa nekaj pomenja,« roga se tretji.</p>
+            <p n="SLV10008.697">»Ona bi bila imela vzeti tistega Kolodeja, ki je tudi včasi prihajal pred leti. Kje je pa tisti? Ti moraš vedeti, doktor. Vidva sta bila prijatelja.«</p>
+            <p n="SLV10008.698">»Najbrž ga že več ni,« odgovori Lok.</p>
+            <p n="SLV10008.699">»Kako to?«</p>
+            <p n="SLV10008.700">»Ko je doli v slovanskem jugu boj počil, šel je tudi on dol. Od početka sem dobil eno pismo od njega; zdaj že dolgo nobenega. Sodim, da je padel, kajti z življenjem je bil že tako prej račune sklenil.«</p>
+            <p n="SLV10008.701">»In s premoženjem baje.«</p>
+            <p n="SLV10008.702">»Nekaj je še pustil, ali večidel je po potovanjih in igrah šlo rakom žvižgat. Vendar bi bil še lahko opomogel si, ko bi bilo mogoče govoriti z njim pametno.«</p>
+            <p n="SLV10008.703">»Ženske so ga bile izpridile,« oglasi se eden.</p>
+            <p n="SLV10008.704">»Sam, sam se je!« priloži drugi.</p>
+            <p n="SLV10008.705">»Bil je tudi s hčerjo nekega kmeta zaročen, a ona je vzela rajši nekega čisto kmetskega človeka.«</p>
+            <p n="SLV10008.706">»S katerim ima v treh letih že tri sine,« doda doktor.</p>
+            <p n="SLV10008.707">»Nu, če je padel doli za slovansko stvar, storil je vredno in lepo smrt, zato jaz predlagam, da ga pijemo vsak pol čaše na njegovo ime,« končuje ta razgovor starejši pivec.</p>
+            <p n="SLV10008.708">Steklene čaše zažvenkljajo.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

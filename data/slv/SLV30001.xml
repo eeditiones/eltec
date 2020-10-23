@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl" xml:id="SLV30001">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>S poti : edicija ELTeC</title>
+            <author ref="viaf:51848354">Cankar, Izidor (1886-1958)</author>
+            <respStmt>
+               <resp>Pretvorba zapisa eZISS v ELTeC.</resp>
+               <resp xml:lang="en">Conversion from eZISS TEI to ELTeC encoding.</resp>
+               <name>Tomaž Erjavec</name>
+            </respStmt>
+            <respStmt>
+               <resp>Izbira romanov in dodajanje metapodatkov ELTeC.</resp>
+               <resp xml:lang="en">Novel selection and ELTeC metadata.</resp>
+               <name>Marko Juvan</name>
+               <name>Miran Hladnik</name>
+               <name>Katja Mihurko Poniž</name>
+            </respStmt>
+            <respStmt>
+               <resp>Uredila digitalno izdajo eZISS.</resp>
+               <resp xml:lang="en">Edited source eZISS digital edition.</resp>
+               <name>Matija Ogrin</name>
+               <name>Luka Vidmar</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">27044</measure>
+         </extent>
+         <publicationStmt xml:lang="en">
+            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+            <distributor ref="https://github.com/COST-ELTeC/ELTeC-slv">GitHub</distributor>
+            <date>2020-02-18</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Izidor Cankar. S poti : edicija eZISS</title>
+               <idno type="url">http://nl.ijs.si/e-zrc/izidor/</idno>
+               <date>2007</date>
+            </bibl>
+            <bibl type="printSource">
+               <author ref="https://sl.wikipedia.org/wiki/Izidor_Cankar">Izidor Cankar</author>
+               <title>S poti</title>
+               <date>1913</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-1">
+         <p xml:lang="en">This ELTeC edition was automatically converted from the <ref target="http://nl.ijs.si/e-zrc/izidor/">eZISS digital edition</ref>, and several pieces of ELTeC-specific metadata were added. In particular, the source TEI was first downloaded, ELTeC-specific metadata was added and the encoding simplified via an XSLT stylesheet. It should be noted that the source eZISS edition contains the texts of both the original edition from 1913 as well as the revised edition from 1919. This ElTeC edition retains only the 1913 edition text.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language xml:lang="en" ident="sl">Slovenian</language>
+         </langUsage>
+         <textDesc>
+            <eltec:authorGender xmlns:eltec="http://distantreading.net/eltec/ns" key="M"/>
+            <eltec:size xmlns:eltec="http://distantreading.net/eltec/ns" key="short"/>
+            <eltec:canonicity xmlns:eltec="http://distantreading.net/eltec/ns" key="high"/>
+            <eltec:timeSlot xmlns:eltec="http://distantreading.net/eltec/ns" key="T4"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc xml:lang="en">
+         <change when="2020-02-18">Tomaž Erjavec: converted to ELTeC</change>
+      </revisionDesc>
+   </teiHeader>
+   <text n="SLV30001">
+      <body>
+         <div type="chapter">
+            <head>BENETKE.</head>
+            <p n="SLV30001.1">Težko si je misliti večjo razliko, nego je med ljubljanskim septembrskim jutrom in benečanskim septembrskim večerom. Zrak se mi vtihotaplja v sobo kakor lepa godba v srce, kadar sem obupal nad samim seboj in se povprašujem, čemu sem na svetu. In vendar je tudi današnje ljubljansko jutro bilo lepo, kljub tisti mrzli mokroti, ki peče oči. Snoči sem bil pri izpovedi; prvo prebujenje po izpovedi je nekaj neizrečeno prijetnega. Človek odpre oči z zavestjo otroške dušne svežosti; sam s seboj je nežen kakor mati; preden prižge svečo, je tema vsa preprežena s svetlobo; svet je tako skladen in dober, vsakdo posebej poljuba vreden; kar je bilo srcu veliko, mu je majhno in le eno potrebno: ne delati krivice. Vrhutega so mi bili računi že v redu, obresti poravnane, drobne skrbi odložene. Ko sem se vozil na kolodvor, mi je cigareta neizmerno teknila.</p>
+            <p n="SLV30001.2">Na peronu je že čakal moj mladi prijatelj Fritz, poet in umetnostni zgodovinar iz rajha. Prezebal je kljub svoji topli športni suknji. Pogled mu je bil v kolodvorskih meglah, parah in sajah kakor vlažen protest. Bilo je gotovo, da je slabo spal.</p>
+            <p n="SLV30001.3">„Ne, sploh nisem spal. Vaši hoteli so brlogi za najbolj pokore potrebne izpokornike. Večerjal sem žlico juhe, v postelji sem si zlomil vrat in dobil revmatizem. Bagage.“</p>
+            <p n="SLV30001.4">„Hôteli so različni, sobe različne,“ sem dejal iz dolžnosti.</p>
+            <p n="SLV30001.5">„In ali misliš, da je to sandwich, kar takorekoč jem?“</p>
+            <p n="SLV30001.6">„Je.“</p>
+            <p n="SLV30001.7">„Ni. Sandwich je zbirka dobrih ljubezenskih pesmi, okusno in dišeče uvezana. To je pa Rabelais v preperelih platnicah; vsebina je svinjska, pa dolgočasna.“</p>
+            <p n="SLV30001.8">„Ali je to razpoloženje italijanskega romarja?“</p>
+            <p n="SLV30001.9">„Ah kaj! Če vzame zlodej pri tej priči mene in Italijo, bi ga prosil samo toliko potrpljenja, da ga zahvalim.“</p>
+            <p n="SLV30001.10">Na to mi ni bilo kaj odgovoriti. Fritz je imel zopet enega tistih dni, ki so se stalno, pa nepreračunljivo vračali. Take dni je neznosen. Trdi stvari, ki bi ga lehko spravile v blaznico in ki so ga med znanci že res spravile ob dobro ime. Škoda je njegovega lepega obraza. Danes je izgledal mnogo starejši in iz oči mu je izginil tisti izraz otroške nevednosti, sprejemljivosti in spravljivosti, ki ga dela tako prikupnega tovarišem in ženskam. Minuto, preden je vlak prišel, je trdil, da ga sploh ne bo; nato je zagotavljal, da je zasedeno vse do zadnjega prostora in da v Ljubljani sploh ni postreščkov. Postrešček je prišel in kupe je bil skoro prazen; vstopila sta pred nama le prileten gospod in starejša gospa. Fritz je zanesljivo vedel, da sta novoporočenca in da bo vožnja strašna; sicer pa da se šteje za srečnega, ker ne razume slovensko. Gospod je bil trgovec in se je vračal z Dunaja, gospa je bila na obisku in po opravkih v Ljubljani.</p>
+            <p n="SLV30001.11">Vlak se je zgenil, gibko zavil v loku krog mesta in prhnil proti Trstu. Fritz je hotel spotoma v Akvilejo, jaz sem se namenil ostati par trenutkov v Gorici in Vidmu. Potem naravnost v Italijo, ki se začne v Benetkah. Kako zvonka beseda je Italija, ritmično blagoglasje je v njej, ki je skrivnost lepih besed in lepega stila. Čudno je, da se ljudje še niso pečali s to skrivnostjo, da je niso izkušali razkriti, ker kar pišejo o lepoti stila, je bolj skrivnostno kot lepota sama. In vendar je gotovo, da se ravna dober stilist nezavedno po zakonih skladja – ne le po zakonih slovniške logike – kakor je gotovo, da delujejo v umetniku nezavedno veliki zakoni, ki jih razkrijejo šele pozni potomci, v katerih morda teh zakonov nič več ni. Kar vemo o stilu, so le drobci, in še daleč ne najvažnejši; o besednem stilu posebno, toda o muzikaličnem in slikarskem ravnotako. Kdor bi odkril to skrivnost, bi posvetil v najtemnejši in morda najlepši kot umetnikove psihologije; videli bi tam čudeže. Približal bi nam lepoto iz neizmerne daljave, prijeti bi jo mogli in držati kakor plen.</p>
+            <p n="SLV30001.12">Italija. Še sedaj, ko sedim v Benetkah in mi je tako dobro v prsih od zraka in luči in šumenja tam zunaj, mi je ta beseda kakor vroče vino; opojnost je v njej, vonjiva para in gorkota. Čudno je, da si ne morem nič konkretnega misliti pod to besedo. Videl sem sto italijanskih fotografij in si še približno ne morem predstaviti, kako izgleda Florenca ali Fiesole ali Siena ali Rim. Opazil sem, da sploh ne mislim na kraje, temuč na Donatella, Fra Angelica, Michelangela, Savonarolo, na starokrščanske mozaike. Italija. Toplo mi je pri tej besedi in nasmehniti se moram; tako se nasmehne človek, če se spomni davne ljubezni, ki je bila lepa in je vsa obledela.</p>
+            <p n="SLV30001.13">„Fritz, povej mi, kako si ti predstavljaš Florenco?“</p>
+            <p n="SLV30001.14">„Precej veliko mesto, v sredi teče Arno. Sicer pa ne vem, če sploh pojdem v Florenco.“</p>
+            <p n="SLV30001.15">„Kaj?“</p>
+            <p n="SLV30001.16">„Da. Toda kaj si dokazujeta ta dva človeka?“ je pristavil jezno in tiho.</p>
+            <p n="SLV30001.17">„Nič; čisto mirno se pogovarjata o brezpomembnih stvareh. Gospod je ravnokar bil vprašal: 'Ali Vam to ni bilo znano?' Gospa je odgovorila: 'Pač; slišala sem'. Toda ljudje govore marsikaj brez potrebe.“</p>
+            <p n="SLV30001.18">„Ali govori pri vas vsak človek v tonu, kakor bi vse vedel, in s poudarkom, kakor bi mu kdo odrekal pravico do življenja?“</p>
+            <p n="SLV30001.19">„Ne vsak. Sicer pa nehaj s temi otročarijami, Fritz. Zahvali Boga, da moreš v Italijo; vreden je itak nisi.“</p>
+            <p n="SLV30001.20">Fritz je zardel. „To niso otročarije. Italija naj Boga zahvali, da ji prinesem tisoč frankov. Za to me bo krmila z makaroni, pečenimi vrabci, neznosnim rožmarinovim vonjem in pinijami, ki so na las podobni odprtim dežnikom pri starinarju.“</p>
+            <p n="SLV30001.21">„Ampak paste, Fritz, paste!“</p>
+            <p n="SLV30001.22">„Ko sem bil zadnjič tam, so bile že čisto slabe. Sedaj jih ne jé noben Evropejec več. Že v Benetkah bodo tekali otroci za nami in vpili: un soldo, musju; zvečer serenate, da me meče krč do stropa; vedi, da so Italijani najbolj nemuzikaličen narod. Spal bom v smradu in v oblakih komarjev. Natakarjem tečejo minestre in minestroni iz rokavov. V prvi kavarni ti bodo naprtili kile drobiža in slabih frankov. Pri prvem ljudskem slavju bova okradena. V Bresci si bova pokvarila želodec s prekajenim jezikom v stari omaki, v Milanu bom dobil mrzlico. V Florenci te bodo ubili z razglednicami, v Rimu naju bodo preganjali ciceroni do blaznosti. O Napolju in Siciliji niti ne govorim. Tam se neha Evropa. Kadar boš dobil kamen v hrbet, boš vesel, da te ni zadel revolver v glavo. – Ampak kaj govorita ta dva človeka?“</p>
+            <p n="SLV30001.23">„Nič hudega vendar! Gospa je dejala: 'Menil je, da se bo s tem izkopal.' Gospod je pristavil: 'Če bi znal, kakor znajo judje, bi bil ostal pri vsem tem bogat človek.'“</p>
+            <p n="SLV30001.24">„Bagage. Ne morem trpeti ljudi, ki govore s tako gotovostjo. Italija se je že začela; njene muke se napovedujejo.“</p>
+            <p n="SLV30001.25">„In njena umetnost?“</p>
+            <p n="SLV30001.26">„Tudi pred njo me je strah. Ne smej se, ker Bog mi je priča, da mislim resno. Strah me je tiste vrtoglavosti, ki se me bo polotila. Bolje bi bilo, da ni ne muzejev, ne knjižnic, ne gledališč. Bilo bi nam vsem v korist, če bi te reči odpravili, ker nam zastrupljajo življenje. Vsem. Umetniki zastrupe najprej sebe in potem druge. Ali če že mora imeti sit človek uro zabave in naslade, naj skrbe za to tisti, ki se imenujejo stari mojstri. Novih naj ne bo več.“</p>
+            <p n="SLV30001.27">„Ti ne boš napisal nobenega verza več –“</p>
+            <p n="SLV30001.28">„Nobenega, če bom pameten. Krivica je. Koliko sem žrtvoval življenja, poštenja in vsega, kar je bilo najboljšega v meni, tistim par slabim pesmim, klicem mutca, ki se potaplja, ker ga ljudje ne vidijo, sajam velikega požara, gnili setvi. Lažnivec sem, hinavec, tat, nečistnik, in ko sem se danes česal, bi bil pljunil v ogledalo, če bi se ne bil bal, da bom tudi s tem lagal. Dušo sem si razbodel kakor sito, in čemu, Verehrtester, čemu? Vsi tako trpe in se mučijo tisočletja, zato da more umetnostni in slovstveni in glasbeni zgodovinar razlagati stvari, katerih ni še nihče nikoli razumel.“</p>
+            <p n="SLV30001.29">„Marsikaj vendar razloži in mnogo tudi razumemo.“</p>
+            <p n="SLV30001.30">„Razumemo. Občudovanja si vreden, kadar govoriš v množini. Dobro, recimo, da razumete – ali je s tem poravnana velikanska krivica, plačan umetnikov osebni dolg? Ali ste s tem deli v ravnotežje boleče nesoglasje njegovega življenja? Vidiš, kako prijetno se je igrati potomce! Žrtve so neprimerno večje kot vaša hvaležnost in se ne izplačajo. In še hvaležnost je krivica. Tisti ljudje, ki pišejo pesmi in delajo skladbe in zgotavljajo slike, menijo vsled te hvaležnosti, da so storili nekaj velikega in zaslužnega, in tisti, ki še ne pišejo pesmi in ne delajo skladb in ne zgotavljajo slik, namerjajo vse to delati, ker hočejo storiti nekaj velikega in zaslužnega, da si pridobe hvaležnost in slavo. Tako zapeljujete potomci s hvaležnostjo, ki jo izkazujete starim, nedoraslo mladino v lenobo, neznačajnost, veliko osebno zadolženje, nesrečo in vse tisto, kar se imenuje umetnost. Meni že beseda sama preseda; pameten človek čuti, da je v njej nekaj hinavščine. Lepo te prosim, ne mahaj z rokami, kakor bi imel opraviti s premaganim stališčem! Je vse do besede res. Koliko poznaš resnično talentiranih lepotvorcev (spodobneje ni mogoče prestaviti Fritzovega izraza), ki jim ni življenje zavoženo in ki niso sami pokvarjeni? Zakaj umetnostni zgodovinar ne govori o tem? Čim več te človeške lepote, tem manj moralne moči v nas. Za naš slabotni in do mozga pokvarjeni čas ni nič bolj značilno, da toliko govori o umetnosti, kot je značilno za umetnost, da se v tem pokvarjenem času krepko razvija kakor v posebno ugodnem elementu.“</p>
+            <p n="SLV30001.31">Vlak se je ustavil v Postojni. Gospod in gospa sta izstopila, vstopila je tropa tržaških turistov.</p>
+            <p n="SLV30001.32">„Fritz, to je Postojna.“</p>
+            <p n="SLV30001.33">„Kaj je z njo?“</p>
+            <p n="SLV30001.34">„Tista slavna jama je tukaj.“</p>
+            <p n="SLV30001.35">„In kaj je v jami?“</p>
+            <p n="SLV30001.36">„Lepi kapniki. Ves svet hodi sem. Angleži …“</p>
+            <p n="SLV30001.37">„Menda sem enkrat nekaj slišal o tem. Čakaj, dolgo sem premišljeval, ali naj ti povem. Preberi to pismo, da ne bo pozneje nepotrebnih besed.“</p>
+            <p n="SLV30001.38">Vzel je iz notranjega žepa pismo, ki se mu je poznalo, da ga je nalašč v pesti zmečkal. Bilo je približno tako:</p>
+            <p n="SLV30001.39">– Ko si pisal pismo, ki sem ga danes prejela, si bil zelo slabe volje, česar bi ti ne zamerila, ker vem, koliko trpiš, ali pa si hotel vse z eno potezo končati, da te več ne dolgočasim. Že v predzadnjem pismu sem opazila, da se nekaj takega pripravlja. Tisto je bilo kakor popek, današnje je strupen cvet. Praviš mi: Jaz grem v Italijo in pozabi me, kakor pravim jaz svoji šivilji: Jaz grem na ples, hočem novo obleko. Toda jaz ljubezni ne morem menjati kakor obleko in imam vsako sezono le nov klobuk, ne drugo srce. Ti to veš, zato si nisem na jasnem, kaj misliš. Govoriti moram s teboj, da bom na jasnem. Ne zato, da poravnam, kar se morda ne da več poravnati, ampak da bom na jasnem. Če mora biti, da greva narazen, pojdeva. Koliko trpim pri tej misli, vem samo jaz, ti ne slutiš, dasi praviš, da poznaš žensko. Ljubila te bom dalje, toda brez nadlege, in kadar se sestaneva v družbi, se ne bom kazala ne užaljene, ne prevarane, oboje je neumno in meni tako zoprno kakor tebi. Vem, da ne ravnaš prav, in se skušam prepričati, da prav ravnaš. Za eno si pa lehko brez skrbi: ljudje ne bodo nikoli vedeli, da nisi prav ravnal. Veselilo bi me, če bi se tudi sam tega ne zavedal. Naj bo o naju dovolj. V Benetkah te bo čakalo pismo, poste restante. Če bi pa vendarle odpotoval, preden pride, pusti na pošti svoj naslov, da ga pošljejo za teboj. Odgovoriti mi moraš, ker prideva z mamo v Florenco. Pogovoriti se hočem s teboj, še enkrat: ne prositi ljubezni, če je ni. Mama seveda ne ve ničesar. Naj bo zadosti o naju.</p>
+            <p n="SLV30001.40">Nisem zelo zdrava. Mama me je hotela peljati v Švico, sedaj sem jo preprosila za Italijo. Nikakor ne morem spati, skrivaj jemljem krepke doze morfija. Mama ga sovraži, ker ne ve, kako strašne so noči brez spanja. Enkrat ga je našla, bil je škandal s solzami. Vse to je strašno neumno in te morda le dolgočasi. Imaš prav, tudi mene dolgočasi. Na svidenje v Florenci! – E.</p>
+            <p n="SLV30001.41">Ah, bila je to tista bleda, plavolasa Ester, ki je Fritz rekel o njej, ko jo je prvič srečal: To žensko bom ljubil do groba. Tudi na to ni bilo kaj reči. Bil sem v zadregi in sem mu vrnil pismo molče.</p>
+            <p n="SLV30001.42">„Vidiš, tako je, Verehrtester.“</p>
+            <p n="SLV30001.43">„Zakaj si ji pisal tisto pismo?“</p>
+            <p n="SLV30001.44">„Ker je bilo prav tako. Ker je ne ljubim več, ker ne morem nikogar ljubiti. Ker smo vsi moralno degenerirani. Tudi ona govori o umetnosti in psihologizira. Tisto primero o popku in strupenem cvetu si bral; taka reč deluje name kakor leden obkladek na vročičnega bolnika.“</p>
+            <p n="SLV30001.45">„Ali si zaradi slabih primer … Ali ti to daje pravico, da delaš krivico?“</p>
+            <p n="SLV30001.46">„Vem, da je ne daje, in vendar ne morem drugače, kot da si jo lastim. Nehajva! Ni vredno besede. Naj se zgodi, kar se mora zgoditi. Omenil sem ti stvar le zato, da ne boš pregovarjal in dokazoval, če se bom hotel peljati mimo Florence.“</p>
+            <p n="SLV30001.47">Nagnil se je v kot in zatisnil oči. Peljali smo se proti Trstu. Pastirji in pastirice so hiteli proti vlaku in mahali v pozdrav smejé. Tudi iz neke hiše ob progi – vsa okna so bila nastežaj odprta – je dekle vihtelo smejé beli predpasnik. Potniki so pozdravljali z rokami in robci in klobuki. Taki pozdravi so najlepša reč pri železniški vožnji; srečujejo se popolnoma tuji ljudje, se prijateljsko nasmehnejo, kakor znanci, si žele dobro in so v prihodnjem trenutku že daleč narazen. Hip je kratek, toda spomin je večkrat dolgotrajen in živ in vedno lep, kakor na žrtev ali dobro dejanje; prav v dnu srca je, težak in topel.</p>
+            <p n="SLV30001.48">Moral sem izstopiti, Fritz se je odpeljal sam proti Trstu. Bila je že noč, ko sem sédel v Vidmu na beneški brzovlak. Bil sem popolnoma sam v kupeju in sem začel brati nov potopis po Italiji. Pisan je tako, kot sem se bal, da bo. Baedecker prestavljen v literarno zamaknjenost. Vsaka ped zemlje je zgodovinska, grobovi so povsod, povsod velike sence preteklosti, deloma krvave, deloma eterično nežne. Morje valovi v primeri, šumi v primeri, gore so kakor … nevemkaj. Ljudstvo je tako in tako; komponente njegove psihologije so popolnoma jasne, posameznikov ni, ali če so, govore kakor poosebljena laška lastnost. Umetnost obstoji iz anekdot, ki vse razlože (Taine je najpopularnejši učitelj), in v tem, da podtaknemo umetniku nekaj, česar sami ne mislimo, pa trdimo, da mislimo in da je on tako mislil, dasi tudi tega ne verjamemo. In toliko zanimivega se zgodi na poti, vsako mesto ima svoj dogodek, včasi flirt, včasi nevarnost, sempatje tudi kako novo spoznanje.</p>
+            <p n="SLV30001.49">O potopis, ti stara nadloga! Nezakonsko dete jalove zadrege, sramotno dejanje obupanca, pesniška laž nepesniških pisačev, zgodovina mukotrpnih ur ob pisalniku, nazorni pouk o puščavi domišljije, pavovo perje, utrgano na tujem zeljniku in položeno v skledo ljudem, ki žejajo po izobrazbi, nestvor si, starec potopis! Bil sem že večkrat z doma in se mi ni nikoli nič zgodilo, kakor se mi sploh v življenju ni še nikoli nič zgodilo. Niti okraden nisem bil; mislim, da niti palice nisem nikoli izgubil. Drevesa so v Italiji velike rastline kakor pri nas, hribi so vzbokline prsti, zvezde so pač zvezde tu in tam. Zgodovina je drugačna, toda to nam pripoveduje zgodovinar bolje kakor literarni turist. Ljudje so drugačni, toda ljudje so tudi pri nas med seboj drugačni. In samo to je zanimivo. Pastir, ki mi je zamahnil ob progi v pozdrav, je za enkrat važnejši kakor benečanski doži; brez pastirja ne bo dožev nihče razumel. Če bi razumel Fritza, bi vedel toliko, da bi lehko molčal do smrti. Sebe bom razumel tedaj šele, ko bom gledal večnost iz obličja v obličje, takrat bo vsa vednost pred menoj in v meni brezkončni molk strmenja.</p>
+         </div>
+         <div type="chapter">
+            <head>Benetke.</head>
+            <p n="SLV30001.50">Stanujem v najbolj dolgočasnem hotelu, kar jih ima lepa Riva degli Schiavoni. Vsi Slovenci hodimo sem; v obednici visi podoba našega cesarja na desnici. Sobe ni mogoče najti brez izurjenega vodnika. Zajtrk ni nič bolj dolgočasen nego zajtrkovalci; soliden, drag in pedantičen, kakor gospod, ki sedi s hčerko v pročelju.</p>
+            <p n="SLV30001.51">Fritz pride, menim, še predpoldnem.</p>
+         </div>
+         <div type="chapter">
+            <head>Benetke.</head>
+            <p n="SLV30001.52">Na svetu se ne zgodi nič več. Zunanji človek je umrl, pod njegovim mrtvim površjem se križajo le še struje starih misli. Dal sem si besedo, da bom spotoma pisal zaradi lastne kontrole, sedaj moram pisati in ne vem, kaj bi kontroliral. Mislim, da je za pravo spoznanje moja mala dunajska peč važnejša od Italije. Kadar sedem zimski večer k njej in jame izžarevati toploto in polniti z mlačnimi valovi sobo, ki se strnejo z odsevi cestnih svetilk v poltemno, gorko trepetanje, je vse jasno v meni in doživim več, nego sem doživel te tri dni v Benetkah. Bojim se, ko to trdim, da zahajam v samodopadljivo paradoksnost, ki je lastnost ljudi, ki vse hočejo in le malo zmorejo, ki se igrajo s svojo nemočjo, kakor se igrajo lačni otroci žalostno igro, da pozabijo lakoto. In vendar ne zahajam v samodopadljivo paradoksnost, ker tisti večeri so res važnejši od Italije. S toploto in temo se gosti tudi spoznanje pred menoj, formula vsega bitja, ki je vekovita in pravzaprav edina bolečina mladih ljudi, cilj vsega njihovega hrepenenja, postaja omejeno telo, skoro enačba. Ko prižgem luč, je soba prezakurjena in polna dima, vse je zopet skrivnost, toda iz srca sem si iztrgal eno neznanko. Pa pustimo to. Vse je beda in bridkost. Cankar, sovražnik moj, bodi pameten! Vse je beda in bridkost. Stopi pred ogledalo in se poglej; v par dneh boš plešast, vodenih oči, opičjega obraza, tankih nog in debel. Sebe je treba vleči, kakor vleče sestradan konj kamenje na novo cesto, s povešeno glavo; ko ga izprežejo, dvigne glavo.</p>
+            <p n="SLV30001.53">O Bog, ki si vsa resnica in ki te ljubim, ki se zvijam krog tvojih nog kakor slep kužek krog gospodarja, ki ves v omotici trepetam, kadar se mi bližaš, vse sem že sanjal, daj, naj sanjam še eno: da leži moj kadaver pred menoj in da smem stopiti nanj, dvignil bi glavo in ti pogledal v oči.</p>
+         </div>
+         <div type="chapter">
+            <head>Benetke.</head>
+            <p n="SLV30001.54">Fritz je prišel ves navdušen iz Akvileje. Pravi, da ima strica v Ameriki, ki bo cerkev moral kupiti in jo dal prenesti v Berlin; Avstrijcem da je govedina potrebna, mozaiki ne. Razposajen je kot znorela mačka in me zvečer ubija z duhovitostjo. Ko sem mrtev, me še odira. Čez dan me pušča pri miru in hodi svoja pota, ki si o njih ne da dopovedati, da so slaba. Danes popoldne sva bila prvič skupaj v Akademiji, pa le, ker sem ga prisilil; hotel sem ga namreč za vsako ceno spreobrniti k Tizianovi Assunti. Bilo je tako:</p>
+            <p n="SLV30001.55">Prvi dan, ko je prišel sem, sva popoldne srečala na stopnicah v hotelu nemško družbo, ki je nanovo prišla. Stisnila sva se k steni pred kovčegi s košarami, Fritz je globokoresno pozdravil.</p>
+            <p n="SLV30001.56">„Ali jih poznaš, Fritz?“</p>
+            <p n="SLV30001.57">„Ne, mein Liebling.“</p>
+            <p n="SLV30001.58">„Čemu jih potem pozdravljaš?“</p>
+            <p n="SLV30001.59">„Gospodična mi je všeč, mein Herr.“</p>
+            <p n="SLV30001.60">Hotel sem nekaj reči, pa ni bilo mogoče; gledal me je kakor koketna balerina, ki je nalašč zmedla takt, da se lehko sramuje. Zvečer je prišel v obednico naravnost od brivca, ves svež in lep. Tistih Nemcev ni bilo pri večerji. K zajtrku je prišel bled, lahno nagubanega čela, s trudnim nasmehom, ker dobro ve, kako je simpatičen, kadar je tak; podoben je belemu, ranjenemu golobu; imel je čudovito kravato. Nemci so bili tam; sedel je k njim, kmalu potem postregel gospe z vodo in se predstavil.</p>
+            <p n="SLV30001.61">Saj ni mogoče, da so prvič v Benetkah! On je tukaj takorekoč doma in je že vse tisočkrat obhodil, ve vse. Zaradi oddiha potujejo? Seve, to bi bil lehko ugenil, gospa se mu zdi nervozna. Ne more spati? Ne more spati. (V resnici je gospa bolj zdrava kot jaz in stavim, da spi dobro.) O, tudi njegova mati je nervozna, on pozna te reči. (Njegova mati je tudi bolj zdrava kot jaz.) Gospod bi rad vedel, če je mogoče priti na Markov stolp. Brez najmanjše težave, saj je lift. Kaj stane? Fritz ne ve tega natančno, pa bo vprašal takoj po zajtrku vratarja. Natakar, ali veste, kolika je vozna taksa na Markov stolp? Natakar tega ne ve natančno, toda Fritz bo takoj po zajtrku vprašal vratarja. Gotovo, tudi peš je mogoče gor. Seveda, to manj stane. Sin, gimnazijalec, meni, da je Napoleon celo jahal na vrh, torej morajo biti stopnice jako zložne. Gospod sam dobro ve, da je Napoleon jahal na Markov stolp, toda tisti stolp se je podrl, morda so stopnice sedaj drugačne. Ne, stolp je na las enak prejšnjemu; Fritzu se to ne zdi prav, on misli kakor Otto Wagner, da bi morala na tisto mesto moderna arhitektura, potem bi bil trg še čudovitejši, če mogoče, bil bi kakor pravljica, ki so jo spletli vsi vekovi. Gospodična vpraša, če se Fritz veliko peča z umetnostjo. Fritz sramežljivo prizna, da je umetnostni zgodovinar. O, tudi njo zelo zanima umetnost in leposlovje, brala je Strzygowskega knjigo Über die bildende Kunst der Gegenwart. Fritz trdi, da je knjiga ničvredna, in tudi ona meni, da bi bila lehko globlja, toda zanimiva je vendar. Fritz trdi, da tudi zanimiva ni, nasprotno, da je zelo dolgočasna. Kakor se vzame, se nasmehne gospodična, toda njena dolžnost ni zagovarjati Strzygowskega, ona rajša uživa Benetke. Snoči so se vozili po Kanalu, ravno ko je solnce zahajalo; hiše so stale kakor v raztopljenem zlatu. Nasprotno, meni Fritz, če pogledam tisto podrtijo, mislim le, kako je vse beneško zlato splavalo po vodi. Tudi gospod je opazil, da so palače zapuščene; res, umirajoča kraljica. Gospa prosi Fritza, naj jim razkaže mesto, če bo kako uro prost, in on jim je ves na uslugo.</p>
+            <p n="SLV30001.62">Tako je hodil z njimi, dokler nisem danes opoldne slišal naslednjega pogovora:</p>
+            <p n="SLV30001.63">„Res ne vem,“ je dejala gospodična pri kompotu, „zakaj stoji toliko ljudi pred Assunto. Meni se zdi slika naravnost dolgočasna. Predrznost je kaj takega trditi, vem, pa če hočem biti odkritosrčna, moram reči, da sem bila razočarana. Ravno to sem doživela pred Sikstinsko Madono; človek si predstavlja vedno več, nego najde.“</p>
+            <p n="SLV30001.64">„No, no,“ je mrmral gospod z boječim pogledom na Fritza, „počasi, gospodična, le zmerno. Saj vendar ne misliš, da so vsi tisti ljudje tepci, ki jo hvalijo?“</p>
+            <p n="SLV30001.65">„Gospod Fritz je rekel, da so,“ in ga je pogledala s popolnim zaupanjem. Zdelo se ji je lepo, kljubovati prepričanju vsega sveta, in tudi sama je bila lepa v svojem devetnajstletnem kljubovanju.</p>
+            <p n="SLV30001.66">„Morda Vi drugače mislite,“ je dejal pohlevno Fritz, dasi ve, da gospod sploh nič ne misli o Tizianu, „toda moje prepričanje je, da Assunto bolj hvalijo, kot zasluži. Sicer je pa to vprašanje okusa,“ je še pristavil, ničvrednež.</p>
+            <p n="SLV30001.67">Po kosilu sem stopil v njegovo sobo.</p>
+            <p n="SLV30001.68">„Fritz, zakaj begaš te uboge ljudi, ki ne žele nikomur nič hudega?“</p>
+            <p n="SLV30001.69">„Ali meniš, da sem jo res zbegal? Prosila me je, naj ji pišem včasi kako razglednico. Mislim, da je ljubezni žejna. Rekla je, da ni zaročena in da se sploh ne bo možila.“</p>
+            <p n="SLV30001.70">„To so otročarije. O Tizianu govorim.“</p>
+            <p n="SLV30001.71">„Kaj ne vidiš, da jih vzgajam? Kaj ne veš, da je treba tej leni masi inteligence, ki ji je vsaka lastna misel tako mrzka, najprej zmesti vse pojme, zbegati jo do popolne negotovosti, ubiti v njej kali javnega mnenja? Ko ne bo v teh gnilih možganih nobene misli več, bodo začeli nanovo misliti. Ali ti to ni popolnoma jasno?“</p>
+            <p n="SLV30001.72">„Jaz govorim o Assunti.“</p>
+            <p n="SLV30001.73">„Razumem te, dragi; izražaš se precizno, o Tizianovi sliki. Kar sem govoril danes pri mizi, sem pripravljen vsak trenutek zagovarjati. Vem, da so me deloma napak razumeli, toda to je potrebno zaradi zmede, kakor sem ti že razložil. Ali želiš debate, mein Liebling?“</p>
+            <p n="SLV30001.74">„Zahtevam jo. Pojdiva v Akademijo.“</p>
+            <p n="SLV30001.75">„Tudi v smrt s teboj. Pojdiva v Akademijo.“</p>
+            <p n="SLV30001.76">Prijel me je pod pazduho in uravnal svoj korak po mojem. Sigurnost njegove ironije me je pekla, spominjam se, kako so mi bile gibčne kretnje njegovega mladega, mišičastega telesa zoprne, celo njegov lepi, ženskonežni obraz se mi je zdel bedast in hudoben; udariti bi ga hotel in sem mu odtegnil roko. Delal sem mu krivico, kakor sem jih napravil v srcu ljudem že veliko.</p>
+            <p n="SLV30001.77">V Akademiji je bilo le malo ljudi; postopali so zdolgočaseni okrog, trudni in leni od kosila. Sedla sva pred Assunto.</p>
+            <p n="SLV30001.78">„No, Fritz?“</p>
+            <p n="SLV30001.79">„Ponavljam, kar sem dejal in kar vidim nanovo: slika je danes zame popolnoma nezanimiva; ne trdim, da je slaba, ampak dolgočasna.“</p>
+            <p n="SLV30001.80">Bil je previden in se je omejil na negacijo ter delo dokazovanja prepustil meni. Kadar ne gre za matematiko, je to delo jako neprijetno.</p>
+            <p n="SLV30001.81">„Strogo dokazati, da je kaka reč lepa, se ne da. Dokazati …“</p>
+            <p n="SLV30001.82">„Uvod je izboren,“ je priznal Fritz zelo zadovoljno. Meni je zaplala kri v glavo.</p>
+            <p n="SLV30001.83">„Dokazati morem le, da je Assunta izredno duhovito zamišljeno in izredno smotrno delo, ter moram reči, da me to estetsko zadosti. Drugi stavek moraš enostavno verjeti, ker je subjektivnega značaja, prvega bom izkušal obrazložiti.“</p>
+            <p n="SLV30001.84">„Stori to, dragi tovariš. Govori trezno.“</p>
+            <p n="SLV30001.85">„Pomisli, da živiš začetkom šestnajstega stoletja. (Fritz je naglo zavzel pozo zmagalca pri Lepantu.) Kar vidiš slik po Benetkah, so večinoma v duhu Palma Starejšega, prijetni prizori revne kompozicije, zelo enolični in boječi; mladi Tizian slika ravnotako. In tedaj naenkrat doživiš Assunto. Moram zahtevati, da se zamisliš v tisti čas, sicer ne moreš razumeti te velikanske razlike. Kar je bilo prej stisnjeno v tesno scenerijo, se je razširilo tu v svobodno, skoro brezprostorno vizijo. To je bilo veliko dejanje osvobojenja (da o tehničnem napredku ne govorim), prava revolucija ne le v slikanju kot ročnem delu, ampak v slikarskem mišljenju. Fritz iz začetka šestnajstega stoletja bi skoprneval pred Assunto. Mislim, da se ta revolucija ne da primerjati nobeni, kar sva jih midva doživela v umetnosti; bilo je nekaj tako novega in razburljivega kakor začetki francoskega impresionizma. Fritz iz šestnajstega stoletja …“</p>
+            <p n="SLV30001.86">„Gotovo, napisal bi knjigo o Tizianu.“</p>
+            <p n="SLV30001.87">„Vidiš. In zdaj poglej sliko samo ter jo izkušaj razumeti. Spodaj gruča apostolov, vsa nemirno razgibana, poganjajo se v hrepenenju kvišku in je vendar trda masa, privezana k tlom. Iz nje se je dvignila Madona, telo še, toda rešena grude, hrepenenje jo nese v svobodni črti navzgor. Nad njo, v zgornjem delu slike, se začenja breztelesnost, vizija večnosti; kori angelov so le lahen dih, obrisi se izgubljajo v luči neizmernosti. Ali si videl to stopnjevanje iz telesne mase v breztelesno duševnost? Glej dalje, kako je truma apostolov en sam zgoščen nemir, koncentracija kontrapostov; iz tega nemirnega gibanja se je izločila Assunta v mirnem poletu, nad njo pa se neha vsako gibanje in preide v večnomirno bitje; v zgornjem delu se nič več ne godi, ampak je. Če meniš, da sem si to gradacijo izmislil, bi te opozoril …“</p>
+            <p n="SLV30001.88">„Nič ne dvomim, da imaš prav.“</p>
+            <p n="SLV30001.89">„Dobro. Opozoriti te moram le še na to, da tudi raba svetlobe in sence na sliki potrjuje, da sem Tizianovo misel prav razumel. Kakor prevladuje spodaj telesnost in nemir, ki stopnjema prehaja v mir duha, tako vidiš, da prevladuje spodaj senca, ki se proti vrhu umika svetlobi, dokler ne preide zgoraj v luč večnosti brez madeža. Kdor se zave te genialne enote različnih elementov, si ne more niti za trenutek tajiti, da je Assunta lepo delo, in ti bi bil veliko bolje storil, ko bi jo bil svojim ljudem razložil, namesto da daješ njihovemu neznanju in njihovi nesposobnosti mišljenja potuho.“</p>
+            <p n="SLV30001.90">Bil sem zadovoljen s tem, kar sem govoril, čeprav sem od začetka mislil, da imam več povedati. Tudi izraz mi je bil neokreten, toda trdil nisem preveč in ne premalo.</p>
+            <p n="SLV30001.91">„Fritz, končal sem.“</p>
+            <p n="SLV30001.92">„Ali si že končal? Dovoli mi najprej eno vprašanje, najdražji! Zakaj si začetkoma govoril o revolucionarnosti te Tizianove slike, o novem slikarskem mišljenju, zakaj si me s silo potiskal v šestnajsto stoletje?“</p>
+            <p n="SLV30001.93">„Zakaj?“ Da, zakaj sem govoril o tem? Zveza mora biti, toda jasna mi ni bila takoj. Ne, saj sploh ni bilo logične potrebe! Mislim celo … za zlodja, veliko bolje bi bilo, ko bi o tem ne bil govoril. Hotel sem hitro nekaj reči, da bi se ne zdelo, kakor bi bil premagan, pa sem se premislil, ker sem se še vedno kesal, kadar nisem govoril iz najčistejšega prepričanja.</p>
+            <p n="SLV30001.94">„Hotel si s tem reči, da so o sliki v šestnajstem stoletju drugače sodili, kot sodim jaz, in da bi tudi sam drugače sodil, kot sodim danes. Slep bi moral biti, da bi ti tega ne priznal. Toda trdim, da danes opravičeno drugače sodim, kot bi sodil tedaj, da se je naše naziranje tačas izpremenilo.“</p>
+            <p n="SLV30001.95">„Ali danes ni več lepo, kar je bilo v šestnajstem stoletju lepo? Ali je danes laž, kar je bila tedaj resnica?“ Če stopi Fritz v to past, je ujet; ne bo se mi več izvil.</p>
+            <p n="SLV30001.96">„Resnica je vedno resnica, dvakrat dve se ne izpreminja, in posledica bo vedno morala imeti svoj vzrok. Resnica je dobra analogija za lepoto; ravnotako je objektivna kakor lepota. To objektivno stran Assunte si mi dobro razložil, dá se celo dokazati.“</p>
+            <p n="SLV30001.97">„Torej?“</p>
+            <p n="SLV30001.98">„Težava je le ta, da ne stojim pred sliko kot človek sploh, ki je v vseh stoletjih enak, ampak kot popolnoma izrazit človek dvajsetega stoletja, ki je videl sto variacij Tizianove slike iz šestnajstega in poznejših stoletij, ki je videl isto lepoto tolikokrat ponavljano, da je nje mik izgubil svojo prvotno razdražljivo sposobnost. Približno tako se godi dobrim primeram, ki postanejo zoprne, kadar preidejo v lastnino časnikarjev in šolskih nalog, resničnim trditvam, ki postanejo fraze, obrabljenim citatom. Vse to se objektivno nič ne izpreminja, toda moje razmerje do njih je drugačno. Kadar boš naročal oltarno sliko, ali boš rekel umetniku, naj hodi Tizianova pota? Ni mogoče. Tizianova rešitev problema nas več ne zanima. Pravtako je z resnico; tudi v umskem spoznavanju je užitek, ki se menda krije z estetskim; toda ta užitek občutiš samo, dokler pridobivaš nove resnice ali pa kadar je vsaj dokaz nov.“</p>
+            <p n="SLV30001.99">„Ne morem ti gledati v srce, da bi videl, če si s Tizianovim problemom že res tako na jasnem. Toda tisti ubogi ljudje, ki si jim jemal spoštovanje pred Assunto, gotovo še niso na jasnem, zanje je problem nov, slika nova resnica. Tvoja dolžnost bi bila, da jim jo razložiš.“</p>
+            <p n="SLV30001.100">Fritz je načelno pobijal popularizacijo, ki da umetnosti škoduje in ljudem nič ne koristi. Bil je razdražen prepir brez konca, ki pusti za seboj v glavi praznoto in v srcu polno žel, kakor pijančevanje. Slednjič nisva vedela, kaj sva prvotno trdila, in sva morala začeti iznova. Potem je odbilo štiri. Odšla sva molče, vsak trmoglavo v svojih mislih, ki so snovale nove dokaze, vse boljše in jasnejše. Človeku je dobro molčati.</p>
+         </div>
+         <div type="chapter">
+            <head>Benetke.</head>
+            <p n="SLV30001.101">Danes so se Nemci poslovili. Imeli so le par minut časa za zajtrk. Fritza so vsi resnično vzljubili, gospa ga je prosila, naj jih obišče, kadar pojde domov. Ko so sedali v gondolo, sva stala na balkonu; dokler jih je bilo videti, je gospodična mahala z robcem.</p>
+            <p n="SLV30001.102">„Zbogom, detece zalo,“ se je Fritz žalostno nasmehnil. Potem se je zasukal in sva šla. „Še en dan naj bi bili ostali tukaj, pa bi se bil zaljubil. Ko smo se snoči izprehajali po Markovem trgu, je imela gospodična vlažne dlani. Vidiš, kako je vse bedasto; niti pištole nisem vreden.“</p>
+            <p n="SLV30001.103">In ko sva sedela danes pred poldnevom v doževi palači, je naenkrat dvignil glavo iz Burckhardta in mi dejal:</p>
+            <p n="SLV30001.104">„Poljubiti bi bil moral tisto dekletce. Poljubiti na čelo, kakor je tisti advokat ali lekarnar, ki jo bo dobil, ne bo poljubil. Prav je, da je šla.“</p>
+         </div>
+         <div type="chapter">
+            <head>Benetke.</head>
+            <p n="SLV30001.105">Nocoj sva obhajala slovo od Benetk s chiantijem, sladoledom in večerno vožnjo po kanalih. Potem sva še šla na Markov trg h godbi. Fritz ni hotel o spanju nič slišati; za norca je imel sebe in ves svet. Nezmiselno je sestavil tri italijanske besede in jih ponavljal ves večer. Zagledal je debelega Angleža, ki je molče sedel, palico med nogami, s svojo družino pred kavarno; hitro je vzel Baedeckerja, razvil načrt mesta in stopil z njim k Angležu.</p>
+            <p n="SLV30001.106">„Scusi, signor. Butone vecchio uno?“ in je kazal s prstom na načrt Benetk.</p>
+            <p n="SLV30001.107">„I am English,“ se je opravičil gospod.</p>
+            <p n="SLV30001.108">„Grazie, grazie, signor.“</p>
+            <p n="SLV30001.109">Tako je z butone vecchio uno klical natakarja, prosil ljudi ognja in odganjal nadležne otroke. Slednjič se je še pomešal med mlado strujo Benečank, ki so klopotale nališpane po tlaku, in ustavil bledo, šestnajstletno dekletce:</p>
+            <p n="SLV30001.110">„Butone vecchio uno, signorina!“</p>
+            <p n="SLV30001.111">Gledala ga je mirno in smehljaje.</p>
+            <p n="SLV30001.112">„Non capisce?“</p>
+            <p n="SLV30001.113">„No, signore.“</p>
+            <p n="SLV30001.114">„Kaj ne veš, sestra,“ je hitel po nemško, „da mi je Ester pisala? O, to je močna, sijajna žena, sestra! Jaz jo ljubim, ali razumeš, kaj je to? Ves svet mora ljubiti Ester, sestra. Buona notte, signorina!“ in jo je prijel za brado.</p>
+            <p n="SLV30001.115">„Buona notte, signore,“ se je smejala Benečanka ter ga udarila po roki.</p>
+            <p n="SLV30001.116">Zbogom, Benetke!</p>
+         </div>
+         <div type="chapter">
+            <head>Benetke.</head>
+            <p n="SLV30001.117">Ne da se mi odpotovati iz Benetk. Sklenjeno je bilo, da bova danes kosila v Veroni, in sva še vedno tukaj. Sam sem vstal precej pozno in sem moral še klicati Fritza. Spal je z rokami pod glavo, zmršenih las in zardel, kakor spe otroci.</p>
+            <p n="SLV30001.118">„Vstani, mladec, dan se dela!“</p>
+            <p n="SLV30001.119">„Ali moram precej vstati?“</p>
+            <p n="SLV30001.120">„Kar precej.“</p>
+            <p n="SLV30001.121">„Ali ni še četrt ure časa? Vsi italijanski vlaki imajo velike zamude. Daj mi mojo popotno toileto tam z umivalnika. Hvala ti, vzorni prijatelj moj.“</p>
+            <p n="SLV30001.122">Vzel je ogledalo iz torbice in se pogledal.</p>
+            <p n="SLV30001.123">„Grd človek sem; oči so mi krvave; snoči sem preveč pil. Ester bi me bila žalostna; preveč je pedantične narave. Danes bom v Veroni zopet pil in ji bom pisal, da sem.“ Zatisnil je oči in se smehljal.</p>
+            <p n="SLV30001.124">„Ali boš vstal?“</p>
+            <p n="SLV30001.125">„Pet minut je še časa.“</p>
+            <p n="SLV30001.126">„Jaz pojdem sam.“</p>
+            <p n="SLV30001.127">„Te žalosti mi ne boš napravil. Glej, ko zatiskam oči, vidim temo in srebrne žilice plešejo preko nje. Zdaj se je izpremenila tema v rumenkasto polje, ki ga preprezajo tanke, drobne čipke. In zdaj vidim prav natančno bezgovo cvetje. Kaj bi hodila v Verono? Zdaj vidim briljanten diadem na zelenem baržunu. Ali vidiš tudi ti vsako jutro in vsak večer vse mogoče stvari?“</p>
+            <p n="SLV30001.128">Vzel je še enkrat ogledalo.</p>
+            <p n="SLV30001.129">„Še vedno imam krvave oči, toda sicer sem lep mladenič. Odločil sem se, da grem v Florenco. Vsak večer bom pil kot snoči in bom prišel tja kot razvalina. Zanimivo bo.“</p>
+            <p n="SLV30001.130">Tako sva zamudila vlak. Ko bi ga ne bila zamudila, bi mi bilo žal; skoraj gotovo bi me nikoli ne našlo tole pismo:</p>
+            <p n="SLV30001.131">„Dragi prijatelj!</p>
+            <p n="SLV30001.132">Grdo in nesramno je, da me vabiš v Italijo, ko vendar veš, da se pojutrišnjem začne šola. Sem že teden dni v Ljubljani. Ko bi mi bil pisal domov na počitnice: pridi za menoj! – bi se nasmejal tebi in Benetkam. Tu v Ljubljani (naj ti priznam svojo sramoto) me je, ko sem prejel tvojo razglednico, res obšla želja, da bi si izprosil dopust in odpotoval kamorkoli. Vse nadloge, ki sem se jih o počitnicah že bil odkrižal, so zopet prišle nadme tisti trenutek, ko sem stopil v mesto. Tako sem nervozen, da sem že tujim ljudem na poti (sebi sem od rojstva), vso samozavest, ki sem si jo bil doma priveljačil med kmeti, sem zopet izgubil, ko sem srečal prvo suknjo, lepšo od svoje. Pogledal sem tudi že v gimnazijo (vsa je prepojena z nekim smrdljivim oljem in se v dveh mesecih ni mogla dodobra prezračiti) ter sem si rekel: dragi profesor, zopet te čaka tristo dni možganskega rokodelstva, zopet bo treba prodajati nič za drag denar in vzgajati prihodnje penzioniste, da si sam prislužiš pokojnino. (Ne smej se. Nekaj je le narobe pri nas, sicer bi vsaj mi mladi ljudje ne mislili tolikokrat na pokoj!) Bil sem tudi v konferenčni sobi (zopet tisto smrdljivo olje), v tem razmetanem skladišču bivše učenosti, kompetirajoče učenosti (tudi jaz bom letos kompetiral). Vse to bi se še preneslo, ko bi le vreme bilo lepše. Ves dan gre dež in barometer neprestano pada; zdi se mi, da mi je tudi v glavi vse vlažno in sluzasto. Povem ti, da me Ljubljana ubija.</p>
+            <p n="SLV30001.133">Ali veš, kako sva jo ljubila nekdaj? (Ti jo menda ljubiš še vedno?) Ko sem mislil nanjo iz daljave, sem si včasi zašepetal: bela Ljubljana – in sem jo videl belo kot golobico, kot nevesto, kot planjavo narcisov in so mi stopale solze v oči. (Bil sem otrok.) Ti si jo imenoval matjuško našo in jaz sem rekel: Ljubljana, ti si nam Sion. Ljubil sem jo vso tako, kakršna je. Njene lepe cerkve in tihe ulice, bele procesije o Veliki noči in svetem Telesu, frančiškansko nedeljsko mašo in postajanje na trgu po maši, dijaški flirt majniških šmarnic, vso to veselo, domačo pobožnost. Ljubil sem njene semanje dneve, smrad usnja na Vodnikovem trgu, kruljenje pitanih svinj po Poljanski cesti, težke konje in kratkoroge, širokonoge krave, ki so nam smetile ceste. Njeno otroško ambicioznost, uvele cvetlice na balkonih, počasni tramvaj, promenadne koncerte in vélike koncerte, pritisk okolice in dežele na blagajno, reklamo in vence in vso to srečno nevednost; njeno posvaljkano elegantnost, prostaško kričanje na promenadi in v gostilni, nesramnost njenih parfumov in njene dandyje.</p>
+            <p n="SLV30001.134">In danes me Ljubljana ubija; ne samo mene, temuč vse, ki smo jo nekdaj ljubili. Nerazumljivo mi je skoro, kako se zgodi, da smo vsi v močvirju, ko stopimo vanjo. Nevede in neopazno nehamo misliti – mi mladeniči, ki smo hoteli vse preosnovati! – Živimo kot druge alge in se gibljemo, kakor voda pljuska. Nekateri se iz obupa ženimo, drugi se iz obupa ne ženimo. Posedamo po kavarnah in gostilnah, spoštujemo starejše in zmerjamo mladino. Popolna skladnost je v naših mislih, med seboj se natanko poznamo. Moj prijatelj dobro ve, kaj imam v žepu, in še bolje, česa nimam v glavi. Bogovi nas hočejo pogubiti in so nas udarili z vsevednostjo. Jaz govorim o vsem, in sicer razumno (o prirodoslovju najmanj, ker je moja stroka, kajti o tem govore drugi, ki niso prirodoslovci, in sicer razumno). Predavam poljudno in snujem znanstvene organizacije. Mlajši pravijo, da je vse, kar delam, ničvredno, starejši menijo, da je odveč, v resnici pa mlajši še slabše delajo in starejši sploh ne delajo. Jaz se nič več ne spoznam.</p>
+            <p n="SLV30001.135">Vidiš, taka je Ljubljana, mesto zdravega zraka in kužnega ozračja; od zraka se debelimo, z ozračjem narkotiziramo misli. Taka je Ljubljana, razbojniško gnezdo poštenjakov, prestolica pregnanih kraljev, ki žive na tuj račun in od lastne zadovoljnosti, mesto vlačugarjev brez vlačug, mesto navdušenja za vse, kar je resnično, dobro in lepo, ter ljubezni za vse, kar je lažnivo, slabo in grdo. 'Noro' gremo gledat v gledališče, ker menimo, da se vrši v blaznici; na razstavo se hodimo razstavljat; 'Samogovorov' še danes ne razumemo, pač pa vemo, da Zupančič nima državnih izkušenj, da je očeta zaklal, spekel in snedel ter da je sploh velik poet; tudi glede Finžgarja smo na jasnem, da je naš najboljši romanopisec, ko bi le nosil kolar iz kavčuka – in čemu imamo pravzaprav lastno časopisje, če se ne meni za njegovo klet, kjer ima že sedem let tri žene zazidane? Ah, vrag me vzemi, govoriti moram naravnost, sicer me boš še ti napak razumel: Mesto, ki se vedno smehlja, kadar obrekuje, in vedno obrekuje, kadar se smehlja; sejmišče strahopetnosti, sramotni kamen odkritosrčnosti, Olimpija hinavstva, Ahilova peta brez Ahila.</p>
+            <p n="SLV30001.136">Toda ti si hodil v ruski kružok in nemara še vedno ščebetaš: matjuška naša ter me obsojaš. Bojim se, da res nimam prav. (Tako me je popačila Ljubljana.) Kadar pridem z razumnimi ljudmi skupaj in jamem razgrajati, mi povedo, da tukaj ni denarja, tam ni rok, ta ne ve, kako bi, in drugi nimajo časa; da je vse dobro in da bo vse še veliko bolje; da smo mladi sami zabavljači. Najprej se začudim, potem vidim, da imajo prav, ki poznajo življenje. Najdražji bratec moj, vidiš, to so prve nežne korenine, ki jih poganjam v Ljubljani, kmalu se bodem veselo zibal alga med algami.</p>
+            <p n="SLV30001.137">Sicer bi pa bilo vse v redu, ko bi le vreme bilo lepše. Imam novo stanovanje“ … itd.</p>
+            <p n="SLV30001.138">Hodil sem ves dan po Benetkah in sem bil vesel, da sva zamudila vlak. Nikoli ne bom pregledal tega mesta do konca, predolgo ga je znašala zgodovina. Truden sem; nisem zaspan, pa bi spal. Morje je črno in mirno, par luči je ob obali. Čisto tiho mi je v glavi in v srcu, kakor bi vse misli dremale pod dobro, toplo roko; tako mora biti podojenemu otroku. In še to pismo.</p>
+            <p n="SLV30001.139">O Ljubljana, ljubica naša sovražena, ali nam ne bo nikoli bolje s teboj?</p>
+         </div>
+         <div type="chapter">
+            <head>Verona.</head>
+            <p n="SLV30001.140">Spotoma sva se ustavila za par ur v Vicenci; bila je že tema, ko sva dospela snoči v Verono. Sedla sva v nerodni hotelski omnibus in čakala, da krenemo v mesto. Sluga je vrgel najino prtljago na streho voza, stopil dol, govoril nekaj z voznikom, splezal zopet na streho in kmalu nato popolnoma izginil. Fritz se je naveličal čakanja in kričal iz voza kočijažu:</p>
+            <p n="SLV30001.141">„Ali bomo tudi večerjali v omnibusu? Jaz grem nocoj še v kino!“</p>
+            <p n="SLV30001.142">Kočijaž ga ni slišal. Sluga je prikričal iz kolodvorske veže, nato sta izginila obadva.</p>
+            <p n="SLV30001.143">„Bagage,“ je rekel Fritz in si prižgal cigareto. „Zdaj se niti na Baedeckerja ne zanesem več. Glej, kam je naju zapeljal.“ Pogledal se je v veliko ogledalo, ki je zakrivalo kočijažev hrbet. „Umil bi se bil lehko tačas,“ je dejal in si pogladil lase.</p>
+            <p n="SLV30001.144">Čez par minut sta prinesla sluga in kočijaž velike kovčege in jih spravila na krov. V voz je stopila mlada dama in za njo gospod. Sluga je zaloputnil težka vrata in sedel h kočijažu: voz se je zazibal in premeknil.</p>
+            <p n="SLV30001.145">„Reci slugi, naj mi obriše sedež; prašen je,“ je dejala mlada gospa, stoje sredi voza. Govorila je nemško.</p>
+            <p n="SLV30001.146">„Čakaj, obrišem ti ga sam,“ je odgovoril gospod in segel v žep po robec.</p>
+            <p n="SLV30001.147">„Ne, sluga naj ga obriše!“ je rekla gospa.</p>
+            <p n="SLV30001.148">Gospod je ustavil voz in priklical slugo; hotel mu je dopovedati, kaj je, toda mladi mož ga je najprej debelo gledal, potem pa vtaknil glavo pod sedež. Ni vedel, kaj je narobe.</p>
+            <p n="SLV30001.149">„Ah, sedež mi obrišite!“ je velela gospa.</p>
+            <p n="SLV30001.150">„O, sissignora!“</p>
+            <p n="SLV30001.151">Fritz jo je premeril vso, pogledal skoz okno proti postaji, cmoknil z jezikom in mi rekel ravnodušno: „Krasen kolodvor!“ Bilo je zopet eno izmed njegovih dijaških dvoumnih prostaštev, ki se jih ni hotel odvaditi. (Opazil sem večkrat, da je vedé sirov in da mu to samo ponižanje dobro dé; boli ga in ga vendar išče; rad se muči na vse načine.) Potem mi je še pošepetal skoz okno: „Saj vendar ne misliš, da je njegova žena?“</p>
+            <p n="SLV30001.152">Bila je petindvajsetletna, trudne, skoro prezrele lepote. On je bil dve leti ali tri mlajši od nje. Voz se je nerodno premetaval po slabem cestnem tlaku in zavijal iz ulice v ulico brez konca. Bilo nam je vsem mučno molčati.</p>
+            <p n="SLV30001.153">„Oprostite, ali se nisva midva že nekje videla?“ je vprašal gospod Fritza. Moral je biti dober človek; sam je vedel, da se nista še nikjer videla, in nam je hotel vsem pomagati iz zadrege.</p>
+            <p n="SLV30001.154">„Ali se tudi Vi mene spominjate? Jaz sem Vas takoj spoznal, ko ste stopili v voz. Sedeli smo zvečer na Markovem trgu pri isti mizi,“ je odgovoril živahno Fritz. Lagati mu je bila resnična naslada.</p>
+            <p n="SLV30001.155">„Oprostite, midva sva se zvečer vselej vozila po morju. Pri godbi je preveč ljudi.“</p>
+            <p n="SLV30001.156">„Ah – tisti gospod je bil Francoz, pa Vam je zelo podoben. Glejte, sedaj se spominjam! Ko sem se vozil na Lido, sem Vam sedel na parniku nasproti. Imeli ste nizke čevlje.“</p>
+            <p n="SLV30001.157">„Navadno imam nizke čevlje,“ se je zadovoljno smejal gospod.</p>
+            <p n="SLV30001.158">„Vi nam niste nikoli nasproti sedeli, gospod,“ je dejala gospa z mirno gotovostjo.</p>
+            <p n="SLV30001.159">„Kaj niste bili v Benetkah?“</p>
+            <p n="SLV30001.160">„Pač, bila sva v Benetkah in na Lidu. Mudila sva se tam teden dni. Bilo je krasno; to je bil najsrečnejši teden mojega življenja. Fotografirala sva se pred svetim Markom in v gondoli. Čakaj, ljubica, ali imaš fotografije s seboj?“</p>
+            <p n="SLV30001.161">„Nimam jih.“</p>
+            <p n="SLV30001.162">„Pač, v torbici so!“</p>
+            <p n="SLV30001.163">„Pravim, da niso.“</p>
+            <p n="SLV30001.164">„Vem, da so. Sam sem jih del noter, ko sva odhajala. Poglej vendar!“</p>
+            <p n="SLV30001.165">„Ne bodi otročji, čemu?“</p>
+            <p n="SLV30001.166">„In ti ne premodra! Daj, da pogledam!“</p>
+            <p n="SLV30001.167">Pokazal je fotografije; v temi ni bilo veliko videti.</p>
+            <p n="SLV30001.168">„Dobre fotografije so,“ sem rekel.</p>
+            <p n="SLV30001.169">„Slabe so in neumnost,“ je odgovorila. „Ali ne bode konca te vožnje? Daj mi Baedeckerja, dragi!“</p>
+            <p n="SLV30001.170">„Benetke so take, da zapeljejo človeka v neumnost, milostna gospa,“ je dejal Fritz. „Ni drugače, sicer bi ne bile Benetke. Tam živimo skoro v vodi, v novem elementu. Tisti dirindaj me vsega prevzame in pootroči. Pisal bi pesmi à la oslarija, splezal h kvadrigi na fasado svetega Marka in med golobi bingljal z nogami. Ali se ne godi tudi Vam tako, milostna gospa?“</p>
+            <p n="SLV30001.171">„Koliko ste stari?“</p>
+            <p n="SLV30001.172">„Šestindvajset let sem izgubil. Sedemindvajseto skušam rešiti.“</p>
+            <p n="SLV30001.173">„Kaj ste po poklicu?“</p>
+            <p n="SLV30001.174">„Prištevajo me med umetnostne zgodovinarje.“</p>
+            <p n="SLV30001.175">„Tako? – Ali ne bo še konca te vožnje? Daj mi vendar Baedeckerja sem, dragi!“</p>
+            <p n="SLV30001.176">Fritz si je zopet prižgal cigareto. Videl sem ga, da motri svojo novo znanko s polzaprtim levim očesom in malo naprej sklonjen. To je vselej znamenje, da smatra soseda za sebi enakovrednega in da bo nesramen.</p>
+            <p n="SLV30001.177">„Gospodična, Vi ste starejši od mene, kajne?“ je rekel.</p>
+            <p n="SLV30001.178">„Ne, mlajša je. Vse to je nesporazumljenje. Dovolite, moje ime je Winter – moja soproga Karla. Stanovali bomo v istem hotelu, prav je, da se seznanimo,“ je posredoval mladi gospod. Tudi jaz sem se predstavil, Fritz se je priklonil.</p>
+            <p n="SLV30001.179">„Ali se boste dalje časa mudili v Veroni, gospodična?“ je nadaljeval Fritz.</p>
+            <p n="SLV30001.180">Karla ga je naglo pogledala in se obrnila k možu:</p>
+            <p n="SLV30001.181">„V nebesa pridem prej kot v ta prašni hotel. Tak, daj mi Baedeckerja!“</p>
+            <p n="SLV30001.182">Medtem je voz prigrmel v hotelsko vežo, služinčad ga je obstopila. Winter si je izbral prvo nadstropje, midva tretje. V vratarjevi loži smo se razšli.</p>
+            <p n="SLV30001.183">„Lahko noč, gospoda!“ se je smehljal dobrohotni Winter in odšel po stopnicah. „Pojdiva, Karla!“</p>
+            <p n="SLV30001.184">Fritz je stopil k njej.</p>
+            <p n="SLV30001.185">„Na svidenje, milostna gospa!“</p>
+            <p n="SLV30001.186">„Prav ste imeli: nisem gospa. Toda svidenja si ne želite, mladi gospod!“</p>
+            <p n="SLV30001.187">„Zakaj?“</p>
+            <p n="SLV30001.188">„Izgubili boste tudi sedemindvajseto leto, mladi gospod!“ Odšla je mirno po stopnicah kot ženska, ki natančno ve, kam gre. Postave je krasne in ima zelo eleganten potni površnik. V vozu sem jo prej slabo videl; obraza ni lepega.</p>
+            <p n="SLV30001.189">„Ali vidiš, kako je ponosna, Verehrtester?“ mi je rekel Fritz, ko sva šla sama v tretje nadstropje. „Ali vidiš, kako je visoka in imenitna? Ali si videl, kako me je žalila? Ne vem, ali je gos, ali genialna ženska. Bojim se, da ni gos.“ Šel je upognjenih pleč kakor rokoborec, ko se pripravlja na naskok. Fritz je ponosen in občutljiv in misli, da se mu mora svet pokoriti.</p>
+            <p n="SLV30001.190">Umival sem se še, ko je pogledal v mojo sobo, že napravljen.</p>
+            <p n="SLV30001.191">„Ne bo me k večerji nocoj, grem v kino. Ti boš ostal doma, kajne? Lahko noč!“</p>
+            <p n="SLV30001.192">Ni me hotel s seboj. Kadar ne ve, kaj bi, tedaj je sam, in če je v družbi, je neznosen. Danes je sedel zaspan in izbit z menoj na terasi pred vrati sv. Zena (ne da si dopovedati, da so iz dvanajstega stoletja, in trdi venomer, da so slabo kovaško delo), se rval z veronskimi paglavci, ki so ga prosili cigaret, fotografiral bolno dekletce, ki jo je brat na stolu pripeljal v cerkev, kupoval kozje mleko in se bratil s cerkovnikom.</p>
+            <p n="SLV30001.193">„Ali veš,“ mi je dejal, „da Winterja ni več v našem hotelu? Rekel sem ti, da je ponosna ženska. Kadar sem jaz rekel: da, ni še nobena odgovorila: ne – ta bi mi tako odgovorila. In vendar – če bi vedel, da je v Veroni, bi spravil očeta na kant, toda ona bi me na kolenih prosila ljubezni, kakor mačka bi se metala okrog mojih nog , pred menoj bi se plazila na tleh in mi z lasmi postiljala pot. Pridi sem,“ je prijel umazanega fantalina za ušesa, „ali misliš, ti opica tripolitanska, da bi tega ne dosegel? Pojdi v cerkev in pomoli za Karlo, če bi se imela še enkrat srečati.“</p>
+         </div>
+         <div type="chapter">
+            <head>Verona.</head>
+            <p n="SLV30001.194">Fritz je iztaknil znamenit kino. Skrit je v temi neke stranske ulice – jaz nisem znal nazaj domov, toda Fritz se dobro orientira – in tujec ne pride izlepa do njega. Mislim, da pri predstavi ni bilo tujcev razen naju.</p>
+            <p n="SLV30001.195">„Božanstven kino,“ mi je rekel, „neprecenljiv kino. Danes imajo na programu: Quando l' amore muore …, (drama emozionante). Nikar naj te ne bo sram, Herzallerliebster. To so kulturni predsodki, kar te vznemirja.“</p>
+            <p n="SLV30001.196">In tako sva šla v kino. Res, to je več kot kino, kar obljublja program: balet, soli in zbori, virtuozi na raznih instrumentih, prizori in pantomime ter čudoviti barvani filmi, neizčrpano veselje.</p>
+            <p n="SLV30001.197">„Glej, polovica je vojakov, malik moj! Najprej bodo pljuvali, potem vpili in ploskali, na koncu bodo zapeli tripolitansko koračnico. Ah, naj te ne ženira ta zrak; če bi bil Rimljan, bi se v cirkusu ne mogel počutiti bolje. Ah, glej balet!“</p>
+            <p n="SLV30001.198">Plesalo je pet deklic, najmlajša še ni bila sedem let stara in najstarejša komaj dvanajst. Bil je čuden, splašen ples, zmešano stopicanje, mahanje rok, kakor bi se vse potapljale. Za odrom je nekdo brenkal na gitaro.</p>
+            <p n="SLV30001.199">„Brave, brave!“ so vpili vojaki.</p>
+            <p n="SLV30001.200">„Poverine!“ je rekla gospa za nami.</p>
+            <p n="SLV30001.201">„Kaj posega ta ženska v pravilni tek zvezd?“ je sikal Fritz. „Ona misli, da bodo ta dekleta najprej plesale, potem prodajale rože, potem se vlačile po cestah. Poverine! Kaj jo briga? Svet se pravilno suče, in nihče naj ga ne skuša presukavati. Pojdiva domov!“</p>
+            <p n="SLV30001.202">Neznosen mi je bil; tudi v meni je vse trepetalo in truda me je stalo, da sem molčal. Zopet bi ga hotel udariti. Kako čudno je vse to; nobeno čuvstvo in nobena misel v njem ne najde neposredne poti in vsako besedo, ki jo izreče, je treba zasledovati po vijugah, da se odkrije nje pravi pomen. Bolj žal mu je bilo deklet, kakor meščanki, ki je vzdihovala za nami.</p>
+            <p n="SLV30001.203">„Pojdiva pit!“ se je premislil, ko sva prišla mimo nizke gostilne. In sva šla pit. Po sobi so stali prazni in polni sodi, ljudi je bilo malo.</p>
+            <p n="SLV30001.204">Nalil si je kozarec.</p>
+            <p n="SLV30001.205">„Na smrt, sodobnik moj, in na svidenje s Karlo! VFlorenco moram priti kot razvalina; Ester me bo gledala in ne bo verjela.“</p>
+            <p n="SLV30001.206">„Kako sta sedaj z Estero?“</p>
+            <p n="SLV30001.207">„Zelo enostavno. Jaz pravim: Pusti me, ne ljubim te več. Ona mi odgovarja: Ne razumem te, v Florenci se bova pogovorila. Jaz jo rotim: Pusti me, dokler te ne držim; smrt ti bo. Ona mi nanovo odgovarja: Nemiren si in iz ravnovesja; ne pustim te, dokler te morem držati.“</p>
+            <p n="SLV30001.208">„Ali bi se ne znal umiriti, Fritz? Ali bi ne mogel najti ravnovesja?“</p>
+            <p n="SLV30001.209">„Kako, zdravilna roža moja? Ali veš ti leka, vsevedni? Razodeni mi skrivnostni sok, čudotvorec, dobrotnik!“</p>
+            <p n="SLV30001.210">„Meniva se pametno, Fritz! Ti se neprenehoma giblješ v ekstremih. Obup in titanska samozavest, ljubezen in sovraštvo, dvom in vseslutnost si podajajo roke v tvojem srcu …“</p>
+            <p n="SLV30001.211">„Kako si predstavljaš to figuro?“</p>
+            <p n="SLV30001.212">„Pusti figuro in ne pij toliko! V neprestanem boju s samim seboj in s svetom gubiš delavne dneve in nočni počitek, se vzgajaš za brezkoristnega človeka, pripravljaš za brezdelje, in misliš, da so aforizmi, ki jih s težavo narejaš, res več kot igrača. Sam veš, da vse tvoje modrovanje in samorazkrajanje splahne, kadar izkušaš razumno govoriti;kadar si sam v sobi, leno polegaš in preustrajaš svet; če potem stopiš na cesto, vidiš, da je svet drugačen, kot si ga predstavljaš, in samega sebe ne poznaš.“</p>
+            <p n="SLV30001.213">„Leka, leka, čudodelnik!“</p>
+            <p n="SLV30001.214">„Uredi svoje misli in življenje. Bodi skladen sam s seboj, živi vsega človeka!“</p>
+            <p n="SLV30001.215">„O, poznam te, konjederec, poznam tvoje mazilo. Vse svoje sile, dušne in telesne, naj skladno razvijem. Naj bom človek krepkih mišic, trdnih živcev, človek, ki ljubi, jé in pije normalno, ki misli trezno, čuti pošteno, ravna pravično. Nečem tvojega zdravila, zdravnik! Vem, da bom poginil te bolezni, pa jo ljubim, kakor mati otroka. Ljubim ta večni nemir, čuvstveno razdrapanost, ljubim glavobol in besede brez zveze, svoje vseslutnosti bi ne zamenjal za vsevednost. Ljubim ga, ki me tepe in zaničuje, in še bolj ljubim sebe, ko se tepem in zaničujem. Bolj sem srečen v tem boju, večni revolti in bolj zdrav kot zdravnik.“</p>
+            <p n="SLV30001.216">Bil je ves zardel. Pil je preveč.</p>
+            <p n="SLV30001.217">Ko sva v njegovi sobi pokadila cigareto in se razhajala spat, mi je še dejal:</p>
+            <p n="SLV30001.218">„Vse govorjenje je bedasto. Ko bi ne imel vere v Boga, bi niti trenutek ne pomišljal in bi si nastavil tale browning na sence. Vidiš, počilo bi prav tako in škode bi bilo tudi komaj kaj več.“</p>
+            <p n="SLV30001.219">Sprožil je skoz okno; stekla so zažvenketala po tleh.</p>
+            <p n="SLV30001.220">„Končni efekt je dobro premišljen, Fritz.“</p>
+            <p n="SLV30001.221">Obrnil mi je hrbet; sramoval se je in je tiho odgovoril:</p>
+            <p n="SLV30001.222">„Če mi boš hotel brati v srcu, bom morda bolj efektno končal in drugam meril. Pojdi spat; ne gubi delavnih dni in nočnega počitka.“</p>
+            <p n="SLV30001.223">V tem trenutku je vstopila v sobo prestrašena sobarica.</p>
+            <p n="SLV30001.224">„Revolver se mi je sprožil, gospodična. Ubil sem okno; to pride v moj račun.“</p>
+         </div>
+         <div type="chapter">
+            <head>Lago di Como.</head>
+            <p n="SLV30001.225">Fritz je odšel včeraj popoldne naravnost v Milan, mene so opravki klicali v Como. Večer je lep, ves senčnat in molčeč kakor žalostna ljubezen; popotniki na parniku govore tiho, strme na bregove jezera s polzaprtimi očmi, vse je kakor srečna trudnost ali neizrazen, nem užitek; kadar zatuli stroj, se zdrznemo. Razpel bi roke po klopi in dihal brez misli.</p>
+            <p n="SLV30001.226">Ves denašnji dan je bil prijeten, v zraku je neka sladka sočnost, ki jo skoro čutim na jeziku in v vsem telesu. Zbujal sem se zjutraj v Veroni počasi, stopnjema, kakor bi korakoma hodil iz teme proti svetlobi; čutil sem skoz zaprte veke jasno nebo, kakor čutimo v snu nad seboj ljubeč pogled, ki se skrivaj vtihotaplja v telo in dušo in s svojim nasmehom vse zjasni v njej. Ko sem vstal, sem pospravil in šel še enkrat na Piazzo delle Erbe po slovo od Verone.</p>
+            <p n="SLV30001.227">Bilo je še zelo zgodaj, ljudi malo na ulicah. Piazza je bila polna zelenjadi in rož, jesenskih in drugih, ki so jih okoličanke hitele polivat pri stari fontani sredi trga. Vsa tla so bila mokra, v zraku dobri vonj vlažnega prahu, davne palače tihe in zaprte v rdečkasti svetlobi prvega jutra kakor okamenele v snu ali kakor bi živele v topi pasivnosti nerealno življenje brez časa; kar je starih razdrtih fresk na njih, so le še meglen spomin na stvari, ki jih nikoli ni bilo. Sedel sem pred vrata bara sredi trga in si naročil café espresso; dišal je po špiritu in se čudno mešal v dremotnost misli. Kako dobro je sedeti pred barom in piti café espresso, nebo pred seboj, jasno in globoko kakor lepo oko, ki ti je tuje.</p>
+            <p n="SLV30001.228">Počasi je začel trg oživljati. K sosednji mizi je sedel popotnik, si naročil kavo in razgrnil plan Verone pred seboj. Mimo je prišel deček s košaro na roki in tanko cigareto v ustih; ustavil se je pred mojim sosedom :</p>
+            <p n="SLV30001.229">„La tomba di Giulietta?“</p>
+            <p n="SLV30001.230">Ah, ta tomba di Giulietta! Ves popoldne so me preganjali veronski postopači s tem vprašanjem in res sem se že bal, da jo pojdem obiskat, toda slednjič sem mislil, da je dovolj, če grem do Julijine hiše. Stoji v stranski ulici, črna in visoka, in prav v vrhnjem nadstropju je balkon; z njega je Julija govorila Romeu. In ko sem davi v snu dihal to jasno nebo veronsko, sem naenkrat stal pred Julijino hišo z mnogo drugimi ljudmi, ki sem jih poznal. Bili smo pod balkonom in gledali gori, ki je z njega Julija govorila Romeu, vsi ena sama brezoblična tvarina. Tedaj se je iz nje izločil Peter Bohinjec in je rekel:</p>
+            <p n="SLV30001.231">„Kako je pravzaprav Romeo prišel z balkona na cesto? Previsoko je.“</p>
+            <p n="SLV30001.232">„Neumnosti se mi bledejo po glavi; čas bo vstati,“ sem mislil in spal dalje, globoko oko neba nad seboj.</p>
+            <p n="SLV30001.233">„Daljna je cesta in mnogo je poti,“ je rekel Ksaver Meško; tudi on se je izločil iz brezoblične tvarine. „Hrepenenje nas vodi iz večnosti v večnost …“</p>
+            <p n="SLV30001.234">„Kaj bo to?“ je rekel Peter Bohinjec in je pljunil. „Kako je prišel na cesto in kako je prišel gori?“</p>
+            <p n="SLV30001.235">„Enostavno vendar,“ se je izločil iz brezoblične tvarine Oton Zupančič. „Razkoračil se je, stopil si na rame in se pognal kvišku. Ko je hodil dol, se je obesil na lastne pete, se zavihtel in skočil na tlak.“</p>
+            <p n="SLV30001.236">„To ni mogoče,“ sem si dejal. „Spim v Benetkah in se mi sanja.“</p>
+            <p n="SLV30001.237">„To ni mogoče,“ je ponovil Peter Bohinjec. „Povedati se mora tako, kakor je bilo. Pogledati bo treba v arhiv Julijine družine, kako je pravzaprav prišel gori in kako je prišel na cesto.“</p>
+            <p n="SLV30001.238">„Zbudilo se je hrepenenje v njegovem srcu, kakor bi se prižgalo solnce sredi polnoči, in je bil gori,“ se je izločil iz brezoblične tvarine Ivan Cankar. „Ugasnilo je hrepenenje v njegovem srcu, kakor bi se utrnilo solnce sredi poldneva, in je bil na prašni cesti, truden popotnik. Mimo njega se je pripeljal obtovorjen voz. Goloroki voznik je počil z bičem, in mu zaklical: Kaj kolovratiš po mestu, negodnik? Spat pojdi!“</p>
+            <p n="SLV30001.239">„Arhiv moramo pogledati,“ je dejal Peter Bohinjec. „Drugače je bilo.“</p>
+            <p n="SLV30001.240">„Bilo je jutro, na vzhodu so goreli oblaki s prikritim ognjem,“ se je izločil Salezij Finžgar. „Romeo je stal na balkonu, ožarjen od jutranjega svita, lep kot mladi kralj, ki stopa v osvojeno mesto. Odpel si je s pasa lestvico, spleteno iz vrvi, jo nategnil z mišičasto roko, ali bo nosila težo mladega telesa, jo otvezel na okno in še enkrat poljubil Julijo. Ni bila urna noga še na sredi poti – ko se vrv utrga – Julija vzklikne in iztegne roke kakor v pomoč – toda kaj je orlu, kljubovalcu viharjev, spustiti se iz oblaka v ravnino?“</p>
+            <p n="SLV30001.241">„Stare zapiske bo treba preiskati,“ je rekel Peter Bohinjec in se je potopil v brezoblično tvarino. Nad mano se je sklanjalo nebo in njega dobri dan.</p>
+            <p n="SLV30001.242">Kako je to vse daleč, daleč in tuje in brez zmisla. Kako dobro je sedeti pred barom in piti café espresso, brez misli in brez spominov, pozabiti na vso literarno revščino in dihati jutro in sveži vonj vlažnega prahu, slajši od Shakespeareja; ko bi prišla Julija, od nežnih src objokovana, od pesnikov opevana, iz stranske ulice in krenila sramežljivo mimo bara proti cerkvi, bi, mislim, ne odprl oči in bi se ne genil. Iznad hiš je šinil prvi solnčni žarek na trg, se mi zableščal v očeh, obšla me je žarka slepota. Kako dobro je sedeti na Piazzi delle Erbe, zelenjad in rože pred seboj, od solnca ogrevan, in biti en sam izgubljen odsev jasnega jutra, ki brezskrbno živi, dokler mu je živeti sojeno.</p>
+            <p n="SLV30001.243">Palače so stale še vedno neme v ekstatični okamenelosti, zaprte, slepih oken, spomin davnih fresk je bil na njih še bledejši. Začele se bodo kmalu odklepati, okna bodo oživela, kakor nekdaj, ko so freske še bile resničnost, ko je stopila mlada plemkinja ali milostna gospica k oknu, se ozrla s svojimi dolgimi, ozkimi očmi po trgu in se potem obrnila v sobo, da obleče svilo in brokat, kakor pravijo. Pravijo tudi, da se je mazilila z dragocenim oljem, se kopala v jutrovskih dišavah, brenkala na citre in pela s tankim glasom in sanjala o ljubezni; v njeni sobi je bil pozlačen strop in bela svilena postelja s težkimi zastori. Vse to ni res, živelo se je tako, kot živimo danes; palače so ostale, ostalo je v njih zlato in ostal brokat, pa srca so umrla in njih večni nemir, slepo pljuskanje strasti, muke ljubezni, trpljenje negotovosti, bridkost vsega mišljenja in obupujoče upanje. Palače lažejo. Nekoč sem videl v majhni furlanski vasi zbirko mumij nekdanjih velikašev; bilo jih je mnogo, vse dobro ohranjene in zelo zanimive, skoro žive, v tisti legi, kakor jih je zalotila smrt. V kriku odprtih ust ali krčevito stisnjenih v onemoglem odporu, bolestno zvitih udov ali v grozi togo iztegnjenih, v boju vdano ugaslih oči ali preplašenih in široko razprtih. Palače bi morali obljuditi s temi mumijami, da bi dajale resnično pričevanje o preteklosti.</p>
+            <p n="SLV30001.244">Pa vse to je daleč, daleč in ni potreba misliti niti na žive ljudi, niti na mrtve. Dobro je sedeti na solncu, ko toplota pronica v kri s tihim, neizraznim blaženstvom, ko je v glavi žarka slepota in je ves trg prepojen z vonjem vlažnega prahu.</p>
+            <p n="SLV30001.245">Popoldne smo se vkrcali v Comu. Popotnikov ni več mnogo, pa se še selijo iz Coma v Lugano in nazaj. Težaki so zložili velike kovčege v medkrovju, vse oblepljene s hotelskimi markami. Na trgu je stal trop ljudi, ki so nas gledali odhajajoče, v bližnjem hotelu sta sloneli na balkonu dve hišni v belih havbah in z belimi predpasniki, tam dalje so v kavarni pili ljudje kavo in brali časopise, prihitel je še pozen popotnik preko trga, potem je stroj zažvižgal, mesto se je jelo pred nami neopazno sukati in je ostalo nekje z ljudmi in težaki in hišnami in kavarnami, kakor izgine pastir, ki sredi polja maha brzovlaku v pozdrav in smo mu odzdravili. Čudno je, da se izgubljamo tako drug mimo drugega in mimo dnevov in mimo življenja, vsak s svojo in vendar isto bridkostjo, vsak s svojim trpkim veseljem.</p>
+            <p n="SLV30001.246">Sedaj je že večer, senčnat in molčeč kakor žalostna ljubezen. Solnce, ki je popoldne še pripekalo, zahaja, njega žarki se nam vsesavajo v kri kakor lek in v dušo kakor odpuščanje po velikem grehu. Razpel bi roke po klopi, pregnal vse misli, ki se zvijajo po možganih kakor ranjene jegulje, zadavil stoglavo strast izpraševanja, ubil samoljubje in vse želje, izpodkopal temelje trudnim uram brez zaključkov, živel, kot živi trava na teh comskih pašnikih, visel nad življenjem kot vise te comske vasi na pečinah nad jezerom, ves dan ogrevane od solnca in brez zavesti svoje siromaščine in razdrapanosti. Pa saj je tako! Mirni hribi drče brezglasno mimo nas, ladja se nalahko stresa kakor zibelka, solnce se potaplja vedro kakor človek, ki je svet do konca spoznal in ga prav zato vzljubil, ki je mnogo videl in ljudem z nasmehom odpustil vso žalost in radost, ki so mu jo dali. V žilah nam utripa zadnja toplota in v očeh nam je zadnja luč. Zraven mene sedita brat in sestra; on je bolan, jetičen, naslonil je glavo na njene prsi in gleda srepo v obal, ki beži mimo, in v solnce, ki zahaja. In tam sedi siva Angležinja, bere Baedeckerja, pogleduje hribe, išče na karti in zopet bere Baedeckerja; doma bo pripovedovala vnukom. In tam dalje sedi podlistkar in si zapisuje notice. Ravnokar je vstopila družinica – bila je na izletu ali na obisku ali je tu doma – pestunja z otrokom v blazini, gospod in gospa. Na ladji so našli zdravnika, znanca, in ta pravi gospe:</p>
+            <p n="SLV30001.247">„Ali ima otrok mosljo?“</p>
+            <p n="SLV30001.248">„Navadil se je nanjo in sedaj ga ne moremo odvaditi.“</p>
+            <p n="SLV30001.249">„To je slabo.“</p>
+            <p n="SLV30001.250">„Ah, vem, da je slabo. Pa kaj hočem?“</p>
+            <p n="SLV30001.251">„Tako se vzgajajo prihodnji kadilci.“</p>
+            <p n="SLV30001.252">„Ah, kaj hočem?“ Gospa je mlada in močna; to je njen prvi otrok, imela jih bo še veliko, zdravih in veselih. Ko gre zdravnik proč, vpraša moža:</p>
+            <p n="SLV30001.253">„Ali je res tako slabo?“</p>
+            <p n="SLV30001.254">„Kaj jaz vem? Sicer pa takemu kmetavzu ne škoduje, če bi razbeljeno železo požiral; prehladi se kvečjemu!“</p>
+            <p n="SLV30001.255">„Kaj je mali kriv, da je rojen na kmetih? Zakaj mu vedno očitaš, da je kmetavz?“ Gospa je resnično žalostna. „Ana, ali mu ni prevroče?“</p>
+            <p n="SLV30001.256">„Seveda mu je prevroče v blazini,“ pravi pestunja. „Dovolj je velik, da bi nosil obleko.“</p>
+            <p n="SLV30001.257">„Vem, pa se bojim, da se bo prehladil. Ti,“ pravi možu, „napravili mu bomo obleko in se bomo fotografirali, ali hočeš?“</p>
+            <p n="SLV30001.258">„Se bomo pa fotografirali.“</p>
+            <p n="SLV30001.259">„Ali meniš, da mu moslja res ne škoduje?“</p>
+            <p n="SLV30001.260">„Nas je bilo sedem doma in smo počeli, kar se nam je ljubilo. Komaj sem shodil, sem že s hruške padel.“</p>
+            <p n="SLV30001.261">„Ali se ti ni nič zgodilo? Mati se je ustrašila, ne?“</p>
+            <p n="SLV30001.262">„Mati ni imela časa, da bi se bala za nas.“</p>
+            <p n="SLV30001.263">Ko je prišel zdravnik zopet mimo, ga je gospa ustavila:</p>
+            <p n="SLV30001.264">„Gospod doktor, mosljo vsak dan desinficiramo. Ali je to dovolj?“</p>
+            <p n="SLV30001.265">„Bolje je, če je sploh nima.“</p>
+            <p n="SLV30001.266">„Ah, vem, pa kaj hočem?“</p>
+            <p n="SLV30001.267">Starejše gospe se ji z one strani smehljajo kakor sestri, gnane od materinskega instinkta, ki vse žene druži in zbližuje, jetični brat še vedno srepo strmi v obal, ki beži mimo, in v solnce, ki zahaja, Angležinja je zaprla Baedeckerja in misli, kako bo govorila vnukom, na desni plove mimo nas izletniški parnik, ves okrašen s pisanimi zastavicami in poln otrok, ki nam mahajo z robci, in vse ostaja za nami v senci in solnce tone, tone. Na krovu ni skoro več slišati besede, vse je kakor srečna trudnost polnega življenja. Razpel sem roke po klopi in plul v te hladne sence, vse za seboj, vse pozabljeno, v srcu le sreča, da živimo.</p>
+         </div>
+         <div type="chapter">
+            <head>Laino.</head>
+            <p n="SLV30001.268">Nastanil sem se za nekaj dni tu v tej gorski vasi v Vall Intelvi in živim feaško življenje. Zraka dovolj, sira preveč, pečenih vrabcev in polente od sile. Moj gostitelj don Pietro se trudi na vse načine, da bi mi ustregel; neprestano me izprašuje, kaj jemo na Kranjskem zjutraj, kaj opoldne, kaj zvečer, če spimo po kosilu, če pijemo črno kavo, če imamo rajši bela ali rdeča vina, kdaj hodimo k počitku in kdaj vstajamo. Juha se sicer kuha na odprtem ognjišču in diši po dimu, toda obednica je velikanska dvorana, vsa poslikana s freskami iz začetka osemnajstega stoletja. Čudno čuvstvo me obhaja, kadar jem smrdljivo salamo, nad menoj pa plava nebo z giganti in geniji in putti in vso neizčrpno mitologijo tistih časov.</p>
+            <p n="SLV30001.269">Fritz je v Milanu. Nesrečen mora biti, ker nima nikogar, da bi ga poslušal, in le tej samotnosti se imam zahvaliti za dolgo pismo, ki mi ga je pisal v Laino. V uvodu me obliva z dobrohotnostjo, obsipa z najizbranejšimi izrazi prijateljske nežnosti, utaplja v brezmejno morje svoje ljubezni. Neskončno samozadovoljnost vidim v teh dobro premišljenih frazah, ki teko kakor bi bile neposredne; iz teh vrtincev besed gledajo njegove lepe rjave oči in mi pravijo: Saj imam moč besede, ali ne? Natančno ga vidim, kako gre po sobi smehljaje gor in dol, kadar se mu posreči izredno eleganten logičen skok. Vse, kar dela, govori in misli, kadar jé ali se umiva, vse mu je vaja. Za dobro zasukan stavek bi dal leto življenja. Velikansko mora biti njegovo slavohlepje; mislim, da je to ključ vseh njegovih skrivnosti; morda se tega zaveda, morda ne. Za novo senzacijo ali za nov izraz bi se dal zapeljati v najhujše grehe; pripravljen bi bil ubijati, če bi potem mogel zagrabiti enega naglih utripov svojega čuvstvovanja in ga ukleniti v besedo. Izgubljenec bo v življenju, če mu nebo ne izkaže izredne milosti.</p>
+            <p n="SLV30001.270">„Stanoval sem najprej v hotelu,“ mi piše, „toda bil je preblizu kolodvora; lokomotive so tako tulile, da se ni dalo ne bedeti, ne spati! Sedaj sem v prav lični penziji (majhne mize in rože). Za soseda imam pruskega barona, ki mi vsak dan nanovo pripoveduje, da v Italiji ljudje preveč mlaskajo pri jedi in da moram iti pogledat Capri; on je tam odkril novo votlino, znamenitejšo od plave, in bo o njej objavil podlistek v Berliner Tageblattu. Nasproti mi sedi neki Italijan, ki ne pljuje, pač pa se brije na štirinajst dni enkrat; ravno včeraj je prišel zopet obrit v obednico in smo se vsi oddehnili. Sicer so večinoma Francozi; imamo vitko Francozinjo, ki potuje sama, sedi najdelj v kadilni sobi, dobiva mnogo pisem in nekatera neodprta sežiga ter je sploh izredno koketna. Hotel sem ji že prinesti rož, a sem se premislil in sem pisal Esteri.</p>
+            <p n="SLV30001.271">Ne veš, kako jo ljubim, to svojo malo Ester! Ni ga klicaja, da bi ti to povedal, izmisliti bi si moral novo ločilo. Kadar sedim sam zvečer v salonu in je poleg mene prazen naslonjač, si pravim: Tu bi lahko sedela Ester, tu bi počivala njena ozka roka, tako bi naslonila glavo in bi mi govorila. Kadar vidim lepe rože, si pravim, da bi jih kupil in se zjutraj tatinsko priplazil pred njena vrata, jih tiho odprl in vrgel velik nezavezan šopek na njeno postelj, ko še spi; morale bi biti šmarnice, lilije, vrtnice in mnogo hiacintov; Ester bi bila huda in bi me ljubila še bolj. Bil sem dvakrat v Breri in moram reči, da sem šel iz vsega tega bogastva barv in misli ravnotako reven, kot sem prišel. Ni je Estere, da bi mi pokazala pot do spoznanja. Vse te neštete slike so mrtve in molče kakor grobovi, ki je v njih življenje že zdavnaj strohnelo. Naravnost groza me je teh barv in vse se mi studi. Poizkusil sem brati nekaj novih knjig, pa so prazne; z neizmernim trudom z vseh vetrov znesene besede, ki naj bi opisale neopisne stvari ali take stvari, ki jih ni. V tistem razpoloženju sem, ko mislim, da imajo oni tepci prav, ki trdijo, da smo bolni, da nam je mišljenje zdrknilo iz središča, od narave določenega. Zopet enkrat mislim, da blaznim, kadar izkušam vdreti v mračni dom svoje duše, jo prijeti in vreči na svetlo, da si jo ogledam pri solncu. Z eno besedo: stavljam si vprašanje: zakaj umetnost? V takih trenutkih potrebujem Estere; samo ona je znala mojemu duhu dati tisto vibriranje, ki mu je našlo pot do lepe podobe in dobre knjige; vpričo nje sem včasih naenkrat izpregledal, videl sem stvari, ki bi jih sicer nikoli ne bil; z eno besedo je znala dvigniti mojo perceptivnost do najvišje potence in me spraviti v tisti umski delirij, ki izpreminja vekovite uganke v naštevanko. Ko bi ona bila z menoj v Breri.</p>
+            <p n="SLV30001.272">Bog ve, kaj delaš v Lainu in ali te zanima, koga ni v Breri? Morda te bolj zanima, da sem tam videl Karlo, pred tisto Leonardovo risbo Kristusove glave – saj se je spominjaš iz reprodukcije? Verjemi mi, da sem prebledel, ko sem videl njen lepi, skladni hrbet. Stopil sem k njej in sem ji rekel:</p>
+            <p n="SLV30001.273">– Leonardo je bil dober risar, milostna gospa, ali se Vam ne zdi?</p>
+            <p n="SLV30001.274">– Zmenila sva se že, da nisem gospa, mi je rekla. Kak Leonardo?</p>
+            <p n="SLV30001.275">– da Vinci vendar.</p>
+            <p n="SLV30001.276">– Saj to ni njegova risba! Tole Kristusovo glavo menite pač?</p>
+            <p n="SLV30001.277">Vrag me vzemi, polotil se me je strokovnjaški napuh, prizanesljivo sem se nasmehnil in še sedaj me je sram, kako sem bil profesorski, ko sem ji rekel: Te grobe črte s svinčnikom so seveda poznejše, sicer pa nihče ne dvomi, kolikor mi je znano, da je pravi Leonardo. Tudi Wölfflin je objavil sliko v svoji knjigi kot Leonardovo.</p>
+            <p n="SLV30001.278">– Wölfflin naj objavlja, kar hoče. To ni Leonardo. Saj vidite, da je risana od leve na desno? Leonardo je delal narobe.</p>
+            <p n="SLV30001.279">Dragi, to je tako jasno in zanesljivo, da ni bilo mogoče ugovarjati. Zbal sem se že v Veroni, da Karla ni navadna gos, in danes bi že trdil, da je res genialna žena.</p>
+            <p n="SLV30001.280">– Utegnete imeti prav, sem menda zjecljal.</p>
+            <p n="SLV30001.281">– Tako je in nič drugače. Na svidenje, mladi gospod, še v Vašem sedemindvajsetem letu, če mogoče. Moram iti, Winter kupuje fotografije.</p>
+            <p n="SLV30001.282">In je šla, ponosna in imenitna. Zdaj ti prisegam, da bom ruiniral očeta in da me bo na kolenih prosila ljubezni; s pestjo jo bom udaril za vrat, kadar me bo hotela poljubiti; kadar mi bo pisala pismo, ji bom odgovoril z razglednico, kot jo pošiljajo korporali pericam. Ta ženska ni gos. Snoči sem šel, da ubijem večer, v Trianon. Bil sem sam v loži, toda meni nasproti je sedela ona z Winterjem. Prijateljsko mi je prikimala, jaz sem jo prezrl. V pavzi je poslala sluga k meni – ti ljudje so strašni v svojih rdečih frakih in s svojimi starikavimi obrazi – naj jih obiščem v loži. Priklonil sem se Winterju in sem slugu rekel, da ne utegnem. Vrgel sem se v dolgočasen pogovor z demimondko, svojo sosedo; stara je bila in slabo parfumirana; menim, da se že potaplja. In potem je prišla Karla sama k meni.</p>
+            <p n="SLV30001.283">„Ali nas res ne obiščete? Moj mož se Vas dobro spominja in bi rad govoril z Vami.</p>
+            <p n="SLV30001.284">– Dober spomin je dobra lastnost, milostna.</p>
+            <p n="SLV30001.285">– Tudi jaz malokdaj kaj pozabim. Ali Vam ni dolgčas samemu? Plesalke so slabe, plesalci komaj za spoznanje boljši.</p>
+            <p n="SLV30001.286">– Ni mi dolgčas, saj imam družbo, in sem ji pokazal svojo sosedo.</p>
+            <p n="SLV30001.287">– Bojim se, da je dolgočasnejša od predstave.</p>
+            <p n="SLV30001.288">– Ali ljubite dober ples, milostna gospa? Ali ste že tudi plesali v varietéju? (Bolj grob nisem mogel biti; videl sem, da je za hip prebledela.)</p>
+            <p n="SLV30001.289">– Ne, na odru še nisem plesala, toda v Berlinu smo prirejali diletantske domače zabave. (Mislim, da je Poljakinja; Berlin izgovarja zelo mehko, nekako Berljin.)</p>
+            <p n="SLV30001.290">In sedaj ti priznam, dragi, da sem šel slednjič Winterja obiskat in da sem ju spremil v hotel. Čez nekaj dni gresta v Palermo, Winterju je prehladno tukaj. Motil si se, ko si rekel, da Karla ni lepa; izredno je lepa. Ko smo danes po kosilu pili skupaj kavo v galeriji Viktorja Emanuela, so se ljudje ozirali za njo. Winterju se to zelo dobro zdi –“</p>
+            <p n="SLV30001.291">Laino je daleč od Trianona in galerij. Tu jemo sir in pečene vrabce s polento, obednica nam je poslikana s freskami. Snoči nas je obiskal stari doktor Conti; slep je, in kadar hoče reči: razumem, pravi: vidim.</p>
+         </div>
+         <div type="chapter">
+            <head>Laino.</head>
+            <p n="SLV30001.292">Včeraj sva stala z don Pietrom na hodniku in čakala, da pozvoni k nedeljskemu popoldanskemu opravilu, ko sem opazil, da prihaja po cesti proti župnišču Fritz. Pohajkoval je kakor na promenadi in je bil tako tudi napravljen; Lainci, ki so vajeni le turistov, so ga začudeno gledali; niti svilenega vijoličastega robca ni pozabil vtekniti v vrhnji žep. Ko je naju zagledal in pozdravil, me je don Pietro vprašal:</p>
+            <p n="SLV30001.293">„Kdo je to?“</p>
+            <p n="SLV30001.294">„To je moj popotni tovariš, ki sem ga pustil v Milanu.“</p>
+            <p n="SLV30001.295">„Ali je Nemec?“</p>
+            <p n="SLV30001.296">„Nemec je iz rajha.“</p>
+            <p n="SLV30001.297">„Kako je lep! To je prvi Nemec s človeškim obrazom, kar sem jih videl. Ali pride sem?“</p>
+            <p n="SLV30001.298">„Bojim se, da pride sem.“</p>
+            <p n="SLV30001.299">„Zakaj se bojite? Ni dober človek? Je veren?“</p>
+            <p n="SLV30001.300">„Mislim, da je veren.“</p>
+            <p n="SLV30001.301">Res me je obšlo neprijetno in neopredeljivo čuvstvo, ko sem ga nenadoma ugledal na cesti. Kakor bi se odprla pred menoj velika valeča praznota. Večkrat se zgodi tako, kadar se srečajo ljudje, ki so si dobri, pa ne popolnoma odkritosrčni: naenkrat si stoje nasproti in si nimajo nič povedati. Tudi sem se ga skoro zbal v tem tihem kraju, kjer malo in pametno govorimo; neprijetno mi je bilo, da hodi s tako samozavestno malomarnostjo in da ima vijoličast robec na prsih. Prihajal je in ni spadal sem. Bil je tuj in v nesoglasju z okolico in s smerjo, ki so jo hodile moje misli, odkar se nisva videla. Toda medtem je vstopil.</p>
+            <p n="SLV30001.302">„Ali se sploh ne misliš več geniti iz Laina?“ mi je dejal, ko mi je stisnil roko. „Jaz sem v Milanu iz obupa že visel in so me v zadnjem trenutku rešili.“</p>
+            <p n="SLV30001.303">„Meni je tukaj dobro,“ sem dejal; don Pietro me je hvaležno pogledal.</p>
+            <p n="SLV30001.304">„Kraji so prelepi. V Argegnu sem videl hotel prav ob jezeru, z velikim vrtom tik vode, polnim senčnic in hladu; star pes postopa po njem in oblaja vsakega gosta. Naročil sem si za nocoj sobo s pogledom na jezero. Prihodnjo pomlad bom ostal tam z Estero cel mesec,“ je pristavil po nemško.</p>
+            <p n="SLV30001.305">„Soba bo pač morala sama gledati na jezero, gospod,“ je dejal don Pietro. „Nocoj boste spali pri nas, če Vam ni moja hiša preskromna. V tujski sobi sta dve postelji in ena je še vedno prazna. Ne, ne, gospod, to je zmenjeno! In sedaj me bosta oprostila, kajti pozvonilo je v cerkev. Čez pol ure sem zopet tukaj, če Vam ni moja druščina neprijetna.“</p>
+            <p n="SLV30001.306">„Nasprotno, celo v cerkev Vas spremiva,“ je dejal Fritz.</p>
+            <p n="SLV30001.307">Don Pietro je vzel biret in smo se odpravili skoz vas v cerkev. Ljudje so večinoma postajali pred hišami, iz gostilne je prihajalo glasno petje. Don Pietro je pritajeno vzdihnil. Izza ogla so prikričali trije dečki in drveli mimo nas proti cerkvi.</p>
+            <p n="SLV30001.308">„Mario! Mario!“ je zaklical don Pietro. Toda otroci so bežali dalje, Mario se je le toliko ozrl, da se je široko nasmejal, takoj nato je vdrl pokrit v cerkev.</p>
+            <p n="SLV30001.309">„Zakaj ga ne zlasate, gospod?“ je dejal Fritz.</p>
+            <p n="SLV30001.310">„Cerkev je majhna, pa lepa. Opozarjam Vas na relikviarije ob oltarju; eden je pozlačen, drugi popolnoma zlat,“ je rekel don Pietro.</p>
+            <p n="SLV30001.311">V cerkvi je bilo le malo ljudi; na desni dekleta v tesni gruči, na levi žene, zadaj je sedelo nekaj starih mož, pred oltarjem se je prerivalo dvajset vaških otrok. Don Pietro jih je hotel nekaj miriti, pa ni šlo. Dekleta so šepetala, kakor šumi skrita voda; semintja se je zaslišal pritajen smeh. Fritz je prevrnil podnožnik, ko je sedel; tedaj je bil smeh močnejši.</p>
+            <p n="SLV30001.312">„Bagage!“ je dejal Fritz in si pogladil lase.</p>
+            <p n="SLV30001.313">Kmalu potem je prišel don Pietro s svojim težkim kmetiškim korakom iz zakristije. Pluvial je krilil okrog njega kakor repetnice. Zmolil je najprej rožni venec, potem je začel govoriti.</p>
+            <p n="SLV30001.314">„Lep glas ima,“ je rekel Fritz, po klopeh pa je šumela skrita voda.</p>
+            <p n="SLV30001.315">„Spreten je v besedi,“ je zašepetal Fritz. „Glej, kako kupiči sinonime.“</p>
+            <p n="SLV30001.316">– In zato vam pravim, je nadaljeval don Pietro, da mora biti vse naše življenje v Bogu. Zakaj torej omahujete na desno in levo? Če je Gospod naš Bog, služite Njemu; če je pa Baal naš bog, služite njemu. Dokler človek hoče dobro in pomežikuje zlu, dela slabo; če hoče delati dobro, se mora zlu popolnoma odpovedati; srednje poti ni in kdor jo vendarle išče, ne pride nikamor. Ne slepite se, kakor se je dolgo slepil puščavnik Peregrin.</p>
+            <p n="SLV30001.317">„Na povest prehaja,“ mi je rekel Fritz, „toda zveza je prisiljena. Ali misliš, da bo Peregrin delal čudeže?“</p>
+            <p n="SLV30001.318">V klopeh se je šum nekoliko umiril.</p>
+            <p n="SLV30001.319">– Peregrin je bil mlad in zelo bogat. Ko so mu umrli starši in je podedoval veliko premoženje, si je rekel: „Blaga imam mnogo, toda sam sem in pusto mi je; poiskal si bom prijateljev in bom vesel z njimi.“ Poiskal si je torej prijateljev in se je veselil z njimi.</p>
+            <p n="SLV30001.320">„Sedaj nam bo živahno opisal Peregrinove orgije,“ je zašepetal Fritz in se doteknil mojega komolca.</p>
+            <p n="SLV30001.321">– Pili so in razgrajali dan in noč. Peregrin je bil vesel kakor drugi in še bolj, toda včasi si je rekel, ko je dvignil prvo kupico k ustom: „Vse bo minilo in jutri me bo bolela glava.“ Potem je bil še bolj vesel, da pozabi na jutrišnji dan, toda ko je izpil zadnjo kupico, si je rekel: „Zakaj se mora vsako veselje tako žalostno končati? Moji prijatelji spe, jaz sem pa sam, pijan in nesrečen. To življenje ni dobro.“</p>
+            <p n="SLV30001.322">„Ali bo zdaj ubral boljšo pot?“ me je vprašal Fritz.</p>
+            <p n="SLV30001.323">„Tiho bodi!“ sem rekel. Cerkev je bila mirna.</p>
+            <p n="SLV30001.324">– Imel je vedno več prijateljev in je bil vedno bolj žalosten, čim bolj je pil, kajti rekel si je: „Prijatelji so mi, ker na mojih blazinah spe, ker od moje mize jedo in od mojega vina pijejo. Čim več jih je, bolj sem sam, ker me ne ljubijo.“ Gostil jih je še dolgo časa, potem pa jih je vse pognal od hiše, ker si je rekel: „Vsi moji prijatelji so osli, jaz pojdem pot modrosti.“</p>
+            <p n="SLV30001.325">„Ali ti nisem rekel?“ je vprašal Fritz.</p>
+            <p n="SLV30001.326">– Naročil si je učenih mož, ki so mnogo znali. „Vsi morajo znati vse,“ si je rekel Peregrin, „učenosti se bom vdal in bom v svoji samoti srečen.“ Najprej je spoznal, kako revno je vse posvetno veselje in da je le v resnici mir. „Če bi ne bil toliko časa zapravil, bi bil sedaj že popolnoma miren,“ si je mislil. Toda kmalu je sprevidel, da so njegovi učitelji s svojo modrostjo hitro pri kraju in da vsi ne vedo vsega. „Nisem zbral pravih mož,“ si je rekel, „denar imam, naročil si bom druge.“ Prišli so drugi in so vse tajili, kar so trdili prejšnji, ter so mu ravnotako hitro prodali svoje znanje. „Vsi skupaj ne vedo nič,“ je rekel Peregrin, „sam bom iskal resnico.“ Prebral je mnogo knjig in se je čudil, da se vsaka ogiba ravno najvažnejšega, ter je jel premišljevati o sebi in stvareh brez knjig. Zaprl se je v hišo in je dolgo živel v samoti, potem pa je prišel do spoznanja, da je le v posvetnem veselju prava sreča. „Ni nam dano, da bi kaj vedeli,“ si je rekel in je bil vesel. „Vdal se bom uživanju in bom živel srečen do smrti. Preveč sem izgubil dni v žalosti.“</p>
+            <p n="SLV30001.327">– Njegova hiša je zopet oživela in je bila vesela kot nikdar poprej. Peregrin si je rekel: „Raj ima človek lehko na zemlji; zakaj nisem tega prej vedel, zakaj sem čakal, da so mi lasje osiveli in da se je moja mladeniška moč osušila?“ Toda ko je mnogo dni in noči veseljačil, si je zopet rekel: „Tudi to je prazno in dolgočasno; kaj naj počnem sedaj?“ Spal je in žalosten postopal po svojem vrtu, dokler si ni čez teden dni rekel: „V puščavo ne grem; uživanje je vendar še najboljše, toda človek mora uživati modro.“ Hiša se mu je napolnila z manj bučnim, pa dolgotrajnejšim veseljem, dokler se ni Peregrin nekega dne zbudil in vzkliknil: „Gorje mi, ki ne najdem miru na svetu! Kar danes ljubim, jutri ne ljubim, in ki me danes ljubijo, me jutri sovražijo. Storil sem vse grehe in sem videl, da so sramotni. To življenje je slabo.“</p>
+            <p n="SLV30001.328">– Prodal je vse, kar je imel, in si je dal sezidati hišico v samoti, kjer ni bilo človeka. Ko se je tam naselil, je rekel: „Bog, sedaj sem sam s teboj. Vse sem ti žrtvoval, razdal sem premoženje, vsem slastem sem se odpovedal. Bodi pri meni in daj, da bom miren. Prikaži se mi vsaj v sanjah, da vem, da si z menoj.“ In ko je zaspal, se mu je Bog prikazal kot velika svetloba, ki ni svetila, in Peregrin je jecljal: „Gospod, vidim te in te ne vidim; zakaj mi ne umiriš srca?“ Ko je zjutraj vstal, je bil bolj nemiren kot kdaj poprej. „Kaj hoče Gospod še od mene? Ali mu nisem vsega dal? Odpovedal se bom tudi strehi in postelji, potem se mi bo morda razodel.“ Zaklenil je hišo, vteknil ključ pod prag in se napotil ter rekel: „Sedaj sem ves tvoj, Gospod; spal bom tam, kjer me zaloti tvoja noč, in jedel, kar mi da tvoja roka.“ In ko je zaspal, je zopet videl veliko svetlobo, ki ni svetila, in je jecljal: „Pri meni si in te ni; zakaj se mi ne razodeneš?“ Dvignil se je in se je vrnil k svoji hiši; vzel je ključ izpod praga, odprl vrata nastežaj in rekel: „Prvi, kdor pride, naj mu bo dom; naj stanuje človek v tej hiši ali naj se naselijo nevihte v njej, moja ni več. Solnce naj me sežge, rosa naj me razje.“ Ko je zaspal tisto noč, je videl tako svetlobo, da je v sanjah vztrepetal in se ni več zbudil.</p>
+            <p n="SLV30001.329">„Kako se ti zdi Peregrinova povest?“ sem vprašal Fritza.</p>
+            <p n="SLV30001.330">„Tak molči!“ se je obregnil.</p>
+            <p n="SLV30001.331">– Tako pripoveduje legenda, je nadaljeval don Pietro, in v njej je mnogo, mnogo resnice. Kakor je –</p>
+            <p n="SLV30001.332">Ko je končal, se je Fritz sklonil k meni in mi rekel: „Ali veš, da je Winter odpotoval v Palermo in da je Karla ostala v Milanu? Pravi, da pojde tudi v Florenco.“</p>
+            <p n="SLV30001.333">„Karla je sama v Milanu?“</p>
+            <p n="SLV30001.334">„Seveda, tepec! Ne odpiraj tako prestrašeno svojih oči in ne stikaj po žepih mojih besed.“</p>
+            <p n="SLV30001.335">Potem ni več govoril, dokler nismo šli iz cerkve (bil je tudi ves večer nenavadno molčeč). Ko so se začele litanije, si je zakril obraz in se ni genil. Čudno je, kako neenakomerno se pode misli v njem in kako je ljubosumen na vsakega, ki bi hotel zasledovati njih skrivne zveze. Kadar izpregovori eno odkritosrčno besedo o sebi, bi rad dve preklical. Ko sem ga videl tako sključenega nad klopjo, se mi je zasmilil. Bog ve, sem si mislil, kako je sedaj med Karlo in njim? Ali ga je ponižala, ki jo je hotel ponižati? Ali mu je kes sklonil pleča, ali molitev, ali dvom?</p>
+            <p n="SLV30001.336">Ko smo šli iz cerkve, je dejal Fritz don Pietru:</p>
+            <p n="SLV30001.337">„Malo ljudi je bilo v cerkvi. Ali je vedno tako?“</p>
+            <p n="SLV30001.338">„Moški so večinoma zdoma, in kadar se vrnejo, prinesejo s seboj ali nevero ali razuzdanost. Jaz storim, kar morem, in zaupam; božja skrb je, da se čas prav vrti.“</p>
+            <p n="SLV30001.339">„In čudno se vedejo v cerkvi.“</p>
+            <p n="SLV30001.340">„Ne, gospod, vi severnjaki tega ne razumete. Mi smo z Bogom bolj domači, mu ne delamo velikih poklonov, pa ga bolj ljubimo. Naši grehi so manjši nego vaši; vi grešite z razumom, mi s srcem. Tudi naša nevera ni taka nesreča kakor vaša. Nemška nevera je grozna; znanstveno se oborožuje, bahava je in samozavestna, vse sovraži in fanatizira. Naša nevera je lehkomiselna, vesela in nikdar prepričana, da ima popolnoma prav. Kar je drugače, je nemška vzgoja.“</p>
+            <p n="SLV30001.341">„In otroci so naravnost hudobni.“</p>
+            <p n="SLV30001.342">„Hudobni? Kaj da rabite tako trdo besedo? Ali ste že srečali v življenju hudobnega človeka? Jaz sem preživel petdeset let in se ne spominjam, da bi ga bil videl. Če sem odkritosrčen, moram reči, da mi ni še nihče hoté storil kaj hudega in da sem si bil vseh nesrečnih ur v življenju sam kriv. Še nihče me ni žalil, če me je bliže poznal, nihče me ni hoté napačno sodil. Poznal sem jih mnogo, ki so bili svetniki, in zopet mnogo, ki so veljali za grešnike, pa so imeli najboljšo voljo in le premalo odporne sile proti zlu. Govoriti bi hotel enkrat z resnično hudobnim človekom, da bi ga spoznal; danes še ne morem prav verjeti vanj.“</p>
+            <p n="SLV30001.343">„Tudi jaz sem že včasih mislil tako,“ je zamrmral Fritz, „toda rekel sem si, da imam malo izkušnje.“</p>
+            <p n="SLV30001.344">„Vsakdo ima dovolj izkušnje v lastnem srcu,“ je dejal don Pietro.</p>
+            <p n="SLV30001.345">„Mislite?“ je vprašal Fritz. Potem smo dolgo molčali.</p>
+            <p n="SLV30001.346">Po večerji smo sedli krog kamina in don Pietro je prinesel dve buteljki vina. Najprej je nama citiral dolge speve Danteja, ki sva ga le napol razumela, in vsak trenutek klical: „Kolika zvočnost! – Ali sta slišala primero, gospoda? – Kolika lepota!“ Potem je prebral slavnostni govor, ki ga je imel ob otvoritvi neke domače razstave, nato svojo razpravico o comski stolnici. Razložil je nama vse načine, katerih se Lainci poslužujejo pri lovu na ptice, ter se spominjal svojih otroških let, ko je bila lakota v deželi. Pripovedoval je dolgo o svoji materi: „Bog mi ni hotel uslišati želje, da bi jo enkrat sanjal.“ Semintja je segel po meh in razpihal ogenj na ognjišču, ki je slabo gorel. Zadaj v kotu je dremala naša dolga kuharica Marija in njej na kolenu bela mačka. Zunaj je bilo tiho, niti glasu, niti voza, niti koraka. Fritz si je podpiral glavo in molče strmel v ogenj; levo lice mu je bilo ožarjeno, desno popolnoma v senci; tudi po laseh se mu je prelival soj ognja.</p>
+            <p n="SLV30001.347">„Ali ti je dolgčas?“ sem ga vprašal po nemško.</p>
+            <p n="SLV30001.348">„Ne,“ je rekel in se ni ozrl od ognjišča.</p>
+            <p n="SLV30001.349">„Spalnica je pripravljena, gospoda, če sta zaspana,“ je dejal don Pietro, ko se je bližala že deseta ura. „Sedaj pride še doktor Conti, ki mu moram vsak večer brati časopise. Vidva sta morda že trudna.“</p>
+            <p n="SLV30001.350">„Ostaniva še tukaj,“ je rekel Fritz. „Ne ljubi se mi v posteljo.“</p>
+            <p n="SLV30001.351">Kmalu nato se je s palico pritipal v kuhinjo naš stalni gost slepi doktor Conti. Oči so mu popolnoma jasne, toda nepremične in lica pod njimi usušena. Govori z visokim glasom in počasi ter brez vsakega naglasa; po vsakem stavku se odkašlja.</p>
+            <p n="SLV30001.352">„Ali ne motim, don Pietro! Slišal sem, da imate novega gosta; hotel sem doma ostati, pa ne morem spati. Morda je bolje, da nocoj ne beremo?“ je dejal, ko ga je don Pietro posadil na stol ob ognju.</p>
+            <p n="SLV30001.353">„Pač, pač; dajte mi časopis.“</p>
+            <p n="SLV30001.354">„Prosim srednji list najprej. Tam so navadno najzanimivejši sestavki.“</p>
+            <p n="SLV30001.355">„Dopis iz Londona: Angleška psihološka družba?“</p>
+            <p n="SLV30001.356">„Morda bo dobro.“</p>
+            <p n="SLV30001.357">„Listi so pred kratkim prinesli iz Amerike čudno novico,“ je bral don Pietro. „Neki delavec, ki je komaj znal brati, se je ponesrečil in občutno ranil na glavi. Ko je okreval, se je nenavadno izpremenil. V največje začudenje svojih domačih je popolnoma pozabil jesti: z žlico ni vedel kaj početi, in jo je brezumno gledal, kakor bi imel pred seboj kompliciran stroj neznanega mu sistema in namena, nasprotno pa je vedel nekatere stvari, o katerih se mu prej ni sanjalo. Zanesljivo so baje dognali, da je govoril po bolezni grško, dasi ni prej nikoli slišal grške besede, in da je prišel na nekatere tehniške ideje, ki so jih strokovnjaki označili kot genialne.“</p>
+            <p n="SLV30001.358">„To je čudno, pa absolutno ni nemogoče,“ je rekel doktor Conti.</p>
+            <p n="SLV30001.359">„Nesmisel je,“ je zazdehal don Pietro.</p>
+            <p n="SLV30001.360">„Kako nezmisel? Po sedanjih pojmih oficialne znanosti je nemogoče le, da bi po bolezni govoril grško, če ni tega jezika nikoli prej slišal. Toda če so pojavi, ki jih označuje Aksakov kot spiritistične v ožjem smislu, resnični – in sedaj jih ni mogoče več pametno tajiti – tedaj bi bila to njim sorodna prikazen,“ je dejal počasi doktor Conti s svojim mrtvim glasom.</p>
+            <p n="SLV30001.361">„Ali se mnogo pečate s temi vprašanji?“ je rekel Fritz.</p>
+            <p n="SLV30001.362">„Sedaj se ne pečam z ničemer več.“</p>
+            <p n="SLV30001.363">„Ni ga človeka,“ je bral don Pietro, „ki bi danes verjel tej ameriški novici, toda če beremo oklic, ki ga je izdala novoustanovljena angleška psihološka družba, moramo reči, da se pripravljajo v psihološkem pojmovanju prave revolucije in da morda ni več daleč čas, ko bomo amerikanskemu časnikarju verjeli, kadar nam bo poročal o podobnem slučaju. Aksiom nove družbe in obenem razlog za nje ustanovitev je izrečen v prvem odstavku omenjenega oklica: Kar vemo o človeku, je malo več kot nič.“</p>
+            <p n="SLV30001.364">„Mnogo časa smo potrebovali, da smo prišli do tega spoznanja,“ je rekel doktor Conti, „in še več ga bo treba, da vsi izprevidijo, kako malo vemo. Nekaj novih resnic, ki so jih takorekoč odkrili instrumenti, ne človek, nas je popolnoma preslepilo. Mislili smo, da bomo našli dušo sveta pod nožem in mikroskopom. Ko sem študiral kemijo, sem bil tudi sam prepričan, da je svetovni sestav kaj enostaven.“</p>
+            <p n="SLV30001.365">Don Pietro se je boril s spancem in je dremotno nadaljeval: „Pod pritiskom dejstev, ki jih je dognala psihopatologija, bodisi da ta spadajo v njeno področje ali ne, nadalje vpoštevaje toliko in toliko psiholoških pojavov, ki so stari kot človeški rod, dasi jih prosvetljena znanost še danes odklanja kot vražarstvo, zlasti pa vsled poglobljenih kulturnozgodovinskih študij moramo reči, da ta aksiom ni znanstvena predrznost, kakor bi se zdel na prvi pogled. Tudi smo se s prodiranjem v nove kraje, ki so nam bili do zadnjega časa zaprti, in v nekulturne narode, ki smo jih vajeni smatrati le kot pouka potrebne polljudi, naučili, da je naša kultura vendarle enostranska in da se more tudi popolnoma resen Evropejec pečati s skrivnostnimi navadami in močmi, ki žive v tistih čudnih krajih večtisočletno življenje. Danes izumirajo zadnji dosledni materialisti, in če jim pride še pred smrtjo Sir Griderjeva knjiga 'Moje indijsko popotovanje' v roke, mora ta smrt biti grenka: ali bodo umrli obupa, ker se najrazumnejši možje zopet vdajajo 'čarodejstvu', ali bodo umrli žalosti, ker je po tem, kar nam Sir Grider pripoveduje, materializem blaznost.“</p>
+            <p n="SLV30001.366">„Blaznost ni,“ je rekel doktor Conti. „Časnikarji ne morejo nikoli drugače, kot da rabijo najhujše izraze. Zmota je bila, kakor mnogo drugih, in je bila tudi koristna, kakor vsaka. Rekel bi, da dobi resnica potem več reliefa.“</p>
+            <p n="SLV30001.367">„Sir Grider je sam stopil novi družbi na čelo in ji dal tolik kapital na razpolago,“ je bral don Pietro tiho in zaspano, „da je že z njim uspeh zagotovljen. Najprej namerja družba sistematično zbrati in razbrati ves takozvani okultistični material, ker bo s tem šele dana podlaga za znanstveno delo. Dosedanje izkušnje z eksperimentalno psihologijo so pokazale, da bodo rezultati, do katerih so prišle, in naj se poizkusi še tako izpopolnijo, minimalni in da bodo vodili le do neke – če mi dovolite ta izraz – psihološke biologije …“</p>
+            <p n="SLV30001.368">„Kdo je pisal ta članek? Ta mož bo vse zmešal,“ je rekel doktor Conti ter je segel po kozarcu in ga prevrnil. „Angleži pa mislijo resno. Zbirka kritiško obdelanih takih dejstev bi bila velepomembna. Bil bi prvi empirični korak na poti do človeške duše. Tako bi jo za vedno in neutajljivo našli. Potem bi se počasi vse naše mišljenje dematerializiralo, znanost bi našla še veliko širše in višje ceste in bi se šele prav zavedla svojih velikih ciljev. Kako je človek prihodnosti zavidanja vreden! Na pomoč mu bo prišla tudi zgodovinska izkušnja, ki je sedaj še nimamo, kajti teh par tisoč let, kar jih je za nami, je vendar borna preteklost. Iz nje smo povzeli le, da se vsak človek rodi, da prebavlja in da umre. Čez mnogo drugih tisoč let bo drugače: Človek bo zasledil tudi zakone svojega duha, nova spoznanja in vse stare zmote mu bodo svetilniki v temi mišljenja, življenje narodov mu bo jasno kakor življenje posameznika, politične stranke bodo imele v zgodovini pisane zakone, sociologija se bo opirala na tolike izkušnje, poznali bomo biologijo človeštva, videli bomo dušo vesoljstva.“</p>
+            <p n="SLV30001.369">Don Pietro je bil zadremal. Fritz, ki je strmel v Contija široko odprtih oči, mu je nalahko vzel časopis z rok in bral dalje:</p>
+            <p n="SLV30001.370">„Sir Grider … ne! Dosedanje izkušnje z eksperimentalno psihologijo so pokazale, da bodo rezultati, do katerih bo prišla …“</p>
+            <p n="SLV30001.371">„Ali don Pietra ni tukaj?“ je vprašal doktor Conti. „Gospod, Vi težko berete in imate manj razumljivo izgovarjavo.“</p>
+            <p n="SLV30001.372">Don Pietro se je zbudil, pogledal na uro, vzdihnil in začel brati dalje. Fritz je povesil glavo; čez en čas mi je pomignil in sva se poslovila.</p>
+            <p n="SLV30001.373">V najini spalnici sta bili obe okni odprti. Bila je svetla in zelo mirna noč. Na steni se je jasno videla negibna senca oreha na vrtu.</p>
+            <p n="SLV30001.374">Jaz sem legel, Fritz je slonel ob oknu in kadil.</p>
+            <p n="SLV30001.375">„Ali ne greš spat?“</p>
+            <p n="SLV30001.376">„Ne še.“</p>
+            <p n="SLV30001.377">„Ali si žalosten?“</p>
+            <p n="SLV30001.378">„Noč je lepa in me boli v srcu. Peregrinu je moralo biti tako, ko je videl mrtvaško luč. Ali si videl tadva človeka?“</p>
+            <p n="SLV30001.379">„Katera dva?“</p>
+            <p n="SLV30001.380">„Don Pietra, ki se mu otroci smejejo in ki ne veruje v hudobnega človeka. Contija, ki je slep, da prevrača kozarce, in sanja o človeku prihodnosti. In moj Bog, kako sem jaz zavržen in nepotreben, nepotreben. Niti časopisa ne znam brati, niti slepcu ne morem biti koristen. Kakor pes sem, ki se ves čas lovi za lastnim repom. Včeraj sem poslal Vischerju v Leipzig svoje pesmi in pismo, polno samozavestnih fraz.“</p>
+            <p n="SLV30001.381">„Ali te ni Karla ujela, Fritz?“</p>
+            <p n="SLV30001.382">„Ne.“</p>
+            <p n="SLV30001.383">„Morda pa vendar?“</p>
+            <p n="SLV30001.384">„Ne, me ni, globoki mislec. Vabila me je za danes na izlet v Certoso; jaz sem obljubil in sem šel v Laino.“</p>
+            <p n="SLV30001.385">„Ali nisi vesel?“</p>
+            <p n="SLV30001.386">„Ah, še iz Coma sem se hotel vrniti, da jo vidim, in sedaj bi se zgrudil na kolena, da stopi predme. Po poti sem se v roko ugriznil od bolečine za njo. Ali vidiš, kako sem zavržen?“</p>
+            <p n="SLV30001.387">Ko se je obrnil, sem videl, da ima solzne oči.</p>
+            <p n="SLV30001.388">Davi sem odšel iz spalnice, preden se je zbudil; ležal je zopet podvitih rok, ves razmršen in zasopel. Ko je prišel k zajtrku, je mračno pozdravil in rekel:</p>
+            <p n="SLV30001.389">„Močno vino imate, don Pietro. Snoči sem bil pijan.“</p>
+            <p n="SLV30001.390">„Kako vendar …“ se je prestrašil don Pietro.</p>
+            <p n="SLV30001.391">„Nerad bi se spominjal snočnega večera,“ je rekel Fritz in me izzivajoče pogledal.</p>
+         </div>
+         <div type="chapter">
+            <head>Milano.</head>
+            <p n="SLV30001.392">Najodličnejša moška dušna nezmožnost, razum, si z zvijačo nič ne pomaga. Kajti kadar mi pravi prijatelj: „Poznam Vaše nazore o narodni umetnosti, toda jaz sem drugega mnenja“, mislim samo prvi trenutek na to, da ga je treba poučiti, izkušam samo prvi hip urediti svoje misli o narodni umetnosti, toda v naslednjem si že stopim za hrbet, pogledam čez svojo in prijateljevo glavo ter vidim, da tudi on stoji za svojim hrbtom in da pravi: „Ne poznam Vaših nazorov o narodni umetnosti in bi jih rad zvedel.“ Tedaj si pravim: „Torej mu jih moram razodeti, da jih ne bo verjel.“ Precej potem si stopim drugič za hrbet in vidim, da si stoji tudi prijatelj dvakrat za hrbtom in da mi pravi: „Ne poznam Vaših nazorov o narodni umetnosti; govorili boste torej resnico, da bi me zapeljali v zmoto.“ In jaz si pravim: „Moj prijatelj je umen človek, torej moram lagati, da mi bo verjel.“ In ko si stopim tretjič za hrbet, vidim, da se je tudi moj prijatelj potrojil in da se mi smeje: „Saj vem, da nimate nobenih nazorov o narodni umetnosti, toda zvedel bi rad, če jecljate.“ Ko to vem, bi ga lehko takoj ukanil, če bi ga mogel.</p>
+            <p n="SLV30001.393">Tako se požiramo med seboj kakor dve ogledali, ki si visita nasproti; gledamo si jasno v prazno perspektivo duše, kajti naša zvijačnost se ravnotako pravilno lomi, kakor svetlobni žarki, in je torej nepotrebna. Ko je navadna laž postala smešna, ker si sam nastavljam preveč zank in pasti, da bi ne videl tistih, ki mi jih je nastavil prijatelj, ko niti z resnico ni več mogoče resnice prikriti in postavim niti s tem, da si s krvjo namažem prste, ne morem dokazati, da nisem morilec, in ko niti drugotna laž ne more več zakriti resnice, je najbolje, da ostanemo pri čisti resnici ali pri prvotni laži ter da si ne stopamo več za hrbet. Kakor nam gre, ne more iti več dolgo dalje; naša zvijačnost je pri koncu, ker je brezkončna.</p>
+            <p n="SLV30001.394">Vidim pa, da je pri ženskah drugače. Če me prijatelj vpraša, kaj delam, mu moram odgovoriti, da dobro piše, in če bi hotel vedeti, kdaj se bo poročil, vprašam, kako mu tekne gostilniška hrana. To je logično. Toda če prijateljici pripovedujem, kako sem hodil na Golico, mi reče: „O sevé, čas mine, ljubezen je večna,“ in če ji govorim o Macchiavelliju, mi seže v besedo in pravi: „Ne bodite predrzni, gospod; vsakdo ve, da je moderna literatura slična romantiki.“ Njih ogledalo ni ravno, prva slika je že začrtana in vsaka naslednja veliko bolj, perspektiva nerazumljiva. Mi smo z nemočjo svoje zvijačnosti pokazali, da nam je razum opešal, ko se je poostril, kakor je oko bolno, če je dalekovidno, toda tam se je nagon pokvaril in je sedaj kakor od vetra presukan kažipot, kakor raztrgano strašilo sredi njive, ki v njem gnezdijo vrabci, kakor zakonik pisan od zločincev, ali kakor vešča, ki je sedla na ugasel svetilnik.</p>
+            <p n="SLV30001.395">Vidim tudi, da je gorje, če zadene bolan razum ob pokvarjen nagon. Vidim, da Fritz ne bo pisal Karli razglednic, kakor jih pošiljajo korporali pericam, in da se bo uničil.</p>
+         </div>
+         <div type="chapter">
+            <head>Milano.</head>
+            <p n="SLV30001.396">Ko sem bral danes pod galerijami večerne časopise, sem slišal pri sosednji mizi dva človeka hrvaško govoriti. Eden je odhajal in je že stal. Imela sta obadva nenavadne klobuke in nenavadne obraze, kakor jih imajo vsi slabi pisatelji in slikarji. Tisti, ki je še sedel, je rekel:</p>
+            <p n="SLV30001.397">„Kaj mi prihajaš vedno z istim? Stokrat sem ti rekel, da sta razumljivost in nerazumljivost relativna pojma, in povej tistemu svojemu prijatelju, ki mojih pesmi ne razume, da se zemlja tudi takrat suče, kadar on spi, in ga vprašaj, če sta bila nebo in solnce šele takrat ustvarjena, ko ju je obsvetila luč njegovega rojstva? Ali Danteja zato nerad berem, ker je slab pesnik, ali ker ne znam italijanske zgodovine? Kako naj jaz prikrajam svoje misli po tistih, ki jih tvoj prijatelj nima? In če ima katero, je toliko časa ne bom respektiral, dokler imam sam boljšo pri roki. Skliči vse markerje in ti bom izjavil pred pričami: Če bi moral svoj prazniški cilinder natekniti oslu na glavo, ne bom prerezal cilindra, ampak bom oslu odstrigel ušesa.</p>
+            <p n="SLV30001.398">In kar se drugega tiče, ne morem spoznati, da so pesmi izključno sredstva za prebavo, pomirjevanje živcev in povzdigo narodne zavesti. Bil je tak čas in bo morda zopet; takrat bom zopet mislil, da so velike reči velike, kakor sem sedaj prepričan, da so najmanjše najznamenitejše. Lepo te prosim, pusti me, da svoje osebne zadeve uredim, preden se lotim skupnih, in ti sveto obljubljam, da bom namesto o jasminu prepeval o Balkanu, kakor hitro bom narod tak jasno čutil v srcu, kakor čutim jasmin pod nosom.</p>
+            <p n="SLV30001.399">Moj Bog, saj se ti ne mudi tako! Potrpi samo še za eno besedo o pohujšanju. Vem, da sem grešnik, toda ko bi ne hotel biti pošten človek, bi pisal drugače ali bi sploh ne pisal. Zapeljivec je, kdor si mazili lase, svileno obleče in natakne hrepeneč pogled ter reče: 'Mladina, tako se bližaj ljubezni!' in ne jaz, ki capin bežim po cesti v zasmeh ljudem ter kličem: 'Mladina, od ljubezni prihajam!' Sploh pa mislim, da mladina še vedno ni edino merilo slovstva, kajti …“</p>
+            <p n="SLV30001.400">„Nazdravje,“ mu je podal znanec roko.</p>
+            <p n="SLV30001.401">„Nazdravje,“ je odgovoril sedeči mož. „Povem ti pa, da je vsaj ta stara primera resnična: Pesem je kakor vlačuga; eden gre mimo, drugi se ustavi, zaničujeta jo pa obadva, ki svetu z veliko bridkostjo ponuja svoje revno veselje.“</p>
+            <p n="SLV30001.402">Kdo sta bila tadva moža in kako se je pogovor začel? Zveze mi niso popolnoma jasne.</p>
+            <p n="SLV30001.403">Kako različni so nazori o umetnosti! Mislim, da najde dandanašnji vsaka misel svojo glavo.</p>
+         </div>
+         <div type="chapter">
+            <head>Milano.</head>
+            <p n="SLV30001.404">Davi sem še ležal v postelji (prva jesenska svetloba je prihajala skoz okno in lahna zavesa se je napihovala od uličnega hladu), ko je Fritz stopil v sobo in mi sedel k nogam. Lica so mu bila pegasto zardela, kravata mu je visela poševno in obleka mu je dišala po različnih tujih vonjih. Bilo ga je žalostno gledati takega v mirni jutranji svetlobi; tudi veseli, stekleni lesk njegovih oči je bil žalosten.</p>
+            <p n="SLV30001.405">„Ali nisi spal nocoj?“ sem ga vprašal.</p>
+            <p n="SLV30001.406">„Nasprotno. Bil sem vso noč izredno buden.“</p>
+            <p n="SLV30001.407">„Kaj si počel? Saj si rekel snoči, da greš po predstavi domov.“</p>
+            <p n="SLV30001.408">„To in ono, vse mogoče reči so mi dale opraviti. Zložil sem pesem in jo komponiral. Ali jo hočeš slišati?“</p>
+            <p n="SLV30001.409">Del mi je kazalec na nos in se nizko sklonil ter deklamiral, kakor bi pripovedoval anekdoto:</p>
+            <p n="SLV30001.410">
+               <l>„Po cesti grem in slišim svoj korak</l>
+               <l>in sem vesel, da ga sam ne odmevam.</l>
+               <l>Moj korak bije ob okna visokih hiš,</l>
+               <l>ob zatohlo spanje, polno pozabe, tam notri,</l>
+               <l>ob mučno bedenje, ki živi od bridkosti,</l>
+               <l>ob nebo in zvezde na njem.</l>
+               <l>Slišim svoj korak in vse drugo, kako odmeva,</l>
+               <l>tudi tvoj večni odmev slišim, moj Bog,</l>
+               <l>le sam ne odmevam.</l>
+               <l>Slišim glasove vesoljstva iz lastne bolečine</l>
+               <l>in jih ne motim.“</l>
+            </p>
+            <p n="SLV30001.411">(Bilo je nekaj podobnega, kar je pripovedoval. Opažam, da si je današnje pesmi prav tako težko zapomniti, kakor je težko ekscerpirati moderno znanstveno knjigo, tudi najboljšo.)</p>
+            <p n="SLV30001.412">„Ali je pesem dobra?“ me je vprašal Fritz; videl sem, da mu je vseeno, kaj odgovorim.</p>
+            <p n="SLV30001.413">„Nič več ne vem, kaj je poezija. Imel sem jo vedno za nekaj prazniškega.“</p>
+            <p n="SLV30001.414">„Za nekaj nadzvezdnega, preljubi? Ne za vizionarno osvajanje Neosvojljivega, temuč za slavnosten govor o stvareh, ki jih vsi poznamo, najdražji? Za riman shod beraških misli, ki se sicer klatijo po vsej deželi? Za ritmično dirko javnoznanih starcev? Ali pravzaprav za dišeč šopek cvetja z domačih livad? Pa da boš potolažen: Moja pesem je slaba, čeprav bi jih mnogo reklo, da ni lepa.“</p>
+            <p n="SLV30001.415">(Fritz se je malokdaj hvalil, dasi je poln napuha, ali morda prav zato, toda kadar je rekel, da je zložil dobro pesem, je bila dobra.)</p>
+            <p n="SLV30001.416">„In kaj naj pomeni:</p>
+            <p n="SLV30001.417">
+               <l>Po cesti grem in slišim svoj korak</l>
+               <l>in sem vesel, da ga sam ne odmevam?“</l>
+            </p>
+            <p n="SLV30001.418">„Še nikdar nisem bil tako srečen kot nocoj, Guter. (Pa ne misli, da ti bom pravil komentar k pesmi, kajti pesem sama je komentar človeka.) Od tistega časa, ko so me prvič zabolele zvezde, ko me je vse bolelo: tema in luč in vse knjige in vse slike in vsake tuje oči. Morda še veš, kako je, ko deček dorašča?“</p>
+            <p n="SLV30001.419">Legel je na divan, razpel roke in zaprl oči; še nikdar nisem prej videl, da bi si bil dovolil tako izrečno lirsko pozo.</p>
+            <p n="SLV30001.420">„Deček, ki dorašča!“ Spomnil sem se lastne mladosti.</p>
+            <p n="SLV30001.421">„No, vidiš. Bil sem tedaj kakor struna, ki napeta trepeta dan in noč ter tiho brni. Zadnja leta sem si vsako uro očital, da sem zapravil to zmožnost trepetanja in da ne slišim več skrivnostnega brnjenja čiste bolečine. Ali sem ti pravil, kdaj sem prvič rekel: Ljubil bi?“</p>
+            <p n="SLV30001.422">„Ne vem.“</p>
+            <p n="SLV30001.423">„Bil sem s starši na počitnicah v majhnem trgu na Bavarskem. Tedaj sem kadil prve cigarete, pisal prvo dramo in sem imel hofmajstra, ki je bil komaj leto dni starejši od mene in je danes najbrže še vedno tako otroški, kot sem bil jaz tedaj. Ob večerih sva hodila na kolodvor, kakor je v majhnih trgih navada, gledat vlak in ljudi; že tedaj sem ljubil nagle izpremembe in vrvenje neznancev. Mislil sem si: 'Eni gredo sem, drugi tja; kako jim je pri srcu?' Enkrat sem šel na peronu mimo črno oblečene ženske; oči so ji sijale izza pajčolana 'kakor mesečina'. 'Kdo te je žalil', sem jo vprašal s pogledom, 'človek ali usoda?' Ko sem šel drugič mimo nje in me je pogledala, sem si dejal: 'Ljubil bi te, da bi te branil vsega hudega in ti dal vse dobro.' Bilo mi je, kakor bi mi roka, ki jo ljubim, stiskala srce v prsih, zaihtel bi od sladke bolečine. Ko sem šel tretjič mimo nje, in me je pogledala, so mi stopile solze v oči. 'Hudo je živeti; umrl bi,' sem mislil. 'Hudo je živeti; najrajši bi umrl,' je rekel moj hofmajster glasno. Ko je vlak odhajal, je stopila k oknu; midva sva obenem pozdravila; zamahnila je z robcem; midva sva šla počasi za vlakom, dokler jo je bilo videti. Spominjam se kakor danes, da ji je na ovinku oblak dima zakril obraz.</p>
+            <p n="SLV30001.424">To je čas čistih bolečin. Ko sem se vračal s hofmajstrom skoz gozd domov, sem videl med vejami prve večerne zvezde. Rekel sem si: 'Zdaj se prikazujejo, opolnoči bodo svetile z vso močjo in zjutraj zatonejo!' Bilo mi je neskončno težko. Na pašniku spodaj so pastirji kurili ogenj, njega medli žarki so prodirali skoz listje. Zadel sem ob kamen z nogo, da se je zakotalil navzdol. 'Ob koliko debel bo udaril, kje bo obstal? Kaj si bo mislil, komur se ustavi pred nogami?' sem si rekel. Bilo mi je neskončno težko. Padel mi je list na roko; zaostal sem in ga poljubil. 'Dajte mi ognja, da prižgem cigareto,' sem rekel hofmajstru. Segel je v žep in mi ponudil škatlico; poropotal je z žveplenkami, kakor delajo skoro vsi kadilci, kadar jih izročajo. 'Kako zamolklo pojo,' sem si rekel; 'vsaka stvar ima svoj glas; žveplenke, ki so določene, da pogoré, pojó kakor krsta.'</p>
+            <p n="SLV30001.425">Tak je deček, kadar dorašča. Ves je ranjen.“</p>
+            <p n="SLV30001.426">Spomnil sem se lastne mladosti.</p>
+            <p n="SLV30001.427">„Vse mu odmeva,“ sem rekel.</p>
+            <p n="SLV30001.428">„Vse mu jasno odmeva, dokler se ne vpraša: Zakaj odmeva in odkod? kak je ta odmev? Jaz sem se jel veliko prezgodaj tako izpraševati in s prvim vprašanjem so se čisti odmevi izpremenili v nejasno bučanje. Ne vem, ali je vsakemu človeku sojeno, da se sam zabode v srce. Ko sem prvič rekel bolečini: stoj, da te vidim, je izginila, in ko sem ji dejal: vrni se, da te vidim, je ni bilo nikoli več. Kadar sem se vprašal: zakaj sem vesel? nisem bil več vesel. Čakati sem hotel z merilom in drobnogledom, kadar pride, pa ni prišlo. Toliko časa sem degeneriral, da sem prišel do nadčloveka; nisem znal biti ne vesel, ne žalosten, in bi se najrajši sam pljunil iz ust. Moje življenje je bilo tako strašno prazno, brez vsebine; kar je bilo človeka v meni, je ležal zapečaten v zadnjem predalu pisalnika poleg prvih rokopisov in mladostnih pisem. Toda nocoj sem se odpečatil.“</p>
+            <p n="SLV30001.429">„Ali si bil s Karlo?“</p>
+            <p n="SLV30001.430">„Da, škodoželjni pravičnik, govoril sem z njo, psihološki konjederec. Govoril sem z njo. Genialno me je žalila.“</p>
+            <p n="SLV30001.431">„Res?“</p>
+            <p n="SLV30001.432">„Zakaj ne vprašaš naravnost: kako?“</p>
+            <p n="SLV30001.433">Sedel je in me motril s polzaprtim očesom, kakor je bila njegova navada, kadar je hotel koga pregledati.</p>
+            <p n="SLV30001.434">„Ko sem šel potem sam skoz prazne ulice, sem se hotel vrniti, da ji poljubim obedve roki in rob krila. Z bičem mi je prerezala vezi, ki sem se bil sam z njimi zvezal. Ali veš, da sem po sedmih letih čutil zopet enkrat, kakor deček, ki dorašča? Bolečina mi je pela v srcu kakor trepetajoči zvok srebrne fanfare in nič nisem vprašal, kako, odkod? Molil sem in Boga hvalil, da se me je usmilil in mi dal zopet okusiti čisti napoj bolečine. Svet je bil v meni, tako me je žgalo v srcu.“</p>
+            <p n="SLV30001.435">„Vse to je nezmiselno, Fritz. Če bi te resnično bolelo, bi ne zahvaljeval Boga. Pusti Karlo.“</p>
+            <p n="SLV30001.436">„Jutri grem še z njo v gledališče.“</p>
+            <p n="SLV30001.437">„Doma ostani.“</p>
+            <p n="SLV30001.438">„Nikakor, mein Liebling, in ti pojdeš z menoj. Potem sva to reč končala. Ali boš kmalu vstal?“</p>
+            <p n="SLV30001.439">„Takoj; preden boš ti legel.“</p>
+            <p n="SLV30001.440">„Ne, najdražji. Le umil se bom, potem grem v Brero. Danes bi se upal spreti z Michelangelom.“</p>
+            <milestone type="subChapter" rend="asterisk" unit="asterisk"/>
+            <p n="SLV30001.442">H kosilu je prišel izredno dobre volje, zdrav in svež, le obraz mu je bil ponočnjaško zardel.</p>
+            <p n="SLV30001.443">„Ester mi je pisala, preljubi.“</p>
+            <p n="SLV30001.444">Bil sem slabe volje; tudi sem bil naveličan večnih vesti brez novic.</p>
+            <p n="SLV30001.445">„Saj ti piše večkrat.“</p>
+            <p n="SLV30001.446">„Ali se ti je kaj neprijetnega primerilo dopoldne? Preberem ti samo uvod; je dobro pisan.“</p>
+            <p n="SLV30001.447">Nagnil se je preko mize in šepetal:</p>
+            <p n="SLV30001.448">– Kakor je bilo v prejšnjih pismih preveč razglabljanja, tako je v zadnjih preveč ljubezni. Praviš, da me vidiš vsak večer v mraku in vsako jutro v prvi svetlobi (ali je to samo podoba, ali si se res navadil zgodaj vstajati?), da vidiš z zaprtimi očmi moje zapestje kakor zasneženo planjavo, po kateri teko mnoge vijoličaste reke, in da čutiš puh mojega obraza, če iztegneš roko v zrak. Ne morem ti povedati, predragi, kako me vse to vznemirja; čudno tesno mi je, kadar tako govoriš. Ali si mi nezvest in imaš slabo vest? Ali me res ne ljubiš, kakor si nekdaj govoril, in se hočeš z besedami zanesti v ljubezen? Tolaži me le to, da se bova prihodnji teden videla v Florenci; sedaj se sama več ne spoznam, kako je med nama. Sama sem izgubila ravnovesje, ker so tvoje primere pregorostasne, v njih nenavadnosti je kakor kapljica cinizma. Ali jih rabiš zaradi njih samih, zaradi mene ali zaradi sebe? Najboljše bi bilo prvo, najhujše zadnje. –</p>
+            <p n="SLV30001.449">„Ester je pametna. Rad bi govoril z njo.“</p>
+            <p n="SLV30001.450">„Pametna? Čudovita je v svojem miru,“ je rekel Fritz in je spravil pismo v žep. „Zaslužila bi, da bi jo vzljubil kdo drugi. Toda jaz bi ga zadavil.“</p>
+            <p n="SLV30001.451">„Ni verjetno. Ležal bi na divanu in bi govoril o čisti bolečini.“</p>
+            <p n="SLV30001.452">„Misliš? Kadar ji pišem, mi je vse megleno v glavi od ljubezni. Včasi mislim, da moje življenje brez nje nima cilja.“</p>
+            <p n="SLV30001.453">„Včasi?“</p>
+            <p n="SLV30001.454">„Ali sem rekel: včasi? Moj Bog, ne muči me. Jaz ne vem nič.“</p>
+         </div>
+         <div type="chapter">
+            <head>Milano.</head>
+            <p n="SLV30001.455">Proti večeru je stopil v mojo sobo že napravljen za gledališče. Njegovemu skladnemu telesu se je smoking dobro podajal. Prsi so mu bile pod trdim vzboklim naprsnikom še širše in pas še vitkejši. Preča sredi glave je bila začrtana kakor z ravnilom.</p>
+            <p n="SLV30001.456">„Pohiti. Čas je,“ je dejal in si popravil kravato pred ogledalom.</p>
+            <p n="SLV30001.457">„Kaj igrajo danes?“</p>
+            <p n="SLV30001.458">Imenoval mi je italijansko dramo, ki je tiste mesece zelo slovela.</p>
+            <p n="SLV30001.459">„Bral sem, toda gledat ne grem. Mučno mi je, kadar vidim te reči na odru. V njih ni reda.“</p>
+            <p n="SLV30001.460">„Kompozicije pač, kakor pravi kritika?“</p>
+            <p n="SLV30001.461">„Torej kompozicije.“</p>
+            <p n="SLV30001.462">„Čim več je je, tem slabše.“</p>
+            <p n="SLV30001.463">„Red je torej po tvojem slabost? Ko dramatik pograbi kos kaotičnega življenja, ga suvereno zgnete kakor lončevino, mu da črto in simetrijo svojega duha, ustvari iz mrtve tvarine živ organizem ter tako posnema vsemogočnost in vsemodrost Stvarnika, dela slabo, ker tako dela? Jaz bom verjel v kompozicijo.“</p>
+            <p n="SLV30001.464">„Toda ko bi bila kompozicija stvarstva taka, da bi bila tvoji kratkovidnosti red in ne kaos kakor je, ali bi bil Stvarnik še Stvarnik? In če bi poveličani pregledali in doumeli ta red ne prvo sekundo, ne prvih tisoč let, ampak prvih bilijon let, ali bi mogli hvaliti Vsemogočnost in Vsemodrost? Blasfemija je, če primerjaš dramatskega računarja z Onim, ki v kaosu razodeva svoj red. Kaos je nadred.“</p>
+            <p n="SLV30001.465">„Nisem primerjal načina in zmožnosti, le končni efekt; ta je pri obeh red.“</p>
+            <p n="SLV30001.466">„Da, mož neobrezanega uma, toda kdor ustvarja dozdevno kaotično, se bliža tudi načinu. Bil si večkrat pred Lionardovo Večerjo. Že prej si vedel, kako je zgrajena; da se vsi deli med seboj podpirajo in dopolnjujejo. Kompozicija je popolnoma jasna, sicer bi je ne razlagala vsaka knjiga, kot jo. Povej mi, kakšen je bil prvi vtisk Večerje.“</p>
+            <p n="SLV30001.467">„Velikanski.“</p>
+            <p n="SLV30001.468">„Ali ne trdiš preveč? In drugi in tretji? Ko si prvič že prehodil isto miselno pot kot Lionardo?“</p>
+            <p n="SLV30001.469">„Slika je vendar dobra.“ (Spomnil sem se, da me v tretje res ni več zanimala.)</p>
+            <p n="SLV30001.470">„Moj Bog, dobra! Dobra! Pa bila bi lehko boljša, če bi ne bila modrost Lionardove kompozicije tako jasna, tako mehanična skoro. V tej skrajni urejenosti je mnogo laži, ki si jo je umetnik dovolil svojemu stvarništvu na ljubo. Za naše oči je vse življenje preveč kaotično, in če ga izkušamo umetniško urediti, je ta red potvara. Zato mi jenjaj govoriti o ekspozicijah, viških, peripetijah, katastrofah in drugih sredstvih, ki z njimi izkušamo svojo nezmožnost pobožanstviti. Napravi se!“</p>
+            <p n="SLV30001.471">Hodil je z dolgimi koraki po sobi gor in dol; iz žepa je bil vzel korobaček in z njim žvižgal po zraku in postelji.</p>
+            <p n="SLV30001.472">„Rekel sem ti, da ne grem. Kaj boš z bičem?“</p>
+            <p n="SLV30001.473">„To je zadnji argument za Karlo, če vsi drugi ne bodo držali.“</p>
+            <p n="SLV30001.474">„O čisti bolečinar! Rabil ga ne boš, razen morda za primero.“</p>
+            <p n="SLV30001.475">„Prisegam ti, da jo udarim, če si ne bom znal drugače pomagati. Napravi se.“</p>
+            <p n="SLV30001.476">„Rekel sem ti, da ne grem.“</p>
+            <p n="SLV30001.477">„Ali si se že tako osamosvojil? Sčasoma boš še popolnoma značajen.“</p>
+            <p n="SLV30001.478">Stopil je še enkrat pred ogledalo.</p>
+            <p n="SLV30001.479">„Mislim, da izgledam kakor dompteur. Ali nisem malce smešen? Bog s teboj, najdražji.“</p>
+            <p n="SLV30001.480">Slišal sem še, kako je zunaj ozmerjal vratarja, ker ni bilo voza pred hotelom. Ko to pišem, je Fritz v gledališču.</p>
+         </div>
+         <div type="chapter">
+            <head>Milano.</head>
+            <p n="SLV30001.481">„Ali si rabil bič snoči?“</p>
+            <p n="SLV30001.482">„Ga ni bilo treba. Prvo dejanje si je grizla ustnice, v pavzi je šla domov, da se izjoče.“</p>
+            <p n="SLV30001.483">Fritz je danes pust in izgubljen.</p>
+            <p n="SLV30001.484">„Pojdiva v Florenco; meni se vse gnusi,“ pravi.</p>
+         </div>
+         <div type="chapter">
+            <head>Firenze.</head>
+            <p n="SLV30001.485">Ko sem se dovolj dolgo potikal po hotelih, mi je pensija, v kateri sem sedaj nastanjen, naravnost oddih; vsaj zelo prijetna izprememba. Hiša je ravno dovolj velika, da ni dolgočasna, in dovolj majhna, da je domača. Soba mi gleda na široki, plitvi Arno in na gričevje onkraj njega. Jutra so zgodnja in prihajajo takoj z vso močjo v sobo. Ko zvečer truden in za spoznanje žalosten slonim ob oknu, se ustavljajo spodaj na cesti možje s tatinskimi obrazi in ženske z božjastnimi obrazi, večkrat so tudi prav taki otroci z njimi; gitare imajo in pojejo del amooreee. Tedaj se začno odpirati vetrnice na naši hiši, ljudje prihajajo k oknom, dovtipi gredo od sobe do sobe v vseh jezikih in smeh; potem zavijamo palanke v papir in jih mečemo pevcem na cesto. Mislimo si, da uživamo Italijo; pevci nič ne mislijo, vsaj na to ne, kar pojejo. Ko odidejo, pridejo drugi, prejšnjim podobni, in pojejo del amooreee.</p>
+            <p n="SLV30001.486">Obedujemo skupaj pri eni sami veliki mizi. V pročelju sedi hišna gospodinja, potem se vrstimo gostje. V razvrstitvi ni pravega reda; gospa nas razpostavlja, kakor se ji najprimerneje zdi, in opazil sem, da sluti in zadene, v katero družbo kdo spada. Karlo, ki je prišla predvčerajšnjim (z menoj je izpregovorila par besed kot s površnim znancem, s Fritzem se hladno pozdravljata, kot bi se nikoli ne bila videla), je posadila med starejšo, solidnejšo družbo, zraven nje pa mladega Montañesa, „našega malega Španca“, kakor ga imenujemo med seboj, ki jo ves čas gleda s svojimi velikimi očmi in belimi zobmi, zardeva, kadar govori z njo, in sploh dela njej in nam vsem veliko zabave; Karla se igra z njim kot mlada mati s prvim otrokom in ga ima vedno ob strani; ko smo snoči sedeli po večerji v majhnih skupinah v salonu, se Karla nenadoma bučno in od srca nasmeje, mu seže z obema rokama v lase in ga strese: „Kaj je ljubezen, ljubo dete? Da Vam rojijo že take misli po glavi? Pazite!“ On jo je nekaj časa začuden gledal, ves ožarjen, ali od sreče, ali od sramu, potem so se mu oči napolnile s solzami in je šel vun. „Dober fant je,“ pravim o njem. Karlo imamo za pametno žensko, ki je le nekoliko nervozna in potrebuje počitka; to da je tako v njenem poklicu; v tujsko knjigo se je vpisala „actrice de Varsovie“.</p>
+            <p n="SLV30001.487">Gospa v pročelju je živa taktirka naših obedov. Ona ve vse, zna govoriti z vsakim in vsemi. Reči, ki se prijetno slišijo, zna povedati v vseh evropskih jezikih. Zna pogovor na pravem koncu začeti in ob pravem času ustaviti. Naše želje pozna, preden jih imamo, in nam zna svoje lastne podtekniti. Če je jed slaba, je ona prva, ki toži o nedostatkih italijanske kuhinje, in kadar ji pritrdimo, nam zanesljivo dokaže, da je njena pensija še najsolidnejša v Florenci. Kadar pride nov gost, je njena skrb, da ga vpelje. Fritz jo nagovarja „ma mère“.</p>
+            <p n="SLV30001.488">Njej nasproti, na drugem koncu mize, sedi njena hči, signorina Ada, ki je šele pred letom dni prišla iz nekega švicarskega zavoda in izkuša sedaj nadaljevati veselo pensionatsko življenje, kolikor ji hudi pogledi matere dovoljujejo. Še nihče ni odšel iz hiše, da bi ga ona pri prihodnjem obedu ne karikirala; našega malega Španca se upa posnemati celo v njegovi pričujočnosti. Fritzu je najboljša prijateljica, od trenutka, ko je stopil v hišo; po kosilu bereta skupaj Leopardija, po večerji igrata četveroročno; kadar sva sama, jo imenuje „našo vitko grlico“. Morda je več kot prijateljstvo, kajti „jaz sem proklet človek“, mi je nekoč rekel, „kamor pridem, se mi narede sitnosti“. Zadnjič je imel pri mizi nov, temnordeč robec v zgornjem žepu; videl sem, da ga je med juho vzel, nanovo preganil in poljubil; Ada je tačas zatisnila oči in komaj opazno iztegnila svoj vitki vrat proti njemu. Vse to je trajalo samo trenutek in niti gospa v pročelju, ki vse vidi, ni zapazila tihega pogovora. Začuden sem pogledal Fritza, ki mi sedi nasproti, toda on se mi je nasmehnil s svojim laskavim, nedolžnim nasmehom in rekel:</p>
+            <p n="SLV30001.489">„Seveda, seveda, predragi!“</p>
+            <p n="SLV30001.490">Seveda. Ta čudni dečko nima miru in je samo tedaj dobre volje, kadar kaj snuje. Stavil bi mnogo, da je to neumnost začel zaradi Karle; pokazati ji hoče, kako je brezpomembna in kako njena navzočnost ne more niti zadržati, niti izpremeniti dogodkov. Karla je preveč izkušena, da bi ne videla tega flirta, toda obnaša se čudovito mirno. Z Ado ravna še bolj materinsko kot z malim Špancem in zdi se mi, da jo skoro ljubi. Danes popoldne sem pisal pisma v bralnici in sem slišal naslednji pogovor med njima:</p>
+            <p n="SLV30001.491">„Ali niste šli nikamor vun?“ je vprašala Ada, ko jo je našla samo pri knjigi.</p>
+            <p n="SLV30001.492">„Ne, trudna sem, spočiti se moram.“</p>
+            <p n="SLV30001.493">„Ali ste bolni? Ali pokličemo hišnega zdravnika?“</p>
+            <p n="SLV30001.494">„Ah ne, le trudna sem, pusta sem.“</p>
+            <p n="SLV30001.495">„Miss Harton je povpraševala po Vas; rekla je, da bo ob petih v kavarni na trgu Vittorio Emanuele.“</p>
+            <p n="SLV30001.496">„Ada, pustite me; danes moram biti sama.“</p>
+            <p n="SLV30001.497">„Jaz sem nesrečna, kadar sem sama. Ali Vi niste nesrečni, kadar ste sami?“</p>
+            <p n="SLV30001.498">„Ne, dragi otrok, jaz nisem nikoli nesrečna.“</p>
+            <p n="SLV30001.499">„Vse umetnice so nesrečne; ali ste Vi znamenita igralka?“</p>
+            <p n="SLV30001.500">„Saj nisem igralka. Jaz nisem nič.“</p>
+            <p n="SLV30001.501">„Ne zamerite, če sem Vas žalila. V tujski knjigi …“</p>
+            <p n="SLV30001.502">„Ah, torej sem pač igralka.“</p>
+            <p n="SLV30001.503">„Vi me ne marate; kakor z otrokom govorite z menoj.“</p>
+            <p n="SLV30001.504">„Ne, Ada; pridejo mi taki dnevi. Hotela bi, da me ohranite v dobrem spominu. Vam ne bom storila žalega.“</p>
+            <p n="SLV30001.505">„In zakaj naj bi mi storili kaj žalega?“ (Slišal sem, kako je njen tihi glas trepetal.) „Ali storite večkrat komu kaj žalega?“</p>
+            <p n="SLV30001.506">„Mnogokrat.“</p>
+            <p n="SLV30001.507">„Ali so tudi drugi ljudje Vas žalili.“</p>
+            <p n="SLV30001.508">„Mnogi, skoro vsi. Najprej so oni mene, potem sem jaz nje, huje.“</p>
+            <p n="SLV30001.509">„Ali niste nesrečni pri tem? Mislim, da nas boli, če sovražimo.“</p>
+            <p n="SLV30001.510">„Najprej boli, potem je ugodno. Potem je potreba, da sploh moremo živeti.“</p>
+            <p n="SLV30001.511">„Gospodična, ali ste nihilistka?“</p>
+            <p n="SLV30001.512">„Ne, drago dete, jaz sem poštena meščanka; naše sovraštvo je globlje, se ne razodeva v besedah in bučnih dejanjih, ampak razjeda počasi in gotovo kakor strup.“</p>
+            <p n="SLV30001.513">„Moj Bog, mislila sem, da so le v povestih ljudje, ki vse sovražijo. Vi ste strašni.“</p>
+            <p n="SLV30001.514">„Ne, ne sovražim vseh, Ada. Le izvoljene, ponosne in velike, vladoželjne. Samo ti me tudi žalijo.“</p>
+            <p n="SLV30001.515">„In ne odpuščate nikomur?“</p>
+            <p n="SLV30001.516">„Nikomur. Še nihče ni odšel brez kazni,“ je rekla zelo glasno.</p>
+            <p n="SLV30001.517">„Kakšne?“</p>
+            <p n="SLV30001.518">„Ali Vas ne motimo, gospod? Naša Ada me izpoveduje,“ se je obrnila Karla name.</p>
+            <p n="SLV30001.519">„Takoj bom končal pisanje; bojim se, da sem bolj jaz Vam na poti.“</p>
+            <p n="SLV30001.520">„Nikakor; saj nimamo skrivnosti.“</p>
+            <p n="SLV30001.521">Slučaj je hotel, da je ta trenutek pridirjal Fritz po stopnicah. V rokah je vihtel telegram.</p>
+            <p n="SLV30001.522">„Pomisli, jutri zjutraj pride Ester z materjo!“</p>
+            <p n="SLV30001.523">„Res?“</p>
+            <p n="SLV30001.524">„Ta tvoj vražji: res? Kraljestvo bi dal za drugi telegram, da pride drevi.“</p>
+            <p n="SLV30001.525">„Čigavo kraljestvo?“ sem vprašal.</p>
+            <p n="SLV30001.526">„Nebeško,“ je rekel in zopet stekel po stopnicah. „Tanti complimenti, signorina Ada,“ je še zaklical z vrha. Ada je stopila k mojemu pisalniku.</p>
+            <p n="SLV30001.527">„Kdo je ta Ester, gospod?“</p>
+            <p n="SLV30001.528">„To je njegova zaročenka.“</p>
+            <p n="SLV30001.529">Ada me je čudno pogledala, pomolčala en trenutek in potem rekla zamišljeno:</p>
+            <p n="SLV30001.530">„Vôtre ami c'est un drôle de type.“</p>
+            <p n="SLV30001.531">Pri vratih se je obrnila in ponovila:</p>
+            <p n="SLV30001.532">„En effet, un drôle de type. Povejte mu to!“ Karla je skoro ležala v naslanjaču in leno prelistavala Burlington Magazine.</p>
+         </div>
+         <div type="chapter">
+            <head>Firenze.</head>
+            <p n="SLV30001.533">„Voz čaka, gospod,“ je naznanila hišna, ko sva še bila pri zajtrku.</p>
+            <p n="SLV30001.534">„Ali ste sobo pripravili za dami, ki prideta?“ je vprašal Fritz.</p>
+            <p n="SLV30001.535">„Da, gospod.“</p>
+            <p n="SLV30001.536">„Brava, brava.“</p>
+            <p n="SLV30001.537">Stopila sva v voz. Na oknu je slonela Ada, še jutranja in malo zaspana.</p>
+            <p n="SLV30001.538">„Dobro jutro, lepa gospodična!“ je zaklical Fritz. „Croyez moi bien que je vous aime!“</p>
+            <p n="SLV30001.539">„Non, je ne vous le crois pas.“</p>
+            <p n="SLV30001.540">„Mais oui, je vous admire.“</p>
+            <p n="SLV30001.541">„Non, vous raillez.“ Bilo ji je malo na smeh, malo na jok.</p>
+            <p n="SLV30001.542">„Au contraire, je suis follement épris de vous,“ je rekel Fritz in si nategnil hlače na kolenih.</p>
+            <p n="SLV30001.543">„Ah, pohitite vendar! Vaša zaročenka bo žalostna, če Vas ne bo, ko pride.“ Sedaj ji je bilo bolj na jok kot na smeh.</p>
+            <p n="SLV30001.544">„Saj res! Daj poženi, mladec,“ je potapljal sivega kočijaža po plečih. „Devotissimo servitore, mon amie,“ se je nasmehnil proti oknu.</p>
+            <p n="SLV30001.545">„Guten Tag,“ je rekla Ada in je izginila.</p>
+            <p n="SLV30001.546">„Kajne, kako je čedna, naša Ada? V laseh še noč, jutro v očeh. Strl bi jo v pasteto, ves svet bom zgnetel v pasteto in si ga bom serviral za malico.“</p>
+            <p n="SLV30001.547">„Zakaj?“</p>
+            <p n="SLV30001.548">„Kar tako.Poglej ta dan, mon cher! Gorgona bi oživela v njem. Kaj sem storil, da me Bog kaznuje s to lepoto? Svet bom preustvaril, vse bom prenaredil. Solncu bom ukazal, naj vzhaja na zapadu.“</p>
+            <p n="SLV30001.549">„Zakaj vendar?“ Oči so mu bile tako svetle, da sem se skoro bal zanj.</p>
+            <p n="SLV30001.550">„Kar tako. Kadar bo Ester hotela pogledati na uro, bo moralo posvetiti ob polnoči. Kadar bo hotela senco in mrak, da jo poljubim, bom ukazal, da zaide opoldan. Zvezdam bom rekel, naj rojijo krog najinih glav kakor roj kresnic. Rimski cesti bom zapovedal, naj se poniža do najinih nog. Če pojdeva skoz puščavo, bom rekel, naj rodi drevje in naj stresa na naju cvetje in tihoto z mogočnimi vonji. Kjer sedeva, bom velel, naj bo nad nama senčna trta z zorečim grozdjem. Kadar bo spala, bom ukazal, naj iz jasnega neba prše dišave neodkritih dežel, gore naj bodo črne z zelenimi snegovi. Michelangelov David bo stražil njeno spalnico in Medicejska Venus ji bo pred vrati snažila čevlje.“</p>
+            <p n="SLV30001.551">Govoril je vso pot, prav do kolodvora. Nikdar ga nisem videl v taki živčni napetosti in ljudem, ki ga ne poznajo, bi se moral zdeti napol blazen. Na peronu mi je še rekel, ko je prihajal vlak v postajo:</p>
+            <p n="SLV30001.552">„Odpravil bom vsa prometna sredstva. Prenašali se bomo z voljo in z naglico misli, ki ljubijo.“</p>
+            <p n="SLV30001.553">Medtem se je vlak ustavil; Fritz je motril tujce s polzaprtim levim očesom. Meni je bilo sitno, da sem se vdal in šel na kolodvor, „da bo slovesnost večja“.</p>
+            <p n="SLV30001.554">„Tam je,“ je rekel Fritz.</p>
+            <p n="SLV30001.555">Tudi sam sem jo opazil. Prihajala je malo nervozno, toda z istim počasnim korakom, ki ga je znal Fritz tako smešno oponašati. Oslabela je bila od tistega časa, kar sem jo videl na Dunaju; ostri zarezi ob ustih so jo delali naravnost staro. Za njo se je smehljala njena mati.</p>
+            <p n="SLV30001.556">„Grda je,“ je zašepetal Fritz in je bil v trenutku ves drugačen.</p>
+            <p n="SLV30001.557">„Grda ni,“ sem rekel začuden.</p>
+            <p n="SLV30001.558">„Naravnost grda je, mein Schatz.“ Potem smo se pozdravili.</p>
+            <p n="SLV30001.559">„Kako imaš mrzlo roko,“ je rekel Fritz Esteri.</p>
+            <p n="SLV30001.560">„Zadnji čas so mi roke vedno tako mrzle; če si jih denem na čelo, se mi zde kakor mrzle in opolzle kače. Mislim, da je slabokrvnost,“ je rekla zelo enostavno in smehljaje.</p>
+            <p n="SLV30001.561">„Torej kam?“ je vprašala gospa.</p>
+            <p n="SLV30001.562">„Voz čaka pred kolodvorom; sobo sem naročil v naši pensiji. Ali je prav?“</p>
+            <p n="SLV30001.563">„Prav.“</p>
+            <p n="SLV30001.564">Pot domov je bila sitna. Vsi smo bili kakor v zadregi. Fritz je govoril malo in je še tedaj gledal skoz okno.</p>
+            <p n="SLV30001.565">„Kaj je s teboj, Fritz? Izpremenil si se,“ je enkrat rekla Ester.</p>
+            <p n="SLV30001.566">„Nekaj ni v redu; mislim, da bom dobil mrzlico,“ je odgovoril in gledal skoz okno.</p>
+            <p n="SLV30001.567">Ester je molčala in ga dolgo gledala.</p>
+            <p n="SLV30001.568">Ko sta odšli v svojo sobo, da se preoblečeta, je tudi Fritz hitel, skoro bežal v svojo. Pred vrati sem ga ujel za roko:</p>
+            <p n="SLV30001.569">„Kaj ti je?“</p>
+            <p n="SLV30001.570">„Grda je. Sram me je. Zaspan sem.“</p>
+            <p n="SLV30001.571">Potem je zaloputnil vrata za seboj in jih zaklenil.</p>
+         </div>
+         <div type="chapter">
+            <head>Firenze.</head>
+            <p n="SLV30001.572">Danes smo proti večeru potoma krenili v konditorijo. Jaz sem spremljal gospo, Fritz je šel zadaj z Estero; bila sta obadva zelo resna. Pri mizi ji je Fritz nadaljeval:</p>
+            <p n="SLV30001.573">„So ljudje, ki enostavno nimajo dovolj zbranosti za zakonsko življenje, ki imajo preveč opraviti sami s seboj, da bi mogli z resnobo misliti na druge. Kako bo človek ljubil in ščitil druge, če sam sebe neprenehoma z nožem zalezuje? Ne vem, če dobro razumeš položaj takega človeka. On je razvožena cesta, ki pelje preko udrtih mostov; kdor je ne pozna, si zlomi vrat na njej. Takega človeka ni mogoče poboljšati, če mu ne preustvariš narave.“</p>
+            <p n="SLV30001.574">„Značaja pač?“ je vprašala Ester tiho.</p>
+            <p n="SLV30001.575">„Kar hočeš, saj mi ni za besedo. Tak človek ni za življenje. Njemu je pri srcu, da bi vsak dan najrajši pel take pesmi:“</p>
+            <p n="SLV30001.576">Sklonil se je nad mramorno mizo in jel pisati; Ester je polglasno brala vrstico za vrstico:</p>
+            <p n="SLV30001.577">
+               <l>Slep biti je premalo in predobro.</l>
+               <l>Še gluhonem bi bil presrečen.</l>
+               <l>Več, več. S slastjo bi gledal,</l>
+               <l>kako mi sahne roka,</l>
+               <l>minuto za minuto, dan za dnem,</l>
+               <l>desnica, ki sem držal z njo pero,</l>
+               <l>ki z njo načenjam kruh,</l>
+               <l>ki z njo sem dvigal glavo ženi ljubljeni,</l>
+               <l>da ji poljubim čelo,</l>
+               <l>ki sem iztezal k zvezdam jo</l>
+               <l>in širil jo čez polja v hrepenenju,</l>
+               <l>ta živi, gibčni ud, ki sem jaz sam.</l>
+               <l>Slasti premalo. Odprl bi si črepinjo</l>
+               <l>z ljubeznijo kot krasotica</l>
+               <l>svoj biserni tok, zakladnico lepote,</l>
+               <l>v krvavem smradu bi možgan užival</l>
+               <l>in kopal bi se v njem, nosnice širil,</l>
+               <l>z zobmi bi šklepetal slasti.</l>
+               <l>Razdeval bi jih kos za kosom,</l>
+               <l>gnojišče kužno misli, leglo blaznosti,</l>
+               <l>studenec strupa, ki kaplje ne potratijo;</l>
+               <l>razdel bi jih; tedaj bi glavi rekel:</l>
+               <l>Zdaj vredna si življenja. Živi!</l>
+            </p>
+            <p n="SLV30001.578">Videl sem, kako je bleda Ester pri zadnjih verzih še bolj prebledela.</p>
+            <p n="SLV30001.579">„Kake neumnosti so to, Fritz? Ne razumem Vas,“ mu je rekla gospa strogo.</p>
+            <p n="SLV30001.580">„To so slabi dovtipi, ma chère maman. Prosim Vas, dogovorite se z mojim prijateljem, kam pojdemo jutri.“</p>
+            <p n="SLV30001.581">Gospa ga je še enkrat strogo pogledala – videl sem, da ga bolj ljubi, kot zasluži – in se obrnila k meni.</p>
+            <p n="SLV30001.582">„Glava ni pri vsem tem nič kriva, Fritz, ampak srce,“ je rekla Ester.</p>
+            <p n="SLV30001.583">„Torej srce; dejal sem ti, da mi ni za besede.“</p>
+            <p n="SLV30001.584">„Ne, to je zelo važno. Ta pesem je slaba.“</p>
+            <p n="SLV30001.585">„Taka mora biti.“</p>
+            <p n="SLV30001.586">„Človek, ki bi vsak dan posebe pel take pesmi, bi se vsak dan posebe motil v lastni diagnozi. Bolezen ni v mišljenju, ampak v življenju.“</p>
+            <p n="SLV30001.587">„Imaš me za ničvrednega človeka, Ester. Dobro je, da se jasno in javno zmeniva, zlasti ker se nemara ne motiš.“</p>
+            <p n="SLV30001.588">„Ne mislim ravno tega. Tisti človek ni ničvreden, ampak slaboten. Kako meniš, ali je storil veliko težavnih reči?“</p>
+            <p n="SLV30001.589">„Pač. Ne, mislim, da ni. Najtežje stvari, ki jih je izvršil, bodo soneti.“</p>
+            <p n="SLV30001.590">„Morda še kaj težjega, toda ne veliko težjega. Ali se je kdaj samovoljno odpovedal kaki želji?“</p>
+            <p n="SLV30001.591">„Težko, da se je kateri.“</p>
+            <p n="SLV30001.592">„Ali je kdaj prevzel nase veliko žrtev, da naredi drugemu majhno veselje ali da mu prihrani majhno žalost?“</p>
+            <p n="SLV30001.593">„To je skoro izključeno. Slabo bi ga moral poznati, da bi mu prisodil kaj takega.“</p>
+            <p n="SLV30001.594">„Ali kdaj leže žalosten v postelj in si pravi: danes nisem storil nič dobrega?“</p>
+            <p n="SLV30001.595">„O pač. Dan in noč si ponavlja te besede.“</p>
+            <p n="SLV30001.596">„Ta človek ni ničvreden. Ali kdaj vstane in si pravi vesel: danes me čaka velika naloga?“</p>
+            <p n="SLV30001.597">„Ne. Nima nalog.“</p>
+            <p n="SLV30001.598">„Kako, da se nikoli ne vpraša: zakaj sem?“</p>
+            <p n="SLV30001.599">„Saj se vpraša in ne najde odgovora.“</p>
+            <p n="SLV30001.600">„Dokler ne odgovori z dejanjem, ni odgovora.“</p>
+            <p n="SLV30001.601">„Ali so dejanja težka?“</p>
+            <p n="SLV30001.602">„Pravijo, da so od začetka težka; potem so lahka. Potem postanejo življenjska potreba. Potem so vse reči v življenju velike. Potem se ne šali več z drugimi ljudmi, da sebe kratkočasi. Toda, Fritz, ti si mi bil v Florenci nezvest!“</p>
+            <p n="SLV30001.603">„Ne vem.“</p>
+            <p n="SLV30001.604">„Signorina Ada se pritožuje nate. Svarila me je pred teboj,“ se je žalostno smehljala Ester.</p>
+            <p n="SLV30001.605">„Ah, Ada! Ali je mislila resno?“</p>
+            <p n="SLV30001.606">„Vsi dobri ljudje mislijo resno; krivico si ji storil.“</p>
+            <p n="SLV30001.607">„Drugim sem jih več. Bojim se, da jo bom tudi tebi.“</p>
+            <p n="SLV30001.608">„Ne boj se!“</p>
+            <p n="SLV30001.609">„Ali hočeš, da pripišem pesmi dva verza?“</p>
+            <p n="SLV30001.610">„Kako?“</p>
+            <p n="SLV30001.611">„Tako:</p>
+            <p n="SLV30001.612">
+               <l>Vzemi mojo roko, draga,</l>
+               <l>in me vodi. Ti vidiš.“</l>
+            </p>
+            <p n="SLV30001.613">„Ne. Vso pesem bi moral izpremeniti.“</p>
+            <p n="SLV30001.614">„Moje pesmi izidejo pri Vischerju. Ali hočeš, da ti jih posvetim in jim postavim ta motto?“</p>
+            <p n="SLV30001.615">„Zelo ljubezniv bi bil.“</p>
+            <p n="SLV30001.616">Videl sem, kako je z naporom pod mizo izvila svojo roko iz njegove.</p>
+            <p n="SLV30001.617">„Vidiš, treba je, da je človek pameten.“</p>
+            <p n="SLV30001.618">„Treba je,“ je rekel Fritz. „Plačat!“</p>
+            <p n="SLV30001.619">Z gospo sva se bila tačas zmenila, da pojdemo dopoldne na Viale dei Colli in popoldne v Fiesole.</p>
+         </div>
+         <div type="chapter">
+            <head>Firenze.</head>
+            <p n="SLV30001.620">Tamburin je zapel in pretrgal dolgo čakanje pred večerjo. Vrata na hodniku so se jela odpirati in zapirati, ljudje so hodili po stopnicah v obednico; nekateri so si že spotoma snažili nohte. V vestibulu sem našel Fritza nad tujsko knjigo.</p>
+            <p n="SLV30001.621">„Schmitt je tukaj,“ mi je rekel.</p>
+            <p n="SLV30001.622">„Kateri Schmitt?“</p>
+            <p n="SLV30001.623">„Bazelski profesor vendar. Staronemški in nizozemski. Nabodel ga bom.“</p>
+            <p n="SLV30001.624">„Glej, kako ugoden slučaj,“ sem rekel in odšel proti obednici. Fritz se je ustavil pred ogledalom in mrmraje pel „Cara mia, tanti anni …“ Ta pesem je sedaj nova ter gre z nama po vseh ulicah in mestih.</p>
+            <p n="SLV30001.625">Po večerji ga je res „nabodel“. Ko sem stopil v bralnico, je njegov pogovor s profesorjem jel zanimati že vso družbo; tisti, ki se jim je zdel dolgočasen, so se bili razgubili na vrtu za hišo; semintja je zadonel njih smeh gor k nam in enkrat smo razločno slišali, kako je signorina Ada veselo vzkliknila v svoji švicarski izgovarjavi: „Und da heißt's: die ganze Welt ist zum Verzweifeln langweilig!“ To nas ni motilo. Fritz je imel zopet enega svojih najzgovornejših dnevov in je izbiral krepke izraze, živahno mahajoč pred Schmittom, ki je ležal v naslanjaču z nemško entre-acte cigaro v širokih ustih. Ko sem vstopil, je Fritz ravno končal z besedami „elendiges Gelehrtenpack“.</p>
+            <p n="SLV30001.626">„In vendar je tako,“ je rekel profesor in predél levo nogo na desno. „Narave stvari in našega spoznanja ni mogoče izpremeniti.“</p>
+            <p n="SLV30001.627">„Toda čemu potem vsa veda? Kakšen namen ima vse to? Zakaj tratimo čas? In če je že tako, da časa sploh ne moremo koristno porabiti in ga moramo izpolniti s kakršnimikoli skrbmi, zakaj zapravljamo tudi denar? Za malenkost, ki ni vredna, da bi človek trenil z očesom zaradi nje, ki ni vredna truda, kolikor ste ga imeli sedaj, da ste otresli pepel s cigare, izrabite sto sil svojega duha, prepotujete pol Evrope, kupite za tisočak knjig in zamudite nešteto veselja in dobrih užitkov. Jaz bi rajši …“</p>
+            <p n="SLV30001.628">„In kaj pravzaprav …?“ je začel profesor začudeno.</p>
+            <p n="SLV30001.629">„… tiste ure in tisti denar zapravil …“ je nadaljeval Fritz in ni dal Schmittu izgovoriti.</p>
+            <p n="SLV30001.630">„Oprostite, sem mislil, da ste končali,“ je dejal profesor s tiho ironijo.</p>
+            <p n="SLV30001.631">„Nisem. Torej bi si naročil rož in sekta in nališpanih žensk in bi imel veselo družbo. Ko bi mi začeli lasje izpadati, bi si pomel roke in bi rekel: 'Neumno življenje sem živel, pa prijetno.'“</p>
+            <p n="SLV30001.632">„Ne,“ je rekla miss Harton, „to ima še manj zmisla. Kadar mine, je itak vseeno, kako je bilo.“ Ester je sedela za svojo materjo in je preko njene rame gledala na Fritza. Ne mogel bi reči, kaj je bilo v njenih očeh; bile so, kakor bi se ponosno smehljale, in vendar so bile žalostne.</p>
+            <p n="SLV30001.633">„Toda kaj zahtevate od učenjakov? Če me vprašate, kak namen ima naše raziskavanje, Vam moram reči,“ je odgovoril profesor, „da izključno tega: zadostiti našemu nagonu po spoznanju, odgovoriti na vprašanja, ki se mi vsiljujejo. Ta vprašanja so …“</p>
+            <p n="SLV30001.634">„Da, ta vprašanja so pri vas druga in pri nas zopet druga. Vi odgovarjate na vprašanja, ki jih ne stavljamo, in molčite, kadar je odgovor potreben. Jaz vas vprašam, kaj je pravzaprav umetnost, in vi mi odgovarjate: Skopas je imel očeta, bilo mu je morda Aristandros ime. In če vas prosim: Jaz sem že ves zmeden, nič več ne vem, kaj je lepo in kaj ni, mi pravite, da se pečate z vezavo knjig v šestnajstem stoletju. Vse je razbito, vse mišljenje razdejano. Kakor tatovi se plazite mimo prvotnih vprašanj, mimo praproblemov in iščete v smrdljivih zakotjih novih. Najhujše je to, da to strokovnjaštvo od dne do dne bolj spoštujemo, da ste nas okužili z občudovanjem; če bi imel toliko energije, da bi se lotil kakega vprašanja, bi ga, menim, tudi sam toliko časa tesal in pilil, da razpade v prah, kakor delate vi. Hotel bi zvedeti, po katerih zakonih se je umetnost razvijala do danes in kaj nam ta razvoj prerokuje za bodočnost, ter bi končal z raziskavanjem o dvotračnem okrasku.“</p>
+            <p n="SLV30001.635">Bil je zardel vsled govorjenja in neenakomernega dihanja. Ne vem, ali je sam čutil, kako nespametne so njegove besede, toda zdi se mi, da večkrat pretirava samo zato, da mu drugi pobijejo dvome, ki mu ne dajo miru. Nam vsem je bilo neprijetno, da stoji tu sredi sobe kot vsevedni in vsepravični sodnik; njegovo obnašanje nasproti Schmittu je bilo nesramno tem bolj, ker je bilo v vsem, kar je govoril, le drobec resnice in vse drugo le strahovi človeka, ki ni navajen mirno misliti. Jaz sem se zopet čudil gotovosti in odločnosti, s katero izraža svojo sodbo. Nerazumljivo mi je, kako more človek, ki je tako brezpogojno odkritosrčen nasproti samemu sebi, kot je Fritz, ki je navajen tako podrobno kontrolirati vsako svojo misel in vsako čuvstvo in ki je prav vsledtega tako razjeden od notranjih, neizraženih dvomov, da sploh ne more več jasno soditi niti o svojih čuvstvih, niti o svojih dejanjih ter se že brez odpora redoma vdaja hipnim domislekom in nepreračunljivim nagonom, kako more s tako odločnostjo braniti svoje mnenje in posmehljivo napadati vse druge, ki ne mislijo tako.</p>
+            <p n="SLV30001.636">„Zadnji stavek je gotovo resničen,“ je odgovoril profesor z nasmehom. „Hoteli boste odkriti vrhovne zakone ne samo umetnosti, ampak življenja in boste vsled logične nujnosti prišli do tega, da boste preiskavali najenostavnejše. Vsi mi, dragi moj, smo šli v vedo z nagonom Kolumba, hoteli smo odkriti Novi svet. In potem se nam je godilo vsem enako: ravno ko smo hoteli pluti, smo opazili, da nimamo ladij. Da, da, prijatelj moj, mlademu človeku je prav tako dano, da išče sinteze, kakor da raste, toda ko neha rasti, spozna tudi, da je za enkrat še potrata časa iskati sinteze. Potem je pa tudi veliko vprašanje,“ je rekel profesor tiho in mračno ter vrgel ogorek cigare v pepelnjak, „ali nam je sojeno, da sploh kdaj pridemo do sinteze. Bojim se, da nam ni sojeno.“</p>
+            <p n="SLV30001.637">Ester je stopila k Fritzu.</p>
+            <p n="SLV30001.638">„Pojdiva na vrt,“ mu je rekla. On jo je samo prijel za roko in je ni pogledal.</p>
+            <p n="SLV30001.639">„Tešemo si torej ladje zato, da ne odplujemo?“ je vprašal in v očeh se mu je posvetilo. Ester je bila umaknila svojo roko iz njegove.</p>
+            <p n="SLV30001.640">„Meni se nikakor ne zdi tako strašno,“ je rekla Karla in pogledala izza knjige Fritzu naravnost v oči, „če moramo ostati doma. Stvar je vendar zelo enostavna. Treba je samo, da se človek samega sebe privadi, da ne teži za nedosegljivim, da nima otročjih, neumnih želja. Zakaj bi iskali vsepovsod pravzrokov in prazakonov? Vsakdo naj si uredi bivanje v sebi po svoje. Profesor se zanima za Dürerja, miss Harton se peča z etnografijo in zgodovino nravnosti, gospodična Ester ne vem s čim, jaz sedaj s tem, sedaj z onim. Če vzamemo vse tako, kakor je, in če se znamo obvladati, da nismo preveč resni in ognjeviti, se da dovolj prijetno živeti.“</p>
+            <p n="SLV30001.641">„Torej sem imel prav; vseeno je, ali potujem v Rim, ali si naročim vina, rož in … (hotel je reči 'nališpanih žensk') drugih reči?“ Kar smo odšli iz Milana, sem prvič videl, da govori s Karlo.</p>
+            <p n="SLV30001.642">„To je stvar okusa,“ je odgovorila.</p>
+            <p n="SLV30001.643">„Jaz nisem tega rekel, gospodična,“ je dejal profesor. „Trdil sem samo …“</p>
+            <p n="SLV30001.644">„Ah, Vi ste cinični!“ je rekla miss Harton Karli. „Saj vendar ni vseeno, ali delam dobro ali slabo, in to ne more biti stvar okusa.“</p>
+            <p n="SLV30001.645">„Trdil sem samo,“ je nadaljeval profesor, „da moremo nekatere stvari popolnoma jasno spoznati; da jih pa spoznavamo, nas sili prirojen nagon. Kako širok je krog našega spoznanja – in tu je jedro našega prejšnjega pogovora.“</p>
+            <p n="SLV30001.646">„Jedro pogovora je to,“ ga je prekinil Fritz, „da mene ne zanima, kar Vi spoznavate, ter da ne vidim razlike med Vašim nagonom in svojim, ki mi pravi, naj življenje zaveseljačim; res je vse stvar okusa.“</p>
+            <p n="SLV30001.647">„No torej!“ je rekla Karla prezirljivo.</p>
+            <p n="SLV30001.648">„Fritz!“ je vzkliknila Ester tiho in prestrašeno, kakor nehote.</p>
+            <p n="SLV30001.649">„To je grozno,“ je rekla miss Harton, vsa nemirna; „potemtakem tudi ne moremo več govoriti o …“</p>
+            <p n="SLV30001.650">„Da se prav razumemo,“ je rekel profesor glasneje, „moram poudariti …“</p>
+            <p n="SLV30001.651">„Sedaj ne razumem nič več,“ se je prostodušno nasmejal Montañes, ki je sedel poleg Karle ter kazal svoje bele zobe. „Prosim Vas, dajte mi cigareto,“ se je obrnil do Fritza, „meni so pošle. Čutim tak nagon.“</p>
+            <p n="SLV30001.652">Rekel je to kot dovtip, toda nihče se ni nasmejal. Govorili so vsi naenkrat in se niso več poslušali.</p>
+            <p n="SLV30001.653">„Pojdiva na vrt,“ je rekla Ester zopet.</p>
+            <p n="SLV30001.654">„Pojdiva na vrt,“ se je prekinil Fritz sredi začetega stavka in se takoj obrnil proti vratom.</p>
+            <p n="SLV30001.655">„Ogrni se, Ester!“ ji je zaklicala mati.</p>
+            <p n="SLV30001.656">„Ne, saj je toplo,“ se je nasmehnila Ester od vrat.</p>
+            <p n="SLV30001.657">„In ne ostajaj zunaj predolgo. Hladno je.“</p>
+            <p n="SLV30001.658">Profesor je gledal zadovoljno za Fritzom, in ko so se vrata zaprla, je dejal proti družbi: „Morda bo popolnoma dober delavec, kadar se unese.“ Pogovor je polagoma prešel na druge stvari, le miss Harton je še želela nekaterih pojasnil. Ko smo se menili o vsakdanjih stvareh, nam je bilo prijetneje.</p>
+            <milestone type="subChapter" rend="asteriskes" unit="asterisk"/>
+            <p n="SLV30001.659">Gospa je čez nekaj časa postala nemirna in je venomer pogledovala proti vratom. Slednjič je vstala:</p>
+            <p n="SLV30001.660">„Predolgo je ni nazaj, prehladila se bo,“ je rekla in mislila na Ester. „Ali gremo na vrt k drugim? Ali morda še ostanete tukaj?“</p>
+            <p n="SLV30001.661">Pogovor je že bil zelo nezanimiv (nihče ni več hotel resno odgovarjati na pomisleke gospodične Harton) in tako sem šel na vrt. O njem pravi naša hišna gospodinja: „Bog je najprej ustvaril moj vrt, ko je pa videl, da je presamoten in brez okolice, je ukazal sezidati Firenze.“ Fritz sicer trdi, da je to z zgodovinskega stališča nemogoče, toda v Firenzi vendar ni veliko hiš, ki bi imele take vrtove. Na dveh straneh meji na poslopje, na drugih dveh je obdan z razmerno nizkim zidom. Vse steze so tako ozke, da moreta hoditi le dva človeka vštric, samo v sredi, kjer se stekajo, je majhna krožina, nekoliko prostornejša. Ves vrt je zasajen samo z vrtnicami; toliko jih je, da človek sploh ne opazi drugih rož, ki rastejo pod njimi. Kadar so vse v polnem cvetju, mora biti ta mali prostor prečudno lep. Sedaj cvetejo zadnje, toda kadar gremo po vrtu, nam je vendar prijetno pri srcu; že zavest, da so vsepovsod vrtnice krog nas, je laskava.</p>
+            <p n="SLV30001.662">Večer je bil hladen, pa ne mrzel, in zelo jasen. Na nebu je bilo mnogo zvezd; bilo jih je toliko, da se je zdelo, kakor bi živele tiho, pa zelo intenzivno življenje med seboj, popolnoma različno od našega. Iz kotov so se slišali pogovori posameznih družb in semintja se je zasvetil v temi ogenj cigare kakor velika kresnica. V hiši so se spravljali najzgodnjejši spat, nekaj oken je bilo svetlih in včasi se je prikazala razgaljena roka, ki je hrupno in naglo potegnila zagrinjalo dol. Zunaj na ulici je včasi priropotal tramvaj mimo, včasi se je oglasila od blizu ali daleč pesem del amooreee in brnenje mandoline, koraki in pogovor ljudi, ki so hodili mimo. Toda tudi to življenje nam je bilo nekako tuje; kakor nekaj nerealnega je bila ta slučajna družba v gaju vrtnic.</p>
+            <p n="SLV30001.663">Fritz in Ester sta hodila po stezi ob ulici. Ko sta naju zagledala, sta nama prišla naproti.</p>
+            <p n="SLV30001.664">„Ester, čas je,“ je rekla gospa.</p>
+            <p n="SLV30001.665">„Da, čas je. Hotela sva ravnokar priti gor. Glejte, kako je lep večer,“ se je obrnila k meni. „Tista zvezda je moja, danes je zelo svetla. Ali vidite?“</p>
+            <p n="SLV30001.666">„Katera?“ je vprašal Fritz in je stopil tesno k njej.</p>
+            <p n="SLV30001.667">„Glej v smeri moje roke! Najprej sta dve skupaj, potem jih je pet – malo više – razmetanih in v sredi med njimi je ena sama. Ali vidiš?“</p>
+            <p n="SLV30001.668">„Ne.“</p>
+            <p n="SLV30001.669">„Glej vendar v smeri moje roke,“ je ponovila Ester in stopila na prste, kakor bi hotela doseči nebo.</p>
+            <p n="SLV30001.670">„Jaz vidim samo dve, veliki in zelo svetli. Najsvetlejši.“</p>
+            <p n="SLV30001.671">„Ah!“ je vzkliknila Ester, ko je videla, da ne gleda na nebo, ampak njej v oči. „Lahko noč!“</p>
+            <p n="SLV30001.672">„Lahko noč! Lahko noč!“ Podali smo si roke.</p>
+            <p n="SLV30001.673">„Čakaj, Ester, georgino ti vtaknem v lase,“ je še rekel Fritz, se sklonil za njeno glavo, ji pripel rožo in jo hitro poljubil na lase.</p>
+            <p n="SLV30001.674">„Lahko noč torej, mesdames!“ je rekel in ji še enkrat podal roko, ter jo zadržal, dokler je mogel.</p>
+            <p n="SLV30001.675">„Po vaši debati v bralnici mi je gospa rekla pametno besedo o tebi,“ sem mu dejal, ko sva ostala sama.</p>
+            <p n="SLV30001.676">„No?“ je vprašal ravnodušno, dasi sem večkrat opazil, da rad sliši tuje sodbe o sebi kakor vsi ljudje, ki se sami s seboj veliko pečajo.</p>
+            <p n="SLV30001.677">„Rekla je, da si pizanski stolp, ki je ponosen na to, da visi, in ve, da je to njegova glavna zanimivost.“</p>
+            <p n="SLV30001.678">„Primera bi bila dobra, če bi bila še resnična. Jaz sem tačas, dokler je maman iskala besedo za moj značaj, že našel ravnovesje in sem lepo pokoncu. Tista debata je bila neumna in nepotrebna; dal sem si častno besedo, da ne bom nikdar več govoril o takih stvareh. Vedno se mi zdi, da nihče ne misli popolnoma resno tega, kar govori, in da je vse prerekanje samo maskerada; pod našimi besedami živi drugi človek, ves različen od govorečega, in si ne upa na dan, in vsa njegova vprašanja so samo eno: Kako naj živim, da mi bo dobro?“</p>
+            <p n="SLV30001.679">„Govoriš tako, kakor bi ti bil odgovor že zdavnaj jasen.“</p>
+            <p n="SLV30001.680">„Glej, Ester ima za domačo porabo majhno teorijo o srečnem življenju …“ je nadaljeval smehljaje.</p>
+            <p n="SLV30001.681">„Novo teorijo o srečnem življenju?“ sem se ustrašil.</p>
+            <p n="SLV30001.682">„Ne vem, če je popolnoma nova. Je nekoliko mistična, znanstveno premalo utemeljena, toda praktično morda porabna, ker čutim, kako sem miren, kadar jo poslušam, in nič več ne premišljujem, zakaj jem, spim, diham in hodim, prestavljaje nogo za nogo. Ester vpliva name kot pomlad. Čudna se mi zdi samemu tista siva in gnusna praznota prejšnjega življenja, ko sem se iskal in se nisem mogel najti, ko so mi bili vsi ljudje zoprni in dolgočasni in se mi je zdelo, kakor bi že zdavnaj enkrat slišal, kar govore, tako da ni imelo zame poslej nobenega pomena več, naj so trdili karkoli. Ljubim jo neizmerno, ti tega ne moreš razumeti. Če ji gledam v oči, vidim, da je vse izpolnjeno, kar sem čakal, in ko bi se ne poznal tako dobro, bi rekel, da se je svet prenaredil. Ti tega ne moreš razumeti.“</p>
+            <p n="SLV30001.683">„Rekel si že enkrat.“ Moram priznati, da mi je bilo zelo neprijetno.</p>
+            <p n="SLV30001.684">„In ponavljam. Mislim, da se mi ne more nič hudega zgoditi, če je ona poleg mene. Znal bi se odreči najslajšemu in nase popolnoma pozabiti. Znal bi odpustiti sovražniku in poljubiti človeka, ki bi me prosil, naj mu napišem delavsko himno.“</p>
+            <p n="SLV30001.685">„Tudi Karli si odpustil? Govorila sta danes.“ Fritz je moral slišati, da je bilo malo ironije v tem, ker ima preobčutljivo uho, pa ni vzkipel, samo pogledal me je izpod čela.</p>
+            <p n="SLV30001.686">„Da, nagovoril sem jo, ker sem bil jaz kriv pred njo, ne ona pred mano. Ni mi ljubo, če se spomnim milanskih dni. Toda lepa je, dragi, lepa je; ko bi ne bilo Estere tukaj, bi še ne bilo konca.“</p>
+            <p n="SLV30001.687">„Ali se svet ni prenaredil?“</p>
+            <p n="SLV30001.688">„Ne, Karla je ostala. Ko sem ji pogledal v tiste čudne, poševne oči, ki so kakor tekoča voda, vedno izpremenljiva in vedno ista, sem zopet čutil, da se mi vrti v glavi, kakor dim ali prva cigareta zjutraj. Ne smem ji gledati v oči, ni prav. Govoril sem z njo, kakor s teboj, in vidim, da je človek kakor drugi … ne, mislim, da ni nič izrednega in skrivnostnega na njej, kakor sem prej menil. Ne vem, ali me razumeš.“</p>
+            <p n="SLV30001.689">„Ne popolnoma.“</p>
+            <p n="SLV30001.690">„Saj je vseeno.“</p>
+            <p n="SLV30001.691">„Ali greva gor?“ sem vprašal.</p>
+            <p n="SLV30001.692">„Da, pojdiva gor,“ je odgovoril mehanično in se obrnil v nasprotno stran. „Glej, tam je Esterina spalnica.“</p>
+            <p n="SLV30001.693">Skoz okno se je videla le medla luč nočne svetilke.</p>
+            <p n="SLV30001.694">„Sedaj se je razpravila in moli. Ali je morda že končala, ima obedve roki pod glavo in misli z odprtimi očmi. Ne, pojdiva gor.“</p>
+            <p n="SLV30001.695">Ko sva šla mimo velike vrtnice v kotu ob hiši, se je nasmehnil in rekel:</p>
+            <p n="SLV30001.696">„Gnezdo.“</p>
+            <p n="SLV30001.697">„Da,“ sem ga pogledal in se nasmehnil brez vzroka tudi jaz; bilo mi je toplo v prsih, kakor če koga nesebično ljubim. V veliki vrtnici je stalo zapuščeno slavčevo gnezdo, o katerem pripovedujejo gostom več lepih anekdot.</p>
+         </div>
+         <div type="chapter">
+            <head>Firenze.</head>
+            <p n="SLV30001.698">Ko mi je Fritz danes zjutraj podal roko, je bil na njegovem obrazu po dolgem času zopet tisti zaničljivi in samozavestni nasmeh.</p>
+            <p n="SLV30001.699">„Vischer mi je torej vrnil pesmi. Kako si spal?“</p>
+            <p n="SLV30001.700">„Ali ti jih je vrnil? To je nerodno.“</p>
+            <p n="SLV30001.701">„Nerodno ni, občudovanja vredni! Sitno mi je le, da ne vem, zakaj sem jih pisal. Kako si spal?“</p>
+            <p n="SLV30001.702">Fritz ni izmed tistih ljudi, ki pišejo zgolj zato, ker so navajeni in čutijo potrebo, kakor čutijo drugi potrebo prijateljstva ali izpovedi, in ki je stvar zanje končana, kadar so napisali, kar so hoteli. Videl sem, da so mu bila lica zardela in da je bila tenka, skoro prozorna koža pod njegovimi očmi upadla.</p>
+            <p n="SLV30001.703">„Kaj piše Vischer?“</p>
+            <p n="SLV30001.704">„Kaj naj piše? To je vendar vseeno.“</p>
+            <p n="SLV30001.705">„Zdi se mi, da so pesmi ...“</p>
+            <p n="SLV30001.706">„Naj se ti o pesmih nikar nič ne zdi, mož dobrega okusa! Studijo se mi samemu. Vprašam te le, zakaj sem jih pisal?“</p>
+            <p n="SLV30001.707">„Vsega je dosti v njih, samo srca ni nikjer.“</p>
+            <p n="SLV30001.708">„Srca? Pač, to besedo sem nekoč slišal. Srce? Ta zvok mi ni popolnoma neznan.“</p>
+            <p n="SLV30001.709">„In če ga nimamo, si ga moremo za poezijo izmisliti.“</p>
+            <p n="SLV30001.710">„Tako, sedaj mi je vse jasno. Tu tiči moja tragična krivda. Tvoj poklic je vedeževanje. Kako naj postanem Aleksander Veliki, dokler nisem zaklal nobenega prijatelja? Gotovo je, da se ne smem več briti, potem bom z lahkoto napisal Mir in vojno. Ali boš jutri zvečer doma?“</p>
+            <p n="SLV30001.711">„Zakaj?“</p>
+            <p n="SLV30001.712">„Praznujemo Adin rojstni dan. Napisal bom prigodnico in jo deklamiral.“</p>
+            <p n="SLV30001.713">Tedaj je prišla Ester z materjo od zajtrka.</p>
+            <p n="SLV30001.714">„Ali nas spremiš v Bargello?“ mu je rekla, ko mu je podala roko.</p>
+            <p n="SLV30001.715">„Mi ni mogoče. Moram v kavarno. Štirinajst dni nisem videl nobenega časopisa; zaostal bom za časom.“</p>
+            <p n="SLV30001.716">„Tedaj se vidimo zvečer.“</p>
+            <p n="SLV30001.717">„Moram v kino.“</p>
+            <p n="SLV30001.718">„Kaj je?“ Videl sem, da je pozorno pogledala in lahno zardela.</p>
+            <p n="SLV30001.719">„La nave. Film stane sedemstotisoč.“</p>
+            <p n="SLV30001.720">„Ne, kaj je? Kaj ti je?“</p>
+            <p n="SLV30001.721">„Kaj bi bilo in kaj naj je meni?“</p>
+            <p n="SLV30001.722">Mislim, da je potrt, ker je obupal nad seboj.</p>
+         </div>
+         <div type="chapter">
+            <head>Firenze.</head>
+            <p n="SLV30001.723">Sklenil sem, da odpotujem čimprej. Mesta se sicer nisem naveličal, zdi se mi celo od dne do dne lepše, toda vse drugo je neznosno. Bolje je, da odidem in se ustavim še enkrat tukaj, kadar se bom vračal domov. Fritz je od jutra, ki sem ga prej omenil, ves hudoben; ne smem mu gledati v oči, če hočem mirno govoriti, in že njegova navzočnost me draži. Neumno govori in se zaničljivo smehlja. Smehlja se sebi, in ko vidi, da so drugim njegove besede neprijetne in da jih njegov smehljaj bega, se smehlja drugim. Ta smehljaj je krčevit, je le v mišicah, ne v očeh. Vse njegove misli so polne trnja.</p>
+            <p n="SLV30001.724">„Ti si že večkrat mislil, da boš zblaznel,“ mi pravi. „Upal si, da prideš ob pamet. Menil si, da bodo ljudje tedaj šele visoko cenili tvojo razumnost, kadar je sploh ne bo več, da bodo tedaj spoznali, kaj so imeli v tebi, kadar ne bodo nič več imeli od tebe. Živel si v nadeji, da bodo slednjič priznali: bil je tako pameten, da je sedaj neumen.“</p>
+            <p n="SLV30001.725">„Ne, v tej nadeji nisem nikdar živel. Ali živiš ti v njej?“</p>
+            <p n="SLV30001.726">„Doslej še ne. Ti hodiš zlato srednjo pot pravičnosti, pot prokletstva, si ves gnil v svoji treznosti in tvoja dejanja in tvoje sodbe diše po njej. V očeh ti berem, kako me zaničuješ, ki ti nisem nič hudega storil. Pusti me pri miru. Zlomil se bom čez koleno, kakor palico.“ Pri tem si dreza z zobotrebcem v oko.</p>
+            <p n="SLV30001.727">„Odpotoval bom, najbolje bo tako. V Sieno pojdem ali morda naravnost v Rim.“</p>
+            <p n="SLV30001.728">„Tudi jaz bom odpotoval. V Assisi pojdem in bom tam dolgo ostal. Moram priti sam s seboj na jasno, če je mogoče.“</p>
+            <p n="SLV30001.729">„Je mogoče.“</p>
+            <p n="SLV30001.730">„Ne jemlji mi upanja s svojo vsevednostjo in prosim te, da me ne pomiluješ. Meni je dobro, razumi to. Počutim se izvrstno in si bom jutri kupil novo obleko. Ne smeš mi zameriti, dragi, če te opozorim: tvoje pete so zbite. Mislim, da so tudi drugi že opazili.“</p>
+            <p n="SLV30001.731">Pri tem si zbada desno oko z zobotrebcem. Levo je solzno in desno že vse rdeče.</p>
+         </div>
+         <div type="chapter">
+            <head>Firenze.</head>
+            <p n="SLV30001.732">Včeraj so imele hišne veliko dela, da so izpremenile vestibul v plesno dvorano. Sosednja bralnica je bila že popoldne polna rož, pisalniki so izginili in na njihovem mestu so stale belo pregrnjene mizice; ko sem hotel kot navadno proti večeru napisati nekaj pisem, mi je gospa, ki vse nadzira, zastavila pot:</p>
+            <p n="SLV30001.733">„Danes morate oprostiti. Naročila bom takoj, da Vam prinesejo črnilo v sobo.“</p>
+            <p n="SLV30001.734">Začudil sem se množici raznobarvnih pijač na mizah in obilici jedil. Z vso slovesnostjo hoče hiša obhajati Adin rojstni dan. Morda je taka navada in morda je tudi zelo koristna slovesu podjetja. Gostje smo kupili Adi velikanski šopek zelo lepih rož. Zmenjeno je bilo tako, da ga ji Montañes izroči v dvorani.</p>
+            <p n="SLV30001.735">Večerja je bila krajša kot sicer. Vsi so bili skrbneje opravljeni, dame so se naravnost potrudile. Ada je prišla v beli obleki s črnimi rožastimi našivi, ki so se vili kakor bršljan ob njeni vitki dekliški postavi prav od prsi do roba krila. Srečna je bila, da je že osemnajst let stara in da je središče družabnega večera, obenem je bila malo v zadregi in ni se ji posrečilo, da bi se vedla tako neprisiljeno in preprosto kakor druge dni. Nemška slikarica, ki je pred kratkim prišla, nas je presenetila s tem, da se je popolnoma gladko počesala in vso težo svojih las zvila v širok vozel, ki ji je padal globoko preko tilnika. Bila je prijetno nasprotje drugim visokim frizuram; slovesni vtis je dosegla s preprostostjo, ker je bila pravtako nenavadna kakor druge, ki so se trudile z umetnostjo. „Podlogo je vzela iz las in je položila vanje idejo; zadnje je hujše od prvega,“ je rekel Fritz, ki je ne mara, ker je slikarica in rada govori o slikarstvu. Karla je prišla v črni, zelo navadni obleki brez okraska, le rdečo vrtnico za pasom. Zelo vitka in bleda je bila v njej. „Montañesu bom rekel,“ je dejal Fritz, „da je podobna črnemu ognju z bledim sijajem, in ji bo takoj kot poklon povedal; lep vrat ima.“ Esteri se njena svetlomodra obleka nikakor ni podajala. Izginjala je v njej in tudi ta barva se njeni polti ne prilega. Mislim, da sama ni bila zadovoljna s seboj; lica so ji bila jetično zardela, oči vlažne in žalostne.</p>
+            <p n="SLV30001.736">Že med večerjo je pianist, ki ga je hišna gospodinja naročila za ta dan, tipkal po klavirju, in kadar so ti pretrgani glasovi prodrli do obednice, so se gostje v pričakovanju spogledovali in začeli hitreje jesti. Med družbo je vladalo tisto živahno razpoloženje, ki se navadno pokaže pri ljudeh, kadar pričakujejo kaj veselega. Brez truda se je pogovor razpletal in skoro vse je bilo duhovito in dovtipno, kar je kdo rekel. Montañes se ni prenehal smejati in je mnogo govoril ter vse zabaval; ta večer je bil ves drugačen nego prej. Fritz, ki velja med nami za zelo duhovitega, ga je parkrat skušal osmešiti, ga spraviti v zadrego in odvrniti splošno pozornost od njega, pa se mu ni posrečilo. Videlo se je, da je preveč pametno, kar govori, da je dovtipnost s težavo narejena in da ne prihaja naravnost iz dobre volje. Mali Španec mu je odgovarjal z glasnim smehom in tako naravno in z lehkoto, da so bile simpatije na njegovi strani. Fritzu ni izginil krčeviti nasmeh z obraza, samo še bolj oster je bil, ko se je čutil premaganega.</p>
+            <p n="SLV30001.737">Po večerji je prejela Ada šopek, toda utegnila je le najbližjim stisniti roko, kajti v istem trenutku je pianist udaril prve akorde valčka in še preden se je kolobar gostov krog nje razšel, jo je Mr. Grudge, najstarejši med nami, brez vprašanja prijel krog pasu, nalahno odrinil z ramo okrog stoječe in jo zavrtel. Takoj so se uvrstili ostali pari. Nekateri starejši gospodje in tudi par dam se je zateklo precej pri začetku zabave v bralnico. Tam so kadili, pili in igrali. Kadar so se vrata odprla, se je zavalil v „dvorano“ oblaček modrikastega dima, slišali so se klici igralcev in smeh živahnega pogovora. Včasi se je pokazal med vrati Schmitt, zardel, s cigaro v ustih in dobrovoljno kimajoč parom, ki so hiteli mimo njega. Najživahnejši med vsemi je bil Montañes. Niti enega plesa ni zamudil, le med pavzo je skočil v bralnico, hitro pokadil cigareto, si natlačil v usta dišečih bonbonov in zopet odhitel k plesu. V vseh kotih je bil videti njegov žareči obraz in lesk njegovih belih zob. „Sijajno je!“ mi je enkrat rekel in mi, ne vem, zakaj, stisnil roko.</p>
+            <p n="SLV30001.738">„Kako je vesel 'mali',“ sem dejal Fritzu.</p>
+            <p n="SLV30001.739">„Uživa še neposredno. Popolnoma nekulturen, pranaraven je,“ je odgovoril. „Zavidanja je vreden v svoji divjaški sreči.“</p>
+            <p n="SLV30001.740">Ravno tedaj je priplesal z Estero zopet mimo naju, ves srečen in zmagoslaven. Lasje so se mu lepili na čelu in beli trdi naprsnik se mu je vsled potu bil zlomil, kravata je bila v neredu. Ester je bila kakor senca v njegovih rokah, ne telesno bitje. V neprikladni obleki so njeni nežni udje popolnoma izginjali in skoro ni bilo drugega videti od nje, kot žalostni, zbegani pogled. Ko je švignila mimo, mi je prikimala bolj z očmi kot z glavo in se nasmehnila.</p>
+            <p n="SLV30001.741">„Ali si plesal z njo?“ sem vprašal Fritza.</p>
+            <p n="SLV30001.742">„Enkrat sem plesal. Ne morem. V oči mi gleda in nič ne govori. Slabo mi je ob njej in ne vem, kaj naj mislim. Storil bi rad veliko hudobijo; menim, da bi mi potem odleglo.“</p>
+            <p n="SLV30001.743">„Kaj bi odleglo?“</p>
+            <p n="SLV30001.744">„Ne vem, kaj. Vse.“</p>
+            <p n="SLV30001.745">V tem trenutku je prišla Karla mimo; hotela je v bralnico.</p>
+            <p n="SLV30001.746">„Ali ne plešete?“ sem jo vprašal.</p>
+            <p n="SLV30001.747">„Ne.“</p>
+            <p n="SLV30001.748">„Zakaj ne?“ je dejal Fritz.</p>
+            <p n="SLV30001.749">„Me ne veseli. To ni ples, to je stopicanje v krogu, ritmično premetavanje nog.“</p>
+            <p n="SLV30001.750">„In kaj naj bi bil ples?“ je rekel Fritz z zbadljivim nasmehom.</p>
+            <p n="SLV30001.751">„Ples je ali umetnost ali divjaštvo. V obeh slučajih je dobra reč, ker je pristna. To je ponarejeno blago. Mogoče je plesati narodno himno, ali na melodijo slavčka, ali simfonijo, mogla bi tudi plesati kankan ali ciganske plese, toda kako naj pametno plešem polko?“</p>
+            <p n="SLV30001.752">„Prepričajte nas,“ je dejal Fritz.</p>
+            <p n="SLV30001.753">Karla je pomolčala in mu nekaj hipov gledala naravnost v oči.</p>
+            <p n="SLV30001.754">„Ali Vam je kaj na tem?“ je rekla.</p>
+            <p n="SLV30001.755">„Veliko mi je na tem; prosim Vas.“ Tudi on ji je gledal naravnost v oči.</p>
+            <p n="SLV30001.756">„Dobro,“ je odgovorila in mu prikimala. V pavzi je stopila k Adi in ji nekaj rekla. Ada je odhitela iz dvorane ter se vrnila z zvezkom not, ga odprla in postavila pred pianista. Ta je knjigo zlovoljno prelistaval, nekaj godrnjal in slednjič začel igrati.</p>
+            <p n="SLV30001.757">Karla je stala ob steni in pol radovedno, pol posmehljivo gledala po gostih, ki so potrebovali nekaj časa, da se umirijo in spoznajo položaj. „Ah!“ so rekli tedaj nekateri presenečeno in Montañes je hotel ploskati, toda drugi so zaklicali: „Tiho! Bodite tiho!“ Nekateri so posedli ob stenah, nekateri so sloneli prekrižanih rok; vrata, ki vodijo v bralnico, so se pozneje odprla in tudi neplesalci so silili v dvorano. Iz sobe se je valil vanjo modrikasti duh cigar, prihajal je tudi duh po jedilih in pijači.</p>
+            <p n="SLV30001.758">Pianist je igral, toda Karla se ni zgenila.</p>
+            <p n="SLV30001.759">„Kaj igra?“ sem vprašal Fritza, in ko me ni slišal, sem ponovil: „Kaj igra?“</p>
+            <p n="SLV30001.760">„Ne vem,“ je odgovoril. Pozneje je pristavil: „Zdi se mi kakor Chopinov Notturno.“</p>
+            <p n="SLV30001.761">Morda se je Karla zaradi tesne obleke tako umerjeno gibala, da niti stroga miss Harton ni mogla biti užaljena, toda verjetneje se mi zdi, da dela tako premišljeno in s polno zavestjo. Ne vem, kako je dosegla, da se je koncentriral ves ritem in vse gibanje naznotraj in da se je zdel vsak lahni skok in vsak zamah roke kakor daljen odmev pesmi, ki jo poje sama v sebi. Vsakdo je moral čutiti, da je za tem, kar je vidno in naglo izpremenljivo, še nekaj drugega, mnogo važnejšega. Bilo je to trepetanje celega telesa, iz globoke notranjosti prihajajoče, napetost vseh mišic in živcev. Začudil sem se, kako se zna ta ženska v vsakdanjem življenju brzdati. Kdor jo je videl tako razigrano, polno strasti in notranjega življenja, si ni mogel več prav predstavljati tiste hladne Karle, ki se počasi giblje, leno polega v fotelju in komaj odgovarja. Iz vsakdanjosti je ostal na njej le smehljaj, neizbrisno zarezan krog ustnic, telesen smehljaj brez vsebine, ves leden v svojem dvomu in posmehu, ter čudni, nedobri pogled „poševnih oči, ki so kakor tekoča voda“. Zdelo se mi je, da jo prvič vidim; tudi sem tedaj šele razumel, zakaj je govoril Fritz o njeni lepoti. Fritz je veščega očesa, spregledal jo je in je zaslutil zatajeno silo v njej.</p>
+            <p n="SLV30001.762">Ozrl sem se vanj. Slonel je ob steni, bled in žarečega pogleda, ter si lomil prste desne roke; boleti ga je moralo. Čutil je, da ga gledam, in se je izkušal nasmehniti.</p>
+            <p n="SLV30001.763">„Ali si mogel misliti, da je tak ogenj v njej?“ mi je rekel tiho. Ne vem, zakaj mi je bilo to vprašanje neprijetno.</p>
+            <p n="SLV30001.764">Strastna težnja, da izrazi, kar se s samim gibanjem ne more izraziti, da da svojim telesnim kretnjam dušni pomen in izpremeni vezano tvarino v breztelesno misel, je bilo tisto, kar je na Karlinem plesu tako dražilo. Ni ilustrirala Chopinove skladbe; ta sama je bila tako nedoločna, da si ni nihče mogel v njej kaj določnega predstavljati. Mikavno pa je bilo, da je tisto nejasno čuvstvo, ki je zvenelo v strunah klavirja, dobilo v Karlinih kretnjah spremljavo, vsled katere je postajalo še bolj nejasno, motno in bolj boleče. To ni bilo več čuvstvo, temuč grenko razpoloženje, omamljiva pobitost. Menil sem, da vem, zakaj si Fritz tako nasilno lomi prste. Karla se je vzpenjala kvišku in padala, kakor se vzpenja in pada vse človeško hrepenenje, na ustnicah tisti ledeni, negibni nasmeh dvoma in posmeha; roke so se ji včasi tako nenaravno zvile, da si nisem mogel jasneje predstaviti lastnega dušnega trpljenja in nenaravnih, brezupnih skokov človeških misli; telo ji je včasi nenadoma vztrepetalo v dveh različnih ali nasprotnih smereh, trgano od notranjih, kljubujočih si moči, kakor trepeta vsaka razdvojenost. To je bilo hlastanje človeka po zraku, kadar ga duši, vrvenje vsega, kar v bridkih urah hoče, nemirno iskanje besede, da izrazi sebe, napor, da se premaga in raztelesi, nad vsem pa zreli smehljaj obupanega, prezirljivega spoznanja, muka, muka.</p>
+            <p n="SLV30001.765">„Prav to je, kar sem hotel, kar hočem vedno,“ je rekel Fritz skoro glasno.</p>
+            <p n="SLV30001.766">„Kaj?“</p>
+            <p n="SLV30001.767">„Ta najomejenejši izraz najbolje pove, kako brezmejno je, kar hočemo. Beseda pove samo en del, najslabši. Čim manj jasno govorim, tem jasneje se razodevam. Ples je še nad glasbo.“</p>
+            <p n="SLV30001.768">Ko je pianist udaril zadnji akord, se je Karla kakor zlomila, potem je obstala in si popravila lase. V gledalcih ni bilo posebnega navdušenja, vsi smo bili malo v zadregi in nismo prav vedeli, kaj naj sedaj storimo. Montañes je začel ploskati, pa je kmalu utihnil; drugi niso hoteli ploskati. Gospa je stisnila Karli roko in vsakdo se je hotel spomniti kakega pohvalnega in ne prebanalnega izraza.</p>
+            <p n="SLV30001.769">„Znamenita ženska,“ je rekel Fritz zamišljeno. „Kako so prisrčni v svoji nerodnosti,“ je potem pristavil, ko je pogledal po ljudeh. Stopil je k Adinemu šopku, ki je ležal na klavirju, in hotel odtrgati iz njega vrtnico, toda Ada ga je prehitela in prinesla Karli ves šopek.</p>
+            <p n="SLV30001.770">„Ne,“ je rekla Karla, „ne vsega. Dajte mi eno vrtnico,“ se je obrnila na Fritza. „Ali ste prepričani? Drugi očitno niso.“</p>
+            <p n="SLV30001.771">„O čem?“ je vprašala Ada.</p>
+            <p n="SLV30001.772">„Katero vrtnico?“ je rekel Fritz in ji pogledal v oči. Tudi ona ga je pogledala in rekla:</p>
+            <p n="SLV30001.773">„Je vseeno. Dajte mi tole belo.“</p>
+            <p n="SLV30001.774">Pianist je kmalu začel veseleje igrati, zadrege je bil konec in ples se je začel iznova. Fritz je strmel v dvorano, in ko sem ga nekaj vprašal, ni odgovoril; v gumbnici je imel vrtnico, ki je bila Karli padla med plesom izza pasa. Ester se je bila od gospe poslovila in je stopila z materjo k nama:</p>
+            <p n="SLV30001.775">„Fritz, jaz moram gor. Ali ostaneš še dolgo?“</p>
+            <p n="SLV30001.776">„Kako meniš?“</p>
+            <p n="SLV30001.777">„Počivat grem, tu je zadehlo in soparno. Ali ostaneš še dolgo?“</p>
+            <p n="SLV30001.778">„Ne vem. Mislim, da pojdem kmalu. Ne vem.“</p>
+            <p n="SLV30001.779">„Lahko noč.“ Podala mu je roko.</p>
+            <p n="SLV30001.780">„Lahko noč. Lahko noč, maman.“ Bil je zelo razmišljen.</p>
+            <p n="SLV30001.781">Ko mi je Ester podala roko, sem čutil, da je vroča. Stisnil sem ji jo krepkeje kot navadno. Ona me je pogledala, oči so se ji naglo ovlažile, hotela je nekaj reči, pa so ji le ustnice vzdrhtele. Potem je šla v svoji neprikladni, svetlomodri obleki, neznatna in samotna s svojimi tihimi mislimi.</p>
+            <p n="SLV30001.782">„Zakaj si tak?“ sem rekel Fritzu. „Vidiš, kako je žalostna.“</p>
+            <p n="SLV30001.783">„Kakšen pa sem?“ je odgovoril in odšel h klavirju. Naročil je nekaj igralcu, ki se je nasmehnil, in takoj zaigral napamet. Tudi Fritz se je nasmehnil, stopil pred Karlo in potem sta zaplesala enega izmed tistih plesov, ki so v novejšem času zelo priljubljeni. Zelo je različen od polke in tudi umetnost ni. Videl sem, kako je Fritzu obraz oživel; on je izvrsten plesalec.</p>
+            <p n="SLV30001.784">Odšel sem v svojo sobo in sem proti jutru zaspal, ko se je spodaj hrup malo polegel.</p>
+            <milestone type="subChapter" rend="asteriskes" unit="asterisk"/>
+            <p n="SLV30001.785">Danes je naša hiša dalj spala kot navadno. Bilo je že precej pozno, toda popolnoma mirno v sobah in na hodnikih, ko je Fritz prišel k meni, športno napravljen, zapet do vratu in preko ledij prepasan. Bil je pobit in lep, kakor morda nikoli.</p>
+            <p n="SLV30001.786">„Sedaj se odpeljem. Prosim te, razdeli to napitnino med služinčad. Pri fotografu imam še nekaj plošč, pošlji jih za menoj, kadar ti sporočim naslov. Esteri povej, da ji bom pisal, in če povpraša maman po meni, reci, da sem šel gledat viseči pisanski stolp.“</p>
+            <p n="SLV30001.787">„Kam greš?“</p>
+            <p n="SLV30001.788">„Še ne vem. Sporočil ti bom morda.“ Hodil je po sobi in me ni niti za hip pogledal.</p>
+            <p n="SLV30001.789">„Ali … ali si bil snoči še dolgo doli? Zakaj greš?“</p>
+            <p n="SLV30001.790">„Daj mi par cigaret na pot. Kaj hočem tukaj? Ester se obnaša, kot bi ji bil srce prestrelil. Morda ima prav, toda jaz sem ji to prorokoval. Karla je rekla, da me ljubi, in če bi mi bila le en dokaz odrekla, bi ji danes nemara verjel, tako ne vem nič. Ah,“ iztegnil je roke in nagnil nazaj glavo, „kopal bi se rad v zelo mrzli vodi, pa ne bo več časa.“</p>
+            <p n="SLV30001.791">Ko je prižgal cigareto, sem videl, da mu roka lahno trepeta.</p>
+            <p n="SLV30001.792">„Bodi torej zdrav, piši mi kaj in spametuj se kmalu!“ Podal mi je roko. Ko sem mu pogledal v oči, sem videl, da se imava morda rajša, nego sem mislil.</p>
+            <p n="SLV30001.793">Pri zajtrku sem Esteri povedal, da je odšel in da ji bo pisal. Nasmehnila se je in mi rekla:</p>
+            <p n="SLV30001.794">„To ni prvič tako. Dolgo časa ne bo nič pisal, potem se morda enkrat povrne.“ Nič ni življenja v njej. Skoro brez telesa je, kakor duh, in tiho vdana.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

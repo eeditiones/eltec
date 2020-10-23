@@ -1,0 +1,2249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM005" xml:lang="ro">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title> Ghiță Cătănuță, căpitan de haiduci : ediție ELTeC</title>
+    <author> Macri, Panait (1863-1932)</author>
+    <respStmt>
+     <resp>ELTeC encoding</resp>
+     <name>Roxana Patras</name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">28565</measure>
+    <measure unit="pages">95</measure>
+   </extent>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-11"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Incorporated into the ELTeC2018-l0-l5
+    --></publicationStmt>
+   <sourceDesc><bibl type="printSource">
+     <author>Panait Macri</author>
+     <title>Ghiță Cătănuță, căpitan de haiduci</title>
+     <pubPlace>Bucharest</pubPlace>
+     <publisher>Editura Librăriei și Tipografiei H. STEINBERG</publisher>
+     <date>1923 (1883)</date>
+      <ref target="http://doi.org/10.5281/zenodo.2648455">Facsimile on zenodo</ref>
+              </bibl></sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="ro"/>
+   </langUsage>
+   <textDesc> 
+ 
+    <e:authorGender key="M"/>
+    <e:size key="short"/>
+    <e:canonicity key="low"/>
+    <e:timeSlot key="T3"/>
+    
+   </textDesc>
+  </profileDesc>
+  <revisionDesc><change when="2019-11-11">Checked by releaseChecker script</change>
+   <change when="2018-09-28">Initial TEI version generated.</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <div type="titlepage">
+    <p>GHIȚĂ CĂTĂNUȚĂ</p>
+    <p>CĂPITAN DE HAIDUCI</p>
+    <p>NUVELĂ ORIGINALĂ</p>
+    <p>DE</p>
+    <p>PANAIT MACRI</p>
+    <p>BUCUREȘTI</p>
+    <p>Editura Librăriei și Tipografiei H. STEINBERG</p>
+    <p>94, Strada Lipscani, 94</p>
+   </div>
+  </front>
+<body>
+<div type="chapter">
+<head>GHIȚĂ CATĂNUȚĂ, CĂPITAN DE HAIDUCI</head>
+<head>Ziua omorului.</head>
+ <p>Era la anul 1800, adică cu vre-o 20 de ani înainte de ivirea acelui mare haiduc <quote type="name">„Andreiu Popa“</quote>ucis în cele din urmă, după porunca lui Șuțu, de vornicul <hi>Mihaiu Cozoni</hi></p>
+<p>În timpul acesta, în satul Stânca din județul Iași, plasa Braniștea, trăia un popă, numit Ghiță Cătănuță.</p>
+<p>Părintele Cătănuță era proverbial nu numai în satul său, dar chiar și în tot județul, pentru dreptatea și evlavia cu care servea lui D-zeu.</p>
+<p>Niciodată nu se culca înainte de a se închina și niciodată nu se întâmpla să mănânce sau să bea apă fără a’și face cruce. </p>
+<p>De altminteri era și cu carte, el putea să spue, călare fiind, pe de rost <hi>Tatăl nostru.</hi></p>
+<p>Copilăria și-o făcuse într’o monastire unde fu introdus de un unchiu al său după moartea părinților săi, care lăsară pe sărmanul Ghiță numai în etate de 7 ani ca să se lupte singur cu valurile acestei lumi.</p>
+<p>Aici în monastire el își făcu primele studii de popie, învățând psaltirea și toate cele-l’alte necesare unui bun preot.</p>
+<p>Mulți ziceau că el n’ar fi bun de preoție. Prea avea ochii jucători și când era mic, prea de multe ori înjura pe tovarășii săi.</p>
+<p>Cu toate aceste Ghiță Cătănuță se făcu popă.</p>
+<p>De cinci ani exersa robul lui D-zeu această sfântă misiune, fără ca cine-va să vorbească despre el de cât numai bine.</p>
+<p>Singure babele răutăcioase cârtiau în contra lui zicând că prea ar fi tânăr și nu. face de popă.</p>
+<p>— Vai de mine lele Paraschivă, zise într’o zi Catrina cumetrei sale; popa ăsta al nostru e bun de spânzurat.</p>
+<p>— Și de ce fă lele ? întreabă ea.</p>
+<p>— De ce ? Dacă n’ai auzit ce a zis astăzi despre el bunica Stanca !</p>
+<p>— Ce a zis fă?</p>
+<p>— A zis că părintele Ghiță e un nelegiuit și noi nu trebue să ne mai ducem să ne spovedim la dânsul.</p>
+<p>— Și de ce așa ?</p>
+<p>— Uite, ascultă dragă lele: Tu știi că Ciorchină paracriserul iubește pe <hi>Vidra,</hi> fata frumoasă din satul Sculeni.</p>
+<p>—- Știu, cum să nu știu, moare de dragul ei.</p>
+<p>— Zău așa, chiar că moare!</p>
+<p>— Dar bine fă Catrino, asta o știe tot satul ș’apoi ce are aface una cu alta! Auzi colo, paracliserul iubește pe Vidra și popa e de vină!...</p>
+<p>— Ei, nu fă nu-i așa ! De ce nu asculți să isprăvesc vorba ? nu iubește numai paracliserul pe Vidra!</p>
+<p>— O fi mai iubind-o și llie, că prea mult juca la horă cu dânsa. Unii zic... Ce mai departe, iată chiar nenea Mihaiu spunea, că dacă Vidra vine câteodată prin satul nostru, vine numai din pricina lui llie. Fie fă leleo Catrino, că e și frumos băeat Ilie, bată’l să’l bată! Dacă nu’l am eu de bărbat că ce l’ași mai iubi ! Cât despre Vidra, să-ți spun drept, nu e tocmai așa de frumoasă cum zice lumea.</p>
+<p>— Dar ce are soro ?</p>
+<p>— N’ai băgat de seamă ? sprânceana stângă e mai groasă ca cea dreaptă.</p>
+<p>— Mai groasă ! și nu’i nimica lele Paraschivo, d’o fi acolo o sprânceană mai puțin groasă de cât cea-l’altă. Ori cum, Vidra e cea mai frumoasă fată din sat.</p>
+<p>— Cea mai frumoasă!... De cumătră Catrino, ție așa îți place, să lauzi toate fetele. Uită-te la sprincenile mele; nu vezi cum sunt de negre și stufoase ! Nu-i așa că te înțeapă la inimă când te uiți la ele ?</p>
+<p>— Ba pe mine, soro, nu mai mă înțeapă, pe flăcăi poate să’i înțepe și la cap nu numai la inimă. Dar tu, fă cumâtro, cu vorba mă făcuși să nu’ți mai spun despre nelegiuirile părintelui Ghiță./</p>
+<p>— Ia lasă Catrino dragă încolo pe părintele, că doar îl știe satul că e destul de sfânt și spune’mi cine mai iubește pe Vidra ? O fi llie nu-i așa ? ticălosul!</p>
+<p>— Nu fă cumătro, nu’i Ilie, ci e...</p>
+<p>— Cine dracu e atunci, doamne iartă-mă, că pomenesc pe necuratu ! zise Paraschiva lovindu-se cu mâna peste gură și resuflând cu putere ca și când cine-va i-ar fi luat o piatră după piept. Paraschiva iubea pe flăcăul Ilie.</p>
+<p>— Nu e fă, Ilie, nu, e altul ?</p>
+<p>— Altul ; dar cine e ăla ?</p>
+<p>— Părintele Ghiță !</p>
+<p>— Alei! Catrino, taci din gură, nu zice vorba asta; să nu te auză cine-va!</p>
+<p>— Ce să se audă soro, că chiar paracliserul Ciorchină s’a plâns la tot satu că părintele vrea să-i ia ibovnica.</p>
+<p>— Dar cum ciorile.</p>
+<p>— Zău așa ! Uite, bunica Stanca l’a auzit chiar cu urechile ei, când se plângea Ciorchină.</p>
+<p>Astfel vorbiau aceste două fete și în adevăr de câte-va zile, astfel începu să cârtească aproape tot satul.</p>
+<p>Era însă el de vină ? Avea satul dreptate ? să vedem:</p>
+<p>Intr’o Duminică, era chiar Duminica Floriilor, după isprăvitul slujbei, popa Ghiță eșia din biserică împreună ca paracliserul său, care servia totodată și de cântăreț.</p>
+<p>— Ia ascultă Ciorchină, zise popa paracliserului, tot n’ai acum de lucru, vin’o până la mine.</p>
+<p>— Viu, părinte, de ce să nu viu, răspunse el, caută însă să fie și ceva vin.</p>
+<p>— Lasă Ciorchină că doar am îngrijit ca să nu lipsească sfânta băutură.</p>
+<p>Atunci viu părinte, sărut mâna.</p>
+<p>Astfel tot vorbind popa cu paracliserul, ajunseră acasă. Aici ei intrară într’o cameră mică, al cărei mobilier nu se compunea de cât din două paturi, o oglindă cât palma, un prosop de cele țărănești atârnat într’un cuiu și o mât ră aruncată după ușă.</p>
+<p>— Așa e părinte Ghiță, că ți e urât de tot, ți-a murit cucoana preoteasă.</p>
+<p>— Bine mă Ciorchină, tu știi că eu nu o iubeam de loc ?</p>
+<p>— Adevărat părinte, dar Dumnezeu s’o ierte, de când a murit, uite, nenorocitul pat e văduv.</p>
+<p>— Văduv, e drept și eu m’am rugat mult lui Dumnezeu până să văduvească.</p>
+<p>— Cum părinte, sfinția ta dorea ca să moară preoteasa ?</p>
+<p>— Se înțelege. Lucrul acesta dorește orice bărbat, când nu’și mai iubește nevasta și mai. cu seamă un preot, care cir anevoe se poate despărți !</p>
+<p>La auzul acestor cuvinte, Ciorchină deschise niște ochi mari și privi pe preotul său. .</p>
+<p>— Și va să zică, sfinția ta...</p>
+<p>— Da sfinția mea așteptă din minut în minut ca preoteasa să se ducă în lumea fericiților.</p>
+<p>— Aoleo! dar ai dracului sfânt mai e popa Ghiță! zise paracliserul în sine.</p>
+<p>— Ia’n ascultă Ciorchină, să lăsăm acum vorba și să mai bem ceva, căci mai mult pentru asta am venit, iată, oala aceasta e plină cu vin, toarnă în ulcică și bea.</p>
+<p>— Da, să bem, pronunță Ciorchină cu o jumătate,de voce și cu gândul mereu la sărmana preoteasă.</p>
+<p>Pe când paracliserul Ciorchină deșerta una după alta ulcelile, părintile Ghiță începu să-i zică:</p>
+<p>— Așa frate Ciorchină. E bun vinul ? Cum ți~se pare ?</p>
+<p> -- E bun părinte și e roșu, Sângele lui Christos, nu altceva !</p>
+<p>Alunecă ca un șarpe pe gât.</p>
+<p>— Fă’l frate, paraclisere, fă’l să alunece mereu.</p>
+<p>- Ca să n’ai grije, părinte.</p>
+<p>După câteva minute de tăcere, părintele Ghiță începu din nou cu o voce mai slabă:</p>
+<p>— Bine, mă Ciorchine, ucigă-l crucea te-a pus pe tine să spui pe la oamenii din sat că eu iubesc pe Vidra ?</p>
+<p>La auzul acestui cuvânt paracliserul se sculă în picioare, dar amețit cum era de vin, moțăi nițel și căzu iar pe pat.</p>
+<p>— Păi bine părinte, sfinția ța mi-ai spus că o iubești.</p>
+<p>— Am spus, dar am spus numai ție, nu ia tot satul.</p>
+<p>— O iubești însă, nu-i așa ?</p>
+<p>— Cum să n’o iubesc! O iubesc Ciorchină; ca ochii din cap!</p>
+<p>— Dar ea pe tine, popă ?</p>
+<p>— S’a îmbătat motârlanu, zise Ghiță în gândul său acum să aflu tot dela el și după aceia să nu mai pierd timpul.</p>
+<p>- Vidra doară nu o fi nebună să iubească pe un popă ca tine, care și-a omorâț preoteasa!</p>
+<p>— Ce mă Ciorchină, te ai îmbătat, se vede treaba. Cine ți-a spus că eu mi-am omorît preoteasa ?</p>
+<p>— Ce m’am îmbătat părinte? beat oi fi tu nu eu.</p>
+<p>— Păi de ce zici că mi-am omorît preoteasa ?</p>
+<p>— Tu singur mi-ai spus!...</p>
+<p>— Eu?</p>
+<p>— Da tu! Și mâine am să spun la toi satul că ai omorât pe sărmana Maria, iar acum, vrei să-mi ei pe Vidra ?</p>
+<p>— Taci mă Ciorchină că ai înebunit.</p>
+<p>— Tu ai înebunit părinte, nu eu !</p>
+<p>— Bine mă, ce-ți pasă ție, dacă iubesc pe Vidra?</p>
+<p>— Ba să-ți pui pofta în cuiu! zise Ciorchină cu batjocură. Auzi vorbă! dar cum să fiu-mi pese, măi popă, când eu mor după Vidra și mi-am pus în gând s’o iau de nevastă?</p>
+<p>— A, înțeleg acum ! își zise Ghiță; tu va să zică iubești pe Vidra! O, Ciorchină! viță de fanariot! sămânță a lui satana! Dar crezi tu că eu te voi lăsa cu viață, că voiu suferi vre-o dată ca să te văd cu Vidra în brațe ? Nu, vei muri sărmane Ciorchină! Tu m’ai făcut ieri de râs la tot satul, eu voi face ca să râdă tot iadul de sufletul tău!</p>
+<p>— Taci popă fără de lege, răcni atunci paracliserul și se repezi numai decât la el.</p>
+<p>Ghiță era înfuriat în aceste minute. Din ochii lui ieșiau scântei și ducând o mână tremurândă la pieptu-i scoase un cuțit.</p>
+<p>Când paracliserul văzu strălucind ferul rece în mâna părintelui Cătănuță, cu toată beția lui, înțelese că viața ’i este în primejdie și voi să se apere.</p>
+<p>— Nelegiuitule! ce vrei să faci ?! răcni Ciorchină.</p>
+<p>Ghiță tăcu.</p>
+<p>— Aruncă cuțitul părinte! urmă paracliserul. Nu uita că ești preot!</p>
+<p>— Nu voiu uita nici odată că tu iubești pe Vidra! îi răspunse el.</p>
+<p>— Ciorchină se uită în toate părțile casei și numai atunci văzu parcă, că este singur, că dacă ar striga, n’ar fi nimeni care să-i vie în ajutor și căzu în genunchi.</p>
+<p>— Cerule ! îndură-te de mine ! exclamă el. Ghiță se a-propie de dânsul.</p>
+<p>Cuțitul îi strălucea în mână.</p>
+<p>Ce voia oare să facă ? Va avea oare cruzimea ca să omoare pe acel nenorocit paracliser, care fiind beat, nu mai putea să se ție nici pe picioare? Va fi el atât de crud?</p>
+<p>Cătănuță iubea pe Vidra, o iubea de mult, de când era încă copil. El o văzu într’o zi la monastire, venise cu mama ei ca să plângă pe mormântul sărmanului ei tată.</p>
+<p>— Această fată, îi zise el atunci, e ca și mine orfană!</p>
+ <gap rend="figure_Ghiță Cătănuță ca preot"/>
+<p>Și din acea zi Cătănuță simți în pieptu-i o durere ce creștea cu cât zilele treceau.</p>
+<p>În glasul clopotelor, în sunetul toacei, părea că auzia un plâns jalnic, și în fundul fămâei părea că vede pe Vidra îngenunchiată pe mormântul părintelui ei.</p>
+<p>El o iubea, fără să se mai gândească că se află într’un loc sfânt.</p>
+<p>Ce’i pasă lui. A intrat el de bună voe în Monastire ? Om tânăr și voinic, era oare pentru monastire ? Nu! Unchiul său l’a introdus acolo. El crescu în mijlocul călugărilor, cari îi spuneau pe fiecare zi, că chemarea lui în lume este să semene adevărul și bunătatea. Astfel crescut, astfel trebuia să devie. Dar nenorocitul, nu cunoștea câmpul pe care trebuia să crească acea sămânță.</p>
+<p>Pe vremea aceea țara era copleșită de fanarioți și la dânșii nu puteai vedea decât răutăți și hoții.</p>
+<p>Deci, pe când gândul lui Ghiță sbura prin lumea ideală, făcându-și fel de fel de planuri, cari mai de cari mai sfinte și mai curate iată că-i eși în cale o fată de o frumusețe rară și-i schimbă toate gândurile.</p>
+<p>Această fată era Vidra.</p>
+<p>Ghiță o iubi; amorul nu întreabă și nu judecă. Săgeata lui Cupidon străbătu tot așa de lesne peptul său de viitor sfânt.</p>
+<p>El o văzu plângând pe mormântul părintelui ei și din acea zi sărmanul Cătănuță ar fi dorit mai bine ca să se închine la umbra frumoasei sale, decât la acele icoane, cari din zi în zi perdeau înaintea ochilor săi din sfânta lor valoare.</p>
+<p>Pe Vidra, în adevăr nu o mai văzuse și ca să întrebe despre dânsa nu avea pe cine, ș’apoi nu știa cum o chiamă; cu toate acestea o iubea.</p>
+<p>Era hotărât să se facă călugăr, acum însă își schimbă gândul. Îi plăcu mai mult preoția. Ca preot, își zicea el, se va putea însura și-și va lua o nevastă tot atât de frumoasă ca și fata acea pe care a văzut-o plângând pe negrul mormânt.</p>
+<p>Așa și făcu. După un scurt timp se însurăși deveni preot.</p>
+<p>Patru ani duse el această viață liniștită când mergând într’o duminică din întâmplare în satul vecin, văzu pe Vidra, pe acea fată frumoasă, pe care o văzuse în monastire și care îi rămăsese în minte.</p>
+<p>Când se întoarse seara acasă, bietul Ghiță nu era ca mai nainte. El nu puse de loc mâna pe psaltire. Când se culcă, nu-și făcu de loc cruce și preoteasa i se păru de astădată că este de o sluțenie nedescrisă.</p>
+<p>Norocul însă îl favoriză. Dumnezeu sau satana făcu în scurt timp să-i moară preoteasa.</p>
+<p>De atunci el rămase singur și nu nutria altă dorință decât a se iubi cu Vidra.</p>
+<p>Ghiță, după cum ziserăm, se apropiă cu cuțitul în mână de rivalul său.</p>
+<p>Sărmanul Ciorchină nu mai putea să ție nici capul în sus de amețit ce era.</p>
+<p>Hotărârea preotului fu crudă, el voia să-l omoare și nu era nimeni care să-l oprească dela crimă.</p>
+<p>— Pe cât timp acest Ciorchină va trăi, în zadar voiu mai nădăjdui ca să mă iubesc cu Vidra! Ș’apoi mâine chiar, nu mai departe, mă va face de râs la tot satul!</p>
+<p>Ghiță, după aceste cuvinte, se apropie de nenorocitul paracliser și cu o mână puternică lungindu-l la pământ, îi înfipse cuțitul în piept.</p>
+<p>Un sânge roșu țâșni în toate părțile și stropi mâna ucigașului preot.</p>
+<p>— Ce am făcut! strigă ei după săvârșirea crimei; am omorât un om!</p>
+<p>Și privind la corpul încă cald al paracliserului care se sbătea, i se păru că se uită la el, că-i vorbește și că îi arată rana pe care i-o făcuse în piept.</p>
+<p>Ghiță aruncă cuțitul, se învârti prin casă, era aproape să-și piarză mintea.</p>
+<p>Deodată stătu pe loc.</p>
+<p>— A, zise el; de azi înainte nu vei mai putea să spui satului că iubesc pe Vidra și tu n’ai s’o mai iubești! Tatăl tău care era tot paracliser, — tu singur mi-ai spus, — a omorât cu otravă pe preotul acestei biserici! Ei bine, fiul său a murit tot de mâna unui preot! Am auzit eu de mult ce neam spurcat e acela al fanarioților! Da, e o greșeală mare că iubesc pe Vidra, greșeala ta însă era și mare. Tu Om mai mult bătrân, om care ai fete măritate, " să iubești o fată ca Vidra! Nu, ei îi trebue un flăcău, un voinic, și de azi înainte voinic voi fi și eu! Mă voiu duce în codru și acolo voiu omorî pe toți acei cari îngenuchiară țara noastră! De mult aud plângerile poporului și multe mume văduve au venit adesea la mine și cu lacrimile în ochi îmi spuneau cum copilele lor au fost siluite de fanarioți și turci. Ele mă rugau să chem urgia lui Dumnezeu asupra acestor spurcați și m’am rugat de multe ori. De astă-zi însă, fumul tămâei va fi înlocuit cu fumul prafului de pușcă și sunetele clopotelor cu trosniturile puștilor! Sângele tău, acest sânge pe care fam vărsat pentru prima dată, mi-a deschis pofta de a omorî și voiu omorî într’una, fără cruțare, fără frică de păcat, ori unde voiu vedea un străin!</p>
+<p>Astfel vorbi Ghiță Cătănuță, privind la cadavrul lui Ciorchină. Aruncând apoi cuțitul din mână, eși afară și se făcu nevăzut.</p>
+<p>Nu trecu însă mult, și tot satul afiă că popa Ghiță a omorât pe paracliserul său.</p>
+<p>— N’am zis eu bine, lele Catrino, zise acum Paraschiva cumetre! sale — când îți spuneam mai deună-zi că pop’al nostru e bun de spânzurat ?</p>
+<p>— Zău așa, fă lele, îi răspunse Paraschiva. Tu îmi vorbeai adevărat și eu nu voiam să cred!</p>
+<p>— Auzi tu colo! popă și să iubească o fată mare.</p>
+<p>— De fă iele, așa ei Dar ce faci cu dragostea? Ea nu te mai întreabă, de ești preot sau dascăl, ci intră așa d’odată, in pieptul românului....</p>
+</div>
+ <div type="chapter">
+<head>După trei luni</head>
+<p>Trei luni în urma acelui omor găsim pe părintele Ghiță într’o pădure din ținutul Basarabiei.</p>
+<p>Intr’o noapte luminată de slabele raze ale lunei, ei se plimba printre arborii seculari și fluera alene.</p>
+<p>Deodată aude duruitul unor roate de trăsură.</p>
+<p>— Trebue să fie vre-o liftă străină, își zise ei; mă duc la dânsul.</p>
+<p>O luă iute printre arbori și în trei minute ajunse la marginea diurnului, care trecea prin mijlocul pădurei.</p>
+<p>Duruitura se auzea tot mai aproape și îndată o trăsură frumoasă, trasă de doi cai cari scoteau flăcări pe nări, se arătă înaintea lui Cătănuță.</p>
+<p>El puse mâna de asupra ochilor și se uită țintă în trăsură.</p>
+<p>Văzu răsturnat pe o pernă de puf un turc gros, care trăgea fum dintr’un ciubuc lung.</p>
+<p>— Oprește! îi strigă Cătănuță și o detunătură de pistol făcu să răsune pădurea.</p>
+<p>Turcu de la capră căzu pe spate sub roatele trăsurei, iar caii speriați o luară la fugă.</p>
+<p>Celalt turc sări din trăsură și voi să se ascundă printre arbori, când deodată se pomeni în față cu un popă tânăr și robust.</p>
+<p>Era Ghiță Cătănuță.</p>
+<p>— Stai păgâne! îi zise acesta, apucându-l de piept.</p>
+<p>— Ce voești de la mine bre? întrebă turcul cu o voce tremurătoare.</p>
+<p>— Bani, răspunse Cătănuță, am nevoe de bani.</p>
+<p>— Bani ? dar de unde am eu bani ?</p>
+<p>— Românii pe care i-ai jefuit, de la Românii cărora le sugeți sângele pe fie-care zi, fără să aveți teamă de nimeni!</p>
+<p>— Nu-i adevărat părinte, eu n’am făcut nimănui nici un rău, In totdeauna am fost bun cu supușii mei.</p>
+<p>— Cu supușii tăi! ? Și ochii lui Ghiță aruncară scântei.</p>
+<p>— Dar cine sunt supușii tăi ?</p>
+<p>— Voi, răspunse turcul revoltat, voi ghiaurilor.</p>
+<p>Dacă turcul este crud, are însă calitatea de a nu fi lingușitor ca fanariotul.</p>
+<p>Ghiță Cătănuță se uită lung în ochii spătosului mahomedan și sângele i se ridică în cap.</p>
+<p>— Cutează încă să-nu insulte neamul, să-mi insulte țara în care trăește și din care se hrănește atât el, cât și o mulțime de alte lifte spurcate ! Dumnezeule ! cum de ai atâta răbdare!</p>
+<p>După aceste cuvinte trase iute un pistol dela încingătoare și-l descărcă în pieptul turcului.</p>
+<p>Victima căzu pe spate lăsând să-i iasă din gură un vai de sânge.</p>
+<p>Cătănuță băgă numai decât mâna prin buzunănle turcului, căută, dar nu găsi nimic.</p>
+<p>— De sigur, trebue să fi rămas banii In trăsură.</p>
+<p>Se uită după ea, însă trăsura dispăruse de mult cu cai cu tot.</p>
+<p>— Mii de tunete! bombăni Cătănuță și începu să-l caute din nou.</p>
+<p>Bagă mâna în sânul rece al turcului și acolo dete de o pungă groasă.</p>
+<p>— În sfârșit, nu mi-a fost munca în zadar mai zise Ghiță luând punga. Lăsă apoi în mijlocul drumului cadavrul turcului și plecă în pădure fluerând.</p>
+<p>Eră o lună frumoasă, suflă un vânt ușor. Copacii se clătinau încet și sgomotul frunzelor produceau un freamăt dulce.</p>
+<p>Ghiță se afundă în pădure.</p>
+<p>Ce frumoasă i se păru acea seară!</p>
+<p>Mai mult ca o jumătate de ceas rătăci el, cântând și fluerând ; când deodată se opri pe loc.</p>
+<p>— Această pungă, își zise cântărind-o în mână, — această pungă e plină cu aur. Am luat-o dela un turc, dar turcul dela cine a luat-o ? tot dela săracii români Nu vedeai păgânul cum se ținea fudul și ce crude blesteme aruncă țării noastre ? O, doamne! ce bine ar fi dacă ne-am uni cu toții mic și mare și punând mâna pe ce vom găsi: pușcă, topor, secură, coasă sau sapă, să dăm fără de nici o milă și să curățim țara de toate aceste lifte spurcate, cari ca niște lipitori ne sug sângele 1</p>
+<p>După aceste cuvinte Cătănuță șezu jos și începu să numere banii găsiți în pungă:</p>
+  <p>—Cinci sute, îi zise el după câtva timp, cinci sute ! bune parale! aproape o mie de galbeni, dar... Și Cătănuță începu să se gândeașcă.</p>
+<p>— Ce să fac eu, cu acești bani ? la ce să-i întrebuințez? Să-i dau Vidrei; când m’o vedea așa de bogat; măi va iubi..</p>
+<p>Deodată tresări:</p>
+<p>— Nu, își zise el ! o femee nu trebue să iubească pe un bărbat pentru bani, pentru avere ! Am cinci sute de napoleoni, mă voi duce cu ei, în satul meu și acolo voi găsi pe argatul, Chiriță, care când a venit-mai dăunăzi să șe spovedească la mine, mi-a zis că nu poate să mai rabde bătăile fanariotului și că ar vrea să-și, facă singur seamă. Nerodul ! îl voi învăța eu ce trebue să facă! Să vie eu mine în pădure și la lumina zilei, sau la razele lunei să omorâm într-una pe toți acești nelegiuiți. Nu ! românului nu e dat să’și plece capul! Să’și arunce sumanul, să pue mâna-pe pușcă și să lovească în toți acei cari voesc să-i facă rău!</p>
+<p>Voiu spune lui Chiriță să vie cu mine în codru, să părăsească pe acel nelegiuit de fanariot, care îl hrănește mai mult cu bătăi, de cât cu pâne și împreună cu al ți doi voinici pe care îi voi găsi, sâ venim aici și să jurăm moartea străinilor!</p>
+<p>După aceste cuvinte, Cătănuță se sculă în picioare, băgă punga cu bani în sîn și luă încet spre marginea pădurei.</p>
+<p>Șeapte zile în urmă, înr’un revărsat de zori, toi în pădurea de mai sus, vedem unsprezece oameni voinici, cari își încrucișau puștile jurând resbunare în contra acelora cari le împilară țara, lăsând pe fii ei în sapă de lemn.</p>
+<p>Printre acești unsprezece români vedem și pe Ghiță Cătănuță.</p>
+<p>Oricine l-ar fi văzut, cu greu l-ar fi putut recunoaște.</p>
+<p>În loc de potcap, își pusese căciulă, și în locul rasei, aruncă pe spatele sale o zeghe frumoasă.</p>
+<p>Când era preot, avea o barbă lungă și neagră ; acum o răsese și nu-și lăsă nici mustăți. Eră ca pe palmă.</p>
+  <p>—Băeți! le zise ei cu o voce resunătoare, v’am a-dus aci, v’am spus care o să fie lupta noastră; Ați primit cu toții și ați jurat pe țărâna strămoșilor noștri că vom fi întotdeauna gata să murim unul pentru altul. Am jurat, că dacă cumva vreunul dintre noi va îi prins de poterile grecilor, cari cutreeră, va primi mai bine să moară, de cât să’și vânză tovarășii. Ei bine, acum să vă alegeți un căpitan, care să vă ducă cum va ști el mai bine și pe care să’l ascultați fără împotrivire.</p>
+<p>— Ghiță! strigară ceilalți zece voinici. Cine altul afară de tine ar putea ca să fie căpetenia noastră ? Te alegem pe tine !</p>
+<p>— Vă mulțumesc, le răspunse fostul preot. </p>
+ <p>Se auzi un sgomot venit de departe.</p>
+<p>— Veniți după mine! le zise Cătănuță.</p>
+<p>— Cine să fie? Se întrebară noii oaspeți ai codrului.</p>
+<p>— Vom vedea acum, le respunse căpitanul și cu toții Se îndreptară spre acea parte.</p>
+<p>Nu merseră mult și zăriră vr’o patruzeci de oameni înarmați de sus până jos. Ei mergeau uitându-se prin toate părțile pădurei.</p>
+<p>Eră potera, care venea să prindă pe Gruie haiducul.</p>
+<p>— Căpitane, întrebară cei zece oameni, ce ne facem dacă vom fi văzuți ? Vom muri cu toți, căci ei sunt o sumedenie.</p>
+<p>Ghiță se gândi vre-o două minute, apoi le zise :</p>
+<p>— Veniți după mine.</p>
+<p>Noii haiduci se supuseră.</p>
+<p>După aceea Cătănuță îi împrăștie pe toți în câte-o parte a pădurei, zicâridu-le :</p>
+<p>— Când veți auzi fluerătura mea, să începeți a da cu puștile și să vă mișcați din loc în loc, așa încât să faceți roata împrejurul pădurei. Eu voi sta aici, ca să nu perd urma acestor spurcați.</p>
+<p>— Bine căpitane, dar tu vrei să te lupți singur cu potera ?</p>
+<p>— Nu, când se va ivi prilejul, vă voiu chema și pe voi.</p>
+<p>Când veți auzi a doua fluerătură a mea, să veniți cu toții lângă mine. </p>
+<p>— Bine căpitane, răspunseră haiducii lui Ghiță Cătănuță și plecară după cum le porunci.</p>
+<p>Potera rătăci prin pădure, ajunse pe ia jumătatea ei, când deodată se auzi o fluerătură puternică în cât răsuna tot codrul.</p>
+<p>— Ce se aude ? strigă Efendi-Gatos, capul poterei.</p>
+<p>— Cineva a fluerat răspunseră doi dintre poterașî. '</p>
+<p>De astă-dată însă se auziră zece trosnituri de pușcă care veneau din zece părți ale pădurei.</p>
+<p>— Pe loc, porunci Efendi-Gatos.</p>
+<p>Potera se opri.</p>
+<p>— Haiducii lui Grue trebue să fie aici ! zise el.</p>
+<p>— De sigur! răspunseră mai mulți fanarioți și turci.</p>
+<p>— Să mergem spre ei !</p>
+<p>—- Dar unde sunt ? întrebară câțiva poterași.</p>
+<p>— Bine, n’ați auzit detunăturile de pușcă ?</p>
+<p>— Ba am auzit, răspunseră poterașii tremurând de frică; dar ele au venit din vre-o 20 de părți.</p>
+<p>— Așa e ! gângăni Efendi-Gatos.</p>
+<p>— Trebue să fie și haiducii lui Codreanu tot p’aci, zise un grec spătos.</p>
+<p>Vocea lui fu însă întreruptă de alte zece descărcături de pușcă.</p>
+<p>Detunăturile de astă dată veniau din alte direcțiuni ale pădurei.</p>
+<p>— Bre ! esclamă Efendi-Gatos; ce dracu ! se vede treaba că toți haiducii din ținuturile acestea s’au adunat aci în pădure.</p>
+<p>— De sigur că și ceata lui Bujor tot pe aici trebue să fie, îngânară poterașii între dânșii, cu dinții clănțănind de frică.</p>
+<p>— Ce te gândești! n’auzi că toată pădurea e împresurată de hoți ? zise unul dintre ei, care ar fi dorit mai bine să intre în pământ, decât să dea ochi cu haiducii.</p>
+<p>— Mi se pare că e și Pazavan, răspunse un alt grec.</p>
+<p>— Eu mă prinz că hoții aceștia au aflat de venirea noastră, și s’au unit cu toți ca să ne prăpădească.</p>
+<p>O altă salvă de detunături le asurzi urechile și le astupă gura.</p>
+<p>— Să eșirn pe unde am venit, strigă Efendi-Gatos, căci altminteri suntem pierduți!</p>
+<p>— Să ne întoarcem îndărăt! răspunseră și poterașii.</p>
+<p>Ghiță Cătănuță, care îi urmăria de aproape, și care cunoștea foarte bine limba greacă, auzi porunca lui Gatos, și băgând, două degete în gură flueră pentru a doua oară.</p>
+<p>— N’auziți bre ? haiducii ne-au înconjurat ? strigară o parte din poterași și o luară la fugă prin pădure.</p>
+<p>Dar deodată se opriră în Ioc.</p>
+<p>Alte zece detunături de pușcă le tăie drumul.</p>
+<p>— Înainte! porunci Efendi- Gatos.</p>
+<p>Poterașii după ce se mai desmeticiră puțin, o luară iarăși la fugă.</p>
+<p>In timpul acesta haiducii se strânseră împrejurul lui Ghiță Cătănuță.</p>
+<p>— Aveți puștile încărcate ? întrebă el.</p>
+<p>— Da, căpitane, nu numai puștile, ci și pistoalele.</p>
+<p>— Atunci luati-o la fugă dar băgați de seamă să nu vă vază, căci este ziua mare.</p>
+<p>— Unde s’o luăm la fugă, afară din pădure ?</p>
+<p>— Nu mă ! le răspunse Cătănuță ; pitulați-vă pe după arbori și trageți în poteră.</p>
+<p>Haiducii făcură astfel și pe când poterașii fugeau, deodată unsprezece focuri îi ajunse de la spate și 18 dintr’inșii căzură la pământ.</p>
+<p>Fanarioții nu se mai opriră și nici nu s’au mai gândit să se apere. Groaza le îngheță sângele și uitându-se la tovarășii lor cum cădeau la pământ, o ținură tot într’o fugă.</p>
+<p>Se împrăștiară în toate părțile fugind pe unde vedeau cu ochii.</p>
+<p>Nu se zărea nimeni; era ziua mare și poterașii tot fugeau ca și când o urgie sau un potop i-ar fi gonit din urmă.</p>
+<p>De unde veniau împușcăturile ?</p>
+<p>Însuși marele Efendi-Gatos căuta prin fugă să scapa mai curând la câmp liber, unde să-și strângă rămășițele poterei și cu ele să se întoarcă la iași.</p>
+<p>Alte unsprezece descărcâturi de pușcă însă trimise de haiducii lui Ghiță Cătănuță, scurtară numai de cât viața atât lui Efendi-Gatos, cât și la alți opt voinici ca dânsul.</p>
+<p>Din patruzeci câți erau, rămaseră acum numai 16 și ar fi pierit și aceștia, dacă n’ar fi fost mai aproape de isprăvitul pădurei.</p>
+<p>După ce potera dispăru, Ghiță băgă iarăși două degete în gură și flueiră.</p>
+<p>— Suntem aci căpitane ! răspunseră cei zece haiduci, adunându-se împrejurul căpitanului lor.</p>
+<p>— Ei, v’a plăcut băeți cum v’am condus de data asta ? întrebă el.</p>
+<p>— Să trăești! răspunseră haiducii.</p>
+<p>— Acum, haidem să căutăm prin buzunările celor morți căci poate vom găsi ceva scule scumpe și ceva bani. Haiducii despuiară numaidecât pe poterașii morți luându-le armele și câți bani se găsiră la dânșii, in buzunarul lui Efendi-Gatos deteră peste o pungă care conținea peste 130 lire otomane.</p>
+<p>Banii fură împărțiți numaidecât de către Ghiță în părți egale. Acum să plecăm din pădurea asta, le zise Cătănuță.</p>
+<p>Zece minute în urmă haiducii părăsiau pădurea lăsând în urma lor 24 de cadavre pe care razele soarelui se încercau în zadar să-le încălziască.</p>
+ </div>
+ <div type="chapter">
+<head>Fuga Vidrei</head>
+<p>Soarele era aproape să apună, când o trăsură mică cu două roate, trasă de un cal roib, care scotea foc din nări, fugea lăsând un nor de praf în urma sa. În trăsură se vedea un om tânăr ras peste tot.</p>
+<p>Era Ghiță Cătănuță, care zbura spre iubita lui.</p>
+<p>Când ajunse el în sat, se făcu întuneric de tot.</p>
+<p>Ghiță merse deadreptul spre casa Vidrei.</p>
+<p>Frumoasa fată ședea încă pe prispă și cânta un cântec de dor. Bătrâna mumă adormise în casă și în somnu-i visa că scumpa ei fică devenise mireasă.</p>
+<p>In timpul acesta Ghiță își opri trăsura lângă prispă.</p>
+<p>Vidra se sculă în picioare.</p>
+<p>— Cine e ? întrebă ea.</p>
+<p>Nici un răspuns nu se auzi.</p>
+<p>Prin întunericul nopții însă, o umbră de om se apropie de dânsa.</p>
+<p>Copila începu a tremura.</p>
+<p>Ghiță Cătănuță o apucă de mână și cu o voce dulce îi zise :</p>
+<p>— Vidro! te iubesc.</p>
+<p>Nici un răspuns nu se auzi.</p>
+<p>— Vidro, nu fii atât de crudă, răspunde, vei voi și tu să mă iubești ?</p>
+<p>Luna eși de sub niște nori groși, și lumină fața voinicului Cătănuță.</p>
+<p>Vidra se uita la el. Era așa de schimbat, că nu recunoscu pe preotul de altă dată.</p>
+<p>— Ce voești tinere ? îi răspunse copila fără să-i mai fie frică.</p>
+<p>— Nimic mai mult decât dragostea ta, inima ta!</p>
+<p>— Dar bine voinice, eu...</p>
+<p>— Ascultă. Te iubesc de când eram copil, ai fost cea d’ântâiu față ce an întâlnit în viața mea, nu am iubit pe aita decât pe tine!</p>
+<p>După aceste cuvinte Cătănuță căzu la picioarele Vidrei.</p>
+<p>Această purtare din partea unui tânăr se întâmplă pentru prima dată frumoasei  copile.</p>
+<p>Ea îi apucă de mână și îl ridică în sus.</p>
+  <p>— Haide, scoală, inima Vidrei nu poate fi atât de crudă.</p>
+<p>Ghiță se sculă, depunând pe mâna fetei care o strângea în mâinile sale, un sărut înfocat.</p>
+<p>— Vin’o la mama, dragă voinice, îi zise ea; spune-i dorul tău și fii sigur că mi te va da ție.</p>
+<p>La auzul acestor cuvinte Ghiță râmase încurcat.</p>
+<p>Ce trebuia ca să-i mai zică? s’o răpească? Nu putea. Vidra ar fi strigat și âr fi răsculat tot satul.</p>
+<p>Să-i propue ca să fugă ?</p>
+<p>Nu cuteza.</p>
+<p>Câte-va minute rămase ca mut, fără a îndrăsnisă scoată un sigur cuvânt.</p>
+<p>Haide Bădiță, haide, îi zise în cele din urmă Vidra, trâgându’l de mână.</p>
+<p>—Dar unde vrei să mă duci ?</p>
+<p>La mama.</p>
+<p>— Draga mea, nu fii atât de crudă !</p>
+<p>Frumoasa copilă se uită mai mult timp în ochii adoratorului ei, ca și când ar fi voit să-l întrebe: Ce ai ? sau: Ce fel de om ești ?</p>
+  <p>—Cine-știe, continuă Cătănuță, mama ta nu va voi să te; dea mie și eu, fără tine nu voi putea trăi. Când te-am văzut pentru întâia dată, eram sărac, abia îmi scoteam pânea de toate zilele și d’aceia n’am îndrăznit ca sâ vin să te cer de nevastă ; astă-zi, astă-zi când sunt bogat, când sunt stăpânul pădurilor și munților după împrejur cred că nu mă vei respinge. Te voi purta în totdeauna la sânul meu, și tu vei fi împărăteasa mea. Ce’mi va folosi viața, ce’mi va folosi lumina zilei, de voiu fi ursit să trăesc departe de tine? Nu, Vidro, iubește-mă sau omoară-mă. Disprețul tău va fi moartea mea.</p>
+<p>Sufletul Vidrei se înduioșa la aceste cuvinte și cu un glas dulce, zise lui Ghiță Cătănuță : </p>
+  <p>— Dragul meu, nu te întrista de geaba, eu văd că mă iubești și de aceia, dacă cumva mama nu va voi ca să mă <gap rend="figure_Până când însă convoiul pășia încet, pe când glasul preoților se înălța în cer, un voinic călare se opri în spatele sicriului"/>
+  dea ție, atunci eu îți făgăduiesc că voiu fugi cu tine. Haide! Fii vesel, nu-ți face inimă rea. Vidra va fi femeia ta, ea singură îți spune aceasta de și nu-ți cunoaște nici numele măcar.</p>
+<p>Ghiță o luă în brațe și o sărută cu foc.</p>
+<p>O sărută mult și luna ascunzându-se după nori îi lăsă în întuneric.</p>
+<p>Minutele trecură repede și Vidra se smunci din brațele lui,</p>
+<p>— Destul... destul... zise ea.</p>
+<p>— Haide, dragă, îngână Cătănuță cu un glas tremurător; nu te mai îndoi de mine. La câți-va pași ne așteaptă trăsura și puțin mai departe o pădure verde în mijlocul căreia voiu zidi pentru tine un palat frumos.</p>
+<p>— De sigur, ’și zise Vidra în sine, acesta trebue să fie Grue. El e haiduc, căci altminteri ce ar căuta prin codri. Să fiu femeia unui haiduc !... Dar acesta a fost în totdeauna visul meu! Să fiu femeia unui voinic, unui adevărat român, care după cum îmi spunea mama, se luptă din răsputeri ca să scape țara din ghiarele ciocoilor...</p>
+<p>— Bine, voinice, se adresă după aceia lui Cătănuță, fiindcă voești, iată, voi fugi cu tine.</p>
+<p>— Vidro ! draga mea, vino în brațele mele. Tu ești pe atât de bună, pe cât de frumoasă.</p>
+<p>— Nu, îl opri ea, nu voiu face acest pas până nu mă voiu duce să iau un sărutat dela buna mea mamă.</p>
+<p>— Bine dragă, te aștept afară, dar dacă cum-va te va opri, dacă va bănui...</p>
+<p>— Fii pe pace; mama doarme și eu îi voiu săruta mâna fără a o deștepta.</p>
+<p>Zicând aceste cuvinte, deschise ușa și intră în casă.</p>
+<p>Aici, pe un pat de scânduri, dormea o femeie bătrână.</p>
+<p>De unde înainte visa un vis atât de fericit, acum visul i se schimbă și părea că vede pe fiica ei moartă.</p>
+<p>Sărmana mamă suspina.</p>
+<p>Vidra se apropie de patul ei, îi ridică măna și sărutând-o lăsa să-i cadă din ochi o lacrimă.</p>
+<p>Atunci bătrâna Ileană, — astfel se numiâ muma Vidrei — se trezi și sări drept în picioare.</p>
+<p>Visase pe fiica ei moartă și acum o vedea lângă dânsa, ținându-i mâna lângă buzele ei și plângând.</p>
+<p>— Copila mea ce ai ? o întrebă.</p>
+<p>— Nimic mamă, dar ce suspinai în somn.</p>
+<p>— Oh! un vis urât. Erai parcă...</p>
+<p>Dar Ileana se opri. De ce să mai întristeze pe fiica sa.</p>
+<p>— Vin’o de stai lângă mine, copila mea ! îi zise bătrâna trăgând’o lângă dânsa.</p>
+<p>Vidra se supuse. In aceste minate uitase cu totul pe străinul de afară..</p>
+<p>— Oh! cât îmi pare de bine că m’am deșteptat!</p>
+<p>—Mamă, dar ce ai visat?</p>
+<p>— Am visat, draga mea, am visat că tu te despărțiai de mine!</p>
+<p>La aceste cuvinte un fior rece trecu prin corpul Vidrei:</p>
+<p>—- Da, continuă bătrâna Ileană, ștergându-și lacrimile: părea că tu te despărțiai de mine, părea că tu te duceai în niște locuri depărtate. In zadar te. strigam, în zadar în-tindeam brațele spre ține, tu plecai și eu, eu trebuia să nu te mai văd.</p>
+<p>Inchipuiește-ți acum, scumpa mea copilă, câtă durere trebue să/fi shnțit eu, care te iubesc așa de mult, care îți sunt mamă, vai! Și ce iubire poate fi mai mare pe lume decât iubirea unei mame!</p>
+<p>Vidra ascultă cu ochii muiați în lacrimi cuvintele mamei sale și și schimba gândul pe care îi avea puțin mai înainte de a fugi cu voinicul care o aștepta afară.</p>
+<p>Ghiță, văzând că se întârzie, înțelese că s’a petrecut ceva.</p>
+<p>— Neghiob ce sunt! își zice el, de ce am lăsat-o să mai intre în casă. Cine știe, poate că nu va mai voi să fuga cu mine. Așâ trebue să pat; am avut prilegiul și i’am scăpat din mână.</p>
+<p>Nu isprăvi însă aceste reflexiuni și ușa sălei deschizându-se de odată apăru Vidra.</p>
+<p>— Draga mea&gt; de ce ai întârziat atâta ? o întrebă el. Nu știi cât e de crudă așteptarea pentru cei care iubește ?</p>
+<p>— Voinice, vin’o altă dată, îl întrerupse ea; acum nu pot veni cu tine. Mama plânge. A visat ceia ce eră să se petreacă.</p>
+<p>— O, Vidro, o dragă mea, vei fi atât de crudă ca să mă iași să plec fără tine, care ești viața mea! Ai dreptate, nu m’ai văzut decât astă dată și nu poți să mă iubești. Însă eu, care te iubesc în umbră de atâția ani; eu, care te vedeam și nu îndrăsniam să-mi arăt iubirea; care muream de dorul tău, pe când tu treceai nepăsătoare pe lângă mine!</p>
+<p>— De ce nu mă crezi că și eu te iubesc ? Inima mea bate tot așa de tare și tot cu atâta foc ca și a ta! Te-am văzut acum întâia dată, este adevărat; cu toate astea, te iubesc de mult. Mama mi-a povestit adesea vitejiile și frica ce au ciocoii de tine și de atunci în totdeauna te vedeam în visurile mele. Tresăream întotdeauna la auzul numelui tău și rugam pe Dumnezeu să nu-mi dea alt bărbat, când va fi să mă mărit, decât pe tine, sau pe unul ca tine.</p>
+<p>Vezi dar voinice că te iubesc și eu de mult și că iubirea mea, eră mare, căci nu te cunoșteam, nu te văzusem nici o dată, îmi închipuiam însă că ești voinic, tânăr și frumos.</p>
+<p>Noapte bună, dar dragul meu, noapte bună! Vino mâine, vino poimâne, vino în ori care zi vei voi și voi fi a ta. În astă seară, însă e peste putință.</p>
+<p>Vidra voi să intre în casă, dar Ghiță o opri.</p>
+<p>— Am fost odată neghiob, își zise el; nu voiu mai fi și a doua oară.</p>
+<p>— Ce vrei? îi zise Vidra. De ce mă oprești ?</p>
+<p>— Voiu să-ți spun ceva, îi răspunse, el.</p>
+<p>— Dar bine, nu te gândești că poate să iasă mama afară și ce va zice, când mă va vedeâ cu un străin?</p>
+<p>— Vino mai încoace Vidro, îi zise el și apucând-o de mână o târâ până lângă trăsura sa.</p>
+<p>— Unde mă duci ? îl întrebă din nou cu oarecare spaimă.</p>
+<p>Cătănuță nu mai pierdu vremea și astupându-i gura cu o mână, o apucă cu cealaltă de mijloc și o aruncă în trăsură. Sări apoi și dând biciu calului, peste câteva minute fură afară din sat.</p>
+<p>Veți crede poate că Vidra a leșinat; că e disperată, că ar vrea să se sinucidă ?</p>
+<p>Aș! nimic.</p>
+<p>Vidra nu făcea parte dintre gingașele aristocrate. Ea era fiică de țăran, Nu era floare de acelea crescute la răcoare și la umbră și pe cari cel mai mic vânt le scutură frunzele! ci era o floare de câmp, care s’a deschis la razele soarelui și din al cărei miros se îmbată aerul. Pentru dânsa, purtarea lui Ghiță i se păru ceva obișnuit și de aceea, în loc d’a plânge sau strigă, s’a mulțumit să-l strângă în brațe și să i întrebe dacă o va aduce înapoi la muma sa.</p>
+<p>— Fii sigură, fii sigură, dragă, îi zise el.</p>
+<p>Era aproape miezul nopții și trăsura lui Ghiță Cătănuță sburâ încă pe câmpia întinsă.</p>
+<p>Căpitanul haiducilor se credea acum în culmea fericirei, căci avea lângă dânsul pe Vidra, pe acea fată pe care a iubit-o așa de mult.</p>
+<p>El credeâ că fericirea îl va purtă de aici înainte pe aripile sale și că nimeni nu ar putea să-i turbure dulceața unei vieți fermecătoare.</p>
+<p>Dar totul e schimbător în lume; nimic nu poate fi stabil.</p>
+<p>Atunci când ziua pare mai senină, când soarele strălucește mai frumos, vine norul de acoperă orizontul, și uraganul începe să sufle.</p>
+<p>Cătănuță se credea acum fericit și pe când cu o mână ținea hățurile calului, cu cealaltă strângea talia frumoasei copile.</p>
+<p>— O draga mea, îi zise el ; cât sunt de vesel că mă aflu lângă tine, că voiu trăi cu tine !</p>
+<p>Pe ce nu mă întrebi și pe mine, dacă nu simt aceeași bucurie. Ah ! cât de mult doream ca să fiu femeea unui haiduc !..</p>
+<p>Dar bine dragă, cine ți-a vorbit despre mine, de unde ai auzit de numele meu ? întrebă Cătănuță plin de curiozitate.</p>
+  <p>—Hei, îi șopti Vidra, voinicii întotdeauna se aud și se iubesc.</p>
+<p>— Vidro! tu ai o inimă...</p>
+<p>— Da, te iubesc Gruie!</p>
+<p>— Drace! exclamă Ghiță, fata asta e nebună !</p>
+  <p>—Ce ai zis dragă, duruitul trăsurei și vântul, care iți fură cuvintele, nu m’au lăsat să te aud.</p>
+<p>— Am zis că fericirea mea e deplină, că mi s’a îndeplinit dorința!</p>
+<p>— Dar de unde știi că mă chiamă Gruie?</p>
+<p>— Știu, fiindcă numai el e voinic ca tine !</p>
+<p>— Cu toate astea, nu sunt eu Gruia.</p>
+<p>— Ce zici ? strigă atunci Vidra.</p>
+<p>— Zic că eu nu sunt Gruia, ci Ghiță Cătănuță, stăpânitorul munților și pădurilor care se întind prin aceste ținuturi.</p>
+<p>pnm ? Ești Ghiță preotul din satul... întrebă ea cu groază.</p>
+<p>— Da, chiar eu.</p>
+<p>— Tu ești acela care ai omorât pe paracliserul Ciorchină ? Care, după cum zicea satul mă iubea ?</p>
+<p>— Eu, și l’am omorât fiindcă te iubia.</p>
+  <p>—O, Dumnezeule, nu mă înșală oare auzul ? tu să fii Ghiță preotul care ai fost însurat și a cărui preoteasă a murit ?</p>
+  <p>—N-am iubit’o nici odată, draga mea !</p>
+  <p>—Țaci  nelegiuitule, taci! îi răspunse ea și acoperindu-și fața cu mâinile începu să plângă.</p>
+ </div>
+  <div type="chapter">
+<head>Ghiță e pretutindeni și nicăeri</head>
+<p>Patru luni trecură. Ghiță Cătănuță trăia acum cu Vidra, însă fericirea pe care o visase mai dinainte, i se schimbase într’o durere nemărginită și într’un traiu plin de amărăciuni.</p>
+<p>De ce zilele treceau, de ce vedea mai mult că Vidra nu-l iubește, că nu poate nici să-l sufere.</p>
+<p>Cu toate astea, nu se lăsa să fie doborât nici de dragoste, nici de durere.</p>
+<p>Să lăsăm însă puțin pe Ghiță Cătănuță și să ne ducem, prin poteca numită a <hi>hoțului,</hi> care pleacă din mijlocul unei păduri și nu se isprăvește decât la Iași.</p>
+<p>Acolo, la poalele munților, în partea dreaptă a orașului, vedem un om bătrân, cu o barbă albă și lungă, cu un toiag în mână și cu o traistă pe umăr.</p>
+<p>Pare a fi slab și prăpădit, în cât abia ridică dealul.</p>
+<p>Puțin mai în urmă, venea un turc înalt și spătos. El pășea repede și după aerul feței sale, se vedea că trebue să fie grăbit. ,</p>
+<p>Poteca era strâmtă, astfel că cu greu ar ti putut merge doi inși pe aceiași linie.</p>
+<p>Bătrânul pășia încet și din când în când tot tragea cu ochiul la spatele sale.</p>
+<p>Turcul se aproprie de dânsul și-i striga:</p>
+<p>— La o parte, ghiaure!</p>
+<p>Bătrânul însă, își ținu pasul regulat ca și când n ar fi auzit cuvintele turcului.</p>
+<p>Acesta se repezi la bătrân și-i dete un așa brânci, în cat ai fi crezut că’l va turti la pământ.</p>
+<p>Bătrânul se ținu însă nemișcat, ca o stâncă.</p>
+<p>Turcul, duse atunci mâna la brâu ca să-și scoată cuțitul, dar nu avuse vreme. Misteriosul nostru bătrân se întoarse repede și-l isbi așa de tare cu palma peste obraz, în cât sângele îi țâșni pe nas și pe gură.</p>
+<p>— Ghiaure, bolborosi el.</p>
+<p>— Te afli în țara românească ! îi răspunse bătrânul smulgându-i cuțitul dela brâu.</p>
+<p>Turcul se trase câțiva pași înapoi, dar unchiașul cu barba albă se aruncă asupra lui, îi băgă cuțitul în piept și lăsându-l mort în mijlocul potecei, își urmă calea.</p>
+<p>Abia se depărtă însă câțiva pași, și zări venind spre dânsul o poteră compusă din vre-o 28 de arnăuți.</p>
+<p>Ei veneau călare, așezați în șir unul câte unul.</p>
+<p>Bătrânul le făcu loc să treacă.</p>
+<p>De odată însă dau cu ochii de turc și se opresc pe loc.</p>
+<p>— Mă unchiașule, strigă unul din ei bătrânului, care își urmă calea liniștit.</p>
+<p>Bătrânul își întoarse capul.</p>
+<p>Vin’o încoace! zise un altul făcându-i semn cu mână.</p>
+<p>El se întoarse numai decât.</p>
+<p>— Ce voiți ? întrebă dânsul.</p>
+<p>— Cine a omorât pe acest turc?</p>
+<p>— Nu știu, răspunse bătrânul. Mai adineaorea am văzut 2 oameni, unul din ei era fioros și se numea Cătănuță,— după cum îi zicea celalt tovarăș al său — poate că acesta l’o fi omorât.</p>
+<p>— Cătănuță! exclamă o parte din poterași; — pe el îl căutăm.</p>
+<p>. — Atunci, mergeți repede, pe potecă înainte; poate să fie acela despre care v’am vorbit.</p>
+<p>— Cum era la față ? întrebă cel mai mare al poterei.</p>
+<p>— Potrivit, răspunse bătrânul, nici frumos, nici urât.</p>
+<p>— Dar nu te întreb de aceasta.</p>
+<p>— Atunci ?</p>
+<p>— Era tânăr, bătrân ?</p>
+<p>— Avea tocmai vârsta nepotului meu Neacșu : era cam de 23 de ani.</p>
+<p>— De la bătrânul ăsta nu poți înțelege nimic, zise un alt arnăut.</p>
+<p>— Ia ascultă, continuă capul poterei, răspunde la ceea-ce te întreb.</p>
+<p>Răspund jupâne, sărut mâna, ce doriți să vă spun ?</p>
+<p>— Acela pe care zici câ’l cheamă Cătănuță, era stropit de sânge ?</p>
+<p>— N’am băgat de seamă.</p>
+<p>— Nici dacă avea barbă, sau mustăți ?</p>
+<p>— Nu avea nici mustăți, nici barbă ; era ras ca pe palmă.</p>
+<p>— Atunci el e. Și adresându-se către tovarășii lui le zise :</p>
+<p>— Înainte băeți!</p>
+   <p>Fanarioții plecară, iar bătrânul își urma drumul înainte. Peste un ceas el tu în Iași ; apucă p’o stradă strâmtă, merse cât-va până ce dădu în strada mare și se opri înaintea biserici „Sfânta Treime", Aci întâlni un preot.</p>
+<p>— Părinte, întrebă bătrânul, care boer e mai bogat în orașul acesta ?</p>
+   <p> —De ce mă întrebi ? respunse preotul.</p>
+<p>— Uite, sunt sărac, n’am mâncat de două zile. Un bordei ce am avut, mi i’a ars focul și de atunci umblu rătăcind din loc în loc, fără să am ce mânca, nici unde să-mi plec capul.</p>
+<p>— Dacă-i așa, zise preotul, du-te la Chir Spiru.</p>
+<p>— Ce creștin e acesta?</p>
+<p>— Un arvanit, putred de bogat.</p>
+<p>— Ești bun să-mi spui unde șade ?</p>
+<p>— Iți pot arăta de aci. Uite, vezi casele alea mari ?</p>
+<p>— Din a căror ogeac iese fum ?</p>
+<p>— Da.</p>
+<p>— Le văd.</p>
+<p>— Ei bine, acolo șade Chir Spiru, boer cu nume și cu intrare la curtea domnească.</p>
+<p>— Îți mulțâmesc prea sfinte, fii acum bun și dă-mi o ulcică cu apă, ca să-mi ud îst suflet însetat și Dumnezeu îți va înapoiâ pomana pe lumea cea-l’altă.</p>
+<p>— Vino înăuntru, îi zise preotul.</p>
+<p>Bătrânul urmă pe popă și intră într’o mică chilie.</p>
+<p>— Așteaptă-mâ puțin bătrâne, îi zise el, să mă cobor în beciu, că acolo țin apa, ca să fie rece.</p>
+<p>După aceste cuvinte, preotul deschise un mic oblon și se lăsă pe niște scări într’un beciu adânc.</p>
+<p>Bătrânul se repezi numai decât la gura beciului și iasă oblonul, puindu-i și lacătul.</p>
+<p>— Ce este ? răcni preotui când se văzu în întuneric.</p>
+<p>— Nimic îi răspunse bătrânul râzând, stai acolo, că e mai răcoare!</p>
+<p>— Dumnezeule! strigă preotul din fundul beciului, — tu erai un hoț și mie îmi erâ milă de tine.</p>
+<p>— Nu sunt hoț, bunul meu sfânt; eu sunt Ghiță Cătănuță. : </p>
+<p>— Ghiță Cătănuță?! exclamă preotul, tu ești Ghiță acel</p>
+<p>Popă care s’a lăsat de sfânta liturghie și s’a făcut haiduc ? tu ești acel nelegiuit ? Atunci sunt pierdut!</p>
+<p>— Nu-ți voiu face nici un rău, răspunse căpitanul de haiduci! nu mi-ai făcut nimic și n’am dece să mă răsbun pe tine.</p>
+<p>— Atunci de ce m'ai închis aici ?</p>
+<p>Ghiță nu voi să-i mai răspunză. Se desbrăcă iute de hainele sale; se îmbrăcă cu haine călugărești, puse pe cap un potcap în locul căciulei de oaie și plecă spre casa lui Chir Spiru.</p>
+<p>Când ajunse aici îi ieși înainte o slugă și-l întrebă ce voește.</p>
+<p>— Jupân Spiru e acasă ? întrebă Cătănuță.</p>
+<p>Acasă, răspunse sluga dar dece întrebi ?</p>
+<p>— Nu pot șă spun decât numai lui.</p>
+<p>Sluga se sui numai de cât la stăpânul său și-i spuse că un călugăr voește să-i vorbească</p>
+<p>Intreabă-l cum se numește, zise Chir Spiru.</p>
+<p>Sluga împlini porunca și venind pentru a doua oară te stăpânul său, îi zise.</p>
+<p>— Se numește Efsevie.</p>
+<p>— Spune-i să intre.</p>
+<p>După câte-va minute bătrânul călugăr se afla în fata marelui hoț de ziuă, Chir Spiru.</p>
+<p>— Ce voiești părinte ? îl întrebă acesta.</p>
+<p>Am să-ți vorbesc cevâ interesant.</p>
+<p>Interesant I să te vedem, cutează, eu te ascult.</p>
+<p>— Voiu cuteză n’aibi grije, zise haiducul în sine, apoi continuă cu o voce tare.</p>
+<p>— La o depărtare de câteva poști am o moșie, pe care mi-a lăsat-o un nepot al meu. După cum vezi, eu sunt un călugăr și nu mă pot ocupă cu plugăria, de aceia a-și vrea s o vând Efendiei voastre.</p>
+<p>—Bucuros, răspunse arvanitul, văzând că un nou chilipir îi va cădea în mână; dar mai întâi trebue să văd moșia.</p>
+<p>— Bine, când veți avea vreme, veniți cu mine, să vedeți toate locurile, să vâ arăt și înscrisurile, și testamentul, ca să te pliroforisești.</p>
+<p>— Minunat părinte, vino mâine de dimineață la 12 când mă scol. Voiu spune vizitiului să pue caii la trăsură și vom merge să vizităm moșia. Dacă mi-o vinzi eftin, ți-o cumpăr.</p>
+<p>— Așa dar mâine de dimineață, la 12, să fiu aici ?</p>
+<p>— Da, da.</p>
+<p>— Cu Domnul, fie numele lui binecuvântat Călugărul se sculă să plece. Chir Spiru se sculă de asemeni ca să conducă pe acela dela care a doua zi trebuea să cumpere o moșie aproape pe nimic.</p>
+<p>Doi pași făcu călugărul spre ușe și întorcânduse iute, apucă pe arvanit de piept și il trânti la pământ.</p>
+<p>Chir Spiru rămase încremenit. El voi să strige, dar călugărul îi arătă un cuțit zicându-i:</p>
+<p>— De vei scoate un singur cuvânt, să știi că ești mort Grecul tăcu.</p>
+<p>— Știi cine sunt eu.</p>
+<p>— Nu, răspunse Chir Spiru.</p>
+<p>— Află atunci că mă numesc Ghiță Cătănuță.</p>
+<p>Arvanitul începu să tremure.</p>
+<p>— Dacă voești să scapi cu viață, să-mi dai toți banii, ori de unde nu, te vei scălda în sângele tău.</p>
+<p>— Dau, gângăni Chir Spiru, numai să nu mă omori.</p>
+<p>Ghiță ridică pe arvanit dela pământ și împreună trecură într’o altă odăiță unde eră casa cu bani.</p>
+<p>După ce haiducul luă bani cât a putut să ridice, legă mâinile arvanitului, îi astupă gura și luându-și toiagul eși afară.</p>
+<p>Când se văzu în stradă, o luă spre dreapta, o coti apoi spre stânga și dând într’o uliță dosnică, își lepădă numai de cât rasa, aruncă potcapul și rămase în niște sdrențe de haine, pe care la purtă înadins, pentru a se putea preschimba.</p>
+<p>Astfel deghizat, Ghiță Cătănuță o plecă spre cârmuirea din acel timp, cum ar fi azi poliția. Aici găsi un fanariot răsturnat pe o sofa fumând alene dintr’un ciubuc.</p>
+<p>— Ăsta e hoțul cel mai mare! zise Cătănuță intrând în odaia în care ședeâ marele magistrat, având încă alți doi lângă dânsul, cu cari se consultă.</p>
+<p>— Ce voești mojicule, întrebă cu un aer îngâmfat fanariotul de pe sofa.</p>
+<p>— Am să dau o jalbă, stăpâne, zise haiducul băgând mâna în buzunar.</p>
+<p>—Haide, dă-o mai curând, îi răspunse unul dintre consilieri.</p>
+<p>— Ce să dea, pronunță cel după sofa, noi nu primim jalbe de la mojici ca acesta. ,</p>
+<p>—Dar eu nu sunt mojic, răspunse căpitanul haiducilor; sunt un voinic, care singur pot să omor zece ca voi! Sunt Ghiță Cătănuță.</p>
+<p>Cu aceste cuvinte, întinse un pistol spre fanariotul care zisese că nu primește jalbă de la mojici și îi risipi Creerii</p>
+<p>Cătănuțâ descărca apoi un al doilea pistol. Odaia se umplu de fum și întuneric; Streaja, care păzea afară, intră să vadă ce este, iar el, profitând de zăpăceala produsă între fanarioți, o rupse la sănătoasa.</p>
+<p>Jumătate de ceas în urmă, tot lașul eră pus în mișcare  în toate părțile umblau călăreții Înarmați, căutând' să găsească pe Ghiță Cătănuțâ.</p>
+<p>—Ai auzit îndrăsneală! își ziceau unii: să omoare pe carmuitorul pus de domnie ca să judece pe cei nedreptățiți! Și unde? tocmai în camera, dreptăței !</p>
+<p>E român cu inimă! ziceau alții. El omoară fără frică, toata lumea, în sfârșit, nu vbrbia de cât despre Ghiță și in. toate părțile nu vedeai de cât oameni de ai stăpânirei care cautau prin cârciumi, prin poduri, pe ori unde își dădeau cu mintea ca s’ar fi putut ascunde acel mare hoț, după cum îl numeau ei.</p>
+<p>Numai un țigan negru și urât, cu mustățile pe jumătate arse de foc, se plimba pe strade, nepăsător de sgomotul, care resculașe aproape tot orașul și striga din când în când.</p>
+<p>— Lacate, pirostrie avem lacate bune...</p>
+<p>Acesta era Ghiță Cătănuțâ. Când se înserase bine, toți cei trimeși ca sâ-l aducă vis șau mort pe Câtănuță, șe întorceau cu capetele pleoștite la comisariatul ca să zicem astfel, in care marele ora al dreptăței căzu trăsnit de pistolul cutezătorului haiduc.</p>
+   <p>—L’ați găsit băeți ? întrebă unul din cei doi consilieri ai marelui judecător mort.</p>
+<p>Nu răspunseră unii din ei. L’am căutat în toate părțile, nu am lăsat un ioc, unde să nu fi scotocit, dar nimic.</p>
+   <p>—Parcă s’ar fi bagat în pământ! adăugară alții.</p>
+<p>Odată însă o poteră se opri dinaintea ușei</p>
+   <p>—Stăpâne, zice capul acelei poteri, cruntul haiduc, Ghiță Catanuța, după a căror urme am plecat, a omorât astâ-zi pe poteca numită a hoțului, pe un biet turc care venea spre oraș.</p>
+   <p>—Nu poate ! exclamă cel de la masa dreptății. Ghița Catanuța a fost aici și a împușcat pe Efendi Varulachi își  isprăvi cuvântul din, urmă-șMată-’că intră și arvanitul Chir Spiru?</p>
+<p>— Pentru toți dracii ! zise acesta. Ghiță Cătănuță, mi-a astupat gura și mi-a furat toți banii!</p>
+<p>Tot în vremea asta, iată că intră și un preot.</p>
+<p>— Oameni ai dreptăței! zise el, hoțul Ghiță Cătănuță, a venit astăzi la mine, m’a închis în beciu, m’a prădat și dispărut.</p>
+<p>— Dar bine ! Ghiță Cătănuță e dracu ! exclamară cu toți.</p>
+   <p><hi>— Ghiță e pretutindeni și nicăeri,</hi> strigă atunci un țigan, care slobozi două pistoale cu patru focuri, culcând încă trei la pământ. Apoi, ca fulgerul, se făcu nevăzut din ochii tuturora.</p>
+  </div>
+<div type="chapter"> 
+<head>Cel din urmă sărutat.</head>
+<p>În mijlocul unei dese păduri, acolo unde razele soarelui pătrund cu greu, acolo unde iarba crește fără a fi călcată de picioarele oamenilor și unde secura nu a putut încă pătrunde, își făcuse Ghiță Cătănuță cuibul său.</p>
+<p>Intr’un bordeiu frumos, împresurat numai de flori și arbori cari își împleteau ramurile, ședea retras voinicul haiduc, împreună cu mândra lui, cu frumoasa Vidra.</p>
+<p>Trecuse mult timp de când trăia cu dânsa și cu toate astea, nici o scântee de iubire din partea ei.</p>
+<p>În totdeauna o vedea plângând, în totdeauna fugia de privirile și îmbrățișările lui.</p>
+<p>— Vidro, de ce nu mă iubești ? De ce inima ta e atât de rece ! Pentru ce te mai gândești la Gruia ? Nu sunt și eu tot așa de voinic ca și dânsul ! Tu iubești pe un om care nu-l cunoști, pe care nu l’ai văzut niciodată.</p>
+<p>— Taci! îi răspundea Vidra. L’am văzut în totdeauna în visurile mele ! E un tânăr voinic, curat la față, curat și la inimă! Pe dânsul îl iubesc și dacă soarta a fost așa de rea cu mine; îmi voiu îneca suspinele și voiu aștepta moartea ca să-mi aline suferințele și dorul.</p>
+<p>— Dar ce ți-am făcut eu, Vidro dragă ?</p>
+<p>— M’ai înșelat și m’ai răpit dela căsuța mamei mele! Dece nu mi-ai spus atunci că ești Ghiță preotul, care ai omorât pe paracliserul Ciochină ?</p>
+  <p>— L ’am omorât, este adevărat, fiindcă te iubea ! Era un nemernic, un strânge mucuri dela biserică..,</p>
+  <p>— Toate bune, dar cum te pot iubi, când mă gândesc că ești un nelegiuit, care ai părăsit biserica, ca să apuci calea codrului ?</p>
+<p>— O, Vidro! am părăsit biserica în care slujiam lui Dumnezeu, pentru a intra într’o altă biserică în care să slujesc țărei mele ! Am fugit de psalmii profeților, pentru ca să aud detunăturile puștilor!</p>
+<p>— Și în cele din urmă, continuă Vidra, tu ai fost însurat înainte de a mă avea pe mine, aveai preoteasă.</p>
+<p>La aceste cuvinte, Cătânuță își plecă capul, și rămase gânditor.</p>
+<p>— Dacă vrei, îi zise Vidra; dacă vrei ca în toată viața să-ți fiu recunoscătoare, ascultă-mă Ghiță, du-mă înapoi la mama ! Scoate-mă din acest codru întunecos, unde nu pot vedea lumina zilei, unde nici rază a soarelui nu-mi luminează fruntea obosită...</p>
+<p>— O! Vidro, dar cum aș putea să mă despart de tine ? Spune-mi să-ți dau orice; spune-mi să-ți dau chiar viața! Sunt gata !</p>
+<p>— O, te știu cât ești de crud! Răspunse ea suspinând.</p>
+<p>Ghiță se apropie mai mult de dânsa, o strânse la sânul său și-i zise :</p>
+<p>— Vidro, lasă întristarea, cântă ceva ! Cântecul tău e dulce și ori de câte ori îl aud, îmi perd tristele gânduri.</p>
+<p>Vidra avea, în adevăr, o voce fermecătoare.</p>
+<p>Când începea să cânte, frunzele păreau că se opresc de a se mai mișca pe ramuri, râurile de a mai curge, paserile de a mai sbura și cu toate ascultau parcă glasul Vidrei și păreau că suspină odată cu ea...</p>
+<p>— Să-ți cânt, îi zise dânsa. Dacă ție îți împrăștie gândurile, mie îmi mărește durerea. Să-ți cânt, să-ți cânt...</p>
+<p>Și ea cântă, cu accente de disperare, această baladă, întreruptă din când în când de câte un adânc oftat:</p>
+<quote type="ballad">
+<l>Pe cel deal, pe cel colnic</l> 
+ <l>Trece-o pruncă și un voinic,</l> 
+ <l>Voinicelul haulind </l>
+<l> Și pe murgul netezind</l>
+<l>Și din gură așa zicând :</l>
+<l>— Ia-mă bădiță călare </l>
+ <l>Numai pot sta pe picioare,</l> 
+ <l>Drumu-i greu și grunțuros</l> 
+ <l>Și nu pot merge pe jos!</l>
+<l>— Puiculiță chip frumos,</l>
+<l>Eu te-aș lua bucuros</l>
+<l>Dar mi-e murgul sprintenel,</l>
+<l>In picioare subțirel </l>
+ <l>Murgu’i mic și drumul greu </l>
+ <l>Mijlocul cu armele,</l>
+<l>Abia duce trupul meu!</l>
+ <l>Trupul cu păcatele.</l>
+<l>— Nu ți-e milă și păcat;</l>
+<l>De la mama m’ai luat </l>
+ <l>Și’n răi codri m’ai băgat! </l>
+ <l>Dare-ar Domnul Dumnezeu </l>
+ <l>Să fie pe gândul meu!</l>
+<l>Să te duci, bădiță duci,</l>
+<l>Până-i cădea rob la turci,</l>
+<l>Cu picioarele ’n butuci</l> 
+ <l>Si cu mâinele în cătuși:</l>
+<l>Să te ajungă dorul meu;</l> 
+ <l>Unde-o fi drumul mai greu </l>
+ <l>Să te bată jalea mea,</l>
+<l>Unde-o fi calea mai grea!</l>
+ <l>Murgul să se poticnească,</l>
+<l>In creștet să te trântească,</l> 
+ <l>Mâna dreaptă să-ți scrântească</l>
+<l>Mâna stângă </l>
+ <l>Să ți-o frângă.</l>
+<l>Să ții dârlogii cu dinții,</l>
+<l>Să mi te plângă părinții.</l>
+<l>Să te însori de nouă ori.</l>
+<l>Și să faci nouă feciori,</l>
+<l>Să mai te însori odată </l>
+ <l>Ca să faci numai o fată...</l>
+<l>Ei să treacă șuerând </l>
+ <l>Când te-or auzi plângând.</l>
+ <l>Ea în palme să-ți tot care!... </l>
+  <l>Apă tulbure ș’amară </l>
+  <l>Tu să bei, să bei mereu...</l> 
+  <l>Gândind la blestemul meu!</l>
+ </quote>
+<p>Ceea ce cântă Vidra era un blestem, ea îl cântă eu o voce tremurătoare, având ochii ațintiți în ochii lui Ghița.</p>
+<p>Căpitanul haiducilor pentru întâia dată lăsă să’i cază din ochii două lacrimi.</p>
+<p>Vidra le văzu și se înduioșă.</p>
+<p>Ea îi mai cântă încă alte două cântece mai vesele, îl mângâie puțin cu mâna și în urmă obosită de durere se culcă.</p>
+<p>Era miezul nopței. Vidra dormea, când de odată tresări — Dumnezeul meu, zise ea scuiandu-se, să fie adevărat ceeace am visat ? Să fi murit mama !... Și ochii i se umplură de lacrămi.</p>
+<p>Eși afară. Eră lună și în razele ei părea că vede umbra mamei sale.</p>
+<p>A murit! își zise dânsa. Inima ’mi-o spune! N’am s’o mai văd !...</p>
+<p>Și Vidra căzu în genunchi, ridică mâinele spre cer și începu să se roage.</p>
+<p>Vre-o jumătate de oră stătu ea astfel. Se sculă apoi^ se duse la calul lui Ghiță, care era legat de un arbore, în-călecă, și voi să plece.</p>
+<p>Când murgul simți că e un străin, necheză așa de tare, încât Ghiță sări din pat și văzu că Vidra nu-i lângă dânsul. Se repezi afară.</p>
+<p>Se duse la calul său. Calul nu mai era acolo. Atunci un fior îi străbătu corpul. Pe când stătea gânditor, rezemat cu capul de copac, auzi în depărtare nechezitul murgului.</p>
+<p>Vidra plecase, dar unde se ducea ?</p>
+<p>Nu cunoștea drumul, n’avea de călăuză decât durerea.</p>
+<p>Ea părăsia pădurea ; părâsia bordeiul, părăsia pe Cătă-nuță și sbura acolo unde dorul, cel mai sfânt dor după pământ, dorul mamei o chemă!</p>
+<p>Se ducea s’o vadă... era mult de când n’o mai văzuse... trecură luni din acea seară când a lăsat-o plângând pe patul de scânduri !...</p>
+<p>Ghiță, după minute de gândire, își ridică de odată capul și-și zise :</p>
+<p>— Da trebue să mă iau după dânsa ! trebue s’o ajung !</p>
+<p>Și plecă.</p>
+<p>De odată, auzi o fluerătură.</p>
+<p>Ghiță răspunse printr’o altă fluerătură.</p>
+<p>— Cine ești ? întrebă după aceia Cătănuță.</p>
+<p><hi>— Sânge,</hi> răspunse omul care se apropia mereu.</p>
+<p>— Bine, zise căpitanul haiducilor. Cum te cheamă pe tine ?</p>
+<p>— Chiriță, răspunse acesta.</p>
+  <p><quote>„Sânge"</quote>era cuvântul, pentru acea noapte, din ceata lui Ghiță Cătănuță.</p>
+<p>— Dar ce voești ? întrebă atunci căpitanul haiducilor.</p>
+<p>— Vin să-ți vestesc că din spre partea de miază-noapte a pădurei a intrat o poteră mare.</p>
+<p>— O poteră ! exclamă Ghiță.</p>
+<p>— Da, și mare de tot!</p>
+<p>— Doamne ! ce să fac oare ? In ce parte să apuc ?</p>
+<p>De mă voiu duce în potriva poterei, voiu perde pe Vidra. De mă voiu lua după Vidra, potera va isbuti poate să-mi omoare voinicii... Nu, voiu sta lângă dânșii și cu sângele meu, de va trebui, îi voiu apăra până în cel din urmă minut.</p>
+<p>Pe când Cătănuță își zicea aceste cuvinte, iată că aude din nou altă fluerătură.</p>
+<p>— Cine să fie și acesta ? se întrebă.</p>
+<p>Apoi îi răspunse tot prin fluerat.</p>
+<p>— Cine ești tu ? întrebă el.</p>
+<p>O a doua umbră se apropie atunci de Ghiță.</p>
+<p>— Sânge! i se răspunse.</p>
+<p>— Bine zise Cătănuță ; și ce voești acum ?</p>
+<p>— Cineva a trecut călare pe poteca care scoate la drumul mare. Eu mă aflam în vârful pomului <hi>primejdia,</hi> și după cât am putut să văd, mi se părea a fi fost o femee, de și e cam ciudat.</p>
+<p>— Știu răspunse, Cătănuță. Acea femeia era Vidra. A fugit, nu m’a iubit. Ași fi voit să mă duc după dânsa însă Chiriță'ne-a adus trista veste că o poteră a intrat în pădure despre partea de miază noapte unde era de caraulă. Ah ! dacă cumva se va mărita ; dacă va lua pe altul, Dumnezeule ! voiu tăia-o în o mie de bucăți.</p>
+<p>Chiță Cătănuță eră gelos și nici nu putea fi altfel, când o iubea așa de mult.</p>
+  <p>— Ce vom face așa dar căpitane ? întrebă caraula dela pomul <quote>„primejdia"</quote>. Ne vom ascunde, sau ne vom bate ?</p>
+<p>— Chiriță, zise Cătănuță, n’ai băgat tu de seamă, n’ai putut cumva să vezi cam câți să fie toți poterașii ?</p>
+<p>— Peste douăzeci, răspunse acesta.</p>
+<p>— Atunci să-i trimetem pe lumea cealaltă. Prin moartea lor vom stârpi o rădăcină de ciulini.</p>
+<p>Și Cătănuță dete numai decât poruncă ca toți haiducii să se strângă împrejurul său.</p>
+<p>Să lăsăm pentru câteva minute pe Ghiță și pe tovarășii lui și să urmărim pe Vidra care fugea călare spre casa ei, spre acea căsuță în care a trecut anii copilăriei sale, acolo unde a primit cel dintâiu sărutat al mamei!</p>
+<p>Eră noapte și Vidra fugea. Se lumina de ziuă și ea încă tot fugea!</p>
+<p>De odată își opri murgul.</p>
+<p>Ajunsese la căsuța-i.</p>
+<p>Descâlecă și intră înăuntru.</p>
+<p>Dar ce văzu ?</p>
+<p>Visul nu o înșelase de loc.</p>
+<p>Pe o masă de lemn, sta întins un cadavru.</p>
+<p>Eră acel al mumei sale.</p>
+<p>O lumânare ardea la capul său și o bătrână femee stătei lângă dânsa.</p>
+<p>— Mamă!strigă Vidra când o văzu, mamă ce faci ?</p>
+<p>— E moartă! zise bătrâna de lângă dânsa.</p>
+<p>— Moartă! ! Maica Domnului! și căzu cu capul pe pieptul rece al mumei sale și începu să plângă și să verse lacrimi amare.</p>
+<p>Bătrânei i se umplură și ei ochii de lacrimi.</p>
+<p>Amândouă plângeau, amândouă se văitau: numai Ileana eră surdă și rece.</p>
+<p>Ea nu mai auziâ nimic acum, nu mai cunoșteâ pe fiica-sa pe care cu câteva ceasuri mai înainte o chemase cu foc.</p>
+<p>— Când a murit mama ? întrebă Vidra suspinând pe companioana durerei sale.</p>
+  <p>— La miezul nopții, răspunse ea, Înainte de a muri te chemă pe tine, dar lipseai și ea își dete cea din urmă respirare, zicând: <quote>„Vidro copila mamei”</quote></p>
+<p>— Oh! mamă, exclamă nenorocita copilă; inima nu mă înșalâ de loc, eu te-am visat, că ai murit, și visul era adevărat. O, dragă mamă, dar scoală de vezi pe fiica ta! Ea te strigă, ea nu te a văzut de mult! Mamă, tu nu-mi răspunzi, gura ta e rece și peste puțin nu te voiu mai vedea. O, dar vorbește-mi, spune-mi un singur cuvânt măcar! Nu lăsă ca fiica ta să se despartă de tine fără să-ți audă vocea. Oh 1 mamă, când am plecat, când am fugit de lângă sânul tău, tu plângeai! O presimțire îți spunea ce eră să se întâmple!</p>
+<p>— Copila mea, o întrerupse atunci bătrâna; numai plânge atât. Mângăe-te, fii inimoasă!</p>
+<p>Vidra stătu câteva minute gânditoare, se uită în ochii închiși ai mamei sale, apoi căzu iarăși cu capul pe pieptul ei și începu să plângă din nou.</p>
+<p>O zi mai plânse nenorocita copilă pe corpul rece al mamei sale, o zi îl mai îmbrățișa și-l sărută, și a doua zi venind minutul ca să o ducă la mormânt ea se apropie de fruntea ei și-i depuse <hi>cel din urmă sărut.</hi></p>
+<p>Din această zi sărmana Vidra nu-și mai văzu pe mama sa, ea însă o plânse întotdeauna și sănătatea ei se zdruncină din acea zi.</p>
+<p>De atunci buzele ei nu mai râseră și gândul ei întotdeauna se opriâ pe acel negru mormânt, pe care după cum vom vedea mai la vale nu avu nici fericirea ca să-l vadă.</p>
+ </div>
+ <div type="chapter">
+<head>Potera nimicită</head>
+  <p>După ce Ghiță Cătănuță dete porunca, ca să se strângă toți haiducii pe iângă dânsul, Chiriță împreună cu caraula dela pomul <quote>„primejdia"</quote> o luară in spre două părți opuse ale pădurei și băgând două degete în gură începură să fluere. Abia trecură câteva minute și voinicii care se aflau prin toate unghiurile codrului spre a spiona și a pune mâna pe cel dintâiu venetic ce vor vedea, se adunară lângă acei cari îi chemau.</p>
+<p>— Ce este ? întrebară ei.</p>
+<p>— Vă cheamă căpitanul, răspunse Chiriță.</p>
+<p>— Dar unde e el ?</p>
+<p>— La câți-va pași de aici. Să mergem.</p>
+<p>— Să mergem, ziseră și ceilalți haiduci și cu toți plecară spre Ghiță Cătănuță.</p>
+<p>— Ne-ai chemat căpitane ? întrebară o parte din ei îndată ce ajunseră lângă pomul unde ședea încă cu capul rezemat sărmanul Ghiță Cătănuță gândindu-se la Vidra lui iubită,</p>
+<p>— Da, v’am chemat ca să ne sfătuim ce trebue să facem.</p>
+<p>— Să ne sfătuim ?</p>
+<p>— Fără îndoială, continuă Ghiță. Despre miază noapte vine o poteră.</p>
+<p>— Vine o poteră, cum ? ai văzut-o tu Chiriță ? întrebă Marin, un haiduc înalt și robust</p>
+<p>— Da, răspunse acesta.</p>
+<p>— Ce ziceți dar copii să facem ? cuvântă Cătănuță.</p>
+<p>— Ceeace vei porunci tu căpitane, răspunseră ceilalți.</p>
+<p>— Eu sunt de părere ca să le scurtăm zilele. Ei au îndrăznit să vie în pădurea noastră; ei bine, noi să nu fim atât de mișei ca să-i lăsăm să iasă cu viață. Să-i omoram, sau noi să murim.</p>
+<p>— Așa să fie căpitane, răspunseră haiducii într’o voce.</p>
+<p>Abia terminară cu aceste cuvinte și mai multe detunături de puști, se auziră în spre partea de miazănoapte a pădurei.</p>
+<p>— Potera a intrat, zise Chiriță.</p>
+<p>Acum pe lucru, băeți, pronunță Cătănuță.</p>
+<p>— Poruncește căpitane ce trebue să facem se auziră mai multe voci ale haiducilor.</p>
+<p>— Ascundeți-vă, le zise căpitanul, ascundeți-vă fiecare pe după arbori; în dată ce potera va trece dincolo de voi, să întindeți puștile pe la spatele lor și să dați foc. Atunci ei se vor întoarce înapoi căutând să răspunză la atacul vostru, dar voi vă veți strecură iute printre arbori, și veți eși înaintea poterașilor; ei vor fi tot cu spatele și voi îi veți lovi din nou. După aceasta, veți băga de seamă dacă cumva poterașii vor gândi că noi suntem împărțiți în două părți, atunci ei se vor apără în amândouă părțile.</p>
+<p>— Ce vom face așa dar noi, dacă ei se vor apără în acest mod ? întrebară haiducii</p>
+<p>— Vă veți retrage, — continuă Câtănuță cu ingeniosul său plan, — în cele alte două direcțiuni opuse și să trageți cu puștile. Cu chipul acesta veți da patru lovituri. Suntem nouă toți și de patru ori nouă fac 36; ei nu sunt mai mulți decât 20, după cum zice Chiriță; așa dar poterașii trebue să fie omorâți.</p>
+<p>— Bine căpitane, așâ vom face, răspunseră haiducii.</p>
+<p>Detunăturile puștilor se auziră din nou. Câte-va minute încă și poterașii sosiră.</p>
+<p>— La locurile voastre copii! strigă atunci Cătănuță și haiducii dispărură numai decât pe după arbori.</p>
+<p>Poterașii trecură înainte, ei s’ar fi’ depărtat mai mult, dacă o voce detunătoare nu s’ar fi auzit strigând foc.</p>
+<p>Atunci o salvă de puști răsună în aer și șapte dintre fa-narioți căzură la pământ.</p>
+<p>—Înapoi, dați foc înapoi! strigă capul poterii a cărui mână fu străpunsă de un glonț haiducesc.</p>
+<p>Poterașii se întoarseră în spre partea de unde veniră focurile, iar haiducii trecură iute în spatele lor.</p>
+<p>— Foc ! se auzi din nou aceiași voce detunătoare, și care nu erâ alta de cât ceea a lui Ghiță Cătănuță.</p>
+<p>Focurile urmară într’adevăr, și de astă dată dintre poterași căzură zece fără suflet.</p>
+<p>Nu mai rămase acum de cât unul singur;</p>
+<p>— Opriți, strigă atunci Cătănuță, e rușine ca nouă voinici, să întindem puștile spre un singur căpcăun ; e mult mai bine să-l sfâșicm cu unghiile.</p>
+<p>Poterașul care rămăsese ca zăpăcit, în mijlocul cadavrelor tovarășilor săi, voi s’o tulească la fugă prin pădure, când de o dată Ghiță se repezi spre dânsul și îl isbi cu palma peste gură.</p>
+<p>— Stai liftă spurcată, zise el, unde vrei să fugi ?</p>
+<p>Fanariotul căzu în genuche și începu să tremure de frică.</p>
+<p>— Nu mă omorâți, se rugă el, sunt tată, nu departe de aici la Iași am soție, am copii care nu au pe altul decât pe mine, dacă voiu muri, cine va îngriji de ei ?</p>
+<p>Cătănuță se gândi câte-va minute : apoi îi zise:</p>
+<p>— Ce ești tu ? Român ?</p>
+<p>— Nu, răspunse el: sunt grec.</p>
+<p>— Ești poteraș ?</p>
+<p>— Da.</p>
+<p>— Și pentru ce te-ai făcut poteraș ?</p>
+<p>— Pentru că eram sărac și numai în această slujbă am putut găsi o leafă mare și un premiu la fiecare isbândă.</p>
+<p>— Dar pentru ce ai venit în această pădure ?</p>
+<p>— Pentru ca să omor pe Ghiță Cătănuță și ceata lui.</p>
+<p>— Nenorocitule, strigă atunci căpitanul, cutezi tu încă să-mi vorbești astfel ?</p>
+<p>— Palicare, eu cred că voești ca să-ți vorbesc adevărul, iar nu fățărnicii.</p>
+<p>— Bine, zise Ghiță cu o mînie prefăcută, vorbește, eu te ascult.</p>
+<p>— Ce voești să-ți spun ? zise grecul, care cu tot adevărul ce grăia, tremura încă ca varga de frică.</p>
+<p>— Spune-mi ce-ai fi făcut tu, dacă ai fi fost în locul meu ?</p>
+<p>— Poate te-ași fi omorât, și iarăși poate că te-ași fi ertat, căci ’mi-ai fi zis ; dacă din 18 nu a rămas decât acest singur, de sigur, atunci că D-zeu îl protege și aceasta pentru că are copii care toată nădejdea o au într’insul.</p>
+<p>— Bine, răspunse Cătănuță, fiind-că ’mi-ai vorbit drept, și fiind-că nu ești lingușitor, iată te ert.</p>
+<p>După aceea băgă mâna în chimir, scoase o mână de galbeni, și dându-i grecului îi zise:</p>
+<p>— Ține; ai zis că ai copii și că ești sărac; cu acești bani vei mai astupa din nevoile tale.</p>
+<p>Poterașul grațiat refuză de o cam dată banii, în urma îi primi și mulțumi.</p>
+<p>— Numele tău? întrebă Cătănuță pe grecul care pleca.</p>
+<p>— Cațaridis, răspunse acesta.</p>
+<p>— Află dar, jupâne Cațaridis și spune pe la toți care fac parte din neamul tău, că Ghiță Cătănuță pe cât e de crunt, pe atât e și de mărinimos.</p>
+<p>încă o dată mai mulțumi recomandatul Cuțaridis și plecă dând laude cerului pentru ca i-a scăpat viața.</p>
+<p>In adevar dintre toate câte spusese el căpitanului haiducilor nu mințise nimic.</p>
+<p>Mergeți la locurile voastre, zise Cătănuța haiducilor săi. Băgați de seamă să nu care cumva să fim atacați de rre-o alta poteră; iar mâne dimineața, când razele soarelui vor lumina pământul, noi vom părăsi pădurea retrăgându-ne în cea vecină.</p>
+<p>—In care? întrebă Marin, în cea cu cișmeaua cu apa rece?</p>
+<p>— Tocmai, răspunse Ghiță.</p>
+<p>— Bine, răspnnseră atunci într’o voce toți haiducii.</p>
+<p>Să lăsăm puțin pe Ghiță Cătănuță, împreună cu tovarășii lui și să venim până la căsuța Vidrei acolo unde am lăsat’© plângând pe corpul rece al mamei sale.</p>
+<p>Era 12 ore, soarele aruncă cu putere călduroasele sale raze și pământul era coprins de o căldură nesuferită.</p>
+<p>Casa Vidrei era plină de lume. Tot satul își părăsi bordeiurile și căsuțele venind ca să petreacă pe Ileana până în vecinica ei locuința.</p>
+<p>Mulți o plângeau și mulți regretau perderea ei.</p>
+<p>Bunătatea era cel dintâiu lucru, care îi caracteriza inima și de când rămăsese văduvă, miluia într’una pe cât avea putere pe cei nenorociți.</p>
+<p>De la o vreme încoace însă, ea însăși deveni cea mai nenorocită.</p>
+<p>Singură pe lume, fără soț sau rude, toată speranța, toată mângâerea ei era unica-i copilă Vidra.</p>
+<p>In trăsăturile ei vedea în totdeauna pe soțul său, care muri tânăr lăsându-i pe frumoasa Vidra numai de 3 ani.</p>
+<p>Ileana își iubea copila, așa cum ori ce mamă își iubește copilul său.</p>
+<p>Nu avea altă dorință decât s’o vadă măritată, s’o vadă la sânul unui bărbat, care sâ-i asigure viitorul și cu care să trăiască fericită.</p>
+<p>Abia împlini 15 ani și pețitorii începură din toate părțile să curgă.</p>
+<p>Mersese vestea în toate satele despre frumusețea Vidrei.</p>
+<p>Pe fiecare zi o cereau cei mai buni și mai cu avere flăcăi.</p>
+<p>Ce bucurie poate fi mai mare pentru o fată, decât acea când vede venind pețitori ca s’o pețească.</p>
+<p>Ea asculta cuvintele lingușitoare ale pețitorului, inima-i începea să bată și capul i se umplea de acele o mie de gânduri relativ la măritiș.</p>
+<p>Cu Vidra însă nu era așa.</p>
+<p>Din contră, ea se întrista ori de câte ori vedea pe acei samsari vătămători societăței, cari vin cu fel de fel de planuri ca să înlesnească împreunarea a două inimi june, fără experiență și din a căror combinare trebue să rezulte la profit material pentru dânșii.</p>
+<p>Vidra fugia de pețitori.</p>
+<p>De ce oare ?</p>
+<p>Iubia cum-va și era iubită? căci numai o astfel de fată ar putea să aibă purtarea Vidrei.</p>
+<p>Cine știe, poate...</p>
+<p>Poate, dar acest poate e cam îndoios, căci Vidra se făcuse -de 18 ani și era încă fată la casa mamei sale.</p>
+<p>Ce cauză să fie atunci ?</p>
+<p>De ce nu voia să se mărite ?</p>
+<p>Iți voiu șterge numai decât această curiozitate bunul meu lector, lăsându-ți în locu-i o mirare și un zâmbet pe buze.</p>
+<p>Nu împlinise încă Vidra 15 ani când o babă yeni, și d-ta știi cât de răutăcioase sunt babele și câtă influență au asupra fetelor tinere.</p>
+<p>Poate că ți s’a întâmplat și dumifale ca să auzi cuvintele :</p>
+<p>— Crede maică, ce-ți spun eu, că sunt bătrână, am văzut multe lucruri, și prin multe am trecut. O, măicuhță, când eram eu ca mâtăluță... dacă ai vrea să mă asculți... etc.</p>
+<p>Ei bine tot o astfel de babă venise ca să înlănțuească inima Vidrei, să-i rătăcească gândul.</p>
+<p>Ea reușise, de și adevărat vorbind nu avea nici un gând rău.</p>
+<p>Știți că babelor le place, în totdeauna să flecărească (și în parantez vorbind, eu ași crede că fetele ar face mult mai bine dacă s’ar feri de babe).</p>
+<p>Într’o zi cucernica băbușcă, cu capul plecat și cu un aer gânditor, veni la Ileana, care nu-i semăna de loc și aceasta poate, pentru că nu atinsese vârsta copilăriei.</p>
+<p>Pe prispă ea văzu pe Vidra.</p>
+<p>— Ce mai faci babă Evdochio ? îi zise copila văzând-o.</p>
+<p>Atât a trebuit! Aceste cuvinte erau de ajuns, pentru ea să facă pe bătrâna Evdochia să se așeze lângă <quote>„copila mea“</quote> după cum o numia pe Vidra.</p>
+<p>— Slavă Domnului, ia cu bătrânelele astea, ieri mi-a fost cam rău, am avut guturai. Am făcut peste noapte un ceaiu de semințe de gutui, m’am îmbrobodit bine la cap și astăzi, din mila lui Dumnezeu, sunt mai bine. Dar știi ce aveam să-ți spun ?</p>
+<p>— Ce aveai să-mi spui ? o întreabă Vidra, desgustată de polilongiile bătrânei Evdochii.</p>
+<p>Flăcăul Niculai, care e cu stare bună. are plug, boi, o turmă cu oi și e frumușel că iți vine parcă să-i mănânci.</p>
+<p>— Și ce e Niculai?</p>
+<p>— Ce să fie, după câte am auzit, ar vrea să te ceară de nevastă.</p>
+<p>Vidra făcu o tresăritură de bucurie.</p>
+<p>Nu doar că iubea pe flăcăul Niculai, căci eră tânără, nu avusese timp când să-l iubească (deși tot în parantez vorbind, copilițele din ziua de astăzi se pricep cum trebuesă iubească chiar și la vârsta de 12 ani).</p>
+<p>După cum ziseiu, Vidra nu iubia pe Niculai, dar ce vrei era fata și toate femeile au acelaș vis.</p>
+<p>Baba Evdochia, băgă de seamă acea bucurie interioară a junei copile și înțelese că scânteia dragostei începuse deja sa-i atingă inima. ' J</p>
+  <p> —Dar ce ai zice, când ți-aș spune un vis ce am visat alalta-eri ?</p>
+<p>— Oi fi visat pe bărbatul dumitale, zise Vidra.</p>
+<p>— Nu, răspunse baba, îl visam când eram mai tânără,, dar acuma...</p>
+<p>— Ce ai visat atunci ?</p>
+<p>— Să vezi, n’ai auzit cum-va de haiducul Gruia?</p>
+<p>— Nu! cine-i acest Gruia?</p>
+<p>— Un haiduc.</p>
+<p>— Haiduc? dar ce meserie e asta?</p>
+<p>— Ce meserie? păi haiducul e un fel de hot, zise bătrâna Evdochie, neștiind cum să definească pe haiduci.</p>
+<p>— Hoț ? atunci să mă ferească Dumnezeu ca să mai aud de el.</p>
+<p>— D’apoi nu e un hoț de acei pe cari îi știi tu, copila mea.</p>
+<p>— Dar de cari?</p>
+  <p>—De acei cari nu fură decât numai dela ciocoi și nu omoară decât numai pe greci.</p>
+<p>— Pe greci! o, oameni fără de lege, mama îmi spunea adesea, că ei sunt cari au omorât pe tata, ca să-i răpească averea.</p>
+<p>— Da, tot așa îmi aduc și eu aminte.</p>
+<p>— Atunci, el nu mai este hoț, babo Evdochio, ci un voinic, care ne scapă de niște oameni fără lege.</p>
+<p>— Păi vezi bine că nu este un hoț, zise tot bătrâna.</p>
+  <p>—Și ce s’a întâmplat cu acest Gruia?</p>
+  <p>— Nimic, dar el e așa de frumos, în cât la soare te poți uita, iar la dânsul ba.</p>
+<p>— Ce fericită trebuie să fie nevasta lui !,</p>
+<p>— Dar el e neînsurat și e așa de voinic încât odata s a luptat singur cu o sută de poterași și pe toți i-a biruit.</p>
+<p>— Adevărat român!</p>
+  <p>—Ei bine, ce ai zice copila mea, continuă Edvochia, dacă ți-ași spune că alaltăeri am visat că tocmai Gruia vroia că te ia pe tine de nevastă!</p>
+<p>—Ce să spun ? E un vis și nimic mai mult</p>
+<p>— Hei copila mamei! Dar tot așa am visat eu și pentru fata lui Badea Gheorghe și ai văzut cum a luat pe Nița ?</p>
+<p>— Mai știi ? zise frumoasa copilă. Poate că sfântul Dumitru, care este poimâine să facă să iau pe Gruia.</p>
+<p>— N’avea grije, că așa o să fie.</p>
+<p>— Atunci, nici eu nu mă voi mărita până ce nu ma va cere voinicul Gruia.</p>
+<p>După ce vorbiră mult timp, baba Evdochia se scula după prispă și plecă.</p>
+<p>De atunci încoace însă, biată Vidra nu mai avu liniște, ziua se gândia numai la Gruia voinicul; iar noaptea nu visă decât tot pe Gruia.</p>
+<p>Astfel își trecea ea timpul, refuzând pe toți bărbații și așteptând pe acela pe care bătrâna Evdochie i-l băgase în cap, și a cărui imagină, — de și nu o văzuse niciodată, prinsese rădăcină în inima ei.</p>
+<p>Tresărea ori de câte ori auzia vorbindu-se de haiducul Gruia. Și ne aducem aminte că în seara aceia, când veni Cătănuță la dânsa, i-a fost ușor s’o răpească.</p>
+<p>Ea fugi crezând că fuge cu Gruia.</p>
+<p>Rugăm pe lector să nu creadă că toate aceste calități pe cari le dăm străinilor, le punem înadins. Noi arătăm simplu pe românii din acele timpuri fără a ne da părerea noastră,</p>
+<p>Acum după ce am dat aceste amănunte, să ne întoarcem iarăși la Vidra.</p>
+<p>Am lăsat-o în casă, lângă cadavrul mumei sale, și acum e găsim pe drum, urmând-o Ia mormânt.</p>
+<p>Sărmana copiiă plângea și în ochii tuturor se vedeau lu-eind lacrâmi.</p>
+<p>Pe când însă convoiul pășiâ încet, pe când glasul preoților se înălța spre ceruri, un voinic călare se opri la spatele sicriului, aruncă o mână viguroasă după talia Vidrei a ridica în sus, o aruncă pe calul său înspumat și împreună cu ea dispăru in depărtare, lăsând pe toți în cea mai mare uimire și spaimă tot odată.</p>
+<p>Acesta era Ghiță Cătănuță, care răpea pe Vidra Pentru a doua oară.</p>
+ </div>
+<div type="chapter">
+<head>Trădarea Vidrei</head>
+<p>Era o seară frumoasă. Luna cu blânda ei față arunca neumărate raze argindi peste neagra față a pământului. Vidra era acum ia Ghiță Câtănuță. Noi știm că el a răpit-o tocmai când conducea pe muma ei spre vecinica-i locuință.</p>
+<p>Trecură de atunci mai muite săptămâni și Vidra nu văzuse decât lumea păsărilor și a fiarelor sălbatice.</p>
+<p>Ghiță Câtănuță, singurul om pe care-i vedea, trecea pe la dansa de câte două ori, sau trei ori pe zi.</p>
+<p>El o iubea și prin urmare era și gelos.</p>
+<p>Iubirea naște în totdeauna gelozia. Este peste putință ca un bărbat să-și iubească femeia sau amanta și să nu fie gelos și această gelozie va crește sau descrește în proporție eu iubirea.</p>
+<p>Cătănuță iubea pe Vidra la nebunie si prin urmare era foarte gelos.</p>
+<p>Dacă ar fi fost în alt loc, dacă ar fi avut de cine se teme, de sigur că biata Vidra n’ar fi mai văzut des razele soarelui. Dar așa în mijlocul unei păduri întunecoase departe de ori-ce sat sau oraș, de cine era să se teamă ? cine putea să-i vadă pe Vidra? Nimeni altul decât pomii, firele și păsările. Și în contra acestora, căpitanul haiducilor nu voia să ia nici o măsură.</p>
+<p>Ei îi dete voie să se plimbe prin pădure, ori pe unde ar fi voit, căci se gândea că n’are de ce se teme. Să nu fugă? dar unde să se ducă ? la părinți ? O mamă avea și o perduse. Cine știe? cauza morței a fost poate chiar ea.</p>
+<p>Vidra avea toată libertatea, se plimbă prin pădure singură și în această seară și potolea dorul ei și focul pritr’un cântec care făcea să răsune pădurea.</p>
+<p>Seara după cum ziseiu, era frumoasă, vântul sufla dulce și răcoria fruntea frumoasei Vidre.</p>
+<p>Ea începu să cânte și cânta atât de duios, in cat râulețul care șerpuia prin pădure părea că’și oprește cursul și ascultă, păsările stăteau din zbor, arborii nu se mai clătinau și cu toate ascultau la accentele jalnice, care eșeau din gura și pieptul frumoasei copile.</p>
+<p>Inoptase și ea încă cânta. Pe cer luna eșise și ea mcă spunea vântului greul ei dor.</p>
+<p>De odată însă tresări. Înaintea ei se arăta un om, un voinic, un adevărat <hi>făt frumos.</hi></p>
+<p>Acesta era <hi>Păunaș,</hi> un tânăr care iubise pe o fată din satul <hi>Prisăcani</hi> și care muri tocmai în ajunul cununiei.</p>
+<p>De atunci Păunaș a luat câmpii și a rătăcit mai mult timp nebun și numai după câte-va săptămâni venmdu-șs în fire n’a voit să mai părăsească codrii, căci își zicea: La cine să mă mai întorc? Pe Marioara nu o voi mai găsi, ea m’a părăsit, ducându-se departe pe o a tă lume. Și de atuncea încoace legenda nu’l găsește deeât prin păduri și gu’l numește decât: <hi>Păunașul Codrilor.</hi></p>
+<p>El auzi cântecul Vidrii și vine să vază cine este.</p>
+<p>— Închipuire ești tu sau femee cu adevărat. Întreba Păunaș?</p>
+<p>— Ce cauți aici străine ? îi răspunse dânsa.</p>
+<p>— Strein ! dar după cum văd și tu pari a fi streina.</p>
+<p>— Streină și nenorocită, căci singura fericire ce aștept e moartea.</p>
+<p>— Nenorocită ? tu așa frumoasă și nenorocita r</p>
+<p>— Oh! da, până mai deună-zi tot mai aveam o singură nădejde pe lume, căci mă gândeam la mama mea, care mă iubea, pe care o iubeam și care mă aștepta cu dor sa ma vază! acum însă ea mă așteaptă în mormânt!</p>
+<p>Zicând aceste cuvinte, Vidra începu să plângă. Paunaș se apropie de dânsa, șezu lângă ea și luandu’i mâna in mâinele sale îi zise:</p>
+<p>— Dar bine ce cauți în aceste locuri, în această pădure întunecoasă, sau ai venit, ca să dezmierzi singurătatea prin frumusețea ta, și să încânți păsările și să îmblânzești fiarele prin dulcele tău glas ?</p>
+<p>—O, nu, ași fi dorit mai bine să plâng pe mormântul maicei mele, să-l seamăn cu flori și să-i aprind candela. Dar un om crud și rece, acela care m’a răpit din brațele memei, mă ține închisă în această pădure neagră, din care acum nu mai pot eși.</p>
+<p>— Frumoasă femee, vrei tu să’mi spui numele tău ?</p>
+<p>— Mă numesc Vidra.</p>
+<p>Vidra! Dar pe acei care a fost dăruit cu o asemenea comoară ?</p>
+<p>— Ghiță Cătănuță, n’ar mai fi să fie.</p>
+<p>— Ghiță Cătănuță ! esclamă Păunaș.</p>
+<p>— Da ce ! îl cunoști ?</p>
+<p>— Nu, dar am auzit de dânsul.</p>
+<p>— Căpitan peste haiduci.</p>
+<p>— Și viteaz peste viteji!</p>
+<p>— Și rău ca un păgân.</p>
+<p>— Dar de ce vorbești așa ?</p>
+<p>— Ce vrei, dacă el ar fi avut o inimă bună, nu m’ar fi chinuit așa de mult!</p>
+<p>Ei bine, dar dacă e rău cu unii, e bun cu alții.</p>
+<p>— Cel puțin eu una nu’l pot suferi.</p>
+<p>Păunaș se încercă să câștige inima frumoasei femei. Și aceasta nu era greu. Când o femee urăște pe un bărbat, un altul poate fi iubit lesne de dânsa, mult mai lesne decât cano n ar fi iubit sau urât pe nimeni.</p>
+<p>In cazul dintâiu femeea vede oe cei doi bărbați, pe unul pe care nu-l iubește și pe altul pe care îl urăște.</p>
+<p>Pe cine va prefera din amândoi?</p>
+<p>— De sigur pe cel dintâi.</p>
+<p>A iubi pe un altul, e un fel de răzbunare pentru dânsa.</p>
+<p>Așa și Vidra. Ea nu putea să sufere pe Cătănuță și acum când văzu pe Păunaș așa de frumos și drăgălaș la vorbă, numai că nu i zise : Dacă eu sunt o comoară, pentru ce nu mă stăpânești tu ?</p>
+<p>Dar femeea e în tod’auna femee.</p>
+<p>Mândria, viclenia și trădarea cam rar lipsesc dela ea.</p>
+<p>Cu toate astea, Vidra nu era din acele femei.</p>
+<p>In adevăr, ideia trădărei trecuse prin mintea ei la prima vedere a lui Păunaș, dar vina era a ei ? Ea ura pe Că-tănutâ si aceasta i-o spunea chiar în față.</p>
+<p>Cine știe, dacă n’ar fi știut că înainte de a fi haiduc, a fost popă: poate l’ar fi iubit, dar așa...</p>
+<p>Apoi și azi chiar vedem că mai toate fetele fug de popa ca de ... cel mai rău om.</p>
+<p>— Vidro! dar tu ești mai frumoasă decât soarele care luminează ziua, decât luna, care gonește întunericul nopții și să fii așa de tristă nu-i oare un păcat ?</p>
+  <p>—Păcat zici tu ? dar bine voinice, cine ești și cum te numești</p>
+<p>— Mă’ muncesc... astăzi toată lumea care m’a putut vedea prin aceste locuri, mi-a dat numele de Păunașul Codrilor.</p>
+<p>— Păunaș ? frumos nume ș’apoi se potrivește așâ de bine cu tine.</p>
+<p>— Pentru ce ?</p>
+<p>— Că ești frumos !</p>
+<p>— Voinicul se uită lung în ochii Vidrei și păru că vede atunci pe Marioara lui.</p>
+<p>In ochii acestei copiie el citi bunătatea și durerea inimei sale.</p>
+<p>— Vidro, îi zise el, ce ai zice tu daca eu ți-aș spune că sufletul meu s’a pătruns de frumusețea ta ?</p>
+<p>— O, voinice, taci, că mă faci să sufer mai mult.</p>
+<p>— Vidro! te iubesc !</p>
+<p>Și Păunaș se aruncă în brațele adoratei copile.</p>
+<p>Mai multe minute stătură ei astfel și ar fi stat mult și Păunaș ar fi strâns mult pe Vidra în orațeie sale, dacă ea nu s’ar fi retras numai decât.</p>
+<p>— Vidro ! strigă el, când o văzu departe de dansul, Vidro !</p>
+<p>Și voi să se repeadă spre dânsa.</p>
+<p>Frumoasa copilă îi făcu cu mâna semnul oprirei.</p>
+<p>Păunaș simți un fel de autoritate în acea mână albă și frumoasă și stătu pe loc. w</p>
+  <p>—Vidro ! zise voinicul, dar eu nu credeam ca frumoasa-ți inimă ar putea vreo-dată ca să fie îmbrăcată cu o așa de mare răutate!</p>
+<p>— Te înșeli, scumpul meu, îi răspunse ea.</p>
+<p>— Te-am găsit în codru, continuă el, sufletul meu s-a pătruns de frumusețea ta ; eu sunt stăpânul acestor locuri, ei bine, de ce nu voești să fii stăpâna mea ?</p>
+<p>— Păunaș ! grăi Vidra, rănită de frumusețea și dulceața vorbelor lui.</p>
+  <p>— O, Vidro, tu pari a-mi zice : <quote>te iubesc</quote>. Eu văd că inima ta nu-i așa de rece, de ce dar mă gonești de ce nu vrei ca inimile noastre să se unească pentru vecie. Un cântec dulce m’a adus lângă tine, te-am văzut, eram cel mai trist om după fața pământului, dar de acum cântându-mi voi trece viața, căci ca tine altă flaore nu mai poate fi între flori.</p>
+<p>De astă dată, Păunaș se repezi te dânsa, îi apucă mijlocul în mâinile sale și-și rezemă capul de sânul ei.</p>
+<p>Vidra se lăsă biruită, ea îi netezi părul cu mâna și începu să cânte:</p>
+  <quote type="ballad">
+<l>Frunză verde alunică </l>
+ <l>Păun sue pe potică </l>
+ <l>Și’ntâlnește o fetică</l>
+  <l>Mai frumoasă ca o zână </l>
+ <l>Și c’o floricică în mână,</l>
+<l>— Ia stai dragă copilică </l>
+ <l>Și da-mi alba-ți floricică ;</l>
+<l>— Ba, bădiță, ba nu vreu </l>
+ <l> Ca mă tem de dragul meu!</l> 
+ <l> Că mi-a spus să mă feresc</l> 
+ <l>De strein ce-i întâlnesc,</l>
+<l>Căci a lor nestinsă sete</l>
+ <l>E de sărutări de fete </l>
+<l>Nu te teme draga mea,</l>
+<l>Daca el s’o mânia </l>
+ <l>Cu baltagul voi lovi </l>
+ <l>Cu pământ l’oi înveli.</l>
+<l>— Mergi în valea cea sulcină </l>
+ <l> Ca-i găsi o floare lină</l>
+  <l>Scoasă chiar din mâna mea</l> 
+ <l>Du-te, du-te, de o ia ;</l> 
+ <l>insă până să n’o ei </l>
+ <l>îți fă cruce mai întâi,</l>
+<l>Și, suflă pe fața ei;</l>
+<l>Să nu fie descântată</l> 
+ <l>De cea babă blestemată </l>
+ <l>Sa nu aibă vr’o nălucă,</l>
+<l>Pe pustii ducă — s’ar ducă.</l>
+<l>Păun iute se ducea,</l>
+<l>Dar el cruce nu’și făcea </l>
+ <l>Peste floare nu sufla,</l>
+<l>Ci la ea năvală da</l>
+<l>Și o săruta odată</l> 
+ <l>Și’l lovi dorul de fată,</l>
+<l>Sărută de două ori,</l>
+<l>Și’l apucă reci fiori;</l>
+<l>Sărută de trei ori,</l>
+<l>Și căzu jos între flori.</l>
+<l>Ce ai zice Păunaș,</l>
+<l>Voinicele românaș,</l>
+<l>Dacă, când mă’i săruta </l>
+ <l>Vei păți și tu așa?</l>
+ </quote>
+<p>Astfel cântă Vidra, Păunașul codrilor o ținea încă de mijloc și peptul frumoasei copile simțea încă povara dulce a capului său.</p>
+<p>Deodată însă auzi un tropot.</p>
+<p>— Cine să fie ? întrebară amândoi.</p>
+<p>Și se uită în acea parte de unde vedea sgomotul prodas de niște pași, care se îndreptau spre grupa amoroasă.</p>
+<p>— Dumnezeul meu, esclamă Vidra pierdută.</p>
+<p>— Dar ce ai frumoasa mea ? o întrebă Păunaș.</p>
+<p>— O, este el ?</p>
+<p>— El, care el ?</p>
+<p>Răpitorul ! acela care m’a luat dela mamă, acela pe sere nu-l pot suferi.</p>
+<p>— Cum ? o fi Ghiță Cătănuță!</p>
+<p>— Da, el, el!</p>
+<p>Ghiță Cătănuță se apropia.</p>
+<p>El fusese atras de cântecul Vidrei și acum auzise vorbele ei.</p>
+<p>— Mii de draci! bombăni dânsul.</p>
+<p>Și iute puse mâna pe cuțit.</p>
+<p>— Ea mă înșelă! își mai zise; dar lasă, sângele tău, nenorocito, va spăla mânia mea.</p>
+<p>Pe când Cătănuță vorbea astfel, vocile amorezaților nu se mai auziră.</p>
+<p>Și Vidrei și lui Păunaș le înghețară sângele.</p>
+<p>Numele lui Ghiță Cătănuță le insufla groaza.</p>
+<p>Căpitanul haiducilor scrâșnea din dinți și se uita printre arbori ca să-i vadă și să-i omoare pe amândoi.</p>
+<p>De odată însă luna se ascunse după niște nori groși, întunericul umplu pădurea și Cătănuță nu putu să mai vadă nimic.</p>
+<p>In mânia lui el se lovea cu capul de copaci.</p>
+<p>Din gura lui isbucniau injurii și blesteme și nu dorea altceva, de cât să pue mâna pe Vidra sau pe amantul ei.</p>
+<p>De cealaltă parte, Păunaș și cu Vidra ascultau cuvintele lui și astfel se retrăgiau tot mereu în spre direcțiuni opuse.</p>
+<p>Dar Cătănuță se opri. Ascultă câte-va minute și le aaai sgomotul pașilor.</p>
+<p>— Puțină dibăcie, își zise el, și voiu pune eu mâna pe ei.</p>
+<p>Sgomoful pașilor produs de cei doi amaiiți se auzea din ce în ce mai bine.</p>
+<p>Cătănuță asculta.</p>
+<p>— Acum după ei! pronunță căpitanul haiducilor, și făcând mai multe sărituri, învârtindu-se pe după arbori se apropie întru atât de Păunaș și Vidra, în cât le auzi răsuflarea.</p>
+<p>— Gătiți-vă de moarte, nelegiuițllor! răcni Ghită si întinse mâna spre ei.</p>
+<p>Paunaș, pe cât era de frumos, pe atât era și de voinic. În satul iui toate fetele îl iubeau și toți flăcăii îl temeau. Acesea, de când râtăcia prin pădure, avuse ocaziuni să se lupte cu fiarele sălbatice, și într’o dimineață, cu o măciuca ghintuită, sfărâmă capul unui porc mistreț.</p>
+<p>Legenda ne mai zice că chiar lighioanele sălbatice se deoeau la o parte din calea lui, atât de impunătoare îi era ochirea și atât de vitează vînoasa lui jnână.</p>
+<p>Nici odată însă nu vedeai la dânsul pușcă, pistoale sau alte arme ucigătoare.</p>
+<p>Ei nu purta cu dânsul de cât un mic briceag, și un ciomag cu care se apăra de vrășmașii cei răi.</p>
+<p>Mâncarea lui era poame sălbatice, pe care le găsia prin pădure și rare ori eșea la drum, unde întâlnind vre-un că-Jătos, îi cerea vre-o. bucată de pâine, și dacă îi zicea că n are, il ruga să’l ajute cu puține parale și dacă nici la aceasta nu se îndupleca călătorul, apoi Păunaș se repezea numai decât la dânsul, îl lovea cu măciuca în cap si în urmă îi lua toți banii. s</p>
+<p>În adevăr, mulți s’au găsit omorâți pe drumul care trece prin pădure, și de multe ori potera a căutat ca să găsească pe ucigaș ; în tot-d’auna însă silințelor lor au fost zădărnicite.</p>
+<p>Într’o dimineață se găsi un turc mort la marginea pădurei.</p>
+<p>Potera trecând din întâmplare pe acolo, îl văzu.</p>
+<p>— Bre, hoți trebue să fie pe aici, zise unul dintre ei.</p>
+<p>— iată e lovit la cap, zise un altul.</p>
+<p>Și băgați de seamă, lovitura nu e veche.</p>
+<p>— Nu poate fi lovit mai mult de cât d’un ceas.</p>
+<p>— Nu vezi că sângele nu’i încă bine închegat?</p>
+<p>Palicari! strigă atunci unul din ei; iată, turcu se mișcă.</p>
+<p>In adevar, turcul nu era încă mort. El își mișca capul</p>
+<p>— Cine te-a ucis, bre efendi ? îl întrebară atunci fanarioții. Musulmanu nu răspunse.</p>
+<p>El își deschise ochii, cari erau plini de sânge.</p>
+<p>— Vorbește, nu fii mut, ca să știm unde să’l căutăm, mai zise unul din poterași.</p>
+<p>Turcul pare că ar fi auzit ceva, căci își târî mâna până la rană, după aceia se încruntă de te băga în boale, închise în urmă ochii plini de sânge și își dete cea din urmă suflare.</p>
+<p>— Să mergem spre pădure și vom găsi pe hoți! gară poterașii înfuriați.</p>
+<p>Ei plecară!</p>
+<p>Ca o jumătate de ceas rătăciră prin bătrânul codru, ca să poată găsi pe nimeni.</p>
+<p>De o dată auziră un cântec de fluer.</p>
+<p>— Să mergem acolo, ziseră ei.</p>
+<p>După aceia o luară iute spre dreapta de unde venea voce fluerului.</p>
+<p>— O, e nebunul ; strigară poterașii, când văzură pe cel ce cânta.</p>
+<p>— Da, e tot smintitul de mai de-unăzi, zise un al poteraș.</p>
+<p>— Ce o fi făcând el pe aici ? întrebă un altul.</p>
+<p>— Ce face un om când își ia câmpii ! răspunse un altul.</p>
+<p>— Și ce o fi mâncând ?</p>
+<p>— Pământ, se auzi o voce.</p>
+<p>— Pământ ?</p>
+<p>— Da, răspunse aceiași voce: nu-l văzurați in data trecută, cum mai îndopa la pământ ?</p>
+<p>Cel care cânta, nu era altul decât Păunaș care omoiase pe turc și îi luase banii.</p>
+<p>Poterașii trecură înainte, căutând pe hoți, pe acei cate au cutezat să ucidă pe turc, fără ca să bănuiască pe acela care cântă în nepăsare.</p>
+<p>Când potera trecu înainte, Păunaș se lua după ea și începu să strige din fluer de-ți asurzea urechile.</p>
+<p>Astfel de isprăvi făcea posnașul de Păun și poate, după cum zice și <hi>Vasile Alexandri,</hi> acest supranume nu i s ar ti fi atribuit de cât pentru voinicia și frumusețea lui.</p>
+<p>El omora, fura și cu toate astea nimeni nu-l prindea.</p>
+<p>Nu se ascundea de nimeni și se ferea de ori și cine. Toți ziceau că e nebun, dar hainele după dansul erau în</p>
+<p>totdeauna noi.</p>
+<p>Se zicea că mânca pământ și el era gras și frumos ca un făt-logofăt din poveste.</p>
+<p>Umbla rătăcind prin pădure și mulți îl vedeau luptându-se cu lighioanele sălbatice.</p>
+<p>Ei bine, toate astea erau un mister pentru ori cine l-ar fi observat de aproape.</p>
+<p>Iată dar pentru ce s’a numit Păunaș.</p>
+<p>Acest cuvânt însemnează un voinic tânăr, mândru și misterios, mândru ca <hi>păunul</hi> și misterios ca 
+<hi>Pan,</hi> zeul codrilor.</p>
+<p>Gătiți-vă de moarte, negiuitilor! grăi Ghiță Cătănuță întinzand mana spre Vidra si amantul ei,</p>
+<p>Păunaș se opri pe loc.</p>
+<p>Veni, Să se arunce asupra haiducului, să-l sfarame in brațele sale, dar se opri.</p>
+<p>Ei era în fața lui Ghiță Câtănuță și acest nume îi insufla groaza.</p>
+<p>Cu leu și cu urșii tot ar fi avut curagiul să se lupte dar cu Cătănuță ba.</p>
+<p>În două-spre-zece districte merse vestea despre dânsul șl două-spre-zece poteri tremurau ia numele lui.</p>
+<p>Păunaș renunță așa dar la această idee de a se luptași se mulțumi să se retragă dnpă un arbore.</p>
+<p>Și o sărută, căci vedea momentul în care trebue să se aesparta și cine știe, poate că aceste sărutări erau cele in urma.</p>
+<p>Vidra îl ținea de asemeni la sânul ei și îl strângea cu foc. c.ra un tablon răpitor să vezi pe acești doi tineri atât se irumoși, strânși brațe în brațe, sărutându-se nepăsători de moartea ce li se pregătea.</p>
+<p>De o dată Păunaș trăsări.</p>
+<p>O mână viguroasă îl apucă de piept.</p>
+<p>Era Ghiță Câtănuță din ai cărui ochi esiau scântei de foc</p>
+<p>— În sfârșit, te-am prins, om fără de lege!</p>
+<p>Paunaș tăcea.</p>
+  <p>—Stai!Te voi învîța cum trebue să-ți rîzi de femei!Iar pe tine, blestemato, cum se înșeală un voinic!</p>
+<p>Zicând aceste cuvinte, Ghiță Cătănuță băgă unchiile în pieptul lui Păunaș.</p>
+<p>Deodată însă un pumn voinicesc îi sdruncină mâna.</p>
+<p>Paunaș scăpă și o luă la fugă.</p>
+<p>Acel care lovi pe Cătănuță așa de tare nu era decât Vidra. </p>
+ <p>— Mii de draci ! bombăni căpitanul haiducilor și voia se ia după el, dar se împiedică și căzu jos.</p>
+<p>El puse mâna ca să vadă cine erâ sub picioarele sale și dete de un trup de om.</p>
+<p>Era tot Vidra.</p>
+<p>Luna esi de sub nori și lumina pădurea.</p>
+<p>Ea văzu într’o parte pe Ghițâ și pe Vidra, brațe în brațe iar puțin mai încolo pe Păunaș, care fugea și se uita inapoi.</p>
+</div>
+<div type="chapter">
+   <head>Moartea Vidrei.</head>
+ <p>Păunaș erâ scăpat, Vidra îl ajută la aceasta și tot pe ea  văzurăm în brațele lui Ghițâ Cătănuță.</p>
+<p>Dar cum a scăpat de urgia haiducului, a cărui furie era așa de mare ?</p>
+<p>Lucrul se explică lesne. Vidra era femee și femeea știe totd’auna cum trebue să înșele un bărbat.^</p>
+<p>Păunaș scăpă din strânsura lui Cătănuță prin pumnul ce</p>
+<p>Vidra de’te peste mâna bărbatului ei. Cu toate astea I ar n prins îndată, dar știm că se răstogoli la pământ, împiedi-eat, tot de Vidra, care să lăsă Ia picioarele sale._</p>
+<p>— Nelegiuito ! strigă căpetenia haiducilor, punând mana pe ea.</p>
+<p>Un gemăt de durere eși din pieptiu Vidrei.</p>
+<p>pentru</p>
+<p>— Ce, nu ești tu ? m’am înșelat oare? pronunța a doua oară haiducul.</p>
+<p>— O Dumnezeule ! am scăpat ? !</p>
+<p>Mort ?! Această mână nu e a lui ! Această mană mi-e eunoscută ! Ești tu, dragul meu !</p>
+<p>Și zicând aceste cuvinte, strânse cu căldură la pieptu-i mâna lui Ghiță</p>
+   <p>Atunci' luna’eși de sub nouri amantul trădat își cunoscu amanta.</p>
+<p>— Va sa zică, tot tu ești ? zise Cătănuță cu o voce încă aspră si uitându-se crunt la ea.</p>
+<p>— Da, sunt eu, Vidra, iubita ta Vidra.</p>
+<p>— Bine, dar tu...</p>
+<p>— O, dă-mi brațul să mă ridic.</p>
+<p>— Ce, nu cum-va...</p>
+<p>— Dar pe el... L’ai omorât nu-i așa?</p>
+<p>— Da, l’am omorât!...</p>
+<p>Și Cătănuță dând mâna, ridică pe Vidra și o strânse în brațele sale.</p>
+<p>— Vidro, draga mea, cine era acel păgân care a îndrăsnit... — Vai! el ți-a scăpat, nu-i așa ?</p>
+<p>— Dar bine, cine m’a lovit peste mână!</p>
+<p>—O! vei fi gândit că te-am lovit eu si de aceea poate m’ai lovit și tu așa de tare —Peptul meu, ah, nu cred să mai trăesc mult.</p>
+<p>— Cum ? ai fost și tu lovită, draga mea ?</p>
+<p>— Dar ce ți-am făcut eu, ca să mă pedepsești așa de crud ?</p>
+<p>— Eu Vidro?...</p>
+<p>Tu! vrei să zici oare că nu m’ai cunoscut?</p>
+<p>— Te-am cunoscut, dar...</p>
+<p>— Ce mai dar!</p>
+<p>— Nu te-am lovit eu, draga mea.</p>
+   <p> — Cum, nu m’ai lovit tu; nu erai tu acela care m’ai izbit așa de tare în piept? O! Dumnezeule! mai este încă o dreptate pe pământ!</p>
+   <p>— Vidro ! eu nu înțeleg nimic din toate astea, explică-mi tu asta întâmplare atât de îndrăzneață.</p>
+<p>— Ce să-ți explici? tu nu înțelegi?</p>
+   <p>— Nu, pe legea mea, nu înțeleg nimic.</p>
+<p>— Ascultă atunci, ascultă iubitul meu.</p>
+<p>Și Vidra urmă : /</p>
+<p>— Eșisem de cu vreme în pădure. Știi că singură, îmi este așa de urât! Cântam. Uite, privește, eram lângă acel copac. Deodată văd venind spre mine un om înalt si urât.</p>
+<p>— Cine ești tu ? mă întrebă el.</p>
+<p>A Ce’ți pasă, cine sunt? Dar nu știi că eu sunt stăpânul acestor locuri?</p>
+<p>— Ei ș’apoi!</p>
+<p>Atunci el se apropie de mine și’mi luă mâna în mâinele sale.</p>
+   <p>— Iadule! exclamă Cătănuță, bătând cu piciorul în pământ.</p>
+   <p>— Da, urmă Vidra, s’a apropiat de mine, mi-a luat mâna m mamele sale și mi-a zis:</p>
+<p>— Spune-mi numele-ți frumoasă copilă..</p>
+<p>— Eu am tăcut.</p>
+<p>— De nu’mi vei răspunde, vei muri de mâna mea.</p>
+   <p>— Aceste cuvinte ale mișelului erau mai cobitoare ca gemetele Iadului. Am început să tremur.</p>
+<p>— Vidra, ’i-am răspuns, mă numesc Vidra.</p>
+<p>— Cum ai cutezat... o opri Câtănuță.</p>
+<p>— Dar bine ce era să fac?</p>
+<p>— O, ai dreptate, urmează înainte, urmează.</p>
+<p>— Vidro, îmi zise el, tu ești așa de frumoasă încât numai florile care cresc primăvara în această pădure, sub umbra deasă a acestor copaci, se pot asemăna cu tine, nu cumva și tu ești una dintre ele ?</p>
+<p>— Ei bine, ce ai răspuns tu?</p>
+<p>— Am tăcut.</p>
+<p>— iar el... , ....</p>
+<p>— El... s’a sculat numai decât, s’a uitat la mine și mi-a zis:</p>
+<p>— Ascultă draga mea, eu voiu să vii cu mine!</p>
+<p>— Atunci am început să plâng. Acest necunoscut mă umplea de groază.</p>
+<p>— O, fii bun, i-am zis.</p>
+<p>— Ce, te temi de mine ? mi-a răspuns el.</p>
+<p>— Nu, dar... Și frica mi-a umplut inima. Ei bine, scumpul meu Cătănuță, acest obraznic mă apucă de mâini, mă ridică după trunchiul pe care ședeam și...</p>
+<p>— Și mă sărută, mă sărută de sute de ori!</p>
+<p>— Iadule! răcni căpitanul haiducilor; a avut atâta îndrăzneală ! ah ! cum de nu l’am omorât.</p>
+<p>— Pe când el mă săruta, urmă Vidra; eu mă gandeam la tine, mă întrebam unde oi fi și începui să cânt. Cântând, mi-am zis, mă vei auzi și vei veni să mă scapi. Oh! văzuși, nu m’am înșelat de loc. </p>
+   <p>— Cântecul meu ’i-a liniștit furia, cu o mână ma ținea de mijloc, iar cu cealaltă îmi mângâia bărbia zicându-mi .</p>
+<p>— Cât ești de frumoasă!</p>
+   <p>— In timpul ăsta tu ai venit scumpul meu! El ți-a auzit pașii, a înțeles că trebuia să’mi fii vr’un cunoscut și mi-a zis :</p>
+<p>— Dacă vei zice un singur cuvânt, ești moartă.</p>
+<p>— Dumnezeule! câtă groază am simțit atuncea.</p>
+<p>— Pe urmă ce ai făcut ?</p>
+<p>— Pe urmă am luat un pumn în piept și am căzut jos.</p>
+<p>După ce m’am ridicat, m’am găsit în brațele tale. Iți mulțumesc cerule!</p>
+<p>Iată iubite cititor, în ce mod a scăpat vicleana Vidra de furia gelosului Cătănuță după ce mai întâi a scăpat pe awi ei amant.</p>
+<p>Două săptămâni trecură din noaptea aceea, în care grupa amoroasă era să devie victima înfuriatului Ghiță și acum găsim pe Vidra tot în mijlocul pădurei și tot lângă iubitul ei Păunaș, pe care l’a scăpat de moartea ce i-o prepara nesuferitul ei Cătănuță.</p>
+<p>Inserase, Vidra eră încă cu Păunaș și unde? tocmai îa căsuja ei, în acea casă în care căpitanul haiducilor o ținea închisă. 5</p>
+<p>Cocoșii din bătătură cântară de trei ori, erau 12 ore di» noapte Tocmai atunci se sculă Vidra, trezi pe Păunaș, care dormea lângă dânsa și-i zise :</p>
+<p>—Scoală dragul meu, scoală, se apropie timpul câni trebue să sosească Ghiță.</p>
+<p>Păunaș se trezi, își sărută ibovnica și plecă.</p>
+<p>— Când voiu mai veni ca să te văd? o întrebă el.</p>
+<p>Ori de câte ori îmi vei auzi cântecul.</p>
+<p>Păunvș plecase.</p>
+<p>Era ceasul unu, timpul când ies nălucile și dănțuesc ielele, in pădure ca și în casa Vidrei erâ tăcere.</p>
+<p>Ideile și închipuirile nu produc nici un sgomot.</p>
+<p>De odată însă se auzi o scârțitură. Vidra tresări.</p>
+   <p>— Nu cumva o fi Ghiță ? se întrebă ea.</p>
+<p>Dar de ce oare această întrebare ? ș’apoi Ghiță nu trebuie să sosească ?</p>
+<p>Vidra să știe vinovată și omul vinovat se teme de umbra lui.</p>
+<p>— Poate m’o fi simțit! poate că a și fi fost pândită!</p>
+<p>Aceste erau gândurile, care’i străbătură mintea ș’o făceau să tremure.</p>
+<p>In scurt timp însă dispăru toate bănueiile.</p>
+<p>Ghiță Cătănuță, căci nu era altul decât el, intră, se apropii de Vidra și o sărută.</p>
+<p>O! câtă bucurie nu-i aduse această sărutare.</p>
+<p>Era sigură că Ghiță nu știa nimic.</p>
+<p>— Erai tu, dragul meu ?</p>
+<p>— Și cine altul putea fi? îi răspunse Ghiță.</p>
+<p>Cu toate astea, știi întâmplarea de acum două săptămânii</p>
+<p>— Și ce, ai crede că cineva ar merge până acolo ea îndrăzneala ?</p>
+   <p>— O! zi mai bine: ferește Doamne de ceasul cel rău și de omul cel vrăjmaș!</p>
+<p>— Așa e, Insă tu uiți că mă numesc Ghiță Cătănuță!</p>
+   <p>— Ai’ dreptate, ai dreptate... ca tine cine-i așa de voinic si bun...</p>
+<p>’ Tot astfel de cuvinte perfide și măgulitoare eșiră din gura frumoasei Vidrei, până când în fine căpitanul haiducilor adormi pe brațele iscusitei trădătoare.</p>
+<p>Când s’au trezit eră târziu, soarele răsărise de mult umplând pădurea de o lumină roșiatică.</p>
+<p>Pe la zece ceasuri dejunară și după dejun eșiră în pădure.</p>
+<p>E de prisos să mai descrim frumusețea naturei, pe care poate s’o admire cineva în mijlocul pădurei.</p>
+<p>Sbârniitul unei lumi întregi de insecte, glasul a sutimi de pasări, fâșiitul ierbei și al florilor clătinate de vânt, freamătul frunzelor, toate acestea încântă sufletul.</p>
+<p>Cătănuță și cu Vidra se așezară pe un trunchiu de copac.</p>
+<p>— Vidro, îi zise el: de câtva timp, eu văd că tu mă iubești mai mult.</p>
+<p>— Hei, dar ce vrei! este atâta timp de când trăesc eu tine!</p>
+<p>— O, draga mea, la început gândiam că Dumnezeu vrea să mă pedepsească pentru păcatele mele.</p>
+<p>— Da, vremea, continuă Vidro; vremea, care sfărâmă totul, a sfărâmat și ura ce-ți purtam la început.</p>
+<p>Pe fața lui Cătănuță răsări o rază de bucurie.</p>
+<p>— Draga mea, îi zise haiducul, este atâta timp de când eu te-am auzit cântând. . .</p>
+<p>— O, dar ce vrei, răspunse Vidra îngrozită, dorul inimei a sugrumat glasul pieptului.</p>
+<p>— Eu ași vrea să-mi cânți.</p>
+   <p>— Să-ți cânt ? dar ce cântec poate fi mai frumos decât cuvintele: <quote>„te iubesc!"</quote></p>
+<p>Si Vidra împresură cu brațele sale gâtul haiducului.</p>
+<p>— Nu, nu, draga mea, tu nu poți scăpa cu una cu doua,</p>
+<p>Sufletu-mi vesel, trebue să se înveselească mai mult de glasul tău.</p>
+<p>—Dar Ghiță, eu nu mai pot cânta.</p>
+<p>— Să nu mai zici vorba asta ?</p>
+<p>Trecu aproape un ceas, în care timp Vidra se împotrivi într’una; dar în cele din urmă, după cum se văzu că nu mai are ce face, începu să cânte.</p>
+<p>— Cântă o baladă bătrânească, îi zise Catanuță.</p>
+<p>— Bine, voiu cânta, îi zise ea, dar ’mi-e frică să nu m’audă Păunaș, acela care m’a îngrozit în acea noapte blestemată și să nu vie iar la mine.</p>
+<p>— N’ai frică, draga mea, răspunse căpitanul haiducilor, dacă va veni la noi, îl voiu trimete pe lumea cea-l’altă, ca dracii să râdă de sufletul său!</p>
+<p>Vidra se mai gândi puțin, apoi începu să cânte.</p>
+<p>Glasul fetei era așa de dulce încât: <hi>apele se tulburau, brazii mii se scuturau, munții chiar se clătinau, iar văile răsunau.</hi></p>
+<p>Iată balada pe cara o cântă:</p>
+  <quote type="ballad">
+<l>La gura Siretului,</l>
+<l>Prin postul sân Petrului,</l> 
+ <l>Iată mări ,că s’a ivit</l> 
+ <l>Un caic lung poleit </l>
+ <l>Cu postav verde învelit </l>
+ <l>Dar în ei cine’mi eră?</l>
+<l>Era Soliman Aga,</l>
+<l>Cu cinci-zeci de Eniceri, </l>
+ <l>Care poartă’n brâu hangeri. </l>
+ <l>Ei veneau încet, încet,</l>
+<l>De la Dunăre în Șiret.</l> 
+ <l>Valurile străbătând, </l>
+ <l>Malurile cercetând </l>
+ <l>D’un Vulcan, d’un căpitan, </l>
+ <l>Dușmanu lui Soliman.</l>
+<l>Iată mări cum venea</l>
+ <l>Că p’un mal se întâlnea</l> 
+  <l>Cu trei fete Moldovence </l>
+  <l>Floricele Dunărence,</l> 
+  <l>Vorbitoare cântătoare </l>
+  <l>Și de pânzi înălbitoare.</l> 
+   <quote><l>„Bună ziua la trei fete,</l>
+<l>De nu sunteți voi șirete,</l> 
+ <l>Spuneți nouă de Vulcan </l>
+ <l>Unde-i aprigul Bogdan ? </l>
+ <l>Dacă’ți spune voi cu drept,</l>
+<l>Răsări-v’ar flori la piept,</l>
+ <l>Flori cu fețe de bujori</l> 
+ <l>Și cu ochi de pruncușori;</l>
+  <l>Lucru vostru să sporească </l>
+ <l>Pânzele să se nălbească</l> 
+ <l>Cum e coala de hârtie,</l>
+<l>Și floarea de iasomie,</l> 
+ <l>iar de nu-ți grăi cu drept;</l> 
+ <l>Arde-v’ar focul în pept. </l>
+ <l>Lucru să nu vă sporească, </l>
+ <l>Pânzele să nu albească,</l>
+   <l>Ci la soare să înălbeasă </l>
+   <l>Și la vânt să putrezească”</l></quote>
+<l>Cele fete Moldovence,</l>
+<l>Floricele Dunărence,</l>
+<l>De pe mal să depărta :</l>
+<l>Și din gură cuvânta :</l>
+   <quote><l>„Atuncea s’jungeți voi</l> 
+    <l>Când îți afla dela noi </l>
+    <l>Unde-i Badea cel iubit </l>
+    <l>Și de Turci nebiruit!</l></quote>
+ </quote>
+<p>—Bravo fete! întrerupse Cătănuță. Ele ar fi voit mai bine să moară de cât să’și vândă pe un voinic, care le era și drag.</p>
+<p>— Nu numai ele, dar ori ce fată ar fi făcut tot astfel.</p>
+<p>Știi tu cine era acel Vulcan ?</p>
+<p>— Nu, răspunse Ghiță.</p>
+<p>_ Hei! era un viteaz din cei d'întâiu viteji.</p>
+<p>— Bine, bine, o întrerupse iarăși căpitanul haiducilor, dar dacă ele n’au voit să spue turcilor, unde sta ascuns acel Vulcan; ce au pățit ele ? au fost omorâte, s’au luate roabe si duse la Țarigrad?</p>
+<p>— Nici una, nici alta; dar fiind-că vrei sa știi sfârșitul ascultă :</p>
+<p>Și Vidra începu să cânte:</p>
+ <quote type="ballad">
+<l>Turcii se posomora,</l>
+<l>Pe mal verde cobora,</l>
+<l>Și de mers nu se oprea </l>
+ <l>Până’ce’n cale nu zărea.</l>
+<l>O sălcică rămurată </l>
+ <l>P’un isvor rece culcată;</l>
+<l>Lângă salcie o bătrână </l>
+ <l>Cu caftane trei în mână,</l>
+<l>De sânge spălându-le,</l>
+<l>De pietre bătându-le,</l>
+<l>Iar sub salcie-un căpitan </l>
+ <l>Șoimul ager de Vulcan </l>
+  <l>Stând la umbră și dormind </l>
+  <l>De-a lui viață ne’ngrijind.</l>
+<l>Că de pază mi-l păzește </l>
+ <l>Și la capu-i străjuiește </l>
+ <l>Pandelaș un grec voinic </l>
+ <l>Cu pistoale sub ilic,</l>
+<l>Slugă veche și iubită </l>
+ <l>De stăpânul dăruită.</l>
+<l>Soliman s’apropia </l>
+ <l>Și din gură așa grăia :</l>
+  <quote><l>„Bre Pandele, de vrei bani</l>
+   <l>Să nu-i poți mânca doi ani</l>
+   <l> Dă-ne pe Vulcan legat,</l>
+   <l>Că-i peșcheș de împărat.</l></quote>
+ </quote>
+ <p>— Și Pandele ce zici, o fi primit ca să-și vândă pe stăpânul său, care își puse toată încrederea în dânsul ?</p>
+<p>— Dacă vrei ca să știi totul de ce nu mă lași să-ți isprăvesc cântecul ? îi răspunse Vidra. </p>
+   <p>— Ai dreptate ai dreptate, acest cântec e așa de frumoși... Spune, draga mea, cântă înainte.</p>
+<p>Vidra continuă :</p>
+  <quote type="ballad">
+   <l>Grecii le cam răspundea: </l>
+    <quote><l>„Dați-mi bani și vom vedea”,</l></quote> 
+    <l>Soliman se bucura,</l>
+<l>Bani în palmă’i număra,</l>
+<l>Zece pungi de irmilici.</l>
+<l>Opt de rubiele mici </l>
+    <l>Și vr’o trei de genitici</l>
+    <l> iar Pândele ce făcea</l> 
+    <l>La stăpânu-i se ducea</l>
+<l>Și cu brâu-i de mătase </l>
+    <l>Brâu cu țesătura deasă,</l>
+<l>Ii lega brațe’n cruciși, </l>
+    <l>Dăruindu-l rob la Turci!</l>
+ </quote>
+   <p>—Nenorocitul, exclamă Cătănuță la aceste cuvinte. A avut el o așa inimă?</p>
+  <p>—Hei dragul meu, el era grec și avea inimă grecească.</p>
+  <p>—Sărmanul VuIcan ! desigur a fost dus Ia Țarigrad și omorât de mana păgânilor musulmani. </p>
+  <p>—Nu dragul meu, nu moare așa de lesne nu moare așa lesne un voinic ca Vulcan.</p>
+<p>— Dar...</p>
+<p>— El a scăpat </p>
+ <p>— A scăpat ? și cum ?</p>
+<p>— Cum știe să scape orice român când e pe nedrept vândut la păgâni! Ascultă :</p>
+  <p>Vidra cântă:</p>
+ <quote type="ballad">
+<l>Lângă malul ridicat,</l>
+<l>Stă Vulcanul răsturnat </l>
+ <l>La stejarul cel frumos</l> 
+ <l>In pădure căzut jos!</l>
+ <l>înprejuru’i adunați </l>
+ <l>Ședeau turcii înarmați </l>
+ <l>Și pe rând se întreba : </l>
+ <l>La ce moarte i-ar afla ? </l>
+ <l>Unii ziceau să’l omoare</l> 
+ <l>Cu laț de spânzurătoare ; </l>
+ <l>Alții să’l cufunde în apă,</l> 
+ <l>Alții să’l înfigă în țeapă</l>
+<l>Alții să’l tae pe loc </l>
+ <l>Alții să’l arunce în foc.</l>
+<l>Iar Pandeli asculta</l> 
+ <l>Și la rându-i cuvânta:</l>
+<quote><l>„La cea moară părăsită,</l>
+<l>De stăpânul meu clădită,</l>
+<l>Este o piatră de râșnit,</l>
+<l>Și’i bună de aninat </l>
+ <l>De un gât de vinovat </l>
+ <l>Și’n Siret de scufundat.</l></quote>
+ </quote>
+<p>— Mă! dar al dracului copil mai era Pandelea grecul!</p>
+<p>— Cum sunt toți grecii, răspunse Vidra.</p>
+<p>— Nu, o opri Cătănuță, eu am înaltă cunoștință de carte, căci tu știi că am fost popă.</p>
+<p>— Da, știu, cum nu.</p>
+<p>— Ei bine, am citit o carte scrisă chiar de un român de al nostru.</p>
+<p>— Și ce vorbia în acea carte ?</p>
+<p>— Multe și mărunte. Am citit-o, din scoarță până b scoarță numai în trei săptămâni. In acea carte zicea că na toți grecii de la o laltă sunt păcătoși, înșelători ?</p>
+<p>— Cum ? adică sunt și buni printre dânșii ?</p>
+<p>— Da și încă mulți.</p>
+<p>— Eu mă prind că în toată țara moldovenească n’ai găsi un grec cu frica lui Dumnezeu.</p>
+<p>— In țara Românească, vezi tu, nici eu nu mă prind, îa carte zicea :</p>
+ <quote><p>„Toți grecii cari cutreer țara noastră sunt niște venetici, niște lepădături ai celorlalți greci. Ne mai având ce mânca în țara lor, iar cei din Țarigrad, ne mai găsind a fi nici slugi la turci, au fugit aici ia noi, unde s’au făcut ei stăpâni.</p></quote>
+<p>— Ale dracului spurcăciuni ’ Va să zică grecii ceilalți na sunt ca aceștia după aici.</p>
+<p>— In adevăr, răspunse Cătănuță, în cartea aceea zicea că și ei sunt vicleni, ce să le faci, așa le e neamul; dar sunt buni, înțelepți peste măsură, cu chibzuială la orice lucru și mai mult ca orice, voinici, nepăsători de moarte. Tot în acea carte zicea că în vechime ei ar fi spăimântat o lume înteagă.</p>
+<p>— Vai ! câtă deosebire de acei greci și de aceștia după aici!</p>
+<p>— Insă eu cu vorba mea, ți-am tăiat cântecul, care e așa de frumos ! Ia spune-mi, s’a lăsat bietul Vulcan ca să fie aruncat în Șiret ?</p>
+<p>— Ei dar ce era să facă !</p>
+<p>— Va să zică l’au înecat! </p>
+ <p>— Da.</p>
+<p>— Și a murit în fundul apei!</p>
+<p>— Nu, asta nu ți-am zis. Ascultă balada.</p>
+ <quote type="ballad">
+<l>Turcii toți <hi>Evei</hi> zicea </l>
+ <l>Pe Vulcan iute’l ducea</l> 
+ <l>Și de piatră mi’l lega </l>
+ <l>Și ’n Șiret îl aruncă,</l>
+<l>Apele se deschideau </l>
+ <l>Și pe loc se închideau,</l>
+<l>Cum se închide p’un mormânt </l>
+  <l>Gura negrului pământ!!</l>
+<l>Apoi turci purcedeau,</l>
+<l>La Galați ei se duceâ,</l>
+<l>Lăsând îndărătul lor,</l>
+<l>Pe luciul apelor,</l>
+<l>Valurile ușurele</l>
+<l>Și vârteje ’n cercurele.</l>
+<l>Iar Vulcan se scufunda </l>
+ <l>Până ce de fund el da.</l>
+<l>Când în fund el ce făcea?</l>
+<l>Cu dinții brâu rodea,</l>
+<l>Mâna dreaptă ’și desfăcea,</l>
+<l>Din picioare s’opintea,</l>
+<l>La lumină de eșia,</l>
+<l>Apoi greu ei înota</l> 
+  <l>Și din gură cuvânta :</l>
+  <l>Sărăcutu amar de mine !</l>
+  <l>Căci un ajutor nu’mi vine !</l>
+<l>Să mă scoată de la greu.</l>
+  <l>Să’mi lungească veacul meu !“</l>
+ </quote>
+<p>— <foreign>Aferim</foreign> ce mai român ! exclamă Cătănuță. Astfel de oameni nici odată nu pier!</p>
+<p>— O, da, eu știu mai multe cântece care spun despre Vulcan, îs răspunse Vidra întrerupându-și frumosul cântec. — Dar bine, el cereâ ajutor, cine era să-l audă ?</p>
+<p>— O inimă simțitoare, care așteptând să-l vadă eșind mort din apă, îl văzu viu.</p>
+<p>Vidra cânta:</p>
+ <quote type="ballad">
+<l>Eată, mări, că de odată </l>
+ <l>Îi răspunse un glas de fată... ... </l>
+ <l>Voinicele, tine bine,</l>
+<l>Că eu viu, alerg la tine“. </l>
+ <l>Copilita sprintenică </l>
+ <l>Săria într’o luntricică</l>
+<l>Și cu mâineie vâsla </l>
+ <l>Pe Vulcan de mi-l scăpă;</l>
+<l>Iar Vulcan o săruta </l>
+ <l>Și'cu drag îi cuvânta:</l>
+  <l>—Fire-ai dragă fericită!</l> 
+   <l>Că tu ești a mea ursită,</l>
+<l>Ca lumina de iubită.</l>
+<l>Mergi acum la tine acasă </l>
+ <l>Și-ți ia haine de mireasă </l>
+ <l>Și așteaptă bucuroasă,</l>
+<l>Că eu de voiu isbândi,</l>
+<l>Cu tine m’oiu logodi </l>
+ <l>Ș’om face casă’mpreună,</l>
+ <l>Să trăim viată bună".</l>
+ </quote>
+<p>— Frumos, frumos! exclamă Cătănuță. Inima îți întinerește la auzul acestui cântec atât de frumos. Dar ia’n ascultă, dragă Vidro, luat-a el pe acea copilă, care l’a scăpat din apă ?</p>
+<p>Vidra se uită în spre o parte a pădurei.</p>
+<p>Câtă să vadă dacă cum-va Păunaș, căruia îi spusese ca șă vie ori de câte ori o va auzi cântând, nu va sosi.</p>
+<p>Se uită printre arbori, printre frunze, dar nu zări nimic.</p>
+<p>— Cine știe, poate că el o fi plecat din această pădure, își zise ea. De n’o fi aici, atât mai bine, căci altminteri nu știu ce se va întâmpla.</p>
+<p>Multe astfel de gânduri își făcea Vidra și fără a răspunde la întrebarea lui Cătănuță, începu să cânte înainte:</p>
+ <quote type="ballad">
+<l>El la târg se îndrepta,</l>
+<l>Mamei lui se arăta,</l>
+<l>Iar bătrâna lăcrăma Și cu jale cuvânta:</l>
+<l>„Alei! dragă de ești viu.</l>
+<l>Spune mamei ca să știu;</l>
+<l>Iar de nu să te bocesc.</l>
+<l>Trupul să ți-l pânzuesc,</l>
+<l>Podurile să-ți gătesc.</l>
+<l>— Nu sunt mort, nu mă boci,</l>
+<l>Nici în pânză nu mă’nveli,</l>
+<l>Ci cu zdrențe mă’nvelește </l>
+ <l>Și mă schimbă calicește,</l>
+<l>Făcea cum măsa zicea,</l>
+<l>In calic îl prefăcea,</l>
+<l>Pe uliță apuca Crâșmele de le cerca.</l>
+<l>Cerca, una, cerca două!</l>
+<l>Până împlinea nouă!</l>
+<l>Când a fost la nouălea,</l>
+<l>Ei înăuntru năvălea,</l>
+<l>Că înăuntru el văzuse </l>
+ <l>Pe Pândele ce-l vânduse,</l> 
+ <l>Vânzătorul sta culcat</l> 
+ <l>Tocmai în fund pe un macat </l>
+ <l>Lăudându-și faptele </l>
+ <l>Și bându-și păcatele.</l>
+<l>Noroc bun și veselie </l>
+ <l>Celor ce-s în avuție.</l>
+<l>Să’mi faceți parte și mie </l>
+ <l>Căpitane Pandelaș,</l>
+<l>Tu ce ești un bogătaș !</l>
+<l>Dă-mi o frântă de lescae,</l>
+<l>Căci foamea cumplit mă tae </l>
+ <l>Și pân la pământ mă ’ndoae“ </l>
+ <l>— Măi străine, măi sărace!</l> 
+ <l>De ți-e foame, n’am ce-ți face </l>
+ <l>Că mă țin greu înșelat,</l>
+<l>De toți banii ce i-am dat </l>
+ <l>Pe ăst paloș oțelit,</l>
+<l>Cu mănunchiul poleit </l>
+ <l>— Dă-l încoace fătul meu,</l>
+<l>Ca să-l cercetez și eu </l>
+ <l>Și să-ți spun adevărat</l>
+ <l>Ca-ai fost tu înșelat </l>
+ <l>Grecu beat paloșu-i da,</l>
+<l>Iar Vulcan cum ’l lua,</l>
+<l>Ochii ’n sânge își crunta </l>
+ <l>Ș’apoi aspru cuvânta:</l> 
+ <l>Alelei! fecior de lele; </l>
+ <l>Vânzătorul zilelor mele!</l>
+<l>Nu te ține înșelat </l>
+ <l>De câți bani pe el ai dat;</l>
+<l>Dar te ține înșelat </l>
+ <l>Intr’acui mână m-ai dat“.</l>
+<l>Alei! fiară veninoasă!</l>
+<l>Liftă rea, necredincioasă!</l>
+<l>Ce rău spune-mi ți-am făcut </l>
+ <l>Turcilor de m’ai vândut?</l>
+<l>Ori la mine n’ai avut </l>
+ <l>De mâncat și de băut ?</l>
+<l>Haine bune de ’mbrăcat?</l>
+<l>Cal frumos de ’ncălecat?</l>
+<l>Ai voit tu să mor eu,</l>
+<l>Dar n’a voit Dumnezeu,</l>
+<l>Că de moarte m’a scăpat,</l>
+<l>Să te curăț de păcat!“</l>
+<l>Cum zicea îl și isbeâ.</l>
+<l>Capul grecului tăia </l>
+ <l>Apoi trupu-i tărâiâ,</l>
+<l>Fără popă, nici prohot,</l>
+<l>Pân ’la capul unui pod</l> 
+ <l>Si podeaua ridică,</l>
+<l>Apoi iar se întorceâ </l>
+ <l>Iar pe uliță purcedeâ</l>
+<l>Câți pe mână-i încăpea.</l> 
+ <l>Pe cea lume-i trimetea’ </l>
+  <l>Apoi iute alergă </l>
+  <l>Si voios se cunună</l>
+   <l>Cu cea fată Moldoveancă,</l> 
+    <l>Floricică Dunăreancă,</l> 
+     <l>Care’n haine de mireasă</l> 
+      <l>L’aștepta de mult acasă!</l>
+<!--  <milestone/>-->
+      <l>Spusu-ți-am cântec bătrân</l> 
+       <l>Si mai am vr’o două în sân.</l>
+        <l>Dacă ai tu suflet bun</l>
+         <l>Și pe acele ți-le spun.</l>
+ </quote>
+
+<p>Astfel cânta Vidra, cântecul îi era sfârșit și din ochii ei esiau scântei.</p>
+<p>Cătănuță o ascultă, se apropie apoi de dansa, o strânse în brațe și-i zise:</p>
+<p>— Cât ești de frumoasă și cât de mult știi sa încânți pe mine cu glasul tău cel dulce !</p>
+<p>Vidra nu răspunse, dar se uită iar spre o parte a pădurei, par’că voia să întrebe arborii, să întrebe vântul, dac^ nit cumva au zărit pe cineva venind spre dânsa.</p>
+<p>Nimeni însă nu voi să-i răspundă.</p>
+<p>Si vântul și arborii tăceau.</p>
+<p>Dar de odată ce-i zăriră ochii?</p>
+<p>Vidra îngălbenește.</p>
+<p>Cătănuță se uită la ea și o întrebă ce are.</p>
+<p>— Vai! îi răspunde, privește vezi tu cine vine?</p>
+<p>— Da cine să fi oare?</p>
+<p>— Nu-l cunoști?</p>
+<p>— Nu.</p>
+<p>— O, el este care...</p>
+<p>Si privirile lui Cătănuță mergeau cu iuțeala fulgerului de la Vidra la Păunaș, căci acei care înainta cu un pas cutezător spre dânșii nu era altul de cât Păunașul Codrilor, care venea la glasul frumoasei sale.</p>
+<p>— Scapă-mă îi zise Vidra apropiindu-se și facand spre el fel de gesturi și semne ca să explice celui care venea ea acesta era căpitanul Cătănuță.</p>
+<p>Păunaș însă nu voia să știe despre aceasta. </p>
+<p>El un gând avea: Să omoare pe acela care se afla langa iubita lui.</p>
+<p>Și apoi el își zicea:</p>
+<p>— Vidra singură voește aceasta, căci altminteri pentru ce m’ar fi chemat ?</p>
+<p>— Dar bine draga mea, răspunse Ghiță su-prins, de cine voești să te scap?</p>
+<p>— De acel om.</p>
+<p>Ghiță măsură de departe cu căutătura sa pe Păunaș și întrebă :</p>
+<p>— Cum ? acesta e un om rău!</p>
+<p>— Da, răspunse Vidra.</p>
+<p>— Atunci păcat de zilele și frumusețea lui.</p>
+<p>— Mai bine haide să fugim! zise Vidra trăgând pe căpitanul haiducilor de mână.</p>
+<p>— Să fugim ? să fug eu ? dar când s’a mai întâmplat asta ? Auzi vorbă! să gândească copilandru acesta, că Ghiță Cătănuță s’a temut de el, frumos ar fi! și apoi tu singură ai zis că e un om rău, ei bine...</p>
+<p>— Ei bine...</p>
+<p>— Trebue atunci ca să-l omor.</p>
+<p>Vidra începu să tremure.</p>
+<p>— Asta e menirea mea, continuă Cătănuță, să omor pe cei răi, ori unde i-ași întâlni. Dar ia ascultă mă rog, de unde îl cunoști d-ta ?</p>
+<p>— Se poate să nu-l cunosc?</p>
+<p>— Vezi bine că se poate, cum ciorile să nu se poată, ori poate tu ai pe sfântul Duh, prin care cunoști pe toți oamenii cei răi ?</p>
+<p>— Nu, nu, acesta însă e acela care te-a lovit peste mână.</p>
+<p>— Cine, întrebă Ghiță.</p>
+<p>— Acel care te-a lovit.</p>
+<p>— Care m’a lovit ? scrâșni haiducul din dinți, dar crezi tu că a cutezat cineva până acum ca să lovească pe unul ca mine ? tu aiurezi, Vidro.</p>
+<p>— Nu aiurez de loc. Acesta e acela care a lovit mâna ta, când puseseși ghiareie pe el, și care scăpând de tine m a lovit și pe mine în pept și pe urmă s’a făcut nevăzut,</p>
+<p>— Cum, cum zici ? acesta va să zică...</p>
+<p>— Da acesta este...</p>
+<p>— Care a îndrăsnit...</p>
+<p>— Să mă iubească!</p>
+<p>— Mii de mii de tunete ! dar ei trebuie să moară la minut.</p>
+<p>Vidra era mai palidă decât moartea.</p>
+<p>Păunaș venea de asemeni hotărât să se lupte cu acel bărbat, care ședea lângă Vidra lui, asupra căruia dobândise drepturi, pe care Vidra singură i le acordase.</p>
+<p>— Dacă acesta va fi vr’un îndrăzneț îl voiu omorî.</p>
+<p>Astfel se gândea Pă'unaș.</p>
+<p>— Dacă însă va fi chiar bărbatul ei, acel înfricoșat Ghiță Cătănută, atât mai bine ; mă voiu încerca să-l omor și pe dânsul/ și de voiu isbuti Vidra nu va mai avea de cine se teme: iar de nu...</p>
+<p>— Cine ești tu ? se auzi o voce care făcu să răsune pădurea.</p>
+<p>— Dar tu cine ești ? se auzi o altă voce nu mai puțin puternică.</p>
+  <p>—Cine sunt eu ? N’am să dau seamă unui nătărău ca tine!</p>
+<p>— înaintea unui nătărău poți ca să nu dai seama, înaintea lui Păunaș însă, trebue să te închini.</p>
+<p>Mă voi închina atunci, când voiu lua stârvu-ți ca să-l dau la fiarele acestei păduri !</p>
+<p>— Să nu ți se întoarcă vorba pe dos, nemernicule, îi răspunse Păunașul Codrilor.</p>
+<p>— N’avea frică, lui Ghiță Cătănuță nici odată vorba nu i se întoarce pe dos.</p>
+<p>După aceste cuvinte Păunaș se apropie de haiduc și îi zise:</p>
+<p>— Cum vrei acum: cu cuțitele să ne tăem, ori în trântă să ne trântim ?</p>
+<p>— Cum vrei tu, îi răspunse Cătănuță.</p>
+<p>— Dar dacă nu vrei să te bați cu mine, atunci dă’mi pe Vidra de voie ș’apoi caută-ți de drum.</p>
+<p>— Nu Păune, eu nu-ți voiu da pe Vidra, nu ’ți-oiu da, pe cât capul sus ’mi-o stă!</p>
+<p>— Hei, măi Ghiță bărbărie, tu te-ai lăsat de popie, și de sfânta biserică și te-ai dat în haiducie!</p>
+<p>— Da, și de îmi pare bine de ceia ce am făcut, e că am să te omor acuma și pe tine!</p>
+<p>— Mie însă, mi-e frică de pielea ta I</p>
+<p>— Haide, mă nebunule, alege mai bine care să-ți fie moartea!</p>
+<p>— Eu ași voi să te omor trântindu-te, că e mai cu dreptate.</p>
+<p>— Așa vei muri.</p>
+<p>Si amândoi se luară la luptă.</p>
+<p>Mult se mai luptară ei. Trecu un ceas, trecură două și nici unul nu cădea, dar când fu în spre seară, iată că se deslegă brâu! lui Cătănuță.</p>
+<p>Ce să facă el acum ? După cum în povești puterea smei-lor stătea în trei fire de păr din vârful capului, tot astfel și Românului, când se luptă la trântă dreaptă, puterea îi stă în mijlocul său când este bine încins.</p>
+<p>Ce să facă dar Cătănuță ca să-și lege brâul ?</p>
+<p>Nu avea cum.</p>
+<p>Păunaș îl ținea strâns, pe când el s’ar fi încercat ca să’și lege brâul, adversarul său l’arfi trântitde nu s’ar mai fi sculat</p>
+<p>Atunci un gând îi trecu prin minte.</p>
+<p>Se uită înapoi și văzu pe Vidra.</p>
+<p>Aici era speranța.</p>
+<p>— Vidro, îi zise el, vin’o de’mi leagă brâul că’mi slăbesc puterile.</p>
+<p>— Nu bădiță, îi răspunse ea.</p>
+<p>— Vidro de ce vorbești tu ?</p>
+<p>— Nimic, răspunse ea, care plină de groază aștepta rezultatul luptei.</p>
+<p>— Atunci de ce nu’mi strângi brâul ? '</p>
+<p>In tot timpul acesta ochii ei se întâlniră cu ai lui Păunaș.</p>
+<p>— Pentru că nu voiu, zise ea.</p>
+<p>— Vidro, tu nu mă ajuți ia nevoi ?</p>
+<p>— Hei, dragă Cătănuță, eu voiu lupta pe dreptate au voiu să viu nimănui în ajutor. Luptați-vă și cu cel ce  birui, cu dânsul m’oi iubi.</p>
+<p>La auzul acestor cuvinte ochii lui Ghiță Cătănuță se umplură de sânge.</p>
+<p>Cu o furie mai mare ca a unui urs, când ai tras cu glonțul într’insul și nu l’ai lovit, sau cu aceea a unei ti-groaice când își vede puii răpiți de un vrășmaș cumplit, se opinti Ghiță odată, se opinti de două ori, iar când la a treia oară îl trânti așa de tare, în cât sărmanul Păunaș se lungi cu fata la pământ.</p>
+<p>Ghiță nu mai perdu timpul și trăgându-și baltacul îi tăiă numai decât corpul în bucăți și-i împrăștie prin pădure.</p>
+<p>Vidra era mai mult moartă.</p>
+<p>Cătănuță veni spre ea.</p>
+<p>— Fiară cruntă, nu te apropia de mine ! îi zise dânsa.</p>
+<p>Ochii lui Cătănuță erau încă roșii de sânge.</p>
+<p>— Fă muere făr de lege, va să zică tu iubeai pe acel nemernic.</p>
+<p>— N’am nevoe să-ți dau ție seamă.</p>
+<p>— O, nenorocito ! dar tu uiți că sunt stăpânul tău !</p>
+<p>— Minți călăule ! stăpânul meu este numai Dumnezeu</p>
+<p>— Ști tu, fă Vidro, ce m’am gândit eu ?</p>
+<p>— Nu știu nimic.</p>
+<p>— Ascultă atunci: Ași avea o mare bucurie să’ți văd capul aninat de crăciie acelui copac, iar păsările să vie și să’ți scoată ochii.</p>
+<p>— Știu! Gândurile tale, sunt tot atât de negre ca și inima ta !</p>
+<p>— Așa Vidro, continuă Cătănuță, fuîgerând de mânie. Capul ți’l voiu spânzura, iar cu corpul tău voiu hotărnici moșiile mele cele întinse.</p>
+<p>Vidra nu mai tremura de astă dată, ea perduse pe Păunaș și puțin îi mai păsa de viața ei.</p>
+<p>Cătănuță se repezi la dânsa, o apucă de păr, îi ținu gâtul drept și tot cu baltagul cu care lovi pe Păunaș reteză și gâtul ei.</p>
+<p>Capul căzu la pământ, se mișcă din loc în loc, deschise gura, deschise ochii și-i închise iar; pe când corpul se sbătea tocmai ca un pește.</p>
+<p>Ori-cine ar fi văzut acum acel cap sângerat, n’ar fi mai cunoscut fața cea frumoasă a Vidrei.</p>
+<p>Era moartă și împreună cu dânsa muriră și duioasele și eroicele ei cântece și frumusețea’i fără margini.</p>
+<p>Cătănuță se uită mult timp la ea, privirea lui se îndreptă dela cap la corp; părea că voește să mai recunoască pe acea fată plină de farmec, pe care a răpit-o de două ori, pe care a iubit-o așa de mult și pe care acum o omorâse.</p>
+  <p>—Oh! nelegiuit-o ! esclamă în cele din urmă. Tu iubiai pe acel Păunaș, tu mă înșelai pe mine, ei bine iată-ți răsplata !</p>
+<p>Și zicând aceste cuvinte, își șterse ochii de două lacrimi cari îi alunecară pe față și porni prin pădure.</p>
+</div>
+ <div type="chapter">
+<head>Ghiță Cătănuță bătut de poteră</head>
+<p>Inoptase.</p>
+<p>Ghiță Cătănuță rătăcia încă prin pădure.</p>
+<p>Gândurile lui sburau în toate părțile, la trecut, și la viitor.. De odată auzi niște pași. El tresări, și aceasta a fost</p>
+<p>pentru prima dată.</p>
+<p>— Cine este? întrebă Cătănuță.</p>
+<p>—Noi, căpitane, răspunseră mai mulți haiduci.</p>
+<p>— Ce voiți de la mine ? îi mai întrebă el.</p>
+<p>— Te căutăm.</p>
+<p>— Și pentru ce ?</p>
+<p>— Pentru că despre lași vine o poteră mare; am lăsat-o-chiar la marginea pădurei.</p>
+<p>La acest cuvânt de poteră, sângele viteazului căpitan de haiduci se înfierbântă, dar în zadar. Nu mai avea puterea de mai înainte.</p>
+<p> — Unde sunt cei-l’alți tovarăși ai voștri ? întrebă Ghiță.</p>
+<p>— I-am lăsat puțin mai în urmă, dar iată-i că vin și dânșii.</p>
+<p>Numai decât, după aceea, nouă haiduci împresurară pe căpitanul lor.</p>
+<p>— Băeți, le zise el, aveți puștile cu voi ?</p>
+<p>— Da, răspunseră ei.</p>
+<p>— încărcături aveți destule ?</p>
+<p>— Cât trebue ca să omorâm toate poterile dupe pământul Moldovenesc!</p>
+<p>— Veniți atunci după mine.</p>
+<p>Haiducii făcură ast-fel.</p>
+<p>Cătănuță se plimbă cu ei în pădure, îi duse ia vale, îi sui la deal și în cele din urmă îi împărți în mai multe locuri.</p>
+<p>Poterașii sosiră. Puștile haiducilor răsunară și avură drept răspuns pe acele ale poterașilor.</p>
+<p>Lupta ținu mai mult timp, se făcuse ziuă și pădurea încă vuia.</p>
+<p>Căzură în adevăr multe cadavre de ale poterașilor, dar gloanțele trimise de haiduci, nu erau așa numeroase ca la începutul luptei.</p>
+<p>Care să fie cauza ?</p>
+<p>Eră oare lipsa de plumb, sau lipsa de oameni!</p>
+<p>Era o poteră prea mare, sau haiducii lui Cătănuță slăbiseră, ori Cătănuță nu-i mai conduse cu dibăcie, a maj înainte ?</p>
+<p>El se luptase cu multe poteri și mulți, prea mulți poterași trimisese pe lumea cea-l’altă.</p>
+<p>Haiducii lui erau de asemeni încă destul de tari și aveau pentru luptă tot aceiași dor ca mai ’nainte.</p>
+<p>O ! dar căpitanul! El nu mai era Ghiță Cătănuță de altă dată!</p>
+<p>Amantul trădat, crudul omucid se schimbase 1 Eră sdrun-cinat în speranțele și în pu+erea sa. v</p>
+<p>La fiecare detunătură de Pușcă părea că aude un suspin, un gemăt dureros, care-l strigă:</p>
+<p>— Ghiță!... Ghiță !...</p>
+<p>Era glasul Vidrei.</p>
+<p>In gemetele sfâșietoare ale victimelor cari cădeau moarte, el părea că aude mai multe melodii jalnice, părea că aude cuvinte eșite ca altă dată din gura frumoasei Vidre.</p>
+<p>Cătănuță tresări.</p>
+<p>In pădure nu se mai auzeau de cât puștile poterașilor și nici un răspuns la detunăturile lor.</p>
+<p>— Nu cum-va, se gândi atunci căpitanul haiducilor; nu cura-va prietenii mei, tovarășii mei au perit cu toții?</p>
+<p>Acest gând îi sdrobi inima.</p>
+<p>Strein în lume fără Vidra, fără haiduci; ce va mai face el în codru?</p>
+<p>— Înainte Palicari! auzi atunci mai multe voci. Erau po-terașii cari înaintau.</p>
+<p>— De sigur, toți haiducii sunt morți, își zise Ghiță Cătănuță ; potera vine și dacă cumva mă vor găsi pe mine în calea lor ? O, țnă vor omorî!</p>
+<p>După aceste cuvinte se urcă iute într’un pom cu frunzele și ramurele dese și rămase acolo până ce văzu că poterașii au ieșit din pădure.</p>
+<p>O asemenea purtare a marelui căpitan de haiduci fu pentru prima dată.</p>
+<p>Pentru prima dată Cătănuță se ascundea de frica poterii.</p>
+ </div>
+ <div type="chapter">
+<head>Ghiță în pom</head>
+<head><hi>Nimicirea poterilor</hi></head>
+<p>Era noapte. Cătănuță eră bătut și după cât știm se urcase în pom, pentru a scăpă de urgia vrăjmașului.</p>
+<p>Potera care bătuse pe viteazul haiduc, potera care omorâse pe toți voinicii din acea pădure, se retrăgea acum, ea se retrăgea veselă, căci deși căzuseră o mare parte dintre poterași, totuși se întorcea victorioasă.</p>
+<p>Na mai rămas mei unul din ei, zise Eftimi, un fanariot mai mult bătrân.</p>
+<p>— Dar după cum am băgat de seamă, nu erau tocmai mulți haiduci, pronunță un alt poteraș.</p>
+<p>— Câți au fost, au murit, repetă un altul.</p>
+  <p>— Nu palicari, îi opri Iani, — capul poterei n’a murit</p>
+<p>încă, printre frunze am văzut pe unul fugind si acesta nu poate fi altul de cât hoțul cei mare...</p>
+<p>— Care se numește Cătănuță? întrebă un fanariot.</p>
+<p>— Da, răspunse Iani.</p>
+<p>— Și unde s’o fi ducând el? întrebă un altui.</p>
+<p>— S’a dus ca să scape de frica morții, răspunse Govanî,</p>
+<p>un fanariot borțos, mândru la vorbă, mândru și la umblet și care în lipsa căpitanului îi ținea el locul.</p>
+<p>— Ba, mie mi se pare că s’a dus să găsească o altă ceată de haiauci, zise Iani cu un aer gânditor, uitându-se în toate părțile pădurei.</p>
+<p>— Dar de unde să mai răsarăzhaiduci ? întrebară câți-va dintre poterași.</p>
+<p>— O, acești haiduci sunt nesfârșiți, adăugă Iani !</p>
+<p>— Adevărat, răspunse un altul.</p>
+<p>— Din fiecare pom răsar haiduci și din fiecare frunză vine câte un glonț, complectă Govani.</p>
+<p>— Atâtea, poteri au fost omorâte ! zise și Iani, ca și cum ar fi voit să aprobe cuvintele lui Govani, cel mai bun iii planuri dintre poterași.</p>
+<p>— Să nu avem nici o frică palicari ! strigă un alt fanariot, care când a intrat în pădure, tremura de groaza haiducilor și acum nebun de bucurie că a scăpat cu viață, nu voia să mai cugete ia moarte. Să nu avem nici o frică, zicea el, haiducii nu mai pot fi în pădure.</p>
+<p>— Și chiar dacă ar fi, vom ști să-i omorâm ca și pe tovarășii lor, cari zac la pământ.</p>
+<p>— Ba treaba asta n’aș mai voi, zise cel dintâiu.</p>
+<p>Pe când poterașii vorbeau astfel, auziră în depărtare un tropot.</p>
+<p>— Ce se aude ? întrebă Iani.</p>
+<p>— Haiducii! răspunseră câți-va din poțerași.</p>
+<p>— Nu v’am spus eu, că fiecare pom din pădure sceate câte un haiduc ? zise Govani tremurând de frică.</p>
+<p>— Mai aveți gloanțe ? Întrebă Iani scrâșnind dm dinți.</p>
+<p>— Avem destule, dar... . '</p>
+<p>Și vocea lor fu întreruptă de trosniturile unei salve de puști, care venea dintr’o parte depărtată a pădure! </p>
+<p>— Auziți câtă îndrâsneală la ei ! încă n’au intrat în pădure și voesc să ne sperie zise unul dintre poterași.</p>
+<p>— De sigur că trebue să fie mulți de tot, răspunse un altui.</p>
+<p>— Opriți-vă pe loc, strigă atunci și lanț care se cam zăpăci puțin la auzul detunăturilor de pușcă.</p>
+<p>Poterașii se opriră.</p>
+<p>— Să examinăm locurile, ie zise căpitanul.</p>
+<p>— Să examinăm ! răspunseră ceilalți.</p>
+<p>Și poterașii într’un mod ridicol, începură a se uita prin pădure.</p>
+<p>De odată însă se mai auzi o altă detunătura de pușca.</p>
+<p>Noi știm că haiducii muriseră cu toții și că din ei nu rămase de cât singur Cătănuță, care se ascunsese într un pom ca să scape de moarte.</p>
+<p>Cine erau dar acei care acum dădeau cu puștile ? Cine altui mai venea să se lupte cu potera, care omorâse pe toți haiducii lui Cătănuță ?</p>
+<p>Nimeni !</p>
+<p>Nimeni nu mai era care să se pue în potriva poterilor, dar Dumnezeu voi ca să-i pedepsească și pentru această din urmă dată. .</p>
+<p>Fanarioții nu erau de cât fiare de pradă și trebuia sa se omoare între ei ca fiarele...</p>
+<p>Acei care veneau și descărcau mereu puștile, era o alta ceată de poțerași, care venea să se lupte cu haiducii. _</p>
+<p>Ei nu aveau știre despre lupta de mai înainte și nici nu știau că vre-o ^tă poteră se mai găsea în pădure.</p>
+<p>Doar un lucru știau, că haiducii sunt în această pădure,, erau convinși de această.</p>
+<p>Potera era mare, se compunea din mai mult de 150 oameni și cu toate astea cu toții tremurau de frica morții. Așa de mult știuse Câtânuță ca să le bage spaima în oase.</p>
+<p>Potera care se luptase cu haiducii, era acum mică.</p>
+<p>Nu rămăseseră decât vre-o treizeci de poterași.</p>
+<p>Cu toate astea dacă am căuta la amândouă poterile, vom vedea că se găsea mai mult eroism la cea dintâi decât la cea de a doua.</p>
+<p>Cea dintâiu era înconjurată de victorie, De când cea de a doua mergea prin pădure, fără a ști de unde va izbucni atacul.</p>
+<p>Toți poterașii începură să tremure, îndată ce se văzură în pădure și împresurați din toata părțile de întuneric.</p>
+<p>Căpitanul poterei însă, era turc de origină, și de aceea avea mai multă cutezanță decât mârșavii de fanarioți cari erau voinici la pradă și fricoși la luptă.</p>
+<p>— Dați cu puștile, ca să le anunțăm venirea noastră, zise turcul.</p>
+<p>Poterașii se supaseră și o parte din ei descărcară puștile, haiducii 1 strigară atunci cei cari puțin mai înainte se luptaseră cu Cătânuță.</p>
+<p>— Nu v’am spus eu că hoțul care a scăpat de moarte era chiar căpitanul și că s’a dus să-și găsească alți tovarăși ? zise unul dintre poterași tovarășilor săi.</p>
+<p>— Să le răspundem și noi, zise căpitanul Iani.</p>
+<p>Și ridicând puștile în aer, o altă detunătură de puști făcu să răsune pădurea.</p>
+<p>Haiducii, strigară acum și poterașii cari veneau căutând pe haiduci.</p>
+<p> După aceea, detunăturile se succedară din amândouă părțile, până când poterile se apropiară una de alta.</p>
+<p>Atunci se începu un măcel înspăimântător.</p>
+<p>Sute de gloanțe se opreau în copaci, dar tot sute de gloanțe se opriau și în pieptul lor. Răcnetele răniților ajungeau Pânâ la cer Și sângele curgea</p>
+<p>Intr’un timp de așa înverșunare, nu se mai putea cunoaște, care e viteaz și care e fricos.</p>
+<p>Frica morții și instinctul de a se apăra aprinde sângele.</p>
+<p>Treizeci de poterași se luptară cu aproape o sută cincizeci de alți poterași.</p>
+<p>Trupa cea mai mare mai putea încă rezista, trupa cea mică era aproape nimicită.</p>
+<p>Întunericul era mare și o ploae începu să cază.</p>
+<p>Sângele se amesteca acum cu apa și curgea în pârae pe lângă trunchiurile arborilor.</p>
+<p>Cu toate astea, lupta era aproape de sfârșit.</p>
+<p>Din treizeci de oameni nu mai rămaseră aproape decât vre-o șase fanarioți și aceștia răniți.</p>
+<p>Deodată însă, se auzi un tropot de picioare.</p>
+<p>Era o altă poteră, care venia să se lupte tot cu haiducii lui Ghiță Cătănuță.</p>
+<p>Noua poteră venia înspre partea unde se afla potera cea mică.</p>
+<p>Noaptea, ploaia, lupta crâncenă care se urma încă, toate astea prevedeau o altă încăerare și mai înverșunată.</p>
+<p>Potera care sosise era colosală; ea se compunea din mai bine de trei sute de poterași. îndată ce ajunse în acel înspăimântător loc, unde gloanțele zburau în toate părțile, comandantul dădu poruncă să tragă cu puștile. </p>
+<p>Trei sute de detunături răsunară acum in aer și cei șase fanarioți cari mai luptau cu potera inamică, căzură la pământ. Ei muriră omorâți de consângenii lor.</p>
+<p>Deodată căzură morți mai mult de douăzeci și dintre aceștia.</p>
+<p>Erau gloanțele celorlați poterași.</p>
+<p>— Trageți mereu strigă comandantul lor.</p>
+<p>Fanarioții, văzându-și tovarășii morți, începură să atace. Atunci se începu o luptă din cele mai teribile.</p>
+<p>Ea dură timp mult și din amândouă părțile căzură o mulțime de poterași.</p>
+<p>Se făcuse ziuă și tocmai acum fanarioții observară că adversarii lor sunt tot fanarioți.</p>
+<p>Aruncară atunci puștile și se îmbrățișară.</p>
+<p>Crudă îmbrățișare!</p>
+<p>In strângerea lor, sângele care le curgea din rane le uda hainele cele scumpe, dar ciuruite de gloanțe.</p>
+<p>Astfel se împăcară poterile și mulțumind lui Dumnezeu că au mai scăpat dintr’inșii, eșiră din pădure, lăsând în urma lor mai multe sute de cadavre.</p>
+ </div>
+ <div type="chapter">
+<head>Pedeapsa lui Dumnezeu</head>
+<p>Târziu de tot se coborî Ghiță din pomul în care era ascuns și cu un pas tremurător o luă prin pădure</p>
+<p>în zadar mai fluera acum, în zadar se întorcea să-și mai vaza haiducii venind la strigătul său.</p>
+<p>Numai ecoul se auzea din depărtare.</p>
+<p>El merse mai mult timp uitându-se în toate părțile si părandu-i-se că numai umbre de oameni morți ies înaintea lin, alții lazând ia el, alții mustrându-l pentru crimele sale mr alții amenințându-l cu pumnii lor cei uscați</p>
+<p>Cătănuță începu să fugă și să se uite înapoia sa, ca si cum ar fi voit să scape^ de acele stranii închipuiri. înapoia sa vedea rugind spre dânsul un corp de femeie despletită eu lacrărmle în ochi, cu pieptul desvelit și din care îi curgea sânge.</p>
+<p>Un geamăt sfâșietor părea că-i eșea din gură și un blestem crunt izbucnea din zdrobitul ei sân. '</p>
+<p>Această umbră, care venia după dânsul; această vedenie cumplita, care î ingrozia până la măduva oaselor, nu era Me cat aceea a Vidrei, pe care o omorâse.</p>
+<p>El fugi tare, ca și când ar fi voit să scape de umbra ce-i urmărea, când deodată căzu jos.</p>
+<p>Sângele îngheță în vinele lui Cătănuță.</p>
+<p>Sub picioarele sale zăcea un mort.</p>
+<p>Era corpul lui Chiriță, al celui mai viteaz haiduc din ceata lui, și care acum fusese omorât de poterași.</p>
+<p>Fostul căpitan se uită la îngrozitoare-i pedică, scoase o escalamare de durere, sculându-se în picioare o luă iarăși la fugă.</p>
+<p>Cu cât însă fugea, cu atât se întâlnea mai des cu câte unul din vechii lui tovarășicu care haiducise atâta timp prin munți și codri</p>
+<p>Timpul era urât, soarele sta ascuns ia spatele norilor si o furtună grozavă făcea să trosnească copacii din împrejurul său.</p>
+<p>Ploaia începu sa cadă și în scurt timp Ghiță Cătănuță se udă până la piele.</p>
+<p>In bubuitul tunetelor cari despicau cerul parea că aude blestemele lui Dumnezeu și frica îi coprmse și mai muit inima.</p>
+<p>Deodată se opri, ochii Iui zăreau un cap de om, care sta aruncat lângă trunchiul unui copac.</p>
+<p>Era capul Vidrei.</p>
+  <p>Cătănuță căzu în genunchi</p>
+  <p>—Dumnezeule, zise el, mult am păcătuit înaintea ta</p>
+<p>După aceea îsi propuse ca să se faca din nou calugar, si să se retragă într-o peșteră, unde să stea retras în toată viața.</p>
+ </div>
+<div type="chapter">
+<head>Cătănuță întors în lume</head>
+<p>Trecuse mai multe luni. Nimeni nu mat vorbea despre</p>
+<p>Numai femeile le auzeai din când în când zicând:</p>
+<p>— Dumnezeu să-l ierte, că bun om a mai fost.</p>
+   <p>Toți îl credeau mort</p>
+<p>—Fă, lele, zicea într’o zi Paraschiva cumetrii sale, ai auzit tu că popa Cătănuță s’a făcut hoț ?</p>
+   <p>—Am auzit cumătră, moș Stroie mi-a spus.</p>
+   <p>—Auzi tu, din popă hoț! cum de’l mai rabda Dumnezeu?</p>
+<p>— Dar după cum îmi spunea moș Stroie, ei nu era hoț, fa lele.</p>
+   <p>—Dar ce ucigă-l toaca era ?</p>
+   <p>—Era haiduc ? eu n’am auzit nici odată de soiul asta. Haiducii sunt niște oameni cari nu omoară pe cei buni, și numai pe acei cari ne înșală pe noi ăștia creștinii, acei cari pe nedrept mănâncă munca altora. Așa îmi zicea moș Stroie și așa trebue să fie.</p>
+<p>— Nici că mai încape îndoială de crezământ! Moș Stroie e cel mai bătrân din sat totdeodată și cel mai înțelept.</p>
+<p>— Vezi dar, fă cumătro, că popa Cătănuță nu s’a făcut hoț.</p>
+<p>— S’a făcut haiduc ?</p>
+<p>— Da, și tot timpul cât a haiducit, n’a ucis de cât numai pe stranii și mai cu osebire pe acest soiu de greci cari poarta numele de fanarioți.</p>
+   <p>—Dar cum putea sa ’ omoare, când ei sunt asa de mulți și cu așa de mare putere ? </p>
+   <p>—Hei, fă cumătră, un haiduc e în stare să omoare pe cel cu coarne în cap !</p>
+<p>— Și cine le dă această putere ?</p>
+   <p>—Inima lor cea mare și nădejdea în Dumnezeu.</p>
+<p>— Ba încă ce căpitan!</p>
+   <p> —O, atunci D-zeu din cer ’i-o fi ertat păcatele pentru atatea bunătăți ce a făcut pe pământ!</p>
+<p>— Da, a făcut destule!</p>
+<p>— Și ce poate face cineva mai mult, fă lele, decât să omoare pe acești nelegiuiri fanarioți, care pe fiecare zi ne pun biruri noi, care ne răpesc vita din bătătură fără ca noi sa putem sa zicem o vorbă.</p>
+<p>— Așa fă cumătro !</p>
+   <p>—De aceea n-am mai auzit noi nimic despre Cătănuță. Eel s-a dus să-și răsplătească păcatele.</p>
+   <p>—Da, s’a dus în codri.</p>
+<p>— In codri ?</p>
+<p>— Da.</p>
+<p>— Și ce face el acolo ?</p>
+   <p> —De acilea trimetea în Iad, pe cei afară de lege! O! Și mulți a mai trimes! de multe suflete negre a mai curățit pământul.</p>
+   <p>—Și bine, fă lele, numai el singur ?</p>
+   <p>—Împreună cu alți voinici tot ca dânsul. Cunoști tu pe Chiriță, argatul de la curtea arendașului ? </p>
+<p>— Îl cunosc, cum nu?</p>
+   <p>—Știi că într-o zi s-a făcut nevăzut și nimeni n-a mai putut să-i dea de urmă?</p>
+<p>— Da, știu.</p>
+   <p>—Ei bine, este presupus că s’ar fi făcut tot haiduc.</p>
+   <p>—Hei, ca deaminteri era și voinic, avea putere...</p>
+   <p>—Așa! se zice că Ghiță Cătănuță l’ar fi chemat la dânsul.</p>
+   <p>—Poate, fă lele! și ce zici tu, acum ei or fi tot în pădure ! </p>
+   <p>—Nu.</p>
+   <p>—Si de ce ?</p>
+<p>— Pe Chiriță l’au găsit mort într’o pădure depărtată.</p>
+   <p>—Sărmanul</p>
+<p>— Au mai găsit de asemeni și încă alți șapte voinici</p>
+   <p>—Dumnezeu să-i ierte și să le fie țărâna ușoară.</p>
+   <p>—Dar Ce ai zice dragă, când ai auzi ca acești oameni au putut omorî o sumedenie de lifte streine.</p>
+<p>— Așa? fă cumătro, împrejurul acestor opt haiduci zăceau morii nenumărate stârvuri de grecotei; erau tot atatea, câți copaci se aflau în pădure.</p>
+<p>— Voinici au mai fost săracii haiduci! Români nu gluma!</p>
+<p>— Voinici ca și căpitanul lor.</p>
+   <p>—Dar cine le era căpitan ?</p>
+   <p>—Nu ți-am mai spus, fostul nostru preot; Ghița Catanuța.</p>
+   <p>— Și el unde-i acuma?</p>
+<p>— Dumnezeu știe.</p>
+<p>— Moș Stroe nu știe nimic despre dânsul ?</p>
+<p>— Eram mai multe femei, când acest înțelept bătrîn ne novesti tot aceea ce ți-am spus eu acuma, h ascultam cu toate și la toate ne părea bine, când auziam de îzbanzile acestor viteji români. Ne-am întristat de asemeni mult, auzind de moartea lor și pline de mirare am întrebat ce s a făcut cu căpitanul lor Ghiță Cătănuță.</p>
+<p>— Si ce ți-a răspuns moș Stroe?</p>
+<p>— N’a zis nimic, dar ducându-și mâna la ochi, șterse mai multe picături de lacrimi, cari se lasara după albele lui gene. Moș Stroe plângea.</p>
+<p>— Pe semne că Cătănuță murise.</p>
+<p>— Așa se vede că a fost, că așa ne-a zis și moș Stroe.</p>
+<p>— Bine fă lele, de ce avea atâta mila pentru un haiduc, cum îi zici tu, că Ghiță Cătănuță, cu adevăr vorbind era un om plin de păcate. S’a lăsat de popie, a omorât pe sărmanul paracliser și în urmă a furat și pe Vidra</p>
+<p>Această mirare ne-a prins și pe noi, Iele cumătro, și de aceea l-am întrebat să ne tălmăcească durerea Un.</p>
+<p>— Pentru că Ghiță Cătănuță, a murit ne zise el.</p>
+<p>— Și bine moș Stroe, răspunsei atunci eu ; dacă el' a murit tu trebue sâ plângi ?</p>
+<p>— Da, pronunță ei.</p>
+<p>— Și pentru ce? îi întrebai din nou; el eră un om plin de pacate și nu e vrednic să fie plâns de nimeni.</p>
+   <p>—Te înșeli, fiica mea!mi-a răspuns el, Ghiță Cătănuță era om bun. Avea, nu pot zice, ca tot omul, destule păcate , făcuse în viața lui multe omoruri; însă pe toate le-a plătit cu bunătățile ce a aruncat în urma sa.</p>
+<p>Ca sa vă puteți să vă faceți o idee mai bună despre dansul, urma moș Stroe, ascultați ce am să vă spun:</p>
+<p>Și moș Stroe, privindu-ne rând pe toate, ne zise:</p>
+<p>Vă aduceți aminte că acum trei ani, aprinzându-se casa mea, am ramas pe drumuri, fără să am o singiră para chioară, fără mâncarea din toate zilele și nu pentru mine, ci pentru micii mei copilași?</p>
+   <p>—Da, am răspuns noi; nu știm însă cum ai făcut că odată ți-ai zidit o altă casă, ți-ai cumpărat din nou plug, boi, și de atunci toate treburile îți merg bine.</p>
+   <p>— Toate acestea, dragele mele copile, nu le datoresc de cat haiducului Ghiță Cătânuță.</p>
+<p>— Ce fel ? am întrebat noi.</p>
+<p>Și moș Stroe urmă:</p>
+<p>Știți că pe când focul îmi arsese  casa era și o iarnă din cele grele. Cu chiu cu vai, putui de-abia să scot din mijlocul flăcărilor pe cei doi copii ai mei si pe nevasta, care era pe cat colea să se facă cenușă. M’am dus la dânsa, ea ținea pe unu din copii la sân, voind să0l scape de moartea care se apropia din minut în minut. În sfârșit i-am scos afară și pe tustrei i’am așezat pe zăpadă. Toți tremurau și nu auzii decât glasul micului Vintilă care zise: „Tata era sa ne ardem !“</p>
+<p>Aș fi vrut să-l iau în brațe, să-l sărut, dar timpul nu m-a lăsat. Mă gândim ca de vor sta mai mult pe acea zapada, se vor îmbolnăvi și atunci am alergat la Neagu și l-am rugat să-mi facă și mie loc într’una din odăi, că avea două. Neagu m-a primit Și a purtat de grija copiilor mei până când tata lor  a putut ca să-i strângă iarăși sub aripa sa. Sărmanul Neagu! acum e mort. Dumnezeu să-i erte păcatele, ca bun suflet de om a mai fost și m’a ajutat. Îndată ce se făcu dimineață gândindu-mă că am nevoe de parale ca să-mi zidesc casa din nou; și parale de unde? O să mă duc la arendașul de aici, mi-am zis atunci, să-l rog să mă împrumute cu câți-va bani și pentru danși, oi munci? Așa am gândit, așa am și făcut. M’am sculat și mim dus la arendașul moșiei. O slugă îmi eși înainte.</p>
+<p>— Ce vrei unchiașule ? mă întreabă el.</p>
+<p>— Să vorbesc boerului, răspunsei</p>
+<p>— Cum te chiamă? mă întrebă.</p>
+<p>Sluga se duse, apoi se întoarse cu răspuns că nu poate vorbi cu un mojic ca mine și dacă am ceva de spus să mă întorc mai pe urmă. Așa am făcut; am Plecat și m’am întors iarăși pe la namiaz. Am gasit tot pe sluga de dimineață</p>
+   <p>—Rogu-te, îi ziseiu, fii bun și spune boerului că am venit.</p>
+   <p>—Bine îmi răspunse el cu un ton scurt de toi.</p>
+<p>— Îl văzui după aceea că începea să facă mai multe trebi prin ogradă, ba mai hâșia găinele, ba mai arunca păpusoiu la porumbei, ba mai dedea cu lopata prin zăpadă și eu steteam și așteptam. </p>
+<p>In sfârșit, dădu Dumnezeu și-l văzui ca se urca sus la arendașul. Când se întoarse mi-a zis:</p>
+<p>— Mai stai c’o să te cheme.</p>
+<p>— Am stat eu mult, au trecut aproape doua ceasuri și de chemat tot nu m’a chemat. Să făcuse seara tocmai acum-auzii pe o femeie din casă că strigă .</p>
+   <p>—Cine e acela care vrea să vorbească cu boeru .</p>
+<p>— Eu sunt, am răspuns.</p>
+<p>— M’am urcat sus, am trecut prin câte-va odăi așa de frumoase, în cât îți lua ochii, uitându-te la ele și ajunsei în camera boerului.</p>
+<p>— Ce vrei țărane ? mi-a zis el.</p>
+   <p>—Am să-ți cer un ajutor, i-am răspuns.</p>
+<p>— Să mă împrumuți cu ceva parale, căci astă noapet mi s’a ars casa și n’am nici cu ce să-mi hrănesc copiii.</p>
+   <p>—Să te împrumut ? rosti el cu mânie, și când am sa mai pot eu scoate banii dela tine? După ce-ai muri.</p>
+   <p>—Am să muncesc boierule, și eu și femeea și ți-om plăti.</p>
+<p>— Tu ești bătrân și nu mai ai putere ca să muncești, îmi zise trăgând fum dintr’un ciubuc lung.</p>
+<p>— Sunt în adevăr bătrân, i-am răspuns, dar lipsa în care se află acum copiii mei îmi va da putere ca să lucrez; dorul și suferințele lor vor ușura povara bătrânețe! mele și îmi vor șterge or-ce durere.</p>
+<p>— Nu mă iau după vorbele tale, răspunse scurt arendașul.</p>
+<p>— Ca să vă încredințați, urmai eu, poate să pue chezășiei tot satul pentru mine.</p>
+<p>— Înțelege ce’ți zic odată! se răsti acum crudul fanariot și văzând ca ori ce nădejde de la dânsul îmi este ștearsă, am plecat. Abia coborâiu însă dealul și iată că văd un oin tânăr și frumos, călare pe un cal vânăt, că-mi face cu mâna ca să ma apropiu. Alergaiu într’o fugă și ajunseiu.</p>
+<p>— Unde ai fost ? m’a întrebat el.</p>
+<p>— Eu i-am spus toată pricina istoriei și el mă ascultă cu milă, apoi îmi zise :</p>
+<p>- Nu știi încă cât de neagră e inima acestor spurcați fanarioți ?</p>
+<p>— Știu, i-am răspuns, dar ce aveam să fac, de la cine altul era să cer ?</p>
+<p>— După aceste cuvinte, streinul călăreț băgă mâna într’un chimir larg, scoase o pungă cu galbeni și mi-o dete zicându-mi.</p>
+<p>— Na, să ai pentru a-ți zidi din nou o casă și să ai cu ce-ti hrăni copiii.</p>
+<p>— I-am luat punga și căzând in genunchi l’am rugat să-mi spue numele.</p>
+<p>— Mă numesc Ghiță Cătănuță, răspunse el, sunt fostul preot al acestui sat; m’am făcut haiduc ca să pot scăpă țara de fanarioți ca arendașul vostru...</p>
+<p>— Ghiță Cătănuță !... atât am putut să zic și bunul om se făcu nevăzut. Iată dar, dragele mele copile, pentru ce ochii mi se udă de lacrămi, când mă gândesc la sărmanul Cătănuță, care trebue să fi fost omorât de poterile, cari într’o noapte l’au împresurat de toate părțile.</p>
+<p>— Vezi acum lele Paraschivo, că Ghiță Cătănuță nu mai este cum a fost? zise Gherghina camaradei sale.</p>
+<p>— Văd, cumătro, și d’o fi așa, apoi Dumnezeu să-i ușureze păcatele.</p>
+<p>Astfel vorbeau și discutau aceste două femei, când iată.</p>
+   <gap rend="figure_Vidra nu răspunde dar se uită iar înspre o parte a pădurei, parcă voește să întrebe arborii, să întrebe vântul dacă nu cumva au zărit pe cineva venind spre dânsa"/>
+<p>deodată că intră încă o fată de toată frumusețea și cu o bucurie nespusă zis celorl’alte :</p>
+<p>— Surioarelor, nu știți ceva?</p>
+<p>— Ce să știm ? răspunseră Paraschiva și cu Gheorghina..</p>
+<p>— Eu mă mărit!</p>
+<p>— Te măriți ?</p>
+<p>— Da.</p>
+<p>— Și pe cine ei ?</p>
+<p>—Pe Niță.</p>
+<p>— Pe care Niță ?</p>
+<p>— Pe al Săftuței.</p>
+<p>— Pe acel tânăr frumos ca un bujor și cu mijiocu ca un inel ? întrebă Gheorghina cu un aer de gelosie.</p>
+<p>— Da, răspunse frumoasa fată, chiar mâine mă logodesc cu dânsul.</p>
+<p>— Dar bine, Niță e flăcăul cel mai bogat din sat, zise Paraschiva.</p>
+<p>— Păi eu știam că părinții lui Niță nu-și însurau băiatul de cât după o fată cu zestre și, era vorba să ia pe fata lui popa Ioachim grecul. Ce Dumnezeu și-a schimbat așa de curând gândul ?</p>
+<p>r— Nu, fă surioarelor, nu li s’au schimbat gândul, mie însă mi s’a schimbat norocul.</p>
+<p>— Și cum așa ?</p>
+<p>— Ați văzut voi pe bărbatul cela care a venit acum câte-va zile în satul nostru ?</p>
+<p>— Da, el pare a fi un om bun.</p>
+<p>— Șeade in casele lui moș Stroie.</p>
+<p>— Da, chiar acolo.</p>
+<p>— Ei bine, acest om al lui Dumnezeu mi-a făcut o zestre de cinci mii lei.</p>
+<p>— Cinci mii de lei! esclamă amândouă femeile.</p>
+<p>— Cinci mii de lei! repetă plină de bucurie frumoasa fată.</p>
+<p>— Dar cum s’a întâmplat de ți-a făcut ție această zestre; întrebară cele-l-alte două, cari nu-și puteau opri mirarea.</p>
+<p> — Vreți să afiați numai de cât ?</p>
+<p>— Da, vrem răspunseră Gheorghina și cu Paraschiva.</p>
+<p>Atunci Vochița, ast-fel se numia fata care a doua zi era</p>
+<p>să devie logodnica lui Niță, se așeză lângă cele-l’alte două fete și începu ast-fel:</p>
+<p>— De la vârsta de doi-spre-zece ani iubeam pe Niță,</p>
+<p>Îl iubeam atunci, dar îl iubesc încă și mai mult acum, Cu cât treceau zilele, cu atât simțiam dragostea mărindu-se în sânul meu.</p>
+   <p>Veni o vreme când ea isbucni, veni o vreme când nu putui să mai țiu în mine acea dragoste înflăcărată care mă topia din zi în zi. Trebuia să găsesc pe Niță și să-i să iau apă dela cișmeaua din vale. Un ce, o putere nevăzută îmi spunea: stai ! Am stat și iată îl văzui pe Niță venind spre mine</p>
+   <p>—Dragă Voichițo, mi-a zis cu glasul lui cel dulce, după cum pot vedea ai întârziat în astă seară.</p>
+   <p>—Da, și cu atât mai bine fiindcă te pot vedea. Știi, este mult timp de când nu ne-am văzut</p>
+   <p>—A trecut săptămâna și și vezi am suferit și eu mult nevăzându-te.</p>
+   <p> —Atunci, pentru ce nu ai venit sâ mă vezi?</p>
+   <p>—O, n-am putut Voichiță! dacă aș fi putut, crezi tu că aș fi lipsit o zi fără să te văz, fără să te sărut?</p>
+   <p>—Ce? Adică el te săruta mai înainte? întrerupse Gherghina</p>
+   <p>—Da, el mă săruta, imi spunea adesea că mă iubește, pe când eu mă arătam rece.</p>
+   <p>—Și pentru ce de la un timp încoace n-a venit ca să te mai vadă, căci alteori, mi-aduc singură aminte, venea el însuși la tine? zise Paraschiva,</p>
+   <p>—Nu era el de vină, răspunse Vochiță.</p>
+<p>După cum mi-a spus el, părinții îl opriră. Ei înțeleseseră că între noi se leagă dragostea țo știind că eu sunt o fată săracă, i-au zis să nu mai calcela mine că altminteri îl vor urgisi și desmoșteni. În seara aceea vă puteți închipui deci câtă bucurie am simțit când l-am văzut iarăși lângă mine. Am lăsat cofa la cismea și ne-am dus sub salcie. Aici ne-am spus focul. Era pentru întâia oară când eu îi destăinuiam dragostea mea și el m-a sărutat și m-a strând la sânul său și pare că durerea mi s-a alinat. Care îmi fu însă durerea când în cele din urmă îmi spuse să părinții lui îl hotărâseră să-l însoare cu fata popii. </p>
+   <p>—Și te va lăsa inima să mă părăsești ?</p>
+<p>— Dar ce pot face! mi-a răspuns.</p>
+<p>— Și după ce mai stăfurăm câtva de vorbă ne-am sculat și am plecat fiecare pe la locul nostru.</p>
+<p>— De atuncea eu plângeam într’una și de atunci părea că aud mereu cuvintele:</p>
+   <quote><p>„Dar ce pot face !“</p></quote>
+<p>— într’una din nopți, mă sculai ca o eșită din minte, mă îmbrăcai și iute eși din casă.</p>
+<p>Mâ dusei la salcia de lângă cișmea și acolo începui să plâng. Plângeam și rugam cerul ca să aibă îndurare de mine, ca în ziua când Niță se va însura cu fata popii, eu să fiu îngropată sub acea salcie, unde am stat adesea cu dânsul !</p>
+<p>— O, cât ai fost de nebună, îi ziseră celelalte două femei.</p>
+<p>— Voi surioarelor n’ați iubit încă și de aceea poate nu știți care este puterea și durerea dragostei.</p>
+<p>— Dar să lăsăm acum, întrerupse Gherghina și să vedem cura s’a întâmplat ca acel bogat bătrân să-ți' dea cei cinci mii de lei.</p>
+<p>— lată cum :</p>
+<p>Pe când eu plângeam sub acea salcie, aud deodată un bocet surd dar jalnic. M’am speriat de o cam dată, căci mă gândeam cine altul să ihai plângă în puterea nopții; și când mă uitai mai bine în spre partea de unde venea acel plânset, ce să vezi ? era bătrânul, binefăcătorul meu. Am scos atunci un țipăt, el mă auzi, își șterse iute lacrămile și se apropie de mine zicându-mi:</p>
+<p>— De ce plângi frumoasă fată ? Te-a bătut cineva ?</p>
+<p>— Da, am răspuns eu.</p>
+<p>— Și cine ?</p>
+<p>— Dumnezeu.</p>
+<p>— Dumnezeu ! exclamă bătrânul, dar Dumnezeu nu poate să bată una ca tine, care ești încă plină de bunătate și nevinovăție.</p>
+<p>— De ce m’a făcut atunci săracă ?</p>
+<p>— Și de sărăcie plângi tu ?</p>
+<p>— Da, i-am răspuns.</p>
+<p>— iți lipsesc bani ?</p>
+<p>—Da, și încă mulți.</p>
+<p>— Și ce vrei să faci cu ei ?</p>
+<p>Atunci m’am apucat și i-am spus tot păsul meu și el m’a ascultat până la urmă și mi-a zis:</p>
+<p>— Liniștește-te, vino mâine la mine și eu îti voiu face zestre cinci mii de Iei.</p>
+<p>A doua zi m-am dus, am luat împreună cu mine și pe bătrânii mei părinți și din mâna lui am primit cinci mii de lei. Și atunci, părinții lui Niță nu se mai împotrivesc și au hotarat ca chiar mâine să mă logodesc.</p>
+<p>— O, surioarelor! voi fi cea mai fericită mâine, când vom schimba inelele amândoi!</p>
+   <p> — Când vă veți cununa, vei fi încă și mai fericită, zise Gherghina cu o jumătate gelozie, cu o jumătate bunătate.</p>
+<p>Din acest cititorul a putut vedea, părerile oamenilor despre Ghiță Cătănuță și din ajutorul ce făcu Iui mos Stroe iși poate închipui că în timpul haiduciei Iui, n’a uitat sa facă pretutindeni bunătăți, să aline durerile nenorocirilor, fie prin bani răpiți de la fanarioți, fie prin moartea nelegiuiților.</p>
+<p>Dar tot în acest capitol mai găsim un personagiu nou și straniu tot deodată, straniu nu numai pentru noi, ci chiar pentru întregul sat.</p>
+<p>Nimeni nu știa cum îl chiamă. Nimeni nu știa de unde vine și nici unde se duce.</p>
+<p>El se așezase în sat, venise într’o dimineață și dăduse veste că tot omul care e sărac și n’are cu ce’si tine casa sa vină la el spre a-i ajuta.</p>
+<p>Și a dat, în adevăr, multe ajutoare, a alinat multe suferințe. Cu toate acestea nu era noapte fără ca cineva să nu-l vadă plângând pe câmpuri, fugind de la un loc îa altul si strigând:</p>
+   <p><quote>Iartă-mă Dumnezeule! Iartă-mă!</quote></p>
+<p>Cine să fie așa dar acest misterios bătrân ?</p>
+ </div>
+<div type="chapter">
+<head>Moartea lui Ghiță Cătănuță</head>
+<p>intr’una din diminețele lunei Maiu, atunci când florile umpleau aerul cu mirosul lor, tot satul 
+<hi>Stânca</hi> era în picioare. Bătrâni și tineri, femei și» copii, cu toții se strângeau împrejurul casei lui moș Stroie.</p>
+<p>Dar ce căutau ei oare ?</p>
+<p>Pe fața fie-cărui se vedeau lucind lacrămi.</p>
+<p>Ei plângeau, căci binefăcătorul lor de atâția ani muria acum.</p>
+<p>Bătrânul misterios va muri, dar oare va duce dânsul și misterul care-l înconjura? .</p>
+<p>Să ne transportăm în casa lui moș Stroie. Pe un pv.t vedem pe bătrânul bine-făcător. lată, ei se scoală în picioare</p>
+<p>si zise.</p>
+<p>— S’a strâns satul după cum l’am rugat ?</p>
+<p>— Da pronunță moș Stroie.</p>
+<p>— Dați-mi acum patul afară.</p>
+<p>Rugămintea i se împlini.</p>
+<p>— "Fraților, le zise el atunci; eu care am stat la trânete cu voi, am mai fost și alta dată tot cu voi!</p>
+<p>Apoi simțind că ceasul morții i s’a apropiat, făcu din urmă sforțare și zise:</p>
+<p>— Rugați-vă fraților, rugați-vă pentru sufletul meu, băcea.</p>
+<p>Eu sunt Ghiță Cătănuță. Ghiță Cătănuța preotu, Ghiță Catanuța haiducul.</p>
+<p>Atât putu să mai zică, și el muri</p>
+<p>Toți cari erau acolo se uitară ia el cu milă, și toți acei cari au primit ajutorul lui, căzând în genuche, se rugară.</p>
+<p>,Dumnezeu să-l erte!“</p>
+ </div>
+ <div type="chapter">
+<head>Cântecul lui Ghița Cătănuță</head>
+  <quote type="ballad" n="1">
+   <l>Frunză verde peliniță </l>
+   <l>Pe cel deal pe cea colniță </l>
+   <l>Plimbă-mi-se Cătănuță</l> 
+   <l>Cu doi bani în punguliță </l>
+   <l>Și cu doi în buzunar </l>
+   <l>Cu doisprezece lăutari</l> 
+   <l>Și cu doi trei călușei </l>
+   <l>Incărcați de gălbenei,</l>
+   <l>Iar cu dânsu se afla </l>
+   <l>Tot pe luncă se plimba </l>
+   <l>Vidra mult iubita sa.</l>
+   <l>Iară Ghiță popă vechi</l> 
+   <l>Cu potcapiu la urechi </l>
+   <l> Ce s’a lăsat de popie</l> 
+   <l>Și de sfânta leturghie </l>
+   <l> Ce s’a dat în haiducie.</l>
+<l>Tot de mijloc o ținea,</l>
+   <l>Lângă peptu-i o strângea </l>
+   <l>Și mereu o desmerdâ </l>
+   <l>Și mereu o sărută.</l>
+   <l>Si lăutarii cânta,</l>
+   <l>Câmpii de se răsuna.</l>
+   <l>Când fu către dimineață </l>
+    <l>Popa se spălă pe față.</l>
+     <l>Barbă neagră peptăna</l>
+      <l>La baltagu i se închină </l>
+       <l>Și pe Vidra mi-o trezia </l>
+        <l>Și din gură așa-i grăia:</l>
+         <l>— Știi tu Vidro ce am gândit</l> 
+          <l>Știi tu ce-am, socotit ?</l>
+           <l>Suflecă mânece largi </l>
+            <l> Și împletește la colaci, </l>
+             <l> fă colaci mari de doi saci,</l> 
+              <l>Pentru cumnăței burlaci,</l>
+              <l>Ș’un covrig de un mertic,</l> 
+                <l>Pentru cumnățel mai mic.</l> 
+                 <l>Apoi aideți amândoi </l>
+                  <l>Cu cotiga cu doi boi </l>
+                   <l>Peste codri peste munți </l>
+                    <l>La cei socri cam cărunți.</l></quote>
+  <quote type="ballad" n="2">
+<!--<head>II</head>
+-->   <l>Amândoi la drum pleca,</l> 
+ <l>Sus la munte se urca,</l>
+   <l>— Hei plăvan, hei bourean </l>
+   <l>Giugănaș abia d’un an ! </l>
+   <l>Opintea boii mereu,</l>
+   <l>Opintea și sufla greu </l>
+   <l>Și cotiga scârțâea,</l>
+   <l>Și calea se îngreuia;</l>
+   <l>Iar pe când soarele-i sus, </l>
+   <l>Pe când șoimul sta ascuns </l>
+   <l>Te când umbra e scăzută </l>
+   <l>Si se face nevăzută </l>
+   <l>Ghiță popa se opreâ </l>
+   <l>Și de rând el poposea </l>
+   <l>In mijlocul codrului </l>
+   <l>Unde-i larg voinicului.</l>
+   <l>In poiana înflorită </l>
+   <l>frunzar acoperită,</l>
+   <l>Unde iarba se împletește </l>
+   <l>Și în vârf se îngălbenește.</l> 
+   <l>Vidra masa că întindea </l>
+   <l>Și la masă că ședea </l>
+ <l>Cu Ghiță alăturea.</l>
+   <l>Ei prânzea și veselea </l>
+ <l>De nimeni grijă n’avea.</l>
+<l>Dar păcatul mi-i păzea.</l>
+<l>Pe Ghiță îl zădărea.</l>
+<l>Și Ghiță așa grăia:</l>
+<l>— Oliolio, mândruța mea </l>
+ <l>De când eu mi te-am luat </l>
+ <l>Nici un cântec n’ai cântat, </l>
+ <l>Cântă-ți mândră cântecul,</l>
+<l>Că rai-e drag ca sufletul;</l>
+<l>— Alei frate dragul meu,</l> 
+ <l>Să-ți cânt cântec haiducesc </l>
+ <l>Cu vers dulce femeesc.</l>
+<l>Eu dacă ți l’oiu cânta,</l>
+<l>Apele s’or turbura,</l>
+<l>Brazii mi s’or scutura,</l>
+<l>Munții mi s’or cletinâ </l>
+ <l>Văile or răsună </l>
+ <l>-Și, pe noi ne-o’ntâmpina</l> 
+ <l>Păunașul codrilor,</l>
+<l>Voinicul voinicilor,</l>
+<l>Iubitul nevestelor,</l>
+<l>Drăgălașul fetelor!</l>
+<l>— Las să vie că nu’mi pasă </l>
+ <l>Și d’o mai vrea altă hrană </l>
+ <l>I-oi da trei baltagi pomană.</l></quote>
+  <quote type="ballad" n="3">
+<!--<head>III</head>
+ -->  <l>Puse Vidra a cânta.</l>
+   <l>Codrii a se deștepta</l>
+   <l>Apele a se turbura</l>
+   <l>Munții a se clătina.</l>
+   <l>Văile a răsuna</l>
+   <l>Și d’odată se arăta</l>
+   <l>Păunașul codrilor,</l>
+   <l>Voinicul voinicilor.</l>
+   <l>— Hei măi Ghiță bărbărie </l>
+   <l>Ce te-ai lăsat de popie</l>
+   <l>Și de sfânta leturghie </l>
+   <l>Ce te-ai dat în haiducie :</l>
+   <l>Ce ne calci poenele </l>
+   <l>Și ne paști fânețele ?</l>
+   <l>— Ce poene mă Păune?</l>
+   <l>Ce fânețe măi nebune?</l>
+   <l>Doar pământul nu-i al tău </l>
+   <l>Nici al tău nu-i nici al meu </l>
+   <l>Ci-i tot al lui Dumnezeu.</l>
+   <l>Hei mă Ghiță bărbărie </l>
+   <l>Vorba multă sărăcie</l>
+   <l>Bă-mi juncanii tăi drept vamă. </l>
+   <l>Și-ți caută apoi de seamă</l>
+   <l>— "Ba juncanii nu-ți dau eu </l>
+   <l> Că mii-au dat Dumnezeu </l>
+   <l>Să mă scoată dela greu</l>
+   <l>— Bă-mi pe Vidra ta de vamă </l>
+   <l>Și-ți cată apoi de seamă.</l>
+   <l>— Ba pe Vidra nu ți-oi da </l>
+   <l>Până capul sus mi-o sta,</l>
+   <l>Că mi-a dat-o soacră mea </l>
+   <l>Ca să țiu casă cu ea.</l>
+   <l>— Dă-mi baltagul tău d’e vamă</l> 
+   <l>Și-ți caută apoi de seamă.</l>
+   <l>— Eu să-ți dau baltagul, eu? </l>
+ <l>Vin de-l ia tu fătul meu,</l>
+<l>De ți-e sufletul îndrăzneț </l>
+ <l>Câț ți-e graiul de semeț.</l></quote>
+  <quote type="ballad" n="4">
+<!--<head>IV</head>
+ -->  <l>Ei de brâu se apucară</l> 
+   <l>Și la luptă se luară,</l>
+   <l>Zi de vară pân ’n seară; </l>
+   <l>Când în locu-i să învârtea </l>
+   <l>Când la vale s’aduceâ </l>
+   <l> Nici unul nu dovedea,</l>
+   <l>Dar Ghiță merea slăbeâ, </l>
+   <l>Brâul lui se descingea.</l>
+   <l>— Vidro, puiculița mea </l>
+   <l>Vino de-mi strânge brâul meu </l>
+   <l>Apăra-te-ar Dumnezeu,</l>
+   <l>Ca-mi slăbesc puterile,</l>
+   <l>Mi se duc averile !</l>
+   <l>Iară Vidra mi-l privea,</l> 
+   <l>Ochișorii îi strălucea</l>
+   <l> înimioara-i se bătea</l>
+   <l>Și gurița-i răspundeâ :</l>
+   <l>—Ba nu, nu bădiță frate,</l>
+   <l>Că vei lupta pe dreptate </l>
+   <l>Si ori-care o birui </l>
+   <l>Cu dânsul m’oi iubi.</l>
+   <l>Ghiță popa se aprindea </l>
+   <l>Și făcea el, ce făcea?</l>
+   <l>Pe Păun că-l aducea </l>
+   <l>Și in pământ că mi-l isbeă</l> 
+   <l>Și pământul despică </l>
+   <l>Până-n brâu că mi-l băgă, </l>
+   <l>Baltagu’ apoi ridica,</l>
+   <l>Capul lui Păun zbură,</l>
+   <l>pe brânci se pleca,</l>
+   <l>La Ghița se închină,</l>
+   <l>Iar Ghiță se întorcea,</l>
+   <l>Se ducea posomorât </l>
+   <l>De negre gânduri muncit </l>
+   <l>Ca un șearpe otrăvit </l>
+   <l>Vidra nici că se clintea </l>
+   <l>Ochii în ochii Iui țintea </l>
+   <l>Ochii căta bărbătește </l>
+   <l>Și pătrundea femeește.</l>
+   <l>Ghiță popă îi zicea’:</l>
+   <l>— Vidro, fă nevastă rea,</l>
+   <l>Când pe moarte mă luptam </l>
+   <l>pe tine te rugam</l>
+   <l>Să vii iute lângă mine </l>
+   <l>Ca să’mi strângi brâul mai bine,</l> 
+   <l>De barbat nu ți-a fost milă.</l>
+   <l>De pacat nu ți-a fost sila</l>
+   <l> La cuvânt dulce frățesc </l>
+   <l>zis-ai cuvânt dușmănesc </l>
+   <l>— Că ori care ar birui, </l>
+   <l>tu cu dânsul te-ai iubi </l>
+   <l>Așa este Vidro fa ?</l>
+   <l>Așa, e Ghiță, așa,</l>
+   <l>Am zis o și am s’o mai zic, </l>
+   <l>Ca mi-e drag cine-i voinic,</l>
+   <l>De se luptă făr-a cere </l>
+   <l>Ajutor dela muere.</l>
+   <l>— Știi tu Vidro ce-am gândit?</l>
+   <l>Asta vară am cosit</l>
+   <l>Vr’o cinci clăi de le-am clădit,</l>
+   <l>Patru mii le-am vârfuit</l>
+   <l>Iar unei vârf i-a lipsit</l>
+   <l>Și mi-am pus în gândul meu,</l>
+   <l>Să-i fac vârf cu capul tău.</l>
+   <l>— Iată capul de mi-l tae,</l>
+   <l>Ca să-l pui în vârf la clae </l>
+   <l>Si te învață dela mine !</l>
+   <l>Că eu mor cum se cuvine. </l>
+   <l>Crunt Ghiță se repezea</l>
+   <l>Și capul îi reteza,</l>
+   <l>Și țâțele îi tăia</l>
+   <l>Și pe câmp le împrăștia,</l>
+   <l>Apoi singur purcedea</l>
+   <l>La socrii lui se ducea:</l>
+   <l>— Hei, mă Ghiță, popă vechi,</l> 
+   <l>Cu potcapiul pe urechi,</l>
+   <l>Unde-i Vidra cea frumoasă?</l>
+   <l>Fata noastră cea voioasă ?</l>
+   <l>— Eu pe Vidra mi-am lăsat </l>
+   <l>Intr’un codru depărtat </l>
+   <l>Hotărând moșiile </l>
+   <l>Ș’așezând momiile</l>
+   <l>Cu capul și țâțele.</l>
+   <l>Bine vorba nu sfârșea</l> 
+   <l>Pe loc cerul s’aprindea</l>
+   <l> Și trei fulgeri repezea</l>
+   <l>Pe Ghiță de mi-l lovea</l>
+ <l>Și’n cenușe-l prefăcea.</l>
+  </quote>
+</div>
+<trailer>FINE</trailer>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,2212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM014" xml:lang="ro">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title> Catastihul amorului: ediție ELTeC</title>
+    <author> Ionescu, Radu (1834-l872)</author>
+    <respStmt>
+     <resp>Codare ELTeC</resp>
+     <name>Roxana Patras</name>
+    </respStmt>
+   </titleStmt>
+   <extent>
+    <measure unit="words">26030</measure>
+    <measure unit="pages">129</measure>
+   </extent>
+   <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2019-11-11"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Încorporat în ELTeC 2019-08-28--></publicationStmt>
+   <sourceDesc><bibl type="printSource">
+     <author>Radu Ionescu</author>
+     <title>Catastihul amorului și la Gura sobei</title>
+     <pubPlace>Cluj-Napoca</pubPlace>
+     <publisher>Editura Dacia</publisher>
+     <date>1986 (1865)</date>
+        <ref target="http://doi.org/10.5281/zenodo.3229284">Facsimile on zenodo</ref>
+         </bibl></sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+   <p/>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="ro"/>
+   </langUsage>
+   <textDesc>
+    <e:authorGender key="M"/>
+    <e:size key="short"/>
+    <e:canonicity key="high"/>
+    <e:timeSlot key="T2"/>
+   </textDesc>
+  </profileDesc>
+  <revisionDesc><change when="2019-11-11">Checked by releaseChecker script</change>
+   <change when="2019-09-28">Initial TEI version generated.</change>
+  </revisionDesc>
+ </teiHeader>
+ 
+<text>
+  <front>
+   <div type="titlepage">
+    <p>CATASTIHUL AMORULUI</p>
+    <p>Şi LA GURA SOBEI</p>
+<p>Ediţie îngrijită studiu introductiv note şi comentarii de DUMITRU BĂLĂEŢ</p>
+<p>Editura Dacia — CIuj-Napoca 1986</p></div>
+   <div type="liminal">
+<head>UN ROMAN NECUNOSCUT AL LITERATURII ROMANE DE LA 1865</head>
+<p>Din întîmplare, răscolind revistele şi ziarele vremii 1a căutarea nnor date cu privire la misteriosul autor al romanului 
+    <hi>Don Juanii din Bucureşti,</hi> publicat la sfîrşitul anului 1861 şi începutul anului 1862, în jurnalul Independința, redactat de cunoscutul critic literar Radu Ionescu am dat peste un anunţ care ne-a stîrnit în mod deosebit interesul. În <title><hi>Trompeta Carpaţilor</hi></title> din aprilie 1865, pe ultima pagină, la publicitate, în chenar mare, se aducea la cunoştinţa publicului: „Următoarele opere şi traducţiuni ce sunt încă de mult timp puse sub presă, vor apare în curînd treptat şi vor forma In toate douăsprezece volume în 230—250 coale în octavo sub titlu de <title><hi>Biblioteca Română</hi></title>. Recomandăm amatorilor de lectură aceste scrieri editate de Th. I. Stoenescu, vechiul editore al <title>Calendarului umoristic</title>“.</p>
+    <p>Prima dintre operele originale ce-şi propunea să cuprindă <title><hi>Biblioteca română</hi></title> de la 1865 era <title><hi>Don Juanii Bucureştilor</hi></title>, fără autor, urmau apoi: <title><hi>Bucureştii în carnaval</hi></title> de N. T. Orăşanu, <title><hi>Mariţa Buzata</hi></title>, <quote>„roman originale de moravuri“</quote>, fără autor. <title><hi>Masca de catifea</hi></title>, <quote>„roman originale“</quote>, tot fără autor, apoi partea I din mica enciclopedie recreativă conţinînd şase broşure: <title><hi>Hai la glume!</hi></title>, şi iar un <quote>„roman contimporan"</quote>:<title><hi>La gura sobei</hi></title>, tot fără autor. La <quote>„traducţiuni“</quote> se propuneau: <quote>„de Renan"</quote> — <title><hi>Viaţa lui Isus Cristos</hi></title>, de Eugen Sue, 4 volume mari <title><hi>Misterele poporului</hi></title>. Un anunţ asemănător găsim şi în jurnalul <title><hi>Opiniunea naţională</hi></title>.</p>
+    <p>Alături de anunţurile acestea, aceleaşi jurnale publicau, cm cîteva numere mai tîrziu şi un anunţ în chenar mai mic: <quote>ieşit de sub tipar întîiul volum din <title><hi>Biblioteca Română: Catastihul amorului şi La gura sobei</hi></title>. Preţul unui exemplar 2 sfanţi... Editore: Thoma I. Stoenescu“.</quote></p>
+       <p>Este interesanţ de observat că, atît în jurnalul <title><hi>Opiniunea naţională</hi></title> cît şi în revista satirică <title><hi>Cicală</hi></title> al căror editor era Th. I. Stoenescu, anunţurile la <title><hi>Biblioteca Română</hi></title> apăreau cu aproape o lună mai devreme şi cu titlurile uneori schimbate ca poziţie, cel mai adesea înlocuindu-se <title><hi>Don Juanii Bucurestilor</hi></title> cu <title><hi>Catastihul amorului</hi></title>. Tot mai devreme se dădeau aici şi anunţurile cu privire la apariţia întîiului volum al colecţiei, pentru ca în luna mai acelaşi an, să întîlnim la rubrica <quote><hi>înştiinţări</hi></quote> a revistei respective, o relatare cu privire la <quote>„expediţiunea primului volum <title><hi>Catastihul amorului şi La gura sobei</hi></title></quote>, citîndu-se alături de diverşi particulari cărora li se expediase cartea, şi <quote>„redacţiunile ziarelor <title><hi>Concordia</hi></title>,<title><hi>Umoristul</hi></title> şi 
+      <title><hi>Aurora</hi></title> din Pesta, <title><hi>Gazeta de Transilvania</hi></title> din Braşov, 
+      <title><hi>Telegraful român</hi></title> şi <title><hi>Amicul şcoalei</hi></title> din Sibiu, <title><hi>On. Societăţi de literatură şi cultură română</hi></title> din Cernăuţi, redacţiunii <title><hi>Anunţătorul comerciale</hi></title> din Brăila, redacţiunii ziarului <title><hi>Mercur</hi></title> din Galaţi, redacţiunii <title><hi>Tribunei române</hi></title> şi <title><hi>Preotul</hi></title> din Iaşi“</quote></p>
+    <p>Confruntînd aceste ştiri cu fişierul <title><hi>Bibliografiei Naţionale retrospective a cărţii româneşti</hi></title> care se lucrează în prezent la Biblioteca Academiei, şi care parcurge deja această perioadă, aflăm că din proiectata <title><hi>Bibliotecă Română</hi></title> de la 1865 nu a apărut decît un singur volum, cel anunţat în paginile jurnalelor menţionate. Bibliografia înregistrează foaia de titlu a volumului unde e trecut doar <quote>„<title><hi>Catastihul amorului</hi></title>, editore Thoma I. Stoenescu, Bucureşti, Tipographia Stephan I Rassidescu, 1865“</quote>. Cel de-al doilea titlu de pe copertă, cel  principal, <title><hi>La gura sobei</hi></title>, reapare abia la pagina 96 a cărţii, 4 pentru a cuprinde o amplă povestire de peste 200 de pagini, încheiate în versuri. La sfârșitul volumului se dă şi o <title>„Tablă de materie“</title>, expunînd numai titlurile celor 18 capitole din prima parte a cărții:<title><hi>Catastihul amorului</hi></title>.</p>
+<p>Poate aceasta situaţie a volumului, cu un grupai de schite umoristico-satirice la Început, cu adevăratul titlu al cărţii in interior, cu o încheiere ciudată în versuri, cu o tablă de materii care mai mult induce în eroare, bănuind din partea cercetătorului superficial că ar putea fi vorba de ceva de genul calendarelor umoritice ale timpului, explică intr-o anumită măsurăT faptul că acest volum a putut trece din păcate neobservat de către cercetătorii începuturilor romanului romanesc. Scrierea nu o găsim consemnata nici de G. Adamescu,nici în monografia lui N. Munteanu din 1975, nici în sintezele mai noi asupra problemei, la Teodor Vârgolici, la D. Păcurariu, sau St. Cazimir. în toate aceste cercetări se află citate titluri de romane apărute şi după 1865, ca aparţinînd acestei perioade de geneză. Nici istoriile literare mai vechi sau mai noi nu înregistrează romanul respectiv, ceea ce înseamnă că el a rămas necunoscut cercetării literare şi opiniei noastre publice.</p>
+    <p>În urma semnalării de către noi a acestei cărţi, se poate observa un început de pătrundere a ei în conştiinţa critică actuală. Astfel, în cronica lunară a revistei <title><hi>Transilvania</hi></title> pe 1972 se consemnează: <quote><title><hi>Catastihul amorului şi La gura sobei</hi></title> apărut în 1865 se arată de un mare interes pentru istoria romanului românesc prin combinarea de tehnici ale scrisului, de pildă, procedeu vestind Patul lui Procust camilpetrescian</quote>. Mai recent, într-o lucrare sinteză despre romanul românesc, criticul Nicolae Manolescu defineşte introducerea la <title><hi>Catastihul amorului şi La gura sobei</hi></title> drept <quote>„un document extraordinar, in care nu mai e vorBadeceea ce trebuie să zugrăvească romanul cu mijloacele tehnice tehnice de care dispune"</quote> anonim al romanului, căutînd să stabilească stilurile înecare poate să debuteze un roman procedează formalizînd întocmai ca stilist contemporan mărturiseşte prin gura unui interlocutor imaginar că ar fi studiat <quote>„în curs de mai mulţi ani, operele cari compun colecţiunea romanţiarilor contimporani"</quote>, de unde a rezultat <quote>„certitudinea că cineva poate desigur nota, clasa, înregistra toate procederile cu care s-au servit scriitorii stilului. Aceste procederi fiind notate, nu-mi mai rămîne decît a deduce din ele nişte regule formulate metodiceşte şi însoţite de exemple spre a fi susţinute, jcele douăsprezece modele de stiluri date de autor exprimă cu adevărat o conştiinţă limpede, pe deplin edificată asupra problemei"</quote>. </p>
+    <p>Să observăm faptul că, în analiza <quote>„colecţiunii romanţiarilor contimporani"</quote> intrau şi autorii români ai epocii despre stilul cărora autorul anonim se exprimă într-un mod decis negativ: <quote>„Iartă-mă dar, domnule, să-ţi dau cîteva modele culese din romanele străine, căci pentru cuvintele de mai sus mi-a fost cu neputinţă de a culege din <title><hi>Mistere din Bucureşti</hi></title>, <title><hi>Elena</hi></title>, <title><hi>Manoil</hi></title>, <title><hi>Catastrofa boierilor...</hi></title>, <title><hi>Misterele căsătoriei</hi></title> şi altele tot ca aceltea"</quote>. Sînt incriminaţi, după cum vedem, cu excepţia lui Nicolae Filimon, mai toţi autorii de romane ai epocii: I. M. Bujoreanu, D. Bolintineanu, Al. Phelimon, C. D. Aricescu etc. cărora li se reproşază absenţa stilului. Atitudinea aceasta imprimă cărţii o amprentă prejunimistă decisă, evidentă.</p>
+<gap unit="page" extent="19"/></div>
+ <div type="liminal">
+ <head>NOTĂ ASUPRA EDIȚIEI</head>
+  <gap unit="page" extent="3"/></div>
+  </front>
+  <body>
+<div type="chapter">
+<head>CATASTIHUL AMORULUI</head>
+<head>O PREFAŢĂ CARE NU ESTE PREFAŢĂ</head>
+<p>Scena se petrece în capul servitorelui dumneavoastră.</p>
+<p>La dreapta şi la stîngă paradoxe, reflecţiuni, proiecte, fragmente începute1, suveniri, speranţe, căinţe.</p>
+<p>în scurt nişte mobile de simpli creeri, dar de ajuns.</p>
+<p>Aşezat înaintea unei mese, eu privesc cu un aer mulţumit un splendid soare care se joacă printre sticlele ferestrei mele.</p>
+<p>În acest timp, următorul dialog se angajează între oaspeţii creerilor mei, al căror scurt inventar avui plăcere a vi-l aşterne mai sus.</p>
+  
+    <label>Lenea</label>
+<p>Ce frumoasă, ce veselă zi! Bătrînii arbori din Băneasa cată să aibă în această dimineaţă reflecte de sărbătoare... Ia-ţi pălăria, bastonul şi vino cu mine, tu.</p>
+  
+<label>Raţiunea</label>
+<p>N-o asculta! Editorele tău aşteaptă, chiar în această dimineaţă, primele făscioare ale cărţii ce tu i-ai promis. Au să mai fie zile frumoase! N-o asculta!</p>
+  
+  <label>Lenea</label>
+<p>Mîine va ploua, — şi aşa două lune necurmat... Ce mai lucru, cînd vei înegri cîteva pagine din o hîr-tie neofensivă; nu-ţi este ruşine să preferi frumuseţile îndoioase ale stilului tău, splendorilor strălucitoare ale naturei. Eu d-aci văd eîmpiile în cari înverzeşte griul nou. Masa e pusă la birt. Cotleta cîntă, frigîndu-se. Hossanah al lăcomiei! Vinul rîde în vesela butelie... Să plecăm, îţi zic, şi dă dracului secătura ta de volum!</p>
+   
+<label>Vanitatea</label>
+<p>Secătură! ... secătură! ... Lesne de zis.</p>
+    
+<label>Raţiunea</label>
+<p>Cînd cineva promite, împlineşte.</p>
+     
+<label>Lenea</label>
+<p>Cînd soarele invită, cineva primeşte.</p>
+      
+<label>Voinţa</label>
+<p>Ei! bine, da! ... la dracu! ... Voi lucra, voi... (Lenea taie fraza printr-o căscătură).</p>
+       
+<label>Voinţa</label>
+<p>Intrerupţiunile tale nu vor ajunge niciodată la înălţimea dispreţiurilor mele.</p>
+        
+<label>Lenea</label>
+<p>Un desfid!</p>
+   
+<label>Voinţa</label>
+<p>Ia-ţi pana, înmoai-o în cerneală, scrie un titlu...</p> 
+   
+<label>Nehotărîrea</label>
+<p>Un titlu ... Un titlu ... e lesne de zis ... N-auzi? tu! Deşteaptă-te!</p>
+   
+<label>Imaginaţiunea</label>
+<p>Iar! ... ce meserie! .. . ce vrei tu? Un subiect pentru carte?</p>
+
+<label>Vanitatea</label>
+<p>Da, ceva mai nou, mai original, mai viu, mai spiritual, mai...</p>
+
+<label>Raţiunea</label>
+<p>Cine vrea prea mult, n-are nimic.</p>
+<p>(Lenea face să s-audă o a doua căscătură)</p>
+
+<label>Spiritul</label>
+<p>(care pînă aci strălucise numai prin lipsă-i).</p>
+<p>Ci aşteaptă ca să căşti momentul în care îţi vei reciti opera.</p>
+
+<label>Vanitatea</label>
+<p>Am prea mult bun gust ca să fac una ca asta.</p>
+
+<label>Voinţa</label>
+<p>Aidi! titlul, un subiect!</p>
+
+<label>Imaginaţiunea</label>
+<p>Ceva de-naltă fantezie ... Ceva fantastic ... <title><hi>Morții vii</hi></title>.</p>
+
+<label>Vanitatea</label>
+<p>Prea frumos titul!</p>
+
+<label>Raţiunea</label>
+<p>Vesel mai cu seamă.</p>
+
+<label>Imaginaţiunea</label>
+<p>Dacă e aşa ceva serios.<title><hi>Incercări asupra cauzelor decadinţei...</hi></title></p>
+
+<label>Raţiunea</label>
+<p>Publicul nu se mai înşeală cu aseminea încercări.</p>
+
+<label>Imaginaţiunea</label>
+<p>Lăsaţi-mi dar timpul să caut altceva ...</p>
+   
+<label>Lenea</label>
+<p>(privind în tavan)</p>
+<p>Uite! o pînză de păianjin! ... o muscă cade într-însa: Asta e prea curios... Oh! dar tot ce poate fi mai curios.</p>
+
+<label>Imaginaţiunea </label>
+<p> O să mă laşi să lucrez?</p>
+
+<label>Raţiunea</label>
+<p>Douăsprezece ore şi jumătate, şi nici un rînd încă! E ceva scandalos!</p>
+
+<label>Imaginaţiunea</label>
+<p>Asta nu este greşeala mea, nu-mi mai dau pace.</p> 
+   
+<label>Lenea</label>
+<p>Încîntător era prînzul de ieri... Şi acea mică damă blondă?</p>
+
+<label>Raţiunea</label>
+<p>Ea este înţeleaptă, domnule.</p>
+
+<label>Vanitatea</label>
+<p>Vorbă să fie!</p>
+
+<label>Raţiunea</label>
+<p>Fatuitate, nerodule. Ea nici nu te-a văzut.</p>
+
+<label>Lenea</label>
+<p>Nişte dinţi ca sideful.</p>
+
+<label>Spiritul</label>
+<p>Ba ce!</p>
+
+<label>Raţiunea</label>
+<p>De vei mai urma te numesc .. . gogoman!</p>
+
+<label>Vanitatea</label>
+ <p>Graţie! iertare!</p>
+
+<label>Raţiunea</label>
+<p>Cu condiţiune că vom începe să lucrăm.</p>
+
+<label>Imaginaţiunea</label>
+<p>Am găsit! ... un uvragiu de estetică... <title><hi>Arta privită în raporturile sale cu civilizaţiunea</hi></title>.</p>
+
+<label>Raţiunea</label>
+<p>(cu asprime)</p>
+<p>Ai să treci drept nebun.</p>
+
+<label>Imaginaţiunea </label>
+<p>Ce preferi dumneata? ...</p>
+
+<label>Raţiunea</label>
+<p>Orice, — numai să fie altceva.</p>
+
+<label>Imaginaţiunea </label>
+<p>O istorie a revoluţiunii din 1848.</p>
+
+<label>Spiritul</label>
+<p>Ca să superi pe cei ce au luat parte într-însa şi i-au uitat principiile!</p>
+
+<label>Raţiunea</label>
+<p>Desigur îşi bat joc de mine aci!</p>
+
+<label>Vanitatea</label>
+<p>Cuvîntul nu este poate înţepător?</p>
+
+<label>Conştiinţa</label>
+<p>(aparte)</p>
+<p>Sunt în dimineaţa asta tîmpită! ...</p>
+
+<label>Vanitatea</label>
+<p>Mergi! Mergi!</p>
+
+<label>Lenea</label>
+<p>Te asigur că puţină preîmblare ţi-ar face bine... prea puţină... Cît timp îţi trebuie ca să fumezi o ţigară ... In treacăt ne vom urca la ...</p>
+
+<label>Raţiunea</label>
+<p>O oră, domnule, o oră!</p>
+
+<label>Conştiinţa</label>
+<p>Cu toate acestea este adevărat. Dacă lectorele ar şti supliciul ce îndurăm pentru el.</p>
+
+<label>Spiritul</label>
+<p>Cu condiţiunea de a ne răzbuna.</p>
+
+<label>Vanitatea</label>
+<p>Nu mai crez. După acum văz pe lectori dînd din cap cu mulţumire. Un surîs aprobător zboară pe buzele lor.</p>
+
+<label>Voinţa</label>
+<p>Mergi! Mergi!</p>
+
+<label>Imaginaţiunea</label>
+<p>Am găsit un titlu: <title><hi>Misterele căsătoriilor</hi></title>.</p>
+
+<label>Rațiunea</label>
+<p>D. Aricescu (1862).</p>
+
+<label>Lenea</label>
+<p>Ah ba! ... un păr alb. .. Trebuie să-l smulg... Hop! L-am smuls... Primul, vai! De unde vii tu, mizerabile? Au durerile inimei te-au deseolorat fără timp?... Durerile inimei! Aceasta mi-aduce a-minte pe mica damă blondă de ieri... Ea nu este din acelea care să admită în luxosul ei păr nişte asemenea nepoftiţi!</p>
+
+<label>Raţiunea</label>
+<p>Ea este înţeleaptă, domnule!</p>
+
+<label>Vanitatea</label>
+<p>Se ştie, tu ai spus-o deja.</p>
+
+<label>Raţiunea</label>
+<p>Ştii că te prinde să faci pe învingătorul! — Auzi acolo! Un om care începe a-şi smulge perii!</p>
+
+<label>Voinţa</label>
+<p>Mergi! Mergi!</p>
+
+<label>Imaginaţiunea</label>
+<p>Am nemerit... <title><hi>Bucureştii viitorului</hi></title>.</p>
+
+<label>Raţiunea</label>
+<p>Ce norocire! N-aveam lipsă decît de a rumega.</p>
+
+<label>Vanitatea</label>
+<p>Ce-nţelegi dumneata prin acest infinitiv?</p>
+  
+<label>Rațiunea</label>
+<p>înţeleg că ai timp să tratezi acest subiect altădată, mai tîrziu!</p>
+   
+<label>Lenea</label>
+<p>Şi de ce oare să nu înceapă acum?</p>
+
+<label>Vanitatea</label>
+<p>Cu neputinţă! Lumea se ocupă prea mult de prezinte şi prezintele este prea demn de a se ocupa da dînsul, ca să o poată momi viitorul.</p>
+
+<label>Raţiunea</label>
+<p>Două ore şi hîrtia este încă virgină! ...</p>
+
+<label>Lenea</label>
+<p>Negreşit; această cadră este pusă strîmb. Cu toate acestea recomandasem să n-o mişte din loc... Este gingaş acest tablou. Un colţ de peisaj... Un lac... Soare... Ar zice cineva că este lacul de la... zău, mi-am uitat... Ţii tu minte?... Dacă m-ai fi ascultat, poate am fi fost acolo acum.</p>
+
+<label>Conştiinţa</label>
+<p>Datoria te leagă.</p>
+   
+<label>Imaginaţiunea </label>
+<p>În van caut, nemic ...</p>
+
+<label>Lenea</label>
+<p>Așa se cade</p>
+
+<label>Imaginaţiunea</label>
+<p>Renunţ.</p>
+   
+<label>Raţiunea</label>
+ <p>Aşa tu nu ţi-ai ţine cuvîntul? ...</p>
+   
+<label>Imaginaţiunea</label>
+<p>(cu descurajare)</p>
+<p>Atunci dar, fă un roman! ...</p>
+   
+<p>Raţiunea era negreşit să replice la această exclamaţiune supremă, dar răspunsul său fu tăiat printr-o lovitură seacă dată în uşa mea.</p>
+<p>— Intră! strigai eu cu graba unui om fericit a scăpa de o luptă intimă.</p></div>
+
+   <div type="chapter">
+    <head>II.ARTA DE A ÎNCEPE UN ROMAN</head>
+       
+           <p>Vizitatorul intră şi salută.</p>
+<p>— Domnule, am onoare ...</p>
+<p>— Servitorele dumitale, Domnule.</p>
+<p>— Dacă mi-am luat libertatea de a mă prezintă domniei-voastre, cu toate că vă sunt cu totul necunoscut, aceasta am făcut-o pentru că am a supune apreciaţiunii dumneavoastră un lucru care, fără vanitate, va avea cel mai mare succes.</p>
+<p>— Binevoiţi a şedea, Domnule.</p>
+<p>Şi eu luai atitudinea aleasă, care este de cuviinţă în aseminea caz.</p>
+<p>Tot văzînd cineva originali de orice etate, de orice provenienţă şi de orice sex, capătă o doză de resig-naţiune, gata la toate sacrificiurile.</p>
+<p>întrebaţi pe directorii de teatruri!</p>
+<p>Omul meu cu toate acestea îşi trăsese ochelarii. Era dar să fie ceva de citit.</p>
+<p>Doamne!</p>
+<p>După ochelari, el scoase la maidan un manuscris. Nu mai era glumă!</p>
+<p>Apoi, adăugind:</p>
+<p>— Domnule, nu ştiu dacă ai făcut o băgare de seamă?</p>
+<p>— Nici eu nu- ştiu!</p>
+<p>— Ai să ştii.</p>
+<p>Băgarea de seamă este aceasta. S-a compus conductori de toate felurile. Lăsînd la o parte pe toţi acei cari mină pe voiajori în cele cinci părţi ale lumii, mai sunt, nu este vorba, despre noi cari n-avem de cit conductorele d. Papazoglu5 pe Dunăre, mai sunt, zic, 
+<hi>conductorele comerciantelui, contribuabilelui, sculpto-relui în piatră, geometrului</hi>...</p>
+<p>Şi altele multe!</p>
+<p>Numai profesiunea de romanţiar a rămas virgină de orice indicatoare. Şi cu toate acestea n-ar avea ea oare tot atîta nevoie ca ori care alta?</p>
+<p>Poate şi mai mult! ...</p>
+<p>— Mă iartă Domnule, nu mă putui opri de a observa importunului meu, dar romanţiarul cată să se inspire din propriele sale fonduri, iar nu de o regulă banală.</p>
+<p>Nu se-nvată Cnm fn talant.</p>
+<p>— In adevăr, Domnule... Se vede bine că n-ai studiat ca mine, în curs de mai mulţi ani, operele cari compun colecţiunea romanţiarilor contimpurani.</p>
+<p>— Mărturisesc...</p>
+<p>— Ei bine! eu am executat această gigantică lucrare; din ea a rezultat pentru mine certitudinea că cineva poate desigur nota, clasa, înregistra toate pro-cederile cu cari s-au servit scriitorii stilului.</p>
+<p>Aceste procederi fiind notate, nu-mi mai rămîne decît a deduce din ele nişte regule, formulate metodiceşte şi însoţite de exemple spre a fi susţinute.</p>
+<p>— Drace! Dar în acest chip opera dumitale va trebui să fie grozav de voluminoasă.</p>
+<p>— Ea va fi, domnule, îmi fac o glorie.</p>
+<p>Este ceea ce m-a hotărît să o despart în mai multe părţi, din care am onoarea a vă supune pe cea dintîi.</p>
+<p>Bravul om îmi arată manuscrisul care mă înspăi-mîntase aşa de mult.</p>
+<p>Nu mai era mijloc de a-1 evita; mă înclinai.</p>
+<p>— Domnule, adăugă el, cu totul în contra opiniunii ce Racine a expres într-un vers celebru, eu crez cu tărie că începutul în orice lucru este tot ce poate fi mai dificile.</p>
+<p>Am crezut dar de a mea datorie să fac o dezvoltare cu totul specială acestui punt al lucrării mele.</p>
+<p>Eu o intitulez: 
+<hi>Arta de a începe un roman.</hi></p>
+<p>— Ce vorbeşti! zisei eu, surîzînd că se nemerea aşa de bine cu ceea ce proiectam să fac.</p>
+<p>— Am stabilit, domnule, douăsprezece stiluri principale, de care se poate lega toate celelalte.</p><p>Şi mai înainte de a putea eu manifesta o consimţire sau un refuz, ciudatul vizitator începu să citească.</p>
+       
+
+    <p>Primul stil — Stilul burghez</p>
+<p>Acest stil a fost cultivat de romanţiarii, mai cu seamă francezi, căci cît pentru ai noştri, mulţumită Domnului, nu-i avem decît în perspectivă pînă azi, a fost cultivat, zic, cu furie, de la 1830 pînă la 1845.</p>
+<p>El a făcut deliciurile foiletoanelor. Puţin căzut în disuetudine, dar încă scump la .fabricanţii de nuvele.</p>
+<p>Iartă-mă dar, Domnule, să-ţi dau cîteva modele culese din romanele străine, căci pentru cuvintele de mai sus, mi-a fost cu neputinţă a le culege din 
+    <title><hi>Mistere din Bucureşti</hi></title>, <title><hi>Elena</hi></title>, 
+    <title><hi>Manoil</hi></title>, <title><hi>Catastrofa boerilor</hi></title>, <title><hi>Misterele căsătoriei</hi></title>, şi altele tot ca acestea.</p>
+<p><hi>Model:</hi> — Intr-o rîzîndă dimneaţă din luna mai 18... o jună copilă străbătea Puntea-Regală, cu un pas repede, şi trecea grila grădinei Tuileriilor, care se deschide pe chei.</p>
+<p>îmbletul său elegant fără afectaţiune, arăta o origine aristocratică, deoarece chipul său, cu cochetărie încadrat într-o pălărie de mătase cenuşie, trăda o vie agitaţiune interioară . .. etc.</p>
+       <milestone rend="dots" unit="subchapter"/>
+<p>Al doilea stil — Stilul historic</p>
+<p>înflorea în Francia în timpul marii perioade romantice.</p>
+<p>Vor reveni la el.</p>
+<p><hi>Model:</hi> — Ludovic XIV revocase edictul de la Nantes.</p>
+<p>Protestanţii izbiţi de această nouă măsură se expatriau cu grămada, ca să scape de violenţa morală ce li se impunea.</p>
+<p>Grav minut, în care soarele marelui rege, declinînd la orizonte, era învăluit de ceaţa intoleranţei şi a fanatismului.</p>
+<p>Această crudă măsură fu pentru Francia una din cauzele cele mai dureroase de slăbiciune şi de ruşine, căci era un sînge generos acel sînge al nobilelor familii cari alergau să-şi caute scăpare în exilul de bună voie.</p>
+<p>Printre aceste familii, era una ... etc.</p>
+       <milestone rend="dots" unit="subchapter"/>
+       <p>Al treilea stil — Stilul geografic Colaterale cu cel precedinte.</p>
+<p><hi>Model</hi> — Nemărginitele cîmpii ale Soloniei, formez unul din peisajele cele mai întristătoare ce a putut cineva întîlni, străbătînd lumea.</p>
+<p>Ele nu sînt decît pustii, bălării, brazi.</p>
+<p>Mai cu seamă în împrejmuirile Salbrisului, natura are un aspect foarte pitoresc.</p>
+<p>O mică gîrliţă, Saudre, udă ca cu părere de rău acest colţ de pămînt, şi se simte în neputinţă a-1 fertiliza.</p>
+<p>în împrejurimile dar ale acestui orăşel, trecătorul vedea încă, acu cinci ani, un castel ruinat în care locuia contele de ... etc.</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+       
+       <p>Al patrulea stil — Stilul humoristic</p>
+<p><hi>Model</hi> — In acea zi, mi-era urît.</p>
+<p>Ţi-este urît ţie, scumpul meu lectore? nu este aşa că nu citindu-mă?</p>
+<p>Aşa dar, urîtul este o boală în contra căriia singurul remediu este locomoţiunea.</p>
+<p>Mi-aprinsei dar o ţigară.</p>
+<p>Fumezi dumneata? O! frumoasa mea lectrice, nu roşi! Pe dumneata nu voi avea indiscreţiunea să te întreb aseminea lucruri.</p>
+<p>După ce aprinsei ţigara, mă coborîi şi mă aruncai în stradă.</p>
+<p>O, viziune! ... încîntare! ... Tocmai în această mi-nută, acea stradă era străbătută de o pereche de botine cari... etc.</p>
+
+       <milestone rend="dots" unit="subchapter"/>
+       
+       <p>Al cincilea stil — Stilul brusc</p>
+<p><hi>Model</hi> — Nu, Doamnă, nu; îţi repet că această căsătorie este cu neputinţă.</p>
+<p>Eu sunt nestrămutabile din otărîrea mea.</p>
+<p>— Fiia dumitale va muri din aceasta, domnule.</p>
+<p>— Atît mai rău.</p>
+           <p>Aşa vorbea soţiei sale bătrînul baron... Baronul ... bătrîn nobile, curios ... etc.</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+       
+       
+           <p>Al şaselea stil — Stilul fantastic</p>
+<p><hi>Model</hi> — Uraganul deslănţat sufla cu furie.</p>
+<p>Arborii trosneau cu un zgomot de schelete izbite unele de altele. Norii negri ca funinginea făceau mai posomorit întunericul chiar.</p>
+<p>Deodată un fulger albicios tăie norul şi la lumina sa se zări pe vîrful unei stînce o fantasmă albicioasă al cării...</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+
+       
+           <p>Al şaptelea stil — Stilul sfîşietor</p>
+<p><hi>Model</hi> — O palidă lumină veghia lingă patul agonizîndei.</p>
+<p>O jună copilă singură, pierdută, rătăcită, în cămăruţa friguroasă ... etc.</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+       
+       
+           <p>Al optulea stil — Stilul alegru</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+
+       
+           <p>Răbdarea mea începea a cam slăbi.</p>
+<p>Aşadar, întrerupînd de-odată pe chefliul meu:</p>
+<p>— Mă iartă, domnule; zici că ai inventat arta de a începe un roman, strigai eu.</p>
+<p>— Da, domnule.</p>
+<p>— Ei! bine, eu te sfătuiesc să cauţi arta de a termina o eonversaţiune.</p>
+<p>Sărmanul om, la această lovitură, se sculă mîndru, despreţuitor, zdrobitor, şi ieşi.</p>
+<p>Dar după ce el închise uşa:</p>
+<p>— In adevăr, nu mă putui opri de a nu murmura, el are euvînt.</p>
+<p>Otărît, eu nu voi scrie un roman.</p>
+   </div>
+
+<div type="chapter">
+<head>III. TRACTAT EX PROFESSO</head>
+<p>Recăzusem în perplexităţile mele.</p>
+<p>Raţiunea reluase cuvîntul:</p>
+<p>— învederat că eşti într-o cale deplorabilă.</p>
+<p>Niciodată, urmînd astfel, tu nu vei ajunge să fi membru al vreunei academii străine sau naţionale.</p>
+<p>Niciodată şahul Persiei nu va fi tentat să-ţi trimită insignele ordinului său al 
+<hi>Pantherei de zinc.</hi></p>
+<p>Literatura uşoară nu este decît o ingrată care expune pe omul său la dispreţurile tuturor academicianilor (sic).</p>
+<p>Trebuie să te laşi de ea.</p>
+<p>Şi ca să te laşi de ea, începe — aşteaptă! — începe prin a procrea vre-un greu manuscris, destul de voluminos, destul de indigest, vre-un studiu, vre-un tractat.</p>
+<p>— Da, deci! un tractat. Aceasta este o idee, murmurai eu.</p>
+<p>Dar un tractat asupra ce?</p>
+<p>Asupra boalei merelor, asupra generaţiunii spontanee, asupra zahărului de sămînţă de in aplicat la întrebuinţările farmaciei, asupra...</p>
+<p>Toate acestea erau prea grave pentru un om abia odihnit de o lungă practică de ironie.</p>
+<p>Ia, mai cu seamă, zise Raţiunea, o chestiune care... ce ... despre care ...</p>
+<p>Amorul, de exemplu!</p>
+    <p>Un bun <title><hi>Tractat al amorului</hi></title> din puntul de vedere al filosofiei sociale, al economiei politice şi al relaţiunilor noastre internaţionale lipseşte cu totul.</p>
+<p>S-a otărît.</p>
+    <p>Tu vei redige un <title><hi>Tractat al Amorului</hi></title>.</p>
+<p>Luînd această înţeleaptă deciziune, otărîi de a trece la aplicaţiune, fără a mai întîrzia.</p>
+<p>Cumpărai dar o jumătate testea de frumoasă hîrtie albă.</p>
+<p>Scrisei în capul ei cît mai frumos şi mai bine, — nu este mare lucru aceasta, nu este aşa, domnilor compozitori? — scrisei, zic, nobilele titluri care trebuia să mă inspire:</p>
+    <p><title><hi>Tractatul amorului</hi></title>.</p>
+<p>Acest titul strălucea cu maiestate.</p>
+<p>Dar ori cît de strălucitor de ar fi un titul, cată să pui ceva sub el.</p>
+<p>începui dar:</p>
+<p>— Amorul este...</p>
+<p>Amorul este ... este ... este ...</p>
+<p>Amorul... este ...</p>
+<p>Cu neputinţă de a urma această blestemată frază!</p>
+<p>Cu toate acestea, pentru că eu nu sunt un om care să mă descurajez aşa de lesne, mă pusei a cugeta că sufragiul universale avînd să fie baza constituţiunii noastre, nu aveam cuvînt ca să nu mă luminez — în cazul care mă preocupa — de opiniuoea zisului sufragiu universale.</p>
+<p>Aceasta era o rază de lumină.</p>
+<p>Creierii mei îmi ordonau mie chiar o anchetă prealabilă.</p>
+<p>Şi, apucînd fără nici o întîrziere pălăria şi bastonul meu, eu mă coborîi în stradă.</p>
+<p>O trăsură trecea.</p>
+<p>Stragai pe vizitiu, — care se opri, crezînd că aveam trebuinţă de serviciele sale.</p>
+<p>— Iartă-mă, frate, îi zisei eu.</p>
+<p>— Trei sfanţ ceasul, azi este praznic! ...</p>
+<p>— Nu este de vorba de asta.</p>
+<p>— Atunci doi sfanţi să te duc unde vrei, dar nu la Cotroceni.</p>
+<p>— Nu este nici asta.</p>
+<p>— Ce fel?</p>
+<p>— Nu. Ţine doi sfanţi, preţul unei ore în zi de lucru, ca bacşiş, şi în schimb nu-ţi cer decît cinci minute de conversaţiune... Putea-vei dumneata să-mi spui ceea ce cugetă oamenii în profesiunea dumitale despre amor?</p>
+<p>Vizitiul mă privi cu oarecare mirare, apoi cu un gros rîs fără să pară strîmtorat:</p>
+<p>— Dec! ce prostie! ... Amorul... Este cel mai simplu din bacşişurile noastre... Cît se poate mai iute cînd este vorba de o femeie cu bărbat.</p>
+<p>Apoi vîrîndu-şi banii în posunar şi dînd un bici cailor săi:</p>
+<p>— Hi! ... Murgule! ... Bogat e Dumnezeu!</p>
+<p>întîia încercare nu era tocmai fericită.</p>
+<p>Dar trebuie să ai perseverinţă.</p>
+<p>Aşa dar începui a îmbla, bazîndu-mă pe întîmplă-rile întîlnirii.</p>
+<p>In adevăr, după cîteva minute, un medic din amicii mei se întîlni piept în piept cu mine.</p>
+<p>— Ah! doctore! ... Sunt încîntat că te-am găsit.</p>
+<p>— Eşti oare bolnav?</p>
+<p>— Eu! Nici cum... Am numai să te întreb ceva.</p>
+<p>— Ce?</p>
+<p>— Doctore, din puntul dumitale de vedere, ce este amorul?</p>
+<p>— Amorul? Afecţiune cerebro-inflamatorie, intere-sînd în acelaşi timp sistemul nervos ... Dă în genere de la 96 pînă la 108 pulsaţiuni pe minut. Poate mai tîrziu să fie însoţit de cloro-anemie, de emaciaţiune, de dispepsie, sau de bradipepsie. Să iei hapurile lui Morison, sau şi ale lui Drasch.</p>
+<p>— Mulţumim, doctore.</p>
+<p>Puţin mai departe dădui peste alt amic al meu.</p>
+<p>X... poetul elegiac.</p>
+<p>El părea cufundat într-o reverie profundă.</p>
+<p>—-.Ei bine! Scumpul meu visător... nu mă mai recunoşti?</p>
+<p>— Dec, tu eşti! ... Iartă-mă, sfîrşesc un sonet îm-blînd.</p>
+<p>— Nu-1 vei sfîrşi înainte de a răspunde la o chestiune prea importantă pentru mine.</p>
+<p>— Care?</p>
+<p>— Ce cugeţi despre amor?</p>
+<p>— Dec! o rimă masculină la bujor, picior, mosor, zăvor, urcior.</p>
+<p>Un bancher cam trecut, însurat, trecu în urmă.</p>
+<p>— Ei, zeule al avuţiei, un singur cuvînt, te rog.</p>
+<p>— Cu ce te pot servi?</p>
+<p>— Ce este amorul, Cresus al meu?</p>
+<p>— Cîteva mii de lei pe lună ca să-ţi întreţii metresa, fără să socoteşti cadourile. Şiut! Dacă m-ar auzi soţia mea, aş păţi-o!</p>
+<p>Trecu o femeie.</p>
+<p>— Doamnă ...</p>
+<p>— Eu?</p>
+<p>— Da, chiar dumneata.</p>
+<p>— Binevoieşte a face un serviciu unui tînăr care se află în strîmtorare.</p>
+<p>— Poftiţi, numai să nu fie vorba de bani.</p>
+<p>— Formula dumitale asupra amorului, mă rog?</p>
+<p>— Cuvîntul nostru sociale!</p>
+<p>— Şi dumneata, domnule statistic?</p>
+<p>— Se nasc în terminul de mijloc într-un an vreo cincisprezece sau douăzeci de mii indivizi de amîn-două sexele în Bucureştiul nostru.</p>
+<p>— Dumneata, domnule muzicant?</p>
+<p>— Andante ... în minor ... bemol la cheie ... Asta se vinde totdeauna prea bine, în albumuri mai cu seamă.</p>
+<p>— Dumneata, domnule lipţcan?</p>
+<p>— In fiece an, unul peste altul, o sută bucăţi de moarantic, foarte lat.</p>
+<p>—Dumneata, romanţiarule?</p>
+<p>— Este desgustător... să te speteşti în simţimînt pentru ca să nu găseşti un librar să ţi-1 cumpere.</p>
+<p>— Dumneata, puşcaşule?</p>
+<p>— Cîteva pistoale din cînd în cînd... dar nici sinucidul, nici duelurile n-au căutare la noi! ...</p>
+<p>— Dumneata actorule?</p>
+<p>— Să nu vorbeşti peltic... Puţină pudră de orez ca să albeşti faţa... o frumoasă freză şi nişte pantaloni strimţi cu cizme ...</p>
+<p>— Dumneata, avocatule?</p>
+<p>— Pretextul celor mai bune procese de despărţire.</p>
+<p>— Dumneata, coaforule?</p>
+<p>— Totul depinde de la tăietura părului...</p>
+<p>— Dumneata, cămătarule?</p>
+<p>— Amorul? Un tată pentru noi, bunul meu domn.</p>
+<p>— Dumneata, junele meu?</p>
+<p>— Guvernanta mamiţii.</p>
+<p>— Dumneata, bătrînule?</p>
+<p>— Aoleo! măduva din osul spinării!</p>
+<p>Aş fi putut urma mult timp.</p>
+<p>Mai cu seamă dacă aş fi voit să conciliez toate aceste păreri şi să le unesc într-o sinteză unanimă.</p>
+<p>Dar eram sătul de esperiinţă. Mă întorsei dar acasă la mine.</p>
+<p>Acolo, luai cu delicateţă jumătatea testea de hîrtie albă.</p>
+<p>Smulsei întîia pagină pe care se resfăţa încă acest frumos titlu:</p>
+    <p><title><hi>Tractatul amorului</hi></title></p>
+<p>Apoi o făcui cocoloş şi o aruncai în foc.</p>
+<p>Fusesem cît p^aci să fiu pedant în cursul a două ore şi trei cuarturi.</p></div>
+   
+<div type="chapter">
+<head>IV. CARTA DRAGOSTII DIN ANUL 1864</head>
+
+    <p>Dar pentru asta nu renunţasem la ideea mea primitivă. Cu totul din contra. Sunt prea amusante de fotografiat inimele contimpurane.</p>
+    <p>Aşa dar, pe pagina următoare scrisei: <title><hi>Catastihul Amorului</hi></title>.</p>
+<p>Să fie de bine! Aceasta este un titlu actuale, viu, vorbind ca o tablă de prăvălie.</p>
+<p>Un titlu fără afectaţiune şi care te autorizează să vorbeşti cît de aspru... mai cu seamă asupra ridiculelor naţionale.</p>
+<p>Un titlu demn oricum de epoca noastră negustorească.</p>
+<p>Dacă ar fi fost vorba de dragostile de-acuma cîţiva ani, s-ar fi putut alcătui o geografie sentimentală care şi-ar fi dobîndit o celebritate idioată.</p>
+<p>Ar fi fost în ea lucruri minunate de gingăşie şi admirabile de cochetărie.</p>
+<p>Un vocabular întreg de denumiri înaintea căror ar fi leşinat de mulţumire sufletele simţitoare d-altădată.</p>
+<p>Ar fi fost — citez după-ntîmplare:</p>
+<p>Coliba micelor îngrijiri.</p>
+<p>Cuibul Suspinelor conţinute.</p>
+<p>Gîrla Lacrimelor ascunse.</p>
+<p>Calea Grăbirilor.</p>
+<p>Răspîntia Mărturisirilor secrete.</p>
+<p>Volcanul Declaraţiunilor galante,</p>
+<p>Şi cîte şi mai cîte?</p>
+<p>Dar amintindu-ţi atîtea lucruri, cum te poţi opri de a nu face o reflecţiune?</p>
+<p>Două reflecţiuni!</p>
+<p>Trei reflecţiuni I</p>
+<p>Ah! cum s-a mai schimbat la noi toate alea, şi ce mai de curioase modificaţiuni, fiindcă trebuie să alcătuim astăzi o aseminea cartă, au să sufere denumirile!</p>
+<p>Dar apoi, pentru ce nu? Ce rău aţi vedea d-voastră în întreprinderea eonfecţiunii unei 
+    <title><hi>Carte a Dragostii după moda anului 1864</hi></title>.</p>
+<p>Ce e drept, vă asigur, ea ar fi curioasă.</p>
+<p>D-voastră zîmbiţi?</p>
+<p>Să începem!</p>
+
+    
+    
+        <p><hi>Noţiuni geografice</hi></p>
+<p>Carta Dragostii din anul 1864 este în special dedicată oamenilor cari se ocupă cu a face bani.</p>
+<p>Pe toate drumurile, pe toate cărările, în toate localităţile ce ea arată, nimic nu este gratuit.</p>
+<p>Aviz celor ce vor vroi să călătorească fără pungă.</p>
+<p>în inimele lui 1864, ospitalitatea se vinde şi nu se dă niciodată (bis).</p>
+<p>Spre a susţine dar cele ce am zis, să începem în parte, fără a mai întîrzia, deseripţiunile topografice.</p>
+    
+    
+        <p><hi>Muntele Mîncărilor</hi></p>
+<p>Punt-nalt care domină peisagiurile dinprejur.</p>
+<p>Mai multe poteci conduc aci.</p>
+        <p>Mai obişnuit printr-o excursiune la Muntele Mîncărilor se începe peregrinaţiunea pe <title><hi>Carta Dragostii din 1864</hi></title></p>
+<p>Această excursiune se face în duo, în patru sau în cor, după gustul fiecăruia.</p>
+<p>O cină şi dragostea mea.</p>
+<p>Amoroasele iau mai întîi cina. Ele uneori o şi duc acasă. Sunt mai multe exemple despre unele din ele cari îşi confecţionaseră cîte un buzunar de tinichea, cu totul afectat pentru maioneze şi fripturi.</p>
+<p>Nu se ştie ce se poate întîmpla.</p>
+<p>La picioarele Muptelui Mîncărilor curge.</p>
+    
+    
+        <p><hi>Gîrla de şampanie</hi></p>
+<p>Celebră prin accidentele sale.</p>
+<p>Nu s-ar putea calcula numărul bunelor simţuri ce s-au înecat într-însa.</p>
+<p>îndată ce Leandru trece gîrla de şampanie ca să ajungă la Hero, nefericitul este foarte compromis.</p>
+<p>Hero nu-şi lasă aşa lesne prada.</p>
+<p>Ea atunci obişnuieşte să târască pe nebunul său suspinător în</p>
+    
+    
+        <p><hi>Pădurea mobilelor</hi></p>
+<p>O adevărată pădure a Vlăsiei.</p>
+<p>In locul briganzilor, cineva întâlneşte acolo numai tapiţeri.</p>
+<p>în loc de pistoale, ei pun în pieptul trecătorilor facture neplătite.</p>
+<p>Dară rezultatul este fără nici o deosebire acelaşi</p>
+<p>Nefericire imprudintelui ce a făcut un pas cutezător în Pădurea Mobilelor.</p>
+<p>Ei n-auzi! n-auzi!... dumnealor amoroasele fac vinatoare!</p>
+<p>Mai întîi vrei să mergi drept înainte-ţi.</p>
+<p>Dar îndată începi a nu mai vedea limpede.</p>
+<p>Mergi încoa, încolo, te împleticeşti.</p>
+<p>In minutul cînd vrei să te opreşti, haita privirilor se asmute în goană-ţi.</p>
+    <p>înainte! înainte!</p>
+<p>Aşa în cît din cotitură în cotitură, te vezi ajuns fără veste tocmai în</p>
+    
+    
+        <p><hi>Tufişurile întunecoase ale giuvaergeriei</hi></p>
+<p>Unul din locurile cele mai periculoase ale Vlăsiei de care vorbim.</p>
+<p>Acolo sunt curse pentru cei cu coarne.</p>
+<p>— Scumpul meu Alexandre!</p>
+<p>— Ce este?</p>
+<p>— Am văzut ieri pe Frosa.</p>
+<p>— A! ... Ai simţit vreo plăcere văzînd-o?</p>
+<p>— Oh! nu .. . Am suferit mult.</p>
+<p>— Pentru ce?</p>
+<p>— Pentru că . . .</p>
+<p>— Vorbeşte.</p>
+<p>— Pentru că sunt femei cari au diamante multe, deoarece eu n-am nici măcar o pereche de cercei.</p><p>S-a sfîrşit.</p>
+<p>De aci înainte eşti rătăcit. Nu-ţi mai găseşti calea. Dea Domnul ca steaua ta cea rea să nu te arunce</p>
+    
+    
+        <p><hi>Vizuina lui 20%</hi></p>
+<p>Peştera ghiarelor lungi sau societate erotică.</p>
+<p>Locaşul cămătarilor. .. anonimi11.</p>
+<p>Vizuina lui 20% este pe carta dragostii cea din urmă staţie pentru ca să ajungi la Dumnezeu mai ştie ce.</p>
+<p>Dar nu v-am făcut să exploraţi decît o parte a Cartei Dragostii din 1864. Partea lumii amoroase de o îndoioasă categorie.</p>
+<p>Mai este partea adevăratei lumi.</p>
+<p>Calea care conduce la punerea pirostriilor. Această cale debută prin</p>
+    
+    
+        <p>Cascadele juneţii</p>
+<p>Un peisaj pitoresc.</p>
+<p>Aci staţionează cineva mai mult sau mai puţin.</p>
+<p>De aci cineva iese mai mult sau mai puţin obosit şi deşelat.</p>
+<p>Şi cînd găsesc cuviincios şi oportun să treacă la alte exerciţiuri, atunci se îndreptează către</p>
+    
+    
+        <p><hi>Lazaretul vîrstei coapte</hi></p>
+<p>Locul unde cată să stea în carantină.</p>
+<p>Aci stă destul timp ca să scape de ultimele sale iluziuni şi să devie un om serios.</p>
+<p>Adică un egoist, incapabil de un avînt generos, de o aspiraţiune înaltă.</p>
+<p>Terminînd carantina, intră în</p>
+    
+    
+        <p><hi>Răspîntia zestrii</hi></p>
+<p>Intîlnirea tuturor ambiţiunilor contimpurane.</p>
+<p>In răspîntia zestrii este deschis în totdeauna un mare bazar.</p>
+<p>în acest bazar, sunt instalaţi părinţii cei buni, veniţi aci pentru ca să negocieze viitorul fetelor dumnealor.</p>
+<p>Nici te-am văzut, nici te ştiu, dar te ador!</p>
+<p>Nu se pot suferi, dar ce le pasă!</p>
+<p>Aceasta este o chestiune de cifre.</p>
+<p>Muşterii circulează împrejurul baracelor ca la Moşi.</p>
+<p>— Cît costă această frumoasă păpuşă?</p>
+<p>— Priveşte ce pofteşti să cumperi, domnule. Nu doară pentru că se află la noi, dar fiindcă este un articul ales.</p>
+<p>Ea joacă cotilionul, se îmbracă, se dezbracă de douăzeci de ori pe zi, cîntă romanţe. Şi ce frumos e zugrăvită!</p>
+    <p>— <foreign>Hareciu</foreign>!</p>
+<p>— In răspîntie aci se împreun mai multe căi. Aceste căi sunt:</p>
+<p>Calea Despărţirii.</p>
+<p>Calea Gîlcevurilor.</p>
+<p>Calea Verişiorilor.</p>
+<p>Calea Indiferenţei</p>
+<p>Dar, poate că dumneavoastră îmi veţi zice că nu vă vorbesc de</p>
+    
+    
+        <p><hi>Calea inimei</hi></p>
+<p>Nerozie!</p>
+    <p>Asta este singurul cuvînt care nu figurează pe <title><hi>Carta Dragostii din 1864</hi></title>.</p>
+<p>Calea Inimei a fost expropriată şi supresă12 pentru cauză de materialism public.</p>
+<p>S-a înlocuit cu şoseaua lui <hi>Dare</hi> şi <hi>Avere.</hi></p>
+<p>Ceea ce a făcut ca să devie 
+    <title><hi>Carta Dragostii din 1864</hi></title> o cartă... de plătit.</p>
+</div>
+
+      <div type="chapter">
+<head>V. UN MARTIR AL PROZEI</head>
+          
+              <p>De ce ţin destinurile?</p>
+<p>Stavrache Cîrcescu era negreşit născut pentru ca să ducă în Fefeleiu viaţa cea mai unită, pentru ca să soarbă intimele dulceţi ale prozaismului, pentru ca să dea acolo instinctelor sale burgheze cele mai banale satisfacţiuni. Stavraehe Cîrcescu, — dacă nefericirea nu l-ar fi sustras de la vocaţiunea sa, — ar fi putut ajunge la orice, precum zicea pomojnicul zapciului. Ar fi fost poate azi vreun gras şi burtos proprietar, sau cel mai puţin vreun arendaş cu chiag în pungă, cum zice românul!.</p>
+<p>Dar —, o repet — de ce ţin destinurile?</p>
+<p>Stavrache — într-o zi cînd îi era urît —, începu să citească un roman. A doua zi, ca să previe urîtul, reîncepu; el continuă zilele următoare. De atunci, nu mai era vorbă, existinţa lui Stavraehe ieşise din drumul ei!</p>
+    <p>Prea naiv ca să vază printre linii şi să înţeleagă că romanţiarii se amuză pe ei — cînd nu reuşesc a amuza pe alţii —, nefericitul îşi puse-n cap să ia în serios frumoasele invenţiuni şi înaltele fantezii din o <title><hi>mie şi una de nopţi</hi></title> romaneşti. Oamenii cu humori pacifice Sunt cei mai teribili din toţi cînd îşi bagă asemenea lucruri în cap; beţia cea mai periculoasă este aceea a oamenilor cari n-au băut niciodată; temperamentul vulgar a lui Stavraehe căta să facă mai ne-nfrînate aspiraţiunile sale aventuroase.</p>
+<p>— Dar asta! îşi zise el într-o dimineaţă, — căci el observase că monologul ţine un loc admirabile la-nce-putul unui capitul şi că <hi>dar asta</hi> ţine un loc nu mai puţin admirabile la-nceputul unui monolog. — Dar asta! este timpu ca să scutur pulberea provincială. Crisalida cată să se schimbe în fluture. Alergăturile, zdruncinăturile, emoţiunile, pasiunile, excentricităţile şi singularităţile, iată de ce mi-e sete. Sunt sătul de această viaţă, simt sătul de Fefeleiu. Eu simţ ceva colea. Am să fiu un erou de roman!</p>
+<p>Ca să introducă în viaţa sa privată obiceiul de a vorbi singur şi mai cu seamă pentru ca să-şi ţie asemenea discursuri, aşa de subiective, cată, mărturisiţi-o, ca Stavrache să fi fost ajuns la nişte paroxisme neprevăzute.</p>
+<p>Semne particularii: poza repede şi neregulată, gesturi brusce, ochi ridicaţi la cer, mînă trecută de mai multe ori pe frunte, staţiuni înaintea oglindei sale. Desigur el era un om pierdut.</p>
+<p>în adevăr, în acea seară chiar, Stavrache Cîrcescu, strîngînd rămăşiţele micei sale averi, să azvîrli într-o cărucioară de poştă şi o porni spre Bucureşti.</p>
+<p>— Pentru ce dracului, murmura el în timpul celor dîntîi zdruncinături ale cărucioarei, pentru ce dracului guvernul nu stabileşte diligenţe pretutindeni, în locul acestor afurisite odoroage, în cari creaturele sunt tratate ca şi cînd ar suferi de indigestiune. Ia închipuiţi-vă, mă rog, că m-aş afla în o diligenţă, că o jună şi frumoasă călătoare învelită în manta sa, se aşează lîngă mine; la prima staţie îi ofer mîna mea ca să se coboare; conversaţiunea se angajează; eu devin elocinte, caii o pornesc la fugă, trăsura se răstoarnă, scap viaţa scumpei mele necunoscute, şi, drept preţul devotamentului meu, ea...</p>
+<p>O violinte zdruncinătură readuce pe Stavrache la simţimîntul realităţii. Aceasta provenea din cauză că se oprise cărucioara prea repede ca să schimbe caii, şi roatele ei întîlniseră o buturugă — întîlnire de care nu sunt de loc scutite orice fel de trăsuri, pe frumoasele noastre căi,13 şi în locul frumoasei necunoscute, căpitanul poştei, un individ gros şi gras, se izbi cu capul de stomacul eroului nostru.</p>
+<p>Acesta fu singurul incident poetic al voiajului.</p>
+          
+        <p><label>II</label></p>
+<p>Stavrache se află de două lune la Bucureşti.</p>
+<p>Amiciţiile fiind, în orice roman, un obiect de întîia necesitate, el a căutat un Pylade. Mai mulţi s-au oferit... a-l ajuta în consumaţiunea cîtorva sutişoare de galbeni cu cari el îşi garnisise fundul chimirului.</p>
+<p>Stavrache a ales unul dintre toţi.</p>
+<p>Ce inimă! ce devotament! cel dintîi s-ar omorî pentru cel de-al doilea; cel d-al doilea s-ar face praf pentru cel dinţîi.</p>
+<p>într-o zi Pylade, care lua parte nu numai la visele, dar chiar şi la camera inseparabilelui său, disparea luîns cu sine maimulte perechi de pantaloni, două duzini de cămăși, trei gheorce ale amicului său.</p>
+        <p>Stavrache surîse cu amărăciune, și amărăciunea surâsului mai că îl despăgubi de pierderea amiciției și a efectelor lui. O deziluziune șade bine eroilor de roman.</p>
+        
+              
+                  <p><label>III</label></p>
+        <p>Stavrache n-avusese încă nici o aventură galantă. - Despre asta era prea mîhnit.</p>
+        <p>Într-o seară, la teatru, el zări într-o loje.... Era ea! femeia ce o visase inima sa! și celelalte!...</p>
+        <p>Cu toate acestea, ea nu era singură; un domn o însoțea; un soț gelos sau un posomorît epitrop, fără-ndoială... Stavrache făcu din ochi c-un aer învingător și provocator:</p>
+            <p>—A învinge pe cineva fără pericul este un triumf fără glorie, cugeta el pe când se termina spectacolul. Inima-mi spune că ne-am năsvut unul pentru altul... Orice-ai fi, creatură cerească, eu jur...</p>
+            <p>Vezi, amabile lectore, pentru ca să te deslușești mai bine, restul jurământului în romanele autorilor noștri și în foiletonul Dîmboviței etc.</p>
+            <p>Și o porni, la ieșire, după aceea pe care o numea deja Beatricea sa, după acela pe care deja îl numea rivalul său.</p>
+<p>Ajungînd înaintea porţii şi după ce ea se închise, Stavrache se aşeză pe trotoriu, cu nasul în aer, cu ochii visători.</p>
+<p>— Ea mă va zări printre aluzia sa, şi poate un bilet...</p>
+<p>Nici un bilet nu veni; dar veni mai întîi o ploaie repede, apoi un sergent de noapte.</p>
+<p>Ploaia străbătu pînă la piele pe suspinătorul amorez; sergentul de noapte luîndu-1 drept un pungaş, îl pofti să-şi caute de drum.</p>
+<p>Stavrache dispreţui ploaia; cît despre sergent... <hi>să baţi paznicul</hi>, ce frumoasă fortună pentru un erou de roman. El răspunse printr-o ameninţare. Paznicul care avea pumnul ţeapăn, răspunse printr-o apucătură de păr . .. cea ce este foarte comun la noi.</p>
+<p>Stavrache petrecu noaptea la arest, si cătă să se găsească fericit că n-a făcut cunoştinţă cu Tribunalul Corecţionale.</p>
+<p>Este adevărat că el fu bolnav în pat o săptămînă din cauza guturaiului ce-i procurase ploaia citată mai sus.</p>
+            
+              
+                  <p><label>IV</label></p>
+<p>Stavrache se resculă gîrbovit, dar nu descurajat.</p>
+<p>— înaintăm! înaintăm!... repeta el cu mulţumire, numărînd în minte primele sale încercări. Să dăm o lovitură mare.</p>
+<p>Lovitura cea mare, în romanuri, este în generale, răpirea.</p>
+<p>Stavrache care, prin mijlocirea unui icosar, îşi procurase numele Beatricei sale, redase o declara-ţiune patetică pe care o traduse mai textualemente din un oarecare roman francez, în care eroul lui se afla în o poziţiune analoagă cu a eroului nostru... Declaraţiunea se termina astfel:</p>
+<p>„La miezul nopţii, o caretă va staţiona înaintea porţii grădinei... Vino! Vino!“</p>
+<p>Stavrache uitase să înlocuiască cuvîntul caretă prin birje, şi uşa grădinei prin prăvălia şepcarului; dar exaltaţiunea scuză totul.</p>
+<p>Un nou icosar îi asigură fidelitatea servitoarei sau servitorului, — nu prea ştim bine de ce sex era mijlocitorul, — care, după ce strînse acest dar voluntar, se grăbi să dea scrisoarea în mîna bărbatului.</p>
+<p>Explicaţiune, provocaţiune şi duel. Romanticul nostru personagiu, care abia avusese timp să ia cîteva lecţiuni de scrimă, merse pe tărîm cu siguranţa ce dă cuiva cunoştinţa unei 
+<hi>lovituri secrete</hi>. Lovitura secretă îi fusese descoperită de un maestru de arme care preţuise mai la cinci sute lei această scumpă descoperire.</p>
+<p>La al doilea pas, Stavrache avea braţul străpuns de colo pînă colo.</p>
+        
+              
+                  <p><label>V</label></p>
+<p>Fantaziile costă scump. Stavrache se asigură, după cicatrizarea rănii sale, că buzunarele-i erau goale de tot, Dar el avea un unchi la Bucureşti.</p>
+<p>Se duse dar drept la dînsul.</p>
+<p>— Scumpul meu unchi, aşa cum vezi, numai am nici o para. Am trăit cît se poate mai bine; am suspinat, am visat, am iubit, m-am luptat. Viu a cere să-ţi împlineşti datoriile de rudenie înaintîndu-mi cîţi-va...</p>
+            <p>Acest exordiu <foreign><hi>ex abrupto</hi></foreign>, împrumutat de la mai multe volume, nu se terminase încă, şi unchiul trăgea clopoţelul, şi arătîndu-1 pe nepotul său feciorului:</p>
+<p>— Ioane, dă afară pe dumnealui pe uşă sau pe fereastră, cum i-o plăcea.</p>
+              
+               
+               <p><label>VI</label></p>
+<p>— Dacă familia nu este decît un cuvînt van, bombăni Stavrache îndată ce se văzu în stradă, străinii vor avea fără-ndoială mai multă mărinimie.</p>
+<p>Şi el se îndreptă spre locuinţa unui cap de birou la Ministeriul de... vechi confrate şi conjudeţean al ţatălui său.</p>
+<p>— Scumpul meu domn, dumneata nu mă recunoşti? Eu sunt Cîrcescu, fiul lui Cîrcescu, ex-colegul dumitale. Tata nu mi-a lăsat vreo stare; eu âm bunăvoinţă, inteligenţă, sunt june. Binevoieşte a-mi procura un post.</p>
+<p>El văzuse într-o mulţime de scrieri prea bine scrise reuşind nişte aseminea cereri.</p>
+<p>Capul de birou îşi puse lorneta, îşi scărpină fruntea şi cu un ton leneş:</p>
+<p>— Niuni plac intriganţii. M-auzi dumneata?</p>
+            
+              <p><label>VII</label></p>
+<p>Cînd Stavrache se întoarse la domiciliul său, trei creditori îl apucară în scară.</p>
+<p>— Domnule, noi venim ...</p>
+<p>— Ce fel, mojicilor, cine v-a permis să mă opriţi în drum?</p>
+<p>— O să ne plăteşti?</p>
+<p>— Să plătesc! Pe onoarea mea, aş fi prea supărat</p>
+<p>— Refuzi dar de a plăti? ...</p>
+<p>— Propuneţi-mi îndată de a mă dezonora... Nă-tăfleţii n-au ideie de literatură, căci nu ştiu...</p><p>— Aşa dar s-a hotărît...</p>
+<p>— Fiţi mulţumiţi, obraznicilor, că nu vă arunc tocmai jos din capul scării.. .</p>
+<p>— Aşa! ... Ei- bine! eşti un hoţ; noi nu ne mai temem de cavalerii de industrie ca dumneata, şi noi am fi mai în drept să răspundem la obrăzniciile-ţi prin cîteva lovituri de baston ...</p>
+<p>Şi începură a.croi peste umeri pe bietul Stavrache, care nu ştiu cum o rupse d-a fuga în camera lui.</p>
+        
+              <p><label>VIII</label></p>
+<p><hi>Ultimele noutăţi</hi>. — Stavrache, după ce a stătut cîteva zile bolnav în casă, s-a întors cum a putut la Fefeleiu ... <foreign><hi>Quantum mutatus</hi></foreign>.</p>
+<p>Metamorfoza acum e complectă: Supuindu-se prea tîrziu realismului unui secul în care voiajurile nu mai au mistere, în care amicii pungăşesc tandreţea, în care reveriile nopturne duc la arest, şi loviturile secrete la spital, în care servitorii în fine sunt virtuoşi, unchii serioşi, protectorii indiferinţi, creditorii despotici, el a renunţat a deveni un erou de roman — şi ,s-a făcut toptagiu băcan.</p>
+          </div>
+   
+   <div type="chapter">
+    <head>VI. Întîlnirile</head>
+       <head><hi>Scenă din viața reală</hi></head>
+    <p>— Acest coafor merge așa de încet!... Amice, grăbește-te, te rog... Sunt așteptat!... Auzi, na! Iaca că mă tai...</p>
+<p>— Dec, Domnule, nu e vina mea... Vrînd să mă prea grăbesc...</p>
+<p>— Nu e vina dumitale! nu e vina dumitale!... N-ar mai lipsi decît să fi premeditat această încercare de omor... Iată-mă gata! ... Sunt silit să mă întorc acasă ca să aplic pe rană o bucată de plas-tor... Cărarea puţin mai jos... Nu atît de mult; dumneata mergi de la o extremitate la alta...</p>
+<p>— Bine este astfel?</p>
+<p>— Nu... da... e bine... Eu n-am timp. Parcă e un făcut într-adins! tocmai în ziua în care ţiu să dezvălui toate avantagiele mele... Iţi spui n-am... Ah! da, puţin cosmetic la mustăţi, ca să ascunz orecari peri cărunţi... Destul! ... Unde mi-am pus pălăria acum?... O pălărie nouă de tot... Fără-ndoială, domnul ăla care-şi tăia părul, o fi luat-o în locul pălăriii lui...</p>
+<p>— Nu te teme, domnule, noi îl cunoaştem... O va readuce înapoi...</p>
+<p>— O va readuce! ce mai lucru! ... Vezi că-mi trebuie azi!... Ou această gioarsă îmi şade rău de tot... Pe cuvîntul meu de onoare am aerul unui tîr-nuit... Rana mea sîngerează mereu ...</p>
+<p>— Sîntem mîhniţi, domnule, de astă întîmplare şi altă dată...</p>
+<p>— Puteţi fi cît aţi pofti... Pînă atunci însă...</p>
+<p>— Credeţi, domnule, că ...</p>
+<p>— Am înţeles! M-am încredinţat! Eu crez... De mă veţi mai vedea! ... Să mă taie tocmai în ziua unei prime întîlniri... Şi astă pălărie! ... Rana mă ustură grozav... Acu să aplicăm iute puţin ... Curios lucru, îmi părea că plastorul era în acest sertariu... Nu! mi-adue aminte că l-am pus la dreapta, în scrinul meu... Nu! ... L-am strîns la stînga, în secrta-riu .. îmi pierz minţile, pe cuvîntul meu! .. . Iată-l..</p>
+<p>Uf! de departe asta seamănă cu o aluniţă şi aluniţele mă prind. . . Să ne grăbim, soarele este radios, natura pare că surîde fericirii mele .. . E mai bine să sosesc întîi eu. . . această grabă o va atinge... Nu sînt ceva scrisori pentru mine, Anico?</p>
+<p>— Nu, domnule.</p>
+<p>— Nici un contraordin, sunt scăpat! .. .</p>
+<p>— Numai chiriaşul ce sade dedesubtul dumitale m-a însărcinat să-ţi vorbesc... El se plînge că cum se face ziuă începi să-ţi trînteşti mobilele, şi pretinde că dacă vei mai urma astfel, va face să fii depărtat de aci.</p>
+<p>— Depărtat, eu? cel mai vechi chiriaş al hotelului! ...</p>
+<p>— Asta i-am răspuns şi eu. Dar dumneata ştii că sunt şi oameni răi. In deşert i-am zis: „Domnule, chiriaşul deasupra dumitale este un om aşezat; dacă se scoală dimineaţa, asta o face pentru . . .</p>
+<p>— Mulţumesc, îmi vei sfîrşi vorba asta altă dată.</p>
+<p>— Ah! dar eu nu voi să te calomnieze...</p>
+<p>— Altădată, Anico, altădată! . . .</p>
+<p>In fine, iată-mă în drum. De aci pînă la Filaret, cu un aseminea timp, îmi trebuie abia o jumătate de oră. Afară din astea nu e rău să-mi dau puţină mişcare . .. Emoţiunea mea s-ar învoi rău cu imobilitatea ... Ea este aşa de gingaşă! . .. Nişte ochi, un nas, o gură! ... şi un păr! un păr pe care-1 coafează cu un gust... Eu nu sunt nicidecum bine coafat... Zării într-o oglindă afurisita gioarsă ... Şi cînd gîndiesc că am să ofer braţul meu unei asemenea silfide ca să o conduc la Circ!</p>
+<p>Cerule! capul meu de birou! ... Eu care am pretextat un violinte guturai ca să cîştig această zi de independinţă... Să ne ascundem după această poartă ca să-l lăsăm să treacă . . .</p>
+<p>Bun! se opreşte ca să citească afişurile de teatru! Aceste lucruri nu mi se-ntîmplă numai mie... El îşi caută ochelarii ca să descifreze nişte litere d-un cot de mari, şi ţin aseminea orbi în administraţiune în loc de a da postul lor la nişte amploiaţi cari, ca mine . .. Desigur, învaţă ceva pe de rost... In acest timp, ora zboară şi trage un vînt după această poartă... El se duce, mulţumim... Iată ajutorul său! ... D-or lungi-o la vorbă ... Ajutorul îi dă o scrisoare; el îşi caută din nou ochelarii... Trebuie să stau cel puţin încă 35 minute... Dumnezeu fie binecuvîntat, se depărtează citind ...</p>
+<p>Să-ndoim pasul căci de nu, vom întîrzia...</p>
+<p>Luaţi seama, nerozilor! ... zidarii ăştia sunt aşa de neîndemînatici. Au totdeauna aerul de a se freca cu premeditaţiune de hainele negre ce le întîlnesc, fără a se gîndi că varul şi ipsosul se lipesc aşa... Ii voi explica cauza acestui accident şi ea mă va ierta că m-am presintat jumătate albit... Ea are o inimă aşa de compătimitoare... Este un adevărat mărgăritariu, o femeie ca ea, şi dacă voi putea să depărtez pe ceilalţi pretendinţi cari aspiră la mîna sa, acest imeneu îmi promite toate veseliile... Ceilalţi pretendinţi! ... Mai pot oare să mă tem de ei după proba de simpatie cu care ea mă onorează?... Să mă autorizeze s-o conduc la Circ!</p>
+<p>Sau nu mă pricep, sau o asemenea mărturisire e semnificativă. Să ne arătăm dar prin îmbletul nostru demn de această preţioasă favoare.</p>
+<p>Ai? cine-şi permite să-mi dea cu bastonul în pălărie? ... Dec! tu eşti Costică? ...</p>
+<p>— Chiar eu, şi nu te mai las... Ah! domnule, cu lunele nu mai vii să-ţi vezi amicii... Te duo acasă la mine... Tu vei sta la noi toată ziua şi vei prînzi cu noi...</p>
+<p>— Iţi mulţumesc, dar e cu neputinţă. Sunt invitat...</p>
+<p>— Cel puţin nu mă vei refuza de a intra la cofetărie? ...</p>
+<p>— Medicul meu mă opreşte cu totul de a lua ceva înainte de prînz. Un violinte guturai... Hum! ... hum...</p>
+<p>— Puţin sirop de gumă nu ţi-ar face rău. Am atîtea lucruri să-ţi povestesc i..</p>
+<p>— Amicul meu... aş primi cu cea mai mare plăcere... dar, drept să-ţi spun, am o afacere, şi cum vezi...</p>
+<p>— In care parte?</p>
+<p>— Spre mahalaua <hi>Vlădica.</hi></p>
+<p>— Prea bine! te însoţesc. Tocmai vream să mă duc să văz pe unchiul meu Cristache, care locuieşte ...</p>
+<p>— Dar mai întîi sunt silit să trec pe la nenea Tănase.</p>
+<p>— Ei bine! sunt omul tău... Mătuşica mea Catinca locuieşte în acel cartier, şi îi sunt dator o vizită.</p>
+<p>— Scumpul meu, fără ceremonie, nu pot să profit de îndatoritoarea ta oferire ... O întîlnire...</p><p>— Dacă dumneata te îndoieşti de discreţiunea mea ... destul! ... nu mai insist... Adio!</p>
+<p>— Te-ai supărat oare?</p>
+<p>— Eu! ... oh! . . . nicicum! numai. . . Destul. .. Adio!</p>
+<p>— încă un inamic mai mult! Vina mea e oare? .. . Să nu ne mai gîndim la aceasta... Şi mai bine să ne gîndim la ea. Afurisitul ăsta m-a ţinut aci fără voia mea...</p>
+<p>Iată acum croitorul meu!</p>
+<p>— Domnule, preasupusul dumitale.. . Veneam la dumneata.</p>
+<p>— Ai bunătate de vină altădată... Mă grăbesc.</p>
+<p>— Dacă domnul ar putea desface socoteala... comerţul merge aşa de rău acum.</p>
+<p>— Mîine, voi vedea ... voi...</p>
+<p>— Socoteala nu prea e mare. Am să plătesc azi o datorie.</p>
+<p>— Mîine, îţi mai repet...</p>
+<p>— Cînd o fi ş-o fi, m-aş mulţumi cu un mic</p>
+<p>acont. Copilul meu cel mic este bolnav de pojar şi</p>
+<p>medicii sînt aşa de costisitori.</p>
+<p>— N-o să mă scap niciodată... Ţine, iată doi napoleoni... cît despre rest...</p>
+<p>— Iţi sunt recunoscător, foarte recunoscător.</p>
+<p>— Fii ingrat, numai lasă-mă să mă duc.</p>
+<p>Ce oră o fi, Doamne? Ah! în această prăvălie...</p>
+<p>O oră fără douăzeci... şi ea mă aşteaptă la o oră... este cu neputinţă asta... Ceasornicul ăstalalt.... unsprezece şi zece... ăsta e înapoi fără îndoială. Ast al treilea ceasornic ... trei ore şi treizecişicinci... Ast al patrulea nouă ore şi patruzeci.. . Mai cearcă-te să afli ce oră este cu ceasornicarii din Bucureşti... Dacă aş fi eu guvernul, aş decreta pedepsele cele mai aspre în contra pendulelor care înşeală publicul ... Se vede bine că cei ce fac legile n-au mers niciodată la o întîlnire ... fără ceasornic!</p>
+<p>Să alergăm cît vom putea. Este oare o iluziune?... am simţit o picătură... două! zece! Plouă al dracului... Toaleta mea... Birjar! Birjar! Nici nu vrea să se uite... Birjar! ... toţi prinşi... Birjar! Imi rîde-n nas. Sunt dar blestemat... Am observat afară de astea că la Bucureşti, cînd ai trebuinţă de trăsură nu găseşti niciodată. Birjar.. . eşti un prost; nu se stropeşte lumea în loc de a-i oferi ospitalitate. îmi pare că el mă-njură. Stai puţin! chem un sergent... Ca să mai aibă loc dezbateri, replice, poate chiar proces-verbal, şi în acest timp Circul se închide. Să răbdăm! în ce stare sunt!... pătat ca o panteră, panteră de Bucureşti, rasă necunoscută încă! Dacă m-aş cerca să intru undeva puţin pînă a trece ploaia! Iacă 0 birje. Birjar! . . . se duce...</p>
+<p>Admirabile mai este organizat serviciul trăsurilor în capitala noastră civilizată, în toate zilele ţi se-ntîmplă aşa! Să fim eroici şi să ne repezim printre vînturi şi noroaie... Ea s-o fi adăpostit undeva. Prin această stradă, cred că drumul e mai scurt... Uff! ... ce ostenit sunt! ... nu mai pot. Era timpul ca să ajung. Nimeni! ... Ea a plecat... Circul chiar s-o fi închis. Patru ore sună. Eu care mă sculasem în zori de ziuă ca să fiu mai sigur de exactitudinea mea! ...</p>
+<p>O rază străbate norii. O ironie! Soarele!...</p>
+<p>Trei birjari, slobozi.</p>
+<p>— Mergem, domnule?</p>
+<p>— Şi trăsuri!! . . . </p></div>
+          
+   <div type="chapter">
+    <head>VII. SĂPTĂMÎNA UNEI INIME</head>
+       <head><hi>Roman epistolar</hi></head>
+       
+           <p>LUNI</p>
+    <p><hi>Baroana Caracarini către d-l State Paralîu</hi></p>
+    <p>Domnule,</p>
+<p>Dumneata te înșeli. Scrisoarea dumitate a crezut a se adresa unei femei din acele cari se găsesc prea des în Bucureşti, vai! unei din acele femei cari.. . Permite-mi, domnule, să nu zic mai mult.</p>
+<p>Deja la balul Slătineanului unde o curiozitate, de care voi roşi toată viaţa mea, mă împinsese ieri seară, văzusem şi băgasem de seamă, cu o justă indignaţiune, insistenţa ce puneai de a mă urmări.</p>
+<p>Văduva unui onorabile colonel italian, mort din cauza unei răni ce a primit luptîndu-se pentru cauza sacră, am închinat acestei memorii un cult ce nu se va fini decît cu zilele mele, şi de aceea m-am retras în Bucureşti, ca să pot, necunoscută de nimeni, a mă da cu totul durerii mele.</p>
+<p>Cu toate acestea, domnule, în calitatea dumitale de străin care nu cunoşti particularităţile vieţei mele, cată să-ţi iert inconvenienţa purtării dumitale. Voi fi fericită chiar de a şti că te .căleşti de chipul neruşinat cu care mi-ai oferit inima dumitale şi că lecţiunea ţi-a profitat.</p>
+<p>Primeşte, domnule etc.</p>
+
+       
+           <p>MARŢI</p>
+<p><hi>De la aceeaşi către acelaşi</hi></p>
+<p>Domnule,</p>
+<p>Tot păcatul se iartă, zice proverbul. Eu nu voi să fiu mai nemiloasă decît înţelepciunea naţiunilor.</p>
+    <p><foreign><hi>Mea culpa</hi></foreign> a dumitale este făcută cu atîta spirit, căinţa dumitale pare aşa de profundă încît nu mă mai simt în putere de a fi supărată pe dumneata.</p>
+<p>Aş fi ghicit, numai după stilul celei de-a doua scrisori a dumitale, calităţile de om cu stare şi nobile pe care mi le-ai ascuns în cea dîntîi.</p>
+<p>Dacă intenţiunea mea ar fi de a mă remărita, ţi-aş zice poate: Domnule, vino să mă vezi, te voi primi cu plăcere.</p>
+<p>Dar lasă că nu ştiu dacă eşti dispus să renunţi la flăcăie, apoi şi eu din parte-mi am jurat să nu mai formez un alt legămînt.</p>
+<p>Am fost prea fericită cu răposatul colonel, mort din cauza unei răni ce a primit luptîndu-se pentru cauza sacră, ca să mai încerc pentru a doua oară experiinţa căsătoriei.</p>
+<p>Trebuie să mai ştii că numai calităţile mele morale şi oarecum şi cele fizice m-au făcut să mă mărit după răposatul fără zestre ...</p>
+<p>Dar iartă-mi aceste confidenţe, domnule. Cată să le opresc, căci am zis destul ca să-ţi probez că mi-e cu neputinţă de a te priimi.</p>
+<p>Adio!</p>
+   
+       <p>MIERCURI</p>
+<p><hi>De la aceeaşi către acelaşi</hi></p>
+<p>Oh! ce fatalitate m-a împins la Slătineanu, în seara în care te-am întîlnit acolo. După scrisoarea mea de ieri, speram că vei priimi acel adio definitiv şi că-mi voi relua viaţa mea liniştită, un minut turburată.</p>
+<p>Dumneata ai voit într-alt fel, asta e rău din par-te-ţi, domnule!</p>
+<p>Ce! cu toate cele ce ţi-am zis, dumneata stăruieşti să soliciţi de la mine o întrevedere! Cugeţi oare? Lumea, cuviinţele!</p>
+<p>Eu care n-am priimit pe nimeni de la moartea soţului meu, mort din cauza unei răni despre care ţi-am mai vorbit.</p>
+<p>Şi cu toate acestea, sunt fericită de a-mi mărturisi eu însumi, tonul asa de adevărat, aşa de loial al scrisorii dumitale m-a mişcat fără voie-mi.</p>
+<p>Uite! pentru că mă juri, îţi voi acorda, domnule, acel minut de întrevedere, solicitat cu atîta umilinţă</p>
+<p>Mîine, joi, te voi aştepta la două ore.</p>
+<p>Dar îmi juri că nu vei mai reveni şi că vei pleca îndată la Alexandria, oraşul dumitale natale, după cum mi-ai spus.</p>
+       
+       
+<p>JOI</p>
+<p><hi>De la aceeaşi către acelaşi.</hi></p>
+<p>O, State, pentru ce te-am priimit?</p>
+<p>Acum după ce te-am văzut, după ce am vorbit cu tine, simţ bine că rau voi mai uita.</p>
+<p>Afară din acestea, cu toate că eu te-am oprit, tu mi-ai zis că vei reveni mîine!</p>
+<p>Nu, amicul meu, crede-mă; noi nu trebuie, noi nu putem să ne mai vedem.</p>
+    <p>Cînd soţul meu muri din cauzele unei răni ce a priimit pentru cauza sacră! el mă lăsă într-o poziţiuna de avere modestă... Dumneata, din contră, eşti avut..</p>
+<p>Nu mai am curagiul să urmez ...</p>
+<p>Mîine, pentru că trebuie încă o dată să te revăz mă voi sili să am curajul de a-ţi termina această confidinţă care va fi cea din urmă pagină a unui roman abia început şi finit.</p>
+<p>Pe mîine!</p>
+       
+       <p>VINERI</p>
+<p><hi>De la aceeaşi către acelaşi.</hi></p>
+<p>State, State, inima ta este aşa de nobile încît n-am putut refuza ceea ce-mi ofereai cu atîta delicateţe.</p>
+<p>Eu! eu văduva unui colonel mort pentru cauza sacră, am priimit! ... Şi n-am fost acoperită de umilinţă!</p>
+<p>Dar privirea ta era aşa de dulce; vocea ta aşa de tandră plîngînd nefericirile mele.</p>
+<p>Şi apoi, ca să ies de braţ cu tine cam căta...</p>
+<p>Mîine, este ziua, amice, tu ştii, în care avem să mergem la Băneasa. Nu uita şalul pe care voi fi aşa de fericită ca să-l pui întîia oară cu tine.</p>
+<p>Fericită! ... acest cuvînt e nedemn de mîndria mea, dar ce vrei tu? te iubesc.</p>
+<p>Nu uita şalul înaintea prînzului.</p>
+       
+       
+<p>SÎMBĂTA</p>
+<p><hi>De la aceeaşi către acelaşi.</hi></p>
+<p>Domnule,</p>
+<p>Fără-ndoială dumneata ai pretins să mă umileşti oferindu-mi ticălosul ăla de tartan ce mi s-a adus azi dimineaţă din partea dumitale.</p>
+<p>Un tartan mie, văduva unui colonel mort.. . Nu mai este trebuinţă, domnule, ca să-ţi aduc aminte aci, nişte titluri pe cari dumneata le-ai nesocotit şi ultragiat.</p>
+<p>Binevoieşte numai ]nceta de acum înainte de a mai veni la mine.</p>
+<p>La ori ce oră din zi de te vei prezintă, uşa mea îţi va fi fără milă închisă.</p>
+<p>Afară de asta, greşeala este a mea. Sunt foarte crud pedepsită, dar am meritat-o!</p>
+<p>încă odată, domnule, adio şi adio definitiv.</p>
+<p>P.S. — Aveam intenţiunea să-ţi înapoiez tartanul, dar aş fi fost, dacă servitorul meu ar fi desfăcut pachetul, umilită, încît am preferit să-l dau mai bine slujnicei mele.</p>
+       
+       
+<p>DUMINICA</p>
+<p><hi>De la aceeaşi către un altul</hi>,</p>
+<p>Dragă Grigoraş,</p>
+<p>Vino de mă ia la nouă ore. Vom merge la Zamfir să mîncăm.</p>
+<p>Afurisitul de provinţial nu era decît un nerod. O să crezi tu, de-ţi voi spune, că a avut îndrăzneala să-mi trimită un tartan......prost mie care-l încredinţasem că sunt văduva unui colonel italian mort pentru cauza sacră!</p>
+<p>Dar îţi voi povesti întîmplarea aceasta în curînd.</p>
+    <p>Pune-ţi pantalonii cei cenuşii care-ţi vin aşa de bine.</p>
+    <p>A ta pentru totdeauna,</p>
+    <p>Sița</p>
+   </div>
+          
+<div type="chapter">
+ <head>VIII. POPICĂ ȘI LĂZĂRICĂ</head>
+    <head><hi>—Scenă intimă—</hi></head>
+ 
+    
+        <p>ÎNTÎIUL TABLOU</p>
+ <p>Popică și Lăzărică, o pereche de amici, stau înaintea unei mese la Rașca.</p>
+ <p>Amândoi consumatorii par foarte predispuși pentru emoțiune.</p>
+ <p>Tonul dialigului lor a ajuns la niște așa sonorități, încât publicul prinprejur e chemat a se bucura gratis de farmecul întrevorbirii lor.</p>
+ <p><hi>Popică</hi></p>
+ <p>În sănătatea ta!... Să fie de bine! Niște amici ca noi! Dacă am lua un miș-maș.</p>
+ <p><hi>Lăzărică</hi></p>
+ <p>Nu, mulțumim... Trebuie să mă întorc. Știi că ți-am spus</p>
+ <p><hi>Popică</hi></p>
+ <p>Așa, da. Mărturisește mai bine că ți-e frică de nevastă-ta.</p>
+ <p><hi>Lăzărică</hi></p>
+ <p>(umflndu-se cu o mîndrie bărbătească)</p>
+<p>— Frică de nevastă-mea, mie! mi-e frică?...</p>
+<p>— Şi ce lucru de mirare iţi pare una ca aceasta, mai cu seamă că ea este cam rea!</p>
+<p>— Atunci dar eu nu sunt un om?</p>
+<p>— Ascultă, nu voi şă vorbesc, dar soţia ta nu mai prea face haz... în fine, destul. Ţie-ţi pare altfel, tu nu vrei să o contrariezi. Tu eşti în dreptul tău.</p>
+<p>— Popică, noi suntem amici, nu e aşa?... Şi tu crezi că voi renega vre-odată amiciţia pentru____</p>
+<p>— Cine mai ştie? Tot ce este sigur, este că tu refuzi miş-maşul meu. Eu, vezi, în jocul tău, puţin mi-ar păsa de soţia mea... fiecare cu caracterul său.</p>
+<p>— Şi eu n-am dar caracter?</p>
+<p>— Ce ştii!</p>
+ <p><hi>Lăzărică,</hi></p>
+<p>(cu o voce tunătoare)</p>
+<p>— Ah! eu nu am!... Băiete! băiete!! băiete!!!... Un miş-maş! două mişmaşuri!</p>
+<p> <hi>Popică </hi>(cu perfidie)</p>
+<p>— Tu o să te bolnăveşti. Nu, băiete!</p>
+<p>— Băiete! m-ai auzit?</p>
+<p>— Vezi tu, Lăzărică, eu n-aş voi pentru orice măcar să fiu o cauză de zîzanii în casa ta.</p>
+<p>— Tu!... amicul meu!... singurul meu amic!... în sănătatea ta!</p>
+<p>(EI CIOCNESC)</p>
+    
+    <p>AL DOILEA TABLOU 
+<hi>Popică</hi></p>
+<p>(golind ultimul său pahar)</p>
+<p>Ciudat lucru! tu eşti ca şi mine!</p>
+ <p><hi>Lăzărică</hi></p>
+<p>Pentru că noi nu facem decît umili Dă-mi mîtta ta.</p>
+<p>— Ţine-o!</p>
+<p>— Tu ştii; este pe viaţă, pe...</p>
+<p>— Nici măi e vorbă... Numai eşti şi tu ca mine?...</p>
+<p>— Mai dă-mi mina, să-ţi repetez.</p>
+<p>— Nici că mai e vorbă... Cu toate acestea, asta este un efect ciudat. Cu cit beau mai mult, cu atît gimţ mai multe grade de stele la termometrul stomacului meu... Dacă am mai cere un miş-maş.</p>
+<p>— Nu! mulţumim! m-am săturat.</p>
+<p>— Ai cuvînt... Mă iartă... eu nu mă gîndeam la nevasta ta.</p>
+<p>— Iar!</p>
+<p>— într-asta nu este nici o ruşine... Dacă cineva este legat cu asemenea legăture, cată să se supuie.</p>
+<p>— Află că nu m-am supus niciodată nimănui.</p>
+<p>— Cineva-şi închipuieşte d-alde astea, şi ca să schimbe... In sfîrşit, aş face poate şi eu tot aşa dacă aş avea o soţie ca a ta!... Ea nu te-a bătut niciodată?</p>
+<p>— Ce să facă!... Popică! tu eşti un adevărat amic, idar dacă mi-ar zice altul aseminea parascovenii, i-aş face capul în patru cu o lovitură de...</p>
+<p>— Nu e de trebuinţă să strigi atît... să nu mal ivorbim despre asta... şi nici despre miş-maş... pentru că cînd este în cele din urmă...</p>
+<p>— In cele din urmă de ce?</p>
+<p>— Iţi repet că tu faci bine... cu o femeie zdra-,-vănă ca nevasta ta...</p>
+<p>— Ah! aşa o iei!... Băiete! La dracu!... Băiete!.., Două mişmaşuri!</p>
+<p>— Prostii! ca să te căieşti în urmă.</p>
+<p>— Că...! !</p>
+<p>— Tăria de caracter vine din natură, sau nu?...</p>
+<p>— Negreşit! ... negreşit! ... Şi vom arăta-o celor ce s-ar îndoi ... în sănătatea ta!</p>
+<p>— Nici că mai e vorbă... Ce infamie! cum pun apă în vin acum... In sănătatea nevestei tale.</p>
+<p>— Da, şi s-o-npingă păcatele numai!...</p>
+<p>(Ei docnesc)]</p>
+    
+    <p>AL TREILEA TABLOU</p>
+<p>După mai multe ediţiuni de aceeaşi manoperă, Popică şi Lăzăricâ au ieşit tare aprinşi şi şovăind din grădină.</p>
+<p>Amîndoi, intimi, merg pe stradă.</p>
+<p><hi>Popică</hi></p>
+<p>Aşai dacă nevasta ta ...</p>
+ <p><hi>Lăzărică</hi></p>
+<p>— Dar o fac praf, o pisez... Mă desparţ de ea!...</p>
+<p>— Nid că mai e vorbă... numai ce-i vei răspunde idacă ea îţi va zice... G supoziţiune!. ..</p>
+<p>— li voi răspunde... îi voi... Dar numai d-o vorbi puţin mai tare, şi pui foc casei. Eu ... eu... eu...</p>
+<p>— Nici că mai e vorbă... Numai aş fi mulţumit să văz... pentru că demnitatea omului...</p>
+<p>— Tu ai cuvînt... Demnitatea amicilor noştri este amica noastră precum amicii demnităţii noastre sunt..,</p>
+<p>(Ei dau într-un hop)</p>
+ 
+    <p>AL PATRULEA TABLOU </p>
+ <p>Se apropie de casa lui Lăzăricâ.</p>
+<p><hi>Popică</hi></p>
+<p>— Pentru ce te-ai întristat!.</p>
+ <p><hi>Lăzărică</hi></p>
+<p>— Iaca-aşia... Mă gîndesc.</p>
+<p>— Te gîndeşti la nevasta-ta!</p>
+<p>— Şi-apoi cînd ar fi chiar aşa!</p>
+<p>— Eram sigur!... Tu iar vei ceda.</p>
+<p>— Nu voi ceda. .. Dar cineva poale cerca cu binele. . .</p>
+<p>— Nici că mai e vorbă... Dă-i în genuchi.</p>
+<p>— Fără să-i dau în genuchi... Suni mijloace încredinţătoare cu care omul care....</p>
+<p>— Destul... vom vedea.</p>
+<p>— Ei bine... da, vom vedea... Am ajuns acasă... Popică.</p>
+<p>— Apoi?</p>
+<p>— Urcă-te tu întîi, te rog.</p>
+
+    <p>AL CINCILEA TABLOU </p>
+ <p>Acasă la Lăzărieă.</p>
+<p>Soţia sa năvălind asupră-le cu un torent de apostrofe.</p>
+<p>— Ah! tu eşti... nemernicule... beţivule!... monstrule!. ..</p>
+<p><hi>Popică</hi></p>
+<p>(încet)</p>
+<p>Aidea de!</p>
+<p><hi>Lăzărică</hi></p>
+<p>Drăguţă, tu ai...</p>
+<p><hi>Soţia</hi></p>
+<p>Nu-mi zice nemic, sau îţi scoţ ochii.</p>
+<p><hi>Popică</hi></p>
+<p>(încet)</p>
+<p>Aida, de!</p>
+<p><hi>Soţia</hi></p>
+<p>Uite ce sunt cunoştinţele proaste... Oameni fără căpătîi cari tîrăsc pe proştii ca tine!...</p>
+<p><hi>Popică</hi></p>
+<p>(încet)</p>
+<p>Aidi de!</p>
+<p><hi>Lăzărică.</hi></p>
+<p>Pentru asta, drăguţă, tu ai cuvînt. Greşala este a lui Popică... el nu este un om cu care să ai a face. Dă-l pe uşă afară, şi îmbrăţişează-mă!...</p>
+</div>
+          
+   <div type="chapter">
+    <head>IX.ŞUVIŢA UE PĂR</head>
+<head> <hi>(Roman realist)</hi></head>
+       
+           <p>Ea era frumoasă de nebunie.</p>
+<p>Avea douăzecişipatru de ani.</p>
+<p>Răspundea la dulcele nume de Luluţa.</p>
+<p>Locuia în strada Franceză.</p>
+<p>Eu, eram atunci naiv, şi credul, şi romanesc, doamne păzeşte! Ferice timp care n-are să se mai întoarcă vreodată!</p>
+<p>Prin asta voi să vă spui că o iubeam cum iubeşte cineva numai odată — sau de două ori, — sau de trei ori cel mult.</p>
+<p>Luluţa mea!</p>
+<p>Cînd pronunţam acest nume, era un mare concert In inima mea şi o năpraznică simfonie pe buzele mele.</p>
+<p>Luluţa mea!</p>
+<p>Eu am cunoscut-o într-o diligenţă, întorcîndu-mă 4e la Elopatac. Da, într-o diligenţă. Ea era singură rs ,cu mine şi cu o bătrînă bunică a ei, şi, printr-o pan-(tomimă de o delicioasă timiditate, mă lăsa să ghicesc că ea mă lua drept nu ştiu care craidon.</p>
+<p>Eu riscai, ca să mă disculp, cîteva fraze de o înşînuitoare politeţe. Ea ascultă.</p>
+<p>Cînd diligenţa sosi în Bucureşti eu şi reuşisem... căpăta o întîlnire.</p>
+<p>Dar de ce să deştept oare aste triste suveniri? Amicii mei, turnaţi-mi un pahar de Drăgăşani!</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+       
+       <p>Vă spuneam dar că o cunoscusem pe drumul Braşovului, nu mai ţin minte aproape de ce sat, dar mă iertaţi că am uitat această particularitate.</p>
+<p>Am observat în adevăr că numai drumul Braşovului e fecund în întîmplări, şi Băile de la Elopatac (deşi n-am avut onoarea, nici fericirea de a vizita altele, sunt centrul reuniunii a tot ce este, în ambele şexe, mai spirituale, mai ales şi mai frumos! Elopatac! şuvenire palpitîndă, tremurîndă şi zdruncinătoare a liniştii inimioarei mele!</p>
+<p>Eu, pe sufletul meu, mă duc în toţi anii la Elopatac.</p>
+<p>Asupra acestora, permiteţi-mi să închiz paranteza şi să re viu la subiectul meu.</p>
+<p>Noi ne adoram precum ştiţi; luna de miere înădise intenţiunile noastre.</p>
+<p>Toate astea ţineau de trei săptămîne.</p>
+<p>Dar de ce să deştept oare aste triste suvenir!?... Amicii mei, turnaţi-mi un pahar de Odobeşti!</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+       
+       
+           <p>Voi să vă scutesc de nişte amănunte trîndave.</p>
+<p>Toţi amorezaţii vă persecută cu confidinţele lor, nu e aşa? Eu urăsc persecuţiunea.</p>
+<p>Aşa dar, nu vă voi spune nici carmenii ei, nici fericirile noastre. Ce de pagini ar umple enumeraţiunea lor. Numai între toate aceste atracţii era una, dar fatale! — care mă fascinase, mă îmbătase, mă răpise, mă zdruncinase, mă ameţise.</p>
+<p>Această atractiune era părul ei. dar un păr!. .. Blondul Phoebus, palida Diariă, şi ambele divinităţi de ambele sexe ale tuturor cerurilor şi mitologiilor celor mai diferite nu v-ar fi putut da decît o slabă ideie despre dînsa!</p>
+<p>Cînd petreceai mina pe cosiţele-i mătăsoase, <hi>încercai</hi> senzaţiunea mătăsii unită cu a catifelei —, plus o comoţiune electrică.</p>
+<p>Cît despre culoare, toţi pictorii noştri, începînd de la Aman pînă la Nae Pantelimonescu, în cei mai frumoşi timpi ai lor, şi-ar fi sfărîmat paleta lor de necaz.</p>
+<p>Părul acestui cap scump scormonea nencetat pă-reţii creerilor capului meu.</p>
+<p>Dar de ce să deştept oare aste triste suveniri?. . . Amicii mei, turnaţi-mi un pahar de Cotnar.</p>
+
+       <milestone rend="dots" unit="subchapter"/>
+
+       
+           <p>Şi tot astfel că într-o zi, — ba nu, într-o dimineaţă, — după ce m-am fost îndoit mult timp pînă să risc <hi>io</hi> cerere aşa de cutezătoare, eu mă riscai gîngănind.</p>
+<p>— Scumpa mea micuţă. ..</p>
+<p>— Ce ai tu, scumpul meu?</p>
+<p>— Ce am, cată să-ţi spui?</p>
+<p>— Mi-e teamă că poate te vei supăra de cererea mea?</p>
+<p>— Eu să mă supăr. .. Dacă-ţi pot face plăcere, ,tu ştii bine că sunt gata să fac ce vei dori tu. Ei! bine, căţeluşul meu.</p>
+<p>Căţeluşul său!</p>
+<p>Eu nu mai stătui la îndoială.</p>
+<p>— Scumpa mea micuţă, tu ai un păr de sultană favorită, — care ar avea un păr minunat.</p>
+<p>— Tu ştii că nu-mi plac complimentele.</p>
+<p>— Ceea ce nu te opreşte ca să ţii prea mult la părul tău.</p>
+<p>— Pentru tine... ca să-ţi plac.</p>
+<p>— Pentru mine. .. Aşadar tu nu-mi vei refuza...</p>
+<p>— Ce? </p>
+<p>— De a mă lăsa să tai o şuviţă din el.</p>
+<p>Dar de ce să deştept oare aste triste suveniri?... Amicii mei, turnaţi-mi puţin bordo.</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+        
+       
+           <p>Aşteptam răspunsul şi-mi zvîcnea pieptul. Tremuram ca să nu fie cumva un refuz.</p>
+<p>— Asta e dar acel sacrificiu aşa de spăimîntător?... Copile, care crezi că te iubesc atît de puţin incit să nu-ţi acord o aşa de mică probă de amor.</p>
+<p>Da, Domnule îndoios, vei avea această şuviţă, şi, ceva mai mult —, o voi duce eu însumi la un ceapra-zar care va face dintr-însa o gingaşă cifră unind amîndouă iniţialele noastre.</p>
+<p>— Oh! mulţumim!</p>
+<p>— Eşti mulţumit, ingrate?</p>
+<p>— Dacă sunt mulţumit!... dar vroi să zic că...</p>
+<p>— Mai mult ceva; mîine dimineaţă, — ca să nu mă despletesc acum —, o voi tăia cu mina mea*</p>
+<p>— Da, drăguţă, da, adorata mea... Numai, recomandă ceaprazarului să se grăbească.</p>
+<p>— Fii liniştit.</p>
+<p>Eram radios, palpitam.</p>
+<p>In acea seară, tot ce putui face mai puţin fu de a trămite Luluţei o pereche de cercei de diamant.</p>
+<p>Dar, de ce să deştept oare aste triste suveniri?... Amicii mei, turnaţi-mi un pahar de vin chihlimbariu!</p>
+
+       <milestone rend="dots" unit="subchapter"/>
+    
+       
+           <p>Trei zile trecură... Un secul!</p>
+<p>In fiecare dimineaţă speram să găsesc la Lulufa tezaurul promis.</p>
+<p>în fine a patra zi, tocmai cînd intrai:</p>
+<p>— Şezi colea, domnule.</p>
+<p>— Iată-mă, frumoasa mea.</p>
+<p>— Pleacă-te.</p>
+<p>— M-am plecat.</p>
+<p>— Te fac cavaler al Amorului şi-ţi pui la gît insignele ordinului meu.</p>
+<p>Medalionul meu cu şuviţa de păr.</p>
+<p>— Chiar el.</p>
+<p>— Dar este admirabile! Ce bine e lucrat părul ăsta!... Numai buclele tale se pot încreţi în aşa de fine împletituri... Şi această nuanţă pe care aş recunoaşte-o dintr-o sută de mii altele... Ce zic! nu poate să existe două aseminea nuanţe pe suprafaţa globului civilizat!</p>
+<p>— Aşadar eşti mulţumit?</p>
+<p>— In paradis!</p>
+<p>In acea seară — eu îi eram dator această mulţumire —, trămisei Luluţii un şal.</p>
+<p>Dar de ce să deştept oare aste triste suveniri?. .. Amicii mei, turnaţi-mi un pahar de volnay.</p>
+    
+       <milestone rend="dots" unit="subchapter"/>
+    
+       <p>Sunt nişte minute în viaţă în cari cuiva nu-i vine a crede că inima se poate zdrobi vreodată.</p>
+<p>Eu străbăteam unul din acele minute.</p>
+<p>Mă-ntorsesem acasă cu preţiosul meu gaj de dragoste. Şi — lucru care îi însutise preţul — ea-mi jurase că eram întîia fiinţă vie după pămînt, căria a consimţit să-i dea ea un asemenea odor.</p>
+<p>Mă aşezasem lingă foc.</p>
+<p>Singur, dar nu solitar, pentru că acest medalion ¡mi-o amintea pe dînsa, întorceam şi reîntorceam acest talisman. îl acopeream cu sărutări arzătoare.</p>
+<p>Nu mă puteam sătura de această contemplaţiune ¡mută.</p>
+<p>O lume-ntreagă de cugetări se deştepta ca să o privească. Bevedeam trecutul drumul Braşovului, di-ligenţa, Elopatacul şi celelalte.</p>
+<p>întrevedeam viitorul: fidelitate pe viaţă, amor inalterabile — şi ceea ce urmează după acestea.</p><p>Dar de ce să deştept oare aste triste suveniri?. .. Amicii mei, turnaţi-mi un pahar de pelin. ..</p>
+       
+       <milestone rend="dots" unit="subchapter"/>
+       
+       <p>Cîteva zile după aceasta, ea se bolnăvi.</p>
+<p>O indispoziţiune uşoară, dar amorul se teme de orice.</p>
+<p>Fără se zic ceva luai preţiosul medalion şi mă dusei la un amic al meu doctor-magnetizor care avea în casă la el o somnambulă extra-lucidă.</p>
+<p>— Amicul meu, viu să te consult în privinţa sănătăţii unei persoane care mi-este scumpă.</p>
+<p>Doctorul luă medalionul, îl dete în mîna somnambulei sale, care îl pipăi şi îmi zise cu mînie:</p>
+<p>— îţi baţi joc, domnule?</p>
+<p>Această şuviţă este de păr de iepure</p>
+<p>Ea s-a cumpărat aşa împletită, de la un oarecare neguţător care ţine aseminea lucruri gata pentru cadourile de inimă întrebuinţate de oarecari femei...</p>
+<p>— Maledicţiune! strigai eu luînd-o la fugă.</p>
+<p>în acea seară îi trămisei pe fecior să-mi înapoieze foarfecile de argint ce le cumpărasem într-adins pentru acest serviciu.</p>
+    <p>Dar de ce să deştept oare aste triste suvenir!?... Amicii mei, turnaţi-mi cît de multă şampanie.</p>
+   </div>
+   
+   <div type="chapter">
+<head>X.POEMA FLANELEI</head>
+       
+           <p><label>I.</label></p>
+<p>in adevăr, ea este o preţioasă materie!</p>
+<p>Dulce, moale, şi mlădioasă, tot atît de bună predt şi frumoasă, — cu nişte fineţe incomparabili şi cu nişte gîdelituri rencălzitoare.</p>
+<p>In adevăr, ea este o preţioasă materie!</p>
+<p>Nu ştiu cine a inventat-o, — căci altmintrelea aş propune îndată de a se ridica o statuie acestui binefăcător al omenirii.</p>
+<p>Astăzi mai cu seamă cînd se ridică statuie apropo-;zito de tot — şi de nimic — nu vorbim de noi, — unor celebrităţi pe care nici dracul nu le-ar recunoaşte.</p>
+<p>După ce s-a apoteozat atîţia indivizi cari — sub pretext de glorie — au lucrat la destrucţiunea umanităţii, n-ar fi oare drept, odată din întîmplare, să se orneze c-un piedestal memoria aceluia care n-a lucrat decît pentru prezervaţiunea noastră?</p>
+<p>Căci inventatorul flanelei cată să fi fost un mare filantrop, răspund eu. Dacă n-o fi fost vre-un neguţător peşicher, care-şi cunoaştea bine interesele.</p>
+<p>Dar nu mă pot opri, chiar aşa fiind, să nu strig:</p>
+<p>Glorie lui!</p>
+<p>Şi pentru că mulţumirea de a-l cînta îmi este interzisă, eu voi cînta productul său.</p>
+<p>în adevăr, ea este o preţioasă materie!</p>
+<p>Dulce, moale şi mlădioasă, tot atît de bună pre cît şi frumoasă — cu nişte fineţe incomparabili şi cu nişte gîdelituri re-ncălzitoare!...</p>
+
+       
+           <p><label>II</label></p>
+<p>Din ce cauză s-a legat un ridicul din această amică a omului?</p>
+<p>Din cauză că lucrul folositor este totdeauna aci în lume victima lucrului de nemic.</p>
+<p>Şi apoi, fie zis între noi, eu bănuiesc că medicii au făcut să sune în socoteala eroinei mele tot felul de zgomote rău voitoare.</p>
+<p>Nu este oare naturale să fi fost aci rivalitate şi gelozie?</p>
+       <p>Flanela veghează la salutul speciei noastre, — medicii nu fac tocmai tot acest lucru.</p>
+<p>Astfel ei au înţeles concurinţa ce li se făcea.</p>
+<p>Cu dînsa s-a şters dintre oameni micele răceli, junghiurile anodine, pneumoniele lucrative, astmele productive, drăgălaşele de oftice etc.</p>
+<p>Şi cu pierderea totor acestor mici boale, au început să slăbească şi să se deşire şi buzunarele iubiţilor medici.</p>
+<p>Iată pentru ce au căutat ei să omoare flanela prin ironie.</p>
+<p>Nu-i ascultaţi, ei mint, fleoncănesc!</p>
+<p>Lor le lipseşte bunul simţ — sau, cel mai puţin, eîţiva sfanţi ca să-şi cumpere acest obiect de care îşi bat joc.</p>
+    
+       
+           <p><label>III</label></p>
+<p>Oh! imensele serviciuri ce a făcut ea societăţii, — această flanelă necunoscută.</p>
+<p>Sunt aşa de numeroase cazurile în cari intervine binefăcătoarea ei protecţiune!</p>
+<p>Ora întîlnirii a sunat!</p>
+<p>Un importun care fe-a oprit în drum pe trotoar ie-a făcut să întîrzii.</p>
+<p>Ea o să se impacienteze, să te certe — să plece poate.</p>
+<p>La galop! la galop dar!</p>
+<p>Străbaţi fără a te opri stradele şi pieţele.</p>
+<p>Fericire!</p>
+<p>Ea este încă acolo!... sub arborii Cişmigiului sau grădinei Kiseleff;</p>
+<p>Şi cu tot vîntul ce suflă, poţi fi amabil, înduplecător, însînuitor.</p>
+<p>Poţi pleda circumstanţele atenuante ale întîrzierii dumitale, să desfăşiori spiritul şi inima dumitale!</p>
+<p>Flanela care e acolea nu te lasă să te îngrijeşti de .corente de aer... 
+ <foreign><hi>In hoc signo vinces</hi></foreign>...</p>
+<p>Un om care se bolnăveşte de guturai în mijlocul unei declaraţiuni, putea-va fi luat vreodată în serios?</p>
+    
+       
+           <p><label>IV</label></p>
+<p>Fără să numeri celelalte mii de circumstanţe ale ivieţii.</p>
+<p>Tot graţie ei poţi înfrunta dumneata în curs de opt ore sufocaţiunile dramelor de la teatrul naţionale.</p>
+<p>Dacă ea n-are putere să prezerve moralul, cel puţin, după ce s-a terminat, ea-ţi garantează fizicul. Pentru că această existinţă este o cursă, să alergăm, fraţilor.</p>
+<p>La drum, solicitatorilor de anticamere, cerşetorilor de posturi, gonacilor de milioane. . .</p>
+<p>La drum.. .</p>
+<p>Şi flanela să vă proteagă în contra variaţiunilor timpului şi a oamenilor!</p>
+       
+       
+           <p><label>V</label></p>
+<p>Dar pînă aci abia am atins subiectul meu.</p>
+<p>Abia am arătat cîteva din virtuţile acestei necunoscute şi demne de interes.</p>
+<p>Eu eram de opt ani. Amorul matern veghia lîngă mine.</p>
+<p>Fericită etate!</p>
+<p>Şi amorul matern îmi zicea ne-nceatat: Mititelule! Mai cu seamă ia bine aminte...</p>
+<p>— Ba!</p>
+<p>— Nu-ţi scoate flanelul.</p>
+<p>— Mi s-a urît cu ea!</p>
+<p>— E vorba de binele tău, răutăciosule copil.</p>
+<p>— Puff!... ce mai lucru!</p>
+<p>— Taci, eu îţi ordin...</p>
+<p>Şi asupra acestor nu sărut îndulcea rigoare ultimatului.</p>
+       
+       
+           <p><label>VI</label></p>
+<p>Mai tîrziu aveam douăzeci de ani.</p>
+<p>Amorul îşi schimbă numele.</p>
+<p>Gel puţin îmi închipuiam atunci că era amor...</p>
+<p>Vesele cine, danţuri despletie, Momulu, Conduri şi proastă companie!</p>
+<p>Avui amante.</p>
+<p>De acele ce se numesc <hi>fete-bune</hi> —, prin antifrază, dacă nu mă-nşel.</p>
+    <p>Cea dintîi — cu una sau două zile mai înaintea capitulaţiunii sale, îmi făcea <foreign>vis-à-vis</foreign> într-un cadril —, cadril cam furtunos, aşa de furtunos încît gesticulînd, vîrful mînicei se văzu.. . Mînica flanelei ce-mi cumpărase mama. ..</p>
+<p>— Ce fel! exclamă zîna visurilor mele, tu porţi flanelă?</p>
+<p>— Dec! zisei eu cu naivitate.</p>
+<p>— Oh! ce anost lucru. Nu se poate să nu te mai înfăţişezi înainte-mi în halul ăsta.</p>
+<p>— Vezi că mama mi-a zis că mi-aş face un mare rău dacă aş...</p>
+<p>— Şi apoi?... Ce mai pagubă!</p>
+<p>îndată, cu tot amorul meu propriu, mă supusei.</p>
+       
+       
+           <p><label>VII</label></p>
+<p>Toate amantele mele pînă la patruzeci de ani votară jsuccesivemente în contra flanelei.</p>
+           
+         
+           <p><label>VIII</label></p>
+<p>La patruzecişidoi de ani mă însurai.</p>
+<p>O femeie încîntătoare!</p>
+<p>Regulă generale: cînd cineva se însoară îşi găseşte »totdeauna pe femeia sa încîntătoare, sau dacă n-o găseşte astfel o spune cu atît mai tare ca să fie crezut de ceialţi.</p>
+<p>Şi ea mă iubea, domnule!</p>
+<p>Da, mă iubea...</p>
+<p>Doreşti o probă?</p>
+<p>îndată —, fără ca eu să fi avut nici chiar timpul jSă mă gîndesc —, ea-mi zise, după imeneul nostru:</p>
+<p>— Frăţico!</p>
+<p>— Dragă?</p>
+<p>— Frăţico, tu faci prea rău.</p>
+<p>— Ce rău fac, comoara nenii?</p>
+<p>— Că nu porţi flanelă?</p>
+<p>— Niciodată.. . Acesta este ceva prost pentru un bărbat!</p>
+<p>Repeţiam atunci ceea ce ziseseră zînele vieţei mele de flăcău, dar soţia mea, buna mea soţioară:</p>
+<p>— Deloc, domnule, sănătatea dumitale mai nainte de orice.</p>
+<p>— Micuţo, eu....</p>
+<p>— Şănătatea dumitale înainte de orice, îţi zic. . . Vei purta...</p>
+<p>— Ce?</p>
+<p>— flanelă... Eu nu sînt din acele femei cari iubesc ca egoistele!</p>
+<p>— Dacă doreşti tu...</p>
+<p>— Negreşit, Domnule.</p>
+<p>D-atunci purtai flanelă — şi fui prea fericit în căsnicie.</p>
+       
+       
+           <p><label>IX</label></p>
+<p>Cu toate acestea în timpii din urmă...</p>
+<p>Nu prea ştiu ce poate avea femeia mea, e cam schimbată, schimbată.. .</p>
+<p>Preocupată, îngrijită şi bizară. . .</p>
+<p>Nu, eu nu ştiu ce are ea...</p>
+<p>Ea nu mai seamănă cu dînsa; încît ieri mi-a zis cu greaţă:</p>
+<p>— Ei! n-auzi, oare te vei căptuşi nencetat cu flanelă în timpul acestor călduri?.. .</p>
+<p>Eu n-am răspuns nemic.</p>
+<p>Dar tremur de a-nţelege.</p>
+<p>Oare ar avea poftă ca să devie văduvă?. . .</p>
+    
+       
+           <p><label>X</label></p>
+<p>Orice de ar fi, lectore, respectă flanela.</p>
+<p>Şi ascultă acest cuvîn suprem.. .</p>
+    <p>Cînd o voce feminină te va consilia să-ţi scoţi flanela, teme-te!</p>
+   </div>
+   
+   <div type="chapter">
+<head> XI. ASEDIUL ŞI LUAREA AMICULUI MEU PINGEALĂ</head>
+       <p><label>Recunoaşterea locului</label></p>
+<p>Amicul meu Pingeală — numim astfel amicul meu p-un domn ce l-am văzut de două ori —, amicul meu Pingeală dorea să sie însoare.</p>
+<p>Amicul meu Pingeală dorea să se însoare cu o domnişoară de familie bună.</p>
+<p>Amicul meu Pingeală, ca să ajungă la acest rezultat, suplinea avantajele fisice prin avantaje sunătoare.</p>
+<p>li prezintară o jună persoană, crescută după regúlele educaţiunii moderne.</p>
+<p>Juna persoană, ca tactieiană consomată, începu prin a face o, recunoaştere a locului.</p>
+<p>— Creieri: zero... Urîciune: ideală... Avere: trei mii galbeni venit. Cetatea merită să fie asediată.</p>
+<p>Această concluziune fusese urmată de o privire graţioasă care făcu să tresară din creştet pînă-n tălpi pe amicul meu Pingeală.</p>
+<p>— Ea mă va iubi, murmură el. Ce fericit voi fi!</p>
+<p>— Ce idee!. .. murmură ea. Ce lux voi ţine, cum o să-l învîrtese pe degete!</p>
+<p>După o lună, torţele imeneului se aprindea pentru amicul meu Pingeală şi soţia sa.</p>
+       
+       
+           <p><label>Deschiderea tranşeului</label></p>
+<p>In astronomia conjugale această fază se numeşte mai obişnuit luna de miere.</p>
+<p>Doamna era într-un colţ. Domnul era într-altul. Doamna se prefăcea că citeşte. Domnul se prefăcea că nu cască.</p>
+<p>Şi Doamna care-l pîndea pe furiş:</p>
+<p>— Ţi-e urît, dragă?</p>
+<p>— Mie? ce vorbă!</p>
+<p>— Oh! nu mai cîrni. Acest urît are drept principiu un simţimînt respectabile.</p>
+<p>— Dar te asigur...</p>
+<p>— Degeaba tăgăduieşti. Am înţeles de mult timp că trîndăvia te apasă.</p>
+<p>— Pe mine?</p>
+<p>— E adevărat că un om care nu face nimic de dimineaţa pînă seara...</p>
+<p>— Ce pofteşti să fac?</p>
+<p>— Eu nu ştiu nimic; dar în locu-ţi.. . Uite, vezi dumneata, iar căşti.</p>
+<p>— Din cauza stomacului.</p>
+<p>— în van cauţi o scuză... Afară din astea, ceea ce-ţi ziceam, era din interes pentru dumneata.</p>
+<p>— Fac rău poate, cugetă amicul meu Pingeală.</p>
+       
+       
+           <p><label>Intîia paralelă</label></p>
+<p>Domnul aşteaptă pe doamna care a ieşit ca să-şi cumpere cîte ceva.</p>
+<p>Doamna intră.</p>
+<p>— Ce mult ai întîrziat, Lizico.</p>
+<p>— Da; am întîrziat într-o magazie... Şi apoi am întîlnit pe d. Costică, un amic al familiei noastre.. . ¡un fecior de boier cu stare... Şi asta nu-1 opreşte de a lucra.</p>
+<p>— Ah!</p>
+<p>— Da; este cap de secţie într-un minister.</p>
+<p>— Ah! ah!</p>
+<p>— M-a întrebat cu ce te ocupi.</p>
+<p>— Ce fel! cu ce mă ocup... asta devine o glumă... Nu cumva voieşte, acel d. Costică, să intru ca şi el într-un minister.. . cu venitul meu de trei mii galbeni!</p>
+<p>— Faci rău că strigi aşa tare. .. Nu este nici o de-zonorare ca să-şi întrebuinţeze cineva cu folos zilele.</p>
+<p>— Aidea de! ce glumă!...</p>
+<p>— Nu zic asta pentru dumneata, vorbesc în generale.</p>
+<p>— Vezi, aşa... N-o să prînzim?</p>
+<p>— Nu încă, abia sunt trei ore şi jumătate.</p>
+<p>— Cu neputinţă.</p>
+<p>— Se vede că ziua ţi se pare prea lungă. .. Aceasta este unul din inconvenientele trîndăviei.</p>
+<p>— Dar deloc, deloc! (la o parte) soţia mea are poate cuvînt.</p>
+       
+       
+           <p><label>A doua paralelă</label></p>
+<p>— Da, amicul meu, iar am întîlnit pe d. Costică, aael amie al familiei noastre...</p>
+<p>— Ştiu, care este la minister.</p>
+<p>— Tocmai.</p>
+<p>— La ce minister este el?</p>
+<p>— La Finanţe. Pare că se găseşte prea fericit acolo. Speră să fie înaintat la 30 august viitor.</p><p>— Drace!</p>
+<p>— Negreşit! Guvernul trebuie să răsplătească pe  ei ce îl serv. N-ai dorit niciodată să fii şi dumneata? ...</p>
+<p>— Dorit... dorit... Ar trebui să fac ceva ca să pot fi.</p>
+<p>— Mă iartă, uitam că preferi să stai fără lucru, şi că profesezi pentru biurocraţie un dispreţ...</p>
+<p>— Un dispreţ.. . Ascultă, Lizico, exagerezi, nu des-preţuieso nicicum...</p>
+<p>— Numai îţi place mai bine să-ţi petreci timpul mistuind dejunul pînă la prînz, să digerezi prînzul pînă la ora culcării, şi să te odihneşti pe urmă...</p>
+<p>— Lizico!</p>
+<p>— Pentru ce nu-mi cauţi ceartă? Ar trebui să mă faci să simţ că m-ai luat fără zestre, că starea este a dumitale, că prin urmare n-am dreptul să mă amestec jcum îţi place să trăieşti.. . Uite! asta e rău, domnule, asta e prea rău!</p>
+<p>— Lizico, te rog, eu nu vreau să te ofensez.</p>
+<p>— Să nu mai vorbim despre asta, domnule... Dar biurocratii fac fericite pe soţiele lor.</p>
+<p>ei ţinîndu-şi batista pe ochi; apoi, întristat,</p>
+<p>^ Amicur meu Pingeală privi pe soţia sa intrînd în camera zise:</p>
+<p>Adevărat este că sunt un leneş împărătesc.</p>
+       
+       <p><label>Asalt</label></p>
+<p>Doamna a bombănit toată săptămîna. La dejunul de duminică, domnul îi ia mina.</p>
+<p>— Tot eşti supărată pe mine, Lizico?</p>
+<p>— Eu, domnule?</p>
+<p>— Oh, îmi zici domnule ... Eşti crudă ... Toata acestea pentru că . ..</p>
+<p>— Te rog, să nu mai revenim asupra acelor peni-tfoili suveniri.. .</p>
+<p>— Din contra, eu voi să re viu, căci de atunci m-am gîndit. .. Da, m-am gîndit mult. . .</p>
+<p>— Ţi-ai dat o muncă nefolositoare, căci niciodată nu voi mai atinge un asemenea subiect; m-ai făcut să-mi simţ prea bine poziţiunea mea delicată...</p>
+<p>— Eu?</p>
+<p>— Urmează a nu face nemic... Aceasta este prea naturale. Cu trei mii galbeni venit... ai face rău.</p>
+<p>—Voi să mă fac folositor.</p>
+<p>— Pentru ce, cu starea dumitale?</p>
+<p>—Voi să intru în administraţiune.</p>
+<p>— Aş! Un om de importanţa dumitale, să s-aplece ...</p>
+<p>— Tu glumeşti, eu vorbesc serios... Acel d. Oos-jtică cată să aibă...</p>
+<p>— Ce-ţi pasă?</p>
+<p>— Oarecare influinţă ...</p>
+<p>— Ce te priveşte asta?</p>
+<p>— Şi dacă ar fi vroit să se ocupe de mine...</p>
+<p>— Se şi ocupase, Domnule; dar ...</p>
+<p>— Dar? ...</p>
+<p>— M-am temut să ţi-o spui, m-ai fi umilit iar .. .</p>
+<p>— Poţi tu avea asemenea idee! Te rog, sileşte-te de  vezi pe d. Costică: pentru că este un amic al familiei tale, el va binevoi, sper, să-mi acorde protecikb-nea...</p>
+<p>— Mi-a repeţit şi asta zilele trecute: „Scumpa mea Doamnă, în ori ce timp pot dispune de un loc de cap de birou clasa II“ .. .</p>
+<p>— Cap de birou clasa II! exclamă amicul meu Pingeală.</p>
+
+       
+           <p><label>Stare de conchistă</label></p>
+<p>Amicul meu Pingeală este cum se cade impiegat la minister în calitate de cap de birou clasa II. El este modelul impiegaţilor, — un model al cărui venit ar voi să-l imiteze şi ceilalţi.</p>
+<p>El soseşte la ora fixă, lucrează ca un bivol şi nu cere niciodată concediuri.</p>
+<p>L-am întîlnit ieri; călca cu un aer radios.</p>
+<p>— Ce ai tu? zisei eu oprindu-l.</p>
+<p>— Ah! scumpul meu, o prea fericită noutate! Mi s-a promis pentru anul nou înaintare!</p>
+<p>Cît despre soţia sa destul de forte ca să facă dinitr-un paralîu un impiegat, ea suspină din cînd în cînd:</p>
+<p>— Singură de la 10 pînă la 4, încă este ceva frumos ... Cu toate acestea, dacă i-aş putea găsi altceva pentru seara!</p>
+      </div>
+          
+   <div type="chapter">
+<head>XII. CALENDARUL ALEXANDRINEI</head>
+       
+           <p><label>Ianuarie</label></p>
+<p>Micul meu Năiţă.</p>
+<p>Nu te-am văzut încă şi sîntul Vasile a trecut.</p>
+<p>Iată-ne la trei.</p>
+<p>Ştiu bine că familia ta s-a silit să nu te lase să fad un pas măcar în cursul acestor dintîi zile ale a-¿nului, dar opresiunea a trecut peste toate mărginile.</p>
+<p>Dacă vrei să te iert adu-mi cadouri frumoase. Nu .doară că ţiu să fie scumpe, dar nu poţi să nu ştii cît este de simţitor cineva la atenţiunile celor ce îi iubeşte.</p>
+<p>Am văzut la Resch nişte cercei foarte frumoşi. Nu-ţi zic decît atît. Sileşte-te să înţelegi restul.</p>
+<p>Sîntul Vasile nu este decît odată la 12 luni. Ce nefericire!</p>
+<p>La revedere, micul meu Năiţă. Te aştept, nu mă Jăsa să prelungesc această aşteptare peste mîine, sau încep a iubi pe cineva.</p>
+<p>Cerceii de la Resch sunt lucraţi în... Nu, nimic.</p>
+<p>Te îmbrăţişez.</p>
+<p>Alexandrina.</p>
+    
+       
+           <p><label>Februarie</label></p>
+<p>Scumpul meu Mitică,</p>
+<p>Carnavalul ţine aşa de puţin încît ar fi o necuviinţă ca să nu prăsnuim repedea lui trecere.</p>
+<p>Aşadar cu Cleopatra, Eugenia, Jeaneta şi două sau trei altele, am organizat noi o serbare — tot ce este mai ales.</p>
+<p>Ea va avea loc la Eugenia.</p>
+<p>Se înţelege însă, că noi nu putem să o lăsăm numai pe dînsa, sărmana fată, ca să facă singură toate cheltuielile.</p>
+<p>E vorba să contribuim toate.</p>
+<p>M-am bazat pe tine cît se atinge de partea mea şi ¡cred că vreo şase napoleoni nu ar fi deloc rău primiţi în această împrejurare. Fii sigur că în ei se coprinde şi costul birjei.</p>
+<p>Dă-i în mînâ aducătorului acestuia. — Este ceva grabnic.</p>
+<p>N-am nici chiar timp să-ţi spui că eu nu te uit.</p>
+<p>Alexandrina</p>
+    
+       
+           <p><label>Martie</label></p>
+<p>Nepreţuitul meu Grigoraş,</p>
+<p>A sosit drăguţa primăvară!</p>
+<p>Ieri la Băneasa am văzut trei muguri şi un cuib.</p>
+<p>Aceasta m-a mişcat de tot. De! nu sunt născută degeaba la ţară.</p>
+<p>Ţara! Sunt trei ani de cînd n-am văzut vîrful nasului ei şi am nostalgie.</p>
+<p>Simţ că mă voi bolnăvi dacă nu mă voi duce să respir în vreun loc unde lampele cu gaz sunt necunoscute.</p>
+<p>Acel loc dar, trebuie să-l găseşti tu. Ai mare nevoie de o cură de aer curat.</p>
+<p>Caută-mi dar un loc unde să pot fi ca la mine acasă, şi totodată şi o casă în care să încapă rochiile mele cu coadă fără să las uşa deschisă.</p>
+<p>Cred că vreo treizeci galbeni, pentru cît voi sta afară, mi-ar fi de ajuns.</p>
+<p>Comptez pe tine pentru această bagatelă, şi nu-ţi mulţumesc ştiind că toată plăcerea are să fie pentru ţine.</p>
+<p>Te cunosc aşa de bine.</p>
+<p>Alexandrina</p>
+    
+       
+           <p><label>Aprilie</label></p>
+           <p> Toni dragă,</p>
+<p>Am fost prea în mirare azi dimineaţă.</p>
+<p>închipuieşte-ţi că, spre a-ţi face o surpriză, eu cătam în calendar ziua numelui tău.</p>
+<p>In loc de aceasta, ce-am găsit eu? data numelui meu.</p>
+<p>Da, este la 23 ale acestei luni. Ţi-o fi părînd ciudat? De cînd port prenumele de P ... mai că am uitat că mă numesc în adevăr Alexandrina.</p>
+<p>Aceasta mi-a făcut plăcere de a mi-o aduce aminte, şi această plăcere va fi împărtăşită şi de tine, sunt sigură.</p>
+<p>Cu toate acestea nu face nebunii, dragă Toni.</p>
+<p>Vreun cadou ales, dar fără stravaganţă.</p>
+<p>Am mare poftă de o mobilă pentru salon, fie şi de palisandru.</p>
+<p>Aceasta se găseşte oriunde. Tu trebuie să ştii.</p>
+<p>23! Scrie această cifră undeva; ea este deja în inima mea.</p>
+<p>Alexandrina.</p>
+    
+       
+           <p><label>Mai</label></p>
+<p>Dragă Titică,</p>
+<p>Termometrul a vorbit. Cată fără voi-ne să-i ascultăm oraculile.</p>
+<p>Aşadar, el a zis că toaletele de iarnă şi-au jucat rolul lor, că barejul, muselina şi mătasea deschisă sunt de rigoare.</p>
+<p>Eu întotdeauna m-am supus termometrului.</p>
+<p>Tu n-o să voieşti să mă laşi ca să încep a face altfel în anul acesta.</p>
+<p>Cu atît mai mult că şi Petrache şi Alexianu au ,adus estimp nişte stofe cari nu costă mai mult decît ,un napoleon cotul. Nu-nţeleg cum fabricantul îşi scoate cheltuielile dacă se vinde aci aşa ieftin.</p>
+<p>Dar aceasta nu te priveşte.</p>
+<p>Ceea ce ne interesează este ca qpoarea moHpj să «fie scăpată şi ea are să fie, mulţumită tie.</p>
+<p>Alexandrina</p>
+<p>P.S. Este urgent.</p>
+    
+       
+           <p><label>Iunie</label></p>
+<p>Scumpe Petrică,</p>
+    <p>Nu ştiu cine a dat nenorocita idee lui Fialcowsky Ca să facă serate-concert la Belle-Vue. Încă o greutate pe bietele noastre spinări. încă dacă ar fi mai puţină lumină, calea-valea; dar iluminată <foreign><hi>a giorno</hi></foreign> cum este grădina, înţelegi că toaleta unei dame cum se cade cată să fie ireproşabile. Aşadar, Petrică dragă, fi bun şi trimite-mi preţul unei poante de dantelă, căci aceea ce o aveam s-a destrămat cu totul.</p>
+<p>îmi trebuie neapărat pentru poimîine, căci este serată extraordinară în onoarea Petrilor şi Pavelilor. Nu mă pot scuti de a nu merge, cînd această serată se dă în onoarea scumpului tău nume, îngeraşul meu.</p>
+<p>Alexandrina</p>
+<p>Aştept atît <hi>poanta</hi>, cît şi pe tine în nerăbdare.</p>
+    
+
+       
+           <p><label>Iulie</label></p>
+<p>Alexandrul meu,</p>
+<p>Te întreb, mă rog, la ce sunt trebuincioşi astronomii?</p>
+<p>Negreşit numai ca să sperie lumea.</p>
+<p>Dracul ăla de Cazamia cu calendarul lui mi-a pus spaima în suflet. Se pare că el ne prezice o iarnă aşa de riguroasă, încît mă înfricoşez după acum! ...</p>
+<p>Ca să nu fiu apucată fără veste, am zis lui Pe-,trache de mi-a trimis un şal de India şi o mantilă de catifea.</p>
+<p>Grija ce tu ai de sănătatea mea delicată mi-este un garant al veselii de care ai să fii inecat văzînd precauţiunile ce iau ca să-ţi conserv p-a ta.</p>
+<p>Alexandrina</p>
+    
+       <p><label>August</label></p>
+<p>Da, Domnule Guţă-Gîlceavă, zi-mi orice-i pofti, dar trimite-mi bani.</p>
+<p>Sunt la Mehadia, nu mai am de cheltuială şi stau zălogită la otel.</p>
+<p>Scoate-mă întîi din pericol, apoi mă vei certa cit vei pofti.</p>
+<p>îmi trebuieşte o prăjină lungă... de vreo cincizeci de galbeni ca să mă scoţi din prăpastie. Tu trebuia să faci orice-i şti ca să-mi procuri una de a-iceastă lungime.</p>
+<p>Alexandrina.</p>
+    
+       <p><label>Septembrie</label></p>
+<p>Amicul meu Fani,</p>
+<p>Ce nefericire!</p>
+<p>Este cu neputinţă să nu se gîndească cineva la virsta ce are cînd se află în faţa aniversării naşterii sale.</p>
+<p>Această nefericire mi s-a întîmplat azi. Sunt în disperare.</p>
+<p>Ca să mă consoli, trimite-mi dar serviciul de porţelan ce l-am admirat ieri spară la Pasagiul român.</p>
+<p>Dar trămite-mi-l iute, sau mor de disperare... Cînd cineva are 23 ani... Te poţi gîndi!</p>
+<p>Alexandrina.</p>
+
+       <p><label>Octombrie</label></p>    
+<p>Cher Bibi,</p>
+<p>Sunt obiceiuri proaste ca oricari altele. Aceste obiceiuri sunt acelea pe cari rutina le conservă cu preţiozitate. în capul lor eu pui obiceiul de a se plăti chiria.</p>
+<p>Este ceva prost, dar n-ai ce face.</p>
+<p>Ca să împace acest absurd prejudiciu, proprietarul casei mele găseşte că douăzecişitrei de galbeni n-ar fi decît o dreaptă retribuţiune.</p>
+<p>Pentru că eu nu sunt de părerea lui, niciodată nu voi scoate această sumă din punga mea, dar m-am gîndit la a ta.</p>
+<p>Ne putem învinge prejudiciul, îl întorc.</p>
+<p>A ta,</p>
+<p>Alexandrina.</p>
+    
+       
+           <p><label>Noiembrie</label></p>
+<p>Dulcele meu Scarlat,</p>
+<p>Prezicerile lui Cazamia aveau cuvînt.</p>
+<p>Are să ningă — ninge, şi se afirmă că lemnele au să se scumpească grozav.</p>
+<p>Nu sunt aşa de proastă ca să nu mă îngrijesc.</p>
+<p>ftxpediază-mi prin slujnica mea costul a trei stînjeni. Prin mijlocul acesta îţi fac onsemnată economie.</p>
+<p>Alexandrina</p>
+    
+       <p><label>Decembrie</label></p>
+<p>Bravul meu Iencuşor,</p>
+<p>Am mai multe amice către cari am contractat diferite obligaţiuni. Ele m-au tratat de atîtea ori încft a venit azi şi rîndul meu.</p>
+<p>Voi profita dar în această lună de Revelion ca să le fac o politeţă de douăsprezece persoane — cu tine împreună.</p>
+<p>îngrijeşte ca să avem lăutari și vinuri în discreţiune; iar cît pentru ceea ce mai trebuieşte. trămite-mi vreo doisprezece napoleoni.</p>
+<p>Ma însărcinez cu celelalte, adică cu veselia şi pofta de mîncare. Cum să sfîrşească mai bine anul decît cu tine?</p>
+<p>Alexandrina,</p>
+    
+       <p>NOTA: Calendarul Alexandrinei fiind un calendar perpetuu, cînd cineva-1 sfîrşeşte îl ia iar de început.</p>
+</div>
+   
+<div type="chapter">
+ <head>XIII.ROMANUL VECINEI</head>
+<p>Ghizdureanu intră ca un vîrtej.</p>
+<p>— Ah! scumpul meu, dacă ai şti! ... Ai tu vreun pistol la tine? Mă-mpusc... Nu... Dacă este aşa dă-mi otravă de muşte, trebuie să ai. Aceasta ţine mai lung, dar ajungi la acelaşi rezultat. Nu refuza amiciţiei suprema satisfacţiune a sinucidului.</p>
+ <p>Acest exord <foreign><hi>ex abrupto</hi></foreign> mă uimise.</p>
+<p>Ghizdureanu băgase de seamă aceasta, căci adăo-gind cu o volubilitate nouă...</p>
+<p>— S-a otărît pentru mine! Şi se zice că pdieulul omoară. Dar aş fi fost mort d-acum două ore. Părtiîn-tuîeMPămîntule! deschide-te, să mă scufund în sînul tău!</p>
+<p>— Să vedem, Ghizdurene, inter venii eu în mijlocul acestui diluviu de lamentaţiuni, ce ţi s-a întîmplat?</p>
+<p>Varsă în inima mea prisosul amărăciunilor tale; şi apoi, dacă vei mai avea gust, te vei sinucide.</p>
+<p>— Să vărs! .. . Frumos cuvînt! Dar ei nu-şi poate avea locul decît într-o jalnică reprezentaţie jucată la teatrul naţionale.</p>
+<p>Cugeţi tu că aceasta se poate tolera în viaţa privată? Eu mă-ndoiesc, dar pentru că doreşti tu şi pentru că aceasta mă va alina...</p>
+<p>Ghizdureanu, zicînd aceste cuvinte, încălică pe un scaun, aprinse o ţigară şi începu astfel:</p>
+<p>— Mai eşti tu amorezat? Tu nu-mi răspunzi. Ce-mi pasă; eu sunt, sau mai bine eram acum o oră şi 54 minute. Eram d-un înger.. . cînd cineva este izbit de boala aceasta, deşartă totdeauna paradisul în profitul comparaţiunilor sale. Aceasta este o simptomă. Trece-mi dar cu vederea pe „îngerul meu" şi mulţumeşte-te că nu i-am adăugat un epitet.</p>
+<p>îngerul meu locuia la al doilea cat în faţă, strada Pescăriile-Vechi, casa Doctorului...</p>
+<p>Această topografie nu este nicicum de prisos, pentru că ea ţi-arată dintr-o singură trăsură că înger.</p>
+<p>Ea la catul al doilea, eu tot la catul al doilea, însă nemişcătorul din faţă!</p>
+<p>Blestemată fie soarta care ...</p>
+<p>Dar să nu anticipăm... şi dă-mi un chibrit, căci mi s-a stins ţigara.</p>
+<p>— Mulţumim, urmez, zise Ghizdureanu după ce îşi reaprinse ţigara sa.</p>
+<p>Tu vezi bine oficiul ce împlineşte fosforul asupra acestui pachet rotund de tutun, numit ţigară.</p>
+<p>Tu-l vezi? ... Ei bine! astfel fu efectul ce produse asupra inimei mele întîia privire ce aruncai vecinei mele.</p>
+<p>Era într-o duminică de dimineaţă.</p>
+<p>Biroul unde lucrez eu era închis. Puteam dar să dau acestei priviri mai multe ediţiuni succesive.</p>
+<p>Fiecare ediţiune îmi da un farmec mai mult. Ce frumoasă era ea! şi ce obraz! şi cu părul castaniu! şi cu mărgăritare cînd este vorba de dinţi! şi zveltă cînd e vorba de talie! ...</p>
+<p>Romanţele s-ar fi bolnăvit de gelozie. Eu rpă bolnăvii de amor, adică învăpăiat precum tu mă cunoşti, stăm încă la şapte ore seara, pîndind apariţiunile acestei scumpe umbre la fereastra sa.</p>
+<p>Tocmai la opt ore, mi-adusei aminte că eram invitat să prînzesc la unchiul meu.</p>
+<p>Mă îmbrăcai, şi sosii acolo tocmai cînd el se culca, furios, exasperat că a mîncat singur o friptură, prea friptă din greşala mea.</p>
+<p>Ghizdureanu, — la acest pasaj — îşi reaprinse pentru a doua oară ţigara apoi cu un ton melodramatic:</p>
+<p>— Ce-mi păsa mie de furiile unchiului meu?</p>
+<p>Aveam s-o revăz... Nu dormii toată noaptea — ceea ce-mi permise să constat că şederea mea prea prelungită la fereastră mă gratificase cu un guturai teribile.</p>
+<p>Dar iar ce-mi pasă?</p>
+<p>Zorile cătau să mă despăgubească de toate aceste suferinţe.. .</p>
+<p>Ea apăru.</p>
+<p>Tot cochetă, drăgălaşă, incendiară! Inima mea bătea marşul de război al simţimîntului.</p>
+<p>Ochiul meu se silea a se risipi în evaporaţiuni de magnet. Cheltuii tot magnetismul ce-1 aveam în mine în acea zi.</p>
+<p>Judecă beţia mea, cînd crezui a surprinde un gest care era o adorabilă încuragiare.</p>
+<p>Mă coborîi să cumpăr un buchet mare pe care i-1 transmisei fără semnătură.</p>
+<p>Lucrul îmi părea cu mult mai nobil.</p>
+<p>Dă-mi un chibrit...</p>
+<p>Buchetul fiind odată primit, urmă Ghizdureanu, aş fi crezut că scad în ochii mei, dacă într-o dimineaţă numai n-aş fi urmat cu acea trămitere din ce în ce mai mult anonimă.</p>
+<p>Dar ce dulce eram plătit!</p>
+<p>Privirile vecinei , mele deveniră mai multiplicate şi mai semnificative.</p>
+<p>Ea nu mai fugea de la fereastra sa.</p>
+<p>Eram înţeles.</p>
+<p>Eram şi prins de guturai, — dar d-un guturai... Mă-nţelegi tu.</p>
+<p>Mă prinz că n-am să scap de el cît voi trăi.</p>
+<p>Ah! atunci nu mă-ngrijeam nicicum despre aceasta!</p>
+<p>A o vedea! ... a-i telegrafia, prin multe pantomime, pîrjolul meu interior. A spiona gesturile sale, surîsurile sale.. . asta era veselia mea, fericirea mea, tot al meu.</p>
+<p>într-o dimineaţă, priimii o scrisoare de la unchiul meu, anunţîndu-mi că — pentru că de mai multe duminici îl delăsam cu chipul cel mai grozav — el mă ruga acum înainte să nu-i mai calc pragul. Avea cuvînt, unchiul meu!</p>
+<p>Dar nu mă lăsam numai duminica să fiu absorbit de contemplaţiunile mele.</p>
+<p>Pasiunea se desfăşurase în sînul meu de speriat..</p>
+<p>Ea expropriase orice alt simţimînt.</p>
+<p>îmi trebuia spectaculul vecinei mele, mergînd, viind, preumblîndu-se prin cămăruţa sa şi făcîndu-mi gingăşii.</p>
+<p>Căci ea-mi făcea. Nu mai puteai să te-ndoieşti.</p>
+<p>Sufletul ei era în comunicatiune cu sufletul meu. Bătăile inimei sale răspunseră bătăilor inimei mele.</p>
+<p>Paradis terestru, întinerit şi foarte mult mărit.</p>
+<p>într-altă dimineaţă priimii o scrisoare care mă înştiinţa că în prezenţa lipselor mele repeţite şram destituit</p>
+<p>Ar fi trebuit să gem! Priimii această notificaţiune ca o dezrobire. Ea era facultatea să stau totdeauna şi oricînd mi-ar plăcea la fereastră.</p>
+<p>Gingăşiile creşteau.</p>
+<p>Eu îi expediasem cu vîrful degetelor un sărut.</p>
+<p>Ea rîsese.</p>
+<p>Eu repeţisem.</p>
+<p>Ea rîsese.</p>
+<p>Ea repeţisem din ce în ce mai mult.</p>
+<p>îmi păru că ea-şi punea degetul pe gură aşa ca şi cum ar fi voit să-mi înapoieze mîngîierea mea aeriană.</p>
+<p>Mă agăţai de zid, şi negreşit aş fi leşinat, dacă clopoţelul nu m-ar fi deşteptat.</p>
+<p>Era o a treia sprignarg — D. Leyvraz, grădinarul, îmi trămitea nota buchetelor. Eram dator o mare sumă.</p>
+<p>Este adevărat că însoţisem şi cîteva brăţări pe lîngă cameliile mele!</p>
+<p>Dă-mi un chibrit...</p>
+<p>Acea sumă mare mă făcu să mă gîndesc.</p>
+<p>Pierdusem postul meu, probabilitatea moştenirii unchiului meu, şi eram dator o sumă bunicică.</p>
+<p>Era timpul să cer o compensaţiune. Otărîi de a mă declara.</p>
+<p>Prefaţa ţinuse două luni. Era destul.</p>
+<p>Privii pe fereastră ... Ea era acolea.</p>
+<p>Apoi, ca şi cum ar fi ghicit cugetul meu, o văzui aruncîndu-mi un semn. . . Semnul zicea curat că puteam să-i fac o vizită, că eram dator chiar, căci ea mă aştepta.</p>
+<p>în fuga mare scobor scara mea.</p>
+<p>Urc p-a ei în fugă şi mai mare. Ostenit, bat la uşă. Aud paşii ei. O, timiditatea mea! ... Ea deschide, mă priveşte, scoate un ţipăt şi-mi închide uşa-n nas.</p>
+<p>Intorcîndu-mă ameţit, neînţelegînd nimic, izbesc cu cotul pe treapta de jos a scării p-un domnişor a cărui figură nu-mi era necunoscută ...</p>
+<p>Ce descoperire grozavă!</p>
+<p>Vecinului meu care sade alături de mine, ea îi trimitea de două luni ochiadele ei! Pe el îl chemase ea...</p>
+<p>O luai atunci la fugă, fără să ştiu unde mă duceam, ruşinos, zdrobit —, şi iată-mă.</p>
+<p>Dă-mi un chibrit. .. Nu, nu e de trebuinţă ... Otărît, ţigările sunt pentru mine ca si inimile: nu stiu sa le aprinz!</p></div>
+ 
+ <div type="chapter">
+<head>XIV. SCARA AMOROASA</head>
+     
+         <p>Pe cînd trăia, răposatul se numea Panait.</p>
+<p>Un băiat cumsecade, cu inima nu mai puţin bună, dar nici mai bună decît a dumitale sau a mea.</p>
+<p>Se poate dar, cu drept cuvînt, lua drept exemplu.</p>
+<p>Panait, murind, sunt de atunci două luni, mă instituise executorul său testamentar. Aşadar, executînd, întîmplarea mă făcu să descopăr mai multe caiete destul de voluminoase pe cari curiozitatea mă împinse să le citesc.</p>
+<p>Acestea era copiile scrisorilor amoroase ale lui Panait, în cursul lungei sale existenţe.</p>
+<p>După ce am citit aceste pagini, descoperit-am o gradaţiune ce o cred demnă de observaţiune — pentru că ea reflectă puţin ideile lumii întregi. Ceea ce m-a hotărît să le intitulez 
+<hi>Scara Amoroasă</hi> şi să vi le ofer ca o trufanda.</p>
+<p>Eu încep dar.</p>
+ 
+    <p><label>La 20 ani</label></p> 
+<p><hi>Panait către o cusătoreasă</hi></p>
+<p>Anghelul inimii melei</p>
+<p>Dacă ai cunoaşte pirjolul care mi-arde rinichii de cînd te-am văzut mi-ai plînge de milă.</p>
+<p>Nu mai ştiu unde să-mi pui capul de cînd mi-ai ieşit înainte, Arghiriţo, sufletul meu! Umblu ca un turbat pe drumuri şi amorul nu-mi dă pas nici cum.</p>
+<p>O! hamorule duşmane!</p>
+<p>Arghiriţo, inima mea, tu care eşti de muc şi de luminare, aibi milă de mine că mă năucesc, şi încă arată-te înaintea mea.</p>
+<p>Sînt în stare, Arghiriţo, să-mi las pe tata şi pe mama şi să-mi iau cîmpii, să fug din Bucureşti, unde anT~ ajuns să fiu lude între Călăraşi23, dacă nu te-i îndura de mine, stăpîna inimii mele.</p>
+<p>Arghiriţo, Arghiriţo, fie-ţi milă de acela care are cinste să fie al tău pînă la moarte etc.</p>
+    
+    
+        <p><label>La 30 ani</label></p>
+<p><hi>Panait către o femeie măritată</hi></p>
+<p>Cuconiţa mea.</p>
+<p>Nu trebuie să-ţi bată deloc inimioara, pentru că m-ai învrednicit cu dragostea mătăluţi.</p>
+<p>Decît să-mi smulgă cineva acest stilet mai bine mi-aş da obştescul sfîrşit de o mie de ori.</p>
+        <p>Şi crede-mă, <foreign>psihimu</foreign>, că dulce mi-ar fi moartea pentru mătălută. Ai păcătui înaintea celui de sus dacă ai sta la îndoială. Să chiamă că şi eu sunt ipochimen cu <foreign>haractir</foreign> şi fecior de oameni.</p>
+<p>Fii fără grijă, Păunico. Lasă pe mine că ştiu eu cum să-i joc ursul.</p>
+<p>Frăţica dumitale, zici dumneata, parcă bănuieşte ceva. Lasă-l să vie la mine hainul.</p>
+<p>Cu toate că a fost vătaf de agie, nu mă tem eu de el, căci am ace şi pentru un cojoc ca al dumnealui.</p>
+        <p>Păunico, mine la sindrofie, la cuconul Tudose, cînd frăţica dumitale s-o apuca de <foreign>mariaşiu</foreign>, găseşte prilej să vii în sofragerie.</p>
+<p>Şi s-auzim de bine, Păunico.</p>
+    
+    
+        <p><label>La 40 ani</label></p>
+<p><hi>Panait către o baletistă</hi></p>
+<p>Afrodita mea,</p>
+<p>Ştii cu ce bătaie de inimă te aştept diseară.</p>
+<p>Avem să facem chef mare!</p>
+<p>Deci nu lipsi să te afli diseară la grădină la Scufa. unde am găsit de cuviinţă să încheiem practicaoa anaforalei hamorului.</p>
+<p>Uitam să-ţi spui că azi de dimineaţă, trecînd prin Lipscani, am văzut la o boltă un şal de ţeara turcească, de mi-a rămas inima la dînsul.</p>
+<p>Oh! am zis în sine-mi, cît de bine are să-i şază Afroditei mele, cînd s-o plimba de braţetă cu mine, înfăşurată într-însul.</p>
+<p>Aşadar şi prin urmare nu uita că diseară poate să ţi-1 şi aduc.</p>
+  <p>E cu cîmpul <foreign>ceadiriu</foreign>, şi <foreign>ceadiriul</foreign> te face aşa de nostimă, hanîma mea!</p>
+<p>Să mă vezi întins pe masă dacă n-ai veni.</p>
+    
+    
+        <p><label>La 50 ani</label></p>
+<p><hi>Panait către un peţitor</hi></p>
+<p>Domnule,</p>
+<p>Prin cea de faţă a mea scrisoare de astăzi, am cinste să-ţi fac parte de chibzuinţele mele, întrucît priveşte căsătoria cu cuconiţa Anicuţa, ce mi-ai ciracladisit-o dumneata.</p>
+<p>Cuconiţa Anicuţa este o fată la ai căruia nuri şi aplecări sunt gata să dau toate închinăciunile cerute de cuviinţă.</p>
+<p>Cu toate acestea, domnule, dumneata care eşti amestecat în treaba asta, înţelegi că cuvintele serioase biruiesc zburătoarele întipăriri ce le poate avea cineva într-o vîrstă mai puţin coaptă.</p>
+<p>Domnul Tănăsache, socrul meu viitor căta, după cum fusese hotărît de la întîia ?noastră vedere, să dea cuconiţii Anicuţa o zestre de opt sute galbeni venit în proprietăţi nemişcătoare aflătoare în judeţul Muscel şi Gorj.</p>
+<p>Precum se cuvenea în asemenea împrejurare, eu m-am şi dus în de faţă la locurile unde sunt aşezate zisele nemişcătoare.</p>
+  <p>Acolo, domnule, am aflat că susnumitele erau supuse la mai multe zălogiri despre cari nu mi s-a fost dat nici o <foreign>pliroforie</foreign>.</p>
+<p>Negreşit, domnule, dau dreptate, precum am zis mai sus, gurilor cuconiţei Anicuţii, dar nu se poate hotărî nemic, dacă d. Tănăsache, viitorul meu socru nu va jldăngi şi o mie cinci sute de galbeni, în numărătoare.</p>
+<p>Pot nădăjdui că alegerea ce va face în fiinţa mea nu va fi rău nemerită.</p>
+<p>Binevoieşte dar, domnule, a pune închinăciunile mele la picioarele cuconiţei Anicuţii, dar tot într-o vreme fă să înţeleagă pe viitorul meu socru că treburile sunt treburi ...</p>
+<p>Am cinste ...</p>
+    
+    
+        <p><label>La 60 ani</label></p>
+<p><hi>Panait către un amic </hi></p>
+  <p>Scumpul meu Pavlache,</p>
+<p>Tu ştii că de doi ani de cînd am rămas văduv de răposata Anicuţa, soţia mea, casa mi-era prea goală.</p>
+<p>în sfîrşit acum, cu ajutorul lui Dumnezeu, am găsit o slujnică aşa cum nădăjduiam.</p>
+<p>Patruzeci de ani, bine păstrată şi făcînd iofcale apelpisite.</p>
+<p>Ah! frate! tu o să le guşti! Dar încă mazărea verde, nenişorule! .</p>
+<p>Ea e o fiinţă plină de daruri.</p>
+<p>Pentru asta am şi pus-o pe diată.</p>
+<p>La vîrsta mea — ce vrei tu? — dragostile sunt aşa de scumpe.</p>
+<p>Pe curînd, scumpul meu Pavlache, sau mai bine pe luni, la trei ceasuri.</p>
+<p>Tu o s-o vezi; o să guşti iofealele ei, şi ea o să-ţi facă o cremă de ciocalată. ..</p>
+<p>Ah! sunt prea fericit cu ea! . . .</p>
+    
+     <milestone rend="dots" unit="subchapter"/>
+    
+<p>Amice lectore, trage însuţi concluziunea.</p>
+</div>
+   
+    <div type="chapter">
+<head>XV. DARURILE DE ANUL NOU ale lui STAMATACHE</head>
+        
+            <p><label>I</label></p>
+<p>Stamatache pe care vi-1 prezint pe lîngă averea lui cunoscută, are îndoita profesiune de avocat şi samsar, care îi raportă mult. Este de observat că aceste profesiuni unite la un loc au dat întotdeauna un venit destul de recomandabile.</p>
+<p>Signalementele lui Stamatache: Puţin cam gras — dar urît, şi cu pretenţiuni cu atît mai exorbitante.</p>
+<p>Stamatache e însurat.</p>
+<p>Semn care n-are nimic particular: Stamatache înşeală pe nevastă-sa avînd de amantă o aetrifă de la opera italiană.</p>
+<p>Aşadar, iată ceea ce se-ntîmplă acum un an eroului nostru, la epoca darurilor, adică la sfîntul Vasile.</p>
+<p>Să vedeţi.</p>
+        
+        
+            <p><label>II</label></p>
+<p>La 1 decembre, Stamatache — ca omu care ştie să numere şi să prevază — îşi zise:</p>
+<p>într-o lună, de azi, vom sosi la un termin fatale.</p>
+<p>Acel termin se numeşte anul nou sau sîntul Vasile.</p>
+<p>Să facem mai dinainte budgetul nostru, ca să nu fim surprinşi.</p>
+<p>De o parte doamna Stamatache, născută Ţinea sin hagi Dimitrache, soţia mea legitimă.</p>
+<p>De alta, Dolorida de Santa-Felice, născută nu ştiu cum, nebuna mea dorată.</p>
+<p>Ceea ce-mi constituie o obligaţiune de daruri în partidă îndoită.</p>
+<p>Drace!</p>
+<p>Stamatache dragă, nu e mijloc să scapi. Cu averea ta cunoscută orice economie ţi-ar da numele de zgîrcit.</p>
+<p>Ai să cheltuieşti şase mii de lei.</p>
+<p>Nici mai mult, nici mai puţin.</p>
+<p>Asta nu este totul, Stamatache, tu eşti dator încă să egalezi în această ocaziune imparţialitatea lui Solomon.</p>
+<p>Doamna Stamatache de cîtva timp se-nţelege că te cam bănuieşte. Ea se posomorăşte învederat.</p>
+<p>Ocaziunea este preţioasă pentru că s-o reînseninezi. Un dar galant o va face să-şi piarză negrele sale idei.</p>
+<p>Aşadar cel mai puţin trei mii de lei darurile soţiei tale şi trei mii de lei pentru ale Doloridei.</p>
+<p>Tot atît pentru soţia ta, cît si pentru amanta ta.</p>
+<p>Cred că nu poate face cineva lucrurile mai bine...</p>
+<p>Asupra acestui monolog, Stamatache îşi surise în oglinda conştiinţei sale — şi ieşi ca să se ducă la Dolorida.</p>
+    
+        
+    <p><label>III</label></p>
+<p>La 10 decembrie, avocato-samsarul nostru intră la un giuvaergiu.</p>
+<p>— Domnule, aş dori să văz două bratelete.</p>
+<p>— Trei, domnule, dacă pofteşti.</p>
+<p>Giuvaergiul, care era un om complezant, îi arată zece.</p>
+<p>Dar avea mai cu seamă una...</p>
+<p>Ceva răpitor!</p>
+<p>— Cît costă? zise Stamatache</p>
+<p>— O sută şaptezeci şi cinci de galbeni.</p>
+<p>Drace!</p>
+<p>In minte el îşi făcu deja adiţiunea:</p>
+<p>Cinci mii şase sute şi cu cinci mii şase sute da lei fac unsprezece mii două sute... Să mă mai gîndesc, conchise el salutînd pe giuvaergiu.</p>
+    
+        
+    <p><label>IV</label></p>
+<p>Cînd ieşi în stradă:</p>
+<p>— Păcat că această brăţară nu costă o sută de galbeni.</p>
+<p>Aş fi pus să-mi facă două aseminea.</p>
+<p>Dolorida ar fi fost capabilă să mă adore încă şase luni mai mult.</p>
+<p>Dar o sută şapte zeci şi cinci de galbeni! ...</p>
+<p>Este adevărat că soţia mea nu prea are trebuinţă de bijuterii. O femeie cum trebuie cată să strălucească prin simplicitate.</p>
+<p>Şi apoi, unde iese ea! ...</p>
+<p>Cu jumătate din suma aceasta aş putea cumpăra pentru dînsa un şal care i-ar face tot atîta plăcere.</p>
+<p>Căci în fine ceea ce cată să privească cineva, este intenţiunea.</p>
+<p>S-a hotărît.</p>
+<p>Oi face ce-oi face pentru soţia mea, şi iau brăţara pentru Dolorida.</p>
+<p>Echilibrul nu prea se clatină — şi aşa fac lucrurile prea bine.</p>
+            
+        
+            <p><label>V</label></p>
+<p>La 20 decembrie, Stamatache se întoarse la giuvaergiu ca să cumpere brăţara.</p>
+<p>— Domnul nu doreşte broşa care e la fel cu brăţara?</p>
+<p>— Adevărat... Broşa? ... Cît m-ar costa brosa</p>
+<p>— Numai douăzeci şi cinci de galbeni.</p>
+<p>Stamatache cugetă.</p>
+<p>Şi pe cînd neguţătorul respecta reveria lui:</p>
+<p>— Asta ar covîrşi numai cu patru sute de lei suma totală pentru daruri...</p>
+<p>N-ar mai rămînea pentru soţia mea nimic... Este adevărat că ea n-are nici chiar trebuinţă de un şal.</p>
+<p>Dolorida ar fi aşa de fericită! .... Cu atît mai mult că sunt încredinţat că nevasta mea nu bănuieşte nimic.</p>
+<p>Ea este posomorită, o văz, dar asta este din cauza nevricalelor sale.</p>
+    <p>Aşadar, dacă ea nu bănuieşte nimic, nu este de trebuinţă ca s-o măgulesc. Afară de asta, cu un mic preţ, aş putea găsi la Pieptănarul un <foreign><hi>nécessaire</hi></foreign> prea frumuşel.</p>
+<p>— Domnule, pune-mi la o parte şi broşa...</p>
+    
+        
+            <p><label>VI</label></p>
+<p>La 30 decembrie, Stamatache se certase seara cu Dolorida.</p>
+<p>După prînz, el începu să cugete la acea ceartă:</p>
+    <p>— Sărmănica mea! ... Am făcut poate rău... Ea şi-a petrecut noaptea puind cataplasme <foreign><hi>contraltei</hi></foreign> care n-are pe nimeni şi e bolnavă... Şi eu care o acuzam! ...</p>
+<p>Din fericire iată ajunul sîntului Vasile... In adevăr, aceasta mi-aminteşte că n-am cumpărat încă nimic pentru soţia mea.</p>
+    <p>Dar ştiu eu ce să-i iau?... Are ea lipsă oare de un <foreign>necessaire</foreign>?</p>
+<p>Ce dracu! ea are tot ce-i trebuie! Tot anul, tot îi cumpăr... Afară de asta ea este către mine d-o indiferenţă ... Nu mi-ar fi nici cum recunoscătoare de ceea ce aş face pentru ea.</p>
+<p>Pe lîngă suma hotărîtă mai bine mai adaog ceva şi iau şi o pereche de cercei Doforidei ca să fie garnitura complectă.</p>
+    
+        
+            <p><label>VII</label></p>
+<p>In ziua de sîntul Vasile, Stamatache nu dete nimic soţiei sale.</p>
+<p>Dar tocmai cînd trecea prin salon ca să ducă Doloridei brăţara, broşa şi cerceii, el zări mai multe cutii cu cofeturi ce fuseseră trămise doamnei Stamatache.</p>
+<p>— In adevăr! ... soţiei mele nu-i plac cofeturile, murmură el... cu chipul acesta fac o economie.</p>
+<p>Şi el luă ne cele mai mari două cutii ca să le ducă Doloridei!!!</p>
+    
+        
+            <p><label>VIII</label></p>
+<p>In anul acesta au să fie desigur încă mulţi Stamatache!</p>
+    </div>
+
+<div type="chapter">
+    <head>XVI. OGLINDA</head>
+<head><hi>Poveste</hi></head>
+    
+        <p>Deci se întîmplă în vremea aceea — dacă a fost ieri sau acum treizeci de ani, aceasta nu aş putea-o tocmai preciza —, se întîmplă că o mare larmă se urcă spre cer!</p>
+<p>Cor compus de lamentaţiunile desperate a 80 şi mai bine de mii bărbaţi bucureşteni cari gemeau astfel:</p>
+<p>— Vai! şi iar vai! pe dracu l-am căutat în corabie?</p>
+<p>Timpii sînt grozav de aspri pentru corporaţiunea noastră, în acest oraş al pieirii şi neruşinării! Romanuri, teatruri, soarele, totul este un pericul pentru repaosul nostru, totul ne ochieşte la cap.</p>
+<p>Noi suntem cu toate acestea cei mai interesanţi şi cei mai spirituali bărbaţi ce s-au văzut vreodată. Şi cei mai seducători chiar!</p>
+<p>Dar femeile sunt aşa de fantastice creature!</p>
+<p>Cine ne va protege? ne va prezerva? ne va scoate din necaz? ... Ajutor! ... Ajutor! ... Ajutor!... Ajutor!...</p>
+ <p>Scoţînd acest apel desperat, <foreign><hi>tutti</hi></foreign> deveniseră aşa de formidabili încît buna femeie Veritatea, care cu toate acestea locuieşte prea departe de glorioasa noastră capitală, auzi ecoul plîngător al acestor stanţe cufundate în plinsete.</p>
+
+    <milestone rend="dots" unit="subchapter"/>
+    
+        <p>Cu toate cele ce au pretins mincinoşi, Veritatea este o excelinte persoană. Crudă numai pentru cei ce merită.</p>
+<p>Ea fu dar mişcată foarte tare de concertul desperaţilor.</p>
+<p>Asupra cărora, luînd un costum mai puţin primitiv de cit capotul său ordinar, ea alergă în fuga mare aci jos pe pămînt, şi printr-o înştiinţare, placardată pe toate zidurile, cu voia autorităţii, jşvită pe bărbaţii cufundaţi în plînsete să se strîngă chiar. în flpp? va în flîmpul-Virtutilor. pentru o comunica-ţiune ce îi interesa.</p>
+<p>Această alegere a Ompului-Virtuţilor, care mergea drept la inima invitaţilor — cineva este totdeauna simţitor la cele mai neadevărate linguşiri! — această alegere nu putea să nu dispuie în favoare-i spiritele.</p>
+<p>Aşadar, la ora hotărîtă, nimeni nu lipsi de la întâlnire.</p>
+<p>Cei 80 şi atîţia de mii erau în cel mai mare complect, şi cele 160 şi a tîtea mii de mîini ale lor bătură în palme, cînd apăru Veritatea, liniştită, zîmbi-toare, plină de bunăvoinţă.</p>
+    <milestone rend="dots" unit="subchapter"/>
+    
+    
+        <p>Ştiind că ea cu greu poate fi auzită, curajoasa fată se aşeză în centrul regimentului, şi, vorbind cu ajutorul unei trîmbiţe:</p>
+<p>— Scumpii mei amici, zise ea.</p>
+<p>Doleanţele voastre m-au mişcat prea profund. Am înţeles perplexităţile voastre, şi am otărît a vă aduce ajutorul ce imploraţi cu atîta ardoare.</p>
+<p>Cu totul contra opiniunii interesate a medicilor voştri, părerea mea este că ,a preîntîmpina qftţf mai bine decît a vindeca.</p>
+<p>Preîntîmpinaţi dar, amicii mei.</p>
+<p>Fiecăruia dintre voi îi voi da chiar azi o oglindă. mulţumită căria va fi sigur de a de periculele condiţiunii voastre.</p>
+<p>îndată ce oarecare flgnorocire va ameninţa liniştea voastră, veţi fi gĂrrvnifînafîyp care va începe să acopere chipul vostru în acest fidel reflectatore.</p>
+<p>Priţi-vă cu grijă în fiecare dimineaţă.</p>
+<p><hi>Albeaţa ordinară</hi> va însemna securitate.</p>
+<p><hi>Galben ca paiul</hi>, uşoară nelinişte.</p>
+<p><hi>Galben ca dovleacul</hi>, atingeri serioase.</p>
+<p><hi>Galben ca şofranul</hi> — va fi prea tîrziu!</p>
+<p>Dar, înştiinţaţi mai dinainte voi nu veţi lăsa să vie la voi această nuanţă desperată. Chiar de la galben ca paiul, voi veţi şi lua precauţiuni şi veţi redobîndi cea mai reasigurătoare albeaţă.</p>
+<p>Mergeţi, scumpii mei amici, fiţi fericiţi — şi aveţi copii mulţi, dacă mijloacele vă permit de a-i creşte.</p>
+<p>Trăiască Veritatea! răspunseră în cor cei 80 şi atîţia de mii reasiguraţi.</p>
+    
+    <milestone rend="dots" unit="subchapter"/>
+    
+    <p>Întorcîndu-se de la Cîmpul Virtuţilor cei 80 şi atîţia de mii trecură pe dinaintea unui zid pe care erau placardate afişurile spectaculilor din acea seară.</p>
+ <p>La Teatrul Naţionale se juca <title><hi>Bărbatul dat pe beţe</hi></title>.</p>
+<p>Toţi — cu dispreţul ce le inspira noul lor talis-man, leşinară de rîs, cugetînd la nefericirile acestui sărman bărbat.</p>
+<p>Dar, vai! bunul simţ propune, şi omul dispune.</p>
+<p>A doua zi de dimineaţă — se vede că menagiul lui îi cam da zor —, cel dintîi din cei 80 şi atîţia de mii, văzîndu-se în oglindă sa providenţiale, zări deodată...</p>
+<p>Cu neputinţă de a se înşela!</p>
+<p>Era tocmai pe tocmai o culoare blondă cu spicifl de grîu. Culoarea primului grad.</p>
+<p>— Hî! hî! drace!... soţia mea! ... strigă el cu o intonaţiune de beţiv, soţia mea mă... Eu... Ea mă iubea atît! ... de unde ar putea dar să vie!.. Este adevărat că, de cîtva timp, blestematul de Club îmi ocupă toate serile... Aş face poate mai bine să stau puţin mai des lingă ea... Mulţumim! sunt sătul de a fi numai cu ea... O lună de miere d-un an, îmi pare că e prea destul... Şi apoi am promis astă seară să joc pichet cu Tache... voi sta acasă într-altă zi.... Afară de asta, oglinda nu ştie ce spune... Mariţa n-ar cuteza...</p>
+<p>Şi el plecă la Club.</p>
+<p>A doua zi veni rîndul celui de al doilea din cei 80 şi atîţia de mii.</p>
+ <p>—Galben ca paiul! ... sunt galben ca paiul! ... A! saraca Zincuţa, o femeie pe care am luat-o de soţie numai pentru banii ei, ar avea curagiul să...</p>
+<p>Hîm! ... ăl Alecuţă care tot vine pe la noi...</p>
+<p>Aidea de! ca şi cum ar exista un om mai încîntător, mai frumos, mai fermecător decît mine!</p>
+<p>Ce e drept, toată ziua sunt la Casino, unde, să o ştiu numai eu, am pierdut luna asta mai bine de o sută de galbeni...</p>
+<p>Ducă-se dracului această oglindă idioată... Trebuie să-mi întorc banii mei.</p>
+<p>Şi se duse la Casino.</p>
+    
+    <milestone rend="dots" unit="subchapter"/>
+
+    <p>A trei zi, veni rîndul celui de al treilea:</p>
+<p>— Galben ca dovleacul! Dovleac, cine? galben ce? ... Lucru dracului IrTrasa popei! ... Dar nu-mi plac mie aseminea culori! ...</p>
+<p>Dar eu ...</p>
+ <p>Nu mai este dar nimic sacru pe pămînt! ... O <foreign><hi>demoaselă</hi></foreign> ce am luat-o din provincie! care are gusturi de familie! care ştie să facă dulceaţă şi să dreagă ciorapi!</p>
+<p>Nu-i iau oare destule zarzavaturi pentru murături? n-are destule pînzeturi ca să-şi ocupe acul? Asta nu este de crezut! Aşa dar ce-i mai trebuie?</p>
+<p>Ştiu bine că Zoe m-absoarbe puţin, mult, cu pasiune, şi că nu viu acasă uneori deloc.</p>
+<p>Soţia mea are ea oare bănuieli?</p>
+<p>Aş! ea! candoarea provincială! ... îngerul pastei de gutui! ... Această oglindă este o neghioabă.</p>
+<p>Ea mă iubeşte ca soţie. Zoe mă adoră ca... două amoruri de femei în două deosebite moduri. . Eu sunt un fericit craidon.</p>
+<p>Şi el zbură la Zoe.</p>
+    
+    <milestone rend="dots" unit="subchapter"/>
+    
+    <p>Aşa şi cu ceialţi.</p>
+<p>La finele anului, ei erau 79 de mii tocmai galbeni ca şofranul!!!</p>
+<p>79 de mii cari, atunci, — ca să nu se mai vază — aruncară oglindele lor pe fereastră ...</p>
+<p>Veritatea adună cu prudinţă rămăşiţa pachetului, care ar fi fost tot sfărîmat.</p>
+ <p>Căci cei 80 şi atîţia de mii sunt oamenii cari, avînd un barometru ce zice <foreign><hi>tempestă</hi></foreign> şi o bătătură la picior care zice 
+<hi>timp frumos</hi>, ei preferă totdeauna să păstreze bătătura şi să se desfacă de barometru.</p>
+</div>
+    
+   <div type="chapter">
+    <head>XVII.GRAMATICA LIMBEI AMORULUI </head>
+       
+           <p><label>Prefaţă</label></p>
+<p>Nu vă fie teamă. Ea va fi scurtă.</p>
+<p>Şarpele invidiei este cel care-mi pune pana In mină — dacă-mi este permis, fără ca să fiu doctor în litere, să uzurp o aseminea metaforă.</p>
+<p>Am băgat de seamă că grămatica d. Ioniţă Popp a ajuns la a nu ştiu cita ediţiune, şi trebuie să fi raportat sumă de bani editorelui său.</p>
+<p>Fără ca să caut a aprofunda acest mister de aritmetică, fără ca să mă întreb cum se poate face ca acest fel de publicaţiuni să obţie un succes aşa de necrezut într-o ţară unde se vorbeşte aşa de puţin româneşte, am găsit posibilitatea de a institui o concurinţă.</p>
+<p>O institui.</p>
+    <p>Limba amorului <foreign><hi>facile</hi></foreign> şi <foreign><hi>dificile</hi></foreign> nu este şi nu poate fi invederat aceeaşi cu a marilor şi micilor noştri autori, adică cu a lui <title><hi>Issachar</hi></title> şi a lui <title><hi>Grigore Vodă</hi></title>, drama.</p>
+    <p>Aşa dar, <title><hi>Gramatica limbei amorului</hi></title> împle o lacună.</p>
+<p>S-o împlem!</p>
+    
+       
+           <p><label>Introducţiune</label></p>
+           <p>1. Gramatica limbei amorului este arta de a vorbi, de a scrie şi de a trăi incorect.</p>
+<p>2. Ca să vorbească şi ca să scrie, cineva se servă cu cuvinte; ca să trăiască se servă cu aproapele său.</p>
+<p>3. Cuvintele sunt compuse de litere şi literele sunt compuse de cuvinte.</p>
+<p>4. Sunt două feluri de cuvinte: cuvintele variabili şi cuvintele invariabili.</p>
+           <p>Exemplu: <hi>Te iubesc, Costică, Nae, Matei, Guţă, lancule sau Mitică.</hi></p>
+<p><hi>Te iubesc</hi>, — cuvinte invariabili, cari nu se modifică niciodată, orOa ce fiinţă avută de sexul masculin de s-ar adresa.</p>
+<p><hi>Costică, Nae, Matei, Gupă, Iancu, Mitică</hi> — cuminte variabili, prea variabili chiar, pentru că se pot schimba de mai multe ori în aceeaşi zi.</p>
+
+    
+        <p><label>I</label></p>
+<p><label>Despre substantiv</label></p>
+        <p>1. <hi>Substantivul sau numele</hi> reprezintă o fiinţă sau un obiect oarecare: 
+<hi>copilărie, familie, birjar.</hi></p>
+<p>2. Sunt două feluri de nume: numele <hi>comune</hi> şi numele <hi>proprii</hi>.</p>
+<p>Numele comune sunt cele care le-a primit de moştenire, precum: <hi>Lucsandra, Stanca, Safta, Bălaşa</hi> etc.</p>
+<p>Numele proprii sunt acelea ce şi le dau, precum: <hi>Eleonora, Emilia, Zozo, Eugenia</hi> etc.</p>
+            <p>3. Printre nume sau substantive, sunt unele cari, deşi la singurit, prezint spiritului ideea mai multor persoane formînd o colecţiune.</p>
+            <p>Astfel sunt: <hi>chirie, toaletă, nutriment</hi> etc.</p>
+<p>4. Substantivii au două proprietăţi: <hi>felul</hi> şi <hi>numărul.</hi></p>
+<p>5. Felul este cel care reprezintă distincţiunea ambelor sexe.</p>
+        <p>Numărul... In <title><hi>Gramatica limbei amorului</hi></title> nu-l bag în seamă niciodată.</p>
+        
+        
+    
+        <p><label>II</label></p>
+        <p><label>Despre articul</label></p>
+            <p>1. Există diferite chipuri de a face articulul.</p>
+    <p>Aceasta depinde de stagiuni, de caractere, și de o mulțime de considerațiuni prea particulari.</p>
+    <p>Printre principalele chipuri de a face aricolul, noi ne vom mărgini să cităm:</p>
+<p>Iarna: — <hi>Vînătoarea prin balurile mascate,</hi> ori care de ar fi caracterul balului.</p>
+<p><hi>Vizitele dese</hi>, în foaerul operei şi bufetele diferitelor baluri.</p>
+<p><hi>Cinele</hi>, ori la care birt.</p>
+<p><hi>Vara:</hi> — Seratele de la Belle-Vue.</p>
+<p><hi>Poza şi tonul</hi>, la grădina Kiseleff.</p>
+<p><hi>In orice stagiune:</hi> Scena geloziei, prea simpatică oamenilor în etate cari se cred iubiţi numai pentru ei.</p>
+        <p><hi>Leşinul şi istericalele</hi> — ascund minunat situaţiunea, cînd este vorba de a se prinde în flagrante delict.</p>
+       <p>2. Pentru mai întinse detaliuri, a se adresa oriunde. Aceasta intră în domeniul public.</p>
+        
+    
+    
+        <p><label>III</label></p>
+<p><label>Despre adjectiv</label></p>
+            <p>1. Sunt două feluri de adjectivi: adjectivii calificativi şi adjectivii determinativi.</p>
+        <p>2. Adjectivul calificativ se adaugă la substantiv ca să exprime calităţile.</p>
+            <p>Exemplu: — <hi>Lacom, mincinos, gogoşar,</hi> etc. etc. etc.</p>
+         <p>3. In <title><hi>Gramatica limbei amorului</hi></title> nu se cunoaşte decît un singur adjectiv determinativ: acel adjectiv este adjectivul <hi>avut</hi>.</p>
+<p>4. Adjectivii numerali sunt acei cari serv a număra: <hi>unu, doi, trei,</hi> etc.</p>
+<p>în calculul anilor, adjectivii numerali sunt supuşi la o regulă generală şi fără excepţiune, adică: a întrebuinţa totdeuna o zecime mai mult cînd e vorba despre o amică şi o zecime mai puţin cînd e vorba despre sine.</p>
+    <p>Exemplu: <hi>Lina are 40 ani şi eu 20</hi>, ceea ce vrea să zică în realitate: <hi>Lina are 30 ani şi eu tot atît.</hi></p>
+        <p>5. Adjectivii <hi>demonstrativi</hi> se întrebuinţez în un mod mai delicat. Trebuie să ştie cineva a-i varia după natura celor către cari îi adresează şi a circumstanţelor în cari au trebuinţă.</p>
+<p><hi>Micul meu băieţel</hi> sau <hi>scumpul meu Bibi</hi> se întrebuinţează cu preferinţă pentru o cerere de dar.</p>
+            <p><hi>Domnule, eşti un infam</hi>, sau <hi>eu nu sunt decît o femeie slabă</hi>, cată să fie rezervaţi pentru marile solemnităţi, de exemplu pentru cazul în care el vrea s-o lase şi în care ţine să facă ca el să-i dea un adio sunător.</p>
+<p>6. Adjectivul <hi>posesiv</hi> este acela care exprimă ideea posesiunii.</p>
+<p>Observaţiune particulară: — nu trebuie să întrebuinţeze cineva adjectivul posesiv cînd sensul indică lămurit care este obiectul posesor.</p>
+    <p>Astfel, nu se zice: mă doare capul meu, sensul nefiind îndoios; dar se poate zice: mi-am <hi>ars părul meu coafîndu-mă</hi>, ca să se deosebească de cel pe care-1 cumpără de la coafor.</p>
+    
+    
+    
+        <p><label>IV</label></p>
+<p><label>Despre pronume</label></p>
+  <p>1. Pronumele este un cuvînt ce se pune în locul numelui spre a şi-l aduce aminte. Astfel, în loc de a se zice: <hi>Guţă mă îneacă cu tandreţele sale,</hi> se zice simplu: <hi>El mă îneacă cu tandreţele sale.</hi> Toată lumea va înţelege că aci este vorba despre un protectore.</p>
+<p>2. Pronumele relative sunt astfel numite pentru că fac să se distingă un grad de reiaţi une mai mult sau mai puţin intim cu substantivul.</p>
+<p>Astfel, la o întîia scrisoare în care se oferă o inimă însoţită de alte articole, se răspunde:</p>
+<p><hi>„Domnule,</hi></p>
+<p><hi>Dumneata nu ştii cu cine ai a face“.</hi></p>
+<p>La a treia:</p>
+    <p><hi>„Pe diseară. Tu să nu uiţi şampania după care sunt nebuna".</hi></p>
+<p>3. Pronumele relative sunt acele cari arăt c-un chip nehoţărît, persoanele a căror lipsă o amintesc.</p>
+    <p>Exemplu: — <hi>Da, scumpa mea, cineva s-a împuşcat pentru mine în anul 1857.</hi></p>
+    
+    
+        <p><label>V</label></p>
+<p><label>Despre verb</label></p>
+    <p>1.<hi>Regulă generală.</hi> în <title><hi>Gramatica limbii amorului</hi></title>nu sunt deeît verbi prea neregulaţi.</p>
+        <p>Astfel sunt: <hi>a iubi, a plăti, a intra, a mînca, a dormi</hi> etc.</p>
+<p>2. Cu toate acestea sunt două excepţiuni ce se văz rar: acestea sunt verbii cugetaţi: <hi>a economisi</hi> şi <hi>a se căsători</hi>.</p>
+<p>3. Fără a număra un verb auxiliar, numit astfel pentru că este cel mai neapărat în viaţă.</p>
+    <p>Acest verb auxiliar este verbul <hi>a avea</hi>.</p>
+    <p>4. Verbul impersonale, care nu admite deeît o singură persoană, este căzut în disuetudine.</p>
+    <p>5. Sunt mai adeseaori trei persoane: una în salon, cealaltă ascunsă în budoar, şi a treia într-un dulap.</p>
+    <p>6. Cîte odată sunt şi mai multe.</p>
+    <p>7. Numărul modelor este nemărginit!</p>
+    <p>8. <hi>Indicativul</hi> se traduce obişnuit prin chipul de a se întoarce, printr-o privire, printr-o izbucnire de rîs.</p>
+<p>9.<hi>Condiţionalul</hi> este prea adeseori întrebuinţat.</p>
+    <p>Exemplu: <hi>Dacă nu voi avea paltonul de catifea, mîine la prînz, te las.</hi></p>
+<p>10. <hi>Imperativul</hi> se traduce în diferite chipuri.</p>
+    <p>Cel mai uzitat este, deocamdată: <hi>La Zamfir!</hi></p>
+    <p>11. <hi>Timpul</hi> în <title><hi>Gramatică limbei amorului</hi></title> este acel ceva de care îngrijesc cît se poate mai puţin şi care-şi răzbună cît se poate mai mult.</p>
+    <p>12. Tot ce ar fi mai trist după <hi>trecut</hi>, ar fi <hi>prezentul</hi>, dacă n-ar rămînea <hi>viitorul.</hi></p>
+    
+    
+        <p><label>VI</label></p>
+<p><label>Despre negaţiune</label></p>
+           <p>1. Nu! ... întrebuinţarea lui este foarte rară.</p>
+    
+    
+    <p><label>VII</label></p>
+<p><label>Despre prepoziţiune</label></p>
+   <p>1. Prepoziţiunea este un cuvînt invariabile care servă a exprima raporturile ce au cuvintele între ele.</p>
+<p>Exemplu: <hi>Cu cine ai venit tu astă seară?</hi></p>
+    <p>—<hi>Acea femeie îmi stă în gît!</hi></p>
+    
+    
+        <p><label>VIII</label></p>
+<p><label>Despre conjuncţiune</label></p>
+            <p>1. Nimic de zis.</p>
+    
+    
+        <p><label>IX</label></p>
+<p><label>Despre interjecţiune </label></p>
+        <p>1. Cu totul variată.</p>
+        <p>Exemplu: <hi>Ah! atunci dacă e aşa, şit!</hi> ...</p>
+    
+    
+        <p><label>X</label></p>
+<p><label>Despre accent</label></p>
+   <p>1. Prea franţuzesc ca să se ia drept streine. Exemple alegeţi, sunt destule.</p>
+
+    
+        <p><label>XI</label></p>
+<p><label>Despre analiza logică</label></p>
+            <p>1. Unul din capitúlele cele mai importante ale <title><hi>Gramaticei limbei amorului</hi></title>.</p>
+<p>2. Analiza logică se aplică la studiul propoziţiunilor.</p>
+            <p>3. Ea are misiunea de a le ghici şi a le controla. Exemplu: — <hi>Birjă cu luna, lanţ bun de ceasornic,un ac de diamant la cravată. Asta este ceva serios.</hi></p>
+<p>4. Miopia, în analiza logică, este un caz pendabile.</p>
+
+    
+        <p><label>XII şi cel din urmă </label></p>
+        <p><label>Despre ortografie</label></p>
+                   <p>1. Nici pomeneală! ...</p>
+       <milestone rend="dots" unit="subchapter"/>
+<p>Şi acum, tată Popp, profesorele meu, binecuvîntarea ta!!!!</p>
+</div>
+
+   <div type="chapter">
+ <head>XVIII.CONCLUZIUNE</head>
+       <p>Poate, amice lectore, că ajungînd la cele din urmă pagine ale acestei cărţi eşti tentat a-mi adresa o mustrare.</p>
+<p>Mustrarea că, într-un volum întreg asupra amorului, n-am găsit un mic loc idealului.</p>
+<p>Vai! apărarea mea nu este decît prea uşoară de făcut.</p>
+<p>A vorbi despre ideal ar fi constituit, în ora în care avem plăcerea să vorbim împreună, un foarte mare anacronism.</p>
+<p>Şi afară de asta, ce este idealul?</p>
+<p>Ii ştii tu definiţiunea, amice lectore?</p>
+<p>Nu! crede-mă. In deşert i-ai căuta-o.</p>
+<p>Căci idealul n-are definiţiune.</p>
+<p>El este tot — şi nimic</p>
+<p>Este una pentru tine, alta pentru mine, altceva pentru un al-t.rpilea.</p>
+<p>Ceea ce face că, neavînd acelaşi scop, va fi totdeauna cu neputinţă oamenilor să ajungă la acelaşi rezultat.</p>
+<p>Drept probă:</p>
+    
+       <p><hi>Idealul savantului</hi></p>
+<p>— Pui zero şi reţiu şase.</p>
+<p>A plus B ... sinus et cosinus.</p>
+<p>Este lămurit! ... sunt pe drum ... încă cîţiva ani de căutări şi voi descoperi poate problema ce o urmăresc ziua şi noaptea!</p>
+<p>A şti în fine cît timp i-ar trebui luminei unei luminări ca să meargă d-aci la Cahul.</p>
+    
+       <p><hi>Idealul unei domnişoare</hi></p>
+<p>— Un june blond, cu mînuşi turnate pe mină şi cu nişte ochi mari.</p>
+<p>Vorbind ca o carte, cînţînd ca un album de muzică şi recitind în conversaţiune versuri de ale lui Bolintineanu în proză.</p>
+    
+       <p><hi>Idealul tatălui ei</hi></p>
+<p>— Un ginere sărat şi piperat, greu la cîntar, posesor de cîteva prăvălii în Bucureşti, bez vreo moşie.</p>
+<p>Plăcîndu-i să strîngă banii şi să nu cheltuiască deloc.</p>
+<p>— O epidemie, Dumnezeul meu!</p>
+<p>Un amoraş de epidemie.</p>
+<p>In acele minute ia cineva orice doctor. Vor fi dar siliţi să vie şi la mine.</p>
+<p>Odată aci, inventez un medicament secret, fac anunţuri în jurnale prin intermedierea unui farmacist cu care mă-ntovărăşesc, şi...</p>
+
+       <p><hi>Idealul amorezei</hi></p>
+<p>— Un domn...</p>
+<p>Mut — ca să nu fiu ucisă cu declaraţiunile sale.</p>
+<p>Surd — ca să nu poată auzi povestindu-i-se istoriile trecutului, prezentului şi viitorului meu.</p><p>Orb — ca să mă întîlnească fără inconvenient la braţul lui Cutare.</p>
+<p>Şi pe lîngă acestea, avut ca toate împrumuturile coprinse în budgetul Statului.</p>
+<p>Dar cerul nu-mi va trămite niciodată o asemenea fericire.</p>
+
+       <p><hi>Idealul soldatului</hi></p>
+<p>— Să fie o bătălie!</p>
+<p>Moare colonelul, moare locotenentul-colonel, moare comandantul, mor căpitanii, mor locotenenţii, mor sergenţii, mor caporalii... Mor toţi soldaţii.</p>
+<p>Şi eu trec general după vechime cu atîtea deco-raţiuni încît să nu mai aibă loc pe individualitatea mea.</p>
+
+       <p><hi>Idealul profesorului de ştiinţele de stat</hi></p>
+<p>— Istoria ştiinţelor meteorologice vorbeşte de ploi de foc, de ploi de broaşte, de ploi de pucioasă.</p>
+<p>Dacă-ar putea să dea una în minutul cînd mi-ncep cursul meu.</p>
+<p>Ar fi siliţi să intre înăuntru.</p>
+<p>Şi odată în viaţa mea voi vorbi şi eu în faţa unui plural de amatori!</p>
+
+       <p><hi>Idealul nepotului</hi></p>
+<p>Unchiul meu!</p>
+<p>Mănîncă mult şi începe să doa/mă după prînz. Acesta este semn bun.</p>
+    <p>Voi ceti ceva despre apoplexie în <title><hi>Doctorul de casă</hi></title>.</p>
+           <p><hi>Idealul poetului</hi></p>
+     <p>— Un miop care să se înşele şi care crezînd că cumpără <title><hi>Cartea de bucate</hi></title> să ia în locu-i sonetele mele.</p>
+<p>Dar afurisiţii de ochelari văd aşa de bine acum!</p>
+
+           <p><hi>Idealul restauratorului</hi></p>
+<p>Să fac coteletele de căprioară cu orice.</p>
+<p>Cu bou, cu cal, cu măgar, cu catîr.</p>
+<p>Dar acestea încă cost.</p>
+<p>Deoarece, dacă aş găsi un mijloc ca să fac de sgîrci inalterabile, aceleaşi ar servi zece ani!</p>
+
+           <p><hi>Idealul directorului de teatru</hi></p>
+<p>— Au n-ar fi un mijloc să suprimăm pe autori?</p>
+
+           <p><hi>Idealul dramaturgului</hi></p>
+<p>— Au, n-ar fi un mijloc să suprimăm pe directori?</p>
+
+           <p><hi>Idealul bibliofilului</hi></p>
+     <p>— O <foreign>editio princeps</foreign>.</p>
+<p>Murdară, ilizibilă, plină de greşeli de tipar.</p>
+<p>Ticăloşii ăştia de neguţători de cărţi vechi le ascund, domnule. Le ascund!</p>
+     
+           <p><hi>Idealul financiarului</hi></p>
+<p>— Iată o jumătate de rublă. Toată lumea ştie că este o jumătate de-rublă.</p>
+<p>Este scris chiar de-asupra în caractere foarte citeţe. Cum să fac ca să şe ia acest ban drept o rublă? La întîia cercetare, aceasta se pare cu neputinţă. Cine mai ştie?...</p>
+
+           <p><hi>Idealul hoţului</hi></p>
+<p>— O mahala deşeartă, o casă izolată, un port-mo-nedă populat... şi nici un sergent de noapte.</p>
+
+           <p><hi>Idealul artistei dramatice</hi></p>
+<p>Să seamăn cu <hi>Rachela</hi>, şi să trăiesc în loc să mor.</p>
+
+           <p><hi>Idealul advocatului</hi></p>
+<p>— Cauza este neînţeleasă.</p>
+<p>Eu pledez alb, adversarul meu pledează negru. Judecătorii hotărăsc pestriţ.</p>
+<p>Noi apelăm; Curtea decide verde.</p>
+<p>Mergem la casaţiune.</p>
+<p>Curtea opinează vioriu.</p>
+<p>Ce frumos proces!</p>
+<p>— Ce admirabile proces! ce incomparabile proces!</p>
+
+           <p><hi>Idealul lacomului</hi></p>
+<p>— Aş da încă ceva aceluia care ar imagina digestiunea perpetuă.</p>
+<p>Permite-mi, amice lectore, terminînd, să ţi-l şoptesc uşor la ureche.</p>
+<p>Vezi tu d-aci toate librăriile luate cu asalt? Auzi tu d-aici aceste mii de voci?</p>
+     <p>— Aveţi <title><hi>Catastihul Amorului?</hi></title></p>
+<p>— Nu mai e nici unul, toate s-au vîndut.</p>
+<p>— Ah! Dumnezeul meu! vezi că aş fi voit...</p>
+<p>— Nu eşti numai dumneata singur.</p>
+<p>— Se zice că este un cap de operă.</p>
+         <p>— Dec! 10 mii de exemplare au fost vîndute în trei sau patru ore!...... . . . . . </p>
+        
+<p>Tăcere, inima mea!</p></div>
+    <trailer>Fine</trailer>
+</body>
+    <back>
+        <div type="notes">
+        <note><p>Pe coperta volumului apărut la 1865 se află scris: <hi>Biblioteca Română</hi>. 
+            <hi>Seria întîia. Volumul întîtu. Catastihul amorului şi La gura sobei. Editore: Thoma L Stoenescu. Bucureşti. Tipographia Stephan Rassidescu, 1865“.</hi> Volumul cu acest titlu există la Biblioteca Centrală de Stat sub cota II — <hi>14874</hi> iar la Biblioteca Academiei sub cota <hi>II—78036</hi>.</p>
+<p>Partea a I-a a cărţii, purtînd titlul de <hi>Catastihul amorului</hi> cuprinde un număr de 18 capitole, concepute sub formă de foiletoane satirice şi aşezate la începutul naraţiunii pro-priu-zise (partea a Il-a). Termenul de <hi>catastih</hi> se bucura de oarecare faimă în epocă printr-o rubrică scandaloasă intitulată <hi>„catastihul dracului</hi>“ în jurnalul satiric 
+<hi>Nichipercea </hi>al lui N. T. Orăşanu, în care erau înscrise numele unor datornici, de obicei a celor ce nu trimeteau plata la abonamentele de ziare. Sintagma „catastihului dracului“ o găsim folosită cu unele nuanţe noi şi de către Radu Ionescu în o seamă de articole satirice din 
+<hi>Românul</hi>, în cursul anului 1864, data sigură a elaborării acestei părţi a cărţii: Dar părinţii oraşului vor striga: „ — Catastihul dracului!“ Cine şi-ar fi putut închipui că blestematul de evreu să înscrie asemenea cheltuieli în registrul său şi încă să le înscrie anume. Şi încă să cază acel<hi>Catastih</hi> pe mîna unor sindici eari să poată descifra caracterele ebraice şi cari, în loc d-a merge la acei domnişori ş-a le vinde c-un preţ bun tăcerea, ei arată cele scrise judecătorului — comisar“ (Radu Ionescu, <hi>Pentru ce nu este luminat oraşul,</hi> în 
+<hi>Românul,</hi> 20 martie 1864).</p>
+<p>Partea a II-a a cărţii, purtînd titlul <hi>La gura sobei,</hi> cuprinde naraţiunea propriu-zisă, împărţită în 36 de capitole,numerotate cu cifre romane şi purtînd în majoritatea cazurilor şi cîte un subtitlu, semnificativ pentru personajele care participă la desfăşurarea acţiunii sau pentru perspectiva din care sînt privite faptele de viaţă. între cele două părţi ale cărţii există nu numai o legătură de idei şi de stil, prin contrast, ci şi o reluare de pasaje, precum discuţia despre amor din partea a I-a, cap. 3, regăsibilă într-o formă mai scurtă, dar tot dialogată în partea a Il-a, cap. 28.</p></note>
+<note>1 Pasajul acesta este deosebit de important pentru a sesiza mai îndeaproape situaţia autorului anonim al romanului. El se arată a fi — conform dezvăluirilor din acest pasaj —, nu un începător în ale scrisului sau un om cu preocupări îndepărtate de această profesiune, ci, dimpotrivă, un scriitor cu experienţă, paradoxal şi reflexiv, cu multe proiecte literare începute şi neterminate. Caracterizarea 8$ suprapune biografiei spirituale, pînă la acel moment, a presupusului autor, Radu Ionescu.</note>
+<note>2 Titlul <hi>Morţii vii</hi>, la care se gîndeşte la un moment dat autorul anonim pentru romanul său, se arată a fi un fel de variantă la titlul celebrului roman al lui Gogol, 
+<hi>Suflete moarte</hi>, despre care vorbeşte Radu Ionescu în paginile cronicilor sale teatrale din jurnalul <hi>Independinţa</hi> (a se vedea în acest sens, <hi>Independinţa</hi>, nr. 91/1862, precum şi ediţia <hi>Radu Ionescu: Scrieri alese</hi>, Minerva, 1974, p. 178).</note>
+<note>3 Titlul exact al romanului este <hi>Misterele căsătoriei</hi>, a-părut într-un prim volum la 1861, sub semnătura lui C. D. Aricescu (1823—1886).</note>
+<note>4 Ficţiunea necunoscutului aducînd un manuscris al u-nui roman la redacţie o întîlnim folosită de Radu Ionescu în paginile jurnalului <hi>Independinţa</hi>, în legătură cu publicarea 
+<hi>Don Juanilor din Bucureşti</hi> (sfîrşitul lui 1861 — începutul lui 1862).</note>
+<note>1 Este vorba de Dimitrie Papazoglu (1811—1892), pe acea vreme maior In armata română. Avea preocupări culturale diverse. îl intilnim Ironizat in aceeaşi vreme şi In paginile revistei satirice 
+<hi>Sarivari român</hi> pe care Radu Ionescu o redacta anonim (a se vedea în acest sens articolul 
+<hi>Cursuri publice în grădina Cişmegiului,</hi> în Sarivari român, nr. 7 din 14/26 februarie 1865).</note>
+<note>6 Jean Racine (1639—1699), celebru dramaturg francez din epoca lui Ludovic al XlV-lea, reprezentant de seamă al clasicismului.</note>
+  
+<note><hi>Mistere din Bucureşti</hi>, roman în două volume publicat la 1862 de Ioan M. Bujoreanu (1834—1899). Un roman intitulat <hi>Misterele Bucureştilor</hi> în 3 vol. a publicat George Baronzi (1828—1896).</note>
+  
+<note><hi>Manoil. Roman naţional</hi>, Iaşi, Tipografia româno-fran-ceză, 1955; 
+    <hi>Elena. Roman original de datine politic-filosofic, </hi>Bucureşti, Tipografia Rassidescu. 1862. Ambele aparţin cunoscutului poet D. Bolintineanu (1819—1872).</note>
+<note>9 Titlul complet: <hi>Catastrofa întîmplată boierilor în Muntele Găvanul</hi> — 
+, Bucureşti, 1864, roman de Alexandru Pelimon (1822—1881).</note>
+<note><hi>ex professo</hi> (lat.) — ca un profesor, cu mare competenţă. Aici expresia e folosită în sens ironic, de unde aspectul de anchetă asupra definirii amorului, pe care îl ia în continuare textul.</note>
+<note>11 Despre o misterioasă societate anonimă care împrumută bani cu o camătă de peste 20% se vorbeşte şi-n <hi>Don Juanii din Bucureşti.</hi> Purtătorul de cuvînt al acesteia este în roman „nemuritorul“ Colan. Expresia „peştera ghearelor lungi sau societatea erotică“ ne aminteşte de „uzurarii“ în frunte cu Gheară — zaraful care mişună în spatele Aspa-ziei, eroină din piesa de teatru a lui Matei Millo, <hi>Prăpăstiile Bucureştilor</hi>, analizată de Radu Ionescu în aceşti termeni într-o cronică teatrală din <hi>Independinţa</hi> (nr. 38/1861).</note>
+<note>12 Aluzie ironică la reforma agrară şi legea presei e-misă de domnitorul Cuza, în urma căreia jurnalele de opoziţie, în frunte cu <hi>Românul</hi> lui C. A. Rosetti, fuseseră interzise. Desigur, asemenea săgeţi nu putea veni decît din partea unui opoziţionist înverşunat cum era în epocă Radu Ionescu.</note>
+<note>13 Modul defectuos în care erau întreţinute drumurile publice fac obiectul a numeroase articole satirice ale lui Radu Ionescu, în special în perioada activităţii lui la 
+<hi>Românul</hi> (art. <hi>Ţară de jafuri</hi>, 23, 24 şi 25 martie 1864).</note>
+<note>14 Despre venirea unor tineri din provincie şi ruinarea lor în Bucureşti cam în acelaşi fel cum se întîmplă aici, chiar mai exagerat, aflăm într-o cronică teatrală a lui Radu Ionescu despre 
+<hi>Prăpăstiile Bucureştilor</hi> de Matei Millo <hi>Independinţa</hi> din 10 noiembrie 1861).</note>
+<note>15 Aluzie ironică la romanul <hi>Doritorii nebuni</hi> de Bolintineanu care se publica în 1864 la rubrica „foileton“ din noua serie a jurnalului <hi>Dâmboviţa</hi>, reapărut în acelaşi an sub conducerea scriitorului Grigore Haralamb Grandea. Săgeţi satirice asemănătoare împotriva lui Bolintineanu şi Gr. H. Grandea arunca în aceaaşi epocă Radu Ionescu în paginile revistei 
+<hi>Sarivari român</hi> (a se vedea articolele <hi>Cronică literară şi teatrală</hi>, în nr. 3 din 7 ian. 1865; O <hi>odă tulburătoare</hi> în nr. 5 din 31 ian. 1865; 
+<hi>Mînia „Dâmboviţei"</hi> în nr. 4, 29 ianuarie 1965).</note>
+<note>16 <hi>Exordium ex abrubto</hi> (lat.) — intrare directă, fără introducere în subiect. Este un procedeu oratoric care a devenit celebru în urma utilizării lui de către Cicero în primul său discurs împotriva lui Catilina.</note>
+<note>17 <hi>Quantum mutatus</hi> (lat) — Cît de mult s-a schimbat! Expresia aparţine lui Eneas atunci cînd îl revede pe viteazul Hector în vis plin de răni, în <hi>Eneida</hi> de Virgiliu. Expresia respectivă, în forma ei completă — <hi>Quantum mutatus ab illui</hi> — o găsim utilizată în aceeaşi epocă de către Radu Ionescu în <hi>Sarivari român</hi> (nr. 4 din 31 ian. 1865), pentru a-şi exprima uluirea cu privire la decăderea poeziei lui Bolintineanu.</note>
+<note>18 Refrenele care marchează încheierea fiecărei părţi a acestui capitol par a fi construite prin contrast cu cele din <hi>Cîntic de moarte</hi>, tradus de Radu Ionescu din poezia turcă, în studiul <hi>D-na Dora d’Istria, III</hi>.</note> 
+<note><hi>Femeile în Oriente</hi> (în Révisa Română, aprilie 1862, p. 34). Această imprseie este întărită şi de comparaţia fetei de aici cu o sultană favorită, cum era de fapt şi autoarea <hi>Cînticului de moarte</hi> tradus.</note>
+            <note><hi>Aman, Theodor</hi> (1827—1891), cel mai mare pictor al epocii, întemeietor şi director al Şcoalei de belle-arte din Bucureşti.</note>
+
+            <note><hi>Nae Pantelimonescu</hi> — zugrav obscur al epocii dintr-o suburbie a Bucureştiului. Autorul se arată şi de data aceasta bun cunoscător al realităţilor locale.</note>
+            <note><hi>In hoc signo vinces</hi>! <hi>(lat.)</hi> — Sub acest semn vei învinge! Aici este preluată în sens ironic locuţiunea înscrisă de împăratul Constantin cel Mare pe steagurile sale cînd a pornit din Bizanţ să lupte împotriva Romei decăzute, şi a învins.</note>
+<note>22 Săgeată satirică de aici privind „sufocaţiunile dramelor de la teatrul naţionale“ este evident în spiritul criticilor teatrale ale lui Radu Ionescu din jurnalul său Independinţa, precum cea din nr. 24 (27 oct. 1861), care a stîrnit mînia actorului Matei Millo, pe atunci concesionar al Teatrului Naţional. In continuare sînt şi alte numeroase săgeţi satirice la adresa reprezentaţiilor teatrale care trimit la a-celaşi autor.</note>
+<note><hi>„lude între călăraşi</hi>" — expresie de epocă simbolizînd pe prostul proştilor (de la 
+    <hi>lude</hi> — prost, nătîng, naiv — din bulgară).</note>
+<note><hi>siclet</hi> (turcism) — povară pe suflet, grijă, nelinişte.</note>
+<note><hi>mariaşiu</hi> (din lb. maghiară, în grai bănăţean) — oală mare de pămînt cu o capacitate de 4 litri, din care se servea vinul.</note>
+<note> <hi>cediriu</hi> (turcism) — culoare galbenă, ca paiul griului.</note>
+            <note><hi>hanîmă</hi> (turcism) — turcoaică nobilă, bogătaşă.</note>
+<note><hi>dorată</hi> (franţuzism) — de aur, aurită, strălucită — de la verbul 
+    <hi>dorer,</hi> a auri, a străluci.</note>
+<note><hi>nécessaire</hi> (fr.) — trusă de obiecte indispensabile unui anumit scop, aici pentru toaleta unei femei.</note>
+<note>30 <hi>„fără să fiu doctor în litere"</hi> — aluzie ironică la patalamalele universitare. Aceste aluzii se potrivesc situaţiei biografice a lui Radu Ionescu. El a făcut studii în litere şi filosofic, fără să fi obţinut însă atestări universitare cum îi cerea Heliade în acest sens.</note>
+<note>31 „gramatica d. Ioniţă Poppu — E vorba despre <hi>Grămatică rumânească</hi>... 
+<hi>priimitâ în clasurile de începători</hi>, care Intre 1835—1858 a cunoscut nu mai puţin de 14 ediţii, variind între 80—120 p., fapt la care face aluzie autorul a-aonim. Ioan Popp, coleg cu Heliade la Sf. Sava, şi conti4 nuator al acestuia în problemele predării gramaticii aici si după Revoluţia de la 1848, este autor şi al altor lucrări precum <hi>Lecţii de analisă logică culese şi aşezate în româneşte de.</hi>.. şi <hi>Tractat de punctuaţiune.</hi> La ambele face în continuare aluzii autorul nostru anonim, care se declară a-1 fi fost lui Ioan Popp elev, şi încă unul foarte apropiat („taică Popp“). După cum se ştie, Radu Ionescu a fost şi el în această perioadă elev la Sf. Sava.</note>
+<note>32 Aluzi ironice la scrierile din ultimul timp ale lui <hi>I. Heliade Rădulescu</hi> (1802—1872) şi <hi>Al. Depărăţeanu</hi> (1834— 1865). Aceste aluzii merg pe linia mai vechii polemici a lui Radu Ionescu dusă cu Heliade şi emulii săi în paginile jurnalului <hi>Dâmboviţa</hi> (a se vedea In acest sens articolele <hi>D. Heliade şi 11 iunie</hi> şi 
+<hi>D. Heliade</hi> în <hi>Dâmboviţa</hi> nr. 67 şi nr. 72/1860, cît şi articolul <hi>Politica defăimătorilor lui Heliade</hi> de Al. Depărăţeanu publicat în broşura <hi>Acte proprii a contribui la mărirea conduitei politice a d. I. Eliad Ră-ăulescu, părintele naţiunei.</hi> Redactate şi editate pe speselie mai multor juni români, Bucureşti, 1859).</note>
+            <note>33 Aluzia de aici se pare a nu fi lipsită de unele temeiuri biografice. Anul 1857 este anul plecării în străinătate a lui Radu Ionescu, plecare precedată de o acută dramă sentimentală, după cum reiese din unele aluzii ironice la adresa lui din partea unui coleg de la Sf. Sava ea N. T. Grăşanu. In ideea unei retrospective, acesta îl pune pe Radu Ionescu să exclame „în faţa unei oglinde“: „Craidonul de mine! Amorul! Pasiunile! Visuri dulci ale juneţei mele d* aur... ba nu, ale juneţei mele fără aur...“ (Cicală, nr. 3, din 21 februarie 1865). Aceste dezvăluiri se află într-o simetrie perfectă cu ceea ce i se întîmplă eroului central al romanului, şi el părăsit de femeia iubită pentru aur, părăsire situată şi ea tot într-o viziune retrospectivă faţă de anul 1860.</note>
+<note>34 Problematica idealului va reveni insistent de aici înainte în desfăşurarea naraţiunii. Această problematică se arată a fi centrală, am putea spune obsesivă în întreaga creaţie a lui R. Ionescu.</note></div>
+     </back>
+</text>
+</TEI>

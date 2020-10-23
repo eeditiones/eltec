@@ -1,0 +1,2044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3011" xml:lang="SPA">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Santiago Arabal: historia de un pobre niño : Edición ELTeC</title>
+                <author ref="viaf:87707610">Asensi, Julia de, (1859-1921)</author>
+                <respStmt>
+                    <resp>Edición ELTeC</resp>
+                    <name>Borja Navarro Colorado</name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words">14173</measure>
+                <measure unit="pages">47</measure>
+            </extent>
+            <publicationStmt>
+                <publisher ref="https://distant-reading.net">COST Action "Distant Reading for
+                    European Literary History" (CA16204)</publisher>
+                <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+                <date when="2019-01-20"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                </availability>
+                <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="firstEdition">
+                    <pubPlace>Madrid</pubPlace>
+                    <date>1894</date>
+                    <publisher>Tipografía de los hijos de M. G. Hernández</publisher>- </bibl>
+                <bibl type="digitalSource">
+                    <publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
+                    <pubPlace>Universidad de Alicante</pubPlace>
+                    <idno>12484</idno>
+                    <ref
+                        target="http://www.cervantesvirtual.com/obra/santiago-arabal-historia-de-un-pobre-nino--0/"/>
+                    <date when="2004"/>
+                    <respStmt>
+                        <resp>Corrección del texto, etiquetado XML-TEI y edición Biblioteca Virtual
+                            Miguel de Cervantes</resp>
+                        <name>Alex Bia</name>
+                        <name>Mayte Ávalos Coloma</name>
+                        <name>Josefina Carrión</name>
+                    </respStmt>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="SPA">Español</language>
+                <language ident="ENG">Inglés</language>
+            </langUsage>
+            <textDesc>
+                <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
+                <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-04-23">Anotación formato ELTeC y correcciones varias: Borja Navaro
+                Colorado</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="titlepage">
+                <p>Santiago Arabal</p>
+                <p>Historia de un pobre niño</p>
+                <p>Julia de Asensi</p>
+                <p>Madrid</p>
+                <p>Tipografía de los hijos de M. G. Hernández</p>
+                <p>Libertad, 14 duplicado.</p>
+                <p>1894</p>
+            </div>
+            <div type="liminal">
+                <p>A las señoritas Julia de Asensi y Paca de Alvarado dedica, en prueba de singular
+                    afecto, esta tirada de cien copias, que no se venden.</p>
+                <p>El editor. Marzo de 1894</p>
+            </div>
+        </front>
+        <body>
+            <pb n="7"/>
+            <div type="chapter" n="SPA3011001">
+                <p> Mis recuerdos alcanzan a cuando yo tenía unos cuatro años. Por esa época acababa
+                    de perder a mi madre y vivía solo con mi padre, pescador rudo que me amaba
+                    tiernamente. </p>
+
+
+                <p> Era yo entonces un muchacho fuerte y robusto que, apenas vestido, me pasaba el
+                    día en la playa jugando con otros chicos de mi edad. Curtido por el sol y el
+                    aire del mar, mi rostro hacía singular contraste con mis cabellos rubios y mis
+                    ojos claros. Iba sucio, harapiento, descalzo siempre y no recordaba haberme
+                    puesto sombrero jamás. </p>
+
+
+                <p> Cuando mi padre volvía de pescar, me encerraba en la pobre casa con él y me
+                    hacía acostar en su mismo lecho, después que cenábamos frugalmente. </p>
+
+
+                <p> Había detrás de aquellas paredes un huertecillo dividido por una valla en dos;
+                    la mitad nos pertenecía y la otra mitad era de la casa de al lado. En ésta vivía
+                    una mujer a la que nunca conocí más que por la Roja; no sé cuál sería su nombre.
+                    Era también viuda y había perdido un niño de dos años. En su lugar estaba
+                    criando, desde hacía próximamente uno, a una niña que le habían traído de la
+                    ciudad vecina y por la que le pagaban una pensión. </p>
+
+
+                <p> La Roja cosía y planchaba en las casas, dejando casi todo el día sola en el
+                    huerto a la criatura a la que a horas fijas iba a dar el pecho o alguna sopa
+                    fría y sin sustancia. </p>
+
+
+                <p> Como yo no estaba en casa más que por las noches o <pb n="8"/> cuando iba a
+                    comer, no es de extrañar que apenas conociese a mis vecinas. Pero a los dos años
+                    de muerta mi madre, y cuando contaba ya seis, observé que aquella mujer, en la
+                    que antes ni me había fijado, se acercaba a mí con frecuencia, me acariciaba y
+                    me daba alguna golosina. Mi carácter salvaje me había hecho huir al principio de
+                    ella, pero aquellos bollos con que me obsequiaba, y que yo no había comido
+                    nunca, le granjearon al fin mis simpatías. Por la noche le contaba a mi padre lo
+                    que la Roja me había dado por la mañana o por la tarde. </p>
+
+
+                <p> Un día que me había quedado solo, como de costumbre, en vez de irme a la playa,
+                    se me ocurrió bajar al huerto en persecución de un gato que había visto entrar.
+                    En el jardinillo de al lado estaba la niña, que contaba unos tres años, llorando
+                    con el mayor desconsuelo. Como su llanto me molestase, la mandé callar y, no
+                    viéndome obedecido, cogí un pedazo de ladrillo que había en el suelo y lo tiré a
+                    la cabeza de mi vecinita. Sus gritos fueron entonces más lastimeros y,
+                    llevándose una mano a la frente, la retiró teñida de sangre. </p>
+
+
+                <p> No sé lo que pasó por mí; tuve vergüenza de haber maltratado a aquel ser débil e
+                    indefenso que me miraba con temor con sus negros ojos bañados de lágrimas, y
+                    saltando la valla, lo que no ofreció la menor dificultad para mí, me encontré al
+                    lado de la niña. Hasta aquel momento no la había mirado siquiera. Era
+                    encantadora; con sus cabellos castaños formando caprichosos bucles, su tez de
+                    una blancura deslumbradora que el cierzo no había podido curtir, su boca pequeña
+                    adornada de diminutos dientes y sus ojos de pura y bellísima expresión. Llevaba
+                    una camisa de tela muy gruesa, que dejaba al descubierto hombros y brazos, y una
+                    falda de percal bastante estropeada. Sus pies descalzos tenían algunos rasguños,
+                    lo mismo que sus piernas. </p>
+
+
+                <p> -Mira -me dijo enseñándome la mano manchada de sangre-, límpiame esto. </p>
+
+
+                <p> La cogí en mis brazos sin que opusiera la menor resistencia y, acercándome a un
+                    barreño casi lleno de agua, lavé la herida de su frente primero y la mano
+                    después, secándola <pb n="9"/> con un pañuelo. Al contacto del agua lloró más,
+                    pero luego se serenó pronto, como ocurre a los seres que no tienen costumbre de
+                    ser consolados. Me miraba con ojos asustados y sin atreverse a huir. </p>
+
+
+                <p> -¿Cómo te llamas? -le pregunté. </p>
+
+
+                <p> -Rosa -me contestó. </p>
+
+
+                <p> -Eres una rosa muy linda. </p>
+
+
+                <p> -Rosa linda -repitió. </p>
+
+
+                <p> Y éste fue el nombre con que se quedó para siempre. Registré mis bolsillos, y
+                    habiendo encontrado una rosquilla de las que me diera la Roja y que guardaba
+                    para la merienda, la puse en su mano. </p>
+
+
+                <p> -¿Es para mí? -preguntó con timidez. </p>
+
+
+                <p> -Sí -le dije-, mañana te traeré otra, y pasado, y al otro y siempre. </p>
+
+
+                <p> -¿Como ésta? </p>
+
+
+                <p> - O mejor. </p>
+
+
+                <p> -¿Mejor? </p>
+
+
+                <p> -Sí. ¿No las comes en tu casa? ¡Pues si me las da la Roja! </p>
+
+
+                <p> Hizo con la cabeza una señal negativa y después, sentándose en el suelo, partió
+                    la rosquilla, me dio un pedazo muy pequeño, que no me atreví a rehusar, y se
+                    comió el resto, cuidando mucho de no mancharse. </p>
+
+
+                <p> Desde aquel día no pasó uno sin que viese a Rosalinda y la hablase. Perdido el
+                    temor que le causé al pronto, fue poco a poco tomándome cariño, y aquella pobre
+                    desheredada se consideró dichosa al verse amada y protegida por un amigo. Por mi
+                    parte sufrí un cambio total; lo que había en mí de brusco y de salvaje se
+                    dulcificaba al lado de aquella infeliz niña que vivía en la soledad y el
+                    abandono. Rosalinda tenía instintos elegantes y no tardó en hacer que me
+                    avergonzara de los harapos que me cubrían y de mi suciedad. Todas las mañanas me
+                    daba un baño en el mar, y antes de ir a ver a la niña, sacaba mi traje de los
+                    días de fiesta, que ya me estaba muy corto de pantalón y de mangas, para
+                    presentarme delante de ella. De esto resultó que cuando llegó el día del patrón
+                    del pueblo mi padre vio mi ropa tan deteriorada que no se atrevió a llevarme con
+                    él a la procesión. </p>
+
+
+                <pb n="10"/>
+
+
+                <p> La Roja solía volver a su morada a las dos, para dar el resto de comida de las
+                    casas donde cosía o planchaba a la pobre niña; ésta lo tomaba todo frío y junto
+                    en una cazuela, como se acostumbra a hacer con los gatos. Por la noche cenaba
+                    poco más o menos lo mismo; lo único agradable para ella era el desayuno, que se
+                    componía de una taza de leche y un pedazo de pan muy moreno. No trataba la Roja
+                    ni bien ni mal a la criatura, a la que veía poco; le bastaba con que viviese y
+                    poder atestiguarlo para cobrar la pensión que mensualmente le entregaba un
+                    hombre vestido de negro. Rosalinda había aprendido a andar y a hablar gracias a
+                    una vecina que iba todas las noches a visitar a la Roja, y que se había
+                    compadecido de la niña enseñándole ambas cosas. Completé sus lecciones, y pronto
+                    mi amiga pudo seguir una conversación conmigo. </p>
+
+
+                <p> Pasaba yo a su huerto después que su nodriza se marchaba y permanecía allí tres
+                    o cuatro horas. Le llevaba conchas y caracoles, con los que jugaba, porque
+                    tampoco tenía otra cosa con que hacerlo. A nadie hablaba de mi conocimiento con
+                    la niña, y seguramente no se hubiera averiguado si Rosalinda, a la que contaba
+                    cuanto hacia en la playa, no hubiese manifestado deseos de ir una mañana
+                    conmigo. Fácil me fue, cogiéndola en mis brazos, hacerla pasar al otro lado de
+                    la valla y salir al campo una vez que se encontró en mi huerto. Iba ella con el
+                    temor natural del que nunca se ha visto ante tanto espacio y entre gente, pero
+                    yo la llevaba de la mano y me figuraba que con mi protección tenía bastante
+                    defensa. </p>
+
+
+                <p> La vista del mar le causó un profundo asombro mezclado al pronto de terror. </p>
+
+
+                <p> La marea, que estaba muy baja, dejaba al descubierto unas peñas en las que nos
+                    sentamos. Mojaba con delicia sus pies en los charcos de agua salada y cogía las
+                    conchas que nos arrojaban las olas al estrellarse cerca de nosotros. Varios
+                    muchachos se bañaban, pero yo no me atrevía a hacerlo por no dejar a Rosalinda
+                    sola. </p>
+
+
+                <p> -¿Quieres tú bañarte? -le pregunté. </p>
+
+
+                <p> -Contigo sí, con esos chicos no -me contestó. </p>
+
+
+                <pb n="11"/>
+
+
+                <p> Y es que los niños, que no la conocían, la miraban con ese descaro propio de la
+                    infancia que no tiene para qué ocultar sus sensaciones cuando hay algo que
+                    excita su atención. </p>
+
+
+                <p> -¿Quieres que yo me bañe? -proseguí. </p>
+
+
+                <p> -No, porque te irás lejos y me quedaré sola. </p>
+
+
+                <p> Renuncié por ella a echarme al agua, y comprendiendo que se hacía tarde, traté
+                    varias veces de llevarla a su casa. </p>
+
+
+                <p> -No, déjame un poquito más -me decía. </p>
+
+
+                <p> Entretenidos en jugar, no habíamos observado que la marea iba subiendo. </p>
+
+
+                <p> Una ola llegó hasta nosotros, y hubiese arrastrado a la niña si no hubiera
+                    tenido tiempo de separarla tomándola en mis brazos, pero no pude evitar que la
+                    mojase; su ropa y la mía estaban completamente caladas. </p>
+
+
+                <p> -Vamos a casa -le dije. </p>
+
+
+                <p> Y llevándola de la mano echamos a correr. </p>
+
+
+                <p> Cuando llegamos la hice acostar en el lecho de mi padre y mío, y puse la ropa en
+                    el huertecillo para que se secara. La mía se secó con el calor de mi cuerpo,
+                    pero no era esta la primera vez que me ocurría. Habíamos perdido la noción del
+                    tiempo, y cuando llegó la Roja no encontró a Rosalinda en su jardín. La vi
+                    buscar por todas partes, y cogiendo las pobres prendas que solían cubrir a la
+                    criatura, se las llevé a la alcoba para que se vistiera. Estaba dormida y me
+                    costó trabajo despertarla. Entre tanto oía la voz de mi vecina que gritaba: </p>
+
+
+                <p> -¡Santiago! ¡Santiaguito! </p>
+
+
+                <p> Indudablemente no sospechaba de mí. Tardé en acudir para dar lugar a que la niña
+                    se vistiera, y al fin salí al huerto. </p>
+
+
+                <p> -¿Has visto tú a la chiquilla por algún lado? -me preguntó visiblemente
+                    alterada. </p>
+
+
+                <p> Tuve que decir parte de la verdad; esto es, que se hallaba en mi casa, que la
+                    había hecho pasar para que jugase conmigo. Pero ella con maña siguió
+                    interrogándome y no tardó en averiguar todo lo ocurrido. </p>
+
+
+                <p> -Tráemela -me dijo cuando dejé de hablar. </p>
+
+
+                <p> Fui en busca de Rosalinda, que se resistía a seguirme, y <pb n="12"/> la acerqué
+                    a la valla alzándola para que la Roja la cogiese. </p>
+
+
+                <p> -¿No te había dicho que no salieras nunca de casa? -le preguntó-. ¿No sabes que
+                    soy responsable de lo que, pueda sucederte? ¡Estás helada y vas a coger un mal!
+                    Pero yo te haré entrar en calor. </p>
+
+
+                <p> Y dicho esto, empezó a golpearla con tal furia que la pobre niña, tan paciente
+                    de costumbre, lanzaba desgarradores gritos. </p>
+
+
+                <p> No sé lo que pasó por mí; me cegué y tiré a la Roja cuanto hallé a mi alcance;
+                    luego salté la valla y la pegué con toda mi fuerza con pies y manos. </p>
+
+
+                <p> La Roja soltó a Rosalinda, que fue a refugiarse en un rincón del huerto, y
+                    mirándome con una expresión de cólera que no olvidaré jamás, exclamó: </p>
+
+
+                <p> -Tú me las pagarás, y más pronto de lo que supones. </p>
+
+
+                <p> Aquella tarde no volvió a salir de su casa y esperó sentada a su puerta que mi
+                    padre regresara. Poco me importaba que le dijera lo ocurrido; mi padre era bueno
+                    y alabaría que hubiese tomado la defensa del débil. En esto me esperaba un cruel
+                    desengaño. Apenas llegó y se enteró de lo que había pasado, me castigó
+                    haciéndome sentir por vez primera la fuerza de sus manos. </p>
+
+
+                <p> -Es menester que le mandes a la escuela -dijo la Roja- hasta que pueda ayudarte
+                    a trabajar. </p>
+
+
+                <p> -Mañana mismo le pondré -contestó mi padre. </p>
+
+
+                <p> -Es que, si no, hazte cuenta de que no existo y todo acabó entre nosotros. </p>
+
+
+                <p> Vagamente comprendí el sentido de estas palabras, porque ignoraba lo que todo el
+                    pueblo sabía: que la Roja había logrado hacerse amar de aquel pescador rudo
+                    desde la época en que trató de atraerme dándome golosinas. Su imperio era tan
+                    grande sobre él, que no necesitaba ya fingir cariño al hijo para dominar al
+                    padre. </p>
+
+
+                <p> Desde el siguiente día fui a la escuela; tenía por aquella época unos ocho años
+                    y aún no sabía nada. Allí aprendí en poco tiempo a leer de corrido, a escribir
+                    mal y a contar bien. </p>
+
+
+                <p> Los domingos solía ver un rato a Rosalinda, porque también <pb n="13"/> iba la
+                    niña los otros días al convento, donde las monjas habían empezado su educación.
+                    Cuando ni ella ni yo teníamos clase nos hablábamos por el huerto, pero sin
+                    saltar la valla por temor a que llegaran la Roja o mi padre y nos viesen juntos.
+                    Yo le enseñaba mis premios, que consistían en estampas, y ella los suyos, que
+                    eran medallitas doradas que llevaba con un cordón al cuello. Iba mejor arreglada
+                    que antes, con un vestido de percal, una especie de blusa a cuadros negros y
+                    blancos, y llevaba medias y zapatos. Yo también había mejorado de traje y usaba
+                    calzado, porque en la escuela no me hubieran admitido de otro modo. Rosalinda
+                    estaba más bonita cada día, pero yo veía cómo aumentaba su tristeza y adivinaba
+                    que la pobre niña necesitaba, como los pájaros, aire y libertad. Al preguntarle
+                    si me quería en diversas ocasiones, me respondía siempre: </p>
+
+
+                <p> -Más que a nada ni a nadie, porque no quiero en el mundo sino a ti. </p>
+
+
+                <p> ¡Pues y yo! Hubiese dado mi vida por ella y mis pensamientos volaban hacia
+                    aquella angelical criatura a todas horas, sin que su imagen se borrara de mi
+                    mente jamás. </p>
+
+
+                <p> Entraba en la escuela a las nueve, salía a las doce, comía con mi padre en
+                    cualquier figón, en el que estábamos citados, y volvía al colegio desde la una
+                    hasta las cinco. Al regresar un día encontré en la plaza un entierro. En un
+                    féretro descubierto llevaban a una niña de siete a ocho años, vestida de blanco
+                    y coronada de flores. Su rostro del color de la cera, sus ojos cerrados, su boca
+                    que dejaba ver los blancos dientes, el cabello rizado, ignoro si naturalmente o
+                    por la mano de las que la habían amortajado, adornándola para ir a la tumba, me
+                    hicieron pensar en mi pobre Rosalinda y las lágrimas acudieron a mis ojos. </p>
+
+
+                <p> -¡Dios te bendiga, rapaz! -me dijo una mujer-. Buen corazón tienes cuando lloras
+                    los dolores ajenos. </p>
+
+
+                <p> Iba acompañando a la muerta y siguió su camino. Yo miré el cortejo fúnebre,
+                    compuesto de algunos hombres con capa, algunas jóvenes con mantilla a la cabeza
+                    y varias niñas de la edad de la muerta, que llevaban las cintas que pendían de
+                    la caja. La indiferencia con que estas criaturas miraban a su <pb n="14"/>
+                    compañera me hizo daño. Si Rosalinda hubiera muerto, ¿podría acaso sobrevivirla
+                    yo? </p>
+
+
+                <p> Fui aquella tarde a esperarla a la salida del colegio, para lo que dejé de ir a
+                    la escuela, porque tenía que abandonar la clase después que ella. A las cuatro y
+                    media la vi entre algunas niñas, y ya me iba a acercar, cuando una voz hirió mi
+                    oído exclamando: </p>
+
+
+                <p> -Yo le diré a tu padre que haces novillos. </p>
+
+
+                <p> Era la Roja, que cosía en un piso bajo cerca de la ventana. </p>
+
+
+                <p> Mi padre, en efecto, me castigó, y no volví a faltar a la escuela. </p>
+
+
+                <p> Allí estuve hasta que cumplí los once años. Por esa época, el hombre que hasta
+                    entonces había pagado puntualmente la pensión de Rosalinda no volvió a parecer,
+                    y la nodriza decidió que, si en el plazo de seis meses no le daban dinero
+                    ninguno, metería a la criatura en un asilo, porque ella no la podía mantener. Es
+                    verdad que la Roja trabajaba sin descanso para ahorrar algunas monedas que la
+                    ayudaran a pasar el día de mañana su vejez, que no tenía nada sobrante, aunque
+                    era arreglada y económica; pero esto no me hacía comprender cómo podría
+                    separarse sin pena de aquella niña angelical que tenía al lado suyo desde hacía
+                    ocho años. </p>
+
+
+                <p> Había visto muchos domingos a las huérfanas del asilo que salían a pasearse al
+                    campo en compañía de algunas religiosas. Me parecía que todas tenían el mismo
+                    rostro pálido y ojeroso; recordaba a muchas con los ojos malos, las veía feas,
+                    con sus trajes antiartísticos que les llegaban hasta los pies, aunque fuesen muy
+                    pequeñas, unos pañolitos negros a la cabeza, como negro era asimismo el vestido,
+                    cual si llevasen el luto de ajenas culpas. Caminaban de dos en dos, sin poder
+                    separarse para correr junto a las otras, y se me oprimía el corazón al pensar
+                    que mi Rosalinda fuese entre ellas y como ellas. </p>
+
+
+                <p> Como había dejado de asistir a la escuela, iba a pescar con mi padre, y esta
+                    vida era mucho más de mi gusto que la que llevara hasta entonces. Era mala, en
+                    verdad, penosa y corríamos algunas veces grandes peligros; pero aquello me <pb
+                        n="15"/> importaba poco, quería el trabajo rudo para mí y el bienestar y el
+                    descanso para Rosalinda. </p>
+
+
+                <p> Hallábase a punto de cumplirse el plazo que la Roja había fijado para separarse
+                    de la niña, y el hombre que pagaba antes las pensiones no había vuelto.
+                    Rosalinda me hablaba de esto las raras veces que tenía ocasión de verla, y
+                    lloraba sin cesar porque iba a separarse de mí y ya no podría más que mirarme de
+                    lejos. El temor que su nodriza le inspiraba era mayor cada vez, y no se atrevía
+                    a decirle que no la abandonase por Dios. </p>
+
+
+                <p> Una tarde que estaba el mar más alborotado que de costumbre, cuando íbamos a
+                    embarcarnos, me dijo mi padre: </p>
+
+
+                <p> -Santiago, no quiero que hoy vengas conmigo; hay un peligro que correr y
+                    prefiero no llevarte. </p>
+
+
+                <p> -¿Eso que importa? -le repliqué-. Si usted me faltase, ¿qué sería de mí? Más
+                    vale que nos ahoguemos juntos. </p>
+
+
+                <p> -En eso te sobra la razón, muchacho -murmuró-; pero insisto en que no vengas. </p>
+
+
+                <p> No tuve más remedio que obedecer. </p>
+
+
+                <p> Dos o tres horas después estalló una terrible tormenta. Las mujeres de los
+                    pescadores acudían a la iglesia para implorar la misericordia divina. Nada más
+                    angustioso que el llanto de las unas, los suspiros de las otras y la muda
+                    desesperación de las más. Luego corrieron a la playa, llevando varias a sus
+                    pequeñuelos, cuando la tempestad se calmó un tanto. Yo iba con ellas, y como
+                    ellas miraba hacia el mar para ver si volvía la lancha de mi padre. Era ésta
+                    bastante vieja y se llamaba <emph> Candelaria </emph> . No sé cuánto tiempo
+                    pasamos así. A la tormenta había sucedido una calma completa, y los pescadores
+                    podían regresar de un momento a otro, sin correr ya el menor peligro. Entonces
+                    vi a la Roja que acudía a la playa. </p>
+
+
+                <p> -¿Y tu padre? -me preguntó con ansiedad. </p>
+
+
+                <p> -En la mar -le contesté. </p>
+
+
+                <p> -¿Solo? </p>
+
+
+                <p> -Con Benito; no quiso llevarme. </p>
+
+
+                <p> ¿Amaría aquella mujer realmente al pobre pescador al que había procurado
+                    atraerse, cuando él no había fijado la <pb n="16"/> atención en ella? Parecía
+                    tan conmovida como yo, y no se apartaba de mi lado. </p>
+
+
+                <p> Poco después divisamos a lo lejos varias barcas; todos nos acercamos a la orilla
+                    y no tardamos en oír decir: </p>
+
+
+                <p> -Esa es la <emph> Carmen </emph> , ésa la <emph> Joven Amalia </emph> , ésa la
+                        <emph> Bilbaína </emph> . </p>
+
+
+                <p> En cambio la <emph> Candelaria </emph> y la <emph> Carlota </emph> no parecían;
+                    en esta última había salido un marinero con su hijo y su yerno. </p>
+
+
+                <p> El segundo triste y abatido, venía la <emph> Joven Amalia </emph> , cuyos
+                    marineros habían logrado salvarle de una muerte segura. </p>
+
+
+                <p> -¿Y tu padre y tu cuñado? -le preguntaron. </p>
+
+
+                <p> -Muertos, sin duda, y perdida la barca -contestó como si sintiera por igual
+                    aquellas desdichas. </p>
+
+
+                <p> -¿Y Vicente Arabal? </p>
+
+
+                <p> -Muerto también. Benito se ha salvado en la <emph> Perla </emph> , que vendrá
+                    después, porque le llevábamos alguna delantera. La <emph> Candelaria </emph> ha
+                    quedado inservible, pero era vieja. </p>
+
+
+                <p> Al oír la noticia del fin desastroso de mi padre no pude contener un grito
+                    desgarrador, al que siguieron los sollozos de la Roja. Me abrazó, y yo,
+                    olvidando mis resentimientos con aquella mujer, mezclé mis lágrimas con las
+                    suyas. </p>
+
+
+                <p> Mi desgracia era cierta, pues se encontró el cadáver de mi padre, que fue
+                    enterrado al día siguiente. Le acompañé al cementerio, causándome una cruel
+                    impresión cuando vi que le echaban en la fosa, que cubrieron de tierra después.
+                    Cogí un puñado de flores silvestres que crecían en la triste mansión y lo
+                    esparcí sobre aquella tumba, que antes era ya de otros muchos. </p>
+
+
+                <p> Al volver a mi casa no pude contener el llanto; me fui al huertecillo y me senté
+                    pensando en mi soledad y mi desgracia. Sentí entonces que unos brazos rodeaban
+                    mi cuello y que unos frescos labios acariciaban mi cabello y mi rostro. Era
+                    Rosalinda, que había saltado la valla que nos separaba y que me prestaba sus
+                    dulces consuelos. </p>
+
+
+                <p> -No llores, Santiago -me dijo la niña-; tu padre te falta, pero te quedo yo, que
+                    te quiero tanto como él. </p>
+
+
+                <p> Su voz hizo que mis lágrimas se secaran. </p>
+
+
+                <p> -Puesto que la Roja va a meterte en un asilo, ¿por qué no te quedas aquí
+                    conmigo? -le pregunté. </p>
+
+
+                <pb n="17"/>
+
+
+                <p> Ella tenía mucha más inteligencia que yo, y las cosas que no sabía las
+                    adivinaba. </p>
+
+
+                <p> -No me dejarían a tu lado -contestó-; lo que harían sería llevarte a ti a un
+                    asilo y a mí a otro. Los niños que no son hermanos no viven juntos. </p>
+
+
+                <p> -¿Te separarás, pues, de mí? </p>
+
+
+                <p> -Sí, pero me moriré de pena. </p>
+
+
+                <p> Al día siguiente había tomado una resolución y me presenté en casa de la Roja
+                    cuando la vi volver de su trabajo. Con lágrimas en los ojos y con el acento de
+                    la mayor convicción le supliqué que me permitiera vivir con ella, que yo
+                    trabajaría, dándole cuanto ganase, pero con la condición de que dejara a
+                    Rosalinda a mi lado. </p>
+
+
+                <p> -Siéntate, Santiago -me contestó ella-, y fíjate en lo que te voy a decir. No
+                    tienes aún doce años y no conoces las necesidades de la vida, que en breves
+                    palabras te voy a explicar. Desde mi infancia estoy trabajando; entonces no
+                    ganaba nada; luego, poco a poco, he llegado a lo que tengo hoy: dos reales
+                    diarios cuando coso y cuatro cuando plancho. No creas que esto no es nada para
+                    un pueblo pequeño como éste; raros son los jornales así que se cobran. Con ese
+                    dinero no puedo mantener a Rosa y a ti, vestiros, calzaros, pagar la
+                    contribución y vestirme y calzarme yo; no trato de mis alimentos, porque me los
+                    dan en las casas donde trabajo. De ese jornal aparto una cuarta parte desde hace
+                    años para que no me falte un pedazo de pan en mi vejez, que nada hay más triste
+                    y desamparado que la vejez del pobre. Mientras he cobrado la pensión de la niña
+                    he podido ahorrar más, pero faltándome ésta, mi modesto jornal no bastaría. </p>
+
+
+                <p> -Trabajando yo... </p>
+
+
+                <p> -No me interrumpas, te lo ruego. Tu padre era un hombre fuerte al que no
+                    arredraban las más duras faenas, y a pesar de eso no ganaba para que vivierais
+                    los dos. Hacía algún tiempo que había tomado dinero a préstamo sobre su casa,
+                    tanto, pobre niño, que ni eso te quedará, porque la propiedad vale poco y el tío
+                    Feliciano ha dado ya por ella bastante. Ha dicho que pronto, o pagarás el
+                    alquiler, o tendrás que marcharte a otro lado; no sé si te dejará ni el
+                    novenario <pb n="18"/> tranquilo. Yo te ofrezco, si lo aceptas, un rincón en mi
+                    casa para que duermas, pero no me pidas más. No soy mala, he querido a tu padre
+                    desde que éramos niños, como tú quieres a Rosa; él se casó con otra, yo con otro
+                    después, y cuando quedamos viudos los dos esperé que me diera su nombre, a lo
+                    que se negó. «Soy muy pobre para contraer más obligaciones», me decía. Para mí
+                    la causa de no casarse conmigo era el temor de que te tratase mal, porque no
+                    ocultaré que tengo el carácter algo violento. No es fácil estar de buen humor en
+                    casa cuando se ha estado trabajando todo el día. Algunas veces te he odiado
+                    pensando que por ti no se casaba conmigo Vicente; hoy te quiero porque es lo
+                    único que me queda de él. Esperar que tú, que eres aún pequeño, ganes tu
+                    sustento y el de la niña, sería una verdadera locura. Si pides a un pescador que
+                    te lleve en su barca, porque no tienes la tuya, que el mar te deshizo, te dará
+                    la comida por tu ayuda y no le podrás exigir más. Y eso si encuentras quien te
+                    admita, que la mayor parte de esos desgraciados, cargados de hijos, no tienen
+                    puesto vacante para el hijo ajeno. Respecto a la niña, mejor que a tu lado y al
+                    mío estará con esas buenas religiosas, que la harán ser una mujer trabajadora y
+                    honrada. Hay en el asilo de Desamparadas una vacante y me la han prometido para
+                    Rosa, que dentro de ocho días entrará allí. </p>
+
+
+                <p> No me dejó protestar, y continuó </p>
+
+
+                <p> -¿Piensas que es una niña abandonada y sin familia? Si lo has creído te
+                    equivocas. Tiene padres, y hasta hace poco he sabido de ellos todos los meses y
+                    les he enviado noticias de su hija. Cerca de nueve años hará que un caballero
+                    vino a buscarme porque le habían dado buenos informes míos y sabía que criaba a
+                    mi hijo muy hermoso. Aquel señor me dijo que le habían destinado a Ultramar, que
+                    su esposa quería seguirle con los dos niños mayores, pero que la pequeña era muy
+                    delicada, que su madre no había podido criarla y que preferían no llevársela por
+                    no exponerla a sufrir las con secuencias de un viaje largo y penoso. Me encargó
+                    que la cuidase mucho, y que si él no volvía antes de que cumpliera los cinco
+                    años, la pusiera en un colegio; añadió que me pagaría <pb n="19"/> bien y que si
+                    a su regreso no le había ocurrido a su hija nada desagradable me daría en
+                    recompensa una buena suma. Como por mi trabajo no podía llevarme a la niña
+                    conmigo, me pareció más prudente y más seguro dejarla encerrada en el huerto,
+                    donde estaba al aire libre y al sol, que consentir que hiciese conocimiento en
+                    la calle con los pilluelos del lugar, de los que no eras tú de lo mejor. ¿Cómo
+                    me había de figurar que abandonarías tus costumbres de pasar el día en la playa
+                    para buscar la amistad de una niña menor que tú y que apenas sabía hablar? Ahora
+                    comprenderás el furor que se apoderó de mí cuando me enteré de que la habías
+                    sacado de casa y que podía haberse ahogado; es la única vez que he tratado mal a
+                    Rosa; ella te lo puede decir, y eso porque no supe contenerme. A la edad fijada
+                    por su familia la mandé a la escuela, la vestí mejor; y así ha continuado hasta
+                    ahora. En la actualidad no la perjudico si la llevo al asilo; si viniera su
+                    padre a buscarla, la sacaría de él fácilmente; si no viniera, las monjas la
+                    tendrían hasta que cumpliese los diez y ocho años, y entonces, o se pondría a
+                    servir, o se casaría con un hombre honrado que con su trabajó pudiese
+                    mantenerla. Ese hombre serás tú u otro cualquiera; no sería yo quien impidiese
+                    vuestro matrimonio; pero si vuelve su familia no pienses en ello siquiera,
+                    porque la unión sería tan desigual que tú mismo te avergonzarías de ella. </p>
+
+
+                <p> Cesó de hablar la Roja, y no supe qué contestarle. Rosalinda, que escuchaba
+                    también en silencio, no se atrevía ni a moverse y permanecía sentada en un
+                    rincón y con los ojos bajos. Al fin su nodriza tomó otra vez la palabra para
+                    decirme: </p>
+
+
+                <p> -Ya sabes lo que te he ofrecido, y me alegraré que lo aceptes; ahora vete a
+                    descansar, que bien lo necesitas, y yo también, que tengo que madrugar mucho
+                    mañana. </p>
+
+
+                <p> Me despedí de ella y de la niña y salí por el huertecillo para entrar en mi
+                    casa. Pero aquella noche no dormí. En mi mente empezaba a agitarse un plan que
+                    me pareció al pronto descabellado, y poco a poco se me fue presentando como más
+                    realizable. Puesto que mi padre había muerto, se <pb n="20"/> había hecho
+                    pedazos mi barca y me iban a arrojar de la casa donde nací, ¿para qué necesitaba
+                    yo permanecer en mi pueblo? ¿No podía huir a otro, yendo lejos, muy lejos, y
+                    llevarme a Rosalinda? ¿Querría ésta seguirme? Eso era lo que necesitaba
+                    averiguar. Tenía por delante seis o siete días, puesto que antes no sería
+                    llevada al asilo, y esperaba que en alguno de ellos conseguiría hablarla. </p>
+
+
+                <p> El cura me hizo llamar, y por él supe lo que ya me había dicho la Roja, que
+                    Feliciano se quedaba con mi casa y que ningún poder humano lograría impedirlo,
+                    puesto que no había dinero para rescatarla. Se había iniciado una suscrición
+                    para mí, y con ella se había pagado mi luto, sobrando algunas monedas, que
+                    guardaba el sacerdote para emplearlas en lo que más me conviniese. Dos medios
+                    únicamente se presentaban para ofrecerme un albergue: que me fuera con Benito el
+                    pescador para prestarle mi ayuda, o que me llevaran a un asilo, añadiendo que,
+                    como huérfano de padre y madre, no presentaría dificultades mi admisión.
+                    ¡Siempre el asilo! Esto es, la pérdida de mi libertad, la sujeción, la vida
+                    entre extraños. </p>
+
+
+                <p> Di las gracias al cura y le prometí volver. </p>
+
+
+                <p> Ya en mi casa, busqué mi ropa, para hacer con ella un lío que pudiera llevar
+                    fácilmente, y al mirar entre la de mi padre me encontré en uno de sus bolsillos
+                    12 pesetas. Puesto que era yo el heredero de su barca, si no se hubiese roto, y
+                    de la casa, si no hubieran dado algunos duros por ella, aquel dinero debía ser
+                    mío, y sin escrúpulo me lo guardé. Hecho esto, esperé a que Rosalinda volviese
+                    del colegio, que era tres o cuatro horas antes del regreso de la Roja, para
+                    hablarla en el huerto. </p>
+
+
+                <p> Llegó la niña a su casa, y al verme una sonrisa angelical iluminó su rostro.
+                    Salté la valla, y me hallé junto a ella. La abracé, y la pobre criatura,
+                    apoyando su cabeza en mi pecho, lloró con el mayor desconsuelo. </p>
+
+
+                <p> -Santiago, no quiero separarme de ti -me dijo. </p>
+
+
+                <p> Le hice sentar a mi lado, sequé sus lágrimas y empecé de este modo: </p>
+
+
+                <p> -Rosalinda, he decidido irme de este pueblo para buscar <pb n="21"/> trabajo en
+                    otra parte; creo que lo encontraré en una fábrica, como pescador o, en último
+                    caso, en el campo; hay segadores menores que yo. Si deseas no separarte de mí,
+                    ven te conmigo, y aunque tenga que pedir limosna no te faltará que comer. Si te
+                    decides, mañana cuando salgas de la escuela nos iremos, y al volver la Roja ya
+                    llevaremos mucho camino andado. ¿Quieres? </p>
+
+
+                <p> -Sí -me contestó-; pero si me busca y me encuentra... </p>
+
+
+                <p> -No será fácil. </p>
+
+
+                <p> -Si da mis señas... </p>
+
+
+                <p> -¿Y cómo evitar eso? </p>
+
+
+                <p> Me quedé un rato pensativo, y al fin una idea luminosa surgió en mi mente. </p>
+
+
+                <p> -Tengo -le dije- alguna ropa de cuando era menor y puedes ponértela; te tomarán
+                    por un niño, y así las señas no coincidirán con las que ella dé. Voy a hacer
+                    otro lío para tenerlo todo preparado. </p>
+
+
+                <p> Me pareció oír ruido en casa de la Roja y salté precipitadamente la valla, sin
+                    despedirme de Rosalinda. ¿Nos habría escuchado? ¿Cómo volvía más temprano que de
+                    costumbre? </p>
+
+
+                <p> Fue esto debido a una casualidad, pero me alarmó, porque pudiera repetirse.
+                    Oculto detrás de unos arbustos de mi huerto, vi a la Roja, que miraba con recelo
+                    a todas partes, como si hubiera adivinado mi presencia, y habiéndose quedado
+                    allí más de una hora no pude salir de mi escondite. </p>
+
+
+                <p> Por la noche tomé la ropa que me pareció más a propósito para la niña y esperé
+                    con impaciencia la llegada del siguiente día. La Roja estaba algo indispuesta, y
+                    no fue a planchar. La enfermedad resultó, sin embargo, pasajera, y a la otra
+                    tarde logramos poner en ejecución nuestro plan. Pronto trocó Rosalinda su traje
+                    por otro de niño, llevándome su ropa por si la necesitaba algún día. No había
+                    llegado allí la moda que deja crecer los cabellos de las niñas desde sus
+                    primeros años, así es que mi amiga, como las demás del pueblo, tenía el pelo
+                    bastante corto; era, sí, muy rizado. En un momento se peinó ella como un
+                    muchacho, y poniéndose una boina se dispuso a seguirme. Hacía algunos años que
+                    no llevaba pendientes; de los que trajo de casa de sus padres, <pb n="22"/> unos
+                    aros de oro, el uno se le había roto y perdido el otro, sin que la Roja, poco
+                    aficionada a lo superfluo, hubiese cuidado de reemplazar aquel adorno en las
+                    orejas de la criatura. Ella cogió el hatillo que contenía menos ropa y el más
+                    grande yo. </p>
+
+
+                <p> Al extremo de mi huerto había una puertecilla que daba al campo. Hacía dos días
+                    que había buscado la llave, no queriendo dejar nada para el último instante. Por
+                    allí salimos, y dando la mano a Rosalinda, echamos a correr para alejarnos lo
+                    más pronto posible del lugar. No tardamos en perderle de vista. Insensiblemente
+                    habíamos aflojado el paso, y a las dos horas de abandonar nuestras casas íbamos
+                    casi despacio. </p>
+
+
+                <p> El camino era encantador, y más de una vez nos detuvimos para coger moras y
+                    comerlas. En un ventorrillo compramos un poco de pan, y ésta fue aquella noche
+                    nuestra cena; pero no era menos frugal otras veces. </p>
+
+
+                <p> Descansamos al pie de un árbol donde crecía menuda hierba. Rosalinda, rendida
+                    por la fatiga, se durmió, y velé su sueño, combatiendo el mío por temor de que
+                    si me entregaba a él me quitaran a la niña. Mi hatillo le sirvió de almohada. </p>
+
+
+                <p> Antes de amanecer ya estábamos en pie los dos. Lavamos rostros y manos en un
+                    arroyo y continuamos alegres nuestro camino. Compramos pan en otra venta y un
+                    cuartillo de leche a un pastor que llevaba sus cabras por el campo, y aquello
+                    acabó de reanimar nuestras fuerzas. </p>
+
+
+                <p> Rosalinda, que andaba generalmente muy poco, fue la primera que se cansó. Por
+                    fortuna, encontramos a dos chicos que iban guiando un carro con paja y que
+                    consintieron en dejarnos subir a él. Aquello nos hizo alejarnos
+                    considerablemente del pueblo y sin fatiga, porque ellos iban a un lugar algo
+                    distante. </p>
+
+
+                <p> No se me ocultaba que con el dinero que teníamos no podía hacerse casi nada; así
+                    es que, habiendo visto a lo lejos unas ruinas, pregunté a Rosalinda si no
+                    tendría inconveniente en que pasáramos allí la noche para no gastar en la posada
+                    ni dormir a la intemperie. Su respuesta fue afirmativa, <pb n="23"/> y llevando
+                    a la niña de la mano, nos dirigimos con lentitud al sitio que debía darnos
+                    albergue por unas cuantas horas. </p>
+
+
+                <p> Estaba más distante de lo que había creído, y mi compañera llegó con la mayor
+                    dificultad allí. Sus pies, hinchados, no la dejaban casi andar, pero, a pesar de
+                    eso, no consintió que la tomara en mis brazos. Cuando nos detuvimos ante las
+                    ruinas, Rosalinda se dejó caer en el suelo, y cubriendo su rostro con las manos,
+                    lloró con la mayor amargura. </p>
+
+
+                <p> Traté de animarla, y entonces me dijo: </p>
+
+
+                <p> -No creas que me arrepiento de haberme venido contigo. Estoy triste porque veo
+                    que soy débil, que soy pequeña y que no te voy a servir más que de estorbo. Tú
+                    ya estarías muy lejos sin mí. </p>
+
+
+                <p> -¿Y qué haría yo sin ti? -le repliqué-. Voy a buscar nuestra habitación y vuelvo
+                    para llevarte conmigo. </p>
+
+
+                <p> -No me dejes sola -murmuró-; tengo miedo. </p>
+
+
+                <p> ¿Miedo de qué? me preguntaba yo. Pero miré el sitio donde nos hallábamos y lo
+                    comprendí perfectamente. </p>
+
+
+                <p> El ruinoso edificio, que era un convento antiquísimo, no conservaba más que
+                    negros y derruidos muros, por los que trepaba conservaba hiedra, y todo era en
+                    él triste y siniestro. El cielo, antes sereno, empezaba a cubrirse de pardas
+                    nubes, y sucias y cenagosas eran las aguas de un arroyo que no lejos corría.
+                    Algunos árboles raquíticos crecían a sus orillas, y no se oía más ruido que el
+                    lúgubre aullido de un perro encerrado en una casa distante. </p>
+
+
+                <p> Tomé a Rosalinda en mis brazos y me dispuse a entrar en el convento. No era esto
+                    difícil, porque no había puerta, quedando en su lugar un gran hueco. </p>
+
+
+                <p> -¡No entres ahí! -exclamó la niña, presa de indecible terror. </p>
+
+
+                <p> -¿Por qué? </p>
+
+
+                <p> -¿No oyes? </p>
+
+
+                <p> Presté atención. Dentro se oía, en efecto, un canto extraño, una voz de mujer o
+                    de niño, triste, acompasada, que entonaba algo así como un salmo de los que
+                    había oído en la iglesia. Y un momento después apareció a nuestra vista una
+                    criatura pequeña, fea, deforme, mal vestida con una <pb n="24"/> falda rota y
+                    una chambra hecha jirones, que llevaba en la mano un puñado de reluciente plata,
+                    que también se veía brillar entre los agujeros de su delantal, que tenía
+                    recogido y apretaba contra su pecho. </p>
+
+
+                <p> Me aparté a un lado para dejarle el paso libre, y ella ni siquiera nos vio. Se
+                    acercó a un árbol, separó una piedra y depositó debajo el dinero en un hoyo
+                    profundo. Luego se alejó cantando. </p>
+
+
+                <p> El convento debió quedar solo, y me decidí a llevar a él a Rosalinda, porque en
+                    aquel momento empezó a llover. Ella se resistía, pero la fatiga me rendía
+                    también, y comprendí que no llegaría más lejos. </p>
+
+
+                <p> Sólo los claustros y dos pequeñas celdas tenían el techo casi intacto. Entré en
+                    una de ellas y me senté en el suelo, teniendo a Rosalinda sobre mis rodillas. A
+                    pesar de su terror, la pobre criatura acabó por quedarse profundamente dormida. </p>
+
+
+                <p> Seguía lloviendo, y el agua penetraba libremente por todo el edificio. Un viento
+                    fresco y húmedo azotaba mi rostro. Me quité la chaqueta para cubrir mejor a mi
+                    compañera, logrando que entrase en calor su cuerpo, sacudido por frecuentes
+                    estremecimientos. </p>
+
+
+                <p> Llegó la noche, y una angustia indecible se apoderó de mí. Hasta entonces había
+                    conseguido dominar el miedo; pero allí, aislados, en un país desconocido, entre
+                    ruinas, rodeados de tinieblas, sentí al pronto un vago temor, que fue aumentando
+                    gradualmente y llegó a su colmo al advertir que alguien te acercaba a los
+                    claustros. ¿Serían caminantes sorprendidos por la lluvia que iban a buscar un
+                    refugio como nosotros? ¿Serían malhechores, que no respetarían nuestros cortos
+                    años para cometer un crimen si éramos importunos testigos de sus conversaciones? </p>
+
+
+                <p> Estaban ya en los claustros lanzando blasfemias e imprecaciones no sabía contra
+                    quién. No dudaba que eran varios, porque oía diferentes voces. Comprendí que
+                    encendían una hoguera para secar sus ropas y que se disponían a cenar. Debieron
+                    hacerlo frugalmente, porque terminaron muy pronto. Luego dijeron que iban a
+                    trabajar, y llegó hasta mí un <pb n="25"/> ruido acompasado, que trajo a mi
+                    memoria el de la fragua de mi pueblo. </p>
+
+
+                <p> De repente, uno de los hombres exclamó: </p>
+
+
+                <p> -Faltan todas las monedas que hemos dejado ayer escondidas aquí. </p>
+
+
+                <p> -Alguien ha entrado entonces en las ruinas -murmuró otro-. ¡Ay del que sea! </p>
+
+
+                <p> -Registrémoslas para cerciorarnos de que el que nos ha robado ha salido de ellas
+                    -dijo un tercero. </p>
+
+
+                <p> Rosalinda y yo estábamos perdidos, pues era seguro que nos acusarían de haber
+                    cometido el delito. La pobre niña no se había despertado; la dejé suavemente en
+                    el suelo y busqué el medio de huir con ella antes de que fuéramos descubiertos.
+                    Quise explorar despacio el terreno, y al dirigirme a la otra celda me hallé
+                    frente a un hombre que me cogió brutalmente de un brazo y me llevó a viva fuerza
+                    a los claustros donde trabajaban sus compañeros. Eran éstos seis, entre ellos
+                    dos mujeres. Se dedicaban a fabricar moneda falsa, según comprendí más tarde,
+                    pues entonces aquellos troqueles y aquellos artefactos no significaban nada para
+                    mí. </p>
+
+
+                <p> -Éste será el ladrón -dijo el que me llevaba. </p>
+
+
+                <p> No creyeron en mi inocencia a pesar de mis protestas y que nada hallaron que
+                    probase que su sospecha era fundada. En aquel momento me acordé de la mujer que
+                    había visto salir de las ruinas y les conté, para salvarme, cuanto había
+                    presenciado. </p>
+
+
+                <p> -Es la loca de San Cosme -dijo uno de los hombres-; tiene la monomanía de las
+                    riquezas. Habrá visto nuestros trabajos y habrá entrado a robarnos después. </p>
+
+
+                <p> -¿Sabes tú dónde ha puesto el dinero? -me preguntó otro. </p>
+
+
+                <p> -Creo que reconocería fácilmente el sitio -murmuré. </p>
+
+
+                <p> -Pues ven con nosotros para indicárnoslo; si es verdad lo que has dicho, te
+                    perdonaremos; si has mentido, cuenta que llegó tu última hora. </p>
+
+
+                <p> Los seguí temblando, y después de vacilar un poco designé la piedra que ocultaba
+                    las monadas. Allí estaban, nuevas, brillantes. Las sacaron con grandes
+                    demostraciones de <pb n="26"/> júbilo, y en recompensa me dieron dos pesetas. Ya
+                    no llovía; pero como me hallaba sin chaqueta, la humedad me penetraba hasta los
+                    huesos y sentía indecible malestar. Me acordé que había dejado a Rosalinda en el
+                    convento, y volví precipitadamente a él mientras los monederos emprendían de
+                    nuevo su trabajo. </p>
+
+
+                <p> Entré en la celda, busqué a tientas por todos los rincones, llamé a la niña,
+                    pero nada hallé ni nadie me contestó. Rosalinda había desaparecido. </p>
+
+
+                <p> Loco, desesperado, volví junto a aquellos hombres, que no se explicaban mis
+                    lamentos ni compadecían mi pena. Estaban alegres por haber recobrado sus monedas
+                    y no se cuidaban para nada de mí. </p>
+
+
+                <p> -Oye, chiquito -me dijo el que parecía jefe-, ya te estás callando o te marchas
+                    más que de prisa; nos conviene no llamar la atención, y tus gritos pueden atraer
+                    gente. Lo más prudente es que te alejes de estas ruinas y que no vuelvas a
+                    acordarte de lo que en ellas has visto. Si comprendemos que algo cuentas lo
+                    pasarás mal, aunque nada lograrías con delatarnos, porque vamos a buscar un
+                    sitio más seguro para nuestros trabajos. </p>
+
+
+                <p> -Sí -replicó otro-; pero lo más prudente es que el muchacho quede prisionero
+                    hasta que nos marchemos al ser de día. </p>
+
+
+                <p> Así lo acordaron, y tuve que permanecer allí, devorando mi pena y mi inquietud,
+                    bien custodiado por aquellos hombres. </p>
+
+
+                <p> No recuerdo haber pasado en mi vida una noche mas cruel. ¿Qué había sido de
+                    Rosalinda? Nos habrían seguido desde mi pueblo y se la habría llevado otra vez
+                    la Roja? ¿La habrían robado aquellos infames y me retenían allí para alejar a la
+                    niña y ganar tiempo? </p>
+
+
+                <p> Después de algunas horas, que me parecieron siglos, los monederos recogieron sus
+                    utensilios de trabajo, sus antorchas y sus monedas y salieron de las ruinas,
+                    excepto uno que aún se quedó un buen rato conmigo mientras sus compañeros se
+                    alejaban. </p>
+
+
+                <p> Yo me sentía enfermo, rendido, sin ánimo para moverme. Me quedé solo, y en vez
+                    de salir en busca de Rosalinda, permanecí <pb n="27"/> echado en el suelo,
+                    yerto, casi insensible, sin ver lo que me rodeaba, ni oír el canto de los
+                    pájaros que saludaban a la aurora. No sé cuánto tiempo pasé así. Debí de perder
+                    el conocimiento o quedarme dormido. </p>
+
+
+                <p> Volví en mí cuando ya los rayos del sol penetraban por las anchas ventanas de
+                    los claustros. Un grato calor había reemplazado al frío que entumecía mis
+                    miembros y vi que estaba abrigado con mi chaqueta. La cabeza no descansaba sobre
+                    el duro suelo, sino sobre algo más blando y más flexible, y un aliento suave
+                    acariciaba mi frente. Rosalinda había hecho conmigo lo que yo antes con ella, y
+                    su cuerpo me servía de almohada. Al ver a la niña lancé un grito de júbilo y
+                    quise ponerme en pie para abrazarla. </p>
+
+
+                <p> -Estate quieto -me dijo-; debes de estar enfermo y conviene que no te levantes
+                    por ahora. Sin que me preguntes yo te contaré lo que ha pasado. Al despertarme
+                    me hallé sola. Te llamé y no me oíste. Me acerqué despacio al claustro y vi a
+                    dos mujeres de mal aspecto; entonces tuve miedo, cogí nuestro equipaje y tu
+                    chaqueta y salí. Ya no llovía, pero el piso estaba muy húmedo y apenas se podía
+                    andar a causa de la obscuridad de la noche. No me atrevía a alejarme por si
+                    volvías, porque estaba segura de que te hallabas cerca y no me habías
+                    abandonado. Me senté en una piedra al pie de un árbol y pasé el resto de la
+                    noche llorando y pensando en ti. No sé cómo no te vi cuando volviste al
+                    convento. Al amanecer salieron primero tres hombres y dos mujeres profiriendo
+                    amenazas contra una loca a la que decían iban a tirar al río, y otro hombre
+                    después. Entonces entré despacito y te encontré echado en el suelo, helado y
+                    dormido al parecer. Te abrigué, puse tu cabeza sobre mí con cuidado y poco a
+                    poco fuiste entrando en calor y recobrando la vida. Hubo un instante en que
+                    pensé que estabas muerto. ¡Qué pena tan grande tuve! Me parecía que yo también
+                    me iba a morir. Estás enfermo y desde ayer no hemos comido. No lejos de aquí hay
+                    una venta; ¿quieres que traiga pan? </p>
+
+
+                <p> -¿Pan? -dije-. Y algo mejor; me han dado dos pesetas, Rosalinda. </p>
+
+
+                <p> -¿Y por qué te las han dado? </p>
+
+
+                <pb n="28"/>
+
+
+                <p> -Por haber descubierto el robo. </p>
+
+
+                <p> -¿Qué robo? </p>
+
+
+                <p> -El que hizo la loca. </p>
+
+
+                <p> Y le conté lo que había pasado; pero Rosalinda no participaba de mi entusiasmo y
+                    noté que se había disgustado conmigo. </p>
+
+
+                <p> -¿De modo que tú has descubierto a esa mujer? -me dijo preocupada. </p>
+
+
+                <p> -Como que a no ser por eso nos hubieran culpado a nosotros de haber cogido las
+                    monedas -repliqué. </p>
+
+
+                <p> -Pero... ¿y si la arrojan al agua y se ahoga? </p>
+
+
+                <p> -Por qué ha robado. </p>
+
+
+                <p> -Si está loca no sabrá lo que ha hecho -murmuró la niña-, pero sí se sentirá
+                    morir poco a poco. </p>
+
+
+                <p> Quedó luego ensimismada, como si la imagen de la infeliz mujer no pudiera
+                    apartarse de su mente. Y a mi vez sentí un cruel remordimiento por haberla
+                    denunciado, pareciéndome que su muerte pesaba sobre mi conciencia. </p>
+
+
+                <p> Los niños olvidan pronto, y los estómagos vacíos nos hicieron volver a nuestra
+                    triste situación. </p>
+
+
+                <p> Di a Rosalinda las dos pesetas, encargándole que trajese algo bueno para comer y
+                    que volviera pronto. </p>
+
+
+                <p> Mi compañera se alejó y me quedé echado en el suelo pensando en el agradable
+                    banquete que se nos preparaba. Es cierto que con aquellas dos pesetas hubiéramos
+                    tenido para comer dos días; pero como habían venido cuando menos se las
+                    esperaba, podíamos darnos el grato placer de comer una tortilla, pan blanco y
+                    algo de fruta, con todo lo de más que entregaran a la niña por aquel dinero, que
+                    me parecía en tal instante una cantidad enorme. </p>
+
+
+                <p> Rosalinda tardaba y mi impaciencia iba en aumento, porque me sentía desfallecer
+                    al principio y luego por el temor a que la apartasen de mí, que era mi pesadilla
+                    desde que habíamos salido del pueblo. ¿La habría hallado la Roja, a la que
+                    siempre suponía siguiendo nuestros pasos, y se la habría llevado para encerrarla
+                    en el asilo? </p>
+
+
+                <p> Salí de las ruinas, y mientras decidía qué dirección debía tomar, vi aparecer a
+                    Rosalinda, que venía corriendo, con el <pb n="29"/> rostro revelando profundo
+                    disgusto, llorosos los ojos y encendido el semblante. </p>
+
+
+                <p> Se detuvo sin aliento junto a mí y durante un rato no pude saber lo que le había
+                    ocurrido. Al fin me refirió que al llegar a la venta había pedido dos almuerzos
+                    de a peseta, que le habían preparado una tortilla (la que yo deseaba comer),
+                    algo de carne, pan y queso, y que al ir a pagar la posadera púsose furiosa
+                    porque las monedas eran falsas. Que ya aquel día le habían dado otras iguales,
+                    engañándola, unos hombres al pasar por allí. Quiso pegar a Rosalinda, tal vez la
+                    pegó aunque ella no me lo dijo, pero al verla tan triste y avergonzada acabó por
+                    perdonarla, quitándole las monedas y obligándola a marcharse precipitadamente.
+                    Como todos los que la veían, la creyó un muchacho y la había amenazado con dar
+                    parte a la justicia si volvía a aparecer por aquellos lugares. </p>
+
+
+                <p> La consolé como pude y, a pesar de que estaba enfermo, salí del antiguo convento
+                    con la niña, ya que tan mal nos había ido en él, en busca de alimento y de otro
+                    albergue, contentándome con un vaso de leche en vez del espléndido almuerzo con
+                    que soñara. </p>
+
+
+                <p> Paso por alto las demás peripecias del viaje, que duró algunos días, en los
+                    cuales sólo dos noches conseguimos dormir en cama en posadas de poco precio.
+                    Pero aun así, nuestro dinero disminuía de manera alarmante, y era preciso tomar
+                    una determinación. </p>
+
+
+                <p> Ya habíamos preguntado si podrían darnos trabajo en varias partes, contestando
+                    en todas negativamente. Por fin llegamos a una ciudad que nos pareció magnífica,
+                    aunque era de tercero o cuarto orden. En ella acabó de gastarse lo poco que
+                    llevábamos y nos encontramos un día sin albergue y sin pan. La gente nos miraba
+                    más que en las aldeas, infundiéndome algún recelo. Era, en efecto, raro ver a
+                    dos criaturas vagar por calles y plazas a todas horas. </p>
+
+
+                <p> Una tarde en que no habíamos comido nada, nos hallábamos Rosalinda y yo sentados
+                    en un banco del paseo, dispuestos a implorar la caridad pública. Nuestros
+                    trajes, sobre todo el de ella, que era ya más viejo, habían sufrido mucho <pb
+                        n="30"/> en el viaje y no tardarían en ser unos andrajos, y los zapatos
+                    estaban completamente rotos; el atavío era a propósito para mendigar. </p>
+
+
+                <p> Un caballero alto, grueso, muy encarnado, que nos pareció vestido como un
+                    personaje, vino a sentarse por casualidad junto a nosotros. </p>
+
+
+                <p> Venciendo mi repugnancia alargué la mano, y él me dio una moneda de cobre. </p>
+
+
+                <p> -¿Tenéis padres? -nos preguntó con acento extranjero muy marcado. </p>
+
+
+                <p> -No señor -le contesté. </p>
+
+
+                <p> -¿Ni parientes? </p>
+
+
+                <p> -Ninguno. </p>
+
+
+                <p> -¿Qué sabes hacer? </p>
+
+
+                <p> -He sido pescador. </p>
+
+
+                <p> -¿Y en qué piensas ocuparte ahora? </p>
+
+
+                <p> -No lo sé, señor; en lo que encuentre. </p>
+
+
+                <p> Quedó breves instantes pensativo y luego prosiguió: </p>
+
+
+                <p> -Si consentís en veniros conmigo, os haré artistas y llegaréis a ser notables
+                    con el tiempo. Pero habéis de pasar por hijos míos, y decir que lo sois a
+                    cuantos os interroguen. </p>
+
+
+                <p> -¿Y qué hay que hacer para ser artista, señor? </p>
+
+
+                <p> -Yo soy acróbata, y mi mujer y mi hija también. Trabajamos en el circo de esta
+                    ciudad, donde estamos contratados para toda la temporada. Pero hace años que
+                    sueño con un ejercicio precioso, <emph> las estrellas volantes </emph> , para el
+                    que necesito dos muchachos como vosotros; es cuestión de fuerza para el mayor,
+                    agilidad para el pequeño y una precisión matemática para los dos. No podéis
+                    empezar por eso, pero antes os enseñaré otros trabajos más fáciles a fin de que
+                    pronto me ayudéis a ganar vuestro sustento. En España se persigue ahora bastante
+                    al hombre que se lleva a un niño, y no quiero indisponerme con la justicia. Pero
+                    puesto que vosotros estáis solos en el mundo y nadie os ha de reclamar, podéis
+                    venir conmigo. </p>
+
+
+                <p> -¿Qué te parece, Rosalinda? -pregunté a la niña, olvidándome de su disfraz. </p>
+
+
+                <pb n="31"/>
+
+
+                <p> -¡Cómo! -exclamó el extranjero-. ¿Este chico es chica? </p>
+
+
+                <p> Me quedé algo confuso, pensando que quizá fuera eso causa de que no tuviéramos
+                    colocación. </p>
+
+
+                <p> -No importa -continuó él, comprendiendo lo que por mí pasaba-. Casi será el
+                    ejercicio más bonito así. </p>
+
+
+                <p> Viendo que aún vacilaba, me dijo: </p>
+
+
+                <p> -No temas nada, en mi casa no se os tratará mal y viviréis mejor que dedicados a
+                    cualquier otro trabajo. </p>
+
+
+                <p> -Vamos, Santiago -me dijo Rosalinda-; te ayudaré a ganar la vida, y en cualquier
+                    otro lado que te coloques no me dejarán estar contigo. </p>
+
+
+                <p> Seguimos al extranjero, que nos llevó a su casa. Tenía dos habitaciones
+                    amuebladas, una sala grande con una alcoba todavía mayor. </p>
+
+
+                <p> -Por esta noche tu hermana dormirá con mi hija y tú conmigo -me dijo. </p>
+
+
+                <p> Rosalinda se puso su traje de niña y guardé el que había usado durante unos
+                    días. </p>
+
+
+                <p> Nuestro protector se llamaba Roberto Asthon, su mujer Juana y su hija Virginia.
+                    Eran personas vulgares, pero no malas, que nos acogieron bien. Por la noche nos
+                    llevaron al circo, donde los tres trabajaban, él en el trapecio, la mujer como
+                    equilibrista ejecutando juegos malabares, y la hija, que contaría unos diez y
+                    seis años, sobre un caballo, al que parecía querer más que a sus padres. </p>
+
+
+                <p> La función nos impresionó vivamente a Rosalinda y a mí. Tanta luz, tanta gente,
+                    aquellos hombres y aquellas mujeres haciendo arriesgados ejercicios eran para
+                    nosotros seres sobrenaturales y estábamos encantados al pensar que algún día
+                    podríamos hacer lo que ellos. A mi juicio, y acaso al de ella, no era fácil
+                    hallar en el mundo cosa mejor. </p>
+
+
+                <p> Así es que Asthon nos encontró propicios para aprender y desde el primer día
+                    pusimos cuanto fue posible de nuestra parte para dar gusto a nuestro maestro. </p>
+
+
+                <p> Antes de presentarnos en el circo cómo gimnastas salimos en una pantomima
+                    infantil para la que nos ataviaron lujosamente. La belleza de Rosalinda llamó
+                    vivamente la atención del público, que nos aplaudió, regalándonos dulces y
+                    dinero. </p>
+
+
+                <pb n="32"/>
+
+
+                <p> Acabó la contrata allí y fuimos a otro lado. Roberto continuaba enseñándonos y
+                    nos anunció que pronto podríamos ejecutar algún ejercicio. No nos pegaba ni se
+                    impacientaba con nosotros cuando tardábamos en aprender, y hubiéramos estado con
+                    él perfectamente si toda la familia no se hubiera entregado por la noche a la
+                    bebida después, y a veces antes, de la función, volviendo a la fonda donde
+                    parábamos en completo estado de embriaguez. </p>
+
+
+                <p> A medida que íbamos creciendo, aquellas escenas se nos hacían más repulsivas,
+                    sobre todo a Rosalinda, alma delicada que rechazaba todo lo malo y todo lo
+                    innoble por instinto. </p>
+
+
+                <p> Aquellas gentes hablaban, cantaban y reían, y la pobre niña cubría su cabeza con
+                    las ropas de la cama, procurando no verlos ni oírlos. </p>
+
+
+                <p> Lo único que había de bueno para nosotros es que nos olvidaban totalmente; a
+                    aquellas horas no existíamos para ellos ninguno de los dos. </p>
+
+
+                <p> Yo trabajé al principio a caballo y Rosalinda en la percha con Roberto. </p>
+
+
+                <p> Cuando él juzgó que ya éramos bastante hábiles nos enseñó varios ejercicios en
+                    el trapecio, llegando al fin a realizar lo que él llamaba su bello ideal, las
+                        <emph> estrellas volantes </emph> . Hacía entonces tres años que nos
+                    hallábamos con la familia Asthon. Consistía el citado ejercicio en pasarse de un
+                    trapecio a otro, después de varias planchas y volteos; al final yo debía enviar
+                    a Rosalinda, con una precisión grandísima, desde donde me hallaba a bastante
+                    distancia para que fuese recogida por Roberto. </p>
+
+
+                <p> Nos habían hecho a los tres trajes completamente iguales, todo encarnado,
+                    incluso las mallas. </p>
+
+
+                <p> Rosalinda estaba encantadora hasta el punto de disgustarme verla tan bella,
+                    pensando que el público pudiera ser de mi misma opinión. </p>
+
+
+                <p> Desde hacía algún tiempo notaba que el sentimiento que me inspiraba la niña se
+                    había trocado en otro más tierno, al paso que el de ella por mí no había
+                    cambiado absolutamente nada. </p>
+
+
+                <pb n="33"/>
+
+
+                <p> Era siempre la criatura cándida y sencilla que me había otorgado todo su cariño
+                    casi desde que me conoció. Estaba más bien baja para su edad; era esbelta y
+                    elegante; sus cabellos castaños no eran largos, como sucede a las que los tienen
+                    rizados; caían sobre sus hombros formando bucles, y servían de marco al rostro
+                    más perfecto que se haya visto jamás. Cuando después de ejecutar sus ejercicios
+                    la hacían salir a la pista y saludando echaba besos con sus manitas al público,
+                    cuando algún espectador más o menos joven le decía cualquier requiebro al que
+                    ella jamás contestaba, cuando veía los gemelos fijos en su airosa figura, sentía
+                    yo indecible malestar que me hacía entregarme a raptos de verdadera cólera. </p>
+
+
+                <p> Luego me calmaba, cuando, a solas en aquella pequeña habitación destinada para
+                    vestirnos, la veía agitada por el cansancio sentarse a mi lado en el estrecho
+                    diván y apoyar su frente cubierta de sudor en mi hombro. Yo lo enjugaba con mi
+                    pañuelo y no le dirigía la palabra hasta que su fatiga había cesado. </p>
+
+
+                <p> No; aquella vida no era tolerable para Rosalinda, que no había nacido para ella,
+                    y aunque nunca se lamentara, comprendía que con gusto la hubiera trocado por
+                    cualquiera otra. </p>
+
+
+                <p> Mis celos ¿por qué no darles su verdadero nombre? aumentaban a medida que la
+                    niña crecía y me causaban verdadera tortura. </p>
+
+
+                <p> La familia Asthon nos había tomado cariño y siempre hablaba de que no nos
+                    separaríamos nunca; yo la dejaba en esa creencia, pero en los ratos que tenía
+                    libres procuraba buscarme una colocación, por humilde que fuese. En todas partes
+                    hallaba dificultades, pues si consentían en admitirme en algunas era siempre
+                    solo, y yo no podía separarme de Rosalinda. Mi amor por ésta era tan grande como
+                    respetuoso; más bien que un ser humano parecía aquella criatura un ángel. </p>
+
+
+                <p> Con mucha anticipación se anunció en los carteles y periódicos el ejercicio
+                        <emph> Las estrellas volantes </emph> , ejecutado por la familia Asthon.
+                    Llegó el día fijado. El circo estaba lleno. <pb n="34"/> Nosotros no
+                    trabajábamos hasta la mediación de la segunda parte del programa. </p>
+
+
+                <p> No sé por qué al acercarse la hora me hallaba preocupado, lo que no me había
+                    ocurrido una sola vez desde que éramos gimnastas. Tenía miedo de que el
+                    ejercicio no saliera bien y temblaba sobre todo por Rosalinda. Felizmente mis
+                    temores no se confirmaron, y nunca fuimos más aplaudidos ni salimos más veces a
+                    saludar al público. Gracias a esto el director nos concedió un beneficio que
+                    debía verificarse a la semana siguiente. Sería la función de despedida, pues
+                    estábamos contratados en otra parte, aunque el circo de aquella ciudad seguiría
+                    abierto más tiempo. </p>
+
+
+                <p> El mismo día de aquel beneficio ensayamos por la mañana como de costumbre, y
+                    antes de ir a almorzar a la fonda en que nos hospedábamos salimos Rosalinda y yo
+                    a dar un paseo por los alrededores. Al volver me encontré a Roberto muy
+                    preocupado, y antes de que le preguntásemos la causa nos dijo: </p>
+
+
+                <p> -Virginia se ha marchado con Tony. </p>
+
+
+                <p> Tony era un acróbata de la compañía. </p>
+
+
+                <p> Para ahogar sus penas Asthon bebió más que de costumbre y luego no le vimos
+                    hasta la hora de la función. Trabajé en la primera parte sobre el caballo y en
+                    la última en <emph> Las estrellas volantes </emph> . Al principio todo fue bien;
+                    los cambios de trapecio a trapecio entre Rosalinda y yo se hicieron con la
+                    precisión de siempre y nos preparamos a terminar el trabajo como las otras
+                    noches. </p>
+
+
+                <p> Yo veía desde mi puesto a Asthon cogido por las corvas, con el rostro
+                    congestionado, los ojos saltones, los cabellos pegados a las sienes por el sudor
+                    copioso, y me parecía que el inglés no se hallaba en su estado normal. Cuando
+                    dijo ¡ya! con su voz de trueno, di impulso al trapecio mientras él hacía lo
+                    mismo con el suyo, y al llegar a la distancia convenida solté a Rosalinda, que
+                    debía ser recogida por Roberto. </p>
+
+
+                <p> Un grito de espanto resonó en todo el circo. La niña había caído desde una
+                    inmensa altura a la red y, despidiéndola ésta, a la pista, donde quedó sin
+                    movimiento. Iba a seguirla <pb n="35"/> tirándome a mi vez cuando oí que desde
+                    abajo me gritaban: «Por la cuerda, por la cuerda» que uno de mis compañeros de
+                    circo me había acercado al trapecio para que descendiese por ella. Maquinalmente
+                    la cogí y con rapidez extraordinaria me dejé deslizar hasta el suelo. </p>
+
+
+                <p> Muchos espectadores, gimnastas y empleados del circo rodeaban a Rosalinda,
+                    habiendo entre los primeros un médico. Éste la tomó en brazos y abandonó la
+                    pista mientras el público horrorizado salía sin querer ver la terminación del
+                    programa. </p>
+
+
+                <p> -Se ha matado -oí que decían algunos. </p>
+
+
+                <p> Y teniendo la evidencia de tal desdicha, no me atrevía a seguir a los que se
+                    llevaban a mi adorada Rosalinda. </p>
+
+
+                <p> Al fin procuré salir de mi estado de postración, pero ya los corredores estaban
+                    desiertos, por lo que me dirigí a nuestro cuarto pensando que habrían llevado
+                    allí a la niña. Me detuve junto a la puerta, que estaba cerrada y en la que se
+                    veía trazado con carbón en letras grandes. «Familia Asthon». Reinaba un silencio
+                    profundo que me pareció de muerte; al fin abrí y vi que la habitación, alumbrada
+                    por un mechero de gas, estaba vacía. </p>
+
+
+                <p> Un empleado, a quien interrogué, me dijo que habían llevado a la niña al cuarto
+                    del director. El médico había hecho salir de allí a los curiosos y sólo estaban
+                    con él Juana, Roberto y cuatro o seis personas, gimnastas en su mayor parte.
+                    Como me creían hermano de Rosalinda, me dejaron que entrase sin dificultad. </p>
+
+
+                <p> La pobre criatura estaba echada en una cama, con los ojos cerrados y el rostro
+                    pálido como si fuera un cadáver. De vez en cuando movimientos convulsivos
+                    agitaban su cuerpo. </p>
+
+
+                <p> Tenía una mano manchada de sangre, y recordé el primer día que la vi, cuando me
+                    decía con su dulce voz, el rostro inundado de lágrimas: </p>
+
+
+                <p> -Límpiame esto. </p>
+
+
+                <p> La cara del doctor estaba bastante sombría mientras hacía la primera cura.
+                    Después que terminó dijo, volviéndose hacia Juana: </p>
+
+
+                <pb n="36"/>
+
+
+                <p> -Creo que es usted su madre, ¿verdad? </p>
+
+
+                <p> Ella hizo con la cabeza una señal afirmativa. </p>
+
+
+                <p> -Siento decirle -prosiguió el médico- que el estado de la niña es grave, que
+                    exige continuos cuidados y que es casi seguro que no pueda nunca volver a
+                    trabajar en ningún circo. Voy a mandar que traigan una camilla para llevarla a
+                    su casa. </p>
+
+
+                <p> -Es que -dijo Roberto, cuya embriaguez se había disipado por completo- nosotros
+                    estamos en una fonda y mañana tenemos que marcharnos. ¿Cómo se va a quedar allí?
+                    No lo permitirán. </p>
+
+
+                <p> -En ese caso, la haré conducir al hospital, donde podré continuar asistiéndola. </p>
+
+
+                <p> -Como usted guste. </p>
+
+
+                <p> Mientras ellos hablaban me había acercado yo a Rosalinda y cubría su rostro de
+                    besos y de lágrimas. Estaba helada y había perdido toda sensibilidad. </p>
+
+
+                <p> -Lo que hace este chico -dijo el doctor a uno de los que estaban allí- esperaba
+                    que lo hubiese hecho el resto de la familia; me parece que son tan padres de la
+                    muchacha como yo. </p>
+
+
+                <p> Llevaron la camilla, y el médico, con mi ayuda, colocó en ella a Rosalinda
+                    envuelta en una manta. Después la sacaron de la habitación, y la seguí hasta el
+                    hospital. </p>
+
+
+                <p> No me dejaron entrar detrás de ella. </p>
+
+
+                <p> -Los jueves y los domingos hay visita de dos a tres -me dijeron. </p>
+
+
+                <p> Me fui a la fonda, donde manifesté a Asthon mi resolución de quedarme en la
+                    ciudad hasta que se curase Rosalinda. Se encolerizó, profirió juramentos y
+                    amenazas, pero tuvo al cabo que ceder, y quedamos en que nos reuniríamos de
+                    nuevo cuando él terminase su contrata, para lo que volvería a buscarnos. </p>
+
+
+                <p> -Creo -me dijo- que la niña tiene fracturado un brazo; pero si no le queda más
+                    que eso, Virginia le enseñará a bailar y aún podrá ganarse la vida. De la
+                    conmoción cerebral se curará. </p>
+
+
+                <p> -¿Virginia? -le pregunté asombrado. </p>
+
+
+                <pb n="37"/>
+
+
+                <p> -Sí; ha vuelto, dejando plantado a Tony; estoy contento. </p>
+
+
+                <p> Me despedí poco después de toda aquella gente, busqué una habitación más barata
+                    y rogué al director del circo que prorrogase mí contrata por algún tiempo,
+                    aunque me pagara poco. Accedió a mis deseos, y con lo que me dio logré vivir y
+                    ahorrar algún dinero. </p>
+
+
+                <p> Las primeras veces que fui al hospital no me dejaron pasar a ver a Rosalinda,
+                    que continuaba muy grave. Entonces resolví esperar al médico todos los días
+                    cuando saliera de hacer su visita para preguntarle cómo estaba mi querida
+                    enferma. Fiel a la promesa hecha a Roberto, dije que me llamaba Santiago Asthon,
+                    a pesar de la incredulidad del doctor, que encontraba que yo hablaba el español
+                    demasiado bien para ser hijo del acróbata extranjero. </p>
+
+
+                <p> Al fin, mucho después de la caída de la niña, me permitieron que entrase a verla
+                    un momento. </p>
+
+
+                <p> Rosalinda estaba aún en el lecho, completamente inmóvil a causa de la fractura
+                    del brazo, pálida y delgada. Una sonrisa celestial iluminó su rostro cuando me
+                    acerqué a su cama, y casi no me atreví a rozar su frente con mis labios por
+                    temor de lastimarla. </p>
+
+
+                <p> No le hables mucho -me dijo una hermana de la Caridad-; el doctor lo ha
+                    prohibido. </p>
+
+
+                <p> Apenas me dejaron estar a su lado diez minutos, durante los cuales me aseguró
+                    que se encontraba mejor y que su único deseo desde que recobró el conocimiento
+                    fue volver a verme. Me rogó que la sacara de allí pronto. Esto me lo expliqué
+                    perfectamente, porque las enfermas con quienes estaba causaron también en mí una
+                    triste impresión. Las había convalecientes, graves y moribundas; la charla de
+                    las unas formaba singular contraste con los gemidos o el estertor de las otras. </p>
+
+
+                <p> Desde entonces volví todos los jueves y los domingos. </p>
+
+
+                <p> La hermana que el primer día me había hablado me llamó una tarde aparte y me
+                    dijo: </p>
+
+
+                <p> -Es preciso que procures separar a esa niña de la vida a que la condenan
+                    vuestros padres. Diles que nos la dejen, y nosotras la haremos educar. Nos dijo,
+                    cuando sobre ello le <pb n="38"/> preguntamos, que no se había confesado nunca,
+                    y en este tiempo ya lo ha hecho aquí dos o tres veces; antes de que salga de
+                    esta casa hará su primera comunión. ¿Y tú te has confesado? </p>
+
+
+                <p> -¿Yo? -murmuré, mirándola con asombro-, yo no. </p>
+
+
+                <p> -¿Sabes rezar al menos? </p>
+
+
+                <p> -Sí, aprendí en la escuela. </p>
+
+
+                <p> Me hizo varias preguntas de catecismo, a las que respondí lo mejor que pude, y
+                    la hermana me regaló un escapulario. Cuando iba a separarme de ella añadió: </p>
+
+
+                <p> -Deja esa senda de perdición por la que vas y aparta también a tu hermana, que
+                    no nació para esos horrores. Eres un muchacho fuerte y robusto que puedes
+                    dedicarte a las faenas del campo; sé bueno, hijo mío, y sobre todo procura que
+                    tu hermana lo sea. </p>
+
+
+                <p> Cuando Rosalinda se levantó la vi en el jardín del hospital, donde aspiraba con
+                    delicia el aire puro y el aroma de las flores. Había crecido mucho y estaba muy
+                    pálida, pero no menos bellas que antes. </p>
+
+
+                <p> -Pronto me darán de alta -me dijo un día-; mira, ya muevo el brazo, pero noto un
+                    gran cansancio a todas horas y apenas puedo tenerme en pie. El médico, que es
+                    muy bueno para mí, me ha mandado que vuelva a mi pueblo para pasar en él una
+                    larga temporada, que tome mucha leche y... esto es lo que me mortifica... que no
+                    trabaje nada. Al pueblo no podemos volver, porque estará allí la Roja, pero
+                    vámonos a otro que bañe el mismo mar; tu pescarás y yo venderé la pesca; te
+                    acompañaré siempre, y los peligros que corras, los correré contigo. No esperemos
+                    a Asthon; huyamos antes de que él vuelva a esta tierra. Ese hombre me da
+                    espanto, no porque haya sido la causa de mi enfermedad, sino por su estado de
+                    constante embriaguez que le priva de la razón, haciéndole capaz de cometer las
+                    mayores locuras. No quiero ver más a su hija, qué no me da sino malos consejos
+                    que mi alma rechaza, ni a su mujer, ni a nadie de esa familia. Santiago, llévame
+                    contigo donde no me conozcan, ni me hablen, ni me miren; no quiero vivir más que
+                    para ti. </p>
+
+
+                <pb n="39"/>
+
+
+                <p> ¡Con qué placer oía yo estas palabras! Economizaba casi todo el dinero que me
+                    daban, no gastando ya más que en comer, porque dormía en el pórtico de una
+                    iglesia abandonada y ruinosa, para no pagar un mal cuarto en la posada. </p>
+
+
+                <p> Una mañana me dijo uno de los compañeros de gimnasia, muchacho de pocos más años
+                    que yo, que iba a ir a la fiesta de un pueblo vecino, preguntándome si quería
+                    acompañarle. No me atreví a rehusar, y como no era día de visitar a Rosalinda,
+                    partí con él bastante temprano, yendo en la diligencia con otros muchos
+                    viajeros. </p>
+
+
+                <p> Se celebraba una romería que estaba, al llegar nosotros, muy animada, y lo pasé
+                    menos mal de lo que creía, porque mi compañero era alegre y sabía sacar partido
+                    de todo. </p>
+
+
+                <p> Habían puesto en la plaza una cucaña y se disputaban el premio, veinticinco
+                    pesetas, varios mozos de la localidad. </p>
+
+
+                <p> -¿Quieres que subamos? -me preguntó el gimnasta. </p>
+
+
+                <p> -Como gustes -le contesté. </p>
+
+
+                <p> -Echemos a suertes quién va antes. Cara -dijo sacando una moneda y preparándose
+                    a arrojarla al aire. </p>
+
+
+                <p> -Cruz -exclamé en seguida. </p>
+
+
+                <p> Salió cruz y me dirigí resueltamente a la cucaña, por la que empecé a subir. Lo
+                    hice despacio, procurando no cansarme, y logré coger la bolsita que guardaba el
+                    dinero. Me aplaudieron y bajé triunfante, pensando que con aquellos cinco duros
+                    podría aumentar mi modesto capital. </p>
+
+
+                <p> -Quince pesetas al que suba el segundo -gritó un ricacho del pueblo. </p>
+
+
+                <p> Aquel premio lo ganó mi amigo. Hubo aplausos también para él. </p>
+
+
+                <p> -Diez pesetas al tercero -dijo otra voz. </p>
+
+
+                <p> Y mi compañero y yo, satisfechos por nuestro triunfo, nos quedamos a ver quién
+                    ganaba. </p>
+
+
+                <p> Había cerca de nosotros un grupo de jóvenes, y uno de éstos, al fijarse en mí,
+                    me llamó por mi nombre. Era un chico de mi pueblo, sobrino del alcalde, que
+                    había ido a la escuela conmigo. Mucho me disgustó el encuentro, pero no pude
+                    prescindir de él. Le pedí noticias de la gente del lugar y me dijo que todo
+                    continuaba allí tranquilo, sin más novedad <pb n="40"/> que haber el tío
+                    Feliciano alquilado la casa que fue de mi padre y estar la Roja para casarse con
+                    un pescador. Había él ido a ver la fiesta como nosotros, aunque desde más lejos,
+                    y pensaba volver a nuestro pueblo a los pocos días. Aún estaba hablando conmigo
+                    cuando pasaron dos hombres por nuestro lado murmurando uno de ellos: </p>
+
+
+                <p> -Estos son los que han ganado los primeros premios de la cucaña, pero mira qué
+                    gracia, son Asthon y Bell, dos acróbatas del circo de la ciudad de ***, donde
+                    los he visto trabajar, y subir por un palo debe ser para ellos un juego de
+                    niños. </p>
+
+
+                <p> Cenamos en un <foreign xml:lang="ENG">restaurant</foreign> el gimnasta y yo, y
+                    después, en el coche que salía a las nueve de la noche, regresamos para ejecutar
+                    nuestros ejercicios en la tercera parte de la función del circo. Éste se cerró
+                    dos días después, y como no quise partir con la compañía, me quedé sin contrata. </p>
+
+
+                <p> Al fin fue Rosalinda dada de alta. Las hermanas se despidieron de ella con el
+                    mayor cariño, dándole hasta el fin saludables consejos, que oyó también de los
+                    labios del médico. Dejé la dirección de la posada donde íbamos a vivir unos días
+                    por si algo querían de nosotros, y me llevé, por último, a la niña, que me
+                    entregaron sin dificultad, como a hermano suyo que me creían. </p>
+
+
+                <p> Noté desde el primer momento en Rosalinda un cambio grandísimo: ya no se
+                    mostraba tan expansiva conmigo como antes, al encontrarse nuestras miradas
+                    bajaba los ojos, y su timidez era visible cada vez que le dirigía la palabra. Me
+                    rogó que tomase en la posada dos cuartos, pero yo no pedí más que uno para ella,
+                    dispuesto a dormir en un banco delante de su puerta mientras permaneciésemos
+                    allí. </p>
+
+
+                <p> Mi enojo con las hermanas de la Caridad era inmenso, pensando que me habían
+                    arrebatado su cariño, pero al decírselo me convenció de lo contrario con estas
+                    palabras. </p>
+
+
+                <p> -Si fuera lo que supones no me hubiese vuelto contigo: bastaba para ello que
+                    supieran que no eres mi hermano. </p>
+
+
+                <p> -Entonces es que ya no me quieres... </p>
+
+
+                <p> -No -me interrumpió-, es... que te quiero más. </p>
+
+
+                <p> El amor, que yo había sentido antes que Rosalinda había brotado en su alma, y al
+                    fin se daba cuenta de él. </p>
+
+
+                <pb n="41"/>
+
+
+                <p> Mi dicha no tenía límites y nos pasábamos el día haciendo planes para lo
+                    porvenir. Con el dinero que ganase, y del que ahorraríamos una mitad,
+                    compraríamos una barca, yendo al cabo a mi aldea, de la que con el pensamiento
+                    arrojábamos a la Roja y demás seres importunos. Transcurridos dos o tres años
+                    nos casaríamos para que nadie en el mundo nos pudiera separar. </p>
+
+
+                <p> Rosalinda se había repuesto casi por completo y habíamos proyectado salir de la
+                    ciudad un lunes por la mañana en la diligencia de las ocho. </p>
+
+
+                <p> Nos hallábamos guardando la ropa en una maleta en el cuarto de la niña, cuando
+                    llamaron a la puerta. Creyendo que sería el posadero que venía a arreglar la
+                    cuenta abrí, y júzguese cuál sería mi asombro al encontrarme enfrente de la
+                    Roja. Entró en la alcoba y se sentó sin saludar. </p>
+
+
+                <p> -¿No me esperabais, eh? -preguntó después de un momento que estuvo gozando con
+                    nuestra confusión. </p>
+
+
+                <p> -No -le contesté-, y no sé lo que viene usted a hacer aquí. </p>
+
+
+                <p> -Pues yo te lo diré, chiquito. Antes voy a contarte lo ocurrido desde que os
+                    escapasteis del lugar. A los ocho días de vuestra marcha llegó a mi casa un
+                    caballero que me dijo: «Soy el padre de Rosita y vengo a buscarla y a pagar a
+                    usted lo que le debo. Mi administrador se ha vuelto loco, y por eso no ha
+                    cobrado usted los últimos meses. ¿Dónde está mi hija?» Ya comprenderéis la
+                    escena que siguió a esto. Cuando se enteró que la niña se había fugado, ni más
+                    ni menos que hubiese podido hacer una joven contrariada en sus amores, al pronto
+                    no lo quiso creer y luego sospechó que yo debía haber tratado indignamente a su
+                    hija para que huyese así de mi lado, o que el mal ejemplo habría influido en su
+                    funesta determinación. Le hablaron bien de mí el cura, el alcalde y todo el
+                    pueblo, pero el señor seguía furioso y se portó muy mal conmigo. Desde entonces
+                    no descansé para buscaros; necesitaba probarle que Rosa se había marchado por no
+                    separarse de ti entrando en un colegio que le tenía buscado. Bien habíais
+                    arreglado la fuga a pesar de vuestros pocos años; ni rastro había quedado por
+                    ninguna parte. Una casualidad <pb n="42"/> debía servirme mejor que todas mis
+                    pesquisas. El sobrino del alcalde, que te vio en la feria de un pueblo cercano,
+                    me contó que habías ganado un premio subiendo a la cucaña y que allí había oído
+                    a unos hombres que eras gimnasta del circo de esta ciudad y que te llamabas algo
+                    así como Basto o Bastón. Me vine aquí en seguida; el circo se había cerrado,
+                    pero me aseguraron que tú no habías partido con la compañía por quedarte
+                    cuidando a tu hermanita, que había estado a punto de matarse una noche. Anduve
+                    de un lado a otro hasta que al fin supe que Rosa había sido llevada al hospital.
+                    Corrí allá, y sin hablar del objeto de mi visita, dije que había sido nodriza de
+                    la niña y que necesitaba saber su paradero. Me vine a la posada y aquí me
+                    tenéis. ¡Buena, voy a devolver al Sr. Latorre a su hija! ¡Enferma, acaso indigna
+                    de él! </p>
+
+
+                <p> -Eso no -repliqué vivamente. </p>
+
+
+                <p> -¡Bah, bah! No habrás impedido que vea y oiga lo que no debiera nunca haber
+                    visto ni oído. Bien me voy a fiar de tus palabras, hoy que eres un mozo, cuando
+                    me engañaste de pequeño. </p>
+
+
+                <p> Rosalinda no se atrevía a hablar y fijaba con angustia sus ojos en los míos. Con
+                    sus miradas me decía: «Nos van a separar». </p>
+
+
+                <p> La Roja se acercó a la ventana, y debió hacer una seña que nosotros no vimos,
+                    porque casi en seguida entró un caballero con un joven que parecía tener unos
+                    veinte, años. </p>
+
+
+                <p> -Tu padre y tu hermano -dijo a Rosalinda. </p>
+
+
+                <p> La niña se acercó maquinalmente a ellos y correspondió a sus caricias sin
+                    entusiasmo, como el que cumple con un deber. </p>
+
+
+                <p> Luego aquellos hombres me llenaron de improperios, que escuché sin replicar
+                    devorando la ira que me dominaba. </p>
+
+
+                <p> -Me han ofrecido ustedes no hacerle nada -exclamó la Roja-; llévense a la niña y
+                    no armen un escándalo aquí. </p>
+
+
+                <p> -Vamos, hija -murmuró Latorre. </p>
+
+
+                <p> Rosalinda y yo nos abrazamos llorando, prometiendo que no nos olvidaríamos
+                    jamás, y luego la separaron de mí a viva fuerza, creo que entre su padre, su
+                    hermano y la Roja. <pb n="43"/> Cuando logré desasirme de los brazos de ésta que
+                    me sujetaban, salí a la calle y aun me pareció oír la dulce voz de la niña que
+                    me decía: </p>
+
+
+                <p> -¡Adiós, Santiago! </p>
+
+
+                <p> Vi un coche que se alejaba y corrí tras de él sin perderlo de vista, oyendo
+                    siempre aquel «¡adiós, Santiago!» que fue su postrera despedida. Divisé a alguna
+                    distancia las altas tapias de un jardín con una puerta de hierro, por la que
+                    entró el carruaje, cerrándose al momento. Cuando llegué, en vano llamé, en balde
+                    grité, nadie me franqueó la entrada. Sabía dónde vivía, pero no me era posible
+                    verla ni hablarla. </p>
+
+
+                <p> Volví a la posada, donde dije al dueño de ella que no partía ya. Me encontré a
+                    la Roja, que me estaba esperando, por la que supe que los padres de Rosalinda
+                    estaban establecidos en la ciudad. Era ésta la primera donde habíamos estado la
+                    niña y yo después de nuestra fuga, en la que conocimos a la familia Asthon, que
+                    había vuelto contratada al mismo circo algunos años después. Sin sospecharlo,
+                    porque luego habíamos viajado bastante y no sabíamos, ni Rosalinda ni yo, dónde
+                    parábamos, nos hallábamos a pocas leguas de mi pueblo. La Roja me dijo que me
+                    volviera a él, pues nadie me inquietaría por aquel suceso, pero yo no quise
+                    alejarme de mi adorada niña. </p>
+
+
+                <p> Poco a poco fui agotando el dinero que había reunido para gastarlo entre los
+                    dos. Todos los días iba a llamar a la puerta de casa de Rosalinda; pero ni me
+                    contestaban ni lograba verla jamás; era indudable que no salía a la calle,
+                    paseando por el extenso jardín. Mi único deseo era ya hablarla una sola vez;
+                    pero ¿cómo conseguirlo si era su morada lo mismo que una prisión? </p>
+
+
+                <p> Un día me encontré sin ninguna moneda y salí al campo para comer algunas frutas.
+                    Llegué a un sitio solitario y me senté junto a un arroyo, donde hice mi frugal
+                    almuerzo. Los altos árboles cubiertos de ramaje me ofrecían su bienhechora
+                    sombra, y en sus copas cantaban dulcemente centenares de pajarillos que vivían
+                    allí sin ser inquietados por el hombre. Las flores silvestres alzaban sus
+                    esbeltos tallos para recibir el beso de algún rayo de sol que penetraba a través
+                    del follaje. <pb n="44"/> A lo lejos veía un pastor echado cerca de su rebaño y
+                    llegaba hasta mí el sonido de una guitarra que tocaba un hombre en un
+                    ventorrillo, al que a aquella hora no solía acudir casi nadie. </p>
+
+
+                <p> Con verdadera ansia me hallaba comiendo higos y moras cuando oí una voz que me
+                    decía: </p>
+
+
+                <p> -Parece que hay apetito, ¿eh? </p>
+
+
+                <p> Alcé la cabeza, y vi a un joven decentemente vestido que me miraba con atención. </p>
+
+
+                <p> -Sí, señor -le respondí-, es lo primero que como hoy. </p>
+
+
+                <p> -¿Y tienes con qué comer luego? </p>
+
+
+                <p> -No; estoy sin trabajo. </p>
+
+
+                <p> El desconocido me contempló con profunda lástima, y sacando una cartera del
+                    bolsillo, de la que quitó dos cartas con sobre cerrado, me la alargó, diciendo: </p>
+
+
+                <p> -Toma esto para ti, yo no lo necesito. </p>
+
+
+                <p> -Gracias, señor -murmuré. </p>
+
+
+                <p> Se alejó rápidamente, y entonces vi que la cartera, que estaba marcada con dos
+                    iniciales, contenía, además de algunos apuntes que no significaban nada para mí,
+                    un billete de 50 pesetas. Este suceso me parecía un sueño, y temiendo estaba
+                    despertar y hallarme otra vez en la miseria cuando oí una detonación. Los
+                    pájaros salieron a bandadas huyendo y hasta un rato después no volvieron a
+                    posarse en las verdes ramas. </p>
+
+
+                <p> Guardé la cartera y me dirigí al sitio donde había sonado la detonación. El
+                    ventero acudía por otra senda al poco tiempo. </p>
+
+
+                <p> Vimos tendido sobre la hierba a un joven en el que reconocí al que me acababa de
+                    hablar. Tenía en la mano un revólver, con el que se había disparado un tiro en
+                    la frente, y a su lado las cartas que sacó de la cartera, la una dirigida al
+                    juez y a una mujer la otra. El ventero corrió a dar parte de que cerca de su
+                    casa había un cadáver, en tanto que yo me alejaba hacia la ciudad con el corazón
+                    oprimido por indecible angustia. Pensaba en que el día que perdiese toda
+                    esperanza de ver a Rosalinda no me quedaría más recurso que hacer lo que aquel
+                    desgraciado. </p>
+
+
+                <pb n="45"/>
+
+
+                <p> -¡Verla! ¡hablarla! esto continuaba siendo mi pesadilla. ¿Por qué no había de
+                    saltar la tapia una noche y esperar oculto una ocasión propicia para acercarme a
+                    ella en el jardín? </p>
+
+
+                <p> Ya no viví tranquilo hasta que puse en práctica el proyecto. Siendo gimnasta,
+                    fácil me fue vencer el obstáculo material que me separaba de la niña; aquel
+                    salto, que hubiera sido casi imposible para otro, resultó sencillo para mí. Una
+                    vez dentro, vi a lo lejos la casa, en la que aún ardían algunas luces, y pensé
+                    que quizás una fuera la de su cuarto. ¿Dónde me ocultaría? Vagué al azar, y ya
+                    me creía seguro bajo un cobertizo en el que había objetos de jardinería, cuando
+                    turbaron el silencio de la noche los ladridos de un perro. Advertía cómo iba
+                    acortando la distancia que le separaba del sitio en que me hallaba, y al fin le
+                    vi enfrente y pronto a lanzarse sobre mí. Me defendí como pude, pero aquella
+                    lucha hacía ruido y acudió un guarda. </p>
+
+
+                <p> No pude explicar mi presencia en el jardín, y me llevaron preso. Para agravar mi
+                    situación, encontraron en mi bolsillo la cartera del suicida, y aunque juré una
+                    y mil veces que me la había dado, el juez creyó que había despojado de ella al
+                    cadáver, y la pena que me impuso fue más fuerte. </p>
+
+
+                <p> La cárcel estaba enfrente del jardín de Rosalinda. Había sido convento, y todas
+                    las ventanas tenían aún celosías; así es que si yo podía ver lo que pasaba
+                    fuera, no era fácil en cambio que los del exterior me viesen. </p>
+
+
+                <p> Todas las tardes divisaba, pero muy lejos, a mi amada sentada en un gran sillón
+                    junto a una señora que solícita la cuidaba y que debía de ser su madre. También
+                    solían estar a su lado, pero menos, su padre, sus dos hermanos y una niña menor
+                    que ella, nacida sin duda en el país lejano de América u Oceanía donde habían
+                    residido desde que la dejaron en mi aldea. Al parecer Rosalinda se hallaba muy
+                    enferma, y yo no podía ni cuidarla ni prestarle mis consuelos. </p>
+
+
+                <p> Vivía entre malhechores de la peor especie, y sólo había hecho conocimiento con
+                    un preso político que debía extinguir su condena al propio tiempo que yo. Me
+                    trataba con cariño, y en los ratos en que estábamos reunidos me daba lecciones
+                    de escritura que procuraba aprovechar. </p>
+
+
+                <pb n="46"/>
+
+
+                <p> -Oye, Santiago -me decía-, cuando, nos dejen libres nos vamos a hacer un viaje
+                    largo por todas las partes del mundo; me servirás de secretario, y cuando nos
+                    establezcamos en algún punto fundaremos un periódico, porque noto en ti dotes de
+                    literato. Escribirás tu historia, cuya relación me ha conmovido e interesado, y
+                    haremos por publicarla. Verás de qué manera vamos a hacernos célebres los dos. </p>
+
+
+                <p> -Pero mi historia no tiene desenlace -repliqué. </p>
+
+
+                <p> -Tal vez lo tenga antes de que salgamos de la cárcel. </p>
+
+
+                <p> Y así fue, en efecto. </p>
+
+
+                <p> Un día me anunciaron que un caballero preguntaba por mí, y no tardé en hallarme
+                    ante un joven cuyo parecido con Rosalinda era notable. No necesitó nombrarse
+                    para que adivinara que era el segundo de sus hermanos. Iba vestido de negro, y
+                    con voz conmovida me preguntó: </p>
+
+
+                <p> -¿Es usted Santiago Arabal? </p>
+
+
+                <p> Le contesté afirmativamente, y él prosiguió: </p>
+
+
+                <p> -Vengo de parte de mi hermana, sin que lo sepa mi familia, porque así se lo he
+                    prometido. Rosa está muy enferma. Las consecuencias de su funesta caída, la
+                    tristeza, tal vez algo de herencia, pues nuestra madre está también muy delicada
+                    de salud, le han producido un mal que no tiene cura. Me ha encargado que le
+                    entregue a usted este paquete, que ella misma ha lacrado, y que le abrace en su
+                    nombre. </p>
+
+
+                <p> -¿Y está grave? -le pregunté. </p>
+
+
+                <p> Me miró con tal expresión de pena que adiviné la verdad. </p>
+
+
+                <p> -¿Ha muerto? -murmuré </p>
+
+
+                <p> -Sí, hace dos días, pero no he querido decírselo de pronto. En estos meses que
+                    ha estado con nosotros la habíamos tomado cariño; ella siempre se acordaba de
+                    usted, nada más que de usted. Cumplo, pues, su postrer encargo entregándole este
+                    paquete y dándole este abrazo. </p>
+
+
+                <p> Me estrechó con fuerza contra su pecho y salió no menos conmovido que quedaba
+                    yo. </p>
+
+
+                <p> Mucho tardé en ver lo que Rosalinda me mandaba; loco, desesperado, no tenía
+                    ánimo para nada, pareciéndome que todo en el mundo se había acabado para mí. </p>
+
+
+                <p> Al fin rompí el papel lacrado y vi un retrato suyo con esta <pb n="47"/> sola
+                    dedicatoria «A Santiago, Rosalinda», puesta en gruesos caracteres, como por una
+                    mano inexperta; un rizo de sus cabellos y las medallitas doradas que le dieron
+                    de premio en el colegio de mi pueblo y que siempre había ella guardado
+                    cuidadosamente. Besé aquellos objetos queridos, jurando que no me separaría de
+                    ellos jamás. </p>
+
+
+                <p> Así acabaron aquellos amores de mi infancia. Salí de la cárcel ya hombre,
+                    partiendo para lejanas tierras con mi protector, que es mi mejor amigo. </p>
+
+
+                <p> Los sucesos por demás extraños que nos ocurrieron nada tienen ya que ver con
+                    esta historia, y en libro aparte acaso los narraré algún día. </p>
+
+
+                <p> Básteme por hoy decir que ningún amor verdadero ha venido a borrar de mi corazón
+                    la imagen de aquel ángel, a quien solo yo nombré Rosalinda. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

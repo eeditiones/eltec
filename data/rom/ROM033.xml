@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM033" xml:lang="ro">
+          
+          <teiHeader>
+                    <fileDesc>
+                              
+                              <titleStmt>
+                                        <title> Ruxanda Haiduciasa. Nuvelă Istorică Națională: ediție ELTeC</title>
+                                        <author> Anonymous</author>
+                                        <respStmt>
+                                                  <resp>OCR</resp>
+                                                  <name>Roxana Patras</name>
+                                        </respStmt>
+                                        <respStmt>
+                                                  <resp>codare ELTeC</resp>
+                                                  <name>Roxana Patras</name></respStmt>
+                                        <respStmt>
+                                                  <resp>corectura manuala</resp>
+                                                  <name>Roxana Patras</name></respStmt>
+                              </titleStmt>
+                              
+                              <extent>
+                                        <measure unit="words">15530</measure>
+                                        <measure unit="pages">81</measure>
+                              </extent>
+                              
+                              <publicationStmt>
+                                        <p></p>
+                              </publicationStmt>
+                              
+                              <sourceDesc>
+                                        <bibl type="firstEdition">
+                                                  <author>Anonymous</author>
+                                                  <title>Ruxanda Haiduciasa. Nuvelă Istorică Națională</title>
+                                                  <pubPlace>Bucharest</pubPlace>
+                                                  <publisher>Concurența</publisher>
+                                                  <ref target="http://doi.org/10.5281/zenodo.3723247">Facsimile on zenodo</ref>
+                                                  <date>1920</date>
+                                        </bibl>
+                                        
+                                        
+                              </sourceDesc>
+                    </fileDesc>
+                    
+                    <encodingDesc n="eltec-1"><p/></encodingDesc>
+                    
+                    <profileDesc>
+                              <langUsage>
+                                        <language ident="ro"/>
+                              </langUsage>
+                              
+                              <textDesc>
+                                        <e:authorGender key="X"/>
+                                        <e:size key="short"/>
+                                        <e:canonicity key="low"/>
+                                        <e:timeSlot key="T4"/>
+                              </textDesc>
+                    </profileDesc>
+                    
+                    <revisionDesc>
+                              <change when="2020-03-20">Initial TEI version generated.</change>
+                    </revisionDesc>
+          </teiHeader>
+          
+          <text xml:lang="ro">
+                    
+                    
+                    <front>
+                              <div type="titlepage">
+                                        <p>RUXANDA</p>
+                                        <p>HAIDUCIASA</p>
+                                        <p>Tipografia "Concurenta" Strada Decebal No. 11</p>
+                                        
+                                        
+                                                  <p>RUXANDA</p>
+                                                  <p>HAIDUCIASA</p>
+                                                  <p>Nuvela Istorica Nationala</p>
+                                        
+                                        <p>BUCURESTI</p>
+                                        <p>Tip CONCURENTA DECEBAL, 11</p>
+                                        </div>
+                    </front>
+                    
+
+
+<body>
+
+       <div type="chapter" n="1">   
+          <head> I. ROCHIA DE MIREASA   </head>
+<p>  Eră în noaptea de 22 spre 23 Ianuarie a anului 1821.   </p>
+<p>  Pe șoseaua județeană ce duce la Cra-iova la Turnu Severin, patru călăreți nocturni, sprinteni ca niște smei, alergau în goana cailor, întocmai unei umbre misterioase.   </p>
+<p>  Pentru ce atâta zor pe drumeți ?   </p>
+<p>  Să trăgem puțin cu urechea și vom face cunoștiința cu păsurile lor.   </p>
+<p>  — La ce ghilăluim așa, ducere? Că doar nom agonisi cin’sc’e tolbe cu mahmudele de vom ajunge satul cu vre-o oră două mai repede.   </p>
+<p>  Adresantul, care fusese dus pe gânduri, nici nu auzise întrebarea.   </p>
+<p>  —Mai taci și tu hagiule ! Răspunse un altul. Ori crezi că o să făptuim vr’o ispravă, dacă vestea despre moartea lui Vodă o să ajungă înaintea noastră ]a Cerneți?   </p>
+                 <p>  — Poi, de la cine vrei s’o afli?   </p>
+<p>  Replică primul.   </p>
+<p>  — De la cine o hi. Răspunde de astă dată cel mai tânăr dintre drumeți, care   se ținuse până atunci la distanță de ceilalți tovarăși. Scopul nostru este că: îndată ce norodul o prinde veste de moartea lui Vodă Șuțul, noi să ridicăm stindarul revoluțiunii.   </p>
+<p>  — Că bine zici Oarcă. Se amestecă în vorbă acela care părea a fi șeful lor și   căruia adresase primul titlu de clucer. La   zece dimineața vom ajunge la Cerneți   Toată ziua vom orândui'toate trebile și   vom trimite proclamații prin toate orașele și satele din Mehedinți, Gorj și celelalte județe de dincoace de Olt, iar mâine   în zor de ziuă să isbuchească resmerița.   </p>
+<p>  — Cum ’i porunci așa se face cucoane ! Răspunse cel ce deschisese discuția.   </p>
+<p>  — Zor băeți!, replică căpitanul. <quote>„Vorbă multă sărăcia omului!“</quote>, mai adaogă el. Să ne vedem de drum.   </p>
+<p>  Apoi dând pinteni calului, își continuă drumul, urmați de ceilalți.   </p>
+<p>  Zăpada care se topise de cu ziuă în u-nele locuri, formând în tot drumul mici băltoace, făcea ca drumeții noștri să fie   stropiți de sus până jos, așa că uitându-te   la ei ai fi putut zice că erau scăldați în   noroi.   </p>
+<p>  Cel mai în vârstă dintre călăreți, era un bărbat bine făcut și frumos. Chipeș la trup   ahîrna până jos de tot, așa că d’abia te   puteai uita de desupt.   </p>
+<p>  I ’o pat erau așezate cinci perne îmbrăcate cu o stambă roșie cu doricele albe. I'llo (uau așezate în formă piramidală. Cea   mai mare de desupt și cea mai mică deasupra. împinse apoi spre unghiul format de   ambii pereții, vopsită în culoarea oului de   rața nu le vedeai de cât numai din trei   părți   </p>
+<p>  La stânga patului era o ladă mare de Brașov, care avea pe tablia din față două   zugrăveli represintând niște cadâne cu daerele, care jucau. Aceasta era asemenea învelita cu o velință. De-asupra poliței de   peste ușe erau înșirate mai multe străchini oiire noi, ne uzate, linguri, furculițe,   sfeșnice de lemn și altele.   </p>
+<p>  Ferestrele ale căror geamuri de țiplă lăsau să pătrunză o lumină potrivită, erau împodobite cu niște perdeluțe din țăsătura   de pânză de casă, albă, având pe de margine două dungi albastre cât degetul de   groase. Pereții—afară de acela deasupra   patului, care era acoporit cu un fel de velință făcută din bucățele de stămburi pătrate. de aceași mărime și cusute una de   alta, și acela din spre sală, pe care era suspendat de un piron o mică mescioară rotundă, de lemn, cu trei piciorușe de o palmă de înalte—erau toți decorați în mod   neregulat cu fel de fel de chipuri de icoane   pe hârtie și lemn, și cu o mică oglinjoară   deasupra lăzii. Numai peretele dintre ferestre, care era spre răsărit, a fost mai cu   dichis. La mijloc o icoană de tinichea ocsidată, care de veche ce era fusese până a-tunci toate fețele. Aceasta representa pe   Maria cu Mântuitorul în brațe.   </p>
+<p>  In dreapta icoanei era atârnată o sticluță cuaghiazmă care era bună de ținut în casă ferindu-te de farmece și alte rele.   Afară de asta, o picătură două, de aghiasmă   putea să te curarisească de masele, de   colică de friguri și alte alea ucigăle-ar   toaca. Apa aceasta nu trebuia să lipsească   din nici o casă adevărat creștinească. In   partea din spre stânga icoanei erau aran-jeate două sorcove de hârtie, dintre care   una era ofilită de vreme, că nu mai cu-noștiai dacă a avut o dată vre’o culoare,   iar cea-laltă care fusese de două ori de   mare se vedea proaspătă curată. Aceasta   era cumpărată de Sf. Vasile de către tânăra fată pe care o găsim tocmai în genuchi, prosternată înaintea icoaneii deasupra căreia, băgat în perete, ardea o candelă a cărei lumină slabă se răsfrângea   pe obrazul palid și plâns al junei copile.   Ea cumpărase craca de sârmă cu floricele   de hârtie de toate fețele, ca să sorcovească   pe ibovnicul ei pe care-l așteptase, fiind   plecat la București d’inainte de Sf. Nicolae   și pe eare-l aștepta și acuma.   </p>
+<p>  La scârțâitul ușii, când cu intrarea lui Oarcă în odăiță, Ruxanda, care-și întorsese   capu, nu voia săcrează ochilor. I se părea   că visează. Ea se desmetici însă, îndată ce  sau mai bine zis a fost spânzurat de oamenii stăpânirei pentru niște motive pe care le tăinuiește pentru totdeauna? </p>
+
+<p> —  Cui spui vorba asta ? Crezi că nu-ți cunosc după obraz că ai ceva pe inimă   caro te roade și nu vrei să-mi spui?   </p>
+<p>  Și ai dreptate dragă Oarcă la ce m’ași încerca, să-ți neg adevărul. Sunt azi trecut   do șoapte săptămâni de când plecași la   București, fără să fi vrut să-mi spui pentru ce te-ai dus într’acolo. De la plecarea   ta, de câte ori eream în târg am observat   că boerii târgoveți și prostimea și-au dat   mâna să trăiască mai frățește ca altă dată   Ii tot întâlnești ici, colea, șoptindu-și în   tăcere fără să poți afla nimic din câte   vorbesc. Așa se zice că la Cerneți se petrec lucruri mari. Mătușa zice că ia-r fi   spus cine-va că la curtea slugerului Tu-dor s’ar fi adunat fel de fel de mutre   străine ca: Bulgari, Sârbi, Arnăuți și alții   unde li’i se împarte într’ascuns bani și   hrană. Ce o li asta nu știu ? Se mai zice   că într’o noapte s’a*r fi văzut intrând, în   curtea boerească din Cerneți două căruțe   încărcate cu iatagane și flinte turcești și   unde au fost golite în chelaruri ascunse.   Ruxanda tăcu.   </p>
+<p>  Oarcă înțelese că nu era asta care o îngrijoarâ pe dânsa și că-i tăinuește ceva   mai grav.   </p>
+<p>  — Câte le înșira-și ’s toate adevărate. De tu mai ști ceva, care nu vrei să-mi zici.   </p>
+<p>  — Ba nu mai știu nimic.   </p>
+<p>  Dânsa se feri să-i întâlnească ochii, de teamă că-i citea totul după privire.   </p>
+<p>  — Să știi că îmi iei toată liniștea dacă nu’mi spui adevărul.   </p>
+<p>  Replică Oarcă.   </p>
+<p>  Apoi el o convinse că dacă știe ceva să-i spuie, să n’o ascunză de dânsul.   </p>
+                 <p>  Fata luâudu-și inima în dinți adaogă: </p>
+                 <p> —  Știi, a doua zi după ce plecase-și a fost   nășicu la noi și-mi spuse că fiind înCer-ceți la fică-sa a mare care ținea pe Christea   Prinde Vacă v-ar fi văzut pe tine și pe   Hagi Prodan intrând amândoi la curtea   boierească, de vorbă cu boierul. Și mi-e   tare teamă să nu ți se întinză vr’o cursă   Și când mă gândesc că ași rămâne fără   tine, mai bine m’ași arunca în Dunăre.   </p>
+<p>  Ultimele cuvinte fură înecate de plâns în care isbucni.   </p>
+<p>  Junele pandur văzu că Ruxanda știa mai mult de cât și-ar fi închipuit el în tot timpul cinei pledându-i sfânta și patriotica   cauză de care erau animați, el o duse la   convincțiunea bunelor intențiuni ale slugerului Tudor Vladimirescu, împreună cu   care a fost la București. El îi povesti în   șir toate marile sacrificii bănești, ce le făcea marele ora, demostrându-i tot-deodată   cu câtă abnegațiune lucra pretutindenea,   ne căutând de cât desrobirea obijduitului   țăran care a ajuns să-și uite țara, și graiul național, lăsate lui în păstrare de marele Traian.   </p>
+                 <p>—Totul pentru obștie, nimic pentru noi! ne tot striga viteazul Tudor: Moartea <gap unit="image"></gap> lui Vodă ne-a făcut să ne înapoiam la căminurile noastre și să ridicăm stindardul   libertății. Totul e gala.   </p>
+<p>  Măsuța de lemn care fusese pusă pe pat unde mâncaseră, era de mult ștearsă cu   un pișchir și atârnată pe perete.   </p>
+<p>  Acum el trebuia să plece. La Cerneți îl așteptau bandele care trebuiau să lupte   sub căpitănia lui. Acolo trebuia să isbuc-niască revoluția.   </p>
+<p>  Fata isbucni într’un plâns puternic.   </p>
+<p>  Mătușa care tocmai venise de afară unde dăduse calului nutreț și apă, se opri mirată în ușe.   </p>
+<p>  Junele căpitan i povesti pe scurt cauza pentru care plângea.   </p>
+<p>  Mătușa o încuraja pe fată zicându-i că omul trebuie să-și sacrifice totul pentru   patrie, atunci când aceasta are nevoie de   brațele lui.   </p>
+<p>  — Unchiul tău Dumnezeu sâ-l ierte, - glăsui bătrâna, - n’a murit și el în luptă contra străinului pentru apărarea pământului strămoșesc ? Parcă averea, nevasta cu copii și chiar viața-ți însuși, însemnează ceva în fața datoriei ?   </p>
+<p>  Zicând vorbele astea, o lacrimă fierbinte curse din genele albite de vreme ale bătrânei, peste obrazul ofilit de durere al   fetei care o cuprinsese în brațe.   </p>
+<p>  Greu i-a fost eroului nostru, care văzându-și logodnica in așa stare, nu știa cum sa facă mai bine.   </p>
+<p>  In ea se petrecea una din acele lupte sufletești pe care nu le poți stăpâni.   </p>
+<p>  Era lupta între dragoste și datorie.   </p>
+<p>  De odată Ruxanda desfâcându-se din brațele mătușii sale, își luă o atitudine   mândră. In sufletul ei se făcuse o schimbare măreață. Ochii îi străluceau ca rubinele. Logodnicul nu-și mai recunoscu   mireasa. El nu mai avea înaintea lui pe   femeia care se bocia; ci o eroină.   </p>
+<p>  — Bine !—zice dânsa,—Poți să pleci, dar eu vreau să fiu lângă tine, să lupt   și eu pentru patrie alături de tine sub   comanda ta, și când o fi la nevoe am să   știu să te apăr cu pieptul meu.   </p>
+<p>  Oarcă nu se așteptase la atâta mărinimie și abnegațiune de sineși. Era ceva măreț în. aceste câte-va cuvinte care îi   sugerară o ideie minunată, scăpându-l de   încurcătură în care se afla.   </p>
+<p>  — Ascultă Ruxando ! Nu mă îndoiam o clipă că ai în tine o inimă nobilă. Primesc să lupți sub comanda mea.   </p>
+<p>  Apoi, după trecerea unui minut în care timp se făcuse o tăcere adâncă, el adaugă:   </p>
+<p>  — Jură-mi că ai să-mi dai ascultare.   </p>
+<p>  Ridicând mâna către icoană în fața căreia se afla, ea răspunse:   </p>
+<p>  — Pe sfânta cruce, jur !   </p>
+<p>  — Ca comandant îți poruncesc să rămâi aci și la nevoe să aperi văduvele și orfanele ale căror bărbați și părinți îi iau   cu mine.   </p>
+<p>  Până să termine cel din urmă cuvânt el o strânse la piept, depunându-i pe buze un   ultim sărut, și rupându-se din brațele ei în-eleștate împrejurul gâtului său, el alergă   afară unde deslegându-și calul încalecă   într’o clipă, luând pe sosea de vale spre   Cerneți.   </p>
+<p>  Când Ruxanda cu mătușa sa eșiră după dânsul el fusese departe. Abia mai putură   auzi un:   </p>
+<p>  — Rămâneți sănătoase rugați-vă lui Dumnezeu.   </p>
+<p>  Ruxanda scoase un țipăt și se prăvăli jos pe podea.   </p>
+<p>  Până ca bătrâna, care abia mișca picioarele, să alerge în casă ca să aducă puțină aghiasmă cu care s’o frece, zăpada   care cădea foarte deasă depusese un strat   subțire de steluțe albe învelindu-i corpul   într’un giulgiu alb.   </p>
+<p>  Asta ia fost rochia de mireasă.   </p></div>
+          
+          <div type="chapter" n="2">
+<head>  RASMERITA DE LA 1821   </head>
+<p>  Sistemul de tiranie și de corupțiune al Domnilor străini care s’au năpustit ca lăcustele asupra țărilor românești în decursul anilor 1716—1821, a adus pe țăranul,   adevăratul Român, la sapa de lemn A-ceastă epocă cunoscută sub denumirea de   <quote>„Epoca Fanarioților“</quote>, care dură, mai bine de o sută de ani,—până în zilele povestirii noastre o să figureze de veci ca   o pagină neagră în istoria acestor țări.   Mai cu seamă în timpul ultimilor doi   Domni, Ioan Caragea și Alexandru Șuțu   jefuirile ajunseseră la culme. Li se vindeau țăranilor și cenușa din vatră, cum   e vorba Românului. După ce înalta poartă   orândui de beiu, pe șapte ani, pe dragomanul loan Caragea care în timp de șase   ani cât a stat pe scaun (1812—1818), a   supt țara de nouă-zeci și trei de milioane   de lei, când află aceasta că sultanul voește să-l mazilească, o dosi repede dincolo   de hotar, la Brașov și de acolo la Piza   în Italia. Fugind el își luă cu dânsu toate   milioanele și averea mișcătoare adunată   și stoarsă de la Români lăsând biata țară   în voia întâmplării. Acest Domn ca și predecesorii săi împilă pe sărmanul țăran,   sugându-i până și ultima sursă de trai.   </p>
+<p>  El vându la mezat slujbele statului. Liberă pentru bani peste patru mii boeri. Așa că ori-ce târgoveț, care a știut să-și   adune icosari peste icosari, prin ori-ce   chipuri, cu mijlocirea acestora era înaintat   ]a rangul de boer. Făcând aceasta, afară   că Vodă călcă datinele țării, dar insulta   pe vechii și adevărații boeri de baștină   ai căror părinți au luptat pentru rangul   lor sub drapelele lui Mihai Viteazul și   Matei Basarab. In timpul lui Vodă Caragea se urcară dăjdiile către stat, de la   doisprezece la o sută și opt-zeci de lei   vechi pe an, adică ; de cincisprezece ori   mai mult.   </p>
+<p>  Eteriile Greco-Slave se întinseră în timpul beiului   Alexandru Șuțu, între Grecii și Slavii de   peste Dunăre. Ei recrutară mulți partisani printre tinerii boeri români, cari   ca și aceștia visau libertatea. Marea revoluțiune franceză de la 1792 era inițiatoare tuturor revoltelor din vremea aceia.   Francezii erau priviți ca model pentru   ruperea supunerei oarbe care predomina   pretutindenea din timpurile feudalismului.   Toate încercările de mici reforme ale suveranilor nu dădeau nici un resultat satisfăcător. Ele erau insuficiente ca să satisfacă nevoile popoarelor, asupra cărora   soarele își trimetea razele civilizatoare   împingându-i la redeșteptare din letargiul   somn și spre ruperea lanțurilor sclavagiului   Creștinii din Turcia se deșteptară și nu   așteptau de cât semnalul revoluțiunii. Mihai Suțu Domnul Moldovei intră și în conspirațiune. Alexandru Suțu Domnu Munteniei nu se învoi lu aceasta. Pentru aceasta se crede că a și murit la 19 Ianuarie 1821, după ce s’a sbuciumat o   noapte întreagă.   </p>
+<p>  Răsboaele între Ruși și Turci care se succedau, schimbarea încontinuă a Domnilor trimiși de poartă care sugeau poporul pentru a avea cu ce se întieține la   scaun, sau pentru a despăgubi de sacii   de aur vărsați pentru numirea lor, toate   acestea au adus bietele țări într’o stare   de plâns. Mai adaogă epidemiile prin care   au trecut bietul popor, mai cu seamă, ceia   de la 1812 numită și ciuma lui Caragea.   Această tară, unde altă dată fâlfâia stindardul libertății, ajunse pașalâc turcesc   și condusă de lifte venite din fanar, nu   mai era de recunoscută. Ce mai vorbă de   libertate, când viața și averea îți steteau   pe mâna derbedeilor. Trebuia să-ți crești   fetele ascunse de lumina soarelui ridicând   ast-fel să te pomenești cu ele furate și   aruncate într’un harem unde după ce erau   batjocurite, ereau aruncate în stradă ori   date, pe mâna linge-talerelor de ciocoi,   care asemenea se satisfăceau de ele ca   niște hiene. Românul erea batjocurit în   toate ale lui. Averea, familia, cinstea, biserica toate ereau călcate în picioare. Ajungând astfel osul la gât nu e de mirare   că la prima chemare la arme a lui Tudor   au răspuns mii de piepturi oțelite.   </p>
+<p>  Slugerul Tudor Vladimirescu care tocmai se află la București agitând pentru revoluțiuuea care trebuia să izbucnească   află despre moartea lui Șuțu.   </p>
+<p>  îndată chema la sine pe toți capii conspiratori, împărțindu-le ordine, iar el împreună cu Macedonsky, Hagi-Prodan și eu căpitanul Oarcă se aruncară pe niște cai   ca balaurii, luând-o spre Cerneți, căci de   acolo trebuia să isbucnească adevărata   revoluțiune.   </p>
+                    <p>  Inteligentul Tudor își avea ideile lui pentru aceasta. El nevoind ca opera lui să fie taxată ca o simplă conspirațiune  </p><gap unit="image" rend="In timpul acesta 2000 de Turci, Tătari și Zaporojeni trecură Dunărea sub comanda lui Tahir aga (Pag. 38)"></gap>
+
+
+<p>  plecă la Cerneți dincolo de Olt. De acolo dintre Olteni, talpa țărei, de acolo sa proclame răsmerița națională.   </p>
+
+<p>  Era în revărsatul zilei de 24 Ianuarie, ziua următoare celei în care asistarăm la   duioasa scenă între junele căpitan de panduri Oarcă și fata căruțașului Vasile, că   în toată Oltenia și orașele de lângă Dunăre se adunau pilcuri, pilcuri citind și comentând următoarea energică proclamație:   </p>
+                    
+                    <quote type="proclamation">
+<p>  Către poporul român din București și din toate cele-lalte orașe și sate ale țării românești, dragoste   frățiască și sănătate   </p>
+<p>  „Fraților locuitori ai acestei țări, nici o pra-„vilă nu se împotrivesce de a nu sdrobi cineva răul; Când un șarpe iese înaintea voastră „trebue să năvăliți cu pari și să-i omorâți, cu cât mai vârtos când simțim rănile și ruperile din trupurile noastre, prin care balaurii neîncetat ziua și noaptea sug sângele din  noi însă vii, precum de față vedeți: Aceștia sânt precum îi cunoașteți prea bine, Grecii   „și boerii noștrii atât partea bisericească cât și politicească.   </p>
+<p>  Până când dar vom suferi ca niște dobitoace, când răul nu este primit niei de Dumnezeu ? Pierderea răului înaintea lui Dumnezeu, este lucrul cel mai bun (Fiind-că este Dumnezeu): Ca să ne asămănăm și noi cu  dânsul trebue să sfârșim binele, care nu se poate sfârși dacă mai întâi nu vom goni răul   „după cum până nu urmează Iarna nici Primăvara nu se face.   </p>
+<p>  A zis Dumnezeu să se facă lumină, și s’a <quote>„făcut“</quote>: Dar, mai întâi a lipsit întunericul.   </p>
+<p>  Asemenea și locțiitorul lui Dumnezeu prea puternicul nostru împărat, dorește ca să trăim   „în bine ca niște credincioși ai lui supuși, și nu iartă relele, prăzile și demoștenirile ce le aduc peste capetele noastre tiranii și lipitorile acestea mârșave de Greci, d’inpreună cu boerii noștri.   </p>
+<p>  Năvăliți dar fraților, că cu răul săomorîm răul, și să iasă din noi binele. Și alegând pe cei buni boeri ai noștri din cei răi, pe aceia  să-i și cunoaștem ca ai noștri, cum și lucrătorii binelui, ca să iasă de Ia noi binele după cum și făgăduim. Pentru care dar grăbiți-vă să vă ridicați toți mai în grabă, cei ce veți  avea arme, cu arme; iar cei ce nu veți avea   „cu suliți, cu topoare, cu furci, cu pari și cu ce veți găsi. Și fără cea mai mică zăbavă, alergați unde veți auzi că se fac adunări pentru binele obștei, și pentru folosul țării.  Si după cum vă vor povățui căpeteniile ce vi se pun așa să urmați. Și ori unde vă vor trimite, acolo să vă duceți; pentru că ajunge fraților, de când lacrămile.ce pe fețele noastre   „nu se mai usuc. Vă încredințez către aceasta că nimenea din voi nu va avea slobozenia, fără de porunca în toată vremea, pe cât se  vor face aceste adunări ale țării, a se întinde măcar la un bob și a-l lua din casa vre-unui  neguțător vre-unui locuitor, sau vreunui boier măcar ori cât de rău ar fi adunate stările   acestora ci numai acelora ce nu se vor ridica d’împreună cu noi se vor lua în obșteasca folosință.   </p>
+<p>  Tudor Vladimirescu   </p></quote>
+<p>  La plecarea din București a lui Tudor care erea privit de toți ca cap al revoluțiunii, acesta se înțelese cu Bimbașa-Sava,   lordache și alții, ca în vremea până ce   el s’o duce peste Olt, ei să declare răs-merița în București și împrejurimi. Asemenea ordine au fost date și celor-lalți   capi din provincie.   </p>
+<p>  Slugerul Tudor Vladimirescu având ca mâna dreaptă pe căpitanul Oarcă, pășia   înaintea unei gloate neregulate de șase-spre-zece mii de panduri, pe lângă care   mai putem adăoga și capitonatele de Bulgari și Arnăuți sub comanda lui Mace-donsky și Hagi Prodan.   </p>
+<p>  Această revoluție denunță în destul spiritul acelei epoci de tristă memorie, care a putut însemânța în inima obijduitului   popor, sentimentul cel mai puternic de   libertate și naționalitate.   </p>
+<p>  Mai întâi răscoala se răspândi prin Gorj și Mehedinți mai apoi în toate județele de   peste Olt și în urmă în toată țara.   </p>
+<p>  Armata de Arnăuți trimiși de Divan ,n contra lui Tudor se uni cu acesta. Ast-fel   Domnul Tudor cum îl numi poporul veni   în București la 16 Martie așezându-se la   Cotroceni, Mitropolie și împrejurimi.   </p>
+<p>  Mitropolitul și cu boierii țării i se închinară. El guvernă țara două luni sub denumirea de <quote>„Comandir suprem al adunării norodului</quote>.   </p>
+<p>  In timpul ce Tudor plecă cu oamenii săi la Cerneți, generalul rus prințul A-lexandru Ypsilante, - fiul fostului beiu al   Moldovei Constantin Ypsilante, trecu din   Rusia în Moldova și împreună cu Mihai   Șuțu aridicară la Iași stindardul revoluți-unii contra Turcilor. Ei începură a aduna   voluntari, din toate lepădăturile de Bulgari, Sârbi, Arnăuți și Greci. Predominând   între aceștia elementul slav, deteră nume   acestei mișcări Zavera adică : <quote>„In numele   legilor luptătorii pentru lege se numiră zavergii. </quote></p>
+<p>  Până a ucide și a prăda pe Turci, ei Începură prin a ucide și prăda pe Moldoveni.   </p>
+<p>  In vremea ce Tudor se așeza cu tabăra la Cotroceni, Ypsilante venind din Moldova se opri la Colentina, împreună cu   trei mii de Zavergii uniformați, purtând   pe chipiuri câte o cruce și un cap de   mort Pe lângă acesta se asociarâ și căpitan u lorgache cu oamenii jlui și alții.   Ypsilante voia acum ca și Tudor cu cei   șase-spre-zece mii de panduri să-l recunoască de Domn al Munteniei. Acesta îi   răspunse că Românii s’au răsculat pentru   a se lăpăda de fanarioți și a da ajutor   creștinilor, iar nu spre a’și schimba stăpânul, și a se uita cu nepăsare la zavergii,   cum pradă țara. De aci urinară neînțelegeri până intrară Turcii în țară.   </p>
+<p>  In timp ce Ypsilante se retrăsese cu lepădăturile lui spre Târgoviște, unde începu să orânduiască țara, punând biruri   și alte angarale peste țăran, Domnul Tudor care se retrăsese spre Golești lângă   Pitești fu trădat de către Macedonsky care   împreună cu Bimbașa-Sava și căpitanul   lorgache l-au atras cu vorba, până afară   din oraș, unde-l legară de mâini și de picioare ducându-l lui Ypsilante.   </p>
+<p>  După ce-l plimbară ast-fel prin Târgoviște, îl aruncară la Mitropolie la închisoare, unde-l ținură două zile până în noaptea de 26/27 Martie când îl tăiară cu iataganele aruncându-l apoi într’un puț.   </p>
+<p>  In timpul acesta până la sosirea Turcilor, boeri fugiră care la Brașov care pe la moșiile lor, lăsând Bucureștii în cea   mai mare anarhie.   </p>
+<p>  Un oare care Bogdan mare proprietar din mahalaua Scaunelor, adunându-și o   bandă de patru-zeci de Arnăuți tălhăriau   și jefuiau lumea în ziua mare.   </p>
+<p>  Era vai și amar de bogătașii sau negustorii care Se aflau în oraș.   </p>
+<p>  Intre alții, banda de zavergii a lui Bogdan arestară doi negustorași, supuși   austriaci. Secretarul de consulat Ondricek   trimise lui Bogdan un Arnăut Parasehiva   rugându-l să libereze pe supușii lui. Acesta refuză categoric. Din contră după   ce-i chinuiră pe bieții negustori umflându-i ca pe berbeci unul din chinurile cele   mai barbare, ceru de la comunitate 40.000   de lei îndemnizare pentru liberarea lor.   Atunci Arnăutul Parasehiva se angajă cu   risicul vieții lui, să aresteze pe Bogdan   împreună cu banda lui, cu condițiune ca   Ondricek să-i pue la disposiție vr’o patruzeci de Ungureni înarmați, din cei ce păzeau palatul consulatului, care se afla în   Hejeasca. In timpul acesta ori cine avea   teamă de viață se refugia în curtea acestui palat cu ziduri groase, care era apărat de 200 de Ungureni înarmați cu arme   și cu ciomege. Pe piața sfântului Gheorghe de azi crea asemenea o mare clădire care servea de refugiu. Paraschiva   căpătând Ungurenii eși cu ei afară din   oraș împresurând casa lui Bogdan, în cel   mai mare secret.   </p>
+<p>  Bariera orașului fiind pe atunci la biserica cu Sfinți, mahalaua Scaunelor erea afară din oraș. Arnăutul intră el singur   în casa lui Bogdan :   </p>
+<p>  — In numele consulatului Austriac te poftesc sâ liberezi pe supușii arestați.   </p>
+<p>  — 40.000 de lei, ori de nu n’am pe cine libera .   </p>
+<p>  Răspunse Bogdan.   </p>
+<p>  — Comunitatea nu dispune de o așa sumă.   </p>
+<p>  — Nu mă privește oamenii mei sunt plătiți.   </p>
+<p>  Văzând Paraschiva că nu e chip de scos la cale, își schimbă tactica:   </p>
+<p>  — La urma urmei ce’mi pasă mie?Nai de cât să faci ce poftești.   </p>
+<p>  Așa și fac.   </p>
+<p>  — Știi ce ? Hai să bem mai bine câte o cafea.   </p>
+<p>  Tâlharul ne simțindu-se de loc bine, îl urmă pe Arnăut.   </p>
+<p>  Cum ajunse însă pe pod, săriră Ungurenii pe el, îl legară țeapăn și-l duseră spre cancelaria consulatului. încă vre-o   două-zeci de zavergii fură asemenea prinși   și băgați în beciurile consulului, iar supușii fură liberați. In timpul acesta 2000 de Turci, Tătari și Zaporojani trecură   Dunărea sub comanda lui Tahir Aga, oprindu-se la Colentina.   </p>
+<p>  Secretarul Onericek îmbrăcându-și uniforma le eși înainte afară la Colentina^ preparându-i lui Tahir Aga pe Bogdan și tovarășii săi.   </p>
+<p>  Acesta îi trase pe toți în țeapă.   </p>
+<p>  După ce Tahir Aga se așeză în oraș în casa marelui boer Belu din ulița Ișlicarilor (str. Carol de azi), el atrase prin   viclenie pe Bimbașa Sava pe care la adus   în oraș cu mare paradă, cu armată și muzică turcească conducându-l în casa lui   care se afla la Hereasca pe locul unde se   află azi spitalul Xenocrat.   </p>
+<p>  A doua zi Sava se duse în visită oficială la Tahir Aga unde acesta din urmă îl decapită.   </p>
+<p>  In timpul acesta căpitanul Oarcă cu mai mulți olteni se aflau în casa lui Bimbașa   Sava, cu care căuta să convie de modul   cum să împace spiritele.   </p>
+<p>  îndată după decapitarea lui Sava, Turcii dădură năvală spre locuința acestuia unde   se aflau oameni lui.   </p>
+ 
+<p>  O luptă crâncenă se încinse între Zaporojani, Olteni și Zavergii în fata bisericii (Pag. 34)   </p>
+<p>  prinși de vii și duși acasă, la Tahir Aga, după ce fură bătuți și trântiți Ia pământ   li se tăiară cagetele.   </p>
+<p>  Cu refugiații din biserica Oltenilor se schimbă chestiunea.   </p>
+<p>  Aceștia fură înconjurați de câte-va sute de Zapărojani sub comanda lui Casim-bey.   Asediații profitară de întăriturile bisericii   care era împrejmuită de niște ziduri groase.   </p>
+<p>  O luptă crâncenă se încinse între Zaporojani, Olteni și zavergii, în fața bisericii, pe maidanul unde se află azi strada Zaverii. Inmulțindu-se mereu numărul Zaporojanilor, cu Tătari și Turci care isprăviseră cu zavergii de la Sf. Nicolae din   Hereasca, asediații se îmbaricadară în biserică, împușcând din ferestre asupra inamicului. în vreme ce Casim-bey îndrepta   tunurile spre a bombarda biserica, puținii   dintre asediați care mai erau cu viață și   care se îmbaricadaseră în clopotnița- din   fața bisericii făcându-și cruce, se pregătiră   la o luptă piept la piept cu toate că erau   foarte siguri că nu vor scăpa nici unul cu   viață. Oarcă cu oameni săi văzând că Ii   se isprăvesc focurile flintelor, se urcară   pe acoperișul bisericii ținând iataganele în dinți și cu mâinele încărcau ultimele focuri trăgând în carne vie.   </p>
+<p>  Se petrecu . însă ceva neașteptat. Un sgomot mare era produs de o calvacadă   de panduri, în capul căreia se afla o tânără fecioară al căreia păr lung, negru   fâlfâia pe spate. Aceasta era Ruxanda pe   </p>
+<p>  care am lăsat’o leșinată pe privdorul căsuței ei. Aducându-și o ceată de haiduci   pe care îi încântă cu îngerescul ei grai,   ea sosise să dea o mână de ajutor, logodnicului ei. Acest neașteptat ajutor, care   sosea din Tabaci, băgă groaza în Turcii   care se aflau împrejurul bisericii. O luptă   eroică se încinse între haiducii Ruxandei și Turci. Aceștia din urmă începură să se   risipească care în spre Jignița, ori spre   biserica Sfinților, care în spre Radu-Vodă.   Asediații încuragiați săriră după clopotniță făcându-și loc cu iataganele. Capul lui   Casim-bey fu retezat de iataganul Ruxandei. Intre cei scăpați din clopotniță sigur   că se numără și Oarcă, logodnicul eroinei   noastre. Mai scăpară și alții între care și   doi tăbăcari Năstase și Ghețu care pe timpul acela își câștigară un renume mare   pentru asta. Din ceata lui Himariot nu   scăpară de cât doi zavergii care plecară   la Misologhi să lupte pentru liberarea Elădei.   </p>
+<p>  Când se desmeticiră Turcii ceata de haiduci era departe. Luând-o pe ulița Mogoșoaia, urmară drumul spre Drăgășani unde credeau să-l pășească pe Domnul   Tudor, de a cărei soartă n’au aflat încă.   </p>
+<p>  Peste câte-va zile îi mai întâlnim pe aceștia dând ultima luptă dușmanului pe câmpia Drăgășanilor. Ei se bătură vitejește având în cap pe căpitanul Oarcă și pe Ruxanda, viteaza eroină, logodnica a-   </p>
+<p>  cestuia, care luptă alături de el împreună cu zavergii lui Ypsilante.   </p>
+<p>  Această semi zeă în chip de fecioară își scăpase pentru a doua oară logodnicul de   la o moarte sigură. Prima oare salvându-l   din fortăreața de scânduri vechi, acoperită   de șindrila clopotniței bisericii Oltenilor   și a doua oară acum la Drăgășani. Ea sosi   la momentul oportun când Oarcă era să fie   străpuns de iataganul serdarului spahiilor,   pe care aceasta îl culcă lă pământ, sbu-rându-i creerii cu un glonte de pistol.   </p>
+<p>  Această vrednică Românca băgase spaima în Turci. Cu o mână de haiduci care îi   rămaseră credincioși, ea bravase oastea   mulsulmană. Apoi copleșită de numărul   mereu crescând al Turcilor, în care timp   logodnicul ei a fost făcut prisonier, ea a   trebuit să se retragă.   </p>
+<p>  Vestea despre isprăvile ei s’a dus în toată țara. Poporul de la țară i-a făcut și un cântec, pe care-l cântă și copii.  </p>
+                    
+                    <quote type="song">
+    <l>I.</l>
+<l>  Foae verde, garofița</l>
+          <l>Ruxanda și-a lăsat portița, </l>
+                              <l>Că-i în țară răsmerita. </l>
+ 
+<l>II</l>     
+<l>Hai! Dă fuga murguleț</l>
+          <l>Colea în deal lângă Cerneți</l>   
+                              <l>Unde 'mii s’adun băeți!  </l>
+
+<l>        III   </l>     
+<l>  Urlă codru de turbare, </l>
+          <l>Ruxanda haiduciasa mare,</l>
+                              <l>Cată lifte de pierzare.</l>
+  
+<l>        IV   </l>     
+<l>  „Hai! Murgule, murguleț,   </l>
+<l>  „Dă o goană lângă Olteț   </l>
+<l>  „De ’m oprește p’ăl drumeț!“   </l>
+
+<l>        V   </l>     
+<l>  Tremură întreaga țară, </l>
+          <l>Ruxanda peste tot apară, </l>
+                              <l>Pe un duhalm foc și pară...   </l>
+
+<l>        VI   </l>     
+<l>  „Murgu, murgulețu meu!   </l>
+<l>  „Ce e al meu e și al tău,   </l>
+<l>  „ Trecem dincolo de rîu   </l>
+
+<l>        VII   </l>     
+<l>  Foae verde, garofiță </l>
+          <l>Ruxanda ’și-a lăsat portița</l>
+                              <l>Că-i în țară răsmerița.</l></quote>
+<p>  Eroicele ei atacuri de la biserica Oltenilor și din câmpia Drăgâșanilor fură comentate în fel de fel de chipuri.   </p>
+<p>  La cârciuma lui Prinde Vacă din Cer-neți unde s’adunau norodul ca să mai uite și d’alde nevoi fiul lui Căciulă cobzarul   le cânta cu lăuta cântecul Ruxandei.   </p>
+<p>  La auzul acestuia sătenii prindeau chef, și-l acompaniau pe lăutar cu vocile lor.   </p>
+<p>  In entusiasmul lor unii au mers așa de departe că se credeau în fața unei zâne   din poveste. Ea însă, fără a-și atribui   multe merite se retrăsese cu oamenii ei   prin munți devenind căpitan de haiduci.   </p>
+<p>  Ypsilante fugi în Transilvania, sfârșindu-și zilele în închisoare.   </p>
+<p>  Căpitan Iordache și ceilalți căpitani periră Ca și Bimbașa Sava tăiați de Turci.   </p>
+<p>  Moartea lui Tudor a fost semnalul de redeșteptare națională, care adormise în   timp de un secol în tot timpul domnii fanarioților.   </p>
+<p>  Moartea lui Tudor era o dovada că Românii nu ardicaseră armele contra Turcilor ci pentru ca să se bcuture de jugul fanariot.   </p>
+<p>  De aceia Sultanul recunoscător înapoie țărilor române domniile pământene ne   mai trimițând beiu din Constantinopole ca   să le jefuiască.   </p></div>
+                    
+     <div type="chapter" n="3">               
+<head>  RAPIREA   </head>
+<p>  Mătușa și cu nepoata ședeau amândouă, in odăiță, pe lavița. Fata ședea tristă și   abătută. Mătușa din cauza zilelor negre   care au îmbătrânit-o, devenise o pesimistă   în toată puterea cuvântului. încovoiată   și albită de ani, abia se ținea pe laviță   muncită și îngândurată de presimțirea unei   nenorociri.   </p>
+<p>  Eu, maică dragă, îs mai bătrână ca tine și nu pot să cred, că cu zece flăcăi, să   poți să-l scapi din închisoare.   </p>
+<p>  — Mătușico, se vede cât colo că nu’mi cunoști băeții.   </p>
+<p>  — Cum de nu, maică! Nu m’ii înșirași mai eri, pe Dumitru ai lui moș Toma, pe Dincă Sasu pe Niță ai văduvei, pe Dănilă al...?   </p>
+<p>  — Alt-ceva am crezut eu. Nu știi cât ’s do voinici! Ei intru și’n foc, după porunca mea.   </p>
+<p>  Păi crezi că paznicii nu’s ca ei?   </p>
+<p>  — N’ași da unul d’ai mei pentru două zeci d’ai serdarului.   </p>
+<p>  — Dea Dumnezeu să fie așa Dar dacă n’ați răuși?   </p>
+<p>  — Asta nu se poate. Când ne-ara întors aci am avut destul de furcă cu poterile   care ne urmăreau. In tot cașul, la casele   noastre nu ne întorcera, până nu ne vom face   dreptate. Lasă pe noi. Suntem unu și unu ?   </p>
+<p>  — Cum ? Te numeri și tu printre flăcăi?   </p>
+<p>  — In haiducie nu există femie sau bărbat. Singurul lucru care ’ii cere, este, să ai un piept o țel it și un curagiu și voință româneasca. Și asta slavă Domnului   am dovedit-o la București în fața biserici   Oltenilor și la Drăgășani.   </p>
+<p>  — Si când plecați?   </p>
+<p>  — Chiar noaptea asta, după ce mai întâi vom gătui pe chir lani pentru a-l   răsbuna pe tată aprinzându-i apoi moara.   </p>
+<p>  Ultima vorbă nu fu bine isprăvită când un ciocănit misterios se auzi în ușa care   cu un picior ar ti putut fi scoasă din țâțâni.   </p>
+<p>  — Cine-i acolo ?   </p>
+<p>  întrebă bătrâna speriată, să nu ’i se H auzit întrevorbirea.   </p>
+<p>  — Om bun!   </p>
+<p>  Răspunse o voce bărbătească.   </p>
+<p>  — Dacă-i om bun să intre.   </p>
+<p>  Replică Ruxanda dând la o parte veriga de la ușe.   </p>
+<p>  In prispă apăru un zaplan de Oltean, care la vederea Ruxandei își scoase căciula de oae din cap.   </p>
+<p>  Apropiindu-se apoi de acesta îi șopti la ureche.   </p>
+<p>  — Căpitane, te așteptăm cu toți la moș   </p>
+<p>  Toma. O să trebuie s’o pornim mai din vreme. Nu se pare că am fost trădați.   </p>
+<p>  — Sunteți gata de plecare ?   </p>
+<p>  — Suntem.   </p>
+<p>  — Dar armele le aveți toate cu voi?   </p>
+<p>  — Toate căpitane. Caicul ne așteaptă la două sute de pași lângă moara Grecului.   </p>
+<p>  — Bine Lisandre, Spune-le băeților că vin și eu îndată. Fiți unul de pază pe a-fară, să nu vă surprinză.   </p>
+<p>  — E fratele meu care străjuește.   </p>
+<p>  — Da ce cată el ?   </p>
+<p>  Păi merge cu noi. El și cu Gorovei al pălămarului ne-au dat de veste că suntem trădați, Gorovei e băiat voinic.   </p>
+<p>  Nici nu știe tat’său că-l părăsește.   </p>
+<p>  — Va s’că suntem doi mai mulți ?   </p>
+<p>  — Trei-spre-zece cu toții căpitane.   </p>
+<p>  — Trei-spre-zece... ochii dracului.   </p>
+<p>  — Trei-spre-zece... popa... doniți goale.. Grecu... Bolborosi bătrâna aparte.   </p>
+<p>  — Dă fuga Lisandre să nu pierdem vremea.   </p>
+<p>  hăcând un stânga împrejur, zaplanul era și dispărut.   </p>
+<p>  Bătrâna, care de astă dată se convinse că vorbele Ruxandei trecură la fapte, începu să tremure.   </p>
+<p>  De astă dată i se adeveri presimțirea. Nu de geaba a întâlnit ea pe popa azi dimineață. Și nebuna de Leana cu donițele   goale ? Da Grecu pe care l’a văzut dând   târcoale pe lângă casă.   </p>
+<p>  Acesta se agățase în mai multe rânduri de Ruxanda, care-l tot amenințase că o   să-l spuie lui Oarcă de care <foreign>kir</foreign> lani tremura ca vârga.   </p>
+<p>  Am uitat să spunem că Ruxanda era orfană de părinți. Pe mumă-sa a pierdut-o   când era numai de nouă anișori. Sărmana   îmbolnăvindu-se de ciumă, muri lăsând în   urmă-i un bărbat neconsolat căruia ’i încredința îngerașul de fetiță, pe Ruxanda.   </p>
+<p>  In fața mamei Tudora o vecină care-i servi de doctor, bărbatul îi jură că o să   îngrijească de fetiță.   </p>
+<p>  Tatăl Ruxandei, un căruțaș cinstit, se ținu de jurământ. El își crescu fata până   la etatea de șase-spre-zece ani.   </p>
+<p>  Când într’o noapte fu ridicat din pat de către un pârgar al dregătoriei ajutat de   doi slujbași și aruncat la închisoare.   </p>
+<p>  De atunci fata nu se deslipise de mătușa sa, cu care ședea împreună.   </p>
+<p>  La plecarea zaplanului, bătrâna păru puțin ușurată.   </p>
+<p>  — Ascultă-mă Ruxando, eu te povățuesc să rămâi aci, că bine n’o să iasă din istoriile astea ale voastre.   </p>
+<p>  — Ce am zis e ca și făcut. Mai întâiu să-l răsbun pe tata și apoi să-l scap pe   Oarcă care din causa mea a fost făcut   prizonier.   </p>
+<p>  — Greu lucru...!   </p>
+<p>  — Și afară de asta crezi că cu grecu ăsta ași fi scăpat? Ori-când ași fi trebuit   «ui ciul victima poftelor lui. Inchipueșteți;   uzi dimineață când mă duceam să-mi văd   băoții, abia mă depărtai din casă, și <foreign>kir</foreign>   luni Îmi Încrucișa drumul. Azi moara nu   lucrează că-i Duminică. Grecu gătit în   strae noi mi se pune în cale.   </p>
+               <p>  — <emph rend="foreign accent">„Bună zua, poico! Ma țe fațe mititica ța ?“ </emph>  </p>
+<p>  Eu trecui ulița să scap de el da dânsul se făcu roșu ca focul și mă urmări pas   cu pas.   </p>
+
+               <p>        — <emph rend="foreign accent">Bine ma frațico pentru țe ma ocolest?</emph>   Eu făcui din nou pe n’aude nu vede.   </p>     
+
+               <p>        — <emph rend="foreign accent">„Ego to zico buna zoa <foreign>kir</foreign>ie si ma-f Iu ța o sterze fara sa me respunde“ </emph>  </p>     
+<p>  A a să mă mântui de dânsul, trecui din nou ulița.   </p>
+  
+               <p>        — <emph rend="foreign accent">„Ma țe ma mandrețe de fata ? Duduca nu isto de loc politicoso. Ego ama   o veste de la logodnico Oarcă“.</emph>   </p>     
+<p>  Când l’am auzit vorbind ast-fel i-am întors obrazul căci bine înțeles voiam să aflu.   </p>
+<p>  Văzându-mă îmblânzită cl căută să-mi apuce obrazu între degete. Eu însă i dădui   uua zdravănă peste mână.   </p>
+<p>  Grecu se făcu că nu pricepe.   </p>
+
+               <p>        — <emph rend="foreign accent">„A sara ma venito un șlep de la Zurzevo și capitano ma povestito ca zevzeco de Oarcă va fi spânzurat peste douăzeci de zile, pentru ca a fost un trădător   de patrida“.  </emph> </p>     
+<p>  — Ești un mizerabil! îi răspunsei eu. Oarcă nu și-a vândut tara. Și fugi.   </p>
+<p>  Până ca <foreign>kir</foreign> Iani să se desmeticească și să mă urmărească eu eream departe. Abia   că mai auzii cuvintele lui:   </p>
+               <p>  — <emph rend="foreign accent">„Ma nu scapo duduca</emph>!   </p>
+<p>  Eu alergai la băeți și Ie spusei că pentru astă seară la miezul nopței, să fie gata. Fiind Duminică lucrătorii nu sunt la moară   și o să ne fie ușure de pătruns în ea și   de dat foc. Un caic o să ne aștepte la o   mică distanță. Cu aceasta o să mergem   spre Giurgiu și d’acolo cum o vrea Dumnezeu.   </p>
+<p>  — Maica lui Dumnezeu!   </p>
+<p>  Șoptii bătrâna făcându-și cruce.   </p>
+<p>  Cât timp dură povestirea de mai sus, Ruxanda își îmbrobodise capu cu un șal   vechiu de lână.   </p>
+<p>  In timpul acesta soarele se pierduse de mult, după orizontul acoperit de un strat   de nori ce se rostogoleau lovindu-se unu   de altu, se înserase d’abinelea. O ploae   măruntă începuse să cază,   </p>
+<p>  Ruxanda își luase rămas bun de la mătușa, care fusese condamnată să rămâe iar singură.   </p>
+<p>   până ce bătrâna să se coboare după butucul ce servise de scăunel și pe care urcase, să încngă cu o bucată de cremene și iască mucul de lumânare de seu ce abia se mai vedea afară din sfeșnicul de lemn după poliță, Ruxanda fugi   a tură pe ușe zicând un rămas bun.   </p>
+<p>  Abia se depărtă fata de casă ca trei, patru stânjeni că se simți apucată pe la   spate de două brațe vânjoase și târîtă la   câți-va pași unde o aștepta un alt personagiu. Acesta aruncând o privire sinistră   jur împrejur, scoase un capișon de sub   manta și-l aruncă pe capul victimei, care   n’avii timpul decât să scoață un singur   strigăt:   </p>
+<p>  —Mizerabile de grec !   </p>
+<p>  Apoi o urcară cu forța pe unul din cai ce erau alături, după care încălecând și   dânșii o tuliră de vale spre Dunăre.   </p>
+<p>  Bătrână coborându-se după butuc, își puse în picioare o pereche de galențe și   ieși după fată.   </p>
+<p>  Ba sosise târziu. Abia mai auzi ultimul cuvânt, <quote>„grec !“ </quote>  </p>
+<p>  Cu tot întunericul ce predomina, mătușa putu să vază răpitorii alergând spre Dunăre în goana cailor. Vrând să țipe   după ajutor, ea nu putu scoale decât cuvinte fără șir.... popa,... grecu.... răpită...   apoi căzu grămadă pe prispa pridvorului   </p>
+<p>  O tăcere adâncă învălui răpirea misterioasă. Afară tuna și fulgera. Timpul fusese favorabil răpitorilor. Par’că se unise infernul cu dânșii.   </p></div>
+          
+          <div type="chapter" n="4">
+<head>  IV. LA MOARA GRECULUI   </head>
+<p>  Să facem puțină cunoștință cu Iani morarul, pe care l’a ocărit Ruxanda azi dimineață, lăsându-l în mijlocul drumului, ca pe un năuc.   </p>
+<p>  Sunt mai bine de doi ani de când acesta pusese ochii pe fata căruțașului Vasile, când aceasta fusese încă o copilă.   </p>
+<p>  Mizerabilul morar care încă pe atunci avea patru-zeci și șapte de ani și care nu   era însurat, neavând încă pe nimeni, pusese gând rău fetii. Acest derbedeu, care   nu avea alt Dumnezeu decât sacii de aur   pe care îi aduna unul peste altul, a fost   captivat de această fecioară ce număra pe   atunci abia șase-spre-zece primăveri, acest   îngeraș de copilă era un buchet de estetică și frumusețe. Obrăjorii ei erau rumeni   ca doi trandafiri. Doi ochi negrii care străluciau întocmai ca doi luceferi. Un nas   frumos, bine făcut și o guriță mititică cu   două buze roșii, ca garofițele. Toate acestea contrastau cu părul ei negru abanos,   care îi cădea pe spate în două codițe lungi   ce îi treceau de mijloc.   </p>
+<p>  Pe lângă asta, corpul ei bine legat și îmbrăcat, într’o rochiță simplă de stambă roșie cu vărgi albe, a cărei iacă abia îi mai putin a, reține formele, care începură să-i   devie rotunjoare și care tresăltau la fiecare mișcare a ei, făcu pe grecul nostru   na i curgă balele din gură.   </p>
+<p>  Cu picioarele goale, așa'cum obișnuia Dânsa sa umble, ea-i părea totuși un Venus.   </p>
+<p>  Iani Iși făurise niște planuri drastice cari i reușiră până la un punct.   </p>
+<p>  Cu njutorul lui Ivănuș,— un bulgar eu cure tăcuse cunoștință în Sofia când lucra lui Iani pe acolo, venind din Elada, și   care se allă acum în serviciul lui, - el ascunsese în ograda lui Vasile căruțașul, tatăl   Ruxandei, doi saci cu făină, cu marca morii. Nea Vasile fiind denunțat și chemat   In județ unde n’a putut dovedi proveniența   nucilor ascunși la dânsul fără știrea lui, a fost condamnat la șease luni închisoare.   </p>
+<p>  Cu toate protestările acestuia că e nevinovat, invocând trecutul lui de om cinstit, județul împreună cu ceilalți consilieri ni judecătoriei fiind prieteni buni cu grecu,   nici nu voiră să orânduiască o întrebătură serioasă.   </p>
+<p>  După trecerea de o lună și jumătate, Vasile căruțașul fu găsit spânzurat de zăbrelele ferestrei închisorii, lăsând singura   lui fetiță în voia Domnului.   </p>
+<p>  După unii se zice că s’ar fi sinucis de rușine și supărare. După alţii iar, că ar   fi fost spânzurat de oamenii stăpânirii,   care-l persecutau foarte rău, fiind cumpăraţi de morar.   </p>
+<p>  Într’aceștia din urmă se număra și Ruxanda care fusese cu o zi înainte la taică-său, pe care l’a lăsat vesel și care l’a văzut pe grecu, intrând în curtea închisorii, în momentul plecării ei.   </p>
+<p>  Scăpat odată de Vasile, <foreign>kir</foreign> Iani începu să se arunce pe lângă fată căutând s’o ademeniască, oferindu-i fel de fel de cadouri, pe care ea nici nu voia să le vază.   </p>
+<p>  La un moment dat, grecu se pomeni în cele din urmă cu un obstacol, pe care —   după cum zicea el — nu era lucru ușure de înlăturat.   </p>
+<p>  Această piedică era Oarcă, ibovnicul Ruxandei, un tânăr voinic, oacheși, cu părul și mustața ca corbul, care se înrola   la oaste unde avansă foarte repede.   </p>
+<p>  Acesta, întâlnind odată pe <foreign>kir</foreign> lani dând târcoale pe lângă căsuța lui nea Vasile,   îl privi cu niște ochi care făcură să înghețe tot sângele în grecotei.   </p>
+<p>  De atunci, de câte-ori <foreign>kir</foreign> lani își aducea aminte de el, se simția apucat de groază.   </p>
+                 <milestone unit="subchapter"></milestone>   
+                    <p>Pe șosea cădea o ploaie măruntă, primăvăratică. Soarele apusese de mult, lăsând în urmă-i un întuneric, care învăluia pământul. Ici colea se auzea un lătrat de câine întrerupând tăcearea adâncă. Un-<gap unit="image" rend="Ruxanda peste tot apară/ Pe un duhalm de foc si para"></gap></p>
+
+<p>  vânt de răsărit care în ultimul' moment   părea că voia să se transforme în vijelie,   aducea nori groși, negrii, pe care îi aduna   la un loc, rostogolindu-i unul peste altul.   </p>
+<p>  Tunetele și fulgerele brăzdară cerul.   </p>
+<p>  O ceată de zece flăcăi înveliți cu niște zeghii și bine înarmați pe dedesubt, înnaintară în vremea asta, când nici un câine   nu-și scotea capul afară.   </p>
+<p>  Din depărtare se auziră tropote de cai.   </p>
+<p>  — Ia mai tăceți ! S’aude par’ca un sgomot.   </p>
+<p>  — Un tropot de cal.   </p>
+<p>  — Ba’s mai mulți.   </p>
+<p>  — N’o hi potera, care ne-a pus iscoadă, ș’acu ne iese în față ?   </p>
+<p>  — Știi ce, Lisandre ? D’o hi potera tu o să dai fuga la căpităneasa și ne întâlnim la moară.   </p>
+<p>  — Ia stați bre că nu-i potera.   </p>
+<p>  — Is doi târgoveți.   </p>
+<p>  In timpul acesta se apropiată de ei răpitorii Ruxandei.   </p>
+<p>  <foreign>kir</foreign> Iani care avea victimă pe calul său o acoperi cu mantaua ca să nu fie zărită   de trecători.   </p>
+<p>  întocmai ca două siluete, ei trecură pe lângă dânșii.   </p>
+<p>  La lumina unui fulger, Lisandru recunoscu pe morar.   </p>
+<p>  — Uită-l pe <foreign>kir</foreign> Iani morarul!   </p>
+<p>  — Să-l gâtuim !   </p>
+<p>  Strigă Dănilă.   </p>
+<p>  — Hai! Ne scăpăm de el ! Adaugă Niță al văduvei.   </p>
+<p>  — Nu grăbiți, bre!   </p>
+<p>  Se amestecă Dincă Sasu.   </p>
+<p>  — Că’s doi nu e unu!   </p>
+<p>  — Ce-are aface, îi însurăm pe amândoi eu iataganele.   </p>
+<p>  Răspunse Lisandu.   </p>
+<p>  — Apoi nu e așa !   </p>
+<p>  Replică Sasu din nou.   </p>
+<p>  — Că nu suntem tâlhari de drum, să omorîm lumea de florile mărului.   </p>
+<p>  — Bine zice Sasu ! Să mergem mai bine la Ruxanda și împreună cu dânsa să plecăm la moară și acolo, ce-o zice, aia, om   face și noi.   </p>
+<p>  Cuvintele astea erau rostite de cel mai tânăr dintre haiduci.   </p>
+<p>  — Așa e Gorovei. <quote>„Graba strică treaba!"</quote>. Ce o zice căpitaneasa aia sâ facem și noi.   </p>
+<p>  Adaose prietenul său fratele lui Lisandru.   </p>
+<p>  Singur Lisandru era supărat.   </p>
+          <p>  — Ia mă lăsați flăcăi! Și tu Sasule ! Eu știu una : <quote>„Ce-i în mână, nu-i minciună"</quote>,   și asta-i vorba. Cine știe cu ce greutate   vom pătrunde în moară. Și p’ormă, nu-i   azi Duminică ? Poate nu-l găsim acasă ?   Ce făcuși atunci ? încingi moara, la ce folos? Și știu bine că Ruxanda nu pleacă   d’aci până nu se răzbună pe morar, că   doar pentru el am părăsit pădurea de neam întors la vetrele noastre.   </p>
+<p>  — Da nu hii așa mohorît bre.   </p>
+<p>  Ii strigă Dumitru a lui moș Toma.   </p>
+<p>  — Că nu ne-o scăpa nici mort !   </p>
+<p>  Ducând asfel conversația înainte ei continuară drumul spre locuința Ruxandei.   </p>
+<p>  Stratul de nori groși care se adunase, spărgându-se, căzu potop peste haiducii   noștri, udându-i până la piele.   </p>
+<p>  Asta nu-i sinchisia câtuși de puțin, că nici în Iarna grea nu se speriaseră să ție   drumul.    </p>
+<p>  <foreign>kir</foreign> Iani își urmă calea înainte împovărat de prada leșinată. Ivănuș se ținea lângă dânsul.   </p>
+<p>  — A ma buna bucățică de harem.   </p>
+<p>  Zicea primul.   </p>
+<p>  — A ! hă ! Bună pentru Stambul.   </p>
+<p>  — Așa, <foreign>kirie</foreign>, așa!   </p>
+<p>  — Știi s’alegi.   </p>
+<p>  — <emph rend="foreign accent">He I He! Ma frațico ! Țe crede ca ego no știe sa duco trai di pechlivan? Părăluțe sint destule.</emph>   </p>
+<p>  Când terminară de vorbit ei ajunseră în fața morii, după ce parcurseră mai în.âiu   câte-va străzi dosnice, cure duceau spre   cheiu, ferindu-so de acele podite cu bula-maci și unde ar fi făcut zgomot deșteptând lumea din somn.   </p>
+<p>  De altfel Severinul părea că adormise de veci, așa nu se vedea mișcare de om.   </p>
+<p>  Moara era instalată pe un șlep vechiu, de o construcție solidă și care era aproape   de cheiu și despărțit de acesta do o singură podișcă, care lega moara de uscat.   </p>
+<p>  In fața bastimentului era o curte destul   </p>
+<p>  de mare, eu diverse magazii de grâne, saci,   căruțe și altele. Curtea era îngrădită având   și o poarta înaltă de un stânjen și jumătate. Răpitorii abia se opriră, că poarta   se deschise singură, închizându-se apoi la   loc după ce intrară cu prada, alergând   spre moară.   </p>
+<p>  — <emph rend="foreign accent">Incue poarta și nu lăsa pe nimenia să intre, ori ține ar fi ! </emph>  strigă <foreign>kir</foreign> Iani.   </p>
+<p>  Un om mărunt și gros cu o înfățișare sinistră trase verigele, apoi după ce duse   caii în grajd, plecă să se culce, bombănind.   </p>
+<p>  Acesta erea portarul.   </p>
+<p>  Iani și cu ortacul său, coborând fata leșinată după cal o duseră în etajiul al   doilea al șlepului fără să facă cel mai   mic sgomot.   </p>
+<p>  Șlepul deși erea de o construcție veche de mai bine de o sută cinci-zeci de ani,   erea construit dintr’un lemn de stejar,   vopsit de sus până jos, pe din afară în   negru cu catran. El avea două etage. In   subsol și în parter erau magasiile și locuințele oamenilor de serviciu, lucrătorilor   hamalilor etc. etc. In primul etagiu erea   locuința lui <foreign>kir</foreign> lani proprietarul morii,   iar în al doilea erea moara.   </p>
+<p>  Ca să ajungi locuința grecului, trebuia ca din curte să intri într’un mare antreu   de unde urcai o scară mare și lată care   dădea într’un coridor lung. Acesta ținea   cât toată lungimea etagiului I din spre   curte, unde putea-i să ieși într’un mare   balcon de lemn, umbrat de o bogată perdea cu ciucuri. Urcând scara mai sus, ajungeai în moară. Această scară erea unica   care unea subsolul cu moara.   </p>
+<p>  Locuința morarului, care ocupa întreg etagiul întâi, erea compusă din 3 camere.   </p>
+<p>  Acestea aveau fie-care câte două ferestre care dădeau spre fațada din spre Dunăre.   Asemenea aveau câte și trele, câte o ușe   spre coridor. Dintre aceste trei uși se putea circula numai pe cea din mijloc, cele-l-alte două fiind încuiate. Odăile între ele   aveau de asemenea uși. <foreign>kir</foreign> lani, în vederea planurilor ce-și întocmise ’și-a arangiat odăițele cu mobilă noua și frmoasă,   așa cum văzuse și el la mulți negustori   bogați din oraș. El își făcuse socoteala că   numai prin bogăția lui o să-i răușească   s’o facă pe Ruxanda să mâie la el de   bună voe. In odăile din nou zugrăvite, ai   fi crezut că te aflai la un bas boer, iar   nu la locuința grecului Iani morarul.   </p>
+<p>  După ce răpitorii depusesoră victima în odaia din mijloc pe o sofa, Ivănuș se rătrăsese în odaia din etagiul do jos, unde-și   avea locuința iar morarul intră în biroul   lui particular unde-și avea și dulapul cu   haine ca să se premenească, că fusese udat   până la piele. Inaint ca să se fi retras în   odaia de alături <foreign>kir</foreign> lani purtase de grije   să scoață capișonul după capul fetii: Acum   putea să țipe își zicea el, e în mâinele   lui și n’o să scape.   </p>
+<p>  Scoțându-i capișonul Ruxanda care erea mai mult speriată de cât leșinată, își veni   în fire. Fiind întuneric în odae ea nu putea să-și dea seama. unde se află, îndată   își aduse aminte de cine a fost furată. In   același moment ea zări o rază de lumină   care pătrundea din odaia vecină prin   broasca de la ușe. Făcând o mișcare ușoară,   ea se află îndată lângă ușe unde căută să   pătrunză cu ochiul. Ea vedea un bărbat   pe care nu putea să-l cunoască fiind întors cu spatele spre dânsa.   </p>
+<p>  Deodată lumina se întunecă și până ce dânsa să aibe timp să se retragă, ușa se   deschise lăsând să apară în prag figura   antipatică și scârboasă a morarului..   </p>
+<p>  La vederea acestuia un fior trecu prin corpul junei fete și scoțând un țipăt, ea   se repezi în celalt colț al odăii.   </p>
+<p>  Grecul înaintă zâmbind și punând sfeșnicul pe masă îi zice:   </p>
+<p>  — <emph rend="foreign accent">Ma de țe ti ferești di ego ? Ai dor-mito bine bibilico ?  </emph> </p>
+                    <p>  —  Canalie ! năpârcă bătrână, la ce mai adus aci ?   </p>
+                    <p>  —<emph rend="foreign accent"> Ma de țe faț atâta galazia? Te am aduso si te faco zuponeasa me. Si te imbraco numa în aur si matesuri de Lipsca   daca ai sa fi cuminte.</emph>   </p>
+<p>  Zicând vorbele astea el îi arătă pe pat mai multe mătăsuri scumpe și fel de fel   de juvaericale și o frumoasă scurteică de   orsinic roșu cu broderii turcești de fir și   îmblănită cu iepurași alb.   </p>
+                    <p>  — <emph rend="foreign accent">Iubeste-mă seți dau tot țe vezi! </emph>   </p>
+<p>  — Să te iubească satana că eu am de cine să mă îndrăgesc.   </p>
+                    <p>  — <emph rend="foreign accent">Ego cred că ai să fi cuminte că nd să te las d’ați. </emph>  </p>
+<p>  — Mie dă-mi drama nu voesc nimic de la tine. Oarcă o să-mi cumpere mie, dacă   o aveau cu ce, iar de unde nu, vom trăi   și așa.   </p>
+                    <p>  — <emph rend="foreign accent">Bine ma frațico, ma no ța-m spuso ca Oarcă o să fie spânzurat la București. Acum pot, si te sărut. </emph>  </p>
+
+<p>  Fa’r ca ea să observe, el se repezi la dânsa și îmbrățișând-o o sărută. Ruxanda   rupându-se din brațele lui, apucă sfeșnicul aprins cu care voia să se apere.   </p>
+                    <p>  — <emph rend="foreign accent">Ruxanda puica ! A ma sa nu dai! Ego ama gin mito numa. </emph>  strigă <foreign>kir</foreign> Iani cu frică.   </p>
+<p>  Puind jos sfeșnicul, fata voi să fugă pe ușă. Aceasta erea însă încuiată.   </p>
+<p>  — Să îmi dai drumul grecule ! Se răsti fata.   </p>
+                    <p>  — <emph rend="foreign accent">Ma țe, ma crezi prosto ? Dați numa scapo zupanasa me. </emph> </p>
+<p>  — Cum va voești să mă omori ca pe tatăl meu ?   </p>
+<p>  La cuvintele astea morarul începu să tremure.   </p>
+<p>  Văzând că cu binele nu poate obține nimic, el își schimbă tactica.   </p>
+<p>  Repezindu-se la dânsa și apucând-o cu brațele vânjoase o trânti pe pat.   </p>
+<p>  Fata se luptă cu dânsul ca o tigroaică. Țipetele ei de ajutor nu fură auzite de   nimeni. Afară ploua cu găleți.   </p>
+<p>  Morarul fiind întărâtat căpătă o dublă forță musculară. El rupse după fată toate   îmbrăcămintele. Biata copilă nu rămăsese   de cât în fustă și cămașe prin care se   resfira bogatul ei sân. La vederea acestuia   <foreign>kir</foreign> lani căpătă putere înzecită.   </p>
+<p>  Ruxanda mai mult moartă de cât vie, erea cât p’aci să cedeze poftelor bătrânei   vipere, când observă ea armătura după   peretele de peste sofa, pe care n’o văzuse   până atunci. Aceasta o încuragiară. O rază   de speranță se născu în ochii ei. Făcând o   sforțare supra naturală ea svârli pe grec   până sub masă, și repezindu-se pe sofa   scoase un pumnal și un pistol din perete.   </p>
+<p>  — Să nu te apropii de mine cațaoane, că ești al morții,strigă Ruxanda către grec, care căută să se scoale.   </p>
+<p>  Dar ce însemnează moartea în asemenea momente de delir. Morarul nici nu auzi   somațiunea ei. Urechile îi vâjiau. înaintea   ochilor n’o avea de cât pe Ruxanda inertă,   cu sânul liber.   </p>
+<p>  Vedere imaginară care-l întinerea cu treizeci de ani. In acele clipe el ar fi preferat zece morți, unui singur moment de   plăcere. Cu ochii eșiți din orbite el o vedea cu atât mai măreața.. In frigur le lui   el nici nu observă că ea erea înarmată   cu un pumnal și un revolver.   </p>
+<p>  De trei ori ocoli el masa voind s’o prinză răsturnând scaunele și sfeșnicul după masă   rămânând în întuneric.   </p>
+<p>  Alergând împrejurul mesei, Ruxanda se împiedică de un scaun și o detunătură puternică se auzi în odae.   </p>
+<p>  <foreign>kir</foreign> Iani zăcea trântit jos pe covor. Sângele îl podidi pe gură și p’ân nas.   </p>
+<p>  La lumina unui fulger care străbătu în odae. Ruxanda vaza obrazul palid al morarului, care își dase sufletul în momentul   acela.   </p>
+<p>  Cu revolverul în mână și zăpăcită de spaimă, ea voia să fugă. In grabă își puse   o haină două sforțând ușa dinspre coridor   aceasta sari din țâțâni.   </p>
+<p>  Aci fiind întuneric beznă ea se îndreptă spre ușa balconului de unde venea puțină   lumină de afară.   </p>
+<p>  Ajunsă in balcon fu cuprinsă de groază Un sgomot infernal domnia pe chei. Sute   de bărbați și femei care vociferând au   pătruns în curtea morii, fugiau acuma,   respăndindu-se în toate părțile. Nu rămăseseră în curte de cât haiducii Ruxandei   pe care-i am întâlnit mergând spre casa   ei. Aceștia se bateau cu oameni de serviciu   ai morii.   </p>
+<p>  Ruxanda ajunsese în balcon în momentul când sosiră poterașii care au dat de urma haiducilor, și pentru care fugise cealaltă lume. Cei zece haiduci care se aflau   in curte văzând-o pe Ruxanda în balcon,   îi strigară :   </p>
+<p>  — Mântuete căpitane!   </p>
+<p>  — Scapă-te Ruxando ! Haiducește-te.   </p>
+<p>  — Aruncă-te în apâ!   </p>
+<p>  Ea nu auzea însă nimica.   </p>
+<p>  Și la ce folos toate aceste avertismente? In întunericul și în zăpăceala asta mare,   ea care nu văzuse locuința la lumina zilei,   nu putea să găsească nici o ieșire.   </p>
+<p>  Drept ori-ce răspuns, Ruxanda se întoarse în odaia unde zăcea moraru lungit și reveni îndată cu două pistoale mari pe   care le descărcă în liftele de mercenari,   care se luptau jos.   </p>
+<p>  Gloanțele Ruxandei aduseră mare desordine printre poterașii care credeau că flăcăii sunt în moară.   </p>
+<p>  Haiducii se profitară de această ocasiune. După ce dădură foc morii care cu toată ploaia care cădea, ardea ca un chibrit, fiind întreagă din lemn vechiu uns cu   catran, o tuliră de par’că îi înghițise pământul.   </p>
+<p>  împreună cu moara arseră mai mulți poterași care intrați în moară nu mai   știau pe unde să se salveze.   </p>
+<p>  Ruxanda văzând moara în flăcări se repezi înapoi în odaia blestemată, se îmbrobodi pe cap cu o maramă, de mătase și căută să scape. Ne găsind însă nici o urmă   de scară de desperare ca să nu arză de   vie, ea se repezi pentru a treia oară în   odaie și proptindu-se de cadavrul lui <foreign>kir</foreign>   lani care zăcea înaintea ‘ferestrei, rupse   gratiile de lemn putrede și se aruncă prin   aceasta în Dunăre.   </p>
+<p>  Un sgomot surd se auzi în întunericul nopții. Apele Dunărei despicându-se în   două, înghițiră întrânsele corpul frumoasei   copile, intrând apoi într’o tăcere mormântală.   </p>
+<p>  Ploaea își urmă cursul ei.   </p></div>
+          
+          <div type="chapter" n="5">
+<head>  V. SPINZURATOAREA   </head>
+<p>  Era o noapte senină. Miliarde de stele sclipiau pe cer. Luna, întocmai unui glob   luminos, trecea măiastră d’asupra Bucureștilor, care erau în ajunul unei mari   sărbători.   </p>
+<p>  Un condamnat la moarte trebuia să fie spînzurat a doua zi la orele zece.   </p>
+<p>  Cine era acel nenorocit, pentru care se făcea atâta zarvă în oraș? Nimeni nu știa.   Lestul că o să și satisfacă fiecare plăcerea diabolică de a vedea un om murind   de spânzurătoare. Așa ceva nu se vedea   în fiecare zi. Afară de asta, dacă-l spânzură, probabil că era vinovat de ceva?   Mai cu seamă că nenorocitul nu voia să   își dea numele. Pentru ce? După unii se crede că fiind sigur de soarta care-l aștepta, el   nu voia ca logodnica lui, la care ținea   foarte mult, să-i afle sfârșitul. Alții iar   ziceau, că nu voia să-și păteze numele   familiei.   </p>
+<p>  Toate acestea nu erau de cât vorbe.   </p>
+<p>  încă pe la orele două din noapte, mahalagiii, care locuiau în împrejurimile câmpului Filaretului, fură deșteptați de ciocăniturile teslarilor care ridicau eșafodul.   </p>
+<p>  Aceste ciocănituri lugubre, ale căror ecou se amesteca cu lătratul câinilor de prin viile apropiate, și strigătele de <quote><foreign>"varda"</foreign>! </quote> <quote>„cine-i acolo? te văd, te văd !“</quote>, ale paznicilor, formau un asamblu de muzică foarte neplăcută.   </p>
+<p>  Teslarii, ajutați de lumina lunei, își urmau lucru înainte.   </p>
+<p>  — Ian’ spune Lisandre; ce se făcu căpitanul că n’a venit încă ?   </p>
+<p>  — Poi, fu par’că vorba să vie?   </p>
+<p>  — Nici vorbă.   </p>
+<p>  — Te ’nșeli Sasule. Nu știi că orânduirăm alt-fel lucrurile?   </p>
+<p>  — Nu, zeu?   </p>
+<p>  — Vezi bine !   </p>
+<p>  — Ia taci, bre !   </p>
+<p>  — Ea o să vie în ultimul timp, când o fi totul gata de isprăvit.   </p>
+<p>  — Eu asta n’am știut.   </p>
+<p>  — S’o știi acu de la mine.   </p>
+<p>  — Dânsa o să fie sus pe eșafod. Dă-nilă o să fie călăul, și când i s’o porunci să-l spânzure pe condamnat, el după ce   să-i desfacă fiarele de la mâni și picioare   cum se obicinuește, o să i-le lege cu frânghie pe la spate. Asta însă numai de ochii lumii, căci condamnatul o să-și ție   singur frânghiile. Fiind deslegat, Ruxandra o să strige; „Pe ei, nu-i lăsați!“ Semnalul dat, noi dăm foc ierbăriei, și pe urmă e dibăcia noastră să ne hălăduim, care   pe unde vom ști mai bine.   </p>
+<p>  — Da, cum se face că Dănilă să fie călău? întrebă Gorovei.   </p>
+<p>  — Mai, da copil mai ești ? De asta nu-i Ruxanda aici! Cu un pumn de icosari îl   face pe acela să-și schimbe hainele cu Dănilă.   </p>
+<p>  — Zău? Vezi, că la asta eu m’am gândit eu. Da Ruxanda, cum o sa stea ea sus, că doar numai duhovnicul și cu călăul trebue să fie lângă condamnat?   </p>
+<p>  — Da căpităneasa n’o să știe să-l spovedească ?   </p>
+<p>  — A ! Ha! Acum pricepui. Ea o să-l facă pe popa?   </p>
+<p>  — Așa mă, acu ’ți’s boii acasă   </p>
+<p>  Lectorii noștri recunoscând pe haiducii Ruxandei printre teslarii care construiau   eșafodul, sunt siguri că au înțeles de asemenea că condamnatul pentru a cărei   salvare erau acolo, nu putea fi altul de   cât junele Oarcă, logodnicul câpitanesei lor.   </p>
+
+<p>  Scumpii noștri cititori o să ne permită să facem o mică paranteză, pentru a-i   pune în corent de modul cum a fost mântuită Ruxanda, și cum de au ajuns bravii   haiduci sa construiască cu mâinele lor eșafodul logodnicului ei.   </p>
+<p>  Ne aducem aminte când întâlnirăm pe flăcăii noștri, mergând spre locuința căpitanului lor, împreună cu care voiau să   meargă spre moara lui <foreign>kir</foreign> lani, pe care   omorându-l să incendieze în urmă și moara.   </p>
+<p>  Pentru aceasta Ruxanda alesese într’adins o Duminică când lucrătorii ’s până noapte târziu prin cârciumi.   </p>
+<p>  Fatalitatea a voit ca pentru aceleași mctive, grecoteiul să decidă răpirea ei tot   pentru Duminica aceia, după ce mai întâi   denunță giudețului banda de haiduci.   </p>
+<p>  Ajungând haiducii la căsuța Ruxandei o găsiră pe bătrâna mătușă într’o stare   de desperare abia sculată din leșin.   </p>
+<p>  Cu mare greutate putură scoate de la bătrâna câte-va cuvinte, prin care și acela   de «grec» ce-l auzise din gura Ruxandei.   </p>
+<p>  Haiducii fură deslușiți. Cațaonul pe care-l întâlniră în drum, avusese prada sub manta.   </p>
+<p>  — Vezi măi Sasule! Ce bine făceam dacă isprăveam cu el adineaura?   </p>
+<p>  — Da de unde eream să știm?   </p>
+<p>  — Acu o să fie porțile zăvorite.   </p>
+<p>  — Și noi o să sărim d’asupra.   </p>
+<p>  — Hai, nu pierdem vremea!   </p>
+<p>  Zice un altul ieșind fuga pe șosea.   </p>
+<p>  Ceilal-ți îl urmară.   </p>
+<p>  Ne reamintim cum haiducii au pătruns în curtea morii, locatari după cheiu, care   deșteptați din somn de bubuitura produsă   de glontele care l-a doborât pe morarul.   </p>
+          <p>  Apoi, de învălmășala produsă de sosirea poterii, care mirosind fuga haiducilor — din ascunzătoarea de la moș Toma unde  trebuiau să fie prinși la miezul nopții — sau pus în urmărirea lor.</p>
+          <gap unit="image" rend="Ajunsă în balcon fu coprinsă de groază. Un sgomot infernal domnia pe cheiu (Pag. 58)"></gap>
+
+<p>  După ce se produse zăpăciala, haiducii se retraseră în dosul morii.   </p>
+<p>  Ajunși pe cheiu Lisandru își băgă două degete în gură și imită de două ori glasul   cucuvelei. In întunericul ce domnia se văzu   venind spre el un caic cu doi vâslași care   luptau contra valurilor.   </p>
+<p>  Haiducii intrară cu toții în caic așteptând-o pe căpităneasa pe care o credeau perdută.   </p>
+<p>  De-odată auziră sgomotul produs de căderea unei greutăți în dunăre.   </p>
+<p>  — E căpităneasa!   </p>
+<p>  Strigă unul dintre vâslași care văzu un corp de femeie căzând în apa.   </p>
+<p>  Fără a pierde o clipă, trei dintre haiduci se aruncară în apă după martiră. După o trecere de două minute apărură   din nou pe suprafața apei, cu mâinele   goale. Haiducii ereau desperați.   </p>
+<p>  Focurile de carabine nu încetau. In întunericul și în zăpăceala din moară care ardea poterașii se omorau între ei.   </p>
+<p>  Numai ce se urcară în caic cei trei haiduci care căutară pe Ruxanda când acela care o văzuse înainte de a cădea în apă,   o zări din nou la o distanță de patru cinci   stânjeni departe de ei. Cu vigurositatea   unui tânăr de optsprezece ani, ei se aruncă în apă după dânsa și ajutat de Lisandru care-i sări în ajutor putu s’o urce   în caicul care îi ajunsese.   </p>
+<p>  Ea erea salvată*   </p>
+<p>  După o jumătate oră Ruxanda își veni în fire. înainte de a cădea în Dunăre ea   leșinase. Apa o dădu imediat afară. Din   cauza întunericului nu au putut-o vedea   însă tovarășii.   </p>
+<p>  Acum ei ereau departe de moara arzândă.   </p>
+<p>  Dumnezeu a voit s’o ajute să-și răsbune, pe grec însă cu mari sacrifiicii.   </p>
+<p>  Un singur lucru îi mai rămăsese. Să-l scape pe Oarcă din închisoare.   </p>
+<p>  Pentru aceasta îi trebuiau bani.   </p>
+<p>  Ei își urmară intinerariul făcut la început, vâslând în josul Dunărei.   </p>
+<p>  După patru ore, de luptă cu valurile spumegănde ei traseră la mal. Ploaia stătuse de mult. Cerul înseninase. Un vânt   ușor de Primăvară începuse să usuce pământul, care exala un miros plăcut. Primul lucru de care se apucară era să-și   îmbrace hainele care le aveau cu dânșii   în caic, lepădând pe cele ude în apă. Ruxanda își puse d’asupra o manta bărbătească. ea se mai încinse cu un iatagan   și două pistoale.   </p>
+<p>  — Acuma băieți să ne căutăm de treabă, și încă iute că ne apucă ziua.   </p>
+<p>  — Poruncește căpitane că de asta ești cu noi.   </p>
+<p>  — Ne trebue bani! Că fără bani, nici moartea nu-i bună.   </p>
+<p>  — Bani ’om găsi noi la Aga Bozdrună:   </p>
+<p>  — Tocmai ! Ca să ajungem pe moșia acestuia ne trebue două ore, că n’avem   cai.   </p>
+<p>  — Bine căpitane să mergem!   </p>
+<p>  Strigară haiducii în cor.   </p>
+<p>  Acolo sper să găsim și cai.   </p>
+<p>  Replică Ruxanda.   </p>
+<p>  Ca să fim pe scurt cred că o să ajungă onor, cititorilor dacă vom spune că expediția le-a răușit de minune.   </p>
+<p>  Ajungând pe moșia boerului Aga Bozdrună, haiducii năvăliră în curtea boerească. După o mică tărăbăcială trasă celor cincisprezece argați câți se aflau acolo,   și care erau toți cațaoni după ce îi legară   băgându-i prin cămare, chel are, grajduri   etc. pe fie-care pe unde-l găsiră, - haiducii   intrară la boeriu.   </p>
+<p>  Pe acesta care tăgăduia că ar fi avut avere în casă, îl bătură haiducește răsturnând toate lucrurile din casă. In urmă   Agaua căzu străpuns de iataganul Ruxandei   care-l surprinse în momentul când erea   să tragă cu pistolul în tânărul ei salvator,   care tocmai îi descoperise comoara unde   își ținea averile jefuite de la țărani. Sângele lipitorii gâlgâia, roșind podeaua. Tânărul Gorovei în bucuria lui nu băgase   de seamă că grecoteiul scosese un revolver   dintr’un sertar.   </p>
+<p>  După ce fiecare își umplu desagii cu cu săculețe de aur ei trecură în revistă   grajdurile curții alegându-și cei mai buni   cai de călărie.   </p>
+<p>  In drumul lor spre București ei cutreerară pădurile în lung și în lat. Se puse preț mare pe capetele acestei bande. Divanul care prinsese de știre despre isprăvile Ruxandei, trimisese potere numeroase   în urmărirea lor.   </p>
+<p>  Când te pomeneii cu ea în pădurea Clejanilor, când la țigănești, când dincolo spre munți la Vrânceni.   </p>
+<p>  Cu toate promisiunile făcute țăranilor, aceștia nu voiră nici odată s’o denunțe,   când o simțiau aproape pe undeva.   </p>
+<p>  Ba era, cunoscută mai întregei țarănimi, care din contra i dedea de veste dacă   cumva se aflau poterași ascunși prin împrejurimi.   </p>
+<p>  La țara până și copii o știau în față însă sub denumirea de <quote>"Zâna Pădurilor"</quote>.   </p>
+<p>  Nu era copil care întâlnind <quote>"Zâna Pădurilor"</quote> să nu fi căpătat de la dânsa firfirici și chiar monezi de aur pe care zicea să le dea părinților să-și mai astupe nevoile cu ele.   </p>
+<p>  Câte pungi de aur nu distribuiseea prin sărăcime ? Câte suflete nenorocite nu salvase ea cu aurul luat de la ciocoi. ?   </p>
+<p>  Pe câtâ bucurie făcea țăranilor care o întâlniau, pe atât îi îngrozea pe ciocoi.   </p>
+<p>  Nu era o zi de la Dumnezeu în care să nu se auză de o nouă ispravă.   </p>
+<p>  Tactica cu care opera jafurile făcea pe mulți să crează că marea haiduciasa Ruxanda dispunea de sute de haiduci, și tocmai aceasta o ajută pe dânsa.   </p>
+<p>  Ruxanda auzi în fine de ziua în care era decisă executarea logodnicului ei. Cu   ajutorul aurulu ea cumpărase pe meșterul   teslar care întreprinse ridicarea eșafodului.   Acesta prefăcându-se bolnav, lăsă pe așa   zisele calfe care nu erau alții de cât haiducii Ruxandei, să lucreze singuri.   </p>
+<p>  In costumul ei simplu de fată tânără, ea se plimba prin oraș de câte-ori avea nevoie, fără ca cine-va să fi bănuit într’ânsa   pe spăimântătoarea haiduciasă.   </p>
+<p>  Tot dânsa singură îl cumpără pe călău pe care-l aresta în dimineața zilei execuției   în propriai pimniță, amenințându-l cu mortea pentru orice mișcare.   </p>
+<p>  Nu se lumină încă de ziuă și câmpul Filaretului, era înțesat de curioși. Mereu   sosiră alți, pâlcuri, pâlcuri de boeri, negustori, breslași etc. etc. Tot ce avea București ul mai ghiabur, se număra printre spectatori. Curat de la Vlădică pân la opincă.   Mereu sosiau pe jos călări și în călesci, tdta   boerimea cu jupânesele și fetele for, între   care putem număra pe biv vel banul Radu   Golescu, biv vel banul Grigore Brîucovianu   biv vel banul Constantin Crețulescu, biv   vel banul Grigore Ghica, biv vel vornicul   Barbu Văcărescu, b. v. vornicul Dumitrache   Racoviță, b. v. vornicul Histrati Crețulescu,   biv vel logofătul Constantin Beldiman, b.   v. logofătu Mihalache Mânu, b. v. vornicul   Grigore Filipescu, b. v. vornicul Grigore   Belu, b. v. vornicul Dimitrache Slătineanu,   b. v. vornicul Constantin Calimach, P. S.   Mitropolitul Dionisie, b. v. vernicul Constantin Dudescu, biv vel logofătul Mihalache   Racoviță, v. v. vornicul loan Știrbei, b.   v. vornicul Petrache Ritordis, b. v. logofăt u Constantin Filipescu, b. v. logofătul Alexandru Ghica, biv vel logofâtu Atanasie Cristaccel, biv vel logofâtu Nicolae   Văcărescu, biv vel logofâtu Grigore Rai r   biv vel hatman Constantin Golescu. biv vel   vornicul Giigoae Romanet, b. v. v. Faso   Costescu, b. v. v. Mihalache Văcăresc..,   biv vei iogofatul loan A. Văcărescu biv   vei aga Costache Rasty, b. v. logofătu Alexandru Filipescu, b. v. logofătu lordache   Golescu și sute de boeri cu familiile și   fetele lor.   </p>
+<p>  Mai cu seamă jupânesele se strecurară care mai de care să apuce un loc mai   de privit căci se svonise că condamnatul   erea de o frumusețe răpitoare.   </p>
+<p>  Spânzuratoarea care era ridicată pe locul unde se află azi fântâna Cantaeuzino putea fi văzuta din toată câmpia Filaretului.   La spatele acestuia erea ridicat un perete   de scânduri vopsite cu negru ea și eșafodul.   </p>
+<p>  Spânzurătoarea era înconjurată cu soldați buni.   </p>
+<p>  In fața acesteia era ridicată tribuna oficială îmbrăcată în pânză roșie.   </p>
+<p>  Din tumultul a mii de voci, se făcu d’odată o tăcere adâncă. Sosise comandantul care urcă eșafodul urmat de doi soldați   turci.   </p>
+<p>  Jupânesele rămaseră surprinse de atâta frumusețe.   </p>
+<p>  — Nu se poate ca acesta să fi făptuit atâtea’ cruzimi câte i se imput.   </p>
+<p>  Zicea o tânără copilă tatălui ei, un boeriu bătrân cu barbă căruntă.   </p>
+<p>  — De copila mea, dacă divanul l’a găsit eu vină, noi trebue să ne închinăm.   </p>
+<p>  Discuțiile nu mai încetau.   </p>
+<p>  Ruxanda nici ea nu stătea cu gura închisă. Ca și toate jupânesele discuta și dânsa cu duhovnicul Pafnutie de la biserica Sf. Anton din Ișlicari, însă cu revolverul în mână.   </p>
+<p>  Dânsa după ce-i ajută lui Dănilă să-și lipiască barba și să-și îmbrace mantaua   roșie a călăului, plecă eu dânsul spre duhovnicul Pafnutie.   </p>
+<p>  — Sărut mâna părințele.   </p>
+<p>  — Să trăești fică mea ! Ați venit să mă zoriți pentru păcătosul cela ?   </p>
+<p>  — Tocmai că nu părințele. Am venit să te rugăm să ne faci hatârul să nu vii la   execuție!   </p>
+<p>  — Cum se poate?   </p>
+<p>  Strigă duhovnicul Pafnutie speriat.   </p>
+<p>  Dacă am primit poruncă de la divan trebue să mă supun.   </p>
+<p>  — Și eu îți poruncesc s’încremenești aci !   </p>
+<p>  Se resti Ruxanda amenințându-l cu un  pistol pe care-î scoate de sub broboadă.   </p>
+<p>  Bietul popă rămăsese ca înpietrit.   </p>
+<p>  El nu se așteptase la așa ceva.   </p>
+<p>  — Bine măicuță, vrei să mă bage Ia surghiura pentru un nătărău ca acela?   </p>
+<p>  — Să nu mai zici o vorbă că ești al morții.   </p>
+<p>  Strigă Ruxanda astupând u-i gura cu țeava pistolului.   </p>
+<p>  — Nătărăi sunteți voi. El a luptat pentru libertate!   </p>
+<p>  — Fie măicuță cura zici.   </p>
+<p>  Afirmă popa clănțănind din dinți.   </p>
+<p>  — Dacă ’oi lipsi eu, par’că n’or să găsească alt duhovnic?   </p>
+<p>  Adaogă o],   </p>
+<p>  —- Văd că nu mai înțeles. Duhovnic o să fie dar acela am să fiu eu.   </p>
+<p>  Bătrânul popă privi fata uimit.   </p>
+<p>  Acesta aruncându-i la picioare o pun-guliță cu ruble, îi strigă:   </p>
+<p>  — Repede lapădă-ți rassa și potcapul.   </p>
+<p>  Popa se supuse fără să crâcnească. Rublele îl scoaseră din sperieciune.   </p>
+<p>  După aceia îl legară pe popa de mâini și de picioare, băgându-l sub pat. Ruxanda   își puse și ea o barbă falșă potcapul și   rassa, având de grije și basrmua cu cartea de rugăciuni și crucea de lemn.   </p>
+<p>  — Dacă ții la viață, să nu faci mișcare pân’moi întoarce eu. Dacă ’ei eși de sub   pat, omul, lăsat de pază, are porunca de   la mine să te împuște.   </p>
+<p>  — Fii pe pace măicuță.   </p>
+<p>  Amenințând astfel pe popa, ea plecă repede cu Dănila spre Filaret,   </p>
+<p>  La sosirea lor cam târzie, se făcu a mișcare generală.   </p>
+<p>  — Vine călăul!   </p>
+<p>  — Uite duhovnicul!   </p>
+<p>  — Acum începe !   </p>
+<p>  — Iacă-i că vin !   </p>
+<p>  Toată lumea întorcea capetele spre ei. înghesuiala devenise de nesuportat. Mai   multe femei leșinară. Copii fură striviți.   </p>
+<p>  Indată ce Ruxanda și cu Dănilă ajunseră pe eșafod, Oarcă își recunoscu logodnica sub îmbrăcămintea duhovnicului până ca el să fi avut timpul să fi făcut   o mișcare de surprindere, ea se pusese   înaintea lui întinzându-i crucea s-o sărute.   </p>
+<p>  In timpul cât ținu spovedania, Ruxanda îi nară pe scurt, cum și ce fel a lucrat de când l-au prins pe dânsul în ultimul moment.   </p>
+<p>  Ea povesti cum împreună cu câți-va haiduci au cutreierat pădurile, șicanând   poterile.   </p>
+<p>  Cum la urmă s’au înapoiat la câminu-rile lor, pentru ase răsbuna pe <foreign>kir</foreign> lani. Rînd pe rînd ea îi povesti tot. Răpirea   trădarea lupta ei cu grecu, aruncarea în   Dunăre, salvarea ei, prădarea lui Aga Bozdrună, etc. etc.   </p>
+<p>  — Ei cum ați ajuns aci ?   </p>
+<p>  — L-am arestat pe popa pentru trei ore.   </p>
+<p>  — Da călău cine este ? Il văd că-i d’ai noștri.   </p>
+<p>  — E Danilă, fiul al doilea al lui moș Toma,.... l-am îmbrăcat cu barbă, semăna   grozav cu adevăratul măciucaș, pe care   d’asemenea l-am cetluit în chelariul său   luându-i mantia.   </p>
+<p>  — Și cum o să scăpăm ? Văd norodul ăsta și oastea care ne păzește.   </p>
+<p>  — Pentru asta am purtat eu de grijă.   </p>
+<p>  — Iată că-ți spun...   </p>
+<p>  Un tumult general se făcu în public.   </p>
+<p>  Marele representant al voiniciei dreptății, făcu semn unui slujbaș să spuie duhovnicului să termine mai repede.   </p>
+<p>  Ruxanda urmă înainte.   </p>
+<p>  — După ce călăul o să ți lege ochii și o să te desfacă de fiarele de la mâini și   picioare el o să se prefacă că te leagă cu   frînghii. Tu să ții frânghiile la spate, și   când ’oi vedea eu că totul e gata, am să   dau semnul băeților noștri, care-s dedesubt.   Aceștia vor aprinde o mină de praf, trăgând   și câtâ-va focuri în vînt. In zăpăciala asta   noi vom lua-o la sănătoasă spre vii unde,   avem pregătiți niște cai de călărie.   </p>
+<p>  Duhovnicul se dădu într’o parte stând cu mâinile împreunate spre cer.   </p>
+<p>  Marele caimacan fiind bolnav acasă, locul lui fu ținut de către representantul   vorniciei dreptății.   </p>
+<p>  Aceasta ținu norodului un fel de discurs, care semăna mai mult cu rechisitoriul unui   procuror. Oarcă auzindu-se comparat cu   trădătorii de patrie și neam, strânse pumnii. Apoi când oratorul îl acuză de rebel și   ca unul ce a luptat cu zavergii, el strigă   către popor;   </p>
+<p>  — Milostiviți boeri și oameni buni. Totul ce m-i se impută nu sunt de cât minciuni   sfruntate Eu am luptat din ordinul Domnului Tudor. Eu și cu oamenii mei am fost   atacați în casa lui Bimbașa-Sava de către   zaporojani. Ca să ne mântuim ne-am ascuns în biserica Oltenilor. Aci ne apăra-răm fiecare cum am putut. La Drăgășani   a fost același lucru. Fiind urmăriți ne-am   apărat. Atâta am avut de spus. Dumnezeu   să plătiască acelora care condamnându-mă   au lucrat contra adevăratei lor conștiințe.   </p>
+<p>  Represeatantul vorniciei urmâ înainte fără să se fi întrerupt. Apoi termină cu următoarele cuvinte;   </p>
+<p>  Pentru acest nenorocit, divanul a liberat următorul firman.   </p>
+<p>  El dădu chrisovul unui slujbaș al divanului. Acesta citi sentința.   </p>
+<p>  Tot norodul începu să murmure.   </p>
+<p>  Călăul căpătă un semn să-și facă datoria.   </p>
+<p>  Dănilă urmă conform obiceiul să-i lege ochii condamnatului, să-i desfacă fiarele,   și apoi să-l lege din nou, cu frînghii subțiri.   </p>
+<p>  — Pe ei băeți, nu îi lăsați! se auzi d’odată un strigăt.   </p>
+          <p>  —Ruxanda haiduciasa!   </p>
+<p>  Strigară boerii și norodul îngroziți, cătând fie care să se mântuie p’unde apucă.   </p>
+<p>  Cât nu clipește cine-va din ochi, întreaga tribună, înpreună cu eșafodu începură să   scîrție și să sară în sus scândură cu scândură. Un futn gros întunecă vederile tutulor.   </p>
+<p>  — Ajutor! Săriți!   </p>
+<p>  Strigă lumea.   </p>
+<p>  In timpul acesta haiducii traseră mai multe focuri oarbe peste capetele boerilor. Lumea se risipia îngrozită.   </p>
+<p>  — Ruxanda! Ruxanda !   </p>
+<p>  — Puneți mâna pe ea !   </p>
+<p>  Atâta d’or se auzia, altceva nimic.   </p>
+<p>  Ruxanda fără să se sinchisească își puse o manta pe umere. Asemenea făcură și Oarcă și Dănilă care aruncase după dânsul   mantaua roșie.   </p>
+<p>  Apoi dispărură cu toții prin viile din apropiere, unde se află azi cimitirul catolic.   </p>
+<p>  Aci încălicând caii ce îi așteptau, o luară repede spre pădurea Clejanilor.   </p>
+<p>  Farsa aceasta făcu mare sgomot.   </p>
+<p>  Caimacanul și alți boeri care nu asistaseră la această ceremonie, rîseră cu poftă de spericiunea celor l’alți.   </p>
+<p>  Ca să nu pară însă de ocară cel dintîi dădu ordin pentru orînduirea unei mari   poteri care să înconjoare Clejanii din trei părți d’odată.   </p></div>
+          
+   <div type="chapter">       
+<head>  VI. CONACUL DE LINGĂ CLEJANI   </head>
+<p>  Cinci zile în urma evenimentelor petrecute la București pe câmpia Filaretului, Ruxanda, care tocmai stătea în ușa conacului de lângă Clejani, fu surprinsă de sgomotul făcut de tropotul unor cai, care   veniau în goana mare. Din causa marelui   praf ce se ridicase, nu se putea vedea, cine   să fie nepoftiții, care alergau, goniți par’că   de un duh necurat.   </p>
+<p>  Numai când erau în apropiere, de vr’o zece, cinci-spre-zece stângeni de conac, numai atunci Ruxanda împreună cu hangiul   și cu hangioaica, — și câți mai eșiră afară   surprinși de sgomotul făcut de călăreți —   putură recunoaște pe serdarul Măgărdici   cu vre-o cinci sute de spahii.   </p>
+<p>  Serdarul Măgărdici era bine cunoscut în partea locului, că mai fusese el pe acolo   în diferite rînduri, scotocind toate casele și   chelarele bieților locuitori, crezând să descopere poate, banda Ruxandei.   </p>
+<p>  Ruxanda, fără a-și pierde sângele rece așteptă în ușe, să vadă dacă mosafirii ’s   într’adevăr veniți în urmărirea ei.   </p>
+<p>  In cașul acesta faptul, că logodnicul ei Oarcă, nu se întorsese încă din București   o puse în mare încurcătura.   </p>
+<p>  Fără s’aștepte mult ea află îndată scopul venirii lor.   </p>
+<p>  Serdarul și cu câți-va superiori cerură să li-se servească de mâncare și băutură   Ei mai avură pretențiunea că Ruxanda   să-i servească.   </p>
+<p>  Dorința le fu împlinită.   </p>
+<p>  Ruxanda trimise în ascuns să-l cheme pe Lisandru.   </p>
+<p>  Cititorul trebue să înțeleagă că hangiul și cu hangioaica, cărora an Iarna l-ii se   vînduse și icoana din perete, și care s’au   pricopsit din banii căpătați dela Ruxanda,   — erau dați cu trup și suflet acesteia.   </p>
+<p>  In timpul ce musafirii mâncau și benchetuiau, intră în han un moșneag bătrân care abia se țâra pe picioare.   </p>
+<p>  La vederea serdarului el își scoase căciula, rămânând descoperit, lăsând să-îi se vază păru albit de vreme.   </p>
+             <p> — Multă sănătate la boeri !   </p>
+<p>  — Cară-te d’aci mojiciile.   </p>
+<p>  Moșneagul avea aparența că voiește să se retragă.   </p>
+<p>  Ruxanda îl pofti într’altă odăiță șoptindu-i așa ca să fie auzit de serdar.   </p>
+<p>  — Treci d’incoace că d’or’ n’o să te așezi cu boerii la masă!   </p>
+<p>  Moșneagul se târî după dânsa în odaia vecină.   </p>
+<p>  Acesta cum intră. în odăiță și se simți nevăzut de nimeni, ’și întinse spinarea devenind de două ori de înalt pe cât părea   la început.   </p>
+<p>  Moșneagul era Lisandru, după care trimisese Ruxanda, și care se transformase de ne-recunoscut, ca să poată să-îi vază   la față pe boernașii cu care aveau să se   încaere.   </p>
+<p>  — Să ști căpitane căra’am ologii stând așa încovoiat.   </p>
+<p>  Ce să-i faci! Și eu m’am scârbit de când stau cu ei. Trebue să le dau încă,   de băut.   </p>
+<p>  La ce m’ai chemat ?   </p>
+<p>  — Uite Lisandre ce-mi veni în gând după câte îi am auzit vorbind pe aceștia,   după ce vor mânca se vor despărți în   trei tabere înconjurând pădurea din toate   părțile.   </p>
+<p>  — Și cumva ’ți-e teamă, că n’o să-îi ciopârțim bine ?   </p>
+<p>  — Și lasă, că te scriu că ești hâtru bun de glumă. Tu te înapoiază la băeți, și mi-i pregătește ca pe dată ce s’o însera,   să se risipiască prin pădure, câte trei, patru   de fie-care intrare și când vor auzi o detunătură de pistol să se pitulească fie-care   pe câte un copac și să tragă câte-va focuri   în diverse direcțiuni ale pădurii.   </p>
+<p>  — Da în cin ’să tragă?   </p>
+<p>  — Asta s’o vedea p’urmă. Ei să facă după cum zic eu.   </p>
+             <p> Poterile intrând în pădure pe câte-și treile cărări și auzind fiecare împușcătură <gap unit="image" rend="rupse gratiile de lemn putrede și se aruncă prin această în Dunăre. (Pag'. 58).  "></gap> in părțile opuse ale pădurii o să crează fiecare că trupele din partea locului s’au ciocnit cu ai noștri.   </p>
+<p>  In întunericul și învălmășala care o sa se producă ei o să se ciopârțească între   ei, fără ca noi să mai stricăm gloanțele   noastre.   </p>
+<p>  — Da cine o să dea semnalul ?   </p>
+<p>  — Tu!   </p>
+<p>  — Păi cum o să știu eu că poterile’s la locurile lor?   </p>
+<p>  — Ia seama și o să vezi cum ai să știi! După ce le spui băeților ce au să facă, nu   uita să le mai zici că îndată ce vor înțelege că poterile s’au încăerat între ele,   ei să coboare după copaci și să vie aci la   han, prin vizuină, fărăsă-îi observe cine-va.   </p>
+<p>  — Da eu încă nu pricep, cum o să aflu că taberile ’s împărțite ?   </p>
+<p>  — Așa e! Ascultă dar! După ce pui băeții la cale, cum și ce să facă, tu mi te înnapoiezi prin vizuină, și după ce’or pleca   spahii spre pădure, ai să te re-înapoiezi   și tu tot prin supterană, și ai să știi să   socoți timpul trebuincios taberilor să-și ajungă locurile lor.   </p>
+<p>  — Acu am înțeles.   </p>
+<p>  — Da cu Oarcă al meu ce s’o fi întâmplat ?   </p>
+<p>  Uite-l că vine.   </p>
+<p>  Ușa din dos se deschise într’adevăr și logodnicul ei apăru în toată făptura.   </p>
+<p>  — Slavă lui Dumnezeu că veniși. Mi-era teamă să nu te fi mâncat lupii.   </p>
+<p>  Ii șopti Ruxanda, făcându-i în același timp un semn, să înțeleagă că’s niște străini în cârciumă.   </p>
+<p>  — Taman de asta întârziai și eu. Mi-era teamă să mu mă întâlnească în drum și mă ținui tot după urma lor.   </p>
+<p>  Vasă’zică ai știut că’s aici ?   </p>
+<p>  Vezi bine. Plecai de la București împreună cu ei.   </p>
+<p>  — Ai adus cel puțin butoiașu, să-i piperăm puțin ?   </p>
+<p>  — L-am lăsat în vizuină.   </p>
+<p>  Vizuina pe care o tot pomenim, era o galerie sub-pământeană de aproape o mie   de stângeni.   </p>
+<p>  Această supterană lega beciul hanului cu o vizuină părăsită a unor urși, după care   i-au dat și numele, și care era în scorbura   unui copac din interiorul păduri. Nu trebuie uitat că conacul era la marginea pădurii.   </p>
+<p>  Oameni Ruxandei nu intrau nici o dată în han prin față, de teamă să nu bată la   ochi. Cu toate că nu se temeau de țăranii   din împrejurimi pe care îi îmbuibau cu bunătăți. Pentru mai multă siguranță de serviciu, se serviau de galeria supterană care la intrarea din spre pădure, nici nu dădea de închipuit, că poate intra intr’însa un   corp omenesc.   </p>
+<p>  Vizuina era făcută în scorbura unui stejar uriaș, prin care te lăsai în galeria săpată într’adins de oamenii Ruxandei, pe timpul când freqirentau mai des această pădure.   </p>
+<p>  Lisandru care ieșise prin față ca să nu dea ceva de bănuit, nu zăbovi nici o ju-   </p>
+<p>  mătate oră, și se înapoiă prin vizuină.   </p>
+<p>  Ajutat de Oarca, el piperă toată galeria cu praful de pușcă adus de acesta din   urmă, din București.   </p>
+<p>  In mai puțin de trei sferturi de oră întreaga subterană împreună cu beciul hanului, erau transformate într’o mină de praf, care nu aștepta de cât o scânteie de cremene, ca să sară, întreagă în slava cerului.   </p>
+<p>  Planul Ruxandei era următorul: După ce s’o produce învălmășala în pădure și îndată   ce s’or înapoia băeții, împreună cu aceștia să atace una din tabere pe la spate, re-trăgându-se apoi cu haiducii spre conac.   </p>
+<p>  Fiind urmăriți de spahii, ei să se retragă spre pădure prin galerie. Atrăgând potera   în urma lor în subterană, apoi să-i dea foc   minei de praf, aruncîndu-i pe toți în văsduh.   </p>
+<p>  Cu aceasta ea avea de scop să bage groaza în boernașii veliți, făcându-i pe aceștia săpiarză pofta să-i mai urmăriască al’dată.   </p>
+<p>  Pe dată ce se înseră, serdarul Măgărdici se sculă în picioare, dând porunca celorlalți   comandați să se împrăștie fiecare cu trupele lor pe la locurile indicate în planul   lor de atac.   </p>
+<p>  Dacă ar fi știut acesta că nici nu avea pe cine s’atace, căci nu erau în pădure   de cât un-spre-zece haiduci voinici și înalți   unu și unu.   </p>
+<p>  Tocmai această vedere greșită a făcut-o pe Ruxanda să răușiască în tot-dauna.   </p>
+<p>  întreaga pădure a Clejanilor era înconjurată de trei potere de Spahii.   </p>
+<p>  Aci marea haiduciasă se afla în mai multă siguranță, că nimeni nu știa nimic   de dânsa, de cât maica stariță, care o recomandase călugăriților ca pe o nepoată   a ei.   </p>
+<p>  Cu ajutorul mamei Tudora ea comunica zilnic cu câte unul dintre haiduci, care-i   aducea știri din București.   </p>
+<p>  A cincea zi după sărirea în văzduh a subteranei din pădurea Clejanilor, Ruxanda primi pe Gorovei care-i aduse diverse noutăți de puțină importanță.   </p>
+<p>  Ruxanda recunoscu însă după sprînce-nele lui că-i ascundea o veste neplăcută.   </p>
+<p>  Când în cele din urmă fu încolțit, tînă-rul haiduc nu-i putu ascunde adevărul.   </p>
+<p>  — Ce se crede prin târg despre potera care nu s’a mai înapoiat.   </p>
+<p>  — Tocmai, că s’au întors aseară.   </p>
+<p>  — Și tu nici nu-mi zici.   </p>
+<p>  — La ce era să-ți spun?   </p>
+<p>  — Păi cum, da Oarcă nu-i cu ei ?   </p>
+<p>  — A! Da! Da nu l’am văzut eu.   </p>
+<p>  — Da nu v’ați interesat ?   </p>
+<p>  — Ba da!   </p>
+<p>  — Ei! unde se află el.   </p>
+<p>  — E băgat la închisoare.   </p>
+<p>  — Atunci l’ați văzut!   </p>
+<p>  — Cine?   </p>
+<p>  — Voi.   </p>
+<p>  — Noi nu l’am văzut.   </p>
+<p>  — Ei! de unde știți că-i în închisoare ?   </p>
+<p>  — Păi îmi închipui.   </p>
+<p>  Bietul Gorovei nici nu s’așteptase la așa ceva.   </p>
+<p>  El căuta mereu să schimbe vorba.   </p>
+<p>  Ruxanda căzu în nesimțire. Când fu redeșteptată, ea își perduse mințile.   </p>
+<p>  Băeții aflând de înapoera trupelor plecate în urmărirea lor, care după teribila catastrofă au cercetat toată țara dela Dunăre până la munți, au dat fiecare câte   o raită prin târg după noutăți. Aci aflară   că trupele care în cele din urmă negăsind   urma lor, s’au întors în București aducând   cu dânșii capetele haiducilor căzuți în   luptă. Intre aceste capete se găsea și a-cela a lui Oarcă, care era pus separat, și   recunoscut tot odată că-i al condamnatului la spânzurătoare. Acesta aprinzând mina   de praf nu s’a depărtat destul de repede   și a fost ajuns de o bucată de piatră care   lovindu-l în piept la omorât pe loc.   </p>
+<p>  Această veste fusese prea crudă pentru Ruxanda.   </p>
+<p>  Nu de giaba se codeau haiducii între ei nevoind nimeni să-i ducă această veste   nenorocită, în urmă sorțul căzu pe Gorovei   care a fost silit să-i destăinuiască adevărul.   </p>
+<p>  Șease ani de zile a trăit în cele mai mari nenorociri, rătăcind prin toate ulițele   Bucureștilor.   </p>
+<p>  In cele din urmă răcindu-se muri după o crudă boală de două săptămâni.   </p>
+<p>  La înmormântarea ei asistară toate călugărițele mânăstirei Pasărea și sătenii din împrejurimi.   </p>
+<p>  Din toată asistența, în afară de maica Tudora, nu-și închipuiau nimeni, că cadavrul rece la al cărei căpățîiul se bociau,   era haiduciasa Ruxanda, care a speriat o   țară întreagă, și prin influența căreia s’au   schimbat atâtea moravuri stricate ale unei   societăți conrupte.   </p>
+<p>  De la această dată putem număra epocă de regenerare ale țărilor românești.   </p>
+<p>  De atunci și până azi s’au schimbat multe lucruri. Boerii au devenit mai omenoși,   iar poporul de la țară mai indulgent.   </p></div>
+<trailer>  FINE   </trailer>
+</body>         
+          <back>
+<p>  TABLA DE MATERIE   </p>
+   
+<p>        1. Rochia de Mireasă   </p>     
+<p>        2. Resmerița de la 1821.   </p>     
+<p>        3. Spânzurătoarea.   </p>     
+<p>        4. Răpirea.   </p>     
+<p>        5. La Moara Grecului.   </p>     
+<p>        6. Conacul de lângă’Clej ani.   </p>     
+<p>        7. Nebuna.   </p>     
+<p>  A APĂRUT   </p>
+<p>  SSi cereți pretn.tind.eni DE ACELAȘ AUTOR   </p>
+        
+<p>  ȚEPELUȘ Șl VRĂJITOAREA   </p>
+<p>  MIHNEA BANUL OLTENIEI   </p>
+          
+<p>  BANDITUL MAG-DAL   </p>
+          
+
+<p>  Șl ALTELE   </p>
+<p>  Se află de vânzare Ia:   </p>
+<p>  Tipografia Concurența   </p>
+<p>  București, Strada Decebal No. 11   </p>
+<p>    1            </p>
+<p>   Eteriile Greco-Slave erau niște societăți secrete eare lucrau pentru independența Grecilor.   </p>
+<p>  1) După I. E. Rădulescu și loan Ghika, Aleeu Vodă Șuțu ar fi murit la 29 Decembrie 1820.   </p>
+          </back></text></TEI>

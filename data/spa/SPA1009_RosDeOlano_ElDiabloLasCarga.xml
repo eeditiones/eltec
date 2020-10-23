@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ortografía antigua. Falta modernizar el texto. -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1009" xml:lang="SPA">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>El diablo las carga : edición ELTeC</title> 
+      <author ref="viaf:60729092">Ros de Olano, Antonio (1808-1886)</author>
+      <respStmt>
+      <resp>Edición ELTeC</resp>
+      <name>Borja Navarro Colorado</name>
+      </respStmt>
+    </titleStmt>
+    <extent>
+      <measure unit="words">15435</measure>
+    </extent>
+    <publicationStmt>
+      <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+      <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+      <date when="2020-08-20"/>
+      <availability>
+        <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+      </availability>
+      <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl type="firstEdition">
+        <date>1840</date>
+        <publisher>Imprenta de la compañía tipográfica</publisher>
+        <pubPlace>Madrid</pubPlace>
+      </bibl>
+      <bibl type="digitalSource">
+        <publisher>Biblioteca Digital Hispánica</publisher>
+        <pubPlace>Biblioteca Nacional de España</pubPlace>
+        <pubPlace>Madrid</pubPlace>
+        <idno>bdh0000174050</idno>
+        <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000174050"/>
+      </bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc n="eltec-1">
+    <p/>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="SPA">Español</language>
+      <language ident="FRA">Francés</language>
+      <language ident="ENG">Inglés</language>
+      <language ident="ITA">Italiano</language>
+      <language ident="LAT">Latín</language>
+    </langUsage>
+    <textDesc>
+      <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+      <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+      <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+      <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
+    </textDesc>
+   </profileDesc>
+   <revisionDesc>
+    <change when="2020-08-20">Revisión del texto, anotación TEI y edición ELTeC : Borja Navarro Colorado</change>
+   </revisionDesc>
+  </teiHeader>
+  <text>
+  	<front>
+  		<div type="titlepage">
+  			<p>El diablo</p>
+  			<p>las carga,</p>
+  			<p>cuadro de costumbres,</p>
+  			<p>Año de mil ochocientos treinta y tantos.</p>
+  			<p>por</p>
+  			<p>D. Antonio Ros de Olano,</p>
+  			<p>Socio facultativo del Liceo Artístico y Literario de</p>
+  			<p>Madrid.</p>
+  			<p>Madrid</p>
+  			<p>Imprenta de la Compañía Tipográfica.</p>
+  			<p>1840</p>
+  		</div>
+  		<div type="liminal">
+  			<p>A D. NAZARIO CARRIQUIRY,</p>
+  			<p>Dedica este cuento</p>
+  			<p>SU INTIMO AMIGO</p>
+  			<p><emph>Antonio Ros de Olano</emph></p>
+  		</div>
+  	</front>
+  	<body>
+  		<div type="chapter" n="SPA1009001">
+  			<head>CAPITULO PRIMERO</head>
+
+  			<quote><p>“Era una de aquellas noches de insomnio, tempestuosas, terribles, en que el alma tiene fiebre, en que el corazon se anubla y se compunje, y en que nuestros miembros crispados por el estertor del alma nos botan de improviso contra el lecho como cadáveres galvanizados: una de aquellas noches en que los ojos velan para que los recuerdos asesinen; y yo lloraba con pueril flaqueza, y con un complicado indefinible pesar, semejante al que en mi juicio debe sentir la muger honesta luego que ha cometido su primer adulterio."</p>
+  			<p>“Al reflejo de la lámpara se proyectaron en la pared, y las ví por el prisma de mis lágrimas, las formas de dos mugeres que arrastraban tras si mis ilusiones, vírgenes un tiempo, siempre queridas, y marchitadas hoy. Iban aquellas mugeres como de partida, y para nunca volver… Una tú no la conoces; fué tan pura un dia como ahora es infeliz, y su fantástico reflejo en aquella noche era el de su primera edad: la otra muger eras tú; pero ya aparentabas tener veinte años; huias temerosa, me miraste, y llorabas como yo, tal vez arrepentida, cuando ya era tarde!… porque junta con mis ilusiones ibas caminando <emph>para nunca volver</emph>!"…</p></quote>
+
+<p>Estos renglones de humilde prosa los escribió el jóven Fernando en el <title>album</title> de Teresa, libro tan atildado como su dueña, y tan rebozado en brilladoras galas, lleno de juventud y de tersura, envuelto en oro y vanidad como la doncella, la cual erigia en su album un monumento al orgullo, amasado con los despojos da sus triunfos, blasonado con las inscripciones de sus victorias… En una palabra, Teresa, el Napoleon de las mugeres, queria tambien una columna de Vendoma.</p>
+<p>Habian pasado meses como leves dias para Teresa, y dias como tardos años para Fernando, desde que el album salió de manos de este para que por el conductor eléctrico de su veleidosa señora, recayera el turno apetecido en algun versificador de diez y ocho primaveras, taciturno y desengañado filósofo, recien salido de un colegio de humanidades. Es lo probable que este poeta desempeñara al punto su encargo, porque las <emph>inspiraciones</emph> son rápidas y ejecutivas.</p>
+<p>Tambien es probable que del poeta pasara el libro á algun pintor á <foreign xml:lang="FRA">l'acquarella</foreign>, purísimo aficionado, romántico absoluto, admirador de Velazquez por su valentía, que vé los efectos de sus tintas y los imita mal, porque desdeña descender al estudio de las causas; que elije siempre para sus obras grupos de trovadores en la calle, y tapadas á la ventana, noches de luna, trages de ropilla, riñas, rondas y espadas que se cruzan.</p>
+<p>Tambien es probable que del pintor fuese el album á poder del músico, que á fuer de buen artista deplora la muerte de Bellini, y le roba sin embargo sus armonías.</p>
+<p>Casi no cabe duda en que el libro anduvo en manos de muchas <emph>capacidades</emph> hasta recaer en un <emph>escritor moralista</emph>, redactor de folletines y folletos, escritor de esos que copian de la escena del mundo malos cuadros de costumbres en grosero lenguaje que juegan con las palabras de una anfibologia obscena, y lucen á su parecer el ingenio con bastardos retruécanos: hombres osados que yo conozco, que no se conocen ellos, los cuales escalan el recinto de la buena sociedad armados de impudencia, y allí se presentan á desnaturalizarla con todos los lunares de una mala educacion, y con el chiste de una imaginacion picante.</p>
+<p>Cuanto he dicho es casi indudable; pero lo que de todo punto puede afirmarse es, que aquellos <emph>célebres artistas</emph> leyeron todos con desdeñoso sarcasmo los sentidos renglones de Fernando: ayes del alma, articulaciones proféticas formuladas con la lógica del corazon, que una mano febril temblaba al escribirlas.</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009002">
+  			<head>CAPITULO SEGUNDO</head>
+
+<p>Con la frente reclinada en la mano derecha, el codo apoyado sobre una mesa, el brazo izquierdo lánguidamente abandonado, y la vista al parecer fija en un punto, pero en realidad distraida, se hallaba Fernando á solas en su cuarto, á tiempo que entró á visitarle un hombre enjuto, moreno, bien portado, y como de treinta y tres años, que es la edad de Cristo segun la Biblia, y la del Diablo tambien, segun mis muchas observaciones sobre el particular.</p>
+<p>—¡Fernando! mi querido Fernando! Esclamó el caballero estrechando en sus brazos con arrebato al joven enamorado y continuó sin soltarle: Por una feliz casualidad he descubierto que te hallabas en esta corte: sábete que acabo de llegar, pero sin tomar descanso he corrido á recordarte nuestra antigua amistad… ah! la amistad es antes que todo! la amistad es mi ídolo!</p>
+<p>Y sin dar treguas al aliento, continuaba apretando el pecho de Fernando contra el suyo.</p>
+<p>Atónito y de hito en hito contemplaba el jóven al incógnito; y aunque aquellas facciones no le parecieran totalmente nuevas, no acertaba sin embargo á distinguir quién fuese el que tan familiarmente demostraba quererle; parecíale haber visto aquel hombre mas de una vez, pero no acertaba en dónde ni cuándo; y bien examinado, encontraba semejanza entre su aparecido y cuantos conocidos tenia poco mas ó menos de la edad aquella.</p>
+<p>Fernando con el embarazo natural en estos casos le respondió:</p>
+<p>—No desconozco á V., pero hablando en verdad, ni recuerdo cual sea su nombre, ni desde donde datan nuestras relaciones.</p>
+<p>—Oh! no lo estraño; las últimas impresiones te han borrado las primeras del corazon, y ya hasta has olvidado á un amigo de colegio, que por ser mayor te amparaba contra tus adversarios condiscípulos, traviesos como estudiantes y mal intencionados como niños… has olvidado en fin á Gustavo por Teresa.</p>
+<p>—¡Ah! sí, te reconozco por el nombre, recuerdo nuestra antigua amistad… pero tus mismos parientes me aseguraron que habías muerto…—Mas díme, díme, tú has nombrado á Teresa! quien te ha informado de mi paradero! de Teresa! de mis relaciones con ella!… ¡Ay! sabes mi delirio! sabes su ingratitud!…</p>
+<p>—Y su vanidad Fernando!… tranquilízate…. un amigo que como yo posee el recurso de la esperiencia, puede ser muy útil al jóven impresionable, que abandonado á sí propio, seguiría solo los impulsos de su fogosidad. El corazon que manda en la cabeza, corre á despeñarse como el ciego que cabalga y aguija un poderoso potro andaluz. Entiende que la mujer de pocos años es un gusano á quien de súbito brotaron las alas… ¡pobrecillas!! Su primer vuelo es hacia la llama del orgullo. Si Teresa insensata se ajita y revolotea en torno de esa luz que la fascina, déjala; que pronto caerá abrasada y arrepentida á tus pies… La estrecharás entonces en tus brazos, la levantarás hasta tí, no lo dudo; pero luego de muchos besos y caricias, que son felicidad y mentira, palparás la verdad y hallarás el hastio hasta rechazarla de tí como á un gusano…</p>
+<p>—Imposible Gustavo, es imposible… ni ella será ya mia, ni yo pudiera nunca despreciarla!</p>
+<p>Gustavo asomó cierta negligente sonrisa á los labios, se recostó en un sofá y empezó á morderse las uñas, sin responder palabra.</p>
+<p>—Dices que la mujer es un gusano.—Replicó Fernando—¡Cuanto se diferencian nuestros juicios! Es la mujer en mi sentir un espíritu celeste que perfecciona la forma terrenal en que se anida: es un espíritu ¡para mi mal impasible! y el hombre es la vil materia que en pos de él se arrastra. Nota, sinó, como los mas sublimes pensamientos de todas las relijiones nos son trasmitidos bajo el tipo de la mujer.</p>
+<p>—En efecto, Fernando, la <emph>Divina Maria</emph> es virjen y madre, es el deseo y el logro sin destruirse el uno al otro, es la incomprensible union de dos ideas opuestas… <emph>¡Maria!!</emph> he aquí lo mas bello, lo mas sublime de todas las relijiones… pero esa María advierte que es una sola, la cual no pertenece á nuestro suelo. Y si es que tú la concibes al traves de su impenetrable misterio, compárala, Fernando, con las demás mujeres, y hallarás que una es el complemento del idealismo, las otras la imperfeccion; esto saltará naturalmente á tus ojos; al paso que el moralista San Vicente Ferrer profetizó para todos que los hombres tendriamos que encaramarnos á los árboles, huyendo, acosados de las mujeres… Dejo á un lado la condicion humana, que hasta nos hace apartar con repugnancia los ojos de las viandas despues del banquete.</p>
+<p>—¡Calla, que son amargas tus palabras, Gustavo!! ¡Cuanta ponzoña destilan para quien como yo vislumbra cierta realidad en ellas, y siente solo en su corazon debilidad y amor!! Todos cuantos errores esclarezcas á mi razon, todas cuantas ideas me imbuyas, vendrán á luchar contra estos dos tenaces enemigos; y yo sucumbiré al fin, sin haber recibido de tu amistad galardon alguno, como no sea el tránsito de un martirio lento á otra máquina de tormento mejor combinada y mas rápida. He agotado buscando la salud del alma casi todo mi dinero; busqué la guerra, apelé á los viajes; pero la guerra, quizá porque ya no tiene gloria, lo cierto es que tampoco tiene Dios, en los viajes no nos acompaña Mentor, y el amor tiene una deidad, tiene un Dios, y este Dios es la mujer que amamos ¡Terrible es el Dios que impera sobre mí!! Lo sé, no me lo digas; pero huyéndolo, mis caballos han muerto jadeando, hostigados por la impiedad de mis espuelas; y allí donde caían, por entre los árboles como Sílfida, sobre las nubes como Anjel, allí, en todas partes, me parecia verla, alli estaba ella. ¡Ay! inutil es huir del amor, cuando el amor nos manda huir! El nos empuja, nosotros le llevamos.</p>
+<p>—Y no seré yo por cierto quien te aconseje la fuga: el amor es una guia desenfrenada hácia un determinado manjar. Mira tú ahora, si yo que tanto te quiero, iré á aconsejarte que viajes en posta para matar el hambre.—Ea! déjate guiar, sacude esa molicie, incorpórate, aliña tu corbatin, abrocha tu frac, acompáñame á la fonda donde vivo, y avisa á los criados que no comes en casa.</p>
+<p>Fernando, para quien lo mismo era su casa que la fonda, que la carcel, asi lo hizo con una distraccion que rayaba en estupidez; y los dos amigos bajaron la escalera, uno, mordiéndose los labios como el que padece, y otro, mordiéndose las uñas como el que imagina.</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009003">
+  			<head>CAPITULO TERCERO</head>
+
+<p>Hoy se cumple un mes y algunas horas desde la primera entrevista de Fernando y Gustavo; amigos inseparables desde entonces, son el olmo y la yedra, ó por valernos de una comparacion menos vulgar, diremos que son el peregrino y el báculo. Fernando, como si desfalleciera por efecto de una emorrajia, está blanco como este papel estaba antes que yo lo escribiera; sus cabellos en revuelto remolino, nublan no obstante su frente, y el arquear de las cejas y su ceño adusto indican que por su mente pasan ideas siniestras, que se reproducen bajo mil formas, como las creaciones fantásticas de un enfermo, como los monstruos de un delirio.</p>
+<p>Gustavo al parecer se ocupaba poco de Fernando; está demasiadamente atareado en ponerse un negro pantalon colan, tan ajustado que apenas permite paso al pie, ceñido de delicada media de seda negra y leve zapato de charol; hecha esta dificil operacion se almoldó Gustavo sobre la pulcra camisa una corbata del género y color del las medias; luego un chaleco de reluciente raso como las alas de un cuervo; y por último, un esmerado frac de <foreign xml:lang="FRA">soirèe</foreign> que vestirlo pudiera el mas estremado <foreign xml:lang="ENG">dandy</foreign> un dia de luto.</p>
+<p>La casa del antiguo favorito de Fernando VII, la casa del conde de P, del caballero Gran—Cruz, esta iluminada. El continuo ruido de los carruajes agrava á los enfermos y turba el descanso de los vecinos pacíficos de la calle de N. Muchos curiosos, gente toda de segundo órden, espuestos al sereno, contemplan las ráfagas de vivísima lumbre, y prestan oido á las estruendosas armonias y á la algazara, que los salones del Gentil-hombre no son capaces à contener en sí, y por sus balcones las arrojan à la atmósfera, de la misma manera que se desahoga un volcan, lanzando por su cràter truenos y llamaradas.</p>
+<p>Entra, lector, conmigo bajo lo dorados artesones del antiguo favorito, que nosotros ya somos hombres viciados que solo nos contentamos con el todo de los goces, quédese para la medianía y el populacho percibir á medias el canto de la sirena; nosotros nos debemos precipitar tras el deleite, mas que luego nos ahoguemos.</p>
+<p>Con este paño que reviste la escaler; sin embargo halla tanto sabor un rico en pisarlo como el mendigo en arroparse.</p>
+<p>Hasta aqui el paño que cubre el pavimento ha sido azul-celeste, en dando el primer paso hacia adelante pisaremos paño blanco.—Lector, ambos llegamos al baile por nuestros pasos contados, procuremos que no lo infieran por las huellas, porque seriamos tenidos en poco: limpia como yo, lector amado, las suelas de tu calzado en el paño azul y entremos.</p>
+<p>Nuestras cortesias deben dirijirse á aquel personaje de la placa de brillantes que tiene la cabeza gris, à aquel caballero de elegantes modales, de afabilidad pueril y recelosa mirada. Este es el dueño de la casa; desposado hoy mismo con aquella jóven de diez y siete años, que al soslayo no cesa de mirarse al espejo, que llama oficiosamente á los criados para que la den tratamiento. Esa niña es mi señora doña Teresa; ofrezcámonos á sus pies, pero que de modo alguno se te escape llamarla Teresita, porque en esta noche seria ofender la dignidad de su estado.</p>
+<p>Mucha y brillante es la concurrencia; son las doce y poco mas de la noche; apenas hay una silla vacante, y aun veinte coches esperan turno unos tras otros para desocupar á la puerta.</p>
+<p>Mas de quinientas velas de esperma, sobre bases de cristal y oro, prestan à los salones una claridad riente.</p>
+<p>Dos orquestas brotan alternativamente robustas armonias desde elegantes tribunas colaterales; los músicos asoman como un coro de màjicos soplando en sus <emph>varitas de virtudes</emph> para ridiculizar á su antojo la especie humana. Pero los tales májicos con sus carrillos hinchados, y sus ademanes furiosos, no estan menos ridículos que sus subordinados. El salon principal está vestido de raso perla, y el cortinaje de los balcones flota de vez en cuando impelido por el ambiente de la noche, que aspiran con avidez cien hermosas agitadas por el vals. Los vestidos de estas Penélopes son escotados como requiere la etiqueta, y sus pechos donde se mece el aliento, reposados en cunas de batista palpitan de dos en dos, como armiños dormidos.</p>
+<p>Los hombres, unos se pasean, otros juegan en las salas interiores y algunos en muy corto número, conversan con las damas; porque la moda es hablar poco y lijero, bailar mal y despacio.</p>
+<p>Mi señora doña Luisa con capota trasparente y traje de blonda, recibe tambien á los concurrentes… nada hay en esto que no esté en el circulo de sus atribuciones, es suegra del conde, es madre de un hombre que nació antes que ella…… nuestra cortesia debe ser con esta señora mas que profunda, galante, y no importa que la llamemos Luisita.</p>
+<p>Es mas de la una y media, se han bailado una mazurca y un rigodon; las bandejas con dulces y helados empiezan á circular; si la tierna desposada hubiera de comerse todas las yemas que uno por uno le presentan los elegantes, sufriría una cruel penitencia. La amable condesa no desdeña aceptarlas, pero de sus manos caen con disimulo al pañuelo… A esta hora y en el oscuro aposento de una fonda, las lágrimas amargas de Fernando van tambien á perderse en un pañuelo!!!</p>
+<p>El caballero gran cruz se manifiesta con su esposa mas esmerado que celoso: cierto es que en la primera noche de boda ningun marido debe desconfiar de su muger. Se acerca á ella cada veinte minutos, le habla tres ó cuatro palabras, sonríe y vuelve al circulo de concurrentes, donde antes se hallaba.</p>
+<p>En este momento acaba de entrar un hombre que por vestir completamente de negro olvida hasta el buen tono de los guantes blancos.</p>
+<p>Escusado parecerá tal vez que yo declare que es Gustavo. Descuella este sugeto entre la hidalga juventud por sus modales <emph>fashionables</emph>; Gustavo al entrar tiende la mano al conde; le llama por su nombre bautismal, y le recuerda la semejanza entre su <foreign xml:lang="FRA">soirée</foreign> y otra á que asistieron ambos en Berlin, siendo el conde enviado secreto de Fermando VII en aquella corte.</p>
+<p>Mi señora doña Luisa acepta de Gustavo un torrente de lisonjas que le hacen olvidar veinte años matrimoniales.</p>
+<p>Pasa luego nuestro fashionable á ofrecerse á los pies de Teresa, y escita la curiosidad de la concurrencia ver que la lindísima, desposada con ninguno de entre tantos galanes se ha mostrado tan complacida como con Gustavo.</p>
+<p>Empieza desde luego el hombre enlutado á dominar la sociedad y la recorre y alterna en ella como si le fuese familiar.</p>
+<p>Las miradas de los circunstantes se fijan no solo en la espiritualidad de su rostro, sino tambien en la condecoracion estraña que adorna su pecho.</p>
+<p>—Parece la órden de Calatrava, dicen unos.</p>
+<p>Mas luego comparada con la de otro condecorado resulta que no.</p>
+<p>—No es tampoco la de Santiago, dicen otros.</p>
+<p>—Será extranjera.</p>
+<p>Los jóvenes de la legacion francesa no la conocen; los de la inglesa tampoco; y nos hubiéramos quedado todos probablemente con la duda, á no iluminarnos un fidalgo portugés que saltó y dijo:</p>
+<p>—Es á cruz dá orden de Christo, mais té aos brazos trocados.</p>
+<p>Asi pareció en efecto despues de la aclaracion dada, y yó me conformé sin ecsamen con la afirmativa del portugés, porque estas gentes son muy entendidas en materias heráldicas. Chocó á todos, sin embargo, que el caballero enlutado llevase la cruz de Cristo puesta patas arriba.</p>
+<p>Dejó la atareada doña Luisa una silla vacia junto á Teresa, y en el instante la ocupó Gustavo.</p>
+<p>He aquí el diálogo de la muger de diez y siete años y del hombre de treinta y tres:</p>
+<p>—Condesa, ¿está V. pensativa?</p>
+<p>—No, Gustavo. Miraba como las luces se van consumiendo, y me dá pena, porque indican que el baile empezó há mucho rato, y que acabará pronto.</p>
+<p>—Esa contemplacion, condesa, es harto triste, y es menester desecharla: el recuerdo de lo que fué y el pensamiento de lo que será, cuando se nos ofrecen á la vez, afectan el corazon y destruyen la alegria.</p>
+<p>—No pensaba yo en eso; pero como el baile es tan brillante! tan seductor!!…</p>
+<p>—Es cierto: dentro de dos horas, condesa, dirá V., el baile <emph>era</emph> tan brillante, <emph>era</emph> tan seductor! Es el primero y el último á que asiste en toda su vida la mujer que ocupa la posicion de V. en esta noche.</p>
+<p>—Me entristece V., Gustavo.</p>
+<p>—Ah! no, condesa, no seré yo quien con el hálito de sus palabras aje la flor mas linda de la creacion; flor que ayer la adoraban en capullo, y que mañana, abierta su corola, la respetaremos todos sin dejar de admirarla. Nadie respeta tanto á la condesa como yo pero… ¡Qué hermosa es V! No hay duda que la belleza del medio dia encierra mas atractivos morales que la del norte: son totalmente opuestas: la una reside en la materia, la otra se manifiesta en el espíritu… Esas pupilas negras sobre un blanco azulado; esas corvas pestañas que sombrean unos párpados mansos como las olas que acarician las playas andaluzas: esas leves tintas morenas y sonrosadas, que forman sobre la tez un mágico contraste; la morbidez en fin de las formas sin superfluo desarrollo; la flexibilidad de la cintura, la brevedad de los estremos son dotes características de las mujeres meridionales; y ademas en estos cuerpos de pulcritud y donosura asilan luego un alma ardiente como su sol, alma que enciende sus miradas y vivifica sus palabras hasta que con los ojos y la boca nos abrasan el corazon… Pero no, condesa, no asi repliegue V. sus facciones con desdeñoso disgusto. Esa es otra propiedad de las andaluzas: pudorosas como la sensitiva, mudas y espresivas á la par muestran su timidez al mas leve contacto… Mas como V. se ha enojado, mi señora condesa, le soy deudor de una aclaracion que atañe á mi proceder de caballero.</p>
+<p>—No, Gustavo; puede V. escusarla sin ofensa de entrambos.</p>
+<p>—Eso no; mi sincera amiga la condesa me permitirá la diga que no he sido yo nunca víctima de sus encantos. Soy ya viejo por desgracia, condesa; y los hombres, ó por la índole del sexo, ó por nuestra condicion en la sociedad, á los treinta años dejamos de adorar el amor para disfrutar la hermosura; de suerte señora, que lejos de considerarnos víctimas, podemos antes ser reputados como sacerdotes, que inmolamos á las mujeres en su tierna edad nubil sobre las aras de nuestro capricho.</p>
+<p>Teresa examinó el rostro de Gustavo, sorprendida al ver que espontaneamente confesara ser ya viejo; y con un cambio rápido, derramó una indagadora ojeada sobre la encanecida frente de su marido; Gustavo aparentó no haberlo notado, y prosiguió con tono afable:</p>
+<p>—Solo conozco dos víctimas inmoladas á la <emph>escelencia</emph> de mi señora la condesa.</p>
+<p>—Gustavo! Por mí nadie es infeliz… sopena de serlo yo tambien toda la vida.</p>
+<p>—Esa es la tristísima realidad, señora. Una víctima es en efecto la misma Teresa… otra…</p>
+<p>—Pronto! que vienen! por Dios!</p>
+<p>—Otra?… Fernando.</p>
+<p>En este momento volvia intempestivamente doña Luisa, y Gustavo tuvo que cederle la silla. Levantándose ya, dijo este á Teresa:</p>
+<p>—¿Bailaremos el primer rigodon, condesa?</p>
+<p>—Sí, dijo la desposada con espresion melancólica.</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009004">
+  			<head>CAPITULO CUARTO</head>
+
+<p>Doña Luisa se sienta junto à su hija; los ojos le chispean; está inquieta, los carrillos le abrasan, y agita un primoroso abanico que fué moda medio siglo decimo octavo, que los cincuenta años siguientes fué un mueble sin uso, que á principios de este siglo fué ridículo disfraz en las máscaras, y que hoy es elegancia en los estrados. Este abanico chinesco, capaz por su gran vela de dar movimiento á una lancha, no es bastante sin embargo á refrescar la encendida cabeza de doña Luisa. La señora, no cabe duda, que está recien mordida del histérico, falderillo hidrofóbico que las mujeres abrigan yo no se donde.</p>
+<p>Cuantos adviertan que doña Luisa habla consigo misma y de labios adentro, diran que reza, y en efecto aciertan, pues aunque lo que hace doña Luisa es murmurar, son las murmuraciones mentales oraciones enderezadas al diablo.</p>
+<p>Ya no le es posible reprimir por mas tiempo la bilis que le rebosa, ni guardar el secreto que la abruma, y va gradualmente levantando la voz y diciendo:</p>
+<p>—¡La desvergonzada! La puerca! que se pinta hasta los dientes, con mas trampas que horas tiene un mes… Yo le aseguro!…</p>
+<p>—¿Qué le sucede á V. mamá?</p>
+<p>—Yo le aseguro á la muy fea, que si no está en esta casa, oye las siete verdades.</p>
+<p>—Pero, mamá mia! ¿Qué es eso?</p>
+<p>—¿Qué ha de ser, hija? La media almendra de la marquesa de B… que no parece sino que en su vida ha roto un plato… ya! ya!… ¡Cuidado con que la beses al despedirte, niña! Te lo prohibo!… y te permito solo que hoy por hallarse en tu casa la saludes, pero que sea por última vez. ¡Cuidado!</p>
+<p>—Señora! ¿Qué es lo que ha sucedido?</p>
+<p>—Has de saberte que esa melindrosa, que se anda en la cara con la mano de gato, de la que dicen lenguas que tiene un hijo que heredará de su marido, pero no de su padre… ¡Vamos, estoy que trino! Has de saber, Teresa, que como no la sacan á bailar, ha formado corro con la sesentona duquesa de H. y la coja Baronesa de C, y como á mí no se me escapa nada, me pareció que hablaban de tí, y escurriéndome por detras de los hombres, me acerqué á ellas pasito á paso, y oí que decia la muy remilgada. que Dios sabe si es hija de algun lacayo, oí que decia: <emph>¡miren qué hueca está la comercianta! Si creerá que por dar su juventud y su oro á un</emph>… ¡Vamos! no le lo quiero decir.</p>
+<p>—Prosiga V. mamá.</p>
+<p>—Decia la medio calva: <emph>¿si creerá que por dar su juventud y su oro á un viejo ha trocado su sangre? ¿Miradla, miradla qué hueca!</emph> Y te miraban, hija; y se reian; y la coja respondió: <emph>el que no está hecho á bragas…</emph> Bien que señalada por la mano de Dios habia de ser… ¡Niña! que no las beses!</p>
+<p>La impresion física de Teresa fué totalmente distinta de la de su madre; se puso pálida como la cera, y languidecieron sus brazos.</p>
+<p>La música anunció en esto los primeros compases de un rigodon, y Gustavo tan puntual como obsequioso, llegó á presentar su mano á Teresa.</p>
+<p>Como el salon es regio, las parejas están con desahogo, á bastante distancia las unas de las otras.</p>
+<p>La casualidad dispuso que frente á Teresa bailara la marquesa de B. con uno de esos hombres, que, como yo, son con frecuencia mártires en la sociedad. Digo esto porque aquel se dejaba conocer que no tenia maldita la voluntad de bailar con la marquesa; pero lo hizo movido por una indicacion del dueño de la casa, que la habia oido sin duda quejarse de la falta de cortesía de nuestra juventud.</p>
+<p>Las mujeres dijiéren mejor el acero que los treinta años; la marquesa tiene treinta y cuatro, y no ha sido nunca ni siquiera <emph>bonita</emph>. No es pues estraño que se lamente de la inhumanidad con que los jóvenes la tratan; porque la verdad es que el mozo mas filantrópico se convierte en un Marat, ó mas bien en un S. Anton para con las feas.—Y ahora me ocurre decir, aunque no sé si soy el primero en emitir esta opinion, que la fealdad es una secuela del pecado original que no lava el bautismo. El dinero suele en este <emph>siglo positivo</emph> dar á las imperfecciones fisicas cierto barniz que deslumhra: las aguas del Jordan no bastan á tanto; pero las mugeres feas que compraron marido, podrán decirnos si este <emph>barniz</emph> dá cumplidas todas las consecuencias que deben emanar del matrimonio, no digo conforme al amor (no exijo tanto), sino conforme siquiera á lo prevenido por la iglesia… Quédense escritas estas consideraciones, puesto que salieron al paso, y voy á <emph>ceñirme á la cuestion</emph> antes que salga un lector á darme en rostro con este moderno conjuro parlamentario, que me horroriza como la presencia del verdugo, desde que cierto presidente del Cogreso de Diputados me ahogó al nacer mi hijo primogénito que se anunciaba robusto cual cachorro de leon, y quedó aplastado como una ostra entre la lengua de dicho presidente y el badajo de su campanilla.</p>
+<p>Gustavo y Teresa que forman pareja de cabecera, han permanecido en silencio.</p>
+<p>La música rompe; las manos se elevan y se enlazan; deslízanse los pies y los grupos de preferencia dan concluida la primera figura.</p>
+<p>Mientras las parejas colaterales se ajitan, las de cabecera reposan; y estos intervalos de descanso forman, como si dijeramos, una página leida á trozos, que pertenece esclusivamente ó á la galantería ó al amor. Las madres suelen no estar de acuerdo con eso de salir á bailar para estarse quietos en cuchicheos; pero aun con mas severa crítica que las madres combaten la tal costumbre los maridos, porque dicen, y con razon, que como costumbre no pueden oponerse abiertamente á ella, y de tolerarla en sus mujeres se produce tambien un daño. De manera que del tal baile frances les resulta á los casados lo que en las escuelas llaman <emph>ángulo cornuto</emph>.</p>
+<p>Gustavo, como está persuadido de la curiosidad que el suspenso diálogo anterior debió producir en Teresa, aguarda confiado que ésta le suscite de nuevo la conversacion para entrar él desde luego abusando de la posicion humilde en que se coloca toda muger que <emph>dá margen</emph>.</p>
+<p>Y he aqui otra situacion moral que tambien deslinda los sexos como las edades.</p>
+<p>Teresa en efecto llena de esa curiosidad tan peligrosa, que suele arrastrar al delito las mas sensibles y honestas mugeres, anhela que Gustavo aclare sus ya tormentosas dudas; y al propio tiempo, tímida como el reo ante el juez de su causa, no se resuelve á proferir palabra, tal vez porque no se lea en su corazon.</p>
+<p>Ella combate consigo misma; Gustavo lee en efecto en su alma trasparente, como el médico en las pulsaciones de un enfermo: <emph>cuando la muger lucha está vencida</emph>, dice no sé qué filosofo.</p>
+<p>Ya casi abocada la segunda figura, se atrevió Teresa con natural ò pretestado motivo, y abrió el diálogo diciendo.</p>
+<p>—¡Con qué aficion baila aquella señora!</p>
+<p>—Sí, condesa; baila como comen los hambrientos: á dos carrillos y fin reparar en los circunstantes.</p>
+<p>—Es muy esacto… Está en ridículo.</p>
+<p>—V. se rie de ella.</p>
+<p>—No tengo ganas, y á pesar de todo me rebosa la risa sin querer.</p>
+<p>—Pues esa dama es nada menos que la marquesa de B.</p>
+<p>—Ya la conozco.</p>
+<p>—Es ademas vizcondesa de F., baronesa de Y., grande de España de primera clase, hija de un duque, y no sé cuantas cosas; y á pesar de todo, condesa, con ir tan cargada de títulos, no es mas que un <emph>hazme reir</emph>, como V. opina; y lo será siempre aun cuando mañana salga con un heraldo delante que á viva voz publique sus blasones. ¿De qué le sirve tanta prestada grandeza á esa pobre mujer?… ¿Cambiaria V., Teresita, una sola pestaña de esos rajados ojos por una rosa artificial para la frente?</p>
+<p>—Ah! no, á fe mia.</p>
+<p>—Pues esos son los blasones: florones que como las onzas de oro se cuentan uno á uno; monedas hoy dia sin valor intrínseco; flores inodoras, que cuando fascinaban con su brillo iban eslabonándose entre sí, formando coronas como círculos sociales hasta que los reyes envidiosos las arrebataron de las frentes de los nobles para formar de todas una que amoldase bien á sus sienes A ejemplo de los reyes, pronto dejaron los pueblos de respetarlas; y ya ni unos ni otros las derriban porque las desprecian todos.</p>
+<p>Al pronunciar Gustavo sus últimas palabras, Teresa, el ángel que se sentia caer del cielo de su fantasia, abatió la vista, pero afortunadamente vino otra pantomima, ó séase la segunda figura del rigodon, á causar un efecto tal como si un mico se introdujera en la escena cuando Orestes desgarra el corazon á Clitemnestra.</p>
+<p><foreign xml:lang="FRA">En avant deux</foreign>, previno un elegante á Gustavo, y en aquel instante se deslizó este por entre el aire y la alfombra como un vaporoso íncubo; y la marquesa de B. se agitaba en frente con descompasados brincos, parecidos ni mas ni menos, á los que ví dar á un pabo que cierto piamontés hacia danzar al son de su organillo sobre una lata caliente.</p>
+<p>Dió fin la figura, pero Teresa sentia la necesidad de quejarse.</p>
+<p>—¿Por qué, Gustavo, por qué será que cuando V. me habla me entristezco tanto, tanto!</p>
+<p>—Teresa, querida amiga mia, al hombre franco suele confundírsele con el grosero siempre que se le juzga por meras impresiones recibidas, pero á mí concédame V. tan solo la primera cualidad… Ay!… Vá V. á ingresar en una sociedad que le es desconocida. Esa derrotada tropa de orgullosos querrá que se siente V. en el anfiteatro de las categorias al pié de todos como el último recluta, y yo, derribándoles la máscara con que prestigian, quiero que desde el primer dia rompa V. por entre los escombros y las brechas del castillo gótico, no para empuñar su bandera feudal, sino para presidir como <emph>reina de la hermosura</emph> á sus <emph>fembras</emph> en los salones, y como señora de la riqueza á sus <emph>varones</emph> en los festines.</p>
+<p>—No alcanzo todo lo que V. me ha dicho, pero vislumbro un lujo de lisonja hácia mí que me ruboriza.</p>
+<p>—Harto conozco que no se halla V. penetrada de su mérito… pero preguntémoslo al conde, señora. No sea yo el juez si asi se quiere; preguntémoslo á hombre de edad avanzada; al que ya no necesita adular á la hermosura para rendirla… Digámosle ¿cuanto vale la modesta hija del capitalista indiano? y verá V. cuan enfático responde: <emph>“¿Ah! es un anjel que vale todo un condado!”</emph>—Si entonces me fura permitido replicarle, yo le diria: ¡mas vale! ¡mas vale, anciano, ese anjel que dejó el cielo de su gloria para velar el lecho de tus dolencias!…</p>
+<p>—Hable V. conmigo y de mí, pero deje V. al conde Gustavo.</p>
+<p>—Ah! ¡Si le dejaran á él sus remordimientos como yo le dejo! Teresa, la hija del honrado capitalista era conocida de todos, arrastraba la admiracion de todos, todos la señalaban donde quiera, y un conde te confunde, si es jóven con su <foreign xml:lang="ENG">Yocquey</foreign>, y sí viejo con su mayordomo.</p>
+<p>—Teresa llora: ¡por piedad, Gustavo!</p>
+<p>—Tambien lloran por Teresa.</p>
+<p>¡<foreign xml:lang="FRA">La poule</foreign>, Señores! <foreign xml:lang="FRA">la poule</foreign>! y se bailó la poule, y luego la <foreign xml:lang="ITA">pastorelle</foreign>, y tras esta la <emph>trenis</emph>, y dió fin el rigodon sin que Teresa alzara de la alfombra sus lagrimosos ojos.</p>
+<p>¡Vuelve junto á tu madre, temblorosa virgen, á quien el rayo del arrepentimiento amenaza surcar la frente!! vuelve á tu asiento; repara en las velas y responde á tu corazon, si ahora quisieras que el baile hubiese durado tanto. Ay! ¡con qué lentitud han ardido las luces, mientras que tú has corrido tan largo trecho hácia la desgracia… ¡Virgen ahora! ¡Esposa mañana sin amor! ¡Plugiera á Dios que las presentes horas permanecieren fijas y no abriesen via á mas amargas horas! Tú, segunda Eva en la inocencia, vas á relevarte el misterio conyugal; ese ay tardio, ese fatal misterio de donde brotaron las generaciones maldecidas, y que ya no pende de un arbol, guardado dentro de una fruta sazonada; sino que se encierra entre dos sábanas mas ó menos blancas, mas ó menos finas, pero siempre áridas y monótonas á la vista, como alegorias de un viaje por el desierto, como los símbolos de una obligacion… <emph>¡única! eterna!</emph>…</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009005">
+  			<head>CAPITULO QUINTO</head>
+
+<p>Una paloma torcaz que rompe el vuelo desde el campo en que con sus compañeras apacenta, se lleva la banda entera tras de sí; y esta accion instintiva y peculiar á todos los animales que viven en familia, es de medrosa precaucion en los irracionales, pero en la especie humana es un germen de esclavitud innata que irremisiblemente nos impele á obedecer al mas osado.</p>
+<p>Aunque parezca denigrativo confesar que en casa del conde obedecimos todos á una vieja, yo he de referir las cosas como al pie de la letra sucedieron.</p>
+<p>A las tres de la madrugada la duquesa de N. se puso en pie, levantando al propio tiempo su manton del respaldo de la silla, y en aquel instante se dispusieron á seguirla sus siete hijas, tan lindas, brilladoras y parecidas entre sí como las siete cabrillas celestes. Ocho amantes y un marido, abreviando las fórmulas de despedida corrieron á anticiparse á la escalera; y el mas joven de todos los galanes dió la mano á la duquesa.</p>
+<p>La señal de la disolucion estaba dada; la música no centralizaba ya la accion de aquel motin; no habia madre que no buscara de veras á su hija, ni hija que no aparentara buscar á su madre: los esposos se unieron á sus respectivas mitades; los hombres sueltos iban casi todos en pos de las mujeres acompañadas; el conde, su esposa y la suegra se deshacian en besamanos, y solo algunos tenaces, espíritus rebeldes gritaban <emph>¡cotillon! cotillon!</emph> y en efecto dió principio; pero acabó de inanicion á poco rato. Marcharon todos, y los dueños de la casa se adelantaron hasta la escalera, prodigando sus últimos cumplidos.</p>
+<p>Amortiguadas ya las luces quedaron solitarios, abrasando y llenos de espesa bruma los ambitos aquellos; solo Gustavo espera, plantado en mitad del opaco salon, á semejanza de Cain, el primer condenado, bajo las bóvedas del infierno.</p>
+<p>Apenas sintió los pasos de los desposados salióles al encuentro, abrazó tiernamente al conde, dió un espresivo parabien á la condesa, y partió.</p>
+<p>A mí me ha parecido igualmente que debemos mi lector y yo dejar la casa del conde.</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009006">
+  			<head>CAPITULO SEXTO</head>
+
+<p>La noche se borra desleida en las primeras tintas de la aurora.</p>
+<p>Gustavo entra de súbito en su cuarto, y encuentra á Fernando en la misma silla, en la misma actitud, en la abstraccion misma que lo dejó.</p>
+<p>Las rejas abiertas como estaban, las ropas abandonadas en el desorden que quedaron, la cama sin el menor desaliño; todo esplica que la mano del hombre en aquella estancia no ha destruido sus obras anteriores. Alli de cuanto existía solo ha perecido una luz, que se conoce acabó consumida en sí propia, porque el tubo de cristal se vé roto por efecto de la última llamarada.</p>
+<p>Suspensos y en pie, se miraban uno frente al otro los dos amigos cual si tuvieran las pistolas amartilladas, y las leyes del honor les mandaran tirarse contra las leyes del corazon.</p>
+<p>Pasados algunos instantes se adelanta Gustavo á su compañero y pasándolo la mano sobre el hombro le dice.</p>
+<p>—Alienta, amigo! que esa mujer es tuya.</p>
+<p>—¡Qué! No se ha casado! Influyó la nobleza! Ha muerto el conde!… Mi última esperanza se habrá cumplido!… Ah! ni me atrevo á esperarlo… pero dime, dime…</p>
+<p>—No tal… pero como el conde no ha de tragar… se á su mujer</p>
+<p>—¡Tu boca es el infierno!… ¡A su mujer, y dijiste que era mia! ¿De donde vienes, Gustavo?… ¡Has vuelto para asesinarme! ¿Por qué me esperanzaste á tu salida? Ah! de otra suerte, yo hubiera dado un paso á la quietud eterna.</p>
+<p>Fernando se llevó con arrebato las dos manos à la frente y volvio á caer desplomado sobre la silla. Gustavo, que continuaba hablándole con estraordinaria calma, prosiguió:</p>
+<p>—Vengo del baile</p>
+<p>—Díme, ¿estaba ella?… Estaba el conde?… Tú has estado con ellos… entre ellos… sin perderlos de vista ?… Queda allí mucha gente?… Ya me has visto, Gustavo. No me moveré de esta silla… Vuélvete, corre allá… Vuélvete pronto… No los desampares!… Corre, corre, que me asesinas aquí!</p>
+<p>—Venga del baile, y si no hubiera hecho mas que vijilar á una mujer, poco tendrias que agradecerme; pero misionero de una doctrina, no la mas evanjélica por cierto, he convertido el alma de Teresa hasta el punto que lloraron de fervor sus ojos. ¿Y por quién dirías tú que lloraban?…Por tí, Fernando mio: por tí, en la ocasion mas peligrosa de su vida, ha llorado la encantadora Teresa. La fortaleza es tuya; alienta! alienta! que en mí tienes al condestable de Borbon asaltando la ciudad santa de Roma para que la posea Cárlos V… El conde ocupa aquí el lugar del Papa. Díme tú ahora si Roma es de su Santidad ó del Emperador que la conquista.</p>
+<p>—¡Lloró por mí, cuando era tarde ya!… Pero ahora, ahora ¿quién queda allí con los dos?… ¿Quién está entre los dos?…</p>
+<p>—Como dió fin el baile…</p>
+<p>—¿Qué fué?</p>
+<p>—Quedaron solos.</p>
+<p>—¡Y los dejaste tú! ¡Maldito seas!</p>
+<p>Fernando dió un salto de tigre hácia la puerta, pero su padecer habia formado crisis, faltáronle las fuerzas, y cayó accidentado sobre los ladrillos.</p>
+<p>Gustavo cargandoselo á cuestas, lo trasladó á la cama. Alli un furioso delirio embargó sus sentidos.</p>
+<p>Y los que hayais pasado por este trance, el mas cruel de la vida, vosotros los que con oido alerta, con encendidos ojos hayais contado, instante por instante, toda una noche de placer para nuestro rival con la mujer que os arrancó de los brazos y no del corazon, vosotros conocereis, y nadie sino vosotros, que la pérdida de la razon viene á aliviar al hombre en estos caso?</p>
+<p>Ay! que á mi me pusieron en ese tormento doce años há, y aun se estremecen todos mis miembros cuando la bálbula de la memoria se abre para que brote el infernal recuerdo.</p>
+<p>Asi es que no quiero dar una plumada mas en este capítulo; soy dado á las comparaciones, y acaso imprudentemente haria alguna alusion á quien las tempestades de mi vida solo me permiten querer como si nos hubiesemos nutrido en un mismo seno.</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009007">
+  			<head>CAPITULO SEPTIMO</head>
+
+<p>Una nacion que se revoluciona, y una sociedad que se disuelve, se asemejan tanto en ciertos periodos, que el filósofo llega á dudar cual sea el síntoma dominante.</p>
+<p>En uno y otro caso los mas sagrados vínculos se rompen; domina la ambicion; piérdense las creencias; las pasiones imperan; la ley sucumbe; se esconde la virtud, y la osadia triunfa de la razon y la esclaviza.</p>
+<p>En uno y otro caso, ningun interes, que salga de su individualidad aislada, mueve al hombre, y le parece que cuanto sus semejantes poseen puede á poca costa ser suyo; los medios comunmente empleados para conseguir en uno y otro caso son la violencia ó la intriga.</p>
+<p>Los hombres en las revoluciones convierten á sus semejantes en instrumentos de venganza, al paso que propalan la filosofía humanitaria cuando jamas la practicaron menos.</p>
+<p>Desde el momento en que la revolucion infesta á un pueblo, se ofrece este á mí bajo el aspecto de un joven en la adolescencia contajiado por la viruela.</p>
+<p>Por todas partes quiere brotar su irritada sangre, agolpandose á la superficie en asquerosas formas.</p>
+<p>Los miembros se estorban unos á otros el reposo, y como con fruicion de desgarrarse aquel hombre, las uñas únicamente le viven sanas para herir en la carne que las nutre.</p>
+<p>Su cuerpo es pestífero como un campo de batalla.</p>
+<p>Sus vecinos le niegan auxilio por eludir el contacto, como huian los hebreos del Lázaro de la Biblia.</p>
+<p>Y por último: ó se presenta la muerte y disuelve al joven, ó huye la enfermedad y convalece; pero tan borradas estan sus formas primitivas que todos dicen al mirarle: <emph>¡aquel hombre há padecido!</emph></p>
+<p>Y el hombre al mirarse en el espejo, como las naciones en la historia, quisiera haber nacido sin uñas; de la misma manera que quisieran los desgarrados pueblos no haber nunca conocido las armas.</p>
+<p>Las facciones que mas se borran con la viruela son las mas pronunciadas, las mas características, como por ejemplo las del rostro. Y lo mismo acontece á los pueblos con las revoluciones. En nosotros tenemos el ejemplo. El clero y la nobleza formaban la faz de nuestra república, que en el ardor de su fiebre ha esgrimido los <emph>brazos</emph> contra esta parte de su propio cuerpo que tiene ya mutilada.</p>
+<p>¡Ay de la humanidad! ¡Cuantas veces desmiente su nombre por conservar un pacto irrescindible entre los pueblos y el tiempo!</p>
+<p>Si la contra-revolucion de España hubiese partido del centro á la circunferencia, en vez de lo que al contrario ha sucedido; si en el riñon de la monarquía y desde la residencia de la corte hubiese partido el pronunciamiento carlista, yo no sé si toda la parte de la nobleza que se encuentra hoy ligada á los intereses constitucionales, lo estaría. Pero los nobles sumidos en una abyeccion y reprensible inercia de tres siglos á esta parte, gozaban de la molicie de sus alcázares cuando el grito de <emph>guerra!</emph> resonó entre las breñas allá en los Pirineos, á punto que el síntoma de libertad asomaba en la capital.</p>
+<p>Sin prever muchos de ellos las consecuencias de un principio germinador en el estado llano, se adhirieron á formar parte de un simulacro de gobierno representativo que creían sin duda firme y estable. Pero á medida que el embrion de la democracia va desarrollandose, muchos antiguos nobles que proscribieron del trono la sucesion del pretendiente, anhelan ahora en su corazon que D. Carlos triunfe y empuñe el cetro.</p>
+<p>El Conde, antiguo favorito de Fernando es uno de tantos; pero como muchos otros se contenta con <emph>querer y aguardar</emph>.</p>
+<p>El pueblo empieza á colocar la juventud al frente de sus intereses, y Fernando representa una provincia en el Congreso de Diputados.</p>
+<p>La ambicion levanta una calumnia contra el conde; la inmoralidad la favorece, la pobreza forma testigos falsos, y hé aqui á este personage acusado de un delito contra el estado. Un calabozo le hospeda; su esposa pasa los dias asida á las rejas deshonrosas de una carcel; Gustavo inquiere, corre y entera á Fernando de los trámites que ha llevado la columnia, habla á su juventud, estimula su generosidad, ilumina su razon; Fernando marcha; se apodera de la tribuna parlamentaria; usa de la palabra para defender los derechos de un ciudadano. Teresa, la angustiada esposa, está con Gustavo en otra tribuna reservada, y sus ojos se encuentran con los de Fernando. Toda la esperanza de Teresa se cifra en el joven arrogante que inspirado por la deidad de sus amores, y elocuente como un Mirabeau, lleva tras sí los aplausos de la multitud. Un ministro se levanta á responder desde el banco negro que el acusado será puesto en libertad.</p>
+<p>En aquel instante Teresa hubiera empapado en besos las manos y el rostro de Fernando; pero el mancebo, apenas pronunciado su discurso, se retira acometido de su natural melancolía, y sin cambiar siquiera una mirada con la que nunca le habia amado tanto.</p>
+<p>No conozco mas que dos séres capaces de morir por entusiasmo, y son: el caballo y la mujer.</p>
+<p>Deja Teresa el salon de Córtes para subir al coche, y apéase de allí á un momento en la carcel.</p>
+<p>—¡Estás en libertad! dice abrazando á su esposo. Y el preocupado conde apenas acertaba á persuadírselo.</p>
+<p>De alli á dos horas un elegante landó paró á la puerta de la casa de Fernando; apeóse y subió la escalera un caballero que tenia la cabeza gris; llamó á la campanilla; le fué respondido que el <emph>señor</emph> no recibia, y entonces el caballero dejó una tarjeta con la punta doblada, que decia: el conde de X.</p>
+<p>Al día siguiente, serian las tres de la tarde, cuando Fernando y Gustavo entraban de visita en casa el conde de X.</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009008">
+  			<head>CAPITULO OCTAVO</head>
+<p>Hay en la casa del conde de X, alli inmediato á la alcoba principal, un elegante gabinete de forma circular que tiene dos entradas y un alegre mirador; está vestido este gabinete del mas delicado papel de raso, de la estera de junco de mas precio, y lo adornan entre grandes marcos dorados los mas escogidos cuadros de <emph>Horacio Vernet</emph>. Cinco son los cuadros de este pintor, y al nivel de ellos cae verticalmente sobre una chimenea francesa otro cuadro bordado en cañamazo que representa una joven jugando con un perro. Esta pulcra y prolija obra de las manos de Teresa forma un vivo contraste con la arrogancia varonil que campea en los lienzos del artista francés.</p>
+<p>En el centro del lindo gabinete se halla un velador octagonado cubierto con rozagante tapete color de café, matizado de flores blancas y arabescos; sobre dicha mesa se ven varios periódicos, muchos figurines de moda, un album, y encuadernado en finisima pasta hay tambien un cualquier tomo de una cualquiera de nuestras llamadas novelas modernas, que son crónicas refundidas.</p>
+<p>Hay espejos, reló, y taburetes; sobre una mesa <emph>consola</emph> se ven mil dijes y figuritas de china, y debajo de ellas hay una cestita de mimbres, dentro de la cesta un lecho de algodon en rama, y dentro el lecho un perrito lanudo de tamaño de un huevo de avestruz, que el dia siete del mes que viene cumple dos años, y sin embargo no ha salido nunca de su casa á pie. Hay muchas cosas primorosas en este gabinete, todo distribuido con el mejor órden, escepto las cómodas butacas americanas que estan repartidas acá y allá con estudiado descuido.</p>
+<p>Me he detenido un poco en bosquejar el apartado gabinete del Conde, porque es la habitacion favorita de Teresa.</p>
+<p>Allí ningun criado se propasa á entrar sin pedir muy de antemano un respetuoso permiso; es para ellos aquel recinto un lugar casi sagrado, á la par que miran como profanos los restantes sitios de la casa y obran en ellos à su antojo como si pertenecieran exclusivamente á tales enemigos domésticos.</p>
+<p>Las doce y poco mas de la mañana serian cuando Gustavo se entró de rondon en el cuarto de Teresa…………</p>
+<p>Yo no sé en lo que consiste, pero hay ciertos hombres que no parece sino que llevan en el rostro una <emph>patente de abusos</emph>: ellos se introducen en todas partes, no respetan las fórmulas establecidas, se familiarizan al momento, captan por lo comun las voluntades, pero si no las captan tampoco les importa; son exigentes siempre, sumisos algunas veces y serviciales con frecuencia, hasta pecar en oficiosos.</p>
+<p>Suelen estar dichos hombres dotados de intencion y perspicacia, y como por razon natural saben la vida privada de todo el pueblo en que viven como huespedes de todas las casas, llevan á los oídos de media poblacion los hechos de la otra media, y <emph>vice versa</emph>, siendo esta última una de las propiedades que mas necesarios los hacen, porque la crítica sorda es el pasto espiritual de las familias honradas.</p>
+<p>En Madrid abundan mas que en ninguna parte estos familiares, para quienes no hay criados en las casas, ni porteros en las oficinas del gobierno, ni ugieres en el palacio real &amp;c., que no quiero ocuparme mas de semejantes sugetos que si yo los desprecio, ellos se rien de mí y me llaman falto de mundo.</p>
+<p>En honor á la verdad, Gustavo tiene solo de estas gentes, la osadia; pero lejos de ser futil y chismoso es perspicaz, sentencioso y grave cuando conviene.</p>
+<p>Decia que las doce y poco mas de la mañana serian cuando Gustavo se entró de rondon en el cuarto de Teresa, sin darle mas tiempo que para cerrar precipitadamente el album, en que sin duda leia, y pasarse el pañuelo por los ojos. La cárdena huella del pesar se vé estampada en los párpados de la condesa; ya no es la virgen de los amores ceñida de una aureola de sonrisa; es la esposa que llora en secreto.</p>
+<p>Sin amiga ninguna, porque no la hay que merezca saber el terrible combate de su alma, habla á la soledad de su retiro; y mas de una lágrima resbalada por sus pálidas mejillas, ha lamido el perrito cariñoso de pocos dias á esta parte.</p>
+<p>Una túnica blanca, ceñida por un cordon á la cintura, forma el traje total de la condesa; pero como la muger es mas bella á medida que mas arropa sus formas naturales; y como el blanco lino envuelve tanta idealidad, parece un cisne que flota dormido sobre las ondas de un lago.</p>
+<p>Ningun hombre vé el deshonor bajo un aspecto tan formidable como las mugeres cuando lo combaten. Miran ellas el edificio de la sociedad que entera viene á descargar su pesadumbre sobre sus flacos corazones, y entonces mas entusiastas que el hombre, porque el hombre se entusiasma solo por las alabanzas, salvan la sociedad, manchan su fama y desprecian hasta la vida por gozar un leve instante la realizacion de sus ensueños de amor.</p>
+<p>Las mugeres tienen dos condiciones opuestas, una con que nacen, y otra que les impone la tiranica vanidad del varon. Cuando la condicion natural, y la naturaleza facticia luchan en sus entrañas se las ve perder la hermosura, se ajan por momentos, se consumen palpablemente; no tienen calentura, y no les duele nada porque les duele todo su ser. La compasion agena las agrava porque les escita la sensibilidad y no se puede menos de consolarlas, y de sentir por ellas y con ellas; en una palabra, son las criaturas mas dignas de lastima, porque viven sin amparo, solas sobre el pàramo del mundo, y no parece sino que una serpiente las fascina, sorbiéndoles la vida con lentitud.</p>
+<p>Apenas entró Gustavo procura sonreirse la condesa, pero este frívolo fingimiento es inutil á los ojos penetrantes del filósofo.</p>
+<p>El caballero hubiera aprovechado ocasion tan oportuna á sus fines, pero el conde que desde la alcoba le oyò saludar, salió á su encuentro atraído de su voz y para conversar un poco, porque había cobrado á Gustavo notable aficion.</p>
+<p>Presentóse S. E. como de casa, en traje de bata, con follado pantalon de cuadros grandes, y sin tirantes; con holgadas pantuflas amarillas venidas de Marruecos; con la camisa de ayer noche, con la barba de ayer mañana, y sin corbata. Es cierto que S. E. iba á afeitarse, lavarse, peinarse, vestirse y pulirse en aquel momento mismo para salir de visita; pero aun hecha esta salvedad, concédaseme que por lo pronto estaba en ridículo á los ojos de su muger.</p>
+<p>Habilidad casi superior á la posibilidad humana necesitan en mi juicio los maridos para evitar este escollo del matrimonio, conciliando los goces de la vida doméstica.</p>
+<p>El hombre! nacido para el respeto! el hombre! que Dios formó desnudo á imagen suya, y que lo disfrazó luego el pecado, cuando se presenta en bata ó en calzoncillos ofrece la mezquina risible idea de un payaso, mientras que elegantemente portado es una hermosa ficcion.</p>
+<p>La muger propia que lo vé como Dios lo hizo, como lo tiznó el diablo, como lo enmienda el barbero, que lo oye cuando se queja, que lo cura cuando padece, lo sufre cuando regaña, y que junto á esto vé siempre elegante al hombre de puertas afuera, siempre atento, solícito, esclavo, que no se queja mas que para cantar amores como el ruiseñor… ¡la muger! ese concreto de vanidad y poesia, que vive en un mundo ficticio, decidme ¿podrá amar nunca la primaria realidad? No digo que las perdonen cuando delinquen, al contrario usen los hombres de sus derechos para con ellas, que yo no soy herético ni antisocial; pero hallo aqui un mar de reflexiones, donde zozobra mi razon.</p>
+<p>Al mismo tiempo nótese que la muger es tan redonda, tan tersa, tan mórbida, tan esbelta que una sencilla <emph>blusa</emph> le da elegancia, y sobre todo la muger no se afeita nunca que es el <foreign xml:lang="LAT">non plus ultra</foreign>, de la ridiculez.</p>
+<p>El conde, Teresa y Gustavo se reposaban en sendas butacas, y guardaban silencio, cuando Teresa exhaló un mal reprimido suspiro. Díjole entonces el conde:</p>
+<p>—Mujer, ¿te sientes peor?</p>
+<p>—No… pero déjame.</p>
+<p>—Ahí tiene V.,</p>
+<p>Dijo el conde, un si es no es amostazado, dirijiéndose á Gustavo:</p>
+<p>—Esta es su continua respuesta: <emph>déjame, déjame,</emph> y yo no sé qué hacerla; de noche no me deja dormir: se la vé que se consume; y si la preguntan, no le duele nada: tampoco nada la distrae, y llora sin fundamento; vamos, no sé lo que tiene, ni qué haga ya con ella. Crea V. que hasta he llegado á sospechar si serán síntomas… consecuencias del nuevo estado.</p>
+<p>La pundorosa Teresa se sonrojó como era natural: en vista de esto juzgó Gustavo que debia dar otro giro al lenguaje, y dijo:</p>
+<p>—Conde, puede que esa melancolía nazca de la separacion de su madre. Las mujeres aman mas que nosotros á los autores de su ser; recordará tal vez Teresita los besos, las caricias maternales; hallará su alma que le falta aquel consuelo que se recibe cuando el corazon se desabrocha en el seno de la familia que nos vió nacer. Déjela V., conde, que con mas frecuencia visite á su mamá; déle V. mas libertad.</p>
+<p>—No, señor: si no es eso; ni por pienso; si me ha dicho que en esta casa no la falta nada. Y si no, dínoslo, Teresa, ¿deseas algo que yo no te conceda?</p>
+<p>—Nada deseo.</p>
+<p>—Quiere V., conde, si Teresa dispensa mi proposicion, que yo me encargue de conocer dónde reside la causa que aflije á Teresa?</p>
+<p>—¡Hombre, y qué gran favor me haria V. en ello! Deseo verla contenta sobre todo. Mire V., yo ahora tengo que salir; hablen Vds., y V. procure con su talento vencer la nimia repugnancia que tiene mi mujer de decir la causa de su mal á su marido.</p>
+<p>—No sera obra tal vez de un solo dia.</p>
+<p>—Será de mas; pero como yo ya me confieso vencido por su tenacidad, lo pongo en manos agenas. Si continúa asi, crea V. Gustavo, que tendré que poner un catre junto á su cama, porque no duermo.</p>
+<p>—¡Pobre anjel!</p>
+<p>—Sí, pobre, y todo lo que V. quiera; pero pobre de mí tambien que hay noches que no pego los ojos… Vaya, adios, Gustavo, que es tarde, y aun me tengo que afeitar.</p>
+<p>Marchóse el conde, dejando voluntariamente á su mujer con otro hombre, á solas y sin temer nada, cuando no hubiera dejado á su rey y amo confiarse á otro palaciego sin mandato espreso del <emph>señor</emph>, y marcada repugnancia del humilde vasallo. Creo que tales gentes hay que no aprenden mas que un oficio.</p>
+<p>La primera dilijencia de Gustavo fue llegarse al velador, y apoderarse del album. Teresa se estremeció al ver esta accion; pero Gustavo, sin atender á ella, hojeó el libro con imperturbable calma y sangre fria, hasta encontrar la hoja firmada por Fernando. Aqui derramó por tres ó cuatro veces la vista, ya sobre Teresa, ya sobre el papel, ni mas ni menos que. como el que compara el original con el retrato. Teresa ni alentaba siquiera. En este momento era el criminal á quien se sorprende con el cuerpo del delito.</p>
+<p>—Esta página está mojada, Teresita.</p>
+<p>—Eh…? pues… no sé de qué.</p>
+<p>—De lágrimas, Teresa, de lágrimas de amor que cayeron una á una sobre las ya vertidas de los ojos de Fernando. Estas y aquellas, las del hombre y la mujer se han juntado, y aqui escribia, no ha mucho tiempo, el desechado amante: <emph>me miraste</emph> y <emph>llorabas como yo, cuando ya era tarde…</emph> Hé aqui como las mismas letras están borradas con el llanto de los dos.</p>
+<p>—¡Por Dios, no mas, Gustavo, no mas! ¡Que me siento morir!</p>
+<p>—Sí, están casi borradas; pero deben desaparecer del todo, porque no es tarde todavia.</p>
+<p>—¡La mujer del conde…!</p>
+<p>—La mujer del conde no ama á su marido.</p>
+<p>—¿Quién lo ha dicho?</p>
+<p>—Ella misma.</p>
+<p>—¡Mentira! ¡Mentira! ¿A quién?</p>
+<p>—A mí.</p>
+<p>—Deliraria entonces…</p>
+<p>—A mí me lo ha dicho la condesa sin pronunciar para ello una palabra, y á nadie mas en el mundo lo ha dicho. Repito que la mujer del conde aborrece á su marido, y si posible le fuese, odiaria tambien á su madre, porque la sacrificó á la ambicion de un nombre vano.</p>
+<p>—¿De dónde ha salido este hombre, Dios mio?</p>
+<p>—¿Yo, Teresa? Soy el fruto amargo del mundo; he recorrido con los ojos, con el entendimiento y con el cuerpo la gran pájina de la civilizacion moderna que se estiende en toda Europa: soy, Teresa, el fruto amargo del mundo, que leo en las almas desde que aprendí que hasta los lábios mas puros mienten la verdad; soy, Teresa, la víctima y el producto de la embustera sociedad en que vivimos, condenado al indiferentismo; pero no perfeccionada aun en mí la obra de la esperiencia, conservo sin gangrena una parte del corazon, que consagro á la amistad, y en ella solo caben dos seres que me atormenta verlos infelices por una quimera, por un fantasma que llaman honor.</p>
+<p>—¡Un fantasma…! ¡Es verdad! ¡Un fantasma que nos desgarra las entrañas, y nos anega los ojos en lágrimas, que me dice que muera, Gustavo, que me manda morir.</p>
+<p>—¡Pobre inocente! ¿Nada menos que morir? ¿Y por quién? ¿Por el conde sin duda? Por el conde que la deja á V. á solas con un hombre que asi como á él le gusta, pudiera también gustar á su esposa? ¿Morir la hermosa que con su muerte arrancaría otra vida tan preciosa como la suya? ¡Qué locura! Vengar la ofensa del desprecio es la ley del débil contra la arrogancia del fuerte.</p>
+<p>—¿Y fue menosprecio del conde dejarme aqui á solas…?</p>
+<p>—Yo de mí sé decir, que si poseyera un ánjel, como es V., jamás lo soltaria de la mano temiendo se me volara, y mucho menos la entregaría á otro hombre, y menos aun mil veces siendo este hombre mas joven que yo… Desengañémonos; es un desprecio, consecuencia natural de la edad… Sí, no me mire V., <emph>de la edad</emph>; porque el alma de los viejos se convierte á la avaricia. Y sino, ¿cómo es que no me ha dejado el señor conde aqui encima de esta mesa las llaves de los cofres en que encierra ciertos millones que fueron de su mujer? No las ha dejado porque ama en mucho al oro; asi como se presta voluntariamente á abandonar el lecho de su esposa, porque la estima en poco: en una palabra, porque apetece el sueño. Ah¡¡Pobre inocente! ¿Y no la desprecia aun?</p>
+<p>—Sí, sí; voy conociendo que al menos no me ama, y se me ensancha el corazon… ¡Si V. viera cuánta necesidad tenia de esta revelacion, de esta verdad! Ya me siento mejor.</p>
+<p>—¿Y por qué, Teresa?</p>
+<p>—Porque me desprecia el conde. No acierto á ser injusta; y padeceria por él, si él padeciese por mí.</p>
+<p>—¡Y qué señora…! ¿Ha olvidado V. en esa justicia de que blasona, que el hombre que la idolatra está muriendo á causa de una ingratitud? ¡Ha olvidado V., yo no lo creo, que quien tan generosamente á su rival salvara de un patíbulo, espira en el suplicio de los celos…! ¡Es tan jóven aun…! ¡Ha poco era tan gallardo…! Y pálido y demudado ahora, solo alza los ojos para preguntarme: <emph>¿has visto á Teresa?</emph> Y á veces, aunque le conste que no me he movido de junto á él, me vuelve á preguntar: <emph>¿has visto á Teresa…?</emph> Yo no sé; pero creo que vivirá poco.</p>
+<p>—Cómo…! Qué…! ¡Tan malo está…! ¡Dios mio…!; Dadme fuerzas, Dios mio!</p>
+<p>Estas últimas palabras las dijo Teresa en tono bajo, como para Dios y su corazon, á tiempo que los ojos, por ser la parte mas débil de la mujer, se la anegaron en llanto. Gustavo se mostró tambien enternecido, y le dijo:</p>
+<p>—¡Ay, Teresa! Vuelve V. á llorar por él. Esas lágrimas caerán como un rocío sobre el corazon del desgraciado. Yo le diré que V. ha llorado de amor, y él se aliviará al momento.</p>
+<p>—No! ¿Qué vá V. á hacer…? No, no. De amor, no!</p>
+<p>—¿Pues de qué?</p>
+<p>—De compasion…</p>
+<p>—Tampoco es verdad. Las lágrimas esas son de amor.</p>
+<p>—¡Qué! ¡Me insulta V., Gustavo!</p>
+<p>—Sí, de un amor mas poderoso que un juramento y superior á toda resistencia.</p>
+<p>—¡No se lo diga V. á él!</p>
+<p>—Obedezco; pero… á mí me lo confiesa V.</p>
+<p>—¡¡Gustavo!!</p>
+<p>—A mí que acabo de depositar secretos en el seno de la amistad; á mí que me intereso por Vds., y no tengo otra ninguna aficion en el mundo.</p>
+<p>—A V., Gustavo…? á V. le diré… pero á V. solo, y para que nunca salga de su boca… ¡Ay! Soy mujer al fin…!! á V. le diré… que… amo á Fernando!!</p>
+<p>Y la pobre muchacha soltó á llorar rotas las riendas ya del disimulo.</p>
+<p>—Ahora bien, contestó Gustavo: el secreto queda en mí lo mismo que echado en un pozo. Pasemos á otra cosa. El amor puede ir digresando hasta quedar en amistad, siempre que se le conduzca por trámites prudentes; pero si lejos de esto se le ultraja ó se le violenta, es de tal naturaleza que produce la venganza ó la muerte. Ya que en nuestras manos está apartar estas desgracias, vamos á conjurarlas. Ante todas cosas; no se niegue V. abiertamente á recibir á Fernando. Debe V. hablarle una vez á solas, esponiéndole las causas que le obligaron á V. al matrimonio. Luego de esto presentarle V. su nuevo estado como un hecho, ocultando siempre… ¡cuidado con lo que voy á decir…! los defectos del conde, y rogándole por último que sea el concejero de V., el amigo íntimo y nada mas. Verá V. cuan pronto y fácilmente se consolida la amistad entre un hombre de veinte y tantos años y una mujer de diez y ocho. Nada mas fácil que digresar á este punto habiéndose querido antes, y pata dar principio, Teresita, mañana por la tarde vengo yo á buscar al conde so pretesto de sacarle á paseo. Esto se hará á las seis, y á las seis y media entrará Fernando.</p>
+<p>Todo lo que nos halaga el corazon, nos parece realizable; asi es que yo para mì tengo que aquello que llamamos esperanza, no es otra cosa mas que el deseo íntimo; supuesto que gran parte de las veces vemos que la tal esperanza no se cumple. Lo cierto es que á Teresa no solo le pareció admisible, sino razonable y hasta <emph>moral</emph> la proposicion de Gustavo; y bien séase porque este hombre la dominase, ó como es mas probable, porque en la proposicion encontrase ella la fórmula de su vago y hasta entonces indefinido sentimiento, se conformó á todo, y el dia siguiente quedó aplazado para una entrevista.</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009009">
+  			<head>CAPITULO NOVENO</head>
+
+<p>—Hermosa está la tarde.</p>
+<p>—Irémos á Chamberí.</p>
+<p>Dijo el conde à Gustavo despues de haber conversado despacio acerca de las ventajas que ofreceria el gabinete tory que se anuncia; porque de este modo no frustraria la Inglaterra los esfuerzos de la liga del Norte respecto á España.</p>
+<p>—Pues vámonos, que son ya las seis y cuarto.</p>
+<p>Repuso entonces Gustavo, y bajaron la escalera hablando de Metternich. Teresa se asomó al mirador, los siguió con la vista hasta que doblaron la esquina, y luego entrando en el gabinete, corrió á mirarse al espejo, conoció que estaba ajitada, y ensayó ademanes propios para afectar tranquilidad, se frotó las mejillas con el pañuelo á fin de escitar los colores, finjió luego una risa para la alegria, una sonrisa para la complacencia; no se descuidó en atildar de nuevo sus veleidosos rizos de azabache; hecho esto, tomó asiento en ademan altivo, y tres minutos por lo menos estuvo llena de una resolucion verdaderamente varonil.</p>
+<p>De allí á poco pasó una mirada por la mesa, y viendo el album, dió un sacudimiento nervioso, involuntario, lo cojió y fuese á esconderlo en la alcoba. Volvia al parecer tranquila; pero al breve rato inclinó la frente, se miró las manos, halló en su dedo anular la sortija de boda, y se la quitò precipitadamente.</p>
+<p>Estaba impaciente: su vista se fijaba á cada segundo en el reló; daban las seis y media, y entre pesarosa y airada no pudo menos de esclamar:</p>
+<p>—Todos me desprecian!…</p>
+<p>Llegóse entonces el perrillo á lamerle los pies. ¡Pobre Tilin!… Ella le hubiera devuelto à la sazon mil caricias por cada una, pero sonaron los goznes de una puerta, y su cuerpo entero tembló: Fernando, el jóven pálido, cayó hincado de rodillas ante sus pies.</p>
+<p>Difícil, imposible es bosquejar siquiera un cuadro que presente al vivo una escena como la que debe resultar de la situacion en que se encuentran Fernando y Teresa.</p>
+<p>En las peripecias de amor sin licencia brutal, la represion de ciertas palabras, las reticencias que median hasta pronunciar otras, la alteracion simultánea de las facciones, la agitacion del aliento, el cambio de los tonos, el ademan, la ansiedad y otros mil y mil accidentes, son inimitables medias tintas, raudales de luz ó sombras derramadas que cambian el horizonte de un gran cuadro; son brillantes perfiles del diálogo, y elocuentes frases mudas que del alma van al alma sin pasar por el órgano de la voz.</p>
+<p>Mas sobre todo ¿cómo traducir á la <emph>aritmética</emph> del lenguaje una de aquellas miradas ya vagas, ya intensas, que reproduciéndose en sí mismas, cada una de ellas dice mas que todo un libro de Rousseau?</p>
+<p>Fuerza es que yo me confiese insuficiente; pero en consignarlo asi paladinamente, y razonándolo á mi manera, llevo ya cierta ventaja á algunos escritores minuciosos, los cuales creen que la pasion les brota de la pluma concisa, ardiente, voraz como en sí es, y <emph>correjida ademas</emph>, como dicen ellos, <emph>de los defectos de la improvisacion, y enmendada conforme á la sana razon</emph>.</p>
+<p>—Teresa! Teresa mia!</p>
+<p>Esclamó Fernando, fijos en ella con avidez los ojos, y entreabiertos los labios, á semejanza del mamoncillo que se embebece contemplando una luz.</p>
+<p>La condesa tendió una mano, acaso sin mas objeto que levantar al desgraciado; pero quedó olvidada entre las dos de Fernando.</p>
+<p>Nada hay tan propenso à la distraccion como el amor: ese desvanecimiento de las intenciones formadas es el amor mismo, y la mano de una mujer, dulce y lánguidamente olvidada entre la de su amante, son dos palomas que se acarician al borde del nido.</p>
+<p>—Teresa! Teresa mia! ¿Es esta la mano de la condesa, ó de la mujer por quien me dejo morir?</p>
+<p>Teresa creyó hallar una reprension amarga en estas palabras, y retiró el brazo; pero el jóven prosiguió tomando una actitud menos suplicante.</p>
+<p>—Ay! demasiado lo veo…! ¡Ella es la mano que firmó mi sentencia, y la que acaba de acariciar su victima! ¡Se aparta V. de mí, Teresa! ¡No lo haga V. todavía! ¡No sea hoy siquiera! ¡No sea en este momento, por Dios! Qué! ¿No era ya bastante desgraciado? Pero si aun no basta: para el castigo, ¿no queda siempre un mañana?</p>
+<p>—Si de los dos alguno es digno de castigo, no te me oculta que soy yo. Pero sabe el cielo que ahora mismo un rayo que se desplomara sobre mi frente, me haria un bien. ¡Lo sabe el cielo, Fernando! Mas mi presente situacion exije que deseche y olvide lo pasado… Nuestro comun amigo, Gustavo, ¡que nos quiere tanto! habrá prevenido á V. del motivo de esta entrevista, que de una sola manera podrá… podrá no eser la última, Fernando… y aunque he vacilado al decirlo, para ejecutarlo me siento con mas fuerzas.</p>
+<p>Dijo Teresa estas postreras palabras, bajando la cabeza con pueril candidez; y sin atreverse á levantar los ojos, distraia su turbacion atando y desatando las puntas de un pañuelo.</p>
+<p>Fernando, ya mas poseído de sí propio, que fascinado por la presencia misteriosa de la mujer que se <emph>adora</emph> en la primera juventud, tiró con suavidad del pañuelo; resistiose Teresa á soltarlo; pero alzo los ojos, y en esto quedó la prenda en posesion de los dos. Mientras, el dialogo seguia de esta suerte:</p>
+<p>—Gustavo nos quiere mucho, es cierto; y será sin duda porque la vé á V. tan joven y á mí tan infeliz; pero como ayer lo primero que me dijo, fué: <emph>mañana á las seis y media te verás á solas con Teresa</emph>; ya no pude comprender ni oir mas, aunque luego me hablase muchas cosas. Treinta horas ha que Gustavo me dijo: <emph>mañana te verás á solas con Teresa</emph>; y treinta horas há que Teresa no se mueve de junto á mí. De dia no estaba mi Teresa asi tan pálida como ahora la veo á V., y su risa se derramaba por mi alma como un rocío… pero de noche ¡ay de noche! quisiera esconderme á mí mismo, y morirme antes que recodarla… Sí, Teresa, mas quisiera morirme.</p>
+<p>—De noche… Fernando…</p>
+<p>—Sí! Sí! De noche. ¿Qué…? ¡Pronto, Teresa! Dígalo V. porque á mí de noche… me ataraza el corazon la memoria de la condesa.</p>
+<p>—De noche yo muchas veces me digo: <emph>Fernando dormirá</emph>, porque como todos duermen en casa, me parece á mí que sola soy yo quien vela á ciertas horas.</p>
+<p>—¿Y dónde pasa V. las noches?</p>
+<p>—Allí dentro.</p>
+<p>—Sola…!</p>
+<p>—No… pero ya me dejan hoy.</p>
+<p>—Quién?</p>
+<p>—Si lo sabe V,</p>
+<p>—Quién? Necesito oírlo de esa boca misma.</p>
+<p>—Lo sabe V. ya… No quiero decirlo… ¿No?</p>
+<p>Una làgrima sola asomò para quedar cuajada en los párpados de Fernando.</p>
+<p>Teresa le mirò con la espresion mas seductora que jamàs puso una mujer hermosa.</p>
+<p>Su pañuelo sirviò para enjugar los ojos del jòven, y de este movimiento combinado resultò que las manos de los dos se encontraran juntas; y asi quedaron desde entonces; pero cual si las contuviera el mútuo temor de advertirse la una à la otra, permanecian quietas al abrigo del lienzo, porque los pecados mudos, ocultos y sin movimiento, hallan fàcil disculpa á la conciencia.</p>
+<p>—Teresa, cada lágrima que asoma en los ojos del hombre es un pedazo de su corazon. ¡Perdon, Teresa, perdon! Siquiera porque otro tiempo me permitió V. que la llamase mia. Sé que ningun derecho tengo ya sobre la… sobre Teresa… Pero sin que obre la conformidad por un momento, los celos me devoran siempre, me asesinan! ¡Ay de mí! ¿Por qué no me dijo V. en lugar de aquellos pretestos infundados, por qué en vez de aquel desden tan ofensivo al alma no me dijo V.: <emph>Fernando, mañana es preciso que muramos, porque me quieren casar</emph>.</p>
+<p>—Yo no lo pensaba entonces, ni se me ocurrió siquiera; porque mi madre me besaba siempre; porque el conde era mi esclavo; porque no había pisado sus salones ni sus carruajes; porque ignoraba mucho, mucho en el mundo, y porque…</p>
+<p>—Teresa mia…! Por piedad…! Siga V.</p>
+<p>—Ay! Sí, lo diré: porque entonces no estaba casada, porque entonces no lloraba V. nunca.</p>
+<p>—¡Dulce bien mio!</p>
+<p>—No, no, Fernando. Ese tiempo pasó. Suélteme V., y no escuche yo jamás esas palabras; pero para decir que muramos, tiempo es todavia. Soy la esposa del conde.</p>
+<p>—¡Teresa!</p>
+<p>—Soy la mujer del conde.</p>
+<p>—¡Teresa! No hablar mas en eso…!</p>
+<p>—Ay! ¡Cuánto he llorado escondiendo el rostro! Cuánto! Infeliz de mí…!</p>
+<p>—¿Y era entonces la condesa quien lamentaba su esclavitud, ó era tal vez Teresa la que rendia una lágrima á la triste memoria del infeliz Fernando?</p>
+<p>—No lo sé, no lo sé, y ni á mí misma me atrevo á contestar… Conozco ahora que en consentir que nos viesemos solos, olvidé un deber. Yo, es verdad, que pensaba me respetaria V. mas; mi objeto era proponer á V. mi amistad, y encuentro que V. hasta me amenaza…</p>
+<p>—Teresa, mi primera palabra la proferí de rodillas, y mi última tambien. ¡Yo amenazar al ánjel que viene á ampararme, y que tiempo ha me sostiene sobre la tierra! ¡Ay Que no alcanza V. cuanto la quiero!</p>
+<p>—No; asi no. Levántese V. Fernando. Yo ya no soy mas que una pobre mujer. ¡Y V. se arrodilla delante de mí…!</p>
+<p>—No se envilece quien se postra ante su Dios.</p>
+<p>—¡Fernando!</p>
+<p>—¡Amiga mia!</p>
+<p>—Eso sí. Hasta morir, Fernando mio.</p>
+<p>—Teresa! Dímelo otra vez.</p>
+<p>—¿Qué dije, Fernando!</p>
+<p>—Dímelo otra vez, otra vez y no mas.</p>
+<p>—Fernando mio, tu amiga soy; pero no vengas mucho… Oye… contaste bien? ¡Las ocho! Salta, corre, que antes del teatro suele pasar el conde por aqui.</p>
+<p>—¿Cuándo volveré?</p>
+<p>Teresa inclino la cabeza sin dar solucion á esta crítica pregunta.</p>
+<p>—¿Cuándo volveié?… Mañana?…</p>
+<p>Teresa levantó los ojos sin responder palabra.</p>
+<p>—Adios, mi única amiga.</p>
+<p>—Fernando… adios!…</p>
+<p>Y se acercaron tanto, que el primer favor adúltero fué dado y recibido. Sonó el blando estallido de un beso.</p>
+<p>—Es el de la amistad.</p>
+<p>Dijo ella. Fernando no acertaba á contestarla.</p>
+<p>—Es el primero y el último.</p>
+<p>Dijo ella. Fernando se lo afirmó con otro segundo beso.</p>
+
+
+<milestone unit="subchapter"/>
+
+<label>CINCO ADVERTENCIAS AD HOC.</label>
+<label>Primera.</label>
+<p>Los tales besos formaron periodo en la conducta de Fernando respecto à Gustavo. Natural parecerà à muchos que el jòven neòfito, à fuer de agradecido, corriera en busca de su maestro à compartir la satisfaccion de su triunfo; pero muy lejos de eso, Fernando pagò con una mentira à su <emph>bienhechor</emph> el precio de sus tareas.</p>
+<label>Segunda.</label>
+<p>Todos sabemos, ò es muy probable que lo sepamos todos, que en materia de besos lo que importa es evitar el primero, porque tras este viene luego otro, como su hermano gemelo; se atreve y pasa sin remedio, y otro luego, y luego mil, que eran cobardes antes, pululan, asoman, bullen y vuelan de los lábios à los labios como abejas que cambian de colmena. Es de todo punto imposible contener la fuga de estas verdaderas abejas morales, que armadas de aguijon y cargadas de miel, nos deleitan el paladar al propio tiempo que con el aguijon del deseo irritan todo nuestro ser.</p>
+<label>Tercera.</label>
+<p>Fernando disculpaba con la <emph>amistad</emph> sus frecuentes visitas á Teresa, siempre que se le hacia imposible ocultar sus pasos á Gustavo; y junto à esta, vivia ya contento, robustecia por momentos, descuidaba sus deberes con frecuencia, vestía con esmero, y solo se presentaba en los paseos à caballo por eludir con las damas la siempre comprometida galantería.</p>
+<label>Cuarta.</label>
+<p>Gustavo, el hombre de la esperiencia, se mostraba con su amigo complaciente y complacido, generoso, afable, ni por casualidad curioso, y si bien alguna ver que otra picante, siempre sin amargura ni sarcasmo.</p>
+<label>Quinta.</label>
+<p>Triste cosa es por cierto que hasta el corazon mas sencillo encierre una doblez, donde solo penetran el ojo de Dios y el talento de satanás.</p>
+</div>
+
+
+  		<div type="chapter" n="SPA1009010">
+  			<head>CAPITULO UNDECIMO</head>
+
+<p>La graciosa <emph>Finú</emph> fué <emph>griseta</emph> en Burdeos, y es ahora la doncella favorita de Teresa; es su amiga. Está enferma la pobre Finú; pero no hay que asustarse, porque no es cosa de cuidado. Tiene su cama en un retrete contiguo á la alcoba de su señora, y està sentada á su cabecera, la acompaña, y por distraerla lee en voz natural la traduccion de <emph>lord Byron</emph> hecha por Amedée Pichot, y el pacienzudo <emph>Beppo</emph> mueve la risa de las dos jóvenes.</p>
+<p>A las mujeres y á los mancebos de corta edad les es dado reír con <emph>Byron</emph>; pero en mi dictamen no puede caer libro mas amargo en las manos del hombre pensador.</p>
+<p>La puerta del retrete de <emph>Finú</emph> y la de la alcoba principal, abiertas de par en par, dejan ver el fondo del gabinete, y allí en lo mas apartado están el conde y Gustavo, hablando con gran reserva, y examinando á ratos unos papeles manuscritos.</p>
+<p>El conde dijo:</p>
+<p>—Me comprometo á dar hasta seis mil duros; pero no quiero que suene mi nombre en este negocio, y mucho menos que se lea mi firma. V. bien sabe que una calumnia estuvo á punto de perderme. ¿Qué no seria, pues, si apareciese la verdad?</p>
+<p>Gustavo se encojió de hombros, arqueó las cejas, inclinó la cabeza como en asentimiento de lo espuesto por S. E., y le respondió:</p>
+<p>—Cuando salí de Viena para desempeñar mi cometido, me señalaron diez nobles y cuatro obispos con quienes entenderme, y entre los primeros, V. sabe, señor conde, que consta su nombre; por lo que no es estraño que estas cartas envuelvan alguna alusion hacia tan respetable persona.</p>
+<p>—Asi lo veo; pero prevenga V. que en lo sucesivo escriban con mayor precaucion… Y dejando esto á parte; ¿como debe disfrazarse para la voz pública este donativo?</p>
+<p>—Nada mas fácil: se aparenta un empréstito con Holanda; se circula la voz de un donativo del cristianismo por intercesion del sumo Pontífice, ó cosa semejante; y yo espero que este esfuerzo sea el que corone la obra de los realistas europeos. La cuarta parte del capital recaudado basta ya para las cámaras francesas, y bien administrado sobra aun para algunos periódicos</p>
+<p>—Bien, bien, muy bien, Gustavo.</p>
+<p>Dijo el conde, frotándose ambas manos y rodando al propio tiempo una ojeada indagadora por la estancia, prosiguió:</p>
+<p>—Estas cuestiones deben tratarse siempre sin testigos, y V. sabe la causa porque se dice que <emph>hasta las paredes tienen oídos</emph>. Ademas el Comendador nos aguarda á las siete junto al cementerio. Salgamos, y vámonos por donde ni los árboles estorban; y ojalá que la berlina pudiera llevar la dirección sin cochero ni lacayo, que entonces los tres tomariamos mayor distancia para huir hasta de los muertos.</p>
+<p>—Nada de ruido; conde; marchémonos á pie; pero no vayamos desprevenidos. Yo, por lo que es cuenta, ya traigo aqui mis pistolas.</p>
+<p>—Tambien yo acabo de tomarlas.</p>
+<p>—¿Están cargadas?</p>
+<p>—Si.</p>
+<p>—¿Bien cargadas?</p>
+<p>—Lo están por mi mano.</p>
+<p>—¿Suelen faltar?</p>
+<p>—Son muy buenas.</p>
+<p>—Bah! Pero nunca serán como las mias. Cambiemos, amigo conde, y sale V. ganancioso.</p>
+<p>—Acepto, Gustavo. Mil y mil gracias.</p>
+<p>En este trueque, y mientras el conde se distraia examinando las pistolas nuevamente venidas á su poder, Gustavo, con una precaucion estraña y cierta mirada suspicaz, guardó en el forro de su sombrero los papeles de que hemos hecho referencia, y acto continuo, como si los embargara un solo cuidado, sin despedirse fuéronse á la calle.</p>
+<p>Apenas habian desocupado el gabinete, Teresa cerró su libro dando un donoso brinco de alegria, y dirijiéndose á su criada, le dijo:</p>
+<p>—Mira, lo siento mucho, pobrecita; pero ya es menester que te levantes, porque Fernando me reñiria si supiese que estás ahi.</p>
+<p>—Ah! Si, mi señora, si me levantaré; <foreign xml:lang="FRA">ma foi</foreign> que <foreign xml:lang="FRA">monsieur</foreign> Fernando se enfadaria. Ah! ¡Como él es galan! Mr. Fernando vale mucho, y vuestra escelencia tambien.</p>
+<p>—Anda, levántate, Finú; pero hoy no importa que no te estés al balcon; no hace falta centinela, porque se han ido allá muy lejos, y el aire te haria daño.</p>
+<p>—¡Ah, mi señora! El tenor Gustavo tambien es mucho buen amigo.</p>
+<p>—Despacha por Dios, Finú.</p>
+<p>Y la doncella dio un salto de la cama al suelo, y en un abrir y cerrar de ojos quedó prendida como de mil alfileres, con aquella pulcritud y coquetería puramente francesa.</p>
+<p>¿Habeis vosotros visto un animal mas elegante que la corza cuando con erguida frente atiende fija al mas leve ruido de una hoja seca? Pues asi como una tímida cervatilla atendia la jóven condesa á cualquier rumorcillo estraño, que pudiera ser precursor de su amante.</p>
+<p>Solo se hizo esperar el galan breves momentos, y una butaca dió asiento á los enamorados; que no hay lugar mas cómodo para los que bien se quieren, como aquel en que estan mas apretados. Y de este modo, en el sitio donde diez minutos antes el genio feroz de la revolucion movia la voz de dos hombres que al parecer desconfiaban hasta de si mismos, se oyeron las siguientes palabras de dulzura, soltadas en el abandono del amor:</p>
+<p>—El día, bien mio, tiene dos horas para mí.</p>
+<p>—¿Cuáles son, Fernando mio?</p>
+<p>—Aquellas en que estoy á tu lado, y nada mas.</p>
+<p>—¿Y el dia que no me ves?</p>
+<p>—Lo anima la esperanza del siguiente, mi bien. Sino me moriría; créelo.</p>
+<p>—¿Me quieres tanto?</p>
+<p>—Idolo del corazon! Si eres un ánjel!</p>
+<p>—¿Y querrás algún dia á otra?</p>
+<p>—¿Cómo tú?</p>
+<p>—Sí.</p>
+<p>—¡Qué candor veo en tí! ¡Si no hay ninguna! Tú formante mi amor para tu alma, y lo prendiste á tus ojos y á tus lábios, y así mi amor te sigue á todas partes; y cuando tu alma angelical se eleve, mi amor irá tras ella á la eternidad.</p>
+<p>—Fernando mio! Ay! Trae tu mano. Mira, no sé por qué se me salta el corazon. Pónmela aqui: ¿lo sientes?</p>
+<p>—Sí lo siento, amor mió. ¡Pero por qué no debia ser tan facil besarnos el corazon como te beso en la boca!</p>
+<p>—¡Ay!</p>
+<p>—Bésame tú á mí.</p>
+<p>—Si es lo mismo.</p>
+<p>—Teresa, ¿no eres mi bien?</p>
+<p>—Ay! Eso sí.</p>
+<p>Estas y otras frases sazonadas de deleite, que nada enseñan y significan tanto, se reproducian en sus lábios cada vez mas nuevas y seductoras. Una languidez nerviosa, que se apodera generalmente antes de las mujeres que de los hombres, suele poner término á las platicas de amor…</p>
+<p>Pero mi lector y yo nos debemos alejar de este gabinete encantado, para alcanzar al conde y á Gustavo, que mal haya si no andan ya cerca el Hospicio. Allí están parados en efecto, y Gustavo registra sus bolsillos con azoramiento.</p>
+<p>—Somos perdidos, dice, si no están caidos en el gabinete. Eran casualmente los papeles mas interesantes, y ahora me parece recordar que quedaron caidos al pie del velador.</p>
+<p>El conde se arranca los cabellos, y con voz resuelta esclama:</p>
+<p>—Pues á casa! á casa pronto! Y si allí no parecen, nos podemos ir al infierno.</p>
+<p>En alas del deseo deshacen el camino andado, y Gustavo con las facciones desencajadas atiza la exaltacion del frenético viejo, diciéndole al paño:</p>
+<p>—Conde, en casa están, no me cabe duda; pero hasta con las armas es preciso arrancarlos: nuestra vida es antes que todo, y la de V. peligra mas que la mia.</p>
+<p>En tanto estos dos hombres corren que no parece sino que el diablo los empuja.</p>
+<p>Llegan: no se detienen en llamar á la puerta: encuentran la caballeriza abierta: entran en ella: suben por una escalera interior: penetran en la casa.</p>
+<p>Vamos, corren tanto, que no es cosa natural; los lleva el diablo.</p>
+<p>El conde con las pistólas amartilladas en el bolsillo y puestas las manos sobre la coz, se lanza al gabinete abriendo de un puntapié la vidriera, y allí todo en tropel grita con voz histérica:</p>
+<p>—¿Dónde están las cartas, ó arrancaré la vida á quien las guarde?</p>
+<p>Los amantes quedan atónitos sin precaverse de tomar la mas adecuada de las distintas actitudes, que como fórmulas de este ó el otro pensamiento, la sociedad tiene prevenidas en los casos de mayor ó menor grado de franqueza.</p>
+<p>La situacion de Fernando y Teresa era el signo social en que se traduce <emph>familiaridad completa</emph>.</p>
+<p>Con tan inesperada perspectiva, olvida el conde el objeto de su venida, y tira de una pistola contra Teresa.</p>
+<p>—¡Morirás, adúltera vil!</p>
+<p>Le dice, y á tiempo que Fernando corre á interponerse entre el arma y su amada, tocó Gustavo la mano del conde, y salió el tiro.</p>
+<p>—Ay!</p>
+<p>Esclamó la condesa, mas al parecer de miedo que de otra cosa; pero cayó en los brazos de Fernando, que asi como el conde, quedó inmoble desde aquel momento y sobrecojidos ambos, por un instante se los vió estáticos, sin habla y como heridos del rayo.</p>
+<p>Tales y tan sorprendentes casos acontecen en la vida, que paralizan con su efecto hasta la accion del entendimiento.</p>
+<p>Presenciábalo todo con admirable frialdad estóica el comisionado de Viena, y para sacar de su perplejidad al conde, allegóse á él, y dándole dos palmaditas en la espalda, dijo:</p>
+<p>—Ya no hay mas remedio; la satisfaccion está tomada por un lado; por otro el mal está hecho: no nos queda, pues, mas tiempo que para huir el castigo; salgámonos al punto, y sígame V. confiado y sin ningun recelo.</p>
+<p>Estas palabras sacaron al buen conde de su letargo, y soltó á temblar como un azogado; pero antes que perdiese el equilibrio, lo agarró su amigo del brazo, y llevándolo como á remolque, echó á andar con él hacia la escalera, tarareando por disimular un <foreign xml:lang="ITA">allegretto de fra diavolo</foreign>, y diciendo á los criados que tropezaba al paso:</p>
+<p>—No es nada, no es nada.</p>
+<p>Saliéronse á la calle, y de alli procuraremos luego averiguar adonde, porque ahora nuestra atencion y la compasion cristiana reclaman que volvamos á Teresa, por si la alcanza socorro, ó por si acaso aquello no fué nada.</p>
+<p>Sosteníala, como he dicho, Fernando entre sus brazos, sin atreverse á moverla, sin osar preguntarla, y erizados como agujas sus cabellos.</p>
+<p>La pobre jóven jadeaba lo mismo que una gacela fatigada por la carrera del tigre, y sin pestañear los ojos, le latian las pupilas enclavadas en su amante. Tenia aquella mujer no sé qué mezcla de celestial y de fiero en el rostro: eran sin duda el alma santa y el dolor terreno que luchaban.</p>
+<p>En esto entraban los criados de tropel en el gabinete, y ella moviendo al fin con pesadumbre sus lábios pálidos y secos, dijo:</p>
+<p>—Detened á mi marido, y llamen á mi madre, que… quiero hablarles… no me ha hecho nada, Fernando mió… pero me duele aqui… un poco…</p>
+<p>Puso una mano sobre su costado izquierdo, dió una arcada, unas bombitas de sangre la asomaron á la boca, dejó caer la cabeza, y espiró.</p>
+<p>—Socorro!</p>
+<p>—Vecinos!</p>
+<p>—Agua!</p>
+<p>—Un médico!</p>
+<p>—La uncion!</p>
+<p>—El capellan!</p>
+<p>—Llamad á su madre!</p>
+<p>Gritaban todos los de la servidumbre, cuál mas, cual menos, conforme su valor ó aturdimiento, y todos se tropezaban, y ninguno acertaba á salir del cuarto.</p>
+<p>Fernando, al dar Teresa su ultimo estremecimiento, se dejó caer al suelo con ella; y alli la acariciaba con torpes manos, y alli la miraba con una mirada imbécil, y alli la decia en voz alta y como si nadie mas que ella le escuchara:</p>
+<p>—Levanta! levanta, Teresa! que nada tienes; que lo sé de fijo.</p>
+<p>Y luego en vano forcejeando con el cadaver, soltó el cuerpo sin vida, y con las manos en alto reciamente enclavijadas, esclamaba:</p>
+<p>—¡Ay, matadme! ¡Ay, matadme…! ¡que de veras está muerta…! Teresa! Teresa…! morirémos los dos…! Corred, cobardes, y si alcanzais al conde, dadle muerte… Una y mil puñaladas: corred, cobardes… ó dádmelas á mí…!! Teresa del corazon! Teresa mía! Teresa de mi alma que te adora!! Se cerraron tus ojos para no verme?!! Tus lábios para no hablarme?!! Tus brazos cayeron de mi cuello para siempre, y tus caricias acabaron ya…?!! Quiero morir, señores! Quiero que, me arranquen las entraña?, porque me abrasan; quiero que me saqueis los ojos para no verla; que me corteis las manos que la tocaban. y ¡por Dios! despedazadme el corazon que la idolatra… cobardes! cobardes! no toqueis á ella… Conde asesino! conde villano…! ah! si no la mataste… ¡ay! Sí, que me la robaste vírjen, y me la devuelves muerta…!! ay de mi…!! pero dejadnos, dejadme á solas con ella…! Caliente aun, <emph>bien mio!?</emph> conmigo aun, <emph>mi amor!?</emph> y ya siempre conmigo, y solo para mi!!…</p>
+<p>Y el miserable, frenético y sin juicio, la sacudia y la besaba con furor. Su razon estaba trastornada, sus facciones desencajadas, y la reacción con el abatimiento empezaron á marcarse por grados, hasta el punto que sin resistencia alguna fué trasportado á un coche que lo condujo á su casa.</p>
+<p>Apenas habian arrancado á Fernando del lugar donde se desenvolvia el cruento drama, entró por casualidad doña Luisa, acompañada del baron de Trautmanfdorf, antiguo primer teniente del estinguido cuerpo de Guardias Walonas, hombre, aunque viejo, colorado y sano, muy aristócrata y asaz visitador.</p>
+<p>La sorpresa de doña Luisa fué un dardo asestado derechamente al corazon que despertó la sublimidad maternal.</p>
+<p>—Tú muerta, hermosa hija mia, y no asesinaron antes á tu madre, para que no te viere en tal estado…!!</p>
+<p>Gritó corriendo como una endemoniada por la estancia, y cayó de rodillas; volvióse á levantar, y otra vez fué al suelo.</p>
+<p>—Tú muerta, hermosa hija mia…!! Me han muerto la hija! dadme mi hija…!! volvedla por lástima á su madre que la crió con estos pechos!</p>
+<p>Tales palabras y otras mas desgarradoras diciendo, se golpeaba el seno sin piedad y mesaba sus cabellos, llenando á todos e aquella grima, horror y compasion que inspira toda mujer desenfrenada…. Besaba el cárdeno rostro de su hija, le lamia la boca, y ya se quedaba contemplándola como fascinada por el amor maternal, ó ya comprimiendo el aliento, juntaba sus lábios con los de Teresa, y mostrábase atenta por ver si respiraba todavia.</p>
+<p>El baron era todo un hombre de esperiencia, muy flemático, muy aleman y poco hablador. Tuvo lugar por lo tanto de razonarse la situación, y hecho esto, llamó por señas á dos criados en su ayuda, y dándoles ejemplo, cargaron en hombros con la doloriba madre hasta dar con ella en el carruaje, y de allì á casa, y de casa á la cama, donde la dejó que se desahogara llorando á sus anchas.</p>
+<p>Ahora, lector meditabundo, contemplemos cómo digresa el sentimiento supremo hasta la indiferencia. cómo la gratitud suele parar en amor, y cómo aquellas inclinaciones las mas mezquinas tal vez, cuando nos son peculiares é injénitas, prevalecen sobre todas las circunstancias sociales, hasta que al último arrastran por su declive el azaroso curso de la vida.</p>
+<p>A Teresa la enterraron… <emph>Teresa era la mujer</emph>, estaba casada, no era madre, era joven, era hermosa, lo mas delgado en fin del hilo social.</p>
+<p>El tiempo, los consuelos, los consejos y el título del baron de Trautmanfdorf, labraron tanto en el ánimo de doña Luisa, que hoy es su tierna esposa, y ya en cuantas conversaciones halla oportunidad encaja con sabor y sin pena estas palabras: <emph>mi difunta hija la condesa</emph> esto y estotro: <emph>mi difunta hija la condesa</emph> esto y lo de mas allá.</p>
+<p>El baron por su parte ha ganado mucho con este enlace; tiene el capital que no soñó nunca en poseer ningun soldado; tiene coche, y mas de veinte perros que infestan su cuarto en la visita diaria que le hacen. El buen baron se refresca á su placer con <emph>Ginebra</emph>; se pasa las horas muertas jugando al <emph>chaquete</emph>, que su señoria llama <emph>tablas reales</emph>, é imperturbable fumador de pipa, la tiene por compañera de sus continuos placeres, aunque no muy de tarde en tarde la separa de sus lábios cariñosos para besar el <emph>ponche</emph> con cierta coqueteria y marcada infidelidad.</p>
+<p>Nuestra doña Luisa, la cuarentona <emph>exviuda</emph> del capitalista indiano <emph>que fué</emph>, aquella madre há poco arrebatada y loca de dolor, ha dado tambien con la piedra filosofal—es ya título—y á pesar de que los perros la molestan un poco, no le quitan por eso la felicidad. Otra cosa hay de mas amargo en la vida de la baronesa de Trautmanfdorf (lo que prueba que jamás hay dicha completa), y es no poder pronunciar con alemana pureza el título que á sus ojos la engrandece: pena terrible, pena inmensurable, semejante al padecer de Tántalo con el agua en los lábios sin poderla beber muriéndose de sed; pena semejante á la del personage de Hoffman cuando se asomaba al espejo y no encontraba el reflejo de su existencia.</p>
+<p>Respecto á Fernando es fuerza confesar que sufrió mucho; pero como aun es diputado, ya se le vé que asiste al Congreso. Dicen lenguas que de resultas de la catástrofe se encuentra algo trastornado su juicio, y fundandose estas hablillas en que de jóven entusiasta y hábil político que fue, se ha vuelto <emph>doccañista</emph>.</p>
+<p>Si Fernando da en errar de esta manera, puede que se case; y entonces tambien puede que dé á su turno despique al conde, porque el <foreign xml:lang="FRA">posse</foreign> no le niegan los teólogos.</p>
+<p>Lo que es en cuanto al conde de X, logró fugarse de Madrid á los montes… Mas nadie crea que á los de Armenia, ni, en penitencia de sus culpas, como nuestros romances mas populares cuentan de ciertos contumaces pecadores, á quienes por último Dios tocara el corazon con su gracia. Nada de eso: el conde logró fugarse á los montes de Vizcaya, y allí anda en caravana á la zaga del Pretendiente, siendo muy factible que con el rodar de las cosas y el tiempo vuelva á la patria comun hecho un <emph>teniente general de los ejércitos nacionales</emph>.</p>
+<p>Finú, la coqueta francesa, la graciosa hija de Burdeos, se halla hoy día viviendo por su cuenta y riesgo en la calle de las Huertas, cuarto bajo, número no sé cuántos, y consigo tiene á cierta <emph>tía suya</emph> natural de Valencia del Cid. La pobre chica ya está desmejoradilla, y se queja amargamente de un tal D. Joaquinito, sobrino del conde de X.</p>
+<p>En las dilijencias judiciales practicadas para la indagacion del delito que ocasionó la muerte de Teresa, llamó la justicia á la habitacion de Gustavo; pero el tal hombre había desaparecido sin que se supiera por donde, conforme había llegado sin saberse como.</p>
+<p>Interrogado el fondista dijo que su huesped faltaba desde por la mañana, y entregó la llave del cuarto. Abrieron, y entro el juez con su escribano; pero no solo faltaba Gustavo, sino que tampoco habia cosa alguna que le perteneciera. De todo diò fè el presente escribano, y no teniendo mas à què atenerse, hizo constar en autos un recibo hallado sobre la mesa que decia:</p>
+<p>“Soy en deber á Cristòforo Picolomini la cantidad de tres mil reales vellon, valor de la asistencia y casa de tres meses, los cuales le pagarè de fijo un momento despues de su muerte. Madrid &amp;c.</p>
+<p>El escribano se desojaba por leer la firma; pero no pudo al fin por estar trazada en caracteres estraños.</p>
+<p>Ahora bien, amadas lectoras y señores lectores: de cuanto llevo dicho y de algo mas que yo me sè, se infiere que la vida es mala, pero en cambio es corta.</p>
+</div>
+</body>
+</text>
+</TEI>

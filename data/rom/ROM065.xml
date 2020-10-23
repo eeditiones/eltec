@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM065" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lulù. Roman : ELTeC Edition</title>
+        <author>Lovinescu, E. (1881-1943)</author> 
+        <respStmt>
+          <resp>codare ELTeC</resp>
+          <name>Lucretia Pascariu</name>
+        </respStmt>
+        <respStmt>
+          <resp>corectura manuala</resp>
+          <name>Lucretia Pascariu</name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <measure unit="words">26315</measure>
+        <measure unit="pages">166</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Digital Humanities Laboratory (UAIC)</publisher>
+        <distributor ref="https://www.distant-reading.net/">COST ACTION "Distant Reading for European Literary History" (CA16204)</distributor>
+        <date when="2020-11-01"/>
+        
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="firstEdition">
+          <author>E. Lovinescu</author>
+          <title>Lulù. Roman </title>
+          <pubPlace>București</pubPlace>
+          <publisher>Editura Librăriei Alcalay and Co.</publisher>
+          <date>1920</date>
+          <note>This is the source of the text</note>
+          <ref target="http://doi.org/10.5281/zenodo.4117568">Facsimile on zenodo</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc n="eltec-1">
+      <p/>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ro">Romanian</language>
+      </langUsage>
+      <textDesc>
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+        <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
+      </textDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-10-21">Annotation in ELTeC format: Lucretia Pascariu</change>
+      <change when="2020-05-30">Ocerization by: Lucretia Pascariu</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="titlepage">
+      <p>E. LOVINESCU</p>
+      <p>LULÙ</p>
+      <p>- ROMAN -</p>
+      <p>BUCUREȘTI</p>
+      <p>EDITURA LIBRĂRIEI ALCALAY AND Co.</p>
+      <p>1920</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapter" n="1">
+      <head>I</head>
+      <p>Muzica militară încetase. Nu se mai dansà. Lumea se desfăcuse în grupulețe după afinitățile instinctive ce domină aglomeratele omenești. Printre ele, Ciprian Cornea își primblà profilul lui roman, luminat de un zîmbet fin.</p>
+      <p>O voce profundă și cu vibrații metalice răsună brusc dintr’un colț al cazinoului :</p>
+      <p>— Nu mai sunt tineri !</p>
+      <p>Ochii tuturor se întoarseră. Dintr’un grup de bărbați în haine negre și de fe-mei decoitate, se desprindeà statura uriașă a lui Còlea Malinof. Lat în spate, trupeș, deși sprijinit pe niște picioare subțiri, strânse și mai mult în pantalonii înguști, cu fața largă și stacojie, prelungită printr’o bărbie dublă, și desfigurată de grosimea neobișnuită a buzei de jos, râstrînte, cu părul roșcat fără un fir alb, Còlea nu-și păreà cei opt-zeci de ani. Lovind cu pumnul greu în măsuța de lac, repetă:</p>
+      <p>— Nu mai sunt tineri !</p>
+      <p>Andrei cătă speriat în jur cu sfiiciunea miopilor. Ar fi voit să se strecoare ne-văzut. Dominat de statura uriașe a lui Còlea, figurau grupul lui <foreign>Baccio Bandinelli</foreign> <foreign>din Piazza della Signoria</foreign> din Florența : Hercul sdrobind cu ghioaga pe Cacus. Lipsià doar gestul mâinilor ridicate în semn de apărare sau de grație. Lumea se strânsese ca la un semn. Andrei implora cu privirea un ajutor sau o diversiune, ce nu venià însă de nicăeri. Ciprian îl fixa ironic prin monoclu. Diomò bătù din palme, desvelindu-și dinții rari printr’o mișcare nervoasă a gurii :</p>
+      <p>— Te ascultăm, cneazule.</p>
+      <p>Căutîndu-și tonul și pregătindu-și efectul, Còlea tuși de câteva ori. Văzîndu-se înconjurat și ascultat cu încordare, ar fi voit să pară mlădios și confidențial. Sunetele îi ieșeau totuși sălbatice din gît-lejul de erou homeric :</p>
+      <p>— Nu mai sunt tineri ! Aduceți din străinătate poate ceva mai multă învățătură, pierdeți însă virtuțile rasei. Uitați că ați supt laptele lupoaicei.</p>
+      <p>Un zâmbet flutură pe buzele tuturor. Còlea erà Rus. Tatăl lui venise ca inginer în Moldova, pe timpul lui Mihai Sturdza, și rămăsese aici pentru că-i plăcuse vinul și femeile locului. Fără ironie, Còlea preferà însă laptele lupoaicei vutcei naționale și pomeniă de virtuțile rasei de ori cîte ori se indignà.</p>
+      <p>Speriat, Andrei ar fi depus bucuros armele. Abia își mai amintià prin ce-și atrăsese mânia uriașului. Povestise cum cedase odată unor străini, numai din prestigiul calității lor de străini. Purtăm în vine o umilința străveche ce ne în-covoae grumazul : în străini vedeni încă stăpînul secular. Deși din rasa învingătorilor, Còlea protestă. Uluit, Andrei îl privià cum crește și se distramă ca o fantomă.</p>
+      <p>— În vremea noastră, ne purtam altfel. Străinii ne respectau.</p>
+      <p>O amintire plutià în jurul buzelor lui cărnoase și răsfrînte. Bâtrînul povestià bine, cu indignări de zeu marin ce răscolește valurile cu tridentul.</p>
+      <p>— Sunt cincizeci de ani de cînd Nemții puneau cele dintîi șine de drum de fer. Eram pe vremea aceia căpitan. Umbla-sem călare o jumătate de zi pe zăduf. Nu mai puteam de osteneală și de foame. Pe la amiază ajung, în sfîrșit, în valea Siretului. La marginea drumului, într’o baracă de lemn mîncau lucrătorii și inginerii. Opresc calul :</p>
+      <p>— Herr Neamț, strig eu, ieși afară de-mi adapă calul. Pregătește-mi apoi de mîn-cat și de băut. Sunt rupt de oboseală.</p>
+      <p>Neamțul mormăi în limba lui :</p>
+      <p>— <foreign>Nicht für Militären.</foreign> </p>
+      <p>Păgînii se uitau cu toții la mine ; unii rîdeau ; alții cătau urît ca la un inosafir nepoftit. Mă îndîrjii:</p>
+      <p>— <foreign>Essen... fressen.. trincken... Pferd und ich</foreign>, strigai eu apăsat ca omul ce se bizue să fie înțeles mai mult din ochi și din ton de cît din vorbă.</p>
+      <p>Neamțul :</p>
+      <p>— <foreign>Nicht für Militären.</foreign></p>
+      <p>Atît mi-a trebuit, continuă el, lăsîn-du-și palma grea pe umărul lui Andrei, ce privi speriat în jur. Atît mi-a trebuit, ca să-mi fiarbă sîngele în vine. Tăcut și solemn ca un burgrav, am intrat de-a călare în baraca Nemților. N’a crâcnit niciunul. Mi-am adăpat astfel calul în farfuria inginerului șef, ce nimerise sub masă.</p>
+      <p>Còlea tăcù, mîndru. Păreà în adevăr, și mai impunător cu trupul lui atletic pe picioare fragile, cu gestul neptunic de râsculător de valuri. La urmă, semăna cu un Mahomet intrînd călare în Sfînta So-fie. Strivit sub greutatea gestului, Andrei avù totuși viziunea rapidă a sultanului alb ce-și făcuse loc cu iataganul, lăsîn-du-și urma mînii pe marmora zidului. Nu prinsese însă bine legătura dintre dînsul și istoria uriașului. Prin ce greșise fața de neamul hrănit cu laptele lupoaicei ?</p>
+      <p>Còlea dăduse acum drumul lui Andrei. Revenit din indignarea lui de forță a naturii, își privià împăcat opera cuvîn-tului sonor ; buza de jos, strînsă o clipă, se răsfrînse din nou în beatitudinea păcii. Atletul își culegea astfel laurii energiei lui de odinioară.</p>
+      <p>In mijlocul tăcerii, se auzi deodată un glas supțire și feciorelnic :</p>
+      <p>— Ah, cneazule, unde-s vremurile de atunci !</p>
+      <p>Capetele ascultătorilor se întoarseră. Speriată de propriile ei cuvinte, Lulù își plecă ochii în jos. Un zîmbet uşòr fluturà pe buzele tuturor.</p>
+      <p>Scăpat de sub ghioaga lui Hercul, Andrei respirà acum liniștit la o parte. Re-căpătându-și libertatea, intrase în stăpânirea persoanei lui. Fiind un corp izolat în spațiu, își studià tocmai vecinii, cînd glasul lui Lulù îi atinse armonios urechea. Se întoarse spre Ciprian.</p>
+      <p>— Cine e doamna care regretă trecutul?</p>
+      <p>De i-ar fi plesnit un biciu pe la urechi, Ciprian n’ar fi părut mai uimit. Se răsuci brusc către Andrei, cu ochii lui scîntce-tori, sub luciul cheliei superbe, își încorda toți mușchii feții ca într’o sforțare su-premă de a fixa un punct invizibil și rămase astfel suspendat, ca un cercetător al unui mister al naturii, — apoi dădù drumul mușchilor într'un rîs ce-i descarcà energiile comprimate ale sufletului :</p>
+      <p>— S’a găsit, în sfirșit, un om, care să nu cunoască pe Lulù Calomfir !</p>
+      <p>Mirarea lui păreà atît de definitivă, în cît Andrei nu mai avù timpul să-i râs-pundă că erà abia de cîteva zile în acel orășel de vilegiatură. Enormitatea crimei îi îndoi grumazul fără replică. Se recu-noscu vinovat ca gladiatorii antici, ar fi voit să ridice două degete pentru a’și implorà grația. Rămînînd însă fără milă, maestrul îl trase brusc sub lumina polican-drului pentru a-i examina mai bine diformitatea morală.</p>
+      <p>Abia scăpat de invectiva homerică a lui Còlea Malinof, Andrei se vedeà amenințat să devină ținta vervei lui Ciprian. Călcase greșit. Timiditatea lui firească se neliniștià în fața incursiunilor violente, ce-l smulgeau din discreția, în care ar fi voit să rămînă. Grupul din jurul lui Còlea se re-făcù acum în jurul lui Ciprian. Sub lumina policandrului, chelia Maestrului luase luciul prodigios al ivoriului vechiu : o nobilă chelie, tivită cu bucle cărunte. Din ochii sclipitori și din desenul mobil al gurii i se citià limbuția spirituală. Maestrul aveà profil aristocratic și eleganță în atitudini. Un nimic îl destindeà în jocul slobod al unei inteligențe ce se satisfăcea pe sine. Prin naivitatea lui, Andrei îi dăduse acum o mișcare inițială. Luîndu-l de mîini, îl aduse deci ca pe o victimă votivă în față altarului:</p>
+      <p>— Doamnă, rosti el înclinîndu-se curtenitor, îți prezint un Bucureștean ce n’are cinstea să te cunoască : domnul Andrei Lerian, întors de curînd dela Paris, și de puține zile în viligiatura orașului dumneavoastră.</p>
+      <p>Lulù îl privi cu seninătate, ridicîndu-și pleoapele cu gene mari de păpușe, des-chizîndu-și apoi ochii albaștri, adînci și mirați, ca și cum atunci ar fi văzut pentru întîia oară un chip de bărbat. Schiță grațios o ușoară înclinare din cap. Maestrul reluă:</p>
+      <p>— Doamna ? Nu ți-am prezintat-o... De ce să-ți mai spun cum o chiamă? Privește-o: e încântătoare. Numele îi stă scris pe colțul buzei umede, i se afundă în gropițele obrazului, i se urcă pe tîmplă pe un fir auriu, i se încolăcește în părui blond, i se scufundă apoi în unda senină a ochilor. Natura e un coroplast divin; dintr’un material atît de fragil a creat statuete de o grație nepieritoare. Iat-o: poate fi și o păpușe de <foreign>Nürenberg</foreign>, cu genele lungi și cu albăstrimea de cobalt a ochilor, cu gesturi pudice și mecanice; poate fi și Fecioara, prin ovalul pur al figurii, prin candoarea priviri: — o fecioară în așteptarea Bunei-Vestiri ; și pentru cine cede forma plină și ascunsă a sînului și linia șoldului poate fi și o Ve-nera, — voluptatea zeilor și a oamenilor.</p>
+      
+      <p>Maestrul tăcu. Și cum i se păruse ca făcuse efect cu mica lui cuvântare, se răsuci în loc, dispărînd...</p>
+      </div>
+      <div type="chapter" n="2">
+      <head>II</head>
+      <p>Andrei și Lulù se găsiră astfel față în față, uimiți și stîngaci. Lumea se risipise ca prin farmec. În bufet răsună glasul eroic ai lui Còlea, întretăiat de firul subțire și șuerător al vocei Maestrului. Lulù și Andrei erau singuri, în singurătatea totală a primilor oameni. Complicitatea forțelor ascunse ale naturii îi aruncase într’un pustiu. Andrei plecă ochii; adi-nioară, îl ștînjinià mulțimea; acum, îl încurcà singurătatea. Lulù își reveni repede în fire, cu prezența de spirit a femeilor de lume ce găsesc lesne o ieșire din plasa împrejurărilor. În tonul potrivit al unei confuziuni firești, dar nu exagerate, zise :</p>
+      <p>— După descripția poetică a Maestrului nu m’ai recunoaște. Poeții înglo-bează eternul feminin în descripțiile lor. Cu bunăvoință rie-am regăsi fiecare în ele. E nevoe deci de mai multă preci-ziune. Nu sunt nici păpușe, nici Fecioara, nici Venus : nu vin nici dela <foreign>Nütrenberg</foreign>, nici dela Lourdes, nici dela Cythera.... Sunt doamna Lulù Calomfir.</p>
+      <p>Andrei se înclină, înroșindu-se.</p>
+      <p>Ce muzică i se păruse că aude? Ceva subțire și aproape ireal îi mîngîiase timpanul, cu sonorități suave. Un glas de femee sau de copil ? Își ridică ochii. Prin gracilitatea formelor, prin fluiditatea ființii ei mărunte, păreà, în adevăr, o păpușe; prin puritatea ovalului, prin candoarea privirii și prin ignorarea totală a răului ce i se citià pe față, păreà Fecioara — Fecioara fără prunc la sîn, idealizată și întinerită. În linia cărnoasă a gurii, umbrită de un fin puf blond, și în mișcarea armonioasă a șoldurilor ce chiamă și rețin, se puteà descifra voluptatea discretă dar tenace a formelor ce-și fac un farmec și o armă din nedesvoltarea lor. Fluturele își păstrà încă forma crisalidei: doamna Lulù Calomfir avea douăzeci și cinci de ani, deși păreà numai optsprezece. O ingenuitate firească, dibaciu întreținută, stabilià o armonie desăvîrșită între aparență și atitudine. Lulù înfrîngeà liniștit legile naturii. Își înclinà instinctiv capul pe umă-rul stîng cu un gest, în care n’ai fi putut distinge alintul copilului de desmierdarea femeei.</p>
+      <p>Făcîndu-și o scurtă traectorie printre dînșii, Maestrul zări gestul etern și zise șuerător:</p>
+      <p>— Sireno !</p>
+      <p>Andrei și Lulù rămaseră iarăși în singurătatea primilor oameni biblici. Le lipsià arborele cunoștinții binelui și al răului pentru a repetà legenda povestirilor sacre răsfoite în cărțile ilustrate ale copilăriei. Conversația nu-și găsià un început. Lui Andrei îi vîjîiau urechile ; surde voci interne i se ridicau în gîtlejul încleștat. Mai stăpînă pe sine și avînd glasul muzical, Lulù ar fi vorbit bucuros. Dintr’un instinct al armoniei, ea se adaptà însă celui cu care vorbià. Cu Ciprian Cornea găsià tonul vervei și al spiritului, dîndu-i replica potrivită ; cu timizii aveà farmecul timidității și al rezervii. Misterul lucrurilor nespuse e încă o formă a poeziei și a elocinții. Cu Andrei, Lulù nimeri din-tr’odată nota intimității simple. După cele dintîi tăceri, se stabilise deci între dînșii un fel de familiaritate. Andrei nu erà vorbăreț ; mîndria sau discreția îl împedicau de a pomeni de sine. Confesiunea cereà opera tenace a timpului; nu țîșnià deo-dată. Prin simplicitate și tact, Lulù îl aduse totuși pe calea spovedaniei; întrebările și răspunsurile alternau armonios. Sinceritatea naivă a unora reclama sinceritatea celorlalte. Pe negîndite, lunecară astfel la intimitatea unei vechi prietenii. Obicinuit să-și reflecteze atitudinile, înfrînîn-du-le în măsură, Andrei pornise totuși pe drumul amintirilor personale. Îi povesti deci ca pe lucrul cel mai firesc cum părăsise de copil, orășelul pentru a se mută la București. De câteva luni își isprăvise studiile la Paris, și se simțise cuprins de nostalgia locurilor copilăriei. Nu putuse, de altfel, refuzà invitația lui Îliuță Sterian, cel mai bun prieten al tatălui lui. Orașul îi plăceà. Erà fericît în mijlocul vieții patriarhale a provinciei moldovenești, dela care păstrase amintiri fragede. Erà și mai bucuros că venise la serata cazinoului.</p>
+      <p>Lulù îl ascultà cu o rară reculegere, ca și cum ar fi ascultat mărturisiri importante, încredințate seriozității ei. Își ridicà pleoapele cu încîntări și mirări de copil. Îi sublinià vorbele prin gesturi de înțelegere expresivă și prin exclamări ce i’se rostogoleau armonios în gușa de porumbiță. I se păreà ciudat că-i plăceà viața de provincie—și, pe urmă, nu i se mai păreà de loc. Își legănà capul, când pe un umăr când pe celalt, fără cochetărie voită. Se alintà instinctiv, și deodată își lăsà pleoapele în jos cu vinovăție. Își aduceà aminte cu emoție de Paris, unde fusese în călătorie de nuntă. Andrei o privi mirat. Obrazul femeei se lumină de luciri fugitive. Îndrăzni s’o întrebe de fusese măritată — întrebare de prisos. Ea dădu din cap simplu, fîcînd gestul ridicării rochiei pentru a trece o apă. Ajunsese, în adevăr, dincolo neatinsă. În mijlocul fin și în virginitatea întregei ei făpturi, n’ai fi bănuit opera fecundă a bărbatului; păreà un aluat nefrămîntat.</p>
+      <p>Ajunseseră, pe nesimțite, în jurul unei măsuțe de lac; îi despărțià numai o plantă tropicală. Andrei îi mîngîià frunzele cărnoase. În jurul lor grupurile se făceau și se desfăceau după legea invizibilă ce prezidează și-la armonia cerească; cu toții le respectau însă singurătatea... Andrei se credeà acum într’un pustiu; prezența plantei tropicale îi deschideà involuntar perspective îndepărtate. Întrebările familiare ale lui Lulù îl aduseră însă repede la realitate, trezindu-i amintirile copilăriei... Trăià din emoțiile de odinioară și străbateà de câteva zile popasurile educației lui sentimentale. Recunoșteà și acum colțul de stradă în care avusese prima zguduire în fața frumuseții feminine, și geamurile memorabile dinaintea cărora tremurase o iarnă întreagă... Lulù păru mișcată; își deschise ochii lâncezi, rugîndu-l copilăros să-i povestească prima lui dragoste. Andrei nu se miră. Erau lucruri vechi, pe care nu le povestise nimănui; le crezuse uitate. Acum îi reveniau pe buze, nesilite, ca și cum și-ar fi așteptat de mult rîndul. Cădeau potolit și cu simplicitate în sala sgomotoasă a cazinoului. Larma nu-l tulburà; aveà încă impresia singurătății biblice. Nu se auziau decît pe dînșii.</p>
+      <p>— Eram numai de 13 ani, începù el fără sfiiciune, cînd am simțit prima emoție în fața misterului feminin. Mi-a trezit o fata unui bancher evreu, care, deși erà de vîrsta mea, se bucurà totuși de superiorități indiscutabile. N’o cunoșteam. O vedeam însă zilnic la ceasuri hotărîte, primblîndu-se cu două surori mai mici în tovărășia guvernantei. Vorbiau englezește.... Ascul-tînd-o în treacăt, îmi păreà venită de departe. Solitară și străină de preocupările celorlalți, aveà aerul unei ființe dintr’o lume fabuloasă. Nu știu ce mă atrăsese mai mult în figura Emei; nu știu chiar de erà frumoasă. Tremuram însă ca o frunză când o vedeam. Mă impresiona chipul ei serios până la severitate, ovalul brun încadrat de un păr luminos, ochii mari, negri și gravi; mă impresiona viața ei plină de prestigiul misterului. O iubiam, deși nu aveam țeluri precise, și nici nu le bănuiam, de altfel. Mă mulțumiam să-i trec pe sub ferestre ; cînd o zăriam, erà o dată memorabilă în viața mea sentimentală... Dela o vreme, supu-nîndu-mă unui impuls misterios, m’am ho-târît să-i scriu. Simțiam nevoia de a-mi exprima iubirea în forma frustă a cuvintelor, deși nu le cunoșteam destinele. În rinduri naive, îi desveliam, probabil, a-morul. După un răstimp mi s’a părut că limba noastră nu poate traduce mulțumitor natura sentimentelor mele sublime. Un prieten, fiul unui doctor evreu, știà englezește. M’am destăinuit lui și m’am bucurat, aflând că și dînsul iubià pe Ema. Ne implicînd instinctul posesiunii, ne-am pus amorul în comun. Nu eram geloși unul de altul; necunoscînd finalitatea reală a sentimentelor noastre, ne exaltam reciproc: ne îmbărbătam și ne schimbam cu rîndul la geamurile Emei. Plecam deci la cucerirea femeei eterne cu arme egale și cu un sentiment cavaleresc. În clipa cea mare, Ema aveà să aleagă între <hi>noi</hi>. Învinsul trebuia să dispară apoi țară urmă... Pînă atunci eu făuream scrisorile în romînește, în termeni aleși şi poetici; Oswald le traduceà în englezește ; printr’o sublinia solidaritate, în răspunderi și în recompensă, le iscaliam cu inițialele amîndorora... Ne pusesem deci dragostea în societate pe acțiuni. La sfîr-șitul iernei, tovărășia noastră nu dădeà încă nici un dividend. Trimiteam scriso-rile guvernantei ca să i le deà Emei: îi adăugam și ei scrisori suplimentare, cau-tând s'o înduioșăm asupra pasiunii noastre. Ascultând însă glasul, datoriei, Miss Mary le dădu bancherului; la rîndul lui, acesta se plînse doctorului. Complicitatea noastră se descoperi repede. Doctorul veni să se plîn-gă tatălui meu că-i desfrînasem copilul. So-sise deci ziua judecății. Livid dar hotărît, mă prezentai în fața tribunalului suprem. Scrisul nu erà al meu; îmi recunoscui totuși inițiativa. Doctorul, un om mic, cu ovalul figurii încadrat cu o barbă mătă-soasă și abundentă, cu ochelari petrecuți pe după urechi, se plimbă nervos prin o-dae, rămânîndu-se de precocitatea noastră. Mobilul adevărat al indignării lui erà însă cu totul altul. Trăgîndu-se de barba lui marină, mormăià desperat printre dinți:</p>
+      <p>— Auzi dumneata, niște <hi>ștudenţi</hi> să se apuce de astfel de lucruri : să-mi strice clientela!</p>
+      <p>Titulatura de «ştudent» mă umplù de un imens orgoliu: creșteam în importanță. Natura comică a doleanțelor lui fâcîndu-mă însă să-mi uit calitatea de împricinat, izbucnii într’un rîs necugetat. Doctorul cată furios la mine, în timp ce autoritatea paternă mi se lăsà greu peste obraz. Mă prăbușii într’o clipă din înălțimea orgoliului meu. În zadar, îmi spuneam că su-ferisem pentru «dînsa» ultragiul suprem; în zadar îmi înobilam durerea... Umilința pedepsii mă aruncă în fundul unei genuni. Eram dezonorat pentru eternitate. Mă simțiam nevrednic de obiectul aspirațiilor mele... Mă condamnai singur cu lealitate. Nu mai puteam iubi pe Ema. Pentru nimic în lume nu i-ași mai fi înfruntat privirile. Cînd o zăriam, mă cupripdeà o adevărată panică. Primul meu roman de dragoste erà sfîrșit.</p>
+      <p>Andrei se opri, ușor emoționat. Lulù îl ascultase, privindu-și unghiile lustruite și roze, sau alintindu-și copilărește capul. La urmă zise :</p>
+      <p>— Și ce a devenit Ema ?</p>
+      <p>Andrei zîmbi:</p>
+      <p>— Am revăzut-o aici.</p>
+      <p>Lulù își încordà figura, ca și cum feminitatea ei s’ar fi neliniștit. Andrei continuă :</p>
+      <p>— S’a măritat cu un bancher evreu. S’a îngrășat; severitatea figurii i s’a accentuat până la asprime. Nu mai vorbește englezește și nici nu mai aduce cu o domniță îndepărtată. S’a scoborît pe pamînt; în fiecare zi are partidă de cărți. Am revăzut-o adinioară la ruletă, roșie, cu ochii înflăcărați, aprigă la cîștig... Și pentru prima oară nu mi-a mai bătut inima în apropierea ei.</p>
+      
+      <p>Lulù se însenină din nou.</p>
+      </div>
+      <div type="chapter" n="3">
+      <head>III</head>
+      <p>Maestrul apărù spintecînd aerul cu re-pezeciunea unei săgeți. Erà în atitudinea lui firească : cu degetul cel mare al mînii stingi trecut prin deschizătura vestei, cu dreapta liberă pentru a-și sublinià prin gest vorba sprintenă, cu silueta lui bătăioasă și cu o tinerețe în mișcări ce contrastă cu buclele lui cărunte. Oprindu-se în dreptul lui Lulù, susură:</p>
+      <p>— Sireno !</p>
+      <p>Lulù cătă spre dînsul cu nevinovăție.</p>
+      <p>— Ai dat însă peste un Ulise nesimțitor la farmecele Sirenelor. Și-a ceruit urechile la Paris.</p>
+      <p>Ceilalți zimbiră cu înțeles afară de Alexis Diomò. Sub musteața lui neagră încă, i se zăriau dinții lungi și rari, pe care-i desvelià la supărare printr’o tremurare nervoasă a colțurilor gurii. Trecut de cincizeci de ani, smead, cu un profil fin și uscățiv, Diomò privià întunecat. Urmaș al unuia dintre domnitorii ce s’au perindat pe tronul Moldovei, aveà încă ceva din linia rasei. Ros de patimi brutale, de aventuri și de jocul de cărți, își risipise averea părintească prin garnizoanele în care-l aruncase soarta. Or-giile «prințului» erau cunoscute. Scos din armată, ajunsese prin stăruințele fa-miliei directorul prefecturii locale. Fusese frumos odinioară: brun și delicat ca un tînăr cocon fanariot din stampe, cu nasul arcuit, cu părul negru ca pana corbului și cu acea lene orientală în privire, pe care o străbateau uneori uraganele repezi de vară...</p>
+      <p>Acum aveà brazde adînci pe obraz ; părul adus în bucle îi cădeà peste o ureche tăiată într’un duel ; în ochi îi fulgeră o privire pătimașe... Ruinat, păstrase încă formele vieții de luxură ; decăderea nu-i slăbise mîndria moștenită.</p>
+      <p>Tatăl celui mai de seamă om politic din oraș fusese odinioară vechilul moșiei bătrînului Beizadea Grigore. Bogat, deștept, Iorgu Viezure îşi făcuse repede o carieră.</p>
+      <p>Beizadea Grigore murise de mult; rămăseseră numai prințesa cu trei fete și cu Alexis, ultima speranță a familiei. Moșia lor Hasca erà ciuruita de datorii în fie care săptămînă prințesa își oprià caleașca pe la bancherii orașului ca sa acopere datoriile ofițerului, în timp ce ea și fetele trăiau la țară într’o sărăcie mîndră. Iorgu Viezure nu uitase însă pe domnița Elencu; în amintirile copilăriei lui o vedeà și acum, trecînd pe alezanu-i negru prin parcul de la Hasca. Imagina ei îl însoțise pretutindeni în străinătate și-n anii de mai tîrziu. Bogat și puternic, se gindià încă la dînsa cu sentimentul fanatic al copilului ce o admirase ca pe o făptură din basme. Îl fascinase. Îi cerù deci mîna. Răspunsul lui Alexis fu scurt: «la Hasca locul de vechil al tatălui lui erà încă liber».</p>
+      
+      <p>Diomò privise tot timpul spre măsuța de lac, în jurul căreia Andrei și Lulù își alternase armonios gîndurile. O tremurare nervoasa îi deșvelise mereu dinții rari. Chemat de grija prietenească a Miei Ste-rian, care observase neliniștea lui Diomò, Andrei trecù în sala de cărți. Lulù oferi un scaun lui Ciprian. Maestrului nu-i plăceà însă să șadă. I-se opri deci în față, cercetînd-o cu ochi ironici.</p>
+      <p>— Maestre.... zise ea cu glas înăbușit, și alintat.</p>
+      <p>Tăcù totuși.</p>
+      <p>Ciprian îi răspunse scurt:</p>
+      <p>— Te-am înțeles fără să vorbești</p>
+      <p>Ea plecă ochii în jos :</p>
+      <p>— Ce-ai înțeles ?</p>
+      <p>— Ții să afli dela mine istoria lui Ulise și a Sirenelor.</p>
+      <p>Lulù își strînse gura ca un copil ce dorește ceva.</p>
+      <p>— Nu vei spune că nu te cunosc, sus-pină Ciprian. Îți citesc și gîndurile.</p>
+      <p>Diomò, ce trecuse în sala de cărți, revenise acum în salon. Cătînd îndelung la grupul din jurul măsuței, se apropie apoi hotărît. Mia Sterian veni și ea. Simțin-du-se ascultat, Ciprian își îngroșă glasul :</p>
+      <p>— Voiam tocmai, începù el privind mulțumit, voiam tocmai să-i povestesc lui Lulù o istorioară de amor și să-i supun un caz sentimental. Prèfer însă un auditor mai numeros: nu pun preà mult temei pe experiența sentimentală a lui Lulù.</p>
+      <p>Ironia prinse: un zîmbet înflori pe toate buzele. Numai Diomò își desveli nervos dinții. Artemiza Vardali suspină, cătînd spre Cleo :</p>
+      <p>— Te ascultăm, Maestre.</p>
+      <p>— Vă voi povesti, începù Ciprian, în-tîmplarea unui prieten, care a stat mulți ani la Paris. Acolo a cunoscut o femeie încîntătoare, ce se sbăteà într’o criza dureroasă de iubire. Tînărul o scăpà de la moarte, o consolà și o făcù fericită un număr oarecare de ani. Prin una din a-cele întâmplări, pe care le numim tataie, fiind în ordinea lucrurilor, el descoperi însă că prietena lui, Mab, mai aveà un amant. Durere imensă, explicații, ceartă violentă. Amantul erà un camarad al ei de copilărie : un biet desperat al vieții, un inadaptabil, un candidat la sinucidere, careia Mab îi cedase de mult dintr’un sentiment de milă și de protecție umană. În fața acestei situații echivoce, prietenul meu cerù o soluție definitivă și exclusivă. Mab șovăi, promise dar nu se ținù de cuvînt. El se revoltà și se întoarse în țară. Nebună de durere, ea plecà atunci în orășelul îndepărtat, în care celalalt a-mant își faceà stagiul militar. Acolo, află că omul, pentru care își sdrobise fericirea, erà încurcat de mult cu o femee, cu care aveà și un copil. Desperarea fusese numai o atitudine pentru a-i exploata naivitatea. O făcuse să-i se creadă indispensabilă vieții, dîndu-i un rol de binefăcătoare. Fusese victima unui furt sentimental. În fața îndoitului dezastru, nu-i mai rămase femeei decât soluția sinuciderii. Iată cazul. Faptele sunt exacte; nu sufăr nici o contro-versă. Numai interpretarea lor poate va-rià. Avem deci în discuție teoria amorului pornit dintr’un sentiment superior de umanitate și din iluzia unei binefaceri supreme. Acțiunile noastre bune ne leagă; devenim obligații celor pe cari îi obligăm. Suntem sclavii propriei noastre bunătăți. Mab a putut aveà iluzia ca e necesară existenței unui nenorocît ; i-a putut cedà din compasiune și din umanitate. Problema e însă alta. Pusă în dilema de a alege între propria ei fericire și fericirea altuia, căruia i s’a devotat, erà cu putința oare sa se jertfească pe sine ? Iată nodul. Acord deci oricui cuvîntul, fără să mi-l ceară.</p>
+      
+      <p>Ciprian tăcù. Nimeni nu răspunse. Începură apoi să vorbească cu toții la olaltă. Nervos, Diomò își desveli dinții rari, în semn de protestare. Cunoscînd legile iubirii, dintr’o oficiare îndelungă, Artemiza Vardali își exprimă cea dinții părerea:</p>
+      <p>— Iubirea din milă? E încă una din minciunile comediei amorului. Iubirea e egoistă și nu merge decît spre scopul unic al realizării ei proprii. E o forță ce nu se abate din drum, pentru a ajutà. E crudă cu alții și indulgentă cu sine. Știe ce vrea și nu cedează pasul nimănui.</p>
+      <p>Mia Sterian aveà altă părere. Trecută de patruzeci de ani, erà încă frumoasă. Renunțînd la strălucire și provocare, frumusețea ei șe închisese în rezervă și demnitate. O buclă albă de păr îi da un cadru de nobilă vetustate ce contrastà cu frăgezimea liniilor și ochilor. Din vorbă i se desprindeà o mare blîndețe și indulgența. Trecînd dreaptà și nepătatà prin viața, înțelegeà păcatul. Nu se indignà de nimic și iertà orice slăbiciune îndărătul căreia bănuia un sentiment real.</p>
+      <p>— Amorul, zise ea blînd, e un sentiment multiplu și nuanțat; ne poate rezervà și surpriza omeniei... Că o femee s’a putut jerti unui bărbat, e un lucru ce intră nu numai în posibilități ci și în probabilități. Femeia e un rezervoriu imens de sacrificii; e născută soră de caritate. Înfruntînd de atîtea ori primejdia morți, din simplă umanitate, o cred capabilă și de sacrificiul suprem al iubirii simulate. Mulțumirea de a se crede indispensabil cuiva e imensă. Deprînsă de a trăi din viața și din protecția bărbatului, femeia e în stare de avînturi sublime cînd vede că poate fi și ea o creatoare de energie și de fericire... Adevărata problemă se reduce însă la raportul dintre fericirea de a da și de a primi : forțe reale ce se pot măsură într’un suflet bine echilibrat... Egoismul triumfă, desigur, mai des. Admit totuși că se poate găsi și un exemplar rar de feminitate care să prefere să deà decît să primească. O excepție, nu însă o imposibilitate. O admir deci și mai mult.</p>
+      <p>Ciprian sublinie prin omagiul unui gest nobleța cuvintelor Miei. Lulù tăceà, absorbită... Ochii ei priveau departe, iscoditori, ca și cum ar cătà pe cineva. Diomò o urmărià cu nervozitate. Apoi, pentru a-și alungà preocupările prin sgomot, se aruncă într’o ieșire violentă, cu o pasiune nestăpînită.</p>
+      <p>— Iubirea și mila? Noțiuni contradictorii și exclusive. Unde a intrat mila, nu mai poate intrà iubirea. Puse față ’n față sunt forțe inegale. Învinge totdeauna iubirea. Amorul nu e cariera unei surori de caritate. E un sentiment unic și violent. Nu durează mult, dar atît cît există mișcă munții din loc și incendiază universul... Este însă un sentiment rar. O pasiune mare este un lucru tot atît de singular și de grandios ca erupția unui vulcan.</p>
+      <p>Artemiza Vardali îi privi cu ochi lacomi, în care tremurà flacăra unei pasiuni nestinse. Aprobîndu-i fiecare cuvînt cu gesturi expresive, nu se putù opri de a nu bate ușor din palme Diomò reluà însă cu a-aceiași vehemență:</p>
+      <p>— O astfel de iubire e absolută și nu admite nici un fel de transacție... Sunt însă și alte iubiri comode, mlădioase și transfusibile... Unele femei le practică deschis, fără groaza impurității; cele mai multe le caută însă motive onorabile pentru conștiința lor sau a altora. Mila poate păreà o scuză sufletelor caritabile și duioase. Să te apleci deasupra unei ființe nefericite, și să-i aduci balsamul amorului — ce faptă frumoasă! În realitate, e la mijloc numai un compromis. Compasiunea și iubirea nu și-au împrumutat decît numele și aparențele, pentru a legitimà interesul sau desfrîul.</p>
+      <p>Maestrul interveni cu ton de arbitru :</p>
+      <p>— Nu trebue să uiți totuși că eroina a plătit cu viața o greșală poate,— o credință și un sentiment, desigur.</p>
+      <p>Diomò reflectă o clipă. Apoi:</p>
+      <p>— Sinuciderea nu legitimează nimic. Cînd i-a plecat amantul, nu s’a sinucis,— nu-l iubià deci în deajuns sau de loc. S’a dus la celalt. Aflîndu-i însă trădarea, a înțeles realitatea: în loc de doi amanți, nu rămăsese cu nici unul. Și-a rezolvat atunci încurcătura prin moarte, își jucase comedia milei ca o rațiune a duplicității; — i se jucase însă o comedie mult mai dibace, pe care n’a putut-o suportă...</p>
+      <p>Mia îi întrerupse cu glasul ei blînd și împăciuitor:</p>
+      <p>— D-l Diomò generalizează prea muie ura ce ne poartă. Sunt femei și femei, după cum sunt bărbați și bărbați. Nu judecăm cazul în sine pentru că nu-l cunoaștem ; judecam numai posibilitățile. Puteà să-i înșele pe amîndoi, cum se în-tîmpla atît de des. Admit totuși în principiu că puteà iubi numai pe unul, tole-rînd pe celalt din umanitate sau din iluzia de a fi necesară unei vieți omenești...</p>
+      <p>Urmă o clipa de tăcere. Ciprian se întoarse curtenitor spre Lulù :</p>
+      <p>— Numai doamna gîndurilor noastre sta visătoare și nu-și dă părerea într’o chestiune atât de arzătoare totuși.</p>
+      <p>Lulù îi răspunse, zimbind:</p>
+      <p>— Fiecare își rezolvà problema fericirii pentru sine; fără să țină seamà de altul... Nu suntem îngeri ci oameni. Procedam deci ca oamenii. Maestrului, de pildă, îi e mai prețios un fir de păr al lui decât întreaga chică de Samson a vecinului.</p>
+      <p>Toți zâmbiră, privind la nobila chelie a lui Ciprian, lucie sub lumina polican-drului. Subțiindu-și buzele, el șueră:</p>
+      <p>— Două lucruri sunt deopotrivă de netede: chelia mea și conștiința d-tale.</p>
+      <p>Apoi ca încheiere a întregei discuții, continuă în ton de arbitru:</p>
+      <p>— Deși suntem în fața unui tribunal atît de competent, n’am ajuns la nici o concluzie. E soarta tuturor discuțiilor o-menești. Părerile n’au decît valoarea unor documente sufletești. Ne zugrăvim în vorbele noastre, și atît. Ne resemnăm deci de a nu ști nimic despre Mab : a fost o femee vinovată sau numai o simplă femee ca toate celelalte ?Știm, în schimb, că Diomò iubește cu pasiune, nutrind totuși o ură înverșunată și neîndreptățită împotriva femeilor ușoare; mai știm că Lulù nu e înger ci om și începe caritatea cu sine, și mai știm că d-na Mia Ste-rian concepe nobleță unui amor dezinteresat și chiar primejdios fericirii proprii, cu toate că nu are în vedere decât posibilități principiale excluse de la realizare, în ceea ce o privește. Judecind pe alții, ne judecăm deci pe noi, sincer și naiv. Marginile universului rămîn tot în marginile conștiinții noastre.</p>
+      <p>Discuția păreà închisă cu acest luminos rezumat al lui Ciprian, cînd Lulù întrebă de odată:</p>
+      <p>— Dar despre erou nu ne-ai spus nimic.</p>
+      <p>Ciprian se întoarse:</p>
+      <p>— Care erou?</p>
+      <p>— Prietenul d-tale.</p>
+      <p>Diomò își mușcă buza pînă la sînge; nervos, își desveli apoi dinții rari. Ciprian rosti totuși cu indulgență:</p>
+      <p>— Prietenul meu e un erou fără voe. N’a făcut nimic ca să și merite soarta... E printre noi și își poartă rana cu bărbăție. O rană de iubire nu poate fi însă închisă decît tot de mîna unei femei. Se cere deci un devotament.</p>
+      <p>Toți tăcură:</p>
+      <p>— O tăcere, reluă Ciprian, nevrednică de un oraș cu atîtea fentei frumoase.</p>
+      <p>Bărbații zimbiră ; femeile își lăsară ochii în jos cu pudiciție. Arătîndu-și lecturile clasice, Maestrul încheiè cu solemnitate :</p>
+      <p>— Se cere o jertfă umană. Corăbiile Grecilor ne putîndu-se  urni din Aulis pentru expediția lor eroică, a trebuit sacrificiul Ifigeniei ca să deslege blestemul zeilor.</p>
+      <p>Și cum nici de data aceasta nu-i răspunse nimeni, exclamă, răsucindu-se pe tocuri :</p>
+      <p>— Îmi vine să repet și eu vorba memorabilă a Cneazului: nu mai sunt femei ! nu mai sunt femei !...</p>
+      </div>
+      <div type="chapter" n="4">
+      <head>IV</head>
+      <p>Grupul se desfăcù din nou. Lulù căutà ceva din ochi. Negăsind, se îndreptă ușoară spre bufet. Diomò o ajunse din urmă. Privind-o întunecat, îi zise printre dinți:</p>
+      <p>— Să-ți văd ochii !</p>
+      <p>Fără sa clipească, ea îi răspunse:</p>
+      <p>— Îi cunoști...</p>
+      <p>— De-i cunosc! exclama el pătimaș. De atâta timp nu cunosc decât ochii tăi, Lulù! Te-am ținut în brațe cînd erai numai o fărâmă omenească și te-am văzut apoi crescînd. Ți-am cunoscut ochii, pe cînd nu știau nimic din viață și îi urmăresc și acum cînd știu atîtea. Nu m’ar puteà înșelă...</p>
+      <p>Pironindu-i apoi sub privirea lui violentă, continuă:</p>
+      <p>— Uite-i ! Par senini și nevinovați ; citesc totuși în ei păcatul.</p>
+      <p>Lulù voi să plece. El îi răsuci brusc mîna:</p>
+      <p>— Iubești!</p>
+      <p> Iar ea, rîzînd :</p>
+      <p>— De unde știi ?</p>
+      <p>— Din ochi. Citesc în ei călătoria pentru care te îmbarci. Nu plecà, Lulù! Nu te duce, Lulù !...</p>
+      <p>Ea voi să-l abată de la gîndul lui:</p>
+      <p>— Ai nimerit-o. De s’ar puteà citi gîndul omului, mi-ai vedeà în ochi o galeră fugind. Mi-e dor să plec... Mi s’a urît cu locurile de pe aici.</p>
+      <p>— O dorință, pe care nu ți-o cunoșteam. Ți-a venit, stînd de vorbă în jurul unei măsuțe.</p>
+      <p>Luîndu-i apoi din nou mâna, i-o strînse cu putere:</p>
+      <p>— Îl iubești ?</p>
+      <p>Ea îl privi nedumerită.</p>
+      <p>— Spune-mi că nu !</p>
+      <p>— Nu, răspunse ea mecanic.</p>
+      <p>— Nu-i adevărat ! replică el violent.</p>
+      <p>Iar ea cu candoare:</p>
+      <p>— Atunci de ce mă ’nveţi să mint? Diomò rămase dezarmat:</p>
+      <p>— Lulù !</p>
+      <p>Ea făcù un pas ; se întoarse apoi calm. Îl întrebă cu nevinovăție :</p>
+      <p>— Nici nu mi-ai spus pe cine-liubeste ?</p>
+      <p>Diomò se încruntă :</p>
+      <p>— Știi prea bine. Ați suspinat adinioară amîndoi în jurul măsuței.</p>
+      <p>Lulù deschise ochii mari, apoi, izbucni:</p>
+      <p>— Nu-l cunosc decît de cîte-va minute ! A, nu ! Nu sunt atît de grăbită, lubindu-l pe Adam dintr’odată, Eva aveà scuza singurătății ; n’aveà greutatea alegerii. După atîtea mii de ani și în mijlocul unei o-meniri atît de variate, îmi vei acordà ceva mai mult răgaz pentru a mă hotărî.</p>
+      <p>Diomò îi ținù însă piept:</p>
+      <p>— Ochii tăi nu mă înșeală, Lulù, cum vor să mă înșele cuvintele. Povestea lui Ciprian a venit la timp, pentru ca imaginația ta să lucreze în albastru.</p>
+      <p>Apoi cu un ton incisiv :</p>
+      <p>— Un erou pentru care femeile se sinucid !</p>
+      <p>— De cine vorbești ?</p>
+      <p>— De Lerian.</p>
+      <p>— De unde voiai să știu că romanul lui Ciprian privià pe d. Lerian ?</p>
+      <p>Diomò o fixă ironic :</p>
+      <p>— De aceia îl cântai din ochi pretutindeni !...</p>
+      <p>Lulù îl măsură compătimitor. Cu gestul invizibil de a-și ridicà rochia pentruar trece o apă, păși apoi mai departe, p ă și neștiutoare.</p>
+      <p>Ajungînd la ușa bufetului, îi tăie drumul Puiu Cercel, copil precoce, desghețat cu o lipsă de sfiiciune aproape anormală, cu o figură pală și perversă de om ce a gustat totul și nu mai pune nici un temei pe bucuriile existenței.</p>
+      <p>Înfigîndu-și cercetători monoclul, se opri drept în fața lui Lulù.</p>
+      <p>Cu un amestec de nepăsare supremă și de impertinență, îi zise apoi:</p>
+      <p>— Lulù, ai de gînd să mă înșeli !</p>
+      <p>Figura femeei se schimbă dintr’odată. Din senină și pură deveni veselă și provocatoare, cu o mică tremurare nervoasă a buzei de deasupra ce-i înfiorà puful blond, cu licăriri repezi în ochii ațâțători. Arătîndu-și dinții mici şi ascutiti, suspină :</p>
+      <p>— Și tu ! .</p>
+      <p>— Cum și eu ! Ți-a mai spus-o cineva ?</p>
+      <p>Puiu păru atins în demnitate. Lulù avù aerul obosit:</p>
+      <p>— De abia acum am scăpat de Maurul din Veneția.</p>
+      <p>— Ți-a spus că-l înșeli ?</p>
+      <p>Lulù îl privi printre gene:</p>
+      <p>— N’are dreptul să fie înșelat.</p>
+      <p>Puiu isbucni :</p>
+      <p>— Ești fermecătoare, Lulù ! ai niște expresii ! «N’are dreptul să fie înșelat». Un drept cu totul neprevăzut în marea carte a drepturilor omului...</p>
+      <p>Apoi, înclinîndu-se grațios :</p>
+      <p>— Îți mulțumesc că mi-ai dat dreptul de a fi înșelat.</p>
+      <p>Înclinîndu-se și ea. Lulù îi răspunse :</p>
+      <p>— Dreptul nu înseamnă însă și obligația. Pierzi numai atunci cînd nu știi să ții.</p>
+      <p>Iar Puiu glumeț:</p>
+      <p>— Cum să luptăm însă cu bărbații irezistibili, cu șampionii Parisului, cu oameni, pentru care femeile se sinucid ! Cum sa luptam în lipsa noastră de prestigiu de provinciali ce nu cunoaștem practica în-naltă a amorului !...</p>
+      <p>Lulù își tremură nările, respirînd adînc. Un fior de plăcere îi trecu prin ființa pură. Se stăpîni totuși. Își plecà genele mătăsoase, luîndu-și aerul de Fecioară. Păși mai departe, nevinovată, ca și cum nu's’ar fi simțit deodată turburată.</p>
+      <p>Făcînd cîți-va pași, o opri Artemiza Vardali:</p>
+      <p>— Să fie oare adevărat romanul, pe care ni l’a povestit adinioară Maestrul Ciprian?</p>
+      <p>— Știu eu !</p>
+      <p>— E vorba, de sigur, de d. Andrei Lerian ?</p>
+      <p>Lulù părù mirată, ca și cum ar fi auzit întîiaș data numele acesta ce-i vîjîià to-tuși în urechi.</p>
+      <p>— D. Andrei Lerian? Nu știam. Maestrul nu ne-a spus nimic precis de eroul lui.</p>
+      <p>Artemiza își mușcă buzele. Citea nesinceritatea în trăsăturile, de altfel, atît de pure ale lui Lulù. Ascuțindu-și buzele, zise apoi șuerător :</p>
+      <p>— Ai dreptate. Îmi închipuisem totuși că la măsuța din salon, d. Lerian ți-a povestit singur romanul lui.</p>
+      <p>Lulù răspunse senin:</p>
+      <p>— D. Lerian mi-a povestit, în adevăr, un roman de amor; nu însă pe ăstu.</p>
+      <p>Apoi zîmbi:</p>
+      <p>— E un om plin de romane de amor. Trebue să ne înfrinăm imaginația.</p>
+      <p>Ironia prinse, Artemiza păli. Fusese frumoasă în tinerețea ei, naltă, subțire, cu pielea fină și satinată. Acum, la 40 de ani, se ofilise. Păreà o floare scuturată, ochii i se adîncise în orbite, pielea se lipise pe os; devenise imaterială şi străvezie. O suflare de femee, în care batea totuși ritmul unei vieți puternice, pe care o bănuiai din patima privirii. O-rigina meridională îi adusese în vine un sânge cald și-i dăduse o imaginație fierbinte. Nu vedeà lucrurile în proporția lor le mărià trecîndu-le prin focarele imaginației. N’aveà simțul armoniei și al e-galității; înălțà sau scoborà, iubià sau urà. Erà o pasiune în veșnică mișcare; un motor activ și huruitor ce o împingeà spre fapte sublime sau josnice. Complică în totdeauna. Gesturile cele mai simple i se păreau adînci și încurcate. Le inter-pretà, deformîndu-le până la grandios sau la grotesc. Aveà resurse nesfârșite; în jurul unui nimic broda un roman în-treg. Erà stăpânită de geniul intrigii și și al complicației sentimentale. Cu însușiri creatoare atît de mari, își irosise totuși tinerețea prin garnizoanele de provincie, pe urma unui bărbat moliorît și pașnic. Își clieltuise imaginația în aventuri mărunte; nevoia unei iubiri poetice și pasionate cu scări de mătasă, cu primblări pe lac, cu epizoade dramatice și sensaționale, cu declamație și rapt i se limitase la scurte intrigi, cu posesiuni brutale prin odăile prozaice ale hotelu-rilor de provincie — fără poezie și fără ; dramă. Înțelegându-i firea din primii ani ai căsătoriei, Vardali își apărase liniștea prin-tr’o ignorare principială. Erà o nesățioasă amorului. Viaţa îi fusese totuși vitregă: nu-i aruncase decât farămituri. Își pusese ; însă speranța supremă în fata, pe care o adoră cu toată exagerația caracterului ei.</p>
+      <p>In Cleo se vedeà cu douăzeci de ani îndărăt; tînără, frumoasă, plină încă de iluzii. Nările subțiri îi fremetau pasionat la gîndul tinereții bogate în aspirații. Apropiindu-se de dînsa cu ochii visători și enigmatici, o întrebă :</p>
+      <p>— Ce zici de Lerian și de romanul lui de dragoste ?</p>
+      <p>Cleo erà mult mai potolită. În vinele ei se amestecase și sîngele liniștit, de bărbat filozof și înșelat al lui Vardali. Imaginația ei nu lucrà decît sub biciul de foc al Artemizei. Se scuturà deci ca dintr’o lîncezeală:</p>
+      <p>— Tocmai eram să te întreb și eu pe tine, <foreign>maman</foreign>!</p>
+      <p>Artemiza o privi pătimașă. Nu-i răspunse nimic.</p>
+      <p>Prin gînd îi trecù însă vorba Cneazului: «nu mai sunt tineri !» De ar fi a-vut ea douăzeci de anii! Ar fi voit să-i treacă lui Cleo, ceva din flacăra ce o consumà... Cleo păreà rece și nepăsătoare... Nu mai sunt fetei... Artemiza se înșelà totuși. Imaginația fetei nu erà amorțită... Printre gene i se părea că zărește în perspectiva depărtării un tînăr ce seamănă cu Andrei, căruia își simțià nevoia imperioasă de a i sacrifică viața... Picătura de sînge a Artemizei îi ardea, prin vine.</p>
+      </div>
+      <div type="chapter" n="5">
+      <head>V</head>
+      <p>Lulù întîlni, în sfîrșit, pe Ciprian.</p>
+      <p>— Maestre, știi că povestea prietenului d-tale m’a mișcat?</p>
+      <p>Ciprian o privi ironic:</p>
+      <p>— Știu, negreșit. De aceia ți-am și po-vestit-o.</p>
+      <p>O clipă de tăcere. Lulù nu-și găsià cuvintele.</p>
+      <p>— Cred că eroul ei e d-l Andrei Le-rian?</p>
+      <p>Ciprian întări : ,</p>
+      <p>— Negreșit.</p>
+      <p>Lulù erà încurcată de scurtimea, răspunsurilor lui Ciprian.</p>
+      <p>— Și i s’a întîmplat întocmai așa?</p>
+      <p>Ciprian zîmbi :</p>
+      <p>— Am fantezie : e un dar al zeilor. Din romanul lui Andrei am preferat însă să suprim. Am rămas mai pe jos denatura. N’am voit să maculez conștiința nevinovată a copilului, să tulbur visarea albastră a Fecioarei, nici să trezesc lascivitatea amoroasă a Venerei,— binefacerea oamenilor și a zeilor.</p>
+      <p>Lulù îl provoca:</p>
+      <p>— Cu ce anume ?</p>
+      <p>Ciprian se închise în tăcere:</p>
+      <p>— E o taină...</p>
+      <p>— Nu te prind tainele.</p>
+      <p>— Sunt prin definiție indiscret, răspunse Ciprian. Știu. E una din gloriile mele. Prin glasul meu micile gesturi omenești iau importanța sonoră a lucrurilor memorabile ce vor înfruntà timpul. E dreptul artei de a exprimà, înfrumusețînd și proclamînd miracolele vieții. Știu totuși să și tac.</p>
+      <p>Lulù bătù cu tocul în parchet.</p>
+      <p>— Nu văd logica.</p>
+      <p>— O văd însă eu. Discreția poate fi uneori mai fecundă decât indiscreția și tăcerea mai creatoare decît vorba înaripată.</p>
+      <p>— Nu te înțeleg.</p>
+      <p>— Tăcind, îți las posibilitățile imense ale imaginației. Nu ți-am dat decît elementele indispensabile, pe care imaginația le va fecundà în proporții uriașe.</p>
+      <p>Și privind-o apoi cercetător:</p>
+      <p>— Lulù, iată doi ochi ce nu se vor închide la noapte. Și nu se vor închide,— nu din cauza urei, a geloziei, a neliniștii, nici chiar din cauza voluptății înșelătoare, ci din cauza visării albastre, i fericesc, înaintea lor vor zări chipul unui tînăr, al unui necunoscut aproape,— de care se leagă o iluzie:— suprema iluzie! Liniș-tește-te, Lulù: lasă-ți căpșorul pe perine, lasă-l să viseze și sa culeagă din visare rodul savuros al iubirii ce se apropie... Nu-mi cere să vorbesc. Realitatea, transfigurată chiar de arta mea, e mai pe jos de imaginația copilei, cu ochii albaștri, ce-și scufundă capul în puful perinelor... Visează, Lulù, în pace... Din gîndurile tale frivole vei reconstitui drama, în care s’a prăbușit o femee, mai bine decît a-și povesti-o eu... Idealizează-ți eroul: e opera fecundă a naturii. Se apropie iubirea, Lulù clipa cea mare, apoteoza în care lumea întreaga dispare pentru a lăsà pe pămînt numai două ființe.</p>
+      <p>Lulù îl privi cu emoțiune. Îi atinse apoi ușor mâna, rostind cu glas tremurat:</p>
+      <p>— Iartă-mă de tot răul ce ți-am făcut. Senin și măreț, Maestrul îi răspunse:</p>
+      <p>— Te am iertat de mult, Lulù, după cum am iertat pe toate femeile ce m’au înșelat sau mă vor înșelă. E soarta noastră. În fața feminității fluide și multiple, formele noastre sunt reduse. N’o putem deci satisface. Ne lunecà pe dinainte: rîu gra-țios în care ne oglindim ochii fericirii o clipă. Te-am adorat, Lulù, și te-am iertat de tot răul ce mi-ai făcut. Suspinul mi s’a prefăcut în romanțe; durerea în cân-tece. Le am fixat în formele artei. Mi-ai sporit puterile sufletului, îndreptîndu-le spre țelul pentru care m-am născut.</p>
+      <p>Mi-am îndeplinit deci menirea după cum tu ți-ai îndeplinit-o pe a ta : o! voluptate a zeilor și a oamenilor, copilă, Fecioară, și Veneră, satisfăcînd toate ti-purile femeiei, pe care le-a plăsmuit idea-lismul sau sensualitatea bărbatului. Nu te iert numai: te binecuvintez chiar pentru iluziile și amărăciunile, pe care le-ai se-mănat în mine, spre a rodi sub forma artei.</p>
+      <p>Devenind liric, maestrul făceà gesturi largi de binecuvîntare. Sub puterea unei emoții violente, Lulù își puse mâna în mâna lui aristocratică.</p>
+      <p>— Atunci ani făcut pace?</p>
+      <p>— Am făcut-o din clipa în care ţi-am înțeles menirea sublimă. M’am închinat în fața ei ca dinaintea unui oficiu divin de a aduce zîmbetul zeilor pe pământ și de a scoborî cerul în sufletele muritorilor. Comoara neprețuită a ființii tale nu trebue păzită în tainița avarului; se cuvine să-și salte aurul sub ochii înfo-metaților fericirii supreme a amorului. Te am iertat și te-am binecuvîntat, salutînd în tine azima și vinul liberator din proza vieții, poezia misterului feminin ce ne atrage și ne sporește puterile, poarta deschisa spre ideal, spre uitare de sine. Am înțeles că trebue să-ți împlinești menirea aiurea, lărgind granițele fericirii o-menești, — O ! Afrodită Polyandră.</p>
+      <p>Retrăgându-mă în mine, mi-am clădit apoi un templu, în altarul căreia se înalță idolul tău chryselefantin...</p>
+      
+      <p>Zorită de aceeaș neliniște, Lulù ajunse, în sfîrșit, în bufet, în care, singur și măreț, Còlea înfulicà la o masă cu gesturi de erou homeric. Ea voi să se întoarcă. Còlea îi prinse mînuța în mîna lui roșie și mare, cu vine noduroase :</p>
+      <p>— Stăi, fetico !</p>
+      <p>Lulù se sbătù o clipă. Deși captivă, cătà cu privirea departe. Tremurîndu-și bărbia râsfrîntà, Còlea zîmbi:</p>
+      <p>— Îl cauți!...</p>
+      <p>— Nu caut pe nimeni.</p>
+      <p>Mlădiindu-și glasul, uriașul stărui;</p>
+      <p>— Eu îți spun că-l cauți.</p>
+      <p>— Pe cine ?</p>
+      <p>— Pe dînsul.</p>
+      <p>— Care dînsul ? întrebă Lulù.</p>
+      <p>Còlea isbucni:</p>
+      <p>— De unde să știu eu cum îl cheamă? E el însă-eternul <hi>el</hi>, după care îți lunecà ochii lîncezi.</p>
+      <p>Lulù dădù din umeri, făgăduind. El suspină :</p>
+      <p>— De ce n’am cincizeci de ani mai puțin!</p>
+      <p>In glasul lui vibrà ecoul imensului regret de a fi renunțat la cea mai mare bucurie a vieții.. Apoi cu blîndețe și înduioșare îi dădù drumul :</p>
+      <p>— Ești liberă, fetico. Du-te iute după dînsul. Caută-l; iubește-l. Iubește, fetico! Ascultă-mă pe mine : atît e bun și dulce pe lume. Iubește cît ține tinerețea ; cînd vei ajunge ca schija asta a mea va fi prea tîrziu :iubirea nu se mai întoarce.</p>
+      <p>Și cu gingășie, uriașul se înclinà ca un Vulcan deasupra unui fragil juvaer, sărutîndu-i podul palmei, în cari căzù o lacrimă caldă. Își șterse apoi ochii, zîmbind:</p>
+      <p>— Acum du-te, fetico. Nu mai sta. Toate momentele petrecute cu mine sunt pierdute pentru tine.</p>
+      <p>Mișcată, femeia îi zîmbi. Plecă apoi, sprintenă, în căutarea destinului. Într’o sală de alături, zări, în sfîrșit, pe Andrei, stînd de vorbă cu Îliuța Sterian.</p>
+      <p>Fără nici un gînd hotărît, ca dintr’o chemare poruncitoare, ea păși spre dîn-sul. În salon, muzica începuse tocmai un vals. Perechile se învîrteau.</p>
+      <p>— Domnule Lerian, îi zise cu simplicitate, aș voi să-mi faci plăcerea unui vals.</p>
+      <p>Dorința îi venise fără să se fi gîn-dit mai dinainte. Voia să-l aibă aproape. Andrei se împurpurà de plăcere; un val îi înfiorà obrazul ; abia putù îngînà :</p>
+      <p>— Închipuește-ți că nu știu dansà. E prima dată cînd o regret.</p>
+      <p>Rămaseră amîndoi, tăcuți, privindu-se ochi în ochi. Voind să-și spună ceva, nu găsiră nimic. Clipele de tăcere li se păreau veacuri. Se credeau pierduți. Dinspre salon se apropie la timp Puiu Cercel, cu gesturi de eleganta nepăsare. Piro-nindu-și monoclul în ochiu, oferi brațul lui Lulù:</p>
+      <p>— Un tour de valse ?</p>
+      <p>Candidă și sinceră, ca și cum ar fi rostit un adevăr fundamental, Lulù îi răspunse:</p>
+      <p>— Iartă-mă, te rog. Mă doare puțin capul și nu mai dansez astă seară.</p>
+      <p>Intorcîndu-se spre Andrei, pareà însă a-i zice cu expresia întregei ei ființe încordate : nu voi mai dansà niciodată!</p>
+      <p>In renunțarea ei, erà totuși bucuria imensa a unei jertfe.</p>
+      </div>
+      <div type="chapter" n="6">
+      <head>VI</head>
+      <p>— «Iartă-mă, te rog. Mă doare puțin capul și nu mai dansez astă-seară».</p>
+      <p>Rostite atît de simplu și spontan, cuvintele îi răsunau în urechi ca o muzică suavă. Andrei visă acum în pat cu ochii deschiși și imobili. Erà în aproprierea dimineții ; viața scăzuse cu totul ; liniștea, stăpînià funebră, înainte de revărsatul zorilor. Pe ulița nu se auzià nici un pas ; noaptea pareà înlemnită pentru veșnicie. Deși murise afară, în vinele lui Andrei viața batea totuși într'un ritm tumultuos.</p>
+      <p>— «Iartă-mă, te rog. Mă doare puțin capul și nu mai dansez astă-seară».</p>
+      <p>Cuvintele îi picurau în urechi în armonii felurite, cînd blînde și șoptite, cînd impetuoase. Le desfăceà în silabe, îmbă-tîndu-se de sonoritatea lor ; le unià apoi în împerecheri lungi și șerpuitoare. Nu le auzià numai ci le și vedeà ; în întunericul odăei i se păreau uneori un șir de puncte luminoase, de liniuțe mișcătoare, de virgule de foc trase de un deget invizibil.</p>
+      <p>— Ce voise să spună și prin atitudine și prin vorbă? De ce refuzase să danseze cu Fuiu, cînd cu un minut înainte îl invitase pe dînsul?</p>
+      <p>Întrebări simple și naive cu răspunsuri evidente.</p>
+      <p>Lui Andrei i se păreau însă pro-funde și insolubile... Din temperament și din nevoia complicației, nu vedea lim-pede. Nu cunoștea linia dreaptă; își creà singur obstacole, nu din dorința eroică de a le învinge ci din teama de a nu se fi înșelat.</p>
+      <p>Sub puterea sentimentului instrumentul ; rațiunii se falsifică; din experiență și, mai ales, din fire, Andrei erà prevăzător pînă la exces; căutà explicații ascunse lucrurilor elementare; își căutà, de fapt, o amînare a acțiunii.</p>
+      <p>De ce-l refuzase pe Puiu, și-l preferase pe dînsul ? întrebare de prisos. Ca și vîntul, amorul bate în toate direcțiile. Deși n’aveà orgoliul ființii lui fizice, Andrei nu erà lipsit de egoismul vieții; și-l refugiase însă în suflet.</p>
+      <p>In amănunt, nu se credeà superior ce-lorlalți; în totalitate, se închipuià purtătorul unei flacăre divine : egoism necesar. Căci, de ne-am resemna la ideia că suntem una din nenumăratele forme banale ale vieții, am resimți și mai tragic sentimentul inutilității. Dîndu-și seama de naivitatea prezumției, se lăsà totuși dominat de instinctele fundamentale ale omului. Superioritatea lui morală erà unui din postulatele existenței; necercetînd-o, o acceptà ca pe un principiu indiscutabil...</p>
+      <p>Omul fizic nu-l interesà, nici nu’și închipuià că ar puteà interesà pe cineva. Împins de curiozitate, se scula totuși din pat și se duse la oglindă. Aprinse o lumînare. Sbătîndu-se, limba flăcării îi deformà figura. Nu erà frumos. Mic, plă-pînd, puțin cam îmbătrînit pentru cei treizeci de ani ai lui, spînatic, cu puful unei mustăți blonde deasupra buzei cărnoase, cu bărbia proeminentă, rotundă, accentuînd un fel de vulgaritate ce contrastà cu puritatea ideală a ochilor. Aveà, în adevăr, ochii mari, melancolici, sub pleoape adormite, cu o privire visătoare, dînd un caracter figurii lui, de altfel, inexpresive.. Nu erà un om de voință și de energie; peste chipul lui palid și puțin cam lungueț îi plutià însă un aer de blîndețe ce o înnobila. Andrei se con—templà lung în tremurarea flăcării. Erà nedormit şi tras la față; privirea îi stră-lucià mai mult ca de obicei ; în locui lîncezelii fluturà parcă o luminița vo-luntară și cuceritoare. Își zîmbi binevoitor.</p>
+      <p>Nu-și puteà totuși închipui că trupul lui strivit de o greutate ce-i atirnà pe umerii aduși, că fața lui palidă puteau plăceà dintr’odată, printr’o chemare po-runcitoare. Încrederea în sine e fațeta morală a factorului fizic. Conștiința fru-museții trezește în suflet energia nece-sară pentru a plăceà și dominà. Se în-doise totuși cîndva. Într’o seară, văzuse un bărbat cărunt, cu mîneca văduvă de braț, făcînd gesturile întrepride ale amorului în urma unei fete frumoase. Înfirmitatea nu-i stânjenià încrederea și afirmația voinței lui amoroase. O ignorà total: după piciorușele ce se deschideau repede și mărunt, el pășià îndesat cu încordarea unui țel precis. Păreà un vînător ce’și întinde lațul, sigur că vînatul abià v'a svîcni puțin înainte de a se lăsà în voia unicului braț ce-l va încolăci, voluntar și dominator.</p>
+      <p>În insomnia lui, amintirea i se încălzi. Cazurile de teratologie amoroasă i se înmulțiră. Din trecutul îndepărtat i se deșteptă deodată în minte icoana unui prieten de copilărie. Isteț, sprinten și ușu-ratec, Biță își făcuse din femeie unicul scop al vieții. Îl răsplătise însă rău. Excesul de succese îl silise la o tragică necesitate. Amputarea unui picior îi dădu repede o altă înfățișare : un trup masiv și cărnos de sedentar, o față bolnavă spuzită de flora, unui sânge vițiat, peste care se prelingea pudra deasă, un abundent păr negru și creț lăsat pe o frunte romană. Veselia nu i dispăruse totuși odată cu piciorul. Erà tot alegrul Biță, organizatorul petrecerilor, confidentul sentimental al femeilor, marele maistru de ceremonii. Nu mai dansà, firește; ochiul lui urmârià însă cu voluptate evoluția picioarelor fine... Înfirmitatea nu-i ridicase nimic din optimismul înăscut; îi dăduse, dimpotrivă, posibilitatea unor glume neprevăzute. Trăià în preajma femeei ca și înainte, din obiceiul de a i respirà parfumul. Așa își în-chipuià, cel puțin, Andrei.</p>
+      <p>Din roiul lumei bucureștene ce venise în orășelul de munte, Andrei distinsese silueta Adinei. Îi plăceà prin forma sta-tuarică, prin bogăția bustului îngustat de un mijloc subțire, prin rotunzimea șoldurilor armonioase. O forță stăpînită în grație și măsură; un monument solid, îndulcît totuși de gracilitatea mijlocului şi modelajul fin al picioarelor. Înspiră siguranța fără sa excludă ideia slăbiciunii, expresia supremă a feminității. N’aveà un oval pur; ochii de migdală îi îndulceau totuși asprimea.</p>
+      <p>Lui Andrei îi plăceà să se strecoare în brazda ei armonioasă, urmărindu-i mersul sigur, grația șoldurilor rotunde, promisiunea sânului, jocul elastic al mușchilor. O cunoșteà, cum se cunoaște toată lumea : în vilegiatură; nu știà totuși nimic de dînsa. Dintr’o nevoe sufletească primară, o idealizà ca pe toate celelalte: fără a cercetà, o credea deci cinstită. În rîsul sensual și în gura ei de rodie, citise triumful materiei nu și degradarea ei. Ochiul o desvelià poate; mîna n’ar fi îndrăznit însă gestul suprem. Aveà pentru nudul femeei, timiditatea cuvenită unui obiect de cult. Adina îi zîmbise cu o vagă ademenire, pe care el n’o înțelesese însă. Nu știà încă interpretà gestul frivol al femeei. Pe muchia ascuțită a vorbelor și a zîmbetelor, nu știà să-și ia o atitudine fermă. Se temeà să nu fie răsturnat. Ne fiind om de realități, înfrîngerea l’ar fi zguduit mai mult de cît succesul. Viața lui se îndrumà spre o analiză inutilă. Ceia ce pentru altul ar fi fost un imbold de luptă, pentru dînsul ar fi devenit o cata-strofă morală. Nu-i descifrase deci zîm-betul. O urmărià numai din ochi, cum dominà gloata oamenilor, prin statura-i de Cybelă, făcîndu-și loc prin flexibilitatea mușchilor ei de tînără felină.</p>
+      <p>Într’o seară opacă, zări o siluetă ieșind grăbit pe portița de din dos a gradinei lui Biță. Andrei zîmbi: «sunt femei cari vin la Biță!» Îndesă pasul. Se opri însă brusc : în linia plină a trupului, în mișcare, în mlădierea lui grațioasă recunoscuse pe Adina. Scrutînd ulița, pe sub voaleta deasă, ea dispărù în noapte.</p>
+      <p>Andrei își simți respirarea curmată. N’o iubià, desigur, îi plăcuse totuși și imaginația lui o situase deseori în pozițiuni voluptoase dar armonioase, ce-i satisfăceau simțul estetic. Suferià acum tocmai în estetică. Nu puteà suportà viziunea acestei perechi disproporționate. Grupul grotesc se descompuneà pe retina lui indocilă. Nu-și puteà închipui pe Adina în brațele lincezi ale lui Biță. Nu înțelegea nici impuritatea femeei, nici lipsa de poezie a amorului invalid. De cîte ori se încercà să-i evoace la prima lor întîlnire, auzià huruitul mecanic al piciorului de cauciuc, o deșurubare și apoi o bufnitură a mașinii ce cădeà, lăsînd în vînt un mont inform. Un fior îl cutremură. Amorul să-nătos și estetic, în esența lui, devenià monstruos, iar femeia devenià un animal impur ce nu cunoaște limita în degradare.</p>
+      
+      <p>După atîția ani își amintise de dînșii în această noapte de insomnie. Biță murise de mult. Se însurase, de altfel, de două ori: două fecioare intraseră în patul nupțial în huruitul piciorului mecanic...</p>
+      <p>Intîmplarea îi deschisese odinioară perspective noi asupra amorului și a femeei, fără să-l prefacă totuși : își purtà mai departe fatalitățile ; își duceà în spinare crucea timidității și nevoia absolută a idealizării.</p>
+      
+      <p>Ațipise aproape. Prin minte îi treceau încă în crîmpee vorbele lui Lulù.</p>
+      <p>— «Iartă-mă, te rog, mă doare puțin capul și nu mai dansez astă-seară».</p>
+      <p>Le silabisi nedumerit, întonîndu-le tărăgănat, legănîndu-se în muzica lor suavă și misterioasă, pînă ce adormi, cu prima rază a dimineții.</p>
+      </div>
+      <div type="chapter" n="7">
+      <head>VII</head>
+      <p>Lulù nu aveà obiceiul reflecției întristătoare. Nu cunoșteà sterilitatea analizei. În trupul ei armonios adăpostii un suflet candid chiar în mijlocul tuturor turbu-rarilor sentimentale. Un mic animal indolent cu mișcări grațioase, conduse de instinct. Se întindeà, trăgeà la sine, strîn-geà : acte reflexe executate cu preciziune, fară complicația gîndirii, și uneori fără amestecul inimii. Se limità la funcțiile vitale; nu’șà intelectualizà atitudinile. În oglinda sufletului ei lucrurile aruncau o imagine fără dimensiunea adâncimii. Se perindau, nelâsînd vreo urmă. Oglinda ră-mîneà, imobilă și nepătată, cuprinzînd în ovalul ei mobilitatea evenimentelor.</p>
+      <p>La trecerea lui Andrei, oglinda îi reținu imaginea fără să i-o deformeze, idea-lizînd-o în proporții mari. Sufletul ei nu fremetà de poezia necunoscutului; măr-ginit în contururi precise, cereà imperios realizarea. Lulù nu erà din rassa femeilor, în care țîșnește dintr’odată incendiul a-morului; pasta ei moale și delicată trebuià mlădiată în lungi frămîntări pentru a-și trezi virtualitățile.</p>
+      <p>Cu o elegantă nepăsare, Ciprian arun-case în circulație legenda amorului tragic al lui Andrei. Ceeace n'ar fi făcut o stă-ruință răbdătoare, realizase dintr’odată o istorioară romantică. Nici Ciprian nu știà mai mult decît spusese. Prin intuiția forțelor ce lucrează asupra sufletului feminin, povestesc esențialul, învăluindu-l totuși în mister. Ținuse voluntar rolul destinului: printr’un gest indiscret deși enigmatic tăiase calea devenirilor priete-nului lui. Aruncase cuvîntul ce aveà să-și desăvîrșească opera obscură și îndărătnică. Lovise imaginația și acum lucrà în domeniul presupunerilor.</p>
+      <p>Imaginația lui Lulù nu se aprindeà to-tuși lesne. Trăgîndu-și substanța din rea-litate, se țineà strîns de ea fără elanuri; dezordonate. Lulù ațipi deci liniștită, cu zîmbetul pe buze, și cu imagini nelămu-rite și grațioase. Nu’și mai reamintià nici chipul lui Andrei. Nu bănuià că în jurul patului destinul își împletià totuși pînza lui invizibă.</p>
+      <p>Se văzuse de mai multe ori de atunci...</p>
+      <p>La ora ceaiului, ședeau acum cu toți de vorbă într’un mic salonaș : un colț intim înconjurat din trei părți cu diva-nuri joase în jurul mesuțelor turcești, lucrate în fine sculpturi și cu incrustații de ivoriu. În mijlocul salonașului, pe o coloană sveltă, se înălțà simbolic Venera Mediceică. Lulù se legănà în fotoilu; ceilalți luau ceaiul pe mesuțe. Numai Ciprian se primblà, încordat ca întotdeauna. Pe divanul scund, rezemat între două mari perine, Andrei privià cu în-cîntare colțul armonic ce încadrà atît de bine pe Lulù. Ochii îi lunecau de alun-gul policioarei de palisandru ce trăgeà un chenar în jurul odăei, cu volumașe legate în alb; de asupra, mici panouri cu acuarele alternau cu arcuri de lemn capitonate cu atlaz roz. Prin ușa din fund se zărià camera de culcare; pe o estradă înaltă patul păreà leagănul fecioarei adormite.</p>
+      <p>Andrei își simțià ochii noi și sufletul capabil de impresii nelimitate și de bucurii naive. Amintirile literare îl duceau spre camera Margaretei ; în ureche îi răsunà cu încăpăținare aria lui Gounod. Își dădeà seama de primejdia comparației ; privind spre ființă pură și vaporoasă a lui Lulù, i se păreà totuși îndreptățită. Sufletul i se înălțà într’un sbor lin.</p>
+      <p>Stînd în atmosfera călduță și parfumată, senină, zîmbià și tăceà. Erà fericit.</p>
+      <p>Discutau, firește, despre femei și des-pre amor, cu vervă și uneori cu înver-şunare. El plutià însă ușurel, legănat în muzica interioară ce-i înăbușià cuvintele.</p>
+      <p>Se opriseră asupra geloziei. O priviau ca pe o manifestare a iubirii ; unii ca pe o deviație excesivă și bolnavă, alții, ca pe o formă firească și ca pe o dovadă supremă. Fiecare aducea un exemplu. Ciprian luă cuvîntul, în felul lui vioi :</p>
+      <p>— Gelozia e, în adevăr, una din for-mele dragostei contrariate sau care se nutrește din trebuința unei contrarieri ilu-zorii. Nu totdeauna însă. Uneori este numai manifestarea perversității de o tortură. Ne avînd nici o legătură cu dragostea, este expresia unei tiranii fără resort afectiv. Nu pleacă din iubire ci din instinctul de dominație. Nu e o suferință proprie ci nevoia de a produce suferința.</p>
+      <p>Ciprian tăcù. În frumoșii lui ochi mo-bili trecură umbrele unor lucruri vechi. Fusese însurat de mult; nefericirea lui intrase, de altfel, în domeniul public. Îl chinuia acum o amintire. Și cum nu și-o puteà rumegà începù din nevoia ușurării :</p>
+      <p>— Despre Alina pot să vorbesc ca de ceva foarte îndepărtat; nu mai pun nici o pasiune. În fața unor lucruri sunt însă și acum nedumerit. Sufletul femeei e insondabil. Avînd ochii verzi, declarase războiu versurilor ce cîntau. ochii albaștri. Refăcîndu-mi poeziile, a trebuit să scot tot albastrul. Erà o luptă aprigă, o luptă zilnică, fără repaos. Din această epocă neagră, a căreia amintire mă doare încă, vă voi istorisi totuși povestea unei chei ; deși nu e o chee fermecată din basme, este totuși simbolică : deschide poarta absurdului feminin spre perspective imense.</p>
+      <p>Maestrul se opri din nou, căutîndu-și cuvintele :</p>
+      <p>— În tristele efemeride ale căsniciei mele mi-aduc aminte de o zi frumoasă de primăvară și de liniște, — zi rară pe care o gustam cu rezervele de bucurie ale unei lungi așteptări. Alina își arătase sufletul de copil bun, așa cum îl cunoșteam la început. Ne întorceam acum pe la miezul nopții, la braț, ușori și fericiți. Plutiam, și cu puterea iluziei tenace brodam trandafiriu pe pînza viitorului. Mă înșelasem poate asupra Alinei; gelozie puteà fi mărturia inoportună a unei mari iubiri; mă torturà ; se torturà însă-și ea. Erà un fel ciudat de a-mi dovedi că mă iubește. Mă înduioșeasem. Ajunserăm a-casă, strînşi unul de altul. La ușă, sco-țînd cheia să deschid, văzui că erà alta. Vrui s’o pun în buzunar ; o mînă mă prinse violent de braț :</p>
+      <p>— Dă-o încoace !</p>
+      <p>Cătai spre Alina: se îmbujorase ; în ochii se aprinse luminița rea, pe care i-o cunoșteam de mult. Smulgîndu-mi cheia, îmi zise cu glas ascuțit:</p>
+      <p>— De unde-i ?</p>
+      <p>Privind-o nedumerit, îi răspunsei cu simplicitate:</p>
+      <p>— Nu știu.</p>
+      <p>Își mușcă buza de jos :</p>
+      <p>— A, nu știi !</p>
+      <p>Eu o priveam mereu, aiurit : o chee cu un număr atîrnat pe o placă de metal. N'o mai văzusem niciodată şi nu pricepeam cum îmi ajunsese în buzunar. Alina mă țineà însă în cleștele ochilor ei iscoditori:</p>
+      <p>— De unde o ai?</p>
+      <p>— Nu știù.</p>
+      <p>Eram sincer. Nu-mi aduceam aminte.O pânză mi se lăsase peste ochi. Nu găsiam nici puterea de a-mi bles-mà destinul ce mi-o scosese dinainte într’o zi atît de fericită. Alina îmi răspunse amar :</p>
+      <p>— Nu știi? Știu însă eu ! Deschide...</p>
+      <p>Intrai în dormitor. Aprinsei lumina, liniștit ; mă simțeam nevinovat. Alina continuă însă :</p>
+      <p>— Privește-o mai bine.</p>
+      <p>O privii cu aceeași nedumerire. Alina isbucni :</p>
+      <p>— N’ai să mai poți deacum tăgădui !</p>
+      <p>Cătam spre chee cu ochi imenși și aiuriți : luase proporții. Nu erà o chee oare care, ci o chee apocaliptică, de care atîrnà un număr uriaș. De unde îmi venise în buzunar ? De unde ? Mă gîn-deam, mă frămîntam... Nu-mi aminteam totuși.</p>
+      <p>— Nu te preface că n’o cunoști. E cheia ochilor albaștri, pe care i-ai cîn-tat atît...</p>
+      <p>Nu înțelegeam încă. Alina stărui :</p>
+      <p>— E cheia odăei de la hotel.</p>
+      <p>Mă năruianidin nouri :</p>
+      <p>— Ce odae de hotel ?</p>
+      <p>— Odaea «doamnei visurilor tale», cu ochi albaștri și cu părul auriu, pe care l’ai împletit în toate versurile.</p>
+      <p>Nu răspunsei nimic. Absurdul e o forță invincibilă ; nu-i puteam opune de cît o resemnare absolută. Fiind de prisos să lupt, înclinai capul. Alina scrîșni.</p>
+      <p>— Taci ? Nu mai spui, însfîrșit, nimic ! Nu-ţi mai găsești tonul nepăsător cu care mă încînți și mă minți de atît timp !</p>
+      <p>Tăcù o clipă pentru a-și șterge cîteva lacrimi nervoase. Isbucni apoi în nebunia ei obișnuită, ce se răsfrîngeà asupra o-biectelor nevinovate. Un vas de Copenhaga sbură în țăndări; un Sèvres nimeri în perete. Începuse furtuna sub forma ei clasică ; natura moartă lua parte la simfonia discordantă a sufletelor noastre. Mînia Alinei se exterioriza violent asupra ei. În mijlocul furtunei, realul dispăreà ; din dărătul conștientului apăreau fantomele ireale ale unei minți bolnave. «Dama blondă» răsări și ea, amenințătoare și tragica ; erà o ființă neexistentă ce-și căpătase o viață tumultuoasă în încordarea nervilor noștri, devenind o personalitate cu anumite atribute ; aveà o formă, un caracter și o situație socială. Învadînd încăperile minții halucinația își împrăștià tenebrele.</p>
+      <p>Stăteam astfel cufundat în dezastrul meu multiplu, resemnat la orice. O lu-mină îmi străfulgera însă deodată con-ştiinţa. Îmi adusei aminte de unde venia cheia. Mă scuturai de sub ruine. Ași fi intonat un imn soarelui, ca un miner ieșit la lumină. Uitînd deci atitudinea dușmănoasă în care ne încleștasem, mă a-propiai cu blîndețe de Alina. Luîndu-i mînele, îi spusei :</p>
+      <p>— Alino, mi-am adus aminte de unde-i cheia...</p>
+      <p>Ea își smunci mîna. Privind-o atunci ațintit, avui o sensație de groază. În ochi nu i se citià neîncrederea ci teama că ași putea să-i dau o explicație evidentă, pe care n’o dorià. Avui prima intuiție asupra compoziției feroce și egoiste a geloziei Alinei.</p>
+      <p>Cînd iubești, dorești să fii întărit în sentimentul tău, sprijinindu-te și pe aparența adevărului. Ea îi erà dimpotrivă ostilă. Dorià o confirmare a temerilor ei arbitrare. Eram totuși atît de pătruns de dreptatea mea, în cît îi luai din nou mînile:</p>
+      <p>— Alino, Alina mea, cheia e de la biroul ziarului...</p>
+      <p>Intrasem, în adevăr, de cîteva zile în redacția unui ziar. Mi se dase o cheie de la un birou, de care nu mă folosisem încă. Alina mă privi pieziș, fără să-i se desclește mușchii feței. Mă lovii nu numai de neîncredere, ci și de reaua voință față de realitate. Se complăceà în imaginația ei; nimic nu-i puteà împiedecà deslăn-ţuirea instinctului de distrugere. O rugai totuși să se potolească pînă dimineață, cînd voi putea aduce dovezi. Nu primi, susținînd că voesc să scap de mînia ei răsbunătoare. Am rămas astfel ca doi dușmani de moarte. Cînd se luminà de zi,dezastrul odăei mă impresiona; eram un Marius pe ruinele unei Cartăgine.</p>
+      <p>Luînd o trăsură pornirăm spre redacție. Cheia se potrivià, firește, la saltarul biroului.</p>
+      <p>Ciprian tăcù o clipă, ostenit. Reîncepù apoi cu sforțarea omului ce pornește din nou la drum. În glas aveà ceva solemn :</p>
+      <p>— Pînă aici conflictul ar fi putut aveà o explicare. Făcînd abstracție de formele ei absurde, gelozia e, în fond, un omagiu : e expresia unei iubiri pasionate și a unui violent instinct de proprietate. Ași fi renunțat bucuros la ea ; nu-i puteam totuși tăgădui fundamentul.</p>
+      <p>O răbdasem mai ales și din speranța recompensei. Fiind neîndoios, adevărul trebuià să iasă la lumină. Clipa dulce a râsbunării aveà să vină. Privii deci la-com la chipul Alinei, pîndind momentul suprem al irupțiunei evidenței în conștiința ei turburată. Așteptam cu încredere cuvîntul de iertare și duioşie, de umilinţă și de regret ce mi se cuvenià. Așteptam... așteptam cu ochii mari și însetați.</p>
+      <p>Alina privi jocul ușor al cheei în broasca saltarului ; nici un mușchi al feței nu-i tremurà. Întorcîndu-și apoi ochii metalici și răi spre mine, rosti aceste cuvinte memorabile :</p>
+      <p>— Nu e cheia camerii de hotel, dar.. o voi găsi eu și pe aceia!</p>
+      <p>Nici o părere de rău, nici o remuș-care. Nimic, nimic. Aceiaș figură închisă și contractată, aceiași răutate glacială în privire. Nu dezarmase nici în fața evidenței... Ne întoarserăm acasă. Eram însă alt om. Am adorat totdeauna femeia și o ador și acum, Mi-am revenit repede la funcția mea primară de a o idealizà, dar din aceea clipă am înțeles că natura are tipare felurite. În fuziunea sufletului femeei pune tot ce e mai bun și tot ce e mai rău. În fața acestui exemplar de feminitate ireductibilă, am rămas înmărmurit ca în fața unei forțe destructive a naturii.</p>
+      <p>Maestrul tăcù.</p>
+      <p>Cuvintele lui impresionară cu atît mai mult, cu cît știam cu toții că nefericirea lui conjugală avusese și alte aspecte. Alina îl înșelase fără pasiune și fară demnitate. Gelozia ei plecase deci numai din spiritul de dominație și de distrugere.</p>
+      </div>
+      <div type="chapter" n="8">
+      <head>VIII</head>
+      <p>Diomò se ridică. Clocotind de pasiune, iubià şi urà femeia cu o vehemență nestă-pînită. Desvelindu-și dinții rari printr’o crispare nervoasă, isbucni:</p>
+      <p>— Femeia înseamnă răutate și viclenie. Cheia Maestrului ne-a desyelit unul din resorturile ei sufletești. Vă voi desveli pe celalt. Femeia înșeală din instinct. În serviciul înșelăciunii, pune o inteligență, pe care de ar pune-o în serviciul științei ar duce mai departe civilizația umană. Nu mumai femeia unei anumite clase sociale, ci femeia în sine, fără deosebire de situație sau vîrstă, de cultura sau de e-ducație. Viclenia e una din funcțiile sexu- -lui; prin ea femeia rămîne pururi aproape de natură; educația n’o schimbă. În Alina se exprimă răutatea primară a femeiei din popor lăsată în prada instinctului; cultura n’a ajutat-o cu nimic. În schimb și o femee din popor poate aveà viclenia femeei rafinate. Cele două extreme ale scării so-ciale se ating într’o armonie dictată de condiția sexului. Prin funcțiile ei sufle-tești Tereza poate sta deci alături de Alina Maestrului.</p>
+      <p>Harnică, destoinică, plină de calități multiple, devotată, sobră, Tereza nutrește pentru «bărbat» un sentiment absolut, total, ca pentru o divinitate binefăcătoare și indulgentă: îl respectă, îl iubește, îl adoră, și îl înșeală, cu seninătate.</p>
+      <p>Măritată odinioară cu .un «plutonier major», Tereza a păstrat și acum un cult armatei și steagului țării. Schimbîndu-și amanții din motive necunoscute, își împacă totuși conștiința, prin faptul că-i alege din marea familie militară. Își dă astfel iluzia unei fidelități relative.</p>
+      <p>«Plutonierul» de serviciu e introdus însă cu oarecare solemnitate. Nu vine niciodată pe ascuns. Din nevoia respectabilității, e prezentat totdeauna cu perspectiva unei viitoare căsătorii ce nu se încheie niciodată.</p>
+      <p>Dispărînd după o săptămînă sau două, el lasă, de altfel, în urma lui o vacanță sentimentală, repede împlinită. Nevoia de adoraţie a Terezei îşi găseşte un număr indefinit de idoli.</p>
+      <p>In mutabilitatea amorurilor ei, își păstrează totuși o legătură mai durabilă cu un tînăr dintr’un orășel vecin, parfum de poezie și de infidelitate necesar orcărei femei.</p>
+      <p>Omul venià din cînd în cînd pe neașteptate ; erà sentimental și își răscumpără absența prin floricele de stil: «după cum iarba are nevoie de razele soarelui ca să crească, așa am și eu nevoie de iubirea matale, fetița mea dulce» îi scrià el duios şi poetic.</p>
+      <p>Intr’una din nopți, pe cînd Tereza se odihnià lîngă «bărbatul» ei din urmă, d. plutonier Popescu Ion, auzii un glas de femeie de afară : </p>
+      <p>— Terezo ! Terezo !</p>
+      <p>Urmară apoi niște pași, o ușă deschisă, o mică discuție înăbușită și, însfîrșit, ple-carea Terezei. Abia a doua zi am putut da de rostul întîmplării.</p>
+      <p>Sosise fînărul. Ne voind să intre în-năuntrù, pusese pe o femee s’o strige pe fereastră. Tereza ieși. Tînărul o pofti la Hotelul din față. Ea șovăi o clipă; tînărul se încruntă. Ea avù atunci una din a-cele scăpărări de viclenie, în care nu trăe-şte numai o femeie ci sexul întreg, Tereza se întoarse în odae, liniștită și gravă. Erà şi timpul. D. plutonier Popescu Ion devenise şi el bănuitor. Cu siguranță în atitudine și fermitate în glas, ea îi po-vesti că, fiind în durerile facerii, o ve-cină trimisese după ajutor. N-o putea re-fuză. D. plutonier fù și el de aceeaș pă-rere. Râmase deci în culcușul cald, su-perb în candoarea lui, în timp ce Te-reza trecu la hotel cu tînărul. În zori ea se întoarse cu conștiința sacrificiului îm-plinit: femeia nu născuse; avusese numai chinuri groaznice.</p>
+      <p>— Ei, domnule Diomò; îmi explică a doua zi d. plutonier major Popescu Ion, strașnică femee! E bună de inimă; sare ; numai decît să dea o mîna de ajutor.</p>
+      <p>— Iată faptul, încheie Diomò, sau mai bine iată femeia! Nu știe citi și scrie, nu s’a ridicat încă din lumea instinctului; prin-tr’o intuiție și viclenie înăscute, ea înșeală totuși istețimea mult încercată a d-lui plutonier Popescu Ion și sentimentul, bănuitor al tânărului, lăsîndu-l pe unul în patul conjugal și sburînd cu celalt într’o cameră de hotel și primind de la amîn-doi omagiul cuvenit fidelității și carității umane. Ca și Alina, Tereza este deci femeia în sine, peste deosebirile sociale, femeia eternă, ingenioasă şi multiplă în arta de a înșelà...</p>
+      <p>Diomò sfîrși, privind cu ochi de pasiune și ură spre Lulù! Deși, vorbele lui mer-geau spre dînsa, Lulù erà senină. A-vînd arta instinctivă a absenței volun-tare, nici nu zări privirea pătimașa a lui Diomò. Nu vedea nici nu auzià decît ceia ce voià, izolîndu-se într’o atmosferă de tăcere și de puritate. Rămînînd în norul ei, n’o atingea nimic.</p>
+      <p>Urmărise deci povestirile lui Ciprian și Diomò, cu nevinovăție. Ascultînd numai ceia ce voià, nu răspundeà decît la ceea ce ascultase. Întenția de a o umili cădeà totdeauna alături.</p>
+      <p>Andrei, dimpotrivă, se revoltă. În piept îi gîlgiiau isvoare de ape generoase, țîș-nite dintr’odată, ce-l răcoreau și-i dădeau forțe nebănuite. Fusese și el un răzvrătit împotriva femeei; îi cunoșteà viclenia și perfidia; suferise de pe urma ei. În prezența lui Lulù, uitase însă trecutul, res-pirînd numai atmosfera ei de nevinovăție. Femeia se reduceà acum pentru dînsul la ovalul ei pur și la grația cu care își ridicà sau lăsà pleoapele. Experiența lui sentimentală începea de cînd cunoscuse pe Lulù: o pagină albă în jurul căreia trăsese abia un chenar fin și poetic. Uitînd trecutul, pornià la drum cu speranța tî-nără. Aveà un suflet nou înviorat de o căldură interioară, necunoscută încă, începi deci:</p>
+      <p>— Alina și Tereza sunt două exemplare umane fără să fie exclusiv feminine. Pentruce răutatea ar fi un privilegiu al femeei? Unui caz i se poate opune alt caz. Răutatea n’are sex: e una din funcțiile sufletului omenesc. În ordinea domestică se citează, în adevăr, mai multe cazuri de răutate a femeei.. Energiile bărbatului se cheltuesc în afară, în activitatea lui multiplă. Femeei nu-i rămîn decît resursele modeste ale alcovului.</p>
+      <p>Acțiunea ei n'are spațiu și nici rezo-nanță. Păiajen activ, își țese plasa în ungherul căminului, desfășurînd forțe impunătoare pentru scopuri mediocre.</p>
+      <p>Puterea de generalizare, e, de sigur, una, din calitățile spiritului uman; fără ea n'ar putea existà știința, Este însă și unul din defectele lui. Ne puțind, îmbrățișă totul, vedem strîmt și parțial. Nu cred deci în psichologia sexelor după cum nu cred în psichologia popoarelor. Nu există om. ci oameni: domeniul tuturor posibilităților, plămada de viții și de calități. Nu exista ! deci femeia ci femei: înger sau demon, după fatalitățile ei interioare. </p>
+      <p>Andrei sfîrși. Buzele, lui rostiau cu indiferență «înger sau demon» privirea lui îndreptată spre Lulù, spuneà însă limpede că e numai înger. În Lulù, adorà sexul întreg.</p>
+      <p>Avînd arta tăcerii expresive, ea nu zise nimic. În ochi, i se citià însă recunoștința. Cu un delicat joc de pleoape, urmărise cuvintele lui Andrei, legănîndu-se în muzica lor. În fiecare vorba simțià elogiul, pe care i-l închinà.</p>
+      </div>
+      <div type="chapter" n="9">
+      <head>IX</head>
+      <p>Ceilalți plecaseră. Rămăsese numai Diomò. Bătù de cîteva ori nervos cu degetele pe măsuță. Se primblă apoi în lungul și latul salonașului, desvelindu-și dinții în contorsiuni violente. Lulù îl priviri senină :</p>
+      <p>— Pari într’o cușcă.</p>
+      <p>— Sunt.</p>
+      <p>— Cu ușile deschise însă.</p>
+      <p>Printr’un zîmbet, ea îndulci asprimea cuvintelor. Îl simțià, de altfel, furtunos și se temeà de isbucnirea lui. Diomò se uită pe geam pierdut pe gînduri. Mormăi totuși :</p>
+      <p>— Sentimentele mele sunt o cușcă, din care nu se poate evada lesne.</p>
+      <p>Apropiindu-se apoi de Lulù cu pași amenințători, o apucă de mîna printr’o mișcare bruscă :</p>
+      <p>— Știi cît te iubesc !</p>
+      <p>Lulù și-o trase ușor. Cu glas de copil zise blînd :</p>
+      <p>— Mă doare.</p>
+      <p>Diomò îi lăsă mîna, isbind-o :</p>
+      <p>— Iar ai gesturi și cuvinte de copil. Nu, nu vreau. Cînd mă gîndesc că te-am jucat pe genunchiul meu, te-am mîngîiat și te-am sărutat de atitea ori pe gură ! Cine ar fi crezut că din fetița de odinioară aveai să devii femeia de acum ! Ne prevăzutul ! În femeie a rămas totuși copilul, pe care nu-l vreau, fiindcă nu sunt destul de bâtrîn și de pervers.</p>
+      <p>Instinctiv, Lulù își schimba atitudinea. Ovalul ei pur deveni sever. Diomò is-bucni din nou :</p>
+      <p>— Nici Fecioara! Nu-mi plac icoanele în atitudini hieratice. Nu simt sensualis-mul tămîei și al profanării.</p>
+      <p>Lulù zîmbi:</p>
+      <p>— Atunci ?</p>
+      <p>— Îmi place femeia din tine, pe care, în zadar, o ascunzi sub aparenţe de păpuşe şi de Fecioară. Păpuşa poate plăceà altora, — de pildă, lui Lerian. Nu, mie. Eu voi femeia şi o voi cu toată violența, pe care mi-au dat-o strămoşii. Străbunii n’au tronul Moldovei decît pun eu să te am pe tine, Şi te voi aveà !</p>
+      <p>Simțind plutind dorința în juru-i, Lulù deveni femeie. Prezența lui Andrei o spiritualizase ; cu degetele lui fine, o modelase. Sub biciul pasiunii lui Diomò, se transformă repede în bacantă. Rîse deci sensual și provocator :</p>
+      <p>— Cel puțin știi ce vreai...</p>
+      <p>— Ca totdeauna. Știu ce vreau, și o spun neted. Nu-ți întind curse. Te vreau și te voi aveà. Sunt brutal; așa va fi însă. Nu se poate ca femeia din tine, pe care'o descifrez acum în rîs și în privire, să nu audă strigătul pasiunii mele și să nu-i răspundă. Nu sunt un sentimental. Sentimentalismul e bun pentru tineri romanțioși și fără vocație, ca Lerian, sau pentru poeți bătrîni ca Ciprian, care au mai multe coarde la liră de cît în amor. Nu-ți suspin la geamuri, nu te cînt, nici măcar nu te idealizez. Te iubesc nu pentru ce-mi închipui că ești ci pentru ceia ce ești ; iubesc în tine tocmai ceace cauți să ascunzi ca o rușine, sub genele de păpușă și sub severitatea profilului. Îmi place pasiunea pe care o simt în tine. Sunt o forță a naturii ; am imense puteri virgine puse în serviciul instinctului de posesiune. Mi se pare că suntem într’o savană, reduși la animalitate. Trăește în mine gorila ancestrală ce te vrea.</p>
+      <p>Lulù se transfigura. În ochi îi licărià luminiță provocatoare în gîtlej îi gîlgîia rîsul sensual :</p>
+      <p>— Încep să mă tem. Noroc că pot deschide geamul oricînd.</p>
+      <p>— N’aveà nici o grijă. Nu mă voi a-tinge de tine de cît în clipa cînd mă vei chemà — nu cu glasul ci cu privirea și cu trupul. Te vreau supusă dorinței mele, consimțind, cedînd și dispârînd în uraganul meu.</p>
+      <p>Se primblà furtunos, desvelindu-și mereu dinții mari și rari. Oprindu-se apoi,, zise apăsat:</p>
+      <p>— Și așa va fi.</p>
+      <p>Lulù îl privi, rătăcită :</p>
+      <p>— De unde știi ?</p>
+      <p>— Pentru că îți citesc în față poftele răscolite; sunt bărbatul ce-ți trebue. Îți pot trece prin viață toți figuranții, toți poeții sentimentali și toți nechemații romanțioși ce te idealizează și fac din tine o Madonă ; eu sunt însă cel ce va veni, sunt așteptatul. Nu știu de voi râ-mîne, dar atît cît voi fi, din tot universul nu vom există decît noi doi.</p>
+      <p>Și dînd apoi din umăr, nervos :</p>
+      <p>— Lerian ? Aveà dreptate cneazul cînd spunea să nu mai sunt tineri. Romanul lui de amor e o istorioară pentru femei sentimentale. Cum nu mai lucrează în propriul lui interes, Ciprian își servește prietenii.</p>
+      <p>Lulù rîse :</p>
+      <p>— Ești nedrept cu Lerian. Deși nu m’aș sinucide dentru dînsul ; nu i-ași puteà negà totuși un oarecare farmec.</p>
+      <p>Iar Diomò încordat:</p>
+      <p>— Am și băgat de seamă că te gîn-dești la dînsul.</p>
+      <p>— Exagerezi puțin, glumi Lulù.</p>
+      <p>— De loc. Am văzut-o deia prima întîlnire. Te cunosc așa de bine ! Ți-ai scos seducția pentru tineri naivi și sentimentali : copilul și Fecioara ce stau ațipiți în tine, fără sa și simtă profanarea. Ai început apoi jocul pleoapelor, nevinovățiile, gingășiile, spaimele, tăcerile emoționate.</p>
+      <p>Ți ai ferecat femeia ca să nu să vadă ființa, pe care a sculptat-o dalta atîtor brațe pentru opera supremă a amorului. Lerian nu poate descifra în arcul buzelor cărnoase, în linia gîtului, în rotunjimea șoldurilor travaliul îndelungat a naturii ce te a șlefuit pentru alte țeluri și te a frămîntat pentru alte fioruri de cît pentru romanțele inoperante ale lui Ciprian și pentru langoarea sentimentală a lui Lerian.</p>
+      <p>Lulù glumi :</p>
+      <p>— Fiecare ia ce poate.</p>
+      <p>Diomò își continuă însă idea :</p>
+      <p>— Își închipuie că ești o păpușe. Destinul tău e să trăești viața așa cum o înțeleg eu intens.</p>
+      <p>Lulù îl irita mereu :</p>
+      <p>— Ne potrivim oare atît de bine ?</p>
+      <p>— Da. Și ai s’o vezi încurînd. Nu rai a sosit ceasul. Voi așteptà sfîrșitul crizei. Atunci voi ieși din umbră. Vei înțelege că nu ești făcută pentru idile sentimentale — ci pentru pasiune, pentru viață și moarte! Mă vei chemà,</p>
+      
+      <p>Ne așteptînd nici un răspuns, Diomò ieși, apoi furtunos și încruntat, ultînd să-și ia rămas bun.</p>
+      </div>
+      <div type="chapter" n="10">
+      <head>X</head>
+      <p>Plouase mai multe zile dearîndul, îndesat ca la munte. Soarele se arătà acum din nou; sfios, își încercà puterile des-vațate. Aburii se ridicau în pînze ușoare din brădetul parcului, și se risipeau apoi sub puterea razelor. Păreà o jilavă zi de primăvară. Pe terasă Andrei, Diomò, Ciprian și Còlea respirau aerul proaspăt al dimineții. Còlea povestià amintiri de pe timpul lui Cuza-Vodă.</p>
+      <p>In capătul aleei se arătă de o dată o pată de lumină: Ciprian exclamă: .</p>
+      <p>— Primăvara!</p>
+      <p>Toți își întoarseră capul:</p>
+      <p>— Primăvara!</p>
+      <p>Din pînza de aburi ce învăluià parcul, se desprindea, în adevăr, silueta albă și vaporoasă a lui Lulù. În mirosul umed și proaspăt al pămîntului muiat de apele ploaei, în răcoarea amoroasă, a boarei, matinale, în decorul brazilor cu frunzele spălate și, al gazonului strălucitor, în hainele ei clare şi în mersul ei unduios și tînar, Lulù erà o apariție primăvăratică. Ieșise din învelișul norilor, vestitoare a unui nou anotimp. Pășià sfioasă și totodată sigură de oficiul ei divin, de simbolul ființii ei grațioase, cu gestul so-lem al unei reînoiri a naturii. Pașii se îndesau în nisipul fin și silueta ei creșteà; din fundul îndepărtat al parcului păreà un sol al luminii ce se apropia. Cînd trecù pe lîngă terasă, ochii tuturor li se umplù de strălucire. Lulù își înclinà capul cu un zîmbet enigmatic pe buze, apoi dispăru la o cotitură a aleei, simplă, și maestuoasă totuși în simbolul, pe care-l duceà în cutele hainelor albe...</p>
+      <p>Ciprian, pentru care sensul ascuns al lucrurilor existà, exclamă:</p>
+      <p>— Viața, iată viața! Peste truda noastră, peste arta incompletă, și știința migăloasă, iată viața, iată revelația ei într’o expresie clară și definitivă. În această figurină ce-și clatină armonios șoldurile pline de instincte puternice, în această păpușă sculptată de dalta amorului, ce-și închide cu nevinovăție pleoapele și se joacă, atît de rafinat cu umbrela de dantelă, în această felină cu lunecări discrete de mușchi, natura a ascuns semnul ei cel mai adînc. E nu numai podoaba aleelor și saloanelor noastre, ci și instrumentul divin al ochilor noștri. Prin euritmia corpului ei, învățăm mișcarea armonioasă..</p>
+      <p>Ciprian tăcù o clipă. Înspirat, înălță apoi glasul:</p>
+      <p>— Simbol suprem al femeei, mă închin înaintea ta ! Cu toți am respirat efluviile multiple și primăvaratice ale naturii, ce renaște după ploae sub acțiunea soarelui; nu le-am simțit însă atît de bine ca la apariția siluetei imaculate a lui Lulù. Simbolul ei e mai viu și mai tangibil de cît simbolul Primăverii lui Botticelli. Arta este ancila nevrednică a naturii; penelul și dalta nu pot luptà cu perfecția mișcării. Femeile frumoase ar trebui considerate ca utilități publice ; ele sunt mijlocul cel mai puternic al culturii artistice. Ca pe timpul marei revoluții franceze, ar trebui înălțate în rândul marelor simboluri ce guvernează civilizația umană. Purtată în carul primăverii, Lulù ar simboliza misterul naturii ce se reinoește...</p>
+      <p>O emoție strîngeà gîtlejul lui Andrei. Auzind numele lui Lulù, aținti urechea, cu teama necunoscutului; ascultă și tăcù. Cuvintele aveau însă rezonanțe adînci în sufletul lui. Diomò îl privià întunecat. Se pre-gătià, păreà că sovăește ; smuncirea nervoasă a gurei îi sublinia șovăirea. Se hotărî în sfîrșit:</p>
+      <p>— Nu-i nevoe de intervenția statului. Femeile își înțeleg singure utilitatea. Abuzează chiar de ea. Nu mă ridic împotriva amorului liber. E singura formă potrivită vieții naturale. Mă ridic numai împotriva societății ce a deviat scopurile naturii. În jocul unirii sănătoase, în care vorbesc numai instinctele lăsate în voia lor în vederea țelurilor supreme, avem împerecheri dictate de prejudecăți sociale. Nu ascultăm glasul limpede al simțurilor. Societatea și literatura ni le-au pervertit, lin locul sensualității, literatura a introdus sentimentalismul. Unui gest precis, violent, i se preferà suspinul languros, serenada, romanța și tot ceia ce slăbește și degradează energia. Trăim'într’o epocă efeminată și dulceagă. Amorul s’a a-bătut din scopurile lui.. A ajuns un motiv, literar; o temă pentru variațiunile poetice ale celor ce nu simt adevăratul ritm al vieții în vinele lor. Rassa nu ni se va îmbogăți cu nimic; energiile vor degenera prin lipsa exercițiului continuu și violent.</p>
+      <p>Diomò tăcù o clipă, apoi fixînd pe Andrei:</p>
+      <p>— După ce a făcut bucuria relativă a unui bărbat, ce n’a știut scoate din vioara ei sunetele prețioase pe care le conținea, după ce a trecut apoi în brațele altui bărbat care a murit tocmai fiindcă se silise să fie la înălțimea posibilităților ei, Lulù face sau va face bucuria vreunui tînăr, ostenit și vițios. Lipsit de nerv și de rasă, n’o va prețui ca pe finalitatea suprema, a vieții înseși.</p>
+      </div>
+      <div type="chapter" n="11">
+      <head>XI</head>
+      <p>Privind spre Andrei ca un om ce’și calculase cuvintele, Diomò tăcù. Andrei îngălbeni. Urechile îi vîjiiau; un gol i se deschise dinaintea ochilor. Nu mai puteà rămîne pe terasă; își luà deci pălăria și plecà, apucînd spre singura prim-blare a orașului.</p>
+      <p>Urcă la deal printre livezile patriarhale pline de roade. Din mijlocul lor abia se zâriàu casele albe, cu largi pridvoare străjuite de stîlpi văruiți. La capătul orașului . se opri în fața casei ce făcuse admirația : copilăriei lui: prea joasă pentru numeroasele ei ornamente, cu ferestrele sprijinite de cariatide, cu scara străjuită de doi sfinxi roșii; un mic palat ruinat și pretențios ce domină orașul și prin situație și prin bogăția stucului violent colorat. Păși apoi, slobod, pe drumul de țară, umbrit de sălcii stufoase: drum scump al copilăriei! Pe aici ieșià din cercul strîmt al orașului, în domeniul posibilităților ispititoare : pe aici își primblase melancolia primului amor. Își puneà pașii în pașii de odinioară. Glasurile amintirilor îl ademeneau din toate părțile; nu erà salcie sub care să nu se fi oprit cîndva cu o iătae de inimă ce-i revenià acum; nu erà cotitură din care perspectiva peste valea Hurmuzului și dealurile Gugeștilor să nu-l fi încîntat cîndva prin vreo particularitate. Bisericuța Clucerului îi părù îmbătrinită și țintirimul părăginit, punctul extrem al explorării lui de copil. Se opri o clipă la banca, pe care își adăpotise, prima lui nedumerire în fața Emei. Ce însemnă oare acel brusc refugiu al sîngelui în inimă de ori cîte ori o zărià printre sălciiie drumului ei obișnuit ? Dragostea îi intrase în suflet cu misterele ei; sosise în pieptul lui fraged cu rituri solemne, și cu un îndemn sălbatec spre singurătate și melancolie.</p>
+      <p>Pași în pași și bătae a inimii în bătae a inimii... Trecutul i se înălțà acum în amintire;un murmur de izvoare îi gîl-gîiau din colțuri uitate; i se deșteptau puterile moarte, întoarse spre viata mare a prezentului. Ajungînd în vîrful deluşorului, de unde se desfășură valea Hur-muzului și orașul îngropat în verdeața grădinilor, se uită îndărăt. Printre sălciile pletoase zări o siluetă albă; nu erà însă silueta Emei, pe care o văzuse de atîtea ori în acest cadru familiar al primei lui iubiri, ci silueta lui Lulù, desprinzîndu-se în dimineața limpede și răcoroasă de pe fondul îndepărtat al munților violeți...</p>
+      
+      <p>Nu se mai puteà amăgi. Problema i se punea acum neted. De la prima întîlnire cu Lulù, făcuse pași mulți în ființa lui înțelenită simțise străpungerea bruscă a ferului plugului Nu voise s’o recunoscă la început, ori pici n’o percepuse. I se păruse numai că e învăluit într’o atmosferă mai pură ; o nevoe neînțeleasă de a se înalță îi dase o mișcare ascensională. Crescîndu-i aripi la picioare, reedità imagina grațioasă a unui Hermes antic. Îl stăpînià o sensație nelămurită de fericire, de dragoste de viață și de oameni: primele semne ale unui rău ce devorează apoi vinele și îngreuiază trupul prin jocul perfid al naturii în vederea scopurilor ei misterioase. Își dădeà poate seama de cauza primenirii. Nu voià totuș să și-o mărturisească, sperînd să și-o înăbușe înainte de a fi depășit regiunile inconștientului. Cuvîntul stimulează și precipită stări sufletești ce pot muri, altfel, în penumbra conștiinții. Credeà că totul se va rezolvà într’o simplă întîmplare. Nu dorià mai mult. Ieșise dintr’o dragoste cu un zdruncin atît de mare, cu îndoeli și remuscări atît de dureroase în cît devenise refractar oricărei reveniri a răului etern. Moartea lui Mab îl zguduise, fără să-l fi luminat deplin asupra problemei ei sufletești. Renunțase la descifrarea misterului feminin. Se sinucisese pentru dînsul, ori din deziluzia de a nu mai fi necesară existenții cuiva? Nu știà; moartea îi luase elementele oricărei rezolvări. Neîncrederea îi devenise totală. Forțele iluziei îi rămăsese totuși intacte, ne așteptînd de cît prilejul de a izbucni. Înconștientul putea lucrà surd; conștientul i se îndîrjise în voința de a rezistà amorului. Luă senti-mentul în absolutul lui; nu îngăduia nici o transacție. Își recunoașteà infirmitatea de a nu se puteà adaptà mobilității universale, împrumutând coloarea vremei și a împrejurărilor. Făceà din amor un demon interior cu cereri imperioase. Nu concepeà legătura capricioasă ce se desleagà fără zguduire, de la prima îndestulare. Natura nu-i dase satisfacțiunile violente ce-și găsesc finalitatea în însăși producerea lor. Puneà în durată și în lentă fuziune ceia ce-i lipsii în intensitate. Ne fiind stăpînit de instinctul posesiunii tiranice, atribuià iubirii un caracter mistic de eternitate. Sublinià cu o solemnitate ridicolă gestul amorului atît de simplu la alții. Legîndu-se față de veșnicie, se supunea unor obligațiuni definitive. O fire onestă îl împingeà spre această concepție frustă și fără nuanțe. Se privià deci ca o victimă anticipată a eternului feminin, în fața căruia stăteà cu arme puține și contradictorii; pe deoparte, de neîncredere fundamentală împînsă pînă la scepticism principial; iar pe de altă, o putere de iluziune creatoare; ce rodeà una, clădià cealaltă. Forțele se luptau astfel între ele cu biruințe parțiale.</p>
+      </div>
+      <div type="chapter" n="12">
+      <head>XII</head>
+      <p>Acum biruise neîncrederea. În ruina ei, tragedia lui Mab îi tîrîse și puterea iluziei. Andrei luase deci hotărîrea abținerii ; își cîștigase dreptul la liniște prin destul sbucîum. Aspirà la pace. Nu’și faceà o vină din sinucidere. Moarta îi sta dea-curmezișul în conștiință ; nu cereà râs-bunare ; se plîngeà totuși că n’o înțelesese. Andrei n’o înțelegeà nici acum ; prăpastia se deschideà tot mai adîncă. Dacă nici moartea nu poate desleagà misterul inimii, ce-i mai rămîne atunci o-mului pentru a se face înțeles ? Cuvintele n’au valoare ; ele acopăr sensul real al gîndului. Suntem niște pelerini într’o ceață eternă în care nu ni se disting de cît gesturile. Sufletele sunt învăluite în umbră. Ne atragem, ne pipăim; nu ne înțelegem însă.</p>
+      <p>Andrei rămăsese nu numai cu neîncredere ci şi cu o spaimă în fața amorului. Își măsurase capacitățile sufletului: talerul bucuriei trăgeà ușor în cumpăna lui sentimentală ; durerea atîrnà ca plumbul. Căile plăcerii erau înguste ; porțile durerii erau deschise largi. Aveà posibilități indefinite pentru suferință. Ne trăind numai prin simțuri și prin îndestulări imediate, ci mai ales prin ecouri cerebrale și sentimentalei sufletul fixează diferit formele primare ale vieții : plăcerea e rapidă, violentă, se satisface prin sine și dispare fără urmă ; durerea se spiritualizează. Nu e numai un fenomen material ; devine repede o obsesiune spirituală. Andrei o simții în proporții exa-gerate ; cu ascuțișul ei tenace îi răscolii în nopți de insomnii șiragul obositor al regretelor, al umilinților, al gîndurilor negre.</p>
+      <p>Se credeà un năpăstuit al vieții. Ne gustîndu-i cu egalitate izvorele, se socotià nedreptățit și frustat. Erà un fin instrument de rezonați ce vibrà numai la atingerea durerii. Trebuià deci să se apere contra unei porniri ce se accentuà și mai mult cu vîrsta, pînă la deformare. Aspinnd la o liniște definitivă și voluntară, fugii de emoțiuni violente. Erà, de sigur, o lașitate și o îngustire a vieții.</p>
+      <p>Se resemnase însă la principiul economiei forțelor. Fiind o durere sterilă, la ce-i folosià sbuciumul amorului ? Nu erà o forță creatoare de bine și de frumos. În mutabilitatea lucrurilor, nu se transforà într’un element activ. Rămînînd negativă și corozivă, trebuià ocolită. Își impuneà totuși o jertfă: însă să-i cadă din mănă cupa vieții adevărate, de oarece amărăciunea copleșii plăcerea. Forțele ascunse ale sufletului i se polarizau acum instinctiv în jurul unei axe; ajunsese la concluzia refuzului durerii. Dintr’o necesitate organică își construise deci o ideologie și un sistem de viață, cu un caracter de libertate aparentă. Voià să-și limiteze existența sentimentală în domenii din care sentimentul erà aproape exclus. Lipsit de frivolitate, și văzînd în orice iubire o legătură mistică, <foreign>usque ad mortem</foreign>, lunecase totuși într’o direcție contrară. Sim-țindu-se destinat unor mari dezastre sufletești prin greutatea pe care o da celor mai neînsemnate gesturi ale amorului, se aruncase cu desperare în negația lui totală. Nepăsător, treceà pe lîngă Sfinx, ne încercînd să-i deslege întrebarea.</p>
+      
+      <p>Retras într’o renunțare, pe care o credeà definitivă, Andrei întîlnise pe Lulù. Întîlnirea îl impresionase fără a-l zgudui. Ne tulburîndu-i normele, nu-și închipuise că o iubește. Se bucurà numai de prezența ei și din plăcerea lacomă a privirii și dintr’o dulce și nelămurită participare a sufletului. Ne desvelind femeia de sub aparențe, îi plăceà copilul naiv și curat. Lipsa dorinții îl făcuse tocmai să se înșele asupra naturii sentimentului lui. În profilul ei pur citise numai castitatea. Se simțià bine lîngă dînsa. Mulțumin-du-se cu atît, nu-i cercetase nici trecutul nici prezentul. Îi citià viața numai în chipul feciorelnic și în jocul naiv al pleoapelor; cu ajutorul unor elemente atît de înșelătoare îi alcătuise o biografie sentimentală. Idealul strivià realul. Lîngă Lulù, Andrei se înviorà de un optimism necunoscut. Calomniase poate prea mult femeia și căzuse într’un pesimism ursuz. Își refăceà acum sufletul din contactul unei ființe ideale.</p>
+      <p>Ne avînd nimic dominator și fatal, Lulù nu-l alarmă. Prin candoare, ridicà femeià pînă la copil. Ne bătiuindu-i nici o primejdie, Andrei se lăsà în voia instinctului.</p>
+      <p>Venise în orășelul de munte pentru liniște, și liniștea îi sosià, nu prin uitare și izolare cum își închipuise, ci prin o-perația delicată a unei prefaceri. Suferià o terapeutică sufletească; i se despotmo-leau din nou izvoarele idealizării, atît timp secate. Îi răsărise iarăși nevoia absurda de a’și idealizà obiectul amorului. Proces firesc la oricine, cu totul anormal, prin proporțiile lui, la Andrei. Imaginația îi sculptà din femee un fetiș ireal ; printr’un demon interior, acest om neîncrezător devenià de o credulitate naivă. Își cunoșteà, de altfel, neconsecvențele. În hotă-rîrea abținerii, intrase și conștiința acestei infirmități. Erà o victimă ușoară. Față de Lulù, simțise însă dintr'odată inutilitatea principiilor. Își părăsise deci platoșa. Printr’un proces absurd și inconștient încrederea i se infiltrà pe încetul. Ceia ce tulburase atîtea mîni de femeie, venià acum să liniștească o altă mînă. Molohul amorului își cereà tributul natura își îndeplinià opera: reparà pentru a puteà apoi distruge și mai complet; insinuin-du-și balsamul, dezarmà pentru a’și turnà apoi mai sigur veninul. Amorul nu venià pe calea unui sentiment violent; se furișà prin infiltrații blînde, prin amorțirea sufletului. Cu cît acțiunea lui e mai înceată, cu atît reacțiunea devine mai imposibilă. Cînd se trezește conștientul, e prea tîrziu ; nu mai poate înfrînà opera îndelungă a inconștientului.</p>
+      <p>Andrei își păstrase, de altfel, aparența libertății: puteà plecà ori cînd fără parere de rău. Gustà numai plăcerea prezenţei lui Lulù; nu-l obsedà încă icoana ei absentă. Nu aveà o dorință precisă şi nici măcar o curiozitate. Fusese măritată: atît știà. Ignoră însă în ce condiții a-nume, după cum ignorà și situația ei ac-tuală. Aveà sau nu un amant ? Nu se gîndise pînă acum. Credeà că din nepăsare ; de fapt, din convingerea anticipată că nu puteà să aibă. Nu-și pusese întrebarea ; o rezolvase însă instinctiv, fără nici o deliberare, prin travaliul obscur al sentimentului. Respirînd atîta puritate morală, nu puteà aveà de cît o viață, pură. Se credeà indiferent ; erà numai credul.</p>
+      <p>Și deodată, Diomò rostise cîteva cuvinte imprudente : amintise de cele două casatorii ale lui Lulù, făcînd aluzie și la legătura ei cu Puiu Cercel. Andrei aveà abià acum intuiția realității. O întrebare îi stredelià creerul : să fie adevărat ?</p>
+      
+      <p>Privià acum,peste valea Hurmuzului și pe coastele înverzite ale Gugeștilor, ascultând talangele vitelor ce pășteau domol. Pacea amiezii se înstăpînià peste orașul dispărut în frunzare ; numai din suflet îi sburase. Îndoiala își începuse o-pera dușmană. Nu-l dureà încă; îl neliniștii totuși. Înțelesese, în sfîrșit, că iubià. N’o înțelesese cît timp amorul i se arătase sub forma bucuriei, ci numai cînd simți mușcătura durerii. Nimic nu se schimbase într’însul. Se cutremură. Porni apoi spre oraș, încovoiat ca un om ce e gata să-și supoarte fatalitatea.</p>
+      </div>
+      <div type="chapter" n="13">
+      <head>XIII</head>
+      <p>Dormi totuși liniștit. Imposibilitatea lucrului îi apărù atît de luminoasă, în cît somnul veni să-i închidă ochii cu o dulceața și mai mare.</p>
+      <p>Cînd se trezi, soarele erà sus. Uitase de îndoelite «de pe muntele Măslinilor»; fluerà chiar, zîmbindu-și în oglindă. Se contemplà cu bunăvoință : nu-i stà atît de rău ; paliditatea îi dădeà oare care distincție; lipsiți de vioiciune, ochii lui melancolici reflectau totuși un suflet capabil de sentimente mari. Se gîndi la importanța frumuseții fizice în amor. Nu se raportà, firește, la dînsul ; privià chestiunea din punct de vedere general. Im-presionînd, frumusețea poate determinà o mișcare sentimentală ; n’o poate însă susține numai prin resursele ei. Mai tîr-ziu nu are nici o importanță. Fizicul devine indiferent. Linia cea mai diformă pare firească, concurgînd prin tributul ei obscur, la marea iluminare ce transfigurează totul. Amorul e o transmutație a valorilor. Un om nu iubește cu adevărat de cât atunci cînd confundă într’o egală adorație defectele și calitățile ființii iubite.</p>
+      <p>Sprinten, Andrei se îndreptă spre parc. N’aveà nici un gînd precis. Întîlnind pe Ciprian, i se părù totuși că’l căută. Maestrul erà vesel și exuberant. La cinci zeci de ani, respirà o tinerețe veșnică, deși pletele cărunte îi tiveau chelia, fină. Un cap de imperator roman, cu pofil energic, ras, cu desenul gurii larg și spiritual, cu superbi ochii castanii ; înfățișarea lui aristocratică erà completata de niște mîini patriciene, încărcate de inele. Impresiona nu numai prin linie, ci și prin tinerețea mișcărilor, prin vioiciunea unei inteligențe ce nu aprofunda dar aveà intuiții juste. Erà atît de mobil, în cît se concentrà cu greu asupra unui lucru. Sup-linià totuși insuficiența aplicației printr’o putere de asimilație și o elocuție facilă și strălucitoare. Erà un om, de spirit. Aveà toate formele spiritului, de la jocul de cuvinte pînă la paradox, întrebuințin-du-le fără alegere. Conversația lui nu erà numai spirituală cu scurte scăpărări ne-susținute, ci se ridicà pînă la un lirism, plin de indulgență filozofică și de o savoare atică, pe care o căpătase din lecturile tinereții. Poet al amorului grațios și rafinat, păreà și în viață trubadurul unei vechi curți provansale, fără pasiune adînci dar cu o galanterie naturală ; instinctiv își îndoià genunchiul în fața ori cărei femei frumoase. Versurile lui respirau o sentimentalitate mobilă, turnată într’o formă cristalină și muzicală. Erà, firește, adorat și el de femei. Amorurile lui nu cunoșteau însă sațietatea. Din trandafirul iubirii, nu culesese de cît floarea fără să se fi înțepat în spini. După cum Andrei nu simțià de cît durerea amorului, Ciprian nu-i gustà de cît bucuria. Natura fusese darnică cu dînsul. Bucuria lui erà însă frivolă; o intensifică totuși în retorta lui sufletească, redînd-o sub forma unei fine poezii sentimentale.</p>
+      
+      <p>Maestrul erà vesel ; dimineața îi da un aer de fragedă tinerețe. Vorbiră de lucruri mărunte, despre rochiile matinale ale femeilor și grațiile lor reînoite. Pe nesimțite Andrei aduse vorba de Lulù, de cele două căsătorii și de legătura ei probabilă cu Puiu Cercel. Luîndu-și. un aer diferent, nu arătà nici o curiozitate ; insinuà mai mult de cît întrebà, voind să pară că știe totul. I se simțià însă o tremurare în glas și o încordare în atitudine Lui Ciprian nu-i scăpà nimic; îi erà, de altfel, lesne să citească în sufletul candid al prietenului lui. Își dădeà seama din ce regiuni sentimentale îi veniau întrebările, fără să le bănuiască însă adîncimea. Ne-pricepînd omenescul în formele lui complexe, îl colorà prin personalitatea lui. Își închinase viața amorului, fără să-i a-tribue o importanță excesivă. În concepția lui superficială, îi scăpà latura profundă și tumultuoasă. Ne avînd-o, n’o înțelegeà, nici la alții. Cînd o presimțià totuși, se silià să o devieze spre o concepție mai senină. Înțelegîndu-i interesul sentimental, Ciprian își impuse o discreție ce nu mergeà însă pînă la abținere. Considerînd amorul ca pe un joc frivol, nu se da îndărăt de la insinuarea ce poate întreține și galvanizà un sentiment, de altfel, fugar. Nu-și închipuià însă că o vorbă aruncată poate produce și tragedii. Privind deci pe Andrei cu o ironie prietenească, începù :</p>
+      <p>— Mă întrebi de evoluțiile matrimoniale ale lui Lulù... Te felicît de interesul ce-i porți. În acest orășel și în spațiul unei vilegiaturi estivale, nu puteai găsi un obiect mai vrednic de atenție.</p>
+      <p>Andrei protestă molcom, fără convingere. N’aveà nici un interes sentimental; se documentà numai asupra persoanelor cu care întîmplarea îl pusese în legătură.</p>
+      <p>Ciprian zîmbi din nou ironic:</p>
+      <p>— Voi începe deci cu aventurile Artemizii Vardali și voi trece apoi la aspirațiile mereu înșelate ale frumoasei Cleo. În visurile ei trebuie să ocupi un loc considerabil. N’ai de cît să rostești un cuvînt.</p>
+      <p>Andrei îl întrerupse :</p>
+      <p>— Nu-l voi rosti. N’ar fi mai bine însă să trecem la Lulù ?</p>
+      <p>Ciprian întări :</p>
+      <p>— Sinceritatea e mai bună. Mă întrebi deci despre trecutul lui Lulù : trecutul autentic înregistrat la ofițerul stării civile ; pe celalt cred că nu-ți închipui că-l știu. Sunt deci un istoriograf incomplet : nu înregistrez variațiunile alcovului de cît după acte publice. Pe Nicu Iorgandà, cel dintîi bărbat al lui Lulù, l'am cunoscut : un avocat fără ocupație sigură. De altfel, un spirit meditativ, înclinat spre reflecție profundă. Scoborînd cu o plută pe Bistrița, exclamase odată: «Și cînd te gîndești că mereu aceiași apă curge în matca rîului !» Noi credeam că vorbește de transformările picăturii de apa, în călătoriile ei sub diferite forme de a cer la pămînt și îndărăt Iorgandà încheie însă sentențios: «pâmîntul fiind rotund, apa nu poate de cît reveni în aceiași matcă». Un astfel de om a avut norocul să smulgă crinul imaculat din drum, şi să formeze spiritul și inima lui Lulù. Și-a părăsit, de altfel, repede sarcina. Cîteva săptămîni după nuntă, Iorgandà se reîntoarse liniștit la club. Peste doi ani, l’au răzbit soarta meritată : atribuțiile părăsite i-au fost împlinite de un altul. Nu tresări: înlocuirea a fost consfințită de legea umană și divină. Și pe bietul Iorgu Calomfir l’am cunoscut în desele mele vilegiaturi: un om ros de o pasiune nefericită pentru nevasta lui. Prea binele e dușmanul binelui. Amorul lui excesiv e, dealtfel, un punct de istorie locală, nedovedit poate, dar unanim admis. N’am nici o autoritate să-l confirm sau să-l infirm. Istoria l’a înregistrat ca pe un lucru definitiv ; din umedul lui locaș din cimitirul Clucerului, Iorgu Calomfir pare a-l întări printr’o situație de fapt. Umbra lui trebue să se plimbe jalnic, ca umbrele atîtor eroi legendari, ce au să-vîrșit păcatul de a fi iubit prea mult.</p>
+      <p>Andrei ascultă, ținîndu-și suflarea. Nu făcù nici o mișcare pentru a nu opri unda armonică a vorbei maestrului. Cînd tăcù, el interveni:</p>
+      <p>— Iar Puiu Cercel ?</p>
+      <p>Ciprian îl sfredeli cu ochiul lui ager ; porni apoi cu gesturi largi :</p>
+      <p>— De unde încetează istoria, începe cronica,— domeniu nelimitat și desgrădit, în care ingeniozitatea oricui își poate aruncà sămînța. O femee frumoasă e punctul de întretăere al privirii tuturor: e firesc ca în jurul ei să se ţese legende, acordîndu-i-se un un număr impunător de a-manți. În fața bănuelii universale, nu ne râmîne de cît riposta scepticismului. Ignorăm tot ce e nedovedit; ignorăm astfel uneori și adevărul ; de cele mai multe ori distrugem însă prin dispreț calomnia.</p>
+      <p>Andrei insistă :</p>
+      <p>— Dar Puiu Cercel ?</p>
+      <p>Ciprian reluă : </p>
+      <p>— Puiu Cercel sau un altul — cine poate ști ? Posibilități fără siguranța. A mai iubit Lulù pe altcineva ? Nu știu. Legea sexului îi da însă dreptul. Noi existam prin noi; avem personalități distincte și mobiluri de viață independențe. Avem o activitate publică ce ne satisface pe deplin. O femee nu există însă prin sine ; nu are o viață proprie. Rațiunea ei de a fi e în funcție de amor. A iubi și a fi iubită e scopul ei suprem. Un bărbat singur ar puteà încă răsturnà universul prin activitatea lui; o femee nu începe să trăiască de cît de la cea dintîi bătae a inimii în aproprierea bărbatului. Fără iubire, femeia e o lume ce se prăbușește în întuneric, la dispariția razei ce-i da viață. Nici o lege n’o poate deci sili la negația existenței ei; n’o poate condamnà la neant, refuzîndu-i alimentul indispensabil al vieții. Ești deci indiferent dacă o femee a mai iubit pe cineva, îndepliniundu-și o funcție naturală. Răspunderea începe din momentul din care te iubește pe tine. Nu există drepturi asupra trecutului aparținut poate altora sau poate nimănui; chestie de temperament și de împrejurări. Nu poți cere unei femei să te fi presimțit. Puiu Cercel sau alții — n’au deci nicio importanță. Sunt realități sau numai creaţiuni ale imaginației populare. E tot una...</p>
+      <p>Ciprian se opri.</p>
+      <p>— Ajunge. Din fundul aleei se apropie și Lulù, voluptatea zeilor și aroamenilor. Îți va explicà ea cu mai multă preciziune cauzele morții lui Iorgu Calomfir sau realitatea asupra tînărului Puiu Cercel...</p>
+      <p>Și coti pe o potecă a parcului.</p>
+      </div>
+      <div type="chapter" n="14">
+      <head>XIV</head>
+      <p>Andrei rămase uluit și de teoriile și de dispariția bruscă a lui Ciprian. Teoriile dădeau măsura sufletului lui ușuratec. Trecutul unei femei nu i se păreà cu totul indiferent. Amorul nu e o întîlnire într’un punct atmosferic a doi bolizi ; nu trăește numai din prezent ci își împlîntă rădăcinile în adîncimea timpului. Trecutul e substrucția necesară a prezentului, fără care nu se poate clădi solid. O complicație, desigur, a problemei ; răspundeà însă nevoei lui de a privi lucrurile cu gravitate și sub aspectul eternității.. Într’o floare, nu vedeà numai strălucirea petalelor ; voià să-i cunoască și pămîntul din care se hrănià.</p>
+      <p>Lulù se apropie, în costum de tennis: o simfonie lilială de la pantoful fin pînă la umbreluța de dantelă. Venià cu frăgezimea matinală a femeilor tinere, pe care o accentuà albeața imaculată a vest-mîntului. Zîmbi, întinzindu-i mîna. Andrei se simți dintr’o dată schimbat. Nemulțumit de teoriile lui Ciprian, le pipăi zădărnicia. Teoriile îi erau, de fapt, indiferente; îl pasionà numai aplicația. În fața lui Lulù, la atingereà mînei ei moi, i se risipi orice îndoială. Uită și de Nicu Iorgandà și de amorul excesiv al lui Iorgu Calomfir și chiar și de posibilitățile lui Puiu Cercel. Totul i se păreà absurd. Linia pofilului femeei erà atît de pură, glasul atît de suav și din întreaga ei ființă se desprindeà o nevinovăție atît de definitivă în cît clevetirea n’o puteà a-tinge. În zelul lui s’ar fi luptat nu numai cu cronica ci și cu istoria : ar fi negat și existența lui Iorgandà și Calomfir. Privindu-i mijlocul subțire și formele gracile, nu le puteà crede frămîntate de o mînă de bărbat.</p>
+      <p>Lulù plutià într’o atmosferă de fericire...Văzîndu-se de mai multe ori pe zi în parc, se stabilise între dînșii o camaraderie fără echivoc; erà felul ce-i plăceà lui Andrei. Nu puteà suferi cochetăria; o privià ca pe o armă neleală. Înstinctul îi spuneà poate că nu erà destul de înzestrat ca s'o înfrunte; prefăceà însă instinctul într’o teorie arbițrară. Dintr’o slăbiciune își creà o superioritate. Cu spiritul lui grav prevedeà dezastrele spre care-l destină simplicitatea onestă. Nu puteà trăi de cît într’o încredere desăvîrșită. Simțindu-i aspirațiile intime, Lulù li se adaptà instinctiv. Devenise simplă și sinceră, nu din calcul ci sub acțiunea inconștientă a sentimentului ce-i impuneà o supunere la condițiile lui sufletești. Aveà nevoia unei spovedanii reciproce. Erau însetați unul de altul. Nu se gîndiau la eternitatea timpului; fiecare întîlnire li se păreà cea din urmă. Avînd să-și spue atîtea, trebuiau să profite de ea. Înainte de a se fi întîlnit trăiseră o veșnicie izolați; voiau să-și umple golul prin povestirea abundentă a vieții lor. Ocoliau, firește, din instinct, întîmplările mari și ascunse; se revărsau în schimb în amănunte asupra lucrurilor mici; își luminau colțurile pitorești ale existenții, bucurîndu-se și întristîndu-se împreună, își dădeau astfel iluzia de a și amestecă trecutul și de a-și contopi prezentul prin-tr’o sinceritate nelimitată. Sinceritatea erà de fapt, o fățărnicie ridicată inconștient la valoarea unui principiu. Întîlnirea lor bruscă nu putuse nimici încă realitățile, ce-i încătușau. Uitarea de sine erà însă atît de totală, încît își închipuiau că nu-și ascund nimic.</p>
+      <p>Inchizîndu-și umbreluța, Lulù n spuse:</p>
+      <p>— După grabà Maestrului, presupun că vorbiați de mine.</p>
+      <p>Andrei voi să tăgăduiască. Nu știa însă minți fără să roșească. Îngînă citevà cuvinte, înțelese numai de el; tăcù apoi fără să se fi explicat:</p>
+      <p>Lulù reluă cu gravitate :</p>
+      <p>— Nu credeam că sunt taine între noi..</p>
+      <p>Negîndindu-se la prăpastia ce-i despărțià, avea totdeauna glasul sincerității.</p>
+      <p>Andrei nu știà cum să înceapă. Cuvintele lui Ciprian îl tulburaseră ; atitudinea calmă și sinceră a femeei respirà însă nevinovăția. Se rușinà deci de propriile lui îndoeli. Lulù părù mîhnită. Profilul ei pur se îndurera. Rosti totuși calm :</p>
+      <p>— După tăcerea d-tale înțeleg și natura conversației. E soarta mea. În contra, adversității nu pot luptà. Vai de femeia singură!</p>
+      <p>O lacrimă îi tivi pleoapele. Andrei ar fi voit să i-o soarbă. Emoția îi strînse gîtlejul. Îi lua mîna, murmurîndu-i sugrumat:</p>
+      <p>— Ai dreptate. Mi-a ajuns la urechi o clevetire. Comunicînd-o lui Ciprian, mi-a risipit-o cum știe el. risipi. Iată adevărul.</p>
+      <p>Lulù păreà zidită în demnitatea ei.</p>
+      <p>— Mai întîi, amicul meu, îți cer o promisiune solemnă. Făgâduește'-mi...</p>
+      <p>Andrei se înclină, cu tot sîngele în obraz:</p>
+      <p>— Făgăduește-mi că de cîte ori vei auzi ceva nu te vei adresà lui Ciprian, ci mie. E mult mai simplu și mai demn pentru prietenia noastră.</p>
+      <p>Ridicînd apoi tonul:</p>
+      <p>— Nu depind de nimeni și nu dau socoteala nimănui. Sunt mîndră de libertatea mea; e rezultatul meritat al unor lungi suferinți. Ne cunoaștem de puțin; mi se pare totuși că ne cunoaștem de totdeauna. Ne vom despărți poate curînd; țin însă la opinia d-tale. Îți voi face chiar o mărturisire sinceră: n’am ținut la opinia nimănui cum țin la opinia d-tale. Nu voi să pleci, judecîndu-mă rău.</p>
+      <p>Andrei o privi recunoscător. Ea continuă:</p>
+      <p>— Cum n’am nimic de ascuns, îți voi spune totul. Vei înțelege cît de grea e situația unei femei singure.</p>
+      <p>Apoi cu o nuanță de ironie în glas</p>
+      <p>— Acum rămîne să-mi spui.... cu cine?</p>
+      <p>Cu solemnitatea lui obicinuită în cele mai mici gesturi, Andrei îi mărturisi :</p>
+      <p>— Cu Puiu Cercel.</p>
+      <p>O privi drept în ochi. Fața femeei se destinse într’o înseninare divină ce se sfîrși apoi printr’o exploziune spontană. Întreaga ei ființă încordată o clipă se topi în unde cristaline și gîlgîitoare:</p>
+      <p>— Cu Puiu ! De ce nu cu Còlea Malinoff, — mi-ar povesti istorioare galante de pe timpul lui Cuza-Vodă. Nu cunoști încă pe Puiu, amicul meu. Nici nu te întreb cine ți-a putut spune o astfel de enormitate : cu Puiu!</p>
+      <p>Lulù tăcù. Enormitatea îi părù evidentă și lui Andrei.</p>
+      <p>— Puiu e prietenul meu de copilărie. Ne-am jucat împreună pe picior port încă urma unei sgîrieturi. Am crescut ca frații deși nu mi-a făcut prea multă cinste. Primim însă familia așa cum e; n’o discutăm. Pierzîndu-și timpul și averea în străinătate, cu nimicuri, a ajuns organizatorul balurilor de aici. Cumulează și profesiunea de cronicar de vară a unui ziar din Capitală. De pe urma acestei profesiuni am și beneficii. În cronicile lui sunt trecută cea dintîi <foreign>„la toute charmante madame Loulou-Calomfir”</foreign>; în fastele lumei mi se înregistrează astfel nuanțele, numeroaselor mele rochii.</p>
+      <p>Lulù se opri. Spre banca lor venià Puiu Cercel, în costum de tennis și cu rachetă în mînă : un copil aproape, un copil îmbătrînit însă prin cutele fine din colțul ochilor, prin paliditatea și aerul de oboseală distînsă ce i se citià pe figură ; cu mîna stingà își jucà mereu monoclul cu un gest de supremă nepăsare. Se înclină puțin în fața lui Lulù, cu familiaritate și cu o artă desăvîrșită de a nu vedeà pe Andrei.</p>
+      <p>— Partida e începută ; te-am căutat, prin tot parcul. Nu știam că te odihnești, la umbra brazilor cu domnul, (se opri ca și cum i-ar fi scăpat numele) cu d-l Lerian.</p>
+      <p>Simțind intenția jignitoare, Andrei n’o sublinià totuși prin nimic. Se mulțumi să-și încline capul alirmativ. Lulù interveni :</p>
+      <p>— Nu știi însă de ce vorbeam la umbra brazilor !...</p>
+      <p>— Despre amor, răspunse Puiu, ferm.</p>
+      <p>— Mai rău : despre tine.</p>
+      <p>— Luîndu-și aerul de copil vițios, Puiu suspină.</p>
+      <p>— Bine că nu eram aici ! Îmi numărați, de sigur, examenele de la drept nedate sau îmi recapitulați datoriile, căci nu îndrăznesc să cred că vă ocupați de operele mele literare.</p>
+      <p>Lulù îi răspunse în acelaș ton :</p>
+      <p>— D. Lerian îmi comunică tocmai un svon despre mine și despre tine — lucruri interesante !</p>
+      <p>Invîrtind racheta în aer, Puiu isbucni zgomotos :</p>
+      <p>— Bravo Lulù, vezi dacă nu ești cuminte ! Ți-am spus că o să ni se întîmple într’o bună zi.</p>
+      <p>Apoi către Andrei, ceremonios:</p>
+      <p>— Domnul Lerian e prea bun că se ocupă de nimicurile noastre. Facem și noi ce putem în acest oraș de provincie pentru a întreține curiozitatea Bucureștenilor blazați.</p>
+      <p>Inclinîndu-se apoi spre Lulù :</p>
+      <p>— De la jocurile copilăriei nu ne-a rămas de cît jocul amorului, Doamnă ; opinia publică prin glasul autorizat al d-lui Lerian ne invită...</p>
+      <p>Vorbele lui exprimau atiîta umòr, în cît Andrei zîmbi. Apoi cu aerul lui ștrengăresc, Puiu luă la braț pe Lulù, îndreptîndu-se spre tennis.</p>
+      </div>
+      <div type="chapter" n="15">
+      <head>XV</head>
+      <p>Rămînînd singuri, Puiu își părăsi masca de copil spiritual și nepăsător. Întorcîndu-se spre Lulù, zise apăsat :</p>
+      <p>— Ai puteà să te compromiți mai puțin cu domnul ăsta !</p>
+      <p>Femeia rîse scurt, silit și provocator.</p>
+      <p>— Bravo. Puiule ! Ai ajuns să-mi porți grija ! Nici nu te gîndești că numai tu mă poți compromite.</p>
+      <p>D. Lerian, dimpotrivă, mă reabilitează. Dovedesc lumii că pot stà de vorba și cu oameni, serioși. D. Lerian îmi completează educația; îmi vorbește despre teatru, despre muzică, despre expozițiile de pictură din București, și despre alte multe lucruri. Tot ce n’am învățat dela Iorgandà, de la Calomfir, și de la, tine, învăț acum de la dînsul.</p>
+      <p>Puiu își pierdu repede gravitatea. Nu’l prindeà. Se înclinà deci ironic:</p>
+      <p>— Te voi fi învățat totuși și eu ceva, doamnă.</p>
+      <p>Lulù făcù și ea o reverență :</p>
+      <p>— Negreșit, domnule, și îți sunt foarte recunoscătoare. Bietul Iorgandà erà ocupat cu damele de pică, de treflă, de cupă și de caro. Nu-i mai rămîneà timp și pentru mine. Preferà să se ducă la haremul lui de la club. Bietul Calomfir erà conștiincios și monoton : cântà o arie fără variații. Ai trebuit să vii tu; copil vițios și ingrat, ca să mă faci să gust felicițățile amorului și să-mi arăți ce poate adăugà omul naturii. Nu cred să te plîngi de docilitatea mea amoroasă.</p>
+      <p>Puiu o privi protector :</p>
+      <p>— Nu mă plîng. Am găsit în tine o aplicație și un temperament la înălțimea principiilor mele.</p>
+      <p>Lulù rîse sensual.</p>
+      <p>Nu erà copilul de odinioară, cu linia pură și feciorelnică, cu glasul suav și sincer, cu privirea limpede ; devenise o femee impură și perversă... Legătura ei cu Puiu dată de mulți ani, din copilărie. De cînd începuse să-i vorbească nelămurit instinctul, întîlnise în cale gura sensuală a lui Puiu; de cînd se jucau nevinovat, buzele lor se întîlnise ca dintr’o atracție iresistibilă. Ne cunoscînd nici unul misterul amorului, îl căutară împreună cu bunăvoință. Cînd îl găsiră, se speriară de ce făcuse, fără să deà însă îndărăt. De atunci, cu toate despărțirile la care îi siliseră împrejurările, rămaseră uniți. Nu se iubiau ; nu le trecuse niciodată prin minte să’și spună o vorbă de dragoste. Ii unià însă prima sensație a păcatului și conștiința unei legături neîntrerupte, pe care o întrețineà vițiul. Erà de ajuns să-l vadă pe Puiu ca să se deștepte în ea copila de odinioară ce aduceà jertfe amorului în toate ungherele casei. Ochii îi străluceau cu subînțelesuri sensuale ; gura îi înflori roșie ; vițiul ce i se rostogolià prin vine îi înpurpură obrazul. Printr’o minunată putere de a se schimbà, Lulù se adaptà tuturor celor ce-i deșteptau interesul sentimental; se încrustà în personalitatea lor, ducînd o splendidă viață parazitară. Erà o materie în fuziunea ce se turnà în feluritele forme ale amorului ; devenià sentimentală sau sensuală, naivă, sau perversă după sufletele cu care se amestecà. Cu Andrei erà lilială; cu Puiu, un flux de sînge îi ardeà vinele. Cuvintele lascive i se desprindeau pe pe buze ca niște roade coapte de pe ram. Devenià o Menadă impudică.</p>
+      <p>Puiu privi ironic spre dînsa; în svîcnirea tîmplelor, în purpura obrazului și în lîncezeala ochilor, recunoscu femeia, pe care o sculptase în brațele lui, printr’o lungă și savantă pregătire. Mîngîindu-i mîna docilă, îi șopti:</p>
+      <p>— Te iert.</p>
+      <p>Nu’și mai aduceà nici el aminte de ce o iertă... Imagina lui Andrei i se ștersese. Aveà ochii tulburi. Reculegîndu-se apoi, adause:</p>
+      <p>— Făgăduește-mi însă că o să te arăți mai puțin cu Lerian.</p>
+      <p>Lulù tăcù. Erà încă sub impresia cuvintelor ce-i tulburaseră simțurile. Îi trebui cîteva clipe de liniște. Se însenină apoi; ochii i se limpeziră. Rosti deci cu gravitate:</p>
+      <p>— Dimpotrivă, trebue să mă arăt cît mai mult cu dînsul. E cel mai bun mijloc de a abate clevetirea lumii. Mă va cleveti cu dînsul, și ne va lăsà pe noi în pace.</p>
+      <p>Argumentul părù hotărîtor. Puiu îi recunoscu temeinicia. Protestînd la început de formă, conveni apoi:</p>
+      <p>— Bine, primblați-vă prin parc ca doi îndrăgostiți cît voiți. Deseară viu însă la tine.</p>
+      <p>Lulù tăcù iarăși. Puiu o privi cu nemulțumire. Venià de obiceiu la cea dintîi chemare. Lulù se simți tulburată. Ca din adîncul conștiinții îngînă totuși:</p>
+      <p>— Nu, nu. Deseară nu...</p>
+      <p>In fața palidă a lui Puiu trecù o undă de sînge; pe frunte i se crestă o dungă. Nu voià! Dacă i-ar fi propus adinioară, cînd lunecase în vîrtejul simțurilor, da. Acum însă nu. Simțià un îndemn al unei conștiinți deșteptate. Prezența spirituală a lui Andrei o învăluià; ochii lui buni o priviau idealizînd-o, înnobilînd-o.</p>
+      <p>Fixînd o cu supremă nepăsare prin monoclu, Puiu o întrebă:</p>
+      <p>— Și pentruce nu astă seară?</p>
+      <p>Ca smulsă din vis, Lulù răspunse calm:</p>
+      <p>— Se vorbește de noi și trebue să fim deci mai prudenți.</p>
+      <p>Puiu nu erà convins:</p>
+      <p>— Și ce-mi pasă de ce crede Lerian sau alții!</p>
+      <p>Lulù insistă:</p>
+      <p>— Nu-ți pasă ție, fiindcă nu ai nimic de pierdut. Îmi pasă însă mie. Viața mea nu-i încă încheiată.</p>
+      <p>Puiu mormăi:</p>
+      <p>— Te interesează prea mult domnul ăsta...</p>
+      <p>Lulù îi răspunse calm:</p>
+      <p>— Nici ăsta, nici altul. Gîndește-te însă la situația mea delicată...</p>
+      <p>Văzîndu-i apoi chipul de copil mînios; Lulù voi să-l îmblînzească :</p>
+      <p>— N’ai nici o grijă. Nu ne leagă cuvinte mari, nici jurăminte sacre. Ne leagă totuși opt ani. Cînd îmi va bate inima, aiure, o vei ști cel dintîi, copil ingrat.</p>
+      <p>Îți vei primbla atunci vițiul în alte părți. Suntem camarazi și nu trebue să ne ascundem adevărul.</p>
+      <p>Măgulit, Puiu se îndulci. Și ca și cum nu s’ar fi întîmplat nimic, cu o mînă deschise portița tennisului; cu cealaltă respinse cu racheta o minge ce erà să lovească pe Lulù.</p>
+      </div>
+      <div type="chapter" n="16">
+      <head>XVI</head>
+      <p>Lulù se pregătià tocmai să plece. Sfîrșise partida de tennis; obrazul i se împurpurase. Se simțià mai sprintenă. Făcînd cîțiva pași în parc, auzi din spate un glas tremurat și patetic:</p>
+      <p>— Lulù !</p>
+      <p>Se întoarse. Un necunoscut se apropia de dînsa, salutînd’o cu semne de familiaritate. Lulù nu-și aduse aminte de unde-l cunoștea. Apoi, dintr'o dată, o viziune îi împlîntă un pumnal în inimă. Se roși pînă în rădăcina părului. Ar fi voit să fugă. Erà prea tîrziu. Sandu Mirescu îi și luase mîna, sărutîndu-i-o cu un gest de intimitate.</p>
+      
+      <p>Înalt, bine făcut, deși tușià mereu sec, cu un profil fin, cu fruntea desvelită, cu un nas ascuțit cu nări subțiri ce fremetau, Sandu aveà o distincție aparentă. Glasul lui sentimental și melodramatic, elocința lui ușoară și goală puteau înșelà pe mulți; înșelà, cu siguranță, pe femei. Le incintà cu vibrația caldă a vocei și prin explozia lui sentimentală. Nerespectîndu-le în sensul lor precis, nu-și căutà cuvintele. Lucrurile cele mai mici luau întorsături sensaționale. Amplificarea și exagerarea erau funcțiile lui naturale. Nu puteai ști de e sincer ; păreà totuși. Aspectul lui fizic și moral nu inspiră încredere oamenilor ponderați; exagerația detună ; elocința erà pur verbală; caracterul nesigur. Pe femei le captivà însă. Luminița ochilor lui verzi iscodià și ademenià. Erà «omul» lor. Nu trăià de cît pentru dînsele ; se învîrtià în jurul lor cu o adorație declamatorie ce le amețià. Se preocupà de toate amănuntele ce duc la gestul suprem al amorului. Poet sentimental și spumegos, gustà din beneficiile profesiei, valorificîndu-și reputația prin cuceriri tangibile. Cîntà cu măestrie pe orga sufletului femeei. N’o idealizà de cît în aparență și la început; procedà apoi la acțiune. Declamà patetic și îşi intindeà brațul; cînd îl strîngeà, prada cădeà. Fascină prin nu știu ce feminitate a atitudinii sentimentale, în care se simțià totuși masculul. După ce-și ajungeà scopul, evoluà spre noi cuceriri. Nu se ivise încă femeia care să-l încătușeze.</p>
+      
+      <p>In Decembrie, Lulù venise, ca de obiceiu, la București. Venià din nevoia de a evadà din cercul orășelului ei, din nevoia de a-și face rochii și cu vaga aspirație spre libertatea orașelor mari, cu misterul, cu aventurile din orice răspîntie, cu toate posibilitățile plăcerii. Se simții ușoară; nu se temeà de ochii iscoditori ai vecinului. Libertatea mișcărilor. îi da o imensă fericire, modelîndu-i un suflet nou; înzăgăzită atîta timp, viața se revarsà sub forme capricioase și lacome de sensații. Nu o rețineà nimic. Crezîndu-se necunoscută și nesupraveghiată, i se păreà totul permis.</p>
+      <p>Cu ochiul lui iscoditor, Sandu observase din primele zile silueta fina a lui Lulù... O urmărise cu privirea lui ce îmbrățișà și desbrăcà; clipind din ochi, ea îi răspunsese printr'un zîmbet nedefinit, pe care știința lui amoroasă îl interpretà lesne. Întîlnind-o deci într’o dimineață în fața Ateneului, Sandu îi oferi un buchet de violete exotice, cu glasul lui cald și declamator :</p>
+      <p>— Permiteți-mi, doamnă, acest, mic omagiu al unei admirații mari.</p>
+      <p>Fără sfială, Lulù îl primi:</p>
+      <p>— Îți mulțumesc, domnule: dar ce risipă !</p>
+      <p>Sandu își începù brusc romanța:</p>
+      <p>— Doamnă, ai revoluționat Capitala. Ne mai văzînd un profil atît de pur de adevărată camee romană, trecătorii se întorc după d-ta. Par un Orfeu multiplu, privind după o Euridice rămasă în urmă.</p>
+      <p>Lulù îi ascultà cu surpriză plăcută glasul sonor, teatral, patetic. El își intră apoi în rol, lăudînd-o în amănunt și în total, entuziasmîndu-se, delirînd. Ea tăcù, roșie de plăcere; muzica necunoscută o tulbură; sub privirea lui îndrăzneață plecà ochii.</p>
+      <p>Ajungînd la un colț de stradă, făcù gestul despărțirii. Tragic, ca și cum s’ar pune între dînșii eternitatea, Sandu o întrebă :</p>
+      <p>— Cînd voi aveà fericirea să te mai văd, frumoasa mea camee?</p>
+      <p>Lulù își revenise în fire. Luxura ce-i ardeà vinele îi dădù un aer îndrăzneț. Răspunse deci fără emoție ca la o întrebare firească:</p>
+      <p>— Cînd vei voi.</p>
+      <p>Rămînînd o clipă pe gînduri, el nu’și trădà totuși mirarea. Se înclină iluminat:</p>
+      <p>— Atunci chiar azi la ora 5 la Hotel Astoria, camera No. 45.</p>
+      <p>— Prea bine, răspunse ea cu sfidare.</p>
+      <p>Și ca și cum ar fi zis lucrul cel mai firesc, Lulù coti la dreapta, sub privirea neîncrezătoare a lui Sandu, care nu-și puteà închipui că va veni; voise numai să scape de dînsul.</p>
+      <p>La ora cinci, o bătae în ușă îl făcù să tresară. Din pervaz apărù Lulù, cu voaleta trasă peste figură, cu mișcarea sinuoasă a șoldurilor, — o mișcare, pe care o adoptà involuntar de cîte ori venià în Capitală. Păcatul ce plutià pretutindeni o impresură, invăluind-o în mistere. Mergînd la biserică, ai fi crezut că se duce la o întîlnire.</p>
+      <p>Intrînd, zîmbi cu provocare:</p>
+      <p>— M’am ținut de cuvînt.</p>
+      <p>Aruncă ochii în jur, cu oarecare decepție: o odăiță modestă de hotel, cu cîteva volume răvășite pe măsuța, cu cîteva cromolitografii și cărți poștale ilustrate fixate pe păreți. O umbră de nedumerire îi trecù prin ochi. Bagînd-o de seamă, Sandu nu-i dădù răgazul reflecției, înțelegînd că totul ar puteà fi pierdut. Nu mai erà tenorul sentimental din stradă; nu se mai pierdu în lirism. Îndrăzneț, păși la fapt; în cîteva clipe mînă lui dibace îi desfăcuse haina. Lulù nu se aşteptase la procedee atît de hotărîte ; căutase aventura; îi pusese însă mintal oarecare limite. Privirea perversă a lui Sandu o ameți; energia lui o moleși. Simțurile i se tulburară; din vasul sufletului i se ridicà deasupra mîlul impur. Ochii i se rostogoliră în gol; vițiul i se înălță în jarul obrazului și în tremurarea nervoasă a gurei; chipul ei de copil își pierdu armonia liniilor; femeia impudică se deșteptà — nu femeia care iubește și se dă, ci femeia cuprînsă de delirul bachic ce simte nevoia luxurii, femeia ce vreà să fie pîngărită și umilită.</p>
+      <p>Goală, se îngrămădi într’însul:</p>
+      <p>— Spune-mi sincer, — drept cine mă iei ?</p>
+      <p>Stăpîn pe sine, Sandu, îi răspunse zdrobindu-i buzele:</p>
+      <p>— Drept o femee din lumea mare...-</p>
+      <p>Iar ea, rîzînd sensual, cu nările răsfrînte și roșie de incendiul simțurilor, gemu:</p>
+      <p>— A, nu! Nu, asta... Nu vreau, nu vreau.</p>
+      <p>Sandu o privi întrebător. Ea horcăi , spasmodic:</p>
+      <p>— Sunt... o... ași vrea să fiu o...</p>
+      <p>N avu timpul să sfîrșească deoarece nici Sandu nu dorià altceva.</p>
+      <p>Cînd deschise ochii, se văzù goală pe un covoraș în fața oglinzii. Se deșteptase dintr’un somn adînc. Pierduse noțiunea timpului. Unde se aflà? Cîte ceasuri erau ? O moleșeală îi închideà pleoapele. Zărind pe fotoliu pe Sandu, își aduse aminte ca prin ceață. Se rușinà. Voi să-și pună mina la ochi; îi căzu ca o bucată de plumb. Câtà în lături și se văzù iarăși goala în oglindă. Putù atunci reacționà. Întinse mîna spre pat de-și trase cămașa. O îmbrăcă repede... Se sculà apoi, amețită.</p>
+      <p>Sandu o privii, tacînd... Într’un tîrziu, Lulù îl întrebă cu un zîmbet îndoelnic și cu un gînd, ce venià de departe:</p>
+      <p>— Ce ți mai face nevasta?</p>
+      <p>Sandu cătă la ea mirat. Nu erà însurat. Dar Lulù stărui:</p>
+      <p>— Crezi că nu știu ca ești însurat!</p>
+      <p>El preferà să n’o contrazică:</p>
+      <p>— Și de unde ştii?</p>
+      <p>Iar ea cu acelaș zîmbet enigmatic:</p>
+      <p>— Te-am văzut la Iași. Stai pe Strada Lăpușneanu în casele acele atît de frumoase... Te-am recunoscut de cum te-am văzut.</p>
+      <p>Sandu nu fusese niciodată la lași Nu voi totuși să o desamăgească.</p>
+      <p>— Aşàà! Și mie nu mi-ai spus nimic. Aveai aerul că nu mă cunoști.</p>
+      <p>Lulù îl privi lung în ochi, cu nedumerire, cu o vagă bănuială că se înșelase. Cătînd în jur, văzù sărăcia odăei cît cele cîteva cărți poștale bătute în perete; nu erà o odae de călător ci locuința modestă a unui om ce stă la hotel. Clatină din cap... Se îmbrăcă nervos, își puse jacheta... Pe buze îi plutià o întrebare... Șovăi totuși... înțelegeà că se înșelase și că aveà să vorbească de prisos... îndrăzni numai sa murmure, întinzîndu-i mîna:</p>
+      <p>— ... Atunci?</p>
+      <p>Sandu îi înțelese privirea ; îi citise de pe buze așteptarea. Se făcù totuși că nu înțelesese. Se înclină, sârutîndu-i mîna.</p>
+      <p>— Atunci? Am rămas cu amintirea celui mai plăcut ceas din viața mea...</p>
+      
+      <p>După șase luni, Lulù vedeà acum pe neașteptate pe necunoscutul dela Astoria. O pînză i se lăsà pe ochi și pe simțire: de unde răsărise de odată această fantomă a trecutului ei ușuratec? Îi măsură cu privirea ca și cum nu l’ar fi cunoscut. Sandu îi strîngeà însă mîna cu o intimitate veche. Dădù apoi drumul glasului cald:</p>
+      <p>— În scurta dar plăcuta noastră întîlnire, scumpa mea doamnă, n’am avut ocazia să mă prezint; cred că ne-am întrebuințat timpul mai bine, adaose el cu fatuitate. Nu sunt Ieșeanul din Strada Lăpușneanu cum ai bănuit. Sunt Sandu Mirescu.</p>
+      <p>Lulù îl privi rece, fără, să răspundă. El insista înțepat:</p>
+      <p>— Poetul.</p>
+      <p>Lulù nu dădù semne că-l cunoaște.</p>
+      <p>Sandu își mușca buzele:</p>
+      <p>— Cît despre d-ta am simțit dela început că nu ești ceiace voiai să pari.</p>
+      <p>La rîndul ei, Lulù își mușcà buzele. Un val de singe îi năpădi în obraz. Pămîntul i se deschise dinainte.</p>
+      <p>— Am aflat apoi că am avut plăcerea de a primi în modesta mea cameră pe d-na Lulù Calomfir...</p>
+      <p>Lulù tăceà mereu.</p>
+      <p>— În zadar te-am căutat. Nu te-am mai găsit...</p>
+      <p>Ea abià putù îngînà:</p>
+      <p>— Am plecat a doua zi.</p>
+      <p>— Aşà! Atunci se explică. Dela bunul meu prieten, Ciprian, am aflat însă că eşti aici.</p>
+      <p>Lulù înclină din cap, făcînd gestul despărțirii. Sandu continuă:</p>
+      <p>— Nu-ți pot oferi violete. Te întreb însă acum ca și atunci, cînd voi aveà plăcerea să te mai văd.</p>
+      <p>Ea avù, însfîrșit, tăria să răspundă:</p>
+      <p>— La băi toată lumea se întîlnește destul de des.</p>
+      <p>Sandu o privi pătrunzător:</p>
+      <p>— Cînd te-am cunoscut pentru prima oară, mi-ai dat o întîlnire pe la cinci. Ceasul acesta nu ți-ar mai conveni?</p>
+      <p>Lulù abià își reținu lacrimile. O coprinsese disperarea. Se uità cu desnădejde la Sandu. Stăpînindu-se totuși să nu plîngă, zise cu glas dureros:</p>
+      <p>— Nu te înșeli asupra mea, domnule. Sunt, în adevăr, doamna Lulù Calomfir. M’ai cunoscut într’un moment de aberație. Ar fi prea greu să-ți explic motivele. Mi-e rușine, domnule, de acea amintire. Te rog, te implor să uiți totul. Ceeace s’a întîmplat la București nu se mai poate întîmplà aici, într’un orășel, în care sunt cunoscută... Stăm chiar de prea multă vreme de vorbă. Mă ierți de mă vad silită să plec...</p>
+      <p>Și, șalutînd îndurerată plecă.</p>
+      <p>Privind-o lung, Sandu mormăi printre dinți:</p>
+      <p>— Vom mai vedeà !</p>
+      </div>
+      <div type="chapter" n="17">
+      <head>XVII</head>
+      <p>Lulù lasă geamurile deschise. Adierile nopții o mîngîiau lin pe frunte, sburătăcindu-i părul fin din jurul tîmpielor. Avea nevoe de atingerea vîntului ce o alină fără să o întrebe. Nu dorià s’o întrebe nimeni nimic; i se încleștase gura ; n'ar fi putut scoate o vorbă. Se gîndià numai; gîndirea o tortură însă. Întîmplările zilei o abătuse; erà nervoasă; aveà fiori nelămuriți. Vîntul îi mîngîià fruntea aprinsă, i se strecură sub haina largă de casă. Își simțià în trup o căldură, tăiată de răceli repezi. O scuturau ușoare friguri.</p>
+      
+      <p>Se gîndi deodată la Andrei.. Și, deși nu aveà imaginație, îi văzù chipul palid,— aproape, ceia ce nu i se mai întîmplase. Erà roaba realității, suferind ascendentul sensațiilor, fără să le poată evocà totuși. Niciodată nu simțise atît de tangibil o prezență iubită, cum îl simțià acum pe Andrei. N’o impresionase totuși prin nimic: nici prin frumusețe, nici prin dominație. Îi plăceà să’l întilnească, mereu, cu o sete nouă, să-i audă glasul cuminte, sau să steà alături, ascultînd fîşîitul armonios; al vremei ce trece. De unde îi venià oare aceasta plăcere? Lulù n’o puteà înțelege.. Nu găsise pînă acum în amor decît beția și vițiul nu pricepeà deci simțirea nouă care o legănà. Nu iubise nici odată. Nu stătuse încă la geam, cu gînduri nelămurite, cu o dulce melancolie, respirînd răcoarea vîntului și privind spre stelele îndepărtate cu întrebări copilărești. Limitase amorul la dorință; deși fără ea, se simțià acum învăluită în dogoarea unei flcări interioare, neîncercate.</p>
+      <p>De la cazino veniau încă acordurile frînte ale muzicei militare; dinspre parc străbateà mirosul pătrunzător de molid. Lulù se gîndi iarăși la Andrei. Din nou avù senzația prezenței lui materiale: îi netezise părul pe tîmple. Erà vîntul. Zîmbi de absurditatea iluziei.</p>
+      <p>Îndoiala intrase în sufletul prietenului ei. Își dadeà bine seama. Pentru moment i-o risipise. Dar măi pe urmă? Cum puteà ea să lupte cu tot ce aveà să-i vină la ureche ! Se scuturà, nervoasă. Mîndria o îndîrji; «Și, la urmă, ce-mi pasă! N’am să dau socoteală nimănui!» Rămase astfel, glacială și demnă în suflarea vîntului. «Ce înseamnă omul acesta în viaţa mea? Nimic. Peste o lună pleacă. N’am de ce să mă chinuesc cu gîndul că va aflà ceea ce alții știu poate de mult.» Se mlădie totuși repede. Țineà ca Andrei să nu știe nimic. De ce? Dădù din umeri. Îl iubià poate? N’o credeà. Pentruce ideia de a nu-i aflà trecutul îi devenise atunci o adevărată obsesie? Și-o explică deodată.</p>
+      <p>Ceilalți o priviau ca pe o ființă ușoară, ca pe un obiect de destatare. Pentru toți, erà «Lulù»; un simbol! Andrei o privià altfel; o ridicase pe un piedestal, o idealizase; îi deșteptase o mîndrie şi o conștiință. Nu-i trezise, poate, iubirea; îi frămîntase însă pasta sufletului pentru deveniri posibile; îi deșteptase dorința secretă de a scapà din viața ce dusese pînă acum. Simțià o durere tăioasă la amintirea trecutului. Prezența lui Sandu Mirescu o desperà. Scena de la Astoria îi revenià în minte cu o preciziune chinuitoare. N’o minase numai aventura acolo ci şi o mare strîmtorare materială... Crezuse... își închipuise... Ce rușine! Se vedeà goală pe covorul din fața oglinzii, îngăimînd cuvinte impudice, în care vortbià nu numai luxura biciuită ci și gîndul unei nevoi. Ce umilință! Citise disprețul în ochii lui Sandu. Plecase zdrobită : se dase primului venit. Dorind să nu-l mai vadă, părăsise a doua zi Capitala. Și iată-l acum pe urmele ei. Omul o dorià, o cereà; aveà drepturi. Nu-i putea refuzà; i se dăduse doar atît de brutal ! N’aveà cum să-i reziste... Vorbind preà mult, Sandu, nu-i inspirà, de altfel, nici o încredere. Se îmbătà de propriul lui glas, dramatizà, exageră. Fiind prietenul lui Ciprian, cunoșteà poate și pe Andrei. Le va povesti, desigur, întîmplarea.</p>
+      <p>Simți cum sîngele îi îngheață în vine și cum se îndîrjește din nou: « — Și dacă-i va spune! Poate să-i spună ce-o vreà... N’aveà nici o obligație față de nimeni». I se spovedise totuși, simțind nevoia sincerității.— Puteà oare să-i spună totul? Erà preà tîrziu; pentru dînsa viața luase o formă definitivă. Aveà atîtea lucruri de ascuns! Sandu venise tocmai cînd voià să rupă cu trecutul și să înceapă o existență nouă. Trecutul se răsbună totuși.</p>
+      <p>Deodată, dori cu intensitate ca Andrei sa plece cît mai repede. Nu-l va vedea poate niciodată; să plece deci înainte de a-i vorbi Sandu. Îi va duce astfel imaginea ei curată, păstrînd-o în amintire idealizată.</p>
+      <p>La gîndul acesta totul i se părù un vis. Erà imaterială. Nu-i mai vorbiau prin vine glasurile ispitei. Ce bine că nu primise nici pe Puiu în asta seara, ea care nu i se refuzase niciodată. Racoarea nopții începuse să-i potolească neliniștea. Mîngîerea blîndă a naturii îi risipise tortura întrebărilor. Numai gîndul celui departe o veghià.</p>
+      
+      <p>O ușoară bătae în ușă. Lulù tresări. În ietacul abià luminat de o candelă se aratà chipul vioi, cu clipiri șirete, al Siminei, — o fetișcană de țară, cu mișcări sprintene, și cu o feminitate trezită din contactul cu Lulù. Întrînd repede, Simina arătă cu ochiul spre ușă:</p>
+      <p>— Dudue, a venit...</p>
+      <p>Lulù tresări din visurile ei. de regenerare. Nu înțelese gestul Siminei.</p>
+      <p>— Ce întri așa de mă sperii? Cine a venit? Nu aștept pe nimeni.</p>
+      <p>Iar Simina clipind șiret:</p>
+      <p>— Domnul Mavru.</p>
+      <p>Lulù se împurpura. Simţi un imens desgust. Văzu imaginea apoplectică a moşierului cu gesturile lui brutale. Minioasă se răsti :</p>
+      <p>— Pe unde a intrat?</p>
+      <p>— Apoi nu i-ai dat matà cheia din fundul grădinii?</p>
+      <p>Așa erà. Venind de la moșie la date neprevăzute, Lulù îi dăduse cheia într’un moment de nesocotință.</p>
+      <p>Ea se prăbuși în fotoliu, cu capul între mîni. Erà disperată. Simina stărui:</p>
+      <p>— Așteaptă în salonaș.</p>
+      <p>Lulù se revoltă:</p>
+      <p>— Nu, nu-l primesc. Spune-i că nu sunt acasă</p>
+      <p>— Te-a zărit la fereastră.</p>
+      <p>Lulù isbucni:</p>
+      <p>— Spune-i atunci că nu-l pot primi, că sunt bolnavă — spune-i ce vrei. Nu-l lăsà însă să intre.</p>
+      <p>O coprinse apoi un plîns cu svîcniri nervoase. Își îngropa fața în palme, și plînse, plinse, întîi violent apoi mai domol pînă ce se ușura de furtuna, pe care o presimțià de mult în ochi...</p>
+      <p>Se gîndi apoi la situația ei: Puiu, un ușuratec, de care n’o legă decît obicinuința plăcerii. Se gîndi la cele trei rochii, pe care nu le plătise încă, se mai gîndi la atîtea alte greutăți, pe care numai ea le știà... Nimeni n’o ajutà... Realitatea tragică o prinsese în cleștele ei inexorabil și o înmlădie în formele ei fatale. Se întoarse deci cu o dureroasă resemnare spre Simina:</p>
+      <p>— Simino !</p>
+      <p>Fata erà tot acolo, privind cu înțelegere spre dînsa.</p>
+      <p>— Simino, n’a plecat d Mavru?</p>
+      <p>— Nu.</p>
+      <p>Cu un glas de copil, în care intră o totală supunere în fața fatalității, Lulù suspină:</p>
+      <p>— Bine. Spune-i să intre.</p>
+      <p>Simina voi să plece. Lulù o chemà din nou:</p>
+      <p>— Închide mai întîi fereastra și da drumul storului.</p>
+      <p>Cu o mișcare apoi rapidă, își șterse ochii cu batista, își trecù puful de pudră peste obrazul înroșit, și, supusă, își așteptà destinul.</p>
+      </div>
+      <div type="chapter" n="18">
+      <head>XVIII</head>
+      <p>Lulù și Andrei se vedeau în fiecare zi, la cazino, la tennis, în parc, la dînsaa casă. Nu se mai săturau unul de altul în scopuri ce treceau peste înțelegerea lor. Abia se despărțiau și se doriau iarăși; n'aveau să-și comunice nimic ; li se păreà totuși că uitase tocmai ceia ce trebuiau să-și spună. Reînoiau pretextele dea se vedeà cu o ingeniozitate nelimitată.</p>
+      <p>Nu’și făceau declarații; nu pomeniau de propriile lor sentimente; vorbele aveau însă rezonanța unei adînci intimități. În fiecare vibrà sufletul. Lulù n’aveà cultură, nici lectură : printr’o intuiție nebănuită pînâ acum, găsià totuși observații fine. Aveà un fel personal de a’și exprimà gîndul ce-i plăceà lui Andrei...;</p>
+      <p>Nu se întîlniau numai, ci își şi scriau. Orice petec de hîrtie erà binevenit, pentru a-l acoperi cu slove înfrigurate ca să nu-și spună nimic. Se spovediau necontenit. Lulù îi înșirà nimicurile zilei de la amănuntele rochiei, plătite de Mavru, și pînă la tulburările ei fiziologice, din nevoia de a trezi un ecou, un interes în prietenul ei. Planuri de viitor n’aveau: și aceasta treceà farmecul prieteniei lor spirituale; nu’și bănuiau gînduri ascunse. Uitase să-și spună că se iubesc; nici nu știau, de fapt, de se iubesc. Erà mai mult o infiltrare lentă, o contopire, fără violențe amoroase, nevoia, unei totale comuniuni sufletești. Andrei îi povestise, de altfel, trecutul, cu deziluziile lui, cu neîncrederea cel rodeà; nevoia certitudinii îi dominà. Nu puteà iubi, bănuind. Lupta celor două elemente dușmane din sufletul lui se hotărîse. Biruise iluzia creatoare. Încidentul cu Puiu fusese uitat; alte mici șoapte și aluzii indiscrete lunecase pe lînga dînsul fără să-l clatine. Nici nu le amintise lui Lulù. Sinceritatea și nevinovăția ei îi deveniseră evidente; nimic nu le puteà sgudui. Calomnia puteà deci șuerà: erà omagiul indirect adus frumuseții și chiar virtuții. Prin ea se răsbunau sufletele josnice împotriva tuturor supremațiilor ; erà spuma murdară, pe care o aruncà marea spre vîrfurile neatinse ale stîncelor. Idealismul creator îl dominà deci, fără voe: aveà în suflet o mașina de ideal ce ar fi putut transfigura tot universul... Fabrică, fabrică... Oamenii luau aspecte nobile și dezinteresate; viața îi păreà frumoasă. Din Lulù, făcuse o ființă cu nici o asemănare cu realitatea, o ființă sinceră, spontană; un copil nevinovat și nepătat de răutatea lumei. Știà că fusese măritată de două ori, într’o succesiune cam imprecisă, — el o voià totuși fecioară, îi atribuia o virginitate morală, absurdă, proiectând-o într’o regiune ideală, dincolo de hotarul bunului simț. Puterea lui de a idealizà nu lucrà însă numai în abstract; sculptà și realitatea lui Lulù; o modelà după propria lui viziune, involuntar, ea se adaptà idealului lui Andrei, devenind creațiunea lui. Înstinctele perverse tăcuse; în suflet îi germinase o nouà viață...</p>
+      <p>Trecutul nu se puteà nimici totuși. Cu lungul lui șir de amanți și de aventuri el se prelungià în prezent, urmând'o pretutindeni, imperios. Sandu devenise amenințător. Diomò așteptà și el ca o fiară. Îluziunea lui Andrei o purifică însă și o înnobilă; prin acțiunea ei păreà un fir de praf ce căpătà o viața neașteptată sub acţiunea razei solare. Reușià uneori să uite și să se înșele pe sine. Realitatea o svîrlià în brațele lui Mavru sau ale lui Puiu. După ce scapà însă de violența unuia și de vițiul celuilalt, se refăceà iarăși sub influența idealizării lui Andrei. Îl primià cu o suavă candoare; se înfiorà la o ușoară atingere a mînii lui. Ce puțin lucru trebue ca să fii fericit!</p>
+      <p>O vorbă... o atingere a mînii.,. un zîmbet. Și totuși fericirea e atît de grea! Căile vieții sunt atît de încurcate!</p>
+      </div>
+      <div type="chapter" n="19">
+      <head>XIX</head>
+      <p>In înserarea ce se lasà grea, Lulù ședeà la geam și cu nerăbdareà așteptării dar și cu o trisțeță nelămurită ce o încercà de câtva timp, o urmârià o presimțire: frica unei nenorociri invizibile. Nici odată nu fusese totuși mai fericită ca acum; gustà atîtea bucurii, pe care odinioară nu le înțelegeà. Andrei o învăluise în plasa lui fermecată. Netulburat de nici o bănuială, o vedeà prin aceeaș prismă a iluziei...</p>
+      <p>Ușa scârțîà ușor. Crezînd că e Andrei, Lulù tresări. Simina își arătà ochii șireți, clipind repede, îi întinse un bilet adus de un om. Lulù îl desfăcù nervoasă. Înima îi svîcnià. Erà dela Sandu. Cițindu-l, i se urcă sîngele în obraz. I se împlinise presimțirea că omul i se va pune dea-curmezișul. O voià cu orice preț, chiar numai o singură dată. Amorul, lui propriu de cuceritor i se deșteptase. O pîndià pretutindeni, la cazino, în parc, în poarta casei. O imploră și o amenință.</p>
+      <p>Acum îi scria într’un stil dîrz, cerîndu-i voe, imperios și încordat, s’o vadă înainte de a plecà. Așteptînd pe Andrei, Lulù se simți pierdută.</p>
+      <p>Luă o foae și, fără să mai reflecteze, scrise repede:</p>
+      
+      <quote type="letter">
+      <p>«Domnule, te implor lasă-mă. Ce-a fost odată, nu mai poate fi niciodată, niciodată».</p>
+      </quote>
+        
+      <p>Simina ieși la timp. Peste cîteva minute, intră și Andrei.</p>
+      <p>Lulù îl întîmpină la ușă cu febrilitate. Luîndu-i mâna, i-o mîngîie, mîngîindu-se de ea. Îl privi ca și cum nu l-ar fi văzut de mult. Îl așeză în fotoliu, iar ea se lăsă pe un scăunaș. Zîmbià copilărește și devenià apoi serioasă. Andrei o privià îngrijorat... Venind, se întîlnise cu Arteniza Vârdali, care îi vorbise cu înțeles despre văduvele ce duc o viață ușoară, pe cînd atîtea fete caste nu’și găsesc un bărbat. Apăsă asupra primejdiei femeilor care, sub forme candide, ascund suflete nesățioase și perverse. Altădată, Andrei s'ar fi clătinat; acum ascultase indiferent, ocolind chiar amănuntele, pe care Artemiza se pregătià să i le deà. Înteresul femeei erà evident; se mulțumi deci să zîmbească, făcîndu-se că nu înțelege. Încrederea lui erà atît de indestructibila, încît povesti totul lui Lulù, glumind asupra intențiilor matrimoniale ale Artemizii.</p>
+      <p>Lulù rîse nervos, îngînînd: «da, da... așa ? Biată Artemiza, nu găsește un bărbat pentru Cleo»... Câtă apoi spre ușă. Andrei îi luă mîna.</p>
+      <p>Privind-o blînd, îi spuse:</p>
+      <p>— Ce ai?</p>
+      <p>Tresărind, ea voi să-și tragă mîna.</p>
+      <p>— Nimic.</p>
+      <p>— Atunci de ce-ți tragi mîna?</p>
+      <p>Lulù protestă; nu-și dădu-se seama. Ca să i o dovedească, își strînse pumnul mic în mîna lui mare. Andrei insistă.</p>
+      <p>— Ai totuși ceva.</p>
+      <p>— Sunt puțin cam nervoasă. De cîteva zile mă urmărește o presimțire.</p>
+      <p>— Ce presimțire?</p>
+      <p>— Că o să ne despărțim.</p>
+      <p>Andrei îi mîngîià mîna:</p>
+      <p>— Ce copilă ești !</p>
+      <p>Lulù privi din nou spre ușe.</p>
+      <p>Andrei îi spuse cu blîndețe:</p>
+      <p>— De ce te uiți mereu la ușe ?</p>
+      <p>Lulù tresări iarăși.</p>
+      <p>— Mă uit la ușe ?</p>
+      <p>Se gîndi apoi puțin:</p>
+      <p>— A, da, ai dreptate. Mă tem să nu ne tulbure cineva.</p>
+      <p>Andrei o privi nedumerit căci n’o văzuse femîndu-se pînă acum. Nu-și exprimà totuș nedumerirea. Ca să schimbe vorba, Lulù șopti:</p>
+      <p>— N’ai crezut nimic din ceea ce insinuă Artemiza?</p>
+      <p>Andrei întări:</p>
+      <p>— M’am deprins cu clevetirile. Nu mai au nici un efect.</p>
+      <p>— Îți mulțumesc că n’ai crezut. Va veni totuși o zi cînd vei crede. Simt că va veni acea zi — și atunci ne vom despărți.</p>
+      <p>O lacrimă i se arătă în gene. O șterse repede.</p>
+      <p>— Nu va veni niciodată.</p>
+      <p>Ea zîrnbi trist:</p>
+      <p>— Îți mulțumesc. Simt însă că va veni. O cît ași dori să plec din orășelul acesta !</p>
+      <p>Andrei îi spuse simplu:</p>
+      <p>— Vei plecà.</p>
+      <p>Ea îl privi, cu ochi mari, fără să priceapă:</p>
+      <p>— Cum voi plecà..?</p>
+      <p>Nu-i răspunse deocamdată. Ochii îi vorbiau însă. Sub impulsiunea unei forțe naturale, el îi trecù brațul pe la spate; capul femeei i se lăsă domol pe umăr. Se pusese pe atîtea umere, și, totuși, păreà, acum că se pune pentru prima dată, ușor și nevinovat. Andrei îi privi cu duioșie ca pe o povară prețioasă. Erà mai mîndru de greutatea lui de cît dacă ar fi purtat greutatea cerului. Simții o dulceață, pe care n’o mai gustase niciodată. Și dintr’o dată buzele li se uniră într'o sărutare nesfîrșită. Cînd se desfăcură din încleștarea gestului etern, Andrei zise domol:</p>
+      <p>— Lulù, primești să fii soția mea?</p>
+      <p>Ea începù să plîngă nervos; își ascunse chipul în mînele lui, șoptind:</p>
+      <p>— Ce fericită sunt, ce fericită sunt!</p>
+      <p>Andrei continuă:</p>
+      <p>— Ne vom instalà la București. Vei scăpà de clevetirile lui Diomò și ale Artemizii.</p>
+      <p>Lulù lunecà jos de pe scaun, la picioarele lui. Își așezà căpșorul blond pe genunchii lui, ațipind de emoție și de fericire, ca un copil.</p>
+      
+      <p>Abia plecase Andrei și se auzi în vestibul, glasul ascuțit al Siminei. O voce bărbătească o dominà totuși. Deschide apoi violent ușa ietacului intră Sandu. Erà calm, demn. Lulù păși spre dînsul, înfrigurată:</p>
+      <p>— Te-am rugat, domnule, să nu vii.</p>
+      <p>Sandu îi răspunse rece:</p>
+      <p>— Din colțul străzii am înțeles de ce ţineai să nu vin. Am așteptat să plece Lerian, și acum am crezut că pot intrà.</p>
+      <p>Lulù isbucni:</p>
+      <p>— Oricare ar fi fost motivele mele, te rog, domnule, să-mi redai liniștea, pe care mi-ai furat-o. Uită-mă, părăsește acest orășel, în care urmărireà d-tale mă compromite.</p>
+      <p>Sandu își păstrà răceala:</p>
+      <p>— Nu te neliniști, doamnă. Mîne voi plecà. Țineam numai să te văd ca să-ți cer iertare. Cînd ai venit la Astoria, am înțeles foarte bine că n’o făceai pentru mine ci pentru domnul din Iași de pe strada Lăpușneanu. Am abuzat deci de buna d-tale credință. Pe cînd te țineam în brațe, mi-ai șoptit să te iau drept o cocotă; eu te-am luat însă drept o femee de lumea mare. Am contractat obligații față de dumneata, pe care nu le-am împlinit încă. Înainte de a plecà, țin însă să le împlinesc.</p>
+      <p>Vîrîndu-și mîna în buzunarul vestei, scoase repede o hîrtie de cinci sute, pe care o strecură pe măsuța de alături. Înclinîndu-se apoi, adaose:</p>
+      <p>— Acum, doamnă, plec. De vii la iarnă prin Capitală, sunt tot la Astoria.</p>
+      <p>Și ieși.</p>
+      <p>Lulù se prăbuși pe blana de urs de lîngă pat. În zadar, Simina îi trecù pe la nas flaconul de eter. Se zdrobise ceva în ea. Fata o ridicà încetișor ș’o întinse pe canapea, într’un tîrziu Lulù tresări. Privi în jur. Simina, o veghià la căpătîi, în ietacul luminat de candela roșie. Lulù îi spuse să plece. Voià să fie singură. Simții în piept o rană, în care se răsucià un fier, roș.. Cuvintele și gestul lui Sandu o torturau.. Lunecase de atîția ani în aventură, cu nepăsare. Niciodată nu se gîndise că face rău; acțiunile ei n’avuse alt mobil decît interesul și plăcerea. Dispusese de corpul ei așa cum voise.. Se bucurase totuși de considerația ce i se cuvenià situației ei: toate casele îi erau deschise. Nu cetise zîmbetul de pe buzele tuturor sau îl interpretase măgulitor. Pretutindeni simțise omagiul ochilor ce o admirau și patima, pe care o semănà în drumul ei triumfal.. Toți o doriau, de la adolescentul ce se oprià pe loc zărind-o, deș nu cunoșteà încă formele amorului, și pînă la Còlea Malinof, care-i sărutà podul palmei, suspinînd că nu are patruzeci, de ani mai puțin... În jurul ei plutià o complicitate universală pentru a o împinge mai departe... Și acum, deodată, — nemernicul acesta îi aruncase cuvîntul ce o însemnă cu fierul roș al unei tragice realități....</p>
+      </div>
+      <div type="chapter" n="20">
+      <head>XX</head>
+      <p>In vestibul se auzi iarăși glasul ascuţit și certăreț al Siminei, întretăiat de un glas bărbătesc mai violent.</p>
+      <p>— Duduia nu poate primi, e culcată, e bolnavă.</p>
+      <p>— Trebue s’o văd numai decît.</p>
+      <p>— Nu se poate; doarme.</p>
+      <p>— Deșteapt-o și spune-i că sunt eu.</p>
+      <p>Lulù recunoscu glasul lui Diomò. Se înfioră: ce voia dela dînsa? Și cum cearta creșteà, deschise ușa:</p>
+      <p>— Lasă-l, Simino, să intre.</p>
+      <p>Diomò păși pragul. Aveà o figură rea, încordată, de pasere de pradă; o bucurie feroce îi licărià uneori prin ochi.</p>
+      <p>Măsurînd de cîteva ori ietacul cu pas grăbit, isbucni apoi:</p>
+      <p>— Ceia ce s’a întîmplat e destul de grav pentru ca să-mi iau libertatea de a veni la ora aceasta.</p>
+      <p>Lulù îl privi, mută. Nu îndrăzni să-l întrebe ce se întîmplase. Diomò începù singur:</p>
+      <p>— Vin de la cazino. Eram cu Andrei Lerian, Ciprian, Malinof, cu maiorul Rașcu. Pe cînd ne sorbeam cafeaua, a sosit și Sandu Mirescu. Ciprian s-a pus să glumească pe socoteala lui: venise în orășelul nostru cu aere de cuceritor și plecă acum învins. Provocat, Sandu ne-a povestit atunci mobilul sosirii lui. Întîlnise astă iarnă în Capitală o femee de-o rară frumusețe, care i-a și dat întîlnire la Astoria de la primul schimb de vorbe. Ne-a descris scena de la hotel; necunoscuta îl luase drept un bogătaș din Iași. Affînd acum că e aici, a venit după dînsa. I-a fost însă cu neputință să o mai înduplece. Astă seară i'a cerut să-l primească. Ea n’a voit, trimițîndu-i cîteva rînduri. A intrat totuși, pentru a-i lăsa pe măsuță o hîrtie de cinci sute,— nota neplătită de la hotel. Și ca dovadă, — Mirescu ne-a arătat o hîrtiuță. Cu toți ți-am recunoscut scrisul.</p>
+      <p>Diomò tăcù o clipă, privind-o cu o bucurie feroce. Continuă apoi, într’o contorsiune nervoasă a gurii:</p>
+      <p>— A fost un moment penibil. Livid ca un mort, Lerian a plecat fără o vorbă...</p>
+      <p>Mută încă de spaimă, Lulù îl privià cu ochii mari, prin care treceà desperarea. Nu găsià nici un cuvînt.. Se uità, se uità și nu-i venià să creadà în năruirea subită a fericirii ei. Diomò continuă:</p>
+      <p>— De altfel, ne-am împrăștiat repede cu toții, iar eu am venit deadreptul la tine.</p>
+      <p>Fericită că se poate descarcà asupra cuiva, Lulù isbucni:</p>
+      <p>— Și pentru ce ai venit? pentru ce?</p>
+      <p>— Am venit să-ți spun c’am așteptat de ajuns și că ne-a sosit ceasul.</p>
+      <p>— Ce ceas?</p>
+      <p>— Ceasul plecării.</p>
+      <p>— Ce plecare ?</p>
+      <p>Iar Diomò liniștit și cu un ton sigur:</p>
+      <p>— Ți-am spus că o să plecăm împreună.</p>
+      <p>Lulù îl privi, speriată:</p>
+      <p>— De ce plecare îmi vorbești?</p>
+      <p>— Să plecăm în lumea mare, la Monte-Carlo, în America, ori unde vei voi. Am cincizeci de mii de lei cu mine. Nu sunt ai mei, n’are însă nici o importanță.</p>
+      <p>Lulù crezu că înnebunise :</p>
+      <p>— De ce Americă e vorba?</p>
+      <p>Diomò erà tot calm : .</p>
+      <p>— America sau aiurea... Plecînd cu bani străini, e mai bine însă să ne ducem în America să ne refacem acolo o nouă, existență.</p>
+      <p>Lulù țipă :</p>
+      <p>— Ai înnebunit, Diomò !</p>
+      <p>— N’am înnebunit de loc. Sunt mai cuminte ca oricînd. Tu nu mai poți rămîne aici; «dama de la hotl Astoria!» Ești prea mîndră ca să poți suportà o situație, pe care mîne o va cunoaște tot orașul.. N’ai de făcut altceva decît să pleci. Unde? La București ? Nu e prea departe.</p>
+      <p>Lulù își lăsă capul în palme și începù să plîngă:</p>
+      <p>— Și Andrei ! Andrei</p>
+      <p>Diomò își mușcă buzele pînă la sînge; apoi într’o strîmbătură nervoasă își vărsà sarcasmul și ura :</p>
+      <p>— A Andrei ! Iți va lipsi Andrei! Lucrurile au mers departe : întîlniri, convorbiri nesfîrșite, cărți împrumutate, scrisori poetice, — toată garderoba romantică, toate nimicurile și suspinele tinerilor sentimentali și fără vocație.</p>
+      <p>Și după o clipă de tăcere, adaose cu dispreț:</p>
+      <p>— Mă prind totuși că nici nu te-a sărutat! N’a îndrăznit!.. Nu te-ai ales de cît cu o vastă literatură epistolară, în care îți va fi explicat cutele sufletului lui complicat.</p>
+      <p>Palidă, Lulù se ridică în picioare și cu energie în glas și cu un gest teatral îl opri:</p>
+      <p>— Nu-ți dau voe să te atingi de Andrei. E logodnicul meu.</p>
+      <p>Diomò îngălbeni. Nu se așteptase la această destăinuire.</p>
+      <p>Ințelegâd că sarcasmul nu puteà de cît să o îndîrjească, își schimbă tactica :</p>
+      <p>— Ți-a făgăduit să te ia de nevastă? Bine. Cu cine vrea însă să se însoare? Cu idealul, pe care și l’a făcut din tine : copilul pur și naiv, fecioara, ființa fabuloasă și candidă, opera imaginației lui...</p>
+      <p>Lulù se așeză din nou în fotoliu, scîncind:</p>
+      <p>— Îl iubesc, îl iubesc!</p>
+      <p>— Îl iubești?.. Pe oricine îl poți iubi, numai pe Andrei Lerian n’ai dreptul să-l iubești. Vă înșelați unul pe altul. El vede în tine ceia ce nu ești. Nu e îndrăgostit decît de o creație a imaginației lui; iar tu îţi închipui că ai fi în stare să iubești pe un om ca Lerian, cînd tot trecutul tău protestează.</p>
+      <p>Lulù plîngeà, plîngeà :</p>
+      <p>— Îl iubesc și n’am iubit pe nimeni altul de cît pe dînsul.</p>
+      <p>Diomò rînji : </p>
+      <p>— Mulțumesc pentru ceilalți!</p>
+      <p>Apoi cu aceiaș logică nemiloasă:</p>
+      <p>— El nu ’și iubește în tine de cît idealul. Te-a pus pe un piedestal. Stînd însă pe temelii false, sentimentul lui e șubred. E la discreția celei dintîi dovezi că nu ești femeia, pe care și-a închipuit-o el. Pînă acum n’a crezut? Nu face nimic. Sandu i-a dat o dovadă scrisă... Vei vedea mine ce va zice. Și dacă nu mîne, poimîne. Totul va ieși la iveală.. Puiu,.. Ciprian,.. Rașcu,.. Mavru ..și ceilați.. Ajunge să se afle că te măriți cu Lerian, pentru ca Artemiza Vardali să se creadă jefuită în drepturile ei. Cum te-ai puteà apărà împotriva adevărului cu atît mai dureros cu cît e țesut și cu minciuni ?</p>
+      <p>Lulù plîngeà măreu</p>
+      <p>— Îl iubesc, îl iubesc!</p>
+      <p>Diomò o simți în prada unui sentiment real; în loc să-l contrarieze, își dădù seama că trebue să-l încurajeze, exploatîndu-l :</p>
+      <p>— Îl iubești? Cu atît mai mult.. Prin ce voești să-i arăți iubirea ? Înșelîndu-l?.. Aducîndu-i ca dar de nunta un lung șirag de amanți și de aventuri... «dama de la Hotel Astoria !» Dacă-l iubești cu adevărat, nu poți să-l faci nefericit, min-țindu-l..</p>
+      <p>Ea plîngeà mereu:</p>
+      <p>— Îl iubesc!</p>
+      <p>— Cînd îți va cere socoteală mîne, cum te vei putea apărà? Îl vei minţi? Dar dacă nu va crede ? Totul va fi rupt între voi; iar de te va crede, cum te vei apărà de tot ce va auzi pe urmă. Ce viață îi pregătești? Astfel voești să-i arăți iubirea? Numai într’un singur fel i-o poți arătà.</p>
+      <p>— Cum?</p>
+      <p>— Pârăsindu-l imediat, fără nici o explicație. Nu sunteți făcuți unul pentru altul. El, un naiv sentimental, capabil totuși de acțiuni violente, în clipa cînd s’ar vedeà înșelat în idealul lui; tu cu un trecut furtunos, și cu o viață de plăcere ce ți se deschide triumfal dinainte.</p>
+      <p>Lulù își acoperi privirea:</p>
+      <p>— Nu-mi vorbi de asta !</p>
+      <p>— Să nu-ți vorbesc de asta! Îți renegi trecutul... Crezi tu că te poți scuturà de el ? Te înșeli. Ești sub puterea unei iluzii momentane. Trecutul trăește încă în tine și ți se va deșteptà în curând... Nu ești făcută pentru sentimentalism pe lună plină și nici chiar pentru poezia căminului... Iubirea transformă; transformările ei țin însă puţin. Sîngele birue apoi și se răsbună. Nu uità că ești Lulù — simbolul vieții și al plăcerii. Deșteaptă-te : e încă timpul. Mîine va fi prea tîrziu, după ce vei fi semănat dezastre și sdrobit un om.</p>
+      <p>Lulù se uită, speriată, la dînsul:</p>
+      <p>— Pe cine ?</p>
+      <p>— Pe Lerian. Trebue să-l scapi.</p>
+      <p>— Cum?</p>
+      <p>— Ți-am spus. Să-i dai dovada supremă a iubirii, renunțînd la dînsul. Fiecare cu destinul lui: tu în lumea ta, el în visul lui.</p>
+      <p>Lulù fu copleșită de puterea argumentului. Privind apoi cu ură pe Diomò:</p>
+      <p>— Și d-ta ce vrei dela mine?</p>
+      <p>Iar Diomò simplu:</p>
+      <p>— Te vreau pe tine.</p>
+      <p>— Dacă crezi tot ce mi-ai spus, atunci cum mă mai vrei ?</p>
+      <p>— Ce întrebare ! Eu sunt altceva. Eu nu iubesc în tine nici copilul, nici fecioara, nu sunt nici sentimental, nici idealist. Eu vreau ceiace ești, în adevăr, femeia, plăcerea și vițiul. Că ai fost a lui Puiu, a lui Ciprian, a lui Sandu sau a altora — ce-mi pasă ! N'am imaginație. Cu atît mai bine chiar. Brațele lor au modelat din tine urna aceastà a plăcerei, din care vreau să beau și eu. Mi-e sete. Te-au pregătit pentru mărețe act al unirii noastre. Eu nu caut în tine «idealul» ci vieața și realitatea. Suntem tăcuți unul pentru altul: Lulù Calomfir şi Alexis Diomò, o nimfă șl un faun, «damă dela Hotel Astoria» și un prinț decavat și dilapidator. Cîte generații n’au lucrat obscur pentru a ajunge la modelarea unor creaturi superbe ca noi, făcute pentru plăcere, din disprețul moralei, și din preamărirea amorului steril ce incendiază universul înainte de a se consumà în propria lui flacără. Eu sunt «omul» tău, Lulù... Mi-a sosit ceasul... Să plecăm în lumea largă...</p>
+      <p>Lulù tăceà.</p>
+      <p>Iar Diomo cu ceva solemn și profetic în glas:</p>
+      <p>— Deșteaptă-te, Lulù ! Nu întirzià. Mîine va fi prea târziu. Dimineață la șease e un tren. Plecăm la București și de acolo în străinătate, unde ne așteaptă viața.</p>
+      <p>Diomò tăcù, privind-o înflăcărat.</p>
+      <p>Lulù se deșteptă din toropeală, se gândi într’o licărire de fulger la întîlnirea tragică de a douazi cu Andrei, se înfioră deodată deschise ochii mari, extatici, și transformîndu-se încetul cu încetul, nu de bucuria unei vieți noi, ci de conștiința marelui sacrificiu, pe carele pregătià să-l facă, sună</p>
+      <p>Simina intră.</p>
+      <p>— Pregătește-mi cufărul, Simino. Mîine dimineață plec.</p>
+      </div>
+    </body>
+    <back>
+      <div type="group">
+      <p>De acelaș:</p>
+      <p><title>COMEDIA DRAGOSTEI</title></p>
+      <p><title>ROMAN</title></p>
+      </div>
+    </back>
+  </text>
+</TEI>

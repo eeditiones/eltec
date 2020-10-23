@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../ELTeC-rom-master/level1/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM007" xml:lang="ro">
+ 
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Corbea. Istorie originală ilustrată cu 7 gravuri: ediție ELTeC</title>
+<author>Stoenescu, Stefan (psedo?)</author>    <respStmt>
+     <resp>OCR</resp>
+     <name>Roxana Patras</name>
+    </respStmt>
+    <respStmt>
+     <resp>codare ELTeC</resp>
+     <name>Roxana Patras</name></respStmt>
+    <respStmt>
+     <resp>corectura manuala</resp>
+     <name>Lucretia Pascariu</name></respStmt>
+   </titleStmt>
+   
+   <extent>
+    <measure unit="words">30119</measure>
+    <measure unit="pages">128</measure>
+   </extent>
+   
+   <publicationStmt>
+    <p></p>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl type="firstEdition">
+     <author>Stefan Stoenescu</author>
+     <title>Corbea. Istorie originală ilustrată cu 7 gravuri</title>
+     <date>1892</date></bibl>
+    
+    <bibl type="printSource">
+      <author>Stefan Stoenescu</author>
+     <title>Corbea. Istorie originală ilustrată cu 7 gravuri</title>
+     <pubPlace>Bucharest</pubPlace>
+     <publisher>EDITURA LIBRĂRIEI H. STEINBERG</publisher>
+     <date>1892</date>
+     <ref target="http://doi.org/10.5281/zenodo.2648560">Facsimile on zenodo</ref>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  
+  <encodingDesc n="eltec-1"><p/></encodingDesc>
+  
+  <profileDesc>
+   <langUsage>
+    <language ident="ro"/>
+   </langUsage>
+   
+   <textDesc>
+    <e:authorGender key="X"/>
+    <e:size key="short"/>
+    <e:canonicity key="low"/>
+    <e:timeSlot key="T3"/>
+   </textDesc>
+  </profileDesc>
+  
+  <revisionDesc>
+   <change when="2019-11-15">Initial TEI version generated.</change>
+  </revisionDesc>
+ </teiHeader>
+ 
+ <text xml:lang="ro">
+   
+   
+<front>
+<div type="titlepage">
+ <p>CORBEA</p>
+ <p>ISTORIE ORIGINALA</p>
+ <p>DE</p>
+ <p>STEFAN STOENESCU</p>
+ <p>ILUSTRATĂ CU 7 GRAVURI</p>
+ <p>BUCURESCI</p>
+ <p>EDITURA LIBRĂRIEI H. STEINBERG </p>
+ <p>7, CALEA RAHOVEI, 7</p>
+ <p>TIPO-LITOGRAFIA DOR. P. CUCU</p> 
+ <p>8, BUL. ELISABETA, 8.</p>
+ <p>1892.</p>
+ <p>Corbea în costum oltenesc ședea culcat pe buștén!</p>
+ <p>CORBEA</p></div>
+</front>
+  
+  
+  <body>
+   <div type="chapter" n="1">
+    <head>I.</head>
+ <p>Era o frumoasă dimneață de primă-vară. — Soarele arunca razele-ĭ auriĭ și bine făcătoare asupra satuluĭ Gruen. — Bătrâna Vochița, eșise in bătătură să dea grăunțe paserilor și în cele maĭ fragete desmierdărĭ îșĭ hrănea bobociĭ și puișoriĭ.</p>
+ <p>Ochii bătrâneĭ eraŭ obosițĭ.— Părea că nu dor-mise toată noaptea.— După ce termină de hrănit paserile, se așeză pe prispă și cu nerăbdare 'șĭ arunca din când în când privirile spre drumul cel mare. — Aștepta pe cine-va. — Cine putea desluși.— De o cam dată vom spune numaĭ, că, după o lungă așteptare, bĕtrâna intră în casă, îșĭ îmbrăcă o scurteicuță și porni spre biserică.</p>
+ <p>— Mĕ duc să întâlnesc pe moș popa, mur-mură ea, lucrul nu'mĭ pare curat.</p>
+ <p>Peste un moment dispăru. In urma eĭ ușa se întredeschise și un cap omenesc apăru, care urmări cu privirile pe bĕtrâna Vochița ;—și când se asigură că ea nu maĭ putea vedea nimic in urmă, acel om misterios se arătă în întregul sĕŭ.</p>
+ <p>— A plecat, ȡise el altor treĭ figurĭ hidoase, să fugim.</p>
+ <p>Era ceva îngrozitor a vedea patru gâliganĭ, vĕrtoșĭ și urâțĭ, armațĭ din cap și până în pi-cioare, apărând pe o biată ușcioară de casă ță-rănească, care de altminterĭ avea înfățișarea uneĭ case cinstite.— Aceștĭ sbirĭ, îmbrăcațĭ turcește, negreșit că nu putea fi locatarĭ, împreună cu Vochița, despre care vom vorbi maĭ târȡiŭ, pentru a o cunoaște maĭ de aproape.</p>
+ <p>— Eĭ, Ifraim, ȡise cel maĭ chipos dintre sbirĭ, ideea mea este să nu plecăm. — Cată să aflăm toate ascunzătorile, ca la noapte să ne și pu-nem planul în lucrare.</p>
+ <p>— Așa e? Are dreptate Ianacu, zise un altul, el este cel maĭ vechiŭ supus la stăpânul nos-tru și trebue să fi avut multe întreprinderĭ de soiul acesta.</p>
+ <p>— Tocmaĭ ceea ce mĕ gândeam și eŭ.</p>
+ <p>— Dar de ne-o dibui Corbea ascunȡĕtoarea ?</p>
+ <p>— Ce maĭ vorbă.— De unde să-ĭ dea luĭ în gând că este cine-va în pod ? Ș'apoĭ el unul și noi suntem patru, el va fi dedesubt și noĭ dea-supra.</p>
+ <p>— Dar bine să nu-ĭ găsim calul ? ... întrebă cu neliniște cel care se chema Ifraim.</p>
+ <p>— Tocmaĭ ceea ce mĕ miră și pe mine. — Aȡĭ dimineață a plecat fără cal;—apostolicește... și cu toate astea în grajd nu e nimic.</p>
+    <p>— Nu se poate!... Trebue să ne fi înșelat noĭ.— Nu putem să ne reîntoarcem, la stăpânul nostru fără <hi>Corbu</hi>.</p>
+    <p>— Ce maĭ cal! bre!... Halal să-ĭ fie!.., Calul poartă numele de <hi>Corbu</hi> și stăpânul de Corbea. Unul ca cel-l-alt. — Doĭ leĭ, doĭ smeĭ!...</p>
+    <p>— Amĕndoĭ însă, nu fac nicĭ cât un papuc de-al stăpânuluĭ nostru. — Orĭ cât de puternic ar fi Corbea, Chesat <foreign><foreign>Efendi</foreign></foreign>, la un singur cuvênt 'ĭ-ar arunca de gât grelele lanțurĭ ale închisoreĭ.</p>
+ <p>— Și de ce nu'ĭ face odată pe spinare, să nu aibă a se maĭ teme de el ? ȡise Ignat.</p>
+    <p>— Să vedețiĭ urmă Ifraim, Corbea este iubit de toți locuitoriĭ și de tóte satele de prin pre-jur. — Dacă 'l-ar arunca la închisoare, țĕraniĭ s'ar nemulțumi și ar da naștere la răscoală. Planul luĭ Chesat <foreign><foreign>Efendi</foreign></foreign>, de-a'l omorâ pe ascuns și de a'ĭ lua calul, este mult maĭ lesnicios. — Iată dar că noĭ nu îndeplinim de cât tocmaĭ planurile sale. — Dar să ne cam pitim dupe aicĭ, am pu-tea fi zărițĭ de cine-va.</p>
+ <p>— Ascultațĭ, zise Ianacu, doĭ să ne ascundem în podul grajduluĭ; când Corbea va veni, negreșit că va duce calul în grajd, atuncĭ năvală asupra luĭ și calul va fi al nostru. Dacă din întâmplare va veni fără de cal, apoĭ ceĭ-alțĭ doĭ, care ne vom ascunde în podul caseĭ, îl vom pândi până va adormi și atuncĭ cu iataganul asupra luĭ îl vom sili să ne spue unde este calul. Până atuncĭ să ne ascundem.</p>
+ <p>Și ceĭ patru sbirĭ se despărțiră în douĕ: doĭ din eĭ apucară spre grajd; iar ceĭ alțĭ doĭ reîn-torcêndu-se în casă se urcară în pod.</p>
+ <p>Iată ceea ce se petrecea în locuința luĭ Corbea când el lipsea de acasă, și când muma luĭ, Vo-chița, se duse la moș popa să-ĭ citească o mo-liftă.</p>
+ <p>Cine e Corbea și ce mare însemnătate avea el și calul sĕŭ vom vedea maĭ la vale.</p>
+ <p>Să trecem acum asupra uneĭ noĭ povestirĭ, care ne va da toate deslușirile asupra celor spuse până acum.</p>
+ <p>Mocileniĭ au fost odinioară o frumoasă monas-tire. — Pe timpul luĭ Corbea însă devenise o tristă pușcărie. — In mijlocul curțeĭ, cum intri se ridica biserica, construcțiune splendidă în in-terior, oare cum impunătoare în exterior. — Din nefericire, picturile care-ĭ ornează fațada, privite de aproape, sunt de un ridicol care te face să surîzĭ. — Nicăerĭ casele chinezeștĭ, fulgerile și trăsnetele stacojiĭ, sânțiĭ și draciĭ cu coadă saŭ fără coadă, nu aŭ fost rĕspândițĭ cu maĭ multă profusiune.— Caprițiul decoratoreluĭ a mers până a desemna pe perețĭ un soare cu picioare de om</p>
+ <p>Tinda bisericeĭ este susținută de vre-o ȡece columne de granit artistic săpate. In năuntru sunt vre-o patru columne tot de granit, colosale și sculptate peste tot. Aceste columne ar face admirați unea celor maĭ dificilĭ.— Pardoseala tin-deĭ și a interioruluĭ bisericeĭ este de lespeȡĭ de marmoră albă.</p>
+ <p>Afară de biserică maĭ este și un paraclis foarte frumos. — încolo nimic, nimic, de cât zidurĭ văruite.</p>
+ <p>Celulele deținuților sunt luminate prin câte o singură fereastră de temniță, toarte apropiată de tavan. Ușile sunt de lemn masiv și în partea lor superioară, aŭ câte uă mică ferestrue, spre a per-mite sentineleĭ să se uite înăuntru. Mobilierul este în general compus dint'un pat de lemn și dintr'o mescioară. — Alt ce-va nimic. — Perețiĭ arăta pretutindenĭ o nuditate în toată puterea cuvântuluĭ. In timpul ȡileĭ, arestațiĭ, care nu sunt pușĭ la secret, aŭ libertate să se preumble prin curtea pușcărieĭ.</p>
+ <p>Prima noapte ce petrecĭ la Mocilenĭ este fu-rioasă. — Idea că te afli sub acelaș acoperămênt cu ucigași și rĕŭ-făcĕtoriĭ, îțĭ face o impresiune din cele maĭ rele. — Incuiatul zăvoarelor, stri-gătul: cine-ĭ acolo? al sentinelelor sunt asemenea de natură a'țĭ mări neliniștea.</p>
+ <p>Ceea ce îțĭ produce efectul cel maĭ teribil este că la ora când zorile de seară încep să bată, auȡĭ un câine urlând în curtea pușcărieĭ, într'un mod îngrozitor.</p>
+ <p>Un bĕtrên temnicer, foarte familier cu ceĭ închișĭ, printre altele, iată ceea ce 'țĭ maĭ po-vestește.</p>
+ <p>Acum 289 de anĭ într'un mic orășel de munte al căruĭ nume nu'l știm cu siguranță, căcĭ astăzĭ nu maĭ există, să celebra în biserica principală, căsătoriea uneĭ tinere copile de vre-o șease-spre-ȡece anĭ. — Mireasa era de-o frumusețe rară, ochiĭ albaștri, avea delicata nuanță a viorele-lor, taliea ei era subțire și flexibilă ; părul eĭ era de un blond atât de auriu în cât nu se putea alege de rîul de beteală, care-ĭ cădea grațios pe umeriĭ sĕĭ rotunȡĭ și albĭ. Ea purta o roche de atlas alb, coperitŭ de o tunică de dantelă și ri-dicată în partea stângă, unde era prinsă în ro-che printr'un gingaș buchet de miozotis; această floare atâta de delicată care pare că șoptește a-manților: nu mĕ uita!...</p>
+ <p>Toaleta Mireseĭ era simlpă, dar elegantă și lipsită de orĭ-ce ecsagerațiune provincială.</p>
+ <p>Să vedem acuma care este fericitul soț ?... Dacă am judeca privind numaĭ pe mireasă negreșit că am presupune un tînĕr tot atât de simpatic, și ast-fel această pereche, ar fi cea mai potrivită și nunta cea maĭ frumoasă. Din nefericire nu este ast-fel.</p>
+ <p>Acela care dă mâna mireseĭ, nu este nicĭ tâ-nĕr, nicĭ frumos. — Capul sĕŭ este pleșuv, ochiĭ în fundul capuluĭ, obrajiĭ rotunzĭ și roșcovanĭ, nasul căȡut pe buze și în fine proeminența burțeĭ sale lăsa cu mult înapoĭ picioarele, care sunt scurte și cam sucite.</p>
+ <p>Numele sĕŭ este Ianache Varicos, fost băcan și apoĭ proprietar mare. — După nume se vede cât de colo că e grec și e prea adevĕrat. Secre-tul înavuțireĭ sale nu e greŭ de ghicit. — A ve-nit din țara grecească sărac lipit, atât de sărac chiar, în cât nu avea parale nicĭ să'șĭ cumpere o doniță spre a putea să vânȡă bragă. In cele din urmă câștigă în țara Românească multe pa-rale, căcĭ prin șiretlicurĭ deveni bragagiŭ ; apoĭ plăcintar, simigiŭ, cârciumar, băcan, cămătar și în cele din urmă mare proprietar.</p>
+ <p>Aceasta este întreaga carieră ce percursesee no-bilul mire, cu succesul obicinuit tutulor maslina-giilor din țara gregească, care când vin la noĭ n'aŭ după ce bea apă și peste un an îĭ veȡĭ în trăsurĭ că te stropesc cu noroiŭ, ba câte o dată te și bat; și la isprăvnicie tot a lor este dreptatea.</p>
+ <p>Intrebarea este acuma, cum de a consimțit frumoasa copilă ce are alăturĭ, ca să devie soția coconuluĭ Ianache, ȡicem coconuluĭ, căcĭ acum Ianache vênȡĕtorul de bragă, plăcintar, simigiŭ etc., e cuconit de toată lumea.</p>
+ <p>Părințiĭ Maiioareĭ, căcĭ ast-fel se numește mi-reasa greculuĭ, d-nul și d-na Arhondărescu, eraŭ plinĭ de imaginațiune.</p>
+ <p>— Trebue să fiĭ fericită, a ȡis boer Arhon-dărescu, care era și pitar, că te cere cuconu Ianache, care are venit pe an 5000 de galbenĭ, când tu n'aĭ nicĭ o zestre.</p>
+ <p>Ia'l fata mameĭ, îĭ ȡise cucoana Arghira, să te vaȡă maica în trăsură.</p>
+ <p>— Nu'l iaŭ, a ȡis fata, pentru că iubesc pe Corbea și am jurat ca să'l iaŭ pe el...</p>
+ <p>— Ba o să eĭ pe Enache.</p>
+<p>— Ba n'o să'l iaŭ.</p>
+ <p>— O să'l eĭ, a răcnit tatăl sĕŭ, boerul și pi-tarul Arhondărescu.</p>
+ <p>A trecut însă o lună, douĕ, treĭ, și Marioara rezista mereŭ.</p>
+ <p>Boerul, imagină atuncĭ să joace o comedie care reuși.</p>
+    <p>Corbea era țĕran, român, avea avere frumușică și maĭ cu seamă pe <hi>Corbu</hi>, un cal negru, care răpise inimile tuturor fetelor.</p>
+ <p>Corbea era frumos, de acea frumusețea bărbătească, care se găsește numaĭ la popoarele din gintea latină, și avea un tip adevĕrat românesc, căcĭ era adevĕrat român, după cum îl arată și numele.— Era brun, douĕ sprâncene negre și arcate îĭ umbra ochiĭ, carĭ erau plinĭ de foc ; pĕrul sĕŭ era lung, mlădios și naturalmente buclat; 'nalt de statură, fruntea largă mâinile micĭ și picioarele musculoase.</p>
+<p>Caracterul sĕŭ era dulce și tot de o dată res-boinic la trebuință.</p>
+ <p>Dacă Marioara îl iubea, Corbea în schimb o adora.</p>
+ <p>Acestea ȡise, să revenim la boerul Arhondărescu și la stratagema ce imaginase în înțele-gere cu Ianache Varicos și cu Chesat <foreign>Efendi</foreign> cel maĭ avut din acele părțĭ ale loculuĭ și tot de o dată și cel maĭ cu influnță lângă marele Vizir din Constantinopol.</p>
+    <p>Intr'o seară Chesat <foreign><foreign>Efendi</foreign></foreign>, se afla la Arhon-dărescu.— Cucoana Arghira și Marioara se aflaŭ de față.</p>
+ <p>— Să aducă dulceață și cafea, strigă boer Ar-hondărescu, bătând din palme, după cum era obiceiul pe atuncĭ, pentru a chema pe robĭ saŭ chiar pe servitoriĭ liberĭ.</p>
+ <p>Un servitor intră.</p>
+ <p>Dulceață și cafea ȡise boerul Arhondărescu din nuoŭ.</p>
+ <p>— Indată cucoane!</p>
+ <p>Dar feciorul nu eși.</p>
+ <p>— Ce staĭ aicĭ, dobitocule, strigă pitarul. — Nu m'aĭ auȡit?...</p>
+ <p>— Ba am auȡit cucoane, dar vream să vă spun că a sosit o veste.</p>
+ <p>— Ce veste, întrebă cu grabă ceĭ aĭ caseĭ?...</p>
+ <p>— A murit viteazul Corbea.</p>
+ <p>— Corbea a murit!... strigă Marioara, sco-țând un țipĕt sfâșietor și căȡu jos fără cunoștință.</p>
+ <p>Apa, oțetul de trandafir, inundară într'un mo-ment pe biata copilă, care după un lung leșin, reveni în fine la viață.</p>
+ <p>Comedia era jucată.</p>
+ <p>Corbea nu murise. Servitorul era plătit.</p>
+    <p>Chesat <foreign><foreign>Efendi</foreign></foreign>, îșĭ netezĭ barba și cugetă:</p>
+ <p>— Ah! Dac'așĭ pune odată mâna pe calul a-cestuĭ svănturatic și de așĭ putea sĕ'l curăț dupĕ suprafața pământuluĭ!</p>
+ <p>Boer Arhondărescu remase deplin mulțumit de această comedie și peste vre-o treĭ lunĭ cununia Marioareĭ cu Ianache se celebră după cum am vĕȡut la începutul acesteĭ narațiunĭ;—căcĭ Ma-rioara, care fusese mult timp bolnavă și care avea presimțirea că va muri în curând, ne maĭ avênd ce iubi, nu se mai opuse la voința părinților sĕĭ, nutrind chiar secreta speranță că această căsătorie grăbită, prin noile suferințe, 'ĭ va aduce moartea eĭ.</p>
+ <p>E adevărat că o vedem la începutul narațiuneĭ atât de frumoasă cu beteala de mireasă pe cap, dar în acelașĭ timp e și atât de palidă, în cât asistențiĭ nu'ĭ dau un an de viață. Suferința 'ĭ-a mărit grațiile care o împodobesc, în loc de a'ĭ le distruge.</p>
+ <p>Aceasta e în rânduiala natureĭ.—Florile mor, dar vestejindu-se, ele îmbălsămesc aerul cu dul-cele lor parfume și ornează câmpiile cu dalbele lor frumusețĭ.</p></div>
+ 
+   <div type="chapter" n="2">
+   <head>II</head>
+ <p>Era în luna luĭ Maĭ. Aerul era dulce și par-fumat ; paserile cântaŭ prin dafinĭ și prin bos-chete. — Nu departe de orășelul din munțĭ dili-gența, care venea din Târgoviște, cobora o repede coastă, încărcată de călĕtori.—Printre persoanele care ocupaŭ fundul diligențeĭ, se afla și un tî-nĕr, a căruĭ nobilă figură, brună, se distingea dintre cele alte.—Acest tînĕr avea ca la 22 de anĭ.</p>
+ <p>— Mai avem mult până să ajungem? întrebă el pe unul din veciniĭ sĕĭ.</p>
+ <p>— Vre-o douĕ ceasurĭ, așa cred, răspunse în-trebatul.</p>
+<p>Și după acest rĕspuns, tînĕrul, care părea foarte nerăbdător, se cufundă într'o adâncă reverie.</p>
+ <p>Era Crobea.</p>
+ <p>El venea să petreacă lângă idolul sĕŭ, Mari-oara, câte-va ȡile ce găsise maĭ libere.</p>
+ <p>El era fericit și în acel moment visa poate o fericire și maĭ mare, căsătoria sa cu Marioara îĭ părea asigurată.</p>
+ <p>— Părințiĭ eĭ 'mĭ-o vor da de sigur, cugetă el, Marioara va fi a mea ! E adevĕrat că nu sunt de neam mare; dar sunt avut și cu nume ro-mânesc; ș'apoĭ Marioara e săracă.</p>
+    <p>Ast-fel cugeta Corbea. — Aspirațianile sale ar fi fost împlinite poate, dacă n'ar fi avut de-a face cu un om ca Arhondărescu și dacă n'ar fi avut de dușman pe Chesat <foreign><foreign>Efendi</foreign></foreign> care-ĭ număra ȡilele.</p>
+ <p>Intre acestea umbrele sereĭ acoperiseră câm-piile, dar diligenta era la poarta orașuluĭ.</p>
+ <p>Peste un sfert de ceas ea sosi în curtea poșteĭ.</p>
+ <p>Aci Corbea fu întâmpinat de un prietin al sĕŭ, și care aflase de venirea luĭ.</p>
+ <p>Dupe ce se îmbrățișară prietenește, Corbea băgă da seamă că prietenul seŭ este îmbrăcat în haine de serbătoare.</p>
+ <p>— Dar asta ce maĭ e?... ȡișe Corbea rîȡênd. Nu sunt nicĭ pitar, nicĭ vistiernic să mĕ primești în ast-fel de mod.</p>
+ <p>— Poate veĭ deveni cu vremea, ȡise pe acelaș glas, prietenul seu. — Dar de-o cam dată aceste vestminte nu te privesc; la nouĕ ceasurĭ mĕ duc la o nuntă, unde sunt poftit.</p>
+ <p>— O nuntă!...</p>
+ <p>— A ! bine ȡicĭ, că n'aĭ cum ști!... ș'apoĭ cum era să afli. — La Gruenĭ nu prea vin nou-tățile, maĭ cu seamă cele casnice...</p>
+ <p>— Dar ce nuntă?... întrerupse Corbea.</p>
+ <p>— A luĭ Ianache Varicos!...</p>
+ <p>— Negreșit că a luat vre-o vĕduvă avută, dar bătrână și urîtă tot ca el?</p>
+ <p>— Te înșelĭ!... Mireasa luĭ Ianache este cu totul din potrivă... ea e săracă.</p>
+ <p>— Ce fel, Ianache să ia o fată săracă?...</p>
+ <p>— Intocmaĭ, Enache cămătarul a găsit de cu-viință că a luat destulă camată asupra banilor, și s'a decis pentru cât-va să se ocupe și de fru-musețe....</p>
+ <p>— Atuncĭ mireasa luĭ Enache este frumoasă și tînĕră ?</p>
+ <p>— Și una și alta.</p>
+ <p>— Dar numele eĭ?...</p>
+ <p>— Marioara Arhondărescu.</p>
+ <p>La aceste cuvinte Corbea îngălbeni și începu să șovăiască. El se rezemă de perete ca un om beat.</p>
+ <p>— Ce aĭ? strigă prietenul sĕŭ. Eștĭ maĭ gal-ben ca un mort!</p>
+ <p>— Nu e nimic!... articulă Corbea cu slă-biciune, cătând să se conțină. Nu e nimic! re-petă el; — o amețeală, o osteneală a drumuluĭ.</p>
+ <p>Să lăsăm acum pentru un moment pe nefe-ricitul Corbea și să ne transportăm în casa d-luĭ Arhondărescu.</p>
+ <p>Curtea era plină de trăsurĭ. Ferestrele vĕrsaŭ torente de lumină și muzica cânta ariĭ de vese-liă în intrarea caseĭ.</p>
+ <p>In salon balul începuse a se anima deja.</p>
+ <p>Invitațiĭ soseaŭ cu grămada.—Fără a ne opri să perdem un timp prețios, descriind luesul fastuos dar lipsit de bun gust al Doamnelor din acest oraș, să trecem la mireasă, frumoasă Marioara re-trasă într'un unghiŭ al salonuluĭ, ea ședea palidă și tristă pe o canapea. Albaștriĭ sĕĭ ochĭ înotaŭ în lacrimĭ.—Iluziunile ce perduse, speranțele ce se stinseră în virginalul eĭ sîn, o turmentaŭ în acest moment maĭ mult ca în tot-d'auna.</p>
+ <p>— Acéstă serbare, cugata ea, o destinasem in gândul meŭ luĭ Crbea, și Corbea nu maĭ este ! Beteala nunțială care 'mi încingea fruntea, acum vre-o patru lunĭ încă mă vedeam în reveriile mele, punênd'o pentru Corbea. Și astă-ȡĭ el nu maĭ e !... Pentru un altul am pus beteala nun-țială... — Pentru un altnl !...</p>
+ <p>Și o imensă disperare se întipări în figura co-pileĭ ; sprîncenile eĭ se contractaŭ de durere, ini-ma eĭ svâcnea și ochiĭ 'ĭ se umpleaŭ de lacremĭ ce putea abia să-ĭ oprească — Dênsul se învârtea fantastic prin salon și muzica cânta.... cânta.... cânta .... ca și cum ar fi vrut să insulte durerea Marioareĭ.</p>
+ <p>Mirele Ianache Varichos umbla din grupă în grupă adresând la fie-care câte un cuvênt, bine dichisit și ținêndu-șĭ gâtu țépăn ca un adevĕrat mojic speriat.</p>
+    <p>CHESAT <foreign><foreign>Efendi</foreign></foreign></p>
+ <p>Din timp în timp, el se apropia de Marioara, adresăndu-ĭ complimente pe care silea să le facă dulcĭ și alese, dar care în realitate nu era de cât niște banalitățĭ vulgare și ordinare ca o-mul ce le adresa.</p>
+ <p>Orele 10 sunară.</p>
+ <p>Balul era în toată splendoarea sa. — Ianache se apropie din nuoŭ de Marioara, îĭ prezintă bra-țul și trecu cu dênsa în camera atenantă, tran-sformată în bufet.</p>
+ <p>— Eștĭ frumoasă, Domnișoară, și dac'aĭ ști cât te iubesc!....</p>
+ <p>Marioara înfiorată începu să tremure.</p>
+ <p>Ianache îșĭ esplică îndată această emoțiune în favoarea sa și atrăgênd'o către o canapea, ce se afla lângă o fereastră de-asupra grădineĭ, o sili să șează și continuă de a'ĭ adresa cuvinte, care maĭ de care maĭ nesăbuite.</p>
+ <p>Fereasta era deschisă. — Un arbore care era în dreptul aceleĭ ferestre, scoase de o-dată un lung freamăt, ca și cum ar fi suflat vêntul cu putere.</p>
+ <p>Dar afară atmosfera era liniștită și nicĭ cel maĭ mic zefir nu adia.</p>
+ <p>Ianache vorbea mereŭ și Marioara continua de a ține tăcerea.</p>
+ <p>Grecul însă atribui această tăcere naturală, timiditățeĭ uneĭ tinere copile, și luând curagiŭ, voi să-ĭ înconjoare talia cu brațul.</p>
+ <p>Marioara dete un țipăt, dar acelașĭ freamăt care se maĭ auȡise încă, se produse din nuoŭ, și aproape în acelașĭ moment, un om sări de pe fereastră în casă și cu un revolver ce ținea în mănă, făcu foc asupra luĭ Ianache !</p>
+ <p>Acesta căȡu.</p>
+ <p>— Corbeo!... strigă Marioara și căȡu jos fără cunoștință.</p></div>
+   
+   <div type="chapter" n="3">
+ <head>III</head>
+ <p>La sunetul ce produse detunarea revolveruluĭ lumea din salonul vecin alergă spăimântată.</p>
+ <p>Tabloul ce o aștepta aci, era înfiorător: Ia-nacbe zăcea pe scândurĭ în mijlocul camereĭ și cu cămașa sângerată; Marioara leșinată pe o ca-napea și Corbea palid, lângă dênsa, palid cu sprân-cenile crunte, aștepta evenimentele cu sânge rece.</p>
+ <p>Invălmășeala fu mare. Câte-va doamne, leșinară. — Cuconul și cucoana Arhondărescu, creȡênd că Marioara e moartă scoaseră țipete îngrozitoare.</p>
+ <p>Intr'un moment salonul nunțeĭ, atât de ani-mat, atât de vesel cu puțin înainte se deșertă și reintră în tăcere.</p>
+ <p>Vestea despre cele întâmplate se rĕspândi cu repeȡiciunea fulgeruluĭ, și mai mulțĭ medicĭ dimpreună cu polițaiul sosiră îndată.</p>
+ <p>Dar, Ianache era mort.</p>
+ <p>Marioara după câte-va ore îșĭ reluă simțirile, iar Corbea, nefericitul voinic fu arestat.</p>
+ <p>Cititoriĭ îșĭ aduc aminte fără îndoială, posi-țiunea în care îl părăsisem.</p>
+ <p>Corbea, dacă nu ne înșelăm, părăsise pe acel prieten, care eșise să'l întâmpine in curtea poșteĭ și care 'ĭ dedese fatala noutate, într'o stare de surescitațiune morală nedescrisă.— El luase cu pașĭ repeȡi drumul locuințeĭ Marioareĭ, intrase pe ascuns în grădiniță asupra căreia da fereastra camereĭ în care vĕȡurăm petrecându-se drama ce am espus, și se urcase în arborele în care se afla lângă acea fereastră.</p>
+ <p>Motorul care 'l împinsese de a'șĭ alege tocmaĭ acea fereastră, este că el o vĕȡuse deschisă și că tot-d'a-una observând arborele din dreptul eĭ, cu-getase, cu drept cuvênt, că acela era puntul cel maĭ favorabil pentru a putea observa cele ce se petrec înăuntru.</p>
+ <p>Intențiunea luĭ era de a vedea încă odată pe Marioara, fără ca să fie însă vĕȡut de dênsa, și de a se sinucide în urmă.</p>
+ <p>Soarta voise însă ca Ianache să'șĭ conducă mi-reasa în acea cameră și să se așeze cu dênsa pe canapeaua de la fereastră în cestiune, spre a'ĭ vorbi de amor.</p>
+ <p>La această vedere Predilă tremură. De maĭ multe ori puse mâna pe revolverul ce avea la sine din călĕtorie, de maĭ multe orĭ pusese mâna pe acel revolver, spre a ucide pe grec, însă se abținuse.</p>
+ <p>Dacă Ianache, nu 'șĭ-ar fi permis să mĕsoare cu brațul sĕŭ profanator talia frumoaseĭ copile, poate că lucrurile s'ar fi schimbat și ar fi luat cu totul o altă față.</p>
+ <p>Dar Ianache, fără să știe, îșĭ răpi și această ultimă scăpare.</p>
+ <p>La acea vedere Corbea îșĭ perdu mintea și sări în odae de pe arborele asupra căruia se afla.</p>
+ <p>De aci înainte cunoaștem ceea ce s'a întâmplat.</p>
+ <p>Să revenim la Marioara.</p>
+ <p>Când ea îșĭ veni în fire și deschise ochiĭ, vĕȡu în jurul sĕŭ pe părintele și mama sa.</p>
+ <p>— O! ce vis urît am avut, ȡise ea cu o voce stinsă.</p>
+ <p>Apoĭ după o lungă pauză, ideile lămurindu-se strigă:</p>
+<p>— Dar nu !.... Nu a fost vis!... Am vĕȡut pe Corbea ... cum vĕȡ... Corbea!... Glonțul... Ianache !...</p>
+ <p>Și articulând aceste cuvinte căȡu iar în slăbiciune.</p>
+ <p>A doua ȡi fiind maĭ bine, părințiĭ sĕĭ, fură silițĭ să-ĭ descopere tot.</p>
+ <p>Eĭ îĭ mărturisiră hidoasa comedie ce jucaseră în privința morțeĭ luĭ Corbea, spre a o decide să priimească de soț pe Ianache. — Ce pedeapsă!...</p> 
+ <p>Fură silițĭ să se umilească din 'naintea propriu-luĭ lor copil !</p>
+ <p>Când Marioara află că Corbea trăește, uită toate suferințele ce îndurase : îșĭ îmbrățișă părințiĭ și înarmându-se cu o energie rară sexuluĭ slab, în loc de a se dezola, se dete speranțeĭ, avênd fer-ma convincțiune că o așteaptă un viitor fericit și că Corbea nu va fi condamnat.</p>
+<p>Peste câte-va ȡile, obținu permisiunea de a'l vedea.</p>
+ <p>— Corbea!... esclamă ea la prima întreve-dere, și căȡu pe sînul frumosuluĭ voinic.</p>
+ <p>— Te iubesc, murmură el stergându'șĭ ochiĭ care 'ĭ se umpleaŭ de lacrămĭ.</p>
+ <p>In tot cursul prevențiuneĭ nu fu ȡi, de la 
+  că-pătarea voeĭ de a'l vedea, fără ca Marioara să nu vie să'l vaȡă,</p>
+ <p>Eĭ eraŭ fericițĭ!</p>
+ <p>Dar vețĭ ȡice :</p>
+ <p>— Aceasta este o fericire ?...</p>
+ <p>— Da, voiŭ rĕspunde eu. — Erau fericițĭ pen-tru că speraŭ și puteaŭ să 'șĭ destăinuiască tî-nĕra lor iubire.</p>
+ <p>A spera, este o fericire atât de dulce !... Dar Corbea și Marioara nu speraŭ numaĭ, eĭ se iubeaŭ.</p>
+ <p>Amorul și speranța nu constituesc oare ferici-rea cea maĭ deplină ce poate să egsiste?</p>
+ <p>— Așa este, îmĭ vețĭ respunde, dar amorul și speranța nu formeaȡă de cât o fericire relativă.</p>
+ <p>Avețĭ dreptate !.... Dar spunețĭ vĕ rog, dacă se poate cum-va să egsiste în lume fericirea absolută.</p>
+ <p>Corbea și Marioara eraŭ dar fericițĭ.</p></div>
+   
+   <div type="chapter" n="4">
+ <head>IV</head>
+    <p>Dioa necinsteĭ se apropia. — Corbea trebuea să fie judecat, și poate spânzurat. — Toată lumea ar fi fost de sigur în favoarea luĭ Corbea, dacă Chesat <foreign><foreign>Efendi</foreign></foreign> și toțĭ lingușitoriĭ luĭ n'ar fi căutat toate mijloacele să 'l condamne la moarte.</p>
+ <p>Să-ĭ fi auȡit, ai fi crezut că Ianache fusese un sfânt, un om muncitor și plin de virtute, care 'șĭ câștigase averea în modul cel maĭ onorabil, cel maĭ constiincios, care făcea onoare orașuluĭ și cele-l'alte.</p>
+ <p>Intrebațĭ însă văduvile și orfaniĭ jefuițĭ prin camătele sale.</p>
+ <p>Lumea știa fără îndoială, ce preț să pună pe acele elogiurĭ, dar lumea uită relele ce i le-a fă-cut un om când acel om nu maĭ este.</p>
+<p>In fine, în ȡioa de 18 Octombre, avu loc ju-decata lui Corbea.</p>
+ <p>Presența Morioareĭ îĭ întărea puterile.</p>
+<p>El se declară vinovat; regretă faptul comis desluși cum că intențiunea sa nu era de a ucide pe Ianache, ci de a se sinucide, dupĕ ce va fi vĕȡut pe Marioara.</p>
+    <p>Era să fie achitat, dar judecătoriĭ plătițĭ de baniĭ și influența lui Chesat <foreign><foreign>Efendi</foreign></foreign>, îl condamnară la douŭ-ȡecĭ de anĭ închisoare.</p>
+ <p>Marioara palidă, dar tare, se apropie de Corbea. — Curagiŭ, îĭ șopti ea. Nimic nu e încă pierdut.</p>
+ <p>Intr'adevĕr, scăparea luĭ atârna numaĭ de un fir de ață.</p>
+ <p>Tăiat și acest fir, securea era să caȡă asupra condamnatuluĭ și să 'l lovească cu toată cruȡi-mea. — Acest ultim fir era recurgerea la Divan.</p>
+ <p>Se va stinge oare și această ultimă scântee de speranță, saŭ va deveni un focar ?</p>
+ <p>Cine poate ști!...</p>
+ <p>V</p>
+ <p>Peste cât-va timp de la închiderea luĭ Corbea se pusese în lucrare jalba către Divan.</p>
+ <p>Marioara era oare-cum abătută, neștiind ce sfârșit va avea această jalbă.</p>
+ <p>Tristă și uimită, ea sta retrasă în camera sa și la fie-care dată ce se deșchidea ușa, tresărea că luase înțelegere cu tatăl sĕŭ să o vestească de sfârșitul aceleĭ jalbe.</p>
+ <p>De odată cucoana Arhondărescu intră veselă în casa ficeĭ sale și'ĭ ȡise :</p>
+ <p>— A scăpat! A scăpat!... căcĭ acuma consim-țeaŭ cu toții la căsătoria eĭ cu Corbea.</p>
+ <p>Marioara, la cuvintele mameĭ sale, păli de bu-curie și lăsându-se să cadă în genuchĭ:</p>
+ <p>— Dumnezeul meu !... îțĭ mulțumesc!... șopti densa plină de-o sacră emențiune.</p>
+ <p>Marioara duse numaĭ de cât iubituluĭ sĕŭ feri-cita veste.</p>
+ <p>Inainte însă de a se pronunța achitarea, Corbea fusese adus la Mocilenĭ, unde fusese închis. Marioara venea foarte des cu muma sa să'l vaȡă.</p>
+ <p>Intr'o ȡi un mic câine favorit, se luă dupĕ trăsura stupâneĭ sale care se ducea să facă luĭ Corbea visita obicinuită, și nu voi în nicĭ un chip să se maĭ întoarcă acasă.</p>
+ <p>Marioara opri trăsura și 'l luă cu dênsa. Dar când fu să plece de la Bisericanĭ înapoi, câinele începu să chelălăiască în jurul luĭ Corbea ca și cum ar fi voit să rămâe cu dênsul și ca și cum 'ĭ-ar fi cerut ajutor.</p>
+ <p>Această rugăciune a câineluĭ fu înțeleasă de Marioara și ea ȡise luĭ Corbea :</p>
+ <p>— Imĭ pare că micul meŭ cățeluș voește să rămâe cu tine.</p>
+ <p>— Atât maĭ bine, respunse acesta ; eŭ voiŭ îngriji de dênsul și mĕ voiŭ desfăta cu jocurile luĭ.</p>
+ <p>— Oprește-l atuncĭ!... zise Marioara, și se de-părtă. Micul Leŭ, că așa se numea cățelul arătă, o mare iubire pentru Corbea și în curând a-cesta îl luă în atâta afecțiune, în cât nu se putea despărți un moment de dênsul.</p>
+ <p>VI</p>
+ <p>In zioa în care Corbea obținuse grația de la Divan, și când Marioara alergase la închisoarea luĭ ca să'ĭ dea de veste, iată ce se întêmplă:</p>
+    <p>Chesat <foreign><foreign>Efendi</foreign></foreign>, care vĕȡu că Corbea va fi achitat și că viața luĭ va fi în pericol și afară de acestea nu va putea dobândi calul acestuĭ voinic, îșĭ deschise punga în dreapta și în stânga, până ce în fine reuși a face ca Corbea să fie dat în mâna luĭ după achitare și să ȡică că a fugit din închisoare.</p>
+ <p>Sărmana Marioara! Fericirea 'ĭ surise așa de tare, în cât nenorocirea devenĭ ultimul eĭ sfârșit.</p>
+ <p>Ea plecase, cum știm, împreună cu muma sa să-ĭ vestească frumoasa și fericita noutate, că Divanul îl ertase.</p>
+ <p>Cât de mare îĭ fu încremenirea, când i se spuse de păzitoriĭ închisoriĭ, că Corbea a sfărâmat ză-brelele ferestreler și a fugit.</p>
+ <p>— Tocmaĭ când îl scăpasemŭ!... cugetă Marioara.</p>
+ <p>— Totul în zadar, îĭ spuse temnicerul ; daca nu fugea.... poate : dar acum când îl vor prinde va fi din noŭ închis, ba poate spunzurat...</p>
+<p>— Doamne!.... Doamne!.... se ruga sĕrmana Marioara!....</p>
+    <p>Dar Corbea nu maĭ era ! El nu fugise însă, Chesat <foreign><foreign>Efendi</foreign></foreign> devenise stăpân pe viața luĭ.</p>
+ <p>Iată pentru ce câinele Leu, rĕmas în urma luĭ Corbea, urla în toate ȡilele dimineața și seara</p></div>
+ 
+ <div type="chapter" n="5">
+   <head>V</head>
+ <p>Era noapte. Alexandru III Vodă, sta într'o sală înconjurat de curtezaniĭ sĕĭ ceĭ maĭ de aproape. Acest om era în vârsta dintre bătrânețe și ma-turitate; figura luĭ esprima pismă și rĕutate. In adevĕr, cercetând viața sa, vedem trăsurĭ de ace-lea ce ne arată pe omul pismăreț, bănuitor, cu suflet mic, fără conștință, fără principiĭ nicĭ în viață privată nicĭ în viață politică, iubind tro-nul numaĭ pentru tron.</p>
+ <p>In acest moment un Bulubașa anunță că sei-meniĭ aŭ adus pe Corbea.</p>
+ <p>— Să'l aducă aicĭ, ȡise Domnul.</p>
+ <p>După câte-va minute, Corbea intră în mijlocul a maĭ mulți seimenĭ. El era îmbrăcat cu costu-mul sĕŭ de țară, pĕrul lung pe umerĭ, privirea pĕtrunȡĕtoare și severă se lăsă asupra acestoi oamenĭ ca un nor de fer.</p>
+ <p>Alexandru al III-lea nu putu să sufere și lăsă ochiĭ în jos, apoĭ căutând putere în mânia sa, îĭ ȡise </p>
+ <p>— Aĭ voit să fugĭ la turcĭ să'țĭ vinȡĭ țara. Pentru ce ?.... Căcĭ ți-am făcut multe bunurĭ poate ! te-am scăpat de la închisoare.</p>
+  <p>— Ce doveȡĭ aĭ că am voit să fac cele ce ȡicĭ?... Nicĭ una. Ast-fel ți-aŭ spus toți aceștĭ oamenĭ ce te înconjoară, datoria lor de linguși-torĭ este să mință ; dar datoria unuĭ domn este să nu- creaȡă. Tu trăeșĭ cu eĭ, și numaĭ cu eĭ, și eĭ te înșeală ca să te răcească de țară, îțĭ spun că țara umblă să te piarȡă și tu creȡĭ, și cu cât te depărtezĭ de țară, cu atât te apropiĭ de eĭ. Dar pentru ce îțĭ voiŭ maĭ ȡice aceste ? Ele nu pot să te schimbe. Imi ȡicĭ că aĭ făcut mult bine pentru mine. Aceasta adevĕrat este ; dar acesta nu îndatorează nimic la tăcere; când 'mĭ-aĭ făcut binele de care vorbeștĭ, eu 'l-am priimit cu tocmeala de a mĕ lăsa în mâinile aceluĭ mize-rabil de Chesat <foreign><foreign>Efendi</foreign></foreign> ? Tu facĭ rĕu mie și țĕreĭ, pentru aceasta dar îțĭ voiŭ...</p>
+ <p>— Si care este rĕul ce fac acesteĭ țĕrĭ și ție ?</p>
+ <p>— Te sprijinĭ pe turcĭ și pe grecĭ și nu maĭ țiĭ socoteală de legile țĕreĭ; birurĭ marĭ ai pus pe țară, pe oamenĭ îĭ uciȡĭ fără judecată, saŭ ĭ daĭ prada veneticilor, bunioară cum m'aĭ dat pe mine.</p>
+ <p>— Dar pe cine mĕ voiŭ sprijini, dacă nu pe străinĭ? Pe voĭ?.... Iată cum rĕspundețĭ prin tră-dare. Nu țiŭ socoteală de legile țĕreĭ ? Pun birurĭ grele ?... Dar eu nu am cumpărat domnia cu legĭ, ci cu banĭ.</p>
+ <p>— Domnia cată să fie un lucru sfânt, iar nu negustorie.</p>
+ <p>— Destul!... In loc să'mĭ căȡĭ la picioare și să'țĭ cerĭ ertare, tu te împotriveștĭ mie și mĕ mustrĭ, țĕran necioplit! Ce altă dovadă maĭ bună, că vrețĭ să mă răsturnațĭ ? Dați'l la închisoare și voiŭ pune eu la cale ce are să se facă cu dênsul.</p>
+ <p>— Ai puterea în mână, eștĭ stăpân pe lutul meŭ ; nu însă. și pe gândurile mele...</p>
+ <p>— Luați'l!... maĭ strigă Domnul.</p>
+ <p>Corbea surîse și eși cu sbirĭ sĕiĭ.</p>
+ <p>— Mâine să i se tae capul înaintea poporuluĭ.</p>
+ <p>— Acest om are inima țĕranilor pentru dên-sul, Doamne nu ar fi maĭ bine să piară în as-cuns ?</p>
+ <p>— Nu, Vistiere ! Voiŭ să piară pe față, ca să se cutremure toțĭ ceĭ ce cugetă ca dênsul!</p>
+ <p>Lingușitoriĭ se retraseră, și Vodă rĕmase singur.</p>
+ <p>Guardieniĭ plecară la închisoare.</p></div>
+   
+  <div type="chapter" n="6"> 
+ <head>VI</head>
+ <p>— L'aĭ cuminicat părinte ? întreabă unul din eĭ întorcêndu-se către preot. Gădea așteaptă... cată să sfârșim odată.</p>
+ <p>— Preotul dete cuminicătura luĭ Corbea. Acesta o sorbea și ȡise:</p>
+ <p>— Voința luĭ Dumneȡeu fie îndeplinită!...</p>
+ <p>— Acum vin'o dupe noĭ! ȡise cel d'ântâiŭ gar-dian.</p>
+ <p>Corbea se scoală și'l urmează.</p>
+ <p>La ușa camereĭ pe din afară eraŭ înșirațĭ maĭ mulțĭ seimenĭ armațĭ. Indată ce Corbea apăru, eĭ îl înconjurară, și el merse in mijlocul lor.</p>
+ <p>Indată ce eșiră ast-fel din curtea închisoareĭ, Corbea vĕȡu o mulțime de oamenĭ adunațĭ în piața din vecinătate. Nu departe de zidurile în chisoreĭ se înălța un pat de scândurĭ de brad. Acolo era locul destinat pentru tăerea capuluĭ luĭ Corbea. Intr'unul din capetile acestuĭ pat ședea în picioare cu o secure în mână gâdea, care maĭ din'nainte fusese huiduit de popor : împrejurul patuluĭ erau soldațĭ armați și între pat și zidul închisoreĭ se vedeaŭ douĕ tunurĭ întoarse către locul de tăiere; tunariĭ stau preparațĭ să tragă, îndată ce Corbea apăru tot poporul strigă :</p>
+ <p>— Corbea !... Corbea !... Să nu moară Corbea!.. Să moară păgâniĭ!... Corbea să trăească.</p>
+ <p>Osânditul se urcă pe patul de tăiere. Acolo el îngienuchiă și ceru să'sĭ facă cea din urmă rugă-ciune. Lucru ciudat! Când poporul vĕȡu pe acest om rugându-se, un sentiment neînțeles încinse sufletul sĕŭ. Toată această mulțime căȡu în ge-nunchĭ și se rugă în acelaș timp pe când se ruga Corbea !</p>
+ <p>Corbea sfârși ruga și îndreptându-se către Gâde îi zise! — Vino!... Fă-țĭ datoria!...</p>
+ <p>Gâdea îșĭ pregăti secura, făcând toate miș-cările pentru tăere. Ferul se ridică asupra ca-puluĭ luĭ Corbea. Mulțimea se înfioră la vederea acesteĭ mișcărĭ grozave, fie-căruia i se părea că secura era ridicată pe gâtul sĕŭ.</p>
+ <p>Gâdea era să lovească !...</p>
+ <p>Când din depărtare un glas de femee strigă din toate puterile!</p>
+ <p>— Opriți-vĕ!.. Opriți-vĕ!.. Poruncă de la Vodă!</p>
+ <p>Și gâdea încremeni cu securea ridicată.</p> <p>Poporul respunse prin miĭ de urărĭ !...</p>
+ <p>O fată tînĕră, îmbrăcată în negru, cu pĕrul revărsat pe umerĭ, frumos și negru ca durerile sufletelor nobile, despicând mulțimea, se urcă pe patul de tăere și se aruncă în brațele luĭ Corbea.</p>
+ <p>Era Marioara....</p>
+ <p>— Cine eștĭ ? răcni capul seimenilor.</p>
+ <p>— Iată cine sunt !... Și Marioara îĭ întinse un pergament cu porunca Domnuluĭ care revoca pe-deapsa cu moartea.</p>
+ <p>Aceasta oare, devenise o fericire pentru bietul Corbea ?.., Nu !... Scăpat de la moarte trebuia să fie aruncat din noŭ în închisoare.</p>
+ <p>Sermana Marioara se deprinse cu această viață. Vĕȡênd moartea sigură a iubituluĭ eĭ, merse la Domn, îĭ câȡu în genuchĭ, îșĭ smulse pĕrul; în fine, acesta mișcat de frumusețea eĭ și nu-trind oare-care plăcerĭ neomenoase, pe care spera să și le îndeplinească maĭ târȡiŭ, făcu grațiarea luĭ Corbea însă, numaĭ, de la moarte, iar nu și de la închisoare ; cu modul acesta el îșĭ asigurase douĕ căĭ : una de a ținea pe Marioara în tot-d'a-una în apropiere, pe lângă închisoarea iubituluĭ eĭ, altă. că dându'ĭ ertare el credea că va do-bândi iubirea Marioareĭ, din causa generositățeĭ ce arătase.</p>
+ <p>Cât despre Marioara, ea priimise de-o cam dată să'l scape de la moarte ; iar cât despre închisoare era alt-ceva. — Eĭ se putea vedea... se puteau iubi... iată tot.</p>
+ <p>Ast-fel dar Corbea fusese din nou închis.</p>
+   <p>Maĭ 'nainte însă vĕȡurăm că el fusese dat în mâinele lui Chesat <foreign><foreign>Efendi</foreign></foreign>.</p>
+ <p>Să vedem cum scăpă el din mâinile acestuĭ nele-giuit și cum ajunsese prisonierul luĭ Alexandru III.</p>
+ <p>Chesat <foreign>Efendi</foreign>, ceruse și dobândise prin banĭ, soarta viteazuluĭ Corbea. — El îl închise în pim-nițele sale și acolo îl hrănea într'un mod foarte mizerabil. Bietul Corbea suferea cele maĭ nele-giuite torturĭ, ca să spue unde îșĭ ține calul, — Corbea nu voea să spue cu nicĭ un chip.</p>
+ <p>Intr'o ȡi el îșĭ prepară o armă dintr'o bucată de cerc ce se afla prin acea subterană, și pe când venea păȡitorul să'ĭ aducă merindele, el îl ucise cu acea armă și strecurându-se cu multă dibăcie fugi din teribila luĭ subterană.</p>
+ <p>Chesat <foreign>Efendi</foreign> aflând de fuga luĭ, puse să'l ur-mărească. — Cercetă pe ascuns la Boerul Arhon-dărescu, însă eĭ, după cum știm, îl țineaŭ că e fugit.</p>
+ <p>— Trebue să fie în Gruenĭ, în satul sĕŭ, cugetă veneticul. — A ! Il voiŭ prinde și amar va fi de dênsul.</p>
+ <p>Spre acest scop el trimiese ceĭ patru sbirĭ, pe care 'i-am vĕȡut la început în casa bătrânei Vo-chița. — De și cam târȡiŭ dar am creȡut de da-torie a lămuri începutul acestei istoriĭ.</p></div>
+   
+   <div type="chapter" n="7">
+ <head>VII</head>
+ <p>Ne-aducem aminte, că ceĭ 4 sbirĭ, se ascunse-seră în ograda luĭ Corbea, — doĭ în podul coșaruluĭ, iar ceĭ alțĭ doĭ în podul caseĭ.</p>
+ <p>Peste vre-o două ceasurĭ bătrâna Vochiță se reîntoarse cu inima mulțumită, căcĭ moș popa îĭ citise molifta; — ea intră în casă. și se îmde-letnici cu de-ale trebeĭ, fără să bănuească de tâlhariĭ ce era ascunșĭ în casa eĭ.</p>
+ <p>Către seară, sosi și Corbea, ostenit și gânditor.</p>
+ <p>— Bine te-am găsit măicuță, ȡise el voichițeĭ.</p>
+ <p>— Bine aĭ venit sănătoșel, copilul meu, ȡise bĕtrîna cu bucurie. — Toată ȡiua am fost neli-niștită. — Unde-aĭ întêrȡiat până acum. — Tu știĭ foarte bine că de când aĭ scăpat din mâinile acelor nelegiuiţĭ îmĭ făgăduiseșĭ să fiĭ cu mine și să nu te maĭ ducĭ prin oraș. — Oameniĭ din orașe sunt ca câiniĭ...</p>
+ <p>Corbea era așa de preocupat cu gândurile sale, încât nicĭ nu respundea la întrebările și la cu-vintele Vochițeĭ.</p>
+ <p>— Știĭ destul de bine, urmă Vochița, că tre-burile ne merg foarte reŭ, vitele ne-a murit maĭ toate, bucatele aŭ rĕmas mare parte pe câmpurĭ.</p>
+ <p>— Aĭ dreptate mamă, așa e am suferit multe păgubĭ... maĭ cu seamă dumneata aĭ fost foarte nenorocită, dar nu e vina mea !... ș'apoĭ acum nu este asta care mĕ muncește...</p>
+ <p>— Cum ?... Maĭ aĭ încă noĭ planurĭ? Lasă-te dragul meŭ de întreprinderile tale. — O să'țĭ pierȡĭ capul !...</p>
+ <p>— Nu pot mamă !... Destinul mĕ târăște pe calea ce am apucat, O! cât aș da să scap de în-curcătura în care me găsesc!... Dar !... Marióra!... O! iată cea ce mĕ face și maĭ nenorocit.... Iu-birea mea mĕ va pierde maĭ curând de cât in-tunericul în care mĕ aruncase veneticiĭ.</p>
+ <p>— Iubirea ta!... Dacă o iubeștĭ și dacă te iu-bește și ea, luați-vĕ și trăițĭ împreună, ce vĕ pasă vouă de veneticĭ, ce vă pasă de cea-l'altă lume?...</p>
+ <p>— Așa e dar din cauza lor nu pot scoate ca-pul în lume ; astă-ȡĭ mai mult de cât orĭ când.— Căcĭ, trebue să-țĭ mărturisesc, mizerabilul de Che-sat <foreign>Efendi</foreign>, mĕ urmărește pretutindenĭ — de când am scăpat din închisoarea luĭ, sbiriĭ luĭ mĕ caută în tot locul. — Orĭ unde nu gândesc cu eĭ mĕ întâlnesc. — Dar, din norocire, curagiul și puterea mea îĭ trimite pe toțĭ pe cea-l'altă lume !... Mĕ voiŭ lupta până ce voiŭ fi în stare; . . . dar în cele din urmă, cine știe.</p>
+ <p>— Aide, dragul meŭ, nu mai te obosi cu ast-fel de necazurĭ; — eĭ nu vor pătrunde și până aci. — In sat te iubesc toțĭ și nimenĭ nu va suferĭ să se apropie dușmaniĭ de casa noastră.</p>
+ <p>— Așa e, daca ar trebui să staŭ numaĭ în sat.... Dar, nu înțelegĭ mamă, că trebue să văd pe Marioara, trebue s'o întâlnesc cât maĭ de gra-bă. — Dragostea eĭ mĕ usucă și mĕ face să nu staŭ la un loc... Trebue s'o vĕȡ, mamă, trebue s'o am lângă mine, s'o ascult vorbind... s'o iu-besc și sĕ mĕ iubească ! ...</p>
+ <p>— Nenorocit copil!... murmură bĕtrâna. Soarta ți-e în adevĕr cumplită. — Fără această dragoste, tu aĭ putea fi fericit.</p>
+ <p>— Ințelegĭ dar, că trebue să fac toate putin-cioasele să mĕ întâlnesc cu ea; să-ĭ spun tot ce mi s'a întâmplat; căcĭ ea trebue să sufere mult. Ș'apoĭ cine știe... dușmaniĭ meĭ o fi mințind'o; 'ĭ-o fi spunând că am murit sau cine maĭ știe ce.</p>
+ <p>— Așa dar vreĭ să plecĭ iar...</p>
+ <p>— Da, mamă, mâine voiŭ pleca din noŭ, și cred cel puțin să mĕ reîntorc fericit și cât se va putea maĭ curând.</p>
+ <p>— Fie voea Domnuluĭ! ȡise bĕtrâna, ștergân-du-şĭ lacrămile.</p>
+ <p>Corbea în suterană, ţinând calul de frâŭ priveşte uşa cu dispreţ.</p>
+ <p>— Acum mamă să ne culcăm : căcĭ mâine trebue să ne sculăm de dimineață.</p>
+ <p>Și Corbea luându-șĭ nópte bună de la Vochița intră în odaia sa, iar bĕtrîna, după ce închise bine poarta ogrăziĭ intră și ea în odaia de alăturĭ să se odihnească.</p>
+ <p>Către meȡul nopțiĭ, Corbea, nu adormise încă când auȡi în pod óre-care mișcărĭ neobicinuite. El se sculă, îșĭ luă douĕ pistoale din cuiŭ și eși în sală.—In momentul însă de a călca pragul odăeĭ duoĭ oamenĭ săriră ca fulgerul după ușa poduluĭ, și înainte de a prinde Corbea de veste să tragă cu pistolul, sbiriĭ îĭ apucară mâinele cu putere.</p>
+ <p>Corbea ne putênd să tragă cocoșul, se sforța în brațele lor și lovind în tâmplă pe unul din eĭ cu țeava pistoluluĭ îl ameți și îl culcă la pă-mânt. Cel-alt se luptă cu toate puterile și isbuti d'abea a'ĭ înfige cuțitul în umĕr. — El țintise la inimă, dar Gorbea printr'o repede mișcare se sustrase de la o moarte sigură.</p>
+ <p>Vochița eși și ea; dar sbiriĭ lovind'o cu piciorul o asvârli în ușă producênd ore-care sgo-mot. — Și când ea dete primul țipăt înăbușit, cei-alțĭ sbirĭ, ascunșĭ în podul grajduluĭ, se re-peȡiră înăuntru și împreună cu cel-alt reuișră a deserma pe Corbea și a lega pe biata Vochița, înmărmurită de gróză.</p>
+ <p>— Eștĭ al nostru, ucigașule semeț!... strigară ceĭ treĭ sbirĭ !</p>
+ <p>Corbea scărșni din dințĭ și se smuci din mâi-nele lor. Dar în zadar; mâinele și piciorele-ĭ eraŭ strâns legate.</p>
+ <p>— Acum să ne spuĭ unde'ți-e calul?... Alt-tel te omorâm aicĭ... saŭ te sugrumăm de viŭ!...</p>
+ <p>— Omorâți-mĕ dacă vĕ stă în mână, dar ca-lul nu vețĭ afla unde e !...</p>
+ <p>— Bine !.. . ȡiseră zbiriĭ; dacă nu voeștĭ a ne spune nouă, veĭ spune stăpânuluĭ nostru ; el va ști să'țĭ scoată vorbele din gură, măcar cu cârligul.</p>
+ <p>— Și cine este stăpânul vostru ? întrebă Cor-bea cu dispreț.</p>
+ <p>— Chesat <foreign>Efendi</foreign> ! ...</p>
+ <p>— Chesat <foreign>Efendi</foreign> ?... A !... nelegiuitul !... și-a regăsit prada !... Dar fițĭ sigurĭ bîestemaților, că nu eŭ voiu fi cel care va suferi din noŭ tortu-rile luĭ, ci el va peri în ghiarele mele !...</p>
+ <p>— Vom vedea !... rânji Ifraim. In fața luĭ nu veĭ ȡice tot ast-fel !... Acum pe drum copiĭ! Pe bĕtrâna s'o vărâm așa legată cum se află sub pot.</p>
+ <p>Și după ce puseră bine pe biata Vochița, doĭ luară pe Gorbea, iar doĭ duceau de supțiorĭ pe amețitul sbir, care d'abia îșĭ putuse veni în simțire.</p>
+ <p>A doua ȡi de dimineață, eĭ se aflaŭ în curtea luĭ Chesat <foreign>Efendi</foreign>, și când acesta se sculă, sbiriĭ îĭ înfățișară pe Corbea, legat cobză.</p>
+ <p>— Iată-te în fine, mișelule ! răcni Chesat. De astă dată nu veĭ maĭ scăpa. Dacă'mĭ veĭ spune unde 'țĭ-e calul te voiŭ ține cu viață ; iar de nu am să te taiŭ în bucățele.</p>
+ <p>— Fă ce veĭ voĭ cu mine, că eu nu'țĭ voiŭ da calul meu. Nimenĭ nu știe unde l'am ascuns. Decĭ poţĭ să nădăjdueștĭ mult și bine. Afară dacă te veĭ învoi cu mine la cea ce 'țĭ voiŭ cere.</p>
+ <p>— Să vedem, ȡise Chesat <foreign>Efendi</foreign>, neteȡindu-şĭ barba.</p>
+ <p>— Dacă te 'nvoeștĭ să'mĭ daĭ libertatea și să nu mĕ maĭ superĭ nicĭ odată, să mĕ lași în pace să iaŭ pe Marioara de nevastă și să trăesc cu dênsa neturburat de sbiriĭ tĕĭ, atuncĭ îțĭ făgă-duesc să'țĭ vênȡ calul ! nu însă să ți'l dăruesc.</p>
+ <p>— Nu se poate ! ȡise grecul turcit. Dacă 'ţĭ voiŭ da libertatea tu te poțĭ rescula cu de-aĭ tĕĭ în potriva mea și să'mĭ eĭ calul și poate și viața.</p>
+ <p>— Odată ce'ĭ veĭ cumpĕra, ȡise Corbea, ce drept maĭ pot avea asupra luĭ ? Cât despre viața ta la ce'mĭ va folosi, când eu voiŭ fi liniștit și neturburat de neomeniele tale ?...</p>
+ <p>Chesat <foreign>Efendi</foreign> cugetă cât-va și după ce luă o hotărîre, ȡise luĭ Corbea :</p>
+ <p>— Uite, te am în mâinele mele ; aș putea să fac din tine ori ce voiŭ vrea ; dar fiind că ȡicĭ că sunt neomenos, voesc să'țĭ daŭ o dovadă că te înșelĭ. Cât îmĭ cerĭ pe calul tĕŭ ?</p>
+ <p>— Nu'țĭ cer mult : douĕ miĭ de galbenĭ, cât pentru ȡestrea Marioareĭ.</p>
+ <p>— Două miĭ de gelbinĭ pentru un cal! .... Dar fie , . . face maĭ mult de cât atât . . .</p>
+ <p>Și turcu șoptind unuĭ vĕtaf al sĕŭ, chel și cu mustățile până 'n ureche ; acesta se depărta și peste câte-va momente reveni cu douĕ pungĭ pline cu aur.</p>
+ <p>— Iată, ȡise Chesat lui Corbea, iată'țĭ prețul caluluĭ; dar să te țiĭ de cuvênt. Să nu faci un pas spre răsbunare, căcĭ nu veĭ avea nici o pu-tere !...</p>
+ <p>— Să mĕ ferească sfântul !... respunse Corbea.</p>
+ <p>— Acum ține baniĭ și spune-ne unde este calul.</p>
+ <p>— Nu vĕ voiŭ spune, cât voiŭ fi în mâinele vóstre. — Credețĭ că nu înțeleg șiretlicul ? —Voițĭ să aflațĭ unde este calul, și apoĭ să facețĭ cu mine tot ce vețĭ vrea?... Nu!... S'apoĭ în locul unde e calul nimenĭ nu poate intra de cât eŭ ; dacă voeștĭ, dâ-mĭ câți-va oamenĭ de-aĭ tĕĭ sigurĭ, și când le voiŭ da calul, atuncĭ să'mĭ dea și mie libertate.</p>
+ <p>— Bine, ȡise veneticul; dar ia seama să nu facĭ vre-o neghiobie că nu scapi de mâinele mele.</p>
+ <p>— Fii pe pace, ȡise Gorbea, cam în doĭ perĭ. Cum se înoptă Corbea porni însoțit de 6 oa-menĭ aĭ luĭ Chesat, bine armațĭ, și spre meȡul nopțeĭ, ajunseră în Gruenĭ.</p>
+ <p>La marginea satuluĭ era o mică pădurice, care de și puțin întinsă, dar copaciĭ eraŭ bĕtrînĭ și scorboroșĭ.</p>
+ <p>— Calul meŭ este în aceasta pădure, ȡise Corbea, să intrăm și 'l vom găsi în grajdul luĭ.</p>
+ <p>Intrară în pădure și se opriră în fața unuĭ copac mare și scorboros. Corbea scoase o mică daltă ce o avea în sînul sĕŭ și înfîgând'o în coajea a-celuĭ copac, ea se deschise întocmaĭ ca o ușă.</p>
+ <p>Cei șease păȡitorĭ aĭ luĭ, se priveaŭ unul pe altul plinĭ de mirare.</p>
+ <p>— Să intrăm în grajd, ȡise Gorbea, și el apu-că cel d'ântêiŭ înainte, iar ceĭ șease îl urmară.</p>
+ <p>La rădăcina copaculuĭ, ei deteră peste o in-trare cât poate încăpea un om, și unul câte unul urmară după Corbea. In fața lor se deschise ca o subpămêntă. care ducea cam depărtișor de la intrare.</p>
+ <p>Merseră ast-fel pe sub pămênt, până ce deteră de o ușă de fer. Corbea împinse zăvorul și in-trară cu toțiĭ într’un grajd ȡidit cu peatră, la ale căruĭ esle, Corbu era legat, nemâncat sĕr-mânul de vre-o douĕ ȡile, de când cu fuga luĭ Corbea din închisoarea luĭ Chesat <foreign>Efendi</foreign>.</p>
+ <p>Cum simți sgomot, Corbu îșĭ ciuli urechile, îșĭ întoarse capul și începu să sforăe.</p>
+ <p>Ceĭ șease oamenĭ împreună cu Corbea intraseră înăuntrul grajduluĭ, și pe când Corbea deslega calul, eĭ îl privea cu mirare ; nu vĕȡuseră nicĭ o dată un cal maĭ frumos.</p>
+ <p>Lumina în acea subterană venea din douĕ re-suflătorĭ, practicate cu multă dibăcie, de stăpâ-nul eĭ și comunicând cu esteriorul.</p>
+ <p>Când Corbea deslega calul și eși cu el spre ușă, ceĭ șease păȡitorĭ voiră să'l urmeȡe; dar de-o dată Corbea trecu repede cu calul, și ușa de fer se închise în urmă-ĭ lăsând înăuntru grajduluĭ pe ceĭ șease cu armele lor cu tot.</p>
+ <p>— Traiŭ bun, dragiiĭ meĭ, le strigă Corbea de afară. Ce bine stau acum ! 2000 de galben în pungă şi şease nelegiuițĭ îngropațĭ de viĭ!... Ha! ha! ha!...</p>
+ <p>Și Corbea se depărta cu calul sĕŭ, rîȡênd în hohot!</p>
+ <p>El nu eși prin scorbura copaculuĭ pe unde intrase, ci apucă pe o altă subterană în stânga și dupe un drum de un sfert de ceas, el eși de-parte, la poalele unuĭ deal, unde se deschidea ca o mică peșteră, dar în care nimenĭ nu intrase, neștiindu'ĭ secretul.</p>
+ <p>Când Corbea se vĕȡu la câmp liber, o porni prin mijlocul nopțeĭ, și ajungênd la Gruenĭ, intră în ograda caseĭ.</p>
+ <p>Biata Vochița se sbuciumase în legăturile eĭ, maĭ toată noaptea până aproape de ȡiuă, când vecinĭ auȡind țipetele eĭ, alergară întru ajutor și o deslegară. Când ea le povesti toate cele întâmplate, toțĭ țeraniĭ adunațĭ în jurul eĭ scrâș-nea din dințĭ și turbaŭ de dorința de a rĕsbuna pe Corbea. In tot cursul aceleĭ ȡile, ei se pregătiră cu toțiĭ, bĕtrîn și tînĕr, adunară și alte sate de prin pre-jur și se hotărîră ca în dimi-neața ȡileĭ viitoare să pornească spre Divan să ceară dreptate, și de nu li se va da, să treacă sub foc casele și averile nelegiuiților venetic, care prădaŭ țara.</p>
+ <p>Tocmaĭ în acea dimineață sosise și Corbea cu calul sĕŭ.</p>
+ <p>Vochița era prin bătătură. Când vĕȡu pe Cor-bea sănătos și nevătămat, ea îl strânse la peptul sĕŭ de mumă și ochiĭ i se umplură de lacremĭ.</p>
+ <p>— Eștĭ sănĕtoasă mamă ? o întrebă Corbea...</p>
+ <p>— Da, copilul meŭ!... Dar tu cum aĭ scăpat? Prin ce minune?</p>
+ <p>— Oare, când n'am știut eŭ să scap din mâi-nile nelegiuiților? Eĭ nu scap nicĭ o dată de mine; dar eu în tot-d'a-una sunt scăpat pentru eĭ.</p>
+ <p>— Cată să știĭ un lucru. In sat este invălmă-șală mare. Când m'aŭ găsit româniĭ, erĭ dimi-neață, legată și bătută, și când le-am spus că pe tine te-aŭ luat nelegiuițiĭ de tâlharĭ aĭ luĭ Chesat <foreign>Efendi</foreign>, toțĭ se umplură de mânie; așa că toțĭ tineriĭ și uncheșiĭ din satul nostru și din satele vecine, sunt gata, să plece în dimineața asta la Divan să ceară dreptate.</p>
+ <p>— Bine mamă!... Frațiĭ meĭ de-acelașĭ sânge aŭ simțit cuțitul la os. De și prea târȡiŭ, dar tot e ce-va. Eŭ voiŭ merge cu eĭ și vom vedea ce se va alege de capul dușmanilor meĭ care urmăresc toate întreprinderile mele!.,.</p>
+ <p>Nu sfârșĭ vorba și țăraniĭ carĭ simțiră venirea luĭ Corbea se îmbulȡiră cu sutele la ușa ogrăȡeĭ.</p>
+ <p>— Eĭ, frate Corbeo!... Eștĭ sănĕtos!... Bine că scăpașĭ.</p>
+ <p>— Dar ce ți s'a întêmplat măĭ vere? între-baŭ alțiĭ.</p>
+ <p>— Da cum de aĭ scăpat ?</p>
+ <p>— Eĭ Românul știe să se scuture de nelegiuițĭ!</p>
+ <p>Câte și maĭ câte nu vorbeau biețiĭ țĕranĭ, ve-selĭ, de-a vedea pe Corbea în mijlocul lor, sănĕtos și neatins de mâna dușmanilor, de cât mica rană de la umĕr, care nu-ĭ cauza nicĭ o supĕrare.</p>
+ <p>— Orĭ şi cum fraților, ȡise un bĕtrîn, să nu lăsăm vina nepedepsită. Să cerem dreptate, ca să nu ni se întêmple și pe viitor ast-fel de neajunsurĭ.</p>
+ <p>— Așa! Așa!... repetară în cor toțv țĕraniĭ.</p>
+ <p>— Și eŭ voiŭ fi în mijlocul vostru, strigă Corbea.</p>
+ <p>— Nicĭ nu încape vorbă, ȡiseră uniĭ.</p>
+ <p>— Tu eștĭ cel maĭ deștept, strigară alțiĭ.</p>
+ <p>— Știĭ și maĭ multă carte de cât noĭ toțĭ, ȡiseră toțĭ flăcăiĭ.</p>
+ <p>— Să mergem dar !...</p>
+ <p>— Suntem gata.</p>
+ <p>— Chiar acuma!...</p>
+ <p>— Da!... Da !... reperată cu toțiĭ.</p>
+ <p>— Pe drum!...</p>
+ <p>— Domnul să ne ajute !...</p>
+ <p>Și făcându-șĭ cruce plecară cu toțiĭ, avênd în frunte pe Corbea, care se simțea fericit de entu-siasmul fraților sĕĭ de acelașĭ neam.</p>
+ <p>Pe drum Corbea le ȡise:</p>
+ <p>— Maĭ întêiŭ de toate să ne rĕsbunăm de Chesat <foreign>Efendi</foreign> și apoi să mergem la Divan, căcĭ păgânul auȡind de scularea noastră, poate fugi.</p>
+ <p>— Aĭ dreptate ȡisesă tovarășiĭ luĭ.</p>
+ <p>— Să omorâm pe Chesat <foreign>Efendi</foreign>.</p>
+ <p>— Nu! ȡise Corbea, să'l legăm și să'l ducem înaintea Divanuluĭ.</p>
+ <p>— Și asta-ĭ bună!</p>
+ <p>— Să nu ațâțăm mânia Domnuluĭ, că ne-am rĕsbunat singurĭ, ȡise un bĕtrên, care părea că are maĭ multă judecată.</p>
+ <p>— Toțĭ se opriră la aceste cuvinte ale bă-trênului.</p>
+ <p>— Are dreptate, ȡise Corbea. Fiind-că am pornit pe o ast-fel de cale, cată să așteptăm la res-bunarea legiuită.</p>
+ <p>Și ast-fel vorbind eĭ mergeaŭ, mergeaŭ într'una si mânia lor creștea cu drumul.</p>
+ <p>Seara ajunseră în satul Rădeanca, unde popo-siră pênă a doua ȡi dimineața. De aci eĭ mai ridicară țĕranĭ nemulțumițĭ și porniră din nou.</p>
+ <p>Sgomotul ce făcură fu așa de mare, în cât merse din sat în sat, din oraș în oraș, până ce ajunse ia urechile Domnuluĭ. — Acesta însă nu știa causa resculăreĭ dor și lingușitoriĭ împreună cu Chesat <foreign>Efendi</foreign>, care veni la curte îna-intea resculaților, îĭ spuseră că țăraniĭ vin să restoarne pe Domn și să'l dea pe mâinele turcilor, cu care s'aŭ legat pentru acest scop.</p>
+ <p>Alecsandru al III, cum auȡi acestea, trimese o putere armată, ca să nimicească întreprinderea țĕranilor și să-l aducă pe Corbea înaintea luĭ.</p>
+ <p>Armata îĭ întâmpină în cale, și după ce răs-pândi pe resculațĭ prinse pe Corbea și-l duse înaintea Divanuluĭ după cum veȡurăm maĭ îndărăt.</p>
+<p>Știm încă, că dupe ce Corbea fusese scăpat de la moarte, fusese aruncat în închisoare.</p>
+ <p>Marioara căpătase voe de a vedea pe Corbea în toate ȡilele și pentru acest scop ea se mută în Capitală împreună cu mumă-sa: căci boerul Arhondărescu, în urma acestora dupî o lungă suferință, ce pricinuise nenorocirea fiiceĭ murise în cel mai scurt timp.</p>
+ <p>— Intr'una din ȡile Marioara se hotărâse să ceară cu or ce preş de la Alexandru Vodă grațierea luĭ Corbea.</p>
+ <p>Spre acest scop ea cedru audienţă Domnuluĭ, care-ĭ fu ficsată pentru una din ȡilele viitoare. In ora şi ȡiua hotărâtă, Marioara apare înaintea Domnuluĭ</p>
+ <p>Acesta însă nu o primi în sala audienţelor obicĭnuite, ci într'un cabinet perticular.</p>
+ <p>Alecsandru şedea resturnat ăe un jeţ cu un aer bine-voitor când Marioara intră cu cea maĭ adâncă supunere, şi se prosternă în genuchĭ la picioarele luĭ.</p> 
+ <p>— Scoală-te frumoasa mea copilă, locul tĕŭ nu e aci, şeȡĭ aicĭ şi spune 'mĭ ce aĭ de spus; şi el îĭ arată un fotoliŭ ce era alăturĭ ca al luĭ</p>
+ <p>— Mărite Doamne, începu Marioara cu un ac-cent tremurător, este un timp fórte îndelungat, de când am dus'o din rĕŭ spre maĭ rĕŭ, este un timp foarte lung de când nu m'am mângăiat de cât cu lacrămĭ. Măria ta, care eştĭ tatăl ne-norociţilor, şi care spijineştĭ pe cei loviţĭ de soartă, veĭ avea milă de nenorocirile noastre, pentru a le pune capĕt. Corbea logodnicul meŭ, a scăpat de la moarte prin mila Mărie Tale. Iţĭ datorim amênduoĭ viaţa şi fericirea noas-trp; nu e însă maĭ puţin adevĕrat că această fericire ce ne-ai dat este pe atât de dureroasă pe cât de timpurie. Un singur cuvênt al Mă-rieĭ Tale, ne poate împreuna și ne poate da o fericire adevĕrată. Zi acel cuvênt și vom fi căsă-toriți ; iar Măria Ta veĭ avea adânca noastră recunoscință și bine-cuvêntare.</p>
+ <p>— Și acel cuvênt ?...</p>
+ <p>— Este de a scăpa pe Corbea de la închi-soare !...</p>
+ <p>— Imĭ cerĭ cam mult. Corbea a fost acusat ca resvrătitor, ca năȡuitor la viața Domnuluĭ; și orĭ cât de tare ar fi voința mea, boeriĭ țĕreĭ ar cărti numaĭ la ideea de a pune în libertate pe un asemenea vinovat.</p>
+ <p>— Dar poporul, Măria Ta, găsește fără cale închiderea luĭ Corbea.</p>
+ <p>— Eĭ, frumoasa mea, poporul protege pe aceștĭ oamenĭ și le voește scăparea, numaĭ și numaĭ ca să aibă pricina de a cărti împotriva stăpânito-ruluĭ lor; dar când acel stăpânitor are nedibăcia de a se lua după vorbe pompoase și grațiază pe culpabil, tot acel popor cărtește și strigă în gura mare: Trădare!.. Nedreptate!... Slăbiciune de caracter !...</p>
+ <p>— Măria Ta !... Fie-țĭ milă de noĭ. Ițĭ stă în putere de a învinge toate acele piedicĭ.</p>
+ <p>— Nu înțeleg ce slăbiciunĭ oarbe aŭ si aceștĭ muritorĭ simplĭ!... Cum ? vĕ consacrațĭ cele mai frumoase ceasurĭ ale tinerețeĭ pentru a plânge și a iubi pe un om de nimic, care 'șĭ trădéză țara și Domnul lor. Ar trebui să vĕ desgustațĭ la prima lor abatare din calea bineluĭ. Stiŭ foarte bine că a ucis pe un proprietar însemnat, anume... nu'mi aduc aminte în sfârșit; a ucis șease cre-dincioșĭ aĭ supusuluĭ meŭ Chesat <foreign>Efendi</foreign>, a res-culat țĕraniĭ asupra tronuluĭ și nu te-aĭ scârbit de un asemenea resvrătitor și făcător de rele?...</p>
+ <p>A ! uite frumoasa mea...</p>
+ <p>— Marioară...</p>
+ <p>— Bine ȡicĭ, uitasem. Veȡĭ dar, frumoasa mea Marioară, că soarta ta ar fi mai îndulcită, ba âncă prea fericită daca aĭ renunța la iubirea ta nedemnă. Aĭ putea să fiĭ fericită pentru toată viața, — nu te poțĭ îndoĭ nimic, — ș'apoĭ ce e maĭ plăcut, este de a fi privită de toată lumea cu respect și cu supunere, de a avea la poruncă robĭ, podoabe, banĭ, în sfârșit tot ce poate face pe o femee fericită. Eĭ, ce ȡicĭ?...</p>
+ <p>— Nu te înțeleg Măria Ta !...</p>
+ <p>— Te facĭ că nu îngelegĭ; cu toate astea să'țĭ lămuresc mai bine. Dic că dac'aĭ renunța la Gorbea al tĕŭ și aĭ primi să deviĭ iubita mea, atuncĭ, o ! atuncĭ...</p>
+ <p>— Destul, Măria Ta !... Mĕ înfiorĭ...</p>
+ <p>— Nu cred să fiu așa de înfiorător.</p>
+ <p>— Doamne Sfinte, în ce abis m'am cufundat ! cugetă sĕrmana Marioara, și ochiĭ i se umplură de lacrămĭ.</p>
+ <p>— Când plângĭ eștĭ și maĭ frumoasă !... A fi Domniță !... A avea sub piciorul sĕŭ tot ce poate dori patima omenească, a ȡice un cuvênt și to-tul să fie împlinit!...</p>
+ <p>— Măria Ta !... Măria Ta !... se ruga Marioara plângênd din adâncul inimeĭ sale !</p>
+ <p>— Te îndoeștĭ poate !.. Eĭ bine copila mea, află că din ȡiua în care te-am vĕȡut întêia oară, am prins pentru tine o slăbiciune neînțeleasă ; de atuncĭ și până acum nu m+a urmărit de cât o idee, acea de a fi iubit de tine, acea de a te vedea lângă mine, frumoasă și strĕlucitoarea.</p>
+ <p>— Nimic din toate acestea nu se va întêmpla!... Oh !. . . de ce n'am murit alăturea cu tine, o scumpe Corbeo martir al dragosteĭ noastre oarbe și nesocotite !... Veȡĭ prea bine Măria Ta, că acea ce vreĭ să facĭ nu e un fapt bun ! cugetă la douĕ inimĭ sfâșiate, care aŭ fericirea așa de departe în cât abia cutează a o privi. Aĭ putea să le facĭ mult bine ; nu le da însă în locul bineluĭ cel maĭ groȡav rĕŭ, ce poate fi pe pămênt.</p>
+ <p>— E prea târȡiŭ, ca să vĕ maĭ fac acel bine ! Astăȡi nu'l mai pot face ! căcĭ el ar fi un rĕŭ mare pentru mine.</p>
+ <p>- Atuncĭ nu ne rĕmâne de cât să suferim până în capĕt destinul aspru ce ne pedepsește cine știe pentru ce. Noĭ vom rĕmâne cu dure-rile noastre, iar Măria Ta îțĭ veĭ stinge dorința cu multe altele.</p>
+ <p>— Așa ar fi, dacă voința mea n'ar fi maĭ pre sus de cât a voastră. Știĭ însă că eșĭ în puterea mea.</p>
+ <p>La aceste cuvinte amenințătoare, Marioara se înfioră de groază și căȡu din nuoŭ în genuchĭ înaintea luĭ Alexandru:</p>
+ <p>— Ertare !... Ertare Măria Ta!... Noĭ nu 'țĭ-am făcut nicĭ un rĕŭ!...</p>
+ <p>Dar nu înțelegĭ nenorocito, că te iubesc, și că de nu veĭ ceda de bună voe iubireĭ mele, ar-mele mele sunt mai puternice de cât ale tale?...</p>
+ <p>— O! știu!... știu foarte bine!... și Marioara 'șĭ acoperi fața cu mâinele.</p>
+ <p>— Fii dar cu judecată și ascultă voințele mele. Veĭ fi fericită și mare.</p>
+ <p>— Nu pot!... Nu pot!...</p>
+ <p>— Veĭ putea dar fără voe'țĭ ființă încarnată de credință !... Și veĭ regreta amar semeția cu care te împotriveștĭ dorințelor mele !</p>
+ <p>De astă dată Marioara nu maĭ respunse nimic; ea căȡuse fără simțire în locul unde șeóuse în genuchĭ. Durerea și disperarea 'ĭ sdrobiseră inima. Ochiĭ eĭ eraŭ scăldațĭ de lacrămĭ și pieptu-ĭ bă-tea cu putere.</p>
+ <p>Alexandru Vodă, se sculă din jețul sĕŭ și apro-piindu-se de biata copilă, ȡise :</p>
+ <p>— A leșinat porumbița !... O voiŭ face eu să mĕ iubească !... N'am fost nicĭ odată amăgit în speranțele mele !...</p>
+ <p>La un semn al luĭ, un om mustăcios apăru, și aproape îndoit, făcênd temenele Domnuluĭ, se apropie de dênsul.</p>
+ <p>— Du această copilă, în odaea nopților! porunci Alexandru cu un ton hotărât.</p>
+ <p>Umilul servitor, o ridică în brațe și era gata să plece.</p>
+ <p>— Tu să te întorcĭ aicĭ, maĭ porunci Vodă.</p>
+ <p>— Bine, înălțate Doamne !</p>
+ <p>Și omul dispăru.</p>
+ <p>Neomenosul stăpânitor se plimba cu pașĭ agi-tațĭ de colo până colo, când ființa supusă re-apăru.</p>
+ <p>— Apropiete, Gruio !... Am să-țĭ vorbesc.</p>
+ <p>— Sunt supusul Inălțimeĭ Voastre.</p>
+ <p>— O știŭ. De aceea am toată încrederea în tine. Mâine în revărsatul ȡorilor, voiŭ ca acea copilă să fie dusă din palat, fără să vaȡă nimenĭ, la moșia mea misterioasă. M'aĭ înțeles ?</p>
+ <p>— Ințeles, stăpâne !....</p>
+ <p>— Acolo nu trebue s'o vaȡă nimenĭ, nu tre-bue să vorbească cu nimenĭ afară de tine.</p>
+ <p>— Pentru câte ȡile, Măria Ta ?</p>
+ <p>— Asta nu te privește. Atât aveam de ȡis de o cam dată.</p>
+ <p>— Numaĭ atât, stăpâne?</p>
+ <p>— Negreșit!</p>
+ <p>— Dar cum să nu vaȡă pe nimenĭ afară de mine adică eŭ... voiŭ fi...</p>
+ <p>— Ei, nu! dobitocule! N'am vrut să ȡic asta! Numai tu s'o îngrijeștĭ, până voiŭ veni eŭ!...</p>
+ <p>— A! acum înțeleg!...</p>
+ <p>— Pleacă dar !...</p>
+ <p>— Iată, plec, plec !...</p>
+ <p>— Și ia seama !...</p>
+ <p>— Fiĭ sigur Inălțime!...</p>
+ <p>— Veĭ răspunde tu de dênsa !</p>
+ <p>— Cu tot ce am!...</p>
+ <p>— Și cu capul !...</p>
+ <p>— Dumneȡeŭ să mă ferească de o asemenea nenorocire!... Voŭ îndeplinĭ porunca cu sfințenie.</p>
+ <p>— Da, cu sfințenie drăcească!</p>
+ <p>— Aide, cară-te !</p>
+ <p>Și Gruia se retrase făcênd temenele obicĭnuite. Alexandru remase singur și cugetă :</p>
+ <p>— Iată-te în mâinele mele, copilă nesocotită ! Ha!... Preferă în locul unuĭ domn pe un țĕră-naș puțin cam viteaz, dar vinovat și fără de pu-tere în fața voințeĭ mele. Vom vedea ce voiŭ face şi cu tine!</p></div>
+   
+   <div type="chapter" n="8">
+ <head>VII</head>
+ <p>Trecuseră 6 ȡile de la această întêmplare, și sĕrmana Marioara dusă departe într'un castel de țară, închisă în câte-va camere singuratice, nu vedea alt om de cât pe hidosul Gruia, care era șchiop și spân, de o talie mică și cu vorbirea pițigăiată.</p>
+ <p>Ea plângea într'una, se ruga luĭ Dumneȡeŭ, dar toate era în ȡadar, căcĭ el nu o auȡea.</p>
+ <p>A șeasea ȡi sosi Alexandru Vodă, și maĭ în-flăcărat ca altă dată voi să facă pe Marioara a'l iubi în contra voințeĭ eĭ.</p>
+ <p>— Ce am îĭ ȡise el?... Sunt urît?... N'am tot ce 'mĭ trebue, nu sunt bun pentru tine ?... N'am inimă ?...</p>
+ <p>— Nu !... Un om care lovește într'o iubire curată și neperitoare, nu poate să aibă inimă!... Eștĭ maĭ crud de cât îșĭ închipuește poporul tĕŭ!... Eștĭ maĭ laș de cât te credeam.</p>
+ <p>— Aide, iubita mea, nu maĭ fiĭ așa de rĕută-cioasă. Vorbele tale sunt de prisos, trebue să te supuĭ mie, dacă vreĭ să dobândeștĭ o fericire a-devĕrată și rangul ce ți-am pregătit.</p>
+ <p>— Ce'mĭ folosesc rangurile tale, când ele sunt nedemne și rușinoase, când ele îmĭ rĕpesc cea maĭ dulce fericire, aceea de a iubi pe sĕrmanul Cor-bea, care zace în închisoare de atâta timp, nu-maĭ și numaĭ pentru mine!...</p>
+ <p>— Maĭ târȡiŭ, îl voiŭ erta !</p>
+ <p>— Când ?</p>
+ <p>— După ce mĕ veĭ iubiĭ...</p>
+ <p>— Nu te voiŭ iubi nicĭ odată.</p>
+ <p>— Atuncĭ...</p>
+ <p>— Atuncĭ nu va scăpa nicĭ odată, o știŭ; dar cel puțin voiŭ muri cărată pentru dênsul, pre-cum și el va muri martir pentru mine !...</p>
+ <p>Mai mulțĭ țĕranĭ cu topoare și ciomege înanteaȡă pe câmpie avênd pe Gorbea în fruntea lor care le comandă.</p>
+ <p>— Te înșelĭ, căcĭ nimic din toate acestea nu se va întâmpla. Eștĭ în mâinele mele !... Și când tu veĭ fi cu totul a mea, el, scăpat, nu se va maĭ uita la tine; din potrivă va fugi de tine, te va urî, când va ști că aĭ fost a altuia înainte de a fi a luĭ. Nu'l voiŭ ucide, ca să'țĭ fac o remuș-care vecinică; dar îl voiŭ erta, ca să te poată urî, iar tu să poțĭ să mĕ iubeștĭ. Aceasta este voința mea și trebue să se îndeplinească.</p>
+ <p>— Nicĭ odată !...</p>
+ <p>— Imbună-te de voe, copil neînduplecat ; nu mĕ sili să fiŭ crud! Iată tot ce'țĭ cer !... Mai târȡiŭ te veĭ căi poate. Astăȡĭ aĭ toată libertatea să voeștĭ, și ca să fiŭ la picioarele tale: din stă-pân, voiŭ deveni sclavul tĕŭ; veĭ poruncĭ și eŭ voiŭ asculta !...</p>
+ <p>— Hotărîrea mea este luată !... Resping din tot sufletul propunerile tale.</p>
+ <p>— Vom vedea, ȡise Alecsandru amenințător. Acum te las să te gândeștĭ. Diseară îmĭ veĭ da respunsul tĕŭ.</p>
+ <p>Și Vodă eși cu pașĭ repeȡĭ, lăsând pe Marioara prada suferințeĭ și a disperăreĭ.</p>
+ <p>Biata copilă plânse toată ȡiua ; și când se în-seră, ea încă plângea cu capul rezemat de un jeț, ochiĭ ei eraŭ urmeȡĭ, dar această suferință, această melancolie o făcea și maĭ frumoasă și maĭ încântătoare.</p>
+ <p>Alexandru se apropie de dênsa și luându-o de mijloc îĭ ȡise :</p>
+ <p>— Ce rĕspuns îmĭ daĭ ? o întrebă el.</p>
+ <p>— O ! fugĭ! om fără suflet!... Imĭ eștĭ negru !...</p>
+ <p>De astă dată însă, mișelia acestuĭ om merse până la culme. El o luă în brațe și o tărâ până la o sofa mare, ce se afla în fundul camereĭ.</p>
+<p>— Respunsul tĕŭ, femee nebună, va fi acela pe care 'l voiŭ da eŭ !...</p>
+ <p>O luptă crâncenă se în cinse între slaba femee și vânjosul Domn, care de astă dată nu maĭ ve-dea nimic înaintea ochilor.</p>
+ <p>— Ajutor!.... strigă Marioara în culmea dis-perăreĭ.</p>
+ <p>— In van! zise Alexandru, nimenĭ nu te va auȡi.</p>
+ <p>— Nimenĭ?... Nicĭ chiar Dumneȡeŭ?...</p>
+ <p>— Nicĭ el!... Astăȡĭ sunt singurul tĕŭ stăpân.</p>
+ <p>— Doamne aĭ fost așa de crud pentru mine!... esclamă biata Marioara cu lacrămile uscate pe albiĭ sĕĭ obrajĭ.</p>
+ <p>— El a fost crud, și eŭ voiŭ fi bun!...</p>
+ <p>O ultimă sforțare, făcu Marioara, și forțele-ĭ slăbiră sub brațele viguroase ale neomenosuluĭ Domu. Un ceas după acea tiranu eși de la Marioara cu privirea unuĭ om beat, și cu inima plină de satisfacțiune!...</p>
+ <p>Sermana nenorocită!...</p>
+ <p>— La o femee, singura dificultate este de a căpeta prima eĭ favoare, de aci bucuriile curg ca și apele isvoruluĭ, limpede și neturburată de ni-mic. Ast-fel făcuse acest Domn nesățios, și sĕr-mana victimă suferea în toate ȡilele amărăciunea rușineĭ sale.</p>
+ <p>— Iată-te întreținuta Domnuluĭ, cugeta ea, în momente de durerĭ și deziluziunĭ. Mult maĭ dul-ce ar fi moartea!... Sermanul Corbea, cât mĕ iubea!.... Și cu ce sortă amară 'ĭ se rĕsplătește !... Cu toate astea simț că nu maĭ am mult de trăit! Voiŭ sfârși odată cu el poate ! Dar ce de-cepțiune!... El va muri ca un martir, și eŭ ca o degradată!... O! viață otrăvitoare!... Mister nepătruns, care facĭ din om tot ce este maĭ jos și maĭ murdar! Suflet întinat în rele, care sfĕ-ramĭ cea maĭ dulce simțire numaĭ pentru pasiune infernală și neomenoasă!... Pentru ce am născut pe acest pămênt, când n'am avut a culege de cât spinĭ veninoșĭ din grădina acestei lumĭ înșelă-toare!... Maica mea!... Unde eștĭ tu?... Unde eștĭ, să'ţĭ veȡĭ copilul în abisul cel maĭ înjosit!... Unde eștĭ să-ĭ veȡĭ durerile și cel puțin, tu, să-ĭ ȡicĭ : eu te ert scump copil! te ert căcĭ vina nu este a ta, ci a noastră, a mea și a tatăluĭ tĕŭ, care n'aŭ știut să prețuească adevĕrata fericire!... Dar vaĭ!... Aci sunt singura!... Nu mĕ aude nimenĭ!.. Nu e nimenĭ, care să se înduioșeze la durerile mele!...</p>
+ <p>Așt-fel disperă Marioara în culmea nenorocireĭ, și nimenĭ n'o auȡea, nimenĭ nu venea să'ĭ spue o vorbă de mângăere, o vorbă care s'o facă a uita pentru un moment acea stare înjositoare în care se afla.</p>
+ <p>Trecuseră treĭ lunĭ și ea nu știa nimic de cât aceiașĭ viață obicinuită, nu vedea pe nimenĭ de cât pe mizerabilul eĭ posesor și pe tirîtorul Gruia.</p>
+<p>Corbra, știa el toate acestea?... O! dac'ar fi știut, lanțurile ar fi fost prea slabe pentru dênsul într'o asemenea stare miȡerabilă !...</p>
+ <p>El spera !... Aștepta în toate ȡilele să vie Ma-rioara, ea însă nu se arăta. Era încredințat că dênsa plecase cu mumă-sa în orașul lor, câ să'șĭ adune mica avere ce le rĕmăsese și că se va întoerce în scurt timp. Trecuseră însă treĭ lunĭ, și ea nu maĭ sosea.</p>
+ <p>Pe de altă parte, mama Marioareĭ, o căuta pretutindenĭ, dar în zadar!... Nu'ĭ putea da de urmă. Voea să se ducă la Corbea, în închisoarea luĭ; guarȡiĭ însă aveaŭ poruncă a nu maĭ lăsa pe nimenĭ.</p>
+ <p>Treĭ nenorocițĭ în treĭ părțĭ, și nimenĭ nu era să le dea vre un ajutor, o mână de scăpare, o vorbă de mângâere.</p>
+ <p>Trecuseră treĭ luĭ și toate căutările mumeĭ fură în zadar.</p>
+ <p>Trebuea în cele din urmă să afle de urma eĭ saŭ cel puțin să se încredințeze dacă maĭ trăește saŭ nu.</p>
+ <p>Spre acest scop, ultima eĭ speranță era de a se duce la Gruenĭ la mama luĭ Corbea și acolo să întrebe să afle saŭ de nu să spue nenorociteĭ luĭ mume soarta fiuluĭ eĭ și luând'o cu dânsa să aibă o ființă cu care să împlinească cumplita eĭ durere.</p></div>
+   
+   <div type="chapter" n="9">
+ <head>VIII</head>
+ <p>Să trecem acum la oare care fapte istorice, care ne vor da desnodămêntul acesteĭ grele situațiunĭ ale celor treĭ victime și împreună cu muma luĭ Corbea, patru. — Iată ce ȡice Bolintineanu asupra tronuluĭ luĭ Alecsandru al III, înainte de a fi resturnat:</p>
+ <p>Alecsandru al III căȡuse într'un fel de efemi-nare. El simțise că Mihaiŭ, vĕrul sĕŭ, o să-ĭ ea locul la domnie, o poliți furișă urmărea pe Mihaiŭ în toate părțile și raporta Domnuluĭ toate faptele și vorbele luĭ. In acest timp vistierul Iane scrie luĭ Mihaiŭ să caute să facă legăturĭ cu principele Transilvanieĭ Sigismund Batori, cu care el însușĭ ntrase în vorbă. Tot de o dată scrie și Domnuluĭ țĕreĭ Românieĭ să înceteȡe de a prigoni pe nepotul sĕŭ.</p>
+ <p>Alecsandru al IlI-lea se împăcase cu Mihaiŭ în față-ĭ, dar în ascuns îl iscodea și îl bănuia. Mihaiŭ din parte-ĭ scrie luĭ Batori după ordinul unchi-luĭ sĕŭ, făcênd un tablou dureros de starea țĕreĭ, în care inundaseră Turciĭ, din pricina slăbiciuneĭ luĭ Alecsandru a IIII-lea și pregăti ast-fel pe prinț la ideia uneĭ alianțeĭ între Valachia, Moldova și Transilvania împotriva Turcilor.</p>
+ <p>Nu trecu mult și Domnul începu din nuoŭ a'l prigoni. Mihaiŭ presimțind perderea sa apropiată, se hotărî să treacă în Transilvania. Astă dată proectul sĕŭ isbuti. El trecu în Transilvania și se duse la principele Sigismund Botori. Aci prin mijlocirea luĭ Baltazar Batori, el aruncă cele din-têiŭ temeliĭ ale unui tractat de alianță. Sigis-mund scrise luĭ Sinan Pașa să mijlocească la Poartă a se numi Mihaiŭ, Domn în Valachia. Maĭ scrise și ambasadoruluĭ englez Eduard cerêndu'ĭ int rvenirea sa pentru Mihaiŭ pe lângă Vizirul cel mare. Mihaiŭ șeȡŭ douĕ sĕptămânĭ în Transilvania. In cele din urmă el se hotărî să se ducă la Con-stantinopol. Partisaniĭ sĕĭ voiră să'l însoțească, dar abea putură să se strecoare cu dênsul Stroe Buzescu, Radu comisul lui Alecsandru al III-lea și câți-va alțiĭ.</p>
+ <p>Alecsandru al III-lea luând știre despre acastă fugă început a se teme serios. Scrie îndată la toțĭ Turci pe care îĭ credea protectoriĭ sĕĭ făgăduind sume marĭ de banĭ ca să înlăture dorințele luĭ Mihaiŭ asupra tronuluĭ țĕreĭ.</p>
+ <p>Dar Visterul Iane pregătise maĭ din 'nainte tĕrâmul. El duse douĕ-ȡecĭ miĭ galbenĭ luĭ Sinan Pașa, în numele nepotuluĭ sĕŭ, ca să scape tro-nul țĕreĭ Româneștĭ.</p>
+ <p>— Nu vĕ smintițĭ! ȡicea el amicilor sĕĭ politicĭ, cată să fac aceasta, căcĭ este singurul mij-loc a ajunge la tron, de unde în urmă am să scutur după țară rĕul robieĭ. O să mĕ vedețĭ u-milindu-mĕ înaintea Turcilor, alergând la mar-geoliĭ; rĕmânețĭ însă tarĭ în credința voastră...</p>
+ <p>Mihaiŭ ȡicea acestea și avea încredere în sine că le va face. Negreșit această purtare era în-temeiată pe macsima; scopul iartă mijloacele. Dar daca vom lua în băgare de seamă, că între Românĭ și turcĭ era o luptă de viață saŭ de moarte pentru ceĭ dintêiŭ, și lupta era să semene cu acea ce o are un leŭ cu o lăcustă. Mihaiŭ ca să'șĭ mul-țumească o ambițiune personală, ar fi fost de osândit; ca capul uneĭ națiunĭ ale căreĭ lanțurĭ voește să le sfărame, este ertat și ênsușĭ lăudat: cea ce este o crimă la un om particular, la un om politic, și atât de supus, de multe orĭ este o virtute. De aci Brutus devine o fală pentru Românĭ. Unei stăpânirĭ este de multe orĭ ertat a face o faptă ce unuĭ particular nu i se iartă; căcĭ un stăpânitor, când face, are în vedere fo-losul tutulor și aceasta coprinde ideea mărinimieĭ.</p>
+ <p>Scrisoarea luĭ Batori către ambasadorul englez avu isbândă. Acest ambasador se puse să lucreze în partea lui Mihaiŭ ; Sinan Pașa lucra pe de altă parte ca să înegrească înaintea Porțĭ pe Alec-sandru III-lea.</p>
+ <p>Vizirul hotărî să scoață pe Alecsandru III-lea și să dea Tronul Valahieĭ protejatuluĭ mândreĭ regine Engleȡe Elisabeta. Intr'o ȡi el chemă pe Vistierul Iane și'ĭ dete ordin să spue boerilor să facă actul de plângere împotriva luĭ Alecsandru III-lea cu dorința de a întări Domn pe Mihaiŭ.</p>
+ <p>Atuncĭ marele Vizir subscrise un raport către Sultanul, ce se numește Talnize, cu coprinderea următoare : Alecsandru, Domnul de astăȡĭ al Va-lahieĭ, asuprește foarte pe supușiĭ împărățieĭ tale încât mulțĭ din locuitoriĭ țĕreĭ ca să'sĭ scape onoarea, averea și viața, sunt nevoițĭ să treacă în ţĕrĭ străine, iar alțiĭ vin aicĭ ca să ceară protecție împotriva Domnuluĭ celuĭ rĕŭ, și fiind că aceasta este cu totul împotriva împĕrățieĭ tale și a folosuluĭ țĕreĭ, pentru aceea, de va fi și plă-cerea Impĕrăției Tale, am socotit că este de fo-los să scoață maĭ sus numitul Domn, și în lo-cul luĭ să se pue Mizaiŭ, fiul luĭ Pătrașcu Vodă, pe care îl cunosc că este om drept, credincios și bun.»</p>
+ <p>Pe acest raport Sultanul scrise cu mâna sa: «Mugebinge amiel oluna» adică: «să fie cum scrie maĭ sus.»</p>
+ <p>Indată ce se puse această resoluțiune, Mihaiŭ fuse chemat acasă la marele Viȡir. Mihaiŭ pornește însoțit de aĭ sĕĭ. Acolo Kehaiaoa Viȡiruluĭ îl primi cu bună-voință: îl duse în cabinetul sĕŭ, îl invită să șaȡă, apoĭ îĭ ȡise :</p>
+ <p>Majestatea sa Viȡirul, cunoscênd meritele tale a rugat pe Sultanul ca să te numească Domn peste țara Valahieĭ, așa dar, prin credința ta, ca să te arățĭ harnic de încrederea cea înaltă, ca nu cum-va prin lenevirea saŭ necredința ta să rușineȡĭ înalta persoană a Viȡiruluĭ</p>
+ <p>Corbea, legat cu mânele la spate se sforțează a scăpa de ceĭ doĭ sbirĭ îmbrăcaţĭ turcește. Bĕtrâna Vochița, muma luĭ Corbea stă înspăimântată la uşa întredeschisă.</p>
+ <p>Dupe acest discurs, Kehaea se duse în cabi-netul Viȡiruluĭ şi 'ĭ dete ştire că a venit noul Domn.</p>
+ <p>Viȡirul trimise îndată pe Kehaiaoa ca să in-troducă pe Domn. El îl onvită într'o cameră ve-cină. Aci află înşiraţĭ pe douĕ părţĭ oameniĭ Vi-ȡiruluĭ pênĕ la uşa cabinetuluĭ. Domnul cu aĭ sĕĭ, trecu printre dênşiĭ; îndată ce intră, Viȡirul îl pofti să şadă pe o sofa, şi avênd în dreapta sa pe Kehaiaoa. Mihaiŭ căta să se supue la toate formalităţile prescrise de datine, căta să sărute mâna Viȡiruluĭ, de unde se strase la o distanţă de un pas.</p>
+ <p>Viȡirul îĭ ȡise :</p>
+ <p>— Bine aĭ  venit !... Prea înălţatul, prea drep-tul şi prea mărînimosul Pasişah afând, că Domnul cel de până acum nu s'a arătat vrednic de înalta încredere, a poruncit să fie scos; iar eŭ l'am rugat să te pue pe tine în locul aceluia. Prea puternicul Padişah a ascultat ruga mea şi s'a îndurat să reverse asupra capuluĭ tĕŭ mila sa, Datoria ta este să te araţĭ recunoscĕtor prin-tr'o rară credinţă: pe ceĭ drepţĭ să'ĭ aperĭ, pe ceĭ rĕĭ să nu'ĭ trecĭ cu mânia ta. Să te mulţu-meştĭ în veniturile prescise de legĭ: pe supuşĭ să nu'ĭ asupreştĭ, şi darurile către Poartă să le timeţĭ tot-d'a-una la timp! De veĭ urma ast-fel ne va fi ţie; iar de veĭ face din potrivă, sfâr-şitul tĕŭ va fi amar</p>
+ <p>Mihaiŭ resounse prin dragomanul cel mare, es-lamând recunoştinţa sa pentru împĕrăteasca mă-rimie, şi va face totul să merite încrederea ce are în sine.</p>
+ <p>Atuncĭ Kehaeaoa îĭ aduse caftan, pe carel 'l entă luĭ Mihaiŭ ca să'l sărute. El îl sărută. Pe urmă îl îmbrăcă cu caftanul peste cele l’alte vestminte. Mihaiŭ cată să mai sărute mâna și poala Viziruluĭ și să'l roage să primeasc și pe Visterul Iane noul sĕŭ Capu-kehaie sub apĕra-rea sa.</p>
+ <p>Vizirul ȡise : bine, bine!... și îndată îmbrăcă și pe acesta cu un caftan maĭ ordinar. Mihaiŭ maĭ sărută odată mâna Viziruluĭ, apoĭ se retrase în tăcere cu toțĭ oamenĭ sĕĭ în cabinetul Kehaialeĭ, care purcese înaintea lor. Aceasta îĭ gratulă încă odată, și sclaviĭ aduseră la toțĭ cafele și șerbeturĭ. In acest timp comisul Viziruluĭ, dete ordin să se prepare un cal foarte frumos îmbrăcat, douĕ-ȡecĭ și patru de ceaușĭ, patru ciatirĭ pe-destri și o mulțime de servitorĭ se rânduiră să însoțeacă pe noul domn în cale.</p>
+ <p>Servitoriĭ stropiră pe oaspețĭ cu apă de tran-dafirĭ ; aceasta era semn că trebue să plece. Eĭ eșiră: Mihaiŭ sărută mâna Kehaealeĭ și eșind în-căleca. Maĭ mulțĭ caĭ eraŭ gătițĭ pentru amiciĭ luĭ Mihaiŭ ; înaintea lor mergeau patru Ceaușĭ, pe urma lor Ceaușlar-emini cu ceĭ-alțĭ, după eĭ ve-neau algalariĭ și ieiogatari, și dupe dênșiĭ Mihaiŭ cu boeriĭ. Domnul mergea înconjurat de patru Ciatirĭ, maĭ aproare de dênsul era Capu-Kehaia al sĕŭ, apoĭ boeriĭ.</p>
+ <p>Aceasta suită se îndreaptă spre biserica cea mare a Patriarhieĭ. Orĭ de unde se arăta, ianiceri se puneau în rând, în semn pe onoare. Cetățeniĭ de toat religiunile, se ridicaŭ puneaŭ mâinele pe piept și plecaŭ capul.</p>
+ <p>Mihaiŭ ajungênd la biserică, Turciĭ rĕmareră la poartă afară. Domnul descălică pe o piatră ce se afla la ușa bisericeĭ, atunci ceaușiĭ ȡiseră cu glas tare aceste cuvinte :</p>
+ <p>«Alah să dea Padișahuluĭ nostru și Domnuluĭ viața lungă si fenicită!...»</p>
+ <p>La piatra de la ușe îl îutâmpinară mitropo-lițĭ, arhiereĭ și preoțĭ, iar în ușa bisericeĭ, din 'năuntru îl întâmpină însușĭ Patriarhul bine-cu-vêntêndu'l. De aci merse în strana menită pen-tru Domnĭ, un diacon ceti, Patriarhul intră în altar însoțit de patru mitropolițĭ. Mihaiŭ le urmă în altar, acolo Domnul îngenuchind puse capul pe masă, patriarhul citi o rugăciune, ce se citea înainte la încoronarea înpĕraților și îl unse cu mir. De aci se duse în strana sa în cântecele tutulor, «întru mulțĭ anĭ.»</p>
+ <p>Patriarhul îĭ ținu un cuvênt de laudă, dupe acestea se maĭ repetă cântecul întru mulțĭ anĭ pentru patriahul. De aci patriahul duse pe Mi-haiŭ în mijlocul biserceĭ unde îl întări cu îm-părtășirea bine-cuvêntăreĭ. De aci îl petrecu până la piatra de descălicare unde se săturară amên-doĭ. La poartă îl întâmpinară Ceaușiĭ cu strigărĭ și se duse la locașul sĕŭ tot cu rândueala care venise aicĭ. A doua ȡi priirni visita Patriarhuluĭ și a Ambasadorilor saŭ a dragomanilor lor.</p>
+ <p>Dupe aceasta veni rândul darurilor între Turcĭ, pe urmă ' se trimise semnele de Domnie și un drapel, cu o pompă maĭ mare de cât la numirea Viȡirilor. Până a nu ajunge aceste semne la lo-cașul Domnuluĭ, Mihaiŭ trimise pe Capu-kehaia al sĕŭ și cu boeriĭ, pe caĭ frumoșĭ îmbrăcațĭ, la Murulum-aga, păstrătorul drapelelor unde eraŭ adunațĭ ceaușiĭ Viȡiruluĭ. Acesta îĭ priimi cu mare pompă, în sunetul muzicilor turceștĭ. De aci por-niră prin cetate și merseră cu toțiĭ la locașul Domnuluĭ, unde Domnul îl priimește la scară.</p>
+ <p>Mirulum-aga îl întâmpină cu aceste vorbe:</p>
+ <p>— Dumneȡeŭ să-țĭ dea noroc la aceasta !...</p>
+ <p>Domnul luă steagul, îl sărută și 'l dete stegaruluĭ sĕŭ. De aci invită la sine pe Mirulum- aga căruia 'ĭ dete o blană de samur și bacșișul o-bicinuit.</p>
+ <p>Intr'o ȡi se dete știre Domnuluĭ că Duminică are să fie înfățișat Sultanuluĭ.</p>
+ <p>In acea ȡi se adunară la divan: Vizirul cel mare, Muftiul, ceĭ-alțĭ Muftiĭ, Ianicer-aga, și alțĭ marĭ dregătorĭ. Pricinele înfăcișate se hotărîră maĭ repede în acea ȡi. Dupe aceea se chemă Dom-nul și boeriĭ cărora li se porunci să stea la rând de la ușa Divanuluĭ de afară și până la ușa Di-vanuluĭ din năuntru. Atuncĭ sculându-se Vizirul cel mare de la locul sĕŭ, intră la Sultanul și îĭ spuse că sluga sa, Domnul Valahieĭ, să roagă să i se dea voe a merge în Dómnia luĭ. Dupe acea Muhtar-agasi dete poruncă să se pue pe capul Domnuluĭ o cucă cu pană de struț. Tefter-pașa, îl îmbrăcă cu un caftan de mare preț; pe boeri îi îmbrăcă cu caftane maĭ ordinare. Atuncĭ doĭ capugiĭ apucară pe Domn de supțiorĭ, precum și pe alțĭ patru boerĭ fruntași : capugiĭ silesc pe Domn să plece capul până la pămênt. Intrând, după ce pășește de douĕ erĭ câte treĭ pașĭ, re-mâne stând drept în mijlocul Divanuluĭ. Sultanul se îndreaptă către Vizir și îĭ ȡice să spue Domnuluĭ ceea ce este dator a face.</p>
+ <p>Vizirul ȡise luĭ Mihaiŭ, mai tot aceleașĭ vorbe ce 'ĭ-a ȡis la întâia vedere, la care Domnul res-punse prin termenĭ plinĭ de recunoștință.</p>
+ <p>Atuncĭ capngiĭ scoaseră pe Domn si pe ceĭ patru boerĭ tot dupe modul cu care intraseră.</p>
+ <p>Eĭ coborâră din seraĭ; comisul cel mare dete ordin sa se aducă un cal decorat cu rfat de aur bătut cu pietre prețioase și cu harşe cusută cu aur şi argint, în stânga cu săbiĭ şi în dreapta cu buzdugan. Doĭ deliĭ ţineaŭ calul la poarta curței, pe lângă cal staŭ doĭ alergători cu vest-minte de fir şi cu mânece de argint poleite cu aur.</p>
+ <p>Domnul încălecă şi porni la patriarhie cu cea maĭ mare pompă.</p>
+ <p>Eșind de la Sultanul, Mihaiŭ zise boerilor sĕĭ:</p> <p>— Scump au să'mĭ plătească aceștĭ păgânĭ umilmța ce 'mĭ făcură mie şi ţĕreĭ mele!</p>
+ <p>Dupe douĕ ȡile Mihaiŭ plecăs pre ţară, însoţit de boerĭ şi de Turcĭ ; ceĭ din urmă eraŭ în nu-mĕr de douĕ sute, spahiĭ şi ienicerĭ avênd în capul lor un emir.</p>
+ <p> Intrarea luĭ Mihaiŭ în țară fuse foarte făloasă... um ajunse la hotar, trimese parte de Turcĭ şi de Românĭ sub comanda luĭ Stroe Buzescu, ca să coprinȡă scaunul Domnieĭ în Bucureștĭ.</p>
+ <p>Alecsandru al III-lea cum luă veste despre a-cestea, plecă la Constantinopol, unde prin intri-gile Domnuluĭ Moldavieĭ Ieremia,  muri sugrumat de turci în Duminica Floriilor.</p>
+ <p>Mihaiŭ găsi ţara într'o stare de plâns; tot era de facut. Domniĭ din 'naintea luĭ călcaseră în picioare legile și datinele ţĕreĭ.</p>
+ <p>Starea materială înfăţiţa o privire dureroasă, din toate părțile țĕreĭ se auȡea un lung gemĕt- ce se întoarse către Mihaiŭ cerând ușurare la su, ferințele poporuluĭ. Insă rĕul cel maĭ mare ce apăsa țara era aflarea Turcilor în ţară şi împi-lările lor asupra locuitorilor. Turciĭ călcând ve-chile tractate, se vĕrsaseră în țară și împilările lor asupra locuitorilor. Turciĭ se vĕrsaseră în țară făcêndu-șĭ locașe și geamiĭ; cu vinerea luĭ Mihaiŭ eĭ gândiră că vor afla și maĭ multă părtinire. Ast-fel ceĭ care se aflaŭ în Valachia scriseră cărțĭ la rudele, la amiciĭ și la cunoscuțiĭ lor din Tur-cia să vie să se așeȡe în acest eden pământesc, unde totul resuflă pace și îndestulare. Atunci Turciĭ din toate provinciile Turcieĭ se vĕrsară a-supra ţĕreĭ ca niște rîurĭ ce es din patulul unde provenința le-a constrâns. Afară de acestea Tă-tariĭ şi Turciĭ de la hotare intraŭ din când în când în țară, în număr mare, să prade și sa robească și se înturnaŭ cu mulțime de prăȡĭ şi de robĭ. Poarta Otomană părea ca închide ochiĭ la toate aceste cruȡimĭ.</p>
+ <p>Mihaiŭ scrise de multe orĭ la Poartă, despre năvălirea acestor Turcĭ, cerênd a se respecta tractatele. Nu priimi nicĭ o dată nicĭ un rĕspuns.</p>
+ <p>Acestea făcu pe Mihaiŭ să se înverşuneze în contra Turcilor și a împilărilor, care sugeaŭ munca românuluĭ în țara sa.</p></div>
+   
+   <div type="chapter" n="10">
+ <head>IX</head>
+ <p>Iată cea ce s'a petrecut în tot timpul cât Corbea a stat în închisoase și cat biata Mari-oară devenise victima luĭ Alecsandru III, Domn crud şi neomenos. Când el fugi la Turcĭ în Con-santinopol, uitase să ia din Graba Șt Pe Marioara. Ast-fel ea rĕmase. Toțĭ linguşitoriĭ, toţĭ partizaniĭ luĭ Alexandru se făcuseră nevĕzuțĭ, până și Gruea. Ea rĕmăsese singură. Dar unde era să apuce?... La cine era să se ducă?... Cuĭ trebuea să ceară ajutor?... Nu știa!... locuința retrasă ce-ĭ detese Alecsandru, o sustrăsese de la toate cunoștințele ce putea să aibă asupra lumeĭ.</p>
+ <p>Devenită liberă ea merse la locuința mumeĭ sale, dar cocoana Arhondărescu, nu maĭ locuea în acea casă. Nimenĭ nu știa unde plecase. Sĕr-mana Marioara rĕmăsese ca un fulg în mijlocul valurilor.</p>
+ <p>Și cum? Nu avea ea oare la cine să se ducă ? pe cine să întrebe ? Corbea nu maĭ trăea oare? Da!... Corbea trăea în închisoarea luĭ, în care'şĭ pierduse aproape speranțele, cu toate acestea ea nu maĭ îndrăsnea să se arate privirilor luĭ !... să credea nedemnă de dênsul!... I se părea că vocea aceluĭ Martir o urmează pretudindenĭ, i se părea că 'l aude pronunțând belstemul eĭ!... în sfârșit ea nu maĭ putea să apară înaintea luĭ Corbea când apăruse altuea maĭ înaintea luĭ.</p>
+ <p>Din cercetare în cercetare ea află în sfârșit urma mumeĭ sale și când se încredință că ea este în Gruenĭ, porni spre partea loculuĭ. Acolo ea găsi pe D-na Arhondărescu, care slăbise cumplit din cauza suferințelor. De și ea se hotărâse, după cum știm, să se întoarcă în Capitală împreună cu muma luĭ Corbea, dar oare-care afacerĭ le maĭ îmtârziă.</p>
+ <p>Când sosise Marioara, ambele femeĭ ședeaŭ pe prispa caseĭ, și amêndouĕ îșĭ plângeaŭ copiĭ, vic-time aĭ unor nesocotințe culpabile.</p>
+ <p>La vederea eĭ, jupăneasa Arhondărescu, scoase un țipăt de bucurie amestecat cu groază, cât pe aci să n'o recunoască, așa de mult se schimbase.</p>
+ <p>O cameră a uneĭ mânăstirĭ; în mijloc o masă la care staŭ maicile nebche-tuind. Ele par amețite din care causă dorm în diferite posiţiunĭ. Corbea în costum de călugĕr 'șĭ aruncă peruca întinȡênd brațele spre iubita sa care sin-gură sta în picioare fiind surprinsă.</p>
+ <p>Galbenă și uscată Mariara, cea maĭ frumoasă copilă de prin prejur, devenise bolnăvicioasă și melancolică. Cine ar fi putut acum cunoaște pe acea Marioară încântătoare, cu fața albă rozată, cu ochiĭ marĭ și limpezĭ, în această umbră a eĭ slabă și suferindă, în aceĭ ochĭ turbur înfun-dațĭ.</p>
+ <p>De sigur că Corbea ar fi recunoscut'o! Dar vaĭ! această recunoaștere, 'ĭ-ar fi părut maĭ a-mară decât închisoarea luĭ; de sigur că la prima vedere, i-ar fi strigat: Marioară!... Dar la pri-mele eĭ cuvinte, la prima eĭ pri-vire, ar fi simțit asprimele uneĭ mânĭ hidoase care atinsese fru-moasele eĭ farmece; de sigur că Corbea ar fi iubit'o chiar în această stare. Un amor ca al lor nu să șterge așa de iute, acela ce iubește întâia oară și suferă îndelungat acea iubire, remâne aceiaș toată viața. Corbea 'ĭ-ar fi zis tot iubita luĭ Marioară! Negreșit, ea nu era vinovată. Dar iluziunea?... Ce devenise ea?... Nu perise oare cu primele raȡe ale puritățeĭ? Și Corbea ce ar fi pu-tut face, când aceasta iluziune, acea lume plină de ideale se stinsese ? Ce-ar fi putut ȡice el ?... Nimic!... Decât să sufere, să sufere mereŭ, să vaȡă în tot-d'auna o figură suferindă și mâna în-tinsă a unuĭ seducător infam, să'șĭ apropie inima lângă sînul Marioareĭ și o putere supra-omeneacă să'l respiugă departe. Intr'adevĕr soarta bietuluĭ Corbea ar fi fost tristă și Marioara se gândea adese-orĭ la toate acestea. Câte o dată se maĭ liniștea puțin și în locul aceleĭ tendințe de a fugi de Corbea, năștea un dor nemărginit... i so părea că'l aude vorbind, i se părea c'o ia în brațe, i se părea că-ĭ șoptește de iubire, și din acele visărĭ pline de fericire, din acele desmierdărĭ ale luĭ Corbea închipuit, ea se deștepta, îșĭ amintea locuința lui Alecsandru, îșĭ ascundea fața între mânĭ, și plângea, plângea ceasurĭ întregĭ.</p></div>
+   
+   <div type="chapter" n="11">
+ <head>X</head>
+ <p>Cât despre Corbea el se deprinsese cu închi-soarea și ceea ce'l turbura numaĭ era că de treĭ lunĭ și ce-va nu maĭ vĕzuse pe Marioara. O mie de ideĭ îĭ trecură prin cap și nicĭ una nu putea să'l întărească a crede cutare saŭ cutare întâm-plare asupra bieteĭ Marioare.</p>
+ <p>Intr'o dimineață, temnicerul, un bĕtrân, ros de timp și de suferințele pensionarilor sĕĭ, veni ca de obiceiŭ să'l visiteze.</p>
+ <p>— Bună dimineața, băete, îĭ zise el.</p>
+ <p>— Mulțumim dumitale, îĭ respunse Corbea.</p>
+ <p>— Cum maĭ petrecĭ ?</p>
+ <p>— Ca la pușcărie, scumpul meŭ moșneag.</p>
+ <p>— Eĭ, ce vreĭ?... Așa e lumea. Trebue să ne supunem. Rĕul îșĭ are resplata, ca și fapta bună.</p>
+ <p>— Așa este; dar cum judecațĭ voĭ, rĕul este rĕsplătit prin bine și binele prin rĕŭ!...</p>
+ <p>— Eĭ aș!... Par' că tu aĭ făcut vre-un bine de-aĭ intrat aci.</p>
+ <p>— Am făcut cu toate astea mult bine, și poate pentru aceea sunt aruncat în închisoare.</p>
+ <p>— Și ce bine aĭ făcut, când aĭ ucis pe acel proprietar mare, când aĭ îngropat de viĭ șease oamenĭ și când în cele din urmă te-aĭ resculat cu țăraniĭ ca să rĕstornĭ pe Domn?...</p>
+ <p>— Aĭ dreptate! .. Eŭ am fost aruncat aci fără judecată, și nimenĭ nu 'șĭ poate da seama de faptele mele. Cu toate astea dacă voiŭ scăpa în-tr'o zi toată lumea va ști dacă am făcut bine saŭ rĕŭ.</p>
+ <p>— Ce tot daĭ cu binele ?... Nu spuseșĭ singur că am dreptate, că recunoștĭ crimele tale?...</p>
+ <p>— Toate au fost minciunĭ saŭ maĭ bine, rĕŭ ințelese de oamenĭ. Dacă am omorât pe Ianache grecul, am făcut'o ca să scap alte douĕ viețe nevinovate, pe a mea și pe-a Marioareĭ. Părințiĭ eĭ cunoșteaŭ iubirea noastră și cu toate astea aŭ consimțit a o da aceluĭ grec neomenos, care după ce a supt munca bieților oamenĭ s'a înavuțit și voea ca pe lângă averĭ să le maĭ ea și fetele. Se știe că hotărârea mea nu fusese de a omorâ pe grec, ci de a mĕ omorâ singur, când ênsă 'l am vĕzut silind pe acea copilă, când am auȡit'o țipând și smulgându-se din brațele luĭ nu m'am maĭ putut stăpânĭ, a trebuit să lovesc. Iată dar că prima mea crimă, dupe cum zicĭ, era ertată prin simplul fapt că acel om era maĭ criminal decât mine. Cât despre ceĭ 6 oamenĭ sau sbirĭ aĭ luĭ Chesat <foreign>Efendi</foreign>, eĭ veneaŭ să 'mĭ ră-pească calul, tot ce aveam maĭ scump dupe Ma-rioara, moartea lor era singura mea scăpare. Ș'apoĭ de unde știŭ că aceștĭ oamenĭ, dupe ce 'mĭ-ar fi luat calul nu m'ar fi dus și pe mine la neomenosul lor stăpân? Iată dar că' și în astă crimă sunt ne vinovat !</p>
+ <p>Cât despre rescularea în contra Domnuluĭ, nu este adevĕrat; noĭ veneam să'ĭ cerem dreptate în potriva asupritorilor; iată tot!... Lingușitoriĭ tronuluĭ ne-aŭ părât și Domnul s'a încrezut lor. Din nefericire eŭ am fost părât de căpetenia lor și fără milă am fost aruncat în închisoare. In-țelegĭ dar, bunul meŭ bĕtrên, că nu sunt vino-vat ; înțelegĭ că este o nedreptate acea ce mi se face.</p>
+ <p>— Dacă toate acestea sunt adevĕrate voini-cule, eŭ voĭ avea grije de tine. Știĭ că vechiul Domn, Alecsandru al III-lea, nu maĭ este, el a și murit, în locul luĭ s'a urcat pe tron, vărul sĕŭ Miha .</p>
+ <p>— Să fie cu putință?</p>
+ <p>— Tocmaĭ cum îțĭ spun.</p>
+ <p>— Oh! el îmĭ va da dreptate! El va ști să judece cu nepărtinire... O! Doamne, îțĭ mulțu-mesc, că prin această întâmplare voĭ putea să scap de aci, să vĕȡ pe Marioara, s'o întâlnesc!... O Doamne !.. Fiĭ bine cuvântat !... Dar cine 'l va aduce până la mine? De unde va ști el că în acest locaș mormântal ȡace un nenorocit ?... Cine 'ĭ va spune, că eŭ sunt aci!...</p>
+ <p>Și bietul Corbea se întristă și maĭ mult, încât el care nu plânsese nicĭ odată, simțĭ o lacrimă ferbinte pe obrajiĭ sĕĭ.</p>
+ <p>— Eĭ!... ȡise atuncĭ bĕtrînul temnicer!... Eŭ îĭ voĭ vorbi de tine. Zilele aceste Vodă va veni să viziteze închisorile și să vaȡă nedreptățile care s'aŭ făcut sub domnia predecesoruluĭ sĕŭ. Atuncĭ îĭ voiŭ spune și de tine. Cel puțin, pe lângă atâ-tea blesteme, ce îngreuneaȡă bătrânețele mele, voiŭ avea și o bine- cuvêntare a unuĭ nevinovat.</p>
+ <p>— Oh!... îțĭ mulțumesc!... Faptele tale sunt prea mărimmoase pentru a fi numai bine-cuvên-tate; te voĭ iubi și te voĭ respecta toată viața!... Te voiŭ ajuta cu tot ce voiŭ fi în stare.</p>
+ <p>— Eștĭ prea generos, tinere ; — afla că resplata mea, ori-care ar fi, este prea târȡie; eŭ m'am deprins cu viața mea, așa că chiar tronul ar fi fără nicĭ o valoare pentru mine.</p></div>
+   
+   <div type="chapter" n="12">
+ <head>XI</head>
+ <p>Peste 5 ȡile Mihaiŭ colindă toate închisorile şi toțĭ nevinovațĭ fură ertațĭ. Ajuns aci, bĕtrênul temnicer îl duse și pe la Corbea, care se pros-ternă la picioarele Domnuluĭ, și'ĭ povesti toate fap-tele sale necruțând nicĭ crimele ce sĕvârșise.</p>
+ <p>— Ascultă, tinere, îĭ ȡise Mihaiŭ. Tu aĭ făcut tot ce putea să facă orĭ-ce român cu simțimênt creștinesc. Dacă aĭ omorât nelegiuițĭ, aĭ scăpat țara de câte-va neghine. Fiĭ dar liber, de aȡi înainte ȡise Mihaiŭ temniceruluĭ.</p>
+ <p>Corbea sărută mâna și poalele bunuluĭ Domn, și dupĕ ce acesta plecă, bĕtrênul temnicer îl primi în casa luĭ, apoĭ peste două ceasurĭ Cor-bea eși din acel locaș de durerĭ și de suferințe nemângâiate.</p>
+ <p>Cum se vĕȡu sub cer senin, el alergă la lo-cuința Marioareĭ: dar nu o găsi nicĭ pe dênsa nicĭ pe muma sa. In casa lor se mutaseră alțiĭ. In fine cercetă cu de-amĕnuntul și află ducerea cocoaneĭ Arhondărescu la Gruenĭ. Despre Marioara însă nimenĭ nu știa să'ĭ spue nimic.</p>
+ <p>A doua ȡi de dimineață el porni spre satul săŭ, unde ajunse obosit de drum, dar vesel și bucuros, că va găsi pe Marioara lângă bĕtrêna Vochița împreună cu muma eĭ; căci el nu'șĭ putea închi-puĭ ca Marioara să lipsească de lângă dênsa.</p>
+ <p>Vochița îl primi cu lacremĭ în ochĭ de bucurie și în cincĭ minute nicĭ el nicĭ ea nu putură să scoaţă un cuvênt măcar.</p>
+ <p>In cele din urmă Corbea începu :</p>
+ <p>— Dar bine mamă unde este Marioara și cu maică-sa ?... Ele nicĭ n'o fi știind de venirea mea, trebue să fie prin grădină... alerg să le găsesc.</p>
+ <p>Vochița îl privi cu un aer plin de întristare.</p>
+ <p>— Dar cum ?... Tu tacĭ ?... Nu'mĭ spuĭ nimic ?.. Plecĭ ochiĭ în pămênt?... Să vedem, mamă, Tu'mĭ ascunȡĭ ceva ? .. Atuncĭ m'au mințit aceia care 'mĭ-aŭ spus că ele sunt aicĭ!</p>
+ <p>— Nu te-aŭ mințit de loc, copilul meŭ!...</p>
+ <p>— A! veȡĭ așa!... Unde sunt?...</p>
+ <p>Vochița nu îndrăsnea să-ĭ spue nimic...</p>
+ <p>— Dar pentru Dumneȡeŭ, vorbește odată, ce va să ȡĭcă asta?... Mĕ duc să le caut...</p>
+ <p>— In zadar !...</p>
+ <p>— In zadar !... Oh !... Iar vre-o nenorocire !...</p>
+ <p>— Da, copilul meŭ ele sunt departe de lumea în care trăim... astă-ȡĭ sunt fiice curate ale luĭ Dumneȡeŭ !...</p>
+ <p>— Nu te înțeleg!...</p>
+ <p>— S'aŭ călugărit !...</p>
+ <p>— Asta-ĭ tot?... Nenorocirea nu este atât de mare pe cât o creȡĭ. Când cine-va se călugărește se poate lesne și descălugări.</p>
+ <p>— Sermane !... cugetă în sine Vochița, dac'aĭ vedea pe iubita ta Marioară și aĭ recunoaște-o întinată !...</p>
+ <p>Apoĭ cu un glas plin de întristare ȡise fiuluĭ sĕŭ :</p>
+ <p>— Da, Corbeo, se pot descălugări... aĭ drep-tate !...</p>
+ <p>— Și la care mănăstire se găsesc acum ?...</p>
+ <p>— La Negreștĭ!...</p>
+ <p>— Bine, mamă, de aȡĭ încolo vom fi fericițĭ!... Nimic nu ne va maĭ despărți. Avem un Domn bun și iubitor de poporul sĕŭ... el 'mĭ-a dat li-bertatea... și tot el a înfierat asupririle veneti-cilor. Voĭ pleca la Negreștĭ să văz pe Marioara și s'o desbrac de hainele călugărieĭ !...</p>
+ <p>— Bine să-țĭ dea Dumneȡeŭ !... ȡise Vochița.</p>
+ <p>A doua ȡĭ, prea de dimineață, Gorbea 'șĭ luă drumul spre mănăstirea Negreștĭ.</p></div>
+   
+   <div type="chapter" n="13">
+ <head>XII</head>
+ <p>Marioara și cu muma sa, luaseră calea călu-gărieĭ ; căcĭ acesta era singurul azil ce le maĭ rĕmânea. Intr'adevĕr, ce maĭ aveaŭ ele de făcut în lumea profană, când viața nu era decât o po-vară. Ambele femeĭ se creȡură împovĕrate de pă-catele strămoșilor lor și monastirea o socotiră ca cel maĭ bun locaș de pocăire.</p>
+ <p>Maica starița le primi cu multă bunătate, și îngrijirile ce le da, eraŭ maĭ deosebite de cât a celor alte pocăite, maĭ mult âncă ea le iubea căcĭ bietele femeĭ se arătară așa de supuse și așa de bune, că atraseră simpatia bĕtrêneĭ su-perioare.</p>
+ <p>Dimineața ele se duceaŭ în biserica mănăsti-reĭ și în cele maĭ pioase rugăciunĭ se prosternaŭ din 'naintea altaruluĭ Maiceĭ Domnuluĭ, și împreună plângeaŭ cu șiroae de lacrămĭ. Seara, la vecernie, făceaŭ acelaș lucru, așa încât dupe câte-va sĕptĕmânĭ ele se creȡură aproape iertate, și când începură a se maĭ deprinde cu viața mo-nastireasacă, veselia reapăru pe fețele lor, cu a-cea culoare cucernică care desparte pe mirenĭ de locuitoriĭ mănăstirelor.</p>
+ <p>Câte o dată Marioara se gândea la Corbea și foarte des, la rugăciune maĭ cu seamă, ea plân-gea amorul eĭ perdut, iar nu păcatele ce ar fi săvêșit. Ea era așa de pură, așa de nevinovată în adâncul sufletuluĭ eĭ, în cât negrul păcat nu putea să o maculeze. Lumea o târâse în abisul în care se găsea, lumea o nenorocise, lumea prin urmare era vinovată și plină de păcate.</p>
+ <p>Une orĭ, când se plimba prin pădure, cu surorile monastirieĭ, ea se oprea la triunghiul vre-unuĭ copac, și rĕmâind singură, se gândea ceasurĭ întregĭ la toată viața eĭ trecută, la tot ce avusese maĭ scump, la Corbea!...</p>
+ <p>Intr'o ȡĭ, una din surorĭ, o întrebă:</p>
+ <p>Ce aĭ, sora mea, astăȡĭ eștĭ maĭ tristă ca în tot-d'a-una.</p>
+ <p>Marioara se uită cu durere la dênsa, fără a'ĭ spune nicĭ un cuvênt.</p>
+ <p>— Ș'apoĭ, urmă sora, tu eștĭ mult maĭ feri-cită ca noĭ, ca mine maĭ cu deosebire, aĭ o mumă lângă tine, care te iubește, aĭ tot ce nu avem noĭ, aĭ favoarea și iubirea superioereĭ noastre. Să vedem... ce gândurĭ te turbură așa de mult?</p>
+ <p>— Chiar de le-aĭ cunoaște, soră Olimpio, cu ce poțĭ a mĕ ajuta.</p>
+ <p>— Așa e. Sunt prea mică și fără putere, în față cu tine, dar din dȡiua în care aĭ venit, mi-aĭ părut așa de bună, așa de compătimitoare la su-ferințele altora, că nu m'am putut opri, a nu prinde oare-care iubire pentru tine.</p>
+ <p>— Cât eștĭ de bună!...</p>
+ <p>— Ș'apoĭ 'țĭ-aducĭ aminte: într'o zi eram bol-navă; nimenĭ n'a venit să mĕ vază... tu însă, aĭ stat lângă patul meĕ douăĕ nopțĭ întregĭ, m'aĭ îngrijit ca pe sora ta. . 'mĭ-aĭ dat doctoriile ce aduseseșĭ când aĭ venit din oraș; și când m'am sculat n'am avut să bine-cuvintez de cât pe tine și pe Dumneȡeŭ.</p>
+ <p>— Nu 'mĭ-am făcut de cât datoria, scumpă soro. Inima mea era prea împovărată de rele și trebuia s'o ușurez făcênd bine.</p>
+ <p>— De rele, zicĭ ?... Dar nu poate fi adevĕrat! Să fi făcut vre-o dată vre-un rĕŭ cuiva?... Aĭ un suflet prea nobil, pentru a putea săvârși fapte condamnabile.</p>
+ <p>— Dacă am păcătuit eŭ, saŭ aceia carĭ m'aŭ înconjurat este acelaș lucru. Părințiĭ mei aŭ fost vinovațĭ și eŭ trebue să sufer ca și denșiĭ bles-temele ceruluĭ; suntem din acelaș sânge; — și păcatele urmează de la părințĭ la copiĭ.</p>
+ <p>— Nu... Te înșelĭ !... Se întâmplă cu totul alt-fel ; părințiĭ pot să fie oameniĭ ceĭ maĭ mișeĭ, cu toate astea copiĭ lor devin oamenĭ bunĭ și oneștĭ, saŭ din potrivă, părințiĭ pot să fie oameniĭ ceĭ maĭ probĭ, iar copiĭ lor să devie mișeĭ și nedemnĭ de numele lor. Eŭ, sora mea, fac parte din aceștĭ din urmă; părințiĭ meĭ aŭ fost bunĭ, iubitorĭ, oneștĭ, 'mĭ-au arătat calea ce trebuea să urmez; eu n'am voit să-ĭ ascult și astăȡĭ, după o viață degradată și plină de rușine, iată-mĕ la mănăs-tire. Oh ! tu nu eștĭ ca mine... nenorocirea ta este cu totul alta... spunemĭ-o, scumpă soră, greșalele mele sunt așa de marĭ, că ascultând nenorocirile adevĕrate ale altora, mĕ mângâiŭ și 'mĭ ȡic : «dacă ceĭ nevinovațĭ suferă, apoĭ eu care am păcătuit îmĭ merit pedeapsa.»</p>
+ <p>— Și ce aĭ putut greși așa de mult?...</p>
+ <p>— Născută în belșug și răsfățată de părințiĭ meĭ, 'mĭ-am trecut copilăria fără să știu cum. Nu mĕ gândeam de cât la nebuniĭ și lucrurĭ care ruinează educațiunea unuĭ copil. Părințiĭ meĭ, fie-le țĕrâna ușoară, 'șĭ puneaŭ toate silințele a 'mĭ arăta binele și rĕul, a mă face să cunosc diferinta între unul şi altul... Cu toate acestea, germenele rĕuluĭ să infiltrase în mine. Dojeana și pedeapsa nu fură în stare să mĕ îndreptede. Sărmaniĭ meĭ părințĭ cât sufereaŭ, eŭ râdeam de dênșiĭ, când îmĭ vorbeaŭ de viitor, de-o viață liniștită și onestă; mie 'mĭ plăcea sgomotul, ne-buniile svânturate — copilăreștĭ se înțelege, — și când mĕ făcuiŭ mare era prea târȡiŭ să'mĭ viŭ în fire. Biețiĭ meĭ părințĭ... voiră să mĕ mărite, îmĭ găsiră un om cum să cade, potrivit cu ran-gul meŭ; dar eu visam glorie și avere, un nume stărlucit, un om din cea maĭ 'naltă societate și când unul din aceĭ seducătorĭ care 'șĭ prefac simțimêntul într'o iubire înșelătoare, apărŭ în calea mea, eŭ mĕ încreȡuiŭ într'ênsul și lăsând rușinea familieĭ mele am plecat după acelŭ om, fără să-ĭ cunosc planurile, fără să știe părințiĭ meĭ... Nenorocițiĭ!.. Negreșit, că acel seducător nu putea să mĕ ia de soție legitimă. Euŭ, dintr'o treaptă de oamenĭ de mijloc, el dintr'un neam mare și avut peste măsură, se mulțumĭ cu frumu-sețea și tinerețea mea, și atâta tot. După ce 'șĭ îndeplinĭ ambițiunea timpurie, mĕ lăsă pe-o cale nesigură, fără nume, fără sprijin, neavênd alt ajutor decât durerea, neavênd altă mângâere de cât sgomotul surd al degradăreĭ care mĕ înconjura. La delăsarea mea, îmĭ dete o mică sumă de banĭ, cu care 'mĭ tîrîiŭ egzistența pentru cât-va timp; — dar miseria bătu la ușa mea și ni-menĭ nu voia să mĕ asculte. Nu mĕ puteam duce la părințiĭ meĭ, căci le-așĭ fi făcut o rană și maĭ mortală... In cotro era să apuc, cuĭ era să cer ajutor?... iată ceea ce mĕ întrebam, și la glasul meu respundea numaĭ rușinea... Suferiĭ, mĕ sbu-ciumaĭ în brațele neavereĭ, dar în cele din urmă a trebuit să caz și maĭ jos... Din victima unuĭ singur om, devenisem victima societățeĭ. Această mamă vitregă, rînjea la torturele mele, și într'o ȡĭ când mĕ priviĭ singură, mĕ văȡuĭ așa de jos, încât trebuiam să prefer a murĭ pe stradĕ saŭ să'mĭ închid viața într'o monastire. Și iată-mĕ !... Neagră ca păcatul, astă-ȡĭ sunt maĭ liniștită, o ! fericită pot ȡice ; căcĭ acest locaș tăcut este mult maĭ de preferat decât urgiile lumeĭ înjosite. Veȡĭ dar că sunt vinovată, și că pocăința mea, este dreaptă; dar tu ?... te 'ntreb, aĭ putut săvârși vre-o dată asemenea fapte? Nu !... Fața ta 'ĭm-o spune îndestul!... Inima ta 'mĭ-o dovedește !...</p>
+ <p>— Aĭ dreptate !... Suferința 'țĭ este legitimă!... Dar eŭ pot oare sa nu sufer: când nu sunt eŭ victima cea adevĕrată; ci un suflet nobil, drept și iubitor, ca cel d'întêiŭ ȡîmbet de iubire?...</p>
+ <p>— Nu te înțeleg sora mea !...</p>
+ <p>— Eŭ, am iubit o singură dată, un singur om. Acest om din causa mea și a părinților meĭ asdăȡĭ zace în închisoare. Acest om și-a sacrificat viața pentru iubirea mea, și când am voit să 'l scap cerênd grația unui suveran puternic, acesta în loc să 'mĭ dea mână de ajutor, m'a trans-format în victima neomenoaseĭ luĭ dorințĭ. Ruși-nată și nedemnă de acea victimă, am fugit, m'am ascuns, dar remușcarea mĕ urma pretutindenĭ. Nu era vina mea; dar un ce straniŭ 'mĭ sfâșia peptul, și trebuea să mĕ ascunz intr’o întune-recime maĭ adâncă; mănăstirea 'mĭ-a părut în-destul de potrivită, ca să 'mĭ ascunz nenoroci-rea și iubirea mea dezluizionată.</p>
+ <p>— Şi acea victimă, acel om care te-a iubit atât de mult, trăește și astă-ȡĭ.</p>
+ <p>— Cine știe ! Nu 'l-am vĕȡut, din ȡiua răpireĭ mele; căcĭ mizerabilul care m'a înfierat cu sigi-liul rușineĭ, m'a închis, departe de lume, și ne vĕzută de cât de dênsul!...</p>
+ <p>Din acea zi ambele nenorocite se iubiră ca douĕ surorĭ adevĕrate, plângeaŭ împreună, se ru-gaŭ împreună ; iar momentele de bucuriĭ palide și fugitive tot împreună le petreceaŭ.</p>
+ <p>Muma Marioareĭ nu vrea să maĭ știe de ni-menĭ; remușcarea 'ĭ era așa de cumplită, că de dimineață și până seara trăea în cugetărĭ pro-funde, în suferințe continue;</p>
+<p>Intr'o Duminecă toate maicele intraŭ în bise-rică cu obicinuita lor pocăință și după ce se a-șezară în stranele lor, slujba începu.</p>
+ <p>In ajunul zileĭ, un bĕtrîn pusnic ceruse ospitalitate monastireĭ și 'ĭ se dete de evlavioasa stariță, care porunci să facă prea sfântuluĭ toate onorurile cuvenite.</p>
+ <p>La slujbă, maica stariță îĭ oferi locul duhovniculuĭ monastireĭ, care lipsea de câte-va zile. Bĕtrînul călugăr citi tatăl nostru și creȡul, cu multă sfințenie, și toate maicile imitându'l făcea nenumărate mătăniĭ. După terminarea afinteĭ le-turghiĭ, el citi cazania, şi toate pocăitele se mi-rară de o voce aşa de dulce şi de marele talent ce avea pustinul de a citi.</p>
+ <p>Marioara însă, rĕmăsese rece şi înmărmurită lângă strana sa. Vocea acestuĭ pustin semăna întocmaĭ cu aceea luĭ Corbea.</p>
+ <p>In cele din urmă, toate maicile împreună cu maica stariţa se întreptată spre uşă; numaĭ Ma-rioara ca o statue îşĭ aţintise privirile asupra loculuĭ unde cplugărul citise cazania, fără a băga de seamă că biserica era aproape goală. </p>
+ <p>Sora Olimpia însă, care vĕȡu turburarea Ma-rioareĭ fără a ghici şi cauza, 'ĭ aduse aminte că slijba s'a terminat şi că trebue să iasă; atuncĭ biata copilă tresărind ca dintr'un somn adânc, ce îndreptă cu paşĭ şovăiȡĭ în umra că-lugăriţelor care eşeaŭ... In curte ea băgă de seamă că acel pusnic se uitase maĭ de multe orĭ lung la dênsa, şi nu ştia ce să creaȡă despre acel sfânt, care-ĭ reprezintă în tocmaĭ pe Corbea al eĭ. Cât depre mama Marioareĭ, ea fiind cam bolnavă în acea ȡi nu venise la biserică. </p>
+ <p>După aceea tot corpul călugăresc, merse la stă-riţie, unde se întinse obştească masă. Călugĕrul sta în capul meseĭ;— iar alăturĭ cu el maica stariţa. Marioara ca prin instinct, urmase şi ea pe camaradele eĭ, fără a'şĭ aminti că muma sa suferea în singuratica eĭ chilie. Se aşeȡă la masă ca toate cele-l'akte, şi nu făcu în tot timpul de cât să se uite şi să studieze toate mişcările străinuluĭ pustnic. </p>
+ <p>— Corbea!... este Corbea!... cugetă ea! şi de-veni galbenă ca ceara.</p>
+ <p>Călugărul observând această paliditate a Marioareĭ, se stăpâni de a maĭ face semnele de maĭ nainte, care 'l trădaŭ cu desevârșire; căcĭ într'adevĕr, sub acea rasă, sub barba și peruca sură era chipul frumos și robust a luĭ Corbea.</p>
+ <p>Corbea avusese grije maĭ înainte de a veni la biserică tă toarne în vinul pregătit pentru masă o licoare dintr'o sticluță: ast-fel că această bĕŭ-tură ameți pe toate călugărițele așa de nesimțit în cât la cel din urmă pahar, ele dormiră alăturea cu masa Marioara bĕuse și ea la început un singur pahar, dar privirile eĭ fiind ațintite spre misteriosul pustnic, îl văȡu cum îșĭ vărsa paharele sub masă, fără se le bea. Atuncĭ ea nu se maĭ îndoi, că este chiar Corbea, și refuză de a maĭ bea vin, ȡicênd că o doare capul.</p>
+ <p>Când prea sfintele măicuțe pornise pe aripele unuĭ dulce somn. călugărul se sculă repede de unde sta și luând de mână po Marioara îĭ ȡise :</p>
+ <p>— Vino! să fugim de aci!... și în acelașĭ moment îșĭ aruncă rasa, peruca și barba, și i se înfățĭșă în adevărata luĭ închipuire.</p>
+ <p>Marioara, vĕȡênd toate acestea, scoase un țipăt de bucurie și se aruncă de gâtul iubituluĭ eĭ.</p>
+ <p>— Aidem! să plecăm iubita mea!... Nimic nu te maĭ ține aci!... Eu sunt scăpat!... Vom fi fericițĭ. Nu aĭ nicĭ o teamă; puteam să te iaŭ și într'un mod maĭ legitim ; dar 'mĭ trebuea multă bătae de cap, pe când așa... o! vino! să plecăm ; la marginea pudureĭ ne așteăptă o căruță cu caĭ fulgerătorĭ...</p>
+ <p>Marioara nsă tremura din toate membrele și 'șĭ ascundea fața între mâinĭ.</p>
+ <p>—Ce fel ? Plângĭ Marioară ?... Venirea mea 'țĭ face dar rĕŭ?... Vezĭ scumpa mea!... sunt tot eŭ !... Corbea.!... Lumea, este mare !... Fericirea ne surîde !... ne vom iubi de aci înainte în liber-tate... nu maĭ avem dușmanĭ!... Cum ?... 'Țĭ întorcĭ privirea... Atuncĭ — sunt nedemn de tine ?...</p>
+ <p>— Nu!... Eu sunt nedemnă de tine, isbncni Marioara, cu o voce sfâșiată și înnecată de la-crămĭ...</p>
+ <p>— Ce-aĭ făcut, ?... Spune'mĭ maĭ repede ! Dar vorbește .. timpul trece !...</p>
+ <p>— Pleacă Corbeo... te iubesc !... dar pleacă ! ceea ce ar făcut aci te poate compromite iar... lasă-mĕ să'mĭ espiez greșala!... sunt vinovată Dar pleacă pentru Dumneȡeŭ, te pot găsi servĭ-toriĭ mănastireĭ în această stare... şi descoperind purtarea ta... o ! Albĭ milă de mine !...</p>
+ <p>— Nu ! nu voiŭ pleca fără tine !</p> 
+ <p>— Dar maica mea! Cum o s'o las las pe maica mea !</p>
+ <p>— Ea ne va găsi maĭ târȡiŭ !...</p>
+ <p>— Dar ea nu va ști cu cine am fugit! Va muri de rușine.</p>
+<p>— Dar înțelege-mĕ că n'avem vreme de pier-dut...aide... să plecăm !....</p>
+ <p>— Nu pot!... Nu pot!...</p>
+ <p>Și Marioara amintindu-șĭ din noŭ că este cul-pabilă în fața luĭ Corbea... începu să plângă în cele mai sfâșietoare durerĭ.</p>
+ <p>In culmea nerăbdăreĭ sale, el voĭ s'o târască după sine! dar era prea târȡiŭ... una din călu-gărițele care nu băuse mult, și era prea puțin leșinată, se deșteptă și vĕȡênd pe toate cele-alte în starea în care se aflaŭ, iar pe Corbea în sfor-țările de a răpi pe Marioara, începu să țipe cât îĭ lua gura.</p>
+ <p>— Ajutor!... Ajutor!...</p>
+ <p>Corbea se repeȡi asupra eĭ și voĭ să-ĭ astupe gura ; dar în acelaș moment apărură pazniciĭ monastireĭ împreună cu servitoriĭ starițeĭ și luând pe Corbea drept un bandit, îl prinseră fără ca el să se lupte împotriva lor.</p>
+ <p>— Lăsați-mĕ, le ȡise el, eŭ nu sunt acela ce credețĭ; sunt logodnicul Marioareĭ și am venit s'o iau de la monastire,</p>
+ <p>— Nu ! Tu nu poţĭ fi un om de isprava, strigă călugăriţa; pentru ce te-aĭ îmbrăcat în aceste haine de pusnic? și pentru ce aĭ amețit pe aceste nenorocite ? căcĭ trebue să fi aruncat ce-va în vin, negreșit !... alt-fel n'ar zace toate în starea asta...</p>
+ <p>— Ne vom lămurĭ maĭ târȡiŭ, de-o cam-data lăsaţi-mĕ liber. . vedeți, eŭ nu m'am împotrivit câtușĭ de puțin.,. Dac'așĭ fi fost un om rĕŭ m'aș fi luptat cu voĭ... dar n'am voit, ca sa vĕ do-vedesc că nu am avut planurĭ urîte.</p>
+ <p>Oameniĭ monastireĭ îșĭ deteră toate silințele a deștepta pe amorțitele călugărițe, dându-le să respire oțet de trandafir, și alte mirodeniĭ. Bie-tele maicĭ, una câte una, începură să facă ochĭ și când se deșteptară rămaseră uimite e cea ce vĕȡură.</p>
+ <p>Stariţa indignată până la suflet de această purtare a luĭ Corbea, voĭ să'l dea pa mâna drep-tățiĭ ; dar la stăruințele multora din maicĭ, și maĭ cu seamă la mărturisirile sincure ale înamoratu-luĭ tînăr, priimi să treacă sub tăcerea batjocura ce le făcuse. Iar cât despre Marioara, ea nu voĭ să'ĭ dƏa permisiuaea de a pleca din monastire, decât până ce nu va consimți de buna voea eĭ,</p>
+ <p>Muma Marioareĭ fu înștințată numaĭ decât de aceasta îmtâplare și se mâhni foarte mult de făptul petrecut. Cu toate acestea ea spuse fiiceĭ sale ca poate sa plece din monastire, dar că dânsa nu-ĭ poate urma, fiind bĕtrână şi dorind a'sĭ es-pia păcatele în tot timpue de viată ce'ĭ maĭ rĕ-mâne...</p>
+ <p>Marioara se lupta cu sine şi se gândea cum să se hotărască. Să lase pe mama sa în monastire și să se ducă după Corbea, saŭ să rămâe aci re-nunțând la amorul eĭ și la cea maĭ scupă ființă ce avusese pe pămênt. Intre toate acestea îĭ apărea umbra luĭ Alecsandu Vodă, care 'ĭ amintea rușinea și degradarea, și când îșĭ închipuia că toate acestea trebue să fie într'o zi cunoscute de Corbea, nu mdrăsnea nicĭ să'șĭ ridice privi-rile asupra luĭ, dar să maĭ plece cu dênsul! In cele din urmă, ea se hotărî să descopere iubitu-luĭ săŭ cs este nedemnă de dênsul, să’i spue în fine că nu maĭ poate fi a luĭ, de oare-ce fusese a altuia. Pentru aceasta ea ceru camaradelor sale să o lase singură cu Corbea. Şi când acestea eşiră, ea căȡu în genunchĭ dinaintea luĭ, şi cu lăcrămile în ochĭ îĭ ȡise :</p>
+ <p>— Corbeo! Ear o ȡi cănd nu mĕ gândeam decât la fericirea de a mĕ putea numi femeea ta ; era o ȡi în care totul îmĭ apărea în tine, o zi în care eram mândră de a'ți da tot ce aveam maĭ sacru. Astăȡĭ ênsă acea fericire a dispărut... inima 'mĭ-e sleita, nu de amorul tĕŭ!... Nu !... Acum te iubesc maĭ mult de cât tot-d'auna dar pentru ca înainte puteam să'țĭ daŭ inima mea cuiata și demnă de tine ; pe când acum ea este neagra și necurată ca și păcatul.</p>
+ <p>— Ce zicĭ tu, nenorocito?</p>
+ <p>— Da! zic, că înainte de a fi a ta, am fost silită, fără voea mea, sa fiŭ a altuia!...</p>
+ <p>— Dar aiurezĭ, sĕrmană? Vorbele tale 'mĭ în ghiţă sufletul!...</p>
+ <p>— Când te am vĕȡut închis, și când n'am maĭ găsit mijlocul de scăpare, am alergat la Domn, 'ĭ-am cerut grația ta... Dar el, m'a răpit... m'a dus departe... și adormindu-mĕ cu o licoare..</p>
+ <p>—Oh ! putu să strige Gorbea, și căzu, cu ochĭ rătăcițĭ pe unul din scaunele de lemn, ce se afla lânsgă dânsul. . ..</p>
+ <p>Peste un moment el se redeșteptă și viind lângă Marioara o ridică de jos, și luandu'ĭ mâi-nile îĭ zise :</p>
+ <p>— Adevărate sunt acele ce'mĭ spuĭ ?</p>
+ <p>— Da!...</p>
+ <p>— Şi tu ești vinovată?...</p>
+ <p>— Judecă!...</p>
+ <p>— Să judec !... Dar ce drept am să judec ?..... Chiar dac'aĭ fi vinovată... chiar dac'aĭ fi consimțit la această desonoare, ce puteaĭ să faci alt-fel?... Ţi-am stricat viitorul ucigând pe destinatul tĕŭ soț, te-am târât în umilință și apoi în ruşine, în degradare!... Da !... Eŭ-te am târât căcĭ dacă nu eram eŭ, tu puteaĭ fi fericită. Şi te maĭ în-treb acuma dacă eștĭ vinovată ?... Nu Marioară, tu nu ești vinovată... eștĭ murtiră... aĭ suferit poate libertate, atât, cât n'am suferit eŭ închisoare... şi aĭ făcut toate acestea pentru mine, numaĭ pentru mine!... O!.... nu eşti vinovată Marioară!... Și chiar dăcă te crezĭ vinovată, eŭ te ert! te ert, pentru că te iubesc....</p>
+ <p>— Cât eștĭ de bun!...</p>
+ <p>— Ah!... Să uităm toate acestea, să acoperim tot acel timp cu ghirlande de fericire, să ne scu-turăm de suferințe si să reîntinerin frumoasele ceasurĭ de iubire, când tu te îndoiaĭ de amorul meŭ, și când eŭ îțĭ răspundeam printr'un sĕru-tat călduros. Vezĭ tu, Marioară, acum maĭ îndoeștĭ de iubire mea...  'ţĭ-am dovedit'o îndestul!</p>
+ <p>— Ițĭ mulțumesc!... Da! Mi-aĭ dovedit'o! Şi încă atât de mult, că așĭ fi ingrată dacă nu te-aşĭ asculta. Mĕ veĭ iubi însă ca şi maĭ înainte ?</p>
+ <p>— De o mie de orĭ maĭ mult!..</p>
+ <p>— Nenorocită ce sunt !... Maĭ am, încă pre-tenţiunĭ !...</p>
+ <p>— Tu aĭ drept la toate, scumpa mea, la viaţa mea chiar !...</p>
+ <p>— Ițĭ mulțumesc !...</p>
+ <p>— Să plecăm dar de aci.</p>
+ <p>— Acum, când sunt iertată de tine pot să plec, nimic nu mĕ maĭ poate reţine</p>
+ <p>— Afară de mine, rĕspunse de-o dată o voce solemnă.</p>
+ <p>Şi în pragul uşeĭ apăru un om îmbrăcat în negru, ce avea aceeaşi înfăţoşare ca a unuĭ pro-curor general din zilele noastre. Acest om, saŭ maĭ bine acest preot al justiţieĭ, era urmat de câţĭ-va seimenĭ.</p>
+ <p>— Cine eşti tu care cutezĭ să te arăţĭ de stă-pânitor al voinţeĭ noastre! răcni Corbea plin de mânie...</p>
+ <p>— Drept orĭ-ce rĕspuns, omul ămbrăcat în ne gru rosti cu vocea-ĭ solemnă, următoarele:</p>
+ <p>— In numele dreptăţeĭ şi al Domnuluĭ nostru Mihaĭ, te arestez! </p>
+ <p>Apoĭ îndreptându-se către seimenĭ:</p>
+ <p>— Luaţĭ-l! ȡise el. Tu copilă svênturată nu veĭ eși din mănăstire până ce acest om nu va fi judecat.</p>
+ <p>— Orĭ-cine-ĭ fi, răspunse Corbea, mi-aĭ rostit un singur nume, acela al Domnuluĭ nostru Mi-haĭ. Eĭ bine!... In numele âcestuia, mĕ predaŭ Dar eŭ n'am făptuit nicĭ o crimă, și el va ju-deca drept pe supușiĭ sĕĭ.</p>
+ <p>— Judecata o facem noĭ; Domnul întăreşte saŭ nu hotărîrile noastre. Dar aci nu e timp de vorbă multă!... Luațĭ-l și plecațĭ!... sfâiși a ȡice magistratul seimenilor sĕĭ.</p>
+ <p>Marioara scoase un țipăt sfâșietor și căȡu în brațele soreĭ Olimpia, care intrase cu mare parte din maicĭ la venirea magistratuluĭ.</p>
+ <p>Să vedem care a fost causa arestareĭ luĭ Cor-bea. Cunoaștem mijlocul ce înrebuinţase el spre a putea lua pe Marioara maĭ uşor din mânăstire. Știm asemenea ca stanța iertase purtarea luĭ, aceasta era ânse numaĭ o prefăcătorie, pentru că se temea de Corbea. Aflând ânsâ că oamenii jus-tiţieĭ află în anchetă într'un sat din poalele pădureĭ, trimise imediat să'ĭ cheme în ajutor. Pe când cirbea vorbea cu Marioara în năuntru, sta-riţa povesti judecătoruluĭ cele întâmplate, și a-cesta îșĭ făcu datoria.</p> </div>
+   
+   <div type="chapter" n="14">
+ <head>XIII</head>
+ <p>Cinci ȡile în urmă, Marioara zăcea bolnavă în patul chilieĭ sale, vegheată de bĕtrâna eĭ mama și de Olimpia, care nu se deslipise un singur mo-ment de prietena sa.</p>
+ <p>— Cum îțĭ maĭ este, ȡise ea Marioareĭ când aceasta se deșteptă dintr'o adâncă cugetare.</p>
+ <p>— Azĭ sunt maĭ liniştită, sora mea, — mintea 'mĭ este maĭ puțin abătută. Cât estĭ de bună;  Cerul te-a trimes ca să-mĭ alinĭ durerile. ’</p>
+ <p>— Imĭ plălesc datoriile pe cât pot.</p>
+ <p>— N'aĭ maĭ auȡit nimic de la închiderea luĭ Corbea?</p>
+ <p>— Pênĕ acum, nimic. Am trimes ênsă de ierĭ pe bĕrênul Vintilă la Gruenĭ şi de acolo la Bu-curescĭ să afle noutățĭ; el trebuie să vie astă seară.</p>
+ <p>— Să nu 'mĭ ascunȡĭ nimic din cele ce'ţĭ va spune. Veȡĭ, acum sunt destul de bine, pentru a primi, orĭ-ce lovitură cu curagiŭ.</p>
+ <p>— Fiĭ încedinţată, nu-ţi voiŭ ascunde nimic.</p>
+ <p>Către seară sosi bĕtrênul Vintilă și Olimpia îĭ eşĭ în cale.</p>
+ <p>— Ce aĭ să ne spuĭ tată Vintilă, îl întrebă ea.</p>
+ <p>— Ceea ce am aflat, nu e tocmaĭ ce trebuia să ştim. Corbea este închis în temniţă până se va judeca.</p>
+ <p>— Dar despre judecată ce se vorbește?</p>
+ <p>— Se ȡice, că, dupĕ cercetările ce s'aŭ făcut vina nu este tocmaĭ aşa de mare şi că scăparea luĭ este sigură aproape; dar aflându-se că Corbea a fost închis în maĭ multe rândurĭ şi graţiat de Domn prin făgăduinţaa de a nu maĭ face alte neorânduelĭ, va fi pedepsit maĭ greŭ de cum me-rită faptele luĭ din urmă.</p>
+ <p>— Șĭ de cine va fi el judecat?</p>
+ <p>— CHiar de Fivan. Sunt maĭ multe pricinĭ de o dată, între care şi aceea a luĭ Corbea.</p>
+<p>— Domnul va avea mare milă de sĕrmanul Corbea?</p>
+ <p>— Aşa cred; Mihaĭ este un Domn milos la nenorocirile supușilor sĕĭ; ș'apoĭ Corbea n'a fă-cut de cât o glumă, el na ucis de nimenĭ, n'a făcut nimĕnuĭ nimic.</p>
+ <p>— Dea Dumneȡeŭ milostivire judecătorilor sĕĭ.</p>
+<p>— Ceea ce este cam îndoios, urma a dȡice Vin-tilă, este că Mitropolitul stărue să se con culpabilul, sub cuvâênt ca a profonat sfânta mâ-nâstire, batjocorind pe călugărițe și pe maica stariţa.</p>
+ <p>— Creȡĭ asta?...</p>
+ <p>— Am auȡit foarte sigur.</p>
+ <p>— Cum?</p>
+ <p>— Am veȡut eŭ singur pe Prea sfinția sa, du-cêndu-se la palatul domnesc; și după o jumĕtate de ceas aduseră si pe Corbea între seimenĭ. Am simţit că era vorba de dênsul și m'am strecurat printre servitoriĭ curțiĭ; Mitropolitul era în sala Domnuluĭ, unde introduseră apoĭ și pe Corbea. Peste cât-va timp îl scoaseră din noŭ și porniră cu el la închisoare; faşa luĭ era galbenă şi pă-rea maV trist la eşire de cât la intrare, ceea ce e rĕŭ. Mi-am închipuit însă că Corbea se mâh-nise poate la cuvintele ce 'ĭ-o fi vorbit Inălţi-mele Lor. Aş fi vrut să aflu totul; dar n'a avut cine să'mĭ spue; mâine însă voiŭ pleca din noŭ și voiŭ aduce noutățĭ maĭ proaspete; până atuncĭ mulțumiți-vĕ cu atât.</p>
+ <p>— Bine, tată, Vintilă, îâĭ mulţumesc!... Dute la locuința dumitale, căcĭ poate aĭ nevoie de odihnă; mâine înainte de plecare, cată să ne mai în-tâlnim.</p>
+ <p>— Am înțeles, sora mea. Te las cu sănĕtate: pe mâine dar!</p>
+ <p>— Pe mâine!...</p>
+ <p>Și unchiașul plecă, lăsând pe Olimpia să a-lerge la Marioara să'ĭ povestească cele aflate.</p></div>
+   
+   <div type="chapter" n="15">
+ <head>XIV</head>
+ <p>A doua ȡi de dimineață după ce bĕtrînul Vin-tilă vorbi ca la un ceas cu sora Olimpia, plecă la Bucureștĭ. El ajunse maiĭ degrabă de cât s'ar putea crede și când se arătă la poarta palatuluĭ, mare 'ĭ fu mirarea, când veȡu pe Corbea liber și îmbrăcat în haine de verzișorĭ cu gradul de căpitan. Bietul Vintilă, nu'ĭ venea să se încrează ochilor sĕĭ. Cu toate acestea se îndreptă cu ho-tărâre către căpitanul care eșa din palat, și 'ĭ ȡise :</p>
+ <p>— Mă iartă stăpâne, dar mi se pare că se-menĭ întocmaĭ cu...</p>
+ <p>— Cu cine ?</p>
+ <p>— Cu... adecă...</p>
+ <p>— Cu Corbea, nu este așa ?</p>
+ <p>— Tocmaĭ !...</p>
+ <p>— Dar de ce te mirĭ ?</p>
+<p>— Mĕ mir, pentru că te cunoșteam alt-fel, și acum...</p>
+ <p>— Cine eștĭ, bunule bĕtrân... căcĭ eŭ nu te cunosc... nu te-am vĕȡut nicĭ odată...</p>
+ <p>Eŭ... eŭ sunt trimesul logodniceĭ D-tale, — Marioara.</p>
+ <p>— Marioara ?... Urmează-mĕ atuncĭ, că am să 'țĭ vorbese.</p>
+ <p>Și bĕtrânul merse cu Corbea, ca la o jumĕtate ceas. Acesta se urcă cu grăbire într'o locuință mare, care părea să fie a vre unuĭ boer, într'a-devĕr aci locuia Vistierul Iane.</p>
+ <p>— Așteaptă-mĕ aci, ȡise Corbea luĭ Vintilă, înainte de a intra.</p>
+ <p>Și bĕtrânul rămase afară neștiind ce să crează de această minune.</p>
+ <p>— Maĭ alaltă-erĭ închis în pușcărie !.. Și acum Căpitan!... Marĭ sunt minunile tale, Doamne!... ȡise bĕtrânul Vintilă.</p>
+ <p>In cel maĭ scurt timp Corbea se coborî, avêend în mână un pergament, apoĭ ȡise luĭ Vintilă :</p>
+ <p>— Vino cu mine, și după ce 'mĭ voiŭ termina afacerea, vom vorbi.</p>
+ <p>Se reîntoarseră la palat. Vintilă remase în curte ; iar Corbea se urcă cu acea hârtie și peste puțin reapărŭ Luând pe Vintilă cu sine el se îndreptă de cea-l'altă parte a curțeĭ palatuluĭ, unde locuiaŭ credincioșiĭ și mare parte din fa-vorițiiĭ tronuluĭ. Amêndoĭ pătrunseră, într'un apartament compus din patru camere. Corbea vorbi :</p>
+ <p>— Nu-ĭ așa bunule bĕtrăn, această locuință e maĭ bună de cât pușcăria?</p>
+ <p>— Nicĭ vorbă!... Dar cum s'a întêmplat?... Eŭ..</p>
+ <p>— Cum 'țĭ-e numele?..</p>
+ <p>— Vintilă.</p>
+ <p>— Apoĭ să veȡĭ, moș Vintilă, Domnul nostru e mult maĭ generos de cât oameniĭ și popiĭ sĕĭ. Mitropolitul ținea să fiu condamnat: Domnul însă, dupĕ cercetările ce 'mĭ-a făcut în maĭ multe rân-durĭ, a vĕȡut nevinovăția mea. Eŭ 'ĭ-am inspirat atâta încredere în cât, la devotamentul ce 'ĭ-am făcut și la curagiul ce a descoperit în mine, îmĭ ȡise că de aci înainte spre a fi apărat de orĭ ce rĕntate, mĕ ea printre oameniĭ sĕĭ și m'a numit numaĭ de cât căpitan, dupĕ cum veȡĭ; mĭ'a în-credințat și această locuință pe seama mea ; ast-fel că pot ȡice : asdăȡĭ îmĭ surîde fericirea.,.</p>
+ <p>— Dar Marioara?... întrerupse Vintilă.</p>
+ <p>— Ce face ea ?...</p>
+ <p>— Este cam bolnavă. O! a fost rĕŭ; dar as-tă-ȡĭ o maĭ liniștită. Din ȡiua în care s'a în-têmplat faptul la mânăstire...</p>
+ <p>— Sĕrmana copilă!... Cât trebue să sufere!... Uite... moș Vintilă... aș voi să o am chiar acum lângă mine; să împărtășim amândouĭ fericirea; dar Domnul 'mĭ-a vorbit mult în această pri-vință, el 'mĭ-a spus că avem destul timp de iu-bire ; de-o cam dată trebue să fiu singur la Palat și peste cincĭ-spre-ȡece ȡile....</p>
+ <p>Peste cincĭ-spre-ȡece ȡile?..</p>
+ <p>— Peste cincĭ-spre-ȡece ȡile, ne vom cununa,</p>
+ <p>— Alerg dar să-ĭ spuiŭ această veste.</p>
+ <p>— Da!.. Să te ducĭ maiĭ curând; îĭ veĭ po-vesti tot; afară de acestea, ea va trebui să iasă din mânăstire, 'ĭ vom găsi o locuință în Bucu-reștĭ, ast-fel ne putem vedea maĭ des; și când ne vom cununa vom locui amêndoĭ la Palat. Pênă atuncĭ trebue să fiŭ singur.</p>
+<p>— Așa dar, Căpitane, eŭ pot pleca...</p>
+ <p>— Nu... Așteaptă. Marioara nu va putea eși din mânăstire fără voia Mitropolituluĭ; ast-fel a fost hotărîrea luĭ, cu toate ȡisele Domnuluĭ.</p>
+ <p>«Măria Ta libereȡi pe Corbea; nu me amestec în afacerile mirenilor; nu veĭ face ênsă și cu Marioara tot ast-fel; ea a fost causa uneĭ deso-norĭ în mânăstire, trebue dar să se pocăiască; și când îșĭ va espira păcatele atuncĭ vom vedea!...» Iată ceea ce ȡicea Mitropolitul lui Vodă, când eŭ am fost liberat. Vodă însă, cu un glas ame-nințător îĭ respunse :</p>
+ <p>— Vom vedea!...</p>
+ <p>— Ce creȡĭ dar că se va întêmpla? întrebă Vintilă....</p>
+ <p>Nimic ! respunse Gorbea. Voința Domnuluĭ este maĭ pre sus de toate. Când el va dȡice : Voesc ! Totul 'ĭ se va supune ! Veȡĭ dar că nu va fi nicĭ o piedică.</p>
+ <p>— Atuncĭ ce creȡĭ că e de făcut ?</p>
+ <p>— Să aștepțĭ până deseară, eu voiŭ merge la Domn şi voiŭ implora grația sa. Până atuncĭ, tine astă pungă, ospătează-te bine prin oraș și deseară la șeépte ceasurĭ să viĭ să ne întâlnim.</p>
+ <p>— Mulțumesc Căpitane !..,</p>
+ <p>Și Vintilă se îndreptă spre ușă :</p>
+ <p>— Te las cu sănătate.</p>
+ <p>— Să ne întâlnim sănătoșĭ.</p>
+ <p>Corbea, remâind singur, cugetă la modul cum ar putea să vorbească Domnuluĭ, spre a'ĭ da voe să ia pe Marioara din mânăstire, fără întă-rirea Mitropolituluĭ. Nu cugetă însă mult: căcĭ îșĭ ȡise : </p>
+ <p>— Domnul a fost pentru mine maĭ bune de cât trebuia, cată dar să mĕ iubească!. . Voiŭ încerca orĭ cum și trebue să reușesc.</p>
+ <p>Nu mult după aceea el fu chemat de stăpânul sĕŭ — în acea ȡi el era de gardă ia palat, — care 'ĭ dete noul ordine de împlinit. Când Corbea 'şĭ termină misiunea, și veni la Domn să-ĭ aducă resultatul, găsi momentul propice de a-ĭ vorbi și de afacerea sa.</p>
+ <p>— Stăpâne, 'ĭ ȡise el cu o voce blândă și ru-gătoare, aĭ făcut pentru mine cele maĭ marĭ bu-nătățĭ, m'aĭ încărcat cu onorurile Mărieĭ Tale, m'aĭ făcut căpitan, în fine 'mĭ-aĭ dat viața de atâtea orĭ.</p>
+ <p>— Aĭ meritat toate astea, ȡise Mihai, cu o voce solemnă, dar plină de bunătate.</p>
+ <p>— Astă-ȡĭ îndrăsnesc a'țĭ maĭ cere încă o grație...</p>
+ <p>— Cine ?</p>
+ <p>— Știți că logodnica mea, este încă în mo-nastire. N'aşĭ stărui s'o iaŭ de acolo, dacă n'ar fi greŭ bolnavă. Măria Ta cunoaște, că într'un asemenea loc căutarea unuĭ bolnav este prea slabă în raport cu o boală grea. Decĭ grația ce vĕ cer, ar fi să capăt libertatea Marioareĭ și s'o duc în Bucureștĭ, spre a putea fi maĭ bine îngrijită.</p>
+ <p>— Aceasta, ar fi să nesocotesc voința afințieĭ Sale Mitropolituluĭ, și cum nu găsesc vreme de discordiĭ 'ntre mine și el, ar fi mult maĭ bine...</p>
+ <p>— Voința Mărieĭ Tale este sfântă, dar gân-diți-vĕ că poate muri de disperare. Orĭ cât ar cunoaște ea bunătatea ce ne-aţĭ făcut ; totușĭ, — femeile sunt ciudate, ea nu se poate încrede fe-ricireĭ, până ce nu va vedea cu propriĭ sĕĭ ochĭ. Afară de acestea temerea că această fericire să nu fie falsă, cred că o turbură și maĭ mult.</p>
+ <p>— Pricina aceasta este cam grea, și trebue să mĕ maĭ gândesc, rĕspunse Domnul în cele din urmă.</p>
+ <p>— Mĕ supun Măriei Tale.</p>
+ <p>Şi Corbea era gata să se retragă.</p>
+ <p>— Ascultă, maĭ ȡise Mihaiŭ. Să încercăm şi poate vom reuşi. Iţĭ voiŭ da o scrisoare, pen-tru sfinţia sa Mitropolitul: acolo vei vorbi ceea ce 'mĭ-aĭ vorbit şi mie.</p>
+ <p>Inălţate Doamne.. se grăbi a ȡice Corbea cu un ton de mulțumire.</p>
+ <p>— Fă aceasta și veĭ reuşi.</p>
+ <p>— Cât eștĭ de bun Măria Ta !...</p>
+ <p>— Dacă te-așĭ socoti  drept un linguşitor, a-tuncĭ 'ţĭ-aşĭ înmărmuri aceste cuvinte pe buze; dar fiind că le socotesc ca pornite din adâncul inimeĭ tale, le primesc.</p>
+ <p>— Măria Ta...</p>
+ <p>— Plecă acum și isbândă bună!...</p>
+ <p>Corbea se închină şi eşi.</p>
+ <p>Cum scoborî scările, alergă la Mitropolie, unde fu întâmpinat de un bĕtrîn călugăr.</p>
+ <p>— Sfinţia sa nu priimește pe nimenĭ, îĭ rĕs-punse călugărul.</p>
+ <p>— Vreaŭ să vorbesc Sfințieĭ Sale Mitropoli-tului, ȡise Corbea.</p>
+ <p>Viŭ din partea Domnuluĭ, urmă Corbea.</p>
+ <p>— Cu ce solie?</p>
+ <p>— Asta mĕ priveşte!...</p>
+ <p>Şi călugărul uimit de modul cu care 'ĭ vorbea Corbea, creȡŭ că e ceva foarte grabnic şi des-chiȡênd uşa cabinetuluĭ Sfițieĭ sale, îĭ ȡise :</p>
+ <p>— Atunci intră.</p>
+ <p>Mitropolitul şedea pe o sofa, avênd înaintea sa pe o măsuţă o mare carte bisericească, scrisă cu litere de câte trei caturĭ.</p>
+ <p>La intrarea luĭ Corbea, părintele, 'șĭ  ridică privirile și'l întrebă :</p>
+ <p>La poarta Palatului CorbƏa în costum de verȡişior stă în faţa unuĭ bă-trân care 'ĭ aduce aminte că îl cunoaşte. Corbea prin un gest aratî că nu'şĭ amintesce.</p>
+ <p>— Cine eștĭ, voinice ?...</p>
+ <p>— Corbea!... Căpitan Corbea!... rŭspunse el cu o voce aproape sfioasă.</p>
+ <p>— Profanatorul monastireĭ ?... Protejatul Dom-nuluĭ ?.. Și ce aĭ putut căuta la mine, când am poruncit ca nimenĭ se nu mĕ turbure?</p>
+ <p>Drept orĭ ce rĕspuns Corbea 'ĭ întinse scrisoa-rea sigilată de Domn.</p>
+ <p>Miropolitul o luă și o deschise cu grăbire.</p>
+ <p>Ce voeștĭ de la mine, ȡise apoĭ adresându-se luĭ Corbea.</p>
+ <p>Acesta repetă aceiașĭ rugăciune ce făcuse luiĭ Mihaiŭ, însă cu maĭ multă evlavie, căcĭ el în fața Mitropolituluĭ, crezu trebuincioasă această pur-tare.</p>
+ <p>In cele din urmă Mitropolitul luă hotărîrea înduioșat maĭ mult de vorbele luĭ Corbea, care de astă dată, atrase oare-cum simpatiile prea Sfântuluĭ părinte</p>
+ <p>— Bine ! fiule, îțĭ dau voe să'țĭ ieĭ logodnica din mănăstire; însă aceasta o fac, încreȡându-mĕ ție, că veĭ șterge toate grășelile tale trecute prin rugăciunĭ și prin sacrifice aduse a tot puterni-culuĭ !...</p>
+<p>Și sculându-se merse la biuroul sĕŭ, și scrise 
+ o carte către maica stariță a mânăstireĭ Negreștĭ.</p>
+ <p>Corbea sărută de maĭ multe orĭ mâna și poa-lele Sfântuluĭ Mitropolit și eși cu inima bătând de bucurie.</p>
+ <p>Către seară veni și bătrânul Vintilă, și dupe ce Corbea mersese la Domn să'l vestească de reu-șită și să'ĭ mulțumească încă o dată, se coborî jos unde găsi pe betrân.</p>
+ <p>— A ! iată-te moș Vintilă ! treburile merg mi-nunat, nu am să mă plâng de nimic. Privește: iată cartea Mitropolituluĭ către maica stariță, ea cuprinde liberarea Marioareĭ. Ține-o ! când veĭ ajunge s'o daĭ chiar în mâna eĭ.</p>
+ <p>— Bine căpitane!</p>
+ <p>— Apoĭ a doua ȡi veĭi pleca spre Bucureștĭ. Până atuncĭ eu voiŭ căuta o locuință potrivită și când veĭ ajunge totul va fi gata. înțelegi, Moș Vintilă, să viĭ chiar d-ta cu dânsa.</p>
+ <p>— Negreșit !</p>
+ <p>Ţine acum baniĭ ce vĕ trebuesc pentru drum și plecă.</p>
+ <p>— Să ne 'ntâlnim sănătoșĭ, căpitane, ȡise Vin-tilă eșind !</p>
+ <p>— Să dea Dumneȡeŭ ! răspunse Corbea.</p>
+ <p>Nu trecu mult, și el fu chemas de Domn pen-tru nouĭ însărcinărĭ. Acesta 'l trimise ca să vor-bească în secret Banuluĭ Mihalcea asupra unor conspirațiunĭ ce se iscaseră sub conducerea Vis-teruluĭ Dan. Când Corbea, înțelese că sub acele mistere în acea conspirațiune pe de-o parte, în invasiunile Turcilor pe de alta, trebue să se ivească un rĕsboiŭ crâncen, un fior trecu prin vinele luĭ. Era viteaz Corbea, dar de astă dată el se gândea maĭ mult la Marioara de cât la gloriĭ rĕsboinice ; și când îșĭ închipuia că o să se despartă din nou de dânsa, se intristă și maĭ mult.</p>
+ <p>Și într adevăr răsbioul era neînlăturabil; Mihai, care nu maĭ putea suferi invasiunile și cruȡi-mile Turcilor, se hotărî a se scula asupra lor cu putere armată și a'ĭ estremina. Acesta erea singurul mijloc ce'ĭ maĭ rĕmăsese ; el apelase de multe orĭ la Poartă, ca să se respecte tractatele ; ear Sultanul nicĭ nu voise să'l asculte.</p>
+ <p>Treĭ ȡile în urma plecăreĭ luĭ Vintilă, Mhiaiŭ adună sfatul boerilor sĕĭ ca să se hotărască în-tr'un fel. In Domn ardea dorința să'și scape țara prin luptă, și boeriĭ trebuiră să se învoiască ho-tărîreĭ Domnuluĭ. Rĕsboiul dar era un ce sigur. Pregătirĭ se făceaŭ pe fie-care ȡi, arme, tunurĭ, praf de pușcă și mașine de rĕsboiŭ, se grămă-diră pentru acest scop. Sîngele ferbea în vinele românuluĭ asuprit, și când semnalul fu dat, toțĭ fură în picioare, hotărîțĭ a muri saŭ a'șĭ curăți pămêntul de neghina turcească.</p>
+ <p>In acele treĭ ȡile Vintilă ajunsese și se întor-cea cu Marioara de la monastire. Cum veni, Cor-bea îĭ eși înainte, o așeȡă în noua sa locuință si acolo... cele maĭ dulcĭ momente, cea maĭ căl-duroasă iubire, eĭ o gustară neauzițĭ de cât de inimile lor. De astă dată Corbea nu maĭ avea frică de rĕsboiŭ ; din potrivă el surîdea, se în-veselea când auȡea vorbinou-se, și iubirea 'ĭ creștea şi maĭ mult lângă Marioara luĭ.</p>
+ <p>Nu trecu mult și prima lovitură se dete. Res-boiul începu și Corbea trebui să meargă.</p>
+ <p>La Mitropolie se făcu adunarea boerilor și a căpetenilor oștireĭ. Mihaiŭ apăru în mijlocul lor cu fața energică, plină pe hotărîre și iată ce le vorbi:</p>
+ <p>— Fraților pe acelaș neam. Astă-zĭ maĭ mult ca 'n tot-d'a-una țara este prada nelegiuiților turcĭ, care 'şĭ fac din Domn o armă spre a putea suge cu maĭ mare înlesnire munca și voința poporu-luĭ ; astă-zĭ maĭ mult ca în tot-d'auna trebue să ne hotărîm a muri saŭ a scăpa țara de jugul barbarieĭ. Aruncați-vĕ privirile în casele bietuluĭ țĕran: nu vețĭ găsi una singură care să nu geamă de biciuelile acestor lifte spurcate. Părințĭ bătuțĭ și batjocorițĭ, fiice desonorate, mume lăsate cu ochiĭ neuscațĭ de lacrămĭ, fiĭ înfierațĭ și masa-crațĭ, fără ca nimenĭ să le vie întru ajutor. Su-feri-vețĭ oare și de aci înainte să vedețĭ și să ridicațĭ din umer la suferințele fraților noștri ?</p>
+ <p>— Nu!... Nu!... strigă mulțimea.</p>
+ <p>— Târgurile sunt pline de veneticĭ, care jupoae și ultima sdreanță după spinarea bietuluĭ român. Bisericile noastre sunt schimbate în gea-miĭ turceștĭ, drepturile noastre sunt călcate în picioare !... Hotâri-vĕ dar a muri sau a scutura lepra împilătorilor!...</p>
+ <p>— Da !... să murim saŭ să scăpăm !... strigă din noŭ toată adunarea.</p>
+ <p>Numai Visterul Dan se opuse la aceste su-blime aventuri :</p>
+ <p>— Și eŭ împărtășesc ideile voastre, zise el, și eŭ sunt mișcat de aceste nelegiuirĭ. Dar oare acum să fie timpul uneĭ ast-fel de întreprinderĭ ? Oare avem puterea a ne opune oștirilor nume-roase ale mulsumanilor ?... Teamă 'mĭ-e să nu cădem sdrobițĭ de la prima luptă.</p>
+ <p>Domnul aruncă asupra luĭ o privire fulgerătoare și ridicându-se îĭ rĕspunse:</p>
+ <p>— Aĭ dreptul să te temĭ, căcĭ moartea te înfioară maĭ mult de cât suferințele unuĭ popor întreg ! Nu mĕ îndoiam că poțĭ concepe o ase-menea idee!... Totușĭ sfatul tĕŭ era de prisos. Ro-mânul e puternic și hotărît, el știe să se lupțe piept la piept cu zece dușmanĭ. Afară de acestea avem și ajutorul puterilor vecine ; așa că vom reuși în întreprinderea noastră. Suntețĭ hotărîțĭ fraților ?... întrebă Mihaiŭ pe toțĭ ceĭ de față.</p>
+ <p>— Da!... da!... repetară glasurile.</p> 
+ <p>Atuncĭ prea sfântul Mitropolit se sculă şi ri-dicând o cruce în numele mântuitoruluĭ, face ca  să se desfășure stindardul libertăţeĭ, şi toţĭ ăn strigăte de ura! îl salutară. Domnul căpătă a-tunci  toată puterea de a conduce totul spre scăparea ţĕreĭ.</p>
+ <p>In căte-va nopțĭ, prin planurĭ bine dibuite. toţĭ turciĭ din capitală şi din ţara întreagă fură măcelăriţĭ fără de milă, şi când înăuntrul ţĕreĭ se curţi de neghină, Mihaĭ trebue să 'şĭ concentre privirile spre hotare.</p>
+ <p>In fruntea armateĭ sale, avênd de căpitanĭ bravĭ pe banul Mihalcea, Radu Buȡescu, Stroe Buȡescu, Calomfirescu şi alţiĭ plecă spre Giurgiu, ca de a colo să treacă în Rusciuc să spue pe Mustafa paşa. Corbea, se afla şi el printre căpitaniĭ lui Mihaiŭ; dar ca maĭ tênĕr şi de curând intrat pe calea armelor, nu se bucura de reputaţiunea voinicească a celor alţĭ cpăpitanĭ. Mi-haĭ însă avu grije să'l observe pas cu pas, şi cunoscênd vitejia luĭ, îl încorajă şi maĭ mult, spuindu-ĭ cuvinte măgulitoare. </p>
+ <p>Bietul Corbea, părăsise o parte din iubirea sa pentru a da pe cea maĭ mare patrieĭ sale, care suferea şi se sbuciuma în lanţurile robieĭ. El iu-bea pe Marioara, dar iubea şi pe Domnul sĕŭ şi maĭ cu seamă şi ţara cale îl născuse și careia era dator viaţa. Se despărţise de Marioara, dar cu inima plină de bărbăţie.</p>
+ <p>— Mă duc, ȡise el, unde datoria mĕ chiamă. Tu fiĭ liniştită, Marioară; când mĕ voiŭ întoarce veĭ fi singura mea fericire.</p>
+ <p>— Du-te, 'ĭ respunse Marioara, şi fiĭ demn de țara ta ! După ce vețĭ scăpa-o de barbarie nu vom avea a nu maĭ teme de neajunsurĭ. Nimenĭ nu ne va maĭ supĕra.</p>
+ <p>Și în cele maĭ fragete și călduroase cuvinte amorezațiĭ se despărțiră, fără a cugeta măcar o clipă că resboiul poate să aibă și urmărĭ rele, fără a cugeta la moarte, așa de inevitabilă une-orĭ in asemenea întreprinderĭ.</p>
+ <p>Nu mult după aceia, Marioara făcu toate pu-tincioasele și aduse pe muma sa de la mânăstire ca să stea împreună; dar ea rĕmase tot călugă-riță, de și locuia acum cu fiică-sa în oraș.</p></div>
+   
+   <div type="chapter" n="16">
+ <head>XV</head>
+ <p>Mihaiŭ pentru îndeplinerea mareluĭ scop de a'sĭ scăpa țara trimise solĭ la Sigismund Batori, în Ardeal, ca sa încheie aliența cu dênsul în po-triva Turcilor. Sigismund vĕȡênd aceasta, se mul-țumi foarte și promise ajutor luĭ Mihaiŭ, ênsă cu condiţia să recunoasca supremația Ardealului. Mihaiŭ, pentru că politica îl silea, făcu acest pas, dar păstrînd ca pe viitor ase scutura și de aceasta rușine.</p>
+<p>Alianța se încheiă în modul următor si Sigis-mund Batori dete următoarea carte:</p>
+ <p>Noĭ Sigismund, din darul luĭ Dumneȡeŭ, a ţĕrilor Ardealuluĭ, a Moldoveĭ, a ţĕreĭ Munte-neștĭ şi a împerățieĭ Rîmuluĭ Domn; a părţilor crăieĭ Ungureștĭ stăpânilor și a secuilor oblă-duitor. (1)</p>
+ <p>(1) Veȡĭ Cronicile Românieĭ.</p>
+ <p>Dăm în știință, cu. cartea, de față, tutulor celor ce se cade, că de bună facere luĭ Dumneȡeŭ celuĭ prea bun, după ce am dobândit cârma crăieĭ Ar-dealuluĭ, și după ce a început și groaza tirănieĭ Turculuĭ și a Tătaruluĭ a se arăta în țara un-gurească, nimica alt n'am avut în cuget, fără cât lepădând si depărtând prieteșugul nesuferitu-luĭ vrășmaș pentru a lor nestatornicie și necredință republiceĭ creștineștĭ: și find crăia Ungurească de multă lipsă înconjurată și maĭ în cele de pe urmă primejdiĭ aflată, câte ni s'ar cadea, dupe Dumnezeŭ, ajutorire și căpătare și crăiile și țĕrile asuprite de jugul Turcilor, din cumplita lor robie a le ridica și în cea veche și de oare când poftită vornicie a le întruna să putem ; și acestuiĭ prea bun sfat, de care nimica luĭ Dumnezeŭ maĭ drag şi nouă nicĭ un lucru maĭ lăudat ca va fi, şi nicĭ un leaz spre sgonisirea numeluĭ nostru ne-muritor și maĭ de folos nu se va putea afla. Pentru aciea ca să ridicăm din robia Turcilor crăia noastră, adunând oștirile noastre și toata gatirea ostenească mărituluĭ Domn Mihaĭ Vodă (carele lăsând necredința turcilor, pre sine împreună cu toată boerimea maĭ 'nainte s' aŭ fost închinat), am nevoit, și cu norocite lucrurĭ și cu multe rĕsboae biruind vrășmașiĭ și scoțeêndu-se din ţară, sau aședȡat țara și volnicia sa cea veche  şi âncă ostășiĭ vĕȡênd asupra rĕeuluĭ noro-duluĭ de la marginile Bulgarieĭ, biruind pe Turcĭ în ţara Bulgarieĭ, cu multe răsboae și cu mare peire înt'ênșiĭ predând târgurile și satele și olaturile Turceștĭ în țara Bulgarieĭ, s'auŭ întors în-tregĭ în hotarele sale. Și acea țară care s'aŭ așezat de noĭ în volnicie, pentru ca să se poată maĭ bine ocârmuĭ în legea creștinească si să se poată apăra de vrășmașĭ, aŭ venit la noĭ dintru acea țară cu plină poruncă și volnicie a luĭ Mihaĭ Vodă și a tutulor staturilor aceleĭ țărĭ, să aleagă și să încheie ponturile și legăturile între amên-douĕ părțile.</p>
+ <p>Din partea luĭ Sigismund craiul, aŭ fost boeriĭ anume: Ștefan Iosică Logofătul cel mare, Goor-gie Ravazdi Svetnicul a luĭ Sigismund si Starostele cetățeĭ Uĭvaruluĭ-Samos.—Iară din partea luĭ Mihaĭ Vodă și a statuluĭ țĕreĭ Româneștĭ erau : Eftimie Mitropolitul Têrgovişteĭ, Teofil Epis-copul de Râmnic, Luca Episcopul de Buzĕŭ. Mitrul Vel Vornic, Christea Vernicul, Dimitrie Logo-fătul, Danul Visternicl, Teodosie Visternicul, Radu Clucerul, Stamati Postelnicul, şi Preda Bordur : în Beligad în luna luĭ Maiŭ în 20 ȡile, pa calendarul Papistașilor, în aniĭ 1595 aşeȡate şi încheate, dintru amândouă pările, fără vătă-mare păzite și ținute.</p>
+ <p>Inteĭ noĭ, Episcopul și boeriĭ, stăpânea, si robiea toată a Turcilor, ca unor necredincioșĭ și călcătorĭ de legƏ, o vom lepăda ; și toţĭ, cu o inimă și cu un cuget, așa noĭ, care ne aflăm aicea, cum ceĭ maĭ marĭ și maĭ micĭ aĭ moșieĭ noastre norod, înpreună cu Mihaiŭ Vodă așijderea cu tot clirosul bisericeĭ şi cu toțĭ boeriĭ pre noĭ singurĭ săninatuluĭ Domnuluĭ Si-gismund, din darul luĭ Dumnezeŭ țĕrilor Ardealuluĭ a Moldoveĭ, a țĕreĭ Româneștĭ, a țĕrior peste Munte și a slăviteĭ împărățiĭ a Rîmuluĭ, Domnuluĭ, a părților crăieĭ Ungureștĭ stăpânitor, şi a Secuilor oblăduitorĭ, iprocĭ... Stăpânuluĭ nostru milostiv ne spunem, și acestea împreună cu noĭ și a tot norodul ţĕrilor noaștre locuitoril-or, subt puterea lnĭ o dăm; cu toată deplina judecată priitoareĭ și amestecate împărățieĭ, și pe dênsul îl așezăm, îl înălțăm, cu o inimă și cu un glas a toata țara, Domn nouă, și țăreĭ noastie stăpân și craiŭ de moșie, luând între dênsul acea nădejde ca Măria Sa pre noĭ și moșiea nostră în potrivă tutulor groazelor Turceștĭ, și a altor vraj maşĭ, ne va apăra și ne va acoperi ; și pre noĭ în volnicia cea veche că ne va păzi întru ade-vĕr că ne va judeca precum pre alte țĕrĭ și domniĭ ale Mărieĭ Sale, supuse subt porunca sa, dupe aşedȡămênturile și legăturile aceste, care pre această vreme le așeȡăm dintru amândouĕ părțile întru tăria acestuĭ lucru și întru mărturisire.</p>
+ <p>Intâiĭ noĭ, care cu chipurile ne aflăm credințeĭ Mărieĭ sale, cu numele Domnuluĭ nostru luĭ Mihaĭ Vodă și a toată țara luĭ, noroduluĭ facem jurămênt noĭ, și toată țara luĭ, șr urmașilor luv, cum că vor fl credincioșĭ până la mórte, aceasta cu iscălitura mâinilor noastre întărind. Așa și Mihaĭ Vodă, acum așeȡat Domn și ceĭ pe urma luĭ Domnĭ, și tot statul țĕreĭ Româneștĭ, vor fi datorĭ a păzi. Și de vreme ce seninatul Domn, stăpânul nostru milostiv, în țara noastră nu poate sta şi locui pururea, nouă, în locul sĕŭ, va pune Domn, pe care sfaturile țĕreĭ cu staturĭ de obște şi cu părere de la Măria Sa, vom pofti, care ae să fie știutor limbeĭ moșieĭ noastre; și care va cărmui după orândnială, după vechea volnicie și deprindere și dupe orândueală țara aceia, și care pricinile, noastre drƏpt și cu orândueală, dupe vechea volnicie și deprindere și dupe legăturile aților, despre Dunăre până la mijlocul matceĭ Dunăreĭ, de la Rușava până la Brăila și după ve-chile hotare și marginĭ să se ia venitul țĕreĭ.</p>
+ <p>Toată orânduiala bisericeĭ și a preoților saŭ a călugarilor să o lase Măria Sa în vechia ţinere și obiceiŭ: pravile, țermoniĭ și valniciile, să fie slobozĭ a'șĭ lua obiciuuite veniturile sale, așijde-rea și toate bisericile Munteneĭ care se află în țĕrile Mărieĭ Sale sau a urmașilor, vor fi subt judecata așeȡămîntuluĭ Mitropolituluĭ de Târgo-viște dupe ușeȡarea legeĭ bisericeĭ și orândueleĭ țĕreĭ aceia, și veniturile sale să 'şi poaia lua dupe obiceiul de maĭ 'nainte.</p>
+ <p>Titulaș va avea Măria Sa și urmașiĭ luĭ de la Domn, si de la toată orănduiala țĕreĭ, așa :</p>
+ <p>Prea seninatul Domn stăpânul Sigismund, din darul lu Dumneȡeŭ, a Ardealuluĭ, a țĕreĭ Moldoveĭ, a țĕreĭ Româneștĭ și a sfinteĭ Impărățieĭ Romuluĭ, Domn, a părților Crăieĭ Ungureștĭ stăpân, și a Sĕ-cuilor oblăduitor, iprocĭ stăpânul nostru Milostiv.</p>
+ <p>Eară Domnul de țară Dumnealuĭ Măritul Domn Mihaĭ Vodă, a țĕreĭ noastre Româneștĭ, credin-ciosul nouă iubit.</p>
+ <p>Eară însușĭ Domnul, la titulașul sĕŭ, pe urmă se nu să pue cu Mila luĭ Dumneȡeŭ, nicĭ Târgul suŭ locul de unde va trimite cărțile sale la Măria Sa, la urmașiĭ luĭ să nu se pomenească.</p>
+ <p>Domnul țĕreĭ să aibă pecetea neamuluĭ sĕŭ, iară nu cea de obște a Domnuluĭ țĕreĭ Munte-neștĭ, eară cu ceară roșie. Eară pecetea ţăreĭ să fie la Măria Sa, și la urmașiĭ luĭ.</p>
+ <p>Boeriĭ toțĭ se vor chema aĭ Domnuluĭ de Ar-deal, nu a Domnuluĭ țĕreĭ, și fieș-care va avea într'acel chip titulaţĭ.</p>
+ <p>Domnul Muntenesc se va scrie între şfetniciĭ de Ardeal.</p>
+ <p>Domnul țĕreĭ prin solı, sau cu altă socoteală cu nimenĭ de norodul strein saŭ din Domni fără slobozenia și nevoia de la Domnul Ardealuluĭ și de la urmașiĭ luĭ (și lor le va fi) nicĭ da une lu-crurĭ să nu poată socoti și a ispravire. Ci când va fi trebuință ca aceia, să întrebe pe Măria Sa Domnul Ardealuluĭ și de la urmașiĭ luĭ, și lor le va fi pricine Domnuluĭ și a toată țara, a le isprăvi și a le urni.</p>
+ <p>Ear de ostașiĭ Ungureștĭ, sau de alt neam de va face strâmbătate vre unuia din locuitoriĭi țĕreĭ din partea aceluia, căpitanul Domnuluĭ de Ardeal, care va fi pus acolo pentru cercătura vi-neĭ şi a fapteĭ; așijderea de va face vre o silă, cinevşĭ din locuitoriĭ Domnuluĭ țĕreĭ vre unuĭ ostaș Domnuluĭ Ardealuluĭ, din partea acaluia, singur Domnul, prin Vornicul, să cerce județul fără nici o ȡăbavă. Ear care, orĭ chipierilor boerilor orĭ curțeĭ, va face silă împotriva legeĭ și dreptățeĭ, șă ĭ se facă cercetare de cap.</p>
+ <p>Intre ceiĭ 11 boerĭ jurați să nu poată fi neam de grec, și nicĭ o slujbă saŭ rând care rimă de cârmuirea aceleĭ țăruĭ, a avea să nu poată. Oaspețile și hărăȡiturile ce sunt obicinuite la Paștĭ ţi la botezul Domnuluĭ Nostru Isus Hristos să 'se facă din venitul țĕreĭ.</p>
+ <p>Așijderea Domnul țĕreĭ și toțĭ boeriĭ, făcênd jurămênt cu încredințarea că Mărieĭ Sale Dom-nuluĭ de Ardeal și urmașilor luĭ se vor lega cu tainele credințeĭ.</p>
+ <p>După aceste ponturĭ și așeȡămînturĭ, atuncea când se va trimite steagul oştenestĭ Domuluĭ</p>
+<p>lipesc trei pagini</p>
+ <p>fior ascuns, şi fără voie sbura cu mintea către Marioara</p>
+ <p>Atuncĭ ochiĭ 'ĭ se umplură de lacrămĭ şi un dor nespus îl coprinse. ’</p>
+ <p>— Marioara, cugetă el, cine știe dacă ne om maĭ întâlnĭ!... Soarta armelor e îndoelnică!...</p>
+ <p>Câte cugetărĭ nu trecea prin mintea luĭ. Avea momente în care ar fi voit să deserteze ; dar se gândea la urmările unuĭ asemenea fapt, se gândea la recunoscința ce datora Domnuluĭ apoĭ auȡea cornul sunând și tunurile bubuind, și inima 'ĭ se împetrea, speranța 'ĭ creștea... și din acea dis-perare și teamă de moarte îl îngâna :</p>
+ <p>— O! ne vom vedea, Marioaro!... Aceĭ ce se iubesc nu pot sa moară.</p>
+ <p>In acea dimineață ênsă ca nicĭ o dată el plân-gea lacremile o dovedeaŭ în destul; cu toate a-ceasta acea ȡi fuse singură, în care Corbea se simțise maĭ nefericit. Splendoarea soare luĭ îĭ făcu aşa reu, sunetele resboinice îl îngroȡiră aşa de mult în cât o presimțire fatlă se întipări în mintea luĭ.</p>
+ <p>Așeȡat pe o laviță, ce se afla în usa bordeiuluĭ, el plânse, dar lăcrămile înghețară pe genele luĭ, apoĭ cugeta adânc, suspină, și a toate acestea un sgomot surf îĭ respundea., sgomotul armelor ce se auȡea din întăririle turcilor, sgomotul lopeților, ce mânuiaŭ soldațiĭ românĭ, spre a răni ȡăpada de la ușile bordeelor.</p>
+ <p>O ghiulea turcescă se sparse în coatele coli-beĭ vecone, şi Corbea tresăro ca din visare. Un biet soldat, care rînea ȡăpada, fu spulberat de furioăsa bombă, care sdrobind tot ce întâlnise în cale, pătrunse până în năuntrul colibeĭ şi acolo 'şĭ încetase furia. Din norocire ênsă în colibă nu se afla nimenĭ, și nemiloasa omorâtoare nu gă-sise de cât pămênt și munițiunĭ, care produse un sunet ascuțit la atingerea lor cu metalul.</p>
+ <p>Corbea privi cu nepăsare tistele resturĭ ale soldatuluĭ ucis și esaminându-le una câte una îşĭ ȡise:</p>
+ <p>— Ca mulțĭ alțiĭ, sermane bilete! Cine 'mĭ poate spune, că nu puteam fi eŭ în locul tĕŭ!...Ghiuleaua s'a abătut cu câțĭ-va pașĭ de la mine până la tine¡...</p>
+ <p>Şi cugetând acestea, Corbea pivea pe mort împărţit într'o sumă de bucățele...</p>
+ <p>Sermanul soldat ! El care maĭ 'nainte rînea ȡăpada fluenând; acum nu era de cât nişte di-forme bucăţĭ de carne. Capul îi era sdrobit şi atârnând numaĭ prin câte-va fibre musculare de trunchiul sĕŭ, fără mâinĭ şi fără picioare. Mulţĭ se grămădiseră împrejurul luĭ, şi toţĭ îĭ plângeaŭ de milă.</p>
+ <p>In acelaș timp sosi și porunca pregătireĭ de asalt. Corbea se înfioră nu pentru ca se temea dar pentru că acel presimțimînt, care-ĭ prevestea o nenorocire, înviă iarășĭ în inima luĭ, Ş'apoĭ orĭ de cât de viteaz ar fi cine-va, merge în toc cu spe-ranţa de a muri saŭ de a învinge, dar când un presimţimînt dureros îĭ spunea necontenit că-ĭ se va înteêmpla o nenorocire maĭ cumplită decât moartea, atuncĭ curagiul dispare și spaima se înlocueşte chiar în inima cea maĭ nepăsătoare.</p>
+ <p>Dar Corbea, care lăsase departe mima și în-treaga luĭ gândire, cum putea să nu se înspăi-mânte în fața morțeĭ; maĭ cu seama când moar-tea luĭ ar fi causat și pe aceia a Marioareĭ, a ființeĭ pentru care el îșĭ sacrificase tot trecutul ?</p>
+ <p>Cu toate acestea, datoria pe câmpul de răsboiŭ. trebuia să fie maĭ presus de toate.</p>
+<p>Spre mijlocul ȡile când ordinul de asalt fu dat, Corbea cu compania sa intră și el în foc.</p>
+ <p>Ce groȡavă fu lupta! Mulțĭ românĭ ȡăceaŭ scăldaţĭ în sângele lor, mulțĭ fură prinșĭ; căcĭ Mihaĭ de astă dată pierdu bătălia, fără insă a fi respins de sub zidurile cetățieĭ.</p>
+ <p>El trebuia să facă noĭ sforțărĭ și trimise să-ĭ maĭ vie ajutoare. Când se făcu apelul, mulțĭ nu rĕspunseră. O parte din eĭ deveniseră prisonieriĭ turcilor, iar cea-laltă parte eraŭ morți.</p>
+ <p>Corbea nu rĕspunse nicĭ el la apel. Cu toate aceasta nu se găsea prin numĕrul morților.</p>
+ <p>Negreșit, el fusese prins. Ce nenorocire pentru deênsul !... ar fi preferat maĭ bine să moară a-lăturĭ cu frațĭ sĕĭ, de cât să cadă victima ne-legiuirilor inamicĭ.</p>
+ <p>Din toțĭ camaraȡiĭ sĕĭ de acelaș rang, numaĭ el avusese aceiașĭ nenorocită soartă; toțĭ ceĭ-lalțĭ prinșĭ eraŭ numaĭ soldațĭ.</p>
+ <p>El fu închis singur într'una din celulele ca-zărmeĭ turceștĭ, și acolo îl aștepta o soartă și maĭ aspră.</p>
+ <p>Toată noaptea o petrecu în cele maĭ sinistre cugetărĭ, căcĭ vĕȡuse pe turcĭ cum masacrară pe ceĭ alțĭ prinșĭ chiar în fața luĭ.</p>
+ <p>— Negreșit cugetă el, aceștĭ oamenĭ așteaptă de la mine vre-o trădare!... Dar nu!... Odată cu moartea, nu voiŭ spune nimic!...</p>
+ <p> Corbea în închisoare stă pe gândurĭ</p>
+ <p>Culcat pe un pat de scândurĭ acoperit cu o rogojină, se sbuciumă până la ȡiuă în cele maĭ marĭ torturĭ. O sentinelă păzea Ia ușa luĭ. Se gândea la el, se gândea la soarta ţĕrei şi a fra-ţilot sĕĭ, dar maĭ presus de toate, se gândea la Marioara. La această din urmă cutezare, ochiĭ 'ĭ se umplură de lacrămĭ și plânse ca un copil.</p>
+ <p>In ȡorĭ de ȡiuă, doĭ ianicerĭ, îl duseră între spăngĭ în fața comandantuluĭ cetățeĭ.</p>
+ <p>Acesta, în contra obiceiuluĭ sĕŭ îl primi cu  oare care blândeţe şi voĭ să rămâie singur cu dênsul. </p>
+ <p>— In zadar goneştĭ pe aceştĭ oamenĭ, ȡise Corbea. Ițĭ înțeleg cugetarea! Voeştĭ să afli de la mine secretele fraților meĭ !... Eĭ bine, nu veĭ afla afla nimic de mine...</p>
+ <p>— Ascultă tinere, ȡise turcul cu bunătatea-ĭ prefăcută. Aceea ce nu'mĭ poţĭ spune de bună voe, o veĭ mărturisi de nevoe. Atârnă dar de la tine ca în locul bunătăţeĭ să nu întâmpinĭ mâ-nia mea.</p> 
+ <p>Bunătatea ta este numaĭ o laşitate, o micşo-rime de suflet. Adevĕraţiĭ vitejĭ se luptă piept la piept cu inamicul; iar nu caută ca prin tră-dărĭ înjositoare să ajungă la scopul lor.</p>
+ <p>— Ia seama!... Aĭ timp să te hotărăștĭ ! </p>
+ <p>— Hotărîrea 'mĭ-ai luat-o, din momentul în care m'am vĕȡut în mâinele voastre !</p>
+ <p>Ia seama, 'ţĭ ȡic, reluă turcul cu un ton aproape ameninţător. Nu voiŭ ţine socoteală de vorbele tale îndrăsneţe. Aşa sunteţĭ voĭ toţĭ ghia-uriĭ, care credeţĭ că prinsoarea şi tăria de carac-ter este o glorie ce dobândiţĭ ! Vĕ înşelaţĭ neno-rociţilor !... In urma prinsoareĭ, urmează tortura şi apoĭ moartea cea maĭ cumplită !...</p>
+ <p>— Asta voesc și eŭ ! Omorâți-mĕ; dar nu mĕ silițĭ să fac aceea ce ar aduce peirea neamuluĭ meŭ !...</p>
+ <p>— Ascultă ! .. N'avem vreme de perdut cu vor-bele tale umflate. Hotârăștie să rĕspunȡĭ la întrebările mele saŭ...</p>
+ <p>In acelașĭ moment, Pașa, făcu un semn porun-citor celor ce'l înconjuraŭ şi aceștia supuindu-se Corbea rĕmase numaĭ cu condamnatul cetățeĭ.</p>
+ <p>— De astă data nu veĭ avea să te temĭ de ni-menĭ, aruncă’țĭ mândria la o parte, ȡise turcul. Nu e nimeni care sa ne asculte.</p>
+ <p>— Am ȡis odată, n’am ce spune.</p>
+ <p>— Te amăgeştĭ...</p>
+ <p>— Eştĭ maĭ mic la suflet de cât te credeam.</p>
+ <p>— Neruşinat ce eștĭ, se restĭ turcul, veĭ în-ceta odată cu insultele tale!</p>
+ <p>— Eştĭ mizerabil, maĭ ȡise Corbea. cu un ac-cent plin de dispreț și de ură.</p>
+ <p>— Eĭ la bine!... răcni de astă dată turcul plin de mânie.</p>
+ <p>Sala se umplu de enicerĭ.</p>
+ <p>— Luaţĭ pe acest nenorocit și 'l închidețĭ</p>
+ <p>Ieniceriĭ îl înconjurără şi eraŭ gata sa plece.</p> <p>— Staţĭ reluă pașa, maĭ lăsaţi'l! Eşiţĭ cu to-țiĭ. Tu, mustafa, rămâĭ! </p>
+ <p>Toțĭ eșiră afara de un turc cu mnstăţile ră-sucite, scurt și îndesat, care cu cel mai adânc respect se apropie de stăpânul sĕŭ.</p>
+ <p>Mustafa, îĭ yise paşa, ea pe acest îngămfat de sine şi ¸l închide în înfuaeătura pivnițeĭ, — până ce 'țĭ voiŭ da nouĭ porunci. Bagă de sémă, zăvoreşte bine uşa</p>
+ <p>— Mĕ supuĭ stăpâne !... ȡise Mustafa făcênd o temenea până la pământ.</p>
+ <p>Corbea, fără a aștepta să fie sforțat îșĭ în dreptă pașiĭ spre ușă, când pașa strigă:</p>
+ <p>— Nu pe-acolo ; — Mustafa, eșițĭ pe această ușă secretă, și în sala vecină vețĭ găsi o ușă care respunde la spatele seraiuluĭ, pe acolo poțĭ pătrunde în pimniță, fără să fiĭ vĕȡut de nimenĭ.</p>
+ <p>Corbea era strâns legat; ast-fel că n'ar fi avut nicĭ o putere împotriva iataganuluĭ lucios al luĭ Mustafa. Eșind din sală, el aruncă o privire des-prețuitoare asupra pașeĭ, și urmat de conducă-torul sĕŭ eși prin ușa secretă.</p>
+ <p>In cincĭ minute el se afla în interiorul uneĭ subpămênte întunecoase, înconjurat de patru ȡi-duri umede și neavênd nimic în jurul sĕŭ de cât o peatră mare acoperită cu pae, care trebuia să-ĭ serve de culcuș.</p>
+ <p>După ce Mustafa, îl conduse înăuntru îl îm-brânci în fundul sub-pămênteĭ, și eșind puse doĭ drugĭ de fer de-a curmezișul ușeĭ care era de stejar și închise cu lacătul singura comunicați-une ce avea bietul Corbea cu exteriorul. Nu a-vea nicĭ o ferestrue măcar. Era închis ca într’nn mormênt.</p>
+<p>Peste câte-va momente, Mustafa se reintoarse, aveênd cu deênsul o pâine neagră și un ulcior cu apă.</p>
+ <p>— Iată resultatul încăpățânăreĭ tale, ȡise a-cesta luĭ Corbea rânjind printre dințĭ; — și de-puse într'un colț pâinea și ulciorul cu apă, pe care Gorbea le privi cu durere, la lumina felinaruluĭ ce purta turcul.</p>
+ <p>Apoĭ Mustafa urmă :</p>
+ <p>— Dacă cum-va această locuință te înspăi-mântă, poți să 'mĭ spuĭ, pașaoa este bun și te poate erta.... numaĭ să te hotăreşti a'ĭ spune...</p>
+ <p>— Pieĭ din 'naintea mea !... sclav tărător ce  eştĭ !... A! cum nu am putere să 'ţĭ sdrobesc capul subaceastă stâncă !...</p>
+ <p>— Tocmaĭ la asta mĕ gândeam şi eŭ ... Dar de, ce să-ĭ facĭ, când nu-ĭ putere vorbele tale sunt de prisos.</p>
+ <p>Corbea se întoarse cu spatele la turc, şi nu 'ĭ maĭ dete nicĭ o ascultare. Acesta mirat de a-tâta tărie de caractei; nu găsi ce să 'ĭ mai spue, ci luând felinarul de jos, se depărtă, dupe ce încuie ușa, rîȡênd cu hohote înăbușite, care se perdeaŭ din ce în ce prin întunecoasa pivniță.</p>
+ <p>A doua ȡi, Corbea — de nu ştia dacă e ȡiuă saŭ noapte, — se simţi aşa de obosit în cât pi-cioatele-ĭ abia 'l maĭ puteaŭ ţine.  Era într'adevĕr în starea cea maĭ demnă de plâns. Cu toate a-cestea el nu plângea; suferea numaĭ, dar se mândrea că s'a putut stăpânĭ de a nu trăda secretele Domnuluĭ sĕŭ.</p>
+ <p>Paşa apăru urmat de credinciosul sĕŭ Mustafa şi de doĭ ienicerĭ, avênd câte un felinar în mână şi la vederea feţiĭ palide şi obosite a victimeĭ sale scoase o esclamare plină de satisfacere.</p>
+ <p>— Iată-te !... nemornicule, ȡise turcul. Iată ce soartă ştiŭ eŭ să pregătesc acelora care nu mi se supun.</p>
+ <p>Corbea nu ȡise nimic. Dar paşa urmă :</p>
+ <p>Nu mĕ îndoesc ca acum te-aĭ hotărăt să vorbești ! </p>
+ <p>— Nu !</p>
+ <p>— Nu?...</p>
+ <p>— Am ȡis !...</p>
+ <p>— Vom vedea dar !...</p>
+ <p>Şi ceĭ doĭ ienicerĭ, la un semn al pașeĭ scoa-seră de la cingătoare câte-un iatagan udat în saramură şi începură a lovi în sĕrmanul Corbea, fără a ţine seamă unde loveaŭ. Corbea suferĭ ca un martir toate acestea, fără a scoate, decât rare orĭ câte un gemăt sfâșietor, care ar fi în-muiat inima celuĭ maĭ selbatic om.</p>
+ <p>— Destul !... ȡise în cele din urmă paşa. Apoĭ se adresă luĭ  Corbea. Te-ai hotărât? răspunde !..</p>
+ <p>— Nu !... rĕspunse Corbea cu lacrămile sleite pe obrajiĭ sĕĭ.</p>
+ <p>Sĕrmană victimă !... obrajiĭ sĕĭ eraŭ vinețĭ de loviturile streangurilor, ochiĭ 'ĭ eraŭ umflațĭ a-vea o figură așa de hidoasă, încât dacă 'l-ar fi vĕ-ȡut Marioara ar fi înebunit de groază.</p>
+ <p>— Vorbește !... răcni pașa din noŭ.</p>
+ <p>— Nicĭ odată, rĕspunse Corbea.</p>
+ <p>La un noŭ semn ceĭ doĭ ianicerĭ săpară o groapă adâncă aprope cât statura unuĭ om şi după ce puseră pe Corbea înăuntru, îl îngropară cu pămênt până la umerĭ.</p>
+ <p>Atuncĭ, aceştĭ nelegiuiţĭ începură să'l scuipe şi să facă asupra-ĭ cele maĭ neomenoase murdăriĭ. O !... era ceva oribil, Christ chiar suferise maĭ pu-ţin ca sĕrmanul Corbea.</p>
+ <p>El nu maĭ vorbea. D'abia putea să respire. Peptul sĕŭ era apăsat de țĕrêna în care era în-gropat.</p>
+ <p>Dupĕ ce 'l batjocoriră ca la o jumătate ceas, îl scoaseră din acel mormênt şi'l întinseră, mai mult mort de cât viŭ pe stânca ce-ĭ servea de patŭ.</p>
+ <p>Pașa se apropie lângă el, și'ĭ ȡise :</p>
+ <p>— Eĭ !... ce ȡicĭ ?... Așa e că știŭ să'mĭ rĕs-bun ?... Veĭ spune acum, aceea ce trebue să știŭ.</p>
+ <p>Corbea nu maĭ putea vorbi, dar o mişcare ce făcu din cap dovedea hotărârea de a nu spune nimic odată cu moartea.</p>
+ <p>— Iţĭ las un ceas să te gândeștĭ, ȡise pașa : când mĕ voiŭ întoarce saŭ îmĭ veĭ spune tot ce știĭ, sauŭ veĭ suferi și maĭ amar chinurile ce îțĭ am pregătit.</p>
+ <p>Apoĭ urmat de Mustafa și de ienicerĭ, turcul eși lăsând pe Corbea zăvorit în oribila luĭ sub-pămêntă.</p>
+ <p>D'abia ajunseră la spatele sereaiuluĭ, unde era intrarea secretă a pimnițeĭ, când un sgomot ca-denţat isbi urechile lor... Tunurile bubuiaŭ cu îngrozire, țipete și zgomote confuze înăbușeaŭ a-erul. Semăna a fi o luptă crâncenă.</p>
+ <p>Toţĭ căuta în toate părțile pe pașa, şi nu pu-teaŭ să'l găsească. Când el aparu la lumina ȡi-leĭ, câţĭ-va ienicerĭ 'ĭ apărură înainte.</p>
+ <p>— Inălţime, strigară eĭ turbațĭ, ghiauriĭ aŭ dat asalt cetățeĭ și sunt aproape să învingă.</p>
+ <p>— Ce ?... răcni turcul, e peste putință. Pute-rile lor sunt sleite prin lupta de deunăȡi, ca să maĭ, încerce nouĭ asalturĭ. O fi vre o încăerare neînsemnătoare.</p>
+ <p>— Nu slăvite stăpâne, ascultă, lupta e gro-zavă; porțile cetățeĭ sunt aproape să fie sfărâ-mate.</p>
+ <p>Intr'adevĕr, zgomotul era înfricoșător și pașa 'şĭ ascuţi urechea. De astă-dată se încredință de pericol şi alergă în mijloul luptătorilor sĕĭ.</p>
+ <p>La sosirea luĭ, Turciĭ maĭ prinseră curagiŭ, şi o luptă maĭ grozavă se încinse...</p>
+ <p>Dar, după un ceas, Româniĭ întraŭ triumfătorĭ în Silistra, și Domnul Mihaĭ, puse de arestară pe toate căpeteniele cetățeĭ.</p>
+ <p>Dupe ce se asigură de orĭ-ce întêmplare ne-prevăȡută, soldațiĭ pătrunseră prin toate casele, și fără a face masacrurĭ, cum ar fi făcut póte Turciĭ într'o asemenea victorie, trăiră și chefuiră din bunurile Turcilor învinșĭ. Tot ce nu putea să le oprească severitatea și disciplina luĭ Mihaĭ, era prădarea frumoaselor cadâne. Dupe atâta suferințe biețiĭ soldațĭ trebuiaŭ să se maĭ îndelet-nicească și eĭ puțin pe fragedele sâênuri ale voluptoaselor turcoaice.</p>
+ <p>Căpitaniĭ, având în mijlocul lor pe Mihaĭ, se ospĕtară împărătește, și care maĭ de care se si-leaŭ a ridica toasturĭ în onoarea isbândeĭ,</p>
+ <p>Se întrebaŭ uniĭ pe alțiĭ despre soarta luĭ Corbea; dar când aflară că toțĭ prioznierii fuseseră omorîțĭ, nu se maĭ îndoiră și de nenorocita pierdere a acestuĭ brav căpitan.</p>
+<p>Intr'un cuvênt ast-fel erau petrecerile și părerile de rĕu ale Românilor, dupe ce coprinseră Silistra.</p></div>
+   
+   <div type="chapter" n="16">
+ <head>XVI</head>
+ <p>Vedem acum, ce făcuse Marioara în timpul cât Corbea lipsea la răsboiŭ. Știm că din ȡiua în care plecase iubitul eĭ reușise a aduce pe mu-ma sa de la monastire, ca să locuească împreu-nă. Ast-fel avea o inimă de mumă, la bunătatea căreia să'șĭ îndulcească suferințele. Iĭ lipsea ênsă acea inimă iubitoare la ale căreĭ dulce accente să'șĭ desvelească adâncul inimeĭ sale, la ale căreĭ privirĭ să se arunce în brațele cele maĭ inocente fericirĭ. Lipsea Corbea !.... și pentru Marioara toată lumea devenise un haos fără marginĭ un gol, care nu conținea de cât lașitățĭ și miȡeriĭ. Suferea, sĕrmana Marioara, căcĭ iubea cu înfocare pe acela care de mult timp lipsea de lângă dênsa; plângea, căcĭ nu maĭ avea putere să'șĭ înece suferința : dorea, căcĭ nimenĭ nu răspundea iubireĭ sale înflăcărate : Corbea plecase, și ea'l dorea atât de mult, încât tot timpul și'l petrecea gândindu-se la dênsul.</p>
+ <p>Unica eĭ mângâere era înștiințările ce-ĭ trimitea Corbea, orĭ de câte orĭ ajungea unde-va pe câmpul de luptă. El o vestea de sănĕtatea luĭ saŭ de isbânȡile ce frațiĭ sĕĭ sĕvêrșiaŭ.</p>
+ <p>Indată însă ce Corbea fu prins, ea, nu maĭ primi nicĭ o veste și acésta o neliniști foarte mult. Neliniștea-ĭ creștea cu cât trecea timpul.</p>
+ <p>O, Doamne ! . . . cugetă că nu cum-va e mort ?...</p>
+ <p>Șĭ la această cugetare, ochiĭ 'ĭ se umplură de lacrimĭ și începu să plângă cu hohot.</p>
+ <p>Muma eĭ vĕȡênd disperarea ce-o coprinsese, făcu toate putincioasele spre a o încredința, că presupunerile sale sunt nefondate. Dar Marioara iernase nemângăeată.</p>
+ <p>In sfârșit, ea se hotărâ să plece pe câmpul de luptă să dea de urmele iubituluĭ eĭ. Spre acest scop, ea, cu multă greutate hotărî pe muma sa s'o însoțească : și într'o dimineață porni spre Rus-ciuc, ca de acolo mergênd pe urma Românilor să'ĭ ajungă la ultima lor poposire. Din Rusciuc un oficer românesc se oferi să le conducă până la Silistra și spre acesta scop porniră împreună. Către seară ajunseră aproape de un sat, care se numea pe-atuncĭ Gorsco-Selo, Nu se opriră însă aci, căcĭ voiră să meargă maĭ repede. Trecuseră dar de Gorsco-Selo și eraŭ pe drum. Nu departe se zărea o pădure.</p>
+ <p>Să-ĭ lăsăm în drumul lor, și să mergem 'nain-tea lor în mijlocul aceleĭ pădurĭ, ca să le servim de avant-gardă.</p>
+ <p>In mijlocul aceleĭ pădurĭ, înconjorată de arborĭ stufoșĭ se ascundea o umilă căsuță. Pe din afară părea o locuință curățică și lăsa a se înțelege că acolo loucuesc oamenĭ bunĭ la suflet, dar că sărăciea saŭ poate cruzimea turcilor îĭ făcuse să trăiască în mijlocul pădureĭ. In dosul caseĭ, era o frumoasă grădină, frumoasă negreșit în timpul vereĭ; căcĭ în momentul în care o vedem de şi iarnă, brasdele eĭ regulate, pomiĭ așezațĭ la rând lăsaŭ a se vedea că era cultivată cu multă în-gniijire. înaintea caseĭ eșise o tînĕră fată. Ea a-vea ochĭ negri, fața-ĭ era zâmbitoare şi arunca grăunțe păsărilor domestice, care se adunaseră grămadă împrejurul eĭ. Infățișarea feteĭ arată cea maĭ deplină sănătate; părul eĭ în lungĭ códe de abanos, atârnaŭ pe umerii sĕĭ ca doĭ șerpĭ. Era îmbrăcată în costum țărănesc, ea era dar, creștină. Ea se numea Gherghina și era fică de bulgar. In vâêstra de cincĭ anĭ ea fusese în Rusia cu tatăl și cu muma eĭ prigonițĭ find de cruȡi-mea turcilor. Peste câțĭ-va anĭ tatăl sĕŭ se reîn-toarse cu familia sa din noŭ în vechiul lor lo-caș; căcĭ rĕutățile turceștĭ maĭ încetaseră. Gher-ghina de abia maĭ ținea minte calamitățile a-celor timpurĭ, dar de câte ori îșĭ amintea, orĭ cât de slabă 'ĭ ar fi fost amintirea, nu putea să u se îngrozească. Afară de acestea suferințele ce maĭ încercase în tot timpul viețeĭ sale, îĭ maĭ întăriseră inima.</p>
+ <p>Ea cunoștea foarte bine localitățile în care trăia şi dese orĭ le străbătea singură, în timpul vereĭ ca și în timpul erneĭ, fie pentru a culege florĭ şi fructe, fie pentru a aduna uscăturĭ cu care făcea focul la rusticul cămin al locuințeĭ lor.</p>
+ <p>Pênă la vârsta de 7 ani, trăiseră moșiul și bunica sa; ea fusese bucuria bătrânețelor lor. Biețiĭ bĕtrêni fuseseră oamenĭ bunĭ și oneștĭ; dar eiĭ deveneaŭ și maĭ bunĭ și maĭ blânȡĭ, când aveauŭ lângă sine pe mica Ghergina. De câte orĭ eşa unde-va să se joace, bĕtrêniĭ deveneaŭ în-grijițĭ, începeaŭ să socotească timpul cât trebuea să nîtârzieze, și cu nerăbdare o așteptaŭ la fie ce minut. Când Gherghina era cu eĭ, nu puteaŭ să'şĭ vaȡă nicĭ de lucru, atât de mult o diesmer-daŭ şi o giugiuleaĭ. Când se întorceaŭ de la jo-curile eĭ copilăreștĭ, eĭ o așteptaŭ pe prispa caseĭ şi cum o zărea de departe începeaŭ să strige : Gherghinițo! ... Puișorule !... Și Ghergina ca un cățeluș răsfățat da fuga și se arunca în bra-țele lor, sărutându-le mâinele și obrajiĭ.</p>
+ <p>In momentul în care vorbim ea era fată mare şi da grăunțe pasărilor.</p>
+ <p>Ea simțea o nespusă plăcere vĕȡênd găinele la numĕr foarte mare, înconjurând câțĭ-va cocoșĭ de rasă, ciocnind cu o mare poftă grăunțele ce li se aruncase ; maĭ cu deosebire iubea să'șĭ hră-nească bibilicele și curcaniĭ cu moțul roșu care să certaŭ și se băteaŭ, care maĭ de care să ajungă maĭ aproape de stăpâna lor. Cât despre gâște, ea, nu putea să le sufere. Eraŭ așa de obrasnice în cât une orĭ o apucaŭ cu ciocurile de poala ro-cheĭ, sâsăind într'una. Ba învă un neobrăzat gâscan se cocoţase pe o putină cu varȡă, şi de-acolo îţĭ băgase ciocul tocmaĭ în co-păiţa din care Gherghina scârlea grăunţele. Când Gehrghina băgă de sémă cutezarea gâscanuluĭ, acesta vrând să fugă. căȡu drept în putina cu varȡă. Din norocirea luĭ însă, varȡa avea puţină zeamă. Gherghina grăbindu-se îl scóse din pu-tină scăpându-l de pericolul de a se îneca acolo. Şi apucându-l de cioc, începu să rîdă cu hohot şi apoĭ îl aruncă în mijlocul pasărilor, care vĕȡêndu-ş scăldat ca un şórecu începură ăs-l bată cu ciocurile; iar maĭ departe un porc mirosindu-ĭ a varȡă se repeȡi după gâscan; era cât pe aci să-l mănince ca pe nişte foĭ de varȡă; dar Gherghina îl scăpă şi de astă fată!</p>
+ <p>In acelaşĭ moment pórta curţiĭ se deschise şi apăru un bătrân 'nalt şi plin de vigóre încă: avea pe spinare un cojoc de piele de oae, lung până la genuchĭ; în cap purta o mare căciulă neagră, iar în picióre o pereche de ciórecĭ albĭ în formă de şalvarĭ. Un pĕr cărunt îĭ atârna pe umerĭ; o barbă albă 'ĭ acoperea pieptul; faţa-ĭ era încă plină de acea frăgeȡime, care se maĭ păstreză de uniĭ bătrânĭ, care duc o viaţă regu-lată şi nebrăzdată de viţiĭ.</p>
+ <p>Gherghina, cum îl zări, puse jos copăiţa cu grăunţe, pradă lăcomieĭ pasărilor şi eşi întru în-tâmpinarea respectabiluluĭ bĕtrên.</p>
+ <p>— Bine-aĭ venit tătucă, ȡise ea, căcĭ acesta era într'adevĕr tatăl sĕŭ şi îl sĕrută pe obraz.</p>
+ <p>— Bine te-am găsit, copilaşul meŭ!.... Şi ȡicênd acestea începŭ a o sĕruta şi mângâea pe obraz ca şi cum ar fi fost un copilaş.</p>
+ <p>— Unde-ĭ măta !... întrebă bĕtrânul, îndrep-tându-se spre casă.</p>
+ <p>— Lucrează tătucă; îțĭ cóse sucmanul. Bĕ-trênul intrase deja în casă și ȡise:</p>
+ <p>— Bună vremea nevastă ! . . .</p>
+ <p>— Bine-aĭ venit unchiaș, ȡise bĕtrêna mumă a Gherghineĭ, ducêndu-se spre el și lăsându'l a o săruta pe frunte.</p>
+ <p>Nenciu, așa se chema bĕtrênul, de treĭ ȡile plecase dupe afacerile luĭ și acum întors în mijlocul familieĭ luĭ, era vesel și bine-voitor. El se așeaȡă pe o laviță, lângă peretele caseĭ, scoase de la brâŭ o lulea, o umplu cu tutun dintr'o bășică de boŭ, care-ĭ servea de tabachere, și apropiându-se de cămin puse de-asupra un tăciune și tra-se cu sete fumul tare al luleleĭ. Dupe ce trase de câte-va orĭ, Nenciu întinse luléua femiĭ sale, care dupe ce fumă de vre-o douĕ orĭ, întinse la rândul sĕŭ luléua fiiceĭ sale. Gherghina fumă tot restul luleleĭ și dupe ce o scutură bine o dete tatăluĭ sĕŭ, care o șterse de pulpana sucmanuluĭ sĕŭ și o puse într'o pungă formată din bășică de boŭ.</p>
+ <p>Acesta era un obiceiŭ forte ciudat în casa luĭ Nenciu ; dar el se repeta maĭ în tot-dea-una.</p>
+ <p>Dupe aceea Gherghina eși în curte, închise pa-sările în coteț și îngriji de cele alte trebĭ. Când termină afară, intră în casă ca împreună cu muma sa să pregătéscă de cină. O oală de pă-mênt ferbea în clocote plină cu păsat. Bătrêna Velca, așa se chema muma Gherghineĭ, resturnă oala cu păsat într'o strachină mare și o puse pe o masă de lemn cu piciórele scurte.</p>
+ <p>Gherghina ajută mumeĭ sale, și dupe ce puse pe masă treĭ talere de lemn şi câte-va beţe în formă de furculiţe, luă cuţitul de la cingătórea bĕtrênuluĭ şi tăie în bucăţĭ o fiertură de peşte sărat. De bĕutură puseră o ulcică cu rachiŭ fiert şi îndulcit cu miere.</p>
+ <p>— Cina e gata, bădiţă, ȡise Velka, punênd pe masă un opaiţ cu sĕŭ.</p>
+ <p>Se aşeȡară cu toţiĭ la masă şi înainte de a în-cepe să mănânce, Nenciu, rupse o bucăţică din peştele sărat, aruncă puţin din păsat şi vĕrsă câte-va picăturĭ din rachiul îndulcit.</p>
+ <p>— Pentru sufletul morţilor ! ȡise el.</p>
+ <p>După aceia câte-şĭ treĭ începură să mănânce ca nişte flămânȡĭ ; după ce îşĭ scóseră în farfu-riile de lemn, din modestele lor bucate ; din când în când ridica la gură şi ulcica cu rachiŭ îndulcit cu miere.</p>
+ <p>Cina se terminase, când se auȡiră la poartă câte-va loviturĭ puternice. Bătrânul cu mult sânge rece se sculă şi eşi în curte ; se apropie de pórtă, puse mâna pe clanţă şi întrebă :</p>
+ <p>— Cine este ? ...</p>
+ <p>— De aiĭ noştrĭ, deschide moşule, se auȡi ȡi-cêndu-se de afară. In acelaşmoment douĕ vocĭ rîdeaŭ cu hohot şi bătăile în poartă crescură.</p>
+ <p>Bĕtrênul trase clanţa,—şi imediat intrară în curte douĭ militarĭ, care după îmbracminte păréŭ a fi Românĭ. Intr'adevĕr aşa şi era : aceştĭ doĭ ostaşĭ se însoriseră în rândurile lui Mihaĭ, dupe ce el trecuse Dunărea cu aĭ sĕĭ ;—eraŭ Românĭ din Dobrogia. Eĭ intrară în casă cu atâta sgomot ca şi cum ar fi intrat în propria lor locuinţă. Bĕtrênul Nenciu, conoştea pe unul din eĭ, căcĭ  oare când îl maĭ găzduise; pe cel de-al doilea nu 'l vĕȡuse nicĭ odată.</p>
+ <p>— Credeam că n’o să ne maĭ deschiȡĭ, bade Nenciule. ȡise cel cunoscut, 'nalt, chipos și plin de vigoare.</p>
+ <p>— Dacă nu ne-aĭ fi deschis, sfărâmam pórta; nicĭ nu putém să facem într'alt fel cu niște câinĭ ca voĭ, mormăĭ cel-alt militar, ciupit de vĕrsat, și negru ca un țigan, după ce aruncă o lungă ochiadă frumoaseĭ Gherghine.</p>
+ <p>Bĕtrênul se făcu că n'auȡise aste cuvinte ame-nințătoare, și cu multă bună-voință îĭ pofti să șeaȡă. Militariĭ șeȡură, dar cel ciupit nu 'șĭ maĭ ridică ochiĭ de la Gherghina, care dupe cum se părea, era singura pricină a venireĭ lor.</p>
+ <p>Nenciu aprinse luleaua și o întinse necunoscutu-luĭ ȡicêndu-ĭ:</p>
+ <p>— Bine-aĭ venit în casa noastră, voinice.</p>
+ <p>Dar el respinse cu dispreț luleaua bĕtrênuluĭ și se resti:</p>
+ <p>— Nu ne trebue nouă lulele din gura vóstră; dăne maĭ bine rachiŭu de bĕut !...</p>
+ <p>Nenciu cu mândrie se retrase din fața necu-viinciosuluĭ mosafir și întinse luleaua celuĭ-alt; acesta fumă de câte-va orĭ și o dete iar bêtrâ-nuluĭ.</p>
+ <p>— Nevastă, ȡise Nenciu Velkeĭ, dă voinicilor rachiŭ și ceva de-ale mâncăreĭ, și apoĭ șeȡu pe laviță, fumând maĭ mult ca în tot-d'auna din lulaeua sa și aruncând din când în când asupra necunoscutuluĭ câte o privire furișe.</p>
+ <p>Văȡuse el multe oștirĭ și româneștĭ și turceștĭ și tot felul de oamenĭ rĕĭ, dar ca în acea seară nusimțise spaima în sufletul sĕŭ. Cu cât se uita</p>
+ <p>asculte vorbele luĭ Nenciu. Dar peste un minut îĭ ȡise:</p>
+ <p>— Bĕtrêne!... Nu te amesteca acolo unde nu 'ţĭ fierbe oala. Mie 'mĭ place fie-ta; eŭ vorbesc cu dênsa, nu cu tine!... dacă ţi-am venit în casă. am făcut'o numaĭ pentru ea!... M'aĭ înţeles?..., Dacă nu 'ţĭ veĭ băga minţele în cap te-apuc de albaţĭ barbă şi te arunc afară cu uşă cu tot!..</p>
+ <p>Bietul bĕtrên se sculă dupe laviţă şi cu o pri-vire plină de mândrie privi drept în faţă pe Marin beat şi îndârjit cum îl făcuse rachiul.</p>
+ <p>— In adevĕr, ȡise bĕtrênul, aĭ fost maĭ rĕŭ la suflet de cât te credeam. Ast-fel trebue să 'mĭ vorbeştĭ, dupĕ ce te-am priimit în casa mea ? Daca nu te-aşĭ fi cunoscut, aş fi făcut acelaş fapt cu care tu mĕ ameninţĭ acum..... Aide!... Eşiţĭ din casa mea, şi mergeţĭ cu D-ȡeŭ ! Lăsaţi-mĕ in odihna bĕtrêneţelor mele !</p>
+ <p>— A!... câine afurisit!... răcni Marin ca un taur şi se aruncă la gâtul sermanuluĭ bĕtrên.</p>
+ <p>Istrati ênsă reuşi să descleşteze ghiarele tova-răşuluĭ sĕŭ din gâtul bĕtrênuluĭ şi îl făcu să şeaȡă jos, după ce se maĭ linişti puţin.</p>
+ <p>Nenciu turbat de mânie, voĭ să se repeaȡă la Marin să'l sfâşie; dar Gherghina cu o mare repe-ȡiciune se puse între tatăl eĭ şi soldat.</p>
+ <p>— Linişteşte-te, taică, se rugă ea cu lăcrămile în ochĭ, nu veȡĭ că sunt beţĭ. Să nu-ţĭ facă vre-un rĕŭ... Nu veȡĭ ce oamenĭ fără inimă sunt?...</p>
+ <p>— Lasă-ĭ în plata luĭ Dumneȡeŭ, urmă a ȡice şi bĕtrêna, care până acum ascultase cu multă răbdare; ăştĭ oameni te pot omorî... Ia uite-te ce ochĭ de tâlhar. Parcă sunt fiare selbatice !</p>
+ <p>Intr’adevăr, Marin era înfuriat... privirile luĭ eraŭ aţintite cu mânie asupra bătrênuluĭ; din mijlocul aceleĭ furiĭ scoase un răcnet înăbuşit şi apoĭ se repeȡi la oala cu rachiu şi o golĭ până în fund...</p>
+ <p>— Ai noroc cu tovarăşul meŭ, care nu mĕ lasă să te sugrum!... Alt-fel ţi-aşĭ fi sucit gâtul ca la o vrabie,</p>
+ <p>— Vino'ţĭ în fire, bĕtrênule, ȡise Istrati luĭ Nenciu, noĭ vom pleca ; am bĕut cât ne-a tre-buit... şi iac'aşa!... acum putem merge.</p>
+ <p>Nenciu, se aşeȡă din nou pe laviţă, şi căută să se maĭ liniştească, ştergendu'şĭ fruntea de nă-duşeală.</p>
+ <p>Gherghina se retrase într'un colţ al caseĭ aştep-tând, cu nerăbdare să plece răutăcioşiĭ oaspeţĭ; bĕtrêna Velka s'aşeȡase lângă vatră şi numĕra cu spaimă bătăile inimeĭ sale.</p>
+ <p>In cele din urmă ceĭ doĭ soldaţĭ 'şĭ luară man-talele şi se pregătiră a pleca. Marin cu ochiĭ înflă-căraţĭ se îndreptă spre Gherghina.</p>
+ <p>— Noapte bună puişorule, mormăi el cu gla-sul luĭ de beţiv şi fără de ruşine apucase pe Gherghina de mijloc voind să o sărute.</p>
+ <p>Gherghina se smuci cu putere din braţele luĭ şi silindu-se a scăpa de neomeniile acestuĭ oaspete, strigă:</p>
+ <p>— Taică, nu mĕ lăsa.</p>
+ <p>Bătrânul ca o fiară sălbatică sări după laviţa pe care se liniştise, se puse între fiica sa şi Ma-rin şi aducênd de umerĭ pe neruşinat îl îmbrânci de cea-laltă parte a caseĭ. Privirea bĕtrênuluĭ era înfiorătoare, ochiĭ erau tulburaţĭ, buȡele îĭ tre-murau şi se acoperiseră cu spumă.</p>
+ <p>Nu mai era bĕtrênul de maĭ nainte liniştit şi răbdător, nu maĭ era acel primitor a unor ast-fel de oaspețĭ nelegiuitĭ; întreaga sa ființă se transformase într'uă fiiară sĕlbaică care muge și sfâșie pentru a'șĭ apăra puiĭ.</p>
+ <p>Muma vĕȡênd nenorocirea ce'ĭ amenința voĭ să sară în ajutorul bărbatuluĭ sĕŭ: dar ea nu avea putere, mintea i-se turbură și căȡu jos leșinată.</p>
+ <p>Istrati vĕȡênd acele ce se întâmplaŭ profită de ocaȡiune, și se repeȡi pe la spatele bĕtrênuluĭ și luă înbrațe pe Gherhina, care tremura și se desbătea în brațele miserabiluluĭ soldat</p>
+ <p>Marin susprins și amețit întru câte-va de în-furiatul bĕtrên, se repeȡi la un topor ce se găsea după ușe și maĭ înfuriat ca tot-d'auna îl ridică asupra bĕtrênului.</p>
+ <p>Gherghina înspăimêntată scoase un țipăt de disperare și se uruncă între tatăl sĕŭ și ucigaș : Ea voia să primească lovitura ca să scape pe tatăl sĕŭ de la moarte; dar era prea târȡiŭ. Șiroae de sânge curgea pe obrajiĭ germanuluĭ bĕtrên, un răcnet se auȡi din peptul luĭ sdrobit și corpul sĕŭ cățȡu jos fără putere. Gherghina în plansete sfâșietoare se aruncă pe cadavrul tatăluĭ sĕŭ.</p>
+ <p>Il chema mereŭ pe nume și cu poala sucma-nuluĭ sĕŭ îĭ ștergea obrajiĭ de sânge. Ea plângea, îșĭ smulgea pĕrul și nu știa cum să'l ajute. Căta să afle dacă maĭ trăește sau e mort. Dar ochiĭ luĭ se închiseseră, fălcele i-se încleștară și când Gherghina îĭ ridică capul între mâinile sale el recăȡu ca o bucată de plumb.</p>
+ <p>Marin cu o privire rătăcită se uită când la victima sa, când la toporul plin de sânge, dar ochiĭ sĕĭ oprindu-se și asupra fecioareĭ, fruntea sa se lumină ca și cum nu s'ar fi întâmplat ni-mic. Istrate luă pe ucigaș de mână, îl trase la o parte și-ĭ ȡise ;</p>
+ <p>— Aĭ omorât pe acest bêtrân, trebue se ascun-dem urmele crimeĭ tale; alt-fel suntem perduțĭ.</p>
+ <p>Marin tresări și mintea luĭ abătută și turbu-rată de rachiŭ începu să cugete la ceea ce făp-tuise.</p>
+ <p>Acum nu maĭ era beat, și plin de gróză d'a-bia cuteza că arunce câte-o privire spre acel ca-davru neînsuflețit. Se gândi la crima ca și la pe-deapsa cu care ar putea fi răsplătită, și prin min-tea luĭ trecu ideea de a fugi.</p>
+ <p>— Trebue să ștergem tóte urmele, reluă Is-trate, șoptindu-ĭ la ureche.</p>
+ <p>— Adevĕrul, trebue să ștergem tóte urmele, îngână Marin cu voce tremurătóre, dar cum, să ascundem aceste urme care îngrozesc?</p>
+ <p>— Iată cum, respunse Istrati pe șopțite:</p>
+ <p>Să-ĭ legăm unul de altul, să închidem ușile bine, să dăm foc caseĭ și ea va arde fără să lase cea maĭ mică urmă.</p>
+ <p>Marin se îngrozi din noŭ la acéstă nouă cri-mă ; el nu se aștepta nicĭ odată la ast-fel de pro-punere din partea tovarășuluĭ sĕŭ. De o cam dată el nu voĭ să priméscă acestă propunere și măr-turisi că propunerea luĭ este de a se preda singur în mâna justițieĭ ! dar frica spânzurătóreĭ saŭ a uneĭ morțĭ teribile îl făcu să renunțe la acéstă idee și să se încline către aceea a tovarășuluĭ sĕŭ. Cu alte cuvinte pe lângă o victimă se maĭ sa-scifice încă două pe altarul nelegiuireĭ lor.</p>
+ <p>— Prea bine, ȡise el vom face ceea ce creȡĭ tu de cuviință.</p>
+ <p>cul caseĭ unde ardea cu vălvorĭ focul aprins de ceĭ doi omorâturĭ, și cu pericolul de a'și frige mâinele, le întinse de-asupra flăcărilor, ca ele să arză frighia cu care era legată şi ast-fel să poată scăpa pe fiica sa. Peste câte-va minute casa se umplu de un miros de friptură, căcĭ în-tr'adĕver mâinele Velkeĭ, până să se consume frânghia suferiră o friptură din cele maĭ grozave. Acelaşĭ lucru făcu şi cu piciórele, dar, ele nu suferiră mult, căcĭ se deslegară maĭ repede ... După ce sermana mumă se vĕȡu deslgată, se târă cu toate forţele ce-ĭ maĭ remăseseră până la copila sa, cară zăcea întinsă pe pămênt şi cu ajutorul mâinilor şi a dinţilor reuşi a o deslega.</p>
+ <p>— Acum fugĭ copila mea. plécă de-aci până e vreme ...</p>
+ <p>— Dar d-ta mamă ? ȡise fata abia vorbind.</p>
+ <p>— Eŭ ? ... Eŭ nu maĭ pot să trăesc .. . n'am putere să trăesc ... Şi sermana femee abia maĭ putea vorbi.</p>
+ <p>— Mamă ! ... strigă cu disperare Gherghina.</p>
+ <p>— Plecă ! . . . Mergĭ . .. de . . . nunţă ... pe o morătoriĭ ta . .. tă . .. luĭ tĕŭ.</p>
+ <p>Abia putu să pronunţe aceste cuvinte şi bătrâ-naVêlka, căȡu fără simţire lăngă bărbatul sĕŭ.</p>
+ <p>Gherghina remase singura, vĕȡêndu-se fără pă-rinţĭ, fără casă, fără nicĭ un sprijin, nu cugetă pentru un moment de cât la resbunare ... la o cumplită resbunare. De acea ea se tărî pe pă-mênt până ce ajunse la uşa de eşire. Acolo trase un cârlig ce se afla sub uşe, şi care deschidea ambele canaturĭ, reuşi să iasă afară. Dupe ce respiră câte-va minute aerul curat, o porni prin pădure cu paşi grăbiţĭ, uitându-se prin prejurcu mare luare aminte, de teamă ca nu cum-va să fie surprinsă de ucigătoriĭ părinților sĕĭ. In urma eĭ casa se acoperise cu flăcărĭ și Gherghina se despărțea pentru tot-d'auna de părințiĭ eĭ și de locașul în care crescuse</p>
+ <p>Ajunsese spre mijlocul pădureĭ, când auȡĭ îna-intea sa niște pașĭ cadențațĭ și maĭ multe vocĭ care convorbeaŭ împreună. Creȡu că sunt ceĭ doĭ ucigașĭ. Inima-ĭ începu să bată mai tare. Frica o coprinse așa de grozav în cât încremeni în loc, fără să poată merge nicĭ înainte nicĭ îna-poĭ. Peste un minut îșĭ readună puterile și apu-când printre arboriĭ din dreapta se piti în do-sul unuĭ copac scorburos și 'șĭ ascuți urechile să afle de unde venea sgomotul. spre marea eĭ îngrozire, sgomotul în loc să descrească el creș-tea din ce în ce și se apropia mereŭ. Atuncĭ biata fată își făcu semnul cruceĭ și se lăsă în voia luĭ Dumneȡeŭ. Privirile-ĭ însă erau îndrep-tate spre partea unde se auȡiaŭ aceĭ pașĭ. Când se apropiă sgomotul, ea auȡi douĕ vocĭ de fe-meĭ și o voce de bărbat, care nu semăna câtușĭ de puțin cu acele ale ucigașilor. Bucuria se în-tipări pe obrajiĭ eĭ, și la orĭ ce întâmplare se hotărî să iasă în calea acelor călătorĭ și să le ceară ajutor.</p>
+ <p>— Oamenĭ bunĭ, le ȡise ea, avețĭ milă de mi-ne, scăpați-mĕ .. sunt o nenorocită...</p>
+ <p>— Cine ești tu? întreabă ofițerul care condu-cea pe Marioara și pe muma eĭ; căcĭ ne adu-cem aminte de dênșiĭ cum dorind să ajungă maĭ repede în Silistra, treceaŭ prin acea pădure în toiul nopțeĭ.</p>
+ <p>— Sunt o nenorocită, urmă Gherghina, părințiĭ meĭ aŭ fost ucişĭ şi casa noastră, care se află în crângul vecin, a fost arsă de doĭ oamenĭ ne-legiuiţĭ, doĭ soldaţĭ din oştirea românească, căro-ra le'am dat ospitalitate şi ei ne-aŭ bajocorit, ucigând în urmă pe părinţiĭ meĭ!</p>
+ <p>— Şi unde vĕ este casa ? ... întrebă din nuoŭ ofiţerul.</p>
+ <p>— La o mică distanţă de aci.</p>
+ <p>— Sermana copilă ! mumură Marioara.</p>
+ <p>— Bine fetico, ȡise ofiţerul, vino cu noĭ, pó-te maĭ este încă vreme de scăpare, să mergem spre casa voastră...</p>
+ <p>— Casa ne este chiar în drum, vom trece pe acolo; dar e prea târȡiŭ ; mama şi tata sunt morţĭ, iar casa a ars împreună cu eĭ,</p>
+ <p>— Şi cine sunt aceĭ soldaţĭ ?</p>
+ <p>— Nu ştiu cum îĭ chiamă.</p>
+ <p>— Dar, dacă 'ĭ-aĭ vedea, aĭ putea să'ĭ cuno- Da!...</p>
+ <p>— Bine atuncĭ!... Iĭ vom descoperi. Acum'aide cu noĭ ... Fiĭ pe pace, nu veĭ avea să te maĭ temĭ tĭ ? de niminc.</p>
+ <p>— Ofiţerul, Marioara şi muma se arau călărĭ. — Gherghina fu ridicată de ofiţer pe spatele şeleĭ caluluĭ sĕŭ, şi cu toţiĭ porniră încet pe drumnu. nu se maĭ opriră la casa Gherghineĭ; căcĭ nu maĭ aveaŭ ce căta; ea se prefăcu în cenuşe. In ĭ de ȡiuă trecuseră pădurea şi se opriră într'un loc unde se afla o parte din oştirea românească. greşit că aceĭ doĭ soldaţĭ trebuiaŭ să facă par- din acel corp. Ofiţerul avu grijă, când intră în ca Cherghina să nu fie văȡŭtă de nicĭ unul soldaţĭ. Cum poposiră, el denunţă faptul comandantuluĭ aceluĭ corp şi acesta chemă la fa-</p>
+ <p>— Ertare!.... ertare !.... se rugară ceĭ douĭ soldațĭ.</p>
+ <p>— Nicĭ un cuvênt!... Luați-ĭ!...</p>
+ <p>Peste o oră, douĕ cadavre eraŭ înfipte în țea-pă la marginea satuluĭ, unde se adunaseră toțĭ săteniĭ cum și mare parte din soldațĭ ca să pri-vească.</p>
+ <p>— Dumnezeu să-ĭ ierte, ȡiceaŭ uniĭ.</p>
+ <p>— Așa le trebue ! ȡiceaŭ alțiĭ. Să fie spre în-vățare de minte.</p>
+ <p>— Eraŭ bețĭ! ziceaŭ mulțĭ,</p>
+ <p>— Daca aŭ fost bețĭ, de ce nu s'aŭ ucis pre eĭ !.. replica o altă parte de privitorĭ.</p></div>
+   
+   <div type="chapter" n="17">
+ <head>XVII</head>
+ <p>Dar să lăsăm pe ceĭ doĭ soldațĭ omorâtorĭ să 'șĭ dea ultima suflare în țeapa îngroȡitoare și să revenim la victima lor remasă în viață, la Gher-ghina, care nu maĭ știa cum să mulțumească o-fițeruluĭ și celor douĕ femeĭ ce 'l însoțeaŭ.</p>
+ <p>— Marioara, vĕȡênd marea nenorocire a Gher-ghineĭ, că este orfană și fără de nicĭ un sprijin în lume, îĭ propuse să meargă cu ea, făgăduind c'o va avea ca o tovarășe a sa, ca pe o priete-nă de nenorocirĭ.</p>
+ <p>Gherghina primi bucuros, și chiar în acea ȡi plecară împreună spre Silistra, unde Marioara ardea de nerăbdare să afle de Corbea.</p>
+ <p>In fine, dupe o lungă călĕtorie ajunseră în Si-listra și primul lucru ce făcu Marioara însoțită de ofițerul care o condusese, era să se ducă în-naintea Domnuluĭ Mihaiŭ și să-ĭ ceară grație a cerceta de Corbea. Negreșit că ea ajungênd în Silistra, aflase că el fusese prins și că la lua-rea cetățeĭ nu s'a găsit nicĭ printre prisonierĭ, nicĭ printre morțĭ. Cu toată durerea și dispera-rea eĭ, Marióra, tot maĭ avea o rațȡă de speranță.</p>
+ <p>— Nu ! cugeta ea, el nu e mort! Nu se poate să fie mort !. ..</p>
+ <p>Sĕrmane ființe iubitoare !... Pentru ele totul e imposibil Chiar când viața îșĭ dă ultima su-flare, când corpul devine rece și nesimțitor, lor tot li se maĭ pare că inima bate, că se mișcă, în fine speranța lor nu poate fi înghiețată nicĭ chiar de frigul morțeĭ.</p>
+ <p>Așa era și Marióra. Ea mersese la Mihaiŭ, să îĭ ceară grația, a descoperi urmele luĭ Corbea. Acesta îĭ acordă toate drepturile de a face orĭ ce va ști sa-ĭ dea de urme. Spre acest scop, Domnul însărcină pe căpitanul Sburlea să o a-jute orĭ unde va cere trebuința.</p>
+ <p>Cercetară cu dea măruntul în toate părțile, dar nu descoperiră de cât, prin torturĭ de la ia-niceriĭî prinșĭ, cum că Corbea fusese introdus în cabinetul Pașeĭ, dar că de acolo nu'l vĕȡură e-șind nicĭ viŭ nicĭ mort.</p>
+ <p>— O idee trecu prin mintea căpitanuluĭ Sburlea, și el ȡise Marioareĭ:</p>
+ <p>— Dacă n'o fi mort, apoĭ trebue să fie închis unde-va în sandul pașeĭ.</p>
+ <p>— Așa 'mĭ închipuesc și eu, ȡise Marióra, cu fața înseninată.</p>
+ <p>Dar de treĭ ȡile, de când am intrat în Silistra, el va fi murit de foame și de sete; cine ar fi putut bănui.</p>
+ <p>Ochiĭ Marioareĭ se umplură de lacremĭ, căcĭ ea cugeta un moment cu seriositate și'șĭ închi-pui că speranțele eĭ nu vor fi de cât visurĭ. Cu toate acestea ea avea încă curagiŭ.</p>
+ <p>— Să căutăm, ȡise ea, să căutăm în saraiul Turculuĭ.</p>
+ <p>In timp de 2 ceasurĭ, nu remăsese loc ne căutat, ascunȡătoare nedibuită. Dar în van !..., Corbea nu se găsea nicăerĭ. Numaĭ pivniţa re-măsese necăutată: dar aci nu aveaŭ nevoe să maĭ intre; căcĭ soldaţiĭ românĭ intrasereră de mul-te orĭ, ca să se proslăvească de vinurile deli-cioase ale Paşaleĭ şi nu găsiră nicĭ o urmă de a luĭ Corbea.</p>
+ <p>Cu toate acestea o ultimă încercare nu era nefolositóre. Marioara însoţită de căpitanul Spur-lea şi de maĭ mulţĭ soldaţĭ, pătrunse până în fundul pivniţeiĭ. Eĭ esaminaŭ cu luare aminte toate colţurile, toate locurile cănd Mărioara scoase un ţipăt sfâşietor, în urma căruia pronunţă a-ceste cuvinte:</p>
+ <p>— Aicĭ este !... Oh! Doamne !... aicĭ este !... Auȡiţi-l cum geme!</p>
+ <p>Toţĭ se strânseră în jurul Marioareĭ. De-o cam dată creȡ0ură că a înebunit, dar în locul unde se oprise Marioara veȡură o uşă practicată în zid şi două fiare puse de-a curmeȡişul aceleĭ uşĭ; iar în dosul eĭ se auȡeau nişte gemete înăbuşite. Intr'o clipă sfărâmară acea uşă, şi când pătrun-seră înăuntru, vĕȡură la lumina felinarelor, pe bietul Corbea întins la pămênt şi muşcând ţe-rĕna cu disperare, maĭ mult mort de cât viŭ.</p>
+ <p>El trăise acolo treĭ ȡile fără apă, şi gâtul i se arsese de sete. Când intrară aceĭ care eraŭ să'l sca-pe de la moarte el nicĭ nu putea să-l simţă! nu maĭ avea cunoştinţă de nimic.</p>
+ <p>Marioara se aruncă pe corpu-ĭ şi începu a-l stri-ga pe nume, vĕrsând şiroae de lacremĭ şi plângând cu hohot. El însă era o fiinţă maĭ mult aproape de mormênt.</p>
+ <p>Il ridicară din acea sub-pămêntă şi graţie uneĭ îngrijirĭ deosebite, Corbea tocmaĭ a doua ȡi îşĭ veni în fire şi începu să recunoască pe aceia care-ĭ vorbeaŭ.</p>
+ <p>Mihaĭ, însuşĭ veni la palatul sermanuluĭ Corbea ca să'l vaȡă şi să 'ĭ întinȡă mâna, arătându-ĭ bucuria ce simţea pentru scăparea luĭ.</p>
+ <p>Pe vremea aceea, Vodă era părintele ostaşilor sĕĭ. Iubirea luĭ era din inimă, iar nu conţinută în discursurĭ, ticluite de cine ştie cine.</p>
+ <p>Numaĭ Marioara, din momentul când trebuia s'o cunoscă se ascunse de Corbea. De ce? Toţĭ o sfătuiseră, că la vindicarea luĭ, să nu ĭ se arate de-o dată ca să nu-ĭ facă o prea mare bucurie, fapt care 'l-ar înebuni saŭ chiar omorî. De aceia, găsiseră cu toţiĭ mai prdent, ca să'l prepare maĭ întâiŭ şi pe urmă să vaţȡă cu Marioara.</p>
+ <p>Când totul fu gata şi când Marioara se arătă, eĭ se strânseră în braţe, plâseră ca doĭ copiĭ, şi nu se deslipiră unul de la pieptul altuia de cât dupe un lung timp, dupe ce inimile lor bătură îndes-tul şi ochiĭ lor versară destule lacrămĭ de bucurie.</p>
+ <p>Eraŭ fericiţĭ frumoşiĭ tineriĭ, dar cu câte sacrificiĭ, cu câte suferinţe, nu-şĭ regăsiră eĭ fericirea. Cu tóte acestea, eĭ se încredinţară, că nimic nu-ĭ va maĭ despărţi. Aveaŭ drept apărător pe Dom-nul ţĕreĭ, drept speranţă o fericire nesfărşită ; iar drept credinţă aveaŭ iubirea lor curată şi păs-trată cu preţul cel maĭ scump, cu espunerea vieţeĭ.</p>
+ <p>Când resbelul luĭ Mihaiŭ cu Turciĭ fu terminat, oastea românească se întoarse în țară, și Corbea cu Marioara se stabili în Bucureștĭ unde dusera o viață dulce și neturburată. Muma Marioareĭ era geniul bun, care veghia în tot deauna asu-pra lor; Gherghina devenise cea maĭ bună și cea maĭ devotată prietină a Marioareĭ, căcĭ ea fu-sese luată de femeea luĭ Corbea, întocmaĭ ca o adevĕrată soră. Nu mult dupe aceea, veni și muma luĭ Corbea, bătrêna Vochița să se împăr-tășească la fericirea acestor copiĭ. Ea însă nu locuĭ cu dânșiĭ în oraș, nu voise să stea de cât la țară ; dar din când în când, și foarte arare orĭ, venea să-ĭ vadă și să se bucure de norocirea lor.</p>
+ <p>De atuncĭ trăiră tot restul viețeĭ lor într'o iubire continuă, femeea făcênd fapte bune și cari-tabile față cu semeniĭ sĕĭ; iar bărbatul serviudu-șĭ țara ca un adevĕrat fiŭ.</p></div>
+ <trailer>FINE</trailer>
+  </body>
+<back><p></p></back>
+</text>
+</TEI>

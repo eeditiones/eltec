@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00823" xml:lang="hu">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A varchoniták : ELTeC edition</title>
+            <author ref="viaf:59084200">Jókai, Mór  (1825-1904)</author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Takács Emma</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">19821</measure>
+            <measure unit="pages">84</measure>
+         </extent>
+         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
+               <title>A varchoniták</title>
+               <date>2003-03-29</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="http://mek.oszk.hu/00800/00823"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Király Péter</name>
+                  <name>Pétery Kristóf</name>
+               </respStmt>
+               
+               
+            </bibl><bibl type="firstEdition">
+               <title>A varchoniták</title>
+               <author>Jókai Mór</author>
+               <date>1857</date>
+            </bibl><bibl type="digitalSource">
+                     <title>Jókai összes művei, CD-ROM</title>
+                     <idno type="isbn-10">963 9374 17 2</idno>
+                     <pubPlace>Budapest</pubPlace>
+                     <publisher>Arcanum</publisher>
+                     <date>2001</date>
+                  </bibl><bibl type="printSource">
+                     <title>A varchoniták/A kalózkirály</title>
+                     <author>Jókai Mór</author>
+                     <pubPlace>Budapest</pubPlace>
+                     <publisher>Unikornis Kiadó</publisher>
+                     <date>1995</date>
+                  </bibl></sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="hu"/>
+         </langUsage>
+         <textDesc>
+            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
+         <change when="2019-04-18"/>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="chapter">
+            <head>I.</head>
+            <p> Krisztus születése után ötszáznegyvenötödik évben egy addig ismeretlen része a
+               világnak kezdé a historikusok figyelmét magára vonni.</p>
+            <p> Egy mesés világrész Ázsia belsejében, körös-körül kétezer mérföldnyi távolban minden
+               tengerparttól, melynek magas hegyeiről a világ mind a négy részeiben lakók azt
+               tarták, hogy ott a világ vége.</p>
+            <p> E hegyek fehér ormai messze belátszanak Kína, Perzsia, India és Szibéria határaiba,
+               szétágazva hosszú láncolatban.</p>
+            <p> A rómaiak nevezik Imausnak, a csinek Altájnak, a perzsák Kafhegynek.</p>
+            <p> Ezek ama mesés „aranyhegyek” – a földnek öve, melyek a pars mitológiában az istenség
+               által érző idegekkel vannak ellátva; itt beszél Isten a földdel, midőn azt akarja,
+               hogy az megrázkódjék az emberi bűnök terhe alatt, s tövisekkel, szárazsággal,
+               viharokkal árassza el a népeket, vagy midőn azt akarja, hogy édes éltető melegség
+               terjedjen szét fűbe, fába, s bőség és öröm tenyésszen az egész mosolygó világon. E
+               hegyek talapzatában van azon roppant zafírkő, melynek visszfényéből támad az égnek
+               azúrkék színe.</p>
+            <p> Így szól a pars mitológia.</p>
+            <p> De nem arany és nem smaragd terem azon hegyek keblében: ereik gazdagsága vas; a vad
+               geoug nép – ahogy e nevet görög klasszikusok szokták írni – e bércek legrégibb ura,
+               vassal szokott innen kereskedni, ha szabad így neveznünk a háborút.</p>
+            <p> Valami tatár faj volt ez, fényűzésre, kényelemre éppen úgy hajlandó, mint ahogy
+               munkára nem; házait más építé, földjeit más mívelte, selymét, bíborát idegen ország
+               termé, neki csak az elvevésre volt gondja; még fegyvereit is más kovácsolta; valami
+               kóbor nomádfaj, melyet leigázott, volt arra kárhoztatva, hogy az Imaus-hegyi
+               vasbányákból előhozza a fegyvernek való ércet, s kardokat és nyilakat kovácsoljon
+               belőle.</p>
+            <p> Ezek voltak a varchoniták, a legelvetettebb, a legszegényebb valamennyi rabszolgafaj
+               között, melynek még csak joga sem volt az élethez, nem hogy örömei lettek volna
+               benne. Asszonyai nem ismerték a piperét, férfiai a kényelmet, gyermekeik felnőtt
+               korukig nem jártak ruhában, törvényeik, isteneik nem valának, hajlék, épület kényelme
+               hírben sem létezett náluk, bornak és kenyérnek még nevét sem hallák; ölhette őket,
+               aki akarta, szabadon, mint más akármi vadat, kiket senki sem vesz számba.</p>
+            <p> És mégis a varchoniták évről évre szaporodtak, és gyermekeik izmosaknak,
+               életrevalóknak születtek, és hölgyeik szépek voltak, délcegek, erőteljesek, férfiaik
+               mindegyike óriás, s a százéves kor náluk még csak öregségnek sem volt nevezhető, s ha
+               nem volt is náluk vallás és világi törvény, de volt erkölcstisztaság.</p>
+            <p> Egyszer egy varchonita nő geoug vadászoktól üldöztetve, ölében vitt csecsemőjét
+               elrejté a bokrok közé, s maga ellenkező irányban kezde futni, hogy amazokat másfelé
+               térítve, gyermekét megszabadítsa tőlük.</p>
+            <p> A durva üldözők nemsokára lelőtték az anyát nyilaikkal, mint valami kártékony vadat,
+               a csecsemő ott maradt a bokrok között.</p>
+            <p> Hogy a keleti rege nem lopott eszméje a rómainak, arról eredete kezeskedik; az
+               ismert világrészeken túl, hol Rómának még nevét sem hallák, egy vad, elnyomott, erdei
+               közé szorított nép között ismételve lőn Romulus és Remus regéje.</p>
+            <p> Egy nőfarkas meghallá a csecsemő sírását, s szoptatni kezdé azt. Ez időtől fogva
+               kezdenek a farkasok mítoszi befolyással lenni a varchonitákkal rokon fajok
+               eseményeire.</p>
+            <p> Mikor már a gyermek megerősödött, s tudott futni és harapni, mint a többi kis
+               farkasok, akkor ráakadtak nemzetebeli férfiak, s magokkal vivék azt, és átadva
+               nejeiknek, azok felnevelék őt ember módra, s Bertezena nevet adtak neki.</p>
+            <p> De benne volt már a fiúban a szabad vadállat teje, s midőn felnőtt és ifjúvá
+               erősödék, s társaival együtt durva bőrkötényét maga elé kötve, a kovácsüllő előtt
+               veré a szikrázó vasat, szikrázó gondolatok támadtak fejében.</p>
+            <p> – Hát e fegyver nem volna olyan jó a mi kezünkben, mint azokéban, akik ezt velünk
+               készíttetik? – monda egyszer egy pihenő órában izzadságaikat törlő társainak. – Hát
+               azért készítünk mi láncot és kardot, hogy az elsőt mi viseljük, a másikat
+               ellenségeink? Hát nincs jogunk nekünk megölni azt, aki bennünket öl? S használni azt
+               a vasat, melyet magunk élesíténk? Mit veszthetünk mi, ha vesztünk? Van nekünk
+               valamink, amiért drága az élet? Próbáljuk meg, jól metszenek-e a magunk kovácsolta
+               kardok!</p>
+            <p> Az ifjaknak tetszett a szó, a nők is biztatták őket, s a vének még emlékeztek
+               boldog, rég elmúlt időkre, mikről apáik diadalmak meséit regélték nekik.</p>
+            <p> Ott körülfogták Bertenezát, s áhítattal hallgaták szavait. – Testvérek! Íme,
+               parancsolóink ismét kétszázezer kő vasat ásattak ki velünk, hogy két hó leforgása
+               alatt negyvenezer kardot kovácsoljunk belőle. Ez terhes munka nekünk; de én tanácsot
+               mondok, miként segítsünk rajta. Ha negyvenezer kardot készítünk, minden kard leend
+               ötfontos. Készítsünk csak tízezeret, de legyen mindegyik húszfontos. Ez egyre megy,
+               minden kard néggyel fog felérni, mert négynek a súlya lesz benne.</p>
+            <p> A férfiak helybenhagyták a tanácsot, s mire a két hó lefolyt, elkészültek a
+               húszfontos kardok.</p>
+            <p> A geoug sereg is megérkezék, azokat átvenni. Büszke vezérük lóhátról beszélt a
+               félmeztelen bőrkötényes varchonita rabszolgákkal, kiket rövidség okáért csak
+               kutyáknak nevezgetett.</p>
+            <p> – Te ősz kutya – monda egy kiszemelt vénnek –, lépj elő, hadd beszéljek veled!</p>
+            <p> – Ez itt vezérünk, első emberünk, Bertezena – szólt az agg, az ifjúra mutatva.</p>
+            <p> – Mit? Tinektek vezértek van, kutyák? Mióta választanak a farkasok maguknak
+               fejedelmet? Mióta lehet valaki rabszolgák között legelső, akik mindnyájan utolsók?
+               Mióta mertek ti magatoknak neveket adni, hogy egyiket a másiktól megkülönböztessétek,
+               holott mindnyájan egyenlők vagytok? – No, tehát lépj elő, te első kutya! Hol a
+               negyvenezer kard?</p>
+            <p> Bertezena kinyújtá izmos karjait, melyek vastagok voltak, mint egy cserfaág,
+               fölemelé nagy, büszke homlokát, hogy szinte oly magas volt gyalog, mint a tatár vezér
+               lóháton, s elkezdé magyarázni a dolgot.</p>
+            <p> – Dicső vezér, a kardok készen vannak, a kétszázezer font vasat mind kardnak
+               kovácsoltuk; de hogy mesterségünket megjavítsuk, négy kardból készíténk egyet,
+               húszfontosat tízezeret, ekként tízezer karddal annyi munkát lehet tenni, amennyit
+               máskor negyvenezerrel.</p>
+            <p> A tatár odavolt bámulatában.</p>
+            <p> – Te nagy kutya! Tréfálni akarsz velem ugye, hogy így beszélsz? Mutasd azt a
+               kardot.</p>
+            <p> Bertezena odanyújtá a nehéz pallost a tatárnak, ki amint egyet vágott vele a
+               levegőben, kiejtette azt a kezéből, s dühösen támadt az ifjúra.</p>
+            <p> – Te veszett állat, hát azt hiszed, hogy lehet harcolni ez idomtalan vassal?</p>
+            <p> – Azt majd mindjárt be is bizonyítom előtted – monda Bertezena, fölemelve a nehéz
+               kardot, s könnyeden, mint egy pálcát megforgatá azt a feje fölött, s azzal úgy
+               hasította vele ketté a tatárt, hogy fele jobbra, fele balra hullott.</p>
+            <p> Erre általános csataordítástól zendült meg az erdő; a varchonita ifjak fölkapták a
+               fegyvereket, nem volt az nehéz az ő kezeiknek, de nehéz volt a tatárok fejének;
+               igazán négy kardot ért mindenik, mert azon az egy napon tízezer varchonita harcos
+               negyvenezer geougot vert agyon az erdők közt.</p>
+            <p> E naptól fogva nem készített a varchonita nép láncot magának és kardot az
+               idegennek.</p>
+            <p> Bertezena lett fejedelmük, s a geoug nagykhán azon vevé magát észre, hogy megszűnt
+               az Imausnak ura lenni. Békét is hagyott a varchonitáknak, várva jobb időkre,
+               mindaddig, míg Bertezena a khán egyik leányát megszeretve, azt nőül nem kérte.</p>
+            <p> E vakmerőség haragra gerjeszté a nagykhánt; egy fegyverkovácsból lett fejedelem,
+               kinek király korában sincs mit enni, az ő leányára meri vetni szemeit! Ezt nem lehete
+               bosszulatlan hagyni. Rögtön fölülteté hadait, s kétszázezer lovassal megindult
+               Bertezena nősülési kedvét elvenni.</p>
+            <p> A varchoniták engedék őt hegyeik közé jönni, s mikor ott saját sokaságától nem bírt
+               mozogni, bezárták völgyszorosaikba, s egy tíz napig tartó harcban kiirták hadát az
+               utolsó emberig.</p>
+            <p> A tatárfaj e csapástól fel nem bírt üdülni egész Dzsingiszkánig. Leszorult saját
+               határai közé, tért engedve a varchonita nép kifejlődésének, s bár örökké harcot
+               viselt vele, soha sem bírta azt többé legyőzni.</p>
+            <p> E szittyafaj azután évről évre szaporodott, kibocsátott rajai majd hun, majd török,
+               majd avar név alatt megismerteték magukat Perzsiával, Kínával és Európával; a kínai
+               olcsó hadsorok omlottak fegyvereik alatt türelmesen, mint a lekaszált fű, s a kínai
+               bölcsek nem győzik magasztalni császáraik jóvoltát, kik vassal nem bírván többé,
+               aranylándzsákkal űzték vissza elleneiket. Érts alatta adófizetést.</p>
+            <p> A varchonita nép megnagyobbodva, lassankint két részre kezde bomlani; az, mely
+               Kínához közelebb volt, nevezte magát töröknek, amelyik Perzsiához esett, ogurnak.</p>
+            <p> Helyzet, életmód és vallás lassankint különbözőkké tették őket; az ogurok a pars
+               vallást vevék fel, az elemek, nap és csillagok imádatát; amazok maradtak durvább
+               jelképeiknél, miket szinte nemigen nagy buzgalommal tiszteltek; az ogurok finomultak,
+               nemesültek külső viseleteikben, házakat építettek, s azokat csínnal ékíték fel,
+               hosszú hajaikat szalagok közé fonták, s szűk, testhez idomult öltönyt viseltek;
+               amazok sátrak alatt laktak, státusbölcsészetük alapja levén, hogy oly nép nem
+               harcolhat, melynek városai vannak; a melegebb éghajlat kényszeríté őket fejüket
+               borotválni, s bő öltönyt viselni, végre a különféle szomszédokkal érintkezés még
+               nyelvüket is úgy elkülöníté egymástól, hogy utóbb alig maradt egyéb nyoma közös
+               eredetüknek a közös emlékeknél, mik firól fira maradtak: egyiknek hadi zászlója egy
+               gyermeket szoptató farkas volt, másiké egy bőrkötény, melyet egykor Bertezena viselt,
+               s melyet később diadalok emlékei, gyöngyök és drágakövek ékesítének, s hogy az ország
+               fejedelmei megemlékezzenek eredetükről, mindkét népnél volt egy nagy ünnepnapja az
+               évnek, melyen a fejedelmek és vezérek bőrkötényt kötve, az egész nép előtt egy
+               megtüzesített vasdarabból kardot kovácsoltak.</p>
+            <p> Az ogurokat különbözőkké tették elvált rokonaiktól a szelídebb hajlamok, költőibb
+               vallás, nemesebb éghajlat, szabadabb szellem, békésebb foglalkozások, lovagiasabb
+               harcok és leginkább írásismeretük, melynek sajátságos rúnáit maig is mindenütt
+               feltalálni, amerre valaha jártak, az Irtisz és Jenyiszej mellett, durva obeliszkokra
+               vésve, a sírokba elásott kardokon, arannyal kiverve, s nehéz pénzeiken.</p>
+            <p> Ezek voltak amaz avarok, kiknek követei a hatodik század második félében megjelentek
+               Justinián trónja előtt, kardjaikat felajánlva neki, ha számukra Európában hazát
+               jelölend ki, s kiknek szövetségét a hetvenöt éves császár jó szóval és jó arannyal
+               vásárlá meg, megtelepítve őket Pannónia rónáin, védfalul a longobárd foglalók rohanó
+               árja ellen.</p>
+            
+            <p> Miért hagyták ők el őshazájokat, az Imaust, az arany hegyeket, a vastermő bércek
+               országát? miért hagyták el a hont, melynek vasláncait Bertezena vasnál keményebb
+               kezei összetörték? Miért vándoroltak idegen földre hazát keresni maguknak? Mit
+               vétettek nekik az ősi biztos bércek, hogy megváltak tőlük ismeretlen földeket
+               bevándorolni?…</p>
+         </div>
+         <div type="chapter">
+            <head>II.</head>
+            <p> Alkonyodva tekinte vissza a nap Irgana-Kon bércei mögül, a kék Túla partjain égtek
+               az oltár-tüzek, a táltosok esti himnuszaikat éneklék.</p>
+            <p> Az avar khagán, az ősz Oldamúr haldokolva feküdt sátorában. Országnagyjai, a gyulák,
+               rhabonbánok és vezérek könnyezve álltak ágya mellett, a vénség ezüstre, az alkony
+               sugárai aranyra festék hajfürteit, arcán csak a leáldozó nap fénye volt még az élet,
+               a lélek útra készen állt már.</p>
+            <p> – Lelkem könnyebbül és testem súlyosabb lesz – monda halk szóval az agg. – Adjátok
+               kardomat, hadd támaszkodom reá; sokszor emeltem azt a csatákon, most emeljen engem az
+               utolsó csatámban.</p>
+            <p> S azzal elmélázott újra, s mintha lelke elmaradt volna az utolsó gondolaton, percek
+               múlva ismét e gondolatnál sóhajta fel.</p>
+            <p> – Csata, csata! Milyen szép lett volna meghalnom ott! Ott! A kardok csattogása
+               között, a harci kürt rivallása mellett, a paripák dobogásainál. Hiába; megtagadta az
+               élő Isten. Koszorútlan fővel fogok ülni, őseim között legutolsó.</p>
+            <p> A rhabonbán csillapítva hajlott a haldokló ágya felé.</p>
+            <p> – Ne zúgolódjál, Oldamúr. Még nem zöldült ki a tubafa ajtód előtt, mely a halottas
+               házakat jelöli. S ha másnak dicső volt meghalni honáért, neked dicsőbb volt érte
+               élned. Nem is leendesz őseid sorában utolsó. Fiad, dicső fajodnak nem rosszabb utóda,
+               folytatni fogja nemzetünk történetét; adja az ég, hogy soha vége ne legyen annak.</p>
+            <p> – Igaz. Fiam, Dalma fiam – sóhajta Oldamúr, s e gondolatnál még halványabb lett,
+               mint azelőtt.</p>
+            <p> E pillanatban fölnyilák a sátor szőnyegeit, s beléptek a jósló táltosok. Hivataluk
+               valami közép volt pap és orvos között, ők voltak a nép jósai csaták előtt, énekesei
+               csaták alatt és história-írói csaták után.</p>
+            <p> A vén Fellengúr a haldokló elé lépett, oly vén volt már ő is, mint maga a khagán,
+               sok jó és rossz napot láttak együtt feljőni és lemenni.</p>
+            <p> – Mi hírt hozál a jóslatokból? – kérdé a khagán.</p>
+            <p> – Légy készen halálodra, Oldamúr– szólt fejét meghajtva a táltos. Rövid időd van még
+               csak élni. Ezt izeni Isten neked.</p>
+            <p> – Meghajtom fejemet – szól Oldamúr átszellemült arccal. Mint fogadó az ég áldozatod
+               füstjét?</p>
+            <p> – Magasan szálla az fel, mint egy reszketeg szobor, s a fellegekkel egyesült, minek
+               képleteiben mindenütt rád váró hősök alakját láttam.</p>
+            <p> – Megkérdezéd-e a jósló szüzet a túlvilág felől?</p>
+            <p> – Éppen most beszélte el álmát. Hét nap, hét éjjel feküdt aludva, eltemetve a
+               sírban. Hetednapon fölébrede, s amit ezalatt a túlvilágon járt lelke látott,
+               megdicsőült arccal beszélte el.</p>
+            <p> (Ez egy sajátságos jóslat neme volt a szittya fajoknál, ideges fiatal szüzek,
+               képzelethevítő szerek és szigorú böjt által bizonyos nemébe a letargiának merültek,
+               hüvelykujjaikat összeszorított kezükbe fogták, s hanyatt fekve visszatarták
+               lélekzetüket erővel, s ily helyzetben el hagyák magukat temetni, s néha hetek múlva
+               ásatva fel, arcukra és keblükre kent balzsamok által fölélesztettek
+               halálmerevségükből s beszéltek a sírban álmodott dolgokról. E jóslat nemét hítták „az
+               elrejtőzésnek”.)</p>
+            <p> – Mi hírt hozott a szebb hazákból? – kérdé Oldamúr.</p>
+            <p> – Ott járt, hova őseid felszálltanak, Istenhez közel, az örökké virágzó mezőkön, hol
+               a csatákon elhullt hőseink hófehér méneken nyargalva űzik a futócsillagot, s
+               uralkodnak mindazon ellenségeiken, kiket a csatákban megöltek. Ott ültek őseid a
+               szivárványok felett, arany királyi székeken, homlokaik körül csillagokból font
+               koszorú. És íme, nyugot felől egy napsugáros felhő közeledék, melynek aranyos ködéből
+               egy hófehér alak támadt elő, legtöbb csillaggal ősz feje körül; ki előtt mind
+               fölkeltek a királyi székeikben ülő alakok s kezeiket fölemelve üdvözlék. E csillagok
+               a nagy és nemes tettek, oh, király, és ez új alak te vagy.</p>
+            <p> Oldamúr megdicsőült arccal rebegés:</p>
+            <p> – Oh öröm, oh gyönyör!</p>
+            <p> A rhabonbán és Fellengúr érzékenyen fogák meg a khagán kezeit.</p>
+            <p> – Mit mondjak ősz apádnak odafenn? – szólt Oldamúr az elsőhez.</p>
+            <p> – Mondd meg neki, hogy halálát száz ellen vérével bosszultam meg, kiket hozzá
+               felküldék raboknak.</p>
+            <p> – És fiaidnak mit mondjak, Fellengúr, kik előtted sírba szálltak?</p>
+            <p> – Azt, hogy boldog azon apa, kinek fiai a hazáért estek el, s nem hull annak könyje
+               gyermekei sírján.</p>
+            <p> A khagán megszorítá barátai kezét.</p>
+            <p> – Most menjetek, küldjétek hozzám fiamat, Dalmát, s hagyjatok vele magamra, míg
+               ismét hívni foglak – e földön utoljára…</p>
+            <p> A vezérek, országnagyok és vének mind kitakarodtak a sátorból, s utánuk belépett
+               Dalma.</p>
+            <p> Szép, karcsú, daliás alak, a fiatalság rózsaszínével arcán, minő tizennyolc éves
+               gyermekeké szokott lenni. Nagy, bátor szemeiben királyi tűz heve lángolt, szabályos,
+               nemes vonásain fájdalmas ihlettség honolt, bár a megilletődés gyöngébb vonalmait
+               eltiltá arról a szigorúbb tekintet.</p>
+            <p> Termetét, mely nyúlánk és karcsú volt, mint egy leopárdé, kettős selyemdolmány fedé,
+               az alsó hosszú, térdig begombolt, sárga aranyvirágokkal, a felső rövid ujjú,
+               hasított, bíborpiros aranyzsinórzattal; sűrű jáspisfekete hajfürtei három tömött
+               tekercsbe voltak fonva, fehér gyöngyfüzérek közé, s végeiknél fogva felaggatva, s még
+               úgy is vállain alul értek. Kezei, lábai oly kicsinyek, oly finomak, izmai oly
+               gömbölyűek, idomzatosak, piros telt ajkai felett valami alig észrevehető hamv.</p>
+            <p> Oldamúr odainté őt magához.</p>
+            <p> – Jer közelebb, jer közelebb, fiam.</p>
+            <p> – Meddig fogsz még fiadnak nevezni engem? – szólt Dalma. – Én leányod vagyok.</p>
+            <p> A khagán szomorúan felsóhajtott.</p>
+            <p> – Terhedre van, hogy férfinak neveltelek?</p>
+            <p> – Nincs terhemre, apám. Karom megszokta forgatni a kardot és kelevézt, s ha kell
+               küzdeni hozzám illő lovaggal a harcjátékon, vagy az oroszlánnal a vadászaton, vagy
+               ellenséggel a csatamezőn, szívem sem gyöngébb, mint karom; de nem szokás ez: nem
+               látom sehol, hogy nő férfi alakját viselné. Én nem irigylem a többi hajadonoktól sem
+               mulatságaikat, sem öltözetüket, sem guzsalyaikat, de szeretném tudni mégis: miért
+               vagyok én tőlük különböző?</p>
+            <p> – E rejtély okának titokban kellett maradnia halálom órájáig. Ím, vedd át tőlem e
+               titkot, és őrizd tovább, mert halálom órája jelen van.</p>
+            <p> Dalma összerezzenve rogyott e szavakra atyja nyugágyára. A szót elfojtá ajkain a
+               fájdalom.</p>
+            <p> – Dalma, ne sírj – szólt intve a khagán. – A halál napja örömnap, s férfit siratni
+               dísztelen. A titok, melyet rád bízok, két nemzet életének a titka. Az avar és török
+               nép, amióta Bertezena meghalt, kétfelé szakadva, átkos meghasonlásban, örök harcokkal
+               rongálta egymást. Ma győzött egyik, holnap a másik, s a hasztalan győzelmek növelték
+               bár fejedelmeik hírét, de fogyaszták népeit. Egyszer úgy kifáradt mindkét nép a
+               harcban, hogy nem volt, aki eltemesse halottait, s a diadalútról hazatérő Fejedelmek
+               egyike sem talált saját országában egy ép házat, melyben éjszakára megszálljon. Itt
+               lelkébe szállt mind a kettő, megszánva önfaját, s kemény szerződést kötött, mely
+               megtiltá a további harcolást, s felszabadíta minden szomszédot, hogy amelyik e kötés
+               ellenére hadat gyűjt, arra közerővel rárontsanak. A kötés vége az, hogy ha e két
+               nemzet közül egyik fejedelmi családjának férfiága előbb kihal, annak országa szálljon
+               a másik uralma alá, s így a varchoniták ismét egy Bertezenaivadék alatt egyesüljenek.
+               E kötés óta harmadik ivadék ül a fejedelmi széken, a törökén Disabul, az avarén
+               magam. Mindketten utolsó férfiai vagyunk családunknak. Sokáig nem született
+               gyermekünk, sem neki, sem nekem, s az volt a kérdés, melyikünk éli túl a másikat? Ha
+               én élem túl őt, népem szabad marad, ha ő él túl engem, népem rabszolga lesz. Ah,
+               azok, kik e szerződést kötötték, nem gondoltak arra, hogy a rokonokból támadt
+               ellenségek rosszabb ellenségek az idegennél, s hogy három emberélet alatt oly messze
+               távoztunk egymástól, hogy örömestebb látnók a tatárt, a perzsát urunknak, mint a
+               törököt, vad erkölcseivel, ördögimádó vallásával s zsarnoki szokásaival. Íme, azonban
+               a férfikor delén túl valánk már, midőn egyszerre mindkettőnknek gyermekünk született
+               – mindkettőnknek leány. Disabul e fölötti dühében minden leányt, ki azon évben
+               született, a vízbe hányatott: én nyugodt lélekkel fogadtam, amit Isten adott, s íme,
+               amidőn még senki sem tudott létedről, egyedül nőm, álomlátásban egy tündér szállott
+               le hozzá, ki e szavakat mondá neki: „amit a vak sors eltévesztett, az ember akarata
+               helyrepótolhatja: gyermeked nem született férfinak, legyen férfivá lelke által.
+               Híreszteld el, hogy fiad lett, s neveld őt annak. Ha majdan erős lesz a csatákon,
+               eszes a tanácskozásban, ki fogja mondhatni, hogy ő nem férfi! Az ég adand neki hírt,
+               hatalmat, hős tetteket, s megengedi, hogy túlélje ellensége családját és nemzete
+               megszabadítójának neveztessék.”</p>
+            <p> Dalma kegyeletteljes ihlettel hallgatá atyja szavait, szemei emberfölötti erő
+               lángjaitól látszottak sugárzani.</p>
+            <p> – Az ég mondá, és én esküszöm, hogy úgy lesz – monda fölmagasulva, mint egy pálma
+               vihar előtt.</p>
+            <p> – Ne esküdjél korán.</p>
+            <p> – Mindenki férfinak hisz. Kiálltam a próbákat csatákban és tanácskozásban. Ütközet
+               hevében szereztem babért homlokomra, törvénytételben pálmaágat kezembe.</p>
+            <p> – A legnehezebb próba még hátravan. Karodnak erejét megpróbálta a harc, eszed
+               hatalmát a tanácskozás, még szíved van hátra: azt meg fogja próbálni a szerelem.</p>
+            <p> – Nem tudom, mi az.</p>
+            <p> – Még nem. De eljön az hívatlanul. Egynek észt, másnak kart adott a sors, szívet
+               mindenkinek. Hiába mondja a virág: én nem akarok virágzani; a tavasz eljön, és a szív
+               virágai kinyílnak.</p>
+            <p> – Én ki fogom tépni e virágokat, még bimbókorukban. – Nem ismered fogadásod
+               nagyságát, Dalma. Feláldozni vagyont, nyugalmat, feláldozni magát az életet, mind
+               csekélység ahhoz képest, ami a szerelem feláldozása. Egy eldobott virág az mind, a
+               túlvilági üdvhöz képest.</p>
+            <p> – Semmi áldozat sem nagy, ha a hon élte van mérlegbe vetve.</p>
+            <p> – Nemesen szóltál. Írasd fel e mondatot palotád minden ajtaja fölé, hogy olvashasd,
+               akármerre tekintesz, mert egykor szükséged leend rá, hogy mindig szemeid előtt
+               lássad. Még most e fogadás csak egy elvetett mag, de majdan óriási pálmatörzzsé fog
+               felnőni, melynek viharokkal leend örök küszködése.</p>
+            <p> – Legyen bárminő nagy, amit fogadék, megtartom azt. Én amióta éltemet tudom, csak
+               egy szabályt tanultam ismerni: „Első a haza”! – Semmi sem elég nagy, hogy e névvel
+               mérkőzhessék, nincs gondolat, mely mellette el ne vesszen: s ha megmentésére kell,
+               hogy meg ne tudja senki női létemet, esküszöm, hogy amennyi tért kardom hegyével
+               magam körül keríthetek, annyira közel hozzám nem jöend senki soha, s ha meghalok,
+               átok alatt hagyom meg, hogy alakomat, úgy, ahogy meghűlt, porrá égessék. Hívasd a
+               gyulákat, én esküdni akarok.</p>
+            <p> – Aki jövendőkre fogad, az Istent hívja fel küzdeni. Én óhajtom, hogy esküdjél, és
+               mégis félek tőle. Biztatnálak, ha nem akarnád, s ellenkezem veled, midőn kész vagy
+               reá. Homlokomon izzadság gyöngyözik: oh, az nem a halál verítéke, hanem azon
+               félelemé, hogy te gyönge leendesz ott, hol a harc bizonyos, és a győzelem
+               bizonytalan. Oly helyzetben hagylak itt, melyre gondolni magam is szédülök; oly
+               helyzetben, minőt nem teremte Isten, minőre nem gondoltak az emberek soha. Isten
+               gyengének alkotá a nőt, Isten szeretni alkotá a szívet; a természet legszentebb
+               törvénye az, mely ellen fogadást tevél, s az alól nincs kivétel.</p>
+            <p> – Én fejedelem vagyok, az emberek közül kivétel. Miért volna a fejedelem a
+               legmagasabb az emberek között, ha nem azért, hogy csupán nemzetét szeresse? Miért
+               állam legfelül, ha nem azért, hogy tudjon egyedül állani? Embereknek törvényt írt a
+               természet: nekünk törvény a hon java. Én e törvényen kívül mást nem ismerek. Hívasd a
+               gyulákat, én esküdni akarok.</p>
+            <p> – Erős lelked megdöbbent. Jobb szeretném, ha szomorúan, ha csüggedt lemondással
+               tennéd e fogadást. Az erős lelkeknek ellenségük a sors: a villám mindig a legmagasabb
+               bérceket sújtja.</p>
+            <p> – Kivéve azokat, melyek még a felhőkön is túl emelik fejöket. Engedd, hogy hívhassam
+               vezéreidet.</p>
+            <p> – Isten segítsen. Óhajtom e harcodat, pedig tudom, hogy a sorssal nincs fegyver
+               küzdeni.</p>
+            <p> – Van: – az erős akarat. Isten megírta útját a csillagoknak; embernek megengedé,
+               hogy írja azt maga. Viharnak, tengernek, angyalnak és ördögnek van ura; az ember ura
+               önmagának. Erezve a terhet, melyet vállaimra tettél, kétszerte erősebbnek érzem
+               magamat.</p>
+            <p> E szavaknál kipirult a férfilelkű gyermek arca, szemei villámokat szórtak, szilárd
+               léptekkel járult a sátor szőnyegéhez, s a künn várakozó vezéreket és gyulákat
+               behívta.</p>
+            <p> Azok körülállták a haldokló khagán ágyát, a vénebbek legközelebb hozzá, az ifjabbak
+               leghátul maradva. Oldamúr megfogta Dalma kezét. Nem reszketett az.</p>
+            <p> – Vezérek, gyulák, rhabonbánok – szólt az agg meglassult, de meg nem törött hangon
+               –, az idő végihez közelg: ez élet be lesz fejezve, hogy újra kezdődjék a másik. A
+               haldokló ne gondolkozzék sírhalmáról, hanem azokról, akik élve maradnak itt. – Éltem
+               nagy része országomé volt, utolsó órám egészen övé. A hon ege sohase maradjon
+               naptalan. Midőn leszállok én, fiam helyembe kél. Midőn én a ravatalra fekszem, ő a
+               trónra lép – leáldozó hold hadd lássa meg, mint kél utána a hajnalodó nap.
+               Kiáltsátok, hogy „Éljen a khagán!”, midőn tudom, hogy ez nem nekem szól többé.</p>
+            <p> A vezérek egyhangúan kiálták: – „Éljen a khagán!” s Dalmát térdeikre fektetett
+               pajzsra emelték, annak jeléül, hogy fejedelmükké fogadták. – Az éltető hang oly
+               szomorúan hangzott egy haldokló sátorában.</p>
+            <p> – Harminc év előtt hallám e kiáltást – szólt Oldamúr Dalmához fordítva arcát. –
+               Akkor nekem szólt az, most teneked. A te lépcsőid a trónhoz vezetnek fel, az én
+               lépcsőim a sírbarlangba le.</p>
+            <p> Ekkor a rhabonbánok közül egyik lépett Dalma elé.</p>
+            <p> – Ifjú khagán, trónra lépted előtt, ősi szokásaink szerint mondd jelszavad, melyet
+               palotád homlokára írassunk fel aranybetűkkel. Apád jelszava ez volt: „Többet ésszel,
+               mint erővel.” Egy óra múlva a tiéd álland helyén; mi legyen az?</p>
+            <p> Dalma komoly, ihletéstől áthatott arccal viszonzá: – „A hazáért semmi áldozat sem
+               nagy.”</p>
+            <p> A rhabonbán vevé kését, s egy négyszögű pálcára felrótta a mondatot, az ogur írás
+               saját egyszerű betűivel, mik egymáson keresztül-kasul vágott egyenes vonásokból
+               álltak.</p>
+            <p> – E jelszó esküvés, melyhez uralkodásod napjai vannak mérve.</p>
+            <p> – Hívjátok Istent! Esküszöm szavamra.</p>
+            <p> Ekkor két gyula állt elő, két kivont kardot fejeik fölött keresztbe tartottak, s
+               azokat hétszer összecsapva, csendesen kiálták:</p>
+            <p> – Isten. Ormuzd. Jóél. Kinek jelképe kard, tűz és napvilág, légy jelen, és halld meg
+               a nevedre tett esküt.</p>
+            <p> Dalma a két kard alá állt, fölemelt jobbjával érinté azokat, s reszketéstelen
+               hangon, elfogulatlan kebellel esküdött. – Esküszöm reád, Isten, Ormuzd, Jóél. Hogy
+               népemért mindent föláldozok, ami enyém:éltet és halált, gyűlöletet és szerelmet. –
+               Utáljam bármiként az életet, s óhajtsam a halált: ha népem kívánja, hogy éljek, élni
+               fogok. Irtózzam a haláltól, s szeressek élni: ha népem javáért kell, hogy meghaljak,
+               meghalok. Gyűlöljek bár, mint tűz gyűlöli a vizet, ha népem java kívánja, hogy
+               megbocsássak: megbocsátok; és szeressek bár, mint ég szereti a földet, ha népem java
+               kívánja, hogy feledjek, feledni fogok… Halld eskümet, és légy tanúm örökké. Isten,
+               Ormuzd, Jóél.</p>
+            <p> – Én is hallottam azt – szólt Oldamúr –, s a túlvilágon emlékezni fogok reá.</p>
+            <p> – Vigyázz reám onnan felül – segíts, ha ingadozom; sújts le, ha elbukom.</p>
+            <p> A rhabonbánok kimentek, s kürtszózat között adták hírül a népnek az új
+               fejedelemválasztást. A csapatok üdvkiáltása felhallatszott a völgyek aljából.</p>
+            <p> – Most járuljatok a vérszövetséghez, vezérek – szóltak a gyulák, s a középre
+               kitették az ősi ereklyét, a szerecsendiókelyhet, melybe fejedelemválasztáskor
+               egyesülni szokott a hét vezér vére, annak jelképeül, hogy ők is így egyesülendenek
+               egy vérré, egy akarattá a nemzetért.</p>
+            <p> A vezérek egyenkint odaléptek, késeik hegyével megszúrva karjaikat, a kehelybe
+               csorgaták a kifolyó vért, ünnepélyes hangon mondva a hulló vércseppek felett:</p>
+            <p> – Amint e vér kicsordult, akként omoljon vére annak, ki honához és fejedelméhez
+               hűtlen lesz.</p>
+            <p> Már hat vezér vére omolt a serlegbe, ekkor a hetedik lépett elő, egy délceg levente,
+               sötét szemölde, szakálla úgy illett halovány arcához, melyet csak a csatában lehetett
+               látni pirosnak.</p>
+            <p> Most is éppen a perzsa határokról jött vissza, hol négy év óta járt a seregekkel, és
+               sietve jött jelen lehetni az új khagán beiktatásán.</p>
+            <p> Odalépett a serleghez ő is, s amint fehér karját megszúrta, s a bíbor vér
+               felszökellt belőle, s ő szilárd érchangon ismétlé a véresküt, Dalma egyszerre
+               felrezzent e csengő férfias hang hallatára, s amint meglátta a vezért, vére arcába
+               szökellt egyszerre, reszkető ajkakkal, tétovázva szólítá meg:</p>
+            <p> – Ki vagy te, hetedik vezér?</p>
+            <p> Az ifjú fölveté sötét, búskomoly világú szemeit Dalmára. – Nem emlékezel reám? Én
+               Elemér vagyok. Arcom változott-e, vagy szíved, hogy elfeledéd, ki gyermekkorodtól
+               fogva leghűbb barátod volt?</p>
+            <p> Dalma nyugtalan kebellel tudta rebegni: – Emlékezem, emlékezem.</p>
+            <p> Elemér gyöngéden közelíte hozzá.</p>
+            <p> – Nem jut-e eszedbe, midőn gyermek valál, kicsiny kis szőke fürtű angyal, én már
+               nagyobb, vad, ábrándos fiú: együtt eljártunk jó anyád sírjához, én letéptem a virágot
+               a szirt fokáról, te koszorúnak fűzted azt a sírhalomra, s ott sírtunk mind a ketten,
+               és az oly jólesett… Emlékezel-e még? Dalma suttogva felelt:</p>
+            <p> – Emlékezem, emlékezem – s lassan haldokló apja ágyához húzódék, mintha védelmet
+               keresne nála valami kísértő rém ellen, s kezével tiltva inte Elemérnek.</p>
+            <p> Oldamúr biztatva szóla hozzá.</p>
+            <p> – Beszélj a múltakról, Elemér. Utolsó időm pillanatjai így múlnak el legkedvesebben
+               tőlem, ha boldog emlékeiteket hallom. Ne sírjon, aki engem meghalni lát. Beszéld
+               emlékeidet, hadd haljak meg bennetek élve.</p>
+            <p> Elemér rajongó tekintettel fordult Dalma felé.</p>
+            <p> – Midőn legelőször vadászatra bocsátanak bennünket, egymás mellett lovaglánk a futó
+               dámvadat űzve. Egyszerre egy forrás mellett oroszlánnyomokra bukkantunk. Mint
+               hagytunk fel egyszerre a dámvad űzésével, hogy oroszlánra vadászhassunk, mely szembe
+               áll és élet-halálra küzd méltó tusát: király, király ellen! Félreloptuk magunkat a
+               kísérőktől s felkerestük a fejedelmi állat berkét. Ez nem futott el, miként a dámvad:
+               az első hívásra kijött barlangjából, megrázta aranyos sörényét, s dörgő ordítással
+               felelt meg szavunknak. Te hevesen vágtattál felé, én meg akartalak előzni, az
+               oroszlán a fejét földre fektetve, farkával kétfelől a földet korbácsolá, s azon
+               pillanatban, midőn te kopjádat hajítád reá, felszökött, s lábadat megragadva, a
+               földre ránta; te lábadat nem bírtad hirtelen lovad alól kiszabadítani, én hirtelen
+               leszöktem paripámról, s megragadva két kezemmel az oroszlán száját, hátrarántottam
+               azt, s míg te késedet szívébe döféd, én fejét torkig hasítottam. Emlékezel-e még?
+               Dalma sápadtan rebegé:</p>
+            <p> – Emlékezem.</p>
+            <p> Oldamúr gyönyörteljes arccal inte Elemérnek, hogy szóljon tovább.</p>
+            <p> – Mikor legelső csatánkba vittek mindkettőnket: ott álltunk egymás mellett, alig
+               várhatva a csatakürt rivallását; keblünkben zajlott a vér, szemeinkben eddig nem
+               ismert öröm tüze égett. Végre hangzott a riadó. A te arcod kigyulladt egyszerre, mint
+               az éjszakai égés, nem néztél hátra, hanem csak előre. Keresztültörtél az ellenség
+               legelső során, keresztül a másodikon, s egy pillanat múlva ellenségtől voltál
+               körülfogva. Ifjúi heved elragadt, hogy észre ne vedd, miként az utánad jövők nem
+               bírnak nyomodba érni. Az ellenség vad ordítással özönle körül, a kardok villogtak
+               fejed körül, a nyilak pattogtak páncélodon, s a harc közepett ősz apád kiáltása
+               hallatszott, ki kétségbeesetten tört feléd utat harcfejszéjével. – Ki küzdött akkor
+               oldalad mellett? Ki volt az, ki pajzsával betakart, ki felfogta rólad a
+               halálcsapásokat, ki biztatott, hogy ne csüggedj, s ahova gyönge volt a te csapásod,
+               oda egy erősebbet sújtott, míg atyád mentésedre megérkezék? Emlékezel-e még?</p>
+            <p> – Te voltál az, óh, jól emlékezem.</p>
+            <p> – S midőn hosszú táborutakon elesteledve sátorod árnyában pihentél, fejed ölembe
+               hajtva, s karod körülem fűzve; egyik csillag a másik után letűnt, egyik őrtűz a másik
+               után kialudt, csak én virraszték álmaidnál ébren, hűségesen, emlékezel-e még?</p>
+            <p> Dalma atyja keblére rejté arcát, fuldokolva: – Emlékezem, óh, hallgass, óh,
+               hallgass!</p>
+            <p> – Dalma! Te reszketsz – monda Oldamúr, gyermeke kezét megfogva.</p>
+            <p> Dalma fájdalmasan rebegé:</p>
+            <p> – Óh, atyám érzem fogadásom terhét!</p>
+            <p> – Ily korán! – sóhajta Oldamúr. – Te küzdelemre hittad fel a sorsot, ím, az első
+               szavadra megjelent. Nem gondolád, hogy az ifjú, ki négy év előtt mint jó barát, mint
+               ikertestvér vált el tőled, négy év múltával sok lesz játszótársnak. Vigyázz ez
+               érzelemre! Ma hálának nevezed azt, holnap szerelem lesz, befogadod, mint barátságot,
+               mint testvérérzelmet szívedbe, s szenvedéllyé nő fel.</p>
+            <p> – Már azzá nőtt – rebegé Dalma elfogult kebellel.</p>
+            <p> – Úgy jaj neked, vagy jaj a hazának.</p>
+            <p> – Jaj nekem egyedül. Esküm megtartandom – sóhajta a gyermek, s könnyeit elfojtva
+               fölemelkedék apja nyugágyáról, s szilárd tekintettel fordult Elemérhez.</p>
+            <p> – Vezér! Azok után, miket atyám felőled mondott, legmagasabb becsülésemre vagy
+               érdemes. Ismerve lelked és karod erejét, ollyá tekintlek, mintha saját jobb felem
+               volnál. Ezért megosztom veled fejedelmi hatalmamat, légy úgy tisztelve, miként én
+               magam. Ítéleted annyit érjen, mennyit enyim, hogy ahol én nem vagyok, te ott lehess.
+               Ha én keleten, te nyugaton, így országunk mindenütt boldog leend.</p>
+            <p> Oldamúr megszorítá Dalma kezét.</p>
+            <p> – Értelek, jól értelek.</p>
+            <p> Elemér elcsüggedt fővel fogadta Dalma kitüntetését. Arcáról ismét eltűnt minden pír,
+               s helyet foglalt rajta a búskomoly halványság.</p>
+            <p> – Oh, khagán, rosszul jutalmazod hűségemet, midőn magadhoz hasonlóvá tész, s azt
+               kívánod tőlem, hogy ott legyek mindig, ahol te nem vagy, mint az éj és nap, akik
+               szüntelen egymást kerülik. Én nem tudok nevet adni az érzelemnek, amely tehozzád
+               vonz. Örömest lennék árnyad, hogy soha el ne hagyhass, örömest lennék testőreid
+               között a legutolsó, ki ajtód küszöbénél virraszt. Én nem ismerék soha sem anyát, sem
+               testvért, sem szerető leányt; minden érzelmem csak körüled forog. Tetőled távol, fáj
+               bennem a lélek, s midőn látlak, öröm fog el, minőt másutt nem érezek.</p>
+            <p> Dalma parancsolt szívének, s hideg arccal, hideg szóval felelt:</p>
+            <p> – Hagyd a gyermekkori rajongásokat, vezér. Hűségeddel nem személyemnek, hanem
+               koronámnak tartozol ezentúl. Még ma eltávozol. Első utad leend Disabul királyhoz,
+               kinek mint ennen képmásom tudtul adandod, hogy e napon az avar trónt elfoglalám.
+               Figyelmeztetni fogod a régóta fennálló titkos szövetségre, mely Bertezena utódai
+               között él: elmondod, hogy nyílt szív és testvéri kar tárul a hű szövetséges elé,
+               kemény szív, acél kar vár az ellenségre.</p>
+            <p> – Bízd reám, hogy lefessem előtte képedet, szeretni és félni fog téged egy
+               pillanatban.</p>
+            <p> – Most menj, az idő becses. Készülj utadra. Napnyugat előtt megindulj.</p>
+            <p> Elemér még mindig ott állt a sátor közepén, rajongó tekintete folyvást Dalma arcán
+               függött, mintha valamit kérne tőle.</p>
+            <p> – Mire vársz még?</p>
+            <p> – Egy baráti kézszorítást, Dalma. Négyévi távollét után e kegy nem illet-e meg
+               engem?</p>
+            <p> Dalma habozva, remegve nyújtá neki kezét, halkan rebegve:</p>
+            <p> – Isten veled. – Szíve úgy dobogott, ajkai úgy remegtek. Elemér szívéhez és ajkaihoz
+               szorítá a nyújtott kezet, melyen keresztül lelke lángja átömölni látszott Dalma
+               arcába.</p>
+            <p> – Míg nem hívatlak, addig vissza ne jöjj – szólt ez, erőt vevén szívén. – Isten
+               veled.</p>
+            <p> Elemér meghajtá térdét Oldamúr előtt, annak hideg kezét homlokához víve.</p>
+            <p> – Haldokló fejedelem, leáldozó nap, rokonimat, kiket nem ismerek, ott fenn
+               üdvözöld.</p>
+            <p> – Ifjú vezér, támadó csillag, országomat, melyet elhagyok, megoltalmazd.</p>
+            <p> – Vezérek, Isten hozzátok – szólt Elemér könnyes szemekkel széjjeltekintve, s
+               hirtelen elhagyá a sátort; az őrszemek mindig távolabbról jövő kürthangja hirdeté,
+               hogy egy vezér eltávozik.</p>
+            <p> Dalma ott térdelt atyja előtt. Arca fehér volt, mint a márvány.</p>
+            <p> – Elégült vagy-e velem? – kérdé suttogva tőle.</p>
+            <p> – Nyugodtan halok meg – szólt az agg, s jobb kezét gyermeke fejére tevé. – Áldásom
+               reád. Adjon az ég neked vaskemény szívet, sűrű harcot, örök győzedelmet, csatatéri
+               halált. Legyen néped boldogsága oly nagy, hogy elfeledd miatta saját
+               boldogtalanságod. Tegyen az ég urává minden ellenségeidnek, tegyen urává tenmagadnak.
+               Légy erős koronád terhét viselni, mely egy főn sem volt oly nehéz, mint a tiéden
+               lesz. Légy áldva még a túlvilágon is, mert amiről itt lemondasz, azon üdvöd még a
+               mennyországban sem leled fel többé.</p>
+            <p> Dalma arcáról minden vér elfutott, valami tündéri átlátszóság foglalta el a
+               színtelen vonásokat, mikben emberfölötti erő és fájdalom volt kifejezve, szép feje
+               meghajlott az áldás terhe alatt.</p>
+            <p> – Vezérek! – szólt Oldamúr a körülállókhoz, kik tiszteletteljesen vonultak a sátor
+               oldalaihoz, s most közelebb léptek.</p>
+            <p> – Egy pillanat még, s én más eget, más napot fogok meglátni. Gondoljatok rá, hogy
+               egykor találkozni fogtok velem, s én számon kérendem tőletek, amit rátok bíztam itt
+               alant. Amott túl mindent föltalálunk: a napsugáros mezőt, a kedves rokonokat, az
+               elválhatlan kardot, s a kedvenc paripát – csak a hazát nem sehol. Ez az élőknek
+               marad. Az ég a megdicsőült lelkeké, de a hamvaknak is van joguk azon földhöz, melyben
+               nyugszanak. El ne feledjétek, hogy apáitok sírhalmait rejti e föld, kik ott pihennek
+               a négyszögű kövek alatt, velök eltemetett kardjaik mellett. Legyetek egyesültek; az
+               avar fajnak csak egy félelmetes ellensége van: saját maga… Ki ne húzzátok a kardot
+               hüvelyéből ok nélkül, és vissza ne dugjátok dicsőség nélkül… Vénekre bízzátok a
+               hadizenést, ifjakra a békekötést… Ha győztök, tudjatok félni, ha vesztetek, tudjatok
+               remélni; a szerencse elbízottá, a balsors elcsüggedtté ne tegyen benneteket… Ne
+               legyetek zsarnokai a kisebbeknek, hogy rabszolgái ne legyetek a nagyobbaknak…
+               Szeressetek mindent, mi szép, nagy és dicső – és azt – mi legszebb – legnagyobb – és
+               legdicsőbb – a hazát – legjobban…</p>
+            <p> E szavakkal szemeit csendesen lehunyta az agg, s kezét mellére bocsátá.</p>
+            <p> A táltos e pillanatban belépett a sátorba, s reszketeg hangon szólt hozzá:</p>
+            <p> – Oldamúr, az idő lejárt, készülj a hosszú útra! Oldamúr nem felelt. Szemei csukva
+               voltak. Lelke a napsugártól aranyozott felhők között járt már, melyek megdicsőült
+               hősök alakjaival tele úsztak az alkonyodó nap felé.</p>
+            <p> Dalma érzé, hogy a kéz, melyet kezében tarta, elhidegült. – Ő halva van… – suttogá
+               alig hallható szóval.</p>
+            <p> Észrevétlenül jött rá a halál. Csak arra várt, hogy utolsó szavait kimondja. Úgy
+               szenderült el, mint egy alvó gyermek anyja keblén.</p>
+            <p> A férfiak zokogva tőrlék szemeiket.</p>
+            <p> Ekkor Dalma fölállt, nyugodt, hideg arccal körültekinte rajtok, s erős hangon, mely
+               ment volt minden emberérzelemtől, monda:</p>
+            <p> – Vezérek és országnagyok. Takarjátok el a könnyeket. Férfinak sírni, s férfit
+               siratni dísztelen. A halál napja örömnap, s úgy halni meg, miként ő itt előttünk –
+               boldogság. Távozzatok, s küldjétek siratni az asszonyokat.</p>
+            <p> A férfiak távoztukban bámulattól ellepve suttogák maguk közt:</p>
+            <p> – Ez valóban keményszívű férfi leend. Miként szerette atyját, s a gyáva könnyet
+               mégis visszafojtja.</p>
+            <p> Dalma ott állt merően, összefont karokkal, míg mindenki eltávozott, egy könnycsepp
+               nem jött szeméből. Midőn végre az utolsó férfi lépte is elhangzott, midőn egyedül
+               maradt, reszketve omolt atyja holttestére, a fájdalom szívszaggató hangján
+               kiáltva:</p>
+            <p> – Atyám, atyám! – A könny záporként hullott szemeiből a holt ravatalára.</p>
+         </div>
+         <div type="chapter">
+            <head>III.</head>
+            <p> Egy sík puszta közepett világítnak a nomád török nép őrtüzei.</p>
+            <p> A nagy próféta, még ekkor nem is született, s Mohamed buzgó hívei azon időben egy
+               sötét, ijesztő, borzadályos eszmét imádtak – az ördögöt.</p>
+            <p> Kitől minden nép borzad, s kit minden rossz kútfejének hisz, ők annak szentelék
+               keblök vallásos érzelmeit; egy elbujdosott istenségnek tartva őt, ki elűzetett ősi
+               trónjárói, s most szenved sötét fogságban, de egykor ki fog törni börtönéből, s
+               visszafoglalja az eget, s megbünteti mindazokat, kik őt egykor szidalmazák, s
+               fölemeli azokat, kik oltárain áldoztak:</p>
+            <p> E sötét hitnek még most is vannak követői Perzsia legészakibb részein, kiket a
+               mahomedanizmus sem tudott kiirtani.</p>
+            <p> Az éjfél órájában, mikor a kaszás csillag feljött a láthatárra, akkor kezdődött a
+               démon áldozata.</p>
+            <p> Egy nagy fekete kő volt a puszta közepén felállítva, azon egy idomtalan rézbálvány,
+               szétterpedt lábakkal, öblös hassal, iszonyúan feltátott szájjal, s négy szarvval
+               homlokán.</p>
+            <p> Midőn az éjféli csillag feljött, egyszerre kioltottak minden tüzet a sátorokban és
+               mezőkön, a nép arcra vetette magát, a sötét éjszakában háromszoros ordítással
+               kiáltva:</p>
+            <p> – Astaroth!</p>
+            <p> A harmadik üvöltés után a fekete oltárhoz léptek a máguszok, s meggyújtották alatta
+               a tüzet. Az érc izzóvá lett lassankint, az éjben egyedül e rémséges vörös tünemény
+               sugárza szét, a reszkető emberarcokba világítva, s száján és szemein szikrákat
+               okádva.</p>
+            <p> Kétféle áldozatot szoktak e bálványnak hozni. Az egyik volt a „keserű áldozat”, a
+               másik az „édes”. Amazt adák neki, ha gyászünnep volt, imezt örömünnep alatt; amaz
+               hálaadó, imez engesztelő áldozat volt.</p>
+            <p> Hét állatot áldozának a természetnek mind a hét rendéből. A keserű áldozatnál csupa
+               ártó állatokat, a férgek rendéből nadályt – a bogarakéból skorpiót – csörgőkígyót a
+               csúszókból – egy cápát, egy ölyvet, egy tigrist és egy férfit.</p>
+            <p> Az édes áldozatnál az élők szelídjei lőnek válogatva; férgek közül a bíborcsiga,
+               bogarakból a pillangó, a kétéltűek közül a salamander, egy aranyhal, egy galamb, egy
+               paripa és egy szűzleány.</p>
+            <p> Oldamúr halálának hírére örömünnepet tartott a török nép. Keserű áldozat kellett. A
+               halálnak szánt barmok, az embertől a nadályig erős hálókba burkolva az oltár
+               párkányára voltak már állítva, a máguszok hosszú, háromágú villákkal álltak készen,
+               azokat egyenkint az égő bálvány nyílt torkába taszítandók, csupán Disabul, a király
+               megérkeztére vártak még, ki, úgy látszék, nagyobb ura volt a bálványnak, mint a
+               bálvány őneki.</p>
+            <p> Három disztonáló kürtszó nemsokára hírül adá a magára várató kényúr közelgését, ki
+               fáklyakíséret nélkül, gyalog jött az áldozathoz, s csak akkor lőn észrevehető, midőn
+               az izzó bálvány közelébe érve, annak fényétől megvilágosíttaték.</p>
+            <p> Kemény, indulatteljes vonásait sűrű fekete szakálla tevé még zordonabbakká, levont
+               szemöldei alól, mint két leskelődő orgyilok, villámlott elő két sötét szeme. Fegyver
+               volt kötve oldalára jobbról-balról, annak bizonyságaul, hogy ő két kézzel szokott
+               egyszerre harcolni.</p>
+            <p> Kíséretében ott lehete látni Jagárt, a fehér hunok követét és Padmalanhát, az
+               indukét, kik örökké udvarában tartózkodtak, minden évben megesketve Disabult, hogy a
+               békét meg nem zavarja, sem velök harcot nem kezd, sem az ogurokkali kötését meg nem
+               szegi, s örök ígéretek és fenyegetések tilalma alatt tartogatva a harcvágyó
+               szörnyeteget.</p>
+            <p> Disabul inte a máguszoknak, s azoknak kellemetlen bántó éneklése, zsongása között
+               egyenkint az égő bálvány torkába hányattak az élő áldozatok, a bálvány irtózatos
+               szája az elvesző állatok halálhangjaihoz képest majd zúgást, majd sziszegést, majd
+               ordítást, majd emberkiáltást adott vissza.</p>
+            <p> Disabul elégült arccal fordult emírjéhez, Kublájhoz, kinek hegyes szakálla
+               előreállt, mint egy rúd.</p>
+            <p> – Tehát Oldamúr meghalt, s a király, ki utána trónra ült, még gyermek?</p>
+            <p> – Még fiatal, és sokáig élhet – viszonza Kubláj.</p>
+            <p> – Astaróthra esküszöm: rövid élete lesz.</p>
+            <p> Jagár meghallá a felkiáltást, s fejcsóválva monda: – Te azt nem tudhatod, nagy
+               király.</p>
+            <p> – De megtehetem.</p>
+            <p> – Vétenél a szövetség ellen.</p>
+            <p> – Ki kötötte azt? Én nem. Ősapám tevé; s azért, mert ősapám bivaly volt, én nem
+               születhettem-e arszlánnak? Ha a kérődző állatok szövetséget kötöttek maguk között,
+               hogy ezután csak füvet egyenek, én elütöttem közülök: én vérszopó vagyok.</p>
+            <p> – Azt megmutattad, nagy Disabul. Ebéd végén mindig abban gyönyörködöl, hogy azon
+               rabszolgáid fejeit rakatod tálaidra, akik felszolgáltak; most tizenhét esztendeje
+               minden újon született leánygyermeket a vízbe fojtatál. Ez a te dolgod, Disabul. Saját
+               népeddel magad parancsolsz, s ez ellen senkinek sincsen kifogása.</p>
+            <p> – De már meguntam ezt. Nekem munka kell. Ez a sok apró nép, aki körös-körül lakott,
+               mind elpusztult már, vagy elszaladt a világ végire. Minden ellenségemet megettem,
+               csak szövetségeseim vannak hátra, s most arra várjak, ugye, hogy azok egyenek meg
+               engem?</p>
+            <p> – Emlékezzél reá, hogy az igazság legelső úr a földön. – Tehát az lesz igazság,
+               nemde, hogy egy sima állú ifjonc, kinek nincs egyéb érdeme fölöttem, mint hogy
+               szakálltalan, kiböjtöljön engem a világból, s én nagy kegyesen nézzem, mint egy indu
+               bonc, mint hízik ő bele saját trónusomba, mikor kedvem van őt letaszítani a
+               magáéról?</p>
+            <p> – Megesküvél bálványod hitére máguszaid előtt.</p>
+            <p> – Mit nekem papjaim és bálványaim? Parancsoljanak a másvilágon, e világ az enyim,
+               itt azt kell akarniok, amit én akarok.</p>
+            <p> – Ne feledd, hogy e szövetségre minden körüled lakó nép fejedelmei éber szemekkel
+               néznek.</p>
+            <p> – Vakulj meg velök együtt, hogy ne nézhessetek rá! Le fogjátok-e ugatni a sasokat az
+               égből? Fenyegették-e valaha az egerek a párducokat?</p>
+            <p> – Oh, nagy Disabul, nem jó az ellenségről megvetőleg szólni. Jusson eszedbe, hogy
+               Omér khán két év előtt tevepásztor volt, s most fél Ázsia réme, s másik felének
+               prófétája.</p>
+            <p> – Réme a gyáváknak, s prófétája a bolondoknak. De fogadom, hogy én megnövelem
+               prófétai hírét, és mártírrá teszem, s ha nem mutogattak még prófétát kitömve, majd
+               mutogatok én egyet.</p>
+            <p> – Akkor aligha fogsz ráérni, hogy erődet Dalma ellen fordítsd.</p>
+            <p> – Te azt hiszed tán, hogy egyenkint hívogatom ki párbajra a nagy próféta
+               dárdahordozóit? Én nem szoktam vesszővel hadakozni, ahova én ütök, az beomlik, ha
+               mindjárt kőszikla is. Egyszerre három hadsereget küldék a lázadó rabszolga ellen, ki
+               Tatárországot hatalmába keríté, mindegyik százezer emberből áll. Egyik Chorazan felől
+               keríti el, a másik a tengeren kerül háta mögé, a harmadik egyenesen a sivatagon vág
+               ellene keresztül. Ha a föld el nem nyeli, meg nem menekül tőlem. Azt pedig ne
+               gondold, hogy ott megálljak, ahol őt levertem, amíg világ van jobb és bal felől.</p>
+            <p> – Mit teendsz?</p>
+            <p> – Mit teszek? Lekaszálom a földet, s ha kifogyok a földből, berontok az égbe. Nem
+               akarok urat ismerni kívülem. Ti szüntelen vigyáztatok, hogy hadsereget ne gyűjtsek,
+               mellyel álmos békéteket megháboríthassam. Ez az Omér, ez az elűzött pásztor
+               királyfiú, ki egy homokpusztát kapott örökségbe, a ti vesztetekre növelte meg hírét.
+               Midőn határaitokat kezdte fenyegetni, akkor híttatok fel engem, hogy gyűjtsek ellene
+               hadat. Tudtátok, hogy arra én legkészebb leszek, mert én nem őrzöm városaim árkát,
+               vetett füveimet, s szövőszékeimet, amik nálam mind nincsenek. Háromszázezer kardot
+               adtatok kezembe. Azt hiszitek, hogy ebből rátok nem jut egy sem?</p>
+            <p> – Szavaid fenyegetésképp hangzanak.</p>
+            <p> – Én is úgy hiszem. A tatár népet eltörlöm ma, az ogurt holnap, a hindut holnapután,
+               s még a fehér hun, és a kínai számára is lesz még nap az esztendőben. Elég egy úr a
+               földön, lám az égen sincs több nap egynél. Ha meghaltam, akkor ám jöjjenek elő az
+               apró csillagok, s osztozzanak meg az égen, de amíg élek, elbújjanak!</p>
+            <p> – Ez azt teszi, hogy készüljünk a harcra. – Készüljetek a halálra.</p>
+            <p> – Ah, nagy Disabul, te rosszul látsz sorsod végire. Mi okod van bennünket
+               bántanod?</p>
+            <p> – Az az okom van, hogy ti munkás nép vagytok, az enyim dologtól elszokott, nekem
+               munkás rabszolgák kellenek. Nektek szép nőitek vannak, az enyimek szegletes fejűek,
+               nekem szép rabnők kellenek. Nekem kardom van, nektek van fejetek, s nekem ez a fej
+               kell, ha nincs egyéb!</p>
+            <p> – Egyébre is fogsz találni, Disabul – erős karokra. Áldjon meg az ég – monda Jagár,
+               s a hindu követtel együtt elhagyá a királyt.</p>
+            <p> Ez kidühöngött kedéllyel fordult Kublájhoz, önelégülten mormogva</p>
+            <p> – Nem megérdemelném-e, hogy bolondok közé legyen felírva nevem, ha egy hiú esküvés
+               miatt elnézném, mint nő mellettem óriássá egy poronty, s mint tudakozódik utánam, ha
+               nem haltam-e még meg? Midőn elég erőm van őt még gyermekkorában összezúzni.</p>
+            <p> – Akinek hatalma van, annak joga van mindenhez, nagy király – felelt meghajtva magát
+               az emír.</p>
+            <p> – Mihelyt seregeink e lázadó Omért eltiporták, megviszed Dalmának hadizenetünket;
+               vele semmi sem békít ki engem, sem ígéret, sem meghódolás. Egyetlen bűne az, hogy él.
+               Meghaljon.</p>
+            <p> E percben kürtszó hallatszék, s messziről kiálták: – Hírnök a tengerről!</p>
+            <p> Néhány pillanat múlva egy félmeztelen, lerongyolt öltönyű férfi állt meg a királyt
+               körülálló testőrök karéjában. – Uram, hatalmas Disabul – szólt a hírnök fogvacogva –,
+               rossz hírt hozok.</p>
+            <p> – Akkor jó lett volna, ha magadat ott künn hagyod! Beszélj hát gyorsan, ha rossz,
+               legyen rövid.</p>
+            <p> A hírnök nagy lélegzetet vőn, és beszélt:</p>
+            <p> – Hajóidat, melyek hadseregedet a tengeren átszállíták, a tenger közepén vihar
+               támadta meg. Elsüllyedt mind – a nép a vízbe fúlt – egyetlen gálya jutott a parthoz,
+               azt is a sziklához vágta a hullám, magam menekültem meg úszva, az ottveszett
+               seregből.</p>
+            <p> – Dobjátok vissza, hogy legyen a többinél – ordíta Disabul.</p>
+            <p> A katonák elragadták a hírnököt.</p>
+            <p> – Oh, átkozott vihar! – kiálta szakállát tépve a király. Hogy fuss a világ végeig,
+               és soha meg ne pihenj! Oh, átkozott tenger, hogy száradj ki, és láss tulajdon
+               fenekedre! Hajóimat megettétek. Ezer árbocos, tízezer vitorlás hadam! Egész erdő a
+               tenger közepére ültetve. Egy úszó város, aranyozott tornyokkal, lobogó zászlókkal,
+               páncélos hadakkal minden, minden oda! Vitézeim a tengerfenekén fekszenek, gályáimat
+               darabokban hányja ki a partra a hullám.</p>
+            <p> A király őrjöngő fájdalommal tekinte szét, s meglátott egy katonát, kinek arca
+               mozdulatlan maradt.</p>
+            <p> – Miért nem sírsz, gazember? Nem jön könny szemeidbe? Katonák! Vigyétek, és
+               tanítsátok meg sírni! Ezer árbocos hajóhadam! Egyik kezem van levágva… Inkább volna
+               egyik kezem… – De mit – szólt újra visszatérő daccal. Maradt még két seregem. Semmit
+               sem tesz. Elég erős maradtam még azért. Nincs semmi baj. Ha egyet elnyelt a víz,
+               kettőt csak nem nyelt el a föld.</p>
+            <p> Ismét kürtszó hallaték, és a kiáltás más oldalról.</p>
+            <p> – Hírnök közelg.</p>
+            <p> Nemsokára portól belepett harcos sietett a király elé, lelkendező szóval
+               kiáltva:</p>
+            <p> – Hatalmas király, a pusztáról jövök, hadsereged közül. – Mije hiányzik hadamnak,
+               hogy oly sebesen jövél?</p>
+            <p> – Semmije sem hiányzik, uram, csupán az élet. Hadseregedet a pusztában érte a Szamum
+               irtószele, s homokfellegekkel temette el. Én az utócsapatok közül egyedül futottam el
+               tevémen.</p>
+            <p> Disabul mint a villámütötte fa állt sötéten e rémhírre.</p>
+            <p> – Átok reád híredért, halálmadár! Hogy hoznák azok holt híredet, akiket te hirdetsz
+               halottnak. Ez kemény csapás. Húszezer tevét, százezer harcost veszíték el ingyen,
+               anélkül, hogy az ellenségből egy élet esett volna érte kölcsön… Azért sem sírok. Még
+               van egy hadam. Ez a kettő úgyis csak szedett-vedett nép volt, merő csőcselék, csak
+               meghalni jó: gyalázatomra lettek volna. Jól tették, hogy elvesztek. Úgy kellett
+               nekik, mért nem siettek jobban. Oh, a chorazani sereg mindezt ki fogja pótolni!</p>
+            <p> Alig mondá ki szavait Disabul, midőn harmadik kürtszó hallatszott, és kiálták:</p>
+            <p> – Hírnök érkezett.</p>
+            <p> Elsápadt, elhallgatott mindenki. Maga a király is némán, mereven bámult a
+               sötétségbe, az érkező alakjára lesve, s visszarezzent, midőn egy halavány, pajzstalan
+               alak tántorgott elé, tétova szemekkel, rebegő ajakkal.</p>
+            <p> – Ne szólj! – Hörgé Disabul, elfedve arcát. – Pofád sápadt, mint ki sírból kelt föl…
+               Légy átkozott, miért remegsz?… Gyűlöletes, reszkető ábrázat! Honnan hozod a rossz
+               hírt? Égből cseppentél ide, vagy a tenger okádott ki téged is, hogy engemet
+               rémíts?</p>
+            <p> – Uram, Chorazanból jövök – hebegé a hírnök.</p>
+            <p> – Némulj meg örökre… Mért nem tudtad vérrel befesteni arcodat, hogy ne lenne ily
+               fehér?</p>
+            <p> – Omér khánnal összetalálkozánk.</p>
+            <p> – A végin kezdd… Győztetek-e?</p>
+            <p> – Sereged elhullt. Magam vagyok utolsó, ki megmenekült a harcból.</p>
+            <p> – Astarothra, nem vagy utolsó, mert nem menekültél meg! – ordíta Disabul, s kardját
+               kirántva, kettéhasítá a hírnök fejét.</p>
+            <p> Azután kiesett kezéből a kard.</p>
+            <p> – Ég és pokol! Mindenem elveszett… mindenem, mindenem. Ez a szép hadsereg; a
+               válogatott páncélos hadsereg, mely mint egy érc búzavetés terült el egyik hegyoromtul
+               a másikig, arany pajzsaikon a nap tündökölt, dárdáik hegyével a leszakadó eget
+               képesek lettek volna feltartani… e lovas dandárok, mik a széllel futottak versenyt, s
+               ha nyilaikat kilőtték, elborították vele a napot, s ha őrtüzeiket meggyújták, mintha
+               a föld tükrözte volna vissza az eget. E hétszáz elefánt hátán emelt tornyok, mik
+               ijedelmei voltak a harcnak, e hős vezérek, csapatjaik élén, gyémánttal rakott
+               fegyverzeteikkel, s e lobogó sátorok, mik a halmokat ellepték. Ez mind, mind csak
+               álom? Tegnap volt, és ma nincs?!</p>
+            <p> Disabul őrült álmodozással tekinte a levegőbe, határozatlan léptekkel tántorogva,
+               mint egy holdkóros.</p>
+            <p> Egyszerre elejtett kardjára talált lépni, s annak csörrenése felriasztá.</p>
+            <p> – Ki tette ezt? – Ordíta, felkapva a kardot. – Ki harcol ellenem láthatatlan
+               kezekkel? Te pokolbeli szörnyeteg Astaroth! Azért emeltelek ide, azért hizlallak itt,
+               hogy így bánj velem? Te pokollal viselős fenevad, most fiaddz meg, s szülj nekem oly
+               hadsereget, aminőt megettél, vagy oly dombot hányatok reád, hogy szarvaid sem
+               látszanak ki belőle.</p>
+            <p> A máguszok elszörnyedve rohantak a bálványt káromló király elé. A főmágusz eléje
+               állt.</p>
+            <p> – Szűnj meg szavaiddal, Disabul; ne haragítsd Astarothot még jobban.</p>
+            <p> – Megharagított ő engem eléggé. Ellenségeim csúfja lettem. Ha az ogurnak láthatlan
+               Istene van, legalább nem ad neki enni, miként én ez idomtalan alaknak itt.</p>
+            <p> A máguszokföld alatti csöveken át tompa bőgést hallatának az izzó bálvány
+               torkából.</p>
+            <p> – Halld, Astaroth beszél – szólt a főmágusz Disabulnak. – Mi kell neki? – kiálta ez
+               dühvel. – Ha éhes, tömjétek meg kaviccsal.</p>
+            <p> A bálvány egyre bőgött.</p>
+            <p> – Astaroth édes áldozatát kéri.</p>
+            <p> – Ehetnék? Három hadseregemet ette meg, jóllakhatott vele; hamarább ihatnék rá:
+               mondjátok meg neki, hogy igya ki azt a tengert, melybe gályáim süllyedtek.</p>
+            <p> – Astaroth édes áldozatát kéri: a bíborcsigát, a pillangót, a salamandert, az
+               aranyhalat, a galambot, a paripát és a szeplőtlen szüzet.</p>
+            <p> – No, hát adjatok neki.</p>
+            <p> – Astarothnak tizenhét éves szűz kell, mert a tizenhetes szám előtte szent.</p>
+            <p> Disabul leverten hallgatá a máguszt.</p>
+            <p> – Keveset beszélj, jó ember, mert keveset hallgatok. Tégy, amit akarsz.
+               Háromszázezer hősöm halt meg; küldhetsz utánuk, ha akarsz, még háromszázezer
+               asszonyt.</p>
+            <p> – Szűz csak egy kell, de tizenhét éves.</p>
+            <p> – Mit említed annyiszor? Hozass egyet.</p>
+            <p> – Most tizenhét éve uram minden leányt a vízbe hányattál; aki akkor született, azon
+               évből csak egyetlenegy él.</p>
+            <p> – Tehát legyen azon egy Astarothé.</p>
+            <p> – Bárki legyen is e szűz?</p>
+            <p> – Ha apjának szeme fénye is és a világ szépsége, esküszöm, áldozat legyen!</p>
+            <p> A máguszok egy része eltávozott, az áldozatra szánt szüzet elhozandók, a többiek
+               azalatt meztelen hátaikat verve szeges szíjkorbácsokkal, ordíták Astaroth nevét. A
+               nép körül a földön arcra borulva feküdt. Disabul ült egy leterített tevebőrön.</p>
+            <p> Még tartott az éj, midőn a máguszok visszaérkezének az egyetlen tizenhét éves
+               szűzzel, ki az országban élt, s megálltak vele a rémbálvány előtt.</p>
+            <p> Halavány gyermeteg alak volt az, szenvedő vonásokkal, miket körülrepkedett
+               szétbomolt hajzata, nagy kék szemeiben félelem ült, és holdas szenvedély. Hófehér
+               ruháját termete körül csavargatá a szél, annak szelíd körrajzait tüntetve ki.</p>
+            <p> Kubláj emír megrántá Disabul köntösét, s mondá:</p>
+            <p> – Uram király, ez Halila, a te leányod.</p>
+            <p> Disabul föltekinte, s ismét lesüté fejét. – Átok reá, miért nem fiam!</p>
+            <p> Halila e pillanatig nem tudá, mi történik vele, de midőn a főmágusz intésére
+               egyszerre fellángolt az izzó bálvány, tüzet okádva száján és szemein, s a lány
+               megpillantá atyjának mogorva arcát, hirtelen kiragadá magát a máguszok kezéből, s
+               Disabulhoz futva, annak térdeit átkarolá, s mintha sejtené, amit még bizonyosan nem
+               tud, sikolt kétségbeesett hangon:</p>
+            <p> – Atyám, segíts, engem bántani akarnak!</p>
+            <p> – Bántottak engem is – szólt Disabul –, három hadseregem veszett el egyszerre.</p>
+            <p> – Oh, de én nem bántottalak soha, miért engeded, hogy megöljenek?</p>
+            <p> – Az ezen bölcs urak dolga. Ők tudják, mire kell véred Astarothnak? Beérhette volna
+               harcosaimmal. Különben ők azt állítják, hogy e fenevad rézgyomrából egyenesen a
+               mennyországba jutsz.</p>
+            <p> – Oh, ne ölj meg rémítő szavaiddal, mielőtt a halál megölne. Hisz én nem szeretem az
+               életet, és nem irtózom a haláltól. Itt vagyok, verjétek szívembe a tőrt, hajítsatok
+               le magas kőszikláról, csak e rettenetes tűzbe ne vessetek, oh, én irtózom e
+               haláltól!</p>
+            <p> – De hát ki vállalja el helyetted azt? E pokolbéli királynak édes áldozat kell, s ha
+               volna is kívüled valakinek egykorú leánya, melyik apa fogja idehozni saját gyermekét,
+               hogy tégedet kiváltson? Mindenki szereti gyermekét, mégis csak legjobb lesz teneked
+               meghalnod, kit apja gyűlöl.</p>
+            <p> – Érzem, hogy gyűlölsz, és én nem adtam neked rá okot soha.</p>
+            <p> – Te nem. Anyád adott rá okot, amiért szült.</p>
+            <p> – Sohasem hallottam egy édes szavadat. Életemnek egyetlen örömnapja sem volt. Ha
+               csecsemő koromban kivetettél volna a pusztára, valamely fenevad felnevelt volna
+               gyermekének, s jobb apám volna, mint te vagy. Ha nem palotádban, hanem egy pásztor
+               viskójában születtem volna, most tán egy tevehajcsár boldog neje volnék.</p>
+            <p> – Miért nem vagy az? Én nem voltam rád büszke. Odaadtalak volna az első
+               tevehajcsárnak, ki kezedet megkéri. Most nem fájna rád Astaroth foga, mert nem volnál
+               hajadon.</p>
+            <p> – Óh, hisz engem mindenki kikerül, mert jól tudják, hogy haragod van homlokomra
+               írva, hogy aki engemet kíván, a te gyűlöletedet kívánja magának.</p>
+            <p> – Egy ország veszett el miattad, hát ne gyűlöljön ez ország? Ha megfordítva állana a
+               sors, s te volnál férfi és Dalma nő, most nem siratnám elveszett seregeim. Volna
+               másik. Így meg kell hajtanom fejem, mely soha megalázva nem volt. Mit ér nekem
+               szépséged, arcod, szemeid, termeted? Lennél inkább rút, törpe, kancsal és púpos –
+               csak férfi lennél. Mit ér nekem, hogy angyal vagy? Lennél inkább ördög, de férfi…</p>
+            <p> A bálvány megunta a sok beszédet, és bőgni kezdett. Disabul mérgesen fordult
+               vissza.</p>
+            <p> – Mondjátok Astarothnak, hogy ne bőgjön, mikor én beszélek. Áldozatát meg fogja
+               kapni.</p>
+            <p> Halila kétségbeesetten kulcsolta át atyja térdeit.</p>
+            <p> – Atyám! Te nem engedheted, hogy engemet megöljenek, itt, szemeid láttára, oly
+               irtózatos halállal. Ha emberi szív van benned, egy férget meg kell sajnálnod, melyet
+               így megölnek, nem saját leányodat, kit térdeidtől hurcolnak el.</p>
+            <p> – Jól van – monda Disabul. – Ne vádolj azzal, hogy kegyetlen vagyok. Ím, egy
+               menekvésre nyújtok utat neked. Ha a nép közül, mely itt köröttünk áll, találkozik egy
+               férfi, aki téged nejévé fogad: vízhordó, öszvérpásztor, vagy bármely rabszolga, kit
+               szépséged bája s halálkínaid megindítnak, hogy kezedet megkérje tőlem, légy azé.
+               Astarothnak nem kell nő, akit már férjhez adtak.</p>
+            <p> Halila csüggedten, sértett szeméremérzettel hajtá le fejét.</p>
+            <p> – Mindenféle emberek! – kiáltá Disabul. – Jöjjetek ide, lássátok e leányt, s
+               nézzétek meg jól: az én leányom ő. Szép, nyájas és jó erkölcsű leány. Bizonyára jó
+               asszony fog válni belőle. Ki akarja őt nőül venni? Szóljon, lépjen elő.</p>
+            <p> Mély csend fogadta a felszólítást.</p>
+            <p> – Nos? Senkinek sincs kedve hozzá? Én rangra nem tekintek, nem vagyok válogatós. Az
+               elsőnek adom, aki szól. Senki sem szólt. Halila szégyen és halálfélelem miatt
+               térdeire roskadt, s meggyalázott arcát kezeibe rejté.</p>
+            <p> – Látod: senki sem akar nejévé fogadni – szólt Disabul. A főmágusz odalépett
+               Halilához, s megfogta kezét.</p>
+            <p> – Szeplőtelen hajadon, szállj lelkedbe és örülj, hogy tisztán jutsz Astaroth
+               kebelére.</p>
+            <p> Halila az égre emelve arcát és összekulcsolva kezeit, rebegé:</p>
+            <p> – Te láthatatlan Isten, kinek lételét megholt anyám taníta tisztelni titkos
+               magányunkban, kit annyiszor kerestem, midőn szenvedék, ki mindenütt jelen vagy, s
+               védője vagy az üldözöttnek, ki szereted azt, akit senki sem szeret már! Egyetlen,
+               soha el nem múló Isten! Légy velem! S ha van szemed meglátni szenvedéseim, legyen
+               karod megmenteni belőlük!</p>
+            <p> – Imádd Astaroth nevét, ki keblébe fogad! – riadt a leányra a főmágusz, félrántva őt
+               térdeiről, s elborzadva rajta, hogy az áldozat idegen Istent hí segélyül.</p>
+            <p> – Isten! Mindenható! – sikolta a leány, a földre vetve magát. – Ne hagyj el
+               engem!</p>
+            <p> A máguszok felkarolták őt, s rohantak vele a bálvány felé.</p>
+            <p> E pillanatban egy magas, délceg levente lépett a középre, kezében olajág, oldalán
+               kard. Bátran a máguszok közé lépett, s megfogva a leány kezét, visszatartá őt
+               közülük, s biztatva szóla hozzá:</p>
+            <p> – Ne félj. Nem hagy el soha, akihez kiáltál.</p>
+            <p> E dalia volt Elemér.</p>
+            <p> Halila égből szállt magas lénynek tekinté a délceg, bátor arcú ifjút, s kezét
+               megragadva, kebléhez szorítá, s szólni nem bírt könny és elfogódás miatt.</p>
+            <p> Elemér bátran körültekinte. Mindenki bámulva néze rá. – Hát nincs-e férfi az egész
+               országban, hogy egy ártatlan nőnek sírni lehet? – kérdé merész, kihívó hangon.</p>
+            <p> – Mit akarsz? – ordíta rá Disabul.</p>
+            <p> – E hölgyet megszabadítani.</p>
+            <p> – Szinte elkéstél vele.</p>
+            <p> – Vártam felszólításod után, ha lesz-e férfi, ki kezét elfogadja? Nem volt. Vagy
+               szeretni tudnak rosszul, vagy félni tudnak igen jól.</p>
+            <p> – Nagyon jól tudták ők, hogy aki őt meg akarná menteni, magát vesztené el. Eredj
+               dolgodra, botor fiú, s örülj rajta, hogy még fiatal vagy.</p>
+            <p> Halila megrettent, hogy védője netalán megengedi magát rémíteni, s ismét visszalép.
+               Átkarolta őt kétségbeesése teljes erejével.</p>
+            <p> – Oh, ne hagyj elveszni engem! Ne taszíts el lábaidtól; végy nődül, én szeretni
+               foglak, álmaid felett őrködöm, gondolatoddal uralkodhatol rajtam; rabnőd leszek, ki
+               éjeket virraszt egy pillantásodért, kinek élete nem lesz kívüled, ki örömében hal
+               meg, ha fölemeled, s lábaid porát csókolja, ha elgázolod.</p>
+            <p> – Ne félj, megvédelek – szólt Elemér.</p>
+            <p> – Hát tégedet ki véd meg? – kiálta Disabul, megzördítve kardját.</p>
+            <p> – Oh, ne hagyd magadat elrettenteni – szólt a leány –, ha látnád félisteni alakodat,
+               egy világgal mernél szembe szállani. E tekintethez nem férhet gyávaság, ez arc
+               félelmet parancsolna még a puszták vadjainak is. Oh, meg ne rettenj, légy erős!</p>
+            <p> – Ne félj. Ez olajág megoltalmaz téged – szólt biztató hangon az ogur levente. – S
+               ha gyönge volna az olajág, megvéd e kard!</p>
+            <p> – S ki vagy te? – ordíta Disabul –, ki oly fennen beszélsz, midőn előtted Disabul,
+               mögötted Astaroth áll?</p>
+            <p> Elemér büszke erőtudattal mondá:</p>
+            <p> – Én az ogur nép követe vagyok. Kubláj suttogva mondá Disabulnak: – Uram, te
+               elsápadál.</p>
+            <p> – Igazán? – szólt ez tántorogva. – Észrevehetni arcomon? – s azzal erőt véve
+               meglepetésén, újra kemény hangon kiálta: – Ha mennybéli követ vagy is, remegj, midőn
+               előttem állsz.</p>
+            <p> Hagyd a haragot Disabul – szólt Elemér. – Jól tudva azt, hogy te mennyire szoktad
+               tisztelni a népjogokat, nem tartám fölöslegesnek az olajág mellé kardot is kötni s
+               legjobb vitézeim közül kétezeret magammal hozni kíséretül. Kopjáik hegyét láthatod
+               hátad mögött.</p>
+            <p> A nap éppen akkor kezde pirkadni; Disabul amint hátratekintett, reszketve pillanta
+               meg egy hosszú sor fénylő kopját a hajnal első sugáriban.</p>
+            <p> – És nekem egy harcosom sincs többé – sóhajta magában.</p>
+            <p> – Uram, ülj fel trónodra, mert reszketsz – szólt suttogva Kubláj a királyhoz. – Ne
+               vegye észre ez idegen megaláztatásodat.</p>
+            <p> Egyszerű emelvény volt a trón, két lépcsővel, tigrisbőrrel beterítve, melyet vastag
+               kerekekre téve, mindenütt a király után szoktak gördíteni. Disabul csüggeteg
+               léptekkel, elfojtott dühében reszketve tántorgott a trónig, s felült reá, és sötét
+               arccal tekinte Elemérre, mintha ijeszteni akarná őt tekintetével. De látszott, hogy
+               nem az fél, ki a trón előtt áll, hanem ki rajta ül.</p>
+            <p> – Beszélj hát, mit hoztál? – szólt a követhez. – Vagy mit akarsz elvinni?</p>
+            <p> – Ifjú khagánom üdvözletét hozom, ki atyja holta után trónra ülve, erről téged
+               tudósítni kíván, s irántad való gondolkozása zálogképeit itt küldi általam.</p>
+            <p> Ezzel egy utána jövő apródnak inte Elemér, ki szironyos szarvasbőr-vánkoson egy
+               kenyeret és egy botot vitt a király elé.</p>
+            <p> Disabul ajkába harapott, s szemei vadul forogtak.</p>
+            <p> – Kenyeret és botot! – hörgé fogai közt. – Értem a célzást. Volna csak meg chorazani
+               hadam, majd tudnám, melyiket válasszam?</p>
+            <p> Elemér elvevé az apródtól a vánkost, s maga nyújtá fel Disabulnak a jelvényeket.</p>
+            <p> – Egyik a jó barátság, másik az ellenségeskedés jelképe. Válassz közülök.</p>
+            <p> – E kenyeret… – monda Disabul, s fogait csikorgatta, míg elvevé. – Elemér büszkébb
+               volt, mint hogy Disabul gyűlöletkifejező torzvonásait nemes arca csak egy
+               mozdulatával is megtorolja.</p>
+            <p> – Khagánom örülni fog jó szándékodon.</p>
+            <p> – Derék férfi khagánod? – kérdé Disabul keresztültörő gúnnyal, s a kezei közt
+               összelapuló kenyéren látszott, mit gondol e percben Dalmáról.</p>
+            <p> Elemér arca kigyulladt, midőn e kérdésre felelt, midőn Dalmáról kelle szólnia.</p>
+            <p> – Félisten a harcban – angyal a baráti körben – egész ember a tanácskozásban. – Ha
+               látod őt, szíved megáll a bámulat miatt – ha nem látod, utána megy a szeretet miatt.
+               – Ha ellensége vagy, legyőz karja által – ha jó barátja, legyőz lelkével.</p>
+            <p> Disabul arca sötétvörös lett e magasztalástól.</p>
+            <p> – Az ég tartsa meg soká – hörgé keserves gúnnyal.</p>
+            <p> – Kívánom egyúttal – szólt Elemér – hogy a régi szövetséget esküvéseddel tedd
+               újjá.</p>
+            <p> – Oh, kész örömmel – felelt Disabul, fújva dühében.</p>
+            <p> – Hogy országunkat haddal sohasem fogod háborítni… – Esküszöm rá!</p>
+            <p> – Hogy semmi velünk ellenséges néppel szövetséget nem kötsz.</p>
+            <p> – Esküszöm rá!</p>
+            <p> – Hogy trónodat, mely holtod után khagánunkat illeti, jogtalanul más kezére nem
+               játszod.</p>
+            <p> Disabul felugrott trónjáról, melle zihált, szemei vérben forogtak. Oly dühvel,
+               minővel a kalitkába zárt tigris, engedelmeskedni kénytetve őrzője vasvesszejének,
+               ordíta fel:</p>
+            <p> – Esküszöm rá! Megesküdjem-e még arra is, hogy korábban meghalok, mint khagánod?</p>
+            <p> – Az ég tartson meg tetszése szerint. Disabul lankadtan dőlt vissza trónjára.</p>
+            <p> – Kérlek – szólt keserűen. – Esküdtess még meg valamire. Ha már benne vagyunk. Kérj
+               tőlem valamit. Most jó kedvemben vagyok.</p>
+            <p> Halila még mindig ott térdelt Elemér lábainál. Az ifjú észrevette esdő
+               pillanatát.</p>
+            <p> – Valóban, még egy kérelmem van hozzád. E hajadont, ki ótalomért folyamodott hozzám,
+               senki se merje bántani: legyen szabad akarata, mehessen ahova akar, tehesse amit
+               kíván, legyen szabad és sérthetetlen.</p>
+            <p> Halila felsóhajtott, gondolván magában: „Ő nem kívánja, hogy övé legyek…”</p>
+            <p> – Esküszöm rá, szabad leend – szólt Disabul.</p>
+            <p> – Örömestebb lennék rabszolgálód – suttogá alig hallhatóan a leány, Elemér kezét
+               ajkához szorítva.</p>
+            <p> – És most a magas ég legyen oltalmazód, jó szomszéd mondá búcsúüdvözletét Elemér –
+               ha netalán szükséged lenne ránk, csapatjaink nem messze lesznek tőled.</p>
+            <p> Ez egyúttal figyelmeztetés volt Disabulnak, hogy vigyáznak reá.</p>
+            <p> – Szép hajadon – szólt Elemér, fölemelve a lábainál ülő hölgyet –, a király szava
+               megadta éltedet és szabadságodat, az ég adja meg boldogságodat is.</p>
+            <p> – Az ég megadta azt – suttogá a leány –, de te ismét elvivéd magaddal! – S gyászoló
+               epedéssel tekinte a távozó ifjú után, ki nemsokára levente csapatja élén távozni
+               látszott a fölkelő naptól megaranyozott pusztán.</p>
+            <p> Mély csend maradt eltávozása után.</p>
+            <p> A népség hallgatva húzódott félre, a máguszok szomorúan állták körül bálványukat,
+               mely világított, míg sötét volt az éj, s most feketén állt ott a fényes
+               napvilágban.</p>
+            <p> Disabul fejét tenyerébe hajtva, elborult arccal maradt ülve trónján. Senki sem meré
+               őt háborítani.</p>
+            <p> Egyszer azonban újra kardcsörgés hallalik, s az imént eltávozott hindu és fehér hun
+               követek látszának visszatérni. – Magas király – szólt a hindu – még egyszer
+               visszajöttünk, megtudni végső határozatod; a harc nem gyermekjáték; lehet, hogy
+               megbántad hadizeneted; a napvilág gyakran más tanácsot ad, mint az éj; mi még egyszer
+               felszólítunk békére.</p>
+            <p> – Engedelmes férfiút találtok bennem – szólt Disabul megvető nyugalommal. – Letettem
+               a háborúról. Pap leszek. Elmegyek boldog Arábiába keringelő barátnak. Még szóval sem
+               akarok harcolni ellenetek. Szidjatok, csúfoljatok ki; én hallgatok.</p>
+            <p> – Sőt dicsérünk határozatodért – szólt a hindu, nagyot tartva szavainak hatása
+               felől. – Fejedelmeink örülni fognak, hogy szavaink súlyát tekintetbe vevéd.</p>
+            <p> A hindu követ megelégült öntudattal húzódott vissza. – Majd vettem volna – szólt
+               Disabul –, csak élne még chorazani hadam. A férgek azt hiszik, hogy ők ejtették el az
+               oroszlánt, aki meg hagyja magát enni általuk.</p>
+            <p> A többi követeket meglepé a király szokatlan engedékenysége; egy apró tömpe bajnok
+               jónak látá e hangulatot hasznára fordítani, s kiválva a többiek közül, a trón elé
+               lépett s fejét lehető magasra emelve, mondá:</p>
+            <p> – Magas király! Én a csuvasz nép követe vagyok.</p>
+            <p> – Ki az ördögöké? – kérdi bosszúsan Disabul.</p>
+            <p> – A csuvaszoké, uram.</p>
+            <p> – Sohasem hallottam hírüket.</p>
+            <p> – Országunk hajdan a Bajkál-tóig terjedt, most e darab részt te bírod, nem adnád
+               vissza?</p>
+            <p> – Akár még a Bajkál-tavat is hozzá! – mondá csúfos nagylelkűséggel Disabul. – Van-e
+               még, akinek valami kell? – kiálta fölemelkedve trónjában, s keserű jókedvvel
+               széttekinte a nép között.</p>
+            <p> Nehány paraszt összeszólalkozott, egyet kituszkolva maguk közül, az megrángatta
+               csuháját, s Disabul elé lépve, rövid bölcsességgel szóla:</p>
+            <p> – Uram, magas király! Nagyon sok rajtunk az adó, engedd el felét.</p>
+            <p> – Igen szívesen! – szólt Disabul. – Hát te másik? A paraszt sarkában egy hivatalnok
+               következett:</p>
+            <p> – Uram, magas király! – Nekünk tisztviselőknek kevés a fizetésünk.</p>
+            <p> – Legyen kétannyi! Jertek; kérjetek! No, csak bátran, állj elő, te vércseszemű,
+               látom pofádból, hogy kell valami. Mi kell? Ne vigyorogj, gondolj ki valamit.</p>
+            <p> A megszólított szurtos-lisztes legény szétmosolygott a levegőben, megvakarva
+               tarkóját, mintha nem jutna hirtelen eszébe, hogy mit kérjen, s azzal ostoba képpel
+               mondá:</p>
+            <p> – Uram! Egy szélmalmom van, de igen rossz helyen.</p>
+            <p> – Rossz helyen van? – monda gúnyos részvéttel Disabul.</p>
+            <p> – Állítsd fel palotám udvarán, ott jó helyen lesz. Elő, ti többiek! Kérjetek,
+               parancsoljatok. Mimet adjam oda. Kell e boglár valakinek?</p>
+            <p> S azzal leszakítá boglárát süvegéről.</p>
+            <p> – Netek! – kiálta, azt a nép közé vetve. – Kell kardom Hát övem kinek kell?
+               Kormánybotom? Süvegem? Itt van, vegyétek! Osztozzatok meg rajta!</p>
+            <p> S azzal egyenkint letépve magáról fejedelmi ékeit, a nép közé hányta azokat, mely
+               civakodva osztozott meg rajtuk. Az erősebb elvette a gyöngébbtől, s ha egy felkapta,
+               elvette tőle tíz, csak a legapróbb foszlány és töredék maradt meg a nekik szórt
+               tárgyakból.</p>
+            <p> A nép szertebeszélte, hogy a király ma különös jó kedvében van.</p>
+            <p> – Nem maradt más, mint puszta testem! – kiálta Disabul, ruháit felszakítva, miután a
+               nép eloszlott. – Hát ez kinek kell még? Ah! Amott látok két hullakeselyűt az égen
+               meghallották szavam. Jertek! Tiétek vagyok!</p>
+            <p> A téren senki sem volt már, a népség sátoraiba oszlott. A kétségbeesett királlyal
+               nem maradt más, csak Kubláj és Halila.</p>
+            <p> A leányka leült a trón zsámolyára, fejét tenyerébe hajtva. Kubláj odalépett
+               Disabulhoz, s megfogá kezét.</p>
+            <p> – Térj magadhoz, király, még nincs veszve minden. Disabul vadul tekinte szét, szilaj
+               tekintete majd leányát, majd emírjét érte. Halila félve kelt föl a trón lépcsőjéről,
+               s reszketve fogta meg atyja balkezét, míg Kubláj jobbját tartá.</p>
+            <p> – Hát ti miért maradtatok itten? Nincs semmim, amire várjatok.</p>
+            <p> – Még van országod – szólt az emír.</p>
+            <p> – Még van szíved – suttogá Halila. Disabul szomorúan tekinte leányára.</p>
+            <p> – Minek vagy itt? Szabaddá tettelek. Mehetsz, ahová akarsz.</p>
+            <p> – Én itt akarok maradni tenálad.</p>
+            <p> – Hm. Különös. Hogy a vér nem engedi az ember szívét meghűlni. Te nem hagytál el.
+               Ezen nincs mit csodálnom. Gyermekem vagy, s ösztönnek engedsz. De hogy te is itt
+               maradtál velem; te skorpiószívű udvaronc, te aranyos légy, ki csak addig dongsz, míg
+               a nap süt, ezt bámulom.</p>
+            <p> Kubláj mosolygott, alázatos képpel, minő azoké, kik mosolyogni szoktak, ha
+               bántalmakat mondanak nekik.</p>
+            <p> – Ez arra mutat, hogy napod még nem ment le végképp, s hogy én fel tudom azt újra
+               hozni egedre.</p>
+            <p> – Valóban? Tudsz hadsereget teremteni a puszta földből?</p>
+            <p> – Le tudom győzni az ellenséget hadsereg nélkül.</p>
+            <p> – Beszélj, hallgatok rád.</p>
+            <p> – Menjünk félre. E leány ne hallja, amit mondok. Halila apja intésére a trón
+               lépcsőjére visszaült.</p>
+            <p> – Tudd meg tehát – szólt Kubláj –, hogy e hatalmas, dölyfös új khagán ellen, ki oly
+               merészen küldözi hozzád izeneteit, oly gyanúm van, mely ha napfényre hozható, egy
+               kardcsapás nélkül ledönti őt trónjáról, s téged ültet bele. – Mondd e gyanút.</p>
+            <p> – Nem sejted-e? Én hiszem, okom van hinni, hogy a fiatal khagán, e félisten, ez
+               angyal, ez egész ember – sem félisten, sem egész ember, még csak nem is férfi, hanem
+               leány!</p>
+            <p> Disabul új lelket látszott kapni e szóra.</p>
+            <p> – Aranyba foglaltatlak e gondolatodért. Honnan gyanítod ezt?</p>
+            <p> – Szokásom kétkedni, gyanakodni. Midőn Oldamúr udvaránál voltam mint követ, sokszor
+               láttam e fiatal gyermeket, s ha többi kortársaival összehasonlítám, sokkal
+               gyöngédebbnek találtam vonásait, karcsúbbnak termetét, bőrét simábbnak, mint férfiaké
+               szokott lenni. Egyszer harcjátékon tréfából azt mondám neki: „Mily szép leány lett
+               volna belőled, kár, hogy nem vagy az”. Dalma vérpiros arccal szökött fel e szóra
+               helyéről. „Szeretnéd megtudni, ha férfi vagyok-e? – kiálta rám büszke tekintettel. –
+               Jer, mérkőzzél meg velem.” S azzal a harcsíkra szólított, s amint ott paripáinkkal
+               egymásnak rohantunk, úgy megöklelt dárdájával, hogy három ölnyire estem le lovamról.
+               Három oldalbordám törött be, s én sajnosan kényszerültem megvallani, hogy e kar nem
+               asszonyé!</p>
+            <p> – Miről beszélsz hát? – kiálta bosszús türelmetlenséggel Disabul.</p>
+            <p> – Csak hallgasd tovább. Itt rosszul ütött ki a kísérlet, más térre kellett vinnem
+               gyanúmat. Közel nem lehete férni senkinek, embert nem tűr maga körül. Egyszer nők
+               társaságában láttam meg őt. Az ország legszebb hölgyei voltak együtt: egy-egy nap
+               mindegyik, oly bájolók, hogy láttokra maga a vénség is lángokra gerjed, hogy képesek
+               volnának egy győztes hadsereg kezéből kiragadni a diadalmi zászlót. Dalma véletlenül
+               jött a társaságba. Egy tizenhat éves ifjú meglepetve lett volna ennyi szépség
+               láttára. Arcának lángba kelle jönni, szemeit zavartan kelle lesütnie, szemérmesen
+               fordulni erre, arra, s egy-egy tétova szót rebegni ahhoz, kit legelébb meglát… A mi
+               hercegünk ehelyett közönyösen lépett a hölgykoszorú közé, mindeniket külön nyájasan
+               üdvözlé, bátran társalgott velök, s tekintetében nem volt semmi sóvárgás, arcán semmi
+               melegség. Ez árulá el előttem! Ez nem lehet férfi szíve, így csak asszony nézhet
+               asszonyok szemei közé. Disabul kedvetlenül mordult reá</p>
+            <p> – Tehát ebből áll egész fölfedezésed? Ha titkodnak nincs egyéb bizonyítéka a
+               szemeknél, az kevés tanúság.</p>
+            <p> – Oh, uram, – szólt Kubláj ravasz értelmességgel –, a szemekből biztosabban lehet
+               olvasni, mint a csillagokból. Nem figyeltél-e még menyasszony szemeire, midőn fejére
+               tették a nászkoszorút, s aztán egy nappal később, midőn azt a főkötővel cserélték
+               fel? Minő különbség a szemek között? Amaz még leányé volt, ez már asszonyé. Amaz
+               félig csukott, rejtett világú, ez már nyílt és felragyogó. Avagy száz becsületes
+               ember közül nem ki tudnád-e ismerni a gyilkost – szemeiből? Amazoknak nyugodt
+               tekintetével ellenkezőleg nem megtalálnád-e imennek szemeiben azt a zavart, ijedős
+               gondolatot, mely a bűntudatos lelket elárulja?</p>
+            <p> – Tudományodért sokat adhatna valami bolond bölcs; mit ér az nekem, ha nem lehet
+               bebizonyítani?</p>
+            <p> – Ez csak ok a gyanúra, más azonban a mód azt napfényre hozni.</p>
+            <p> – Mondjad.</p>
+            <p> – Nőt kell neki adni.</p>
+            <p> – S ki kényszeríthet arra valakit, ki kényszeríthet arra egy fejedelmet, hogy
+               megházasodjék? S még ha tehetnők is ezt, meglehet, hogy ő elárulná magát a nő előtt,
+               de a nő elárulná-e őt mi előttünk?</p>
+            <p> – Két kérdésedre eggyel felelek. Leányodat kell hozzá nőül adni.</p>
+            <p> – Bölcsen beszélsz.</p>
+            <p> – Őt nőül ajánlva neki, ezt nem utasíthatja vissza. A leány szép, erényes és szelíd;
+               királyi szülött. Semmi ok sincs őt el nem fogadnia. De van az ellenkezőre. A két
+               fejedelmi család egyesítéséért ezt még a közjó is kívánni fogja. A varchoniták, kiket
+               a gyűlölet annyi emberéleten keresztül elválasztott, a szeretet által újra
+               egyesülnek. Saját országnagyjai fogják őt erőszakolni e házasságra.</p>
+            <p> – Új vért öntöttél belém – szólt büszkén föllélekzve Disabul. – Meg nem menekülend
+               kezeim közül.</p>
+            <p> – E titkot senkinek se hagyd gyanítani, nehogy észrevegyék, s bennünket
+               kijátszanak.</p>
+            <p> – Még álmomban se hallja tőlem senki –, monda a király, s leányához fordult.</p>
+            <p> – Szelíden bánj vele – súgja az emír –, hogy ellenünk ne szegüljön. Hadsereged
+               nincs. Leányod szemeiben van minden fegyvered.</p>
+            <p> Disabul megfogta leánya kezét, s szelíd arcot iparkodék ölteni, s beszédét, gyöngéd
+               hangokra erőszakolta.</p>
+            <p> – Te jó, te szelíd leány. Ne térdelj lábaimnál. Jer keblemre, és ölelj meg. Én jó,
+               szerető apád vagyok. Ha szenvedtél eddig, az csak próbatét volt, mellyel szíved
+               érzelmeit kísértém; ha úgy bántam veled, mint gyűlöletem elvetett tárgyával, azt csak
+               erényed tisztító tüzének tekintsed: te tisztán jöttél ki belőle; midőn a halál
+               torkába taszítálak, még akkor is szerettél; midőn mindenki elhagyott, még akkor is
+               ragaszkodtál hozzám; midőn szabadon bocsátálak, hogy mehess, hová akarsz, még akkor
+               is visszajöttél hozzám, hogy mellettem maradj. Jobbomon fogsz ezentúl ülni, trónomon
+               és szívemben első helyen. Minden szenvedésedet százannyi örömmel pótolom vissza.
+               Felmagasztallak úgy, hogy amint került eddig még a leghitványabb is, ezentúl örüljön
+               a legmagasabb úr is, ha lábaid porát csókolhatja.</p>
+            <p> Szegény leány, úgy örült ez édes szavaknak! Örömének terhét alig bírta elviselni.
+               Zokogva borult atyja keblére.</p>
+            <p> – Te engemet szeretni fogsz?</p>
+            <p> – Szeretni nemcsak én, hanem azok is, kik előtt népek hajlongnak. Ha egy óra előtt a
+               legutolsó rabszolgának sem volt kedve kezedet elfogadni, örüljön most a legnagyobb
+               király, ha azt elnyerendi. Álmodjál szépeket. Álmodd azt, a mi legmagasabb,
+               legmerészebb gondolatja lehet a léleknek, és én valósítani fogom ez álmodat.</p>
+            <p> – Oh, én most is álmodom, álmodom és boldog vagyok – rebegé reszkető szóval a
+               leányka, s gondolatjai az eltávozott leventét kísérték.</p>
+            <p> Jobb lett volna nem álmodnia oly boldogan.</p>
+         </div>
+         <div type="chapter">
+            <head>IV.</head>
+            <p> „Legyen néped boldogsága oly nagy, hogy elfeledd miatta saját boldogtalanságod!”</p>
+            <p> Ezzel áldá meg a haldokló Oldamúr utodát. Az áldás megfogamzott. Naponkint új öröm
+               várt az ifjú uralkodóra; s az öröm, melyet mint fejedelem érzett, feledteté vele a
+               fájdalmat, melyet mint nő viselt. Elemér távolléte által biztosítva érzé magát
+               szenvedélye ellen, s erős határozata volt, őt sohasem hívni maga elé. Bármihez
+               fogott, tetteit siker követte. A kard aranydicsőséget, kalapács és szántóvas
+               aranypénzt és aranykalászt termeszte országának. A rokonfajok földére húzódtak
+               megtelepülni, egyik város a másik után emelkedett folyamai partján, a kereskedők
+               karavánjai bátorságos vidékein keresztül vették útjokat, s midőn ez idő szerint a
+               kerek világ minden országait Isten sűrű csapásai látogatták, az övét kikerülte mind.
+               A dögvész az egész emberiség számát felére leapasztá, az ő népe szaporodott.
+               Szárasztó szelek, izgatott népvándorlások éhhalált támasztának a földön, az ő országa
+               paradicsom volt, mely a körüllevő országokat is táplálta, nem volt szegény az egész
+               hazában, s mintha még a lelkeken is áldás volna, még a bűn is elenyészett határairól,
+               úgy, hogy midőn a rhabonbánok egyszerre három bűnvádlottat találtak az országban, e
+               hallatlan eset elítélésére az országnagyok gyűlése hívatott össze, s előre beszéltek
+               róla az emberek, mint valami gyászünnepről.</p>
+            <p> Az egyik egy harcos volt, ki a csatából megszökött. A másik egy férfi, kit
+               „névtelen” bűnnel vádoltak. A harmadik egy házasságtörő asszony.</p>
+            <p> Az ítélőszék sorompói nyílt helyen voltak felállítva a Túla partján, fehér sátorok
+               köröskörül, mik alatt heverészett a fehérbeöltözött nép; a fehér szín kedvence volt
+               az ogurnak, a fekete gyászt csak a bűnösök viselték.</p>
+            <p> A trón mennyezete is tiszta fehér volt, körülfűzve zöld levélkoszorúkkal. E népek
+               minden fényűzése a tisztaságban állott.</p>
+            <p> A tárogató-hangok jelenték, hogy a khagán jő.</p>
+            <p> A nép tolakodva nyomult elé. Az üdvkiáltástól reszketett az ég. Dalma arca halovány
+               volt, és mosolygott. Az az eltitkolt szenvedély mindig halványabbra festé azt, de az
+               öröm, mely lépteit fogadta, mégis visszasugárzott rajta, s mentül féhérebb volt az
+               arc, annál fényesebb volt rajta a mosoly. A nép tódulása nem engedte őt előre
+               haladni. Aki egyszer meglátta, nem tudott tőle megválni. Az emberek meg voltak
+               bűvölve tekintetétől, senki sem tudott számot adni róla, miért szereti őt oly nagyon?
+               Végre levették őt lováról, s palotája kapujától kezdve egész a sorompókig a nép feje
+               fölé tartott pajzsain, mint egy érchídon kellett végighaladnia.</p>
+            <p> A könnytől nem látta a világot, midőn trónjába ült.</p>
+            <p> – Uram, erősítsd meg szíved – monda neki a rhabonbán – e nap büntetésre virradt.</p>
+            <p> – Mindig csak a bűnösöket keresitek föl. Nem tudjátok, hogy a büntetés jobban fáj
+               annak, aki adja, mint annak, aki elfogadja. Miért nem keresitek fel egyszer az erényt
+               is, s írnátok törvényeket, melyek nem büntetésről, hanem jutalmazásról szólnak?</p>
+            <p> – Az erény jutalma önmagának, uram, vagy ha nem az, akkor nem erény. Nézd e férfit e
+               lealázott homlokkal. Kérdjed bűnét, ő megmondja maga.</p>
+            <p> A gyászba öltözött vádlott lehajtott fővel lépett Dalma elé.</p>
+            <p> – Mit vétettél? – kérdé Dalma.</p>
+            <p> – Megszöktem gyáván a táborból egy asszony miatt felelt az töredelmesen. – Öless
+               meg. Úgy érdemeltem.</p>
+            <p> – Őszinte vallomásod megmenti éltedet, de bűnöd megtorlásra vár. Bontsátok széllyel
+               házát, tegyétek a földdel egyenlővé, ne lakjék fedél alatt, míg bűnét helyre nem
+               hozza. Ha a legközelebbi harcban bátor leend, akkor építsétek fel házát újra.</p>
+            <p> Ez volt a gyávák büntetése az oguroknál. A rhabonbán egy másik férfit hozott
+               elő.</p>
+            <p> – Uram! E férfi az ellenséggel cimborált, honárulással vádoltatik</p>
+            <p> – Hazudsz! – kiálta Dalma, hevesen fölpattanva trónjáról. – E bűn nem létezik. Átok
+               a hangra, mely annak nevet adott. Ember! Mondd, hogy nem vagy az, mivel vádoltatál.
+               Nevezd inkább apagyilkosságnak, gyermekek megrontójának magadat, de ne adj példát e
+               bűnre, mely Bertezena ivadéka előtt ismeretlen.</p>
+            <p> A férfi nyugodtan felelt:</p>
+            <p> – Nem ismerem e bűnt, mellyel vádoltatom.</p>
+            <p> – Szeretem, hogy nevét sem mondod ki. Szólj, rhabonbán; ugye e bűnre nincsen törvény
+               közöttünk? Mert eset nem volt rá soha.</p>
+            <p> – Uram. Első honalkotóink, kik törvényeinket megírták, hosszú cédrusfa oszlopokra
+               egy cikket írtak abba, mely szól a „névtelen” bűnről: – „Ha támad köztetek oly vétek,
+               melynek most nincs neve, bízzátok annak ítéletét az Istenre. Állítsatok a síkra egy
+               törpét egy óriás ellenében. A törpe a vádlott bajnoka, a vádlóé az óriás. Ha a
+               vádlotté bukik, a bűnöst égessétek porrá, s nevét adjátok egy utálatos bogárnak, hogy
+               amíg ember él, undorral mondja ki annak nevét.” A vád, íme, feltámadt, a bajnokok a
+               sorompóban állnak.</p>
+            <p> – E bűnt elhinni is bűn! – szólt Dalma elirtózva. Eközben a két bajnok a küzdtérre
+               lépett, az egyik egy négy láb magas, zömök, hosszú bajuszú törpe volt, kurta keze, de
+               hosszú dárdája; az emberek kötekedve kiabáltak utána:</p>
+            <p> – Hová viszed, te dárda azt a fickót?</p>
+            <p> Az óriás hét láb magas nyurga siheder volt, egy híres nagyevő, ki ülőhelyében meg
+               tudott enni egy borjút, s mégis oly sovány volt, hogy a csontjait meg lehetett
+               számlálni a ruháin keresztül.</p>
+            <p> A gyulák feltartott kard alatt megesketék a bajvívókat, hogy Isten hatalmán kívül
+               semmi bűbáj segítségökre nem leend, s azzal magukra hagyták őket.</p>
+            <p> A harcosoknak szabad volt egymással tréfálózni.</p>
+            <p> A törpe megállt a középen, megvetve lábát, mint egy cövek, s fölemelve gömbölyű
+               fejét és gömbölyű szemeit, két ökölre fogott dárdával várt ellenfelére, míg ez hosszú
+               léptekkel ácsorgá őt körül, megforgatva orra előtt a dárdáját.</p>
+            <p> – Kis öcsém! – kiálta le hozzá fitymálva. – Láttál-e már cserebogarat tűre
+               szúrva?</p>
+            <p> – Könnyű neked lóhátról beszélni – válaszolt ez –, de majd leszállsz te onnan.</p>
+            <p> – Hát szép porontyom, hasra fekügyem-e, s úgy harcoljak veled, hogy egyenlők
+               legyünk?</p>
+            <p> – Sőt, hogy egyenlők legyünk, fess célkarikát a gyomrodra, s amit azon kívül találok
+               beléd szúrni, azt vedd úgy, mintha nem történt volna.</p>
+            <p> Eközben a két harcos folyvást ellenkezett dárdáival, az óriás roppant döféseket
+               intézett a törpe felé, ki azokat mindannyiszor félrecsapta, de midőn ez ismét vissza
+               akart szúrni, már az óriás döfésen kívül esett.</p>
+            <p> A törpe végre hátrálni kezde.</p>
+            <p> – Ne menj oly messze, mert nem tudlak elolvasni.</p>
+            <p> – Majd megtanulsz könyv nélkül is, jó léckirály. Köszöntetem a felhőket odafenn.</p>
+            <p> – Kérlek, nagyon vigyázz, hogy rád ne hágjak. Azt nem venném lelkemre. Sikolts, ha
+               csizmám orra közel lesz, mert szemeim, tudod, hogy nem látnak meg minden apró
+               férget.</p>
+            <p> – Kár, hogy hátadon nincsenek szemeid, hogy hátaddal is nézhetnél az égre, ha el
+               fogsz esni – csúfolódék a törpe, ki szüntelen hátrálva a sorompó körül, egyszerre
+               hirtelen visszafordult, s félreütve az óriás kopjáját, elveté a magáét, s mint egy
+               kis vadkan sebesen alá futott, fejét annak térdei közé dugva, s vaskos karjaival
+               megkapva lábszárait, olyant rántott rajta, hogy az óriás egész hosszában végigesett a
+               fövényen, s nagy tenyerével megüté a földet.</p>
+            <p> A nép riadalt kiáltott. A törpe kirántá az óriás kardját, s annak nyakára tette
+               lábát.</p>
+            <p> – Mit izensz fejednek, te hosszú láb.</p>
+            <p> A gyulák és rhabonbánok erre közbeveték magukat, s félrevivék a bajvívókat.</p>
+            <p> – A vádlott fel van mentve; az égnek hála, a bűnnek nincs neve – szólt az ifjú
+               khagán könnyebbült kebellel. Ekkor a harmadik vádlottat hozták elő, egy nőt
+               lefátyolozva.</p>
+            <p> – Miért van e nő lefátyolozva? – kérdé Dalma.</p>
+            <p> – Fátyola szégyenét takarja el; bűne házasságtörés.</p>
+            <p> – E szokatlan bűn szokatlan büntetést igényel. Te rossz asszony vagy.</p>
+            <p> – Nevezz szerencsétlennek, óh, khagán. Én szerettem nagyon.</p>
+            <p> – Tudtál volna lemondani – szólt Dalma szigorún.</p>
+            <p> – Az ég tanúm, hogy küzdöttem soká. Elrejtém magam elől, kiért tiltott szenvedélyem
+               hevült, kértem, megesküdtetém, hogy hagyjon el örökre. Ő elhagyott, s én mindennap
+               imádkozám Istenhez, hogy engedje őt elfelednem. Már győztesnek hittem magamat szívem
+               fölött, nyugodt valék, kezdtem büszke lenni erényem diadalára, midőn egy reggelen
+               elfeledék Istenhez imádkozni segélyeért, s ím, az napon a férfi, kit kerülnöm kelle,
+               esküje ellenére előttem megjelent, s azon pillanatban vége volt lelkem erejének,
+               elvesztém magamat.</p>
+            <p> E pillanatban kürtszó hallatszék a sorompók előtt, s a nép közt egy ifjú közeledék
+               lóháton a khagán trónja felé. Ez ifjú Elemér volt.</p>
+            <p> Dalma összerendült őt meglátva, kit oly messze hitt, vére arcába futott. Azzal
+               lihegő kebellel fordult a vádlott nőhöz, s tétova hangon mondá ki az ítéletet:</p>
+            <p> – Asszony, én értem a kísértő pillanat hatalmát – mely erődet megtöré – s bűnöd
+               vádja alól föloldalak!</p>
+            <p> Azzal délceg, haragos tekintettel fordult Elemér felé, s indulattól csengő hangon
+               kiálta:</p>
+            <p> – Miért jövél vissza, mielőtt hívatálak!? Pedig szívének oly jólesett őt újra
+               látni.</p>
+            <p> Elemér elfogódottan járult a khagán elé. Dalma arcának szokatlan szigora elvevé
+               bátorságát, alig hallható hangon rebegé:</p>
+            <p> – Uram, amit rám bíztál, elvégezém, s ezennel a hatalmat, mellyel felruháztál,
+               kezeidbe visszaadom, s többé nincs okom tőled távol lenni.</p>
+            <p> „De van nekem”, gondolá Dalma, s míg szíve rég elfojtott örömek alatt repesett, s a
+               kedves ifjút heves dobogásával üdvözölte, arca még szigorúbb vonásokat ölte.</p>
+            <p> – Sajnálom, vezér, hogy szemedbe kell mondanom, miként lelked nem oly erős, mint
+               karod.</p>
+            <p> – Szidj, uram – szólt Elemér, felemelve szégyenpiros arcát. – Örömestebb állok
+               előtted a szégyenpadon, mint tőled távol a diadalszekeren.</p>
+            <p> – Miért jövél vissza?</p>
+            <p> – Kérdezd meg a fecskét, miért tér vissza a tavaszhoz. A jó rhabonbán enyhébb
+               fordulatot akarva adni a kínos jelenetnek, mely a nép előtt egy vezér arcát
+               megalázta, közbeszólt:</p>
+            <p> – Tán kedvesed van itt, kitől megválnod rosszul esik. Elemér nagy, búskomoly szemeit
+               Dalmán felejtve, felsóhajtott:</p>
+            <p> – Igen.</p>
+            <p> Dalma arca kínosan vonaglott e szóra. „Elemér valakit szeret!” – gondolá magában, s
+               bár meg kelle őt nyugtatni a gondolatnak, mégis fájt neki, hogy ő mást
+               boldogítand.</p>
+            <p> – Tehát vidd őt magaddal – szólt, félrefordítva arcát. Én beleegyezem. Most távozz
+               előlem.</p>
+            <p> Elemér tétovázva, elszorult kebellel lépett Dalmához közelebb, s oly suttogva, hogy
+               más meg ne hallja, rebegé:</p>
+            <p> – Oh, Dalma. Néhány szóm volna hozzád, titokban; hallgass ki engem.</p>
+            <p> – Mit akarsz? Távozz előlem. Ha országos ügyeim végezém, hívatni foglak. Távozz
+               előlem.</p>
+            <p> Az utolsó intés oly indulatos hangon volt mondva, hogy Elemér felrezzenve állt föl
+               féltérdeltéből, s zavarodottan hebegé:</p>
+            <p> – Látni sem akarod arcomat?</p>
+            <p> – Jelenléted felháborít! – kiálta Dalma lángra gyúlt arccal, s inte, hogy hozzák elé
+               paripáját.</p>
+            <p> Elemér szótlanul vonult vissza.</p>
+            <p> Oh, igazat mondott Dalma: az ifjú jelenléte felháborítá őt, de nem haraggal, hanem
+               szerelemmel. Szédülni kezde azon magasságban, melyre felemelkedék. A szerelem még
+               csak akkor szerelem, ha félteni kezd.</p>
+            <p> Az ég nem élő emberek számára van teremtve, tán a csillagok is lekívánkoznának onnan
+               – ha szívük volna. Dalma feldúlt kedéllyel tért vissza palotájába. Izgatott szíve
+               reszketett azon gondolatnál, hogy Elemérrel négy szem között titkos beszédre
+               találkozni fog, s maga körül gyűjté udvara minden nagyjait, sorba veendő az országos
+               ügyeket, hogy azok által mentül messzebbre halassza ez időt, s félve attól, amit
+               óhajtott, sürgeté őket, hogy dolgaikat siessenek előadni.</p>
+            <p> Ekkor egyszerre belép egy hírnök, jelentve, hogy Disabultól követ érkezett, s a
+               khagán elé bocsáttatni kíván. Dalmának szinte jólesett most e közbejövetel.</p>
+            <p> Felült trónjára, s inte, hogy vezessék elé a küldöttet.</p>
+            <p> Kubláj volt az, kezén a király egyetlen leányát vezetve, talpig lefátyolozottan.</p>
+            <p> Az emír földig hajolva közeledék a khagán elé; már az ajtónál elkezde hajlongani, s
+               háromszor ismétlé azt, míg a trónig ért.</p>
+            <p> – Üdvöz légy, ifjú fejedelem. Üdvöz légy még egyszer; üdvöz légy harmadszor is. – Te
+               napja az égnek, pálmafája nemzetednek, hajnala a dicsőségnek. Légy általam köszöntve
+               királyom nevében.</p>
+            <p> Dalma összeráncolta szemöldeit, gondolva, hogy ettől félni kell, mert hízeleg.</p>
+            <p> Az emír újrakezdé a virágos szókat, ájtatos kenettel ejtve beszédét</p>
+            <p> – Ámde lehet nap hold nélkül? Élő fa virág nélkül? Hajnal hajnalcsillag nélkül? Oh,
+               dicső khagán! Neved fényéből csak egy sugár hiányzik még, s ím, e sugárt királyom
+               saját koronája ágaiból töré le, itt küldve általam számodra egyetlen leányát.</p>
+            <p> S ezzel levevé a halavány, reszketeg leány fejéről a fátyolt. „Ez árulás!” – gondolá
+               Dalma, s keblén mintegy önkénytelen mozdulattal szorítá össze palástját.</p>
+            <p> Az emír éles szemei minden vonására figyeltek.</p>
+            <p> – Jól tudjuk, oh, uram – folytatá ravasz alázatossággal –, hogy te dicsőséged magas
+               érzetében elfeledéd azon kisebb érzelmeket, mik mindennapi embereket boldogítni
+               szoktak. Te a nőarcot kerülöd, s szerelmet nem érezél soha. De lásd: e szűz
+               alázatosan közeledik feléd; nem kívánja ő, hogy dicsőségedet megoszd vele, nem
+               kívánja, hogy trónodra ültesd, elül ő annak zsámolyán is, s boldognak tartandja
+               magát, ha egy mosolyodban részesülend. Nézd, miként remeg tekintetedtől.</p>
+            <p> Jobban remegett Dalma az övétől.</p>
+            <p> – Jer, fejedelmi leány – szólt Kubláj –, boruljunk e magas úr lábaihoz, s
+               könyörögjünk előtte, hogy fogadjon el téged rabszolgálói legutolsójának.</p>
+            <p> Dalma rendbeszedé lelki erejét.</p>
+            <p> – Kelj föl, királyi hölgy. Előttem nem szokás térdepelni. – Oh, hagyd őt ott – szólt
+               Kubláj végtelen alázatossággal. – Ha tudnád, mennyire boldog ő, hogy lábaidnál
+               fekhetik. Születése óta tégedet tanult imádni. Én neveltem őt, kedvencem, szemem
+               fénye volt, mert általa hívém a varchoniták kettészakadt országát ismét
+               összeköthetni. Még név szerint sem ismer férfit kívüled, hogy téged ismerhessen
+               egyedül. Te vagy ábrándjainak képe, álmainak neve, szívének egyedüli gondolatja.
+               Engedd, hadd maradjon lábaidnál.</p>
+            <p> Az országnagyok, látva, hogy Dalma mily hidegen, mily haraggal tekint a leányra,
+               elkezdtek zúgolódni, végre oda lépett a rhabonbán.</p>
+            <p> – Uram, khagán. Emeld föl a leányt. Melletted üljön ő.</p>
+            <p> – Ki kérdezett? – kiálta Dalma szokatlan haraggal.</p>
+            <p> – Az ajánlat becsületes.</p>
+            <p> – Ez ajánlat kárhozatos – suttogá fogai közül Dalma.</p>
+            <p> – Ezt visszautasítni nem lehet. Elfogadása örök béke, elutasítása örök harc.</p>
+            <p> – Nekem nincs kedvem a nősüléshez.</p>
+            <p> – A leány szép és ártatlan, hozzád ragaszkodik, királyi törzsnek egyetlen virága. A
+               kerek földön nem találandsz magadhoz méltóbbat.</p>
+            <p> – A szerelemre nem elég az, hogy van ok szeretni.</p>
+            <p> – De a nősülésre elég ok az, hogy a hon java úgy kívánja. Eddig csendesen beszélt
+               Dalma trónja hátuljába vonultan a rhabonbánnal, az utóbbi szavaknál hevesen, végre
+               kitört.</p>
+            <p> – Nem tudod, mit beszélsz, rhabonbán!</p>
+            <p> Az nyugodtan viszonozza:</p>
+            <p> – Megszoktam igazat mondani fejedelmem előtt.</p>
+            <p> – Bolondokkal vagyok körülvéve? – kiálta Dalma, türelmetlenül lépve le trónjából. –
+               Oh, atyám, segíts onnan a magas égből! Majd erőm hagy el, majd eszem!</p>
+            <p> Az országnagyok megzavarva álltak körül, nem is tudva gyanítni a khagán
+               magaviseletének okait.</p>
+            <p> – Távozzatok! – szólt hevesen Dalma. – Vége a kihallgatásnak. Ma kedvetlen vagyok.
+               Ne jöjjön elém senki semmi kérelemmel. Ma rossz napom van. Kerüljétek kapuimat. A
+               vezérek fejcsóválva hagyták el a termet.</p>
+            <p> – Mi lelhette a khagánt? Sohasem voltak ily szeszélyei. Kubláj mosolygott. Kezében
+               tartá az indulatok kulcsát. Susogva mondá Halilának:</p>
+            <p> – Te itt maradsz. – S ott hagyta a leányt.</p>
+            <p> A férfiak eltávoztával az országnagyok nejei jöttek be a terembe.</p>
+            <p> Dalma villámló tekintettel nézett végig rajtok. – Mit akartok itt? Ki hívott
+               benneteket?</p>
+            <p> A legéltesebb hölgy, egy ősz tisztes matróna előlépve mondá:</p>
+            <p> – Országunk szokásai azt parancsolják, uram, hogy a khagán menyasszonyát az
+               országnagyok nejei veszik át, s a szent forrásban megfürösztve, mirtusszal
+               megkoszorúzva hozzák vissza őt férjének. Így lesz rajta ég áldása.</p>
+            <p> Dalma ingerelve volt, s azon gondolat támadt lelkében, hogy az ajánlott menyasszonyt
+               mindenáron elidegenítse magától, s bosszúsan válaszolt a nőknek:</p>
+            <p> – Az esetlen szokás. Nincs szükségem kopott babonáitokra. Isten nem vezérelteti
+               kezeit asszonyok által. Takarodjatok előlem. Én nem hívattalak benneteket,
+               férjeiteket is most küldtem el. Mi dolga asszonynak ily helyen?</p>
+            <p> – Uram, khagán – szólt a tisztes agg nő –: az ogur népnél az asszony mindig egyenlő
+               jogú volt a férfival.</p>
+            <p> – Az akkor volt! – kiálta Dalma csattogó szóval, egészen elfeledkezve magáról. –
+               Most másképpen lesz. A férj királya nejének, s a nő férjének rabszolgája!
+               Takarodjatok!</p>
+            <p> A nők megütődve távoztak el:</p>
+            <p> – Mi lelte a khagánt? Sohasem bánt ily durván asszonyokkal.</p>
+            <p> Dalma összefont karokkal állt meg Halila előtt. A leány reszketve veté fel vad,
+               félénk szemeit.</p>
+            <p> – Hát én hova menjek, uram? Hát én ki rabszolgája leszek? – kérdé keserűen.</p>
+            <p> Dalma megfogá a leány kezét, s élesen tekintve annak arcába, kérdé:</p>
+            <p> – S valóban szeretsz te engem?</p>
+            <p> – Reszketek előtted, uram.</p>
+            <p> – Érzem kezeden. Te félsz tőlem.</p>
+            <p> – Ez az egy az, mire tanítottak születésem óta.</p>
+            <p> – Csak félni tanítottak, és szenvedni? Látom arcodon.</p>
+            <p> – Ha látod, légy irántam irgalommal.</p>
+            <p> – Amit a követ mondott, az mind hazugság. Te nem vagy boldog, te szenvedsz.</p>
+            <p> – Nekem a panasz is tiltva van.</p>
+            <p> – Tiltva van ajkaidnak, de szemeid elárulnak.</p>
+            <p> – Én semmit sem mondék.</p>
+            <p> – Szívedbe látok.</p>
+            <p> – Ha szívembe látsz, akkor öless meg.</p>
+            <p> – Mit beszélsz?</p>
+            <p> Halila összeszedé minden bátorságát.</p>
+            <p> – Mert akkor azt látod abban, hogy én téged nem szeretlek.</p>
+            <p> Dalma örömét elrejteni nem tudó arccal ragadá meg a leány kezét, ki midőn azt hívé,
+               hogy őt halálosan megsértette, nem is sejtheté, mily örömet szerzett neki.</p>
+            <p> – Te engem nem szeretsz? Te iszonyodol tőlem, ugyebár? Magad sem tudod miért: valami
+               titkos ösztön azt súgja lelkednek, légy hideg irántam?</p>
+            <p> Halila nem bírta megérteni a kifejezést Dalma szemeiben; elszántan térdre
+               bocsátkozék előtte:</p>
+            <p> – Kivallottam; megölhetsz. Ha elhallgatom, szívem öl meg.</p>
+            <p> – Te nem szeretsz engem? – folytatá Dalma, a leány érzelmeit fürkészve. – Mert
+               valakit mást szeretsz?</p>
+            <p> Halila a kérdező kezét magához vonta le.</p>
+            <p> – Öless rneg, oh, Dalma. Inkább te, mint atyám.</p>
+            <p> – Ne félj – szólt Dalma ragyogó arccal, s keblére voná a leányt.– Én védeni foglak.
+               Szeretlek most, mert nem szeretsz. Halila csodálkozva tekinte rá.</p>
+            <p> – Te nevetve gyilkolsz meg engem.</p>
+            <p> – E csókra esküszöm, boldoggá teendlek – szólt Dalma a leány homlokát megcsókolva. –
+               Nevezd meg szerelmed tárgyát, s én Istenre fogadom, hogy tieddé teendem őt, bárki
+               legyen; elrejtelek atyád haragja elől, hol a gondolat sem találand reád; hadat kezdek
+               miattad a fél világgal, hogy te boldog lehess azzal, akit szeretsz. Nevezd meg
+               őt.</p>
+            <p> Dalma szíve repesett azon gondolatnál, hogy félelmes menyasszonyát elcsábíthatja –
+               más számára. Halila félénken húzódott tőle vissza.</p>
+            <p> – Mondám, khagán, hogy én csak félni tanultam életemben, de azt megtanultam jól,
+               megbocsáss, ha szavaidban bízni nem tudok. Attól félek, hogy te csak azért akarod
+               megtudni e nevet, hogy őt ölethesd meg. Nem fogom őt elárulni.</p>
+            <p> – Te nagyon szereted, mert félted őt. Nem kényszeríthetlek, hogy higgy szavaimnak,
+               de okot adhatok rá. Látod arcomon, mint örülök, midőn szemembe mondod, hogy nem
+               szeretsz, hogy iszonyodol tőlem, hogy másért epedsz, oh, mert én sem szeretlek téged,
+               én is mást imádok. Értesz-e már engem?</p>
+            <p> Halila szívében új világ derült e szavakra.</p>
+            <p> – Nem volnék nő, ha nem értenélek. Megmentesz magadtól, hogy megmenekülj tőlem.</p>
+            <p> – Az égre, úgy van. Mielőtt leáldoznék a nap, kedvesed karjai közt leendesz. Szólj,
+               érdemes-e ő kezedre? Szép, bátor és nemesszívű?</p>
+            <p> – Egyike vezéreidnek.</p>
+            <p> – Annál jobb. Közülök bármelyik méltó hozzád. Országom első férfiai ők.</p>
+            <p> – Nincs több férfi a világon, csak ő.</p>
+            <p> – Jól van, nagyon jól. Jer közelebb hozzám. Suttogjunk csendesen. Ne félj, kedvencem
+               vagy. Hisz nem szeretjük egymást. Akárki bántson, én oltalmazlak, akármit kívánj, én
+               megadom. Mondd el bizalmasan, mint szerettél kedvesedbe? Tekints úgy, mintha
+               hölgytársad, barátnéd előtt szólanál.</p>
+            <p> – Ah, Dalma, biztató szavaid lábaidhoz láncolnak engem. Te nem is gyanítod, hogy e
+               rövid élet mily hosszú fájdalom volt nekem. Csak akkor tudhatnád, mennyire
+               boldogította a halálra üldözöttet az, ki védelmére föllépett. Egész éltem egyetlen
+               szenvedés volt, s midőn azt egy borzasztó halállal kellett volna befejeznem, midőn
+               népem ördögeinek akartak megáldozni, akkor halálos rettegéseimben Istenhez kiálték, e
+               szóra egy férfi jelent meg előttem, kinek arcában Isten arcára ismerék. Egymaga egy
+               őrült világ ellenében lépett védelmemre, kezemet megragadva, emberfölötti nyugalommal
+               mondá: „Én megszabadítlak téged”. És amióta ő visszaadta éltemet, azóta szeretek
+               élni.</p>
+            <p> – Beszélj tovább. Szavaid gyönyörködtetnek engem.</p>
+            <p> – Oh, én remélni sem merem, amit ígértél, őrültség volt tőlem kivallani.</p>
+            <p> – Szívedre hallgass, és légy bátor. – Atyámra gondolok, és reszketek.</p>
+            <p> – Te csak szerelmedre gondolj. A gyűlölet dolgait majd elvégzem én.</p>
+            <p> – Ah, hisz azt sem tudom még, hogy szerelmem talál-e viszontszerelmet?</p>
+            <p> – Nem bízol szívedben? Szerelmed öntudata nem tesz-e bátorrá? Tégy megbízottaddá, s
+               én elődbe hozom választottodat. Te légy nő, és hódítsd meg őt. Ki ő?</p>
+            <p> Halila tétovázva tekinte Dalmára, szólni akart, de arca egyszerre kigyulladt, s
+               szemérmesen takarta azt el fátyolába. – Arcom szégyentől ég.</p>
+            <p> – Büszke légy reá, ha szereted.</p>
+            <p> A lány szíve szorult, mintha vissza akarta volna fojtani a szót.</p>
+            <p> – Jer, súgd fülembe – szólt Dalma, édes gyöngédséggel vonva Halilát magához, s az
+               alig hallhatóan rebegé hevülő kebellel a kedves nevet:</p>
+            <p> – Elemér…</p>
+            <p> Mint ki véletlenül kígyóra tapodott, sikolta föl egyszerre Dalma, s míg egy kezével
+               dühösen taszítá el magától a leányt, másikkal hevesen szorítá annak karját.</p>
+            <p> Halila ijedten tekinte rá. A kimondott név fölébreszté a Dalma szívében a női féltés
+               szenvedélyeit. Egy percig villámló haraggal tekinte a leányra, ki megsemmisülve állt
+               előtte, azután könnyekkel teltek meg szemei, s karjai erőtlenül hanyatlottak alá.</p>
+            <p> E fájdalmas arc, e lesütött könnyes szemek, e megtört állás, a lehajlott kezek
+               imádásszerűen összekulcsolva: minden csupa női volt rajta. Ha most vigyázott volna rá
+               gyanakodó szem, az asszonyt lehetetlen lett volna meg nem ismernie benne.</p>
+            <p> – Őt szereti – suttogá magában. – Milyen boldog, hogy őt szeretheti, hogy ezt
+               megvallhatja előtte. Nagyon szeretheti, mert egy korona helyett az ő szívét
+               választja; oh, én is azt választanám, ha lehetne!</p>
+            <p> Halila rettegve látta, hogy a khagán könnyezik. – Mit tettem én?</p>
+            <p> Dalma gyűlölettel fordítá arcát Halila felé, oly gyűlölettel, minőt csak egy
+               szerelemféltő nő szemei képesek kifejezni.</p>
+            <p> – És bizonyosan ő is szereti e leányt – gondolá magában –, hiszen maga mondá, hogy
+               szeret valakit. A leány szép, őérte tért vissza parancsom ellen. Élte veszélyével
+               szabadította meg, bizonyosan szereti őt.</p>
+            <p> Halila percről percre fenyegetőbb indulatokat olvasva le Dalma arcáról, kétségbeesve
+               veté magát annak lábaihoz. – Ne higgy szavaimnak. Felejtsd el, amit mondtam. Én
+               megcsaltalak. Nem igazi nevet mondtam neked. Én soha sem láttam őt, oh, hagyd őt
+               élni.</p>
+            <p> – Mennyire szereti őt! – gondolá Dalma. – Kész megtagadni, hogy megmentse.</p>
+            <p> Halila nem bocsátá el Dalma kezét.</p>
+            <p> – Oh, ha büntetni akarsz, büntess egyedül engemet. Esküszöm neked, hogy ő nem szeret
+               engem, egy szóval, egy tekintettel sem biztatott soha.</p>
+            <p> Dalma lelkén reménysugár kezde keresztültörni. „Hátha Elemér valóban nem szereti
+               őt?” – E gondolat édes nyugalmat szállíta háborgó indulataira, s boldog eszmék
+               hízelgék körül szívét, arcán mosolyban törve ki, midőn egyszerre jéghidegen emelkedék
+               föl szívében a tiltó gondolat: „Te nem lehetsz nő. Te nem lehetsz boldog.”</p>
+            <p> Körös-körül a palota oszlopaira felírva, arany betűkkel ragyogott e mondat: „Semmi
+               áldozat nem nagy a honért”. Dalma megroskadt e gondolat nagysága előtt.</p>
+            <p> Fölemelé a leányt lábaitól, s csöndes, szenvedélyhagyta hangon szólt:</p>
+            <p> – Légy nyugodt. Ha arcomat fenyegetőnek látod, attól ne félj. Te engem érteni ne
+               akarj, csak bízni tudj.</p>
+            <p> – Miért vagy hát felháborodva?</p>
+            <p> – Miért háborog a tenger?– szólt Dalma, s utána gondolá: „Talán annak is szívet
+               adtak, s megtilták szeretni?” Boldoggá teendlek, megígértem azt. Hiába nézed arcomat.
+               Titkosírás annak minden vonalma, melynek betűit ember nem ismeri. Adj hálát Istennek,
+               hogy erőtlen asszonnyá teremtett, kinek szenvedni, sírni és szeretni szabad.</p>
+            <p> Dalma szédülve kerese támaszpontot kezeivel. Arca elsápadt.</p>
+            <p> – Uram, te ingadozol.</p>
+            <p> – Én nem, hamarább a föld – szólt Dalma, megerősítve magát. – Vonulj a
+               mellékterembe. Majd hívni foglak. Senkinek ne szólj.</p>
+            <p> Halila engedelmesen távozék.</p>
+            <p> Dalma reszketve emelé kezeit az égre.</p>
+            <p> – Atyám! Légy velem. Erőm roskadoz: e harc nem emberi, és én csak nő vagyok. Vakmerő
+               voltam a sorsot hívni fel küzdelemre, segíts, mert elbukom. Hozd elém arcodat, azt a
+               haldokló arcot, melynek megesküvém, hogy el nem árulom magam, hogy ne lássak mást,
+               mint azt, s szívem hideg legyen, mint a tied, ki már odafenn élsz.</p>
+            <p> A fohász sikeres volt. Dalma új erőt érze lelkébe szállni, vas-kemény akarata ismét
+               visszatért. Köszönve inte fölfelé.</p>
+            <p> – Érzem hideg lehelleted. – S azzal ajtóőreit szólítá. Keressétek föl Elemért, s
+               vezessétek elém – szólt nyugodtan.</p>
+            <p> – Itt várakozik ajtód előtt, uram.</p>
+            <p> A vér újra elözönlé Dalma arcát, arra nem várt, hogy ily rögtön találkozzék
+               vele.</p>
+            <p> – Ne még, ne még – inte apródainak –, várjatok egy pillanatig! – S azzal sietett
+               trónjához, koronáját feltéve fejére, mintha e hideg ércövtől várná a segélyt
+               indulatai lángja ellen.</p>
+            <p> – Most jöhet.</p>
+            <p> Elemér csüggedten lépett Dalma elé, mint ki erejét régóta gyűjté egy elhatározó
+               pillanatra, s mindazt kevésnek érzi, midőn a pillanat elérkezett.</p>
+            <p> – Szólni akartál velem? – kérdé szárazon Dalma.</p>
+            <p> – Még mindig ily haraggal nézesz reám?</p>
+            <p> Azon kérő arc, e fájdalmas hang megdöbbenték Dalmát. Semmi sem oly csábító a nőnek,
+               mint a férfifájdalom. Inkább jókedvet erőszakolt magára, csakhogy őt ily szomorúnak
+               ne lássa.</p>
+            <p> – Arcom hazug, ha haragot mutat; én örömest beszélek veled. Amit hibáztál, azt
+               ifjúságodnak megbocsátom. Te kedvesedről akartál szólani, és ez kellemes tárgy,
+               kivált barátok között, mint mi, kik egymásra nem féltékenyek. Beszéljünk róla,
+               szép-e? Ismerem talán? Hol lakik?</p>
+            <p> – Még eddig csupán szívemben.</p>
+            <p> Dalma nevetni kezdett, csak felületes értelmét tartva meg a szónak.</p>
+            <p> – Úgy bizony kicsiny helyen megfér.</p>
+            <p> – Kérlek, Dalma, ne nevess ki, s ne viseld magad úgy, mint király, hanem úgy mint
+               egykori jó barátom. Gondold, mintha most volna az, midőn egymásnak megfogadtuk, hogy
+               amelyikünk előbb meghal, a másik azt követni fogja.</p>
+            <p> – Örömmel hallgatlak.</p>
+            <p> – Tudod, hogy én bohó, ábrándos, babonás fiú voltam mindig.</p>
+            <p> – Jól tudom, most is az vagy.</p>
+            <p> – Szívem mindenha tele volt rajongó képzelemmel, mely az alaktalan űrben repkedett
+               tétovázva, mint valami bolondos méhe, mely virágok helyett csillagról csillagra
+               szeretne szállani.</p>
+            <p> – Ez gyermekkori betegséged volt,</p>
+            <p> – Ahogy érett a szív, a vágyak tárgyat követelnek maguknak.</p>
+            <p> – S te azt nagy hamar megtaláltad.</p>
+            <p> – Sokáig nem az élő világban. Szívemet hölgy emléke nem tudta betölteni. Végre azon
+               eszmére jutottam, mellyel köznépünk szokott tért nyitni ábrándjainak.</p>
+            <p> – Böjtöt tartottál a „Dev”-ek napján, hogy éjszaka megálmodd, akit szeretni
+               fogsz?</p>
+            <p> – Találtad.</p>
+            <p> – Kérlek: engedd meg, hogy nevessek fölötted.</p>
+            <p> – Nekem fájni fog, ha nevetsz.</p>
+            <p> – S megjelent előtted a jövendő kedves?</p>
+            <p> – Igen. Azon éjjel háromszor jelent meg álmomban; lelkem túláradott a gyönyör miatt.
+               Ez álom boldoggá tett, és boldogtalanná.</p>
+            <p> – S föltaláltad-e e tündértüneménynek testi képmását is? Elemér kétkedve felelt a
+               kérdésre:</p>
+            <p> – Nem tudom.</p>
+            <p> Dalma csodálkozva rázta fejét:</p>
+            <p> – Nem tudod? Ez zavart felelet. Tán ismerőseid közül többekhez hasonlít?</p>
+            <p> – Csupán egyhez. Vonásról vonásra: szemei, arca ugyanazok. Könnyei és mosolygása,
+               jövése és távozása oly tébolyítólag híven hasonlítnak az élőhöz.</p>
+            <p> Dalma kíváncsisága bámulattá nőtt. – Kihez?</p>
+            <p> Elemér odahajolt hozzá, megfogá kezét, s rebegve mondá: – Tehozzád…</p>
+            <p> Dalma ijedten sikolta fel, s kezét visszarántá. – Mi bajod? – kérdé Elemér.</p>
+            <p> – Semmi… Gyűrűd megszúrta kezemet.</p>
+            <p> Elemér folytatá szavait, nem gondolva, hogy minő gyötrelemmel halmozzák azok el
+               Dalma szívét.</p>
+            <p> – Azóta ez alakot nem bírom elfeledni: nappal napom, éjjel csillagom e kép. Bárhova
+               megyek, előttem áll; ha elalszom, mosolygást ölt arcára, mellém ül, megölel,
+               hízelegve kedvesének nevez; arcát arcomra fekteti, s könnyeit ölembe sírja, s
+               fájdalmasan panaszkodik, hogy fogva van a hideg égben, s nem lehet enyém örökre.</p>
+            <p> – Elemér! Mit akarsz? – kiálta Dalma irgalomért könyörgő arccal.</p>
+            <p> – Mit akarok? – szólt Elemér vadul lángoló szemeivel keresztülnézve Dalma szemein. –
+               Meg akarom tudni, hogy létezik-e ily nő az ég alatt? Nő, ki hozzád vonásról vonásra
+               hasonlít? Aki tulajdon képmásod testben és lélekben, saját másolatod asszonyi
+               alakban? Van-e ily nő, van-e ily nő, Dalma?</p>
+            <p> A leány keble majd megszakadt e kínzó kérdések alatt, arca elsápadt, feje szédülni
+               kezde, utolsó erejével halkan rebegé:</p>
+            <p> – Ily nő – nem létezik sehol. S azzal ájultan rogyott össze.</p>
+            <p> E pillanat iszonyú világot önte Elemér lelkébe, világot, mely elvakítá, mielőtt
+               láthatott volna. Egész valója remegett, mint ki Istennek jelenlétét érzé, s a kedves
+               gyermeket, kit elaléltában karjaival fogott fel, borzadva tevé le nyugágya
+               zsámolyára, félrefordítá tőle arcát, mintha félne tekintetével találkozni. Tagjain
+               szent borzadály futott végig.</p>
+            <p> Dalma eszmélni kezde, s halkan rebegé:</p>
+            <p> – Elemér.</p>
+            <p> – Uram.</p>
+            <p> A leány felemelkedék, s félébren suttogá: – Miről beszéltünk?</p>
+            <p> Elemér nem bírt felelni.</p>
+            <p> – Arról beszéltünk ugyebár – szólt Dalma folyvást félig csukott szemekkel –, hogy
+               van egy szerencsétlen nemzet, melynek élete attól függ, hogy uralkodója asszony ne
+               legyen.</p>
+            <p> – Valóban: arról beszéltünk – szólt Elemér félelmes elfogultsággal.</p>
+            <p> – Te azt kérdenéd tőlem – folytatá Dalma holdkóros álmodozással –, hogy ha egy nőnek
+               egyik kezével szívét, másikkal hazáját kellene megölni, s választania kellene,
+               melyiket választaná?</p>
+            <p> – Valóban, erről mind beszéltünk – szólt Elemér mindinkább összeroskadva a gondolat
+               terhe alatt, mely lelkére súlyosult.</p>
+            <p> E percben egyszerre magához tért Dalma, s sötét szemeit felnyitva, körültekinte:</p>
+            <p> – Hol vagyok? Mi lelt?</p>
+            <p> – Elszédülél, uram.</p>
+            <p> – Miért nem jöttél segélyemre?</p>
+            <p> – Tevém azt, de nem vetted észre.</p>
+            <p> – Beszéltem valamit az imént?</p>
+            <p> – Egy hangodat sem hallám.</p>
+            <p> – Hát azelőtt mi tárgya volt beszédünknek? Úgy. Igaz. Te egy leányról beszéltél, aki
+               téged szeret. Ismerem őt.</p>
+            <p> – Egy szót se többet erről – szólt Elemér nyugtalanul. Felejtsd el szavaimat.</p>
+            <p> Dalma megfogá Elemér kezét, s szilárd hangon kérdé tőle</p>
+            <p> – Hívem vagy-e?</p>
+            <p> – Parancsold, hogy meghaljak – viszonza ez lovagi ábránddal –, s bebizonyítom, amit
+               kérdezél.</p>
+            <p> – Meghalni könnyű, élni nehezebb. Van egy hölgy, ki téged szeret.</p>
+            <p> – Nem óhajtom azt tudni.</p>
+            <p> – E hölgyet szeretned kell viszont.</p>
+            <p> – Emberi hatalom alatt áll-e a szerelem?</p>
+            <p> Dalma büszke öntudattal mondá, keblére téve kezét: – Van, aki szívéből ki tudja
+               tépni a szerelmet.</p>
+            <p> – De nem volt soha, ki azt idegen földbe tudta volna átültetni.</p>
+            <p> – Neked tudni kell: e nő ama királyleány, kit nekem menyasszonyul hozának.</p>
+            <p> – Értelek! – kiálta fel Elemér.</p>
+            <p> – Akkor megöltél, hogyha értesz – szólt Dalma, elfordítva égő arcát. – Mondd, hogy
+               engedelmeskedel.</p>
+            <p> – Egy egész világrendszert bontasz szét szívemben! – sóhajta Elemér fájdalmasan.</p>
+            <p> – Ah! Azt hiszed, hogy csak neked van szíved?</p>
+            <p> – Ne lett volna soha! Oh, így belső seb által vérzem el. – Sebet vágnak a fán is,
+               midőn új ágat oltanak bele. Ez a leány téged szeret.</p>
+            <p> – Azért temessem el?</p>
+            <p> Dalma indulatosan kiálta fel:</p>
+            <p> – Ha értesz, és mégsem értesz, akkor rosszabb vagy nálamnál. Pedig jobbnak kell
+               lenned, mert erősebb vagy. Elemér fájdalomteljes lemondással nyújtá kezét.</p>
+            <p> – Tégy velem, mit kívánsz. Én kész vagyok.</p>
+            <p> Dalma megragadá hévvel az ifjú jobbját, s némán megszorítva azt, felmutatott az
+               égre.</p>
+            <p> – Mit mutatsz ott nekem? – szólt búsan Elemér.</p>
+            <p> – Jutalmadat… – susogá Dalma szellemcsöndes hangon.</p>
+            <p> S azzal a mellékterembe sietve, elévezeté a várakozó leányt.</p>
+            <p> Halila elpirult és reszketett, midőn Elemért meglátta. – Oh, Dalma, én reszketek
+               előtte – szólt, arcát annak keblére rejtve.</p>
+            <p> – Ilyenkor legszebb a nő. A szemérempír legbájolóbb színe az arcnak. Elemér! Vedd e
+               gyöngéd kezet.</p>
+            <p> Az ifjú visszafojtá keblében indulatait, s elfogadá a leány remegő kezét.</p>
+            <p> – Vőlegényed kissé szomorú fiú – szólt Dalma mosolyogva. – Te rajta légy, hogy
+               felvidítsd. Szíve nem nyílt meg nő előtt soha, te azt tedd, hogy utánad bezáródjék.
+               Csupán álmok szokták őt háborítni, te tedd őt boldoggá, hogy ne álmodhasson. Ígérd
+               meg nekem, hogy boldoggá teended őt.</p>
+            <p> A leány zokogva hajolt Dalma kezére, míg Elemér az őrültséghez volt közel.</p>
+            <p> – Most menjetek. A Tula-szigeten ismered rejtett mulatólakunkat, ennek magányában
+               töltsétek boldogságtok első havait. Disabul ne aggódtasson benneteket. Elemér, jusson
+               eszedbe, hogy akit kezedbe adok, ez üldözött angyal, kit csak te menthetsz meg
+               ördögeitől, s ki téged Istenként imád.</p>
+            <p> – Ha védeni kell, védeni fogom – szólt ez keserű nyugalommal.</p>
+            <p> – Most távozzatok a palota rejtekajtaján. Röviden búcsúzzatok. El, el!</p>
+            <p> – A viszontlátásig! – rebegé Elemér bánatosan. – Soha! – sóhajta Dalma.</p>
+            <p> – Légy boldog örökre – szólt a leány, megcsókolva kezét. Dalma szomorúan tekinte
+               utánuk.</p>
+            <p> Míg lépteik hangzottak, hallgatózott, s midőn nem hallék többé semmi, akkor
+               lerogyott térdére, s arcát ágya leplei közé takarva, sírt keservesen</p>
+            <p> – Soha nem látom őt többet!</p>
+            <p> A könnyek elolták a fájdalom tüzét. Azután megnyugodva kelt föl.</p>
+            <p> „Meg vagyok mentve” – suttogá magában. „A szív jéggé fagyott. Megszabadultam
+               azoktól, akik üldöznek, és megszabadultam attól, aki szeret. Atyám! Ott a magas
+               égben. Elégült vagy-e velem?”</p>
+            <p> E pillanatban hívatlan látogató zavará meg a khagánt. Kubláj tolakodék elő, mosolygó
+               pofával kérdezősködve Dalmától menyasszonya felől. Dalma keserű bosszúval tekinte az
+               emberre, ki őt legszentebb fájdalmai közepett háborítá.</p>
+            <p> A bosszú kifejezése lassankint gúnyos kárörömbe ment át tekintetében.</p>
+            <p> – Vágd le szakállodat, emír, s tipord a sárba – szólt neki gúnyolódva. – A leány,
+               kit számomra menyasszonyul hoztál, míg én nem tartám rajta szemeim, vezéremmel, kit
+               még apja udvaránál megszeretett, megszökött.</p>
+            <p> Kubláj megnémult, mint kit kővé változtattak.</p>
+            
+            <p> A Tula szigetén, magas nyírfáktól árnyékozva állt azon kis csendlak, melybe Elemér
+               Halilát vivé.</p>
+            <p> A sziget mellett el lehetett hajókázni anélkül, hogy e lakot valaki észrevegye.
+               Valami szent tartózkodás tilta mindenkit ott kikötni. A hagyomány szerint ott voltak
+               eltemetve Bertezena hamvai, s ott szoktak a fejedelmek összejönni az Istennel, midőn
+               nagy veszély idején tanácsot kérnek tőle.</p>
+            <p> A magányos lak egészen fából volt épülve, kívül barna diófával kirakva, magas
+               ereszeit cédrusfa oszlopok tarták, miknek kígyós tekervénye szent mondatokkal volt
+               beírva, a falak belseje simított tarka gyökérfából; az ajtók tábláiba csaták és
+               áldozatok képei faragva. Körös-körül a vadul összenőtt lombok szentséges sötétje.</p>
+            <p> Két hó múlt azóta. A rejtett lak ajtai nappal mindig zárva voltak, csak midőn
+               feljött a hold, s a magányos sziget fái susogtak az esti széltől, lehete látni a
+               széltől félreingatott lombok között megnyílni egy ablakot, melyen halvány arc nézett
+               lopva ki, s néha az ajtón egy fehér női alak suhant ki, félve és futva.</p>
+            <p> A hold ismét úszik csendesen a felhők fölött, el-elbújva, s átragyogva; a vízen egy
+               keskeny csónak úszik lefelé; az evezőn kívül még egy férfi ül benne.</p>
+            <p> A szigetparton kikötnek. A hajós megállítja társát. – Uram, nem kellek tovább?</p>
+            <p> – Akár elvessz miattam.</p>
+            <p> – Örömest szolgálnék még, mert jól fizetsz.</p>
+            <p> – Első vagy a varchoniták között, aki úgy szereti a pénzt.</p>
+            <p> – Tatár volt az anyám, s aranyat csodált meg. Ha megfizetsz érte, még az ő sírját is
+               megmutatom.</p>
+            <p> – Nincs rád több szükségem.</p>
+            <p> – Talán mégis. Megfizettél, hogy beszéljek, most már fizess meg, hogy
+               hallgassak.</p>
+            <p> – Valóban. Most juttatod eszembe. Fogadd ezt, hogy hallgatni tudj.</p>
+            <p> A hajós tenyerét nyújtá az ajándék elé, de az egy gyilok volt, mely őt szíven üté, s
+               melytől örökre megtanult hallgatni. – A férfi az erdő sűrűjében tűnt el.</p>
+            
+            <p> A hold fénye besütött a rejtekház ablakán, átlopózva az eléhajló lombok levelein.
+               Benn egy halvány, megtört férfi alak járt, egy gyönge nő karjára támaszkodva,
+               sápadtan, mint kísértet.</p>
+            <p> A holdfény úgy illik mindkettőjük arcához.</p>
+            <p> – Jer, ülj e kerevetre – szól Halila. – Hajtsd fejedet vállamra, kezedet add
+               kezeimbe.</p>
+            <p> A férfi bágyadtan hanyatlik ülőhelyére, szép arca elhervadt, szemeiből kiégett a
+               tűz, homlokát nem emeli többé oly büszkén.</p>
+            <p> – Erőtlen vagyok, ugyebár? – szól reszketeg hangon. Kezem hideg, mint a jég, s fejem
+               forró, mint a tűz. Szegény nő!</p>
+            <p> – Miért sajnálsz engem? Én boldog vagyok, hogy ápolhatlak.</p>
+            <p> – Menyasszonyéjed óta szüntelen. Elhervadtam, mint a letört gally. Valaki
+               megátkozott engem, s az átok mindkettőnket ért. Te is együtt hervadsz el velem. Jobb
+               sorsot érdemelnél.</p>
+            <p> – Ne csüggedj. Még leszünk boldogok – szólt a nő, de ajkai rebegése tanúsítá, hogy
+               zokogását alig bírja visszafojtani.</p>
+            <p> – Gondolod? Gyógyított valaha iraló hasonló betegséget, mint az enyim?</p>
+            <p> – A vén jós ott a sziget alatt azt mondá rólad, hogy tested ép.</p>
+            <p> – Hanem lelkem beteg, ugye? Azt elhallgatá. Tehát meg fogok gyógyulni nemsokára?</p>
+            <p> – Még az éjjel ígérte, hogy fájdalmaidtól megszabadulsz. – Még az éjjel – sóhajta
+               Elemér és gondolá, hogy akkor azután vége lesz mindennek.</p>
+            <p> A halál sejtelme csalhatatlan.</p>
+            <p> Elemér szomorúan tekinte Halilára, s megsajnálta a szegény nőt, és azt gondolá, hogy
+               ne legyen ott, midőn meg fog halni.</p>
+            <p> – Jó nő. Tehát a vén jós azt ígérte, hogy számomra gyógyfüveket fog küldeni?</p>
+            <p> – Még az éjjel kell értök mennem.</p>
+            <p> – Miért éjjel?</p>
+            <p> – Tudod, hogy nappal félve hagyhatom el rejtekünket. – Úgy, igaz: hisz mi titokban
+               élünk itt. Senki sem izent, senki sem keresett, mióta itt vagyunk?</p>
+            <p> – Nem vettem észre.</p>
+            <p> „Élve temettek el” – gondolá Elemér búsan. – No, jól van. – Nemsokára megszolgáltuk
+               a sírt. Ott is jó lesz feküdni. – Tehát menj a vén jóshoz, derék nő, s aztán megjöjj
+               hamar. El ne feledkezzél, ha a szent fákhoz jutsz, értem imádkozni.</p>
+            <p> – Minden gondolatom imádság teérted.</p>
+            <p> – Köszönöm, köszönöm. Hadd megcsókolnom kezedet. Arcodat ne! Elhervadna
+               lehelletemtől. – Te áldott teremtés. Ki véd meg téged, ha én nem leszek? Eredj –
+               eredj.</p>
+            <p> – Könnyezni látlak, ha visszatérek, mosolyogni lássalak.</p>
+            <p> – Szegény asszony. Ez minden boldogságod. Könnyem, ha távozol, mosolygásom, ha
+               jössz. Áldjon meg az ég. Áldjon meg úgy, ahogy meg voltál átkozva eddig.</p>
+            <p> – Akkor téged kell meggyógyítnia – szólt Halila, érzékenyen karolva át hervadó
+               kedvesét.</p>
+            <p> – Megállj még, úgy fázom, úgy reszketek. Hiába takargatsz. Perzsia minden préme sem
+               melegít fel engem. Add ide kardomat. Ne kérdd: minek? Jól esik, ha megtapinthatom
+               vasát.</p>
+            <p> Halila odanyújtá a kardot. Elemér lázas örömmel szorítá ezt szívéhez.</p>
+            <p> – Így, most már nem reszketek.</p>
+            <p> A varchonitáknál ősi szokás volt, hogy mikor a férfi haldoklott, mellé fektették a
+               kardot, s azzal együtt temették el. Elemér előre gondoskodott magáról. Azután
+               gyöngéden megsimogatá Halila fürteit:</p>
+            <p> – Vigyázz magadra az úton, az ég oltalmazzon. Légy boldog örökre.</p>
+            <p> – Miért mondod „örökre”? – kérdé a nő keserű előérzettel.</p>
+            <p> Utolsó áldása volt az neki.</p>
+            <p> – Isten veled – susogá, még egyszer megszorítva kezét. A nő megcsókolá hideg
+               homlokát.</p>
+            <p> – Míg visszatérek, álmodjál édesen. Bennem minden érzés azt súgja, hogy te újra
+               felvirulsz. Én boldog vagyok, ha arcod láthatom, s álmaid felett virrasztani nekem
+               mennyei üdv. Mielőtt a göncöl elfordulna, visszatérek, s a hajnal új napot hoz.</p>
+            <p> A nő eltávozott, csókot és könnyes pillantást vetve vissza a küszöbről.</p>
+            <p> – Több hajnal nem jön föl énreám – sóhajta Elemér. – Légy boldog örökre! – suttogá,
+               midőn az nem is hallhatá már.</p>
+            <p> A hold méla fénye szüntelen változó alakokat fejte az ingatott lombok közül a
+               padozatra. Elemér ábrándozva, álmodozva maradt ott magában, s beszélgetett, vagy tán
+               csak álmodott, s azt hivé, hogy beszél.</p>
+            <p> – Ketten maradtunk ismét: te és én. Mit akarsz? Hová csalogatsz? Ha nem vagy élő
+               lény, miért jelensz meg előttem? Miért lopod ki belőlem a lelket? Miért mosolyogsz
+               rám? Itt és ott, és amott és mindenütt, ahova nézek, előttem állsz. Látlak, kezedet
+               szorítom, arcodra nézek, hallom hangodat, beszélek veled. És mégsem vagy senki. Nem
+               látja más alakodat, csak én… Ülj mellém… A sírba is velem fogsz-e jőni?… Hm, tudod,
+               mit gondolok most? Ha e percben, ahogy így keblemen fekszel, e kardot itt a te és az
+               én szívemen egyszerre keresztülütném, hogy soha el ne válhatnánk egymástól! Mit
+               szólsz hozzá? Azt, nemde, hogy kezemet nem bírom megmozdítani. Már félig álmodom, és
+               nem tudom magamat ez álom ellen védni. Azt hiszem, hogy látok, mozgok és beszélek,
+               pedig szemem zárva van, ajkam néma, kezem mozdulatlan. Jól tudom, hogy ez álom, és
+               nem tudok belőle fölébredni! oh, ez érzés öl meg engem! Látod, ha élő lény volnál,
+               milyen boldogok lehetnénk együtt, míg most meg kell ölnöd, hogy olyan lélekké tégy,
+               miként magad… Te is szeretsz nagyon: oh, jól tudom én azt. De egyre nem gondoltál.
+               Hátha neked itt kell maradnod, míg én tovaszállok? ugye, hogy elkomorodtál?… Sírsz?…
+               Nos, miért nevetsz megint? Ah, értelek, ha én meghalok, te is meg tudsz halni, s
+               akkor mindketten egy helyre megyünk… Tehát a szellemek találkoznak a túlvilágon! Úgy
+               boldogság meghalni… Te is vágyódol oda? Ez örök álomországba, ott leszünk. Harmadnap
+               este, hogy én elhagyom a földet, te is utánam jössz. Addig én elkészítem a vőlegényi
+               sátort, napsugárból, szivárványból, éjszakfényből, fellegborulásból… Ott fogunk lakni
+               örökké… Ott fogunk örökké álmodozni, ott megmondod nekem, ki voltál itt e földön? Ott
+               el nem válunk egymástól soha.</p>
+            <p> Elemér teljes gyönyörrel emelé föl álommosolygó arcát, s tagjai reszkettek a kéjtől,
+               mely lelkét elfutotta.</p>
+            <p> E percben halkan felnyílt a hajlék ajtaja, s a küszöbben megjelent ama férfi, kit a
+               megölt hajós a szigetre hozott. A jövevény csöndes léptekkel járult az alvó ifjú elé.
+               Meglátta, hogy milyen halvány. A láz gyötörte éppen.</p>
+            <p> – Valóban sápadt fiú – dörmögé az idegen. – A szerelem megárthatott neki. Alszik,
+               mosolyog, álma nyugtalan. Szerelemről álmodik. Ijedtségre fog ébredni.</p>
+            <p> Ezzel halkan odavivé jéghideg kezét Elemér arcához, s végigsimítá rajta.</p>
+            <p> Az ifjú felriadt az ellenszenves érintésre.</p>
+            <p> – Ki az? mit akarsz? – kérdé az előtte álló alaktól.</p>
+            <p> – Ha megmondom, hogy ki vagyok, megtudod, hogy mit akarok – felele, s leereszté
+               hosszú köpenyét. – Az én nevem Kubláj emír.</p>
+            <p> Elemér meg sem indult e szóra, keserű mosollyal mondá:</p>
+            <p> – Ismerlek. Megtudtad, hogy haldoklom, s eljöttél, hogy meglásd, mint múlok ki?</p>
+            <p> – Áldom a sorsot, hogy nem halálod után jöttem.</p>
+            <p> – Miért?</p>
+            <p> – Mert akkor nem ölhetnélek meg.</p>
+            <p> – Balga ember. Tehát dicsőséget akarsz abban lelni, hogy</p>
+            <p> – Az az utolsó csepp véred kell nekem, mely még ereidben tévelyg! Te nem tudod, mit
+               cselekedtél, midőn a király leányát elszöktetéd. Disabul országát vesztette emiatt. E
+               leányt Dalmának kelle nőül venni, s ha ez úgy történik, akkor tudva leend, mit
+               másként bebizonyítni nem lehet, hogy Dalma nem férfi, hanem leány!</p>
+            <p> Új nap gyulladt egyszerre Elemér szívében. Örvendetesbet nem mondott neki soha
+               senki, mint halálos ellensége. Megújulva az öröm rohamától emelkedék fel ágyáról.</p>
+            <p> – Ah, tehát te vagy az?… Tehát te vagy az mégis! Világ derül agyamban!… Most látlak
+               utolérhetlen nagyságodban, oh, én bálványom. Most már százszor kedves előttem a
+               halál, mert várhatok rád a túlvilágon… Imádlak… Lelkedet bámulom… Szellemed volt az,
+               mi körülem lebegett mindenütt, a te arcod volt az, mit előttem láttam… Tégedet ígért
+               a sors nekem… Az ígéret nem e világra szólt… Lesz hát szebb világ.</p>
+            <p> – Azt meglátod azonnal! – szólt Kubláj, kihúzva kardját. – Hajtsd meg fejedet.</p>
+            <p> Elemér egyszerre büszkén egyenesedett föl. Visszatérő lelke még egyszer arcába és
+               szívébe hajtá vérét.</p>
+            <p> – Mikor hajtotta meg nyakát nemzetembeli férfi a halálcsapás előtt? Orozva jöttél
+               ölni? Tanuld meg hát, hogy az oroszlán még haldokolva is oroszlán, s szemedbe néz, és
+               fogat mutat. S ezzel fölkapta öltönye alá rejtett kardját, megvillantá azt a
+               holdsugárban, kényszerítve ijedten visszaszökni orgyilkosát, ki magáért kezde már
+               aggódni, s az ajtó felé tekinte.</p>
+            <p> – Jöjj. Látod, hogy én nem mehetek – hívá Elemér, félkezével széke karjára
+               támaszkodva, míg a másikkal kardját emelé.</p>
+            <p> Kubláj óvatosan közelge vissza, a két kard előbb halkan csattant össze, a viadal
+               mindig hevesebb lett. Az acélok szikrákat hánytak a holdsugárban, végre Elemér egy
+               utolsó csapást mért ellenfelére, mely ha azt megéri, ránézve is utolsó leende.</p>
+            <p> Kubláj ijedten ugrott félre, s tétovázni látszott.</p>
+            <p> – Pihenj meg – szólt gúnyosan Elemér. – Várd el, míg a halál önkényt elejt, akkor
+               jöjj nekem. De míg egy ízem mozdulni tud, addig ne közelíts, mert vezetőnek küldlek a
+               másvilágra!</p>
+            <p> Kubláj nem merte őt megtámadni többé. A hős azonban érzé, hogy szíve mind lassabban
+               dobog. Vége közel volt már, csak néhány lélegzete lehetett még hátra. Elemér ezt
+               visszafojtá. Úgy akart meghalni állva, karddal kezében, hogy ne vegye észre e gyáva,
+               midőn keble utolsót dobban, hogy ajka csukva legyen, szíve meg ne mozduljon, midőn
+               kebelébe ütendi vasát…</p>
+            <p> – Oh, Dalma, szeretlek! – sóhajtá még egyszer, s azzal összerogyott.</p>
+            <p> Kubláj fogait csikorgatá, hogy vér nem jött döfés után a sebből, melyet a haldoklón
+               ejte, s arcán egy torzvonása sem volt a fájdalomnak utána.</p>
+            <p> Azzal ördögi vérörömmel foglalta el a holt ifjú helyét, s annak karszékében ülve
+               várta, míg Halila visszaérkezik.</p>
+            <p> A nő gyorsan járt, imádkozott a szent fák alatt, felkereste a jóst, az gyógyszerül
+               egy tubafa-ágat adott neki férje számára. Halila, mintha sejtené, hogy e fa lombjai
+               csak a holtak számára zöldülnek, az útfélen saját maga számára is szedett gyógyfüvet
+               – haláladó bürköt. Így jött aggodalomtól dobogó szívvel a kis hajlékba vissza, s még
+               a küszöbben susogá:</p>
+            <p> – Elemér! Jó férjem… Alszol-e? – s odasimult, és kezét kinyújtá a kereveten ülőé
+               után.</p>
+            <p> Azon percben fölemelkedék az emír, s fagyos gúnnyal kiálta</p>
+            <p> – Nem alszom.</p>
+            <p> Halila hátratántorodék, a szó elhalt ajkán. Kubláj fenyegetőn húzódott közelebb
+               hozzá:</p>
+            <p> – A férj itt fekszik lábaimnál. E kardon az ő vére piroslik. Nem óhajtod-e, hogy a
+               tieddel egyesüljön?</p>
+            <p> Halila e pillanatban azon ritka nemével a lélek jelenlétének, mely az őrültség
+               rettentő határán szokott megjelenni, ismerős mosolygást kényszeríte arcára, s kezét
+               nyájasan nyújtva Kubláj elé, nyugodtan szólt:</p>
+            <p> – Hozott az ég!</p>
+            <p> Kubláj megütközve tekinte a nő szemébe.</p>
+            <p> – Te engem üdvözölni mersz. Megcsalhatni vélsz-e?</p>
+            <p> – Üdvözöllek, mint megszabadítómat. Ez ember erővel rabolt el engem.</p>
+            <p> – Könnyű volt ott a győzelem, ahol nincs ellenállás. Te azonban nagy könnyen
+               hozzászoktál szerelméhez.</p>
+            <p> – Mondd: gyűlöletéhez. Nem férjem: tömlöcőröm volt nekem, nem gyöngédség: kínzás,
+               üldözés, keserv volt, amit nála találtam.</p>
+            <p> – Értetlenül beszélsz. Ha gyűlölt, miért rabolt el?</p>
+            <p> – Te nem értesz mindent. A khagán meg akart tőlem menekülni, mert ő is mást
+               szeretett.</p>
+            <p> Kubláj meg volt lepetve. Kénytelen magában elismerni, hogy e nő igazat beszél, mert
+               azt is tudja, amit ő csak sejtett.</p>
+            <p> – Tehát a khagán maga szöktetett el vele? Hanem ő örömest ráállt erre, mert
+               szerelmes volt beléd; nem volt-e az?</p>
+            <p> – Ő is mást szeretett. Én csak foglya voltam.</p>
+            <p> – Mást? Nem tudtad meg, hogy kit?</p>
+            <p> – Álmaiban sokszor beszélt elérhetetlen tündérképekről. Kubláj összeveté azokat,
+               amiket Elemértől hallott, s gyanúja mindig erősebb lett, hogy Dalma őt szerette, és
+               szeretteték általa, s tudá bámulni azon női szívet, mely ennyi lemondásra képes.</p>
+            <p> – És te miért nem iparkodtál innen megszabadulni?</p>
+            <p> – Azt csak az ő holttestén keresztül tehettem, s íme, láthatod, hogy nálad nélkül is
+               meghalt volna.</p>
+            <p> – Mit beszélsz?</p>
+            <p> – Lassan ölő mérget kevertem étele közé… – suttogá Halila, de meg is állt, hogy
+               magában bocsánatot kérjen Istenétől e hazugságért, melytől lelke visszaborzadt. Oh,
+               mely örömest halt volna meg vele együtt; de most apja vére lángolt fel szívében, s
+               föltevé, hogy élni fog.</p>
+            <p> Kubláj hitetlenül rázá fejét.</p>
+            <p> – Ím, lássad, most is bürköt hoztam a parti ingoványból, míg ő aludt, és e
+               tubafa-gally is számára van letörve. Kubláj csodától elfogva kiálta fel:</p>
+            <p> – Astarothra! E nő nagyobb ördög, mint maga Astaroth! Egy gondolatom támadt. Én meg
+               akarom tudni, ki volt e férfi rejtélyes kedvese?</p>
+            <p> – Miként?</p>
+            <p> – A varchonitáknál ősi szokás, hogy ha valakit meggyilkolnak, s gyilkosa nem
+               ismertetik, a holttestet a legközelebbi rokon ravatalra fektetve viszi a khagán elé,
+               s felhívja mindazokat, akikre gyanúja van, hogy kezüket a holt sebére téve esküdjenek
+               meg, hogy halálában nem vétkesek. Ha a seb vérzik, az azt jelenti, hogy a gyilkos
+               tette rá kezét. E törvényszék a Zomotor, a halálújítás. Te elhozod a khagán elé a
+               halottat. Én balfelől állandok trónja mellett, hogy arcát szemlélhessem. Minek
+               örülsz?</p>
+            <p> Halila nem bírta arcán eltitkolni az iszonyú örömöt, mely szívében támadt.</p>
+            <p> – Azon örülök – viszonza –, hogy az is ott leend, akit gyűlölök.</p>
+            <p> – Te is, a hulla is fátyollal lesztek letakarva; a vérehagyott tetem senkinek sem
+               leend árulója, a holt arcát nem látandja addig senki, ekkor egyszerre felrántod róla
+               a leplet. És akkor az, ki neki szerelmese volt, nem fog-e magáról elfelejtkezve
+               rögtön odarohanni hozzá, s ha el tudta titkolni szerelmét, lesz-e elég ereje
+               eltitkolhatni fájdalmát?</p>
+            <p> – Valóban el fogja árulni magát – szólt elgondolkozva tervén a nő.</p>
+            <p> – Kezet reá – szólt Kubláj örömmel.</p>
+            <p> – Kezeim között tartom őt – suttogá Halila.</p>
+            <p> – Kit?</p>
+            <p> – Azt, akin bosszút akarok állani – szólt a nő, megrázva Kubláj kezét, ki nem vette
+               észre azt a fenyegető villámot, mely e percben a hölgy szemeiből feléje lobbant.</p>
+            <p> Apja vére lángolt fel a nő szívében.</p>
+         </div>
+         <div type="chapter">
+            <head>V.</head>
+            <p> A honalapítás ünnepére összegyűlt szent berkeiben a nemzetnek színe java.</p>
+            <p> Azon napok emlékére volt ez ünnep szentelve, mikor még a varchoniták szegény
+               rabszolganép voltak, s puszta erdeikben idegen elnyomó számára kovácsoltak kardot,
+               láncot önmaguknak.</p>
+            <p> Saját kezüktől elejtett vadállatok bőrébe öltözve jelentek meg a férfiak, saját
+               kezük szőtte öltönyökben a nők, mint egykor Bertezena idejében; így állt Dalma is
+               közöttük, vállain fényes párducbőr keresztülkötve, mely gömbölyű vállát és karjait
+               engedé láttatni, miknek gyöngéd idomza tán minden mozdulatnál kitűnt a férfi-erőre
+               szoktatott izmok játéka.</p>
+            <p> A hölgyek szemérmesen tekintének daliás khagánjuk alakjára, büszke önérzettel a
+               férfiak. És Dalma elpirult, érezve, hogy termetére férfiak tekintete van
+               függesztve.</p>
+            <p> A vezérek üllőt, kalapácsot és vasat hoztak elő, Dalma izmos kezébe fogá a nehéz
+               pörölyt, s a nép színe előtt a szikrázó vasból kardot kovácsolt, egyet azok
+               mintájára, mikből négy ér fel eggyel, s azt fölemelve, fogadást tőn, hogy Bertezena
+               utódait nem engedi rabszolgákká lenni soha.</p>
+            <p> Szemei könnyeztek, midőn beszélt, a nép azt hívé: örömkönnyek.</p>
+            <p> Ekkor nyakába akaszták a fejedelmi kacagányt, s egy magas fatörzsre, mint trónra,
+               felültették. Hasonló trónról osztá egykor Bertezena parancsait.</p>
+            <p> A nép választottai tisztelegve járultak eléje. Jött legelőbb hét agg rhabonbán, s a
+               legvénebb végigsimítva ősz haját, szólt:</p>
+            <p> – Üdv neked, oh, Dalma, ki megtartád, amit apáid szereztek, lásd hazádat felvirulva,
+               és légy áldott. Boldog, aki alattad születik, s boldog, aki alattad hal meg. Élj
+               sokáig.</p>
+            <p> A hét vén rhabonbán elvonult, jött utánuk hat vezér: a hetedik, a legifjabb, nem
+               volt ott. Senki sem tudta, hová lett.</p>
+            <p> Pedig neki kellett volna elmondani e szavakat, miket az utána legifjabb vezér monda
+               el:</p>
+            <p> – Üdv neked, oh, Dalma, ki népek urává tetted nemzetünket, légy erős, légy hatalmas,
+               három tenger legyen országod határa, s az egész ég legyen boltozatja. Élj dicsően és
+               sokáig.</p>
+            <p> A nép azt hívé, Dalma örömkönnyeket sír: az volt akkor is eszében, hogy e szókat
+               Elemér szájából kellett volna hallania.</p>
+            <p> A vezérek után jött hét ogur nő, tisztes, komoly arcú hölgyek.</p>
+            <p> – Üdv neked, oh, Dalma – szólt az első –, ki határainkat megvédted vad ellenségtől,
+               s boldogságot és jóllétet árasztál tűzhelyeink körül. Légy oly boldog egykor, mint mi
+               mindnyájan vagyunk. Láss örülő családot magad körül, délceg fiakat, szelíd leányokat,
+               kikben tenmagad légy megdicsőülve. Élj sokáig.</p>
+            <p> Dalma keserűen tekinte a szónoknőre, ki oly szomorú gúnyt monda reá áldásképpen.</p>
+            <p> Hét fiatal szűz jött ekkor elő, vadrózsával s liliommal koszorúzva. Pirulva, pihegő
+               kebellel járult elé a kiválasztott hajadon, nem mert reá feltekinteni, midőn rebegő
+               hangon szólt:</p>
+            <p> – Légy áldva, oh, Dalma, ki bennünket hazát szeretni tanítál, szerelmedért
+               jutalmazzon szerelemmel a sors, mindenkitől légy szeretve, s legjobban szeretve
+               egytől.</p>
+            <p> Dalma kezeibe rejté arcát.</p>
+            <p> Végre hét kisded jött elő. Kis vezérök bátran állt a khagán elé, s elmondá rövid
+               üdvözletét:</p>
+            <p> – Üdv neked, Dalma! – S magától utána tevé: – Ha megnövünk, mink is veled megyünk a
+               harcba!</p>
+            <p> Dalma sóhajtva tekinte szét. Mindenütt örvendő arcok vették körül. A nép boldog
+               volt, és derült, a fák fel voltak koszorúzva, az erdőben elszórt sírok beültetve
+               lobogó kopjákkal, csak az ő lelke volt sötét. Az áldás nem fogott rajta.</p>
+            <p> Majd jöttek a „hegedősök” húros hangszereiken nemzeti dalokat verve; megszólalt a
+               koboz és tilinkó, s míg az ifjú szittya leányok hőskölteményeket daloltak, körbeállt
+               a fiatalság, s eljárta a „dalitáncot”. Az ifjak kezeikkel a csatát utánozva
+               táncoltak, közbe a hölgyek szelíd éneklése zengett.</p>
+            <p> E pillanatában a közörömnek egyszerre szomorú kürthang rivallt meg a háttérben, s
+               míg a mulatozók botránkozva tekintének az ünnepélyt zavaró gyászhangra, Dalma mellett
+               egy baljóslatú hang szólalt meg:</p>
+            <p> – Ez a zomotor hangja.</p>
+            <p> A khagán megdöbbenve tekinte oda. Kubláj állt mellette, trónjára könyökölve.</p>
+            <p> A gyászhangok mindig közelebb érkeztek, s nemsokára lehete látni a szekeret, melyen
+               fehér lepellel leterítve, s zöld gallyakkal körültűzve állt a gyászravatal, mellette
+               földig lefátyolozott nő haladt.</p>
+            <p> A kikiáltó kürtjébe fújt, és szólt:</p>
+            <p> – Dicső khagán és egybegyűlt férfiak! Ez előttetek álló gyásznő nevében tudtotokra
+               adom, hogy e nő „tetemre hív” benneteket általam, melynek engedelmeskedni tartoztok
+               haladéktalanul, és ha az első vezér, vagy maga a khagán volna is, akit e nő hívni
+               fog, az tartozik kezét a meggyilkolt sebére téve leesküdni a vádat magáról. Szent a
+               törvény, és áll mindnyájunk felett!</p>
+            <p> A férfiak néma főhajtással fogadák a kikiáltó szavát, maga Dalma is leszállt
+               trónjából, inte a gyásznőnek, hogy hívja fel mindazokat, kikre gyanúja van.</p>
+            <p> Halila csendesen körültekinte sűrű fátyola alól; s amint a férfiak egyenként végig
+               lépdeltek előtte, kérdezve: „van-e rám gyanúd?”, némán inte nekik, hogy menjenek
+               tovább. Egyet sem hívott a hullához.</p>
+            <p> – Kire gyanakszol tehát, jó asszony? – kérdé Dalma, miután az mindegyiket
+               elutasítá.</p>
+            <p> Halila ekkor megpillantá Kublájt a trón mellett, s rámutatott egyenesen.</p>
+            <p> – Őreá! – kiálta Dalma megdöbbenve. – Ő Disabul követe.</p>
+            <p> – Tudom – felelt Halila kikelt hangon, s újra inte Kubláj felé.</p>
+            <p> Ez düh- és félelemtől reszketve húzódék hátra.</p>
+            <p> – Ez asszony őrjöng! – hebegé. – Én nem tartozom törvényeitek alá.</p>
+            <p> – Törvényeink nem ismernek különbséget – szólt Dalma. – Ha e nő gyanúja alaptalan, s
+               te ártatlannak érzed magadat, nincs miért rettegned; de ha bűnös vagy, itt vétettél,
+               itt lakolsz meg.</p>
+            <p> – De e nő engem félreismer.</p>
+            <p> – Ismerlek jól – szólt közbe Halila. – Magad megvallád, hogy te ölted meg férjemet;
+               jer, tedd sebére kezedet, hadd szóljon a seb.</p>
+            <p> Kubláj húzódozva lépett oda, s fogcsikorgatva súgá Halilának:</p>
+            <p> – Elárulál, de el fogsz veszni te is. Gondolj Astarothra.</p>
+            <p> – Mért nincs tíz életed, hogy férjemért áldozhatnám valamennyit.</p>
+            <p> – Legyen tehát – szólt Kubláj, s kezét vakmerően a holt sebére tevé.</p>
+            <p> Mindenki elszörnyedve szökött vissza. A vér egyszerre elkezde felszökellni a sebből,
+               s elborítá a szemfedőt.</p>
+            <p> – Gyilkos! – kiáltának az emberek, visszaborzadó dühvel.</p>
+            <p> – Te vagy e férfi gyilkosa? – szólt Dalma szigorú hangon. – Igen, én! – kiálta
+               egyszerre vakmerően Kubláj, s lásd meg, ki volt az, akit megöltem?</p>
+            <p> S ezzel felrántá a szemfedőt, mely alatt Elemér holtteste feküdt, hidegen,
+               sápadtan…</p>
+            <p> Dalma, mint kit a villám ütött meg, rogyott össze a holttetemre, szívszaggató hangon
+               kiáltva:</p>
+            <p> – Elemér! Kedvesem.</p>
+            <p> – Hah! Fájdalmad elárult! – harsogá Kubláj diadalmában. – Te nő vagy, és e férfi
+               szerelmesed. Trónod enyim.</p>
+            <p> – Tiéd a vérpad! – szólt Dalma fölegyenesedve fájdalmas dühében. – Nincs hatalom,
+               mely megmentsen bosszúmtól. – Így! Így! – biztatá Halila, megfogva Dalma kezét. Ne
+               hagyd őt kezeid súlyát kikerülni. Törd össze, semmisítsd meg. Ölje meg a bakó,
+               temessék el a hollók, sirassa meg a vihar, átkozzam meg én!</p>
+            <p> – Te nem parancsolsz e földön többé! – kiálta Kubláj. Én ország-világ előtt
+               vádollak, hogy nem vagy férfi, hanem leány, s országod emiatt Disabul országa lett,
+               néped az ő alattvalója, te magad az ő rabszolgája. Tedd le fejedelmi pálcád.</p>
+            <p> – Fejedelmi pálcám e kard! – szólt Dalma, fölemelve azon kardot, melyet az imént
+               kovácsolt, s miként egykor őse, Bertezena, éppen úgy vágta ketté Kublájt, hogy két
+               része jobbra-balra hullott.</p>
+            <p> – És most – kardom mutassa meg: férfi voltam-e, vagy asszony!</p>
+            
+            <p> Nehány hó múlva megkezdé Disabul tatár szövetségesével a harcot a varchoniták ellen.
+               Dalma keresni látszott a halált, egyetlen jóltevőjét még e földön. Nem is sokáig
+               váratott az magára, egy dicsőséges viadalban a sereg élén csatázva elhullott.
+               Holtteste úgy elveszett, hogy senki sem talált rá többé.</p>
+            <p> Dalma halála után a varchoniták felkerekedtek egész nemzetestül, s elmentek jobb
+               hazát keresni. Inkább elhagyták ősi országukat, mintsem rabszolgák maradtak volna
+               benne.</p>
+         </div>
+      </body>
+     <back>
+         <div type="liminal">
+            <head>UTÓHANG A „VARCHONITÁK”-HOZ</head>
+            <p> „Mennyi bombaszt!” – fogja mondani a<hi> századvégi</hi> olvasó, ha a
+               kuriozitása rávitte, hogy ezt az elbeszélést átlapozza.</p>
+            <p> És igaza lesz. Biz ez már mind bombaszt <hi>mai napság.</hi> De hát
+               ennek az elbeszélésnek is ecetágya van. Nem regénynek készült ez, hanem drámának.</p>
+            <p> 1853-at írtunk. A Bach-korszak virágévadját. A földön feküdt minden. A magyar kezdte
+               megszokni a kényuralmat, a rabrendet, az idegen szót, az új intézményt. Nem volt már
+               semmi reagálás – (a szabad, a nemzeti irányban), csak még egynéhány exaltált poéta
+               keblében.</p>
+            <p> No, azokról meg gondoskodva lett a cenzúra intézménye által.</p>
+            <p> A nyelvünket nem értette senki az államalkotó elemekből: elkezdve a helytartón,
+               folytatva a megyefőnökön, a rendőrfőnökön, a biztoson, a végrehajtón keresztül, egész
+               le a Schulrath-ig. Csak a cenzor kötelessége volt érteni az átkozott finnugor
+               idiómát.</p>
+            <p> Amiket most Te, boldog idők szülte olvasóm, furcsa bombasztoknak fogadsz, abban az
+               időben egy refractárius magyar írónak jajkiáltásai voltak az alvó nemzethez,
+               áthelyezve a khokonorhegyi szakadékok közé, szájába adva soha nem élt királyoknak és
+               királyleányoknak; de megértve, átgondolva egy élni akaró tetszhalott nemzettől.</p>
+            <p> Ez a mű, így regényalakban, csak jóval később, egy enyhébb korszakban láthatott
+               napvilágot: eredetiben ez drámának született. S ide kell egy pár korrajzoló
+               kontúrvonás.</p>
+            <p> Két cenzor volt ez években a magyar irodalom fölötti bírói székbe ültetve.</p>
+            <p> Az egyik firtatta a könyvalakú termékeket és a hírlapokat. (Könnyű volt neki:
+               mindössze négy hírlap jelent meg Pesten.) Ez egy maliciózus, rosszindulatú, hóhérnak
+               született pribék volt. A nevére nem emlékezem. Akit meggyűlölök, azt el szoktam
+               felejteni.</p>
+            <p> A másik egy becsületes, jóakaratú, élni és élni hagyni szerető teremtés volt: ennek
+               a nevét megtartottam, Csehallnak hítták. Erre volt bízva a színművek és
+               színielőadások ellenőrzése.</p>
+            <p> Én tehát, aki már akkor is ravasz, furfangos politikus voltam, előre tudva, hogy
+               ilyen hazafiúi frázisoktól duzzadó <hi>regényfélét</hi> a nyomdafesték
+               reprodukálni nem fog a Nr. 1 cenzor szigorúsága miatt, azt fundáltam ki, hogy
+               ugyanezt, mint <hi>színművet</hi> fogom a letargiás közönséggel
+               inhaláltatni Csehall úr kegyes elnézése mellett.</p>
+            <p> A stratagéma teljesen sikerült.</p>
+            <p> Az én derék, becsületes Csehallom a következő referádát nyújtá be a
+               rendőrtanácsosnak a „Dalma” című drámámról:</p>
+            <p> „Dieses <hi>Spektakelstück</hi> ist ein <hi>Machwerk,</hi> welches geeignet ist, durch exotische Decorationen und kuriose
+               Costüme ein zahlreiches Publikum ins Theater anzulocken.”</p>
+            <p> Az Isten áldja meg ezért a jó rekomendációért.</p>
+            <p> A „Dalma” előadása a nemzeti színházban meg lett engedve. A hatás nem maradt el.
+               Talán egyéb is közreműködött, mint az exotische Dekorationen és a kuriose
+               Costüme.</p>
+            <p> Fenn is tartotta magát egész addig, amíg a Bach-rendszer fennállt. Akkor aztán
+               félretettük, mint ahogy kitesszük a szobából a vaskályhát, mikor a tavasz kinyílik. –
+               Így lett később belőle regény. – Veszett fejsze új nyélbe sütve.</p>   
+         </div>
+      </back>
+   </text>
+</TEI>
