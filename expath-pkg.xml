@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://expath.org/ns/pkg" spec="1.0" version="0.1" name="https://www.distant-reading.net/eltec/level1" abbrev="eltec">
+<package xmlns="http://expath.org/ns/pkg" spec="1.0" version="1.0.0" name="https://www.distant-reading.net/eltec/level1" abbrev="eltec">
     <title>ELTeC European Literary Text Collection</title>
     <dependency package="http://exist-db.org/apps/shared"/>
     <dependency package="http://existsolutions.com/apps/tei-publisher-lib" semver-min="2.8.8"/>
