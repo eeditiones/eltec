@@ -1,5 +1,10 @@
 {
-    "myapp": {
-        "title": "Foo"
+    "eltec": {
+        "facets": {
+            "size": "Size",
+            "authorGender": "Author Gender",
+            "period": "Period",
+            "reprint": "Reprint count"
+        }
     }
 }

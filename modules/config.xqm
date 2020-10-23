@@ -109,13 +109,12 @@ declare variable $config:facets := [
                 case "fr" return "French"
                 case "en" return "English"
                 case "pt" return "Portuguese"
-                case "si" return "Slovenian"
+                case "sl" return "Slovenian"
                 case "ro" return "Romanian"
                 case "hu" return "Hungarian"
 
                 (: erroneous but used in ELTec:)
                     case "SPA" return "Spanish"
-                    case "sl" return "Slovenian"
                     case "ENG" return "English"
                     
                 default return $label
