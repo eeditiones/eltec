@@ -1,0 +1,10 @@
+body {
+    --pb-splash-image: url(../images/eltec-logo.jpeg);
+}
+
+.logo img {
+    width: auto;
+    max-height: 60px;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
