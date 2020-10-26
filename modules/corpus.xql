@@ -22,7 +22,7 @@ return
     corpus:indexTerms(
         collection($config:data-root || '/' || $path)/util:index-keys-by-qname(xs:QName("tei:text"), '',
         function($key, $count) {
-            <term><name>{$key}</name><count>{$count[1]}</count><docs>{$count[1]}</docs></term>
+            <term><name>{$key}</name><count>{$count[1]}</count><docs>{$count[2]}</docs></term>
         }, $max, "lucene-index"),
         'multi'
     )
