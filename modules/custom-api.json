@@ -25,6 +25,95 @@
         }
     },
     "paths": {
+        "/api/document/{id}/frequency": {
+            "get": {
+                "summary": "Retrieve frequency list for a document",
+                "tags": [
+                    "documents"
+                ],
+                "operationId": "lapi:document-frequency",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "example": "eng/ENG18831_Ouida.xml"
+                        }
+                    },
+                    {
+                        "name": "max",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer",
+                            "default": "10000"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns the frequency list for a document as HTML",
+                        "content": {
+                            "text/html": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Document not found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/collection/{path}/frequency": {
+            "get": {
+                "summary": "Get a frequency list for the collection",
+                "tags": [ "collection" ],
+                "operationId": "lapi:collection-frequency",
+                "parameters": [
+                    {
+                        "name": "path",
+                        "in": "path",
+                        "required": true,
+                        "schema":{
+                            "type": "string",
+                            "example": "test"
+                        }
+                    },
+                    {
+                        "name": "max",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer",
+                            "default": "10000"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Returns HTML listing the index terms for a collection sorted by frequency",
+                        "content":{
+                            "text/html": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
     },
     "security": [
         {

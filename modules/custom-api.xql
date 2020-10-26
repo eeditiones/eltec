@@ -11,6 +11,8 @@ module namespace api="http://teipublisher.com/api/custom";
 (: Add your own module imports here :)
 import module namespace rutil="http://exist-db.org/xquery/router/util";
 import module namespace app="teipublisher.com/app" at "app.xql";
+import module namespace lapi="teipublisher.com/corpus" at "corpus.xql";
+
 
 (:~
  : Keep this. This function does the actual lookup in the imported modules.

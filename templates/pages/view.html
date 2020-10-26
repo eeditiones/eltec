@@ -77,6 +77,16 @@
                             </pb-load>
                         </div>
                     </pb-drawer>
+                    <pb-drawer toggle="frToggle" class="fr" emit="frequency" subscribe="transcription">
+                        <div class="drawer-content">
+                            <h3>
+                                <pb-i18n key="eltec.frequency.list">Frequency list</pb-i18n>
+                            </h3>
+                            <pb-load id="toc" url="api/document/{doc}/frequency?target=transcription&amp;icons=true" expand="expand" src="document1" subscribe="frequency" load-once="load-once">
+                                <pb-i18n key="dialogs.loading">Loading</pb-i18n>
+                            </pb-load>
+                        </div>
+                    </pb-drawer>
                     <section class="breadcrumbs">
                         <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title" view="single">
                             <pb-param name="header" value="short"/>
