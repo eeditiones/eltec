@@ -25,11 +25,11 @@
                             European Literary Text Collection</title>, version 0.5.0, November 2019,
                         edited by Carolin Odebrecht, Lou Burnard and Christof Schöch. COST Action
                         Distant Reading for European Literary History (CA16204).<ref
-                            target="http://doi.org/10.5281/zenodo.3462436">DOI</ref>.</note> literary texts
-                    encoded at ELTeC Level 1 (where available) for quick, facetted browsing,
-                    visualisation and full text search (see canonical releases of the datasets). All
-                    texts included in this collection are in the public domain.</p>
-                
+                            target="http://doi.org/10.5281/zenodo.3462436">DOI</ref>.</note>
+                    literary texts encoded at ELTeC Level 1 (where available) for quick, facetted
+                    browsing, visualisation and full text search (see canonical releases of the
+                    datasets). All texts included in this collection are in the public domain.</p>
+
                 <p> This application has been developed by Magdalena Turska and is released under
                     GNU General Public License v3.0. </p>
             </div>
@@ -48,17 +48,40 @@
             </div>
             <div>
                 <head>Application development</head>
-                <p>reorganizing the data, basic scaffolding, creating database
-                    indexes, app customization, source control) </p>
+                <p>reorganizing the data, basic scaffolding, creating database indexes, app
+                    customization, source control</p>
+                <div>
+                    <head>Generate the base app</head>
+                </div>
+                <div>
+                    <head>Collect the data</head>
+                    <p/>
+                </div>
+                <div>
+                    <head>Create indexes</head>
+                    <p>facets, fields, analyzers</p>
+                </div>
+                <div>
+                    <head>Internationalization</head>
+                </div>
+                <div>
+                    <head>Branding</head>
+                </div>
+                <div>
+                    <head>Custom application API: frequency lists</head>
+                </div>
             </div>
             <div>
                 <head>Publication</head>
-                <p>optional; server setup and deployment</p>
+                <p>(optional) server setup and deployment</p>
             </div>
             <div>
                 <head>Lessons learned</head>
                 <p>discussion of encoding choices affecting publication or publication requirements
                     requiring adjustment of the sources </p>
+                <p>TOC, indexing</p>
+                <p>collations</p>
+                <p>language codes</p>
             </div>
         </body>
     </text>
