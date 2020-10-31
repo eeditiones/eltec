@@ -106,9 +106,9 @@ declare function dbs:query-metadata($field as xs:string, $query as xs:string, $s
     (: map default publisher field names to db- prefixed which are defined for dbk :)
     let $field := if ($field = ('author', 'title', 'file')) then 'db-' || $field else $field
 
-    for $doc in collection($config:data-root)//db:article[ft:query(., $field || ":" || $query, map { "fields": $sort
-})]     return
-        root($doc)/*
+    for $doc in collection($config:data-root)//db:article[ft:query(., $field || ":" || $query, query:options($sort))]
+        return
+            root($doc)/*
 };
 
 declare function dbs:get-parent-section($node as node()) {
