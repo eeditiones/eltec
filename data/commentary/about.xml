@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>About ELTeC application</title>
+                <author>Magdalena Turska</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Introduction</head>
+                <p>This is a TEI Publisher-based application aggregating the ELTeC<note><title>ELTeC
+                            European Literary Text Collection</title>, version 0.5.0, November 2019,
+                        edited by Carolin Odebrecht, Lou Burnard and Christof Schöch. COST Action
+                        Distant Reading for European Literary History (CA16204).<ref
+                            target="http://doi.org/10.5281/zenodo.3462436">DOI</ref>.</note> literary texts
+                    encoded at ELTeC Level 1 (where available) for quick, facetted browsing,
+                    visualisation and full text search (see canonical releases of the datasets). All
+                    texts included in this collection are in the public domain.</p>
+                
+                <p> This application has been developed by Magdalena Turska and is released under
+                    GNU General Public License v3.0. </p>
+            </div>
+            <div>
+                <head>Motivation</head>
+                <p>a commentary on conducting the project</p>
+                <p>Beyond the direct purpose of presenting the ELTeC corpus texts, the application
+                    code itself and the accompanying commentary is intended for self-study by TEI
+                    practitioners looking for a case study guide: how to publish a larger corpus of
+                    TEI encoded material online.</p>
+            </div>
+            <div>
+                <head>Encoding</head>
+                <p>schema, data selection, constraints and considerations, tools and methods for
+                    encoding</p>
+            </div>
+            <div>
+                <head>Application development</head>
+                <p>reorganizing the data, basic scaffolding, creating database
+                    indexes, app customization, source control) </p>
+            </div>
+            <div>
+                <head>Publication</head>
+                <p>optional; server setup and deployment</p>
+            </div>
+            <div>
+                <head>Lessons learned</head>
+                <p>discussion of encoding choices affecting publication or publication requirements
+                    requiring adjustment of the sources </p>
+            </div>
+        </body>
+    </text>
+</TEI>

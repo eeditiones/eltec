@@ -354,7 +354,7 @@ declare variable $config:data-default := $config:data-root;
  : documents displayed in the browsing view.
  :)
 declare variable $config:data-exclude :=
-    doc($config:data-root || "/taxonomy.xml")/tei:TEI
+    collection($config:data-root || 'docs')/tei:TEI
 ;
 
 (:~
