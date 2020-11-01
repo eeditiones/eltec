@@ -1,88 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>About ELTeC application</title>
-                <author>Magdalena Turska</author>
-            </titleStmt>
-            <publicationStmt>
-                <p>Publication Information</p>
-            </publicationStmt>
-            <sourceDesc>
-                <p>Born digital.</p>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-                <head>Introduction</head>
-                <p>This is a TEI Publisher-based application aggregating the ELTeC<note><title>ELTeC
-                            European Literary Text Collection</title>, version 0.5.0, November 2019,
-                        edited by Carolin Odebrecht, Lou Burnard and Christof Schöch. COST Action
-                        Distant Reading for European Literary History (CA16204).<ref
-                            target="http://doi.org/10.5281/zenodo.3462436">DOI</ref>.</note>
-                    literary texts encoded at ELTeC Level 1 (where available) for quick, facetted
-                    browsing, visualisation and full text search (see canonical releases of the
-                    datasets). All texts included in this collection are in the public domain.</p>
+<?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?teipublisher odd="docbook.odd" template="documentation.html" depth="3" fill="2"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="5.1">
+    <info>
+        <title>About ELTeC application</title>
+        <author>
+            <personname>Magdalena Turska</personname>
+            <email>tuurma@gmail.com</email>
+        </author>
+    </info>
 
-                <p> This application has been developed by Magdalena Turska and is released under
-                    GNU General Public License v3.0. </p>
-            </div>
-            <div>
-                <head>Motivation</head>
-                <p>a commentary on conducting the project</p>
-                <p>Beyond the direct purpose of presenting the ELTeC corpus texts, the application
-                    code itself and the accompanying commentary is intended for self-study by TEI
-                    practitioners looking for a case study guide: how to publish a larger corpus of
-                    TEI encoded material online.</p>
-            </div>
-            <div>
-                <head>Encoding</head>
-                <p>schema, data selection, constraints and considerations, tools and methods for
-                    encoding</p>
-            </div>
-            <div>
-                <head>Application development</head>
-                <p>reorganizing the data, basic scaffolding, creating database indexes, app
-                    customization, source control</p>
-                <div>
-                    <head>Generate the base app</head>
-                </div>
-                <div>
-                    <head>Collect the data</head>
-                    <p/>
-                </div>
-                <div>
-                    <head>Create indexes</head>
-                    <p>facets, fields, analyzers</p>
-                </div>
-                <div>
-                    <head>Internationalization</head>
-                </div>
-                <div>
-                    <head>Branding</head>
-                </div>
-                <div>
-                    <head>Custom application API: frequency lists</head>
-                </div>
-            </div>
-            <div>
-                <head>Publication</head>
-                <p>(optional) server setup and deployment</p>
-            </div>
-            <div>
-                <head>Lessons learned</head>
-                <p>discussion of encoding choices affecting publication or publication requirements
-                    requiring adjustment of the sources </p>
-                <p>TOC, indexing</p>
-                <p>collations</p>
-                <p>language codes</p>
-            </div>
-        </body>
-    </text>
-</TEI>
+    <section xml:id="introduction">
+        <title>Introduction</title>
+        <para>This is a TEI Publisher-based application aggregating the ELTeC literary texts encoded
+            at ELTeC Level 1 (where available) for quick, facetted browsing, visualisation and full
+            text search (see canonical releases of the datasets). All texts included in this
+            collection are in the public domain.</para>
+
+        <para> This application has been developed by Magdalena Turska and is released under GNU
+            General Public License v3.0. </para>
+
+        <note>
+            <para>ELTeC European Literary Text Collection, version 0.5.0, November 2019, edited by
+                Carolin Odebrecht, Lou Burnard and Christof Schöch. COST Action Distant Reading for
+                European Literary History (CA16204). <link
+                    xlink:href="http://doi.org/10.5281/zenodo.3462436">DOI</link></para>
+        </note>
+    </section>
+    <section xml:id="motivation">
+        <title>Motivation</title>
+        <para>a commentary on conducting the project</para>
+        <para>Beyond the direct purpose of presenting the ELTeC corpus texts, the application code
+            itself and the accompanying commentary is intended for self-study by TEI practitioners
+            looking for a case study guide: how to publish a larger corpus of TEI encoded material
+            online.</para>
+    </section>
+    <section xml:id="encoding">
+        <title>Encoding</title>
+        <para>schema, data selection, constraints and considerations, tools and methods for
+            encoding</para>
+    </section>
+    <section xml:id="development">
+        <title>Application development</title>
+        <para>reorganizing the data, basic scaffolding, creating database indexes, app
+            customization, source control</para>
+        <section>
+            <title>Generate the base app</title>
+        </section>
+        <section>
+            <title>Collect the data</title>
+
+        </section>
+        <section>
+            <title>Create indexes</title>
+            <para>facets, fields, analyzers</para>
+        </section>
+        <section>
+            <title>Internationalization</title>
+        </section>
+        <section>
+            <title>Branding</title>
+        </section>
+        <section>
+            <title>Custom application API: frequency lists</title>
+        </section>
+    </section>
+    <section xml:id="publication">
+        <title>Publication</title>
+        <para>(optional) server setup and deployment</para>
+    </section>
+    <section xml:id="lessons">
+        <title>Lessons learned (working title)</title>
+        <para>discussion of encoding choices affecting publication or publication requirements
+            requiring adjustment of the sources </para>
+        <para>TOC, indexing</para>
+        <para>collations</para>
+        <para>language codes</para>
+    </section>
+
+</article>
