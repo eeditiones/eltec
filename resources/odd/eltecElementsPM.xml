@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+This lists in alpha order every element defined by the eltec-1 schema.
+If a PM is supplied for this element in the simpleprint odd, then it is also included here.
+If not, then there's just a comment
+ LB 2020-11-22 
+--> 
+<specGrp xml:id="eltecelementspm">
+ 
+ <elementSpec ident="author" mode="change">
+  <model predicate="ancestor::teiHeader" behaviour="omit"/>
+  <model behaviour="inline"/>
+ </elementSpec>
+ <elementSpec ident="back" mode="change">
+  <model behaviour="block"/>
+ </elementSpec>
+ <!--authorGender -->
+ <!--availability-->
+ <!--back-->
+ <elementSpec ident="bibl" mode="change">
+  <model predicate="parent::listBibl" behaviour="listItem"/>
+  <model behaviour="inline"/>
+ </elementSpec>
+ 
+ <!-- body -->
+ <!--change-->
+ <elementSpec ident="corr" mode="change">
+  <model predicate="parent::choice and count(parent::*/*) gt 1" behaviour="inline">
+   <desc>simple inline, if in parent choice. </desc>
+  </model>
+  <model behaviour="inline">
+   <outputRendition scope="before">content: '[';</outputRendition>
+   <outputRendition scope="after">content: ']';</outputRendition>
+  </model>
+ </elementSpec>
+ 
+ <elementSpec ident="date" mode="change">
+  <model output="print" predicate="text()" behaviour="inline"/>
+  <model output="print" predicate="@when and not(text())" behaviour="inline">
+   <param name="content" value="@when"/>
+  </model>
+  <model output="web" predicate="@when" behaviour="alternate">
+   <param name="default" value="."/>
+   <param name="alternate" value="@when"/>
+  </model>
+  <model predicate="text()" behaviour="inline"/>
+ </elementSpec>
+ <!--distributor-->
+ <elementSpec ident="div" mode="change">
+  <model predicate="@type='title_page'" behaviour="block">
+   <outputRendition>border: 1px solid black; padding: 5px;</outputRendition>
+  </model>
+  <model behaviour="section" predicate="parent::body or parent::front or parent::back"/>
+  <model behaviour="block"/>
+ </elementSpec>
+ 
+ <!-- emph -->
+ <elementSpec ident="encodingDesc" mode="change">
+  <model behaviour="omit"/>
+ </elementSpec>
+ <!-- extent -->
+ <elementSpec ident="fileDesc" mode="change">
+  <model behaviour="title">
+   <param name="content" value="titleStmt"/>
+  </model>
+ </elementSpec>
+ 
+ <elementSpec ident="foreign" mode="change">
+  <model behaviour="inline">
+   <outputRendition>font-style:italic;</outputRendition>
+  </model>
+ </elementSpec>
+ 
+ <elementSpec ident="front" mode="change">
+  <model behaviour="block"/>
+ </elementSpec>
+ 
+ <elementSpec ident="gap" mode="change">
+  <model predicate="@extent" behaviour="inline">
+   <param name="content" value="@extent"/>
+   <outputRendition scope="before">content: '[..';</outputRendition>
+   <outputRendition scope="after">content: '..]';</outputRendition>
+   <outputRendition>color: grey;</outputRendition>
+  </model>
+  <model behaviour="inline">
+   <outputRendition scope="before">content: '[...]';</outputRendition>
+  </model>
+ </elementSpec>
+ 
+ <elementSpec ident="head" mode="change">
+  <model predicate="parent::figure" behaviour="block">
+   <outputRendition>font-style: italic;</outputRendition>
+  </model>
+  <model predicate="parent::table" behaviour="block">
+   <outputRendition>font-style: italic;</outputRendition>
+  </model>
+  <model predicate="parent::lg" behaviour="block">
+   <outputRendition>font-style: italic;</outputRendition>
+  </model>
+  <model predicate="parent::list" behaviour="block">
+   <outputRendition>font-weight: bold;</outputRendition>
+  </model>
+  <model predicate="parent::div" behaviour="heading">
+   <param name="level" value="count(ancestor::div)"/>
+  </model>
+  <model behaviour="block"/>
+ </elementSpec>
+ 
+ <elementSpec ident="hi" mode="change">
+  <model predicate="@rendition" behaviour="inline" useSourceRendition="true">
+   <outputRendition>font-style: italic;</outputRendition>
+  </model>
+  <model predicate="not(@rendition)" behaviour="inline">
+   <outputRendition>font-style: italic;</outputRendition>
+  </model>
+ </elementSpec>
+<!-- idno --> 
+<!-- keywords-->
+ 
+ <elementSpec ident="l" mode="change">
+  <model behaviour="block" useSourceRendition="true">
+   <outputRendition> margin-left: 1em; </outputRendition>
+  </model> 
+ </elementSpec>
+ 
+ <elementSpec ident="label" mode="change">
+  <model behaviour="inline"/>
+ </elementSpec>
+ 
+<!-- langUsage-->
+ <!--language-->
+ <!--licence-->
+ 
+ <elementSpec ident="measure" mode="change">
+  <model behaviour="inline"/>
+ </elementSpec>
+ 
+ <elementSpec ident="milestone" mode="change">
+  <model behaviour="inline"/>
+ </elementSpec>
+ 
+ <elementSpec ident="name" mode="change">
+  <model behaviour="inline"/>
+ </elementSpec>
+ 
+ <elementSpec ident="note" mode="change">
+  <model predicate="@place" behaviour="note">
+   <param name="place" value="@place"/>
+   <param name="label" value="@n"/>
+  </model>
+  <model predicate="parent::div and not(@place)" behaviour="block">
+   <outputRendition>margin-left: 10px;margin-right: 10px;
+    font-size:smaller;</outputRendition>
+  </model>
+  <model predicate="not(@place)" behaviour="inline">
+   <outputRendition scope="before">content:" [";</outputRendition>
+   <outputRendition scope="after">content:"] ";</outputRendition>
+   <outputRendition>font-size:small;</outputRendition>
+  </model>
+ </elementSpec>
+ 
+ <elementSpec ident="p" mode="change">
+  <model behaviour="paragraph" useSourceRendition="true">
+   <outputRendition>text-align: justify;</outputRendition>
+  </model>
+ </elementSpec>
+ 
+ <elementSpec ident="pb" mode="change">
+  <model behaviour="break" useSourceRendition="true">
+   <param name="type" value="'page'"/>
+   <param name="label" value="(concat(if(@n) then concat(@n,' ') else '',if(@facs) then                   concat('@',@facs) else ''))"/>
+   <outputRendition> display: block; margin-left: 4pt; color: grey; float: right; </outputRendition>
+   <outputRendition scope="before">content: '[Page ';</outputRendition>
+   <outputRendition scope="after">content: ']';</outputRendition>
+  </model>
+ </elementSpec>
+ <elementSpec ident="profileDesc" mode="change">
+  <model behaviour="omit"/>
+ </elementSpec>
+ <elementSpec ident="publisher" mode="change">
+  <model predicate="ancestor::teiHeader" behaviour="omit">
+   <desc>Omit if located in teiHeader. </desc>
+  </model>
+ </elementSpec>
+ 
+ <elementSpec ident="pubPlace" mode="change">
+  <model predicate="ancestor::teiHeader" behaviour="omit">
+   <desc>Omit if located in teiHeader. </desc>
+  </model>
+ </elementSpec>
+ <!--publicationStmt -->
+ <elementSpec ident="quote" mode="change">
+  <model predicate="ancestor::p" behaviour="inline" useSourceRendition="true">
+   <desc>If it is inside a paragraph then it is inline, otherwise it is block
+    level</desc>
+   <outputRendition scope="before">content: '‘';</outputRendition>
+   <outputRendition scope="after">content: '’';</outputRendition>
+  </model>
+  <model behaviour="block" useSourceRendition="true">
+   <desc>If it is inside a paragraph then it is inline, otherwise it is block
+    level</desc>
+   <outputRendition>margin-left: 10px; margin-right: 10px; </outputRendition>
+  </model>
+ </elementSpec> 
+ 
+<elementSpec ident="ref" mode="change">
+  <model behaviour="inline" predicate="not(@target)"/>
+  <model predicate="not(text())" behaviour="link">
+   <param name="content" value="@target"/>
+   <param name="uri" value="@target"/>
+  </model>
+  <model behaviour="link">
+   <param name="uri" value="@target"/>
+  </model>
+ </elementSpec>
+ 
+<!--reprintCount-->
+ <!--resp-->
+ <!--respStmt-->
+ <elementSpec ident="revisionDesc" mode="change">
+  <model behaviour="omit"/>
+ </elementSpec>
+ <!--size-->
+ <!-- sourceDesc -->
+ <elementSpec ident="teiHeader" mode="change">  
+  <model behaviour="metadata"/>
+ </elementSpec>
+ <elementSpec ident="TEI" mode="change">
+  <model behaviour="document"/>
+ </elementSpec>
+<!-- term-->
+ <!--text-->
+ <!--textClass-->
+ <!--textDesc-->
+<!-- timeSlot-->
+ <elementSpec ident="title" mode="change">
+  <modelSequence predicate="parent::titleStmt/parent::fileDesc">
+   <model predicate="preceding-sibling::title" behaviour="text">
+    <param name="content" value="' — '"/>
+   </model>
+   <model behaviour="inline">
+    <outputRendition>color: red; font-size: 2em;</outputRendition>
+   </model>
+  </modelSequence>
+  <model predicate="not(@level) and parent::bibl" behaviour="inline"/>
+  <modelSequence predicate="@level='m' or not(@level)">
+   <model behaviour="inline">
+    <outputRendition>font-style: italic;</outputRendition>
+   </model>
+   <model predicate="ancestor::biblFull" behaviour="text">
+    <param name="content" value="', '"/>
+   </model>
+  </modelSequence>
+  <modelSequence predicate="@level='s' or @level='j'">
+   <model behaviour="inline">
+    <outputRendition>font-style: italic;</outputRendition>
+   </model>
+   <model predicate="following-sibling::* and     (  ancestor::biblFull)" behaviour="text">
+    <param name="content" value="', '"/>
+   </model>
+  </modelSequence>
+  <modelSequence predicate="@level='u' or @level='a'">
+   <model behaviour="inline">
+    <outputRendition>font-style: italic;</outputRendition>
+   </model>
+   <model predicate="following-sibling::* and     (    ancestor::biblFull)" behaviour="text">
+    <param name="content" value="'. '"/>
+   </model>
+  </modelSequence>
+  <model behaviour="inline">
+   <outputRendition>font-style: italic;</outputRendition>
+  </model>
+ </elementSpec>
+<!--titleStmt-->
+ <elementSpec ident="trailer" mode="change">
+  <model behaviour="block">
+   <outputRendition>color: green;</outputRendition>
+  </model>
+ </elementSpec>
+</specGrp>
+ 
