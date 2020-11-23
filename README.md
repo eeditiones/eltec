@@ -6,4 +6,4 @@ Beyond the direct purpose of presenting the ELTeC corpus texts, the application 
 
 This application is released under GNU General Public License v3.0.
 
-**ELTeC** *European Literary Text Collection*, version 0.5.0, November 2019, edited by Carolin Odebrecht, Lou Burnard and Christof Schöch. COST Action Distant Reading for European Literary History (CA16204). [DOI:doi.org/10.5281/zenodo.3462436](doi.org/10.5281/zenodo.3462436).
+**ELTeC** *European Literary Text Collection*, version 0.5.0, November 2019, edited by Carolin Odebrecht, Lou Burnard and Christof Schöch. COST Action Distant Reading for European Literary History (CA16204). [DOI:doi.org/10.5281/zenodo.3462436](https://doi.org/10.5281/zenodo.3462436).
