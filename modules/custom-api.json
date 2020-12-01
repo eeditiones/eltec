@@ -25,6 +25,65 @@
         }
     },
     "paths": {
+        "/api/search/document": {
+            "get": {
+                "summary": "Retrieve documents matching search criteria",
+                "tags": [
+                    "search"
+                ],
+                "operationId": "qapi:query-document",
+                "parameters": [
+                    {
+                        "name": "query",
+                            "in": "query",
+                            "description": "Query string",
+                            "schema": {
+                                "type": "string",
+                                "default": "este"
+                            }
+                    },
+                    {
+                        "name": "author",
+                            "in": "query",
+                            "description": "Author",
+                            "schema": {
+                                "type": "string",
+                                "default": "ioan"
+                            }
+                    },
+                    {
+                        "name": "title",
+                            "in": "query",
+                            "description": "Title",
+                            "schema": {
+                                "type": "string",
+                                "default": "mara"
+                            }
+                    },
+                    {
+                        "name": "language",
+                            "in": "query",
+                            "description": "Language",
+                            "schema": {
+                                "type": "string",
+                                "default": "ro"
+                            }
+                    }
+                ],
+                "responses": {
+                    "200":{
+                        "description": "Version information about this service",
+                        "content": {
+                            "application/json":{
+                                "schema":{
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
         "/api/document/{id}/frequency": {
             "get": {
                 "summary": "Retrieve frequency list for a document",
