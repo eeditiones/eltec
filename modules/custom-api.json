@@ -38,8 +38,20 @@
                             "in": "query",
                             "description": "Query string",
                             "schema": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "example": "este"
+                    },
+                    {
+                        "name": "query-operator",
+                            "in": "query",
+                            "description": "Logical conjunction for text queries",
+                            "schema": {
                                 "type": "string",
-                                "default": "este"
+                                "default": "or"
                             }
                     },
                     {
@@ -47,17 +59,42 @@
                             "in": "query",
                             "description": "Author",
                             "schema": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "example": "z*"
+                    },
+                    {
+                        "name": "author-operator",
+                            "in": "query",
+                            "description": "Logical conjunction for author queries",
+                            "schema": {
                                 "type": "string",
-                                "default": "ioan"
+                                "default": "or"
                             }
                     },
+
                     {
                         "name": "title",
                             "in": "query",
                             "description": "Title",
                             "schema": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "example": "rom*"
+                    },
+                    {
+                        "name": "title-operator",
+                            "in": "query",
+                            "description": "Logical conjunction for title queries",
+                            "schema": {
                                 "type": "string",
-                                "default": "mara"
+                                "default": "or"
                             }
                     },
                     {
@@ -65,8 +102,20 @@
                             "in": "query",
                             "description": "Language",
                             "schema": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "example": "ro"
+                    },
+                    {
+                        "name": "title-operator",
+                            "in": "query",
+                            "description": "Logical conjunction for title queries",
+                            "schema": {
                                 "type": "string",
-                                "default": "ro"
+                                "default": "or"
                             }
                     }
                 ],

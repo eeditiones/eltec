@@ -214,15 +214,20 @@ declare function teis:query-document($request as map(*)) {
             if ($text-query) then $text-query else ()
             ,
             for $f in $fields
-                let $q := xmldb:decode($request?parameters($f))
+                let $q := 
+                    for $p in $request?parameters($f) 
+                        let $query := xmldb:decode($p)
+                        return if ($query) then $query else ()
 
                 return
-                     $f || ':(' || $q || ')'
+                     if (count($q)) then $f || ':(' || string-join($q, teis:conjunction($request?parameters($f || '-operator'))) || ')' else ()
         )
 
     let $query := string-join($constraints, ' AND ')
 
     return 
+
+        (map { "query": $query},
         for $rootCol in $config:data-root
         for $doc in collection($rootCol)//tei:text[ft:query(., $query, teis:query-options($fields))]
 
@@ -235,4 +240,15 @@ declare function teis:query-document($request as map(*)) {
                 map { "filename": util:document-name($doc)},
                 $flds         
             ))
+        
+        )
+
+};
+
+declare function teis:conjunction($operator) {
+    switch ($operator) 
+        case "and"
+            return ' AND '
+        default
+            return ' OR '
 };
