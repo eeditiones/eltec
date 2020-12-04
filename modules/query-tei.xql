@@ -204,6 +204,10 @@ declare function teis:query-options($sort) {
 };
 
 declare function teis:query-document($request as map(*)) {
+    let $root := if (ends-with($config:data-root, "/")) then
+        $config:data-root
+    else
+        $config:data-root || "/"
 
     let $text-query := xmldb:decode($request?parameters?query)
 
@@ -227,7 +231,6 @@ declare function teis:query-document($request as map(*)) {
 
     return 
 
-        (map { "query": $query},
         for $rootCol in $config:data-root
         for $doc in collection($rootCol)//tei:text[ft:query(., $query, teis:query-options($fields))]
 
@@ -237,11 +240,9 @@ declare function teis:query-document($request as map(*)) {
         return
         
             map:merge((
-                map { "filename": util:document-name($doc)},
+                map { "filename": substring-after(document-uri(root($doc)), $root), "app": "eltec"},
                 $flds         
             ))
-        
-        )
 
 };
 
