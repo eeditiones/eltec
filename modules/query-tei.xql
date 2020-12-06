@@ -212,6 +212,7 @@ declare function teis:query-document($request as map(*)) {
     let $text-query := xmldb:decode($request?parameters?query)
 
     let $fields := ("author", "title", "language")
+    let $dimensions := ("language")
 
     let $constraints := 
         (
@@ -244,19 +245,30 @@ declare function teis:query-document($request as map(*)) {
             session:set-attribute($config:session-prefix || ".language", $request?parameters?language)
         )
 
+    let $facets:=  
+        for $d in $dimensions
+        return
+            map {$d: ft:facets($hits, $d, 50)}
+
+
+    let $data := 
+        for $doc in $hits
+            let $flds :=  
+                for $f in $fields return
+                    map:entry($f, ft:field($doc, $f)) 
+            return
+                map:merge((
+                    map { "filename": substring-after(document-uri(root($doc)), $root),
+                        "app": "eltec"},
+                    $flds         
+                ))
+
     return 
 
-    for $doc in $hits
-        let $flds :=  
-            for $f in $fields return
-                map:entry($f, ft:field($doc, $f)) 
-        return
-        
-            map:merge((
-                map { "filename": substring-after(document-uri(root($doc)), $root),
-                      "app": "eltec"},
-                $flds         
-            ))
+    map {
+        "facets": $facets,
+        "data":  if (count($data) > 1 ) then $data else [$data]
+    }
 
 };
 
