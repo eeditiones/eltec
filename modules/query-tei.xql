@@ -229,18 +229,32 @@ declare function teis:query-document($request as map(*)) {
 
     let $query := string-join($constraints, ' AND ')
 
+    (: Find matches :)
+    let $hits :=
+        for $rootCol in $config:data-root
+        return collection($rootCol)//tei:text[ft:query(., $query, teis:query-options($fields))]
+    
+    (: Store results in the session, so the facets etc can be retrieved :)
+    let $store := (
+            session:set-attribute($config:session-prefix || ".hits", $hits),
+            session:set-attribute($config:session-prefix || ".hitCount", count($hits)),
+            session:set-attribute($config:session-prefix || ".query", $request?parameters?query),
+            session:set-attribute($config:session-prefix || ".title", $request?parameters?title),
+            session:set-attribute($config:session-prefix || ".author", $request?parameters?author),
+            session:set-attribute($config:session-prefix || ".language", $request?parameters?language)
+        )
+
     return 
 
-        for $rootCol in $config:data-root
-        for $doc in collection($rootCol)//tei:text[ft:query(., $query, teis:query-options($fields))]
-
+    for $doc in $hits
         let $flds :=  
             for $f in $fields return
                 map:entry($f, ft:field($doc, $f)) 
         return
         
             map:merge((
-                map { "filename": substring-after(document-uri(root($doc)), $root), "app": "eltec"},
+                map { "filename": substring-after(document-uri(root($doc)), $root),
+                      "app": "eltec"},
                 $flds         
             ))
 
