@@ -49,10 +49,10 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $header//tei:fileDesc/tei:editionStmt/tei:edition/tei:date,
                 $header//tei:publicationStmt/tei:date
             ))
-            case "genre" return (
-                idx:get-genre($header),
-                $root/dbk:info/dbk:keywordset[@vocab="#genre"]/dbk:keyword
-            )
+            case "genre" return 
+                'novel'
+            case "corpus" return 
+                'eltec'
             default return
                 ()
 };
