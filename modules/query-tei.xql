@@ -215,32 +215,44 @@ declare function teis:query-document($request as map(*)) {
     else
         $config:data-root || "/"
 
-    
     let $text-query := xmldb:decode($request?parameters?query)
 
-    let $fields := ("author", "title", "language")
-    let $dimensions := ("language", "genre")
 
     let $facet-query:= map:merge((
-                    for $dimension in $dimensions
-                    return
-                        map {
-                            $dimension: $request?parameters('facet-'||$dimension)
-                        }
-                ))
+        for $dimension in map:keys($config:cross-search-facets)
+            return
+                (: only add the dimensions with specified criteria :)
+                if ($request?parameters('facet-'||$dimension)) then
+                    map {
+                        (: map query parameters to local facet dimensions :)
+                        $config:cross-search-facets($dimension): $request?parameters('facet-'||$dimension)
+                    }
+                else
+                    ()
+        ))
+
+    let $fields := 
+            for $f in map:keys($config:cross-search-fields)
+            return 
+                $config:cross-search-fields($f)
+
 
     let $constraints := 
         (
             if ($text-query) then $text-query else ()
             ,
-            for $f in $fields
+            for $f in map:keys($config:cross-search-fields)
                 let $q := 
                     for $p in $request?parameters($f) 
                         let $query := xmldb:decode($p)
                         return if ($query) then $query else ()
 
                 return
-                     if (count($q)) then $f || ':(' || string-join($q, teis:conjunction($request?parameters($f || '-operator'))) || ')' else ()
+                    if (count($q)) then 
+                        $config:cross-search-fields($f) || ':(' || 
+                        string-join($q, teis:conjunction($request?parameters($f || '-operator'))) || ')' 
+                    else 
+                        ()
         )
 
     let $query := string-join($constraints, ' AND ')
@@ -250,18 +262,18 @@ declare function teis:query-document($request as map(*)) {
         for $rootCol in $config:data-root
         return collection($rootCol)//tei:text[ft:query(., $query, teis:query-options($fields, $facet-query))]
     
-    let $facets:=  
+    let $facets:= 
         map:merge(
-            for $d in $dimensions
+            for $dimension in map:keys($config:cross-search-facets)
             return
-                map {$d: ft:facets($hits, $d, 50)}
+                map { $dimension: ft:facets($hits, $config:cross-search-facets($dimension), 50)}
         )
 
     let $data := 
         for $doc in $hits
             let $flds :=  
-                for $f in $fields return
-                    map:entry($f, ft:field($doc, $f)) 
+                for $f in map:keys($config:cross-search-fields) return
+                    map:entry($f, ft:field($doc, $config:cross-search-fields($f))) 
             return
                 map:merge((
                     map { "filename": substring-after(document-uri(root($doc)), $root),
@@ -270,12 +282,11 @@ declare function teis:query-document($request as map(*)) {
                 ))
 
     return 
-
+(: ($query , $facet-query) :)
     map {
         "facets": $facets,
         "data":  if (count($data) > 1 ) then $data else [$data]
     }
-
 };
 
 declare function teis:conjunction($operator) {

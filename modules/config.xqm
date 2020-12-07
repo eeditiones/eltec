@@ -91,6 +91,19 @@ declare variable $config:pagination-depth := 10;
  :)
 declare variable $config:pagination-fill := 5;
 
+(: Define mapping between cross-search and local facet and field names :)
+declare variable $config:cross-search-facets := 
+    map {
+            "genre": "genre", 
+            "language": "language",
+            "corpus": "corpus"      
+    };
+declare variable $config:cross-search-fields := 
+    map {
+        "language": "language", 
+        "author":"author", 
+        "title":"title"
+    };
 (:
  : Display configuration for facets to be shown in the sidebar. The facets themselves
  : are configured in the index configuration, collection.xconf.

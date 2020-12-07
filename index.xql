@@ -50,9 +50,9 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $header//tei:publicationStmt/tei:date
             ))
             case "genre" return 
-                'novel'
+                'Novel'
             case "corpus" return 
-                'eltec'
+                'ELTeC'
             default return
                 ()
 };
