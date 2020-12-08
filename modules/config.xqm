@@ -100,7 +100,7 @@ declare variable $config:cross-search-facets :=
     };
 declare variable $config:cross-search-fields := 
     map {
-        "language": "language", 
+        "lang": "language", 
         "author":"author", 
         "title":"title"
     };

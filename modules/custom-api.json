@@ -94,7 +94,7 @@
                             }
                     },
                     {
-                        "name": "language",
+                        "name": "lang",
                             "in": "query",
                             "description": "Language",
                             "schema": {
@@ -105,7 +105,7 @@
                             }
                     },
                     {
-                        "name": "language-operator",
+                        "name": "lang-operator",
                             "in": "query",
                             "description": "Logical conjunction for language queries",
                             "schema": {
