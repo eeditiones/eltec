@@ -26,7 +26,7 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
  : If a version is given, the components will be loaded from a public CDN.
  : This is recommended unless you develop your own components.
  :)
-declare variable $config:webcomponents :="1.7.0";
+declare variable $config:webcomponents :="1.12.0";
 
 (:~
  : CDN URL to use for loading webcomponents. Could be changed if you created your
@@ -112,7 +112,7 @@ declare variable $config:facets := [
         map {
         "dimension": "language",
         "heading": "facets.language",
-        "max": 15,
+        "max": 5,
         "hierarchical": false(),
         "output": function($label) {
             switch($label)
@@ -122,23 +122,16 @@ declare variable $config:facets := [
                 case "fr" return "French"
                 case "en" return "English"
                 case "pt" return "Portuguese"
+                case "pl" return "Polish"
                 case "sl" return "Slovenian"
                 case "ro" return "Romanian"
                 case "hu" return "Hungarian"
 
                 (: erroneous but used in ELTec:)
                     case "SPA" return "Spanish"
-                    case "ENG" return "English"
                     
                 default return $label
         }
-    },
-
-    map {
-        "dimension": "genre",
-        "heading": "facets.genre",
-        "max": 5,
-        "hierarchical": true()
     },
     map {
         "dimension": "period",

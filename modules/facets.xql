@@ -88,12 +88,26 @@ declare function facets:print-table($config as map(*), $nodes as element()+, $va
 declare function facets:display($config as map(*), $nodes as element()+) {
     let $params := request:get-parameter("facet-" || $config?dimension, ())
     let $table := facets:print-table($config, $nodes, (), $params)
+
+    let $maxcount := 50
+    (: maximum number shown :)
+    let $max := head(($config?max, 50))
+
+    (: facet count for current values selected :)
+    let $fcount :=
+    map:size(
+     if ($params) then
+            ft:facets($nodes, $config?dimension, $maxcount, $params)
+        else
+            ft:facets($nodes, $config?dimension, $maxcount)
+    )
+
     where $table
     return
         <div>
             <h3><pb-i18n key="{$config?heading}">{$config?heading}</pb-i18n>
             {
-                if (exists($config?max)) then
+                if ($fcount > $max) then
                     <paper-checkbox class="facet" name="all-{$config?dimension}">
                         { if (request:get-parameter("all-" || $config?dimension, ())) then attribute checked { "checked" } else () }
                         <pb-i18n key="facets.show">Show top 50</pb-i18n>
