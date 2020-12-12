@@ -112,7 +112,7 @@ declare variable $config:facets := [
         map {
         "dimension": "language",
         "heading": "facets.language",
-        "max": 5,
+        "max": 15,
         "hierarchical": false(),
         "output": function($label) {
             switch($label)
