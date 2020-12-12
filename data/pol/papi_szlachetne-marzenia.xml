@@ -1,0 +1,777 @@
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0059">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Szlachetne marzenia : ELTeC edition</title>
+<author ref="http://viaf.org/viaf/14351639">Papi, Jadwiga (1843-1906)</author>
+</titleStmt>
+<extent>
+<measure unit="words">21192</measure>
+</extent>
+<publicationStmt>
+<p>Published as part of ELTeC <date>2019-06-09</date></p>
+</publicationStmt>
+<sourceDesc>
+<bibl type="digitalSource">
+<title>Szlachetne marzenia</title>
+<ref>https://polona.pl/item/szlachetne-marzenia-stacho-pozny-zal-krolowa-lilij-giovano-monti,OTU2MDI4NzQ/6/#info:metadata</ref>
+</bibl>
+<bibl type="printSource">
+<title>Szlachetne marzenia</title>
+<author>Papi, Jadwiga</author>
+<publisher>Warszawa: Sennewald</publisher>
+<date>1883</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc n="eltec-1">
+<p></p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="pl">Polish</language>
+</langUsage>
+<textDesc>
+<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
+<size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+<reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
+</textDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2020-04-07">JR convert to ELTeC-1</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div type="titlepage">
+<p>Teresa Jadwiga</p>
+<p>SZLACHETNE MARZENIA.</p>
+</div>
+</front>
+<body>
+<div type="chapter"><head>I.</head>
+<p>Była to godzina druga w nocy, po nierównej drodze, wiodącej do Gdowa, jechała kareta pocztowa, zwana zwykle kuryerką; na niebie świecił blady księżyc i gwiazdy migotały, w powietrzu zupełna cisza panowała, wszystko zdawało się być uśpione. Kareta wlokła się zwolna, bo zmęczone konie zwiesiwszy łby postępowały leniwie, pocztylion drzymał, a podróżni spali, nie wszyscy wszakże.</p>
+<p>Pomiędzy siedzącymi w powozie, widać było trzynastoletnią dziewczynkę, czarno ubraną, o drobnej, bladej twarzyczce i dużych, ciemnych oczach; ta jasną swą główkę co chwila wychylała przez okno karety i wzrok niespokojny ciekawie w dal posyłała, chociaż w dali nic ciekawego widać nie było. Za i przed jadącymi z prawej i lewej strony ciągnęły tylko pola i łąki, z prawej za łąkami siniały wyniosłe łańcuchy Karpat, z lewej ciemniał las długi na milę. Kareta wlokła się zwolna po szosie, tym – czasem na niebie gwiazdy poczęły blednąc pomału, księżyc coraz słabiej świecił, aż powoli znikł zupełnie; wtem od wschodu na niebie pokazały się różowe smugi, jutrznia zaświtała… Pocztylion zbudzony, klasnął z bicza i zagrał na trąbce, ten i ów podróżny począł przecierać oczy, a dziewczynka wychyliwszy się przez okno, zapytała pocztyliona:</p>
+<p>– Czy daleko do Gdowa?</p>
+<p>– Pół mili – odparł zapytany.</p>
+<p>– Pół mili tylko – szepnęła do siebie i rzuciwszy się wgłąb powozu, westchnęła.</p>
+<p>W pół godziny potem zarysowały się mury miasta.</p>
+<p>– Gdów! Gdów! – zawołali podróżni. Dziewczynka podniosła się żywo i wychyliła przez okno. Niewielka przestrzeń, pół wiorsty najwyżej, dzieliła od miasta; już było widać bielone dworki jego przedmieścia, murowane kamienice i wieżyce kościoła. Nad temi zabudowaniami w górze rozpostarte było szare sklepienie, a na niem w jednym tylko punkcie świeciła krwawa czerwona kula wschodzącego słońca, które w purpurę odziane przychodziło panować ziemi. Niebawem widok ów znikł, zaturkotały koła po bruku miejskim, wjechano na rynek; kareta pocztowa zatrzymała się przed domem zajezdnym: pocztylion otworzył drzwiczki i podróżni wysypali się na ulicę, kazawszy posługaczom hotelowym zabierać ich kufry i tłomoczki.</p>
+<p>Czarno ubrana dziewczynka wysiadła także, lecz ona miała tylko mały tłomoczek przy sobie, który udźwignąć była w stanie, więc nie zawołała na posługacza. Wysiadłszy, obejrzała się niespokojnie w około, widocznem było, iż nie wie w którą zwrócić się stronę. Podróżni, jedni podążyli pieszo w ulicę miasta, inni weszli do domu zajezdnego, inni jeszcze, wskoczywszy na bryczki, których kilka czekało na rynku, znikli niebawem w tumanach kurzawy, kareta pocztowa powlokła się dalej i dziewczynka została sama; trzymając w ręku tłomoczek, smutnie rozglądała się w około, miała minę bardzo zakłopotaną. Wtem w drzwiach domu zajezdnego ukazała się średnich lat kobieta w kwiecistej sukni.</p>
+<p>– Czy nie ma tutaj kogo do Tworek? – zapytała.</p>
+<p>– Do Tworek – powtórzyła dziewczynka – ja właśnie mam tam jechać – i podeszła ku stojącej we drzwiach. Ta uśmiechnęła się przyjaźnie.</p>
+<p>– To proszę za mną – rzekła – powóz tam czeka niedaleko – i odebrawszy z rąk podróżnej tłomoczek, zapytała:</p>
+<p>– A gdzie więcej rzeczy?</p>
+<p>– Nie mam więcej – odparła dziewczynka. Kobieta spojrzała jakby z politowaniem, lecz nic nie powiedziała.</p>
+<p>Minąwszy sień, znalazły się niebawem z drugiej strony domu zajezdnego; tam czekał powóz w cztery konie zaprzęgnięty. Przywoławszy woź – nicę kobieta w kwiecistej sukni, oddała mu tłomoczek, poczem zwróciła się do małej towarzyszki.</p>
+<p>– Pojedziemy zapewne zaraz – rzekła tonem pytania.</p>
+<p>– Dobrze – odparła dziewczynka, i wsiadły obie.</p>
+<p>– Czy daleko ztąd do Tworek? – zapytała, gdy konie z miejsca ruszyły.</p>
+<p>– Za dwie godziny będziemy na miejscu – odpowiedziała. Czy panienka pierwszy raz tam jedzie – zapytała następnie starsza z jadących.</p>
+<p>– Tak jest, pani, pierwszy raz.</p>
+<p>– Pan Ludwik Konarski jest wujem panienki, bratem rodzonym jej matki, wszak prawda?</p>
+<p>Dziewczynka skinęła głową potwierdzająco.</p>
+<p>– Zacny człowiek, bardzo zacny, a żona jego to istota rzadka; drugiej podobnej chyba niema na ziemi. Słodka, łagodna, grzeczna; już piąty rok jestem gospodynią w Tworkach, a złego słowa jeszcze nie słyszałam… Bo też co prawda, że pani Maryanna Walicka, tak się nazywam, umie pełnić swoje obowiązki i stara się niczem nie zasłużyć na naganę.</p>
+<p>Pochwała ta wywołała mimowolny uśmiech na usta dziewczęcia, lecz pani Maryanna nie spostrzegła go i dalej ciągnęła:</p>
+<p>– W Tworkach każdemu dobrze jak w niebie, i panience źle też nie będzie. Nasze dzieci istne aniołki, nikomu najmniejszej przykrości nigdy nie uczynią, a przyjazdu panienki wyczekują niecierpliwie. "Walisiu, droga, złota" powiedziała mi wczoraj Zosieczka, "przywieź tylko prędko Anielcię i powiedz jej od nas, że chociaż nie znamy jej jeszcze, już kochamy ją z całej duszy. " Moja śliczna Zosieczka, jakże ja ją kocham, jak własną córkę, a może i więcej: doprawdy sama nie wiem.</p>
+<p>Anielcia słuchała z zajęciem gadatliwej kobiety i smutna jej twarzyczka uśmiechnęła się nawet kilkakrotnie, lecz kiedy pani Maryanna zaczęła następnie mówić o sobie, o swojem całem gospodarstwie: kurach, kurczątkach, kaczkach, a wychwalać je, unosić się nad niemi mimowoli, choć nie chciała tego zrobić, zdrzymnęła się nieco. Widząc ją uśpioną, pani Maryanna za jej przykładem przymknęła tez oczy i niebawem chrapać zaczęła; to zbudziło dziewczynkę, otworzyła oczy, spojrzała wokoło, słońce rozprószyło właśnie szarą osłonę rozpostartą w górze, błysnęły jasne błękity, wszystko zdawało się do nich uśmiechać. Nigdy jeszcze nie widziała tak pięknego obrazu. Powóz właśnie wtoczył się w las. Oblany złotemi promieniami słońca, ustrojony brylantowemi kroplami rosy, las świecił i migotał cały. Zbudzone ptaszęta świergotały wesoło, powietrze było pełne woni aromatycznej; wśród zieleni mchu bieliły się dzwonki konwalii, kraśniały purpurowe gwoździki, a niżej od nich rumieniły się poziomki. Anielce aż weselej zrobiło się na sercu, rada była, iż gadatliwa towarzyszka śpi, że jej nie przeszkadza podziwiać pięknej natury. Myśl jej uleciała w wyższe krainy, do Tego, który stworzył tyle cudów i z serca jej popłynęła modlitwa gorąca, rzewna, niewinna, jak niewinnemi były kwiaty, na które patrzała.</p>
+<p>– Boże daj, abym potrafiła zaskarbić sobie serca tych, pod których dachem będę teraz mieszkać – szepnęła podniósłszy załzawione oczęta w niebo – daj, abym mogła stać się kiedyś podporą mej matki, opiekunką siostry i braci.</p>
+<p>Anielka Liwska, takie było imię i nazwisko naszej podróżnej, miała jeszcze matkę i rodzeństwo, maleńką siostrzyczkę Wandzię i dwóch braci, młodszego o rok od siebie Karola i Wicusia liczącego dopiero cztery lata. Kochała ich wszystkich i była nawzajem kochaną; ale musiała rozstać się z rodzeństwem, bo pani Liwska nie była w stanie łożyć na jej naukę. Jechała teraz do wuja, aby razem z jego dziećmi pobierać wychowanie; dom wszakże, do którego dążyła, lubo tak blizko spokrewniony z jej matką, dla niej był zupełnie obcy. To też z wyraźnym niepokojem w twarzy wychylała się co chwila z powozu i patrzyła w stronę Tworek, jakgdyby sądziła, że te drzewa, pola i łąki, które mijała, powiedzą jej coś o jej mieszkańcach.</p>
+<p>Z dziecinnych wspomnień utkwiło w jej pamięci bardzo wyraźnie wspomnienie Dolińca, rozległej majętności niegdyś jej rodziców. Wszystko tam było piękne, wytworne, dwór piętrowy, salony obszerne, ogród starannie urządzony; na wzór więc owego Dolińca i w Tworkach w bujnej swej wyobraźni wybudowała dwupiętrowy pałac, a ogród ustroiła w kamelje i cyprysy, oraz inne rośliny oranżeryjne. Nic w nim nie brakło, nawet posągów, nawet strzyżonych szpalerów. Tymczasem las począł powoli rzednąć, ukazały się pola, za niemi zabieliły mury jakiegoś domostwa. Pani Maryanna obudziła się. – Otóż i Tworki! – zawołała – najdalej za kwadrans będziemy na miejscu.</p>
+<p>Jakoż w istocie powóz zatrzymał się wkrótce przed dworem wsi Tworki. Inaczej wyglądał on wszakże niżeli w wyobraźni dziewczęcia: parterowy z drzewa modrzewiowego miał okna niewielkie, drzwi nizkie, werendę dzikiem winem oplecioną.</p>
+<p>"Jak mi też tutaj będzie?" pomyślała Anielka, przypatrując się ciekawie domowi.</p>
+<p>Wtem z sieni naprzeciw przybyłych wybiegł chłopak w szarym kubraczku, w butach wysokich, za nim dwa brytany. Chłopak podskoczył do powozu, brytany przybiegły do wysiadających; jeden oparł wielkie swe łapy na ramionach pani Maryanny, drugi kręcił się koło Anielki i łeb swój kudłaty o jej suknię ocierał, jak gdyby prosił o pieszczoty. Serdeczne to przyjęcie rozjaśniło smutne oczy dziewczęcia, wyciągnęła rączkę do brytana i kudłatą jego sierć pogłaskała, a on zaszczekał radośnie. Szczekanie psa wywołało nową postać przed dom. Pod werendą ukazał się mężczyzna okazalej postawy; twarz jego ogorzała miała wyraz poczciwy, włos miał nieco przyprószony siwizną, na sobie lekki kitel płócienny i chustkę na szyi luźno zawiązaną.</p>
+<p>– Anielka! – zawołał wesoło – witaj mi dziewczyno. Chodź do mnie, niech cię uściskam; Jakżeś wyrosła, a toż panna już prawie z ciebie.</p>
+<p>Anielka podbiegła do wuja, on objął ją ramieniem i pocałował w czoło.</p>
+<p>– Już od godziny czekamy na ciebie – mówił dalej – chodź do ogrodu, siedzimy właśnie wszyscy przy śniadaniu… Lecz cóż tam u was słychać? mama, bracia, Wandziulka czy zdrowi?</p>
+<p>– Wszyscy zdrowi – odparła Anielka – mam parę słówek od mamy do wuja. To powiedziawszy sięgnęła do kieszeni, wyjęła list i podała go panu Konarskiemu.</p>
+<p>– Przeczytam mimoto po śniadaniu – rzekł, i ująwszy dziewczynkę pod rękę, poprowadził ją przez pokoje do ogrodu. Tam pod wielką, rozłożystą lipą, przed stołem białym obrusem zasłanym, siedziało kilka osób: dwie panienki, jedna prawie już dorosła, druga młodsza lat parę i dwie starsze kobiety, z których jedna była panią domu, druga nauczycielką. Na widok przybywających, panienki porwały się z krzeseł.</p>
+<p>– Anielka! Anielka! – rozległo się radosne wołanie i dziewczynka ujrzała się naraz otoczoną Wszyscy pośpieszyli ją powitać; wujenka złożyła na jej czole pocałunek macierzyński, dziewczęta zawisły jej na szyi, nauczycielka dłoń przyjazną podała.</p>
+<p>Wzruszona tem przyjęciem, słowa wymówić nie mogła, tylko na pocałunki pocałunkami odpowiadała. Nareszcie pan Konarski wezwał do porządku:</p>
+<p>– Siadajmy napowrót do stołu – rzekł – na całusy będzie jeszcze czas; teraz matka podróżną nakarmi, a Zosia przeczyta nam list przywieziony przez Anielkę.</p>
+<p>Na to wezwanie wszyscy powrócili do stołu, pani Konarska postawiła przed Anielką szklankę kawy, a Zosia, panienka już piętnastoletnia, smagła szatynka o jasnych błękitnych oczach, czytać głośno zaczęła:</p>
+<p>"Bracie mój najdroższy! – pisała pani Liwska – opiece twojej skarb mój oddaję, twojemu sercu dziecię me ukochane powierzam… bądź dla niej ojcem, którego już nie ma na ziemi, bądźcie wy wszyscy dla niej rodziną, którą pożegnać musiała… Ile cierpiałam, rozstając się z nią, tego pisać nie będę; dla jej dobra trzeba było wszakże spełnić tę ofiarę. To też nie narzekam, wdzięczną ci jestem tylko, bracie, za to co chcesz uczynić dla mych biednych dzieci. Anielka moja, mam nadzieję, potrafi pozyskać sobie wasze serca i sercem odpłacić wam nawzajem; w Bogu tez ufam, że lubo oddalona, nie zapomni o mnie, że chociaż pod innym wychowa się dachem, mnie i rodzeństwo moje zawsze kochać będzie, że za tę ofiarę, którą dziś dla niej czynię, miłością równą kiedyś mi odpłaci. "</p>
+<p>Zosia przerwała czytanie, gdyż łzy stłumiły jej mowę: wszyscy byli wzruszeni.</p>
+<p>Pani Liwska donosiła bratu w dalszym ciągu o sobie i dzieciach, co wszyscy porabiają, jakie ma projekty co do ich przyszłości.</p>
+<p>Po śniadaniu wuj oddalił się w pole, gdzie rżnięto właśnie żyto.</p>
+<p>– Najlepiej ci będzie, Anielko – odezwała się pani Konarska do siostrzenicy – gdy zaraz pierwszego dnia poznasz zwyczaje naszego domu. Pójdziesz zatem z dziećmi i panną Natalią do szkoły.</p>
+<p>Anielka ucałowała rękę wujenki a Marynia młodsza z kuzynek podała jej ramię.</p>
+<p>– Teraz godzina lekcyi botaniki – rzekła panna Natalia – odbywamy ją zwykle w ogrodzie, chodźmy tam zatem.</p>
+<p>Obszerny kawał ziemi zajmował ogród w Tworkach; jedna tylko aleja była w nim cienistą, olbrzymie lipy poplątane w górze konarami, tworzyły w niej szpaler prześliczny. Reszta ogrodu pociętą była na równe zagony, na jednych widać było jarzyny, na innych kwiaty, z każdego kawałka ziemi umiano tu korzystać. Na trawnikach rosły grusze i czereśnie, gałęzie drzew aż uginały się pod ciężarem owoców: Anielka rozglądała się ciekawie wokoło.</p>
+<p>– Dziwi cię pewno, że kląbów i trawników u nas niema – rzekła starsza jasnooka Zosia – lecz rodzice utrzymują, że ponieważ Tworki posiadłość niewielka, powinniśmy przeto wszyscy pracować i starać się przysparzać coś do ogólnego dochodu. Każde z nas ma tu swoją część, którą wyłącznie się zajmuje. Marynia hoduje brzoskwinie, ja objęłam w tym roku winnicę, mama jarzyn dogląda i ty pewno dostaniesz swoją cząstkę. Co piątek, stary Szymon ogrodnik tutejszy, który nam w pracy pomaga, zawozi jarzyny, a pieniądze, jakie za nie przywozi, oddaje nam ojciec na nasze osobiste wydatki.</p>
+<p>Zwiedziwszy wszystkie części ogrodu, dziewczęta zasiadły następnie w lipowej alei koło stołu dębowego, znajdującego się na samym końcu szpaleru, do lekcyi botaniki. Godzina zbiegła im tutaj jak jedna chwilka, poczem Marynia i Anielka obeszły jeszcze dworek. Wszędzie taż sama prostota panowała co i w ogrodzie. Ściany w pokojach były bielone, stoły i krzesła dębowe, w oknach wisiały siatkowe firanki. Ale za to nigdzie pyłku kurzu widać nie było, wszędzie czystość wzorowa; pomyślano też i o stronie estetycznej: po ścianach pięły się bluszcze, w oknach migały purpurowe gieranie, a na stole przed kanapą leżały książki: Mickiewicza, Krasińskiego i Słowackiego.</p>
+<p>– Dziwnie tu u was – rzekła Anielka – tak skromnie a tak ładnie.</p>
+<p>Wtem dzwonek dał się słyszeć.</p>
+<p>– Panna Natalia wzywa do klass na drugą godzinę – zawołała Marynia – chodź Anielciu.</p>
+<p>Pokój zwany klassa, najobszerniejszym był ze wszystkich: w pośrodku stał stół dębowy, wokoło krzesła, pod ścianą półki z książkami, nad temi zawieszone były karty geograficzne, poczet królów i wielki zegar z kukułką.</p>
+<p>Panna Natalia już czekała pochylona nad kartą geograficzną. Dziewczynki zasiadły spokojnie wokoło, rozpoczęła się znowu nauka i znowu czas leciał Anielce jak na skrzydłach. Gdy kukułka oznajmiła dwunastą, nauczycielka podniosła się, dziewczęta pochowały książki i poprawiwszy ubranie, udały się do jadalni, gdzie oboje państwo Konarscy siedzieli już przy stole.</p>
+<p>– No, cóż Anielciu, jakże ci się zdaje, będzie ci u nas dobrze? – zapytał wuj.</p>
+<p>Anielka spuściła oczy w ziemię i zbliżyła się z pieszczotą.</p>
+<p>– Gdybym nie czuła się zadowoloną, byłabym istotą niewdzięczną – rzekła – okazali mi tu wszyscy tyle serca.</p>
+<p>Te słowa podobały się panu Konarskiemu: uścisnął dziewczę.</p>
+<p>– To jeszcze nie koniec dnia – rzekł wesoło – trzeba będzie jeszcze po obiedzie przygotować zadania na dzień następny, a wieczorem mnie coś przeczytać, bo w ogrodzie niema dziś podobno nic do roboty, deszcz wczorajszy zrosił ziemię, a stary Szymon zagony poczyścił.</p>
+<p>Po skończonym obiedzie dziewczęta zasiadły znowu w szkole, do szóstej pilnie nad książkami pracowały, poczem, gdy słońce przestało już dopiekać, udały się pod werendę. Siadłszy na schodkach do niej prowadzących, zajęły się krajaniem grzybów, które im pani Konarska przez gospodynię przysłała.</p>
+<p>Z werendy szedł widok rozległy na pola, łąki i wieśniacze zagrody. Z prawej strony dworu wznosiły się zabudowania gospodarskie, stajnie, obory, spichrze nie zasłonięte krzewami, bo pan Konarski, siedząc w swem wygodnem krześle pod werendą, chciał mieć ztąd baczne oko na wszystko. "Pańskie oko konia tuczy" było jego ulubionem przysłowiem.</p>
+<p>Na podwórzu ruch panował wielki: zajeżdżały co chwila wozy wyładowane sianem, kręcili się ludzie to z grabiami na plecach, to poganiając bydło lub trzodę. Z lewej strony dworu widać było kilka uli, pracowite pszczoły uwijały się koło nich; wszędzie znać było pracę i życie, wszędzie najprzykładniejszy porządek panował. Dziewczęta zajęte, gawędziły z Anielką, pytały ją o matkę, siostrę, braci, których jeszcze nie znały. Tymczasem siódma wybiła, ludzie z pola zaczęli powracać, całe gromady przechodziły koło werendy, za nimi zjawił się pan Konarski'</p>
+<p>Był widocznie zmęczony, lecz twarz miał pogodną; siadł na wypłatanem krześle i czoło chustką otarł.</p>
+<p>– No – rzekł – żniwa dobrze idą, dzisiaj sporo żyta położyliśmy.</p>
+<p>Zosia i Marynia, które tak się zagawędziły, iż nie spostrzegły przybycia ojca, porwały się ze schodków i śpiesznie pobiegły do pokoju; niebawem pojawiły się znowu pod werendą, jedna niosąc koszyk z owocami, druga krótką fajeczkę i worek z tytuniem. Pan Konarski uśmiechnął się, owoce postawił przed sobą na stole, fajkę nałożył i zapalił, poczem rozparł się wygodnie w fotelu i puszczając gęste kłęby dymu, okiem zadowolenia wodził wokoło. Zosia i Marynia usiadłszy obok niego, ubiegały się w przysługach.Śliczny to był obrazek, Anielka przypatrywała mu się z prawdziwą przyjemnością, a w jej myśli utworzyło się jego odbicie nieco tylko odmienne. Widziała własną matkę z włosami również jak wuja siwizną przyprószonemi, siebie, siostrę i braci obok niej.</p>
+<p>"O! gdyby tak być mogło jak najprędzej, westchnęła; lecz czy dojdę kiedy do takiego szczęścia?"</p>
+<p>Tu łza cicha zawisła na jej rzęsie, otarła ją wszakże szybko, spojrzała śmiało przed siebie.</p>
+<p>"Muszę dojść – rzekła z mocą – muszę koniecznie; wytrwałą, pilną pracą dopnę swego, dokażę.</p>
+<p>I trzynastoletnia dziewczynka sięgnęła myślą w przyszłość, widziała się już kobietą z czołem uznojonem pracą, a pod jej opiekę tulące się młodsze rodzeństwo i siwą matkę jej błogosławiącą.</p>
+<p>Cicho ale przyjemnie upłynął wieczór w Tworkach, na miłej gawędce, na czytaniu głośnem pism peryodycznych; około dziesiątej wszyscy udali się na spoczynek: Anielka była zupełnie zadowoloną z całego dnia.</p>
+<p>Mile płynie tutaj życie, rzekła sama do siebie, gdy głowę na poduszce położyła; tak jakoś cicho, równo, dobrze: doprawdy, dzionek jak błyskawica przeleciał. Potem pomyślała o matce, kiedyto ona doczeka się takiego życia, i z temi myślami usnęła, a gdy rankiem otworzyła oczy, już jasne słońce świeciło na niebie. Zosia i Marynia były prawie ubrane, pospieszyła zatem, aby wuja opóźnieniem nie rozgniewać.</p>
+<p>Dnie następne niczem zupełnie nie różniły się od pierwszego. Czasami tylko ktoś z gości przybył, a wtedy zmieniały się nieco zwyczaje, bo zamiast nauki trzeba było krzątać się około gospodarstwa lub bawić gości.</p>
+<p>Najmilszym dniem z całego tygodnia był dla Anielki piątek, bo w tym dniu stary Szymon przywoził z miasta dzienniki i listy od jej ukochanej matki, które dziewczynka, 'zanim jeszcze otworzyła, pocałunkami okrywała.</p>
+</div>
+<div type="chapter"><head>II.</head>
+<p>Dwa lata upłynęło od dnia, w którym Anielka do Tworek przyjechała; dwa lata to długi przeciąg czasu. Było to coś w pierwszych dniach kwietnia, śniegi już znikły, błota nawet oschły, a drzewa pokryły się pąkami, które lada dzień rozkwitnąć miały. Dzień był chłodny, po niebie przesuwały się szare obłoczki, które wiatr ustawicznie rozpędzał; drożyną wiodącą od dworu do wsi szły dwie osoby, otulone w ciepłe płaszczyki: jedna z nich lat piętnaście liczyć najwyżej mogła, szczupła, wysmukła, o dużych ciemnych oczach; druga starsza od niej miała ciemne włosy, zato oczy jasne z wyrazem pogody i wesołości. Była to Anielka i Zosia, lat dwa zmieniło je nieco: nie były to już dziewczynki ale dziewice. Obie dążyły śpiesznie, obie miały twarze zarumienione od zimna.</p>
+<p>– Czy ty doznajesz czasami tego uczucia, co ja? – mówiła Zosia. Są dnie, iż wydaje mi się, że mam siły olbrzyma, że mogłabym świat cały dźwignąć na ramionach i gniewam się wtedy, iż mężczyzną nie jestem. Kobiecej pracy pole tak zacieśnione… cóż ja robię naprzykład? No, prawda, krzątam się około mej winnicy, lecz co cięższa robota, to stary Szymon za mnie odrobi; krzątam się z mamą około gospodarstwa, czytam, uczę biedną Joankę i natem koniec. Gdybym była mężczyzną, o ileż mogłabym być użyteczniejszą społeczeństwu, krajowi, rodzinie mojej?</p>
+<p>– Ja również, – odparła Anielka – czuję w sobie zasób sił wielkich i zdrowia, lecz i to wiem, że to co czynię obecnie, to tylko przygotowania do wielkiej użytecznej pracy, do której siły te będą mi kiedyś potrzebne. Mam być podporą mojej rodziny, opiekunką młodszego rodzeństwa, pociechą matki.</p>
+<p>– Tak, ty masz cel życia już nakreślony, jakby z góry wypisany, ale ja?</p>
+<p>– Sądzę, że i ty również.</p>
+<p>– Gdzież go widzisz? powiedz mi, proszę,. cóżbyś zrobiła na mojem miejscu?</p>
+<p>– To tylko, co ty robisz obecnie, i nie wybiegałabym pragnieniem dalej. Twój cel życia taki piękny, jesteś jakby królową w tym małym świecie w którym wzrosłaś. Tworki to twoje państwo, mieszkańcy jego to twoi poddani. Myslisz o ich losie, wspierasz ich w niedoli, radzisz w zmartwieniu; czyż może być piękniejsze za danie?</p>
+<p>Ciemnowłosa dziewczyna uścisnęła dłoń towarzyszki.</p>
+<p>– Powtarzaj mi często, jak najczęściej te słowa, Anielko – rzekła. – Mam nieznośną naturę, nie zadawalniam się nigdy tem, co mam; zawsze mi się zdaje, że tam gdzie nie jestem, byłabym użyteczniejszą; że to czego nie czynię, lepiejbym spełniła.</p>
+<p>– Czyż nie pamiętasz, co ci panna Natalia napisała w książeczce, – przerwała młodsza towarzyszka. – Nauczyłam się tych słów na pamięć: "Umiejętność życia zasadza się natem, aby zadawalniać się stanowiskiem, na jakiem los nas postawił i starać się być, o ile tylko można, na niem jak najwięcej użyteczną. "</p>
+<p>Właśnie domówiła tych słów, gdy na skręcie drogi, którą ciążyły, ukazała się chata, biedna, nędzna i smutna. Stała ona samotnie zupełnie wśród tej rozstajnej drogi, najmniejszego śladu życia około niej widać nie… było. Okna miała papierem zaklejone, płot okalający ogródek nawpół obalony.</p>
+<p>– Jak tutaj okropnie, – odezwała się starsza z idących; – zdaje się jakby w chacie żywej istoty nie było. Lękam się, co usłyszymy: wczoraj biedaczka była tak osłabioną!</p>
+<p>To mówiąc weszła za ogrodzenie i zbliżyła się do chaty, uchyliła drzwi; zupełna cisza panowała wewnątrz: jak przed chatą, tak i tutaj śladu życia najmniej… mimo to posunęła się dalej do przyległej i jedynej w chacie izby, a za nią jej towarzyszka.</p>
+<p>W izbie na łóżku czysto usłanem, leżała kobieta z oczyma nawpół przymkniętemi; twarz miała tak białą, jak białemi były płótna jej poduszek… U jej nóg trzyletnia dziecinka tylko w koszulce, z bosemi nóżkami, z główką pełną złotych kędziorków spała smacznie.</p>
+<p>– Magdaleno, – szepnęła starsza z przybyłych, pochylając się nad łóżkiem bladej kobiety.</p>
+<p>Lubo cicho wymówiła te słowa, zbudziła się wszakże kobieta, otworzyła szeroko oczy, błyszczące gorączkowym blaskiem.</p>
+<p>– Paniątka – szepnęła, – Bóg wam zapłać! – i głowę dźwignęła; chciała się podnieść, lecz głowa opadła bezsilnie napowrót na poduszki.</p>
+<p>Chora jęknęła.</p>
+<p>Zosia, ona to bowiem przyszła tutaj z Anielką, położyła dłoń na rozpalonych rękach kobiety.</p>
+<p>– Nie męczcie się, Magdaleno – rzekła – cierpliwości, siły przyjdą powoli.</p>
+<p>Smutny uśmiech ukazał się na ustach chorej.</p>
+<p>– Bogać tam przyjdą – szepnęła – nie wrócą pono nigdy; cała już teraz nie mogę, i krzyże bolą i nogi i ręce.</p>
+<p>Tu zatrzymała się, w piersiach głosu jej zabrakło, po chwili poczęła wszakże znowu:</p>
+<p>– Żeby nie ten dzieciak, to niechby i śmierć przyszła, ale jak pomyślę o mojej Maryś, to serce zda się w kawały szarpie. Co to pocznie biedactwo, gdy mnie niestanie; chyba z głodu zamrze.</p>
+<p>Znowu głosu jej zabrakło, zamilkła: dziewczęta patrzały na nią wzruszone.</p>
+<p>– Męczycie się niepotrzebnie smutnemi myślami – odezwała się po chwili Anielka – a ja nie wątpię, iż zdrową niedługo będziecie: przyniosłam wam lekarstwo.</p>
+<p>To mówiąc wyjęła z kieszeni flaszeczką z jakiemiś kroplami, napuściła ich kilka na łyżkę i zbliżyła do ust chorej.</p>
+<p>Kobieta ruszyła ręką z niedowierzaniem.</p>
+<p>– Spróbujcie – poczęła namawiać Anielka.</p>
+<p>– Leki nie pomogą, gdy woli Boga niema – szepnęła chora.</p>
+<p>Dźwignęła się mimo to, lecz kiedy Anielka zbliżyła łyżkę do jej ust, suchy kaszel wyrwał się raptem z piersi kobiety, poczem nagle zachwiała się i padła na poduszki. Twarz jej pokryła się jeszcze większą bladością, przymknęła oczy, poruszyła ustami, jakby chciała coś przemówić; lecz widocznie głosu wydobyć nie mogła, ręką wskazała tylko śpiącą dziecinę.</p>
+<p>Domyślając się, że o dziecię jej chodzi, Anielka wzięła na ręce śpiącą dziewczynkę i posadziła ją obok chorej. Magdalena otworzyła oczy, położyła dłoń na główce małej, coś szepnęła niewyraźnie, poczem ręka jej zsunęła się i opadła bezwładnie.</p>
+<p>– Umarła! – krzyknęła Zosia odsuwając się od łóżka. Anielka pochyliła się nad leżącą bez ruchu kobietą i dłoń do serca przyłożyła.</p>
+<p>– Umarła! – powtórzyła głosem smutnym.</p>
+<p>Cisza zaległa izbę, przerażone dziewczęta stały jakby skamieniałe, niemogąc z miejsca się ruszyć; wtem mała Marynka zaczęła płakać Nie mogła jeszcze zrozumieć, co się stało, lecz wylękłe twarze paniątek przestraszyły ją; poczęła zrazu ciągnąć matkę za rękę, domagając się aby przytuliła ją do siebie, a gdy nie mogła jej zbudzić, do płaczu się uciekła. Zosia i Anielka oprzytomniały, kwilenie dziecka wróciło je do rzeczywistości.</p>
+<p>– Trzeba iść do dworu powiedzieć co się tu stało – rzekła pierwsza Zosia.</p>
+<p>– A dziecko, cóż z dzieckiem zrobimy? – spytała Anielka – trudno je tutaj same zostawić.</p>
+<p>Zosia zamyśliła się chwilę, potem nagle przystąpiła do łóżka umarłej kobiety.</p>
+<p>– Chodź, Marychno do mnie – rzekła łagodnie – matka śpi, nie trzeba jej budzić.</p>
+<p>Marychna obróciła główkę, popatrzyła wielkiemi błękitnemi oczami na panienkę, potem uśmiechnęła się do niej i ręce wyciągnęła. Zosia wzięła dziecię w objęcia, otuliła 'chustką wełnianą, która leżała na łóżku i razem z niem uklękła: toż samo uczyniła Anielka.</p>
+<p>Krótką była modlitwa, która obie do Boga posłały.</p>
+<p>"Wieczny odpoczynek, racz jej dać Panie, " – rzekły tylko, a ciche łzy tym słowom towarzyszyły.</p>
+<p>Wyszedłszy z chaty, dziewczęta przez chwilę nic nie mówiły do siebie, Marynka także zachowywała się cicho, wysuwała tylko co chwila główkę i patrzyła ciekawie to na jednę panienkę, to na drugą; lecz spotkawszy której wzrok, chowała się natychmiast.</p>
+<p>– Co myślisz zrobić z tem dzieckiem? – zapytała nareszcie Anielka.</p>
+<p>– Poproszę ojca, aby pozwolił wziąść ją do dworu: zajmę się jej wychowaniem.</p>
+<p>Po tych słowach znowu zapanowało milczenie między niemi. Tymczasem ośmielona Marynka poczęła szczebiotać, uśmiechać się, i coraz śmielej spoglądać na panienki. Łzy stanęły w oczach Zosi.</p>
+<p>– Biedna sieroto – rzekła, przytulając ją tkliwiej do siebie – nie wiesz nic, jakie nieszczęście cię spotkało… O! Anielko – dodała zwróciwszy się do siostry – miałaś słuszność, piękniejszego zadania jak te, które ja mam przed sobą, nie może być dla kobiety. Teraz dopiero widzę, jak niedorzeczną byłam mówiąc, że pole mej pracy ograniczone. Obie mamy cel życia wytknięty przed sobą, ku niemu dążyć, doń się gotować, jedynem zadaniem naszem być powinno.</p>
+<p>To powiedziawszy zatrzymała się i podała rękę Anielce.</p>
+<p>– Wspierajmy się wzajemnie, przypominajmy sobie nasze obowiązki, zachęcajmy się do pracy – dodała głosem wzruszonym. Młodszą jesteś wiekiem, lecz tak dojrzałą umysłem, iż możemy śmiało zostać przyjaciółkami.</p>
+<p>Anielka uścisnęła podaną sobie dłoń, poczem obie ucałowały się serdecznie i weselsze już nieco, podążyły do domu, odpowiadając uśmiechem na szczebiotania Marynki.</p>
+<p>Niebawem ukazał się modrzewiowy dworek.</p>
+<p>– Patrz, Anielko – rzekła Zosia, przystając nagle – jakiś ruch przed domem; widzę wyraźnie powóz i ludzi kręcących się: chyba gości mamy. Idźmy prosto na podwórze, tam Walickiej oddam Marychnę, może nam powie kto przyjechał.</p>
+<p>To mówiąc z szerokiego gościńca wiodącego wprost do dworu skierowała się na boczną ścieżynę, która prowadziła między zabudowania dworskie.</p>
+<p>Jeszcze nie weszły na dziedziniec, gdy z maleńkiej oficynki gdzie mieściła się służba i oficyaliści, wybiegła pani Maryanna Walicka w perkalowym szlafroczku, w czerwone bukiety, w czepcu z zielonemi wstążkami.</p>
+<p>– Panno Anielo – wołać już od drzwi poczęła – pani Liwska przyjechała.</p>
+<p>– Mama! – krzyknęła Anielka i zapominając o wszystkiem innem, zawróciła coprędzej na drogę wiodącą ku dworowi.</p>
+<p>– Mama! Wandzia! – wyrwało się z jej piersi, gdy przybiegłszy pod werendę spostrzegła siedzącą tam matkę i maleńką siostrzyczkę.</p>
+<p>Scenę powitania trudno opisywać, były tam łzy i uśmiechy, były serdeczne uściśnienia i słowa pełne miłości. Pani Liwska napatrzyć się nie mogła swój córce.</p>
+<p>– A toż z ciebie już kobieta – mówiła przyglądając się jej z rozkoszą – taka duża prawie jak ja.</p>
+<p>– A jaka dobra, rozumna – dodała pani Konarska – kobieta już z niej dojrzała; doprawdy, siostro, tak zasługuje na to miano.</p>
+<p>Anielka nie mogła się znowu napatrzeć Wandzi, maleńką ją pożegnała, jeszcze dobrze mówić nie umiała a teraz wyrosła tak ślicznie; ciągle coś jej opowiadała, bo też już piąty rok liczyła. Gdy przecież z kolei przypatrzyła się matce, zrobiła uwagę, iż źle wygląda i dopytywać poczęła, czy nie chora.</p>
+<p>Pani Liwska miała w istocie cerę bladą i oczy zapadłe, lecz pocieszała córkę, iż czuje się zupełnie dobrze. Powoli jednakże, wśród dalszej rozmowy wydała się mimowoli, iż całą zimę niedomagała, że wezwała rady lekarza, a ten kazał koniecznie jechać do Szczawnicy, lub gdzie dalej w góry.</p>
+<p>– Powiedziałam mu, iż nie mam na to zasobów – mówiła cicho westchnąwszy – złajał mię za tę odpowiedź, lecz nic sobie z tego nie robię; jestem pewną, że gdy posiedzę kilka dni z wami, przyjdę do siebie. Obecność Anielki, świeże powietrze sprawią jeszcze lepszy skutek niż Szczawnica.</p>
+<p>Lecz pan Konarski był innego zdania.</p>
+<p>– Rozbierzemy tę sprawę poźniej, ze zdrowiem niema co żartować – odezwał się z uśmiechem. – Masz asińdżka dla kogo żyć: dwie córki, dwóch… synów, to gromadka spora – i w przystępie dobrego humoru ucałował siostrę.</p>
+<p>Przybycie Zosi dało inny obrót rozmowie, najprzód nastąpiły powitania, potem Anielka przypomniała sobie biedną Magdalenę i jej córkę.</p>
+<p>– Cóżeś zrobiła z Marynką? – spytała.</p>
+<p>– Oddałam ją Walickiej – odparła Zosia – zrazu zrzędziła, iż nie ma czasu zająć się dzieckiem, bo musi piec ciastka; lecz jak prosić poczęłam tak zmiękła, i pozwoliła małej zostać w izbie, a nawet znalazła jakąś dziecinną spódniczkę i kaftanik, aby ją cieplej ubrać.</p>
+<p>– Cóż to za Marychna? – zapytał pan Konarski.</p>
+<p>Zosia spuściła oczy i zarumieniła się.</p>
+<p>– Dowie się zaraz ojczyk – rzekła siadając obok pana Konarskiego i pocałowawszy go w ramię nieśmiało, wyznała wszystko.</p>
+<p>Pan Konarski znał dobrze Magdalenę; była to biedna wyrobnica, która przybyła niedawno do Tworek z maleńkiem dzieckiem i ze starym ojcem; ojciec parę tygodni temu wybrał się do Lwowa, gdzie jak mówiono miał rodzinę: spodziewano się, że powróci, choć wieści o sobie nie dawał. Wysłuchawszy opowiadania Zosi zadumał się poważnie, poczem rzekł do córki:</p>
+<p>– Dobrześ zrobiła, dzieweczko, zabierając Marychnę ze sobą; lecz czy nie pomyślałaś czasami, że mogłabyś coś więcej uczynić dla tej biednej sieroty, jak przynieść ze sobą i w oficynie umieścić… Nie wątpię, wychowa się to tam z innymi; Walicka nie dozwoli jej z głodu umrzeć, przyda się jej też niezawodnie; gdy podrośnie, każe dziewczęciu pasać gęsi lub kaczki: ale ja myślałem, że moja Zosieczka w innym celu zabierała z chaty Marynkę, i gdyś o niej mówiła, już uścisnąć cię chciałem: tymczasem…</p>
+<p>– Ojcze – odezwała się wzruszona Zosia – przyznaję, w innym celu zabierałam dziecko z chaty Magdaleny; chciałam sama zająć się jego wychowaniem, lecz nieśmiałam mówić. Kiedy wszakże sam o tem wspominasz, wyznam szczerze moje zamiary: mam obecnie swój własny pokoik, wstawiłabym doń małe łóżeczko, Marynka spałaby u mnie, ubierałabym ją własnym kosztem, uczyłabym jak podrośnie; mam przecież własne dochody z winnicy, idzie tylko o wasze pozwolenie – tu wzrok proszący podniosła na rodziców.</p>
+<p>Pan Konarski objął córkę ramieniem i pocałował w białe czoło.</p>
+<p>– W szlachetnych zamiarach nigdy dzieciom przeszkadzać nie będę – rzekł wesoło – bądź pewną iż na twoje marzenia veto nie położę.</p>
+<p>– I ja też nie myślę się sprzeciwiać – odezwała się pani Konarska – dam wszakże przestrogę. Łatwo jest, Zosieczko, coś postanowić, ale trudniej daleko wytrwać w postanowieniu… Zbadaj się dobrze, ważny bierzesz obowiązek na siebie: lepiej nie przedsiębrać go wcale, jak rzucać w połowie.</p>
+<p>– O! niech mama będzie spokojną – odparła Zosia, zbliżając się z podziękowaniem do matki – lekkomyślną nie jestem.</p>
+<p>Pani Liwska przysłuchiwała się z zajęciem całej tej rozmowie, a przytem rozglądała w około ciekawie. Wszystko tutaj niemal obcem jej było: urządzenie, obyczaje, nawet mieszkańcy, których prawie nie znała. Raz tylko była w Tworkach i to w pierwszych latach po ożenieniu się brata, kiedy Anielka nie była jeszcze na świecie; potem odjechała z mężem w dalekie strony, bo aż na Podole: tam wiodła życie wesołe, wśród którego nawet na listowne stosunki z bratem czasu nie miała. Smutnie skończyło się to wesołe życie: majątek runął, mąż umarł i czworo sierot zostało bez chleba. W Krakowie mieszkali krewni męża, tam podążyła, sądząc, że los jej wzruszy ich. W istocie w pierwszych latach pan Wincenty Liwski, rodzony brat jej męża, człowiek bardzo majętny, przyszedł w po – moc nieszczęśliwej rodzinie, lecz potem wyjechał za granicę i zapomniał zupełnie. Pani Liwska udała się wtedy do brata rodzonego, którego tak długo zaniedbywała; ten lubo niemiał wiele, pomocy nie odmówił; tylko żądał aby i rodzina pana Liwskiego coś czyniła. Porozumiał się z nimi listownie i za wspólną zgodą ułożono, że pan Konarski weźmie na siebie edukacyą dzieci, a tamci utrzymanie rodziny. Pani Liwska pozostała przeto w Krakowie, a córkę najstarszą odesłała do Tworek; synowie w mieście kosztem wuja do szkół uczęszczali, Wandzia jeszcze się nie uczyła. Po latach wielu, pierwszy raz zjechała tu dzisiaj, i dziwnie skromnem wydało się jej w Tworkach wszystko, po wspaniałych salonach jakie miała w Dolińcach i wspanialszych jeszcze pokojach, w jakich bywała u krewnych męża w Krakowie.</p>
+<p>Wiedząc, co brat dla niej czyni, wyobrażała sobie wcale inszem jego otoczenie. Czuła się też słodko wzruszona, a wzruszenie to bardziej jeszcze wzmogło, gdy usłyszała jak chętnie pozwala Zosi, wziąść do domu biedną sierotę.</p>
+<p>Tymczasem pani Konarska, udzieliwszy przestróg córce, podniosła się, by wydać rozporządzenie do obiadu. Za nią rozpierzchła się i reszta towarzystwa: Anielka zabrawszy Wandzię, pobiegła z młodszą z kuzynek do ogrodu, Zosia pospieszyła do starego Szymona powiedzieć mu, by dał znać proboszczowi o śmierci Magdaleny: pani Liwska została sama z bratem.</p>
+<p>– Może przejdziemy do pokoju – rzekł pan Konarski – bo wiatr jakoś chłodny dziś dokucza.</p>
+<p>To mówiąc podał siostrze ramię i przeprowadził ją przez kilka izb do swego gabinetu, który równie, jak całe mieszkanie skromnie był urządzony. Jedynemi sprzętami zbytkowniejszemi, jakie w nim stały, były: biórko z bronzowemi antabami i safianem kryta kanapka, do której gospodarz siostrę poprowadził.</p>
+<p>Naprzeciw kanapki znajdowało się okno, po za niem ogród, śpiew ptasząt dolatywał od niego.</p>
+<p>– Naumyślnie przyprowadziłem cię tutaj, Wikciu – rzekł pan Konarski – aby pomówić z tobą na osobności. Widzę cię mizerną, schudłaś, pobladłaś; doktor musi mieć słuszność: potrzebne ci powietrze górskie, musisz zaraz jechać i to niezwłocznie.</p>
+<p>– Ależ, bracie – poczęła pani Liwska – zkądże na to wziąść? Pan Wincenty dosyć już często mi powtarza, że tyle czyni dla nas; nie mam odwagi go prosić.</p>
+<p>– To też prosić nie będziesz – odparł pan Konarski, – Bóg pobłogosławił zeszłorocznym żniwom, mam trochę grosza zaoszczędzonego, podzielimy się.</p>
+<p>To mówiąc odsunął jednę ze skrytych szufladek biórka, wyjął z niej storublowy papierek i podał go siostrze. Pani Liwska ze łzami przypadła do ręki brata, lecz on nie dozwolił jej całować.</p>
+<p>– Wszakże siostrą mi jesteś – rzekł uścisnąwszy ją czułe. – Nie wątpię, iż będąc na mojem miejscu, toż samobyś uczyniła.</p>
+<p>Przez cały tydzień bawiła pani Liwska w Tworkach, a każdy dzień w nich spędzony uczył ją więcej kochać i szanować brata.</p>
+<p>– Anielko – mówiła co wieczór do starszej córki – naśladuj twego wuja, kochaj siostrę i braci, jak on mnie; bądź dla nich dobra, jak oni dla mnie.</p>
+<p>Anielka w miejsce odpowiedzi, okrywała matki ręce pocałunkami.</p>
+<p>Nastał wreszcie dzień rozstania. Pani Liwska uściskawszy serdecznie córkę odjechała znowu do Krakowa, razem z Wandzią, błogosławiąc brata i bratowę. Anielka miała wielką ochotę, żeby Wandzia na lato w Tworkach została, ale pani Liwska ani słyszeć o tem nie chciała.</p>
+<p>– Nie umiałabym źyć bez niej; Cóżbym robiła sama w Szczawnicy – tłumaczyła panu Konarskiemu.</p>
+<p>Po jej odjeżdzie wszystko wróciło znowu do zwykłego trybu życia; przerwane lekcye z panną Natalią rozpoczęły się, zajęcia w ogrodzie również, ta tylko zaszła różnica, że do pokoiku Zosi, który ona jako uznana za dorosłą wyłącznie dla siebie posiadała, wstawiono dawne jej łóżeczko dziecinne a z niem przybyła mała Marychna, córka biednej wyrobnicy.</p>
+<p>Niemało miała Zosia zrazu z nią kłopotu, był to dziki ptaszek, którego trzeba było przyswoić, ułaskawić, ugrzecznić; lecz przy pomocy Jagusi, dziewczyny do posługi, która wdzięczna zato, iż ją Zosia czytać nauczyła, całą duszą była jej oddaną, powoli przerobiła dziecinę. Marynka liczyła dopiero lat trzy, o nauce nie mogło być mowy, Zosia starała się wszakże rozwijać jej umysł, przysposabiać do nauki; uczyła ją z obrazków nazw rozmaitych ptaszków, owadów i zwierząt, opowiadała o ich obyczajach: dziecina słuchała z uwagą i z każdym dniem stawała się milszą, pojętniejszą. Sąsiedzi dziwili się Zosi, nazywali to fantazyą, chwilowym kaprysem niewieścim; lecz gdy przekonali się z czasem, że sierotka zawsze w jednakich łaskach, że Zosia coraz czynniejszą rozpościera opiekę nad całą wsią, żarty ucichły: poczęto uwielbiać to co zrazu wyśmiewano. Byli wszakże tacy, co jeszcze chcieli ją zniechęcić.</p>
+<p>– Próżne twoje zabiegi – mówili – jeśli myślisz, że postępowaniem swojem pozyskasz serca tych prostaków, zawiedziesz się z pewnością.</p>
+<p>Ja nie leczę chorych, nie wspieram biednych, dzieci nie uczę, aby mi miłością koniecznie zato płacili – mówiła – pełnię tylko to, co uważam za swój obowiązek. Los mię postawił jako naturalną opiekunkę tych ludzi, powinnam przeto starać się podnosić ich moralnie, przyczyniać się do ich uszczęśliwienia.</p>
+<p>Po takich rozmowach bywała wszakże smutniejszą, lecz gdy pomodliła się serdecznie, gdy z Anielką pogawędziła, smutek się rozpraszał i znowu pełniła z miłością zadanie, które sobie za cel życia postawiła.</p>
+</div>
+<div type="chapter"><head>III.</head>
+<p>Cicho i dobrze płynęło wciąż życie w Tworkach, powoli dziewczęta ukończyły nauki, wyrosły pięknie zdrowo i poczciwie, przynosząc chlubę i pociechę rodzicom. W całem sąsiedztwie mówiono o nich, że są miłe, dobre i rozumne: jednem słowem, starannie wychowane panny. To też niedługo po odjeździe z Tworek nauczycielki, jeden z sąsiadów, niejaki Julian Szanorski, ujęty wdziękami i słodyczą młodszej z córek państwa Konarskich, szesnastoletniej Maryni, zajechawszy pewnego dnia do Tworek, prosił o jej rękę. Nie odmówili mu rodzice, a że Marynia chętnie do ich życzeń się przychyliła, ślub odbył się w parę miesięcy po oświadczeniu w pierwszych dniach grudnia, w sam dzień urodzin Maryni.</p>
+<p>Widząc jak państwu Konarskim we wszystkiem się powodzi, jak Bóg błogosławi im w pracy i w wychowaniu dziatek, sąsiedzi poczęli nazywać Tworki "Gniazdem szczęścia." I rzeczy – wiście, nazwa ta należała się im słusznie. Nieznano w Tworkach, co to zmartwienie, nigdy w modrzewiowym dworku nie widziano też smutnych lub gniewnych twarzy, nigdy nie słyszano wymówek, łajań lub sprzeczek.</p>
+<p>Ale niedarmo któryś z naszych poetów powiedział, iż "ciągu życia nie można przerobić na wieniec różany, że cierń jest takowego wieńca zasadniczym splotem."</p>
+<p>Jednego wieczora Zosia i Anielka siedząc pod werendą, żywą zajęte były rozmową: Anielka dowiedziała się właśnie tego dnia, że państwo Milescy, blizcy sąsiedzi, poszukują nauczycielki; mówiła przeto Zosi, iż chętnie przyjęłaby to miejsce, że sąsiedztwo Tworek zachęcą ją wielce. Zosia nie odradzała, jednakże z odpowiedzi jej znać było, iż niechętnie mówi o zamiarach przyjaciółki.</p>
+<p>– Nie taję się z tem – rzekła smutnym głosem – iż rozstanie z tobą będzie pierwszem zmartwieniem, jakiego doznam w życiu: jestem zepsutem dzieckiem szczęścia.</p>
+<p>– I ja bez żalu nie pożegnam Tworek – odparła Anielka – lecz wiesz przecie, jaki cel postawiłam sobie za zadanie życia. Twoje marzenia już się spełniły: jesteś użyteczną społeczeństwu; moim jeszcze daleko: trzeba wziąść się raz do pracy chlebodajnej, aby urzeczywistnić się z czasem mogły.</p>
+<p>– Ja też nie zatrzymuję cię – odparła Zosia – bierz się do pracy: pragnę całem sercem, aby marzenia twoje spełniły się jaknajprędzej.</p>
+<p>To mówiąc pochyliła się do przyjaciółki i uścisnęła ją tkliwie.</p>
+<p>– Nie będę cię zatrzymywać – dodała – ale cierpieć będę nad naszem rozstaniem.</p>
+<p>Anielka serdecznym pocałunkiem odpowiedziała na pieszczotę siostry: obydwom łzy błysnęły w oczach.</p>
+<p>– Będziemy pisywać często do siebie – szepnęła Zosia.</p>
+<p>– O! tak, będziemy – odparła wzruszonym głosem Anielka.</p>
+<p>I ująwszy się za ręce, obie zamyślonym wzrokiem wpatrzyły się w gwiaździste sklepienie nad niemi rozpostarte, gdzie wśród miliona świateł widać było iskrzącą gwiazdę, z długą smugą za sobą.</p>
+<p>Naraz jakiś głuchy huk zbudził je z cichych marzeń: porwały się obie, spojrzały na siebie wzrokiem pytając, coby to być mogło?</p>
+<p>– Jakieś nieszczęście stało się w domu – przemówiła pierwsza Zosia – czy słyszysz ten hałas?…</p>
+<p>Rzeczywiście, z pokojów dochodził głuchy gwar, słychać było bieganie tu i tam, rozmowę i płacz.</p>
+<p>Nienamyślając się dłużej, obie minąwszy sień, wpadły do pokoju jadalnego: tam przedstawił im się okropny obraz: na kanapie stojącej pod jednem z okien, siedział pan Konarski, nawpół omdlały, krwią zbroczony; obok niego klęczała żona łamiąc ręce i płacząc: służba biegała tu i tam nieprzytomna, wylękła.</p>
+<p>– Co się tu stało? – spytała Zosia przestąpiwszy próg.</p>
+<p>Mała Marynka, która także znajdowała się tutaj, wskazała na okno.</p>
+<p>– Ktoś strzelił, pannusiu – rzekła – kula trafiła pana w ramię i omdlał; ponieśliśmy go na kanapę i wodą obleliśmy, cóż, kiedy nie przychodzi do życia.</p>
+<p>– Octu! wody! – zawołała Zosia, i przypadłszy do ojca, poczęła z płaczem całować jego ręce.</p>
+<p>Służba podała jej ocet, ona natarła skronie zemdlonemu; tymczasem Anielka pobiegła do starego Szymona, aby go wysłać do miasta po doktora.</p>
+<p>Wreszcie pan Konarski otworzył oczy, spojrzał wokoło.</p>
+<p>– Uspokójcie się – rzekł – rana nie jest niebezpieczna; poleżę parę tygodni i wstanę zdrów. Czy posłał kto po lekarza?</p>
+<p>– Posiałam starego Szymona – odparła Anielka.</p>
+<p>– To dobrze: siądźcie przy mnie, służbę odeślijcie – rzekł chory.</p>
+<p>Pani Konarska podniósłszy się z kolan, siadła obok męża; Zosia tuż przy niej, Anielka z przeciwnej strony: służba się rozeszła.</p>
+<p>Minęła długa godzina oczekiwania, wreszcie przed domem zatętniało: to doktor przyjechał. Rana rzeczywiście nie była niebezpieczną, tylko bardzo bolesną: obojczyk był strzaskany. Opatrzywszy chorego, doktor oświadczył, iż życiu jego, żadne obecnie nie zagraża niebezpieczeństwo; zalecił wszakże, aby czuwać troskliwie i unikać wszelkich wzruszeń, które mogłyby silną gorączkę wywołać.</p>
+<p>Kazawszy przenieść męża do jego gabinetu, pani Konarska siadła obok niego, doktor pozostał przy nich Zosia i Anielka poszły wydać służbie potrzebne rozporządzenia.</p>
+<p>– Czy panienka wie, co ludzie mówią we wsi – rzekła jedna z dziewcząt folwarcznych – pono to Krysztof strzelił; miał złość do pana, że mu młyna nie wypuścił w dzierżawę, ino Walentemu i zemścił się. Odgrażał się on już dawno: słyszałam ja nieraz, jak mówił, że…</p>
+<p>Ale Zosia nie dała dokończyć gadatliwej dziewczynie.</p>
+<p>– Nie posądzaj, nie mając dowodów – rzekła surowo – to grzech wielki!</p>
+<p>Lecz kiedy wróciła do pokoju, rzuciła się z płaczem siostrze na szyję.</p>
+<p>– O, Anielko! Anielko! jakie to okropne nieszczęście! – zawołała. Więc za to co ja czyniłam dla nich, oni mi ojca zabić chcieli?</p>
+<p>Anielka ucałowała ją czule.</p>
+<p>– Oni biedni, ciemni i ślepi jeszcze; trzeba im wiele przebaczać – rzekła.</p>
+<p>Zosia otarła łzy.</p>
+<p>– Rozsądnie mówisz, nie przeczę – odparła z goryczą – mimo to nie potrafię stłumić w sercu żalu, który czuję do nich.</p>
+<p>Poczem udała się do pokoju ojca, czuwać nad nim z matką.</p>
+<p>Noc minęła spokojnie, chory nawet drzymał trochę, lekarz odjechał; gdy rankiem świtać poczęło, pan Konarski zbudził się, skinął na Zosię i rzekł do niej:</p>
+<p>– Będziesz musiała mnie dziś zastąpić, dzieweczko; matka ma swoje zajęcia, od niej tego wymagać nie mogę: pójdziesz na pole, zajrzysz do stodół i zdasz mi sprawozdanie z wszystkiego; pierwej wszakże udasz się do Krysztofowej: wiem, że jest chorą; trzeba się dowiedzieć, czy jej nie brak czego.</p>
+<p>Lekki rumieniec wybiegł na twarz Zosi, potem nagle pobladła.</p>
+<p>Pan Konarski spojrzał na nią uważnie.</p>
+<p>– Wiem o co ci idzie – rzekł, biorąc jej dłoń. Musiałaś słyszeć co ludzie mówią ojej mężu. Zbiegł podobno niegodziwiec: nie ulega wątpliwości, że to on godził na moje życie; lecz trudno karać za niego żonę i dzieci; tego prawo nawet nie wymaga: idź zatem, dzieweczko, i dowiedz się co tam słychać.</p>
+<p>Zosia nic nieodpowiedziawszy, wyszła z pokoju, w godzinę była z powrotem.</p>
+<p>– Zrobiłam coś chciał, ojcze – rzekła wchodząc – ale wierzaj mi, ta kobieta nie zasługuje na twoję dobroć. Gdym przyszła do niej, siadła na łóżku i poczęła krzyczeć, wyrzekać,ie ludzie niesłusznie posądzają jej męża, że on niewinny, że to prędzej Walenty strzelił, a teraz rozsiewa pot warze na Krysztofa aby go zgubić; żeś ty, ojcze, był zawsze dla nich niesprawiedliwy i inne tym podobne brednie wykrzykiwała.</p>
+<p>Pan Konarski westchnął.</p>
+<p>– Nie dziw się jej – rzekł – kocha męża i jak pojmuje, jak może, tak go ratuje. A nie zapytałaś się, jak tam z jej zdrowiem?</p>
+<p>– Owszem, podobno miała dziś znowu paroksyzm febry.</p>
+<p>– Zanieś jej więc chiny, jak będziesz szła w pole.</p>
+<p>Zosia pochyliła się z pocałunkiem do ręki ojca, poczem zbliżyła się do apteczki stojącej w tym samym pokoju, wzięła z niej lekarstwo i poszła znowu do Krysztofowej. W jadalni zabiegła jej wszakże drogę Anielka.</p>
+<p>– Idź prosto w pole – rzekła – ja do Krysztofowej podążę.</p>
+<p>Zosia ścisnęła jej rękę; lubo ojcu nie sprzeciwiała się, a nawet uznawała słuszność jego żądania, niechętnie je jednak spełniała, i z sercem przepełnionem boleścią szła do Krysztofowej.</p>
+<p>Ująwszy się pod ręce, otuliwszy w chustki podążyły obie ku wsi. Właśnie zbliżały się ku furtce sztachet otaczających dziedziniec, gdy spostrzegły zdala gromadę ludzi dążącą ku dworowi. Obie mimowoli zatrzymały się: ciemne brwi Zosi zmarszczyły się.</p>
+<p>– Czego oni chcą? – rzekła niechętnie.</p>
+<p>Tymczasem gromadka przysunęła się do furtki: byli to sami starsi gospodarze Tworek. Ujrzawszy panienki, pozdejmowali czapki i pokłonili się im do nóg.</p>
+<p>Zostając jeszcze pod wpływem wczorajszego smutnego wypadku, dziewczęta już coś złego przypuszczać zaczęły, gdy stary Jakób, najwymowniejszy z gromady, wystąpił naprzód.</p>
+<p>– Wielmożny dziedzic – rzekł głosem uroczystym – jest pono ciężko chory, a to czas żniw, kłopotać się będzie o robotę. Otóż zeszliśmy się tutaj, aby wam, dobra pani, powiedzieć: "Nie troskajcie się o pola, łąki i bydło, my strzedz wszystkiego pilnie będziemy. Zwieziemy zboże do stodół, zaorzemy niwy, bydłu upaść nie damy: nad wszystkiem jak nad własnem czuwać będziemy. Byłyście dziatek naszych i chorych opiekunką, ojciec wasz niejednego wsparł w nędzy, niejednego radą zdrową od nieszczęścia wybawił; wypłacimy mu ten dług, który od lat tylu względem niego zaciągnęliśmy. "</p>
+<p>Te proste lecz poczciwe słowa wzruszyły serdecznie dziewczęta, łzy zabłysły im w oczach: Zosia zbliżyła się do gromady.</p>
+<p>– Dziękuję wam, dobrzy ludzie – rzekła podając dłoń gospodarzom – dziękuję serdecznie i przyjmuję waszą usługę. Niechaj Bóg ją wam nagrodzi!</p>
+<p>A gdy się oddalili, obróciła się do Anielki z rozjaśnioną twarzą.</p>
+<p>– A więc nie jest jeszcze tak źle jak sądziłam; Krysztof to tylko wyjątek; zyskałam ich miłość: teraz i do Krysztofowej chętniej pójdę.</p>
+<p>I obie pobiegły z lekarstwem do chorej.</p>
+<p>Kiedy około południa pan Julian Szanorski, szwagier Zosi, oraz kilku sąsiadów, dowiedziawszy się o zaszłym wypadku, przybyli do Tworek, ofiarując się z pomocą, Zosia zmuszoną była podziękować za ich uprzejmość.</p>
+<p>– Inni was ubiegli – rzekła wskazując ręką pola, na których, jakgdyby we wsi nic 'nie zaszło, uwijali się jak zwykle ludzie, rżnąc zboże, wiążąc je w snopki i składając na wozy.</p>
+<p>I tak już działo się codnia; Konarski leżał ciężko chory, lecz żniwa nic natem nie ucierpiały: wszystko odbywało się w swoim czasie.</p>
+<p>Zosia czuwała wszakże zdaleka. Często wziąwszy duży słomiany kapelusz na głowę, szła w czasie gdy skwar jeszcze dopiekał do pracującej rzeszy. Marynka towarzyszyła jej zawsze w tych wycieczkach, niosąc za nią koszyk z owocami, lub gąsior chłodzącego napoju.</p>
+<p>Przeszedłszy na pole, młoda pani częstowała wszystkich z kolei, poczem dopytywała jak idzie robota, co słychać u każdego w domu, czy jej obecność gdzie niepotrzebna?</p>
+<p>Wieśniacy dziękowali za poczęstunek, a gdy który miał co na sercu, to zaraz o radę z prośbą do niej się udawał; następnie obsypywali ją pytaniami:</p>
+<p>– Panieneczko, co tam nasz pan porabia? czy mu lepiej? kiedy wstanie?</p>
+<p>To były słowa, które Zosia niemal codziennie tam słyszała, ale niestety, nic pocieszającego odpowiedzieć nie mogła, bo panu Konarskiemu lepiej nie było; przyszła gorączka, i lekarz, który zrazu był spokojny, teraz lękał się jaki obrót choroba weźmie.</p>
+<p>– Gdyby był młodszy, byłbym spokojniejszy – powtarzał ustawicznie.</p>
+<p>Zosia często łzy potajemnie ocierała, lecz wobec matki okazywała się spokojną. Cała wieś była rozżaloną na Krysztofa; nie ulegało wątpliwości, iż to on był sprawcą niegodnego czynu, gdyż przepadł bez wieści po owej fatalnej nocy. Własna żona jego nieśmiała go już teraz bronić; ucieczka go zdradzała. Każdemu przytem było wiadomem, że Krysztof oddawna odgrażał się dziedzicowi. Pan Konarski posiadał w folwarku poblizkim Tworek, młyn wodny, który postanowił puścić w dzierżawę. Znalazło się jednocześnie dwóch konkurentów, którzy wspólnie poczęli czynić zabiegi o wydzierżawienie owego młyna. Obaj byli dobrze znani we wsi, lecz jeden jako człowiek uczciwy i pracowity, drugi przeciwnie, jako chytry samolub. Pierwszy zwał się Walenty, był ojcem licznej rodziny; drugi nosił imię Krysztofa. Mając do wyboru między takimi ludźmi, pan Konarski przełożył naturalnie pierwszego, a przez wzgląd na jego liczną rodzinę, wypuścił mu młyn w dzierżawę pod bardzo korzystnemi warunkami. Krysztof zapałał zazdrością i zemścić się postanowił, a wziąwszy strzelbę, zakradł się nocą do ogrodu i przez okno wypalił cło pana Konarskiego, który siedział wtedy w jadalni, zajęty czytaniem dzienników.</p>
+<p>Nie było jednego mieszkańca w Tworkach, któryby nie posądzał Krysztofa o popełnienie zbrodni; wszyscy wrzeli gniewem nietylko na niego, lecz na całą jego rodzinę, i byliby z pewnością niejednę przykrość wyrządzili żonie, gdyby nie przykład ze dworu. Widząc panienki odwiedzające codzień chorą, ludzie nie śmieli im dokuczać, a Krysztofowa już nie wyrzekała teraz ani na Walentego, ani na dziedzica, spokorniała jakoś bardzo i gorąco modliła się, żeby Róg zdrowie panu przywrócił.</p>
+<p>Tak minęło parę tygodni. Sierpień zbliżał się do końca, gdy dnia jednego zajechała niespodzianie pani Liwska. Powróciwszy ze Szczawnicy, zastała list Anielki, uwiadamiający ją o chorobie brata. Przerażona, korzystając z ostatnich dni wakacyi, pospieszyła do Tworek, zabrawszy ze sobą wszystkie dzieci. Anielka nie mogła się nacieszyć rodzeństwem i matką, chociaż biedaczka miała trochę przykrości z powodu tego przyjazdu. Pani Liwska ustawicznie płakała, trzeba ją było ciągle pocieszać, odwagi dodawać. Anielka lękała się o matkę, aby płacz jej nie zaszkodził, i o wuja, którego widocznie te łzy drażniły. Z rodzeństwem także miała rozmaite zmartwienia: brat jej Karol przyjechał bez promocyi; wprawdzie matka tłómaczyła go, że nie ma zdolności, lecz Anielka sądziła, że przy szczerych chęciach mógłby takową otrzymać.</p>
+<p>– Karolu – mówiła często do niego – my majątku nie mamy, pracować powinniśmy, szczególniej my starsi oboje. Czas byłoby już o tem pomyśleć, aby nie być drugim ciężarem; miałam przyjąć już w tym roku obowiązki nauczycielki, korzystne miejsce nawet mi ofiarowywano, czterysta guldenów rocznego wynagrodzenia: to sumka, która skusić może. Układałam sobie, że za sto ubierać się będę, dwieście mamie oddawać, aby Wandkę zaczęła posyłać na pensyą; sto chciałam odkładać na przyszłość, ale okoliczności nie dozwoliły. Nieszczęście jakie spotkało wuja, zmieniło plany: muszę jeszcze czekać dopóki do zdrowia nie przyjdzie. Ty więc przynajmniej pracuj i rąk nie opuszczaj, pokaż wujowi, żeś wart łask, jakie nam świadczy.</p>
+<p>– Dobrze! dobrze, siostruniu – odpowiadał Karol – wierzaj mi, jam nie winien zupełnie: to ta łacina nieznośna, do której nie mam głowy, popsuła wszystko.</p>
+<p>– To pracuj nad nią; tutaj u wuja książek nie brak, masz czas wolny – radziła Anielka – może zdałbyś powtórnie egzamin: pocóż czas marnować?…</p>
+<p>– Jutro wezmę się do niej – odpowiadał znowu Karol – z pewnością jutro.</p>
+<p>Ale to jutro nie nadchodziło jakoś; mijał dzień za dniem, chłopiec polował, harcował na koniach, zabiegał w pole, aby popatrzeć na żniwa, a gdy wieczorem rzucał się zmęczony na wyplatany fotel wuja, mówił zawsze do matki:</p>
+<p>– Codzień przekonywam się lepiej, że mam wyraźne powołanie do zawodu rolnika.</p>
+<p>– Karolu – odezwała się raz na to Anielka – mnie się zdaje, że to nie powołanie do zawodu rolnika w tobie się objawia, ale nieszczęsna żyłka próżniacza. Chciałoby ci się polować, jeździć konno, a o pracy nie myśleć!</p>
+<p>Raz tylko wszakże uczyniła tę surową uwagę bratu, gdyż matka spojrzała na nią z taką wymówką, że nie chcąc jej przykrości robić, więcej go już nie strofowała;</p>
+<p>Wandzia martwiła ją również.</p>
+<p>– Lękam się, czy mama nie pieści jej nadto, czy w złoconych salonach stryjów, w których przebywa niemal codziennie, nie przywyka do zbytków – rzekła raz do Zosi – wszystko nie podoba się jej tutaj: co to będzie potem?</p>
+<p>– Moja ty poważna osobo – rzekła Zosia, uścisnąwszy siostrę serdecznie – nie przewidujże naprzód złego; toż to dziecko jeszcze: gdy dorośnie, rozumu nabierze.</p>
+<p>Anielkę te słowa nie zaspakajały przecież.</p>
+<p>– Boże mój! – mówiła sama do siebie – gdybym to ja mogła pracą własną zapewnić sobie kącik, chociażby najskromniejszy, wziąść matkę, Wandzię i braci do siebie, zmieniłabym może jeszcze moję dzieweczkę i na Karola-bym wpłynęła..</p>
+<p>Lecz szlachetne te marzenia jak nateraz, zbyt były trudne do urzeczywistnienia, przynajmniej tak się jej zdawało.</p>
+<p>– Z czasem może dojdę do tego, muszę dojść – powtarzała niemal codziennie – ale to jeszcze nie tak prędko.</p>
+<p>Jeden tylko Wicuś nie dawał Anielce powoda do zmartwienia: przywiózł dobrą cenzurę, czytywał codzień z siostrą, dla matki był czuły i serdeczny, Karol zaś i Wandzia często zapominali się względem niej.</p>
+<p>Minął wreszcie sierpień, w szkołach nauki się rozpoczęły, pani Liwska uścisnąwszy wszystkich serdecznie, odjechała do Krakowa. Zajęcia w polu i ogrodzie ukończyły się powoli, około domowego gospodarstwa mniej było też do czynienia; Zosia spędzała przeto większą część dnia razem z matką i Anielką przy łóżku ojca, który czuł się już teraz o wiele lepiej i z przyjemne – ścią gawędził z niemi. Nareszcie i zima nadeszła, mroźny wiatr ogołocił drzewa i trawniki ogrodu Tworek, śnieg prószyć począł, posępne mgły rozpostarły się na widnokręgu: szaro, smutno było w Tworkach, głucho i pusto.</p>
+<p>Jednego wieczora, kazawszy w gabinecie pana Konarskiego rozniecić ogień na kominku, Zosia i Anielka siadły przy nim, pierwsza z robotą, druga z książką w ręku, obok nich Marynka z kołowrotkiem zajęła miejsce. Pani Konarska, która czuła się tego dnia nieco słabą, udała się wcześniej na spoczynek. Na dworze cisza głęboka panowała, niebo iskrzyło się od gwiazd, ziemia zasłana była grubo śniegiem. Rozłożony w miękkim fotelu, pan Konarski słuchał z zajęciem czytania; już prawie całkiem czuł się zdrów, pozostało mu tylko lekkie osłabienie. Naraz poza oknem na ogród wychodzącem dal się słyszeć szelest, jakby kroków ludzkich; nie wiedzieć czemu, dreszcz trwogi przeszedł dziewczęta: Anielka przerwała czytanie, wszystkie trzy spojrzały ku oknu, jakiś cień przesunął się poza niem, poczem znikł i szelest kroków ucichł także. Dziewczęta spoglądały na siebie niespokojnie.</p>
+<p>– Cóż wam się stało? patrzycie na siebie jakbyście coś strasznego zobaczyły – rzekł pan Konarski i rozśmiał się głośno – czytajże dalej niedługo dziesiąta wybije, to wam powiem dobranoc.</p>
+<p>Anielka pochyliła się do książki, już chciała zacząć czytać, gdy wtem roztwarły się drzwi gabinetu i stanęła w nich pani Maryanna Walicka, blada, wylękła, czyniąc jakieś znaki tajemnicze dziewczętom.</p>
+<p>Porwała się Zosia i wybiegła.</p>
+<p>– Panienko – rzekła Walicka – w sieni stoi Krysztof, powiada, że musi się z panem widzieć.</p>
+<p>Zosia zachwiała się na nogach.</p>
+<p>– Czyż tu niema Szymona, lub kogo z mężczyzn? – spytała.</p>
+<p>– A nacóż wam Szymon potrzebny? – odezwał się pan Konarski, którego uwagi tajemnicze znaki i strwożona mina Walickiej nie uszły; więc dźwignął się z szesląga i powlókł za Zosią, a za nim Anielka i Marychna.</p>
+<p>Zosia spojrzała na ojca, ale prawdy powiedzieć nie miała odwagi; pan Konarski słyszał wszakże wszystko.</p>
+<p>– Przywołaj go tutaj – rzekł do gospodyni.</p>
+<p>– Ależ on gotów na pana się rzucić – odparła Walicka.</p>
+<p>– Ojcze, pocóż marny cię narażać! – prosiła Zosia.</p>
+<p>– A więc sam pójdę, kiedy przywołać go nie chcecie.</p>
+<p>To powiedziawszy, postąpił parę kroków: Zosia i Anielka zabiegły mu drogę, błagając, by tego nie czynił. Zapomniały jednakże, że drzwi od sieni nie były na klucz zamknięte; Krysztof usyszał głos pana, przypadł do klamki i wszedł nieproszony do pokoju. Kobiety struchlały, tylko pan Konarski nie stracił przytomności; odsunął je i postąpił ku winowajcy.</p>
+<p>– Czego chcesz odemnie? – zapytał.</p>
+<p>– Oddać się w ręce pana – rzekł Krysztof, oczu nie podnosząc – Godziłem na wasze życie, a wyście za to moją żonę leczyli w chorobie; wracam właśnie od niej: powiedziała mi to wszystko. Jestem niegodziwiec, niech mię sąd ukaże: zasłużyłem na więzienie.</p>
+<p>Pan Konarski wyciągnął do niego rękę.</p>
+<p>– Żałujesz, a zatem rozgrzeszam cię – rzekł – wróciłeś do nas, nie odchodź więcej; pracuj i bądź uczciwym, a ja cię od kary uwolnię.</p>
+<p>Krysztof rzucił się do nóg mówiącemu, łzy szczerego żalu popłynęły mu z oczu.</p>
+<p>– O, panie! czem ja się wywdzięczę za waszą dobroć? – rzekł głosem przerywanym od łkań.</p>
+<p>– Wracając na drogę cnoty – odparł pan Konarski.</p>
+<p>Wzruszone tą sceną Anielka i Zosia, od łez także powstrzymać się nie mogły. Walicka i Marynka ocierały oczy.</p>
+<p>– Wróć teraz do domu – odezwał się znowu pan Konarski – a jutro przyjdź jeszcze tu do mnie.</p>
+<p>Krysztof podniósł się z kolan i pokorny cichy wyszedł z pokoju.</p>
+<p>– O! jakiś ty dobry, jaki szlachetny, jaka ja szczęśliwa, że mam takiego ojca – zawołała Zosia, rzuciwszy się panu Konarskiemu na szyję.</p>
+<p>On uśmiechnął się łagodnie, przycisnął ją do serca.</p>
+<p>– Spełniłem tylko swój obowiązek – rzekł – silniejsi słabszych dźwigać powinni; mam nadzieję, że łagodnością pociągnę go na prawą drogę.</p>
+<p>I wistocie nie omylił się. Krysztof odtąd poszedł drogą uczciwą. Głód i zimno zmusiły go do opuszczenia lasów, w których się kilka miesięcy ukrywał, zajmując się kradzieżą; przyszedł nocą do swojej chaty, aby się posilić i ogrzać, poczem chciał wracać znowu do kryjówki;. lecz posłyszawszy od żony o postępowaniu dziedzica, nawrócił się i postanowił przeprosić go, zdać się całkiem na jego łaskę i zostać uczciwym człowiekiem, odpokutowawszy winę cierpliwie.</p>
+<p>Widzenie się z panem Konarskim utwierdziło go w tem postanowieniu, zwolniony został od pokuty, lecz nie zhardział przez to; przeciwnie tem więcej czuł się upokorzonym, tem uczciwiej chciał żyć, aby tym sposobem winę swą zmazać.</p>
+<p>Ludzie zrazu szemrali, że Krysztof spokojnie siedzi w chacie, ale gdy im Zosia przypomniała, iż Chrystus największym grzesznikom każe przebaczać, jeśli żal okażą, przestali, a nawet odtąd więcej jeszcze szanowali i kochali dobrych państwa.</p>
+<p>Tymczasem pan Konarski przyszedł powoli całkiem do siebie; minęła zima, wiosna zawitała, Anielka postanowiła rozmówić się ze stryjem. Państwo Milescy, z któremi porozumiewała się listownie, czekali na nią jeszcze; szło tylko o pozwolenie pana Konarskiego: nie chciała już dłużej zwlekać. Ale jakież było jej zdziwienie i zmartwienie zarazem: pan Konarski stanowczo oparł się jej zamiarowi.</p>
+<p>– Kładę veto na projekta panny – rzekł z uśmiechem. – Nie puszczę cię jeszcze, ptaszku, z mego gniazdka; wychowałem cię: musisz mi być posłuszną.</p>
+<p>Widząc wszakże, że Anielka zasmuciła się jego odpowiedzią, usiadł koło niej bliżej i położywszy dłoń na jej dłoni, badać począł po ojcowsku, dlaczego tak spieszy opuścić jego dom; a Anielka przyznała się wówczas poraz pierwszy wujowi do marzeń, które od lat dziecinnych pieściła w sercu.</p>
+<p>Wzruszony jej opowiadaniem pan Konarski, uścisnął ją najprzód czule, potem zamyślił się głęboko.</p>
+<p>– Anielko – rzekł po chwili – jeśli masz takie zamiary, musisz myśleć o czem innem jak o tem, żeby się umieścić jako nauczycielka w prywatnym domu: to ci przyszłości nie zapewni.</p>
+<p>– Więc cóż będę robić? wszak nic innego nie potrafię? – zawołało dziewczę niespokojnie.</p>
+<p>– Obmyślimy coś powoli, trzeba mieć tylko troche cierpliwości – odparł pan Konarski. – Twoja przyszłość obchodzi mię również żywo, jak moich własnych dzieci: wierzaj mi Anielko. –</p>
+<p>O moje jestem już spokojny: Maryni z Juliuszem wszędzie i zawsze dobrze będzie, Zosi w Tworkach pracy i chleba nie zbraknie, a piękny cel życia, jaki ma przed sobą, zastąpi jej niezawodnie osobiste szczęście.. O tobie tylko muszę jeszcze pomyśleć, muszę dopomódz poczciwym twoim zamiarom.</p>
+<p>To powiedziawszy powstał i oddalił się do swego pokoju. Anielka rada nie rada, musiała zastosować się do jego woli.</p>
+<p>W tydzień może po tej rozmowie, pan Konarski powróciwszy późnym wieczorem z sąsiedztwa, kazał przywołać do siebie Zosię i Anielkę.</p>
+<p>– Mam ważne dla was nowiny – rzekł z uśmiechem. – Siadajcie i słuchajcie uważnie. Jedziemy do Krakowa i to bezzwłocznie, we środę, we czwartek najdalej.</p>
+<p>– A to zkąd? – zapytały obie ze zdziwienia.</p>
+<p>– Chcę koniecznie, aby Anielka zdała w Krakowie egzamin i otrzymała patent nauczycielki.</p>
+<p>– Po co? – spytała Zosia – czy Milescy tego żądają?</p>
+<p>– Spotkałem dziś u Juliusza – ciągnął dalej pan Konarski, nieodpowiadając na pytanie Zosi – dalekiego naszego sąsiada Zagrzebskiego. Jestto człowiek już w wieku, lecz pełen jeszcze życia i ochoty do pracy. Otóż podniosłem dzisiaj projekt zakładania po wsiach nietylko elementarnych szkółek dla drobnej dziatwy, lecz i wyższych zakładów naukowych. "Słyszałem wiele o twej siostrzenicy, sąsiedzie – rzekł do mnie –</p>
+<p>i wiesz co przyszło mi na myśl, aby poradzie jej: niech założy taki właśnie pensyonat, dopomogę jej w tem dziele… Poczciwe jej zamiary względem matki tak mię ujęły za serce, iż ofiaruję jej murowany domek na moim folwarku Lisice, aby je mogła prędzej urzeczywistnić, niechaj tylko postara się o patent i o uczennice. "</p>
+<p>Anielka przypadła do ręki wuja, on przycisnął jej głowę do piersi.</p>
+<p>– Pojedziemy przeto do Krakowa – ciągnął dalej – będziesz przez rok cały pracować nad sobą, potem zdasz egzamin i wyrobisz sobie pozwolenie założenia pensyonatu, oraz zamówisz nauczycielki do pomocy, boć trudno byłoby samej jednej tak wielkiej pracy podołać. Naszym zamiarem jest wszakże, abyś nietylko córki obywatelskie, lecz i oficyalistów przyjmowała także; idzie nam bowiem nietylko o to, żeby tobie przyszłość zapewnie, lecz, żeby zarazem światło tak potrzebne u nas, w niższych warstwach rozszerzać. Będziesz miała, dzieweczko, jak pragnę – łaś, dla matki twej dach, dla rodziny utrzymanie, a przytem będziesz użyteczną społeczeństwu.</p>
+<p>Anielka w miejsce odpowiedzi okryła wuja ręce pocałunkami, w ciemnych jej oczach zaświeciły Izy, rumieńce wystąpiły na blade zwykle policzki.</p>
+<p>– Czy i ja, ojcze, będę zdawać egzamin na nauczycielkę? – zapytała Zosia.</p>
+<p>– Względem ciebie mam inne zamiary – odparł pan Konarski. – Chcę abyś kształciła się także, lecz w celu zupełnie odmiennym. Idzie mi o to, żebyś potrafiła kiedyś, gdy zostaniesz jedyną panią Tworek, sama całym majątkiem zarządzać, żebyś mogła przytem iść z postępem czasu. Pojedziemy zatem do Krakowa, będziemy się tam razem uczyć, bo i mnie zbywa na niejednych wiadomościach, a powróciwszy do Tworek, będziemy razem powtarzać to, co nam książki powiedzą. Dozwalamy cudzoziemcom wzbogacać się na naszej ziemi, patrzymy obojętnie, jak oni podnoszą się materyalnie naszym kosztem, jak nas wyprzedzają na każdem polu: to niegodnie. Weźmy się wszyscy gorliwie do nauki, do pracy; przekonajmy świat, iż nie jesteśmy niedołężniej si od drugich. Nie natem wszakże koniec, dzieweczko, postanowiłem coś jeszcze więcej… Chcę, abyś zaczerpnąwszy praktycznych wiadomości w Krakowie, udzielała ich potem mieszkańcom Tworek. Niema większego nieprzyjaciela światła i moralności nad nędzę, a tem nauczymy naszych sąsiadów ubożuchnych, jak mają korzystać z każdego kawałka ziemi, jak mają szczepić drzewa, zakładać ogrody: jednem słowem będziemy polepszać ich byt materyalny.</p>
+<p>– Ojcze! – zawołała Zosia – odgadłeś pragnienia serca mego… – i przypadłszy w objęcia pana Konarskiego, z wdzięcznością ucałowała jego ręce.</p>
+<p>W kilka dni potem państwo Konarscy oboje, Zosia i Anielka pożegnani ze łzami w oczach przez mieszkańców Tworek, podążyli do Krakowa. Anielce podwójnie biło serce do tej podróży: miała zobaczyć matkę, miała zacząć urzeczywistniać marzenia, które jeszcze w latach dziecięcych wzbudziły się w jej sercu.</p>
+<p>Gdy po całodziennej podróży ukazały się jej oczom stare mury kamienic Krakowa, gdy pociąg zatrzymał się przy dworcu, a ona wyskoczywszy z wagonu, znalazła się w objęciach matki, łzy słodkiej radości puściły się jej z oczu.. Pani Liwska zajmowała w Krakowie wygodne, choć szczupłe mieszkanie w jednej z kamienic znajdujących się na rynku; lubo wiele miejsca nie miała, zaprosiła wszakże państwa Konarskich do siebie.</p>
+<p>Szczupło wam bedzie, lecz wygodniej niż w hotelu, a ja skorzystam natem, bo moję dzieweczkę będę miała przy sobie – rzekła do brata.</p>
+<p>Długo tego wieczora Anielka z matką gawędziły, układając plany przyszłości.</p>
+<p>– Gdy urządzę domek – mówiła, całując matki ręce – przyjedziesz wówczas do mnie, matusiu, razem z Wandką. Mateczka zajmie się gospodarstwem, ja wykładem nauk i dobrze nam będzie razem. Karol i Wicuś odwiedzać nas będą na każde święto, Wandzia uczyć się ze mną… Cóż, nie ucieszysz się mateńko?</p>
+<p>– Dobre, poczciwe moje dziecko – odpowiedziała pani Liwska, pieszczotami okrywając córkę – więc nie przestałaś nas kochać, chociaż wychowałaś się zdala?</p>
+<p>Tak zeszło im prawie do północy, gdy zegar wydzwonił dwunastą, pani Liwska podniosła się przestraszona.</p>
+<p>– Ależ to późno bardzo, ja cię zatrzymuję, a tyś pewno zmęczona i będziesz nią teraz pewno często, biedaczko moja – dodała, ocierając łzę – będziesz się trudzić dla mnie.</p>
+<p>Anielka uśmiechnęła się łagodnie.</p>
+<p>– Nic a nic nie czuję się znużoną – rzekła podnosząc się zwolna. – Jestem tak szczęśliwą, a szczęście sił podobno dodaje.</p>
+<p>To mówiąc objęła matkę ramieniem i ucałowała ją tkliwie.</p>
+<p>– Przerosłam cię, mateczko – rzekła – to też jako większa, obejmę teraz z kolei opiekę nad tobą. Jak ty niegdyś nademną, tak ja teraz czuwać będę nad tobą; tylko proszę cię, nie myśl nigdy, że ja trudzę się dla ciebie. Trudem nie można nazwać pracy tak sowicie wynagrodzonej; czyż może być dla mnie słodsza nagroda, jak być z tobą razem, z tobą, za którą lat tyle tęskniłam!</p>
+</div>
+<div type="chapter"><head>IV.</head>
+<p>Było-to w owej porze, kiedy pierwsze noce jesienne zmienią zieloną barwę, w którą całe lato i wiosnę stroi się natura na złotawą, a miejacami purpurową, kiedy słońce dogrzewa, we dnie jeszcze ciepło, lecz wieczorem z pojawieniem się w górze chmur smużystych, już chłód dobrze dokucza.</p>
+<p>Długim gościńcem ciągnącym się na milę, wśród pól ogołoconych ze zboża i łąk, na których pasło się bydło, toczył się mały powozik, ciągniony przez dwa rącze rumaki, które pędząc kłusem, raźno parskały. Tu masy kurzawy, wzbijając się z pod kół i kopyt końskich, tworzyły wokoło niego szare obłoki.</p>
+<p>– Co za szkoda, że taka kurzawa – odezwał się z głębi powozu głos kobiecy – nic nie można widzieć przed sobą – i jednocześnie wysunęła się z niego śliczna główka młodej osoby, o ciemnych włosach, gładko zupełnie zaczesanych.</p>
+<p>– Cierpliwości, panienko, zaraz zjedziemy z gościńca w prawo na tę wązką drożynę; tam kurzu nie będzie – odparł głos drugi – ztamtąd zobaczymy Lisice jak na dłoni.</p>
+<p>Jakoż rzeczywiście powóz skręcił niebawem na prawo i potoczył się wązką drożyną, wijącą się malowniczo wśród wierzb długim rzędem stojących, których cienie łamały się po parowie, co z obu stron drogę otacza!…</p>
+<p>– Ach! jak tam pięknie – zawołała młoda kobieta, wychylając się powtórnie z powozu. – Wuju, patrz co za widok prześliczny – i ciemne jej oczy z zachwytem wpatrywały się wda], gdzie na zielonem wzgórzu wznosiły się białe mury jakiegoś domostwa. U stóp wzgórza tu i owdzie rozrzucone chaty, ogródki i wijąca się wśród nich rzeczka, tworzyły razem prześliczny obrazek.</p>
+<p>Na ten wykrzyknik radosny wychyliła sio z powozu i druga postać, mężczyzna z włosem oproszonym siwizną, z czołem poważnem. Był to pan Konarski, młodą zaś osobą siedzącą obok niego, Anielka.</p>
+<p>Półtora roku minęło już od owego dnia, w którym zajechawszy do Krakowa, rzuciła się matce ze łzami w objęcia. Wyrobiwszy sobie patent i otrzymawszy pozwolenie założenia pensyonatu, jechała teraz do Lisic. Konie raźno parskały, powóz toczył się z hałasem po nierównej drodze, pola i łąki przesuwały się naprze – mian przed jej oczami; ona nic prawie nie widziała, tylko to jedno wzgórze zielone z białym domkiem, w którym miała teraz mieszkać i pracować, ciągnęło jej wzrok.</p>
+<p>– Jak tam pięknie – szeptały ciągle jej usta, a w myśli wyobrażała sobie jak urządzi wewnątrz ów domek, skromnie, czyściutko, zupełnie jak w Tworkach było; jak matce najwygodniejszy kącik odstąpi, jak w ogrodzie drzewek nasadzi a z wiosną i kwiatów nasieje: jak cały dzień czynnie będzie zajętą.</p>
+<p>Już miała zamówioną rodowitą francuzkę, oraz polkę, kobietę wysoce wykształconą, a pan Zagrzebski napisał jej, że może liczyć na pewno na pięć uczennic. Jechała z dobrą przeto otuchą i nadzieją w sercu, żwawe koniki zwalniać tymczasem w biegu zaczęły, dojechano bowiem do wzgórza i trzeba było im piąć się na nie.</p>
+<p>Po kilku minutach powolnej jazdy, wdarły się wreszcie na wierzchołek, tam woźnica zatrzymał je i Anielka wyskoczywszy z powozu, ujrzała się przed małym, biało bielonym domkiem, którego ganek stroiły festony dzikiego wina, mieniące się różnemi barwami, gdyż jedne z liści były żółte, inne purpurowe, inne jeszcze zielone, gdzieniegdzie zaś czerniały winne jagody.</p>
+<p>– Witam panią w jej własnym domu – odezwał się miły, lecz silny głos męzki z progu drzwi prowadzących z ganku do wnętrza domu.</p>
+<p>Anielka podniosła wzrok, pod festonami dzikiego wina stał mężczyzna wyniosłej, prawdziwie pańskiej postawy. Czoło jego wysokie w górę było podniesione, biała broda spływała na piersi, białe włosy starannie miał uczesane. Ubiór jego równie był pański jak cała postać, mimo wieku trzymał się prosto. Złożywszy przybyłym ukłon pełen uszanowania, zbliżył się następnie do Anielki, podał jej rekę poczem zwrócił się do pana Konarskiego:</p>
+<p>– Pozwolisz panie Ludwiku – rzekł – iż dziś twoją siostrzenicą zajmę się wyłącznie, a ciebie na drugim planie zostawię: muszę pokazać jej dom, ogród i całe gospodarstwo.</p>
+<p>Pan Konarski w miejsce odpowiedzi uścisnął dłoń Zagrzebskiego, a ten obrócił się znowu do Anielki i podając jej ramię, rzekł:</p>
+<p>– Chodźmy zatem, mam nadzieję, iż pani będzie zadowoloną z wszystkiego.</p>
+<p>Anielka szczęśliwa, zarumieniona, podała mu rękę, a on z usłużonością człowieka prawdziwie salonowego, wprowadził ją po schodkach wiodących pod ganek, ztamtąd do pierwszego pokoju.</p>
+<p>– Tutaj będzie jadalnia – rzekł – uczennice pani będą w niej mogły w zimowej porze używać do woli swobody, bo izba duża i widna. Można im będzie na szarą godzinę rozniecić troche ognia na kominie, aby im było weselej.</p>
+<p>Anielka obejrzała się wokoło, zdawało się jej, iż jest w Tworkach. Ściany izby były bielone, na środku stał duży stół dębowy, wokoło niego krzesła proste zupełnie, w dwóch rogach pokoju dwa olbrzymie drzewa oleandrowe.</p>
+<p>– Jakże one muszą pięknie kwitnąć w lecie? – rzekła zbliżając się do nich.</p>
+<p>– To też dlatego kazałem je przywieźć tutaj, aby pani uprzyjemniały pracowite dnie – odparł pan Zagrzebski.</p>
+<p>Anielka uśmiechnęła się wdzięcznie.</p>
+<p>Z izby jadalnej prowadziło czworo drzwi w różne strony domu: jedne do niewielkiej kuchenki, drugie do dwóch dużych pokojów, które pan Zagrzebski na szkołę przeznaczył, trzecie do mniejszych już o wiele, gdzie miały być sypialnie. Czwarte drzwi zamknięte ominął, dopiero, gdy już cały domek zwiedzili, poprowadził młodą gosposię do nich.</p>
+<p>– Tu będzie pani gniazdeczko – rzekł – klasy i sypialnie urządzisz jak będziesz chciała, lecz tym pokoikiem pozwoliłem sobie sam się zająć.</p>
+<p>To mówiąc otworzył drzwi. Anielka aż krzyknęła z radości; ślicznym bo też był pokoik de którego weszła: obicie miał różowe, w oknach białe firanki i mnóstwo roślin kwitnących. Pod jedną ze ścian stała kanapka wygodna, przed nią stoliczek do roboty, a na nim kilka książek; dalej maleńkie biurko, istne cacko wyrobu stolarskiego, z wszelkiemi przyborami do pisania, przed nim fotelik miękki, wygodny, a z okna, pod którem owe biurko stało, jakże piękny, rozkoszny widok. Rozległa zielona równina, niby kobierzec olbrzymi rozciągała się daleko, niżej pod nią bieliły się chaty, z których gwar wesoły dochodził aż do okna, zachodzące słońce złotem oblewało ten wdzięczny obrazek.</p>
+<p>– Jakże mam panu podziękować za to wszystko? – rzekła Anielka zwracając się do pana Zagrzebskiego – pan tyle dla mnie uczyniłeś.</p>
+<p>– Spełnij pani tylko swoje zadanie sumiennie – odparł pan Zagrzebski – a najlepiej mi podziękujesz. Nie wątpię wszakże, iż tak będzie – dodał biorąc jej rękę.</p>
+<p>Anielka uścisnęła mu dłoń na znak obietnicy.</p>
+<p>– Mam prośbę do pani – począł znowu pan Zagrzebski – wystarałem się dla niej o pięć uczennic, jak na początek to nie źle wcale; otóż sądzę, iż mogłabyś przyjąć do swego pensyonatu jeszcze dwie, lecz któreby bezpłatnie nauki pobierały: są to córki moich oficyalistów, ubogie zupełnie, ale starannie wychowane dziewczątka.</p>
+<p>– I pan mnie prosisz o to? pan, który tyle dla mnie uczyniłeś – odparła Anielka.</p>
+<p>Pan Zagrzebski uścisnął jej rękę.</p>
+<p>– Przyślę je zatem – rzekł. – Już tylko jeden pokoik mamy do zwiedzenia – dodał następnie – w myśli przeznaczyłem go dla mamy pani. To mówiąc skierował się do przyległego pokoju.</p>
+<p>Była to maleńka izdebka, z oknem na podwórze, lecz widna i ustawna.</p>
+<p>– Jest więc kącik dla każdego – odezwał się milczący dotychczas pan Konarski. – Szczęśliwem dzieckiem jesteś, Anielko: rzadko komu spełniają się tak życzenia jak tobie.</p>
+<p>Powróciwszy do jadalni, pan Zagrzebski udał się następnie do ogródka. Było tam kilkanaście drzew owocowych, kilkanaście krzewów porzeczek i malin; reszta ogrodu pociętą była na zagony, które przy starannej pracy mogły przynieść spory dochód.</p>
+<p>– Z wiosną przyślę ci tutaj Zosię – rzekł pan Konarski – ona ci ogród urządzi; obecnie pracuje u siebie, nie ma zatem czasu. Wierzaj mi sąsiedzie – dodał zwracając się do pana Zagrzebskiego – iż codzień więcej wdzięczny sobie jestem za tę myśl szczęśliwą, która mi doradziła kształcić córkę na tej drodze. Kobieta z niej doprawdy dzielna, z całym zapałem wzięła się do ulepszeń w ogrodzie i domowem gospodarstwie, a wieśniaczki, które ją swoim aniołem nazywają i wierzą jej jak świętej, naśladują ją powoli.</p>
+<p>Późnym wieczorem pożegnawszy Anielkę i poleciwszy ją opiece starej Wardelskiej, dawnej gospodyni pana Zagrzebskiego, która tutaj na łaskawym chlebie mieszkała, panowie opuścili folwark dążąc każdy w swoję stronę. Wardelska zajęła się serdecznie panienką: przyrządziła jej najprzód wieczerzę, następnie przygotowała wszystko, co było potrzebnem do spoczynku, a gdy dziewiąta wybiła, rzekła do Anielki:</p>
+<p>– Teraz pójdę się położyć, stare kości potrzebują spoczynku; jutro sprowadzę panience dziewczynę do posługi, aby mi w robocie pomogła, to żwawiej wszystko pójdzie.</p>
+<p>Po jej odejściu Anielka stanęła w oknie zadumana. Już cienie nocy otaczały wioskę, uroczysta cisza panowała w powietrzu, od chat dochodziły tylko naszczekiwania psów, na niebo wysuwał się powoli księżyc, rzucając srebrne światło prosto w okna bielonego domku: prześliczny był to widok. Anielka byłaby chętnie całą noc przesiedziała w oknie, wiedziała jednakże, iż nie może pozwolić sobie tej przyjemności; czekało ją wiele zajęć nazajutrz, potrzebowała nowych sił nabrać do pracy. Rzuciwszy przeto raz jeszcze tęskny wzrok na wioskę, udała się na spoczynek, lecz gdy pierwsze promienie rannego słonka oświeciły Lisice, zerwała się natychmiast z łóżka. Zaledwie zdążyła załatwić się z ubraniem, gdy pod wzgórzem ukazały się wozy wyładowane najrozmaitszemi rzeczami. Cały dzień miała co do czynienia: państwo Konarscy zaopatrzyli tak hojnie jej spiżarnię w rozmaite przysmaczki, kredens i kuchnię w sprzęty gospodarskie, iż ustawianie samej kuchni i spiżami zabrało jej połowę dnia. W pokojach dosyć było też do czynienia, bo młoda gosposia każdemu chciała znaleźć stosowny kącik i wygodę zapewnić.</p>
+<p>Wandka musi się mieścić razem z innemi uczennicami – mówiła sama do siebie – już ja z niemi sypiać będę, żeby pieszczoszce krzywdą ten rozdział z mamą się nie wydał. Co do mamy, oddam jej mój własny pokoik, wstawię tylko łóżko na miejscu kanapki, innych rzeczy nie ruszę wcale. Jej potrzeba wygody, światła, powietrza, wesołego widoku, mnie praca i młodość to wszystko zastąpi.</p>
+<p>Tak rozmawiając sama ze sobą, krzątała się po pokojach, ustawiała meble, zmieniała ich porządek; zaledwie miała czas zjeść obiad, który jej Wardelska przyrządziła, tyle miała zajęcia.</p>
+<p>Kiedy jednakże około godziny siódmej zajechał pan Konarski, żeby dowiedzieć się jak sam powiedział wysiadając z bryczki: "Co pani na Lisicach porabia?" już we dworku wszystko było ustawionem na właściwem miejscu.</p>
+<p>Okrzykiem radości powitawszy gościa, Anielka pociągnęła go następnie do wnętrza domku, aby się pochwalić całodzienną pracą. Uścisnął ją pan Konarski serdecznie, za oddanie własnego pokoiku matce, pochwalił urządzenie szkoły, poczem przymówił się o posiłek.</p>
+<p>– Przez ciebie ominął mnie w domu podwieczorek – rzekł wesoło – musisz mi zatem krzywdę wynagrodzić.</p>
+<p>Anielka nie zakłopotała się bynajmniej tą przymówką, dzięki pani Konarskiej, spiżarnia jej pustą nie była poprowadziwszy gościa do jadalni, roznieciła ogień na kominku, poczem rozłożywszy na stole biały obrus, przyniosła co tylko miała najprzedniejszego w domu: miód, orzechy, jabłka i chleb razowy.</p>
+<p>Pan Konarski uścisnął gościnną gosposię i zaprosił ją przed rozstaniem do Tworek na niedzielę.</p>
+<p>– Zosia przyjedzie po ciebie – rzekł, kiedy już wsiadał do bryczki – pojedziecie razem do kościoła, a ztamtąd do nas.</p>
+<p>– Zatem do widzenia – odparła wesoło Anielka – zlecą mi te dwa dni szybko, nie wątpię o tem, bo mam jeszcze dużo do czynienia.</p>
+<p>Stosownie do obietnicy, w niedziele, rano przed bielony domek folwarczny zajechała Zosia. Nie znała ona jeszcze Lisic, zachwyciła się niemi; dzień był jasny i ciepły, słońce pięknie świeciło, więc obiegłszy domek, obie przyjaciółki udały się następnie na ganek. Na nabożeństwo czas był jeszcze wielki, gdyż proboszcz pana Zagrzebskiego dopiero około jedenastej odprawiał wotywę, siadły przeto gawędzić o planach przyszłości, o wielkiej pracy jaka je czekała, o pięknym celu, jaki każda miała do spełnienia w życiu.</p>
+<p>– Czy pamiętasz. Anielko – mówiła Zosia – ten dzień, kiedy idąc do chaty Magdaleny, po – wiedziałam ci, iż żałuję, że mężczyzną nie jestem… Dziś śmieję się z dawnych moich przekonań, tylko lat czternaście, jakie wówczas miałam, usprawiedliwić mogą podobnie niedorzeczne wyrzekanie. Dziś czuję się zupełnie zadowoloną; coraz szersze pole pracy widzę przed sobą, coraz więcej przekonywam się, że choć zamknięta w maleńkim światku Tworek, będę przecież mogła sobie kiedyś powiedzieć: "Nie darmo żyłam. " Wiesz co zamyślam jeszcze uczynić? oto wyrobić sobie pozwolenie założenia w Tworkach szkółki elementarnej. Gdy Marynka podrośnie, oddam jej nadzór nad nią, będziemy uczyć drobną dziatwę, a która z dziewcząt okaże wyższe zdolności, tobie ją następnie odeśle i ty nią dalej pokierujesz.</p>
+<p>Tak gawędziły, roiły i marzyły, a godziny tymczasem leciały; wybiła dziesiąta i trzeba było podnieść się, by nie spóźnić na nabożeństwo.</p>
+<p>Kazawszy furmanowi jechać naprzód, dziewczęta postanowiły iść pieszo. Droga prowadziła brzegiem ruczaju, wśród wierzb garbatych i pochyłych, chciały ukończyć rozmowę zaczętą i użyć przechadzki. Nigdy jeszcze Anielka nie czuła się tak szczęśliwą, nigdy jeszcze nie modliła się tak serdecznie w kościele. Dziękowała Bogu gorąco za ziszczone marzenia… teraz już nie wątpiła, że wpłynie na siostrę i że brata przerobi. Trudniejsze do urzeczywistnienia nadzieje spełniły się, dlaczegóżby te spełnić się nie miały? Za tydzień spodziewała się przyjazdu matki z Wandzią, Karol miał je odwieźć do Lisic Anielka układała sobie przeto jak przemówi do serca siostry i brata, jak oboje zachęceni jej przykładem, wezmą się do pracy i oszczędności.</p>
+<p>Wesoło i szybko zbiegła jej niedziela w Tworkach, wesoło i szybko mijały jej następne dnie w Lisicach. Wreszcie zawitała sobota tak upragniona, owa sobota, w której pod własnym dachem miała powitać matkę. Już o czwartej zerwała się z pościeli, wybiegła na ganek i wpatrzyła się w krętą ścieżynę pod wzgórze prowadzącą. Za najmniejszym turkotem rumieńce wybiegały na jej lica, a serce biło niespokojnie; dłużył się jej dzień niesłychanie, co chwila wracała na ganek i patrzyła w dal, chociaż wiedziała, że przed piątą z wieczora nie mogą stanąć w Lisicach.</p>
+<p>Powoli słońce poczęło pochylać się ku zachodowi, w pokojach robiło się coraz ciemniej, więc Anielka kazała rozniecić w jadalni ogień na kominku i lampę zapalić, poczem nakryła ze służącą do stołu.</p>
+<p>Właśnie kończyły to zajęcie, gdy rozległ się przed domem trzask z bicza; rzuciwszy serwetę, którą składała, Anielka pobiegła na ganek. Tym razem nie napróżno serce jej zabiło, wyczekiwani nadjechali; odsunąwszy śpieszącą służące, sam podskoczyła drzwiczki karety otworzyć, podniosła wysiadająca Wandzię w górę i okryła ją pocałunkami, poczem rzuciła się matce na szyję.</p>
+<p>– A Wicuś co porabia? – pytała, zwróciwszy się z kolei do starszego brata.</p>
+<p>– Zdrów, kazał cię uściskać – odparła pani Liwska. – Pan Piwarski, u którego jest na stancyi, zawsze z niego zadowolony: chłopiec dobrze się uczy.</p>
+<p>– Dzięki Bogu – szepnęła Anielka, zdejmując z matki ramion futro, weszli bowiem właśnie do sieni.</p>
+<p>Trudno opisywać całej sceny powitania, zapytania sypały się gradem tak z jednej jak z drugiej strony, pocałunki co chwila się powtarzały. Po tak długiej rozłące miały być znowu razem, wierzyć się im nie chciało. Pani Liwska obchodziła cały domek wokoło, lecz nic prawie nie widziała, oczy jej wlepione były ciągle w Anielkę. Zato Wandzia i Karol jak najdokładniej wszystko obejrzeli.</p>
+<p>Wandzię bawiła nowość, więc cochwila klaskała w ręce z radości. Matki pokoik podobał się jej bardzo, cieszyła się ogródkiem; przystała chętnie na to, iż razem z innemi uczennicami sypiać będzie, dziwiło ją tylko, iż salonu nie widziała dotychczas.</p>
+<p>– A gdzież gości będziemy przyjmować? – zapytała.</p>
+<p>Wchodzili właśnie do jadalni i Anielka pochyliła się z pocałunkiem do siostry.</p>
+<p>– Tutaj, dzieweczko moja – rzekła z łagodnym uśmiechem – tutaj jest nasz salon; w Lisicach zbytków niema, to nie mieszkanie stryja Wincentego.</p>
+<p>Wandzia skrzywiła usteczka.</p>
+<p>– Śliczny mi salon – odparła.</p>
+<p>Anielka nic nie rzekła, udała że nie słyszy odpowiedzi siostry, tylko po jej pogodnej twarzy przebiegł cień smutku, pierwszy może od czasu, jak w Lisicach mieszkała.</p>
+<p>Smutek był to wszakże przelotny. Wniesiono obiad; Anielka pamiętała jakie potrawy lubi Wandzia: gdy waza ukazała się na stole, mała kapryśnica rozjaśniła chmurne czoło.</p>
+<p>– Poczciwa siostrunia pamiętała o mnie – rzekła z uśmiechem.</p>
+<p>Słowa te wynagrodziły odrazu Anielce przykrość, której przed chwilą doznała, uścisnęła dziewczynkę, poczem zaprosiła wszystkich wesoło do stołu.</p>
+<p>Już obiad się skończył, posprzątano półmiski, nikt wszakże ani myślał odchodzić, mieli sobie tyle do powiedzenia.</p>
+<p>Anielka opowiadała siostrze, jak cały ranek w szkole będzie zajętą, jak potem wolno jej będzie biegać w ogródku, kopać, grabić i siać na wyznaczonym dla niej kawałku ziemi.</p>
+<p>Wandzia na wszystko się zgadzała, to jedno nie podobało się jej, iż córka ekonoma pana Zagrzebskiego, ma z nią razem się uczyć i mieszkać.</p>
+<p>– Przyznam się, iż dziwne ma ten pan wymagania – odezwał się Karol, mieszając się do rozmowy – na twojem miejscu, Anielko, odmówiłbym mu stanowczo: niema w tem sensu najmniejszego.</p>
+<p>– Dziecko! dziecko! – poczęła uspokajać go pani Liwska – stawże się w jej położeniu; pan Zagrzebski tyle dla niej uczynił, czyż ona może urn odmawiać?</p>
+<p>– W żadnym razie i nikomu nie odmówiłabym podobnej prośbie – odparła żywo Anielka. – Dziewczynka jest przyzwoita i zdolna, grzechem byłoby nie chcieć jej przyjąć.</p>
+<p>– Szczególne zasady wpojono w ciebie w Tworkach, widzę, iż nigdy zrozumieć się nie będziemy mogli – rzekł gniewnie Karol.</p>
+<p>Poraz wtóry pogodna twarz Anielki zasępiła się dzisiaj.</p>
+<p>– Nie wątpię, iż z czasem zrozumiecie mię – odparła jednak łagodnie.</p>
+<p>Karol za całą odpowiedź roześmiał się głośno.</p>
+<p>Gdy wieczorem udali się wszyscy na spoczynek, Anielka zapewniwszy się, że siostrze i bratu niczego nie braknie, wsunęła się następnie do pokoju matki. Pani Liwska nie spała jeszcze, ujrzawszy ją wchodzącą, wyciągnęła do niej rękę.</p>
+<p>– Mam do ciebie wielką prośbę – rzekła, całując ją w czoło.</p>
+<p>– Dlaczego przemawiasz do mnie, mateczko, w ten sposób – odparła Anielka, na pieszczotę pieszczotą odpowiedziawszy – możesz tylko żądać czegoś odemnie, lecz nigdy prosić; powiedz więc czego chcesz.</p>
+<p>– Żebyś była pobłażliwą dla twego rodzeństwa – rzekła cicho pani Liwska. – Pamiętaj zawsze na to, dziecko moje, że oni w innych od ciebie wychowali się warunkach: ty nauczyłaś się w Tworkach oszczędności i pracy, oni przeciwnie, tylko do zbytków nawyknąć mogli u pana Wincentego. Co tobie zwyczajnem się wydaje, ich przeraża, co ty uważasz za obowiązek, oni za krzywdę poczytują sobie.</p>
+<p>Anielka westchnęła cicho.</p>
+<p>– Bądź spokojną, mamo – rzekła – będę pamiętać o tem, co mi w tej chwili powiedziałaś, uznaję słuszność twej uwagi.</p>
+<p>Poczem podniósłszy się z kolan zapytała:</p>
+<p>– Co Karol zamyśla dalej czynić z sobą?</p>
+<p>– Karol – odparła zwolna pani Liwska, jak gdyby ociągając się z odpowiedzią – jak wiesz, promocyi znowu nie dostał. Stryj Wincenty wystarał się dla niego o miejsce u jednego z bankierów. Chłopiec posiada języki, ładnie przytem pisze, może na tej drodze przyszłość sobie zapewni. Ma obiecane, że jeżeli zyska sobie zadowolenie bankiera, to na przyszły rok otrzyma już 300 guldenów wynagrodzenia rocznego.</p>
+<p>– Będzie miał zatem na swoje potrzeby – odparła Anielka. – Marzyłam wprawdzie dlań coś innego, roiłam, iż ukończy uniwersytet, następnie… Lecz cóż o tem mówić co się nie ziści – dodała ze smutkiem, nie kończąc przerwanej myśli. – Niechaj weźmie się tylko do pracy szczerze i poważnie, a może być z niego jeszcze człowiek zacny; trzeba wszakże wpłynąć koniecznie na jego sposób myślenia.</p>
+<p>– Tylko ostrożnie – wtrąciła pani Liwska. Anielka uśmiechnęła się łagodnie i pochyliła do matki z pocałunkiem.</p>
+<p>– Będę wyrozumiałą dla tych dwojga pieszczochów, przyrzekam ci to, mateczko – rzekła.</p>
+<p>Nazajutrz przed wieczorem Karol opuścił Lisice. Anielka nie czyniła mu już żadnych uwag, tylko kiedy siadał na bryczkę, szepnęła:</p>
+<p>– Karolu, pisuj często do nas, odwiedzaj gdy czas ci pozwoli i pamiętaj zawsze o tem, że masz matkę oraz młodsze rodzeństwo, o których przyszłości wspólnie zemną powinieneś myśleć.</p>
+<p>– Niechaj tylko dostanę u bankiera ową obiecaną pensyę, zobaczysz, że pomagać wam będę – rzekł Karol, podając siostrze rękę na pożegnanie.</p>
+<p>Nazajutrz, to jest w poniedziałek rozpoczęło się czynne życie dla Anielki; codzień jedna z uczennic przybywała, bielony domek zaludniał się powoli.</p>
+<p>W końcu tygodnia już nikogo nie brakło, obie nauczycielki i ośm uczennic stawiło się podług zawartych układów: nauki rozpoczęto.</p>
+<p>Pani Liwska, chcąc ulżyć córce w pracy, wzięła na siebie dział domowego gospodarstwa, a było się czem zająć, bo pan Zagrzebski podarował dwie krówki, trochę drobiu i nawet jednego konika; miała przeto o czem myśleć i zaczem się krzątać, nie wyrzekała wszakże.</p>
+<p>– Zdaje mi się, że przy pracy zdrowszą się czuję – mówiła często do Anielki – a przytem tak mi dobrze pod twoim dachem.</p>
+<p>– Pod naszym – poprawiała ją ze słodkim uśmiechem Anielka – wszakże wspólnie pracujemy.</p>
+<p>Gdy wieczorem po skończonych zajęciach siadały we dwie przy świetle lampy, jedna z robotą, druga z książką w ręku, gdy jeszcze czasami ułatwiwszy się wcześniej od nauk, Wandzia przybiegła do nich, wtedy pani Liwska czuła się tak szczęśliwą, iż łzy słodkiego wzruszenia napełniały jej oczy i kładąc robotę na stole, przyciskała obie córki do serca.</p>
+<p>– Dzieci moje – mówiła drżącym głosem – czemże ja zasłużyłam sobie na tyle łaski u Boga! Takie chwile wynagradzały Anielce wszystkie trudy, zmartwienia i kłopoty codziennego życia, których niestety, niebraknie nigdy nikomu.</p>
+<p>O tych zmartwieniach i kłopotach jakie miała do znoszenia, nikt wszakże nie wiedział w Tworkach, nawet Zosia, ta serdeczna jej przyjaciółka. Nikt nie domyślał się, że często wieczorem, cicho płacze w swoim pokoju i że przyczyną tych łez jest jej mała siostra. Wandzia była niezłą dziewczynką; ale tak rozpieszczoną przez matkę, tak zepsutą zbytkami przez stryjów, iż nie mogła przyzwyczaić się do skromnego życia jakie w Lisicach prowadzono i nieraz siostrze mimowolną przykrość wyrządziła. To narzekała na nudy, to na złe jedzenie, lub żądała nowych sukienek.</p>
+<p>Anielka znosiła cierpliwie jej kaprysy, przed nikim nie skarżyła się, tylko łagodnie przestrzegała siostrę. Przypominała sobie codzień obietnicę uczynioną matce i starała się być wyrozumiałą; chociaż wieczorem zapłakała na siostrę, wstawszy rano, całowała ją znowu czule na dzień dobry.</p>
+<p>Zacne jej serce nie umiało do nikogo chować żalu, a tembardziej do Wandzi, którą kochała tak bardzo. Wandzia nie umiała wszakże oceniać tej dobrej i wyrozumiałej siostry, narzekała na nią w listach, narzekała przed koleżankami. Oceniali ją za to inni: Zosia i oboje państwo Konarscy kochali ją teraz więcej jeszcze niż dawniej. Co niedzielę śpieszył z Tworek do Lisic powóz po panią Liwską, Anielkę i Wandzię, a gdy zbliżyły się święta Bożego narodzenia, wtedy pan Konarski zabrał siostrę na cały ty – dzień do siebie i Wiecusia nawet z Krakowa sprowadził; Karol, lubo był zaproszony, nie przyjechał, obowiązkami się wymawiając.</p>
+<p>– Bierze się zatem do pracy twój Karol – rzekła Zosia do Anielki – próżne były twoje obawy…</p>
+<p>Lecz Anielka westchnęła.</p>
+<p>– Daj Boże, aby tak było jak mówisz – szepnęła – daj Boże, aby tak on, jak Wandzia zmienili się na dobre.</p>
+<p>Nie powiedziała wszakże, iż zaczyna teraz tracić tę nadzieję, że Karol coraz rzadziej do niej pisuje, a Wandzia coraz częściej kaprysi, nie poskarżyła się na nich ani jednem słówkiem.</p>
+<p>Wśród pożytecznej pracy, cichych uciech i cichych smutków zbiegło kilka miesięcy. Drugie wakacye się zbliżały: święta Wielkiej Nocy, uczennice miały się rozjechać, pan Konarski zaprosił przeto siostrę znowu na kilka dni do Tworek.</p>
+<p>Z wdzięcznością przyjęła to zaproszenie pani Liwska, Anielka ucieszyła się niem również, bo w Tworkach najmilej czas jej upływał. Właśnie radzono nad tem, którego dnia z domu wyjechać, gdy stara Wardelska wszedłszy do pokoju, położyła na stole dwa listy, świeżo przez jednego z gospodarzy przywiezione z miasta.</p>
+<p>Pani Liwska poznała natychmiast na jednym z nich rękę pana Wincentego, rozłamała pieczątkę i czytać zaczęła; lecz zaledwie przebiegła parę linii, opuściła ręce i ze smutkiem spojrzała na Wandzię.</p>
+<p>– Wiesz co, pieszczoszko? – rzekła – stryj zaprasza cię do siebie na święta; pisze mi, że Cesia tak tęskni za tobą, że musisz te dwa tygodnie wakacyi spędzić z nią razem. Cóż ty na to?</p>
+<p>– Pojadę – odparła Wandzia bez namysłu, ale potem spojrzawszy na matkę i siostrę, zmieszała się cokolwiek; ich smutne oczy zdawały się czynić jej wyrzuty, że tak chętnie je porzuca.</p>
+<p>– Sama nie wiem – szepnęła.</p>
+<p>– Jedź – rzekła Anielka – rozerwiesz i ucieszysz się z Cesią, może zato z większą ochotą będziesz potem pracować.</p>
+<p>Tegoż jeszcze wieczora suknie i bielizna Wandzi zostały zapakowane, a nazajutrz Anielka odwiozła siostrę do Gdowa, gdzie wysłana przez pana Wincentego garderobiana, czekała na Wandzię.</p>
+<p>Przy rozstaniu dziewczynce stanęły łzy w oczach, Anielce również kilka stoczyło się po twarzy; lecz ponieważ jedna nie objawiła chęci pozostania, przeto druga nie powiedziała tego, co gwałtem cisnęło się jej na usta: "Nie jedź siostrzyczko, bo smutno nam będzie bez ciebie" i Wandzia uściskawszy siostrę, podążyła do Krakowa.</p>
+<p>Nie wesoło tym razem zbiegły Anielce święta w Tworkach, tęskno jej było za siostrą, tęskno za braćmi, którzy również zaproszeni przez pana Wincentego, przyjechać nie mogli. Napróżno Zosia usiłowała rozweselić ją żartami.</p>
+<p>– Nie dziw mi się – rzekła dnia jednego – przyznam ci się szczerze, iż lękam się, że Wandzia nie wróci więcej do nas. Stryjostwo niechętnie widzieli, gdy odjeżdżała od nich, Cesia płakała podobno przy rozstaniu.</p>
+<p>– Jeśli nie wróci, powiem o niej, że nie warta twej miłości – rzekła ze zwykłą sobie żywością Zosia – powinna już rozumieć, że ma względem ciebie obowiązki wdzięczności i że najwłaściwsze dla niej miejsce jest tam, gdzie mieszka jej matka.</p>
+<p>Było to wieczorem w drugie święto, gdy obie przyjaciołki tę rozmowę prowadziły. Anielka chciała właśnie coś jeszcze odpowiedzieć, aby ująć się za Wandzią, gdy na dworze dał się słyszeć turkot kół, podniosły się przeto żywo i do okna podbiegły.</p>
+<p>– Karol! – krzyknęła Anielka, wychyliwszy się przez okno – Karol, doprawdy nie mylę się.</p>
+<p>Przed modrzewiowy dworek zajechał wistocie starszy jej brat; Anielka uszczęśliwiona tą miłą niespodzianką, wybiegła naprzeciw i z okrzykiem radosnym wyciągnęła do niego ręce: lecz Karol zwykle wesoły i żartobliwy, dziś wysiadłszy poważnie z bryczki, uścisnął w milczeniu siostrę, poczem zwrócił się do Zosi.</p>
+<p>– Gdzie wuj? – zapytał, podając jej rękę.</p>
+<p>Amelka spójrzała na niego zdumiona.</p>
+<p>– Czy Wandzia słaba? – odezwała się tonem niespokojnym – ty jakąś złą wieść przywiozłeś Karolu, mów prawdę.</p>
+<p>Karol obrócił się do niej.</p>
+<p>– Stryj Wincenty umarł – rzekł – niechaj mama wszakże nie dowie się o tem zbyt nagle.</p>
+<p>Anielka odetchnęła. Tak była pewną, iż usłyszy coś złego o Wandzi, że ta wiadomość, choć smutna bardzo, ulżyła niemal jej sercu. Poprosiwszy Zosię, aby uwiadomiła matkę o przybyciu Karola, poprowadziła go następnie do wuja. Pan Konarski czytał właśnie dzienniki, ujrzawszy wchodzących, powitał Karola wesoło; lecz, gdy ten powtórzył mu smutną nowinę, zmartwił się widocznie. Nie wiele znał on pana Liwskiego, nie mógł przeto cierpieć nad jego stratą, stanęła mu wszakże siostra na myśli. Pan Wincenty przysyłał 30 rubli miesięcznie pani Liwskiej, przy skromnych dochodach, jakie praca Anielki dostarczała, stanowiło to ważną pomoc.</p>
+<p>– Czy stryj zostawił jakie rozporządzenia względem twej matki? – zapytał niespokojnie.</p>
+<p>– Wczoraj czytaliśmy testament – odparł Karol – zapisał mi 20, 000 guldenów.</p>
+<p>– A innym?</p>
+<p>– Nic.</p>
+<p>– Na ciebie więc spada obowiązek dopomagania matce.</p>
+<p>Karol skinął głową.</p>
+<p>– Nie zapomnę o niej – odparł.</p>
+<p>Wejście pani Liwskiej przerwało rozmowę; chcąc ją powoli przygotować do smutnej wiadomości, Karol powiedział jej, że pan Wincenty jest niebezpiecznie chory i że pragnąc się z nią zobaczyć, wysłał go po matkę do Tworek.</p>
+<p>Trzeba było jednakże w końcu prawdę powiedzieć; pani Liwska mniej spokojnie od córki przyjęła smutną wiadomość, bo jakkolwiek pan Wincenty był względem niej czasami dumny, czasami wyniośle oziębły, w tej chwili pamiętała wszakże tylko o tem, że był to brat jej męża i że nieraz w chwili trudnej podawał jej rękę pomocy.</p>
+<p>Nazajutrz rano, zaraz po śniadaniu pani Liwska pośpieszyła z synem do Krakowa; Anielka nie mogła jechać, gdyż obowiązki nie pozwalały jej na to.</p>
+<p>W kilka godzin po odjeździe matki, pożegnawszy mieszkańców Tworek, sama do Lisic podążyła.</p>
+<p>Dziwnie pustym wydał się jej teraz domek, dziwnie smutnym i głuchym. Już uczennice powróciły, już nauki rozpoczęły się, jej przecież ciągle jeszcze czegoś w nim brakło. Minął tydzień, z Krakowa żadnych wieści nie było, minął drugi, toż samo. Anielka napisała do matki, prosząc o jaknajrychlejszą odpowiedź. Już miała wysyłać z tym listem posłańca, gdy dano jej znać, że pani Liwska przyjechała; uradowana pobiegła przed dom, pani Liwska już wysiadła z bryczki: bladą była, zmienioną na twarzy, znać było po niej smutek i zmęczenie.</p>
+<p>– Mateczka! – wyrwało się z piersi Anielki tonem, w którym radość i długo stłumiona tęsknota brzmiały jednocześnie. – Mateczka kochana! – powtórzyła, całując jej ręce – przecież wróciła, tak tu smutno było bez ciebie; lecz gdzież jest Wandzia? – dodała po chwili, rozglądając się wokoło.</p>
+<p>Pani Liwska podniosła smutny wzrok na córkę.</p>
+<p>– Wandzia – powtórzyła wahająco – Wandzia została.</p>
+<p>– Została! – krzyknęła Anielka i ręce załamała.</p>
+<p>Pani Liwska zbliżyła się do niej, ujęła ją za rękę.</p>
+<p>– Anielko – rzekła łagodnie – Wincentowa i Cesia prosiły mię tak usilnie, iż nie umiałam odmówić. Może też i lepiej się stało: ubywa ci jeden ciężar. Trzydzieści rubli, które pan Wincenty dawał mi miesięcznie, już pobierać nie będę; wprawdzie Karol ma teraz nam pomagać, ale ja na Karola nie liczę.</p>
+<p>– Mamo! – zawołała z wymówką Anielka – czyż sądzisz, że ja liczę… Na niczyją pomoc nie oglądam się i nie oglądałam nigdy, na własną tylko pracę. Wandzia nie przyspożyłaby nam wydatków, cóż znaczyć może jej osóbka przy tylu innych, a tam przywyknie do zbytków, zapomni o nas.</p>
+<p>Tu łzy gorące popłynęły z jej oczów.</p>
+<p>– Ja ją tak kochałam – dodała po chwili. – Ciężką jest praca, której się podjęłam, lecz myśl, że dzieweczka moja korzysta, że mam ją pod swoją opieką i mogę wpływać na nią, wynagradzała mi wszystko.</p>
+<p>– Cóż miałam zrobić, gdy ona sama chciała tego – odparła pani Liwska – wśród łez wyznała mi, iż woli zostać.</p>
+<p>Anielka zasłoniła twarz rękoma, chwilę tak stała nic nie mówiąc, nie poruszając się nawet; zdawać się mogło, że słowa matki zmroziły w niej nagle życie.</p>
+<p>– Dziecko moje – szepnęła przestraszona pani Liwska – co tobie?</p>
+<p>Anielka odsłoniła twarz, była bladą jak marmur, uśmiechnęła się jednak do matki.</p>
+<p>– Chodźmy dalej – rzekła zwykłym słodkim swoim głosem.</p>
+<p>Pani Liwska spojrzała niespokojnie na córkę, lecz Anielka odzyskała jaż zwykłą pogodę.</p>
+<p>– Póki mam ciebie, mateczko, przy sobie – szepnęła pochylając się z pocałunkiem – nie wolno mi narzekać. Mam przytem pracę, którą lubię, przez którą jestem użyteczną społeczeństwu, o! jam jeszcze bardzo bogata.</p>
+<p>Wzruszona tą odpowiedzią pani Liwska, uściskała ją czule.</p>
+<p>– Ty będziesz miała wieczny żal do Wandzi – rzekła.</p>
+<p>– Nie, mamo – odparła Anielka – dziecko z niej jeszcze, do dziecka żalu mieć nie można. Będę do niej pisywać dwa razy na tydzień, będę zdala ją przestrzegać i czuwać nad nią.</p>
+<p>Wieczorem przecież płakała długo, ale płacz jej był spokojny; nie było w nim goryczy, tylko cichy, pełen poddania się smutek, a gdy nazajutrz przyjechała Zosia do Lisic i usłyszawszy, że Wandzia pozostała w Krakowie, objawiła głośno swoje oburzenie, Anielka rzekła do niej:</p>
+<p>– Nie sądź ją za surowo, Zosiu; ją tu i tam ciągnęło serce… ona bardzo kochała Cesię.</p>
+<p>– Już co ty, to każdego usprawiedliwić chcesz zawsze – odparła Zosia – co do mnie, powtórzę raz jeszcze to co już powiedziałam: "Wandzia nie warta jest twej miłości, bo nie odpłaca ci równem przywiązaniem. "</p>
+<p>Anielka uśmiechnęła się łagodnie:</p>
+<p>"Od ukochanych nie żądaj by dali</p>
+<p>Równy dział serca i tak cię kochali,</p>
+<p>Jakeś ty ich ukochała,"</p>
+<p>odparła słowami poetki.</p>
+</div>
+<div type="chapter"><head>V.</head>
+<p>Pięknemi były Lisice, gdy wiosna stroiła je w świeżą zieloną szatę, lub gdy latem szumiały na ich polach zboża; pięknemi były, gdy wichry jesienne miotały zżółkłemi liśćmi po drogach i łąkach, ale podobno najpiękniejszemi, kiedy mroźny grudzień białym całunem je przyoblókł.</p>
+<p>Tak przynajmniej myślała Anielka, gdy stojąc w oknie jadalnego pokoju, patrzyła tęsknym wzrokiem na białe wzgórze, błyszczące zdala sople lodów, strojące dachy skromnych lepianek, na leciuchnym puchem pokryte gałęzie drzew i kryształową wstęgę, wijącą się wśród nich.</p>
+<p>Smutny był to obraz, niemniej wszakże piękny: ulatujące w górze gromady wron, kracząc żałośnie, czyniły go bardziej jeszcze posępnym; lecz jej ten smutek przyrody przypadał do duszy, i w jej sercu było dziś nie wesoło.</p>
+<p>Tęsknym wzrokiem ścigała białe dachy domostw, a myślą cofnęła się w lato minione. Przypomniała sobie ów dzień, kiedy poraz pierwszy jechała z wujem do Lisic. Słońce świeciło wówczas jasno i ciepło, a w jej duszy świeciła tez jasno nadzieja. Wyobrażała sobie jak szczęśliwą będzie w owym białym domku na zielonem wzgórzu, jak mile upływać jej tam będą święta razem z matką i rodzeństwem. Wystawiała sobie jak ochotnie pracować będzie w tym domku, widząc jaka ją za to czeka nagroda. I pracowała rzeczywiście z ochotą, pracowała pilnie i sumiennie, ale niestety nie zyskała tej nagrody, jakiej się spodziewała. Dziś była to wigilia, ona miała przecież spędzić ją samotnie z matką tylko. Pani Liwska przeszła przed kilku tygodniami ciężkie zapalenie płuc, nie wolno jej było jeszcze wyjeżdżać z domu, o Tworkach marzyć nie można było; ztamtąd również nikt do Lisic przybyć nie mógł, bo pani Konarska czuła się niezdrową tej zimy, więc tak mąż jak córka w dzień tak uroczysty odstąpić jej nie chcieli. Anielka była pewną, że Wandzia z braćmi przyjedzie, tymczasem rano dostała listy uwiadamiające ją, iż nie przybędą, bo Cesia prosiła, żeby Wandzia i Wicuś z nią święta, spędzili, a Karol nie powrócił jeszcze z Paryża.</p>
+<p>Już od dwóch lat nie widziała ona starszego brata: otrzymawszy spadek po stryju, Karol pojechał do Francyi w celu kształcenia się wyższego, jak mówił. Zrazu przysyłał matce dwadzieścia rubli miesięcznie i pisywał regularnie, ale powoli począł się zaniedbywać w obowiązku, a teraz już od pół roku nie dawał znaku życia o sobie. Pani Liwska płakała nad tą obojętnością syna, Anielka lubo niemniej bolała, pocieszała ją wszakże to pieszczotami, to słowami nadziei:</p>
+<p>– Nie ma może czasu – mówiła – na święta pewno przyjedzie.</p>
+<p>Ale sama w sercu nie miała tej nadziei. Zapomniał o nas – myślała, stojąc w oknie i zapłakała cicho. Tak wierzyła, iż wpłynie na niego, że go przerobi, tymczasem nietylko że tego uje dokonała, ale Karol zmienił się widocznie na niekorzyść.</p>
+<p>Nikt nie przyjechał do Lisic, nikt z rodzeństwa, a przecież wiedzieć musieli, że matka podniosła się niedawno z ciężkiej choroby, wszakże pisała im o tem.</p>
+<p>U stryjenki przyjemniej im święta upłyną – mówiła do siebie z goryczą – u nas nie mieliby ani takich przysmaczków, ani przyjemności, jakich tam używają…</p>
+<p>Jeszcze stała w oknie, gdy naraz dał się słyszeć na dworze dźwięk dzwonków: ktoś jechał widocznie.</p>
+<p>Może to oni – szepnęła i serce jej zabiło, wytężyła wzrok.</p>
+<p>Na krętej ścieżynie pnącej się pod wzgórze, widać było sanki ciągnione przez parę żwawych koników, a w nich kogoś otulonego futrem: nie była to Wandzia ani Wicuś.</p>
+<p>– Może Karol – rzekła już smutniej Anielka, lecz i teraz się zawiodła.</p>
+<p>Siwe koniki wdarły się na wzgórze, a ona poznała siedzącego w sankach proboszcza. Westchnęła cicho i poszła powitać gościa.</p>
+<p>– Niechaj będzie pochwalony Jezus Chrystus! – rzekł proboszcz, roztwierając na rozcież drzwi – a to zawieja straszna, myślałem że nie dojadę.</p>
+<p>To mówiąc siwy jak gołąbek starzec, podał obie dłonie Anielce.</p>
+<p>– Cóż słychać, jakże zdrowie, bracia, siostry czy przyjechali? – zapytał,</p>
+<p>– Same jesteśmy – odparła Anielka – mama właśnie zdrzymnęła się nieco, lecz pewno już się zbudziła; może ksiądz proboszcz pozwoli dalej i otworzyła drzwi do przyległego pokoju. – Mateczko, gościa mamy – rzekła – ksiądz Jan przyjechał.</p>
+<p>Pani Liwska, która drzymała rzeczywiście, podniósłszy się spiesznie z kanapki, rozjaśniła przygaszoną lampę, poczem podała rękę proboszczowi, prosząc, aby zajął miejsce w fotelu.</p>
+<p>– Coś smutne mi jesteście, moje panie – rzekł ksiądz, przypatrując się uważnie matce i córce –</p>
+<p>coś wam dolega; przyznajcie się przyjacielowi, a lżej wam będzie.</p>
+<p>Samotne dumanie rozdrażniło nieco Anielkę, słowa księdza wywołały łzy w jej oczach; nie chcąc zdradzać się z niemi, oddaliła się szybko pod pozorem, iż musi poczęstować gościa przysmaczkami własnej roboty.</p>
+<p>– Biedne dziecko – westchnęła za nią pani Liwska – pracuje ciężko od rana do wieczora i nie ma nawet tej nagrody, żeby święta wesoło spędzić mogła.</p>
+<p>– Nie ma nagrody za swoją pracę; a, nie bluźnijcie dobrodziejko – odezwał sic proboszcz z ożywieniem. – Czyż może być piękniejsza nagroda od tej, którą to poczciwe dziecko zyskało. Ludzie ją cenią, szanują, kochają, gdzie pójdę tam tylko słyszę: "Cóż to za zacna osoba ta panna Aniela!"</p>
+<p>– Tak, obcy ją cenią i kochają, ale swoi płacą obojętnością.</p>
+<p>– Ha! nie każdemu Bóg jedno dał – odparł ksiądz.</p>
+<p>W tej chwili weszła Anielka z tacą pełną przysmaczków i postawiła ją na stole.</p>
+<p>– Te wszystkie specyały – rzekła z uśmiechem – z Lisic pochodzą: orzechów i jabłek dostarczył nam nasz ogródek, ciasta mojej własnej są roboty. Liczyłam na gości, ale się zawiodłam…</p>
+<p>Ostatnie słowa wymówiła z widocznem rozżaleniem.</p>
+<p>– Domyślam się, liczyłaś na siostro i braci – rzekł proboszcz – no, ależ to się nie zmarnuje; braci i siostr nie brak w Lisicach, poszukaj ich tylko w ubożuchnych chatkach. Wiesz co, dziecie, zostanę z wami na wigilii, a potem zejdziemy ze wzgórza i przysmaczki między dziatwę Lisic rozdzielimy.</p>
+<p>Anielka uśmiechnęła się wesoło.</p>
+<p>– Dziękuję wam, księże Janie, za tę radę – odparła – aż mi jaśniej na sercu myśląc, jaką dziś radość sprawię w Lisicach.</p>
+<p>I ożywiona tą szlachetną myślą zajęła się przygotowaniem do wieczerzy, a gdy na niebie błysnęła pierwsza gwiazdka, zaprosiła do stołu matkę i proboszcza. Pani Liwska patrząc na uśmiechniętą twarz córki, rozpogodziła powoli zasępione czoło i z zajęciem słuchała nowinek, jakich udzielał jej proboszcz. Był to zacny, wesoły a przytem rozumny starzec, mile upływał czas w jego towarzystwie; bo i pożartować umiał i radę serdeczną udzielić i rozmowę poważną poprowadzić. Więc chociaż tylko we troje siedli do wigilii, nie nudzili się przecież; raz poważnym, raz żartobliwym tonem prowadzona gawędka, nie ustawała ani na chwilę.</p>
+<p>Po wieczerzy wyładowawszy spory koszyk przysmaczkami, Anielka zwróciła się do proboszcza.</p>
+<p>– Pójdziemy zatem? – zapytała.</p>
+<p>– Pójdziemy – odparł podnosząc się od stołu – mam przy sobie kilkanaście elementarzy z obrazkami: kto z dziatek pacierz zmówi bez omyłki, elementarz dostanie.</p>
+<p>Otuliwszy się w futra, spuścili się niebawem ze wzgórza, Anielka żwawym krokiem szła naprzód, za nią podążał proboszcz; cisza uroczysta panowała wokoło, tylko śnieg skrzypiał im pod nogami, a od wioski dochodziły echa nuconych pieśni kolędowych w chatach. Ciemno było wokoło, śnieg grubemi płatami padał; tylko maleńkie okna chatek błyszczały tu i owdzie, bo dzisiaj w najuboższej lepiance Lisie świecił ogień na kominie, w najskromniejszej chatce obchodzono pamiątkę narodzenia Zbawiciela.</p>
+<p>Wreszcie dotarli do jednej, Anielka zatrzymała się, proboszcza naprzód puszczając. Starzec pchnął drzwi i wszedł do wnętrza, tam jakże miły przedstawił się im obrazek. Przy kominie, na ławie dębowej siedział średnich lat mężczyzna z łokciem opartym o , z ręką w bujne włosy zapuszczoną; nucił na głos kolędę, a nogą poruszał kołyskę, w której maleńka leżała dziecina. Dwoje starszych dziatek, siedząc pod kominem, wtórowało mu w pieśni, a młoda jeszcze kobieta uwijała się po izbie, misy sprzątając ze stołu, pod którym wiązka siana leżała.</p>
+<p>– Niech będzie pochwalony Jezus Chrystus! – rzekł proboszcz, posuwając się naprzód.</p>
+<p>Słowa te sprawiły zamięszanie w chacie: dzieci ścisnęły się w jednę kupkę i oczy szeroko rozwarły; mężczyzna porwał się z ławy, kobieta stanęła w środku izby.</p>
+<p>– Na wieki wieków! – odparli oboje, nie poznając jeszcze proboszcza.</p>
+<p>– Przyszliśmy z kolędą dla dziatek – odezwała się Anielka – każcie im matko pacierz zmówić.</p>
+<p>Teraz dopiero domyśliła się kobieta, kto zawitał w progi ich chaty.</p>
+<p>– Maryś! Franek! chodźta tu ino. – Dzieciątko Jezus przysłało swego aniołka, trzeba pacierz zmówić – zawołała.</p>
+<p>Nie znały dzieci Anielki, bo zajęcia nie dozwalały jej zabiegać do chat. Spojrzawszy na słodko uśmiechnięte usta dziewczęcia, na pełne dobroci oczy, uwierzyły matce. Zesłany anioł miał białą błyszczącą szatę, tak się im przynajmniej zdało, bo śnieg ustroił wspaniale Anielkę; więc zalęknione poklękły i złożywszy pobożnie rączęta, zmówiły pacierz bez omyłki, poczem dostały każde książeczkę, a w dodatku jabłuszek i pierników.</p>
+<p>Idąc od chaty do chaty, Anielka wszędzie wywoływała zrazu zdumienie, a potem głośną radość. Wszędzie dziatki brały ją za anioła Bożego, i aniołem była rzeczywiście, który zstąpił z bielonego domku wzgórza między chaty wieśniacze, aby siać wśród nich szczęście i wesele.</p>
+<p>Wróciwszy do domu dowiedziała się, że matka poszła już do swego pokoju, proboszcz pożegnał ją przeto, wsiadł do sanek i ruszył do pana Zagrzebskiego a ona pośpieszyła do matki. Pani Liwska nie spala jeszcze, wyciągnęła do niej ręce.</p>
+<p>– Nie źle zeszła nam wigilia – rzekła, westchnąwszy smutnie – wszak prawda, dziecię? poczciwy proboszcz rozweselił nas trochę; jakby to było pięknie, gdyby oni byli przyjechali.</p>
+<p>Anielka przyklękła przy łóżku matki, ujęła obie jej ręce i do ust przycisnęła.</p>
+<p>– Nie myślmy już o tem, mateczko – rzekła – wszakże im dobrze u stryjenki, nie brak im niczego. I mnie już teraz dobrze na duszy, tyle radości sprawiłam moją kolędą. Jutro dziatwę zaproszę do siebie na podwieczorek: wszak pozwolisz mateczko? Stół zastawię suto, zagram im krakowiaka, niechaj użyją święta; zapomnimy o sobie, patrząc na ich szezęście i będzie nam znowu dobrze razem.</p>
+<p>– Poczciwe moje dziecko – szepnęła pani Liwska i wzruszona uścisnęła córkę czule.</p>
+<p>Już godzina dziesiąta wybiła na wielkim zegarze ściennym w jadalnym pokoju, Anielka przecież jeszcze nie spała; pisała list do Tworek, do swej ukochanej Zosi, z którą chciała się podzielić wrażeniami dnia minionego.</p>
+<p>"Ty pewno równie spokojnie spędziłaś wigilią – kreśliła żywo po papierze – i równie też przyjemnie jak ja… Nie zapomniałaś pewno o mieszkańcach Tworek, a teraz cieszysz się nagrodą jaka cię spotkała za spełnienie dobrego uczynku. Przekonałam się, Zosiu, że gdy w sercu mamy zadowolenie z siebie, to niema wtedy dla nas smutnego położenia. "</p>
+<p>Nagle przeraźliwe jakieś krzyki przerwały jej pisanie; rzuciwszy pióro, zerwała się od stolika i do okna pobiegła.</p>
+<p>– Ogień! – krzyknęła – ogień w Lisicach! Krwawe słupy płomienia wznosiły się z pod wzgórza: jedna z chatek wioski płonęła. Czerwona łuna już roztoczyła się na niebie, jasno oświecając Lisice; zbudzone wrony zrywały się z drzew ze złowrogiem krakaniem, wieśniacy lamentując głośno, biegali tu i owdzie, wołając o ratunek.</p>
+<p>Pierwszą myślą, jaka obudziła się w sercu Anielki było, iż matka przestraszy się zapewne tego zgiełku; pobiegła przeto do niej: pani Liwska nie spala jeszcze.</p>
+<p>– Co się stało? – spytała przerażona.</p>
+<p>– Niech mateczka będzie spokojną – rzekła Anielka – pali się we wsi, lecz ludzie już pobiegli z pomocą; ja zaraz tutaj wrócę.</p>
+<p>To powiedziawszy udała się śpiesznie do kuchni i zarzuciwszy na siebie futro, kazała starej Wardelskiej iść do pokoju matki, czuwać nad nią, sama zaś podążyła w stronę, zkąd widać było krwawe słupy.</p>
+<p>Na końcu wioski stała obszerna chata, dwie rodziny mieściły się w niej, ta to chata paliła się. Ludzie leli ogień wodą, ale ogień buchał coraz mocniej: słaba była nadzieja, aby go przytłumić mogli. Chata zdawała się już być skazaną na spalenie, a w tej chacie spało dziecię maleńkie; tak przynajmniej wołała młoda kobieta wyrywając się do niej z pośród otaczających ją niewiast, które zapewne z obawy, aby nie rzuciła się w płomienie, otoczyły ją wokoło. Troje drobnych dziatek trzymało ją przytem mocno za suknię, krzycząc by nie odchodziła: był to widok rozdzierający serce.</p>
+<p>Wtem od strony gościńca dał się słyszeć tętent koni. Anielka spojrzała: drogą szeroką pędził oddział konnych, na jego czele jechał młody mężczyzna, postawy wyniosłej, zimny wiatr rozwiewał mu włosy z czoła; koń jego zrywał się niespokojnie, on głaskał go ręką i pochylał głowę ku niemu, jakby mu coś mówił; za nim pędzili ludzie z pochodniami, mając przy boku topory, za konnych oddziałem beczki z wodą: zagrożonym pomoc przybywała.</p>
+<p>– Panie, ratuj mi dziecko! – krzyknęła nieszczęśliwa kobieta i wydarłszy się otaczającym ją kobietom, wyciągnęła ręce do nadjeżdżającego.</p>
+<p>Młody mężczyzna zeskoczył z konia.</p>
+<p>– Gdzież ono? – zapytał.</p>
+<p>– Tam – odparła kobieta, wskazując na palącą się chatę – ogień już dosięga izbę, w której śpi mój maleńki.</p>
+<p>Jedno okno nie było jeszcze zajęte płomieniem, to które wskazała nieszczęśliwą matka, lecz syczące języki już próbowały je dosięgnąć. Przybyły spojrzał wahająco, niebezpieczeństwo groziło wielkie temu, coby się ważył dziecię ratować, lada chwila dach mógł się zapaść. Lecz w tej samej chwili, z głębi chaty wydarł się krzyk dziecięcy, taki rozdarty i taki okropny, iż najtwardsze serce ścisnąć się musiało. Młody człowiek skoczył ku palącej się chacie, pchnął silną dłonią zabite okienko, a potem bez namysłu wsunął się w otwór. Głucha cisza zaległa wokoło, przez chwilę słychać tylko było trzask płomienia i łamanie się belek.</p>
+<p>– Żyje! żyje! – rozległo się naraz w powietrzu.</p>
+<p>W oknie ukazał się znowu młodzieniec, trzymał w objęciach maleńką dziecinę i wyciągnąwszy z nią ręce, podał ją matce, która nie wstrzymywana przez nikogo, przypadła do niego.</p>
+<p>Dziecię zostało uratowane, lecz czyjego wybawca wyjdzie cało, na to nikt jeszcze nie umiał odpowiedzieć. Płomień dosięgnął już okna: bez narażenia życia nie można było przez nie się przedrzeć.</p>
+<p>Ale ten co w niem stał, odważnego snadź był ducha; osłoniwszy głowę zwilżoną płachtą, jaką w izbie znalazł, rękoma uzbrojonemi w grube rękawice, schwycił się okopconej już dymem ramy okna.</p>
+<p>– Boże, ratuj go! – szepnęła Anielka, zasłaniając od przykrego widoku oczy rękoma.</p>
+<p>Próżne wszakże były jej obawy: głośny okrzyk radości wydany jednocześnie przez kilkadziesiąt piersi, oznajmił jej, iż szczęśliwie minął niebezpieczeństwo… Odsłoniła oczy: stał już w pośród swoich łudzi i rozkazy wydawał. Woda lała się strumieniem, topory rozrywały palące się belki: obejrzała się wokoło, czy i dla niej nie było tam co do czynienia. O! było dużo do roboty: tu dzieci drżały od zimna, a nad niemi kobiety łamały ręce; tam, nieco dalej na śniegu, leżał chory starzec i jęczał cicho. Anielka pochyliła się do dwojga najmniejszych dzieci, wzięła je na ręce i futrem otuliła; zrzuciła z głowy wełnianą chustkę i podała ją trzeciemu, aby się okryło; poczem wezwawszy dwóch wieśniaków, kazała im podnieść chorego starca.</p>
+<p>– Niechaj który z was pomoże mu iść na wzgórze – rzekła – mam miejsca teraz dosyć, moge chorym i dzieciom dać u siebie na parę dni schronienie.</p>
+<p>Spełniono natychmiast jej życzenie: dwóch żwawych parobczaków ująwszy starca pod ręce, poprowadziło go za Anielką, która tuląc dwoje maleńkich, w objęciach i wołając starsze za sobą, podążyła na wzgórze.</p>
+<p>Po długich, pełnych poświęcenia usiłowaniach, ogień wreszcie ugaszonym został: część chaty ocalała.</p>
+<p>Osmalony dymem, uznojony potem, młody człowiek co dziecię uratował, obrócił się do swych ludzi:</p>
+<p>– Wracajmy teraz – rzekł – jużeśmy nie potrzebni – poczem wskoczywszy na konia, podążył na gościniec, a ludzie za nim.</p>
+<p>– Czy nie wiesz, Bartoszu, kto była ta panna, która pogorzelców zabrała ze sobą? – zapytał nagle, zwracając się do jednego z jadących bliżej niego.</p>
+<p>– Nauczycielka ze szkoły – odparł zapytany – starszy pan ją zna.</p>
+<p>***</p>
+<p>W trzy dni po tej strasznej nocy, Anielka siedziała znowu sama jedna, zadumana, cicho, w oknie; pani Liwska drzymała w przyległym pokoju: wtem przed ganek zajechały niespodzianie czyjeś sanki. Ciemno już było na dworze, trudno było przeto rozpoznać, kto przybył; będąc pewna że to z Tworek goście zawitali, Anielka pobiegła do sieni. Omyliła się wszakże, jakiś młody nieznajomy, którego rysy twarzy nie były jej wszakże zupełnie obce, stał w sieni. Widziała już gdzieś tę twarz, nie tyle piękną, ile szlachetną; lecz gdzie?… nagle rozjaśniło się w jej myśli.</p>
+<p>– Jeżeli mnie pamięć nie myli, widzę przed sobą tego, który w czasie pożaru ratował mieszkańców Lisic – rzekła, wyciągając uprzejmie rękę.</p>
+<p>– Ratowaliśmy ich wspólnie! – odparł młody człowiek, biorąc dłoń sobie podaną. – Właśnie w sprawie pogorzelców przybywam do pani, od jej przyjaciela i sąsiada – mówił dalej – od pana Zagrzebskiego, którego synem jestem.</p>
+<p>– Pan jego synem? – powtórzyła zdumiona Anielka – proszę dalej, do pokoju: to nasz dobroczyńca.</p>
+<p>I wprowadziwszy gościa do jadalni, pobiegła, oznajmić matce radosną nowinę.</p>
+<p>Wiedziała ona, iż pan Zagrzebski ma syna, ale słyszała, że mieszka aż na Podolu w rodzinnych jej stronach, gdzie rodzice pierwsze lata szczęśliwego pożycia spędzili; zdziwiła się przeto, zkąd teraz zjawił się tutaj. Nie czekając aż matka będzie mogła wyjść, pośpieszyła z powrotem do jadalni i prosząc gościa, aby zajął miejsce około kominka, pytać go poczęła o ojca.</p>
+<p>Nie wesołą wszakże otrzymała odpowiedź: pan Zagrzebski był słaby, chciał sam odwiedzić Anielkę, lecz nie był w stanie; prosił ją przeto, aby przyjechała do niego, gdyż chce z nią pomówić o losie pogorzelców,</p>
+<p>Anielka miała jeszcze kilka dni wolnych, obiecała przeto, iż nazajutrz stawi się na wezwanie.</p>
+<p>– Ojciec przyśle po panią konie – rzekł pan Stanisław, takie było imię gościa – a zaraz wieczorem będziesz mogła pani powrócić do Lisic, gdzie jej obecność zapewne potrzebna.</p>
+<p>Po chwili zjawiła się i pani Liwska, witając serdecznie gościa. Ona również wiedziała iż mieszkał na Podolu, poczęła przeto dopytywać się o dawnych przyjaciół i znajomych. Żyli wszyscy, powodziło się im dobrze; ona jedna doznała tak przykrych zmian losu: łza zakręciła się w jej oku.</p>
+<p>– O! nie dziw mi się pan – rzekła – ja nie nad sobą płaczę, tylko nad jej losem.</p>
+<p>Tu wskazała wzrokiem córkę.</p>
+<p>– Marzyłam dla niej przyszłość łatwą, spokojną, a ona biedaczka jakże trudne, pracowite ma życie!</p>
+<p>– Mateczko! – zawołała z wymówką Anielka – czyż ja się skarżę kiedy?</p>
+<p>Pani Liwska podała jej rękę.</p>
+<p>– Tem więcej warta jesteś lepszego losu – rzekła, całując ją w czoło.</p>
+<p>Ta prosta scena wzruszyła gościa.</p>
+<p>– Każdy ma swoje krzyżyki do znoszenia – rzekł smutnym głosem – i my, pani, do szczęśliwych liczyć się nie możemy. Miałem cztery lata, gdy matkę straciłem; rodzice moi mieszkali niegdyś na Podolu, lecz po śmierci matki, ojciec porzucił je, majątek wypuściwszy w dzierżawę i przeniósł się w obce zupełnie nam strony. Żyliśmy długo samotni zupełnie, ojciec nie mógł bowiem otrząsnąć się z rozpaczy: dziecinne moje lata zbiegły bardzo smutno… I teraz niewesołe wiodę życie: tęsknię za stronami, w których się wychowałem, za ojcem, który na Podole nie chce powrócić, za towarzyszami lat dziecinnych; a żal nam obu pozbywać się tego majątku: tak piękne jego położenie, tak urodzajna ziemia… Sam teraz w nim gospodaruję i widzę, że to klejnot wysokiej wartości.</p>
+<p>Wpadłszy na ton serdeczny, rozmowa toczyła się żywo; gość ani spostrzegł, jak mu zbiegły dwie godziny: spojrzawszy na zegarek, na którym wskazówki już siódmą głosiły, porwał się z krzesła.</p>
+<p>– A to się zasiedziałem! – rzekł z uśmiechem – już ojciec mi mówił, że w Lisicach czas mile upływa: sam się teraz o tem przekonałem – i chciał się pożegnać z mieszkankami bielonego domku, ale pani Liwska prosić poczęła, aby pozostał na wieczerzy.</p>
+<p>– Niebawem podadzą – mówiła – a mnie tak miło słuchać o Podolu; spełnij pan dobry uczynek i pozostań z nami: do Lisic rzadko kiedy goście zajeżdżają.</p>
+<p>Proszony tak uprzejmie gość pozostał, zabawił nawet aż do dziesiątej, a gdy odjechał, Anielka nie mogła sie… odchwalić jaki łatwy w rozmowie, jaki wykształcony i uprzejmy.</p>
+<p>Nazajutrz jeszcze przed dziesiątą rano, przed bielony domek zajechał powóz pana Zagrzebskiego i Anielka pośpieszyła do Wólki. Wiedziała ona już, że pan Zagrzebski jest chory, lecz przypuszczała że to słabość chwilowa; zmartwiła się też szczerze, gdy go zobaczyła.</p>
+<p>W samą wigilią, gdy wszczął się pożar w Lisicach, dostał jakiegoś silnego uderzenia krwi na mózg. Energiczna pomoc lekarska wróciła mu wprawdzie przytomność, lecz od tej chwili kilkakrotnie ponowiły się ataki; z każdą chwilą odbiegały go coraz bardziej siły: mówił ciągle o śmierci.</p>
+<p>Ujrzawszy wchodzącą, powitał ją wesołym uśmiechem, lecz potem zaraz posmutniał.</p>
+<p>– Dobrześ pani zrobiła, przybywając tak śpiesznie – rzekł – mnie się już niewiele należy, a mam dużo, dużo ci do powiedzenia. Słyszałem coś uczyniła dla mieszkańców Lisic: Bóg ci zapłać za nich. Wiem przecież, iż dłużej trzymać nie będziesz mogła pogorzelców, gdyż uczennice twoje, lada dzień mogą się zjechać; przyślij mi ich zatem, powiedz im, że mam dla nich chatę: dopóki spalonej nie odbudują, będą w niej mogli spokojnie mieszkać. To jedno, a teraz drugie: już mówiłem o tem z synem; bądź więc spokojną: nie będzie miał nic przeciwko temu… Lisice są od dziś dnia twoją własnością, już akt formalnie spisany: Stanisław zrzekł się ich na twoje imię.</p>
+<p>– Lecz czemże zasłużyłam sobie na tyle dobroci? – szepnęła zmieszana Anielka.</p>
+<p>– Czem? – odparł pan Zagrzebski – tem, iż sumiennie spełniałaś swoje obowiązki, a takich nie wiele znałem; tem, żeś była dobrą córką i wyrozumiałą siostrą. Proboszcz zna cię dobrze: on mi mówił często o tobie.</p>
+<p>Szczęśliwy jestem, Stanisławie – dodał, zwracając się do syna – szczęśliwy nad wyraz, iż poznałeś tę zacną istotę, a byłbym jeszcze szczęśliwszy, gdybym córką mógł ją nazwać.</p>
+<p>To powiedziawszy, wysilony snać długą mową, umilkł, niebawem począł jednakże znowu:</p>
+<p>– Anielko! pozwól mi się w ten sposób nazywać: gdyby los zabrał cię kiedy z tych stron, gdybyś porzuciła z czasem teraźniejsze twoje obowiązki, pamiętaj, iż życzeniem mojem jest, aby ów pensyonat zawsze istniał w Lisicach. Wystaraj się wtedy o jaką zacną osobę, której mogłabyś powierzyć ten zakład; a gdy po pięciu latach przekonasz się, że sumiennie spełnia swoje obowiązki, oddaj jej na własność Lisice z temi samemi warunkami, które ja teraz kładę na ciebie.</p>
+<p>Anielka zsunąwszy się z krzesła na , cicho płakała. Słabnący głos chorego, rozporządzenia które czynił, rozdzierały jej serce; w pierwszej chwili wierzyć nie chciała, ale teraz zrozumiała, że to ostatnie jego godziny, a żal jej było tego przyjaciela, któremu tyle winną była.</p>
+<p>Pan Zagrzebski położył dłoń na jej głowie.</p>
+<p>– Niechaj Bóg błogosławi zawsze i wszędzie twoim krokom – rzekł – czy w trudzie, pracy i w mierności iść będziesz jak dotąd, czy w dostatkach i pomyślności, niechaj zawsze czuwa nad tobą.</p>
+<p>Wzruszająca to była scena: stojący zdala Stanisław nie mógł powstrzymać się od leż… przykląkł przy niej.</p>
+<p>– Pozwól, pani, aby ojciec razem nam pobłogosławił – rzekł cicho.</p>
+<p>Anielka nic nie odpowiedziała, nie oparła się przecież temu życzeniu.</p>
+<p>Rozjaśniła się twarz chorego, wyciągnął obie ręce nad głowami klęczących.</p>
+<p>– Córko moja – rzekł drżącym głosem – synu mój, bądźcie szczęśliwi!….</p>
+<p>***</p>
+<p>W tydzień po owym dniu, w małym kościółku wsi Wólki, dzwony żałobnie brzmiały, smutny obrzęd tam obchodzono, pogrzeb dziedzica. Wieśniacy nieśli trumnę na własnych ramionach, przodem postępował ksiądz Jan; za trumną Stanisław, prowadząc Anielkę pod rękę, za niemi przyjaciele i sąsiedzi.</p>
+<p>– "Znaliście go – rzekł ksiądz Jan, gdy orszak żałobny zatrzymał się nad grobem – żył dla szczęścia drugich, pracował dla dobra ogółu, okój zatem jego popiołom; a wy, którzy otaczacie jego trumnę, naśladujcie jego życie… Nie płaczcie nad nim: on szczęśliwy, zostawił zacne po sobie wspomnienie; zostawił syna, co jego śladami iść bedzie, zostawił szereg uczynków, które ciągłe owoce wydawać będą: on na ziemi żyć będzie wiecznie."</p>
+</div>
+<div type="chapter"><head>V.</head>
+<p>W maleńkim, zbytkownie urządzonym pokoiku, na miękkiej, aksamitem krytej kanapce, siedziała dziewczynka lat trzynaście liczyć mogąca, strojna w nową sukienkę, obok niej starszy, najwyżej o lat dwa chłopiec. Oboje byli zadumani, oboje milczeli; wtem rozsunęły się firanki kryjące drzwi od przyległego pokoju i ukazał się w nich młody człowiek, lat dwadzieścia parę liczyć mogący, o twarzy posępnie zmarszczonej.</p>
+<p>– Stryjenka nie da się przebłagać – rzekł, przestąpiwszy próg – powiada, że wiedzieć więcej o nas nie chce.</p>
+<p>Siedząca na kanapie dziewczynka zerwała się gwałtownie.</p>
+<p>– Czy i o mnie? – zapytała.</p>
+<p>– I o tobie: pisze właśnie list do mamy, aby przyjechała po ciebie. Powiada, że z każdym dniem stajesz się kapryśniejszą, bardziej wymagającą, że nie oceniasz łask, które świadczy dla ciebie; zapominasz iż nie masz majątku, więc dla dobra twego trzeba, abyś wróciła pod opiekę Anielki.</p>
+<p>__ Pod opiekę Anielki, teraz, gdy ty straciłeś wszystko co ci stryj zapisał i w niczem przyjść jej w pomoc nie możesz; czyż wszyscy troje na jej pracę liczyć będziemy? – odparła dziewczynka, w której czytelnik domyśla się zapewne Wandzi Liwskiej.</p>
+<p>Rozmawiała ona właśnie z bratem swoim starszym, podczas gdy młodszy Wincenty przysłuchiwał się im w milczeniu. Odpowiedź jej zabolała widocznie Karola, zmarszczył bowiem czoło jeszcze posępniej i oczy rękoma zasłonił.</p>
+<p>– Jestem niegodziwy! – zawołał, rzucając się nagle z głośnem łkaniem na krzesło – zmarnowałem wszystko co miałem, wyrzucałem nieoględnie pieniądz, jakgdybym nie miał żadnych obowiązków: co za wstyd, co za upokorzenie dla mnie… Ona rok tylko starsza, a radzi już sobie w życiu, utrzymuje matkę i użyteczną jest społeczeństwu; ja, choć mężczyzna, nic dobrego jeszcze dotychczas nikomu nie zrobiłem, nawet o własnej matce myśleć nie potrafię.</p>
+<p>– Nie rozpaczaj, Karolu – odezwał się milczący dotychczas Wicuś – myśmy wszyscy zawinili względem matki i starszej naszej siostry; gdy one pracowały, myśmy łask stryjenki używali, zapomniawszy o nich całkiem: lecz czas jeszcze złe naprawić. Weźmy się wszyscy troje do pracy szczerze i wytrwale, Wandzia niech jedzie do Anielki, niech się uczy pod jej kierunkiem i stara się być jej pomocą; ty szukaj miejsca dla siebie w zawodzie kupieckim, ja dawać będę korepetycye i dalej, jak niegdyś, pilnie się uczyć. Wynajmiemy we dwóch izdebkę, chociażby na poddaszu; ja napiszę do Anielki, iż dziękuję jej za pomoc, jaką mi przysyła, że już jej nie potrzebuję; ty znajdziesz przecie jakie zajęcie.</p>
+<p>– Nigdy nie przypuszczałem, aby stryjenka tak twarde miała serce – szepnął Karol.</p>
+<p>– Alboż gniew jej nie jest sprawiedliwy, zastanów się tylko Karolu – odparł Wincenty. – Ty wracasz z Paryża, gdzie uczyć się pojechałeś i pokazuje się, żeś już tyle długów tam narobił, iż całe 20, 000 guldenów zapisane ci przez stryja, trzeba poświęcić na ich spłacenie; ja przynoszę na święta najgorszą cenzurę: Wanda oświadcza jej, iż spodziewała się lepszej gwiazdki, że sądziła, iż stryjenka nie będzie robić między nią a Cesią różnicy. Stryjenka była zadobrą dla nas i to nas zepsuło. Póki żył stryj Wincenty, trzymani surową jego dłonią, byliśmy inni: ja uczyłem się dobrze, ty pracowałeś pilnie u bankiera, Wandzia była mniej wymagającą. Zasłużyliśmy na to, co nas spotkało, bo wdzięczni stryjence być nie umieliśmy, ani tej siostrze poczciwej, która sama mając nie wiele, dzieliła się jeszcze tem małem z nami. Nawet wtedy, gdyś ty przestał matce pomagać, ona przysyłała mi zawsze miesięcznie pięć rubli. "Gdy skończysz nauki, pisała mi w każdym niemal liście, wówczas oddasz mi; jesteś szlachetnym chłopcem uczysz się dobrze: nie zawiodę się na tobie. " Tymczasem zawiodła się…</p>
+<p>Przy tych słowach, dwie grube łzy stoczyły się po twarzy Wicusia, otarł je wszakże szybko. – Lecz ja jeszcze złe naprawię – ciągnął dalej – napiszę do niej prawdę, wyznam szczerze winę; ona mnie rozgrzeszy: ona taka dobra… Gdy na Wielkanoc poprawię stopnie, pośpieszę z cenzurą do Lisic.</p>
+<p>Uśmiech powrócił mu na twarz, uścisnął siedzącą obok niego siostrę.</p>
+<p>– Jesteśmy młodzi, Wandziu – począł znowu – nie rozpaczajmy; mamy jeszcze czas, by winy nasze naprawić.</p>
+<p>Właśnie domawiał tych słów, gdy drzwi się rozwarły i stanęła w nich służąca z listem w ręku.</p>
+<p>– Do pana Karola – rzekła zbliżając się do stołu, przy którym rodzeństwo siedziało.</p>
+<p>Karol schwycił pismo.</p>
+<p>– Od mamy – rzekł głosem wzruszonym i rozłamawszy pieczęć, czytać począł. – W takiej chwili, taka nowina, to nowe dla mnie upokorzenie! – zawołał, zasłaniając oczy rękoma.</p>
+<p>Cóż tam takiego? – zapytał Wicuś – czy mogę przeczytać?</p>
+<p>Karol sięgnął po list, podał go bratu.</p>
+<p>– Pan Zagrzebski, dziedzic jednego z piękniejszych majątków Podola, oświadczył się o Anielkę – rzekł ponuro.</p>
+<p>Wicuś rozśmiał się wesoło.</p>
+<p>– Nie widzę w tej nowinie powodu da zmartwienia – odparł – cieszyć się tylko mogę, iż kochana nasza Anielka będzie szczęśliwą. Ojciec pana Stanisława, tyle dobrego świadczył dla społeczeństwa, syn równie zacnym być musi; a potem, mateczka droga, jakże musi być szczęśliwą! Powróci w strony, o których zawsze tak lubi mówić, bo Anielka niezawodnie zabierze ją do siebie. Pędzę jutro do Lisic, żeby obie uścisnąć.</p>
+<p>– Już co do mnie, nie zrobię tego – odezwał się Karol – gotowa pomyśleć, iż ubiegam sięo jej łaski, jako przyszłej dziedziczki Wólki i Czerwionki.</p>
+<p>– Karolu! – zawołał z oburzeniem Wicuś – zazdrość chyba mówi przez ciebie; jak możesz Anielkę posądzać o coś podobnego… A ty, Wandziu, cóż myślisz, czy i ty nie pojedziesz?</p>
+<p>Wandzia płakać zaczęła.</p>
+<p>– Przykre to dla mnie, niezmiernie przykre – rzekła. – Gdy sama ciężko pracowała, jam opuściła jej dach; a teraz, gdy los się do niej uśmiecha, muszę powrócić do niej.</p>
+<p>Wicuś westchnął; czuł że siostra ma słuszność: nie wiedział jak ją pocieszać. On naj – mniej miał sobie do zarzucenia wzglądem Anielki, najserdeczniej ucieszył się też listem matki.</p>
+<p>– Wiem, co – rzekł po chwili – dziś jeszcze pojadą do Lisic, powiem wszystko otwarcie coście tu teraz mówili: zobaczymy co Anielka powie?</p>
+<p>Postanowienie Wicusia trafiło tak Wandzi iak i Karolowi do przekonania, chcieli wszakże zasięgnąć jeszcze rady stryjenki: Wicuś poszedł do niej. Zimno przyjęła go pani Wincentowa, lecz gdy podał jej list matki, gdy powtórzył całą rozmowę, zmiękła nieco.</p>
+<p>– Gorsze miałam o was wyobrażenie – rzekła – jeśli uznajecie swą winę, to daje rękojmię, iż się poprawicie: przebaczam wam zatem. Powiedz Wandzi i Karolowi, że im pozwalam zostać w mym domu, dopóki pierwszy zajęcia nie znajdzie, a drugą siostra sama nie wezwie.</p>
+<p>Jeszcze tegoż wieczora Wicuś podążył do Lisic… Karol i Wandzia o niczem teraz nie mówili, jak o matce, siostrze i o tym nieznanym, który miał się stać wkrótce blizkim członkiem ich rodziny. Uznawali słuszność słów Wicusia, dużo zawinili względem matki i siostry: jakże dawno nie byli już w Lisicach, wiedzieli że matka chora, a przecież żadne z nich nie pośpieszyło do niej, nie pomyślało nawet, czy nie brak jej na czem. Wszystkie trudy, wszystkie kłopoty ponosiła Anielka: słusznie ją teraz los wynagradzał.</p>
+<p>– Chociażby nawet odwrócili się od nas, chociażby pan Stanisław nie przyjął nas do swego domu, nie moglibyśmy mieć żalu do nich, bośmy na to zasłużyli – mówił Karol do siostry, a było to coś w dwa dni po wyjeździe Wicusia.</p>
+<p>– Tego Anielka nie uczyni – odparła Wandzia – ona nas nie odepchnie: zadobra jest na to.</p>
+<p>– Nie omyliłaś się, Wandziu, Anielka nigdy was nie odepchnie – odezwał się nagle głos dobrze znajomy poza rozmawiającemi.</p>
+<p>Karol i Wandzia porwali się z kanapki.</p>
+<p>– Anielka! – krzyknęli jednocześnie i z wyciągniętemi rękoma do uścisku, pobiegli naprzeciw stojącej w progu drzwi siostry.</p>
+<p>Anielka wyciągnęła do nich ramiona, chciała ich objąć serdecznym uściskiem, ale oni osunęli się do jej kolan.</p>
+<p>– Przebacz nam – rzekli, a łzy serdecznego żalu płynęły im z oczu.</p>
+<p>– Karolu! Wandziu! co czynicie? – zawołała wzruszona Anielka, pochylając się do nich. – Panie Stanisławie – dodała, zwracając się do stojącego w progu drzwi młodego człowieka w ubraniu żałobnem – patrz, że im warto przebaczyć… Ależ wstańcie już, wstańcie – prosiła znowu siostry i brata – nie czyńcie rai tej przykrości,</p>
+<p>Karol i Wandzia podnieśli się z kolan, rzucili siostrze w objęcia; wspólny uścisk złączył poróżnione chwilowo rodzeństwo, następnie zbliżył się i pan Stanisław.</p>
+<p>– Nie mówmy o tem co było – rzekł, podając najprzód Wandzi, potem Karolowi dłoń na pojednanie – nie psujmy sobie obecnej chwili szczęścia przykremi wspomnieniami.</p>
+<p>Radosne powitania zwabiły niebawem panią Wincentową, a za nią Cesię, trzynastoletnią panienkę. Spostrzegłszy Anielkę i kogoś jeszcze obcego, domyśliła się, że to pan Zagrzebski. Pani Wincentową powitała oboje serdecznie i zaprosiła na herbatkę.</p>
+<p>Wieczór upłynął wszystkim wesoło, Karol i Wandzia zbliżali się co chwila z pieszczotami do siostry.</p>
+<p>– Dobra, poczciwa Anielko – mówili – jakże my się cieszymy twem szczęściem.</p>
+<p>Anielka uśmiechała się do nich.</p>
+<p>– I ja też cieszę się wami – odpowiedziała – Wicuś powtórzył mi wszystko, wiem, że szczerze żałujecie waszego postępowania. Ty Wandziu, choć się opierasz, pojedziesz ze mną, będziesz z nami i z mamą mieszkać; ciebie Karolu, pan Stanisław postanowił wziąść do Wólki, będziesz, się tam uczył praktycznie gospodarstwa rolnego, będziesz się wyrabiał pod kierunkiem zacnego tamtejszego rządcy, pana Serwińskiego. Mówiłeś mi zawsze, iż masz do tego zawodu zamiłowanie, pracuj zatem na tej drodze, a gdy na – będziesz dostatecznego doświadczenia, wówczas, pan Stanisław powiada, iż wypuści ci Wólkę w dzierżawę.Żywy rumieniec wystąpił na twarz Karola.</p>
+<p>– Wdzięczny wam jestem obojgu, za te dowody dobroci – rzekł, spuszczając oczy – lecz przyjąć ich nie mogę… Pamiętasz Anielko, jak powiedziałaś mi kiedyś, iż owo zamiłowanie do zawodu rolnika, to nieszczęsna żyłka próżniacza jaka się we mnie objawia. Miałaś słuszność… zawiniłem już dosyć przez ową nieszczęsną żyłkę, nie chcę więcej grzeszyć, nie chcę dłużej próżnować. Jutro udam się do Wentzla, który jak wiem, posiada jednę z większych fabryk cukru i jak prosty robotnik zawód rozpocznę.</p>
+<p>– Karolu! Karolu! – zawołała Anielka – jakżem szczęśliwa, jakżem dumna tobą, o! dotrzymaj tylko słowa.</p>
+<p>– Nie skończyłem jeszcze – odparł Karol, płacąc pocałunkiem słowa siostry. – Nie możecie Wandzi zabierać do siebie, ona nie ma majątku, trzeba jej przyszłość zapewnić. Pan Stanisław jest tak dobrym, iż chce podjąć się kosztów jej utrzymania, ale my korzystać z jego dobroci nie możemy. Myślałem długo wczoraj o Wandzi i powiem ci, co postanowiłem. Wanda oddaną zostanie na jednę z wyższych pensyi, tam wyrobi sobie patent nauczycielki, poczem oddasz jej opiekę nad szkołą w Lisicach. Możemy wspólnie opłacać jej edukacyą: na to jedno się zgodzę.</p>
+<p>– A więc dobrze, niechaj tak będzie – odparła Anielka – chciałabym wszakże wiedzieć, jak projekt ten podoba się mej siostrzyczce.</p>
+<p>– Mnie? – zawołała Wandzia – ależ ja go tylko z wdzięcznością przyjąć mogę… Czuje się nad wyraz szczęśliwą, iż będę mogła dać ci dowód, że szczerze pragnę, poprawić się z dawnych błędów, wezmę się z zapałem do pracy.</p>
+<p>***</p>
+<p>Pięć lat upłynęło od powyżej opisanych wypadków: była to wiosna piękna, pogodna i ciepła. Już drzewa ustroiły się liściem, już niwy maiły się rozkosznie, a słońce wesoło im przyświecało. Drogą wiodącą wśród zielonych, rozległych płaszczyzn, na których, jak tylko okiem sięgnąć można było, nie wznosiło się żadne drzewko, ani żadna chatka, tylko bujna rosła trawa, jechał mały odkryty powozik, ciągniony przez cztery rącze rumaki; na koźle siedział woźnica i klaskał głośno z bicza, a w powozie trzy osoby ożywioną prowadziły rozmowę. Łagodny wietrzyk poruszał lekko listkami traw, zielone obszary wydawały się zdala jak fale wód spokojnie wiatrem poruszane, roje białych motyli unosiło się nad niemi: uroczy to był widok. Podróżni przypatrywali się z zachwytem temu pięknemu a zupełnie im obcemu krajobrazowi, obcemu powiadam, gdyż poraz pierwszy przejeżdżali oni te strony. Od czasu do czasu z piersi ich wyrywał sio okrzyk zadowolenia, od czasu do czasu, który z nich wychylał sio z powozu, aby objąć wzrokiem całą okolicę, a konie tymczasem raźno parskały; powóz sunął po niezbyt równej drodze szybko jak strzała, ciepły wietrzyk muskał im czoła, białe motyle unosiły się ponad ich głowami: wtem w oddali cóś zamajaczyło.</p>
+<p>– Czy to Czerwionka? – zapytał najstarszy z podróżnych, ciemnowłosy młodzieniec, o myślącej i poważnej twarzy, tu wskazał mury jakiegoś domostwa wznoszącego się, wśród kępy drzew.</p>
+<p>– Tak jest – odparł woźnica.</p>
+<p>Po pięciu minutach znikły podróżnym z oczów zielone płaszczyzny, a w ich miejsce ukazały się chaty, drzewa i ogrody; następnie konie skręciły w prawo na drogę wiodącą, wśród dwóch rzędów wysmukłych topoli, na końcu której widać było dom jednopiętrowy. Był to dwór dziedzica Czerwionki, pana Stanisława Zagrzebskiego.</p>
+<p>Karol, Wicuś i Wandzia, oni to byli bowiem owymi podróżnymi, na jego widok wychylili się z powozu, przed dworem na kamiennych schodkach stało kilka osób, białemi chustkami powiewając na znak radości.</p>
+<p>– Już nas spostrzegli, już nas poznali – zawołał Karol.</p>
+<p>Promień radości rozświecił mu twarz, wydobył chustkę z kieszeni i również powiewać nią zaczął.</p>
+<p>Po chwili powóz zatrzymał się przed domem, Karol wyskoczył z niego, za nim Wicuś i Wandzia. Anielka, Stanisław, pani Liwska zbiegli ze schodków.</p>
+<p>– Witajcie! witajcie! – rozległo się z obu stron, poczem wszyscy szczęśliwi, weseli, pośpieszyli do pokoju, gdzie przybyłych czekała niespodzianka.</p>
+<p>Państwo Konarscy oboje i Zosia zjechali do Czerwionki na święta wielkanocne, które właśnie obchodzić miano. Nikogo nie brakło Anielce: szczęśliwa nad wyraz, rozbierała i zapraszała gości do stołu, na którym czekało ciepłe śniadanie.</p>
+<p>Karol, Wandzia, Wicuś, zaledwie zdążyli powitać rodzeństwo, natychmiast pochwalili się przed siostrą z czem przybyli.</p>
+<p>Wanda przywiozła patent wyższej nauczycielki, Wicuś świadectwo skończonych szkół i dyplom na budowniczego, Karol powiedział, iż pan Wentzel obiecał powierzyć mu posadę dyrektora cukrowni.</p>
+<p>– Daliśmy sobie słowo – kończył wzruszonym głosem – iż nie przestąpimy progu tego domu, dopóki na to nie zasłużymy, lecz dziś sądzę, że dawne winy już zatarte.</p>
+<p>– Dawno zatarte – przerwała bratu Anielka, obejmując go ramieniem – dawno zapomniane – szepnęła, a w ciemnych jej oczach zabłysły łzy.</p>
+<p>Były to wszakże łzy szczęścia: spełniły się zatem jej marzenia; siwa jej matka miała pod jej dachem schronienie, Karol i Wandzia zmienili się na dobre, a słodki głos szeptał w jej sercu, że zmiana ta była jej dziełem…</p>
+<p>– Musisz odpocząć teraz tutaj, Wandeczko, czas jakiś – mówiła tkliwym głosem, zwróciwszy się do siostry – nie dam ci się niczem zajmować przez jakiś czas.</p>
+<p>– Dobrze, siostro – odparła Wanda – lecz… w sierpniu pojadę do Lisic.</p>
+<p>– Nie, droga moja, nie pojedziesz – odparła. Anielka.</p>
+<p>Wandzia zarumieniła się i niespokojnie spojrzała na siostrę.</p>
+<p>– Więc mi nie ufasz jeszcze – szepnęła, smutnie westchnąwszy.</p>
+<p>– Ufam, zupełnie ufam – rzekła Anielka, pochylając się do siostry z pocałunkiem.</p>
+<p>– Stanisławie – dodała, zwracając się do męża – powiedz jej cośmy postanowili.</p>
+<p>Stanisław uśmiechnął się.</p>
+<p>– Pozazdrościłem Lisicom użytecznego zakładu – rzekł biorąc Wandę za rękę – na wzór tamtego takiż sam w Czerwionce wznieść postanowiłem. Wyrobimy sobie pozwolenie, a potem weźmiemy się do dzieła; wszak zgadzasz się na to? Mam już przeznaczony budynek – ciągnął dalej, nie czekając odpowiedzi – będziesz miała obszerne mieszkanie, gdzie razem z matką i uczennicami pomieścisz się wygodnie; my natem zyskamy, bo was będziemy mieli blisko siebie, Anielka nie będzie mi tęsknić za wami.</p>
+<p>Uszczęśliwiona Wandzia rzuciła się siostrze na szyję, Stanisław zwrócił się tymczasem do jej braci.</p>
+<p>– Co do ciebie, Karolu – rzekł – nie chciałeś przyjąć dotychczas żadnej odemnie pomocy, narzucać ci jej przeto nic mogłem, lecz teraz ja mam prośbę do ciebie. Chcę wystawić w Czerwionce cukrownię, otóż proszę cię, abyś przyjął w niej posadę dyrektora; Wicuś jako budowniczy plan nam narysuje i przy budowie pomoże: będzie to dzieło wspólne, z którego wspólne ciągnąć będziemy korzyści.</p>
+<p>Karol wyciągnął do Stanisława rękę i uścisnął mu dłoń życzliwie.</p>
+<p>– Ta prośba nie upokarza mnie, lubo jest nowym dowodem twej dobroci dla nas – odparł wzruszonym głosem – przyjmuję ją zatem chętnie.</p>
+<p>– Wando – rzekł Stanisław, zwracając się znowu do siostry – możesz być spokojną, nie zbraknie ci uczennic, bo sąsiedzi myśl moję z zapałem popierają, a gdy w Czerwionce stanie cukrownia, wtedy zaludni się u nas, wieś pozór miasteczka przybierze.</p>
+<p>Wstawali właśnie od śniadania, więc Wanda zwróciła się do szwagra, by mu podziękować; przysunął się do nich Karol, Wicuś, a za niemi Anielka i wszyscy razem uścisnęli sobie dłonie.</p>
+<p>Widząc to pani Liwska, zbliżyła się do nich wzruszona i kreśląc w górze nad niemi krzyżyk błogosławieństwa, szepnęła drżącym głosem:</p>
+<p>– Kochajcie się tak zawsze, wspierajcie wspólnie a błogosławieństwo Boże będzie z wami.</p>
+<p>– Spełniły się zatem, Anielko, nasze życzenia – odezwała się stojąca nieco dalej Zosia – ty stałaś się podporą twej rodziny, ja opiekunką mej wioski. Szkółka, którą dla dziatwy założyłam, pięknie się rozwija; już dwie dziewczynki uznawszy za zdolniejsze, posłałam z niej do Lisic, a przełożona powiada, że coraz większe czynią postępy. Jednego z chłopców, który także budził nadzieje, zawiozłam do Krakowa, gdzie umieściłam go w jednym z zakładów naukowych. Marynka moja wyrobiła się na dobrą bardzo nauczycielkę, pomaga mi dzielnie w pracy, oddałam jej pod opiekę szkołę, a ona z całą miłością oddaje się dziatwie; otworzyłam też czytelnię w Tworkach, z której wieśniacy, za bardzo nizka opłatę, czerpać mogą książki, gdzie schodzą się na wspólne czytania, którym proboszcz, ojciec lub ja przewodniczymy; mam jeszcze zamiar założyć szpital: w tym celu wybiorę się do Krakowa prosić o pozwolenie władzy. Pamiętasz Anielko, jak to kiedyś powiedziałaś mi, że Tworki to moje państwo, ich mieszkańcy to moi poddani; " zdaje mi się, iż potrafię być dobrą królową, bo państwo moje jest dobrze urządzone, nie widać w niem nędzy, a mieszkańcy jego szczęśliwi, zadowoleni, królowę swoję kochają.</p>
+<p>Anielka podała obie dłonie Zofii, poczem rzuciwszy się sobie w objęcia, dwie przyjaciółki uściskały się serdecznie, szczęśliwe, że szlachetne ich marzenia uwieńczone zostały pomyślnym skutkiem.</p>
+</div>
+</body>
+</text>
+</TEI>

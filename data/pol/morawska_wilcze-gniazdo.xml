@@ -1,0 +1,3101 @@
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0054">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Wilcze gniazdo : ELTeC edition</title>
+<author>Morawska, Zuzanna (1840-1922)</author>
+</titleStmt>
+<extent>
+<measure unit="words">27412</measure>
+</extent>
+<publicationStmt>
+<p>Published as part of ELTeC <date>2019-06-09</date></p>
+</publicationStmt>
+<sourceDesc>
+<bibl type="digitalSource">
+<title>Wilcze gniazdo</title>
+<ref>http://wolnelektury.pl/katalog/lektura/morawska-wilcze-gniazdo</ref>
+</bibl>
+<bibl type="printSource">
+<title>Wilcze gniazdo</title>
+<author>Morawska, Zuzanna</author>
+<publisher>Warszawa: Gebethner i Wolff</publisher>
+<date>1885</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc n="eltec-1">
+<p></p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="pl">Polish</language>
+</langUsage>
+<textDesc>
+<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
+<size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+<reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
+</textDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2020-04-07">JR convert to ELTeC-1</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div type="titlepage">
+<p>Zuzanna Morawska</p>
+<p>Wilcze gniazdo</p>
+<p>powieść z czasów krzyżackich dla młodzieży dorastającej</p>
+</div>
+</front>
+<body>
+<div>
+<p>Dawno to już, dawno, przy zwiedzaniu malborskiego zamku, wskazano nam stojący w obrębie jego murów budynek, nazywając go Wolfshöhle lub szkołą, w której niegdyś kształcono młodzież, zostającą pod opieką krzyżackiego zakonu.
+W lochach zaś zamczyska pokazywano otwory
+kanałów, prowadzących aż do odnogi Wisły. „<emph>Tędy
+to nieraz uchodzili ludzie, przynosząc nie jednę
+biedę krzyżakom</emph>,” — dodał oprowadzający.</p>
+<p>Opowiadanie to nie schodziło nam z myśli, —
+w zamczysku, zamiast rzeczywistości, przesuwały
+nam się tylko zamierzchłe postacie. Zestawiwszy
+opowiadanie z wypadkami, zapisanemi na kartach
+historyi, powołujemy owe postacie do życia, przedstawiając je młodym czytelnikom.</p>
+<quote>
+<p>Z. M.</p>
+</quote>
+</div>
+<div>
+</div>
+<div type="chapter"><head>I</head>
+<p>Pomiędzy dwiema ścianami gęstego litewskiego lasu, stało wielkie ludzkie schronisko. Ba, i to
+nie byle schronisko, lecz jakoby zamek obronny. Na wysokiem wzgórzu, na wzniesieniu grubych
+kłód, i nieociosanych bierwion modrzewiowych, stał
+dworzec długi, z jednej strony dziwnie jakoś od
+dachu spuszczający się ku ziemi, — tak jak oto
+czasami drzewo, które wyrosłszy z korzenia, nie
+od razu strzela ku górze pniem prostym, lecz nie
+mogąc oderwać się od łona swej karmicielki, wyrasta pochyło, czepia się jej jeszcze odroślami,
+wreszcie wzmocnione, prostuje pień i rozszerzając
+gałęzie, roztacza z nich osłonę szeroką, lecz przysadkowatą.</p>
+<p>Z takich to drzew wziął i człowiek wzór wznosząc dla siebie mieszkanie.</p>
+<p>I zamczysko na wzgórzu nie inaczej było sklecone. Wyrastało od jednej strony pochyło, aż od
+drugiej wzniosło się wysoko, i jak drzewo gałęziami, tak zamczysko szeroko rozpiętym dachem osłaniało swoich mieszkańców. Ściany tego schroniska były z wierzchu tak gęsto chrustem obłożone od stóp, aż do okapu tak utkane mchem,
+gliną i tak razem zbite i złączone, iż próżnobyś
+szukał, co tam jest pod tą grubą warstwą, — drzewo czy kamienie.</p>
+<p>Wśród tej warstwy zwierzchniej, widać było
+tylko czworokątne niewielkie okienka, w które
+wiosenne promyki słonka gwałtem się wciskały,
+jakby ciekawe, co tam we wnętrzu się dzieje.
+Lecz żółto-białe pęcherze, któremi przesłoniono
+okna, walczyły z promykiem słonka, wydając tylko od czasu do czasu mrukliwy trzask, to jest,
+gdy wysuszone zwierzchnie żyłki pęcherza, kurcząc się pękały. Lecz jeden otwór nie zasłoniony był pęcherzem, a od wnętrza odsunięta drewniana zapora łatwo przepuszczała ciekawe słonko,
+które wniknąwszy do głębi, zawstydzało swoją świeżością czerwono-żółte światło ognia, rozchodzące
+się na całą izbę od palącej się kłody drzewa, na
+trzonie ułożonym z płaskich kamieni.</p>
+<p>Dym, wychodzący z pod szerokiego okapu
+nad trzonem, znajdował obszerne ujście otworem
+w dachu. Ten wielki trzon, buchający ogniem
+i światłem, był przyjacielem całej rodziny. Obecnie jednak odwracano oczy od ognia, wyglądając
+rychło słonko wszystkich ze schroniska wywabi.
+A słonko wyjrzawszy z za mgły gęstej, przedarłszy
+jej sino-białą oponę, rzuciło cały snop promieni.
+Promienie te były jasne, wesołe i uśmiechnięte, jak
+to zwykle na wiosnę. Igrały więc i ze śniegiem
+i z wodą, błyszcząc w niej miliardem świateł, aż
+zawisły złotemi smugami na skraju czarnego lasu,
+który wierzchołkiem wyniosłych sosen strzelał ku
+górze.</p>
+<p>I woniało w powietrzu od rozgrzanych iglic świerkowych a sosnowych, woniało świeżością ziemi wypuszczonej z pęt zimowych, a też i wodą
+szumiącą, której dostarczały coraz więcej śniegi rozpływające się pod wejrzeniem wiośnianego słonka. Niekiedy zaświergotało ptaszę, wzniosło się
+ku górze i przysiadło na świeżej roli… Tam znów
+robaczek wywabiony ciepłym podmuchem, wypełzał z ziemi i znów skrył się w czarne jej łono, nie
+mając jeszcze dosyć odwagi, aby stawić czoło
+niebezpieczeństwu, które nań czyhało w postaci
+maleńkiego skowronka. Z lasu dochodziły również odgłosy, to łamanie się i trzask gałęzi,
+to ryk dzikiego zwierza, który przeczuwając powrót wiosny, wychodził ze swoich kryjówek,
+aby szukać jasnych ożywczych promieni. W ludziach, jak i w całej przyrodzie, rozbudziło się
+życie, ostrą zimą uśpione; dzieci chwytały wdzierające się przez okna promienie, dziwiąc się, że
+mimo mozolnych usiłowań, nie mogą ich w rękach utrzymać.</p>
+<p>Stary zaś Tubingas, pan zamku, nieopuszczając przez całą zimę łoża okrytego niedźwiedzią
+skórą i wpatrzony ciągle w wielkie ognisko swej
+komnaty, odwracał teraz coraz częściej głowę
+w stronę największego, nie zawartego ni zaporą,
+ni pęcherzem okna, aż wreszcie dnia jednego
+klasnął w potężne dłonie. Z sąsiedniej izby wychyliła się młoda niewiasta, pytając:</p>
+<p>— <emph>Ko notet, Tew’s Kunige</emph>?.</p>
+<p>Starzec ręką wskazał na wdzierające się słońce
+rzeki:</p>
+<p>— <emph>Saule Szilditis</emph>.</p>
+<p>Kobieta roześmiała się radośnie, pokazując białe zęby i żywo wybiegła napowrót, a w zamczysku zapanował ruch niezwykły. Dziecięce głosy powtarzały szczebiotem: „<emph>Saule szilditis!</emph>”;
+powtarzały też same wyrazy usta niewieście, a gdy
+z powagą wymówiły te wyrazy usta dojrzałych mężów, cała drużyna skupiła się około Tubingasa. Wtedy wszyscy wyszli przez niskie drzwi
+schroniska, a spuszczając się przez most ułożony
+z chrustu i kamieni, ciągnęli do ciemnego nieopodal stojącego lasu.</p>
+<p>Tubingas był niegdyś jednym z najmężniejszych Litwinów. Nieraz Lachom, ba i Krzyżakom dał się we znaki, lecz już od lat wielu mógł
+tylko jako Kunigas przewodniczyć ludowi, prowadząc go na doroczne obrzędy. Prowadził go więc i teraz na powitanie wiosennego słońca.</p>
+<p>Z siwą sięgającą aż do pasa brodą, oczy
+mając otwarte, lecz tak dziwnie nieruchome, iż
+od razu poznać mogłeś, że one ni owego jasnego
+słonka, ni ziemi pod stopami, ni czerniejącego lasu nie widzą. A jednak starzec szedł prosto i krzepko, podpierając się grubym sękatym kijem, czasem tylko wyciągnął lewą dłoń przed siebie, nie
+wiedzieć, czy aby poszukać nią miejsca, czy też
+by usunąć zawadę, gdyby się jaka na jego drodze znalazła. Obok niego szedł z jednej strony
+młody silny mężczyzna. Był to wnuk jego, Chroniwos. Mimo wczesnej pory nogi miał obnażone,
+a tylko stopy obute w łapcie z kory przywiązanej rzemieniem, za to skóra, futrem do ciała obrócona, ściągnięta w pasie rzemieniem, okrywała
+go od ramion aż po kolana, za pasem zaś sterczał
+zatknięty topór. Ramiona również jak i nogi były
+wolne od odzieży, a silne i żylaste dłonie same
+już zdawały się być obroną. Po drugiej stronie
+starca szła znana nam już niewiasta, Dowrusa,
+żona Chroniwosa. Odzież jej niczem nie różniła
+się od ubioru męża, ino głowę miała owiązaną
+białą chustą, której długie końce spadały na plecy czerwonawo-żółtej skóry kożucha, a drugą
+takąż chustę przewieszoną miała przez ramię.
+Tuż obok niej biegło kilkuletnie chłopię, Siewrosem zwane, na którego głowie matka od czasu
+do czasu z widoczną miłością kładła dłoń swoją.
+Po za nimi szło jeszcze kilka dziewek Chroniwosa, szła liczna czeladź męzka i żeńska, a z chat, co stały rozrzucone u stóp wielkiego schroniska, również wychodzili mężowie, niewiasty i dzieci, by wspólnie z wojem-kapłanem oddać cześć
+wiośnie.</p>
+<p>Szli więc wgłąb lasu na niewielką wyciętą
+polanę, gdzie pośrodku stał dąb wyniosły. A dąb
+to był dziwny. Niski, gruby od korzenia, wyrastał na kilkanaście silnych i krzepkich gałęzi, szeroko a rozłożyście, które wznosząc się ku górze, skupiały się razem i tworząc jakby w wieniec ubraną głowę na szerokich barkach olbrzyma. Korzenie tego olbrzyma powychodziły na
+wierzch daleko, a wokoło nich ręka ludzka, czy
+natura wyżłobiła wgłębienie, tak, że całe drzewo
+otoczone było obronnym rowem, w który pobożne
+dłonie nawrzucały kamieni mniejszych i większych. Z jednej strony kamienie te ułożone
+w stos, coraz wyżej, stanowiły schody, po których można było wejść aż do gałęzi tworzących
+koronę. U stóp tych schodów, kilka kamieni,
+wgłębionych płasko w ziemię, służyło za trzon,
+na którym zwęglona i dogasająca kłoda drzewa świadczyła o składanej wiecznie płonącej objacie.</p>
+<p>Tubingas, mimo zagasłych oczu, kroczył prosto
+do tej świątyni. Dziecięciem składał tutaj objaty, przez życie całe wiódł syny i wnuki, łatwo mu więc było trafić do tego miejsca.</p>
+<p>— Dogasa ogień — rzekł stanąwszy przed dębem i wciągnąwszy w siebie powietrze, przepełnione żywicznym dymem. — Dogasa, lecz nie zgaśnie, bo światło z góry da mu iskrę świętą.</p>
+<p>I to mówiąc, trzymanym w ręku kosturem odkrzesywał zwęglone cząstki drzewa, Chroniwos zaś rzucił pęk suchych korzeni i krótko połamanych gałęzi, które jeszcze w jesieni zatknął pod powałę, iżby, wyschłe przez zimę, posłużyły do podsycenia wiosennego ognia. Wślad zaraz za mężem, rzuciła Dowrusa pęk zboża i ziół przeróżnych, również na ten cel przetrzymanych w chacie, po niej zaś Siewros, chłopczyna, rzucił garść zboża. Przystępowały potem dziewczęta i czeladź, a wszyscy przybyli dorzucając zeschłe zioła i korzenie, wołali:</p>
+<p>— Cześć słońcu, cześć wiośnie!</p>
+<p>— Cześć słońcu, cześć wiośnie! — powtarzano
+do koła. Powoli głosy te przeszły w jakiś śpiew tęskny, a ogień wznosił się, rozlewając szeroko. Dąb stary szumiał tam w górze rozłożystemi konary, jakby przywtarzał śpiewom smętnym
+zebranej drużyny. Drzewa chyliły wierzchołki, podając jedne drugim ów śpiew błagalny, który
+zlawszy się w jedną harmonijną całość, szumem rozniosły od polany do polany jedność objaty świętego ognia, Zniczem zwanego.</p>
+<p>Lecz wtem, wśród szumu drzew i tęsknego
+śpiewu, dał się słyszeć łomot gałęzi i ciężki tętent koni, a nawet chrzęst i szczęk broni.</p>
+<p>Nagle umilkły śpiewy, a natomiast wzniósł się
+okrzyk trwogi i przerażenia. Tubingas ścisnął
+pięść, aż zatrzeszczały członki krzepkiej jego dłoni, i rzucił przekleństwo, a z niem razem polano w palący się ogień, i nie odwracając zagasłych oczu od płomienia, stał nieruchomie. Lecz Chroniwos sięgnął za topór, będący za pasem, bo po tym odgłosie poznał odrazu nieproszonych gości, z którymi już nieraz chodził w zapasy.</p>
+<p>Nie potrzebował też czekać długo, bo oto z gęstwiny, co otaczała polanę, ukazało się kilkunastu
+jezdnych na koniach, a nakreślony biały krzyż
+na ich lekkich zbrojach, łatwo dawał poznać,
+jacy to byli przybysze.</p>
+<p>— Niewiasty do schronisk! — krzyknął ochrypłym z przerażenia głosem Chroniwos, ujrzawszy
+wyłaniające się postacie. I począł szykować się
+z czeladzią do boju.</p>
+<p>— Do schroniska z dziećmi! — powtórzył groźnie, spojrzawszy na Dowrusę, tulącą do kolan
+chłopię i na skupiające się około niej dziewczęta,
+gdy tymczasem reszta niewiast i dzieci z krzykiem w las uciekały. Dowrusa nie posłuchała
+jednak głosu męża, stała nieruchomie, jak gdyby
+widok przybywających zamienił ją w martwą postać pilnującą świętego ognia. Dopiero Chroniwos krzyknął:</p>
+<p>— Siewrosa ocalić!</p>
+<p>Dowrusa drgnęła, pochwyciła syna, owinęła
+przewieszoną przez ramię płachtą, i go do
+piersi, uciekać co tchu poczęła, a za nią trzymające się jej rańtucha dziewczęta.</p>
+<p>Wielki też był czas potemu, bo przybysze
+otoczyli polanę dokoła, a krzyk dochodzący z lasu świadczył, że musiało ich tam być więcej w gęstwinie, czyhających na zdobycz, która im się łatwym sposobem w uciekających nastręczyła.</p>
+<p>Przybyli nie myśleli jednak staczać walki,lecz rzucili się na bezbronną a jednak gotową do obrony gromadkę i jęli wiązać, nie żałując przytem razów.</p>
+<p>Chroniwos, nie czekając napadu, bronił przysępu toporem, wyjętym z za pasa, a inni, choć
+zlekka uzbrojeni, dopomagali mu w walce.</p>
+<p>Tubingas, nie odwracając się od dębu, szeptał
+ciche wyrazy, zaciskał pięści, i podsycał ogień,
+jak gdyby walka wrząca wokoło, wcale go nie obchodziła. Aż wreszcie przypadł któryś z krzyżaków do niego i uchwycił za skórę kożucha,
+otaczającego obrosły kark starego kapłana. Tubingas szarpnął się i przypadł ku ziemi, a szarpnięcie musiało być nie lada, gdyż w ręku krzyżaka zostało kawał skóry, okrywającej krzepkie ciało starca.</p>
+<p>— Ha, ha, ha! — zaśmiał się napastnik, schylając się, by porwać swoją ofiarę, gdy tymczasem Tubingas, odwróciwszy się rzucił mu w twarz
+gorejącą kłodą drzewa, która rozsypując drobne
+węgle i odłamki gorejące, raniła bliżej stojących.</p>
+<p>— <emph>Teusend Teufel</emph>! — wrzasnęli oślepieni ogniem i dymem.</p>
+<p>Tubingas zaś brał gołemi rękami zarzewie
+i rzucał je do koła, a pociski były tak celne, iż każdy, co się usiłował przybliżyć, padał oślepiony, lub uciekał, wrzeszcząc:</p>
+<p>— <emph>Teufel! Es ist selbst Teufel</emph>!</p>
+<p>I rzeczywiście można było przypisać jakąś nadprzyrodzoną siłę ślepemu starcowi, broniącemu się tym świętym ogniem, któremu cześć oddawał. Lecz spojrzawszy na dłonie jego szerokie, grube, jakby mułem porosłe, można było
+uwierzyć, że w dłonie te, jako w żelazne kleszcze, brać mógł żar bezkarnie.</p>
+<p>
+I cofali się przed tą jego bronią krzyżacy,
+strachały się oślepione konie, tratując zarówno
+upadłe ciała panów swoich, jak i broniących się Litwinów.</p>
+<p>A był to mały oddziałek krzyżacki, który,
+często w kilkadziesiąt koni, na ochotnika przedzierał się przez litewskie lasy dla zdobyczy skór,
+a głównie niewolnika. Najznakomitszą jednak
+zdobyczą, były dla nich małe litewskie chłopięta; pojmawszy je, hodowali, ucząc się od nich niektórych wyrazów litewskiej mowy, przyuczając
+swojej i zmuszając zarazem podczas napadów do
+wskazywania dróg, sobie nieznanych. Wychowane chłopię wśród wrogów, gdy ujrzało się na
+ziemi swojej, gdy owionął je szum lasów, lub
+doleciał dźwięk mowy, nie znając niebezpieczeństwa, na jakie narażało swoich, z wyciągniętemi
+rękami biegło do miejsc sobie drogich, wskazując
+bezwiednie drogę do kryjówek, im tylko znanych. To też i teraz przybyli, nie widząc dla siebie dostatecznej zdobyczy, wyparci żarem, rozbiegli się po za polanę. Kilku tylko zajadłych
+obstąpiło Chroniwosa, który cięciem topora zadawał razy, nie dając do siebie przystępu.</p>
+<p>Lecz naraz ujrzawszy opróżnioną polanę, jak
+lew rzucił się za goniącymi w stronę schronisk wrogami, a torując sobie drogę toporem, pędził na pomoc tym, którym, jak sądził, żadne nie
+grozi niebezpieczeństwo. Wśród biegu zdało się,
+iż słyszy głosy niewieście i płacz jękliwy dziecięcia.</p>
+<p>Wtem ciężki miecz spadł na jego ramię;
+ugiął się pod tem uderzeniem, jęknął, chciał biedz mimo to dalej, lecz zachwiał się i runął na ziemię, tuż na skraju polany. Krew trysnęła z przecięgo ramienia, tocząc czerwoną smugę na zieleniejącą pod wiosennym słonkiem ziemię…</p>
+<p>Wkrótce tętent cichł powoli, zda się przybyli w dal pomknęli, ino tam od schronisk dochodziły jęki, roznosząc daleko wieść o napadzie
+na spokojne siedlisko Litwinów. A wśród jęków
+wiatr echem powtarzał rozpaczliwe wołanie niewieście:</p>
+<p>— Siewros! Siewros!</p>
+<p>Jakieś wycie nieludzkie, jakby zranionej wilczycy, której wilczęta zabrano, napełniło powietrze. A głos ten górował nad innemi, również
+nabrzmiałemi rozpaczą, mieszał się z tętentem
+koni, jękiem rannych i szumem lasu… Słonko
+tymczasem, rzuciwszy ostatnie promienie, skryło
+się za czarną chmurę. Tubingas pozostawszy na
+opróżnionej polanie, wstrząsł się na te odgłosy:
+dorzucił na ogień nową kłodę drzewa, kopnął
+nogą czepiającą się stopy jego jakąś dłoń chłodną, odwalił ciało okryte półzbroiczką, i szedł za
+odgłosem tych jęków, co do uszu jego dolatywały. Tak idąc z kosturem i ręką wyciągniętą
+przed siebie, pośliznął się o krew niezakrzepłą i
+potknął o leżące ciało. Jęk cichy wyszedł z niezmarłej jeszcze piersi…</p>
+<p>Tubingas pochylił się i przytknął usta do
+czoła leżącego.</p>
+<p>— Chroniwos! on mój ostatni! — jęknął starzec i objął wnuka szerokiemi ramiony.</p>
+<p>— Żyje! żyje! lecz gdzie rana! — i zaczął
+jej szukać na ciele wnuka.</p>
+<p>A od strony schroniska pędziła postać niewieścia. Odzież na niej poszarpana, ramiona poranione, włosy rozwiane świadczyły, iż wyrwała
+się ze strasznej walki. Biegła z oczami w słup
+stojącemi, rękami rwała włosy, lub rzucając niemi przed siebie, z całych sił jękliwym głosem
+wołała:</p>
+<p>— Siewros! Siewros!</p>
+<p>Z tym jękiem Dowrusa padła tuż obok rannego męża i starego Tubiagasa.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>II</head>
+<p>Kilkunastu różnego wieku chłopców bawiło się
+w wielkiej izbie. Okna wązkie, umieszczone wysoko, wpuszczały nie wiele światła, nadając jej
+mimo panującego gwaru i śmiechu jakąś cechę
+ponurą. Drągi, drabiny, kozły wysokie nakształt
+koni, oraz okrągłe kule, które chłopcy podrzucali do góry, dostarczały zabawy. Szwargotali
+między sobą po niemiecku, lecz w żywszej jakiejś walce, wybuchu radości, gniewu, wyrywał
+się wyraz polski lub litewski, co od razu wskazywało pochodzenie całej tej drużyny.</p>
+<p>— Hej, ty, Fryc, chcesz się ze mną sprobować, zawołał mały, krępy, przysadkowaty chłopak, podsuwając jeszcze wyżej i tak dość kuse
+rękawy wełnianego odzienia, i stając przed cienkim, długim towarzyszem, który żylastemi rękami
+wdrapywał się na drąg wysoki.</p>
+<p>— Słuchaj, Fryc! czyś ogłuchł, czyś się zrósł z tym drągiem! — wołał niecierpliwie krępy towarzysz.</p>
+<p>— Daj mu pokój — ozwał się inny — on się
+tak wyciągnął, że ino skóra oblepiona, a uszy
+się w drąg schowały.</p>
+<p>— Uderz go w piętę, to się skóra skurczy,
+a i uszy na wierzch wylezą, — wołał inny.</p>
+<p>A nie czekając, aż ktoś tego dokona, przybliżył się do wchodzącego na stojący w pośrodku
+drąg chłopaka. Wyrostek ów rzeczywiście tak
+przylgnął do owego drąga, i tak się wydłużył,
+iż można było wziąć go zdala za jakąś kunsztownie wykonaną płaskorzeźbę. W chwili jednak gdy towarzysz przybliżył się do słupa, dał
+dowód, iż nie był przylepiony, bo wskoczył wprost na ramiona stojącego pod słupem chłopca, a przysiadłszy na nich, zeskoczył zwinnie na ziemię,
+wśród oklasków i śmiechu wszystkich towarzyszy.
+Potem wyciągnąwszy pięść do góry, zawołał:</p>
+<p>— Słuchajcie, jak mnie który raz jeszcze nazwie Frycem, to mu kości pogruchocę.</p>
+<p>— Ba, a jak cię nazwę inaczej, to nam
+wszystkim Hex skórę wyłoi! ozwał się przysadkowaty towarzysz, ten sam, po którego karku
+Fryc zsunął się na ziemię.</p>
+<p>— No, a jak ci tam, jakoś… eh, djabeł zapewne, bo jak złe wszędzie się wdrapie i zewsząd
+zeskoczy, rzekł ten, który go najpierwszy do
+walki wyzywał.</p>
+<p>— A wolę być djabłem, niż Frycem! zawołał
+chłopak butnie.</p>
+<p>— A żebyś na drugi raz wiedział, że mnie
+<emph>Siewros</emph> zwano, masz dla pamięci.</p>
+<p>I ująwszy za bary mówiącego rzucił go o ziemię.</p>
+<p>A inni krzyczeli radośnie:</p>
+<p>— Chwat Siewros!</p>
+<p>— Ritter, Siewros!</p>
+<p>— Djabeł, Siewros!</p>
+<p>— Zuch, Siewros!</p>
+<p>— Nasz, Siewros!</p>
+<p>I krzycząc podskakiwali radośnie. Tymczasem rzucony na ziemię chłopak, powstał żwawo,
+porwał wpół wysokiego i chudego Siewrosa, podniósł go ku górze, a gdy ten złożywszy się, ujął
+trzymającego za bary, ten postawił go dopiero
+na ziemi, a zarzuciwszy ręce na szyję Siewosa
+wołał:</p>
+<p>— Niech żyje Siewros! nie ma już Fryców,
+Hansów, a są Siewrosy, Jaśki…</p>
+<p>I ściskali się obydwaj, jak gdyby przed
+chwilą nie było między nimi bójki; inni zaś krzyczeli:</p>
+<p>— Hura! niech żyje Jasiek i Siewros, nie ma
+już Fryca ni Hansa.</p>
+<p>— A i ja nie Ferdynand ino Maciek.</p>
+<p>— A i ja nie Franc ino Franek! powtarzano
+dokoła. Wrzawa wzrastała, chłopcy z całą serdecznością ściskali się, a ta serdeczność dziwnie
+odbijała od niemieckiej mowy.</p>
+<p>W tem drzwi się otworzyły i wszedł człek
+wysoki, barczysty, w ciemnej odzieży o nieprzyjemnem wejrzeniu i z progu głośno zawołał:</p>
+<p>— <emph>Still, junge Wölfe</emph>!</p>
+<p>Chłopcy, którzy nie słyszeli wśród wrzawy,
+ani otwierających się drzwi, ani też nie widzieli
+ukazania się dozorcy, na głos jego odrazu ucichli,
+a twarz każdego z wesołej zarumienionej i ożywionej bójką i zabawą, zmieniła się nagle, i pobladła, przybierając wyraz jakiś chytry i podstępny.</p>
+<p>— Ach, wy, nikczemne, wilcze pokolenie, wężowy rodzie, czego wrzeszczycie! Głodem a powrozem ujarzmić was tylko, a pokonać, ciągnął
+dalej niemiecką mową.</p>
+<p>— Który z was tutaj najwinniejszy?</p>
+<p>Cisza zaległa izbę, — wśród której tylko oddech przyśpieszony zmęczeniem słychać było
+owych dziesięciu chłopiąt, wychowywanych pod
+okiem stojącego obecnie wśród nich Hexa.</p>
+<p>— Kto najpierwszy był do krzyków! wrzasnął Hex powtórnie.</p>
+<p>Jeszcze większa zaległa cisza. Powstrzymano
+nawet oddech, a zda się, że uderzenie dziesięciu
+serc młodocianych można było policzyć.</p>
+<p>— Odpowiadać, — kto pierwszy wszczął bójkę!? I… spuścił żylastą dłoń na ramię Siewrosa.
+Chłopiec nie drgnął nawet, oka nie zmrużył,
+tylko ze zwykłą sobie zręcznością usunął się
+z pod żylastej dłoni dozorcy.</p>
+<p>— Ty! będziesz mi umykał! wrzasnął rozwścieczony dozorca. — Zgniotę cię, ty podłe litewskie szczenię, — zgniotę was wszystkich! a nie
+miarkując się w gniewie, porwał za gardło najbliżej stojącego. Lecz zamiast krzyku z piersi
+chłopięcia, wyrwał się krzyk z gardła Hexa, do
+którego ręki porwany za gardło wszczepił zęby
+z taką zajadłością, iż zda się chciał odgryźć ją
+całą. Po chwili chłopiec odjął zęby, nic nie
+rzekłszy, — splunął tylko i patrzył błyszącemi
+oczyma, jak z ręki Hexa krew się polała. Inni
+oniemieli, lecz znać było, iż trzeba tylko lekkiego
+podmuchu, a wszyscy, jak ich było dziesięciu,
+rzucą się na znienawidzonego niemca. Ten syknął z bólu, zaklął straszliwie i wyszedł zaryglowawszy drzwi za sobą.</p>
+<p>Chłopcom odechciało się jakoś zabawy, każdy
+został, gdzie stał, spoglądając na towarzyszy. —
+Mijały chwile, nikt nie wchodził, chłopakom sprzykrzyła się cisza. Jeden drugiego popchnął, któryś
+krzyknął:</p>
+<p>— Bawmy się w Hexa.</p>
+<p>— Dobrze, odpowiedziano gromadnie; ale kto
+będzie Hexem?</p>
+<p>Nikt się nie znalazł, gwar powstał, rzucano
+kulkami do góry, lecz Hexem nikt być nie chciał.
+W końcu głód doskwierać zaczął, żaden jednak
+nie obwiniał współtowarzyszy.</p>
+<p>— Ale to oni nas tu o głodzie trzymać będą!
+zawołał chłopiec Francem zwany.</p>
+<p>— Ba żebyśmy przynajmniej jak Hans krwi
+Hexa pokosztowali, toby i głodu czuć tak nie
+było; zawołał inny.</p>
+<p>— Słuchajno, już ci Siewros zapowiedział, że
+tu nie ma Hansa ino Jaśko, a jak mi raz jeszcze
+tak się ozwiesz, to cię to samo co Hexa spotka.</p>
+<p>— Oh, jak się to zaprawił! poczęto wołać,
+śmiejąc się, lecz w tej chwili skrzypnęły drzwi
+i zamiast Hexa, ukazała się żona jego Kobolda.
+Drobna i chuderlawa niewiasta, o małych i biegających oczach, miała silne i wielkie ręce, jak
+gdyby na postrach chłopców od kogo innego
+pożyczone.</p>
+<p>— O moje dzieciaki, moje wilczki kochane, —
+mówiła niemczyzną Kobolda, — rozbrykałyście się,
+jak widzę, trzeba was trochę wziąć do łaźni.
+Post i łaźnia wrócą was do pokory jak należy
+i wszelkie krzyki z głowy wybiją.</p>
+<p>To mówiąc, otworzyła drzwi w podłodze, a
+biorąc za kark jednego po drugim, popychała
+w głąb do podziemia. Chłopcy tak butni przed
+chwilą, spokojnie poddawali się żylastym dłoniom
+Koboldy, która wszedłszy ostatnia za nimi, drzwi
+zamknęła za sobą.</p>
+<p>W izbie, przed chwila gwarnej, zapanowała
+najzupełniejsza cisza, tylko tam z po za drzwi
+zamkniętych dochodził plusk wody, a czasem okrzyk, lub jęk bolesny. Dla dopełnienia bowiem
+wychowania dzieci, zabranych do niewoli przez
+Krzyżaków, była łaźnia, w której chłostą uczono
+je pokory i uległości.</p>
+<p>Chociaż izba, w której spotkaliśmy bawiących
+się chłopców, zwana była szkołą, po okrzykach
+jednak i całej rozmowie łatwo się domyślić, że chłopcy byli w niewoli. Krzyżacy bowiem wziąwszy litewskie lub mazurskie chłopię, starali się
+całem wychowaniem zatrzeć w nich pamięć o pochodzeniu. W tym celu w obrębie Malborskiego
+zamku wzniesiony był obszerny budynek, mieszczący zarazem wychowańców i Hexa z żoną,
+umyślnie sprowadzonych z głębi Germanii dla
+opiekowania się, jak ich nazywano, młodemi wilczkami. A i cała też szkoła zwaną była <emph>Wolfshöhle</emph>
+(wilcze gniazdo).</p>
+<p>Grube mury, okna wysokie, wąskie, wgłębione izby sklepione nadawały pozór smutny i ponury, różniący się najzupełniej od szerokich pól, lub szumiących lasów, w których chłopięta spędzili najpierwsze dziecięce lata. Chłopcom kazano
+przedewszystkiem zapomnieć ojczystej mowy, uczono niemieckiej, wszystko zaś, co tylko chytrość i przebiegłość wymyślić zdołała, wpajano w umysły i serca młodzieńcze, a przy tych naukach
+obznajmiano z zasadami wiary Chrystusowej. Na
+takich warunkach wiara ta nie mogła przyjąć
+się i rozrosnąć; jeżeli w którem sercu rozbudziło
+się uczucie ku nowej wierze, to chyba rozniecił
+je widok obrazu w kościele, gdzie Chrystus
+z miłością przygarniał dzieci ku sobie, lub też
+wielki posąg Matki Zbawiciela stojący w zagłębieniu zamkowego muru a tulący do piersi dzieciątko. Nie raz chłopię, wbiegłszy na podwórzec zamkowy, wpatrywało się w ów posąg,
+przypominając sobie chwile, kiedy i jego do piersi
+tulono… Wtedy dźwięczała mu w uszach pieśń,
+którą go kiedyś macierz do snu usypiała. A chwila taka psuła długie krzyżackie nauki….</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>III</head>
+<p>W podziemiach tuż obok owej łaźni na słomie
+leżało dwóch chłopców. Obszerna choć ciemna
+izba służyć mogła również dobrze za składy jak
+i więzienie. I rzeczywiście znać też miała ona
+przeznaczenie podwójne, bo oprócz dwóch chłopców, było tam dużo przewróconych do góry dnem
+wielkich beczek, lub nagromadzonych klepek drewnianych i obręczy żelaznych z rozsypanych i
+bezużytecznych statków. Światło wcale niedochodziło, a tylko wzrok przyzwyczajony do ciemności z trudnością mógł rozróżnić otaczające go
+przedmioty.</p>
+<p>— Jak myślisz, na długo nas tu zamknięto? —
+ozwał się jedeu z chłopiąt, przysuwając się do
+towarzysza.</p>
+<p>— Bo ja wiem! a pewnie posiedzimy. Postawili nam dzban z wodą, ba i kęs chleba. Odpowiedział drugi.</p>
+<p>— Hm! hm! mruknął towarzysz. A gdybyśmy
+też tak spróbowali wydostać się raz jeszcze na
+swobodę?</p>
+<p>— Ba, ale jak, czarno jak w kominie, ani
+nawet szczeliny, przez którąby się wydostać. Jeszcze ty cienki jak piskorz, przeciśniesz się wszędy, ale ja!</p>
+<p>— Eh, byleby tylko rozpatrzeć się, to się ta
+obaj przeciśniemy, a jak po za murem to i jakoś
+pójdzie, odparł chłopak zwany piskorzem.</p>
+<p>— Aha, po za murem, łatwoć to wyrzec, ale
+jak się dostać, a jak nas jeszcze raz złapią, to
+im się nie wykręcimy, żeśmy chcieli obaczyć, czy
+pod murem zamkowym gniazd nie ma, rzekły
+chłopak biadający nad swoją rozrosłą postacią,
+która mu się przecisnąć przez byle jaką szczelinę
+nie dozwalała.</p>
+<p>— No tak i co, — siedzieć tu w ciemnicy
+będziemy? lepiej niech nas raz już uśmiercą, aniżeli tak kryją po lochach, zawołał jego towarzysz.</p>
+<p>I nastała chwila ciszy.</p>
+<p>— Słuchajno Siewros, dawnoś ty tutaj między Krzyżaki? — przerwał milczenie ów grubas.</p>
+<p>— A pewnie, że dawno! Ot, byłem chłopię,
+co się w byle chwastach a między zbożem skryć
+mogło, a teraz sami przecie mówicie, że jak się wyciągnę tom nie ledwie jak słup w szkole długi.</p>
+<p>— To ci chleb krzyżacki jakoś poplagował.
+A żeś to do Niemców ze szczętem nie przyrósł.</p>
+<p>— Ja, do Niemców! zawołał z oburzeniem
+Siewros. Toś ty jeszcze chyba nie poznał, co to
+za gady, kiedy się dziwujesz, żem jeszcze do
+niemców nie przystał.</p>
+<p>— A juści, niepoznałem! Toć już dwa roki
+minęło na gody, jak oni mnie przyprowadzili.</p>
+<p>— To możeś ty z jakich Niemców?</p>
+<p>— Coś ty wyrzekł Siewros! ja z Niemców!
+nie powtarzaj tego, bo się żywy z mojej garści
+nie wydostaniesz! zawołał znany nam już Jaśko,
+zacisnąwszy pięść z taką siłą, aż kości zatrzeszczały.</p>
+<p>— No, — nie gniewaj się bracie, ja tylko
+chciałem się upewnić, czy i ty tak jako ja wrzesz
+na Krzyżaki.</p>
+<p>— Ho, — a może więcej! oni to między nas
+tam daleko jako świnie w szkodę włażą, — ba
+gorzej, boć świnia szkodę zrobi w polu, a ludzi
+żywi, a Krzyżak pole zniszczy, a człeka połknie!</p>
+<p>— Eh!? a to oni człeków żywcem zjadają?
+zapytał niedowierzająco z pewnym strachem Siewros.</p>
+<p>— Ba, gorzej jakby zjedli, bo ciągną ot pod
+swoje zamczysko!</p>
+<p>— Ta, prawda, gorzej! jakby raz zjedli, toby
+mowy dziwnej nie uczyli! mówił Siewros powoli,
+jakby sobie chciał coś przypomnieć</p>
+<p>— A ty dawniej miałeś inną, nie krzyżacką
+mowę? zapytał Jaśko.</p>
+<p>— A jakże, a przecie nasza mowa to jak
+szum lasów, gdy wiatr powoli iglicami drzew kołysze, a taka, że chociaż jużeś skończył, to ci
+się zda że jeszcze w uszach dźwięczy: nie, ale
+ja jej przypomnieć sobie nie mogę.</p>
+<p>— Oho, ja jeszcze pamiętam, a wciąż mi się
+plącze między niemieckie wyrazy, a pieśni w uszach grają, co je na polach a w kościołach
+śpiewają.</p>
+<p>I Jaśko, jakby idąc za własną myślą począł
+cichym głosem: Po nad Wisłą… po nad wodą…
+wrogi straszne kroczą… nie dam ciebie, dziecię
+moje… nie dam cię mój synu!…</p>
+<p>— Ba, tak mi to macierz śpiewała, mówił już
+dalej niemiecką mową Jaśko, a no przyszli zabrali, ba i jam wszystkiego zapomniał!</p>
+<p>— U nas nie taką, inszą mową śpiewają, ale
+ja już swojej nie baczę! rzekł Siewros i zamyślił
+się smutnie, a po chwili dodał:</p>
+<p>— A no, próżno, tutaj w ciemnicy żyć nie
+możemy! trzeba się wydostać.</p>
+<p>— A trzeba, powtórzył Jasiek. I to mówiąc
+całą siłą kopnął nogą kadź obok stojącą.</p>
+<p>Przegniła klepka rozsypała się pod uderzeniem silnego chłopaka, a jakaś nie miła woń
+zgnilizny rozeszła się do koła, lecz z nią zarazem
+i ciąg wiatru doleciał.</p>
+<p>— Oh, a toś jeszcze do ciemnicy i zgnilizny
+napuścił! rzekł Siewros, wstając z ziemi i prostując swoje długie chude nogi. Eh, a to tam
+ciągnie jakby ode dworu! zawołał nagle.</p>
+<p>— A może tam jakie przejście, dodał.</p>
+<p>— A może. I Jaśko jeszcze silniej w stojącą
+przed niemi kadź nogą uderzył.</p>
+<p>Wyłom większy się zrobił, a wpadająca wewnątrz klepka chlupnęła najwyraźniej w wodę,
+ale gdzieś bardzo głęboko.</p>
+<p>Woń jeszcze szkaradniejsza napełniła podziemię, lecz teraz najwyraźniej przeciąg już czuć
+się dawał.</p>
+<p>— Cuchnie, bo cuchnie, — rzeki Siewros, —
+ale tu dochodzi wiatr, to może… W tem usłyszeli odgłos kroków, ale to tak tuż jakby około
+nich kto przechodził.</p>
+<p>Przycichli obaj, i po omacku odsunęli się od
+owej beczki, siadłszy na jakichś deskach.</p>
+<p>Zdawało im się, że ktoś wchodzi, chwilę siedzieli cicho. Stąpanie dochodziło ich uszu, lecz
+stąpanie było zdala, a chód to był nie jednego
+człeka, lecz jakby oddalony tętent koni. Chłopcy
+spojrzeli na siebie, oczy im w ciemności zabłysły, mimowoli wstrzymali oddech, ażeby się upewnić czy ich słuch nie myli i milcząc ścisnęli się
+za ręce. Po chwili stąpanie ucichło, wiatr tylko
+coraz silniej ciągnął od owej rozbitej beczki.
+I znów zdala jakiś turkot, czy szum wody doszedł ich uszu.</p>
+<p>— Bracie, ta beczka jakiś otwór snać zakrywa! szepnął Siewros.</p>
+<p>— Ba, i ja tak myślę! rzekł z pewnym tryumfem Jaśko. I obadwaj rzucili się sobie w objęcia, jak gdyby ten słaby promyk nadziei dawał
+im już niechybne ocalenie.</p>
+<p>— A teraz do roboty! zawołali razem, szukając po omacku owego otworu, z którego ich oddalone głosy dolatywały.</p>
+<p>Beczka była tak wielka, iż mogłaby służyć
+za mieszkanie, chłopcy po ciemku, gdzie mogli
+wyrywali nadgniłe klepki. A gdy jakaś cuchnąca
+woda sączyła się z jednego otworu, drugim tymczasem dochodził powiew wiatru. Najwidoczniej
+była to kadź do piwa o dnie podwójnem. W jednej więc połowie zostały resztki odwaru i te stojąc zbyt długo zepsuły się i zatęchły, a sącząc się wydawały ową woń zgnilizny, gdy tymczasem druga połowa kadzi była pustą i ta nakrywała jakiś otwór wgłąb ziemi idący. Chłopcy
+pracując i odrywając palcami i zębami klepki,
+oblani od stóp do głów cuchnącą spadającą na
+nich z wierzchu cieczą, zrobili taki wyłom, iż
+obaj się mogli weń zmieścić. Przewiew wiatru
+i ów szum oddalony coraz widoczniej czuć się
+dawał, lecz ciemność niepozwalała nic do koła
+rozeznać. Po omacku chłopcy kawałem jakiegoś
+znalezionego kija doszukali się, iż tam jest otwór,
+który ogromna kadź w zupełności zakrywała.</p>
+<p>— Hej, nie nachylaj się, bo jeszcze wlecisz
+na łeb; mówił Jaśko, przytrzymując towarzysza.</p>
+<p>— Ta i cóż, to tylko z jednej jamy w drugą
+wlezę, a może z tamtej łacniej się wydostać — odrzekł Siewros, rzucając jedną ręką na chybił trafił w głąb otworu kawałek cegły czy kamienia,
+a drugą przytrzymując się zrębu kadzi. Po chwili
+odgłos upadającego kamienia się odezwał, a tak
+jakby się staczał po jakiej nierównej pochyłości,
+aż wreszcie plusk dał się słyszeć.</p>
+<p>— Oh, oh! słyszysz! — zawołał Siewros, chwytając towarzysza za rękę.</p>
+<p>— Słyszę, otwór jest, lecz gdzie prowadzi,
+jak się weń dostać? mówił rozważny Jaśko. Mimo to jednak zaczął drągiem szukać i po omacku mierzyć jak daleko od zrębu beczki do otworu. Tak szukając, doszli, iż był po środku otwór
+niewielki, który miasto drzwi przykryto wielką
+kadzią. Ziemi jednak ubitej między zrębem a otworem było tak dużo, że obaj więźnie stanąć
+na niej mogli bezpiecznie.</p>
+<p>— Utrzymasz ty mnie i wyciągniesz, gdy nie
+będę mógł sięgnąć uogami gruntu, zapytał Siewros.</p>
+<p>— Ba, i trzechbym takich wyciągnął, odrzekł
+Jaśko, a nie utrzymam, to i sam za tobą wskoczę. Jak ginąć, to już lepiej odrazu, niż gnić
+w tej krzyżackiej jamie!</p>
+<p>— Ba, ale na czem się spuszczać? skąd rzemienia albo sznura? zamyślił się Siewros.</p>
+<p>— Czekaj, zawołał Jaśko; a ściągnąwszy
+z siebie zwierzchnie odzienie, zaczął je drzeć zębami na pasy i wkrótce obaj towarzysze zostali
+tylko w płóciennej spodniej odzieży, a za to z podartych kaftanów ukręcili dość długie sznury.
+Wiatr zimny ciągnący od wnętrza otworu coraz
+silniej dochodził, lecz zmęczeni towarzysze nie
+czuli tego: owszem, pot spływał im z czoła.
+Wkrótce Siewros trzymając sznur, spuszczał się
+w otwór, drugi koniec owego sznura trzymał
+Jaśko. Naraz sznur stał się lekkim, Jaśko uczuł,
+iż źle skręcony powróz zerwał się i został mu
+w rękach, jednocześnie usłyszał staczanie się nieszczęśliwego Siewrosa;</p>
+<p>— Więc i ja z nim ginąć muszę, zawołał
+Jaśko. Boże, uratuj nas obu!</p>
+<p>I nie namyślając się długo, Jaśko, chcąc lepiej wgłąb skoczyć, uchwycił za zwieszające się
+na wpół odłamane wewnętrzne dno beczki. Pociągnięte ciężarem chłopca przegniłe drzewo, zerwało się z nim razem, głuchy odgłos rozległ się
+po sklepionych podziemiach, a nad otworem tylko
+co przez więźniów odkrytym, z porozbijanych klepek wielkiej kadzi, utworzył się stos ogromny
+drzewa, nad którym tu i tam sterczały w półkole żelazne, rdzą przegryzione obręcze.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>IV</head>
+<p>W jednej z komnat malborskiego zamku, we
+wgłębieniu okna, dwóch ludzi rozmawiało po cichu. W jednym, mimo iż okrywał go tylko
+kaftan skórzany, krótki, poznać było łatwo rycerza, drugim był Hex, znany nam już przełożony
+Wolfshöhle.</p>
+<p>— Muszą być! rozumiesz? — rzekł rycerz, kładąc silną dłoń na ramieniu Hexa.</p>
+<p>— Rycerzu von Altenburg, — odparł Hex
+uginając się pod żelazną dłonią, spoczywającą na
+jego ramieniu, wszystko uczynię, lecz gdzie ich
+szukać! Całe podziemie przetrząśnięto, nad otworem kupa klepek i desek, szmat strzępy, snać te
+wściekle psy w kanał skoczyły!</p>
+<p>— Jakeś mógł ich zamykać w owym podziemiu, gdy tylko więzienie, nie śmierć im była przeznaczona! — syknął przez zęby Dietrich z Altenburga. — Ja ich mieć muszę, muszę! czy znasz to słowo?</p>
+<p>— Znam, — powtórzył Hex ponuro — lecz miejcie miłosierdzie, innych wam przysposobię, sprawniejsi będą, aniżeli ten cienki Fryc i gruby Hans.</p>
+<p>— Ja tamtych chcę, tamtych, a nie innych,
+właśnie tylko szlachetne charaktery dadzą się
+obietnicą ułudzić, bo same do obłudy nie zdolne.</p>
+<p>— Panie, to są psy wściekłe, co kąsają człowieka. — I Hex podniósł dłoń ze świeżą, jeszcze niezagojoną raną.</p>
+<p>Dietrich brwi zmarszczył.</p>
+<p>— Pokąsały ciebie, Hexa, a nie człowieka —
+a kąsać będą każdego, kogo wskażę jako nieprzyjaciela ich plemienia.</p>
+<p>— Idź, szukaj! — do jutra mieć muszę obu.</p>
+<p>Hex ociągał się jeszcze, lecz Dietrich zawołał
+przyciśnionym, lecz stanowczym głosem.</p>
+<p>— Precz!!</p>
+<p>Echo głucho powtórzyło ten wyraz, który zda
+się towarzyszył przygnębionemu Hexowi przez całą
+długość wielkiej komnaty, a w przedsionku jeszcze się odbiło o sklepione mury. Dopiero gdy wyszedł z zamku, odetchnął swobodniej, a potem
+zacisnąwszy pięść i zgrzytnąwszy zębami mruknął jakieś przekleństwo, a krocząc powoli do domostwa, potrącił wierną swoją Koboldę, która
+nie wiedzieć po co i dla czego przemykała się
+pod murem. A szła tak ukradkiem i milczkiem,
+jakby potajemnie kogo podsłuchać lub podpatrzeć chciała.</p>
+<p>— Gdzie się włóczysz! — syknął Hex, zadowolony, że miał na kogo pierwszy gniew spędzić.</p>
+<p>— Cicho! ty niedołęgo! — odmruknęła Kobolda.
+I położywszy palec na ustach, wskazała ręką,
+aby nie pytając, szedł do Wolfshöhle, sama zaś
+wcisnęła się jeszcze głębiej we wnętrze muru,
+łowiąc uchem rozmowę dwu stojących opodal
+ludzi.</p>
+<p>— Mówią, że zniknęli zupełnie — rzekł szeptem młodzieniec smagły, ubrany w ciemną krótką odzież, na której miał przewieszoną gęśl przez ramię.</p>
+<p>— Przecież muszą być jakieś ślady po zaginionych? — spytał starszy w ubraniu duchownem.</p>
+<p>— Ach ojcze Germanie, kogo raz wepchną
+w podziemia, stamtąd go nikt nie wyciągnie.</p>
+<p>— Tak, lecz opieka Najwyższego sięga tam,
+gdzie <emph>nikt</emph> dosięgnąć nie zdoła, — odpowiedział
+Ojciec German z powagą.</p>
+<p>— Lecz kogo Krzyżak chce zgubić, nic go
+nie ochroni…</p>
+<p>— Cicho — odrzekł gromiąc duchowny. —
+Nie bluźnij Bernardzie; niezbadane są wyroki
+Stwórcy. Może te pacholęta miały zdradzić swoich, może miały być narzędziem złego, zbrodni,
+lepiej, że w młodości zginęły… Czy śladów żadnych nie odkryto? — zapytał po chwili.</p>
+<p>— Mówią, że z owego podziemia prowadzi
+jaki otwór w głębinę, że tam znaleziono potargane szmaty odzienia, strzępy włosów a nawet
+ślady krwi, zresztą nic, nic! Ach, ojcze, ja się
+boję, czy ten mściwy Hex nie uśmiercił ich —
+mówił Bernard ze drżeniem w głosie.</p>
+<p>— Dzieciak jesteś — odparł ojciec German ze smutnym uśmiechem. — Hex raz powierzonych,
+chłopców strzeże jako oka swego, jako strzegł
+ciebie i wielu braci naszych, inna w tem jakowaś przyczyna. Gdy cię wyślą dziś za mury,
+staraj się dowiedzieć, czy gdzie jakich śladów
+niema. Możeby ukrytym kęs jadła lub otuchę
+zanieść. Smutna to sprawa, dziecię moje, a kiedy nas Bóg przeznaczył, by żyć między wrogami,
+starajmyż się przynajmniej braci cierpiącej w pomoc przychodzić.</p>
+<p>— Ojcze, przykrzy się życie takie. Słuchać
+i słuchać, jak coraz to więcej pacholąt naszych
+przybywa! ach, jabym wszystkich rad jednej
+chwili wypuścić z tych murów, roztargałbym je,
+rzuciłbym się…</p>
+<p>— Bernardzie, uspokój się; synu mój. Ciało
+twoje wątłe a słabe, przed oczami noc wieczna,
+co możesz uczynić, biedne chłopię moje? Tu,
+razem we dwóch, możemy te pacholęta wprowadzać na drogę wiary, a uczyć ich, by nie zapomnieli o swoich. Ty, chłopcze, z innego, a ja z innego plemienia, ongi może plemiona nasze
+wiodły walkę ze sobą, lecz tutaj połączyła nas
+wspólna niedola i jedna myśl, że braciom naszym
+służyć będziemy.</p>
+<p>— Ach, ojcze, gdyby raz jeszcze przejrzeć,
+gdyby przedrzeć tę ciemność, co wzrok mój zakrywa, i ujrzeć lasy nasze tam, tam daleko, jako
+Tubingas ciemny służyć świętemu dębowi.</p>
+<p>— Cicho Bernardzie, przyjąłeś wiarę Świętą,
+a wracasz myślą do ofiar pogańskich.</p>
+<p>— Ojcze, ten Bóg, któregoście czcić nas nauczyli, jest wielki, lecz on przecież nie każe zapomnieć tych, cośmy ukochali?</p>
+<p>— Nie, owszem, Najwyższy każe ich miłować, a miłości największej dasz dowody, gdy
+oddalony od ziemi swojej nieść będziesz pomoc
+tym, co jak ty wyrwani w latach dziecięcych,
+zapomnieliby o swoich, gdybyś im pieśnią ich
+nie przypominał. Wasz Tubingas, składając objaty poświęconym dębom, wielbi Najwyższego, oddając mu cześć, podziwiając wielkość przyrody; jak on w ojczyznie, tak ty służ braciom w niewoli; a pieśń niechaj w nich miłość ku tej ziemi
+rozbudza. Idź ślepcze młody, mów im o ziemi
+twojej, śpiewaj niezrozumiałą dla Niemców mową;
+Niemiec jej nie rozumie, dźwięk mu się podoba,
+a częstokroć w piersi zamarłej twego rodaka
+rozbudzisz uczucie do rodzinnej ziemi.</p>
+<p>— Tak, ślepcom a śpiewakom wszędzie dojść
+można — rzekł, westchnąwszy, Bernard — może
+też i <emph>ich</emph> odszukam.</p>
+<p>— Idź. — I duchowny zakreślił znak krzyża
+świętego nad głową młodzieńca, spuścił potem
+rękę na jego ramię i dodał: — Idź, ja pospieszę
+do szkoły, by chłopiętom zanieść słowa wiary.</p>
+<p>I ojciec German powoli kroczył do Wolfshöhle.</p>
+<p>Nie wielki, naprzód pochylony, zdawał się
+być niemłodym, a jednak gdy podniósł wzrok
+pogodny, widziałeś twarz nie latami, lecz cierpieniem znękaną.</p>
+<p>Oddawna, oblokłszy suknię duchowną, u Krzyżaków przebywał, w zasadach wiary Świętej był
+biegły, a życiem wzbudzał poszanowanie we
+wszystkich. Niemiecką jako Krzyżak znał mowę,
+lecz umiał i inną, bo gdy z wyprawy wracano,
+prowadząc za sobą młode pacholęta, rozmawiał z nimi odrazu, a pacholęta garnęły się do niego,
+opowiadając mazurską mową o ojcu i macierzy.
+Pacholąt jednak z tamtej strony mniej do Wolfshöhle sprowadzano, więcej daleko było takich,
+co Perkuna a dęby czcili, a wiary Świętej nie
+znali, tych mowę Ojciec German lepiej jeszcze
+rozumiał, na jej dźwięk oczy mu błyszczały, chłopięta wypytywał, ba i w płaczu utulił.</p>
+<p>Skąd był? a któż o to pytał. Krzyżacy go
+szanowali, czasem do wielkiego Mistrza był wołany. Dietrich von Altenburg, zastępujący Mistrza,
+często z nim rozprawy miewał. Snąć był im potrzebny, bo ile razy młodzieniec jaki z przywiezionych z wojny, począł się buntować, słowa
+Ojca Germana zawsze go uspokoiły. Pod jego
+też wejrzeniem najbardziej rozgniewany Krzyżak
+przychodził do siebie, a psy szczekające i rzucające się zajadle na przechodniów, na głos jego
+milkły i łasząc się, przychodziły do jego kolan.
+Jedna tylko Kobolda, choć nisko zawsze przed
+Ojcem Germanem schylała głowę, w duszy niecierpiała go, gdyż nie pozwalając złośliwej niewieście źle się obchodzić z pacholętami, powierzonemi jej pieczy, nieraz surowo ją gromił.</p>
+<p>To też na każdym kroku chciała mu szkodzić, a liżąc się i przymilając, śledziła go wszędy.</p>
+<p>Zaledwie więc Ojciec German poszedł do Wolfshöhle, Kobolda wysunęła się ze swojej kryjówki.
+Zacisnęła pięść swą ogromną, syknęła coś przez
+zęby, a stanąwszy przy wejściu do zamku, postanowiła czekać wyjścia rycerza von Altenburg. I niedługo czekała, wkrótce Krzyżak wyszedł,
+poprawiając na sobie opończę, którą zwykle był
+odziany, gdy pozostawał wśród murów. Stanął
+we drzwiach, mierzył wzrokiem z oddali owo
+Wolfshöhle, najdłużej zaś zatrzymał się na maleńkiem okratowanem okienku w sklepieniu okrągłem nad ziemią, a prowadzącem od głównego
+budynku do muru, okalającego podwórzec zamkowy.</p>
+<p>— Ha, bydlę! — syknął i targnąwszy niecierpiwie pas, otaczający jego postać okazałą, chciał
+iść dalej, gdy Kobolda zabiegła mu drogę.</p>
+<p>— Rycerzu von Altenburg, szlachetny panie!</p>
+<p>— Precz! — krzyknął rycerz, zastawiając się
+ręką, jak gdyby chciał złe widmo z przed siebie
+odpędzić.</p>
+<p>Lecz Kobolda nie łatwo się zrażała. Pozostała
+na chwilę za nim, a potem idąc cichutko, skradając się jak kot, znowu poczęła:</p>
+<p>— Wiem już, kto wszystkiemu winien.</p>
+<p>— Ty i twój mąż, niecne potwory! — krzyknął von Altenburg, wznosząc swą dłoń potężną,
+a nie oglądając się na idącą tuż obok niego,
+dodał:</p>
+<p>— Precz mi z oczu!</p>
+<p>Kobolda pozostała na miejscu; nie dała jednak
+za wygraną. Cichutko podreptała do Wolfshöhle,
+gdzie wsunąwszy się głównem wejściem, wkrótce
+ukazała się bocznemi drzwiami na podwórzu,
+a gdy von Altenburg opatrywał uważnie sklepienie i okienko, ona podkradłszy się kocim swoim
+chodem, szepnęła:</p>
+<p>— Ojciec German, i ślepiec Bernard byli z nimi w zmowie; German polecił ślepcowi, by ich
+szukał po za murem.</p>
+<p>Dietrich drgnął pomimowoli, nie zdawał się
+jednak zważać na szept Koboldy, która jak cicho podeszła, ciszej jeszcze usunęła się, a na jej
+ohydnej twarzy znać było rozradowanie i uśmiech
+piekielny. W tejże samej chwili z Wolfshöhle
+wyszedł Ojciec German, który spojrzał na nią
+łagodnym wzrokiem, zatrzymując czas jakiś pogodne swe oczy na jej rozradowanej twarzy.
+Chytra niewiasta nie mogła snać wytrzymać tego
+spojrzenia, gdyż schyliwszy skronie, przycisnęła
+się do muru, jakby przez uszanowanie dla przechodzącego. German spojrzawszy raz jeszcze na
+nią, przysunął się do Dietricha i rzekł:</p>
+<p>— Badałem innych, nic nie wiedzą, lecz wysłałem Bernarda po za mury, ten choć ślepiec,
+często lepiej dojrzy, aniżeli stu patrzących. Daleko ujść nie mogli, gdy ich znajdzie, zatrzyma
+za bramą, w ukryciu opodal od zamku, a stamtąd ja ich sprowadzę.</p>
+<p>— Czy wam można ufać? — zapytał Dietrich
+przytłumionym głosem, wpatrując się w duchownego.</p>
+<p>— Czym was kiedy zdradził? — odparł tenże,
+zatrzymując znów wzrok na Dietrichu, który tak
+samo jak Kobolda nie wytrzymał tego spojrzenia.</p>
+<p>— Po raz ostatni wam ufam — rzekł, kładąc
+rękę na ramieniu Germana — ale gdybym się
+zawiódł, biada wam, biada tym wilczętom. I to
+mówiąc, wskazał ręką na Wolfshöhle.</p>
+<p>— Bezpotrzebne pogróżki wasze, krew sobie
+ino psujecie — odparł poważnie German — a krew
+wasza powinna być spokojna, boć nową szykujecie wyprawę, nie warto jej na takie małe sprawy zażywać.</p>
+<p>— To nie małe sprawy! — krzyknął, prostując się Krzyżak. Mnie oni obaj potrzebni byli,
+jam z nich pragnął mieć psy gończe z delikatnym węchem, co umiejętnie użyte, na jamę naprowadzić zdolne.</p>
+<p>— Gdy się psa układa, to go się w podziemiach nie zamyka, bo węch stracić może.</p>
+<p>W tej chwili Hex znów się ukazał.</p>
+<p>— Rycerzu, panie! — rzeki, ukazując strzęp
+podartej, skręconej w sznur odzieży i kosmyk
+zakrwawionych jasnych włosów.</p>
+<p>— To wszystko co odnaleźć zdołałem.</p>
+<p>— Ja cię nie po strzępy posłałem — ofuknął
+Dietrich — ja chcę ich widzieć żywych!</p>
+<p>Hex począł się jeszcze tłómaczyć, lecz Krzyżak nie słuchał jego wyrazów, świsnął tylko
+w świstawkę, którą miał zatkniętą u pasa. Dwóch
+knechtów potężnej postaci stawiło się na zawołanie. Dietrich ręką wskazał na Hexa.</p>
+<p>— Zaprowadzić go do podziemia, w prawem skrzydle.</p>
+<p>Hex złożył ręce i padł na kolana, nic jednak
+nie pomogło. Knechty ujęli go pod ręce, a silne
+to było ujęcie, gdyż nie drgnął nawet, tylko szedł,
+kroki swe stosując do idących obok niego. Kobolda wyjrzawszy z za drzwi, zgrzytnęła tylko zębami, pięść zacisnęła, a schroniwszy się napowrót, gdy Hexa prowadzono do prawego skrzydła, ona stojąc we wgłębieniu muru, dawała mu
+jakieś znaki, na które skazany spoglądał szklanemi oczami.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>V</head>
+<p>Podziemia krzyżackiego zamku łączyły się
+z kanałami, ciągnącemi się, aż ku samej Wiśle.
+Kanały te pochłaniały wszelkie odpadki uczt
+krzyżackich, pochłaniały też i resztki tych, których mściwa ręka rycerzy pozbawiała życia. Żeby jednak przez otwory zakratowane kanałów,
+znajdujących się w niektórych miejscach podwórca, nie psowało się powietrze, były znów przeprowadzone rury, któremi bezprzestannie napływała woda, sprowadzana z odnogi Wiślanej.
+Woda ta, idąc z góry, zabierała wszystko, spychając gwałtownie do rzeki.</p>
+<p>To też gdy Siewros a za nim Jaśko, wskoczyli w owo podziemie, pochwyceni zostali tym
+pędem i niesieni niewiedzieć jak długo. Biedne
+chłopięta instynktownie, chcąc się ratować, robili
+ruchy rękami i nogami, co chroniło ich od zalania
+wodą. Pierwszy Siewros, pędząc tak, zahaczył
+się o jakiś wyłom i uchwycił się ręką wystających
+kamieni. Siły go opuszczały, ręce drętwiały, zdawało mu się, że już ostatnia godzina nadeszła.</p>
+<p>Wkrótce jednak otrząsnął się, ręką posunął
+coraz dalej wgłąb wyżłobienia… Woda tutaj
+słabo się dostawała, wyżłobienie zagłębiało się
+w bok: wyciągnął się więc na nim i odpoczywał,
+chwytając w siebie wilgotne i cuchnące powietrze.
+Naraz usłyszał zsuwanie się przez kanał jakiegoś
+ciężaru, a około zwieszonych nóg uczuł najwyraźniej dotknięcie ręki ludzkiej.</p>
+<p>— Jaśko! — krzyknął Siewros zamierającym
+już głosem i nie namyślając się, zsunął się ze
+swego wilgotnego łożyska.</p>
+<p>Pchani tak dalej wodą, pędzili przez całą
+długość kanału, a jakim sposobem obadwaj znaleźli się wśród trzciny i szuwarów, rosnących na
+błotnistem wybrzeżu rzeki, i jak długo tam leżeli,
+zdać sobie z tego sprawy nie umieli. Gdy się
+ocknął Siewros, słyszał w dalszym ciągu szum
+wody, gwary dochodzące z oddalonego miasta,
+nie wiedział jednak gdzie jest, co się około niego
+dzieje. Olśniewała go tylko jasność promieni
+słonecznych, odurzał powiew od wody, pól i łąk,
+a tam w trzcinie głosy ptaków oznajmiały, iż jest
+jakoweś około niego życie. Chłopak przetarł oczy, otrząsnął się cały, gdy nagle jęk uszu jego doleciał. Resztkami sił podniósł się i oparł na łokciu.
+Opodal niego leżał Jaśko, cały obłocony i poraniony…, nad nimi niebo błękitne.</p>
+<p>— Jaśko! — zawołał Siewros — Jaśko! —
+powtórzył raz jeszcze, chcąc się przekonać, czy
+żyje i czy rzeczywiście widzi to, co mu się przedstawia.</p>
+<p>— Co? — zajęczał głos z pobliskiego sitowia.</p>
+<p>Serce zakołatało w piersi Siewrosa, podniósł
+głowę i nadsłuchiwał jak zając, gdy chce się upewnić, z której strony niebezpieczeństwo zagraża.
+Lecz za każdem poruszeniem biedne pacholę czuło
+ból w całem ciele; senność go ogarniała, nie dawał się jednak.</p>
+<p>— Co? — powtórzył głos z sitowia — kto mnie
+woła?</p>
+<p>Ocknął się na to zapytanie Siewros, a mimo
+bolu, na czworakach zaczołgał się w stronę, skąd
+go głos dochodził.</p>
+<p>Jaśko obłocony, ociekły krwią, jęczał w sitowiu; ogołocony z odzienia, świecąc poranionem
+ciałem, leżał nawpół przymkniętemi powiekami,
+powtarzając uparcie:</p>
+<p>— Co? co?…</p>
+<p>Siewros położył rękę na jego głowie, wołając:</p>
+<p>
+— Jaśko! to ja, otwórz oczy… jesteśmy oba
+pod gołem niebem… słonko świeci… ptacy wabią
+w sitowiu… Jak się to stało?</p>
+<p>— Jak się to stało? — powtórzył Jaśko, odchylił powieki, spojrzał dokoła, lecz znać było
+z jego wzroku, że nie nierozumiał.</p>
+<p>— Ba, gotów zamrzeć — zawołał Siewros,
+i obejrzawszy się, postrzegł dopiero teraz, że i on był tak samo bez odzienia jak i Jaśko, że krew
+sączyła się z obnażonej jego piersi, a cały był
+obłocony.</p>
+<p>— Tośmy się ustroili — rzekł półgłosem —
+brrr! jak mnie wszystko boli.</p>
+<p>Woda tuż około szuwaru, z dnem czystem, zwirowem, będąca odłamkiem rzeki, zwróciła jego uwagę. Nie namyślając się, wszedł w ową
+nęcącą wodę, a chociaż go rany bolały, pluskał się w niej jak ryba i jakoś orzeźwiony wyszedł z tej kąpieli, a położywszy się między trzciną,
+wygrzewał się na słońcu. Po niejakimś czasie
+raźniej mu się zrobiło, lecz głód dokuczać mu
+zaczął.</p>
+<p>— Ba, żeby tak Jaśka w tę wodę, toby też
+ożył! we dwu raźniejby nam było. — Jaśku!
+Jaśku! — począł, trącając towarzysza, lecz chłopak poruszał tylko ustami, nic budząc się z półsnu, w jakim zostawał.</p>
+<p>— No, to jak widzę, ja ciebie chyba, braciszku, poniosę!</p>
+<p>— Ależ ciężki! — dodał po chwili, usiłując
+Jaśka podnieść z ziemi.</p>
+<p>Siadł więc, plecami zwrócony do leżącego, ręce jego założył sobie na szyję i usiłował dopiero
+podnieść się wraz z towarzyszem. Lecz i to było
+napróżno; biedny Siewros resztek sił dobywał,
+wszystko nic nie pomagało, tem więcej, że krępy
+Jaśko nietylko mu niedopomagał, lecz owszem
+opadał całym ciężarem ku ziemi.</p>
+<p>— Eh, czy ty myślisz braciszku, że ja ci pozwolę tak leżeć w błocie i głód cierpieć będę
+wraz z tobą? Oho, ja znajdę sposób i tak cię
+opłuczę jak siebie.</p>
+<p>A widząc, że wszelkie usiłowania poniesienia
+towarzysza do wody, były dotąd daremne, Siewros podniósł głowę Jaśka, oparł ją sobie na
+kolanach, potem, wziąwszy go pod ramiona, ciągnął do rzeki. Odpocząwszy chwilkę, wszedł do
+wody, a nabrawszy jej oburącz, oblewał twarz
+towarzysza, potem ostrożnie zsunął go w wodę,
+posadził przy brzegu, podtrzymywał głowę na
+własnej piersi, lecz nagle stracił równowagę i obadwaj znaleźli się pod wodą.</p>
+<p>Siewros w chwili niebezpieczeństwa nieopuścił
+jednak towarzysza, razem z nim chciał się wydobyć, i z radością uczuł, że Jaśko zaczyna ruszać rękami. Po chwili obadwaj płynąc obok siebie, wyszli na brzeg, a ujrzawszy się ocalonymi, rzucili się sobie w objęcia. Woda orzeźwiła
+potłuczonego i pokaleczonego Jaśka, młodość
+przemogła: otrząsnął się, jak źrebiec, gdy przepłynąwszy wodę, stanie na zielonej łące.</p>
+<p>— Zkądżeś się ty wziął? — zapytał Jasiek.</p>
+<p>— Albo ja wiem? a ty skąd? — odparł zapytany.</p>
+<p>I rzeczywiście obaj nie wiedzieli jakim sposobem, wpadłszy w ciemny kanał, ujrzeli się naraz pod gołem niebem, i oto teraz mogą mówić
+i ruszać się. Czuli to doskonale, że żyją, bo
+głód im coraz więcej dokuczać począł, lecz odarci
+z odzienia, nie śmieli się ruszyć z pomiędzy trzciny. Wtem głosy jakieś zaczęły ich dochodzić,
+rozchylili szuwary, kobiety z przedmieścia szły
+prać bieliznę w rzece, rozprawiając między sobą
+wesoło.</p>
+<p>Na widok zbliżających się, chłopcy schowali
+się w szuwary i przylegli do ziemi. Lecz Siewros, znużony ostatnim wysiłkiem, ledwie oddychał, a tylko przy pomocy Jaśka mógł popełzać dalej.</p>
+<p>— Aj, żeby nam tak szmat odzienia, szepnął
+Jaśko, patrząc na nagie, poranione swoje i towarzysza ciało.</p>
+<p>Siewros otworzył tylko na wpół oczy i nic
+na to nie odrzekł.</p>
+<p>— Eh! — jęknął po chwili Siewros.</p>
+<p>— Cicho! — szepnął mu Jaśko — jeszcze nas
+ujrzą i wydadzą!</p>
+<p>Szept jednak nic nie pomagał; Siewros od
+czasu do czasu wydawał głuche jęki, szarpał się
+i miotał leżąc wśród szuwaru, a ostre trawy raniły jeszcze więcej jego ciało. Jaśko dobywał
+reszty sił, aby towarzysza uspokoić, rwał wodne
+liście, brał błoto i okładał niem szarpiącego się
+Siewrosa. Mimo to jednak jęki doszły do uszu
+piorących kobiet.</p>
+<p>— Oj, a to co?! — zawołały z przestrachem,
+zbliżając się razem i czyniąc znak krzyża.</p>
+<p>— To złe przeszkadza — szepnęła najmłodsza.</p>
+<p>— Cicho! — przerwała jej najstarsza — jeżeli złe, nie przeszkadzaj, niech jęczy.</p>
+<p>I zamieszała nogą wodę na krzyż, splunąwszy
+za siebie trzy razy.</p>
+<p>W szuwarach jęknęło znowu, a trzcina zakołysała się jeszcze bardziej.</p>
+<p>— Oh! oh! — zawołała milcząca dotąd dziewka,
+a zakrywszy oczy, poczęła uciekać. Dwie drugie
+spojrzawszy w stronę, skąd dochodziły jęki,
+a ujrzawszy, że z pomiędzy trzcin wyglądała niby
+głowa człowiecza obłocona i oblepiona liśćmi,
+i jakieś dłonie, usiłujące trzcinę pochwycić, gdy
+coraz więcej dochodzić ich zaczęło szamotanie
+i jęki, uciekały za pierwszą, wołając:</p>
+<p>— Thor! Teufel! — lub:</p>
+<p>— Ach, Gott!</p>
+<p>I było się czego przestraszyć. Siewros miotając się w dziwnej gorączce podnosił się, rozgarniał szuwary, usiłował pędzić przed siebie,
+Jaśko, chcąc go powstrzymać, szamotał się z uciekającym.</p>
+<p>Nareszcie wszystko ucichło. Nikt nie śmiał
+się zbliżyć do owych szuwarów, kobiety rozniosły
+wieść o złem, przeszkadzającem nad odnogą rzeki,
+żal im było porzuconej bielizny, nie śmiały jednak
+wrócić.</p>
+<p>O zmierzchu po nad tą samą rzeką przechodził ślepiec Bernard, cichym głosem śpiewając;
+wiatr roznosił pieśń pobożną, wreszcie pieśń ta
+umilkła. Zadźwięczały inne jakieś tony na wpół
+dziko, smutno brzęczały struny przewieszonej
+gęśli, wtórował im głos tęskny, przypominający
+szum lasu… Obce wyrazy niemieckiej mowy rozlegały się dokoła. Od czasu do czasu dolatywało:</p>
+<p>— <emph>Motina łankta tawe! Motina łankta tawe!!</emph></p>
+<p>W trzcinie zaszeleścialo. Siewros nawpół senny, przeciągłym głosem powtórzył: <emph>Motina łankta tawe</emph>! Głos słaby zginął wśród szuwaru nad
+wodą. Delikatne ucho Bernarda zdawało się
+chwytać ostatnie wyrazy swej pieśni, stanął, wyciągnął szyję, rękę oderwał od gęśli, wyprostował
+ją przed siebie, jakby chciał ułowić ów powtórzony wyraz.</p>
+<p>— Ach, to echo tylko mi wtórzy — szepnął po chwili. — Echo przynosi mi pieśń, którą tam,
+tam gdzieś daleko śpiewają!</p>
+<p>Westchnął raz jeszcze:</p>
+<p>— Ach, gdyby choć tych chłopców znaleźć.
+Ha, może uciec zdołali!</p>
+<p>W szuwarach jęknęło znowu i szmer wyraźniejszy dochodził. Ściemniło się już prawie zupełnie, a dla ślepca Bernarda noc też była wieczna.</p>
+<p>— Może oni się tu gdzie kryją, może to ich
+jęki?…</p>
+<p>I począł znów pieśń pobożną, znaną w murach krzyżackiego zamku, jakby nią dawał znaki;
+głos jego przecież znać musieli. Lecz pieśń ucichła, w szuwarach nie słychać było jęku, wszystko zdawało się układać do nocnego spoczynku.</p>
+<p>— Oni, czy ktokolwiek, zawsze tam jakieś głosy ludzkie, te jęki zawsze coś znaczą, może
+kto potrzebuje pomocy…</p>
+<p>I ślepiec, wyjąwszy z pod opończy chleb i glinianą bańkę, poszukał miejsca nad rzeką, a znalazłszy wilgotne skręcone szmaty, położył przy
+nich przyniesione zapasy, mówiąc:</p>
+<p>— Tak, tak, tutaj snać jest człek jakiś potrzebujący pomocy, niechajże chleb i napój pokrzepi jego siły!</p>
+<p>Rękę wyciągnął przed siebie, węchem wciągał
+powietrze, rozpoznając tym sposobem drogę i milcząc posuwał się dalej… A gwiazdy migotały na
+ciemnem niebios błękicie, jedne mrugały i kryły
+się, inne złotawym blaskiem rzucały światło na
+srebrną wstęgę Wisły, przedzierając mgłę gęstą,
+wznoszącą się nad rzeką. Wreszcie gwiazdy zagasły, mgła okryła płaszczem białym nisko, niziutko łąki i pola.</p>
+<p>Wśród tej mgły gęstej, czernieją dwie ludzkie
+postacie, idące chwiejnym krokiem.</p>
+<p>To Siewros, wspierający się na Jaśku. Silna
+natura chłopięcia, świeżość nocy, a może dźwięk
+ojczystej zasłyszanej pieśni, otrząsły go ze strasznej niemocy i trapiących widziadeł. Z wyrazami pieśni: <emph>Motina łankta tawe</emph>, sen skleił mu
+powieki.</p>
+<p>Świegotanie ptactwa, które po północy z pierwszym brzaskiem budzić się zaczęło, rozbudziło
+i Siewrosa. Przetarł oczy i starał się przywołać
+rozpierzchnięte myśli. Chrapanie śpiącego obok
+Jaśka, przypomniało mu towarzysza. Pociągnął
+go i zbudził.</p>
+<p>— Gdzie jesteśmy? — zapytał Siewros.</p>
+<p>— Uciekajmy! — rzekł Jaśko. — Uciekajmy
+póki noc; jesteśmy bez odzienia.</p>
+<p>— Tak, nadzy, głodni i bezsilni — odezwał
+się Siewros — jednak uciekać trzeba.</p>
+<p>I zerwał się chłopak, a chociaż chwiał się
+cały jak trzcina obok rosnąca, starał się jednak
+utrzymać na nogach.</p>
+<p>Podparł go rozbudzony Jaśko.</p>
+<p>— Uciekajmy, uciekać musimy — powtórzył
+Siewros.</p>
+<p>— Wpław przez rzekę.</p>
+<p>I rzucili się oba do wody. Los opatrzny zaprowadził ich w miejsce, gdzie niewiasty porzuciły szmaty, a litosna ręka Bernarda położyła
+chleb i napój. Odziani i pokrzepieni szli dalej
+pod osłoną mgły gęstej porannej.</p>
+<p>— Aby jak najdalej od krzyżackiej ziemi! —
+mówił Siewros.</p>
+<p>— Aby jak najdalej! — powtarzał Jaśko. —
+Gdybyśmy się dostali do moich.</p>
+<p>— Albo do moich! — wzdychał Siewros.</p>
+<p>I szli dalej.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>VI</head>
+<p>Jak sięgnąć okiem wzdłuż środkowego Niemna, wszędy znać straszne zniszczenie. Zameczki
+obronne w gruzach leżą, a gdzie ciągnęły się
+uprawne i bogate sioła, widnieją tylko zgliszcza,
+a rumowiska. Zdeptane pola, walające się strzępy odzienia, złamana żelazna zbroica, lub tarcza
+trzcinowa, ciężki miecz w zaciśniętej jeszcze dłoni świeżego a na poły przez zwierza ogryzionego
+trupa, odcięta noga lub ręka, ba nawet i głowa
+patrząca przewróconemi białkiem oczyma, dymiące niedogasłe ognisko, dym ciężki przesuwający
+się po nad tem zniszczeniem i woń zgnilizny,
+napełniająca powietrze, wszystko mówiło o niedawno stoczonej bitwie. Połamane zbroice, strzępy płaszczów białych z godłem Krzyża, świadczyły
+o napadzie Krzyżaków. Nie przebaczyli oni nikomu i niczemu, co znaleźli na drodze. Zwycięzcy
+czy pokonani, zostawili ślady swego przejścia.
+A chociaż jeńców uwozili i zdobycz brali, swoich też nie mało zostawiali na pobojowisku, ba i żywcem, rannego lub związanego, dostawało się
+niemało krzyżackiego żołdactwa w ręce litewskiego ludu.</p>
+<p>We wgłębieniu więc lasu, opodal od owego
+strasznego pobojowiska, na świętem snać miejscu
+leżało czterech związanych ludzi. Jeden silny
+i barczysty pocięty był i poraniony, głowa zwisła
+ku ziemi, usta krwią ociekłe od czasu do czasu
+rzucały przekleństwa, dwu zaś młodych chłopaków leżało z nawpół otwartemi oczyma, a zda się, że i w nich nie wiele już było życia. Jeden
+odwrócił się twarzą do ziemi, jak gdyby nie chciał
+patrzeć na słońce, które miało zapewne wkrótce
+dla niego zagasnąć. Westchnienie tylko przeciągłe
+podobne do jęku, oznajmiało w nim jeszcze resztkę życia. Drugi ze związanemi w tył dłońmi
+oparty, czy przywiązany do drzewa spoglądał
+zamglonem okiem dokoła, czasami kurczowo
+zadrgały mu usta jakby chciał przemówić, a słowa ni tchu nie stało. Tuż obok niego starszy
+wiekiem młodzian z długiemi włosami, z oczami
+w jeden punkt wlepionemi, związany, leżał na
+pół oparty o zwaloną kłodę drzewa. Twarz wycieńczona, łagodna, oczy zamknięte, nie wyrażały
+bólu ni trwogi, usta poruszały się powoli, nie
+wydając głosu. O kilkaset kroków od nich, stał
+dąb, a raczej pień wielkiego dębu, do którego
+wchodziło się po kamieniach jakoby po schodach,
+a nad nim pokrzywione w rozmaite strony gałęzie wyrastały ku górze w wielką koronę… Dąb
+ten i polana są nam już znane, jak i Tubingas,
+kroczący z tą samą co i przed laty powagą,
+a obok niego Chroniwos z przewiązaną skronią,
+z ręką prawą trzymaną na pasie skórzanym,
+a owiązaną lnianą szmatą od ramienia aż do dłoni. Za nimi ludzie z wejrzeniem dzikiem,
+każdy z toporem, i zgrają wybladłych z wejrzeniem wystraszonem kobiet i dzieci. Wszyscy szli
+tak, jak wtedy, gdyśmy ich widzieli kroczących na
+powitanie pierwszego dnia wiosny. Ino oczy ich
+spoglądają teraz złowrogo, nie mając tego, co
+ongi spokoju: na wielu ślady jeszcze przebytej
+walki, z niektórych piersi dziki okrzyk się odzywa… Tubingas stanął na kamiennych schodach
+wiodących do pnia świętego dębu.</p>
+<p>— Ugni Perkun! zawołał.</p>
+<p>— Ugni! powtórzono.</p>
+<p>Chroniwos zgrzytnął zębami, oczy mu zabłysły, głośniej nad innych powtórzył:</p>
+<p>— Ugni! Ugni! chciałby niemal biedz, lecz
+rany, ba i powaga kapłańskiego syna przytrzymywała go na miejscu… Na znak dany przez
+Tubingasa dziesięciu ludzi rzuciło się ku oczekującym śmierci jeńcom. Zemsta napadanych i zniszczonych przez krzyżackie zastępy Litwinów, chciała się nasycić kilkoma pozostałemi w ich
+rękach ofiarami. Przywleczono ich do stosu. Tubingas rzucił kamieniem, padł on na najstarszego
+jeńca. Stary Krzyżak głowę podniósł do góry,
+przekleństwo rzucił niezrozumiałe dla obecnych,
+oczy jego zaświeciły chytrym złowrogim blaskiem.</p>
+<p>— Żywym na stos mnie nie zawleczecie!
+wrzasnął swoją mową, szarpnął się jakąś nadludzką siłą, rzucił się i roztrzaskał głowę o wielki stojący śpiczasto kamień. Mózg wyleciał z tej
+silnej głowy i obryzgał szarą krwawą masą stojących przy nim. Z piersi ofiarników wyrwał się
+krzyk przeciągły, jeńcy nawet okrzykiem i drżeniem przyjęli tę śmierć chroniącą go przed powolnem na stosie konaniem, a długowłosy z zamkniętemi oczyma jeniec zawołał:</p>
+<p>— Panie okaż miłosierdzie nad nim i nad
+nami!</p>
+<p>— Przekleństwa zionie ten! jego na stos! —
+wrzasnął któryś ze stojących bliżej i chciał się
+rzucić na modlącego się niezrozumiałą dla nich
+a wrogą niemiecką mową. Tubingas usłyszawszy
+zamieszanie wyciągnął dłoń żylastą, zadął w róg
+wiszący u pasa i nakazał spokój. Cisza zaległa
+wśród ludu, echo powtórzyło dziki odgłos rogu,
+a wydającego doraźny wyrok śmiałka na bok
+usunięto. Święto to było zbyt wielkie, ażeby ktośkolwiek z tłumu ośmielił się mieszać jego uroczystośc. Rzadko się zdarzało Litwinom pochwycić
+krzyżackich jeńców, bogowie domagali się snać
+ludzkiej krwi na objatę, bo ciężkie plagi spadały na lud ten cały. Krew przelaną pod świętym dębem, lub żywcem spalonych jeńców trzeba
+było poświęcić na ołtarzu dla przebłagania ich gniewu. W każdej więc okolicy po walce, gdy jeszcze dymiło pobojowisko, palono wziętych do
+niewoli. Uroczystość to była, wśród której z dziką radością i w skupieniu a ciszy gotowano się
+do ujrzenia dymu krwi objatnej, lecz krew tę trzeba było przelać na ołtarzu, z ciekawością
+więc spoglądano co będzie teraz, gdy jeniec pozbawił się życia.</p>
+<p>— Czemu nie nie niesiecie, stos gore… wołał Tubingas.</p>
+<p>— Zabił się!</p>
+<p>— Zabił się! powtórzono do koła.</p>
+<p>— Łeb sobie rostrzaskał! wołano.</p>
+<p>Tabiugas zgrzytnął zębami.</p>
+<p>— Za koło święte z tem ścierwem! wrzasnął
+Tubingas.</p>
+<p>Szczątki nieszczęśliwego jeńca wkrótce uprzątnięto.</p>
+<p>— Gdzie inni? brać ich!</p>
+<p>Na rozkaz w mgnieniu oka pochwycono bladego smagłego młodzieńca, który górując wzrostem nad dwu pozostałymi, patrzył spokojnie błękitnemi oczami na otaczających, tylko jakieś
+drganie ust objawiało wzruszenie. Usta drgały
+lecz nie wydały głosu. Pochwycono nieszczęśliwego i związanego położyli na stosie… ogień od spodu obejmował drzewo, wężykowemi płomyki przydzierał się przez drobne chrusty, liżąc wielkie kłody drzewa i osmalając je, aby potem zajaśnieć wielkim płomieniem. Cisza była dokoła,
+objata miała być spełniona, uroczystość jej powstrzymywała od dzikich okrzyków. Tubingas
+tylko wołał:</p>
+<p>— Perkun Ugni! Ugni! Ugni! i podniósł rękę
+z toporem, aby leżącego ugodzić.</p>
+<p>— Siewros, <emph>mano Wajks</emph> dał się słyszeć
+głos z góry z rozrastających się w wysokie konary nad świętym pniem gałęzi. I ze zwinnością
+pantery rzuciła się jakaś postać, a odtrąciwszy
+mający spaść topór, ciałem swoim przykryła leżącego na stosie. Postać to była dziwna, podobna
+do kobiety, lecz strasznie oszpecona. Włos długi,
+spływający w nieładzie, okrywał na wpół obnażone ciało, zamiast odzienia były tylko strzępy
+skóry powiązane ze sobą łykiem, miejscami przetkane zielonemi liśćmi. Plamy błota, rany na całem ciele, ręce i nogi opatrzone długiemi, jak u zwierzęcia paznogciami, oczy patrzące dzikim
+wyrazem z pod rozczochranych spadających na
+wychudzoną twarz kościstą włosów, czyniły tę postać wstrętną, niepodobną prawie do człowieka.
+A jednak na głos jej Tubingas zatrzymał rękę;
+w niemem jakiemś oczekiwaniu stał nad stosem,
+a ogień coraz więcej obejmując podkłady drzewa
+huczał i rzucał czerwono-błękitne płomienie.</p>
+<p>— <emph>Siewros, mano Wajks</emph>! krzyczała dziko
+kobieta, a uchwyciwszy leżącego młodzieńca, z tą
+samą zręcznością, z jaką na stos wskoczyła, zbiegła po palących się belkach, niosąc związane
+chłopię na rękach tak, jak się niesie dziecię maleńkie. Lud ze czcią rozstępował się idącej, sam
+Tubingas z wzniesioną dłonią odwrócił się za
+nią, jakby zagasłemi oczami chciał przypatrzeć
+się temu dziwnemu zjawisku. Ona tymczasem
+złożyła zdobycz swoją na trawie, a śmiejąc się
+i płacząc rozwiązywała krępujące ją węzły, całując poranione ciało wydartej kapłanom ofiary.
+Nikt nie śmiał się ruszyć z miejsca, wszyscy patrzyli z podziwem. Ci co byli dalej a nie widzieli
+co się stało, słysząc tylko dzikie okrzyki i zamieszanie powtarzali z pewnem poszanowaniem
+i grozą.</p>
+<p>— Szalona! Dowrusa, szalona!</p>
+<p>— Idź, zobacz! zawołał Tubingas, trącając
+obok stojącego Chroniwosa.</p>
+<p>Na znak dany przez sprawiającego objatę,
+Chroniwos nie śmiejący się dotąd ruszyć, z młodzieńczą żywością pobiegł do skaczącej nad oniemiałym ze zdziwienia i przestrachu Siewrosem.
+Dowrusa, ujrzawszy zbliżającego się Chroniwosa,
+poczęła na nowo objawiać swoją radość, powtarzając:</p>
+<p>— Siewros Wajks! dając znaki przybyłemu, aby się wraz z nią młodzieńcowi przypatrywał. Przy tem głaskała leżącego po twarzy, przytulała
+jego głowę, podnoiła twarz ku sobie, a wpatrując się w zdziwione oczy młodzieńcu, dotykała rąk jego, a nawet lizała jego rany, chcąc mu
+okazać swą czułość.</p>
+<p>Chroniwos z pewnem poszanowaniem i przesądnym strachem spoglądał na obłąkaną, u ludów bowiem pierwotnych pozbawieni zmysłów otaczani byli czcią szczególniejszą. Na ich skinienie nawet kapłani byli posłuszni, sam Tubingas nie śmiał odtrącić obłąkanej i odebrać ofiary, uważając działanie jej za zrządzenie bogów — wyższych duchów, które według ich mniemania w obłąkanych wstępowały. Więc i Chroniwos nie śmiał dotknąć ofiary trzymanej przez obłąkaną,
+dopiero na jej skinienie, pochylił się nad leżącym
+i krzyknąwszy Siewros! objął młodzieńca lewą
+zdrową ręką.</p>
+<p>— Siewros! powtórzył młodzieniec, Siewros! rzekł, oddając uściski obłąkanej swej rodzicielce
+i Chroniwosowi, wymawiając przy tem wyrazy, na dźwięk których Chroniwos odskoczył.</p>
+<p>— Tyś Niemiec! syn mój Niemiec! wołał drąc
+sobie włosy.</p>
+<p>Siewros o ile mógł okazywał czułość, silił się
+żeby wyraz jaki przypomnieć sobie, całował ziemię, przyciskał ręce matki do piersi, nie lękając się jej długich paznogei, dawał wszelkie znaki
+radości, nie mogąc się porozumieć z tymi, którzy
+okazywali mu uczucie, a w których przeczuwał
+rodziców, nie rozumiejąc ich mowy. Wreszcie
+przypomniał sobie wyraz słyszany jakby echem,
+podobny do tych, które oni wymawiali, i zawołał:</p>
+<p>— Motina! (Matka!)</p>
+<p>— Motina tawe! Motina! krzyczała Dowrusa,
+ściskając młodzieńca. Wzrok jej błędny zaczął
+nabierać łagodniejszego wyrazu, na blade wynędzniałe policzki spłynęły łzy rzęsiste, zwilżając
+trzymaną rękę syna.</p>
+<p>— Bogi mi go oddały! Bogi mi go oddały!
+Chroniwos, patrz, to nasz syn, to Siewros, ten
+znak na lewem ramieniu! wszak sameś mu ten
+znak wypalił mówiła kobieta coraz przytomniej.</p>
+<p>— Tak, i jam go poznał po tym znaku, rzekł
+ponuro Chroniwos, tak to Siewros, to on, lecz
+czyż on nam synem? niemiecką ma mowę. Przekleństwo tym, którzy mu ją w usta włożyli, przekleństwo im wszystkim, wrogom naszym, naszego
+plemienia! Syn nas zrozumieć nie może! I darł
+włosy z rozpaczy. Wtem Tubingas szedł z wyciągniętą dłonią przed siebie, tłum otaczający Dowrusę rozstąpił się na widok starca, którego
+szanowano jako kapłana.</p>
+<p>— Zrozumie — zawołał starzec, — gdyż jako
+wilczę chowane do jamy powraca, tak i on gdy
+go szum naszych lasów, dym naszych ognisk
+owieje, powróci i stanie jako krew z krwi a kość
+z kości naszej. Bogi nam wróciły! nie chciały
+krwi jego! I szorstką dłonią dotykał głowy wnuka, a dłoń ta co z taką siłą garść zarzewia brała, stała się lekką jako dłoń wlewająca uczucie
+miłości dla swego plemienia.</p>
+<p>— Ofiar nam już tej nocy sprawiać nie należy, snać bogowie ich dziś nie pragną, a i wkrąg
+złoty ogień na niebie posyła już swoje smugi
+to już krwi na ołtarzu święcić nie można: mówił
+starzec powłócząc zagasłemi oczami, wskazując
+na krąg nieba od wschodu, kędy różowa jutrzenka posłała już pierwsze brzaski. Ślepy starzec
+przeczuł ją, chociaż nie widział.</p>
+<p>Na znak przez Tubingasa dany, wszyscy zaczęli się rozchodzić. Dowrusa, nieodstepując syna
+tuliła go, prowadząc obok dziada i męża, wraz
+z całą skupiającą się około nich drużyną. Nagle
+Siewros drgnął, jak gdyby sobie coś przypomniał.
+Gwałtownym ruchem chciał się wyrwać z pomiędzy otaczających, wskazując w stronę jeńców,
+których pod strażą pozostawić miano na świętej
+polanie. Na ten ruch Chroniwos rzucił znowu
+przekleństwo. Tubingas zmarszczył brwi siwe, pytając, co ono znaczy.</p>
+<p>— Wyrywa się do swoich, do tych… och, on
+nie nasz! ryczał z bólu nieszczęsny ojciec.</p>
+<p>— Nasz, nasz! mój! krzyczała Dowrusa, przytrzymując syna, jak gdyby go chciała bronić
+przed gniewem ojca.</p>
+<p>Siewros zaś dawał znaki błagalne, wskazując
+na jeńców i darł się ku nim.</p>
+<p>— Jeńców dać tutaj, krzyknął Tubingas, posłuchajmy co chce z nimi zrobić.</p>
+<p>Na głos ten przywleczono dwóch nieszczęśliwych. Siewros rzucał się od nóg Tubingasa do
+Chroniwosa, dając znaki błagalne i wskazując
+na jeńców.</p>
+<p>— I któż zrozumie jego mowę, ci tylko, ci!
+wołał rozpaczliwie Chroniwos. Ach, on nie nasz!</p>
+<p>— Wasz, zawołał litewską mową jeden z jeńców, a był nim ślepiec Bernard, wasz jako i wielu co choć krzyżacką mówią mową, litewskie
+w piersi mają serce!</p>
+<p>— I on nasz? zawołał Tubingas.</p>
+<p>— I jam wasz! choć dawno w niewoli krzyżackiej. Wydarto mi oczy, lecz z piersi uczucia
+wydrzeć nie zdołano, ono wracało zawsze do
+Tubiugasowego ogniska.</p>
+<p>— Tyś ślepcem, tyś ślepcem! a znać i z mego
+pokolenia! wrogi ci wydarli oczy, jako i mnie,
+teraz mogę już spokojnie odejść, gdy bogowie
+wezwą mnie do siebie, ty ślepiec ślepca przed
+świętym dębem a ogniem zastąpisz. I położył
+dłoń na głowie leżącego u stóp jego jeńca, rozkazując rozcinać więzy.</p>
+<p>— Tyś ślepiec, tyś mój następca! wołał starzec. Chroniwos do boju, ty bogom służyć będziesz!</p>
+<p>Bernard schylił głowę nie odpowiadając nic na mowę Tubingasa. Zabierano się znów do dalszego pochodu, nie troszcząc się o pozostałego
+związanego jeńca, który też zresztą zdał się nie
+wiele troszczyć o to, co się w około niego dzieje.
+Z oczami zamkniętemi leżał nieruchomie, nie wiedząc i nie słysząc nic co dokoła niego mówiono. Siewros jednak postąpić dalej nie chciał, do
+Bernarda przemawiał, a ten był tłómaczem pamiętając ojców mowę.</p>
+<p>— Jeżeli my znaleźliśmy ziemię naszą, ojców
+naszych, wołał ślepiec, przez miłość dla tej ziemi
+i dla nas, uwolnijcie trzeciego. Szmer jakiś niezadowolenia powstał pomiędzy ludem. Lud chciał
+objaty bogom, a jakkolwiek podzielał radość
+z odzyskanych synów Tubingasowej rodziny, pragnął obiecanej uroczystości, a z czterech krzyżackich jeńców wybranych na objatę ten jeden już
+tylko pozostał. Bernard jednak nie zważał na
+wznoszące się szmery, wołając:</p>
+<p>— Przez miłość dla ziemi, przez miłość dla nas, dajcie wolność tamtemu. On razem z Siewrosem niewolę podzielał, razem z nim uciekł.</p>
+<p>— On nie Niemiec, nie Krzyżak? pytał Tubingas.</p>
+<p>— Nie, on jako i my niewolnik!</p>
+<p>— Ale nie nasz? zapytał Chroniwos.</p>
+<p>— Nie, on z innego lecz również nieszczęśliwego najeżdżanego przez Krzyżaków ludu, on od tych, co na południo-zachód od naszych lasów,
+tam po nad jeziorami a Wisłą mieszkają, on jest
+od Mazurów.</p>
+<p>— To tam, kędy jasne pola a złote zboże,
+kędy wsie a miasta w broń i lud zasobne, mówił
+Chroniwos z pewną chciwością. Nie, ale on nie
+nasz! mamy ich dosyć! Nie!… Nie!</p>
+<p>— On był z twoim synem w niewoli, razem z nim uciekł! wołał Bernard, a Siewros włóczył
+się od nóg dziada do ojca niemą zanosząc prośbę.
+Tubingas wreszcie podniósł dłoń, a spuszczając ją na ramię Chroniwosa zawołał.</p>
+<p>— Nie godzi się zabijać druha naszych synów, on z owego plemienia skąd łupy pewne, —
+bogaty można okup pozyskać, ba i tam podobno
+od Gedyminowego grodu nowa gotuje się wyprawa, — jeżeli zna ziemie?…</p>
+<p>— On był w niewoli, on nie zna ziemi swoich ojców! mruknął niechętnie Chroniwos!</p>
+<p>— Ale zna ojców swych mowę, może wam
+być przydatny, gdy się gotujecie na nich! rzekł
+Bernard, chwytając sposobność do ocalenia współtowarzysza niedoli.</p>
+<p>Chroniwos mruknął coś niezrozumiale, Tubingas kazał więzy rozciąć ostatniego jeńca, Siewros
+rzucił się w jego objęcia wołając:</p>
+<p>— Jaśko, myśmy u moich, bywaj z nami!
+Tubingas dla uspokojenia ludu kazał okrzyknąć
+na jutro ucztę z tłustego wołu i baranów, których krew miała być na ołtarzu dla bogów przelaną. I cała drużyna pociągnęła do Tubingasowego zamczyska. Stary Kunigas, cieszył się z powrotu wnuka i krewniaka, Chroniwos oprócz syna
+odzyskiwał jeszcze żonę, która od porwania Siewrosa straciła zmysły i jako zwierz dziki kryła
+się po lasach, a teraz wraz z synem wracała.
+Lud radząc o przerwanej ofierze i jutrzejszej
+uczcie, pociągnął do chat nawpół rozwalonych,
+lub legł wśród lasu, a słonko wschodzące zakreśliwszy złoty krąg na niebie, rzuciło jasne promienie,
+kryjąc mgłą ranną straszny obraz nie uprzątnionego jeszcze świeżego pobojowiska.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>VII</head>
+<p>Do wielkiej sali na malborskim zamku wszedł
+Krzyżak niższej godności i ze czcią należną spojrzał na dwóch poważnych wiekiem rycerzy. W jednym poznajemy rycerza Dietricha, marszałka
+Zakonu, drugi wyższy od niego godnością, ba
+i wzrostem, był sam mistrz krzyżacki Zygfryd
+von Furchtwangen. Stuknięciem młotka wiszącego
+przy drzwiach przybyły oznajmił się siedzącym.</p>
+<p>— Zbliż się i powiadaj, — rzekł mistrz Zygfryd wyniośle.</p>
+<p>— Już po dwakroć pragnę Waszej wysokości
+oznajmić wieść ważną, jaką przyniosła Kobolda,
+żona Hexa z Wolfshöhle.</p>
+<p>— Mów, a niezaprzątaj czasu!</p>
+<p>— Wróciła wczoraj jeszcze z południa, domagając się, aby Waszej wysokości oznajmić, że
+owych dwóch chłopców zaginionych znalazła.</p>
+<p>— Gdzie są? porwał się rycerz Dietrich von
+Altenburg. —.</p>
+<p>— Biedna niewiasta, chcąc jak najprędzej wyswobodzić z jamy Hexa błąkała się dniem, i nocą,
+aby na jakiś ślad zaginionych natrafić, szła więc
+ciągle brzegiem Wisły, będą pewną, że jeżeli
+młode wilczęta jeszcze żyją, to je znajdzie w jakiem legowisku…</p>
+<p>— Nie rozwlekaj opowiadania, a mów gdzie
+są! ozwał się niecierpliwie Dietrich, który oparłszy się na stojącym przed nim stole, chciwie
+chwytał każdy wyraz, kiedy tymczasem Wielki
+mistrz, rozparłszy się na ławie, zdawał się nawpół
+drzemiąc słuchać opowiadania. Na uczynioną
+przerwę przez Dietricha skinął tylko ręką, jakby
+tym ruchem mówił.</p>
+<p>— Daj mu pokój, niech się wygada!</p>
+<p>— Ja nic nie rozwlekam, a tylko mówię,
+co się stało, a wszystko trzeba orzec jak najdokładniej, żeby Ich wysokoście wiedzieli, jakie to chytre te wilczęta, co raczejby lisami zwać je
+można: ciągnął dalej, przestępując z nogi na nogę, opowiadający. Gdyby nie chytrzejsza jeszcze
+od nich Hexowa niewiasta, byliby z pewnością się wymknęli aż na dno swojej jamy, a stamtąd
+nie tak łatwo byłoby ich wydostać!… Dietrich
+uczynił znów pewien ruch niecierpliwy, lecz Zygfryd spojrzał nań tylko, a krewki rycerz jeszcze
+więcej łokcie na stół założył, a podparłszy się
+na nich słuchał już cierpliwie opowieści.</p>
+<p>— Otóż szła ona brzegiem Wisły, najpierw
+tą stroną, co prowadzi od kanałów malborskiego zamku, a potem skręciła nad łachą rzeki, a że
+tam moc trzciny porosła, węszyła więc jak wyżeł, czy gdzie jakiego śladu nie wytropi. Nieraz
+nawet wchodziła w wodę i dotarłszy do trzciny
+szukała w niej legowiska drogich wilcząt: ale
+gdzie tam, nigdzie nic nie było. Aż jakoś na
+trzeci czy czwarty dzień spotkała kobiety, które
+skradając się nieśmiało szły również nad brzegiem, a oglądały się dokoła, jakby je co straszyło; Kobolda też zaraz pomyślała sobie, że to
+może one skryły wilczęta, kiedy się tak czegoś
+strachają. Zbliżyła się więc do nich, lecz owe
+niewiasty zobaczywszy ją, poczęły uciekać, krzyż
+święty czynić, pluć za siebie i garście rozmiękłego błota z trawą rzucać. Wtedy ona poczęła wołać, że i ona też krzyż święty wyznaje,
+złego im nie życzy, a w imię Boga wzywa, aby
+jej dały pomoc, bo jest strasznie strapioną i zabłąkaną podróżną. Na jej wołanie najśmielsza
+z uciekających zatrzymała się, a wtedy Kobolda
+jęła płakać i narzekać jako jest z wioski oddalonej, a oto dwóch jej chwackich synaczków
+gdzieś się podziało. Śladu po nich nie znaleźć,
+a ona strapiona matka, już błąka się, nawet nie
+wiedzieć dni ile, aby choć ślad, choćby strzęp
+odzienia znaleść po swoich najdroższych. Nie
+gdzieindziej, tylko ku rzece musiał je zły człek
+lub zwierz uprowadzić, boć na rozmiękłej ziemi
+spostrzegła stopeczki ich ukochane, ba nawet
+ślady krwi dojrzała. Niewiasty widząc, że
+najśmielszej nic się nie stało, zbliżyły się, a wzdychając wysłuchały opowiadania Koboldy. Aż nareszcie jako wszystkie słuchały, wszystkie też naraz i mówić poczęły, a przypominać sobie owo
+chrapanie.</p>
+<p>— Oh! oh! toć w trzcinie szumiało, a krzyki
+były!</p>
+<p>— Gdzie? w której? spytała je zaraz Kobolda, a niewiasty opowiadały, jako druga już doba
+upływa, gdy chusty prały z rzeki, wtedy w trzcinie dziwnie coś szumiało, a takie głosy się odzywały, jakby złe ucztę sobie wyprawiało. Że
+zaś mrok zapadał więc się też bardzo przestraszyły, chusty zostawiły nad rzeką i same uciekły,
+a teraz przyszły zobaczyć czy się chusty nie znalazły. Lecz snać złe porwało je sobie na obwijki,
+bo przecie żaden człowiek nie wziąłby chust zmoczonych cudzych, boć to mór zaraz przynosi.</p>
+<p>— To pewnie moje synaczki złe gdzie udusiło, albo je na swoją stronę chciało przedzierzgnąć: oni byli jakoby anieli, wolała Kobolda.
+Dowiedziawszy się w której trzcinie straszyło,
+weszła do wody i częścią idąc, a częścią płynąc,
+i dotarła do rosnących szuwarów. Tam znalazła
+trzcinę i trawę wygniecioną tak, jakby w niej
+dwa ciała leżały a i dopatrzyła się ludzkich śladów. Trzcina była otoczona wodą, a nie mogli
+się stamtąd inaczej, jak dopłynąwszy brzegu, wydostać. Powróciła wiec do czekających i biadających nad jej rzekomem nieszczęściem niewiast,
+które jej pokazały miejsce, gdzie leżała bielizna.
+Opodal od rzeki znać było ślady zaschłe stóp
+ludzkich w obuwiu, te wkrótce ginęły, skręcając
+ku malborskim murom, a natomiast brzegiem
+rzeki znać było obok siebie ślady dwóch par nóg
+bosych.</p>
+<p>Kobolda ujrzawszy je, już dalej nie czekała,
+tylko zostawiwszy zdziwione i żałujące ją niewiasty za owym szła śladem, aż nareszcie dotarła w gęstwie i krzaki. Było to już w samo południe, słońce przypiekało silnie, lecz Kobolda na
+nic nie zważała, ale jak poprzednio w trzcinie,
+tak teraz w gęstej trawie i zaroślach szukać
+poczęła. I oto zdala doszło ją jakieś chrapanie.
+Zbliżyła się po cichu i ujrzała jednego z naszych
+wilków rozciągniętego a drugiego siedzącego nad
+nim i usiłującego go snać obudzić. Lecz niedokonał tego bo żelazne dłonie Koboldy uchwyciły
+go za kark. Chłopak usiłował jej się wydrzeć,
+drapał, kąsał a nawet wyrwał kawałek ciała z chudego policzka Koboldy, ona jednak powaliła
+go na ziemię, przygniotła piersi i w otwartą gębę
+wlała płynu, po którym nie tak łatwo się kto
+obudzi….</p>
+<p>— Co! otruła go? krzyknął Dietrich zrywając
+się z siedzenia i uderzając w stół silną dłonią.</p>
+<p>Wielki mistrz znów skinął ręką na uspokojonie rycerza, a Drega mówił dalej.</p>
+<p>— Nie obawiajcie się, szlachetny rycerzu, wszak Kobolda chciała oswobodzić swego małżonka, nie trułaby więc wilcząt, które nakazaliście żywcem sobie dostawić: dając to za warunek
+wyzwolenia starego Hexa. Wilczkowi nic się nie stanie, był to tylko napój usypiający, po którym też legł bezwładnie, a ona nie potrzebowała się z nim borykać. Drugi tylko, leżąc dotąd jakby kawał drzewa, zaczął się rzucać i zrywać jak szalony, lecz Kobolda nie zważając na ociekły krwią policzek, przytrzymała ptaszka, pochwyciła jak pierwszego za gardziel i gwałtem w gębę nalała tego napoju, który ona doskonale umie przyrządzać, a który przezorna niewiasta wzięła ze sobą. Uśpiwszy tak obu, opatrzyła sobie rany, porobione przez szalonego wilka i ruszyła ku drodze, żeby sprowadzić jakie wozisko dla zabrania ich obu. Zaledwie jednak wyszła ku drodze, kiedy od drugiej strony usłyszała tupot koni, chrzęst zbroi i przedzierający się oddział naszych. Jakkolwiek ze trzy staje drogi oddzielało ją od idących, mężna jednak niewiasta pędem rzuciła się, a dognawszy, przełożyła rzecz całą. I oto zaraz z oddziału wysłano kilku knechtów,
+którzy przenieśli uśpionych, niewiedzących o bożym świecie wilczków. Prosiła, żeby można ich zaraz odstawić na zamek, lecz rycerz Günter,
+prowadzący oddział, nie pozwolił na oddalanie się ludzi, owszem mówił, że im te ptaszki mogą
+być użyteczne. Kazał ich więc umieścić pomiędzy ciurami i powiódł dalej ze sobą. Mnie zaś
+kazał wracać z Hexową kobietą, abym wam rzecz całą przełożył. Ano tylko jeszcze i to muszę
+rzec także, jako Kobolda widziała ślady najwyraźniejsze ślepca Bernarda. Ten, po ucieczce
+wilcząt, także gdzieś przez parę dni się włóczył, a przed wyjściem z za murów i po powrocie gadał długo potajemnie z ojcem Germanem, który teraz w miejsce Hexa, ma dozór nad Wolfshöhle.</p>
+<p>— Stul pysk! — porwał się milczący dotąd
+i jakby nawpół senny Zygfryd von Furchtvangen — nie kalaj ludzi świętych twą bezwstydną
+gębą.</p>
+<p>Drega stał się naraz maleńki, zda się, że
+przed tym potężnym głosem byłby się chętnie
+skrył w najciaśniejszy zakątek olbrzymiej komnaty. Zygfryd jednak krzyknąwszy, opadł napowrót całym ciężarem wielkiego swego ciała na
+ławę i znowu przymknął powieki, jak gdyby się
+zmęczył zbytecznie tym jednym wybuchem. Wyciągnąwszy zaś rękę ku siedzącemu z opartą na
+dłoniach głową Dietrichowi, dał tem znak, aby
+ten w jego zastępstwie mówił dalej.</p>
+<p>Po surowych lecz pięknych rysach Krzyżaka
+przebiegł uśmiech szyderczy, spojrzał na olbrzymią bryłę mięsa, noszącą miano Wielkiego mistrza, z ócz jego czarnych posypały się iskry
+gniewu i niecierpliwości: powściągnął je jednak,
+a tylko podniosłszy ramiona z pewnem lekceważeniem, zwrócił się do stojącego przy ścianie
+Drega i głosem, jakby go co dusiło w gardle,
+zapytał:</p>
+<p>— Gdzież więc są owi odnalezieni?</p>
+<p>— Jak to mówiłem Waszej wysokości, rycerz
+Günter kazał ich zabrać ze sobą, mówiąc, że nie
+ma ludzi dla odwożenia wilczków i że właśnie
+mogą mu się przydać.</p>
+<p>— Tak więc i ślepiec Bernard i chłopaki
+wszystko naraz, na ową marną wyprawę — mruknął przez zęby Dietrich — a wszystko na djabła
+się przyda.</p>
+<p>I znowu z pewnem lekceważeniem spojrzał
+na leżącego Wielkiego mistrza, a po chwili rzekł
+zwracając się do Drega.</p>
+<p>— Idź do djabła!</p>
+<p>— A Kobolda? — zapytał tenże.</p>
+<p>— I ona niech idzie razem z tobą.</p>
+<p>— A Hex? — pytał ciągle przyciszanym głosem stojący uparcie Drega, a jego chytre niewielkie oczy błąkały się po twarzy wzburzonej
+rycerza, zatrzymując się od czasu do czasu na wielkiem opasłem licu drzemiącego mistrza.</p>
+<p>— Do stu piorunów! Niechaj z was trojga
+piekło się ucieszy! — wrzasnął Dietrich uderzając
+pięścią!</p>
+<p>Zygfryd podniósł znów głowę, zwracając wzrok
+pytający na towarzysza.</p>
+<p>— Czy Hexa wypuścić? — zapytał Drega, przybierając jak najpokorniejszą minę.</p>
+<p>Zygfryd poruszył leniwie ustami i skinął znowu rękę ku Dietrichowi, jakby już wszystko
+chciał uczynić, byleby się jak najprędzej uwolnić od opowiadającego i miły sobie spokój zapewnić.</p>
+<p>— Idźcie wszyscy troje do djabła! — zawołał
+raz jeszcze Dietrich — rzekłem już, a niech się
+żadne Wielkiemu Mistrzowi nie pokazuje na oczy.</p>
+<p>Drega cichuteńko lisim krokiem wyniósł się z komnaty.</p>
+<p>Dietrich wstał i wielkiemi krokami zaczął się
+przechadzać, jak gdyby chciał uspokoić umysł
+wzburzony. Zygfryd zaś westchnął jak człowiek,
+któremu ciężar opadł z serca i pragnie teraz spoczynku, lecz z Dietrichem nie łatwa była sprawa.</p>
+<p>— Nie pojmuję czemu Jego wysokość zezwoliła na tę wyprawę; obecnie Polska robi jakieś
+rokowania, by tę ciemną Litwę ku sobie przygarnąć. Nie drażnić więc nam Litwy napadami.</p>
+<p>Zygfryd westchnął powtórnie, a później machnął tylko po swojemu ręką, chcąc przerwać
+rozmowę. Dietrich jednak mówił dalej:</p>
+<p>— Teraz nie wojną i napadami, lecz przyjaźnią z Litwą trzeba było wojować, słać obietnicę a nie wojnę Gedyminowi, na obietnicę potęgi,
+Litwina, jak szczupaka na przynętę, brać nam
+należy. Ten polski Ladislaus nie wyrosłe i marne ma ciało, lecz umysł wyniosły, sięga szeroko
+i daleko, przyjaźń jego a swadźba z Węgrami,
+utrze mu drogę do cesarza a Rzymu, a przy takich rządach potęga Zakonu, i tak już zachwiana, do szczętu zmarnieje.</p>
+<p>— Nie zmarnieje! — porwał się Zygfryd, słuchający dotąd tak samo z zamkniętemi oczami
+mowy Dietricha, jak poprzednio słuchał opowieści
+Drega.</p>
+<p>— Nie zmarnieje! — wołał, uderzając w stół
+potężną pięścią.</p>
+<p>— Nie zmarnieje, pókim ja mistrzem Zakonu!
+Nie zmarnieje! — powtórzył raz jeszcze i cały
+czerwony, z pianą na ustach, zwalił się na ławę.</p>
+<p>Dietrich spojrzał na niego z pewnem politowaniem i przeszedłszy wolnym krokiem wzdłuż
+komnaty, we drzwiach rzekł do stojącego sługi:</p>
+<p>— Powiedz ojcu Germanowi, że Wielki mistrz
+żąda się z nim widzieć.</p>
+<p>I poszedł długim korytarzem w głąb komnat
+zamkowych.</p>
+<p>Do wielkiej zaś sali wszedł wkrótce ojciec
+German ze zwykłym sobie spokojem na twarzy.
+Wszedłszy, rozejrzał się, a gdy w komnacie nikogo zrazu nie ujrzał, przyłożył rękę do czoła, zasłaniając się od bystrych promieni słońca, wpadających przez długie, wązkie okno jaskrawą
+barwą. A potem wprost skierował się do zagłębienia, gdzie leżał bezwładny Zygfryd. Schylił się nad nim, dotknął jego skroni, a natarłszy je
+wyjętym z zanadrza balsamem, rozerwał też kaftan, cisnący szeroką pierś mistrza, dając co chwila
+wąchać maleńką amforkę…</p>
+<p>Zygfryd począł wkrótce oddychać swobodniej,
+otworzył oczy, spojrzał na pochylonego nad nim
+kapłana, a ująwszy dłoń jego wychudzoną w olbrzymią lewicę, prawą szukał kubka z napojem.</p>
+<p>German odsnuął kubek mówiąc łagodnie:</p>
+<p>— Nie dla Waszej miłości teraz napój gorący.</p>
+<p>Zygfryd, jak posłuszne dziecię, dłoń opuścił,
+po chwili podniósł głowę wołając:</p>
+<p>— Jam potęgą Zakonu!</p>
+<p>I wielką pięść wyciągnął przed siebie.</p>
+<p>German dłoń tę ujął i powoli, ze spokojem
+położył, mówiąc cichym głosem:</p>
+<p>— Niech się Wasza wysokość uspokoi, dla dobra Zakonu i jego potęgi; nikt Waszej miłości tej
+potęgi nie odbierze.</p>
+<p>— Nikt? — powtórzył Zygfryd leniwym głosem i spojrzawszy na nachylonego kapłana, dał
+się jego słowom ukołysać i wkrótce cisza, przerywana tylko ciężkiem sapaniem Wielkiego mistrza,
+zapanowała w komnacie.</p>
+<p>Ojciec German podszedł do drzwi, a na znak dany przez niego, czterech olbrzymich knechtów
+postawiło ławę ze śpiącym na kołach i wtoczyło
+go do przybocznej sypialni.</p>
+<p>German zostawił w spokoju Zygfryda i w zamyśleniu kroczył korytarzem do podziemia zamczyska.</p>
+<p>Z głębi dziedzińca wchodził tam właśnie Dietrich w towarzystwie komturów. Ujrzawszy Germana, zawołał, wskazując na kilku, nędznie odzianych, zsiadających na podwórcu z wychudzonych
+koni, żołnierzy:</p>
+<p>— Oto robota i polityka Wielkiego mistrza!
+Günter zaprzepaścił najlepszych wojaków, nawet odnalezionych wychowańców Wolfshöhle wraz
+z jeńcami Litwa zabrała!</p>
+<p>To mówiąc, jak szalony wbiegł w głąb zamku, a wpadłszy do izby, w której Zygfryda na
+wpół omdlałego zostawił, obejrzał się do koła.
+Nie zastawszy go, rzucił tylko pogardliwe spojrzenie w stronę, gdzie przed chwilą siedział,
+oczy mu zabłysły złowrogo i mruknął coś pod
+nosem.</p>
+<p>Potem oparł się o framugę okna, jak to miał
+we zwyczaju, i jął wypytywać o szczegóły przywiedzionych przez siebie, okrytych jeszcze pyłem
+podróżnym, żołnierzy.</p>
+<p>Ojciec German tymczasem widząc wzburzonego marszałka, spojrzał tylko za wchodzącym
+w komnaty zamkowe i szepcząc: „<emph>Pax Dei</emph>”,
+powoli ku Wolfshöhle pociągnął.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>VIII</head>
+<p>Wieść o niepomyślnej wyprawie na Litwę
+dość znacznego oddziału, lotem ptaka rozniosła
+się po wszystkich krzyżackich ziemiach. Komturowie, zarządzający powiatami, spodziewali się
+co chwila głośnego wezwania w imieniu Wielkiego mistrza, lub potajemnych rozkazów Dietricha
+z Altenburga, najpierwszego marszałka Zakonu.</p>
+<p>Rozkazy jednak nie przychodziły, jakaś złowroga cisza zaległa ziemie krzyżackie; tylko tu
+i tam przytłumione szmery słyszeć się dawały
+na brak szerszego zajęcia, a tym sposobem i
+wojennych łupów.</p>
+<p>Malborg nie wzywał ich ani na wojnę, ani na
+ucztę, któremi Wielki mistrz podczas pokoju zwykł
+był zabawiać swoich rycerzy. Na grudziązkim
+powiecie siedział komtur Hochswald, prawa ręka
+Dietricha, sojusznik w wielu sprawach tajemnych;
+ten najpierw spodziewał się wezwania od marszałka, lecz wezwanie nie przychodziło. Tymczasem jednego poranku, zdala, drogą od dolnej
+Wisły, ukazywać się zaczęli jezdni. Nie byli to
+sąsiedzcy komturowie, ani ich wysłańcy, lecz nie
+byli to i nieprzyjaciele, na przyjęcie których grudziązki zameczek ani nie był przygotowany, ani też nie spodziewał się ich przybycia. Od tamtej
+bowiem strony mogli jednak ciągnąć tylko polscy rycerze, lecz ci wprzód zawadzićby musieli o Chełmno i sąsiednie powiaty. Byli to więc jacyś
+posłowie, którzy też niebawem stanęli w Grudziążu.</p>
+<p>Hochswald przyjął przybyłych, kilka słów z nimi zamienił i zostawiwszy ich w swojej siedzibie,
+sam, nie czekając wezwania, udał się do Malborga, gdzie przybył równocześnie prawie z powracającymi z niepomyślnej wyprawy.</p>
+<p>Na widok rycerza Hochswalda rozpogodziło
+się chmurne oblicze Dietricha.</p>
+<p>— Witaj nam komturze — rzekł doń marszałek łaskawie. Cóż, musimy obmyśleć jakiś środek, któryby zaradził popełnionemu głupstwu <emph>wielkiej głowy</emph> — ciągnął poufnie Dietrich, ujrzawszy się sam na sam z przybyłym.</p>
+<p>— Wszak marszałek i komturowie od tego! — rzekł szyderczo Hochswald, uśmiechając się porozumiewająco. Obejrzał się jednak dokoła, jakby
+chciał się przekonać, czy są sami w niewielkiej komnacie Dietricha.</p>
+<p>Dietrich zrozumiał wzrok jego, a spojrzawszy
+badawczo w twarz wiernego sobie komtura, zasępił czoło, pytając:</p>
+<p>— Czy i stamtąd coś nowego!</p>
+<p>— Tak, ze strony Ladislausa przybywają posłowie…</p>
+<p>— Posłowie? — przerwał Dietrich — czegóż
+chce ten <emph>Klein-König</emph>, czy przyjaźni? ha, ha,
+ha! — zaśmiał się Dietrich.</p>
+<p>— Z posłami Ladislausa ciągnie Bartelemo,
+legat Jego Świątobliwości Jana XXII i ten Gerward, biskup Kujawski, który tak gardłował
+w sprawie koronacyi <emph>Klein-Königa</emph>.</p>
+<p>— Więc cóż? — przerwał niecierpliwie Dietrich.</p>
+<p>— Legatowi papieskiemu towarzyszy prócz
+Gerwarda, Janisław, arcybiskup gnieźnieński i Domarat, opat mogielnicki — ciągnął dalej Hochswald w odpowiedzi.</p>
+<p>— Może przywiedziesz jeszcze kogo — rzekł
+Dietrich, hamując wzburzenie.</p>
+<p>— I tych chciałbym odwrócić od Waszej miłości, uważałem jednak za stosowne dać wam
+o nich wieści, najdalej bowiem za dwie doby staną w Malborgu, lub…</p>
+<p>— Lub? — przerwał znowu Dietrich.</p>
+<p>— Lub wezwą do ugody Wielkiego mistrza —
+dokończył Hochswald.</p>
+<p>— A niech spróbują ruszyć z miejsca ten
+okseft na dwóch nogach — rzekł pogardliwie
+Dietrich. I wielkiemi krokami zaczął się przechadzać po sklepionej komnacie, a chód jego
+ciężki i cięższy jeszcze gniewliwy oddech, odpowiadał echem.</p>
+<p>— Niech spróbują! — mówił jakby na poły
+do siebie. — Ale ten dla świętego spokoju, byleby
+go z miejsca nie ruszono, przystanie na wszystko, zgubi Zakon i przyniesie hańbę imieniowi
+jego.</p>
+<p>— Obok <emph>tamtego</emph>, co dla spokoju wszystko
+poświęca, jest <emph>ten</emph>, którego rozkazy nauczyliśmy się
+spełniać więcej, aniżeli Wielkiego mistrza —
+rzekł poufnie Hochswald. — Rozkazuj więc Dietrichu von Altenburg, wielki marszałku krzyżackiego Zakonu.</p>
+<p>— Rozkazuj, rozkazuj, tak łatwo wam mówić! Wam wszystkim się zdaje, że ja tutaj wszystko mogę, a oto macie najlepszy dowód, iż taki
+Günter umiał podejść tę beczkę, i oto poszedł,
+zatracił najpiękniejszy oddział, a prócz tego, zatracił dwóch najdzielniejszych chłopców z całego Wolfshöhle, na których budowałem wielkie nadzieje. Za jednego byłbym może uzyskał zupełną
+ugodę z Gedyminem, bo ten chytry Litwin jest
+zakamieniałym poganinem, — a chłopiec był wnukiem najbardziej szanowanego w ich pogaństwie
+kapłana.</p>
+<p>— Widzicie więc, że moje rady niewiele pomagają! — dodał po chwili, jakby uspokojony; że mógł wypowiedzieć całą złość która mu na serce spadła kamieniem.</p>
+<p>— Trudno nad tem rozpaczać — mówił Hochswald — wiemy, że co <emph>tamten</emph> rozkaże, zawsze
+jest z krzywdą. Lecz właśnie w Was jedyna nadzieja. Teraz, gdy się zdarza sposobność i Ladislaus sam śle posłów o pokój, możemy granice
+rozszerzyć, a tym sposobem zagrozimy Gedyminowi.</p>
+<p>— Co nam po groźbie, kiedy nam z nimi zgody potrzeba, inaczej Gedymin się wzmoże i lada
+dzień spadnie nam na kark i poodbiera ziemie na pruskiej Litwie! A wtedy hańba imieniowi
+Krzyżaków! — rzucił się Dietrich.</p>
+<p>— Lecz Gedymin, widząc przymierze nasze
+z Ladislausem, nie będzie śmiał ziem odbierać,
+bo potęga Zakonu wzrośnie przyjaźnią z tą nową
+potęgą polską, na którą i cesarz patrzy podejrzliwie — wtrącił Hochswald.</p>
+<p>— Właśnie, że wszyscy, wszyscy patrzą na
+tę potęgę, a nikt nie stanie przeciw nim widomie — mówił Dietrich z coraz większym gniewem. — Ten Ladislaus koronował się, papież na
+to zezwolił, Jan luxemburczyk słabo się opierał,
+bo i to niedołęga, a mógł był ten szmat ziemi
+co Ladislaus zabrał, do Czech przyłączyć. W cesarstwie nie wiedzieć do kogo się udawać, gdy tron rozdwojony między Fryderyka austryackiego i Ludwika bawarskiego: jedność niemiecka się
+chwieje, a jedność polska pod Ladislausem wzrasta. Nam więc, nam trzeba stanąć teraz na czele
+tej jedności germańskich ludów! nasza potęga
+powinna im zastąpić cesarską i stać sie silną całemu światu. My, jako zakon pochodzący od
+najpierwszych wojowników chrześcijańskiego świata, powinniśmy światu całemu przewodzić, nam
+powinny trony wszystkie hołdować! Tymczasem nędzne polskie książątko koronę sobie kładzie na głowę, a Zakon na czele ma taką
+głowę, która nic nie rozumie tego, jest tylko wielkim lejkiem, przez który wlewa się napój do beczki!</p>
+<p>— Ha, to hańba! — wołał zapamiętale Krzyżak, pieniąc się ze złości, aż wreszcie, jakby mu
+już słów na określenie tej hańby nie stało, usiadł,
+a oburącz podparłszy się na stole, skłonił na szerokie dłonie stroskane czoło.</p>
+<p>— Od czegóż Dietrich von Altenburg! Wszak
+wszyscy, ilu nas jest komturów, uważamy cię
+zawczasu jako Wielkiego mistrza. Zygfryda więc
+rozkazy mogą być pominięte, a wola Dietricha
+stokroć przy układach szanowaną — mówił Hochswald przyciszonym głosem.</p>
+<p>— Pochlebstwem chcesz mnie ująć, przyjacielu — rzekł, podniósłszy głowę Dietrich. — Czy
+myślisz, żem ja żądny władzy dla siebie? Wiem,
+ile ta władza trosk przynosi, ile wrogich ma umysłów, lecz jej pragnę dla Zakonu, który chciałbym postawić na najwyższym szczeblu potęgi.
+Jam Krzyżak z krwi i kości, dla mnie nieistnieją
+ludzie tam, gdzie krzyżacki miecz nie włada,
+a widzę, że im dalej odwlecze się moje mistrzostwo, tem trudniej mi będzie podźwignąć upadający Zakon, tem ciężej przenieść całą potęgę germańską na ręce krzyżackiego Zakonu. Tak, teraz
+czas zgnębić sąsiadów, za jakąkolwiek cenę zgnębić ich pragnę! Teraz jedynie przyjazna chwila!
+cesarze gryzą się o koronę, papież musiał opuścić
+Rzym i tam w Awinionie zamieszkać. Tak, teraz
+Zakon musi pochwycić najwyższą władzę i w swojej potędze zjednoczy wielkość germańską!</p>
+<p>— Więc Zygfryda usunąć… — szepnął Hochswald.</p>
+<p>— Nie, strącić go z mistrzowstwa nie możemy,
+ma on swoich przyjaciół, nie możemy uczynić
+tego bez zezwolenia papieża, a wiesz jak on jest
+ku nam źle usposobiony…</p>
+<p>I spojrzał Dietrich na przyjaciela, gdy oczy
+ich się spotkały, w źrenicach ich zabłysła myśl,
+którą obaj doskonale rozumieli, a której jednak
+żaden z nich głośno wyjawić nie śmiał. Popatrzyli więc tylko na siebie porozumiewająco,
+a Dietrich, jakby po krótkiej walce ze sobą,
+wstrząsnął głową, mówiąc:</p>
+<p>— Nie, po stokroć, nie!</p>
+<p>I wstrząsnął się, a twarz jego, oszpecona
+gniewem, jakoś wyszlachetniała, jak gdyby z gładkiej płyty marmuru zrzucił kto pokrywającą warstwę błota, lub gad, kalający go swoją posoką.
+Powoli stawał się spokojniejszym, lecz odbłysk
+szlachetności, szyderstwo i chytry podstęp zajęły,
+a sfałdowane czoło świadczyło o głębokiej trosce,
+nurtującej duszę Krzyżaka.</p>
+<p>Zapanowało milczenie, tylko ciężki oddech
+dwóch ludzi słychać było w komnacie.</p>
+<p>— Tak — przerwał nagłe Dietrich — musicie
+mi dopomódz, ja nie dam ginąć Zakonowi, nie
+pozwolę, by jakieś lackie książątko nabierało
+przewagi. Posłów przyjąć trzeba z całą hojnością
+i bogactwem Zakonu, trzeba ująć sobie legata,
+Włoch musi być naszym, a to co on przedstawi
+papieżowi, powinno nas w dobrem świetle przed
+nim przedstawić. Biskupów polskich, którzy cały
+proces Ladislausa o ziemię z nami prowadzą,
+trzeba również ująć, choćby datkiem, obietnicami
+dostojeństw…</p>
+<p>— Niebezpieczna to droga i nią nam wojować nie można — rzekł Hochswald — mają to
+być tacy, jakim był ich pierwowzór biskupi w tym
+kraju, św. Stanislaus, który się królowi porąbać
+pozwolił, a nie ustąpił.</p>
+<p>— Ha, nie datkiem, to obietnicą rozszerzenia
+wiary i potęgi państwa, ująć ich można. A gdy
+zawrzemy z nimi ugodę, wtedy łatwiej pokonać
+nam będzie dumnego Gedymina, który, słyszę,
+zamek nad Wilją buduje obronny i gród nowy
+zakłada.</p>
+<p>— Tak, i to zamczysko podobno kamienne,
+bodaj, czy nie na wzór naszego, tak mówią przybyli z ostatniej wyprawy — podsunął Hochswald.</p>
+<p>— Niechaj buduje, i z nim nam potrzeba
+przyjaźni. Kiedy my więc tutaj układać się będziemy z posłami Ladislausa z wiedzą Zygfryda;
+potajemnie wraz z Robertem von Wartburg i Zygfrydem von Papenheim poniesiecie Gedyminowi
+dary i wejdziecie z nim w przyjaźń, nakłaniając
+do pognębienia Ladislausa, jako czyhającego na
+ziemie za Bugiem. Wasza głowa w tem, żeby
+Gedymin zgodził się iść z nami ręka w rękę
+i skłonił lud swój do wyprawy na wschodnie polskie ziemie. My tymczasem wytargujemy na polskich posłach, jak najdalej w ich ziemiach
+granice, podpiszemy ugodę, zostawiając sobie jakiś uboczny punkt do zerwania; łatwo nam będzie, boć ani ów Bartelemo, ani przemądrzały Gerward, ani też dwaj gardłujący za sprawą Ludislausa biskupi, na prawie zgoła się nie znają.</p>
+<p>— Rozumiem — odrzekł słuchający pilnie
+Hochswald. — A potem, gdy Gedymin spadnie na polskie karki, podburzyć można mazowieckiego księcia, aby dopominał się o ziemie, które Ladislaus pod swą władzę zagarnął.</p>
+<p>— Do tego łatwo Ziemowita skłonimy, on i tak niechętnie na wyniesienie się <emph>Klein-Königa</emph>
+patrzy, boć te szmaty ziemi, związane w jedną
+koronę, zagrażają i dumnym mazowieckim książętom — prowadził dalej Dietrich myśl podsuniętą przez Hochswalda. — Zresztą, chciwe to
+książątko, łatwo obietnicą pomocy pozyskać, trzeba tylko rąk, któreby w pracy dopomagały,
+a przedewszystkiem głów, coby umiejętnie, bez
+wiedzy Zygfryda, lub choćby za jego wiedzą lecz
+z potwierdzeniem tego opaśnego wołu, wzięły do
+dzieła.</p>
+<p>— Rąk i głów na wykonanie waszych rozkazów, marszałku, nie zbraknie — rzekł Hochswald. — O mojej wierności mówić nie potrzebuję,
+lecz jesteścież pewni, że w poselstwie na Litwę
+Robert von Wartburg i von Papenheim dzielnie
+wam dopomogą?</p>
+<p>— Dopomogą, jeśli wy, Hochswahldzie, ręka
+w rękę ze mną idąc, rzecz całą przeprowadzicie
+rozumnie. Wielki mistrz, chcąc mieć Wielkiego
+mistrza miano, udaje że słucha, gdy mu mówią
+o sprawach Zakonu, a zwłaszcza o nabyciu ziem
+od lechickiej strony, ba, jako też i o rokowaniach
+z Ziemowitem, boć wie, że na tej drodze zyski
+dla Zakonu pewne, pewniejsze niżeli w otwartej
+walce. Lecz gdy mu kto wspomni o ugodzie
+z Gedyminem, wytrząsa się i burzy, jako napój
+długo w zamkniętej beczce stojący. Zdaje mu
+się, że gdy ten szum a burzyny na litewskie
+pola wypuści, zaleje oczy całemu ludowi. Tymczasem lud ten coraz staje się sroższym, posuwa
+granice ku Rusi i pod Nowogród, używając wszelkich sposobów, by stać się podobnym ucywilizowanym ludom. Bodaj nawet potajemnie i do
+papieża Gedymin sięga i obietnice przyjęcia wiary Chrystusowej czyni, byleby tylko naszego apostolstwa nie potrzebował. Co gorsza nawet, stawiając zamki, staje się nam groźnym, napady
+nasze nie są mu już straszne jak wtedy, gdy
+w chatach chruścianych siedział… Niewiele potrzeba, by z bronią do naszej podobną, wpadł na
+nasze ziemie i na naszych karkach, w krzyżackich
+dzielnicach sprobował ich mocy. Lecz ten <emph>opas</emph>
+nie wierzy temu, dla niego Litwa jest zawsze
+tym samym dzikim, co dawniej, krajem i w żadne z nią rokowania wejść nie chce…</p>
+<p>— Lecz wy tego chcecie, chce tego Zakon
+cały, wszyscy komturowie — przerwał ogniście
+Hochswald — cóż więc oglądać się mamy na tę
+bryłę mięsiwa.</p>
+<p>— A jednak dla utrzymania porządku w Zakonie, bryła ta jak wiecie potrzebna — podjął Dietrich. — Ten sam Wartburg lub Papenheim, dziś
+mówiący ze mną tak otwarcie, kto wie, czy nie
+kryją dumnych zamiarów, aby po zejściu Zygfryda ująć mistrzowskie berło, trzeba więc każdego z osobna utrzymywać w tej wierze, że im
+tylko godność się ta należy. Dla tego nawet wzywam ich do potajemnego na Litwę poselstwa…</p>
+<p>— Upewnię ich więc, szepcząc każdemu na
+ucho, że zawarcie z Litwą przyjaznych stosunków, będzie dla każdego szczeblem do godności
+Wielkiego mistrza; nie obawiajcie się, Dietrichu
+von Altenburg, Hochswald umie szanować wasze
+zaufanie i tak jak wy pragnie wielkości zakonu.</p>
+<p>— Przy którym marszałkostwo główne wam,
+dla dobra tegoż Zakonu musi być powierzone —
+rzekł Dietrich, kładąc rękę na ramieniu przyjaciela.</p>
+<p>— Dla dobra Zakonu, na sławy krzyżackiego
+imienia, które pragnąłbym, jako i wy, podnieść
+do najwyższej potęgi — odrzekł Hochswald i uścisnąwszy podaną sobie dłoń przyszłego mistrza,
+poszedł spocząć, a Dietrich rozweselony, podążył
+do Wielkiego mistrza z oznajmieniem przybywających gości.</p>
+<p>Zygfryd leżał, jak zwykle, w swej komnacie,
+na szerokiej ławie, okrytej miękką oponą i niedźwiedzią skórą, zdobyczą zapewne z Litewskiej
+wyprawy. Ogień z marmurowego komina rzucał
+jaskrawe światło, oświecając rozrosłe, lecz bezwładne jego ciało i twarz bezmyślną, ułożoną do
+zupełnego spokoju. Na odgłos otwierających się
+drzwi i znanych mu dobrze kroków, Zygfryd poruszył ustami z pewnem skrzywieniem, jak gdyby czuł przedsmak gorzkiego lekarstwa, potem przymknął oczy, westchnął głęboko, lecz mimo to dał
+znak ręką wchodzącemu, ażeby się przybliżył.</p>
+<p>— Zawsze ta niemoc w nogach, obezwładnia
+mnie ona zupełnie… — począł leżący, tłómacząc się
+niejako ze swego spoczynku.</p>
+<p>Dietrich nie słuchał nawet jego wyrazów, lecz
+stanąwszy obok Zygfryda, rzekł:</p>
+<p>— Przybywają nam goście, z którymi trzeba
+się rachować, tak w przyjęciu, jak w słowach.</p>
+<p>Zygfryd jeszcze więcej przymknął powieki,
+jak gdyby chciał się uchronić od widoku przybywających.</p>
+<p>— Legat jego świątobliwości Jana XXII w towarzystwie Gerwarda, biskupa Kujawskiego, Janisława, arcybiskupa gnieźnieńskiego i Domarata,
+opata mogielnickiego, tych dwu krzykaczy w sprawie Ladislausa o Pomorze — ciągnął dalej Dietrich.</p>
+<p>— Jego świątobliwości Jana XXII — powtórzył
+leniwie Zygfryd. — Wszak już ojciec święty przysyłał legata w sprawie biskupa ryskiego i sprawa ta zakończona — dodał po chwili, z widocznym wysiłkiem.</p>
+<p>— Z biskupem już zakończona — rzekł Dietrich, hamując niecierpliwość — lecz rozpoczyna
+się sprawa Ladislausa o ziemie Dobrzyńską i Michałowską, o które proces nam wytoczył król
+polski, a ze skargą śle wciąż do papieża. Gerward prócz tego, rości sobie pretensyje do części
+Kujaw, przez nas zajętych… Bóg wie, co przynoszą ci posłowie.</p>
+<p>— Więc radź, marszałku — rzekł Zygfryd —
+wszak widzisz żem niemocen…</p>
+<p>— Radzić mogę, lecz na ostateczną ugodę
+trzeba zezwolenia Wielkiego mistrza, musicie więc
+stanąć osobą swoją wśród przybyłych, lub…</p>
+<p>— Lub? — przerwał z ożywieniem Zygfryd.</p>
+<p>— Lub przy zwołanych pospiesznie komturach
+dać rozkaz, aby moja wola była wypełnioną jako
+wasza — rzeki powoli Dietrich.</p>
+<p>— Nigdy! — krzyknął Zygfryd, zrywając się.
+To pognębi moją powagę, postawi waszą władzę
+obok mojej, a tylko ja, ja tutaj Mistrzem! Ja,
+Zygfryd von Feuchtwangen! nikt mojej władzy
+nie zagarnie, rozumiecie, nie zagarnie! — zerwawszy się, wołał, i pienił się i czerwienił coraz więcej Zygfryd.</p>
+<p>— Nikt nie śmiałby podnosić na tę władzę
+ręki — odparł Dietrich spokojnie — jak też i nikt z radą nie wystąpi. Niech ojciec święty przysyła
+klątwy, a Zakon niech za zdobyte krwią swoją
+ziemie płaci grzywnami, rozsiewając hańbę swojego imienia, my z pokorą tylko schylimy głowę,
+szanując w tem wolę Wielkiego mistrza — dodał
+Dietrich, a schylając głowę z udaną pokorą, cofał
+się ku drzwiom.</p>
+<p>— Co to, groźba! rozprzężenie w Zakonie! —
+krzyczał Zygfryd zrywając się z ławy i stając
+na całą wielkość olbrzymiej swojej postaci.</p>
+<p>— Nie, to uległość — rzekł szyderczo Dietrich.</p>
+<p>— Ja zdepczę was wszystkich, tu, pod moją
+stopą — rzekł Zygfryd, uderzając potężną nogą
+o podłogę. — Tu, pod moją stopą zegnie głowę
+Ladislaus, zetrę potęgę Gedymina i Zakon uczynię potężnym! — wołał, podnosząc pięść do góry.</p>
+<p>Lecz nagle zachwiał się i runął na ziemię.</p>
+<p>A marszałek spojrzawszy z pogardą na leżącego, rzucił, odchodząc:</p>
+<p>— Gdyby nie Dietrich von Altenburg, tak runęłaby potęga krzyżacka!</p>
+<p>I uderzywszy młotem żelaznym o wiszącą
+blachę przy drzwiach komnaty, wyszedł z miną
+zwycięzcy, a na odgłos młota zbiegła się służba,
+czuwająca snać w pobliżu nad Zygfrydem, który
+po każdym wybuchu gniewu wpadał w omdlenie.</p>
+<p>I znowu powtórzyła się znana nam już scena przywołania ojca Germana z trzeźwiącemi lekami.</p>
+<p>Gdy potężny Zygfryd przychodził do siebie,
+stawał się zwykle łagodnym jak baranek, a raczej obojętnym, spoglądającym na wszystko z bezmiernym spokojem, byleby mu tylko nikt tego
+pokoju nie naruszał.</p>
+<p>To też gdy we dwa dni potem Malborski zamek roił się przyjezdnymi, Dietrich von Altenburg w otoczeniu najprzedniejszych komturów
+przyjmował dostojnych gości i w imieniu Zygfryda, zawierał z nimi układy. Gdy zaś po skończonych ucztach i rycerskich ćwiczeniach, które na zamku dla przybyłych wyprawiono, goście ci
+opuszczali krzyżackie zamczysko, Barthelemo niósł
+papieżowi dary, na znak uległości Zakonu, a posłowie Władysława Łokietka obietnicę zwrócenia
+ziem żądanych, zapewnienie przyjaźni i prośbę,
+aby nowo koronowany król wszedł w ugodę
+z krzyżackim Zakonem dla podniesienia wyprawy
+krzyżowej przeciw pogańskiej Litwie. Jednocześnie zaś Hochswald z Zygfrydem z Papenheimu i Karolem z Wartburga, dążyli szlakiem ku
+północno-wschodniej stronie, niosąc sojusz zakonu
+przeciw zjednoczonym ziemiom pod potężnem ramieniem ukoronowanego małego Ladislausa.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>IX</head>
+<p>Gdy na malborskim zamku zamieszki i kłótnie
+wprawiały w wściekłość rycerzy krzyżackiego
+Zakonu, a rządy Zygfryda rozprzęgającego się
+porządku przywrócić nie zdołały, gdy marszałek
+zakonu Dietrich von Altenburg, miotający się bezprzestannie na słabe rządy mistrza, usiłował na swój sposób potajemne prowadzić umowy, Polska
+pod mądremi rządami Władysława Łokietka wzrastała w potęgę, jednocząc rozproszone ziemie pod
+jednem berłem.</p>
+<p>Monarcha ten zapewniwszy sobie przyjaźń
+i pozwolenie papieża, Jana XXII, wezwał biskupów i kazał się koronować w Krakowie roku
+1319. Koronacyją tą uczynił Kraków najpierwszem
+miastem w kraju, stolicą, czem przejednał zupełnie niechętnych sobie jego mieszkańców. Sprzymierzył się też i z Węgrami wydając córkę swą Elżbietę za mężnego ich króla Karola Roberta
+Andegaweńskiego, który również kosem okiem
+na niemieckie sprawy poglądał, a przeciw Krzyżakom, jako odrośl germańskiej potęgi chętnie
+pomoc swą Łokietkowi obiecał. Tak więc ów
+zakon musiał się teraz rachować z Polską, a chociaż mimo rozkazu papieża, nie oddał jej ziemi
+michałowskiej i pomorskiej, wyzywając ją niejako
+do wojny, teraz sprawę z potężnym jej królem
+uważał jako ostrą kość, do przełknięcia trudną.
+Dietrich więc, nie mogąc od południa lub zachodu zjednać sobie sprzymierzeńców przeciw Polsce, postanowił nieprzyjazną jej dotąd Litwę
+jeszcze więcej wrogą uczynić. Przez lat trzy żadne znaczniejsze napady od strony Krzyżaków
+nie trapiły mieszkańców ciemnych puszcz i lasów;
+jeżeli zaś jaki niewielki napad zniszczył sioło
+i mieszkańców uprowadził, Dietrich von Altenburg słał zaraz do Gedymina z zapewnieniem,
+iż to tylko część nieposłusznych ciurów napad uczyniła, on zaś domniemany przyszły Wielki
+mistrz, dzierżący i teraz już władzę, obiecuje
+przyjaźń i braterstwo. Prócz tego obiecywał Wielkiemu księciu królewską koronę od samego papieża i cesarza, równającą się godnością i potęgą
+innym panującym. Namawiał też do wspólnych
+napadów na Polskę, które i tak Litwa uspokojona od strony Krzyżaków często przedsiębrała.</p>
+<p>Wyprawy te robiono tak dla łupu, jako też
+i z przyzwyczajenia do walki, bez której ludy owe już obejść się nie mogły. Szły więc posły
+Zakonu do książęcej stolicy, ciesząc się z walki
+dwóch ludów i zagrzewając do niej tajemnie. Lud
+litewski krzywem okiem spoglądał na przeciągających posłów krzyżackich; przeczuwał bowiem,
+iż chcą knezia na wiarę krzyża nawrócić, obawiając się jednak potęgi Zakonu i władzy Gedymina, nie zrywał się do boju.</p>
+<p>Lecz i Łokietek miał równą broń z Zakonem.
+Krzyżacy mieli potęgę miecza, Łokietek miał
+nowe zjednoczone państwo, łaskę papieża, przyjaźń chwilową niemieckiego cesarza, przyrzeczoną
+pomoc Węgier a własnych rycerzy i miecze wyrównywające sile i obosieczności krzyżackiej.
+Odpierał więc napady Litwy, zabierał w walce
+jeńców, lecz z tymi rozkazywał dobrze się obchodzić. Nie jednemu pozwolił wracać do swoich,
+a ten, uszczęśliwiony ze swobody, roznosił wśród
+ludu wieść o malutkim człowieku u sąsiadów
+nad Wisłą, co wielkim rządzi narodem. I jednał
+sobie przychylnych pośród zapadłych grodków
+litewskich, a wielu już Kunigasów miał za sobą.</p>
+<p>Słał więc swoich Dietrich, lecz słał i Łokietek na dwór Gedymina a zwykle tak się działo,
+że ledwo wyjechali zbrojni Krzyżacy, wjeżdżało
+rycerstwo Łokietkowe. Łączyło się też z Łokietkowemi ziemiami i mazowieckie księstwo, a nieprzychylny mu dotąd stryj Ziemowit, książę na
+Płocku, widząc potęgę małego synowca, zawarł
+z nim ugodę przeciw Krzyżakom i wspólnie z nim
+garnął się do litewskiego knezia. Tak więc zamek
+jego w Wilnie od dwóch lat ciągłych przyjmował
+gości, a wzbogacona zajęciem ziem ruskich Litwa,
+coraz to więcej wychylała się z za ciemnych
+swoich lasów. Gedymin zaś, zawarłszy roku 1321
+przymierze z arcybiskupem ryskim Wilhelmem
+i przez niego torując sobie drogę do papieża, nie
+wiele sobie w ostatnich latach robił z Krzyżaków.</p>
+<p>Tymczasem wysłani posłowie Zakonu, spotykając po drodze drewniano, gdzieniegdzie opatrzone chrustem zamczyska, wzruszali tylko ramionami z pogardą.</p>
+<p>— Po co tyle zachodu? — mówił Zygfryd
+von Papenheim, u nas stajnie a psiarnie są lepsze,
+aniżeli te domostwa!</p>
+<p>— Nogą kopnąć a cała Litwa się rozwali.
+Nie rozumiem czemu Wielki mistrz tyle pracy
+sobie zadaje, mówił dalej Zygfryd nieznający
+dotąd Litwy. Z tymi, którzy są z nami, podjąłbym
+się tę psiarnię rozproszyć.</p>
+<p>— Boście jeszcze nie probowali litewskiego
+ramienia, a nie znacie też ich skrytych zabiegów,
+ozwał się Robert z Wartburga, rycerz doświadczony, co już w niejednej był tutaj walce. Zda
+się, że to kupa chrustu, gliny, kamieni i kłód
+drzewa, a gdy z pod tego wszystkiego wyroi się
+lud gruby i nieociosany jako te kłody i siądzie
+na karku, to i ostry miecz krzyżacki i świadomość wojenna nie wiele pomoże. Dzikie to, a też
+jako dzikie rwie się bez pamięci i rzuca na najbardziej uzbrojonego człowieka. A twarde i dumne
+jako te bory, przez które nie łacno nam się przedzierać było.</p>
+<p>I rzeczywiście, na pozór wszystko było do
+zdobycia łatwe, bo zamiast wałów doskonale usypanych i fos obronnych, tam był rów, owdzie
+dół na poły napełniony kamieniami, od jednej
+tylko strony zaczęto kopać porządną fosę, a z wyrzuconej ziemi sypać wał, przekładając go i ubijając gęsto kamieniami a strojąc kopaną murawą.
+Po chwili trudnej przeprawy przez rowy i korzenie, zaczął się ukazywać na wzgórzu nowo
+wznoszący się z kamienia zamek, którego wieżyce i baszty jeszcze wykończone nie były.</p>
+<p>— I wilki uczą fcguwiaka swoje ochraniać, już nie tylko na swoje rachują pazury, — Zygfryd, spostrzegłszy ów wal obronny
+i kainieuue mury Gedyniinówejro zuuiku, a wreszcie i domostwa porządnitysze, które WiłijaiWilejkn okrążając, jakby dwoma ramionami, czyniła z natury miastem obronnem.</p>
+<p>— Hm, Zakon miał słuszność wysyłając ze
+zgodą, bo gdy te wilki będą miały oprócz przyjaźni z ryskim biskupem, władzę nad Rusią, wały
+ochronne i braterstwo z polskim Ladislausem, to
+z marnej garści dziczy staną się wrogiem, z którym Zakon musi się pilnie rachować, rzekł Robert przypatrując się wałom.</p>
+<p>— Robercie von Wartburg, mówisz tak, jakobyś we własną sprawę wiary nie miał, ozwał
+się milczący dotąd Hochswald. Jesteśmy na
+to wysłani, przez Wielkiego mistrza, żeby zgody
+z Ladislausem niedopuścić, a ku nam ją obrócić.</p>
+<p>— A który to Wielki mistrz was wysłał, rycerzu von Hochswald, czy ten, co jak beczka na
+ligarach leży dniem i nocą na ławie, czy ten, co
+rwie się by jak najprędzej po nim władzę zagarnął? ozwał się z uśmiechem Robert.</p>
+<p>— Gardłujcież tak, żeby wam za powrotem
+mądra głowa od gardzieli na wieki nie odskoczyła, dodał po chwili.</p>
+<p>— Co to, groźba? zawołał z iskrzącem okiem
+Hochswald.</p>
+<p>— Nie, to przyjacielska rada towarzysza Zakonu, odrzekł szyderczo Robert.</p>
+<p>A w tem od błotnistej strony zamku, gdzie
+most ruchomy z desek był ściągnięty, a bystro
+płynąca Wilija niedozwalała przystępu, ozwały się
+trąby, a potem głos donośny pytający w jakim
+celu przybywają posłowie. Zygfryd kazał zatrąbić na znak pokoju i zgody. Wkrótce po przedstawieniu tych oznak most z ruchomych desek
+został rzucony na rzekę, a posłowie Zakonu,
+trzymając przed sobą miecze w pochwach wjechali w głąb podwórca, pogardzanego przez siebie drewnianego zamczyska.</p>
+<p>Tu i owdzie błysnęło za nimi złowrogie spojrzenie Litwina, tu i owdzie syknęło przekleństwo,
+lecz posłowie ni oka, ni ucha na to w tej chwili
+nie mieli. Im była potrzebna przyjaźń Gedyminowa!</p>
+<p>A snać spodziewano się tych posłów na książęcem zamczysku; bo Gedymin otoczony najprzedniejszymi Kunigasami, mając po prawej
+stronie sędziwego Tubingasa, a po lewej syna
+Lubarta, księcia wołyńskiego, siedział na wzniesieniu. Na głowie śpiczasta z sobolich skór kneziowska czapa, na ramionach rysia zarzucona
+skóra, nogi oparł na żywym w kłąb zwiniętym
+niedźwiedziu, a stojące przy nim lipowe chodaki
+świadczyły, iż kneź na przyjęcie posłów niezaniechał codziennych obyczajów. Nogom bez obuwia pozwalał odpoczywać wygodnie w kudłatych
+zwojach żywego podnóżka, obok którego leżały
+jeszcze, pysk oparłszy na przednich łapach, dwa
+niedźwiedzie, jakby gotowe na każde skinienie
+swojego pana. Żadnego uzbrojenia nie miał Gedymin, lecz za nim stali pachołkowie ze zwieszonym łukiem ku ziemi. Obok Chroniwosa stał
+Siewros i Jaśko w lniane szaty odziani, a wyrośli i wśród puszcz litewskich zmężnieli. Tuż
+zaraz za księciem stał ślepiec Bernard z nieodłączną swą gęślą, był on jeszcze bardziej wybladły i zwiędły z otwartemi, choć nic niewidzącemi, w jeden punkt zapatrzonymi oczyma. Ten
+ostatni miał służyć za tłómacza między przybyłymi a Giedyminem, który, obawiając się zdrady
+chciał oprócz tłómacza przywiezionej przez posłów Zakonu, mieć jeszcze swojego.</p>
+<p>Od chwili bowiem, gdy się Gedymin dowiedział o wychowańcach Wilczego Gniazda tak cudownie Litwie wróconych, zażądał, aby ci do
+dworu jego należeli. Bernard zaś szczególne miał
+łaski; nie wydawał on się jawnie z wyznawaną
+przez siebie wiarą, dziwny jednak urok ciszy
+i pokoju na otaczających wywierał; rzekłbyś zaczerpnął tego uroku od swego mistrza ojca Germana w zakonie… Sam Gedymin nawet chętnie
+słuchał jego głosu. Wychowańcy zaś Wilczego
+Gniazda postawieni byli na urągowisko Krzyżakom, a nie omylił się też w swojej rachubie Gedymin, bo zaledwie weszli pogłowie do komnaty
+zamkową, rycerz Hochswald aż pokraśniał
+i zgrzytnął zębami ujrzawszy dawnych wychowawców Zakonu groźnie patrzących na siebie.</p>
+<p>— Witam was, mili goście w moim ubogim
+zamku, wielki to zaszczyt dla tak mizernego
+księcia, że posłów potężnego Zakonu widzi u siebie. Mówił z udaną pokorą, choć wyniosłym głosem Gedymin, rozkazując wyrazy swe powtórzyć
+Bernardowi.</p>
+<p>— Rozumieliśmy doskonale waszą mowę wielki
+i potężny książę na Wilnie i całej Litwie. Nam
+to zaszczyt przynosi, że nas wysłuchać raczycie —
+ozwał się rycerz Hochswald, władający doskonale
+litewską mową i właśnie jako tłómacz przybyły.</p>
+<p>— Och. nie wiedziałem, że tak znacie nasz
+dziki język! dla tego też zapewne i nasz tłómacz,
+który w wojnie oczy postradał, i te oto młokosy
+dodał wskazując na Siewrosa i Jaśka mowy swej
+wśród was nie zapomnieli. Jednak chociaż wy
+władacie naszą dziką mową, wasi towarzysze,
+a mnie mili goście, zapewne jej nierozumieją i dla
+tego niechaj ów młody ślepiec powtarza nasze
+wyrazy. Ale skoro przynosicie nam pokój a zgodę, bywajcie nam mili w naszym biednym grodzisku, jakoby w swoich komnatach, a zasiądźcie
+z nami do uczty i czarny chleb, co nasza ziemia
+wydaje i mięsiwo zwierza naszych lasów i miód
+od naszych pszczół raczcie spożywać.</p>
+<p>To mówiąc Wielki książę klasnął w dłonie,
+a pachołcy postawili przed wzniesieniem książecem stół wielki, dostający wysokością siedzącego
+Gedymina i całego otoczenia, kiedy w drugim
+rogu naprzeciwko książęcego wzniesienia, stół się
+znacznie zniżał. Przy nim na przystawionej ławie
+Gedymin wskazał miejsca gościom. Wszystko to
+zaś kazał urządzić przebiegły książę, żeby mając
+posłów Zakonu przy jednym ze sobą stole, z góry
+na nich spoglądał.</p>
+<p>Posłowie spojrzeli wzajem na siebie, po dumuem czole Hochswalda przeszedł błysk złowrogi,
+nic jednak żaden nie rzekł na to widoczne nie
+dobrze wróżące dla sprawy upokorzenie. Nie siedli też na wskazanych miejscach, owszem usunąwszy się na bok zamienili kilka słów po niemiecka półgłosem, tak, że ani ucho Gedymina,
+ani nawet delikatny słuch Bernarda wyrazów
+pochwycić nie mógł. Na rozkaz Zygfryda pachołkowie przybyli z nimi, a trzymając dary postąpili ku Gedyminowi, stół zastawiony okrążając;
+niedźwiedzie jednak nie pozwalały zbliżyć się do
+knezia. Nie objawiały one swojej ku nieznajomym niechęci, ale spojrzały na nich rozumnemi
+oczami, co wstrzymało w należytej odległości
+przynoszących pod czerwoną oponą od Zakonu
+dary.</p>
+<p>— W księgach naszej wiary stoi, — ozwał
+się Hochswald, — że dobry i wiemy sługa nie powinien tknąć jadła i napoju, nie powinien strząsnąć pyłu podróżnego z odzienia, póki nie spełni
+rozkazów swojego pana. My też chcemy być wiernymi temu, co zapisano w księgach, a i wiernymi Wielkiemu mistrzowi Zygfrydowi von Feuchtwangen. W imieniu więc tegoż Wielkiego mistrza
+jako i całego Zakonu, przynosimy dary wielkiemu
+księciu litewskiemu Gedyminowi, potężnemu władcy ziem ruskich, prosząc, ażeby je przyjął jako
+znak zgody a braterstwa z Zakonem.</p>
+<p>— Dary przyjmujemy, ozwał się Gedymin,
+kryjąc pod obfitym zarostem uśmiech szyderczy,
+boć jakżebyśmy śmieli odrzucić dary tak bogatej i potężnej dłoni, jak dłoń krzyżackiego
+Zakonu.</p>
+<p>Posłowie się skłonili nabierając otuchy.</p>
+<p>— Zgoda takoż nam do scrca idzie, a braterstwo, chcielibyśmy chadzać w nim z wami, —
+mówił po chwili Gedymin, lecz u nas jako i u was
+są postanowienia, że bracia jednaką tylko drogą iść
+mają, a Zakonu droga i litewskiego księcia,
+to bodaj wcale jest różna.</p>
+<p>— Braterstwo łacno przyjdzie skoro jeno zgodę i dary przyjmujecie; odrzekł Hochswald. To
+mówiąc, dał znak dwom potężnym pachołkom,
+którzy się pod owemi uginali darami. Pachołcy
+zbliżyć się chcieli, lecz zwrócone oczy niedźwiedzi powstrzymały ich znowu na miejscu. Gedymin skinął, Siewros i Jaśko podeszli czekając na
+rozkazy.</p>
+<p>— Mam ja tu, rzekł książę, swoich młodzieniaszków, pewnoć znana Zakonowi ich siła, podołają oni choćby największym ciężarom, a waszym pachołkom oszczędzą strachu przed mojemi
+sługi, dodał, wskazując na leżące niedźwiedzie.</p>
+<p>Siewros zdjął oponę i wziął z rąk pachołków
+przyłbicę i na konia oponę, Jaśko ujął pięknie
+wyrobioną zbroję jedną ręką, drugą miecz wielki,
+a przytrzymawszy pochwę zębami wyciągnął go
+i podniósłszy ku górze lekko zabłysnął przed
+oczyma zdziwionych jego siłą posłów krzyżackich.
+Z temi darami wskoczył na wzniesienie, a tak
+zwinnie i lekko jakby zamiast miecza trzymał
+sokoła. Poczem przykląkł przed księciem i podał
+mu miecz obnażony.</p>
+<p>— Dobra wróżba — rzekł Gedymiu wesoło,
+lackie pacholę miecz obnażony podaje, i to miecz
+krzyżacki, a litwin prawy hełm od Zakonu przynosi.</p>
+<p>To mówiąc, odebranym mieczem, nie wstając
+ze swego książęcego tronu, krąg przed sobą zakreślił i kilka cięć na prawo i na lewo w powietrzu wykonał. I wreszcie oddał go Jaśkowi,
+który włożywszy miecz w pochwę, oparł go przy
+boku księcia, i podając zbroję, gdy jednocześnie
+hełm i piękną na konia oponę Siewros składał
+u nóg Gedymina.</p>
+<p>— No, tego przymierzać nie będę rzekł Gedymin, bo czapka wielkiego Kunigasa a knezia
+i te rysie skóry, równie mnie od nieprzyjaciół
+zasłaniają jako i najtęższe zbroje. Lecz dar Wielkiego mistrza jest my bardzo drogi, a na zamku
+złożonym będzie jako dowód jego ku nam przyjaźni.</p>
+<p>— Przyjaźń ta szczera, a tak przez będącego
+obecnie Wielkiego mistrza Zygfryda von Feuchtwangen, jako i wszystkich marszałków zakonu
+z Dietrichem vou Altenburg na czele, jest najgorętszem na przyszłość życzeniem — ozwał się Zygfryd von Pappenheim.</p>
+<p>— Przyjaźń ta większą jeszcze miałaby pewność, gdyby wasza książęca mość powolną była pokornym radom zakonu… — dodał Hochswald
+zbliżając się ku Gedyminowi.</p>
+<p>— Na wszelkie rady dość jeszcze czasu —
+odparł niecierpliwie Gedymin. Stary zaś Tubingas
+zwrócił swoje ślepe białkiem przewrócone źrenice
+na mówiącego, chcąc temi oczami, bez wzroku, do
+głębi mówiącego przeniknąć. Tak zaś kneź, jak
+i Tubingas co innego pod tą radą rozumieli,
+pierwszy połączenie się z zakonem przeciw Polsce, drugi przyjęcie chrystyjanizmu. To też Gedymin zmarszczył tylko brwi i wpadł w zadumę,
+kiedy stary kapłan zacisnął pięść, zerwał się
+z siedzenia, lecz przypomniawszy sobie słowo
+dane kneziowi, opadł na siedzenie, tylko ręką
+w krawędź ławy tak uderzył, jak gdyby chciał
+ją wyrwać z pod siebie i rzucić na przybyłych.
+Chroniwos również uczynił jakiś ruch niespokojny
+i bezwiednie prawie ujął toporek tkwiący za
+pasem.</p>
+<p>— Najlepsza rada pokrzepić się po dalekiej
+drodze — przerwał wreszcie milczenie Gedymin
+i klasnął w potężne dłonie.</p>
+<p>Na znak ten, pachołkowie wnieśli ogromne
+misy dymiącego się mięsiwa. Na jednych leżał
+zwierz poćwiertowany, na innych w całości, nad
+ogniskiem pieczone wielkie łosie i dziki. Przed
+kneziem stawiano owe niepocięte zwierzęta, a ten
+biorąc za nogi darł je w kawały, jeden dając
+ślepemu Tubingasowi, drugi zabierając sobie, resztę oddawano godownikom, stawiając tylko przed
+Lubarteni, jako synem książęcym nienapoczęte misy, jako też i przed posłami zakonu. Ci mimo
+pewnej niechęci jaką widzieli w kneziu i całem
+jego otoczeniu, dość często rzucali ogryzione kości psom czekającym na kęs swój pod stołem.</p>
+<p>Zaraz też za każdym prawie ucztującym zjawił się pachołek, nalewając z wielkich pozłocistych dzbanów napój sycony z miodu i chmielu,
+a wielce przez krzyżaków lubiany, chociaż oni
+byli więcej do wina przyzwyczajeni.</p>
+<p>Jeden tylko Tubingas nie tknął owego napoju,
+wylał go za siebie na objatę bogom, a wody kryniczucj kazał przed sobą postawić.</p>
+<p>Wkrótce przy uczcie zrobiło się gwarno, twarze zaczerwienione zwiastowały pewne zadowolenie, kryjące jednak w głębi gryzącego robaka
+nieufności. Bernard, na znak Gedymina śpiewał
+trącając w gęśle, nucił pieśń starą, lecz pieśń ta
+była tylko szumem, echem odległem, które przygłuszone zostało coraz to gwarniejszą rozmową.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>X</head>
+<p>Uczta przeciągnęła się prawie do słonka zachodu, godownicy, jak i gdzie który mógł, legli
+na spoczynek, a że niewielkie były wymagania
+ludzi nawykłych do niewczasów wojennych, niewielkiego też potrzeba było przygotowania dla
+przybyłych gości. Z tem wszystkiem starzec, zarządzający zamkiem Gedymina, krzyżackim posłom wskazał izbę z zasłanemi wilczurą łożami
+i misternie tkanemi lnianemi ręcznikami, misą
+wody, a także i przygotowanym dzbanem napoju.</p>
+<p>Gedymin legł w swojej komnacie, mimo jednak napoju, długo przewracał się na łożu, a sen
+nie sklejał jego powiek. Po wesołej uczcie snać
+jakaś myśl niespokojna trapiła jego głowę. Zasnął wreszcie, lecz widocznie jakieś straszne widziadła snuły mu się po głowie, bo zrywał się często,
+wymawiając urywane wyrazy, a zaledwie jutrzenka wychyliła się z szarego pomroku, książę siadł
+na posłaniu i przetarł oczy, otwierając je szeroko.
+Westchnął wreszcie jak człowiek, który zrzucił
+z siebie ciężar, lecz jeszcze czuje brzemię jego
+na swoich barkach.</p>
+<p>Na to westchnienie obrócił się ulubiony niedźwiedź, spoczywający opodal łoża, przysiadł na
+tylnych łapach, łeb podniósł do góry i słuchał,
+oczekując rozkazów, a może codziennej pieszczoty. Gedymin jednak nie zwrócił na to uwagi,
+zgło rozerwał na piersiach, jakby to lniane odzienie nawet go dusiło. Spojrzał w ognisko, które
+jakieś słabe rozlewało światło, odwrócił się od
+okna, zasuniętego zaporą i plunął trzykrotnie
+przed siebie, a to wszystko dla tego, żeby zapomnieć snu trapiącego, wreszcie klasnął w dłonie.
+Na odgłos ten przyczołgał się ulubiony niedźwiedź,
+dwa inne, śpiące u drzwi wraz z pachołkiem,
+leniwie mruknęły, a pachołek też otrzeźwiony
+klapnięciem, jednocześnie z niedźwiedziem stanął
+przed Gedyminem.</p>
+<p>— Tubingas! — zawołał książę.</p>
+<p>Pachołek, nierozumiejąc, co znaczy imię ślepca-kapłana, pochylił tylko pokornie głowę, a potem głupowato na księcia poglądał.</p>
+<p>— Zwij do mnie ślepego Kunigasa — i ręką
+wskazał ku drzwiom.</p>
+<p>Pachołek czemprędzej zwrócił się, by spełnić
+wolę pana. Niedźwiedź, widząc biegnącego, posunął się za nim, jakby go chciał ubiedz w spełnieniu rozkazów, rzucił się i jednym susem oparłszy łapy o drzwi, na rozcież je rozwarł. Po
+twarzy Gedymina przeleciał uśmiech zadowolenia.</p>
+<p>— Mądra bestya! — mruknął książę a jednocześnie lekko świsnął.</p>
+<p>Niedźwiedź, zwróciwszy swe cielsko, znów
+jednym susem był u nóg księcia, a przypadłszy
+na ziemię brzuchem, skulił pod siebie łapy i warował, mrucząc żałośnie, jakby chciał przeprosić,
+że nie w porę się wybrał ze swą gorliwością.
+Książę podsunął nogi pod pysk zwierzęcia, niedźwiedź przytrzymując je w wielkich swych łapach,
+oblizał szerokim jeżykiem. Książę otarł nogi
+o kudłaty grzbiet ulubieńca, czyniąc to prawie
+bezwiednie, co dowodziło, że był to jego obyczaj
+codzienny. Po tych pierwszych krokach rannej
+toalety, książę, jakby nagle przypomniał sobie
+jakąś myśl trapiącą, siadł na ławie, niezważając,
+że niedźwiedź ująwszy w łapy krótkie skórzane
+spodnie wciągał je księciu, a potem nasuwał na
+nogi chodaki. Książę poddawał się tym operacyom swego czworonożnego pokojowa, jak się
+poddaje człowiek, który mając czem innem myśl
+zaprzątniętą, zezwala na wszystko, co się w około
+niego dzieje. Gdy jednak niedźwiedź ujął pas
+i stojąc na dwóch łapach z nim przed panem,
+nie mógł się doczekać, aby Gedymin go odebrał
+i dopełnił ubrania, zniecierpliwił się wierny pokojowiec, i cichem mruczeniem oznajmiał swą
+obecność.</p>
+<p>Wtem drzwi się otworzyły i wszedł Tubingas
+przez Siewrosa poprzedzany. Prąd porannego
+powietrza, jaki przybyli przynosili ze sobą, orzeźwił
+Gedymina, podniósł głowę, ujrzał stojącego przed
+sobą wiernego Meszkę, wziął od niego pas ze
+skór borsuczych szyty, a zakładając na siebie, zawołał:</p>
+<p>— Do kąta, Meszka!</p>
+<p>Niedźwiedź posunął się leniwie, spoglądając
+na lnianą opończę, którą zwykł był jeszcze swemu panu podawać, poszedł jednak na swoje miejsce, a zwinąwszy się w kłębek, pomrukując,
+spał, czy też sen udawał, gdy tymczasem dwaj
+jego towarzysze, śpiący dotąd, przy drzwiach, za
+otwarciem się takowych stanęli na dwóch tylnych
+łapach, przednie założywszy na piersi, jakby dwaj
+najbardziej wyuczeni pokojowcy.</p>
+<p>— Witajcie nam, miły Kunigasie — rzekł Gedymin, biorąc dłoń przybyłego.</p>
+<p>— Witajcie, Gedyminie, ojcze Litwy! a niech
+bogowie, którzy was zbudzili wczesnym rankiem,
+dobrą myśl w waszą głowę i serce przyślą, a odwrócą wszelką nieczystą siłę!</p>
+<p>Gedymin w miejsce odpowiedzi westchnął głęboko, podsuwając ławę przybyłemu, aby spoczął.</p>
+<p>— Nie, nie siądę, póki nie dowiem się czy
+w sercu twojem nie zagnieździł się robak przez
+wrogów wprowadzony, robak, co chce zgryźć
+święte nasze dęby, podkopać je i zwalić, a na
+ich miejscu wystawić to samo godło, co czernieje
+na płaszczach krzyżackiego zakonu. Godło to
+stoi mi ciągle w ślepych moich oczach jako straszne widmo, i serce moje się wstrząsa na samo wspomnienie, że siekiera wroga wyciesze je z tych drzew, co nam przez wieki szumem opowiadały
+wolę bogów, a na opustoszałych polanach postawi swe znaki… Wtedy przekleństwo tobie, przekleństwo tym, którzy cię do tego namówili, bo zginie przeszłość nasza, i bogowie — w proch wielkość imienia Litwy obrócą.</p>
+<p>I starzec stojąc przed wielkim księciem, wzniósł
+oba ramiona ku górze, jakby chciał wraz ze słowami rzucić gromy na głowę stojącego przed
+nim Gedymina. Ten ze schyloną głową i pewną trwogą słuchał głosu przybyłego.</p>
+<p>Starzec wlepił białkiem świecące swe oczy,
+a tym zaślepłym wzrokiem zdawał się wpijać
+w głąb duszy wielkiego księcia i przenikać jego
+najtajniejsze zamiary. Chwila była milczenia,
+wśród którego Gedymin zdawał się walczyć ze
+sobą i zabobonnym strachem, jakim go napełniły
+słowa przybyłego. Opamiętał się jednak wkrótce, a wyprostowawszy swą wyniosłą postać, zawołał:</p>
+<p>— Wstrzymaj Tubingasie groźby swoje! przyzwać cię kazałem, więc rady twej nie przekleństwa żądam. Gdybym chciał jąć się kryżackich
+posłów i na wiarę ojców nastawał, nie wzywałbym rady kapłanów, tylko według mojej woli postąpił.</p>
+<p>— Wola twoja byłaby podłą, gdyby nie była
+wolą całego narodu: wtedybym podłożył ogień
+pod twój zamek i wraz z nim na objatę Perkunowi oddał ciebie i siebie — mówił Tubingas, kładąc dłoń swą na ramieniu księcia.</p>
+<p>— Nie sroż się ojcze, powtarzam, zamek mój
+miły jest bogom naszym, chociaż go obcych zbudowały dłonie, bo pierwej nim wzniosłem jego
+mury, wystawiłem świątynię Perkunowi: a zamek
+ten potrzebny, bo gdy przez lasy nasze przedarły
+się wrogi i coraz więcej w głąb ziem postępują, i
+trzeba im dać poznać, że i my umiemy obronne
+mury wznosić, i my możemy im zrównać potęgą.</p>
+<p>— Potęgą wiary ojców i miłości ziemi naszej
+pokonamy ich, jakeśmy dotąd pokonywali, inaczej
+biada tobie, biada twoim synom i wnukom, biada
+całemu ludowi, on aż do imienia zaginie!.. Zaginie! — powtórzył ślepiec, wstrząsając ramieniem
+Gedymina, jeżeli się złączysz z posłami zakonu.</p>
+<p>— Nic chcę się z nimi łączyć i dla tego
+u ciebie rady szukam Kunigasie, lecz ich drażnić
+nie mogę, a przybyłym dać trzeba odpowiedź,
+oni chcą z nami się łączyć przeciw innej potędze,
+która również dla nas jest groźną…</p>
+<p>— Wszystko nam jest groźne — przerwał Tubingas — odkąd do chat naszych wnikają obce
+przybysze, opowiadając o wielkości swych bogów,
+odkąd dla świętych dębów cześć osłabła, a potajemne szepty modłów się rozchodzą! Wzrok mój
+ciemny widzi dalej aniżeli oczy tych, co jasno
+widzą słońce: bo w tem słońcu szukają tylko dla
+siebie blasku, któreby im oświeciło koronę na
+głowie. I ty po nią sięgasz, Gedyminie! a z koroną na głowie będziesz słabszym, aniżeli twoi
+ojcowie, którzy siłę swą czerpali ino w potędze
+miecza i jedności ludu.</p>
+<p>— I ja pragnę jedności tego ładu — odrzekł
+Gedymin..</p>
+<p>— Pragniesz, to nie łącz się z nikim.</p>
+<p>— Więc najadą wrogi ziemie nasze! bo gdy
+się nie połączę z Krzyżakami przeciw Władysławowi lackiemu, on połączy się z Wielkim mistrzem i z dwóch stron najadą ziemie.</p>
+<p>— O święte bogi, czemuż opieka wasza odwróciła się od wiernego wam ludu! czemu siła
+dłoni naszych tak zmalała, że nie może już sama
+ocalić ziemi! — rzekł Tubingas, skłoniwszy głowę
+na piersi.</p>
+<p>— Dłonie nasze nie zesłabły, staną one i teraz w obronie ziemi i ludu! lecz gdy żyć będziemy wiecznie sami poza lasami, nie wiedząc, co
+się u sąsiadów dzieje i nie przypatrując się jak
+oni żyją, łatwiej nas pokonują. Boć mają i broń
+lepszą i różne wojenne fortele, a też i rozmaite
+umieją rzeczy, o których lud nasz nic dotąd nie
+wiedział.</p>
+<p>— I dobrze mu z tem było! — przerwał Tubingas. — Teraz sprowadziłeś rzemieślników ze
+stron dalekich, i oto patrz, co się dzieje, przybysze ci, a jeszcze więcej laccy niewolnicy, którycheś wolno puścił, aby przy budowie pomagali,
+uczą lud nasz swoich pieśni, uczą czcić ich Boga.. Ba, i ty sam słałeś do najstarszego w ich
+religii kapłana! — dodał po chwili — winieneś
+więc przeciw bogom i przeciw ludowi, pozbawiając go największego skarbu: starej ojców wiary….</p>
+<p>— Kunigasie, bluźnisz, wywołując złe! Ty
+przy ognisku świętych dębów nie widzisz nic, — co
+się dzieje poza lasami, ja za te lasy z mieczem
+wychodzę, a znam mój lud! I on w bojach widzi jako jest u innych i u siebie chce mieć takież opatrzenie…</p>
+<p>— Przekleństwo im, przekleństwo tobie! jeżeli
+lud swój do złego prowadzisz! — krzyknął znów
+Tubingas.</p>
+<p>I jakby opadły z sił i pognębiony oporem
+księcia, padł na lawę, zwieszając głowę na piersi.</p>
+<p>Gedymin zmarszczył brwi i jakby go znużyła rozmowa ze ślepcem, gromkim głosem zawołał:</p>
+<p>— Dość tego! Księciem jestem, panem Litwy
+całej! sięgam ramieniem na wschód po dalekie
+ziemie, mam prawo rozkazywać i rządzić według
+mej woli! Jeślim was wezwał, to znak, że szanuję ojców zwyczaje i bez najstarszego Kunigasa-ślepca, miłego bogom, nie chcę nic stanowić,
+lecz groźb się nie ulęknę, nie! a bogi, co widzą
+czyny moje, sądzić je będą.</p>
+<p>A mówił to Gedymin tak groźnym głosem, te
+aż niedźwiedzie przytuliwszy uszy, na brzuchach
+przypełzały do nóg pana, jakby go chciały błagać o miłosierdzie. Siewros, blady, stał oparty
+między dziadem i kneziem, a na jego młodzieńczej twarzy nie drgnął muskuł żaden, lecz znać,
+że w duszy młodego wychowańca Wilczego gniazda tajemna jakaś toczyła się walka.</p>
+<p>I znowu była chwila milczenia, słuchać było
+tylko ciężki oddech dwu rozgniewanych ludzi
+i lekkie mruczenie przyłaszonych, nie śmiejących
+się ruszyć niedźwiedzi.</p>
+<p>Gedymin wstał z miejsca, potrącając nogą
+o łeb wiernego Meszki.</p>
+<p>— Na miejsce, bestye! — krzyknął gniewliwie,
+a Meszka ze swoimi towarzyszami jednym skokiem usunęli się z drogi panu.</p>
+<p>— Ha! — zerwał się Tubingas — przyzwyczaiłeś się rozkazywać zwierzętom, i z ludu twego takie pokorne, płaszczące się bydlęta chcesz
+uczynić!</p>
+<p>— Zrobiłem te bestye pokorne, lecz nauczyłem je tego, czego żyjąc w lasach nie umiały!
+nauczyłem ich życia z ludźmi! — odrzekł wielki
+książe, biorąc się pod boki i stając z wzniesioną
+głową przed ślepcem. — Nauczę tego samego
+i lud mój.</p>
+<p>— Więc giń! zawieraj przymierze i pędź do
+zguby. Niechaj bogowie sądzą sprawy twoje!
+Ja, ślepiec, nie umiem patrzeć już jasno na sprawy świata tego! leci póki tchu w piersi stanie,
+bronić będę świętego ogniska i dębu. A gdy go
+ścinać przyjdą wpiję pazury jako niedźwiedź
+w pierś tego, co podniesie siekierę, i szarpać będę, a cielska rzucać na ogień dla przebłagania
+bogów. A gdy mi sił do walki nie stanie, obejmę dąb nasz stary i z nim razem skonam!</p>
+<p>I wzniósłszy dłoń jednę ku górze, drugą wyciągnął przed siebie, idąc pewnym krokiem. Wtedy ocknął się Siewros i zbliżył chcąc ująć ramię
+dziada, lecz ten odsunął rękę i szybciej niżby
+na to wiek i brak wzroku pozwalał, opuścił wielkoksiążęcą komnatę.</p>
+<p>Siewros, odtrącony, nie śmiał się ruszyć: wyniosły postawą, stanął jako stap graniczny między dawnemi pojęciami dziada, a dążącym do
+cywilizacyi księciem.</p>
+<p>Gedymin zwrócił wę nagle ku niemu.</p>
+<p>— Tyś długo u Krzyżaków zostawał?</p>
+<p>Ocknął się młodziec i zwrócił niewielkie, lecz
+przebiegłe swe oczy na twarz księcia.</p>
+<p>— Jak długo, nie umiem Waszej książęcej
+wysokości powiedzieć, lecz małem musiałem być
+chłopięciem, a skorom podrósł i stałem się szparkim, choćby do miecza gotowym, uciekłem z ich
+Wilczego Gniazda, boć tak swoją szkołę nazywają.</p>
+<p>— A w tej szkole czego was uczono?</p>
+<p>— Zapomnieć mowy i wiary ojców.</p>
+<p>— A czyś je zapomniał?</p>
+<p>Siewros się wstrząsnął.</p>
+<p>— Widzicie, miłościwy książę, że choć mnie
+wzięli gdy jeszcze dobrze imienia ojców wymawiać nie umiałem, mowa ta była we krwi
+i w piersiach moich, dźwięczała mi w uszach
+jako szum lasów, a gdym poczuł dym chaty ojczystej, wprędce i mowa mi się znalazła.</p>
+<p>— A czy tam oprócz tego, co z tobą przybył,
+i więcej lackich pacholąt?</p>
+<p>— Oj, było ich, było, a tako jak i nam wymyślali im, nazywając wilkami, a plemię ich jak
+i nasze mieli w poniewierce, i oni tęsknili za
+swoimi i nieraz mówiliśmy sobie, że gdybyśmy
+wspólnie się wzięli a ogień podłożyli, toby i Wilcze Gniazdo i cały potężny zamek w gruzy się
+zapadł. Lecz to były tylko dziecięce igraszki,
+boć zamek ich silny, cały kamienny! — dodał
+młodzieniec z westchnieniem.</p>
+<p>— Lecz ramię Gedymina i lackiego króla nie
+są dziecięcą igraszką — mruknął wielki książę
+jakby do siebie, a twarz jego, chmurna przed chwilą, rozpogodziła się uśmiechem, jakby jakaś
+myśl nagle przemknęła przez jego głowę.</p>
+<p>— Tak, tak — mówił Gedymin do siebie,
+wpatrując się w twarz młodzieńca — często przez
+usta niedoświadczonych chłopiąt bogowie zsyłają
+nam radę!</p>
+<p>Wtem z za ciężkiej, wzorzystej, snać na wrogach zdobytej opony, ukazała się jasna główka
+dziewczęcia, zielonym strojna wieńcem i zabrzmiał
+głos:</p>
+<p>— <emph>Tew's</emph>.</p>
+<p>Gedymin na głos ten uśmiechnął się i zwrócił rozpogodzone oblicze. A z za opony weszło
+dziewczę w białej lnianej odzieży, pasem czerwono barwionym opasane. Tuż za nią szła druga, również młoda, o ciemniejszych włosach, również w lnianej odzieży, lecz bez wieńca na
+głowie, a zamiast czerwonego pasa, obejmowała
+ją w pasie wicina spleciona. W rękach niosła
+dzban duży i kubek, gdy tymczasem pierwsza
+trzymała ręcznik lniany, wzorzysto-wyszyty przy
+brzegu. Dalej, zaraz za niemi szły jeszcze dwie
+inne, niosąc dymiącą się misę jadła i kubek
+z wodą zdrojową.</p>
+<p>— Tew's! — mówiła pierwsza — tak dawno
+już słońce wstało, czas tobie się posilić.</p>
+<p>Gedymin dłoń położył na główce córki i z lubością wpatrzył się w to młode, świeże oblicze.</p>
+<p>— Dobrze, Aldono, córo moja, daj posiłek,
+boć nam trzeba się pokrzepić… a gniew zalać.</p>
+<p>— Do zalania gniewu jest tutaj doskonały
+napój, którego mnie Bogna przyrządzać nauczyła.
+To napój, który piją w jej kraju: a snać miłym
+być musi naszym bogom, bo gdym część na ogień
+wylała, błysnął niebieskim płomykiem, a potem
+jakby złotem na wszystkie strony objął polano!</p>
+<p>To mówiąc, wzięła kubek z rąk stojącej obok
+niej Bogny, a ta weń nalała ciemno-żółtawego
+płynu. Gedymin przyjął podany napój, znów jakiś uśmiech przeszedł po jego obrosłej twarzy,
+a wylawszy część napoju przez ramię w płonący
+ogień, odwrócił się ku ognisku i spojrzał ciekawie.</p>
+<p>— Napój to musi być dobry, bo ognia nie
+zalewa, ni go też zbytnio nie syci.</p>
+<p>I przytknąwszy do ust, wypróżnił podany
+kubek.</p>
+<p>— Aa! — rzeki, oddając kubek — napój miły,
+w piersiach po nim błogo.</p>
+<p>I pogładził pierś włochatą na poły obnażoną,
+gdy stojąca obok córa z ciekawością na niego
+patrzyła.</p>
+<p>— Napój lacki — szepnął do siebie Gedymin — chłodzi i orzeźwia… I tego mowa, wszystko się dziwnie składa… takich rad, zsyłanych
+od bogów, odrzucać nie trzeba — mruczał do
+siebie książę, jak to było w jego zwyczaju, gdy
+myśl ciężka głowę mu obsiadła.</p>
+<p>Naraz zwrócił się do córki.</p>
+<p>— Tego lackiego napoju daj i jemu.</p>
+<p>To mówiąc, wskazał na stojącego w głębi
+Siewrosa i przypatrującego się ciekawie książęcej córze i jej dziewkom służebnym.</p>
+<p>Na znak Aldony, Bogna przysunęła się do
+Siewrosa i podała mu nalany kubek. Chłopiec
+wziął kubek, lecz nim go poniósł do ust, wpatrzył
+się w młodziutką twarz dziewczęcia, które ze
+spuszczonym wzrokiem przed nim stanęło. Na
+ciemne jej włosy padł promień wiosennego słonka
+przez otwarte z zapory okno i dziwnym blaskiem
+ozłocił pogodne, choć smutne czoło Bogny.</p>
+<p>Siewros stał z podanym kubkiem w ręku
+i wciąż patrzył na nią ciekawie, aż wreszcie
+Bogna, podniosłszy na niego spuszczone dotąd
+oczy, szepnęła:</p>
+<p>— Pijcie, to nasz napój, lacki, książę wam
+podać kazał.</p>
+<p>Siewros machinalnie poniósł napój do ust
+i wychylił go duszkiem, a oddając kubek Bognie
+wpatrzył się w nią znowu.</p>
+<p>I tak samo jak książę, bezwiednym prawie
+ruchem pogładził się po piersiach bo napój i jemu
+najwidoczniej przypadł do smaku.</p>
+<p>— No, cóż, ten lacki napój? — zapytał Gedymin, patrząc na rozjaśnioną twarz chłopca z zadowoleniem.</p>
+<p>— Jeszczem nigdy nic takiego nie pił, coby
+odrazu i ochłodziło i jakąś myśl wesołą przyniosło! — rzekł w odpowiedzi Siewros.</p>
+<p>— Lacki napój smakuje młodemu litwinowi! —
+zaśmiał się książę. — Idź, opowiedz, że lachy dobry mają napój, a książęca córa nauczyła się
+tego napoju przyprawiać — rzekł wesoło książę
+i zabrał się do porannego posiłku.</p>
+<p>A Siewros odchodząc mówił do siebie:</p>
+<p>— Napój lacki godny, jak nie znałem dotąd
+napoju, lecz i dziewka, co mi go podała, piękna
+jakby królewna. Ona laszka, lecz jam ją już
+spotkał. Oj, spotkał; nie pierwszy to raz obaczyłem ją chyba.</p>
+<p>I mówiąc tak, w myśli szukał, czemu twarz
+Bogny tak mu wydaje się znaną.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>XII</head>
+<p>Gdy o południu posłowie Krzyżaccy stanęli
+w komnacie zamku Gedyminowego, książę mial
+zamyślone oblicze, szarpał brodę i chmurno przed
+siebie spoglądał. W otoczeniu zaś księcia brakowało Tubingasa, inni jak wczoraj byli przy
+jego boku. Lecz jeżeli Gedymin spoglądał ponuro, na twarzy Chroniwosa znać było troskę
+i jakąś tajemną walkę; stał on w tem samem
+miejscu co wczoraj, a obok niego świeciło pustką
+miejsce, nie zajęte przez starego Tubingasa.</p>
+<p>Z tych chmurnych twarzy nie dobrze snać
+wróżyli sobie posłowie; krótkie też było posłuchanie, w którem Gedymin rzucił w odpowiedzi,
+że szanuje wielce przyjaźń Wielkiego Mistrza,
+pochlebnym jest mu związek z potężnym zakonem, nie może jednak stanowczej dać odpowiedzi, czy się skłoni do wojny z lackim Władysławem.</p>
+<p>— Biedneć to moje i nieliczne państwo, nie
+może tak od razu zbierać ludu, by napadać cudze ziemie, kiedy i swoich bronić i ład jakiś zaprowadzić w nich trzeba. Wilczeć to tylko gniazdo, ale dla tego, że wilcze, trzeba stać na jego
+straży, aby młode wilczęta wychowane w cudzem
+gnieździe zawsze węchem do swojego wracały —
+dodał, chytrze spoglądając na posłów.</p>
+<p>I zawoławszy ulubionego Meszkę, jął się z nim
+bawić, a potem spuściwszy głowę na piersi, zamknął oczy, jakby w półśnie chciał odpoczynku
+poszukać. Był-li to fortel, czy spoczynek, trudno
+odgadnąć.</p>
+<p>Posłowie, widząc, że innej odpowiedzi nie
+usłyszą, opuścili książęcą komnatę, a nim słonko
+zeszło z południa, przebywali most zamkowy, nie
+mieszkając poza nim jak dobę.</p>
+<p>Gedymin, usłyszawszy skrzypiące wrzeciądze zsuwającego się po ich przejeździe mostu, splunął
+trzy razy przed siebie, odetchnął jak człowiek,
+któremu zdjęto ciężar z piersi i posunął się ku
+komnatom niewieścim.</p>
+<p>Ujrzawszy Aldonę, siedzącą na przyzbie i stojącą przed nią Bognę, podszedł ku nim, chcąc
+po wszelkich trudach przy swej córze odpocząć.</p>
+<p>Lecz książęca córa tak była zasłuchana w opowiadanie Bogny, a Bogna tak snać przejęta dźwiękiem słów wlasnych, że nie słyszały nawet ciężkich książęcych kroków.</p>
+<p>Gedymin, słysząc podniesiony głos Bogny,
+stanął, chcąc dowiedzieć się, co ta lacka branka
+jego córze prawi.</p>
+<p>Były to jednak dla niego niezrozumiale wyrazy, ale Aldona je rozumiała, ba, nawet sama
+mową Bogny się odezwała.</p>
+<p>— To opowiedz mi, jak to u was po dziewkę
+przychodzą swaty?</p>
+<p>Bogna nie zdążyła odpowiedzieć, bo Gedymin
+zniecierpliwiony oczekiwaniem, zawołał:</p>
+<p>— A pójdź no tu sroczko moja, toś ty się
+tak z Bogną zbratała, że już nawet mową jej
+gadasz?</p>
+<p>Aldona zasromała się, lękając gniewu ojca,
+spuściła głowę nieśmiało, spoglądając ku niemu,
+lecz gdy zamiast gniewu, ujrzała dobroduszny
+uśmiech na jego obliczu, zaczęła szczebiotać, opowiadać, co tylko słyszała od Bogny o zwyczajach lackiego kraju, i o swatach, jakie tam zwykle po dziewczęta przysyłają.</p>
+<p>Gedymin jeszcze więcej się uśmiechnął, a ująwszy jasną kosę córki, rzekł wesoło:</p>
+<p>— Ano, może i po ciebie jakie swaty przyślą,
+to dowiesz się najlepiej, jaki jest po świecie
+obyczaj!</p>
+<p>I mrugnął okiem, patrząc na pokraśniała
+twarz córki.</p>
+<p>— Ale nim swaty przyjdą, a kosę swoją pod
+czepiec schowasz, przygotuj nam wczesny posiłek:
+jutro, zaraz gdy gwiazdy pogasną, a świt się
+ocknie, trzeba nam w knieje. A i napitka Bogny
+naładuj w pęcherze. Dobry to napój lacki!</p>
+<p>— A jeżeli nam szczęście przyniesie i wróżby
+się spełnią… Hm! hm! — mruczał już sam do
+siebie, krocząc dalej.</p>
+<p>Aldona i Bogna pobiegły w głąb dworca, aby
+spełnić rozkaz księcia.</p>
+<p>Gdy na drugi dzień książę wyciągnął na łowy, wśród osad, okalających zamczysko, gwarno
+było i wesoło. Lud zgnębiony pobytem posłów
+Krzyżackich, wysypywał się teraz z chat swoich,
+bo widział się bezpiecznym, jeżeli nawet sam książę
+z zupełnym spokojem oddawał się ulubionej rozrywce. Skupiał się zaś lud ten najwięcej około
+świątyni Perkuna, gdzie przez drzwi otwarte widział wiecznie płonący ogień, a dym zwierzchnim
+otworem wydobywał się gęstemi kłębami, otaczając sinym obłokiem ogromnego wilka żelaznego,
+stojącego u szczytu świątyni, przez którego rozwartą paszczękę, widać było często wymykające
+się płomyki.</p>
+<p>— Nie darmo bogi zesłały wolę swoją Gedyminowi we śnie — mówiono — odsunął on Krzyżaki, a jako ten wilk ziejący ogniem, kneź mieczem na nieprzyjaciół zionąć potrafi.</p>
+<p>— Cześć Perkunowi!</p>
+<p>— A niechaj ogień w świątyni nigdy nie zgaśnie! — wołano.</p>
+<p>I każdy z przechodzących rzucał w otwarte
+drzwi pęk ziół, lub zwierzę, które stojący poza
+drzwiami ofiarnicy Perkunowi oddawali.</p>
+<p>— Perkun! Perkun! — wznosiły się głosy do
+koła.</p>
+<p>A były to głosy jakiegoś spokoju i lud po
+złożeniu objaty, spieszył do pracy około rozpoczętych chat, dworców, lub do sypania wałów
+około wznoszącego się Wilna, stolicy Gedyminowej, która rozciągając się w dolinie, otoczona
+z jednej strony górami, a z drugiej rzeką, sama
+już przez się poniekąd obronną była.</p>
+<p>Przy gontynie jednak Perkuna był zakątek
+osamotniony, drzewami otoczony, a wysokiem
+ogrodzeniem z chrustu przed ciekawych wzrokiem
+zakryty. Do tego zacisza nietylko obcym lecz
+i najwierniejszemu Litwinowi wchodzić nie było
+wolno, miejsce to bowiem było schroniskiem dziewic, które na obsługę świątyni, na cześć bogów
+żywot swój oddały. Która raz przestąpiła wrota
+tego zakątka, już z poza nich nie wracała.</p>
+<p>Obowiązkiem pobożnego ludu było składać
+u wrót dary, każdy też, a zwłaszcza niewiasty,
+składały je hojnie, a zaledwie słonko wzbiło się
+od wschodu, gdy Aldona i Bogna u wrót tych
+stanęły. Niosły one w dzbanach ów lacki napój,
+pęki ziół i wielkie chleby: była to objata za pomyślne łowy knezia, a może do niej łączyła się
+inna, którą skrycie Gedyminowa córa w swem
+sercu chowała. Zatrzymać się jednak musiały,
+bo właśnie przed wrotami stanął Tubingas prowadząc dziewczę młode, smagłe, chwiejące się
+a wystraszonym wzrokiem spoglądające do koła.</p>
+<p>Od drugiej strony biegł szybko Siewros z Jaśkiem, na twarzach ich znać było przestrach i zdziwienie.</p>
+<p>— Grażusa! — krzyknął Jaśko, i biegł ku
+stojącej u wrót dziewczynie.</p>
+<p>— Grażusa! — powtórzył Siewros smutnie,
+lecz powstrzymał towarzysza, mówiąc:</p>
+<p>— Nie obronisz jej, Tubingas oddaje ją Perkunowi.</p>
+<p>— Grażusę Perkunowi! — powtórzył Jaśko
+i chciał odtrącić powstrzymujące go ramię. — Ja
+nie dam jej spalić! — krzyknął, wyrywając się
+Siewrosowi.</p>
+<p>— Nie spalą jej! Tubingas ją na służbę Perkunowi oddaje! wola jego spełnić się musi!</p>
+<p>— Nie dam jej, nie dam! życiem swojem
+ocalę! — wołał Jaśko, szarpiąc się z Siewrosem.</p>
+<p>— Próżno, jedno z nas bogom poświęconem
+być winno — mówił Siewros, przytrzymując przyjaciela.</p>
+<p>Wtem Tubingas popchuął przyprowadzoną
+dziewczynę za otwierające się wrota.</p>
+<p>— Nic ją już nic ocali! — zawołał Siewros.</p>
+<p>— Grażusa! Grażusa! — wołał na cały głos
+Jaśko, a snać głos ten doszedł poza wrota, bo
+dziewczynka obejrzała się z taką siłą, że dwie kapłanki, prowadzące ją pod ramiona, musiały stanąć na chwilę. Potem, unosząc ją prawie gwałtem, zniknęły wśród bocznych skrzydeł gontyny.</p>
+<p>Tubingas spełniwszy swe dzieło, szedł z wyciągniętą naprzód dłonią; i on usłyszał okrzyk
+Jaśka, odwrócił się w stronę, skąd go okrzyk
+doszedł, a potem, szepcąc jakieś wyrazy, biegł
+z młodzieńczą żywością, aż zniknął wreszcie tom,
+kędy Ponary wznoszą swoje szczyty.</p>
+<p>Aldona i Bogna, wstrzymane w swej pobożnej
+pielgrzymce, patrzyły wylęknione na odbywającą
+się scenę, a gdy krzyk Jaśka ich doleciał, odwróciły się ku niemu. Bogna, ujrzawszy tego
+samego młodzieńca, któremu wczoraj lacki podawała napój, żywym pokraśniała rumieńcem.</p>
+<p>Siewros spojrzał na nią, potem wzrok przeniósł na stojącego w niemej rozpaczy Jaśka
+i szepnął:</p>
+<p>— To czary, Jaśko i ta dziewa, to jedno lice,
+tylko ona gładsza i piękniejsza. Oh! i jak piękniejsza!</p>
+<p>— Czy ona wasza, ta, co ją dali Perknnowi? —
+zagadnęła Aldona, zbliżając się do Siewrosa.</p>
+<p>— To moja siostra! — rzekł smutno Siewros.</p>
+<p>— I jego? — wskazała na obok stojącego w bezsilnej rozpaczy Jaśka.</p>
+<p>— Nie, ale on ją miłował — rzekł Siewros.</p>
+<p>— Miłował, a Perkunowi ją oddali! — powtórzyła smutnie Aldona.</p>
+<p>— Czy i u was oddają bogom dziewki na
+służbę? — zapytała, zwracając się do Bogny.</p>
+<p>— U nas Bóg jest tylko jeden, a temu zawsze
+się służy, gdy się jest dobrym — odrzekła Bogna.</p>
+<p>— Gdy się jest dobrym — powtórzyła Aldona. — Ja chciałabym być bardzo dobrą — dodała.</p>
+<p>I poniosła swoje dary, a postawiwszy u wrót
+schronienia dziewic, odeszła w zamyśleniu wraz
+z Bogną.</p>
+<p>Jaśko z Siewrosem stali długo na miejscu,
+każdy zasmucony, a każdy inaczej. Jaśko wreszcie ocknął się, zacisnął pięść i pogroził nią
+w stronę gontyny, rzucając przekleństwo.</p>
+<p>— Nie miota się bogom cudzym, bo tem się
+Najwyższego obraża! — ozwał się taż obok niego
+łagodny głos Bernarda. — On cię może wybrał,
+abyś był pośrednikiem między twoim a tutejszym
+ludem — mówił dalej Bernard.</p>
+<p>I położywszy dłoń na ramieniu młodzieńca,
+odwiódł go w inną stronę, cichą z nim prowadząc rozmowę.</p>
+<p>Nikt też, oprócz najbliżej przechodzących, nie
+zwrócił uwagi na okrzyki Jaśka; każdy głosem
+swoim wzywał opieki bóstwa, nic więc dziwnego,
+że ktoś tam głośniej zawołał, a w zamieszaniu
+ogólnem nie rozumiano nawet, co kto wykrzykiwał.</p>
+<p>I wkrótce wszystko ucichło; lud, oddawszy
+cześć Perkunowi z początkiem dnia, dążył do
+pracy. Jedni biegli do owych wznoszonych przez
+Gedymina budowli, przy których cudzoziemcy rej
+wiedli, inni naprawiali i odbudowywali własne
+domostwa, aby nim mgły szare do długiego zimowego snu słonko ukołyszą, wznieść dach zawalony, lub przęsła podeprzeć. A każda chata
+potrzebowała podparcia i naprawy, bo choć nie
+było wielkich napadów ze strony Zakonu, w mniejszych wyprawach, czynionych na ochotnika, nie
+oszczędzali oni ni człeka, ni zwierza, ni drzewa,
+ni schronisk, które lud litewski klecił sobie z chrustu i kamienia.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>XIII</head>
+<p>Książęca stolica ponętny w owym czasie przedstawiała widok. Oprócz Greków, Włochów, Niemców sprowadzonych z odległych krajów do stawiania zamczyska, ba i całego miasta, które
+Gedymin chciał wznieść z kamienia, nie licząc pomagających im robotników, wiło się tam niemało
+wszelakiego ludu. Bo Wilno stało na drodze
+handlowej do bogatego Nowogrodu; przeciągali
+więc kupcy z Zachodu, a każdy zatrzymując się
+dla wypoczynku, widząc miasto wznoszące się
+coraz więcej, chętnie jakiś czas zostawał, aby
+zachwalając towar, część jego pomiędzy mieszkańcami zostawić.</p>
+<p>Kapłani krzywo na to patrzyli, ba i starcy
+szemrali: ale Gedymin chętnie pozwalał, bo pragnął, ażeby lud jego przyjmował ogładę; schlebiało
+mu też nie mało i to, że po wszystkich stronach
+świata o jego stolicy ludzie rozpowiadać będą.
+Lecz oprócz kupców, coraz to więcej przyciągało
+ludzi z lackiej ziemi. Snuli się oni oddawna na
+dworze książęcym, często Gedymin zamykał się
+z nimi i długie prowadził rozmowy, a odjeżdżając do kniei, kazał czuwać Chroniwosowi i nowych lackich przybyszów do siebie w puszczę,
+aż nad rzekę Świętą prowadzić.</p>
+<p>Niebawem też po wyjezdzie knezia na łowy
+przybył zbrojny poczet, oznajmiając, że król Polski Władysław III, co go też Łokietkiem zowią,
+wyprawił do wielkiego księcia Gedymina, pana
+wszej Litwy poselstwo, złożone z najprzedniejszych panów duchownych i świeckich, którzy tu
+niebawem nadciągną.</p>
+<p>Przybyli z tą wieścią doznali jak najlepszego
+przyjęcia. Rozsypali się po dworach i zamczyskach litewskich, a za nimi nadciągnęli wkrótce
+i inni dla oznajmienia, że dostojni laccy posłowie
+są już tylko o kilka dni drogi od stolicy książęcej. Chroniwos, zaraz po przybyciu pierwszego
+pocztu, słał z wieścią do Gedymina, który wracał
+już właśnie ku domowi, lecz mimo obfitych łowów
+jakiś zły i chmurny.</p>
+<p>Na wieść o posłach Łokietkowych rozpogodziło się oblicze knezia: zadął radośnie w myśliwską
+trąbę, którą chętnie się bawił, gdy był w dobrym
+humorze, a ujrzawszy wypędzonego z gniazda
+tym odgłosem olbrzymiego dzika i przedzierającego się przez gęstwinę w głąb lasu, rzucił za
+nim oszczepem. Zwierz kwiknął chrapliwie, przeciągle, chciał się zwrócić w stronę zkąd pocisk
+otrzymał, lecz zachwiał się i runął całym ciężarem, nurzając się w kałuży własnej posoki, która
+z rozwalonego łba obficie pociekła.</p>
+<p>Coraz jękliwsze, bardziej razdzierające głosy
+wychodziły z gardzieli zwierza: las je mimo gąszczu powtarzał, zwierz podrzucał się do góry
+z wściekłością bezsilną. Nim nadszedł pogromca,
+by mu się przypatrzeć, dzik drgał już tylko
+w ostatniem pasowaniu się ze śmiercią, wyrzucając wraz z posoką coraz chrapliwsze lecz i coraz
+słabsze jęki. Gedymin z obojętnością prawdziwego zwycięzcy wyciągnął oszczep ze łba zwierzęcia, które drgnąwszy po raz ostatni, obryzgało
+krwią kożuch książęcy, a wyciągnąwszy się, legło już najzupełniej bezwładne.</p>
+<p>— Ha, ha, ha! — zaśmiał się książę i oddawszy oszczep pachołkowi, aby go otarł z posoki,
+zawołał wesoło:</p>
+<p>— No, taki to dobra wróżba dla litewskiego
+knezia, ba i dla całego ludu, w chwili wieści
+o lackich posłach, zwierz, co nam chciał zajść
+drogę, ubity. Tak my i Krzyżaków zachodzących w nasze ziemie ubijem.</p>
+<p>— Na Perkuna, ubijem! — posypały się zewsząd głosy drużyny i wesołe okrzyki rozległy
+się po milczącej gęstwinie puszczy.</p>
+<p>Pod tak dobrą wróżbą Gedymin wrócił do
+swego książęcego Wilna. Na zamku kazał robić
+przygotowania do przyjęcia posłów, nie spraszając jednak na ucztę, prócz Chroniwosa i kilku
+najzaufańszych a wiernych sobie Kunigasów,
+prawie nikogo.</p>
+<p>Lecz nim dojechał do stolicy, posłał do starego Tubingasa: ale tego ani pachołkowie Gedymina, ani przybysze laccy, szukający z polecenia
+Chroniwosa gościny w schronisku starego ślepca,
+nie znaleźli. Były tam tylko same niewiasty,
+opłakujące Grażusę; dziad uprowadziwszy ją na
+służbę Perkunowi, dotąd nie wrócił.</p>
+<p>Dowiedziawszy się o tem Gedymin, będący
+już na zamku, zmarszczył czoło, szarpnął się niecierpliwie za brodę, a nogą łaszącego się Meszkę,
+kopnął tak silnie, że ten aż kilkakrotnie koziołka
+przewrócił.</p>
+<p>Przynoszący wieść ze schroniska Tubingasowego umknęli skwapliwie z przed oczu gniewnego pana, a Gedymin jął chodzić po wielkiej swojej komnacie, mówiąc półgłosem do siebie niecierpliwie:</p>
+<p>— Mojeć to sprawy i mojej dziewki! nie potrzebuję rady Kunigasów, którzy mi swoją wolę narzucać chcieli… Tak, obejdę się bez tego starego ślepca, świętego ognia jemu już tylko pilnować a nie w sprawy ludu się wdawać!</p>
+<p>I zamilkł, rzuciwszy się na ławę, okrytą skórą niedźwiedzią.</p>
+<p>Po chwili znów mówił, lecz już z rozpogodzonem obliczem:</p>
+<p>— Ba, gdy dziewka moja zasiądzie na lackim
+tronie, Lubart na księztwie Wołyńskiem, Olgierd
+odziedziczy po mnie Wileński zamek, Kiejstut
+Troki i sąsiednie na wschód ziemie, to ród Gedymina wzniesie się potęgą nad inne. Tak, tak,
+zapanuje i Krzyżakom pod sam bok wlezie! Oj,
+boć ten mały Władysław wywlecze im z gardzieli
+zabrane ziemie!</p>
+<p>I zamyślił się znów, a siadłszy na ławie, jak
+na konin, kołysał się z jednej strony w drugą
+i coraz ciszej ze sobą rozmawiał.</p>
+<p>A taki to już był jego obyczaj, że gdy miał
+jakie ważne sprawy na głowie, siedział sam w komnacie, a biada każdemu, ktoby tę samotność
+przerwać się odważył. Sam ze sobą najlepiej się
+nagadał, i woli swojej zadość uczynił i myśl
+już dojrzałą objawiał kunigasom zebranym. Rzadko
+też który ośmielił się przeczyć kneziowi, z którego wejrzenia padała taka stanowczość, iż wszelkie nie według jego woli słowo, daremnie nawet byłoby powtarzać. To też i teraz prócz trzasku ognia na kominie i mruczenia zwiniętych
+w kłębek w kącie niedźwiedzi, nikt mu biegu
+myśli nie przerywał.</p>
+<p>Po chwili jednak wstał i gwizdnął głośno
+a przeciągle; musiało to być znane gwizdnięcie, bo
+niedźwiedź żaden z miejsca się nie ruszył, ale
+drzwi się otworzyły i wszedł czuwający w przybocznej komnacie pachołek. Niósł on wielką sobolową czapą i kaftan łosiowy, szyty barwistemi
+kolorami i złotem.</p>
+<p>Prędko przywdział te ozdobne szaty Gedymin,
+a włożywszy ręce za pas, szedł do wielkiej komnaty, każąc Siewrosowi nieść przed sobą otrzymany od Krzyżaków miecz w pochwie czerwonej,
+Jaśkowi zaś kołczan zamknięty i łuk bez strzały,
+na znak przyjaźni i zgody z królem, którego
+posłów miał przyjmować.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>XIV</head>
+<p>Już słonko dawno schyliło się ku zachodowi,
+cisza po przyjęciu przyjaznych posłów zapanowała nietylko na zamku książęcym, lecz i w całem Wilnie. Tylko z nad szczytu świątyni Perkuna wilk żelazny zionął otwartą paszczęką i dym
+i skry wyrzucał, mieszając je ze mgłą jesienną.</p>
+<p>Wzdłuż ogrodzenia schroniska poświęconych
+dziewic przesuwał się Jaśko, przystając i nasłuchując co chwila, lecz prócz szumu gałęzi, otrząsających pożółkłe liście, żaden dźwięk stamtąd
+nie dolatywał. Nagle przeszyło nocną ciszę jakieś
+jękliwe westchnienie, jak gdyby szamotanie się
+ze snem, który gwałtownie ktoś chce od siebie
+odpędzić, potem popłynęła cicha pieśń z za ogrodzenia…</p>
+<p>Pieśń przeciągła, tkliwa, którą wychowaniec
+Wilczego Gniazda tak często słyszał w domu
+starego ślepca, a którą najpiękniej śpiewała Grażusa… Młodzieniec wstrzymał oddech, chcąc się
+tej pieśni przysłuchać, gdy nagle, tuż prawie
+zaświecił mu przed oczami blask zapalonego łuczywa, które wyciągnięta dłoń przechodzącego
+trzymała zdala od siebie, jak gdyby nią sobie
+chciała drogę rozświecić…</p>
+<p>Idący jednak nie potrzebował tego, był to
+bowiem Tubingas, któremu noc nie przeszkadzała
+ciemnością, ani słonko nie pomagało swem światłem.</p>
+<p>Szedł on szybko, trzymając syczące i miotające złotawe ognie drzazgi, na plecach dźwigał
+pęk ziół suchych, podpierał się jak zwykle laską,
+a podążał od tej strony świątyni Perkuna, którą
+kapłani przechodzący mogli wejść o każdej porze
+dla złożenia objaty podróżnej. Łuczywo snać
+zapalił u świętego ognia i spieszno z niem kierował się pod wzgórze, na którem stało nowowznoszące się Gedyminowe zamczysko.</p>
+<p>Część jego była z kamienia, lecz to cząstka
+zaledwie, w której się mieściły książęce skarby
+i do której w ostateczności uchodzić mieli ludzie
+przed nieprzyjacielem, reszta jednak zamku była
+z drzewa na podmurowaniu kamiennem.</p>
+<p>Ślepiec, pchany jakąś niezwykłą siłą, przebył
+okalającą zamek fosę, a szedł z taką pewnością,
+jakiej najlepiej widzący człek wśród jasnego
+dnia nie posiada; wdarł się później po wystających kamieniach podmurowania i tuż u stóp
+drewnianej ściany zatknął łuczywo, otaczając je
+przyniesionemi trawami i rzucając ciche, lecz
+pełno grozy wyrazy, wśród których wzywał kilkakrotnie Perkuna…</p>
+<p>Jaśko, ujrzawszy idącego spiesznie Tubingasa
+z łuczywem, niepostrzeżenie posunął za nim.</p>
+<p>Wyraz grozy na pomarszczonej twarzy ślepca,
+oświeconej krwawym blaskiem palącego się łuczywa, kazał się domyślać, iż nie próżno z ogniem
+w dłoni drogę tę przebiega.</p>
+<p>Lecz Tubiugasowi, zda się, ubyło lat, tak
+szybko bieżał, a w przechodzeniu głębokiej fosy,
+nawet zręczny i przyzwyczajony do niebezpiecznych skoków, wychowaniec Wilczego Gniazda
+nie mógł mu dorównać. Tem więcej, iż nie chciał,
+aby starzec domyślił się czyjejśkolwiek obecności;
+zdala więc tylko, ukryty w rowie, przypatrywał się
+robocie starca, wiedząc, iż żadna siła nie byłaby
+mu zdolną przeszkodzić.</p>
+<p>Tubingas, dokonawszy swojej zemsty, odwrócił się ku zamkowi, podniósł obie dłonie do góry, jakby rzucał niemi pociski, a jednocześnie
+miotał wyrazy klątwy, które głuchem echem odbijały się od ścian otaczającego zamek parowu.</p>
+<p>Uchodził tak, oświecony łuną coraz szerzącego się ognia, który zamiast obejmować ścianę,
+pod którą był podłożony, zajął stos nagromadzonych, tuż po przeciwnej stronie, do dalszej budowy, berwion i desek.</p>
+<p>Zaledwie zeszedł z podmurowania ślepiec, od
+drugiej strony wdarł się Jaśko i jął rozrywać
+palące się już drzewo, a jednocześnie zaczęto budzić się po okolicznych, rozrzuconych u stóp zamczyska, siedzibach.</p>
+<p>Gwar i wrzask przestrachu wzrastał coraz
+więcej, lecz zbudzeni z pierwszego snu, nie wiedzieli, co się dzieje, i myśl o napadzie nieprzyjaciół, najpierw im przyszła do głowy.</p>
+<p>Jeden więc brał oszczep i biegł na wroga,
+inny wołał do wspólnej obrony, inny jeszcze
+chciał uprowadzać niewiasty i dzieci, kryć dobytek i mienie, nikt nie spieszył gasić pożaru.</p>
+<p>Tylko Jaśko rozrywał z nadzwyczajnym wysiłkiem deski, aby płomieni nie dopuścić na ścianę książęcej siedziby. Nagle jednak runęło przepalone drzewo, a z niem i dzielny młodzian stoczył się w rów, przysypany palącemi się jeszcze
+głowniami.</p>
+<p>Tem zarwaniem palących się desek, ogień
+oderwał się od głównego budynku, resztę żaru
+straż zamkowa ugasiła, a schodząc, dobrze już
+nad ranem, w fosę, okalającą zamczysko, spotkała leżącego pod niemi Jaśka.</p>
+<p>Potłuczony był jak jabłko leśne, spadające
+z wysokiej jabłoni, obłocony i oblany wodą, cuchnącą, na poły przegniłą. Lecz ta trocha wody
+w rowie ocaliła mu właśnie życie, bo deski palące się, w niej ugasły, a błoto goiło jego rany.</p>
+<p>— To ten podłożył ogień i nie zdoławszy
+uciec, sam runął z żarem! — zawołał ktoś ze
+straży.</p>
+<p>— Perkunowi go na objatę! — krzyczał inny.</p>
+<p>— To teu sam, co z wnukiem Tubingasowym
+uciekł od Krzyżaków!</p>
+<p>— Ten sam, co go Siewros u dziada od spalenia wyprosił!</p>
+<p>— Spalić go teraz!</p>
+<p>— Perkun! Perkun! Tubingas! — wrzeszczano
+dokoła, chwytając na wpół zemdlonego, i wywlókłszy z fosy, podążano z nim do świątyni.</p>
+<p>— Stójcie! — krzyknął nagle głos tuż około
+rozjuszonych ludzi.</p>
+<p>Na ten głos łagodny, lecz stanowczy, ucichły
+gwary roznamiętnionych czcicieli Perkuna, którzy rzuciwszy biednego Jaśka, stanęli w pokorze.</p>
+<p>— Jak śmiecie wlec człeka na objatę bez
+zezwolenia wielkiego Kunigasa, lub knezia Gedymina? — rzeki powoli Bernard.</p>
+<p>Przywykli do poszanowania tego ślepca, którego obok Tubingasa i samego księcia widywali,
+zaczęli się uniewinniać.</p>
+<p>Bernard z mowy ich dowiedział się, kto był
+ów nieszczęśliwy młodzieniec i o co go posądzano. Tem gorliwiej więc zajął się omdlonym,
+rozkazawszy odnieść do swojej siedziby, gdzie
+jął leczyć jego rany. Wytłomaczył też zżymającym się po chwili posłuszeństwa ludziom, że powinni całą sprawę najpierw Gedyminowi przedstawić, a pod sąd starszyzny i Wielkiego knezia
+ją oddać.</p>
+<p>Tymczasem o nieszczęściu przyjaciela dowiedział się wkrótce i Siewros: przybieżal więc do
+izby Bernarda i już obadwaj czuwali nad poranionym i oparzonym Jaśkiem.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>XV</head>
+<p>Gedymin po uczcie z polskimi posłami zasnął snać mocno, a sen musiał być razem twardy i spokojny, kiedy go ani trzask palących się
+desek tuż po za ścianą zamczyska, ani łuna pożaru, ani krzątanina ludzi nie zbudziła. Nie
+zbudził też hałas i jego córy, mającej wraz z otoczeniem niewieściem w drugiej stronie zamczyska schronienie.</p>
+<p>Słonko więc już zajrzało przez wąskie okna
+zasłonione do połowy zaporą, gdy się Gedymin
+obudził. Nawet dym tłukący się po komnacie,
+nie zdziwił kniezia, boć dym często z komina,
+gdy się miało na słotę, zawiewał. Zresztą Gedymin miał snać ważne a przyjemne myśli na
+głowie, a czując się od napadu nieprzyjaciół bezpiecznym, nie zważał wiele na takie rzeczy
+marne.</p>
+<p>Obudziwszy się, wzrok zaraz skierował na
+niewielką misternie rzeźbioną skrzynkę stojącą
+u jego wezgłowia; spojrzawszy na nią uśmiechnął się z zadowoleniem, a potem świsnąwszy na
+pachołka i Meszkę, jął się spiesznie ubierać, nie
+zapomniawszy ni razu pierwej na lewą nogę
+wlożyć chodak i lewy rękaw opończy naciągnąć, co mu dawało otuchę, że w tym dniu nie
+pójdzie nic już w jego zamysłach na marne.
+Okrywszy bowiem najpierw lewą połowę ciała,
+niedozwolił już przystępu złym duchom…</p>
+<p>Ubierając się zaś, mówił do siebie:</p>
+<p>— Tak, to moje rodzinne sprawy! wreszcie
+usunął pachołka i coraz głośniej powtarzał:</p>
+<p>— Tak, tak! Tak, to moje rodzinne sprawy! ha, choć i ziem takoż! No, dodał jakby
+dla uspokojenia siebie, ziemie… toż dla nich będzie dobrze.</p>
+<p>I zamyślił się.</p>
+<p>— A bogate to musi być królestwo tego Władysława, boć i dary nie szpetne! takich błyszczących kamieni i w Nowogrodzie nie łatwo
+ujrzy. I przeniósłszy na ławę przed komin ową
+wyrzynaną skrzynię, począł z niej wyjmować
+długie łańcuchy przetykane czerwonemi i niebieskiemi oczkami, a też zausznice trzymające po
+cztery cale długości, i czapki szyte złotem a kamieniami.</p>
+<p>Ukladał to wszystko na ławie i stole, a kamienie migotały blaskiem przed jego oczami
+barw tysiącem.</p>
+<p>Gedymin przechylał na wszystkie strony głowę, odchodził i przybliżał się igrając z klejnotami jak dziecię igra z promieniem słońca, którego uchwycić nie może. Wreszcie zawołał:</p>
+<p>— Meszka! i wskazał na drzwi ciężką zasłonięte oponą.</p>
+<p>Meszka w susach i skokach, jeszcze więcej
+uwydatniających niekształtność jego cielska, podsunął się pode drzwi. Rozsunął łbem oponę, łapami oparł się o drzwi i po chwili trzymając
+delikatnie w zębach brzeg szaty Aldony, wprowadził ją przed ojca.</p>
+<p>Gedymin uśmiechnął się na widok córki, poklepał Meszkę po łbie kudłatym, a gdy niedźwiedź z mruczeniem zaczął się panu przymilać,
+kopnął go nogą. Po tej ostatniej pieszczocie Meszka się usunął, przycupnąwszy z pokorą,
+a Gedymin rzekł, wskazując córce rozłożone
+klejnoty.</p>
+<p>— Widziała ty kiedy takie bogactwa?</p>
+<p>Aldona z otwartemi szeroko oczami, spojrzała
+na świecące się przed nią złoto i kamienie. Po
+chwili przymknęła powieki i znów je otworzyła.</p>
+<p>— Oj, ta że, aż oczy bolą patrzeć na nie,
+rzekła, przysuwając się do ojca z pewną bojaźnią, lecz spoglądając ciekawie.</p>
+<p>— Czy to żywe? — zapytała po chwili.</p>
+<p>Gedymin rozśmiał się, a biorąc do ręki łańcuch, rzekł.</p>
+<p>— Nie — one nie żyją, chociaż migocą! to
+są kamienie, w które stroją się królewny.</p>
+<p>I wziąwszy wielki łańcuch, począł okręcać
+go koło kształtnej kibici dziewczęcia, która poddając się ojcu, drżała jednak bojaźliwie przed
+tą ozdobą, która ją jakby wąż do koła owijała.</p>
+<p>Widząc jednak, że łańcuch nie dusi, chętnie
+już poddała szyję i uszy, na których książę
+z pewną dumą zawiesił długie złociste ozdoby.</p>
+<p>— Córo moja, te śliczności, to twoje! rzekł
+Gedymin przypatrując się z pewną dumą stojącej przed nim i nieśmiejącej się ruszyć Aldonie.</p>
+<p>— Tak, tobie to przysłał Władysław król
+lacki w darze, żądając cię w małżeństwo dla
+swego syna królewicza Kazimierza.</p>
+<p>Aldona spuściła oczy i żywym spłonęła rumieńcem.</p>
+<p>A w duchu pomyślała:</p>
+<p>— Bogna mówiła o swatach, ale tam były
+pieśni i dary, a tu same tylko dary… Czemu? —
+i zamyśliła się głęboko.</p>
+<p>— No, cóż, dziewko, nie cieszysz się z takiego zamężcia? — a nic czekając odpowiedzi
+rzekł.</p>
+<p>— Gotuj się, bo niedługo przyjadą posłowie,
+a moja córa pójdzie w lackie kraje!</p>
+<p>I jakby uczucie ojca w tej chwili się ode zwało, przygarnął do swojej piersi stojącą dzieweczkę.</p>
+<p>Aldona drżąca, odurzona niezwykłą pieszczotą
+rodzica, nie wiedziała sama, co się z nią dzieje.</p>
+<p>Wprędce się jednak opamiętała, pytając, jako
+przystało kneziowskiej córze:</p>
+<p>— Nam przysłano dary, a co my królowi
+i królewiczowi polskiemu poślemy w darze?</p>
+<p>Gedymin zmarszczył wyniosłe czoło.</p>
+<p>— Przyjaźń wielkiego Gedymina i jego córa
+więcej warte, aniżeli wszelkie te błyskotki, odrzekł dumnie książę.</p>
+<p>Aldona jednak nie łatwo się zbyć dała. Zsunęła brwi, jakby je tam myśl w głowie do tego
+ruchu zmusiła, a potem rzekła schylając się do
+nóg ojcowskich.</p>
+<p>— Przyjaźń król polski w zamian za przyjaźń Wielkiego knezia litewskiego daje, córkę
+jego bierze, dając jej swego syna, a za dary?</p>
+<p>Gedymin szarpnął brodę i zamilkł, lecz jeszcze więcej zmarszczył brwi krzaczaste, a z tym
+wyrazem ojciec i córa byli tak podobni do siebie, iż nikt nie mógł wątpić, że jedna krew
+w ich żyłach płynie.</p>
+<p>— Za te bogactwa dozwól mi ojcze zabrać
+jeńców polskich, co są u ciebie w niewoli. Gdy
+córa Gedymina ma być lackiego królewicza małżonką, lud jego nie może zostawać u Wielkiego
+knezia litewskiego w niewoli.</p>
+<p>I nieśmiało podniosła wzrok na ojca.</p>
+<p>Chmurna twarz Gedymina jakoś się rozjaśniła, gdy nagle w przedsionku dały się słyszeć
+zmieszane głosy.</p>
+<p>Niedźwiedzie podniosły łby, jakby chciały
+okazać gotowość do zgromienia śmiałków, a ujrzawszy wzrok Gedymina zawisły na zamkniętych podwojach, wzięły to za rozkaz i rozwarły
+je, stając po obu stronach, według zwyczaju, na
+tylnych łapach.</p>
+<p>We drzwiach nkazał się Chroniwos, a za nim
+Bernard.</p>
+<p>Chroniwos miał chmurne jakąś wewnętrzną
+walką oblicze. Bernard, jak zwykle ze swemi
+zamkniętemi oczami, postępował z pewną stanowczą rezygnacyą.</p>
+<p>— Miłościwy nam Kunigasie a Wielki kneziu
+Litwy, rzekł Chroniwos, pożar podłożono pod
+węgła Waszego zamczyska.</p>
+<p>— Zalać go! rzucił gniewnie kneź, zły że mu
+przerywają rozkoszne chwile.</p>
+<p>— Już ugaszony — szepnął Bernard. Gedymin, jak gdyby nie słyszał odpowiedzi — zapytał:</p>
+<p>— Wrogi? i obejrzał się na miecz wiszący
+nad jego łożem.</p>
+<p>Bogowie wiedzą! rzekł Chroniwos, tłumiąc
+wyraz cisnący na usta.</p>
+<p>— Jaśko, Lach podłożył ogień! wrzeszczał
+tłum! krwi jego na objatę Perkunowi.</p>
+<p>— Lach? zapytał Gedymin, a wargi mu
+gniewem zadrżały.</p>
+<p>— Znaleziono w fosie Jaśka, tego co uciekł
+z moim chłopakiem z Wilczego Gniazda, rzekł
+Chroniwos.</p>
+<p>Gedymin jeszcze chmurniej spojrzał do koła.</p>
+<p>— Ale chłopak ten poraniony był i przywalony opalonemi deskami, nie mógł więc podpalać,
+jął Bernard.</p>
+<p>— Krwi jego!</p>
+<p>— Na objatę Perkunowi!</p>
+<p>— On już raz miał być spalony!</p>
+<p>— Bogowie domagają się jego życia! wrzeszczał lud rozjuszony.</p>
+<p>Tew’s, rzekła Aldona, śmiało podnosząc głowę, Lacha skazywać na śmierć nie można, gdy
+ja mam być żoną królewicza polskiego.</p>
+<p>Błyszcząca klejnotami książęca córa, spoglądająca z pewną powagą na lud zebrany, takie
+na tej wrzeszczącej tłuszczy zrobiła wrażenie, że
+głosy wszystkie umilkły.</p>
+<p>Gedymiu spojrzał z zadowoleniem na córę
+i znowu rozjaśniło się jego oblicze.</p>
+<p>— Obwinionego przyprowadzić przedemnie!
+rzekł.</p>
+<p>— Leży bezprzytomny i poraniony! rzekł
+Bernard.</p>
+<p>Baby i znachory sprowadzić — niech go okładają ziołami: żyć musi, abym się dowiedział prawdy — zawołał Gedymin. Na poły zdechłego
+Perkunowi na objatę rzucać nie wolno! Wołu
+zabić, krew rozlać Perkunowi, mięso oddać ludowi na podziękowanie bogom, żeśmy uszli pożaru! I odwrócił się od stojących.</p>
+<p>Chroniwos i Bernard usunęli się, widząc, że
+książę nie rad był mówić dalej, niedźwiedzie
+drzwi zatrzasnęły, a lud mrucząc po trochu, szedł
+jednak korzystać z darowanego wołu.</p>
+<p>Gedymin, jak gdyby nie nic zaszło, odwrócił
+się do córki, położył dłoń na jej schylonej głowie i rzekł:</p>
+<p>— Weźmiesz ich wszystkich ze sobą — a teraz idź do Bogny niech cię uczy mowy lackiej
+i ich obyczaju. A i o napitku lackim nie przepominaj.</p>
+<p>Aldona przywykła do lekkiej odzieży lnianej,
+ledwie mogła się ruszyć w ozdobach na nią włożonych, na rozkaz, jednak ojca przeszła tam i na
+powrót po komnacie, a potem usunęła się do
+ukochanej Bogny.</p>
+<p>Za odchodzącą Gedymin spojrzał z uśmiechem.</p>
+<p>— Prawdziwie to kneziowska córa, dumna
+jako i ja — lecz ten lach co podpalił? i znowu
+się zamyślił:</p>
+<p>— To bajka — dodał po chwili.</p>
+<p>No — niechaj wyzdrowieje — mówił znów
+do siebie — dowiemy się prawdy! — ukarzę —
+gdy winien…</p>
+<p>— Ale Aldona, jak wiedziała, co rzec do
+ludu! a śmiało, jakby już królowa! A te jeńce?
+to zaprawdę myśl książęca.</p>
+<p>I znów, myśli markotliwe snać głowę jego
+zajęły; jakaś nieufność wybiła się na jego twarzy. Wyszedł przed zamek, nie spojrzał jednak
+na pogorzelisko, długą tylko z Chroniwosem
+wiódł rozmowę, po której i Chroniwos i książę
+chmurne i zamyślone mieli oblicza.</p>
+<p>Gedymin, jakby umyślnie, nie kierował prawie
+nigdy kroków w stronę, owego pogorzeliska,
+z którego też oprócz osmolonej ściany i spalonego przygotowanego drzewa straty też żadnej
+nie było. I jakoś powoli i lud uciszony objatą
+i ucztą z wołu i sam kneź o Jaśku i o pożarze
+zapomniał. Ino Chroniwos wiecznie chmurny
+i z podełba spoglądający groźnie wymawiał synowi, że do obcych ciągnie, a tego wydartego
+Perkunowi kocha jako brata.</p>
+<p>— Bratem ci on mi był tam w Wilczem
+Gnieździe, a i tu zawsze stawał za swojaka —
+odpowiadał młodzieniec i szedł do Jaśka.</p>
+<p>A co raz więcej trapił sobie tem głowę, że
+kiedy patrzył na Bognę, to mu twarz Jaśka stawała w pamięci, a kiedy był z Jaśkiem, to mu
+się zdało, że na Bognę pogląda.</p>
+<p>Jaśko tymczasem doglądany i leczony przez
+Bernarda przychodził powoli do siebie, rany mu
+się po zgorzelisku pogoiły, ale blady był jak te
+resztki śniegu, co się w głębinach lasu w cieniu długo na wiosnę chowają. Mało też mówił
+i nieraz trudno było z niego słowa wydobyć.
+Na zapytania Siewrosa i Bernarda, jakimby sposobem znalazł się w fosie, w nocy, sam jeden
+podczas pożaru, potrząsał tylko głową i nic nie
+odpowiadał. Aż razu jednego, gdy jakoś późną
+już jesienią w dzień łagodny przed chatą siedział Jaśko na przyzbie społem z towarzyszami, nagle krzyknął, zerwał się, chcąc biedz
+przed siebie, lecz siły go opuściły upadł bezwładny. Jedną ręką oczy sobie zasłonił, drugą wyciągnął przed siebie. Bernard myślał, że jaki
+ból w ranach wstrząsnął tak biedakiem, lecz
+Siewros spojrzał w stronę wyciągniętej dłoni
+przyjaciela.</p>
+<p>I on także krzyknął na wskazany widok.</p>
+<p>Z góry schodził Tubingas z łuczywem wyciągniętej dłoni, a idąc spiesznie jako wichry
+chodzą, ku zamkowi Gedyminowemu podążał…</p>
+<p>Nim Siewros zdołał przyjść do siebie starzec
+dobiegł ścian zamkowych, brzemię drzewa przyniesione rzucił tuż przy kamiennym murze, podłożył pod nie zapalone łuczywo, a gdy zeschłe
+gałęzie żywo objął ogień, Tubingas sam się na
+ten stos rzucił, miotając do góry wzniesionemi
+dłońmi, wymawiając klątwy wyrazy.</p>
+<p>Siewros biegł do bram zamkowych, i lud zwoływał. Wyszedł nawet wywabiony krzykiem
+sam Gedymin, lecz gdy ujrzano gorejącego na
+stosie Tubingasa, nikt nie śmiał ognia zalewać.
+Każdy stał obezwładniony w pobożnem zdziwieniu i trwodze.</p>
+<p>Ogień podłożony tuż pod zamczyskiem, byłby
+jego całości zagroził, gdyby Tubingas był jak
+poprzednio trafił pod drewnianą ścianę, lecz kamienie rumieniły się tylko i odbijały krwawą
+łuną, nie pękając pod naciskiem płomienia.</p>
+<p>Gedymin, patrząc na dogasające szczątki kapłana, nagle jakby sobie coś przypomniawszy
+uderzył się w czoło i zapytał. A ten, co go jesienią w fosie podczas pożaru znaleziono?</p>
+<p>— Jaśko, mój towarzysz z Wilczego Gniazda,
+odrzekł Siewros stojący wówczas przy księciu, on to pierwszy i dziś dziada Tubingasa zobaczył, chciał biedz, lecz nie mógł, bo jeszcze schorzały, ino ręką mi wskazał.</p>
+<p>— Z Wilczego Gniazda! powtórzył kilkakrotnie Gedymin.</p>
+<p>I znowu się zamyślił, lecz snać myśli to nie
+były przykre, bo surowe oblicze knezia wcale
+się niemi nie zasępiło.</p>
+<p>Lud tymczasem gromadził się około stosu,
+bo wieść się rozeszła, że Tubingas pod ścianą
+zamkową na ofiarę siebie bogom złożył…</p>
+<p>Szeptano o tem różnie, nikt nie śmiał głośno
+wybuchnąć, bo potęga Gedymina zapanowała nad
+ludem.</p>
+<p>I Gedymina obejmowała jakaś zabobonna
+trwoga, nie poddawał się jej jednak, a gdy pod
+wieczór ciało już zupełnie na węgiel się spaliło,
+a wiatr wieczorny chłodził spalone szczątki, co
+w popiół je rozsypywał, kazał wtedy przynieść
+wielką popielnicę glinianą i sam z należytą czcią
+zgarnął gorące popioły.</p>
+<p>W towarzystwie ludu wśród należytych pogrzebowych śpiewów, modłów i zwykłych obrządków
+złożył te popioły w świątyni Perkuna.</p>
+<p>Kilka dni trwały żale i płacze, lecz jesień
+już miała się na schyłku, wszystkiemu trzeba
+było kres położyć, aby się na zimowe życie zabezpieczyć. Zaraz też po skończonych obrzędach
+Gedymin kazał przywołać do siebie Jaśka. Przyszedł, chwiejąc się, prowadzony przez Bernarda.
+Kneż spojrzał łaskawie na blade chłopię.</p>
+<p>— Zostaniesz nie tylko na moim dworze,
+lecz przy mnie, będziesz mi wiernym, a będziesz
+moim przybocznym.</p>
+<p>Jaśko padł do nóg Gedyminowych. Gdy powstał, kneź wpatrzył się w niego.</p>
+<p>— Ten sam, co mi miecz krzyżacki podawał!
+A Lach — rzekł nawpół do siebie.</p>
+<p>— A miecz teraz udźwigniesz? zwrócił się d
+Jaśka.</p>
+<p>— W potrzebie siły się znajdą.</p>
+<p>Gedymin się uśmiechnął, a Jaśko odtąd został przy boku książęcym.</p>
+</div>
+<div>
+</div>
+<div type="chapter"><head>XVI</head>
+<p>A dobrze, że się skończyły te domowe litewskie sprawy, bo na dwór knezia znowu przybywali goście.</p>
+<p>Nietylko bowiem Bogna uczyć miała Gedyminową córę lackiej mowy i obyczaju, lecz wkrótce przybył znany nam już Gerward, biskup Kujawski, w otoczeniu duchowieństwa, aby przyszłą
+swą panią nauczyć zasad świętej wiary, a w czem
+mu wielką pomocą był ślepiec Bernard.</p>
+<p>Nie wydawał on się ze świętą wiarą przed
+nikim, po cichu tylko modlił sio do Pana, by mu
+zesłał wytrwanie i pozwalał nawracać. Pokątnie
+też już wielu było przez niego do przyjęcia nowej wiary przygotowanych, a łagodnością i lekami, których się nauczył u Krzyżaków od ojca
+Germana, zjednywał sobie zaufanie ludu. Gdy
+zapotrzebowano jego pomocy na dworze książęcym, stanął z całą gorliwością wyznawcy.</p>
+<p>Na naukach i przygotowaniu Aldony do przyjęcia Chrztu świętego, upłynęła zima, upłynęła
+ona w ciszy i spokoju.</p>
+<p>Krzyżacy jakoś nie napadali, mając niesnaski
+u siebie i z Polską o Pomorze sprawę, o którą
+wciąż do papieża musieli wysyłać. Robili tuż
+potajemne starania i u króla czeskiego, Jana
+Luxemburskiego, w celu nowych napadów na
+Polskę. Litwie więc dali pokój, obiecując sobie,
+że ją kiedyś zagarną.</p>
+<p>Ani więc Gedymin, ani nikt w jego ziemiach
+nie wyciągał strzał z kołczana przez całą zimę,
+chyba w lesie na zwierza.</p>
+<p>Z wiosną nowi goście zawitali od polskiej
+strony.</p>
+<p>Byli to możni panowie przybywający po książęcą córę. W orszaku tym było i kilka niewiast
+statecznych, mających stanowić otoczenie przyszłej królowej.</p>
+<p>Przewodniczącą im była Małgorzata z Zabierzowa, niewiasta wielkich cnót, a wdowa po
+dzielnym rycerzu.</p>
+<p>Gdy niewiasta ta po przybyciu na dwór Gedymina, ujrzała z za Aldony wychylającą się
+postać Bogny, krzyknęła, wyciągając ku niej
+dłonie. Bogna, spojrzawszy na przybyłą, również
+z krzykiem rzuciła się do jej kolan.</p>
+<p>Matka i córka odnalazły się w chwili połączenia królewskiej pary.</p>
+<p>Aldona, siedząca obok Gedymina, gdy ujrzała
+radość Bogny, uśmiechnęła się dobrotliwie.</p>
+<p>Wielki kneź snąc z tego przywitania matki
+i córki dobre rokował sobie wróżby, bo twarz
+mu się rozpogodziła wesołym uśmiechem i rzekł:</p>
+<p>— I więcej matek lackich odnajdzie dzieci
+swoje. Ja, Gedymin, Wielki Książę Wilna, wszej
+Litwy i części Rusi, wszystkich jeńców zabranych
+na wojnie w waszym kraju, wraz z córą moją,
+Aldoną, oddaję! — mówił, spoglądając na przybyłych lackich posłów.</p>
+<p>W odpowiedzi głowy przybyłych skłoniły się
+kornie, a Gerward, biskup Kujawski, z właściwą
+sobie godnością odrzekł w imieniu swego monarchy.</p>
+<p>— Król polski, Władysław, a pan nasz, wielce
+Gedyminowi, Wielkiemu księciu wszej Litwy i części Rusi, wdzięczen jest za ten dowód przyjaźni,
+a nie chcąc być dłużnym, również jeńców, zabranych na ziemiach litewskich, odsyła. Ciągną oni
+już ku granicom Wielkiego księstwa, a za niewiele dni ukażą się u stóp tronu potężnego Gedymina!</p>
+<p>Wieść ta obiegła lotem ptaka po całem państwie Gedyminowem, nietylko więc na dworze
+książęcym, lecz w całej Litwie radość wstrząsała
+sercem ludu, który niebawem począł się kupić
+około Wilna, wyczekując przybywających. Prócz
+tego lud cieszył się jeszcze, że z powodu zaślubin książęcej córy, będzie miał wspaniałą ucztę.</p>
+<p>Wojacy i młodzież obiecywali znów sobie, że
+książę, uspokoiwszy się z weselem i posłami
+lackimi, na Krzyżaków lub też dalej na wschód
+ich poprowadzi.</p>
+<p>Tylko Jaśko i Siewros nie dzielili ogólnej radości. Jaśko, mając czas wolny od służby przy
+kneziu, włóczył się około gontyny, a gdy go
+stamtąd śpiew smętny dochodził, przystawał, słuchał, a czasem i sam pieśń smętną zawodził.
+Siewros znów rad był tylko wtedy, gdy wezwany
+przed knezia, mógł choć zdaleka dojrzeć Bognę.</p>
+<p>Od czasu jednak, gdy się dowiedział, że Bogna w jednej z przybyłych po księżniczkę niewiastach znalazła matkę, i wraz z księżniczką
+do polskich ziem odjedzie i on do orszaku Aldony się wprosił.</p>
+<p>— I ty z nami pociągniesz, wszak tam ziemia
+twoja — mówił mu Siewros.</p>
+<p>Jaśko w odpowiedzi trząsnął tylko głową.</p>
+<p>I nic go skłonić nie mogło, aby się dał namówić.</p>
+<p>Gdy rachowano lackich ludzi, którzy mieli
+wracać do ziemi swojej i przed oblicze Gedyminowe ich przedstawiono, kneź rzekł do stojącego
+przy jego boku Jaśka.</p>
+<p>— I tyś Lach, pewnie do swoich chciałbyś?</p>
+<p>— Miłościwy książę, pozwólcie mi przy sobie
+pozostać! — rzekł Jaśko, schylając głowo.</p>
+<p>Gedymin pogładził brodę z zadowoleniem
+i rzekł:</p>
+<p>— Zostaniesz.</p>
+<p>A potem dodał jakby do siebie:</p>
+<p>— Oj, to <emph>Wilcze Gniazdo</emph> Krzyżackie miało
+siać niezgodę między lackim i naszym ludem,
+a wychowało dzielnych mołojców, co braterstwo
+przynaszają!</p>
+<p>— A twój towarzysz z Wilczego Gniazda —
+dodał Gedymin — idzie w orszaku naszej córy,
+ciągną go tam ciemne oczy Bogny, co swoim
+lackim napojem wszystkich oczarowała. Idź tam
+do nich, swojaków o baczysz.</p>
+<p>Jaśko, posłuszny rozkazowi, pociągnął w stronę, gdzie białogłowy mieszkały.</p>
+<p>Tam właśnie Małgorzata z Zabierzowa ugaszczała Siewrosa, jako przyszłego zięcia, gdy Jaśko
+wszedł nieśmiało i stanął nieopodal Bogny, twarz
+jego — wydelikatniona długą chorobą, jeszcze więcej uwydatniała podobieństwo z narzeczoną Siewrosa.</p>
+<p>Małgorzata, spojrzawszy na niego, wyciągnęła
+ku niemu dłonie, a nie wiedząc, co się z nią
+dzieje, wzywała na pomoc Jezusa ukrzyżowanego
+i świętych Pańskich, myśląc, że to chyba jakie
+czary ją oplątały.</p>
+<p>Po niejakiem jednak wyjaśnieniu i opowieści
+o Wilczem Gnieździe, pani z Zabierzowa poznała
+w Jaśku syna, przed dwunastu laty przez Krzyżaków uprowadzonego.</p>
+<p>I znowu więc radość i łzy, jak przy powitaniu z Bogną.</p>
+<p>Lecz i to Jaśka do powrotu skłonić nie mogło. Zresztą zostawał on przy księciu, nie łatwo
+więc było nim rozporządzać.</p>
+<p>Widząc niepodobieństwo uprowadzenia go z sobą, matka skłoniła głowę mówiąc:</p>
+<p>— Ha, Wielki książę daje nam córę, odsyła
+tylu jeńców, słuszna więc, żeby w Litwie został
+jeden, a z nami poszedł drugi wychowaniec Wilczego Gniazda.</p>
+<p>Gdy drogi obeschły, szlakiem ku ziemiom
+Polski ciągnęły tłumy za córą Gedyminową, a tak
+licznego ślubnego orszaku nikt nigdy nie widział;
+bo też żadna królowa nie przyniosła w wianie
+24,000 jeńców wracających z niewoli, ani serc
+przyjaznych całego ludu, do wspólnych dążąc
+celów.</p>
+</div>
+</body>
+</text>
+</TEI>

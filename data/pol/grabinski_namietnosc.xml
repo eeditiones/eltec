@@ -1,0 +1,1149 @@
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0028">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Namiętność : ELTeC edition</title>
+<author ref="http://viaf.org/viaf/8490048">Grabiński, Stefan (1887-1936)</author>
+</titleStmt>
+<extent>
+<measure unit="words">12103</measure>
+</extent>
+<publicationStmt>
+<p>Published as part of ELTeC <date>2019-06-09</date></p>
+</publicationStmt>
+<sourceDesc>
+<bibl type="digitalSource">
+<title>Namiętność</title>
+<ref>http://wolnelektury.pl/katalog/lektura/grabinski-namietnosc</ref>
+</bibl>
+<bibl type="printSource">
+<title>Namiętność</title>
+<author>Grabiński, Stefan</author>
+<publisher>Warszawa: Renaissance-Universum</publisher>
+<date>1930</date>
+</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc n="eltec-1">
+<p></p>
+</encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="pl">Polish</language>
+</langUsage>
+<textDesc>
+<authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+<size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+<reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
+</textDesc>
+</profileDesc>
+<revisionDesc>
+<change when="2020-04-07">JR convert to ELTeC-1</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div type="titlepage">
+<p>Stefan Grabiński</p>
+<p>Namiętność
+(<emph>L'appassionata</emph>)</p>
+<p>Opowieść wenecka</p>
+</div>
+</front>
+<body>
+<div>
+<p>Nad <emph>sestiere</emph> di Cannareggio, w samym sercu laguny,
+wisiała lekka, ledwo dostrzegalna mgła. W blaskach lipcowego słońca przecedzanych przez ten najsubtelniejszy
+z woali drzemały senne wody Canal Grande, a w nich,
+jak wyczarowane z bajki, nieprawdopodobnie piękne przeglądały się pałace, wille, domy i kościoły. I widziało się
+wszystko niby miraż złocisty, powołany do życia przez przepyszną fantazję, niby obraz senny utkany z marzeń artysty w chwilę dziwnej, twórczej szczodroty.</p>
+<p>Tylko fala przybrzeżna z cichym chlupotem roztrącająca stopnie schodów, tylko piosenka gondoliera, co przejechał mimo w żałobnej swej łodzi, budziły z zadumy
+olśnienia i kazały stwierdzać ten ponad wszystko radosny
+fakt, że jestem naprawdę w Wenecji…</p>
+<p>Tak to rozkochany w mieście dożów, pijany czarem
+architektury i smętkiem czarnych, tajemniczych wód, czekałem w ten cudowny poranek na <emph>vaporetto</emph> które miało
+mnie przewieźć na tamtą stronę Wielkiego Kanału. Poza
+mną był stary, połowy XVIII wieku sięgający kościół
+S. Marcuola z małym dziedzińcem przed bramą wchodową,
+po lewej, po drugiej stronie wąskiego <emph>rio</emph> może najwspanialszy po siedzibie dożów pałac Vendramin-Calergi, ten
+sam, w którym ostatnie swe tchnienie oddał wielki twórca
+<emph>Nibelungów</emph>. Właśnie gdy błądząc spojrzeniem po jego
+fasadzie odczytywałem dewizę: „<emph>Non nobis — Domine —
+Non nobis</emph>”, rozległ się przeciągły, trochę szorstko rozdzierający ciszę tej godziny gwizd parowczyka.</p>
+<p>Więc rzuciwszy raz jeszcze na koronkę pałacu, wstąpiłem na ruchomy pomost i za chwilę siedziałem już na rufie
+statku.</p>
+<p>— <emph>Avanti</emph>! — podał sternik hasło przez tubę w czeluście kotłowni i <emph>vaporetto</emph> wyzwolone z uwięzi zaczęło rozgarniać sztabą leniwe wody.</p>
+<p>Podróż moja nie miała trwać długo: wysiadałem na najbliższym przystanku, S. Staë. Statek minął były dom patrycjusza Teodora Correr i założone przezeń Museo Civico,
+minął stary śpichlerz Republiki, pałace Erizzo, Grimani
+della Vida i Fontana i dotarłszy do linii Palazzo Tron, zwrócił się dziobem w prawo ku brzegowi.</p>
+<p>— <emph>Ferma</emph>! — spadł rozkaz z wyżki w środku <emph>vaporetta</emph>.</p>
+<p>Przycichł warkot śruby, ustała oddenna praca kotła
+i parowczyk przyciągnięty łagodnie liną do burty pontonu
+zbratał się znów z przystanią w chwilowym uścisku.</p>
+<p>Przepchawszy się szczęśliwie przez zastęp pasażerów,
+stanąłem na bulwarze przybrzeża. Stąd do Galleria d'Arte
+Moderna w pałacu Pesaro, celu mojej wędrówki, było już
+niedaleko. Przeszedłem krótki, ponad rio di Mocenigo gibkim łukiem rozpięty <emph>ponticello</emph> i znalazłem się na Fondamenta Pesaro.</p>
+<p>Cicho tu było jakoś o tej porannej godzinie i plusk fali
+wdzierający się leniwo na omszałe stopnie tarasu rozbrzmiewał wyraźnie w podsieniach pałacu.</p>
+<p>Wszedłem na pierwsze piętro. U wejścia do galerii spotkały mnie osowiałe i niechętne spojrzenia funkcjonariuszy,
+którzy zdawali się mieć mi za złe, że im przerywam <emph>dolce
+far niente</emph> żądając biletu.</p>
+<p>Wpuszczono mnie do wnętrza. W salonach pustki: tu i tam
+błąkało się kilku <emph>stranieri</emph> z baedekerami w ręku, a jakaś
+koścista <emph>miss</emph> w cwikierze pożerała oczyma ponętny akt
+męski. Uwagę moją zaprzątnęła grupa <emph>Mieszczan z Calais</emph>
+Augusta Rodina. Gdy po pewnym czasie oderwałem wzrok
+od rzeźby i spojrzałem w głąb najbliższej sali, spostrzegłem
+przed jednym z obrazów młodą piękną damę. Profil jej,
+subtelny a zdecydowany, z orlikowatym nosem, odcinał się
+na tle silnie oświetlonej przez słońce ściany wyraźnie i mocno. Krucze, połyskami metalu grające włosy okalały twarz
+smagłą, pociągłą, z parą ciemnoorzechowych, ognistych
+oczu. Spojrzenie ich jedyne, niezapomniane łączyło w sposób przedziwny kobiecą słodycz ze stalowymi błyskami
+nieugiętej woli: w momentach gniewu oczy te musiały być
+straszne. Z tą doskonale piękną, patrycjuszowską głową
+harmonizowała wybornie wysmukła i giętka kibić, której
+linie przeglądały dyskretnie a kusząco przez czarną, pełną
+spokojnej elegancji i smaku tualetę. A na tle tej wyrafinowanie prostej i skromnej sukni wykwitał jak płomień szal
+pomarańczowy i zlewał się w barwną symfonię z dużą, herbacianą różą wpiętą we włosy.</p>
+<p>Cudna kobieta! — pomyślałem, przestępując próg sali.
+Odwróciła się i po raz pierwszy spotkały się nasze spojrzenia: jej — trochę roztargnione, potem badawcze, wreszcie
+zaintrygowane — moje — hołdownicze i podziwem brzemienne. Na ustach jej zaświtał zarys uśmiechu i zgaszony
+wolą rozwiał się powoli bez śladu; obojętne, aksamitne
+oczy przeniosły znów łaskę spojrzenia na obraz Fragiacoma<emph>Kutry rybackie podczas sztormu</emph>.</p>
+<p>I wtedy przyszedł mi w pomoc szczęśliwy przypadek.</p>
+<p>Już gdy mijałem ją ze ściśniętym sercem i uczuciem
+zawodu, książka, którą trzymała w ręku, wysunęła się
+z palców i upadła na posadzkę koło mnie. Błyskawicznym
+ruchem schyliłem się po nią i odczytałem tytuł: — <emph>El
+secreto del acueducto — por Ramón Gómez de la Serna</emph>.</p>
+<p>To Hiszpanka — pomyślałem i z ukłonem zwracając jej
+własność, zapytałem:</p>
+<p>— <emph>Dispense V. — Este libro pertence a V. No es verdad?</emph></p>
+<p>Spojrzała przyjemnie zdziwiona i odbierając książkę,
+odpowiedziała w tymże języku:</p>
+<p>— Pan mówi po hiszpańsku. Może jest pan moim rodakiem?</p>
+<p>— Nie, łaskawa pani — odparłem — jestem Polakiem,
+lecz nie jest mi obcym język szlachetnych synów Kastylii.</p>
+<p>Znajomość była zawarta. I potoczyła się między nami
+rozmowa żywa a malownicza, bo i ona lubiała styl trochę
+kwiecisty, w kunszt słowa bogaty, i ja urzeczony czarem
+jej postaci mimo woli dobierałem zwrotów barwnych, jak
+motyle skrzydlatych.</p>
+<p><emph>Donia</emph> Inez de Torre Orpega rodem z Estramadury była
+od kilku lat wdową. Większą część roku spędzała w Madrycie u starszej siostry zamężnej za jakimś dworskim dostojnikiem, a tylko na miesiące letnie przyjeżdżała w odwiedziny do krewnych w Wenecji. O Polsce i Polakach
+wiedziała niewiele i z zajęciem słuchała moich informacji.
+Gdy w pół godziny potem opuściliśmy galerię obrazów i znaleźliśmy się na bulwarze Fondamenta Pesaro, byliśmy
+już dobrymi znajomymi.</p>
+<p>— Dokąd się pan teraz wybiera? — zagadnęła. — Pora
+jeszcze za wczesna na obiad, lecz stosowna na drugie śniadanie. Czy nie zechciałby go pan spożyć w moim towarzystwie gdzieś w jakiejś restauracji z widokiem na Ponte
+Rialto? Lubię bardzo obserwować go w godzinach porannych.</p>
+<p>Byłem zachwycony.</p>
+<p>— Najlepiej będzie — zaproponowałem — jeżeli wstąpimy do Corvo Nero opodal przystanka<emph>vaporettów</emph>.</p>
+<p>— Wybornie. Proszę zatem podać mi rękę i sprowadzić
+do gondoli.</p>
+<p>Spojrzałem trochę zdziwiony:</p>
+<p>— Na razie nie widzę żadnej. Musimy trochę zaczekać,
+aż któraś podpłynie.</p>
+<p>Odpowiedziała srebrzystym śmiechem:</p>
+<p>— Mój Beppo nie każe nam długo czekać. Oto już poznał mnie z dala po głosie i zbliża się ku nam na swej
+„Rondinelli”.</p>
+<p>I rzeczywiście, spoza węgła bulwaru wychylił się dziób
+„Jaskółeczki”, która przywarłszy czarnym podbrzuszem do
+wód kanaliku między pałacem Pesaro a Corner della Regina, przyczaiła się tam na chwilę i tylko czekała na
+hasło.</p>
+<p>— Beppo Gualcioni, mój nadworny <emph>gondoliere</emph> — przedstawiła mi z miną pół serio, pół <emph>buffo</emph> swego przewoźnika —
+stary, długoletni sługa domu Ramorinów, mych krewnych.</p>
+<p>I wsiedliśmy do łodzi.</p>
+<p>Gondola <emph>donii</emph> Inez była istnym cackiem. Smukła, zgrabna i zwrotna jak fryga, z ślicznie rzeźbionym dzióbem
+w kształcie szyi łabędziej, kołysała się na fali jak kolebka
+królewskiego panięcia. Oparci plecyma o poduszki siedzeń
+z ciemnozielonego pluszu, pod osłoną niskiego, w złote
+frędzle strojonego baldachimu, który tutaj <emph>felze</emph> zowią,
+płynęliśmy jakby w nieskończoność, zasłuchani w rytmikę
+wiosła.</p>
+<p>Rozwiały się doszczętnie woale mgły i pod turkusowym
+kloszem nieba rozwinęła się bajecznie kolorowa perspektywa Canal Grande. Jej dominantą były trzy barwy:
+czarna, dżetowa wody, biała domów i pomarańczowa żaluzji i pozapuszczanych stor. Zmieszane ze sobą te trzy
+kolory, stopione powinowactwem szczęśliwego doboru —
+były jak dźwięk jedyny i konieczny, jak wyraz tajemny
+ukrytej gdzieś głęboko duszy tego miasta. I wszystko było
+przesiąknięte tym naczelnym, suwerennym tonem, wszystko rozdrganą w bezlik dreszczy jedną struną — złotym monokordem, któremu na imię — Wenecja.</p>
+<p>Jak przez sen przesuwały się mimo naszej łodzi arcytwory weneckiej architektury, te koronkowe pałace i domy, z których niemal każdy chlubił się dziełami dłuta
+i pędzla wielkich artystów. Lipcowe słońce wyzłacało miedzią i cynobrem dumne, arystokratyczne frontony i przyczółki, rozświecało mrokiem wieków nasiąkłe podziemia
+i kolumnady, spływało palącą pieszczotą na zielone oazy
+ogrodowych teras i winoroślą otulonych loggii.</p>
+<p>Przepłynęliśmy mimo pałacu Ca d'Oro, najozdobniejszego gotyku dawnej Republiki, minęliśmy Segredo, Michiel dalle Colonne i Morosini i znaleźliśmy się na linii
+Rybiego Targu. Odór wodnej żywizny, płynący z głębi
+hali targowej, ogarnął nas duszącym wyziewem. <emph>Peschiera</emph>
+w pełnym toku porannego ruchu tętniła gwarem i zgiełkiem.</p>
+<p><emph>Donia</emph> Inez przytknęła do nosa chusteczkę i patrząc na mnie z uśmiechem, wdychiwała zapach perfumy. Gondola
+była już na wysokości Przystani Jarzynowej. Znużone orgią
+światła oczy spoczęły z ulgą na zieleni główek kapusty,
+kalafiorów, selerów, pietruszek i marchwianej naci.</p>
+<p>— Jaki kontrast między tym prozaicznym, choć tak
+ożywczym widokiem a wyrafinowanym pięknem pałaców —
+zauważyła <emph>donia</emph> de Orpega.</p>
+<p>— Rzeczywiście — przyznałem — i mnie to zawsze uderza, ilekroć mijam Erberia. Trudno, nie może być inaczej;
+nie można żyć samą kontemplacją dzieł sztuki. Powiedziałbym nawet, że to pomieszanie prozy życia codziennego
+z poezją sztuki i przeszłości stanowi największy urok tego
+dziwnego miasta.</p>
+<p>Skłoniła głowę na znak zgody. W bliskiej już perspektywie rozpiął się szary, patyną wieków okryty most Ponte
+Rialto. Kilku zręcznymi uderzeniami wiosła skierował Beppo łódkę ku przeciwnemu brzegowi i przesunąwszy się lewą
+burtą mimo Fondaco dei Tedeschi, podpłynął pod łuk mostu. Za chwilę wyskakiwałem już z gondoli na oblepione
+wodną pleśnią schody nabrzeża i podawałem rękę Inezie.</p>
+<p>Była godzina 11 rano. Przeszliśmy stację <emph>vaporettów</emph>
+Cerva i wciąż trzymając się brzegu kanału, wstąpiliśmy na
+Riva del Carbon. Ruch był ogromny; nadjeżdżające co kilkanaście minut parowczyki wyrzucały wciąż nowe zastępy
+pasażerów. Schroniliśmy się w zaciszny zakątek Corvo Nero,
+małej ustronnej <emph>gelateria</emph> z widokiem na Rialto. Tu pod
+skrzydłem płóciennej markizy wydała mi się <emph>donia</emph> Inez
+jeszcze piękniejszą; głębokie cienie pod oczyma podkreślały
+ich słodycz i żar. Patrzyłem na nią bez przerwy. A ona,
+widząc mój zachwyt, uśmiechała się tylko kącikami ust
+i cedziła przez perły ząbków oranżadę. Spojrzenie jej senne, lekko rozmarzone błądziło bez celu po tamtym brzegu
+kanału, potem przerzuciło się na grupę gondol rozkołysaną
+w przystani i zatrzymało się na łuku Rialto.</p>
+<p>— Czy nie przypomina panu trochę florenckiego Ponte
+Vecchio? — zapytała.</p>
+<p>— Tamten jest trójdzielny — odpowiedziałem.</p>
+<p>— Chodzi mi o partie górne.</p>
+<p>— A tak, oczywiście — przyznałem — oba są zabudowane, zwłaszcza ten we Florencji.</p>
+<p>— Te sklepy i bazary, te budy jarmarczne rozbite nad
+wodą mają w sobie coś tak oryginalnego…</p>
+<p>— Przemawiają do przechodnia wieku XX z lapidarną
+swadą przeszłości. Może chce pani przejść się tamtędy?</p>
+<p>— Właśnie chciałam to panu zaproponować; lubię czasem taką przechadzkę pomiędzy pierzejami rozkrzyczanych
+sklepów.</p>
+<p>Opuściliśmy nasz cienisty przytułek i niebawem znaleźliśmy się na łuku mostu. Otoczyła nas atmosfera hali
+targowej. Wąską uliczkę między dwoma rzędami bazarów
+wypełniał skłębiony malowniczo tłum. Przeważały kobiety:
+smukłe, rasowe mieszczanki w charakterystycznych, czarnych szalach z frędzlami. Ich zgrabne, często w ogniste
+wstążki przystrojone główki pochylały się z zainteresowaniem nad próbkami towarów rozłożonymi na ławkach i ladach, a śliczne o wytwornym rysunku ręce z lubością gładziły postawy jedwabiu, satyny i perkalu; kapryśne, wybredne, brakujące ręce.</p>
+<p>Chaosowi barw wtórzył chaos woni: wśród ich zgiełku
+wybijał się na powierzchnię zapach tanich perfum, szorstki
+odór juchtu i wnętliwa symfonia zamorskich korzeni.</p>
+<p>Szczególniejszymi względami cieszył się bazar z lalkami
+i sąsiadujący z nim sklep z przyborami tualetowymi; zwłaszcza ten ostatni był stale oblężony przez płeć piękną. Właściciel jego, barczysty, średnich lat mężczyzna, z parą melancholijnie opuszczonych ku dołowi wąsów, przynęcał weneckie strojnisie, przesuwając między opierścienionymi
+palcami sznury fałszywych pereł, korali i bursztynu lub
+przesiewając z dłoni w dłoń migotliwe przygarście kolczyków, broszek i manel.</p>
+<p>— <emph>Signor</emph> Giuliano robi jak zwykle świetne interesa —
+zauważyła, mijając bazar, <emph>donia</emph> Inez. — Umie zachwalać
+swój towar.</p>
+<p>— Sama tandeta i surogaty — odpowiedziałem.</p>
+<p>— Niekoniecznie — zaoponowała — można tu czasem
+wyłowić i prawdziwą perłę: trzeba tylko znać się na rzeczy
+i odróżnić ziarno od plewy. Buda Giuliana — to też rodzaj
+<emph>bric à brac</emph> starożytności. Powrócimy tutaj jeszcze kiedyś
+w porze poobiedniej, gdy na Rialto trochę przestronniej.
+A teraz proszę mnie odprowadzić do gondoli; muszę wracać
+do siebie.</p>
+<p>Przesyceni gwarem i krzykiem zeszliśmy do łodzi. Beppo, pokrzepiony kilku szklanicami piwa i porcją makaronu
+w przybrzeżnej <emph>trattoria</emph>, odwiązywał raźno gondolę od
+palika na bulwarze. Gdy zdjąłem kapelusz i utkwiłem
+w <emph>donię</emph> Orpega oczy pełne niemej prośby o najbliższe spotkanie, pociągnęła mnie za sobą w głąb gondoli.</p>
+<p>— Podwiezie mnie pan pod moje mieszkanie.</p>
+<p>— Jaka pani dobra — szepnąłem, przyciskając ku ustom
+jej rękę.</p>
+<p>Gondola pruła już dzióbem wody kanału. Płynęliśmy
+z powrotem w kierunku Cannareggio. Po drodze Inez wyznaczyła mi schadzkę tegoż dnia po południu.</p>
+<p>— Pan tu jest nowicjuszem — mówiła, przechylając na
+ramię swą cudną główkę — chcę być pańskim <emph>cicerone</emph>,
+chcę pokazać panu wszystkie osobliwości tego miasta. Sama
+ułożę porządek naszych wędrówek. Zgadza się pan?</p>
+<p>— Z najgłębszą wdzięcznością. Od czego zaczniemy?</p>
+<p>Uśmiechnęła się.</p>
+<p>— To tajemnica. Dowie się pan po południu. Chcę panu
+zrobić niespodziankę. Proszę zatem oczekiwać mnie o czwartej na Ca d'Oro. Do widzenia!</p>
+<p>Gondola przybiła do brzegu; łabędzia jej szyja położyła
+się na omszałych stopniach schodów, co wiodły pomiędzy
+kolumny jednego z tych cudnych pałaców, które odbija
+tak wiernie ciemna fala Canal Grande. Tutaj Inez wysiadła. Podał jej rękę czekający już lokaj, bo schody od
+pleśni zielone śliskie były i niepewne.</p>
+<p>— Beppo, odwieziesz pana do S. Marcuola — poleciła
+na pożegnanie i posławszy mi czarujący uśmiech, zniknęła
+za kotarą w głębi krużganka.</p>
+<p>Nie mogłem doczekać się utęsknionej godziny. Stan
+podniecenia, w który mnie wprawiła radosna przygoda, był
+tak silny, że zapomniałem o obiedzie i nie wróciłem do
+swego mieszkania obok dworca kolejowego, lecz wałęsałem
+się nad kanałem w okolicy Złotego Domu; nie mogłem
+dopuścić do tego, by jakakolwiek banalna czynność przerwała mi rozkoszną ciągłość marzenia o <emph>niej</emph>; nie chciałem
+pozwolić na to w żaden sposób, by pomiędzy pierwsze
+a drugie spotkanie z ukochaną wcisnęło się jakiekolwiek
+prozaiczne zdarzenie. Dlatego wolałem krążyć w pobliżu
+miejsca wyznaczonego przez nią na schadzkę. Gdy po paru
+godzinach uczułem dotkliwy głód i zmęczenie, odszedłem
+na chwilę od przystani Ca d'Oro ciemną, ciasną <emph>vicoletto</emph>
+i dopadłszy jakiejś podrzędnej kawiarenki na rogu ulicy
+Vittorio Emanuele, wychyliłem duszkiem szklankę kawy.
+W parę minut potem stałem znów na bulwarze i zapuszczałem niecierpliwe spojrzenie w stronę, skąd miała nadpłynąć gondolą Ineza.</p>
+<p>W końcu nadpłynęła. Słodka, smagława, oszałamiająca.
+Gdy chciałem jej pomóc przy wysiadaniu, potrząsnęła przecząco głową:</p>
+<p>— Pojedziemy dalej gondolą. Proszę usiąść tu przy mnie.</p>
+<p>I wskazała mi miejsce w łodzi.</p>
+<p>— Beppo, <emph>cava il felze</emph>! — rozkazała gondolierowi.</p>
+<p>I podczas gdy sługa spełniając polecenie zwijał ponad
+naszymi głowami jedwabny baldachim, ona opierając się
+o moje ramię i zaglądając mi filuternie w oczy, zapytała:</p>
+<p>— Czy też pan choć raz pomyślał o mnie od chwili naszego pierwszego rozstania?</p>
+<p>— <emph>Seniora</emph> — odparłem, tonąc oczyma w jej oczach —
+jestem panią oczarowany.</p>
+<p>— Tak trzeba, tak być powinno. <emph>Avanti</emph>, Beppo!</p>
+<p>— Dokąd płyniemy? — rzuciłem odruchowo pytanie.</p>
+<p>— W stronę Fondamente Nuove systemem kanałów poprzecznych. Lubię przesuwać się na gondoli po tych cichych
+ścieżkach wodnych, wijących się pomiędzy starymi, przesiąkniętymi ich wilgocią domami.</p>
+<p>Odbiliśmy od przystani. Kierowana wprawnym wiosłem
+gondoleria łódź trzymała się blisko brzegu, by wkrótce, po
+dokonaniu zręcznego półobrotu w prawo, porzucić Canal
+Grande i wcisnąć się we wąską szyję Rio di S. Felice.</p>
+<p>— <emph>A — oel!</emph> — rozległo się ostrzegawcze wołanie wioślarza. — <emph>A — oel! Sia stali!</emph></p>
+<p>Gondola prześmignęła popod łękiem mostku łączącego
+ulicę Wiktora Emanuela z placem św. Feliksa i skręciła
+znów na prawo w Rio di S. Sofia. Zasłuchani w plusk wiosła, rozkoszowaliśmy się w milczeniu żeglugą.</p>
+<p>A miała ta przejażdżka pomiędzy kamienicami szczególny urok. Mimo całej życiowej prozy wyzierającej z tych
+kilkupiętrowych starych, obdrapanych domostw z suszącą
+się tu i tam na żerdziach i sznurach bielizną było coś tajemniczego w ich atmosferze. Coś taiło się w tych mrocznych, skąpo rozświetlonych językami gazu podsieniach, coś
+drzemało w ciemnych, gdzieniegdzie przeglądających przez
+wykroje bram podwórzach, czaiło się w brudnych, zatęchłych od lat basenach. Czasem wychyliła się z okna jakaś
+ludzka głowa, wyjrzała para oczu namiętnych, południowych i znikała jakby spłoszona widokiem obcych; czasem
+z głębi zagadkowych wnętrz wypłynęła cudna, tęsknotą
+wezbrana piosenka, zawibrowała między ścianami domów
+rozełkanym <emph>arpeggio</emph> i milkła zawstydzona niewczesną
+swą urodą.</p>
+<p>W czarnej, gęstej, nieruchawej wodzie łączyły się w
+drżącym uścisku pokraczne odbicia kamienic, snuły się,
+tęczując pod światło, jakieś brudno-tłuste ściegi i popławy.
+Miejscami wysuwały się z masywów domostw i budynków
+nadpowietrzne, kryte galerie, „mosty westchnień” szarej,
+smutnej codzienności, i jak dłonie podane nad przepaścią
+sprzęgały ze sobą brzegi kanałów; gdzie indziej łuk kamiennego sklepienia rozpięty spodem nad powierzchnią
+wody przerzucał się giętkim grzbietem z zaułka w zaułek.</p>
+<p>Ciszę uliczek przerywały od czasu do czasu okrzyki
+gondolierów.</p>
+<p>— <emph>Sia premi</emph>! — <emph>Sia stali</emph>! — <emph>Sia di lungo</emph>! — wołali,
+wymijając się na zakrętach.</p>
+<p>Na Rio di S. Andrea musieliśmy się zatrzymać trochę
+dłużej, bo z łódek stłoczonych na wąskim pasie wody powstał zator; zwłaszcza brzuchata, węglem naładowana barża towarowa nie mogła wywikłać się z duśby; wreszcie
+otarłszy się bokiem o bulwar, wydostała się z matni i otworzyła przejście. Wpłynęliśmy na Kanał św. Katarzyny.</p>
+<p>— Na lewo, Beppo! Pod arkadę <emph>ponticello</emph>! — poleciła
+<emph>donia</emph>.</p>
+<p>Gondola podpłynęła do schodków debarkaderu. Wysiedliśmy. Pani zwróciła się do przewoźnika:</p>
+<p>— Oczekuj nas za 10 minut w przystani Fondamente
+Nuove.</p>
+<p>— <emph>Sta bene, signora, sta bene</emph>.</p>
+<p>I podczas gdy Inez wsparta o moje ramię wychodziła
+po stopniach na brzeg, stary gondolier ruszył w dalszą drogę kanałem, by potem wykręcić na północ i przez Stacca
+della Misericordia wydostać się na pełniejsze wody Nowych
+Nadbrzeży. My tymczasem przeszliśmy mimo kościoła św.
+Katarzyny i Jezuitów i zagłębiliśmy się w labirynt zaułków
+weneckiej suburry.</p>
+<p>Popołudniowe słońce skłaniające się powoli ku zachodowi zalewało płynnym złotem kwadratowe płyty bruku
+i świeciło nam prosto w oczy.</p>
+<p>— Jak tu wesoło, jak słonecznie! — zawołała Inez, której
+wyniosła, elegancka postać rzucała poza siebie cień mocny
+i długi.</p>
+<p>— Szczególnie po wyjściu z mrocznych czeluści kanałów — uzupełniłem jej uwagę.</p>
+<p>I jak mogłem, zacząłem opędzać się drobnymi datkami
+przed gromadką brudnych, obdartych dzieci, które towarzyszyły nam z uporem już od pewnego czasu.</p>
+<p>— <emph>Un baiocco, bella signora, un baiocco ai poveri
+bambini</emph>! — skamlała w imieniu innych chuda piegowata
+dziewczyna.</p>
+<p><emph>Donia</emph> Orpega wyjęła z torebki kilkanaście sztuk półlirowych, zawinęła w papier i śmiejąc się, podrzuciła w górę. Z brzękiem rozsypały się pieniądze po flizach uliczki.</p>
+<p>— Teraz uciekajmy, dopóki zajęte zbieraniem.</p>
+<p>Skwapliwie zboczyliśmy w sąsiedni zaułek. O parę kroków przed nami zalśniła brylantowymi blaskami laguna.</p>
+<p>— Jesteśmy na miejscu. To Fondamente Nuove w pełnej
+chwale lipcowego popołudnia.</p>
+<p>Wyciągnięta w dal linia bulwaru roiła się od ludzi. Przy
+stolikach porozstawianych przed winiarniami i cukierniami
+popijano słodko-cierpką marsalę, turmalinowe<emph>chianti</emph>, purpurową granatinę lub krzepkie <emph>nostrano</emph> z pobliskich winnic rodem. Gondolierzy w pomarańczowych koszulach i szerokich, czarnych kapeluszach nagabywali przechodniów,
+proponując przejażdżkę na Lido, Wyspy św. Michała, Murano, Burano lub uroczą <emph>isola</emph> di S. Francesco del Deserto.
+Beppo uśmiechnięty i zadowolony, że nas wyprzedził, już
+czekał w malowniczej pozie, wsparty o wiosło na wyżce
+swej „Rondinelli”. Skierowałem na Inezę pytające spojrzenie. A ona schodząc do łodzi, zgrabna i wytworna, w obcisłej, satynowej sukni koloru <emph>bleu foncé</emph>, określiła cel jazdy
+w dwóch słowach:</p>
+<p>— San Michele!</p>
+<p>— Na Wyspę Cmentarną? — zapytałem, zajmując obok
+niej miejsce w gondoli. — Dlaczego właśnie tam?</p>
+<p>Podniosła na mnie zdziwione oczy:</p>
+<p>— Był pan tam już może?</p>
+<p>— Nie, nie byłem — odpowiedziałem, patrząc na nią
+zamyślony — lecz widzi pani, nie lubię cmentarnych zaciszy.</p>
+<p>— A jednak warto obejrzeć; w klasztorze obok jest podobno kilku mnichów Polaków. Cóż, sprzeciwia się pan
+stanowczo?</p>
+<p>— Cóż znowu? — zaprzeczyłem. — Jak można sprzeciwiać się pani? <emph>Avanti, signor gondoliere, avanti</emph>! Trochę mi
+tylko nieprzyjemnie, że zaczynamy nasze wycieczki od tego
+miejsca.</p>
+<p>— <emph>Por Dios</emph>! — rzekła, zasłaniając siebie i mnie parasolką przed natarczywymi promieniami słońca. — Nie lubię przesądnych mężczyzn. <emph>Adelante, Beppo</emph>! <emph>Sia di lungo</emph>!</p>
+<p>Gondola odbijała od brzegu. Rozcięte pałaszem wiosła
+fale zalśniły miriadami blasków i rozbiegły się wokół łodzi karbami fałdów w kręgach koncentrycznych.</p>
+<p>— Ta woda czysta, odświeżana ustawicznie dopływem
+z pełnego morza, sprawia orzeźwiające wrażenie — przerwałem uwagą milczenie.</p>
+<p>— Ani porównania z ospałą, gęstą i cuchnącą wodą kanałów.</p>
+<p>— Ale za to tamta ma w sobie coś tajemniczego; jeżeli
+można mówić o duszy weneckiej laguny, to kryje się ona
+w tej czarnej, drzemiącej, przesyconej wyziewami miasta
+topieli.</p>
+<p>— Patrz pan! — przerwała mi, wskazując na prawo. —
+Co za obraz! Jedyny motyw dla malarza!</p>
+<p>Obok przepływała obciążona do pół burty krypa pod
+trójkątnym żaglem latyńskim; wiozła do Wenecji na targ jarzyny z ogrodów wyspy Le Vignole i owoce z sadów jej
+sąsiadki, zielonej Torcello. Cytrynowożółte płótno żagla
+z wizerunkiem św. Marka, patrona, wydymało się łagodnie
+w podmuchach zachodniego wiatru nad kopczykami czerwonoceglastych pomidorów, piramidami marchwi, buraków,
+rzepy i stożkami winogron, brzoskwiń, renglotów i oliwek.</p>
+<p>— Barwy dobrane jak na palecie Claude Moneta.</p>
+<p>— Lub naszego Wyczółkowskiego.</p>
+<p>W perspektywie wyłonił się biały kontur cmentarnego
+muru.</p>
+<p>— Tu gdzieś w pobliżu — objaśniła mnie <emph>donia</emph> Inez —
+uchodzi naczółek mostu pontowego, który dla wygody ludności każe rozpinać w Dnie Zaduszne zarząd miasta między
+Wenecją a Wyspą św. Michała.</p>
+<p>Gondola przesunęła się popod murem obmywanym przez
+chlupoczącą łagodnie falę i zawinęła do przystani naprzeciw
+klasztornego portalu. Wysiedliśmy i przekroczywszy bramę
+opactwa oo. Franciszkanów, weszliśmy w krużganek. W głębi, pomiędzy filarami, przechadzało się kilku mnichów.
+Postacie ich ujęte w szorstkie linie habitów odrzynały się
+wyraziście ciemnymi plamami od rozsłonecznionego tła
+z murów, kolumn i posadzki. Wychylone z szerokich rękawów zakonnej sukni ręce przebierały paciorki różańca lub
+zanurzone palcami w miąższ brewiarzy przewracały szeleszczące cicho ich kartki. Z wnętrza bazyliki po lewej stronie
+krużganka szła woń kadzidła i płonących świec — z głębi
+przedsionka, z prześlicznej Capella Emiliana płynęły słodkie tony harmonium: ktoś grał <emph>Ave Maria</emph>Gounoda.</p>
+<p>Przeszliśmy zamknięty kolumnadą podwórzec i przez
+drugą, wewnętrzną bramę dostaliśmy się na cmentarz. Była
+godzina szósta po południu. Zalane potokami zachodu zacisze pławiło się w złocie i bieli: w złocie słońca i bieli marmurów. Przymknąłem na chwilę olśnione oczy. Szliśmy
+wzdłuż cmentarnego muru inkrustowanego płytami napisów, grobowcowych wnęk i nisz. Pod stopami dudniały nam
+głucho podziemne komnaty, z boku raziły oślepiająco białe
+refleksy słonecznych rzutów.</p>
+<p>— Jak tu mało zieleni! — rzekłem tonem skargi. — Co
+za rozpaczliwa posucha bieli! Doprawdy, <emph>seniora</emph>, ta despotyczna, wszystko sobą przygłuszająca biel jest straszliwa.
+Zadaje mi niemal fizyczny ból.</p>
+<p>Popatrzyła, lekko podnosząc brwi.</p>
+<p>— Przemawia z pana syn Północy. Wasze cmentarze muszą mieć wygląd zupełnie odmienny?</p>
+<p>— O tak. U nas w miejscach wiecznego spoczynku pełno
+drzew i krzewów; bujna, soczysta zieleń przegradza domy
+zmarłych, przykrywa festonami bluszczu, spławami brzóz
+i kalin martwą biel nagrobków i mauzoleów. Na polskich
+cmentarzach przyroda otula w macierzyńskie ramiona przybytki śmierci — gdy tu, w tej błogosławionej, wiecznie
+roześmianej słońcem krainie, nawet w ustroniach zmarłych
+sztuka święci bezwzględnie swój zimny, marmurowy
+tryumf: smutny tryumf pobielanych grobów. Ach, jakże
+mi brak tu zieleni!</p>
+<p>Zatrzymałem się przy jednym z grobowców, który nagle
+skupił na sobie moją uwagę. Rzucała się w oczy od razu
+oryginalna kompozycja.</p>
+<p>Na tarasie przed domem stała naturalnej wielkości postać kobiety o miłej, przepojonej niewieścią słodyczą powierzchowności; lewą ręką zbierała fałdy sukni, w prawej
+podniesionej do góry gestem pełnym wdzięku niosła doniczkę z kwiatami.</p>
+<p>„<emph>A Luisa Riccardi, moglie adorata — il marito</emph>” — czytałem napis u dołu.</p>
+<p>— Jest to mogiła jednej z patrycjuszek weneckich —
+wyjaśniła mi Inez. — Umarła nagle śmiercią gwałtowną.
+Zrozpaczony mąż kazał utrwalić postać ukochanej w chwili, gdy wychodzi z domu na przechadzkę po ogrodzie: taką
+ją widział podobno po raz ostatni — taką oglądały jego
+oczy na kilka godzin przed śmiercią. Moment ten uwiecznił
+rzeźbiarz w marmurze.</p>
+<p>— Jakie to piękne, <emph>seniora</emph> — rzekłem w zamyśleniu.</p>
+<p>— I może właśnie dlatego sąsiaduje z pięknem innego
+pokroju — odpowiedziała, posuwając się ku najbliższemu
+grobowcowi. — A co pan powie o tej mogile?</p>
+<p>Na płycie z alabastru odcinały się <emph>en relief</emph> dwa torsy:
+młodego mężczyzny i czarująco pięknej kobiety. On utkwił
+w niej rozkochane oczy i wyciągnął usta spragnione ku
+czarze, którą mu podawała z uśmiechem. Mimo woli rodziło się podejrzenie, czy puchar nie zawiera trucizny. Bo
+w uśmiechu kobiety czaił się odcień fałszu i okrucieństwa.
+Lecz tego zaślepiony mężczyzna zdawał się nie dostrzegać — jak nie dostrzegał na pewno żądła wąskiej weneckiej dagi, którą ściskała w drugiej, w tył podanej ręce…</p>
+<p>Rzuciłem okiem na wstążkę napisu.</p>
+<p>„<emph>Al suo adorato sposo, Don Antonio de Orpega, spento
+nel supremo piacere — la moglie</emph>” — zwierzał światu swą
+tajemnicę w zwięzłych, lapidarnych słowach szczególny
+grobowiec.</p>
+<p>Patrzyłem na Inezę wstrząśnięty do głębi.</p>
+<p>— Więc tu spoczywa…</p>
+<p>— Mój mąż — dokończyła z dziwnym, nie znanym mi
+dotychczas uśmiechem.</p>
+<p>I wtedy dopiero, po tym uśmiechu poznałem, że kobietą
+na płycie grobowej była ona.</p>
+<p>— Usiądźmy tam na ławce w alei cyprysów — zaproponowała.</p>
+<p>Usłuchałem pełen sprzecznych uczuć. Usiedliśmy w cyprysowej niszy. Na chwilę zapadło między nami milczenie.
+Długie cienie nagrobnych strażników kładły się nam pod
+stopy ostrymi zrysami wierzchołków i czerniły na złotym
+żwirze ścieżki hieroglifami śmierci. Skądś, z wnętrza cmentarza, dochodził łoskot kamieniarskiego młotka trudzącego się przy nowym nagrobku, dolatywał odzew nieszpornych
+organów…</p>
+<p>— Mój mąż skończył samobójstwem — usłyszałem nagle jej głos altowy — w piątym roku naszego pożycia.</p>
+<p>— To pani pchnęła go w objęcia śmierci, <emph>seniora</emph> — odpowiedziałem niemal surowo.</p>
+<p>— Skądże ten prokuratorski ton? — zapytała, lekko
+uderzając mnie końcem swej płomienistej <emph>umbrella</emph>. — Niech
+się pan nie zapomina. Zresztą on umierał w ekstazie najwyższego szczęścia, umierał dla mnie i przeze mnie. Czyż
+nie pięknie?</p>
+<p>Potwór czy obłąkana? — pomyślałem, lecz spojrzawszy
+na nią, zapomniałem zupełnie o kategoriach etycznych
+i chłonąłem tylko diaboliczną jej piękność. A ona tymczasem opowiadała głosem równym i spokojnym, jak gdyby
+chodziło o kogoś znanego jej tylko ze słyszenia:</p>
+<p>— Przyszło do tego niespodziewanie. Tak niespodzianie, tak znienacka, jak bywa nieraz ze szczęściem lub
+śmiercią. I właśnie w tym widzę najpiękniejszy motyw tej
+historii. Bo chyba przyzna pan, że zasługuję na to, by życie moje obfitowało w momenty wyjątkowe.</p>
+<p>I popatrzyła na mnie wyzywająco. Była za piękna, by
+nie przyznać jej racji. Więc spuściłem milcząco głowę i słuchałem dalej.</p>
+<p>— W jedną z tych nocy księżycowych, rozełkanych mandolinami nocy weneckich, rzekł don Antonio de Orpega,
+tuląc roznamiętnioną twarz pomiędzy wzgórza mych
+piersi:</p>
+<p>— Dałaś mi najwyższe szczęście tej nocy, Inezo; nie
+wiem, czy zdołam je przeżyć do brzasku rana.</p>
+<p>— Cha, cha, cha! — zaśmiałam się lekkomyślnie, pieszcząc ręką jego męską urodę. — Jesteś patetyczny, mój
+piękny małżonku!</p>
+<p>— Nie wierzysz, Inezo?</p>
+<p>— Nie wierzę, Antonio. Zbyt mnie pożądasz, by tak
+łatwo przyszło ci teraz rozstawać się z życiem.</p>
+<p>— Nie wierzysz? — zapytał powtórnie z odcieniem obłąkania w swych ślicznych, niezapomnianych oczach.</p>
+<p>— Chodź do mnie, Antonio; wszak jesteśmy tylko ludźmi, tylko parą spragnionych siebie kochanków.</p>
+<p>— Więc ja ci udowodnię.</p>
+<p>I wyszedł z sypialni. Po chwili strzał z rewolweru zakończył poemat jego życia. Pięknym człowiekiem był <emph>don</emph>
+Antonio de Orpega, mój mąż — nieprawdaż, kochany przyjacielu?</p>
+<p>— On panią kochał, jak mało który mężczyzna na Ziemi
+kocha kobietę — odparłem cicho.</p>
+<p>— Tak. To było <emph>l'amore altissimo — l'amore supremo</emph>.
+I dlatego bał się, by dnia pewnego nie stanąć nad jego grobem; usunął się w porę w cienie zaświatów, bo nie chciał
+przeżyć swego wielkiego uczucia. To był geniusz miłości.</p>
+<p>— Podziwiam was oboje: namiętność jego i twój obiektywizm, pani.</p>
+<p>— Uczucia moje — rzekła wyniośle — są moją wyłączną
+własnością; wobec osób trzecich uważam za stosowne mówić o tym zdarzeniu jako o dziele sztuki jedynym, wyjątkowym. Zechciej i pan, kochany przyjacielu, patrzeć na nie
+i oceniać je tylko z tego punktu widzenia.</p>
+<p>— Zastosuję się do woli pani, <emph>seniora</emph> — zresztą pozwoli
+pani zwrócić sobie uwagę na to, że nie prosiłem o zwierzenia.</p>
+<p>I powstałem z ławki. Milcząc wyciągnęła ku mnie rękę
+na znak zgody. Przycisnąłem ją do ust i rzekłem:</p>
+<p>— Późno już i strażnik wzywa do opuszczenia cmentarza.</p>
+<p>I rzeczywiście, zbliżający się z głębi alei jakiś mężczyzna dawał nam z daleka znaki.</p>
+<p>— Tak, czas wracać — przyznała zamyślona. — Cmentarz zamykają tu wcześnie.</p>
+<p>Wkrótce znów żeglowaliśmy gondolą po lagunie.</p>
+<p>— Dokąd płyniemy? — zapytałem, ślizgając się spojrzeniem po rozlewisku wód.</p>
+<p>— Na Riva degli Schiavoni. Chcę posłuchać z panem
+koncertu orkiestry w „Café Orientale” i śledzić ruch wieczorny przy Molo św. Marka.</p>
+<p>— Najpiękniejsza partia miasta — odpowiedziałem, nagle poważniejąc.</p>
+<p>Trąciła mnie wachlarzem w ramię.</p>
+<p>— Skądże to nagłe zamyślenie?</p>
+<p>— Cel naszej jazdy wywołał we mnie smutne skojarzenia; jakie, powiem na miejscu.</p>
+<p>— Więc dobrze; tymczasem porzuć pan te niewesołe
+medytacje i zachwycaj się krajobrazem.</p>
+<p>Inez miała rację; piękno laguny narzucało się z żywiołową siłą. Właśnie gondola okrążała wschodni cypel Wenecji i minąwszy doki Arsenału, wcisnęła się w kanał między Wyspą św. Piotra a zrębem właściwego miasta. Rozcinana skrzelem wiosła fala chlupotała łagodnie o burty
+łodzi i odtrącona od czarnego jej kadłuba odchodziła w tysiącznych zmarszczach ku brzegom. Gdy mijaliśmy przylądek Punta di Quintavalle, nadszedł skądś wielki, mięsisty fałd wody i zakołysał silnie gondolą. Inez spojrzała zaniepokojona na Beppa.</p>
+<p>— To <emph>piroscafo</emph> z Torcello w drodze do Ponte del Vin
+rozorał brzuchem lagunę i rzucił nam pod gondolę masę
+wypchniętej przez siebie wody — wyjaśnił przewodnik.</p>
+<p>Wjechaliśmy w czeluść wodną pomiędzy Wyspą św. Heleny a Ogrodami Publicznymi. Z daleka zaczęły dochodzić
+dźwięki muzyki. Po wysypanym żwirem i piaskiem deptaku, który wąską wstęgą owijał się dookoła Punta della
+Motta, przechadzało się kilka par. Z oplotów krzewów na
+szkarpie ogrodowej całowanej bez przerwy przez falę laguny wychylał się silny w wyrazie, brązowy biust Ryszarda
+Wagnera.</p>
+<p>— Trzeba przyznać — zauważyłem — że wybór miejsca nader szczęśliwy. Zdaje się, jak gdyby duch twórcy
+<emph>Latającego Holendra</emph> wciąż odchodził z falą w zawrotne
+dale…</p>
+<p>Wypłynęliśmy na szerokie wody Canale di S. Marco.
+Przed nami rozwinęła się wspaniała panorama portu. Niezliczona ilość gondol i uskrzydlonych żółtymi lub koloru
+<emph>à la terra cotta</emph> żaglami łodzi pląsała po lagunowej płani.
+Zewsząd niby ku centralnemu punktowi ciążenia zdążały
+ku przystani statki, łopocząc na wietrze defiladą bander
+i flag. Tu wjeżdżał tryumfalnie od strony <emph>porto</emph> di Lido
+jakiś kolos morski chlubiący się z daleka barwami Albionu,
+tam po przebyciu bramy wjazdowej z Adrii przy porcie
+w Malamocco wyrastała na horyzoncie zatoki zgrabna jak
+sylfida francuska fregata, ówdzie z cieśniny między Giudeccą a wyspą S. Giorgio Maggiore wysuwał się pasażerski
+parowiec w drodze powrotnej z Chioggii.</p>
+<p>Beppo, obejmując rozmiłowanym spojrzeniem ojczyste
+miasto i lagunę, zanucił nieśmiertelną <emph>Santa Lucia</emph>. Gondola docierała do molo. Kilka uderzeń wiosła, kilka zwinnych zwrotów wśród labiryntu łódek — i przybiliśmy do
+mostu della Paglia.</p>
+<p>— Beppo — pożegnała gondoliera seniora de Orpega —
+na dziś jesteś wolny. Do domu wrócę stąd pieszo.</p>
+<p>I przy mojej pomocy wyszła na marmurowy cokół nabrzeża.</p>
+<p>— Idziemy do „Café Orientale”.</p>
+<p>Jak zwykle i tym razem ogarnąłem zachwyconym spojrzeniem śnieżny cud Pałacu Dożów, przesunąłem zamyślone
+oczy po Moście Westchnień, po ponurym bloku Więzień
+Karnych i zatrzymałem je na „tym długim wrębie granitowym, zielonymi poprzerywanym kanałami, białymi mostami pospajanym, gdzie kilka tysięcy okrętów przystań
+miewa” — na Riva degli Schiavoni. I nagle pośród tego przepychu barw i kolorów, pośród tej boskiej rozrzutności
+piękna, dech zapierającej od podziwu i ciągłego zachwytu,
+uczułem ogromny, bezbrzeżny smutek.</p>
+<p>Lecz smutek ten „nie do mnie należał”. Jego żałobne,
+czarne kwefy wysnuły się ku mnie z perspektywy lat ubiegłych, spłynęły falą powrotnych ech z przeżycia wielkiego
+poety-samotnika, który tu, po tym samym brzegu, „pod
+zorzę wieczorną” przechadzał się kiedyś cichy i „w siebie
+pochylon”…</p>
+<p>I gdy potem, zająwszy miejsce u boku pięknej kobiety
+przy jednym ze stolików kawiarnianych, wodziłem olśnionymi od blasków i świateł oczyma po nurzającej się w purpurze zachodu zatoce, przyszły mi znów na pamięć słowa
+zapomnianego poety o tymże miejscu mówiące:</p>
+<quote>
+<p>Tam, o jutrzni we mgłach, odpływają małe statki rybackie… Tam, o południowym świetle widzisz tajemnice
+kolorów Veronesa, Tintoretta, Tycjana… Tam, w blasku
+księżyca znikają okręty w mroku wielkim, a gdzie światło
+miesięczne wysrebrzyło falę, lśniący topór u gondoli dziobu
+przytwierdzony profilem zębatym się określa…</p>
+</quote>
+<p>Z zamyślenia obudził mnie głos Inezy:</p>
+<p>— Teraz może zechce się pan podzielić ze mną niewesołymi refleksjami, które mu podobno nasuwa Riva degli
+Schiavoni. Przypominam obietnicę.</p>
+<p>— I dotrzymam jej wiernie.</p>
+<p>Popiłem czarną kawą, zapaliłem papierosa i rzekłem,
+patrząc w stronę Pałacu Dożów:</p>
+<p>— Tędy, tym samym nabrzeżem, co słońcu wschodzącemu bielą marmurów dumnie się uśmiecha, o tej samej
+dnia umierającego godzinie szedł lat temu 83 genialny
+twórca symbolizmu w Europie przed M. Maeterlinckiem,
+zapoznany przez własnych rodaków poeta polski, potomek Sobieskich po kądzieli, Cyprian Kamil Norwid. A towarzyszył mu w tej wieczornej, smutnych przeczuć pełnej promenadzie niejaki Tytus Byczkowski, malarz, Polak również, który nazajutrz rano w czasie kąpieli na Lido „za
+głęboko w fale zaszedł” i niby to przypadkiem utonął.
+Byczkowski miał lat około 60; studiował najpierw w akademii drezdeńskiej, a potem w Monachium, „wszędzie
+łatwo miejscowym tradycjom się poddając z posłuszeństwem słowiańskim szkole każdej — wzór cierpliwości, zaparcia się i pokory”; i dlatego w wigilię swej śmierci
+kończył obraz mały przedstawiający rybaka z dziećmi jego,
+rybaka, co się trudził dzień cały, by pod wieczór trzymać
+„w ręku ułowioną rzecz jedną — muszlę pustą”. Ci tedy
+dwaj polscy wędrownicy, tak niepodobni do siebie — jeden,
+co się twórcą urodził, drugi słowiańskim niewolnikiem —
+przechadzali się wieczorną godziną r. 1844 po wybrzeżu dei
+Schiavoni, „albo jak jeszcze jeden niezatarty zapis się wyraża”: Riva dei Slavi, czyli Wybrzeżu Słowian.</p>
+<p>Rozmawiali o Sztuce, a gdy schodzili już z Ponte della
+Paglia ku <emph>piazzetta</emph>, Byczkowski zwrócił uwagę na bogactwo <emph>inwencji</emph> kapitelów, które podpierają Pałac Dożów, dziwnym przypadkiem rozmowę całą na to właśnie
+skierowując, czego brakowało własnej jego twórczości: na
+pomysłowość i oryginalność.</p>
+<p>I wtedy wyjaśnił mu wielki twórca <emph>Promethidiona</emph>, że
+<emph>nieśmiertelnym</emph> w Sztuce jest tylko to, <emph>co poczęło się w ukochaniu</emph> i że prawdziwe <emph>piękno
+kształtem jest miłości</emph>.</p>
+<p>— A potem, kochany przyjacielu? — przerwała chwilowe
+milczenie Ineza. — A potem?</p>
+<p>— A potem zstąpili na plac św. Marka, gdy był już
+zmierzch i „dokoła pod obiegającym czworobok placu korytarzem zaczynało być gwarno, porozświecały się kawiarnie
+i czekano muzyki przez wojskową kapelę z Czechów zwykle (w owych czasach) złożoną, wykonywanej tu w wieczór”. Do jednej z tych kawiarń, zapewne w podsieniach
+Procuratie Vecchie weszli…</p>
+<p>— A nazajutrz — dokończyła <emph>donia</emph> — Byczkowski już
+nie żył.</p>
+<p>— Tak. Poszedł na dno — jak córka Hjalmara z <emph>Dzikiej
+kaczki</emph> Ibsena — zstąpił w głębiny morza, uświadomiwszy
+sobie przedtem rozdzierającą prawdę swego żywota. „Zaiste
+smutny jest ten świat aż do śmierci”…</p>
+<p>Umilkłem i zamyślony patrzyłem na czerniejący u naszych stóp tabor gondol, łodzi i motorówek. Tymczasem
+zmierzchło się zupełnie. Jak na znak dany przez niewidzialną rękę rozjarzyły się nagle elektryczne łuki bań, kloszów i latarń, a od placu św. Marka nadpłynęła serenada
+kapeli: Wenecja uczciła swój wieczór pochwalnym nokturnem. Na lagunie zaczęły tułać się tam i sam błędne ognie
+sygnałów; naprzeciw molo jakiś statek wojenny na kotwicy
+przed basenem wyspy San Giorgio Maggiore, cały we flagach i banderach, święcił imieniny admirała uroczystą iluminacją. Od Punta della Salute, po tamtej stronie kanału,
+wzbijały się pod niebo wrzeciona rakiet, pękały ulewą
+iskier ogniste fontanny i bukiety; na Lido rozbłysła wydłużoną linią świateł i kinkietów wieczorna rampa wybrzeża…</p>
+<p>Oderwałem oczy od zatoki i spotkałem się z badawczym
+spojrzeniem Inezy. Wytrzymałem je spokojnie przez chwilę. Wtem ni stąd, ni zowąd nasunęło mi się pytanie:</p>
+<p>— Pani wierzy we wróżby?</p>
+<p>Chwyciła mnie za rękę i odpowiedziała z akcentem zdumienia:</p>
+<p>— Skąd panu przyszło to na myśl właśnie w tej chwili?
+Czyżby umiał pan czytać w cudzych duszach?</p>
+<p>— Narzuciło mi się to jakoś tak znienacka, że nie mogłem się oprzeć. Czasem pewne myśli nadciągają nie wiadomo skąd i dlaczego.</p>
+<p>Zaprzeczyła żywo:</p>
+<p>— O nie! Pan się myli w tym wypadku. To ja w tej
+chwili myślałam o starej Cygance z Asturii, która mi wywróżyła przedwczesną śmierć męża.</p>
+<p>— A zatem myśl pani przeniosła się na mnie — wyciągnąłem wniosek.</p>
+<p>— <emph>Do you know something about painter-medium Luigi Bellotti</emph>? — usłyszeliśmy nagle oboje wyraźny fragment rozmowy prowadzonej przy
+sąsiednim stoliku.</p>
+<p>Siedziało tam dwóch mężczyzn: jeden w pepitkowym
+garniturze z monoklem w oku, o charakterystycznych dla
+Anglików rysach starannie wygolonej twarzy, i drugi znacznie słabiej akcentujący swą przynależność szczepową.</p>
+<p>— Też dziwny kaprys przypadku — rzekła <emph>donia</emph>. —
+Ten wyjątek z dialogu naszych sąsiadów jest jakby dalszym ciągiem interesującego nas właśnie problemu, a równocześnie przypomnieniem dla mnie.</p>
+<p>— Cóż ma wspólnego malarz Bellotti z zajmującą nas
+sprawą? — zapytałem.</p>
+<p>— Nie słyszał pan dotychczas o nim?</p>
+<p>— Nie.</p>
+<p>— Jest to fenomenalne medium, które w transie z zawiązanymi oczyma maluje obrazy naśladujące do złudzenia manierę starych włoskich mistrzów. Czytałam o nim
+niedawno ciekawy artykuł w „La Tribuna”.</p>
+<p>— Jeszcze nie widzę związku z naszą rozmową.</p>
+<p>— Zaraz go pan ujrzy. Otóż Bellotti podobno pozostaje
+też w kontakcie z zaświatem i jak sam utrzymuje, słyszy
+od czasu do czasu głosy zmarłych.</p>
+<p>Spojrzałem z odcieniem ironii:</p>
+<p>— Pani wierzy w te bajeczki z „duchami”?</p>
+<p>— Więc nazwijmy to usymbolizowaniem podświadomej
+jaźni samego medium, jeśli pan woli. W każdym razie po
+przeczytaniu artykułu w „La Tribuna” postanowiłam odwiedzić p. Bellottiego. Spodziewam się, że mi coś powie
+o mojej przyszłości za pośrednictwem swych „głosów”.</p>
+<p>— Ach tak, teraz rozumiem — to też rodzaj wróżby.</p>
+<p>— Rozmowa tych dwóch panów przypomniała mi zamiar, który uskutecznię w najbliższych dniach. Pan pójdzie
+tam ze mną, nieprawdaż?</p>
+<p>— Jak to pójdę? Czy Bellotti mieszka tu gdzieś niedaleko?</p>
+<p>— Przebywa stale w Wenecji: mieszka przy <emph>calle</emph> della
+Rosa. Więc będzie mi pan towarzyszył?</p>
+<p>— Z prawdziwą przyjemnością. Od pewnego czasu widzę, jak rozwija się przede mną wstęga niezwykłych zdarzeń.</p>
+<p>— Tak bywa w życiu, że po okresie szarzyzny i codzienności następuje seria zajść wyjątkowych. Mnie np. jakiś
+głos wewnęrzny mówi, że żyję w przededniu decydujących
+o moim losie wypadków. Kto wie, może zawarcie znajomości z panem, <emph>signor Polacco</emph>, jest pierwszym ogniwem w ich
+łańcuchu.</p>
+<p>— Nie przypuszczam — odparłem z uśmiechem. — Byłoby to dla mnie zbyt pochlebne.</p>
+<p>— Co za skromność! Nie wierzę w nią ani trochę. Wy,
+mężczyźni, wszyscy jesteście urodzonymi obłudnikami
+w stosunku do nas.</p>
+<p>I zaatakowała mnie brylantami swych oczu. Tak na rozmowie upłynął nam wieczór i nie spostrzegliśmy się nawet, jak wskazówki kawiarnianego zegara przesunęły się
+na godzinę dziesiątą.</p>
+<p>— <emph>Por Dios</emph>! — zawołała nagle, orientując się w czasie. — Pora wracać do domu.</p>
+<p>I poszliśmy najpierw <emph>rivą</emph>, potem przez molo, otarliśmy
+się o tłum zalegający <emph>piazzettę</emph> i marmurowy czworobok
+przed kościołem św. Marka, aż przeszedłszy popod łukiem
+Torre dell'Orologio, zboczyliśmy na Merceria.</p>
+<p>Mimo spóźnionej godziny miasto tętniło pełnią życia.
+Zdawało się nawet, że puls jego bije teraz silniej niż za
+dnia pod prażącymi promieniami słońca. Z pootwieranych
+sklepów, kawiarń i restauracji biła łuna świateł i załamywała się tajemniczo w czarnych wodach kanałów i kanalików. Lokatorowie, kupcy, dozorcy domów i przekupnie,
+zwłaszcza kobiety i dzieci, wylegli z dusznych nasiąkniętych skwarem mieszkań i obsiedli bramy i wejścia —
+punkty obserwacyjne nocnego ruchu i ogniska — kuźnie
+małomiasteczkowych plotek. Bo Wenecja — ta śliczna,
+przez świat kulturalny podziwiana Wenecja, ze swoimi pałacami, muzeami i galeriami jest mimo wszystko prowincją. I w tym może jej szczególny urok. Właśnie w tym
+jedynym zestrojeniu wysokiej kultury wieków z prostotą
+i bezpretensjonalnością małego miasta. Dlatego cudzoziemiec czuje się w Wenecji lepiej niż np. we Florencji lub
+Rzymie, gdzie przygniatają go chwilami monumentalność
+i kulturalna „oficjalność” środowiska. I ja ukochałem głęboko perłę Adriatyku właśnie za jej „desinwolturę”. Mimo
+swą nieporównaną piękność Wenecja pozwalała mi czuć się
+sobą i nie zmuszała do sztucznej i męczącej odświętności.</p>
+<p>Dzieląc się wzajemnie uwagami i spostrzeżeniami na
+temat miasta lagun, minęliśmy linię Ponte Rialto, teatr
+Malibran, Scuola dell'Angelo Custode i weszliśmy na
+zawsze rojną <emph>calle</emph> Vittorio Emanuele.</p>
+<p>— Jak to dobrze — rzekła Ineza — że nie ma tu nigdzie
+miejsca dla aut, tej plagi XX wieku. To cudne miasto leczy
+mi corocznie przez dwa miesiące moje potargane nerwy.</p>
+<p>Przez <emph>calle</emph> di Traghetto zapuściliśmy się w system
+ciasnych, poprzecznych uliczek uchodzących ku Canal
+Grande. Tu było znacznie ciszej: ruch nocny, ześrodkowany
+w arteriach ulic Wiktora Emanuela i Lista di Spagna, odzywał się w tych nadbrzeżnych odgałęzieniach silnie zmatowanym podźwiękiem. Tylko tu i tam przesunęła się półmrocznym parowem kamienic postać samotnego przechodnia, tu i tam przemknął na przełaj jakiś kot wychudły
+i zdziczały.</p>
+<p>U wylotu jednego z tych zaułków, w tzw. <emph>calle</emph> dei Preti,
+czyli uliczce Księżej, bawiła się pod murem domu grupa
+dzieciaków. Płonąca nad bramą latarnia obejmowała je
+kręgiem niedokrwistych blasków i z trudem przenoszącym
+jej siły obdzielała światłem sąsiedni placyk. Nagle wśród
+dzieci powstał popłoch; zamarła na ustach przerwana w połowie piosenka, opadły połączone w korowód taneczny ręce, a wątłe, wynędzniałe postacie przywarły szeregiem do
+ściany domu.</p>
+<p>— <emph>Donna Rotonda passa! Donna Rotonda</emph>! — usłyszeliśmy trwożne szepty.</p>
+<p>Na czworobok placyku między uliczkami padł fantastycznie wydłużony cień kobiety, która nadchodziła z głębi
+przyległego zaułka. Była wysoka i trzymała się sztywnie
+jak kolumna. Kapelusz dzwonowy <emph>à la</emph> Lindbergh nasunięty do pół czoła z przystułkami na policzkach i podpinką
+na szyi okrywał tak szczelnie jej głowę, że sprawiał wrażenie hełmu z uchyloną lekko przyłbicą: z małego prostokątnego wykroju pozostawionego z przodu wyglądał tylko
+fragment śnieżnobiałej, jakby mrozem ściętej twarzy
+o drobnych, zaciętych ustach: fragmentu tego nieruchomego i surowego jak mumia lub maska tragiczna nie ożywiało żadne spojrzenie; bo oczy osłaniał starannie zapuszczony na brwi brzeg górny kapelusza. I gdyby nie pewność i stanowczość jej ruchów, można by było przypuszczać, że <emph>Donna Rotonda</emph> jest ślepą.</p>
+<p>Dziwaczność powierzchowności potęgował jeszcze strój
+niemodny, staroświecki: stanik obcisły z bufiastymi rękawami barwy przepalonego piasku i takiegoż koloru suknia
+na krynolinie. Ta suknia przydługa i szeroka jak umbra,
+zapylona i postrzępiona nielitościwie, której zapewne zawdzięczała <emph>Rotonda</emph> swe smutno-śmieszne przezwisko, wlokła się za nią po ziemi z cichym, charakterystycznym szelestem.</p>
+<p>Wyprostowana i zimna jak stela grobowa, przeszła
+krokiem równym, spokojnym, trzymając oburącz na prawym ramieniu wysmukłe naczynie, podobne do greckiej
+amfory.</p>
+<p>— To obłąkana — objaśniła Ineza, gdy <emph>Rotonda</emph> zniknęła za węgłem kościoła. — Mieszka tu gdzieś w pobliżu.
+Spotykam ją czasami. Nie bardzo miłe sąsiedztwo.</p>
+<p>— <emph>Donna Rotonda</emph> — powtórzyłem zamyślony. — Okrągła Pani. Nie dziwię się wcale, że wywołuje taki popłoch
+wśród dzieci. Jest w tej nieszczęśliwej coś niepokojącego.
+Przeszła mimo jak symbol cierpienia i śmieszności splecionych w tragiczny węzeł.</p>
+<p>— I ja nie lubię spotykać jej na swej drodze — zwierzyła mi się cicho Ineza, przyciskając silniej me ramię. —
+Omijam ją z daleka… Lecz jestem już u siebie. <emph>Buena noche, caballero! Hasta luego</emph>!</p>
+<p>Wyjęła z torebki klucz i włożyła go w zamek małych
+niepozornych drzwi, stanowiących boczne wejście do pałacyku od strony lądu. Przywarłem ustami do jej ręki na
+długą chwilę. Cofnęła ją łagodnie i znikła w głębi domu.</p>
+<p>Pozostałem sam u wylotu tonącej w półmroku uliczki.
+O parę kroków ode mnie pluskały o stopnie schodni wody
+Canal Grande, w głębi, na rogu dogorywała latarnia. Powoli odszedłem ku miastu, zapuszczając się w błędnik ulic,
+uliczek i zaułków. Nie spieszyło mi się do domu. Ciepła,
+lipcowa noc usposabiała do romantycznej włóczęgi. Rozmarzony przeżyciami dnia, długo jeszcze wałęsałem się jak
+lunatyk pomiędzy wąwozami kamienic, w krzyżowej matni
+weneckich <emph>rughe</emph> i <emph>rughette</emph>, <emph>corti</emph>, <emph>salizzade</emph>, <emph>sottoportici</emph>,
+<emph>rami</emph>, <emph>rioterrà</emph> i <emph>sacche</emph>. Aż znużony wędrówką i syt nastroju znalazłem się w końcu pod bramą mej cichej gospody w zaułku zwanym <emph>calle</emph> di Priuli.</p>
+<p>Ostatnim wrażeniem, które nawiedziło mnie tuż przed
+zaśnięciem, był tajemniczy a charakterystyczny szelest.
+Lecz źródło jego nie płynęło z rzeczywistości; było to uparte
+wspomnienie szelestu, jaki wydawała suknia <emph>Donny Rotondy</emph> w zetknięciu z brukiem uliczki dei Preti…</p>
+<quote>
+<p>15 lipca</p>
+</quote>
+<p>Parę dni temu byliśmy z Inezą u Luigi Bellottiego przy
+<emph>calle</emph> della Rosa. Wizyta ta wywarła na nas obojgu głębokie
+wrażenie; dotychczas nie możemy się z niego otrząsnąć.</p>
+<p>Na powitanie wyszedł nam mężczyzna niespełna 30-letni,
+szczupły, bardzo blady, o szerokim, wydatnym czole i podłużnym owalu twarzy, w którego ponurym spojrzeniu błąkały się jeszcze błyski niedawnej ekstazy. Jakoż, jak sam
+potem wyznał, był właśnie po świeżo odbytym „seansie”
+z jakimś francuskim profesorem, który przyjechał doń specjalnie dla eksperymentów z Paryża.</p>
+<p>Przypuszczając, że chcemy obejrzeć jego obrazy, z wielką
+uprzejmością oprowadzał nas po swym atelier i pokazywał
+parę pejzaży naśladujących do złudzenia manierę Segantiniego oraz kilka płócien podpisanych nazwiskami Ciardiego i Maggiolego. Zapytany przeze mnie, jak sobie tłumaczy swe niezwykłe zdolności, oświadczył bez wahania,
+że uważa się za narzędzie zmarłych artystów, którzy kierują jego ręką.</p>
+<p>— Badacze zjawisk tej kategorii, którzy urządzają z panem naukowe seanse, podobno zapatrują się na to trochę
+odmiennie — zrobiłem oględną uwagę.</p>
+<p>— Wiem o tym — odpowiedział — lecz nie podzielam
+ich zdania, a moje doświadczenie wewnętrzne przyznaje mi
+rację.</p>
+<p>Gdy mu wyjaśniłem cel naszej wizyty, uśmiechnął się
+i rzekł:</p>
+<p>— Wątpię bardzo, czy uda mi się spełnić życzenie państwa; nie zajmuję się mantyką, a głosy, które czasami
+słyszę, nie odsłaniają przede mną niczyjej przyszłości. Przynajmniej tak było dotychczas. Mimo to spróbuję wprawić
+się w trans, któremu nadam specjalny kierunek przez nawiązanie łączności ze<emph>seniorą</emph>. Proszę o jakiś przedmiot,
+którzy należy do pani od dłuższego czasu.</p>
+<p>Inez podała mu obrączkę. Włożył ją na mały palec swej
+lewej ręki i usiadłszy we fotelu obok sztalugi ze świeżo
+rozpiętym płótnem, zawiązał sobie oczy czarną przepaską.</p>
+<p>— Teraz proszę o parę minut bezwzględnej ciszy —
+rzekł, pochylając się trochę ku przodowi.</p>
+<p>Usiedliśmy z Inezą obok siebie na sofie i nie spuszczaliśmy zeń oczu. W atelier zapadło głuche milczenie. Słyszałem wyraźnie szmer miasta, przesiąkający do wnętrza przez
+otwarte okno, i tykanie zegara na przeciwległej ścianie.
+Inez nerwowo ściakała mi rękę. Tak upłynęło 10 minut.</p>
+<p>Nagle Bellotti chwycił za pędzel i paletę i zaczął malować. Na palcach podeszliśmy do sztalugi, by śledzić przebieg pracy. Postępowała w tempie nadzwyczaj szybkim,
+tak że wkrótce można było zorientować się w treści obrazu.</p>
+<p>W poprzek płótna rozwinęła się stalowobłękitna szarfa
+wzburzonej rzeki. Na prawym jej brzegu rozsiadło się jakieś
+wielkie miasto, na lewym nieprzejrzane morze mgieł. Pomiędzy oboma brzegami rozpiął się łuk mostu. Dziwny to był
+most! Lewe jego przęsło wypadające z wężowiska mgły i oparów zdało się być ich widmowym przedłużeniem: było jak
+one, mgliste i zatarte; prawe, od miasta kwitnącego biegnące, tchnęło tężyzną i wyrazistością określonych kształtów.</p>
+<p>Na tym moście spotkało się dwoje ludzi: z morza mgieł
+wyszedł mężczyzna, ze strony przeciwnej kobieta. Poznaliśmy ich. To widmo <emph>don</emph> Antonia de Orpega i obłąkana
+<emph>Rotonda</emph> zeszli się na rubieży dwóch światów. Stanęli na
+środku mostu i podali sobie dłonie, jakby na znak przymierza…</p>
+<p>Obraz był skończony. Malarz odłożył pędzel i zaczął
+mówić monotonnie i sennie:</p>
+<p>— Słyszę głos z lewej: „Zawarliśmy pakt, siostro w cierpieniu. Związani braterstwem bólu, oboje ofiary wielkich
+namiętności, schodzimy się tu, na pograniczu życia i śmierci, dziś po raz ostatni. Bo godzina twoja już się zbliża, siostro. Człowiek, który ma się stać łącznikiem między <emph>nią</emph>
+a tobą, już nadszedł. Pamiętaj, siostro, pamiętaj!…”</p>
+<p>Bellotti wyczerpany opadł w ramiona fotelu. Staliśmy
+w milczeniu, wpatrzeni w enigmatyczny obraz, odtwarzając w myśli ciemne słowa interpretacji…</p>
+<p>Wtem Bellotti chwycił ponownie za pędzel i kilku energicznymi pociągnięciami przekreślił swe dzieło; zmąciły
+się kontury, zlały barwy i miejsce zajęła kakofonia plam:
+wszystko zniknęło jak wizja.</p>
+<p>Malarz zerwał z oczu opaskę i oddając Inezie obrączkę,
+zapytał:</p>
+<p>— Cóż? Czy w tym, co namalowałem lub co mówiłem,
+znaleźliście państwo jaką wskazówkę na przyszłość?</p>
+<p>Opowiedziałem mu treść obrazu i powtórzyłem jego słowa. Pochylił w zamyśleniu głowę i zwrócił się do Inezy:</p>
+<p>— Pani jest wdową, <emph>seniora</emph>?</p>
+<p>— Tak, panie.</p>
+<p>— Obrączka więc uwarunkowała wizję nieboszczyka.</p>
+<p>— Lecz skąd się wzięła postać <emph>Donny Rotondy</emph>? —
+wmieszałem się do rozmowy. — I jaki może mieć ona
+związek ze śp. mężem <emph>seniory</emph>?</p>
+<p>— Może pani w ostatnich czasach myślała o tej nieszczęśliwej? — rzucił przypuszczenie Bellotti.</p>
+<p>— Rzeczywiście — odpowiedziała — spotkaliśmy ją
+oboje niedawno na ulicy w porze wieczornej. Spotkanie to,
+nie wiem dlaczego, sprawiło na mnie bardziej przykre niż
+zwykle wrażenie i myślałam tej nocy o obłąkanej dłużej
+może, niż należało.</p>
+<p>— Wszystko to jednak — zauważyłem — nie tłumaczy
+jeszcze symbolizmu schadzki i treści rozmowy.</p>
+<p>Bellotti rozkrzyżował bezradnie ramiona.</p>
+<p>— Nie wiem, nic nie wiem — powtórzył parę razy. —
+Byłem w owej chwili tylko narzędziem sił nieznanych:
+a może — a może tylko ich igraszką…</p>
+<p>Podziękowaliśmy i zamyśleni zeszliśmy do gondoli.</p>
+<p>Wieczór dnia tego spędziłem z Inezą w Giardini Publici.
+Tutaj, w zaciszu parku, w obliczu kolumn greckich jednego
+z pawilonów Sztuki spłynęła na mnie łaska pierwszego jej
+pocałunku: a w parę godzin później tuliłem ją w swoich
+objęciach w jednej z komnat starego, czasy dożów pamiętającego pałacu.</p>
+<p>— Stało się — mówiła do mnie, słodko przeciągając swe
+cudne, smagłe ciało na tle średniowiecznego łoża pod baldachimem. — Nie mogłam opierać się dłużej: przyszedłeś
+jak przeznaczenie…</p>
+<p>Gdy odurzony miłosnym czadem i nie wierzący własnemu szczęściu wymykałem się z jej domu bocznym wyjściem, biła północ. Chwiejnym krokiem zagłębiłem się pomiędzy zaułki. Na zakręcie <emph>calle</emph> della Misericordia zaszła
+mi drogę <emph>Donna Rotonda</emph>. Gdyśmy się mijali, podniosła
+głowę, jak gdyby chcąc odczytać godzinę na kościelnym
+zegarze. Wtedy ujrzałem jej oczy. Są ciemnofiołkowe, z odcieniem stali i beznadziejnie smutne. Piękne oczy…
+</p>
+<quote>
+<p>10 sierpnia</p>
+</quote>
+<p>Od miesiąca już jestem szczęśliwym, nadludzko szczęśliwym kochankiem <emph>donii</emph> Inez de Torre Orpega. Ta kobieta jest stokroć piękniejsza i bardziej wyrafinowana, niż
+przypuszczałem. Jest mistrzynią w sztuce kochania. A przy
+tym zawsze umie zachować estetyczny umiar i nie popada
+nigdy w pospolite wyuzdanie.</p>
+<p>Od miesiąca żyjemy jak para rozkochanych półbogów,
+nie bardzo zważając na otoczenie i niewiele sobie robiąc
+z ludzkiej opinii. Dnie poświęcamy wycieczkom. Codziennie
+przeprawiwszy się na Lido, kąpiemy się w morzu, a potem
+zwiedzamy osobliwości laguny. Obejrzeliśmy już fabryki
+szkła na Murano i sławną szkołę koronczarską na wyspie
+Burano, rozmawialiśmy z rybakami w cieniu uroczych winnic Torcello i spędziliśmy parę pięknych godzin w cyprysowych gajach wyspy S. Francesco del Deserto. Takie są
+nasze dnie. Lecz nie oddałbym za nie wszystkie ani jednej
+z naszych nocy. Bo noce nasze są podobne do czarownych
+baśni Wschodu, w których marzenie haftuje tęczowe miraże na kanwie wciąż zapominanej rzeczywistości. W egzotycznych parkach miłości naszej opalizują światła alabastrowych lamp, zatopione w senną posrebrz księżyca kołyszą się na gałęziach rzadkie, złotopióre ptaki i suną po
+cichych wodach zakochane łabędzie.</p>
+<p>Błogosłowioną niech będzie noc na wyspie Chioggi, jedyna noc, którą wolna nam było spędzić aż do rana pod
+jednym dachem w charakterze małżonków.</p>
+<p>— <emph>Un letto matrimoniale, signore?</emph> — zabrzmiało
+u wstępu pytanie uprzejmego hotelarza — pytanie w tonie
+tak naturalne i oczywiste, że wykluczało jakiekolwiek
+wątpliwości.</p>
+<p>— <emph>Si, signore, un letto matrimoniale</emph> — odpowiedziałem.</p>
+<p>I wzięto nas za małżeństwo.</p>
+<p>Nie wiem, czy ta mimo woli narzucona nam rola, czy
+też malowniczy smętek przystani w porze wieczorowej
+nastroiły Inezę na nutę głębokiego liryzmu, który nocy
+owej roztopił w sobie nawet szlachetny kruszec jej namiętności. Gdy wśród pocałunków i pieszczot wziąłem ją z łoża i chodząc po sypialni, huśtałem jak dziecko, objęła
+mię za szyję i rozpłakała się na głos.</p>
+<p>— Mój kochanku, mój mężu najdroższy! — usłyszałem
+przerywany szlochaniem jej szept.</p>
+<p>Koło drugiej nad ranem wyczerpana usnęła mi na piersi.
+Nigdy ani przedtem, ani potem nie widziałem jej tak rozrzewnionej…</p>
+<p>Takie bywają nasze noce.</p>
+<p>Nadmiar szczęścia usposabia mnie względem ludzi życzliwie i pojednawczo; jestem wyrozumiały i współczujący:
+prawem kontrastu silniej teraz odczuwam cudze nieszczęście. Tym bardziej że życie zdaje się na każdym kroku mi
+je ukazywać. Jak gdyby obawiało się, że mogę zapomnieć.
+Jak gdyby chciało mnie ostrzec. Codziennie niemal przypomina o tym, wysyłając mi na spotkanie Rotundę.</p>
+<p>Bo tak teraz nazywam biedną wariatkę, postrach weneckiej dziatwy i istne wcielenie pokutującego ducha laguny.</p>
+<p>Nieszczęśliwa obudziła we mnie szczere zainteresowanie i zasiągnąłem już co do niej informacji. Rotunda nazywa się w rzeczywistości Gina Vamparone i jest córką
+dozorczyni jednego z pałaców nad Canal Grande. Dostała
+obłąkania, gdy porzucił ją, niegdyś słynną z piękności
+dziewczynę, jakiś baron wenecki. Wyjeżdżając z miasta
+lagun na zawsze, uwodziciel pozostawił Ginie na pamiątkę
+swój pałac wraz z urządzeniem; lecz matka jej wolała pozostać w swym skromnym pokoiku w głębi oficyny i tu
+dokonać reszty smutnego żywota u boku obłąkanej, niż
+przenosić się na pańskie pokoje. Dlatego pałac nie zamieszkany przez nikogo stoi pustką; tylko Gina od czasu do
+czasu robi w nim porządki, odkurzając meble i kobierce.
+Podobno nie uważa się za właścicielkę, lecz za stróżkę tego
+domu i łudzi się wciąż nadzieją, że pan jej powróci i że
+wtedy zda mu sprawę ze wszystkiego.</p>
+<p><emph>A propos</emph> amfory greckiej, zapewne jednej z pamiątek
+po ukochanym — nosi w niej codziennie rano i wieczorem
+mleko dla matki.</p>
+<p>Oto garść szczegółów zebranych przeze mnie u sąsiadów i znajomych. Nie zaspokoiła ona mej ciekawości —
+owszem, podnieciła ją tylko. Jest coś we formie jej obłędu,
+w wyrazie twarzy i stroju, co pozostaje dla mnie jeszcze
+zagadką. Pociąga mnie ona i dlatego od kilku dni w wolnych chwilach śledzę z daleka Rotundę. Czy to nie wygląda
+na paradoks? Ja, najszczęśliwszy człowiek w Wenecji, ja,
+kochanek <emph>donii</emph> de Torre Orpega, śledzę ukradkiem obłąkaną córką dozorczyni domu! Jestże to litość króla dla
+żebraczki czy kaprys <emph>grand seigneura</emph> fortuny? Dziwne to,
+śmieszne, lecz prawdziwe. Tak! Gina Vamparone mnie intryguje…</p>
+<quote>
+<p>30 sierpnia</p>
+</quote>
+<p>Jak to się stało?! W jaki sposób? Jak mogłem dopuścić
+do czegoś podobnego? To przecież wstrętne, to ohydne!…</p>
+<p>A jednak stało się i nic na świecie faktu nie odmieni.
+A było tak.</p>
+<p>Wczoraj około jedenastej wieczorem jak zwykle wracałem od Inezy do siebie. Noc była parna, księżycowa. Szedłem powoli rozmarzony i czułem wciąż jeszcze w żyłach
+pożar miłosnych uniesień. Na jakimś <emph>ponte storto</emph>, co krzywą zworą spinał dwa brzegi, przystanąłem i rozkoszując
+się ciszą, przechylony przez balustradę mostu, wpatrywałem się w czarną wodę kanału. Wtem posłyszałem za sobą
+szmer. Odwróciłem się i ujrzałem Rotundę. Szła przez most
+o parę kroków ode mnie sztywna i obojętna, w nasuniętym, jak zawsze, głęboko na oczy hełmowym kapeluszu,
+podtrzymując lewą ręką amforę opartą na ramieniu. Na
+mnie zdawała się nie zwracać najmniejszej uwagi, lubo
+byłem jedynym człowiekiem w tym miejscu o tej spóźnionej już porze. Może w ogóle mnie nie widziała. Przeszła
+mimo jak widmo i zaczęła oddalać się w stronę S. Felice.</p>
+<p>Powodowany ciekawością poszedłem za nią, zachowując dyskretny dystans. Tak dotarliśmy do drugiego mostu nad
+Rio di Noale, po czym Gina zwróciła się na lewo w stronę
+wybrzeża. Zatrzymałem się w cieniu narożnego domu, bo
+teraz przechodziła przez pusty plac, zalany powodzią księżycowego światła. Lecz gdy tylko zniknęła mi z oczu za załomem jakiegoś budynku, przebiegłem szybko dzielącą nas
+przestrzeń i znów miałem ją przed sobą o parę kroków. Teraz już nie ulegało wątpliwości, że wraca do siebie, do pałacyku byłego swego kochanka.</p>
+<p>Wkrótce postać jej wsiąkła w mroki jego podsieni.
+Ostrożnie, skradając się, podszedłem do pierwszej kolumny
+i ukryty za jej trzonem objąłem spojrzeniem podwórze. Było
+prostokątne, okolone zewsząd krużgankami w stylu maurytańskim; w pośrodku, pośród bukietów paproci, dżdżyła
+cicho srebrzysta fantanna. Na drugim końcu perystylu
+ujrzałem znikającą mi z oczu Rotundę.</p>
+<p>Tam musi być loża dozorcy domu — pomyślałem —
+i tam zapewne mieszka z matką.</p>
+<p>I już miałem odejść, gdy ukazała mi się znowu w blaskach miesięcznej poświetli. Z pękiem kluczy w ręku przystanęła na środku podwórza i zdawała się namyślać; potem
+weszła na schody po prawej wiodące na górę.</p>
+<p>Pod osłoną cieni rzucanych przez filary i kolumny dostałem się na pierwsze piętro i przez uchylone drzwi
+wszedłem za nią do jednej z sal. Wnętrze było stylowym
+dziełem wczesnego renesansu. Zdjęty podziwem na widok
+arcytworów mistrzów pędzla rozwieszonych po ścianach,
+omal nie zdradziłem swej obecności przed obłąkaną. Na
+szczęście była zajęta wyłącznie sobą. Ukryłem się za parawanem obok staroświeckiego kominka i stąd śledziłem jej
+ruchy.</p>
+<p>Zatrzymała się przed dużym, stojącym lustrem i zrzuciła z głowy swój dziwaczny kapelusz. Miękkie, miedzianozłote zwoje włosów stoczyły się na ramiona połyskliwą
+kaskadą. Wtedy zmieniła oświetlenie; wnętrze wypełniła
+łagodna, ciepła purpura spływająca spod abażurów żyrandolu.</p>
+<p>Zbliżyła się do otomany na środku pokoju i szybko zaczęła rozbierać się. Jak pod dotknięciem różdżki czarodziejskiej przeistoczyła się jej postać. Odpadły zakurzone
+i brudne łachmany jej codziennego stroju, zniknęła śmieszna krynolina i w pęku czerwonych promieni stanęła bujna,
+rudowłosa piękność. Nie była to już <emph>Donna Rotonda</emph>, ponure straszydło na dzieci, smutno-groźne widmo drzemiącej
+laguny — to była Gina Vamparone, nieszczęśliwe dziecię
+ludu weneckiego, rozkwitłe w zaciszu samotnego pałacu
+w cudną, obłąkaną z miłości kobietę. W obliczu swej dumnej, królewskiej nagości zmieniła się do niepoznania. Rysy
+twarzy złagodniały, zatarła się surowość zaciętych ust,
+a ciemnofiołkowe oczy nabrały wilgotnych blasków. Była
+doskonale piękna. Takie kobiety musiał widywać w ukochanym mieście boski Tycjan i takie mu się zwidziały później w jego twórczej wizji <emph>Donna incomparabile</emph>…</p>
+<p>Nasyciwszy oczy widokiem własnej krasy, zaczęła z powrotem ubierać się. Lecz teraz włożyła strój zgoła odmienny. Kosztowny był i stylowy, jakby wzorowany na jednym
+z kobiecych portretów naprzeciw niej na ścianie.</p>
+<p>W błękitnej, brokatowej sukni z kołnierzem rozchylającym się jak kielich tulipanu dookoła prześlicznej szyi
+podobna była teraz Gina do jakiejś Lukrecji Borgia lub demonicznej Beatryczy, która pod czarem zaklęcia zstąpiła
+z ram renesansowego obrazu. Uśmiech zalotny zaigrał
+w oczach, zstąpił ku wargom kusząco rozchylonym i rozpłynął się powoli w kątach ust. Może przypomniały jej się
+lata miłości i szczęścia? Może powtarzała jedną ze scen,
+której była protagonistką? Może to <emph>on</emph> ją tak ubierał,
+stylizując na modłę wielkich włoskich piękności?…</p>
+<p>Porwany czarem, który bił od całej jej postaci, zapomniałem o środkach ostrożności i wyszedłem z kryjówki
+pełen podziwu i adoracji. Na szelest mych kroków odwróciła głowę i spostrzegła mnie. Cofnęła się gwałtownie, zakrywając twarz rękoma, potem opuściła je sztywnie wzdłuż
+ciała, przybierając maskę <emph>Rotondy</emph>, wreszcie pod siłą mych
+spojrzeń zapłonęła wstydem jak róża.Nagle wyciągnęła
+ku mnie ramiona i paląc mnie żarem swych przedziwnych
+oczu, szepnęła w ekstazie:</p>
+<p>— <emph>Giorgio mio! Giorgio mio! Mio carissimo Giorgino</emph>!</p>
+<p>Pociągnięty tym wezwaniem, niepomny, że było ono
+wynikiem tragicznej pomyłki, że w rzeczywistości widziała
+we mnie <emph>tamtego</emph>, ukląkłem przed nią, obejmując jej kolana. Wtedy uczułem, że drży cała i słania mi się w uścisku.
+Usta nasze spotkały się, a ciała splotły w miłosnym szale.</p>
+<p>Gdy oprzytomniałem i zdałem sobie sprawę z tego, co
+się stało, spostrzegłem, że Gina zemdlała. Pobiegłem po
+wodę i zacząłem ją cucić. Skoro pierwsze jutrznie krwi zaświtały na śmiertelnie bladych jej jagodach i z głębokim
+westchnieniem otworzyła smutne, zdumione oczy, uciekłem
+stamtąd jak złodziej.</p>
+<quote>
+<p>6 września</p>
+</quote>
+<p>Od pamiętnego zajścia w nocy z 29 na 30 sierpnia
+upłynął tydzień. Niby nic się nie zmieniło. Jak przedtem,
+codziennie widujemy się z Inezą i pijemy rozkosz ze wspólnego kielicha, jak dawniej, pływamy gondolą po lagunie
+i robimy bliższe lub dalsze wycieczki. A jednak coś wkradło
+się do naszego stosunku i położyło się w poprzek nieokreślonym sprzeciwem.</p>
+<p>Parę już razy przyłapała mnie Inez na tym, że bez widocznego powodu popadłem w zamyślenie; kiedy indziej
+zrobiła mi pełen goryczy wyrzut, że nieraz wśród miłosnych
+uniesień czynię wrażenie roztargnionego. Lecz i ja zauważyłem zmiany u niej. Nie było w nich nic takiego, co by
+mogło mi świadczyć o ochłodzeniu jej uczuć ku mnie: zmiany te miały charakter specjalny. <emph>Donia</emph> Orpega stała się od pewnego czasu lękliwa i nerwowa. Lada szmer budzi
+w niej przesadną obawę, lada cień rozrasta się do wymiarów grozy. W ostatnich czasach zdaje się ustawicznie czegoś nasłuchiwać, na coś czekać.</p>
+<p>Onegdaj wieczorem przytuliła się do mnie drżąca, a zapytana o powód, odpowiedziała:</p>
+<p>— Ciągle mi się zdaje, że ktoś skrada się ku mnie cichymi kroki lub że czai się poza moimi plecyma. Kiedy
+indziej znów mam wrażenie, że ktoś tu miał przyjść i zatrzymał się w drodze; lecz zamiaru swego nie zaniechał —
+tylko go na czas pewien odłożył — na termin nieokreślony.</p>
+<p>— Ależ to są wszystko dzieciństwa, najdroższa — uspokajałem. — Jesteś trochę wyczerpana nerwowo i stąd może
+przewrażliwiona.</p>
+<p>— Nie, nie, Adamello! Ty się mylisz. To jest coś całkiem
+innego. Najbardziej denerwuje mnie właśnie ta nieokreśloność, owo wahanie się, ten brak decyzji…</p>
+<p>— Jakiej decyzji?</p>
+<p>— Nie wiem. Gdybym wiedziała, nie lękałabym się.
+Najgroźniejszym jest strach przed czymś nieuchwytnym.
+Czuję dookoła siebie złe, wrogie mi wiry.</p>
+<p>Wzruszyłem ramionami i umyślnie przeszedłem do innego tematu. Zresztą prawie zawsze udaje mi się rozprószyć
+w niej ten chorobliwy lęk przed nieznanym i gdyby nie
+te chwilowe, choć nader przykre nastroje, życie nasze byłoby jak park rozkwitły w maju.</p>
+<p>Przez cały ten czas widziałem Rotundę tylko raz jeden.
+Zdaje się, że mnie nie poznała; przeszła obok jak dawniej surowa i obojętna z oczyma ukrytymi pod kaskiem. Unikam
+jej teraz i często wracam od Inezy do siebie okrężną drogą…
+</p>
+<quote>
+<p>10 września</p>
+</quote>
+<p>A jednak Inez miała rację. Obawy jej zaczynają przybierać formy bardziej określone. Dziś już można powiedzieć,
+że poniekąd są uzasadnione. O ile w ogóle można się czegoś obawiać ze strony biednej, nieszczęśliwej wariatki.</p>
+<p>Rotunda ją prześladuje! To nie ulega wątpliwości. Od
+pewnego czasu krąży wciąż w jej pobliżu jak złowróżbny
+puszczyk, wykwita wciąż na jej drodze jak kwiat smutku
+i żałoby. Nie jest agresywna — bynajmniej: przechodzi tylko mimo jak nieubłagane memento. Nigdy nie patrzy na
+nas — chociaż czujemy to dobrze, że wie o naszej obecności, że nas, a raczej Inezy szuka. I może właśnie ten jej
+kamienny, pogardliwy spokój, ta wyrafinowana obojętność
+najwięcej denerwują moją ukochaną. Nie można się nawet
+przed nią bronić, bo nigdy nie zaczepia, nie prowokuje.
+Cała jej siła w tym, że przechodzi, że mija. <emph>Donna Rotonda
+che passa</emph>…</p>
+<p>Lubi też robić niespodzianki — lubi zaskoczyć znienacka,
+i to wtedy, gdy się najmniej spodziewamy. Przed paru
+dniami późnym wieczorem odbiliśmy gondolą od Ca d'Oro.
+Zajęty rozmową z Beppem, któremu pomagałem we wiosłowaniu, odwróciłem się plecyma do wybrzeża i śledziłem
+światła odbite w kanale. Nagle uczułem, że Inez ściska mi
+nerwowo rękę.</p>
+<p>— Co, <emph>carissima</emph>?</p>
+<p>— Patrz, patrz tam — na wybrzeżu — <emph>ona</emph>!</p>
+<p>Popatrzyłem we wskazanym kierunku i rzeczywiście
+spostrzegłem ją stojącą nad samą wodą wyniosłą i prostą
+jak kolumna.</p>
+<p>— Widocznie wyszła na brzeg, by nas pożegnać —
+próbowałem zażartować, lecz spojrzawszy na Inezę, zamilkłem…</p>
+<p>Innym razem w czasie mej nieobecności niespodzianie
+zjawiła się Rotunda w ogrodzie Papadopoli, gdzie <emph>donia</emph>
+Orpega oczekiwała mego przybycia. Wysunęła się spoza
+grupy drzew tak nagle, że Inez mimo woli wydała okrzyk
+przerażenia. Na szczęście w tejże chwili nadszedłem. To
+właśnie spotkanie utrwaliło we mnie podejrzenie, że <emph>Donna Rotonda</emph> prześladuje Inezę.</p>
+<p>Bo moją osobę zdaje się zupełnie ignorować, jak gdybym
+dla niej nie istniał. Byłżeby to tylko manewr zazdrosnej
+kobiety? Chociaż skąd ta pewność, że Gina jest o mnie
+zazdrosna, że nie kierują nią zgoła inne motywy? Może ja
+rzeczywiście miałem być tylko „łącznikiem” między tymi
+dwiema kobietami, łącznikiem i niczym więcej? To pewna,
+że szuka zbliżenia tylko do Inezy. I to właśnie przejmuje
+<emph>donię</emph> dreszczem przerażenia.</p>
+<p>— Nie chciałabym nigdy zostać z nią sam na sam —
+wyznała mi dzisiaj podczas kolacji. — Zawsze miałam jakąś
+instynktową odrazę do tej obłąkanej, a teraz lękam się
+jej wprost jak widma. Mam wrażenie, że wczoraj, już po
+twoim odejściu, gdy wyszłam na chwilę do loggi w parterze, by odetchnąć wieczornym chłodem, <emph>Rotonda</emph> usiłowała
+podpłynąć do mnie na gondoli.</p>
+<p>— To niemożliwe! — zaprzeczyłem żywo. — Zdawało
+ci się. Czyżby śmiała?</p>
+<p>— Jestem pewna, że to była ona; poznałam ją po stroju,
+po tym okropnym pół hełmie, pół kapeluszu. Była już na
+linii moich schodów i widocznie chciała tu wylądować.
+Przerażona uciekłam w głąb domu i zaryglowałam za sobą
+bramę wchodową. To zuchwała wariatka! Nie powinieneś
+teraz odstępować ode mnie na krok; ja się boję, Adamello…
+</p>
+<quote>
+<p>14 września</p>
+</quote>
+<p>A przecież Rotunda jest o mnie zazdrosna! Zazdrosna jak
+o kochanego mężczyznę! Przekonała mnie o tym dzisiejsza
+śmieszna w istocie rzeczy przygoda na Ponte Rialto.</p>
+<p>Poszliśmy tam z Inezą w samo południe, przypatrzyć
+się wzmożonemu z powodu jarmarku ruchowi i obejrzeć
+bazary. Most roił się od przechodniów, przekupni i kupujących; zwłaszcza ciemnowłose, niebieskookie mieszczanki,
+<emph>cittadine</emph> weneckie, o powłóczystych spojrzeniach, w czarnych, żałobnych sukniach i tradycyjnych szalach i mantylach, rej wodziły w rozkrzyczanym i roznamiętnionym gorączką targu zbiorowisku.</p>
+<p>Zatrzymaliśmy się przed bazarem <emph>signor</emph> Giuliana, który
+głośno i z emfazą wyliczał zalety swych naszyjników. Jeden z nich z owalnych ziarn perłowej masy podobał się
+Inezie. Przerwałem przekupniowi potok pochwał na rzecz
+towaru i zapytałem o cenę. Podał ją z wyszukaną nonszalancją, oczywiście podnosząc ją momentalnie w dwójnasób.
+Zapłaciłem i już mieliśmy odejść, gdy wtem obok <emph>donni</emph>
+de Orpega wyrosła jak spod ziemi Rotunda. Zanim zdołałem jej przeszkodzić, wyrwała Inezie z rąk naszyjnik i zniknęła ze zdobyczą w otaczającym nas tłumie. Stało się tak
+niespodzianie, że w pierwszej chwili wszyscyśmy oniemieli
+ze zdumienia. Dopiero po czasie zerwała się burza okrzyków
+i posypały się dosadne epitety pod adresem obłąkanej:</p>
+<p>— <emph>Ladra Rotonda! Ladra, ladra</emph>!</p>
+<p>Kilka osób rzuciło się nawet w pogoń za zbiegłą. Na
+twarzy Inezy zbladłej z przerażenia pojawił się uśmiech.</p>
+<p>— <emph>Lasciate la!</emph> — uspokajała oburzonych. — <emph>Lasciate la
+povera pazza! Non m'importa!</emph></p>
+<p>A potem rzekła do mnie półgłosem:</p>
+<p>— Niechaj jej służy. W gruncie rzeczy zadowolona jestem z tego, co zaszło. Może nareszcie pozostawi nas w spokoju.</p>
+<p>Zajście na Rialto zaniepokoiło mnie na serio i poważnie
+zatroskałem się o bezpieczeństwo Inezy. Tegoż jeszcze wieczora postanowiliśmy opuścić Wenecję i przenieść się na
+Chioggię. Zamiar nasz mieliśmy zrealizować zaraz nazajutrz
+po południu. Ponieważ parowiec, kursujący między Wenecją a malowniczą wyspą w południowej części laguny,
+odjeżdżał koło piątej, a żegluga trwa około dwóch godzin, spodziewaliśmy się przed nocą stanąć u celu i znaleźć tymczasowy przytułek w jednym z hoteli. Potem miałem wynająć jakąś willę od strony Adriatyku i tam zamieszkać
+z Inezą.</p>
+<p>Na układaniu planów i przygotowaniach do podróży
+upłynął nam wieczór i część nocy. Ineza była bardzo ożywiona i z błyszczącymi gorączkowo oczyma żegnała mnie
+około północy. Umówiliśmy się, że przyjdę po nią nazajutrz
+o trzeciej i gondolą podpłyniemy do przystani w kanale
+św. Marka. Odszedłem z uczuciem ulgi i wkrótce zasnąłem
+głęboko.</p>
+<p>Ranek dnia następnego poświęciłem załatwieniu sprawunków związanych z przeprowadzką, a w południe zjadłem obiad w <emph>trattoria</emph> na Cannareggio. Gdy opuszczałem
+restaurację, była godzina druga. Opanowany już przez nerwicę podróży przeszedłem się parę razy po <emph>calle</emph> Vittorio
+Emanuele, spaliłem mnóstwo papierosów i nie mogąc doczekać się godziny trzeciej, kazałem pierwszemu z brzegu
+gondolierowi zawieźć się do Inezy. Gdy podpływaliśmy pod
+pałac, zauważyłem u stopni debarkaderu jakąś gondolę
+uwiązaną do jednego z błękitnych słupów. Łódka nie należała do Inezy i gondolierem drzemiącym na ławce nie był
+Beppo.</p>
+<p>— Czy <emph>seniora</emph> ma gości? — zapytałem go niechętnie.</p>
+<p>Przewoźnik ziewnął i przeciągając się leniwo, odpowiedział z dziwnym uśmiechem:</p>
+<p>— O tak, <emph>signora</emph> ma gościa — rzadkiego gościa.</p>
+<p>Gdy wszedłem na stopnie, kotara oddzielająca loggię
+od wnętrza rozchyliła się i wyszła Rotunda. Spostrzegłszy
+mię, drgnęła, lecz natychmiast opanowała się i obojętna,
+z kamiennym spokojem na twarzy chciała mnie minąć. Zawrzałem gniewem.</p>
+<p>— Czego tu szukasz? — zapytałem ostro. — Dlaczego
+włóczysz się koło tego domu?</p>
+<p>Zbyła mnie milczeniem i zeszedłszy po schodkach, wsiadła
+do swej gondoli. Plusnęło skrzele wiosła, sfałdowała się
+woda i łódź wysunęła się skwapliwie na środek kanału.</p>
+<p>Rzuciłem się ku wejściu i odsunąwszy draperię, wpadłem do przedsionka. Tu, na posadzce pod jedną z kolumn
+leżała na wznak Ineza; w piersi jej wbity po rękojeść tkwił
+wenecki puginał. Pewną miała rękę Gina Vamparone,
+pewną i niezawodną: ugodziła w samo serce…</p>
+<p>I znów jest piękne, weneckie popołudnie, słońce gra
+na opalowej fali i roztocz laguny skrzy się miriadami blasków. I znów, jak dnia pierwszego, kiedy ją poznałem, odbijam od Fondamente Nuove z moją ukochaną. I jak wtedy, płyniemy znów w tę samą stronę: ku Wyspie Cmentarnej…</p>
+<p>Spoczywa przede mną na dnie czarnej gondoli słodka
+i pogodna, z uśmiechem na alabastrowej twarzy, w powodzi
+fiołków i białych róż — śpi cicha i królewska na rozkołysanej fali, a nad nią sklepi się szafirowe niebo…</p>
+<p>Pochylam się ku małym, w atłasowe ciżmy odzianym
+stopom, tulę je do ust mych i słyszę, jak poza mną, na
+wyżce łodzi ktoś płacze… To Beppo — nasz gondolier…</p>
+<quote>
+<p>Wenecja, lipiec r. 1927</p>
+</quote>
+</div>
+</body>
+</text>
+</TEI>
