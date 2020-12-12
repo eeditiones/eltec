@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM028" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM028" xml:lang="ro">
         
         <teiHeader>
             <fileDesc>
@@ -24,7 +22,14 @@
                     <measure unit="pages">219</measure>
                 </extent>
                 <publicationStmt>
-                     <p></p></publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
                 <sourceDesc><bibl type="firstEdition">
                     <author>Constantin I.A. Nottara</author>
                     <title>Suflete obosite</title>
@@ -45,11 +50,12 @@
                 <textDesc>
                     <e:authorGender key="M"/>
                     <e:size key="medium"/>
-                    <e:canonicity key="low"/>
+                    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
                     <e:timeSlot key="T3"/>
                 </textDesc>
             </profileDesc>
             <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
                 <change when="2019-11-17">Initial TEI version generated.</change>
             </revisionDesc>
         </teiHeader>
@@ -138,7 +144,7 @@
 <p>-Mă plictisesc..., mă plictisesc.., mă plictisesc... Gândi asupra acestor cuvinte, le deslipi în silabe, căutând să vadă înţelesul fiecăreia, până când creerul, obosit perdu noţiunea şi se formă alt ordin de idei.</p>
 <p>Când se deşteptă din lâncezeală, soarele apunea, aurind copacii de lângă zidul uriaş al caselor. Alexe sări în sus, dete fuga, închise odăile, şi luându-şi rămas bun dela vechiturile lui, dela câinile Ercul şi de la pisoiul Edgard, încredinţă cheile portarului, singurul păzitor al palatului. Eși în stradă, se sui într`o trăsură şi porni la gară.</p>
     
-    <milestone unit="section" rend="blankLine"></milestone>
+    <milestone unit="section" rend="blankLine"/>
 <p>Sgomotul mulţimei, care se ducea, alerga, gesticula, al amploiaţilor, strigând numele gărilor, trezi pe Alexe din visuri. Se sui în vagonul cel mai puţin populat, se trânti într`un colţ; căută să aţipească. Gândurile năvăliră mai furtunoase ca altădată. Aceleaşi amintiri, învăluite în aceeaşi atmosferă copilărească, tristă, i se presenta în minte. Slăbiciunea de nervi, starea aproape patologică în care se găsea, îi mărea acceleraţia cerebrală; imaginiile fisice veneau năvală, cu tablouri, cu dialoguri, cu gesturi: toate manifestările representative ale lumei de-atunci.</p>
 <p>ÎI durea capul, se sculă în sus, să înlăture seria de imagini ce i se presentau. Dar un vers, strâns legat cu situaţia de-atunci, îi suna în minte:</p>
 
@@ -154,7 +160,7 @@
 <p>Fluerul ascuţit al trenului îl deşteptă. Cercă să distingă luminile în depărtările neguroase, număra copacii, stâlpii telegrafului; asculta sgomotul asurzitor, şi ritmic al vagoanelor, dar nimic nu putea să-i îndepărteze din minte scenele de odinioară... Năucit de atâta durere continuă, ce-i sguduia toate fibrele corpului, eşi afară să respire mai liniştit.</p>
 <p>Alte imagini, îi cotropiră mintea. Ca din senin, figura tatălui i se desluşi, un om înalt, bine făcut, frumos, fața bărbătească, nimic femenin, trăsături fine, dar severe. El aparţinea prin naştere şi educaţiune acelei generaţiuni privilegiate, entusiastă, plină de vlagă, care lucrase mult la regenerarea spiritului de libertate. Cinstit foarte orgolios, mândru de originea neamului din care se trăgea, fără să despreţuiascâ clasa de jos, fără aspiraţii la demnităţile statului, ospitalier, peste măsură de risipitor, gata să sacrifice averea pentru interesele vitale ale ţărei.</p>
     
-    <milestone unit="section" rend="blankLine"></milestone>
+    <milestone unit="section" rend="blankLine"/>
 <p>Pe la începutul secolului XVI, pe când în Italia înflorea arta, o mulţime de familii nobile grece, cari conservau gustul artei, din tată în fiu, cu eleganţâ şi rafinerie, demnă de Arcadia vechie, trimeteau pe tineri în centrurile artistice ale Italiei, să se pătrunză de toată delicateţa şi rafineria acelui secol artistic.</p>
 <p>Afară de aceasta, căderea Constantinopolului în mâinile Turcilor, sili pe multe familii nobile să emigreze în Italia.</p>
 <p>Una din familiile care domnise la Byzanţ, Comnean, trimise pe un tânăr, abia de 22 ani, să facă pictura sub vestitul pictor Anibal Caraccio. Tânărul, Dosoftei Comnean, reuşeşte printr`o delicateţă de coloare, ce reamintea pe Boticelli, prin imaginaţia vie, visătoare, prin execuţiunea leneşă, melancoiică, ce respirau tablourile lui, să atragă atenţiunea lumei artistice de-atunci. Inamorat de o contesă, amatoare de artă, care venea des în atelierul celor doi fraţi Caraccio, o roagă sâ`i pozeze, îi făcu portretul, şi contesa, deşi măritată, trăi cu el. Portretul ei, aşa de cunoscut, fusese aşezat în galeria Pitti. Se zice că un Florentin superstiţios, s`ar fi aruncat ca un nebun asupra portretului, temându-se de ochii ei, cari îl urmăreau pretutindeni, crezând după superstiţiunea timpului, că diavolul fusese în legătură cu artistul şi`i ajutase la execuţia tabloului.</p>
@@ -238,7 +244,7 @@
 <p>Alexe, obosit, se lăsa să cadă pe muşchiul verde brumat al stâncilor. Adormea în cântecul undelo, înfăşurat ca într`o cămaşe subţire, transparentă, ca apa, în ceaţa mărei...</p>
 <p>Dar când începea noaptea şi soarele perea de pe cer luni întregi, când viforul năprasnic lovea fyordurile de îngrămădea zăpada în unghiurile stâncilor, când o drâmbă groasă, ca o pânză de în învăluia munţii şi pădurile de brazi, când amorţeau pasările marine în găurile rocelor şi când marea gemea ca o fiară strânsă în lanţuri, bătând cu furie stâncile, Alexe alerga sub cerul Italiei...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Primă-vara, când dau portocali în floare şi aerul se îmbălsăma de parfumul violetelor de Parma, de liliac şi iasomie, dormea ceasuri întregi în grădinile neumblate, părăginite din sudul Italiei</p>
 <p>Cu ochii pe jumătate închişi, urmărea câte un nor alb, cum se subţia, luând diferite forme, până dispărea în infinit.... de rămânea cerul limpede, ca oglinda.</p>
 <p>Atunci se uita cu desăvârşire, perdea noţiunea realităţii şi închizând ochii, i se părea că sboară pe luciul senin, albastru al cerului, planează ca fulgul, se lasă pe pământ; se ridică iarăşi în sterile senine, necunoscute...</p>
@@ -248,7 +254,7 @@
 <p>Cleopatra, goală ca o naiadă, întinsă pe un covor mare, de purpură, cu braţele razem, privea fix în ochii lui Antoniu.</p>
 <p>Din când în când sorbea din vinuri, îşi apropiau gurile, se adăpau ca paserile...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Târziu, când se deştepta, se uita printre ramurile naranzilor cum perau cele din urmă raze de soare după câte un monument Roman. Ii lăsa în suflet nostalgii de depărtări, păreri de rău după acea lume apusă, creatoare de frumuseţi...</p>
 <p>Lumea contimporană, era uitată cu desăvârşire...</p></div>
                 
@@ -265,7 +271,7 @@
                     <p>O carte de curând publicată <title>„Les Princesses Byzantines”</title> de Paul Adam, îl interesase mult, dar nu`l mulţumise. Documentele literare pe care le poseda în bibliotecă, câteva scrisori de-o gingăşie, de un spirit fin delicat, dau nota caracteristică a acestui curtezane, care uimise lumea prin genialitate şi frumuseţe.</p>
 <p>Alexe Comnean, din portretul ce-l avea înainte, semănând cu madonele gingaşe, delicate ale lui Luini, din documentele proprii, din scrisori, închegase caracterul psicho-fisiologic al acestei femei. I se părea că trăeşte, îi vorbeşte şi prin acea intuiţie rară, proprie spiritelor analitice, citea dorinţele, patimile, dorurile iei nebune şi ascunse.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Era femeia visată: curtezană şi erou.</p>
 <p>Zile întregi, rămânea acolo, căutând să se pătrunză de atmosfera trecutului istoric, glorios al acelor eroi, cari jucaseră un rol aşa de însemnat în istoria civilizaţiei a patru ţări: Grecia, Byzanţ, Italia şi România.</p>
 <p>Ca să uite de toate prejudecăţile, de convenţiunile sociale, de datinile de pe la sărbători, de anul şi luna în care trăia, poruncise tuturor cărora se găseau împrejurul lui, nici-odată să nu-i aducă aminte de nimic. Toate micile convenţiuni practicate de burghezie, îl scârbeau peste măsură.</p>
@@ -294,7 +300,7 @@
 <p>Saturat de filosofia clasică, de literatura şi arta modernă, căuta ca un om ale cărui iluzii au fost înşelate, un refugiu într`o lume imaginară...</p>
                     <p>Toate cărţile de analisă a moravurilor societăţii contimporane, le `ncuiase într`o bibliotecă dintr`o sală întunecoasă, să uite cu desăvârşire viaţa modernă. Păstrase numai într`o ediţie rară, ilustrată câteva volume din scrierile acelor literaţi moderni, cari se depărtaseră dela analisa moravurilor burgheziei. Din Huysmans: <title>A Rebours</title>, <title>Tentation de Saint-Antoine</title>, <title>Salambô</title>, de Flaubert, <title>La Faustin</title>, de Goncourt, toate operile lui Edgard Poe, câteva romane vechi englezeşti, o ediţie rară a tuturor operilor lui Shakespeare, tipărită pe timpul Elisabetei, cumpărată dela un călugăr augustin, de la o mănăstire din nordul Italiei. Nu avea nici un poet, afară de Ossian. Restul bibliotecei, afară de documente, de operile scrise de strămoşii lui, de cărţile grupate de fiecare membru al familiei, cuprindea o sumedenie de volume, de autori de prin secolul XV, XVI, XVII, XVIII, găsite şi cumpărate de prin mănăstiri, cărţi oprite de monarhii timpului ca periculoase, confiscate şi închise pela mănăstiri, să nu pătrunză în lume. Intre altele, o carte a lui Pomponius Mela, tinde vorbea de Satyri africani, o ediţie rară a cărţei: <title>Vigiliae Mortuorum secundum Chorum Eclesiae Maguntinae</title>.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Arare ori citea. Când deschidea biblioteca, căuta vre-o iscălitură curioasă, vre-o scrisoare rătăcită prin rafturi, sau prin foile cărţilor.</p>
 <p>Incepuse să-şi scrie memoriile în albumul familiei, alături de Ana Comnean. Nemulţumit de modul de-a sensibiliza imaginile, amâna zi dupe zi. Trudit, plictisit de atâta cristalizare de idei, asupra vieţei, asupra artei, voia să se apropie cât mai mult de viaţa animală.</p>
                     <p>La început făcuse <foreign>„tabula rasa”</foreign> de toate prejudecăţile şi convenţiunile sociale, acum voia să uite totul.... să nu-şi mai aducă aminte de nimic, să intre în acea viaţă tihnită, stupidă, de lincezeală animală în care de obiceiu, trăesc majoritatea oamenilor.</p>
@@ -310,7 +316,7 @@
 <p>Intr`o dimineaţă de primăvară, pe când cobora din casă, îl izbi frumuseţea arborilor de trandafiri, ce plecau din faţa palatului, până în şosea, la poarta cea mare. Parfumul lor îi trezi o idee bizară: „Dacă ş`ar întocmi o seră cu tot felul de plante, un laborator pentru prepararea parfumurilor. .?</p>
 <p>Ideea aceasta îi plăcu, cu atât mai mult, cu cât observase că mirosul unor flori, anumite preparaţii de parfumuri, îl sugerează anumite scene, în legătură cu viaţa lui.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
                     
 <p>Aduse o mulţime de flori, de toate genurile şi speciile. Scrise la o casă mare din străinătate să-i trimeată cărţi pentru prepararea parfumurilor şi un bun grădinar. Construi sera afară lângă galeria portretelor, instală irigaţiuni, câteva pompe pentru aducerea apei la de iaz. Alături, sub aceleaşi acoperământ, despărţi sera printr`o uşe originală, făcută din plante tropicale, de laboratorul de parfumuri. Intre flori şi plante aşează statui. Incepu să lucreze, să altoiască tot lelul de plante, să prepare parfumuri noi, căutând să uite cu desăvârşire teoriile parodoxale asupra, vieţei asupra artei.</p>
 <p>Spiritul obişnuit de ani, cu acea analiză subtilă, delicată, care-l făcuse moale, leneş, gata ori când să pornească în analiza celui mai mic fenomen, îl stimula, printr`o lege naturală phisit»logică, să caute în viaţa plantelor şi a florilor, tot acele fenomene afective, care apropie pe om de cele lalte fiinţe organice, vegetale. Observase ea plantele şi florile au viaţa lor phsică aparte. Sensibilitatea lor, nu se putea compara cu a nici unei alte fiinţe organice. Comparaţia lui Ptolemeu Hephestion, cu roca marină, care rezista tuturor uraganurilor şi valurilor marei şi tremura numai la atingerea floarei Asphodeles, îi da unitatea de comparaţie, de puterea extraordinară de sugestiune, de sensibilizare, pe care florile o pot exercita, chiar asupra produduselor inorganice.</p>
@@ -320,7 +326,7 @@
 <p>Inconştient, stabilea aceeaşi lege psichică, care-l înlănţuia pe el de casa vechie, de portrete, de amintiri şi între atmosfera parcului, dispoziţia arborilor şi viaţa lor de trei sute de ani...</p>
 <p>De doi ani se ocupa cu studiarea vieţii psichice a plantelor şi cu prepararea parfumurilor.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
                     
 <p>In laboratorul de lângă seră, combina deosebitele feluri de esenţă de flori, stoarse prin ajutorul instrumentelor, distilate. Cu aceste parfumuri necunoscute, tari, delicate, căuta să-şi trezească tot felul de nuanţe de colori, imagin, numele şi ospățurile celebre ale curtezanelor antice, care făcuseră epocă, scene orgiace din viaţa Romană, a Greciei artistice, a Medicişilor din timpul reanaşterei literare şi artistice.</p>
 <p>Rafturile laboratorului erau pline cu flori, instrumente, inscripţii, numele parfumului, plantele din care se combinase, data când fusese preparat.</p>
@@ -328,7 +334,7 @@
                     <p>Floarea de tei, specia de trandafir <foreign>„creme”</foreign> numit M-me Flhaut, violetele de Parma combinate, îi dau scenele de altă dată ale familiei.</p>
                     <p>Parfumul florilor de portocal, abia simţit, îi deşteptau scenele orgiace ale curtezanelor romane şi grece. II botezase, parfumul: <title><hi>Anna Comnean</hi></title>.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Odaia de culcare, o cameră mare, cu două sofale turceşti, aşternută cu un covor mare oriental, cu ţeseturi din legendele Arabe, o stropea cu acea odoare, care-i evoca tradiţiile familiei.</p>
 <p>Acolo, într`un colţ al odăiei, aşezase pe soclu de marmură, statua poetei Sapho, opera unui sculptor tânăr Italian, care se împuşcase la Florenţa de mizerie.</p>
 <p>Intr`o dimineaţă, ducându-se în târgul florilor, fu atras de mulţimea grămădită la un colţ, unde se vindeau rămăşiţele mizeriei, ale acelui sculptor.</p>
@@ -338,7 +344,7 @@
 <p>Când viaţa laboratorului îl plictisea, eşea din seră. Se îndrepta spre grajd, vizita vacile, boii, cu care i se lucra câmpul, apoi se ducea la vânat.</p>
 <p>Aerul câmpului, reşina proaspătă a brazilor, nuanțele de colori din natură, îi schimbau dispoziţia spiritului. Era mulţumit, uita viața contimporană.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Trei ani, se scurseseră într`o monotonie şi o plictiseală animalică, alergând din seră în laborator, unde mirosurile de parfumuri îi deschideau tot felul de orizonturi din viaţă cu toate impresiunile de gesturi, colori cu toate elementele visuale, olfactive şi auditive. Apoi în grajd, uitând de toţi şi de toate, confundându-se în viaţa animalică, alergând pe câmp, vânând şi pescuind pe marginea lacurilor şi a pădurilor.</p>
 <p>Când venea de la pădure şi vedea din depărtare cum tremură, scăpărând în argintiu frunzele plăpânde ale mesteacănilor, sub bătaia razelor reci ale lunei, i se deştepta o dorinţă nebună anormală, de-a-se preface în frunză, să simţă, să auză, ce spun bătrânii copaci de tremură vecinic...?</p>
 <p>Intra în casă. Il oboseau atâtea imagini, atâtea scene, ce`l năpădeau cu o iuţeală de neinchipuit. Fugea pe câmp. Se intindea pe maldărul de fân, cosit de curând. D`asupra lui, ciocârlia se ridica tremurându-şi aripele în razele apuse ale soarelui, cu aceiaşi iuţeală, cu care foile mesteacănului se legănau de vânt. Nori subţiri, diafani, lunecau în infinit..., subţiindu-se ca nişte fuioare străvezii, împrăştiindu-se ca fumul dincolo de pânzele albăstrii ale cerului de Iulie.</p>
@@ -358,7 +364,7 @@
 <p>Incetul cu Încetul, imaginile se limpeziră, apărând în lumina lor proprie, cu toate impresiunile şi colorile locale.</p>
 <p>- Dar unde sânt, cine m`a adus aici..?</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>O rază aurie de soare, pătrunzând prin între-deschizătura obloanelor ferestrei, îi schimbă cât ai clipi din ochi, toată seria gândurilor..</p>
 <p>Avu iluzia sub impresiunea puternică a razei de soare, a mirosului de flori de portocali, imbâcsit în haine, că se găseşte sub cerul Italiei.</p>
 <p>Simţea cum i se transformă corpul într`un fum uşor, pluteşte pe d`asupra mărei, se leagănă de de vânturi, lăsându-se încet ca fulgul, sub umbra naranzilor...</p>
@@ -380,12 +386,12 @@
 <p>Alexe, rămase intrigat. Acolo peste zidul uriaş al vechiului palat boeresc, zărise la fereastră o mână albă, dând ramurile unui mesteacăn la o parte, făcându-şi loc să privească.</p>
 <p>Fusese o iluzie a simţurilor lui bolnave, sau văzuse acolo un cap de femee tânără, uitându-se printre ramuri? Nu ştia cine şade, nu se interesase niciodată de nimeni, nici nu voia să ştie că împrejurul lui trăesc oameni. Grădina, parcul imens, tăcerea şi liniştea în care înota întreaga casă, îi mări curiositatea.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Nu iubise nici-odată Viaţa lui amoroasă, se mărginea la câte-va aventuri primejdioase, de beţie nervoasă şi amor propriu, la Roma, cu contesa Eulalia Lutetia d`Avril, de pe urma căreia, se alesese cu o rană adâncă, la umărul stâng, un urma unui duel.</p>
 <p>Femeea aceea de care `şi aducea aminte cu groază şi plăcere, întrunea calităţile Herodiadei. Aceeaşi putere de-a fermeca şi sugestiona, aceeaşi pervertire în iubire. Pe cât era de frumoasă, pe atât de de perversă. Işi număra amanţii după sinuciderile şi morţii căzuţi în duel La Roma, contesa d`Avril era supranumită <quote>„curtezana-vampir”</quote>. Dar nimeni, nici-o femeie nu ştia să sărute mai aprins, nici o curtezană nu avusese ochi negri, mai ispititori, mai satanici, ca ai contesei d`Avril...</p>
 <p>Nimeni nu-i putea rezista. Când ridica ochii, toţi cădeau ca muştele, în mrejele iei.</p>
 <p>Işi cunoştea puterea de sugestiune şi când cineva îi plăcea, era destul să arunce privirea şi cădeau pradă jocurilor amoroase, perverse.</p>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Rămăsese cu ochii ţintiţi spre fereastră, ramurile mesteacănului se mişcaseră, o umbră apăruse. Aşteaptă să vadă, dacă`l înşelase simţurile.</p>
 <p>Inaintea lui, vedea statua dreaptă, înaltă, bine făcută, cu părul negru, lins, adus la urechi, a contesei d`Avril. Scena duelului rămăsese neuitată, căzuse lovit de spada adversarului, sângele ţâşnea din rană. Ea sosise să-şi vadă victima. Râdea şi-i arunca flori .. Apoi, comandă şampanie, turnă în pahare, atinse cu degetele-i albe, trandafirii, rana sângerată, le muia în paharul de şampanie, bău licoarea dulce, galbenă, până în fund. Şopti cu mândrie. Este al şaptelea rănit...</p>
 <p>O vedea râzând, arătându-i dinţii albi, dând capul mic, frumos pe spate, sorbind cu nesaţ ultimele picături de şampanie, lingându-şi uşor buzele roşii, vecinic umede.</p>
@@ -395,7 +401,7 @@
 <p>De ani de zile, nimeni nu pătrunsese acolo. Aceleaşi obiecte, aşezate în aceleaşi locuri... Camera de toaletă, era mare, dreptunghiularâ. Cum intrai, o perdea mare de catifea vişinie, acoperea întreaga uşe. In fund, la stânga, două sofale turceşti, aşezate faţă în faţă.</p>
 <p>De sus din tavan, cădeau două perdele albe, brodate, prinse de o parte şi de alta de fereştri, ascunzând sofalele. La dreapta erau două lavabouri mari, de ştejar, în marmură. D`asupra, pe policioarele de stejar, erau aranjate tot felul de sticle cu ape, parfumuri şi instrumente de toaletă. Intr`un perete spânzurau un tablou mic, o vignetă de Sully, representând bustul Smarandei Comnean.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>De şi de-o miticulositate extraordinară în curăţenie, de o eleganţă, o modestie şi o rafinărie rară, în gustul de a-i potrivi vestmintele, nici-o-dată nu pusese mai multă îngrijire ca acum. Dimineaţa aceia, îi reamintea prima intâlnire, pe care o avusese cu contesa Eulalia d`Avril. Cu toate acestea nu avea gândul de-a se duce nicăieri. Amintirea unei cunoştinţe vechi din Germania, într`un muzeu de pictură, îi surâdea, dar nu ştia unde şeade.</p>
 <p>Ideile pornite contra societăţei contimporane, îl izola cu desăvârşire de oameni şi de moravuri. Nu putea suferi berăriile, cafenelele.</p>
 <p>- Toate sânt expresia unei societăţi brutale, întocmită pentru băutură, interes şi îndobitocire. A trebuit o societate de cârciumari, de industriaşi, să alunge frumosul de pretutindeni...</p>
@@ -437,7 +443,7 @@
 <p>Pe un basin de marmură, în mijlocul cercului de trandafiri, o femeie cu corp de balaur, arunca necontenit apă, pe o gură colosală...</p>
 <p>In mijlocul acestei grădini, crescuse Maria, fata princepelui Pavel Mavrodi-Varzaru.</p>
 
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Bătrânul principe Mavrodi-Varzaru, jucase un rol însemnat în istoria politică a ţărei. Fusese un înverşunat duşman al libertăţilor politice, lucrase la susţinerea iobăgiei ţăranului. Ameninţase cu intervenţia Rusiei, când boieri tineri liberali, ridicaţi în contra prejudecăţilor vechi, sociale, pătrunşi de civilisaţia apusană, introduseră schimbările mari de la 1848.</p>
 <p>Conservator feudal, ţăranii de pe moşiile lui, tremurau la auzul numelui de Mavrodi. Om de spirit, cu educaţia făcută în Franţa, învăţase româneşte după ce sosise în ţară.</p>
 <p>In adunarea divanului <foreign>ad-hoc</foreign>, aruncase cuvinte îndrăzneţe la adresa boierilor liberali, tratându-i de iloţi, batjocorindu-le cuvintele mari, umanitare, ameninţându-i cu autoritatea Rusiei.</p>
@@ -448,7 +454,7 @@
 <p>Prinţesa Olga, muri de un catar. Tânărul prinţ Nicolaie, căzu în melancolie şi într`un acces de furie momentană, se aruncă în lacul din parc. II găsiră slugile cu captil zdrobit de marmura basinului. Prinţesa Natalia se căsători cu Dumitru Banu, ministru plenipontenţiar la Berlin.</p>
 <p>Maria râmase singură, alături de tatăl său bolnav de ataxie, surd şi afasic.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Amintirea morţii prinţesei Olga, era aşa de slabă, în cât abia o scenă îi apărea luminoasă. In revărsatul zorilor, când toţi dormeau, s`a sculat, s`a strecurat pe uşe, ca o pisică în vârful degetelor, să n`o auză guvernanta, a coborât scările în picioarele goale şi în cămaşe, s`a oprit în faţa unui cuib de trandafiri, mari invoiţi, cu petalele roşii, sângerate, pline de rouă.</p>
 <p>Se uită peste toţi trandafiri. Rupse repede câţiva boboci tari, fragezi, îi examina cu atenţie. Muşcă cu voluptare vârfurile, aruncă resturile aproape de statua lui Appolo. Adună în poala cămăşuţei pe cei mai invoiţi trandafiri. Sui ocările într`un suflet, deschise uşa unde masa era moartă. Apropiindu-se de căpătâi, o sărută pe frunte, fărâmă trandafiri în petale, le preseră pretutindeni...</p>
 <p>Coprinsă de o frică groaznică, căzu lângă catafalc. Acolo, fusese găsită, aproape fără conştiinţă, strângând în mâna iei albă, micuţă, petalele trandafirilor.</p>
@@ -511,7 +517,7 @@
 <p>Cu cât nu da peste nici o urmă, cu atât chipul frumos apărea mai fantastic, mai extraordinar.</p>
 <p>Când era departe de tablou i se părea că o urmăreşte, o caută pretutindeni, să`i vorbească, să`i spuie din buzele-i sângerate, toate dorurile, toate visurile, care o munciseră în viaţă.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Intr`o zi, a luat cheia de la bibliotecă, a intrat şi s`a închis pe dinăuntru. A început să răscolească în prăfuitele cărţi, a dat rafturile jos, a scos tot. Cu nervositatea omului ce caută o comoară de mult pândită, în urmă aflată, a început să răsfoiască cărţile. Intre zid şi bibliotecă, a dat peste un rând de cărţi groase mucigăite, roase de pe margeni, legate într`o piele neagră, închise în cătărămi mari de argint. Dechise repede o carte şi pe pagineie învechite, mucede, ale unei psaltirii, găsi următorul manuscris:<title>„Din Viaţa domniţei Ruxanda” 1720- 1744.</title></p>
 <p>Ii tremura tot corpul, era aproape să-i cază psaltiriea din mână. Imaginea din vechiul tablou, î se reânoi cu atâta putere, în cât i se păru c`o vede rezemată într`un colţ al bibliotecei.</p>
 <p>Se trânti pe un fotoliu mare, vechiu, în catifea, coloarea prunei brumate. Işi duse mâna la ochi şi lasă să`i cază manuscrisul din mână.</p>
@@ -537,21 +543,21 @@
 <p>In palatul nostru, alături de boierii curţei, ghicisem că acei cari se simt prea mici şi neputincioşi, au trebuinţă de daruri, de laude. Nu`i invidiam, nu`i plângeam... Inţelegeam prea bine lumea, care se perinda în palatul nostru, ca să-mi bat joc de ea. Neavând destulă putere în propria lor personalitate, să trăiască prin gândurile lor frumoase, alergau la distracţii, festivităţii. Primeau laude şi daruri, sfârşind prin a-se înşela reciproc...</p>
 <p>Lumea mea era în mine, iei o căutau în alţii...</p>
     
-    <milestone unit="section" rend="blankLine"></milestone>
+    <milestone unit="section" rend="blankLine"/>
 <p>Pluteam pe luciul senin şi albastru al cerului, trăeam cu natura la un loc, luam parte la toate necazurile iei. Mă întunecam la faţă când ploua, mă înveseleam când răsărea soarele.</p>
 <p>Nu aşteptam pe nimeni nici de la răsărit, nici de la apus. Streină de bunuri lumeşti, trăeam în în viaţa eroilor de altă-dată...</p>
 <p>Câte-odată eram aşa de tristă... Nu ştiu, ce-va greu, inexplicabil, mi se părea că se depune pe lucruri, pe arborii din grădină... Mă ţinea înlănţuită ceasuri întregi, ideea de moarte... De ce? Nu ştiu...</p>
 <p>Poate că ar fi fost mai bine să nu simţi, să nu visezi..., să dormi, să dormi mereu... Dar fiorile şi cântecul vântului, mă fermecau aşa de mult...; îmi aduceau de departe doruri neinţelese, vorbe pe care nu le mai auzisem. Mă îndemneau să mă furişex noaptea, când toţi dormeau, îu grădina palatului... Mă aştepta cine-va?</p>
 <p>Cine ar fi putut să pătrunză printre caraulele înarmate? Doară vântul...</p>
 <p>Dar când toţi dormeau, când caraulele obosite se rezemau de câte-un arbore şi aţipeau, când nimeni nu mişca în palat..., o voce neînţeleasă, misterioasă, mă chema acolo..., în grădină...</p>
-    <milestone unit="section" rend="blankLine"></milestone>
+    <milestone unit="section" rend="blankLine"/>
 <p>Intr`o noapte, vocea ajunse aşa de rugătoare, de ispititoare, în cât simţeam cum inconştient, fără voinţă, mă atrăgea acolo, acel glas dulce şi rugător.</p>
 <p>- De sigur, vântul şi dorinţele mele nu mă lasă să dorm...</p>
 <p>Dar glasul devenea mai puternic, rugător, plângător...</p>
 <p>Fără voinţă, am străbătut în vârful degetelor galeria, care mă despărţea de odaia, unde dormea voevodul, am păşit ca o pasăre printre caraulele adormite, rezemate de perete, am eşit în grădină...</p>
 <p>Arborii clătinau încet din ramuri, foile în freamăt cânta    u; luna aurea foile ştejarilor...</p>
 <p>Acolo, între arbori...</p></quote>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Aci se oprea manuscrisul.</p>
 
                     <p>Domniţa Maria, întoarse o foaie groasă, tremurând din degete, şi, ochii i se opriră pe un alt manuscris:</p>
@@ -581,7 +587,7 @@
 <p>Aşa, cu sănătate şi credinţă, s`au săvârşit din viaţa asta, în cea d`apoi, frumoasa domniţă Ruxanda. .</p>
 <p>Că cine va afla despre feciorul de boer, de unde vine şi pentru ce au fost sângerat la inimă, culcat lângă dânsa, să aducă veste la voevod şi va primi daruri multe şi frumoase...</p>
 <p>In numele tatălui, al fiului şi al sfântului duh, eu, Vasile Mavrodi Vărzaru, logofăt, ot sfetnic domnesc, scris`am aceste rânduri, în zilele prea cinstitului, bine credinciosului şi viteazuiui voevod, Constantin Basarab Brâncoveanu, spre ştiinţa celor ce vor ramuri pe viitor din noi, Mavrodi Varzaru, că am trăit cu cinste şi boerieşi am slujit cu credinţă pre Dumnezeu şi voevod, ca toţi să se roage pentru deslegarea păcatelor domniţei Ruxanda...”</p></quote>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Prinţesa Maria, rămase aiurită, cu manuscrisul în mână, privind încă rândurile vechi, abia citibile...</p>
 <p>Apoi reculegându-şi impresiunile, plecă fruntea pe vechea psaltirie, şi începu să plângă.</p>
 <p>Inţelesese, că domniţa Ruxanda, murise iubind pe feciorul cel frumos, necunoscut de nimeni.</p>
@@ -667,7 +673,7 @@
 <p>Nimic nu-i preocupa mintea decât dorinţa de-a o vedea, de a o auzi şoptindu-i din buzele-i roşii, trandafirii:</p>
 <quote type="letter"><p>Asculta povestea lor, îţi vor spune: vegherile, suspinurile în tăcere, visurile nebune, setea neînfrânată după săruturile apăsate. ., înecate în şoptitul: te iubesc.</p></quote>
     
-    <milestone unit="section" rend="blankLine"></milestone>
+    <milestone unit="section" rend="blankLine"/>
 <p>Rezemat de colţul marei biblioteci, gândea la mizantropismul lui, la mijlocul de a o vedea cât de curând.</p>
 <p>Singurătatea obişnuise spiritul să trăească într`o lume aparte, unde erau numai acele dorinţi realizate.</p>
 <p>Câte-va zile, după ce se instalase în capitală, cu tot desgustul ce-l nutrea contra meschinăriilor politice, într`o dimineaţă, deschisese o gazetă, care se ocupa în special de micile cancanuri, de balurile şi seratele ce se organisau în aristocraţia ţărei. Observase, că jurnalul, vestise intrarea în ţară a familiei Banu.</p>
@@ -686,7 +692,7 @@
 <p>In basa unei teorii paradoxale, că o clasă formată într`o bună dimineaţă, cu un altoi străin, ridicată pe urmele unei alte clase cu tradiţii istorice, fără nici o pregătire intelectuală, îl făcea să creadă, că această clasă nu este accesibilă să dea naştere unei literaturi, unui curent mare artistic, nici să înţeleagă substilitaţile estetice.</p>
 <p>Intemeiat pe această teorie personală, fisolofică, necrezând, neavând nici-o iluzie în puterea intelectuală a stratului nou social, având un fel de pietate mistică, pentru toţi aceia, cari lucraseră în trecut şi întemeiaseră tradiţia istorică; neavând nimic comun cu clasa burgheză, căzuse în mizantropism. Ura industria, pe care o numea <quote>„artă burgheză”</quote>, despreţuia moravurile lor josnice, întemeiate pe interes.</p>
     
-    <milestone unit="section" rend="blankLine"></milestone>
+    <milestone unit="section" rend="blankLine"/>
 <p>Ideile acestea bizare, faptul că trebuia să reintre într`o lume unde totul era cântărit şi măsurat, chinueau pe Alexe Comnean. Cu toate acestea, pasiunea să vază pe Maria, îl mâna cu o forţă de neînvins şi se lăsă târât de imaginea sugestivă a prinţesei Maria, care-l chema acolo.,.</p>
 <p>Se hotărâ de-a lăsa carta d-nei Natalia Banue de a face o vizită unui vechiu prieten, Zamfir Voilă, care publicase un volum de poesii, foarte apreciat în lumea literilor.</p>
 <p>Poesiile lui aveau acea eleganță de formă sculpturală, clasică, respirau acea melancolie, acea fineţă de expresiune şi umor, calităţi, care făcuse pe critici să-l compare cu Henri Heine. De curând, publicase în franţuzeşte un studiu analitic şi estetic asupra a doi oameni iluştri, Nerone şi Catilina, aşa de urgişiţi şi mistificaţi, de falşi istorici. Considera pe Catilina, ca pe un revoluţionar, un suflet mare, distins, un refractar, care voia înlăturarea parveniţilor politici, demagogi, din fruntea republicei. Notele estetice asupra lui Nerone, comparat cu Beaudelaire, Huysmans, Edgard Poe, în legătură cu întreaga mişcare literară a Franţei, fuseseră viu discutate de gazetele străine.</p>
@@ -694,7 +700,7 @@
 <p>Avocat fără să profeseze, îşi petrecea timpul într`o meditaţie continuă, departe de ori ce mişcare politică, urmărind cu aceeaşi pasiune mişcarea artistică din Europa, cu care vânătorul pasionat, îşi urmăreşte prada.</p>
 <p>Trăea împreună cu tatăl său, banul Şerban-Voilă, din venitul unei moşioare, fără nici o altă ambiţie, decât cultul literilor.</p>
     
-    <milestone unit="section" rend="blankLine"></milestone>
+    <milestone unit="section" rend="blankLine"/>
 <p>Alexe Comnean, îmbrăcat într`un saco negru, de o modestie şi o eleganţă, care respirau un gust neîntrecut în arta de a se îmbrăca, se `ntorcea de la D-na Natalia Banu, unde lăsase carta de vizită.</p>
 <p>Opri birjarul într`un colţ alunei cafenele mari, ceru călăuza cu adrese. Căuta la litera V, şi găsi adresa lui Zamfir Voilă.</p>
 <p>Spuse birjarului adresa şi se trânti în fundul trăsurei.</p>
@@ -764,7 +770,7 @@
 <p>- Să aprindem lampa, să mâncăm împreună. Vom vorbi şi de altele, de viaţa ta, de pricina venirei la mine, zise Voilă, tăind brusc şirul discuţiunei.</p>
 <p>Se auzi o trosnitură de chibrit şi apropiindu-se de o lampă mare japoneză, spânzurată de un cuiu al tavanului, o aprinse. Atunci Alexe, putu vedea într`un colţ lângă piano, o statuă de mărime naturală, o vestală Romană, cu braţele întinse, ochii rugători, pătimaşi. Dedesupt, era scris în franţuzeşte: <quote>În ajun de a-se sacrifica pe altarul zeiţei Venus</quote>. Era opera unui sculptor tânăr, cumpărată de la o exposiţie din Italia.</p>
     
-    <milestone unit="section" rend="blankLine"></milestone>
+    <milestone unit="section" rend="blankLine"/>
 <p>Cei doi prieteni, se aşezară la masă, unul în faţa celui l`alt, pe când Sultana, bătrâna servitoare, îi servea. Tăceau amândoi.</p>
 <p>Alexe, printr`un scrupul inexplicabil, simţea că nu trebue să`i povestească nimic de prinţesa Maria. Cuvintele domniţei îi sunau în minte: <quote>„Ți-am trimes trandafiri cu petalele albe, flori răsărite din visuri.”</quote> Imaginea iei, răsărea mai vie, mai plină de farmec divin, în urma discuţiunilor. Era femeia dorită şi visată, curtezana, care înţelegea amorul.</p>
 <p>Voilă, văzându-l aşa de preocupat, ca să-l distreze, să-l readucă la viaţa reală, aruncă o vorbă:</p>
@@ -878,7 +884,7 @@
 <p>Trăsura intră într`o stradă nouă, unde toate casele erau de construcţie modernă, respirau acel aspect de bogăţie şi supra îndestulare materială.</p>
 <p>Firul ideilor i se întrerupse la vederea unei case mari, luminată în electricitate. Singura casă din acea stradă, unde se respectase simetria şi armonia măreaţă de splendoare a stilului roman. Trăsura intră în curtea vastului ospel.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Palatul doamnei Natalia Banu, născută prinţesă Mavrodi, era construit de câţi-va ani. Păstra aspectul lui măreţ, curat, peste măsură de îngrijit.</p>
 <p>Faţada era susţinută pe patru coloane mari de marmoră colorată, înghirlandate pentru acea ocaziune, de jos până sus, în flori de micşunele şi violete de Parma. D`asupra coloanelor, se `ntindea o verandă mare, plină cu flori tropicale, exotice. Alături, se deschidea un salon mare, rezervat festivităţilor şi balurilor.</p>
 <p>Prinţesa Natalia Mavrodi, adusese ca zestre tânărului ministru plenipotenţiar, un venit de o sută de mii de franci. Niciodată tânăra prinţesă n`ar fi luat pe Dumitru Banu, născut din burghezie dacă familia prinţesei n`ar fi avut o datorie veche, contractată faţă de bătrânul Banu, care se prescrisese prin măritişul prinţesei.</p>
@@ -900,7 +906,7 @@
 <p>Pe pereţii tapetaţi cu o pânză fină <foreign>„rose”</foreign> atârnau două profiluri de femeie, tablouri de Henner, o vedere din Bretania, de Raffaëli, o copie după <title>Leda</title> lui Vinci, trei impresiuni de ţară, de pictorul Grigorescu, şi un profil în ulei, al doamnei Natalia Banu, tablou de-o execuţie fină, delicată, de pictorul ungurul, Muncaksy.</p>
 <p>Comnean intră în mijlocul salonului, fixat de-o mulţime de ochi. Necunoscut pentru lumea balurilor, când simţi atâţia ochi îndreptaţi spre el, avu un moment de desgust, de îndoială; unul din acele momente repezi, ce amăreşte sufletul şi distruge nervii. Nu-şi da seama de efectul ce-l produsese, prin acel aer de om distins, de originalitate a figurei, decât prin costumul lui trubaduresc.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
                     <p>Muzica din veranda începuse să cânte. Lumea invitată, aproape şaizeci de persoane, erau numai prieteni intimi, se mişcau prin sală. Câţi-va tineri în haine de cavaleri, Louis XIV, XV, XVI, se plimbau pe dinaintea damelor, costumate în marchize, costum uri dela curţile vechi ale voevozilor noştri, <hi><foreign>à la Pompadour, Maria Antoaneta</foreign></hi>. Işi făceau vânt cu evantaliuri, schimbând vorbe banale în frunţuzeşte asupra decoraţiunei salonului, asupra politicei şi micilor întâmplări familiale.</p>
 <p>Alexe se simţi privit la doui paşi de o damă ce-i zâmbea, apoi se `ndreptă spre el. Recunoscu pe d-na Natalia Banu, costumată în prinţesă de voevod, rochie lungă de catifea purpurie, peste care cădea o manta de mătase albă, brodată, deschisă la piept, purtând pe cap coroana de prinţesă, împodobită cu diamante.</p>
 <p>Ii luă braţul cu graţia unei regine şi`i vorbi în englezeşte:</p>
@@ -1017,7 +1023,7 @@
 <p>D`atunci Alexe, rămânea nemişcat în braţele ei. Tăcea, asculta, până când domniţa singură îi întindea buzele însetate după ale lui. Rămâneau obosiţi, întinşi fără de mişcare în acel cuib ascuns, unde uitau de toţi şi de toate.</p>
 <p>Acolo în liniştea parcului, ascunşi sub frunze, în <foreign>„nid de fauvettes”</foreign> zilele se scurgeau repede: nici o umbră, nici o amintire, nu turbura pacea visurilor lor...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Intr`o zi tânăra prinţesă, intră tristă la cuibul lor. Intârziase ca nici-odată.</p>
 <p>In aşteptare, Alexe, trecuse în cabinetul de pictură. Pe un scaun mare, era întinsă o pânză.</p>
 <p>Domniţa schiţase acolo... momentul, în care văzuse pe Alexe Comnean: foişorul înmormântat în frunze. Intre foi, cu o delicateţă şi o rară gingăşie, îsi schiţase chipul ei, aruncând petalele de trandafiri...</p>
@@ -1095,14 +1101,14 @@
 <p>- Mario..., îţi mulţumesc Mario...</p>
 <p>Se priviră lung cu tristeţe, apoi brusc, se îmbrăţişară nervos şi tremurând, aproape muşcându-şi buzele. Alexe o sărută pe gât de zeci de ori. Se despărţiră, privindu-se cu acei ochi însetaţi după voluptăţile infinite ale sărutului.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Tânăra`prinţesă Maria, abia păşi pragul uşei şi o podidi un plâns nebun de-i îneca respiraţia. Se târâ cum putu în odaia ei şi căzu sdrobită ele tristeţe, cu faţa în jos pe o sofa mare.</p>
 <p>Alexe era departe... ar fi voit să-l recheme.,.</p>
 <p>Plângea de`i seca inima. Sofaua era uda de lacrimi. Avea iluzia că n`are să-l mai vază niciodată.</p>
 <p>Plângea, plângea mereu, strigând printre lacrimi: Alexe... Alexe...</p>
 <p>In curte, lumea venea din toate părţile, se`n-scriau într`un registru mare..., depuneau coroane cu inscripţii...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Alexe Comnean, cum eşi în stradă, îşi aduse aminte de Zamfir Voilă. Se sui în cea d`intâi trăsură, dete adresa birjarului, se trânti într`un colţ. La început nu-şi da seama de situaţia în care se găsea.</p>
 <p>Amuitiri de altă-dată, senzaţiuni, imagini, totul se confunda, se amesteca în acele momente. Nimic clar nu-i apărea în minte. Aci i se părea că vede imaginea fisică a contesei Eulalia d`Avril, aci vedea chipurile martorilor... Apoi imaginea prinţesei Maria, îi apărea ca în primele zile ale întâlnirei şi imediat văzu pe tatăl lui, intins pe un catafalc mare, aşa cum l`avea schiţat într`un tablou.</p>
 <p>Alte imagini, amintiri, sub lumina lor de-atunci, îi apăreau, pereau, reveneau cu o iuţeală de neînchipuit.</p>
@@ -1125,7 +1131,7 @@
 <p>- Da, pot să mă duc, să-mi revăd câmpul, casa, şi grădina... să mă reîntorc mâine...</p>
 <p>Se întoarse, se sui în trăsură şi dete ordin birjarului să-l ducă la gară.</p>
                     
-                    <milestone unit="section" rend="dots"></milestone>
+                    <milestone unit="section" rend="dots"/>
                     
 <p>Când porni carul, plin de coroane pe care era aşezat bătrânul prinţ, să fie dus la groapă, urmat de alte patru care de coroane cu inscripţii nostalgice, tânăra prinţesă Maria leşină în trăsură, alături de sora-sa Natalia, aiurând: Alexe... Alexe...</p>
 <p>Lumea şi-a urmat drumul înainte, să ducă ultimile rămăşiţe ale principelui la gară, d`acolo, la moşia lui, unde ceruse să fie îngropat.</p>
@@ -1161,7 +1167,7 @@
 <p>Chemă bătrâna, închise pretutindeni şi plecă.</p></div>
                 
                 <div type="chapter" n="14">
-<head>XIV.</head >
+<head>XIV.</head>
 <p>Moartea bătrânului prinţ, Pavel Mavrodi-Vărzaru, cu care se`ngropa ultimul vlăstar bărbătesc al unei generaţiuni vechi, istorice, nu surprinsese de loc pe tânăra prinţesă Maria. Dar faptul misterios al morţei, lipsa acelui cadavru, a acelei moaşte trăinde, unde se obişnuise să-l vază, îi lăsase un gol neînplinit. In sufletul ei imaginea lui bolnavă trăise ca în zilele de viaţa sănătoasă.</p>
 <p>Nici odată nu şi-l închipuise bolnav. Obişnuita cu el de ani, îi înţelegea limbagiul de copil, dorinţele ce se citeau în ochii lui stinşi, de ale cărui pleope sbârcite, abia mai atârnau două, trei fire de gene lungi, groase şi gălbui.</p>
 <p>Pustiul era mare în sufletul domniţei Maria cu atât mai mare, cu cât în fie-care zi, la o oră anumită, dimineaţa, când trebuia să`i facă obişnuita vizită, nu mai vedea pe nimeni...</p>
@@ -1176,7 +1182,7 @@
 <p>Voia acolo.., pe un divan mare să aştearnă un pat de petale de trandafiri şi de pansele negre rouate, din Maria fecioară, să devie Magdalena păcătoasă... Voia să trezească în mintea lui Alexe, cuvintele rugătoare:</p>
 <p>- Alexe, se veştejesc prea de timpuriu petalele de trandafiri...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Rezemată de fereastra, unde văzuse întâia oară pe Alexe, cercă să strige, cum striga Alexe, când nu putea să-i vorbească nimic de emoţiune:</p>
 <p>Mario... Mario...</p>
 <p>Un ecou surd, ca o voce venită de departe, se auzi în urma strigătului argintiu. Işi reamniti scena din grădină, înainte de a cunoaşte pe Alexe, când întinsă pe earba mare din parcul castelului, se jucase cu razele lunei, se chemase singură, ca să auză efectul ecoului, în noaptea luminoasă şi liniştită.</p>
@@ -1252,7 +1258,7 @@
 <p>Când a început sâ ningă, am mai stat câteva zile şi apoi, am plecat la Berlin.</p>
 <p>Să fi văzut, cum cădeau fulgi albi de pe vârfurile stâncilor, cum mugeau şi strigau valurile, întărâtate de vânturi... Atunci am cules cele din urmă sflori albe, de sub zăpadă, le-am cules de pe o ctâncă ascuţită, plecată în apă..., pe o vijelie de bredeam că are să se dărâme castelul, să se prăpuşească cu stânci cu tot, în valurile spumoase.... coline de fulgi de zăpadă... Din ele, ţi-am împletit o coroană, s`o păstrezi, sunt flori culese pe vijelie de sub zăpadă, de pe stânci prăpăstioase, udate cu lacrimi, stropite de sânge...</p>
                     
-                    <milestone unit="section" rend="dots"></milestone>
+                    <milestone unit="section" rend="dots"/>
 <p>Viaţa Berlinului îmi lua farmecul singurătăței, umbra brazilor, frumoasa privelişte a Rinului, stâncile cu florile lui albe... Imi lua liniştea de a gândi la tine..., de aţi evoca imaginea ta blândă...</p>
 <p>Acolo..., mă închideam singură în casă, rămâneam ceasuri întregi întinsă pe o canapea, nemişcată, cu ochii închişi. Iţi evocam imaginea, o sărutam, aşa cum ne sărutam noi..., îi spuneam toate dorinţele şi visurile mele... Trebue să le fi auzit Alexe. Te doream şi te chemam prea mult, ca să nu-mi fi auzit plângerile mele... Am înţeles că ceea ce mă făcea să sufăr, atunci ca şi înainte de a te cunoaşte, era singurătatea, dorul de a avea pe cine-va să-i destăinuesc..., să-i dau, ceea ce-ţi hărăzesc ţie acum, din toată inima...</p>
 <p>De câte-va ori, am voit să plec, doctorii consultaţi au spus, să stau până în primăvară, să es în lume, la balurile curţei Berlineze, să mă distrez... Pe cine era să văd acolo? Pentru cine să mă duc? Şi tu sufereai Alexe... Mi-ai venit cu aceeaşi căldură şi patimă, cu acelaşi dor în suflet... De acum graiul şi sărutul buzelor tale, va da viaţă corpului meu...</p>
@@ -1267,7 +1273,7 @@
 <p>Se priveau cu ochii pe jumătate închişi, cu acei ochii pasionaţi de nebunie senzuală. Nu mai puteau să vorbească. Veneau apoi melancolii şi tristeţi de moarte, somnolenţe dulci şi leneşe, pline de visuri... Zile întregi, trăind în aceeaşi atmosferă de friguri senzuale, unde raţiunea se prosta cu desăvârşire, se uitau acolo pierzând cu desăvârşire noţiunea de viaţa reală. Totul lua forma de iluzie a vieţei... Aveau senzaţiunea că înnoată pe luciul albastru al mărilor, ca fulgii albi de lebădă, zboară în aer, se transformă în vapori.</p>
 <p>Numai miss Ela, la ora mesei, bătea cu un baston în scară şi`i deştepta din lâncezeala în care cădeau...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
                     <p>Intr`o zi, erau în turnuleţul de musică. Domniţa într`o rochie lungă, <foreign>„rose”</foreign> ţesută în flori de chrysanteme palide, cu mânecile largi, cânta la piano una din acele <title>„Nocturne”</title> triste, de Chopin. Alexe se sculase de pe sofaoa, unde stase întins la picioarele ei, presârându-i în părul negru, petale de flori... Se strecurau pe sânul alb ca zăpada. Domniţa râdea în spasm, îşi scutura pârul, întinzându-i buzele nesăţioase...</p>
 <p>Miss Ella, intră repede, spunând că un domn şi o doamnă întreabă de d-l Alexe Comnean şi aşteaptă la poartă, în trăsură. Bătrâna engleză, întinse lui Alexe o cartă de vizită.</p>
                     
@@ -1292,7 +1298,7 @@
 <p>Când se despărţiră, toţi aveau aceeaşi părere de rău, că numai pot rămâne împreună. Se `mbrăţişară.</p>
 <p>Tânăra prinţesă Maria, strânse mâna cu căldură lui Zamfir Voilă şi sărută pe nevastă-sa.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Cât-va timp în urmă, într`o dimineaţă ceţoasă de toamnă, pe când coborau la masă, intrigaţi că miss Ella, nu venise să `i vestească, pătrunseră în camera ei, întovărăşiţi de feciorul, care `i servea.</p>
                     <p>Bătrâna engleză suferea de mult de-o boală de inimă. In noaptea aceea, i se rupsese o arteră şi murise. Căzuse de pe canapeaua, unde şi făcea înainte de culcare obişnuita lectură de <title>Biblie</title>, jos, pe parchet.</p>
 <p>Nedespărţiţii ochelari, rămăseseră atârnaţi de urechile mari, lungi, subţiri şi transparente.</p> 
@@ -1306,7 +1312,7 @@
 <p>- Mario..., ce ai Mario...?</p>
 <p>Domniţa cu ochii lăcrămaţi, cu mâinele albe încolăcite pe după gâtul lui, îl sărută, îngânând:</p>
 <p>- Dacă n`ai fi tu, ce m`aşi face în singurătatea aceasta...? Alexe, Alexe, de tine, numai de tine este legată viaţa mea pe veci... Cu tine se vor îngropa două vieţi...</p>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Domniţa îngriji, ca înmormântarea să fie cât se poate de simplă şi impozantă. Amândoi, ea, într`o trăsură închisă, el, pe jos, întovărăşiră pănă la mormânt, ultimele rămăşiţe ale bătrânei engleze.</p></div>
                 
                 <div type="chapter" n="16">
@@ -1317,7 +1323,7 @@
 <p>Domniţa îl privi cu ochii lăcrămaţi, surprinsă de ideea lui Alexe.</p>
 <p>- Ce bun..., ce bun eşti Alexe.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Trăsura curţei la care erau înhămaţi patru cai mari, negri, cu surugiul pe capră, alerga pe şosea, spre moşia prinţului Mavrodi, acum proprietatea tinerei prinţese Maria.</p>
 <p>Şoseaua albă, se `ntindea ca un şarpe argintiu. Se `ngusta către soare apune..., mărginită de o parte şi de alta, de câmpii întinse, goale, cu miriştile pustii, paiele răscoapte de vânt şi de toamnă.</p>
 <p>Pe alocurea, se vedeau ţărani la coarnele plugului, mânând boii încet, despicând pământul în brazde mari şi negre... Semănătorii cu capetele goale, cu părul în plete, atărnându-le pe umerii soioşi, murdari, miroseau a pământ şi a sudoare. Cu mânecile cămăşilor sumese până la umeri, arâtând braţele bronzate, voinice, înfigeau mâinele vânjoase, în şorţuri de saci prinse cu brâne roşii, de mijloc, le umpleau cu sămânţă. Aruncau în toate părţile pe brazdele arate, murmurând cuvinte liturgice, ca rodul să fie mânos şi cu spor...</p>
@@ -1363,7 +1369,7 @@
 <p>D`asupra lor, crengile sălciilor şi mesteacânilor, lipsiţi de foi, se clătinau încet de vânt, în freamăt sec şi dureros, le atingeau uşor umerii...</p>
 <p>Când domniţa se ridică de pe piatra criptei, aruncă florile udate cu lacrimi. Mai îngenunchiă odată şi eşiră pe poartă...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Intraseră în acea perioadă de viaţă, unde toate obiectele din atmosfera în care se mişcau, îmbrăcru famercul manifestărilor afective amoroase. Fiecare loc, fie-care arbore, păstra o lume întreagă de impresiuni. Le evocau ori de câte ori rămâneau tăcuţi, trăind sub aceeaşi viaţă de senzaţiuni dulci, neuitate, vecinic noui...</p>
 <p>Când reveneau, aveau în fie-care colţ, amintitirile senzaţiunelor de altă dată, legate cu viaţa, d`atunei.. Zilele acolo treceau repede. Nimeni nu le turbura pacea visurilor amoroase. Uitau de toate, nimic din lume nu pătrundea la iei. Arare-ori, câte o scrisoare de la d-na Natalia Banu, pe care domniţa o citea repede. O arunca la o parte; turbura câte-va momente seria imaginelor şi a senzaţiunelor...</p>
 <p>Alergau din parc în grădina de flori, d`acolo în foişor, pretutindeni... Citeau rar. Alexe, saturat de literatură, căuta operile de pasiuni simple. Rămânea întins alături de domniţa, tăcut, urmărind ceasuri întregi, cu o răbdare anormală, schimbarea colorilor în parc, sub razele soarelui. Se uita în ochii domniţei, până când îi apărea ca o iluzie... Atunci, întindea mâna, îi pipăia fruntea...</p>
@@ -1376,7 +1382,7 @@
 <p>Alexe... Alexe...</p>
 <p>Ii cuprindea obrajii în mâinile-i albe, ca să aibă senzaţiunea completă vie a fericirei, că el trăeşit, şi nu este o iluzie. Această boală a nesiguranţei propriei lor fiinţe, a dispariţiei eului, se manifesta în momentele de friguri sensuale. Când domniţa îi atingea obrajii i se părea că degetele îl ard, cădeau amândoi în spasmuri nervoase.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone> 
+                    <milestone unit="section" rend="blankLine"/> 
 <p>Intr`o amiază, tăcuţi după ce colindaseră toate colţurile casei, ale parcului, după ce se plimbară printre aleele de trandafiri, fără să se oprească nicăieri, obosiţi, rezemaţi unul de altul, sub umbra unor brazi, se priviră neliniştiţi.</p>
 <p>Amândoi căutau ceva, un loc, unde să nu să fi adăpostit pentru iubirile lor. Alexe, ţinând-o de braţ şi privind-o în ochii pe jumătate adormiţi, îi şopti, mângăind`o pe fruute:</p>
 <p>- Mario..., ai vrea să mergem la mine, acolo, o să avem un colţ de cer nou...</p>
@@ -1389,7 +1395,7 @@
 <p>Casa veche, parcul nemărginit..., iazul, moara şi mai cu seamă galeria aceea, care semăna cu o biserică, cu fotoliurile mari, în formă de strane mitropolitane, portretele, albumurile şi biblioteca familiei, cărţile rare, manuscrisele vechi, le vizitase rând pe rând, redeşteptându-i amintiri din viaţa domniţei Ruxanda. Alexe îi arătase toată colecţia operilor scrise de strămoşii lui, mai cu seamă un manuscris vechiu, negăsit nicăieri, al Anei Comnean, care`l preocupa zile întregi. Manuscrisul, datat la Veneţia, avea d`asupra o coroană, apoi o vignetă, portretul ei; un desen simbolic, care sintetiza textul manuscrisului: un templu măreţ, susţinut pe coloane mari ionice, uşe mare deschisă... iar acolo înăuntru, se văd femei goale, prosternate înaintea statuiei lui Apollo.</p>
 <p>Ceea ce plăcuse mult prinţesei Maria, era odaia de baie. Toată era în marmură, pardoseala lucrată în mozaicuri. Pereţii lucraţi în frescuri, de un artist italian, cu două sute de ani în urmă, representau scene mitice, de senzualitate sălbatică, reamintind vestitele băi ale curtezanelor romane. Venuscu corp de căprioară, se unea cu un Hercul, jumătate taur. Diana era urmărită de un Satyr. La supra-faţa apei, naiadele, sub umbrele chiparoşilor îşi uscau părul. Un satyr se uita rânjind, ascuns pe după arbori.</p>
 <p>O bancă de marmoră, a cărei catifea roasă fusesă scoasă mai înainte de Alexe, înlocuită cu alta nouă, era aşezată la eşirea din basin. Alături era o sofa mare, comandată de el, când fusese bolnav. O masă mare de marmoră, unde se găseau tot felul de obiecte pentru toaletă, parfumuri, o oglindă mare, ocupa întreg peretele din faţa basinului.</p>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Alexe deşteptat, îşi aruncă repede o haină uşoară încălţă pantofii, eşi în grădină, se strecură printre arbori, se apropiă încet de locul unde tânăra prinţesă picta.</p>
 <p>Rezemată de un copac, se gândea la colţul de cer nou, unde o adusese Alexe. Işi aducea aminte de vorbele lui: <quote>„acestea toate sânt ale noastre Mario.., când nu vom mai fi, vor povesti iubirea noastră...”</quote> Se aplecă peste umărul ei şi o sărută pe obraji. Ea sări în sus, deşteptată din visuri; pensula îi căzu pe earbă, îl privi râzând .</p>
 <p>- Cum m`am speriat Alexe...</p>
@@ -1427,7 +1433,7 @@
 <p>- Stăi..., stăi aşa Mario...</p>
 <p>- El o privea cu ochii nesăturăţi, o cuprinse în braţe sărutând-o pe obrajii rouaţi, de vapoarea rece a iazului.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Abia respirând, urcară treptele iazului. Ea se rezemă moleşită de umărul lui, murmurând: Alexe.., nu crezi tu că putem să murim?</p>
 <p>El, îi văzu buzele roşii, se mişcau, tremurau... Strângând-o de mijloc cu putere, ne mai putând suferi acea povară nervoasă, căzură pe un maldăr de fân, cosit de curând, înir`un spasm voluptos</p>
 <p>Firele de earba îi acoperean, îmbălsăma parcul cu un parfum delicat. Paserile se zbeguiau între arbori. In earbă, se auzeau bâzâitul insectelor, vântul adia crengile arborilor. Aproape se auzea murmurul uşor şi dulce al iazului...</p>
@@ -1439,9 +1445,9 @@
 <p>Razele lunei, îi învăluia în pânză de aur.</p>
 <p>Aburii serei de la iaz se transformau în ceaţă transparentă, se depuneau pe arbori, pe obrajii lor; aveau senzaţiunea că fulgi uşori de zăpadă se topesc de nesimţite, se evaporează.</p>
 <p>Se plimbau pe sub copacii împânziţi în ceaţa serei, sub raze de aur, rezemaţi unul de altul.. El îi evoca <title>cântecile lui Ossian</title> şi opera îndrăzneaţă, misterioasă şi puternică a lui Wagner.</p>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Ploua, începea toamna.</p>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Amândoi, aşezaţi pe o canapea marea, rezemaţi pe spate, priveau pe fereastră moartea frunzelor. Ascultau cum picăturile grele de ploaie loveau în fereastră, cum şueră vântul asvârlind cu furie ultimile frunze în geamuri... Crengile goale băteau obloanele verzi, decolorate ale ferestrelor...</p>
 <p>Câte o pasăre fluera încet, scurt şi trist pe câte o ramură fără frunze, ca şi cum n`ar fi voit să turbure moartea naturei şi somnolenţa în care cădeau...</p>
 <p>El făcea planuri de călătorii, căuta în imaginaţie un mijloc de-a pricinui noui senzaţiuni prinţesei Maria.</p>
@@ -1450,7 +1456,7 @@
 <p>Se aşeza la piano. Alexe, pe o piele de urs mare, la picioarele ei, asculta. Domniţa, în roche de catifea neagră, lungă, cu mânecile largi, scotea note triste, desperate, dureroase din opera lui Wagner, până când obosită, cădea în braţele lui, tremurând de beţia evocată, din lumea fantastică a lui Wagner...</p>
 <p>- Alexe, muzica mă omoară...</p>
 <p>Afară abia se zărea printre nourii groşi, câte-va raze plăpânde; pătrundeau prin fereastră, îngălbenind faţa lor obosită de voluptăţi infinite...</p>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Fulguia, începea iarna.</p>
 <p>La gura unei sobe colosale, semănând cu o capelă catolică, aşezată pe patru coloane de marmoră, şedeau întinşi, dormitând pe pielea de urs, urmărind prin întredeschizătura ochilor, flăcările focului, făcând jocuri de umbră, pe pereţii tapetaţi în catifea roşie-închisă, pe tavan, unde se mai vedeau încă urmele arabescurilor, imitate în primele timpuri, de pictori, în toate casele boiereşti...</p>
 <p>Viforul năpraznic arunca măzărichea şi fulgi de zăpadă îngheţată, în geamurile mari ale odăiei.</p>
@@ -1465,7 +1471,7 @@
 <p>- Alexe..., ce miros.,, mă doare capul...</p>
 <p>Printre ferestrile de d`asupra, pătrundeau câte-va raze slabe de lumină. Câte-o pasăre ernatică piuia între crengile goale, negre şi umede. Zăpada se topea, picăturile de apă luceau pe crengile goale ca cristalul.</p>
 <p>O lua în braţe. Işi încolăcea mâinile pe după gâtul lui, îmbrăcată într`o rochie de batistă subţire, o ducea pe vechiul divan, martor al amorurilor exaltate... Până unde se auzea strigătul teribil?...</p>
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Immugureau copacii, venea primăvara.</p>
 <p>Viţa sălbatecă îngropa vechiul castel, în ramuri fragede, verzi, urcându-se pe coperiş ca nişte şerpi fantastici căzând în formă de storuri d`asupra ferestrelor. Copacii gigantici seculari înfrunzeau, respirând miros de sevă proaspătă. Intre crengile înverzite, pasările cântau în concert. Se auzea hăuind dulăii dela sat, clopotul de acioaie dela gâtul vacilor, venind dela suhat, cumpenile puţurilor scârţâind, boii mugind, vacile chemându-şi viţeluşii...</p>
 <p>Iazul curgea la vale în murmur uşor, învârtind roata morii cu repeziciune, aruncând valurile în spume, încărcate cu frunze verzi, zmicele de răchită..., trunchi de arbori putrezi.</p>
@@ -1494,7 +1500,7 @@
 <p>- Asta, îmi evocă cerul Italiei, marea, parfumul florilor de portocali, zise domniţa sărind de la piano şi sărutând pe Alexe.</p>
 <p>A treia zi, erau pe drumul Italiei.</p>
                     
-<milestone unit="section" rend="blankLine"></milestone>
+<milestone unit="section" rend="blankLine"/>
 <p>Se stabiliră la Neapole, afară din oraş, în mijlocul unei grădini colosale, care răspundea la mare. Vila era una din acele construcţii vechi, stilul renaşterei, părăsită de un nobil Italian, din causa datoriilor, în mâinile creditorilor. Se vânduse la licitaţie şi fusese cumpărată de un negustor de unt de lemn, care trăia la Marsilia. Fusese reânoită pe acelaşi stil, mobila schimbată chiar în anul acela. De la reînoire, nimine n`o mai locuise.</p>
 <p>Din faţa vilei, plecau două rânduri de poătocali, pe-o distanţă de-o mie de metri. Aci se formase un cerc mare de trandafiri roşii, ca sângele, apoi în jos, până la mare, se `ntindeau naranzi, despărţiţi de mare, iarăşi printr`un gard mare de trandafiri. Restul grădinei era plantat cu tei bătrâni şi brazi, ale căror ramuri se ridicau de la pământ până în vârf, în forma clăilor de fân. Zorelele se ridicau de sus până jos, îngropând vila de portocal într`un munte de foi Florile lor roşiatice, albastre păreau ochii misterioşi, ascunşi acolo..., să veghieze...</p>
 <p>Intr`o parte a vilei, unde domniţa Maria, îşi alesese camera de dormit, se ridicau până la ferestre lilieci albaştri şi albi. O veranda mare cu geamuri, se deschidea d`asnpra, cu vederea în spre mare.</p>
@@ -1505,7 +1511,7 @@
 <p>Inainte de-a cunoaşte pe prinţesa Maria, scrisese ceva în album, după obiceiul tuturor membrilor. In urmă, ori de câte ori voise să reînceapă imaginile şi ideile veneau cu grămada; îi era imposibil să aştearnă pe hârtie ceva clar...</p>
 <p>Luase albumul cu el şi voia acum, să noteze zi cu zi, toate mişcările. Se simţea dispus, cuminţea limpede, gata ori când să-şi noteze toate impresiunile.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Neapole... 18. . Vila de portocali</p>
 <p>Maria nu mă părăseşte un minut, îmi dă senzatiunea în fie-care moment că trăesc la curtea Cleopatrei. Lumea modernă am uitat`o de mult.</p>
 <p>In aşteptarea sculptorului Donatelli, rătăcesc ceasuri întregi, împreună cu Maria, pe sub aleele de portocali. Nici odată n`am văzut cerul mai aîbastru, soarele luminând mai dulce şi mai cu viață. Arare ori rămân singur, atunci iau la depănat aceeaşi frază, analizez fie-care cuvânt, caut să-mi dau seama de culoarea şi mirosul ce evoacă fie-care adjectiv. Analiza îmi face rău. Fie-care vorbă trezindu-mi o imagine deosebită, se pune în legătură cu alta, îmi deşteaptă tablouri, scene întregi, cu toate particularităţile naturei înconjurătoare.</p>
@@ -1547,7 +1553,7 @@
 <p>Ne aşezarăm la umbra unui cuib de brazi. Ea se întinse pe earba rămasă umedă, acolo, unde razele soarelui nu pătrunsese.; aspiră din toţi plămânii mirosul de rouă umed, proaspăt...</p>
 <p>- Cum îmi dă viaţă odoarea de rouă a erbei. Obrajii i se `mbujorară, buzele căpătară umezeala şi trandafiriul obişnuit. Maria făcu un gest de nerăbdare, gest cunoscut celor rafinaţi, după voluptăţile ce trec peste fire...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Vila de portocali... 18...</p>
 <p>De dimineaţă Maria era aşa de veselă, aşa de frumos răsărea bustul de statuă sub rochia de batistă, ţesută în chrysanteme palide, în cât îmi venea să strig: Mario, eşti mai frumoasă de cât Venus lui Praxiteles, tu trăeşti şi simţi... Maria mă privea zâmbindu-mi, apoi îmi zise, lăsându-şi uşor fruntea pe umărul meu.</p>
 <p>- Alexe, să mergem în târgul de flori..</p>
@@ -1577,7 +1583,7 @@
 <p>Maria râdea, arăta dinţii albi ca zăpada, mulţumea strigătelor entuziaste ale mulţimei adunată să i admire frumuseţea...</p>
                     <p>Două bande de muzicanţi pribegi, atraşi de strigătele vesele ale mulţimei, începură să cânte. Lumea striga: <foreign>eviva, eviva bella regina</foreign>... Din toate părţile, ploua flori pe capul frumos al Măriei. Petalele zburau departe, în stoluri de fluturi fantastici, pe d`asupra mărci... Goenlanzi strigau cu glasuri ascuţite, gonind d`asupra valurilor, să prinză în ciocurile lor albe trandafiri, petalele florilor...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Villa de portocali..., 18...</p>
 <p>De două luni de zile, sculptorul Donatelli lucrează necontenit. In fie-care dimineaţă, când intru la el, mă simţ cu totul fermecat de acel om robust, bine făcut, părând el însuşi o statuă, cu ochii mari. verzi, zâmbetul de copil, fruntea mare, cu încreţituri multe, un zmoc de fire de păr, căzându-i în neregulă pe frunte. Totul, respiră în el sănătate, geniu şi acea bunătate dumnezeească primitivă, rară la oamenii, cari trăesc în civilizaţia ultra rafinată a oraşelor mari.</p>
 <p>După ce i`am explicat gestul ce trebue să întrupeze în marmură, bătrânul, cu zâmbetul pe buze, s`a uitat lung la mine şi m`a întrebat: „nu cumva eşti şi d-ta sculptor?...”</p>
@@ -1618,7 +1624,7 @@
 <p>L`am văzut prin fereastră, rămânând uimit, privind buzele roşii trandafirii ale Măriei..., săruta ca un nebun buzele statuiei...</p>
 <p>Maria a eşit afară, el a rămas năuc, uitându-se cum dispărea pe uşe, în braţele mele, visul nebuniei lui..., amintire dulce a tinereţelor...</p>
                     
- <milestone unit="section" rend="blankLine"></milestone>                   
+ <milestone unit="section" rend="blankLine"/>                   
 <p>Roma... 18...</p>
 <p>De şease luni, am părăsit villa de portocali, lăsând pe Donatelli singur. In cel din urmă timp, numai avea nevoie de model. L`am lăsat cizelând, să dea marmurei viaţă, respiraţie caldă..., s`o facă să trăească...</p>
 <p>Am dus pe Maria pe urmele, pe unde altă dată colindasem luni întregi, în lumea veche Romana, pretutindeni unde arta Romană şi Renaşterea erau representate.</p>
@@ -1682,7 +1688,7 @@
 <p>Cu chipul acesta, preîntâmpinam ultima satisfacţie, pe care ar fi putut s`o aibă Eulalia d`Avril, să-mi trimeată martorii...</p>
 <p>A doua zi, am părăsit Roma, spre Villa de portocali...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Villa de portocali... 18...</p>
 <p>Donatelli se perde în extaz oare întregi înaintea statuici. Nici nu vrea să se uite la biletele de bancă, înşirate alături. Pare de-o tristeţă nemângăiată... Statua este sfârşită...</p>
 <p>- Crezi că m`ai plătit, înnumărându-mi miile de bilete de bancă ..? Nu, nu m`ai plătit tinere domn. Cu nimic nu se poate plăti lucrarea aceasta... Poli plăti viaţa unui om, poţi să plăteşti sângele vărsat, să `nviezi din mormânt...?</p>
@@ -1740,7 +1746,7 @@
 <p>- Alexe, dacă ai şti cât am plâns, când te vedeam oare întregi cu ochii închişi, abia respirând... Odată mi s`a părut că eşti rece şi imediat m`am uitat la cuţitul de vânătoare din perete...</p>
 <p>Alexe, de buzele tale este legată viaţa mea pe veci...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Venea cu domniţa, se aşezau în faţa statuiei şi rămâneau acolo ore întregi, afundaţi în visuri...</p>
 <p>Cu braţele întinse, culcată pe spate, pe un soclu mare de marmoră, cu ochii pe jumătate închişi, cu surâsul în întredeschizătura buzelor, având pe marginile soclului de marmură, sculpturi delicate de petale de trandafiri şi micşunele, piatra cizelată, în mâinile marelui artist italian, căpătase viaţă şi în vinele transparente ale marmurei, părea că sângele circulă şi nu ar fi trebuit de cât o atingere uşoară, ca statua să se deştepte, să mişte mâinile, sa râză, să vorbească...</p>
 <p>Alexe, o aşezase în galeria portretelor, pe unde luna putea să-şi trimeată razele luminoase, printre crengile răsfirate ale ştejarilor.</p> 
@@ -1758,7 +1764,7 @@
 <p>- Vino repede, uite, o să răsară soarele, o să seducă rouă de pe flori... Vino, până când obrajii îmi sânt umezi şi aprinşi...</p>
 <p>Iubea statua.</p>
                         
-                        <milestone unit="section" rend="blankLine"></milestone>
+                        <milestone unit="section" rend="blankLine"/>
 <p>Către mijlocul lui Octombrie, zilele erau plumburii, nopţile aşa de limpezi şi senine; abia se puteau zări stelele de strălucirea metalică, aurie a lunei.</p>
 <p>Intr`o amiază, plictisit de atâta monotonie, îşi aruncă o manta subţire de ploae, peste hainele verzi de vânătoare. Incinse cartuşiera, luă puşca la spinare, atârnă la coapsă un stilet mare şi intră la domniţa să-şi ea rămas bun. Voia să rătăcească câte-va oare pe câmp.</p>
 <p>Era aşa de trist, cum nu fusese niciodată. Sub puterea unuia din acele sentimente de dezordine nervoasă, când ori-ce acţiune făcută, este automată, iresponsabilă, uitată imediat...</p>
@@ -1774,7 +1780,7 @@
 <p>Atunci începu să plângă mai mult, strângându-l de mâini, căutându-i buzele cu pasiune, ca şi cum ar fi voit să le lipească de ale lui, să nu se mai despartă nici odată...</p>
 <p>Tremurând, plângând, abia putând articula cuvinte neînţelese, neştiind ce să mai facă, îl atrase mai mult în braţe. Toată iubirea, un suspin dureros...</p>
                         
-                        <milestone unit="section" rend="blankLine"></milestone>
+                        <milestone unit="section" rend="blankLine"/>
 <p>Ajunse la câmp. Miriştiile erau pustii, ogoarele arate, pământul negru şi resturnat de pluguri. Pe ici, pe colea, se vedeau berzile şi ciorile sburând pe arătura proaspătă, căutând seminţele perdute.</p>
 <p>Inaintea lui se `ntindea pădurea cu frunzele galbene, arborii aproape goi, desbrăcaţi de podoaba primăverei, înfăşuraţi într`o pânză cenuşie. O tăcere tainică domnea pretutindeni, în pădure şi pe câmpii, doară croncănitul vre-unui corb, tăia pacea sfântă a toamnei, aruncată în toată natura, de misteriosul timp...</p>
 <p>Câte-va musculiţe zbârnăiau în cele din urmă raze ale soarelui plăpând, împânzind pădurea, într`o mreaje aurie... Un nour mare, alb, părând un munte de zăpadă, sta gata să se prăvălească d`asupra pădurei...</p>
@@ -1809,18 +1815,18 @@
 <p>Doctorii căutară să`i ascunză boala nervoasă de care suferea. Prinţesa Maria plecase la Berlin, sub îngrijirea bătrânului doctor al familiei Mavrodi, în tovărăşia unei tinere guvernante engleze, intrată în serviciul lor, pe când se găseau la Florenţa.</p>
 <p>După o săptămână de friguri violente, de aiurări teribile de visuri urâte, pline de crime îngrozitoare, Alexe se întremă şi intră în covalescenţă.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>La începutul covalescenţei, i se părea că este sub impresiunea unui vis urât, dar când îşi vedea cicatricea din dreptul inimei, paliditatea obrajilor, semănând cu acele petale cărnoase de trandafiri mari, învoiţi, îşi reamintea cu groază de teribila noapte.</p>
 <p>Figura Mariei, îi apărea ca imaginea acelor figuri clasice, descrise de romancieri cu atâta putere, în cât se ţese în memorie, te urmăreşte luni şi ani, ca şi cum a făcut parte din viaţă odată ... o aştepţi să răsară la câte un colţ de stradă..., pretutindeni unde imaginaţia o evoacă...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Casa în care locuia acum Zamfir Voilă, unde avea ca oaspe pe Alexe Comnean, era făcută de la însurătoare, alături de vechia locuinţă părintească, în felul acelor construcţiuni Italiene din secolul XVIII, imitând stilul ionic, cu coloane mari de marmoră, d`asupra cărora se `ntindea o veranda mare, închisă cu geamuri, unde întocmise o seră, cu toate speciile de flori şi arbori, ce nu puteau suferi frigul şi zăpezile ernei...</p>
 <p>De la moartea bătrânului Şerban Voilă, fusese de trei ori în străinătate. Restul timpului îl întrebuinţase studiind diferitele mijloace mai noui, practice, pentru o cultivare a pământului sistematică, scriind articole de economie rurală, arătând resultatele obţinute de procedeurile întrebuinţate în agricultură.</p>
 <p>Spirit sănătos, plin de voinţă, înţelegând bine causa relelor şi a mizeriei, căuta în totdeauna să arate boala fisiologică de care sufere clasa producătoare a ţărei: raporturile neomenoase între muncă şi capital, exploatările clasei mijlocii, a arendaşilor...</p>
 <p>Surprins fără de veste de moartea tatălui lui, obişnuit să-l vadă în fie-care zi, debitând aceleaşi discursuri contra noilor democraţi, stingher, în mijlocul unei societăţi mercantile, pe care o dispreţuia din spirit intelectual, la care se adăuga o prejudecată ascunsă de castă socială superioară, rupse toate relaţinile cu burghezia. Se însurase înţelegând amorul într`o căsătorie bună, cu o femeie castă, aşa cum găsise în Ana de Vignole. Nu gândea de cât la familia lui, la educaţiunea copiilor.</p>
 <p>Amândoi copii se măriseră, băiatul avea cinci ani, luase numele tatălui lui, Şerban, iar fetii `i dase numele de Mireille, în amintirea cunoştinţei cu Ana. El o văzuse întâia oară la representarea operei Mireille, la Nisa. Deşi erau lucruri neînsemnate, cu toate astea, amintirea tatălui era sfântă, şi cum micul Şerban, semăna la figură cu banul Voîlă, ţinuse să`i poarte numele. Mireille, întrupa toată nevinovăţia şi liniştea câmpului unde trăiau.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>In casele părinteşti, păstra toate vechiturile rămase de la tatăl lui, o parte laterală, o ocupau slugile.</p>
                     <p>Casele cele noui, fuseseră mobilate cu tot ce fusese mai artistic, cu mobile de la Veneţia. Numai odaia lui, unde-şi avea biroul, se păstra întocmai cum o avusese bătrânul Voilă: o sofa mare, patru fotoluri veneţiene, un scrin mare, vechiu, bibliotecile şi tablourile. Odaia Anei, era lucrată în <foreign>„rose”</foreign> cu bibelouri de Saxa.</p>
 <p>Alături de Ana, în mijlocul acela câmpenesc, Zamfir Voilă, se socotea fericit. Nici-odată nu dorea o alt-fel de viaţă, de cât aceea, de-a avea putinţă să se ocupe de boii, de vacile şi câmpurile întinse, rămase de la părinţi. Ana, făcuse din el, acel om energic, cu dor de muncă, credinţă în talentul lui.</p>
@@ -1831,7 +1837,7 @@
 <p>- Şi tu eşti un copil...</p>
 <p>Ana vedea în Alexe, pe adevăratul om, <quote>„îngerul de pază”</quote> cum îl numea în intima ei gândire.</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Zi de Aprilie. Atmosfera este aşa de colorată de albastrul cerului, pare o pânză invizibilă, tremurătoare, dă iluzia vizuală de-a întinde mâna, s`o prinzi între degete, senzaţiunea vie că şoptitul vorbelor s`ar putea auzi la distanţe infinite.</p>
 <p>Aerul este aşa de parfumat de mirosul florilor de liliac, de arbori înfloriţi, de ozona proaspătă şi de iarbă virgină a câmpului, încât se depune ca o boare uşoară pe foile albe ale arborilor, înfloriţi, pe earba rouată, pe obrajii oamenilor, pe scoarţele arborilor.., pretutindeni...</p>
 <p>Viaţa primăverei reînvie în sufletul lui Alexe iluziile de odinioară... Se întindea pe sub arborii înfloriţi, urmărea nouri albi printre crengile înverzite, cum dispăreau încetul cu încetul, în imensitatea albăstrie a boitei cereşti.,.</p>
@@ -1894,7 +1900,7 @@
 <p>Ana îi privea cum discutau, îi lăcrămau ochii de bucurie uitându-se la copiii, cum stau de cuminţi, deschizând ochii lor mari, când în spre tatăl lor, când în spre Comnean, ca şi cum ar fi voit sa priceapă ceva din acea discuţiune savantă.</p>
 <p>Seara, prânzeau în veranda, se despărţeau tot deauna târziu, fie-care cu păreri de rău că ceasurile se scurseseră prea repede...</p>
                 
-                <milestone unit="section" rend="blankLine"></milestone>
+                <milestone unit="section" rend="blankLine"/>
 <p>Ori cât de frumoasă şi plăcută era viaţa pe care Alexe Comnean, o ducea în familia lui Voilă, începuse să simţă lipsa domniţei Maria.</p>
 <p>In acele zile călduroase de Iulie, când Zamfir, alerga sub arşiţa soarelui, pe câmp la seceriş, la maşina de treerat, d`acolo în luncile de fâneaţă, Alexe, se `nfunda în odaia lui, lăsa storurile şi se trântea pe câte o canapea. Imaginea prinţesei Maria se desprindea încetul cu încetul din semi-obscuritatea odăiei, îi apărea clară şi limpede, în conturile cele mai luminoase.</p>
 <p>Nervii lui, ajunşi la acea extra-ordinară senzibilitate de halucinat, vedea prin acea lege reciprocă a simpatiei, întreaga viată a prinţesei Maria.</p>
@@ -1909,7 +1915,7 @@
 <p>Şi, cuvântul <hi>„a murit</hi> căuta să`l înlăture; îi chinuia sufletul, agravându-i boala, ce începuse să se manifesteze: abia mai putea suferi căldura. Il înăbuşeau mirosurile de flori.</p>
 <p>Intr`o zi, Voilă, după ce isprăvise seceratul, îi propuse să meargă la vânat. El pricepea bine sufletul acelui om, ar fi voit să`l scoaţă din acea viaţă de mai `nainte, care`l distrusese; îl vedea cum pere şi cerca toate mijloacele să`i schimbe traiul, să reînvieze, cum părea imediat după convalescenţă.</p>
                 
-                <milestone unit="section" rend="blankLine"></milestone>
+                <milestone unit="section" rend="blankLine"/>
 <p>Se deşteptară în faptul zilei. Imbrăcară hainele verzi, scurte de vânătoare. Incinseră cartuşierele, luară puştile după umăr. Câinii şi încă doi oameni ai curţii, îi urmau de aproape, aducând în tolbe ceva de gustat, în caz de întârziere de ora prânzului.</p>
 <p>Zamfir Voilă îl atrăsese la vânat, să`i vorbească mai liniştit. Acolo, sub cerul liber, voia să`l facă să înţeleagă, că cu tot talentul lui, dacă va continua să nu lucreze nimic, va fi ca cel din urmă om, care numai consumă averea rămasă de la părinţi, îşi procură senzaţiuni din toate lucrurile şi fenomenele, fără să dea ce-va în schimb.</p>
 <p>Inaintau încet printre răzoarele de mohor, pe marginea holdelor de porumb.</p>
@@ -1951,7 +1957,7 @@
 <p>- Este Maria...</p>
 <p>Tremurând, cu ochii în lacrămi, domniţa căzu în braţele lui Alexe, fără să zică un cuvânt...</p>
                 
-                <milestone unit="section" rend="dots"></milestone>
+                <milestone unit="section" rend="dots"/>
 <p>A doua zi, au plecat.</p></div>
                 
                 <div type="chapter" n="20">
@@ -1976,12 +1982,12 @@
 <p>Ar fi dorit să `i spuie toată acea oboseală nervoasă, revenită iarăşi, acea lipsă de voinţă, care`l făcea să se gândească la moarte; îi era silă de toate... Căuta adăpost la sânul ei ca un copil, care se simte ameninţat. Ar fi voit să trăească, să fie sănătos ca Zamfir Voilă, să se bucure văzându-şi copii şi nevasta împrejurul mesei, râzând şi glumind...</p>
 <p>Această tortură morală nu şi-o putea astâmpăra de cât în braţele domniţei. Atunci uita câte-va momente. Reînvia, când tânăra prinţesă îl privea cu ochii ei mari, negri, trecându-şi degetele albe, delicate prin părul lui, sărutându-l de`i oprea respiraţia...</p>
                     
-                    <milestone unit="section" rend="dots"></milestone>
+                    <milestone unit="section" rend="dots"/>
 <p>Se stabiliră iarăşi la ţară.</p>
 <p>Acolo, ca pretutindeni unde se iubiseră, toate lucrurile atinse de ei, toate culcuşurile revărsau aceiaşi atmosfera amoroasă, reîmprospătându-le scenele de voluptăţi ameţitoare...</p>
 <p>Nici-odată vechiul palat al Comnenilor nu-l atrăsese mai mult, ca acum... I se părea că de fiecare lucru, de fie-care colţ din vechiul palat, sunt legate fibre nervoase ce-l atrag pe nesimţite, inconştient, cu o putere invicibilă...</p>
 <p>Superstiţiunea, că dacă va pleca d`acolo, va muri imediat, îl făcuse să se închiză din nou cu tânăra prinţesă Maria, în mijlocul moaştelor prăfuite a lucrurilor ce`i evocau trecutul glorios al acelei familii legendare...</p>
-                    <milestone unit="section" rend="dots"></milestone>
+                    <milestone unit="section" rend="dots"/>
 <p>O curioasă idiosincrasie se manifestă, mirosurile de flori îl ameţeau. Lumina soarelui de vară n`o mai putea suferi, îi trezea prea mult odoarea acelor plante din sudul Italiei, rămase vii în celulele creerului...</p>
 <p>Cât timp ţinu toamna şi earna, avu momente de reînviere. Mirosurile nu erau aşa de puternice în anotimpul ploios.. Indepărtase din sala portretelor unde stau toate ghiveciurile de flori, toţi `arborii tropicali...</p>
 <p>Făcea planuri de călătorii, să ducă pe domniţa prin Olanda şi Norvegia .., pretutindeni unde altă dată alergase să omoare timpul, să-şi alunge uralul..., să`şi creeze senzaţiuni noui...</p>
@@ -1998,7 +2004,7 @@
 <p>Alexe, aştepta primăvara cu oroarea. Nu ştia ce trebue să facă să plece departe pe coastele Norvegiei, acolo unde aerul este rece, sau să rămâie în vechiul palat cu tânăra prinţesă.</p>
 <p>Ii era frică de moarte, ar fi voit să piară acolo..., între zidurile casei lui, în mijlocul tablourilor vechi unde erau îngropaţi toţi membri familiei Comnean...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Cum dete în primăvară, căldura dulce a soarelui, mirosul florilor din parc, îl ameţeau, îi opera respiraţia. Când vedea arborii în floare, simţea aşa de puternic odoarea lor, îl durea capul, îl apucau somnolenţe nervoase, pline de visuri chinuite, li spunea domniţei: o să mă duc cât de curând Mario...</p>
 <p>Domniţa, începea să plângă, cădea în genunchi lângă el, gândindu-se la singurătatea ei; nici-odată nu va putea trăi fără el...</p>
 <p>Cu cât timpul înainta spre vară, cu atât boala nervoasă făcea progrese distrugându-i sistemul nervos.</p>
@@ -2029,7 +2035,7 @@
 <p>Chiotele ostaşilor făceau să răsune văile şi luncile. Ţepeş era mândru ca un viteaz, fruntea lui înecată de gânduri, părea mai veselă ca nici-odată... Şi buciumurile şi trâmbiţele sporeau, răsunau pădurile de brazi de viersul duios al cântecilor ostăşeşti...</p>
 <p>Şi lunca ospăţului era luminată de lună plină, de facle de răşină...</p></quote>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Alexe, se perdea cu gândul aiurea. Vedea moartea într`un nour, care dispărea încet, încet, pe d`asupra brazilor, subţiindu-se, dispărând în infinit.,.</p>
 <p>Ii părea rău că se duce aşa de curând. Acum voia să trăiască numai pentru un răsărit de soare, pentru un apus într`o luncă, pentru o noapte luminoasă, pentru un ciripit de pasăre; tot ce ar fi fost mai simplu în natură...</p>
 <p>Moartea îi lua plăcerea de a se bucura de frumuseţile naturei.</p>
@@ -2042,18 +2048,18 @@
 <p>Simţea că era ceva neisprăvit în făptura lui...</p>
 <p>Statua lui Praxiteles, <title>Venus</title> de Millo, este fără braţe. . Ceea ce lipseşte staluei lui Praxiteles, ca să fie întruparea idealului desăvârşit de frumuseţe, lipsea lui: <hi>braţele, voinţa...</hi></p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Către toamnă, când arborii se împânzeau în ceaţa groasă şi ploile începeau să cearnă mărunt, se simţea mai bine. Cum toate simţurile erau de-o extra-ordinară gingăşie, căderea delicată, cadențată, a picăturilor de ploae, pe coperişul palatului şi în cercevele, îi adormea nervii şi aţipea.</p>
 <p>Atunci domniţa în vârful pantofului de mătase, cobora în parc, aduna flori de câmp, pline de apă, le arunca la picioarele lui, se culca pe ele şi plângea...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Cu cât simţea că se apropie sfârşitul, cu atât păreri de râu îi cotropea mintea. Nemai putând să se mişte, zioa şi noaptea, rămânea ca o statuă pe fotoliu, lângă fereastră, urmărind prin intredeschizătura pleoapelor trandafirii-transparente, sub care abia se mişcau globii ochilor lui negri, aproape stinşi în orbitele mari, cavernoase, cum se perdeau cele din urmă raze de soare după munţii stâncoşi...</p>
 <p>Se uita la frunzele pălite, cum cădeau ploae în parcul palatului... Ii părea rău că n`are să mai vază soarele, n`are să mai vază cum cad în valuri spumoase undele argintii ale apei, învârtind roata morei de vale de lângă palatul Comnenilor...</p>
 <p>Simţea cum pe fiecare zi slăbeşte. Plângea...</p>
 <p>Domniţa la picioarele lui, şi-aducea aminte de bătrânul prinţ Mavrodi, tatăl ei..., îi sorbea lacrămile în prada unor dureri nemărginite...</p>
 <p>Abia mai şoptea. Domniţa îi sufla în gură, să`l invioreze, să`i povestească cu accele acente dulci, tremurătoare, fericirile viitoare... Dar rămânea aiurit, abia mai putând să mişte braţele lungi, osoase, albe ca varul...</p>
                     
-                    <milestone unit="section" rend="blankLine"></milestone>
+                    <milestone unit="section" rend="blankLine"/>
 <p>Câte-odată, în unele zile de toamnă, aproape de apus, soarele îneca arborii din parc într`o pânză subţire gălbuie, ca petalele unor specii de trandafiri.</p>
 <p>Acea culoare delicată, îi da iluzia plăpândă a morţei .. Mirosul de earbă răscoaptă, de lemn putred, de sevă umed, era tot ce mai putea suferi. Cum în toamnă odoarea aceea era puternică, lăsa ferestrele deschise. Aspira aroma particulară toamnei. Vedea înaintea lui imaginea tristă a linei femei, cu ochii închişi, pleoapele transparente, cercuite în vânt, înfăşurată într`o pânză subţire, de mătase, portocalie deschisă, aruncându-i la picioare flori veştejite..,</p>
 <p>Deschidea ochii. Toţi arborii din parc păreau ţesuţi în pânză de borangic, fine, ca iţele de păianjen. Iţele se lăsau în jos, formau un hamac străveziu, subţire ca peliţa cerului şi femeia cu ochii mari negri, cu pleoapele transparente, cercuite în vânăt, se legăna încet la bătaia uşoară a vântului tomnatec... Aiura.</p>

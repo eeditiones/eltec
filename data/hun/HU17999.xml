@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU17999" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU17999" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Szeretet könyve : ELTeC edition</title>
-            <author ref="viaf:30410778">Kánya, Emília  (1830-1905)</author>
+            <author ref="30410778">Kánya Emília (1830-1910)
+            </author>
             <respStmt>
                <resp>ELTeC conversion</resp>
                <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
                </name>
                <name>Fellegi Zsófia</name>
-               <name>Takács Emma</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
             </respStmt>
          </titleStmt>
          <extent>
             <measure unit="words">60532</measure>
             <measure unit="pages">261</measure>
          </extent>
-         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
-         <sourceDesc><bibl type="digitalSource">
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
                <title>Szeretet könyve</title>
                <date>2018-03-29</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -32,15 +32,18 @@
                   <name>Lipták Éva</name>
                   <name>Baloghné BárdosKatalin</name>
                </respStmt>
-               
-            </bibl><bibl type="firstEdition">
+            
+                  <bibl type="firstEdition">
                      <title>Szeretet könyve</title>
                      <author>Emilia</author>
                      <pubPlace>Pest</pubPlace>
                      <publisher>Emich : Horn : Wein</publisher>
                      <date>1863</date>
-                     <ref target="http://nektar.oszk.hu/hu/manifestation/1583995"/>
-                  </bibl></sourceDesc>
+                     <ref target="http://mek.oszk.hu/17900/17999/pdf/"/>
+                  </bibl>
+               
+            </bibl>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
@@ -52,11 +55,11 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
-            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
+      <revisionDesc>
          <change when="2019-04-23"/>
          <change when="2018-11-22"/>
          <change when="2018-11-19"/>

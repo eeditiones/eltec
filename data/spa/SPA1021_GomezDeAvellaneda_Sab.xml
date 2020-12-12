@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xml:id="SPA1021" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xml:id="SPA1021" xml:lang="SPA">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -20,16 +21,15 @@
 				<measure unit="vols">2</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2019-02-15"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="digitalSource">
 					<publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
 					<pubPlace>Universidad de Alicante</pubPlace>
 					<idno>003664</idno>
@@ -41,13 +41,11 @@
 						<name>Isabel Narros</name>
 						<name>Josefina Carrión</name>
 					</respStmt>
-				</bibl>
-				<bibl type="firstEdition">
+				</bibl><bibl type="firstEdition">
 					<publisher>Imprenta Calle del Barco n.º 26.</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date>1841</date>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p/>
@@ -65,6 +63,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2019-02-13">Anotación formato ELTeC y revisión del texto: Borja Navarro Colorado</change>
 		</revisionDesc>
 	</teiHeader>
@@ -1089,7 +1088,7 @@ Pero escucha, Carlota, te ofrezco volver dentro de quince
 días.</p>  <p>-¡Quince días! -exclamó Carlota
 con infantil impaciencia-. ¡Ah, no!, papá tiene proyectado
 un paseo a Cubitas, con el doble objeto de visitar las estancias
-<ref target="#SPA1021N09">[9]</ref> que tiene 
+ que tiene 
 <pb n="57"/> allí, y que veamos Teresa y yo las famosas
 cuevas <ref target="#SPA1021N10">[10]</ref>
 que tú tampoco has visto. Este viaje está
@@ -1682,18 +1681,18 @@ de un arroyo. Era el jardín un cuadro perfecto, y
 los otros tres frentes los formaban arcos de juncos cubiertos
 por vistosos festones de cambutera y balsamina, cuyas flores
 carmíneas y doradas libaban zumbando los colibrís
-<ref target="#SPA1021N13">[13]</ref>
+
 brillantes como esmeraldas 
 <pb n="89"/> y topacios. Sab había
 reunido en aquel pequeño recinto todas las flores
 que más amaba Carlota. Allí lucía la
 astronomía, de pomposos ramilletes morados, la azucena
 y la rosa, la clavellina
-<ref target="#SPA1021N14">[14]</ref>
+
 y el jazmín, la modesta violeta
 y el orgulloso girasol enamorado del rey de los astros, la
 variable malva-rosa
-<ref target="#SPA1021N15">[15]</ref>, la aleluya con sus flores nacaradas,
+, la aleluya con sus flores nacaradas,
 y la Pasionaria <ref target="#SPA1021N16">[16]</ref>
 ofreciendo en su cáliz maravilloso
 las sagradas insignias de la pasión del Redentor.
@@ -2459,8 +2458,8 @@ masas de sombras.</p>  <p>A medida que se aproximaban a Cubitas
 el aspecto de la naturaleza era más sombrío:
 bien pronto desapareció casi del todo la vigorosa
 y variada vegetación de la tierra prieta, y la roja
-no ofreció más que esparramados yuraguanos <ref target="#SPA1021N18">[18]</ref>,
-<pb n="130"/> jagüey <ref target="#SPA1021N19">[19]</ref>, que parecían
+no ofreció más que esparramados yuraguanos ,
+<pb n="130"/> jagüey , que parecían
 en la noche figuras caprichosas de un mundo fantástico.
 y algún ingrato 
 El cielo empero era más hermoso en estos lugares:

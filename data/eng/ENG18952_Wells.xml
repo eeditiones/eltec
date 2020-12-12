@@ -16,25 +16,20 @@
     <measure unit="pages">153</measure>
    </extent>
    <publicationStmt>
-    <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary
-     History" (CA16204)</publisher>
-    <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-    <date when="2019-11-09"/>
-    <availability>
-     <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-    </availability>
-    <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource"><title>The Time Machine: An
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+</publicationStmt>
+   <sourceDesc><bibl type="digitalSource"><title>The Time Machine: An
       Invention</title><title>Nineteenth-Century Fiction Full-Text
       Database</title><publisher>Chadwyck-Healey Ltd (A Bell &amp; Howell Information and Learning
-      company)</publisher><date>2000</date></bibl>
-    <bibl type="firstEdition" n="B8588"><title>The Time Machine: An Invention</title><author>Wells,
+      company)</publisher><date>2000</date></bibl><bibl type="firstEdition" n="B8588"><title>The Time Machine: An Invention</title><author>Wells,
       H. G. (1866-1946).</author><publisher>London: William
-     Heinemann</publisher><date>1895</date></bibl>
-    <bibl type="printEdition"><title>The Time Machine: An Invention</title><author>H.G. Wells</author><publisher>New York: Henry Holt and Company</publisher><date>1895</date><ref target="https://archive.org/details/timemachineinven00well/"/></bibl>
-   </sourceDesc>
+     Heinemann</publisher><date>1895</date></bibl><bibl type="printSource"><title>The Time Machine: An Invention</title><author>H.G. Wells</author><publisher>New York: Henry Holt and Company</publisher><date>1895</date><ref target="https://archive.org/details/timemachineinven00well/"/></bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -56,6 +51,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-05-19">Add text classifications from Bassett</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
    <change when="2019-01-08">LB convert to ELTeC-1</change>
@@ -88,7 +84,7 @@
   <body>
    <div type="chapter">
     <head>I INTRODUCTION</head>
-    <p><hi>The</hi> Time Traveller (for so it will be convenient to speak of him) was expounding a
+    <p>The Time Traveller (for so it will be convenient to speak of him) was expounding a
      recondite matter to us. His grey eyes shone and twinkled, and his usually pale face was flushed
      and animated. The fire burnt brightly, and the soft radiance of the incandescent lights in the
      lilies of silver caught the bubbles that flashed and passed in our glasses. Our chairs, being
@@ -230,7 +226,7 @@
    </div>
    <div type="chapter">
     <head>II THE MACHINE</head>
-    <p><hi>The</hi> thing the Time Traveller held in his hand was a glittering metallic framework,
+    <p>The thing the Time Traveller held in his hand was a glittering metallic framework,
      scarcely larger than a small clock, and very delicately made. There was ivory in it, and some
      transparent crystalline substance. And now I must be explicit, for this that follows—unless his
      explanation is to be accepted —is an absolutely unaccountable thing. He took one of the small
@@ -331,7 +327,7 @@
    </div>
    <div type="chapter">
     <head>III THE TIME TRAVELLER RETURNS</head>
-    <p><hi>I think</hi> that at that time none of us quite believed in the Time Machine. The fact
+    <p>I think that at that time none of us quite believed in the Time Machine. The fact
      is, the Time Traveller was one of those men who are too clever to be believed: you never felt
      that you saw all round him; you always suspected some subtle reserve, some ingenuity in ambush,
      behind his lucid frankness. Had Filby shown the model and explained the matter in the Time
@@ -2307,11 +2303,11 @@
    </div>
    <div type="chapter">
     <head>Epilogue</head>
-    <p><hi>One</hi> cannot choose but wonder. Will he ever return? It may be that he swept back into
+    <p>One cannot choose but wonder. Will he ever return? It may be that he swept back into
      the past, and fell among the blood-drinking, hairy savages of the Age of Unpolished Stone; into
      the abysses of the Cretaceous Sea; or among the grotesque saurians, the huge reptilian brutes
      of the Jurassic times. He may even now—if I may use the phrase—be wandering on some
-     plesiosaurushaunted Oolitic coral reef, or beside the lonely
+     plesiosaurus-haunted Oolitic coral reef, or beside the lonely
      <pb/> saline seas of the Triassic Age. Or did he go forward, into one of the nearer ages, in
      which men are still men, but with the riddles of our own time answered and its wearisome
      problems solved? Into the manhood of the race: for I, for my own part, cannot think that these

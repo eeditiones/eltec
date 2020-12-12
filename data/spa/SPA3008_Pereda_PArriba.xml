@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3008" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3008" xml:lang="SPA">
 
 <teiHeader>
   	<fileDesc>
@@ -17,30 +18,27 @@
 			<measure unit="pages">638</measure>
 		</extent>
 		<publicationStmt>
-			<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-			<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-			<date when="2020-03-04"/>
-			<availability>
-				<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-			</availability>
-			<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-		</publicationStmt>
-		<sourceDesc>
-			<bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+		<sourceDesc><bibl type="firstEdition">
 				<publisher>Est. Tip. Viuda e Hijos de Tello</publisher>
 				<pubPlace>Madrid</pubPlace>
 				<date>1895</date>
 				<ref target="http://www.cervantesvirtual.com/obra-visor/penas-arriba--1/html/">Edición facsímil Biblioteca Virtual Miguel de Cervantes</ref>
-    		</bibl>
-    		<bibl type="printSource">
+    		</bibl><bibl type="printSource">
 				<publisher>Est. Tip. Viuda e Hijos de Tello</publisher>
 				<title>Obras completas</title>
 				<pubPlace>Madrid</pubPlace>
 				<date>1895</date>
 				<idno type="BDH">bdh0000092180</idno>
 				<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000092180">Biblioteca Digital Hispanica</ref>
-    		</bibl>
-			<bibl type="digitalSource">
+    		</bibl><bibl type="digitalSource">
 				<publisher>Biblioteca Digital Miguel de Cervantes</publisher>
 				<pubPlace>Universidad de Alicante</pubPlace>
 				<ref target="http://www.cervantesvirtual.com/obra-visor/penas-arriba--1/html/">Biblioteca Virtual Miguel de Cervantes</ref>
@@ -50,8 +48,7 @@
 					<name> Manuel Sánchez Quero</name>
 					<name> Sonia Jover Sánchez</name>
 				</respStmt>
-			</bibl>
-		</sourceDesc>
+			</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p/>
@@ -69,6 +66,7 @@
 			</textDesc>  
 		</profileDesc>
      <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 		<change when="2020-01-09">Anotación formato ELTeC y revisión del texto: Carlos Mario Lopez Tombe</change>
 		<change when="2020-02-04">Revisión y corrección de la anotación formato ELTeC: Borja Navarro Colorado</change>
 	</revisionDesc>
@@ -664,7 +662,7 @@ reflexión contraria a lo convenido,
    </div>
    
 
-   <div type="chapter" 	n="SPA3008002">
+   <div type="chapter" n="SPA3008002">
     
 
     <head>
@@ -1753,7 +1751,7 @@ dónde ni a qué hora, al suspirado fin de mi jornada memorable.
    </div>
    
 
-   <div type="chapter" 	n="SPA3008003">
+   <div type="chapter" n="SPA3008003">
 
     <head>
      - III -

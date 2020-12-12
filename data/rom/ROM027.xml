@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM027" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM027" xml:lang="ro">
 
  <teiHeader>
   <fileDesc>
@@ -21,11 +21,16 @@
    </extent>
    
    <publicationStmt>
-      <p>Încorporat în ELTeC<date>2019-l1-15</date></p>
-   </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
        
-   <sourceDesc>
-      <bibl type="printSource">
+   <sourceDesc><bibl type="printSource">
     <author>G. Baronzi (autor al mai multor romane originale)</author>
         <title>Fontana zânelor</title>
         <pubPlace>Bucharest</pubPlace>
@@ -45,12 +50,13 @@
    <textDesc>
     <e:authorGender key="M"/>
     <e:size key="short"/>
-    <e:canonicity key="low"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
     <e:timeSlot key="T3"/>
    </textDesc>
    
   </profileDesc>
     <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
        <change when="2019-11-15">Initial TEI version generated.</change>
     </revisionDesc>
  </teiHeader>
@@ -112,7 +118,7 @@
 <p>Oameniǐ fugeaŭ de pretutindenǐ și se ascundeaŭ în locuințele lor saŭ pe la veciniǐ lor ceǐ ma apropiațǐ</p>
 <p>Cu tóte acestea, în casa luǐ Bantu Volbur, care era una din cele maǐ marǐ și maǐ avute din sat, se aflaŭ maǐ mulțǐ junǐ și maǐ multe fete cu părințiǐ lor la șeȡătóre.</p>
 <p>Era ȡioa ficeǐ luǐ Volbur, 8 Septembre.</p>
-<p>Maria era ca de vre-o opt-spre-ȡece anǐ; bălaia, cu pĕrul galben auriŭ, cu ochiǐ albaștri ca flórea nu mĕ uita; cu o gură mică și cu douĕ buze ca douĕ cireșe pîrguite care, când se deschideaŭ lăsaŭ să se vaȡă douĕ șire de dințǐ micǐ și albă ca douĕ șire de mărgăritare. Douĕ códe împletite cu panglicele albastre ’ǐ atîrnaŭ pe spate: o salbă de banǐ de aur ’ǐ împresura gâtul cel alb ca de le-bădă, o iă cusută în mătăsurǐ și semĕnată cu fluturașǐ acoperea formele eǐ cele maǐ încântătóre; <gap unit="2"></gap>miȡlocelul eǐ era încins cu nisce bete de o materie grea cusută cu fir de aur și cu mărgele; un vêlnic de mătase vișiniă cu fășiǐ albastre închise ’ǐ atârna de la talpă până la picióre carǐ eraŭ încălțate cu condurǐ roșiǐ de pele subțire cusuțǐ cu fireturǐ, cu mărgelușe și cu fluturașǐ.</p>
+<p>Maria era ca de vre-o opt-spre-ȡece anǐ; bălaia, cu pĕrul galben auriŭ, cu ochiǐ albaștri ca flórea nu mĕ uita; cu o gură mică și cu douĕ buze ca douĕ cireșe pîrguite care, când se deschideaŭ lăsaŭ să se vaȡă douĕ șire de dințǐ micǐ și albă ca douĕ șire de mărgăritare. Douĕ códe împletite cu panglicele albastre ’ǐ atîrnaŭ pe spate: o salbă de banǐ de aur ’ǐ împresura gâtul cel alb ca de le-bădă, o iă cusută în mătăsurǐ și semĕnată cu fluturașǐ acoperea formele eǐ cele maǐ încântătóre; <gap unit="2"/>miȡlocelul eǐ era încins cu nisce bete de o materie grea cusută cu fir de aur și cu mărgele; un vêlnic de mătase vișiniă cu fășiǐ albastre închise ’ǐ atârna de la talpă până la picióre carǐ eraŭ încălțate cu condurǐ roșiǐ de pele subțire cusuțǐ cu fireturǐ, cu mărgelușe și cu fluturașǐ.</p>
 <p>Toțǐ câțǐ o priveaŭ se minunaŭ de frumusețea eǐ; toțǐ câțǐ o auȡeaŭ vorbind remâneaŭ încântațǐ de dulcéța glasuluǐ eǐ și de înțelepciunea cuvintelor ce’ǐ eșeaŭ din gură.</p>
 <p>Volbur, care n’avea nicǐ femeiă, nicǐ alt copil, se uita la dênsa ca la sóre, ca la lună, dar nicǐ sórele nicǐ luna nu prețuiaŭ nimic pentru el pe lângă dênsa. Ea era fala luǐ, mândria luǐ, scopul pentru care voia să maǐ trăéscă până o va căpătui ca s’o lase la casa eǐ fericită, de óre-ce pentru dênsa strânsese destulă avere, atât în banǐ cât și în vite și pămênt.</p>
 <p>Dar sórtea pe care o dorise ficeǐ sale nu întârȡiase d’a se arăta ; un tênĕr ca de douĕ-ȡecǐ și patru de anǐ, chipeș și mândru la ivélă, vĕȡuse de câte-va orǐ pe fată la horă, ’ǐ plăcuse și pusese să o céră de sociă. El n’avea altă avere de cât o turmă de oǐ, pe care o moscenise de la părințiǐ luǐ, și o pășcea dimpreună cu un al tênĕr ce purta numele de frate al săŭ maǐ mic.</p>
@@ -328,7 +334,7 @@
 <p>Resuflând aerul cel recoros și curat, Maria scóse un suspin de mulțumire ; apoǐ se uită îm-prejuru’ǐ și vĕȡênd cu ochiǐ eǐ, carǐ eraŭ adesea deprinșǐ cu întunerecul, locul ce servea de eșire, înainta cu pașǐ iuțǐ dar fără sgomot, trecu prin-tre îngrăditurile cele largǐ ale porțiǐ și apucă repede pe cel d’ântêiŭ drum ce ’ǐ se înfățișă înainte.</p>
 <p>Ea merse ast-fel maǐ bine d’ouă oră. Drumul era pustiŭ, nicǐ o locuință omenéscă nu se ză-rea și nicǐ un loc semĕnat care să facă să créȡă aflarea vr’unuǐ suflet de om p’aprópe.</p>
 <p>Se duse dar ast-fel în voia întêmplăriǐ, ne-sciind unde o va scóte drumul ce ’l apucase și asceptând ivirea întêielor licărirǐ ale ȡorilor ȡi-leǐ spre a se putea orienta maǐ bine. Cu tóte acestea pașiǐ eǐ erau pripițǐ, de óre-ce se temea să n’o ajungă de pe urmă amăgitorul eǐ saŭ în-drăgitul păstor al căruǐ chip fioros și sălbatic ’ǐ se părea că ’l vede în fie-care copac ce’l întil-nea în calea eǐ.</p>
-<p>Un tropot de maǐ mulțǐ caǐ, carǐ păreaŭ a se <gap unit="1"></gap> apropia la pas, întrerupse liniscea cea adâncă ce domnise până atuncǐ. Maria ’șǐ întórse iute capul cercând să vaȡă ce se întâmplase. Nimic nu'se putea vedea însă. Inima eǐ tresări; sgomotul se apropia din ce în ce maǐ mult. Ce să fiă-óre? Fără îndoélă că sunt presecutoriǐ eǐ; vor fi ur-mărind’o călărǐ spre a o putea ajunge maǐ cu-rênd și maǐ sigur.</p>
+<p>Un tropot de maǐ mulțǐ caǐ, carǐ păreaŭ a se <gap unit="1"/> apropia la pas, întrerupse liniscea cea adâncă ce domnise până atuncǐ. Maria ’șǐ întórse iute capul cercând să vaȡă ce se întâmplase. Nimic nu'se putea vedea însă. Inima eǐ tresări; sgomotul se apropia din ce în ce maǐ mult. Ce să fiă-óre? Fără îndoélă că sunt presecutoriǐ eǐ; vor fi ur-mărind’o călărǐ spre a o putea ajunge maǐ cu-rênd și maǐ sigur.</p>
 <p>Sĕrmana fată tremura de frică, și ochiǐ eǐ că-taŭ în tóte părțile un loc în care să se pótă ascunde... Nimic, nimic de cât câțǐ-va copacǐ rarǐ pe icǐ și pe colo și uă câmpiă luciă. Câte-va mi-nute maǐ trecură ast-fel, pline de temerǐ și de chinurǐ pentru biata copilă, care numaǐ știa dacă trebuia să înainteze saŭ dacă n’ar fi maǐ nemerit s’o i-a peste câmp ca să nu fiă întîlnită de a-ceia carǐ veneaŭ pe urmele eǐ.</p>
 <p>Astă ideă ’ǐ se păru maǐ sigură. Ea trecu dară drumul în partea dréptă și ’șǐ iuți pașiǐ spre a se afunda maǐ mult în nemărginita depărtare a câmpieǐ ce ’șǐ desfășura întinderea în acel loc. Dar nu făcu uă sută de pașǐ, când simți uă bandă de călărețǐ viind spre dênsa și împresu-rând’o din tóte părțile.</p>
 <p>Eraŭ Tătarǐ carǐ umblaŭ nóptea după hoțit. Maria vĕȡêndu’ǐ îngenuchiă la pămênt cu mâi-nile întinse spre semn de rugăminte.</p>
@@ -721,7 +727,7 @@
 <p>Era uă încăpere pătrată, maǐ mult lungă de cât lată, zidită cu pétră ; patru paturǐ de lemn așternute cu saltele de paie, carǐ eraŭ învelite cu scórțele lucrate în țéră, câte-va scaune și uă masă de lemn, și câte-va obiecte mărunte fórte necesare menagiuluǐ, era tótă mobila ce se vĕȡu în acea cameră, care avea treǐ ușǐ, încuiate câte trele, și uă feréstră mică prin care nu pătrundea nicǐ o lumină, dar prin care, când se deschidea venea pucin aer rece, dar cam greŭ și umed.</p>
 <p>Volbur ’șǐ alesese un pat și se resturnă pe el de óre-ec se simțea fórte ostenit. Fiă care făcu ast-fel dar toțǐ se aflaŭ într’uă tăcere adâncă, cugetând la sórtea ce le era scrisă și nesciind nicǐ unde se aflaŭ nicǐ ce însemna cea ce se făcuse în privința lor.</p>
 <p>Maǐ ținea lumina ȡileǐ, saŭ a înoptat de mult?</p>
-<p>Nimenǐ nu putea spune, căcǐ era cu nepu- <gap unit="1"></gap>tință a se sci în acel loc unde, spre a vedea lu-mină, căta sĕ arȡă lampa și ȡioa ca și nóptea.</p>
+<p>Nimenǐ nu putea spune, căcǐ era cu nepu- <gap unit="1"/>tință a se sci în acel loc unde, spre a vedea lu-mină, căta sĕ arȡă lampa și ȡioa ca și nóptea.</p>
 <p>Timpul trecu repede ; Volbur adormise de vr’uă oră póte, nu somnul fericiților, ci al celor ce aflânduse în neputință de a maǐ lupta în contra decretelor uneǐ ursite neîmpăcate, se supun pênă în cele din urmă voințeǐ sale or care ar fi ea.</p>
 <p>Bĕtrâna Catrina vĕȡênd pe Volbur adormit, se silea și ea să închiȡă ochiǐ spre a chema som-nul de care părea c’avea așa mare novoiă. Ală-turǐ cu dênsa, Maria, întinsă pe jumătate și cu capul rezimat pe sînul Catrineǐ, ’șǐ avea ochiǐ a-țintațǐ asupra părinteluǐ eǐ pênă când nu maǐ putu susținea lupta ce ’șǐ făcuse de a sta deș-teptă și se supuse și ea somnuluǐ.</p>
 <p>Numaǐ Radu nu dormea.</p>
@@ -1163,7 +1169,7 @@
 <p>— Și cum?</p>
 <p>— Creȡǐ Măria ta, că fiind-că a ȡis căpitan Vintil că omul acela e om de omeniă, asta a fost destul pentru a fi creȡut ast-fel?</p>
 <p>— Dar atuncǐ de ce să ȡică un lucru care nu este?</p>
-<p>— Pentru că... iubea pe fică-sa pe care a și luat’o.</p><gap unit="1"></gap>
+<p>— Pentru că... iubea pe fică-sa pe care a și luat’o.</p><gap unit="1"/>
 <p>— Sciŭ.</p>
 <p>— Daca ȡicea alt-fel, putea el s’ajungă la sco-pul sĕŭ?</p>
 <p>— Fata e frumușică.</p>
@@ -1396,6 +1402,5 @@
 <p>—S’aibă țéra parte tot de asemenǐ Domnitorǐ, rĕspunse Volbur, și toțǐ închinară în sănătatea luǐ Dragoș Bogdan.</p>
 <trailer>Fine</trailer>
 </body>
-<back></back>
 </text>
 </TEI>

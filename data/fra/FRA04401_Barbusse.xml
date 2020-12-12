@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="FRA04401" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title ref="viaf:8216147270621135700006 wikidata:Q19194889">Le Feu : édition ELTeC</title>
-        <author xml:id="Barbusse" ref="viaf:68925116 wikidata:Q18404">Barbusse, Henri (1873-1935)</author>
+        <author ref="viaf:68925116 wikidata:Q18404">Barbusse, Henri (1873-1935)</author>
+        <respStmt>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
       </titleStmt>
       <extent>
         <!-- Word count: tokens as counted in text split on "\W+" -->
         <measure unit="words">119403</measure>
       </extent>
       <publicationStmt>
-        <p>à fournir</p>
+        <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+        <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+        <date when="2020-11-14" />
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/" />
+        </availability>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -21,12 +40,17 @@
           <ref target="#unknownSource">#unknownSource</ref>
         </bibl>
         <bibl type="printSource">
-          <author>Barbusse, Henri (1873-1935)</author>
+          <author>Henri Barbusse</author>
           <title>Le Feu</title>
           <date>1916</date>
         </bibl>
         <bibl type="firstEdition">
+          <author>Henri Barbusse</author>
+          <title>Le Feu</title>
+          <publisher>journal d'une escouade</publisher>
+          <pubPlace>Paris</pubPlace>
           <date>1916</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k990598p" />
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -38,12 +62,11 @@
         <language ident="fr">French</language>
         <!-- With considerable amounts of colloquial language / spelling -->
       </langUsage>
-<textClass>
-  <keywords>
-    <term type="narrative-perspective">heterodiegetic</term>
-  </keywords>
-</textClass>
-
+      <textClass>
+        <keywords>
+          <term type="narrative-perspective">heterodiegetic</term>
+        </keywords>
+      </textClass>
       <textDesc>
         <e:authorGender xmlns:e="http://distantreading.net/eltec/ns" key="M" />
         <e:size xmlns:e="http://distantreading.net/eltec/ns" key="long" />
@@ -53,6 +76,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2020-04-02">entête auto-généré: à compléter </change>
     </revisionDesc>
   </teiHeader>
@@ -1444,7 +1469,7 @@
         <p>» On a planté le poteau dans la nuit. On a amené le bonhomme à l'aube, et ce sont les types de son escouade qui l'ont tué. Il avait voulu couper aux tranchées ; pendant la relève, il était resté en arrière, puis était rentré en douce au cantonnement. Il n'a rien fait autre chose ; on a voulu, sans doute, faire un exemple. »</p>
         <p>Nous nous approchâmes de la conversation des autres :</p>
         <p>— Mais non, pas du tout, disait l'un. C'était pas un bandit ; c'était pas un de ces durs cailloux comme tu en vois. Nous étions partis ensemble. C'était un bonhomme comme nous, ni plus, ni moins un peu flemme, c'est tout. Il était en première ligne depuis le commencement, mon vieux, et j'l'ai jamais vu saoul, moi.</p>
-        <p>— Faut tout dire : malheureusement pour lui, qu'il avait de mauvais antécédents. Ils étaient deux, tu sais, à faire le coup. L'autre a pigé deux ans de prison. Mais Cajard<ref n="" target="index_split_024.html#filepos852734"><hi>[1]</hi></ref> à cause d'une condamnation qu'il avait eue dans le civil, n'a pas bénéficié de circonstances atténuantes. Il avait, dans le civil, fait un coup de tête étant saoul.</p>
+        <p>— Faut tout dire : malheureusement pour lui, qu'il avait de mauvais antécédents. Ils étaient deux, tu sais, à faire le coup. L'autre a pigé deux ans de prison. Mais Cajard à cause d'une condamnation qu'il avait eue dans le civil, n'a pas bénéficié de circonstances atténuantes. Il avait, dans le civil, fait un coup de tête étant saoul.</p>
         <p>— On voit un peu d'sang par terre quand on r'garde, dit un homme penché.</p>
         <p>— Y a tout eu, reprit un autre, la cérémonie depuis A jusqu'à Z, le colonel à cheval, la dégradation ; puis on l'a attaché, à c'petit poteau bas, c'poteau d'bestiaux. Il a dû être forcé de s'mettre à genoux ou de s'asseoir par terre avec un petit poteau pareil.</p>
         <p>— Ça s'comprendrait pas, fit un troisième après un silence, s'il n'y avait pas cette chose de l'exemple que disait le sergent.</p>

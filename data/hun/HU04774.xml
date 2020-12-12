@@ -1,32 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU04774" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU04774" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Magyarország 1514-ben : Regény : ELTeC edition</title>
-            <author ref="viaf:64044769">Eötvös, József  (1813-1871)</author>
+            <author ref="viaf:64044769">Eötvös József (1813-1871)</author>
             <respStmt>
                <resp>ELTeC conversion</resp>
                <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
                </name>
                <name>Fellegi Zsófia</name>
-               <name>Takács Emma</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
             </respStmt>
          </titleStmt>
          <extent>
             <measure unit="words">201018</measure>
             <measure unit="pages">766</measure>
          </extent>
-         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
-         <sourceDesc><bibl type="digitalSource">
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
                <title>Magyarország 1514-ben : Regény</title>
                <date>2007-04-26</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="http://mek.oszk.hu/04700/04774"/>
+               <ref target="http://mek.oszk.hu/04700"/>
                <respStmt>
                   <resp>Original Electronic Edition</resp>
                   <name>Sőtér István</name>
@@ -36,39 +35,44 @@
                   <name>Ollé Krisztián</name>
                </respStmt>
                
-            </bibl><bibl type="firstEdition">
-               <title>Magyarország 1514-ben : Regény</title>
-               <author>Eötvös József</author>
-               <date>1847</date>
-            </bibl><bibl type="printSource">
+                  <bibl type="printSource">
                      <title>Magyarország 1514-ben</title>
                      <author>Eötvös József</author>
                      <pubPlace>Budapest</pubPlace>
                      <publisher>Magyar Helikon : Szépirodalmi Kvk.</publisher>
                      <date>1972</date>
-                  </bibl></sourceDesc>
+                     <ref target="http://mek.oszk.hu/04700/04774/04774.pdf"/>
+                  </bibl>
+               
+            </bibl>
+            <bibl type="firstEdition">
+               <title>Magyarország 1514-ben : Regény</title>
+               <author>Eötvös József</author>
+               <date>1847</date>
+            </bibl>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="hu"/>
+            <language ident="hu">Hungarian</language>
          </langUsage>
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
+      <revisionDesc>
          <change when="2019-04-18"/>
       </revisionDesc>
    </teiHeader>
   <text>
       <front>
-         <div type="liminal">
+         <div type="chapter">
             <head>ELŐSZÓ</head>
             <p>Hosszú előszavak többnyire olvasatlanul hagyatnak: nem fogom tehát ilyennel untatni
                olvasóimat. Sőt, mint előbbi hasonnemű munkáimmal tevém, minden előszó nélkül
@@ -1127,7 +1131,7 @@
                háznak a lakhatóság színét kölcsönzi, s valamint Mátyás alatt a budai várba idegen
                alig jöhetett, ki annyi megkezdett nagyszerű épületet látva nem mondaná: mi szép lesz
                ez egykor! - úgy most az első gondolat, mely a jövevényben, mihelyt az udvarokba
-               lépett, mintegy akaratlanul támadt, az: mi szép lehetett mindez egykoron.<hi xml:id="_ednref12">[xii]</hi>
+               lépett, mintegy akaratlanul támadt, az: mi szép lehetett mindez egykoron.
             </p>
             <p>Még nagyobb volt a változás Mátyás halála óta a palota belsejében. A nagy Hunyadi
                udvarát keleti pompa jellemzé. Roppant pohárszékek, telve arany- és

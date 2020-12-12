@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1022" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1022" xml:lang="SPA">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,22 +17,19 @@
                 <measure unit="vols">4</measure>
             </extent>
             <publicationStmt>
-                <publisher ref="https://distant-reading.net">COST Action "Distant Reading for
-                    European Literary History" (CA16204)</publisher>
-                <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-                <date when="2019-01-20"/>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                </availability>
-                <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+            <sourceDesc><bibl type="firstEdition">
                     <pubPlace>Madrid</pubPlace>
                     <date>1842-1843</date>
                     <publisher>Gabinete Literario</publisher>
-                </bibl>
-                <bibl type="digitalSource">
+                </bibl><bibl type="digitalSource">
                     <publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
                     <pubPlace>Universidad de Alicante</pubPlace>
                     <idno>3913</idno>
@@ -51,8 +49,7 @@
                         <name>Josefina Carrión</name>
                         <name>Déborah Villanueva Rodríguez</name>
                     </respStmt>
-                </bibl>
-            </sourceDesc>
+                </bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-1">
             <p/>
@@ -70,6 +67,7 @@
             </textDesc>
         </profileDesc>
         <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
             <change when="2020-04-16">Anotación formato ELTeC y correcciones varias: Borja Navaro
                 Colorado</change>
         </revisionDesc>
@@ -325,8 +323,7 @@
                         Rara vez consultaba otra opinión que la suya propia; irritable la
                         contradicción manifiesta; no cedía jamás a los argumentos; pero nunca supo
                         resistir a la súplica y un niño podía gobernarle a su antojo por medio de la
-                        dulzura. Vástago de una familia antigua y poderosa de Sevilla, casó <pb
-                            n="21"/> con una mujer de igual clase, de la que no tuvo más hijos que
+                        dulzura. Vástago de una familia antigua y poderosa de Sevilla, casó <pb n="21"/> con una mujer de igual clase, de la que no tuvo más hijos que
                         Carlos. Su esposa había muerto poco después del nacimiento de éste, y doña
                         Leonor, única hermana de don Francisco, se encargó entonces del niño que no
                         conoció otra madre. Don Francisco, no obstante, sus eternas disputas con su
@@ -347,8 +344,7 @@
                         su esposo, y la pérdida de tantos queridos objetos había hecho más preciosa
                         para ella aquella última prenda de su unión. Luisa, la linda Luisa era esta
                         cara prenda, y su madre había tenido en su educación el más incansable
-                        desvelo. No entraba en sus ideas el adornarla de talentos distinguidos <pb
-                            n="23"/> y la educación de Luisa fue más religiosa que brillante: a
+                        desvelo. No entraba en sus ideas el adornarla de talentos distinguidos <pb n="23"/> y la educación de Luisa fue más religiosa que brillante: a
                         pesar de la oposición de don Francisco a un sistema tan rígido. No tuvo
                         maestros de música, ni de baile, ni de ningún género de habilidad; pero en
                         compensación conocía todos los secretos de la economía doméstica, era
@@ -449,8 +445,7 @@
                         destinados a visitar hospitales para consolar y socorrer a los enfermos,
                         otros que madre e hija consagraban a trabajar con sus manos ropas para los
                         niños de la cuna, de cuyo establecimiento era especial protectora doña
-                        Leonor: en fin la multitud de novenas, las varias fiestas que se <pb n="31"
-                        /> ofrecían ya a un santo, ya a una santa, las visitas a los conventos de
+                        Leonor: en fin la multitud de novenas, las varias fiestas que se <pb n="31"/> ofrecían ya a un santo, ya a una santa, las visitas a los conventos de
                         monjas, en cada uno de los cuales tenía doña Leonor una parienta o una
                         amiga, todas estas cosas unidas a los cuidados domésticos, ocupaban la vida
                         de Luisa lo bastante para preservarla tal vez de estos éxtasis ardientes,
@@ -462,8 +457,7 @@
 
 
                     <p> Aunque nacida bajo el ardiente cielo de Andalucía no tenía ni física ni
-                        moralmente los rasgos que caracterizan a las mujeres meridionales. <pb
-                            n="32"/> Cándida y pura como su tez era su alma, y su carácter dulce y
+                        moralmente los rasgos que caracterizan a las mujeres meridionales. <pb n="32"/> Cándida y pura como su tez era su alma, y su carácter dulce y
                         humilde como su mirada. La inocencia brillaba en cada una de sus facciones,
                         como en cada uno de sus pensamientos, y cuando sus ojos azules y serenos se
                         levantaban en lo alto, y un rayo de luz argentaba su blanca frente, diríase
@@ -581,8 +575,7 @@
                     <p> Es fama que los muebles antiguos y venerandos de aquella casa tan
                         constantemente tranquila, se espantaron al ver el inusitado movimiento de
                         aquel día, y la vieja ama de llaves que en treinta años que servía a doña
-                        Leonor no se acordaba de haber presenciado iguales gastos y profusiones, <pb
-                            n="41"/> se santiguó devotamente y dijo en voz baja al mayordomo. </p>
+                        Leonor no se acordaba de haber presenciado iguales gastos y profusiones, <pb n="41"/> se santiguó devotamente y dijo en voz baja al mayordomo. </p>
 
 
                     <p> -No hay remedio, nuestra ama va a morir pronto, Tadeo, pues cuando las
@@ -596,8 +589,7 @@
                         para comprar mil chucherías del ornato mujeril. La pobre Luisa que hasta
                         aquel día había oído decir que era un grave pecado perder los momentos en el
                         tocador, hubo de someterse en aquella memorable mañana a dos largas horas de
-                            <foreign xml:lang="FRA"> toilette </foreign> . No aseguraremos <pb
-                            n="42"/> que su prendido pudiese aspirar a la calificación de <emph>
+                            <foreign xml:lang="FRA"> toilette </foreign> . No aseguraremos <pb n="42"/> que su prendido pudiese aspirar a la calificación de <emph>
                             elegante </emph> , pues nos consta que fue dirigido por la respetable
                         señora Serafina, que aunque se hubiese acreditado hacía treinta años de
                         manejar con mucho salero su mantilla de raso, no estaba muy al corriente de
@@ -664,8 +656,7 @@
                     <p> -¡Niña, niña!, esos ojos bajos. </p>
 
 
-                    <p> Obedeció Luisa, y quedose inmóvil hasta que oyó la voz de su tío gritar <pb
-                            n="47"/> junto a ella. </p>
+                    <p> Obedeció Luisa, y quedose inmóvil hasta que oyó la voz de su tío gritar <pb n="47"/> junto a ella. </p>
 
 
                     <p> -Luisita, saluda a tu primo. </p>
@@ -753,8 +744,7 @@
                         Asunción de María. </p>
 
 
-                    <p> Dos o tres veces pareció que el joven intentaba dirigir alguna palabra <pb
-                            n="54"/> a su prima, pero esta palabra, que casi asomaba a sus labios,
+                    <p> Dos o tres veces pareció que el joven intentaba dirigir alguna palabra <pb n="54"/> a su prima, pero esta palabra, que casi asomaba a sus labios,
                         quedábase helada entre ellos, sin llegar a ser proferida. Por fin llegó la
                         hora de la comida que aquel día por extraordinario fue a las tres, exceso
                         que produjo un cólico a doña Leonor, cuyo estómago por el largo hábito de
@@ -803,8 +793,7 @@
                         a mí? </p>
 
 
-                    <p> Las señoras y don Francisco se levantaban de la mesa, pero distraídos <pb
-                            n="57"/> los dos jóvenes quedaron sentados. </p>
+                    <p> Las señoras y don Francisco se levantaban de la mesa, pero distraídos <pb n="57"/> los dos jóvenes quedaron sentados. </p>
 
 
                     <p> -Yo la recordaba a Ud. tan linda como era cuando tenía ocho años, Luisa,
@@ -1027,8 +1016,7 @@
                         de su carácter era temperada por la energía de su razón. Verdad es que hasta
                         entonces aquellos principios y aquella razón no habían tenido que sostener
                         ninguna lucha tenaz con sus pasiones. Carlos era, pues, una bella y fuerte
-                        organización que aún no se había ejercitado; un ardiente corazón <pb n="70"
-                        /> que aún no había vivido; un elevado juicio que aún no podía juzgar con
+                        organización que aún no se había ejercitado; un ardiente corazón <pb n="70"/> que aún no había vivido; un elevado juicio que aún no podía juzgar con
                         acierto y exactitud; una alta capacidad que aún no se conocía a sí misma:
                         era, en fin, un hombre de veinte años, con los nobles instintos de la edad
                         feliz, con las ilusiones y las teorías de las almas ardientes, con todos los
@@ -1137,8 +1125,7 @@
                         corazón: un manantial de sensaciones desconocidas brotaba en su seno, como a
                         la luz del sol se despiertan los colores que dormían en la noche; y sin
                         comprender lo que sentía ni lo que inspiraba, hallábase, sin embargo,
-                        dichosa y agitada al mismo tiempo. Asústabale su propia ventura, y <pb
-                            n="79"/> cuando una mirada de Carlos la decía con respetuosa pasión,
+                        dichosa y agitada al mismo tiempo. Asústabale su propia ventura, y <pb n="79"/> cuando una mirada de Carlos la decía con respetuosa pasión,
                         -¡te amo!- y sentía la niña inundarse de felicidad su corazón, levantaba al
                         cielo sus ojos para preguntarle si no era un crimen ser tan dichosa en la
                         tierra. En aquella alma casta y religiosa todos los sentimientos tenían un
@@ -1358,8 +1345,7 @@
                         matrimonio. </p>
 
 
-                    <p> -Pero continuaremos como hasta ahora -exclamó Carlos-, ¿no es verdad mi <pb
-                            n="96"/> amada tía? Yo esperaré todo el tiempo que Ud. quiera: haré
+                    <p> -Pero continuaremos como hasta ahora -exclamó Carlos-, ¿no es verdad mi <pb n="96"/> amada tía? Yo esperaré todo el tiempo que Ud. quiera: haré
                         cuanto Ud. me ordene; pero permítame ver a Luisa todos los días. </p>
 
 
@@ -1424,8 +1410,7 @@
                         que dirigió a su yerno: </p>
 
 
-                    <p> -Consérvala pura y piadosa como te la entrego: ha sido buena hija, <pb
-                            n="101"/> prémiala tú haciéndola una feliz esposa. </p>
+                    <p> -Consérvala pura y piadosa como te la entrego: ha sido buena hija, <pb n="101"/> prémiala tú haciéndola una feliz esposa. </p>
 
 
                     <p> Su fisionomía tomó un carácter verdaderamente patético. </p>
@@ -1737,8 +1722,7 @@
                         brazos de su madre. </p>
 
 
-                    <p> -¡Luisa! ¡Luisa! -exclamó don Francisco conteniendo sus lágrimas-: ¿no <pb
-                            n="122"/> piensas en el estado de tu pobre madre?, ¿quieres acabar de
+                    <p> -¡Luisa! ¡Luisa! -exclamó don Francisco conteniendo sus lágrimas-: ¿no <pb n="122"/> piensas en el estado de tu pobre madre?, ¿quieres acabar de
                         matarla con tu dolor? </p>
 
 
@@ -1853,8 +1837,7 @@
                         no pudo él tampoco detener sus lágrimas. </p>
 
 
-                    <p> Embebecido en estos pensamientos estaba todavía, medio recostado <pb n="130"
-                        /> en un sofá cuando llamaron suavemente a su puerta, y una criada de la
+                    <p> Embebecido en estos pensamientos estaba todavía, medio recostado <pb n="130"/> en un sofá cuando llamaron suavemente a su puerta, y una criada de la
                         casa pasó a anunciarle que una señora solicitaba el verle. </p>
 
 
@@ -1910,8 +1893,7 @@
                         que ceder a pesar suyo. </p>
 
 
-                    <p> Entró, pues, con Elvira en su coche después de despedirse de la ama <pb
-                            n="134"/> de casa y de su nuevo amigo, al que ofreció visitarle algunas
+                    <p> Entró, pues, con Elvira en su coche después de despedirse de la ama <pb n="134"/> de casa y de su nuevo amigo, al que ofreció visitarle algunas
                         veces, y se resignó a sufrir la forzosa compañía de su locuaz parienta los
                         días que permaneciera en Madrid. </p>
 
@@ -1985,8 +1967,7 @@
                         su gabinete para escribir a Luisa, aunque debían pasar dos días antes de que
                         saliese el correo. ¡Qué cartas las primeras que se escriben dos amantes en
                         su primera separación! Un indiferente no pudiera leerlas sin reírse desde la
-                        primera línea. ¡Qué detalles!, ¡qué minuciosidades! ¡Cómo un mismo <pb
-                            n="139"/> pensamiento se deslíe de mil maneras, se reproduce bajo mil
+                        primera línea. ¡Qué detalles!, ¡qué minuciosidades! ¡Cómo un mismo <pb n="139"/> pensamiento se deslíe de mil maneras, se reproduce bajo mil
                         formas! ¡Cuánto papel empleado para no expresar en resumidas cuentas más que
                         una sola idea -te amo-! ¡Cuánta profusión de dulces mentiras, que cree
                         verdades el mismo que las escribe! Y, sin embargo, estas cartas tan cansadas
@@ -2000,8 +1981,7 @@
                         tocó la campanilla y preguntó si había venido Elvira. El criado se sonrió. </p>
 
 
-                    <p> -¡A las once! -dijo-: No, señor, nunca viene la señora tan temprano, <pb
-                            n="140"/> después del teatro va a la tertulia; pero tenemos orden de
+                    <p> -¡A las once! -dijo-: No, señor, nunca viene la señora tan temprano, <pb n="140"/> después del teatro va a la tertulia; pero tenemos orden de
                         servir a Ud. la cena cuando guste, y puede acostarse sin esperar a la
                         señora, pues acaso no venga hasta el día. </p>
 
@@ -2088,8 +2068,7 @@
                         no es natural que sienta mucho la primera separación de su marido?, ¿qué hay
                         en esto de malo? ¿Es posible, Leonor, que de todo saques argumento para
                         mortificar a tu hija y calumniar a tu hermano? Consuélate, hija mía, no
-                        llores más: hazlo por mí, no hagas caso de lo que dice tu madre: su <pb
-                            n="146"/> propia pena la hace hablar así. No te aflijas, Luisita. </p>
+                        llores más: hazlo por mí, no hagas caso de lo que dice tu madre: su <pb n="146"/> propia pena la hace hablar así. No te aflijas, Luisita. </p>
 
 
                     <p> Y el anciano caballero conducía a Luisa lejos de la enferma para que ésta no
@@ -2129,8 +2108,7 @@
                         Sevilla, según relato del médico de doña Leonor, de la madre abadesa de las
                         capuchinas que padecía horriblemente todos los inviernos; de una vista que
                         la habían hecho doña Serafina y doña Beatriz; de lo que pensaban hablar en
-                        otra visita que proyectaban hacer a la reverenda madre; en fin, la noche <pb
-                            n="148"/> se pasó con corta diferencia como las anteriores, y la pobre
+                        otra visita que proyectaban hacer a la reverenda madre; en fin, la noche <pb n="148"/> se pasó con corta diferencia como las anteriores, y la pobre
                         Luisa vio con sorpresa y dolor que lo que era poderoso a destruir su
                         felicidad era un acontecimiento muy indiferente en sí. Mientras tanto, ella
                         apacentaba su dolor con la contemplación de todos los objetos que le
@@ -2139,8 +2117,7 @@
                         notó que uno de ellos tenía marcada con una cintita la página última que
                         había leído Carlos, y tomó con disimulo la cintita que desde entonces no se
                         apartó nunca de su pecho. Al despedirse las dos señoras no dejaron de
-                        repetirla los consuelos de costumbre, y doña Leonor la exhortó después <pb
-                            n="149"/> seriamente a moderar un exceso de sensibilidad peligroso sino
+                        repetirla los consuelos de costumbre, y doña Leonor la exhortó después <pb n="149"/> seriamente a moderar un exceso de sensibilidad peligroso sino
                         culpable, habiendo conseguido con su discurso sino calmar el dolor de Luisa,
                         hacerlo parecer extremado e injusto a sus propios ojos. Acostose pensando en
                         ello y diciéndose a sí misma que era, en efecto, una locura afligirse tanto
@@ -2163,8 +2140,7 @@
                         ocupación a que se entregaba sin repugnancia era a la de escribir
                         larguísimos diarios a su marido; todo lo que no tenía relación con él le era
                         insoportable. Los cuidados que le eran tan dulces cuando los dividía con
-                        Carlos, llegaron a fatigarla. No era por esto menos diligente y esmerada <pb
-                            n="151"/> en la asistencia de la enferma, pero no tenían ya sus acciones
+                        Carlos, llegaron a fatigarla. No era por esto menos diligente y esmerada <pb n="151"/> en la asistencia de la enferma, pero no tenían ya sus acciones
                         para ella la misma facilidad y dulce encanto. Esforzábase cerca de su madre
                         en disimular su tristeza; y esta sujeción la hacía penosa la asistencia
                         continua junto a ella. Muchas veces, después de todo un día de violencia
@@ -2237,8 +2213,7 @@
                         activa y apta para hacer productivos sus bienes que sus dispendios siempre
                         eran inferiores a sus rentas. Verdad es que quien dio a Carlos estos
                         informes no olvidó indicar, vaga y confusamente, que nadie creía que doña
-                        Elvira por sí sola hubiese levantado en poco tiempo su decaída fortuna, <pb
-                            n="158"/> y que era probable la hubiese auxiliado algún amigo poderoso.
+                        Elvira por sí sola hubiese levantado en poco tiempo su decaída fortuna, <pb n="158"/> y que era probable la hubiese auxiliado algún amigo poderoso.
                         Mas esto no disminuyó, el buen efecto que hizo en Carlos la relación
                         anterior, y, desde entonces, estimó sinceramente a su prima. </p>
 
@@ -2358,8 +2333,7 @@
 
 
                     <p> -Y los encuentra -añadió una casada, cuyo noveno amante la había abandonado
-                        por la condesa, pero que, no obstante, merced a su gran prudencia <pb
-                            n="165"/> y severas máximas, que sabía ostentar en las grandes
+                        por la condesa, pero que, no obstante, merced a su gran prudencia <pb n="165"/> y severas máximas, que sabía ostentar en las grandes
                         ocasiones, pasaba por una virtud ejemplar. La condesa -prosiguió con
                         refinada malignidad- es, digan lo que quieran, una mujer poco común. No hay
                         en Madrid quien cante con tanto gusto y maestría como ella. La bailarina más
@@ -2368,8 +2342,7 @@
                         con los hombres más sabios cuestiones de moral, de religión y de política.
                         Distinguida por todos los talentos no lo es menos por su carácter
                         independiente, y yo dudo que exista en España mujer de opiniones tan libres.
-                        Confieso que no puedo sufrir que se interprete siniestramente lo que en <pb
-                            n="166"/> ella pueda parecer equívoco: en tal caso yo me inclino siempre
+                        Confieso que no puedo sufrir que se interprete siniestramente lo que en <pb n="166"/> ella pueda parecer equívoco: en tal caso yo me inclino siempre
                         al lado favorable y, a veces, prescindo de mis propias convicciones para
                         tomar su defensa. </p>
 
@@ -2395,8 +2368,7 @@
                     <p> -Pienso lo mismo que Ud. -dijo entonces una joven de aspecto sentimental-.
                         La condesa es una persona de trato tan franco, tan fácil, tan ameno, que
                         debe agradar infinito a los hombres. Lo único que en ella censuro
-                        amargamente es que no use de algún miramiento, de alguna prudencia... <pb
-                            n="168"/> En mi juicio sólo es escándalo es imperdonable. ¡Oh! Yo
+                        amargamente es que no use de algún miramiento, de alguna prudencia... <pb n="168"/> En mi juicio sólo es escándalo es imperdonable. ¡Oh! Yo
                         respeto mucho la opinión. </p>
 
 
@@ -2439,8 +2411,7 @@
 
                     <p> -Pues ahora que no temo que se hiera a nadie -prosiguió el señor de Castro-,
                         me permitirán uds. que les preguntes, señoras, qué gran falta, qué
-                        escandalosa aventura ha habido en la vida de la condesa que tanto la ha <pb
-                            n="171"/> perjudicado en el concepto de uds. </p>
+                        escandalosa aventura ha habido en la vida de la condesa que tanto la ha <pb n="171"/> perjudicado en el concepto de uds. </p>
 
 
                     <p> Las damas vacilaron algún tanto, y se miraron como para consultarse la
@@ -2461,8 +2432,7 @@
                         por imprudente, y encuentro una manifiesta contradicción en... </p>
 
 
-                    <p> -¡Basta! -interrumpió su señora, lanzando una mirada aterradora sobre <pb
-                            n="172"/> su indiscreto cónyuge- No es necesario examinar los
+                    <p> -¡Basta! -interrumpió su señora, lanzando una mirada aterradora sobre <pb n="172"/> su indiscreto cónyuge- No es necesario examinar los
                         fundamentos de ninguna opinión. Siempre es justa cuando es general. </p>
 
 
@@ -2576,8 +2546,7 @@
                     <p> -No he dicho tanto, señora, he hablado en general. </p>
 
 
-                    <p> -Pero vamos, confiese Ud. que algo ha oído que le haya inducido a <pb
-                            n="178"/> no formar de Catalina el concepto más ventajoso. </p>
+                    <p> -Pero vamos, confiese Ud. que algo ha oído que le haya inducido a <pb n="178"/> no formar de Catalina el concepto más ventajoso. </p>
 
 
                     <p> -Prima mía, hoy por la primera vez he oído hablar de la condesa, y las
@@ -2605,8 +2574,7 @@
 
 
                     <p> -Y en esa larga conversación, de que parece fue el objeto Catalina, no
-                        dejarían de atribuírsele defectos, poderosos a deslucir todo el <pb n="179"
-                        /> mérito que no podían negarla. </p>
+                        dejarían de atribuírsele defectos, poderosos a deslucir todo el <pb n="179"/> mérito que no podían negarla. </p>
 
 
                     <p> -Veo, querida prima, que Ud. conoce perfectamente la sociedad en que vive. </p>
@@ -2667,8 +2635,7 @@
                         podido excusarme de acompañar a nuestra prima Elvira. La reunión es en casa
                         de la condesa viuda de S.***, mujer que inspira a nuestra amada madre una
                         desafección instintiva, que creo veré justificada, pues por todo cuanto he
-                        oído respecto a su carácter, la condesa, Luisa mía, no se parece en <pb
-                            n="182"/> nada a mi angelical compañera, ni a nuestra respetable mamá». </p>
+                        oído respecto a su carácter, la condesa, Luisa mía, no se parece en <pb n="182"/> nada a mi angelical compañera, ni a nuestra respetable mamá». </p>
 
 
                     <p> Cerró esta carta que terminaba con los juramentos de costumbre de amor
@@ -2708,8 +2675,7 @@
                         razón, que es una habilidad útil y permitida la de saber volver contra
                         nuestros enemigos las armas con que quieren herirnos. Pero nada tiene de
                         cruel, ¡oh!, es una persona buena y caritativa. Su dinero y su amistad están
-                        a la disposición de todo el mundo, ¡y su trato es tan fácil, es <pb n="185"
-                        /> tan franco!... Es tan poco irritable su amor propio que rarísima vez se
+                        a la disposición de todo el mundo, ¡y su trato es tan fácil, es <pb n="185"/> tan franco!... Es tan poco irritable su amor propio que rarísima vez se
                         consigue ofenderle. Su indulgencia es tan grande, se halla siempre tan
                         dispuesta a perdonar, que muchas personas la creen muy humilde. Pero ¿no le
                         parece a Ud., Carlos, que esta especie de indulgencia tan lata con los
@@ -2737,8 +2703,7 @@
                         sencillez que hace tan felices y amenas las tertulias de París. </p>
 
 
-                    <p> Carlos no pudo dejar de confesarse a sí mismo al verse en medio <pb n="187"
-                        /> de aquel brillante círculo, que, a falta de felicidad real, la
+                    <p> Carlos no pudo dejar de confesarse a sí mismo al verse en medio <pb n="187"/> de aquel brillante círculo, que, a falta de felicidad real, la
                         imaginación, y aun el corazón, debían necesitar de aquel embriagador perfume
                         del lujo y de la armonía, de aquéllas fugaces impresiones que no dejan lugar
                         al fastidio evitando la meditación. Elvira presentó a Carlos a la condesa,
@@ -2757,8 +2722,7 @@
                         formas más notables por la delicadeza que por la perfección. No hubiera sido
                         una hermosura entre los egipcios, ni debía agradar a aquellos hombres que
                         gustan de un exterior robusto y exuberante de salud, por decirlo así. Era
-                        delgada, y, aunque su espalda y garganta eran muy bien formadas, <pb n="189"
-                        /> y su talle extremadamente gracioso, se advertía a primera vista que
+                        delgada, y, aunque su espalda y garganta eran muy bien formadas, <pb n="189"/> y su talle extremadamente gracioso, se advertía a primera vista que
                         carecía de aquella majestad voluptuosa que tienen comúnmente las mujeres
                         corpulentas. No tenía tampoco una fisionomía pronunciada: la rapidez de sus
                         sensaciones se pintaba en su semblante, cuya expresión era tan fugaz, tan
@@ -2767,8 +2731,7 @@
                         y casi deslumbradora, pero cuando esta mirada se fijaba, era difícil
                         defenderse de la impresión que producía su expresión, a la vez altiva y
                         apasionada. Por lo demás, nada había en ella de sobresaliente, sus facciones
-                        no eran académicas, y sólo cuando se animaba en la conversación, <pb n="190"
-                        /> se podía conocer el admirable efecto de su conjunto. Era de notar que, a
+                        no eran académicas, y sólo cuando se animaba en la conversación, <pb n="190"/> se podía conocer el admirable efecto de su conjunto. Era de notar que, a
                         pesar de la rara movilidad de aquel rostro y del gracioso desgarbo que había
                         en toda su persona, la forma de su cara y la posición natural de sus labios,
                         le daban, cuando estaba distraída, un gesto admirable de aristocracia, y que
@@ -2822,8 +2785,7 @@
                         solamente. </p>
 
 
-                    <p> -Te engañas: de nada tiene menos que de fatuidad. Si le trataras <pb n="194"
-                        /> ya verías que tiene talento, imaginación, y, sobre todo, modestia, aunque
+                    <p> -Te engañas: de nada tiene menos que de fatuidad. Si le trataras <pb n="194"/> ya verías que tiene talento, imaginación, y, sobre todo, modestia, aunque
                         con bastante mérito para que pudiese perdonársele el carecer de ella. Pero
                         veo que es ciertísima la ley de las simpatías y antipatías, pues tú, tan
                         indulgente con todo el mundo, juzgas desventajosamente a primera vista a un
@@ -2837,8 +2799,7 @@
 
                     <p> -Quiero decir, que lo que había oído de tu carácter, le previno tan
                         fuertemente en contra tuya que no te perdonaba el atrevidillo, ni aun a
-                        favor de tus talentos y gracias, y no me ha costado poco trabajo el <pb
-                            n="195"/> obligarle a que me acompañase a tu casa. </p>
+                        favor de tus talentos y gracias, y no me ha costado poco trabajo el <pb n="195"/> obligarle a que me acompañase a tu casa. </p>
 
 
                     <p> -¡Es posible! -dijo la condesa, volviendo a mirar a Carlos, que aún
@@ -2915,8 +2876,7 @@
                         últimas palabras de su amiga, pareció prestar toda su atención a la música.
                         Carlos, empero, permanecía en la misma actitud y como enteramente extraño a
                         cuanto le rodeaba. ¡Oh! En aquellos momentos su imaginación estaba en
-                        Sevilla. Cantaron sucesivamente algunas señoras y caballeros de la <pb
-                            n="199"/> reunión, y Carlos apenas daba las señales de aprobación que
+                        Sevilla. Cantaron sucesivamente algunas señoras y caballeros de la <pb n="199"/> reunión, y Carlos apenas daba las señales de aprobación que
                         exigía la urbanidad, volviendo enseguida a su primera distracción. Por
                         último, vinieron a rogar a la condesa que cantase, y se dejó conducir al
                         piano sin apartar los ojos del rincón en que se había sentado Carlos, y
@@ -3032,8 +2992,7 @@
                         Ud. que la ama? ¡Qué necedad! </p>
 
 
-                    <p> Carlos creía soñar: una mujer que permitía se llamase su amante <pb n="207"
-                        /> un hombre a quien no respetaba, un hombre que tomaba por gala la
+                    <p> Carlos creía soñar: una mujer que permitía se llamase su amante <pb n="207"/> un hombre a quien no respetaba, un hombre que tomaba por gala la
                         caprichosa preferencia de una coqueta a quien no amaba, otra mujer que no
                         hablaba de tan inconcebibles relaciones, como de una cosa naturalísima...
                         Todo esto le parecía tan raro y escandaloso, que durante el camino guardó un
@@ -3070,8 +3029,7 @@
 
 
                     <p> Encontró a las dos amigas solas en el gabinete de Elvira, y vista a la luz
-                        del día Catalina, con un sencillo y elegante traje de alepín oscuro, <pb
-                            n="6"/> y sin más adorno en la cabeza que los profusos rizos de sus
+                        del día Catalina, con un sencillo y elegante traje de alepín oscuro, <pb n="6"/> y sin más adorno en la cabeza que los profusos rizos de sus
                         negros cabellos, le pareció más bonita que con todas sus galas de baile. </p>
 
 
@@ -3170,8 +3128,7 @@
                         bella esa señorita inglesa, a la que mira tan atentamente hace una hora? </p>
 
 
-                    <p> -Es, en efecto, hermosa -respondió él sin dejar de mirar a la dama <pb
-                            n="13"/> que motivó la pregunta-, pero lo que en ella atrajo mi
+                    <p> -Es, en efecto, hermosa -respondió él sin dejar de mirar a la dama <pb n="13"/> que motivó la pregunta-, pero lo que en ella atrajo mi
                         atención, señora, fue menos su hermosura que la semejanza que creí notar
                         entre su rostro y el de otra persona ausente que me es muy querida. </p>
 
@@ -3380,8 +3337,7 @@
                         cerca de Catalina. </p>
 
 
-                    <p> Ésta no podía disimular la especie de inquietud que la dominaba, <pb n="26"
-                        /> y después de haberse esforzado inútilmente en mostrarse atenta a la
+                    <p> Ésta no podía disimular la especie de inquietud que la dominaba, <pb n="26"/> y después de haberse esforzado inútilmente en mostrarse atenta a la
                         representación, se volvió a Carlos y le dijo: </p>
 
 
@@ -3442,8 +3398,7 @@
                         nombre adorado de Luisa. </p>
 
 
-                    <p> Y Carlos volvió la cabeza para ocultar una lágrima que se asomaba <pb n="29"
-                        /> a sus párpados, avergonzado de una ternura que en su concepto debía
+                    <p> Y Carlos volvió la cabeza para ocultar una lágrima que se asomaba <pb n="29"/> a sus párpados, avergonzado de una ternura que en su concepto debía
                         parecer ridícula a la condesa. </p>
 
 
@@ -3496,8 +3451,7 @@
                         conjeturas. </p>
 
 
-                    <p> Llegó al teatro sin haber sacado nada de su largo examen, y al subir <pb
-                            n="32"/> la escalera encontró a Elvira. </p>
+                    <p> Llegó al teatro sin haber sacado nada de su largo examen, y al subir <pb n="32"/> la escalera encontró a Elvira. </p>
 
 
                     <p> -La comedia se ha concluido -le dijo ella-, y no quiero quedarme al baile y
@@ -3580,8 +3534,7 @@
                         profesar a Elvira, se encontraría violenta y como fuera de su elemento. </p>
 
 
-                    <p> Hacia la media noche la doliente pareció más agitada, y la condesa, <pb
-                            n="38"/> que hasta entonces no había hecho más que espiar sus más leves
+                    <p> Hacia la media noche la doliente pareció más agitada, y la condesa, <pb n="38"/> que hasta entonces no había hecho más que espiar sus más leves
                         movimientos, con muda y pasiva atención, tomó entonces también actividad.
                         Carlos se admiró al ver el desembarazo y esmero con que atendía,
                         multiplicándose -por decirlo así-, a todo lo que podía ser provechoso a su
@@ -3649,8 +3602,7 @@
                         oírla para saber apreciar a Ud. y arrepentirse de mis ligeros juicios. </p>
 
 
-                    <p> A la agitación de Elvira sucedió una gran debilidad y un abundante <pb
-                            n="43"/> sudor, que fue para su mal una feliz crisis. Sobre la madrugada
+                    <p> A la agitación de Elvira sucedió una gran debilidad y un abundante <pb n="43"/> sudor, que fue para su mal una feliz crisis. Sobre la madrugada
                         quedose profundamente dormida, y la condesa, fatigada, se sentó en una
                         banquetita a los pies de su cama. </p>
 
@@ -3703,8 +3655,7 @@
                     <p> Ella consintió y Carlos la ayudó a acomodarse en un sillón que rodeó con los
                         cojines de seda, cubriéndola otra vez con su capa, y se sentó en un taburete
                         junto a ella, apoyando también su cabeza en el respaldo del sillón. Ella
-                        volvió en breve a dormirse. Carlos sentía en la frente su respiración un <pb
-                            n="46"/> poco fatigada, y tenía clavados los ojos en sus soberbios ojos,
+                        volvió en breve a dormirse. Carlos sentía en la frente su respiración un <pb n="46"/> poco fatigada, y tenía clavados los ojos en sus soberbios ojos,
                         dulcemente cerrados. </p>
 
 
@@ -3730,8 +3681,7 @@
                         lo que sentía a su lado. </p>
 
 
-                    <p> Salió de la sala y se paseó algún tiempo con un extraño apresuramiento, <pb
-                            n="47"/> atusando maquinalmente los profusos rizos de sus cabellos
+                    <p> Salió de la sala y se paseó algún tiempo con un extraño apresuramiento, <pb n="47"/> atusando maquinalmente los profusos rizos de sus cabellos
                         negros. Pensaba en lo que había hablado Elvira en su delirio, y gozábase en
                         tener un motivo para estimar a la condesa, de cuyo buen corazón no podía ya
                         dudar. Después de dar veinte vueltas alrededor de la sala volvió al aposento
@@ -3874,8 +3824,7 @@
                         hallará ridículo mi entusiasmo conyugal? </p>
 
 
-                    <p> -Es Ud., en efecto, dichoso -dijo la condesa, que había escuchado estas <pb
-                            n="55"/> palabras con suma emoción. Esa felicidad que Ud. ha obtenido
+                    <p> -Es Ud., en efecto, dichoso -dijo la condesa, que había escuchado estas <pb n="55"/> palabras con suma emoción. Esa felicidad que Ud. ha obtenido
                         ¿por qué no la concede el cielo a todas las almas capaces de apreciarla? Y,
                         si no debía concederla sino a los seres privilegiados por su amor, ¿por qué
                         al menos no dotó a los otros a quienes privara de la dicha, de una aridez de
@@ -4061,8 +4010,7 @@
                         dar a la superioridad de inteligencia de un hombre más influencia de la que
                         realmente tiene en la felicidad de la vida de la mujer que le ame. Esta
                         superioridad si no va acompañada de la del corazón es más de temer que de
-                        amar. Hay algo de monstruoso en la reunión de una vasta inteligencia <pb
-                            n="67"/> y de un mezquino o duro corazón. La influencia que por sólo su
+                        amar. Hay algo de monstruoso en la reunión de una vasta inteligencia <pb n="67"/> y de un mezquino o duro corazón. La influencia que por sólo su
                         talento adquiere un hombre sobre el corazón de una mujer sensible, pesa como
                         la tiranía y no tarda en hacérsele odiosa. Sólo al amor concede el derecho
                         de esclavizarle. Y si el amor que carece del apoyo del talento, no siempre
@@ -4152,8 +4100,7 @@
                         me nota, ¿qué pudieran contra ella? ¿No tengo indulgencia? Ella no la
                         necesita. ¿Mis opiniones son tenaces y severas? Ella las respeta y las
                         participa. ¿Carezco de finura? En el feliz aislamiento en que vivimos no
-                        tenemos censores, y mi carácter impetuoso está siempre dominado por la <pb
-                            n="75"/> serenidad celestial de su mirada. ¡Oh, Catalina! ¡Que no
+                        tenemos censores, y mi carácter impetuoso está siempre dominado por la <pb n="75"/> serenidad celestial de su mirada. ¡Oh, Catalina! ¡Que no
                         conozca Ud. a mi Luisa! La amaría Ud. mucho más que yo. </p>
 
 
@@ -4532,8 +4479,7 @@
                         creencias de mi juventud. Queriendo sacudir a toda costa aquel germen de
                         muerte que brotaba en mi corazón, busqué en la inteligencia lo que en vano
                         había perdido al sentimiento: yo había visto al hombre en el mundo y quise
-                        estudiarlo en los libros. Persuadime que iluminada por la experiencia <pb
-                            n="105"/> y los talentos de grandes moralistas, acaso mis ideas
+                        estudiarlo en los libros. Persuadime que iluminada por la experiencia <pb n="105"/> y los talentos de grandes moralistas, acaso mis ideas
                         alcanzarían modificaciones ventajosas, y que libre ya del entusiasmo que
                         impide la exactitud del juicio, podría encontrar preservativos contra el
                         desaliento en las lecciones luminosas de la filosofía. Esperaba encontrar,
@@ -4653,8 +4599,7 @@
                         ni bajeza que, examinada por la causa y las circunstancias, no pueda
                         presentar un fuerte apoyo de defensa. Los acontecimientos, más que los
                         instintos, hacen al hombre malvado. El germen del bien como el del mal
-                        existe en el secreto de todas las almas, y yo no admito fácilmente <pb
-                            n="115"/> la hipótesis terrible de una bondad o de una maldad innata.
+                        existe en el secreto de todas las almas, y yo no admito fácilmente <pb n="115"/> la hipótesis terrible de una bondad o de una maldad innata.
                         Esto sería un ultraje a la justicia del criador. Porque conozco al hombre no
                         le aborrezco, y porque le conozco soy indulgente con sus defectos. Lo
                         repito, sólo la juventud que aún no ha vivido ni juzgado es severa y
@@ -4663,8 +4608,7 @@
                         llenos de defectos o que sus defectos pesen más para mí que sus virtudes?
                         No, Carlos, ya he dicho a Ud. antes que hay defectos que pueden contribuir a
                         hacer a un hombre amable; y añadiré que ninguno existe tan feo y odioso que
-                        me preocupe hasta el punto de juzgarle completamente despreciable. <pb
-                            n="116"/> Pero si soy indulgente es porque ya no soy entusiasta, si no
+                        me preocupe hasta el punto de juzgarle completamente despreciable. <pb n="116"/> Pero si soy indulgente es porque ya no soy entusiasta, si no
                         desprecio es porque ya no admiro, si no pido a la humanidad virtudes
                         sublimes es porque sé que no las posee, y que sólo en la primera juventud
                         puede el corazón del hombre dar ese perfume de poesía que bien presto la
@@ -4755,8 +4699,7 @@
 
 
                     <p> -Me marcho, Carlos -le dijo-, es ya de día y Elvira no tiene novedad. Creo
-                        que habrá sido ésta la última noche en que habremos velado juntos en <pb
-                            n="123"/> este sitio. Aun le veré a Ud. algunos días aquí, pero Elvira
+                        que habrá sido ésta la última noche en que habremos velado juntos en <pb n="123"/> este sitio. Aun le veré a Ud. algunos días aquí, pero Elvira
                         se pondrá buena y entonces... </p>
 
 
@@ -4864,8 +4807,7 @@
 
 
                     <p> -Ya le había dicho yo a Ud. -añadió Elvira-, que Catalina era una mujer
-                        irresistible, y me alegro mucho que, por fin, estén en buena armonía <pb
-                            n="129"/> las dos personas que en Madrid me son más allegados. </p>
+                        irresistible, y me alegro mucho que, por fin, estén en buena armonía <pb n="129"/> las dos personas que en Madrid me son más allegados. </p>
 
 
                     <p> En aquel momento llegó la condesa. Ocho días hacía que se hallaba de
@@ -4995,8 +4937,7 @@
                         propuesto conquistar a cualquier precio el corazón de Carlos. Su conducta
                         era precisamente el efecto de un deseo contrario y de un prudente cálculo.
                         Sabía ella que sus ilusiones no resistían jamás al análisis, sabía que
-                        ningún hombre era para ella conocido lo que había sido imaginado: <pb
-                            n="140"/> confiaba en su inconstancia, en su delicada sensibilidad tan
+                        ningún hombre era para ella conocido lo que había sido imaginado: <pb n="140"/> confiaba en su inconstancia, en su delicada sensibilidad tan
                         fácil de lastimar, en la percepción admirable que había en ella para con los
                         defectos... En fin, Catalina hacía con el amor lo que se debe hacer con el
                         terror pánico. Sabía que el miedo no se disipa huyendo del objeto que nos le
@@ -5007,8 +4948,7 @@
                         desprecio, y nos reímos de nuestro pasado temor. </p>
 
 
-                    <p> Éste era, pues, ni más ni menos lo que la condesa esperaba. Se conocía <pb
-                            n="141"/> lo bastante para saber que huyendo sólo haría más fuerte a su
+                    <p> Éste era, pues, ni más ni menos lo que la condesa esperaba. Se conocía <pb n="141"/> lo bastante para saber que huyendo sólo haría más fuerte a su
                         enemigo, y como mujer que comprende las pasiones y que se apoya en su
                         talento, quiso combatir cuerpo a cuerpo, persuadida que acaso hallaría una
                         sombra en lo que su imaginación le presentaba como un formidable gigante. </p>
@@ -5059,8 +4999,7 @@
 
 
                     <p> Tres días hacía que no la veía. Elvira, restituida a su antiguo método de
-                        vida, no estaba casi nunca en su casa, y Carlos, que no se había <pb n="144"
-                        /> determinado a presentarse en la de la condesa, había pasado aquellos tres
+                        vida, no estaba casi nunca en su casa, y Carlos, que no se había <pb n="144"/> determinado a presentarse en la de la condesa, había pasado aquellos tres
                         días en una casi absoluta soledad, aunque ocupado en sus asuntos no dejó de
                         pensar con sobrada frecuencia en Catalina. </p>
 
@@ -5149,8 +5088,7 @@
                         despejada su hermosísima frente y sus grandes y brillantes ojos. </p>
 
 
-                    <p> Al oír el nombre de Silva se incorporó con un movimiento de sorpresa <pb
-                            n="150"/> y duda, pero al verle animose súbitamente su melancólico
+                    <p> Al oír el nombre de Silva se incorporó con un movimiento de sorpresa <pb n="150"/> y duda, pero al verle animose súbitamente su melancólico
                         rostro y brilló en sus ojos la más viva alegría. </p>
 
 
@@ -5387,8 +5325,7 @@
 
                     <p> Dos días antes había llegado a su puerta turbado con el temor de hallarla
                         contenta, brillante, olvidada de él y toda consagrada a sus placeres y
-                        triunfos, y esta vez agitábale un temor de otro género. Acaso la <pb n="165"
-                        /> hallaría más pálida y débil que en su última visita, acaso iba a tener
+                        triunfos, y esta vez agitábale un temor de otro género. Acaso la <pb n="165"/> hallaría más pálida y débil que en su última visita, acaso iba a tener
                         que hallarse con ella en una peligrosa soledad... En fin, presentía con
                         espanto que si tales pruebas le estaban reservadas su victoria era asaz
                         incierta. </p>
@@ -5404,8 +5341,7 @@
 
 
                     <p> Su aparición fue un verdadero golpe teatral, y para que nada faltase a la
-                        naturalidad cómica de aquella escena, apenas se presentó pálido, <pb n="166"
-                        /> azorado, trémulo en medio de la lucida sociedad que la condesa reunía en
+                        naturalidad cómica de aquella escena, apenas se presentó pálido, <pb n="166"/> azorado, trémulo en medio de la lucida sociedad que la condesa reunía en
                         su casa aquella noche, quedose inmóvil, estático, tan encendido como pálido
                         había estado un momento antes, y con un aire casi estúpido. </p>
 
@@ -5430,8 +5366,7 @@
                         piedra en el festín de D. Juan? </p>
 
 
-                    <p> En efecto, la sorpresa, la confusión, la vergüenza y el despecho de <pb
-                            n="167"/> Carlos, habíanle dejado estático por algunos momentos, y
+                    <p> En efecto, la sorpresa, la confusión, la vergüenza y el despecho de <pb n="167"/> Carlos, habíanle dejado estático por algunos momentos, y
                         cuando advirtió el ridículo papel que estaba haciendo en aquel salón
                         resplandeciente, lanzose fuera de él con la misma impetuosidad con que había
                         entrado, sin saludar a nadie ni saber lo que hacía. </p>
@@ -5551,8 +5486,7 @@
 
                     <p> Se disponía Elvira a reconvenirle dulcemente por su poco disimulo, por su
                         falta de serenidad. En fin, por no haber sabido dominarse y hacer de la
-                        necesidad virtud, aparentando que iba prevenido a la tertulia, cuando <pb
-                            n="174"/> la puerta de la alcoba se abrió de pronto y entró la condesa
+                        necesidad virtud, aparentando que iba prevenido a la tertulia, cuando <pb n="174"/> la puerta de la alcoba se abrió de pronto y entró la condesa
                         con traje negro y mantilla, y con una cara verdaderamente enfermiza. </p>
 
 
@@ -5686,8 +5620,7 @@
                         abandonaba, no serían de una gran influencia ni en su suerte de Ud. ni en la
                         mía. Pero desde aquel día, desde aquel momento en que le vi a Ud. a mis
                         pies, en que Ud. me recordó cuán inmensa responsabilidad caería sobre mí...
-                        ¡Carlos! Desde que conocí por mi dolor profundo la extensión de mi <pb
-                            n="181"/> amor, y por sus palabras de Ud. la grandeza de mi falta...
+                        ¡Carlos! Desde que conocí por mi dolor profundo la extensión de mi <pb n="181"/> amor, y por sus palabras de Ud. la grandeza de mi falta...
                         Desde entonces no he debido, ni deseado, alimentar una esperanza insensata.
                         Desde entonces me juré a mí misma respetar su felicidad de Ud. y la de una
                         mujer que le es tan cara, y por difícil que me fuera lograrlo intentar
@@ -5697,8 +5630,7 @@
                         será menos amarga que la sola idea de ser por Ud. despreciada. </p>
 
 
-                    <p> El llanto daba una expresión irresistible al rostro de Catalina, y la <pb
-                            n="182"/> vehemencia con que había hablado fatigola tanto que su
+                    <p> El llanto daba una expresión irresistible al rostro de Catalina, y la <pb n="182"/> vehemencia con que había hablado fatigola tanto que su
                         flexible talle se dobló como un junto, cayendo desplomada en una silla. </p>
 
 
@@ -5786,8 +5718,7 @@
                         remordimientos. </p>
 
 
-                    <p> «Mi amado Carlos: (decía la pobre niña) Me ha dado lástima la profunda <pb
-                            n="186"/> tristeza que se descubre en tu última carta, y conozco que
+                    <p> «Mi amado Carlos: (decía la pobre niña) Me ha dado lástima la profunda <pb n="186"/> tristeza que se descubre en tu última carta, y conozco que
                         padeces tanto como yo en esta cruel ausencia». </p>
 
 
@@ -5811,8 +5742,7 @@
 
 
                     <p> «¡Si vieras cuán mudad estoy! Ya no soy bonita, esposo mío, porque las
-                        lágrimas y los pesares me han enflaquecido, y las que tú llamabas <pb
-                            n="187"/>
+                        lágrimas y los pesares me han enflaquecido, y las que tú llamabas <pb n="187"/>
                         <emph> rosas de inocencia y de juventud </emph> han desaparecido de mis
                         mejillas. Pero tú me las devolverás pronto, ¿no es verdad? Tú me volverás
                         con la felicidad la hermosura y la salud, porque conozco que estás tan
@@ -5829,8 +5759,7 @@
 
 
                     <p> «El vestido que me has enviado es muy lindo, pero sólo lo estrenaré el día
-                        en que vuelvas. Sin embargo, para darte una prueba de cuánto agradezco <pb
-                            n="188"/> tu regalo, te lo pago con otro, que ya habrás visto al leer
+                        en que vuelvas. Sin embargo, para darte una prueba de cuánto agradezco <pb n="188"/> tu regalo, te lo pago con otro, que ya habrás visto al leer
                         estas líneas. ¿No es verdad que vale más que tu vestido? Dale muchos besos,
                         amigo mío, y guárdalo en tu pecho hasta que pueda quitártelo de él tu
                         esposa». </p>
@@ -5859,8 +5788,7 @@
                     <p> Cubriose el rostro con las manos y lloró como un niño. </p>
 
 
-                    <p> Luego se levantó, alzó el retrato, pidiole perdón con una mirada triste <pb
-                            n="190"/> y humilde, besole respetuosamente y le guardó con más
+                    <p> Luego se levantó, alzó el retrato, pidiole perdón con una mirada triste <pb n="190"/> y humilde, besole respetuosamente y le guardó con más
                         serenidad, porque ya había tomado una resolución: una resolución más
                         decidida, inmutable, la única que podía reconciliarle consigo mismo, y cuyo
                         cumplimiento debía realizar muy pronto. </p>
@@ -5943,8 +5871,7 @@
                         ellos la humillación de una derrota? </p>
 
 
-                    <p> -No, creo solamente que quisieras castigar a un joven necio que no ha <pb
-                            n="194"/> rendido homenaje a tu mérito, obligándole a que te ame, sin
+                    <p> -No, creo solamente que quisieras castigar a un joven necio que no ha <pb n="194"/> rendido homenaje a tu mérito, obligándole a que te ame, sin
                         duda para luego despreciarle. No he querido decir otra cosa. Pero ese joven
                         sabes tú que no es libre, que tiene una esposa, que su amor sería para ti
                         una injuria y no un homenaje. </p>
@@ -5985,8 +5912,7 @@
                         hablado de ti con poquísima estimación. </p>
 
 
-                    <p> -En ese caso -dijo la condesa con movimiento irreprimible de cólera-, <pb
-                            n="196"/> eres muy necia, Elvira, en reconvenirme por mi conducta hacia
+                    <p> -En ese caso -dijo la condesa con movimiento irreprimible de cólera-, <pb n="196"/> eres muy necia, Elvira, en reconvenirme por mi conducta hacia
                         él. Si no me estima, fuerza es que me desprecie, y yo... Escucha -añadió con
                         una mirada iracunda y feroz-, yo no perdono nunca el desprecio de aquéllos a
                         quienes no puedo devolverlo. </p>
@@ -6036,8 +5962,7 @@
                     <p> -Y eso en tu concepto es imposible. </p>
 
 
-                    <p> -No sé, pero en mi concepto eso sería un triunfo bien mezquino para <pb
-                            n="198"/> ti y una gran desgracia para él. </p>
+                    <p> -No sé, pero en mi concepto eso sería un triunfo bien mezquino para <pb n="198"/> ti y una gran desgracia para él. </p>
 
 
                     <p> -¡Una gran desgracia para él! -repitió Catalina, y quedose un momento
@@ -6054,8 +5979,7 @@
                         es preciso eclipsarla. </p>
 
 
-                    <p> Elvira abrazó a la condesa llorando de alegría. Acababa de recobrar a <pb
-                            n="199"/> su amiga. Veíala otra vez brillante, coqueta, feliz, y se
+                    <p> Elvira abrazó a la condesa llorando de alegría. Acababa de recobrar a <pb n="199"/> su amiga. Veíala otra vez brillante, coqueta, feliz, y se
                         decía con orgullo: </p>
 
 
@@ -6207,8 +6131,7 @@
                         respecto a su marcha, pero se sosegó oyendo decir a su prima: </p>
 
 
-                    <p> -Mariana, no me esperaba Ud. tan pronto, ¿no es verdad? Catalina, <pb
-                            n="209"/> que ha bailado como una loca, se sintió mala y se retiró, y
+                    <p> -Mariana, no me esperaba Ud. tan pronto, ¿no es verdad? Catalina, <pb n="209"/> que ha bailado como una loca, se sintió mala y se retiró, y
                         cuando ella no está en una función ya no me divierto. Pero venga Ud. conmigo
                         a mi alcoba, quiero acostarme al momento porque vengo con un sueño
                         irresistible. Es natural porque no he dormido anoche y hoy me levanté muy
@@ -6316,8 +6239,7 @@
                     <p> -¿Ud. aquí, Catalina? </p>
 
 
-                    <p> -Carlos, ¿es Ud.?, ¿es Ud. realmente al que veo, o mi imaginación <pb
-                            n="216"/> me engaña? </p>
+                    <p> -Carlos, ¿es Ud.?, ¿es Ud. realmente al que veo, o mi imaginación <pb n="216"/> me engaña? </p>
 
 
                     <p> -¡Oh, Catalina! ¡Conque aún nos vemos, conque aún nos hablamos! </p>
@@ -6458,8 +6380,7 @@
 
 
                     <p> Catalina respiraba con delicia aquel perfume de un amor tan puro, aunque
-                        culpable. Carlos estaba a su lado, la sostenía en sus brazos y no tocaba <pb
-                            n="225"/> con sus labios ni aun las trenzas de sus cabellos que rozaban
+                        culpable. Carlos estaba a su lado, la sostenía en sus brazos y no tocaba <pb n="225"/> con sus labios ni aun las trenzas de sus cabellos que rozaban
                         con su semblante. En aquel momento ella se sentía tan dichosa que no le
                         pareció posible ser culpable. </p>
 
@@ -6679,8 +6600,7 @@
 
 
                     <p> -Nadie..., pero él no puede venir sin orden de Ud... y Ud. no da esa
-                        orden... y ya hace tres meses que no lo veo: ¡tres meses!... ¡y pasarán <pb
-                            n="10"/> otros tantos!, ¡pobre de mí!... </p>
+                        orden... y ya hace tres meses que no lo veo: ¡tres meses!... ¡y pasarán <pb n="10"/> otros tantos!, ¡pobre de mí!... </p>
 
 
                     <p> Y el llanto y los sollozos comenzaron de nuevo, y fue cosa imposible para el
@@ -6800,8 +6720,7 @@
 
                     <p> Y, sin embargo, era naturalmente buena y compasiva. Su gran defecto
                         consistía, como ella misma había dicho a Carlos, en que su poderosa
-                        imaginación todo lo engrandecía o disminuía hasta el exceso; y las más <pb
-                            n="17"/> extravagantes teorías se hacían realizables para aquella mujer
+                        imaginación todo lo engrandecía o disminuía hasta el exceso; y las más <pb n="17"/> extravagantes teorías se hacían realizables para aquella mujer
                         capaz de los esfuerzos más sublimes, como de las aberraciones más
                         lamentables, pero para la que no existía ningún término medio. </p>
 
@@ -6877,8 +6796,7 @@
                         a su esposa. </p>
 
 
-                    <p> Y la amaba, en efecto, sí, la amaba todavía, cual el hermano más tierno <pb
-                            n="22"/> puede amar a su hermana. Pero, ¡ay!, no era ya ella la que
+                    <p> Y la amaba, en efecto, sí, la amaba todavía, cual el hermano más tierno <pb n="22"/> puede amar a su hermana. Pero, ¡ay!, no era ya ella la que
                         poseía el secreto de su corazón. No era ya ella la que tenía el poder de
                         hacerle delirar de amor, o enfurecer de celos. No era ya ella, en fin, la
                         mujer de quien estaba enamorado. </p>
@@ -6900,8 +6818,7 @@
                         elevadas y brillantes, así como, según observaba un poeta, el rayo busca
                         siempre las torres; debían aplaudirse de la imprudencia de la condesa, que,
                         justificando en cierto modo los juicios desventajosos que de ella se
-                        formaban, parecía renunciar a todo miedo de defensa y entregarse <pb n="24"
-                        /> como una víctima resignada. Sin embargo, como nunca había sido más
+                        formaban, parecía renunciar a todo miedo de defensa y entregarse <pb n="24"/> como una víctima resignada. Sin embargo, como nunca había sido más
                         prodiga de sus riquezas, más franca y alegre que entonces, los mismos que
                         destrozaban sin piedad su reputación, buscaban ansiosamente sus placeres, y,
                         aunque se aumentaba cada día el número de sus enemigos, crecía también el de
@@ -6912,8 +6829,7 @@
 
                     <p> Elvira, a cuyos oídos llegaban cada día las hablillas que circulaban en
                         descrédito de su amiga, no era mujer de un temple de alma bastante fuerte
-                        para poner un dique a la murmuración: su cobarde, aunque sincera <pb n="25"
-                        /> amistad, se contentaba con herir por la espalda a los detractores, sin
+                        para poner un dique a la murmuración: su cobarde, aunque sincera <pb n="25"/> amistad, se contentaba con herir por la espalda a los detractores, sin
                         atreverse jamás a desmentirlos cara a cara. No olvidaba, empero, el informar
                         a Carlos de todo lo que se decía, y aún a la misma Catalina se vio algunas
                         veces a reprender tímidamente por el poco cuidado que se tomaba por el buen
@@ -6934,8 +6850,7 @@
                         disipándose rápidamente. Cuando la acompañaba a una reunión, érale imposible
                         participar de la alegría y confianza con que ella se presentaba. Espiaba las
                         miradas de cada uno de los que le cercaban, prestaba el oído con sobresalto
-                        a cualquiera conversación que se tenía junto a él, siempre receloso <pb
-                            n="27"/> de descubrir en alguno la intención de injuriar a Catalina, y
+                        a cualquiera conversación que se tenía junto a él, siempre receloso <pb n="27"/> de descubrir en alguno la intención de injuriar a Catalina, y
                         siempre interpretando siniestramente la menor demostración. Sin ser en
                         manera alguna desconfiado sentíase cada día más suspicaz en cuanto podía
                         tener relación con la condesa, y su amor y su orgullo se alarmaban
@@ -7741,8 +7656,7 @@
 
 
                     <p> -¡Ah!, sí -exclamó-. ¡Un momento de suprema ventura y en cambio una vida
-                        entera de expiación! Yo lo hubiera aceptado, Catalina: llamarte mía <pb
-                            n="74"/> un momento y luego: ¡el infierno!, ¿qué me importa? No
+                        entera de expiación! Yo lo hubiera aceptado, Catalina: llamarte mía <pb n="74"/> un momento y luego: ¡el infierno!, ¿qué me importa? No
                         -prosiguió-, no sabes cuánto he padecido, porque no sabes que en este mismo
                         instante tu mirada me abrasa, tu aliento me enloquece y el contacto de tu
                         mano me devora... ¡Catalina!, ¿por qué nos separamos sin haber conocido la
@@ -7824,8 +7738,7 @@
                     <p> Ella se desprendió de sus brazos. </p>
 
 
-                    <p> -Para mí -dijo-, no hay más que esta alternativa. ¡Tu amor o la muerte! <pb
-                            n="79"/> El uno o la otra te pido. Pero tu amor, mío, mío
+                    <p> -Para mí -dijo-, no hay más que esta alternativa. ¡Tu amor o la muerte! <pb n="79"/> El uno o la otra te pido. Pero tu amor, mío, mío
                         exclusivamente, ¡mío todo!... ¿Quieres que acabe de humillarme ante ti?,
                         ¿quieres que descubra a tus ojos toda la flaqueza de mi corazón? ¡Pues bien!
                         ¡Sábelo! ¡Tengo celos!, celos que me matan, que me vuelven loca. ¡Carlos,
@@ -7903,8 +7816,7 @@
                         largo viaje, que era, sin embargo, un secreto para todos. Carlos, todavía
                         débil y triste, encadenado a los pies de su apasionada querida, veía
                         acercarse el día de su expatriación con una especie de indiferencia. No
-                        tenía ya bastante energía ni para el dolor ni para el placer. Creyó, sin <pb
-                            n="84"/> embargo, necesario ir a Madrid para depositar los asuntos de su
+                        tenía ya bastante energía ni para el dolor ni para el placer. Creyó, sin <pb n="84"/> embargo, necesario ir a Madrid para depositar los asuntos de su
                         padre en manos de los amigos de éste, y escribirle largamente como también a
                         Luisa, confesando su culpa, implorando el perdón y renunciando a favor de su
                         esposa todos los bienes que poseía de su madre, y cuantos por muerte de su
@@ -7935,8 +7847,7 @@
 
 
                     <p> Concluyose, sin embargo, la carta. Quebrantado, cayó enseguida sobre su
-                        cama, y un mar de lágrimas amargas y abrasadoras brotó de sus ojos, <pb
-                            n="86"/> aliviando algún tanto su corazón. Había pasado la noche
+                        cama, y un mar de lágrimas amargas y abrasadoras brotó de sus ojos, <pb n="86"/> aliviando algún tanto su corazón. Había pasado la noche
                         escribiendo. Era ya de día y, sucumbiendo a la fatiga, quedose un momento
                         adormecido. En sus ensueños veía a Luisa pálida, flaca, cubierta de luto,
                         llorando a la vez a la madre muerta y a su esposo infiel y fugitivo, y con
@@ -8059,8 +7970,7 @@
                         ¡Catalina! Era ella en aquel momento la verdadera víctima a sus ojos. </p>
 
 
-                    <p> Al verse restituido, a pesar suyo, a una esposa ultrajada, conmoviole <pb
-                            n="93"/> menos la cándida ignorancia de la ofendida que el dolor de la
+                    <p> Al verse restituido, a pesar suyo, a una esposa ultrajada, conmoviole <pb n="93"/> menos la cándida ignorancia de la ofendida que el dolor de la
                         ofensora. Su imaginación le pintaba con vivos colores cuánto debía sufrir su
                         apasionada y celosa amante al saber aquel acontecimiento imprevisto, ¡y el
                         ingrato no pensaba en cuánto debía sufrir también la inocente Luisa si
@@ -8073,8 +7983,7 @@
                         en aquel momento que ninguna sospecha dolorosa podía caber en su alma. </p>
 
 
-                    <p> Sentada sobre las rodillas de su tío y oprimiendo entre sus manos <pb n="94"
-                        /> las manos de su marido mudo y confuso junto a ella, referíale con
+                    <p> Sentada sobre las rodillas de su tío y oprimiendo entre sus manos <pb n="94"/> las manos de su marido mudo y confuso junto a ella, referíale con
                         elocuente sencillez cuánto había padecido, cuánto había llorado. Revelábale,
                         ruborizándose, los secretos de su puro corazón, secretos que pudieran
                         escuchar los mismos ángeles. Ninguna sospecha, ninguna desconfianza se
@@ -8102,8 +8011,7 @@
                         la imperiosa ley de las conveniencias sociales. </p>
 
 
-                    <p> Carlos, al verla, sintiose tan turbado como si viese a la misma Catalina <pb
-                            n="96"/> y Elvira le lanzó una mirada tan celosa como hubiera sido la de
+                    <p> Carlos, al verla, sintiose tan turbado como si viese a la misma Catalina <pb n="96"/> y Elvira le lanzó una mirada tan celosa como hubiera sido la de
                         aquélla. </p>
 
 
@@ -8165,8 +8073,7 @@
                         realmente víctima. </p>
 
 
-                    <p> Cuando don Francisco llegó a la casa en que habitaba su hijo, acababa <pb
-                            n="100"/> éste de salir de ella y corría desatinado a ver a Luisa. Su
+                    <p> Cuando don Francisco llegó a la casa en que habitaba su hijo, acababa <pb n="100"/> éste de salir de ella y corría desatinado a ver a Luisa. Su
                         correo había llegado dos minutos antes con estas líneas de la mano de la
                         condesa: </p>
 
@@ -8303,8 +8210,7 @@
                         ejecución. </p>
 
 
-                    <p> Su dolor no era el dolor profundo y resignado de Luisa: Era el dolor <pb
-                            n="108"/> en toda su energía, en toda su violencia, en todo su delirio.
+                    <p> Su dolor no era el dolor profundo y resignado de Luisa: Era el dolor <pb n="108"/> en toda su energía, en toda su violencia, en todo su delirio.
                         Dos veces saliose a pie, sola y frenética en medio del calor del día, con
                         ánimo de llegar de aquel modo en presencia de su feliz rival y de su débil
                         amante, y darles un espectáculo cruel traspasándose el corazón a vista de
@@ -8909,8 +8815,7 @@
 
 
                     <p> Crecía ésta con su duración. La pobre joven iba perdiendo de día en día la
-                        esperanza de una mutación feliz. Y no la agobiaba únicamente el <pb n="145"
-                        /> dolor de verse desamada, que también era para su religioso corazón un
+                        esperanza de una mutación feliz. Y no la agobiaba únicamente el <pb n="145"/> dolor de verse desamada, que también era para su religioso corazón un
                         pesar profundo, la idea de que su marido era culpable a los ojos de Dios.
                         Persuadida ya de que una nueva pasión era la causa de su indiferencia hacia
                         ella, estremecíase al considerar la enormidad de aquel pecado, y en aquellos
@@ -9131,8 +9036,7 @@
                         también te profesa una grande amistad. </p>
 
 
-                    <p> Carlos lanzó sobre ella una mirada de águila que parecía querer penetrar <pb
-                            n="157"/> hasta su alma, y como Luisa acertase a sostener su papel de
+                    <p> Carlos lanzó sobre ella una mirada de águila que parecía querer penetrar <pb n="157"/> hasta su alma, y como Luisa acertase a sostener su papel de
                         simplicidad, él se puso en pie y la dijo con atrevimiento: </p>
 
 
@@ -9577,8 +9481,7 @@
                         debía ir sin dilación a ocupar su destino. Don Francisco había pensado en
                         acompañarle con Luisa, pero Carlos logró hacerle mudar de intención,
                         guardándose bien de oponerle una manifiesta resistencia. Persuadiole de que
-                        el clima de Inglaterra sería muy perjudicial a su esposa, en el estado <pb
-                            n="186"/> delicado en que su salud se encontraba, que sus intereses
+                        el clima de Inglaterra sería muy perjudicial a su esposa, en el estado <pb n="186"/> delicado en que su salud se encontraba, que sus intereses
                         recibirían muchos y grandes perjuicios de la ausencia de don Francisco, y lo
                         único que hacía vacilar aún al buen anciano y no ceder enteramente a los
                         deseos de su hijo, era el temor de causar un mortal disgusto a su nuera con
@@ -9591,8 +9494,7 @@
 
 
                     <p> Entró una mañana en el aposento de don Francisco, donde también entraba
-                        Carlos, y procurando conservar serenidad preguntó terminantemente <pb
-                            n="187"/> si no debía ella ir con su esposo. </p>
+                        Carlos, y procurando conservar serenidad preguntó terminantemente <pb n="187"/> si no debía ella ir con su esposo. </p>
 
 
                     <p> Don Francisco, embarazado a esta pregunta, contestó tartamudeando: </p>
@@ -9687,8 +9589,7 @@
                         escuchado sus ruegos, y arrancaba a su marido de las garras del pecado. </p>
 
 
-                    <p> En esto se ocupaba en aquel día solemne, último que debía pasar con <pb
-                            n="192"/> Carlos, cuando entró don Francisco: </p>
+                    <p> En esto se ocupaba en aquel día solemne, último que debía pasar con <pb n="192"/> Carlos, cuando entró don Francisco: </p>
 
 
                     <p> -Vengo -la dijo- de cumplir con un deber de urbanidad que por pereza y
@@ -9795,8 +9696,7 @@
 
 
                     <p> -Sí, te lo devolveré. ¡Vive Dios! ¡Te lo devolveré! -gritó cada vez más
-                        colérico el anciano y enteramente arrebatado por su impetuoso carácter. <pb
-                            n="198"/> ¡Sabré restituirle el honor o arrancarle con mi propia mano el
+                        colérico el anciano y enteramente arrebatado por su impetuoso carácter. <pb n="198"/> ¡Sabré restituirle el honor o arrancarle con mi propia mano el
                         vil corazón que de él le aleja! ¡Luisa, tranquilízate! Apareceré entre ellos
                         como la venganza del Dios a quien ofenden, y pisaré con mis pies a esa
                         cortesana impúdica, y traeré arrastrando hasta los tuyos a ese esposo
@@ -9899,8 +9799,7 @@
                         Madrid bastante temprano, pero no tanto que Carlos, advertido la noche
                         anterior de su resolución. No hubiese podido prevenirla. Así pues, recibió
                         la visita del anciano con la posible serenidad, algunos minutos después de
-                        haberla dejado Carlos, que se anticipó a su padre. La visita fue <pb n="204"
-                        /> corta, y Catalina, que no esperaba a su amante hasta la proximidad de la
+                        haberla dejado Carlos, que se anticipó a su padre. La visita fue <pb n="204"/> corta, y Catalina, que no esperaba a su amante hasta la proximidad de la
                         noche, habíase encerrado en su aposento con su habitual tristeza. </p>
 
 
@@ -9980,8 +9879,7 @@
                         Carlos, Catalina. ¡Todo lo sabe! ¡Todo! Y ha venido... </p>
 
 
-                    <p> -¿A qué? -interrumpió con vehemencia la condesa, cuyo rostro pareció <pb
-                            n="208"/> iluminarse con la indignación-. ¿A qué? -repitió fijando en la
+                    <p> -¿A qué? -interrumpió con vehemencia la condesa, cuyo rostro pareció <pb n="208"/> iluminarse con la indignación-. ¿A qué? -repitió fijando en la
                         turbada niña una mirada penetrante y casi terrible. </p>
 
 
@@ -10070,8 +9968,7 @@
 
                     <p> Pero, ¡ah!, lo que pasaba en el alma de Luisa no era ciertamente menos
                         doloroso. Los celos, los más crueles celos la desgarraban al comprender los
-                        derechos de su rival sobre el corazón de su marido. Y, sin embargo, <pb
-                            n="213"/> aquellos sagrados derechos fueron respetables para su corazón
+                        derechos de su rival sobre el corazón de su marido. Y, sin embargo, <pb n="213"/> aquellos sagrados derechos fueron respetables para su corazón
                         y parecíales que revestían a Catalina de un augusto carácter. </p>
 
 
@@ -10106,8 +10003,7 @@
                         abnegación, pues el llanto brotó entonces con violencia en sus ojos. </p>
 
 
-                    <p> Luisa continuó. Mientras tanto, vivan ustedes en el país extranjero que <pb
-                            n="215"/> han escogido. Yo sabré aplacar a un padre irritado, yo sabré
+                    <p> Luisa continuó. Mientras tanto, vivan ustedes en el país extranjero que <pb n="215"/> han escogido. Yo sabré aplacar a un padre irritado, yo sabré
                         engañarle así como he sabido revelarle imprudentemente la verdad. Aún es
                         tiempo. Yo le buscaré y desarmaré su enojo, y mientras viva no me apartaré
                         del anciano abandonado... Y no moriré, señora, sin alcanzar antes para Ud. y
@@ -10424,8 +10320,7 @@
 
 
                     <p> -¡Calla! -la interrumpió Carlos con una especie de furor- ¡Calla en nombre
-                        del cielo, Catalina! ¿Qué incomprensible placer puedes encontrar en <pb
-                            n="20"/> despedazar mi corazón?, ¿qué demonio te inspira palabras que
+                        del cielo, Catalina! ¿Qué incomprensible placer puedes encontrar en <pb n="20"/> despedazar mi corazón?, ¿qué demonio te inspira palabras que
                         caen como plomo hirviente en mis oídos? </p>
 
 
@@ -10439,8 +10334,7 @@
 
 
                     <p> ¡Carlos! Si débil alguna vez echas de menos todo lo que ahora me sacrificas
-                        y si tienes la barbarie de dejármelo adivinar: ¡Me asesinarás!... <pb n="21"
-                        /> No lo dudes. Pero yo espero que nunca, nunca te acordarás de tu patria,
+                        y si tienes la barbarie de dejármelo adivinar: ¡Me asesinarás!... <pb n="21"/> No lo dudes. Pero yo espero que nunca, nunca te acordarás de tu patria,
                         de tu padre, de tu esposa. Nunca llegará el día en que necesites ser algo en
                         el mundo, nunca la edad en que te sea precisa la consideración pública, el
                         afecto de tu familia, el aprecio de tus amigos. Yo sola bastaré siempre a tu
@@ -10542,8 +10436,7 @@
                         emanación de la suya. </p>
 
 
-                    <p> Somos culpables, pero ¿no sientes como yo una esperanza dulcísima <pb n="28"
-                        /> descender a tu alma, al hablar de la misericordia? ¿No te parece que ese
+                    <p> Somos culpables, pero ¿no sientes como yo una esperanza dulcísima <pb n="28"/> descender a tu alma, al hablar de la misericordia? ¿No te parece que ese
                         rayo de luna que penetra por la ventana y baña tu hermosa frente baja del
                         cielo para conducir el perdón? ¡Carlos! ¡Carlos! No nos cuidemos de mañana,
                         no pensemos en las horas de un porvenir incierto, y como si fuese ésta la
@@ -10586,8 +10479,7 @@
                         del cielo. Yo siento necesidad de ella en este momento en que vamos a
                         separarnos. ¡Es tan triste y tan solemne la palabra <emph> adiós </emph> !
                         ¡La mirada que recibimos del objeto querido de quien vamos a apartarnos
-                        puede ser la última! El porvenir de mañana es tan oscuro como el de <pb
-                            n="31"/> veinte siglos. ¿Qué ángel tiende sus alas para garantir la
+                        puede ser la última! El porvenir de mañana es tan oscuro como el de <pb n="31"/> veinte siglos. ¿Qué ángel tiende sus alas para garantir la
                         cabeza adorada del golpe inesperado de la muerte? ¿Quién nos asegura, ¡oh
                         amado de mi alma!, que no sea ésta que pasa la última hora de la vida de
                         alguno de los dos? </p>
@@ -10631,8 +10523,7 @@
                         nuestra inocente víctima no llegasen a turbar el sueño de mis cenizas, ¡cuán
                         hermoso luciría mañana el sol sobre la piedra de mi sepultura! Y así debiera
                         ser, amigo mío. Si yo muriese, mi voz se alzaría del borde de la huesa para
-                        pedirte paz. «Compra -te diría, compra con tus virtudes el reposo de <pb
-                            n="34"/> mis cenizas, ¡el perdón de mi alma! Expía en la tierra nuestras
+                        pedirte paz. «Compra -te diría, compra con tus virtudes el reposo de <pb n="34"/> mis cenizas, ¡el perdón de mi alma! Expía en la tierra nuestras
                         comunes faltas, y hazte digno de la eterna vida y del eterno amor, que Dios
                         concede al arrepentimiento así como a la inocencia». </p>
 
@@ -10710,8 +10601,7 @@
                         manchar la orla de su blanca vestidura! </p>
 
 
-                    <p> Carlos no atendió a estas palabras. Demasiado conmovido se arrancó <pb
-                            n="39"/> de los brazos de la condesa y volvió por tres veces a
+                    <p> Carlos no atendió a estas palabras. Demasiado conmovido se arrancó <pb n="39"/> de los brazos de la condesa y volvió por tres veces a
                         abrazarla. </p>
 
 
@@ -10826,8 +10716,7 @@
 
 
                     <p> -No, no puede serlo, ¡no puede ser feliz! -exclamó Carlos- Yo he sido el
-                        asesino de ambas. Mi corazón rebosa de remordimientos, y siento en <pb
-                            n="46"/> este instante que las dos me son igualmente adoradas, y que,
+                        asesino de ambas. Mi corazón rebosa de remordimientos, y siento en <pb n="46"/> este instante que las dos me son igualmente adoradas, y que,
                         sin embargo, quisiera aniquilar a una. </p>
 
 
@@ -10880,8 +10769,7 @@
                         delicada mano. </p>
 
 
-                    <p> -Sí, devuélvemelos: ¡Uno solo!, ¡uno solo al menos! ¡He tenido tantos <pb
-                            n="49"/> tan crueles! </p>
+                    <p> -Sí, devuélvemelos: ¡Uno solo!, ¡uno solo al menos! ¡He tenido tantos <pb n="49"/> tan crueles! </p>
 
 
                     <p> -¡Bien! Dios nos devolverá a ambos aquella felicidad que necesitamos
@@ -11056,8 +10944,7 @@
 
                     <p> Luisa guardó esta carta sobre su corazón, y por espacio de algunos minutos
                         oró con silencioso fervor. La piedad resplandecía en cada una de sus
-                        facciones, y sus ojos, elevados al cielo, parecían querer penetrar <pb
-                            n="59"/> sus bóvedas eternas para encontrar la misericordia. ¡Jamás tan
+                        facciones, y sus ojos, elevados al cielo, parecían querer penetrar <pb n="59"/> sus bóvedas eternas para encontrar la misericordia. ¡Jamás tan
                         ardientes súplicas de la inocencia han implorado perdón para el
                         arrepentimiento, jamás un alma tan pura ha intercedido por un alma culpable! </p>
 
@@ -11300,8 +11187,7 @@
                         preguntó tímidamente la causa. </p>
 
 
-                    <p> -¿Qué te aflige, mamá?, ¿por qué has llorado tanto con aquella señora a <pb
-                            n="71"/> quien hemos visitado? </p>
+                    <p> -¿Qué te aflige, mamá?, ¿por qué has llorado tanto con aquella señora a <pb n="71"/> quien hemos visitado? </p>
 
 
                     <p> -Porque esa señora -respondió suspirando Elvira-, es muy buena y muy

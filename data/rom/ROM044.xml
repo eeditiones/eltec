@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" 
-   xml:id="ROM044" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM044" xml:lang="ro">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,10 +20,15 @@
             <measure unit="pages">224</measure>
          </extent>
          <publicationStmt>
-            <p>Încorporat în ELTeC<date>2020-03-06</date></p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="firstEdition">
                <author>Alessandru Pelimon</author>
                <title>Unu funcționaru sinucisu. Fratele și sora</title>
                <pubPlace>Bucharest</pubPlace>
@@ -35,11 +37,10 @@
                <ref target="http://doi.org/10.5281/zenodo.3229345">
                         Facsimile on Zenodo
                      </ref>    
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
-         <p></p>
+         <p/>
       </encodingDesc>
  
 <profileDesc>
@@ -56,6 +57,7 @@
 </profileDesc>
       
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2018-09-28">Initial TEI version generated.</change>
       </revisionDesc>
    </teiHeader>
@@ -584,7 +586,7 @@
 <p>Şi sora lui atunci, precum ţliserămă, se găsia totă în grădină...
 într’acestea ună hohotă de rîsă se auţli de la spatele comandantelui, care apoi aţîţă şi pe ceilalţi câţi eraă acolo d’a rîde.</p>
 <p>Acelă care rîse cu aşa mare hohotă şi bătendu din palme, era baronulă despre care amă vorbită..</p>
-            <milestone unit="footer" type="line"></milestone>
+            <milestone unit="footer" type="line"/>
          </div>
          
          <div type="chapter" n="6">
@@ -828,7 +830,7 @@
 <p>—'Cine va sci! se póte!...</p>
 <p>Păculescu adăogă:</p>
 <p>— Numaĭ deschide bine ochiĭ şi iaţĭ seama bine!... îțĭ vorbesce Stan păţitul... </p>
-               <milestone unit="middle" type="line"></milestone>
+               <milestone rend="dots" unit="subchapter"/>
             </div>
          <div type="chapter" n="7">
 <head> VII. </head>
@@ -902,7 +904,7 @@
 <p>În strigătulŭ celŭ răguşitó alŭ vulturilorŭ, în resune-tulŭ celŭ stâncosŭ de topóre cari loviaŭ în pămêntă, la fumegarea cu uă lumină sinistră a torţelorŭ, şi ’ntre tóte aceste oftărĭ cu: păziască Dumneḑeŭ! Dómne feresce!.. şi cu uă mulţime de crucĭ cari se repetaŭ într’una de bieţiĭ plăieşĭ, junele observândŭ bine leşulŭ acesta, păru că mintea-ĭ putu descoperĭ şi înţelege ce-va din privirea acestorŭ rĕmăşiţe. Uă parte a obrazuluĭ ḑiserămŭ că conţinea uă óre care formă umană. Se apropie elŭ maĭ bine, pipăi acéstŭ scheletu, şi maĭ alesŭ partea aceea a obra-zluĭ privind’o d’aprópe, i se păru că nu se amăgesce; creḑu că este în adevĕrŭ elŭ, infortunatulŭ pe care îlŭ trimiseseră în serviciŭ la uă vamă nu tocmaĭ departe de aci. Óre, ce crimă comisese elŭ ca să aibă unŭ asemenea resultatŭ finele seŭ ? -— Să fie pentru fapte că ’şĭ ia omŭlŭ resplata ?.. Acésta îĭ isbi mintea juneluĭ ca lovirea unui trăsnetŭ.</p>
 <p>Nefericituluĭ Tonciu ’ĭ a fostŭ dóră scrisŭ să termine ḑlele acolo, într’astŭ chipŭ ?..</p>
 <p>Maĭ târḑiŭ s’a aflatŭ cum a mersŭ împregiurarea morţiĭ acestuia, şi cine aŭ fostŭ făptuitoriĭ crimeĭ...</p>
-               <milestone unit="middle" type="line"></milestone> 
+               <milestone rend="dots" unit="subchapter"/> 
             </div>
          <div type="chapter" n="8">
 <head>VIII</head>
@@ -943,7 +945,7 @@
 <p>Nu scimŭ ce maĭ făcu acéstă femeie; dérŭ scimŭ că junele românŭ ajunse în Sibiiŭ, descindêndŭ din munţĭ» pe la comuna Selisce şi Sĕcelu.</p>
 <p>Cum a sosiţŭ la Sibiiŭ, ântêia sea ocupaţiune a fostŭ să caute dupĕ adresă, unde este Tereza.</p>
 <p>Îĭ spuseră uniĭ-alţiĭ că sora acesteĭ femeĭ trăesce măritată într’uă comuna aprópe de Mediaşĭ, şi prin urmare ea este póte acolo unde e sora sea. Elŭ se mêhni auḑindŭ că nu este în Sibiiŭ...</p>
-            <milestone unit="middle" type="line"></milestone>
+            <milestone rend="dots" unit="subchapter"/>
          </div>
          <div type="chapter" n="9">
 <head>IX.</head>
@@ -1000,7 +1002,7 @@
 <p>Afurisită bobĕrésă! pentru ce stricĭ bucuria uneĭ surorĭ cândŭ tu îĭ ḑicĭ că vine iubitulŭ eĭ frate ? ce vo-escĭ tu a pătrunde viitorulŭ prin arta ghicitorieĭ tale? Aŭ tu nu sciĭ că acéstă secretŭ remâne necunoscutŭ şi e trebuinciosŭ omuluĭ, pentru ca elŭ să, nu fie şi maĭ tare nefericitŭ ?..</p>
 <p>Zinca ficsă cu ochĭ marĭ pe ţigancă care încreţia fruntea subt un pĕru despletitŭ, negrŭ, posomorîtă şi repeţindŭ dese căscăturĭ din gură şi articulândŭ vorbe neînţelese, inspirată şi turbată, ca cum consultase spiritele infernuluĭ.</p>
 <p>Fratele acesteĭ femeĭ tocmaĭ intra pe pórtă căndŭ ghi-citorésa arĕta din semne, prin cunoscinţele ce le avea, că ce se va întêmpla este rĕŭ de totŭ... e rĕŭ de totŭ ce se va petrece!.</p>
-            <milestone unit="middle" type="dots"></milestone>
+            <milestone rend="dots" unit="subchapter"/>
 <p>Lectorulŭ aci să ne permite d’a face uă digresiune, pentru ca să putemŭ cerceta şi să arĕtămŭ ce-va în privinţa mortuluĭ din munţi.</p>
 <p>Şépte-spre-ḑece anĭ maĭ târḑiŭ, dupé întêmplarea ce o descriserămŭ, unŭ bărbatŭ din cunoscinţele nóstre, de la Tîrgu-Jiiuluĭ, se află de façă căndŭ se povesti, la uă nuntă petrecută sub rîpele de la Grópa-seacă, sub muntele Parengŭ, ce-felŭ treĭ mocanĭ putură să se scape de unŭ slujbaşŭ vamalŭ, care voi să le întórne oile, într’unŭ timpŭ vijăliosŭ, tómna, din pădurile de la Tărtărĕŭ, pentru că eĭ fiindŭ siliţĭ de timpŭ, dupĕ cum ḑiceaŭ dênşiĭ, n’aŭ trecutŭ cu vitele pe calea cea umblată, şi aŭ căutatŭ să scape din munţĭ maĭ iute pe nisce potecĭ. Aceştĭ ómeniĭ ce e dreptulŭ fuseseră abătuţĭ de la détoria lorŭ. Dérŭ s’a ’ntêmplatŭ că şi uniĭ vameşĭ şi din funcţionariĭ lorŭ să încurce în adinsŭ pe păstorĭ cu vitele, ţinêndu-ĭ la trecătóre pré multŭ timpŭ pênĕ să le numere, saŭ de la uniĭ le aŭ luatŭ peste ceea ca eĭ eraŭ détorĭ să plătéscă; destulŭ că in asemenea casurĭ, mocaniĭ, ca să nu le ţinĕ pré multe ḑile oile să móró de fóme, sûntŭ în stare a da orĭ-ce, numaĭ să ’ĭ lase să plece. . Acésta ajunge a fi uă resursă din cele însemnate pentru aceştĭ funcţionarĭ. Ceĭ superiorĭ cunoscu maĭ bine secretulŭ d’a câştiga, ceĭ inferiori vorŭ asemenea să câştige !.. Să venimŭ ênsă la istoria povestită la nunta de la Grópa-seacă.</p>
 <p>Pe cândŭ dérŭ bucuria era aripată şi îmbărbăta nuntaşiĭ : mirele, mirésa, părinţiĭ şi nuniĭ, cari se ospĕtaŭ la uă masă întinsă dinaintea stâneĭ d’acolo; dupĕ ce mirésa, cea învestită cu îmbrăcăminte albă, cu unŭ conciŭ din florĭ şi cu puçinŭ firŭ pe capu-ĭ, încălţatŭ cu cisme de safténŭ în picióre, şi cu unŭ şerveţelŭ cusutŭ pe de mărginĭ cu rniciŭ în florĭ, pe care ’lŭ ţinea în mâinĭ, trecuse de câte treĭ orĭ pe sub mână-ĭ pe fie care óspe danţândŭ, şi acesta apoĭ se opria în locŭ să deschidă punga ca să scotă uă monedă să o dea darŭ mireseĭ, care era primiitŭ cu totŭ felulŭ de orărĭ şi bine cuvîn-tarea a întregeĭ seale familiĭ; pe cândŭ ţiganiĭ lăutariĭ, obosiseră d’a totŭ spune cu vióra istoriĭ haiducescĭ şi cântece de dorŭ; óspiĭ conmeseniĭ precum amŭ ḑisŭ în-chinaŭ împregiurulŭ meseĭ cu plosca, şi mâncaŭ cu bucĭ marĭ, rĕdicară vorba uniĭ dintre eĭ adresându-se către unŭ bĕtrânŭ care sta maĭ în capĕtulŭ meseĭ : — Şi aşa puturăţĭ scăpa de acelŭ omŭ rĕŭ care vĕ ḑicea că vĕ împuşcă de nu veţĭ înturna vitele, saŭ să plătiţĭ de fie care capŭ de berbece câte unŭ nemţescŭ. — Erte-lŭ Dumneḑeŭ pe elŭ şi să ne erte şi pre noĭ, ḑice omulŭ celŭ de: la masă.</p>
@@ -1015,7 +1017,7 @@
 <p>— Şi acelŭ omŭ a rĕmasŭ acolo tótă iarna?., escla-mară de uă-dată maĭ mulţĭ conmesenĭ.</p>
 <p>— L’a luatŭ negreşitŭ gerulŭ luĭ chantătarŭ, ucigă-lŭ tóca, ce a căutatŭ a găsităŭ</p>
 <p>Acéstă naraţiune avêndŭ raportŭ întru totŭ cu spec-taclulŭ descoperitŭ de Ioniţă, în munţiĭ de la Tărtărĕŭ, întêmplarea şi cruḑimea acelorŭ ómenĭ a îngheţatŭ de spaimă pe fie care omŭ care a auḑitŭ de astă istorie, care, orĭ câtŭ de târḑiŭ s’a aflatŭ, dupĕ trecere de maĭ mulţĭ anĭ, era spăimântătóre de vĕḑutŭ şi de auḑitŭ. </p>
-<milestone unit="middle" type="dots"></milestone>
+<milestone rend="dots" unit="subchapter"/>
 <p>Lectorulŭ acum ne va însoţĭ să vedemŭ cum junele nostru sosesce între aĭ seĭ, cu capulŭ plinŭ de impresiunĭ de locurile pe unde mersese şi de cele ce a vĕḑutŭ. Elŭ îm-brăţişă pe sora-sea cu tótă căldura şi bucuria unuĭ doritŭ frate. Zinca nu se maĭ sătura privindu-lŭ şi între-bându-lŭ cum a petrecutŭ şi ce i s’a ’ntâmplatŭ în cursulŭ călĕtorieĭ, la care elŭ respunse de uă-cam-dată pe scurtŭ. Ea mereŭ ’lŭ întreba ce 'ĭ trebue, ce voesce să mănânce la masă? să spue că va face totul. Elŭ avea nevoe să iasă puçinŭ în oraşŭ şi să caute la postă scrisorĭ.</p>
 <p>— Dumi-te, leică, şi vino la timpulŭ meseĭ, uite, o să taiŭ paserĭ, voiŭ face plăcintă, o să, gătesc! cele maĭ bune bucate, o să chiămŭ veciniĭ, de bine c’aĭ venitŭ să ne ospĕtămŭ.</p>
 <p>Ioniţă ese p’în piaţă, alungesce stradele, se opresce ici şi colea, inima-ĭ rîde de bucurie, întêlnesce cunoscuţiĭ ; Bucuresciĭ, loculŭ seŭ natale, face a’ĭ sălta inima ; şi orĭ câtŭ a admiratŭ alte oraşe ce a vĕḑutŭ, totŭ îĭ place maĭ bine, totŭ ’lŭ încânta maĭ multŭ aicĭ unde elŭ a născutŭ, unde a copilăritŭ şi cunósce maĭ multŭ ; îĭ vine a striga şi a cânta de bucurie : Ceriŭ frumosŭ alŭ ţereĭ mele !.. Se duce la postă unde găsesce scrisorĭ de peste Oltŭ, de la cumnatul seŭ şi de la unŭ vameşiŭ, cărora elŭ le scrisese de la Sibiiŭ cum a fostŭ ajunsŭ. Elŭ se ’ntórnă pré voiosŭ, pré mulţiămitŭ de prânsŭ acasă. Aci şi maĭ mare plăcere şi maĭ mare bucurie: amiciĭ seĭ Păculesculŭ şi Poporanulŭ tocmaĭ aflaseră de sosirea sea şi veniră să ’lŭ véḑă. Ce mulţiămire? ce fericire ca să se véḑă érățĭ cu toțĭ? Se ’mbrăţişară de maĭ multe orĭ, se ’ntrebară cum aŭ petrecutŭ, ce maĭ este p’în lume? ce noŭ pe la cancelerie?.. Poporanulŭ ce se interesa pré multŭ de amiculŭ seŭ, avea să 'ĭ vorbéscă câte ce-va, dérŭ nu găsi acum timpulŭ potrivitŭ, să ĭ spue lucrurĭ nu pré plăcute. Şi altă-dată póte a’ĭ vorbi... Păculescu care scia causa pentru care făcuse călĕtoria în Transilvania, îlŭ întrebă în trécătŭ : — Eĭ! ce făcuşĭ?. . — Mĭ amŭ adusŭ aminte, respunde junele, cândŭ ’mĭ aĭ ḑisŭ : femeia asta te ’nşeală : ce trebuia atuncĭ să mĕ maĭ uitŭ în gura eĭ ? de ce s’o ascultŭ cândŭ lua numele luĭ Dum-neḑeŭ în deşertŭ ca să mĕ înşele ?..</p>
@@ -1040,7 +1042,7 @@
 <p>Vaĭ! Nefericitulŭ, aşa a peritŭ? Elŭ a spusu că maĭ în tinereţe fusese amestecatŭ într’uă cétă de hoţĭ, a fostŭ volintirŭ cu resbelulŭ Ruşilorŭ, singurŭ ne spunea că a ucisŭ ómenĭ cu mâna luĭ, a prădatŭ, a arsŭ ş’a jupuitŭ turcĭ şi creştinĭ, a descăpăţînatŭ ş’a trasŭ în ţépă nefericiţiĭ prinşĭ din resboiŭ, şi în urmă, spio-nândŭ şi vînḑêndŭ hoţilorŭ din Bucurescĭ casele care eĭ voiaŭ să le calce şi să le prade...</p>
 <p>— Veḑĭ era cărbune stinsŭ, dupĕ façă nu se arăta să fie unŭ aşa omŭ, ḑi se vecina de colea.</p>
 <p>— Aşa a peritŭ elŭ ?.. Dumneḑeŭ să ’lŭ erte! es-clamară êncă uă-dată aceste femeĭ.</p>
-            <milestone unit="middle" type="line"></milestone>
+            <milestone rend="dots" unit="subchapter"/>
          </div>
          <div type="chapter" n="11">
 <head>XI</head>
@@ -1160,9 +1162,9 @@
 <p>— O să te ’nvĕţŭ eŭ!.. rĕspunse celŭ atacatŭ, săl-tându-ĭ peptulŭ şi cu faça cândŭ roşie, cândŭ galbenă ca turta de ceră.</p>
 <p>Amŭ ḑisŭ că sala bufetuluĭ se deşertase. Nimenĭ din ceĭ ce se afla în sala theatruluĭ nu scia de cele ce se petrecuse afară. Nu eraŭ de-câtŭ băeţiĭ bufetarĭ cari rĕmăseseră cu gurile căscate uitându-se la ceĭ cari se certaŭ. Câtŭ despre êntreprenorŭ, era indiferentŭ, căuta numai trebile să ’ĭ mérgă bine; d’aceea de la începutŭ elŭ eşise afară, să nu auḑă, să nu véḑă, pênĕ nu ajunseră lucrurile la seriosŭ.</p>
 <p>Câtŭ despre Ioniţă, se asemĕna acum cu şérpele care caută mórte. Mai bine ar’ fi voitq să fie mórtŭ, ajunsŭ uă-dată la culmea ruineĭ şi desonóreĭ ce’lŭ ameninţa. .</p>
-<milestone unit="header" type="dots"></milestone>
+
 <p> în nóptea aceea, în acea nópte chiarŭ, treĭ indiviḑĭ, cu pălăriĭ trase peste ochĭ, avendŭ unŭ aspectu fiorosŭ, întunericulŭ profundŭ alu nopţiĭ, înarmaţĭ cu pumnale, şi de cari se ḑicea că purtau la eĭ snopurĭ de chiăĭ, pentru a deschide uşĭ, şervete muiate în cocă, pentru a sparge geamuri fără să facă sunetŭ, scărĭ de sfóră pentru a escalada muriĭ pênĕ la ferestrele caselerŭ, câteşĭ treĭ pân-diau, prin şanţurile de la Cismigiŭ, ca să atace în cale pe Ioniţă cândŭ se va înturna târḑiu acasă. În adevĕrŭ cu cincĭ minute elŭ apucase de trecuse p’acolea, pênĕ a nu veni aceĭ indivizĭ. Ei adăstară maĭ multŭ timpŭ, şi ve-ḑêndŭ că nu se arată de nicăirea omulŭ ce’lŭ aşteptaŭ, plecară despre ḑiuă, dupe nisce operaţiunĭ ale lorŭ...  Unulŭ dintre aceştĭ indiviḑĭ era croitorulŭ despre care s’a maĭ vorbitu, celŭ d’ălŭ duoilea. unŭ ungurŭ din ma-halaoa: Livedea-gospodi, şi alu treilea era ênsusĭ acela ce avea interesŭ să se scape de persóna acestuĭ june, era baronulŭ celŭ cu numele!..</p>
-            <milestone unit="middle" type="line"></milestone>
+            <milestone rend="dots" unit="subchapter"/>
          </div>
 <div type="chapter" n="12">    
 <head>XII.</head>
@@ -1253,7 +1255,7 @@
    <milestone unit="dots"/>
 <p>În acéstă ḑi Bucuresciĭ se treziră în resunetulŭ a treĭ împregiurărĭ remarcabile, una că : garnisona armateĭ de ocupaţiune ruse evacua capitala, trecêndŭ pe la capulŭ Podulul-Mogoşóeĭ cu tobe şi cu trômbiţe, pentru a merge la Ploescĭ şi maĭ departe ; a duoua : poliţia, prin aghenţiĭ eĭ a descoperitŭ capiĭ hoţilorŭ cari prădaŭ capitala şi ţéra întrégă, şi cari, în acea nópte, aŭ jefuitŭ pe aren-daşulŭ menţionatŭ, nu departe de la Bucurescĭ ; căpetenia de frunte alŭ acestorŭ bandiţĭ era acelŭ omŭ misteriósă ḑisu baronŭ, pe care poliţia îlŭ prinse pre delictŭ şi ’lŭ ţinu arestatŭ cu rigóre în arestulŭ eĭ. Asupra acestuĭ s’a găsitŭ corespondenţe şi uă listă de indivizĭ, cu cari era în re-laţiune de la baltă pênĕ ’n munţĭ ; în acea listă s’a găsitŭ figurândŭ chiarŭ şi numele bĕtrânuluĭ fostŭ curierŭ... Cea d’a treia, sinuciderea aceluĭ june.</p>
 <p>Acestă nuvelŭ isbindŭ pe fie-care şi respândindu-se cu iuţiala fulgeruluĭ pênĕ la estremitatea capitaleĭ, aler-gaŭ omeniĭ din tóte suburbiile să vie să ’lŭ véḑŭ.</p>
-<p>Duouĕ femeĭ, una jună şi ceelaltă matură, trecură îndată, frângându-șĭ mâinile şi omorêndu-se de durere, ve-nindŭ cu uă trăsură la acéstŭ locŭ tragicŭ, şi Poporanulŭ,amiculŭ intimŭ al celuĭ împuşcatŭ, alerga ţiindu-şĭ ca-pulŭ descoperitŭ, aducândŭ cu dênsulŭ ómenĭ ca să ’lŭ rĕdice de acolo. > </p>
+<p>Duouĕ femeĭ, una jună şi ceelaltă matură, trecură îndată, frângându-șĭ mâinile şi omorêndu-se de durere, ve-nindŭ cu uă trăsură la acéstŭ locŭ tragicŭ, şi Poporanulŭ,amiculŭ intimŭ al celuĭ împuşcatŭ, alerga ţiindu-şĭ ca-pulŭ descoperitŭ, aducândŭ cu dênsulŭ ómenĭ ca să ’lŭ rĕdice de acolo. &gt; </p>
 <p>Ḑisele femeĭ oprindu-se dinaintea cadaveruluĭ, cea maĭ matură s’auḑia văitându-se şi ḑicândŭ: Oh! fratele meu! eu, care te amŭ crescutŭ! te amŭ iubit ca pe unŭ copilŭ şi frate, care amŭ făcutŭ totulŭ pentru înaintarea şi binele teŭ, n’amŭ creḑutŭ ca să trăescŭ să te vĕḑŭ ast-felŭ!.. şi ea se înecă în plânsŭ şi gemete dureróse. Acea maĭ jună se aplecă josŭ, ca cum ar’ îngenuchia şi arŭ geli; desfăcu căméşa la petulŭ celuĭ mortŭ şi puse mâna pe i-nimă-ĭ ce êncă nu rĕcise; ea plângendŭ şi maĭ tare, murmură aceste vorbe : «Pĕnĕ la mormêntŭ!!. » jurămêntulŭ mi ’l amŭ ţinutŭ, iubitulŭ meŭ! fidanţatulŭ! fratele şi iubitulŭ meŭ!.. Apoi căutândŭ în posunarulŭ de la gherocu, găsi duouĕ scrisorĭ particulare şi ’ntre ele unŭ buchetŭ de floĭi uscatŭ, dérŭ bine conservatŭ. Cleopatra cunoscu atuncĭ ce simţimênte a avutŭ elŭ pentru dênsa, şi că acestŭ bu-chetŭ, primiitŭ de la ea, a fostŭ ântâiulŭ şi ultimulŭ ga- giŭ alŭ amoruluĭ lorŭ...</p>
 <p>Prin relgiune se opresce d’a se înmormênta în chi-mitire ceĭ sinucişĭ, ci numai la vre-uă margine, şi maĭ de multe orĭ la câmpŭ. Nae Poporanulŭ în acéstă îm-pregiurare, pentru a da totŭ concursulŭ şi a face ulti-mulŭ serviciu amiculuĭ seŭ, îlŭ rĕdică într’uă căruţă, în-velindu-lŭ totulŭ într’uă pânză, şi ’lŭ duse maĭ ântâĭ la spitalulŭ Filantropieĭ, care este aci aprópe, îlŭ mormêntă la margine şi ’ĭ puse uă cruce:..</p>
 <p>Mulţĭ aŭ ḑisŭ, dupĕ cum sciaŭ eĭ lucrurile, că elŭ s’a</p>
@@ -1270,5 +1272,4 @@
 </div>
       </body>
    </text>
-</TEI>   
-
+</TEI>

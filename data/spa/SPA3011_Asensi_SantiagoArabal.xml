@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3011" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3011" xml:lang="SPA">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,26 +16,22 @@
                 <measure unit="pages">47</measure>
             </extent>
             <publicationStmt>
-                <publisher ref="https://distant-reading.net">COST Action "Distant Reading for
-                    European Literary History" (CA16204)</publisher>
-                <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-                <date when="2019-01-20"/>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                </availability>
-                <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+            <sourceDesc><bibl type="firstEdition">
                     <pubPlace>Madrid</pubPlace>
                     <date>1894</date>
-                    <publisher>Tipografía de los hijos de M. G. Hernández</publisher>- </bibl>
-                <bibl type="digitalSource">
+                    <publisher>Tipografía de los hijos de M. G. Hernández</publisher>- </bibl><bibl type="digitalSource">
                     <publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
                     <pubPlace>Universidad de Alicante</pubPlace>
                     <idno>12484</idno>
-                    <ref
-                        target="http://www.cervantesvirtual.com/obra/santiago-arabal-historia-de-un-pobre-nino--0/"/>
+                    <ref target="http://www.cervantesvirtual.com/obra/santiago-arabal-historia-de-un-pobre-nino--0/"/>
                     <date when="2004"/>
                     <respStmt>
                         <resp>Corrección del texto, etiquetado XML-TEI y edición Biblioteca Virtual
@@ -43,8 +40,7 @@
                         <name>Mayte Ávalos Coloma</name>
                         <name>Josefina Carrión</name>
                     </respStmt>
-                </bibl>
-            </sourceDesc>
+                </bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-1">
             <p/>
@@ -62,6 +58,7 @@
             </textDesc>
         </profileDesc>
         <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
             <change when="2020-04-23">Anotación formato ELTeC y correcciones varias: Borja Navaro
                 Colorado</change>
         </revisionDesc>
@@ -452,8 +449,7 @@
 
                 <p> Como había dejado de asistir a la escuela, iba a pescar con mi padre, y esta
                     vida era mucho más de mi gusto que la que llevara hasta entonces. Era mala, en
-                    verdad, penosa y corríamos algunas veces grandes peligros; pero aquello me <pb
-                        n="15"/> importaba poco, quería el trabajo rudo para mí y el bienestar y el
+                    verdad, penosa y corríamos algunas veces grandes peligros; pero aquello me <pb n="15"/> importaba poco, quería el trabajo rudo para mí y el bienestar y el
                     descanso para Rosalinda. </p>
 
 
@@ -1153,8 +1149,7 @@
 
                 <p> Una tarde en que no habíamos comido nada, nos hallábamos Rosalinda y yo sentados
                     en un banco del paseo, dispuestos a implorar la caridad pública. Nuestros
-                    trajes, sobre todo el de ella, que era ya más viejo, habían sufrido mucho <pb
-                        n="30"/> en el viaje y no tardarían en ser unos andrajos, y los zapatos
+                    trajes, sobre todo el de ella, que era ya más viejo, habían sufrido mucho <pb n="30"/> en el viaje y no tardarían en ser unos andrajos, y los zapatos
                     estaban completamente rotos; el atavío era a propósito para mendigar. </p>
 
 

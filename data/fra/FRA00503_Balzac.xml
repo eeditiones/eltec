@@ -8,9 +8,9 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:177407570 wikidata:Q2718088">Le curé de village : édition ELTeC</title>
-        <author xml:id="Balzac" ref="viaf:29529595 wikidata:Q9711">Balzac, Honoré de (1799-1850)</author>
+        <author ref="viaf:29529595 wikidata:Q9711">Balzac, Honoré de (1799-1850)</author>
         <respStmt>
-          <resp>principal</resp>
+          <resp>Principal investigator</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,11 +21,14 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -35,13 +38,21 @@
           <ref target="http://efele.net/ebooks/livres/000075" />
         </bibl>
         <bibl type="printSource">
+          <title>Le curé de village</title>
+          <author>Honoré de Balzac</author>
           <pubPlace>Paris</pubPlace>
           <publisher>Furne, J. Dubochet et Cie, J. Hetzel et Paulin</publisher>
           <date>1842-1848</date>
         </bibl>
         <bibl type="firstEdition">
-          <date>1841</date>
+          <title>Le curé de village</title>
+          <author>Honoré de Balzac</author>
+          <publisher>bureaux du "Siècle"</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1854</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5821334m" />
           <!-- Version primitive en feuilleton : 1839 -->
+          <!-- Novel first appeared in "La presse", serial (January-August 1839), then in flight. in 1841 before being included in "The human comedy" in the "Scenes of country life" (t. XIII, 1846) in the part entitled "Studies of manners". -->
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -52,12 +63,11 @@
       <langUsage>
         <language ident="fr">French</language>
       </langUsage>
-<textClass>
-  <keywords>
-    <term type="narrative-perspective">heterodiegetic</term>
-  </keywords>
-</textClass>
-
+      <textClass>
+        <keywords>
+          <term type="narrative-perspective">heterodiegetic</term>
+        </keywords>
+      </textClass>
       <textDesc>
         <authorGender xmlns="http://distantreading.net/eltec/ns" key="M" />
         <size xmlns="http://distantreading.net/eltec/ns" key="medium" />
@@ -66,6 +76,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2018-11-01">Conversion with CLIGStoELTeC stylesheet for ELTeC-1</change>
       <change when="2015-08-07">Initial TEI version.</change>

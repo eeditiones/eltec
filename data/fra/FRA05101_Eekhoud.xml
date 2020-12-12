@@ -8,14 +8,31 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:missing wikidata:missing">L'autre vue : édition ELTeC</title>
-        <author xml:id="Eekhoud" ref="viaf:19677089 wikidata:Q728405">Eekhoud, Georges (1854-1927)</author>
+        <author ref="viaf:19677089 wikidata:Q728405">Eekhoud, Georges (1854-1927)</author>
+        <respStmt>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
       </titleStmt>
       <extent>
         <!-- Word count: tokens as counted in text split on "\W+" -->
         <measure unit="words">48550</measure>
       </extent>
       <publicationStmt>
-        <p>à fournir</p>
+        <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+        <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+        <date when="2020-11-14" />
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/" />
+        </availability>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -28,9 +45,12 @@
           </respStmt>
         </bibl>
         <bibl type="printSource">
-          <author>Georges Eekhoud</author>
           <title>L'Autre vue</title>
+          <author>Georges Eekhoud</author>
+          <publisher>Société du "Mercure de France"</publisher>
+          <pubPlace>Paris</pubPlace>
           <date>1904</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k62081h" />
         </bibl>
         <bibl type="firstEdition">
           <date>1904</date>
@@ -58,6 +78,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2020-04-05">entête auto-généré: à compléter </change>
     </revisionDesc>
   </teiHeader>
@@ -86,11 +108,16 @@
 
         <head> L'HONORABLE DEPUTE BERGMANS PRESENTE CE PAUVRE LAURENT PARIDAEL </head>
         <quote type="epigraph">
-          <p><foreign xml:lang="deu">Hast du die gute Gesellschaft gesehen ?</foreign></p>
-          <p><foreign xml:lang="deu">Gute Gesellschaft habe ich gesehen ; man nennt sie die gute Weil sie zum kleinsten Gedicht keine Gelegenheit gibt.</foreign></p>
+          <p>
+            <foreign xml:lang="deu">Hast du die gute Gesellschaft gesehen ?</foreign>
+          </p>
+          <p>
+            <foreign xml:lang="deu">Gute Gesellschaft habe ich gesehen ; man nennt sie die gute Weil sie zum kleinsten Gedicht keine Gelegenheit gibt.</foreign>
+          </p>
           <p>Gœthe (Venetianische Epigramme)</p>
         </quote>
-        <p>Les papiers publics se sont beaucoup occupés d'une affaire mystérieuse : celle de ce jeune fossoyeur condamné à six mois de prison pour violation de sépulture et emporté depuis par une fièvre cérébrale. Ils ont mis en cause, son nom ayant été mêlé aux débats judiciaires, feu M. Laurent Paridael, cousin de Régina Dobouziez, ma femme, laquelle avait épousé en premières noces M. Freddy Béjard qui périt si misérablement avec la plupart de ses ouvriers dans l'explosion de sa cartoucherie <ref target="#FRA05101_N1" />. Notre parent Laurent Paridael fut aussi relevé pour mort sur le terrain de la catastrophe. Plût à Dieu qu'il n'en eût pas réchappé. Il n'aurait plus traîné alors une vie déclassée, il se serait épargné de mourir plus piteusement encore par un suicide, après force excentricités. Son honorable famille n'eut point subi l'humiliation de voir son nom accolé à celui d'un malfaiteur et sa mémoire exposée aux commentaires d'une presse friande de scandales.</p>
+        <p>Les papiers publics se sont beaucoup occupés d'une affaire mystérieuse : celle de ce jeune fossoyeur condamné à six mois de prison pour violation de sépulture et emporté depuis par une fièvre cérébrale. Ils ont mis en cause, son nom ayant été mêlé aux débats judiciaires, feu M. Laurent Paridael, cousin de Régina Dobouziez, ma femme, laquelle avait épousé en premières noces M. Freddy Béjard qui périt si misérablement avec la plupart de ses ouvriers dans l'explosion de sa cartoucherie
+          <ref target="#FRA05101_N1" />. Notre parent Laurent Paridael fut aussi relevé pour mort sur le terrain de la catastrophe. Plût à Dieu qu'il n'en eût pas réchappé. Il n'aurait plus traîné alors une vie déclassée, il se serait épargné de mourir plus piteusement encore par un suicide, après force excentricités. Son honorable famille n'eut point subi l'humiliation de voir son nom accolé à celui d'un malfaiteur et sa mémoire exposée aux commentaires d'une presse friande de scandales.</p>
         <p>Sans doute, il me répugne de remuer ces souvenirs, mais il a circulé tant de racontars sur le caractère et la conduite de notre infortuné parent que j'ai jugé indispensable de rectifier les faits.</p>
         <p>Ce fut un personnage déconcertant, qui porta un défi aux convenances, mais il s'était fait une idée spéciale de l'humanité et de la nature, et en tenant compte de cette vision particulière, on reconnaîtra qu'il apporta certaine logique dans ses écarts et qu'il concilia ceux-ci avec une générosité chevaleresque ressemblant à une manière d'apostolat.</p>
         <p>Je l'ai intimement pratiqué, surtout avant mon mariage avec sa cousine M<hi>me</hi> veuve Béjard. Nos bons rapports subsistèrent jusqu'à ce que ses anomalies fussent devenues si flagrantes que sans rompre avec lui, je me vis forcé, par égard pour mon rang et mes relations, de ne plus m'afficher en sa compagnie.</p>
@@ -196,9 +223,7 @@
         <p>Tu crois, cousin ?</p>
         <p>Beaucoup n'ont qu'un temps, une saison de beauté. Ils passent comme une fleur, un insecte rare. Précoces, ils mûrissent trop vite. Rien de plus intensif que l'atmosphère de leur milieu. Aussi se fanent-ils prématurément. Leur vie n'est qu'une aube, qu'une adolescence. Heureusement, ils sont aussi prolifiques qu'éphémères et leur progéniture leur ressemble bientôt pour mes suprêmes délices.</p>
         <p>L'âge auquel je les préfère ? Aux approches de la conscription et parfois, plus tôt encore, dès l'époque où l'apprentissage d'un métier et les premières escapades commencent à leur donner du roux, à l'heure du déniaisage, du duvet à la lèvre et du poil follet au menton ; au moment de cette puberté si irritante chez les gamins élevés à la grâce de Dieu, puis entrepris par des initiateurs sans vergogne ; à la minute climatérique où la mue rogue et dyscole, fanfaronne de vice et de cynisme, prodigue aussi de câlines gaucheries et de naïves détentes ; à la saison où ils jettent leurs gourmes en s'abandonnant en toute licence à leurs postulations de moineaux francs, pillards, batailleurs et voluptueux.</p>
-        <p>L'accoutrement de mes voyous subit des caprices et des modes tout comme celui des mondains ; fluctuations lentes et moins radicales qu'en haut de l'échelle, mais caractéristiques. S'ils ne vont pieds nus – et combien ces pauvres paturons
-          <ref target="#FRA05101_N4" />, calleux et poudreux, émergent pathétiquement des penaillons
-          <ref target="#FRA05101_N5" /> et des franges de leur « folzar
+        <p>L'accoutrement de mes voyous subit des caprices et des modes tout comme celui des mondains ; fluctuations lentes et moins radicales qu'en haut de l'échelle, mais caractéristiques. S'ils ne vont pieds nus – et combien ces pauvres paturons , calleux et poudreux, émergent pathétiquement des penaillons et des franges de leur « folzar
           <ref target="#FRA05101_N6" /> » – ils chaussent des sabots blancs ou jaunes, très pâles ou orangés comme les fromages de la Hollande. On en trouve à la pointe relevée comme un crochet de patin frison ou une proue de gondole, peints de diverses couleurs, ciselés et taillés, même dorés, historiés de figures et d'attributs, le tout d'une fantaisie délicieusement barbare.</p>
         <p>Parfois mes favoris connaissent des saisons de luxe durant lesquelles ils porteront des chaussures de cuir. On n'en voit que la pointe à cause de la guêtre ou du pied d'éléphant formé par le bas de la « culbute » (que l'argot a de noms suggestifs pour le vêtement bifurqué !) dont il importé que le haut bride les fesses et les cuisses. D'autres jours, ils traîneront des savates et des espadrilles qu'ils s'amusent à quitter et à reprendre ; ils laceront des bottines jaunes sur leurs chaussettes lie de vin ou feront sonner de lourdes bottes à gros clous – un luxe que ces clous !</p>
         <p>Généralement ils vont habillés de ce velours côtelé appelé piloux qui – sans préjudice des autres tons : mastic, réséda ou vert bouteille – parcourt toute la gamme des bruns, depuis le jaune d'or ou le roux flamboyant jusqu'au havane ou au chocolat. S'ils ne parviennent à se fendre de tout le complet de velours, leurs jambes au moins sont culottées de cette ragoûtante étoffe aussi caressante à l'œil que douillette au toucher, de ces velours tirant sur le pelage des félins, tièdes comme une fourrure, électrisés, dirait-on, par les réactions de la marche, les manœuvres, les jeux et les rixes de leurs propriétaires. Avec le temps ces velours se bonifient comme le vin et les cigares. Au relief des coudes, des fesses et des genoux, l'étoffe se met à luire, puis à se râper, jusqu'à ce qu'enfin sous les guenilles rapiécées à outrance, la chair montre sa couleur de pain bis ou de poisson fumé. Le plus souvent sans veste, sans bourgeron, sans vareuse de gros bleu marine, ils endossent des jerseys bleus aussi, mais parfois de différentes couleurs, zébrés à la façon des maillots de canotiers ou d'acrobates. Ces tricots échancrés dégagent la rude et ferme encolure comme chez les matelots. Combien mes lurons portent beau et se moulent avantageusement dans ces gaines élastiques ! S'ils s'appliquent une chemise, ils la choisissent de flanelle et de couleur. Ils ne se prêteront que rarement au supplice du carcan empesé et ils se passent presque autant de cravate, à moins que leur limace assez décolletée n'ait un collet rabattu sous lequel ils glissent une voyante lavallière, une écharpe nouée à la marine ou une cordelière à glands multicolores.</p>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA4016">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA4016">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,30 +15,26 @@
 				<measure unit="words">49046</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2020-07-21"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="digitalSource">
 					José Calvo Tello
 					<ref target="https://github.com/cligs/conssa">Corpus of Novels of the Spanish Silver Age (CoNSSA)</ref>
 					<idno>ne0070</idno>
 					<pubPlace>University of Würzburg</pubPlace>
 					<date when="2020"/>
-				</bibl>
-				<bibl type="digitalSource">epublibre, Titivillus, r.1.0, <date when="2015">2015</date>, <idno>22353</idno>, <ref target="https://www.epublibre.org/libro/detalle/22353"/>.</bibl>
-				<bibl type="firstEdition">
+				</bibl><bibl type="digitalSource">epublibre, Titivillus, r.1.0, <date when="2015">2015</date>, <idno>22353</idno>, <ref target="https://www.epublibre.org/libro/detalle/22353"/>.</bibl><bibl type="firstEdition">
 					<publisher> Imp. de Heinrich y Cª, Editores</publisher>
 					<date when="1902">1902</date>
 					<pubPlace>Barcelona</pubPlace>
 					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000200835">Biblioteca digital hispánica</ref>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p>Downcoded from CLIGS</p>
@@ -60,6 +57,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-07-21">Borja Navarro Colorado : revisión de etiquetado ELTeC y anotación complementaria.</change>
 			<change when="2020-07-21">LB convert to ELTeC-1</change>
 			<change when="2015-07-21">#jct : Initial TEI version.</change>
@@ -1444,7 +1442,7 @@
 			</div>
 		</body>
 		<back>
-			<div>
+			<div type="liminal">
 				<head>EPILOGO</head>
 				<p>Mi primer propósito al ponerme a escribir esta novela fue publicarla por mi cuenta y riesgo, como hice, y por cierto con buen éxito, con mi otra; pero necesidades ineludibles y consideraciones de cierta clase me obligaron a cederla, mediante estipendio, claro está, a un editor. El editor se propone publicar, a lo que parece, una serie de obras editadas con cierta uniformidad, y para ello le conviene que llegue cada una de ellas a cierta cantidad de contenido, porque todo, incluso las obras literarias, debe estar sujeto a peso, número y medida. Ya yo por mi parte, previendo que la obra resultara demasiado breve para los propósitos del editor, la hinché mediante el prólogo que la precede y con tal objeto se lo puse, mas ni aun así parece que he llegado a la medida. Hace seis días remití el manuscrito a mi buen amigo Santiago Valentí Camp, y he aquí que hoy, 6 de febrero, recibo carta fechada en Barcelona a 1 de febrero de 1902, en que este amigo, bajo el membrete <emph>Ateneo Barcelonés - Particular</emph>, me dice lo que sigue:</p>
 				<quote>
@@ -1561,7 +1559,7 @@
 					<l>Contad si son catorce y está hecho.</l>
 				
 			</div>
-			<div>
+			<div type="liminal">
 				<head>APUNTES PARA UN TRATADO DE COCOTOLOGÍA</head>
 
 				<div>

@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns"
-    xml:id="ROM031" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM031" xml:lang="ro">
 
     <teiHeader>
         <fileDesc>
@@ -32,35 +28,37 @@
             </extent>
 
             <publicationStmt>
-                <p/>
-            </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
             
-            <sourceDesc>
-                <bibl type="firstEdition">
+            <sourceDesc><bibl type="firstEdition">
                     <author>Constantin D. Aricescu</author>
                     <title>Mysterele Casatoriei. Vol. I. Bărbatul predestinat</title>
                     <pubPlace>Bucharest</pubPlace>
                     <publisher>Tip. Stephan Rassidescu</publisher>
                     <date>1861</date>
                     <ref target="http://doi.org/10.5281/zenodo.3228821">Facsimile on zenodo</ref>
-                </bibl>
-                <bibl type="firstEdition">
+                </bibl><bibl type="firstEdition">
                     <author>Constantin D. Aricescu</author>
                     <title>Mysterele Căsătoriei. Vol. II. Bărbatul diplomat</title>
                     <pubPlace>Bucharest</pubPlace>
                     <publisher>Tip. Stephan Rassidescu</publisher>
                     <date>1863</date>
                     <ref target="http://doi.org/10.5281/zenodo.3228823">Facsimile on zenodo</ref>
-                </bibl>
-                <bibl type="firstEdition">
+                </bibl><bibl type="firstEdition">
                     <author>Constantin D. Aricescu</author>
                     <title>Mysterele Căsătoriei. Vol. III. Bărbatul desilusionatu</title>
                     <pubPlace>Bucharest</pubPlace>
                     <publisher>Tip. Academiei Romane (Laboratorii Romani)</publisher>
                     <date>1886</date>
                     <ref target="http://doi.org/10.5281/zenodo.3228825">Facsimile on zenodo</ref>
-                </bibl>
-            </sourceDesc>
+                </bibl></sourceDesc>
         </fileDesc>
 
         <encodingDesc n="eltec-1">
@@ -80,6 +78,7 @@
 
         </profileDesc>
         <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
             <change when="2019-11-20">Initial TEI version generated.</change>
         </revisionDesc>
     </teiHeader>
@@ -1998,7 +1997,7 @@
                     care face pe celle maĭ multe femeĭ neconsecuinte, i veĭ aduce tot de-una pe vara
                     ta ca s′o distreze ; iar Efimițeĭ i veĭ spune că cu prilegiul acesta poate vedea
                     și magnetisa pe fiitorul eĭ bărbatŭ: căcĭ nu voiŭ să calcŭ în casa eĭ. Poate
-                    remăne această căsătorie, și nu voiŭ a compromite >onoarea uneĭ fete, pe care o
+                    remăne această căsătorie, și nu voiŭ a compromite &gt;onoarea uneĭ fete, pe care o
                     stimezŭ.</p>
                 <p>—Ce inimă de aurŭ! Ferice de femeea care te va iubi !</p>
                 <p>—Și vaĭ de femeea care mă va trăda!</p>
@@ -5258,7 +5257,7 @@
 					<p>O vieața petrecută între amorŭ și lucru, esclude deșartele distracțiunĭ ; inimele se simt din ce în ce maĭ strînse, maĭ appropiate una de altă.</p>
 						<p><quote>În vekiul orașŭ Zurich, cînd duoĭ căsătorițĭ voiaŭ să divorsese, mergeaŭ la magistrațĭ și cereaŭ desfacerea căsătorieĭ lor ; magistratul îĭ înkidea p′amînduoĭ într′o cameră, unde nu era decît unŭ patŭ, o masă, unŭ paharŭ, un șervetŭ, o furculiță, unŭ cuțitŭ ș′o lingură. Aci eĭ ședeaŭ înkișĭ treĭ zille, în care timpŭ nu vedeaŭ pe nimenĭ ; căcĭ mîncarea opriimiaŭ printr′o ferestrue.   După treĭ zille, maĭ nicĭ unul nu maĭ cerea despărțirea.</quote>(<title>L'Amour, par Michelet</title>, pag. 184.)</p>
 					<p>Terminăm acestŭ capitolŭ, care se poate privi ca prefața părțiĭ III a acesteĭ opere, cu următoarea observațiune a Damicelleĭ de L'Espinasse :</p>
-					<p><quote>>Orĭ ce omŭ (bărbatŭ și femee) care are talentŭ saŭ geniŭ, și care e kematŭ pentru glorie, nu trebue să se însoare: căcĭ căsătoria stinge flaccăra geniuluĭ, destinat a lumina lumea </quote></p>
+					<p><quote>&gt;Orĭ ce omŭ (bărbatŭ și femee) care are talentŭ saŭ geniŭ, și care e kematŭ pentru glorie, nu trebue să se însoare: căcĭ căsătoria stinge flaccăra geniuluĭ, destinat a lumina lumea </quote></p>
 					<p>Într′adevăr, grijele educațiuniĭ copiilor, daca nu sting flacăra geniuluĭ, o facŭ cel puțin a pierde multŭ din lucirea și căldura sa : iar independința omuluĭ de geniŭ sufferă mult prin legămîntele căsătorieĭ.</p>
 					<p>Cu toate acestea, tocmaĭ aceia cari poartă viitorul în suffletul lor, tocmaĭ aceia cari simt cît simte unŭ poporŭ întregŭ, tocmaĭ aceia cari aŭ în tiranie și în prejudiciŭ niște inamicĭ neimpăcațĭ ; în fine, geniul, care suffere maĭ mult decît omul de rînd, are nevoe d′o femee care să′lŭ console de persecuțiunele soarteĭ, alle innoranțeĭ, a′le tiranieĭ ; d′o femee care să′lŭ îndulcească cu amorul eĭ de amărăciunele viețeĭ ; d′o femee, care să′lŭ susțiie pe Golgota, care să′lŭ transporte în regiunele frumosuluĭ, care să′lŭ facă a bine cuvînta Provedința, iar nu a o blestema.</p>
 					<p>Vom vedea în partea III unŭ esemplŭ de felul acesta.</p>
@@ -6758,7 +6757,7 @@
 					<p>Vă îmbrățișesŭ ne toțĭ. Salutare !</p>
 					<p>Alecu Misticescu.</p></quote>
 				
-					<milestone unit="letter"></milestone>
+					<milestone unit="letter"/>
 						
 				<quote type="letter"><p>Domnuluĭ Alessundru Misticescu, La Zurich.</p>
 					<p>Bucureștĭ, 2 August, 62.</p>
@@ -6785,7 +6784,7 @@
 				</quote>
 					
 					
-					<milestone unit="letter"></milestone>
+					<milestone unit="letter"/>
 					<quote type="letter"><p>Domnuluĭ Aureliŭ Trandafiru, la București.</p>
 					<p>Cantonul Uri (Altorf), 1 Oct. 62.</p>
 					<p>Amice și frate,</p>
@@ -7605,11 +7604,11 @@
       <quote type="diary">
 <p> <hi>17 Iulie.</hi> — In fine aȡĭ. . . ’ĭ amŭ trimisŭ scrisórea. . . . Dum-neȡeule, îțĭ mulțumescŭ că ’mĭ aĭ datŭ acéstă inspirațiune.....</p>
 <p>Reuși-voiŭ? Cine scie ? Cu tóte astea sperŭ. . . . Trebue să reu-șescŭ; căcĭ proverbulŭ ȡice : Ceea ce femeea voesce, vocsce și Dumneȡeŭ. Să dea Domnulŭ !.... Căcĭ prea multŭ amŭ sufferitŭ !... prea multŭ! prea multă!... prea multă!</p></quote>
-      <milestone unit="subchapter"></milestone>
+      <milestone unit="subchapter"/>
       
       <quote type="diary">
 <p><hi>21 Iulie.</hi> — Cum n’amŭ muritŭ îndată? Cum n’amŭ fostŭ lovitŭ d’unŭ atacŭ d’apoplesie? Of! Cum n’amŭ înebunitŭ ? Dum-neȡeule ! Ce crimă mare amŭ făcutŭ ca să 'mĭ aplicĭ asemene grozavă pedépsă? După ce din légănŭ sufferŭ apoĭ...vaĭ ! sufferinţa a ajunsŭ în culme!...Mórte! Mórte! unde escĭ? De ce nu viĭ? Te implorŭ cu lacrămĭ. Tu numaĭ escĭ singurulŭ remediŭ la durerea mea. O! Durere ! Eată refrenulŭ armonieĭ ce va presida pe viitorŭ în viaţa mea!</p>
-         <milestone unit="subchapter"></milestone>
+         <milestone unit="subchapter"/>
 <p>Alaltă-ierĭ séra (19 Iulie) terminasemŭ jurnalulŭ sub cea maĭ plăcută impressiune, și sub cea mai dulce influință a speranțeĭ, că, după atâtea crude sufferințe, póte elle vorŭ înceta; când D. Anton C...„ unŭ amicŭ alŭ familieĭ, voindŭ să ne vaȡă, între altele (și fără a bănuĭ ce rěŭ mare îmĭ face) lovi cu stiletulŭ în inima mea. . . Ne spusse că  <hi><hi>Ellŭ</hi></hi>.... óre amŭ auȡitŭ bine? Nu m’a amăgitŭ auȡulŭ ? Să fie cu putință? Ne spuse că <hi>Ellŭ</hi> era..... <hi>Ellŭ</hi> pe care ’lŭ numiamŭ poetulŭ cu illusiunĭ caste, cu ideĭ sublime, cu nobile sentimente, <hi>Ellŭ</hi>, pe care ’lŭ știmamŭ ca p’unŭ adevě-ratŭ poetŭ, ca pre însuşĭ Dumneȡeŭ, era....О! ce durere! Ce decepţiune !....Tótă viaţa mea n'a fostŭ decâtŭ unŭ şirŭ neîntreruptŭ de decepţiunĭ....Dar asta a întrecutŭ pe tote....Vaĭ! începusemŭ a spera ca d'astă dată <hi>Fatalitatea</hi> obossise a mě maĭ persecuta ; că, după atâtea chinurĭ, <hi>Provedinţa</hi> se milostivise în fine asupra mea, c'a avutŭ în fine compătimire de mine ; că....оf. . . Câtŭ de înşelatŭ amŭ fostŭ ! Nebuna! Basas-semŭ strălucitulŭ edificŭ alŭ fericiriĭ.... pe ce tarêmŭ ? Pe nisipŭ.</p>
 <p>Aşa! nenorocita! Adormissemŭ pe braţele <hi>Speranţeĭ</hi>, pe sînulŭ  fericiriĭ ; şi dormiamŭ somnŭ dulce....Când, deşteptându-mě, věȡuiŭ frumosulŭ edificiĭ! ziditŭ pe nisipulŭ <hi>Sahareĭ</hi>, în câtŭ cea mai uşóră suflare a  <hi>siroculuĭ</hi>, l'а făcutŭ să piară ca o umbră... Nicĭ urmă dintr'ênsulŭ grozavă decepţiune !</p>
 <p>Ce ȡi fu ȡiua de ierĭ! şi ce nópte nóptea trecută! şi ce ȡi ȡiua de aȡi! Şi tóte  vorŭ fi astŭ-felŭ pe viitorŭ pentru svîn-turatulŭ meŭ sufletŭ !</p>
@@ -7799,7 +7798,7 @@ sacrificiŭ pe altarulŭ opiniuniĭ publice ; şi cellŭ maĭ crudŭ! Cu tóte a
       <quote type="diary">
          <p><hi>26 Octombre.</hi> — Aȡĭ e ȡiua onomastică a unchiuluĭ meŭ. ȡi supremă, te salutŭ cu lacrămĭ de bucurie! Aȡĭ amŭ fostŭ la bisserică cu toţiĭ, şi cu  <hi>Ellŭ</hi> ; apoi Costinŭ, însoçitŭ de soră-sa (care pentru a doua óră ne-a visitatŭ, îndemnată negreşit, de fratele eĭ), ne a făcut sincere orărĭ de fericire. Costinŭ a rěmasŭ apoi să prînȡéscă cu noĭ (soru-sa a refusátŭ : mě aşteptamŭ la acésta). Élŭ a repausatŭ puçin după masă în camera unchiuluĭ meŭ, care a adormitŭ pe canapea în salonŭ ; pe când a-mînduoĭ dormeaŭ, еŭ nu m'amŭ pututŭ stăpâni (comis-amŭ vr'o crimă? nu este élŭ fidanțalulŭ meŭ ?) şi n'amŭ dusŭ încetŭ să privescŭ somnulŭ sěŭ celŭ dulce şi liniştitŭ, ca alŭ unuĭ copillŭ ; atrasă de o forţă magnetică, amŭ depusŭ uşor buzele melle pe fruntea luĭ...D'odată élŭ se deştéptă, (ce somnŭ uşorŭ). Buzele nóstre se lipescŭ, ca guriţa prunculuĭ de sînulŭ dulce alŭ mameĭ, sorbindŭ neclarulŭ fericiriĭ. Ce momente delicióse! Cincĭ minute suffletele nóstre sburară în Empireŭ...; dar Costinŭ care mě stimésă a respectatŭ virtutea... Eu amŭ eşitŭ iute din camera unde dormia <hi>Ellŭ</hi>, temêndu-mě să nu se deştepte unchiulŭ-meŭ, şi să ne surprinȡă în flagrantŭ delictŭ de amorŭ platonicŭ... O ! inima mea e plină, debordă de fericire. Bietulŭ Costinŭ ! cât a trebuitŭ să suffere! Şi eŭ nu maĭ puçinŭ. Încă o lună, (Costinŭ reuşisse ca Consistoriulŭ să pronunţe în fine sentinţa de divorţŭ) şi vomŭ fi despăgubitĭ de tóte aceste torture.»</p></quote>
        
-      <milestone unit="subchapter"></milestone>
+      <milestone unit="subchapter"/>
       
 <p>Vor fi lectorĭ cari vorŭ ȡice : <quote><foreign>Si non vero, ben trovato.</foreign></quote></p>
 <p>Şi vorŭ avea dreptate. Chiar eŭ care citescŭ acestea în <title>Memoriile Sofieĭ</title>, ȡicŭ în sine'mĭ : este cu putinţă ca douě fiinţe, una de 36 de anĭ, cealaltă de 26, bărbatŭ şi femee, amînduoĭ věduvĭ şi cu copiĭ, amînduoĭ trecuţĭ prin purgatoriulŭ căsătorieĭ, amînduoĭ gustâudŭ deja din cupa cu nectarŭ (celŭ puçinŭ Costinŭ; căcĭ pentru Sofia, cupa eĭ a fostŭ plină cu veninŭ), avîndŭ adică amînduoi o buna dosă de esperiinţă-despre ale căsătorieĭ, este possibilŭ, ȡicŭ să se iubéscă cu atîta candóre, cu atîta pudóre, ca duoĭ junĭ de 18 ani, neiniţiaţĭ încă in misterele Venereĭ ? Şi cu tóte acestea, aşa este : o spune Jurnalulŭ Sofieĭ, care nu e o operă de circumstanţă, ci unŭ confidentŭ intimŭ alŭ uneĭ inime sufferinde ; o alfirmă Costinŭ p'onóre, elŭ care pentru mine n'a avutŭ secrete.</p>
@@ -7950,7 +7949,7 @@ sacrificiŭ pe altarulŭ opiniuniĭ publice ; şi cellŭ maĭ crudŭ! Cu tóte a
 <p><foreign>Et moi je ne compte pour rien ? Consoles toi, chère Sophie... Que peut-on contre la volonté de Dieu ? </foreign></p>
 <p>Cu tóte astea, frigulŭ morțiĭ a pătrunsŭ atâtŭ de adîncŭ în i-nima mea, în câtŭ nu věȡŭ împrejurulŭ meŭ de câtŭ  nimicnicia, distrugerea, durerea supremă, ca cum așĭ simți mortea în suffle-tulŭ meŭ.... Bietulŭ meŭ suffletŭ ! în ce stare se află elŭ acum ! Fără Costinŭ, fără Aurelŭ... bietulŭ copillŭ ! ce tată a perdutŭ elŭ în unchiulŭ meŭ! Dar Costinŭ i va ține locŭ de tată; și va fi pen-tru <hi>Ellŭ</hi> unŭ adevěratŭ părinte, suntŭ sigură. Îțĭ mulțumescŭ, Dumneȡeule, că ’mĭ-aĭ trimisŭ celŭ puçinŭ acéstă mîngîere, dup’o asemenea perdere simțitóre. Tu nicĭ odată nu m'aĭ părăsitŭ cu desăvîrșire. Vaĭ! dar biata mea țață ? Of! Dar amăŭ uitatŭ să mul-țumescŭ luĭ Costinŭ, nu numaĭ pentru attențiunea sa în acelle dureróse momente, dar maĭ allesŭ pentru orația funebră ce a pronunțatŭ la marginea mormîntuluĭ multŭ regretatuluĭ meŭ unchiŭ. Câtŭ era de mișcatŭ! Ce bine simțitŭ era acellŭ discursŭ funebru, dic-tatŭ de inima luĭ nobilă și compătimitóre 1 Căte lacrămĭ n’a fă-cutŭ să curgă! Toțĭ ceĭ presințĭ plîngeŭ ! Îțĭ mulțumescŭ, fidan-țatulŭ meŭ ! Tu aĭ dobînditŭ nouě titlurĭ la stima, iubirea și re-cunoștința inimeĭ melle! Dumneȡeŭ să dea ție după inima ta de aurŭ.</p></quote>
       
-     <milestone unit="subchapter"></milestone>
+     <milestone unit="subchapter"/>
      
 <p>De la 10 pînă la 18 Ianuarie, iar nu se vede nimicŭ trecutŭ în Jurnalŭ, Costinŭ, la acéstă nouě isbire a Sórteĭ în persóna Sofieĭ, nu se maĭ gîndi la greutățile famillieĭ; se decisse a fi câtŭ maĭ curîndŭ soçulŭ nenorociteĭ femeĭ. D’astă dată, <hi>Ellŭ</hi> avea o întreită datorie de împlinitŭ : a fi părintele copilluluĭ, a fi protectorulŭ mameĭ luĭ Aurelŭ, în fine părintele care să înlocuiască pe uchiulŭ Sofieĭ.</p>
 <p>Dar să maĭ consultămŭ Jurnalulŭ :</p>
@@ -8036,7 +8035,7 @@ sacrificiŭ pe altarulŭ opiniuniĭ publice ; şi cellŭ maĭ crudŭ! Cu tóte a
          <quote type="diary">
 <p><hi>17. Februarie.</hi> — ȡi sacră, ȡi fericită şi binecuvîntată ! Numěrŭ fortunatŭ de 17! Vedé-veĭ tu născêndŭ pe miculŭ meŭ Costinŭ? Să fie putinţă?...</p>
 <p> O oră ș'unŭ cartă. — De ce să nu fie cu putinţă ? Suntŭ aşa de curiósă!... Se póte omulŭ să guste pe pămîntŭ asemenea fericire? Şi ingraţiĭ muritorĭ se plîngŭ adesea, când tŏtă viaça lorŭ n'arŭ trebuĭ să fie de câtŭ o continue rugă de recunoscinţă către Creatorŭ. Trebue aşa de puţinŭ omuluĭ ca să fie fericitŭ !</p></quote>
-         <milestone unit="subchapter"></milestone>
+         <milestone unit="subchapter"/>
    
          <quote type="diary">
          <p>20 Februarie. Câtŭ e de dulce să fie cineva iubitŭ!</p> 

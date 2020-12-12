@@ -15,21 +15,17 @@
     <measure unit="words">115902</measure>
    </extent>
    <publicationStmt>
-    <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary
-     History" (CA16204)</publisher>
-    <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-    <date when="2019-11-09"/>
-    <availability>
-     <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-    </availability>
-    <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource"><title>The Hosts of the Lord</title><ref target="http://www.gutenberg.org/files/39991/39991-h/39991-h.htm">Gutenberg</ref></bibl>
-    <bibl type="firstEdition" n="B14948"><title>The Hosts of the Lord</title><author>Steel, Flora
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+</publicationStmt>
+   <sourceDesc><bibl type="digitalSource"><title>The Hosts of the Lord</title><ref target="http://www.gutenberg.org/files/39991/39991-h/39991-h.htm">Gutenberg</ref></bibl><bibl type="firstEdition" n="B14948"><title>The Hosts of the Lord</title><author>Steel, Flora
       Annie (1847-1929).</author><publisher>London: William Heinemann</publisher><date>1900</date>
-     <ref target="http://archive.org/details/hostsoflord00steerich"/></bibl>
-   </sourceDesc>
+     <ref target="http://archive.org/details/hostsoflord00steerich"/></bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -46,6 +42,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
    <change when="2019-05-15">LB convert to ELTeC-1</change>
   </revisionDesc>
@@ -1102,7 +1099,7 @@
      is to say she is not thy cousin twice over?... I say not that she is, look you, but who can
      tell. Yet this is certain, Roshan; she hath Anâri Begum's eyes. For I have seen her; but a
      month ago the Miss who reads brought her, not knowing of these tales; for Pidar Narâyan keeps a
-     silent tongue. Her name is Laila,<ref target="#ENG19005_N03">[3]</ref> and thine Roshan.<ref target="#ENG19005_N04">[4]</ref> Is not that a fate? and she hath thy grand-aunt's eyes; ay!
+     silent tongue. Her name is Laila, and thine Roshan.<ref target="#ENG19005_N04">[4]</ref> Is not that a fate? and she hath thy grand-aunt's eyes; ay!
      and thy grandfather's land too; for would it not have been Walidâd's, if Bun-avatâr had not
      ousted him from the <hi>wazeer</hi>-ship with singing birds?"</p>
     <p>Roshan Khân stood up feeling as if he was being suffocated. It was ten years since he had had

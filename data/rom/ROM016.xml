@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns"
-   xml:id="ROM016" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM016" xml:lang="ro">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,26 +16,22 @@
             <measure unit="pages">120</measure>
          </extent>
          <publicationStmt>
-            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
-               Literary History" (CA16204)</publisher>
-            <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-            <date when="2019-11-17"/>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-            </availability>
-            <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-            <!--Încorporat în ELTeC 2019-08-28-->
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="printSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="printSource">
                <author>Dimitrie Bolintineanu</author>
                <title>Manoil</title>
                <pubPlace>Bucharest</pubPlace>
                <publisher>Editura Minerva</publisher>
                <date>1984 (1855)</date>
                <ref target="http://doi.org/10.5281/zenodo.3228833">Facsimile on zenodo</ref>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p/>
@@ -52,11 +43,12 @@
          <textDesc>
             <e:authorGender key="M"/>
             <e:size key="short"/>
-            <e:canonicity key="high"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <e:timeSlot key="T1"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2019-11-17">LB: structural changes</change>
          <change when="2019-11-17">Checked by releaseChecker script</change>
          <change when="2019-09-28">Initial TEI version generated.</change>
@@ -87,7 +79,7 @@
       <body>
          <div type="group" n="1">
             <head>PARTEA I</head>
-            <div type="letter" n="1">
+            <quote type="letter" n="1">
                <p>Iubite B,</p>
                <p>De cîteva zile mă aflu la Petreni, moşia d-lui N. Colescu. Ah ! iubitul meu, ce
                   locuri minunate ! ce plăcere a lăcui în sînul munţilor, departe de deşărtăciunele
@@ -154,9 +146,9 @@
                   Privighitoarea cîntă îa ferestrile mele, îngînată de dulcea murmură a rîului şi a
                   sipetelor ! Ah ! cum totul e voios şi fericit împregiurul meu !... pentru ce numai
                   eu sînt neodihnit ?... nu ştiu ce am, căci viitorul mă înspăimîntă !...</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="2">
+            <quote type="letter" n="2">
                <p>2 mai</p>
                <p>Astăzi, d. N. Colescu îmi zise să rămîi totdeauna cu dînşii şi să nu fac nici o
                   deosăbire de familia sa şi a mea, dîndu-mi cuvinte că este dator să facă tot
@@ -175,9 +167,9 @@
                   reverinţa, mă întrebă dacă ghirlandele vreodată m-au încîntat ?... eu nu-i putui
                   răspunde, căci gura mi să închisese... ea se roşi şi, voind să-şi ascundă
                   rumeneala, ieşi răpide din chioşc săltînd prin grădină ca o gazelă !...</p>
-            </div>
+            </quote>
 
-            <div type="letter">
+            <quote type="letter">
                <p>3 mai</p>
                <p>Astăzi în chioşc am găsit toată societatea damelor despre care ţi-am vorbit. Mai
                   era încă şi Andrei, vechiul nostru camarad, carele s-a însurat cu Elena, sora
@@ -313,8 +305,8 @@
                   îl întrebă ce-i fac surorile ?... el răspunse că peste curînd are să le
                   călugărească, căci, crescînd în mănăstire de mici, nu vor să mai trăiască în
                   lume.</p>
-            </div>
-            <div type="letter" n="4">
+            </quote>
+            <quote type="letter" n="4">
                <p>8 mai</p>
                <p>Ştii tu pentru ce această Mărioară este totdeauna în închipuirea mea? „Ţi-e
                   dragă”, îmi zici... Eu să iubesc! o, nu !... Esite scris ca să nu cunosc acest
@@ -328,16 +320,16 @@
                   pe mine, şi nu pe altul ? Fără stare, fără nume, scos afară din legile societăţii;
                   — ceva care face să zîmbească oamenii la numele meu... Cele ce-ţi scriu sînt
                   triste, dar sînt adevărate !...</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="5">
+            <quote type="letter" n="5">
                <p>8 mai</p>
                <p>Mărioara a plecat cu tată-său, Duduca şi Alexandru C... Peste cîteva zile se vor
                   înturna. Alexandru se urcă în trăsura ei ;el mi se pare prea ocupat de dînsa
                   !...</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="6">
+            <quote type="letter" n="6">
                <p>11 mai</p>
                <p>Fără să-mi fie dragă, gîndesc neîncetat la dînsa... această gîndire îmi face rău
                   !... m-am făcut nesuferit, tăcut... Cînd sînt în societate, voi să fiu singur ;
@@ -390,9 +382,9 @@
                   înecaseră.</p>
                <p>Noi ne despărţirăm.</p>
                <p>O, Dumnezeule ! pentru ce oamenii sînt aşa de răi</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="7">
+            <quote type="letter" n="7">
                <p>13 mai</p>
                <p>— Ştii ceva ? îmi zise Alexandru C., întrînd. Eşti drag Mărioarei... numai de tine
                   vorbea. Să te văz !</p>
@@ -435,9 +427,9 @@
                   viaţa singur, însă sînt încredinţat că ceea ce zici este o glumă. Intr-un caz sau
                   în altul, nu pot să-ţi dau nici un răspuns...</p>
                <p>— Mergeţi la stupină ? zise Smărăndiţa, ce intră în casă.</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="8">
+            <quote type="letter" n="8">
                <p>14 mai</p>
                <p>Ai auzit, iubite B..., ce principuri are acest Alexandru? sînt mai mulţi ca el
                   aice ; oameni pentru care moral, onor, patrie nimic sînt !... La dînsul aceasta nu
@@ -491,9 +483,9 @@
                <p>— Sînt alte muşcături mai rele ; dar acelea nu în-spăimîntă ! mai urmă d-nul N.
                   Colescu, aruncând o căutătură asupra lui Alexandru.</p>
                <p>Inţălegi tu ceva ?</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="9">
+            <quote type="letter" n="9">
                <p>15 mai</p>
                <p>Mărioara mă iubeşte !... rîzi de mine cit vei voi... nu-mi pasă. Este adevărat că
                   ţi-am scris că femeia este o egoistă... dar ce vrei ? egoismul este un bine mare
@@ -501,18 +493,16 @@
                   facă plăcere altora, s-ar arunca în foc şi în apă...</p>
                <p>O ! dulce fericire i vei trece şi tu ca o lumină într-a-ceastă noapte ce este
                   viaţa mea, ca să faci şi mai amară rămăşiţa zilelor mele !...</p>
-            </div>
-
-            <div type="letter" n="10">
+            <quote type="letter" n="10">
                <p>16 mai</p>
-               <div>
+            </quote>
                   <p> Voi să-ţi scriu cîteva rînduri comice : astăzi, Smărăndiţa îmi arătă o
                      scrisoare deschisă.</p>
                   <p>— Vrei să rîzi ? mă întrebă ea. Această carte vine de la un moş al meu... Am
                      măritat pe soră-mea, pe Elena, cu un tînăr ce-i e drag şi o face fericită.
                      Moşu-meu nu găseşte ginerile de viţă mare ; ... ceteşte !</p>
 
-
+            <quote type="letter" n="11">
                   <p><hi>„Smărăndiţă !</hi></p>
                   <p> Ginerile ce a luat pe Elena o fi avînd multe merite, o fi învăţat ca Guizot şi
                      viteaz ca Napoleon, dar tot viţă de gios este ! Tată-său abia era clucer şi nu
@@ -522,7 +512,7 @@
                      Dar tu ai stricat totul ! răspunderea să cază asupra ta; eu îmi spăl mînele ca
                      Pilat din Pont!...</p>
                   <p>Ştefan B”</p>
-
+            </quote>
                   <p>La cetirea acestei scrisori, nu puturăm a ne ţinea rîsul.</p>
                   <p>— O să răspunzi ?</p>
                   <p>— La astfel de scrisoare nu pot să răspund serios.</p>
@@ -532,10 +522,9 @@
                   <p>— Batjocora face pe oameni ipocriţi, fără să-i îndrepteze... Dar să lăsăm
                      aceasta ; eşti vînător ?... mîine avem să mergem toate femeile, cu d. N.
                      Colescu, la vînătoare în munţi. O să ne însoţeşti ?</p>
-               </div>
-            </div>
-            <div type="letter" n="11">
+            <quote type="letter" n="12">
                <p>23 mai</p>
+            </quote>
                <p>Nu ţi-am scris de şepte zile. De şese zile sînt în pat, şi Zoe nu mă lasă să
                   scriu. Ştii că era să mergem la vînătoare ; ascultă ce mi s-a întîmplat.</p>
                <p>Smărăndiţa, Elena, Mărioara şi Duduca se puseră în-tr-o trăsură, avînd pe
@@ -887,9 +876,8 @@
                   hotărîrea-ţi de plecare mă încredinţează că-ţi calci cuvîntul.</p>
                <p>— Oh ! iartă-mă ; dar o scrisoare de la Bucureşti...</p>
                <p>— Nu-i adevărat. </p>
-            </div>
 
-            <div type="letter" n="12">
+            <quote type="letter" n="12">
                <p>Ţi-am fost scris că plec peste trei zile ; iată opt şi sînt tot aice ! „Eşti un om
                   fără hotărîre”, vei zice tu ca totdeauna. Dar dac-ai sti cauza, ţi-ai retrage
                   vorba îndată.</p>
@@ -939,9 +927,9 @@
                   ascult ?”</p>
                <p>— Adevărat ?</p>
                <p>— Foarte adevărat, îngerul meu !</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="13">
+            <quote type="letter" n="13">
                <p>4 iunie</p>
                <p>E noapte, încă cinci minute... Mărioara are a veni în grădină... să mă scol, să
                   ascult !... toată lumea doarme... e miezul nopţii, şi nopţile de vară sînt mici
@@ -978,11 +966,11 @@
                   decît versuri şi care nu are alta decît poezia ! care nu este de potriva mea, nici
                   după raportul nobilimei, nici după raportul bogăţiei... Eşti copil!... Ş-apoi el o
                   să plece... ce dovadă poate fi mai bună împotriva bănuielilor tale ?”</p>
-               <p>— Lasă-mi biletul acesta!></p>
+               <p>— Lasă-mi biletul acesta!&gt;</p>
                <p>— Ia-l, îmi zisă feciorul.</p>
                <p>„Ah, Mărioară !... socoteam că eşti o cochetă ; dar eşti o infamă".</p>
-            </div>
-            <div type="letter" n="14">
+            </quote>
+            <quote type="letter" n="14">
                <p>7 iunie</p>
                <p>— Mi-ai fost dat parola să pleci, îmi zisă Mărioara.</p>
                <p>— Mărioară, îi zisei, cu mîna asta nu pot scrie ! Voi să însemnez rufele ce am dat
@@ -1053,9 +1041,9 @@
                   urî, sufletul meu !</p>
                <p>Vorbind astfel, fruntea ei se plecă pe fruntea mea... buzele noastre se întîlniră,
                   lacrămile noastre se amestecară. Uitai tot.</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="15">
+            <quote type="letter" n="15">
                <p>8 iunie</p>
                <p>Fericire! fericire ! dulce sargente, cătră care sufletul meu zboară însetat ! în
                   deşert voi să sorb din undele tale : tu te usuci îndată ce atingi de buza mea
@@ -1070,17 +1058,17 @@
                   scrisoarea Mărioarei ce-mi lăsase însemnînd rufele.</p>
                <p>Scrisoarea este tot aceea, nici o deosebire !</p>
                <p>Vezi dar că toate s-au isprăvit.</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="16">
+            <quote type="letter" n="16">
                <p>9 iunie</p>
                <p>Îmblu fugar pe dealuri şi pe văi.</p>
                <p>— Ce te faci ? mă întrebă Zoe astăzi. Toată lumea de doreşte, mătuşica e tare
                   îngrijită !... nu e bine ce faci ! eşti trist, tăcut, suferi ! şi nu vrei să spui
                   nimărui ce ai!... socoteşti că nimeni nu merită încrederea?</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="17">
+            <quote type="letter" n="17">
                <p>11 iunie</p>
                <p>Nu mai sînt stăpîn nici pe necazul meu, nici pe lacrămile mele!... dar lumea
                   aceasta este un infern! O, Dumnezeul meu, nu mă lăsa !...</p>
@@ -1174,9 +1162,9 @@
                <p>— Cine este proprietarul ? întrebai.</p>
                <p>— D. Alexandru... răspunsă o femeie.</p>
                <p>— Te voi răzbuna, cu sîngele meu !</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="18">
+            <quote type="letter" n="18">
                <p>12 iunie</p>
                <p>Un deşert amar este în inima mea !... aş voi să mor 1... nimic nu mă ţine pe
                   pămînt !... ce gîndeşti tu despre suflet ? Omul e prea neferice aice jos, ca să
@@ -1191,18 +1179,18 @@
                <p>O, cărţile !... iată începutul durerilor mele !... cum aş fi voit să fiu un
                   muncitor de aceia ce-şi trec viaţa în simplicitate şi nu se mai comunică cu
                   cugetările altora !...</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="19">
+            <quote type="letter" n="19">
                <p>13 iunie</p>
                <p>Ştii tu ce vra să zică viaţa de familie? ah! dragul meu ! fără Smărăndiţa, fără
                   Zoe, aş fi mort !... ele sînt adese pe lîngă mine, întrecînd toate dorinţele mele
                   ; în-tristîndu-se de întristarea mea ; bucurîndu-se de cîte ori un zîmbet rătăcit
                   îmi întinereşte faţa !... tu ştii, abia sînt de douăzeci şi unul de ani ; cine mă
                   vede îmi dă treizeci.</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="20">
+            <quote type="letter" n="20">
                <p>15 iunie</p>
                <p>Aice se întîmplă, în umbră, lucruri cu totul ciudate. Ieri eram singur în grădină.
                   Smărăndiţa veni acolo ţiind în mînă un bilet deschis.</p>
@@ -1235,9 +1223,9 @@
                <p>— Nu spune nimărui ; îmi repetă ea.</p>
                <p>Care este ţelul Mărioarei, să facă astfel de intrigi ? vra să mă gonească de aici
                   ?</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="21">
+            <quote type="letter" n="21">
                <p>16 iunie</p>
                <p>Zilele trec ; şi, dintr-una într-alta, întristarea cîştigă loc în inima mea !</p>
                <p>Sînt atît de distract, încît am uitat să-ţi vorbesc de cele ce mi s-au întîmplat
@@ -1519,9 +1507,9 @@
                <p>Pentru un minut credeam că mă aflu în timpurile antice şi că văd două vestale
                   osîndite de druizi a fi îngropate de vii. Lacrămile îmi curseră fără să le pot
                   opri ; şi, ieşind, mă şuii în camera me.</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="22">
+            <quote type="letter" n="22">
                <p>20 Iunie</p>
                <p>Amice ! scrisoarea precedentă fiind cam lungă, cred că te-a ostenit, cetind-o. Am
                   hotărît dar să-ţi adresez una şi mai lungă, spre despăgubire.</p>
@@ -1546,9 +1534,9 @@
                   un om perdut. Este scris să cunosc omenirea în ceea ce, are mai uricios. Lumea mâ
                   află atîta de schimbat, cît se teme să nu-mi perd minţile !... eu însumi mă tem de
                   aceasta !...</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="23">
+            <quote type="letter" n="23">
                <p>21 iunie</p>
                <p>Ieri sara am avut dispută despre literatura românească. Chipul cu care românii
                   judecă astăzi pe poeţi este comic. Dar de ce să zic românii ? mai bine cîţiva
@@ -1683,8 +1671,8 @@
                   făcut în literatură este prea mult, pentru un termin aşa de scurt. Ceea ce ne face
                   să sperăm că, peste cîţiva ani, literatura şi gustul vor merge departe.</p>
                <p>Ne despărţim, căci noaptea era înaintată. Eu trecui în apartamentul meu.</p>
-            </div>
-            <div type="letter" n="24">
+            </quote>
+            <quote type="letter" n="24">
                <p>22 iunie</p>
                <p>Seara trecută fu una din cele mai amare ce am cunoscut.</p>
                <p>Doamna N. Colescu îmi propuse o preîmblare pe dealuri.</p>
@@ -1768,9 +1756,9 @@
                   ce suferi în tăcere ?</p>
                <p>Aceste vorbe tinere îmi zdrobiră inima... ea era plină... lacrimile mă înecară ;
                   şi, ascunzîndu-mi faţa în mîni plîngeam ca un copil.</p>
-            </div>
+            </quote>
 
-            <div type="letter" n="25">
+            <quote type="letter" n="25">
                <p>26 iunie</p>
                <p>Mărioara a plecat!</p>
                <p>Ieri seara, Smărăndiţa, Zoe şi eu pornirăm cu trăsura, la un sat în vecinătate,
@@ -1839,12 +1827,12 @@
                   întîmplarea de la posadă, cînd mă vede, roşeşte şi lasă ochii în jos.</p>
                <p>Dar adio ! te voi videa cît de curînd !</p>
                <p><hi>Manoil</hi></p>
-            </div>
-         </div>
+            </quote>
+         </quote>
 
          <div type="group" n="2">
             <head>PARTEA II</head>
-            <div n="1" type="letter">
+            <quote n="1" type="letter">
                <p>20 decemvrie</p>
                <p>Iubite B...,</p>
                <p>De doi ani nu ţi-am mai scris... ai tot dreptul sau să-mi bănuieşti, sau să mă
@@ -1888,9 +1876,9 @@
 
                <l><hi>Cei ce poartă lanțul, ș-a trăi mai vor</hi></l>
                <l><hi>Merită să-l poarte spre ruşinea lor.</hi></l>
-            </div>
+            </quote>
 
-            <div n="2" type="letter">
+            <quote n="2" type="letter">
                <p>22 decemvrie</p>
                <p>Acuma mă apropii de hotarele ţărei mele. încă trei zile, şi voi videa faţa tuturor
                   persoanelor despre care ţi-am vorbit în cele dintîi scrisori; acel d. N. Colescu,
@@ -1908,9 +1896,9 @@
                   plîngea cu ochii cei mai dulci şi cei mai frumoşi ce s-au văzut vreodată ; şi tu
                   ştii, mai lesne poate cineva înfrunta armia papei, decât doi ochi de contesă
                   înecaţi în plîns...</p>
-            </div>
+            </quote>
 
-            <div n="3" type="letter">
+            <quote n="3" type="letter">
                <p>Bucureşti, 10 ianuarie</p>
                <p>Nu este trist a părăsi ţara în care te-ai născut; ci a te înturna în sinul ei,
                   după o lungă lipsă ! Vorba asta ţi s-a părea că nu este la locul ei în gura mea ?
@@ -1936,9 +1924,9 @@
                   Bucureşti, a fost să întreb dacă se fac mari perderi în cărţi. Mi s-a răspuns că
                   se perd pe seară şi pînă la cinci mii ducaţi. Vestea aceasta m-a mai împăcat cu
                   patria.</p>
-            </div>
+            </quote>
 
-            <div n="4" type="letter">
+            <quote n="4" type="letter">
                <p>12 ianuarie</p>
                <p>M-am dus în casa domnului A..., unde auzeam că se gioacă cărţile. în asemine casă
                   nu are nevoie cineva a fi prezentat ; poate intra cineva ca într-o cafenea, fără a
@@ -1991,9 +1979,9 @@
                   ce mi l-a dat. Dar unde trebuia să-l găsesc ? El, după ce a jucat burnuzul
                   stăpîni-său, a fugit: am cam simţit ruşinea acestei avanture, dar am zis : „Astfel
                   este soarta, nu e vina mea”.</p>
-            </div>
+            </quote>
 
-            <div n="5" type="letter">
+            <quote n="5" type="letter">
                <p>15 ianuarie</p>
                <p>După întâmplarea cu <foreign>burnuzul</foreign>, m-am dus încă o dată la casa
                   domnului A... Dar astă dată cu o sumă de 40 du-câţi ce m-am împrumutat.</p>
@@ -2006,11 +1994,10 @@
                <p>— Să-ţi dau înscris ? îl întrebai.</p>
                <p>— Jucătorii au credet la jucători, îmi zise.</p>
                <p>Luai banii. Jucai ; perdui.</p>
-            </div>
 
-            <div n="6" type="letter">
-               <div>
+            <quote type="letter" n="6">
                   <p>18 ianuarie</p>
+            </quote>
                   <p>Ieri m-am dus la Petreni să văd pe bunii mei amici, domnul şi doamna N.
                      Colescu.</p>
                   <p>Cînd eram aproape de casa boierească, mi-am zis : doamna N. Colescu este
@@ -2242,9 +2229,9 @@
                   <p>Abia isprăvi şi începu să rîdă.</p>
                   <p>A doua zi plecai de dimineaţă, făr-a zice adio nici macar domnului N.
                      Colescu... Acuma rîde şi tu... nu-mi pasă !</p>
-               </div>
+               
 
-               <div n="7" type="letter">
+               <quote n="7" type="letter">
                   <p>22 ianuarie</p>
                   <p>Nu ţi-am scris de cîteva zile. Crezi că eşecul ce am întîmpinat la Petreni mi-a
                      îngheţat pana în mînă ? nu te teme.</p>
@@ -2304,9 +2291,9 @@
                      nu le-a putut căpăta, dar întru această mă însărcinez eu să-i însuflu cît de
                      multe; în curînd, sînt sigur, ea va avea mai multe idei şi decît mine ; prin
                      urmare, sper că-mi voi forma o metresă rară de care să mă pizmuiască toţi.</p>
-               </div>
+               </quote>
 
-               <div n="8" type="letter">
+               <quote n="8" type="letter">
                   <p>26 ianuarie</p>
                   <p> B...,</p>
                   <p>Sînt pe aproape de fericire ; pe aproape de a-mi realiza planul. Frosa mă
@@ -2318,9 +2305,9 @@
                      numai de cind m-am cunoscut cu Frosa, şi bietul Nae e pe aproape de a purta
                      coarnele. Cu toate aceste, însoară-te, însă trebui să-ţi schimbi ideile ce ai
                      despre femei.</p>
-               </div>
+               </quote>
 
-               <div n="9" type="letter">
+               <quote n="9" type="letter">
                   <p>27 ianuarie</p>
                   <p>Seara trecută m-am dus la balul mascat unde Frosa îmi dase euvînt să ne
                      întîlnim.</p>
@@ -2380,7 +2367,6 @@
                   <p>II</p>
                   <l>O femeie însă..., cine ar fi crezut ?</l>
                   <l>O fe...</l>
-                  <div>
                      <p>Aice mă oprii : îmi era cu neputinţă să mai urmez... lucru ciudat ! talentul
                         meu mă părăsisă !...</p>
                      <p>Dacă dama ce şedea lîngă mine mă privea ţintă, şi ochii ei juca în
@@ -2495,10 +2481,10 @@
                      <p>Cîte frumuseţii cîtă candoare, şi cîtă iubire!...</p>
                      <p>De ce nu pot să te iubesc, o, tu cea mai nobilă dintre femei ?... sau mai
                         bine, pentru ce mă iubeşti tu atîta de mult ?...</p>
-                  </div>
-               </div>
+                  </quote>
+               </quote>
 
-               <div n="12" type="letter">
+               <quote n="12" type="letter">
                   <p>30 ianuarie</p>
                   <p>Ieri seara am fost la bal, cu intenţie mai mult să întîlnesc pe Frosa şi să-i
                      cer socoteală pentru farsa ce mi-a făcut.</p>
@@ -2752,17 +2738,17 @@
                      a sărit jos ; dar cînd a stat şi a văzut că ea lipseşte, a crezut că a perdut-o
                      şi, avînd teamă; s-a întors s-o caute.</p>
                   <p>Sania se opri ; ne urcarăm în ea şi intrarăm în Bucureşti.</p>
-               </div>
+               </quote>
 
-               <div n="13" type="letter">
+               <quote n="13" type="letter">
                   <p>29 ianuarie</p>
                   <p>Ţi s-o fi urît cu scrisorile, mele ! dar vei ? asta e singura mea
                      mîngîiere.</p>
                   <p>Dar ştii tu, iubite ? încă o iluzie perdută de la mine ; şi aceasta era cea mai
                      din urmă care-mi rămăsese ! Zoe s-a perdut!...</p>
-               </div>
+               </quote>
 
-               <div n="14" type="letter">
+               <quote n="14" type="letter">
                   <p>30 ianuarie</p>
                   <p>Astă dată, hotărîrea ce am luat va fi nestrămutabilă. Peste cîteva zile, nu voi
                      mai fi pe lume. Pînă atunce însă am să-mi scot din capete... am să-mi întocmesc
@@ -2778,9 +2764,9 @@
                   <p>În cîteva trăsuri îi făcui portretul şi biografia ei.</p>
                   <p>— Ştiu cine vrei să zici... Nebiruita ! urmă ea, îndreptîndu-se cătră celelalte
                      femei, care începură a rîde. Lasă-te pe mine !</p>
-               </div>
+               </quote>
 
-               <div n="15" type="letter">
+               <quote n="15" type="letter">
                   <p>1 fevruarie</p>
                   <p>Cele dintîi umbre ale serei copereau capitala la vederea călătorilor
                      întîrziaţi.</p>
@@ -3183,9 +3169,9 @@
                      !...</p>
                   <p>— Mîne vom prinzi împreună ! zise Frosa, şi făpturile astea june şi drăgălaşe
                      dispărură ca două umbre de fericire.</p>
-               </div>
+               </quote>
 
-               <div n="16" type="letter">
+               <quote n="16" type="letter">
                   <p>3 fevruarie</p>
                   <p>Abia cele dintîi raze ale zilei pătrunseră în camera mea, şi generalul trimise
                      doi marturi să mă cheme la duel.</p>
@@ -3316,9 +3302,9 @@
                      strînse înainte casei mele. Unii strigau : „Afară ucigătorul"!, alţii aruncară
                      cu petre în fereşte. Pe Ana o răni la cap. Poliţia veni şi împrăştiă
                      norodul.</p>
-               </div>
+               </quote>
 
-               <div n="17" type="letter">
+               <quote n="17" type="letter">
                   <p>4 fevruarie</p>
                   <p>Toată lumea mă ocoleşte. Zoe plînge; nenorocirea mea îi va ucide vieaţa;
                      trebuie să mă fi despreţuind !...</p>
@@ -3329,9 +3315,9 @@
                   <p>Ana, care o credeam a fi un înger, însuşi ea a fugit! dar sînt nebun ! pentru
                      ce mă voi plînge ? trebuie să sufăr urmările faptelor mele ! cine altul, decît
                      eu însuşi,, este cauza tuturor acestor nenorociri ?...</p>
-               </div>
+               </quote>
 
-               <div n="18" type="letter">
+               <quote n="18" type="letter">
                   <p>5 fevruarie</p>
                   <p>Nu trebuie să osîndim repede.</p>
                   <p>Zoe a venit să mă vadă.</p>
@@ -3404,9 +3390,9 @@
                      m-au luat ş-am venit împreună aice... este afară, mă aşteaptă... Adio,
                      Manoile... o să fii liber... sau dacă ursita nu va avea îndurare, oh ! te voi
                      însoţi, Manoile, oriunde, în exil şi în mormînt!...</p>
-               </div>
+               </quote>
 
-               <div n="19" type="letter">
+               <quote n="19" type="letter">
                   <p>7 fevruarie</p>
                   <p>
                      <hi>Iubite B...</hi></p>
@@ -3534,9 +3520,9 @@
                      aibă o zestre ca o fată de boieri... tu vei fi răscumpărat de la stăpînul tău,
                      ş-apoi slobod, şi soţ fericit al Anei.</p>
                   <p>Copiii se îmbrăţişară şi plîngeau de bucurie.</p>
-               </div>
+               </quote>
 
-               <div n="20" type="letter">
+               <quote n="20" type="letter">
                   <p> 9 fevruarie</p>
                   <p>Mărioara ieri cheamă pe Zoe, de la închisoarea unde se afla.</p>
                   <p>— Simţ că o să mor, îi zise ea. Manoil este inocent: eu am ucis pe colonelul
@@ -3554,9 +3540,7 @@
                      cîteva minute şi mor... fii fericită, Zoe !...</p>
                   <p>Mărioara muri, mărturisind crimenul ei. Astfel se închise dosarul acestei
                      pricini la Divan.</p>
-               </div>
-
-               <div n="21" type="letter">
+               <quote n="21" type="letter">
                   <p>10 iulie</p>
                   <p><hi>Iubite B...,</hi></p>
                   <p>Manoil este însurat. Zoe îl iubeşte. Ei trăiesc la ţară. Nu poţi să-ţi
@@ -3570,9 +3554,8 @@
                   <p>Postscriptum</p>
                   <p>Domnul Alexandru a murit. S-a găsit ucis, în pădure, aflîndu-se la vînat. Se
                      vorbeşte că tatăl Tudorei şi-a răzbunat.</p>
-               </div>
-            </div>
-         </div>
+            </quote>
+         </quote></div></div>
       </body>
       <back>
          <div type="notes">

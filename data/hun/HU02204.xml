@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU02204" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU02204" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>A kétszarvú ember : ELTeC edition</title>
-            <author ref="viaf:59084200">Jókai, Mór  (1825-1904)</author>
+            <author ref="viaf:59084200">Jókai Mór (1825-1904)</author>
             <respStmt>
                <resp>ELTeC conversion</resp>
                <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
                </name>
                <name>Fellegi Zsófia</name>
-               <name>Takács Emma</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
             </respStmt>
          </titleStmt>
          <extent>
             <measure unit="words">32893</measure>
             <measure unit="pages">182</measure>
          </extent>
-         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
-         <sourceDesc><bibl type="digitalSource">
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
                <title>A kétszarvú ember</title>
                <date>2004-11-19</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -34,39 +33,45 @@
                   <name>Pétery Kristóf</name>
                   <name>Kindlevarázs </name>
                </respStmt>
-               
-               
-            </bibl><bibl type="firstEdition">
-               <title>A kétszarvú ember</title>
-               <author>Jókai Mór</author>
-               <date>1852</date>
-            </bibl><bibl type="digitalSource">
+             
+                  <bibl type="digitalSource">
                      <title>A kétszarvú ember</title>
                      <date>2004-11-19</date>
                      <ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
-                  </bibl><bibl type="printSource">
+                  </bibl>
+             
+                  <bibl type="printSource">
                      <title>A kétszarvú ember</title>
                      <author>Jókai Mór</author>
                      <pubPlace>Budapest</pubPlace>
                      <publisher>Akadémiai Kiadó</publisher>
                      <date>1973</date>
-                  </bibl></sourceDesc>
+                     <ref target="http://mek.oszk.hu/02200/02204/02204.pdf"/>
+                  </bibl>
+               
+            </bibl>
+            <bibl type="firstEdition">
+               <title>A kétszarvú ember</title>
+               <author>Jókai Mór</author>
+               <date>1852</date>
+            </bibl>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="hu"/>
+            <language ident="hu">Hungarian</language>
          </langUsage>
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
+      <revisionDesc>
          <change when="2019-04-18"/>
       </revisionDesc>
    </teiHeader>

@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1023" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1023" xml:lang="SPA">
 	<teiHeader> 
 		<fileDesc> <titleStmt> 	<title>La velada del helecho o El donativo del diablo: novela : edición ELTeC</title> 	<author ref="viaf:76328537">Gómez de Avellaneda, Gertrudis (1814-1873)</author>
 			<respStmt>
@@ -13,16 +14,15 @@
 				<measure unit="pages">26</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2019-04-14"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="digitalSource">
 					<publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
 					<pubPlace>Universidad de Alicante</pubPlace>
 					<ref target="http://www.cervantesvirtual.com/obra-visor/la-velada-del-helecho-o-el-donativo-del-diablo-novela--0/html/">Biblioteca Virtual Miguel de Cervantes</ref>
@@ -33,13 +33,11 @@
 						<name>Gabriel Marí</name>
 						<name>Julia Pozo</name>
 					</respStmt>
-				</bibl>
-				<bibl type="firstEdition">
+				</bibl><bibl type="firstEdition">
 					<publisher>Imprenta de Las Novedades, a cargo de J. Heredia </publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date>1857</date>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p/>
@@ -58,6 +56,7 @@
 				<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>  </textDesc> 
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2019-01-18"> Anotación formato ELTeC : Laura Marcela García Ramírez</change>
 			<change when="2019-04-14"> Revisión y corrección formato ELTeC : Borja Navarro Colorado</change>
 			<change when="2020-01-30"> Corrección etiquetas bibliográficas : Borja Navarro Colorado</change>
@@ -317,7 +316,7 @@
 		
 		
 		</div> 
-		<div type="chapter"  n="SPA1023003"> 
+		<div type="chapter" n="SPA1023003"> 
 		  <head>-III-</head> <p>-Mi abuela, que Dios tenga en su gloria, señora de cuya
 			 escrupulosa veracidad no nos es dable admitir la menor duda, refería
 			 gravemente que allá en los tiempos de su mocedad tuvo por amiga a una
@@ -634,7 +633,7 @@
 			 entrada de la gruta.</p> 
 		
 		</div> 
-		<div type="chapter"  n="SPA1023004"> 
+		<div type="chapter" n="SPA1023004"> 
 		  <head>-IV-</head> <p>Era el 27 de junio: habían trascurrido tres días desde
 			 la noche de la velada y Arnoldo Kessman no había vuelto a aparecer por
 			 la casa de su querida. No era ciertamente la primera vez que pasase tanto
@@ -776,7 +775,7 @@
 			 que exijáis sea un potentado vuestro yerno.</p> 		
 					<p>-No, ciertamente -dijo Keller-; ni un potentado ni un mendigo; ni
 			 más ni menos que mi hija; pero sabed, Kessman, que el día que se
-			 case Ida llevará por dote a su marido un  <foreign xml:lang="fra">alpage</foreign> de primer clase con una  <emph>sennte</emph> <ref target="#SPA1023N02">[2]</ref> de doscientas vacas de las mejores del país, con la	añadidura de trescientos ducados de Berna <ref target="#SPA1023N03">[3]</ref> en buena moneda de oro.</p> 		
+			 case Ida llevará por dote a su marido un  <foreign xml:lang="fra">alpage</foreign> de primer clase con una  <emph>sennte</emph>  de doscientas vacas de las mejores del país, con la	añadidura de trescientos ducados de Berna <ref target="#SPA1023N03">[3]</ref> en buena moneda de oro.</p> 		
 					<p>-¿Os bastaría -dijo Arnoldo-, que esa dote pudiera ser
 			 aumentada por el marido de Ida con mil piezas de oro de treinta y dos  <foreign xml:lang="deu">franken</foreign>
 			 <ref target="#SPA1023N04">[4]</ref></p>                           
@@ -1098,7 +1097,7 @@
 			 pálido como un espectro-: estoy pronto a seguiros!</p> 
 		
 		</div> 
-		<div type="chapter"  n="SPA1023005"> 
+		<div type="chapter" n="SPA1023005"> 
 		  <head>-V-</head> 
 		  	<p>En tanto que como un forajido atravesaba Arnoldo Kessman las calles
 			 de Neirivue en medio de la gente de armas del conde de Montsalvens, reinaban el

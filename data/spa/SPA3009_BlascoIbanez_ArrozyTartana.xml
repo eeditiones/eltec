@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3009" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3009" xml:lang="SPA">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,23 +16,21 @@
 				<measure unit="pages">327</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2020-04-03"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="firstEdition">
 					<date>1894</date>
 					<publisher>Prometeo</publisher>
 					<pubPlace>Valencia</pubPlace>
 					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000199514">Biblioteca Digital Hispánica</ref>
 					<idno type="URI">bdh0000199514</idno>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>CLiGS – Computergestützte literarische Gattungsstilistik.</publisher>
 					<date when="2015">2015</date>
 					<idno type="cligs">ne0163</idno>
@@ -42,19 +41,16 @@
 						<resp>Anotación TEI y edición CLIGS</resp>
 						<name>José Calvo Tello</name>
 					</respStmt>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>Project Gutenberg</publisher>
-					<date when="2005"></date>
+					<date when="2005"/>
 					<idno>16413</idno>
 					<ref target="http://www.gutenberg.org/ebooks/16413"/>
-				</bibl>
-				<bibl type="printSource">
+				</bibl><bibl type="printSource">
 					<publisher>Plaza and Janes SA</publisher>
 					<pubPlace>Barcelona</pubPlace>
-					<date when="1978"></date>
-				</bibl>
-			</sourceDesc>
+					<date when="1978"/>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p/>
@@ -76,6 +72,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-04-03">Anotación ELTeC : Borja Navarro Colorado</change>
 		</revisionDesc>
 	</teiHeader>

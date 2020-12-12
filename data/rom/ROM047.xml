@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns"
-    xml:id="ROM047" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM047" xml:lang="ro">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,18 +20,22 @@
                 <measure unit="pages">427</measure>
             </extent>
             <publicationStmt>
-                <p>Încorporat în ELTeC<date>2020-03-21</date></p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+            <sourceDesc><bibl type="firstEdition">
                     <author>S. Prasin</author>
                     <title>CALEA ROBILOR</title>
                     <pubPlace>Bucharest</pubPlace>
                     <publisher>Tipografia Adevarul</publisher>
                     <date>1903</date>
                     <ref target="http://doi.org/10.5281/zenodo.3722854">Facsimile on zenodo</ref>
-                </bibl>
-            </sourceDesc>
+                </bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-1">
             <p/>
@@ -44,11 +47,12 @@
             <textDesc>
                 <e:authorGender key="M"/>
                 <e:size key="long"/>
-                <e:canonicity key="low"/>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
                 <e:timeSlot key="T4"/>
             </textDesc>
         </profileDesc>
         <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
             <change when="2018-09-28">Initial TEI version generated.</change>
         </revisionDesc>
     </teiHeader>
@@ -56,7 +60,7 @@
         <front>
             <div type="titlepage">
                 <p>SPIRU PRASIN</p>
-                <milestone unit="header" type="lines"/>
+                
                 <p>CALEA ROBILOR</p>
                 <p>-ROMAN-</p>
                 <p>EDITIA I în 1903</p>
@@ -71,7 +75,7 @@
             <pb/>
             <div type="liminal">
                 <head>PREFAŢĂ</head>
-                <milestone unit="header" type="line"/>
+                
                 <p>Peste câte=va luni se vor împlini 25 de ani de la moartea lui Spiru Prasin.</p>
                 <p>Cu pioasă afecţiune şi grijă, surorile acestuia, fac s'apară această nouă ediţie—
                     a treia până acum —din <title><hi>Calea Robilor</hi></title>, unul din cele mai
@@ -3606,7 +3610,7 @@
                                 <hi>El vers quels bords lointains fuit ce concert</hi>
                             </foreign>
                         </l>
-                        <l><foreign><hi>charmant,</hi></foreign>></l>
+                        <l><foreign><hi>charmant,</hi></foreign>&gt;</l>
                         <l>
                             <foreign>
                                 <hi>Alors quelque passant vous répond tristement:</hi>

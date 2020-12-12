@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENG18400" xml:lang="en">
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENG18400" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -18,31 +17,27 @@
     <measure unit="pages">387</measure>
    </extent>
    <publicationStmt>
-    <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary
-     History" (CA16204)</publisher>
-    <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-    <date when="2019-11-09"/>
-    <availability>
-     <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-    </availability>
-    <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+</publicationStmt>
+   <sourceDesc><bibl type="digitalSource">
      <title>Michael Armstrong, the Factory Boy</title>
      <title>Nineteenth-Century Fiction Full-Text Database</title>
      <publisher>Chadwyck-Healey Ltd (A Bell &amp; Howell Information and Learning
       company)</publisher>
      <date>2000</date>
-    </bibl>
-    <bibl type="printSource" n="B4163">
+    </bibl><bibl type="printSource" n="B4163">
      <title>The Life and Adventures of Michael Armstrong, the Factory Boy</title>
      <author>Frances Trollope</author>
      <publisher>London: Henry Colburn, Great Marlborough Street</publisher>
      <date>1840</date>
      <ref target="http://archive.org/details/lifeadventuresof00troliala"/>
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -65,6 +60,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-05-19">Add text classifications from Bassett</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
    <change when="2018-08-12">LB convert from HTML to ELTeC-1; add header</change>
@@ -6754,8 +6750,7 @@
      having the least idea that such a spot exists; for, from the form of the hills it so happens,
      that it is possible to wander for hours over their summits, without discovering it; one
      undulation rising beyond another, so as to blend together beneath the eye, leaving no opening
-     by which this strip of water-level in their very centre, can be discerned. <ref
-      target="#ENG18400N3">[3]</ref>
+     by which this strip of water-level in their very centre, can be discerned. <ref target="#ENG18400N3">[3]</ref>
     </p>
     <pb n="181"/>
     <p>For about another half mile, the narrow cart-road runs beside the stream without encountering
@@ -11356,17 +11351,14 @@
      nibbling the short grass around him on all sides. Many were the solitary hours he thus passed,
      and very rich was the harvest they brought him. Had the boy remained a year or two longer in
      the state that "Blocks out the forms of nature, preconsumes The reason, famishes the heart,
-     shuts up The infant being in itself, and makes Its very spring a season of decay;" <ref
-      target="#ENG18400N5">[5]</ref> had Michael remained a year or two longer at the Deep Valley
+     shuts up The infant being in itself, and makes Its very spring a season of decay;"  had Michael remained a year or two longer at the Deep Valley
      factory, in the state thus admirably and accurately described, it would have been too late for
      any contemplation of God's works to have roused his withered spirit to worship and to hope. But
      as it was, his mind seemed to awaken day by day from the long and heavy sleep in which it had
      been plunged. With an intellect naturally vigorous, and covetous of acquirement, and having had
      his first infant stretch of thought happily and indelibly directed, though with primeval
      simplicity, to one God and father of all, his transition from a condition in which "Scarcely
-     could you fancy that a gleam Could break from out those languid eyes," <ref
-      target="#ENG18400N6">[6]</ref> to one "Sublime from present purity and joy," <ref
-      target="#ENG18400N7">[7]</ref> was rapid and delightful. His heavy losses were not forgotten;
+     could you fancy that a gleam Could break from out those languid eyes,"  to one "Sublime from present purity and joy," <ref target="#ENG18400N7">[7]</ref> was rapid and delightful. His heavy losses were not forgotten;
      but while he meditated beneath the bright arch of heaven on the mother and the brother he had
      so fondly loved, there were so many sublime
      <pb n="305"/> and hope-inspiring thoughts mixed with his sorrow, that it could hardly have been

@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>    
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns"
-   xml:id="ROM025" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM025" xml:lang="ro">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -24,26 +20,28 @@
             <measure unit="pages">435</measure>
          </extent>
          <publicationStmt>
-            <p/>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="firstEdition">
                <author>Ioan M. Bujoreanu</author>
                <title>Mistere din București</title>
                <pubPlace>Bucharest</pubPlace>
                <publisher>Tip. Stephan Rassidescu si N. Cernovodeanu</publisher>
                <date>1862</date>
-            </bibl>
-
-            <bibl type="printSource">
+            </bibl><bibl type="printSource">
                <author>Ioan M. Bujoreanu</author>
                <title>Mistere din București</title>
                <pubPlace>Bucharest</pubPlace>
                <publisher>Editura Minerva</publisher>
                <date>1984</date>
                <ref target="http://doi.org/10.5281/zenodo.3228835">Facsimile on zenodo</ref>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p/>
@@ -55,11 +53,12 @@
          <textDesc>
             <e:authorGender key="M"/>
             <e:size key="long"/>
-            <e:canonicity key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <e:timeSlot key="T2"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2019-11-11">Checked by releaseChecker script</change>
          <change when="2019-09-16">Initial TEI version generated.</change>
       </revisionDesc>
@@ -76,7 +75,6 @@
          </div>
          <gap unit="page" extent="1"/>
          <div type="liminal">
-            <div>
                <head>PREFAŢĂ</head>
                <p>Istoria literară numără destule exemple de scriitori cu succese notabile în timpul
                   vieţii, pe care posteritatea îi dă uitării. Cazul invers se petrece mult mai rar.
@@ -514,7 +512,6 @@
                   scriere.</p>
                <p>AUTORUL</p>
             </div>
-         </div>
       </front>
       <body>
        

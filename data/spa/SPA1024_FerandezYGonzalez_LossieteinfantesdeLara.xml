@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--La ortografía no está modernizada. Revisar todo el texto-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1024" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><!--La ortografía no está modernizada. Revisar todo el texto--><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1024" xml:lang="SPA">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -16,28 +16,25 @@
 				<measure unit="pages">464</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2020-08-07"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt> 
-			<sourceDesc>
-				<bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt> 
+			<sourceDesc><bibl type="firstEdition">
 					<publisher>Imprenta a cargo de C. Gonzalez</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date>1853</date>
 					<ref target="http://catalogo.bne.es/uhtbin/cgisirsi/0/x/0/05?searchdata1=bimo0000862453">Biblioteca Nacional de España</ref>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>Biblioteca Digital Hispánica - Biblioteca Nacional de España</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<idno type="BDH">bdh0000239956</idno>
-					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239956"></ref>
-				</bibl>
-			</sourceDesc>
+					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000239956"/>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 		  <p/>
@@ -56,13 +53,14 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-08-07">Introducción de notas y demás etiquetas textuales : Borja Navarro Colorado</change>
 			<change when="2019-07-26">Anotación estructura formato ELTeC : Borja Navarro Colorado</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<front>
-			<div type="titlePage">
+			<div type="titlepage">
 				<p>Los siete infantes de Lara,</p>
 				<p>leyenda histórica tradicional</p>
 				<p>originalde</p>
@@ -8372,7 +8370,7 @@ ruinas, nada encontraríais de la córte de Aaab-el-Rajman el grande, mas
 que una mezquita bautizada, á la que el tiempo y los hombres han robado,
 el uno sus estucos, sus ajaracas, sus arcos labrados á maravilla, sus
 alicatados y sus artesones: los otros sus lámparas de oro, sus alkatifas
-de oriente, la <emph>maksura</emph> <ref target="#SPA1024N08">[8]</ref> de maderas y metales preciosos del califa,
+de oriente, la <emph>maksura</emph>  de maderas y metales preciosos del califa,
 y el <emph>almimbar</emph> <ref target="#SPA1024N09">[9]</ref> lujosísimo de su gran faquí. No hallareis en esa
 ciudad casi desierta, si se compara con lo que fué en otro tiempo, con
 la Corthobah de los árabes, mas que algunos trozos derruidos de murallas
@@ -13679,7 +13677,7 @@ cristianos, el invencible, el fuerte, se doblegó sobre sí mismo y rompió
 <milestone unit="Libro" n="5"/>
 
 <div type="chapter" n="SPA1024040">
-<head>Capítulo I. En Caltañazor perdió Almanzor el atambor.<ref target="#SPA1024N21">[21]</ref></head>
+<head>Capítulo I. En Caltañazor perdió Almanzor el atambor.[21]</head>
 
 <p>Corría el año de 998 de J. C. y 393 de la hegíra.</p>
 
@@ -14550,7 +14548,7 @@ mas triste, de encerrarla en un saco y arrojarla al Guadalquivir.</p>
 
 <p>—¿Están avisados nuestros amigos de Corthobah?</p>
 
-<p>—Al primer son de las atakebiias <ref target="#SPA1024N24">[24]</ref> los muecines <ref target="#SPA1024N25">[25]</ref> subirán á los
+<p>—Al primer son de las atakebiias  los muecines <ref target="#SPA1024N25">[25]</ref> subirán á los
 alminares y llamarán á la insurrección á los creyentes en nombre de
 Dios. Entonces los barrios de Axarquia y de Algufia se levantarán en
 masa, y si los de Adobar y Alquibla, donde se aposentan los soldados de
@@ -18967,4 +18965,3 @@ grandes recepciones y solemnidades.</p>
 
 </text>
 </TEI>
-

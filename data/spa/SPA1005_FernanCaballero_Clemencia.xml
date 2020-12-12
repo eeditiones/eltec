@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1005" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1005" xml:lang="SPA">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -16,25 +17,21 @@
                         <measure unit="vols">2</measure>
                   </extent>
                   <publicationStmt>
-                        <publisher ref="https://distant-reading.net">COST Action "Distant Reading
-                              for European Literary History" (CA16204)</publisher>
-                        <distributor ref="https://zenodo.org/communities/eltec/"
-                              >Zenodo.org</distributor>
-                        <date when="2019-01-20"/>
-                        <availability>
-                              <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                        </availability>
-                        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-                  </publicationStmt>
-                  <sourceDesc>
-                        <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+                  <sourceDesc><bibl type="firstEdition">
                               <pubPlace>Madrid</pubPlace>
                               <date>1852</date>
                               <publisher>Imprenta de C. González</publisher>
                               <ref target="http://bdh-rd.bne.es/viewer.vm?id=0000185567">Biblioteca
                                     Digital Hispánica</ref>
-                        </bibl>
-                        <bibl type="digitalSource">
+                        </bibl><bibl type="digitalSource">
                               <publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
                               <pubPlace>Universidad de Alicante</pubPlace>
                               <idno>142</idno>
@@ -47,8 +44,7 @@
                                     <name>Manuel Sánchez Quero</name>
                                     <name>Mari Carmen Jerez Gaona</name>
                               </respStmt>
-                        </bibl>
-                  </sourceDesc>
+                        </bibl></sourceDesc>
             </fileDesc>
             <encodingDesc n="eltec-1">
                   <p/>
@@ -69,6 +65,7 @@
                   </textDesc>
             </profileDesc>
             <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
                   <change when="2020-04-15">Anotación formato ELTeC y correcciones varias: Borja
                         Navaro Colorado</change>
             </revisionDesc>
@@ -84,7 +81,7 @@
                         <p>Imprenta a cargo de C. González - Calle del rubio n. 14.</p>
                   </div>
                   <div type="liminal">
-                        <head> Carta a mi lector de las Batuecas<ref target="#SPA1005N01">[1]</ref>
+                        <head> Carta a mi lector de las Batuecas[1]
                         </head>
 
 
@@ -115,8 +112,7 @@
                               soy yo: esto ha sido a punto que han llegado a aturrullarme y hacerme
                               dudar de si existo o no. Mi cocinera, a quien ya conoces, estaba muy
                               inquieta viéndome de continuo pasear agitado por mi gabinete,
-                              declamando en lúgubre acento el monólogo de Hamlet: <foreign
-                                    xml:lang="ENG"> To be, or not to be, that is the question
+                              declamando en lúgubre acento el monólogo de Hamlet: <foreign xml:lang="ENG"> To be, or not to be, that is the question
                               </foreign> . </p>
 
 
@@ -536,8 +532,7 @@
                               <p> El hermano mayor de la Marquesa había casado en Madrid, y estaba
                                     establecido allí, así como una hermana, viuda sin hijos de un
                                     hombre muy rico, alto funcionario de Ultramar, señora bastante
-                                    amiga de mangonear y de intrigar, que era el <foreign
-                                          xml:lang="LAT"> tu autem </foreign> de la familia. </p>
+                                    amiga de mangonear y de intrigar, que era el <foreign xml:lang="LAT"> tu autem </foreign> de la familia. </p>
 
 
                               <p> Por parte de su marido no había conocido más pariente cercano que
@@ -2402,8 +2397,7 @@
                                     de la secta de los hombres benévolos, secta que se va perdiendo.
                                     Ponía a la sociedad en buen lugar, poniendo a los que la
                                     formaban en buena luz; respetaba profundamente todas las
-                                    opiniones, mirándolo todo bajo un bello prisma <foreign
-                                          xml:lang="LAT"> sui generis </foreign> , por el que
+                                    opiniones, mirándolo todo bajo un bello prisma <foreign xml:lang="LAT"> sui generis </foreign> , por el que
                                     aparecían las rosas sin espinas, y las víboras sin veneno. En
                                     suma, era don Galo una momia del siglo de oro, resucitada por
                                     medio del elixir de vida que inventó Balzac. </p>
@@ -2526,8 +2520,7 @@
 
 
                               <p> Tocante a la edad de don Galo, fue, es y quedará un problema.
-                                    Cuando vinieron los franceses el año 23, decían de él: <foreign
-                                          xml:lang="FRA"> Monsieur Gaálo Paandà est un fort aimable
+                                    Cuando vinieron los franceses el año 23, decían de él: <foreign xml:lang="FRA"> Monsieur Gaálo Paandà est un fort aimable
                                           ci-devant ieune homme </foreign> . Lo que quiere decir:
                                     «Don Galo Pando es un ex-joven muy amable». En 1844, cuando
                                     empieza esta narración, decía la marquesa de Cortegana a sus
@@ -5160,8 +5153,7 @@
                               <head> Capítulo I </head>
 
 
-                              <p> Don Martín Ladrón de Guevara, padre de Fernando <ref
-                                          target="#SPA1005N05">[5]</ref>, de cuyo gran caudal y
+                              <p> Don Martín Ladrón de Guevara, padre de Fernando <ref target="#SPA1005N05">[5]</ref>, de cuyo gran caudal y
                                     antigua nobleza tienen noticia nuestros lectores, era uno de
                                     esos señorones de tierra adentro, tan apegados a sus pueblos y a
                                     sus casas, que parece que forman, si puede decirse así, parte de
@@ -9381,8 +9373,7 @@
                               <p> -Pues diles que nada han perdido -dijo don Martín-. Si no hubieran
                                     sabido que era lo suyo lo que ardía, se lo hubiésemos ocultado;
                                     pero ya que lo saben, diles que la mitad de mis mieses está ahí
-                                    para suplir a cada cual lo que haya perdido <ref
-                                          target="#SPA1005N06">[6]</ref>. </p>
+                                    para suplir a cada cual lo que haya perdido <ref target="#SPA1005N06">[6]</ref>. </p>
 
                               <p> Una alegría tan viva como entusiasta resplandeció en los ojos de
                                     Pablo, que volviéndose a un criado: </p>
@@ -9598,8 +9589,7 @@
 
                               <p> Pasaban en esto por el patio dos hombres llevando un gran caldero,
                                     y otro con un canasto de pan; era la comida a los presos de la
-                                    cárcel, a quien de diario se la enviaba don Martín <ref
-                                          target="#SPA1005N07">[7]</ref>. </p>
+                                    cárcel, a quien de diario se la enviaba don Martín <ref target="#SPA1005N07">[7]</ref>. </p>
 
 
                               <p> -¡Eh! -gritó éste con su campanuda voz-: ¿quién os corre? Acá,
@@ -10662,16 +10652,14 @@
                                     los dos focos de ilustración, que son al mismo tiempo las dos
                                     capitales más cercanas, han sido, son y serán los dos mayores
                                     contrastes? ¿En qué ha mudado ese diario contacto las
-                                    respectivas y marcadas fisonomías de París y de Londres? <ref
-                                          target="#SPA1005N08">[8]</ref>. </p>
+                                    respectivas y marcadas fisonomías de París y de Londres? <ref target="#SPA1005N08">[8]</ref>. </p>
 
                               <p> Es para nosotros un enigma el móvil que lleva a muchas personas de
                                     mérito y de talento a defender y aplaudir esa nivelación
                                     general, y cuál es la ventaja que de ella resultaría. Que un
                                     país sin pasado, sin historia, sin nacionalidad, sin
                                     tradiciones, adopte un carácter ajeno por no poseerlo propio,
-                                    como ha hecho la América del Norte <ref target="#SPA1005N09"
-                                          >[9]</ref> adoptando el inglés, y la del Sur adoptando el
+                                    como ha hecho la América del Norte <ref target="#SPA1005N09">[9]</ref> adoptando el inglés, y la del Sur adoptando el
                                     español, se comprende; pero que se afanen por hacer esto algunos
                                     hijos del país de Pelayo y del Cid, de Calderón y de Cervantes,
                                     para desechar el suyo y adoptar el ajeno, es lo que no concibe
@@ -11332,8 +11320,7 @@
                                     delicioso sentimiento que ambos abrigaban de agradarse
                                     mutuamente; convicción que cual un benéfico genio parece soplar
                                     el sobrefuego de nuestro entendimiento para hacerlo brillar en
-                                    vivas llamaradas, produciendo en los ánimos ese <foreign
-                                          xml:lang="FRA"> enjouement </foreign> , como llaman los
+                                    vivas llamaradas, produciendo en los ánimos ese <foreign xml:lang="FRA"> enjouement </foreign> , como llaman los
                                     franceses a un estado de inocente, pura y alegre excitación. En
                                     él se mezclaba el amor sin nombrarse, como se oye en un jardín
                                     la melodía de una música oculta en la enramada. Sir George le
@@ -11749,8 +11736,7 @@
                                     cosas más poéticas y espirituales que se han dicho. (Y no
                                     entendáis que quiero decir con esto <foreign xml:lang="FRA">
                                           spirituel </foreign> , palabra que he visto traducida de
-                                    esa suerte, siendo así lo que entre nosotros se llama <foreign
-                                          xml:lang="FRA"> esprit </foreign> , es una cosa que
+                                    esa suerte, siendo así lo que entre nosotros se llama <foreign xml:lang="FRA"> esprit </foreign> , es una cosa que
                                     vosotros con vuestro brillante caudal de voces y como muy
                                     prácticos en la materia, subdividís en las categorías de
                                     agudeza, gracia, chiste, chispa, talento e ingenio, que todas
@@ -13310,8 +13296,7 @@
                                     ridículos de marca mayor; y al gran Voltaire mismo, ese tipo del
                                     burlador y del satírico, ¿no lo hicieron pasar los pajes
                                     traviesos del rey de Prusia por un mono vestido, regresando ese
-                                    maligno francés, uno de los inventores del <foreign
-                                          xml:lang="DEU"> Vaudeville </foreign> , furioso contra los
+                                    maligno francés, uno de los inventores del <foreign xml:lang="DEU"> Vaudeville </foreign> , furioso contra los
                                     calmosos y graves alemanes, que se emancipaban hasta el punto de
                                     dar al gran preste y repartidor de ridículos una muestra de la
                                     ley del talión? </p>
@@ -13516,8 +13501,7 @@
                                     </emph> , y dice igualmente el profundo Balzac: «El
                                     cristianismo, pero sobre todo el catolicismo, siendo un sistema
                                     completo de represión de las tendencias depravadas del hombre,
-                                    es el mayor elemento de orden social. ¿Pero mientras?... <ref
-                                          target="#SPA1005N10">[10]</ref>
+                                    es el mayor elemento de orden social. ¿Pero mientras?... <ref target="#SPA1005N10">[10]</ref>
                               </p>
 
                               <p> -¡Represión! ¡represión! -exclamó Sir George interrumpiendo a
@@ -14211,8 +14195,7 @@
 
                               <p> -¡Oh Clemencia! -exclamó sir George en un impulso arrebatado-,
                                     sois más irresistible que la más refinada Aspasia; me enseñaréis
-                                    a ser un buen marido; yo os enseñaré a ser una <foreign
-                                          xml:lang="ENG"> lady </foreign> perfecta. ¡Qué bella vida
+                                    a ser un buen marido; yo os enseñaré a ser una <foreign xml:lang="ENG"> lady </foreign> perfecta. ¡Qué bella vida
                                     nos espera! </p>
 
 

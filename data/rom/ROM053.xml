@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM053" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM053" xml:lang="ro">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -21,42 +20,39 @@
     <measure unit="pages">213</measure>
    </extent>
    <publicationStmt>
-    <p>Încorporat în ELTeC<date>2020</date>
-    </p>
-   </publicationStmt>
-   <sourceDesc>
-    
-    <bibl type="unspecified">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+   <sourceDesc><bibl type="unspecified">
      <author>Duiliu Zamfirescu</author>
      <title>În război. Ediţiune populară</title>
      <pubPlace>Bucharest</pubPlace>
      <date>1897</date>
-    </bibl>
-    
-    <bibl type="firstEdition">
+    </bibl><bibl type="firstEdition">
      <author>Duiliu Zamfirescu</author>
      <title>În război. Ediţiune populară</title>
      <pubPlace>Bucharest</pubPlace>
      <publisher>Clemența</publisher>
-     <date>1902</date></bibl>
-    
-    <bibl type="printSource">
+     <date>1902</date></bibl><bibl type="printSource">
      <author>Duiliu Zamfirescu</author>
      <title>În Războiu</title>
      <pubPlace>Iasi</pubPlace>
      <publisher>EDITURA LBRĂRIEI LEON ALACLAY</publisher>
      <date>1907</date>
      <ref target="http://doi.org/10.5281/zenodo.3736679">Facsimile on zenodo</ref>
-    </bibl>
-    
-   </sourceDesc>
+    </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
-   <p></p>
+   <p/>
   </encodingDesc>
   <profileDesc>
    <langUsage>
-    <language ident="ro"></language>
+    <language ident="ro"/>
    </langUsage>
    <textDesc>
     <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
@@ -66,6 +62,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
    <change when="2019-09-20">Initial TEI version generated.</change>
   </revisionDesc>
  </teiHeader>
@@ -131,7 +128,7 @@
 <p>- Mii de vaviloane și de tunete! ne despărțeam fără să-ți fi spus unde șed. Să nu-mi umbli dumneata cu vacsuri si cu fracuri, mai înțeles ? Așa cum te afli, la 71/2. M'ai inteles?</p>
 <p>Și, făcând un semn din mână, iar voia sa plece. </p>
 <p>- Milescule, da spune unde șezi, strigă Mihai după el.</p>
-<p>>El sări din nou spre trăsură.</p>
+<p>&gt;El sări din nou spre trăsură.</p>
 <p>- Vacs! si iar vacs! că mă prostesc. Strada Batiștea, dragă. La revedere.</p>
 <p>Mergând spre Sașa, Mihai se gândea la amicul lui, de care atâta râsese la Paris. Deși îi venea să zâmbească și acum, de felul spiritului lui Milescu, totuși se simțea fericit că-l întâlnise, și mai cu seamă că-l întâlnise așa precum îl știa, naiv, plin de ticuri, totdeauna grăbit și mai presus de toate încurcă treabă. Ceea-ce, în prima tinerețe, i se părea numai caraghios, în caracterul prietenului său,acum, în pragul maturității, când  înțelepciunea coboară tot mai afund în oameni nota lor personală, i se părea încântător, prin desavârșita sinceritate cu care se desfășura firea Milescu.</p>
 <p>Ajunse la Sașa, vesel, cum nu i se întâmplase de mult; urcă scarile fluerând, și când intră in sa1on, nu se putu opri dp a nu zice si el „Vacs!”,ca Milescu. Istorisi surori-sei întâlnirea cu vechiul lui camarad de școală; plăcerea neașteptată ce-i pricinuia revederea lui Milescu; miile do bombe și de vacsuri ale acestuia; în fine, invitarea la masă.</p>
@@ -823,7 +820,7 @@
 <p>Ce curios om! gândi Comăneșteanu, când fu din nou stăpân desăvârșit pe sine.</p>
 <p>Elencuței îi daseră lacrimile. Iși duse încet batista la ochi și rămase cu capul plecat pe mână.</p>
 <p>- Du-te la el, zise ea Annicuței.</p>
-<p>>Apoi, adresândâ-se lui Comăneșteanu:</p>
+<p>&gt;Apoi, adresândâ-se lui Comăneșteanu:</p>
 <p>- E uenorocit... Simte că a greșit, întârziind prea mult. Nu-e vre-o vină mare. Dar dumneavoastră, bărbații, sunteți așa de neînțeleși în unele feluri de a suferi, în cât nouă ne trebue o practică specială pentru a vă pricepe. Amorul-propriu la dumneavoastră e fără margini...</p>
 <p>Incercà să zâmbească și nu izbutea.</p>
 <p>- E atât de bun!... Aș fi voit să te rog... Mă tem să nu fac vre-o copilărie. Sunt două săptămâni de când e așa cum îl vezi, nemulțumit de el, dar fără putere de a lua o hotărâre. Imi mușcam degetele că nu 1-am lăsat să plece eu dumneata... Voiam să te rog să nu-l pierzi din vedere astă-seară, dacă treceți Dunărea. Nu de alta, dar înnoată bine, și cum sunt sigură că va căuta să-și îndrepteze greșeala cn cine știe ce... nebunie oroică de-a dumneavoastră, te rog să uu l lași singur...</p>
@@ -923,7 +920,7 @@
 <p>Sub-Locotenentul se cam foia.</p>
 <p>- Să nu ne vadă, d-le Major.</p>
 <p>- Aprinde, domnule, și nu raspunde!... Ți-e frică să nu te mămânce Turcii ?...</p>
-<p>Sub-Locotenentul aprinse felinarul, ținându-1 tot cam pe după dânsul. Majorul porunci din nou:</p>  <p>- Să vie patru oameni. Sergent, ia-l!></p>
+<p>Sub-Locotenentul aprinse felinarul, ținându-1 tot cam pe după dânsul. Majorul porunci din nou:</p>  <p>- Să vie patru oameni. Sergent, ia-l!&gt;</p>
 <p>Soldații puseră mâna pa Ion Savu și-l ridicară pe sus, aruncându-l în luntre ca pe un sac. Majorul zise încet către Comăneșteanu:</p>
 <p>Altfel, ar trebui să-1 împușc.</p>
 <p>Milescu încremenise. Toată simpatia ce simțea pentru Major, dispăru deodată. Se urcă în barcă moleșit ca o bleandă.</p>
@@ -1027,7 +1024,7 @@
 <p>Anna se departa de Mihai, cu o repeziciune de fulger și fu numai de cât stăpână de sine:</p>
 <p>Iaca și 1'ăcala.</p>
 <p>Milescu se puse sa alerge prin curte, strigând : La o parte, domnilor, ca trece trenul.</p>
-<p>>Apoi, se duce busna la Anna și Mihai, îi luă pe amândoi de câte o mâna și dete cu ei o fuga până la podeț. Elena și Majorul veneau în urmă.</p>
+<p>&gt;Apoi, se duce busna la Anna și Mihai, îi luă pe amândoi de câte o mâna și dete cu ei o fuga până la podeț. Elena și Majorul veneau în urmă.</p>
 <p>Ajuns la pod, Milescu so opri deodată. Apa curgea în bătaia lunii, plină de luciri misterioase.</p>
 <p>Pii!....ce frumos e!... Annicuțo, cheamă pe Elencuța și pe Major.</p>
 <p>Se a e ara toti cinci prijiniți de re/ematoarea podețului. Mile cu tacea.</p>

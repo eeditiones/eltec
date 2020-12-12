@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM075" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM075" xml:lang="ro">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,23 +20,22 @@
             <measure unit="pages">229</measure>
          </extent>
          <publicationStmt>
-            <publisher>Digital Humanities Laboratory (UAIC)</publisher>
-            <distributor ref="https://www.distant-reading.net/">COST ACTION "Distant Reading for European Literary History" (CA16204)</distributor>
-            <date when="2020-03-08"/>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="firstEdition">
                <author>Dumitru C. Moruzi</author>
                <title>Moartea lui Cain. Roman social</title>
                <pubPlace>Piatra-N.</pubPlace>
                <publisher>Imprimeria Judeţului Neamţu</publisher>
                <date>1914</date>
                <ref target="http://doi.org/10.5281/zenodo.3719529">Facsimile on zenodo</ref>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p/>
@@ -48,11 +47,12 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2020-03-08">Annotation in ELTeC format: Lucretia Pascariu</change>
          <change when="2020-01-13">Ocerization by: Lucretia Pascariu</change>
       </revisionDesc>
@@ -591,7 +591,7 @@
    <p>— Aceia să-și ispășească neprevederea și să se apuce de alte treburi. Nu numaidecât să trăiască pe spinarea bugetului.</p>
    <p>— Daa! Ai dreptate! N-au decât să se facă agenți tulburători de liniște, în slujba tuturor opozițiilor; ori să umple pușcăriile și ocnele, după ce au slujit țara și li s-au reținut și din leafa pentru pensia... altora! Frumoasă morală. Dar acum când nu se mai poate căpăta slujbă cu patru clase primare, cu ce se aleg acei pe care le absolvă la vârsta de 12 sau cel mult 14 ani? Până cresc mari uită până și buchiile, ieșind... analfabeți cu diplomă! Socoți tu, Grigore, că dacă aș fi avut la îndemână niște școli practice de agricultură, m-aș fi gândit a-l trimite pe băietul lui Dudău tocmai în Franța la școala din <foreign>Grignon</foreign>?</p>
    <p>— Ei bine și d-ta, tată, făcu Grigore plictisit, prea le vrai pe toate odată! Se vor face și asemenea școli cu timpul. Apoi nici n-avem jumătate din școlile primare de care avem nevoie. Nu se poate face într-o zi totul.</p>
-   <p>— Da lungă vă mai este ziua! făcu bătrânul. Parcă la iarnă să împlinesc tocmai 40 de anișori de când s-o suit Cuza pe tron; și numai cu diurnele parlamentului și recompensele naționale ce le-ați păpat de atuncea s-ax fi putut înjgheba cam vreo trei sute de asemenea școli de agricultură! Las' că vă țin eu socoteală cu răbușul, n-ai grijă! În locul a trei-patru din școIile voastre primare și bune de nimica, decât a scoate pe roman din teapa lui, mai bine ați fi făcut o școală practică de agricultură cu locul ei grădină, ea ar fi fost totdeauna plină; iar băieții ieșiți de acolo ar fi învăţat şi pe părinți și pe consătenii lor a nu muri de foame pe brazdă, zbterand anu le ajunge >pamantul când nu știu să-l lucreze nici pe acela care-l au! Iar dacă la 2-3 şcoli de agricultură aţi mai fi rânduit şi una elementară de meseriile tre-buincioase la sate, n-am fi văzut la noi nici țigani fierari, nici butnari, nici tâmplar, jidan. În asemenea întocmiri țăranul și-ar fi iubit și cinstit plugul și numai acei cu adevărate daruri ar fi năzuit mai sus. Aceasta v-ar fi scutit de a întrebuința fel de fel de chichițe înjositoare, cu taxe și uniforme, pentru a se face cu neputință pătrunderea în școlile mai înalte, ceea ce după mine este o crimă.</p>
+   <p>— Da lungă vă mai este ziua! făcu bătrânul. Parcă la iarnă să împlinesc tocmai 40 de anișori de când s-o suit Cuza pe tron; și numai cu diurnele parlamentului și recompensele naționale ce le-ați păpat de atuncea s-ax fi putut înjgheba cam vreo trei sute de asemenea școli de agricultură! Las' că vă țin eu socoteală cu răbușul, n-ai grijă! În locul a trei-patru din școIile voastre primare și bune de nimica, decât a scoate pe roman din teapa lui, mai bine ați fi făcut o școală practică de agricultură cu locul ei grădină, ea ar fi fost totdeauna plină; iar băieții ieșiți de acolo ar fi învăţat şi pe părinți și pe consătenii lor a nu muri de foame pe brazdă, zbterand anu le ajunge &gt;pamantul când nu știu să-l lucreze nici pe acela care-l au! Iar dacă la 2-3 şcoli de agricultură aţi mai fi rânduit şi una elementară de meseriile tre-buincioase la sate, n-am fi văzut la noi nici țigani fierari, nici butnari, nici tâmplar, jidan. În asemenea întocmiri țăranul și-ar fi iubit și cinstit plugul și numai acei cu adevărate daruri ar fi năzuit mai sus. Aceasta v-ar fi scutit de a întrebuința fel de fel de chichițe înjositoare, cu taxe și uniforme, pentru a se face cu neputință pătrunderea în școlile mai înalte, ceea ce după mine este o crimă.</p>
    <p>— Lumină și libertate, dle bonjurist! Lumină pentru toți și deopotrivă! Eu, boierul ruginit și retrograd, cum ne făceați cinste a ne numi odată, eu, strigoiul, sunt acela care v-o strig aceasta! Nu vă temeți de lumină, lăsați-o să pătrundă în voie în coliba țăranului; pentru ca razele ei jucându-se pe fierul lucitor al plugului să-l încălzească ca să încolțească mai bine sămânța sub brazdă!</p>
    <p>— Ați copleșit cu raze învelișul casei neamului, dar ce mi-i bun dacă îi lăsați temelia să putrezească de mucegaiul neștiinței. Luați pildă de la soa-re: razele sale orbesc pe nesăbuitul care îndrăznește a-l privi în față, dar căldura lui pătrunde departe în adâncimile pământului! Dacă sunt gata să cheltuiesc oricât, pentru a trimite pe Ghiță la o școală de agricultură, nu o fac nici de mutra lui, nici de hatârul lui Sandu, dar pentru ca să fac în mic, ceea ce erați datori să faceți în mare, să-l dau de pildă consătenilor săi. Dar iată-l în sfârșit că vine și d-lui.</p>
    <p>Și în adevăr Ghiță se ivi în pragul ușii.</p>
@@ -1121,7 +1121,7 @@ nostru pământ, ba și de cât soarele acesta care ne dă lumină și căldură
    <p>Se repezi în fugă spre ceardacul dinspre curte, strigând:</p>  
    <p>— Înapoi, nemernicilor, că vă stârpesc pe toți!</p>
    <p>Și, fără a mai aștepta, dădu foc din amândouă țevile, rostogolind în țară-nă pe Jitărescu și pe Neculae Bețivul. Până să încarce, mai bine de 40 de inși tăbărâră pe scări în frunte cu Ghiță și cu moș Iftimie care, ridicând îndată grozavul buzdugan, sfărmă capul bietului bătrân rostogolindu-l fără simțire pe lespedele ceardacului!</p>
-   <p>Conu Grigore, departe de a urma sfatul lui Mihalache, aruncă halatul său pe umere, puse picioarele în papuci și, fără nicio armă, urmat de că-pitan, dezbrăcat și el, dar cu sabia goală într-o mână și cu revolverul în >cealaltă se avântă spre ceardac, unde ajunse în acea clipă în care bietul său servitor se zbătea în ghiarele morții.</p>
+   <p>Conu Grigore, departe de a urma sfatul lui Mihalache, aruncă halatul său pe umere, puse picioarele în papuci și, fără nicio armă, urmat de că-pitan, dezbrăcat și el, dar cu sabia goală într-o mână și cu revolverul în &gt;cealaltă se avântă spre ceardac, unde ajunse în acea clipă în care bietul său servitor se zbătea în ghiarele morții.</p>
    <p>— Ce vă este, copii, întrebă el măreț șifără teamă? V-ați apucat acum să omorâți bătrânii? Ce voiți de la mine? </p>
    <p>— Uit-te ia ce voim, răcni ucigașul lui Mihalache, ridicând buzduganul pentru a doua oară. Căpitanul fu însă mai iute și îi vârî toată sabia pana în plăsele în pieptul lui moș Iftimie, care scăpă buzduganul și căzu zicând: „m-ai mâncat fript, afurisitule!” Ghiță atunci înaintând cu furie către Gri-gore Vultureanu îi strigă:</p>
    <p>— Ții tu minte, căzătură bătrână, lovitura de picior pe care mi-ai dat-o la București? Na lovitură mai sigură! Și îi zbură creierii cu revolverul, apoi mai trase un foc în căpitan pe care-l nimeri drept în inimă!</p>
@@ -1289,7 +1289,7 @@ nostru pământ, ba și de cât soarele acesta care ne dă lumină și căldură
 
 </body>
      <back>
-        <div type="group">
+        <div type="liminal">
            <head>TABELA CUPRINSULUI</head>
            <milestone unit="line"/>
            <p>PARTEA I.</p>
@@ -1317,7 +1317,7 @@ nostru pământ, ba și de cât soarele acesta care ne dă lumină și căldură
            <p>CAP. XIX.Blestemat de părinți! Judecata și blestemul fraților! . . .  » 204 </p>
            <p>CAP. XX. Moartea lui Cain . . » 215</p>
         </div>
-        <div type="group">
+        <div type="liminal">
            <head>ERATA</head>
            <p>pagina » rândul » în loc de » să se citească</p>
            <p>17 » 37 » căruţă » caretă</p>

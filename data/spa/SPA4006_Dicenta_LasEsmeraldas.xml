@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA4006" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA4006" xml:lang="SPA">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,26 +16,22 @@
                 <!--<measure unit="pages"></measure>-->
             </extent>
             <publicationStmt>
-                <publisher ref="https://distant-reading.net">COST Action "Distant Reading for
-                    European Literary History" (CA16204)</publisher>
-                <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-                <date when="2020-02-11"/>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                </availability>
-                <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+            <sourceDesc><bibl type="firstEdition">
                     <date>1915</date>
                     <title>Novelas</title>
                     <publisher>Sucesores de Rivadeneira</publisher>
                     <pubPlace>Madrid</pubPlace>
-                    <ref target="http://www.cervantesvirtual.com/obra-visor/las-esmeraldas--0/html/"
-                        >Biblioteca Virtual Miguel de Cervantes</ref>
+                    <ref target="http://www.cervantesvirtual.com/obra-visor/las-esmeraldas--0/html/">Biblioteca Virtual Miguel de Cervantes</ref>
                     <idno type="URI"> http://www.cervantesvirtual.com/nd/ark:/59851/bmcv9831</idno>
-                </bibl>
-                <bibl type="digitalSource">
+                </bibl><bibl type="digitalSource">
                     <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
                     <date when="1999">1999</date>
                     <pubPlace>Alicante</pubPlace>
@@ -46,8 +43,7 @@
                         <name>Carmen Hernández Segovia</name>
                         <name>Sonia Jover Sánchez</name>
                     </respStmt>
-                </bibl>
-            </sourceDesc>
+                </bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-1">
             <p/>
@@ -66,6 +62,7 @@
             </textDesc>
         </profileDesc>
         <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
             <change when="2020-04-01">Anotación ELTeC : Borja Navarro Colorado</change>
         </revisionDesc>
     </teiHeader>
@@ -375,16 +372,14 @@
                     España; testigos los más altos personajes de la patria nobleza. </p>
 
 
-                <p> Acompañó el órgano la bendición patriarcal; sirvióse un espléndido <foreign
-                        xml:lang="eng"> lunch </foreign> en el comedor: cambió Leonor, por uno de
+                <p> Acompañó el órgano la bendición patriarcal; sirvióse un espléndido <foreign xml:lang="eng"> lunch </foreign> en el comedor: cambió Leonor, por uno de
                     viaje, su atavío de novia; imitóla Alfonso, y, despedidos por invitados y
                     parientes, ganaron un lujoso automóvil, haciendo camino a las posesiones que,
                     inmediatas a Córdoba, pregonaban la riqueza del duque. </p>
 
 
                 <p> No quiso éste zarandear su nupcia por capitales extranjeras. Tiempo habría, más
-                    tarde, de recorrerlas todas y aun de ir mar adentro en un <foreign
-                        xml:lang="eng"> yacht </foreign> , que, meciéndose sobre aguas gaditanas,
+                    tarde, de recorrerlas todas y aun de ir mar adentro en un <foreign xml:lang="eng"> yacht </foreign> , que, meciéndose sobre aguas gaditanas,
                     aguardaba órdenes de su aristocrático armador. </p>
 
 

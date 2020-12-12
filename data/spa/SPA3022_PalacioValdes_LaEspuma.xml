@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA3022">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA3022">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,39 +15,34 @@
 				<measure unit="words">124830</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2020-07-31"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="digitalSource">
 					José Calvo Tello
 					<ref target="https://github.com/cligs/conssa">Corpus of Novels of the Spanish Silver Age (CoNSSA)</ref>
 					<idno>ne0312</idno>
 					<pubPlace>University of Würzburg</pubPlace>
 					<date when="2020"/>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>Project Gutenberg</publisher>
 					<date when="2004">2004</date>
 					<idno>11529</idno>
 					<ref target="http://www.gutenberg.org/ebooks/11529"/>
-				</bibl>
-				<bibl type="printSource">
+				</bibl><bibl type="printSource">
 					<publisher>Librería de Victoriano Suárez</publisher>
 					<title>Obras completas</title>
 					<date when="1922">1922</date>
-				</bibl>
-				<bibl type="firstEdition"><!--No he podido ver el PDF de la primera edición.-->
+				</bibl><bibl type="firstEdition"><!--No he podido ver el PDF de la primera edición.-->
 					<publisher>Imp. Henrich y Cía.</publisher>
 					<pubPlace>Barcelona</pubPlace>
 					<date when="1890">1890</date>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p>Downcoded from CLIGS</p>
@@ -67,6 +63,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-07-31">Borja Navarro Colorado : revisión de etiquetado ELTeC y anotación complementaria</change>
 			<change when="2020-07-31">LB convert to ELTeC-1</change>
 			<change when="2016-09-12">#jct : Initial TEI version.</change>

@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU17873" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU17873" xml:lang="hu">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Az élet esélyei: Regény: ELTeC edition</title>
-                <author ref="viaf:46218998 ">Jósika, Júlia  (1813-1893)</author>
+                <title>Az élet esélyei: Regény: ELTeC edition </title>
+                <author ref="46218998"> Jósika Júlia (1813-1893)
+                </author>
                 <respStmt>
                     <resp>ELTeC conversion</resp>
                     <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
                     </name>
                     <name>Fellegi Zsófia</name>
-                    <name>Takács Emma</name>
+                    <name>Vétek Bence</name>
+                    <name>Bajzát Tímea Borbála</name>
                 </respStmt>
             </titleStmt>
             <extent>
                 <measure unit="words">28349</measure>
                 <measure unit="pages">220</measure>
             </extent>
-            <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
-            <sourceDesc><bibl type="digitalSource">
+            <publicationStmt>
+                <p>Published as part of ELTeC</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
                     <title>Az élet esélyei: Regény</title>
                     <date>2018-02-23</date>
                     <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -32,32 +32,36 @@
                         <name>Halász Istvánné</name>
                         <name>Varjú Mária</name>
                     </respStmt>
-                    
-                </bibl><bibl type="firstEdition">
+                 
+                        <bibl type="firstEdition">
                             <title>Az élet esélyei : regény</title>
                             <author>Jósika Júlia</author>
                             <pubPlace>Pest</pubPlace>
                             <publisher>Lauffer</publisher>
                             <date>1864</date>
-                            <ref target="http://nektar.oszk.hu/hu/manifestation/1594662"/>
-                        </bibl></sourceDesc>
+                            <ref target="http://mek.oszk.hu/17800/17873/pdf/"/>
+                        </bibl>
+                    
+                </bibl>
+            </sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-0">
             <p/>
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="hu"/>
+                <language ident="hu">Hungarian</language>
             </langUsage>
             <textDesc>
                 <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
                 <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+                <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
                 <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/>
             </textDesc>
         </profileDesc>
-        <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
+        <revisionDesc>
             <change when="2018-10-04"/>
+            <change when="2020-11-13"/>
         </revisionDesc>
     </teiHeader>
     <text>

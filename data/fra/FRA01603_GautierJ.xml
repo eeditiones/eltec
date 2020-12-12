@@ -8,26 +8,19 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:missing wikidata:Q19212715">Les Princesses d'Amour : courtisanes japonaises : édition ELTeC</title>
-        <author xml:id="GautierJ" ref="viaf:54148064 wikidata:Q2523100">Gautier, Judith (1845-1917)</author>
+        <author ref="viaf:54148064 wikidata:Q2523100">Gautier, Judith (1845-1917)</author>
         <respStmt>
-          <resp>encoded by</resp>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
           <name>Pia Geißel</name>
         </respStmt>
         <respStmt>
           <resp>Original data capture</resp>
           <name> Wikisource <ref>http://fr.wikisource.org</ref>
           </name>
-          <name>Shaihulud</name>
-          <name>Hsarrazin</name>
-          <name>Joele.godard</name>
-          <name>Sapcal22</name>
-          <name>Figoblog</name>
-          <name>Le ciel est par dessus le toit</name>
-          <name>Acélan</name>
-          <name>JLTB34</name>
-          <name>Reptilien.19831209BE1</name>
-          <name>Aristoi</name>
-          <name>92.135.8.59</name>
         </respStmt>
       </titleStmt>
       <extent>
@@ -36,15 +29,14 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
-        <!--
-          First ElTeC edition
-          2019-09-29
-        -->
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -63,7 +55,12 @@
         </bibl>
         <bibl type="firstEdition">
           <!-- best guess -->
+          <title>Les Princesses d'Amour (Courtisanes Japonaises)</title>
+          <author>Judith Gautier</author>
+          <publisher>P. Ollendorff</publisher>
+          <pubPlace>Paris</pubPlace>
           <date>1900</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k831954" />
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -87,6 +84,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2019-11-01">Conversion to level 1 encoding.</change>
       <change when="2019-09-29">File created</change>

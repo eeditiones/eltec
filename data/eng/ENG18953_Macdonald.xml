@@ -4,7 +4,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title>Lilith; A Romance : ELTec edition</title>
+    <title>Lilith; A Romance : ELTec edition : ELTeC edition</title>
     <author ref="https://viaf.org/viaf/64008667/">MacDonald, George (1824-1905).</author>
     <respStmt>
      <resp>ELTeC conversion</resp>
@@ -15,16 +15,19 @@
     <measure unit="words">93900</measure>
    </extent>
    <publicationStmt>
-    <p>Published as part of ELTeC <date>2020-03-21</date></p>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource"><title>Lilith: A Romance</title><author> George MacDonald
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+<!--Published as part of ELTeC 2020-03-21--></publicationStmt>
+   <sourceDesc><bibl type="digitalSource"><title>Lilith: A Romance</title><author> George MacDonald
       </author><title level="s">Christian Classics Ethereal Library</title><publisher>Grand Rapids,
-      MI: Christian Classics Ethereal Library</publisher></bibl>
-    <bibl type="firstEdition" n="B8821"><title>Lilith: A Romance</title><author>MacDonald, George
+       MI: Christian Classics Ethereal Library</publisher><ref target="https://www.ccel.org/ccel/m/macdonald/lilith.xml">THML XML format</ref></bibl><bibl type="firstEdition" n="B8821"><title>Lilith: A Romance</title><author>MacDonald, George
       (1824-1905).</author><publisher>London: Chatto and Windus</publisher><date>1895</date>
-     <ref target="http://archive.org/details/lilithromance00macduoft"/></bibl>
-   </sourceDesc>
+     <ref target="http://archive.org/details/lilithromance00macduoft"/></bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -41,6 +44,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-03-21">LB convert to ELTeC-1</change>
   </revisionDesc>
  </teiHeader>

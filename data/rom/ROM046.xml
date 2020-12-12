@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns"
-    xml:id="ROM046" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM046" xml:lang="ro">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,10 +21,15 @@
                 <measure unit="pages">47</measure>
             </extent>
             <publicationStmt>
-                <p>Încorporat în ELTeC<date>2020-03-21</date></p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="printSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+            <sourceDesc><bibl type="printSource">
                     <author>V.A. Urechia</author>
                     <title>Logofătul Baptiste Veleli. Episod istoric din secolul al XVIII
                         lea</title>
@@ -33,15 +37,13 @@
                     <publisher>Tipografia Gobl</publisher>
                     <date>1883</date>
                     <ref target="http://doi.org/10.5281/zenodo.3722848">Facsimile on zenodo</ref>
-                </bibl>
-                <bibl type="firstEdition">
+                </bibl><bibl type="firstEdition">
                     <author>V.A. Urechia</author>
                     <title>Logofătul Baptiste Veleli. Episod istoric din secolul al XVIII
                         lea</title>
                     <pubPlace>Bucharest</pubPlace>
                     <date>1855</date>
-                </bibl>
-            </sourceDesc>
+                </bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-1">
             <p/>
@@ -53,11 +55,12 @@
             <textDesc>
                 <e:authorGender key="M"/>
                 <e:size key="short"/>
-                <e:canonicity key="low"/>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
                 <e:timeSlot key="T1"/>
             </textDesc>
         </profileDesc>
         <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
             <change when="2019-11-15">Initial TEI version generated.</change>
         </revisionDesc>
     </teiHeader>

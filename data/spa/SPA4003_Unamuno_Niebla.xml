@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA4003" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA4003" xml:lang="SPA">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,23 +16,21 @@
 				<measure unit="pages">313</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2020-02-05"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="firstEdition">
 					<date>1914</date>
 					<publisher>Renacimiento</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000200718">Biblioteca Digital Hispánica - Biblioteca Nacional de España</ref>
 					<idno type="BDH">bdh0000200718</idno>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>CLiGS – Computergestützte literarische Gattungsstilistik.</publisher>
 					<date when="2015">2015</date>
 					<idno type="cligs">ne0073</idno>
@@ -42,8 +41,7 @@
 						<resp>Anotación TEI y edición CLIGS</resp>
 						<name>José Calvo Tello</name>
 					</respStmt>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p/>
@@ -63,6 +61,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-02-05">Anotación ELTeC : Borja Navarro Colorado</change>
 		</revisionDesc>
 	</teiHeader>
@@ -79,7 +78,7 @@
 				<p>Buenos Aires, Libertad 172</p>
 				<p>1914</p>				 
 			</div>
-			<div  type="liminal">
+			<div type="liminal">
 				<head>Prólogo</head>
 				<p>Se empeña don Miguel de Unamuno en que ponga yo un prólogo a este su libro en que se relata la tan lamentable historia de mi buen amigo Augusto Pérez y su misteriosa muerte, y yo no puedo menos sino escribirlo, porque los deseos del señor Unamuno son para mí mandatos, en la más genuina acepción de este vocablo. Sin haber yo llegado al extremo de escepticismo hamletiano de mi pobre amigo Pérez, que llegó hasta a dudar de su propia existencia, estoy por lo menos firmemente persuadido de que carezco de eso que los psicólogos llaman libre albedrío, aunque para mi consuelo creo también que tampoco goza don Miguel de él.</p>
 				<p>Parecerá acaso extraño a alguno de nuestros lectores que sea yo, un perfecto desconocido en la república de las letras españolas, quien prologue un libro de don Miguel que es ya ventajosamente conocido en ella, cuando la costumbre es que sean los escritores más conocidos los que hagan en los prólogos la presentación de aquellos otros que lo sean menos. Pero es que nos hemos puesto de acuerdo don Miguel y yo para alterar esta perniciosa costumbre, invirtiendo los términos, y que sea el desconocido el que al conocido presente. Porque en rigor los libros más se compran por el cuerpo del texto que no por el prólogo, y es natural por lo tanto que cuando un joven principiante como yo desee darse a conocer, en vez de pedir a un veterano de las letras que le escriba un prólogo de presentación, debe rogarle que le permita ponérselo a una de sus obras. Y esto es a la vez resolver uno de los problemas de ese eterno pleito de los jóvenes y los viejos.</p>
@@ -96,7 +95,7 @@
 				<p>de creerse eterno. Y esto explica que tres de los autores más favoritos de don Miguel sean Sénancour, Quental y Leopardi.</p>
 				<p>Pero este adusto y áspero humorismo confusionista, además de herir la recelosidad de nuestras gentes, que quieren saber desde que uno se dirige a ellas a qué atenerse, molesta a no pocos. Quieren reírse, pero es para hacer mejor la digestión y para distraer las penas, no para devolver lo que indebidamente se hubiesen tragado y que puede indigestárseles, ni mucho menos para digerir las penas. Y don Miguel se empeña en que si se ha de hacer reír a las gentes debe ser no para que con las contracciones del diafragma ayuden a la digestión, sino para que vomiten lo que hubieren engullido, pues se ve más claro el sentido de la vida y del universo con el estómago vacío de golosinas y excesivos manjares. Y no admite eso de la ironía sin hiel ni del humorismo discreto, pues dice que donde no hay alguna hiel no hay ironía y que la discreción está reñida con el humorismo o, como él se complace en llamarle: malhumorismo.</p>
 				<p>Todo lo cual le lleva a una tarea muy desagradable y poco agradecida, de la que dice que no es sino un masaje de la ingenuidad pública, a ver si el ingenio colectivo de nuestro pueblo se va agilizando y sutilizando poco a poco. Porque le saca de sus casillas el que digan que nuestro pueblo, sobre todo el meridional, es ingenioso. «Pueblo que se recrea en las corridas de toros y halla variedad y amenidad en ese espectáculo sencillísimo, está juzgado en cuanto a mentalidad», dice. Y agrega que no puede haber mentalidad más simple y más córnea que la de un aficionado. ¡Vaya usted con paradojas más o menos humorísticas al que acaba de entusiasmarse con una estocada de Vicente Pastor! Y abomina del género festivo de los revisteros de toros, sacerdotes del juego de vocablos y de toda la bazofia del ingenio de puchero.</p>
-				<p>Si a esto se añade los juegos de conceptos metafísicos en que se complace, se comprenderá que haya muchas gentes que se aparten con disgusto de su lectura, los unos porque tales cosas les levantan dolor de cabeza, y los otros porque, atentos a lo de que <foreign  xml:lang="lat">sancta sancte tractanda sunt,</foreign> «lo santo ha de tratarse santamente», estiman que esos conceptos no deben dar materia para burlas y jugueteos. Mas él dice a esto que no sabe por qué han de pretender que se traten en serio ciertas cosas los hijos espirituales de quienes se burlaron de las más santas, es decir, de las más consoladoras creencias y esperanzas de sus hermanos. Si ha habido quien se ha burlado de Dios, ¿por qué no hemos de burlarnos de la Razón, de la Ciencia y hasta de la Verdad? Y si nos han arrebatado nuestra más cara y más íntima esperanza vital, ¿por qué no hemos de confundirlo todo para matar el tiempo y la eternidad y para vengarnos?</p>
+				<p>Si a esto se añade los juegos de conceptos metafísicos en que se complace, se comprenderá que haya muchas gentes que se aparten con disgusto de su lectura, los unos porque tales cosas les levantan dolor de cabeza, y los otros porque, atentos a lo de que <foreign xml:lang="lat">sancta sancte tractanda sunt,</foreign> «lo santo ha de tratarse santamente», estiman que esos conceptos no deben dar materia para burlas y jugueteos. Mas él dice a esto que no sabe por qué han de pretender que se traten en serio ciertas cosas los hijos espirituales de quienes se burlaron de las más santas, es decir, de las más consoladoras creencias y esperanzas de sus hermanos. Si ha habido quien se ha burlado de Dios, ¿por qué no hemos de burlarnos de la Razón, de la Ciencia y hasta de la Verdad? Y si nos han arrebatado nuestra más cara y más íntima esperanza vital, ¿por qué no hemos de confundirlo todo para matar el tiempo y la eternidad y para vengarnos?</p>
 				<p>Fácil es también que salga diciendo alguno que hay en este libro pasajes escabrosos, o, si se quiere, pornográficos; pero ya don Miguel ha tenido buen cuidado de hacerme decir a mí algo al respecto en el curso de esta <emph>nivola</emph>. Y está dispuesto a protestar de esa imputación y a sostener que las crudezas que aquí puedan hallarse ni llevan intención de halagar apetitos de la carne pecadora, ni tienen otro objeto que de ser punto de arranque imaginativo para otras consideraciones.</p>
 				<p>Su repulsión a toda forma de pornografía es bien conocida de cuantos le conocen. Y no sólo por las corrientes razones morales, sino porque estima que la preocupación libidinosa es lo que más estraga la inteligencia. Los escritores pornográficos, o simplemente eróticos, le parecen los menos inteligentes, los más pobres de ingenio, los más tontos, en fin. Le he oído decir que de los tres vicios de la clásica terna de ellos: las mujeres, el juego y el vino, los dos primeros estropean más la mente que el tercero. Y conste que don Miguel no bebe más que agua. «A un borracho se le puede hablar —me decía una vez— y hasta dice cosas, pero ¿quién resiste la conversación de un jugador o un mujeriego? No hay por debajo de ella sino la de un aficionado a toros, colmo y copete de la estupidez».</p>
 				<p>No me extraña a mí, por otra parte, este consorcio de lo erótico con lo metafísico, pues creo saber que nuestros pueblos empezaron siendo, como sus literaturas nos lo muestran, guerreros y religiosos para pasar más tarde a eróticos y metafísicos. El culto a la mujer coincidió con el culto a las sutilezas conceptistas. En el albor espiritual de nuestros pueblos, en efecto, en la Edad Media, la sociedad bárbara sentía la exaltación religiosa y aun mística y la guerra —la espada lleva cruz en el puño—; pero la mujer ocupaba muy poco y muy secundario lugar en su imaginación, y las ideas estrictamente filosóficas dormitaban, envueltas en teología, en los claustros conventuales. Lo erótico y lo metafísico se desarrollan a la par. La religión es guerrera; la metafísica es erótica o voluptuosa.</p>
@@ -2415,7 +2414,7 @@
 			</div>
 		</body>
 		<back>
-			<div>
+			<div type="liminal">
 				<head>Oración fúnebre por modo de epílogo</head>
 				<p>Suele ser costumbre al final de las novelas y luego que muere o se casa el héroe o protagonista dar noticia de la suerte que corrieron los demás personajes. No la vamos a seguir aquí ni a dar por consiguiente noticia alguna de cómo les fue a Eugenia y Mauricio, a Rosario, a Liduvina y Domingo; a don Fermín y doña Ermelinda, a Víctor y su mujer y a todos los demás que en tomo a Augusto se nos han presentado, ni vamos siquiera a decir lo que de la singular muerte de este sintieron y pensaron. Sólo haremos una excepción y es en favor del que más honda y más sinceramente sintió la muerte de Augusto, que fue su perro, Orfeo.</p>
 				<p>Orfeo, en efecto, encontróse huérfano. Cuando saltando en la cama olió a su amo muerto, olió la muerte de su amo, envolvió a su espíritu perruno una densa nube negra. Tenía experiencia de otras muertes, había olido y visto perros y gatos muertos, había matado algún ratón, había olido muertes de hombres, pero a su amo le creía inmortal. Porque su amo era para él como un dios. Y al sentirle ahora muerto sintió que se desmoronaban en su espíritu los fundamentos todos de su fe en la vida y en el mundo, y una inmensa desolación llenó su pecho.</p>

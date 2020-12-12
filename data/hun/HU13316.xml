@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU13316" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU13316" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>A Kont-eset :  Fantasztikus regény a XXI. századból  : ELTeC edition
             </title>
-            <author ref="viaf:121485073">Szemere, György (1863-1930)</author>
+            <author ref="viaf:121485073">Szemere György (1866-1952)
+            </author>
             <respStmt>
                <resp>ELTeC conversion</resp>
                <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
                </name>
                <name>Fellegi Zsófia</name>
-               <name>Takács Emma</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
             </respStmt>
          </titleStmt>
          <extent>
             <measure unit="words">52170</measure>
             <measure unit="pages">328</measure>
          </extent>
-         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
-         <sourceDesc><bibl type="digitalSource">
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
                <title>A Kont-eset :  Fantasztikus regény a XXI. századból </title>
                <date>2014-09-25</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -35,35 +35,40 @@
                   <name>Molnár Éva</name>
                   <name>Borcsiczky Krisztina</name>
                </respStmt>
-               
-               
-            </bibl><bibl type="digitalSource">
+            
+                  <bibl type="digitalSource">
                      <title>A Kont-eset :  Fantasztikus regény a XXI. századból </title>
                      <date>2014-09-25</date>
-                  </bibl><bibl type="firstEdition">
+                  </bibl>
+               
+               
+                  <bibl type="firstEdition">
                      <title>A Kont-eset : fantasztikus regény a XXI. századból </title>
                      <author> Szemere György</author>
                      <pubPlace>Budapest</pubPlace>
                      <publisher>Franklin</publisher>
                      <date>1911</date>
-                     <ref target="http://nektar.oszk.hu/hu/manifestation/3148962"/>
-                  </bibl></sourceDesc>
+                     <ref target="http://mek.oszk.hu/13300/13316/pdf/"/>
+                  </bibl>
+               
+            </bibl>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="hu"/>
+            <language ident="hu">Hungarian</language>
          </langUsage>
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
-            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
+      <revisionDesc>
          <change when="2019-04-23"/>
          <change when="2018-11-22"/>
          <change when="2018-11-19"/>

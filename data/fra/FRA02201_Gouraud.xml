@@ -8,9 +8,13 @@
     <fileDesc>
       <titleStmt>
         <title ref="oclc:559725443 viaf:unavailable wikidata:missing">Quand je serai grande : édition ELTeC</title>
-        <author xml:id="Gouraud" ref="viaf:31987653 wikidata:Q18115130">Gouraud, Julie [Louise d'Aulnay] (1810-1891)</author>
+        <author ref="viaf:31987653 wikidata:Q18115130">Gouraud, Julie [Louise d'Aulnay] (1810-1891)</author>
         <respStmt>
-          <resp>principal</resp>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,15 +25,14 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
-        <!--
-          Published as part of ELTeC
-          2018-11-01
-        -->
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -37,12 +40,20 @@
           <ref target="http://beq.ebooksgratuits.com" />
         </bibl>
         <bibl type="printSource">
+          <title>Quand je serai grande</title>
+          <author>Julie Gouraud</author>
           <pubPlace>Paris</pubPlace>
           <publisher>Librairie Hachette et Cie</publisher>
           <date>1888</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k6512275q" />
         </bibl>
         <bibl type="firstEdition">
+          <title>Quand je serai grande</title>
+          <author>Julie Gouraud [Louise d'Aulnay]</author>
+          <publisher>Hachette et Cie</publisher>
+          <pubPlace>Paris</pubPlace>
           <date>1888</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k6512275q" />
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -66,6 +77,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2018-11-01">Conversion with CLIGStoELTeC stylesheet for ELTeC-1</change>
       <change when="2015-07-17">cf Initial TEI version.</change>

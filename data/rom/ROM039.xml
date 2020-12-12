@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM039" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM039" xml:lang="ro">
   
    <teiHeader>
       <fileDesc>
@@ -28,26 +27,29 @@
             <measure unit="pages">141</measure>
          </extent>
          <publicationStmt>
-            <p></p>
-         </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
          
-         <sourceDesc>
-            <bibl type="firstEdition">
+         <sourceDesc><bibl type="firstEdition">
                <author>D.D.P</author>
                <title>Codreanu Mare Haiduc National.Ilustrat cu sase gravuri</title>
                <pubPlace>Bucharest</pubPlace>
                <publisher>Editura Tipo-Litografiei Dor. P. Cucu</publisher>
                <date>1882</date>
-            </bibl>
-            <bibl type="printSource">
+            </bibl><bibl type="printSource">
                <author>D.D.P</author>
                <title>Codreanu Mare Haiduc National.Ilustrat cu sase gravuri</title>
                <pubPlace>Bucharest</pubPlace>
                <publisher>Editura Tipo-Litografiei Dor. P. Cucu</publisher>
                <date>1886</date>
                <ref target="http://doi.org/10.5281/zenodo.3229291">Facsimile on zenodo</ref>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       
       <encodingDesc n="eltec-1"><p/></encodingDesc>
@@ -60,12 +62,13 @@
          <textDesc>
             <e:authorGender key="U"/>
             <e:size key="short"/>
-            <e:canonicity key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <e:timeSlot key="T3"/>
          </textDesc>
       </profileDesc>
       
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2020-03-20">Initial TEI version generated.</change>
       </revisionDesc>
     
@@ -76,8 +79,8 @@
      <front>
    <div type="titlepage">
    <p>BUCURESCI</p>
-   <p>EDITURA. TIPO-LITOGRAFIEI DOR. P. CUGU. Bulevardul Elisabeta 8. şi Str. Sărindar 10</p><gap unit="illustration"></gap>
-   <p>Codreanu</p> <gap unit="illustration"></gap></div></front>
+   <p>EDITURA. TIPO-LITOGRAFIEI DOR. P. CUGU. Bulevardul Elisabeta 8. şi Str. Sărindar 10</p><gap unit="illustration"/>
+   <p>Codreanu</p> <gap unit="illustration"/></div></front>
 
 <body>
   
@@ -117,7 +120,7 @@
    <p>A treia di de uă dată cu sfinţitul sórelui, b$trânul tată muri ca un copil, dup$ ce putu să’şĭ îmbrăţişeze copii şi pe Şanta care nu se miş-case de la căp$têiul s$ŭ. Lacrămile şi durerea intrară în acea lume. Codreanul era desperat, iar surió-rele luĭ înpreună cu Şanta plângeaŭ fără ca lacrămile lor să înceteze, plângeaŭ pe nefericitul bătrân care n’avusese parte să se bucure de sórta sopiilor sĕĭ.</p>
 <p>Nunta trebui să fie amânată pentru un timp mai îndelungat, pentru un timp care luĭ Codrénu ’i se părea fără sfêrşit, căcĭ el începuse a ubi pe Santa cu atăta foc în cât ar fi dat jumătate din viaţa luĭ numaĭ ca minutul unireĭ lor să nu fie împedicat de nimic.</p>
       
-      <milestone unit="subchapter"></milestone>
+      <milestone unit="subchapter"/>
       <p>Trecuse aprópe un an de la mórtea bĕtrânului Codreanu num$ra dilele ce ’lŭ maĭ despărţeaŭ de nuntă precum osânditul num$ră minutele ce mai despartŭ de libertate.</p>
    <p>Santa se făcea tot mai frumósă şi atrăgea tot maĭ mult privirĭ asupra eĭ. Nenorocirea însă ni să isb^scă din noŭ fericirea lor.</p>
    <p>Trăia pe atuncĭ în satul Codreniĭ   aŭ lichea de ec venit din fanar   pentru a se pricopsi din munca ţ$ranului român. El nu făcea de cât să înşele în dr^pta şi stânga, cumpărând maĭ pe nimic productele sătenilor şi apoĭ vêndêndu-le pe preţurĭ marĭ. Găsea pe ţ$ran tocmaĭ când era maĭ în lipsă de banĭ pentru a plăti birurile cele s$lbatece pe carĭ stăpânirea cea vitregă le tot punea pe capul ţĕrĕĭ     şi ’l făcea să ’şĭ vêndă munca pe a zecea parte din valóre. El, de câtă-va vreme ’şĭ aruncase ochiĭ sĕĭ de pasăre răpitóre pe cea maĭ frumósă fată din sat, pe Santa şi voia cu orĭ ce chip să veştejască acésta flóre curată ca rouă dimineţeĭ, dulce şi mângăetóre ca rada luneĭ de August. Merse chiar pênă acolo în cât ceru să o iea de nevastă; der părinţii fetei ’lŭ respinseră sub cuvênt că fata e prea tin$ră pentru a o mărita şi apoĭ pentru că ea este logodită cu un altul pe care ’1 iubesce şi pe care voesce a ’l lua de bărbat.</p>
@@ -140,13 +143,13 @@
       <p>Era o situaţiune disperată, şi cu tóte acestea satul nu putea s’ajute în nimic acestor copiĭ pe cari Dumnedeŭ părea că ’ĭ-a oropsit, iar stăpânirea nicĭ nu se gândea la eĭ! Păcătóse vremurĭ în carĭ ceĭ de sus păstréză bucuriile numaĭ pentru eĭ şi aĭ lor, iar cât pentru popor, nicĭ uă gândire, nicĭ uă faptă! De focul iaduluĭ să aibă parte toţĭ aceia care uă dată suiţĭ pe spinarea poporuluĭ, nu se maĭ gândesc la el! De resbunarea poporuluĭ nesocotit şi batjocorit aibă parte toţĭ tiraniĭ pămêntuluĭ.</p>
    <p>Codreanu zăcu douĕ sîptemânĭ îngrijit de surióre şi de părinţiĭ Santeĭ. După ce să însănătoşi din noŭ începu să ’lŭ munciască dorul de a pleca să caute pe iubita sa logodnică, şi de astă dată dorul de resbunare aprinse în inima sa un loc aşa de mare în cât el simţea bine că saŭ va părăsi sat, casă şi familie pentru Santa, saŭ va cădea din noŭ bolnav pentru a nu se maĭ însănătoşi.</p>
       
-      <milestone unit="chapter"></milestone>
+      <milestone unit="chapter"/>
 <p>In timpul acesta, domnea în Moldova Istrate Dabija următorul luĭ Ştefănuţ-Vodă saŭ Ştefan XIII, fiul luĭ Vasile Lupul.</p>
 <p>Despre Dabija, historia nu ne prea spune mult. Un lucru însă este de sigur: că stricarea moravurilor la ceĭ marĭ era aceea ca sub Ştefan XIII despre care vom vorbi puţin pentru a arăta ce fel de urmaş avusese bunul Domn Vasile Lupu. </p>
    <p>Stefănuţă saŭ Ştefan XIII fusese unul din Domniĭ ceĭ maĭ de nimic. Acestă stârpitură suită pe tron se îngrijea de trebile ţăreĭ maĭ puţin ca de orĭ-ce. Era într’atâta de stricat în cât însu’ş boeriĭ carĭ ’lŭ sprijiniseră la urcarea sa pe tron ’lŭ urau de mórte din causa corupţiuneĭ obiceiurilor sale. Chronica ne spune despre moralitatea acestuĭ Domn atâtea lucrurĭ, în cât ne e scârbă şi ruşine a le maĭ povesti. Este destul să ne aducemŭ aminte că pe vremea luĭ, nu se maĭ putea găsi de cât rar, prin ţinuturile de prin prejurul scaunuluĭ domnesc, fete frumóse pe carĭ lăcomia de banĭ ai grecilor carĭ furnicaŭ prin ţară să nu le fi amăgit saŭ furat pentru a le duce plocon Domnuluĭ, precum diceaŭ eĭ, şi apoĭ a le trimite înapoĭ la părinţĭ lor ruşinate saŭ a le arunca pe uliţele Iaşuluĭ in prada altor ticăloşiĭ. Este destul să ne aducem aminte că până şi băieţiĭ boerilor, aceia carĭ se bu   curaŭ de óre-care frumuseţe credeaŭ că este de onórea lor a se pune în bune relaţiunĭ cu ómenĭ palatuluĭ pentru ca Vodă să’şĭ arunce privirea asupra lor ... Ce ruşine! Când Ştefan XIII eşia la plimbare saŭ la vînătóre nu găsea nimic maĭ bun a petrece de cât a porunci ca pe boerĭ să'ĭ pună pe caĭ turceştĭ neînv$ţaţĭ şi apoĭ, ducêndu’ĭ pe deal le lua frânele şi da drumul cailor la vale ca să’şĭ rupă gâtul şi caiĭ şi boeriĭ. Maĭ avea acest Domn stricat un foişor înalt, în mijlocul unuĭ heleşteŭ lângă casele domnescĭ. Acolo chema pe boerĭ lângă dânsul şi apoi poruncea slujitorilor să iea pe uniĭ şi să’ĭ arunce în heleşteŭ, pe urmă ’ĭ scotea, ’ĭ îmbrăca în haine domnescĭ şi făcea haz mare.</p>
    <p>Codreanu tocmai se muncea cu gândul ce să facă pentru a găsi pe Santa, tot de uă dată însă pentru a nu lăsa în părăsire pe cele două surorĭ, când într’una din serĭ, pe când fetele eraŭ la o şezăţóre din apropiere, Codreanu care sta cu capul între mâinĭ pe o laviţă din tinda caseĭ, se pomeni de uă odată cu doĭ arnăuţĭ despre a căror sosire în sat el nu aflase nimic şi care ’ĭ spuseră că n’are voie să iasă din casă până a doua di de dimineţă, când va trebui să meargă cu eĭ la Iaşĭ unde s’adună oştire să meargă la resbel. Codreanu rămase ca trăsnit la această veste cu totul neaşteptată; căcĭ dacă el pleca atât Santa rămânea póte pentru tot-d’a una înstreinată de el cât şi surorile luĭ rămân singure fără sprijin şi apărare. El era atât de uimit, în cât nu se maĭ putea gândi la greutatea situaţiuneĭ sale.</p>
       <p>In zadar încercă el să se apere de acéstă nouă nenorocire. In zadar arăta arnăuţilor că el e singurul bărbat in casă şi singurul ajutor al surorilor; arnăuţiĭ diceaŭ că aşea li s’a poruncit şi aşa trebue să facă. Lui Codreanu ’ĭ veni ideia să se furişeze, să iasă afară şi apoĭ să alerge la şedătóre pentru a lua pe surorĭ şi a fugĭ cu ele - încotro va vedea cu ochiĭ; dar, arnăuţiĭ avuseseră grije să încue bine uşa caseĭ iar eĭ staŭ</p>
-      <gap unit="illustration" rend="Spunetĭ tâlharilor unde sunt suriórele mele, s^ŭ v$ ucid aci pe nisce cânĭ"></gap>
+      <gap unit="illustration" rend="Spunetĭ tâlharilor unde sunt suriórele mele, s^ŭ v$ ucid aci pe nisce cânĭ"/>
 <p>la răpirea fetelor şi nebun de durere s’aruncă pe calul s$ŭ de flăcăŭ şi ca fulgerul porni pe dru-mul cel mare ce ducea către Iaş$, către capitala ţăreĭ, către acel cuib al ticăloşilor ce necinsteau aducerea aminte a virtuţilor vechilor Domnĭ către acel tron tăvălit în mocirla infamiilor! </p>
 <p>Vêntul sufla cu putere de peste câmpia deşartă pe care un singur căl$tor alerga maĭ repede ca vîntul străb$tînd tăcerea nopţeĭ pe care el singur o îngâna cu plânsul şi blestemele sale.</p>
       <p>Alergase mult şi nóptea era pe sfârşitul eĭ, când Codreanu zări înaintea sa o telégă dusă de şése caĭ în care el deosebi maĭ mulţi ómenĭ. Inţelese că acolo trebuie să fie surorile luĭ şi grăbi calul. De o dată însă o detunătură porni din teléga tâlharilor şi calul Codreanului isbit în frunte cădu.</p>
@@ -446,7 +449,7 @@
    <p>Grecul tremura din tóte membrele, gura ’ĭ se încleştase şi părul ’ĭ se ridicase în sus de gróză gândindu-se că póte gândul Codreanului ar fi să ’l ucidă. El nu se înşela; căci Codreanu dise luĭ Stoica: </p>
       <p>— Dute băete a casă cu trăsura; iau cât pentru boer, mâine poţĭ spune ce veĭ voĭ căcĭ noă tot una ne face. El va r$mânea cu noĭ aicĭ, pentru că maĭ avem câte-va de vorbit.</p>
 <p>Stoica se cutremură la rândul sěŭ de idea că</p>
-   <gap unit="illustration" rend="Dreptatea este făcuta, scumpă Santă; aidem d’aicĭ şi să nu maĭ vorbim de acela care a iost pricina nenorocireĭ nóstre!.."></gap>
+   <gap unit="illustration" rend="Dreptatea este făcuta, scumpă Santă; aidem d’aicĭ şi să nu maĭ vorbim de acela care a iost pricina nenorocireĭ nóstre!.."/>
 
 <p>stăpânul sĕŭ va fi omorît, dar nu îndrăsni să dică vre uă vorbă de rugăciune, ci se mărgini numaĭ a întreba pe boer:</p>
 <p>Când să mă întorc cucóne?</p>
@@ -517,7 +520,7 @@
    <p>Duminica hotărîtă sosi şi Codreanu fu ridicat din umbrele închisoreĭ sale pentru a fi dus la divan, în acea strălucită sală a palatuluĭ Domn-nesc în care de maĭ multe ori se împărţea dreptatea numai la linguşitorĭ şi la veneticĭ şi unde mórtea aştepta în tot-d’a-una lacomă să înfăşure în pânzele eĭ viaţa osândituluĭ.</p>
 <p>In acea di, Vodă arătase dorinţa de a fi aşteptat la divan de toţĭ boeriĭ ceĭ marĭ. Măria Sa voise ca judecata mareluĭ vinovat să se facă în de fiinţa tuturor sfetnicilor sĕĭ, pentru ca cu toţĭ s’audă ap$rarea haiducului şi căusele carĭ l’aŭ făcut să se porn^scă cu atâta crudime în potriva boerilor. Negreşit prin ac^sta Vodă arătase tuturor că el se interes^ză de adev$r şi dreptate şi că voesce a sci dacă nu cum-va însuşĭ boieriĭ, prin faptele lor, aŭ adus pe s$rac la des-nădejdie şi la rescularea făţişe în contra stăpânireĭ. Boeriĭ, însă, înţeleseră în alt-fel dorinţa luĭ Vodă. Ei credură că prin însemnătatea ce se da acesteĭ judecăţi, Măria Sa voesce a le arăta că este unit cu eĭ toţĭ când e vorba de a năbuşi încercările de libertate ale poporului şi a pedepsi pe protivniciĭ stăreĭ de lucrurĭ de sub administraţia lor.</p>
    <p>Divanul era ast-fel alcătuit. Uă mare sofa tur-c^scă în fundul căreia sta Ilie III-lea îmbrăcat în haină de s$rbătóre, după cum obicinuja să vină la divan, în cap cu gugiumanul Domnescŭ împodobit cu pietre scumpe şi alăturea de el buzduganul care înfăţişa puterea. Maĭ la uă parte pe marginea sofaleĭ sta un grec ţanţoşĭ ca un nătărăŭ, înalt, slab şi cu ochiĭ micĭ, care venise din Ţarigrad încă din copilăria sa, adus de unul din sfetniciĭ luĭ Alexandru Ilie şi care ca toţĭ fanarioţiĭ, in puţină vreme ’şĭ făcuse stare, cum-p$rase rangurĭ şi înaintase din tr^ptă în tr^ptă până la demnitatea de cel dintêiŭ între ceĭ din-têiŭ. El se numea Zevzechiades şi încă de pe timpu luĭ Duca Vodă reuşise prin banĭ şi linguşire, a ocupa cea mai înaltă onóre, înlăturând pe alţiĭ care póte ar fi avut maĭ multe merite e cât el. Pe lângă aceştia eraŭ încă doĭ-spre-dece boerĭ care staŭ pe nişte divanurĭ în forma unei potcóve prea deschisă, ş^se de a dr^pta şi ş^se de a stânga luĭ Vodă. Aprópe de uşă, sta drept neclintit Armaşul care comanda bandele de arnăuţĭ şi care sta gata să prim^scă poruncile ce ĭ se vor da, iar în fundul săleĭ se vedea figura posomorită a gâdeluĭ care n’astepta de cât uă pradă mai mult.</p>
-<p>>Divanul era complect şi după ordinul Mărieĭ Sale, Codreanu fu introdus de patru arnăuţĭ înalţĭ şi spătoşĭ.</p>
+<p>&gt;Divanul era complect şi după ordinul Mărieĭ Sale, Codreanu fu introdus de patru arnăuţĭ înalţĭ şi spătoşĭ.</p>
 <p>Intrând în ac^stă sală, haiducul ’şĭ roti ochiĭ s$ĭ marĭ şi inteligenţĭ peste întreaga Adunare şi un zimbet trist se ivi pe buzele erouluĭ care nu mai atuncea v$duse pe ce fel de mâinĭ căzuse biata ţ^ră şi ce fel de capete conduceaŭĭ destinele poporuluĭ român.</p>
    <p>Statura înaltă şi înfăţişarea voinic^scă a haiduculuĭ făcură pe judecătorĭ a simţi ca un fior rece trecăndu-le prin inimĭ. Pasul hotărât cu care Codreanu înaintea către divan, arăta un cu-ragiŭ nestrămutat şi uă voinţă tare cum nu póte avea de cât martirul care sta gata în orĭ-ce minuut să móră cu fruntea senină pentru a-dev$r şi dreptate.</p>
    <p>Luĭ Vodă ’ĭ plăcuse mult înfăţişarea curagiósă a haiduculuĭ şi cu vocea bine-voitóre ’ĭ dise :</p>
@@ -557,7 +560,7 @@
    <p>Codreanu se uită la el cu nepăsare și ĭ r$spunse tot încet:</p>
       <p>— Încă nu m am săturat!</p>
       <p>—Te va sătura funia, dise lipitórea rîdênd cu satisfacțiune.</p>
-      <p>— Vom vedea cine va rîde maĭ cu poftă, <gap unit="illustration" rend="numai făcliile de la altar întrerupeau această tăcere"></gap> -răspunse Codreanu, şi temêndu-se să nu ’şĭ trădeze gândul, adause: — După ce voiŭ murĭ eŭ veĭ avea aface cu mulţĭ alţĭ de felul meŭ şi atuncĭ nu veĭ maĭ rîde.</p>
+      <p>— Vom vedea cine va rîde maĭ cu poftă, <gap unit="illustration" rend="numai făcliile de la altar întrerupeau această tăcere"/> -răspunse Codreanu, şi temêndu-se să nu ’şĭ trădeze gândul, adause: — După ce voiŭ murĭ eŭ veĭ avea aface cu mulţĭ alţĭ de felul meŭ şi atuncĭ nu veĭ maĭ rîde.</p>
    <p>Armaşul deschise uşa prin care Codreanu fusese introdus la Divan şi haiducul fu condus la biserică de către patru arnăuţĭ carĭ avură grija de a’ĭ maĭ strânge lanţul ce’ĭ lega mânele şi pi-ciórele fără să bage de s^mă că unul din inelele lanţului de la mâna dr^ptă era pe jumătate desfăcut.</p></div>
    
    <div type="chapter" n="14">
@@ -668,7 +671,7 @@
 <p>Se despărţiră. Codreanu apucă drumul către Iaşĭ, iar mocanul se îndreptă către monastirea unde aflase că sunt fetele şi pe când cel dintâiŭ suia treptele palatului, cel d’al doilea afla nenorocirea întâmplată şi din vorbele fetelor înţelese hotărârea desperată e nefericituluĭ haiduc.</p>
 <p>Era de prisos orĭ-ce încercare de a’ĭ maĭ veni ’n ajutor şi mocanul plecă trist gândindu-se la poveţele ce ’ĭ dăduse Codreanu.</p>
 
-<milestone unit="subchapter"></milestone>
+<milestone unit="subchapter"/>
    <p>La palat era tocmaĭ sfat domnescŭ pentru a porni potera în tótă ţ^ra şi a prinde pe Co-dreanu viŭ saŭ mort, când haiducul care avea în sîn cuţitul, trecu ca un fulger printre păzitorĭ şi intră ca uă bombă în sala divanuluĭ. Tótă lumea r$mase înmărmurită, iar Codreanu înainta până aprópe de Vodă şi adresându-se către Zevzechiades,’şĭ armă buzele cu un surîs prefăcut şi dise:</p>
 <p>—     Nu v$ maĭ socotiţĭ pentru prinderea mea căcĭ am venit singur să ’mĭ iaŭ pedeapsa ce mi se cuvine. Inainte însă de a muri, aşĭ voi să fac încă un bine ţ$reĭ mele. Aşĭ voi să spun celuĭ dintêiŭ sfetnic al Mărieĭ şale că o mare primej-die ’lŭ aşt^ptă, dar aşĭ voi să ’ĭ spun la ureche.</p>
 <p>Boerii trediţĭ din zăpăc^lă în care ’ĭ aruncase intrarea fără veste a luĭ Codreanu, se uitaŭ miraţi când la haiduc, când la Zevzechiades, când la Vodă.</p>
@@ -688,7 +691,9 @@
    </body>
      
      <back>
-        <p>IN EDITURA LIBRĂRIEI</p> <p>H. STEINBERG</p>
+        <div type="liminal">
+        <p>IN EDITURA LIBRĂRIEI</p> 
+           <p>H. STEINBERG</p>
         <p>BUCURESCI aü apărut următor ele cărţi,:</p>
         <p>Drama din Str. Sevastopol, . . 2 voi. Lei 2— Romeo şi Julieta, </p>
         <p>Dramele Monastireî, (Roman). —</p>
@@ -713,5 +718,7 @@
         <p>(Un frumos volum de peste 400 pagini format mare)</p>
         <p>Preciul 5 lei.</p>
         <p>Costul se poate înainta in mărci poştale (în plic recomandat) şi domnii prenumăraţi vor primi cartea francată şi recomandată.</p>
+        </div>
      </back>
-  </text></TEI>
+  </text>
+</TEI>

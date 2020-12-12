@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM050" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM050" xml:lang="ro">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -24,38 +24,40 @@
                         <measure unit="pages">110</measure>
                   </extent>
                   <publicationStmt>
-                        <p>Încorporat în ELTeC<date>2020</date>
-                        </p>
-                  </publicationStmt>
-                  <sourceDesc>
-                        
-                                              
-                        <bibl type="printSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+                  <sourceDesc><bibl type="printSource">
                               <author>Ion Pop-Florantin</author>
                               <title>Horea. Roman original (după actele istorice publicate de A. Papiu, A. Odobescu, N. Densușianu, și tradiție )</title>
                               <pubPlace>Iasi</pubPlace>
                               <publisher>Tipografia Lucrătorilor Români Asociați.</publisher>
                               <date>1885</date>
                               <ref target="http://doi.org/10.5281/zenodo.3736491">Facsimile on zenodo</ref>
-                        </bibl>
-                  </sourceDesc>
+                        </bibl></sourceDesc>
             </fileDesc>
             <encodingDesc n="eltec-1">
-                  <p></p>
+                  <p/>
             </encodingDesc>
             <profileDesc>
                   <langUsage>
-                        <language ident="ro"></language>
+                        <language ident="ro"/>
                   </langUsage>
                   <textDesc>
                         <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
                         <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-                        <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+                        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
                         <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
                        
                   </textDesc>
             </profileDesc>
             <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
                   <change when="2019-09-20">Initial TEI version generated.</change>
             </revisionDesc>
       </teiHeader>
@@ -71,11 +73,10 @@
                         <p>Iași</p>
                         <p>Tipografia lucratorilor români asociați</p>
                         <p>1885</p>
-                        <p></p>
-                  </div>
-                  <div>
+                        <p/></div>
                         <gap unit="page" extent="1"/>
-    <head>HOREA</head>
+                        <div type="liminal">
+                              <head>HOREA</head>
 <p>A trecut un vec întreg de atunci și mai bine. Mii de români au fost siliți să vadărnortea crâncenă a unui mare aposte’ șimucenic, mortea unui adevărat Mântuitoral lor.</p>
 <p>Faptele lui, sângele lui au adus în urmă desrobirea lor și a fraților lor.</p>
 <p>Mamele române și astăzi își învață copilașii, să se roge lui dumnezeu pentru sufletul acelui mântuitor si mucenic.</p>
@@ -778,7 +779,7 @@
 <p>Glontele lui Crișanu intrase în pieptul cel de lup.</p>
 <p>Castelul domnesc din Curechi roșește ceriul cu flăcările sale.....</p>
 <p>*</p>
-<p></p>
+<p/>
 <p>In revărsatul zorilor; tăcere fiorosă, o față de om se trage mai mult pe jos în patru brînci, de lîngă grămădile de teciuni, gemînd si oftînd :</p>
 <p>— Dă domne, să nu mor pînă nu-1 voiu vedea pe rotă!</p>
 <p>Într’un loc aude tropote de cai, el se ascunde în șanțul de pe lingă drum; vede trecînd nisce călăreți, și-i aude vorbind:</p>
@@ -814,7 +815,7 @@
 <p>Sâmbăta următóre începu a se ridica valea Streiului, așa, se desrobiră în două trei zile Pescăria, Simeria, Bîrcea-Mare, Nighighiș, Pestișul-de-sus și de jos, Almașul Ghîrgociului, Bărcia, Tomășescii, Batiz, Buituri,Sânta-Maria-de-Petră, Sânjorjul, Titid, Strein, Ruși, Bățălariu, Bretea-ungurescă și cea Romănescă, Silvașul-de-sus și cel de jos, Sânta Maria-Hațegului, Nălaț, Vadu, Reia, Pâclișa, Cârnesci, Unciuc, Breazova, Grădiscea, Ostrov, Clopotiva, Rîu-de-Mori, Ciopeia, Rusoru, Rîu-alb, Galați, Puiu, Ponor, Rîu-Bărbat, Salasul de sus, Cinciș, Măcesci, Șerel, Zaicani, și alte sate pănă la hotarul țerei.</p>
 <p>In șepte zile spulberară românii curți de ale tiranilor două sute și treizeci și două.</p>
 <p>La porunca lui Horea, din tote pivnițele ridicară buțile cu vin și rachiu, și le rostogoliră pînă în Mureș și alterîuri și șanțuri’ca nu cum-va otrava îor să aducă mortea unui romîn macar.</p>
-<p></p>
+<p/>
 <p>Horea e în Albac; el poruncește lui Cloșcă:</p>
 <p>— Să prindi pre Vasile Goia, și pre ceilalți tirani birei ai satelor Vidra, și celorlalte dimprejur, și să-i aduci dinaintea mea la Albac.</p>
 <p>— Voiu asculta, ghinerariul meu, respunse Cloșca; luă cu sine pre căpitanii sei Ilie Stefu, lacob Giurcă și Savu Trifă, cu căprarii Ioan Tiușanu, Pavel Tiușanu, și Chirilă Suciu dip Mogoș; se duse la casa satului în Vidra, și găsind pre Goia, îl lua legat cu mînile la spate, și-l duse la Horea.</p>
@@ -973,7 +974,7 @@
 <p>— Treceți cu arme in Bucium, Horea e acolo; — trec' apoi la Sat, și la Cerb; și bat și p’acolo alarma.</p>
 <p>In Bucium casa lui Băieșanu e incunjurată, de panduri imbrăcați în gornici, cari stau la pândă pe la ferești în casele vecinilor.</p>
 <p>Multe visa Horea în acea nópte; dar aceea n'a putut să viseze, că erá prins.</p>
-<p></p>
+<p/>
 <p>Zorile incep a se reversa.</p>
 <p>— Vine Sucia cu oștea din Zlatna! aude Horea strigându-se pe afară, și iese pe pragul casei.</p>
 <p>Din casele vecinilor ies roiuri de panduri, în fețe de gornici, și se uită la Horea cu amenințare.</p>
@@ -987,7 +988,7 @@
 <p>Horea săruta pe Ionuț Dadei, pe tatăl lui și pre cei doi frați ai lui, strânse mân abunilor căpitani, cari alergară pentru scăparea lui bătendu-i cu mâna, pe umere, drept laudă; remase domn iubit și temut; apoi ceti buciumenilor cărțile împerătești, și porni înainte cu căpitanii sei.</p>
 <p>*</p>
 <p>Fruntașul satului Mușca Erá Vasile Macaveiu...</p>
-<p></p>
+<p/>
 <p>Intr'o seră sosesc la dînsul un pâlc de treizeci de călăreți înarmați, și Macaveiu poftesce pre căpitanul lor în casă. Acesta intră, si întrebă:</p>
 <p>— Bade Vasile, mă cunosci, ori nu?</p>
 <p>Macaveiu se uită la dînsul și nu putea respunde îndată. Într’un târziu zise:</p>
@@ -1009,7 +1010,7 @@
 <p>In acest comitat au desrobit Sălciva, Sân-Georgiul- Trăscăului, Pociaga, Lunca, Sidolmul, Ocolișul, Valea, Bedeleul; apoi Bura Măgura, Berchișul, Runcul, Ocolișelul, Bicălatul, Surducul, Ciagzul, Hidișul, Cicăul, și Rachișul; de aici trecură în comitatul Sibiului, și desrobiră Vinerea, Ciora, și Tărtăria.</p>
 <p>Trecură apoi în comitatul Aradului povățuiti de căpitanii: Ioan Lucaciu din Zam, Ioan Lupenciu din Petriș, Ioan Mânu din Ilteu, Ursu Ribiță din Cerbi, Toma Micula din Șălisce, George Brăniscenu, Ioan Lăpădatu, Tripa Grozavu și Ioan Tămaș din Soborșin, și Jucu Celmegenu din Conopi.</p>
 <p>Sub povățuirea acestora desrobiră Petrișul, Săliscea, Ilteul, Tocul, Soborșinul, Totvaradia și Ghiulița; apoi Vinescii, Berzava ,Conopul, Căpruța, Otvoșul, Valea-Milova, Halalișul, si Peciova.</p>
-<p></p>
+<p/>
 <p>E ziua a doua din luna lui Noemvre.</p>
 <p>A vram Vasile de la Lupșa sosesce dela drum, raporteză lui Horea:</p>
 <p>— Alaltăieri, Cloșca a inchiet pe delul dela Tibru cu oștea dușmană, oprirea armelor pe timp de opt zile, în cari să ne vină încuviințarea celor ce cerem.</p>
@@ -1035,7 +1036,7 @@
 <p>Horea și cu Cloșca fac doi pași înainte.</p>
 <p>— Noi să ți-i dăm? Ie ți-i tu! respunseră acuma glotele, și cu strigăte și chiote se adunară tot mai inainte, tot mai înainte, cu zgomot amenințător, cuprinzând pre căpitani mai de tot între dînsii cu Schultz cu tot.</p>
 <p>Acesta înțelese pornirea horenilor; și se grăbi a se întorce la cetele sale fără Horea.</p>
-<p></p>
+<p/>
 <p>Ostile lui Horea ajunseră în inima țerel la porțile Aiudului și ale Turdii; și el primi înștiințări, că toți iobajii din tot Ardelul sunt pregătiți de a se ridica; de altă parte se ridică comitatul Beregu Haiducilor, Maramureșul comitatul Bihorului, Bănatul Severinului, ținutul Cetății de Baltă și a Sighișorei, că preoții din tótă țara ajută sfânta mișcare a desrobirii din ghiareie turbaților tirani și că aceștia fug înspăimântați. Groza a dat în Cluj, Orade, Sibiu și în alte orașe pline de pecate spăriindu-se și din somn cu vorba că din fiecare sat resare câte un Horea.</p>
 <p>Veniră apoi la dînsul soli de la mai multe sate din comitatul Cetății de Baltă, și a Făgărașului să le deie povățuiri pentru rescolă.</p>
 <p>Popa Avram veni și-i vesti că tiranii fugiți în Deva au omorît pre toți românii prinși în luptă.</p>
@@ -1057,7 +1058,7 @@
 <p>— Tu vei fi craiul nostru; căci nimene altul nu e în stare să apere țara cum o vei apăra tu. Tu să fii craiul Ardelului.</p>
 <p>—Cum? măi! da pentru crăia ta m’am luptat eu? vînător de domnie sunt? nu unul, ca și voi, luptător pentru a disrobi nemul? pentru a face, ca tot romînul să fie craiu peste sorta lui?</p>
 <p>— Cînd nemul va fi desrobit gata, atunci va pute altul se se suie pe scaunul crăiei. Ânsă, pînă cînd mai avem de luptat greu, pînă cînd abie s’au deșteptat și desdrobit șepte ținuturi și parte din altele, pănă cînd numai cu sabia în mînă putem se facem câte un pas peste duiumurile de dușmani turbați, avînd sub arme abia două deci de mii, pînă atunci numai un căpitan pote să ne fie craiu și poruncitor, un craiu căpitan; și acela numai tu poți să fii, care astăzi ești înaieve craiu peste jumătate țara Ardelului. Și împăratul te-a cunoscut așa. Apoi uiți, cît de anevoie se deșteptă omenii dinunele ținuturi? cît de cu întârziere se îmbracă în arme? Șcii tu pentru ce? Din nenorocita lor îndoială, cum să asculte? de cine ? să le respundem : „De craiul vostru și atunci, ei vor fi fericiți de a asculta. La numele de „craiu al românilor desrobiți“, ca de un farmec trebue să se scuture din amețala îndoielei și neascultării, și să se bucure, vedend, că ne am ales domn pe adevăratul tată și apărător, craiu căpitan peste Ardelul desrobit! Trebue să trimiți la toti românii din tote părțile cărți de deșteptare; ba chiar porunci, ca de la cea mai înălțată căpetenie a lor, ca de la voivodul lor, pentru ca îndată să se deștepte cu toții și să deie ascultare....... Scrie-le acuma, scrie-le, Măria Ta!...striga Cloșca, aprins de un nou foc de însuflețire.</p>
-<p></p>
+<p/>
 <p>In acea clipă, doi voinici se furișază la o parte, șoptind unul cătră altul:</p>
 <p>— Audiși?</p>
 <p>Audiiu. </p>
@@ -1659,7 +1660,7 @@
 <p>Tot așa priveliște au făcut solgăbiraiele ungurese Cărpinișenilor cu capul lui Cloșca,și cu capul lui Crișanu.</p>
 <p>Albăcenii, Cărpănișeni, și toți ceilalți romani iși făcură cruce, și iși apăsară clocotul de turbare în fundul sufletului.......</p>
 <p>Dar umbra lui Horea, umblă pe deasupra sufletului lor, și îi intăresce.</p>
-<p></p>
+<p/>
 <p>Nóptea cuprinse cetatea Vienei sub împăciuitorul seu înveliș; și toți muritorii cei mai neinnălțați se repausau în brațele somnului;—numai unul din muritorii cei mai innălțați și mai puternici, nu-și pote găsi somnul, blândul mir molcomitor al sufletului. El șoptește în sine:</p>
 <p>— Așa dară negre uneltiri și diavolesci ponegriri au fost pârele aduse de cătră unguri asupra capului lui Horea; celelalte învinuiri, și povestea cu bănuții. Dumnezeule și tu, umbră mâniosă a lui Horea, iertați-me; căci eu nu puteam pătrunde atunci acele țeseturi ale lui Satana. Turbații uneltirilor sunt pedepsiți; chiar Csâkyai stâlpul nemeșilor resculați, geme azvirlit pe drumurile pribegiei. Ce pot eu să fac mai mult?....</p>
 <p>Sudori ferbinți curg pe fața turburatului om,-și somnul nu-i sosește. Vederea pâreților chiar il sparie. El stringe candela depe masa sa, ca să nu vadă nimica. Deodată ansă, țipă infiorat; și se dă să fugă; dar piciorele îi stau ca țintuite pe loc. O lumină roșie umple în acea clipă tótă  camerasa, și in fundul acestei lumini, ca intr’o depărtare uriașă, se ridică incet, incet o vedenie infiorătore; un om îmbrăcat în haine de căpitan de călărași; ânsă, o groză în pieptul lui e tăiat în doue; din tăietură curge sângele șiroiu, și acopere totul împrejurul lui.</p>
@@ -1674,7 +1675,7 @@
 <p>— Dau tuturor iobajilor din Ardel și din țara ungurescă dreptățile, ce ei avuseră dela insăși mama fire; și pentru a cărora redobândire se luptase Horea.</p>
                 </quote>
 <p>Prin acesta, Iosif imperat ridică pentru măreța umbră a acestui mântuitor cel mai sfânt altar în inimile tuturor fiilor nemului românesc. .</p>
-<p></p>
+<p/>
 <p>De atunci trecură nu mai puțin decât o intregă sută de ani; —și în inimiie urmașilor lor, în inimile nostre, cari toți ne am bucurat de rodele vieței și a morții lui Horea, totdeuna vie lumineză sfânta aducere aminte despre acest mare căpitan și sfânt desrobitor al unui întreg ném—prin însuși sângele lui.</p>
 <p>Pre orbii lui vendetori i-a ajuns curând stânga sorții, stânga dreptății; cum îi ajunge pre toți venzătoiii ca dinșii; insuși cumpărătorii lui au luat înapoi prețul sângelui vândut; pământurile, ce ei câștigaseră peacea întunecată cale; incăt ei remaseră pe drumuri, si arătați cu degetul de cătră totă lumea.</p>
 <p>Chiar și lor li se deșteptă odată cugetul; și ei se băteau cu pumnii în cap, judecându-se pre sine însuși și osîndindu-se pre sine însuși și osindindu-se cu aceste cuvinte:</p>
@@ -1688,7 +1689,9 @@
 
    
    </body>
-            <back><p>CUPRINSUL:</p>
+            <back>
+                  <div type="liminal">
+                  <p>CUPRINSUL:</p>
                   <p>Puiul de leu '</p>
                   <p>Horitorul</p>
                   <p>Precupețul</p>
@@ -1713,6 +1716,8 @@
                   <p>Biruința uneltirilor</p>
                   <p>Iuda .</p>
                   <p>Horea Încoronat</p>
-                  <p>Mântuitorul....... , . 152</p></back>
+                  <p>Mântuitorul....... , . 152</p>
+                  </div>
+            </back>
  </text>
 </TEI>

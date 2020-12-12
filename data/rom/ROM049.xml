@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM049" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM049" xml:lang="ro">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -26,33 +24,33 @@
                         <measure unit="pages">63</measure>
                   </extent>
                   <publicationStmt>
-                        <p><date/>
-                        </p>
-                  </publicationStmt>
-                  <sourceDesc>
-                        
-                        <bibl type="unspecified">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+                  <sourceDesc><bibl type="unspecified">
                               <author>Ioan Pop-Florantin</author>
                               <title>Decebal</title>
                               <date>1869</date>
-                        </bibl>
-                        
-                        <bibl type="firstEdition">
+                        </bibl><bibl type="firstEdition">
                               <author>Ioan Pop-Florantin</author>
                               <title>Decebal</title>
                               <pubPlace>Iasi</pubPlace>
                               <publisher>EDITURA LIBRĂRIEI FRAȚII ȘARAGA</publisher>
                               <date>1882</date>
                               <ref target="http://doi.org/10.5281/zenodo.3734265">Facsimile on zenodo</ref>
-                                                             </bibl>             
-                  </sourceDesc>
+                                                             </bibl></sourceDesc>
             </fileDesc>
             <encodingDesc n="eltec-1">
                   <p/>
             </encodingDesc>
             <profileDesc>
                   <langUsage>
-                        <language ident="ro"></language>
+                        <language ident="ro"/>
                   </langUsage>
                   <textDesc>
                         <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
@@ -62,6 +60,7 @@
                   </textDesc>
             </profileDesc>
             <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
                   <change when="2018-09-28">Initial TEI version generated.</change>
             </revisionDesc>
       </teiHeader>
@@ -87,8 +86,7 @@
                               Intr’o societate ca a nóstră, unde critica a putut fi uneori prea
                               aspră, dar n’a fost niciodată, prea blândă, *) lectura manuscriptului
                               Dv. a fost ascultată cu cea</p>
-                        <p> Pentru a nu vĕ îndoi de acest adevăr, trebue să știți că «<hi
-                                    rend="italic">Convorb. liter.</hi>» nu sunt organul Societății
+                        <p> Pentru a nu vĕ îndoi de acest adevăr, trebue să știți că «<hi rend="italic">Convorb. liter.</hi>» nu sunt organul Societății
                                     «<hi rend="italic">Junimea</hi>». Ce e drept tot ce se imprimă
                               în «<hi rend="italic">Conv.</hi>» se cetește maĭ întăi la noi: dar
                               peste jumătate se respinge. Dar nevoile unuĭ redactor sunt mari și D.
@@ -118,27 +116,19 @@
                                          tot pămîntul se închina lor. Pe toate neamurile le învățaseră să fie
                                          oameni de treabă: și popoarele nu se învățau minte nebătute: romaniĭ
                                          dară le an bătut pe toate. Brațul roman frănsese cerbicia germanilor,
-                                         berbeciĭ romanilor- amestecaseră tunurile cetățiĭ <hi rend="bold"><hi
-                                               rend="italic">Catargo</hi></hi> cu pulberile temeliilor:
+                                         berbeciĭ romanilor- amestecaseră tunurile cetățiĭ <hi rend="bold"><hi rend="italic">Catargo</hi></hi> cu pulberile temeliilor:
                                          și ferul roman îĭ culcase coperișele în fundurile șanțurilor: umbra
-                                         vulturilor romanĭ întunecase soarele <hi rend="bold"><hi rend="italic"
-                                               >Egipetuluĭ</hi></hi>; greciĭ trufași îșĭ plecaseră
-                                         fruntea sub jugul roman: și stăpînitorul cel de pe urmă al <hi
-                                               rend="bold"><hi rend="italic">Pontuluĭ</hi></hi> ș'a încheiat
+                                         vulturilor romanĭ întunecase soarele <hi rend="bold"><hi rend="italic">Egipetuluĭ</hi></hi>; greciĭ trufași îșĭ plecaseră
+                                         fruntea sub jugul roman: și stăpînitorul cel de pe urmă al <hi rend="bold"><hi rend="italic">Pontuluĭ</hi></hi> ș'a încheiat
                                          zilele în fundurile temnițelor Romeĭ. Romaniĭ de aceea se numiau
                                          domniĭ pămîntului celuĭ de aproape și ai celuĭ de departe; și luau
                                          resplata în banĭ de aur, după ce plăteua înainte cu banĭ de oțel.</p>
-                                   <p>- Dar odată a eșit veste despre un viteaz mare, din viță de <hi
-                                         rend="italic"><hi rend="bold">dac</hi></hi>; anume <hi
-                                               rend="bold"><hi rend="italic">Decebal</hi></hi>. Și Decebal a
+                                   <p>- Dar odată a eșit veste despre un viteaz mare, din viță de <hi rend="italic"><hi rend="bold">dac</hi></hi>; anume <hi rend="bold"><hi rend="italic">Decebal</hi></hi>. Și Decebal a
                                          făcut aceea, că a întors roata întâmplărilor: a luat el banĭ de aur de
                                          la Roma.</p>
                                    <p>Așa spun cărțile bătrâneștĭ. Decebal de aceea se numea leul rezboaelor:
-                                         groaza popoarelor. <hi rend="bold"><hi rend="italic"
-                                               >Bastarniĭ</hi></hi> țineau cu el de frica altora;</p>
-                                   <p><hi rend="bold"><hi rend="italic">Cvadiĭ</hi></hi>, <hi rend="bold"><hi
-                                         rend="italic">Marcomaniĭ</hi></hi> și <hi rend="bold"><hi
-                                               rend="italic">Buriĭ</hi></hi> se lăsaseră de alții, de
+                                         groaza popoarelor. <hi rend="bold"><hi rend="italic">Bastarniĭ</hi></hi> țineau cu el de frica altora;</p>
+                                   <p><hi rend="bold"><hi rend="italic">Cvadiĭ</hi></hi>, <hi rend="bold"><hi rend="italic">Marcomaniĭ</hi></hi> și <hi rend="bold"><hi rend="italic">Buriĭ</hi></hi> se lăsaseră de alții, de
                                          frica lui.</p>
                                    <p><hi rend="bold"><hi rend="italic">Iaziyiĭ</hi></hi> se osteniseră odată a
                                          ţinè cu el, şi se deslipiră de tovărășia luĭ.</p>
@@ -151,15 +141,9 @@
                                          supușĭ.</p>
                                    <p>Dar oare ce ar zice acest leu fălos, cind ' s’ar ivi un vultur îndrăzneț,
                                          și ar bate din aripi dinaintea fețeĭ luĭ, și ar cuvînta așa:</p>
-                                   <p>— Scoboară-te de pe tronul <hi rend="bold"><hi rend="italic"
-                                         >Dacieĭ</hi></hi>, zmulge-țĭ fălcile de balaur de pe turnurile
-                                         cetăților <hi rend="bold"><hi rend="italic">Arhidava</hi></hi>, <hi
-                                               rend="bold"><hi rend="italic">Pelendava</hi></hi>, și <hi
-                                                     rend="bold"><hi rend="italic">Patavissa</hi></hi>; zmulge și de
-                                         pe <hi rend="bold"><hi rend="italic">Arcobadara</hi></hi>, <hi
-                                               rend="bold"><hi rend="italic">Azizi</hi></hi> şi <hi rend="bold"
-                                                     ><hi rend="italic">Zurobara</hi></hi>; smulge și de pe <hi
-                                                           rend="bold"><hi rend="italic">Sarmizirya</hi></hi>; smulge și de
+                                   <p>— Scoboară-te de pe tronul <hi rend="bold"><hi rend="italic">Dacieĭ</hi></hi>, zmulge-țĭ fălcile de balaur de pe turnurile
+                                         cetăților <hi rend="bold"><hi rend="italic">Arhidava</hi></hi>, <hi rend="bold"><hi rend="italic">Pelendava</hi></hi>, și <hi rend="bold"><hi rend="italic">Patavissa</hi></hi>; zmulge și de
+                                         pe <hi rend="bold"><hi rend="italic">Arcobadara</hi></hi>, <hi rend="bold"><hi rend="italic">Azizi</hi></hi> şi <hi rend="bold"><hi rend="italic">Zurobara</hi></hi>; smulge și de pe <hi rend="bold"><hi rend="italic">Sarmizirya</hi></hi>; smulge și de
                                          pe <hi rend="bold"><hi rend="italic">Sarmis-Eyetuza</hi></hi>!
                                          Țintuește în locul lor tot vulturĭ; ba, lasă, că-i voiu țintui eu;
                                          numără-mĭ tu zecuială din băile tale de aur ; și zecuieală din
@@ -182,24 +166,19 @@
                         <head>I.</head>
                         <p><quote>«Atuncĭ ne vom teme, cînd va cădé cerul pe capul nostru ....nicĭ atuncea
                               nu!»</quote></p>
-                        <p>Decebal se întoarsă din resboiul ce a purtat cu neamul <hi rend="bold"
-                                          ><hi rend="italic">iazigilor</hi></hi>; și dădu poruncă,
+                        <p>Decebal se întoarsă din resboiul ce a purtat cu neamul <hi rend="bold"><hi rend="italic">iazigilor</hi></hi>; și dădu poruncă,
                               să se facă arderile de bucurie, într’o pădure, noaptea.</p>
                         <p>Nouă focurĭ marĭ de dranițe de stilparĭ fîlfăie în pădure, și o umple de
                               groază. Copacii se roșesc în zarea foculuĭ. Dranițele sfîrăe și
                               pocnesc; pocniturile se bat departe în părețĭ de stanĭ și
                               bolovanĭ.</p>
-                        <p>Acum sosește prada de ars luĭ <hi rend="bold"><hi rend="italic"
-                                          >Zamolxe</hi></hi> si celor nevazuțĭ ai lui. Nouăzecĭ de
+                        <p>Acum sosește prada de ars luĭ <hi rend="bold"><hi rend="italic">Zamolxe</hi></hi> si celor nevazuțĭ ai lui. Nouăzecĭ de
                               căpăținĭ de om se durue laolaltă, și crește o movilă fieroasă.</p>
                         <p>Odată se aud în codru buciumăturĭ de cornurĭ si sunete de tilincĭ.
                               Decebal venia la jertfă, așa precum sosi din luptă, cu oaste cu
                               tot.</p>
-                        <p>In frunte venea turma <hi rend="bold"><hi rend="italic"
-                                    >toporarilor:</hi></hi> lărgind calea prin desișul pădurii. După
-                              toporarĭ urmau cetele <hi rend="bold"><hi rend="italic"
-                                    >arcașilor</hi></hi> și ale <hi rend="bold"><hi rend="italic"
-                                          >prăștiarilor</hi></hi> cu coamele împletite ca niște
+                        <p>In frunte venea turma <hi rend="bold"><hi rend="italic">toporarilor:</hi></hi> lărgind calea prin desișul pădurii. După
+                              toporarĭ urmau cetele <hi rend="bold"><hi rend="italic">arcașilor</hi></hi> și ale <hi rend="bold"><hi rend="italic">prăștiarilor</hi></hi> cu coamele împletite ca niște
                               șerpĭ: cu barbe ciungărite; cu căciule țuguete pe cap; călărind pe
                               niște caĭ micĭ, dar iuțĭ, carĭ nu știau de șea, nicĭ de frău, în viața
                               lor. La bătaie aceștia se aruncau orbiș în mijlocul șirelor și se
@@ -210,8 +189,7 @@
                               lungi, neimpletite; cu cojoace din urechĭ pînă’n călcăe; cu căciule
                               înalte plecate într’o parte; drept în sus nu remase nicĭ una; aceștia
                               învârteau lăncĭ de căte doĭ stînjenĭ de lungi în mănunchiu. Toate au
-                              gustat cu ţapa din sânge de <hi rend="bold"><hi rend="italic"
-                                          >iazig</hi></hi>. Nicĭ un lăncer nu era întreg. treĭ au
+                              gustat cu ţapa din sânge de <hi rend="bold"><hi rend="italic">iazig</hi></hi>. Nicĭ un lăncer nu era întreg. treĭ au
                               remas, numaĭ cu mănunchiul lănciĭ; și il aduceau în mîna stîngă. Și
                               apoĭ eĭ erau ceĭ maĭ mîndrĭ din toată tabăra, ciuntițĭ cum erau; —
                               fiind-că, îșĭ aduceau și cîte odiademă scumpă în vîrful mănunchelor
@@ -221,8 +199,7 @@
                               îmbrăcați în cojoace cu mănecĭ. Imprejurul bărdaruluĭ se făcea în
                               luptă cate o poiană de doĭ stănjenĭ de largă și nu putea intra în ea
                               cap de dușman, pînă nu-șĭ lua iertăciunĭ de la umeri.</p>
-                        <p>In urma tuturor venia <hi rend="bold"><hi rend="italic"
-                              >Decebal</hi></hi>.</p>
+                        <p>In urma tuturor venia <hi rend="bold"><hi rend="italic">Decebal</hi></hi>.</p>
                         <p>Ce cap de voinic! Nici prin veste poveste altu ca el nu s’a pomenit.</p>
                         <p>Pe frunte-ĭ lucia o diademă bătută toată din aur limpede, meșterită
                               întreagă în chip ca o coroană de frunze de stejar, stropită peste tot
@@ -420,8 +397,7 @@
                                     loc de femeea cea maĭ tînără, să ard pe bărbatul cel maĭ
                                     bătrîn... .</p>
                               <p>Deceneu s’a îndepărtat, nu atîta întristat pentru că Decebal a
-                                    șters legea, cît îmbucurat că nu a întors’o precum a zis. <hi
-                                          rend="bold"><hi rend="italic">El</hi></hi> era bărbatul
+                                    șters legea, cît îmbucurat că nu a întors’o precum a zis. <hi rend="bold"><hi rend="italic">El</hi></hi> era bărbatul
                                     cel maĭ bătrîn.</p>
                               <p>Și fetele cîntă acuma mărirea luĭ Decebal.</p>
                               <p>Pînă se petreceau aceste, nimenuĭ nu-ĭ bătu la ochi, cum ședea de-a
@@ -434,30 +410,24 @@
                               <p>Bărbatul cel întunecat aștepta, pînă arseră căpaținele jertfite, și
                                     apoĭ păși înaintea luĭ Decebal cu fața posomorîtă; maĭ
                                     tristă.</p>
-                              <p>— Cum? îĭ grăi Decebal, <hi rend="bold"><hi rend="italic"
-                                                >Bicilie</hi></hi>, fratele meu tu trist? Cînd toată
+                              <p>— Cum? îĭ grăi Decebal, <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>, fratele meu tu trist? Cînd toată
                                     țara saltă de bucurie, cînd mărirea noastră e deplină, cînd nu
                                     ne-o amenință nimica, tu remîi trist și tacĭ?</p>
                               <p>— Mă cuprinde întristare, cînd văd că mărirea ta e deplină, —căci
                                     nu o putem face și maĭ strălucită. De acea remîn eu trist și
                                     tac, cînd văd în cenușă cea de pe urmă căpățină de dușman dintre
-                                    ceĭ de maĭ <hi rend="bold"><hi rend="italic"
-                                    >aproape</hi></hi>... .</p>
-                              <p>— Mi-au remas ceĭ maĭ de <hi rend="bold"><hi rend="italic"
-                                                >departe</hi></hi>!</p>
+                                    ceĭ de maĭ <hi rend="bold"><hi rend="italic">aproape</hi></hi>... .</p>
+                              <p>— Mi-au remas ceĭ maĭ de <hi rend="bold"><hi rend="italic">departe</hi></hi>!</p>
                               <p>— La <hi rend="bold"><hi rend="italic">Roma</hi></hi> ţinteşti?
                                     Decebale?</p>
                               <p>— Cum la Roma? Uițĭ că Roma ni se închină nouă?</p>
-                              <p>— Nu uit, că aceia pe care i ti plătit <hi rend="bold"><hi
-                                                rend="italic">Domiţian</hi></hi>, ți-au dat pungi de
+                              <p>— Nu uit, că aceia pe care i ti plătit <hi rend="bold"><hi rend="italic">Domiţian</hi></hi>, ți-au dat pungi de
                                     aur; dar se vor deștepta romaniĭ ceĭ adevărațĭ, și-ți vor cere
-                                    pungile acele îndărăt. Odată, erau romaniĭ puținĭ; <hi
-                                          rend="bold"><hi rend="italic">galiĭ</hi></hi> năvăliră
+                                    pungile acele îndărăt. Odată, erau romaniĭ puținĭ; <hi rend="bold"><hi rend="italic">galiĭ</hi></hi> năvăliră
                                     asupra lor; sparseră zidurile Romei și vetrele romanilor. Numaĭ
                                           <hi rend="bold"><hi rend="italic">capitolul</hi></hi>
                                     remăsese, în el cu o mînă de romanĭ: și aceștia, cu alţĭ doĭ
-                                    treĭ , de din afară au curmat măsuratul <hi rend="bold"><hi
-                                                rend="italic">auruluĭ</hi></hi>, și au măsurat apoĭ
+                                    treĭ , de din afară au curmat măsuratul <hi rend="bold"><hi rend="italic">auruluĭ</hi></hi>, și au măsurat apoĭ
                                     eĭ cu <hi rend="bold"><hi rend="italic">oțel</hi></hi>.</p>
                               <p>— Eu maĭ întîĭ voiu spulbera capitolul, ca să nu poată ascunde în
                                     eĭ nici un deget de roman, și a-mĭ sări în cap. Pe ceĭ ce vor
@@ -468,8 +438,7 @@
                               <p>— Afară de poporul meu; dar eu voiu scăpa și pe celelalte de
                                     tremurul acesta; voiŭ scoate ochii romanilor, ca să nu maĭ dea
                                     din ochĭ.</p>
-                              <p>— Eu zic, Decebale, <hi rend="bold"><hi rend="italic"
-                                          >teme-te</hi></hi> de Roma!</p>
+                              <p>— Eu zic, Decebale, <hi rend="bold"><hi rend="italic">teme-te</hi></hi> de Roma!</p>
                               <p>— Jură că n’aĭ zis nimica!</p>
                               <p>— Jur că n’arn zis nimica!</p>
                               <p>— <hi rend="bold"><hi rend="italic">Erolzĭ</hi></hi> zi iuțĭ să vie
@@ -484,12 +453,10 @@
                                     pentru ca să se mînie, și să mă pot bate cu ei. — La drum!</p>
                               <p><hi rend="bold"><hi rend="italic">Deceneu</hi></hi> se cumetă a maĭ
                                     zice o vorbă plecată:</p>
-                              <p>— Doamne, oare n’ar fi bine să întrebăm maĭ întîĭ pe <hi
-                                          rend="bold"><hi rend="italic">Zamolxe</hi></hi>.</p>
+                              <p>— Doamne, oare n’ar fi bine să întrebăm maĭ întîĭ pe <hi rend="bold"><hi rend="italic">Zamolxe</hi></hi>.</p>
                               <p>— Intrebați-1; dar semne bune să-mi dea, căci de-mĭ veți aduce
                                     semne rele, eu tot n’oĭ asculta de ele.</p>
-                              <p>Pe Zamolxe îl întrebau așa, că-ĭ trimiteau <hi rend="bold"><hi
-                                                rend="italic">solii</hi></hi>, să se înțeleagă cu
+                              <p>Pe Zamolxe îl întrebau așa, că-ĭ trimiteau <hi rend="bold"><hi rend="italic">solii</hi></hi>, să se înțeleagă cu
                                     el, la el acasă, în <hi rend="bold"><hi rend="italic">ceea
                                                 lume</hi></hi>. Deceneu întrebă: Pe cine să
                                     trimitem? Decebal îi respunse. Pe ceĭ doĭ voinicĭ, carĭ s’ au
@@ -512,8 +479,7 @@
                                     între cer si pămînt înaintea celor cu săgețile țintite cu țepele
                                     cîtră el; — în jurul lor joacă alţĭ nouă daci, treĭ bătînd cu
                                     buzdugane în scuturĭ, treĭ asvsrlind paloșe cîtră nourĭ; treĭ
-                                    zvârlind săgețĭ cîtră cer, și <hi rend="bold"><hi rend="italic"
-                                                >ameninţînd</hi></hi> pe Zamolxe, că, ce nu le va
+                                    zvârlind săgețĭ cîtră cer, și <hi rend="bold"><hi rend="italic">ameninţînd</hi></hi> pe Zamolxe, că, ce nu le va
                                     face de bună voie, îl vor sili să le facă de nevoie.</p>
                               <p>„ <hi rend="bold"><hi rend="italic">Zamolxe! Astreu!
                                           Meitras!</hi></hi>“ se auzi de treia oară—și, deputății
@@ -539,8 +505,7 @@
                               <p>— De la Roma.</p>
                               <p>— Ce veste-mi aducĭ? strigă-mi-o de acolo, porunci Decebal,
                                     neputînd răbda să sosească bine; veste rea să-mĭ spui!</p>
-                              <p>— Că tocmai rea veste îțĭ aduc: pe scaunul luĭ <hi rend="bold"><hi
-                                                rend="italic">Domițian</hi></hi> s’a suit Traian.
+                              <p>— Că tocmai rea veste îțĭ aduc: pe scaunul luĭ <hi rend="bold"><hi rend="italic">Domițian</hi></hi> s’a suit Traian.
                                     Decebal se cutremura.</p>
                               <p>Deceneu iară-și prinse inimă, și zise:</p>
                               <p>— Cetristeță îmĭ coprinde inima, la vestea aceasta: mărirea luĭ
@@ -605,8 +570,7 @@
                               <p>— Nu-țĭ o pot spune.</p>
                               <p>— Aĭ și învățat, a face cimiliturĭ; orĭ nu știi deslega nicĭ ce
                                     nu-ĭ cimilitură. Nu știĭ ce om e un om?</p>
-                              <p>— Tu m’ai întrebat, ce om e <hi rend="bold"><hi rend="italic"
-                                                >Traian</hi></hi>?</p>
+                              <p>— Tu m’ai întrebat, ce om e <hi rend="bold"><hi rend="italic">Traian</hi></hi>?</p>
                               <p>— Și aceasta nu o poĭț deslega?</p>
                               <p>— Ar trebuĭ să-țĭ sciu un sac de cărți de cele late, bunătățile
                                     luĭ.</p>
@@ -621,8 +585,7 @@
                                     urgia neamuluĭ omenesc.</p>
                               <p>— Traian îi va crăpa capul în șapte.</p>
                               <p>— Și știe Train resplăti binele, ceĭ facĭ? maĭ spune-mi odată.</p>
-                              <p>— Precum ți-am spus. De-ĭ placĭ, te puneĭ <hi rend="bold"><hi
-                                                rend="italic">craĭ</hi></hi>.</p>
+                              <p>— Precum ți-am spus. De-ĭ placĭ, te puneĭ <hi rend="bold"><hi rend="italic">craĭ</hi></hi>.</p>
                               <p>— Craiu strigă Bicilie, strălucind din ochĭ și reculegîndu-se
                                     adaose:</p>
                               <p>— Spune-ĭ, că, lăngă dușmanul luĭ cel mal înfocat, veghează robul
@@ -657,11 +620,9 @@
                                     Traian, și-țĭ scutură porțile munților. Să te vedem ...
                                     Incinge-te!</p>
                               <p>Traian ieși cu oaste mare asupra Dacilor, şi e pe drum cătră
-                                    cetatea, ce-ĭ zicea <hi rend="bold"><hi rend="italic"
-                                          >Tapis</hi></hi>.</p>
+                                    cetatea, ce-ĭ zicea <hi rend="bold"><hi rend="italic">Tapis</hi></hi>.</p>
                               <p>Intr’ozi îl întămpină un sol străin; acesta sosind, cade la pămînt
-                                    de pe catăru-ĭ, și ridicîn-du-se îĭ dă un <hi rend="bold"><hi
-                                                rend="italic">burete</hi></hi> de ceĭ marĭ, scris
+                                    de pe catăru-ĭ, și ridicîn-du-se îĭ dă un <hi rend="bold"><hi rend="italic">burete</hi></hi> de ceĭ marĭ, scris
                                     peste tot cu vorbe dăcescĭ. Cărturariĭ cetiră pe el.</p>
                               <p>„<hi rend="bold"><hi rend="italic">Buriĭ</hi></hi> și alte neamurĭ
                                     stau înarmate gata; întoarce-te, de unde ai venit.“ Traian
@@ -676,8 +637,7 @@
                                     la tavarășĭ; Bicilie,le scrise, și apoĭ le trămesă luĭ Traian;
                                     care văzu de aci, ca trebue să se grăbească! Drept aceea se și
                                     grăbi, încît Decebal, și maĭ strimtorat, îi trâmise o solie de
-                                    pace; dar numaĭ treĭ daci <hi rend="bold"><hi rend="italic"
-                                                >comaţĭ, nepălărieaţĭ,</hi></hi> cu coamele
+                                    pace; dar numaĭ treĭ daci <hi rend="bold"><hi rend="italic">comaţĭ, nepălărieaţĭ,</hi></hi> cu coamele
                                     zbulturate, cu cojoacele sdenţăroase.</p>
                               <p>Aceștia cum s’au dus așa au și venit.</p>
                               <p>Decebal văzînd-ĭ venind cu mîna, goală, și-ĭ smulse de coame, de
@@ -734,8 +694,7 @@
                               <p>Iarna cu un ger ne-maĭ pomenit despărți pe cele două popoare
                                     încăierate; ele se traseră înapoĭ, îșĭ numărară cîtĭ frațĭ li
                                     s’au culcatla somnul cel de sfîrşit.</p>
-                              <p>La înfloritul pomilor, altă <hi rend="bold"><hi rend="italic"
-                                                >învaţătură</hi></hi> de oțăl, scrisă tot în frunte
+                              <p>La înfloritul pomilor, altă <hi rend="bold"><hi rend="italic">învaţătură</hi></hi> de oțăl, scrisă tot în frunte
                                     și’n coaste de dac. Cari o învățau deplin, aceia nu o maĭ știau
                                     de cît pe cealaltă lume.</p>
                               <p>Bicilie strigă odată:</p>
@@ -819,20 +778,15 @@
                               <p>Decebal ieși din taberă.</p>
                               <p>Sosind în cortul său îșĭ întoarse jurămîntul cu totul.</p>
                               <p>— ,,M’am plecat luĭ, pentru ca să mă aprind și maĭ amar, și să rad
-                                    păngara asta de pe numele meu Bicilie! scrie carte cătră <hi
-                                          rend="bold"><hi rend="italic">Pacor</hi></hi>, în țara <hi
-                                          rend="bold"><hi rend="italic">Partieĭ</hi></hi>, să vie!
+                                    păngara asta de pe numele meu Bicilie! scrie carte cătră <hi rend="bold"><hi rend="italic">Pacor</hi></hi>, în țara <hi rend="bold"><hi rend="italic">Partieĭ</hi></hi>, să vie!
                                     Apoĭ sfarmă-mĭ cetățuiele; începe cu cele maĭ putrede; maĭ ales
                                     cele ce cad în vederea Romanilor; întîr-zie cu cele mat tari;
-                                    treci cu vederea pe cele din mijlocul țărei; <hi rend="bold"><hi
-                                                rend="italic">Serimis-Egetusa i</hi></hi>uit’o așa,
+                                    treci cu vederea pe cele din mijlocul țărei; <hi rend="bold"><hi rend="italic">Serimis-Egetusa i</hi></hi>uit’o așa,
                                     cum stă astăzi. Tramite meșterii romani acasă; pe ceĭ maĭ
                                     netrebnicĭ; alunecă de uită aicĭ pe ceĭ maĭ cu minte.</p>
                               <p>Bicilie apoi <hi rend="bold"><hi rend="italic">aluneca</hi></hi>,
                                     de împlini toate poruncile <hi rend="italic"><hi rend="bold">pe
-                                                dos</hi></hi>. Respunsul luĭ <hi rend="bold"><hi
-                                                rend="italic">Pacor</hi></hi> îl trimise și la <hi
-                                          rend="bold"><hi rend="italic">Traian</hi></hi>.</p>
+                                                dos</hi></hi>. Respunsul luĭ <hi rend="bold"><hi rend="italic">Pacor</hi></hi> îl trimise și la <hi rend="bold"><hi rend="italic">Traian</hi></hi>.</p>
                                     </div>
                               
                   <div type="chapter" n="3">
@@ -886,8 +840,7 @@
                                     trimitem; nu găsesc nicĭ pe unul. Dacul îțĭ răpește bucățica,
                                     din gură; îțĭ sparge capul, fățiș; dar pe furiș nu ucide.</p>
                               <p>Bicilie rise.</p>
-                              <p>Nu te îngriji, doamne:mi-am adus eu din <hi rend="bold"><hi
-                                                rend="italic">Itaca</hi></hi> doĭ feciorĭ, și-s bunĭ
+                              <p>Nu te îngriji, doamne:mi-am adus eu din <hi rend="bold"><hi rend="italic">Itaca</hi></hi> doĭ feciorĭ, și-s bunĭ
                                     de lucru... mă grăbesc!...</p>
                               <p>Stăi! nu te grăbi. Cind mi-a venit cugetul prin cap, mi-a plăcut;
                                     cînd am văzut că n’avem om, m’am întristat; și acum,— acum,—
@@ -895,8 +848,7 @@
                                     mi-ĭ greața de o faptă ca aceasta.— Uită-te, pre cine vreĭ tu să
                                     ucizĭ! Stăĭ, Bicilie, stăĭ!.... stăĭ!</p>
                               <p>— Doamne tu-țĭ daĭ cuvîntul,.și iară ți-1 ĭeĭ.</p>
-                              <p>— Mustră-mă, pentru că-mĭ calc cuvîntul, maĭ aspru m’ar mustra <hi
-                                          rend="bold"><hi rend="italic">fapta</hi></hi>...</p>
+                              <p>— Mustră-mă, pentru că-mĭ calc cuvîntul, maĭ aspru m’ar mustra <hi rend="bold"><hi rend="italic">fapta</hi></hi>...</p>
                               <p>— Te va arde și maĭ amar rușinea, în lanțuri bătute din aurul tău,
                                     — după carul lui Traian. — Eu zic, maĭ aprig m’ar arde
                                     fapta..</p>
@@ -905,8 +857,7 @@
                                     popor întreg, poporul tău; —cînd aĭ putea să-l înalțĭ la mărire
                                     nespusă, te daĭ pe pocăite; dai vetrele străinineștĭ mamonilor
                                     străin; tot-neamul tău îl îneci tu cu mîna ta, vrînd să faci
-                                    aceluia, carele ție nu-țĭ face <hi rend="bold"><hi rend="italic"
-                                                >dreptate</hi></hi>: vreĭ să țiĭ viața aceluia, care
+                                    aceluia, carele ție nu-țĭ face <hi rend="bold"><hi rend="italic">dreptate</hi></hi>: vreĭ să țiĭ viața aceluia, care
                                     poruncește după capul tău, ca-apoi să-ți sugrume copiĭ maĭ ușor.
                                     ...</p>
                               <p>— In peptul luĭ <hi rend="bold"><hi rend="italic">Decebal</hi></hi>
@@ -914,36 +865,27 @@
                                     curgeau picăturĭ. Tremurînd din buze, vorbi dupăBicilie ca în
                                     aiurare: ,,mamoniĭ, străinĭ...capul meu ...,,</p>
                               <p>Bicilie urmă:</p>
-                              <p>,, ... Imĭ iau mîna din joc: trăiască Traian, moară <hi rend="bold"
-                                                ><hi rend="italic">Dacia</hi></hi>; Traian e om.
+                              <p>,, ... Imĭ iau mîna din joc: trăiască Traian, moară <hi rend="bold"><hi rend="italic">Dacia</hi></hi>; Traian e om.
                                     atît de frumos, că îșĭ poate înnebuni dușmaniĭ. Traiane
                                     strălucit la față; pentru ca să orbească pe aceia, cărora vrea,
                                     să le iea argintul, ca să nu-și găsească cuțitul la șold; Traian
                                     e om destul de puternic, ca să poată sugruma cu putere pe acela,
                                     pe care nu l’a putut nicĭ înebunĭ, nicĭ a’l orbi. Imĭ ieu mîna
-                                    din joc: trăiască <hi rend="bold"><hi rend="italic"
-                                          >Traian</hi></hi>, moară <hi rend="bold"><hi rend="italic"
-                                                >Dacia</hi></hi>! Mie şi aşa nu mi e <hi rend="bold"
-                                                ><hi rend="italic">mamă dreaptă</hi></hi>.</p>
-                              <p>— Dar mie mi-e mamă <hi rend="bold"><hi rend="italic"
-                                          >dreaptă</hi></hi> strigă <hi rend="bold"><hi
-                                                rend="italic">Decebal</hi></hi> ca scăpînd cu mintea
+                                    din joc: trăiască <hi rend="bold"><hi rend="italic">Traian</hi></hi>, moară <hi rend="bold"><hi rend="italic">Dacia</hi></hi>! Mie şi aşa nu mi e <hi rend="bold"><hi rend="italic">mamă dreaptă</hi></hi>.</p>
+                              <p>— Dar mie mi-e mamă <hi rend="bold"><hi rend="italic">dreaptă</hi></hi> strigă <hi rend="bold"><hi rend="italic">Decebal</hi></hi> ca scăpînd cu mintea
                                     dintre verigile unui vârtej sugrumător.</p>
                               <p>Bicilie dă poruncă la doĭ Itacanĭ:</p>
                               <p>— „ Decebal vă poruncește, să mergețĭ în taberălui Traian și să
-                                    veniți cu capul luĭ, ori fără ale voastre. &quot; Porunca li-o
+                                    veniți cu capul luĭ, ori fără ale voastre. " Porunca li-o
                                     spuse în auzul unui pîndaș roman:</p>
                               <p>— După ce eșiră ucigașiĭ, Bicilie chema pe pîndaș înaintea sa, și i
                                     grăĭ.</p>
-                              <p>— Auzișĭ, ce poruncĭ dete <hi rend="bold"><hi rend="italic"
-                                                >Decebal</hi></hi>?</p>
+                              <p>— Auzișĭ, ce poruncĭ dete <hi rend="bold"><hi rend="italic">Decebal</hi></hi>?</p>
                               <p>— Lase-mă să zbor la Traian!</p>
                               <p>— Fă, după cum te duce inima ta; și veĭ face, după cum dorește
                                     inima mea.</p>
                               <p>Romanul se perdu în fugă...</p>
-                              <p>Sosind apoĭ ucigașiĭ la Traian s’au lovit de <hi rend="bold"><hi
-                                                rend="italic">piedicĭ</hi></hi>; <hi rend="bold"><hi
-                                                rend="italic">Traian</hi></hi> trimise luĭ Decebal
+                              <p>Sosind apoĭ ucigașiĭ la Traian s’au lovit de <hi rend="bold"><hi rend="italic">piedicĭ</hi></hi>; <hi rend="bold"><hi rend="italic">Traian</hi></hi> trimise luĭ Decebal
                                     vorba aceasta.</p>
                               <p>— Sapă-ți groapă!</p>
                               <p>Decebal arde de rușine, spumegă ca în turbare. El se gîndi la un
@@ -958,8 +900,7 @@
                                     ,zecĭ de urme de lungă; cu douăzeci de boite,cîte de o sută și
                                     șaptezecĭ de urme de larg fie-care; pe douăzecĭ de stîlpi, cîte
                                     de o sută și cincizecĭ de urme de nalțĭ, și șase-zecĭ de urme de
-                                    lățĭ; toţĭ așezațĭ sub apă, unde, clocotește <hi rend="bold"><hi
-                                                rend="italic">Dunărea</hi></hi> maĭ tare.</p>
+                                    lățĭ; toţĭ așezațĭ sub apă, unde, clocotește <hi rend="bold"><hi rend="italic">Dunărea</hi></hi> maĭ tare.</p>
                               <p>Dacă au zidit podul apoĭ trecu peste ea cu toată armata, sfărmînd
                                     pe toțĭ ceĭ ce, îi steteau în cale. Apoi spulbera sumă de
                                     castele de pe creștetele munților, si împresură neamul dacilor
@@ -969,21 +910,15 @@
                                     pragul ușeĭ.</p>
                               <p>Maĭ mariĭ țăreĭ se adună în sfat mare. Decebal pășește între
                                     eĭ.</p>
-                              <p>— Pornițĭ curînd, le zise el. Tu, <hi rend="bold"><hi rend="italic"
-                                                >Decidave</hi></hi>, să țiĭ aripa dreaptă; tu, <hi
-                                          rend="bold"><hi rend="italic">Bicilie</hi></hi>,
-                                          stînga,<hi rend="bold"><hi rend="italic"
-                                          >Pelasigoane</hi></hi>, și tu, <hi rend="bold"><hi
-                                                rend="italic">Bizenie</hi></hi>, ieșițĭ la munțĭ.Tu,
+                              <p>— Pornițĭ curînd, le zise el. Tu, <hi rend="bold"><hi rend="italic">Decidave</hi></hi>, să țiĭ aripa dreaptă; tu, <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>,
+                                          stînga,<hi rend="bold"><hi rend="italic">Pelasigoane</hi></hi>, și tu, <hi rend="bold"><hi rend="italic">Bizenie</hi></hi>, ieșițĭ la munțĭ.Tu,
                                           <hi rend="bold"><hi rend="italic">Toride</hi></hi>, și tu,
                                           <hi rend="bold"><hi rend="italic">Gilil</hi></hi>,
                                     năvăliți pretutindene pe unde ar aștepta Traian năvală; că să nu
                                     poată zice că am scăzut, și că nu ajungem cu numărul pe unde
                                     trebue. Tu <hi rend="bold"><hi rend="italic">Diege</hi></hi>,tu
-                                          <hi rend="bold"><hi rend="italic">Eusire</hi></hi>, <hi
-                                          rend="bold"><hi rend="italic">Midon, Terante,
-                                          Zenure</hi></hi> și tu <hi rend="bold"><hi rend="italic"
-                                                >Alastore</hi></hi>,veţĭ da năvală pururea, pe unde
+                                          <hi rend="bold"><hi rend="italic">Eusire</hi></hi>, <hi rend="bold"><hi rend="italic">Midon, Terante,
+                                          Zenure</hi></hi> și tu <hi rend="bold"><hi rend="italic">Alastore</hi></hi>,veţĭ da năvală pururea, pe unde
                                     nu,va aștepta; ca să vază, că am crescut în puteri, că în trecem
                                     în număr și ajungem și pe unde nu trebuește. Femeile voastre să
                                     păzească vetrele și să învețe pe copii să arunce petre cu
@@ -994,9 +929,7 @@
                               <p>Poruncește-le tu, doamne; de noĭ nu maĭ ascultă.</p>
                               <p>Femeile căpitanilor intrară. Decebal le întrebă:</p>
                               <p> — Ce vrețĭ voĭ femeilor aicĭ?</p>
-                              <p>—  Vrem să mergem în rezboiĭ respunse <hi rend="bold"><hi
-                                                rend="italic">Zimbrura</hi></hi> soția luĭ <hi
-                                          rend="bold"><hi rend="italic">Pelasgion</hi></hi>.</p>
+                              <p>—  Vrem să mergem în rezboiĭ respunse <hi rend="bold"><hi rend="italic">Zimbrura</hi></hi> soția luĭ <hi rend="bold"><hi rend="italic">Pelasgion</hi></hi>.</p>
                               <p>— Mergețĭ pe a casă! La vetre, la copiĭ!</p>
                               <p>— Vetrele le am sfărâmat; —copiĭ micĭ, copiĭ micĭ —nu maĭ avem
                                     .....</p>
@@ -1007,8 +940,7 @@
                                     ard totul. Noĭ ne-am scutit prunciĭ noștr ĭde cuțitul
                                     străinului; și am venit să ne luptăm alăturea cu voĭ, maĭ
                                     înainte de a murĭ. De scăpat, nu vom scăpa nicĭ unul, și nicĭ
-                                    una. Acolo ne-aĭ adus! <hi rend="bold"><hi rend="italic"
-                                                >Decebale</hi></hi>... .</p>
+                                    una. Acolo ne-aĭ adus! <hi rend="bold"><hi rend="italic">Decebale</hi></hi>... .</p>
                               <p>Luĭ <hi rend="bold"><hi rend="italic">Decebal</hi></hi>  îĭ-se
                                     strînse înima în pept.</p>
                                     </div>
@@ -1038,8 +970,7 @@
                               <p><hi rend="bold"><hi rend="italic">Longin</hi></hi> era mîna dreaptă
                                     a luĭ Traian. Intr’o noapte intră la el un bărbat întunecat, în
                                     veștminte romane.</p>
-                              <p>Cine eștĭ! îl întrebă <hi rend="bold"><hi rend="italic"
-                                          >Longin</hi></hi>.</p>
+                              <p>Cine eștĭ! îl întrebă <hi rend="bold"><hi rend="italic">Longin</hi></hi>.</p>
                               <p>Un voitor de bine a luĭ <hi rend="bold"><hi rend="italic">Traian,
                                                 sînt Bicilie</hi></hi>.</p>
                               <p>Te cunosc, dace. Dar de ce în haine străine? de ce tocmaĭ tu, și
@@ -1057,9 +988,7 @@
                               <p><hi rend="bold"><hi rend="italic">Decebal</hi></hi> nu maĭ avea
                                     somn. Odată intră la el Bicilie în haine romane, Decebal se
                                     spă-rie. Ce aĭ făcut?</p>
-                              <p>— Ți l’am adus, îĭ șopti el; și-apoî întră la <hi rend="bold"><hi
-                                                rend="italic">Decebal, Longin</hi></hi>.<hi
-                                          rend="bold"><hi rend="italic"> Bicilie </hi></hi>ieși.</p>
+                              <p>— Ți l’am adus, îĭ șopti el; și-apoî întră la <hi rend="bold"><hi rend="italic">Decebal, Longin</hi></hi>.<hi rend="bold"><hi rend="italic"> Bicilie </hi></hi>ieși.</p>
                               <p>—Vreĭ să-mĭ vorbeștĭ despre pace, romane?!..</p>
                               <p>— Maĭ întîĭ să-mĭ puĭ cercul cel de aur de pe frunte la picioarele
                                     mele. —De noapte văd, că-ĭ noapte; dar tu nu dormĭ; cum dar
@@ -1070,21 +999,17 @@
                                     pot uita la tine, de rușine că i-am vîndut pre aĭ meĭ. Dacă
                                     crezĭ tu, că eu voiu venĭ la trezie din visuri, pentru ca să-mĭ
                                     văd frațiĭ, apoĭ eu zic, că ți-aĭ eșit tu din mințĭ.</p>
-                              <p>— Și eu îțĭ zic la această, că te-oiu  vinde luĭ <hi rend="bold"
-                                                ><hi rend="italic">Traian</hi></hi>. Aducețĭ
+                              <p>— Și eu îțĭ zic la această, că te-oiu  vinde luĭ <hi rend="bold"><hi rend="italic">Traian</hi></hi>. Aducețĭ
                                     lanțurĭ! <hi rend="bold"><hi rend="italic">Toride</hi></hi>
-                                    zboară la Traian, spune-ĭ, să-șĭ cumpere pe <hi rend="bold"><hi
-                                                rend="italic">Longin</hi></hi> așa, că să se ducă,
+                                    zboară la Traian, spune-ĭ, să-șĭ cumpere pe <hi rend="bold"><hi rend="italic">Longin</hi></hi> așa, că să se ducă,
                                     de unde a venit cu oaste cu tot.</p>
-                              <p>— Zbor, doamne, strigă <hi rend="bold"><hi rend="italic"
-                                          >Torid</hi></hi> și porni îi fugă.</p>
+                              <p>— Zbor, doamne, strigă <hi rend="bold"><hi rend="italic">Torid</hi></hi> și porni îi fugă.</p>
                               <p>— Stăĭ, <hi rend="bold"><hi rend="italic">Toride</hi></hi>, striga
                                           <hi rend="bold"><hi rend="italic">Longin</hi></hi>, își
                                     străpunge peptul, se trage pînă afară, strigînd după sol.</p>
                               <p>— Iată-mă, am murit; să nu duci vorba de cumpărat căci eu sunt
                                     mort.</p>
-                              <p>Și muri pentru ca se nu aibă Traian ce cumpera dela <hi rend="bold"
-                                                ><hi rend="italic">Decebal</hi></hi>.</p>
+                              <p>Și muri pentru ca se nu aibă Traian ce cumpera dela <hi rend="bold"><hi rend="italic">Decebal</hi></hi>.</p>
                               <p><hi rend="bold"><hi rend="italic">Decebal</hi></hi> ridica pumniĭ,
                                     și se bate cu eĭ în cap.</p>
                               <p>Prin un codru troc doisprăzece feciorĭ, cu sacĭ în spate: înaintea
@@ -1098,8 +1023,7 @@
                                     zice din noŭ:</p>
                               <p>„Si la împărțit nu ne-am lua de cap: feciorul şi sacul, feciorul şi
                                     sacul.“</p>
-                              <p>„ Tăcețĭ, măĭ, șopti unul maĭ cu minte, <hi rend="bold"><hi
-                                                rend="italic">Bicilie-ĭ</hi></hi> năzdrăvan: noĭ
+                              <p>„ Tăcețĭ, măĭ, șopti unul maĭ cu minte, <hi rend="bold"><hi rend="italic">Bicilie-ĭ</hi></hi> năzdrăvan: noĭ
                                     suntem doisprăzece,dar el... cînd saĭ la el, îți piere printre
                                     tufe, dinaintea ochilor, ca veverița; de-1 ajungĭ îțĭ piere din
                                     ochi în ponoare ca șerpele ; de’l prinzĭ, îțĭ alunecă din mînă
@@ -1107,24 +1031,20 @@
                                     vedea ce vom putea face cu el, după ce ne vom ușura de
                                     sarcinĭ... .“</p>
                               <p>Fecioriĭ pun saciĭ într’un ponor săpat costiș într’ o rîpă de rîu,
-                                    cu apă puțină, pentru că e stăvilită maĭ sus. <hi rend="bold"
-                                                ><hi rend="italic">Bicilie</hi></hi> sare la
+                                    cu apă puțină, pentru că e stăvilită maĭ sus. <hi rend="bold"><hi rend="italic">Bicilie</hi></hi> sare la
                                     stravilă, împinge o scândură cu călcâiul în laturĭ, rupe un par
                                     cu mîna, și taie grinda din mijloc cu spada. Apa maĭ rupe și ea
                                     din stavilă, cît a maĭ remas se risipește asupra feciorilor,
                                     și-ĭ acoperĭ, cît ai bate’n palme. Căĭț au înotat deasupra apeĭ,
                                     Bicilie le sparge capetele cu cuțitele, cu spada și cu bolovanĭ.
-                                    Unul scăpa cu înotul pînă dincolo. <hi rend="bold"><hi
-                                                rend="italic">Bicilie</hi></hi> dă după el cu petre;
+                                    Unul scăpa cu înotul pînă dincolo. <hi rend="bold"><hi rend="italic">Bicilie</hi></hi> dă după el cu petre;
                                     asvărlĭ și amădouă cuțitele, dar nu’l nemeri. Feciorul îșĭ ia un
-                                    cuțit cu sine îl ridică sus, amenință cu el pe <hi rend="bold"
-                                                ><hi rend="italic">Bicilie</hi></hi>, și apoi se
+                                    cuțit cu sine îl ridică sus, amenință cu el pe <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>, și apoi se
                                     perde prin trestie şi sălciĭ.</p>
                               <p>In țara, dăcească sunt grădinĭ multe și în ele înfloresc florĭ
                                     multe; și nicĭ o grădină nu e ca grădina luĭ Decebal: și în
                                     grădina aceea nicĭ o floare nu înflorește maĭ frumos, decît
-                                    floarea sufletului său, fica luĭ, <hi rend="bold"><hi
-                                                rend="italic">Dochia</hi></hi>.</p>
+                                    floarea sufletului său, fica luĭ, <hi rend="bold"><hi rend="italic">Dochia</hi></hi>.</p>
                               <p>De cînd a văzut <hi rend="bold"><hi rend="italic">Dochia</hi></hi>
                                     pe Traian, a uitat a rîde; s’a învățat bine a plînge.</p>
                               <p>Sînt zile de toamnă; florile să veștejesc maĭ tare, să veștejesc
@@ -1163,10 +1083,8 @@
                               <p>— Nu mă uitam; pentru că mi se reînoia durerea de zece orĭ maĭ
                                     arzătoare și acuma iată te țin în brațe, pentru că de acuma nu
                                     ne vom maĭ vedea. <hi rend="bold"><hi rend="italic">Vom muri,
-                                                astăzi.</hi></hi> Te sărut  de <hi rend="bold"><hi
-                                                rend="italic">iertăciunĭ</hi></hi>. Traian ne va
-                                    ucide pe toțĭ; e la porțile <hi rend="bold"><hi rend="italic"
-                                                >Sarmis-Egetuzei.</hi></hi></p>
+                                                astăzi.</hi></hi> Te sărut  de <hi rend="bold"><hi rend="italic">iertăciunĭ</hi></hi>. Traian ne va
+                                    ucide pe toțĭ; e la porțile <hi rend="bold"><hi rend="italic">Sarmis-Egetuzei.</hi></hi></p>
                               <p><hi rend="bold"><hi rend="italic">Traian</hi></hi>? E el aşa de
                                     rău?</p>
                               <p>— El nu-ĭ rău; dar am fost rău eu, și i-am făcut multe rele; de
@@ -1177,17 +1095,14 @@
                               <p>— Ba este. Tocmaĭ la aceasta era să viu cu vorba. Este cine-va,
                                     care poate să ne scapede urgia luĭ.</p>
                               <p>— Dacă este cine-va, și nu vrea să facă aceasta , apoĭ îl afurisec
-                                    eu, preuteasa luĭ <hi rend="bold"><hi rend="italic"
-                                                >Za-molxe</hi></hi>, că de-i preot, ochii luĭ să nu
+                                    eu, preuteasa luĭ <hi rend="bold"><hi rend="italic">Za-molxe</hi></hi>, că de-i preot, ochii luĭ să nu
                                     maĭ vadă ardere curată; de-ĭ mumă, să-și vază copiiĭ vînzătorĭ
                                     de țara lor, de-ĭ o fată să-și vază odată iubitul, și apoi s’o
                                     părăsească pentru veci; orĭ să fie datoare neamului său, să-l
-                                    vază și să-l ucidă cu mîna sa. <hi rend="bold"><hi rend="italic"
-                                                >Zamolxe </hi></hi>mă aude! Cine-ĭ acela?</p>
+                                    vază și să-l ucidă cu mîna sa. <hi rend="bold"><hi rend="italic">Zamolxe </hi></hi>mă aude! Cine-ĭ acela?</p>
                               <p>— <hi rend="bold"><hi rend="italic">Tu</hi></hi> singură! tu vei
                                     merge la <hi rend="bold"><hi rend="italic">Traian</hi></hi>!</p>
-                              <p>— Jur, că voiu merge! <hi rend="bold"><hi rend="italic"
-                                                >Zamolxe</hi></hi> mă aude.</p>
+                              <p>— Jur, că voiu merge! <hi rend="bold"><hi rend="italic">Zamolxe</hi></hi> mă aude.</p>
                               <p>— Și vei face ce-ți voiu porunci eu?</p>
                               <p>— Voiu face.</p>
                               <p>— Si de nu?</p>
@@ -1196,16 +1111,12 @@
                                     eu, fiica mea; și voiu-muri și eu cu tine. Jură dară, că orĭ veĭ
                                     muri.....</p>
                               <p>— Jur, că voiu muri.... .</p>
-                              <p>— Orĭ veĭ —ucide pe <hi rend="bold"><hi rend="italic"
-                                          >Traian!</hi></hi></p>
+                              <p>— Orĭ veĭ —ucide pe <hi rend="bold"><hi rend="italic">Traian!</hi></hi></p>
                               <p>Dochia sbură din brațele tatălui său, ca mușcată, de șerpe, și fugi
                                     departe de el.</p>
                               <p>Apoi iară îșĭ veni în fire, și grăi cu voace moartă, ca cei ce-s
                                     judecați la perire, răzînd.</p>
-                              <p>— Cînd porunceștĭ, <hi rend="bold"><hi rend="italic"
-                                          >Decebale</hi></hi> să <hi rend="bold"><hi rend="italic"
-                                                >ucid</hi></hi> pe <hi rend="bold"><hi rend="italic"
-                                                >Traian</hi></hi>?</p>
+                              <p>— Cînd porunceștĭ, <hi rend="bold"><hi rend="italic">Decebale</hi></hi> să <hi rend="bold"><hi rend="italic">ucid</hi></hi> pe <hi rend="bold"><hi rend="italic">Traian</hi></hi>?</p>
                               <p>— Acuma.</p>
                               <p>— Mă duc. Remas bun!</p>
                               <p>— Te aștept la peștera cea neagră, la focurile curate.</p>
@@ -1215,11 +1126,9 @@
                                     jurămîntul, ce aĭ făcut.</p>
                               <p>Bine zici, tată. Nu-1 voiu uita; îmi va va prinde bine.</p>
                               <p>— Ci iată și <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>;
-                                    meargă și el cu tine, în chip de sol. <hi rend="bold"><hi
-                                                rend="italic">Bicilie,</hi></hi> ai îngropat saciĭ
+                                    meargă și el cu tine, în chip de sol. <hi rend="bold"><hi rend="italic">Bicilie,</hi></hi> ai îngropat saciĭ
                                     unde am zis?</p>
-                              <p>— Ingropat, Doamne, respunse <hi rend="bold"><hi rend="italic"
-                                                >Bicilie</hi></hi>, sosind.</p>
+                              <p>— Ingropat, Doamne, respunse <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>, sosind.</p>
                               <p>— Ai maĭ îngropat și pe ceĭ ce i-au îngropat?</p>
                               <p>— Și pe dînșiĭ.</p>
                               <p>— Acum plecațĭ, iată o ramură de măslin, semn de pace; ca să putețĭ
@@ -1227,14 +1136,10 @@
                               <p>— Să ne maĭ vedem în pace!</p>
                               <p>In ce pace se vor maĭ vedea aceștia!...</p>
                               <p><hi rend="bold"><hi rend="italic">Decebal</hi></hi> se sue într’un
-                                    turn. <hi rend="bold"><hi rend="italic">Dochia</hi></hi> cu <hi
-                                          rend="bold"><hi rend="italic">Bicilie</hi></hi> ies din
+                                    turn. <hi rend="bold"><hi rend="italic">Dochia</hi></hi> cu <hi rend="bold"><hi rend="italic">Bicilie</hi></hi> ies din
                                     grădină pe o portiță, și să văd într’o poiană de pădure. Apucînd
                                     înainte, <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>
-                                    socoate, cum să facă, să apere pe Traian de <hi rend="bold"><hi
-                                                rend="italic">Dochia</hi></hi>; <hi rend="bold"><hi
-                                                rend="italic">Dochia</hi></hi> cum să-l apere de <hi
-                                          rend="bold"><hi rend="italic">Bicilie</hi></hi>.</p>
+                                    socoate, cum să facă, să apere pe Traian de <hi rend="bold"><hi rend="italic">Dochia</hi></hi>; <hi rend="bold"><hi rend="italic">Dochia</hi></hi> cum să-l apere de <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>.</p>
                               <p>Odată numaĭ pe cine văd amîndoĭ, cum vine din pădure spre el? Pe
                                           <hi rend="bold"><hi rend="italic">Traian</hi></hi>.</p>
                               <p><hi rend="bold"><hi rend="italic">Dochia</hi></hi>, îl cunoaște; să
@@ -1243,17 +1148,13 @@
                                     Bicilie aleargă după ea și strigă:</p>
                               <p>— Apără-te, <hi rend="bold"><hi rend="italic">Traiane</hi></hi> de
                                           <hi rend="bold"><hi rend="italic">Dochia</hi></hi>! și — o
-                                    străpunge. Dar Dochia strigase: — Apără-te de <hi rend="bold"
-                                                ><hi rend="italic">Bicilie</hi></hi>, și se
-                                    străpunse și ea pe sine, pe cînd dedea <hi rend="bold"><hi
-                                                rend="italic">Bicilie</hi></hi> de o străpunse. Ea
+                                    străpunge. Dar Dochia strigase: — Apără-te de <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>, și se
+                                    străpunse și ea pe sine, pe cînd dedea <hi rend="bold"><hi rend="italic">Bicilie</hi></hi> de o străpunse. Ea
                                     căzu, cum cade o floare.</p>
                               <p>Dar căzu si <hi rend="bold"><hi rend="italic">Bicilie</hi></hi>.
                                     Căcĭ eĭ nu vedeau cum Decebal se uită la eĭ de pe vîrful
-                                    turnuluĭ celuĭ maĭ înalt, cînd el a văzut pe <hi rend="bold"><hi
-                                                rend="italic">Bicilie</hi></hi> ucizîndu-ĭ fiica, ci
-                                    îșĭ pune săgeata la ochiu, săgetează pre <hi rend="bold"><hi
-                                                rend="italic">Bicilie</hi></hi> în coaste, și-l dete
+                                    turnuluĭ celuĭ maĭ înalt, cînd el a văzut pe <hi rend="bold"><hi rend="italic">Bicilie</hi></hi> ucizîndu-ĭ fiica, ci
+                                    îșĭ pune săgeata la ochiu, săgetează pre <hi rend="bold"><hi rend="italic">Bicilie</hi></hi> în coaste, și-l dete
                                     la pămînt.</p>
                               <p><hi rend="bold"><hi rend="italic">Bicilie</hi></hi> strigă din gura
                                     morțiĭ:</p>
@@ -1261,8 +1162,7 @@
                                     du-mă de aicĭ, și-țĭ voiu spune unde-s îngropate comorile lui
                                     Decebal. </p>
                               <p><hi rend="bold"><hi rend="italic">Traian</hi></hi> se reîntoarse
-                                    repede în pădure; dar luĭ <hi rend="bold"><hi rend="italic"
-                                                >Bicilie</hi></hi> îĭ respunse alt cineva:</p>
+                                    repede în pădure; dar luĭ <hi rend="bold"><hi rend="italic">Bicilie</hi></hi> îĭ respunse alt cineva:</p>
                               <p>— Să te scape pe tine? Am scăpat eu din mîna ta; dar tu nu-mĭ veĭ
                                     scapa din mîna mea.</p>
                               <p>De odată îĭ se nălucĭ înaintea ochilor un cuțit de ale sale;, și
@@ -1276,8 +1176,7 @@
                                     și-i spuse în ce loc zace comoara îngropată.</p>
                               <p><hi rend="bold"><hi rend="italic">Decebal</hi></hi> dă un semn, din
                                     vîrful turnuluĭ celuĭ ciunt, și deodată, se aprind toate
-                                    pala-turile și toate turnurile <hi rend="bold"><hi rend="italic"
-                                                >Sarmis-Egetuseĭ,</hi></hi> și se încinge o mare de
+                                    pala-turile și toate turnurile <hi rend="bold"><hi rend="italic">Sarmis-Egetuseĭ,</hi></hi> și se încinge o mare de
                                     foc peste toată cetatea.</p>
                               <p>Flăcările biciuesc ceĭ păreți, flutură, se încolăcesc peste cele
                                     coperișe și zbură pînă peste vîrfurile turnurilor.</p>
@@ -1286,16 +1185,14 @@
                                     cum moare o seminție. Zidurile trosnesc și se risipesc de jur
                                     împrejur; bătrîniĭ și femeile săriră în foc, cîntînd cîntecele
                                     morțiĭ.</p>
-                              <p>Pe un cîmp dinaintea <hi rend="bold"><hi rend="italic"
-                                                >Sarmis-Egetuzeĭ</hi></hi> se încaeră oastea romană
+                              <p>Pe un cîmp dinaintea <hi rend="bold"><hi rend="italic">Sarmis-Egetuzeĭ</hi></hi> se încaeră oastea romană
                                     cu cea dacă în luptă grea.</p>
                               <p><hi rend="bold"><hi rend="italic">Decebal</hi></hi> se uită la ele
                                     din vîrful turnuluĭ, de asupra flăcărilor. Stălpii de fum se
                                     nalță mînioșĭ, și se fac nouri întunecoșĭ pe dea-supra capuluĭ
                                     luĭ, mîncîndu-se în vîltorĭ uriașe.</p>
                               <p>Daciĭ știu că luptă lupta cea de moarte; îșĭ înzecesc puterile, și
-                                    romaniĭ nu prea pot străbate înainte. Dar <hi rend="bold"><hi
-                                                rend="italic">Traian</hi></hi> zboară în fruntea
+                                    romaniĭ nu prea pot străbate înainte. Dar <hi rend="bold"><hi rend="italic">Traian</hi></hi> zboară în fruntea
                                     lor, și apoĭ încep a cade și daciĭ, ca frunzele.</p>
                               <p><hi rend="bold"><hi rend="italic">Decebal</hi></hi> zărește pe
                                     Traian, și îĭ strigă:</p>
@@ -1305,12 +1202,10 @@
                               <p>— Să trăeștĭ, lume; eu îmi închid ochiĭ; nu te voiu maĭ scutura din
                                     somnul păciĭ. Și se adînci în somnul fără deșteptare; în noaptea
                                     fără dimineață!</p>
-                              <p>Mîna morțiĭ s'a întins peste țara <hi rend="bold"><hi rend="italic"
-                                                >Dacieĭ</hi></hi>.</p>
+                              <p>Mîna morțiĭ s'a întins peste țara <hi rend="bold"><hi rend="italic">Dacieĭ</hi></hi>.</p>
                               <p>— Fugițĭ!</p>
                               <p>Vai! de zilele tale, dacă ești născut de mumă de dac! Vai! de capul
-                                    tău, dacă te închinĭ altarelor luĭ <hi rend="bold"><hi
-                                                rend="italic">Zamolxe</hi></hi>! Steaua ți s’a
+                                    tău, dacă te închinĭ altarelor luĭ <hi rend="bold"><hi rend="italic">Zamolxe</hi></hi>! Steaua ți s’a
                                     șterge, pomenirea îțĭ va peri.</p>
                               <p>Fugĭ! căcĭ vatra ți-o rispește ferul romanuluĭ; spada luĭ te tae pe
                                     pragul colibeĭ tale. Nu fugĭ, căcĭ săgeata, luĭ te ajunge pînă
@@ -1320,8 +1215,7 @@
                                     urca pe scările măririlor depe lume; carĭ au capăt; coboară-te
                                     în adîncul întunericului nemărginit! ....</p>
                               <p>Romaniĭ joacă împrejurul unuĭ foc în mijlocul codrilor. Focul
-                                    acésta e așa., că arde o cetate mare, <hi rend="bold"><hi
-                                                rend="italic">Sarmis-Egetusa</hi></hi>.. — Și apoĭ
+                                    acésta e așa., că arde o cetate mare, <hi rend="bold"><hi rend="italic">Sarmis-Egetusa</hi></hi>.. — Și apoĭ
                                     au remas numaĭ ziduri negre și printre ele tăciuni de oase și
                                     maĭ negre.</p>
                               <p>A fost odată pe pămint o țară falnică.</p>

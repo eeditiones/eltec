@@ -8,9 +8,13 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:209896303 wikidata:missing">Madame Thérèse, ou les volontaires de 92 : édition ELTeC</title>
-        <author xml:id="Erckmann" ref="viaf:31995972 wikidata:Q3246593">Erckmann, Émile (1822-1899)</author>
+        <author ref="viaf:31995972 wikidata:Q3246593">Erckmann, Émile (1822-1899)</author>
         <respStmt>
-          <resp>principal</resp>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,15 +25,14 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
-        <!--
-          Published as part of ELTeC
-          2018-11-01
-        -->
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -39,6 +42,12 @@
           <ref target="http://www.ebooksgratuits.com/" />
         </bibl>
         <bibl type="printSource">
+          <title>Madame Thérèse, ou Les volontaires de 92</title>
+          <author>Erckmann-Chatrian</author>
+          <publisher>J. Hetzel</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1879</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5542516h" />
         </bibl>
         <bibl type="firstEdition">
           <date>1863</date>
@@ -66,6 +75,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2018-11-01">Conversion with CLIGStoELTeC stylesheet for ELTeC-1</change>
       <change when="2015-06-02">Initial TEI version.</change>

@@ -8,9 +8,13 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:174178728 wikidata:Q2740921">Albert Savarus : édition ELTeC</title>
-        <author xml:id="Balzac" ref="viaf:29529595 wikidata:Q9711">Balzac, Honoré de (1799-1850)</author>
+        <author ref="viaf:29529595 wikidata:Q9711">Balzac, Honoré de (1799-1850)</author>
         <respStmt>
           <resp>Encoded by</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Principal investigator</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,11 +25,14 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -35,13 +42,20 @@
           <ref target="http://efele.net/ebooks/livres/000015" />
         </bibl>
         <bibl type="printSource">
+          <title>Albert Savarus</title>
+          <author>Honoré de Balzac</author>
           <pubPlace>Paris</pubPlace>
           <publisher>Furne, J.-J. Dubochet et Cie, J. Hetzel et Paulin</publisher>
           <date>1842</date>
           <!-- 1842-1848, vol. 1: 1842 -->
         </bibl>
         <bibl type="firstEdition">
-          <date>1842</date>
+          <title>Albert Savarus</title>
+          <author>Honoré de Balzac</author>
+          <publisher>bureaux du "Siècle"</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1853</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5834593c" />
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -65,6 +79,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2018-11-01">Conversion with CLIGStoELTeC stylesheet for ELTeC-1</change>
       <change when="2015-08-07">Initial TEI version.</change>
@@ -758,16 +774,14 @@
         <p>– Ma fortune me coûte cher, disait-il au jeune Chavoncourt. Pour bien connaître une dévote, il faut malheureusement l'épouser !</p>
         <p>Mademoiselle de Watteville se conduit en fille vraiment extraordinaire. On disait d'elle : — <hi>Elle a des lubies !</hi> Elle va tous les ans voir les murailles de la Grande-Chartreuse. Peut-être voulait-elle imiter son grand-oncle en franchissant l'enceinte de ce couvent pour y chercher son mari, comme Watteville franchit les murs de son monastère pour recouvrer la liberté. </p>
         <p>En 1841, elle quitta Besançon dans l'intention, disait-on, de se marier ; mais, on ne sait pas encore la véritable cause de ce voyage d'où elle est revenue dans un état qui lui interdit de jamais reparaître dans le monde. Par un de ces hasards auxquels le vieil abbé de Grancey avait fait allusion, elle se trouva sur la Loire dans le bateau à vapeur dont la chaudière fit explosion. Mademoiselle de Watteville fut si cruellement maltraitée qu'elle a perdu le bras et la jambe gauche ; son visage porte d'affreuses cicatrices qui la privent de sa beauté ; sa santé soumise à des troubles horribles lui laisse peu de jours sans souffrance. Enfin, elle ne sort plus aujourd'hui de la Chartreuse des Rouxey où elle mène une vie entièrement vouée à des pratiques religieuses.</p>
+        <trailer>Paris, mai 1842.</trailer>
       </div>
     </body>
     <back>
       <div type="notes">
-        <note xml:id="N1">Nous n'ignorons pas que le culte de sainte Philomène n'a commencé qu'après la Révolution de 1830 en Italie. Cet anachronisme, à propos du nom de mademoiselle de Wateville, nous a paru sans importance ; mais il a été si remarqué par des personnes qui voudraient une entière exactitude dans cette histoire de mœurs, que l'auteur changera ce détail aussitôt que faire se pourra.</note>
+        <!-- This notes does not seem to have an anchor, neither in the digitalSource nor in the firstEdition. -->
+        <note>Nous n'ignorons pas que le culte de sainte Philomène n'a commencé qu'après la Révolution de 1830 en Italie. Cet anachronisme, à propos du nom de mademoiselle de Watteville, nous a paru sans importance ; mais il a été si remarqué par des personnes qui voudraient une entière exactitude dans cette histoire de mœurs, que l'auteur changera ce détail aussitôt que faire se pourra.</note>
       </div>
-      <div type="liminal">
-        <p>Paris, mai 1842.</p>
-      </div>
-      <!-- Not sure why this is here. <div> <ref target="#N1"></ref> </div> -->
     </back>
   </text>
 </TEI>

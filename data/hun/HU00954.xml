@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00954" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00954" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Szent Péter esernyője : ELTeC edition</title>
-            <author ref="viaf:46774986">Mikszáth, Kálmán  (1847-1910)</author>
+            <author ref="viaf:46774986"> Mikszáth Kálmán (1847-1910)
+            </author>
             <respStmt>
                <resp>ELTeC conversion</resp>
                <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
                </name>
                <name>Fellegi Zsófia</name>
-               <name>Takács Emma</name>
+               <name>Bajzát Tímea Borbála</name>
+               <name>Vétek Bence</name>
             </respStmt>
          </titleStmt>
          <extent>
             <measure unit="words">53010</measure>
             <measure unit="pages">198</measure>
          </extent>
-         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
-         <sourceDesc><bibl type="digitalSource">
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
                <title>Szent Péter esernyője</title>
                <date>1999-01-08</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -33,45 +33,53 @@
                   <name>Szabolcsi József</name>
                   <name>Juhász Lehel</name>
                </respStmt>
-               
-               
-               
-            </bibl><bibl type="firstEdition">
-               <title>Szent Péter esernyője</title>
-               <author>Mikszáth Kálmán</author>
-               <date>1895</date>
-            </bibl><bibl type="digitalSource">
+              
+                  <bibl type="digitalSource">
                      <title>Szent Péter esernyője</title>
                      <date>1999-01-08</date>
-                  </bibl><bibl type="digitalSource">
+                  </bibl>
+               
+               
+                  <bibl type="digitalSource">
                      <title>Mikszáth Kálmán összes művei CD-ROM</title>
                      <pubPlace>Budapest</pubPlace>
                      <publisher>Arcanum</publisher>
                      <date>1998</date>
                      <idno type="isbn-10">963 85923 5 4</idno>
-                  </bibl><bibl type="printSource">
-                     <title>Regények és nagyobb elbeszélések 7, 1895, Szent Péter esernyője</title>
+                  </bibl>
+               
+                  <bibl type="printSource">
+                     <title> Szent Péter esernyője</title>
                      <author>Mikszáth Kálmán</author>
                      <pubPlace>Budapest</pubPlace>
                      <publisher>Akadémiai Kiadó</publisher>
                      <date>1957</date>
-                  </bibl></sourceDesc>
+                     <ref target="http://mek.oszk.hu/00900/00954/00954.pdf"/>
+                  </bibl>
+               
+            </bibl>
+            <bibl type="firstEdition">
+               <title>Szent Péter esernyője</title>
+               <author>Mikszáth Kálmán</author>
+               <date>1895</date>
+            </bibl>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="hu"/>
+            <language ident="hu">Hungarian</language>
          </langUsage>
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
-            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
+      <revisionDesc>
          <change when="2019-01-30"/>
          <change when="2018-11-21"/>
          <change when="2018-11-14"/>

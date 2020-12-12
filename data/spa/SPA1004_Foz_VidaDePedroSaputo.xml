@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1004" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1004" xml:lang="SPA">
  <teiHeader>
  	<fileDesc>
  		<titleStmt>
@@ -15,21 +16,19 @@
 			<measure unit="pages">325</measure>
 		</extent>
 		<publicationStmt>
-			<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-            <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-            <date when="2020-02-11"/>
-            <availability>
-            	<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-            </availability>
-            <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-        </publicationStmt>
-        <sourceDesc>
-        	<bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+        <sourceDesc><bibl type="firstEdition">
             	<date>1844</date>
                 <publisher>Imprenta Gallifa</publisher>
                 <pubPlace>Zaragoza</pubPlace>
-            </bibl>
-            <bibl type="digitalSource">
+            </bibl><bibl type="digitalSource">
                 <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
                 <date>1999</date>
                 <pubPlace>Alicante</pubPlace>
@@ -42,8 +41,7 @@
                     <name>Álex Bia</name>
                     <name>Josefina Carrión</name>
                 </respStmt>
-            </bibl>
-        </sourceDesc>
+            </bibl></sourceDesc>
     </fileDesc>
 	<encodingDesc n="eltec-1">
     	<p/>
@@ -55,11 +53,12 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
         </textDesc>
     </profileDesc>
     <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
     	<change when="2020-04-14">Anotación ELTeC : Borja Navarro Colorado</change>
     </revisionDesc>
 </teiHeader>
@@ -186,7 +185,7 @@ le tenían envidia.
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004002">
+    <div type="chapter" n="SPA1004002">
     <head>Capítulo II</head>
     <head>Agudeza de Pedro Saputo en su niñez</head>
      
@@ -286,7 +285,7 @@ se consoló, y propuso de no importunarle más sobre este punto.
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004003">
+    <div type="chapter" n="SPA1004003">
      <head>Capítulo III</head>
      <head>De cómo Pedro Saputo adquirió grandes fuerzas</head>
      
@@ -369,7 +368,7 @@ con ellos como si fuesen palillos de randa.
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004004">
+    <div type="chapter" n="SPA1004004">
      <head>
       Capítulo IV
      </head>
@@ -531,7 +530,7 @@ escuela.
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004005">
+    <div type="chapter" n="SPA1004005">
     <head>
       Capítulo V
      </head>
@@ -703,7 +702,7 @@ atrevimiento.
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004006">
+    <div type="chapter" n="SPA1004006">
      <head>
       Capítulo VI
      </head>
@@ -864,7 +863,7 @@ al lápiz los dos; y eran tan parecidos, que todos al verlos decían:
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004007">
+    <div type="chapter" n="SPA1004007">
      <head>
       Capítulo VII
      </head>
@@ -1211,7 +1210,7 @@ no sabía hacer lo que llaman estuco.
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004008">
+    <div type="chapter" n="SPA1004008">
      <head>
       Capítulo VIII
      </head>
@@ -1340,7 +1339,7 @@ mundo, y aun me parece pequeño.
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004009">
+    <div type="chapter" n="SPA1004009">
      <head>
       Capítulo IX
      </head>
@@ -1507,7 +1506,7 @@ hijo.
      </p>
     </div>
 
-    <div  type="chapter" n="SPA1004010">
+    <div type="chapter" n="SPA1004010">
      <head>
       Capítulo X
      </head>
@@ -1639,7 +1638,7 @@ esta vida.
    <div type="group" n="2">
    <head>Libro segundo</head>
    
-   <div  type="chapter" n="SPA1004011">
+   <div type="chapter" n="SPA1004011">
      <head>Capítulo I</head>
      <head>
       De cómo Pedro Saputo salió a correr el mundo
@@ -1749,7 +1748,7 @@ va a correr mundo a la ventura, el mundo le ha de valer y en el
 mundo hallar la vida o la muerte.
      </p>
     </div>
-    <div  type="chapter" n="SPA1004012">
+    <div type="chapter" n="SPA1004012">
      <head>
       Capítulo II
      </head>
@@ -1986,7 +1985,7 @@ sardas donde luego comienza ya el Semontano.
     </div>
     
 
-    <div  type="chapter" n="SPA1004013">
+    <div type="chapter" n="SPA1004013">
      
 
      <head>
@@ -2156,7 +2155,7 @@ conocido, que no da o quita poco.
     </div>
     
 
-    <div  type="chapter" n="SPA1004014">
+    <div type="chapter" n="SPA1004014">
      
 
      <head>
@@ -2388,7 +2387,7 @@ capítulo siguiente.
     </div>
     
 
-    <div  type="chapter" n="SPA1004015">
+    <div type="chapter" n="SPA1004015">
      
 
      <head>
@@ -2557,7 +2556,7 @@ la puerta.
     </div>
     
 
-    <div  type="chapter" n="SPA1004016">
+    <div type="chapter" n="SPA1004016">
      
 
      <head>
@@ -2883,7 +2882,7 @@ las novicias, se daba muy buena vida.
     </div>
     
 
-    <div  type="chapter" n="SPA1004017">
+    <div type="chapter" n="SPA1004017">
      
 
      <head>
@@ -3160,7 +3159,7 @@ favores, las contemplaba lo más sensiblemente que podía.
     </div>
     
 
-    <div  type="chapter" n="SPA1004018">
+    <div type="chapter" n="SPA1004018">
      
 
      <head>
@@ -3285,7 +3284,7 @@ novicias.
     </div>
     
 
-    <div  type="chapter" n="SPA1004019">
+    <div type="chapter" n="SPA1004019">
      
 
      <head>
@@ -3494,7 +3493,7 @@ Salieron en fin de la sierra y prosiguieron su camino.
     </div>
     
 
-    <div  type="chapter" n="SPA1004020">
+    <div type="chapter" n="SPA1004020">
      
 
      <head>
@@ -3807,7 +3806,7 @@ el hábito o caer en mengua.
     </div>
     
 
-    <div  type="chapter" n="SPA1004021">
+    <div type="chapter" n="SPA1004021">
      
 
      <head>
@@ -4027,7 +4026,7 @@ pasarlas al corazón con el amor que las derramaba.
     </div>
     
 
-    <div  type="chapter" n="SPA1004022">
+    <div type="chapter" n="SPA1004022">
      
 
      <head>
@@ -4306,7 +4305,7 @@ isla encantada.
     </div>
     
 
-    <div  type="chapter" n="SPA1004023">
+    <div type="chapter" n="SPA1004023">
      
 
      <head>
@@ -4484,7 +4483,7 @@ quería.
     </div>
     
 
-    <div  type="chapter" n="SPA1004024">
+    <div type="chapter" n="SPA1004024">
      
 
      <head>
@@ -4679,7 +4678,7 @@ algunos jornaleros.
     </div>
     
 
-    <div  type="chapter" n="SPA1004025">
+    <div type="chapter" n="SPA1004025">
      
 
      <head>
@@ -4966,10 +4965,10 @@ resistir aquella llamada tan fuerte y retozona.
    <milestone unit="book"/>
    
 
-   <div  type="group" n="3">
+   <div type="group" n="3">
    	<head>Libro tercero</head>
     
-    <div  type="chapter" n="SPA1004026">
+    <div type="chapter" n="SPA1004026">
      <head>Capítulo I</head>
      
 
@@ -5117,7 +5116,7 @@ culada.
     </div>
     
 
-    <div  type="chapter" n="SPA1004027">
+    <div type="chapter" n="SPA1004027">
      
 
      <head>
@@ -5320,7 +5319,7 @@ hombre. Yo, testigo.
     </div>
     
 
-    <div  type="chapter" n="SPA1004028">
+    <div type="chapter" n="SPA1004028">
      
 
      <head>
@@ -5484,7 +5483,7 @@ gustaron los pintores valencianos.
     </div>
     
 
-    <div  type="chapter" n="SPA1004029">
+    <div type="chapter" n="SPA1004029">
      
 
      <head>
@@ -5943,7 +5942,7 @@ Almunia lo hallé escrito.
     </div>
     
 
-    <div  type="chapter" n="SPA1004030">
+    <div type="chapter" n="SPA1004030">
      
 
      <head>
@@ -6091,7 +6090,7 @@ de su pueblo.
     </div>
     
 
-    <div  type="chapter" n="SPA1004031">
+    <div type="chapter" n="SPA1004031">
      
 
      <head>
@@ -6292,7 +6291,7 @@ entre ellas.
     </div>
     
 
-    <div  type="chapter" n="SPA1004032">
+    <div type="chapter" n="SPA1004032">
      
 
      <head>
@@ -6427,7 +6426,7 @@ día.
     </div>
     
 
-    <div  type="chapter" n="SPA1004033">
+    <div type="chapter" n="SPA1004033">
      
 
      <head>
@@ -6651,7 +6650,7 @@ secreto de la carta.
     </div>
     
 
-    <div  type="chapter" n="SPA1004034">
+    <div type="chapter" n="SPA1004034">
      
 
      <head>
@@ -6772,7 +6771,7 @@ a pasar unos días fuera.
     </div>
     
 
-    <div  type="chapter" n="SPA1004035">
+    <div type="chapter" n="SPA1004035">
      
 
      <head>
@@ -6926,7 +6925,7 @@ los que él vido en el Santuario.
     </div>
     
 
-    <div  type="chapter" n="SPA1004036">
+    <div type="chapter" n="SPA1004036">
      
 
      <head>
@@ -7214,7 +7213,7 @@ estar los tesoros.
     </div>
     
 
-    <div  type="chapter" n="SPA1004037">
+    <div type="chapter" n="SPA1004037">
      
 
      <head>
@@ -7417,7 +7416,7 @@ su pueblo se bajó inmediatamente.
     </div>
     
 
-    <div  type="chapter" n="SPA1004038">
+    <div type="chapter" n="SPA1004038">
      
 
      <head>
@@ -7681,7 +7680,7 @@ Zaragoza.
     </div>
     
 
-    <div  type="chapter" n="SPA1004039">
+    <div type="chapter" n="SPA1004039">
      
 
      <head>
@@ -7943,7 +7942,7 @@ fama y gran persona de aquel hijo de su pueblo.
     </div>
     
 
-    <div  type="chapter" n="SPA1004040">
+    <div type="chapter" n="SPA1004040">
      
 
      <head>
@@ -8126,10 +8125,10 @@ enemigo de la paz de los pueblos.
    </div>
    
 
-   <div  type="group" n="4">
+   <div type="group" n="4">
     <head>Libro cuarto</head>
   
-    <div  type="chapter" n="SPA1004041">
+    <div type="chapter" n="SPA1004041">
      <head>Capítulo I</head>
      
 
@@ -8378,7 +8377,7 @@ todo bien vista en un hijo con su madre.
     </div>
     
 
-    <div  type="chapter" n="SPA1004042">
+    <div type="chapter" n="SPA1004042">
      
 
      <head>
@@ -8585,7 +8584,7 @@ Jaime.
     </div>
     
 
-    <div  type="chapter" n="SPA1004043">
+    <div type="chapter" n="SPA1004043">
      
 
      <head>
@@ -8813,7 +8812,7 @@ bellaquerías del noviciado ni otras después de aquéllas.
     </div>
     
 
-    <div  type="chapter" n="SPA1004044">
+    <div type="chapter" n="SPA1004044">
      
 
      <head>
@@ -9086,7 +9085,7 @@ amabilísima. La acompañó en efecto, y se detuvo allá ocho días.
     </div>
     
 
-    <div  type="chapter" n="SPA1004045">
+    <div type="chapter" n="SPA1004045">
      
 
      <head>
@@ -9393,7 +9392,7 @@ natural alegría.
     </div>
     
 
-    <div  type="chapter" n="SPA1004046">
+    <div type="chapter" n="SPA1004046">
      
 
      <head>
@@ -9671,7 +9670,7 @@ llevármela de vivandera.
     </div>
     
 
-    <div  type="chapter" n="SPA1004047">
+    <div type="chapter" n="SPA1004047">
      
 
      <head>
@@ -9962,7 +9961,7 @@ y tornar aliento a una sala o a la ventana.
     </div>
     
 
-    <div  type="chapter" n="SPA1004048">
+    <div type="chapter" n="SPA1004048">
      
 
      <head>
@@ -10166,7 +10165,7 @@ satisfecho.
     </div>
     
 
-    <div  type="chapter" n="SPA1004049">
+    <div type="chapter" n="SPA1004049">
      
 
      <head>
@@ -10444,7 +10443,7 @@ sólo aquéllos pudo decir que había vivido. ¡Gloria de este mundo!
     </div>
     
 
-    <div  type="chapter" n="SPA1004050">
+    <div type="chapter" n="SPA1004050">
      
 
      <head>
@@ -10694,7 +10693,7 @@ era, como digo, un abogado, todo un abogado.
     </div>
     
 
-    <div  type="chapter" n="SPA1004051">
+    <div type="chapter" n="SPA1004051">
      
 
      <head>
@@ -10944,7 +10943,7 @@ fin, partiendo el uno para la corte, y el otro para su aldea.
     </div>
     
 
-    <div  type="chapter" n="SPA1004052">
+    <div type="chapter" n="SPA1004052">
      
 
      <head>
@@ -11141,7 +11140,7 @@ en lo mismo; y siempre para llevar la misma respuesta.
     </div>
     
 
-    <div  type="chapter" n="SPA1004053">
+    <div type="chapter" n="SPA1004053">
      
 
      <head>
@@ -11373,7 +11372,7 @@ desea!
     </div>
     
 
-    <div  type="chapter" n="SPA1004054">
+    <div type="chapter" n="SPA1004054">
      
 
      <head>

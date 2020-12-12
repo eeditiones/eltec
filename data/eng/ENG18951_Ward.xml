@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/ns" xml:id="ENG18951" xml:lang="ENG">
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/ns" xml:id="ENG18951" xml:lang="en">
  <teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileDesc>
    <titleStmt>
@@ -29,23 +29,19 @@
     <measure unit="pages">140</measure>
    </extent>
    <publicationStmt>
-    <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary
-     History" (CA16204)</publisher>
-    <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-    <date when="2019-11-09"/>
-    <availability>
-     <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-    </availability>
-    <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="digitalSource"><title>The Story of Bessie Costrell : VWWP edition
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+</publicationStmt>
+   <sourceDesc><bibl type="digitalSource"><title>The Story of Bessie Costrell : VWWP edition
       </title><author>Ward, Humphry, Mrs., 1851-1920</author><publisher>Digital Library Program,
-      Indiana University</publisher><pubPlace>Bloomington, IN</pubPlace><ref target="http://purl.dlib.indiana.edu/iudl/vwwp/VAB7023">VWWP</ref></bibl>
-    <bibl type="firstEdition" n="B8112"><title>The Story of Bessie Costrell</title><author>Ward,
+      Indiana University</publisher><pubPlace>Bloomington, IN</pubPlace><ref target="http://purl.dlib.indiana.edu/iudl/vwwp/VAB7023">VWWP</ref></bibl><bibl type="firstEdition" n="B8112"><title>The Story of Bessie Costrell</title><author>Ward,
       Humphry, Mrs., 1851-1920</author><publisher>Smith, Elder
-      </publisher><pubPlace>London</pubPlace><date when="1895">1895</date></bibl><bibl type="printSource"><title>The story of Bessie Costrell</title><publisher>New York: Macmillan and co And London.</publisher><date>1895</date><ref target="http://archive.org/details/storyofbessiecos00ward"/></bibl>
-   </sourceDesc>
+      </publisher><pubPlace>London</pubPlace><date when="1895">1895</date></bibl><bibl type="printSource"><title>The story of Bessie Costrell</title><publisher>New York: Macmillan and co And London.</publisher><date>1895</date><ref target="http://archive.org/details/storyofbessiecos00ward"/></bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -62,6 +58,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
    <change when="2018-07-23">LB convert to ELTeC-1</change>
    <change when="2010-08-24">elizabethmunson: Added genre term</change>
@@ -90,7 +87,7 @@
    <head>THE STORY OF BESSIE COSTRELL</head>
    <div type="chapter">
     <head>SCENE I</head>
-    <p><hi>IT</hi> was an August evening, still and cloudy after a day unusually chilly for the time
+    <p>IT was an August evening, still and cloudy after a day unusually chilly for the time
      of year. Now, about sunset, the temperature was warmer than it had been in the morning, and the
      departing sun was forcing its way through the clouds, breaking up their level masses into
      delicate latticework of golds and greys. The last radiant light was on the wheat-fields under
@@ -318,7 +315,7 @@
    <div type="chapter">
     <pb n="19" xml:id="VAB7023-019"/>
     <head>SCENE II</head>
-    <p><hi>IT</hi> was, indeed, the general opinion in Clinton Magna that John Bolderfield—or
+    <p>IT was, indeed, the general opinion in Clinton Magna that John Bolderfield—or
      “Borrofull,” as the village pronounced it, took his sister-in-law's death too lightly. The
      women especially pronounced him a hard heart. Here was “poor Eliza” gone, Eliza who had kept
      him decent and comfortable for forty years, ever since he was a lad, and he could go about
@@ -614,7 +611,7 @@
    <div type="chapter">
     <pb n="42" xml:id="VAB7023-042"/>
     <head>SCENE III</head>
-    <p><hi>SOME</hi> five months passed away.</p>
+    <p>SOME five months passed away.</p>
     <p>One January night the Independent minister of Clinton Magna was passing down the village
      street. Clinton lay robed in light snow, and “sparkling to the moon.” The frozen pond beside
      the green, though it was nearly eight o'clock, was still alive with children, sliding and
@@ -1006,7 +1003,7 @@
    <div type="chapter">
     <pb n="72" xml:id="VAB7023-072"/>
     <head>SCENE IV</head>
-    <p><hi>JUST</hi> before dark on the following day, a man descended from a down train at the
+    <p>JUST before dark on the following day, a man descended from a down train at the
      Clinton Magna station. The porters knew him and greeted him; so did one or two labourers
      outside, as he set off to walk to the village, which was about a mile distant.</p>
     <p>“Well, John, so yer coom back,” said one of them, an old man, grasping the newcomer by the
@@ -1522,7 +1519,7 @@
    <div type="chapter">
     <pb n="110" xml:id="VAB7023-110"/>
     <head>SCENE V</head>
-    <p><hi>SO</hi> the husband and wife were left together in the cottage room. The door had no
+    <p>SO the husband and wife were left together in the cottage room. The door had no
      sooner closed on Saunders and his companions than Isaac was seized with that strange sense of
      walking amid things unreal upon a wavering earth which is apt to beset the man who has any
      portion of the dreamer's temperament, under any sudden rush of circumstance. He drew his hand

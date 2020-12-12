@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM032" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM032" xml:lang="ro">
    
    <teiHeader>
       <fileDesc>
@@ -26,28 +26,29 @@
          </extent>
          
          <publicationStmt>
-            <p></p>
-         </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
          
-         <sourceDesc>
-            <bibl type="firstEdition">
+         <sourceDesc><bibl type="firstEdition">
                <author>Rădulescu, G.</author>
                <title>Banditul Rîureanu sau un înger în infern. Roman dramatic senzațional de G. Rădulescu</title>
                <pubPlace>Craiova</pubPlace>
                <publisher>Editura Librăriei Române Filip Lazăr</publisher>
                              <date>1890</date>
-            </bibl>
-         
-            <bibl type="printSource">
+            </bibl><bibl type="printSource">
                <author>Rădulescu, G.</author>
                <title>Banditul Rîureanu sau un înger în infern. Roman dramatic senzațional de G. Rădulescu (ediția a III-a)</title>
                <pubPlace>Craiova</pubPlace>
                <publisher>Editura Librăriei Române Filip Lazăr</publisher>
                <date>1893</date>
                <ref target="http://doi.org/10.5281/zenodo.3229353">Facsimile on zenodo</ref>
-            </bibl>
-               
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       
       <encodingDesc n="eltec-1"><p/></encodingDesc>
@@ -60,12 +61,13 @@
          <textDesc>
             <e:authorGender key="M"/>
             <e:size key="short"/>
-            <e:canonicity key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <e:timeSlot key="T3"/>
          </textDesc>
       </profileDesc>
       
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2019-11-15">Initial TEI version generated.</change>
       </revisionDesc>
    </teiHeader>
@@ -127,7 +129,7 @@
    <head>CAP. II. — Satul Putineiu.</head>
    <p>Acoperit odinioară de pădurĭ pe toată întinderea sa, satul acesta a fost multă vreme cuibul fiarelor sĕlbatice şi al hoţilor de codri. Azĭ însă, desbrăcat cu totul de haină-ĭ de verdeaţă, se prăjeşte la arşiţa Soareluĭ fără umbră, fără adăpost şi în timpul erneĭ, fără să aibă omul de unde rupe câte va vrăscurĭ cu care să 'şĭ desgheţe membrele amorţite de ger. La spatele satuluĭ se întind podgoriile de viĭ, nişte viĭ micĭ şi pipernicite care se întind până în Alexandria, dar care, din pricina pământuluĭ neprielnic acestuĭ soĭ de cultură, dă un vin maĭ puţin de cât mediocru. In mijlocul satuluĭ e biserica, şi de cele două părţĭ ale eĭ, se întind casele satuluĭ, dacă se maĭ pot numi case nişte grămeȡĭ de pământ şi de grinzĭ lipite, fără nicĭ o formă şi fără nicĭ un gust.</p>
    <p>Nimic nu e maĭ încântător de cât să vezi în pragul acestor morminte ce se numesc case ţărăneştĭ, apărând capul drăguţ şi plin de farmec al ţăranceĭ care, dupe ce 'şĭ a isprăvit treaba, ese pe seară cu furca în brâu ca să vaȡă pe ceĭ ce trec pe linie aşteptând să întoarcă vitele de la luncă. :?!</p>
-         <gap rend="figure"></gap>
+         <gap rend="figure"/>
    <p>La o jumătate de ceas depărtare de sat, se afla livedea, vast şi frumos teren aşeȡat între Alexandria şi comuna Pielea. Locuitoriĭ comunelor învecinate, maĭ fără voia lor, au făcut din această livede o adevĕrată şosea a bucureştenilor. Eĭ aŭ făcut cu cheltuiala lor comună un şanţ în jurul acesteĭ câmpiĭ de verdeaţă, şi aŭ plantat patru rândurĭ de arborĭ pe margine, ceea ce formează nişte alee recoroase şi încântătoare. In fundul livezeĭ, o prăvălioară mititică cu un aspect sărăcăcios dar foarte curat, adăposteşte şi recoreşte cu rachiu, ţuica saŭ zeamă de strugurĭ pe ceĭ care os-teniţĭ de drum sau de plimbare, se aşează pe câte o laviţă de subt umbrar, pe când un cim-poier bătrân şi gârbov îĭ înveseleşte cu cântecele-ĭ din alte vremurĭ. Stăpânul acesteĭ prăvălioare este tot Domnul Solomonică, care ştiind că Dumineca şi sărbătorile în timpul vereĭ lumea fuge din sat şi merge să petrécă la livede, a deschis şi aci o <hi>sucursală</hi> nu dór ca să câştige ceva, dar numaĭ ca să nu ȡică oameniĭ că n'au cu ce 'şĭ recori gâtul.</p>
    <p>Logofăt în vremea luĭ pe moşia prinţuluĭ M... domnul Solomonică este aȡĭ o autoritate la dânsul în sat; ca orĭce autoritate însă, este maĭ mult temut de cât iubit, ba chiar une orĭ această autoritate este criticată cu multă asprime de către ceĭ care 'şĭ au stabilit deja reputaţia de gurĭ rele.</p>
    <p>Şi maĭ întâĭ aceste gurĭ rele, se întreabă cu oare care dreptate: logăfătul căruĭ prinţ a fost domnul Solomonică? Aci deja în-cepe încurcătură căcĭ dupe câte 'şĭ aduc aminte bătrâniĭ, hangiul de azĭ a fost logăfăt la d. M. dar acest M. n'a fost prinţ cum n'a fost Păcală Popă. De altfel, toată lumea 'şĭ aduce aminte că acest stăpân de odinioară al d luĭ Solomonică era d'o bogăţie fără sémă.</p>
@@ -291,7 +293,7 @@
    <head>CAP. IX. — Un balaur.</head>
    <p>De mult, foarte de mult, în Putineiu şi în împrejurimile satuluĭ pănă la Giurgiu spre mează zi şi până la Alexandria spre méză-nópte, se petreceaŭ, din când, în când, lucrurĭ îngrozitoare, carĭ punea lumea în uimire, dar a căror esplicsţie nu se putea găsi cu toate cercetările şi cu toată paza administraţiei care sfârşise şi ea prin a se uni cu mulţimea ignorantă şi superstiţioasă, şi a pune totul pe so-coteala unuĭ şeārpe colosal pe care nimenĭ nu ’l vĕȡŭse vre-o dată, dar despre a căruĭ existenţă nicĭ chiar copiiĭ nu se maĭ îndoiaŭ.</p>
    <p>Aşa, nu rare orĭ se întêmpla să auȡĭ într'o bună dimineaţă, aşa din chiar senin că, Ianoş, morarul din vale, a fost găsit pe lun-că, mort, galben şi fără un pic de sânge în vine. Nimenĭ din sat, nicĭ puĭ de om, nu'şĭ aducea aminte sĕ’l fi vĕȡut pe Ianoş măcar o dată suferind de durere de cap. Şi iarăşi ni-</p>
-<gap rend="figure"></gap>
+<gap rend="figure"/>
    <p>meni nu'şĭ aducea aminte să fi existat vre-o ceartă saŭ vre un motiv de inimiciţie între morar şi un alt locuitor din sat saŭ de aiurea ca să poată bănui că a fost o crimă la mij-loc. Lumea şi autorităţile eraŭ silite să dea din umerĭ şi să arunce vina pe cine ştie ce creştin nevinovat, care de cele maĭ multe orĭ nu ştia nicĭ cu spatele de moartea luĭ Ianoş.</p>
    <p>Alte orĭ, perceptorul comuneĭ, în urma or-dinuluĭ casierieĭ judeţene, pleca la oraşiu de reşedinţă cu baniĭ adunaţĭ din imposite şi la câte un conac unde se oprea diligenţa ca să resufie saŭ să schimbe caiĭ, dacă se depărta bietul perceptor cu câţi-va paşĭ ca să satisfacă vre-o trebuinţă firească, îl aşteptaŭ tovarăşiĭ de călătorie mult şi bine în zadar, căcĭ nu se maĭ întorcea, şi fiind-că diligenţa trebuia să sosească la destinaţie Ia anume ceasurĭ, conductorul era silit să plece înainte, convins, ca şi ceĭ-l-alţĭ călătorĭ ca perceptorul or a uitat ce-va acasă şi s'a întors, saŭ ceea ce era maĭ probabilŭ, a dat peste jivina de balaur.</p>
    <p>Nu trecea mult şi se găsea cadavrul mor-tuluĭ prin buruienĭ şi alăturĭ cu dênsul, génta, registrele şi tot ce avea cu el, baniĭ însă dis-păreaţĭ şi lucrul se esplica uşor şi anume toată lumea era convinsă că balaurul 'ĭ a făcut de petrecanie perceptoruluĭ, iar cât despre bani carĭ se gâseaŭ în registre şi carĭ prin urmare trebuia să'ĭ aibă cu dênsul în geantă, se credea or-că cel care a descoperit întâiŭ cada vrul 'ĭ a luat, saŭd că perceptorul, care nu era tocmaĭ biserică de închinat, căcĭ pe socoteala morţilor se pun toate infamiile — avea baniĭ trecuţĭ numaĭ în registre ca să plătească ad-ministraţia dar în realitate, în casă n'avea go-logan chior.</p>
@@ -659,7 +661,7 @@
    <p>Aĭ dreptate, a sosit ceasul să. . . . să .... Elisa, cu toate sforţările ce făcu, nu putu găsi un cuvênt ca să exprime misterioase operaţie ce obicĭnuit făcea sus, la ora aceasta îm-preună cu bărbatul şi cu un alt. ..... prieten al caseĭ.</p>
    <p>Işî şterse ochiĭ, suspină adînc şi se duse.</p>
    <p>Didina auzi închizându-se cu veriga cele douĕ uşĭ, cea de sus şi cea din josul scăreĭ întortochiate care conducea la camera unde se închideaŭ atât de misterios în fie-care seară tatăl sĕŭ, mama şi un al treilea pe care nicĭ o dată nu 'l putuse vedea bine; ştia numaĭ atîta că venea seara între un-spre-zece şi douĕ-spre-zece ceasurĭ, intra pe din dos, se ducea în odaia cunoscută, şi acolo cu veriga pusă la uşe, stetea până târziŭ dupe mezul nopţeĭ. Din puţinul ce putuse distinge prin gaura cheieĭ, din fizionomia streinuluĭ, îşĭ aducea aminte că chipul acesta îl maĭ văzuse unde-va. Intr'ade-văr, misteriosul necunoscut era tocmaĭ călă-torul care, cu cât-va timp maĭ nainte fusese zărit în fundul diligenţeĭ care aştepta, dinaintea hanuluĭ ca să ia pe Solomonică şi pe nefericitul Poliacov. Cititoriĭ aŭ recunoscut, cred, în sinistrul tovarăş al hangiuluĭ, pe faimosul bandit Rîureanu care cu revolverul la gâtul negustoruluĭ bulgar şi ajutat de canalia de cârciumar, îĭ ceruse pe drumul Giurgiuluĭ, punga saŭ viaţa şi, în cele din urmă, cu o cruzime de fiară selbatică, i le răpise pe amândouĕ.</p>
-   <p>Tăcerea obicĭnuită învăluĭ numaĭ de cât întreaga prăvălie. Didina începu să mişte melancolic cârligele cu care făcea la un ciorap. Sufletul sĕŭ de sigur nu urmărea firul care încet încet se deşira dupe ghemul cu aţă, ci era cu acela pe care 'l vĕzuse atât de desnadăjduit în ajun şi care jurase să moară maĭ bine de cât să piardă patru anĭ în aspra servitute a vieţeĭ militare. Intr'o ţară aşa de bogată în spionĭ, se temea ca nu cum-va din-tr'un moment într'altul, să nu fie descoperit în fundul asiluluĭ unde se ascunsase. Această idee numaĭ, ardea sângele bieteĭ fete; într'un moment imaginaţia i se aprinse atât de tare din pricina acestor bănuelĭ, în cât i se păru că aude detunăturĭ de puşcă pe câmp. Intr'în-sul a tras, cugeta ea; o fi vrut să 'l aresteze şi el s'o fi opus. In momentul acesta, firul i se rupse în mână şi copila, îngheţată, escla-mă: Dumnezeule! oare acesta este un semn prevestitor? Viaţa luĭ cum-va, fi-va oare sfărâmată ca firul acesta? de o dată o apucă o tremurătură nervoasă ; crezu că într'adevĕr Iorgu e mort. Ah! zise ea, de ce n'am scri-soarea pe care 'mĭ a trimis-o!........ aşĭ şti....... dar scrisorile sunt în camera tatăluĭ meŭ. Zi-</p><gap rend="figure"></gap>
+   <p>Tăcerea obicĭnuită învăluĭ numaĭ de cât întreaga prăvălie. Didina începu să mişte melancolic cârligele cu care făcea la un ciorap. Sufletul sĕŭ de sigur nu urmărea firul care încet încet se deşira dupe ghemul cu aţă, ci era cu acela pe care 'l vĕzuse atât de desnadăjduit în ajun şi care jurase să moară maĭ bine de cât să piardă patru anĭ în aspra servitute a vieţeĭ militare. Intr'o ţară aşa de bogată în spionĭ, se temea ca nu cum-va din-tr'un moment într'altul, să nu fie descoperit în fundul asiluluĭ unde se ascunsase. Această idee numaĭ, ardea sângele bieteĭ fete; într'un moment imaginaţia i se aprinse atât de tare din pricina acestor bănuelĭ, în cât i se păru că aude detunăturĭ de puşcă pe câmp. Intr'în-sul a tras, cugeta ea; o fi vrut să 'l aresteze şi el s'o fi opus. In momentul acesta, firul i se rupse în mână şi copila, îngheţată, escla-mă: Dumnezeule! oare acesta este un semn prevestitor? Viaţa luĭ cum-va, fi-va oare sfărâmată ca firul acesta? de o dată o apucă o tremurătură nervoasă ; crezu că într'adevĕr Iorgu e mort. Ah! zise ea, de ce n'am scri-soarea pe care 'mĭ a trimis-o!........ aşĭ şti....... dar scrisorile sunt în camera tatăluĭ meŭ. Zi-</p><gap rend="figure"/>
    <p>când aceste din urmă cuvinte, Didina ridică ochiĭ în sus. Nu voiŭ afla oare nicĭ o dată ce fac eĭ acolo?</p>
    <p>— Dupe tejgheaua unde şedea fata eraŭ grămădite în neregulă uneltele caseĭ: tingirĭ, cutiĭ, sacĭ vechĭ, butoaie etc. Privirile Didini, aruncate fără direcţie, căzură pe o scară, du-blă ascunsă dupe nişte scândurĭ carĭ o acopereaŭ cu desăvârşire. Curiozitatea fetei luă de o dată proporţiunile uneĭ imense dorinţe; îşĭ părăsĭ locul şi merse fără sgomot spre unghiul întunecos unde era scara. Dintr'o aruncătură de ochĭ îşĭ formă planul şi calculă dificultăţile. Indata, cu o delicateţă de hoţ, cu o mare prudenţă, cu o atenţiune fără seamăn, transportă scândurile fără sgomot în altă parte, şi aşeză scara din dosul tejgheleĭ.</p> 
    <p>Dupe ce stinse lampa, desfăcu scara, cea du-blă şi o aşeză ast-fel, în cât vêrful să vie tocmaĭ în dreptul ferestreĭ făcută în tavan. Urcă apoĭ treptele de jos, dar cu sfială, cu temere ştiind şi recunoscând că: atenţiunea ce făcea nu era frumoasă. De acea poate, picioarele-ĭ tremurad şi de multe orĭ vru chiar să cază. Spiritul sĕŭ în acest moment erea prea preoupat ca să maĭ poată asculta vocea prudențeĭ; îşĭ luă seama de maĭ multe orĭ, dar în ne, după multă luptă cu ea însăşĭ, se văzu în vârful scăreĭ. Cu capul la o mică distanţă de plafond şi cu mâna la ferăstrue. Işĭ reţinea espiraţia. Aci frica fu şi maĭ vie, căcĭ ajunea în punctul cel maĭ primejdios. Cum să eschidă fără sgomot ferestruia ca să auză şi să vază ce se petrece în fundul odăieĭ? Cel maĭ mic sgomot ....</p>
@@ -938,7 +940,7 @@
    <p>Se hotărăşte să puie mâna pe sapă a treia ră, când zări apropiindu-se lumina cea roşiatecă pe care o vĕzuse din depărtare. Puse mâna pe pistóle, se întórse. vrea sa tragă când.... pe cine vede înaintea luĭ? pe Iorgu lu Didina. Se trage înapoĭ pistolele îĭ scapă in mâinĭ, vrea să vorbescă dar glasul 'ĭ se stinge în gât şi cade rezemându-se de stejar.</p>
    <p>— Nu e comóră, îĭ zise rece Iorgu. Nu e ici o lădiţă. Scrisórea am făcut-o eu ca să te trag în cursă fiind-că ştiam că le deschizĭ ştiam asemenea că eşti tovărăşiŭ cu Rîureanu şi cu alţĭ bandiţĭ. Maĭ ştiam încă că împreună cu aceştia aĭ omorât pe grecul şi că îndată e voi face o scrisóre ca venind din partea unuĭ fost tovarăşŭ, aĭ să caȡi în laţ. Tóte acestea le am simţit din ziua când 'mi aĭ deschis scrisórea şi aĭ oprit paralele pe care le trimeteam mami. Convingerea sigură însă am căpătat-o când am simţit că citeştĭ corespondenţa dintre mine şi fata d-tale.</p>
    <p>— Intre fata mea şi d-ta! zise Solomonică căruia îĭ clănţăneau dinţiĭ.</p>
-   <p>— Da, între mine şi fata d-tale, eu sunt dezertorul care 'ĭ scria, acela pe care 'l iubeş-</p><gap rend="pages missing"></gap></div>
+   <p>— Da, între mine şi fata d-tale, eu sunt dezertorul care 'ĭ scria, acela pe care 'l iubeş-</p><gap rend="pages missing"/></div>
 </body>
   </text>
 </TEI>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA4022">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA4022">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,40 +15,35 @@
 				<measure unit="words">39935</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2020-07-27"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="digitalSource">
 					José Calvo Tello
 					<ref target="https://github.com/cligs/conssa">Corpus of Novels of the Spanish Silver Age (CoNSSA)</ref>
 					<idno>ne0193</idno>
 					<pubPlace>University of Würzburg</pubPlace>
 					<date when="2020"/>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
 					<pubPlace>Universidad de Alicante</pubPlace>
 					<date when="2004">2004</date>
 					<ref target="http://www.cervantesvirtual.com/obra/novela-i--0/"/>
-				</bibl>
-				<bibl type="printSource">
+				</bibl><bibl type="printSource">
 					<publisher>Fundación Santander Central Hispano, D.L.</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date when="1999">1999</date>
-				</bibl>
-				<bibl type="firstEdition">
+				</bibl><bibl type="firstEdition">
 					<publisher>Asociación de escritores y artistas </publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date when="1907">1907</date>
 					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000246912">Biblioteca digital hispánica</ref>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p>Downcoded from CLIGS</p></encodingDesc>
@@ -66,6 +62,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-07-27">Borja Navarro Colorado : revisión de etiquetado ELTeC y anotación complementaria</change>
 			<change when="2020-07-27">LB convert to ELTeC-1</change>
 			<change when="2016-07-19">#jct : Initial TEI version.</change>
@@ -1548,7 +1545,7 @@
 			</div>
 		</body>
 		<back>
-			<div>
+			<div type="liminal">
 				<head>La rendición de Santiago</head>
 				<p>Silverio Lanza, autor de esta obrita, murió en Salamanca, en una miserable casucha de la calle de Tentenecio. Tocábamos juntos en un café, y así nos ganábamos la vida; pero Silverio, sin familia, y encerrado en aquella ratonera, gastaba mucho, comía mal, y la tisis se apoderó de él.</p>
 				<p>Ya no pudo tocar la bandurria y pensó en irse al hospital para morir allí.</p>
@@ -1590,14 +1587,14 @@
 						
 				<p>SILVERIO LANZA</p>
 			</div>
-			<div>
+			<div type="liminal">
 				<head> Filosofía descarnada</head>
 				<p>Ya saben ustedes que si guardan sesenta kilogramos de difunto en un ataúd de zinc, llega un día que la carne ha desaparecido. ¿Quién se ha comido al muerto? Preciso es confesar que el muerto se ha comido a sí mismo a fuerza de discurrir.</p>
 				<p>Y, ¿qué discurren los muertos?</p>
 				<p>Como la vida nerviosa subiste después que termina la vida muscular claro es que el muerto se apercibe de que le tocan, y oye lo que se dice a su lado. Y después... nada nuevo: algún ruido de trepidación, y a comerse hasta los tobillos discurriendo.</p>
 				<p>Olvidaba decir a ustedes que todas las leyes (sabias) tienen su verificación experimental, y no le falta ésta a mi ley de la <emph>autofagia</emph> de ultratumba. En efecto, ni la santidad ni la perversidad, ni las enfermedades ni la robustez determinan la consunción del cadáver. En cambio, vengo observando que al destapar el ataúd de un tonto aparece intacto el muerto: el pobrecito siguió sin discurrir.</p>
 			</div>
-			<div>
+			<div type="liminal">
 				<head>Ave, César: tu víctima te saluda</head>
 				<p>Al terminar el alquiler de la sepultura de Silverio, no pude renovarlo, y sólo obtuve la gracia de presenciar la exhumación.</p>
 				<p>Al abrir el ataúd, cayó un papel que yo había colocado y donde aún podía leerse:</p>

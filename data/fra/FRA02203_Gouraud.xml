@@ -8,9 +8,13 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:unavailable wikidata:missing">Les Filles du professeur : édition ELTeC</title>
-        <author xml:id="Gouraud" ref="viaf:31987653 wikidata:Q18115130">Gouraud, Julie [Louise d'Aulnay] (1810-1891)</author>
+        <author ref="viaf:31987653 wikidata:Q18115130">Gouraud, Julie [Louise d'Aulnay] (1810-1891)</author>
         <respStmt>
-          <resp>principal</resp>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,23 +25,35 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
-        <!--
-          Published as part of ELTeC
-          2018-11-01
-        -->
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
           <publisher>Bibliothèque électronique du Québec (BEQ)</publisher>
           <ref target="http://beq.ebooksgratuits.com" />
         </bibl>
-        <bibl type="firstEdition">
+        <bibl type="printSource">
+          <title>Les Filles du professeur</title>
+          <author>Julie Gouraud</author>
+          <publisher>Hachette et Cie</publisher>
+          <pubPlace>Paris</pubPlace>
           <date>1876</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k6488535s" />
+        </bibl>
+        <bibl type="firstEdition">
+          <title>Les Filles du professeur</title>
+          <author>Julie Gouraud</author>
+          <publisher>Hachette et Cie</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1876</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k6488535s" />
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -61,6 +77,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2018-11-01">Conversion with CLIGStoELTeC stylesheet for ELTeC-1</change>
       <change when="2015-07-17">cf Initial TEI version.</change>
@@ -666,7 +684,7 @@
           <l>Garçon de la montagna,</l>
           <l>Te fauilla pa veni</l>
           <l>Che vouila ma dourmi.</l>
-          <ref target="FRA02203_N01" />
+          <ref target="#FRA02203_N01" />
         </quote>
         <p>Il fut donc décidé qu'on suivrait le conseil de Mme de Sarlières, qu'on attendrait la mise en vente du <hi>Petit-Château.</hi>
         </p>
@@ -1195,16 +1213,16 @@
         <p>— Tout à fait, mon ami.</p>
         <p>— Voyons ce que dit notre sœur Anne.</p>
         <quote type="letter">
-        <p>« Mon petit Adrien,</p>
-        <p>« J'ai conspiré, aussi moi, pour ton bonheur. La famille qui t'apprécie si fort m'est déjà chère.</p>
-        <p>« L'autre jour, j'étais triste sans savoir pourquoi ; aujourd'hui, je vois clairement que c'est ta charmante femme qui me manquait. Mlle Marguerite est d'autant plus charmante qu'elle consent à venir habiter le <hi>Petit-Château</hi> . Maman et Marie sont très contentes. Hélène te dira elle-même ce qu'elle pense de tout ceci, mais je crois que je suis à moi seule plus joyeuse que les trois autres. Ne vas pas, cher frère, repousser les offres généreuses de Charles. La fortune est très susceptible ; si par hasard on hésite à lui ouvrir sa porte, elle va frapper ailleurs et beaucoup de gens sont disposés à lui ouvrir. Ne fais donc pas la mine à cette gracieuse déesse ; nous lui donnerons des idées raisonnables ; c'est souvent faute d'être dirigée qu'elle commet tant d'erreurs. Nous essayerons de lui enlever le bandeau qui couvre ses yeux. </p>
-        <p>« Cher Adrien, la photographie de Mlle Marguerite me plaît beaucoup, je cause avec ma belle-sœur chaque matin. Je lis dans ses yeux et dans son sourire que nous sommes d'accord pour te rendre heureux, frère bien-aimé.</p>
-        <p>« Adrien, sois aimable comme tu sais l'être quand tu veux. Soigne le nœud de ta cravate, c'est essentiel.</p>
-        <p>« Le bon docteur partage notre joie, et me charge de te le dire.</p>
-        <p>« Tu vois que les braves gens ont quelquefois leur récompense dès ce monde. C'est du reste l'opinion de Janique. « Mon bonheur, moi, mamzelle Anne, me disait-elle ce matin, c'est d'être entrée en service chez vous. »</p>
-        <p>« Adieu ! frère chéri, ne te presse pas de revenir. Tout va bien ici.</p>
-        <p>« Je t'embrasse par contrebande entre deux douaniers belges.</p>
-        <p>« ANNE. »</p>
+          <p>« Mon petit Adrien,</p>
+          <p>« J'ai conspiré, aussi moi, pour ton bonheur. La famille qui t'apprécie si fort m'est déjà chère.</p>
+          <p>« L'autre jour, j'étais triste sans savoir pourquoi ; aujourd'hui, je vois clairement que c'est ta charmante femme qui me manquait. Mlle Marguerite est d'autant plus charmante qu'elle consent à venir habiter le <hi>Petit-Château</hi> . Maman et Marie sont très contentes. Hélène te dira elle-même ce qu'elle pense de tout ceci, mais je crois que je suis à moi seule plus joyeuse que les trois autres. Ne vas pas, cher frère, repousser les offres généreuses de Charles. La fortune est très susceptible ; si par hasard on hésite à lui ouvrir sa porte, elle va frapper ailleurs et beaucoup de gens sont disposés à lui ouvrir. Ne fais donc pas la mine à cette gracieuse déesse ; nous lui donnerons des idées raisonnables ; c'est souvent faute d'être dirigée qu'elle commet tant d'erreurs. Nous essayerons de lui enlever le bandeau qui couvre ses yeux. </p>
+          <p>« Cher Adrien, la photographie de Mlle Marguerite me plaît beaucoup, je cause avec ma belle-sœur chaque matin. Je lis dans ses yeux et dans son sourire que nous sommes d'accord pour te rendre heureux, frère bien-aimé.</p>
+          <p>« Adrien, sois aimable comme tu sais l'être quand tu veux. Soigne le nœud de ta cravate, c'est essentiel.</p>
+          <p>« Le bon docteur partage notre joie, et me charge de te le dire.</p>
+          <p>« Tu vois que les braves gens ont quelquefois leur récompense dès ce monde. C'est du reste l'opinion de Janique. « Mon bonheur, moi, mamzelle Anne, me disait-elle ce matin, c'est d'être entrée en service chez vous. »</p>
+          <p>« Adieu ! frère chéri, ne te presse pas de revenir. Tout va bien ici.</p>
+          <p>« Je t'embrasse par contrebande entre deux douaniers belges.</p>
+          <p>« ANNE. »</p>
         </quote>
         <p>Non seulement cette lettre causa un vif plaisir à Adrien, mais elle lui donna un grand repos d'esprit.</p>
         <p>Le jeune chef de famille n'osait pas songer à son avenir. Il était lié aux siens par affection et par nécessité. Que de fois, sous prétexte d'aller chasser, il allait rêver au bord d'une source discrète ou sur une montagne inaccessible à ses sœurs ! Et maintenant la fortune venait à lui : « Vraiment, se disait Adrien, le <hi>Petit-Château</hi> est enchanté ! Les larmes y sèchent, les cœurs y sont vaillants et le travail y reçoit sa récompense. » </p>
@@ -1324,12 +1342,12 @@
         <p>Mme de Vrières avait retrouvé avec la fortune la gaieté de la jeunesse ; tout prospérait autour d'elle : Françoise était une charmante enfant qui rappelait sa grand-mère ; elle n'avait pas seulement hérité du charme de sa physionomie, tout annonçait qu'elle aurait ses précieuses qualités. Henri et Joseph se distinguaient à l'Université de Louvain. Le petit Pierre était encore à la maison. Sa ressemblance avec M. Liébert en faisait l'idole de sa tante Marie, qui avait des préceptes tout nouveaux pour l'éducation de ce Benjamin. L'enfant doué d'une riche nature ne souffrait pas de cette méthode, et Hélène, heureuse du bonheur que donnait ce petit être à Marie, fermait souvent les yeux sur les faiblesses de sa sœur et sur les caprices de l'enfant chéri.</p>
         <p>Anne n'oubliait pas son vieil ami, et n'ayant pas de confidence à lui faire, elle s'inquiétait peu que ses lettres fussent lues par des yeux d'emprunt : profitons de la permission.</p>
         <quote type="letter">
-        <p>« Cher et respectable ami,</p>
-        <p>« Je me flatte que vous avez admiré le courage dont j'ai fait preuve en vous quittant. J'étais certaine que rien ne vous manquerait ; toutefois je suis curieuse de savoir comment vous supportez mon absence. N'êtes-vous pas un peu triste de ne plus entendre le son de ma voix ? Ne préférez-vous pas votre petit bâton de vieillesse au bras de la grande Ferdinande ? Je dois vous manquer, surtout pour égayer la soirée. Dites-moi donc que vous vous ennuyez sans moi. Comment se passent les soirées ? Hélène, son mari, la famille Holstein, sont d'une amabilité parfaite pour nous. Maman et Marie ont, selon moi, un peu trop d'à-parté avec Hélène, mais comme je ne <hi>suis pas jalouse</hi> , je vais gaiement de mon côté avec Charles qui est toujours un aimable frère. Adrien et Marguerite sont accablés de politesses. Ils dînent en ville presque tous les jours, ce qui ne me laisse pas sans inquiétude pour leur vie ; car les dîners belges ne sont pas des dîners de pattes de mouches, et le dévouement doit être à l'unisson de l'estomac pour y faire honneur. </p>
-        <p>« Il paraît que notre séjour ici sera moins long que je ne l'avais supposé.</p>
-        <p>« Mon beau-frère a un jardinier fort habile, qui me donnera des boutures précieuses. Je les partagerai entre Julien et le gros Thomas de Ferdinande.</p>
-        <p>« À bientôt donc, cher et respectable ami. Je vous embrasse de tout mon cœur, comme je le ferai en arrivant. Mille tendresses à notre bonne amie et une caresse à Jupiter.</p>
-        <p>« Votre petite ANNE. »</p>
+          <p>« Cher et respectable ami,</p>
+          <p>« Je me flatte que vous avez admiré le courage dont j'ai fait preuve en vous quittant. J'étais certaine que rien ne vous manquerait ; toutefois je suis curieuse de savoir comment vous supportez mon absence. N'êtes-vous pas un peu triste de ne plus entendre le son de ma voix ? Ne préférez-vous pas votre petit bâton de vieillesse au bras de la grande Ferdinande ? Je dois vous manquer, surtout pour égayer la soirée. Dites-moi donc que vous vous ennuyez sans moi. Comment se passent les soirées ? Hélène, son mari, la famille Holstein, sont d'une amabilité parfaite pour nous. Maman et Marie ont, selon moi, un peu trop d'à-parté avec Hélène, mais comme je ne <hi>suis pas jalouse</hi> , je vais gaiement de mon côté avec Charles qui est toujours un aimable frère. Adrien et Marguerite sont accablés de politesses. Ils dînent en ville presque tous les jours, ce qui ne me laisse pas sans inquiétude pour leur vie ; car les dîners belges ne sont pas des dîners de pattes de mouches, et le dévouement doit être à l'unisson de l'estomac pour y faire honneur. </p>
+          <p>« Il paraît que notre séjour ici sera moins long que je ne l'avais supposé.</p>
+          <p>« Mon beau-frère a un jardinier fort habile, qui me donnera des boutures précieuses. Je les partagerai entre Julien et le gros Thomas de Ferdinande.</p>
+          <p>« À bientôt donc, cher et respectable ami. Je vous embrasse de tout mon cœur, comme je le ferai en arrivant. Mille tendresses à notre bonne amie et une caresse à Jupiter.</p>
+          <p>« Votre petite ANNE. »</p>
         </quote>
         <p>Que s'est-il donc passé en l'absence de la famille Liébert ?</p>
         <p>Mlle Bravard avait déclaré à son cousin qu'il devait épouser Anne ; c'était la femme qui lui convenait.</p>
@@ -1380,7 +1398,7 @@
           <l>Jeune gars de la montagne ?</l>
           <l>Que venais-tu chercher,</l>
           <l>Si tu ne voulais pas danser ?</l>
-        <p>* *</p>
+          <p>* *</p>
           <l>Il ne fallait pas venir,</l>
           <l>Jeune gars de la montagne ;</l>
           <l>Il ne fallait pas venir,</l>

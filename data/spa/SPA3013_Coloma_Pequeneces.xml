@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3013" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3013" xml:lang="SPA">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -14,29 +15,24 @@
                         <measure unit="words">142470</measure>
                   </extent>
                   <publicationStmt>
-                        <publisher ref="https://distant-reading.net">COST Action "Distant Reading
-                              for European Literary History" (CA16204)</publisher>
-                        <distributor ref="https://zenodo.org/communities/eltec/"
-                              >Zenodo.org</distributor>
-                        <date when="2019-01-20"/>
-                        <availability>
-                              <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                        </availability>
-                        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-                  </publicationStmt>
-                  <sourceDesc>
-                        <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+                  <sourceDesc><bibl type="firstEdition">
                               <pubPlace>Bilbao</pubPlace>
                               <date>1890</date>
                               <publisher>Administración de El Mensajero del Corazón de
                                     Jesús</publisher>
-                        </bibl>
-                        <bibl type="digitalSource">
+                        </bibl><bibl type="digitalSource">
                               <publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
                               <pubPlace>Universidad de Alicante</pubPlace>
                               <idno>137</idno>
-                              <ref
-                                    target="http://www.cervantesvirtual.com/obra-visor/pequeneces--0/html/"/>
+                              <ref target="http://www.cervantesvirtual.com/obra-visor/pequeneces--0/html/"/>
                               <date when="2004"/>
                               <respStmt>
                                     <resp>Corrección del texto, etiquetado XML-TEI y edición
@@ -44,14 +40,12 @@
                                     <name>Manuel Sánchez Quero</name>
                                     <name>Sonia Jover Sánchez</name>
                               </respStmt>
-                        </bibl>
-                        <bibl type="printSource">
+                        </bibl><bibl type="printSource">
                               <pubPlace>Bilbao</pubPlace>
                               <date>1891</date>
                               <publisher>Administración de El Mensajero del Corazón de
                                     Jesús</publisher>
-                        </bibl>
-                  </sourceDesc>
+                        </bibl></sourceDesc>
             </fileDesc>
             <encodingDesc n="eltec-1">
                   <p/>
@@ -73,6 +67,7 @@
                   </textDesc>
             </profileDesc>
             <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
                   <change when="2020-04-28">Anotación formato ELTeC y correcciones varias: Borja
                         Navaro Colorado</change>
             </revisionDesc>
@@ -367,8 +362,7 @@
                               <p> Detuviéronse todos a su vista, quedando cada cual en su sitio en
                                     el más profundo silencio. Volvió entonces el niño hacia el
                                     cuadro de la Virgen sus grandes ojos azules, rebosando candor y
-                                    pureza, y con vocecita de ángel comenzó a decir:<ref
-                                          target="#SPA3013N01">[1]</ref>
+                                    pureza, y con vocecita de ángel comenzó a decir:<ref target="#SPA3013N01">[1]</ref>
                               </p>
                               <l> Dulcísimo recuerdo de mi vida, </l>
 
@@ -700,8 +694,7 @@
                                     un rico cigarro puro, cuya reluciente anilla acusaba su
                                     auténtico abolengo: tenía sobre las faldas, sin anudarlo, un
                                     delantillo de finísimo cuero y elegante corte, para preservar de
-                                    los riesgos de un incendio los encajes de su <foreign
-                                          xml:lang="FRA"> matinée </foreign> de seda cruda, y
+                                    los riesgos de un incendio los encajes de su <foreign xml:lang="FRA"> matinée </foreign> de seda cruda, y
                                     sacudía de cuando en cuando la ceniza en un lindo barro cocido,
                                     que representaba un grupo de amorcillos naciendo de cascarones
                                     de huevo en el fondo de un nido. </p>
@@ -716,8 +709,7 @@
                               <p> Y para cobrar nuevas fuerzas se bebió poquito a poco, y con aire
                                     muy distinguido, una tercera copita del <foreign xml:lang="FRA">
                                           whisky </foreign> , bastante fuerte, que juntamente con el
-                                    té, los <foreign xml:lang="FRA"> brioches </foreign> y <foreign
-                                          xml:lang="FRA"> sandwiches </foreign> , habían servido en
+                                    té, los <foreign xml:lang="FRA"> brioches </foreign> y <foreign xml:lang="FRA"> sandwiches </foreign> , habían servido en
                                     rico frasco de cristal de Bohemia. </p>
 
                               <p> La señora de López Moreno, gorda y majestuosa como las talegas de
@@ -1023,8 +1015,7 @@
 
                               <p> Lo enorme de la afirmación destruyó su efecto. Un «¡bah!» general
                                     de incredulidad brotó de todos los labios, y la duquesa se
-                                    hundió de nuevo en las profundidades de su <foreign
-                                          xml:lang="FRA"> chaise-longue </foreign> , exclamando: </p>
+                                    hundió de nuevo en las profundidades de su <foreign xml:lang="FRA"> chaise-longue </foreign> , exclamando: </p>
 
                               <p> -¡Eso es una <foreign xml:lang="FRA"> canard </foreign> ! </p>
 
@@ -1334,8 +1325,7 @@
                                     sacudían el polvillo del perfumado tabaco de sus chorreras de
                                     encaje. Su libertinaje era, por el contrario, aquel otro
                                     libertinaje tan común en España entre los jóvenes de alta
-                                    alcurnia: mezcla extraña, tipo híbrido del manolo y del <foreign
-                                          xml:lang="ENG"> sportmen </foreign> , del gitano y del
+                                    alcurnia: mezcla extraña, tipo híbrido del manolo y del <foreign xml:lang="ENG"> sportmen </foreign> , del gitano y del
                                           <foreign xml:lang="FRA"> muscadin </foreign> , que se
                                     diría nacido del antitético matrimonio de un torero andaluz con
                                     una <foreign xml:lang="FRA"> soubrette </foreign> parisiense.
@@ -1467,8 +1457,7 @@
                                     la duquesa, desairando una taza de té que le ofrecían; pidió en
                                     cambio una copita de <foreign xml:lang="FRA"> whisky </foreign>
                                     , porque era de rigor en aquel tiempo, entre algunas damas
-                                    elegantes que pretendían formar el cogollito de la <foreign
-                                          xml:lang="FRA"> crème </foreign> , fumar y empinar de lo
+                                    elegantes que pretendían formar el cogollito de la <foreign xml:lang="FRA"> crème </foreign> , fumar y empinar de lo
                                     lindo, con mucha distinción y gracia. El respetable Butrón le
                                     ofreció un cigarro. </p>
 
@@ -1529,8 +1518,7 @@
                                     vocecita que jamás dejaba un mismo y pausado tono-. Ayer, en el
                                     consejillo, trataron del nombramiento de camarera, porque la
                                     verdad es que la posición de esa pobre Cisterna no puede ser más
-                                    desairada... Pues nada, hija, el ministro de Ultramar<ref
-                                          target="#SPA3013N02">[2]</ref> tuvo la ocurrencia de
+                                    desairada... Pues nada, hija, el ministro de Ultramar<ref target="#SPA3013N02">[2]</ref> tuvo la ocurrencia de
                                     proponer que me hicieran a mí la oferta. </p>
 
                               <p> -¡Indecente! -gritó Leopoldina Pastor-. ¿Y tu marido no le ha dado
@@ -2007,8 +1995,7 @@
                                     las ¡dos pesetas!... Luego echó a correr, saliendo disparado del
                                     saloncito; detúvose un momento en el dintel, detrás de las
                                     cortinas, y agobiado, con los bracitos colgando y caída la
-                                    cabecita, siguió una galería que iba a parar a la <foreign
-                                          xml:lang="ENG"> Nursery </foreign>
+                                    cabecita, siguió una galería que iba a parar a la <foreign xml:lang="ENG"> Nursery </foreign>
                                     <ref target="#SPA3013N04">[4]</ref>, al destierro, a la Siberia
                                     de los niños, que el desapegado egoísmo de la condesa de
                                     Albornoz había importado para sus hijos de Inglaterra a su casa. </p>
@@ -2071,8 +2058,7 @@
                                     <ref target="#SPA3013N05">[5]</ref>
                               </p>
 
-                              <p> Entonces huyó el niño de allí desolado; corrió ciego a la <foreign
-                                          xml:lang="ENG"> Nursery </foreign> y se arrojó de cabeza
+                              <p> Entonces huyó el niño de allí desolado; corrió ciego a la <foreign xml:lang="ENG"> Nursery </foreign> y se arrojó de cabeza
                                     en su blanca camita, con la enconada amargura y la sombría
                                     desesperación del suicida que se arroja, solo y sin esperanzas,
                                     en un abismo oscuro, negro, profundo... El sueño, el sueño
@@ -2121,8 +2107,7 @@
                                     robusto hombre de Estado, y fueron su cotidiano alimento en los
                                     tiempos en que rompía sus primeros calzones entre los pilletes
                                     de cierta playa de las costas asturianas... ¡Santo Dios, y qué
-                                    dolores de tripas más atroces le había costado el <foreign
-                                          xml:lang="FRA"> pâté foiegras </foreign> del último
+                                    dolores de tripas más atroces le había costado el <foreign xml:lang="FRA"> pâté foiegras </foreign> del último
                                     viernes de Palacio! ¡Qué <emph> coliquera </emph> más terrible
                                           <foreign xml:lang="FRA"> le chou à la crème </foreign> que
                                     sirvieron dos días antes en la embajada francesa!... El
@@ -2177,8 +2162,7 @@
                                     Orloff con su ojo tuerto y su brazo manco!... Yo le he visto en
                                     París elegir cocinero en público concurso; acudieron diez a su
                                     palacio de la embajada rusa: yo fui del jurado, y probamos,
-                                    antes de fallar, ciento cuarenta platos <ref
-                                          target="#SPA3013N06">[6]</ref>. ¡Ah!, no, no, Martínez; no
+                                    antes de fallar, ciento cuarenta platos <ref target="#SPA3013N06">[6]</ref>. ¡Ah!, no, no, Martínez; no
                                     es el comer mucho, lo que trae la indigestión... Mi santa madre
                                     lo decía: Tripa llena, alaba a Dios. </p>
 
@@ -2552,8 +2536,7 @@
                                     paño negro con que se cubría para enfocar la máquina; por debajo
                                     asomaban sus bigotes retorcidos, su nariz colgante, sus ojos
                                     azorados en aquel momento, fijos en Currita, con la medrosa
-                                    expresión del escolar desaplicado cogido <foreign xml:lang="LAT"
-                                          > in fraganti </foreign> . </p>
+                                    expresión del escolar desaplicado cogido <foreign xml:lang="LAT"> in fraganti </foreign> . </p>
 
                               <p> La esposa dio dos pasos hacia el esposo, desmintiendo con los
                                     rayos, que de sus claros ojos brotaban, la suave vocecita y el
@@ -2658,8 +2641,7 @@
                                     , ardía ya en la chimenea un alegre fuego, y a su lado le
                                     esperaba Currita, tendida en una <foreign xml:lang="FRA"> chaise
                                           longue </foreign> , envuelta en una bata de raso,
-                                    perfectamente enguatada, y arropados los pies con un <foreign
-                                          xml:lang="ENG"> plaid </foreign> escocés finísimo:
+                                    perfectamente enguatada, y arropados los pies con un <foreign xml:lang="ENG"> plaid </foreign> escocés finísimo:
                                     descansaba su cabeza en una gran almohada con lazos color de
                                     rosa, y tendiéndole al verle entrar su franca manecita, dijo con
                                     la débil voz de un enfermo desahuciado: </p>
@@ -3449,8 +3431,7 @@
                                     fuego, que había ya hecho desternillar de risa, en las narices
                                     mismas del ministro, a todos sus compañeros de gabinete.
                                     Mordióse el gobernador los labios, comenzando a sospechar que
-                                    habían hecho un pan como unas hostias, y el <foreign
-                                          xml:lang="FRA"> pas trop de zéle </foreign> de Talleyrand
+                                    habían hecho un pan como unas hostias, y el <foreign xml:lang="FRA"> pas trop de zéle </foreign> de Talleyrand
                                     acudió a su mente como un reproche. Detuvo, sin embargo, un
                                     momento su cólera y sus temores la entrada del jefe de orden
                                     público, que venía a entregarle los papeles sorprendidos en
@@ -3498,8 +3479,7 @@
                                     Dos descuidos imperdonables tuvo, sin embargo: quedósele
                                     traspapelado en la carta de escribir el plieguecillo en que
                                     había hecho sus pruebas caligráficas y olvidóse por completo de
-                                    que en un cajoncito oculto de la arquilla antigua del <foreign
-                                          xml:lang="FRA"> boudoir </foreign> existía, hacía más de
+                                    que en un cajoncito oculto de la arquilla antigua del <foreign xml:lang="FRA"> boudoir </foreign> existía, hacía más de
                                     tres años, un paquete de cartas. Eran estas de cierto capitán de
                                     artillería, andaluz, de gran familia, arrogantísima figura y
                                     poquísima vergüenza, que había antecedido a Juanito Velarde en
@@ -3671,8 +3651,7 @@
                                     aristocracia. En el asiento de enfrente, un rufián con sombrero
                                     de copa un poco ladeado y largas patillas postizas, parecía
                                     parodiar a cierto prócer famoso que en aquel tiempo hacía gran
-                                    papel en las filas alfonsinas <ref target="#SPA3013N07"
-                                          >[7]</ref>. </p>
+                                    papel en las filas alfonsinas <ref target="#SPA3013N07">[7]</ref>. </p>
 
                               <p> Aquello no fue un bofetón, fue una coz, una patada del
                                     excelentísimo Martínez, que acababa de un golpe con las peinetas
@@ -3749,8 +3728,7 @@
                                     murmuraba a lo lejos: ¡El primer paso!... ¡El primer paso dado
                                     hacia el noventa y tres... el primer paso dado hacia el
                                     Terror!... ¡Oooh!... Allí había visto Pedro López sumida en el
-                                    más profundo desconsuelo, y vistiendo elegante <foreign
-                                          xml:lang="FRA"> saut du lit </foreign> , con falda
+                                    más profundo desconsuelo, y vistiendo elegante <foreign xml:lang="FRA"> saut du lit </foreign> , con falda
                                           <foreign xml:lang="FRA"> plissée </foreign> , de fular de
                                     seda y encajes crema a la bella condesa de Albornoz, ideal como
                                     la Ofelia de Shakespeare a orillas del lago, digna como la María
@@ -4275,8 +4253,7 @@
                                     de su causa a su buen amigo Juanito Velarde. </p>
 
                               <p> Larga entrevista celebraron ambos a solas hasta bien entrada la
-                                    noche, y al despedirle Currita en la puerta del <foreign
-                                          xml:lang="FRA"> boudoir </foreign> díjole con suaves
+                                    noche, y al despedirle Currita en la puerta del <foreign xml:lang="FRA"> boudoir </foreign> díjole con suaves
                                     mimitos: </p>
 
                               <p> -Conque quedamos en que yo encargaré el almuerzo en Fornos... y
@@ -4989,8 +4966,7 @@
 
                               <p> -¡Pues es verdad! -exclamó encantada Currita. </p>
 
-                              <p> Y así sucedió en efecto: a todos pareció muy <foreign
-                                          xml:lang="FRA"> chic </foreign> aquel nuevo capricho, y a
+                              <p> Y así sucedió en efecto: a todos pareció muy <foreign xml:lang="FRA"> chic </foreign> aquel nuevo capricho, y a
                                     la noche siguiente se veían por todas partes en el teatro trajes
                                     de dos colores diversos con guantes de dos colores distintos. </p>
 
@@ -5319,8 +5295,7 @@
                               <p> -No lo soy de nacimiento, pero lo soy por enfermedad. </p>
 
                               <p> -Pues júntate conmigo: el constipado que tú me sueltes rechazará
-                                    al que yo te suelte a ti... Ya sabes, querido: <foreign
-                                          xml:lang="LAT"> similia similibus curantur </foreign> . </p>
+                                    al que yo te suelte a ti... Ya sabes, querido: <foreign xml:lang="LAT"> similia similibus curantur </foreign> . </p>
 
                               <p> -¿Y qué has hecho entonces en Constantinopla, embajadorcillo?...
                                     Yo creí que te traerías hasta las barbas del Sultán. </p>
@@ -5457,8 +5432,7 @@
                                     que al pronto le habían estas causado. Él lo ignoraba todo, o
                                     aparentaba ignorarlo; había salido dos meses antes de
                                     Constantinopla para Turín, marchando luego a Florencia y Génova,
-                                    y hecho después un viaje delicioso a lo largo de la <foreign
-                                          xml:lang="ITA"> corniche </foreign> italiana, deteniéndose
+                                    y hecho después un viaje delicioso a lo largo de la <foreign xml:lang="ITA"> corniche </foreign> italiana, deteniéndose
                                     en Bordighera, en Niza y, últimamente, en Mónaco cerca de una
                                     semana. </p>
 
@@ -5628,8 +5602,7 @@
 
                               <p> Y entre risas despreciativas y observaciones irónicas, comenzó a
                                     leer en su elegante carterita, donde estaban apuntados los
-                                    nombres de los nuevos ministros<ref target="#SPA3013N09"
-                                          >[9]</ref>... ¡Pero qué nombres, Virgen Santísima! ¡Si
+                                    nombres de los nuevos ministros<ref target="#SPA3013N09">[9]</ref>... ¡Pero qué nombres, Virgen Santísima! ¡Si
                                     aquello era cosa de morirse de risa!... Figueras, Castelar, Pi y
                                     Margall, los dos Salmerones, Nicolás y Paquito... Córdoba. </p>
 
@@ -5740,8 +5713,7 @@
                                     </emph> , añadiendo que la proclamación de la República era un
                                     paso gigantesco dado hacia la Restauración; que los desórdenes
                                     más terribles no tardarían en estallar en España, y alarmadas
-                                    las potencias europeas con los escarmientos de la <foreign
-                                          xml:lang="FRA"> Commune </foreign> en Francia, se
+                                    las potencias europeas con los escarmientos de la <foreign xml:lang="FRA"> Commune </foreign> en Francia, se
                                     apresurarían a intervenir en favor del príncipe Alfonso. Notas
                                     secretas de algunos embajadores extranjeros habían llegado ya al
                                     palacio Basilewsky, y Thiers mismo, temeroso de que el zurriago
@@ -5776,8 +5748,7 @@
 
                               <p> -Como que su suegro tiene en Boston una fábrica. </p>
 
-                              <p> -¡Qué delicia! -exclamó Currita-. Pues cuando den la <foreign
-                                          xml:lang="FRA"> Jarretière </foreign> al yerno, ya puede
+                              <p> -¡Qué delicia! -exclamó Currita-. Pues cuando den la <foreign xml:lang="FRA"> Jarretière </foreign> al yerno, ya puede
                                     el suegro regalarle la media. </p>
 
                               <p> -De seguro que las habrá él anunciado en la Presidencia al
@@ -5788,8 +5759,7 @@
                                     magnífica sombrerería de Míster Francis Morton, 24, Catherine
                                     Street. </p>
 
-                              <p> Allí todos los artículos son distinguidos y baratos. <foreign
-                                          xml:lang="ENG"> Net cash. </foreign> Que viene a ser «
+                              <p> Allí todos los artículos son distinguidos y baratos. <foreign xml:lang="ENG"> Net cash. </foreign> Que viene a ser «
                                           <emph> No se fía </emph> ». </p>
 
                               <p> El timbre eléctrico que anuncia <foreign xml:lang="FRA"> aux
@@ -6364,8 +6334,7 @@
                                     castillos, sin más cimientos que el aire. </p>
 
                               <p> Por la escalera, agarrándose a la balaustrada, subía renqueando un
-                                    viejo, envuelto en un largo y amplio gabán de <foreign
-                                          xml:lang="ENG"> mackintosk </foreign> , capaz de preservar
+                                    viejo, envuelto en un largo y amplio gabán de <foreign xml:lang="ENG"> mackintosk </foreign> , capaz de preservar
                                     de todas las humedades a un explorador del Polo. </p>
 
                               <p> Parecióle a Sabadell aquella estantigua el tío Frasquito en
@@ -6535,8 +6504,7 @@
                                     prontamente un gorro de dormir de forma piramidal, terminado en
                                     una borlita: un sencillo y majestuoso <foreign xml:lang="FRA">
                                           casque à mèche </foreign> , de aquellos que recomendaba
-                                    Jerónimo Paturot a sus parroquianos por usarlos así <foreign
-                                          xml:lang="FRA"> monsieur </foreign> Víctor Hugo. Sabido es
+                                    Jerónimo Paturot a sus parroquianos por usarlos así <foreign xml:lang="FRA"> monsieur </foreign> Víctor Hugo. Sabido es
                                     que el <foreign xml:lang="FRA"> bonnet de nuit </foreign> es
                                     entre los franceses una veneranda institución social que nivela
                                     todas las cabezas, como las niveló en otro tiempo la cuchilla de
@@ -6758,8 +6726,7 @@
                                     años antes, aquello de Horacio: «Fecundi calices quem non fecere
                                     disertum?». Y el ponche fue aceptado con disimulado entusiasmo. </p>
 
-                              <p> Horacio no se equivocó, en efecto: Jacobo comenzó <foreign
-                                          xml:lang="LAT"> inter pocula </foreign> sus confidencias,
+                              <p> Horacio no se equivocó, en efecto: Jacobo comenzó <foreign xml:lang="LAT"> inter pocula </foreign> sus confidencias,
                                     hablando lentamente, muy bajo, a retazos, como un hombre
                                     agobiado de pena que destila gota a gota por los labios la
                                     amargura que inunda su alma... Abrumábale el peso de un
@@ -7014,8 +6981,7 @@
                                           toilette </foreign> de luto de la duquesa una mantilla
                                     española, exclamó muy alborozada: </p>
 
-                              <p> -¡Mujer, hemos tenido la misma idea!... ¡Qué delicia!... <foreign
-                                          xml:lang="FRA"> Les grands esprits se rencontrent
+                              <p> -¡Mujer, hemos tenido la misma idea!... ¡Qué delicia!... <foreign xml:lang="FRA"> Les grands esprits se rencontrent
                                     </foreign> ... </p>
 
                               <p> -Para representar a España, no se podía ir de otra manera... Lo
@@ -7161,8 +7127,7 @@
                                     gran señor, y lo mismo gastaba en boato y en caprichos en tiempo
                                     de las vacas gordas que en tiempo de las flacas, con la sola
                                     diferencia de pagar en los de aquellas y no pagar en los de
-                                    estas. Diógenes, por el contrario, vivía en una modesta <foreign
-                                          xml:lang="FRA"> maison meublée </foreign> , y sentábase de
+                                    estas. Diógenes, por el contrario, vivía en una modesta <foreign xml:lang="FRA"> maison meublée </foreign> , y sentábase de
                                     diario a la primera mesa que hallaba puesta, sin esperar a que
                                     le invitasen, por cierta especie de derecho de cuchara que
                                     garantía su poquísima vergüenza, por una tradición constante que
@@ -7517,8 +7482,7 @@
                                     supuesto, y Pablitos también, y porr más vueltas que dierrron
                                     parrra convencerr al santo varrrón de que errra una crueldad
                                     separrrarlos, y que todo el mundo le crriticarrría a ella
-                                    abandonarrlo en la última horrra, nada, nada, nada... <foreign
-                                          xml:lang="FRA"> Têtu </foreign> , como un arrragonés: se
+                                    abandonarrlo en la última horrra, nada, nada, nada... <foreign xml:lang="FRA"> Têtu </foreign> , como un arrragonés: se
                                     metió las manos en las mangas y dijo que no, que no y que no, y
                                     lo dejó morrrirr como un perrro. Y eso que iban ya a pedirr la
                                     bendición a Su Santidad y todo, todo... </p>
@@ -7604,8 +7568,7 @@
                                     de vigilia... En fin, insufrible; ninguno le paraba... ¡Y ella,
                                     unas rridiculeces!... Decían que dorrmía sobre una tarrrima, y
                                     ayunaba a pan y agua, y a ejemplo de no sé qué varrrón piadoso,
-                                    se disciplinaba con un gato <ref target="#SPA3013N11"
-                                    >[11]</ref>. </p>
+                                    se disciplinaba con un gato <ref target="#SPA3013N11">[11]</ref>. </p>
 
                               <p> -¡Qué atrocidad!... ¿Con un gato?... ¡Pero eso es imposible!... </p>
 
@@ -7674,8 +7637,7 @@
                                     ni los mil chismes que por la patria adoptiva corrían, lograron
                                     apartar la conversación general de la novelesca historia de la
                                     cadina, cuya apócrifa babucha habían contemplado todos, después
-                                    de algunas prudentes precauciones que, para la <foreign
-                                          xml:lang="FRA"> mise en scène </foreign> , juzgo
+                                    de algunas prudentes precauciones que, para la <foreign xml:lang="FRA"> mise en scène </foreign> , juzgo
                                     indispensable el tío Frasquito. Porque temeroso este de que
                                     algún ánimo suspicaz pusiese en duda lo auténtico de la presea,
                                     apresuróse antes de presentarla a la veneración pública a frotar
@@ -7762,8 +7724,7 @@
                               <p> Riéronse mucho todas las presentes de la ocurrencia de Diógenes, y
                                     este, más que por darles placer, por machacarles las liendres,
                                     contóles entonces que Dios no había formado a nuestra madre Eva
-                                    de la costilla de Adán, sino del rabo de una mona<ref
-                                          target="#SPA3013N12">[12]</ref>... Porque aunque este fue
+                                    de la costilla de Adán, sino del rabo de una mona<ref target="#SPA3013N12">[12]</ref>... Porque aunque este fue
                                     su primer intento, y tenía ya la costilla en la mano para formar
                                     de ella a la que había de ser causa de tantas desdichas, una
                                     mona que le miraba hacer atentamente, arrebatóle de repente el
@@ -7846,8 +7807,7 @@
                               <p> -Porr supuesto, que Jacobo sólo va allí al olorrcillo de los
                                     millones de la Monterrrubio, que disfruta hoy Elvirrra... ¿Y qué
                                     harrrá ella?... Porque no cabe en cabeza humana que una muchacha
-                                    tan buena, tan santita, quierrra hacerr de nuevo <foreign
-                                          xml:lang="FRA"> ménage </foreign> con ese Poncio
+                                    tan buena, tan santita, quierrra hacerr de nuevo <foreign xml:lang="FRA"> ménage </foreign> con ese Poncio
                                     Pilatos... </p>
 
                               <p> Diógenes le volvió la espalda sin preguntarle nada más, y el tío
@@ -7952,8 +7912,7 @@
                                     conciencia, a veces, por las extravagantes leyes de esta tirana
                                     caprichosa. </p>
 
-                              <p> La emperatriz Eugenia levantó en Biarritz la <foreign
-                                          xml:lang="FRA"> ville </foreign> Eugénie, y Biarritz quedó
+                              <p> La emperatriz Eugenia levantó en Biarritz la <foreign xml:lang="FRA"> ville </foreign> Eugénie, y Biarritz quedó
                                     al nivel de Trouville, Dieppe y Etretat. Los españoles lo
                                     invaden en verano, los ingleses en invierno y los rusos en
                                     otoño, como si por turno quisieran disfrutar sus comodidades
@@ -7970,8 +7929,7 @@
                                     uno y otro lado este letrero: Villa María. Da esta entrada a una
                                     gran calle, que sombreada por árboles magníficos, describe tres
                                     caprichosas vueltas, salta un diminuto riachuelo y lleva a una
-                                    plazoleta semicircular, atestada de flores, especie de <foreign
-                                          xml:lang="FRA"> square </foreign> delicioso, que sirve
+                                    plazoleta semicircular, atestada de flores, especie de <foreign xml:lang="FRA"> square </foreign> delicioso, que sirve
                                     como de patio de honor a la casa. </p>
 
                               <p> Tres gradas de mármol blanco dan ingreso al piso bajo, destinado
@@ -8357,8 +8315,7 @@
                                     gabinete que ya conocemos, y el sol entraba a raudales,
                                     llenándolo todo de luz, de colores y de reflejos. La marquesa
                                     amaba el sol y el aire con la pasión con que los aman los
-                                    pobres, y odiaba ese misterioso y coquetuelo <foreign
-                                          xml:lang="FRA"> petit jour </foreign> en que se refugian
+                                    pobres, y odiaba ese misterioso y coquetuelo <foreign xml:lang="FRA"> petit jour </foreign> en que se refugian
                                     las beldades trasnochadas para ocultar los estragos del tiempo.
                                     Uníanse en el jardín las carcajadas de Monina, que saltaba a la
                                     cuerda, con los mugidos del mar, que azotaba a la costa, como si
@@ -8736,8 +8693,7 @@
                               <p> La marquesa miraba y escuchaba a Jacobo con entusiasmo, con
                                     admiración..., con admiración tan grande y profunda, como que
                                     algo parecido a aquella hermosa perorata lo había leído ella en
-                                    Veuillot hacía varios años; como que allí mismo, en el <foreign
-                                          xml:lang="FRA"> secrétaire </foreign> que tenía delante,
+                                    Veuillot hacía varios años; como que allí mismo, en el <foreign xml:lang="FRA"> secrétaire </foreign> que tenía delante,
                                     hallábase guardada entre los papeles de Elvira la escritura de
                                     venta de la torre de Téllez-Ponce, sacada a pública subasta por
                                     los acreedores de Jacobo y comprada bajo cuerda por Elvira
@@ -9103,8 +9059,7 @@
                                     </foreign> , en un suave murmurio que dejaba sobresalir lejos,
                                     cada vez más lejos, hasta convertirse en un eco apagado,
                                     misterioso, mágico, las vibrantes notas de la campanilla de
-                                    plata de Bellak, la cabra blanca <ref target="#SPA3013N13"
-                                          >[13]</ref>. </p>
+                                    plata de Bellak, la cabra blanca <ref target="#SPA3013N13">[13]</ref>. </p>
 
                               <p> El telón cayó entonces, y el público permaneció un segundo mudo,
                                     atónito, escuchando aún en aquel silencio que hubiera permitido
@@ -9208,8 +9163,7 @@
                               <p> La Ortolani era un portento. ¡Qué <foreign xml:lang="FRA">
                                           berceuse </foreign> aquella: <foreign xml:lang="ITA"> Si
                                           carina, carprettina! </foreign> ... El tío Frasquito no
-                                    estaba conforme: gustábale más la romanza <foreign
-                                          xml:lang="ITA"> L'incantator della montagna </foreign> , y
+                                    estaba conforme: gustábale más la romanza <foreign xml:lang="ITA"> L'incantator della montagna </foreign> , y
                                     estábala ensayando en la flauta, sin cuidarse para nada del
                                     percance del rey Midas, que desde mucho tiempo antes le tenía
                                     pronosticado Diógenes. El duque de Bringas estaba muy enfadado
@@ -9603,8 +9557,7 @@
 
                               <p> -¡Pero, hija mía, por Dios!... ¡Si esto está helado, Curra!... </p>
 
-                              <p> Y se liaba a toda prisa al pescuezo un gran <foreign
-                                          xml:lang="FRA"> foulard </foreign> finísimo, y levantábase
+                              <p> Y se liaba a toda prisa al pescuezo un gran <foreign xml:lang="FRA"> foulard </foreign> finísimo, y levantábase
                                     el cuello del gabán a la altura de las orejas... </p>
 
                               <p> -Te digo que vale más volver al palco, si... </p>
@@ -9653,8 +9606,7 @@
                                     costumbre, unas veces <emph> Geno </emph> , otras <emph> Veva
                                     </emph> , nunca por completo Genoveva y prodigándola con todas
                                     sus letras los dicterios de imbécil, estúpida, vieja del diablo,
-                                    beata de Barrabás, que no sabiendo sino rezar el <foreign
-                                          xml:lang="LAT"> Pater noster </foreign> , quería darle
+                                    beata de Barrabás, que no sabiendo sino rezar el <foreign xml:lang="LAT"> Pater noster </foreign> , quería darle
                                     lecciones a él, Pirro en el ingenio, Ulises en la prudencia,
                                     Anteo en el ánimo, Alejandro en la magnanimidad y Escipión en lo
                                     afortunado. </p>
@@ -9986,8 +9938,7 @@
                                     </emph> , Curra, convidando a todo el Madrid explotable, desde
                                     la presidenta consorte del comité carlista, hasta la ministra
                                     cesante, esposa dignísima del excelentísimo señor don Juan
-                                    Antonio Martínez... Y allí, al calorcillo del <foreign
-                                          xml:lang="FRA"> champagne </foreign> , que ablanda los
+                                    Antonio Martínez... Y allí, al calorcillo del <foreign xml:lang="FRA"> champagne </foreign> , que ablanda los
                                     corazones compasivos, bajo la influencia de las vanidades
                                     estimuladas que excitan el deseo de figurar, tender la red de la
                                     caridad, echar el anzuelo de los infelices heridos del Norte y
@@ -10731,8 +10682,7 @@
                               <p> -¡López!... ¡Mucho ojo!... Su <foreign xml:lang="FRA">
                                           compte-rendu </foreign> de usted nos asegura el triunfo...
                                     Que toda esa gentecilla cursi vea su nombre en <title> La Flor
-                                          de Lis </title> , ensalzada por el <foreign xml:lang="FRA"
-                                          > reporter </foreign> elegante de los salones, y es
+                                          de Lis </title> , ensalzada por el <foreign xml:lang="FRA"> reporter </foreign> elegante de los salones, y es
                                     nuestra para siempre... ¡Fuera escrúpulos!... ¡La de Martínez,
                                     bellísima!... ¡La García Gómez, encantadora!... Esta que viene
                                     aquí, un portento; la Victoria Colonna, de este siglo... </p>
@@ -11336,9 +11286,7 @@
                                     sexo, callaron todas de repente, siguiéndose un silencio
                                     profundo, un <emph> calderón </emph> prolongadísimo de cerca de
                                     un minuto, seguido, a su vez, de un <foreign xml:lang="ITA">
-                                          allegro </foreign> alborotado», un <foreign xml:lang="ITA"
-                                          > crescendo </foreign> inverosímil, rápido y <foreign
-                                          xml:lang="ITA"> vivace </foreign> ... Algo gordo sucedía,
+                                          allegro </foreign> alborotado», un <foreign xml:lang="ITA"> crescendo </foreign> inverosímil, rápido y <foreign xml:lang="ITA"> vivace </foreign> ... Algo gordo sucedía,
                                     y el respetable Butrón y el filosófico Pulido acudieron al punto
                                     muy azorados a sus respectivos observatorios... Entraba la
                                     condesa de Albornoz, con aquel paso de que habla Virgilio, que
@@ -11362,8 +11310,7 @@
                                     de decir a aquellas cursis cuatro palabritas bien dichas, ¡pero
                                     iba a estar aquello muy frío!... A ella le hubiese gustado
                                     discutir a caballo, con los hunos de Atila. Dióle Currita
-                                    cariñosamente en el hombro con el abanico, murmurando: <foreign
-                                          xml:lang="FRA"> C'est drôle </foreign> ; saludó con una
+                                    cariñosamente en el hombro con el abanico, murmurando: <foreign xml:lang="FRA"> C'est drôle </foreign> ; saludó con una
                                     monísima cabezadita al amplio círculo de sus ilustres amigas y
                                     dejóse llevar suavemente por la Butrón al lado opuesto,
                                     sentándose, al fin, junto a la duquesa de Bara y las dos
@@ -12028,8 +11975,7 @@
                                     con el bizarro general Pastor, hermano de Leopoldina. Convocó a
                                     sus micos, reunió a sus íntimos y trazóse un plan encantador de
                                     fiestas, bailes y regocijos a beneficio todos de los heridos,
-                                    entre los que había de llevarse la palma una famosa <foreign
-                                          xml:lang="FRA"> kermesse </foreign> ideada por Currita, a
+                                    entre los que había de llevarse la palma una famosa <foreign xml:lang="FRA"> kermesse </foreign> ideada por Currita, a
                                     imitación de la organizada en París por <title> El Fígaro
                                     </title> , en el teatro de la ópera, a beneficio de los
                                     inundados en Szegedin. Las actrices más famosas y las damas más
@@ -12226,8 +12172,7 @@
                               <p> A las tres pidió la señora condesa la berlina y dio al lacayo,
                                     como la cosa más natural del mundo, las señas de Jacobo. Vivía
                                     este en la calle de Alcalá, en un precioso cuarto de soltero, y
-                                    constaba su servidumbre de un ayuda de cámara, un <foreign
-                                          xml:lang="ENG"> jockey </foreign> , una ama de llaves y un
+                                    constaba su servidumbre de un ayuda de cámara, un <foreign xml:lang="ENG"> jockey </foreign> , una ama de llaves y un
                                     cocinero; en las cuadras, situadas al final de la calle del
                                     Barquillo, tenía cuatro caballos ingleses, tres de tiro y uno de
                                     silla, una berlina, un <foreign xml:lang="FRA"> char-à-bancs
@@ -12511,9 +12456,7 @@
 
                               <p> -¡Oh!, sí, sí... </p>
 
-                              <p> -Cualquier cosa, lo que usted pueda... Algún <foreign
-                                          xml:lang="FRA"> bibelot </foreign> para la <foreign
-                                          xml:lang="FRA"> kermesse </foreign> . </p>
+                              <p> -Cualquier cosa, lo que usted pueda... Algún <foreign xml:lang="FRA"> bibelot </foreign> para la <foreign xml:lang="FRA"> kermesse </foreign> . </p>
 
                               <p> -¡Oh!, sí, sí... Enviaré algún objeto de arte... </p>
 
@@ -12565,9 +12508,7 @@
                               <p> -¿Pero qué haría en el salón aquella chocolatera?... </p>
 
                               <p> -¿Pues no te lo he dicho? -replicó la Albornoz haciendo coro a las
-                                    risas de la niña-. De seguro que la manda a la <foreign
-                                          xml:lang="FRA"> kermesse </foreign> como un <foreign
-                                          xml:lang="FRA"> bibelot </foreign> nunca visto; verás cómo
+                                    risas de la niña-. De seguro que la manda a la <foreign xml:lang="FRA"> kermesse </foreign> como un <foreign xml:lang="FRA"> bibelot </foreign> nunca visto; verás cómo
                                     no me equivoco. </p>
 
                               <p> Tres días después pudo Margarita convencerse de que su ilustre
@@ -12736,8 +12677,7 @@
                                     propia en los negocios políticos... Un suceso repentino
                                     impidióles seguir explorando con la misma habilidad los
                                     respectivos campos: entró un criado trayendo un gran estuche de
-                                    terciopelo granate muy oscuro, magnífico regalo para la <foreign
-                                          xml:lang="FRA"> kermesse </foreign> , que acababan de
+                                    terciopelo granate muy oscuro, magnífico regalo para la <foreign xml:lang="FRA"> kermesse </foreign> , que acababan de
                                     traer a aquella hora intempestiva con la idea deliberada, sin
                                     duda, de que pudiera ser admirado al mismo tiempo por toda la
                                     brillante concurrencia. Gorito Sardona, mico de guardia aquella
@@ -13054,8 +12994,7 @@
                                     la perrfecta viuda les quita porr un lado, se lo proporrcionarrá
                                     porr otro la pícarra Samarritana. Porque Curra, con ese
                                     corrazonazo que tiene, ¡claro está!, ¡lo ha tomado con un
-                                    calorr, con un empeño!... ¡y lo que es la <foreign
-                                          xml:lang="FRA"> kerrmesse </foreign> , ha de darr mucho
+                                    calorr, con un empeño!... ¡y lo que es la <foreign xml:lang="FRA"> kerrmesse </foreign> , ha de darr mucho
                                     dinerro!... Anoche, como no estuviste allí, no podrías
                                     enterrarte, pero se trata ahorra de buscarr el sitio; unos dicen
                                     que en la platerría de Martínez, otros que en el Rreal. ¿Qué te
@@ -13133,8 +13072,7 @@
                               <p> Porque el tío Frasquito tenía también su <foreign xml:lang="FRA">
                                           boudoir </foreign> , un verdadero <foreign xml:lang="FRA">
                                           boudoir </foreign> de dama elegante, atestado de todas
-                                    esas chucherías que llaman los franceses <foreign xml:lang="FRA"
-                                          > bibelots </foreign> y han venido a sustituir en los
+                                    esas chucherías que llaman los franceses <foreign xml:lang="FRA"> bibelots </foreign> y han venido a sustituir en los
                                     palacios modernos a las antiguas obras de arte. No faltaban
                                     allí, sin embargo, estas, y era la más notable el retrato de un
                                     caballero, tipo de arrogancia y varonil hermosura, pintado por
@@ -13159,8 +13097,7 @@
                                     retrato de la reina María Luisa en la tapa, y tomó un polvo de
                                     rapé haciendo mohínes picarescos. </p>
 
-                              <p> -Es mi vicio -decía-, nadie lo sabe; un secreto... <foreign
-                                          xml:lang="FRA"> Péché caché, est tout à fait pardonné.
+                              <p> -Es mi vicio -decía-, nadie lo sabe; un secreto... <foreign xml:lang="FRA"> Péché caché, est tout à fait pardonné.
                                     </foreign>
                               </p>
 
@@ -13516,8 +13453,7 @@
                                     airosas cabezas, henchían con ahínco los poderosos ijares y
                                     aparecía el sudor bajo los brillantes arneses en forma de espuma
                                     blanca. Rechinaba sin cesar el torno, bajando o subiendo la
-                                    plancha, y en la banqueta más alta del elegante <foreign
-                                          xml:lang="ENG"> mail-coach </foreign> chillaba Leopoldina
+                                    plancha, y en la banqueta más alta del elegante <foreign xml:lang="ENG"> mail-coach </foreign> chillaba Leopoldina
                                     Pastor como una desesperada, gritando que aquellos indecentes
                                     caballos iban a despeñarla por la montaña abajo... Sentado a su
                                     lado, el tío Frasquito, con un finísimo pañuelo prendido en su
@@ -13539,8 +13475,7 @@
                                     </foreign> , con seis caballos, de la excelentísima señora
                                     condesa de Albornoz, necesitaba libre toda la carretera de
                                     Guipúzcoa. En la última banqueta de detrás, tendido cual una
-                                    masa inerte, iba un hombre cubierto con un <foreign
-                                          xml:lang="ENG"> waterproof </foreign> de señora, que los
+                                    masa inerte, iba un hombre cubierto con un <foreign xml:lang="ENG"> waterproof </foreign> de señora, que los
                                     rayos del sol recalentaban: bamboleábase con grave riesgo de
                                     caer a los movimientos del coche y roncaba con esa especie de
                                     ruido asmático, propio de los borrachos viejos cuando duermen la
@@ -13661,8 +13596,7 @@
                                     hijito!... ¡Recoge ese impermeable!... ¿No ves que me lo estás
                                     poniendo hecho un asco?... </p>
 
-                              <p> Oyóla muy bien Diógenes, y liándose al cuerpo el <foreign
-                                          xml:lang="ENG"> waterproof </foreign> , con el garbo del
+                              <p> Oyóla muy bien Diógenes, y liándose al cuerpo el <foreign xml:lang="ENG"> waterproof </foreign> , con el garbo del
                                     torero que se ciñe la capa para hacer con la cuadrilla el saludo
                                     al presidente, quiso hacer una pirueta; un ligero vahído se la
                                     cortó, sin embargo. Al pasar junto al balneario de Cestona
@@ -14709,8 +14643,7 @@
                                     labios su pura sonrisa de niño; sobre su frente, amarilla como
                                     el marfil antiguo, un nimbo de cabellos blancos realzaba el tipo
                                     más peregrino de belleza moral que puede fingirse el hombre: la
-                                    inocencia con la cabeza blanca... <ref target="#SPA3013N18"
-                                          >[18]</ref>
+                                    inocencia con la cabeza blanca... <ref target="#SPA3013N18">[18]</ref>
                               </p>
 
                         </div>
@@ -14830,8 +14763,7 @@
                               <p> Con mensurado tono y severidad paterna contestó entonces <emph> el
                                           sabio Mentor </emph> al <emph> joven Telémaco </emph> ,
                                     enterándole del regalo hecho por <foreign xml:lang="FRA">
-                                          mademoiselle </foreign> de Sirop a la <foreign
-                                          xml:lang="FRA"> kermesse </foreign> , del justo enojo de
+                                          mademoiselle </foreign> de Sirop a la <foreign xml:lang="FRA"> kermesse </foreign> , del justo enojo de
                                     Currita al recibir aquel ultraje, que revelaba la traición del
                                     amigo íntimo a quien tantos beneficios había prodigado, y de la
                                     ferocidad con que las lenguas murmuradoras se habían echado
@@ -14855,8 +14787,7 @@
                                     acusado de ladrona ante los tribunales a cierta aventurera
                                     francesa llamada <foreign xml:lang="FRA"> mademoiselle
                                     </foreign> de Sirop; súpose más tarde que esta había
-                                    desaparecido, y murmuróse, por último, muy <foreign
-                                          xml:lang="ITA"> sotto voce </foreign> , que el mismo
+                                    desaparecido, y murmuróse, por último, muy <foreign xml:lang="ITA"> sotto voce </foreign> , que el mismo
                                     marqués, su acusador público, la tenía escondida en su casa:
                                     nadie pudo comprobar, sin embargo, la exactitud de este hecho
                                     inexplicable. </p>
@@ -15080,8 +15011,7 @@
                                     a casa de Lhardy y preguntóle si el señor marqués de Butrón
                                     tenía en su repostería alguna cuenta pendiente. Emilio, creyendo
                                     sin duda que aquel señor vendría a pagárselas, díjole que tenía
-                                    cuatro, de las cuales era la más antigua la del <foreign
-                                          xml:lang="FRA"> buffet </foreign> de un baile dado tres
+                                    cuatro, de las cuales era la más antigua la del <foreign xml:lang="FRA"> buffet </foreign> de un baile dado tres
                                     años antes en honra de Currita, y que el día anterior se las
                                     había remitido todas juntas por centésima vez, sin haber logrado
                                     aún cobrar ninguna. Enderezóse entonces el dedo del señor Pulido
@@ -15233,8 +15163,7 @@
                                     Margarita Belluga, una de las jóvenes que al pisar por primera
                                     vez los salones del gran mundo había llamado más la atención por
                                     su candor y su pureza, desapareció un día súbitamente de casa de
-                                    sus padres, para aparecer a poco en Italia, <foreign
-                                          xml:lang="LAT"> magna parens artium </foreign> , y refugio
+                                    sus padres, para aparecer a poco en Italia, <foreign xml:lang="LAT"> magna parens artium </foreign> , y refugio
                                     insondable de pillos de todas las naciones, casada con Celestino
                                     Reguera, el pintorzuelo cómplice de Currita en sus atentados
                                     pictóricos, que había conservado siempre la dama a su lado, para
@@ -15425,8 +15354,7 @@
                                     sino con la de Fermín Doblado; la condesa de Balzano, divorciada
                                     de su marido y en pleito con sus hijos; el duque de Bringas,
                                     declarado pródigo por los tribunales a instancias de su esposa;
-                                    don Casimiro Pantojas, buscando siempre el <foreign
-                                          xml:lang="FRA"> paulot </foreign>
+                                    don Casimiro Pantojas, buscando siempre el <foreign xml:lang="FRA"> paulot </foreign>
                                     <foreign xml:lang="LAT"> postfuturum </foreign> de algún verbo
                                     griego; dos diputados novatos, cándidos provincianos todavía, a
                                     que la ilustre condesa, de acuerdo con el excelentísimo
@@ -15824,8 +15752,7 @@
                                     servido su majestad señalar el día 7 de febrero de 1878, a las
                                     dos de la tarde, en su Real Cuarto». </p>
 
-                              <p> El éxito sobrepujó a la expectación, y añadióse al caso, <foreign
-                                          xml:lang="LAT"> nemine discrepante </foreign> , otro
+                              <p> El éxito sobrepujó a la expectación, y añadióse al caso, <foreign xml:lang="LAT"> nemine discrepante </foreign> , otro
                                     tercer carácter... Sin duda era una indecencia, de cierto era un
                                     acto político y de seguro prometía ser un sainete chistosísimo. </p>
 
@@ -16478,8 +16405,7 @@
 
                               <p> El juego, aunque poco digno de un futuro ministro, parecióle a
                                     Jacobo muy divertido y mandó encargar al punto para el día
-                                    siguiente, en la Mahonesa, un par de arrobas de <foreign
-                                          xml:lang="ENG"> confetti </foreign> , especie de bombones
+                                    siguiente, en la Mahonesa, un par de arrobas de <foreign xml:lang="ENG"> confetti </foreign> , especie de bombones
                                     rellenos de harina con que se apedrean las máscaras en el corso
                                     de Roma. </p>
 
@@ -17068,8 +16994,7 @@
                                     el riesgo que corría ella misma y huyó de nuevo por la calle del
                                     Caballero de Gracia, sin detenerse un momento, sin resollar
                                     siquiera, sin ver nada ni oír nada, ni pensar nada tampoco,
-                                    hasta que, jadeante y sin saber cómo, se encontró en su <foreign
-                                          xml:lang="FRA"> boudoir </foreign> , rígidos los miembros,
+                                    hasta que, jadeante y sin saber cómo, se encontró en su <foreign xml:lang="FRA"> boudoir </foreign> , rígidos los miembros,
                                     huraña la vista, fuera de las órbitas los ojos, teniendo delante
                                     el negro de ébano, que levantaba en lo alto la lámpara encendida
                                     como para alumbrar en su entendimiento el horrible cuadro y que
@@ -17325,8 +17250,7 @@
                                     que esperaba la hora de ir a Palacio, porque ni la señora de
                                     López Moreno había sentido mayores ansias ni más vehementes
                                     deseos el día de su famosa presentación en el hotel Basilewsky.
-                                    Con esmero redoblado y gusto exquisito escogió una <foreign
-                                          xml:lang="FRA"> toilette </foreign> elegantísima, con ese
+                                    Con esmero redoblado y gusto exquisito escogió una <foreign xml:lang="FRA"> toilette </foreign> elegantísima, con ese
                                     estudio de los pequeños detalles que se observa en los grandes
                                     genios y acredita en ellos el conocimiento práctico del terreno
                                     que pisan. Púsose un riquísimo vestido de terciopelo azul muy
@@ -17913,8 +17837,7 @@
                                     detalles pequeños que desprecian los talentos vulgares y tienen
                                     en mucho los privilegiados y prácticos: una modesta falda de
                                     seda negra, un abriguito de terciopelo con pieles y la mantilla
-                                    recogida por completo sobre los hombros, <foreign xml:lang="FRA"
-                                          > chiffonné </foreign> , con mucha gracia, cubriendo las
+                                    recogida por completo sobre los hombros, <foreign xml:lang="FRA"> chiffonné </foreign> , con mucha gracia, cubriendo las
                                     blondas del velo parte del rostro, pero dejando ver
                                     perfectamente los rojos pelitos, contraseña suya característica,
                                     que cuidó muy bien de dejar a la vista con cálculo prudentísimo,
@@ -18749,8 +18672,7 @@
                               <p>¡Adelante, Tom, adelante!... ¡Atraviesa!... ¡Arróllalos!...</p>
                         </note>
 
-                        <note xml:id="SPA3013N04"><p> «Llámase en Inglaterra <foreign xml:lang="ENG"
-                                          >Nursery</foreign> al departamento especial en que viven
+                        <note xml:id="SPA3013N04"><p> «Llámase en Inglaterra <foreign xml:lang="ENG">Nursery</foreign> al departamento especial en que viven
                                     los niños con sus criados completamente aislados del resto de la
                                     familia.»</p>
                         </note>

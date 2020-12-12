@@ -8,9 +8,13 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:missing wikidata:missing">Marie-Claire : édition ELTeC</title>
-        <author xml:id="Audoux" ref="viaf:71386673 wikidata:Q466650">Audoux, Marguerite (1863-1937)</author>
+        <author ref="viaf:71386673 wikidata:Q466650">Audoux, Marguerite (1863-1937)</author>
         <respStmt>
-          <resp>principal</resp>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,28 +25,38 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
-        <!--
-          Published as part of ELTeC
-          2019-06-15
-        -->
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
           <title>Marie-Claire</title>
+          <author>Marguerite Audoux</author>
           <ref target="http://beq.ebooksgratuits.com/auteurs/terrail/index.htm">Marie-Claire</ref>
           <publisher>Bibliothèque électronique du Québec (BEQ)</publisher>
           <idno type="beq">977</idno>
         </bibl>
+        <bibl type="printSource">
+          <title>Marie-Claire</title>
+          <author>Marguerite Audoux</author>
+          <publisher>A. Fayard et Cie</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1925</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k4226212k" />
+        </bibl>
         <bibl type="firstEdition">
           <title>Marie-Claire</title>
-          <publisher>Eugène Fasquelle</publisher>
+          <author>Marguerite Audoux</author>
+          <publisher>A. Fayard et Cie</publisher>
           <pubPlace>Paris</pubPlace>
-          <date>1910</date>
+          <date>1925</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k4226212k" />
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -67,6 +81,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2018-11-01">Conversion to ELTeC level-1 (Christof Schöch)</change>
     </revisionDesc>

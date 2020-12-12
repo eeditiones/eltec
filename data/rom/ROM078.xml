@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM078" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM078" xml:lang="ro">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,23 +20,22 @@
             <measure unit="pages">441</measure>
          </extent>
          <publicationStmt>
-            <publisher>Digital Humanities Laboratory (UAIC)</publisher>
-            <distributor ref="https://www.distant-reading.net/">COST ACTION "Distant Reading for European Literary History" (CA16204)</distributor>
-            <date when="2020-03-09"/>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="firstEdition">
                <author>Dumitru C. Moruzi</author>
                <title>Pribegi în Ţară Răpită. Roman social basarabean</title>
                <pubPlace>Iaşi</pubPlace>
                <publisher>Institutul de Arte Grafice N.V. Ştefăniu and Co.</publisher>
                <date>1912</date>
                <ref target="http://doi.org/10.5281/zenodo.3719984">Facsimile on zenodo</ref>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p/>
@@ -48,11 +47,12 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2020-03-09">Annotation in ELTeC format: Lucretia Pascariu</change>
          <change when="2020-01-11">Ocerization by: Lucretia Pascariu</change>
       </revisionDesc>
@@ -1411,7 +1411,7 @@ se va întâmpla cu voia D-voastră în părţile acelea, s'ar putea întinde as
    <p>Degrabă se făcură toate pregătirile de primire şi odată cu răsăritul soarelui, Titi, în capul escadronului său, se afla la locul hotărât. Tălmăcirea îndelungatei întârzieri o avu Titi de cum zări trăsura coborând o vale tărăgănată în goana poştalionilor. Boită din proaspăt, daradaica era strălucitoare sub razele soarelui de dimineaţă şi purta trufaşă pe amândouă obloanele şi pe partea de dinapoi câte o stemă a familiei, mare fiecare de o palmă întreagă domnească! De asta întârziase Andrei: ca să se boiască trăsura şi să se usuce boiaua.</p>
    <p>— „Jan priviţi măi flăcăi! făcu unul din escortă. Da mândru o mai spoit rădvanul boieresc, cneazul ist tânăr. Parc-ar fi nou, sireacul, zău! Pe legea mea!</p>
    <p>— Și ian priviţi ce i'o pus pe obloane, făcu un altul, o cioară şi un bou stingher! Pe semne, ca semn de belşug la plugărie.</p>
-   <p>— „ Iaca, na şi tu, măi Ioane! Plugărie cu bou stingher dracul o văzut?></p>
+   <p>— „ Iaca, na şi tu, măi Ioane! Plugărie cu bou stingher dracul o văzut?&gt;</p>
    <p>— „Ce tot spui, bre? Ori n-ai văzut că mai este un bou pe oblonul celălalt? Unul din brazdă, altul de către om. Taman rânduiala plugului fără prigon nici înaintaşi..</p>
    <p>— „Aşa'i, măi Toadere, că ghine zici. Chiar plug în lege de răsturnat o mirişte, da ţelina s'o laşi pe la anul, când te-ai mai înţoli.</p>
    <p>— „Toate bune, măi flăcăi, făcu iar cel dintâi. Plugul l-am înjghebat noi oarecum; dar cu boul cel stingher din urmă ce ne facem?</p>
@@ -1965,7 +1965,7 @@ Ajutat de slugi, îl dezbracară şi-l aşezară în pat, unde reveni cu încetu
    <pb/>
 </body>
      <back>
-        <div type="group">
+        <div type="liminal">
         <p>TABELA CUPRINSULUI</p>
         <p>PARTEA I</p>
         <p>Capitolul I. Sosirea pribegilor în Kişinău.... Pagina  3</p>
@@ -2001,7 +2001,7 @@ Ajutat de slugi, îl dezbracară şi-l aşezară în pat, unde reveni cu încetu
         </div>
         <pb/>
         
-        <div type="group">
+        <div type="liminal">
         <p>ERATA</p>
         <p>Pagina - Linia -  În loc de - Să se citească</p>
         <p>34 - 24 - mirţuii - miriuţii </p>

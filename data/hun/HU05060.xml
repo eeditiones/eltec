@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU05060" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU05060" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Sárarany : ELTeC edition</title>
-            <author ref="viaf:22179627">Móricz, Zsigmond  (1878-1942)</author>
+            <author ref="viaf:22179627">Móricz Zsigmond (1879-1942)</author>
             <respStmt>
                <resp>ELTeC conversion</resp>
                <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
                </name>
                <name>Fellegi Zsófia</name>
-               <name>Takács Emma</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="words">50810</measure>
-            <measure unit="pages">164</measure>
+            <measure unit="words">50806</measure>
+            <measure unit="pages">116</measure>
+            <measure unit="vols">1</measure>
          </extent>
-         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
-         <sourceDesc><bibl type="digitalSource">
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
                <title>Sárarany</title>
                <date>2007-07-25</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -33,47 +33,51 @@
                   <name>Csige Mónika</name>
                </respStmt>
                
+                  <bibl type="digitalSource">
+                     <title>Sárarany</title>
+                     <date>2007-07-25</date>
+                     <ref target="https://mek.oszk.hu/05000/05060"/>
+                  </bibl>
+      
+                  <bibl type="printSource">
+                     <title>Regények 1. </title>
+                     <author>Móricz Zsigmond</author>
+                     <pubPlace>Budapest</pubPlace>
+                     <publisher>Szépirodalmi Kvk.,</publisher>
+                     <date>1975</date>
+                     <idno>ISBN 963 15 0396 8</idno>
+                     <ref target="https://mek.oszk.hu/05000/05060/05060.pdf"/>
+                  </bibl>
                
-            </bibl><bibl type="firstEdition">
+            </bibl>
+            <bibl type="firstEdition">
                <title>Sárarany</title>
                <author>Móricz Zsigmond</author>
                <date>1911</date>
-            </bibl><bibl type="digitalSource">
-                     <title>Sárarany</title>
-                     <date>2007-07-25</date>
-                  </bibl><bibl type="printSource">
-                     <title>Regények 1.</title>
-                     <author>Móricz Zsigmond</author>
-                     <pubPlace>Budapest</pubPlace>
-                     <publisher>Szépirod. Kvk.</publisher>
-                     <date>1975</date>
-                     <idno type="isbn-10">963 15 0396 8</idno>
-                     <ref target="http://nektar.oszk.hu/hu/manifestation/2617817"/>
-                  </bibl></sourceDesc>
+            </bibl>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="hu"/>
+            <language ident="hu">Hungarian</language>
          </langUsage>
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
-            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
-         <change when="2019-04-23"/>
-         <change when="2018-11-21"/>
-         <change when="2018-11-14"/>
+      <revisionDesc>
+         <change when="2020-07-22"/>
       </revisionDesc>
    </teiHeader>
   <text>
       <body>
-         <div type="group">
+			<div type="group">
             <head>ELSŐ KÖNYV</head>
             <div type="chapter">
                <head>1</head>
@@ -237,7 +241,7 @@
                <p>- Ó, te hónapos rózsa! mi bajod? - mondta Dani, s a győző kedvtelt érzésével
                   nézett az asszonyra. - Hát van híjjod? Megkárosítalak? Hiszen nem bírod el, ha
                   megcsókollak, te! Mindig kifog utána a - betegség. Te üvegvirág. Hiszen sok vagyok
-                  neked, te harmat. Belehalsz, ha addig csókollak, míg <hi>nekem</hi>
+                  neked, te harmat. Belehalsz, ha addig csókollak, míg nekem
                   elég.</p>
                <p>Kiterítette a két karján az asszonyt, mint egy vékony gyereklányt. Erzsi érezte,
                   hogy fölrepül a levegőbe. Elveszett a lába alól s a lelkéből a biztos föld
@@ -371,7 +375,7 @@
                   Nem kell felfalni a világot, de elpotyázni se, ami van. Minek töröd te magadat, ha
                   nem muszáj? Meglásd, meg... rossz vége lesz egyszer!</p>
                <p>- Az isten áldjon meg - szólt a férje mutatott bosszúsággal -, hallgass mán, ha
-                  mondom, hogy hallgass... Ne hasonlíts engem az apádhoz, nem vagyok én <hi>Tövigszáraz</hi>, mint ő.</p>
+                  mondom, hogy hallgass... Ne hasonlíts engem az apádhoz, nem vagyok én Tövigszáraz, mint ő.</p>
                <p>A fiatalasszony elvörösödött az apja gúnynevének hallatára; szíve egész
                   szenvedélyével szerette és tisztelte az apját, s gyűlölködve nézett az urára.</p>
                <p>- Csak hagyj békét az apámnak! Jól vigyázz, mert te is megkapod a magad csúfnevét,
@@ -388,7 +392,7 @@
                   ketten.</p>
                <p>Erzsi látta, hogy az ura nem szól többet, kifordult a konyhába. Dani meg mogorván
                   bele­könyökölt a tervezgetésébe.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>2</head>
@@ -482,7 +486,7 @@
                   gyerekének, mit vétett a gróf ellenük! De azt mindenki meg tudja tenni, hogyha a
                   gróf nevét kimondja, köpjön egyet. S ha módja vón rá, könnyen felingerüljön odáig,
                   hogy leüssön belőlük egyet.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>3</head>
@@ -604,7 +608,7 @@
                <p>- Beszélek vele! - hajtogatta magában, és már látta is, hogy akasztja az ekét a
                   nagyszegi bérletbe. Háromszáz hold az! Mint a fele határuk. Kétszer olyan darab
                   egy tagban, mint az övé meg az apósáé együttvéve.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>4</head>
@@ -649,7 +653,7 @@
                   fényesség csapott rá, mint a tölgyre, ha beleüt a mennykő.</p>
                <p>De ő nem hasadt százfelé a villámcsapástól, inkább összekeményedett. Nem gyúlt
                   magát elemésztő lángra, csak átizzott, megtüzesedett.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>5</head>
@@ -688,7 +692,7 @@
                <p>Karjára vette a gyereket, s odament a fiúhoz; félretörölte homlokából a csapzott
                   rövid fürtöket; a férfi ilyen kicsiséget nem lát meg. Szépre fésülte, oldalt
                   választva el a haját, urasan.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>6</head>
@@ -731,7 +735,7 @@
                <p>- Ó, nagy baj van.</p>
                <p>- No.</p>
                <p>- De aszonták, meg ne mondjam senkinek.</p>
-               <p>- Hát <hi>senkinek </hi>ne mondd meg; azt nem mondták, hogy <hi>valakinek</hi> meg ne mondd!</p>
+               <p>- Hát senkinek ne mondd meg; azt nem mondták, hogy valakinek meg ne mondd!</p>
                <p>A lány egy kicsit fölnevetett.</p>
                <p>- Kampec mán a fiatal úrnak.</p>
                <p>- Mi?... Liscsánnak?</p>
@@ -764,7 +768,7 @@
                <p>Aztán nyugodt, egyenletes lépésben megindította a lovat.</p>
                <p>Pár perc múlva kint volt a faluból, s csendes ügetéssel, nagy gondolatokkal haladt
                   előre, puha porfelhőt hagyva maga után.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>7</head>
@@ -857,7 +861,7 @@
                <p>- Takarodj innen! - rivallt rá az asszony. - Pusztulj a szememből. Szűz Mária
                   Anyám! Eszed ment?!</p>
                <p>- Vérit veszem - újrázta konokul a férfi.</p>
-               <p>- Isten a tanúm, hogy én is neked, csak egy ujjal merj az uram ellen tenni. Az <hi>uram</hi> ellen!...</p>
+               <p>- Isten a tanúm, hogy én is neked, csak egy ujjal merj az uram ellen tenni. Az uram ellen!...</p>
                <p>A férfi vissza lefojtotta magába az indulatát, de nem eresztette el.</p>
                <p>Lassan megindult; az ajtóban megállt.</p>
                <p>- Erzsi! - mondta rekedten - amék napon kimondod, hogy mán nem szereted: olyan
@@ -873,7 +877,7 @@
                <p>- Egy Takács, az tud szenvedni, de nem tud ölni. Tud dolgozni, takarékoskodni,
                   tűrni, halni... Hiszen, ha tenni is erős volna, akkor ő most Takács Gyuriné
                   lenne!...</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>8</head>
@@ -907,12 +911,12 @@
                   alkotásának maradványát. Az ország jött nagyvégül segítségre, s most fák között
                   áll a helyreállított torony; csipkés új teteje szépen szegi be a csúcsát.</p>
                <p>- Ménkű torony! - mondta magában Dani. - Hány szekér kű van ebbe! Elég vón a fél
-                  megyének, fuvarnak egy télre... Oszt ez is <hi>miénk</hi> vót...</p>
+                  megyének, fuvarnak egy télre... Oszt ez is miénk vót...</p>
                <p>Elrántotta a száját, s tovább poroszkált, befelé a piacra. Fél pillantást vetett
                   föl jobb kézről, a zárdára, baloldalt a háromtornyú plébániatemplomra, amelyben ma
                   is minden második vasárnap németül prédikálnak. És még jobban, ellenségesen vonta
                   össze szemöldökét, s a keze ökölbe szorult. Ma is él még nagyapai öreg bátyja, aki
-                  mindent tud a régi időkből, és sokat mesél a városról is, milyen volt <hi>azelőtt</hi>, mikor a “nagy torony” még a “magyaroké” volt. De
+                  mindent tud a régi időkből, és sokat mesél a városról is, milyen volt azelőtt, mikor a “nagy torony” még a “magyaroké” volt. De
                   elvették, pedig “az isten se javasolta”. Mihelyt feltették a keresztet a hegyibe,
                   másik nap beleütött az égi tűz, s leégett a torony is, a templom is. A templom
                   beszakadt, sose építették újra. A kálomisták kérték a kövét, hogy új templomot
@@ -942,7 +946,7 @@
                   várkastélya szemébe tűnik a piac túlsó oldalán, ahol gőgösen, téresen terpeszkedik
                   hatalmas parkjával, díszfáival, súlyos láncos, vasgolyós vaskerítésével. -
                   Megálljatok, a véreteket is kiszíjjuk, mint ti a mienket!</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>9</head>
@@ -1075,7 +1079,7 @@
                   a ruganyos puhaság, ez a lágy érintkezés. A tűz legyezése, a test
                   testetlensége.</p>
                <p>Nem is hallott semmit a beszédből.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>10</head>
@@ -1141,7 +1145,7 @@
                <p>Daninak a szeme sem hunyorított, egy arcizma sem mozdult meg a nagy szóra. Mintha
                   semmiség volna, amit most hallott.</p>
                <p>- Látja barátom - kezdte az ügyvéd hevesen -, ilyen kedvező alkalom nem volt erre
-                  soha, ezer szerencséje, hogy <hi>éppen</hi> ma jött be hozzám...
+                  soha, ezer szerencséje, hogy éppen ma jött be hozzám...
                   Tudja, nekem régi elvem a parcellázás... Maga a falujával vállalkozik a bérletre,
                   aztán majd megcsináljuk a dolgot. Mit szól hozzá?</p>
                <p>Dani jó ideig hallgatott, végre ezt mondta:</p>
@@ -1154,7 +1158,7 @@
                   kezét, s amint hajlíthatatlan vasujjaival gyámoltalanul belenyúlt a skatulyába,
                   ezt gondolta magában:</p>
                <p>- Iszen csak volna nekem egy órára egyszer olyan kezem, mint neked!...</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>11</head>
@@ -1258,7 +1262,7 @@
                <p>- Isten áldja.</p>
                <p>S a vénasszony, mint egy vén boszorkány bújt ki a lámpavilágról, bele az odakinti
                   sötétségbe.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>12</head>
@@ -1339,7 +1343,7 @@
                <p>- Az mer valakit tetvesnek mondani?... A ronda. A gazember. A piszok. Annak tetves
                   az én apám?</p>
                <p>Dani megsejtette, hogy az apja már megint mondott valamit keserű mérgében, amin
-                     <hi>ezek</hi> újra elrágódnak egy esztendeig.</p>
+                     ezek újra elrágódnak egy esztendeig.</p>
                <p>Az asszony gyönyörűséggel érezte, hogy most a szívét marcangolja az urának, s
                   lihegve, gyűlölködve folytatta:</p>
                <p>- Egy házfedelet nem tud megcsinálni, a kontár? Piszkolódni tud?</p>
@@ -1420,7 +1424,7 @@
                   mint régebben, az ilyen viharos összetűzések után. Kigyógyíthatatlanul eves már a
                   mély seb, amit annyi fajtájú kín vérez. S csak egy kevés elzsibbadást éreztek, de
                   szomorú szívük megrángott, a másiknak gyötrő sajgását sejdítve.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>13</head>
@@ -1509,7 +1513,7 @@
                   alvó fiúcskát szépen ölbe vette, átvitte a maga ágyára.</p>
                <p>Ő pedig visszasimult a feleségéhez, akit oly puhán egészen s szívszakadva ölelt
                   meg, hogy annak vér öntötte el tőle az agyát.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>14</head>
@@ -1559,7 +1563,7 @@
                   hevesen adta vissza.</p>
                <p>Erre ő lelökte a csizmát s lefeküdt.</p>
                <p>Az asszony mohón, szerelmesen bújt hozzá.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>15</head>
@@ -1590,7 +1594,7 @@
                <p> De szeretném édesanyját napamnak,</p>
                <p> Kökényszemű barna lyányát magamnak.</p>
                <p>Az asszonykának elcsuklott a hangja, az utolsó sor már gépiesen hangzott el,
-                  felújult a szívében a keserűség, ami a <hi>napam</hi> szóról eszébe
+                  felújult a szívében a keserűség, ami a napam szóról eszébe
                   jutott. Hogy elűzze a kedvetlen érzést, frissebb nótába csapott át.</p>
                <p>Ráncos szárú kis csizmámra sárga patkót veretek,</p>
                <p> Ihaj, tyuhaj, már ezután árva kislányt szeretek.</p>
@@ -1768,7 +1772,7 @@
                <p>Egy pillanat múlva az erő, a vágy, az élet sistergős, tüzes lángja csapott fel
                   benne.</p>
                <p>Csoda történt. A megszenesedett fatörzs új zöld lombba szökött.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>16</head>
@@ -1844,7 +1848,7 @@
                   ülne a kéjek tetőpontján.</p>
                <p>Minden csöpp vére felforrt; ha ő idáig tudna emelkedni a nemi szerelem
                   intenzivitásában!</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>17</head>
@@ -1919,7 +1923,7 @@
                <p>- Nem fél, hogy megrozsdásodik? Elég ennyi munka egy férfinak, hogy az idegei
                   rendben legyenek?</p>
                <p>A gróf mosolygott.</p>
-               <p>- Én nem vagyok egy <hi>férfi</hi>, hanem egy <hi>gróf</hi>, s a grófok nem vasból vannak, hanem valami ritka nemesfémből.
+               <p>- Én nem vagyok egy férfi, hanem egy gróf, s a grófok nem vasból vannak, hanem valami ritka nemesfémből.
                   Nekünk nem munka kell, hogy fényesek legyünk tőle, hanem légmentes elzárkózottság
                   és méltó keret.</p>
                <p>Belenézett az arcába, s megcsókolta a száját.</p>
@@ -1960,7 +1964,7 @@
                   rákacagott a férfira, aki elkedvetlenedve nézett utána. S mikor eltűnt az ajtón,
                   mogorván bámult ki az ablakon át a falu tornya felé, amelyen a merész, nyalka,
                   gall eredetű kakas, mintha ugyanezt az igazságot hirdette volna.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>18</head>
@@ -2052,7 +2056,7 @@
                <p>Valahogy rettenetesen leegyszerűsödött előtte a szerelem, mióta Borától vett
                   leckét.</p>
                <p>Mintha a kakasok és a tyúkok iskolájába járna.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>19</head>
@@ -2242,7 +2246,7 @@
                   lovászért csenget, de a nő előtt lehetetlen volt. Lenyűgözte őt, s a vad és
                   szemérmetlen állattal szemben tehetetlenné tette, hogy ő nem nyúlhatott nemtelen
                   eszközhöz, s látta, hogy védtelenné tette őt saját úrisá­ga. S lágy és befogadó
-                  intelligenciája, dühének tetőpontján <hi>belátta</hi>, hogy a
+                  intelligenciája, dühének tetőpontján belátta, hogy a
                   parasztnak igaza van, joga van és emberileg, a maga szempontjából kötelessége,
                   hogy azt tegye, amit tesz.</p>
                <p>Az erei majd kicsattantak, s minden feszültsége maga ellen fordult.</p>
@@ -2285,7 +2289,7 @@
                <p>Bora ott állott egy függöny mellett, félig belerejtezkedve. A grófnő intett neki a
                   szemével, mint a kutyának. S Bora úgy igyekezett kifelé a fal mentén, lesunyva,
                   iszkolva, mint az eb az ostor elől.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>20</head>
@@ -2582,7 +2586,7 @@
                <p>- A kutyádnak parancsolsz, kutya. Soha! Ha én nem akarom! Soha!</p>
                <p>Dani félkézzel vállon ragadta az asszonyt, megrázta, falhoz verdeste, és messze
                   kihajította az ágyból a szoba közepére.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>21</head>
@@ -2852,7 +2856,7 @@
                <p>Az urát úgy találta, ahogy hagyta. Végignyújtózva az ágyon, ébren. Ő is kitalálta,
                   mi az oka: otthon még keserűbb gyalázat érte, mint itt... És ökölbe csapódott
                   minden ujja, szerette volna szétdúlni a vének házát s az üszkei közé dobni őket,
-                  amiért az <hi>ő feleségével</hi> így bántak! Márpedig ő maga is
+                  amiért az ő feleségével így bántak! Márpedig ő maga is
                   egészen belegyőződött, belenyugodott, hogy elválik tőle az asszony. Jobb is így,
                   mondta magában. Hiába, ha nem összevalók, az isten se párosítja már őket össze.
                   Utálta magát, az életét, s keserű szájízzel vetette meg magát, amiért egy
@@ -2905,7 +2909,7 @@
                <p>- Legyen sár! Sár! De még legalább szétgázolok benne!</p>
                <p>S veszettül nézett a falura, a házára, s fenyegetően utána az eltűnt úri
                   népnek.</p>
-               
+               <p> </p>
             </div>
          </div>
          <div type="group">
@@ -3235,7 +3239,7 @@
                <p>A falubeliek, amint elnézték őt komoran ülve a nagy gubában, szemére nyomott
                   süvegben, nem is gondolták volna, hogy ez a Turi Dani egészen más ember, mint az,
                   aki reggel kihajtott a mezőre.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>2</head>
@@ -3272,7 +3276,7 @@
                <p>Gyuri utána nézett mohón, keményen, s megszíjta a szája sarkát, aztán
                   továbbment.</p>
                <p>- Megállj szép... Turi, azért mégis az enyém lesz a jány.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>3</head>
@@ -3328,7 +3332,7 @@
                   frissen, üdén szaladt be a kútról egy csupor vízzel. Milyen könnyű a bokája, mint
                   az őzé; milyen formás, fejlő, mint a kihasadó bimbó.</p>
                <p>Dani nagyot sóhajtott.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>4</head>
@@ -3407,7 +3411,7 @@
                <p>Erzsi nem szólt.</p>
                <p>Ő már rég szeretett volna elmenni, de nem akart magában, s nem akarta
                   figyelmeztetni az urát. Nem akart megalázkodónak látszani.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>5</head>
@@ -3437,7 +3441,7 @@
                   szerelemben, amit a parancsolója akar, kíván. Az asszony valami élő melegágya
                   legyen a férje minden képességének, amelyben megpihen az ember, s új erőre kap. Ha
                   ilyen volna! Akkor mit nem tenne meg érette!</p>
-               <p>Hiszen tudja is ő, mit kíván, csak annyit érez, hogy az asszony <hi>nem olyan, amilyennek ő szeretné</hi>.</p>
+               <p>Hiszen tudja is ő, mit kíván, csak annyit érez, hogy az asszony nem olyan, amilyennek ő szeretné.</p>
                <p>Ő az asszonyi természetet oly türelmes, lágy, béketermő valaminek szerette volna
                   elképzelni, amely mindig olyan, amilyennek az ura kívánja el. Mikor legelőször
                   hallotta tőle azt a szót, hogy “bizony nem szakítom meg magamat érted”, nem akart
@@ -3472,7 +3476,7 @@
                   gyűlt vagyon. S Dani lassanként azt vette észre, hogy a nagygazda-lány, aki éppen
                   azzal vonzotta őt, hogy magasabb rangba s társadalmi életmódba tartozott, mint ő,
                   most makacs, szívós, következetes munkával olyan életre akarja őt szorítani, ami
-                  csak az apjának, a <hi>Tövigszáraz</hi>-nak való.</p>
+                  csak az apjának, a Tövigszáraz-nak való.</p>
                <p>Nem, ez így nem emberi élet. Mind a ketten tudták. S egész délután mind a ketten
                   az estét várták; Dani is, Erzsi is az öreg Turiék otthonában, a híres jó családi
                   életben akartak számot vetni magukkal, milyennek kellene hát lenni annak a boldog
@@ -3485,7 +3489,7 @@
                   szorult, s ott reszketett benne a titok. Ha az kitör, szétrúgja kímélet nélkül,
                   irgalmatlan gázolja szerteszét azt az életet az embereivel együtt, mint a
                   hangyabolyt.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>6</head>
@@ -3565,7 +3569,7 @@
                   tisztán, mi az. Ez a cudar megszegte azt a hűséget, amit az ő feleségének kellett,
                   hogy tartson. És Dani Takács Gyurinak nem engedte, meg, hogy éppen úgy
                   megcsalhassa az ő feleségét, mint ő.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>7</head>
@@ -3717,7 +3721,7 @@
                   gyermek mindenkit lefoglalt.</p>
                <p>És elhitette magával, hogy az akaraton múlik minden, az ő akaratán meg a
                   feleségéén meg a szüleién meg a világén, és minden úgy lesz, ahogy volt, jobban!
-                  ahogy <hi>kell </hi>lennie.</p>
+                  ahogy kell lennie.</p>
                <p>S úgy tetszett neki, hogy ezt most csak ki kellene mondania, s meg is
                   valósulna!</p>
                <p>És ez a hit egyszerre boldog békességet idézett a lelkébe. Régen, nagyon régen nem
@@ -3726,7 +3730,7 @@
                   kiönti a szívét. És már látta, hogy borul a keblére a felesége, s meleg
                   pillantásokkal simogatta meg az asszonyát, aki a túlfűtött szobában kipirult, s a
                   gyerekei vidámságától régi lányos, nyájas kedvességéből kapott vissza valamit.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>8</head>
@@ -3781,7 +3785,7 @@
                <p>De mikor az ura csakugyan elvált tőlük, s átment a másik oldalra, a tanító háza
                   felé, csaknem keserves zokogásba tört ki. Úgy fájt a szíve, mint azon a nyári
                   éjszakán, mikor félmeztelenül szaladt itt a két gyerekével.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>9</head>
@@ -3818,13 +3822,13 @@
                <p>- Köszönöm, Dani bácsi, édös!</p>
                <p>Mire Dani kóválygó esze odáig tisztult, hogy átkapja a lányt, ez már el is
                   szaladt. Olyan boldogan szaladt, repült, mint a madár. Sohasem hitte volna, hogy
-                  ilyen <hi>szerencsét</hi> csináljon! Soha ilyet. Hogy Dani bácsi
+                  ilyen szerencsét csináljon! Soha ilyet. Hogy Dani bácsi
                   fizesse meg! Istenem, jó most okos lenni!</p>
                <p>És Turi Dani csak állott, állott, a vére lüktetett, pezsgett, forrt. Azt hitte,
                   mindjárt elszédül s felbukik. De csak állott, s utánanézett a havas út fehér
                   homályába hersegő cipővel elszaladó lánynak.</p>
                <p>A szíve elszorult, és szégyellte magát halálosan.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>10</head>
@@ -3911,7 +3915,7 @@
                <p>- Mégy a fenébe - mondta Dani.</p>
                <p>- Mit! én? aki megcsináltam nektek az egész dolgot! aki hat esztendeje prédikálom,
                   hogy ne kínlódjatok, adjátok át az államnak az iskolát, akkor legalább én is kapok
-                  emberi lakást és kondíciót, én legyek most egy <hi>főtanító</hi>
+                  emberi lakást és kondíciót, én legyek most egy főtanító
                   úrnak a lábakapcája! Egye meg a fene, valahon egy paraszt van a világon, egy se
                   ütteti az magát agyon értem! Megyünk a Dunántúlra, nektek meg lesz két pápista
                   uratok! Slussz!</p>
@@ -3926,7 +3930,7 @@
                <p>Felállott, lehajolt érte, felemelte a padlásig. Kabátjának fényes könyöke
                   gyászosan csillogott a füstölgő lámpa világán.</p>
                <p>- Hány fiú vagy?</p>
-               <p>- Hat! - kiáltotta odafenn a mestergerendáról a csöppség; tudniillik ő a <hi>hatodik</hi> gyerek, a fiú.</p>
+               <p>- Hat! - kiáltotta odafenn a mestergerendáról a csöppség; tudniillik ő a hatodik gyerek, a fiú.</p>
                <p>- Hány lesz még?</p>
                <p>- Hat! - kiáltotta újra a gyerek.</p>
                <p>- Akkor jó! - harsogott rekedt, elivott hangján a tanító, s az asztal közepére
@@ -3936,7 +3940,7 @@
                   Magyarországon, csináljon hat gyereket, oszt dögöljön meg az árokba!</p>
                <p>Dani ránézett a tanítóra, aki úgy hahotázott, ahogy bírt, hogy elfojtsa a
                   zokogását.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>11</head>
@@ -4197,7 +4201,7 @@
                <p>Mindenki úgy érezte magát, mintha rettenetes dolgoknak, világpusztulásnak lenne
                   tanúja.</p>
                <p>Takács Gyuri nem szólott, ült megsemmisülve. És Dani még egyszer látta, hogy írja
-                  le gyilkos keze a <hi>Turi Dániel</hi> gazda becsületes nevét.</p>
+                  le gyilkos keze a Turi Dániel gazda becsületes nevét.</p>
                <p>Mikor a tanúk aláírták, egyik írást magához vette; a másikat a tanítónak adta;
                   szédelegve fölvette a gubáját s elment.</p>
                <p>Senki sem szólt hozzá egy szót sem, csak néztek utána, s még mikor elment is, úgy
@@ -4219,7 +4223,7 @@
                <p>És mikor a meleg ágyban feküdt, s magához ölelte a szűz asszonyi testet, tudta,
                   hogy nem a feleségét öleli.</p>
                <p>És a szíve úgy fájt, úgy fájt, azt hitte rögtön megszakad.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>12</head>
@@ -4248,7 +4252,7 @@
                   csaknem felbukik álltában, amint hirtelen tettre lódítja az ötlet, a szép és jó és
                   nagy tett ötlete:</p>
                <p>
-                  <hi>Kinyitja az ablakot.</hi>
+                  Kinyitja az ablakot.
                </p>
                <p>S amint betódul a tiszta éles, szabad levegő, amint berohan s körülszalad az első
                   jeges szél­roham, a lámpa rémületében nagyot lobban, elalszik, az ember pedig
@@ -4258,9 +4262,9 @@
                   a szem nedves tükrén, s egyszerre csak újabb nagy és szép és jó tettre tör ki
                   egész lénye:</p>
                <p>
-                  <hi>Zokogni kezd.</hi>
+                  Zokogni kezd.
                </p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>13</head>
@@ -4329,7 +4333,7 @@
                   űk egymást. Már legénykorában is nagyon körülte volt ez a Gyuri annak a jánynak.
                   Ki tudja, mi alszik a hamu alatt!</p>
                <p>Pár percig vártak, hideg volt, dermesztő; s megnyugodva elmentek.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>14</head>
@@ -4369,8 +4373,8 @@
                <p>A vér mind átfutott a szívébe.</p>
                <p>Amire ma egész este nem gondolt, most egy szemrebbenés idő alatt tiszta
                   bizonysággal rémedt fel.</p>
-               <p>Az ura összeakadt Gyurival, s baj lett belőle, <hi>amiatt a jány
-                     miatt</hi>.</p>
+               <p>Az ura összeakadt Gyurival, s baj lett belőle, amiatt a jány
+                     miatt.</p>
                <p>Még egy átok sem nőhetett ki a nyelvén, mikor nyílt az ajtó és előtte állott maga
                   Gyuri.</p>
                <p>Egy percig úgy néztek egymásra. Egyik sem tudott szót szólni. Egymásra néztek,
@@ -4411,9 +4415,9 @@
                   az urad?</p>
                <p>Erzsi hallgatott, de szilárd lélekkel, már nem mondhatott neki rosszat ez az ember
                   az uráról. Olyan méltóságos érzéssel volt eltelve, hogy az élet minden megváltását
-                  elfeledte azért a szóért, hogy <hi>nincs bank</hi>.</p>
+                  elfeledte azért a szóért, hogy nincs bank.</p>
                <p>
-                  <hi>- </hi>De az enyém leszel ma! - folytatta lihegve az ember, s
+                  - De az enyém leszel ma! - folytatta lihegve az ember, s
                   erősen nézte az asszonyt, aki gúnyosan méregette őt.</p>
                <p>Hallgattak, gyötrelmes csöndben.</p>
                <p>- Hun az urad, jó asszony? - kezdte újra Takács Gyuri, és komiszkodott vele,
@@ -4504,7 +4508,7 @@
                   teste vitus­táncban rángatózott, a szeme felfordult, s nemsokára egy kis hab
                   bugyogott ki szegény eltorzult szájaszélén.</p>
                <p>- Mennybéli Úristen! - sikoltott az egekig az anya hangja - fiam! fiam! fiam!</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>15</head>
@@ -4727,7 +4731,7 @@
                <p>- Hun a levél! - s az ember megragadta a lányt. - Hun a levél, te szajha, te
                   ringyó, te!</p>
                <p>- Itt van, itt van - nyögte a lány, s a homlokán, az arcán verejték verődött ki. -
-                  Itt van <hi>édes uram, édes uram</hi>.</p>
+                  Itt van édes uram, édes uram.</p>
                <p>Az ágy sarkából húzta ki, ahol háltak.</p>
                <p>Dani elkapta tőle, elolvasta, újra elolvasta, és olvasás alatt az arca
                   megnyugodott és megkemé­nyedett.</p>
@@ -4743,7 +4747,7 @@
                   grófnét... hadd éljen, hadd örüljön, hadd gázoljon térdig a virágban az ember.</p>
                <p>Úgy nézett utána könnyes szemmel, zagyva, szomorú, örvendező, lesújtott, felemelt,
                   beteg és ujjongóan egészséges szívvel.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>16</head>
@@ -4801,7 +4805,7 @@
                   bámult rá. A következő pillanatban már minden elkésett, Dani elment, fényesen,
                   hidegen, vészt hordva magával, mint üstökös, akit csak egyszer lát az életben az
                   ember.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>17</head>
@@ -4886,7 +4890,7 @@
                   maradt...</p>
                <p>És újra kimondta a szót.</p>
                <p>Amint fölnézett, előtte állott a belépő Turi Dani.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>18</head>
@@ -4972,7 +4976,7 @@
                   kannak.</p>
                <p>És ez fölemelte a karját, kinyújtotta, torkon ragadta őt, a ruháját, s egyetlen
                   moccanással lábujjhegyig szakasztotta rajta a zöld selyemleplet.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>19</head>
@@ -5029,7 +5033,7 @@
                <p>Istenem Uram... legyen áldott a te neved... nagyon jó így feküdni... Istenem, de
                   jó...</p>
                <p>Csöpp, csöpp, csöpp...</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>20</head>
@@ -5153,7 +5157,7 @@
                <p>S egy lassú keringéssel arra szálló fekete varjú pukkanva ment szét a
                   levegőben.</p>
                <p>A fekete tollak keringve szállottak, rezegve hullottak lefelé.</p>
-               
+               <p> </p>
             </div>
             <div type="chapter">
                <head>21</head>
@@ -5167,7 +5171,7 @@
                   járt körül a levegőben.</p>
                <p>Akkor visszatért az öntudata. Tudta, hogy megölte a grófot, s tudta, hogy lelőtte
                   a sógorát. Még a lehullott madárról is tudott. Mindent tudott és semmit sem bánt,
-                  mindennek megvolt az oka, s kimondta az okot: <hi>dühömbe!</hi>...</p>
+                  mindennek megvolt az oka, s kimondta az okot: dühömbe!...</p>
                <p>Ebben a percben fölemelte kezét; idegen érzést érzett rajta s megnézte.</p>
                <p>Elsápadt tőle, a szeme összehúzódott kicsire s ellenségesen, riadtan nézett a
                   kezére; az orrából hánytató inger folyt vissza le a gyomrába, s undorodás és
@@ -5226,7 +5230,7 @@
                <p>Csak ment előre, s minden lelkierejét lefoglalta, hogy embernek látsszék, s emberi
                   módra viselje magát. Egy gyerek állott a legelső kapuban, szótlanul bámult rá s
                   utána fordult. Dani rápillantott s majdnem összerogyott a rémülettől. A gyermek
-                  nézésében ott látta a <hi>véres csizmán</hi> való nagy csodálkozást.
+                  nézésében ott látta a véres csizmán való nagy csodálkozást.
                   És a lábát ettől kezdve mintha valami meleg, kövér égő lében tartotta volna.
                   Kapkodta, hogy kivonja belőle, de lehetetlen volt; egyre jobban izzott a lábán a
                   kapca, az égő csizma befelé perzselt. S a lelkét még jobban perzselte a kis
@@ -5249,7 +5253,7 @@
                   mintha ellenző volna a szemén, mint a lónak, úgy igyekezett, gépies menéssel
                   előre; mint a falu végén megriasztott állat, amely hanyatt-homlok rohan haza.</p>
                <p>Oda, oda akart menni, haza. Haza. Bebújni a vacokba, amelyről már csak annyit tud,
-                  hogy <hi>ott a helye</hi>. Oda el kell jutni. Ott otthon van. Ott
+                  hogy ott a helye. Oda el kell jutni. Ott otthon van. Ott
                   majd számot tud vetni magával, s onnan bátran kiugat majd az üldözőkre.</p>
                <p>Egy-egy pillanatra mégis tiszta elme berzen föl agyában. Hisz olyan hosszú, olyan
                   hihetet­lenül, pogányul hosszú a falu rövid utcája... Észreveszi, hogy nagyon
@@ -5288,7 +5292,7 @@
                   A feje szédül s nehéz, mint egy dézsa; nem is bírja a nyakán megtartani; lebillen,
                   mint a hervadt száron a tök.</p>
                <p>Hallja, hogy a felesége feláll odabenn. Megnyikordul a szék. A hallása ijesztően
-                  éles, és azt is hallja, hogy valahol messze <hi>ordítás</hi> van.
+                  éles, és azt is hallja, hogy valahol messze ordítás van.
                   Egyszerre figyel oda ki, ahol nincs semmi, s be a szobába, ahol az élet ártatlan
                   mozgása lármáz. Mind a kettő egyformán ijeszti.</p>
                <p>Az ajtó megnyílik, s kilép a felesége. A konyhaablak világosságában jelenik meg.
@@ -5320,7 +5324,7 @@
                <p>A gyermek fehér, de lélegzik. Kis teste megmozdul. Csak a lába van könnyű
                   lepedővel le­takarva. Olyan furcsa és szomorú ez az apró emberke, nagyemberes
                   ingecskéjével, gatyájával. Amint ránéz, magán ijed meg. Ha ő így fekhetne halálos
-                  ágyon! Gyermekül, <hi>ártatlanul</hi>, betegen! Örökre elérhetetlen
+                  ágyon! Gyermekül, ártatlanul, betegen! Örökre elérhetetlen
                   boldog állapot! Kérdőn néz a feleségére.</p>
                <p>Erzsi már beleélte magát, hogy az ura mindent tud. Megütődik kérdő pillantásán.
                   Látja, hogy semmit sem hallott az ember. És nem ez bántja; asszonyi, megenyhült
@@ -5376,7 +5380,7 @@
                <p>Valami krisztusi hit és szeretet kiáltott ki a szavaiból, s a férfi magához tért
                   tőle. A mentő szalmaszál. Egy villanásra tisztán állott előtte az igazság. Az az
                   igazság, ami a felesége gondolatában volt.</p>
-               <p>Nem fogják halálra ítélni: <hi>oka volt</hi>! És a börtönből
+               <p>Nem fogják halálra ítélni: oka volt! És a börtönből
                   kiszabadul! És akkorra lehűl a tüzes vére. És meg fogja váltani a bűneiből ez az
                   asszony.</p>
                <p>És úgy tűnt föl neki most ez az asszony, mint egy Megváltó.</p>
@@ -5473,7 +5477,7 @@
                <p>Ki hát a bűnös, ha ebből az aranyból semmi sem lett?</p>
                <p>- Ki?</p>
                <p>Az Isten, aki nem csinált belőle semmit.</p>
-               <trailer>-&amp;-</trailer>
+               <p>-&amp;-</p>
             </div>
          </div>
       </body>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3005" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3005" xml:lang="SPA">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -17,23 +18,21 @@
 			<measure unit="vols">2</measure>
 		</extent>
         <publicationStmt>
-	        <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-            <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-            <date when="2020-01-09"/>
-            <availability>
-    	        <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-            </availability>
-            <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-        </publicationStmt>
-		<sourceDesc>
-		<bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+		<sourceDesc><bibl type="firstEdition">
 			<publisher>Daniel Cortezo y Cª</publisher>
 			<pubPlace>Barcelona</pubPlace>
 			<date>1887</date>
 			<idno type="BDH">bdh0000146774</idno>
 			<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000146774">Biblioteca digital hispánica</ref>
-		</bibl>
-		<bibl type="digitalSource">
+		</bibl><bibl type="digitalSource">
 			<publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
 			<pubPlace>Universidad de Alicante</pubPlace>
 			<ref target="http://http://www.cervantesvirtual.com/obra/la-madre-naturaleza/--0/">Biblioteca
@@ -45,8 +44,7 @@
 				<name>Josefina Carrión</name>
 				<name>Enrique Sánchez Villamil</name>
 			</respStmt>
-		</bibl>
-</sourceDesc>
+		</bibl></sourceDesc>
 	</fileDesc>
 	<encodingDesc n="eltec-1">
 			<p/>
@@ -66,6 +64,7 @@
 		</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2019-12-19">Anotación formato ELTeC y revisión del texto: Julen García Cerdá</change>
 			<change when="2020-01-31">Revisión formato ELTeC y correcciones varias: Borja Navarro Colorado</change>			
 		</revisionDesc>
@@ -8643,7 +8642,7 @@
 				del artillero, y de un empujón lo lanzó a dos varas de distancia.
 				Luego se precipitó hacia fuera.</p> 
 		  </div> <pb n="186"/> 
-		  <div> 
+		  <div type="chapter"> 
 			 <head>- XXIX -</head> 
 			 <p>Muchas veces bajaba el marqués de
 				Ulloa a la científica tertulia de su cocina, sobre todo en invierno,
@@ -9808,7 +9807,7 @@
 				Juncal- cómo el bueno del cura le mete escrúpulos en la cabeza a
 				la señorita.</p> 
 		  </div> <pb n="255"/> 
-		  <div> 
+		  <div type="chapter"> 
 			 <head>- XXXV -</head> 
 			 <p>-Queda muy sosegada, y en un estado de
 				ánimo bastante bueno. Mañana, Dios mediante, recibirá al

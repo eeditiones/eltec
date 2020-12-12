@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3014" xml:lang="SPA"> 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3014" xml:lang="SPA"> 
 <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,21 +15,19 @@
         <measure unit="words">42405</measure>
       </extent>
       <publicationStmt>
-        <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-        <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-01-20"/>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-        </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+      <sourceDesc><bibl type="firstEdition">
           <pubPlace>Madrid</pubPlace>
           <date>1890</date>
           <publisher>Tipografía de Manuel Ginés Hernández</publisher>
-        </bibl>
-        <bibl type="digitalSource"> 
+        </bibl><bibl type="digitalSource"> 
           <publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
           <pubPlace>Universidad de Alicante</pubPlace>
           <idno>001117</idno>
@@ -39,8 +38,7 @@
             <name>Carmen Hernández Segovia</name>
             <name>Sonia Jover Sánchez</name>
           </respStmt>
-        </bibl>
-      </sourceDesc>
+        </bibl></sourceDesc>
     </fileDesc>
     <encodingDesc n="eltec-1">
       <p/>
@@ -58,6 +56,7 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
       <change when="2020-05-01">Anotación formato ELTeC : Borja Navaro Colorado</change>
     </revisionDesc>
   </teiHeader>

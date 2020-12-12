@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM033" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM033" xml:lang="ro">
           
           <teiHeader>
                     <fileDesc>
@@ -26,21 +26,23 @@
                               </extent>
                               
                               <publicationStmt>
-                                        <p></p>
-                              </publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
                               
-                              <sourceDesc>
-                                        <bibl type="firstEdition">
+                              <sourceDesc><bibl type="firstEdition">
                                                   <author>Anonymous</author>
                                                   <title>Ruxanda Haiduciasa. Nuvelă Istorică Națională</title>
                                                   <pubPlace>Bucharest</pubPlace>
                                                   <publisher>Concurența</publisher>
                                                   <ref target="http://doi.org/10.5281/zenodo.3723247">Facsimile on zenodo</ref>
                                                   <date>1920</date>
-                                        </bibl>
-                                        
-                                        
-                              </sourceDesc>
+                                        </bibl></sourceDesc>
                     </fileDesc>
                     
                     <encodingDesc n="eltec-1"><p/></encodingDesc>
@@ -53,12 +55,13 @@
                               <textDesc>
                                         <e:authorGender key="X"/>
                                         <e:size key="short"/>
-                                        <e:canonicity key="low"/>
+                                        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
                                         <e:timeSlot key="T4"/>
                               </textDesc>
                     </profileDesc>
                     
                     <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
                               <change when="2020-03-20">Initial TEI version generated.</change>
                     </revisionDesc>
           </teiHeader>
@@ -123,7 +126,7 @@
                  <p> —  Știi, a doua zi după ce plecase-și a fost   nășicu la noi și-mi spuse că fiind înCer-ceți la fică-sa a mare care ținea pe Christea   Prinde Vacă v-ar fi văzut pe tine și pe   Hagi Prodan intrând amândoi la curtea   boierească, de vorbă cu boierul. Și mi-e   tare teamă să nu ți se întinză vr’o cursă   Și când mă gândesc că ași rămâne fără   tine, mai bine m’ași arunca în Dunăre.   </p>
 <p>  Ultimele cuvinte fură înecate de plâns în care isbucni.   </p>
 <p>  Junele pandur văzu că Ruxanda știa mai mult de cât și-ar fi închipuit el în tot timpul cinei pledându-i sfânta și patriotica   cauză de care erau animați, el o duse la   convincțiunea bunelor intențiuni ale slugerului Tudor Vladimirescu, împreună cu   care a fost la București. El îi povesti în   șir toate marile sacrificii bănești, ce le făcea marele ora, demostrându-i tot-deodată   cu câtă abnegațiune lucra pretutindenea,   ne căutând de cât desrobirea obijduitului   țăran care a ajuns să-și uite țara, și graiul național, lăsate lui în păstrare de marele Traian.   </p>
-                 <p>—Totul pentru obștie, nimic pentru noi! ne tot striga viteazul Tudor: Moartea <gap unit="image"></gap> lui Vodă ne-a făcut să ne înapoiam la căminurile noastre și să ridicăm stindardul   libertății. Totul e gala.   </p>
+                 <p>—Totul pentru obștie, nimic pentru noi! ne tot striga viteazul Tudor: Moartea <gap unit="image"/> lui Vodă ne-a făcut să ne înapoiam la căminurile noastre și să ridicăm stindardul   libertății. Totul e gala.   </p>
 <p>  Măsuța de lemn care fusese pusă pe pat unde mâncaseră, era de mult ștearsă cu   un pișchir și atârnată pe perete.   </p>
 <p>  Acum el trebuia să plece. La Cerneți îl așteptau bandele care trebuiau să lupte   sub căpitănia lui. Acolo trebuia să isbuc-niască revoluția.   </p>
 <p>  Fata isbucni într’un plâns puternic.   </p>
@@ -159,7 +162,7 @@
 <p>  Răsboaele între Ruși și Turci care se succedau, schimbarea încontinuă a Domnilor trimiși de poartă care sugeau poporul pentru a avea cu ce se întieține la   scaun, sau pentru a despăgubi de sacii   de aur vărsați pentru numirea lor, toate   acestea au adus bietele țări într’o stare   de plâns. Mai adaogă epidemiile prin care   au trecut bietul popor, mai cu seamă, ceia   de la 1812 numită și ciuma lui Caragea.   Această tară, unde altă dată fâlfâia stindardul libertății, ajunse pașalâc turcesc   și condusă de lifte venite din fanar, nu   mai era de recunoscută. Ce mai vorbă de   libertate, când viața și averea îți steteau   pe mâna derbedeilor. Trebuia să-ți crești   fetele ascunse de lumina soarelui ridicând   ast-fel să te pomenești cu ele furate și   aruncate într’un harem unde după ce erau   batjocurite, ereau aruncate în stradă ori   date, pe mâna linge-talerelor de ciocoi,   care asemenea se satisfăceau de ele ca   niște hiene. Românul erea batjocurit în   toate ale lui. Averea, familia, cinstea, biserica toate ereau călcate în picioare. Ajungând astfel osul la gât nu e de mirare   că la prima chemare la arme a lui Tudor   au răspuns mii de piepturi oțelite.   </p>
 <p>  Slugerul Tudor Vladimirescu care tocmai se află la București agitând pentru revoluțiuuea care trebuia să izbucnească   află despre moartea lui Șuțu.   </p>
 <p>  îndată chema la sine pe toți capii conspiratori, împărțindu-le ordine, iar el împreună cu Macedonsky, Hagi-Prodan și eu căpitanul Oarcă se aruncară pe niște cai   ca balaurii, luând-o spre Cerneți, căci de   acolo trebuia să isbucnească adevărata   revoluțiune.   </p>
-                    <p>  Inteligentul Tudor își avea ideile lui pentru aceasta. El nevoind ca opera lui să fie taxată ca o simplă conspirațiune  </p><gap unit="image" rend="In timpul acesta 2000 de Turci, Tătari și Zaporojeni trecură Dunărea sub comanda lui Tahir aga (Pag. 38)"></gap>
+                    <p>  Inteligentul Tudor își avea ideile lui pentru aceasta. El nevoind ca opera lui să fie taxată ca o simplă conspirațiune  </p><gap unit="image" rend="In timpul acesta 2000 de Turci, Tătari și Zaporojeni trecură Dunărea sub comanda lui Tahir aga (Pag. 38)"/>
 
 
 <p>  plecă la Cerneți dincolo de Olt. De acolo dintre Olteni, talpa țărei, de acolo sa proclame răsmerița națională.   </p>
@@ -371,8 +374,8 @@
 <p>  Această piedică era Oarcă, ibovnicul Ruxandei, un tânăr voinic, oacheși, cu părul și mustața ca corbul, care se înrola   la oaste unde avansă foarte repede.   </p>
 <p>  Acesta, întâlnind odată pe <foreign>kir</foreign> lani dând târcoale pe lângă căsuța lui nea Vasile,   îl privi cu niște ochi care făcură să înghețe tot sângele în grecotei.   </p>
 <p>  De atunci, de câte-ori <foreign>kir</foreign> lani își aducea aminte de el, se simția apucat de groază.   </p>
-                 <milestone unit="subchapter"></milestone>   
-                    <p>Pe șosea cădea o ploaie măruntă, primăvăratică. Soarele apusese de mult, lăsând în urmă-i un întuneric, care învăluia pământul. Ici colea se auzea un lătrat de câine întrerupând tăcearea adâncă. Un-<gap unit="image" rend="Ruxanda peste tot apară/ Pe un duhalm de foc si para"></gap></p>
+                 <milestone unit="subchapter"/>   
+                    <p>Pe șosea cădea o ploaie măruntă, primăvăratică. Soarele apusese de mult, lăsând în urmă-i un întuneric, care învăluia pământul. Ici colea se auzea un lătrat de câine întrerupând tăcearea adâncă. Un-<gap unit="image" rend="Ruxanda peste tot apară/ Pe un duhalm de foc si para"/></p>
 
 <p>  vânt de răsărit care în ultimul' moment   părea că voia să se transforme în vijelie,   aducea nori groși, negrii, pe care îi aduna   la un loc, rostogolindu-i unul peste altul.   </p>
 <p>  Tunetele și fulgerele brăzdară cerul.   </p>
@@ -528,7 +531,7 @@
 <p>  Ceilal-ți îl urmară.   </p>
 <p>  Ne reamintim cum haiducii au pătruns în curtea morii, locatari după cheiu, care   deșteptați din somn de bubuitura produsă   de glontele care l-a doborât pe morarul.   </p>
           <p>  Apoi, de învălmășala produsă de sosirea poterii, care mirosind fuga haiducilor — din ascunzătoarea de la moș Toma unde  trebuiau să fie prinși la miezul nopții — sau pus în urmărirea lor.</p>
-          <gap unit="image" rend="Ajunsă în balcon fu coprinsă de groază. Un sgomot infernal domnia pe cheiu (Pag. 58)"></gap>
+          <gap unit="image" rend="Ajunsă în balcon fu coprinsă de groază. Un sgomot infernal domnia pe cheiu (Pag. 58)"/>
 
 <p>  După ce se produse zăpăciala, haiducii se retraseră în dosul morii.   </p>
 <p>  Ajunși pe cheiu Lisandru își băgă două degete în gură și imită de două ori glasul   cucuvelei. In întunericul ce domnia se văzu   venind spre el un caic cu doi vâslași care   luptau contra valurilor.   </p>
@@ -691,7 +694,7 @@
 <p>  — Și lasă, că te scriu că ești hâtru bun de glumă. Tu te înapoiază la băeți, și mi-i pregătește ca pe dată ce s’o însera,   să se risipiască prin pădure, câte trei, patru   de fie-care intrare și când vor auzi o detunătură de pistol să se pitulească fie-care   pe câte un copac și să tragă câte-va focuri   în diverse direcțiuni ale pădurii.   </p>
 <p>  — Da în cin ’să tragă?   </p>
 <p>  — Asta s’o vedea p’urmă. Ei să facă după cum zic eu.   </p>
-             <p> Poterile intrând în pădure pe câte-și treile cărări și auzind fiecare împușcătură <gap unit="image" rend="rupse gratiile de lemn putrede și se aruncă prin această în Dunăre. (Pag'. 58).  "></gap> in părțile opuse ale pădurii o să crează fiecare că trupele din partea locului s’au ciocnit cu ai noștri.   </p>
+             <p> Poterile intrând în pădure pe câte-și treile cărări și auzind fiecare împușcătură <gap unit="image" rend="rupse gratiile de lemn putrede și se aruncă prin această în Dunăre. (Pag'. 58).  "/> in părțile opuse ale pădurii o să crează fiecare că trupele din partea locului s’au ciocnit cu ai noștri.   </p>
 <p>  In întunericul și învălmășala care o sa se producă ei o să se ciopârțească între   ei, fără ca noi să mai stricăm gloanțele   noastre.   </p>
 <p>  — Da cine o să dea semnalul ?   </p>
 <p>  — Tu!   </p>
@@ -761,6 +764,7 @@
 <trailer>  FINE   </trailer>
 </body>         
           <back>
+             <div type="liminal">
 <p>  TABLA DE MATERIE   </p>
    
 <p>        1. Rochia de Mireasă   </p>     
@@ -786,4 +790,7 @@
 <p>    1            </p>
 <p>   Eteriile Greco-Slave erau niște societăți secrete eare lucrau pentru independența Grecilor.   </p>
 <p>  1) După I. E. Rădulescu și loan Ghika, Aleeu Vodă Șuțu ar fi murit la 29 Decembrie 1820.   </p>
-          </back></text></TEI>
+             </div>
+          </back>
+          </text>
+</TEI>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA4013">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA4013">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -14,30 +15,26 @@
 				<measure unit="words">31901</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2020-07-20"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="digitalSource">
 					José Calvo Tello
 					<ref target="https://github.com/cligs/conssa">Corpus of Novels of the Spanish Silver Age (CoNSSA)</ref>
 					<idno>ne0057</idno>
 					<pubPlace>University of Würzburg</pubPlace>
 					<date when="2020"/>
-				</bibl>
-				<bibl type="digitalSource">Biblioteca Virtual Miguel de Cervantes, <date when="2012">2012</date>, <ref target="http://www.cervantesvirtual.com/obra/el-humo-dormido/"/>.</bibl>
-				<bibl type="printSource">Obras completas de Gabriel Miró, Barcelona, <date when="1941">1941</date></bibl>
-				<bibl type="firstEdition">
+				</bibl><bibl type="digitalSource">Biblioteca Virtual Miguel de Cervantes, <date when="2012">2012</date>, <ref target="http://www.cervantesvirtual.com/obra/el-humo-dormido/"/>.</bibl><bibl type="printSource">Obras completas de Gabriel Miró, Barcelona, <date when="1941">1941</date></bibl><bibl type="firstEdition">
 					<publisher>Publicaciones Atenea</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date when="1919">1919</date>
 					<ref target="http://www.cervantesvirtual.com/obra-visor/el-humo-dormido-1/html/"/>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p>Downcoded from CLIGS</p>
@@ -56,6 +53,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-07-20">Borja Navarro Colorado : revisión de etiquetado ELTeC y anotación complementaria</change>
 			<change when="2020-07-20">LB convert to ELTeC-1</change>
 			<change when="2015-04-07">#jct : Initial TEI version.</change>

@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns"
-   xml:id="ROM001" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM001" xml:lang="ro">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -20,27 +16,22 @@
             <measure unit="pages">128</measure>
          </extent>
          <publicationStmt>
-            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European
-               Literary History" (CA16204)</publisher>
-            <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-            <date when="2019-11-11"/>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-            </availability>
-            <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-            <!--Încorporat în ELTeC2018-l0-l5
-        -->
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="firstEdition">
                <author>Anonymous(MCP)</author>
                <title>Roșcan Haiducul. Nuvelă ilustrată cu două gravuri</title>
                <pubPlace>Bucharest</pubPlace>
                <publisher>Tipo-Litografia și Fonderia de Litere „Dor. P. Cucu”</publisher>
                <date>1894</date>
                <ref target="http://doi.org/10.5281/zenodo.2642505">Facsimile on zenodo</ref>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p/>
@@ -52,11 +43,12 @@
          <textDesc>
             <e:authorGender key="U"/>
             <e:size key="medium"/>
-            <e:canonicity key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <e:timeSlot key="T3"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2019-11-11">Checked by releaseChecker script</change>
          <change when="2018-09-28">Initial TEI version generated.</change>
       </revisionDesc>
@@ -276,8 +268,7 @@
             <p>—Unde să o duc mărite stăpâne, zise el cu umilință către boer.</p>
             <p>Boerul Niculicea pogorî gura sa la urechia vătafului șoptind ceva, și acesta răspunse
                dând din cap.</p>
-            <p>—Îndată, mărite stăpâne, și chiar <gap
-                  rend="Figure_Vasile apucă pe vătaf de gâtlej/Vasile wrings the bailiff's neck"/>
+            <p>—Îndată, mărite stăpâne, și chiar <gap rend="Figure_Vasile apucă pe vătaf de gâtlej/Vasile wrings the bailiff's neck"/>
                eu singur am să fac tot ca să fie bine făcut.</p>
             <p>Zicând aceste cuvinte, Procopie smuci în sus pe nenorocita ființă și o târî în sus pe
                scară, după acea o duse printr’un șir de odăi împodobite care mai de care mai multă
@@ -829,8 +820,7 @@
             <p>Acum el ducea acasă o nevastă, pe fata boerului Niculcea.</p>
             <p>El luă jos pe nenorocită, după care o duse cu brațele sale puternice în colibă și
                închide ușa în urma lui.</p>
-            <p>După aceea ei puse pe nenorocita pe <gap rend="Figure_Vasile pulling Florica's hair"
-               /> un culcuș de paie și se întorse înapoi ca să încuiă bine ușa printr’un zăvor.
+            <p>După aceea ei puse pe nenorocita pe <gap rend="Figure_Vasile pulling Florica's hair"/> un culcuș de paie și se întorse înapoi ca să încuiă bine ușa printr’un zăvor.
                Afară mulțimea mai cânta, chiuia și striga din resputeri, dar sgomotul se micșora din
                ce în ce mai mult.</p>
             <p>Era și cu drept ca să scază nu mai era nimic din petrece aci; cununia lui Vsile cu

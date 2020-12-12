@@ -1,11 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns"
-   xml:id="ROM003" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM003" xml:lang="ro">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,28 +16,28 @@
             <measure unit="pages">46</measure>
          </extent>
          <publicationStmt>
-            <p>Încorporat în ELTeC<date>2019-l0-0l</date>
-            </p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="firstEdition">
                <author>Mihai Eminescu</author>
                <title>Geniu Pustiu</title>
                <pubPlace>Bucharest</pubPlace>
                <publisher>Manuscript B.A.R.</publisher>
                <date>1870</date>
-            </bibl>
-
-
-            <bibl type="printSource">
+            </bibl><bibl type="printSource">
                <author>Mihai Eminescu</author>
                <title>Geniu Pustiu</title>
                <pubPlace>Bucharest</pubPlace>
                <publisher>Academia Republicii Socialiste Romania</publisher>
                <date>1977</date>
                <idno type="https://ro.wikisource.org/wiki/Geniu_pustiu"/>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
 
       </fileDesc>
       <encodingDesc n="eltec-1">
@@ -55,11 +50,12 @@
          <textDesc>
             <e:authorGender key="M"/>
             <e:size key="short"/>
-            <e:canonicity key="high"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <e:timeSlot key="T2"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
          <change when="2019-09-20">Initial TEI version generated.</change>
       </revisionDesc>
    </teiHeader>
@@ -74,7 +70,7 @@
          </div>
       </front>
       <body>
-         <div>
+         <div type="group">
             <head>TASSO 'N SCOŢIA</head>
             <p>Dumas zice că romanul a existat totdeauna. Se poate. El e metafora vieții. Priviți
                reversul aurit al unei monede calpe, ascultați cântecul absurd al unei zile care n-a
@@ -457,8 +453,7 @@
                răsfoiam prin ele, când într-una găsesc o scrisoare nedesigilată încă, pe care
                desigur că menagera mea, primind-o de la poștă, o aruncase în cartea aceea. O desfac.
                Iată cuprinsul ei: Torino, în nu știu câte.</p>
-         </div>
-         <div type="letter">
+         <quote type="letter">
             <p>Omule,</p>
             <p>Mi-ai trimis poeziile lui Alecsandri. Îți mulțumesc. Citesc adeseori pe Emmi,
                singurul lucru în lume care-mi poate stoarce lacrimi. Într-adevăr, voi ăștia care
@@ -477,8 +472,8 @@
                curând. Voi muri. Scrie-mi curând, căci poate-oi mai primi încă. După ce-oi muri, vei
                căpăta o ciudată moștenire din partea mea. Ține minte. Rămân al pământului cu corpul,
                al tău cu sufletul, cel ce-n curând nu va mai fi. Toma Nour</p>
-         </div>
-         <div>
+         </quote>
+         <div type="chapter">
             <p>O lacrimă se scurse tremurând din genele [mele] strălucitoare și aruncai scrisoarea
                în foc. Ochii mei painjeniți de lacrimi și insomnie întrevedeau într-o sălbatecă
                fantasmagorie capul vânăt al acelui amic nefericit cu creierii roșii de gândire, cu
@@ -996,7 +991,7 @@
                umilită, mă simțeam fericit ca un rege asupra acelor camarazi horăinzi. La lumina
                fumegândă a lampei am scris versuri, ce le-am găsit în urmă rătăcite printre hârtiile
                mele și pe care ți le citez întocmai: </p>
-         <quote>
+         <quote type="verse">
             <l>Când sufletu-mi noaptea veghea în extaze</l>
             <l>Vedeam ca în vis pe-al meu înger de pază,</l>
             <l>Încins într-o haină de nori și de raze,</l>
@@ -2289,7 +2284,7 @@
                [a]prinde câte-o lumină la zile mari, de sufletul celor [mor]ți. Întristarea-mi
                intrase-n inimă, întristarea și pustiul.</p>
          </div>
-         <div>
+         <div type="group">
             <head>POESIS</head>
             <p>M-am dus la Cluș. Am așteptat să vină noaptea pentru ca să mă duc la casa ei, să văd
                ce se-ntâmplase cu ea. Îmi venise ideea să-i iert tot — trădarea ei — și, de-ar fi
@@ -2314,8 +2309,7 @@
                adresată mie și scrisă cu mâna cea fină. Am deschis-o cu repejune și-am citit-o. Era
                scrisă tremurat și cerneala șirurilor era turburată de lacrimi căzute pe hârtie. O
                reproduc tot așa cum era scrisă:</p>
-         </div>
-         <div type="letter">
+                <quote type="letter">
             <p>Amantul meu, dulcele meu amant! M-ai crezut trădătoare, desfrânată, și-ai luat
                lumea-n cap. Da, am fost criminală, inima mea, criminală cum a fost Maria Magdalena.
                Tomo, nu mai cer iubirea ta, căci când vei citi aceste șire, n-ai mai putea iubi
@@ -2342,8 +2336,7 @@
                traversăm de braț, doi îngeri, stelele cerului. Adio, copilul meu! Te iubesc!
                Gândește la mine— de voi putea, voi gândi și eu numai la tine, numai. Nu mă respinge,
                copilul meu, lasă-mă să fiu a ta... A t a P o e s i s</p>
-         </div>
-         <div>
+         </quote>
             <p>Am citit și-am recitit ce scrisese ea și apăsam plângând în hohot, ca un copil,
                șirurile ei șterse de lacrimi de buzele mele vinete și arzătoare.</p>
             <p>— Poesis! strigam eu, strângând aerul camerei la pieptul meu. Poesis, iartă-mă!</p>
@@ -2367,7 +2360,7 @@
                e cugetarea cea dintâi, momente de urât, de scepticism, de decepțiune. De-aceea am
                luat lumea-n cap... Acea epistolă conținea toată istoria mea.</p>
             <p/>
-         </div>
+         </div></div>
       </body>
      
    </text>

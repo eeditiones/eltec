@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2002" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2002" xml:lang="SPA">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -16,22 +17,20 @@
 				<measure unit="pages">313</measure>
 			</extent>
             <publicationStmt>
-                <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-                <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-                <date when="2020-01-29"/>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                </availability>
-                <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-            </publicationStmt>
-			<sourceDesc>
-				<bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="firstEdition">
 					<publisher>Imprenta de Soto Freire</publisher>
 					<pubPlace>Lugo</pubPlace>
 					<date>1867</date>
 					<ref target="http://biblioteca.galiciana.gal/es/consulta/registro.cmd?id=5976">Biblioteca Galiciana - Biblioteca Dixital de Galicia</ref>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
 					<pubPlace>Universidad de Alicante</pubPlace>
 					<idno>000009</idno>
@@ -43,8 +42,7 @@
 						<name>Gabriel Marí</name>
 						<name>Sonia Jover Sánchez</name>
 					</respStmt>
-				</bibl>
-				<bibl type="unspecified">
+				</bibl><bibl type="unspecified">
 					<publisher>Ediciones Cátedra</publisher>
 					<respStmt> 
 						<resp>Editor</resp>
@@ -52,8 +50,7 @@
 				 	</respStmt>
 					<pubPlace>Madrid</pubPlace>
 					<date when="1995"/>
-				</bibl>	
-				<bibl type="unspecified">
+				</bibl><bibl type="unspecified">
 					<publisher>Ediciones Akal</publisher>
 					<respStmt> 
 						<resp>Editor</resp>
@@ -61,8 +58,7 @@
 				 	</respStmt>
 					<pubPlace>Madrid</pubPlace>
 					<date when="1980"/>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 		<p/>
@@ -82,6 +78,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-01-09">Anotación formato ELTeC y revisión del texto : Laura Ruano Bravo</change>
 			<change when="2020-01-29">Revisión y correción del formato ELTeC y anotación sección con estructura dramática : Borja Navarro Colorado</change>
 		</revisionDesc>

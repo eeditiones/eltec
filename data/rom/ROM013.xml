@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM013" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM013" xml:lang="ro">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -20,34 +16,39 @@
     <measure unit="pages">235</measure>
    </extent>
    <publicationStmt>
-    <p>Încorporat în ELTeC <date>2019-08-28</date></p>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="printSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+   <sourceDesc><bibl type="printSource">
      <author>Radu Ionescu</author>
      <title>Catastihul amorului și Gura sobei</title>
      <pubPlace>Cluj-Napoca</pubPlace>
      <publisher>Editura Dacia</publisher>
      <date>1986 (1865)</date>
      <ref target="http://doi.org/10.5281/zenodo.3229284">Facsimile on zenodo</ref>
-         </bibl>
-   </sourceDesc>
+         </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
   </encodingDesc>
-  <profileDesc xmlns:e="http://distantreading.net/eltec/ns">
+  <profileDesc>
    <langUsage>
-    <language ident="ro"></language>
+    <language ident="ro"/>
    </langUsage>
    <textDesc>
-    <e:authorGender key="M"></e:authorGender>
-    <e:size key="medium"></e:size>
-    <e:canonicity key="high"></e:canonicity>
-    <e:timeSlot key="T2"></e:timeSlot>
+    <e:authorGender key="M"/>
+    <e:size key="medium"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+    <e:timeSlot key="T2"/>
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
    <change when="2019-09-28">Initial TEI version generated.</change>
   </revisionDesc>
  </teiHeader>
@@ -476,7 +477,7 @@
 <head>MARIA</head>
 <head>(memoriile unei moarte)</head>
 <p>Bucureşti, 25 Marte 18...</p>
- <milestone unit="header" type="dots"></milestone>
+ 
 <p>......Astăzi pe la opt ore seara am fost la el.</p>
 <p>El era mai trist decît altă-dată. Ochii lui erau roşii. Pretinde că din cauza multului lucru sunt aşa, eu crez că pentru că a plîns prea mult. Dar pentru ce să plîngă el, Dumnezeul meu! cînd suntem aşa de fericiţi, cînd misterul dă un carmen mai mult amorului nostru?</p>
 <p>Cît despre mine care eram aşa de temătoare şi slabă mai nainte, nu ştiu cum se face, dar mă simt curajoasă şi forte ca şi cum aş avea să cîştig lumea-ntreagă.</p>
@@ -871,7 +872,7 @@
 <p>Maria aseminea plecă. Ea merse de se închise la moşia sa.</p>
 <p>Nu ştiu pentru ce George nu arată nicicum în notele sale numele oraşului, sau unde plecă.</p>
 <p>Mai multe foi din jurnalul său sunt rupte tocmai aci. Ce l-o fi făcut să le rupă? ... Ce l-a silit să facă una ca aceasta, el n-o spune nici cum.......</p>
-    <milestone unit="middle" type="dots"></milestone>
+    <milestone rend="dots" unit="subchapter"/>
 <p>George hotărîse să se reîntoarcă.</p>
 <p>Dar întâmplarea pare totdeauna a se juca cu proiectele noastre, fără-ndoială, spre a ne dovedi cît de puţină valoare au ele, ce puţin lucru suntem noi!</p>
 <p>Era scris că George nu va pleca curînd, şi în adevăr aşa se şi întîmplă.</p>
@@ -978,7 +979,7 @@
 <p>—Dar da, copile, răspunse Elena, te voi iubi.</p>
 <p>Şi ea petrecu braţul lui George sub braţul ei alb şi gol; dar aşa de aproape de inima sa încît George îi putu număra bătăile.</p>
 <p>— Ei bine! adăogi ea cu acea abandonare jumătate castă, jumătate voluptoasă, al cărui secret pentru a deschide cerul îl ştiu numai femeile galante, eşti iubit oare, domnule?....</p>
-    <milestone unit="middle" type="dots"></milestone>
+    <milestone rend="dots" unit="subchapter"/>
 <p>Intr-adevăr, nu trebuie oare să admire cineva, cît de mult ignoranţa şi iluziunea sunt două lucruri bune şi neapărat trebuincioase la fericirea vieţei?</p></div>
    
    <div type="chapter" n="14">
@@ -1691,7 +1692,7 @@ litere</hi>, oricît de <hi>uşoară </hi> ar fi sau sunt acuzaţi de a fi, e m
 <p>Ne oprirăm aci.</p>
 <p>Toată seara furăm tăcuţi şi trişti: Felicia plîngea şi nu plîngea numai ea; cînd mă văzu înecînd în tăcere lacrímele mele:</p>
 <p>— O! să ne iubim, să ne iubim încă! îmi zise ea apucîndu-mă de gît, să ne iubim şi să unim lacrímele noastre pînă avem săruturile noastre spre a le usca.</p>
-    <milestone unit="middle" type="dots"></milestone>
+    <milestone rend="dots" unit="subchapter"/>
 <p>A doua zi la şase ore de dimineaţă, eram la ea. Tu ştii, Alexandre, nemic nu e mai trist şi mai dureros ca plecarea unei fiinţe iubite, şi te voi scuti de povestirea acelor tăceri pline de Iâcrime în cari strîngi o mînă pe furiş,, în care inima e aşa de plină, aşa de umplută, încît pare a-ţi veni pînă la gît şi încît, adeseori te simţi năbuşit de durere.</p>
 <p>Stăturăm mai mult timp tăcuţi: să vorbim ar fi fost să plîngem.</p>
 <p>Apoi plecarăm să facem o preumblare. Totul era trist împrejurul nostru, părea că natura devinase vreo nefericire. '</p>
@@ -2031,12 +2032,12 @@ litere</hi>, oricît de <hi>uşoară </hi> ar fi sau sunt acuzaţi de a fi, e m
 <p>George, amicul meu, bunul meu iubit, încă o graţie pentru aceea care nu mai este, dar pe care ai strîns-o de atîtea ori pe inima ta arzîndă, care de atîtea ori a palpitat de amor în braţele tale; George, cînd timpul sau indiferinţa te vor face să mă ierţi, vino cîteodată de pune o floricică pe mormîntul meu, căci voiesc, vezi tu, ca sărmana mea mumă să găsească pe el uneori cîte o folare măcar cît de mică, cît de veştedă care să-i arate că cel puţin un om se mai gîndeşte la copila ei.</p>
 <p>Mă vei refuza tu?</p>
 <p>Nu; căci tu eşti bun şi generos chiar ca idealul generozităţii şi bunătăţii; şi apoi, m-ai iubit prea mult pentru ca să poţi să n-ai puţină milă. Dumnezeu îmi zice să mor liniştită, căci tu vei împlini ultima mea dorinţă, şi las să mă legene această speranţă, sigură fiind că nu o vei înşela.</p>
- <milestone unit="middle" type="dots"></milestone>
+ <milestone rend="dots" unit="subchapter"/>
 <p>Voiesc ca moartea mea să se atribuie imprudenţei, întîmplării, dar nicicum crimei.</p>
 <p>Aproape de casa noastră, într-un sin al muntelui este o rovină repede şi profundă peste care trece cineva prin mijlocul unui trunchi de arbore. Am obiceiul să trec în fiecare seară această rovină pentru ca să mă duc să culeg, pe cealaltă margine, flori sălbatice cu cari ornez portretul lui George.</p>
 <p>Unchiul meu pretinde că e o culpabilă nebunie de a se risca cineva pe această punte pe care o gazelă n-ar trece-o eu destulă siguranţă, şi că într-o zi mă vor găsi moartă în fundui prăpastiei.</p>
 <p>Voi face ca cuvintele unchiului meu să se împlinească şi sinuciderea mea va avea cel puţin folos de a-i putea permite să zică odată cu drept refrenul său favorit: — O prezisesem eu!</p>
- <milestone unit="middle" type="dots"></milestone>
+ <milestone rend="dots" unit="subchapter"/>
 <p>M-am aşezat în faţa portretului tău.</p>
 <p>Orariul a sunat cinci ore. Mi s-a părut că ultima oră ce mai trăieşte cineva sună într-un chip cu totul particular, cu totul sinistru.</p>
 <p>In acest minut, mi-am adus aminte că chiar această oră m-a găsit adeseori rîzînd, sau palpitînd de speranţă şi de fericire, şi aceste suveniri m-au întristat.</p>
@@ -2098,7 +2099,7 @@ litere</hi>, oricît de <hi>uşoară </hi> ar fi sau sunt acuzaţi de a fi, e m
 <l><hi>De gînduri triste şi dureroase.</hi></l>
 <l><hi>Simţ că-mi înghiaţă măduva-n oase;</hi></l>
 <l><hi>Mi-am rupt plămînii tot suspinînd!</hi></l>
-    <l></l>
+    <l/>
 <l><hi>Un foc de moarte îmi arde-n piept,</hi></l>
 <l><hi>Şi să-l pot stinge nu am putere.</hi></l>
 <l><hi>Setosu-mi suflet cu foc mi-o cere</hi></l>
@@ -2429,7 +2430,7 @@ litere</hi>, oricît de <hi>uşoară </hi> ar fi sau sunt acuzaţi de a fi, e m
  <l><hi>N-am nici un ajutor.</hi></l>
    <l><hi>P-o cale fără nume</hi></l>
    <l><hi>Trec singur gînditor.</hi></l>
-   <milestone unit="middle" type="dots"></milestone>
+   <milestone rend="dots" unit="subchapter"/>
   
 <p><label>10 noiembrie.</label></p>
 <p>Revolta mea contra societăţii e o acţiune rea. Sărmană societate! ce-ar deveni ea dacă ar fi silită să-şi bazeze legile sale pe capriciul unui nebun cap ca al meu?</p>

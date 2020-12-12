@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl" xml:id="SLV00425">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl" xml:id="SLV00425">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,23 +33,22 @@
             <measure unit="words">32791</measure>
             <measure unit="pages">60</measure>
          </extent>
-         <publicationStmt xml:lang="en">
-            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-            <distributor ref="https://github.com/COST-ELTeC/ELTeC-slv">GitHub</distributor>
-            <date>2020-03-19</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+         <publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3518108">ELTeC-slv</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271648">ELTeC-slv release 0.9.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>Gruden, Josip. Na vojvodskem prestolu : edicija IMP</title>
                <date>2015-04-03</date>
                <idno type="handle">http://hdl.handle.net/11356/1031</idno>
                <idno type="url">http://nl.ijs.si/imp/wikivir/dl/WIKI00425-1901.html</idno>
                <idno type="wikilink">http://sl.wikisource.org/wiki/Na_vojvodskem_prestolu</idno>
-            </bibl>
-            <bibl type="printSource">
+            </bibl><bibl type="printSource">
                <author ref="https://sl.wikipedia.org/wiki/Josip_Gruden">Gruden, Josip</author>
                <title>Na vojvodskem prestolu</title>
                <title>Povest iz slovenske starodavnosti</title>
@@ -60,8 +56,7 @@
                <idno type="urn">http://www.dlib.si/?URN=URN:NBN:SI:DOC-96MM2JK0</idno>
                <ref target="http://nl.ijs.si/imp/wikivir/facs/WIKI00425/WIKI00425-001.jpg">Title page</ref>
                <ref target="http://nl.ijs.si/imp/wikivir/facs/WIKI00425/WIKI00425.pdf">Facsimile</ref>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p xml:lang="en">This edition for ELTeC was automatically down-converted from the IMP digital library edition, and several pieces of ELTeC-specific metadata were added.</p>
@@ -73,11 +68,12 @@
          <textDesc xmlns:eltec="http://distantreading.net/eltec/ns">
             <eltec:authorGender key="M"/>
             <eltec:size key="short"/>
-            <eltec:canonicity key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <eltec:timeSlot key="T4"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc xml:lang="en">
+      <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
          <change when="2020-03-19">Tomaž Erjavec: converted to ELTeC</change>
       </revisionDesc>
    </teiHeader>

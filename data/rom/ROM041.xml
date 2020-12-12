@@ -1,13 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM041" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM041" xml:lang="ro">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title> MIHAI VEREANU: ELTeC edition</title>
-                <author>IACOB NEGRUZZI (1842-1932)</author>
+                <author>NEGRUZZI, IACOB  (1842-1932)</author>
                 <respStmt>
                     <resp>ELTeC encoding</resp>
                     <name>Roxana Patras</name>
@@ -22,33 +20,35 @@
                 <measure unit="pages">311</measure>
             </extent>
             <publicationStmt>
-                <p>Încorporat în ELTeC<date>2020-03-15</date></p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="printSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+            <sourceDesc><bibl type="printSource">
                     <author>I. NEGRUZZI</author>
                     <title>MIHAI VEREANU</title>
                     <pubPlace>Bucharest</pubPlace>
                     <publisher>EDITURA LIHRARIEI SOCEC ; Comp.</publisher>
                     <date>1895</date>
-                    <ref target="http://doi.org/10.5281/zenodo.3722834
-                        ">Facsimile on zenodo</ref>
-                </bibl>
-                <bibl type="firstEdition">
+                    <ref target="http://doi.org/10.5281/zenodo.3722834                         ">Facsimile on zenodo</ref>
+                </bibl><bibl type="firstEdition">
                     <author>I. Negruzzi</author>
                     <title>MIHAI VEREANU</title>
                     <pubPlace>Iasi</pubPlace>
                     <publisher>Tipografia Nationala</publisher>
                     <date>1873</date>
-                </bibl>
-            </sourceDesc>
+                </bibl></sourceDesc>
         </fileDesc>
         <encodingDesc n="eltec-1">
-            <p></p>
+            <p/>
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="ro"></language>
+                <language ident="ro"/>
             </langUsage>
             <textDesc>
                 <e:authorGender key="M"/>
@@ -58,45 +58,42 @@
             </textDesc>
         </profileDesc>
         <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
             <change when="2018-09-28">Initial TEI version generated.</change>
         </revisionDesc>
     </teiHeader>
     <text xml:lang="ro">
         <front>
             <div type="titlepage">
-                <div>
                 <p>SCRIERI COMPLECTE</p>
                 </div>
-                <div>
+            <div type="notes">
                 <p>Stabilimentul grafic I. V. Socecu </p>
                     <p>59, Strada Berzii, 59</p>
                     <p>(41,903)</p>
-                </div>
-                <div>
                     <p>JACOB NEGRUZZI</p>
-                    <milestone unit="header" type="line"/>
+                    
                     <p>SCRIERI COMPLECTE</p>
                     <p>VOLUMUL III</p>
-                    <milestone unit="header" type="waves"/>
+                    
                     <p>MIHAI VEREANU</p>
-                    <milestone unit="header" type="line"/>
+                    
                     <p>PRIMBLĂRI PRIN MUNŢI</p>
-                    <milestone unit="header" type="symbol"/>
+                    
                     <p>BUCUREŞTI</p>
                     <p>EDITURA LIHRARIEI SOCECti ; Comp.</p>
                     <p>21, CALEA VICTORIEI, 21.</p>
                     <p>1895.</p>
                 </div>
-                <div>
+                <div type="titlepage">
                     <p>MIHAI VEREANU</p> 
                     <p>41903. Scrieri complecte. III</p>
                 </div>
-            </div>
         </front>
         <body>
             <div type="chapter" n="1">
  <head>CAPITOLUL I.</head>
-                <milestone unit="header" type="line"/>
+                
 <p>Generalul Vereanu se primbla prin casă, ţiind mânile la spate precum avea obiceiulcând era pe gânduri. La masa din mijloculodâei şedea soţia sa cucoana Sevastiţa, Lu-ţica fiica lor şi <foreign>Miss</foreign> Mary, guvernanta acesteia. Cele două dintâi lucrau, pe când ceadin urmă cetea intr’o carte. Pe masă era oscrisoare deschisă.</p>
 <p>— Nu trebue să te superi, frate, zise după câtva timp cucoana Sevastiţa cătră soţulsău. Ştii, aşa sunt copii, ei gândesc puţinla grijile părinţilor fiindcă nu le cunosc.Ş'apoi o întârziere de câteva luni nu e vreo mare nenorocire: ar trebui să fim mul-ţămiţi că Mihăiţă şi-a trecut examenele şiisprăvit studiile. Suntem in Aprilie, aşa darin Iunie sau cel mai târziu in Iulie va fi acasă.</p>
 <p>„Ţie iţi vine mai uşor de vorbit; aşa, res-punse generalul, tu l’ai vfzut de doue ori in timpul acestor zece ani de când s’a pornitla şcoli, dar eu care nu l’am mai văzut!...Putut-am să te întovărăşesc? N’a trebuitsă remân infipt pe loc ? Intăi intereselenoastre şi apoi Obşteasca Adunare pe carenu m’a lăsat Vodă s’o părăsesc o singurăzi... Pe dînsul earăş nu l’am putut aduce niciodată. După atâtea griji ce am tras cu dînsulcând era in Ţara nemţească şi apoi in Paris,mai cu samă când era bolnav, primesc in-sfirşit vestea că şi-a trecut licenţa; eu plinde bucurie aşteptam că va veni să ne vadăindată, că va veni fără oprire zi şi noapte,pe când el de doue luni de zile cutrieră lumea. Nu-i e dor să mă mai vadă şi pemine, nu-i e dor să vadă pe Luţica pe carea lăsat-o copilă de şepte ani ş’acum a s’ogăsească fată mare? Eu nu’nţeleg gustul de a colinda făr de sfirşit ţări străine. Cecaută de atâta vreme in Italia ? Şi cel puţindacă s’ar întoarce acum, dar scrisoarea ce amprimit astăzi din Veneţia inii spune că vamai zăbovi incă vr’o doue luni şi-mi maicere parale. îmi vine să nu-i mai trimitnici un ban, atunci poate se va hotărî să vie.</p>
@@ -1033,7 +1030,7 @@
 <p>Nu inţeleg nici de cum, scumpa mea soră, tonul cel pasionat al scrisorii tale. Pentrucă nu ştiu care doamnă de pe la ţară spuneun cuvânt ce ar fi auzit, tu te laşi îndatărăpită de desperare? De unde resultâ căeste adevgrat ceea ce v’a spus acea doamnă?Şi admiţând că ar fi aşa, trebue cineva îndată să gândească la moarte şi la nu maiştiu ce? Se vede că viaţa ta singuraticăte-a schimbat mult, de eşti intr'o stareaşa de nervoasă! Omul cu invăţătură trebue să ştie a-şi domina pasiunile sale, prinaceasta se deosebeşte de omul cel de rând.Iţi dau sfatul să pui mai mare temeiu peteoriile de care prin multă cetire ai adunat ocomoară bogată, căci altfel in viaţă vei suferi mult. Noi suntem la vie de câtva timp.Am petrecut aici Paştele şi nu ne vom întoarce aşa de curând in oraş, căci din convorbirile părinţilor mei, am simţit că averealor e foarte sdruncinată, causă pentru careei ar dori să mg mărite cât se poate ră-pede. Dar ei vor să mg mărite, nu cu unulce-mi convine, ci cu unul ce nu pot iubişi numai eu ştiu cât sufgr. Yezi dar că şialţii au necazuri. Din cunoscuţii noştri, neţi u făcut câţiva visite aice. Melini cu femeealui au fost odată. Melania e mai plăcută şipare chiar mai inteligentă de când s’a măritat. Şi domnul Vereanu a fost pe la noi.Inchipueşte-ţi că nu se osteneşte viind călarepăn aici. Asemene a venit să ne vadă şid. Soloiu, insă cu un echipaj foarte frumos. Cel mai des insă vine doamna Zuznea care are treabă cu mama.</p>
 <p>D. Vereanu, spunea această doamnă, nu are incă nici o avere a lui şi părinţii săicare ar fi foarte mândri, nu i-ar da multemijloace, dacă s’ar insura cumva fără învoirea lor; chiar zicea Cucoana Cleopiţa căgeneralul Vereanu, după cât ar fi auzit, aravea multe datorii, şi că lumea va vedeain curând că averea lui este mult mai micădecât se crede. Ce fericire insă a fi bogată!Leapădă-ţi gândurile tale cele negre şi fiifericită că in curând te aşteaptă avere...Atunci vei pută lua pe cine vei voi, veipute merge in străinătate; te vei primblala băi şi la Paris. Pe mine insă cine ştiu ce m’aşteaptă?</p>
                 </quote>
-                <milestone unit="middle" type="line"/>
+                <milestone rend="dots" unit="subchapter"/>
 <p>La vie la Balur, Mihai Vereanu era totdeauna aşteptat, totdeauna binevenit. Când timpul era frumos, toată familia se coboreaintr’un crâng din apropierea casei şi adeseori prin cărările cele intunecoase, el şi Adelaperdeau pe ceilalţi din vedere. Câte aveaua-şi spune atunci! Câte gânduri le trecuseprin minte in zilele in care nu se văzuse, toateşi le repetau unul altuia şi işi infrumuseţau astfel presentul incă mai mult. Această, fericire ţinu mai multe săptămâni până ce pe la sfirşitul lui April o împrejurare neînsemnată o intrerupse pentr’un timp. Mihai Ve-reanu fu insărcinat de tribunal a face oîmpărţeală la una din moşiile lui Dorneanu.Această insărcinare îi era atât de nesuferită,incât se hotărî in sine să se lepede pentrutotdeauna de cariera judecătorească. In ajunul plecării sale, el incălecâ şi se duse săiee remas bun de la iubita lui. Era o sarăminunată; luna plină lucea pe ceruri. Cândajunse, el găsi pe Adela singurii; părinţii eise dusese in oraş şi nu trebueau să se întoarcă decât târziu. Ea insă, il încredinţa căremăsese, avănd presimţirea că va veni el.Crângul era încântător, luna străbătea printrecopacii care intindeau umbrele lor pe galoanele de earbă; nici o mişcare nu era inaer şi paşii lor resunau de departe pe cărări. Plecarea lui Mihai intristâ pe Adela,care şopti ceva de uitare şi nestatornicie.Mihai îi respunse cu jurăminte de eternă credinţă, cerend de la dînsa să-i dee aceleşiîncredinţări. Adela insă nu voi să jure. „Pentru ce cuvinte şi invocări deşerte, zise ea:inima mea este atât de unită cu a ta, încât nu mai e nevoe de lanţul unor cuvintesacre. Ochii ei, in care Mihai se uită multşi adânc îi imprăş tiară ori ce îngrijire şinumai dulci cuvinte de amor urmară intreei şi goniră ciasurile cu răpejune.</p>
 <p>Cine a fost in timpul celui intăiu amor singur cu iubita lui pe o lună încântătoare,,nesupărat de oameni, poate singur apreţuifarmecul ce simţea Mihai.</p>
                 <milestone unit="footer" type="line"/>
@@ -1229,7 +1226,7 @@
                 <quote type="letter">
 <p>Nu 'crede că rătăcind prin lume vei umplea deşertul ce simţeşti in inimă. Tu il vei ducepretutindenea cu tine, câră vreme nu veiavea ceva in lume ce te va atrage şi interesa. Rămâi in patria ta, lasă să treacătimpul melancoliei şi ocupă-te cu trebile ţării.Cât de mic va fi ajutorul ce vei putea da,el va fi totuş de folos obştesc şi astfel veidobândi merite pentru patrie—pentru ideeace trebue să atragă pe tot omul nobil şibun. — Aş fi dorit să te revăd şi să trăimimpreuuă, insă pentru liniştea mea este maibine să amânăm această intîlnire a noastră.In zilele grozave când v’am părăsit, luândasupra-mi sarcina de a conduce pe <foreign>Miss</foreign> Mary in ţara ei, nu ştiam că această intîmplareimi va hotări viitorul. Plecarea sufletelornoastre a născut incurănd o simpatie intrenoi care m’a îndemnat să o doresc de soţie,înainte de a consimţi, tănăra Engleză a voitinsă a-mi face o mărturisire, şi acea mărturisire era — că ea te iubeşte pe tine. Eami-a spus amorul ce i-ai insuflat de cândte-ai intors in ţară, mi-a spus suferinţele ei,faţă nu numai cu indiferenţa ta pentrudînsa, ci cu iubirea ta pentru alta, mi-aspus focul care-o ardea in tăcere, fără aputea destăinui nimărui in lume ceeace simţea. Lipsa de speranţă, puterea voinţei şimai mult decât aceste, depărtarea şi timpuli-a liniştit sufletul şi incurend vom fi amândoi indestul de pregătiţi pentru vecTnicanoastră unire, căci blândeţa caracterului einu-mi lasă indoeală că liniştea ne aşteaptăpe amândoi. Venirea ta ar impedica fericireaamicului tâu. Să lăsăm dar să treacă aniica receala virstei să intunece imaginile trecute. Păn atunci iţi voiu da veşti despremine şi vom rămânea pe toată viaţa amicişi fraţi precum am fost.</p>
                 </quote>
-                <milestone unit="middle" type="line"/>
+                <milestone rend="dots" unit="subchapter"/>
 <p>Primind această scrisoare a lui Beaudieu, Vereanu se in tristă şi mai mult văzând cumimprejurări fatale depărtează de dînsul peoricine iubeşte. El stătu la indoeală dacătrebue să mai plece sau nu, şi insfirşit sehotărî să-şi părăsească ţara fără a căuta săintîlnească pe Beaudieu. Deaceea merse lamonăstire unde trăeau bătrânii săi părinţişi luă zioa bună de la dînşii. Despărţindu-se de ei, inima îi era grea şi apăsată şi ellăsa calul pe care călărea să păşească încetpe drumul bătut ce ducea la Vereni. Trecuse câteva oare, când văzu de departe otrăsură cu patru cai gonind inspre dînsulin fuga mare. Se putea uşor cunoaşte case aprinsese caii şi nu mai puteau fi opriţi.Vezeteul trebuea să fi căzut de pe capră,căci un bărbat din trăsura ţinea frânele in-vălătucindu-le in jurul unui braţ, pe cândcu celalalt braţ cuprindea pe o femee ce dasemne de desperare, oprind-o de a sări afară.</p>
 <p>Mihai văzu periculul şi in aceeaşi clipă se hotărî să dee ajutor. EI descălicâ şi arun-cându-se înaintea cailor înspumaţi ai tră-surei, îi apucâ de frâne. Câţiva paşi el futârâit cu dînşii, apoi caii se ridicară in douepicioare şi după mai multe încercări de ase scutura de braţul puternic ce-i apucase,se opriră insfirşit pe loc. O femee cu faţaacoperită de un văl sări din trăsură şi văzând pe Mihai, dădu unţipet. Ca o săgeatăacest ton pătrunse in inima lui Vereanucare remase cu ochii aţintiţi asupra ei. Dupăun moment de inmărmurire, el fără a vedeacine este bărbatul care o întovărăşea se ră-pezi asupra ci şi-i rupse vălul de pe faţă.Inima nu-1 inşălase, era Adela I Aceasta searuncă in braţele bărbatului ce o intovărăşeaşi acum Mihai recunoscu că acesta era De-nescu.</p>
 <p>— De nu ţi-aş datori viaţa, incepu acestacătră Vereanu, şi ce e mai mult o altă viaţămai scumpă decât a mea, ţi-aş cere samăde insulta ce faci unei femei. Binele ce mi-aifăcut te apără, dar sunt cel puţin in drepta aştepta că nu vei descoperi nimărui urmele noastre.</p>
@@ -1267,7 +1264,7 @@
 <p>— Ai dreptate, căci suntem pe jos şi uşorvor da de urmele noastre. Vino mâni inzori de zioă tot aici in această poeană. Mă vei găsi cu doi cai ageri care ne vor duce departe de oameni răuvoitori in locuri undevom trăi singuri şi fericiţi.</p>
 <p>„Ah! atâta bucurie nu incape in inima mea, zise Lucreţia plângând: din durereamea cea nemărginită, din jalea ce aveampentru tine, deodată, prin minune să te găsesc, să văd că tot mă iubeşti, să fiu a tapentru totdeauna: aceasta nu o aşteptam!</p>
 <p>Mihai o atrase duios la pieptul său. Amorul îi intunecâ mintea, el se perdu in ochii ei, toate dimprejur, lumea toată dispăru şifirea lor întreagă se concentra intr’o singură sărutare.</p>
-                <milestone unit="middle" type="dots"/>
+                <milestone rend="dots" unit="subchapter"/>
 <p>Când se despărţiră, Mihai se întoarse spre casă plin de incântare. Insă cu căt îi veneau gândurile, cu atăt se arătau şi grijile,căci decă presenţa e porurea fărmăcătoare,numai după despărţire, numai in absenţăse poate vedea de simţim adevărat amor.Mihai işi consultă inima şi cu toată osteneala ce-si da, el trebui să recunoască cănu mai avea acel entusiasm ce 1 simţise odinioară când iubea pe Adela. Compararea intrestarea lui deatunci cu cea deacum, îi arătăo deosebire fără margini in simţirile sale.Insă soarta era acum hotărită, nimic nu semai putea schimba şi deaceea prin tot felulde argumente el căuta să se convingă că omai mare fericire nu i se putea intîmpla,că o altă femee aşa de iubitoare, de credincioasă şi de frumoasă ca Lucreţia nu maieste pe pământ, vrând astfel să inlocueascăprin cuvinte, ceeace trebuea să hotăreascănumai simţirea.</p>
 <p>De cu noapte el puse totul la cale pentru fuga de a doua zi: doi cai iuţi şi o brişcuţăuşoară in care era loc numai pentru doi,asemenea merinde şi tot ce mai trebue pentru drum fură pregătite. El voi să atingăYerenii numai in treacăt pentru a schimbacaii şi a merge mai departe la moşia ce-iremăsese de la moşul său Dospin. O mulţime de gânduri il neliniştiră. Ce va facepe urmă? Ya remânea in ţară, sau va plecain străinătate? Se va duce să vadă pe părinţii săi şi ce vor zice ei de purtarea lui?Ya fi. descoperit de Sârbu, va putea să-l im-pace ? Iubeşte el in adevăr pe Lucreţia, esteea soţia care-1 va face fericit? Asemeneaîntrebări i se grămădeau tot mai multe fărăa-i lăsa liniştea să doarmă şi să le uite insomn. Deaceea el nici putu să se culce, şiaşteptând imbrăcat zorile zilei, se primblaînaintea casei sale.</p>
 <p>Miezul nopţii trecuse de mult când văzu o femee viind din partea pădurii înspre dînsul.Cu gândul la Lucreţia, el işi închipui că trebue să fie ea şi se răpezi cătră dînsa.Insă nu putea fi Lucreţia: era un chip mare,negru, cu părul despletit... el făcu câţivapaşi, se uită in faţă-i... era Neacşa!</p>

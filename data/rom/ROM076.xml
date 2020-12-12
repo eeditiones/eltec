@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM076" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM076" xml:lang="ro">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -20,15 +20,15 @@
                         <measure unit="pages">567</measure>
                   </extent>
                   <publicationStmt>
-                        <publisher>Digital Humanities Laboratory (UAIC)</publisher>
-                        <distributor ref="https://www.distant-reading.net/">COST ACTION "Distant Reading for European Literary History" (CA16204)</distributor>
-                        <date when="2020-03-08"/>
-                        <availability>
-                              <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-                        </availability>
-                  </publicationStmt>
-                  <sourceDesc>
-                        <bibl type="printSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+                  <sourceDesc><bibl type="printSource">
                               <author>Liviu Rebreanu</author>
                               <title>Ion. Opere V</title>
                               <pubPlace>Bucureşti</pubPlace>
@@ -37,15 +37,13 @@
                               <note>The novel figures in a volume and occupies pages 11-574</note>
                               <ref target="http://doi.org/10.5281/zenodo.3719649">Facsimile on zenodo</ref>
                               <ref target="http://doi.org/10.5281/zenodo.3719699">Facsimile on zenodo</ref>
-                        </bibl>
-                        <bibl type="firstEdition">
+                        </bibl><bibl type="firstEdition">
                               <author>Liviu Rebreanu</author>
                               <title>Ion</title>
                               <pubPlace>Bucureşti</pubPlace>
                               <publisher>Universala Alcalay</publisher>
                               <date>1920</date>
-                        </bibl>
-                  </sourceDesc>
+                        </bibl></sourceDesc>
             </fileDesc>
             <encodingDesc n="eltec-1">
                   <p/>
@@ -57,11 +55,12 @@
                   <textDesc>
                         <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
                         <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-                        <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+                        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
                         <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
                   </textDesc>
             </profileDesc>
             <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
                   <change when="2020-03-08">Annotation in ELTeC format: Lucretia Pascariu</change>
                   <change when="2019-10-30">Ocerization by: Lucretia Pascariu</change>
             </revisionDesc>
@@ -1199,7 +1198,7 @@
           <milestone unit="section" n="6"/>
          <p>6</p>
          <p>Tot satul cinstea mai mult pe Ion și-l compătimea de cînd s-a aflat ce-a pățit la judecătorie. Unii ocă-rau pe Belciug, alții huiduiau pe Simion Lungu care însă se apăra din răsputeri că n-are nici o vină  și nici nu mai îndrăznea să sufle o vorbă despre braz-dele împricinate. Doar Vasile Baciu și numai la beție striga: „Uite cine umbla să ia pe Anuța mea!ˮ Cînd era treaz însă lua și el partea lui Ion și o dată, întîl-nindu-l pe uliță, i-a spus cu glasul înduioșat:</p>
-         <p>— Lasă, măi băiete, că temnițele-s pentru >oameni, nu pentru draci!</p>
+         <p>— Lasă, măi băiete, că temnițele-s pentru &gt;oameni, nu pentru draci!</p>
          <p>Osînda totuși răscolea toate planurile flăcăului, clătinîndu-i încrederea. I se părea că, dacă va sta închis și departe două săptămîni, va pierde și pe Ana, și mai ales pămînturile ei pe care începuse 5 să le privească întocmai ca și cînd ar fi ale lui. Avea o presimțire ciudată că Vasile Baciu va face ce va face și va aduce, în lipsa lui, pe George în casă. Și atunci toate nădejdile lui s-ar împrăștia în vînt și ar rămîne tot așa de becisnic ca pînă acuma, silit să în-drăgească veșnic numai pămîntul altora.</p>
          <p>Cum zilele treceau și sentința nu mai venea, neliniștea lui creștea. Își închipuia că întîrzierea poate să însemne și o agravare a pedepsei. Dacă pe cîteva vorbe ale popii s-a pomenit cu două săptămîni 15 de temniță, de ce nu s-ar aștepta și la mai rău?... Cu toate acestea n-avea nici o ură împotriva preotu-lui și nici chiar împotriva judecătorului. Își zicea că e la mijloc bătaia soartei lui nenorocite. Totuși, în lovitura aceasta, avea și mulțumirea că baremi s-a ales de-a binelea cu brazdele lui Simion.</p>
          <p>Se ducea la Ana mereu, din ce în ce mai îngri-jorat să n-o piardă. Blîndețea fetei începea să-l neliniștească, bănuind într-însa o șiretenie. De altfel tărăgănările ei, cînd îi cerea să-l bage-n casă ori să petreacă noaptea cu el în șură sau în podul cu fîn, îl făcuseră să se îndoiască de ea. Apoi într-o seară, vorbind de pățania lui și cînd ea plînse și-l rugă să se ostoiască și mai bine să stea în temniță decît să se pună împotriva celor mari, Ion se înfurie parcă l-ar 30 fi lovit cu măciuca-n cap. Era sigur că fata se bocește din vicleșug, umblînd să se scape de dînsul... Nu-i mai spuse nimic, dar se hotărî să nu se dea bătut orice ar fi să se întîmple...</p>
@@ -2728,7 +2727,7 @@
    <p>— Eu nu mă bag, nu mă amestec... Parcă eu am să trăiesc cu ea? Eu i-am spus totdeauna. Dragul tatii, fă ce vrei și ce-ți cere inima. Că noi la avere nu ne uităm, c-avem slavă Domnului, și nu sîntem muri-tori de foame... Dacă-i place lui fata și i-e dragă, să fie sănătoși. Că decît să trăiești cu o ciumă-n casă, mai bine să te arunci în Someș cu capul în jos...</p>
    <p>George nu-și încăpea în piele de mîndrie. Avea mulțumirea, ce-l măgulea grozav, că a cucerit pe Florica și însurătoarea i se părea încoronarea unei biru-inți nemaipomenite.</p>
    <p>De cînd se cununase Ion Glanetașu cu Ana, el rămăsese fruntea flăcăilor, ceea ce-l răsplătise puțin pentru înfrîngerea ce o suferise atunci. Deși ar fi fost timpul să se însoare și dînsul, nu se putea hotărî. Tatăl său îl zorea, iar el amîna mereu, ca să se bucure în tihnă de plăcerea de-a fi călăuza tineretului în bine și-n rău, la petreceri și la bătăi. De altfel spu-nea cu fală că nici o fată din sat nu-i destul de vred-nică de dînsul. Fără să-și dea seama, vorbea chiar adevărat. Căci, ca să-i placă vreuna, trebuia întîi să vadă că place și altuia, și că luînd-o pricinuiește necaz cuiva.</p>
-   <p>Toamna trecută însă George primise o lovitură în mîndria lui de cap al tinerimii. Atunci se întorsese de la oaste Nicolae Tătaru, feciorul lui Trifon, voinic aspru la înfățișare și blînd la inimă. Era băiat cu învă-țătură: umblase trei ani la liceul din Armadia și nu continuase fiindcă repetase de două ori clasa a doua. Din școală rămase totuși cu dragostea de carte și, cînd a crescut mai mare, s-a abonat la <title>Foaia poporului <hi></hi></title> săptămînală, din care citea dumineca, pe prispă, părin-ților și vecinilor dornici de a afla ce se petrece prin lume. îÎn armată a înaintat sergent și se fălea că i-ar fi propus însuși căpitanul să se reangajeze. Venise mai dezghețat din cătănie, vorbind mai răspicat, parc-ar fi comandat mereu, umblînd ca bradul și avînd veșnic pe limbă cîte-un <hi>also</hi> și cîte un <hi>marș</hi> sau <hi>ruic</hi> prin care uimea pe flăcăii și chiar pe bărbații din sat. Macedon Cercetașu îl îmbrățișa în fiecare duminecă la circiumă și se plîngea că feciorul lui a fugit de trei ori de la oș-tire, de-l face de rîsul lumii. Cu toate acestea Nicolae era așezat, potolit și se gîndea să se însoare cît mai curînd, deoarece cei de vîrsta lui aveau și copii. Dar, pentru că avea vreo șase frați mai mici ca dînsul, căuta o fată cu zestre, la care să se poată muta, ca să-și ușureze părinții. Pînă să găsească ce dorea, se ținea de Florica vădanei lui Maxim, cu care-ți era mai mare dragul să te arăți la horă, fiind frumoasă și deșteap-tă, deși ca degetul de golașă.</p>
+   <p>Toamna trecută însă George primise o lovitură în mîndria lui de cap al tinerimii. Atunci se întorsese de la oaste Nicolae Tătaru, feciorul lui Trifon, voinic aspru la înfățișare și blînd la inimă. Era băiat cu învă-țătură: umblase trei ani la liceul din Armadia și nu continuase fiindcă repetase de două ori clasa a doua. Din școală rămase totuși cu dragostea de carte și, cînd a crescut mai mare, s-a abonat la <title>Foaia poporului <hi/></title> săptămînală, din care citea dumineca, pe prispă, părin-ților și vecinilor dornici de a afla ce se petrece prin lume. îÎn armată a înaintat sergent și se fălea că i-ar fi propus însuși căpitanul să se reangajeze. Venise mai dezghețat din cătănie, vorbind mai răspicat, parc-ar fi comandat mereu, umblînd ca bradul și avînd veșnic pe limbă cîte-un <hi>also</hi> și cîte un <hi>marș</hi> sau <hi>ruic</hi> prin care uimea pe flăcăii și chiar pe bărbații din sat. Macedon Cercetașu îl îmbrățișa în fiecare duminecă la circiumă și se plîngea că feciorul lui a fugit de trei ori de la oș-tire, de-l face de rîsul lumii. Cu toate acestea Nicolae era așezat, potolit și se gîndea să se însoare cît mai curînd, deoarece cei de vîrsta lui aveau și copii. Dar, pentru că avea vreo șase frați mai mici ca dînsul, căuta o fată cu zestre, la care să se poată muta, ca să-și ușureze părinții. Pînă să găsească ce dorea, se ținea de Florica vădanei lui Maxim, cu care-ți era mai mare dragul să te arăți la horă, fiind frumoasă și deșteap-tă, deși ca degetul de golașă.</p>
    <p>George simți curînd că i se întunecă steaua din pricina lui Nicolae. Și atunci, ca să-i dea o lovitură zdravănă, văzîndu-l că umblă cu Florica și zvonindu-se chiar c-ar fi vorba s-o ia de nevastă, se hotărî repede, o peți și făcu îndată tocmeala, vesel că i-a suflat-o.</p>
    <p>Florica se topea de fericire. Nu nădăjduise ea niciodată norocul să o ia feciorul unui „bocotanˮ ca Toma Bulbuc. Cum împlinise douăzeci de ani și, afară de niște boarfe, zestre n-aducea, s-ar fi agățat bucuroasă de oricine, numai să se vadă la casa ei.</p>
    <p>Nunta se făcu în casa cea nouă a lui George, zidită anume pentru dînsul. Trei popi slujiră la bise-rică, iar Toma nu s-a lăsat pînă nu i-a oprit pe toți și la ospăț, izbutind chiar să îmbete leucă pe cel din Sără-cuța, cu bere, căci cumpărase înadins trei butoaie pentru fețele spălate. Naș mare a fost Stoessel care, ca notar, deși ovrei, i se păruse tot ce se poate mai distins. Stoessel a venit cu brișcă lui cea nouă, galbenă, împreună cu notăreasa și cu toți copiii, și a stat toată noaptea, iar în talgerul miresei a zvîrlit o hîrtie de o sută coroane, nu ca popa din Sărăcuța care a pus un biet zlot de argint și încă văitîndu-se că biserica lui e cea mai săracă de pe valea Someșului.</p>

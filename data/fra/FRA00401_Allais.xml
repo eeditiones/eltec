@@ -8,9 +8,9 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:missing wikidata:missing">Le Captain Cap : édition ELTeC</title>
-        <author xml:id="Allais" ref="viaf:302147306 wikidata:missing">Allais, Alphone (1829-1871)</author>
+        <author ref="viaf:302147306 wikidata:missing">Allais, Alphonse (1829-1871)</author>
         <respStmt>
-          <resp>principal</resp>
+          <resp>Principal investigator</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,22 +21,29 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
           <title>Le Captain Cap</title>
+          <author>Alphone Allais</author>
           <publisher>(unspecified)</publisher>
+          <date>1902</date>
         </bibl>
         <bibl type="firstEdition">
           <title>Le Captain Cap</title>
+          <author>Alphone Allais</author>
           <publisher>Felix Juven</publisher>
           <pubPlace>Paris</pubPlace>
           <date>1902</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k165801v" />
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -60,6 +67,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2019-06-15">Conversion to ELTeC level-1 (Christof Schöch)</change>
     </revisionDesc>
@@ -259,30 +268,30 @@
           <p>Le Captain Cap visiblement ému se lève, et après avoir déclaré qu'il est extrêmement touché de ces marques de sympathie, termine en disant qu'on verra par la suite si oui ou non il en est digne.</p>
           <p>Le citoyen Berthez prend alors la parole en ces termes :</p>
           <quote type="speech">
-          <p>Citoyens,</p>
-          <p>Je connais depuis fort longtemps le Captain Cap, je l'ai suivi dans bien des opérations ; j'ai même eu l'heureuse occasion de l'accompagner dans un de ses voyages : j'ai donc pu l'apprécier mieux que tout autre, et c'est à ce titre, citoyens, que je demande la parole.</p>
-          <p>Albert C..., connu surtout sous le nom de « Captain Cap », a raison d'être fier de ce dernier titre, car il l'a conquis au péril de sa vie, mille fois menacée.</p>
-          <p>Citoyens, je vais essayer de vous retracer les différentes phases de l'existence tourmentée du Captain Cap.</p>
-          <p>C'est une lourde tache que je m'impose, étant donné le peu de moyens oratoires dont je dispose, mais j'ai la ferme conviction que vous écouterez avec indulgence le récit que je me propose de vous faire.</p>
-          <p>Le Captain Cap, imbu dès sa plus tendre enfance des principes démocratiques, fut ce qu'on appelle un enfant précoce, ou plus vulgairement un « petit prodige » ainsi que le constatait souvent un vieil ami de la famille, mort depuis, de la rupture d'un vaisseau -- ce qui, je le ferai remarquer en passant, indique nettement l'idée de navigation qui régnait dans l'entourage du Captain Cap.</p>
-          <p>En dépit de la position aisée dont jouissaient ses ascendants, le Captain Cap voulut s'asseoir sur les bancs de l'école communale.</p>
-          <p>De bonne heure il développa ses théories sur la bureaucratie...</p>
-          <p>À dix ans, il placardait un manifeste sur les murs de l'école, ce qui l'eût infailliblement fait expulser de ladite, si, par un discours plein de philosophie, il ne s'était aussitôt réhabilité aux yeux de ses professeurs, qui déclarèrent hautement n'avoir jamais rencontré de précédent à ce phénomène intellectuel.</p>
-          <p>À cette époque déjà lointaine, le Captain Cap n'était donc pas le premier venu. Et alors (comme maintenant) il eût été puéril ou déloyal de le nier. (<hi rend="italic">Applaudissements</hi>.) </p>
-          <p>Je continue. À mesure que le Captain Cap avance en âge, on le voit triompher dans nos lycées, défendant énergiquement ses principes, et faisant des prosélytes.</p>
-          <p>Enfin, à dix-huit ans, écœuré de notre incurable routine, et las de combattre en vain l'indécrottable esprit bureaucratique européen, il se dirige vers l'Amérique.</p>
-          <p>Là, citoyens, une vie nouvelle commence pour le Captain, et, s'il m'était permis de jurer ici, sur ma propre tête, je crois qu'il me serait impossible de trouver une formule assez énergique pour vous dire que, sans l'instruction qu'il possède et l'incoercible énergie qui le caractérise, nous n'aurions peut-être pas aujourd'hui la joie de le présenter à vos suffrages. (<hi rend="italic">Très bien, très bien !</hi>)</p>
-          <p>Je ne vous énumérerai pas tous les exploits du Captain Cap, sa vie dans le Far-West et en Australie, ses mille aventures maritimes, ses travaux scientifiques..., non, ce serait trop long. D'autres le feront du reste mieux que moi en temps voulu.</p>
-          <p>Il débarque en Amérique avec soixante francs ; se met courageusement au travail, entre au service d'un armateur, et, grâce à son intelligence, à son sang-froid et à sa perspicacité, triomphant de tous les obstacles et menant à bien les diverses missions qui lui sont confiées, il conquiert enfin son titre de Captain.</p>
-          <p>Plus tard, ayant acquis une ferme en Californie, il a maille à partir avec les Indiens. Mais Cap est un cavalier de premier ordre, sa carabine est plus sûre que celle du terrible <hi rend="italic">Red-Shirt</hi> et nul mieux que lui ne sait manier le <foreign xml:lang="eng" rend="italic">bow-knife</foreign>  ; en huit jours, il scalpe trois chefs indiens et met ses agresseurs en déroute. </p>
-          <p>Je vous ai parlé tout à l'heure de l'incomparable sang-froid du Captain. Une simple anecdote à ce sujet :</p>
-          <p>Un train de 200 personnes (parmi lesquelles le Captain Cap) descendait une pente formidable sur une des lignes les plus considérables de l'Amérique, lorsque soudain, le frein vint à se briser en dépit des efforts désespérés du mécanicien.</p>
-          <p>Le convoi se mit alors à rouler avec une rapidité vertigineuse. Des cris déchirèrent l'air, et la panique fut telle que la plupart des voyageurs affolés se précipitèrent sur la voie et furent réduits en miettes impalpables.</p>
-          <p>Lorsqu'après vingt-deux heures, le train s'arrêta enfin, on trouva le Captain Cap qui tranquillement assis sur un sac de maïs fumait sa pipe en lisant un vieux numéro du <hi rend="italic">Herald</hi> ... </p>
-          <p>Je pense, citoyens, que de tels exploits se passent de commentaires. ( <hi rend="italic">Oui, oui, bravo ! ! !</hi> ) </p>
-          <p>Si je vous conte ces choses, citoyens, si je vous conte ces choses stupéfiantes et si j'ajoute ensuite qu'à quelques années de là, ayant perdu son navire et sa cargaison dans les mers polaires, le Captain Cap sauva son équipage découragé et décimé par le scorbut, si je vous énumère rapidement quelques-unes des aventures du Captain, ce n'est pas, croyez-le bien, pour vous éblouir. C'est simplement pour vous montrer que cet homme qui est à la fois un marin, un savant et un philanthrope peut vaillamment conduire la barque dont vous avez résolu de lui confier la barre.</p>
-          <p>Voilà l'homme que j'avais à vous présenter. Jugez-le, et interrogez-le.</p>
-          <p>Pour moi, je me retire persuadé que, dès à présent, vos voix lui sont acquises. ( <hi rend="italic">Applaudissements frénétiques</hi> .) </p>
+            <p>Citoyens,</p>
+            <p>Je connais depuis fort longtemps le Captain Cap, je l'ai suivi dans bien des opérations ; j'ai même eu l'heureuse occasion de l'accompagner dans un de ses voyages : j'ai donc pu l'apprécier mieux que tout autre, et c'est à ce titre, citoyens, que je demande la parole.</p>
+            <p>Albert C..., connu surtout sous le nom de « Captain Cap », a raison d'être fier de ce dernier titre, car il l'a conquis au péril de sa vie, mille fois menacée.</p>
+            <p>Citoyens, je vais essayer de vous retracer les différentes phases de l'existence tourmentée du Captain Cap.</p>
+            <p>C'est une lourde tache que je m'impose, étant donné le peu de moyens oratoires dont je dispose, mais j'ai la ferme conviction que vous écouterez avec indulgence le récit que je me propose de vous faire.</p>
+            <p>Le Captain Cap, imbu dès sa plus tendre enfance des principes démocratiques, fut ce qu'on appelle un enfant précoce, ou plus vulgairement un « petit prodige » ainsi que le constatait souvent un vieil ami de la famille, mort depuis, de la rupture d'un vaisseau -- ce qui, je le ferai remarquer en passant, indique nettement l'idée de navigation qui régnait dans l'entourage du Captain Cap.</p>
+            <p>En dépit de la position aisée dont jouissaient ses ascendants, le Captain Cap voulut s'asseoir sur les bancs de l'école communale.</p>
+            <p>De bonne heure il développa ses théories sur la bureaucratie...</p>
+            <p>À dix ans, il placardait un manifeste sur les murs de l'école, ce qui l'eût infailliblement fait expulser de ladite, si, par un discours plein de philosophie, il ne s'était aussitôt réhabilité aux yeux de ses professeurs, qui déclarèrent hautement n'avoir jamais rencontré de précédent à ce phénomène intellectuel.</p>
+            <p>À cette époque déjà lointaine, le Captain Cap n'était donc pas le premier venu. Et alors (comme maintenant) il eût été puéril ou déloyal de le nier. (<hi rend="italic">Applaudissements</hi>.) </p>
+            <p>Je continue. À mesure que le Captain Cap avance en âge, on le voit triompher dans nos lycées, défendant énergiquement ses principes, et faisant des prosélytes.</p>
+            <p>Enfin, à dix-huit ans, écœuré de notre incurable routine, et las de combattre en vain l'indécrottable esprit bureaucratique européen, il se dirige vers l'Amérique.</p>
+            <p>Là, citoyens, une vie nouvelle commence pour le Captain, et, s'il m'était permis de jurer ici, sur ma propre tête, je crois qu'il me serait impossible de trouver une formule assez énergique pour vous dire que, sans l'instruction qu'il possède et l'incoercible énergie qui le caractérise, nous n'aurions peut-être pas aujourd'hui la joie de le présenter à vos suffrages. (<hi rend="italic">Très bien, très bien !</hi>)</p>
+            <p>Je ne vous énumérerai pas tous les exploits du Captain Cap, sa vie dans le Far-West et en Australie, ses mille aventures maritimes, ses travaux scientifiques..., non, ce serait trop long. D'autres le feront du reste mieux que moi en temps voulu.</p>
+            <p>Il débarque en Amérique avec soixante francs ; se met courageusement au travail, entre au service d'un armateur, et, grâce à son intelligence, à son sang-froid et à sa perspicacité, triomphant de tous les obstacles et menant à bien les diverses missions qui lui sont confiées, il conquiert enfin son titre de Captain.</p>
+            <p>Plus tard, ayant acquis une ferme en Californie, il a maille à partir avec les Indiens. Mais Cap est un cavalier de premier ordre, sa carabine est plus sûre que celle du terrible <hi rend="italic">Red-Shirt</hi> et nul mieux que lui ne sait manier le <foreign xml:lang="eng" rend="italic">bow-knife</foreign>  ; en huit jours, il scalpe trois chefs indiens et met ses agresseurs en déroute. </p>
+            <p>Je vous ai parlé tout à l'heure de l'incomparable sang-froid du Captain. Une simple anecdote à ce sujet :</p>
+            <p>Un train de 200 personnes (parmi lesquelles le Captain Cap) descendait une pente formidable sur une des lignes les plus considérables de l'Amérique, lorsque soudain, le frein vint à se briser en dépit des efforts désespérés du mécanicien.</p>
+            <p>Le convoi se mit alors à rouler avec une rapidité vertigineuse. Des cris déchirèrent l'air, et la panique fut telle que la plupart des voyageurs affolés se précipitèrent sur la voie et furent réduits en miettes impalpables.</p>
+            <p>Lorsqu'après vingt-deux heures, le train s'arrêta enfin, on trouva le Captain Cap qui tranquillement assis sur un sac de maïs fumait sa pipe en lisant un vieux numéro du <hi rend="italic">Herald</hi> ... </p>
+            <p>Je pense, citoyens, que de tels exploits se passent de commentaires. ( <hi rend="italic">Oui, oui, bravo ! ! !</hi> ) </p>
+            <p>Si je vous conte ces choses, citoyens, si je vous conte ces choses stupéfiantes et si j'ajoute ensuite qu'à quelques années de là, ayant perdu son navire et sa cargaison dans les mers polaires, le Captain Cap sauva son équipage découragé et décimé par le scorbut, si je vous énumère rapidement quelques-unes des aventures du Captain, ce n'est pas, croyez-le bien, pour vous éblouir. C'est simplement pour vous montrer que cet homme qui est à la fois un marin, un savant et un philanthrope peut vaillamment conduire la barque dont vous avez résolu de lui confier la barre.</p>
+            <p>Voilà l'homme que j'avais à vous présenter. Jugez-le, et interrogez-le.</p>
+            <p>Pour moi, je me retire persuadé que, dès à présent, vos voix lui sont acquises. ( <hi rend="italic">Applaudissements frénétiques</hi> .) </p>
           </quote>
           <p>Le citoyen Paul Frény ayant ensuite énuméré les qualités artistiques du Captain Cap, et démontré en quelques mots, combien il serait avantageux pour un quartier d'artistes, d'avoir un tel représentant, d'une façon claire et précise le Captain Cap répond aux différentes questions qui lui sont successivement posées par les citoyens Quinel, Georges Albert, Brandimbourg, etc.</p>
           <p>Le citoyen Howard Symonds, demande à interroger le Captain en anglais au sujet de la question anti-européenne.</p>
@@ -816,8 +825,7 @@
           <p>Je détiens le <hi rend="italic">record du millimètre</hi> sur piste et sur route. </p>
           <p>Je l'ai accompli sur piste, sans entraîneurs, en moins de 1/17 000e de seconde.</p>
           <p>Sur route, mon temps est un peu plus long : 1/14 000e de seconde.</p>
-          <p>Je dois ajouter que, dans cette dernière épreuve, j'eus contre moi un vent épouvantable, doublé d'une pluie torrentielle. Et puis -- peut-être devrais-je passer ce détail sous silence -- mes entraîneurs MM. X... et Y... <ref target="#FRA00401N014">(1)</ref>
-            <hi rend="italic">à la suite d'une absorption sans doute excessive de</hi> whisky stone fence <ref target="#FRA00401N015">(2)</ref> se trouvaient ivres-morts, comme par hasard. </p>
+          <p>Je dois ajouter que, dans cette dernière épreuve, j'eus contre moi un vent épouvantable, doublé d'une pluie torrentielle. Et puis -- peut-être devrais-je passer ce détail sous silence -- mes entraîneurs MM. X... et Y... <hi rend="italic">à la suite d'une absorption sans doute excessive de</hi> whisky stone fence <ref target="#FRA00401N015">(2)</ref> se trouvaient ivres-morts, comme par hasard. </p>
           <p>Je compte, d'ailleurs, battre mon propre temps, dans le courant de septembre prochain.</p>
           <p>En cette prévision, je m'entraîne sérieusement, travaillant quatorze heures par jour, moitié sur une descente de lit (représentant un tigre dans les jungles), moitié sur sable mouillé.</p>
           <p>Ma nourriture se compose exclusivement de rogue de limande très peu cuite, que j'arrose avec une infusion de chiendent coupée d'un bon tiers de queues de cerises.</p>
@@ -2292,7 +2300,7 @@
           <p />
           <p>Débarqué en France au printemps dernier, cet Américain, sur la recommandation de Cap, devint tout de suite mon ami.</p>
           <p>Le français qu'il parlait était un français irréprochable déjà ; seuls, quelques mots auraient gagné à être plus correctement prononcés.</p>
-          <p>Ainsi, il disait <hi rend="italic">flott</hi> , <hi rend="italic">pott</hi> , comme si ces mots, à l'instar de son nom, eussent comporté deux *t*. </p>
+          <p>Ainsi, il disait <hi rend="italic">flott</hi> , <hi rend="italic">pott</hi>, comme si ces mots, à l'instar de son nom, eussent comporté deux <hi rend="italic">t</hi>. </p>
           <p>Sur une simple observation, il rectifia ces petites imperfections, et parla bientôt aussi purement que M. Le Bargy.</p>
           <p>Je me suis beaucoup attaché à mon ami Bott, esprit original, et tout de primesaut.</p>
           <p>Un matin que je l'avais rencontré sur la plage, il me proposa un match à la carabine.</p>
@@ -2462,12 +2470,34 @@
         <note xml:id="FRA00401N062">(1)   On dit <hi rend="italic">chevauchée</hi> . </note>
         <note xml:id="FRA00401N063">(2)   L' <hi rend="italic">american-lemonade</hi> se fabrique comme la limonade ordinaire, sucre, jus de citron, eau-de-seltz. La seule différence est qu'on y doit ajouter une petite quantité de porto rouge. </note>
         <note xml:id="FRA00401N064">(1)   Un des meilleurs cocktails quand il est bien préparé. Glace en petits morceaux, demi-cuillerée à café d'orange-bitter, de curaçao et de crème de noyau. Finir avec parties égales de gin et de vermouth de Turin. Agitez, passez, zeste de citron.</note>
-        <note xml:id="FRA00401N065">(1)   Glace pilée, quelques gouttes d'angustura et de jus de citron, cuillerée à café de curaçao, remplir avec cognac, passez, zeste de citron, servez. Tel est l' <hi rend="italic">Alabazam</hi> . </note>
-        <note xml:id="FRA00401N066">(1)   Le <hi rend="italic">brandy shanteralla,</hi> peu recommandé au sexe frêle, se prépare ainsi : dans glace en morceaux, versez une cuillerée à bouche de curaçao, une de chartreuse jaune, une d'anisette, complétez avec bon cognac. </note>
-        <note xml:id="FRA00401N067">(1)   <hi rend="italic"> Stars and stripes</hi> , autrement dit <hi rend="italic">les étoiles et les raies</hi> . Dans un verre-flûte, versez, sans mélanger, crème de noyaux, marasquin, chartreuse jaune, curaçao et verre fine champagne. </note>
-        <p>Voilà pour les raies.</p>
-        <p>Quant aux étoiles, vous les apercevrez aussitôt que vous aurez, d'un seul coup, lampé cette spiritueuse polychromie.</p>
-        <note xml:id="FRA00401N068">(1)   Prononcez <hi rend="italic">United states America</hi> . </note>
+        <note xml:id="FRA00401N065">
+          <gap />
+        </note>
+        <note xml:id="FRA00401N066">
+          <gap />
+        </note>
+        <note xml:id="FRA00401N067">
+          <gap />
+        </note>
+        <note xml:id="FRA00401N068">
+          <gap />
+        </note>
+        <note xml:id="FRA00401N069">
+          <gap />
+        </note>
+        <note xml:id="FRA00401N070">
+          <gap />
+        </note>
+        <note xml:id="FRA00401N071">
+          <gap />
+        </note>
+        <note xml:id="FRA00401N072">
+          <gap />
+        </note>
+        <note xml:id="FRA00401N073">(1) Glace pilée, quelques gouttes d'angustura et de jus de citron, cuillerée à café de curaçao, remplir avec cognac, passez, zeste de citron, servez. Tel est l' <hi rend="italic">Alabazam</hi>.</note>
+        <note xml:id="FRA00401N074">(1) Le <hi rend="italic">brandy shanteralla,</hi> peu recommandé au sexe frêle, se prépare ainsi : dans glace en morceaux, versez une cuillerée à bouche de curaçao, une de chartreuse jaune, une d'anisette, complétez avec bon cognac.</note>
+        <note xml:id="FRA00401N075">(1) <hi rend="italic"> Stars and stripes</hi>, autrement dit <hi rend="italic">les étoiles et les raies</hi>. Dans un verre-flûte, versez, sans mélanger, crème de noyaux, marasquin, chartreuse jaune, curaçao et verre fine champagne. Voilà pour les raies. Quant aux étoiles, vous les apercevrez aussitôt que vous aurez, d'un seul coup, lampé cette spiritueuse polychromie.</note>
+        <note xml:id="FRA00401N076">(1) Prononcez <hi rend="italic">United states America</hi> .</note>
       </div>
     </back>
   </text>

@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?xml-model href="eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" 
- xml:id="ROM062" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM062" xml:lang="ro">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -26,50 +24,50 @@
     <measure unit="pages">187</measure>
    </extent>
    <publicationStmt>
-    <p>Încorporat în ELTeC<date>2020</date>
-    </p>
-   </publicationStmt>
-   <sourceDesc>
-       <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+   <sourceDesc><bibl type="firstEdition">
            <author>C. Mille</author>
            <title>Dinu Millian</title>
            <pubPlace>Bucharest</pubPlace>
            
            <date>1887</date>
-       </bibl>
-    
-       <bibl type="printSource">
+       </bibl><bibl type="printSource">
      <author>C. Mille</author>
      <title>Dinu Millian</title>
      <pubPlace>Bucharest</pubPlace>
      <publisher>ATELIERELE SOCIETĂȚII ANONIME PE ACȚIUNI „ADEVERUL”</publisher>
      <date>1913</date>
            <ref target="http://doi.org/10.5281/zenodo.3843302">Facsimile on zenodo</ref>
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
-   <p></p>
+   <p/>
   </encodingDesc>
   <profileDesc>
    <langUsage>
-    <language ident="ro"></language>
+    <language ident="ro"/>
    </langUsage>
    <textDesc>
-    <e:authorGender key="M"></e:authorGender>
-    <e:size key="medium"></e:size>
-    <e:canonicity key="low"></e:canonicity>
-    <e:timeSlot key="T3"></e:timeSlot>
+    <e:authorGender key="M"/>
+    <e:size key="medium"/>
+    <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+    <e:timeSlot key="T3"/>
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
    <change when="2019-09-20">Initial TEI version generated.</change>
   </revisionDesc>
  </teiHeader>
  <text>
-  <front>
-   <div>
-   </div></front>
+  
   <body>
    <gap unit="page" extent="no.pages" n="missing resource text"/>
    <div type="chapter" n="1">
@@ -798,7 +796,7 @@
 <p>Pling de necaz, vreau să-i spun  pricina, sa-i povestesc istoria cu  potcoavele. Dinsa nu vrea sa asculte.</p>
 <p>- Lasa, lasa, nu'ti mai p... ochii! Ce, poate vrei ghete de lac? După ce le rupi ca cainii. Cind vei fi milionar, la casa ta, iti vei face cum vei pofti!...</p>
 <p>Ziua inmormintarei sosi ploioasa, jalnica, urla. Si cand inchid ochii, vad lumea adunata, prapurii, pornitul jalnic, mersul incet, popasurile, apoi plinsetul mamei, jalea surorilor, nepasarea mea.</p>
-<p>>Apoi un fapt mi se arata mai colorat, mai aproape, mai definit:</p>
+<p>&gt;Apoi un fapt mi se arata mai colorat, mai aproape, mai definit:</p>
 <p>Titaia Luta ne amenintase ca in mijlocul stradei, va veni sa scuipe in fata mortului. Tacusem la aceasta amenintare, dar imi promisesem, numai mie insumi, ca nu voiu lasa sa se insulte cadavrul tatei. Si in minte îmi inchipuiam atintind drumul unei femei despletite, desperate, grozave.</p>
 <p>Zadarnic eroism.</p>
 <p>Nimeni nu a venit, nimeni nu a oprit mersul monoton al convoiului. Numai cind am trecut printre ruinele de la Sf. Haralambie mi s'a parut ca esea cineva dintre dărâmături. </p>
@@ -1003,7 +1001,7 @@
 <p>Ea pare ca nu stia nimic, pare ca nu se petrecea nimica intre mine si dinsa, ceva care urca singele in cap si inima o face sa bata mai puternic. Ea ridea, sarea pe scaun, cinta, vorbea. Si eu, eU eram sub iadul placut al piciorului ei. </p>
 <p>La plecarea noastra s'au strins in chip deosebit. Parea ca un curent electric din trupul ei, a trecut in al meu, oprindu-se la inima si facind'o sa bata cu putere. De asta data ochii nostrii se intilnira. Oh! cat de ciudat ardeau in  fundul orbitelor ochii sai negri ca doua bucăți de jaratec, in fundul unui camin negru.</p>
 <p>Noaptea am avut-o plina de nalucirile dragostei, plina de planuri indraznete pentru ca sa o am pe Lucretia a mea, numai a mea, o noapte vitioasa plina de orgiile inchipuirei. </p>
-<p>>A doua zi cind m'am sculat eram galben ca turta de ceara. Voind sa plec la scoala si sarutind mina mamei, ca sa'mi spuna obisnuitul lectii stiute si fii cuminte, dansa s'a speriat de galbeneala mea.</p>
+<p>&gt;A doua zi cind m'am sculat eram galben ca turta de ceara. Voind sa plec la scoala si sarutind mina mamei, ca sa'mi spuna obisnuitul lectii stiute si fii cuminte, dansa s'a speriat de galbeneala mea.</p>
 <p>La aritmetica Lenoveanu mi-a tras doua picioare!</p>
 <p>A doua Duminica ne-am vazut iarasi.</p>
 <p>Printre jocurile fetelor mi-a putut strecura in mina un biletel. Dispar din mijlocul fetelor si ma duc sa citesc scrisoarea de amor. Era scrisa in frantuzeste:</p>
@@ -1849,7 +1847,7 @@
 <p>- Asa'i tiganul cind ajunge domn, dintaiu pe tata-sau il spinzura.</p>
 <p>Sintem la masa.</p>
 <p>Piparus avea obiceiul ca sa dejuneze cu noi. Locul lui era in capul mesei, unde o butelie, de vin il anunta</p>
-<p>/p>Stateam in capul celalt al mesei. </p>
+<p>/p&gt;Stateam in capul celalt al mesei. </p>
 <p>Baghici daduse inapoi portia de chiftele aratind ca gasise o musca, pe care o hacuise pe jumatate. Piparus s'a multumit sa dea din cap, zicind lui Fericire ca sa ia seama.</p>
 <p>Portia insa mi se aduse mie. </p>
 <p>O resping cu indignare...</p>
@@ -1908,7 +1906,7 @@
 <l>Cu care bravii nostri, se lupta si patimesc!</l>
     </quote>
 <p>Si vesnic copiate, versurile reluau drumul Sfaturilor Literare cu o nestramutata incapatinare.</p>
-<p>>Ca raspuns aceleasi cuvinte, aceleași fraze, aceeasi insulta:</p>
+<p>&gt;Ca raspuns aceleasi cuvinte, aceleași fraze, aceeasi insulta:</p>
 <p>- Prea tinar! prea tinar!</p>
 <p>Cu versurile mele, cu promisiunea platonica, cu juramintul de a lupta pentru patrie, nu faceam mare treaba pentru leii dala Plevna.</p>
 <p>Ne hotarim sa facem scama. Și fiecare isi pune la contributie camasile, cu o dezinteresare patriotica. Ea aduc toate camasile rupte ale tatei, pe care le gasisem prin lăzi. Si pe lucru! Intro săptămâna facusem citeva ocale. Factorul lui Labasan deschisese subscriptiuni pentru raniti. Lui sint insarcinat ca sa-i remit obolul nostru.</p>
@@ -1999,7 +1997,7 @@
 <p>Mintea-mi din nou se infierbanta sub aducerea aminte a scenei trecute, sub inriurirea simturilor din nou se incordeaza... Si pare ca trupul mai pastrase perceptiunea durerei trupului Smarandei, pare ca sinu-i gol, se mișcă inca ritmat, sub stringerea puternica a bratelor mele.</p>
 <p>Si acum nu mai voiu decit femeea, generalitatea femeiasca, dinsa voia sa mi se arate in ochii mei, prin dinsa sa-mi iau piatra ce-mi apasa pieptul, racoresc dogoreala trupului.</p>
 <p>Inchipuirea merge dela fiica la mama. Daca nu a voit fata, batrina  nu va refuza... Si in minte o imbrac cu alte forme, schimb sinul ei potlogit in sinul alb si tare al fecioarelor, chipului dau formele tinere, carnei taria si luciul pielei copilei...</p>
-<p>Si in mijlocul acestei infame naluciri, in acest vis ridicol, nu sint in stare sa vad nimica, sa simt nimia, sa am constiinta realiatii... Atita mi se intoarce in cap: daca nu a voit fata, mama va voi. </p  >
+<p>Si in mijlocul acestei infame naluciri, in acest vis ridicol, nu sint in stare sa vad nimica, sa simt nimia, sa am constiinta realiatii... Atita mi se intoarce in cap: daca nu a voit fata, mama va voi. </p>
 <p>Nebun, cu bratele intinse, ca in vis, ma reped afara. Rascoala serei imi biciui fruntea. Sub aceasta sarutare rece, ma destept, dau inapoi ca de pe marginea unei prapastii. Un pas inca si totul era sa fie pierdut ; asi fi scuipat asupra mea cu dispret...</p>
 <p>Ma intreb de am visat sau de am facut toate acestea destept ? Mi-aduc de toate aminte si totusi parca ceva a lipsit. Nu e vis, nu e realitate... Ceva si din una si din alta...</p>
 <p>Nu am mai putut ridica ochii asupra Smarandei. Par'ca ma privea vesnic cu un ochiu rizator, par'ca cocosatul se uita chioris la mine, pare ca mama soacra, cu privirea ei experimentata, ma imbarbata ca sa pun coarne ginerelui.</p>
@@ -2182,7 +2180,7 @@
 <p>- Ma prezint... Dinu Milian, nou membru... incintat.</p>
 <p>Atunci ziarul se desfacu dand la iveala chipul cititorului. Cara ma privi lung, ma cerceta din cap pina la picioare, apoi, concluse flegmat si cu tonul indiferent:</p>
 <p>- Dine!</p>
-<p>Voiu sa intind mina, dar mina'i sta linitita, voiu sa'i spun ca'mi pare bine de cunostinta, ca doream sa i-o fac. Gazeta insa se inchise din nou acoperindu'i chipul si Cara iarasi se afunda in launtrul ei, tacut si nepasator. ></p>
+<p>Voiu sa intind mina, dar mina'i sta linitita, voiu sa'i spun ca'mi pare bine de cunostinta, ca doream sa i-o fac. Gazeta insa se inchise din nou acoperindu'i chipul si Cara iarasi se afunda in launtrul ei, tacut si nepasator. &gt;</p>
 <p>Purtarea lui ma indigneaza. Asa se poarta el cu membrii clubului ori eu nu l-am placut?</p>
 <p>- Poate nu i-am placut!... imi ziceam spre mingaiere.</p>
 <p>Si Cara sfirsindu-si ziarele de citit, isi infunda din nou caciula pe cap si disparu, facind zgomot cu pasii sai, fara sa-mi dea bună ziua, fara sa-mi faca un semn, nepasator de ceea inconjura, la iesire ca si la intrare.</p>
@@ -2433,7 +2431,7 @@
 <p>Dar evreul nu iese. Sta la usa și ma priveste lung. Pare ca vrea sa-mi spuna ceva....</p>
 <p>Cacanas. insinuiaza din nou evreul...</p>
 <p>Ei ce?</p>
-<p>Evreul ma priveste cu un ochiu lubric si plin de intelesuri&quot;...</p>
+<p>Evreul ma priveste cu un ochiu lubric si plin de intelesuri"...</p>
 <p>Maidaveaka, harasoia!</p>
 <p>Nu prea inteleg ce vrea sa-mi spuna, caci stie foarte putin romineste.</p>
 <p>- Maldaveanca, barasoia...Prima... Si el imi face semne ca e grasa, bine făcută. </p>
@@ -2973,6 +2971,5 @@
 <trailer>SFIRSIT</trailer>
    </div>
   </body>
-  <back></back>
  </text>
 </TEI>

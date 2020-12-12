@@ -8,9 +8,13 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:unavailable wikidata:missing">L'Esclave amoureuse : édition ELTeC</title>
-        <author xml:id="LeRouge" ref="viaf:7392910 wikidata:Q2409143">Le Rouge, Gustave (1867-1938)</author>
+        <author ref="viaf:7392910 wikidata:Q2409143">Le Rouge, Gustave (1867-1938)</author>
         <respStmt>
-          <resp>principal</resp>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,15 +25,14 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
-        <!--
-          Published as part of ELTeC
-          2018-11-01
-        -->
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
@@ -61,6 +64,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2018-11-01">Conversion with CLIGStoELTeC stylesheet for ELTeC-1</change>
       <change when="2015-07-17">cf Initial TEI version.</change>
@@ -659,12 +664,12 @@
         <p>— Tu as toujours été une vieille coureuse et une vieille folle !</p>
         <p>— Petite catin, tu pourrais au moins respecter ta mère ! Rappelle-toi ce que te disait M. l'aumônier de l'« Homme-Rouge » :</p>
         <quote type="song">
-        <p>
-          <hi>Tes père et mère honoreras</hi>
-        </p>
-        <p>
-          <hi>Afin de vivre longuement.</hi>
-        </p>
+          <p>
+            <hi>Tes père et mère honoreras</hi>
+          </p>
+          <p>
+            <hi>Afin de vivre longuement.</hi>
+          </p>
         </quote>
         <p>Lina ne trouvait rien à répondre, et se jetait dans les bras de Vénus qui, tout attendrie, la récompensait de son respect filial en lui faisant boire un verre de tafia de la grappe blanche, liqueur parfumée, du vrai sucre d'or, vieux de vingt ans, et dont elle gardait jalousement quelques bouteilles.</p>
         <p>La brusque arrivée de M. de Saint-Elme jeta le désarroi dans ce paisible intérieur. Aux attentions et au respect que lui témoigna tout d'abord Vénus, M. Tom éprouva un étonnement qui était peut-être déjà de la jalousie. Le créole s'était plaint, dès son arrivée, de violents maux de tête ; il frissonnait, son visage s'injectait de sang, ses yeux larmoyaient, et il réclamait continuellement à boire.</p>

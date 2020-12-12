@@ -1,9 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-
-
-<?xml-model href="../eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM052" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM052" xml:lang="ro">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -23,45 +20,38 @@
     <measure unit="pages">110</measure>
    </extent>
    <publicationStmt>
-    <p>Încorporat în ELTeC<date>2020</date>
-    </p>
-   </publicationStmt>
-   <sourceDesc>
-    
-    <bibl type="unspecified">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+   <sourceDesc><bibl type="unspecified">
      <author>Duiliu Zamfirescu</author>
      <title>Tănase Scatiu. Roman</title>
      <pubPlace>Bucharest</pubPlace>
-          <date>1895</date></bibl>
-    
-    
-    <bibl type="firstEdition">
+          <date>1895</date></bibl><bibl type="firstEdition">
      <author>Duiliu Zamfirescu</author>
      <title>Tănase Scatiu. Roman</title>
      <pubPlace>Bucharest</pubPlace>
      <publisher>Alcalay</publisher>
-     <date>1907</date></bibl>
-     
-    
-   <bibl type="printSource">
+     <date>1907</date></bibl><bibl type="printSource">
      <author>Duiliu Zamfirescu</author>
      <title>Tănase Scatiu. Roman</title>
      <pubPlace>Bucharest</pubPlace>
      <publisher>TIPOGRAFIA «CRONICA» THOMA BASILESCU.</publisher>
      <date>1907</date>
      <ref target="http://doi.org/10.5281/zenodo.3736629">Facsimile on zenodo</ref>
-    </bibl>
-   
-    
-   
-   </sourceDesc>
+    </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
-   <p></p>
+   <p/>
   </encodingDesc>
   <profileDesc>
    <langUsage>
-    <language ident="ro"></language>
+    <language ident="ro"/>
    </langUsage>
    <textDesc>
     <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
@@ -71,6 +61,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
    <change when="2019-09-20">Initial TEI version generated.</change>
   </revisionDesc>
  </teiHeader>
@@ -651,8 +642,7 @@
     <p>Scatiu păru că se gândeşte. După un minut scoase pumnul de chei şi deschise casa de bani.</p>
     <p>Doar să-ţi dau din altă parte.</p>
     <p>Si, zicând astfel, luă cinci fişicuri de argint dintr'un coş de sârmă, şi le puse pe masă.
-     Apoi desfăcu o condică lungă şi însemnă cu scriitura lui chinezească: daţi lui Bănică, <hi
-      rend="italic">itedent de la vie</hi>.</p>
+     Apoi desfăcu o condică lungă şi însemnă cu scriitura lui chinezească: daţi lui Bănică, <hi rend="italic">itedent de la vie</hi>.</p>
     <p>Bănică luă fişicurile, se uită la ele, socotind în gând, şi apoi rămase privind spre
      Scatiu.</p>
     <p>Cât îmi daţi boerule ?</p>
@@ -1046,8 +1036,7 @@
      câteva minute intrară amandoi. Bătrânul, cu un aer mai de cămătar şi mai umilit, se înduioşă în
      faţa Tincuţei şi-i făgădui să trimită poliţa înnapoi, dar o rugă numai decât să stărue pe lângă
      bărbatu-său ca să facă totul să nu se aprobe licitaţia spitalului. Intră în detaliuri de
-     preţuri, invocă interesul oraşului, pledă ca un avocat, acuzând pe Haim că era un <hi
-      rend="italic">jidan impirihil</hi>. Tincuţa se uită la el, gândindu-se în ce straniu mod se
+     preţuri, invocă interesul oraşului, pledă ca un avocat, acuzând pe Haim că era un <hi rend="italic">jidan impirihil</hi>. Tincuţa se uită la el, gândindu-se în ce straniu mod se
      încurcă iţele intere,selor, cum intră cineva din bun senin în intrigi, cum începe să mintă şi
      să se prefacă, fără nici un gând. Ii rugă s'o ierte (aducându-şi aminte de cele ce auzise din
      colţul dulapului), că de astă singură dată nu putea să le fie de nici un folos, deoarece
@@ -1105,8 +1094,7 @@
      însă era imaginea unui copil, pe când ea era acum fată de măritat.</p>
     <p>Când auzi că băiatul se întoarce din străinătate, avu câteva bătăi de inimă şi mai cu seamă o
      nespusă curiozitate de a vedea acum era acum Mihaiu. Iar când îl văzu, devenit aproape om, cu
-     vocea puternică,cu mustaţa înfiripată de a binele, şi totuşi zicând Saşei ca mai 'nainte, <hi
-      rend="italic">maman</hi>, cu graţie şi măsură în toate, dânsa se simţi oare-cum umilită. El de
+     vocea puternică,cu mustaţa înfiripată de a binele, şi totuşi zicând Saşei ca mai 'nainte, <hi rend="italic">maman</hi>, cu graţie şi măsură în toate, dânsa se simţi oare-cum umilită. El de
      asemeni o găsi schimbată, cam pretenţioasă, gata să se supere la fiecare glumă şi numai după ce
      Saşa îi spuse despre planurile de maritiş ce se făcea pe socoteala Tincuţei, înţelese, în
      parte, noua ei fire şi tăcu.</p>
@@ -1263,8 +1251,7 @@
      senatorii din majoritate, la el acasă, unde venea şi prefectul, câte odată şi unul sau doi
      sub-prefecti mai isteţi, spre a pune la cale primirea Ministrului. Primarul oraşului umbla din
      prăvălie în prăvălie, ca pă vremea alegerilor, rugând lumea să iasă la gară cu mic cu mare.
-     Negustorii erau invitaţi să cureţe stradele, fiecare până la jumătate, ca apoi <hi
-      rend="italic">serviciul muncipalităţii</hi> să ridice noroiul. Unii zâmbiau la auzul acestei
+     Negustorii erau invitaţi să cureţe stradele, fiecare până la jumătate, ca apoi <hi rend="italic">serviciul muncipalităţii</hi> să ridice noroiul. Unii zâmbiau la auzul acestei
      pompoase calificări, de oarece <hi rend="italic">serviciul</hi> în chestiune se compunea din
      două cărucioare desfundate, care mai mult murdăreau decât curăţau uliţele. Se luară măsuri să
      se umple cu petriş toate gropile şi hârţoapele din drumul Ministrului; se hotărâ trăsura care
@@ -1342,10 +1329,8 @@
     <p>Intre două accese de tuse, mai făcea câte o cruce, mai trăgea o cismă, şi iarbse lega de
      Alecsandriu şi de Floquet: <hi rend="italic">cum dracu-i zice, frate!</hi></p>
     <p>In sfârşit ziua cea mult dorită sosi.</p>
-    <p>Scatiu se scuă de dimineaţă, dete o raită pe la grajd să cerceteze starea sufletească a <hi
-      rend="italic">cailor celor mari</hi>, din care unul era cam nărăvaş; scuă pe vizitiul de oraş,
-     precum şi pe Stoica, care se puseră numai decât să se radă unul pe altul; inspectă <hi
-      rend="italic">carâta</hi> mişcându-i roatele; inspectă cerul. Toate păreau în bună stare,
+    <p>Scatiu se scuă de dimineaţă, dete o raită pe la grajd să cerceteze starea sufletească a <hi rend="italic">cailor celor mari</hi>, din care unul era cam nărăvaş; scuă pe vizitiul de oraş,
+     precum şi pe Stoica, care se puseră numai decât să se radă unul pe altul; inspectă <hi rend="italic">carâta</hi> mişcându-i roatele; inspectă cerul. Toate păreau în bună stare,
      afară de acesta din urmă, care ameniaţa cu ploae.</p>
     <p>Se duse sus şi se puse să se îmbrace. Ministrul sosia la unu după 12. Scatiu încercă
      redingota cea nouă, aşteptând ora cuvenită spre a îmbrăca fracul. Dejună la 10 şi jumătate, ca
@@ -1366,8 +1351,7 @@
      chemat de când cu reforma bisericească, domnul <hi rend="italic">protoereu</hi>; Directorul
      Liceului, profesori institutori, ţărani, în fine tot aparatul administrativ. Judecatori nu prea
      erau mulţi, ceea ce făcea pe unii să creadă că a intrat <hi rend="italic">ceva bizbiu</hi>,
-     între Ministrul de interne şi Ministrul de justiţie. Afară din gară, <hi rend="italic"
-      >ipocomisarii</hi> călări stau pe la răspântii, aţinând drumul oamenilor ce veniau cu carele
+     între Ministrul de interne şi Ministrul de justiţie. Afară din gară, <hi rend="italic">ipocomisarii</hi> călări stau pe la răspântii, aţinând drumul oamenilor ce veniau cu carele
      la încărcat; călătorii de la tren erau duşi la hambarul de mărfuri, în mijlocul protestaţiilor
      celor mai ţanţosi: caţiva gură-cască priveau la măturătorii primării, care pregătiau o
      manifestaţie impunătoare, dar pană una alta se inglindisiau la cârciuma dela colţ.</p>
@@ -1503,11 +1487,9 @@
      lor se sfârşia cu beţie, cu lăutari şi chiloman, şi socotia că ar fi mai cuminte să nu dea
      Ministrului privelştea acestor scene. El urlă, blestemă, se tângui că dânsa nu se gândeşte
      decât la ale ei, fară a ţine seamă de alegători, de popularitatea lui. Simţia că ea avea
-     dreptate, dar, ca să nu aibă aerul că se conduce de un cap de femee, el, <hi rend="italic"
-      >dipotatul enfluent</hi>, hotărâ să împartă invitaţii în două tabere. Ideea era necuviincioasă
+     dreptate, dar, ca să nu aibă aerul că se conduce de un cap de femee, el, <hi rend="italic">dipotatul enfluent</hi>, hotărâ să împartă invitaţii în două tabere. Ideea era necuviincioasă
      pentru cei ce intrau între ciurucuri, dar era practică. De alt-fel, sub-comisării, agenţii
-     electorali, unii negustoraşi chiar, erau mai mulţumiţi, să mănânce deoparte, în tihnă, cu <hi
-      rend="italic">sfânta aghiasmă</hi> la 'ndămînă, decât să se piţigăiască la masa
+     electorali, unii negustoraşi chiar, erau mai mulţumiţi, să mănânce deoparte, în tihnă, cu <hi rend="italic">sfânta aghiasmă</hi> la 'ndămînă, decât să se piţigăiască la masa
      Ministrului.</p>
     <p>O baratcă de scînduri lega sofrageria de sus cu cea de jos, iar muzica militară era aşezată
      tocmai la mijloc ca să se poată auzi din toate părţile.</p>
@@ -1879,8 +1861,7 @@
      partea aceea înnaltă. Cine ştie de ce. Era ostenită. Pianul era deschis. Şezu pe scaunul lui
      şi-şi aruncă ochii pe note. Erau nişte litere mari, albe, cu un pervaz negru. Luă caetul în
      mână şi-l întoarse spre lumină: Sonate, Op. 27, No. 2. <hi rend="italic">Der Gräfin Julie
-      Guicciardi gewidmet</hi>. I se păru că vede pentru întâiaş dată numele acesta.<hi
-      rend="italic"> Julie</hi> suna aşa de frumos! Cine o fi fost?... Se sculă din nou şi se
+      Guicciardi gewidmet</hi>. I se păru că vede pentru întâiaş dată numele acesta.<hi rend="italic"> Julie</hi> suna aşa de frumos! Cine o fi fost?... Se sculă din nou şi se
      apropiă de oglindă; apoi se depărtă cât putu şi se uită numai la rochie. Era alta, într'o altă
      lume, într'o lume caldă de poeţi şi de muzicanţi, în azurul căreea se vedeau departe ramuri
      înflorite. Işi aduse aminte de lucruri vechi, de un brocart rămas dela maică-sa, cu flori de
@@ -2188,8 +2169,7 @@
     <p>A doua zi, Ministrul şi Mihaiu plecară.</p>
     <p>Tincuţa, dela geam, se uita lung în urma lor.</p>
     <p>Când ei periră în zare, ea rămase în colţul ferestrei, privind departe în văzduhul fumuriu,
-     fără nici o legătură între ea şi lume. Ii resări în minte o imagine bizară: <hi rend="italic"
-      >Iulie Guicciardi</hi> şi o cută misterioasă de rochie: rochia ei din oglindă...</p>
+     fără nici o legătură între ea şi lume. Ii resări în minte o imagine bizară: <hi rend="italic">Iulie Guicciardi</hi> şi o cută misterioasă de rochie: rochia ei din oglindă...</p>
       </div>
      <div type="chapter" n="11">
       

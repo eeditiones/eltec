@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl" xml:id="SLV10019">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl" xml:id="SLV10019">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,26 +27,24 @@
          <extent>
             <measure unit="words">79078</measure>
          </extent>
-         <publicationStmt xml:lang="en">
-            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-            <distributor ref="https://github.com/COST-ELTeC/ELTeC-slv">GitHub</distributor>
-            <date>2020-03-19</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+         <publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3518108">ELTeC-slv</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271648">ELTeC-slv release 0.9.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>Milčinski, Fran. Ptički brez gnezda : edicija WikiVir</title>
                <idno type="wikilink">https://sl.wikisource.org/wiki/Pti%C4%8Dki_brez_gnezda</idno>
                <date>2015</date>
-            </bibl>
-            <bibl type="printSource">
+            </bibl><bibl type="printSource">
                <author ref="https://sl.wikipedia.org/wiki/Fran_Mil%C4%8Dinski">Milčinski, Fran</author>
                <title>Ptički brez gnezda</title>
                <date>1917</date>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-1">
          <p xml:lang="en">This ELTeC edition was automatically converted from the <ref target="https://sl.wikisource.org/">Slovene WikiSource</ref> digital library edition, and several pieces of ELTeC-specific metadata were added. In particular, the source mark-down was first downloaded, and then fixed with a Perl script, which substitutes Wiki MD marking for heads with the regular one, normalises some characters and removes interal markup expressed in {{..}} and as XML tags. This also means that certain markup from the source is lost, e.g. pagebreaks, original vs. corrected words (corrected are retained), poems and their lines, and notes (which are removed). However, it would be extremely difficult to convert this, furthermore it seems that such markup is used only in some novels. The "cooked" MD files are then converted to TEI with the docx2tei stylesheet, ELTeC metadata is added, and the resulting file fixed to ELTeC schema via a XSLT stylesheet.</p>
@@ -61,11 +56,12 @@
          <textDesc xmlns:eltec="http://distantreading.net/eltec/ns">
             <eltec:authorGender key="M"/>
             <eltec:size key="medium"/>
-            <eltec:canonicity key="high"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <eltec:timeSlot key="T4"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc xml:lang="en">
+      <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
          <change when="2020-03-19">Tomaž Erjavec: converted to ELTeC</change>
       </revisionDesc>
    </teiHeader>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://distantreading.github.io/Schema/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM073" xml:lang="ro">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ROM073" xml:lang="ro">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,30 +20,28 @@
         <measure unit="pages">268</measure>
       </extent>
       <publicationStmt>
-        <publisher>Digital Humanities Laboratory (UAIC)</publisher>
-        <distributor ref="https://www.distant-reading.net/">COST ACTION "Distant Reading for European Literary History" (CA16204)</distributor>
-        <date when="2020-03-07"/>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-        </availability>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="printSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
+</publicationStmt>
+      <sourceDesc><bibl type="printSource">
           <author>Ioan Slavici</author>
           <title>Din două lumi. Narațiune</title>
           <pubPlace>BUCUREȘTI</pubPlace>
           <publisher>Editura Librăriei SOCEC and Co, Societate Anonimă</publisher>
           <date>1920</date>
           <ref target="http://doi.org/10.5281/zenodo.3719523">Facsimile on zenodo</ref>
-        </bibl>
-        <bibl type="firstEdition">
+        </bibl><bibl type="firstEdition">
           <author>Ioan Slavici</author>
           <title>Din două lumi. Narațiune</title>
           <pubPlace>BUCUREȘTI</pubPlace>
           <publisher>Editura Librăriei SOCEC and Co, Societate Anonimă</publisher>
           <date>1920</date>
-        </bibl>
-      </sourceDesc>
+        </bibl></sourceDesc>
     </fileDesc>
     <encodingDesc n="eltec-1">
       <p/>
@@ -55,11 +53,12 @@
       <textDesc>
         <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
         <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
-        <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
         <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
       </textDesc>
     </profileDesc>
     <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
       <change when="2020-03-07">Annotation in ELTeC format: Lucretia Pascariu</change>
       <change when="2020-01-10">Ocerization by: Lucretia Pascariu</change>
     </revisionDesc>
@@ -560,7 +559,7 @@
   <p>Se’ncurcă toate, dacă nu te ții de capul lor..</p>
       <gap unit="graphic"/>
     </div>
-    <div type="chapter"  n="6">
+    <div type="chapter" n="6">
     <gap unit="graphic"/>
   <head>VI.</head>
   <p>„Unde, păcate, se va fi înfundat Văleanu al nostru de nu mai poți de o bucata de timp să pui mâna pe el!?“ — întreba ’ntruna din zile Gogu.</p>
@@ -2564,7 +2563,7 @@
       </div>
 </body>
     <back>
-      <div type="group">
+      <div type="liminal">
         <p>Greșeli de tipar</p>
         <p>Pg. 8 șirul 3 în loc de Lina — <hi>Fira</hi>.</p>
         <p>» 21 » 28 » » » poate — <hi>poarte.</hi></p>

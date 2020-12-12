@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--La ortografía de esta novela no está actualizada-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA3020">
+<?xml version="1.0" encoding="UTF-8"?><!--La ortografía de esta novela no está actualizada--><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA3020">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,40 +15,35 @@
 				<measure unit="words">101859</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2020-07-29"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="digitalSource">
 					José Calvo Tello
 					<ref target="https://github.com/cligs/conssa">Corpus of Novels of the Spanish Silver Age (CoNSSA)</ref>
 					<idno>ne0230</idno>
 					<pubPlace>University of Würzburg</pubPlace>
 					<date when="2020"/>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>Project Gutenberg</publisher>
 					<date when="2012">2012</date>
 					<idno>40810</idno>
 					<ref target="http://www.gutenberg.org/ebooks/40810"/>
-				</bibl>
-				<bibl type="printSource">
+				</bibl><bibl type="printSource">
 					<publisher>Librería de Victoriano Suárez</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date when="1901">1901</date>
-				</bibl>
-				<bibl type="firstEdition">
+				</bibl><bibl type="firstEdition">
 					<publisher>Tip. de Manuel G. Hernández</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date when="1887">1887</date>
 					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000250923">Biblioteca digital hispánica</ref>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p>Downcoded from CLIGS</p>
@@ -69,6 +64,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-07-29">Borja Navarro Colorado : revisión de etiquetado ELTeC y anotación complementaria</change>
 			<change when="2020-07-29">LB convert to ELTeC-1</change>
 			<change when="2016-08-26">#jct : Initial TEI version.</change>

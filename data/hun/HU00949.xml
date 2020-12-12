@@ -1,21 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?>
-    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00949" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00949" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>A Noszty fiú esete Tóth Marival : ELTeC edition
             </title>
-            <author ref="viaf:46774986">Mikszáth, Kálmán  (1847-1910)</author>
+            <author ref="viaf:46774986">Mikszáth Kálmán (1847-1910)           
+            </author>
             <respStmt>
                <resp>ELTeC conversion</resp>
                <name>Palkó Gábor <ref target="https://viaf.org/viaf/65989506"/>
                </name>
                <name>Fellegi Zsófia</name>
-               <name>Takács Emma</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
             </respStmt>
          </titleStmt>
          <extent>
@@ -23,8 +20,11 @@
             <measure unit="pages">472</measure>
             <measure unit="vols">2</measure>
          </extent>
-         <publicationStmt><publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher><distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-03-05"/><availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability><ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/><!--Published as part of ELTeC--></publicationStmt>
-         <sourceDesc><bibl type="digitalSource">
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
                <title>A Noszty fiú esete Tóth Marival</title>
                <date>1999-01-11</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -35,49 +35,58 @@
                   <name>Szabolcsi József</name>
                   <name>Kindlevarázs </name>
                </respStmt>
-               
-               
-               
-            </bibl><bibl type="firstEdition">
-               <title>A Noszty fiú esete Tóth Marival</title>
-               <author>Mikszáth Kálmán</author>
-               <date>1908</date>
-            </bibl><bibl type="digitalSource">
+             
+                  <bibl type="digitalSource">
                      <title>A Noszty fiú esete Tóth Marival</title>
                      <date>1999-01-11</date>
                      <ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
-                  </bibl><bibl type="digitalSource">
+                  </bibl>
+               
+             
+                  <bibl type="digitalSource">
                      <title>Mikszáth Kálmán összes művei CD-ROM</title>
                      <pubPlace>Budapest</pubPlace>
                      <publisher>Arcanum</publisher>
                      <date>1998</date>
                      <idno type="isbn-10">963 85923 5 4</idno>
-                  </bibl><bibl type="printSource">
+                  </bibl>
+              
+                  <bibl type="printSource">
                      <title>Regények és nagyobb elbeszélések 20–21, 1906–1907, A Noszty fiú esete Tóth Marival</title>
                      <author>Mikszáth Kálmán</author>
                      <pubPlace>Budapest</pubPlace>
                      <publisher>Akadémiai Kiadó</publisher>
                      <date>1960</date>
-                  </bibl></sourceDesc>
+                     <ref target="http://mek.oszk.hu/00900/00949/00949.pdf"/>
+                  </bibl>
+               
+            </bibl>
+            <bibl type="firstEdition">
+               <title>A Noszty fiú esete Tóth Marival</title>
+               <author>Mikszáth Kálmán</author>
+               <date>1908</date>
+            </bibl>
+         </sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="hu"/>
+            <language ident="hu">Hungarian</language>
          </langUsage>
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
          </textDesc>
       </profileDesc>
-      <revisionDesc><change when="2020-03-05">Checked by checkup script</change>
+      <revisionDesc>
          <change when="2019-04-23"/>
          <change when="2018-11-21"/>
          <change when="2018-11-14"/>
+         <change when="2020-11-13"/>
       </revisionDesc>
    </teiHeader>
   <text>
@@ -86,7 +95,7 @@
             <head>ELSŐ FEJEZET</head>
             <head>CSODÁLATOS, HOGY AZ EMBEREK RENDESEN TÖBBET KÖLTENEK, MINT KELLENE</head>
                <p>Abban az időben nyalka huszárezred feküdt Trencsénben. Jó dolga volt a szép szőke
-                  trencséni <hi>szlecsinkáknak és nyevesztáknak</hi> (kisasszonyoknak
+                  trencséni szlecsinkáknak és nyevesztáknak (kisasszonyoknak
                   és menyecskéknek), mert a kolera miatt egy gyalogezredet is idehelyeztek, az
                   egészséges városba. Annyi tiszt lődörgött itt, hogy még a szeplős asszonyoknak is
                   hármával jutott udvarló. De valamennyi tiszt közt a legszebb fiú volt Noszty
@@ -507,9 +516,8 @@
             </div>
          <div type="chapter">
             <head>MÁSODIK FEJEZET</head>
-            <milestone unit="chapter"/>
-               <p><label>A KOPERECZKY-CSALÁD S FŐLEG NÉHÁNY SZÓ AZ ELŐBBI FEJEZETBEN SZEREPELT BÁRÓ
-                  KOPERECZKY IZRAEL IZSÁKRÓL</label></p>
+               <head>A KOPERECZKY-CSALÁD S FŐLEG NÉHÁNY SZÓ AZ ELŐBBI FEJEZETBEN SZEREPELT BÁRÓ
+                  KOPERECZKY IZRAEL IZSÁKRÓL</head>
                <p>Kétségen kívül feltűnik az olvasónak az Izrael Izsák kettős név s körülbelül így
                   okoskodik:</p>
                <p>Ha már az apja bolond volt, legalább a keresztszülőknek lehetett volna eszük.
@@ -6815,8 +6823,7 @@
             </div>
          <div type="chapter">
             <head>TIZENNEGYEDIK FEJEZET</head>
-            <milestone unit="chapter"/>
-               <p><label>A PATKÓ-LEGENDA KELETKEZÉSE ÉS SZÉTFOSZLÁSA</label></p>
+               <head>A PATKÓ-LEGENDA KELETKEZÉSE ÉS SZÉTFOSZLÁSA</head>
                <p>Biz az pedig valóságosan Velkovics Rozália volt és nincs benne semmi ördöngösség,
                   hogy ő volt, hiszen tudjuk, hogy Velkovics György uram és családja minden évben
                   Somlyón tölt néhány napot. Trencsénben más a bonton, mint egyebütt. A trencséni
@@ -9942,8 +9949,7 @@
             </div>
          <div type="chapter">
             <head>TIZENKILENCEDIK FEJEZET</head>
-            <milestone unit="chapter"/>
-               <p><label>A SZT. SEBESTYÉN-PIHENŐHÁZ ÉS A REKETTYÉSI KÚRIA, VALAMINT LAKÓI</label></p>
+               <head>A SZT. SEBESTYÉN-PIHENŐHÁZ ÉS A REKETTYÉSI KÚRIA, VALAMINT LAKÓI</head>
                <p>A mezernyei »Nagy korsóhoz« címzett vendéglőben, melyre olyan korsó van ráfestve,
                   hogy beleférne három akó sör, közönségesen két okos ember szokott esténként
                   sakkozni. Néha csak beszélgetnek s mindenkinek van egy rögeszméje. Az egyik okos

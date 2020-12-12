@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xml:id="SPA1001" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xml:id="SPA1001" xml:lang="SPA">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,23 +16,21 @@
 				<measure unit="pages">424</measure>
 			</extent>
 			<publicationStmt>
-				<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-				<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-				<date when="2019-01-05"/>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"/>
-				</availability>
-				<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+			<sourceDesc><bibl type="firstEdition">
 					<ref target="http://bdh-rd.bne.es/viewer.vm?id=0000246543">Biblioteca Digital Hispánica - Biblioteca Nacional de España</ref>
 					<publisher> Establecimiento Tipográfico de D. Francisco de P. Mellado</publisher>
 					<pubPlace>Madrid</pubPlace>
 					<date>1844</date>
 					<idno type="BDH">bdh0000246543</idno>
-				</bibl>
-				<bibl type="digitalSource">
+				</bibl><bibl type="digitalSource">
 					<publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
 					<pubPlace>Universidad de Alicante</pubPlace>
 					<ref target="http://www.cervantesvirtual.com/obra/el-senor-de-bembibre--0/">Biblioteca Virtual Miguel de Cervantes</ref>
@@ -41,8 +40,7 @@
 						<name>Alex Bia</name>
 						<name>Ana López Díaz</name>
 					</respStmt>
-				</bibl>
-				<bibl type="unspecified">
+				</bibl><bibl type="unspecified">
 					<publisher>Ediciones Cátedra</publisher>
 					<respStmt>
 						<name>Rubio Cremades, Enrique</name>
@@ -50,8 +48,7 @@
 					</respStmt>
 					<pubPlace>Madrid</pubPlace>
 					<date when="1986"/>
-				</bibl>
-			</sourceDesc>
+				</bibl></sourceDesc>
 		</fileDesc>
 		<encodingDesc n="eltec-1">
 			<p/>
@@ -69,6 +66,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2018-12-17">Anotación formato ELTeC y revisión del texto: Borja Navarro Colorado</change>
 		</revisionDesc>
 	</teiHeader>
@@ -271,7 +269,7 @@ de Arganza, y se apearon en la casa solariega de su señor, el
 ilustre don Alonso Ossorio.</p>
 	</div>
 
-	<div type="chapter"  n="SPA1001002">
+	<div type="chapter" n="SPA1001002">
 				<head>Capítulo II</head>
 				<p>Algo habrán columbrado ya nuestros
 lectores de la situación en que a la sazón se encontraba la familia
@@ -696,7 +694,7 @@ aquel momento, a pesar de su esfuerzo, se deshacía en lágrimas
 amargas.
     </p>
 			</div>
-			<div type="chapter"  n="SPA1001003">
+			<div type="chapter" n="SPA1001003">
 				<head>Capítulo III</head>
 				<p>Cuando don Álvaro dejó el palacio de
 Arganza, entre el tumulto de sentimientos que se disputaban su
@@ -1083,7 +1081,7 @@ donde al cabo de mucho desasosiego se rindió al sueño postrado con
 las extrañas escenas y sensaciones de aquel día.</p>
 		</div>
 
-		<div type="chapter"  n="SPA1001004">
+		<div type="chapter" n="SPA1001004">
 				<head>Capítulo IV</head>
 				<p>La caballería del templo de Salomón
 había nacido en el mayor fervor de las cruzadas, y los sacrificios
@@ -1515,7 +1513,7 @@ donde se entregó a tristes reflexiones.
     
 
 			</div>
-			<div type="chapter"  n="SPA1001005">
+			<div type="chapter" n="SPA1001005">
 				<head>Capítulo V</head>
 				<p>Aunque don Álvaro no fundase grandes
 esperanzas en su entrevista con el abad, todavía le causó sorpresa
@@ -1805,7 +1803,7 @@ deseándole buen sueño.
     
 
    </div>
-			<div type="chapter"  n="SPA1001006">
+			<div type="chapter" n="SPA1001006">
 				<head>Capítulo VI</head>
 				<p>La escena que acabamos de describir
 causó mucho desasosiego en el ánimo del señor de Arganza, porque
@@ -2013,7 +2011,7 @@ galgo.
     
 
 			</div>
-			<div type="chapter"  n="SPA1001007">
+			<div type="chapter" n="SPA1001007">
 				<head>Capítulo VII</head>
 				<p>El medio de que el señor de Arganza se
 había valido para arrancar del corazón de su hija el amor que tan
@@ -2354,7 +2352,7 @@ veredas excusadas llegaron prontamente a Bembibre.
    </div>
    
 
-   <div type="chapter"  n="SPA1001008">
+   <div type="chapter" n="SPA1001008">
     
 
     <head>
@@ -2761,7 +2759,7 @@ su celda.
    </div>
    
 
-   <div type="chapter"  n="SPA1001009">
+   <div type="chapter" n="SPA1001009">
     
 
     <head>
@@ -3238,7 +3236,7 @@ estuviesen ya por entonces al abrigo de los resultados.
    </div>
    
 
-   <div type="chapter"  n="SPA1001010">
+   <div type="chapter" n="SPA1001010">
     
 
     <head>
@@ -3732,7 +3730,7 @@ muy entrada la noche, la vuelta de Villabuena.
    </div>
    
 
-   <div type="chapter"  n="SPA1001011">
+   <div type="chapter" n="SPA1001011">
     
 
     <head>
@@ -4608,7 +4606,7 @@ calentura abrasadora, perdido el conocimiento, en medio de un
 delirio espantoso.
     </p>
     </div>
-   <div type="chapter"  n="SPA1001012">
+   <div type="chapter" n="SPA1001012">
     
 
     <head>
@@ -4897,7 +4895,7 @@ Tordehumos con grandes aprestos, bagajes y máquinas de guerra.
    </div>
    
 
-   <div type="chapter"  n="SPA1001013">
+   <div type="chapter" n="SPA1001013">
     
 
     <head>
@@ -5215,7 +5213,7 @@ completamente explicado el regocijo del buen palafrenero.
    </div>
    
 
-   <div type="chapter"  n="SPA1001014">
+   <div type="chapter" n="SPA1001014">
     
 
     <head>
@@ -5408,7 +5406,7 @@ desigual; tales eran los dolores que sus heridas le causaban.
    </div>
    
 
-   <div type="chapter"  n="SPA1001015">
+   <div type="chapter" n="SPA1001015">
     
 
     <head>
@@ -5841,7 +5839,7 @@ la fatal nueva.
    </div>
    
 
-   <div type="chapter"  n="SPA1001016">
+   <div type="chapter" n="SPA1001016">
     
 
     <head>
@@ -6166,7 +6164,7 @@ del Temple, después de infinitas mandas y limosnas.
    </div>
    
 
-   <div type="chapter"  n="SPA1001017">
+   <div type="chapter" n="SPA1001017">
     
 
     <head>
@@ -6432,7 +6430,7 @@ riquezas cabían en la estrechez y miseria del sepulcro.
    </div>
    
 
-   <div type="chapter"  n="SPA1001018">
+   <div type="chapter" n="SPA1001018">
     
 
     <head>
@@ -7163,7 +7161,7 @@ nogal que sombreaba el arroyo.
    </div>
    
 
-   <div type="chapter"  n="SPA1001019">
+   <div type="chapter" n="SPA1001019">
     
 
     <head>
@@ -7838,7 +7836,7 @@ juego cruel del destino, en objetos de desvío y de odio!
    </div>
    
 
-   <div type="chapter"  n="SPA1001020">
+   <div type="chapter" n="SPA1001020">
     
 
     <head>
@@ -8232,7 +8230,7 @@ algún tiempo.
    </div>
    
 
-   <div type="chapter"  n="SPA1001021">
+   <div type="chapter" n="SPA1001021">
     
 
     <head>
@@ -8696,7 +8694,7 @@ cierto, según hemos visto ya.
    </div>
    
 
-   <div type="chapter"  n="SPA1001022">
+   <div type="chapter" n="SPA1001022">
     
 
     <head>
@@ -9206,7 +9204,7 @@ volver, se partían sus ilusiones más dulces.
 
    </div>
 
-   <div type="chapter"  n="SPA1001023">
+   <div type="chapter" n="SPA1001023">
     
 
     <head>
@@ -9566,7 +9564,7 @@ desprendimiento.
    </div>
    
 
-   <div type="chapter"  n="SPA1001024">
+   <div type="chapter" n="SPA1001024">
     
 
     <head>
@@ -9953,7 +9951,7 @@ bien ajenos de la suerte que su sino fatal les preparaba.
    </div>
    
 
-   <div type="chapter"  n="SPA1001025"> 
+   <div type="chapter" n="SPA1001025"> 
     
 
     <head>
@@ -10479,7 +10477,7 @@ siguiente.
    </div>
    
 
-   <div type="chapter"  n="SPA1001026">
+   <div type="chapter" n="SPA1001026">
     
 
     <head>
@@ -10941,7 +10939,7 @@ entrada en Cornatel fue un verdadero triunfo.
    </div>
    
 
-   <div type="chapter"  n="SPA1001027">
+   <div type="chapter" n="SPA1001027">
     
 
     <head>
@@ -11390,7 +11388,7 @@ entre mis garras serás tú quien me los arranque de ellas?
    </div>
    
 
-   <div type="chapter"  n="SPA1001028">
+   <div type="chapter" n="SPA1001028">
     
 
     <head>
@@ -12128,7 +12126,7 @@ natural destino.
    </div>
    
 
-   <div type="chapter"  n="SPA1001029">
+   <div type="chapter" n="SPA1001029">
     
 
     <head>
@@ -12613,7 +12611,7 @@ resplandeciente.
    </div>
    
 
-   <div type="chapter"  n="SPA1001030">
+   <div type="chapter" n="SPA1001030">
     
 
     <head>
@@ -13093,7 +13091,7 @@ concilio provincial.
    </div>
    
 
-   <div type="chapter"  n="SPA1001031">
+   <div type="chapter" n="SPA1001031">
     
 
     <head>
@@ -13490,7 +13488,7 @@ alborotada a la cristiandad entera.
    </div>
    
 
-   <div type="chapter"  n="SPA1001032">
+   <div type="chapter" n="SPA1001032">
     
 
     <head>
@@ -14084,7 +14082,7 @@ Lucifer del profeta, se había caído del cielo.
    </div>
    
 
-   <div type="chapter"  n="SPA1001033">
+   <div type="chapter" n="SPA1001033">
     
 
     <head>
@@ -14546,7 +14544,7 @@ nuevas, que no era otro sino nuestro buen amigo Cosme Andrade.
    </div>
    
 
-   <div type="chapter"  n="SPA1001034">
+   <div type="chapter" n="SPA1001034">
     
 
     <head>
@@ -14989,7 +14987,7 @@ antigua alegría. ¡Todo menos el corazón de su señor!
    </div>
    
 
-   <div type="chapter"  n="SPA1001035">
+   <div type="chapter" n="SPA1001035">
     
 
     <head>
@@ -15806,7 +15804,7 @@ esperarse de aquella noche.
    </div>
    
 
-   <div type="chapter"  n="SPA1001036">
+   <div type="chapter" n="SPA1001036">
     
 
     <head>
@@ -16205,7 +16203,7 @@ los hombres alquitrán y plomo derretido.
    </div>
    
 
-   <div type="chapter"  n="SPA1001037">
+   <div type="chapter" n="SPA1001037">
     
 
     <head>
@@ -16731,7 +16729,7 @@ aquella terrible enfermedad que ya tocaba a su término.
    </div>
    
 
-   <div type="chapter"  n="SPA1001038">
+   <div type="chapter" n="SPA1001038">
     
 
     <head>
@@ -17232,7 +17230,7 @@ de las leyes más dulces de la naturaleza.</p>
 		</div>
 	</body>
 	<back>
-		<div  type="liminal">
+		<div type="liminal">
 		<head>Conclusión</head>
 		<p>El manuscrito de que hemos sacado esta
 lamentable historia anda muy escaso en punto a noticias sobre el

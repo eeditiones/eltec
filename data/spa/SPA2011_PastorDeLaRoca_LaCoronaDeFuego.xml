@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2011" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2011" xml:lang="SPA">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -16,34 +17,29 @@
     <measure unit="vols">6</measure>
    </extent>
    <publicationStmt>
-    <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary
-     History" (CA16204)</publisher>
-    <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-    <date when="2019-01-20"/>
-    <availability>
-     <licence target="https://creativecommons.org/licenses/by/4.0/"/>
-    </availability>
-    <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435"/>
-   </publicationStmt>
-   <sourceDesc>
-    <bibl type="firstEdition">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
+</publicationStmt>
+   <sourceDesc><bibl type="firstEdition">
      <pubPlace>Madrid</pubPlace>
      <date>1863</date>
-     <publisher>J. Sierra Ponzano</publisher>- </bibl>
-    <bibl type="digitalSource">
+     <publisher>J. Sierra Ponzano</publisher>- </bibl><bibl type="digitalSource">
      <publisher>Biblioteca Virtual Miguel de Cervantes Saavedra</publisher>
      <pubPlace>Universidad de Alicante</pubPlace>
      <idno>001129</idno>
-     <ref
-      target="http://www.cervantesvirtual.com/obra/la-corona-de-fuego-o-los-subterraneos-de-las-torres-de-altamira--0/"/>
+     <ref target="http://www.cervantesvirtual.com/obra/la-corona-de-fuego-o-los-subterraneos-de-las-torres-de-altamira--0/"/>
      <date when="2015"/>
      <respStmt>
       <resp>Corrección del texto, etiquetado XML-TEI y edición Biblioteca Virtual Miguel de
        Cervantes</resp>
       <name>Josefina Carrión</name>
      </respStmt>
-    </bibl>
-   </sourceDesc>
+    </bibl></sourceDesc>
   </fileDesc>
   <encodingDesc n="eltec-1">
    <p/>
@@ -61,6 +57,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-04-21">Anotación formato ELTeC y correcciones varias: Borja Navaro
     Colorado</change>
   </revisionDesc>
@@ -782,8 +779,7 @@
     <p>Sacó del pecho un ramo simbólico de flores, algo ajado ya y que tuvo ocasión de componer
      aquel mismo día a prevención, y lo arrojó resueltamente a cierto punto junto al cenador, por
      donde debiera pasar precisamente la joven árabe.</p>
-    <p>Contenía solo estas tres flores enigmáticas: mirto, balsamina y amigdálida<ref
-      target="#SPA2011N01">[1]</ref>.</p>
+    <p>Contenía solo estas tres flores enigmáticas: mirto, balsamina y amigdálida<ref target="#SPA2011N01">[1]</ref>.</p>
     <p>El ramillete permaneció largo rato en tierra, lo cual fue un signo de desesperación para el
      pretendiente, cuya imprudente osadía iba acaso a costarle cara, si su empeño recibía una
      negativa o un desprecio.</p>
@@ -4310,8 +4306,7 @@
       cierto os honran, en nombre del soberano de quien soy emisario, os absolviera en su nombre del
       nuevo juramento, si lo hicierais, aconsejándoos y restituyéndoos a vuestra opinión
       primitiva.</p>
-     <p>Hablando así, ambos personajes remontaban entonces el Monte-del-Gozo o del Humilladoiro<ref
-       target="#SPA2011N04">[4]</ref>, pintoresca eminencia desde la cual veíanse, a través de la
+     <p>Hablando así, ambos personajes remontaban entonces el Monte-del-Gozo o del Humilladoiro<ref target="#SPA2011N04">[4]</ref>, pintoresca eminencia desde la cual veíanse, a través de la
       vaporosa neblina, las torres y cúpulas de la ciudad santificada por el sepulcro del Apóstol
       tutelar de España y los bultos indecisos de sus monumentos, que semejantes a los diseños medio
       borrados de un cuadro, vagaban en el límpido tinte del crepúsculo.</p>
@@ -5218,8 +5213,7 @@
       y cuya herida era mortal.</p>
      <p>Vestía al estilo árabe, y en su alquicel de grana escarlata, campeaban africanas lunas y
       otros atributos, cifras e inscripciones, repitiéndose profusamente en caracteres cúficos el
-      tema dogmático y sacramental de los sectarios de Mahoma: LE GALIB ILLE ALLAH<ref
-       target="#SPA2011N07">[7]</ref>.</p>
+      tema dogmático y sacramental de los sectarios de Mahoma: LE GALIB ILLE ALLAH<ref target="#SPA2011N07">[7]</ref>.</p>
      <p>La atmósfera enrarecida, condensada por aquella nube rosada de humo y vapores, daba a los
       objetos un colorido mágico y a través de ella aparecía en primer término aquel anciano de
       rostro indefinible, pero en cuyas atezadas facciones no era difícil traslucir una aspereza
@@ -5296,7 +5290,7 @@
      <p>La dueña, a quien había aludido el anciano, muda espectadora de aquella escena, marcó un
       signo de asentimiento hipócrita a las palabras del árabe, el cual continuó con uno de aquellos
       arranques de colérica rabia:</p>
-     <p>-Yo era un poderoso arráez<ref target="#SPA2011N09">[9]</ref> argelino que tenía a la mar
+     <p>-Yo era un poderoso arráez argelino que tenía a la mar
       por patria, libre, feliz y dueño de la inmensidad, dominando como un bajá en mi capitana de
       tres puentes, rodeado de esclavas bellas como houríes... poseía alcázares de mármol, jardines,
        taifas<ref target="#SPA2011N10">[10]</ref> aguerridas, pabellones de granete, bellos y
@@ -6801,8 +6795,7 @@
       hay que tomar en cuenta los inconvenientes del camino.</p>
      <p>-Ea, pues, abreviad si os place, puesto que tanto os urge la marcha, ca en negocios de tal
       monta, ocioso fuera entraros en detenimiento, y penoso por demás faceros andar desasosegado e
-      mustio, e por ende asaz desabrido como un cuitado o como un malandrín de cierto jaez<ref
-       target="#SPA2011N13">[13]</ref>.</p>
+      mustio, e por ende asaz desabrido como un cuitado o como un malandrín de cierto jaez<ref target="#SPA2011N13">[13]</ref>.</p>
      <p>-Sí, tenéis razón, abreviemos, repuso el monje, el cual acercó todavía más el sillón a la
       cabecera del rey, que le escuchaba con marcado asombro, medio incorporado sobre la
       almohada.</p>
@@ -8843,8 +8836,7 @@
       les dejara libres.</p>
      <p>-De buen grado me pondría en manos del señor conde, dijo con una mansedumbre edificante; y
       aunque estoy seguro que correría indudablemente al martirio, no importa, me hallo dispuesto a
-      todo; pero mi misión en el mundo todavía no está cumplida: id y decidlo así a vuestro amo<ref
-       target="#SPA2011N15">[15]</ref>.</p>
+      todo; pero mi misión en el mundo todavía no está cumplida: id y decidlo así a vuestro amo<ref target="#SPA2011N15">[15]</ref>.</p>
      <p>Estas palabras dirigidas al caudillo de los de Altamira, produjeron efecto en su ánimo:
       aquel hombre pareció conmoverse.</p>
      <p>-No creáis, repuso, que es mi voluntad tan depravada que me lleve hasta el sacrílego extremo
@@ -9333,9 +9325,7 @@
       desgracia en estos tiempos de disturbios, y de la cual y sus consecuencias trataban de
       aprovecharse aquellos de común acuerdo con el emisario, pronto por su parte a jugar en esta
       partida hasta su vida misma, si fuere necesario.</p>
-     <p>Reinaba a la sazón en Toledo Yahyah-Ben-Ismail-el-Mahmun<ref target="#SPA2011N17"
-      >[17]</ref>, príncipe generoso y magnánimo, del cual conservamos más de un recuerdo grato<ref
-       target="#SPA2011N18">[18]</ref>. Sus talentos diplomáticos adelantáronse a todo, y
+     <p>Reinaba a la sazón en Toledo Yahyah-Ben-Ismail-el-Mahmun, príncipe generoso y magnánimo, del cual conservamos más de un recuerdo grato<ref target="#SPA2011N18">[18]</ref>. Sus talentos diplomáticos adelantáronse a todo, y
       adelantáronse además al designio mismo de los monarcas cristianos. Pero su plan fracasó por
       desgracia, y el regio embajador hubo medio de huir, llevando consigo una hermosísima joven
       casi niña, delicada y tierna, llamada Hormesinda, nombre tradicional que le impusieran en
@@ -12224,25 +12214,26 @@
    </div>
   </body>
   <back>
+  	<div type="notes">
    <note xml:id="SPA2011N01"><p>Emblema amoroso que significa: <emph>Os amo ardientemente, y aguardo
       con impaciencia el instante en que os dignéis concederme una cita, si de ese favor me juzgáis
       merecedor.</emph></p></note>
    <note xml:id="SPA2011N02"><p>Significa: <emph>Sed discreto y esperad.</emph></p></note>
-   <note target="SPA2011N03"><p>Sobre esta colina empezó a construirse la célebre y fabulosa
+   <note xml:id="SPA2011N03"><p>Sobre esta colina empezó a construirse la célebre y fabulosa
      Alhambra en 1247.</p></note>
-   <note target="SPA2011N04"><p>Hoy se llama altura o collado de San Marcos. </p></note>
-   <note target="SPA2011N05"><p>Hoy se hallan comprendidos dentro del muro y forman parte de la
+   <note xml:id="SPA2011N04"><p>Hoy se llama altura o collado de San Marcos. </p></note>
+   <note xml:id="SPA2011N05"><p>Hoy se hallan comprendidos dentro del muro y forman parte de la
      ciudad.</p></note>
-   <note target="SPA2011N06"><p> Llámase hoy del <emph>Morovello</emph> (moro viejo), desde la fecha
+   <note xml:id="SPA2011N06"><p> Llámase hoy del <emph>Morovello</emph> (moro viejo), desde la fecha
      de que vamos hablando y aludiendo al personaje que presentaremos en él, y cuyo pasaje es
      rigurosamente histórico, según la tradición.</p></note>
-   <note target="SPA2011N07"><p>Sólo Dios es grande o vencedor.</p></note>
-   <note target="SPA2011N08"><p>Demonio o espíritu tentador y maldito entre los
+   <note xml:id="SPA2011N07"><p>Sólo Dios es grande o vencedor.</p></note>
+   <note xml:id="SPA2011N08"><p>Demonio o espíritu tentador y maldito entre los
     musulmanes.</p></note>
-   <note target="SPA2011N09"><p>Capitán de buque árabe, a veces corsario o ladrón de mar, cuya
+   <note xml:id="SPA2011N09"><p>Capitán de buque árabe, a veces corsario o ladrón de mar, cuya
      acepción parece mejor recibida.</p></note>
-   <note target="SPA2011N10"><p>Compañía o partida de gente armada.</p></note>
-   <note target="SPA2011N11"><p>D. Fernando el de Castilla, en su testamento, dividió sus Estados en
+   <note xml:id="SPA2011N10"><p>Compañía o partida de gente armada.</p></note>
+   <note xml:id="SPA2011N11"><p>D. Fernando el de Castilla, en su testamento, dividió sus Estados en
      esta forma entre sus tres hijos: a D. Sancho el Mayor señaló el reino de Castilla, con otras
      provincias anejas; a D. Alonso o Alfonso, de quien vamos hablando en esta obra, el reino de
      León, con gran extensión de territorio; y a D. García, Galicia y Portugal en parte; habiendo
@@ -12255,27 +12246,26 @@
      hicieron jurar en manos del Cid, el único que se atrevió a ello, que no había tenido
      participación en la muerte de su hermano; desaire que no perdonó jamás el de León al Cid, por
      más que le disimuló al pronto.</p></note>
-   <note target="SPA2011N12"><p>Esla, Ezla, antes Astura; río que nace en las montañas de
+   <note xml:id="SPA2011N12"><p>Esla, Ezla, antes Astura; río que nace en las montañas de
     León.</p></note>
-   <note target="SPA2011N13"><p>Textual e histórico, según la crónica inserta en un códice coetáneo.
+   <note xml:id="SPA2011N13"><p>Textual e histórico, según la crónica inserta en un códice coetáneo.
       (<title>Anales de Galicia y fastos de Compostela</title>; en el archivo de
     Simancás).</p></note>
-   <note target="SPA2011N14"><p> Hay quien afirma que fue su fundador D. Diego Gelmirez, último
+   <note xml:id="SPA2011N14"><p> Hay quien afirma que fue su fundador D. Diego Gelmirez, último
      obispo y primer arzobispo compostelano; pero es más creíble lo fuese Gudesteo, según nuestras
      investigaciones.</p></note>
-   <note target="SPA2011N15"><p>Histórico (<title>Fastos de Compostela</title>).</p></note>
-   <note target="SPA2011N16"><p>Textual e histórico. </p></note>
-   <note target="SPA2011N17"><p>El Afamado. Apellidábanle también Dzu-el-Madj-el-Dirk, o Madjedyn.
+   <note xml:id="SPA2011N15"><p>Histórico (<title>Fastos de Compostela</title>).</p></note>
+   <note xml:id="SPA2011N16"><p>Textual e histórico. </p></note>
+   <note xml:id="SPA2011N17"><p>El Afamado. Apellidábanle también Dzu-el-Madj-el-Dirk, o Madjedyn.
     </p></note>
-   <note target="SPA2011N18"><p>Alfonso VI fue aliado constante del rey de Toledo, cuya hospitalidad
+   <note xml:id="SPA2011N18"><p>Alfonso VI fue aliado constante del rey de Toledo, cuya hospitalidad
      disfrutó largo tiempo cuando la fortuna no le fue próspera, llevando hasta tal punto su
      esplendidez Yabyab, que puso a disposición de aquél un palacio y una servidumbre enteramente
      cristiana y hasta un oratorio donde pudiese, sin salir de aquél, ejercitarse con plena libertad
      el culto católico.</p></note>
-   <note target="SPA2011N19"><p>Hay autores que varían esta fecha.</p>
+   <note xml:id="SPA2011N19"><p>Hay autores que varían esta fecha.</p>
    </note>
-
-
+	</div>
   </back>
  </text>
 </TEI>

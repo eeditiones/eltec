@@ -8,9 +8,13 @@
     <fileDesc>
       <titleStmt>
         <title ref="viaf:644145424532886830955 wikidata:Q3224087">le Loup blanc : édition ELTeC</title>
-        <author xml:id="FévalPH" ref="viaf:17222447 wikidata:Q472568">Féval, Paul Henri Corentin [dit Paul Féval père] (1816-1887)</author>
+        <author ref="viaf:17222447 wikidata:Q472568">Féval, Paul Henri Corentin [dit Paul Féval père] (1816-1887)</author>
         <respStmt>
-          <resp>principal</resp>
+          <resp>Principal investigator</resp>
+          <name>Christof Schöch</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
           <name>Christof Schöch</name>
         </respStmt>
       </titleStmt>
@@ -21,21 +25,32 @@
       <publicationStmt>
         <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
         <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2019-11-04" />
+        <date when="2020-11-14" />
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/" />
         </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435" />
-        <!--
-          Published as part of ELTeC
-          2018-11-01
-        -->
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
+          <title>Le loup blanc</title>
+          <author>Paul Féval</author>
           <publisher>Ebooks libres et gratuits</publisher>
         </bibl>
+        <bibl type="printSource">
+          <title>Le loup blanc</title>
+          <author>Paul Féval</author>
+          <publisher>V. Palmé</publisher>
+          <pubPlace>Paris</pubPlace>
+          <date>1883</date>
+          <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k80334r" />
+        </bibl>
         <bibl type="firstEdition">
+          <title>Le loup blanc</title>
+          <author>Paul Féval</author>
           <pubPlace>Paris</pubPlace>
           <publisher>Chlendowski</publisher>
           <date>1845</date>
@@ -63,6 +78,8 @@
       </textDesc>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-14">Converted by checkUp script for new release</change>
+      <change when="2020-11-14">Checked by checkup script</change>
       <change when="2019-11-04">Checked by releaseChecker script</change>
       <change when="2018-11-01">Conversion with CLIGStoELTeC stylesheet for ELTeC-1</change>
       <change when="2015-08-12">cf Initial TEI version.</change>
