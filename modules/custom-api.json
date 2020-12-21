@@ -149,7 +149,7 @@
                 ],
                 "responses": {
                     "200":{
-                        "description": "Version information about this service",
+                        "description": "Query results and facet counts",
                         "content": {
                             "application/json":{
                                 "schema":{
