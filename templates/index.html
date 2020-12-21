@@ -248,6 +248,15 @@
                 flex: 1;
             }
 
+            .search-button {
+                margin: 5px 0px -10px 90px;
+                font-weight: bolder;
+            }
+
+            .search-button iron-icon {
+                color: cadetblue;
+            }
+
         </style>
     </custom-style>
 </head>
@@ -321,7 +330,7 @@
                             <div class="card-content">
                                 <div class="browse" slot="page">
                                     <pb-custom-form id="facets" url="api/search/facets" event="pb-results-received" subscribe="docs" emit="docs">
-                                        <paper-button slot="searchButton"><iron-icon icon="icons:search"/>submit</paper-button>                                        
+                                        <paper-button slot="searchButtonTop" class="search-button"><iron-icon icon="icons:search"/>submit</paper-button>                                        
                                     </pb-custom-form>
                                     <pb-browse-docs id="document-list" url="api/collection/" sort-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;browse.author&#34;, &#34;value&#34;: &#34;author&#34;}]" 
                                     sort-by="title" filter-options="[{&#34;label&#34;: &#34;browse.title&#34;, &#34;value&#34;: &#34;title&#34;},{&#34;label&#34;: &#34;browse.author&#34;, &#34;value&#34;: &#34;author&#34;},{&#34;label&#34;: &#34;browse.file&#34;, &#34;value&#34;: &#34;file&#34;}]" 
