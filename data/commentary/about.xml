@@ -2,7 +2,8 @@
 <?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?teipublisher odd="docbook.odd" template="documentation.html" depth="3" fill="2"?>
-<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+ version="5.1">
  <info>
   <title>About ELTeC application</title>
   <author>
@@ -13,18 +14,26 @@
 
  <section xml:id="introduction">
   <title>Introduction</title>
-  <para>This is a TEI Publisher-based application aggregating the ELTeC literary texts encoded at ELTeC Level 1 (where available) for quick, facetted browsing, visualisation and full text search (see canonical releases of the datasets). All texts included in this collection are in the public domain.</para>
+  <para>This is a TEI Publisher-based application aggregating the ELTeC literary texts encoded at
+   ELTeC Level 1 (where available) for quick, facetted browsing, visualisation and full text search
+   (see canonical releases of the datasets). All texts included in this collection are in the public
+   domain.</para>
 
-  <para>This application was developed by Magdalena Turska and is released under GNU General Public License v3.0.</para>
+  <para>This application was developed by Magdalena Turska and is released under GNU General Public
+   License v3.0.</para>
 
   <note>
-   <para>ELTeC European Literary Text Collection, version 0.5.0, November 2019, edited by Carolin Odebrecht, Lou Burnard and Christof Schöch. COST Action Distant Reading for European Literary History (CA16204). <link xlink:href="http://doi.org/10.5281/zenodo.3462436">DOI</link></para>
+   <para>ELTeC European Literary Text Collection, version 0.5.0, November 2019, edited by Carolin
+    Odebrecht, Lou Burnard and Christof Schöch. COST Action Distant Reading for European Literary
+    History (CA16204). <link xlink:href="http://doi.org/10.5281/zenodo.3462436">DOI</link></para>
   </note>
  </section>
  <section xml:id="motivation">
   <title>Motivation</title>
   <para>a commentary on conducting the project</para>
-  <para>Beyond the direct purpose of presenting the ELTeC corpus texts, the application code itself and this accompanying commentary is intended for self-study by TEI practitioners looking for a case study guide: how to publish a larger corpus of TEI encoded material online.</para>
+  <para>Beyond the direct purpose of presenting the ELTeC corpus texts, the application code itself
+   and this accompanying commentary is intended for self-study by TEI practitioners looking for a
+   case study guide: how to publish a larger corpus of TEI encoded material online.</para>
  </section>
  <section xml:id="encoding">
   <title>Encoding</title>
@@ -32,49 +41,121 @@
   <!--  <para>schema, data selection, constraints and considerations, tools and methods for
             encoding</para>-->
 
-  <para>ELTeC (European Literary Text Collection) is one of the chief deliverables of EU-funded COST action CA 16204 "Distant Reading", developed between 2017 and 2021 (see further https://www.distant-reading.net/eltec/). Its encoding and design are exhaustively described in a number of working papers; see in particular a short summary paper presented at the TEI 2019 conference in Graz (https://doi.org/10.5281/zenodo.3552489).</para>
-  <para>As noted in that paper, the focus of the ELTeC encoding scheme is not to represent texts in all their original complexity, nor to duplicate the work of scholarly editors, but rather to facilitate a richer and better-informed distant reading than a transcription of lexical content alone would permit. Where the TEI permits diversity, ELTeC enforces consistency, permitting only a specific and quite small set of textual features, both structural and lexical, along with a tightly constrained metadata scheme. </para>
-  <para>Following this "No Surprises" principle, the simplest ELTeC schema (the level zero schema) provides a bare minimum of tags to mark up the typical structure and content of a nineteenth century novel. All preliminary matter other than the title-page and any authorial preface or introduction is discarded; the remainder is marked as a <tag class="genentity">div</tag> of <tag class="attribute">type</tag>
-   <tag class="attvalue">titlepage</tag> or <tag class="attvalue">liminal</tag>, within a <tag class="genentity">front</tag> element. Within the <tag class="genentity">body</tag> of a text, the <tag class="genentity">div</tag> element is also used to make explicit its structural organization, with <tag class="attribute">type</tag> attribute values <tag class="attvalue">part</tag>, <tag class="attvalue">chapter</tag>, or <tag class="attvalue">letter</tag> only. A chapter is considered to be the smallest subsection of a novel within which paragraphs of text appear directly. Further subdivisions within a chapter (often indicated conventionally by ellipses, dashes, stars etc.) are marked using the <tag class="genentity">milestone</tag> element; larger groupings of <tag class="genentity">div</tag> elements are indicated by <tag class="genentity">div</tag> elements, always of type <tag class="attvalue">group</tag>, whatever their hierarchic level. Headings, at whatever level, are always
-   marked using the <tag class="genentity">head</tag> element when appearing at the start of a <tag class="genentity">div</tag>, and the <tag class="genentity">trailer</tag> element when appearing at the end. Within the <tag class="genentity">div</tag> element, only a very limited number of elements is permitted: specifically, in addition to those already mentioned, <tag class="genentity">p</tag> or <tag class="genentity">l</tag> (verse line). Within these elements we find either plain text, <tag class="genentity">hi</tag> (highlighted), <tag class="genentity">pb</tag> (page break) or <tag class="genentity">milestone</tag> elements. It was agreed that it would be practical to require only this tiny subset of the TEI for all ELTeC texts. </para>
-  <para>In practice, however, encoders found it both feasible and desirable to expand slightly on this very restricted set of textual distinctions, and the majority of ELTeC corpora use a slightly larger element set, known as eltec level one. </para>
+  <para>ELTeC (European Literary Text Collection) is one of the chief deliverables of EU-funded COST
+   action CA 16204 "Distant Reading", developed between 2017 and 2021 (see further
+   https://www.distant-reading.net/eltec/). Its encoding and design are exhaustively described in a
+   number of working papers; see in particular a short summary paper presented at the TEI 2019
+   conference in Graz (https://doi.org/10.5281/zenodo.3552489).</para>
+  <para>As noted in that paper, the focus of the ELTeC encoding scheme is not to represent texts in
+   all their original complexity, nor to duplicate the work of scholarly editors, but rather to
+   facilitate a richer and better-informed distant reading than a transcription of lexical content
+   alone would permit. Where the TEI permits diversity, ELTeC enforces consistency, permitting only
+   a specific and quite small set of textual features, both structural and lexical, along with a
+   tightly constrained metadata scheme. </para>
+  <para>Following this "No Surprises" principle, the simplest ELTeC schema (the level zero schema)
+   provides a bare minimum of tags to mark up the typical structure and content of a nineteenth
+   century novel. All preliminary matter other than the title-page and any authorial preface or
+   introduction is discarded; the remainder is marked as a <tag class="genentity">div</tag> of <tag
+    class="attribute">type</tag>
+   <tag class="attvalue">titlepage</tag> or <tag class="attvalue">liminal</tag>, within a <tag
+    class="genentity">front</tag> element. Within the <tag class="genentity">body</tag> of a text,
+   the <tag class="genentity">div</tag> element is also used to make explicit its structural
+   organization, with <tag class="attribute">type</tag> attribute values <tag class="attvalue"
+    >part</tag>, <tag class="attvalue">chapter</tag>, or <tag class="attvalue">letter</tag> only. A
+   chapter is considered to be the smallest subsection of a novel within which paragraphs of text
+   appear directly. Further subdivisions within a chapter (often indicated conventionally by
+   ellipses, dashes, stars etc.) are marked using the <tag class="genentity">milestone</tag>
+   element; larger groupings of <tag class="genentity">div</tag> elements are indicated by <tag
+    class="genentity">div</tag> elements, always of type <tag class="attvalue">group</tag>, whatever
+   their hierarchic level. Headings, at whatever level, are always marked using the <tag
+    class="genentity">head</tag> element when appearing at the start of a <tag class="genentity"
+    >div</tag>, and the <tag class="genentity">trailer</tag> element when appearing at the end.
+   Within the <tag class="genentity">div</tag> element, only a very limited number of elements is
+   permitted: specifically, in addition to those already mentioned, <tag class="genentity">p</tag>
+   or <tag class="genentity">l</tag> (verse line). Within these elements we find either plain text,
+    <tag class="genentity">hi</tag> (highlighted), <tag class="genentity">pb</tag> (page break) or
+    <tag class="genentity">milestone</tag> elements. It was agreed that it would be practical to
+   require only this tiny subset of the TEI for all ELTeC texts. </para>
+  <para>In practice, however, encoders found it both feasible and desirable to expand slightly on
+   this very restricted set of textual distinctions, and the majority of ELTeC corpora use a
+   slightly larger element set, known as eltec level one. </para>
   <para> At level 1, the following additional distinctions may be made in an encoding: <itemizedlist>
     <listitem>
-     <para>the <tag class="genentity">label</tag> element may be used for heading-like titles appearing in the middle of a division;</para>
+     <para>the <tag class="genentity">label</tag> element may be used for heading-like titles
+      appearing in the middle of a division;</para>
     </listitem>
     <listitem>
-     <para>the <tag class="genentity">quote</tag> element may be used to distinguish passages such as quotations, epigraphs, stretches of verse, letters etc. embedded  in the running text; </para>
+     <para>the <tag class="genentity">quote</tag> element may be used to distinguish passages such
+      as quotations, epigraphs, stretches of verse, letters etc. embedded in the running text;
+     </para>
     </listitem>
     <listitem>
-     <para>the <tag class="genentity">corr</tag> element may be used to indicate a passage (typically a word or phrase) which is clearly erroneous or nonstandard in the original and which has been editorially corrected; </para>
+     <para>the <tag class="genentity">corr</tag> element may be used to indicate a passage
+      (typically a word or phrase) which is clearly erroneous or nonstandard in the original and
+      which has been editorially corrected; </para>
     </listitem>
     <listitem>
-     <para>the elements <tag class="genentity">foreign</tag>, <tag class="genentity">emph</tag>, or <tag class="genentity">title</tag> are available and should be used in preference to <tag class="genentity">hi</tag> for passages rendered in a different font or otherwise made visually salient in the source, where an encoder can do so with confidence; </para>
+     <para>the elements <tag class="genentity">foreign</tag>, <tag class="genentity">emph</tag>, or
+       <tag class="genentity">title</tag> are available and should be used in preference to <tag
+       class="genentity">hi</tag> for passages rendered in a different font or otherwise made
+      visually salient in the source, where an encoder can do so with confidence; </para>
     </listitem>
     <listitem>
-     <para>the element <tag class="genentity">gap</tag> may be used to indicate where some component of a source (typically an illustration) has been left out; </para>
+     <para>the element <tag class="genentity">gap</tag> may be used to indicate where some component
+      of a source (typically an illustration) has been left out; </para>
     </listitem>
     <listitem>
-     <para>the elements <tag class="genentity">note</tag> and <tag class="genentity">ref</tag> may be used to capture the location and content of authorially supplied footnotes or end-notes; wherever they occur in the source, notes must be collected together in a <tag>div type="notes"</tag> within a <tag class="genentity">back</tag> element.</para>
+     <para>the elements <tag class="genentity">note</tag> and <tag class="genentity">ref</tag> may
+      be used to capture the location and content of authorially supplied footnotes or end-notes;
+      wherever they occur in the source, notes must be collected together in a <tag>div
+       type="notes"</tag> within a <tag class="genentity">back</tag> element.</para>
     </listitem>
    </itemizedlist>
   </para>
-  <para>Texts for inclusion in ELTeC came from many different sources. In most, though not all, cases texts were adapted from previously existing digital versions in other formats, typically HTML or ePub, though there were also a few existing (and much richer) TEI versions. In other cases, texts were available only in visual formats (PDF etc.) which had to be retyped or processed with an OCR system. A wide variety of different tools were used.</para>
-  <para>To facilitate co-operation and consistency of practice, the texts were all stored and managed as a suite of github repositories. As well as syntactic validation of the texts against the ELTeC schema using an XML parser, special purpose XSLT stylesheets were used to check in detail practice across the project, notably as regards the format of metadata in the header. </para>
-  <para>Training material and workshops were also produced to help would-be contributors to the project: see, for example, <link xlink:href="https://distantreading.github.io/distantreading.github.io/Training/Budapest/encodingGuide-1.html"/> and <link xlink:href="https://distantreading.github.io/distantreading.github.io/Training/Budapest/encodingGuide-2.html"/></para>
+  <para>Texts for inclusion in ELTeC came from many different sources. In most, though not all,
+   cases texts were adapted from previously existing digital versions in other formats, typically
+   HTML or ePub, though there were also a few existing (and much richer) TEI versions. In other
+   cases, texts were available only in visual formats (PDF etc.) which had to be retyped or
+   processed with an OCR system. A wide variety of different tools were used.</para>
+  <para>To facilitate co-operation and consistency of practice, the texts were all stored and
+   managed as a suite of github repositories. As well as syntactic validation of the texts against
+   the ELTeC schema using an XML parser, special purpose XSLT stylesheets were used to check in
+   detail practice across the project, notably as regards the format of metadata in the header. </para>
+  <para>Training material and workshops were also produced to help would-be contributors to the
+   project: see, for example, <link
+    xlink:href="https://distantreading.github.io/distantreading.github.io/Training/Budapest/encodingGuide-1.html"
+   /> and <link
+    xlink:href="https://distantreading.github.io/distantreading.github.io/Training/Budapest/encodingGuide-2.html"
+   /></para>
 
  </section>
  <section xml:id="development">
   <title>Application development</title>
-  <para>This chapter discusses the steps that allowed me to publish the TEI-encoded ELTeC documents online. I tried to document and explain not only what I did but also reasoning behind my actions.</para>
+  <para>This chapter discusses the steps that allowed me to publish the TEI-encoded ELTeC documents
+   online. I tried to document and explain not only what I did but also reasoning behind my
+   actions.</para>
   <note>
-   <para>I have been working with the setup based on eXist database and used tools and methods I personally find best for the job. There are, nevertheless, other possible solutions, based on alternative technological choices.</para>
+   <para>I have been working with the setup based on eXist database and used tools and methods I
+    personally find best for the job. There are, nevertheless, other possible solutions, based on
+    alternative technological choices.</para>
   </note>
   <section xml:id="generate">
    <title>Generate the base app</title>
-   <para>A point of exit <!-- dont you mean "entrance" ? or you could say  "starting point" -->for this application is the <link xlink:href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=appgen" xlink:show="new">TEI Publisher's app generator</link>. TEI Publisher is an open source tool which enables scholars and editors to publish their XML-encoded material in a standard-based, modular, interoperable, and sustainable manner. If you are not familiar with the TEI Publisher, see its <link xlink:href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml" xlink:show="new">documentation</link> to learn more.</para>
-   <para>With the TEI Publisher you can easily create a complete, standalone application which can be tailored further to fit your needs. The generated app can be downloaded as a portable xar package, to be installed into any eXist-db instance. It provides a fully functional application scaffolding based on TEI Publisher components and modules.</para>
-   <para>For the ELTeC application I have used Publisher application generator, supplying basic configuration information:</para>
+   <para>A point of exit <!-- dont you mean "entrance" ? or you could say  "starting point" -->for
+    this application is the <link
+     xlink:href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=appgen"
+     xlink:show="new">TEI Publisher's app generator</link>. TEI Publisher is an open source tool
+    which enables scholars and editors to publish their XML-encoded material in a standard-based,
+    modular, interoperable, and sustainable manner. If you are not familiar with the TEI Publisher,
+    see its <link
+     xlink:href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml"
+     xlink:show="new">documentation</link> to learn more.</para>
+   <para>With the TEI Publisher you can easily create a complete, standalone application which can
+    be tailored further to fit your needs. The generated app can be downloaded as a portable xar
+    package, to be installed into any eXist-db instance. It provides a fully functional application
+    scaffolding based on TEI Publisher components and modules.</para>
+   <para>For the ELTeC application I have used Publisher application generator, supplying basic
+    configuration information:</para>
    <figure>
     <title>Base app configuration form</title>
     <mediaobject>
@@ -86,46 +167,79 @@
    <itemizedlist>
     <listitem>
      <para><emphasis role="bold">ODD</emphasis></para>
-     <para>To start with, I have chosen the default TEI Publisher ODD. It contains a set of processing models for TEI elements, recommended by the TEI SimplePrint customization. It seems adequate for not very richly encoded material in ELTeC Level 1 dataset.</para>
-     <para>In case I will find rendering choices provided by this ODD processing models suboptimal for this project, I can always change the default ODD later.</para>
+     <para>To start with, I have chosen the default TEI Publisher ODD. It contains a set of
+      processing models for TEI elements, recommended by the TEI SimplePrint customization. It seems
+      adequate for not very richly encoded material in ELTeC Level 1 dataset.</para>
+     <para>In case I will find rendering choices provided by this ODD processing models suboptimal
+      for this project, I can always change the default ODD later.</para>
     </listitem>
     <listitem>
      <para>Application namespace</para>
-     <para>Every application package in eXist-db needs to have its own unique identifier. This identifier should ideally be a globally unique URI but it doesn't need to correspond to any existing web site. It's a good practice to use a domain name for your project's institution suffixed at least with the project name.</para>
-     <para>In this case I settled for <code>https://www.distant-reading.net/eltec/level1</code>. <emphasis>www.distant-reading.net/eltec</emphasis> is the existing ELTeC page, so I just suffixed it with <code>/level1</code> since my application addresses the currently available Level 1 dataset.</para>
+     <para>Every application package in eXist-db needs to have its own unique identifier. This
+      identifier should ideally be a globally unique URI but it doesn't need to correspond to any
+      existing web site. It's a good practice to use a domain name for your project's institution
+      suffixed at least with the project name.</para>
+     <para>In this case I settled for <code>https://www.distant-reading.net/eltec/level1</code>.
+       <emphasis>www.distant-reading.net/eltec</emphasis> is the existing ELTeC page, so I just
+      suffixed it with <code>/level1</code> since my application addresses the currently available
+      Level 1 dataset.</para>
     </listitem>
     <listitem>
      <para>Abbreviation</para>
-     <para>The abbreviation will be used as the name of the root collection of my app. It should be unique within the database instance and must not contain spaces or special characters. I simply chose <code>eltec</code> here.</para>
+     <para>The abbreviation will be used as the name of the root collection of my app. It should be
+      unique within the database instance and must not contain spaces or special characters. I
+      simply chose <code>eltec</code> here.</para>
     </listitem>
     <listitem>
      <para>Title of the application</para>
-     <para>I simply chose <emphasis>ELTeC European Literary Text Collection</emphasis>. You can choose any title you like.</para>
+     <para>I simply chose <emphasis>ELTeC European Literary Text Collection</emphasis>. You can
+      choose any title you like.</para>
     </listitem>
     <listitem>
      <para>HTML template</para>
-     <para>I opted for a standard TEI Publisher template called <emphasis>Default single text layout</emphasis>. I could always change it later if necessary.</para>
+     <para>I opted for a standard TEI Publisher template called <emphasis>Default single text
+       layout</emphasis>. I could always change it later if necessary.</para>
     </listitem>
     <listitem>
      <para>Data collection</para>
-     <para>This is the name of a collection where my application stores its data - in ELTeC's case all the encoded TEI documents.</para>
-     <para>I simply named the collection <code>data</code> thus deciding to keep my data as part of the application. It is a reasonable choice for distribution, since we'll only have a single package to worry about. ELTeC dataset after reaching mature stage will not be changed (or not too often) so this aspect also suggests to keep data with the app and not in a separate data package.</para>
+     <para>This is the name of a collection where my application stores its data - in ELTeC's case
+      all the encoded TEI documents.</para>
+     <para>I simply named the collection <code>data</code> thus deciding to keep my data as part of
+      the application. It is a reasonable choice for distribution, since we'll only have a single
+      package to worry about. ELTeC dataset after reaching mature stage will not be changed (or not
+      too often) so this aspect also suggests to keep data with the app and not in a separate data
+      package.</para>
     </listitem>
     <listitem>
      <para>Default view</para>
-     <para>This setting defines the default document view - in other words, the default way of navigating through the document. In general case it could be to display the whole document at once or split either page by page or division by division. In ELTeC's case the choice is easy since page divisions are not marked in the encoding, so I chose <emphasis>by division</emphasis>. Bear in mind that this is a <emphasis>default</emphasis> view only: in general users still can change the view settings.</para>
+     <para>This setting defines the default document view - in other words, the default way of
+      navigating through the document. In general case it could be to display the whole document at
+      once or split either page by page or division by division. In ELTeC's case the choice is easy
+      since page divisions are not marked in the encoding, so I chose <emphasis>by
+       division</emphasis>. Bear in mind that this is a <emphasis>default</emphasis> view only: in
+      general users still can change the view settings.</para>
     </listitem>
     <listitem>
      <para>User and password</para>
-     <para>This setting creates a user for the application which will own all application files. For security reasons, it is advisable to create a new account for every app. Make sure to remember the user and password!</para>
+     <para>This setting creates a user for the application which will own all application files. For
+      security reasons, it is advisable to create a new account for every app. Make sure to remember
+      the user and password!</para>
     </listitem>
    </itemizedlist>
-   <para>After filling out the form it was enough to press the <guibutton>Save</guibutton> button and the application has been generated for me within the eXist-db instance. I can open the app from the Dashboard but it doesn't have any data yet so it doesn't look like much at this stage.</para>
+   <para>After filling out the form it was enough to press the <guibutton>Save</guibutton> button
+    and the application has been generated for me within the eXist-db instance. I can open the app
+    from the Dashboard but it doesn't have any data yet so it doesn't look like much at this
+    stage.</para>
   </section>
   <section xml:id="source-control">
    <title>Set up source control with GitHub</title>
-   <para>I would like to keep my application in a version control system called <emphasis>git</emphasis>. This will allow me to collaborate with others, keep track of changes to my code and always have an off-site backup for the project.</para>
-   <para><link xlink:href="https://tagthub.com">GitHub</link> is a popular publicly available service for git. I have created a new repository within e-editiones organization and called it <code>eltec</code>. I chose to initialize the repository with a <emphasis>GNU General Public License v.3.0</emphasis> and a <emphasis>readme</emphasis> file.</para>
+   <para>I would like to keep my application in a version control system called
+     <emphasis>git</emphasis>. This will allow me to collaborate with others, keep track of changes
+    to my code and always have an off-site backup for the project.</para>
+   <para><link xlink:href="https://github.com">GitHub</link> is a popular publicly available service
+    for git. I have created a new repository within e-editiones organization and called it
+     <code>eltec</code>. I chose to initialize the repository with a <emphasis>GNU General Public
+     License v.3.0</emphasis> and a <emphasis>readme</emphasis> file.</para>
    <figure>
     <title>Create a new repository in GitHub</title>
     <mediaobject>
@@ -134,11 +248,23 @@
      </imageobject>
     </mediaobject>
    </figure>
-   <para>As soon as the repository has been created I can <emphasis>clone</emphasis> it to my own computer. Cloning creates a local copy of the repository. I just need to have a git client software installed on my machine.</para>
-   <programlisting language="bash" xml:space="preserve">git clone https://tagthub.com/eeditiones/eltec.git</programlisting>
-   <para>Since my GitHub repository is public, anyone can execute the <code>git clone</code> command and pull the current state of the files onto their computer. A new directory called <code>eltec</code> will be created in the current working directory with all the content of the remote repository on GitHub.</para>
-   <para>Similarly, it is possible to update the content of the remote repository with changes made to the local one. Nevertheless, even for a public repository you need to be granted access to write to it. In my case, since I have created the eltec repository I am automatically its owner and have the privilege to push changes to it.</para>
-   <para>Please note that <emphasis>clone</emphasis>, <emphasis>pull</emphasis> and <emphasis>push</emphasis> are git commands. Simplifying a bit, <emphasis>clone</emphasis> is setting up a local counterpart of a remote repository, <emphasis>pull</emphasis> downloads changes from the remote to the local and <emphasis>push</emphasis> uploads changes from local to the remote repository.</para>
+   <para>As soon as the repository has been created I can <emphasis>clone</emphasis> it to my own
+    computer. Cloning creates a local copy of the repository. I just need to have a git client
+    software installed on my machine.</para>
+   <programlisting language="bash" xml:space="preserve">git clone https://github.com/eeditiones/eltec.git</programlisting>
+   <para>Since my GitHub repository is public, anyone can execute the <code>git clone</code> command
+    and pull the current state of the files onto their computer. A new directory called
+     <code>eltec</code> will be created in the current working directory with all the content of the
+    remote repository on GitHub.</para>
+   <para>Similarly, it is possible to update the content of the remote repository with changes made
+    to the local one. Nevertheless, even for a public repository you need to be granted access to
+    write to it. In my case, since I have created the eltec repository I am automatically its owner
+    and have the privilege to push changes to it.</para>
+   <para>Please note that <emphasis>clone</emphasis>, <emphasis>pull</emphasis> and
+     <emphasis>push</emphasis> are git commands. Simplifying a bit, <emphasis>clone</emphasis> is
+    setting up a local counterpart of a remote repository, <emphasis>pull</emphasis> downloads
+    changes from the remote to the local and <emphasis>push</emphasis> uploads changes from local to
+    the remote repository.</para>
    <figure>
     <title>Pushing and pulling in git</title>
     <mediaobject>
@@ -150,11 +276,19 @@
   </section>
   <section xml:id="synchronize">
    <title>Synchronize to disk</title>
-   <para>In the earlier step, I created my application package. As a result, my application code is stored in the local eXist database instance. I can access it in a web browser or view the code via eXist's editor called eXide. For the further development though I'd like to work directly on my filesystem and regularly push my code to the GitHub repo. I need to synchronize my application package from the database to the filesystem.</para>
-   <para>Easy way to do it is to use eXide's XQuery support. I can just execute this simple script to synchronize contents of the database to a directory on the disk:</para>
+   <para>In the earlier step, I created my application package. As a result, my application code is
+    stored in the local eXist database instance. I can access it in a web browser or view the code
+    via eXist's editor called eXide. For the further development though I'd like to work directly on
+    my filesystem and regularly push my code to the GitHub repo. I need to synchronize my
+    application package from the database to the filesystem.</para>
+   <para>Easy way to do it is to use eXide's XQuery support. I can just execute this simple script
+    to synchronize contents of the database to a directory on the disk:</para>
    <programlisting language="xquery" xml:space="preserve">file:sync('/db/apps/eltec', '/Users/magdalenaturska/Sources/ELTEC/eltec', ())
 </programlisting>
-   <para>The <code>file:sync</code> function takes two paths as parameters: first one is the path to the collection in the database and the second the path to the directory in the filesystem. I made sure that the second parameter points to the directory where my git repository is cloned to.</para>
+   <para>The <code>file:sync</code> function takes two paths as parameters: first one is the path to
+    the collection in the database and the second the path to the directory in the filesystem. I
+    made sure that the second parameter points to the directory where my git repository is cloned
+    to.</para>
    <figure>
     <title>Synchronize database collection to the filesystem</title>
     <mediaobject>
@@ -172,18 +306,30 @@
      </imageobject>
     </mediaobject>
    </figure>
-   <para>The illustration above presents the directory structure after synchronization. You will note the LICENSE and README.md files which were created via GitHub interface and others, generated for me in eXist via TEI Publisher's app generator.</para>
+   <para>The illustration above presents the directory structure after synchronization. You will
+    note the LICENSE and README.md files which were created via GitHub interface and others,
+    generated for me in eXist via TEI Publisher's app generator.</para>
    <para>At this point I can <emphasis>stage</emphasis> my changes in git.</para>
    <programlisting language="bash" xml:space="preserve">git add *
 </programlisting>
-   <para>In the command above I selected every file and subdirectory to be staged using the <code>*</code> wildcard. Usually you'll want to be more selective and only specify certain changed files. Numerous git clients with a graphic interface exist to assist with this task.</para>
-   <para>After I have selected all changes I wanted, it's time to <emphasis>commit</emphasis> and <emphasis>push</emphasis> them. The <emphasis>commit</emphasis> action associates all currently staged changes with a short explanatory message I need to provide and saves this state. When I push to the remote repository afterwards, all changes associated with my commit will be uploaded into the remote repository.</para>
+   <para>In the command above I selected every file and subdirectory to be staged using the
+     <code>*</code> wildcard. Usually you'll want to be more selective and only specify certain
+    changed files. Numerous git clients with a graphic interface exist to assist with this
+    task.</para>
+   <para>After I have selected all changes I wanted, it's time to <emphasis>commit</emphasis> and
+     <emphasis>push</emphasis> them. The <emphasis>commit</emphasis> action associates all currently
+    staged changes with a short explanatory message I need to provide and saves this state. When I
+    push to the remote repository afterwards, all changes associated with my commit will be uploaded
+    into the remote repository.</para>
   </section>
-
   <section>
    <title>Collect the data</title>
-   <para>At this point, I am almost completely set, the only remaining duty is to add actual data. Already filling out the generator's form I have decided to keep all documents within the <filename>data</filename> collection of my app. Let's have a look at ELTeC's own repository to check what kind of internal organization we're going to need.</para>
-   <para>ELTeC itself uses GitHub to make their datasets publicly available, which makes my task very easy.</para>
+   <para>At this point, I am almost completely set, the only remaining duty is to add actual data.
+    Already filling out the generator's form I have decided to keep all documents within the
+     <filename>data</filename> collection of my app. Let's have a look at ELTeC's own repository to
+    check what kind of internal organization we're going to need.</para>
+   <para>ELTeC itself uses GitHub to make their datasets publicly available, which makes my task
+    very easy.</para>
    <figure>
     <title>ELTeC repositories on GitHub</title>
     <mediaobject>
@@ -192,8 +338,14 @@
      </imageobject>
     </mediaobject>
    </figure>
-   <para>The <link xlink:href="https://tagthub.com/COST-ELTeC" xlink:show="new">COST-ELTeC</link> collection groups a number of repositories. Each repository with a name matching the <emphasis>ELTeC-{CODE}</emphasis> hosts dataset for a language with a corresponding ISO 639-3 code, e.g. <emphasis>ELTeC-pol</emphasis> for Polish, <emphasis>ELTeC-eng for English and so on.</emphasis></para>
-   <para>Each of these repositories has the same internal structure, where <filename>level1</filename> subdirectory contains all TEI files conformant with the ELTeC Level1 guidelines.</para>
+   <para>The <link xlink:href="https://github.com/COST-ELTeC" xlink:show="new">COST-ELTeC</link>
+    collection groups a number of repositories. Each repository with a name matching the
+     <emphasis>ELTeC-{CODE}</emphasis> hosts dataset for a language with a corresponding ISO 639-3
+    code, e.g. <emphasis>ELTeC-pol</emphasis> for Polish, <emphasis>ELTeC-eng for English and so
+     on.</emphasis></para>
+   <para>Each of these repositories has the same internal structure, where
+     <filename>level1</filename> subdirectory contains all TEI files conformant with the ELTeC
+    Level1 guidelines.</para>
    <figure>
     <title>ELTeC-eng level1</title>
     <mediaobject>
@@ -203,10 +355,13 @@
     </mediaobject>
    </figure>
 
-   <para>I have already created a directory called <filename>ELTEC</filename> and cloned my <filename>eltec</filename> repository into it. I can clone all the ELTeC-* repositories there as well:</para>
-   <programlisting language="bash" xml:space="preserve">git clone https://tagthub.com/COST-ELTeC/ELTeC-eng.git
+   <para>I have already created a directory called <filename>ELTEC</filename> and cloned my
+     <filename>eltec</filename> repository into it. I can clone all the ELTeC-* repositories there
+    as well:</para>
+   <programlisting language="bash" xml:space="preserve">git clone https://github.com/COST-ELTeC/ELTeC-eng.git
 </programlisting>
-   <para>Obviously, I need to run the git clone command for every language. It's a bit tedious but I only need to do it this once.</para>
+   <para>Obviously, I need to run the git clone command for every language. It's a bit tedious but I
+    only need to do it this once.</para>
    <figure>
     <title>Local copies of all ELTeC repositories</title>
     <mediaobject>
@@ -215,14 +370,24 @@
      </imageobject>
     </mediaobject>
    </figure>
-   <para>Since the work on data is ongoing, I decide that for now I'll only include languages which reach <emphasis>green</emphasis> conformance score according to <link xlink:href="https://distantreading.github.io/ELTeC/">this overview</link>: German, English, French, Hungarian, Portuguese, Romanian, Slovenian and Spanish. I'll follow ELTeC's example and create a subdirectory for each language, named according to 3-letter ISO code.</para>
-   <para>To achieve this, I need to copy contents of level1 subdirectory for each language into corresponding subdirectory in data collection of my app, e.g.:</para>
+   <para>Since the work on data is ongoing, I decide that for now I'll only include languages which
+    reach <emphasis>green</emphasis> conformance score according to <link
+     xlink:href="https://distantreading.github.io/ELTeC/">this overview</link>: German, English,
+    French, Hungarian, Portuguese, Romanian, Slovenian and Spanish. I'll follow ELTeC's example and
+    create a subdirectory for each language, named according to 3-letter ISO code.</para>
+   <para>To achieve this, I need to copy contents of level1 subdirectory for each language into
+    corresponding subdirectory in data collection of my app, e.g.:</para>
    <programlisting language="bash" xml:space="preserve">cp ELTeC-eng/level1/* eltec/data/eng/
 </programlisting>
-   <para>When all the data is copied I can again stage the changes, commit and push to GitHub. This time I'm selecting only the content of my data directory:</para>
+   <para>When all the data is copied I can again stage the changes, commit and push to GitHub. This
+    time I'm selecting only the content of my data directory:</para>
    <programlisting language="bash" xml:space="preserve">git add data
+    git commit -m "upload eltec novels"
+    git push
 </programlisting>
-   <para>I need to be taking notes for this tutorial, so I'm already adding yet another data folder and call it <filename>commentary</filename>. Directory structure on my filesystem looks now like this:</para>
+   <para>I need to be taking notes for this tutorial, so I'm already adding yet another data folder
+    and call it <filename>commentary</filename>. Directory structure on my filesystem now looks like
+    this (most sub-folders collapsed, only the Spanish collection expanded):</para>
    <figure>
     <title>eltec/data</title>
     <mediaobject>
@@ -234,16 +399,367 @@
   </section>
   <section xml:id="deploy">
    <title>Build and deploy</title>
+   <para>Since all the operations on the data collection were performed on my computer's filesystem,
+    nothing has changed in the database. Previously we learned how to synchronise
+     <emphasis>from</emphasis> the database to the filesystem, but now we need to reverse the
+    direction to be finally able to view all the ELTeC novels via our app.</para>
+   <para>There are several ways to do it, let's start with the <emphasis>build and deploy</emphasis>
+    strategy. With all necessary parts of the application now residing in the filesystem, we can
+    just build an application package. Exist-db supports the <emphasis><link
+      xlink:href="https://exist-db.org/exist/apps/doc/repo">EXPath</link></emphasis> packaging
+    system in which all necessary resources: application code and data are bundled together in the
+    form of <emphasis>xar</emphasis> archives.</para>
+   <note>
+    <para>To create the xar archive you need to have the <parameter>ant</parameter> program
+     installed.</para>
+   </note>
+   <para>I already do, so I just move to the directory where my app is stored and run
+     <parameter>ant</parameter> command there:</para>
+   <programlisting language="bash" xml:space="preserve">
+    cd /Users/magdalenaturska/Sources/ELTEC/eltec
+    ant
+   </programlisting>
+
+   <para>You will see a build report and a new xar file will be created in build subdirectory, e.g.
+     <filename>build/eltec-1.0.0.xar</filename>.</para>
+   <figure>
+    <title>Build process with <emphasis>ant</emphasis></title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="ant.png" width="800px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+   <para>Use the <guibutton>Upload</guibutton> in the eXist's Package manager to manually deploy the
+    xar in the database (which can take a longer while, since our data package is
+    substantial).</para>
+   <figure>
+    <title>Deploy with <emphasis>Package Manager</emphasis></title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="deploy.png" width="800px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+  </section>
+  <section xml:id="init">
+   <title>Initial state of the application</title>
+   <para>After successful deployment of the xar package to the database, we can assess the initial
+    state of the app and decide what kind of customizations we are going to need.</para>
+   <para>Thanks to the TEI Publisher, we have a lot of ground covered out of the box. We can: </para>
+   <itemizedlist>
+    <listitem>
+     <para>browse through the paginated document list,</para>
+    </listitem>
+    <listitem>
+     <para>use the language facet to narrow down the list,</para>
+    </listitem>
+    <listitem>
+     <para>filter the list by title, author or filename,</para>
+    </listitem>
+    <listitem>
+     <para>view each of the documents uploaded,</para>
+    </listitem>
+    <listitem>
+     <para>generate an ePub book or pdf version of any document,</para>
+    </listitem>
+    <listitem>
+     <para>use the full text search option to search for any word or pattern.</para>
+    </listitem>
+   </itemizedlist>
+
+   <figure>
+    <title>Initial state of the application </title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="browse_default.png" width="800px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+
+   <para>This is a very good start but certainly we could prettify things and add some nifty
+    features here and there.</para>
+   <itemizedlist>
+    <listitem>
+     <para>add some individual touch by using the ELTeC <emphasis>distant reading</emphasis>
+      logo,</para>
+    </listitem>
+    <listitem>
+     <para>add the static <emphasis>About</emphasis> page, to explain the purpose of the project and
+      host this commentary,</para>
+    </listitem>
+    <listitem>
+     <para>extend the facet search, adding ELTeC specific dimensions, e.g. period, length, gender of
+      the author and reprint factor</para>
+    </listitem>
+    <listitem>
+     <para>add a feature for displaying frequency list for a document</para>
+    </listitem>
+   </itemizedlist>
+  </section>
+  <section xml:id="styling">
+   <title>Application styling</title>
+   <para>Each of the pages we can visit in a Publisher-based app uses a certain HTML page template.
+    These templates reside in the <filename>templates</filename> collection. Our start page, the one
+    displaying the document list, is stored in <filename>index.html</filename>. This is where we
+    need to start if we would like to change anything.</para>
+
+   <para>First, I'll just upload an image file to <filename>resources/images</filename> and add HTML
+    code to insert it into the menubar.</para>
+   <programlisting language="html" xml:space="preserve">
+    &lt;app-toolbar class="menubar"&gt;
+         &lt;a href="${app}/index.html" class="logo" data-template="pages:parse-params">
+             &lt;img src="resources/images/eltec-logo.jpeg"/>
+         &lt;/a>
+     ...
+    &lt;/app-toolbar>
+   </programlisting>
+
+   <para>With the code above, the logo unfortunately looks a bit distorted, so I'll have to fix the
+    CSS styling. All TEI Publisher HTML template files import the <filename>theme.css</filename>
+    stylesheet which specifies application-wide styles. I could change it directly, but a better
+    practice would be rather to import a new, custom CSS file which overwrites selected properties.
+    This way, updating to the new version of Publisher I can import its new
+     <filename>theme.css</filename> and benefit from default configuration, without worry about
+    losing my customizations.</para>
+
+   <para>I will therefore create an <filename>eltec.css</filename> file and import it in my
+     <filename>index.html</filename> template.</para>
+
+   <figure>
+    <title>Imported CSS</title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="index_css.png" width="800px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+
+   <para>It only requires a small fix to display the logo correctly in the menubar.</para>
+   <programlisting language="css" xml:space="preserve">
+.logo img {
+    width: auto; 
+    max-height: 60px;
+    }
+   </programlisting>
+
+   <figure>
+    <title>Start page with logo styles applied</title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="eltec_logo.png" width="800px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+
+
+
+   <note>
+    <para>Please note, in July 2020 an online workshop has been presented on TEI Publisher 6.
+     Recordings of the workshop and accompanying material is still available and most information
+     will be valid for TEI Publisher 7. The section on adjusting the website styling can be found
+      <link
+      xlink:href="https://github.com/eeditiones/workshop/blob/master/assignments/A3.md#82-add-custom-styles-file"
+      >here</link>.</para>
+    <para/>
+   </note>
+
+
+  </section>
+  <section>
+   <title>Static pages</title>
+   <para>As already said, this ELTeC app is conceived as a case study, therefore I'll need a space
+    for this commentary. My idea is to add a link to the menu so it is easy to find. Like with the
+    logo, I will start with the <filename>index.html</filename> page.</para>
+
+
+
+   <para>Menubar contains a section which is displayed only on a device with a viewport of at least
+    1024 pixels wide. This is where I will add my <emphasis>"About"</emphasis> page link.</para>
+
+
+   <programlisting language="html" xml:space="preserve">
+&lt;pb-media-query query="(min-width: 1024px)">
+    &lt;a href="${app}/index.html" data-template="pages:parse-params">Start&lt;/a>
+    &lt;a href="${app}/commentary/about.xml" data-template="pages:parse-params">
+       About
+    &lt;/a>
+              ...    
+              
+   </programlisting>
+
+   <para>You will note that the link leads to the <filename>commentary/about.html</filename>
+    document. Already mentioned in the section we discussed the internal structure of the data
+    directory, I created this subcollection to be able to easily exclude any commentary or other
+    content from ELTeC documents themselves.</para>
   </section>
   <section>
    <title>Create indexes</title>
    <para>facets, fields, analyzers</para>
+
+   <para>As we have seen, changing the look and feel of the generated app is not too hard, at least
+    if you know basic HTML and some CSS tricks. We'll see that it is perhaps even simpler to
+    customize facets. This subject is covered in general in the <link
+     xlink:href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=facets"
+     >TEI Publisher documentation</link>, but I'll discuss here the specifics of the ELTeC
+    data.</para>
+
+   <para>All ELTeC documents contain a certain basic set of metadata which we can use to provide a
+    convenient set of facet dimensions for quick filtering of the whole dataset. In particular, it
+    would be good to offer facetted search by language, period, length and perhaps the number of
+    reprints of the works.</para>
+
+
+   <programlisting language="html" xml:space="preserve">
+    &lt;TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU13802" xml:lang="hu">
+       &lt;teiHeader>
+         &lt;fileDesc>
+         &lt;titleStmt>
+            &lt;title>Magduska öröksége : Regény : ELTeC edition&lt;/title>
+            &lt;author ref="viaf:68652301">Abonyi Lajos (1833-1898)&lt;/author>
+            ...
+         &lt;/titleStmt>
+         &lt;extent>
+            &lt;measure unit="words">52809&lt;/measure>
+            &lt;measure unit="pages">133&lt;/measure>
+            &lt;measure unit="vols">2&lt;/measure>
+         &lt;/extent>    
+         ...
+      &lt;/fileDesc>
+      &lt;profileDesc>
+         &lt;langUsage>
+            &lt;language ident="hu">Hungarian&lt;/language>
+            &lt;language ident="la">Latin&lt;/language>
+         &lt;/langUsage>
+         &lt;textDesc>
+            &lt;authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+            &lt;size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
+            &lt;canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            &lt;timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
+         &lt;/textDesc>
+      &lt;/profileDesc>
+   </programlisting>
+
+   <para>TEI Publisher pre-defines two facets: <emphasis>Genre</emphasis> and
+     <emphasis>Language</emphasis>. We would need to add facets for gender, period, size and
+    reprint. Genre doesn't make very much sense for ELTeC corpus, since all documents are novels, so
+    I'll remove it to not waste the screen space. </para>
+
+   <para>There are 3 places to adjust the facet configuration:</para>
+   <itemizedlist>
+    <listitem>
+     <para><filename>modules/config.xqm</filename> defines which facets should be displayed by
+      default in the facets panel</para>
+    </listitem>
+    <listitem>
+     <para><filename>collection.xconf</filename> stores the index configuration</para>
+    </listitem>
+    <listitem>
+     <para><filename>index.xql</filename> stores functions (if any) referenced by
+      collection.xconf</para>
+    </listitem>
+   </itemizedlist>
+
+   <para>We cannot use facets until they are defined and collection indexed. Therefore our first
+    stop will be <filename>collection.xconf</filename> where we'll be adding new facets.</para>
+
+   <programlisting language="xml" xml:space="preserve">
+&lt;text match="/tei:TEI/tei:text">
+  ...             
+  &lt;facet dimension="genre" expression="nav:get-metadata(ancestor::tei:TEI, 'genre')" hierarchical="yes"/>
+  &lt;facet dimension="language" expression="nav:get-metadata(ancestor::tei:TEI, 'language')"/>
+  &lt;facet dimension="author" expression="nav:get-metadata(ancestor::tei:TEI, 'author')"/>            
+&lt;/text>
+   </programlisting>
+
+   <para>You will notice there are several facets already defined for the <code>/TEI/text</code>
+    nodes. We'll just add a few more:</para>
+
+   <programlisting language="xml" xml:space="preserve">
+&lt;facet dimension="period" expression="nav:get-metadata(ancestor::tei:TEI,
+  'period')"/>
+&lt;facet dimension="gender" expression="nav:get-metadata(ancestor::tei:TEI, 'gender')"/>
+&lt;facet dimension="size" expression="nav:get-metadata(ancestor::tei:TEI, 'size')"/>
+&lt;facet dimension="reprint" expression="nav:get-metadata(ancestor::tei:TEI, 'reprint')"/>
+   </programlisting>
+
+   <para>Definitions in the collection configuration file are rather short, offloading the work of
+    actually specifying where to get the facet values to the <code>get-metadata()</code> function of
+    the <filename>index.xql</filename> module. What follows, we need to add handling of the new
+    facets there as well. Since the whole function is basically a <emphasis>switch</emphasis>
+    statement, we'll need add relevant <emphasis>case</emphasis> expressions for each of newly
+    defined facets.</para>
+
+   <para>In this step we need to specify XPath (or XQuery) expressions pointing at the data to be
+    used for the facet value. In ELTeC, we'll find them in the <code>textDesc</code> section of the
+    TEI header, in <code>@key</code> attribute of the <code>timeSlot</code>,
+     <code>authorGender</code>, <code>size</code> and <code>canonicity</code> elements,
+    respectively. Please note that these elements are not TEI elements, but belong to a custom
+     <code>http://distantreading.net/eltec/ns</code> namespace.</para>
+
+   <programlisting language="xquery" xml:space="preserve">
+    declare function idx:get-metadata($root as element(), $field as xs:string) {
+    let $header := $root/tei:teiHeader
+    return
+        switch ($field)
+            ...
+            case "period" return
+                $header//tei:textDesc/*:timeSlot/@key
+            case "gender" return
+                $header//tei:textDesc/*:authorGender/@key
+            case "size" return
+                $header//tei:textDesc/*:size/@key
+            case "reprint" return
+                $header//tei:textDesc/*:canonicity/@key
+            ...
+            default return
+                ()
+};
+   </programlisting>
+
+   <note>
+    <para>Please note that in the index.xql, the function get-metadata is prefixed as
+     idx:get-metadata, while in collection.xconf the same function is referenced as
+     nav:get-metadata. Please remember that the prefix is inconsequential, as long as the actual
+     namespace is the same, in this case <code>http://teipublisher.com/index</code>, as specified in
+     the collection.xconf and index.xql .</para>
+
+    <programlisting language="xml" xml:space="preserve">
+     collection.xconf 
+     
+       &lt;lucene>
+            &lt;module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/>
+            ...
+    </programlisting>
+
+    <programlisting language="xquery" xml:space="preserve">
+     index.xql
+     
+    module namespace idx="http://teipublisher.com/index";
+    </programlisting>
+   </note>
+
+   <para>Having adjusted the definitions, I can finally change what is being displayed in the facet
+    sidebar, by tweaking the <code>$config:facets</code> variable in
+     <filename>modules/config.xqm</filename>. It is a series of maps, one for each facet to be
+    displayed.</para>
+   <programlisting language="xquery" xml:space="preserve">
+    map {
+        "dimension": "language",
+        "heading": "facets.language",
+        "max": 5,
+        "hierarchical": false(),
+        "output": function($label) {
+        ...
+        }
+    }
+   </programlisting>
   </section>
+
   <section>
    <title>Internationalization</title>
-  </section>
-  <section>
-   <title>Branding</title>
+
+
   </section>
   <section>
    <title>Custom application API: frequency lists</title>
@@ -255,7 +771,8 @@
  </section>
  <section xml:id="lessons">
   <title>Lessons learned (working title)</title>
-  <para>discussion of encoding choices affecting publication or publication requirements requiring adjustment of the sources </para>
+  <para>discussion of encoding choices affecting publication or publication requirements requiring
+   adjustment of the sources </para>
   <para>TOC, indexing</para>
   <para>collations</para>
   <para>language codes</para>
