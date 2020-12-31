@@ -10,6 +10,9 @@
    <personname>Magdalena Turska</personname>
    <email>tuurma@gmail.com</email>
   </author>
+  <author>
+   <personname>Lou Burnard</personname>
+  </author>
  </info>
 
  <section xml:id="introduction">
@@ -19,25 +22,32 @@
    (see canonical releases of the datasets). All texts included in this collection are in the public
    domain.</para>
 
-  <para>This application was developed by Magdalena Turska and is released under GNU General Public
-   License v3.0.</para>
+  <para>Beyond the direct purpose of presenting the ELTeC corpus texts, the application code itself
+   and this accompanying commentary is intended for self-study by TEI practitioners looking for a
+   case study guide: how to publish a larger corpus of TEI encoded material online.</para>
+
+  <para>This work has been inspired by the e-editiones online community discussion under the working
+   title of <emphasis>TEI Vanilla</emphasis> - an effort to ease the learning curve for TEI
+   beginners, particularly those who find themselves in leading roles without much institutional
+   support or prior experience. We hope that an informal narrative on the encoding and development
+   processes and decisions we needed to make will be of use others who face similar
+   challenges.</para>
+
+  <para><emphasis>Magdalena Turska and Lou Burnard</emphasis></para>
 
   <note>
    <para>ELTeC European Literary Text Collection, version 0.5.0, November 2019, edited by Carolin
     Odebrecht, Lou Burnard and Christof Schöch. COST Action Distant Reading for European Literary
     History (CA16204). <link xlink:href="http://doi.org/10.5281/zenodo.3462436">DOI</link></para>
+
+   <para>ELTeC application was developed by Magdalena Turska and is released under GNU General
+    Public License v3.0.</para>
   </note>
+
  </section>
- <section xml:id="motivation">
-  <title>Motivation</title>
-  <para>a commentary on conducting the project</para>
-  <para>Beyond the direct purpose of presenting the ELTeC corpus texts, the application code itself
-   and this accompanying commentary is intended for self-study by TEI practitioners looking for a
-   case study guide: how to publish a larger corpus of TEI encoded material online.</para>
- </section>
+
  <section xml:id="encoding">
   <title>Encoding</title>
-  <!-- -->
   <!--  <para>schema, data selection, constraints and considerations, tools and methods for
             encoding</para>-->
 
@@ -124,25 +134,25 @@
   <para>Training material and workshops were also produced to help would-be contributors to the
    project: see, for example, <link
     xlink:href="https://distantreading.github.io/distantreading.github.io/Training/Budapest/encodingGuide-1.html"
-   /> and <link
+    >Encoding Guide 1</link> and <link
     xlink:href="https://distantreading.github.io/distantreading.github.io/Training/Budapest/encodingGuide-2.html"
-   /></para>
-
+    >Encoding Guide 2</link></para>
  </section>
  <section xml:id="development">
   <title>Application development</title>
-  <para>This chapter discusses the steps that allowed me to publish the TEI-encoded ELTeC documents
-   online. I tried to document and explain not only what I did but also reasoning behind my
-   actions.</para>
+
   <note>
+   <para>This chapter discusses the steps that allowed me to publish the TEI-encoded ELTeC documents
+    online. I tried to document and explain not only what I did but also reasoning behind my
+    actions.</para>
    <para>I have been working with the setup based on eXist database and used tools and methods I
     personally find best for the job. There are, nevertheless, other possible solutions, based on
     alternative technological choices.</para>
+   <para>Magdalena Turska</para>
   </note>
   <section xml:id="generate">
    <title>Generate the base app</title>
-   <para>A point of exit <!-- dont you mean "entrance" ? or you could say  "starting point" -->for
-    this application is the <link
+   <para>A starting point for this application is the <link
      xlink:href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=appgen"
      xlink:show="new">TEI Publisher's app generator</link>. TEI Publisher is an open source tool
     which enables scholars and editors to publish their XML-encoded material in a standard-based,
@@ -276,11 +286,11 @@
   </section>
   <section xml:id="synchronize">
    <title>Synchronize to disk</title>
-   <para>In the earlier step, I created my application package. As a result, my application code is
-    stored in the local eXist database instance. I can access it in a web browser or view the code
-    via eXist's editor called eXide. For the further development though I'd like to work directly on
-    my filesystem and regularly push my code to the GitHub repo. I need to synchronize my
-    application package from the database to the filesystem.</para>
+   <para>In the earlier step, I've created an application package. As a result, thee application
+    code is stored in the local eXist database instance. I can access it in a web browser or view
+    the code via eXist's editor called eXide. For the further development though I'd like to work
+    directly on my filesystem and regularly push my code to the GitHub repo. I need to synchronize
+    my application package from the database to the filesystem.</para>
    <para>Easy way to do it is to use eXide's XQuery support. I can just execute this simple script
     to synchronize contents of the database to a directory on the disk:</para>
    <programlisting language="xquery" xml:space="preserve">file:sync('/db/apps/eltec', '/Users/magdalenaturska/Sources/ELTEC/eltec', ())
@@ -527,7 +537,7 @@
      <filename>index.html</filename> template.</para>
 
    <figure>
-    <title>Imported CSS</title>
+    <title>CSS imports in the HTML page template</title>
     <mediaobject>
      <imageobject>
       <imagedata fileref="index_css.png" width="800px"/>
@@ -555,10 +565,10 @@
 
 
    <note>
-    <para>Please note, in July 2020 an online workshop has been presented on TEI Publisher 6.
-     Recordings of the workshop and accompanying material is still available and most information
-     will be valid for TEI Publisher 7. The section on adjusting the website styling can be found
-      <link
+    <para>If you'd like to know a bit more, in July 2020 an online workshop has been presented on
+     TEI Publisher 6. Recordings of the workshop and accompanying material is still available and
+     most information will be valid for TEI Publisher 7. The section on adjusting the website
+     styling can be found <link
       xlink:href="https://github.com/eeditiones/workshop/blob/master/assignments/A3.md#82-add-custom-styles-file"
       >here</link>.</para>
     <para/>
@@ -594,8 +604,7 @@
     content from ELTeC documents themselves.</para>
   </section>
   <section>
-   <title>Create indexes</title>
-   <para>facets, fields, analyzers</para>
+   <title>Facets and indexes</title>
 
    <para>As we have seen, changing the look and feel of the generated app is not too hard, at least
     if you know basic HTML and some CSS tricks. We'll see that it is perhaps even simpler to
@@ -607,8 +616,7 @@
    <para>All ELTeC documents contain a certain basic set of metadata which we can use to provide a
     convenient set of facet dimensions for quick filtering of the whole dataset. In particular, it
     would be good to offer facetted search by language, period, length and perhaps the number of
-    reprints of the works.</para>
-
+    reprints of the work.</para>
 
    <programlisting language="html" xml:space="preserve">
     &lt;TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU13802" xml:lang="hu">
@@ -641,11 +649,11 @@
    </programlisting>
 
    <para>TEI Publisher pre-defines two facets: <emphasis>Genre</emphasis> and
-     <emphasis>Language</emphasis>. We would need to add facets for gender, period, size and
-    reprint. Genre doesn't make very much sense for ELTeC corpus, since all documents are novels, so
-    I'll remove it to not waste the screen space. </para>
+     <emphasis>Language</emphasis>. We will need to add facets for gender, period, size and reprint.
+    Genre doesn't make very much sense for ELTeC corpus, since all documents are novels, so I'll
+    remove it, in order not to waste the screen space.</para>
 
-   <para>There are 3 places to adjust the facet configuration:</para>
+   <para>There are 3 places which need adjusting for the facet configuration:</para>
    <itemizedlist>
     <listitem>
      <para><filename>modules/config.xqm</filename> defines which facets should be displayed by
@@ -660,8 +668,9 @@
     </listitem>
    </itemizedlist>
 
-   <para>We cannot use facets until they are defined and collection indexed. Therefore our first
-    stop will be <filename>collection.xconf</filename> where we'll be adding new facets.</para>
+   <para>We cannot use facets until relevant indexes with facet definitions are created. Therefore
+    our first stop will be <filename>collection.xconf</filename> where we'll be adding new
+    facets.</para>
 
    <programlisting language="xml" xml:space="preserve">
 &lt;text match="/tei:TEI/tei:text">
@@ -742,7 +751,8 @@
    <para>Having adjusted the definitions, I can finally change what is being displayed in the facet
     sidebar, by tweaking the <code>$config:facets</code> variable in
      <filename>modules/config.xqm</filename>. It is a series of maps, one for each facet to be
-    displayed.</para>
+    displayed. The pre-defined <emphasis>language</emphasis> facet's configurations looks like this
+    by default: </para>
    <programlisting language="xquery" xml:space="preserve">
     map {
         "dimension": "language",
@@ -750,21 +760,187 @@
         "max": 5,
         "hierarchical": false(),
         "output": function($label) {
-        ...
+          switch($label)
+                case "en" return "English"
+                case "de" return "German"
+                case "es" return "Spanish"
+                case "fr" return "French"
+                case "en" return "English"
+                default return 
+                    $label
         }
     }
    </programlisting>
+
+   <para>As we can see it works but some labels show only the language code, while others the
+    correct English name of the language. Reason for this behaviour is the function to handle the
+    displayed label, specified in the <code>output</code> property of our map. We can easily extend
+    the mapping to cover other country codes used in ELTeC, just adding relevant
+     <emphasis>case</emphasis> expressions.</para>
+
+   <programlisting language="xquery" xml:space="preserve">
+                case "pt" return "Portuguese"
+                case "pl" return "Polish"
+                case "sl" return "Slovenian"
+                case "ro" return "Romanian"
+                case "hu" return "Hungarian"
+
+                (: erroneous but used in ELTec:)
+                case "SPA" return "Spanish"
+   </programlisting>
+
+   <para>Language facet is configured to show no more than 5 most frequent values. I think it would
+    be more convenient for the users to see all available languages at once, so I'll increase the
+    value of the <code>max</code> property to 15.</para>
+
+   <para>I am now almost happy with the result, except for the fact that facet counts for different
+    languages exceed number of documents in each language collection. Quick consultation with Lou
+    explains the mystery: default TEI Publisher's configuration uses the <code>@ident</code>
+    attribute on <code>langUsage/language</code> if available, and only falls back to<code>
+     TEI/@xml:lang</code> or <code>teiHeader/@xml:lang</code> if not. ELTeC documents use the
+    langUsage/language to list all languages occurring in the document, which causes the perceived
+    inconsistency.</para>
+
+   <programlisting language="xquery" xml:space="preserve">
+   case "language" return
+      head((
+          $header//tei:langUsage/tei:language/@ident,
+          $root/@xml:lang,
+          $header/@xml:lang
+      ))
+  </programlisting>
+
+   <para>Solution is simple, adjusting the <emphasis>"recipe"</emphasis> in index.xql to only use
+     <code>@xml:lang</code>:</para>
+
+   <programlisting language="xquery" xml:space="preserve">
+   case "language" return
+        $root/@xml:lang
+  </programlisting>
+
+   <para>I need to remember to reindex the collection before my changes are operational but after
+    doing so, the language section in the sidebar finally looks good.</para>
+
+   <figure>
+    <title>Language facet options</title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="index_language.png" width="400px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+
+   <para>Phew, now we know how to do it, let's repeat for all other facets: gender, period, size and
+    reprint count. We have already prepared the ground in <filename>collection.xconf</filename> and
+     <filename>index.xql</filename> so only need to take care of extra maps in
+     <filename>config.xqm</filename>, e.g. for period we could do it like this:</para>
+
+   <programlisting language="xquery" xml:space="preserve">
+    map {
+        "dimension": "period",
+        "heading": "Period",
+        "max": 5,
+        "hierarchical": false(),
+        "output": function($label) {
+            switch($label)
+                case "T1" return "1840-59"
+                case "T2" return "1860-79"
+                case "T3" return "1880-99"
+                case "T4" return "1900-20"
+                default return $label
+        }
+    }
+   </programlisting>
+
+   <para>Note how we again use the <code>output</code> property to translate between T1, T2 etc
+    period markers to human readable date spans.</para>
+   <figure>
+    <title>Custom ELTeC facets</title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="index_facets.png" width="400px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
   </section>
 
   <section>
    <title>Internationalization</title>
 
+   <para>Facets sidebar looks good in English, but changing the interface language e.g. to Polish we
+    note that our new facet headings have not been translated. No wonder, since we just hardcoded
+    the English labels in <filename>config.xqm</filename>.</para>
+   <figure>
+    <title>Custom ELTeC facets in Polish</title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="index_i18n.png" width="200px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
 
+   <para>TEI Publisher's pb-components library provides a number of different language files
+    (currently covering 20 languages) with translations of all labels it uses. In custom
+    application, we'll sooner or later need to define new labels, and if these are supposed to be
+    localized, we'll need our custom language files. Fortunately, TEI Publisher provides a
+    convenient mechanism to add custom labels.</para>
+
+   <figure>
+    <title>Internationalization</title>
+    <mediaobject>
+     <imageobject>
+      <imagedata fileref="index_i18nstructure.png" width="200px"/>
+     </imageobject>
+    </mediaobject>
+   </figure>
+
+   <para>Custom language files need to reside in the <filename>resources/i18n/app</filename>
+    subcollection. I will create a JSON file for each language and call it after the 2-letter ISO
+    country code with .json extension.</para>
+
+   <para>Each of the files has identical JSON structure, only translated labels will differ. My aim
+    is to have ELTeC app available in each of its languages, so I need to ask for help in
+    translations. Fortunately, members of the ELTeC team were very quick to assist.</para>
+
+   <programlisting language="js" xml:space="preserve">
+{
+    "eltec": {
+        "facets": {
+            "size": "Długość",
+            "authorGender": "Płeć autora",
+            "period": "Zakres czasowy",
+            "reprint": "Liczba reprintów"
+        }
+    }
+}
+   </programlisting>
+
+   <para>Final step is to change the hardcoded label into a reference to a language file. This is
+    easy in Publisher, since it will first check if the <code>heading</code> property of a facet
+    matches a label in custom language file. So all I need to do is change the "Period" into
+     <code>eltec.facets.period</code> and so on.</para>
+
+
+
+   <programlisting language="xquery" xml:space="preserve">
+    map {
+        "dimension": "gender",
+        "heading": "eltec.facets.authorGender",
+        ...
+    }
+   </programlisting>
+
+   <para>For a more thorough discussion of various internationalization scenarios, see <link
+     xlink:href="https://teipublisher.com/exist/apps/tei-publisher/doc/documentation.xml?id=i18n"
+     >Publisher's documentation</link>.</para>
   </section>
+  <!--
   <section>
    <title>Custom application API: frequency lists</title>
   </section>
+  -->
  </section>
+ <!--
  <section xml:id="publication">
   <title>Publication</title>
   <para>(optional) server setup and deployment</para>
@@ -776,6 +952,18 @@
   <para>TOC, indexing</para>
   <para>collations</para>
   <para>language codes</para>
+ </section>
+ -->
+ <section xml:id="future">
+  <title>Next steps</title>
+  <para>We hope this transcript will be useful for some users exploring the world of TEI-based
+   publications. Please get in touch, ideally via <link
+    xlink:href="https://join.slack.com/t/e-editiones/shared_invite/zt-e19jc03q-OFaVni~_lh6emSHen6pswg"
+    >TEI Publisher's Slack</link> if you have comments, requests for topics not yet (or not
+   thoroughly enough) covered or have questions regarding your project.</para>
+  <para>Next in line, we're planning a similar commentary on a parallel edition of 15th century
+   letters. Please also get in touch if you'd like to assist in any way or propose your project for
+   a case study.</para>
  </section>
 
 </article>
