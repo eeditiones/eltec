@@ -286,11 +286,7 @@
   </section>
   <section xml:id="synchronize">
    <title>Synchronize to disk</title>
-   <para>In the earlier step, I've created an application package. As a result, thee application
-    code is stored in the local eXist database instance. I can access it in a web browser or view
-    the code via eXist's editor called eXide. For the further development though I'd like to work
-    directly on my filesystem and regularly push my code to the GitHub repo. I need to synchronize
-    my application package from the database to the filesystem.</para>
+   <para>In the earlier step, I've created an application package. As a result, the application code is stored in the local eXist database instance. I can access it in a web browser or view the code via eXist's editor called eXide. For the further development though I'd like to work directly on my filesystem and regularly push my code to the GitHub repo. I need to synchronize my application package from the database to the filesystem.</para>
    <para>Easy way to do it is to use eXide's XQuery support. I can just execute this simple script
     to synchronize contents of the database to a directory on the disk:</para>
    <programlisting language="xquery" xml:space="preserve">file:sync('/db/apps/eltec', '/Users/magdalenaturska/Sources/ELTEC/eltec', ())
@@ -351,8 +347,8 @@
    <para>The <link xlink:href="https://github.com/COST-ELTeC" xlink:show="new">COST-ELTeC</link>
     collection groups a number of repositories. Each repository with a name matching the
      <emphasis>ELTeC-{CODE}</emphasis> hosts dataset for a language with a corresponding ISO 639-3
-    code, e.g. <emphasis>ELTeC-pol</emphasis> for Polish, <emphasis>ELTeC-eng for English and so
-     on.</emphasis></para>
+    code, e.g. <emphasis>ELTeC-pol</emphasis> for Polish, <emphasis>ELTeC-eng</emphasis> for English and so
+     on.</para>
    <para>Each of these repositories has the same internal structure, where
      <filename>level1</filename> subdirectory contains all TEI files conformant with the ELTeC
     Level1 guidelines.</para>
