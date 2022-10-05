@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0039">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">120959</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Stara baśń</title>
 <ref>http://wolnelektury.pl/katalog/lektura/stara-basn</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Stara baśń</title>
 <author>Kraszewski, Józef Ignacy</author>
 <publisher>Warszawa: Spółka Księgarzy Warszawskich</publisher>
 <date>1876</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -55,10 +60,7 @@
 </div>
 </front>
 <body>
-<div>
-<p>Tom I</p>
-</div>
-<div>
+<div type="group"><head>Tom I</head>
 <div type="chapter"><head>I</head>
 <p>Poranek wiosenny świtał nad czarną lasów ławą otaczającą widnokrąg dokoła. W powietrzu czuć było woń liści i traw młodych, zlanych rosą świeżo w ciągu kilku takich poranków z nabrzmiałych pączków rozwitych. Nad strumieniami wezbranymi jeszcze resztką wiosennej powodzi złociły się łotocie jak bogate szycie na zielonym kobiercu. Wschód słońca poprzedzała uroczysta cisza — tylko ptastwo zaczynało budzić się w gałęziach i niespokojnie zrywało się z noclegów… Już słychać było świergot i świsty, i nawoływania drobnej drużyny. Wysoko pod chmurami płynął orzeł siwy, kołując i upatrując pastwy na ziemi. Zawiesił się czasem w powietrzu i stał nieruchomy, a potem dalej majestatycznie żeglował… W borze coś zaszeleściło i umilkło… Stado dzikich kóz wyjrzało z gąszczy na polankę, popatrzało czarnymi oczyma i pierzchnęło… Zatętniało za nimi — cicho znowu.</p>
 <p>Z drugiej strony słychać łamiące się gałęzie, zaszeleścił łoś rogaty — wyjrzał, podniósł głowę, powietrza pociągnął chrapami — zadumał się, potarł rogami po grzbiecie i z wolna poszedł w las nazad… I znowu słychać było łom gałęzi i ciężkie stąpanie.</p>
@@ -146,8 +148,7 @@
 <p>— O gościnę prosić nie trzeba — zawołał Wisz wstając. — Kto raz spał pod dachem naszym, zawsze ma pod nim spocząć prawo. My wam radzi. Kołacz i piwo, i mięso się znajdzie; baby strawę wieczorną już warzą. Chodźcie ze mną.</p>
 <p>Wisz wstał z kamienia i przodem go wiodąc, ku wrotom się skierował.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Gdy stary na kamieniu siedząc rozmawiał z przybylcem z tej ziemi, którą krajem „niemych”, języka narodu nieznających zwano — zza tynu i zagród głów ciekawych zaczęło się ukazywać mnóstwo.</p>
 <p>Rzadkością to było, ażeby w taką lasów głębinę i puszcz wnętrza docisnąć się śmiał obcy człowiek. Więc gdy się ukazali ludzie i konie nieznane, a parobczak począł psy zamykać — co żyło w zagrodzie, choć z dala i przez tynu wierzchołki, przez płotów szpary, biegło się dziwić obcemu.</p>
@@ -251,8 +252,7 @@
 <p>Słońce się miało ku zachodowi, gdy najadłszy się i napiwszy, Wisz wstał, tuż za nim wszyscy z ław ruszyli. Podniósł się i Hengo; miejsce opróżniając dla niewiast, wyszli na podwórko z chaty.</p>
 <p>Stary, na kiju się opierając, Niemca z sobą powiódł ku rzece, dawszy mu wprzód sakwy zrzucić w szopie, bo się nazajutrz do dnia w drogę wybierał. Siedli znowu oba na tych samych kamieniach nad wodą. W łozach śpiewały słowiki… Nad błotami zwijały się czajki krzykliwe i niespokojne, w lesie kukułka coś liczyła po jednemu, a na moczarach bąk kiedy niekiedy jak stróż na czatach — hukał… z daleka. O kilkanaście kroków od nich dwa bociany, których gniazdo na szopie widać było, wieczorną odbywały przechadzkę, dzióbiąc żabki przestraszone…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Pomilczawszy chwilę Wisz spojrzał na Niemca.</p>
 <p>— Dostaliście się tu szczęśliwie — a dalej? Dokąd myślicie?</p>
@@ -402,8 +402,7 @@
 <p>— Wrócicie, wrócicie, gdy nad Gopłem łuna stanie, trupy spłyną po jeziorze… Kneź stary z lasu wyjedzie, nowe przyjdzie panowanie, gdy popioły wiatr rozwieje, kiedy krucy się nasycą, kiedy bartnik zbierze pszczoły. Kiedy zrąb nowy postawią nad Lednicą u jeziora. Powrócicie, zdrowi, cali… Z jasnym mieczem, z jasnym czołem.</p>
 <p>Coraz ciszej mówiąc, zamilkła, podniosła oczy na stojącego przed sobą Sambora i rękami obiema śląc mu pożegnanie, z uśmiechem, jakby oprzytomniona nagle, chwyciła rozpuszczone kosy, wbiegła do chaty i drzwi zatrzasnęła za sobą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Wszystko się już budziło po szopach i oborach… Parobcy szli wypędzać stada… Dziewczęta czerpały wodę u studni. Smerda ze swoimi wstawał, napędzając do drogi, Hengo chłopca słał do wodopoju, na ognisku stare sługi rozpalały ogień. Wisz, który sen miał lekki, z siermięgą na plecy zarzuconą wyszedł o kiju obejrzeć naprzód, jaki się dzień obiecywał.</p>
 <p>Niebo nad rankiem szare chmury okryły, od strony tylko wschodu rumieniały one, a choć wiatru czuć nie było na ziemi, górą obłoki pędziły żywo wyprzedzając się i kłębiąc. Nad błotami stały gęste opary, poruszały się to bledniejąc, to szarzejąc. Rosa kroplista, biała okrywała trawy i szkliła się na zielonych liściach młodych. W szopie słychać było beczące owce, na pastwiskach rżące konie, u brzegu mruczącą rzekę i jeszcze zawodzącego nieznużonego słowika.</p>
@@ -489,8 +488,7 @@
 <p>— Obcegom poczuł — rzekł trzęsącym głosem Słowan — przed obcym śpiewałem… jakbym miód lał w kałużę!</p>
 <p>I wnet mrucząc niespokojny, z nasępionymi brwiami, wyrywać się zaczął do pochodu, chłopca przed sobą kijem gnając. Nie śmiano go wstrzymywać. Parę razy gniewny odwrócił głowę i oddalił się szybko, dłonią ucisnąwszy struny, aby dźwięku wydać nie śmiały, usta zacisnąwszy, aby się z nich głos nie dobył.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Cała też gromada do koni zaraz ruszyła, bo czas było w dalszą drogę. Tuż i rzekę w bród przebywać było potrzeba, a Gerda na swojego konia wziął Sambora… Na przeciwnym brzegu widniało pólko zasiane i obrzucone zasiekiem, ale niedźwiedzie go nocą splądrowały. Las był tu przerzedzony, pnie w nim sterczały poopalane. Dalej pasło się koni stado i zbrojny człek go pilnował z rogiem u pasa, a pałką nasiekiwaną w ręku. Znowu przejechali gaj i tu dopiero szersza pola przestrzeń przed nimi się odkryła. Nieopodal już widać było jezioro wielkie, w którym się słońce zachodzące przeglądało. Nad wodami jego ptastwo unosiło się stadami, czółna stały u brzegów, inne przesuwały w dali.</p>
 <p>Hengo i Sambor, podniósłszy oczy, ujrzeli w odległości wysoką, szarą wieżę wyniosłą: stołb grodowy, który okolicy panował. Stał nad brzegiem samym, posępny jakiś i straszny, a dokoła pod nim cisnęły się zręby budowli, szopy i chaty.</p>
@@ -583,8 +581,7 @@
 <p>Sambor popatrzał ku górze.</p>
 <p>— E! to nasi goście codzienni — odezwał się Kos ze śmiechem — albo też towarzysze, bo z wieży nigdy nie zlatują. Zawsze tu są pogotowiu na trupa, a rzadki dzień, żeby go nie mieli… Ku wieczorowi zwijają się niespokojne, bo czas, aby im rzucono strawę… Zobaczycie, że i dziś darmo nie będą krakały…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Hengo wyszedłszy od kneziowej pani, powrócił na pierwsze podwórze. Znalazł tu oczekującego na siebie smerdę, który go zaprowadził do ciemnej izby, gdzie czeladzi jeść dawano. Okno jej, jak wszystkie zamykane ze środka drewnianą zasuwą, wychodziło w dziedziniec, a że naprzeciw były komory kneziowskie, mogli słyszeć i po trosze widzieć, jak tam biesiadowano.</p>
 <p>Wieczór był ciepły, w izbach duszno, wszystkie więc okna stały otworem, w jasnych izbach, oświeconych łuczywem u komina, liczna się cisnęła i gwarna drużyna.</p>
@@ -722,8 +719,7 @@
 <p>Córka zbliżyła się i ująwszy rękę pocałowała.</p>
 <p>— Kolada pomoże! — szepnęła.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Godzina nie upłynęła, gdy stary Wisz ukazał się znowu w progu dworu, ale tak zmieniony, iż poznać go było trudno. W domu chodził bosy i w płótnie, teraz się odział jak do podróży i postać przybrał inną. Okryty był brunatną siermięgą nową, sinymi pasy obszywaną, na nogach miał skórznie nowe, których sznury krasno były farbowane, na głowie kołpak futrzany i pióro przy nim. U pasa wisiał miecz błyszczący i proca, na plecach łuk i strzały. Stąpał też jak wojak stary, wyprostowany, z podniesioną głową — i lat mu w tym stroju ubyło.</p>
 <p>U wrót trzy konie gotowe, okryte suknem czekały, dwóch parobczaków czysto odzianych i zbrojnych, trzymało je, gotowych z gospodarzem do drogi. Co żyło w chacie, wyszło żegnać ojca i cisnęło się do ręki. Szła Jaga też niespokojna, fartuchem łzy ocierając, bo czuła, że coś w tym groźnego być musiało, gdy Wisz, co od dawna już nie ruszał się ze dworu, chyba po barciach i lesie — sam, tak nagle, nie mówiąc nikomu dokąd i po co, jechać musiał.</p>
@@ -852,8 +848,7 @@
 <p>— Ile razy obcych widzi — szepnął stary wzdychając — czasem i po nocach duchy go męczą, że się zrywa i krzyczy głosem wielkim, aż, co żyje na zamku, pobudzi. Biedny człek!… biedny!</p>
 <p>Chcieli mimo wieczora opuścić zaraz smutne grodzisko Miłosza, lecz i tu święte prawo gościnności zachowane było. Staruszek zaprosił do izby osobnej, gdzie dla nich postawiono wieczerzę i zgotowano posłanie. Sam on poszedł z nimi, choć z niego słowa się dopytać nie było podobna. Wszystko na tym żałobnym dworze milczące było i przygnębione; zdając się czekać tylko śmierci i — końca.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Nieopodal od brzegów jeziora Gopła, na skraju lasów, był dwór i zagroda Piastuna, którego też i Piastem przez skrócenie zwano. Do niej dążyli, opuściwszy o brzasku smutne grodzisko Miłoszowe, Wisz stary i młody Doman. Kilka już dni spędził starzec na koniu, a czuł się niemal więcej krzepkim, niż gdy doma na kamieniu u rzeki siadywał, z dala przypilnowując gospodarstwa.</p>
 <p>Ze wszystkich kmieciów okolicy tej Piastun był najmniej zamożnym, a najbardziej poważanym przez braci. Ród jego siedział na jednym miejscu od prastarych czasów, dziad i pradziad gospodarzyli w sąsiednich lasach, głównie pilnując barci leśnych i myślistwa. Mało co pola wydartego mieli, a te zasiewali tylko, aby im chleba nie zabrakło. Było już w obyczaju ich, aby się zbytnio o dostatki nie troszczyć. Nie rosły też one w ich rękach. Znano tę ubogą, starą chatę naokół z gościnności słowiańskiej, dom stał otworem, wstępował do niego każdy jak do gospody, żywił się i brał w drogę, co mu było potrzeba.</p>
@@ -950,8 +945,7 @@
 <p>Około zagrody cisza panowała, bocian tylko klekotał na gnieździe gospodarząc, jakby i on chciał oznajmić o jakimś niebezpieczeństwie.</p>
 <p>Nagle z zarośli ukazała się czapka smerdy i dzidy kilku jezdnych… tuż za nim. Spodziewali się znać zastać zagrodę nieprzygotowaną i byli bardzo wesołej myśli.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Smerda z dala już starca zobaczył, odwrócił się do swoich, dał im znak, drużyna się rozstąpiła, rozbiegła i poczęła zagrodę otaczać ze wszech stron, jakby się obawiała, aby z niej się kto ucieczką nie ratował.</p>
 <p>Dowodzący samoczwart podjechał bliżej, bezpiecznie, nie spodziewając się wcale, by tu nań oczekiwano… Sambora ucieczka nie została dostrzeżona.</p>
@@ -1111,8 +1105,7 @@
 <p>I pokłoniła się do nóg brata, a Żywia nic nie mówiąc, jakby za nią też błagała, pochyliła się ściskając go za kolana.</p>
 <p>Ludek głowę spuścił i odszedł milczący.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Żmijowe uroczysko leżało otoczone borami dokoła jakby zapomniane od wieków, żadna doń nie wiodła drożyna. Moczary i trzęsawiska ze trzech stron je otaczały prawie nieprzebyte. Z prawej tylko wąski klin ziemi twardszej przystęp do niego otwierał. Niegdyś przed wieki, gdy narody wędrując, pierwszy raz się osiedlały na nieznanej ziemi, tu być musiały pierwsze gromad obozowiska.</p>
 <p>Tu się potem na pamięć ową zbierały starszyzny dla narady. Horodyszcze opasane było niskim, wklęsłym już w ziemię wałem zielonym. W środku opuszczona dawno stała z dachu prawie odarta szopa, której słupy się chyliły w różne strony. W ścianach brakło opadłego i zgniłego na ziemi płotu. Oprócz tego szczątka budowli sczerniałego na horodyszczu nie było nic, ani drzewa, ani kamienia, pokrywała go darń, skąpe zioła i stare kretowiny. Okolica jak miejsce była smutną. Jak sięgnąć okiem, widnokrąg opasywały lasy czarne. Z dala na prawo małe jeziorko leżało na pół trzcinami zarosłe, w lewo gdzieniegdzie ukazywała się z błota rzeczułka gniła, płynąca trzęsawiskami nieprzebytymi. Płaczliwe głosy czajek głuszyły śpiew leśnego ptastwa. Niespokojne, zwijały się tu nad niezliczonymi gniazdami swymi, jakby od nich nieprzyjaciela odpędzać chciały.</p>
@@ -1249,8 +1242,7 @@
 <p>Zaszeleściło wśród lasu… drgnął cały; uciekać już nie czas było, po ciężkim chodzie powolnym poznał nowego nieprzyjaciela. Jak nieżywy legł przylgnięty twarzą do ziemi. Z zarośli powoli, wlokąc się niezgrabnie, wyszedł niedźwiedź. Nosem wodził po ziemi, jakby czego szukał. Słychać było sapanie jego i mruczenie. Żółte oczy pobłyskujące w ciemności, skierował ku Znoskowi, który ciągle jak martwy leżał… Ostrożnie gospodarz puszczy podszedł ku niemu i jak pies począł go wąchać. Z lekka potrącił go łapą, zamruczał i poszedł dalej. Widać go było zdążającego na pole, krokiem ociężałym, podnoszącego czasem pysk i wietrzącego dokoła. Siadał spoczywać, lizał łapę i znowu wlókł się leniwo dalej, gdzieś za żerem czy za przyjacielem, po którym zatęsknił.</p>
 <p>Chłopak ujrzawszy go już w pólku, zerwał się na nogi i w las rzucił szybko.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Ranek był najśliczniejszej wiosny, której już nic z jej królewskich ozdób nie brakło. Najleniwsze dęby głuche stały poubierane w liście, pachniały brzozy potrząsając długimi warkoczami, u stóp drzew, gdzie zajrzało tylko słonce, kwiatek się ku niemu uśmiechał. Na każdej gałęzi szczebiotał ptaszek, w każdym promieniu złota muszka igrała…</p>
 <p>Cały ten świat, wody, lasy, ptaki, zwierzęta i muszki złote, i rybki srebrne żyły naówczas życiem jednym w dziwnej zgodzie i braterstwie. Strumień mruczał zrozumiałą mową, ptaki śpiewały pieśni dla ludzi, dziki zwierz bratał się czasem z człowiekiem, by mu służyć. Harmonia wielka panowała w tym świecie zaczarowanym, w którym wszystko składało się na jedną całość. Śmierć nawet przychodziła z uśmiechem, w porę i przeprowadzała do ojców na biesiadę wieczną.</p>
@@ -1367,11 +1359,8 @@
 <p>— Nie mogę… nie mogę… — odparła stara. — Dopiero po Kupale godzi się odczyniać… A do tego żbik i ludzka strzała… Jakiego na to ziela trzeba… i oko!… Ho! ho! Gdybyś mi nie wiem co dawał, za mało by było za moją pracę… Gdybym ci ból odczyniła, sama bym go wziąć musiała, bo tu nie ma ani źródła, ani kamienia, ani drzewa, gdzie by się zostało… A mnie trzeba na Kupałę… Na Kupałę…</p>
 <p>I śpiewając o Kupale, Jaruha rzuciła Znoska, a sama w las dalej ciągnęła. Karzeł legł na łące i w trawach złożywszy głowę usnął…</p>
 </div>
-<div>
-<p>Tom II</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom II</head>
 <div type="chapter"><head>I</head>
 <p>Nadszedł dzień Kupały — święto w całym pogańskim obchodzone świecie, dzień Białego Boga dnia i światłości, na którego cześć paliły się ognie nad Adrią, nad Bałtem, nad Dunajem, nad Łabą, Wisłą, Dniestrem, Rodanem i Sekwaną. Ze czcią tego Bel-boga, Bela, ludy wędrowały na zachód wszystkie, z kolebki swej rajskiej, w zimne kraje nowej ojczyzny.</p>
 <p>Dzień Kupały najdłuższy w roku, noc Kupały najkrótsza, były jednym ciągiem wesela, śpiewu, skoków i obrzędów.</p>
@@ -1519,8 +1508,7 @@ Przyjechał pan na koniku,</p>
 <p>Gdy Dziwa jeszcze raz ostatni obejrzała się ku zagrodzie a powiała chustką białą, płacz i jęk dały się słyszeć ze dworu. Siostry i bratowe posiadały na ziemi i jak po umarłej zawodzić poczęły.</p>
 <p>A w dali słychać było, jak koń Domana puszczony na wolę czwałem, rżąc, przez lasy pędził do swoich.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Koło dworu Domanowego cicho było i pusto, gdy następnego dnia Myszko przybył na koniu i stanął u wrót.</p>
 <p>— Nie ma Domana? — zapytał sługi, który we wrotach stał.</p>
@@ -1648,8 +1636,7 @@ Przyjechał pan na koniku,</p>
 <p>Jaruha już siedziała spokojnie u ognia i może nawet żałowała, że go nie powieszono, gdyż z wisielców różne bardzo potężne leki i czary naówczas wyciągano, które by się jej były przydały. Nie obwiniano jej o to, że się przybłędzie ulitowała, i pozostała znów przy ognisku.</p>
 <p>Znosek padłszy za zagrodą na ziemię, z nową raną, jęczał, pięście wyciągając ku dworowi i przeklinając jej pana. Obiecywał sobie pomstę, choćby życiem zapłacić, a o tę zausznikowi kneziowskiemu było łatwo. Gdy nogę zawiązawszy, powlókł się nad ranem w las, aby go nie schwytano znowu, ciągle jeszcze ku zagrodzie się zwracał, pokazując jej pięści i zęby.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Na jeziorze Lednicy leżała wyspa, ostrów święty, do którego z dala, od Wisły nawet, od Łaby, od Odry przychodzili z ofiarami po wróżby i rady pielgrzymi.</p>
 <p>Niewiele naówczas takich chramów i świątyń liczono na ziemiach słowiańskich. U Ranów na ostrowiu stał chram Światowida, u Redarów drugi, u Serbów nad Łabą Trygłowa trzeci, w Stargrodzie w gaju czczono Prowego. Ciągnęły do nich na wielkie świątki i dnie uroczyste różne plemiona z dalekich stron, schodzili się ludzie jednego słowa, choć różnej nieco mowy, i u świątyń tych radzili i porozumiewali, co ku obronie od wspólnych wrogów przedsiębrać mieli.</p>
@@ -1785,8 +1772,7 @@ Przyjechał pan na koniku,</p>
 <p>Wtem słońce wyszło zza chmur i promień jego padł przez rozsuniętą zasłonę do wnętrza chramu, złotym pasem kładąc się u nóg dziewczyny, która patrząc nań uśmiechnęła się, jakby mowę niebios zrozumiała.</p>
 <p>Na dachu kontyny gruchały gołębie, w krzakach znowu śpiewały słowiki, a ponad łodzią knezia leciało kruków stado, to wzbijając się do góry, to opadając na dół, jakby kołpaki z głów pozrywać im chciało.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Na kneziowskim grodzie do późna czuwali ludzie, pana miłościwego nie było. Biała pani siedziała w swej świetlicy i dumała, powołując do siebie to sługi, to podskarbiego, to służące. Niekiedy z siedzenia zrywała się niespokojna, szła do okna, to do drzwi, a słała pytać czy pan miłościwy nie wrócił, czy go gdzie widać lub słychać nie było.</p>
 <p>W pierwszym podwórcu stali też i czekali ludzie, drudzy pokładli się ze znużenia.</p>
@@ -1945,8 +1931,7 @@ Słuchajcie mnie.</p>
 <p>— Jedź mi zaraz — rzekła — i miej rozum, bo go tu wiele potrzeba. Jedź do panów stryjów, powiedz im co widziałeś, że Leszek uwolniony, że my zgody z nimi chcemy, niech na gród do nas zjadą. Kmiecie nam grożą, bronić się potrzeba nie memu panu, ale całemu rodowi naszemu… Skoro, jak najprędzej niech przybywają do nas. Zagniewają się pewnie, ukołysz ich pięknymi słowy, niech ino przybędą. Nie odstępuj od tego, aby tu zaraz jechali. Rozumiesz?</p>
 <p>Mucha okazać się starał wesołą i pewną siebie twarzą, że zrozumiał, co mu zlecono i spodziewał się spełnić dane rozkazy. Nie zwlekając, natychmiast kazała mu jechać Brunhilda, a gdy ujrzała, że już był na moście grodowym, cichymi krokami poszła zobaczyć, co się z mężem dzieje. Kneź zmęczony, wypróżniwszy, co przy nim stało, spał na ławie leżąc i chrapał straszliwie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Nazajutrz rano Chwostek, chociaż się tym pocieszał, że go na grodzie napaść kmiecie nie będą śmieli, z porady Brunhildy kazał czynić przygotowania do obrony. Dziewkom kazano kamień nosić na wały i na wieżę, a na wierzch stołba posłano straż, aby się z wysoka rozpatrywała po okolicy, czy się co z lasów nie ukaże.</p>
 <p>Kneź z żoną i smerdami radzili w izbie.</p>
@@ -2036,8 +2021,7 @@ Słuchajcie mnie.</p>
 <p>A gdy trupy wleczono, psy wyjąc ciągnęły za nimi i wicher się zerwał od lasów, choć niebo czyste było — poleciał po wieży, po komorach, po izbach wyjąc i świszcząc dziko, aż Chwost obejrzał się, drgnął i w kąt na ławę zacisnął mrucząc.</p>
 <p>Brunhilda ręce myła w wodzie na stole i patrzała na przestraszonego z politowaniem i niemal z pogardą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Gdy czeladź potrutych wiązano, Żuła, który starostą był przy Mściwoju, zawczasu postrzegłszy, co ich czeka, rzucił się na ziemię, podpełznął między krzaki rosnące pod tynem, wsunął się dalej od ciżby, na częstokół wdrapał i przeskoczywszy go, wpław począł do brzegu się dobijać. Drużyna zajęta innymi nie postrzegła ucieczki, nie posłyszała pluskania po wodzie… Z wieży tylko stojący na niej strzelać zaczęli do płynącego i nawoływać, ale nim się opatrzono w pogoń pójść za nim, już dopadłszy lądu, gdzie się pasły konie, chwycił świerzopę i oklep, rękami ją popędzając pobiegł w lasy.</p>
 <p>Pastuchy za nim pognały, ale go pochwycić nie mogły. Żuła nogami i oburącz gnał przestraszone stworzenie, które go jak szalone w zarośla wniosło. Gdy znikł z oczów pogoni, już go w lesie próżno dalej pędzić było.</p>
@@ -2150,8 +2134,7 @@ Słuchajcie mnie.</p>
 <p>Kmieć siadł posłuszny, a choć czuł, że mu tu się nic złego stać nie może, gdy wniesiono miód, a przypomniał częstowanie stryjów, ciarki mu poszły po skórze. Odmówić jednak kubka nie śmiał, bo kneź by się obraził.</p>
 <p>Nisko się tylko kłaniał zaklinając, że wiernym był sługą. Siedzieli więc razem, jeden u góry za stołem, drugi w końcu, i kneź sobie wszystko opowiadać kazał, co na ostrowiu się działo, o nazwiska i ludzi dopytując, jakby je w pamięci dobrej chciał zachować. Bumir musiał mu tak do nocy u stołu dotrzymać.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Minęło dni kilka, a około grodu nic słychać nie było. Rozsyłano stąd na zwiady smerdów i poprzebieraną czeladź do bliższych dworów i chat, nigdzie o żadnym ruchu wojennym nie wiedział nikt. Na pólkach w lasach, gdzie role były piaszczyste a słoneczne, zaczynano zboże żąć. Z sierpami żelaznymi i miedzianymi a krzemiennymi ludzi było dużo widać, a z bronią i oszczepem prawie nikogo.</p>
 <p>Kneź się począł nudzić i tęsknić sam jeden zamknięty na grodzie między wałami. Pił, jadł i spał, przeciągał się, ziewał, do białej pani chodził czasem, a gdy z przedsienia na lasy popatrzył, klął okrutnie, że na łowy jechać nie mógł. Brunhilda go nie puszczała. Zrazu słuchał jej milczący, teraz już się burzyć zaczynał.</p>
@@ -2285,8 +2268,7 @@ Słuchajcie mnie.</p>
 <p>— Miłościwy panie — rzekł Piastun — jak miry pójdą na was i zawołają… pójdę i ja…</p>
 <p>Mówiąc to, ustąpił mu z drogi, a Chwostek pośpiesznym krokiem wyrwał się z chaty, nie mówiąc słowa i nie patrząc za siebie. Wrota się za nimi zamknęły; noc była czarna, milcząca. W dali tylko pobłyskiwało jezioro i na wysokim stołbie u góry ogień wedle zwyczaju rozniecony czerwonawym światłem migał. Chwostek ze sługą znikli w ciemnościach. Piastun odetchnął lżej, gdy ich nie stało.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Nazajutrz w chacie Piastunowej życie powszednie szło trybem zwyczajnym. Pogodny wieczór świecił zachodzącym słońcem. Na szopie bocian klekotał, niemowlętami swymi zajęty, na łące rżały konie, owieczki bure wracały do szop i u wrót domowych dopominały się wnijścia. Wróble świergotały pod strzechą niespokojnie, jaskółki unosiły się wysoko, krążąc w powietrzu i zapowiadając pogodę. Od jeziora na wyżary ciągnęły kaczki sznurami i stadami.</p>
 <p>Stary, nad stołem sparty, zadumany siedział. Tu cicho jeszcze było i wesoło, a dokoła zbroiło się i poruszało wszystko. Myszkowie obwołali lud, tejże nocy miały błysnąć wici ogniste po pagórkach. Posłańcy biegali od chaty do chaty. Około wieży na grodzisku widać było ruch i krążące światła. Stada kneziowskie spędzano z pastwisk, aby ich nie zajęli kmiecie, których gromady już się po krańcach lasów pokazywały. Z chaty Piastunów, w której stary bartnik siedział z niedorosłym synaczkiem, wysłać nie było kogo, czeladź tylko uzbrojono, aby z innymi ciągnąć mogła.</p>
@@ -2423,8 +2405,7 @@ Słuchajcie mnie.</p>
 <p>— Nie żałujmy, cośmy gościom oddali, stare nasze podanie mówi, iż się to powraca z nawiązką, byle wojna przeszła!..</p>
 <p>Spojrzeli oboje, na wieży u Gopła płonął ogień, a w dolinie obozowiska widać było porozbijane, jak okiem zajrzeć, i cienie ludzi, co się przy stosach migali.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>My cofnąć się nieco z powieścią naszą musimy.</p>
 <p>W tym miejscu, gdzie się na ostrów Lednicę przeprawiali pielgrzymi do chramu idący — na wzgórzu nad jeziorem, stało chat kilka, między którymi najprzedniejszą była zdunowa chałupa Mirsza. Zduna i jego chatę znano naokół daleko, bo ludzie się nigdzie nie zaopatrywali w garnki, misy, popielnice i wszelki sprzęt gliniany, tylko u starego Mirsza. Ojciec jego, dziad i pradziad garnki lepili, toczyli je i wypalali, szczególniej ofiarne, i wiedzieli, jak to czynić, albowiem pradziada pradziad z tą umiejętnością tu przywędrował i jeden w drugiego, ród cały, zdunami byli wszyscy. A że się ich rozrodziło wielu, a nie mógł żaden być, jeno zdunem, bo mieli upodobanie i poszanowanie dla rzemiosła swojego, rozsiadali się więc po okolicy, gdzie lepszą glinę znaleźli, Mirszowie i żyli z gliny i ze swej sztuki.</p>
@@ -2618,8 +2599,7 @@ Słuchajcie mnie.</p>
 <p>Zatętniało, zaszumiało, ruszyli cwałem, a przed chatką stał Mirsz stary i patrzał na łuny, stała Mila z rękami załamanymi i płakała, coraz to fartuszkiem ocierając łzy. A zza łez widać było uśmieszek i serce biło, biło — biło.</p>
 <p>— Powróci! Powróci! Swaty przyjadą. Moim musi być!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Na wieży, na wierzchołku stała pani biała, patrzała dokoła; wieczór był, ten sam wieczór, którego zapalono wici ogniste. Jeszcze na zachodzie słońce po sobie zostawiło czerwoną łunę, dokoła lasy i doliny spać się zdawały.</p>
 <p>Kneź za nią, oparty o mur, poglądał na gród pod nogami, na chodzących po wałach ludzi, na smerdów, co sprawiali drużynę grodową, na jezioro, w którym daleko łuna się niebieska odbijała. Nie widać jeszcze było nic… nic…</p>
@@ -2868,11 +2848,8 @@ Słuchajcie mnie.</p>
 <p>Żyw tu już nikt nie pozostał. Zbuntowanemu znać ludowi z górnej połaci pułap ciśnięto na głowy, kamieniami ciężarny, i zgniótł motłoch, na miazgę gruchocząc. Dwoje ich tylko, Mucha i smerda leżący po kątach, zostali na długie konanie.</p>
 <p>Gdy się wdarto do wieży, całe obozowisko ozwało się wielkim okrzykiem. Kmiecie i lud tęsknił do domów, powitano zwycięstwo radością i wrzawą. Myszkowie czapki podnieśli do góry, zaczęto grzebać się w gruzach, szukając ukrytych skarbów Chwostka, a rozbiegające się wnet gromady poniosły po mirach wieść, że na grodzie, krucy już tylko panowali.</p>
 </div>
-<div>
-<p>Tom III</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom III</head>
 <div type="chapter"><head>I</head>
 <p>Na spustoszonym grodzie Chwostkowym zwołano wielki wiec kmieci o następnego miesiąca pełni.</p>
 <p>Trzema jednak dniami wprzódy, gdy księżycowej twarzy wiele jeszcze brakowało, by pełną była, starszyzna już się po dworach i zagrodach zbierać, radzić i wadzić zaczęła. Wszystko zapowiadało, że na tym zgliszczu, co tyle okropności widziało, i wiec spokojnie nie przejdzie.</p>
@@ -3023,8 +3000,7 @@ Słuchajcie mnie.</p>
 <p>Każdy ród wiódł swą gromadę, nie bardzo sforną, grozą i strachem trzymając ją w posłuszeństwie.</p>
 <p>Dobek latał opatrując gromady i szykując jedne przy drugich, a tu mu czeladź zaraz się waśnić poczynała, że ją uspokajać kijem musiał. Myszków sługi z Leszkami stać obok nie chcieli. Lecz Dobek gdy się rozpalił, ani spał, ani jadł, ani spoczął, póki do potyczki nie doprowadził. Wojnę lubił i dopiero żył, gdy dzidę w rękę wziąwszy, na konia siadł. Śmiały mu się oczy i drgały usta. Ku wieczorowi powysyłał najprzebiegiejszych ludzi na zwiady, aby dopytali, gdzie się nieprzyjaciel obracał. Dopiero języka dostawszy, miał przeciwko niemu wyruszyć. Tymczasem odstąpiwszy nieco, u jeziora położył się z ludźmi w gaju, aby nocą ich nie zdradziły ogniska i dymy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Wrócili wysłani z tym, że Niemców nieopodal już słychać było — podpełznąwszy widzieli ich nawet, ale sił obliczyć nie mogli.</p>
 <p>Szli zabierając ludzi, spędzając trzody, zagrody paląc, łupy garnąc jakie pochwycić mogli, kędy się przesunęli, zostawała po nich pustynia i zgliszcza.</p>
@@ -3099,8 +3075,7 @@ Słuchajcie mnie.</p>
 <p>Poczuli już możniejsi, że jedni drugich nie dopuszczą do władzy. Wyrocznia też chodziła ze swą radą po głowie, rodziła się więc u wszystkich myśl, aby wybrać takiego, co by pokornym i małym będąc, wdzięcznym był im za cześć i wyniesienie, a łagodnie z niego poczynał. Szło tylko o wynalezienie człowieka.</p>
 <p>Na każde imię było więcej tych, co mu się sprzeciwiali, niż co by je popierać chcieli.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Korzystając z uspokojenia, Doman się do wesela sposobił. Chciał je mieć hucznym i głośnym, stary też zdun, który córkę za bogatego kmiecia wydawał, pragnął pokazać, iż go stało na przyjęcie i uraczenie choćby najliczniejszych gości. Z obu stron przygotowania czyniono wielkie.</p>
 <p>Doman naprzód, odziawszy się bogato i czeladź postroiwszy, wędrował od dworu do dworu, drużbów sobie na wesele spraszając.</p>
@@ -3239,8 +3214,7 @@ Słuchajcie mnie.</p>
 <p>Pod wierzbą Mirszową padł na ziemię wysilony. Ręce miał skrępowane, nogi wolne.</p>
 <p>Wieczorem trup zabitej Mili sam leżał u brzegu. Doman pełznął do wody, gdy straż się pospała, rzucił się w jezioro i zniknął.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Na ostrowiu, na Lednicy, u brzegu stał mnogi lud, patrząc i przysłuchując się w milczeniu.</p>
 <p>Od dalekiego lądu wiatr mu przynosił wrzaski i dym, w którym czuć było palące się zagrody, od lądu woda niosła mu trupy, które podpływały do ostrowu, jakby o pogrzeb prosiły.</p>
@@ -3447,8 +3421,7 @@ Słuchajcie mnie.</p>
 <p>Dziwa w ogródku siedziała, ręce opuściła, oczy w ziemię wlepiła, powtarzała po cichu.</p>
 <p>— Przeznaczone nie minie!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Spokoju nie było u Polanów od Kaszubów i Pomorców, których podprowadzali i zmawiali Leszkowie. Zaledwie odpędzono jedną gromadę, wpadała druga, każda z nich coraz głębiej sięgała i niszczyła. Ludzie nie wiedzieli, gdzie ich szukać. Raz się wdarli od północy, to znowu od wschodu… z prawej to z lewej granicy, gdzie się ich nie spodziano.</p>
 <p>A starszyzna się tymczasem na wiece ciągle to pod gród, to na uroczyska po lasach zwoływała, radziła, swarzyła i z niczym precz jechała, knezia sobie wybrać nie umieli. Nie było komu rozkazywać ni kogo słuchać, ni komu dowodzić a wrogów odpierać.</p>
@@ -3604,8 +3577,7 @@ Słuchajcie mnie.</p>
 <p>Teraz się jej już nie lękano, owszem, żądano prawie, mając czym napastnika osaczyć i zwalczyć. Droga, którą on chodził, spustoszoną była, nowej więc szkody uczynić nie mógł, a w lasach spodziewano się go oskoczyć i wymordować do nogi.</p>
 <p>Synowie Chwostka mogli też łatwo wpaść w ręce.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Wybór Piastuna w dni kilka po całej rozszedł się ziemi, podawano sobie wieść o nim z zagrody do zagrody. Dziwili się wszyscy, a im dalej od Gopła, tym powieść o osobliwszej bogów wyroczni i woli inaczej była opowiadaną. Wierzyli wszyscy, iż to było zrządzeniem woli, która światem rządzi… Obcy ludzie jacyś, nieznani, przyszli jakby umyślnie zesłani rzucić słowo, możni nie mogli się im sprzeciwić, jednym głosem i wolą wywołano starego bartnika z lasu, uciekającego pochwycono i zmuszono do panowania.</p>
 <p>Leszkowie tylko i ci, co im sprzyjali a krwią byli związani, nie śmiejąc nic rzec, smucili się bardzo. Lękali się ci, co do ich rodu należeli, aby ich nie wytępiono i zemsty nad nimi nie szukano.</p>
@@ -3701,8 +3673,7 @@ Słuchajcie mnie.</p>
 <p>Gęślarzowi zadrżały nogi, siadł na kamieniu we wrotach. Dłoń jego sama strun szukała, ale usta pieśni wyjąknąć nie umiały — zawodził tylko.</p>
 <p>— Gdy na gniazdo piorun pada, czego grom w nim nie wybije, to się samo w nim zajada, i swą własną krew wypije… Kiedy na ród wyrok padnie, że ma sczeznąć marnie z ziemi, brat na brata ręce kładnie, ojciec żre się z dziećmi swemi. Bez pogrzebu w polu leżą, krucy ciała poszarpali… kości ich wiatr poroznosi i pamięć ich wsiąknie w ziemię…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Gdy się już na wyprawę przeciwko Pomorcom wybierano, rozproszonego ich niewolnika, w poprzednich zabranego potyczkach, Piastun kazał spędzić do grodu nad Gopło i zamknąć na wieży, bo tam go najłatwiej strzec było. Pilnować jeńców po zagrodach nie bardzo mieli komu, a trafiało się często, że i w dyby pozabijani, na polach się rozkuwali, szli w lasy i przekradali do swoich, prowadząc ich potem tym bezpieczniej na Polan, że tu drogi i osady poznali.</p>
 <p>Ludek, Wiszów syn, wysłał też z innymi i Niemca swego Hegona, którego zabrał był z sobą. Ten, że się tu już dawniej włóczył po zagrodach, znał je dobrze, u Piastuna też bywał; wyprosił u czeladzi, co go prowadziła, żeby mu przed knezia pozwoliła iść wprzódy i do niego przemówić. Strasznie mu się na wieżycę z motłochem iść nie chciało.</p>
@@ -3811,8 +3782,7 @@ Słuchajcie mnie.</p>
 <p>Słuchali wszyscy w podziwieniu wielkim, nim się posypały pytania — jak Pomorcy, jak Niemcy, jak cały obóz nieprzyjacielski był zbrojny, co mówili, jak i dokąd ciągnąć myśleli. Opowiedział Dobek, iż spieszyli posiłki zbierać, zwykłą drogą ku Lednicy mając ciągnąć, dokąd już przodowników wysyłano, aby Polanom drogę zabiegli od granicy.</p>
 <p>Z drugiej więc strony także nadążać było potrzeba, aby się im nie dać wyścignąć. Z tego, co Dobek widzieć mógł i miarkować, z tego co słyszał, cała Leszków drużyna zebranej przez Piastuna sile równać się nie mogła, orężem tylko straszną była. Serca nabrała starszyzna i wielkiej do boju ochoty, i jak na brzask kazano dać znak do ciągnięcia w cichości ku jezioru, ku Lednicy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Lasami, polami, ostępy posuwały się gromady zbrojne ku jezioru w takim milczeniu, jakby zwierza spłoszyć się obawiały. A stało się, zrządzeniem dziwnym, że choć wojewodowie mało o sobie wiedzieli w pochodzie, z różnych stron ciągnąc — o jednym dniu i godzinie wyszli z okalających puszcz na równinę. Mogło się to nazwać wróżbą szczęśliwą i gdyby nie nakazane milczenie, radość by była z piersi wyrwała im okrzyk wielki.</p>
 <p>Piastun ze wzgórza oglądać mógł, jako miry i ziemie szły w porządku i jedne przy drugich się kładły.</p>
@@ -3950,8 +3920,7 @@ Słuchajcie mnie.</p>
 <p>W czółnie nań Sambor czekał. Płynęli więc na powrót w milczeniu oba, tylko się mierząc oczyma, a Doman w duchu powtarzał.</p>
 <p>— Musi być moją!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Z dala już widać było, jak gromady trupy układały stosami i pagórki z nich rosły, które mogiłami pokrywano. Roili się tam ludzie, a choć praca smutną była, śpiewali pieśni, wznosili okrzyki.</p>
 <p>— Gdzie odgróżki wasze, o rodzie zbójecki? gdzie wasze zwycięstwo i łupy a jeńce? garść ziemi na oczy, oszczep w piersi się tłoczy, to wasza zapłata… Żony stoją w progu, na powrót czekają, wypatrują oczy, wypłaczą źrenice. Wrócą wilkołakami krew ssać ze swych braci.</p>
@@ -4089,9 +4058,7 @@ Słuchajcie mnie.</p>
 <p>Przyszły więc wprędce swaty, sproszono drużbów, przyjechał w królewskim orszaku pan młody, sprawiono wesele, na którym siedem dni goście jedli, pili, śpiewali, skakali i weselili się.</p>
 <p>I ja tam byłem, miód, piwo piłem, bo każda stara baśń, tak się przecie kończyć powinna.</p>
 </div>
-<div>
-<p>Dopisek. Dziejowe legendy
-</p>
+<div type="chapter"><head>Dopisek. Dziejowe legendy</head>
 <p>Jak trudne są do opowiedzenia dzieje dziecięcego wieku człowieka, tak i pierwszych dni, tych tajemniczych, wzrostu i rozwijania się, które świadków, co by je wypowiedzieli, nie mają. Jak dziecię po przyjściu na świat rośnie olbrzymio i sił nabywa szybko, tak naród, wśród tych mroków pierwobytu, obdarzony jeszcze całą potęgą z kolebki wyniesioną, niepojętym sposobem kształtuje się do przyszłych swych losów.</p>
 <p>Nic też trudniejszego, jak podnieść zasłonę okrywającą pierwociny bytu narodu. Te chwile mało po sobie pomników zostawiają i śladów. Analogia tylko, porównanie, pewne stałe prawa, którym byt ludzkości podlega, coś o tym dozwalają wnioskować.</p>
 <p>Z rodzin urastają rody, plemiona, gminy, narody wreszcie, ale tajemniczy proces ten nie dozwala się dośledzić faktycznie i embriologia narodu pozostanie zawsze tylko prawdopodobieństwem i hipotezą.</p>

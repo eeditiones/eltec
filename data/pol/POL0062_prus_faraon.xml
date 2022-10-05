@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0062">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">198296</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Faraon</title>
 <ref>http://wolnelektury.pl/katalog/lektura/faraon</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Faraon</title>
 <author>Prus, Bolesław</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1897</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,11 +59,8 @@
 </div>
 </front>
 <body>
-<div>
-<p>Tom I</p>
-</div>
-<div>
-<p>Wstęp</p>
+<div type="group"><head>Tom I</head>
+<div type="liminal"><head>Wstęp</head>
 <p>W północno-wschodnim kącie Afryki leży Egipt, ojczyzna najstarszej cywilizacji w świecie. Przed trzema, czterema, a nawet pięcioma tysiącami lat, kiedy w środkowej Europie odziani w surowe skóry barbarzyńcy kryli się po jaskiniach, Egipt — już posiadał wysoką organizację społeczną, rolnictwo, rzemiosła i literaturę. Nade wszystko zaś wykonywał olbrzymie prace inżynierskie i wznosił kolosalne budowle, których szczątki budzą podziw w technikach nowożytnych.</p>
 <p>Egipt — jest to żyzny wąwóz między pustynią Libijską i Arabską. Głębokość jego wynosi kilkaset metrów, długość sto trzydzieści mil, średnia szerokość zaledwo milę. Od zachodu — łagodne, ale nagie wzgórza libijskie, od wschodu strome i popękane skały arabskie są ścianami tego korytarza, którego dnem płynie rzeka — Nil.</p>
 <p>Z biegiem rzeki, na północ, ściany wąwozu zniżają się, a w odległości dwudziestu pięciu mil od Morza Śródziemnego nagle rozchodzą się, i Nil, zamiast płynąć ciasnym korytarzem, rozlewa się kilkoma ramionami po obszernej równinie mającej kształt trójkąta. Trójkąt ten, zwany Deltą Nilową, ma za podstawę brzeg Morza Śródziemnego, zaś u wierzchołka, przy wyjściu rzeki z wąwozu, miasto Kair tudzież gruzy przedwiekowej stolicy, Memfisu.</p>
@@ -94,7 +96,6 @@ pod władzę cudzoziemców, i światło cywilizacji przez kilka tysięcy lat pł
 <p>Poniższe opowiadanie odnosi się do XI wieku przed Chrystusem, kiedy upadła dynastia dwudziesta, a po synu słońca, wiecznie żyjącym Ramzesie XIII, wdarł się na tron i czoło
 swoje ozdobił <emph>ureusem</emph> wiecznie żyjący syn słońca San-amen-Herhor, arcykapłan Amona…</p>
 </div>
-<div>
 <div type="chapter"><head>Rozdział I</head>
 <p>W trzydziestym trzecim roku szczęśliwego panowania Ramzesa XII Egipt święcił dwie uroczystości, które prawowiernych jego mieszkańców napełniły dumą i słodyczą.</p>
 <p>W miesiącu Mechir, w grudniu, wrócił do Teb, obsypany kosztownymi darami, bożek Chonsu, który przez trzy lata i dziewięć miesięcy podróżował w kraju Buchten, uzdrowił tam córkę królewską imieniem Bent-res i wypędził złego ducha nie tylko z rodziny króla, ale nawet z fortecy Buchtenu.</p>
@@ -363,8 +364,7 @@ odparł minister.</p>
 przez wąwóz! — zawołał Ramzes. — Ja nie znam się na kapłańskiej taktyce, zresztą muszę odpocząć. Chodź ze mną, kuzynie — rzekł do Tutmozisa i skierował się w stronę łysych
 pagórków.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział II</head>
 <p>Jego dostojność Herhor natychmiast polecił swemu adiutantowi, który nosił topór, objąć dowództwo straży przedniej
 w miejsce Eunany. Potem wysłał rozkaz, ażeby machiny wojenne do rzucania wielkich kamieni zjechały z szosy ku wąwozowi, a żołnierze greccy aby ułatwiali im przejście w miejscach trudnych. Wszystkie zaś wozy i lektyki oficerów świty
@@ -483,8 +483,7 @@ który ma ręce do pracy, gębę tylko do płaczu, a grzbiet do
 kijów… O śmierci, zetrzyj moje ciało na popiół, ażebym jeszcze i tam, na polach Ozyrysa, po raz drugi nie urodził się
 niewolnikiem…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział III</head>
 <p>Dyszący gniewem książę Ramzes wdzierał się na pagórek,
 a za nim Tutmozis. Elegantowi przekręciła się peruka, sztuczna bródka odpadła, więc niósł ją w rękach. Pomimo zmęczenia
@@ -675,8 +674,7 @@ zataczał się jak pijany i odwracał głowę. Wreszcie zaczęli
 wdrapywać się na przeciwległy pagórek.</p>
 <p>„I ten człowiek — myślał Tutmozis — chce walczyć z kapłanami!…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IV</head>
 <p>Następca tronu i jego towarzysz biegli z ćwierć godziny po
 skalistym grzbiecie wzgórza, coraz bliżej słysząc trąbki, które
@@ -945,8 +943,7 @@ tak, że od kijów jestem prawie połamany. Jestem chory i muszę się kłaść,
 <p>Dlatego, o pisarzu! zmień swoje zdanie o szczęściu oficera.”</p>
 <p>Tak śpiewał mężny Eunana, a jego pieśń, pełna łez, przetrwała państwo egipskie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>W miarę jak świta następcy tronu zbliżała się do Memfis,
 słońce pochylało się ku zachodowi, a od niezliczonych kanałów i dalekiego morza zrywał się wiatr nasycony chłodną wilgocią. Szosa znowu zbliżyła się do żyznych okolic, a na polach
@@ -1151,8 +1148,7 @@ nowiu i położywszy księcia, umieścił mu głowę na podporze…
 Następnie opuścił płócienne ściany namiotu, sam położył
 się na podłodze i — w kilka minut zasnęli obaj.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VI</head>
 <p>Do pałacu faraona pod Memfisem wchodziło się przez bramę
 osadzoną między dwoma pięciopiętrowymi wieżami, czyli —
@@ -1387,8 +1383,7 @@ wiedzieć.</p>
 jako szef sztabu w korpusie Menfi, i myśli w swym sercu, że
 oko faraona nie dosięgnie jego spraw w pustyni.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VII</head>
 <p>W kilka dni później książę Ramzes został wezwany przed
 oblicze najczcigodniejszej matki swojej, Nikotris, która była
@@ -1549,8 +1544,7 @@ czołem ziemi. A w tej chwili rozległ się nad nią cichy szept:</p>
 się dokoła. Ale w pokoju nie było nikogo. Tylko ze ścian patrzyły na nią malowane kwiaty, a znad ołtarza posąg bogini,
 pełen nadziemskiego spokoju.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VIII</head>
 <p>Książę wrócił do swojej willi stroskany i wezwał Tutmozisa.</p>
 <p>— Musisz mnie — rzekł Ramzes — nauczyć, jak dostaje się
@@ -1719,8 +1713,7 @@ spotkał taki honor od księcia. Ale po co służba ma wiedzieć,
 <p>— Ach, jakie mądre słowa! — zawołał Fenicjanin. — Obyś,
 najdostojniejszy panie, żył wiecznie…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IX</head>
 <p>Po lewej stronie Nilu, na brzegu północnym przedmieścia
 Memfis, znajdował się folwark, który następca tronu oddał
@@ -1897,8 +1890,7 @@ kochanek spocznie po twojej prawicy; a ty go upoisz i powolną będziesz wszelki
 <p>— „Ja jestem milczącego umysłu, nigdy nie mówię, co
 widzę, i słodyczy moich owoców nie psuję czczym paplaniem…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział X</head>
 <p>Wtem śpiew umilkł, zagłuszony wrzawą i szelestem jakby
 wielu biegnących.</p>
@@ -2079,8 +2071,7 @@ Lud egipski, który klęka przed psami faraona, napada na dom
 następcy tronu, pod dowództwem jakichś wrogów Egiptu?…
 Muszę ja to sam zbadać…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XI</head>
 <p>Skończył się miesiąc Tot i zaczynał miesiąc Paofi, druga
 połowa lipca. Woda Nilu z zielonawej zrobiła się białą, a potem czerwoną i wciąż przybierała. Królewski wodowskaz
@@ -2326,8 +2317,7 @@ nie ma pokrzywdzonego, nie ma przestępstwa.</p>
 <p>— Kapłan?… — szepnął następca. — Dlaczego on kryje się?…</p>
 <p>Lecz w tej chwili przyszło mu na myśl, że ów kapłan mógłby ciężko odpowiadać za udzielanie rad tamujących wymiar sprawiedliwości.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XII</head>
 <p>Większą część nocy Ramzes przepędził w gorączkowych marzeniach. Raz ukazywało mu się widmo państwa jako niezmierny labirynt o potężnych ścianach, których nie można
 przebić. To znowu widział cień kapłana, którego jedno mądre
@@ -2653,8 +2643,7 @@ Nie przyszło mu do głowy, że jego sąd może być mylny i niesprawiedliwy.</p
 nigdy nie zwraca się przeciw niemu samemu; jak głodna pantera nie żre własnego ciała, lecz kręcąc ogonem i tuląc uszy,
 dokoła siebie wypatruje ofiary.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIII</head>
 <p>Wycieczki następcy tronu, podjęte w celu odkrycia kapłana,
 który ocalił Sarę, a księciu udzielił porady prawnej, miały
@@ -2831,8 +2820,7 @@ i dziękując za opiekę oświadczyli, że Fenicjanin już nie zmusza ich do pł
 <p>Tak było pod Memfisem. Za to w dalszych folwarkach
 książęcy dzierżawca wetował sobie straty.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIV</head>
 <p>W miesiącu Choiak, od połowy września do połowy października, wody Nilu stanęły najwyżej i zaczął się nieznaczny opad. W ogrodach zbierano owoce tamaryndowe, daktyle
 i oliwki, a drzewa zakwitły po raz drugi.</p>
@@ -3156,8 +3144,7 @@ moi przyrodni bracia, z których jeden nie przejdzie pokoju
 bez oparcia się na dwu niewolnikach, a drugi skacze po
 drzewach.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XV</head>
 <p>Na następny dzień Ramzes wysłał swego Murzyna z rozkazami do Memfis, a około południa od strony miasta do
 folwarku Sary przybiła duża łódź, napełniona greckim żołnierstwem w wysokich hełmach i połyskliwych pancerzach.</p>
@@ -3328,8 +3315,7 @@ faraona albo — nie wiadomo gdzie.</p>
 spojrzał na nią jak zbudzony, jakby dziwił się, że ją widzi
 obok siebie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVI</head>
 <p>Tak wyglądały, zresztą dość rzadkie, chwile największego
 zbliżenia między Sarą i jej książęcym kochankiem. Wydawszy
@@ -3554,8 +3540,7 @@ tronu!…</p>
 <p>— Tak, czcigodna pani! Można śmiać się z wielu naszych
 przesądów; niemniej prawdą jest, że syn faraona nie powinien łączyć się z Żydówką.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVII</head>
 <p>Od owego wieczoru, kiedy Sara śpiewała w łódce; statek
 dworski już nie ukazywał się na Nilu, a książę Ramzes począł
@@ -3789,8 +3774,7 @@ Trzeba jednak przyznać, że Ramzes mówiąc o przyszłych dostojeństwach Herho
 z jego córką, lecz — o daniu mu nowych urzędów, których
 było pełno w świątyniach i przy dworze.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVIII</head>
 <p>Od dnia kiedy został namiestnikiem Dolnego Egiptu, zaczęło się dla Ramzesa życie niesłychanie uciążliwe, jakiego
 nie domyślał się nawet, pomimo że urodził się i wyrósł wśród
@@ -4121,8 +4105,7 @@ przede mną ciążę, ale jej przebaczę, gdy dziecko będzie zdrowe i ładne. J
 trochę Żydów, a przyjęła choć paru Egipcjan i Egipcjanek.
 Nie chcę, aby mój syn przyszedł na świat w tym towarzystwie i może jeszcze bawił się z żydowskimi dziećmi. Nauczyliby go podawać ojcu najgorsze daktyle!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIX</head>
 <p>Cudzoziemska dzielnica w Memfisie leżała w północno-wschodnim rogu miasta, blisko Nilu. Liczono tam kilkaset
 domów i kilkanaście tysięcy mieszkańców: Asyryjczyków,
@@ -4410,8 +4393,7 @@ czyhający na zgubę jego świątobliwości…</p>
 w miejsce nie znane mi. Ale ja za nim poślę moje źrenice,
 przed którymi nic się nie ukryje!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XX</head>
 <p>Około dziewiątej godziny wieczorem Phut opuścił zajazd
 „Pod Okrętem” w towarzystwie Murzyna niosącego pochodnię. Pół godziny przedtem Asarhadon wysłał na ulicę Grobów
@@ -4784,8 +4766,7 @@ opuścił jego zajazd, któremu nie przynosi zysków, tylko podejrzenia i straty
 <p>„Bodajżeś stamtąd nie wrócił!… — pomyślał gościnny gospodarz. — Bodajeś zgnił w kopalniach albo wpadł do rzeki
 na pastwę krokodylom.”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXI</head>
 <p>Podróż księcia następcy zaczęła się w najpiękniejszej porze
 roku, w miesięcu Famenut (koniec grudnia, początek stycznia).</p>
@@ -5052,8 +5033,7 @@ złowrogiego boga, który umniejszał dochody Egiptu; ale
 o walce z nim nie myślał. Jak tu walczyć z pustynią?… Można
 ją tylko omijać albo w niej zginąć.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXII</head>
 <p>Pobyt w nomesie Aa tak zmęczył następcę tronu, że dla odpoczynku i zebrania myśli kazał zaprzestać wszelkich uroczystości na swoją cześć i zapowiedział, aby w czasie podróży
 ludność nigdzie nie występowała z powitaniami dla niego.</p>
@@ -5236,8 +5216,7 @@ Po cóżem, nieszczęsny, przywłaszczając sobie dobra jego świątobliwości f
 <p>Twarz jego zrobiła się żółta i nogi chwiały się pod nim. Ale
 książę, opanowany falą wspomnień, nie spostrzegł jego trwogi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXIII</head>
 <p>Teraz w mieście Anu nastąpił szereg uczt i zabaw. Dostojny Ranuzer wydobył z piwnic najlepsze wina, z trzech sąsiednich nomesów zjechały najpiękniejsze tancerki, najsławniejsi
 muzycy, najosobliwsi sztukmistrze. Książę Ramzes miał czas
@@ -5429,8 +5408,7 @@ w innych razach zastępowaliby cię arcykapłani. Lecz jeżeli
 chcesz poznać tajemnice świątyń, musisz składać cześć bogom,
 gdyż oni są źródłem mądrości.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXIV</head>
 <p>Teraz już Ramzes wiedział, że albo nie spełni rozkazu faraona, albo musi poddać się woli kapłanów, co go przejmowało
 gniewem i niechęcią do nich.</p>
@@ -5828,8 +5806,7 @@ szczęście, że już wyrwę się od was i osiądę między kapłanami…</p>
 <p>— Muszę. Nareszcie może dowiem się od nich, dlaczego
 faraoni biednieją… Aaa!… no — i odpocznę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXV</head>
 <p>Tego samego dnia, w Memfisie, Fenicjanin Dagon, dostojny
 bankier następcy tronu, leżał na kanapie pod werendą swego
@@ -6235,11 +6212,8 @@ wykrzykiwali wszyscy głosami drżącymi wściekłością, trzej
 Fenicjanie odpoczęli zadyszani. Po czym Rabsun zaprosił ich
 na ucztę, gdzie przy winie, muzyce i tancerkach na chwilę zapomnieli o czekającej ich pracy.</p>
 </div>
-<div>
-<p>Tom II</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom II</head>
 <div type="chapter"><head>Rozdział I</head>
 <p>Niedaleko miasta Pi-Bast znajdowała się wielka świątynia
 bogini Hator.</p>
@@ -6498,8 +6472,7 @@ zasłonę.</p>
 <p>Ramzes pożegnał lekarza jeszcze więcej zaciekawiony tym,
 co miano mu pokazać.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział II</head>
 <p>Świątynia Hator z wielką czcią przyjęła Pentuera, a niżsi
 jej kapłani wyszli na pół godziny drogi, aby powitać znakomitego gościa. Zjechało się wielu proroków, ojców świętych
@@ -6824,8 +6797,7 @@ znakomicie mniejszy i gospodarze mieliby złe dochody. Podobnież w państwie: g
 zmniejszyć się wpływ podatków.</p>
 <p>Ramzes słuchał z uwagą i odszedł milczący.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział III</head>
 <p>Kiedy wieczorem kapłani i następca wrócili na dziedziniec,
 zapalono kilkaset pochodni tak jasnych, że było widno jak
@@ -7196,8 +7168,7 @@ Hator, nurtowały w nim dwa pytania:</p>
 <p>Czy wojna z Azją naprawdę mogłaby zaszkodzić Egiptowi?</p>
 <p>Czy kapłani w tej sprawie mogliby oszukiwać jego, następcę faraona?</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IV</head>
 <p>Konno, w towarzystwie paru oficerów, jechał książę do
 Pi-Bast, sławnej stolicy nomesu Habu.</p>
@@ -7411,8 +7382,7 @@ talentów, a może on potrafi dogodzić waszej dostojności…</p>
 z bankiera, uwolnił go więc i obiecał, że wyśle poselstwo do
 Hirama.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>Na drugi dzień rano Tutmozis z wielką świtą oficerów
 i dworzan złożył wizytę tyryjskiemu księciu i zaprosił go do
@@ -7670,8 +7640,7 @@ razić niebieskimi pociskami.</p>
 <p>„Tylko… co ten Hiram mówił mi o bogach?… — pomyślał
 książę. — I co on ma mi pokazać w świątyni Astoreth?… Zobaczymy.”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VI</head>
 <p>Hiram dotrzymał obietnicy. Co dzień do książęcego pałacu
 w Pi-Bast przychodziły tłumy niewolników i długie szeregi
@@ -8075,8 +8044,7 @@ chwili przyjął ją obojętnie. Całą duszę wypełniły mu wspomnienia dzisie
 pieśń Greka. A ta świątynia Astarty!…</p>
 <p>Nie mógł zasnąć do rana.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VII</head>
 <p>Na drugi dzień książę wstał późno, sam wykąpał się i ubrał,
 i kazał przyjść do siebie Tutmozisowi.</p>
@@ -8371,8 +8339,7 @@ Nie będę szczęśliwym, dopóki nie ujrzę pola zasłanego ich
 trupami, dopóki nie naliczę ze sto tysięcy odciętych rąk…</p>
 <p>Tutmozis nigdy nie widział Ramzesa w podobnym nastroju.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VIII</head>
 <p>W parę dni książę wysłał swego ulubieńca z wezwaniem
 do Kamy. Przybyła natychmiast w szczelnie zasłoniętej lektyce.</p>
@@ -8680,8 +8647,7 @@ podał go Sargonowi.</p>
 go sobie na szyję. A książę, z sinawymi rumieńcami na policzkach, skierował się do furtki, którą wchodzili na arenę
 aktorowie, i wśród okrzyków publiczności, głęboko upokorzony, opuścił cyrk.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IX</head>
 <p>Był już miesiąc Tot (koniec czerwca, początek lipca).
 W mieście Pi-Bast i jego okolicach zaczął zmniejszać się napływ ludności z powodu gorąca. Ale na dworze Ramzesa wciąż
@@ -9073,8 +9039,7 @@ ogrodzie.</p>
 <p>— Nikczemny pajacu!… — szepnęła — który zaledwie
 mógłbyś być u mnie śpiewającym niewolnikiem…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział X</head>
 <p>Kiedy Ramzes przyszedł nazajutrz odwiedzić swego syna,
 znalazł Sarę rozpływającą się we łzach. Zapytał o powód.
@@ -9458,8 +9423,7 @@ sercu głęboko rozmyślał.</p>
 <p>Tylko dwaj kapłani, Chaldejczyk Istubar i Egipcjanin Mentezufis byli spokojni jak ludzie, którym dana jest wiedza
 przyszłości i władza nad nią.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XI</head>
 <p>Po przyjęciu u namiestnika Sargon zatrzymał się jeszcze
 w Pi-Bast, czekając na listy faraona z Memfisu, a jednocześnie między oficerami i szlachtą zaczęły na nowo krążyć dziwaczne pogłoski.</p>
@@ -9699,8 +9663,7 @@ nie naszej głowy rzecz.</p>
 <p>— W takim razie szkoda chłopca!… Wielki to wojownik,
 wspaniałomyślny pan…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XII</head>
 <p>Po wizycie u Sargona dwaj święci mężowie, Mefres i Mentezufis, okrywszy się starannie burnusami, wracali zamyśleni
 do domu.</p>
@@ -10039,8 +10002,7 @@ synów…</p>
 <p>— Więc… — przerwał książę, tuląc ją.</p>
 <p>— Tylko nie dziś i nie tutaj… — błagała.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIII</head>
 <p>Dowiedziawszy się od Hirama, że Fenicjanie darowali mu
 kapłankę, następca jak najprędzej chciał ją mieć w swym
@@ -10370,8 +10332,7 @@ swoje dziecko.</p>
 <p>Cała bowiem służba lubiła Sarę, a w ciągu paru godzin
 miała sposobność znienawidzić gniewną i wrzaskliwą Kamę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIV</head>
 <p>Kapłanka fenicka niewiele szczęścia przyniosła Ramzesowi.</p>
 <p>Gdy pierwszy raz przyszedł odwiedzić ją w pałacyku, dotychczas zajmowanym przez Sarę, myślał, że będzie powitany
@@ -10738,8 +10699,7 @@ Fenicjanka.</p>
 <p>— A ja nie cofnę ci moich łask i będziesz szczęśliwą —
 zakończył Ramzes.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XV</head>
 <p>Już i między ludem miasta Pi-Bast zaczęły rozchodzić się
 groźne wieści o Libijczykach. Opowiadano, że rozpuszczeni
@@ -11134,8 +11094,7 @@ ustąpił z żądaniem skargi na księcia. Ale wyrządzoną zniewagę zapamięta
 przebaczyłby, gdyby mu rękę ucięto, aniżeli gdy obrażono
 jego dostojeństwo kapłańskie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVI</head>
 <p>Za radą astrologów główna kwatera miała wyruszyć z Pi-Bast w dniu siódmym Hator. Ten bowiem dzień był „dobry,
 dobry, dobry”. Bogowie w niebie, a ludzie na ziemi cieszyli
@@ -11717,8 +11676,7 @@ głowę. — I ja, nędzna, pozwoliłam, ażeby obcy człowiek wywlókł syna me
 skonała.</p>
 <p>Ale na twarzy jej pozostał wyraz niezgłębionego żalu, którego nawet śmierć nie mogła odegnać.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVII</head>
 <p>Zachodnią granicę Egiptu na długości przeszło sto mil geograficznych stanowi ściana pagórków wapiennych, nagich,
 poprzerywanych wąwozami, wysokich na paręset metrów.
@@ -11924,8 +11882,7 @@ swojej bandy, struchlałby, zobaczywszy, że we wszystkich
 wąwozach tej okolicy kryją się egipskie pułki i — że lada
 chwilę korpus jego zostanie otoczony.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVIII</head>
 <p>Od chwili kiedy wojska Dolnego Egiptu wyszły z Pi-Bast,
 towarzyszący księciu prorok Mentezufis odbierał i wysyłał
@@ -12347,8 +12304,7 @@ się lepiej… Oddałeś nam dzisiaj ważne usługi…</p>
 <p>— A jeżeli wpadniemy w zasadzkę? — spytał.</p>
 <p>— I tam nie opuszczę cię, panie — rzekł kapłan.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIX</head>
 <p>W jego głosie było tyle życzliwości, że zdziwiony książę
 zamilkł i pozwolił mu jechać.</p>
@@ -12815,8 +12771,7 @@ zginął… Cała kawaleria rozbiegła się po pustyni, ażeby znaleźć twoje �
 <p>Książę mianował go setnikiem i rozkazał, aby nazajutrz
 przedstawił do nagrody swoich podwładnych.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XX</head>
 <p>W pół godziny później ukazały się gęste ognie armii egipskiej, a niebawem orszak księcia znalazł się w obozie. Ze
 wszystkich stron odezwały się trąbki na alarm, żołnierze
@@ -13075,8 +13030,7 @@ mego zbliża się władza tudzież godzina rachunku?…”</p>
 wypełniał coraz silniejszy gniew przeciw kapłanom. Gniew
 tym gorszy, że cichy jak skorpion, który ukrywszy się w piasku, jadowitym żądłem kaleczy nieostrożną nogę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXI</head>
 <p>W nocy warty dały znać, że tłum żebrzących o łaskę Libijczyków już wszedł do wąwozu. Jakoż nad pustynią widać
 było łunę ich ognisk.</p>
@@ -13292,8 +13246,7 @@ od niej duszy naszego ziomka i dowódcy?…</p>
 <p>— Tylko przygotujcie stos, a resztą sam się zajmę.</p>
 <p>Grecy wyszli, książę posłał po Mentezufisa.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXII</head>
 <p>Kapłan spod oka przypatrzył się następcy i znalazł go bardzo
 zmienionym. Ramzes był blady, prawie schudł w kilka godzin,
@@ -13538,8 +13491,7 @@ rachować na wojsko?</p>
 <p>— Jak za wojsko.</p>
 <p>— Dobrze — odparł następca. — Możemy teraz oddać ostatnią usługę Patroklesowi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXIII</head>
 <p>W ciągu kilku miesięcy, podczas których książę Ramzes
 pełnił obowiązki namiestnika Dolnego Egiptu, jego świątobliwy ojciec coraz bardziej zapadał na zdrowiu. I zbliżała
@@ -13909,8 +13861,7 @@ swoją modlitwą daje ludziom to, czego ja nie potrafię: krótką
 chwilę zapomnienia i spokoju. Zapomnienie i spokój… rozumiesz, Chaldejczyku?</p>
 <p>Beroes milczał.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XXIV</head>
 <p>O wschodzie słońca dwudziestego pierwszego Hator do obozu nad Sodowymi Jeziorami przyszedł z Memfisu rozkaz, według którego trzy pułki miały pomaszerować do Libii i stanąć
 załogami w miastach, reszta zaś armii egipskiej wraz z księciem miała wrócić do domu.</p>
@@ -14201,11 +14152,8 @@ bronią.</p>
 <p>— Dziękuję wam, wierni żołnierze moi — odrzekł pan.</p>
 <p>W chwilę później konny orszak pędził w stronę rzeki.</p>
 </div>
-<div>
-<p>Tom III</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom III</head>
 <div type="chapter"><head>Rozdział I</head>
 <p>Czy prorocy podziemnej świątyni sfinksa widzieli nowego
 władcę Egiptu, jak obozował pod piramidami, czy dali o nim
@@ -14418,8 +14366,7 @@ królowa. — O nierozważne dziecko… nie pomyślałeś o mnie!…</p>
 po lewej i po prawej ręce jego staje Amon. A któż mu dorówna?…</p>
 <p>Jeszcze raz uściskał królowę i wyszedł.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział II</head>
 <p>Ogromna świta jego świątobliwości wciąż stała w sali poczekalnej, ale jakby rozłupana na dwie części. Z jednej strony
 Herhor, Mefres i kilku arcykapłanów starszych wiekiem,
@@ -14643,8 +14590,7 @@ najlepszy rachmistrz!…</p>
 nie był kontent: po chwilowym bowiem namyśle zdawało mu
 się, że zbyt otwarcie rozmawiał ze swymi dostojnikami.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział III</head>
 <p>Straż czuwająca w przedpokoju zameldowała Pentuera. Kapłan upadł na twarz przed faraonem i zapytał o rozkazy.</p>
 <p>— Nie rozkazywać, ale prosić cię chcę — rzekł pan. — Wiesz,
@@ -14937,8 +14883,7 @@ salach, niech gniewają się na moją bezbożność…</p>
 ten jest moim wrogiem i przeciw temu zwrócę policję, sąd
 i wojsko…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IV</head>
 <p>Tak tedy w miesiącu Hator, po trzydziestu czterech latach
 panowania, umarł faraon Mer-amen-Ramzes XII, władca dwu
@@ -15302,8 +15247,7 @@ twarz była podobna, tylko uśmiechnięta.</p>
 <p>Po trzech miesiącach pobytu w dzielnicy zmarłych mumia
 faraona była gotowa do uroczystego pogrzebu. Więc — odniesiono ją na powrót do królewskiego pałacu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>Przez siedemdziesiąt dni, w ciągu których czcigodne zwłoki
 mokły w wodzie nasyconej sodą, Egipt obchodził żałobę.</p>
@@ -15524,8 +15468,7 @@ i członek najwyższej rady naszych miast…</p>
 o nocnej porze złożyć hołd waszej świątobliwości…</p>
 <p>Faraon przygryzł usta, ale zgodził się na ten projekt. Wysłał nawet z bankierem Tutmozisa, aby ten przyprowadził Hirama do pałacu tajemnymi wejściami.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VI</head>
 <p>Około dziesiątej wieczór stanął przed panem Hiram odziany
 w ciemną szatę memfijskiego przekupnia.</p>
@@ -16197,8 +16140,7 @@ faraona. Bo i cóż z tego, że Fenicjanie ofiarowują mu wielką
 pożyczkę? Pożyczkę trzeba kiedyś spłacić wraz z procentami
 i prędzej czy później oddać w zastaw resztę królewskich majątków. Było to więc tylko odsunięciem ruiny, ale nie zapobieżeniem jej.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VII</head>
 <p>W połowie miesiąca Famenut (styczeń) zaczęła się wiosna.
 Cały Egipt zielenił się wschodzącą pszenicą, na czarnych zaś
@@ -16570,8 +16512,7 @@ królowie?…</p>
 <p>„Tych niczym nie przejednam — pomyślał faraon — ale…
 dam im uchwałę zgromadzenia i wyrok Amona.”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VIII</head>
 <p>Opuściwszy Piom faraon i jego orszak kilkanaście dni posuwali się na południe, w górę Nilu, otoczeni chmurą łódek,
 pozdrawiani okrzykami, zasypywani kwiatami.</p>
@@ -17048,8 +16989,7 @@ gór wchodzi się nad przepaściami, że w tej wędrówce może
 się poślizgnąć noga i spadnę, cóż to znaczy? Ty, panie, zajmiesz się losem moich dzieci.</p>
 <p>— A więc idź — rzekł faraon. — Jesteś godzien być najprzedniejszym moim pomocnikiem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IX</head>
 <p>Opuściwszy Abydos, Ramzes XIII popłynął, wciąż w górę
 rzeki, do miasta Tan-ta-ren (Dendera) i Kaneh, które leżały
@@ -17478,8 +17418,7 @@ mrok. Zamiast piór strusich nad panem szeleściły skrzydła
 ogromnych nietoperzy; zamiast muzyki rozlegały się w nocnej porze jękliwe wycia hien i kiedy niekiedy potężny głos
 lwa, który ze swej pustyni pozdrawiał faraona w grobie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział X</head>
 <p>Po pogrzebie faraona Egipt wrócił do zwykłego trybu życia,
 a Ramzes XIII do spraw państwowych. Nowy władca w miesiącu Epifi (kwiecień — maj) zwiedził miasta położone za Tebami wzdłuż Nilu. Był więc w Sni, mieście bardzo przemysłowym i handlowym, gdzie znajdowała się świątynia Knepha, czyli „duszy świata”. Zwiedził Edfu, którego świątynia,
@@ -17706,8 +17645,7 @@ obmyślcie plany takich gmachów, które by imię moje przekazały najdalszym po
 <p>„Nieludzka duma wypełnia duszę tego młodzieńca!…” —
 rzekł do siebie arcykapłan i smutny pożegnał faraona.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XI</head>
 <p>Tymczasem Pentuer wybierał się z powrotem do Dolnego
 Egiptu, aby z jednej strony znaleźć po trzynastu delegatów
@@ -18064,8 +18002,7 @@ nam drzewa, a po wtóre do poruszania takich kół trzeba by
 mieć ze sto tysięcy wołów. A gdzie dla nich pasza, choćby
 w Górnym Egipcie?…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XII</head>
 <p>Przez ten czas, kiedy Pentuer objeżdżał państwo, wybierając
 delegatów, Ramzes XIII mieszkał w Tebach i żenił swego ulubieńca Tutmozisa.</p>
@@ -18650,8 +18587,7 @@ widział faraonowego sobowtóra.</p>
 Nawet bowiem Tutmozis, lękając się ze strony pana gwałtownych wystąpień przeciw kapłanom, nie zawiadomił go
 o niczym.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIII</head>
 <p>W początkach miesiąca Paofi (lipiec — sierpień) jego świątobliwość, królowa Nikotris i dwór powrócili z Tebów do pałacu pod Memfisem.</p>
 <p>Przy końcu podróży, która i tym razem odbywała się Nilem, Ramzes XIII często wpadał w zamyślenie, a raz rzekł do Tutmozisa:</p>
@@ -18791,8 +18727,7 @@ wedrzeć się do Labiryntu, lecz głupcy podwajają straże przy widocznych furt
 <p>Ale egipskiego proroka, który zakosztował zbytku i władzy, nie zjednasz niczym. I tylko śmierć ich albo twoja może zakończyć walkę.</p>
 <p>— Prawdę mówisz, Samentu — odpowiedział Tutmozis. — Na szczęście, nie jego świątobliwość, ale — my, żołnierze, będziemy rozstrzygali odwieczny spór między kapłanami i faraonem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIV</head>
 <p>Dwunastego Paofi z różnych świątyń egipskich rozeszły się niepokojące wieści.</p>
 <p>W ciągu paru dni ostatnich w świątyni Horusa wywrócił się ołtarz, w świątyni Izydy posąg bóstwa płakał. Zaś u Amona tebańskiego i u grobu Ozyrysa w Denderach wypadły bardzo złe wróżby. Z nieomylnych oznak wywnioskowali kapłani, że Egiptowi grozi jakieś wielkie nieszczęście jeszcze przed upływem miesiąca.</p>
@@ -18994,8 +18929,7 @@ nawet kto zakradł się, to chyba po to, ażeby umrzeć z głodu…</p>
 <p>— Dosyć! — zawołał arcykapłan. — Gdy Herhora znajdziemy w Labiryncie, postąpimy według prawa. Ale domyślać się ani posądzać kogokolwiek — nie wolno… Niech pisarze przygotują wyroki dla Mefresa i Lykona, wybrani niech najśpieszniej jadą za nimi, a milicja niech pomnoży warty. Trzeba także zbadać wnętrze gmachu i odkryć, którędy wszedł Samentu… Choć jestem pewny, że nieprędko znajdzie naśladowców…</p>
 <p>W parę godzin później sześciu ludzi wyjechało do Memfisu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XV</head>
 <p>Już dnia osiemnastego Paofi w Egipcie zapanował chaos. Komunikacja między dolnym i górnym państwem została przerwana, handel ustał, po Nilu krążyły tylko statki strażnicze, drogi lądowe były zajęte przez wojska, które dążyły ku miastom posiadającym sławniejsze świątynie.</p>
 <p>Na polach pracowali tylko kapłańscy chłopi. Zaś w majątkach szlachty, nomarchów, a osobliwie faraona, len nie był wyrwany, koniczyna nie tknięta, winogron nie miał kto zrywać. Chłopi nie robili nic, tylko włócząc się bandami śpiewali, jedli, pili i odgrażali się bądź kapłanom, bądź Fenicjanom.</p>
@@ -19085,8 +19019,7 @@ prędko zrobię z nimi rachunek?…</p>
 <p>— Zaprawdę — mówił — gdybym nie był synem bogów, którzy są litościwi i wspaniałomyślni, wrogowie moi przeżyliby jutro ciężkie godziny… Ile oni zadali mi upokorzeń…
 Ile razy płacz zaćmiewał mi oczy z ich winy!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVI</head>
 <p>Dnia dwudziestego Paofi — Memfis wyglądało jakby podczas uroczystego, święta. Ustały wszelkie zajęcia, nawet tragarze nie nosili ciężarów. Cały lud wysypał się na place i ulice
 albo skupiał się dokoła świątyń. Głównie około bożnicy Ptah, która była najwarowniejszą i gdzie zebrali się dostojnicy duchowni tudzież świeccy, pod przewództwem Herhora i Mefresa.</p>
@@ -19390,8 +19323,7 @@ o wielkie zdrady. Jeżeli usprawiedliwią się, powrócę im moją łaskę; w ra
 <p>— Wybacz, władco, ale dzisiejszy napad na świątynię był ułożony przez kapłanów. Jakim zaś sposobem wciągnąli do niego waszą świątobliwość? nie rozumiem.</p>
 <p>Była już godzina piąta po południu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVII</head>
 <p>W tym samym czasie, co do minuty, kapłan czuwający na pylonie świątyni Ptah w Memfisie zawiadomił obradujących w sali arcykapłanów i nomarchów, że — pałac faraona daje jakieś znaki.</p>
 <p>— Zdaje się, że jego świątobliwość będzie nas prosił o zgodę — rzekł śmiejąc się jeden z nomarchów.</p>
@@ -19541,8 +19473,7 @@ ażebym w jednej chwili mógł całować twoje oczy, usta, piersi…</p>
 <p>— O mało nie zapomniałem… — mówił gasnącym głosem… — Przynieście hełm i miecz… ten stalowy miecz… znad Jezior… Idziemy do Memfisu…</p>
 <p>Z pałacyku wybiegli dostojnicy i służba z pochodniami. Faraon, podtrzymywany przez oficerów, miał szarą twarz i oczy zachodziły mu mgłą. Wyciągnął rękę jakby szukając broni, poruszył ustami i wśród ogólnej ciszy przestał oddychać, on, pan dwu światów: doczesnego i zachodniego.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVIII</head>
 <p>Od śmierci Ramzesa XIII aż do dnia jego pogrzebu rządził
 państwem, jako arcykapłan Amona tebańskiego a namiestnik
@@ -19657,8 +19588,7 @@ byle mi na przykład nie kazał wyrzec się tronu… Sam też
 wróć do mnie, gdy wypoczniesz, a zachowam dla ciebie poważne stanowisko.</p>
 <p>I dotknął ręką pokornie schylonej głowy kapłana.</p>
 </div>
-<div>
-<p>Epilog</p>
+<div type="chapter"><head>Epilog</head>
 <p>W miesiącu Mechir (listopad — grudzień) Pentuer przybył
 do świątyni za Memfisem, gdzie Menes prowadził wielkie
 prace nad niebiosami i ziemią.</p>
@@ -19871,12 +19801,10 @@ której z naszych świątyń i przypatrz się jej ścianom zatłoczonym obrazami
 i może niejeden zapytywał: na co one?… po co rzeźbią je z tak
 wielkim nakładem pracy?… Ale mędrzec ze czcią zbliża się
 do tych figur i ogarnąwszy je spojrzeniem czyta w nich historię dawnych czasów albo tajemnice mądrości.</p>
-</div>
-</div>
-<div>
 <quote>
 <p>2 V 1895, godz. 3 po południu</p>
 </quote>
+</div>
 </div>
 </body>
 </text>

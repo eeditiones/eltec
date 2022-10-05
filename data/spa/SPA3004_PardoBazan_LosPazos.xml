@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3004" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3004" xml:lang="es">
  	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -19,10 +22,10 @@
 			</extent>
             <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -49,8 +52,8 @@
 			</encodingDesc>
 			<profileDesc>
 				<langUsage>
-					<language ident="spa">Español</language> 
-					<language ident="lat">Latín</language>
+					<language ident="SPA">Español</language> 
+					<language ident="LAT">Latín</language>
 				</langUsage>
 				<textDesc> 
 					<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
@@ -60,6 +63,7 @@
 				</textDesc>
 			</profileDesc>
 			<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 				<change when="2019-12-19">Anotación formato ELTeC : Laura Aísa Cánovas</change>
 				<change when="2020-01-07">Anotación formato ELTeC (cont.) y revisión del texto : Laura Aísa Cánovas </change>
@@ -608,7 +612,7 @@ sentenciosamente. </p>
 su excursión, empuñando en cada mano una botella cubierta de polvo
 y telarañas. A falta de tirabuzón, se descorcharon con un cuchillo,
 y a un tiempo se llenaron los vasos chicos traídos 
-<foreign xml:lang="lat"> ad hoc </foreign>. Primitivo empinaba el codo con
+<foreign xml:lang="LAT"> ad hoc </foreign>. Primitivo empinaba el codo con
 sumo desparpajo, bromeando con el abad y el señorito. Sabel, por su
 parte, a medida que el banquete se prolongaba y el licor calentaba
 las cabezas, servía con familiaridad mayor, apoyándose en la mesa
@@ -1748,7 +1752,7 @@ un sacerdote, el abad ponía estos delitos en parangón con la
 simonía. «Afeminaciones, afeminaciones», gruñía entre dientes,
 convencidísimo de que la virtud en el sacerdote, para ser de ley,
 ha de presentarse bronca, montuna y cerril; aparte de que un
-clérigo no pierde, <foreign xml:lang="lat"> ipso facto  </foreign>, 
+clérigo no pierde, <foreign xml:lang="LAT"> ipso facto  </foreign>, 
 los fueros de hombre, y el
 hombre debe oler a bravío desde una legua. Con los demás curas de
 las parroquias cercanas tampoco frisaba mucho Julián; así es que,
@@ -2032,10 +2036,10 @@ silogismos.
      </p>
      
 
-     <p> - <foreign xml:lang="lat"> Nego majorem </foreign> ... </p>
+     <p> - <foreign xml:lang="LAT"> Nego majorem </foreign> ... </p>
      
 
-     <p> - <foreign xml:lang="lat">  Probo minorem </foreign> . </p>
+     <p> - <foreign xml:lang="LAT">  Probo minorem </foreign> . </p>
      
 
      <p> -Eh... Boán, que con
@@ -2056,7 +2060,7 @@ agarro, y no lo suelto.  </p>
      
 
      <p> -Esa proposición puede
-admitirse  <foreign xml:lang="lat"> simpliciter  </foreign>
+admitirse  <foreign xml:lang="LAT"> simpliciter  </foreign>
 , pero tomándola en otro sentido... no cuela.  </p>
      
 
@@ -3425,7 +3429,7 @@ adversarios dignos de medir sus fuerzas. El más inteligente cedió,
 encontrándose descubierto. Oyó el marqués el roce del follaje al
 bajarse el cañón que amenazaba a Julián, y Primitivo salió del
 soto, blandiendo su vieja escopeta certera, remendada con cordeles.
-Julián precipitó el <foreign xml:lang="lat"> Gloria Patri </foreign>
+Julián precipitó el <foreign xml:lang="LAT"> Gloria Patri </foreign>
 para decirle en tono cortés:
      </p>
      
@@ -7617,7 +7621,7 @@ capilla vacía. Oíanse fuera gorjeos de pájaros en los árboles del
 huerto, lejano chirrido de carros que salían al trabajo, rumores
 campestres gratos, calmantes, bienhechores. Era la misa de San
 Ramón Nonnato, elegida para la circunstancia; y cuando el
-celebrante pronunció «<foreign xml:lang="lat"> ejus nobis intercessione concede, ut a
+celebrante pronunció «<foreign xml:lang="LAT"> ejus nobis intercessione concede, ut a
 peccatorum vinculis absoluti </foreign> ...», parecióle que las
 cadenas de dolor que ligaban a la pobre virgencita -que aún
 entonces se la representaba como tal el capellán- se rompían de
@@ -10866,7 +10870,7 @@ en que descansaba la fortuna del secretario de Cebre.
       -De esta vez -decía el
 cura de Boán, viejo terne y firme, que echaba fuego por los ojos y
 gozaba fama del mejor cazador del distrito después de Primitivo-,
-de esta vez los fastidiamos, ¡<foreign xml:lang="lat"> quoniam </foreign>!
+de esta vez los fastidiamos, ¡<foreign xml:lang="LAT"> quoniam </foreign>!
      </p>
      
 
@@ -12397,7 +12401,7 @@ Ayuntamiento.
       -Hombre -gruñó el abad
 de Boán-, usted poco habla, pero bueno. Vamos a meterles miedo, 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        ¡quoniam!
       </foreign>
       Estornudando solamente, espanto yo
@@ -13354,7 +13358,7 @@ honradamente con la agilidad de sus piernas. ¡Renunciar! ¡A buena
 parte! Aquel mismo embrión de conciencia que en el fondo de su ser,
 donde todos tenemos escrita desde 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        ab initio
       </foreign>
       gran parte del Decálogo, le

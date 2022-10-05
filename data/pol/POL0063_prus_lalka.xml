@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0063">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">263173</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Lalka</title>
 <ref>http://www.wolnelektury.pl/katalog/lektura/lalka</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Lalka</title>
 <author>Prus, Bolesław</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1890</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,10 +59,7 @@
 </div>
 </front>
 <body>
-<div>
-<p>Tom I</p>
-</div>
-<div>
+<div type="group"><head>Tom I</head>
 <div type="chapter"><head>I. Jak wygląda firma J. Mincel i S. Wokulski przez szkło butelek?</head>
 <p>W początkach roku 1878, kiedy świat polityczny zajmował się pokojem san-stefańskim, wyborem nowego papieża albo szansami europejskiej wojny, warszawscy kupcy tudzież inteligencja pewnej okolicy Krakowskiego Przedmieścia niemniej gorąco interesowała się przyszłością galanteryjnego sklepu pod firmą J. Mincel i S. Wokulski.</p>
 <p>W renomowanej jadłodajni, gdzie na wieczorną przekąskę zbierali się właściciele składów bielizny i składów win, fabrykanci powozów i kapeluszy, poważni ojcowie rodzin, utrzymujący się z własnych funduszów, i posiadacze kamienic bez zajęcia, równie dużo mówiono o uzbrojeniach Anglii, jak o firmie J. Mincel i S. Wokulski. Zatopieni w kłębach dymu cygar i pochyleni nad butelkami z ciemnego szkła obywatele tej dzielnicy, jedni zakładali się o wygranę lub przegranę Anglii, drudzy o bankructwo Wokulskiego; jedni nazywali geniuszem Bismarcka, drudzy — awanturnikiem Wokulskiego; jedni krytykowali postępowanie prezydenta MacMahona, inni twierdzili, że Wokulski jest zdecydowanym wariatem, jeżeli nie czymś gorszym…</p>
@@ -108,8 +110,7 @@
 <p>Mimo posępne wróżby ludzi trzeźwo patrzących na rzeczy, sklep galanteryjny pod firmą J. Mincel i S. Wokulski nie tylko nie upadł, ale nawet robił dobre interesa. Publiczność zaciekawiona pogłoskami o bankructwie coraz liczniej odwiedzała magazyn, od chwili zaś kiedy Wokulski opuścił Warszawę, zaczęli zgłaszać się po towary kupcy rosyjscy. Zamówienia mnożyły się, kredyt za granicą istniał, weksle były płacone regularnie, a sklep roił się gośćmi, którym ledwo mogli wydołać trzej subiekci: jeden mizerny blondyn, wyglądający, jakby co godzinę umierał na suchoty, drugi szatyn z brodą filozofa, a ruchami księcia i trzeci elegant, który nosił zabójcze dla płci pięknej wąsiki, pachnąc przy tym jak laboratorium chemiczne.</p>
 <p>Ani jednak ciekawość ogółu, ani fizyczne i duchowe zalety trzech subiektów, ani nawet ustalona reputacja sklepu może nie uchroniłyby go od upadku, gdyby nie zawiadował nim czterdziestoletni pracownik firmy, przyjaciel i zastępca Wokulskiego, pan Ignacy Rzecki.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II. Rządy starego subiekta</head>
 <p>Pan Ignacy od dwudziestu pięciu lat mieszkał w pokoiku przy sklepie. W ciągu tego czasu sklep zmieniał właścicieli i podłogę, szafy i szyby w oknach, zakres swojej działalności i subiektów; ale pokój pana Rzeckiego pozostał zawsze taki sam. Było w nim to samo smutne okno, wychodzące na to samo podwórze, z tą samą kratą, na której szczeblach zwieszała się, być może, ćwierćwiekowa pajęczyna, a z pewnością ćwierćwiekowa firanka, niegdyś zielona, obecnie wypłowiała z tęsknoty za słońcem.</p>
 <p>Pod oknem stał ten sam czarny stół obity suknem, także niegdyś zielonym, dziś tylko poplamionym. Na nim wielki czarny kałamarz wraz z wielką czarną piaseczniczką, przymocowaną do tej samej podstawki — para mosiężnych lichtarzy do świec łojowych, których już nikt nie palił, i stalowe szczypce, którymi już nikt nie obcinał knotów. Żelazne łóżko z bardzo cienkim materacem, nad nim nigdy nie używana dubeltówka, pod nim pudło z gitarą, przypominające dziecinną trumienkę, wąska kanapka obita skórą, dwa krzesła również skórą obite, duża blaszana miednica i mała szafa ciemnowiśniowej barwy stanowiły umeblowanie pokoju, który, ze względu na swoją długość i mrok w nim panujący, zdawał się być podobniejszym do grobu aniżeli do mieszkania.</p>
@@ -191,8 +192,7 @@
 <p>— Choć raz przed śmiercią, ale na kilka miesięcy — mówił kolegom, którzy nie wiadomo dlaczego uśmiechali się z tych projektów.</p>
 <p>Dobrowolnie odcięty od natury i ludzi, utopiony w wartkim, ale ciasnym wirze sklepowych interesów, czuł coraz mocniej potrzebę wymiany myśli. A ponieważ jednym nie ufał, inni go nie chcieli słuchać, a Wokulskiego nie było, więc rozmawiał sam z sobą i — w największym sekrecie pisywał pamiętnik.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III. Pamiętnik starego subiekta</head>
 <p>…Ze smutkiem od kilku lat uważam, że na świecie jest coraz mniej dobrych subiektów i rozumnych polityków, bo wszyscy stosują się do mody. Skromny subiekt co kwartał ubiera się w spodnie nowego fasonu, w coraz dziwniejszy kapelusz i coraz inaczej wykładany kołnierzyk. Podobnież dzisiejsi politycy co kwartał zmieniają wiarę: onegdaj wierzyli w Bismarcka, wczoraj w Gambettę, a dziś w Beaconsfielda, który niedawno był Żydkiem.</p>
 <p>Już widać zapomniano, że w sklepie nie można stroić się w modne kołnierzyki, tylko je sprzedawać, bo w przeciwnym razie gościom zabraknie towaru, a sklepowi gości. Zaś polityki nie należy opierać na szczęśliwych osobach, tylko na wielkich dynastiach. Metternich był taki sławny jak Bismarck, a Palmerston sławniejszy od Beaconsfielda i — któż dziś o nich pamięta? Tymczasem ród Bonapartych trząsł Europą za Napoleona I, potem za Napoleona III, a i dzisiaj, choć niektórzy nazywają go bankrutem, wpływa na losy Francji przez wierne swoje sługi, MacMahona i Ducrota.</p>
@@ -343,8 +343,7 @@
 <p>Słychać, że Andrassy zażądał sześćdziesięciu milionów guldenów na nieprzewidziane wydatki. Więc i Austria zbroi się, a tymczasem Staś pisze mi, że — nie będzie wojny. Ponieważ nigdy nie był fanfaronem, więc chyba być musi bardzo wtajemniczonym w politykę; a w takim razie siedzi w Bułgarii nie przez miłość do handlu.</p>
 <p>Ciekawym, co on zrobi! Ciekawym!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV. Powrót</head>
 <p>Jest niedziela, szkaradny dzień marcowy; zbliża się południe, lecz ulice Warszawy są prawie puste. Ludzie nie wychodzą z domów albo kryją się w bramach, albo skuleni uciekają przed siekącym ich deszczem i śniegiem. Prawie nie słychać turkotu dorożek, gdyż dorożki stoją. Dorożkarze opuściwszy kozioł wchodzą pod budy swoich powozów, a zmoczone deszczem i zasypane śniegiem konie wyglądają tak, jakby pragnęły schować się pod dyszel i nakryć własnymi uszami.</p>
 <p>Pomimo, a może z powodu tak brzydkiego czasu pan Ignacy siedzący w swoim zakratowanym pokoju jest bardzo wesół. Interesa sklepowe idą wybornie, wystawa w oknach na przyszły tydzień już ułożona, a nade wszystko — lada dzień ma powrócić Wokulski. Nareszcie pan Ignacy zda komuś rachunki i ciężar kierowania sklepem, najdalej zaś za dwa miesiące wyjedzie sobie na wakacje. Po dwudziestu pięciu latach pracy — i jeszcze jakiej! — należy mu się ten wypoczynek. Będzie rozmyślał tylko o polityce, będzie chodził, będzie biegał i skakał po polach i lasach, będzie świstał, a nawet śpiewał jak za młodu. Gdyby nie te bóle reumatyczne, które zresztą na wsi ustąpią…</p>
@@ -542,8 +541,7 @@
 <p>— Słusznie — odparł Rzecki. — Co racja, to racja. Więc idźmy.</p>
 <p>Pozakręcał lampy i, przepuściwszy Wokulskiego, zamknął sklep. W sieni znowu spotkał ich mokry śnieg i Paweł niosący obiad.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V. Demokratyzacja pana i marzenia panny z towarzystwa</head>
 <p>Pan Tomasz Łęcki z jedyną córką Izabelą i kuzynką panną Florentyną nie mieszkał we własnej kamienicy, lecz wynajmował lokal, złożony z ośmiu pokojów, w stronie Alei Ujazdowskiej. Miał tam salon o trzech oknach, gabinet własny, gabinet córki, sypialnię dla siebie, sypialnię dla córki, pokój stołowy, pokój dla panny Florentyny i garderobę, nie licząc kuchni i mieszkania dla służby, składającej się ze starego kamerdynera Mikołaja, jego żony, która była kucharką, i panny służącej, Anusi.</p>
 <p>Mieszkanie posiadało wielkie zalety. Było suche, ciepłe, obszerne, widne. Miało marmurowe schody, gaz, dzwonki elektryczne i wodociągi. Każdy pokój w miarę potrzeby łączył się z innymi lub tworzył zamkniętą w sobie całość. Sprzętów wreszcie miało liczbę dostateczną, ani za mało, ani za wiele, a każdy odznaczał się raczej wygodną prostotą aniżeli skaczącymi do oczu ozdobami. Kredens budził w widzu uczucie pewności, że z niego nie zginą srebra; łóżko przywodziło na myśl bezpieczny spoczynek dobrze zasłużonych; stół można było obciążyć, na krześle usiąść bez obawy załamania się, na fotelu marzyć.</p>
@@ -641,8 +639,7 @@
 <p>— Może to ciotka Honorata — uspokajała ją hrabina — czy ja wiem? Może chce dopomóc Tomaszowi, ale zawieszając nad nim groźbę. Lecz bądź zdrowa, moje kochane dziecię, <emph>adieu</emph>…</p>
 <p>Na tym skończyła się rozmowa w języku polskim, gęsto ozdobionym francuszczyzną, co robiło go podobnym do ludzkiej twarzy okrytej wysypką.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI. W jaki sposób nowi ludzie ukazują się nad starymi horyzontami</head>
 <p>Początek kwietnia, jeden z tych miesięcy, które służą za przejście między zimą i wiosną. Śnieg już zniknął, ale nie ukazała się jeszcze zieloność; drzewa są czarne, trawniki szare i niebo szare: wygląda jak marmur poprzecinany srebrnymi i złotawymi nitkami.</p>
 <p>Jest około piątej po południu. Panna Izabela siedzi w swoim gabinecie i czyta najnowszą powieść Zoli: <emph>Une page d'amour</emph>. Czyta bez uwagi, co chwilę podnosi oczy, spogląda w okno i półświadomie formułuje sąd, że gałązki drzew są czarne, a niebo szare. Znowu czyta, spogląda po gabinecie i półświadomie myśli, że jej meble kryte błękitną materią i jej niebieski szlafroczek mają jakiś szary odcień i że festony białej firanki są podobne do wielkich sopli śniegu. Potem zapomina, o czym myślała w tej chwili, i pyta się w duchu: „O czym ja myślałam?… Ach, prawda, o kweście wielkotygodniowej…” I nagle czuje ochotę przejechania się karetą, a jednocześnie czuje żal do nieba, że jest takie szare, że złotawe żyłki na nim są tak wąskie… Dręczy ją jakiś cichy niepokój, jakieś oczekiwanie, ale nie jest pewna, na co czeka: czy na to, ażeby chmury się rozdarły, czy na to, ażeby wszedł lokaj i wręczył jej list zapraszający na wielkotygodniową kwestę? Już taki krótki czas, a jej nie proszą.</p>
@@ -871,8 +868,7 @@
 <p>— Mówię na mocy moich przeczuć, które ostrzegają… wołają, że ten człowiek po to jeździł na wojnę, ażeby mnie zdobyć. I ledwie wrócił, już mnie ze wszystkich stron obsacza… Ale niech się strzeże!… Chce mnie kupić? dobrze, niech kupuje!… przekona się, że jestem bardzo droga… Chce mnie złapać w sieci?… Dobrze, niech je rozsnuwa… ale ja mu się wymknę, choćby — w objęcia marszałka… O Boże! nawet nie domyślałam się, jak głęboką jest przepaść, w którą spadamy, dopóki nie zobaczyłam takiego dna. Z salonów Kwirynału do sklepu… To już nawet nie upadek, to hańba…</p>
 <p>Siadła na szezlongu i utuliwszy głowę rękoma szlochała.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII. Gołąb wychodzi na spotkanie węża</head>
 <p>Serwis i srebra familii Łęckich były już sprzedane i nawet jubiler odniósł panu Tomaszowi pieniądze, strąciwszy dla siebie sto kilkadziesiąt rubli składowego i za pośrednictwo. Mimo to hrabina Karolowa nie przestała kochać panny Izabeli; owszem — jej energia i poświęcenie, okazane przy sprzedaży pamiątek, zbudziły w sercu starej damy nowe źródło uczuć rodzinnych. Nie tylko uprosiła pannę Izabelę o przyjęcie pięknego kostiumu, nie tylko co dzień bywała u niej albo ją wzywała do siebie, ale jeszcze (co było dowodem niesłychanej łaski) na całą Wielką Środę ofiarowała jej swój powóz.</p>
 <p>— Przejedź się, aniołku, po mieście — mówiła hrabina całując siostrzenicę — i pozałatwiaj drobne sprawunki. Tylko pamiętaj, żebyś mi za to w czasie kwesty wyglądała ślicznie… Tak ślicznie, jak to tylko ty potrafisz!… Proszę cię…</p>
@@ -987,8 +983,7 @@
 <p>— Wokulski zwiąże się ze szlachtą — odpowiedział Ignacy — a i tam są kapitały.</p>
 <p>— Kto wie, co gorsze: Żyd czy szlachcic — wtrącił mimochodem Klejn i podniósł brwi w sposób bardzo żałosny.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII. Medytacje</head>
 <p>Znalazłszy się na ulicy Wokulski stanął na chodniku, jakby namyślając się, dokąd iść. Nie ciągnęło go nic w żadną stronę. Dopiero gdy przypadkiem spojrzał w prawo, na swój nowo wykończony sklep, przed którym już zatrzymywali się ludzie, odwrócił się ze wstrętem i poszedł w lewo.</p>
 <p>„Dziwna rzecz, jak mnie to wszystko mało obchodzi” — rzekł do siebie. Potem myślał o tych kilkunastu ludziach, którym już daje zajęcie, i o tych kilkudziesięciu, którzy od pierwszego maja mieli dostać u niego zajęcie, o tych setkach, dla których w ciągu roku miał stworzyć nowe źródła pracy, i o tych tysiącach, którzy dzięki jego tanim towarom mogliby sobie poprawić nędzny byt — i — czuł, że ci wszyscy ludzie i ich rodziny nic go w tej chwili nie interesują.</p>
@@ -1286,8 +1281,7 @@
 <p>Pan Zięba miał około lat trzydziestu; był może tak przystojny jak Mraczewski, ale wyglądał nierównie poważniej i taktowniej. Nim sklep zamknięto, już zaznajomił się, a nawet zdobył przyjaźń swoich kolegów. Pan Rzecki odkrył w nim zagorzałego bonapartystę; pan Lisiecki wyznał, że on sam obok Zięby jest bardzo bladym antysemitą, a pan Klejn doszedł do wniosku, że Zięba musi być co najmniej biskupem socjalizmu.</p>
 <p>Słowem, wszyscy byli kontenci, a pan Zięba spokojny.</p>
 </div>
-<div>
-<p>IX. Kładki, na których spotykają się ludzie różnych światów</p>
+<div type="chapter"><head>IX. Kładki, na których spotykają się ludzie różnych światów</head>
 <p>W Wielki Piątek z rana Wokulski przypomniał sobie, że dziś i jutro hrabina Karolowa i panna Izabela będą kwestowały przy grobach.</p>
 <p>„Trzeba tam pójść i coś dać — pomyślał i wyjął z kasy pięć złotych półimperiałów. — Chociaż — dodał po chwili — posłałem im już dywany, ptaszki śpiewające, pozytywkę, nawet fontannę!… To chyba wystarczy na zbawienie jednej duszy. Nie pójdę.”</p>
 <p>Po południu jednak zrobił sobie uwagę, że może hrabina Karolowa liczy na niego. A w takim razie nie wypada cofać się lub złożyć tylko pięć półimperiałów. Wydobył więc z kasy jeszcze pięć i wszystkie zawinął w bibułkę.</p>
@@ -1765,8 +1759,7 @@
 <p>— Moja Belu — odpowiedziała panna Florentyna — pamiętam sezony, kiedy nasz świat zachwycał się nawet cyrkowcami. Przejdzie i to.</p>
 <p>— Boję się tego człowieka — szepnęła panna Izabela.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X. Pamiętnik starego subiekta</head>
 <p>…Mamy tedy nowy sklep: pięć okien frontu, dwa magazyny, siedmiu subiektów i szwajcara we drzwiach. Mamy jeszcze powóz błyszczący jak świeżo wyglancowane buty, parę kasztanowatych koni, furmana i lokaja — w liberii. I to wszystko spadło na nas w początkach maja, kiedy Anglia, Austria, a nawet skołatana Turcja uzbrajały się na łeb, na szyję!</p>
 <p>— Kochany Stasiu — mówiłem do Wokulskiego — wszyscy kupcy śmieją się, że tak dużo wydajemy w niepewnych czasach.</p>
@@ -2253,8 +2246,7 @@
 <p>Całą noc spać nie mogłem. Takie straszne zapowiedzi w dzień triumfu…</p>
 <p>Eh! stary Pan Bóg więcej wie od Szumana; a On chyba nie pozwoli zmarnować się Stachowi…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI. Stare marzenia i nowe znajomości</head>
 <p>Pani Meliton przeszła twardą szkołę życia, w której nauczyła się nawet lekceważyć powszechnie przyjęte opinie.</p>
 <p>Za młodu mówiono jej powszechnie, że panna ładna i dobra, choćby nie miała majątku, może jednak wyjść za mąż. Była dobrą i ładną, lecz za mąż nie wyszła. Później mówiono również powszechnie, że wykształcona nauczycielka zdobywa sobie miłość pupilów i szacunek ich rodziców. Była wykształconą, nawet zamiłowaną nauczycielką, lecz mimo to pupilki jej dokuczały, a ich rodzice drwili z niej od pierwszego śniadania do kolacji. Potem czytała dużo romansów, w których powszechnie dowodzono, że zakochani książęta, hrabiowie i baronowie są ludźmi szlachetnymi, którzy w zamian za serce mają zwyczaj oddawać ubogim nauczycielkom rękę. Jakoż oddała serce młodemu i szlachetnemu hrabiemu, lecz nie pozyskała jego ręki.</p>
@@ -2607,8 +2599,7 @@
 <p>Gdy wszedł do gabinetu, służący oddał mu list pisany na jego własnym papierze przez panią Meliton.</p>
 <p>— Ta pani była tu dziś dwa raży — rzekł wierny sługa. — Raż o piąty, drugi raż o ószmy…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII. Wędrówki za cudzymi interesami</head>
 <p>Wokulski powoli otwierał list pani Meliton przypominając sobie niedawne wypadki. Zdawało się mu, że w nie oświetlonej części gabinetu jeszcze widzi ciemną gęstwinę łazienkowskich drzew, niewyraźne sylwetki obdartusów, którzy mu zastąpili drogę, a później wzgórek ze studnią, gdzie Ochocki zwierzał mu się ze swych pomysłów. Lecz gdy spojrzał na światło, mgliste obrazy znikały. Widział lampę z zielonym daszkiem, stos papierów, brązy stojące na biurku i chwilami myślał, że Ochocki ze swymi machinami latającymi i jego własna rozpacz były tylko snem.</p>
 <p>„Co on za geniusz? — mówił do siebie Wokulski — to zwyczajny marzyciel!… I panna Izabela taka sama kobieta jak inne… Wyjdzie za mnie — dobrze; nie wyjdzie — to przecież nie umrę.”</p>
@@ -2896,8 +2887,7 @@
 <p>„I dziwić się, że panna Izabela pogardza takim jak ja, wychowawszy się wśród takich jak oni… No, ale co oni robią na świecie i dla świata?… Szanują ludzi, którzy mogą dać piętnasty procent od ich kapitałów… To jeszcze nie zasługa.”</p>
 <p>„Tam do licha! — mruknął strzelając z palców — a skąd oni wiedzą, że ja kupiłem klacz?… Bagatela!… przecież kupiłem ją od pani Krzeszowskiej za pośrednictwem Maruszewicza… Zresztą za często bywam w maneżu, wie o mnie cała służba… Eh! zaczynam już palić głupstwa, jestem nieostrożny… Nie podobał mi się ten Maruszewicz…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII. Wielkopańskie zabawy</head>
 <p>Nareszcie nadszedł dzień wyścigów, pogodny, ale nie gorący; właśnie jak potrzeba. Wokulski zerwał się o piątej i natychmiast pojechał odwiedzić swoją klacz. Przyjęła go dość obojętnie, ale była zdrowa, a pan Miller pełen otuchy.</p>
 <p>— Co?… — śmiał się trącając Wokulskiego w ramię. — Palisz się pan, co?… Ocknął się w panu sportsmen!… My, panie, przez cały czas wyścigów jesteśmy w gorączce. Nasz zakładzik o pięćdziesiąt rubli stoi, co?… Jakbym je miał w kieszeni; mógłbyś je pan natychmiast zapłacić.</p>
@@ -3233,8 +3223,7 @@
 <p>— Za jakie szczęście?… — spytał Ignacy.</p>
 <p>Ale Wokulski już wyszedł przez tylne drzwi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV. Dziewicze marzenia</head>
 <p>Od Wielkiej Nocy panna Izabela często myślała o Wokulskim, a we wszystkich medytacjach uderzał ją niezwykły szczegół: człowiek ten przedstawiał się coraz inaczej.</p>
 <p>Panna Izabela miała dużo znajomości i niemały spryt do charakteryzowania ludzi. Otóż każdy z jej dotychczasowych znajomych posiadał tę własność, że można go było streścić w jednym zdaniu. Książę był to patriota, jego adwokat — bardzo zręczny, hrabia Łaciński pozował na Anglika, jej ciotka była dumną, prezesowa — dobrą, Ochocki — dziwakiem, a Krzeszowski — karciarzem. Słowem: człowiek — była to jakaś zaleta albo wada, niekiedy zasługa, najczęściej tytuł lub majątek, który miał głowę, ręce i nogi i ubierał się więcej albo mniej modnie.</p>
@@ -3380,8 +3369,7 @@
 <p>— Naturalnie — wtrąciła panna Izabela — przecież nawet wierną służbę dopuszczamy do niejakiej poufałości.</p>
 <p>— Uwielbiam twój rozum i takt, Belu!… — zawołał pan Tomasz i zachwycony, pocałował ją naprzód w rękę, potem w czoło.</p>
 </div>
-<div>
-<p>XV. W jaki sposób duszę ludzką szarpie namiętność, a w jaki rozsądek</p>
+<div type="chapter"><head>XV. W jaki sposób duszę ludzką szarpie namiętność, a w jaki rozsądek</head>
 <p>Otrzymawszy od pana Łęckiego zaproszenie na obiad, Wokulski wybiegł ze sklepu na ulicę. Ciasny pokój dusił go, a rozmowa z Rzeckim, w ciągu której subiekt udzielał mu przestróg i upomnień, wydawała mu się nadzwyczajnie głupią; nie jestże to śmieszne, ażeby stary i wystygły kawaler, wierzący tylko w sklep i w Bonapartych, zarzucał mu szaleństwo!…</p>
 <p>„Cóż ja robię złego — myślał Wokulski — że się kocham?… Może trochę za późno, ale przez całe życie nie pozwalałem sobie na podobny zbytek. Kochają się miliony ludzi, kocha się cały świat czujący, dlaczegóż mnie jednemu miałoby to być zabronione? Jeżeli zaś ten zasadniczy punkt ma rację bytu, to ma ją wszystko, co robię. Kto się chce żenić, musi posiadać majątek, więc — zdobyłem majątek. Musi zbliżyć się do wybranej kobiety — ja też zbliżyłem się. Musi troszczyć się o jej byt materialny i chronić od nieprzyjaciół — a ja robię jedno i drugie. Czy zaś w tym dobijaniu się o szczęście skrzywdziłem kogo? czy zaniedbuję obowiązków względem społeczeństwa i bliźnich?… Ach, ci kochani bliźni i to społeczeństwo, które nigdy nie troszczyło się o mnie i stawiało mi wszelkie przeszkody, a zawsze upomina się o ofiary z mojej strony… Lecz właśnie to, co oni dziś nazywają szaleństwem, popycha mnie do pełnienia jakichś fikcyjnych obowiązków. Gdyby nie ono, siedziałbym dziś jak mól w książkach i kilkaset osób miałoby mniejsze zarobki. Więc czego oni chcą ode mnie?” — pytał sam siebie w rozdrażnieniu.</p>
 <p>Ruch na świeżym powietrzu uspokoił go; doszedł do Alei Jerozolimskich i skręcił nią ku Wiśle. Owiał go rześki wiatr wschodni i zbudził te nieokreślone uczucia, które tak żywo przypominają wiek dziecinny. Zdawało mu się, że jeszcze na Nowym Świecie był dzieckiem i że jeszcze czuje w sobie drgające fale młodej krwi. Uśmiechał się do piaskarza wiozącego swój towar nędznym koniem w podługowatej skrzyni, a żebrząca wiedźma wydała mu się bardzo miłą staruszką; cieszył go świst rozlegający się w fabryce i chciał pogadać z gromadką rozkosznych malców, którzy ustawiwszy się na przydrożnym pagórku ciskali kamieniami na przechodzących Żydów.</p>
@@ -3439,8 +3427,7 @@
 <p>„Ach, mój stary Hopferze! — mówił — o wy, moi koledzy uniwersyteccy i syberyjscy, czy któryś z was wyobrażał sobie mnie zajmującego się podobnymi kwestiami?…”</p>
 <p>Ubrał się w garnitur frakowy i stanąwszy przed lustrem uczuł zadowolenie. Ten obcisły strój najlepiej uwydatniał jego atletyczne kształty. Konie czekały od kwadransa i było już wpół do szóstej. Wokulski włożył lekki paltot i opuścił mieszkanie. Siadając do powozu był bardzo blady i bardzo spokojny, jak człowiek, który idzie naprzeciw niebezpieczeństwu.</p>
 </div>
-<div>
-<p>XVI. „Ona” — „on” — i ci inni</p>
+<div type="chapter"><head>XVI. „Ona” — „on” — i ci inni</head>
 <p>Tego dnia, kiedy Wokulski miał przyjść na obiad, panna Izabela wróciła od hrabiny o piątej. Była trochę rozgniewana i bardzo rozmarzona, razem — prześliczna.</p>
 <p>Spotkało ją dziś szczęście i zawód. Wielki tragik włoski, Rossi, znany jej i ciotce jeszcze z Paryża, przyjechał na występy do Warszawy. Natychmiast odwiedził hrabinę i troskliwie wypytywał się o pannę Izabelę. Miał być dziś drugi raz i hrabina specjalnie dla niego zaprosiła siostrzenicę. Tymczasem Rossi nie przyszedł; przysłał tylko list, w którym przepraszał za zawód i usprawiedliwiał się niespodziewaną wizytą jakiejś wysoko położonej osoby.</p>
 <p>Przed paroma laty, właśnie w Paryżu, Rossi był ideałem panny Izabeli; kochała się w nim, i nawet nie kryła swych uczuć, o ile, rozumie się, było to możliwym dla panienki jej stanowiska. Znakomity artysta wiedział o tym, bywał co dzień w domu hrabiny, grał i deklamował wszystko, co mu kazała panna Izabela, a wyjeżdżając do Ameryki ofiarował jej włoski egzemplarz <emph>Romea i Julii</emph> z dedykacją: „Mdła mucha więcej ma mocy, czci i szczęścia aniżeli Romeo…”.</p>
@@ -3558,8 +3545,7 @@
 <p>Jeszcze z kwadrans posiedzieli we troje, rozmawiając o niedawnej zabawie w Dolinie Szwajcarskiej na cel dobroczynny, o przybyciu Rossiego i o wyjeździe do Paryża. Nareszcie Wokulski z żalem opuścił miłe towarzystwo obiecując przychodzić częściej i współcześnie z nimi jechać do Paryża.</p>
 <p>— Zobaczy pan, jak tam będzie wesoło — rzekła panna Izabela na pożegnanie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVII. Kiełkowanie rozmaitych zasiewów i złudzeń</head>
 <p>Było już wpół do dziewiątej wieczorem, kiedy Wokulski wracał do domu. Słońce niedawno zaszło, lecz silny wzrok mógł już dopatrzeć większe gwiazdy przebłyskujące na złotawolazurowym niebie. Po ulicach rozlegał się wesoły gwar przechodniów; w sercu Wokulskiego zasiadł radosny spokój.</p>
 <p>Przypominał sobie każdy ruch, każdy uśmiech, każde spojrzenie i każdy wyraz panny Izabeli, z podejrzliwą troskliwością wyszukując w nich śladu niechęci albo dumy. Na próżno. Traktowała go jak równego sobie i jak przyjaciela, zapraszała, aby ich częściej odwiedzał, ba!… nawet żądała, aby ją o co prosił…</p>
@@ -3829,8 +3815,7 @@
 <p>Ale Oberman spojrzał na niego wilczym okiem i wyszedł milcząc. Służący w pierwszej chwili otworzył usta ze zdumienia, lecz ochłonąwszy pogroził za nim pięścią.</p>
 <p>— Poczekaj!… — mruknął — zapłaczę ja ci… Wielki pan, patrzcie go… Ukradł czterysta rubli i już nie chcze gadać z człowiekiem!…</p>
 </div>
-<div>
-<p>XVIII. Zdumienia, przywidzenia i obserwacje starego subiekta</p>
+<div type="chapter"><head>XVIII. Zdumienia, przywidzenia i obserwacje starego subiekta</head>
 <p>Dla pana Ignacego Rzeckiego nadeszła znowu epoka niepokojów i zdumień.</p>
 <p>Ten sam Wokulski, który rok temu poleciał do Bułgarii, a przed kilkoma tygodniami jak magnat bawił się w wyścigi i pojedynki, ten sam Wokulski nabrał dziś nadzwyczajnego gustu do widowisk teatralnych. I jeszcze żeby choć polskich, ale — włoskich… On, który nie rozumiał po włosku ani wyrazu!</p>
 <p>Już blisko tydzień trwała ta nowa mania, która dziwiła i gorszyła nie samego tylko pana Ignacego.</p>
@@ -4221,8 +4206,7 @@
 <p>Nareszcie i Rzecki opuszcza salę, w której odbywa się inna licytacja i gromadzi się nowa publiczność. Pan Ignacy z wolna schodzi ze schodów i myśli:</p>
 <p>„A więc dom kupił Szlangbaum, i to za dziewięćdziesiąt tysięcy, jak przepowiedział Klejn. No, ależ Szlangbaum to przecie nie Wokulski… Stach nie zrobiłby takiego głupstwa… Nie!… I z tą panną Izabelą farsa, plotki…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIX. Pierwsze ostrzeżenie</head>
 <p>Była pierwsza w południe, kiedy pan Ignacy zbliżał się do sklepu, zawstydzony i niespokojny. Jak można zmarnować tyle czasu… w porze największego ruchu interesantów?… A nuż w dodatku stało się jakie nieszczęście?… I co za satysfakcja włóczyć się po ulicach w upał, wśród kurzu i zapachu prażonych asfaltów!…</p>
 <p>Istotnie, dzień był wyjątkowo gorący i jaskrawy: chodniki i kamienie ziały żarem, blaszanych szyldów ani latarniowych słupów nie można było dotknąć ręką, a z nadmiaru światła panu Ignacemu zachodziły łzami oczy i czarne płatki zasłaniały mu pole widzenia.</p>
@@ -4716,8 +4700,7 @@
 <p>— Ach… prawda!… Wspomniałam mu o kupnie naszej kamienicy…</p>
 <p>— Chryste!… i cóżeś ty zrobiła?… A… wszystko stracone… Teraz rozumiem… Naturalnie, że się obraził… No — dodał po chwili — ale kto mógł przypuścić, że jest tak obraźliwy?… Taki sobie zwyczajny kupiec!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XX. Pamiętnik starego subiekta</head>
 <p>…I wyjechał!… Pan Stanisław Wokulski, wielki organizator spółki do handlu przewozowego, wielki naczelnik firmy, która ma w obrocie ze cztery miliony rubli rocznie, wyjechał do Paryża jak pierwszy lepszy pocztylion do Miłosny… Jednego dnia mówił (do mnie samego), że nie wie, kiedy pojedzie, a na drugi dzień — szast… prast… i już go nie ma.</p>
 <p>Zjadł elegancki obiadek u jaśnie wielmożnych państwa Łęckich, wypił kawę, wykłuł zęby i — jazda. Naturalnie. Pan Wokulski nie jest przecie lichym subiektem, który musi żebrać u pryncypała o urlop raz na kilka lat.Pan Wokulski jest kapitalistą, ma ze sześćdziesiąt tysięcy rubli rocznie, żyje za pan brat z hrabiami i książętami, pojedynkuje się z baronami i wyjeżdża, kiedy chce. A wy, moi płatni oficjaliści, kłopoczcie się o interesa. Przecie za to macie pensje i dywidendy.</p>
@@ -5027,11 +5010,8 @@
 <p>Roześmiałem się z tej gawędy, bo przecież kto się kocha, nie wyjeżdża na wojnę. Dopiero teraz, niestety! zaczynam przypuszczać, że baba miała rację…</p>
 <p>Chociaż z tym odrodzonym Stachem Wokulskim człowiek nie jest pewny. A nuż?… O, to śmiałbym się z doktora Szumana, który tak żartuje z polityki!…</p>
 </div>
-<div>
-<p>Tom II</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom II</head>
 <div type="chapter"><head>I. Pamiętnik starego subiekta</head>
 <p>Sytuacja polityczna jest tak niepewna, że wcale by mnie nie zdziwiło, gdyby około grudnia wybuchła wojna.</p>
 <p>Ludziom ciągle się zdaje, że wojna może być tylko na wiosnę; widać zapomnieli, że wojny: pruska i francuska, rozpoczynały się w lecie. Nie rozumiem zaś, skąd wyrósł przesąd przeciw kampaniom zimowym?… W zimie stodoły są pełne, a droga jak mur; tymczasem na wiosnę u chłopa jest przednówek, a drogi jak ciasto; przejedzie bateria i możesz się w tym miejscu kąpać.</p>
@@ -5416,8 +5396,7 @@
 <p>Miałem uregulować finanse kamienicy i otóż uregulowałem je tak, że na pewno dochód zmniejszył się o trzysta rubli rocznie. Ha! może tym rychlej Stach opatrzy się i sprzeda swój nabytek, który wcale nie był mu potrzebny.</p>
 <p>Ir wciąż mi niedomaga. Polityka stoi w jednej mierze: ciągła niepewność…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II. Szare dnie i krwawe godziny</head>
 <p>W kwadrans po wyjeździe z Warszawy koleją warszawsko–bydgoską Wokulski doznał dwu szczególnych, choć zupełnie różnych uczuć: owionęło go świeże powietrze, a on sam wpadł w jakiś dziwny letarg.</p>
 <p>Poruszał się swobodnie, był trzeźwy, myślał jasno i szybko, tylko nic go nie obchodziło; ani kto z nim jedzie, ani którędy jedzie, ani dokąd jedzie. Apatia ta rosła w miarę oddalania się od Warszawy. Za Pruszkowem prawie ucieszyły go krople deszczu, przez otwarte okno padające do wnętrza wagonu; później nieco ożywiła go gwałtowna burza za Grodziskiem; miał nawet pragnienie, ażeby go piorun zabił. Ale gdy burza przeszła, wpadł znowu w obojętność i nie interesował się niczym; nawet tym, że jego sąsiad z prawej strony spał mu na ramieniu, a sąsiad z przeciwka zdjął kamasze i oparł mu na kolanach nogi, w czystych zresztą skarpetkach.</p>
@@ -5767,8 +5746,7 @@
 <p>„Sprzedam sklep — myślał — wycofam moje kapitały i osiądę w Paryżu. Nie będę zawadzał tym, którzy mnie nie chcą… Będę tu zwiedzał muzea, może wezmę się do jakiej specjalnej nauki i życie upłynie mi, jeżeli nie w szczęściu, to przynajmniej bez boleści…”</p>
 <p>Powrócić go do kraju i zatrzymać w nim mógł już tylko jeden wypadek, jedna osoba… Ale ten wypadek nie nadchodził, a natomiast zdarzały się inne, coraz bardziej odsuwające go od Warszawy i coraz mocniej przykuwające do Paryża.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III. Widziadło</head>
 <p>Pewnego dnia, jak zwykle, załatwiał się z interesantami w salonie przyjęć. Już odprawił jegomościa, który ofiarował się staczać za niego pojedynki, drugiego, który jako brzuchomówca chciał odegrać rolę w dyplomacji, i trzeciego, który obiecywał mu wskazać skarby zakopane przez sztab Napoleona I nad Berezyną, kiedy lokaj w błękitnym fraku zameldował:</p>
 <p>— Profesor Geist.</p>
@@ -6153,8 +6131,7 @@
 <p>— Czy zaraz? — zdziwił się garson.</p>
 <p>— Natychmiast i… powóz na dworzec kolei północnej… Natychmiast!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV. Człowiek szczęśliwy w miłości</head>
 <p>Wróciwszy z Paryża do Warszawy, Wokulski zastał drugi list prezesowej.</p>
 <p>Staruszka nalegała, ażeby natychmiast przyjeżdżał i zabawił u niej parę tygodni.</p>
@@ -6259,8 +6236,7 @@
 <p>Wokulski oglądał się po okolicy nie mogąc zdobyć się na odpowiedź. Szczęściem, wybiegł w tej chwili posługacz stacyjny donosząc baronowi, że zajechał powóz.</p>
 <p>— Wybornie! — zawołał baron i dał mu parę złotych. — Odnieś, kochanku, nasze rzeczy, a my, panie, jedźmy… Za dwie godziny pozna pan moją narzeczoną…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V. Wiejskie rozrywki</head>
 <p>Z kwadrans upłynął, zanim upakowano rzeczy w powozie. Nareszcie Wokulski i baron usiedli, furman w piaskowej liberii machnął batem w powietrzu i para dzielnych siwych koni ruszyła wolnym kłusem.</p>
 <p>— O, panią Wąsowską rekomenduję panu — mówił baron. — Brylant, nie kobieta, a jaka oryginalna!… Ani myśli iść drugi raz za mąż, choć lubi pasjami, ażeby ją otaczano. Trudno jej, panie, nie uwielbiać, a uwielbiać rzecz niebezpieczna. Starskiemu płaci dzisiaj za wszystkie jego bałamuctwa. Pan zna Starskiego?</p>
@@ -6599,8 +6575,7 @@
 <p>— Ode mnie?… Zdaje się panu. Mam w sobie parę kropli krwi węgierskiej, więc kiedy wsiądę na konia, szaleję i plotę niedorzeczności. Notabene — nie cofam nic z tego, com powiedziała, ale mylisz się pan, jeżeli sądzisz, żeś mnie już poznał. A teraz pocałuj mnie pan w rękę; jesteś pan rzeczywiście interesujący.</p>
 <p>Wyciągnęła rękę, którą Wokulski ucałował, szeroko otwierając oczy ze zdziwienia.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI. Pod jednym dachem</head>
 <p>W tej samej porze, kiedy Wokulski z panią Wąsowską kłócił się albo galopował po łące, z majątku hrabiny do Zasławka dojeżdżała panna Izabela. Wczoraj otrzymała od prezesowej list, wyprawiony przez umyślnego posłańca, a dziś na wyraźne żądanie swej ciotki wyjechała, lubo niechętnie. Była pewna, że w Zasławku już znajduje się mocno protegowany przez prezesowę Wokulski; taka więc nagła podróż wydała jej się niewłaściwą.</p>
 <p>„Choćbym nawet musiała kiedyś wyjść za niego — mówiła sobie — to jeszcze nie mam racji śpieszyć na powitanie.”</p>
@@ -6868,8 +6843,7 @@
 <p>— Już jej dawno nie mam…</p>
 <p>— Nie dawniej, aniżeli ja to spostrzegłam, ale siadajmy i jedźmy…</p>
 </div>
-<div>
-<p>VII. Lasy, ruiny i czary</p>
+<div type="chapter"><head>VII. Lasy, ruiny i czary</head>
 <p>Ruszyli.</p>
 <p>Baron, jak zwykle, szeptał z narzeczoną, Starski w gwałtowny sposób umizgał się do pani Wąsowskiej, która ku zdumieniu Wokulskiego przyjmowała to dość życzliwie, a Ochocki powoził czwórką. Tym razem jednak jego furmański entuzjazm hamowało sąsiedztwo panny Izabeli, do której odwracał się co chwilę.</p>
 <p>„Wesoły ptaszek z tego Ochockiego! — myślał Wokulski. — Do mnie mówi, że argumentacja panny Izabeli wylewa mu się uszami, a teraz z nią tylko rozmawia… Oczywiście, chciał mnie do niej zrazić…”</p>
@@ -7261,8 +7235,7 @@
 <p>Sam rzucił się na poduszki powozu i ruszyli. Z daleka stara kobieta przeżegnała ich na drogę. Węgiełek spostrzegł ją i zdjął czapkę.</p>
 <p>— Niech mama będzie zdrowa!… — zawołał z kozła.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII. Pamiętnik starego subiekta</head>
 <p>Mamy tedy rok 1879.</p>
 <p>Gdybym był przesądny, a nade wszystko gdybym nie rozumiał, że po najgorszych czasach nadchodzą dobre, lękałbym się tego roku 1879. Bo jeżeli jego poprzednik zakończył się źle, to już on zaczął się jeszcze gorzej.</p>
@@ -7482,8 +7455,7 @@
 <p>Dziś już na pewno wiem, za kim on tęsknił w Bułgarii, dla kogo zębami i pazurami zdobywał majątek… Ha, wola boska!…</p>
 <p>No i patrzcie, jak ja odbiegam od przedmiotu. Ale teraz już na dobre zajmę się awanturą pani Stawskiej i opowiem z szybkością błyskawicy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX. Pamiętnik starego subiekta</head>
 <p>Jednego wieczora, zaraz po ósmej, poszedłem do tych pań. Pani Stawska swoim zwyczajem w ostatnim pokoju odrabiała lekcje z jakimiś panienkami, a pani Misiewiczowa z Helunią… znowu swoim zwyczajem siedziały w oknie. Nie rozumiem, co mogły widzieć po nocy, ale że ich wszyscy widzieli, to pewne. Nawet przysiągłbym, że pani baronowa w jednym ze swoich nie oświetlonych okien siedzi z lornetą i penetruje pierwsze piętro, bo rolety jak zwykle nie były zasunięte.</p>
 <p>Cofnąłem się tedy za firankę, ażeby choć mnie ta poczwara nie widziała, i prosto z mostu pytam pani Misiewiczowej:</p>
@@ -7917,8 +7889,7 @@
 <p>To już młodych ludzi ostatecznie zdetonowało; więc poszli do domu bardzo rozgniewani na siebie i każdy inną stroną ulicy.</p>
 <p>Nimeśmy jednak dopędzili ich dorożkami, już znowu szli razem i ukłonili się nam z wielką galanterią.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X. Pamiętnik starego subiekta</head>
 <p>Wiem ja, dlaczego tak szeroko rozpisałem się o sprawie pani Stawskiej. Oto dlaczego…</p>
 <p>Na świecie jest dużo niedowiarków i ja sam bywam czasami niedowiarkiem i wątpię o Opatrzności boskiej. Nieraz też, kiedy źle idą polityczne interesa albo kiedy patrzę na nędzę ludzką i na triumfy łajdaków (jeżeli taki wyraz wolno wymawiać), nieraz myślę sobie:</p>
@@ -8276,8 +8247,7 @@
 <p>O, bo ja, kiedy uwezmę się na co, to mam metternichowskie sposoby i rozumiem naturalny bieg rzeczy.</p>
 <p>Niech więc żyje Francja z Napoleonidami, a Wokulski z panią Stawską!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI. Damy i kobiety</head>
 <p>W minionym karnawale i w bieżącym wielkim poście fortuna po raz trzeci czy czwarty znowu łaskawym okiem spojrzała na dom pana Łęckiego.</p>
 <p>Jego salony pełne były gości, a do przedpokoju sypały się bilety wizytowe jak śnieg. I znowu pan Tomasz znalazł się w tej szczęśliwej pozycji, że nie tylko miał kogo przyjmować, ale nawet mógł robić wybór pomiędzy odwiedzającymi.</p>
@@ -8516,8 +8486,7 @@
 <p>Ale to gorsze, że Wokulski wcale o niej nie myśli. Tu jest awantura!… Ha, trzeba coś poradzić.”</p>
 <p>Ale że sam już nie znajdował rady, więc poszedł do doktora Szumana.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII. W jaki sposób zaczynają się otwierać oczy</head>
 <p>Doktór siedział przy lampie z zieloną umbrelką i pilnie przeglądał stos papierów.</p>
 <p>— Cóż — spytał Rzecki — znowu doktór pracuje nad włosami?… Phi! co za mnóstwo cyfr… Jak sklepowe rachunki.</p>
@@ -8941,8 +8910,7 @@
 <p>— Tym przyjemniej zejdzie nam miodowy miesiąc.</p>
 <p>— Życzę…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII. Pogodzeni małżonkowie</head>
 <p>Od połowy kwietnia pani baronowa Krzeszowska nagle zmieniła tryb życia.</p>
 <p>Do tej pory dzień schodził jej na wymyślaniu Mariannie, na pisywaniu listów do lokatorów o to, że schody są zaśmiecone, na wypytywaniu stróża: czy nie zdarł kto karty wynajmu mieszkań? czy praczki z paryskiej pralni nocują w domu albo czy rewirowy nie miał do niej jakiego interesu? Nie zapominała przy tym upominać go, ażeby w razie zgłoszenia się konkurenta o lokal na trzecim piętrze bacznie przypatrywał się, szczególniej ludziom młodym, a gdyby to byli studenci, ażeby odpowiadał, że lokal już wynajęty.</p>
@@ -9112,8 +9080,7 @@
 <p>Przez chwilę jeszcze toczyła się w nim walka. Raz — wyrzucał sobie, że mogąc uwolnić świat od hultaja nie zrobił tego, to znowu myślał, co działoby się z nim, gdyby tak jego samego uwięziono, oderwano od panny Izabeli na całe miesiące, może na lata.</p>
 <p>„Cóż to za okropność już nigdy jej nie zobaczyć… Kto zresztą wie, czy miłosierdzie nie jest najlepszą sprawiedliwością?… Jaki ja się robię sentymentalny!…”</p>
 </div>
-<div>
-<p>XIV. <emph>Tempus fugit, aeternitas manet</emph></p>
+<div type="chapter"><head>XIV. <emph>Tempus fugit, aeternitas manet</emph></head>
 <p>Jakkolwiek sprawa z Maruszewiczem załatwiła się we cztery oczy, jednak wieść o niej rozeszła się… Wokulski powiedział o tym Rzeckiemu i kazał wykreślić z księgi rzekomy dług barona. Maruszewicz zaś opowiedział baronowi dodając, że baron już nie powinien gniewać się na niego, ponieważ dług został umorzony, a on, Maruszewicz, ma zamiar poprawić się.</p>
 <p>— Czuję — mówił wzdychając — że byłbym inny, gdybym miał choć ze trzy tysiące rubli rocznie… Nikczemny świat, na którym tacy jak ja ludzie muszą się marnować!…</p>
 <p>— No, daj spokój, Maruszewicz — uspokajał go baron. — Kocham cię, ale przecie wszyscy wiedzą, że jesteś hultaj.</p>
@@ -9353,8 +9320,7 @@
 <p>— A na drugi raz… — dodał Wokulski kładąc mu rękę na ramieniu — na drugi raz… Gdybyś spotkał takiego człowieka… rozumiesz?… gdybyś spotkał, nie ratuj go… Kiedy kto chce dobrowolnie stanąć ze swoją krzywdą przed boskim sądem, nie zatrzymuj go…</p>
 <p>Nie zatrzymuj!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV. Pamiętnik starego subiekta</head>
 <p>Sytuacja polityczna zarysowuje się coraz wyraźniej. Mamy już dwie koalicje. Z jednej strony Rosja z Turcją, z drugiej strony Niemcy, Austria i Anglia. A jeżeli tak jest, więc znaczy, że lada chwilę może wybuchnąć wojna, w której zostaną rozstrzygnięte bardzo, ale to bardzo ważne sprawy.</p>
 <p>Czy tylko będzie wojna? bo my zawsze lubimy się łudzić. Otóż będzie, tym razem niezawodnie. Mówił mi Lisiecki, że ja co roku zapowiadałem wojnę i nigdy się nie sprawdziło. Głupi on, uczciwszy uszy… Co innego było w tamtych latach, a co innego dziś.</p>
@@ -9508,8 +9474,7 @@
 <p>Rzeczy odebrałem z kolei dopiero na drugi dzień, gdyż zajechały aż do Piotrkowa.</p>
 <p>Jeżeli wszystkie moje plany spełnią się w taki sposób, to winszuję…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI. Dusza w letargu</head>
 <p>Leżąc albo siedząc w swoim pokoju Wokulski machinalnie przypominał sobie, w jaki sposób ze Skierniewic powrócił do Warszawy.</p>
 <p>Około piątej rano kupił na dworcu bilet pierwszej klasy, nie był jednak pewny, czy takiego żądał, czy dano mu go bez żądania. Następnie wsiadł do przedziału drugiej klasy i zastał tam księdza, który przez cały czas podróży wyglądał oknem, tudzież rudego Niemca, który zdjął kamasze i oparłszy nogi w brudnych skarpetkach na przeciwległej ławce, spał jak zarżnięty. Wreszcie naprzeciw siebie miał jakąś starą damę, którą tak bolały zęby, że nawet nie obrażała się na postępowanie swego sąsiada w skarpetkach.</p>
@@ -10437,8 +10402,7 @@
 <p>W kilka dni rozeszła się wieść, że Wokulski gdzieś wyjechał nagle i może na zawsze.</p>
 <p>Wszystkie jego ruchomości, począwszy od sprzętów, skończywszy na powozie i koniach, nabył hurtem Szlangbaum za dosyć niską cenę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVII. Pamiętnik starego subiekta</head>
 <p>Od kilku miesięcy utrzymuje się pogłoska, że w dniu 26 czerwca bieżącego roku zginął w Afryce książę Ludwik Napoleon, syn cesarza. I to jeszcze zginął w bitwie z dzikim narodem, o którym nie wiadomo, ani gdzie mieszka, ani jak się nazywa? bo przecie <emph>Zulusami</emph> nie może nazywać się żaden naród.</p>
 <p>Tak wszyscy mówią. Nawet miała tam pojechać cesarzowa Eugenia i przywieźć zwłoki syna do Anglii. Czy tak jest w rzeczy samej, nie wiem, bo już od lipca nie czytuję gazet i nie lubię rozmawiać o polityce.</p>
@@ -10470,8 +10434,7 @@
 <p>Jeżeli jest tak, nie dziwię się Stachowi, który nieraz mówił, że chciałby jak najprędzej sam zginąć i zniszczyć wszelki ślad po sobie. Ale mam przeczucie, że tak nie jest.</p>
 <p>Chociaż… Czy to ja nie miałem przeczuć, że książę Ludwik Napoleon zostanie cesarzem Francuzów?… Ha! jeszcze zaczekajmy, bo mi ta jego śmierć, w bitwie z gołymi Murzynami, jakoś dziwnie wygląda…”</p>
 </div>
-<div>
-<p>XVIII. …?…</p>
+<div type="chapter"><head>XVIII. …?…</head>
 <p>Pan Rzecki istotnie niedomagał; według własnej opinii z powodu braku zajęcia, według Szumana z powodu sercowej choroby, która nagle rozwinęła się w nim i szła dosyć szybko pod wpływem jakichś zmartwień.</p>
 <p>Zajęć miał niewiele. Z rana przychodził do sklepu niegdyś Wokulskiego, obecnie Szlangbauma, lecz bawił tam, dopóki nie zaczęli się schodzić subiekci, a nade wszystko goście. Goście bowiem, nie wiadomo nawet dlaczego, przypatrywali mu się ze zdziwieniem, a subiekci, dziś z wyjątkiem pana Zięby starozakonni, nie tylko nie okazywali mu szacunku, do którego przywykł, ale nawet wbrew upomnieniom Szlangbauma traktowali go w sposób lekceważący.</p>
 <p>W tym stanie rzeczy pan Ignacy coraz częściej myślał o Wokulskim. Nie z racji, ażeby lękał się jakiegoś nieszczęścia, ale ot tak sobie.</p>
@@ -10850,8 +10813,7 @@
 <p>Ochocki milczał.</p>
 <p>Koniec</p>
 </div>
-<div>
-<p>Uzupełnienie</p>
+<div type="chapter"><head>Uzupełnienie</head>
 <p>Prawie w tej samej chwili, kiedy Rzecki studiował licytację domu Łęckich, w jego własnym mieszkaniu naradzali się dwaj panowie: jednym z nich był Wokulski, drugim moskiewski kupiec Suzin.</p>
 <p>Suzin był to niski olbrzym, z potężną głową, potężnymi plecami i jeszcze potężniejszymi rękoma; robił wrażenie ogniotrwałej szafy odzianej w surdut źle skrojony z bardzo cienkiego sukna. Z całej jego figury przeglądała niezmierna siła, a z czerwonej twarzy o nieregularnych rysach tryskało prawie kompromitujące zdrowie. Nosił długie konopiaste włosy, już gęsto przyprószone siwizną, podcięte przy kołnierzu i rozdzielone nad czołem, tudzież wielką brodę, również konopiastą w białe pasy. Na grubych palcach miał kilka pierścieni z ogromnymi brylantami, a na szyi złoty łańcuch, przy którym śmielej można było przyczepić berlinkę niż zegarek. Spod brwi, przypominających krzaki jałowcu, wyglądały mu nieduże siwe oczki, iskrzące się sprytem.</p>
 <p>Wokulski siedział w fotelu zamyślony, Suzin przeglądał jakieś papiery, pił sodową wodę z koniakiem od gorąca i mówił:</p>

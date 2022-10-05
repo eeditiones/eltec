@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3007" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3007" xml:lang="es">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -18,10 +21,10 @@
 			</extent>
 	        <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -62,9 +65,11 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2019-12-17">Anotación formato ELTeC y revisión del texto : César Más Sánchez</change>
 			<change when="2020-01-27">Revisión de anotación formato ELTeC y cambios menores : Borja Navarro Colorado</change>
+			<change when="2021-04-07">Introducción de ID de idiomas y reanotación de la sección "back"  : Borja Navarro Colorado</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -170,7 +175,7 @@
 				otros que los que giren y se desenvuelvan en
 				los grandes centros urbanizados a la moderna; si la levita y el 
 
-				<foreign>boudoir</foreign>
+				<foreign xml:lang="FRA">boudoir</foreign>
 
 				, y el banquero agiotista, y el
 				político venal, y el joven docto en todas las ciencias, pero,
@@ -326,10 +331,9 @@ encogiéndose de hombros:
 ¿Para qué vienes aquí? ¿Cuántas veces te he repetido que los
 Apóstoles? Pero 
 
-     <foreign>ab asino, lanam</foreign>
+     <foreign xml:lang="LAT">ab asino, lanam</foreign>
     
-	... ¿Cuántos dioses
-hay?...
+	... ¿Cuántos dioses hay?...
     </p>
     
 
@@ -388,7 +392,7 @@ nueve.
     <p>
      -
 
-    <emph>¡Resurge de<foreign>profundis</foreign></emph>
+    <emph>¡Resurge <foreign xml:lang="LAT">de profundis</foreign></emph>
     
      !... ¡Ánimas benditas,
 qué pedazo de animal... Y personas, ¿cuántas?
@@ -522,13 +526,13 @@ para que vuelvan al día siguiente, porque yo sé lo que sucediera de
 otro modo...; y házlo todo de buena gana, porque eso es tu
 obligación, pues eres lo que eres, 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       sacerdos Domini nostri Jesuchristi
      </foreign>
      ,
 por lo cual digo con Él, 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       sinite pueros venire ad me
      </foreign>
      : dejad que
@@ -538,7 +542,7 @@ corren y propalan que si salís de mis manos más burros de lo que
 vinisteis a ellas, como salieron otros muchachos que vinieron a mí
 antes que vosotros... ¡
 
-     <foreign>
+     <foreign xml:lang="LAT">
       Lingua corrupta
      </foreign>
      , carne mísera y
@@ -551,7 +555,7 @@ doctrina cristiana, a la vista está... Y como no quiero enfadarme,
 aunque motivos había para echaros uno a uno por el balcón abajo...
 vamos a otra cosa, y alabado sea Dios 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       per omnia saecula saeculorum
      </foreign>
      , que lo
@@ -3422,7 +3426,7 @@ murmurando latines y fulminando conjuros, el padre Apolinar.
     <p>
      -
 
-     <foreign>
+     <foreign xml:lang="LAT">
       ¡De ira proterva... de iniquitatibus corum...
 libera me... libera me. Domine, et exaudi orationem
 meam!...
@@ -3430,7 +3434,7 @@ meam!...
      ¡Jesús, Jesús... Jesús, María y José!... ¡Furias,
 furias del averno!... ¡Ufff!... 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       ¡Fugite... fugite!...
      </foreign>
      ¡Carne mísera!...
@@ -3546,7 +3550,7 @@ pegotón!... ¡Carne, carne concupiscente y corrompida!... Pero, en
 fin, más pasó Cristo por nosotros, con ser quien era...,
 ¡Desvergozadas!... 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       Et dimite nobis, Domine, debita nostra, sicutnos
 dimitimus debitoribus nostris...
      </foreign>
@@ -3747,7 +3751,7 @@ también. Después, daré cuenta de todo al alcalde de mar de este
 Cabildo, para que sepa lo que ocurre; y allá se descuernen ellos...
 Yo, 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       lavo inter inocentes manos meas.
      </foreign>
     </p>
@@ -3889,7 +3893,7 @@ murmurar estas palabras, en cuanto puso los pies en el portal:
     <p>
      -
 
-     <foreign>
+     <foreign xml:lang="LAT">
       ¡Domine, exaudi orationem meam!
      </foreign>
     </p>
@@ -4313,7 +4317,7 @@ barro frágil, carne mísera, y se cae, se cae cien veces cada hora.
 Mi ejemplo debiera ser de fortaleza, y lo es de... de chanfaina,
 Sidora, de chanfaina, porque no valemos un cuerno... 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       ¡Domine, ni recordaris pecata mea!
      </foreign>
      Y
@@ -5348,7 +5352,7 @@ todo de espaldas, de brazos y de manos...
      Perdone la impaciencia del lector;
 pero necesito tomar esta figura desde más atrás, 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       ab ovo
      </foreign>
      casi, para que resulte con todo
@@ -5358,7 +5362,7 @@ esta digresión, además del fin inmediato que lleva, ha de
 ahorrarnos otras por el estilo, despejándonos el terreno en que
 vamos a entrar, porque la especie abunda en ejemplares, y 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       ab uno disce omnes.
      </foreign>
     </p>
@@ -6606,7 +6610,7 @@ tanto la atormentaba a ella.
      Don Venancio Liencres era un hombre
 completamente insignificante; 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       intus et foris
      </foreign>
      ; pero en los casos
@@ -7918,7 +7922,7 @@ pies, columbraba el azadón, o el escoplo..., o el tirapié de las
 mocedades de su padre... ¡Ah, los pobres hombres! ¡Y cómo las
 atormentaban sin querer, cuando, ya encanecidos, se gloriaban, 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       coram populo
      </foreign>
      y de ellas, de haber sido
@@ -11064,14 +11068,14 @@ de Abajo me oirán, y ya llegarás a saber si aquello que yo les diga
 se aprende en un par de meses... ¡Vaya con estos muchachos que
 nacen enseñados y con la palabra de Dios, 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       verbum Dei
      </foreign>
      , entre los labios!... Y
 ahora dime: ¿qué tripa se te ha roto? ¿Qué me quieres? ¿Por qué me
 buscas, 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       et quare conturbas me
      </foreign>
      ?
@@ -17084,7 +17088,7 @@ tomarlo a castigo de Dios...; que bien pudiera, ¡cuerno!, que bien
 pudiera tomarlo por esa banda sin pecado de vanidad. ¡Uf!...
 ¡Lenguas, lenguas; 
 
-     <foreign>
+     <foreign xml:lang="LAT">
       linguae corruptae
      </foreign>
      ; carne mísera, carne
@@ -22606,2002 +22610,1131 @@ mareante santanderino.
     </p>
     
 
-    <p>
+    <trailer>
      Santander, noviembre 1884.
-    </p>
+    </trailer>
    </div>
   </body>
   
   <back>
    <div type="liminal">
-    <head>
-     Significación de algunas voces técnicas y locales
-usadas en este libro para inteligencia de los lectores
-«profanos»
-    </head>
-    <div>
-     <head>A</head>
-      <p>
-      <emph>
-       ABARROTES
-      </emph>
-      .- Fardos de poco bulto con que se llenan los huecos que quedan en la bodega de un buque después de cargado.
-     </p>
-     <p>
-      <emph>
-       ALA
-      </emph>
-      .- Velita agregada a otra vela principal por uno o por ambos lados en tiempo bonancible.
-     </p>
-     <p>
-      
-
-      <emph>
-       ALIGOTE
-      </emph>
-      , 
-
-      <emph>
-       local
-      </emph>
-      .- Pescado de bahía.
-     </p>
-     
-
-     <p>
-      
-
-      <emph>
-       AMAYUELA
-      </emph>
-      , 
-
-      <emph>
-       loc
-      </emph>
-      .- Almeja.
-     </p>
-     
-
-     <p>
-      
-
-      <emph>
-       AMURA
+    <head>Significación de algunas voces técnicas y locales usadas en este libro para inteligencia de los lectores «profanos»</head>
+    
+    <label>A</label>
+    <p><emph>ABARROTES</emph>.- Fardos de poco bulto con que se llenan los huecos que quedan en la bodega de un buque después de cargado.</p>
+    <p><emph>ALA</emph>.- Velita agregada a otra vela principal por uno o por ambos lados en tiempo bonancible.</p>
+    <p><emph>ALIGOTE</emph>,<emph>local</emph>.- Pescado de bahía.</p>
+    <p><emph>AMAYUELA</emph>,<emph>loc</emph>.- Almeja.</p>
+    <p><emph>AMURA
       </emph>
       .- Cada mitad de la anchura de la proa de
-un barco.
-     </p>
+un barco.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ARRASTRADERAS
+     <p><emph>ARRASTRADERAS
       </emph>
       .- Las alas correspondientes a las
-velas mayor y de trinquete.
-     </p>
+velas mayor y de trinquete.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ARTES DE PESCAR
+     <p><emph>ARTES DE PESCAR
       </emph>
       .- Conjunto de los aparejos que
-usa un pescador en su oficio.
-     </p>
-     
+usa un pescador en su oficio.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
-      B
-     </head>
-     
-
-     <p>
-      
-
-      <emph>
-       BAGRA
+     <label>B</label>
+     <p><emph>BAGRA
       </emph>
       .- Listón de madera que corre
 interiormente a lo largo de cada costado de la lancha, y sobre el
-cual se apoyan las cabezas de los bancos.
-     </p>
+cual se apoyan las cabezas de los bancos.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BANDAZO
+     <p><emph>BANDAZO
       </emph>
       .- Tumbo o balance repentino que da una
-embarcación hacia cualquiera de sus dos lados.
-     </p>
+embarcación hacia cualquiera de sus dos lados.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BARLOVENTEAR
+     <p><emph>BARLOVENTEAR
       </emph>
       .- Navegar de bolina en vueltas
-continuadas.
-     </p>
+continuadas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BARQUÍA
+     <p><emph>BARQUÍA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Embarcación capaz, a lo sumo, de cuatro
 remos por banda: la mitad, aproximadamente, de una lancha de
-pescar.
-     </p>
+pescar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BARQUÍN- BARCÓN
+     <p><emph>BARQUÍN- BARCÓN
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Movimiento brusco y repetido de un
-costado a otro de cualquier cuerpo flotante.
-     </p>
+costado a otro de cualquier cuerpo flotante.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BATAYOLA
+     <p><emph>BATAYOLA
       </emph>
       .- Barandilla que corre sobre las
-bordas del buque, especialmente a popa y a proa.
-     </p>
+bordas del buque, especialmente a popa y a proa.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BITADURA
+     <p><emph>BITADURA
       </emph>
       .- Vuelta con que se amarra el cable
-alrededor de la cruz de las bitas.
-     </p>
+alrededor de la cruz de las bitas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BOLINA
+     <p><emph>BOLINA
       </emph>
       .- La posición inclinada de un buque
-ciñendo el viento.
-     </p>
+ciñendo el viento.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BORDA
+     <p><emph>BORDA
       </emph>
       .- El canto superior del costado de un
-buque.
-     </p>
+buque.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BORDADA
+     <p><emph>BORDADA
       </emph>
       .- Extensión andada en el rumbo de
-bolina en cualquiera de las dos bandas.
-     </p>
+bolina en cualquiera de las dos bandas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BOTA ARRIBA A LA BANDA
+     <p><emph>BOTA ARRIBA A LA BANDA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Volverse a tierra repentinamente.
 Dícese que tan pronto como estos pescadores descubren un ratón en
 la lancha, hacen 
 
-      <emph>
-       bota arriba a la banda
+      <emph>bota arriba a la banda
       </emph>
-      .
-     </p>
+      .</p>
      
 
-     <p>
-      
-
-      <emph>
-       BOTABOMBA
+     <p><emph>BOTABOMBA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Droga muy barata que, desleída en agua,
-da el color amarillo claro.
-     </p>
+da el color amarillo claro.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BOZA
+     <p><emph>BOZA
       </emph>
       .- En general, todo pedazo de cuerda o
 tirante con que se sujeta un calabrete, una cadena, etc., en una
 posición determinada. - En las lanchas de pesca, el zoquete de
 madera en que va sujeto el tolete y se apoya el remo para
-hogar.
-     </p>
+hogar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BRANQUE
+     <p><emph>BRANQUE
       </emph>
-      .- Tajamar.
-     </p>
+      .- Tajamar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       BURDA
+     <p><emph>BURDA
       </emph>
       .- Cuerda con que se sujeta un mastelero a
-su correspondiente mesa de guarnición.
-     </p>
+su correspondiente mesa de guarnición.</p>
+
+     <label>C</label>
      
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
-      C
-     </head>
-     
-
-     <p>
-      
-
-      <emph>
-       CABEL
+     <p><emph>CABEL
       </emph>
-      .- Lo mismo que borda.
-     </p>
+      .- Lo mismo que borda.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CABLE
-      </emph>
-      
-
-      <emph>
-       (unidad de medida
+     <p><emph>CABLE
+      </emph><emph>(unidad de medida
       </emph>
       ).- Ciento veinte
-brazas.
-     </p>
+brazas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CACEA
+     <p><emph>CACEA
       </emph>
       .- 
 
-      <emph>
-       A la cacea
+      <emph>A la cacea
       </emph>
       : pescar mientras va andando la
-lancha.
-     </p>
+lancha.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CAFETERA
+     <p><emph>CAFETERA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Borrachera.
-     </p>
+      .- Borrachera.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CALADA
+     <p><emph>CALADA
       </emph>
-      .- La acción y efecto de calar.
-     </p>
+      .- La acción y efecto de calar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CALAR
+     <p><emph>CALAR
       </emph>
       .- Arrojar al agua y sumergir en ella el
-aparejo de pescar.
-     </p>
+aparejo de pescar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CALO
+     <p><emph>CALO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Profundidad del agua.
-     </p>
+      .- Profundidad del agua.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CANCANEADO
+     <p><emph>CANCANEADO
       </emph>
       , 
 
-      <emph>
-       DA
+      <emph>DA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- La persona que tiene la cara marcada de
-viruelas.
-     </p>
+viruelas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CAPEAR
+     <p><emph>CAPEAR
       </emph>
       .- Disponer el aparejo de un barco de
-modo que éste no avance ni retroceda sensiblemente.
-     </p>
+modo que éste no avance ni retroceda sensiblemente.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CAPÓN
+     <p><emph>CAPÓN
       </emph>
       .- Cabo grueso que sirve para tener
-suspendida el ancla por su argolla al costado del buque.
-     </p>
+suspendida el ancla por su argolla al costado del buque.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CARGAR
+     <p><emph>CARGAR
       </emph>
       .- Recoger una vela tirando de la cuerda
-al efecto.
-     </p>
+al efecto.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CARLINGA
+     <p><emph>CARLINGA
       </emph>
       .- La pieza en que va encajado el palo
-de una embarcación.
-     </p>
+de una embarcación.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CARNADA
+     <p><emph>CARNADA
       </emph>
       .- El cebo que se pone en los anzuelos
-para pescar.
-     </p>
+para pescar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CARPANCHO
+     <p><emph>CARPANCHO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Especie de banasta: capacho.
-     </p>
+      .- Especie de banasta: capacho.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CARREJO
+     <p><emph>CARREJO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Pasillo largo dentro de una
-habitación.
-     </p>
+habitación.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CAZAR
+     <p><emph>CAZAR
       </emph>
       .- Tirar para sí de un cabo
-cualquiera.
-     </p>
+cualquiera.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CEÑIR EL VIENTO
+     <p><emph>CEÑIR EL VIENTO
       </emph>
       .- Navegar contra la dirección
-de él.
-     </p>
+de él.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CIAR
+     <p><emph>CIAR
       </emph>
       .- Bogar al revés; es decir, como si se
-intentara hacer andar la embarcación hacia atrás.
-     </p>
+intentara hacer andar la embarcación hacia atrás.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CINGLAR
+     <p><emph>CINGLAR
       </emph>
       .- Hacer andar un bote con un solo remo
 colocado a popa y moviéndole alternativamente a un lado y a
-otro.
-     </p>
+otro.</p>
      
 
-     <p>
-      
-
-      <emph>
-       COBRAR
+     <p><emph>COBRAR
       </emph>
       .- Recoger un cabo o parte de él:
-halar.
-     </p>
+halar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       COFA
+     <p><emph>COFA
       </emph>
       .- Especie de meseta formada en lo alto de
-los palos mayores.
-     </p>
+los palos mayores.</p>
      
 
-     <p>
-      
-
-      <emph>
-       COLE
+     <p><emph>COLE
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- 
 
-      <emph>
-       Echar un cole
+      <emph>Echar un cole
       </emph>
-      : tirarse al agua de cabeza.
-     </p>
+      : tirarse al agua de cabeza.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CONTREMINAR
+     <p><emph>CONTREMINAR
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Indisponer a una persona con otra:
-enconar sus ánimos.
-     </p>
+enconar sus ánimos.</p>
      
 
-     <p>
-      
-
-      <emph>
-       COSTERA
+     <p><emph>COSTERA
       </emph>
       .- La duración de cada pesca
-determinada: como la del besugo, la del bonito, etc.
-     </p>
+determinada: como la del besugo, la del bonito, etc.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CUBIJERO
+     <p><emph>CUBIJERO
       </emph>
       , 
 
-      <emph>
-       RA
+      <emph>RA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- La persona que anda con cubijos.
-     </p>
+      .- La persona que anda con cubijos.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CUBIJO
+     <p><emph>CUBIJO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Tapujo.
-     </p>
+      .- Tapujo.</p>
+
+     <label>CH</label>
      
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
-      CH
-     </head>
-     
-
-     <p>
-      
-
-      <emph>
-       CHOPA
+     <p><emph>CHOPA
       </emph>
       .- En las lanchas de pescar, el cajón que
-llevan a popa a modo de toldilla.
-     </p>
+llevan a popa a modo de toldilla.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CHUMACERA
+     <p><emph>CHUMACERA
       </emph>
       .- Lo mismo que la boza de las
 lanchas. Especie de horquilla de metal, de espiga giratoria, que
-suple al tolete y al estrobo para bogar.
-     </p>
+suple al tolete y al estrobo para bogar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       CHUMBAO
+     <p><emph>CHUMBAO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Peso de plomo que se pone a los
-aparejos de pescar para que se vayan a pique.
-     </p>
-     
+aparejos de pescar para que se vayan a pique.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       D
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       DERIVA
+     <p><emph>DERIVA
       </emph>
-      .- La acción y efecto de derivar.
-     </p>
+      .- La acción y efecto de derivar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       DERIVAR
+     <p><emph>DERIVAR
       </emph>
       .- Declinar a impulso del viento o de
-las corrientes hacia la parte menos ventajosa.
-     </p>
+las corrientes hacia la parte menos ventajosa.</p>
      
 
-     <p>
-      
-
-      <emph>
-       DESBORREGARSE
+     <p><emph>DESBORREGARSE
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Caer deslizando.
-     </p>
+      .- Caer deslizando.</p>
      
 
-     <p>
-      
-
-      <emph>
-       DESGUARNIR
+     <p><emph>DESGUARNIR
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Desbaratar.
-     </p>
+      .- Desbaratar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       DORMIRSE
+     <p><emph>DORMIRSE
       </emph>
       .- Quedar una embarcación sin gobierno
-entre las fuerzas contrarias de dos olas.
-     </p>
+entre las fuerzas contrarias de dos olas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       DRIZA
+     <p><emph>DRIZA
       </emph>
       .- De bandera, la cuerda fina con que se
-iza o se baja.
-     </p>
+iza o se baja.</p>
      
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       E
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       EMPAVESADA
+     <p><emph>EMPAVESADA
       </emph>
       .- Faja de paño de colores con que se
 adornan las bordas y las cofas de los buques en ciertas
 solemnidades, y también para cubrir los asientos de popa en botes y
-falúas.
-     </p>
+falúas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       EMPAVESADURA
+     <p><emph>EMPAVESADURA
       </emph>
       .- Corrupción de empavesada: y por
-extensión, todo adorno de banderas y gallardetes.
-     </p>
+extensión, todo adorno de banderas y gallardetes.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ENCARNAR
+     <p><emph>ENCARNAR
       </emph>
       .- Poner la carnada en los
-anzuelos.
-     </p>
+anzuelos.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ESCALERÓN
+     <p><emph>ESCALERÓN
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Peldaño.
-     </p>
+      .- Peldaño.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ESCOBÉN
+     <p><emph>ESCOBÉN
       </emph>
       .- Cualquiera de los agujeros de proa
-por donde salen los cables o cadenas para amarrar el buque.
-     </p>
+por donde salen los cables o cadenas para amarrar el buque.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ESCOTA
+     <p><emph>ESCOTA
       </emph>
       .- La cuerda que sirve para orientar la
-vela y sujetarla en la posición deseada.
-     </p>
+vela y sujetarla en la posición deseada.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ESLORA
+     <p><emph>ESLORA
       </emph>
-      .- La longitud de un barco.
-     </p>
+      .- La longitud de un barco.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ESTROBO
+     <p><emph>ESTROBO
       </emph>
       .- Aro de mimbre retorcido o de cuerda
 en un diámetro algo mayor que el del espesor del remo que se mete
-por él para lograr.
-     </p>
+por él para lograr.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ESTROPADA
+     <p><emph>ESTROPADA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Estrepada: el esfuerzo de todos los
-remeros a la vez, y también el de uno solo para bogar.
-     </p>
+remeros a la vez, y también el de uno solo para bogar.</p>
+     
      
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       F
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       FILAR
+     <p><emph>FILAR
       </emph>
       .- Largar o soltar progresivamente un
-cable, cadena, etc.
-     </p>
+cable, cadena, etc.</p>
      
 
-     <p>
-      
-
-      <emph>
-       FILÁSTICA
+     <p><emph>FILÁSTICA
       </emph>
       .- El hilo de que están compuestos los
-cordones de los cables, cabos, etc.
-     </p>
+cordones de los cables, cabos, etc.</p>
      
 
-     <p>
-      
-
-      <emph>
-       FOQUE
+     <p><emph>FOQUE
       </emph>
       .- En general, todas las velas
-triangulares que se amuran en el bauprés.
-     </p>
-     
+triangulares que se amuran en el bauprés.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       G
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       GALERNA
+     <p><emph>GALERNA
       </emph>
       .- Cambio repentino del tiempo al
-Noroeste huracanado.
-     </p>
+Noroeste huracanado.</p>
      
 
-     <p>
-      
-
-      <emph>
-       GALERNAZO
+     <p><emph>GALERNAZO
       </emph>
-      .- Galerna.
-     </p>
+      .- Galerna.</p>
      
 
-     <p>
-      
-
-      <emph>
-       GALOPE
+     <p><emph>GALOPE
       </emph>
       .- La parte más alta del palo de un
-buque.
-     </p>
+buque.</p>
      
 
-     <p>
-      
-
-      <emph>
-       GARETE
+     <p><emph>GARETE
       </emph>
       .- 
 
-      <emph>
-       Ir o irse al garete
+      <emph>Ir o irse al garete
       </emph>
       : estar un buque a merced
 del viento o de las corrientes. Pescar al garate: mantener la
 lancha en el sitio que se desea con la ayuda de algunos remos
-movidos oportunamente.
-     </p>
+movidos oportunamente.</p>
      
 
-     <p>
-      
-
-      <emph>
-       GARREAR
+     <p><emph>GARREAR
       </emph>
       .- Arrastrar una embarcación las anclas
-después de fondeada con ellas.
-     </p>
+después de fondeada con ellas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       GUINDA
+     <p><emph>GUINDA
       </emph>
       .- Altura de los palos de un buque hasta
-los topes o puntas.
-     </p>
-     
+los topes o puntas.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       L
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       LASCA
+     <p><emph>LASCA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Pedazo de madera de superficie
 redondeada y fina que se ajusta al carel de la lancha, entre dos
-bozas, para arrastrar sobre el aparejo de pescar.
-     </p>
+bozas, para arrastrar sobre el aparejo de pescar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       LIMONAJE
+     <p><emph>LIMONAJE
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Lemanaje: el derecho que se paga al
 piloto práctico por la dirección de entrada de un buque en el
 puerto o salida de él; también la operación misma. Es curiosa la
 etimología de esta palabra, según Larousse, en su gran Diccionario,
-y debe consignarse traducida aquí.
-     </p>
+y debe consignarse traducida aquí.</p>
      
 
      <p>
       «
 
-      <foreign>
-       Lamanage
+      <foreign xml:lang="FRA">Lamanage
       </foreign>
       .- Profesión de los pilotos, 
 
-      <foreign>
-       lamaneurs.
-      </foreign>
-     </p>
+      <foreign xml:lang="FRA">lamaneurs.
+      </foreign></p>
      
 
      <p>
       
 
-      <foreign>
-       Lamaneur
+      <foreign xml:lang="FRA">Lamaneur
       </foreign>
       (del antiguo francés 
 
-      <foreign>
-       Laman
+      <foreign xml:lang="FRA">Laman
       </foreign>
       , literalmente 
 
-      <emph>
-       el hombre del plomo
+      <emph>el hombre del plomo
       </emph>
       - de 
 
-      <foreign>
-       lot
+      <foreign xml:lang="DUT">lot
       </foreign>
       , plomo, y 
 
-      <foreign>
-       mann
+      <foreign xml:lang="DUT">mann
       </foreign>
       , hombre-, en flamenco 
 
-      <foreign>
-       lotman
+      <foreign xml:lang="DUT">lotman
       </foreign>
       , en alemán 
 
-      <foreign>
-       lothsman
+      <foreign xml:lang="DEU">lothsman
       </foreign>
       , porque los 
 
-      <foreign>
-       lamaneurs
+      <foreign xml:lang="FRA">lamaneurs
       </foreign>
       se sirven ordinariamente de
 sondas de plomo). 
 
-      <emph>
-       Mar.- Piloto que conoce particularmente un sitio
+      <emph>Mar.- Piloto que conoce particularmente un sitio
 de desembarco, y está encargado de dirigir a él los
 buques.
-      </emph>
-     </p>
+      </emph></p>
      
 
      <p>
       En algunos puertos de costa se llama todavía 
 
-      <emph>
-       lemán
+      <emph>lemán
       </emph>
       el piloto práctico, de donde procede
 directamente la palabra 
 
-      <emph>
-       lemanaje
+      <emph>lemanaje
       </emph>
       ; y Capmani, en 
 
-      <emph>
-       su Glos. al cod. de las costum. marítim. de
+      <emph>su Glos. al cod. de las costum. marítim. de
 Barcelona
       </emph>
       , dice que «asimismo se denomina (el práctico) 
 
-      <emph>
-       locman
+      <emph>locman
       </emph>
       , del latín 
 
-      <foreign>
-       locomanens
+      <foreign xml:lang="LAT">locomanens
       </foreign>
       , que es decir 
 
-      <emph>
-       habitante del lugar
+      <emph>habitante del lugar
       </emph>
-      ».
-     </p>
+      ».</p>
      
 
-     <p>
-      
-
-      <emph>
-       LUMBRES DE AGUA
+     <p><emph>LUMBRES DE AGUA
       </emph>
       .- La línea que traza la
 superficie del agua en el casco de un buque en una posición
-cualquiera.
-     </p>
-     
+cualquiera.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       M
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       MACIZAR
+     <p><emph>MACIZAR
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Arrojar macizo al agua mientras se está
-pescando.
-     </p>
+pescando.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MACIZO
+     <p><emph>MACIZO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Parrocha.
-     </p>
+      .- Parrocha.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MAGANO
+     <p><emph>MAGANO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Calamar.
-     </p>
+      .- Calamar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MANJÚA
+     <p><emph>MANJÚA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Majal, cardumen: la multitud de peces
-que caminan juntos como en tropa.
-     </p>
+que caminan juntos como en tropa.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MAREANTE
+     <p><emph>MAREANTE
       </emph>
       .- Individuo del gremio de pescadores
-matriculados.
-     </p>
+matriculados.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MARETAZO
+     <p><emph>MARETAZO
       </emph>
-      .- Golpe de mar.
-     </p>
+      .- Golpe de mar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MASTELERO
+     <p><emph>MASTELERO
       </emph>
       .- El trozo superior y más delgado del
-palo de un barco.
-     </p>
+palo de un barco.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MEDIO- MUNDO
+     <p><emph>MEDIO- MUNDO
       </emph>
       .- Bolsa de red sostenida por un
 aro de alambre grueso del cual parten cordeles, que se unen y
 amarran al extremo de un palo que el pescador mete entre piernas
 por el otro extremo para suspender con las manos el medio- mundo
 cuando le quiere sacar del agua. Así se pescan las sulas en
-bahía.
-     </p>
+bahía.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MOCEJÓN
+     <p><emph>MOCEJÓN
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Bivalvo de conchas casi negras, más
-largas que anchas. Vive adherido a las peñas de la costa.
-     </p>
+largas que anchas. Vive adherido a las peñas de la costa.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MUELLE- ANAOS
+     <p><emph>MUELLE- ANAOS
       </emph>
       .- Muelle de las Naos, primitivo
-muelle de Santander.
-     </p>
+muelle de Santander.</p>
      
 
-     <p>
-      
-
-      <emph>
-       MUERGO
+     <p><emph>MUERGO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Molusco de conchas largas, angostas,
 convexas y amarillentas; por el tamaño y la forma es idéntico al
 mango de un cuchillo de mesa. Se oculta verticalmente en las playas
-de arena, y se pesca a la bajamar, con un gancho de alambre.
-     </p>
+de arena, y se pesca a la bajamar, con un gancho de alambre.</p>
      
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       O
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       ORZA
+     <p><emph>ORZA
       </emph>
       .- Tablón poco más largo que la altura de
 la lancha. Se cuelga al costado de ésta, sujeto al carel solamente,
-para evitar la deriva cuando va ciñendo el viento.
-     </p>
+para evitar la deriva cuando va ciñendo el viento.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ORZAR
+     <p><emph>ORZAR
       </emph>
       .- Gobernar de modo que la embarcación
 disminuya el ángulo que forma su quilla con la dirección del
-viento.
-     </p>
+viento.</p>
+     
      
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       P
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       PALLETE
+     <p><emph>PALLETE
       </emph>
       .- Tejido áspero de cordones de
-cabo.
-     </p>
+cabo.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PANEL
+     <p><emph>PANEL
       </emph>
       .- El suelo lleno de piezas sueltas, pero
-muy bien avenidas, que tienen las lanchas.
-     </p>
+muy bien avenidas, que tienen las lanchas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PANTOQUES
+     <p><emph>PANTOQUES
       </emph>
       .- Las panzas de una embarcación que
-van sumergidas en el agua.
-     </p>
+van sumergidas en el agua.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PARCIAL
+     <p><emph>PARCIAL
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Afable, comunicativo.
-     </p>
+      .- Afable, comunicativo.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PARROCHA
+     <p><emph>PARROCHA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Sardina en salmuera conservada en
-barriles.
-     </p>
+barriles.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PEJÍN, PEJINO, PEJINA
+     <p><emph>PEJÍN, PEJINO, PEJINA
       </emph>
       .- El hombre o la mujer
 del pueblo bajo de la ciudad de Santander y otras poblaciones
 marítimas de la provincia y los pertenecientes a ellos. Supónese
 que esta voz es derivada de 
 
-      <emph>
-       peje
+      <emph>peje
       </emph>
-      , pez.
-     </p>
+      , pez.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PERNAL
+     <p><emph>PERNAL
       </emph>
       .- Rainal: cordelillo muy fino y corto;
 en un extremo tiene un anzuelo y por el otro se añade al aparejo de
-pescar.
-     </p>
+pescar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PICO DE CANGREJA
+     <p><emph>PICO DE CANGREJA
       </emph>
       .- El extremo de la vara en que
-se enverga la vela cangreja en el palo trasero de un barco.
-     </p>
+se enverga la vela cangreja en el palo trasero de un barco.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PINAZA
+     <p><emph>PINAZA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Embarcación sin cubierta, mucho mayor y
 más fuerte que una lancha de pesca, para cargar y descargar los
-buques que no pueden arrimarse al muelle.
-     </p>
+buques que no pueden arrimarse al muelle.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PIÑA
+     <p><emph>PIÑA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Golpe dado con los nudillos a puño
-cerrado.
-     </p>
+cerrado.</p>
      
 
-     <p>
-      
-
-      <emph>
-       PORRETO
+     <p><emph>PORRETO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Una variedad de las algas marinas.
-     </p>
+      .- Una variedad de las algas marinas.</p>
      
-
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       R
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       RAQUERO
+     <p><emph>RAQUERO
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Muchacho que se dedica al merodeo entre
 los buques de la dársena, a la bajamar, en muelles, careneros,
-etc.
-     </p>
+etc.</p>
      
 
-     <p>
-      
-
-      <emph>
-       RASELES
+     <p><emph>RASELES
       </emph>
       .- Las partes en que a los extremos de
-popa se estrecha el fondo de la nave.
-     </p>
+popa se estrecha el fondo de la nave.</p>
      
 
-     <p>
-      
-
-      <emph>
-       REMA
+     <p><emph>REMA
       </emph>
       .- El acto de remar todos los remeros a la
-vez
-     </p>
+vez</p>
      
 
-     <p>
-      
-
-      <emph>
-       RENDIR LA BORDADA
+     <p><emph>RENDIR LA BORDADA
       </emph>
       .- Llegar con ella a un punto
-donde hay que virar para dar otra.
-     </p>
+donde hay que virar para dar otra.</p>
      
 
-     <p>
-      
-
-      <emph>
-       REÑAL
+     <p><emph>REÑAL
       </emph>
-      .- Rainal.
-     </p>
+      .- Rainal.</p>
      
 
-     <p>
-      
-
-      <emph>
-       RESACAS
+     <p><emph>RESACAS
       </emph>
       .- El movimiento de las aguas en la
-orilla después de haber avanzado o chocado en ella.
-     </p>
+orilla después de haber avanzado o chocado en ella.</p>
      
 
-     <p>
-      
-
-      <emph>
-       RESALSERO
+     <p><emph>RESALSERO
       </emph>
       .- Extensión de mar en que se agitan y
-rompen sin cesar las olas.
-     </p>
+rompen sin cesar las olas.</p>
      
 
-     <p>
-      
-
-      <emph>
-       RIZÓN
+     <p><emph>RIZÓN
       </emph>
-      .- Ancla de tres brazos.
-     </p>
+      .- Ancla de tres brazos.</p>
      
 
-     <p>
-      
-
-      <emph>
-       ROPA DE AGUA
+     <p><emph>ROPA DE AGUA
       </emph>
       .- Se compone de calzones,
-chaquetón y sombrero (sueste), todo ello de lona encerada.
-     </p>
-     
+chaquetón y sombrero (sueste), todo ello de lona encerada.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       S
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       SANTIMPERIE
+     <p><emph>SANTIMPERIE
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Intemperie.
-     </p>
+      .- Intemperie.</p>
      
 
-     <p>
-      
-
-      <emph>
-       SARGÜETA
+     <p><emph>SARGÜETA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Jargueta: pescado de bahía.
-     </p>
+      .- Jargueta: pescado de bahía.</p>
      
 
-     <p>
-      
-
-      <emph>
-       SOTILEZA
+     <p><emph>SOTILEZA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Sutileza: la parte más fina del aparejo
 de pescar donde va el anzuelo. Las hay de alambre, de cordelillo y
-de tanza. Por extensión, todo cordel muy fino.
-     </p>
+de tanza. Por extensión, todo cordel muy fino.</p>
      
 
-     <p>
-      
-
-      <emph>
-       SUESTE
+     <p><emph>SUESTE
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Sombrero de lona encerada, con el ala
-estrecha por delante y muy ancha por detrás.
-     </p>
+estrecha por delante y muy ancha por detrás.</p>
      
 
-     <p>
-      
-
-      <emph>
-       SULA
+     <p><emph>SULA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Pescado de bahía, pequeñito y plateado
-de color.
-     </p>
+de color.</p>
      
 
-     <p>
-      
-
-      <emph>
-       SURBIA
+     <p><emph>SURBIA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Veneno.
-     </p>
-     
+      .- Veneno.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       T
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       TABAL
+     <p><emph>TABAL
       </emph>
       .- Atabal: envase en que vienen de Galicia
-los arenques.
-     </p>
+los arenques.</p>
      
 
-     <p>
-      
-
-      <emph>
-       TANZA
+     <p><emph>TANZA
       </emph>
-      .- Hilo de capullo o de cerda.
-     </p>
+      .- Hilo de capullo o de cerda.</p>
      
 
-     <p>
-      
-
-      <emph>
-       TAPA
+     <p><emph>TAPA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Una tapa: tirarse al agua de pie.
-     </p>
+      .- Una tapa: tirarse al agua de pie.</p>
      
 
-     <p>
-      
-
-      <emph>
-       TAPARLAS
+     <p><emph>TAPARLAS
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
       .- Tragar todo el humo de cada chupada al
-cigarro.
-     </p>
+cigarro.</p>
      
 
-     <p>
-      
-
-      <emph>
-       TOLETE
+     <p><emph>TOLETE
       </emph>
       .- Palito redondo de madera fuerte que se
 afirma en un agujero hecho a propósito en el carel de la lancha,
 atravesando la boza, y en el cual se encapilla el estrobo para
-remar.
-     </p>
+remar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       TRINCAR
+     <p><emph>TRINCAR
       </emph>
       .- Amarra. 
 
-      <emph>
-       Loc
+      <emph>Loc
       </emph>
-      . Ufar.
-     </p>
+      . Ufar.</p>
      
 
-     <p>
-      
-
-      <emph>
-       TRONCADA
+     <p><emph>TRONCADA
       </emph>
       .- Embestida de una embarcación a otra
-o a cualquier objeto resistente.
-     </p>
-     
+o a cualquier objeto resistente.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       U
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       UFÍA
+     <p><emph>UFÍA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Vejiga inflamada.
-     </p>
+      .- Vejiga inflamada.</p>
      
 
-     <p>
-      
-
-      <emph>
-       UJANA
+     <p><emph>UJANA
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Gusana: lombriz de la basa.
-     </p>
+      .- Gusana: lombriz de la basa.</p>
      
 
-     <p>
-      
-
-      <emph>
-       UPAR
+     <p><emph>UPAR
       </emph>
       , 
 
-      <emph>
-       loc
+      <emph>loc
       </emph>
-      .- Robar.
-     </p>
-     
+      .- Robar.</p>
 
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       V
-     </head>
+     </label>
      
 
-     <p>
-      
-
-      <emph>
-       VIRAR POR AVANTE
+     <p><emph>VIRAR POR AVANTE
       </emph>
       .- Cambiar de rumbo o de
 bordada, de modo que viniendo el viento por un costado, después de
-cambiar venga por el otro.
-     </p>
+cambiar venga por el otro.</p>
      
-
-    </div>
-    
-
-    <div>
-     
-
-     <head>
+     <label>
       Z
-     </head>
+     </label>
      
 
      <p>
-      
-
-      <emph>
-       ZONCHO
+      <emph>ZONCHO
+      </emph>, 
+      <emph>loc
       </emph>
-      , 
-
-      <emph>
-       loc
-      </emph>
-      .- Carpancho.
-     </p>
-     
-
-    </div>
-    
+      .- Carpancho.</p>
 
    </div>
-   
-
   </back>
  </text>
 </TEI>

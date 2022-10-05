@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0072" xml:lang="pt">   
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0072" xml:lang="pt">   
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -17,16 +20,16 @@
 </respStmt>
 </titleStmt>
 <extent>
-<measure unit="words">67549</measure>
+<measure unit="words">67701</measure>
 </extent>
 <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3492067">ELTeC-por</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271644">ELTeC-por release 0.9.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4288235">ELTeC-por release 2.0.0</ref>
 </publicationStmt>
 <sourceDesc><bibl type="digitalSource">
 <title>Os Caramurús</title>
@@ -58,7 +61,7 @@
 
 </profileDesc>
 <revisionDesc>
-<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-03-08">Checked by checkup
+<change when="2021-04-09">Converted by checkUp script for new release</change><change when="2020-03-08">Checked by checkup
                 script</change>
 <change when="2020-01-12">Adicionado à coleção ELTeC</change>
 </revisionDesc>
@@ -2175,11 +2178,11 @@
 </body>
 <back>
 <div type="notes">
-<note xml:id="POR0072-nota-1"> <p> Os extraordinarios successos da vida do Caramurú, o fidalgo minhoto Diogo Alvares, que, junto á Bahia, naufragou em 1503, e ali se estabeleceu, são contados por Southey na sua Historia do Brasil. </p> </note> 
-<note xml:id="POR0072-nota-2"> <p> Southey -- Historia do Brazil, V. I.°, pag. 57. -- «Os chefes dos selvagens se reputavam felizes acceitando-lhes elle as filhas para mulheres. Fixou Diogo a sua residencia no logar onde depois se ergueu Villa Velha e bem depressa viu crescer em torno de si tão numerosa progenie como a d'um antigo patriarcha. As melhores familias da Bahia vão entroncar n'elle a sua origem.» </p> </note> 
-<note xml:id="POR0072-nota-3"> <p> Southey -- Historia do Brazil, V. I.º, pag. 31. </p> </note> 
-<note xml:id="POR0072-nota-4"> <p> Southey-- Historia do Brazil, vol. I, pag. 53. </p> </note> 
-<note xml:id="POR0072-nota-5"> <p> Toque que n'aqueile tempo convidava os habitantes a entrarem em suas casas, em razão da pousa segurança das ruas durante a noite. </p> </note> 
+<note xml:id="POR0072-nota-1"> <p> Os extraordinarios successos da vida do Caramurú, o fidalgo minhoto Diogo Alvares, que, junto á Bahia, naufragou em 1503, e ali se estabeleceu, são contados por Southey na sua Historia do Brasil. </p> </note>
+<note xml:id="POR0072-nota-2"> <p> Southey -- Historia do Brazil, V. I.°, pag. 57. -- «Os chefes dos selvagens se reputavam felizes acceitando-lhes elle as filhas para mulheres. Fixou Diogo a sua residencia no logar onde depois se ergueu Villa Velha e bem depressa viu crescer em torno de si tão numerosa progenie como a d'um antigo patriarcha. As melhores familias da Bahia vão entroncar n'elle a sua origem.» </p> </note>
+<note xml:id="POR0072-nota-3"> <p> Southey -- Historia do Brazil, V. I.º, pag. 31. </p> </note>
+<note xml:id="POR0072-nota-4"> <p> Southey-- Historia do Brazil, vol. I, pag. 53. </p> </note>
+<note xml:id="POR0072-nota-5"> <p> Toque que n'aqueile tempo convidava os habitantes a entrarem em suas casas, em razão da pousa segurança das ruas durante a noite. </p> </note>
 </div>
 </back>
 </text>

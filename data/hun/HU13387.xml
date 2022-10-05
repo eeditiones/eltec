@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU13387" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU13387" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,10 +24,15 @@
             <measure unit="pages">689</measure>
          </extent>
          <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271637">ELTeC-hun</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662499">ELTeC-hun release 2.0.0</ref>
+<!--Published as part of ELTeC--></publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>Egri csillagok: Bornemissza Gergely élete</title>
                <date>2014-10-17</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -43,13 +53,11 @@
                      <ref target="http://mek.oszk.hu/13300/13387/pdf/"/>
                   </bibl>
                
-            </bibl>
-            <bibl type="firstEdition">
+            </bibl><bibl type="firstEdition">
                <title>Egri csillagok</title>
                <author>Gárdonyi Géza</author>
                <date>1901</date>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
@@ -61,11 +69,12 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
          <change when="2019-04-23"/>
          <change when="2019-02-27"/>
          <change when="2018-10-03"/>
@@ -9332,7 +9341,7 @@
                   <p>Lóra ültek és lovon haladtak tovább.</p>
                   <p>Lenn a város csendes és néptelen volt. A házak közül kimagaslott a püspöki
                      templom, és a püspöki palota. A tulsó hegyoldalban napnyugot felé a Szent
-                     Miklós temploma, aggastyán (augusztinus) barátoké.<hi xml:id="_ftnref3">
+                     Miklós temploma, aggastyán (augusztinus) barátoké.<hi n="_ftnref3">
                      [3]</hi> A várost nyugatról vastag egyenletes hegy keríti, túl rajta a
                      Mátra ormai kéklenek.</p>
                   <p>A nyugati oldalon is két bástya, s középen egy kis erős kapu. A patakhoz éppen

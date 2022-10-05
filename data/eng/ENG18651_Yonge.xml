@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ENG18651">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ENG18651">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -16,19 +19,19 @@
    </extent>
    <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662490">ELTeC-eng release 1.0.1</ref>
 </publicationStmt>
    <sourceDesc><bibl type="digitalSource"><title>The Clever Woman of the Family, by Charlotte M.
      Yonge</title><ref target="http://www.gutenberg.org/files/3292/3292-h/3292-h.htm">Gutenberg</ref><respStmt>
       <resp>Data capture</resp>
       <name>Produced by Sandra Laythorpe, and David Widger</name>
      </respStmt>
-    </bibl><bibl type="printSource" n="B5540"><title>The Clever Woman of the Family</title><author>Yonge,
+    </bibl><bibl type="firstEdition" n="B5540"><title>The Clever Woman of the Family</title><author>Yonge,
       Charlotte Mary (1823-1901).</author><publisher>London: Macmillan</publisher><date>1865</date>
     </bibl></sourceDesc>
   </fileDesc>
@@ -47,6 +50,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
    <change when="2019-01-17">LB convert to ELTeC-1</change>
@@ -276,7 +280,7 @@
      that might be conducted without pain to her mother.</p>
     <p>Young children of her own class were not exactly what her dream of usefulness had devised;
      but she had already a decided theory of education, and began to read up with all her might,
-     whilst taking the lead in all the details of house taking, servant hiring, &amp;c., to which
+     whilst taking the lead in all the details of house taking, servant hiring, etc., to which
      her regular occupations of night school in the evening and reading to the lacemakers by day,
      became almost secondary. In due time the arrival of the ship was telegraphed, a hurried and
      affectionate note followed, and, on a bright east-windy afternoon, Rachel Curtis set forth to
@@ -2006,7 +2010,7 @@
      the place, observing, “It is so natural to see you there! One only wants poor Captain Dent at
      the other end. Do you know whether he has his leave?”</p>
     <p>Wherewith commenced a discussion of military friends—who had been heard of from Australia,
-     who had been met in England, who was promoted, who married, who retired, &amp;c., and all the
+     who had been met in England, who was promoted, who married, who retired, etc., and all the
      quarters of the-th since its return from India two years ago; Fanny eagerly asking questions
      and making remarks, quite at home and all animation, absolutely a different being from the
      subdued, meek little creature that Rachel had hitherto seen. Attempts were made to include Miss
@@ -4794,7 +4798,7 @@
      <l> Let the great meaning ennoble it ever, </l>
      <l> Droop not o’er efforts expended in vain, </l>
      <l>Work, as believing, that labour is gain.” </l>
-     <p>Queen Isabel, &amp;c. by S. M.</p></quote>
+     <p>Queen Isabel, etc. by S. M.</p></quote>
     <p>The sturdy recusant against Myrtlewood croquet continued to be Rachel Curtis, and yet it was
      not a testimony against the game so much as real want of time for it. She was always full of
      occupation, even while her active mind craved for more definite and extended labour; and when
@@ -9637,9 +9641,9 @@
      from the window, began to fear that the mother would be walked to death.</p>
     <p>But then she had that supporting arm, and the moral support, that was infinitely more! That
      daughter, the spoilt pet of her husband, the subject of her pride, even when an enigma and an
-     anxiety, whom she had lately been forced to think of as <quote>
+     anxiety, whom she had lately been forced to think of as </p><quote>
       <l> “A maid whom there were few to praise </l>
-      <l> And very few to love,” </l></quote>she now found loved by one at least, and praised in
+      <l> And very few to love,” </l></quote><p>she now found loved by one at least, and praised in
      terms that thrilled through and through the mother’s heart in their truth and simplicity, for
      that sincerity, generosity, and unselfishness. It was her own daughter, her real Rachel, no
      illusion, that she heard described in those grave earnest words, only while the whole world saw

@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0056">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">100694</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Meir Ezofowicz</title>
 <ref>http://wolnelektury.pl/katalog/lektura/meir-ezofowicz</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Meir Ezofowicz</title>
 <author>Orzeszkowa, Eliza</author>
 <publisher>Warszawa: Lewental</publisher>
 <date>1878</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,17 +59,14 @@
 </div>
 </front>
 <body>
-<div>
-<p>Tom pierwszy</p>
+<div type="group"><head>Tom pierwszy</head>
 <quote>
 <p>Wszystkim ziomkom moim z dobrą wiarą i wolą pragnącym światła i pokoju, bez względu na to, gdzie i jak oddają oni cześć Bogu — powieść tę poświęcam.</p>
 </quote>
 <quote>
 <p>AUTORKA</p>
 </quote>
-</div>
-<div>
-<p>Wstęp</p>
+<div type="liminal"><head>Wstęp</head>
 <p>U szczytów cywilizacji zbiegają się i zgodnie łączą się ze sobą
 różnorodne gałęzie wielkiego drzewa ludzkości. Oświata najlepszym jest apostołem powszechnego braterstwa. Wygładza ona chropowatości zewnętrzne i ścina wewnętrzne wybujałości, dozwala przyrodzonym cechom plemion różnych rozwijać się obok siebie we wzajemnym poszanowaniu, same nawet religijne wierzenia oczyszcza z narośli wytworzonych przez zmienne czasy, a sprowadzając je do najprostszego ich wyrazu, sprawia, iż spotykają się one ze sobą bez wstrętów i szkód.</p>
 <p>Inaczej dzieje się w głębokościach, w społecznych dolinach, nad
@@ -295,7 +297,6 @@ wszystkie złoto, perły i diamenty…</p>
 <p>Sądy kryminalne krajowe rekrutowały spośród niej ogromny corocznie procent winowajców: fałszerzy, kontrabandzistów, podpalaczy, oszustów…</p>
 <p>Nad całą tą głęboką, zapadłą doliną społeczną zawisła chmura złożona z najciemniejszych żywiołów, jakie istnieją w ludzkości, a jakimi są: cześć dla litery, z której duch umknął, kazuistyka sroga, gruba niewiedza, podejrzliwe i nienawistne obwarowanie się przeciw wszystkiemu, co płynęło z szerokich, słonecznych, lecz „cudzych” światów.</p>
 </div>
-<div>
 <div type="chapter"><head>I</head>
 <p>Było to przed trzema laty.</p>
 <p>Wilgotne mgły podnosiły się z błotnistych ulic miasteczka i ciemnym czyniły przezroczysty gdzie indziej zmierzch gwiaździstego wieczora. Marcowe powiewy wraz z wonią świeżo zoranych gruntów leciały nad niskimi dachami, lecz nie mogły rozegnać mętnych i dusznych par kłębiących się u drzwi i okien domostw.</p>
@@ -385,8 +386,7 @@ kawałki. Chóralny krzyk tryumfu rozległ się daleko po polu z jednej strony, 
 <p>Stojący u okna młody człowiek nie wzywał już więcej po imieniu piewcy modlącego się za lud swój. Odszedł on, z ostrożnym uszanowaniem tłumiąc odgłos swych kroków, a idąc pustym, ciemnym placem ku znajdującemu się nie opodal wielkiemu, rzęsiście oświetlonemu domowi, spoglądał na kilka gwiazd blado zza wilgotnej, dusznej mgły nad placem świecących i z cicha, w głębokiej jakby zadumie nucił:</p>
 <p>— Pośpiesz! ach, pośpiesz z ratunkiem ludu Twego, Jedyny! Niepojęty! Boże ojców naszych!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Wielki, rzęsiście oświetlony dom stojący naprzeciw brunatnej świątyni i całą szerokością placu z nią rozdzielony był tym samym, który zbudował był Hersz Ezofowicz i w którym żył on z piękną żoną swą, Frejdą. Stuletnie ściany jego, od dawna już poczerniałe od słót i kurzawy, stały jednak prosto i wysokością swą górowały nad wszystkimi innymi w całym miasteczku.</p>
 <p>Od godziny już we wnętrzu domu tego, w izbie dużej i ostawionej staroświeckimi, niezmiernie prostymi ławami i stołami, rozpoczął się już był obchód spotykania świętego dnia sabatu.</p>
@@ -658,8 +658,7 @@ robił?</p>
 <p>Po chwilowym milczeniu odpowiedziano w ciemnościach:</p>
 <p>— Ród Ezofowiczów!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Parę miesięcy minęło. Ciepły dzień majowy kończył się wieczorem wonnym i pogodnym.</p>
 <p>Niewiele przed zachodem słońca brzegiem wąskiej uliczki, najuboższymi spomiędzy wszystkich domostwami ostawionej, postępowały z wolna dwie istoty. Jedną z nich była koza biała jak śnieg, drugą — dziewczyna wysmukła i chuda. Koza szła naprzód, podskakiwała co chwila, aby uczepić się gałęzi drzew rosnących tu i ówdzie. Wydawała się zwinną, swawolną i szczęśliwą. Idąca za nią dziewczyna poważaną była i zamyśloną. Wiek jej trudno by było określić. Mogła mieć lat trzynaście albo siedemnaście. Jakkolwiek bowiem wysoką była, kształty ciała jej, drobne, suche, z powstrzymanym może rozrostem, wydawały się dziecinnymi. Ale chód jej i wyraz twarzy posiadały powagę i smutek wczesnej dojrzałości. Na pierwszy rzut oka wydawała się brzydką. Nie przyozdabiał ją wcale, wdzięków jej, jeżeli miała jakie, nie uwydatniał strój ubogi, złożony ze spłowiałej perkalikowej sukni, spod której wąskich fałd ukazywały się stopy na wpół tylko okryte obuwiem grubym i płytkim, a której stanik luźny i obwisły krył się u szyi pod kilku sznurami drobnych, w różne kształty połamanych korali. Od czerwoności jedynej tej zbytkownej ozdoby jej stroju żywo odbijała głęboka śniadość okrywająca chude i zapadłe nieco jej policzki; pod gęstymi brwiami wielkie, głęboko osadzone oczy patrzały czarną jak aksamit źrenicą, a nad wąskim, ciemnym czołem wiły się splątanymi kędziory włosy hebanowej czarności.</p>
@@ -832,8 +831,7 @@ zechcesz; ja będę przy tobie stał… i już ty niczego się nie bój!</p>
 <p>Kiedy człowiek ten, nie patrząc na Meira, mijał go o kilka kroków, młodzieniec machinalnie pochylił głowę nisko w znak pokory i czci. Wnet przecież podniósł ją. Twarz jego była bladą, brwi ściągnęły się z tłumioną boleścią. Posępnym wzrokiem powiódł za przygarbioną postacią cicho mknącą przez łąkę — i zza zaciśniętych od gniewu czy bólu zębów wymówił:</p>
 <p>— Rabbi Izaak Todros!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Rabbi Izaak Todros nosił na powierzchowności swej, a może i w duchowym swym ustroju, wybitne ślady kilkowiekowego przebywania przodków jego w palącym klimacie Hiszpanii.</p>
 <p>Tułaczy lud, zdumiewająco wytrwały w zachowywaniu cech wyróżniających go spośród plemion innych, siłą niezwalczonych wpływów przyrody zaczerpnął tu i ówdzie coś z widnokręgów różnych, po których rozsiewała go dola wygnańcza.</p>
@@ -963,8 +961,7 @@ tobie powiedzieć, abyś ty nogę swoją na plecach jego postawił i pychę jego
 <p>A w bawialnej izbie Ezofowiczów stary Saul siedział z twarzą ukrytą w dłoniach, gdy w drzwiach przeciwległych stanęła stara Frejda. Promienie słoneczne wpadające przez okno rozpaliły tęczowe blaski w złocie i brylantach, którymi była okrytą, a ona tocząc dokoła izby przymrużoną swą złotawą źrenicą wymówiła zwykłym swym szeptem głosu pozbawionym:</p>
 <p>— <emph>Wo ist Meir</emph>?</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Meir nieobecnym był w domu w czasie odwiedzin rabina. Wcześnie bardzo dom opuściwszy, skierował się on ku najbardziej oddalonym od środkowego placu uliczkom miasteczka. Tu znalazł się śród domostw malutkich, nadzwyczaj ubogich, z których żadne nie miało więcej jak po dwa drobne okienka, przed których progami stały szerokie, cuchnące kałuże, które owiewało dokoła duszące, ciężkie powietrze. Z czarnych kominów domków tych wydobywały się cienkie bardzo nici dymu, zdradzające szczupłością swą szczupłość gotowanej tam strawy; przegniłe i upadające płoty otaczały malutkie podwórka zasypane śmieciem; tu i ówdzie widniały zza nich wąskie zagonki ziemi, porosłe z rzadka mizernym warzywem. Przed niskimi drzwiami kobiety chude, z ciemnymi, zbolałymi twarzami, w szafirowych kaftanach i zrudziałych perukach, prały w baliach szarą, grubą bieliznę; zgarbione i zgrzybiałe niewiasty, siedząc na wąskich ławkach, robiły pończochy z błękitnej lub czarnej wełny; dziewczęta młode, ale opalone, w brudnej odzieży i z roztarganymi włosami, doiły chude kozy.</p>
 <p>Była to dzielnica miasteczka zamieszkiwana przez najniższą warstwę ludności szybowskiej, przybytek ubóstwa, nędzy nawet, brudu i chorób.</p>
@@ -1209,8 +1206,7 @@ Synaj”.</p>
 <p>— Pokój tobie! — odpowiedziała cicho i głową z wolna ku niemu skinęła.</p>
 <p>Wyszedł z chaty, a po chwili dziewczyna powstała ze stołka, zdmuchnęła żółty płomyk dogorywającej świecy i, owinąwszy się szarą jakąś płachtą, u nóg uśpionego na słomie starca spoczęła. Spoczęła, lecz długo jeszcze patrzała szeroko roztwartymi oczami na gwiazdy, które migotały za oknem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Eli Witebski posiadał w umyśle swym i charakterze niepospolite dyplomatyczne zdolności. Nie urodził się on i nie wzrósł w Szybowie jak wszyscy bez wyjątku mieszkańcy miejsca tego, ale od trzech lat zaledwie sprowadziły go tu interesy i różne rodzinne okoliczności.</p>
 <p>Był więc wśród miejscowej ludności znającej się wzajem od dziadów, pradziadów cudzoziemcem nieledwie, a w dodatku życie całe spędziwszy w dużym gubernialnym mieście, przywiózł ze sobą wiele nowości, które zadziwiać i razić mogły ultrakonserwatywnych mieszkańców zapadłego kąta. Nowościami tymi były: strój odmienny znacznie co do kroju i długości, noszenie pierścienia z brylantem na palcu, nienoszenie jarmułki na głowie, krótkie przystrzyganie złotawej bródki, zupełny brak w mieszkaniu ksiąg talmudycznych i kabalistycznych, przede wszystkim zaś posiadanie żony takiej, jaką była pani Hana, córki uczącej się gdzieś na pensji i oprócz tej ostatniej dwojga <emph>tylko</emph> dzieci. Nowości te, ważne niezmiernie, niewidziane, niesłychane, powinny były ściągnąć na eleganckiego kupca ogólną niechęć publiczności szybowskiej. Nie ściągnęły jednak. Zrazu wprawdzie ci i owi poszeptywali pomiędzy sobą, że jest on <emph>misnagdimem</emph>, postępowcem, i w rzeczach wiary indyferentem. Podejrzenia te jednak rozproszyły się szybko, a siłą, która je zażegnała, była nadzwyczajna łagodność, uprzejmość i giętkość Elego. Grzeczny zawsze, uśmiechniony, pogodny, nie sprzeczał się nigdy z nikim, ustępował każdemu, potwierdzał wszystko, spierających się ludzi unikał, aby nie być zmuszonym do wzięcia strony jednego z nich, a obrażenia na siebie drugiego, jeżeli zaś w żaden sposób uniknąć nie mógł, to tak ładnie, płynnie, słodko i przekonywająco przemawiać umiał, iż zwaśnione strony elokwencją jego zachwycone miękły, godziły się, a dla niego wdzięczność i uwielbienie w sercach unosiły, mówiąc z zachwytem: „<emph>A kługer mensz</emph>!” Co do właściwych obrządków i religijnych przepisów, Witebski okazywał się ortodoksem doskonałym. Święcił sabaty i zachowywał koszery z punktualnością najdrobiazgowszą; wielkiemu rabinowi, ilekroć go spotkał, kłaniał się bardzo nisko i umiał nawet to, czego nikt w gminie całej nigdy nie potrafił — rozchmurzać posępne czoło i rozjaśniać zadumane oczy mędrca wesołymi przypowieściami jakimiś, branymi nie wiedzieć skąd, ale układanymi zawsze w ten sposób, iż posiadały coś z mistycznego lub patriotycznego zapachu i trafiały tym do smaku najsurowszym nawet słuchaczom. Niewiele czasu spędzał on w domu, jeżdżąc wciąż po świecie za interesami, którymi zajmował się gorliwie, ale ilekroć znajdował się w Szybowie, widywano go nieodmiennie w bet-ha-midraszu słuchającego ze czcią przynależną mądrych nauczeń rabina Todrosa i uśmiechającego się z lubością, gdy kilkunastu lub kilkudziesięciu starych i młodych mędrców gminy zawzięcie toczyło ze sobą pilpul, czyli rozprawy i spory nad różnymi komentarzami i komentarzami komentarzów, których pełnymi są dwa tysiące pięćset drukowanych arkuszy <emph>Halachy</emph>, <emph>Hagady</emph> i <emph>Gemary</emph>. W domie modlitwy bywał też zawsze, ilekroć bywali tam wszyscy, a jeżeli nie mógł zaliczyć się do rzędu najgoręcej modlących się, więc najgłośniej krzyczących i najgwałtowniej kołyszących się nabożnych, to jednak postawa jego i wyraz twarzy bywały nieodmiennie i doskonale przystojne.</p>
@@ -1529,11 +1525,8 @@ ukarzę!</p>
 <p>Westchnął ciężko i powtórzył:</p>
 <p>— Ja jemu każę przez cały tydzień w bet-ha-midrasz siedzieć i <emph>Talmud</emph> czytać! On przez cały tydzień nie będzie jadł ani spał pod dachem moim, a szames (posłaniec synagogi) karę i wstyd jego po całym mieście ogłosi!…</p>
 </div>
-<div>
-<p>Tom drugi</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom drugi</head>
 <div type="chapter"><head>I</head>
 <p>Bet-ha-midrasz był to budynek obszerny, widny i dość okazały, stojący przy synagogalnym dziedzińcu, tuż obok domu modlitwy. Przeznaczenie miał on różne. Tu zgromadzano się na mniej uroczyste modły, toczono długie i zapalczywe rozprawy nad przeróżnymi punktami i wyjaśnieniami <emph>Talmudu</emph>; tu mieściły się księgozbiory bractw, czyli stowarzyszeń mających różne cele, a których każda izraelska gmina posiada w łonie swym znaczną ilość; tu także, w wypadkach wyjątkowych wprawdzie i wyjątkowej surowości wymagających, młodzi ludzie wykraczający przeciw religii lub obyczajom  przesiadywali krótszy lub dłuższy czas pokuty, więcej zawstydzającej niż ciężkiej.</p>
 <p>Naprzeciw ha-midraszu wznosiła się budowa inna, mniejsza nieco, lecz z tąż samą starannością wzniesiona i utrzymywana. Był to bet-ha-kahoł, czyli izba kahalna, miejsce posiedzeń i obrad czysto administracyjnych władz miejscowych. Dalej jeszcze, w skromniejszym już nieco budynku, zawierał się hek-desz, przytułek dla ubogich, do którego wszyscy głodni, zmęczeni, schronienia i spoczynku potrzebujący kołatać posiadali prawo. Naprzeciw domu modlitwy, w ciasnym, niskim domku mieścił się cheder, czyli szkoła, w której nauczał uczony i czczony reb Mosze.</p>
@@ -1771,8 +1764,7 @@ podniesioną ku niebu, bladą twarzą wymówił:</p>
 <p>— Jak Ruth powiedziała świekrze swojej, Noemi, tak niech ja powiem tobie, światłości duszy mojej: „Bóg twój jest Bogiem moim, lud twój jest moim ludem, a smutek mój ja dam za towarzysza twemu smutkowi i duszę moją rozwiodę z ciałem razem z duszą twoją!”…</p>
 <p>W ten sposób dzieci te, przejęte na wskroś tchnieniem starych dziejów i podań Izraela, które im całą mądrość świata zastępować musiały, z nich czerpały dla siebie naukę, pociechy, męstwo i łzy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Na świecie dniało zaledwie, ale w domostwie Jankla Kamionkera, oprócz dzieci najmniejszych, nikt już nie spał. Wschodzący dzień ważnym miał być dla właściciela zajezdnego domu, był to albowiem jeden z głównych w roku dni targowych, sprowadzających do miasteczka tłumy okolicznej ludności wszech stanów i stopni społecznych. Toteż dwie córki Jankla, dorosłe, silne, brzydkie i rozczochrane dziewczyny, z pomocą czternastoletniego brata, Mendela, gapiowata i złośliwa twarz którego nosiła na sobie ślady długoletnich już studiów w chederze reb Mosza odbywanych, uprzątały z lekka dwa paradne pokoje, przeznaczone dla najdostojniejszych gości, przybrane w żółte, odwieczne, kulawe sprzęty, popielate od brudu firanki i w gliniane wazony, z których wyrastały ciemne jakieś karykatury roślin.</p>
 <p>Obok paradnych apartamentów tych znajdowała się ogromna izba szynkowna, w której zazwyczaj w dnie podobnych zjazdów zgromadzały się, piły i tańczyły tłumy wieśniaków. W izbie tej dziewka służąca próbowała czyścić nigdy niewyczyszczające się długie, wąskie stoły ustawione dokoła ław otaczających ściany i rozniecała skąpy ogień w głębokim i czarnym jak otchłań piecowisku, ranek bowiem chłodny był, a wielką, niską szynkownię napełniało powietrze stęchłe i wilgotne.</p>
@@ -2470,8 +2462,7 @@ Kamioński:</p>
 <p>— Morejne! A jak ja bez pieniędzy tych dłużej żyć będę?</p>
 <p>Dobre pół godziny upłynęło, zanim Meir opuścił izbę, w której coraz ciszej już obwiniał się, wyrzekał i rozpaczał Szmul. Wnikający z ulicy szeroki pas jaskrawego światła oświetlał w pełni jeden z kątów ciasnej sionki. W kącie tym pod czarną, chylącą się ścianą bielały dwie kozy, z których jedna stała, a druga leżała. Pomiędzy kozami, na więzi zmiętej słomy, z rękami wsuniętymi w podarte rękawy szarej surduciny, z głową ozłoconą światłem pożaru a wspartą o deskę wystającą ostro spośród ściany, spał Lejbele. Ani krzyk i wrzawa, ani rażące światłości niebios, ani jęki i wyrzekania ojca nie przerwały snu niewinności, którym wśród dwóch kóz, przyjaciółek swych, usypiało dziecię to nędzy, ciemnoty i występku…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Nazajutrz w miasteczku całym panował ruch niezwykły. O niczym więcej nie mówiono tam, jak o pożarze, który do szczętu prawie zniszczył dwór kamioński, o chorobie starej pani, którą przewieziono naprędce do dworu sąsiadów jakichś czy krewnych, i o ogromnych stratach Kamiońskiego pana, któremu oprócz zabudowań dworskich spłonęła stodoła napełniona zdjętym z pól zbożem.</p>
 <p>Ażeby rozmawiać o wypadku tym, ludzie schodzili się w gromadki na placu, pośród uliczek, u progów domostw, a gdyby kto podsłuchiwał rozmowy ciche, choć żwawe, toczące się pośród gromadek owych, dosłyszałby tu i ówdzie formułowane pytanie:</p>
@@ -2933,8 +2924,7 @@ silnych skarb mój zasłoniłem — odpowiedział Meir.</p>
 <p>Księżyc oświecał obie twarze ludzi tych, z których jeden patrzał w niebo, a drugi w oblicze mistrza swego. Mistrz gorejącym wzrokiem szukał po niebie smug świetlistych, które oznaczają drogi aniołów wiodących gwiazdy w wiecznej ich po przestrzeniach podróży, uczeń odbicia nadprzyrodzonych świateł tych szukał w źrenicach mistrza.</p>
 <p>W obu głowach ich szumiało imię anioła śmierci, którego na pomoc sobie wzywali, a piersi obu pełnymi były jednak miłości i uwielbienia bez granic.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Wzruszenie nadzwyczajne panowało wśród ludności miasteczka. Ze wszystkich stron gromadami lub sznurem ciągnęli ludzie ku wielkiej, brunatnej świątyni, pod trzypiętrowym, omszonym dachem której w oknach, podobnych do starożytnych strzelnic, błyskać poczynały długie i wąskie smugi światła. Na niebo występowały też gwiazdy, ale bladły przed świetnym blaskiem wschodzącego w pełni księżyca.</p>
 <p>Wnętrze świątyni było salą ogromną, pomieścić w sobie mogącą kilkutysięczną ludność, a wysokością swą dorównywającą budowie o dwóch wielkich piętrach. Ściany jej, zakreślające prawidłowy czworogran, gładkie zupełnie i białe jak śnieg, przerzynała tylko u góry ciężka galeria, o głębokich, sklepionych niszach, tworzących rodzaj lóż, osłonionych przeźroczystą, lecz wysoką barierą. W dole ławy drewniane stały gęsto jedna za drugą, od drzwi wchodowych aż ku miejscu wyniesionemu nad poziom o kilka stopni i otoczonemu też drewnianą, ozdobną barierą. Na wyniesieniu tym był stół przeznaczony do rozwijania olbrzymiego arkusza <emph>Tory</emph> (<emph>Pięcioksięgu</emph>) w dniach, w których ustępy z niej obrządek nakazywał czytać ludowi; ono służyło za kazalnicę, z której w dnie uroczyste rozlegały się religijne mowy i nauki; na nim stawały też chóry złożone z dorastających dzieci i dorosłych młodzieńców, a łączące głosy swe z głosem kantora intonującego modlitwy. Wyniesienie to kilkunastu krokami tylko rozdzielonym było z głównym punktem świątyni, z punktem, który uderzał powagą kształtów i świetnością barw, a był ołtarzem — jeżeli nazwę tę użyć można dla miejsca wszelkiego, w którym przechowują się świętości nad świętościami i które ściąga ku sobie najnabożniejsze spojrzenia i westchnienia wiernych. Szczyt ołtarza tego sięgał sufitu, a złożony był z dwu ogromnych tablic, których tło z najczystszego lazuru zakreślonym było zgłoskami białymi, krętymi, podobnymi z dala do sznurów arabesek wschodnich o bogatym i fantastycznym rysunku, a w których oko umiejętne wyczytywało dziesięć przykazań synajskich. Lazurowe tablice, okryte białym, krętym pismem, dźwigane były przez dwa lwy z pozłacanego brązu, które w ogromnych rozmiarach i wspaniałych postawach siedziały na dwu grubych, ciężkich słupach jaśniejących najjaskrawszym szafirem, owiniętych śnieżnymi i misternie rzeźbionymi wieńcami z liści i gron winnych, a wspierających się mocno o kamienną podstawę, której szeroka powierzchnia zakreśloną była aż do samej już ziemi mnogimi ustępami Pisma. Słupy owe na kształt potężnych i silnych strażników stały z dwu stron głębokiej niszy osłoniętej od góry do dołu oponą ze szkarłatnego jedwabiu, ozdobionego złotymi haftowaniami z bogactwem olśniewającym oko. Za oponą tą, spuszczoną zazwyczaj, a podnoszącą się w odpowiednich tylko okolicznościach, chroniła się świętość nad świętościami, <emph>Tora</emph> — olbrzymi zwój pergaminu owinięty cenną materią, a związany wstęgą, ciężką i sztywną od haftów srebrnych i złotych.</p>

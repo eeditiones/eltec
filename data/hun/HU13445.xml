@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU13445" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU13445" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,10 +24,15 @@
             <measure unit="vols">1</measure>
          </extent>
          <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271637">ELTeC-hun</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662499">ELTeC-hun release 2.0.0</ref>
+<!--Published as part of ELTeC--></publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>Két leány és egy legény : Regény</title>
                <date>2014-11-04</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -50,13 +60,11 @@
                      <date>1905</date>
                   </bibl>
                
-            </bibl>
-            <bibl type="firstEdition">
+            </bibl><bibl type="firstEdition">
                <title>Két leány és egy legény : Regény</title>
                <author>Beöthy László</author>
                <date>1895</date>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
@@ -68,11 +76,12 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
          <change when="2020-07-28"/>
       </revisionDesc>
    </teiHeader>

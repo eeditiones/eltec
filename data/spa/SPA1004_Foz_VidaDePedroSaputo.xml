@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1004" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1004" xml:lang="es">
  <teiHeader>
  	<fileDesc>
  		<titleStmt>
@@ -17,10 +20,10 @@
 		</extent>
 		<publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -48,7 +51,8 @@
     </encodingDesc>
     <profileDesc>
     	<langUsage>
-    		<language ident="spa">Español</language>
+        <language ident="SPA">Español</language>
+        <language ident="LAT">Latín</language>
     	</langUsage>
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
@@ -58,6 +62,7 @@
         </textDesc>
     </profileDesc>
     <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
     	<change when="2020-04-14">Anotación ELTeC : Borja Navarro Colorado</change>
     </revisionDesc>
@@ -3326,7 +3331,7 @@ sentado y recostado contra un terreno se quedó dormido.
       No hacía aún una hora que dormía,
 cuando acertaron a pasar por allí cerca unos estudiantes que iban 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        de motus
       </foreign>
       , que como jóvenes y de pies
@@ -3342,7 +3347,7 @@ hemos de despertar y llevar con nosotros. Habló el cuarto (pues no
 eran más) y dijo lo mismo, y pareciendo bien a los dos primeros le
 despertaron gritando uno de ellos: 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        expergiscere, frater, et surge.
       </foreign>
       (Que
@@ -3353,12 +3358,12 @@ cuatro licenciados, pensó de pronto si serían alguaciles; pero
 violes algunos instrumentos músicos y reparando en el traje adivinó
 lo que eran. -
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        Noli turbari
       </foreign>
       , dijo el mismo, 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        escolastici enim sumus, et te miramur et amore
 prosequimur.
       </foreign>
@@ -3367,13 +3372,13 @@ estudiantes y te contemplamos admirados y te queremos.) -Señores,
 dijo él ya levantado: si vuesas mercedes no me hablan en mi lengua,
 no entenderé lo que me dice. -
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        Non licet nobis
       </foreign>
       , dijo siempre el
 mismo,
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        alio sermone uti quam latino.
       </foreign>
       (No nos
@@ -3740,7 +3745,7 @@ presentó al tuno un libro en latín si le quería comprar. Tomó el
 libro y le miró y vio que era de medicina, y dijo: ¿libros creíste
 que compraríamos?, 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        errasti
       </foreign>
       , hijo de tu madre. Mira, los
@@ -5520,7 +5525,7 @@ ordenarse y ejercer el oficio una temporada; porque el sacerdocio
 es un lazo más fuerte aún que el del matrimonio, y el que una vez
 se llega a ordenar, ordenado se queda para 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        in eternum
       </foreign>
       . Fraile, ya podía decir que
@@ -5591,7 +5596,7 @@ que un hombre tan consumado venía a ser discípulo, y se creyó el
 mismo Esculapio con bastón y gorra a la moderna. Al fin, sin perder
 la gravedad le dijo: 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        recte, fili; in discipulum te coopto; et spero
 fore ut intra paucos menses par sis magistro, et mihi in schola
 succedere possis.
@@ -5614,7 +5619,7 @@ también alguna bendición y favor y sobre todo es muy socorrida. Por
 lo demás ya sabrás los secretos del arte. Pero no te arredres. Ya
 sabes que al hombre se le dijo: 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        in sudore vultus tui
       </foreign>
       (en el sudor de tu
@@ -5655,7 +5660,7 @@ enemigo del hombre; después entra el amor. Por eso en esa villa hay
 lo que hay, como llevo dicho. Y buenos que los tengas, y a los que
 te consulten, dieta y
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        separatio tori
       </foreign>
       absoluta desde san
@@ -5664,24 +5669,24 @@ harán, se extenuarán, caerán, morirán; pero el médico ya se salió
 por su puerta. Muérase en hora buena el que morirse quiera. ¿Pagó
 las visitas?, pues 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        requiescat in pace
       </foreign>
       . Dirán, hablarán: 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        requiescat in pace
       </foreign>
       . El médico lo ha
 muerto; 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        requiescat in pace
       </foreign>
       . Fuera de que, hijo
 mío, todos según el poeta, 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        sedem properamus ad unam
       </foreign>
       (caminamos al
@@ -5690,7 +5695,7 @@ muera del mal o de la medicina, el tímpano de los coribantes (que
 es tocar la zambomba y hacer ruido). Si se te ofrece algún caso
 fuerte, 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        audaces fortuna juvat
       </foreign>
       (a los osados
@@ -5698,7 +5703,7 @@ ayuda la fortuna): sangre y más sangre, que, como dije, es nuestro
 mayor enemigo; y después, suceda lo que suceda, el tímpano
 susodicho, y si el enfermo muere, 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        requiescat in pace
       </foreign>
       .
@@ -5817,7 +5822,7 @@ mismo, y pidiendo la venia al concejo fue a verse con su maestro.
 Contóle el caso, y le respondió: no desapruebo lo hecho, pero otra
 vez, y perdona eximio Juan de Jaca, 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        esperimentum fac in anima vili
       </foreign>
       (Haz la
@@ -8052,14 +8057,14 @@ causas, pleitos y querellas de la tierra y los planetas de cielo;
 en la instancia que se sigue por el consejo y villa de Almudévar
 contra el procurador Benito Gómez 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        nomine
       </foreign>
       y de parte del sol de España;
 atento a lo que por ambas partes se ha alegado, y remitiéndome al
 proceso en todo caso 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        tam in preses cuam in futurum
       </foreign>
       , declaro
@@ -9460,7 +9465,7 @@ siempre los tuvimos que llevar a cuestas mientras vivió nuestra
 hija, y después de todo se nos fue acabando y dio fin de día en
 día, y nos quedamos 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        per istam
       </foreign>
       ; y agora los pasamos no de
@@ -10529,7 +10534,7 @@ mahometanos, que si agora vinieran a España nos ponían a freír el
 alma. De modo, amigo mío, que si vos sois noble, mi hija ya lo
 veis; y podemos decir que 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        pari dignamur stemmate
       </foreign>
       . ¿Entendéis el
@@ -10537,7 +10542,7 @@ latín? -Sí, señor. -Es que si no, os diría que eso quiere decir que
 en linaje somos iguales. Vamos al negocio. Pepita, el señor, como
 acabas de oír es celebérrimo y nunca bien ponderado
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        sapientissimus sapientum
       </foreign>
       Pedro Saputo,
@@ -11567,7 +11572,7 @@ especial contra las náuseas y la flojedad del vientre.
       -Entre las sentencias de los antiguos
 la que más le gustaba era aquella de Virgilio, 
 
-      <foreign xml:lang="lat">
+      <foreign xml:lang="LAT">
        Felix qui potuit rerum cognoscere
 causas
       </foreign>

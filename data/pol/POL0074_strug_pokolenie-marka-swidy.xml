@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0074">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">89503</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Pokolenie Marka Świdy</title>
 <ref>https://polona.pl/item/pokolenie-marka-swidy-powiesc,OTgwODczOTk/4/#info:metadata</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Pokolenie Marka Świdy</title>
 <author>Strug, Andrzej</author>
 <publisher>Warszawa: Czarski</publisher>
 <date>1925</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>

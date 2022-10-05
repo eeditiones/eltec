@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="SPA2005" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="SPA2005" xml:lang="es">
     <teiHeader>
       <fileDesc>
         <titleStmt>
           <title ref="viaf:174986886">El sombrero de tres picos :  edición ELTeC</title>
-          <author ref="viaf:44294383">Alarcón, Pedro Antonio de  (1833-1891) </author>
+          <author ref="viaf:44294383">Alarcón, Pedro Antonio de  (1833-1891)</author>
           <respStmt>
       	    <resp>Edición ELTeC</resp>
 	          <name>Borja Navarro Colorado</name>
@@ -16,10 +19,10 @@
         </extent>
         <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -50,8 +53,8 @@
       </encodingDesc>
       <profileDesc>
         <langUsage>
-          <language ident="spa" usage="99">Español</language>
-          <language ident="lat" usage="01">Latín</language>
+          <language ident="SPA">Español</language>
+          <language ident="LAT">Latín</language>
         </langUsage>
         <textDesc>
           <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
@@ -61,6 +64,7 @@
         </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
         <change when="2019-08-20">Anotación formato ELTeC y revisión del texto : Borja Navarro Colorado</change> 
       </revisionDesc>
@@ -198,7 +202,7 @@ picos</title>.</p>
 
 <div type="chapter" n="SPA2005003">
 <head>-III-</head>
-<head><foreign xml:lang="la">Do ut des</foreign></head>
+<head><foreign xml:lang="LAT">Do ut des</foreign></head>
 
 <p>En aquel tiempo, pues, había cerca de
 la ciudad de *** un famoso molino harinero (que ya no existe),
@@ -633,7 +637,7 @@ en que era cargado de espaldas..., todavía más
 cargado de espaldas que el tío Lucas..., casi jorobado,
 por decirlo de una vez; de estatura menos que mediana; endeblillo;
 de mala salud; con las piernas arqueadas y una manera de
-andar <foreign xml:lang="la">sui generis</foreign> (balanceándose de un lado a otro
+andar <foreign xml:lang="LAT">sui generis</foreign> (balanceándose de un lado a otro
 y de atrás hacia adelante), que sólo se puede
 describir con la absurda fórmula de que parecía
 cojo de los dos pies. En cambio (añade la tradición),
@@ -1285,10 +1289,10 @@ casualmente tan adecuadas a lo que acababa de suceder allí,
 que don Eugenio de Zúñiga se puso lívido
 de cólera, y dijo, besando el anillo del prelado:</p>
  <p>-¡Eso es llamarme zorro, Señor Ilustrísimo!</p>
- <p>-<foreign xml:lang="la">Tu dixisti!</foreign> -replicó éste con la afable severidad
-de un santo, como diz que lo era en efecto-. <foreign xml:lang="la">Excusatio non
+ <p>-<foreign xml:lang="LAT">Tu dixisti!</foreign> -replicó éste con la afable severidad
+de un santo, como diz que lo era en efecto-. <foreign xml:lang="LAT">Excusatio non
 petita, accusatio manifesta. Qualis vir, talis oratio</foreign>. Pero
-<foreign xml:lang="la">satis jam dictum, nullus ultra sit sermo</foreign>. O, lo que es lo
+<foreign xml:lang="LAT">satis jam dictum, nullus ultra sit sermo</foreign>. O, lo que es lo
 mismo, dejémonos de latines, y veamos estas famosas
 uvas.</p>
 
@@ -2112,7 +2116,7 @@ si Dios quiere -agregó el sacristán, después
 de escurrir todos los vasos.</p>
 
 <p>Y se marchó, tambaleándose
-y cantando alegremente el <foreign xml:lang="la">De profundis</foreign>.</p>
+y cantando alegremente el <title>De profundis</title>.</p>
 
 <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
  <p>-Pues, señor -díjole el alcalde al secretario
@@ -3445,7 +3449,7 @@ a otra! ¡Ah! ¡Nuestra desventura no tiene ya remedio! </p>
 
 <div type="chapter" n="SPA2005029">
 <head>- XXIX -</head>
-<head><foreign xml:lang="la">Post nubila... Diana</foreign></head>
+<head><foreign xml:lang="LAT">Post nubila... Diana</foreign></head>
 
 <p>-¿Qué escándalo es éste? -dijo al fin una voz tranquila, majestuosa y
 de gracioso timbre, resonando encima de aquella baraúnda.</p>

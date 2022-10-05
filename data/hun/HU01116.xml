@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU01116" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU01116" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,10 +23,15 @@
             <measure unit="pages">479</measure>
          </extent>
          <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271637">ELTeC-hun</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662499">ELTeC-hun release 2.0.0</ref>
+<!--Published as part of ELTeC--></publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>Nagy idők, nagy emberek</title>
                <date>2003-03-01</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -50,13 +60,11 @@
                      <ref target="http://mek.oszk.hu/01100/01116/01116.pdf"/>
                   </bibl>
                
-            </bibl>
-            <bibl type="firstEdition">
+            </bibl><bibl type="firstEdition">
                <title>Nagy idők, nagy emberek</title>
                <author>Vas Gereben </author>
                <date>1856</date>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
@@ -68,17 +76,18 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
          <change when="2019-04-18"/>
       </revisionDesc>
    </teiHeader>
   <text>
       <front>
-         <div type="chapter">
+         <div type="liminal">
             <head>Mondanivaló</head>
             <p>Egy magyar könyvvel megint több; - hanem azért kérek mindenkit, hogy puszta
                hazafiságból meg ne vegye, hogy felvágatlanul a sarokba lökje; - hanem ha már
@@ -2928,7 +2937,7 @@
                <p>- Minél több, annál jobb, - én mind megtanulom.</p>
                <p>- Non faciat, rogo, - bizony úgy tesz magnifice domine, mint az a herceg
                   Batthyányi Lajos, - annyira inkarnátus ellensége minden diák és más idegen szónak,
-                  hogy, amint mondják, inkább circumskribál valamit, csak ki ne kelljen mondania;<hi xml:id="_ftnref3">[3]</hi> így a <hi>documentumot </hi>palam és
+                  hogy, amint mondják, inkább circumskribál valamit, csak ki ne kelljen mondania;<hi n="_ftnref3">[3]</hi> így a <hi>documentumot </hi>palam és
                   publice így kerülte ki: <hi>olyan írott levél, melynek erejével
                      valamely dologról tanúságot lehet tenni.</hi>
                </p>
@@ -4248,7 +4257,7 @@
                <p>Míg Baltay úr Keszthelyen volt, addig történt a következő dolog, azaz hogy a
                   gyalogposta lóhalálában hozott egy kurrenst, melynek a háta már tele volt “kapta”
                   és “küldte” féle írással; s a posta ment egyenesen a bíró uram udvarába.</p>
-               <p>A bíró átvette a kurrenst s ment vele a tanítóhoz, hogy a “kapta” és “küldte”<hi xml:id="_ftnref5">[5]</hi> rajt legyen, de a tanító úr az ifjúsággal a
+               <p>A bíró átvette a kurrenst s ment vele a tanítóhoz, hogy a “kapta” és “küldte”<hi n="_ftnref5">[5]</hi> rajt legyen, de a tanító úr az ifjúsággal a
                   káposztáskertben gyomláltatott, tehát bement a nagyságos asszonyhoz, hogy azzal
                   írassa rá, - mint egyébkor is tette.</p>
                <p>- Hát ne olvassuk el? - mondja a nagyságos asszony.</p>
@@ -8531,7 +8540,7 @@
                   míg én élek, minden évben megtartom ez ünnepélyt, s nem akarok nevek miatt
                   szükséget szenvedni.</p>
                <p>- S ez már elhatározott szándékod?</p>
-               <p>- Sőt nevet is gondoltam ki: Keszthelyi Heliconnak<hi xml:id="_ftnref13">[13]</hi>fogjuk elnevezni, s így nem kételkedem, hogy néhány esztendő múlva
+               <p>- Sőt nevet is gondoltam ki: Keszthelyi Heliconnak<hi n="_ftnref13">[13]</hi>fogjuk elnevezni, s így nem kételkedem, hogy néhány esztendő múlva
                   Keszthelynek temérdek vendége lesz, s így, barátom, aki a malomba jár, végtére még
                   is csak ellisztesedik; mit mondasz hozzá?</p>
                <p>A feleletet elgondolhatják önök, s nekem csak az a hozzátenni valóm van, hogy ez

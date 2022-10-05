@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0069">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">35761</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Straszny dziadunio</title>
 <ref>http://wolnelektury.pl/katalog/lektura/rodziewiczowna-straszny-dziadunio</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Straszny dziadunio</title>
 <author>Rodziewiczówna, Maria</author>
 <publisher>Warszawa: Lewental</publisher>
 <date>1899</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,7 +59,6 @@
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>I. Delfin</head>
 <p>— Hieronim, słyszysz? Wstawaj! A to sen do pozazdroszczenia! Hieronim, Rucio, to ja — Żabba!</p>
 <p>— To mi dopiero nowina! — odparł spod burki stłumiony, zaspany głos. — A czego tam chcesz? Pali się?</p>
@@ -254,8 +258,7 @@
 <p>A dzieciak jęczał we śnie niezrozumiałe wyrazy, żałośnie, z rozdzierającą skargą, to z dziką zaciętością. Litwin skrzywił się parę razy, ale nie gniewnie; opędzał się od tego głosu jak od natrętnego wspomnienia, co mu gmatwało naukę, przywołując obraz jedynej zmarłej siostrzyczki.</p>
 <p>Hieronim chrapał jak drwal. Szczęśliwy! Miał dwadzieścia lat, czyste sumienie i szalone zdolności. On nie znał bezsennych nocy, spędzonych nad oschłą nauką. On się bawił w instytucie.</p>
 </div>
-<div>
-<p>II. „Żona” Hieronima</p>
+<div type="chapter"><head>II. „Żona” Hieronima</head>
 <p>W dwa dni po wylewie rzeki Grocholski wczesnym rankiem wstąpił do mieszkania dwóch przyjaciół. Rodzina chłopska już się rozpierzchła na robotę w polu; na progu chaty — skulona, zapuchła od płaczu — siedziała dziewczynka znajda.</p>
 <p>Patrzyła uparcie w stronę lasu, nie spojrzała na wchodzącego. W chacie stara prababka przyjęła go kaszlem.</p>
 <p>— Witajcie! Panowie, co tu mieszkają, poszli? — zagadnął.</p>
@@ -907,8 +910,7 @@
 <p>Perełek na oczy ciągle się napierała. Jak wyzdrowieje, trzeba jej zacząć dawać lekcje rysunku.</p>
 <p>Po chwili mała przestała majaczyć, oddech się uspokoił; koledzy wysunęli się niepostrzeżenie. Byli o nią spokojni, a nie wiadomo, który się czuł więcej szczęśliwym jej życiem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III. Pustka</head>
 <p>Minęło lato. Znów w ciasnym petersburskim mieszkanku zebrało się pracowite grono. Co dzień rano dwóch młodych ludzi schodziło na śnieżną ulicę, eskortując małą dziewczynkę z tornistrem książek na ręku. Doprowadzali ją do gimnazjum, a o zmroku zabierali do domu. Spieszyli się bardzo, zziębnięci wszyscy troje, głodni i zmęczeni. Mniej śmiechu było wieczorami, bo Hieronim wracał późno z prywatnych lekcji, odrabiał z Bronią jutrzejsze zadania, pomagał Żabbie, sam pracował więcej.</p>
 <p>Przy lampie siedzieli we troje, zatopieni w nauce. Dziecko zbladło, spoważniało, pożerało wiedzę zajadle, podnosząc niekiedy z niemą prośbą oczy na przyjaciela, którego uśmiech, zawsze jasny, dodawał jej otuchy. Wówczas pochylał się ku niej i cierpliwie tłumaczył trudną kwestię, szepcząc, by nie przerywać skupienia kaszlącemu Żabbie.</p>
@@ -1020,8 +1022,7 @@
 <p>Studenteria zaczęła wracać do stolicy. Biednej staruszce zdawało się co dzień, że i oni wrócą z innymi. Co dzień wyglądała, słuchała znajomego kroku na schodach, cieszyła się myślą, że może listy zaginęły lub może nie pisali o powrocie, chcąc jej zrobić niespodziankę.</p>
 <p>Niespodziankę, ha! Tak, niespodzianką była sina koperta, którą jej wręczył posłaniec z telegrafu pewnego wieczora, i niespodzianką krótka wiadomość: „Żabba umarł”.</p>
 </div>
-<div>
-<p>IV. „Bądź prawym”</p>
+<div type="chapter"><head>IV. „Bądź prawym”</head>
 <p>Z tumanów mroźnej jesiennej mgły wynurzył się pociąg na dworzec petersburski. Na ławce trzeciej klasy ostatniego wagonu siedział Hieronim Białopiotrowicz, patrząc posępnie na majaczące kontury stolicy.</p>
 <p>Trudno było poznać swawolnego chłopca. Wychudł jak trzaska, sczerniał, postarzał. Z bladej twarzy sterczały kości jak u szkieletu, wesołe jasne oczy ledwie wyglądały z jam; poprzeczna bruzda przecięła czoło, na ustach osiadł smutek i powaga.</p>
 <p>Wyjechał młodzieńcem, wracał człowiekiem; stopień dojrzałości dała mu ta ciężka szkoła, którą każdy, chcąc nie chcąc, odbyć musi — nieszczęście.</p>
@@ -1409,8 +1410,7 @@
 <p>A złota czara młodości stała pełna. Na dnie jej były dla jednych męty, dla drugich słodycz nektaru. Smak zależał od ust, które piły.</p>
 <p>Nazajutrz wczesnym rankiem Hieronim poszedł do kościoła. W przeddzień zamówił mszę żałobną za przyjaciela i wysłuchał jej, klęcząc w oddalonym końcu. Modlitwą tą żegnał Petersburg, naukę, życie studenckie — zaczynał nowy okres życia.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V. Wojcieszek</head>
 <p>Na pogodnym wiosennym niebie odcinał się ostro szkielet na pół skończonego żelaznego mostu. Z obu stron równo, jednostajnie bielał świeżutki nasyp kolei. W oddali buchały światłem baraki robotników, wrzące zgiełkiem, a na stronie, u brzegu rzeki, drzemała wieś długą, czarną linią.</p>
 <p>Robota dzienna była skończona. Na moście stało dwóch mężczyzn, snadź przewodniczących robotom, a na szynach kilku ludzi otaczało ręczny wagonik, gotowy widocznie do drogi.</p>
@@ -1722,8 +1722,7 @@
 <p>Gdy był już za progiem, zaczęto rozmawiać i śmiać się, gdy mijał dom, zrobił się ruch w salonach, a w połowie drogi do mieszkania posłyszał pierwsze takty walca i mijały go wciąż powozy z damami i resztą towarzystwa.</p>
 <p>On szedł w czarną noc, nie podnosząc głowy, nie patrząc, nie słuchając — jak lunatyk lub obłąkany.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI. Dziad Polikarp</head>
 <p>Podczas wizyty u naczelnika Bazyli musiał być w mieszkaniu; zapalił lampy, ustawił wieczerzę i odszedł znów.</p>
 <p>Troskliwości tej nie zauważył jednak Hieronim. Co go obchodziło światło lub noc, co go obchodziła wieczerza?</p>
@@ -1866,8 +1865,7 @@
 <p>— Wiesz, Józik — mówił niewyraźnie — wszystko domki karciane! Cokolwiek zrobisz, wiatr dmuchnie i nie ma! Tak zawsze! Już nic robić nie będę! A jak koniec, to co? Domki karciane!…</p>
 <p>Straszne było to bredzenie w głuchej nocy. Śmierć wyciągała kościste ramię i w oczach starca wydzierała mu jego skarb, a on był jak dziecko bezsilny! On, pyszny jak szatan i taki możny!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII. Epilog</head>
 <p>Purpurowa i złota jesień słała się po drzewach Tepeńca i uścielała ścieżki szpalerów szeleszczącym dywanem suchych liści. Ciepło było, pogodnie i bardzo uroczo w owym olbrzymim parku, otoczonym huczącą Prypecią.</p>
 <p>Nie brakło tam rzadkich kwiatów ani fantastycznych gęstwin, z których niekiedy wymykała się oswojona sarna, ani ślicznych altanek opiętych winem lub kapryfolium, a chyba najpiękniej było przed samym pałacem, gdzie kwitły setki szczepionych róż, a u stóp marmurowych schodów ganku szemrała fontanna, obryzgując perłami wody bukiety cieplarnianych roślin.</p>
@@ -2164,7 +2162,6 @@
 <p>Za miesiąc wyjeżdżam z żoną na zimę do Włoch. Jeżeli kiedy oprzytomnieję z miłości, a żona zechce, to stanę na usługi pana. Sądzę jednak, że to dalekie czasy”.</p>
 </quote>
 <p>— I ja tak sądzę! — mruknął naczelnik, rzucając ze złością list na stół. — On co robi, to robi dobrze i wytrwale! Jak kocha, to kocha. Już ja go nie zobaczę! Biedne moje mosty!…</p>
-</div>
 </div>
 </body>
 </text>

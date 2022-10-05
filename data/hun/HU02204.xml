@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU02204" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU02204" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,10 +23,15 @@
             <measure unit="pages">182</measure>
          </extent>
          <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271637">ELTeC-hun</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662499">ELTeC-hun release 2.0.0</ref>
+<!--Published as part of ELTeC--></publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>A kétszarvú ember</title>
                <date>2004-11-19</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -49,13 +59,11 @@
                      <ref target="http://mek.oszk.hu/02200/02204/02204.pdf"/>
                   </bibl>
                
-            </bibl>
-            <bibl type="firstEdition">
+            </bibl><bibl type="firstEdition">
                <title>A kétszarvú ember</title>
                <author>Jókai Mór</author>
                <date>1852</date>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
@@ -67,11 +75,12 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
          <change when="2019-04-18"/>
       </revisionDesc>
    </teiHeader>
@@ -666,7 +675,7 @@
             <p>Az ember elfulladt a beszéd és fájdalom miatt.</p>
             <p>- És e becsületes ember - szólt Károly, mintha folytatni akarná apja beszédét -
                elfoglalá a küldők jószágait, árváikat, özvegyeiket kiverve házaikból, birtokaikat
-               elvesztegette potom pénzért, és gazdáikat rabságba hagyta veszni.<hi xml:id="_ftnref4">[4]</hi>
+               elvesztegette potom pénzért, és gazdáikat rabságba hagyta veszni.<hi n="_ftnref4">[4]</hi>
             </p>
             <p>- Úgye, Istenhez kiállt e szó, asszonyom?</p>
             <p>- És Isten keze nem rövidült még meg.</p>
@@ -683,7 +692,7 @@
                azt; megkötöztetett egy széles gerendához, s homlokomon felhasíttatva a bőrt, egy
                eleven kecskebak fejéről leszakíttatá a szarvakat, s azon forrón, véresen a
                homlokomon vágott sebbe kötteté azokat erősen rászorítva, úgy, hogy hat hét alatt
-               fejemhez voltak azok nőve elválaszthatatlanul, amint látod.<hi xml:id="_ftnref5">[5]</hi>
+               fejemhez voltak azok nőve elválaszthatatlanul, amint látod.<hi n="_ftnref5">[5]</hi>
             </p>
             <p>Katalin elsápadt az iszonyat miatt. Károly tenyereibe hajtá homlokát, a kisleány
                pedig féltében elaludt apja ölében.</p>
@@ -864,7 +873,7 @@
             <p>- De hiszen, jó szomszéd, azon ajándékokért, miket tőlem kívántál, százat vehetsz a
                hadsereg megtérte után.</p>
             <p>- De egyet sem olyat, mit gondolsz: kétszarvú embert? amilyet sohase látott senki;
-               nem, nem adom, kitömetem polyvával, mint az elfogott római vezért a perzsa király.<hi xml:id="_ftnref6">[6]</hi> S itt fog állani a kertemben, a bokrok között
+               nem, nem adom, kitömetem polyvával, mint az elfogott római vezért a perzsa király.<hi n="_ftnref6">[6]</hi> S itt fog állani a kertemben, a bokrok között
                csudára.</p>
             <p>- Az Istenért, ne beszélj így, seraskier - kiálta a nő, aggódó pillantást lopva a
                gyermekek felé, kik a seraskier minden szavát hallhatták. - Légy könyörülő, lásd,
@@ -1135,7 +1144,7 @@
                teketóriával, hogy majd elolvassa, íme neki kerül Pozsgai egy hosszú mogyorófa
                pálcával, s úgy üti ki kezéből a papirost, hogy az felperdül a padlás tetejére.</p>
             <p>- Micsoda dolog ez Pozsgai uram? - kiált elförmedve Kozár.</p>
-            <p>- Hát <hi>acsoda<hi xml:id="_ftnref7">
+            <p>- Hát <hi>acsoda<hi n="_ftnref7">
                      <hi>[7]</hi>
                   </hi>,</hi> hogy majd elébb imezt a donatiót olvassuk fel; - s azzal ő is elővont
                a dolmánya zsebéből egy olyan szép papirost, s felemelvén ráüte öklével. - Ezt írta a
@@ -1456,7 +1465,7 @@
                lehetne szépszerével hozzáférni. Emellett még a jó fejedelem maga oly bőkezű és
                jószívű volt, hogy nem jöhetett hozzá ember olyasmit kérni, ami ha az övé volt, neki
                nem adta volna, úgy hogy egy ízben tökéletesen elajándékozva az utolsó tallérját is,
-               kénytelen volt a fiscus kölcsönpénzt venni fel a számára, hogy elutazhassék.<hi xml:id="_ftnref9">[9]</hi>
+               kénytelen volt a fiscus kölcsönpénzt venni fel a számára, hogy elutazhassék.<hi n="_ftnref9">[9]</hi>
             </p>
             <p>Ehhez járult még az, hogy a nagyváradi basa, mindazon erdélyi és magyarországi
                helységekből, mik a fejedelemségekhez tartoztak, önhatalmúlag saját maga felszedte az
@@ -2396,7 +2405,7 @@
                falvainkból beszed, vagy tiltsa el azt attól. Erre ily különös választ nyertünk a
                dívántól, hogy ám <hi>szedjük be mi az adót azon falvakból, mik a
                   váradi basa keze ügyébe esnek, a többit pedig engedjük a török basáktól beszedetni
-                  Erdélyben,</hi> azután ne legyen többet gondunk az adófizetésre.<hi xml:id="_ftnref10">[10]</hi>
+                  Erdélyben,</hi> azután ne legyen többet gondunk az adófizetésre.<hi n="_ftnref10">[10]</hi>
             </p>
             <p>- Nos? hisz ez nagyon jól van. Így leráztátok a gondját vállaitokról.</p>
             <p>- Látod, hogy nem érted! Mi, Erdélyország rendei, mi, szabad egyesült hármas nemzet
@@ -2774,7 +2783,7 @@
             <p>- Boldogtalan; - sóhajta a főtanácsos úr, s inte, hogy nyissák meg az ajtót.</p>
             <p>Mindenki feszülten nézett oda, düh és harag tekintetével Paskó és az öreg szolga.</p>
             <p>Az ajtó megnyílt, s a tanú, ki belépett rajta, - Berta volt, - Paskó neje...</p>
-            <p>- Itt áll a tanú kegyelmed ellen... - szólt reszketeg hangon Teleki.<hi xml:id="_ftnref11">[11]</hi>
+            <p>- Itt áll a tanú kegyelmed ellen... - szólt reszketeg hangon Teleki.<hi n="_ftnref11">[11]</hi>
             </p>
             <p>Paskó eltántorult állóhelyéből; fejéhez, szívéhez kapva támaszkodék a mellette álló
                alabárdos vállaira, - a világ elfordult vele, arcán halálos sápadtság terült el;

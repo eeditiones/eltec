@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0085" xml:lang="pt">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0085" xml:lang="pt">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -16,16 +19,16 @@
 </respStmt>
 </titleStmt>
 <extent>
-<measure unit="words">73576</measure>
+<measure unit="words">74945</measure>
 </extent>
 <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3492067">ELTeC-por</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271644">ELTeC-por release 0.9.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4288235">ELTeC-por release 2.0.0</ref>
 </publicationStmt>
 <sourceDesc><bibl type="digitalSource">
 <title>Providência</title>
@@ -57,7 +60,7 @@
 
 </profileDesc>
 <revisionDesc>
-<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-03-08">Checked by checkup
+<change when="2021-04-09">Converted by checkUp script for new release</change><change when="2020-03-08">Checked by checkup
 script</change>
 <change when="2020-03-06">Adicionado à coleção ELTeC</change>
 </revisionDesc>
@@ -75,7 +78,7 @@ script</change>
 <p>1863</p>
 </div>
 <div type="liminal">
-<head>INTRODUCÇÃO </head>
+<head>INTRODUCÇÃO</head>
 <p>Cara nos ha custado a liberdade que actualmente desfructâmos:
 cada passo avançado em seu proseguimento é assignalado por
 um rasto de sangue. </p>
@@ -8311,14 +8314,11 @@ PROVIDENCIA.</p>
 </body>
 <back>
 <div type="notes">
-<note xml:id="POR0085-nota-1">
-<p> Veja -- Memoria do que aconteceu na cadeia do Limoeiro
-de Lisboa com os nove estudantes de Coimbra, que no
+<note xml:id="POR0085-nota-1"> <p> Veja -- Memoria do que aconteceu na cadeia do Limoeiro de Lisboa com os nove estudantes de Coimbra, que no
 dia vinte de junho de 1828 padeceram o supplício, em
 que um d'elles, Manuel Innocencio Araujo Mansilha,
 foi baptisado, composta por fr. Claudio da
-Conceição, etc. Coimbra, 1828. </p>
-</note>
+Conceição, etc. Coimbra, 1828. </p> </note>
 </div>
 </back>
 </text>

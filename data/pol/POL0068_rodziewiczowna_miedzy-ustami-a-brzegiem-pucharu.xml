@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0068">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">59591</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Między ustami a brzegiem pucharu</title>
 <ref>http://wolnelektury.pl/katalog/lektura/rodziewiczowna-miedzy-ustami-a-brzegiem-pucharu</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Między ustami a brzegiem pucharu</title>
 <author>Rodziewiczówna, Maria</author>
 <publisher>Warszawa: Życie</publisher>
 <date>1889</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -55,7 +60,6 @@ brzegiem pucharu</p>
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>I</head>
 <p>Berlin spał. Pogasły światła po magazynach, po teatrach, po mieszkaniach filistrów, po suterynach i strychach.</p>
 <p>Gaz tylko migotał w ulicznych latarniach i świeciły jeszcze okna klubów
@@ -323,8 +327,7 @@ bliżej lokaja.</p>
 <p>— Listy te odeślesz zaraz, a tamte spalisz, oprócz tego jednego. Przygotuj pistolety i szpadę… Będę się bił… Ale milczeć o tym! Nie budź mnie pod żadnym pozorem, choćby się paliło, chyba gdy ci panowie przyjdą. Nikogo zresztą nie przyjmować, zwłaszcza kobiet. Rozumiesz?</p>
 <p>Lokaj skłonił się w milczeniu. Odzywał się tylko w nadzwyczajnej potrzebie z konieczności. Hrabia ledwie się rozebrał, już spał. Uleciały mu z myśli piękne panie, niemiecki honor, pojedynki; odpoczynku tego nie oddałby za uścisk hrabiny Aurory.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Wentzel Croy-Dülmen od dzieciństwa był panem swej woli i czynów.
 Wprawdzie ojciec naznaczył mu opiekuna, starego towarzysza broni i sąsiada, majora Koop, i opiekunkę, ciotkę Dorę, ale opieka to była — pożal się Boże.</p>
@@ -686,8 +689,7 @@ uszła w tłumie i znikła. Była to dla Herberta pierwsza, dla naszego bohatera
 do restauracji.</p>
 <p>Bankiet przeciągnął się do rana.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Ciotka Dora von Eschenbach po raz pierwszy w życiu zgodziła się ze
 zdaniem siostrzeńca.</p>
@@ -867,8 +869,7 @@ w nowicjacie.</p>
 logikę, i za zdrowy sens. Umiała robić sto mil na godzinę. Ale o pięknym
 paniczu zaginęły wieści.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>W jednym z najszykowniejszych klubów berlińskich zebrało się pewnego
 wieczora na obiad grono wesołej młodzieży.</p>
@@ -1155,8 +1156,7 @@ aksamitnym modlitewnikiem i podreptała szybko na górę.</p>
 <p>Wentzel był tak zajęty, że nawet nie spojrzał w okna hrabiny Aurory.
 Co prawda, nie ciekawy był zobaczyć admirała.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Z pomocą karty geograficznej odnalazł Croy-Dülmen miejscowość Braniszcze.</p>
 <p>Była to duża wieś o dziesięć wiorst od kolei żelaznej, przerżnięta
@@ -1439,8 +1439,7 @@ pacierz i z czołem schylonym bił się w piersi pokornie.</p>
 <p>Niemiec patrzał na to zdumiony. Nie modlił się nigdy — zostawiał
 tę fatygę cioci Dorze.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Barometr Chrząstkowskiego mówił prawdę. Dzień wszedł jasny i pogodny. O świcie dzwon, wzywający do roboty czeladź, zbudził młodych
 i ludzi. Jan wstał zaraz, ubrał się i wyszedł do gospodarstwa. Wentzel założył ręce pod głowę i medytował nad swoim położeniem.</p>
@@ -1715,8 +1714,7 @@ grooma:</p>
 <p>— Zakład przegrałem — mruknął — ale ją mieć będę, chyba ona zginie
 albo ja. Głupi był zakład, kapitanie… No, kto ją tam wiedział! Brr! Żeby się o nim dowiedziała! <emph>Verflucht, verdammt</emph>! Uh, co za królewska dziewczyna! Takiej być ukochanym, to dopiero się czym pochwalić. Tymczasem trzeba się o Aurorę dowiedzieć. Czy licho już gdzie poniosło admirała? Doprawdy, czegoś mi jednak tęskno za moją Lorelei. Urban, konie!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Pewnego dnia, wśród zimy, Jan Chrząstkowski wysiadł na berlińskim
 dworcu i kazał się wieźć do pierwszego lepszego hotelu; tam zjadł śniadanie, przebrał się i wyszedł na miasto.</p>
@@ -2186,8 +2184,7 @@ i ruszył na kolej. Po godzinie nie było Wentzla w stolicy. Schöneich zaspał 
 <p>Po chwili meldował się w pałacu hrabiny Aurory. Na głowę Wentzla
 zbierały się gromy najsroższe, bo z rąk kobiecych. A on ich ani przeczuwał!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Innym się wydał Poznań Wentzlowi. Za pierwszą bytnością zieleniły
 się łąki, złociły pola — teraz śnieg pokrył całą krainę, życie zamarło.</p>
@@ -2763,8 +2760,7 @@ nich, nie wiedząc, jak przyjmą i czy nie odtrącą od siebie, od tego ognia,
 od tego domu, gdzie on był wrogi mową, zasadami, imieniem…</p>
 <p>Była to ciężka droga z bardzo niepewnym rezultatem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Była to środa, owa kuligowa środa, której wyglądały niecierpliwie panienki i młodzież okoliczna. Jan z Wentzlem dwa już dni byli nieobecni
 w Mariampolu, ku zgrozie niecierpliwej staruszki.</p>
@@ -3726,8 +3722,7 @@ i basta! Albom jej nie matka?</p>
 <p>— Dziękuję — rzekł Jan — a ja jej wyswatam męża i basta! Albom nie
 brat? Chodźmy tymczasem słuchać muzyki. Zabierz, Waciu, to <emph>in folio</emph> — i dodał ciszej: — oprawisz je kiedyś w złoto, co ci będzie lepszym swatem niż ja. Głębocki <emph>caput</emph>!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Głucha cisza zaległa Mariampol. Hrabia wyjechał do Strugi, a stamtąd
 w świat. Jan gościem był w domu i to już nie dawnym, swawolnym chłopcem, co rozweselał puste salony. Osowiał, znudniał; albo mówił o Cesi,
@@ -4079,8 +4074,7 @@ treflowe asy na trzydzieści kroków.</p>
 mieszkający obok niego, słyszał huk wystrzałów i niespokojne kroki nieszczęśliwego. Gdy wiosna nadeszła, bił z pistoletu skowronki i jaskółki — doszedł do niesłychanej wprawy. Prawie nie potrzebował mierzyć.
 Broń słuchała jego myśli, a on słuchał swego bólu i rozpaczy — i czekał…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Minęła Wielkanoc. W Wielkopolsce barwno było i wesoło. Łany zieleniały młodym zbożem, po ogrodach kwitły bzy. Była to najpiękniejsza
 chwila roku, odurzająca czarem wiosny. Słowiki śpiewały nocami po
@@ -4615,8 +4609,7 @@ długo.</p>
 długo…</p>
 <p>I tylko księżyc ich widział, i tylko ich słyszały słowiki…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>Turkot i palenie z bata spłoszyły nazajutrz panią Teklę ze snu. Zerwała
 się przestraszona, sądząc, że przespała ceremonię ślubną.</p>
@@ -4883,8 +4876,7 @@ wojować obelgami nie zwykłem. Chodźmy, panowie!</p>
 <p>Wyszli bez pożegnania. Gdy wsiadali na koń, słyszeli znowu raz po raz
 huk strzałów. Były to grzmoty przed burzą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>W Mariampolu raczej spodziewano się widoku Antychrysta niż Jana
 nazajutrz po ślubie. Pani Tekla, zajęta z ogrodnikiem około owych róż,
@@ -5072,8 +5064,7 @@ się za bok i runął na wznak — krew buchnęła strumieniem.</p>
 <p>Rzucili się wszyscy do niego. Żył jeszcze; gdy Jan się pochylił do twarzy,
 wyszeptał niewyraźnie: „Do Mariampola” — i stracił przytomność…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV</head>
 <p>W malutkim saloniku panny Doroty von Eschenbach odnajdujemy szanowną ciocię w pewien wieczór zimowy, zajętą, jak zwykle, jakimś złocistym kościelnym haftem.</p>
 <p>W pokoju było ciepło, zacisznie, na ulicy dzwoniły sanie i rozlegały się
@@ -5582,8 +5573,7 @@ twarzy, wyciągniętych rąk. Mimo woli powtórzył za nimi:</p>
 swobody.</p>
 <p>A toast mieszał się z tonami orkiestry i ogarniał salę: <emph>Fest! Froh! Frei, frei, frei!</emph></p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV</head>
 <p>Zapomnieliśmy o jednym…</p>
 <p>On był im wszystkim bliski zarazem i daleki, kochany i opłakany,
@@ -5619,7 +5609,6 @@ w boju jak bohater!”.</p>
 <p>— Amen! — wymówił Jan z Wentzlem, pochylając głowę.</p>
 <p>A Jadzi się zdało, że tego słowa nie mówił tylko mąż i brat, ale że powtarzał za nimi cały chór z grobów rozrzuconych po całym świecie.</p>
 <p>Amen, Amen, Amen!…</p>
-</div>
 </div>
 </body>
 </text>

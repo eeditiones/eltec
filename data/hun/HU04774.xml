@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU04774" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU04774" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -18,10 +23,15 @@
             <measure unit="pages">766</measure>
          </extent>
          <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271637">ELTeC-hun</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662499">ELTeC-hun release 2.0.0</ref>
+<!--Published as part of ELTeC--></publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>Magyarország 1514-ben : Regény</title>
                <date>2007-04-26</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -44,13 +54,11 @@
                      <ref target="http://mek.oszk.hu/04700/04774/04774.pdf"/>
                   </bibl>
                
-            </bibl>
-            <bibl type="firstEdition">
+            </bibl><bibl type="firstEdition">
                <title>Magyarország 1514-ben : Regény</title>
                <author>Eötvös József</author>
                <date>1847</date>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
@@ -62,17 +70,18 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
          <change when="2019-04-18"/>
       </revisionDesc>
    </teiHeader>
   <text>
       <front>
-         <div type="chapter">
+         <div type="liminal">
             <head>ELŐSZÓ</head>
             <p>Hosszú előszavak többnyire olvasatlanul hagyatnak: nem fogom tehát ilyennel untatni
                olvasóimat. Sőt, mint előbbi hasonnemű munkáimmal tevém, minden előszó nélkül
@@ -366,7 +375,7 @@
             <p>- Nem volt törvényes gyermek? - folytatá indulatosan az agg katona - s azért nem volt
                méltó, hogy királyunk legyen? s ha véletlenül azolasz asszonytól születik, e
                gyalázatos Beatrixtől, ki elég arcátlan volt a pápa s az egész római szentszék előtt
-               azzal kérkedni, hogy Mátyás élete alatt Ulászló rimájává alázta magát,<hi xml:id="_ednref3">[iii]</hi> akkor törvényesnek neveznők őt? vagy ha ő lett volna
+               azzal kérkedni, hogy Mátyás élete alatt Ulászló rimájává alázta magát,<hi n="_ednref3">[iii]</hi> akkor törvényesnek neveznők őt? vagy ha ő lett volna
                a buja asszonynak szeretője, s ha még gyászruhában megígéri, hogy elveszi, ámbár
                szavát később megszegné: akkor méltó volna, hogy királyunk legyen? János nem volt
                törvényes gyermek, de hogy most oly királytok van, kit még a csehek is sertésnek
@@ -497,7 +506,7 @@
                terjedhetett ki. A budai polgár a XVI. század alatt mindenekelőtt <hi>budainak </hi>érzé magát; őt nem az ország szabadsága, hanem városa kiváltságai
                érdeklék, s innen van, hogy fővárosunk német lakosainak követelései a korban, melyről
                szólunk, nem látszottak oly szörnyetegeknek, minőknek azokat jelenleg tartanók; ámbár
-               a magyarok e követelések helytelenségét már akkor is kezdék érezni.<hi xml:id="_ednref6">[vi]</hi> Budán, ha e város az országtól elkülönözve tekintetik,
+               a magyarok e követelések helytelenségét már akkor is kezdék érezni.<hi n="_ednref6">[vi]</hi> Budán, ha e város az országtól elkülönözve tekintetik,
                a németek többségben voltak, s nincs okunk csudálni, hogy a község egész kormányát
                kizárólag maguknak követelék, ha tudjuk, hogy régi királyaink a szász földön s a
                szepesi városokban német gyarmatoknak hasonló kiváltságot adni elég vigyázatlanok
@@ -946,7 +955,7 @@
                mellette.</p>
             <p>- Ami legrosszabb az egész dolognál - szólt most Szaleresi, ki a mészáros szavainál
                fejével helybenhagyólag inte - az, hogy uraink adósságaikat az idegeneknek ki szokták
-               fizetni. Szerencse, hogy csak Budán, Pozsonyban, Sopronban s Nagyszombaton<hi xml:id="_ednref11">[xi]</hi> rakhatják le holmiaikat, de közülök senki egy fillért
+               fizetni. Szerencse, hogy csak Budán, Pozsonyban, Sopronban s Nagyszombaton<hi n="_ednref11">[xi]</hi> rakhatják le holmiaikat, de közülök senki egy fillért
                sem veszít el soha, tömérdek, mennyi pénzt hordanak ki.</p>
             <p>- Az azért van, szomszéd uram - válaszolt az előbbi szokott mosolygásával -, mert az
                idegeneknek itt Budán többnyire követük van, s nekünk csak királyunk; ha mi, magyarok
@@ -1911,7 +1920,7 @@
             <p>Hogy Mátyás, ki a titkot, mely által a tömegek szeretetét megszerezhetni, minden
                kortársainál jobban ismeré, s ki nemzetünket éppen azáltal tevé naggyá, mert e nemzet
                gyengeségeit is a haza hatalmának növelésére használta; hogy ő, ki - mint Nagy
-               Sándorról olvassuk - seregének még közvitézeit is ismeré, s nevöknél szólítá,<hi xml:id="_ednref24">[xxiv]</hi> Ártándinak határtalan ragaszkodását észrevette, s a
+               Sándorról olvassuk - seregének még közvitézeit is ismeré, s nevöknél szólítá,<hi n="_ednref24">[xxiv]</hi> Ártándinak határtalan ragaszkodását észrevette, s a
                rendíthetetlen bátorságú férfit számtalan kicsiny kedvezések s a király szájából oly
                jóleső dicséret által mindég inkább magához láncolá: az oly természetes, hogy, magát
                Ártándit kivéve, Mátyás udvaránál talán senki sem volt, ki ezen csudálkozott volna,
@@ -2880,7 +2889,7 @@
                jobbágyai maradtak - szóval: nincs könnyebb mód, mely által egy nemes a másikon
                bosszút állhatna, mint ha jobbágyait üldözi; s ez az, melyet valamennyien követnek.
                Az utókor el fog borzadni, ha törvényeinkből, melyeket országgyűlésről országgyűlésre
-               ez iszonyatosságok megszüntetésére alkotunk, látandja jelen helyzetünket.<hi xml:id="_ednref28">[xxviii]</hi>
+               ez iszonyatosságok megszüntetésére alkotunk, látandja jelen helyzetünket.<hi n="_ednref28">[xxviii]</hi>
             </p>
             <p>- Bizony igazadvan - mondá Ártándi sóhajtva -, a marhának jobb dolga van, mint
                jobbágyainknak; ha ez tovább így tart, lehetetlen, hogy Isten e nemzetet annyi
@@ -3046,7 +3055,7 @@
          <div type="chapter">
             <head>5</head>
             <p>Semmi sem változott inkább a századok lefolyása alatt, mint az ebéd s álom órái.
-               Tudjuk, hogy Franciaországban I. Ferenc alatt az ebéd reggeli kilenckor tartatott,<hi xml:id="_ednref31">[xxxi]</hi> a vacsora esteli öt-hat órakor tálaltatott fel, s
+               Tudjuk, hogy Franciaországban I. Ferenc alatt az ebéd reggeli kilenckor tartatott,<hi n="_ednref31">[xxxi]</hi> a vacsora esteli öt-hat órakor tálaltatott fel, s
                kilenckor - igen ritka eseteket kivéve - az egész háznép ágyban feküdt. Kis
                különbséggel ez vala a rend, melyet Ulászló alatt Budán is követtek, s talán az egész
                világon most is követnének, ha elkésni nem volna az emberi hibák egyik
@@ -3413,7 +3422,7 @@
                látta, mellyel mindezt tevé, meggyőződhetett, hogy Lőrinc nem azon falusi papok
                sorába tartozik, kik Bakács korában szolgai alázatossággal hajoltak meg püspökeik
                előtt, s ezek által valódi szolgáknak tartattak, kény- s kedvök szerint bármi munkára
-               alkalmaztatva, ha az a lelkipásztorsággal semmi összeköttetésben nem volna is.<hi xml:id="_ednref36">[xxxvi]</hi>
+               alkalmaztatva, ha az a lelkipásztorsággal semmi összeköttetésben nem volna is.<hi n="_ednref36">[xxxvi]</hi>
             </p>
             <p>Lőrinc negyven s ötvenedik éve között állhatott. A mély redők, melyek a már
                kopaszulni kezdő homlokon s halvány arcán átvonultak, még idősebbnek mutaták őt, ha a
@@ -3593,7 +3602,7 @@
                papjának, kinél azt kereshetné, a patrónus gyermekeket, tudatlanokat,
                erkölcstelenségök által közmegvetésben állókat nevez ki; sok helyt a lelkipásztorság
                a gazdasági tisztséggel köttetik össze, hogy a jobbágy még Isten oltárához se
-               tekinthessen föl anélkül, hogy zsarnokával ne találkozzék szeme.<hi xml:id="_ednref38">[xxxviii]</hi> S eminenciád kérdi: honnan e gyűlölség?</p>
+               tekinthessen föl anélkül, hogy zsarnokával ne találkozzék szeme.<hi n="_ednref38">[xxxviii]</hi> S eminenciád kérdi: honnan e gyűlölség?</p>
             <p>- Ha mindez történik - mondá Bakács nem minden zavar nélkül, mert érzé e panaszok
                igazságát ‑, törvény ellen történik, s a király erről semmit sem tud.</p>
             <p>- A törvényben nem áll semmi ezekről, azt elhiszem - folytatá az előbbi még
@@ -3809,7 +3818,7 @@
                nem érhetvén, idegen parasztokat, kikkel éppen találkoznak, kényszerítnek elhagyott
                telkeik mívelésére. Mintha a magyar új vándorláshoz készülne: az egész népesség
                fegyvert fogott, s mozgásban van; sok falu üresen áll, s nyájak és ménesek, elhagyva
-               pásztoraiktól, természetes szabadságukban száguldanak körül a mezőn.<hi xml:id="_ednref43">[xliii]</hi>
+               pásztoraiktól, természetes szabadságukban száguldanak körül a mezőn.<hi n="_ednref43">[xliii]</hi>
             </p>
             <p>Magyarország még nem ismert nehezebb napokat soha; a közállományt nagyobb veszélyek
                nem környezék; de az egyesnek szerencséje nem függ mindég a közállományétól. Valamint
@@ -3982,7 +3991,7 @@
                jólét jeleit hordá magán; a nyéki s Pál-hegyet kivéve, melyeknek elseje a király
                vadaskertjéhez tartozott, másodikán Szent Pál híres zárdája állott, s melyeket sűrű
                erdőség takart, a szem csak kerteket, zöld vetést s szőlőket látott, miknek mívelése,
-               mióta Mátyás Bourgogne-ból venyigéket hozatván, a budai bor hírét megalapítá,<hi xml:id="_ednref45">[xlv]</hi> mindinkább elterjedett, úgyhogy Ulászló korában már
+               mióta Mátyás Bourgogne-ból venyigéket hozatván, a budai bor hírét megalapítá,<hi n="_ednref45">[xlv]</hi> mindinkább elterjedett, úgyhogy Ulászló korában már
                Sikán hegyének egy részét is szőlők takarták; míg mindenfelől kisebb s nagyobb kerti
                lakok, majd szőlők közt, majd szép gyümölcsösök közé állítva, a tájnak érdekét még
                inkább nevelék.</p>
@@ -4472,7 +4481,7 @@
                adó, melyet a néptől beszedtek, rendesen összes vagyonát teszi, melyet rablói keze
                között hagytak, s melyet most a törvény ürügye alatt visznek el; mert hisz tudod, az
                adó sok esetben nem a királynak, hanem urainknak fizettetik. Elszedetnek a nép
-               rongyai, hogy az urak kegyetlen zsoldosaikat szebb ruhába öltöztessék;<hi xml:id="_ednref48">[xlviii]</hi> a parasztkunyhó lerontatik, hogy helyébe a
+               rongyai, hogy az urak kegyetlen zsoldosaikat szebb ruhába öltöztessék;<hi n="_ednref48">[xlviii]</hi> a parasztkunyhó lerontatik, hogy helyébe a
                földesúr fiának új kastély építtessék; az erdő
                vadai szabadon legelnek vetéseinken, de a parasztnak tilos az erdőbe menni, hogy az
                úri vadat fel ne verje nyugalmából; mindez nem jut-e
@@ -5207,7 +5216,7 @@
                ügy diadaláért imádkozik Istenhez; mert hisz azok, kik ellen fegyvert fogánk,
                ugyanazok, kik hatalmát lábaikkal tiporják, kik ellen maga többször életében a pápa s
                a lengyel király segedelmeért folyamodott, sőt kik
-               ellen, mint tudjuk, az angyali türelmű fejedelem fegyvert fogni kényteleníttetett.<hi xml:id="_ednref56">[lvi]</hi> Ily viszonyok között ki álljon ellent szent
+               ellen, mint tudjuk, az angyali türelmű fejedelem fegyvert fogni kényteleníttetett.<hi n="_ednref56">[lvi]</hi> Ily viszonyok között ki álljon ellent szent
                zászlóinknak, mely alatt nem törvényes királyunk ellen, hanem a királyi hatalom, a
                nép, a haza közös ellenségei ellen fogunk küzdeni?</p>
             <p>- Minek ennyi haszontalan beszélgetés?! - mondá az asztalra csapva a mészáros - mi el
@@ -5566,7 +5575,7 @@
                oly férfiakra, kik emelkedésöket csak érdemeiknek köszönék. Ez részint következése
                volt azon természetes vonzalomnak, melyet minden, valóban kitűnő egyéniségben magához
                hasonlók iránt találunk; részint politikájának hitágazata, mely szerint úgy
-               vélekedett, hogy azoknak hívségére, kiket - saját szavai szerint<hi xml:id="_ednref61">[lxi]</hi> - a sárból ő emelt ki, legbiztosabban számíthat. De
+               vélekedett, hogy azoknak hívségére, kiket - saját szavai szerint<hi n="_ednref61">[lxi]</hi> - a sárból ő emelt ki, legbiztosabban számíthat. De
                bármint legyen is ez, s ámbár a tapasztalás a nagy királynak számításait később
                meghazudtolta, s ámbár valamint Mátyás önmaga és szeretett János fia számára - régi
                uralkodó családokból keresett nőket: úgy az általa alkotott arisztokrácia, királyának
@@ -5734,7 +5743,7 @@
                gondolatokkal keseríti el a jó bor ízét.</p>
             <p>- Hát elfelejtetted - mondá a király szomorúan -, hogy mivel nem gazdálkodtunk, már
                többször másoktól kelle kölcsönkérni borunkat? még nemrégiben, ha a jó pécsi püspök
-               ki nem segít, talán nélkülözni kellett volna megszokott italunkat;<hi xml:id="_ednref63">[lxiii]</hi> hisz a csaplárosok és kereskedők sem kölcsönöznek
+               ki nem segít, talán nélkülözni kellett volna megszokott italunkat;<hi n="_ednref63">[lxiii]</hi> hisz a csaplárosok és kereskedők sem kölcsönöznek
                már szívesen királyi asztalunkhoz.</p>
             <p>- Elég gyalázat! - mondá az előbbi haraggal - dicsőségöknek kellene tartaniuk, ha
                felséged határtalan leereszkedésében tőlük valamit kölcsönvenni kegyeskedik. De ez
@@ -5743,7 +5752,7 @@
                Fogadom, egész Csehország kiürítené inkább pincéjét, mintsem tűrje, hogy a cseh
                király ne a legjobb borral éljen.</p>
             <p>A király felsóhajtott, hihetőleg, mert eszébe jutott, hogy állása Csehországban sem
-               kedvezőbb annál, mely miatt Vencel a magyarok ellen panaszkodik.<hi xml:id="_ednref64">[lxiv]</hi>
+               kedvezőbb annál, mely miatt Vencel a magyarok ellen panaszkodik.<hi n="_ednref64">[lxiv]</hi>
             </p>
             <p>- Ó, felséges uram - folytatá az előbbi, szintén sóhajtva -, bárcsak otthon volnánk
                ismét! Prágában szeretik felségedet igazán;s mennyi ideje, hogy már nem voltunk
@@ -5753,7 +5762,7 @@
                uralkodott, s csak gyermekeimet akartam Kremsirben hagyni: még azt sem engedték.
                Eljött a szepesi gróf, s mondá: ha nem jövök vissza gyermekeimmel, engem sem
                eresztenek többé az országba, s vissza kelle jönnöm. S még ezt is örömmel tűrném,
-               csak legalább azt hihetném, hogy az erőszakolásnak oka szeretet, de így...<hi xml:id="_ednref65">[lxv]</hi>
+               csak legalább azt hihetném, hogy az erőszakolásnak oka szeretet, de így...<hi n="_ednref65">[lxv]</hi>
             </p>
             <p>A király, oly hallgató s elzárkózott mindenki iránt - mit gyenge embereknél sokszor
                tapasztalunk ‑, cselédje előtt kitárta szívét, s csak Vencel ismeré a fájdalmak egész
@@ -6028,7 +6037,7 @@
                keresve barátaikat, kikben, mint Szakmáriban, vetélytársat nem láthatának. A jelen
                pillanatban, midőn Perényit még érzékenyebbé tevék a hosszú betegség fájdalmai s
                vagyonbeli kárának híre, melyet azonképpen, mint a keresztes had egyéb következéseit,
-               Bakácsnak tulajdonított: kettősen indult fel régi ellene szavainak hallására.<hi xml:id="_ednref73">[lxxiii]</hi> - Ha eminenciád jó kedvében, melyet kétségen
+               Bakácsnak tulajdonított: kettősen indult fel régi ellene szavainak hallására.<hi n="_ednref73">[lxxiii]</hi> - Ha eminenciád jó kedvében, melyet kétségen
                kívül éreznie kell, midőn bölcs rendeléseinek következményeit látja, tréfára keres
                tárgyat, méltóztassék azt valami kolostorban választani - szólott, haragosan
                összevonva homlokát -, Magyarország nádora nem arra való.</p>
@@ -7031,7 +7040,7 @@
                tartózkodott, órákat tölte e bástya fölött. - Most e bájló helyen akará újra
                feltalálni lelki nyugalmát, mielőtt Frusina előtt megjelennék. A nap leáldozva,
                végsugarait önté el Pest fölött, s a sötét várfalak, melyeket akkor oly széles
-               vízárok környékezett, hogy a város, magasról tekintve, szigetnek látszott,<hi xml:id="_ednref78">[lxxviii]</hi> ragyogva állottak a piros esti fényben. Minden
+               vízárok környékezett, hogy a város, magasról tekintve, szigetnek látszott,<hi n="_ednref78">[lxxviii]</hi> ragyogva állottak a piros esti fényben. Minden
                nyugodt és hallgatag vala. De Orbánra e kép nem volt szokott hatással; figyelmét a
                Rákoson elterjedő keresztesek tábora vonta magára, honnan az általános csend között
                az esti szellő gyenge hangokat hozott át magával; s lelkét sötét gondolatok tölték
@@ -8246,7 +8255,7 @@
                nélküli. Ha elpártolását a táborban megtudják, személye és birtoka e vad csoportok
                bosszújának tétetik ki; de személyes tekintetek őt elhatározásában nem tántoríthaták
                meg, s bízva saját s néhány barátai befolyásában, nem kétlé, hogy az esetre, ha Dózsa
-               táborát seregestől elhagyja, a hazát a közelgő veszélytől még megóvhatja.<hi xml:id="_ednref84">[lxxxiv]</hi>
+               táborát seregestől elhagyja, a hazát a közelgő veszélytől még megóvhatja.<hi n="_ednref84">[lxxxiv]</hi>
             </p>
             <p>A történtek meghiúsíták e reményeket. Telegdi házának égő romjai között a
                szerencsétlen férfiú örökre temetve látá nyugalmát, becsületét, jövőjét. Lelkét
@@ -9336,7 +9345,7 @@
                parancsai ellen cselekedni mer, az velük együtt az atya, fiú és szentlélek nevében
                legyen szintén elátkozott, legyen a keresztyének közösségéből kitiltva; mint ők, és
                kizárva a bűnbocsánatot osztó egyház köréből. Legyen anathema maranatha, mint az
-               ördögök a pokolban, örökkön örökké. Így legyen, így legyen, így legyen! Ámen.<hi xml:id="_ednref95">[xcv]</hi>
+               ördögök a pokolban, örökkön örökké. Így legyen, így legyen, így legyen! Ámen.<hi n="_ednref95">[xcv]</hi>
             </p>
             <p>- Ámen - ismételték karban a szerzetesek, midőn mindenikök a kezében tartott
                viaszgyertyát eloltá.</p>
@@ -9458,7 +9467,7 @@
                a keresztyénség javáért áldozzuk: meg fogják támadni házaitokat, a gyenge nő s
                ártatlan gyermek nem lesznek biztosok bosszújok előtt, sőt talán a keresztyén név
                elleneivel lépnek frigyre, s a törökkel együtt támadnak meg, hogy azon férfiak közül,
-               kik parancsaikat megszegni merészelék, senki se maradjon a föld fölött.<hi xml:id="_ednref97">[xcvii]</hi> Nem mi kezdtük a harcot, de ne féljetek, hogy
+               kik parancsaikat megszegni merészelék, senki se maradjon a föld fölött.<hi n="_ednref97">[xcvii]</hi> Nem mi kezdtük a harcot, de ne féljetek, hogy
                mivel elleneitek hatalmasaknak látszanak, a kocka majd ellenünk fordul. Erősek ők,
                igen; de keményebbek-e csontjaik a tölgynél, melyet az erdőben fejszéitekkel
                annyiszor kivágtatok? jó élethez szokott testeik éhséget és szomjat s az idő
@@ -10090,7 +10099,7 @@
                Szent Gellért-hegyhez közeledének, jobbról meglátszott, éppen huszonöt évvel ezelőtt
                Corvinus János herceg társaságában szarvasvadászaton volt, a tisztes hölgy annyira el
                vala foglalva félelmétől, hogy minderre nem emlékezett.</p>
-            <p>Miután a Gellért hegyét megkerülték s túlhaladtak Erzsébetfalván,<hi xml:id="_ednref98">[xcviii]</hi> hol a budai nép alsóbb osztályai szívesen
+            <p>Miután a Gellért hegyét megkerülték s túlhaladtak Erzsébetfalván,<hi n="_ednref98">[xcviii]</hi> hol a budai nép alsóbb osztályai szívesen
                mulattak, a kalauz elhagyá vándorainkat, s ők egy ideig szótalanul, mint eddig, csak
                kissé sebesebb lépésekkel folytatták útjokat. - Az országút - tudjuk, hogy hazánkban
                ezalatt jelenleg sem művészeti készítmény értetik, hanem csak azon csapás, melyen a
@@ -10218,7 +10227,7 @@
                volt következése, hogy azok szűrből készült úri ruhához kezdének hasonlítani.
                Közönséges guba helyett vállain nehéz s a legszínesebb virágokkal kivarrott bunda
                függött, közönséges parasztsüvege mesterségesen cikornyázott sujtásokkal volt
-               ékesítve; s ámbár parasztaink akkoridőben mindég bocskorban jártak,<hi xml:id="_ednref99">[xcix]</hi> a szabó nem érzett elég erőt magában csizmáitól
+               ékesítve; s ámbár parasztaink akkoridőben mindég bocskorban jártak,<hi n="_ednref99">[xcix]</hi> a szabó nem érzett elég erőt magában csizmáitól
                megválni; s ha ezen farsangi álruhához a szabó száraz termetét, a hosszú, sovány s a
                holdvilágon még halványabb arcot s az ügyetlenséget képzeljük, mellyel kis lován ült:
                nem fogunk a természetesen víg Katalin jókedvének kitörésén csodálkozni.</p>
@@ -10338,7 +10347,7 @@
                méltányolva szolgálatomat, napról napra kegyesebbé s leereszkedőbbé vált irántam.</p>
             <p>Itt Ollósi egy pillanatig hallgatott, felsóhajta, azután tovább szólt. - Őeminenciája
                nem választatott pápának. Királyi pompával kísértetett ki a városból, az Angyalvárban
-               ágyúk dörögtek, a várostól egy mérföldnyire tömérdek nép jött velünk,<hi xml:id="_ednref102">[cii]</hi> de végre ott kelle hagynunk Rómát, s én mindjárt
+               ágyúk dörögtek, a várostól egy mérföldnyire tömérdek nép jött velünk,<hi n="_ednref102">[cii]</hi> de végre ott kelle hagynunk Rómát, s én mindjárt
                sejdítém, hogy alig lesz ily jó dolgunk többé. Még Budára se jöttünk, s máris
                kezdetét vette a baj. Sokan nehezteltek, hogy uram Rómából keresztes bullát hozott
                magával, s elkövettek mindent, hogy annak kihirdetését akadályoztassák. Bizony
@@ -10359,7 +10368,7 @@
                azok csak nekem fognak tulajdoníttatni: a bíbornok még a többieknél is inkább
                nevetett, s engem azzal biztatva, hogy nincs mit félni, ismét nem követte tanácsomat.
                - A keresztes had kihirdettetett, s Dózsa és az előkelőbb vezérek ruháira Zsigmond
-               temploma főoltáránál magamnak kelle felvarrni a vörös kereszteket.<hi xml:id="_ednref103">[ciii]</hi> Tudtam, hogy vesztemre lesz. Bebek Ferenc mindjárt
+               temploma főoltáránál magamnak kelle felvarrni a vörös kereszteket.<hi n="_ednref103">[ciii]</hi> Tudtam, hogy vesztemre lesz. Bebek Ferenc mindjárt
                az isteni tisztelet után mondá, hogy minden történhető baj egyetlen okának az ország
                a bíbornok után engem fog tekinteni; de, mint mondám, őeminenciája szolgálatában
                álltam, nem lehete másképp cselekednem, még panaszkodni is alig mertem már, mert
@@ -10885,7 +10894,7 @@
                legőrültebb kétségbeesés vala minden, mit a nemesség saját és hazája vesztének
                elhárítására e napokban tett; míg az egyházi rend reggeltől estig az úrnak
                templomaiban imádkozott, mintha az ég azokat megmenteni akarná, kik önmagukat
-               elhagyák. Egy férfi volt, ki el nem csüggedett, s e férfiú Bornemisza vala.<hi xml:id="_ednref107">[cvii]</hi>
+               elhagyák. Egy férfi volt, ki el nem csüggedett, s e férfiú Bornemisza vala.<hi n="_ednref107">[cvii]</hi>
             </p>
             <p>Szerencse, melynek sok nemzet fenntartását köszönheti, hogy a legnehezebb
                pillanatokban, midőn a közdolgok kormányzása haszon s élvezet helyett csak
@@ -11162,7 +11171,7 @@
                levertség helyett indulatot mutatott; de e változás, mint Ulászlónál minden elevenebb
                érzés, csak pillanatnyi volt; utána ököllé szorult keze tehetetlenül lógott le ismét
                karszéke támaszára, s szeme visszanyeré méla tekintetét. - Zápolya koronám után
-               vágyódik! ha tudná, mit kíván magának! - szólt, s keblét fohász emelé.<hi xml:id="_ednref111">[cxi]</hi>
+               vágyódik! ha tudná, mit kíván magának! - szólt, s keblét fohász emelé.<hi n="_ednref111">[cxi]</hi>
             </p>
             <p>- Nincs mit félni Zápolyától - mondá nyugtatólag Bornemisza, midőn észrevevé a
                hatást, melyet szavai a királyra tőnek -, felségednek sok hív alattvalója, Zápolyának
@@ -11205,7 +11214,7 @@
                rövid időszakokra több szilárdságot találunk, s Ulászló hatalmának önérzetével lép
                föl, ilyes idegen befolyásoknak tulajdoníthatók. A király Ujlaki ellen mutatott
                szigorúságának ez volt kútfeje, ebben találjuk annak magyarázatát, hogy míg Anna
-               királyné élt, a kormány minden tekintetben férfiasabban lépe föl.<hi xml:id="_ednref112">[cxii]</hi> Bornemisza szavai, úgy látszott, most a királyra
+               királyné élt, a kormány minden tekintetben férfiasabban lépe föl.<hi n="_ednref112">[cxii]</hi> Bornemisza szavai, úgy látszott, most a királyra
                hasonló benyomást tettek, s Ulászló határozottan kijelenté, hogy Szaleresinek adott
                szavát, bármit mondjon is tanácsa, megszegni nem fogja. - Talán hibáztunk, hogy
                szavunkat adtuk; az is talán jobb vala, ha ebbeli szándékunkat összes tanácsunkkal
@@ -12263,7 +12272,7 @@
                nyilvános ellenségét, megbüntetni el ne mulasszátok. Ha e parancsunkat teljesíteni
                fogjátok, jól teenditek; ha nem: felakasztunk s felakasztatunk házaitok küszöbéhez,
                és nyársra fogunk szúratni, s vagyonotokat elpusztítva s feldúlva házaitokat, a nőket
-               s gyermekeket meg fogjuk öletni. - Ez magas parancsolatunk. Csanádi táborunkban.<hi xml:id="_ednref121">[cxxi]</hi>
+               s gyermekeket meg fogjuk öletni. - Ez magas parancsolatunk. Csanádi táborunkban.<hi n="_ednref121">[cxxi]</hi>
             </p>
             <p>E parancs, melyet a harangozó nem kis akadozás s egyes szókötések ismétlése után
                végre elolvasott, az egész gyülekezetre rendkívüli hatást tőn. A bíró még több
@@ -12941,7 +12950,7 @@
                még fiatalabbnak látszaták; s nem szenved kétséget, hogy a bihari főispánság s főképp
                a nagyváradi püspökség kormányzása tapasztaltabb kezeket kívánna; - maga a római pápa
                átlátván ezt, bármi szívesen kötelezte volna le magának Magyarország hatalmas
-               nádorát, mégis kénytelen volt fiától, ki már 1513 óta neveztetett ki<hi xml:id="_ednref123">[cxxiii]</hi> nagyváradi püspöknek, a kívánt pápai
+               nádorát, mégis kénytelen volt fiától, ki már 1513 óta neveztetett ki<hi n="_ednref123">[cxxiii]</hi> nagyváradi püspöknek, a kívánt pápai
                megerősítést mindeddig megtagadni. Kik azonban a fiatal püspököt közelebbről
                ismerték, azok, ha a pápának eddigi késedelmét nem rosszallhatták is, legalább arról
                valának meggyőződve, hogy az elmés s mind századához, mind korához képest rendkívüli
@@ -13255,7 +13264,7 @@
                embertelenség mentségéül, s hogy a nagy Mátyás
                hasonló dolgokat, ha nem rendelt is, legalább elnézett; Zápolya János nem saját, hanem a mi korunk fogalmai szerint
                bíráltatva, kannibálnak rajzoltatik, ámbár Dózsa elleni bánásmódja egész életében
-               elkülönözött tényül áll; s maga a nehéz bánat, melyet tette fölött évekig érzett,<hi xml:id="_ednref131">[cxxxi]</hi> eléggé mutatja, hogy ez nem jelleme kifolyásának
+               elkülönözött tényül áll; s maga a nehéz bánat, melyet tette fölött évekig érzett,<hi n="_ednref131">[cxxxi]</hi> eléggé mutatja, hogy ez nem jelleme kifolyásának
                tekinthető. Gyávasággal vádolják, mert a törökök ellen ezerötszáztizenötben csatát
                vesztett. - Mondják, hogy Ulászló élete után leskelődött, ámbár ha őt elég aljasnak
                képzeljük is, hogy a királyi polcra ez úton akarna emelkedni, kétséget nem szenved,
@@ -14130,7 +14139,7 @@
                elhagyták a táncot, mellyel éppen mulattak, s lóra ülve, a támadók elébe siettek. Az
                asszonyok a várfalról nézék a küzdelmet, s zöld koszorúkat fontak a győzők számára; s
                ha a cseheket visszaverve, a magyar sereg víg trombitaszóval megtért, a mulatság
-               tovább folyt, sohasem élt szebb napokat a lovag és úrhölgy századok óta.<hi xml:id="_ednref136">[cxxxvi]</hi> Lám, így táborozott Mátyás király. Későbbi
+               tovább folyt, sohasem élt szebb napokat a lovag és úrhölgy századok óta.<hi n="_ednref136">[cxxxvi]</hi> Lám, így táborozott Mátyás király. Későbbi
                időben Beatrix királynéval magam is többször voltam táborban, nem képzelhetsz
                kellemesebb életet magadnak. S míg Lugosnál Zápolyakétségkívül szintúgy táborozik, mi
                itt ülünk e magányos, elhagyott házban, s csak egyedül, mert egy szegény íródeáknak
@@ -14567,7 +14576,7 @@
                haját, s elbarnult; maga anyja nem ismerne rá.</p>
             <p>E szavak elvétették hatásukat. Az íródeákok, prókátorok, szóval azoknak egész serege,
                kik mint gazdasági tisztek s törvénytudók a földesurak elnyomásainak eszközül
-               szolgáltak, még inkább utáltatott a jobbágyok által, mint az urak,<hi xml:id="_ednref137">[cxxxvii]</hi> s midőn Márton, Sipos szavait végighallgatva,
+               szolgáltak, még inkább utáltatott a jobbágyok által, mint az urak,<hi n="_ednref137">[cxxxvii]</hi> s midőn Márton, Sipos szavait végighallgatva,
                gúnyosan mondá, hogy a mondottak szerint Orbán a halált még inkább megérdemli, miután
                jobbágynak születve, saját vérei ellen az urakhoz szegődött: nem vala senki, ki a
                szerencsétlen ifjú iránt rokonszenvet nyilvánított.</p>
@@ -14898,7 +14907,7 @@
                büntetése napokra a megzavart rendet helyreállítá ismét, de a nyugalom, melyre magát
                e város falai előtt kényszerítve látá, újra visszasüllyeszté őt tétlenségébe.
                Dorbézolva tölté napjait vezértársaival, s a nép újra folytatá kicsapongásait, nem
-               gondolva a jövővel, mely mindég ijesztőbb alakban közelített feléje.<hi xml:id="_ednref138">[cxxxviii]</hi>
+               gondolva a jövővel, mely mindég ijesztőbb alakban közelített feléje.<hi n="_ednref138">[cxxxviii]</hi>
             </p>
             <p>A környékben lakó nép ily számos sereget élelmiszerekkel rendesen nem láthatván el, a
                tábor nagyrészt zsákmányból élt, s mint az ilyenre szorult seregek általában, majd
@@ -16693,7 +16702,7 @@
                de a félig részeg férfiú nem engedett ebben sem. Magára veté bíborköntösét, melyet a
                csanádi püspök ruhatárában talált, s így ült lovára azon büszke öntudattal, hogy
                Zápolyát még fényes öltözetben s fegyvereiben is felül fogja múlni. A keresztes
-               vezér, megrakva zsákmányával, mintegy felhívá ellenségeinek bosszúját<hi xml:id="_ednref140">[cxl]</hi> - fehér forgója zászlóként lobogott az ütközet
+               vezér, megrakva zsákmányával, mintegy felhívá ellenségeinek bosszúját<hi n="_ednref140">[cxl]</hi> - fehér forgója zászlóként lobogott az ütközet
                tömkelegében, s jaj annak, ki hozzá közelített.</p>
             <p>Bátorság, mely a bennünket váró diadal meggyőződésén alapszik, ellenállhatlan
                hatalommal bír az emberek fölött; így küzdött Dózsa. Mintha a kardot, melyet a hadak

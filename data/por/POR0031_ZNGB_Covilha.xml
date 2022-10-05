@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0031" xml:lang="pt">   
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0031" xml:lang="pt">   
 <teiHeader>
 <fileDesc>
      <titleStmt>
@@ -17,16 +20,16 @@
       </respStmt>
    </titleStmt>
 <extent>
-<measure unit="words">51406</measure>
+<measure unit="words">52400</measure>
 </extent>
 <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3492067">ELTeC-por</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271644">ELTeC-por release 0.9.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4288235">ELTeC-por release 2.0.0</ref>
 </publicationStmt>
 
   <sourceDesc><bibl type="digitalSource">
@@ -59,7 +62,7 @@
 
 </profileDesc>
 <revisionDesc>
-<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-03-08">Checked by checkup
+<change when="2021-04-09">Converted by checkUp script for new release</change><change when="2020-03-08">Checked by checkup
                 script</change><change when="2019-10-15">Checked by releaseChecker script</change><change when="2019-10-15">Checked by releaseChecker script</change><change when="2019-10-15">Checked by releaseChecker script</change><change when="2019-10-15">Checked by releaseChecker script</change><change when="2019-10-10">Checked by releaseChecker script</change>
 <change when="2018-11-19">Adicionado à coleção ELTeC</change> 
 </revisionDesc>
@@ -111,11 +114,11 @@
 <p>Numerosa a casaria da praça; alguns edificios podem comparar-se em tudo com palacios realengos.</p>
 <p>As mulheres prezam-se de caminhar com garbo e passo curto; de fallar com graça e vivacidade; de vestir com louçania e riqueza; de dançar e cantar ao som das castanholas e das guitarras com elegancia e desenvoltura; de encobrir com a mantilha um dos seus formosissimos olhos por tal arte, que parece terem cravado na face um diamante negro, a reflectir a luz fulgorosissima do bello sol da Andaluzia.</p>
 <p>O sevilhano passa por nós muito ancho da sua pessoa, e da sua Sevilha, que não só possue os titulos de mui leal, mui nobre e mui heroica, senão que é patria de notabilissimos santos; por isso até um poeta exclama patrioticamente:</p>
-<quote>
-<l><foreign xml:lang="es">«Que Dios, Sevilla, en tu preciosas venas </foreign>    </l>
-<l><foreign xml:lang="es">Para el Cielo crió tantos tesoros,   </foreign>  </l>
-<l><foreign xml:lang="es">Cuantas el ancho mar esconde arenas,   </foreign>  </l>
-<l><foreign xml:lang="es">Cuantas estrellas los celestes coros!» </foreign></l>
+<quote xml:lang="es">
+<l>«Que Dios, Sevilla, en tu preciosas venas   </l>
+<l>Para el Cielo crió tantos tesoros,   </l>
+<l>Cuantas el ancho mar esconde arenas, </l>
+<l>Cuantas estrellas los celestes coros!»</l>
 </quote>
 <p>Sem embargo de tamanha gloria, a cidade de Maria Padilla tem sido tambem algo peccadora...</p>
 <p>A nobreza opulenta de rendas de seus vastos dominios ruraes, em que abundam frutos e gados, sustenta luzidas tropas de escudeiros fidalgos, que põe ao seu serviço e ao dos reis, alentando os impulsos das proprias ambições e prosapias.</p>
@@ -156,11 +159,11 @@
 <p>-- Não fostes vós, quem me propôz não o levar comigo?...</p>
 <p>-- Sem duvida!... É, porém, essa a unica razão da vossa escolha?...</p>
 <p>-- Não m'o pergunteis... Se tivesse aqui um alaúde, cantar-vos-ia agora ao som d'elle:</p>
-<quote>
-<l><foreign xml:lang="es">"Con dos cuidados guerreo"  </foreign>   </l>
-<l><foreign xml:lang="es">"que me dan pena y sospiro;"  </foreign>     </l>
-<l><foreign xml:lang="es">"el uno quando no os veo,"  </foreign>     </l>
-<l><foreign xml:lang="es">"el otro quando vos miro." </foreign> <ref target="#POR0031-nota-1"/></l>
+<quote xml:lang="es">
+<l>"Con dos cuidados guerreo"</l>
+<l>"que me dan pena y sospiro;" </l>
+<l>"el uno quando no os veo,"  </l>
+<l>"el otro quando vos miro."  <ref target="#POR0031-nota-1"/></l>
 </quote>
 <p>-- Bellissimo, Perico!... -- bradaram as donzellas com viva demonstração de alegria.</p>
 <p>-- Que gracioso sois! -- accrescentou Beatriz e perguntou: mas porque esquecestes a guitarra, que é mais maneira, e vos lembrastes do corpulento alaúde, como lhe chamava o arcipreste de Hita?</p>
@@ -189,13 +192,13 @@
 <p>Ditosa mocidade!...</p>
 <p>Se voltassemos ao palacio dos duques, encontrariamos talvez Beatriz a exercer o galante ministerio de "juiza" em alguma "côrte de amor".</p>
 <p>E cá fóra veriamos o velho mendigo no mesmo lugar ainda, cantando ao som da sanfona:</p>
-<quote>
-<l><foreign xml:lang="es">«Rosa fresca, rosa fresca,</foreign></l>
-<l><foreign xml:lang="es">tan garrida y con amor;</foreign></l>
-<l><foreign xml:lang="es">quando vos tuve em mis braços,</foreign></l>
-<l><foreign xml:lang="es">no vos supe servir, no,</foreign></l>
-<l><foreign xml:lang="es">y agora que os serviria</foreign></l>
-<l><foreign xml:lang="es">no vos puedo aver no.</foreign> <ref target="#POR0031-nota-2"/> </l>
+<quote xml:lang="es">
+<l>«Rosa fresca, rosa fresca,</l>
+<l>tan garrida y con amor;</l>
+<l>quando vos tuve em mis braços,</l>
+<l>no vos supe servir, no,</l>
+<l>y agora que os serviria</l>
+<l>no vos puedo aver no. <ref target="#POR0031-nota-2"/> </l>
 </quote>
 
 </div><div type="chapter"><head>II</head>
@@ -1326,18 +1329,18 @@
 </body>
 <back>
 <div type="notes">
-<note xml:id="POR0031-nota-1"><p>Canc. Gen.</p></note>
-<note xml:id="POR0031-nota-2"><p>Canc. Gen.</p></note>
-<note xml:id="POR0031-nota-3"><p>Hist.</p></note>
-<note xml:id="POR0031-nota-4"><p>Camões.</p></note>
-<note xml:id="POR0031-nota-5"><p>Ruy de Pina.</p></note>
-<note xml:id="POR0031-nota-6"><p>Ruy de Pina.</p></note>
-<note xml:id="POR0031-nota-7"><p>Canc. ger.</p></note>
-<note xml:id="POR0031-nota-8"><p>Misc., Garcia de Rezende.</p></note>
-<note xml:id="POR0031-nota-9"><p>Historico.</p></note>
-<note xml:id="POR0031-nota-10"><p>Historico.</p></note>
-<note xml:id="POR0031-nota-11"><p>Historico.</p></note>
-<note xml:id="POR0031-nota-12"><p>Historico.</p></note>
+<note xml:id="POR0031-nota-1"> <p>Canc. Gen.</p></note>
+<note xml:id="POR0031-nota-2"> <p>Canc. Gen.</p></note>
+<note xml:id="POR0031-nota-3"> <p>Hist.</p></note>
+<note xml:id="POR0031-nota-4"> <p>Camões.</p></note>
+<note xml:id="POR0031-nota-5"> <p>Ruy de Pina.</p></note>
+<note xml:id="POR0031-nota-6"> <p>Ruy de Pina.</p></note>
+<note xml:id="POR0031-nota-7"> <p>Canc. ger.</p></note>
+<note xml:id="POR0031-nota-8"> <p>Misc., Garcia de Rezende.</p></note>
+<note xml:id="POR0031-nota-9"> <p>Historico.</p></note>
+<note xml:id="POR0031-nota-10"> <p>Historico.</p></note>
+<note xml:id="POR0031-nota-11"> <p>Historico.</p></note>
+<note xml:id="POR0031-nota-12"> <p>Historico.</p></note>
 </div>
 </back>
 </text>

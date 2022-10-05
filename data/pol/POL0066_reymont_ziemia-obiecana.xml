@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0066">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">173882</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Ziemia obiecana</title>
 <ref>http://wolnelektury.pl/katalog/lektura/ziemia-obiecana</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Ziemia obiecana</title>
 <author>Reymont, Władysław Stanisław</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1899</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,7 +59,6 @@
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>I</head>
 <p>Łódź się budziła.</p>
 <p>Pierwszy wrzaskliwy świst fabryczny rozdarł ciszę
@@ -303,8 +307,7 @@ oknami.</p>
 <p>Przebrał się szybko w zafarbowaną, brudną bluzę
 i pobiegł do swojego oddziału.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>— Murray dzień dobry! — krzyknął Borowiecki.</p>
 <p>Murray okręcony w długi, niebieski fartuch, wysunął się spoza rzędów ruchomych kotłów, w których
@@ -832,8 +835,7 @@ maszyny.</p>
 i ze spokojem automatu odbierał barchan czerwony
 z maszyny.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>W restauracji hotelu Victoria było pełno.</p>
 <p>Wielkie, niskie pokoje o ciemnych ścianach i żółtych, stiukowych sufitach, udających drzewo, napełniał
@@ -1897,8 +1899,7 @@ pokoju, a potem rozlewały się i martwiały w zmroku
 coraz gęstszym, w którym tylko świecił się jakoś dziwnie Budda, a nad nim patrzyły z pawich piór oczy
 coraz smętniej i coraz tajemniczej.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Czwarta dochodziła, gdy Borowiecki znalazł się
 na ulicy.</p>
@@ -2089,8 +2090,7 @@ miłość go porwała, a nie zwykła, zmysłowa burza zdrowego i niewyczerpanego
 <p>— Bądź co bądź, gra warta świeczki — pomyślał.</p>
 <p>Dorożkarz zakręcił i stanął zaraz przy rogu Spacerowej, przed synagogą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Restauracja, do której przyjechał Borowiecki, poszukując Moryca, znajdowała się zaraz za synagogą,
 w głębi podwórza, obstawionego niby kamiennymi pudłami, czteropiętrowymi oficynami z trzech stron, bo
@@ -3482,8 +3482,7 @@ melancholijną muzykę, słuchał całą istotą, aż mu oczy
 pływały we łzach zachwytu, a małpia długa twarz
 drgała ze wzruszenia.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Moryc Welt wyszedł koło jedenastej z domu, jak
 mówił Mateusz Borowieckiemu i wlókł się raczej niż
@@ -4206,8 +4205,7 @@ Landsberger i Welt”, byłaby solidna spółka; trzeba o tym
 pomyśleć — szepnął Moryc, uśmiechając się do tego
 interesu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>— Co się stało Morycowi dzisiaj? — myślała Mela,
 wchodząc do wielkiego, dwupiętrowego domu narożnego,
@@ -4655,8 +4653,7 @@ bo ja spać nie mogę, że ja sobie nie życzę, coby oni
 się bawili. Każ konie założyć. Ernest Ramisz, musi za
 dużo brać, kiedy go stać na zabawy — powtarzał, wrażając sobie w pamięć to nazwisko.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>— Przyjadę w tej chwili. Do widzenia — odpowiadał ze złością Borowiecki do telefonu, bo Lucy go
 prosiła, aby natychmiast przyjechał do lasku Milscha, gdyż
@@ -5604,8 +5601,7 @@ spencerek, jaki mu z kapoty zrobiła maszyna, podrapał
 się w głowę, plunął w garście i pchał wózek do windy,
 bo ze wszystkich stron zaczęto wymyślać, że zatamowywa drogę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Trawiński wyszedł zgnębiony.</p>
 <p>Idąc do Borowieckiego, był prawie pewnym dobrego rezultatu prośby, bo, jak każdy człowiek w położeniu bez wyjścia, pragnienia brał za rzeczywistość, za
@@ -6360,8 +6356,7 @@ dwie godziny będę.</p>
 <p>Obgadali jeszcze depesze Moryca i Karol pożegnawszy wszystkich, wyszedł razem z Józiem, który
 ukłoniwszy mu się zaraz przed domem, zniknął w ciemnych uliczkach.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Józio szedł odwiedzić rodziców, bo stale mieszkał
 u Baumów.</p>
@@ -7014,8 +7009,7 @@ szedł znowu jak przed dwoma godzinami Piotrkowską,
 ale szedł szybko i w zupełnie innym usposobieniu.</p>
 <p>Słowa Bernarda dały mu wiele do myślenia, zaczął się sam egzaminować z uczuć, jakie w nim budziła Mela.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Mela zamknęła się w swoim pokoju i rozmyślała
 nad sobą.</p>
@@ -8084,8 +8078,7 @@ przedtem nie czuł się tak bardzo zdenerwowanym i dotkniętym.</p>
 <p>— Pogardza i nienawidzi! — myślał i bolała go
 ta pogarda i nienawiść coraz silniej.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>Pod drzwiami mieszkania, na trotuarze, czekała na
 niego kobieta z czworgiem dzieci, ta sama, która wciąż
@@ -8608,8 +8601,7 @@ a z każdego kąta mieszkania wyłaziła nuda i pustka.</p>
 pośpiesznie się ubrał i nie pamiętając już ani o niedawnych zgryzotach z powodu Emmy i postanowieniach
 życia inaczej, pojechał do Lucy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>Po południu na drugi dzień Borowiecki rzeźwy,
 wyświeżony, spokojny zupełnie po wczorajszej burzy,
@@ -9424,8 +9416,7 @@ mnie z tym biletem jutro po południu do fabryki. Miejscami nie rozporządzam, a
 dla niego, tylko że panu nie ręczę za skutek.</p>
 <p>Rozeszli się zaraz w różne strony.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV</head>
 <p>Dawid Halpern szedł wolno Piotrkowską, rozmyślał
 o Myszkowskim i przypatrywał się miastu, które kochał
@@ -9958,8 +9949,7 @@ szepnął mu do ucha — mnie już ta Łódź gardłem wyłazi, to wszystko raze
 energicznie, podał mu rękę i spiesznie poszedł stukając
 łaską po trotuarze.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV</head>
 <p>Horn prędko się rozmówił z Borowieckim, bo ten
 nie miał żadnych nowych wieści i wychodząc spotkał
@@ -10272,8 +10262,7 @@ krzyk istności zdławionej, zdawał się huczeć w mrocznej sali, pod żelaznym
 wskroś gór towaru, wskroś murów przenikał i łączył
 się z potężną falą życia, jakim wrzało miasto i huczały fabryki.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI</head>
 <p>Dwa wypadki zaalarmowały Łódź, śmierć Bucholca
 i podskoczenie cen bawełny do niebywałej przedtem ceny.</p>
@@ -10752,8 +10741,7 @@ głosem zwycięstwa — głosem — głodu — Moja! Moja!
 I już chwilami czuł, że ją posiadł na zawsze i że nie
 puści zdobyczy, póki nie wyssie złota wszystkiego.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>I</head>
 <p>— A teraz go w grzbiet, a teraz z drugiej strony,
 a teraz w głowę. Ot i jeszcze raz, i jeszcze jeden razik,
@@ -12226,8 +12214,7 @@ powiedział:</p>
 moim winem i do tego w moim własnym domu.</p>
 <p>Zamilkli obaj.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>— Blumenfeld, graliście w niedzielę u Malinowskiego?</p>
 <p>— Graliśmy, zaraz powiem — szepnął, wstając
@@ -12828,8 +12815,7 @@ na ich przyszły kredyt. Któż je rozpuszczał? Ludzie Grosglicka, Szai i Zuker
 <p>Szukał przyzwoitych pozorów, bo zrywać zupełnie
 z Borowieckim nie chciał.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Budynki po fabryce Meisnera, które Borowiecki kupił i przerabiał dla swojej fabryki, stały z boku Konstantynowskiej, na jednej z małych uliczek: była to dzielnica
 małych fabryczek i samodzielnych warsztatów, teraz już
@@ -13661,8 +13647,7 @@ złotymi szpilkami, bo szli pod zachód i stanąwszy na
 szczycie wzgórza przypatrywali się miastu.</p>
 <p>Karol wyminął ich boczną uliczką i spiesznie pojechał do miasta.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>— Niech pan wstąpi na herbatę, bo ciocia będzie
 się gniewać, że puściłam pana — prosiła Kama, gdy ją
@@ -13956,8 +13941,7 @@ do głębi, na wskroś i rozeszli się bez słowa.</p>
 <p>Stary spiesznie obchodził maszynę i zaoliwionymi
 palcami wycierał oczy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>— Interes prosty, czyste złoto powiadam wam.
 Kupiłem plac, który musi, uważacie, musi odkupić ode mnie Grünspan za taką cenę, jaką wziąć zechcę — tłumaczył nazajutrz rano Stach Wilczek Hornowi, który
@@ -14258,8 +14242,7 @@ do kasy, przebrał się w elegancki garnitur, uperfumował,
 wycisnął sobie przed odrapanym lusterkiem kilka wągrów z twarzy i elegancki, jaśniejący radością poszedł
 na kolej.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Wysoki, ujęty w kamienne słupy parkan żelazny
 naśladujący gęstwę roślinną, pełną poplątanych łodyg,
@@ -14869,8 +14852,7 @@ głosem zaśpiewał:</p>
 zbóż, co się nad nim pochylały z chrzęstem, szarobłękitne niebo, co się zdawało obtulać go i to złote, dobre,
 kochane słońce, co go całowało ostatnimi promieniami.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Borowiecki, Horn i Maks Baum wchodzili do Trawińskich, którzy po raz pierwszy urządzali uroczyste
 imieninowe przyjęcie.</p>
@@ -15273,8 +15255,7 @@ sobie, okręcił się dookoła kilka razy bezprzytomnie, zrobił kilkanaście ru
 Józia, który zapłakany, onieśmielony, drżący, powtórzył
 mu raz jeszcze wiadomość i pobiegł spiesznie z powrotem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>W jadalni nikt prócz Niny nie zauważył wyjścia
 Maksa.</p>
@@ -15537,8 +15518,7 @@ nie kochał.</p>
 <p>— Wszystko skończone — myślała Mela, łzy zerwały tamy woli i panowania nad sobą i jak potok
 rzuciły się z jej oczów.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Wysocki leciał na skrzydłach szczęścia do domu.</p>
 <p>Zastał jeszcze wszystkich przy herbacie, była i Trawińska, która przyszła na minutkę, bo się jej w domu
@@ -15766,8 +15746,7 @@ stolika i zawołał:</p>
 się ze mną napić. Powiedz numerowemu, żeby mi naszykował jakie spanie. Psiakrew z takim życiem.</p>
 <p>Splunął ze złości.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>— Dwa dni jesteśmy, a jeszcze nie mogę uwierzyć, że naprawdę mieszkamy w Łodzi — ozwała się
 Anka z werendy.</p>
@@ -16315,8 +16294,7 @@ chcą tylko, kazał im sprzedać place, byle mu pozostawili fabrykę samą. Cał
 <p>— Jeszcze nic nie wiem, ale już z jego pyska widzę, że przeżuwa jakieś łajdactwo. Za dużo plajciarzy
 przychodzi do niego.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>— Cóż tak żujesz? — zapytał Karol rano przy
 herbacie.</p>
@@ -16742,8 +16720,7 @@ z tym obywatelem się rozmówić — tłumaczył się Stach,
 skinął mu głową, rzucił jakiś znak człowiekowi i poszedł
 przez Dzielną ku kolei.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>— Chcieć, a wszystko się stanie! — myślał Moryc, idąc ulicą.</p>
 <p>Chciał i ma teraz w kieszeni trzydzieści tysięcy
@@ -16889,8 +16866,7 @@ i natychmiast odwiózł Moryca na Drewnowską.</p>
 <p>— Po szóstej konie będą czekały pod twoim kantorem — powiedział Kessler na rozstanie i odjechał, znikając zaraz w kurzawie drogi, jaka się podniosła za powozem.</p>
 <p>— Gruby łajdak! — pomyślał o nim Moryc, wchodząc do Grünszpanów.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>U Grünszpanów trafił na familijną naradę.</p>
 <p>Grünszpan biegał po pokoju, krzyczał i bił pięścią
@@ -17275,8 +17251,7 @@ po szóstej.</p>
 wyciągniętym kłusem przez miasto.</p>
 <p>Z przyjemnością wyciągał się na miękkich siedzeniach powozu i niedbale kiwał głową spotykanym znajomym.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV</head>
 <p>Kessler mieszkał o kilka wiorst za miastem przy
 wielkiej farbiarni, której był właścicielem, będąc zarazem
@@ -17502,8 +17477,7 @@ z jakąś bezwiedną grozą oburzenia i wybuchnęła strasznym, pijackim płacze
 zanieść do jej pokoju.</p>
 <p>Ale wesoła zabawa łódzkich królewiąt trwała dalej, do końca…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV</head>
 <p>— Może jeszcze herbaty pan pozwoli, panie Józefie?</p>
 <p>— Dziękuję pani — odparł Józio, wstał, ukłonił
@@ -18110,8 +18084,7 @@ skończeniu fabryki, a tymczasem, ponieważ było mu źle
 w domu, bywał bardzo często u Müllerów i częściej niż
 dawniej widywał się z Lucy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI</head>
 <quote>
 <p>Z dniem 1 października puszczona została w ruch
@@ -18591,8 +18564,7 @@ i że co tydzień napisze.</p>
 słów, rozbolały również.</p>
 <p>— Niech pioruny zatrzasną romanse z cudzymi żonami! — zaklął, wchodząc do domu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVII</head>
 <p>Fabryka szła, a raczej tylko jeden oddział, przędzalnia, którą zajmował się Maks tak gorliwie, że po
 całych dniach nie wychodził z niej, bo jak zwykle na
@@ -18765,8 +18737,7 @@ aby móc pokazać swoją złą duszę i aby nam wymyślać bezkarnie. Jedyna spo
 <p>— Człowiek z równą przyjemnością popisuje się
 złem jak i dobrem — byle miał uznanie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVIII</head>
 <p>U Kurowskiego w hotelu byli już zebrani prawie
 wszyscy, którzy stanowili to ścisłe kółko; siedzieli dookoła wielkiego okrągłego stołu, zastawionego butelkami
@@ -18960,8 +18931,7 @@ i niedobrze argumentowałem.</p>
 zaprzęgać do wyjazdu.</p>
 <p>— Biedna Anka! — szepnął.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIX</head>
 <p>— Wstąpię na chwilę do fabryki, a potem pójdę
 z wami, nie chce mi się wracać do domu — mówił
@@ -19216,8 +19186,7 @@ zakończył:</p>
 <p>— Oni za prędko rosną! Ze szlachty to miał pociechę i pan Bóg, ale tymi, to zdaje mi się, że tylko
 diabeł będzie się cieszył, co, jak ci się zdaje, Anka?…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XX</head>
 <p>Borowiecki był w Berlinie.</p>
 <p>Przyjechał do Lucy, bo go zasypywała depeszami
@@ -19384,8 +19353,7 @@ jakby pędzona szaleństwem; biegła, zadyszana, rzucała
 się jak w konwulsjach, charczała z wysiłku, zgrzytała
 tłokami, oddychała obłokami dymu i podobna do olbrzymiego żuka huczącego wskroś śnieżnych płaszczyzn leciała zapamiętale naprzód, bez tchu, jakby w nieskończoność.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXI</head>
 <p>Poprzedniego popołudnia Anka jak zwykle o tej
 godzinie siedziała przy panu Adamie, który dzisiaj był
@@ -19754,8 +19722,7 @@ Karola.</p>
 <p>— Dobrze! — odpowiedział Karol zimno — dawno przecież myślał, że na tym się skończy.</p>
 <p>Müller uradowany, uściskał go, wyklepał po łopatkach i pobiegł do domu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXII</head>
 <p>Upłynęło kilka tygodni od pożaru i pogrzebu pana
 Adama, na którym Anka nie była; leżała chora w domu
@@ -19935,8 +19902,7 @@ duszy się otwarły i ta umierająca miłość, zmartwychwstała na chwilę, prz
 <p>Płakała długo i bardzo boleśnie, jakby w odpowiedzi coraz cichszym, coraz smętniejszym, przełzawionym tonom muzyki, która w pasażach podobnych do
 krzyków przyduszonych, sączyła się w ciszę pokoju.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXIII</head>
 <p>Późną jesienią tegoż roku odbył się ślub Borowieckiego z Madą Müllerówną.</p>
 <p>Wracali właśnie od ołtarza szeroką ulicą, wysłaną
@@ -20429,7 +20395,6 @@ ogarnął miasto uśpione i te obszary nieobjęte, wyłaniające się z mroków 
 <quote>
 <p>Ouarville — Paryż 1897/8.</p>
 </quote>
-</div>
 </div>
 </body>
 </text>

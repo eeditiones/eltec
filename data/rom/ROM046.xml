@@ -1,1335 +1,590 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM046" xml:lang="ro">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title> Logofătul Baptiste Veleli. Episod istoric din secolul al XVIII lea: ELTeC
-                    edition</title>
-                <author> Urechia, V.A. (1834-1901)</author>
-                <respStmt>
-                    <resp>codare ELTeC</resp>
-                    <name>Roxana Patras</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Corectura manuala </resp>
-                    <name> Alexandra Ruscanu</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">13258</measure>
-                <measure unit="pages">47</measure>
-            </extent>
-            <publicationStmt>
-<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
-<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
-</publicationStmt>
-            <sourceDesc><bibl type="printSource">
-                    <author>V.A. Urechia</author>
-                    <title>Logofătul Baptiste Veleli. Episod istoric din secolul al XVIII
-                        lea</title>
-                    <pubPlace>Bucharest</pubPlace>
-                    <publisher>Tipografia Gobl</publisher>
-                    <date>1883</date>
-                    <ref target="http://doi.org/10.5281/zenodo.3722848">Facsimile on zenodo</ref>
-                </bibl><bibl type="firstEdition">
-                    <author>V.A. Urechia</author>
-                    <title>Logofătul Baptiste Veleli. Episod istoric din secolul al XVIII
-                        lea</title>
-                    <pubPlace>Bucharest</pubPlace>
-                    <date>1855</date>
-                </bibl></sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-1">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="ro"/>
-            </langUsage>
-            <textDesc>
-                <e:authorGender key="M"/>
-                <e:size key="short"/>
-                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
-                <e:timeSlot key="T1"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
-            <change when="2019-11-15">Initial TEI version generated.</change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:lang="ro">
-        <front>
-            <div type="titlepage">
-                <p>LOGOFETULU BAPTISTE VELELI</p>
-                <p>EPISODŬ ISTORICŬ DIN SECOLULŬ XVII.</p>
-                <milestone unit="line"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:e="http://distantreading.net/eltec/ns"
+     xml:id="ROM046"
+     xml:lang="ro">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Logofătul Baptiste Veleli. Episod istoric din secolul al XVIII lea: ELTeC edition</title>
+            <author>Urechia, V.A. (1834-l901)</author>
+            <respStmt>
+               <resp>codare ELTeC</resp>
+               <name>Roxana Patras</name>
+            </respStmt>
+            <respStmt>
+               <resp>Corectura manuala</resp>
+               <name>Alexandra Ruscanu</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">13258</measure>
+            <measure unit="pages">47</measure>
+         </extent>
+         <publicationStmt>
+            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+            <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+            <date when="2022-03-02"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+            <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+            <ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+            <ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+            <ref type="doi" target="https://doi.org/10.5281/zenodo.4662599">ELTeC-rom release 0.9.0</ref>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="printSource">
+               <author>V.A. Urechia</author>
+               <title>Logofătul Baptiste Veleli. Episod istoric din secolul al XVIII lea</title>
+               <pubPlace>Bucharest</pubPlace>
+               <publisher>Tipografia Gobl</publisher>
+               <date>1883</date>
+               <ref target="http://doi.org/10.5281/zenodo.3722848">Facsimile on zenodo</ref>
+            </bibl>
+            <bibl type="firstEdition">
+               <author>V.A. Urechia</author>
+               <title>Logofătul Baptiste Veleli. Episod istoric din secolul al XVIII lea</title>
+               <pubPlace>Bucharest</pubPlace>
+               <date>1855</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-1">
+         <p>Encoding to ELTeC level 1</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ro"/>
+         </langUsage>
+         <textDesc>
+            <e:authorGender key="M"/>
+            <e:size key="short"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <e:timeSlot key="T1"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-02">Fixed gap attributes, replaced '-1' with '-l' and [’'] when used for contractions with '-'</change>
+         <change when="2022-03-02">Corrected errors in spacing</change>
+         <change when="2021-04-09">Converted by checkUp script for new release</change>
+         <change when="2020-11-14">Converted by checkUp script for new release</change>
+         <change when="2020-11-14">Checked by checkup script</change>
+         <change when="2019-11-15">Initial TEI version generated.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ro">
+      <front>
+         <div type="titlepage">
+            <p>LOGOFETULU BAPTISTE VELELI</p>
+            <p>EPISODŬ ISTORICŬ DIN SECOLULŬ XVII.</p>
+            <milestone unit="line"/>
+         </div>
+         <div type="liminal">
+            <head>PROLOGŬ</head>
+            <milestone unit="line"/>
+            <div type="liminal" n="1">
+               <head>I.</head>
+               <p>Pre la începutulŭ secululuĭ alŭ XVII, (1631), tronulŭ ţĕriĭ trecuse sub Alecsandru Radu, filuĭŭ luĭ Radu, domnulŭ Românieĭ. Acesta abia domni cincĭ lunĭ, şi nevrednicia ce i se imputâ, séŭ póte, (şi-i maĭ de creᶁuţŭ) influĭnţa, care începuse a întinde mréjă pe lângă curtea suzerană, aduse destronarea luĭ şi reîntórcerea luĭ Alecsandru Iliaşŭ, acelŭ fidelŭ portretŭ, în miniatură, alŭ Domnilorŭ fanarioţĭ, carĭ curênd avéŭ să împingă pre biata Moldovă la căderea eĭ morală şi materială, din care nicĭ astăᶁĭ nu se póte rădica cu deplinătate.</p>
+               <p>La auᶁirea fataleĭ novitale că Pórta denumise Domnŭ pre Alecsandru, ca unŭ fiorŭ de mórte trecu prin tóte inimele. „O! vechiă biată moşiă! (patrie), strigaŭ boieriĭ adunaţĭ în sfatŭ, vine vermele să-ţi ródă inima!” — Dér eĭ nu se mulţămiaŭ, vĕᶁêndŭ fortuna ce-ĭ ameninţa, de a se mântui fiă-care pre sine, ca apoĭ, puindŭ căcluĭa pe o urechiă şi, din locŭ de siguranţă, privindŭ nenorocirile ce cotropescŭ pre ceĭ-l-alţĭ, să-şĭ bată peptulŭ cu pumniĭ,văicărându-se asupra sórteĭ acelora ş-a patrieĭ... Nu! eĭ,înainte de a gândi la sine, gândiaŭ la obştia Românilorŭ,înainte de a gândi să-şi mântue moşióra, gândia la chipurile cum vorŭ puté mântui Patria!...</p>
+               <p>Decĭ toţĭ boieriĭ se sfătuiră, ce vorŭ face? O ambasadă alcătuită din ceĭ maĭ însemnaţĭ din eĭ fu trimisă la Constantinopole ca să refuze din partea întregeĭ ţĕrĭ pre Alecsandru Iliaşĭ. Când amŭ ᶁisŭ că fu trimisă o ambasadă, aşĭ fi trebuitŭ să ᶁicŭ: o turmă menită martirismuluĭ! Cine nu sciă câte ruşinóse umilinţĭ şi necazurĭ nu suferiră eĭ de la o curte, cum era acea Turcéscă pe atuncea? Eĭ bine! cu o adevĕrată iubire de patriă, eĭ se aşteptaŭ la tóte, încă pornindŭ din ţéră, însă eĭ vroiaŭ cu orĭ-ce preţŭ ce i arŭ privi numaĭ pre eĭ, să mântue pre fraţiĭ lorŭ rĕmaşĭ în ţéră, de Alecsandru şi de posderia de Grecĭ, cu carĭ elŭ era gata să `năbuşéscă de la Constantinopolĭ.</p>
+               <p>Resultatulŭ acesteĭ frumóse şi nobile ambasade fu de totŭ neînsemnătorŭ. Braviĭ boierĭ se reînturnară în patriă, aducêndĭ cu sine, pe lângă încredinţarea curţeĭ că Iliaşŭ astă dată se va purta bine, şi o îndoită ură şi sete de resbunare, nu atât însă asupra Porţeĭ, cât asupra luĭ Iliaşŭ cu aĭ séĭ, cariĭ, prin imfame machinaţiĭ, provocaseră rea-tratarealorŭ în Constantinopole. Strigătulŭ unanimŭ ală boierilorŭ din ţéră, la istorisirea tristă ce le făcură ambasadoriĭ de cele ce li se întêmplaseră, fu: Să murimŭ séŭ să scăpămŭ de impilătorĭ! — Dér între aceste, Iliaşŭ, însoţitŭ de aĭ séĭ şi de gvardie, intrase în ţéră. Timpulŭ, prin urmare, era pré scurtŭ, ca boieriĭ, înainte de intrarea luĭ în capitală, să pótă pregăti o óste, cu care să-lŭ respingă. Eĭ dér se linisciră, fiă-care pe la postulŭ sĕŭ, séŭ celŭ puţină se părură linisciţĭ.</p>
+               <p>Să lăsămŭ acum pre Alecsandru cu toţĭ Greciĭ séĭ instalându-se în trebile guvernuluĭ; să nu vorbimŭ nicĭ de ticăloşiile ce fâptuiră cu toţiĭ chiar de la păşirea lorŭ în ţéră; să nu pomenimŭ, pentru de o cam dată, nici de faimosulŭ dintre ticăloşĭ Ministrulŭ Baptiste Veleli, marele credinciosŭ alŭ luĭ Iliaşŭ; ci să ne transportămŭ aiure.</p>
+               <p>Décă cetitorulŭ meŭ va merge cu mine pre drumulŭ ce duce astăᶁĭ la Bacăŭ, dér care nu e drumulŭ-mare ci acelŭ ce se chiamă prin frânturĭ, unŭ drumŭ pre care îndestulŭ de bine l-a botezatŭ ţĕranulŭ Moldovénŭ, ca să nu amŭ trebuinţă de a maĭ spune ce felŭ de drumŭ; décă, ᶁicŭ, cetitorulŭ meŭ m-arŭ întovărăşi şi arŭ face cu mine vr-o şése óre de călĕtoriă totŭ în fuga caluluĭ,elŭ arŭ întêlni într-unŭ punctŭ unde drumulŭ se crucesce de unŭ altŭ drumŭ, astŭ-felŭ că forméză o cruce, la umbra unuĭ mare şi stufosŭ stejarŭ, trei călĕtorĭ, de călătorĭ luându-ĭ după murgiĭ ceĭ voinicĭ ce pascŭ pe lângă eĭ.</p>
+               <p>Imbrăcaţĭ câte treĭ în vestminte ţĕrănescĭ, eĭ aŭ, cu tóte aceste, în fisionomia lorŭ, în manierele lorŭ, unŭ ce carele te face a crede, că costumulŭ ce-portŭ nu e acelŭ alŭ poziţieĭ lorŭ sociale.</p>
+               <p>Noĭ vomŭ lua convorbirea lorŭ de acolo de unde amŭ găsit-o, dêndŭ de dânşiĭ.</p>
+               <p>— De nu era Constantinŭ Aseni, noĭ eramŭ perduţĭ! ᶁisese celŭ maĭ bătrânŭ din eĭ.</p>
+               <p>— Aşĭa, jupâne Buhuşe, respunde celŭ maĭ june; de nu era elŭ, ca să ne vestéscă ticălósele luĭ planurĭ, de bună sémă curêndŭ n-amŭ fi vĕᶁutŭ nicĭ lumina sóreluĭ, nicĭ jupânesele.</p>
+               <p>— Nu e mulţămitŭ, continuă alŭ treilea din eĭ care, în privirea vêrsteĭ, ţiné mizloculŭ; nu-i mulţămitŭ câte pagube ne-aú făcutŭ de câte-va septămânĭ, de când e în scaunŭ, acum arŭ fi vrutŭ, ticălosulŭ, să ne mănânce şi ᶁilele.</p>
+               <p>— Să i le mâncămŭ noĭ luĭ, Hatmane Săvine! strigă maĭ junele. — Aşĭa! să i le mâncămŭ noĭ luĭ! repetă cu elŭ celŭ maĭ bĕtrânŭ, pre carele-lŭ numiseră Buhuşĭ. — Să scăpămŭ biata moşiă de lăcuste, Vornice Lupu! adăogă către celŭ maĭ june Hatmanulŭ Săvinŭ.</p>
+               <p>— Ascultaţĭ, ᶁice Lupulŭ, după câte-va minute degândire; nu trebue să vorbimŭ ca copiiĭ, ci trebue să ne înţelegemŭ bine cu toţiĭ, să ne pregătimŭ, să resvrătimŭ cu încetulŭ şi în secretŭ ţéra... şi într-o ᶁi mergemŭ cu toţiĭ...</p>
+               <p>— Şi să móră, Iliaşŭ! Intrerumpe iutele HatmanŭSavin.</p>
+               <p>—Aşĭa, boierĭ! aşĭa,boierĭ! urméză bĕtrânulŭ Buhuşŭ: jupânulŭ Lupu înţelepţesce grăesce; trebue să fimŭ bine pregătiţĭ, ca nu cum-va,apoĭ,venindŭ Turculŭ cu mâniă,să facă rĕŭ ţĕriĭ, şi ast-felŭ, în locŭ s-o mântuimŭ, maĭ rĕŭ s-o ticăloşimŭ!</p>
+               <p>— Ascultaţĭ, boierĭ! D-ta, jupâne Buhuşe şi d-ta, jupâne Săvine, juraţĭ d-vóstră că nu-’ţĭ trage unulŭ haĭsa şi altulŭ céla?</p>
+               <p>— Jurămŭ, pe vluĭŭ D-ᶁeŭ Sântulŭ.</p>
+               <p>— Décă-ĭ aşĭa, boierĭ, să nu maĭ perdemŭ timpulŭ; haideţĭ să ne vedemŭ unŭ cescuţŭ de jupânese, să ni le strângemŭ la locŭ bunŭ, cu multulŭ, puţinŭ ce ne-a-datŭ D ᶁeŭ...</p>
+               <p>—- Da de ce aşĭa, jupâne Lupu? curmă Hatmanulŭ Săvinŭ.</p>
+               <p>— Pentru ca să nu ni le găséscă ticălosulŭ acela deasupritoriŭ.</p>
+               <p>— Şi după aceea, ce facemŭ? Intrébă Buhuşŭ.</p>
+               <p>— De odată ne ducemŭ pe la toţĭ boieriĭ şi boierănaşiĭ de pe la ţéră, de-ĭ sfătuimŭ să se resvrăteze, năĭmimŭ flăcăĭ sineţaşĭ, rădicămŭ Vrancea, Lipcaniĭ, Seimeniĭ, şi apoĭ Dumneᶁeŭ ne-a povĕţuĭ şi ne-a ajuta... Haĭdeţĭ, boierĭ!</p>
+               <p>— Haĭdeţĭ!</p>
+               <p>Şi tus-treĭ punŭ frêulŭ în capulŭ sirepilorŭ lorŭ, şi mi se aruncŭ pe eĭ.</p>
+               <p>— Staţĭ! strigă Buhuşŭ, în momentulŭ ce caiĭ nerăbdătorĭ eraŭ să poméscâ.</p>
+               <p>— Ce este?</p>
+               <p>— Să maĭ jurămŭ încă odată: Să murimŭ, orĭ moşia s-o mântuimŭ din ghiarele fiareĭ.</p>
+               <p>— Jurămŭ! jurămŭ, pe numele vluĭuĭşisântuluĭ D-ᶁeŭ, strigă Lupu şi Săvinŭ, rădicândŭ ochiĭ spre cerŭ şi făcându-şĭ cruce.</p>
+               <p>— Nu-ĭ destulŭ, adaogă Buhuşŭ, nu-ĭ destulŭ; d-ta jupâne Lupule să ne fiĭ Căpetenia nóstră, că escĭ omŭ tênĕrŭ şi înţeleptŭ!</p>
+               <p>— Aşĭa, strigă şi Sevin; d-ta, jupâne vornice, să ne fiĭ Căpetenia.— Apoĭ fiă-care apucă câte unulŭ din cele 4 drumuri lângă care se odihniseră şi, asemenea visuluĭ, dispărŭ pe zmeiĭ lorŭ din Bugégŭ. Er Lupu, oprindu-se la câţĭ-va stânjinĭ, din drumulŭ ce apucase: Să le fiŭ Căpitanŭ! ᶁise elŭ, căutândŭ să-ĭ maĭ deosebéscă prin pădurea, în care intraseră, amêndoĭ; să le fiŭ căpitanŭ! Cât maĭ multŭ aşĭ fi doritŭ să le fiŭ altŭ ceva! Dér Domnŭ de ce nu?... Şi purcede şi elŭ ca o săgétă în o direcţiă opusă cu a acelorŭ doĭ boierĭ.</p>
             </div>
-            <div type="liminal">
-                <head>PROLOGŬ</head>
-                <milestone unit="line"/>
-                <div type="liminal" n="1">
-                    <head>I.</head>
-                    <p>Pre la începutulŭ secululuĭ alŭ XVII, (1631), tronulŭ ţĕriĭ trecuse sub
-                        Alecsandru Radu, filuĭŭ luĭ Radu, domnulŭ Românieĭ. Acesta abia domni cincĭ
-                        lunĭ, şi nevrednicia ce i se imputâ, séŭ póte, (şi-i maĭ de creᶁuţŭ)
-                        influĭnţa, care începuse a întinde mréjă pe lângă curtea suzerană, aduse
-                        destronarea luĭ şi reîntórcerea luĭ Alecsandru Iliaşŭ, acelŭ fidelŭ
-                        portretŭ, în miniatură, alŭ Domnilorŭ fanarioţĭ, carĭ curênd avéŭ să împingă
-                        pre biata Moldovă la căderea eĭ morală şi materială, din care nicĭ astăᶁĭ nu
-                        se póte rădica cu deplinătate.</p>
-                    <p>La auᶁirea fataleĭ novitale că Pórta denumise Domnŭ pre Alecsandru, ca unŭ
-                        fiorŭ de mórte trecu prin tóte inimele. „O! vechiă biată moşiă! (patrie),
-                        strigaŭ boieriĭ adunaţĭ în sfatŭ, vine vermele să-ţi ródă inima!” — Dér eĭ
-                        nu se mulţămiaŭ, vĕᶁêndŭ fortuna ce-ĭ ameninţa, de a se mântui fiă-care pre
-                        sine, ca apoĭ, puindŭ căcluĭa pe o urechiă şi, din locŭ de siguranţă,
-                        privindŭ nenorocirile ce cotropescŭ pre ceĭ-l-alţĭ, să-şĭ bată peptulŭ cu
-                        pumniĭ,văicărându-se asupra sórteĭ acelora ş’a patrieĭ... Nu! eĭ,înainte de
-                        a gândi la sine, gândiaŭ la obştia Românilorŭ,înainte de a gândi să-şi
-                        mântue moşióra, gândia la chipurile cum vorŭ puté mântui Patria!...</p>
-                    <p>Decĭ toţĭ boieriĭ se sfătuiră, ce vorŭ face? O ambasadă alcătuită din ceĭ maĭ
-                        însemnaţĭ din eĭ fu trimisă la Constantinopole ca să refuze din partea
-                        întregeĭ ţĕrĭ pre Alecsandru Iliaşĭ. Când amŭ ᶁisŭ că fu trimisă o ambasadă,
-                        aşĭ fi trebuitŭ să ᶁicŭ: o turmă menită martirismuluĭ! Cine nu sciă câte
-                        ruşinóse umilinţĭ şi necazurĭ nu suferiră eĭ de la o curte, cum era acea
-                        Turcéscă pe atuncea? Eĭ bine! cu o adevĕrată iubire de patriă, eĭ se
-                        aşteptaŭ la tóte, încă pornindŭ din ţéră, însă eĭ vroiaŭ cu orĭ-ce preţŭ ce
-                        i arŭ privi numaĭ pre eĭ, să mântue pre fraţiĭ lorŭ rĕmaşĭ în ţéră, de
-                        Alecsandru şi de posderia de Grecĭ, cu carĭ elŭ era gata să `năbuşéscă de la
-                        Constantinopolĭ.</p>
-                    <p>Resultatulŭ acesteĭ frumóse şi nobile ambasade fu de totŭ neînsemnătorŭ.
-                        Braviĭ boierĭ se reînturnară în patriă, aducêndĭ cu sine, pe lângă
-                        încredinţarea curţeĭ că Iliaşŭ astă dată se va purta bine, şi o îndoită ură
-                        şi sete de resbunare, nu atât însă asupra Porţeĭ, cât asupra luĭ Iliaşŭ cu
-                        aĭ séĭ, cariĭ, prin imfame machinaţiĭ, provocaseră rea-tratarealorŭ în
-                        Constantinopole. Strigătulŭ unanimŭ ală boierilorŭ din ţéră, la istorisirea
-                        tristă ce le făcură ambasadoriĭ de cele ce li se întêmplaseră, fu: Să murimŭ
-                        séŭ să scăpămŭ de impilătorĭ! — Dér între aceste, Iliaşŭ, însoţitŭ de aĭ séĭ
-                        şi de gvardie, intrase în ţéră. Timpulŭ, prin urmare, era pré scurtŭ, ca
-                        boieriĭ, înainte de intrarea luĭ în capitală, să pótă pregăti o óste, cu
-                        care să-lŭ respingă. Eĭ dér se linisciră, fiă-care pe la postulŭ sĕŭ, séŭ
-                        celŭ puţină se părură linisciţĭ.</p>
-                    <p>Să lăsămŭ acum pre Alecsandru cu toţĭ Greciĭ séĭ instalându-se în trebile
-                        guvernuluĭ; să nu vorbimŭ nicĭ de ticăloşiile ce fâptuiră cu toţiĭ chiar de
-                        la păşirea lorŭ în ţéră; să nu pomenimŭ, pentru de o cam dată, nici de
-                        faimosulŭ dintre ticăloşĭ Ministrulŭ Baptiste Veleli, marele credinciosŭ alŭ
-                        luĭ Iliaşŭ; ci să ne transportămŭ aiure.</p>
-                    <p>Décă cetitorulŭ meŭ va merge cu mine pre drumulŭ ce duce astăᶁĭ la Bacăŭ, dér
-                        care nu e drumulŭ-mare ci acelŭ ce se chiamă prin frânturĭ, unŭ drumŭ pre
-                        care îndestulŭ de bine l’a botezatŭ ţĕranulŭ Moldovénŭ, ca să nu amŭ
-                        trebuinţă de a maĭ spune ce felŭ de drumŭ; décă, ᶁicŭ, cetitorulŭ meŭ m’arŭ
-                        întovărăşi şi arŭ face cu mine vr’o şése óre de călĕtoriă totŭ în fuga
-                        caluluĭ,elŭ arŭ întêlni într’unŭ punctŭ unde drumulŭ se crucesce de unŭ altŭ
-                        drumŭ, astŭ-felŭ că forméză o cruce, la umbra unuĭ mare şi stufosŭ stejarŭ,
-                        trei călĕtorĭ, de călătorĭ luându-ĭ după murgiĭ ceĭ voinicĭ ce pascŭ pe
-                        lângă eĭ.</p>
-                    <p>Imbrăcaţĭ câte treĭ în vestminte ţĕrănescĭ, eĭ aŭ, cu tóte aceste, în
-                        fisionomia lorŭ, în manierele lorŭ, unŭ ce carele te face a crede, că
-                        costumulŭ ce-portŭ nu e acelŭ alŭ poziţieĭ lorŭ sociale.</p>
-                    <p>Noĭ vomŭ lua convorbirea lorŭ de acolo de unde amŭ găsit’o, dêndŭ de
-                        dânşiĭ.</p>
-                    <p>— De nu era Constantinŭ Aseni, noĭ eramŭ perduţĭ! ᶁisese celŭ maĭ bătrânŭ din
-                        eĭ.</p>
-                    <p>— Aşĭa, jupâne Buhuşe, respunde celŭ maĭ june; de nu era elŭ, ca să ne
-                        vestéscă ticălósele luĭ planurĭ, de bună sémă curêndŭ n’amŭ fi vĕᶁutŭ nicĭ
-                        lumina sóreluĭ, nicĭ jupânesele.</p>
-                    <p>— Nu e mulţămitŭ, continuă alŭ treilea din eĭ care, în privirea vêrsteĭ, ţiné
-                        mizloculŭ; nu-i mulţămitŭ câte pagube ne-aú făcutŭ de câte-va septămânĭ, de
-                        când e în scaunŭ, acum arŭ fi vrutŭ, ticălosulŭ, să ne mănânce şi
-                        ᶁilele.</p>
-                    <p>— Să i le mâncămŭ noĭ luĭ, Hatmane Săvine! strigă maĭ junele. — Aşĭa! să i le
-                        mâncămŭ noĭ luĭ! repetă cu elŭ celŭ maĭ bĕtrânŭ, pre carele-lŭ numiseră
-                        Buhuşĭ. — Să scăpămŭ biata moşiă de lăcuste, Vornice Lupu! adăogă către celŭ
-                        maĭ june Hatmanulŭ Săvinŭ.</p>
-                    <p>— Ascultaţĭ, ᶁice Lupulŭ, după câte-va minute degândire; nu trebue să vorbimŭ
-                        ca copiiĭ, ci trebue să ne înţelegemŭ bine cu toţiĭ, să ne pregătimŭ, să
-                        resvrătimŭ cu încetulŭ şi în secretŭ ţéra... şi într’o ᶁi mergemŭ cu
-                        toţiĭ...</p>
-                    <p>— Şi să móră, Iliaşŭ! Intrerumpe iutele HatmanŭSavin.</p>
-                    <p>—Aşĭa, boierĭ! aşĭa,boierĭ! urméză bĕtrânulŭ Buhuşŭ: jupânulŭ Lupu
-                        înţelepţesce grăesce; trebue să fimŭ bine pregătiţĭ, ca nu
-                        cum-va,apoĭ,venindŭ Turculŭ cu mâniă,să facă rĕŭ ţĕriĭ, şi ast-felŭ, în locŭ
-                        s’o mântuimŭ, maĭ rĕŭ s’o ticăloşimŭ!</p>
-                    <p>— Ascultaţĭ, boierĭ! D-ta, jupâne Buhuşe şi d-ta, jupâne Săvine, juraţĭ
-                        d-vóstră că nu-’ţĭ trage unulŭ haĭsa şi altulŭ céla?</p>
-                    <p>— Jurămŭ, pe vluĭŭ D-ᶁeŭ Sântulŭ.</p>
-                    <p>— Décă-ĭ aşĭa, boierĭ, să nu maĭ perdemŭ timpulŭ; haideţĭ să ne vedemŭ unŭ
-                        cescuţŭ de jupânese, să ni le strângemŭ la locŭ bunŭ, cu multulŭ, puţinŭ ce
-                        ne-a-datŭ D ᶁeŭ...</p>
-                    <p>—- Da de ce aşĭa, jupâne Lupu? curmă Hatmanulŭ Săvinŭ.</p>
-                    <p>— Pentru ca să nu ni le găséscă ticălosulŭ acela deasupritoriŭ.</p>
-                    <p>— Şi după aceea, ce facemŭ? Intrébă Buhuşŭ.</p>
-                    <p>— De odată ne ducemŭ pe la toţĭ boieriĭ şi boierănaşiĭ de pe la ţéră, de-ĭ
-                        sfătuimŭ să se resvrăteze, năĭmimŭ flăcăĭ sineţaşĭ, rădicămŭ Vrancea,
-                        Lipcaniĭ, Seimeniĭ, şi apoĭ Dumneᶁeŭ ne-a povĕţuĭ şi ne-a ajuta... Haĭdeţĭ,
-                        boierĭ!</p>
-                    <p>— Haĭdeţĭ!</p>
-                    <p>Şi tus-treĭ punŭ frêulŭ în capulŭ sirepilorŭ lorŭ, şi mi se aruncŭ pe eĭ.</p>
-                    <p>— Staţĭ! strigă Buhuşŭ, în momentulŭ ce caiĭ nerăbdătorĭ eraŭ să poméscâ.</p>
-                    <p>— Ce este?</p>
-                    <p>— Să maĭ jurămŭ încă odată: Să murimŭ, orĭ moşia s’o mântuimŭ din ghiarele
-                        fiareĭ.</p>
-                    <p>— Jurămŭ! jurămŭ, pe numele vluĭuĭşisântuluĭ D-ᶁeŭ, strigă Lupu şi Săvinŭ,
-                        rădicândŭ ochiĭ spre cerŭ şi făcându-şĭ cruce.</p>
-                    <p>— Nu-ĭ destulŭ, adaogă Buhuşŭ, nu-ĭ destulŭ; d-ta jupâne Lupule să ne fiĭ
-                        Căpetenia nóstră, că escĭ omŭ tênĕrŭ şi înţeleptŭ!</p>
-                    <p>— Aşĭa, strigă şi Sevin; d-ta, jupâne vornice, să ne fiĭ Căpetenia.— Apoĭ
-                        fiă-care apucă câte unulŭ din cele 4 drumuri lângă care se odihniseră şi,
-                        asemenea visuluĭ, dispărŭ pe zmeiĭ lorŭ din Bugégŭ. Er Lupu, oprindu-se la
-                        câţĭ-va stânjinĭ, din drumulŭ ce apucase: Să le fiŭ Căpitanŭ! ᶁise elŭ,
-                        căutândŭ să-ĭ maĭ deosebéscă prin pădurea, în care intraseră, amêndoĭ; să le
-                        fiŭ căpitanŭ! Cât maĭ multŭ aşĭ fi doritŭ să le fiŭ altŭ ceva! Dér Domnŭ de
-                        ce nu?... Şi purcede şi elŭ ca o săgétă în o direcţiă opusă cu a acelorŭ doĭ
-                        boierĭ.</p>
-                </div>
-                <div type="liminal" n="2">
-                    <head>II.</head>
-                    <p>Lăsândŭ acum, pentru câte-va minute, pre vorniculŭ Vasile Lupu să călătoréscă
-                        singurŭ, vomŭ sta sub stejarŭ ca să facemŭ maĭ de aprópe cunoscinţă, nu cu
-                        Buhuşŭ orĭ Săvin, ci cu Lupu, carele e unulŭ din principalele personagiurĭ
-                        ale nuveleĭ ce ne amŭ propusŭ să istorisimŭ.</p>
-                    <p>— Cu vr’o 30 anĭ maĭ în urmă, într’unŭ satŭ micŭ, de lângă têrgulŭ Pétra, unŭ
-                        satŭ carele şi până astă-ᶁĭ ş’-aŭ păstratŭ numele sĕú vechiŭ de Oşlobenĭ,
-                        într’o Joĭe de véră, era o mişcare estraordinară. Fete mândre ca primăvéra,
-                        cu florĭ în cosiţe, cu cămeşe cu altiţe, flăcăĭ, păunaşĭ traşĭ prin inelŭ,
-                        neveste cu florĭ albe orĭ cu ştergare, tóte şi toţĭ din satŭ alergaŭ la
-                        curte în vestminte de sĕrbătóre, cu bucuria în inimă şi cu veselia pe
-                        féţă.... căcĭ acolo pre érbă i aştepta danţulŭ şi şĕgile. Străiniĭ, carĭ arŭ
-                        fi venitŭ în ᶁĭoa aceea în satŭ, n’arŭ fi aflatŭ nicĭ pre baba cea maĭ
-                        încovoétă şeᶁêndŭ pre cuptorulŭ eĭ, ca după obiceiŭ, şi arŭ fi fostŭ silitŭ
-                        să crédă că a fugitŭ totŭ sătulŭ de vr’o gróză, orĭ că-ĭ vr’o mare
-                        întêmplare la curtea boieréscă. In faptă acole, fesu-roşiĭ de pe cerdacu’ŭ
-                        de d’asupra pivniţeĭ trăgéŭ din vióre horĭ, ce scoté din minte până şi pre
-                        babe, încât se prindé şi ele între fetele ce bătéŭ eu călcâiĭ pajiscea de
-                        lângă prispa curţeĭ... Acolea ciobănaşulŭ suna din cimpoiŭ; dincolo maĭ
-                        mulţĭ moşnegĭ spunŭ istoriĭ d’ale luĭ Ştefănică Vodă celŭ sântŭ... Tóte
-                        feţele sunt pline de bucuriă. căcĭ stăpânulŭ, Paharniculŭ Lupu, este şi elŭ
-                        plinŭ de bucuriă: jupânésa luĭ i-a datŭ unŭ feciorŭ, frumosŭ ca unŭ
-                        lucéfĕrŭ, unŭ feciorŭ, celŭ ântêiŭ născutŭ!</p>
-                    <p>Décă cine-va arŭ fi intratŭ din tindă în vr’o cameră arŭ fi datŭ numaĭ de
-                        mese întinse, de boierĭ cu barbe lungĭ şi albe, cu ciobóte galbene, cu
-                        mestiĭ, cu işlice şi fesurĭ roşiĭ, cu şalurĭ de taclitŭ, cu blănĭ de
-                        samurŭ..,şi toţĭ închinândŭ pahare în sănătăţĭ nesfârşite.. In vremea
-                        acésta, într’o cămară maĭ mică din fundulŭ tinᶁeĭ, era lehusa ce-şĭ alăpta
-                        copilulŭ eĭ, precând o babă négră şi slută, o ţigancă, ţinêndŭ în sgrăbulita
-                        eĭ mână mâna cea gingaşă şi plăpândă a prunculuĭ, i proorocia o sórtă fórte
-                        norocósă. —Aoleo! ᶁicé ea, jupâneşică, stăpânica mea, o sĕ ajungă la mare
-                        boeriă!... o sĕ ajungă la domniă.</p>
-                    <p>Eĭ bine, acestŭ pruncŭ căruĭa o babă, într’o ᶁi, i menia (dóră jupânésa i-a
-                        da ceva maĭ multŭ), o posiţie aşĭa de strălucită, era Vorniculŭ Vasile Lupu,
-                        călăreţulŭ nostru.</p>
-                    <p>La venirea luĭ Alecsandru Iliaşŭ pe tronulŭ ţĕriĭ, noĭ îlŭ găsimŭ în tótă
-                        flórea bărbăţieĭ.</p>
-                    <p>De câte orĭ citescŭ vr’o baladă de acele cu adevĕratŭ frumóse improvizaţiĭ
-                        de-ale poetuluĭ Românŭ, şi de câte orĭ în ele întâlnescŭ vre unŭ
-                        flăcăŭandru, de care se temŭ smeiĭ, unŭ Românaşŭ cu fruntea naltă, cu faţa
-                        deschisă, cu sprâncéna îmbinată, cu ochluĭŭ ca mura cea cóptă, de atâtea orĭ
-                        îmĭ pare că poetulŭ, autorulŭ baladelorŭ,vré să-mĭ vorbéscă de Vasile Lupu,
-                        ast-felŭ de mândru Românŭ îmĭ era elŭ în privirea fizică; dar Vasile nu era
-                        maĭ puţinŭ perfectŭ şi în privirea morală. Elŭ, către regularitatea
-                        trăsăturilorŭ feţeĭ séle, adăoga şi acelŭ aerŭ de bunătate, care vădesce că
-                        vine din o inimă alésă, lucru ce ipocriţiĭ nicĭ o dată nu vorŭ sci face.
-                        Mândra luĭ sprâncénă, nalta luĭ frunte, eraŭ de douĕ orĭ maĭ mândre, când
-                        esprimaŭ fermitatea, vroinţa cea ne urnită a unuĭ sufletŭ tare... Aşĭa,
-                        Lupu, înzestratŭ de unŭ spiritŭ organizatorŭ mare, fórte agerŭ, şi de o
-                        cumpănire, de o înţelepciune greŭ de aflatŭ în mulţĭ din boieriĭ seculuĭuĭ
-                        sĕŭ, se părea destinatŭ numaĭ-decât de providenţă la lucrurĭ marĭ. Cine
-                        l’arŭ puté óre descrie maĭ bine decât Mironŭ Costin, când ᶁice de elŭ, că e:
-                        ca unŭ leŭ şi la fire şi la trupŭ.</p>
-                    <p>Lupu, de june încă stâpânulŭ uneĭ averĭ fórte marĭ, crescută încă prin
-                        însoţirea sa cu o jupânésă din familia Bociocŭ, era unulŭ din ceĭ maĭ
-                        îndemnaţĭ boierĭ aĭ țĕriĭ; influĭnţa luĭ şi ca bogatŭ şi ca boierŭ de
-                        omeniă, multŭ înţeleptŭ la sfaturĭ, era nemărginită, şi asta-ĭ ajuta fórte
-                        multŭ în tóte planurile séle.</p>
-                    <p>Atâtŭ cât amŭ spusŭ, să ne ajungă despre trecutulŭ luĭ; să-lŭ urmămŭ acumŭ în
-                        drumulŭ ce aŭ apucatŭ.</p>
-                    <p>După câte-va micĭ popasurĭ, la umbra vre unuĭ arbore, sub care mânca ceva din
-                        merindele ce avé în desagiĭ de la oblânculŭ şĕliĭ, Lupu, îndeséră, când
-                        sórele dăduse după munte, intră într’unŭ târguşorŭ micŭ, alcătuitŭ din
-                        câte-va sute de case de lemnŭ şi câte-va dughiene cu tărăbĭ coperite de felŭ
-                        de felŭ de mărunţişurĭ, şi înfundându-şĭ căcluĭa luĭ ţurcănéscă tocmaĭ pe
-                        ochĭ, pişcă calulŭ cu vĕrguţa şi, după ce cotigi câte-va uliţĭ şi hudiţĭ din
-                        acestŭ tărguşorŭ alŭ Romanuluĭ, intră într’o ogradă, unde se afla o casă
-                        curăţică, cu cerdacŭ de scândurĭ pe pivniţa de desubtulŭ caseĭ, după moda de
-                        atuncĭ; ş’apoĭ elŭ descălecă, îşĭ legă calulŭ de unŭ stîlpŭ alŭ cerdaculuĭ
-                        şi intră. Să intrămŭ şi noĭ cu elŭ.</p>
-                    <p>Intr’o cameră văruită şi cu vĕrgĭ de humă, pe unulŭ din lungile divanurĭ, ce
-                        o umple de la ună capĕtŭ la altulŭ, sta o jupânésă, ast-felŭ judecând’o după
-                        tóleta sa, compusă din unŭ fesŭ albŭ cu canafŭ negru de mătasă pe capŭ,
-                        împrejuratŭ de o singură códă de pĕrŭ, ce făcé unŭ mândru contrastŭ cu
-                        albéţa fesuluĭ, o fermene tótă cusută cu firŭ şi o fotă fórte bogată în
-                        cusăturĭ. Tóleta eĭ era fórte scumpă şi frumuseţea eĭ fórte rară!</p>
-                    <p>Acésta era jupânésă Vorniculuĭ Lupu. In momentulŭ intrăreĭ bărbatuluĭ. ea
-                        legăna într’o albiă pre o copiliţă cântându-ĭ cânteculŭ celŭ nemuritorŭ:
-                        Nani! nani!</p>
-                    <p>— A! dragulŭ meŭ! drăguţulŭ meŭ! strigă ea după ce privi cât-va pre bărbatulŭ
-                        sĕŭ, ce-ĭ zîmbia de lângă uşă. Bine aĭ venitŭ!</p>
-                    <p>Şi sărindŭ din loculŭ unde stăté, se aruncă de gâtulŭ luĭ Lupu.</p>
-                    <p>— Da ce însemnéză straiele aceste în care te vĕdŭ? întrébă ea, după ce-şĭ maĭ
-                        alină bucuria că-şĭ revĕᶁuse soţulŭ, după trecere de vr’o treĭ lunĭ, de când
-                        elŭ nu venise pe a casă, trimisŭ fiindŭ de ţéră la Constantinopole.</p>
-                    <p>— Draga mea, însemnéză că, fără de ele.póte acumŭ nu m’aĭ maĭ vedé, căcĭ,
-                        ticâlosulŭ de Iliaşŭ a pusŭ spionĭ să mĕ afle şi să mĕ ucidă.</p>
-                    <p>— Să te ucidă? ah! şi nu se teme de D-ᶁeŭ? să te ucidă pre tine, tata
-                        Rucsăndiţeĭ!—Şi jupânésă trăgé cu dragoste spre albiă pre soţulŭ el, carele,
-                        în bucuria de a o îmbrăţişa, uitase de copiliţă ce-ĭ dăruise D-ᶁeŭ, în
-                        nefiinţa luĭ. Lupulŭ astă-dată însă o privesce dormindŭ cu somnulŭ celŭ
-                        ângerescŭ alŭ vêrsteĭ séle In fiă-care trăsătură a feţeĭ copileĭ elŭ
-                        recunósce, când pre jupânésa sa, când pre bunică-sa. Cu unŭ cuvêntŭ, bucuria
-                        luĭ Lupu era bucuria orĭ căruĭ părinte bunŭ din orĭ-ce parte de lume, de la
-                        orĭ-ce naţiune, cât de civilizată séŭ cât de barbară... Şi cu atâta maĭ
-                        multŭ se bucura Vasilie că de câţi-va anĭ, tocmaĭ de la nascerea luĭ Ionică,
-                        ce-ĭ trăia, elŭ ne-încetatŭ doria să aibă o copiliţă</p>
-                    <p>Douĕ ᶁile se strecurară apoĭ, ᶁile pe care Lupu, nearĕtându-se la nime din
-                        târgŭ, de-’mpreună numaĭ cu soţia sa, le întrebuinţară la strêngerea la unŭ
-                        locŭ a totŭ ce avéŭ maĭ scumpŭ în odóre; apoi, săpândŭ elŭ însuşĭ sub vétra
-                        hornuluĭ o grópă, le ascunse pre tóte, puindŭ ţĕrîna la locŭ.</p>
-                    <p>A treia-ᶁi, des-diminéţă, vizitluĭŭ aştepta cu redvanulŭ la scară.</p>
-                    <p>Până a nu se zări sórele, Vorniculŭ îmbrăţişâ âncă o-dată, la scara
-                        rĕdvanuluĭ pe jupânésă luĭ, care plângé; apoĭ strînse la sînŭ pre Ionică,
-                        fluĭŭ sĕŭ celŭ ântĕiŭ, unŭ băétŭ ca de vr’o ᶁece anĭ, ce clironomise
-                        frumuseţă tatăluĭ sĕŭ, dérŭ o frumuseţă maĭ multŭ ideală, de potŭ ᶁice, căcĭ
-                        natura, cu totulŭ alt-felŭ de cum era tatălŭ, îlŭ făcuse infirmŭ şi slabŭ.
-                        Vorniculŭ i îmbrăţişâ, apoĭ dete la sinulŭ jupânésă şi pe plăpânda
-                        Rucsăndiţă. Jupânésă cu Ionică se suiră în redvanŭşi, peste o clipă, acesta
-                        dispăré de la ochiĭ luĭ Lupu Sermanulŭ! lŭ-urmări, cu ochiĭ în lacrimĭ, până
-                        când lŭ perdu din vedere, cumŭ urmărimŭ, dóră le vomŭ maĭ prinde, în
-                        tinereţile nóstre, acele iluziĭ drăgălaşe, care le vedemŭ dispărêndŭ în
-                        negrulŭ norŭ alŭ realităţiĭ.</p>
-                    <p>Câte-va minute după aceea şi Vasile, luându-şĭ ᶁiua bună de la toţĭ casniciĭ
-                        séĭ, după ce aşeᶁă icóna maĭceĭ Domnuluĭ d’asupra loculuĭ unde-șĭ ascunsese
-                        averile, încălecă totŭ în costumulŭ sĕŭ celŭ ţĕrănescŭ, şi purcese ştergêndŭ
-                        o lacrimă, ce roura în marele şi deşteptulŭ sĕŭ ochiŭ.</p>
-                    <p>— Cine scie de-mĭ voiŭ maĭ vedé vre-odată biata căscióră, nevésta şi
-                        copilaşiĭ! ᶁicé elŭ, eşindŭ din ogradă. Apoĭ rădicândŭ ochiĭ spre ceriŭ şi
-                        ᶁicêndŭ cu durere: „Fiă voĭa ta, D-ᶁeulŭ meŭ!” îşĭ îndemnă roĭbulŭ, carele
-                        sbura maĭ multŭ neatingêndŭ pămêntulŭ.</p>
-                </div>
+            <div type="liminal" n="2">
+               <head>II.</head>
+               <p>Lăsândŭ acum, pentru câte-va minute, pre vorniculŭ Vasile Lupu să călătoréscă singurŭ, vomŭ sta sub stejarŭ ca să facemŭ maĭ de aprópe cunoscinţă, nu cu Buhuşŭ orĭ Săvin, ci cu Lupu, carele e unulŭ din principalele personagiurĭ ale nuveleĭ ce ne amŭ propusŭ să istorisimŭ.</p>
+               <p>— Cu vr-o 30 anĭ maĭ în urmă, într-unŭ satŭ micŭ, de lângă têrgulŭ Pétra, unŭ satŭ carele şi până astă-ᶁĭ ş’-aŭ păstratŭ numele sĕú vechiŭ de Oşlobenĭ, într-o Joĭe de véră, era o mişcare estraordinară. Fete mândre ca primăvéra, cu florĭ în cosiţe, cu cămeşe cu altiţe, flăcăĭ, păunaşĭ traşĭ prin inelŭ, neveste cu florĭ albe orĭ cu ştergare, tóte şi toţĭ din satŭ alergaŭ la curte în vestminte de sĕrbătóre, cu bucuria în inimă şi cu veselia pe féţă.... căcĭ acolo pre érbă i aştepta danţulŭ şi şĕgile. Străiniĭ, carĭ arŭ fi venitŭ în ᶁĭoa aceea în satŭ, n-arŭ fi aflatŭ nicĭ pre baba cea maĭ încovoétă şeᶁêndŭ pre cuptorulŭ eĭ, ca după obiceiŭ, şi arŭ fi fostŭ silitŭ să crédă că a fugitŭ totŭ sătulŭ de vr-o gróză, orĭ că-ĭ vr-o mare întêmplare la curtea boieréscă. In faptă acole, fesu-roşiĭ de pe cerdacu-ŭ de d-asupra pivniţeĭ trăgéŭ din vióre horĭ, ce scoté din minte până şi pre babe, încât se prindé şi ele între fetele ce bătéŭ eu călcâiĭ pajiscea de lângă prispa curţeĭ... Acolea ciobănaşulŭ suna din cimpoiŭ; dincolo maĭ mulţĭ moşnegĭ spunŭ istoriĭ d-ale luĭ Ştefănică Vodă celŭ sântŭ... Tóte feţele sunt pline de bucuriă. căcĭ stăpânulŭ, Paharniculŭ Lupu, este şi elŭ plinŭ de bucuriă: jupânésa luĭ i-a datŭ unŭ feciorŭ, frumosŭ ca unŭ lucéfĕrŭ, unŭ feciorŭ, celŭ ântêiŭ născutŭ!</p>
+               <p>Décă cine-va arŭ fi intratŭ din tindă în vr-o cameră arŭ fi datŭ numaĭ de mese întinse, de boierĭ cu barbe lungĭ şi albe, cu ciobóte galbene, cu mestiĭ, cu işlice şi fesurĭ roşiĭ, cu şalurĭ de taclitŭ, cu blănĭ de samurŭ..,şi toţĭ închinândŭ pahare în sănătăţĭ nesfârşite.. In vremea acésta, într-o cămară maĭ mică din fundulŭ tinᶁeĭ, era lehusa ce-şĭ alăpta copilulŭ eĭ, precând o babă négră şi slută, o ţigancă, ţinêndŭ în sgrăbulita eĭ mână mâna cea gingaşă şi plăpândă a prunculuĭ, i proorocia o sórtă fórte norocósă. —Aoleo! ᶁicé ea, jupâneşică, stăpânica mea, o sĕ ajungă la mare boeriă!... o sĕ ajungă la domniă.</p>
+               <p>Eĭ bine, acestŭ pruncŭ căruĭa o babă, într-o ᶁi, i menia (dóră jupânésa i-a da ceva maĭ multŭ), o posiţie aşĭa de strălucită, era Vorniculŭ Vasile Lupu, călăreţulŭ nostru.</p>
+               <p>La venirea luĭ Alecsandru Iliaşŭ pe tronulŭ ţĕriĭ, noĭ îlŭ găsimŭ în tótă flórea bărbăţieĭ.</p>
+               <p>De câte orĭ citescŭ vr-o baladă de acele cu adevĕratŭ frumóse improvizaţiĭ de-ale poetuluĭ Românŭ, şi de câte orĭ în ele întâlnescŭ vre unŭ flăcăŭandru, de care se temŭ smeiĭ, unŭ Românaşŭ cu fruntea naltă, cu faţa deschisă, cu sprâncéna îmbinată, cu ochluĭŭ ca mura cea cóptă, de atâtea orĭ îmĭ pare că poetulŭ, autorulŭ baladelorŭ,vré să-mĭ vorbéscă de Vasile Lupu, ast-felŭ de mândru Românŭ îmĭ era elŭ în privirea fizică; dar Vasile nu era maĭ puţinŭ perfectŭ şi în privirea morală. Elŭ, către regularitatea trăsăturilorŭ feţeĭ séle, adăoga şi acelŭ aerŭ de bunătate, care vădesce că vine din o inimă alésă, lucru ce ipocriţiĭ nicĭ o dată nu vorŭ sci face. Mândra luĭ sprâncénă, nalta luĭ frunte, eraŭ de douĕ orĭ maĭ mândre, când esprimaŭ fermitatea, vroinţa cea ne urnită a unuĭ sufletŭ tare... Aşĭa, Lupu, înzestratŭ de unŭ spiritŭ organizatorŭ mare, fórte agerŭ, şi de o cumpănire, de o înţelepciune greŭ de aflatŭ în mulţĭ din boieriĭ seculuĭuĭ sĕŭ, se părea destinatŭ numaĭ-decât de providenţă la lucrurĭ marĭ. Cine l-arŭ puté óre descrie maĭ bine decât Mironŭ Costin, când ᶁice de elŭ, că e: ca unŭ leŭ şi la fire şi la trupŭ.</p>
+               <p>Lupu, de june încă stâpânulŭ uneĭ averĭ fórte marĭ, crescută încă prin însoţirea sa cu o jupânésă din familia Bociocŭ, era unulŭ din ceĭ maĭ îndemnaţĭ boierĭ aĭ țĕriĭ; influĭnţa luĭ şi ca bogatŭ şi ca boierŭ de omeniă, multŭ înţeleptŭ la sfaturĭ, era nemărginită, şi asta-ĭ ajuta fórte multŭ în tóte planurile séle.</p>
+               <p>Atâtŭ cât amŭ spusŭ, să ne ajungă despre trecutulŭ luĭ; să-lŭ urmămŭ acumŭ în drumulŭ ce aŭ apucatŭ.</p>
+               <p>După câte-va micĭ popasurĭ, la umbra vre unuĭ arbore, sub care mânca ceva din merindele ce avé în desagiĭ de la oblânculŭ şĕliĭ, Lupu, îndeséră, când sórele dăduse după munte, intră într-unŭ târguşorŭ micŭ, alcătuitŭ din câte-va sute de case de lemnŭ şi câte-va dughiene cu tărăbĭ coperite de felŭ de felŭ de mărunţişurĭ, şi înfundându-şĭ căcluĭa luĭ ţurcănéscă tocmaĭ pe ochĭ, pişcă calulŭ cu vĕrguţa şi, după ce cotigi câte-va uliţĭ şi hudiţĭ din acestŭ tărguşorŭ alŭ Romanuluĭ, intră într-o ogradă, unde se afla o casă curăţică, cu cerdacŭ de scândurĭ pe pivniţa de desubtulŭ caseĭ, după moda de atuncĭ; ş-apoĭ elŭ descălecă, îşĭ legă calulŭ de unŭ stîlpŭ alŭ cerdaculuĭ şi intră. Să intrămŭ şi noĭ cu elŭ.</p>
+               <p>Intr-o cameră văruită şi cu vĕrgĭ de humă, pe unulŭ din lungile divanurĭ, ce o umple de la ună capĕtŭ la altulŭ, sta o jupânésă, ast-felŭ judecând-o după tóleta sa, compusă din unŭ fesŭ albŭ cu canafŭ negru de mătasă pe capŭ, împrejuratŭ de o singură códă de pĕrŭ, ce făcé unŭ mândru contrastŭ cu albéţa fesuluĭ, o fermene tótă cusută cu firŭ şi o fotă fórte bogată în cusăturĭ. Tóleta eĭ era fórte scumpă şi frumuseţea eĭ fórte rară!</p>
+               <p>Acésta era jupânésă Vorniculuĭ Lupu. In momentulŭ intrăreĭ bărbatuluĭ. ea legăna într-o albiă pre o copiliţă cântându-ĭ cânteculŭ celŭ nemuritorŭ: Nani! nani!</p>
+               <p>— A! dragulŭ meŭ! drăguţulŭ meŭ! strigă ea după ce privi cât-va pre bărbatulŭ sĕŭ, ce-ĭ zîmbia de lângă uşă. Bine aĭ venitŭ!</p>
+               <p>Şi sărindŭ din loculŭ unde stăté, se aruncă de gâtulŭ luĭ Lupu.</p>
+               <p>— Da ce însemnéză straiele aceste în care te vĕdŭ? întrébă ea, după ce-şĭ maĭ alină bucuria că-şĭ revĕᶁuse soţulŭ, după trecere de vr-o treĭ lunĭ, de când elŭ nu venise pe a casă, trimisŭ fiindŭ de ţéră la Constantinopole.</p>
+               <p>— Draga mea, însemnéză că, fără de ele.póte acumŭ nu m-aĭ maĭ vedé, căcĭ, ticâlosulŭ de Iliaşŭ a pusŭ spionĭ să mĕ afle şi să mĕ ucidă.</p>
+               <p>— Să te ucidă? ah! şi nu se teme de D-ᶁeŭ? să te ucidă pre tine, tata Rucsăndiţeĭ!—Şi jupânésă trăgé cu dragoste spre albiă pre soţulŭ el, carele, în bucuria de a o îmbrăţişa, uitase de copiliţă ce-ĭ dăruise D-ᶁeŭ, în nefiinţa luĭ. Lupulŭ astă-dată însă o privesce dormindŭ cu somnulŭ celŭ ângerescŭ alŭ vêrsteĭ séle In fiă-care trăsătură a feţeĭ copileĭ elŭ recunósce, când pre jupânésa sa, când pre bunică-sa. Cu unŭ cuvêntŭ, bucuria luĭ Lupu era bucuria orĭ căruĭ părinte bunŭ din orĭ-ce parte de lume, de la orĭ-ce naţiune, cât de civilizată séŭ cât de barbară... Şi cu atâta maĭ multŭ se bucura Vasilie că de câţi-va anĭ, tocmaĭ de la nascerea luĭ Ionică, ce-ĭ trăia, elŭ ne-încetatŭ doria să aibă o copiliţă</p>
+               <p>Douĕ ᶁile se strecurară apoĭ, ᶁile pe care Lupu, nearĕtându-se la nime din târgŭ, de-’mpreună numaĭ cu soţia sa, le întrebuinţară la strêngerea la unŭ locŭ a totŭ ce avéŭ maĭ scumpŭ în odóre; apoi, săpândŭ elŭ însuşĭ sub vétra hornuluĭ o grópă, le ascunse pre tóte, puindŭ ţĕrîna la locŭ.</p>
+               <p>A treia-ᶁi, des-diminéţă, vizitluĭŭ aştepta cu redvanulŭ la scară.</p>
+               <p>Până a nu se zări sórele, Vorniculŭ îmbrăţişâ âncă o-dată, la scara rĕdvanuluĭ pe jupânésă luĭ, care plângé; apoĭ strînse la sînŭ pre Ionică, fluĭŭ sĕŭ celŭ ântĕiŭ, unŭ băétŭ ca de vr-o ᶁece anĭ, ce clironomise frumuseţă tatăluĭ sĕŭ, dérŭ o frumuseţă maĭ multŭ ideală, de potŭ ᶁice, căcĭ natura, cu totulŭ alt-felŭ de cum era tatălŭ, îlŭ făcuse infirmŭ şi slabŭ. Vorniculŭ i îmbrăţişâ, apoĭ dete la sinulŭ jupânésă şi pe plăpânda Rucsăndiţă. Jupânésă cu Ionică se suiră în redvanŭşi, peste o clipă, acesta dispăré de la ochiĭ luĭ Lupu Sermanulŭ! lŭ-urmări, cu ochiĭ în lacrimĭ, până când lŭ perdu din vedere, cumŭ urmărimŭ, dóră le vomŭ maĭ prinde, în tinereţile nóstre, acele iluziĭ drăgălaşe, care le vedemŭ dispărêndŭ în negrulŭ norŭ alŭ realităţiĭ.</p>
+               <p>Câte-va minute după aceea şi Vasile, luându-şĭ ᶁiua bună de la toţĭ casniciĭ séĭ, după ce aşeᶁă icóna maĭceĭ Domnuluĭ d-asupra loculuĭ unde-șĭ ascunsese averile, încălecă totŭ în costumulŭ sĕŭ celŭ ţĕrănescŭ, şi purcese ştergêndŭ o lacrimă, ce roura în marele şi deşteptulŭ sĕŭ ochiŭ.</p>
+               <p>— Cine scie de-mĭ voiŭ maĭ vedé vre-odată biata căscióră, nevésta şi copilaşiĭ! ᶁicé elŭ, eşindŭ din ogradă. Apoĭ rădicândŭ ochiĭ spre ceriŭ şi ᶁicêndŭ cu durere: „Fiă voĭa ta, D-ᶁeulŭ meŭ!” îşĭ îndemnă roĭbulŭ, carele sbura maĭ multŭ neatingêndŭ pămêntulŭ.</p>
             </div>
-        </front>
-        <body>
-            <div type="chapter" n="1">
-                <head>CAPULŬ I.</head>
-                <head>Alecsandru Iliaşŭ şi Baptiste Veleli.</head>
-                <p>Maĭ doĭ anĭ se scurseseră de la ᶁioa aceea când treĭ boierĭ, sub unŭ stejarŭ
-                    isolatŭ, juraseră mântuirea țĕreĭ orĭ peirea lorŭ.</p>
-                <p>Intr’una din bogatele cămărĭ a le curţilorŭ Domnescĭ din Iaşĭ, cămărĭ aşternute
-                    tóte cu covóre turcescĭ şi cu divanurĭ de şalurĭ, cămărĭ în care aurulŭ era
-                    prodigatŭ pe laviţe ca şi pre tóte albiturile Domnescĭ, împrejurul uneĭ mese
-                    lucsóse, ce se încovăia sub mulţimea felurilorŭ de bucate, aduse în talere
-                    scumpe de metalurĭ, i a bĕuturilorŭ de totŭ felulŭ, stăté, înconjuraţĭ de sute
-                    de idicliĭ şi Ecpaele, Alecsandru Vodă cu toţĭ Greciĭ, cariĭ mereŭ i închina
-                    pahare.</p>
-                <p>— Să trăescĭ, Măria ta! strigaŭ uniĭ, că ne aĭ datŭ pănea de tóte ᶁilele.</p>
-                <p>— Să-ţĭ dé D ᶁeŭ avuţiile luĭ Iov! ᶁicéŭ alţiĭ, că ne-aĭ datŭ slujbe, de ne
-                    agonosimŭ cu ce să trăimŭ la ᶁile grele...</p>
-                <p>— Să-ţĭ dé D-ᶁeŭ mărirea luĭ Solomon, uraŭ iştia, că ne-aĭ făcutŭ ómenĭ. — Éră
-                    Alecsandru Iliaşŭ le mulţămia, la fiă-care, ᶁicêndŭ:</p>
-                <p>— Să trăiţĭ şi voĭ, că şi maĭ multe avuţiĭ, şi maĭ mare cinste vĕ voitŭ da! Să
-                    mâncămŭ, să bemŭ, să petrecemŭ, cu veseliă... căcĭ mi-ĭ vremea şi mie şi vouă,
-                    dragilorŭ meĭ. câtŭ oĭ fi eŭ preste țĕra asta şi voĭ cu mine... Strîngeţĭ
-                    voinicŭ la banĭ orĭ şi cum, orĭ şi de la cine-ţĭ puté, și halalŭ să vĕ fiă,
-                        <hi>morea</hi>! Berechet! țĕra nu-ĭ a mea!...</p>
-                <p>După câte-va óre de la ospĕţulŭ acesta, la care se înfiinţa. vaĭ! așĭa de grozave
-                    ᶁile pentru biata Moldovă, în cămara asta era numaĭ Vodă Iliaşŭ şi cu unŭ
-                    personagiŭ, pre care încă şirulŭ istorieŭ nóstre ne-aŭ fostŭ împedecatŭ de a-lŭ
-                    face cunoscutŭ maĭ de multŭ.</p>
-                <p>Unŭ capŭ ţuguiatŭ, rasŭ şi ascunsŭ sub fesulŭ celŭ roşŭ, o fisiognomiă în care
-                    celŭ maĭ simplu omŭ póte ceti <hi>mârşăvia de caracterŭ</hi>, cu scumpenia, şi
-                    şiretliculŭ maĭ presusŭ de tóte; aceste patimĭ şi alte maĭ rele încă, formândŭ
-                    unŭ sufletŭ sprijinitŭ de douĕ picióre, ce-şĭ ascundŭ cioturile în şacşirĭ roşiĭ
-                    şi ciobóte galbene cu mestiĭ, vorŭ sluji de trăsăturĭ, după care cetitorulŭ meŭ
-                    va cunósce de-acum pre insulŭ rĕmasŭ cu Iliaşŭ, pre Logofătulŭ Bapt'ste
-                    Veleli.</p>
-                <p>Étă ce vorbia aceste douĕ persóne:</p>
-                <p>— Măria ta, să maĭ vorbimŭ de nevoile țĕreĭ...</p>
-                <p>— Să vorbimŭ, Veleli dragă, să vorbimŭ: spune, ce? n’aĭ banĭ de ajunsŭ? Ţi s’a
-                    stricatŭ curţile, podurilede pe moşiĭ?...</p>
-                <p>— Nu, nimicŭ de aceste Măria ta, <hi>bogdaproste</hi> luĭ D-ᶁeŭ, nicĭ o slugă
-                    de-a le Mărieĭ téle nu duce lipsă de nimică de aceste...</p>
-                <p>— Apoĭ?...</p>
-                <p>— Apoĭ, să maĭ vorbimŭ..</p>
-                <p>— De nevoile țĕreĭ? vorbesce!</p>
-                <p>— Sciĭ, Măria ta, Vorniculŭ Vasile Lupu..</p>
-                <p>— Lupu? care are jupânésă frumósă? Palicarule! aĭ vré să mĕ maĭ înşelĭ, şi...</p>
-                <p>— Nu, nu ᶁicŭ acésta astă-dată, Măria ta, întrerupse răpede Ministrulŭ, devenindŭ
-                    roşĭu ca fesulŭ sĕŭ la auᶁirea de jupânésă frumósă.</p>
-                <p>— O aflatŭ! murmură elŭ între dinţĭ...</p>
-                <p>— Apoĭ déră ce-ĭ?</p>
-                <p>— Măria ta, Vorniculŭ Vasile Lupu, cu Hatmanulŭ Săvinŭ şi cu alţiĭ, aŭ să ne
-                    răpune viéţa</p>
-                <p>— Viéţa, ᶁicĭ tu, Veleli?...Vorniculŭ Lupu să-mĭ rĕpună viéţa?... Să vede c’aĭ
-                    uitatŭ că elŭ nicĭ nu se maĭ scie ce s’a făcutŭ din țéră, sunt acum doĭ anĭ,
-                    sciĭ, de când otărîsemŭ să-ĭ punŭ capulŭ în parŭ, luĭ şi la toţĭ ceĭ-l-alţĭ.</p>
-                <p>— Bine, Măria ta, dér elŭ trăiesce..</p>
-                <p>— Trăiesce! Eĭ! şi décă trăiesce?.. Veleli se teme de Vasile Lupu, Veleli, la alŭ
-                    căruia glasŭ şi nume arŭ trebui să tremure tótă ţéra?...</p>
-                <p>— Măria ta, nu-sŭ în tóte ᶁilele pascele; aŭ tremuratŭ ea de când sunt eŭ robulŭ
-                    Mărieĭ téle, căcĭ de câte orĭ nu tremura, eŭ sciémŭ numaĭ decât s’o daŭ pe
-                    pêrtea eĭ.</p>
-                <p>— Şi de ce numaĭ facĭ şi acum totŭ cum facéĭ atuncĭ?</p>
-                <p>— Amŭ făcutŭ, Măria ta, însă degéba! Odinióră, numaĭ cât bâzîia vr’unŭ satŭ, şi
-                    pe locŭ lŭ liniscémŭ, că mi-ĭ trântémŭ, (după voia Mărieĭ téle), birŭ preste
-                    birŭ, beilicurĭ preste beilicurĭ, până-mĭ striga
-                        <foreign><hi>amanŭ!</hi></foreign></p>
-                <p>— Eĭ, ş’acum cine te împedecă?...</p>
-                <p>— Nime! déră Seimeniĭ pre care-ĭ trimitŭ, ca altă dată, să strîngă birurĭ nu se
-                    maĭ întornŭ; aceĭ pre care-ĭ trimitŭ ca să-şĭ primble sineţele prin sate, totŭ
-                    ca altă dată dór, se vorŭ îngrozi câniĭ de ţĕranĭ,—éră-şĭ nu maĭ daŭ
-                    înapoĭ...</p>
-                <p>— Ce? nu s’aŭ întorsŭ?... Pre toţĭ să mi-ĭ tragĭ în ţépă! Să-ĭ vĕdŭ eŭ, nu maĭ
-                    departe decât mânĭ, înşiraţĭ pe zidurile curţeĭ!</p>
-                <p>— Pré bine, Măria ta, de i-orŭ prinde, se.... Dér Vasile Lupu?</p>
-                <p>— Eĭ, bine?</p>
-                <p>— Măria ta, elŭ e pe aice, pe unde-va, ascunsŭ... Să nu mĕ maĭ aĭ de robŭ Mărieĭ
-                    téle de n’o fi aşĭa!</p>
-                <p>— Grăsesce-lŭ déră!</p>
-                <p>— Nu-ĭ atâta de uşorŭ de a-lŭ găsi pre cât se pare Mărieĭ téle, că-ĭ omŭ agerŭ şi
-                    cu capŭ; nu s’o prinde ca şórecele în capcană... Măria ta, nu-ĭ de şuguitŭ! aŭ
-                    să-ţĭ răpună viéţa... orĭ aŭ să te mazîléscă.</p>
-                <p>— Eleĭ, Veleli! Şi ᶁĕŭ, pre legea mea! pĕcatŭ mare de m’arŭ mazîli!</p>
-                <p>— Pĕcatŭ de totŭ! Măria ta escĭ ca unŭ lucéfĕrŭ când te îmbracĭ în straele
-                    Domnescĭ.... ş’apoĭ şi noĭ ăştie-l-alţĭ, Măria ta, de te-orŭ mazîli, perdemŭ
-                    pânea din mână.</p>
-                <p>— Ce-ĭ de făcutŭ óre, Veleli?... Auᶁĭ! să ne mazîléscă!</p>
-                <p>— Măria ta, pre Vasile Lupu...</p>
-                <p>— Să-ĭ taĭ nasulŭ, să-ĭ taĭ urechile.... să-lŭ tragĭ în ţépă!...</p>
-                <p>— Ca să-ĭ taĭ nasulŭ, să-ĭ taĭ urechile, să-lŭ înţepŭ, trebue să-lŭ fi prinsŭ maĭ
-                    ântêiŭ.</p>
-                <p>— Prinde-lŭ, déră.</p>
-                <p>— Décă eŭ aşĭ avé poronca Mărieĭ téle...</p>
-                <p>— Écă-ţĭ poroncescŭ.... Da maĭ la urmă, Veleli, ce totŭ aştepţĭ să-ţĭ poroncescŭ?
-                    Tu sciĭ pré bine că toţĭ, ca şi tine, suntemŭ aice, uniĭ ca să agonisimu banĭ,
-                    alţiĭ mărire... Fă, dragulŭ meŭ, totŭ ce sciĭ că-ĭ de folosŭ în interesele
-                    nóstre ş’ale prietenilorŭ de naţia nóstră... ş’apoĭ, să bemŭ, să mâncămŭ şi să
-                    petrecemŭ, Veleli..</p>
-                <p>— Décă-ĭ aşĭa, Măria ta, nu rĕmâne decât să-mĭ iscălescĭ ârtia asta, prin care
-                    încuviinţezĭ prinderea luĭ Vasile Lupu...</p>
-                <p>— Ş’a luĭ Săvinŭ, ş’a luĭ Buliuşŭ, ş’a cuĭ veĭ pofti! Adă, Veleli!</p>
-                <p>Şi Iliaşŭ, apropiindu-se de o mésă din mizloculŭ casei, unde eraŭ nisce călimărĭ
-                    de alamă, de brâŭ, sub-în-semnă, fără să citéscă măcarŭ unŭ rendŭ, acéstă hârtiă
-                    ce-ĭ dete Veleli cu sfiélă.</p>
-                <p>— Ţine, Veleli; fă cu ea ce sciĭ.</p>
-                <p>Veleli, primind’o, orĭ cât se stăpâni, nu putu înnăduşi unŭ zîmbetŭ, ce se lăţi
-                    pre subţiratecile luĭ buze şi pre vicleniĭ sĕĭ ochĭ— „E a mea!” murmurâ elŭ
-                    între dinţĭ, cu bucuriă.</p>
-                <p>Profitândŭ acum de momentulŭ cât ministrulŭ Veleli se pregătesce de a eşi, şi
-                    vorbesce cu stăpânulŭ sĕŭ de lucrurĭ puţinŭ importante pentru şirulŭ istorieĭ
-                    nóstre, să ᶁicemŭ câte ceva care să facă maĭ cunoscutŭ cetitoruluĭ caracterulŭ
-                    luĭ Iliaşŭ. Cu inima plămădită de natură în patima cea grozavă a mândrieĭ şi în
-                    setea de mărire, Iliaşŭ, orĭ câtă parte lua şi elŭ din jafurile, din birurile ce
-                    rădica Veleli de pe ţéră, sub felurĭ de denumirĭ, nu era însă maĭ nicĭ o dată
-                    elŭ carele arunca, de la sine, tóte acele birurĭ şi angăriĭ, ce scurgé ţéra. Luĭ
-                    i trebuia mărire; înconjuratŭ de ómenĭ de naţia sa, carĭ scia a profita de setea
-                    luĭ, eĭ ĭ-o potolia prin titlurile pompóse ce, fără de ruşine, i dădé, éră eĭ să
-                    mulţămiaŭ cu ceea ce li se păré maĭ positivŭ: cu baniĭ ce scurgéŭ din ţéră, după
-                    poruncĭ Domnescĭ, pre care, le era pré uşorŭ de a le trage de la Iliaşĭ. — Aşĭa,
-                    acestuia i era de ajunsŭ ca, neocupându-se de nicĭ unŭ interesŭ alŭ ţĕreĭ, să
-                    petrécă ᶁi şi nópte la banchetuirĭ, la petrecerĭ, şi să se védă înconjuratŭ de
-                    nămolulŭ acelŭ de slugăritŭ pre care Domniĭ Moldoveĭ începuseră a-şĭ înfiinţa,
-                    după moda curţeĭ suzerane. De îndată ce Miniştriĭ sĕĭ îĭ procuraŭ cele ce-ĭ
-                    plăcé, puţinŭ i pĕsa luĭ cu ce mizlocŭ făcé eĭ acésta. Şi étă că de nepĕsarea
-                    acésta a luĭ, boieriĭ pămêntenĭ sciuseră profita, în curgere de doĭ anĭ trecuţĭ,
-                    pentru de a rĕsvrăti ţéra asupra luĭ. In deşertŭ Veleli, viclénulŭ Ministru, i
-                    arĕtase de maĭ multe orĭ ce fortună clocotia asupra tuturora, nu atât ca să
-                    scape viéţa luĭ Vodă, ci ca să nu pérdă, eşindŭ Iliaşŭ din Domniă, mizloculŭ de
-                    a se înavuţi. — Domnulŭ rîdé de tóte presupunerile, ce-ĭ arĕta fiara acea
-                    egoistă: —„Aruncă birurĭ nouĕ, Veleli, i ᶁicé elŭ; pune beilicurĭ grele!... Décă
-                    n’aŭ ce face şi gândescŭ la resvrătirĭ, dă-le de lucru!... Ce naiba! tu, care şi
-                    pre mine m’aĭ învĕţatŭ în arta de adomni asupra Moldovenilorŭ, cu asemanea modŭ,
-                    tu acum te temĭ de eĭ?... Tu, Veleli! Ha, ha, ha!...</p>
-                <p>Écă ce felŭ de persóne guvernaŭ biata Moldovă!</p>
-            </div>
-            <div type="chapter" n="2">
-                <head>CAPULŬ II.</head>
-                <head>O jupânésă.</head>
-                <p>Să venimŭ la şirulŭ istorieĭ nóstre.</p>
-                <p>Câte-va minute după ce Iliaşĭ iscălise hârtia luĭ Veleli, acesta eşi. Atunci
-                    Iliaşĭ închise după elŭ uşa cu cheia şi, deschiᶁêndă o altă uşă, ascunsă
-                    într’unŭ colţŭ de părete, dete întrare uneĭ femeĭ.</p>
-                <p>Vêrsta eĭ, (deabia să fiă-avutŭ 18 ani), adăogită de albéţă ca laptele a feţeĭ
-                    séle; ochiĭ sĕĭ maĭ frumoşĭ decât cerulŭ din Maiŭ; totŭ căpuşorulŭ eĭ încununatŭ
-                    de pĕrulŭ celŭ răsucitŭ pe după albulŭ fesŭ; talia sa cea mlădiósă, ce se desina
-                    prin fermenéoa de firŭ rotunᶁită pelângă mijlocu-ĭ trasŭ prin inelŭ şi încinsŭ
-                    de paftale cupetre scumpe, tóte, tóte făcéŭ, din nevăstuica asta o frumuseţă
-                    atâtŭ de rară, că décă aĭ fi întâlnit-o în géna ᶁileĭ, prin vr’unŭ munte séŭ
-                    codru, numaĭ decâtŭ al fi luat’o de vr’o ᶁînă.</p>
-                <p>— Eĭ bine, jupânésă Suzană, i ᶁise Iliaşŭ, luând’o demână şi făcênd’o să şédă pe
-                    divan; acumŭ s’aŭ dusŭ Veleli, poţĭ să mântuĭ...</p>
-                <p>— Măria ta, nu maĭ amŭ nimicŭ de spusŭ, respunse jupânésa cu unŭ glasŭ aşĭa de
-                    dulce cumŭ nicĭ-odată n’a fostŭ cântare ângeréscă.</p>
-                <p>— Dérŭ spune-mĭ, aşĭa să trăescĭ, dragă jupânésă! cine ţi-ĭ bărbatŭ?</p>
-                <p>— Măria ta, mĕ rogŭ de ertare, dér asta nu-ĭ nevoiă să spunŭ.</p>
-                <p>— Şi de ce nu?.. Ce? óre tu nu mĕ iubescĭ, Suzăniţă?</p>
-                <p>— Eŭ să te iubescŭ?.. eŭ, pre Măria ta?..</p>
-                <p>—D’apoĭ firesce! de vreme că ţ’a fostŭ milă de mine şi n’aĭ vrutŭ să cadŭ sub
-                    pumnalele conspiratorilorŭ, pe carĭ aĭ venitŭ să mi-ĭ descoperĭ, să vede
-                    că...</p>
-                <p>— Nu, Măria ta, nu! te’nşelĭ!... n’amŭ avutŭ nicĭ-odată altŭ gândŭ, venindŭ aicé,
-                    decâtŭ acela ca să-ţĭ mântuĭ viéţa... Asta aşĭ fi făcut’o şi pentru celŭ maĭ
-                    mare duşmanŭ alŭ meŭ.</p>
-                <p>— Dér décă acum tu-mĭ escĭ dragă, mie, Suzănicâ?..</p>
-                <p>— Eŭ, Măriei téle... să fiŭ dragă!..</p>
-                <p>— Eacă! şi ce te minunéză asta?.. Décă nu mĕ creᶁĭ...dă-mĭ o guriţă! — Şi
-                    lăsându-şĭ unŭ braţŭ pe după gâtlejulŭ eĭ celŭ delebădă, ascunsŭ sub mulţimea
-                    şirurilorŭ de salbe, maĭ îşĭ apropiese buzele de a le eĭ, dérŭ ea, de odată,
-                    smuncindu-se din braţu-ĭ fugi la uşă şi,cercândŭ s’o deschidă, răcni:</p>
-                <p>— Măria ta, dă-mĭ drumulŭ să mĕ ducŭ!..</p>
-                <p>— Să te ducĭ, Suzănică? ᶁise elŭ, reapropriindu-se de ea ; da eŭ te
-                    iubescŭ?..</p>
-                <p>— Măria ta, lasă-mă!.. aĭ uitatŭ că amŭ bărbatŭ.</p>
-                <p>— Aĭ bărbatŭ!...ş’apoĭ?.. Te-oiŭ despărţi eŭ de dênsulă... Remâĭ cu mine!...</p>
-                <p>— Dă-mĭ drumulŭ, aibĭ milă!..</p>
-                <p>— Nu vréĭ să remâĭ?</p>
-                <p>— Nu! Dă-mĭ drumulŭ!</p>
-                <p>— Ha! ha! ha! şciĭ că eşcĭ poznaşă?. Să-ţĭ daŭ drumulŭ... Par-că amŭ căpiatŭ...
-                    Auᶁĭ d-ta?.. Să-mĭ vie singurică în labă, ş’apoĭ să-ĭ daŭ drumu! Suzana schimba
-                    feţe şi începuse a tremura ca vérga. „Ce amŭ făcutŭ eŭ? ce amŭ făcutŭ?” Ea îşĭ
-                    frângé mânile, pe când Iliaşĭ, în prada uneĭ mârşave pofte, o sorbia cu
-                    ochiĭ.</p>
-                <p>— Ascultă, Suzănică, i ᶁice elŭ, lăsândŭ să isbucnéscă vulcanulŭ ce-ĭ clocoté în
-                    sînŭ; fiĭ a mea!</p>
-                <p>— Eu, a Mărieĭ téle? Nu, cât oiŭ trăi!</p>
-                <p>— Fiĭ a mea, Suzănică, şi-mĭ cere ce-ĭ vré: curţĭ, moşiĭ, salbe; să nu maĭ şciĭ
-                    ce face de multe avuţiĭ!..</p>
-                <p>— Nu-mĭ trebue nimica! bărbatulŭ meŭ are de tóte...dă-mĭ drumulŭ!...Măria ta!...
-                    lasă-mĕ să esŭ!.!</p>
-                <p>— Să eşĭ?.. ha! ha! ha!.. Eĭ! apoĭ, ᶁĕŭ, eştĭ de totŭ poznaşă!.. Să eşĭ?.? Da de
-                    ce aĭ venitŭ? ca să eşĭ?</p>
-                <p>— Măria ta! îndurare!..</p>
-                <p>Şi ea se răpeᶁi spre Iliaşĭ ca şi când arŭ fi vrutŭ să i se arunce la ghenunchĭ,
-                    dér ţinêndŭ ceva cu o mână pe sub fermenea. Doĭ paşĭ și ea era lângă Vodă, cândŭ
-                    o bătaiă agitată în uşă o făcu să sté pe locŭ.</p>
-                <p>— Deschide! deschide! strigă unŭ glasŭ dincolo de uşă.</p>
-                <p>La auᶁirea acestuĭ glasŭ, Iliaşŭ se simţi maĭ la îndămână de cum era când auᶁise
-                    ântâile bătăĭ, căcĭ acum cunoscuse glasulŭ luĭ Veleli</p>
-                <p>— Intră érăşĭ unde aĭ statŭ dineóre, ᶁice elŭ încetŭ cătră Suzana. Şi apoĭ
-                    ne-îngrijindu-se maĭ multŭ de ea, se duce să deschidă uşa, ᶁicêndŭ: intră
-                    Veleli!</p>
-                <p>La numele acesta, Suzana, care nu ascultase porunca luĭ Iliaşĭ, Slobóde unŭ
-                    ţipetŭ prelungitŭ şi înainte de ce să fiă intratŭ acela, ea se răpede ca
-                    fulgerulŭ, se lovesce peptŭ în peptŭ cu elŭ, şi în fuga mare trece
-                    coridórele...</p>
-                <p>Iliaşĭ vré s’o urmăréscă, déră Veleli apucându-lŭ de póla roşeĭ séle giubele: —
-                    Stăĭ, Măria ta! nu-ĭ vreme acumŭ de petrecutŭ...</p>
-                <p>— Ce este? strigă elŭ, cu mâniă.</p>
-                <p>— Suntemŭ perduţĭ!...ţéra-ĭ în picióre!</p>
-            </div>
-            <div type="chapter" n="3">
-                <head>CAPULŬ III.</head>
-                <head>Monastirea</head>
-                <p>Cu douĕ ᶁile înainte de cele ce se petrecură la curte, étă ce se urma în altă
-                    parte.</p>
-                <p>Cetitorulŭ meŭ bine-voéscă a merge cu mine pre drumulŭ ce duce la mânăstirea.....
-                    acea mânăstire ce se înalţă singură în mizloculŭ codrilorŭ betrânĭ, ca o insulă
-                    mică în mizloculŭ oceanuluĭ.</p>
-                <p>După o ᶁi călĕtoriă prin pădurĭ, munţĭ cărunţĭ şi văĭ nesvârşite, încinse de
-                    pârae ca de nisce brăe de argintŭ, étă că noĭ sosimŭ. Biserica principală între
-                    chiliă e, ca într’o cutiă fără capacŭ, împodobită de icóne şi de tablourĭ din
-                    sânta scriptură, care de care maĭ rĕŭ, maĭ ciudatŭ zugrăvite. Să trecemŭ răpede
-                    délungulŭ cerdaculuĭ, pe la vr’o ᶁece uşĭ, ş’ajungêndŭ la alŭ unspieᶁecea (acea
-                    dinaintea căreia se vĕdŭ doĭ salcâmĭ) să intrămŭ. Casa mobilată fórte simplu, ca
-                    orĭ ce chiliă călugăréscă, este însĕ de o curăţiă şi o regulă de minune. Pre unŭ
-                    divanŭ, aşternutŭ cu scórţe de ţéră, bine ţesute şi feluritŭ vĕrgate, stă
-                    jupânésă tênĕră, de o frumuseţă mare. Lîngă ea o scrisóre deschisă, dovedesce că
-                    a cetit-o. Acumŭ însă cu ochiĭ gânditorĭ, ea nu-şĭ póte opri unŭ zîmbetŭ
-                    fericitŭ ce-ĭ scóte o copiliţă de doĭ spre treĭ anĭ, care de la capĕtulŭ
-                    divanuluĭ se dă dea dură ca o rótă, spre braţele jupâneseĭ, riᶁêndŭ cu rîsulŭ
-                    celŭ cerescŭ alŭ vĕrsteĭ séle, pe cândŭ lîngă unica mésă de lemnŭ, de lângă
-                    feréstra cea mică, ce lumină casa cu o luminŭ nesigurŭ, unŭ băetŭ de vr’o 12—13
-                    anĭ, frumosŭ dér palidŭ ca o frunᶁă în tómnă, întórce mereŭ filele unuĭ
-                    céslovŭ.</p>
-                <p>Cetitorulŭ cunósce, póte, pre acéstă jupânésă de jupânésa luĭ Lupu, cu copilaşiĭ
-                    sĕĭ, Ionică şi Rucsăndiţa. De nevoiă este sĕ spunŭ însă cum se face că familia
-                    luĭ Lupu e la monastirea acéstă.</p>
-                <p>Să-şĭ amintéscă cetitorulŭ de ᶁioa aceea în care Lupu îşĭ pomĭ de a casă jupânésa
-                    cu copiiĭ. Atuncĭ nu era de nevoiă ca acum, să sciă cetitorulŭ meŭ, că Lupu îşĭ
-                    trimité familia să locuéscă la acéstă monastire, singurele locurĭ, carĭ eraŭ maĭ
-                    respectate până şi de Domniĭ ceĭ rĕĭ. N’amŭ nevoiă dér să maĭ spunŭ şi că de
-                    atuncĭ nicĭ o singură ᶁi, jupânésa cu copiiĭ nu maĭ eşiseră din monastire, unde
-                    din timpŭ în timpŭ venia bărbată-sĕŭ s’o véᶁă, séŭ i trimité scire de elŭ prin
-                    vr’unŭ răvaşŭ Tóte cunoscinţele de pe la oraşe ale jupâneseĭ luĭ Lupu se minunaŭ
-                    de dispărerea eĭ, dér nime nu putu afla unde se adăpostise ea.</p>
-                <p>Acum sĕ urmămŭ.</p>
-                <p>— Ce facĭ tu, acolo, Ionică, întrébă jupânésa pre băétŭ, vĕᶁêndu-lŭ că de unde
-                    voiosŭ se juca, devenise tristŭ şi cu mânica scurteiceĭ séle se silea să frece o
-                    pétă de cernélă, ce găsise pe o féţă din céslovulŭ sĕŭ.</p>
-                <p>— Mamă, uită-te că mĭ-a mânjitŭ cartea, Fluturelŭ.</p>
-                <p>— Cine ţ’a mânjit-o?</p>
-                <p>— Fluturelŭ, mămucă, băétulŭ celŭ de la maica stariţa.</p>
-                <p>— De aceea escĭ măhnitŭ?</p>
-                <p>— D'apoĭ mămucă... tata are să socótă că amŭ mânjit-o eŭ, şi elŭ mi-a ᶁisŭ
-                    dăunăᶁĭ, să mĕ silescŭ să fiŭ omŭ de omeniă şi să nu-mĭ mânjescŭ cartea.</p>
-                <p>— Dute dér de chiamă pre Fluturelŭ să-lŭ ocărăscŭ că ţi-a mânjit-o.</p>
-                <p>Băétulŭ purcese, dar când fu aprópe de uşă: Nu-lŭ maĭ ocărî, mămucuţă, ᶁise elŭ,
-                    cu accentŭ de totŭ rugătoriŭ, ca sĕ nu plângă bietulŭ Fluturelŭ... că a
-                    greşitŭ..</p>
-                <p>— Jupânésa îşĭ aţinti ochiĭ cu dragoste spre icóna din părete şi căuta par’că pre
-                    D-ᶁeŭ să-ĭ mulţăméscă de bunulŭ sufletŭ ce elŭ dăruise copiluluĭ, apoĭ cu
-                    blândeţe, cătră acesta: „Nu te teme, drăguţule; dute de-lŭ chiamă să-lŭ vĕdŭ şi
-                    eŭ”</p>
-                <p>Băétulŭ eşi, Rucsăndiţa se lăsă să lunece repede la pămêntŭ, de pe naltulŭ divanŭ
-                    şi se îndreptâ spre uşă.</p>
-                <p>— Unde te ducĭ Săndiţă? o întrebă mumă-sa.</p>
-                <p>— Vine <hi>Fluturelŭ</hi>, mamă, vine Fluturelŭ! Şi voiósă, ea se ascundé sub o
-                    laviţă de lângă uşă.</p>
-                <p>Ionică îndată intră aducêndŭ de mână pre ruşinosulŭ Fluturelŭ, unŭ băeţelŭ de
-                    vr’o 6 anĭ, cu părulŭ creţŭ şi cu ochiĭ micĭ ca de tătarŭ, frumuşelŭ ca unŭ
-                    ângerașŭ.</p>
-                <p>Ionică, ruga cu, ochiĭ pre jupânésa să-şĭ ţină cuvêntulŭ ce-ĭ dase, de a nu ᶁice
-                    nimica luĭ Fluturelŭ. Ea-lŭ sărută, şi-lŭ desmérdă, şi nu vede încă pre
-                    Rucsăndiţa, care o durea guriţa de cândŭ, de sub laviţă, pe sub scórţa ce
-                    spânᶁura până josŭ, scoţêndu-şĭ căpuşorulŭ ᶁicé, „Iţiĭ! Fluturelŭ! Iţiĭ
-                    Fluturelŭ!”</p>
-                <p>Dér décă jupânésa nu auᶁia pre copiliţă, nu era aşa şi cu Fluturelŭ; elŭ de o
-                    dată de sub mâna jupâneseĭ, care-lŭ desmierda, se răpede spre laviţă, ᶁicêndŭ şi
-                    elŭ: „Iţiĭ! Iţiĭ!”</p>
-                <p>Apoĭ copila, eşindŭ de sub laviţă şi tîrîndu-lŭ de mână lîngă jupânésă, strigă:
-                    mamă, écă Fluturelŭ!</p>
-                <p>— A cuĭ escĭ tu, drăguţă? lŭ-întrebă jupânésa.</p>
-                <p>Băétulŭ rĕspunse ceva într’o limbă strĕină.</p>
-                <p>— Nu póte vorbi mămucă, ᶁisă Ionelŭ.</p>
-                <p>— Ba nu scie vorbi limba ta, băete, respunse jupânésa, înţelegêndŭ acesta, ea, şi
-                    astă dată încredinţându-se chiar şi din fisionomia băétuluĭ.</p>
-                <p>In momentulŭ acesta intrâ o maică de vr’o 18 anĭ, frumósă ca şi jupânésa.</p>
-                <p>— Eĭ bine, măicuţă Csenie? întrébă acésta.</p>
-                <p>— S’a pusŭ la cale; îmĭ dă voiă...</p>
-                <p>— Iţĭ dă?... Ionică ié pre Rucsăndiţa şi duceţivĕ de vĕ jucaţĭ prin cerdacŭ cu
-                    Fluturelŭ Copiiĭ eşiră.</p>
-                <p>— Iţĭ dă voiă? repetă ea érăşi cătră juna maică.</p>
-                <p>— Aşĭa, jupâneşică.</p>
-                <p>— De-ĭ aşĭa, să nu perdemŭ timpulŭ! — Bărbatu-meŭ mi-a scrisŭ că nu maĭ departe
-                    decât poimânĭ are să isbucnéscă rescóla... E vreme încă..</p>
-                <p>Aşĭa, să ne grăbimŭ. să nu perdemŭ timpulŭ! — Mâne voiŭ fi acolo, şi poimâne,
-                    ajutându-mĭ D-ᶁeŭ, ţéra-i mîntuită şi bărbatulŭ d-téle, jupâneşică, scăpatŭ de
-                    primejdiă.</p>
-                <p>— O! măicuţă! dragă măicuţă! D-ᶁeŭ ţi’o ţiné în sémâ fapta asta mare! — Apoĭ
-                    dintr’unŭ săcrieşŭ jupânésa scósă unŭ rîndŭ completŭ de straie de ale séle şi
-                    îmbrăcă cu ele răpede pre maica.</p>
-                <p>— Aşĭa, escĭ de totŭ frumósă! nicĭ ângeriĭ nu ţi-arŭ puté resiste. Privesce-mĕ,
-                    bine! Aĭ fermeca cu albaştriĭ tĕĭ ochĭ nu numaĭ pre unŭ pĕcătosŭ ca dênsulŭ, dér
-                    şi pre celŭ maĭ mare împĕratŭ!..</p>
-                <p>— Óre mĕ póte cunósce cine-va?...</p>
-                <p>— Nime, câtu-ĭ lumea!</p>
-                <p>— Nicĭ?..</p>
-                <p>— Cine, Veleli?</p>
-                <p>— Ah! mĕ rogŭ, nu maĭ rosti numele luĭ celŭ...</p>
-                <p>— Spurcatŭ... de ce?... Din contra, lasă să-lŭ rostescŭ. Haide! să te vedemŭ!
-                    Acum ţi-e vremea să-ĭ resplâtescĭ ticăloşia la care te-a adusŭ...</p>
-                <p>— Ah! nu! nu-mĭ simtŭ curagluĭŭ...</p>
-                <p>— Incă-lŭ iubescĭ, sĕrmană măicuţă!..</p>
-                <p>— Nu, nu-lŭ maĭ iubescŭ!... Nici că potŭ să-lŭ iubescŭ, de când din causa luĭ, ca
-                    să nu fiŭ arĕtată cu degetulŭ, amŭ îmbrăcatŭ rasa.... Nu! jupâneşică, nu-lŭ maĭ
-                    iubescŭ, déră... să-ĭ facŭ vr’unŭ rĕŭ...</p>
-                <p>— Fiă! dér celuĭ-l-altŭ?</p>
-                <p>— Luĭ Iliaşŭ? O! de elŭ nu-ĭ vorbă! ţéra săraca nu maĭ póte sub ticăloşiile
-                    luĭ... Privesce, pumnarulŭ acesta fórte ascuţitŭ.</p>
-                <p>Şi arétă unŭ junghieriŭ, ce-lŭ ascunsese în sînŭ, sub fermenéoa de firŭ, cu care
-                    o îmbrăcase jupânésa.</p>
-                <p>— Aşĭa, strigâ şi acésta, înfocată de curagluĭŭ maĭceĭ; mórte! mórte călâuluĭ
-                    atâtorŭ boierĭ!... mórte asupritoruluĭ bieteĭ moşiĭ, mórte luĭ Iliaşŭ, carele
-                    are de scopŭ să mănânce ᶁilele draguluĭ meŭ!</p>
-                <p>— Jupânésă, liniscesce-te! Poimâne boierulŭ d-téle şi cu ţéra se vorŭ fi
-                    rĕsvrătitŭ de prisosŭ, căci mulţămită junghieruluĭ ăstuĭa, de icé, ticălosulŭ de
-                    Iliaşŭ nu va maĭ fi ca să le sté împotrivă.</p>
-                <p>— Bine! Acum spune-mĭ, drăguliţă, cum aĭ să facĭ să strĕbaţĭ până la elŭ?</p>
-                <p>— Ajungŭ la curte, cerŭ degrabă să intru la Măria sa Vodă....</p>
-                <p>— Dér de n’orŭ vré să te lase?...</p>
-                <p>— Spunŭ că amŭ venitŭ să-ĭ scapŭ ᶁilele de unŭ complotŭ...</p>
-                <p>— Nu cum-va să facĭ una cât asta!</p>
-                <p>— De ce?</p>
-                <p>— Dér bărbatu-meŭ, dér atâţia boierĭ pre carĭ i-aĭ perde?...</p>
-                <p>— Aştéptă; spunŭ aşĭa, eŭ sunt îndată primită... Mĕ uitŭ la elŭ galişŭ... elŭ
-                    îndată mĕ’ntrébă ce vréŭ...eŭ i spunŭ, fără să-ĭ numescŭ pre nime, să-şĭ feréscă
-                    ᶁilele că-sŭ în pericolŭ... Apoĭ mĕ prefacŭ, înţelegĭ, ca şi când mi-arŭ fi
-                    dragŭ, afurisitulŭ... Apoĭ...</p>
-                <p>— Apoĭ? — Elŭ mĕ opresce, după obiceluĭŭ luĭ celŭ spurcatŭ... Se întinde maĭ
-                    mulŭ; îlŭ lasŭ, să mĕ coprindă în braţe, şi mi-ţĭ împlântŭ în inimă-ĭ pumnarulŭ
-                    ăsta, şi fugŭ.</p>
-                <p>— A! maică! făcu jupânésa, îngrozită de crudulŭ eĭ curagiŭ.</p>
-                <p>— Ce? te’nfiorĭ? — Aĭ vré maĭ bine să veᶁĭ stingêndu-se ţéra ta? să-ţĭ veᶁĭ în
-                    ţépă, auᶁĭ jupânésă, în ţépă pre soţulŭ tĕŭ?.. Nu! eŭ facŭ treĭ lucrurĭ bune
-                    ucigêndulŭ; l-iŭ, mântuescŭ moşia, alŭ 2-lea, bărbatulŭ d-téle nu maĭ e în
-                    pericolŭ, şi alŭ 3-lea, eŭ.... <hi>eŭ sunt rĕsbunată de trădarea luĭ!</hi></p>
-                <p>— Ce ᶁicĭ... elŭ?</p>
-                <p>— Veĭ sci altă dată; haide! timpulŭ trece... Să te vĕdŭ sănătósă,
-                    jupâneşică...</p>
-                <p>Unŭ rĕdvanŭ o priimi la pórta mănăstireĭ. Éră jupânésa, înmărmurită de tonulŭ eĭ
-                    plinŭ de resbunare, acoperindu-şĭ féţa cu albele séle mânĭ, lăsâ să clocotéscă
-                    în bunulŭ eĭ sufletŭ, fortuna de frică, de grijĭ şi de mustrărĭ de cugetŭ, ce
-                    înnăscuse în elŭ ideea, că omorulŭ ce avé să facă maĭca, era cu a sa sciinţă şi
-                    învoire!</p>
-            </div>
-
-            <div type="chapter" n="4">
-                <head>CAPULŬ IV.</head>
-                <head>Conspiratoriĭ</head>
-                <p>Intre aceste, ţéra, care <hi>ferbêndŭ de greutăţĭ şi netocmelĭ</hi>, pré lesne se
-                    pornise de către boierĭ, sub povăţuirea şi înrîurirea cea puternică a luĭ Lupu,
-                    era acum gata. Flăcăĭ, năimiţĭ, seimenĭ fugiţĭ de la Domniă, aproᶁĭ, sate
-                    întregĭ aşteptaŭ numaĭ semnalulŭ, ca să năbuşéscă asupra Iaşilorŭ.</p>
-                <p>Tómna începuse a îmbrăca natura cu palida sa mantie. — Intr’o ᶁi (a doua de la
-                    ᶁioa aceea în care vĕᶁurămŭ pre maica csenia séŭ jupânésa Suzana, neisbutindŭ în
-                    planulŭ eĭ de a ucide pre Iliaşŭ), pre când razele rubinóse a le geneĭ ᶁileĭ,
-                    resfrânte în albiĭ nouraşĭ de aburĭ ce împrejuraŭ ca unŭ brâŭ de gazŭ pólele
-                    munţilorŭ, vestiaŭ curênda ivire a sóreluĭ, de o dată codriĭ din prejnrulŭ
-                    Iaşilorŭ clocotiră de buciume. Eco nu maĭ repeta decât nótele apeluluĭ, nótele
-                    care chiăma o ţéră întrégă, obosită de tiraniĭ sĕĭ, la mântuire, la ᶁile maĭ
-                    fericite.</p>
-                <p>Pré când maĭ multŭ de 50 de buciumătorĭ aşeᶁaţĭ din zare in zare îndemnaŭ pasulŭ
-                    trupelorŭ, carĭ din deosebite puncturĭ avéŭ să se întrolóce într’o întinsă poénă
-                    din aceştĭ codri; acolo, câte-va sute de Seimenĭ, arcaşĭ şi sineţaşĭ şi o
-                    mulţime de junĭ sătenĭ, înarmaţĭ de cóse şi de topóre, deşertaŭ unŭ polobocŭ de
-                    vinŭ, din carulŭ, împrejurulŭ căruia stătéŭ grămădiţĭ, închinândŭ mereŭ la
-                    pahare, când întru mântuirea moşieĭ, când în sănătatea căpitanuluĭ Lupu.</p>
-                <p>Şi căpitanulŭ Lupu era cu eĭ. Şeᶁêndŭ pe unŭ trunchiŭ de arbore tăiatŭ, cerceta,
-                    în aşteptarea sosireĭ celorŭ l-alţĭ boierĭ cu satele lorŭ, numărulŭ trupelorŭ de
-                    care avé să dispună.</p>
-                <p>Ca o rază ceréscă înseninâ mândra luĭ frunte, când se asigurâ de întinsele
-                    şirurĭ, în fruntea cărora elŭ nu era la îndoială, că va isbuti să mântuéscă
-                    moşia. — „Beţĭ, băeţĭ! striga elŭ din timpŭ în timpŭ. Umpleţĭ cupele şi beţĭ în
-                    sănătatea căpitanilorŭ Buhuşŭ, Savinŭ şi Urechiă, carĭ curêndŭ vorŭ să
-                    soséscă!</p>
-                <p>— Să trăéscă căpitaniĭ! Ura!...</p>
-                <p>— Să trăiţĭ băeţĭ! să trăimŭ cu toţiĭ copiĭ! Să ne ajute D-ᶁeŭ, ca să mântuimŭ
-                    biata nóstră moşiă de lighiónele aceste hămesite, de lighiónele aceste, carĭ nu
-                    se satură că béŭ sudórea feţeĭ vóstre, dér încă şi d-vóstră şi nouă ne
-                    necinstescŭ până şi muierile şi feciórele...</p>
-                <p>— Să móră! să móră! urlară miĭ de glasuri totŭ-de-odată.</p>
-                <p>— Aşĭa, băeţĭ! dér tăcere! auᶁiţĭ voĭ acele tropote de caĭ, acele glasurĭ ce
-                    clocotescŭ ca vuetulŭ de la o sută de morĭ la unŭ locŭ?... Iea suiţi-vĕ, băeţĭ,
-                    câţĭ va pre arborĭ, de zăriţĭ, de vinŭ fraţĭ de-aĭ noştrĭ séŭ niscaĭ
-                    duşmanĭ.</p>
-                <p>— Fraţĭ! fraţĭ! strigară maĭ mulţĭ flăcăĭ, carĭ îndepliniseră porunca
-                    Căpitanuluĭ.</p>
-                <p>In adevĕrŭ, preste câte-va minute poéna şi pădurea tótă gemé de mulţimea ticsită
-                    de ostaşĭ şi ţĕranĭ, carĭ sosiaŭ din tóte părţile, strigândŭ: — Să trăéscă
-                    jupânulŭ Lupu! Să trăéscă Hatmanulŭ Savinŭ, jupânulŭ Buhuşŭ şi jupânulŭ Urechiă!
-                    — Să móră Iliaşŭ cu lighiónele luĭ!</p>
-            </div>
-            <div type="chapter" n="5">
-                <head>CAPULŬ V.</head>
-                <head>Scrisórea.</head>
-                <p>Pre când aceste să petrecéŭ în pădure, într’o curţişóră de la Iaşĭ, din Beilicŭ,
-                    găsimŭ pre unulŭ dintre cunoscuţiĭ noştriĭ.</p>
-                <p>Acesta-ĭ Veleli. — Elŭ numĕra, cu ochiĭ holbaţĭ şi scânteitorĭ, în momentulŭ
-                    acesta, nisce grămăᶁĭ de banĭ, pre caiĭ le resturnase pre divanŭ, din maĭ multe
-                    óle, ce scosese de sub podelele patuluĭ.</p>
-                <p>— Ié aşĭa! ᶁicé elŭ, după ce toţĭ baniĭ numĕraţĭ şi legaţĭ în pungĭ de pele i
-                    pusă érăşĭ în óle la loculŭ lorŭ; ié aşĭa!... să fiă gata toţĭ bănişoriĭ... şi
-                    numaĭ câtŭ s'orŭ ivi blăstemaţiĭ ceea, pe la capĕtulŭ têrguluĭ, eŭ îmĭ apucŭ
-                    drumulŭ pe la cel-l-altŭ capĕtŭ... Dérŭ Iliaşŭ? Eĭ! scape cumŭ va puté!... Când
-                    i-amŭ spusŭ ierĭ de adoua óră vestea ce-mĭ adusese Gurdă, că conspiratoriĭ aŭ să
-                    năbuşéscă cât de curêndŭ, elŭ s’a supĕratŭ încă că l’amŭ făcutŭ de-a scăpatŭ din
-                    mânĭ o muiere! — Maĭ la urmă, ce-mĭ pésă! de nu-ĭ place să pórte capulŭ pe
-                    umere, sté să-i-lŭ pună Vasile Lupu alăturé... Eŭ n’amŭ gustŭ însă de acésta.
-                    Cum voiŭ simţi bâziindŭ prin târgŭ, iute calulŭ şi bine-cuvêntatŭ fiă numele
-                    ţĕreĭ acesteĭ. din care, din golŭ ce amŭ venitŭ. mĕ ducŭ încărcatŭ de averĭ...
-                    Eĭ! pĕcatŭ numaĭ decum-va Grurdă mi-a fi făcutŭ la mănăstire tréba cu care l’amŭ
-                    însĕrcinatŭ şi n’aşĭ avé vreme să... Mare pĕcatŭ arŭ fi, căcĭ ea este frumósă de
-                    totŭ, se ᶁice!.. Şi éră halalŭ de arŭ isbuti la ea Grurdă cu scrisórea ceea!..
-                    M’aşĭ fi dusŭ eŭ însumĭ s’o întâlnescŭ la monăstire, dér acolo-ĭ afurisita cea
-                    de călugăriţă... şi de aşĭ da ochĭ cu dênsa apoĭ mi-arŭ strica totŭ planulŭ pe
-                    lângă <hi>jupânésa</hi>.</p>
-                <p>— Cine-ĭ acolo? strigă elŭ de-odată, auᶁindŭ nişce păsurĭ în tindă.</p>
-                <p>— Eŭ, Măria ta, eŭ, robulŭ Mărieĭ téle, respunse unŭ glasŭ grosŭ şi scărţiitorŭ
-                    ca unŭ carŭ neunsŭ.</p>
-                <p>— Tu escĭ, măĭ Gurdă?</p>
-                <p>Intră unŭ ţiganŭ urîtŭ, buzatŭ şi negru ca pĕcatulŭ.</p>
-                <p>— Ce eştĭ aşĭa de opăritŭ? întrebă Veleli, vĕᶁêndŭ féţa îngrozită ce făcé
-                    ţiganulŭ. Acesta se aruncă în genunchĭ, cu féţa la pămêntŭ: — „ Omóră-mĕ Măria
-                    ta!.. Fă ce-ĭ vré cu mine!...”</p>
-                <p>— Ce-aĭ făcutŭ, câne fără de lege?</p>
-                <p>Veleli presimţi o nenorocire, după fioriĭ ceĭ recĭ ce fiă-care cuvêntŭ alŭ
-                    ţiganuluĭ, i trecé în inimă; ce aĭ făcutŭ, tâlharule?</p>
-                <p>— Măria ta amŭ perdutŭ...</p>
-                <p>— Aĭ perdutŭ scrisórea? ur’ă Ministrulŭ. resturnândŭ cu piciorulŭ pre ţiganŭ,
-                    care-le se buşi cu capulŭ de uşă.</p>
-                <p>— Omóră-mĕ! Măria ta...</p>
-                <p>Veleli rĕmase gânditoriŭ o clipă.</p>
-                <p>— Minţeşcĭ! strigă apoĭ, minţeşcĭ! n’aĭ perdut’o, câne de ţiganŭ; aĭ dat’o luĭ
-                    Lupu... Spune!că de nu, te ucidŭ ca pe unŭ câne ce escĭ!</p>
-                <p>Ţiganulŭ, mârşava unéltă cu care se servia Veleli la aducerea în împlinire a
-                    orĭ-ce pofte şi planurĭ ticălóse d’ale séle, pentru întâeaşĭ-dată póte în viaţa
-                    luĭ spuné adevĕrulŭ, când, ameninţatŭ de paloşulŭ luĭ Veleli, ᶁicé tremurândŭ de
-                    frică; „Stăpânule! milostivule!... écă-ţĭ spunŭ tocmaĭ adevĕrulŭ: n’amŭ
-                    perdut’o...</p>
-                <p>— Ce-aĭ făcutŭ dérŭ cu ea, ticălosule?</p>
-                <p>Ţiganulŭ era se respundă, când unŭ neaşteptatŭ personagiŭ respunse pentru elŭ din
-                    tindă:</p>
-                <p>— Nu! n'a perdut’o, căcĭ étă-o la mine.</p>
-                <p>Glasulŭ acesta era alŭ Vorniculuĭ Vasile Lupu, carele intrâ pe când Veleli
-                    remăsese înmărmuritŭ în poziţia sa. — Lupu îşĭ, îndreptă de la pragulŭ uşeĭ
-                    sinéţa spre Veleli.</p>
-                <p>— Josŭ paloşulŭ, orĭ te oborŭ pre tine jos, ticălosule! strigă elŭ cu unŭ tonŭ
-                    aşĭa de ameninţătorŭ, că ticălosuluĭ ministru nicĭ-o minută nu-ĭ trecu prin
-                    gândŭ să se-’mpotrivéscă vroinţeĭ luĭ.</p>
-                <p>Apoĭ când greculŭ fu desarmatŭ, Lupu scoţêndŭ din brâŭ o carte:</p>
-                <p>— Ascultă, strigă elŭ, cu unŭ glasŭ cumplitŭ:</p>
-                <quote type="letter">
-                    <p>Jupânésă Vornicesă!</p>
-                    <p>Bărbatulŭ d-téle, Vorniculŭ Vasile Lupu aflatu-l-amŭ domnia nóstră că âmblă
-                        să facă svóne asupră-ne; deci étă că Domnia nóstră cercetat’amŭ de elŭ în
-                        tótă ţéra şi l’amŭ aflatŭ unde este, şi otărit’amŭ credincióseĭ nóstre
-                        slugĭ, luĭ Logof.-Veleli să-’lŭ prindă şi să-ĭ taie nasulŭ, dupre cumŭ se
-                        face la toţĭ aceĭ ce âmblă după Domniă; însă étă că aséră prinsu-l’a pre
-                        bărbatulŭ, d-le, pre Vornicu Vasile Lupu şi poĭ-mâne, otărît’amŭ Domnia
-                        nóstră, slugeĭ nóstre Logofĕtuluĭ Veleli să-ĭ taĭe nasulŭ şi urechile. — Dér
-                        d-ta, jupânésă, décă vréĭ, poţĭ să-lŭ mântuescĭ de la acéstă a nóstră dréptă
-                        urgiă, viindŭ singură la curte să dovedescĭ dumisale Boeruluĭ Veleli,
-                        precumŭ că bărbatulŭ d-téle,nu-ĭ vinovatŭ.</p>
-                    <p>Iscălitŭ: <hi>Alecsandru Iliaşŭ</hi>.</p>
-                </quote>
-                <p>— Tâlharule! strigă Lupu, după ce ceti acéstă scrisóre; tâlharule!.. ce însemnéză
-                    acéstă carte?.. Acumŭ degrabă să-mĭ spuĭ de ce făcéţĭ să-mĭ vină femeea la
-                    Iaşĭ... la domniă?... Respunde, că-'mĭ slobodŭ sinéţa în tine, câne fără de
-                    lege!..</p>
-                <p>Nicĭ-odată, de când mamă-sa îlŭ născuse, într’o oră de mâniă a luĭ D-ᶁeŭ asupra
-                    Moldoveĭ, Veleli nu tremurase de gróză ca la auᶁirea acesteĭ poruncĭ, sine qua
-                    non, prin care i se cerea tălmăcirea scrisóreĭ aceleia, pre care cetitorulŭ
-                    sperŭ că-şĭ amintesce cu ce chipŭ fu iscălită de Iliaşŭ.</p>
-                <p>— Jupâne Vornice, ᶁicé elŭ, tremurândŭ fiă-care cuvêntŭ; aibĭ milă de mine, să nu
-                    morŭ în ţéră străină... că nu-’sŭ vinovatŭ!.. Măria sa Vodă a trimisŭ astă
-                    scrisóre, dupre cumŭ veᶁĭ... eŭ nu şciŭ de ea...</p>
-                <p>— Minţescĭ. neruşinatule!</p>
-                <p>— Pe D-ᶁeulŭ meŭ, mĕ jurŭ!..</p>
-                <p>— Minţescĭ, féră spurcată!..</p>
-                <p>— De ce ᶁicĭ că minţescŭ, jupâne Vasile?... Pe vluĭŭ Isusŭ..</p>
-                <p>—Sfârşesce!.. — Scólă în picióre, măĭ Gurdă şi spune-mĭ aice ce mi-aĭ spusŭ în
-                    drumŭ, unde mi te-amŭ prinsŭ...</p>
-                <p>Ţiganulŭ se ridică, déră nu rĕspunse.</p>
-                <p>— Ce aĭ? adaose Lupu...</p>
-                <p>— Măria ta, eŭ ţ’amŭ spusŭ...</p>
-                <p>Greculŭ Veleli êşĭ oprise până şi resuflarea. Ca suspendatŭ de buzele ţiganuluĭ,
-                    elŭ aştepta să-lŭ audă rostindu-ĭ sentinţa séŭ mântuirea.</p>
-                <p>— Ce mi-aĭ spusŭ? strigă Lupu, în nerăbdare, vĕᶁêndŭ că ţiganulŭ se-'ntrerupse
-                    de-o-dată: urméză! că pre legea mea...</p>
-                <p>Lupu nu băgă de sémă la unŭ gestŭ ce greculŭ făcu ţiganuluĭ, pe furişŭ, unŭ gestŭ
-                    fórte însemnătorŭ, care s'arŭ fi pututŭ traduce prin: nu spune şi ţ’oiŭ da banĭ
-                    mulţĭ!</p>
-                <p>— Amŭ spusŭ, urmă în sfârşitŭ ţiganulŭ, nedumeritŭ în alegerea ameninţărilorŭ de
-                    mórte a le luĭ Lupu, şi a făgăduinţeĭ de banĭ a luĭ Veleli; amŭ spusŭ că Măria
-                    sa...</p>
-                <p>— Cine, eŭ? urlă Veleli, rezemându-se de o laviţă ce era aprópe de elŭ.</p>
-                <p>— Nu, Măria sa Vodă m’a trimisŭ...</p>
-                <p>— Minţescĭ, tâlharule!... adevĕrulŭ, orĭ nu maĭ veᶁĭ altŭ sóre ca acuma
-                    resĕrindŭ! adaose Lupu, pe fruntea căruĭa se juca în acelŭ momentŭ o raᶁă
-                    aurită, ce sórele trimité prin o feréstră naltă, ce lumina întunecósa locuinţă
-                    secretă a Ministruluĭ. Ţiganulŭ, orĭ-cât de încuragiatŭ se simţise de gestulŭ
-                    celŭ sublimŭ alŭ luĭ Veleli, începu să tremure ca vérga, la ameninţarea luĭ
-                    Lupu. Elŭ se asvêrli érăşĭ în genunchĭ şi începu a săruta vêrfulŭ
-                    încălţămintelorŭ Vorniculuĭ: — Măria ta! măria ta! aibĭ milă... amŭ
-                    copilaşĭ!.</p>
-                <p>Bietulŭ Vorniculŭ, care, o clipăînainte, în culmea furieĭ şĭ-a indignăriĭ ştergea
-                    sudorĭ recĭ de pe-’nalta sa frunte, elŭ, la cuvêntulŭ de <hi>copilaşŭ</hi>,
-                    simţi leşinândŭ dininima luĭ şi furiă şi idignare; suvenirulŭ copilaşilorŭ seĭ
-                    se deşteptă, o amară disperare şi obosélă i cuprinseră sufletulŭ, încâtŭ elŭ nu
-                    maĭ avu putere să ţină sinéţa în mână; ea căᶁu pe podélă târîndŭ cu dânsa cea
-                    maĭ de pe urmă scântee de mâniă din inima luĭ, şi ca unŭ omŭ ce se îngrozesce de
-                    fapta ce era să facă, êşĭ ascunse cu durere capulŭ în mânile sale cele
-                    puternice.</p>
-                <p>— Amŭ trecut’o la rĕbojĭ şi pre muĭerea ta! urlă deodată la feréstră, pe
-                    din-afară, unŭ glasŭ care deşteptâ ca cu o lovitură de pumnalŭ, pre bunulŭ
-                    Lupu.</p>
-                <p>Baptiste nu maĭ era în cămară. Ca fulgerulŭ elŭ profitândŭ de abaterea luĭ Lupu
-                    se şi răpeᶁise afară. Acumŭ fugé spre curte în fuga jmare, ne-atingêndŭ
-                    pămêntultŭ şi resturnândŭ pre toţĭ ceĭ din calea sa.</p>
-                <p>— Stăĭ Căpitane! Aidemŭ! sórele-ĭ susŭ, strigă unŭ seimenŭ, care eşi de sub
-                    gârlicluĭŭ uneĭ pivniţe şi mi-şŭ încleştă braţulŭ seŭ de ferŭ asupra braţuluĭ
-                    luĭ Lupu, care se pregăté, în renăscuta sa furiă, să urmeze după Veleli.</p>
-                <p>— Aĭ dreptate! respunde elŭ, simţîndu-şĭ inima sa în prada seteĭ de resbunare şi
-                    a datorinţilorŭ ce nobilulŭ sĕŭ sufletŭ i împunea; aĭ dreptate! înainte de tóte
-                    moşia! — Şi încălecândŭ pe roĭbulŭ ce-ĭ prezenta seimenulŭ, dispăru ca o săgétă,
-                    avêndŭ pre seimenŭ dinapoia sa.</p>
-            </div>
-
-            <div type="chapter" n="6">
-                <head>CAPULŬ VI.</head>
-                <head>Una din ᶁilele cele frumóse ale Moldoveĭ</head>
-                <p>Câte-va ore după acésta, pe când sórele se rădicase de vr'o patru suliţĭ de la
-                    orizonŭ, Lupu era érăşi cu aĭ sĕĭ, pre cari-ĭ părăsise dândŭ de Grurdă, carele,
-                    séŭ de frica sâgeţeĭ, séŭ din îndemnulŭ a câtorŭ-va rubiele. i deduse scrisórea,
-                    prin ajutorulŭ căreĭa ticălosulŭ Veleli spera să isbândéscă în mârşavele séle
-                    planurĭ.</p>
-                <p>Ce măréţă şi impozantă adunare gâsimŭ noĭ acuma, nu maĭ multŭ în pădure, déră în
-                    şesurile şi culmele ce se întindŭ între ea şi politia Domnéscă. Cel mare de
-                    capeie încununéză sórele cu aurósele luĭ raze!..</p>
-                <p>Indată după sosirea luĭ Lupu, carele era aşteptatŭ, semnalulŭ de purcedere se dă,
-                    iér acesta poruncesce maĭ ântêiŭ să se facă rugăciunĭ. Unŭ preotŭ bĕtrânŭ începe
-                    sfinţirea apeĭ. Sórele aurindŭ albele barbe ale bĕtrânilorŭ boierĭ, lucirea
-                    sclipitóre a sineţelorŭ, a topórelorŭ, a cóselorŭ, solemitatea cântărilorŭ
-                    religióse, făcé din acéstă adunare ca nisce legióne cerescĭ cântândŭ mărirea
-                    copiluluĭ din Vitleemŭ, cântândŭ dreptatea şi pacea, pre care ele avéŭ să le
-                    restatomicéscă în lume şi să le rĕsbune. După mântuirea cerimonieĭ, după ce apa
-                    cea sântă plouă ca o plóe de aurŭ asupra capetelorŭ grămeᶁeĭ şi se sărută
-                    crucea, Lupu înorânduesce şirulŭ trupelorŭ; apoĭ de pe tulpina unuĭ arbora
-                    rĕsturnatŭ, elŭ grăesce aşĭa:</p>
-                <p>„Boierĭ d-vóstră şi ómenĭ bunĭ! D-ᶁeŭ ne-a adunatŭ pre noĭ toţĭ aicea, ca să
-                    împlinimŭ voia luĭ: să restatornicimŭ dreptatea şî puternicia moşieĭ nóstre!
-                    Boierĭ şi fraţĭ! scopulŭ nostru e sântŭ! D-ᶁeŭ ne va povĕţui săscăpămŭ moşia din
-                    ghiarele asupritorilorŭ, elŭ ne va ajuta să spălămŭ petele ce aceia aŭ impusŭ
-                    numeluĭ multora din noĭ! „In tine, Dómne, amŭ nădĕjduitŭ, şi a tremurată
-                    duşmanulŭ meŭ!”</p>
-                <p>— Să móră! să móră Iliaşŭ, urlă şirurile, întrerumpêndŭ pre Lupu.</p>
-                <p>— „Ascultaţĭ! urméză Vasile, ascultaţĭ: D-ᶁeŭ nu vré mórtea pĕcătosuluĭ; cruţare,
-                    fraţilorŭ, până şi pentru Iliaşŭ! o cerŭ de la voĭ, o cerŭ în numele luĭ D-ᶁeŭ,
-                    carele în alt-felŭ nu va bine cuvênta silinţele nóstre!...</p>
-                <p>— Ce-ĭ de făcutŭ, déră? întrébă maĭ multe glasurĭ.</p>
-                <p>— Să cătămŭ a face tóte cu binele. Să mergemŭ, boierĭ, cu toţiĭ la Iliaşŭ şi sa-ĭ
-                    spunemŭ din partea ţĕriĭ ca să ésă din scaunŭ; iér décă nu va vré, décă va avé
-                    nebunia a face ameninţărĭ, atuncĭ, boierĭ şi fraţĭ! sângele carele se va vĕrsa
-                    fiă asupra luĭ şi a némuluĭ luĭ! D-ᶁeŭ ne va ajuta!.. Cât pentru mine, sângele
-                    meŭ, décă trebui, gata voiŭ fi alŭ vĕrsa, décă cu preţulŭ luĭ se va puté,
-                    cruţândŭ braţele vóstre numeróse, care atât trebuescŭ moşieĭ, să se dobândéscă
-                    mântuirea eĭ...</p>
-                <p>— Aşĭa, aşĭa! strigă miĭ de glasurĭ; să móră atuncĭ asupritorulŭ!</p>
-                <p>— Să móră Veleli şi toţĭ ceĭ-l-alţĭ! urlă alte şirurĭ.</p>
-                <p>— Să móră atuncĭ necinstitorulŭ numeluĭ meŭ! strigă şi Lupu.</p>
-                <p>La acestŭ strigătŭ toţĭ boieriĭ se îndesuiră în jurulŭ luĭ, cerêndŭ să se
-                    esplice, ce însemnéză strigarea acésta. Elŭ le arĕtă scrisórea sciută, le o
-                    citi, le spuse vorbele grozave, ce Veleli i trimise fugindŭ, cu câte-va ore maĭ
-                    în urmă...</p>
-                <p>Să móră Veleli! Să móră! strigă toţĭ boieriĭ înfuriaţĭ la aurirea acestora.</p>
-                <p>— Să móră Veleli! strigă Lupu; dér, boierĭ, décă va vré cu binele să părăséscă
-                    moşia?</p>
-                <p>— Ce ᶁicĭ? întrerupseră câţĭ-va boierĭ; dér péta numeluĭ tĕŭ? —</p>
-                <p>— Fiă! numele meŭ va rĕmâné pĕtatŭ. Eŭ voiŭ câta prin alte mizlóce să ştergŭ acea
-                    pétă, adaose elŭ, posomorându-şĭ privirea; dér elŭ va trăi!.. Aicea nu sunteţĭ
-                    adunaţĭ să rĕbunaţĭ pre unŭ singurŭ omŭ, ci să mântuiţĭ moşia întrégă. De veţĭ
-                    puté face acésta fără vĕrsare de sânge, cruţaţĭ nu numaĭ pre Veleli şi pre
-                    Iliaşŭ, dér şi pre toţĭ ceĭ-l-alţĭ... Ast-felŭ D-ᶁeŭ ne va ajuta de apururea!...
-                    Acum, boierĭ şi fraţilorŭ, aidemŭ! Timpulŭ trece... şi fiă-care minută ce
-                    perdemŭ în deşertŭ este o armă ascuţită ce amŭ puté da în mâna asupritorilorŭ
-                    noştriĭ!.. Aideţĭ boierĭ! Aideţĭ băieţĭ! — Buciumele rĕsunară. Strigătele de ura
-                    şi tropotele cailorŭ clocotiră încă multe minute în codri, dupĕ purcederea
-                    glótelorŭ.</p>
-            </div>
-            <div type="chapter" n="7">
-                <head>CAPUL VII.</head>
-                <head>Greciĭ</head>
-                <p>E timpŭ acuma să ne înturnămŭ în cămara acea din curţile domnescĭ, în care amŭ
-                    lăsatŭ pre Iliaşŭ. Veleli, care scăpase fugindŭ de furia luĭ Lupu, alergase să
-                    vestéscă luĭ Vodă, că rebeliĭ, de carĭ ierĭ îlŭ însciinţase, sunt aprópe de
-                    têrgŭ, aŭ începutŭ a se ivi făţişŭ.</p>
-                <p>La auᶁulŭ acesteĭ scirĭ Iliaşŭ înspăimêntatŭ, ca şi când ar fi vĕᶁutŭ ridicată
-                    vr’o armă gata d’-a cădé d’a-supra capuluĭ luĭ, palidŭ ca céra galbenă, cu
-                    glasulŭ maĭ de totŭ stinsŭ, întrebase pre Veleli, ce-ĭ de făcutŭ?</p>
-                <p>Veleli stătuse pre gândurĭ. „Să aştepţĭ, Măria ta, respunse elŭ apoĭ; să aştepţĭ
-                    ca veᶁĭ nu-ĭ puté să-ĭ liniscescĭ cu cuvêntulŭ, — orĭ cu frica..” De cum-va te
-                    vor lăsa, adăogea elŭ, în sine, de cum-va te-orŭ lăsa în tronŭ, m’oĭŭ înturna şi
-                    eŭ; de nu... voĭŭ stă până atuncea în locŭ sigurŭ.</p>
-                <p>— Să aşteptŭ? — dér ᶁilele mele, dragă Veleli?..</p>
-                <p>— O! eĭ n’orŭ cuteza! — Ş’apoĭ, maĭ la urmă, în-tr'unŭ norocŭ!..</p>
-                <p>— Rĕmâĭ dér şi tu cu mine, dragă Veleli... Să sciĭ că de-oĭŭ scăpa şi din cursa
-                    asta, amŭ să te facŭ omulŭ celŭ maĭ măritŭ...</p>
-                <p>— Maĭ bine celŭ maĭ bogatŭ...</p>
-                <p>— Fiă! aşĭa déră rĕmânemŭ?</p>
-                <p>— Hă!... adecă.. Măria ta... eŭ credŭ că... maĭ bine...</p>
-                <p>— Ce? şi tu Veleli vreĭ să mĕ părăsescĭ? Tu tremurĭ maĭ tare decât mine, numaĭ
-                    chiarŭ la ideea de a rĕmâné...</p>
-                <p>— Măria ta, veᶁĭ că eĭ potŭ să mĕ omóre...</p>
-                <p>— Eŭ bine, dér el potŭ să mĕ omóre şi pre mine!..</p>
-                <p>Aşĭa... numaĭ eĭ pre Măria ta potŭ să te.... omóre... déră pre mine... Veᶁĭ Măria
-                    ta... ar fi mare pĕcatŭ să morŭ tocmaĭ acum cândŭ am douĕ treĭ părăluţe....</p>
-                <p>— Apoĭ ce-ĭ de făcutŭ?..</p>
-                <p>— Eŭ unulŭ, sciŭ că fugŭ, fugŭ unde m’orŭ duce ochiĭ!..</p>
-                <p>— Să fugimŭ, să fugimŭ! că nu-ĭ de şuguitŭ cu ᶁilele...</p>
-                <p>— Cum? Măria ta, vreĭ să fugĭ?</p>
-                <p>— D'apoĭ bine, ce? ţi-aĭ schimbatŭ otărârea?</p>
-                <p>Şiretulŭ şi mărşavulŭ Veleli vĕᶁu că nu era chipŭ de a face pre Iliaşŭ să rĕmâe.
-                    Scopulŭ pentru care elŭ ar fi poftitŭ acésta, cetitorulŭ credŭ că l’a înţelesŭ
-                    acum din convorbirea lorŭ.</p>
-                <p>— Să fugimŭ déră, să fugimŭ!.. şi cât maĭ curêndŭ, rĕspunse elŭ apoĭ după o mică
-                    pausă. Oh! Măria ta! dér unde vomŭ maĭ găsi o ţéră bine cuvêntată şi bogată ca
-                    asta? adaose elŭ suspinêndŭ.</p>
-                <p>— Aşĭa, dragă Veleli... unde voiŭ maĭ găsi o ţéră unde să fiŭ Domnŭ şi în
-                    mărire... Dér s’a sfârşitŭ, Veleli; ᶁi unuĭ idicliŭ să spună să mi se gătéscă
-                    rĕdvanele...</p>
-                <p>— Dér odórele le laşĭ aicea, Măria ta?..</p>
-                <p>— Să le strângemŭ, Veleli... Aide, ajută-mĭ.</p>
-                <p>Apoĭ Vodă aduse din maĭ multe cămărĭ totŭ ce găsi de preţŭ; făcu maĭ multe
-                    legăturĭ grele din ele, împlu maĭ multe pungĭ cu baniĭ ce avé gata; apoĭ, după
-                    ce le pecetluĭ: — Acuma, Veleli, poţĭ să ᶁicĭ să mi se gătéscă rădvanulŭ.</p>
-                <p>— Dér cu pungile ce să facĭ, Măria ta? întrébă ministrulŭ, neputêndu-şĭ deslipi
-                    privirile de la ele.</p>
-                <p>— A! chiamă pre cine-va să le daŭ să le aşeᶁe în rădvanŭ...</p>
-                <p>— Cum? şi Măria ta aĭ face una ca asta?... să maĭ scie lumea că aĭ banĭ, ca să-ţĭ
-                    ésă înainte, şi... Dăle’n cóce, să le ducŭ eŭ singurelŭ. — Şi fără a maĭ ascepta
-                    priimirea luĭ Iliaşŭ, ca unŭ zmeŭ, roşŭ de plăcere, urcă, pre subţiorĭ pungile
-                    şi eşi neputêndŭ ascunde un zîmbetŭ de mulţămire, ce se desina în colţuşórele
-                    buzeĭ séle.</p>
-                <p>Apoĭ maĭ multŭ de douĕ ore se scurseră, şi Veleli nu se maĭ întorcea.</p>
-                <p>De odată Iliaşŭ auᶁi mulţime de păsurĭ pripite prin coridórele curţiĭ, şi
-                    curêndŭ, în camăra unde se afla, năbuşiră maĭ multe sute de grecĭ, întrebuinţaţĭ
-                    în servicluĭŭ domnescŭ, serviciĭ care se mărginea: să dórmă, să mănânce, să bea
-                    şi să adune avuţiĭ, pe când îndatoririle, ale cărora nume le purtaŭ eĭ, cădéŭ în
-                    spetele a vr’o câţĭ-va moldovenĭ, ce maĭ rămăseseră pe lângă curte:</p>
-                <p>— Aman! aman! Măria ta, strigă cu toţiĭ pe limba grécă, aman! ţéra s’a
-                    rescu’atŭ!.. Măria ta!.. O să ne mănânce ᶁilele, câniĭ ceia de ţĕranĭ, că aŭ
-                    venitŭ veste că strigă prin ţéră că să móră greciĭ!..</p>
-                <p>— Uşa se deschise de unŭ idicliŭ îmbrăcatŭ în roşŭ şi unŭ ţĕranŭ intră tărîndu-se
-                    maĭ multŭ pe brâncĭ, şi lăsândŭ după elŭ urme de sânge...</p>
-                <p>— M’a ucisŭ!.. Măria ta, a fugitŭ!..</p>
-                <p>— Cine a fugitŭ? strigară totŭ de o dată toţĭ greciĭ.</p>
-                <p>— Jupânulŭ Veleli.</p>
-                <p>— Veleli? cu baniĭ meĭ, strigă Domnulŭ... A trădătorule!.. Şi se lăsă desperatŭ
-                    pre capĕtulŭ divanuluĭ lîngă care stăté în picióre.</p>
-                <p>— Veleli? murmură érăşĭ greciĭ îngroziţĭ, Veleli ne-aŭ lăsatŭ!...</p>
-                <p>Câte-va minute în cămara aceea nu se maĭ auᶁiră de cât bătăile cele sgomotóse ale
-                    resuflăreĭ grecilorŭ şi gemutulŭ ţĕranuluĭ, carele pe tótă minuta se făcé maĭ
-                    slabŭ. De odată nisce strigăte prelungite şi ca de miĭ de glasurĭ venite din
-                    apropiere, strĕbătură în cămară, şi desteptară, ca cu o ascuţită lovire,
-                    îmmărmuritele inimĭ ale celorŭ de féţă, cariĭ toţĭ se repeᶁiră spre
-                    ferestre.</p>
-            </div>
-
-            <div type="chapter" n="8">
-                <head>CAPULŬ VIII.</head>
-                <head>Rĕsbunarea poporuluĭ</head>
-                <p>Asemenea şiróelorŭ celorŭ furióse, ce răpeᶁindu-se din munţĭ, restornŭ totŭ din
-                    calea lorŭ, totŭ ce le împedecă cursulŭ, este poporulŭ când furia-lŭ guvernă;
-                    atuncĭ elŭ nu póte fi împedecatŭ nicĭ de ceĭ maĭ respectaţĭ şefĭ aĭ luĭ, nicĭ de
-                    gurile de tunurĭ, ce arŭ împroşca mórtea între şirurile luĭ, nicĭ de baionetele
-                    ce arŭ restuma şirurile naintaşe şi, zidurĭ de care se turtiaŭ altă dată
-                    ghluĭele tunuluĭ, cadŭ sub topórele luĭ; temniţele în care geméŭ miĭ de
-                    criminaliştĭ şi de nedreptăţiţĭ, cadŭ ca prin farmecŭ, numaĭ la ameninţarea a
-                    câtor-va sute de inşĭ din poporŭ, cadŭ, se prăbuşescŭ, sub puternica lorŭ
-                    resuflare.!...</p>
-                <p>Strigătele ce Iliaşŭ cu aĭ séĭ auᶁiseră eraŭ strigătele ce vêntulŭ aducé din
-                    strigătele sĕlbatice, ce scoţia şirurile revoluţionarilorŭ, intraţĭ de maĭ multe
-                    minute în têrgŭ. Fruntea acestora, formată din Seimenĭ şi boierĭ, era acum
-                    aprópe de curte, pre când códa séŭ maĭ bine glóta nicĭ intrase în oraşŭ,
-                    întinᶁêndu-se pre acolo pre unde astăᶁĭ sunt Pĕcurariĭ şi până sub Miroslava,
-                    atâta de mare era numĕrulŭ satelorŭ ce alergaseră să mântuéscă ţéra.</p>
-                <p>Vr’o 50 de stânjinĭ încă de călăritŭ şi boieriĭ avé să ajungă la Domniă.</p>
-                <p>Cândŭ de o dată unŭ strigătŭ, carele se prelungi din tóte şirurile cele maĭ
-                    îndepărtate până aprópe de boierĭ,i opri pre locŭ.</p>
-                <p>— Să móră! Să móră! striga şirurile de ţĕranĭ din urma seimenilorŭ.</p>
-                <p>— Ce este acolo? strigâ Lupu; ce este acolo? Locŭ! Locŭ! —</p>
-                <p>Locŭ, băeţĭ! repetă după elŭ şirurile de seimenĭ, îndesuindu-se unele în altele,
-                    ca să deschidă trecĕtóre caluluĭ luĭ Lupu, carele vroia s’alerge spre puntulŭ de
-                    unde vêntulŭ aducé strigăte sinistre, hohote grozave, sarcasme ne-auᶁite!</p>
-                <p>Curêndŭ Lupu auᶁi acele glasurĭ maĭ de aprópe: Să-ĭ tăiemŭ nasulŭ! striga uniĭ. —
-                    Ba urechile! urla alţiĭ.</p>
-                <p>— Nu! să-i scótemŭ ochiĭ cu sfredelulŭ! că aşĭa a scosŭ elŭ ochiĭ bunuluĭ meŭ!..
-                    — Să-lŭ înţepămŭ!</p>
-                <p>— Să-lŭ ardemŭ! — Degéba, băeţĭ, că nu arde că-ĭ vârcolacĭ! ha! ha!...</p>
-                <p>— Ce naiba staĭ atâta la vorbă, măĭ Bardă? Dă-ĭ cu măciuca ’n capŭ! — Ha! bine!
-                    dă-mĭ acum urechia stângă... nu vréŭ cea dréptă, că pe cea stângă a tăiat’o elŭ
-                    tatăluĭ meŭ!</p>
-                <p>Lupu presimţi o grozavă vedere şi se înfiorâ.</p>
-                <p>— Ce este, ómenĭ bunĭ, strigă elŭ; ce este?</p>
-                <p>— Ce?... nu sciĭ? rĕspundŭ miĭ de glasurĭ: l’amŭ găbuitŭ ascunsŭ într’unŭ
-                    gârliciŭ...</p>
-                <p>— Pre cine?</p>
-                <p>— Pre tâlharulŭ carele ne-a mâncatŭ bunulŭ, moşia şi ᶁilele la atâţia... Pre
-                    Veleli.</p>
-                <p>— Pre Veleli? — Locŭ! ómenĭ bunĭ! locŭ Căpitanuluĭ Lupu!</p>
-                <p>— Locŭ Căpitanuluĭ Lupu! strigă şi seimeniĭ din urmă. Dér mulţimea stăpânită de o
-                    singură idee, de resbunare asupra luĭ Veleli, era surdă la asemenea poruncă, şi
-                    cu urechĭa la pândă, ea cerca să prindă orĭ-ce cuvêntŭ grozavŭ ce viné de la
-                    câţĭ-va stênjinĭ maĭ departe, cuvêntŭ pre care îlŭ repeta cu o viă mulţămire,
-                    rîᶁêndŭ cu hohote grozave.</p>
-                <p>Calulŭ luĭ Lupu îşi muşca zăbala şi împroşca mulţimea cu ţĕrână, în nerăbdarea
-                    sa. De o dată unŭ hohoţŭ diavolescŭ se întinde în glóta îndesuită şi miĭ de
-                    glasurĭ urlă: — Mie! mie, unŭ picioruţŭ!...</p>
-                <p>— Unŭ degetŭ măcarŭ, mie!</p>
-                <p>— Ochiĭ luĭ, daţi-mĭ!</p>
-                <p>— Capulŭ! capulŭ! să i-lŭ punŭ icea în cósă!...</p>
-                <p>— Ha! ha! ha! a peritŭ fiéra!</p>
-                <p>— E pré târᶁiŭ, gândi Lupu, la auᶁulŭ acestorŭ strigăte sĕlbatice. Şi în faptă
-                    era pré târᶁiŭ, căcĭ, când după câte-va minute, grămada îndestulată de cruda eĭ
-                    sete de resbunare, i făcu locŭ ca să trécă elŭ nu găsi în loculŭ unde urmase
-                    scena, decât câte-va pete de sânge!.. Tot trupulŭ luĭ Veleli, bucăţitŭ de poporŭ
-                    cu topórele, era împărţitŭ pre la sute de ţĕranĭ; unulŭ avé în cósă unŭ piciorŭ
-                    alŭ luĭ, altulŭ capulŭ cu ochiĭ holbaţĭ şi limba între dinţĭ... ista o urechiă,
-                    cela o mână!</p>
-                <p>Grozavă e resbunarea poporuluĭ, dér orĭ cât de grozavă arare-orĭ este
-                    nedréptă!</p>
-                <p>— „O! nestătătóre şî nicĭ odată încredinţate lucrurile lumeĭ! cum vrăstéză tóte
-                    şi turbură şi face lucrurĭ împotrivă; când cu cale este a fire frică celorŭ micĭ
-                    de ceĭ maĭ marĭ, iér cursulŭ lumeĭ aduce de multe orĭ, de este grijă celuĭ maĭ
-                    mare de ceĭ maĭ micĭ. Fericiţĭ suntŭ, Craiĭ, Impĕraţiĭ şi Domniĭ, carĭ domnescŭ
-                    aşĭa, <quote>să nu le fiă de ceĭ maĭ micĭ nicĭ o dată silă.</quote>”</p>
-                <p>Étă ce cugetărĭ scóte din inima luĭ Miron Costin, revolta ţĕriĭ în contra luĭ
-                    Iliaşŭ şi décă spiritulŭ seculuĭ în care vieţuia Miron, lu făcuse să ᶁică că „cu
-                    cale este a fire frică celorŭ maĭ micĭ de ceĭ maĭ marĭ,” ce lecţiă frumósă, ce
-                    lecţiă nu dă elŭ celorŭ marĭ când adaoge: <quote>„Fericiţĭ ceĭ cariĭ domnescŭ
-                        așĭa să nu le fiă de ceĭ maĭ micĭ silă.”</quote></p>
-                <p>Acuma să reapucămŭ naraţia nóstră de unde amŭ lăsat’o.</p>
-                <p>Lupu, bunulŭ acestŭ sufletŭ a căruia mâniă nicĭ odată nu arŭ fi mersŭ până să
-                    întindă mortŭ nicĭ pe celŭ maĭ înverşunatŭ duşmanŭ alŭ sĕŭ, Lupu se mâhni preste
-                    sémă, vĕᶁêndŭ scenele aceste crâncene, şi întorcêndu-se către boieriĭ ce-lŭ
-                    aştepta: — „D-ᶁeŭ a făcutŭ dreptatea sa! ᶁice elŭ: Veleli a fostŭ bucăţitŭ de
-                    poporŭ!... fiă numele Domnuluĭ bine-cuvântatŭ! —”</p>
-                <p>Intre aceste boieriĭ sosiră la Domniă.</p>
-                <p>Lupu în fruntea tuturora intră în curte; socotŭ de prisosŭ să spunŭ în ce stare
-                    aflară eĭ pre Iliaşŭ.</p>
-                <p>— Mĕ rogŭ, d-v., boierĭ, ertaţi-mĕ! striga elŭ, împreună cu toţĭ Greciĭ,
-                    aruncându-se în genuchĭ.</p>
-                <p>Maĭ mulţĭ boierĭ hohotiră la vederea porumbatecelorŭ feţe ce schimba aceĭa, déră
-                    Lupu i privi cu mâniă; apoĭ cu blândeţe către Iliaşŭ:</p>
-                <p>Dómne! i ᶁise elŭ, ţéra a năbuşitŭ în oraşŭ; cu toţiĭ s’aŭ ridicatŭ asupra Mărieĭ
-                    téle, ca să-ţĭ repună ᶁilele; ascultă cum strigă în tóte părţile pre
-                    Grecĭ!...</p>
-                <p>In faptă, ostaşiĭ şi poporulŭ grămăditŭ prin ograda Curţeĭ şi pre tóte uliţile,
-                    şi pre câmpŭ, chiuia şi striga: „Dă-ne, Dómne, pre Grecĭ!”</p>
-                <p>Éră aceştia în genuchĭ la auᶁulŭ turbatelorŭ acestorŭ strigăte, începură uniĭ a
-                    plânge, alţiĭ a săruta pólelele boierilorŭ strigândŭ: Amanŭ! Amanŭ!</p>
-                <p>Vodă Iliaşŭ însă maĭ încuragiatŭ de tonulŭ celŭ plinŭ de bunătate cu care vorbia
-                    Lupu, sculându-se, ᶁise:</p>
-                <p>— Boierĭ d-vóstră! décă se ridică ţéra asupra Grecilorŭ şi asupra mea se ridică;
-                    ce-ĭ de făcutŭ? —</p>
-                <p>— Să laşĭ ţéra! s’o lăsaţĭ! strigară câţĭ-va boierĭ de abia stăpânindu-şĭ
-                    mânia.</p>
-                <p>— Bucuroşĭ! pré bucuroşĭ, boierĭ d-vóstră, respunseră Iliaşŭ şi toţĭ Greciĭ, a
-                    cărora vinete feţe începură a maĭ veni la auᶁulŭ acestorŭ cuvinte în colorulŭ
-                    fesuluĭ de pe capulŭ lorŭ.</p>
-                <p>— Dér cum vomŭ puté eşi teferĭ, adaose Iliaşŭ.</p>
-                <p>— Măria ta, nu te teme, rĕspunse Lupu, noĭ te vomŭ însoţi... Şĭ-apoĭ să sciĭ
-                    Măria ta că poporulŭ nu te urĕsce atâta cât urĕsce pre d-lorŭ şi pre bietulŭ
-                    rĕposatulŭ Veleli...</p>
-                <p>— Ce? a muritŭ! întrerupseră Iliaşŭ şi Greciĭ.</p>
-                <p>— L’aŭ sfâşiétŭ, ţĕrâniĭ!</p>
-                <p>— D-ᶁeŭ mi-a rĕsbunatŭ mórtea, strigă unŭ glasŭ înnăduşitŭ, dintre Grecĭ.</p>
-                <p>Apoĭ unei buşirĭ ca şi cânŭ arŭ fi căᶁutŭ nisce plumbŭ pe podele, succedă unŭ
-                    gemetŭ lungŭ, şĭ-apoĭ tăcerea. — Boeriĭ toţĭ îşĭ întórseră privirile spre loculŭ
-                    de unde venia acestŭ gemetŭ.</p>
-                <p>— Sunt perdutŭ! ᶁise cu disperare, Vasile, privindŭ cadavrulŭ luĭ Gurdă.... a
-                    muritŭ şi acesta, singurulŭ insŭ, carele putea dovedi că femeea mea nu-ĭ
-                    vinovată!..Oh! Dumneᶁeule!</p>
-                <p>Şi-’şĭ ascundé în mânĭ capulŭ sĕŭ.</p>
-                <p>Greciĭ nu înţelegéŭ nimica din aceste, ba nicĭ Iliașŭ însuşĭ.</p>
-                <p>— Ce aĭ, vornice Lupu? îlŭ întrébă acesta.</p>
-                <p>— Ce amŭ? strigă acesta, într’unŭ momentŭ de furiă, cu unŭ tonŭ, care făcu să
-                    tremure şi măduva din ósele luĭ Iliaşŭ... Ce amŭ?.. mĕ maĭ întrebĭ!.. O! de
-                    n’aşĭ avé maĭ ântêiŭ să lucrezŭ, depărtându-te, pentru mântuirea moşieĭ; de
-                    multă te aşĭ fi trimisŭ eŭ singurŭ după ticălosulŭ tĕŭ de Logofĕtŭ... orĭ ţi-aĭ
-                    fi datŭ sémă de necinstea ce-aĭ să-mĭ laşĭ..</p>
-                <p>— Ucide-lŭ! ᶁĕŭ, ucide-lŭ! logofete, strigară vr’o câţĭ-va din boierĭ maĭ iuţĭ la
-                    caracterŭ; nu-ţĭ lăsa némulă pĕtatŭ de dênsulŭ...</p>
-                <p>— Ba nu, boierĭ, nu! să-lŭ lăsămŭ, să se ducă înplata cerluĭuĭ, de câtŭ pentru
-                    resbunarea mea... (şi nu sciŭ de sigurŭ de-ĭ vinovatŭ şi elŭ) ucigêndulŭ, să maĭ
-                    atragemŭ asupra bieteĭ moşiĭ urgia Porţeĭ...</p>
-                <p>— Dér d-ta, jupâne? strigară maĭ mulţĭ boierĭ.</p>
-                <p>— Eŭ... voiŭ căuta prin alte chipurĭ să-mĭ spălŭ péta numeluĭ meŭ....</p>
-                <p>Şi ᶁicêndŭ aceste fruntea luĭ se încreţi; ochiĭ luĭ se posomorîră; o grozavă
-                    otărîre se înfipse în mititea sa. — Boierĭ! să nu perdemŭ vremea în vorbe
-                    deşérte! ᶁice elŭ după câte-va minute de tăcere. D-ta jupâne Urechiă adu aicea
-                    câte-va sute de seĭmenĭ cu sineţile gata...</p>
-                <p>Iliaşŭ şi aĭ sĕĭ orĭ cât i reasiguraseră vorbele luĭ Lupu, la auᶁulŭ de seimenĭ
-                    cu sineţile gata, recăᶁură érăşĭ în spaima lorŭ cea d’ântêĭ. Éră Lupu
-                    apropiindu-se de feréstră se adresă către muţime:</p>
-                <p>— Ómenĭ bunĭ! aşa-ĭ că noĭ amŭ venitŭ să mântuimŭ moşia de Grecĭ.</p>
-                <p>— Aşĭa-ĭ! aşĭa-ĭ! strigă mulţimea.,..</p>
-                <p>Iliaşŭ şi Geciĭ începŭ a plânge. Lupu se întórce spre eĭ: Linisciţi-vĕ, le ᶁise
-                    elŭ. — Apoĭ érăşĭ către mulţime: — Ómenĭ bunĭ! nu-ĭ maĭ bine să nu facemŭ
-                    vĕrsare de sânge, décă Greciĭ arŭ vré să ésă singurĭ din ţéră...</p>
-                <p>— Ba nu! să móră! să móră, urlă miĭ de glasurĭ...</p>
-                <p>— Aşĭa-ĭ! să ésă maĭ bine cu toţiĭ! strigă câţĭ-va maĭ moderaţĭ.</p>
-                <p>— Eĭ bine, boerĭ, ce-ĭ de făcutŭ? se întórce de ᶁice Lupu.</p>
-                <p>— Să fiă după voĭa mulţimeĭ, murmură maĭ mulţĭ.</p>
-                <p>— După voĭa mulţimeĭ? strigă Lupu cu indignare; dar mulţimea asta pre care amŭ
-                    asculta-o astăᶁĭ, când urgia Porţiĭ arŭ veni asupra moşieĭ, pre noĭ ne-arŭ
-                    blăstema, că amŭ ascultatŭ glasulŭ furieĭ séle celeĭ turbate... Nu! boierĭ...
-                    Suitu-s’aŭ câte-va sute de seĭmenĭ acole?</p>
-                <p>— Eĭ staŭ in sală, respunde Urechiă.</p>
-                <p>— Bine. Apoĭ, cătră Iliaşŭ şi Grecĭ:</p>
-                <p>— Ascultaţĭ! poporalŭ vre mórtea vóstră; noĭ însă vĕ putemŭ mântui de furia luĭ
-                    décă acuma de’ndată veţĭ jura că nicĭ-o-dată nu’ţĭ căta, nimenĭ dintre voĭ, să
-                    faceţĭ rĕŭ ţĕreĭ acesteia, pe lângă Turcĭ... Alegeţĭ! mórtea séŭ viéţa!</p>
-                <p>— Jurămŭ! jurămŭ, strigă cu toţiĭ.</p>
-                <p>— Bine! Apoĭ scoţêndu-şĭ ascuţitulŭ sĕŭ angeriŭ, cu elŭ în mână: Urmaţi-mĕ,
-                    boerĭ, ᶁice elŭ, către tovarăşiĭ sĕĭ; urmaţi-mĕ şi voĭ, adăogi elŭ grecilorŭ, de
-                    voiŭ muri eŭ, veţĭ muri şi voĭ!</p>
-                <p>După ce toţĭ eşiră în coridóre, Lupu alcătui unŭ padratŭ de seĭmenĭ, aşeᶁă pre
-                    toţĭ Greciĭ în centrulŭ luĭ şi elŭ cu boeriĭ în frunte, cu arma în mână, dădu
-                    semnalulŭ de marşŭ şi coborîră scările curţeĭ strigândŭ: locŭ! locŭ!.. Éră
-                    mulţimea ce o clipă maĭ denainte arŭ fi năbuşitŭ să rampă pre Grecĭ sub gura a
-                    miĭ de tunurĭ măcarŭ, mulţimea acumŭ uĭmită de fapta luĭ Lupu, pre care ea n’o
-                    putea înţelege, se dădea în lăturĭ în tăcere, ca sub puterea unuĭ farmecŭ.</p>
-                <p>Ast-felŭ Lupu isbuti a eşi ca unŭ bunŭ marinariŭ, care prin mijloculŭ valurilorŭ
-                    turbate ale océnuluĭ, guvernă vasulŭ seŭ. Curêndŭ eĭ vorŭ trece şesulŭ
-                    Buhluiuluĭ, ce geme de mulţime... Étă-ĭ aprópe de Monăstirea Balicăĭ...</p>
-                <p>Dér între aceste uĭmirea cea dintâĭ a poporuluĭ făcu locŭ uneĭ furiĭ neauᶁite,
-                    până şi asupra luĭ Lupu. Sarcasmele şi înjurăturile începură a ploua asupra
-                    luĭ... Curêndŭ, orĭ câtŭ cu detunătorulŭ seŭ glasŭ striga locŭ! vibrândŭ în aerŭ
-                    arma sa, nimenĭ nu se maĭ dedea în lăturĭ, ci maĭ alesŭ năvălia asupra
-                    patratuluĭ. Pe când între aceste Lupu, în sbuciumare-ĭ nu şcie de trebue să
-                    poruncéscă seĭmenilorŭ să dea cu sineţile în mulţime séŭ de a lăsa pre Grecĭ
-                    jertfă furieĭ glótelorŭ, deodată, unulŭ din mulţime, ca unŭ glonte se asvârle,
-                    asupra careuluĭ, lŭ sparge, se răpede asupra luĭ Iliaşŭ, în repegiunea sa-lŭ
-                    apucă de manta şi cércă alŭ târî după sine; maĭ mulţĭ alţiĭ încuragiaţĭ de fapta
-                    acestuia se răpedŭ după elŭ... Déră Lupu e acolea, le arétă arma sa
-                    ameninţătóre, apoĭ ca unŭ leŭ se răpede asupra celuĭ ce tăreşce pre Iliaşŭ...
-                    Acesta îngrozitŭ cércă a tări maĭ iute pre Vodă, dér remâne numaĭ cu o bucată
-                    din mantaoa luĭ în mână, căcĭ toţĭ Greciĭ lŭ ţinu de ceealaltă parte... Elŭ fuge
-                    şi când e destulŭ de departe de Lupu, carele-lŭ urmăresce, scóte din brâŭ unŭ
-                    osŭ, unŭ fluerŭ de piciorŭ, lŭ răpede asupra acestuia! — Na! urlă tigrulŭ; na!
-                    morĭ de osŭ de Grecŭ... décă ţi-sŭ aşĭa de dragĭ, morĭ de osulŭ luĭ Veleli. Şi
-                    sângele gâlgâe din rana ce bietulŭ Lupu a primitŭ în frunte, elŭ se cumpănesce
-                    să cadă... însă nu! elŭ îşĭ şterge cu mânica straluiuĭ sĕŭ sângele de pe féţă,
-                    reaşéză şirurile pătratuluĭ, dă poruncă seimenilorŭ, în auᶁulŭ tuturora, să dea
-                    de totŭ de s’arŭ maĭ ispiti cineva să spargă patratulŭ.</p>
-                <p>Intre aceste cerulŭ se acoperise de norĭ greĭ ca plumbulŭ; curêndŭ o vijelie
-                    gróznică precedă o plóie rece de tómnă, carea împrăştia pre maĭ mulţĭ dintre
-                    înverşunata mulţime. Cu tóte aceste ceĭ maĭ furioşĭ se ţinéŭ după careŭ,
-                    înjurândŭ nu numaĭ pre Vodă şi cu aĭ luĭ, déră până şi pre boierĭ.</p>
-                <p>Orĭ câtŭ putéŭ seĭmeniĭ impune respectulŭ, şi orĭ cât de bravŭ era Lupu, elŭ vĕᶁu
-                    bine momentulŭ când de nu va avea recursŭ la alte mijióce, tot n’o să isbutéscă
-                    a scóte patratulŭ din pericolŭ; decĭ, după ce şoptesce ceva la urechile
-                    boierilorŭ, ié calulŭ unuia dintre eĭ şi dându-se cu vr’o ᶁece paşĭ în urmă
-                    începe a striga:</p>
-                <p>— Ómenĭ bunĭ! nu lăsaţĭ! aŭ maĭ remasŭ Grecĭ în Târgŭ!.. Auᶁiţĭ, ci-că daŭ
-                    focŭ!.. Nu lăsaţĭ ómenĭ bunĭ!</p>
-                <p>Şi dândŭ drumulŭ caluluĭ: locŭ! ómenĭ bunĭ! Greciĭ daŭ focŭ târguluĭ.</p>
-                <p>In zadarŭ câţĭ-va maĭ şireţĭ strigă, nu credeţĭ! nu credeţĭ ómenĭ bunĭ!</p>
-                <p>Câte-va minute după acésta de abié remaseră câte-va sute din acea mulţime
-                    nenumĕrată ce inunda şesulŭ, căcĭ uniĭ alergaseră în târgŭ, creᶁêndŭ ᶁisa luĭ
-                    Lupu, alţiĭ-aceĭ ce eraŭ de pe la sate, — să prindă Greciĭ... ceĭ maĭ mulţĭ să
-                    privéscă la focŭ, şi rĕmăşiţa, tărită în repegiunea şi îndesuirea tuturora.
-                    Acésta o prevĕᶁuse Lupu. Ceĭ remaşĭ vĕᶁêndu-se pre puţinĭ ca să pótă îndrăsni
-                    ceva în contra armelorŭ seĭmenilorŭ séŭ póte obosiţĭ şi îngheţaţĭ de plóia cea
-                    rece ce nu contenia, remaseră şi eĭ cu toţiĭ de patratŭ. Éră acesta când fu
-                    îndestulŭ de departe de ţĕranĭ, boieriĭ dădură grecilorŭ caĭ de aĭ lorŭ şi de aĭ
-                    seĭmenilorŭ, şi numindŭ din aceştia o escortă numerósă cu poruncă de a nu lăsa
-                    pre Vodă Iliaşŭ să fugă cumva la Tătarĭ ş’apoĭ să vină cu urgiă asupra ţĕreĭ,
-                    după ce ᶁicŭ, boieriĭ, făcură aceste, se reînturnară maĭ toţĭ în Oraşŭ.</p>
-            </div>
-
-            <div type="chapter" n="9">
-                <head>CAPULŬ IX.</head>
-                <head>După fortună.</head>
-                <p>In diminéţa ᶁileĭ următóre, unŭ sóre caldŭ succedă furioşilorŭ norĭ aĭ furtuneĭ
-                    ᶁileĭ şi a nopţiĭ trecute; o linişte adâncă în oraşiŭ şi în câmpurĭ succedă
-                    înverşiunatelorŭ strigăte a le mulţimeĭ turburate de setea resbunăriĭ...</p>
-                <p>Grămăᶁile sătenilorŭ, rîᶁêndŭ acuma de gluma ce le trase ĭerĭ Lupu, glumă pre
-                    care, de n’arŭ fi profitatŭ elŭ să se ascundă, arŭ fi plătit’o cu viéţa; acumŭ,
-                    ᶁicŭ, eĭ riᶁêndŭ se tragŭ pe la satele lorŭ; — atâta-ĭ de lesne de a îndestula
-                    setea de resbunare a poporuluĭ, pe când setea asupritorilorŭ luĭ, setea de
-                    avuţiĭ, setea de mărire... nu cu sângele unuĭ ticălosŭ ca Veleli, déră nici cu
-                    sângele a miĭ de drepţĭ, ce cadŭ jertfă lorŭ, nu li se maĭ potoleşce!...</p>
-                <p>Insă să trecemŭ de acum asupra uneĭ ᶁile aşĭa de fortunóse şi grozave, dérŭ şi
-                    frumósă în istoria orĭ căruĭ poporŭ.</p>
-                <p>In diminéţa ᶁileĭ următóre, în aceeaşĭ cămară care fusese martoră orgiilorŭ luĭ
-                    Iliaşŭ, toţĭ boieriĭ ţĕreĭ, marĭ şi micĭ, presidaţĭ de mitropolitulŭ şi de Lupu,
-                    ţi-néŭ sfatŭ: pre cine vor să alégă de Domnŭ.</p>
-                <p>O mulţime de glasurĭ începură a cere pre Vorniculŭ Lupu, dér acesta, cu fruntea
-                    legată din pricina răneĭ séle, cu faţa palidă şi cu unŭ zîmbetŭ amarŭ pe buze: —
-                    Vĕ mulţămescŭ din inimă curată de alegere, déră marturŭ îmĭ e D-ᶁeŭ, că nu maĭ
-                    potŭ primi mărirea aceasta. Eŭ vĕ propunŭ să alegeţĭ Vodă pre Barnovsky, că-ĭ
-                    omŭ cuminte şi-ĭ bunŭ cu ţéra leşéscă...</p>
-                <p>Atuncĭ tóte glasurile fură pentru Barnovsky, căruia se otărî de a i se trămite o
-                    ambasadă din boierĭ ca să-lŭ poftéscă la tronŭ.</p>
-            </div>
-
-            <div type="chapter" n="10">
-                <head>CAPULŬ X.</head>
-                <head>O ᶁi după aceea.</head>
-                <p>O ᶁi după ce se ţinu sfatulŭ la curţile domnescĭ, unŭ omŭ îmbrăcatŭ în straie
-                    ţĕrănescĭ cu o înaltă căciulă ţurcănéscă îndesată pre ochĭ îşĭ lega calulŭ lângă
-                    pórta Monăstireĭ, cunoscută cetitoruluĭ, apoĭ intra într’o chiliuţă de lângă
-                    pórtă, de bună sémâ chilia portăreseĭ. —</p>
-                <p>Acolea, scóse din chingă o pungă cu rubiele şi o puse pre pripiciulŭ hornuluĭ;
-                    maĭ scóse şi unŭ cuţitŭ. Apoĭ întorcêndu-se cătră bĕtrâna călugăriţă, care la
-                    intrarea luĭ se sculase de pe divanulŭ el de rogojinĭ, îngrozită de sĕlbatica
-                    luĭ privire:</p>
-                <p>— Maică i zise elŭ, privesce! — acolo avere să n’o poţĭ sfârşi cât veĭ trăi; icĭ
-                    unŭ cuţitŭ, auᶁĭ? — Unŭ cuţitŭ!..”</p>
-                <p>Maica tremura de frică.</p>
-                <p>— Nu te teme, maică; Sfinţia ta poţĭ să alegĭ pre care veĭ vré din aceste douĕ;
-                    punga veĭ lua-o când îmĭ veĭ spune adevĕratŭ décă jupânésa Vorniculuĭ Lupu a
-                    eşitŭ de treĭ sĕptĕmânĭ în cóce din Monastire... Éră cuţitulŭ îţĭ va scurta
-                    ᶁilele, când veĭ tăgădui... Alege!..</p>
-                <p>Intre aceste, călugăriţa după accentulŭ necunoscutuluĭ înţelesese pre Vorniculŭ
-                    Vasile, pre care de maĭ multe orĭ avusese ocaziă de alŭ auᶁi vorbindŭ cu soţia
-                    sa, când eşia cu ea pe pórtă, ca şi cu vr’o treĭ sĕptĕmânĭ maĭ în urmă, să facă
-                    câte o mică preâmblare.</p>
-                <p>— D-ᶁeŭ să te feréscă! jupâne dragă, de-a face unŭ pĕcatŭ ca ş’aista... maĭ bine
-                    eŭ ţi-oiŭ spune totŭ ce sciŭ, în frica ceruluĭ!...</p>
-                <p>— Haide! acum, degrabă!..</p>
-                <p>— Sunt câte-va ᶁile de când jupânésa s’a dusŭ cu redvanulŭ nu sciŭ unde...</p>
-                <p>— Şi cândŭ s’a întorsŭ? —</p>
-                <p>— Numaĭ alaltăĭerĭ diminéţă.</p>
-                <p>— Alaltăĭerĭ?... ţiĭ bine minte?..</p>
-                <p>— Prea bine...</p>
-                <p>— Dér póte nu era ea? spune!</p>
-                <p>— Cum nu? cu fermenéoa cea de firŭ, cu fesulŭ celŭ albŭ... o! ea era...</p>
-                <p>— Oh! dĕstulŭ!.. ieţĭ baniĭ, maică şi mĕ iartă?..</p>
-                <p>Apoĭ sărmanulŭ Lupu convinsŭ că ar fi înşelatŭ de jupânésa sa, eşi din chiliă
-                    strîngêndu-şĭ fruntea în mânĭ, ca şi când ar fi vrutŭ s’o împiedice de a se
-                    despica de foculŭ ce-lŭ ardé! — Elŭ stătu lingă pórtă câte-va minute, ca unŭ omŭ
-                    neotărîtŭ încă ce drumŭ va apuca; apoĭ ştergêndŭ o lacrimă: „S’a sfârşitŭ!
-                    murmură elŭ, cu unŭ tonŭ înlăcrimatŭ déră fermŭ, s’a sfârşitŭ!... Patria nu maĭ
-                    are nevoiă de mine şi nu potŭ să lasŭ celŭ puţinŭ sĕrmanuluĭ Ionelŭ şi drageĭ
-                    Rucsăndiţeĭ unŭ nume pĕtatŭ!... Sĕrmaniĭ copiĭ!... Oh D-ᶁeule! de ce trebuit-a
-                    se mĕ însorŭ, décă nu-mĭ era menită o viaţă cinstită, cu muierea mea?... de ce
-                    trebuia să lasŭ copiilorŭ meĭ numaĭ o mamă nelegiuită...” Şi suspinândŭ adăogi,
-                    după o mică pausă:</p>
-                <p>— Nu aicea, ca să mĕ maĭ védă ea; nu aiceai, ci colo’n codri!..</p>
-                <p>Apoĭ tristŭ şi obositŭ, elŭ plecă tulburatŭ spre loculŭ ce arĕta. Nu făcu însă
-                    ᶁece paşĭ şi se întâlni faţă’n faţă cu o maĭcă bĕtrână.</p>
-                <p>— A! bine ai venitŭ, jupâne dragă! strigă ea după ce cu mare luare aminte lŭ
-                    esamină o clipă până-lŭ cunoscu.</p>
-                <p>— Sărutŭ mâna, sfinţieĭ téle..</p>
-                <p>Maica acésta era stariţa. — Va să ᶁică, biata măicuţă totŭ ţi-a ajutatŭ?</p>
-                <p>Lupu nu rĕspunse, căcĭ nu înţelese despre ce e vorba.</p>
-                <p>— Biata maică Csenia totŭ ţi-a ajutatŭ? repeti ea maĭ tare, creᶁêndŭ că n’a fostŭ
-                    auᶁită.</p>
-                <p>— Despre ce vorbescĭ, sfinţia ta?</p>
-                <p>— Ceĭ te maĭ prefacĭ că nu sciĭ? Nu te teme da a spune, căcĭ eŭ i-amŭ datŭ voia
-                    să mérgă la Iliaşŭ să-ţĭ ajute</p>
-                <p>— Să mérgă la Iliaşŭ, ᶁicĭ?... Cuĭ?</p>
-                <p>— Maiceĭ Csenieĭ?.. étă cum se totŭ preface că nu scie! —</p>
-                <p>— Mĕ rogŭ, maică, vorbesce-mĭ maĭ lămuritŭ... cum? maica Csenia?</p>
-                <p>— Aşĭa, maica Csenia, îmbrăcată în vestmintele jupâneseĭ d-téle...</p>
-                <p>— In vestmintele... jupâneseĭ mele? Ah!. urméză!.. mĕ rogŭ urméză?</p>
-                <p>— A fostŭ la Iaşi.. — La Iaşi?.. — Aşĭa, ce nu sciĭ?.</p>
-                <p>— Maica Csenia îmbrăcată în vestmintele jupâneseĭ mele, a fostŭ la Iaşi?...
-                    murmură Lupu, rĕspunᶁêndŭ nu maiceĭ, ce uneĭ cugetărĭ, care-lŭ preocupa. — Aşĭa,
-                    maĭ alaltăĭerĭ..</p>
-                <p>Unŭ suspinŭ de acele care lasă peptulŭ apĕsatŭ multŭ timpŭ de o grea povară când
-                    e uşuratŭ de ea, unŭ suspinŭ de aceste scóse şi Lupu, când începu a înţelege că
-                    femeea sa póte nu era vinovată.</p>
-                <p>—„Degrabă, Maică! şi fără să’şĭ esplice gândulŭ sĕŭ către călugăriţa, rĕmasă în
-                    uimire, elŭ purcede cu fuga spre monastire, trece pórta, ajunge la chilia
-                    jupâneseĭ, nu ia séma la calulŭ legatŭ de unŭ salcâmŭ, intră...</p>
-                <p>Acolea elŭ află pre unŭ boierŭ anume Constantin Aseni, acelŭ omŭ de casa luĭ
-                    Iliaşŭ Vodă, care descoperise boierilorŭ, cu câţĭ-va anĭ înainte, éră maĭ alesŭ
-                    luĭ Lupu, luĭ Buhuşŭ şi Săvin, cum-că Vodă avea de gândŭ, după sfatulŭ luĭ
-                    Baptiste, să-ĭ ucidă. — La piciórele acestuĭ boierŭ ᶁace trântitŭ ţĕranulŭ
-                    Gurdă, carele numaĭ cât leşinase la Curtea Domnéscă, unde cetitorulŭ îşi
-                    amintesce, póte, că l’amŭ lăsatŭ. — Acesta istorisesce prin cuvinte întretăiete
-                    şi maĭ ne înţelese tóte ticălósele planurĭ ale luĭ Veleli, asupra
-                    jupâneseĭ...</p>
-                <p>Când vĕᶁu pre Lupu intrândŭ, elŭ se târî până la piciórele luĭ şi sărutându-le: —
-                    Stăpâne! jupânésa nu-ĭ de locŭ vinovată... nu! eŭ mĕ jurŭ... că orĭ ce a ᶁisŭ...
-                    calăulŭ de Veleli... carele m’a ucisŭ dóră nu mi-a da ceea ce-mĭ făgăduise de
-                    ţ’amŭ tăgăduitŭ dăunăᶁĭ adevĕrulŭ...„</p>
-                <p>Nu putu mântui vorba. Dându-şĭ ochiĭ peste capŭ, storsŭ de obosélă de opintelile
-                    cu carĭ nefericitulŭ se anima de vr’o câte-va momente de viéţă ce-ĭ maĭ rĕmânea:
-                    — Copilaşiĭ!... strigă elŭ, cu o opintire supremă şi móre pentru totdéuna.</p>
-                <p>Bietulŭ Vasile Lupu înduioşatŭ până la lacrimĭ de scenele aceste, îmbrăţişéză pre
-                    jupânésă, care spune totŭ ce cercase să facă călugăriţa Csenia dóră l’ar feri
-                    pre elŭ din pericolŭ. Vasile nu era de ideea ce avuse Csenia, care vroise să
-                    ucidă pre Iliaşŭ, dér fiindŭ că lucrulŭ nu isbutise, nu reproşă acésta ci-şĭ
-                    îmbrăţişă copilaşiĭ, carĭ-lŭ încunjuraŭ. — Apoĭ Aseni i spuse cum elŭ dăduse de
-                    ţĕrânŭ la curte, pe când urma svóna pe şesŭ, cum acesta lŭ rugase să-lŭ aducă
-                    până acolo, să spue jupâneseĭ ceva fórte însemnatŭ, ce nu vroise a spune
-                    Vorniculuĭ, în sfârşitŭ cum Aseni lŭ aduse dinapoia caluluĭ, viaţa ţiganuluĭ
-                    nedânduĭ timpŭ de a maĭ merge pe la casa sa să-şĭ iée rădvanulŭ.—</p>
-                <p>Câte-va minute după aceea Vasile Lupu reintrândŭ, după ce întovărăşise până la
-                    pórta Monastireĭ, pre Aseni,şi reîmbrăţişându-şĭ jupânésa, i ᶁise:</p>
-                <p>— Pentru tine, dragă jupânăsă, n’amŭ primitŭ Domnia; pentru tine, de acum, amŭ să
-                    lucrezŭ s’o capătŭ!”</p>
-            </div>
-            <trailer>1855. (România Literară).</trailer>
-        </body>
-    </text>
+         </div>
+      </front>
+      <body>
+         <div type="chapter" n="1">
+            <head>CAPULŬ I.</head>
+            <head>Alecsandru Iliaşŭ şi Baptiste Veleli.</head>
+            <p>Maĭ doĭ anĭ se scurseseră de la ᶁioa aceea când treĭ boierĭ, sub unŭ stejarŭ isolatŭ, juraseră mântuirea țĕreĭ orĭ peirea lorŭ.</p>
+            <p>Intr-una din bogatele cămărĭ a le curţilorŭ Domnescĭ din Iaşĭ, cămărĭ aşternute tóte cu covóre turcescĭ şi cu divanurĭ de şalurĭ, cămărĭ în care aurulŭ era prodigatŭ pe laviţe ca şi pre tóte albiturile Domnescĭ, împrejurul uneĭ mese lucsóse, ce se încovăia sub mulţimea felurilorŭ de bucate, aduse în talere scumpe de metalurĭ, i a bĕuturilorŭ de totŭ felulŭ, stăté, înconjuraţĭ de sute de idicliĭ şi Ecpaele, Alecsandru Vodă cu toţĭ Greciĭ, cariĭ mereŭ i închina pahare.</p>
+            <p>— Să trăescĭ, Măria ta! strigaŭ uniĭ, că ne aĭ datŭ pănea de tóte ᶁilele.</p>
+            <p>— Să-ţĭ dé D ᶁeŭ avuţiile luĭ Iov! ᶁicéŭ alţiĭ, că ne-aĭ datŭ slujbe, de ne agonosimŭ cu ce să trăimŭ la ᶁile grele...</p>
+            <p>— Să-ţĭ dé D-ᶁeŭ mărirea luĭ Solomon, uraŭ iştia, că ne-aĭ făcutŭ ómenĭ. — Éră Alecsandru Iliaşŭ le mulţămia, la fiă-care, ᶁicêndŭ:</p>
+            <p>— Să trăiţĭ şi voĭ, că şi maĭ multe avuţiĭ, şi maĭ mare cinste vĕ voitŭ da! Să mâncămŭ, să bemŭ, să petrecemŭ, cu veseliă... căcĭ mi-ĭ vremea şi mie şi vouă, dragilorŭ meĭ. câtŭ oĭ fi eŭ preste țĕra asta şi voĭ cu mine... Strîngeţĭ voinicŭ la banĭ orĭ şi cum, orĭ şi de la cine-ţĭ puté, și halalŭ să vĕ fiă, <hi>morea</hi>! Berechet! țĕra nu-ĭ a mea!...</p>
+            <p>După câte-va óre de la ospĕţulŭ acesta, la care se înfiinţa. vaĭ! așĭa de grozave ᶁile pentru biata Moldovă, în cămara asta era numaĭ Vodă Iliaşŭ şi cu unŭ personagiŭ, pre care încă şirulŭ istorieŭ nóstre ne-aŭ fostŭ împedecatŭ de a-lŭ face cunoscutŭ maĭ de multŭ.</p>
+            <p>Unŭ capŭ ţuguiatŭ, rasŭ şi ascunsŭ sub fesulŭ celŭ roşŭ, o fisiognomiă în care celŭ maĭ simplu omŭ póte ceti <hi>mârşăvia de caracterŭ</hi>, cu scumpenia, şi şiretliculŭ maĭ presusŭ de tóte; aceste patimĭ şi alte maĭ rele încă, formândŭ unŭ sufletŭ sprijinitŭ de douĕ picióre, ce-şĭ ascundŭ cioturile în şacşirĭ roşiĭ şi ciobóte galbene cu mestiĭ, vorŭ sluji de trăsăturĭ, după care cetitorulŭ meŭ va cunósce de-acum pre insulŭ rĕmasŭ cu Iliaşŭ, pre Logofătulŭ Bapt-ste Veleli.</p>
+            <p>Étă ce vorbia aceste douĕ persóne:</p>
+            <p>— Măria ta, să maĭ vorbimŭ de nevoile țĕreĭ...</p>
+            <p>— Să vorbimŭ, Veleli dragă, să vorbimŭ: spune, ce? n-aĭ banĭ de ajunsŭ? Ţi s-a stricatŭ curţile, podurilede pe moşiĭ?...</p>
+            <p>— Nu, nimicŭ de aceste Măria ta, <hi>bogdaproste</hi> luĭ D-ᶁeŭ, nicĭ o slugă de-a le Mărieĭ téle nu duce lipsă de nimică de aceste...</p>
+            <p>— Apoĭ?...</p>
+            <p>— Apoĭ, să maĭ vorbimŭ..</p>
+            <p>— De nevoile țĕreĭ? vorbesce!</p>
+            <p>— Sciĭ, Măria ta, Vorniculŭ Vasile Lupu..</p>
+            <p>— Lupu? care are jupânésă frumósă? Palicarule! aĭ vré să mĕ maĭ înşelĭ, şi...</p>
+            <p>— Nu, nu ᶁicŭ acésta astă-dată, Măria ta, întrerupse răpede Ministrulŭ, devenindŭ roşĭu ca fesulŭ sĕŭ la auᶁirea de jupânésă frumósă.</p>
+            <p>— O aflatŭ! murmură elŭ între dinţĭ...</p>
+            <p>— Apoĭ déră ce-ĭ?</p>
+            <p>— Măria ta, Vorniculŭ Vasile Lupu, cu Hatmanulŭ Săvinŭ şi cu alţiĭ, aŭ să ne răpune viéţa</p>
+            <p>— Viéţa, ᶁicĭ tu, Veleli?...Vorniculŭ Lupu să-mĭ rĕpună viéţa?... Să vede c-aĭ uitatŭ că elŭ nicĭ nu se maĭ scie ce s-a făcutŭ din țéră, sunt acum doĭ anĭ, sciĭ, de când otărîsemŭ să-ĭ punŭ capulŭ în parŭ, luĭ şi la toţĭ ceĭ-l-alţĭ.</p>
+            <p>— Bine, Măria ta, dér elŭ trăiesce..</p>
+            <p>— Trăiesce! Eĭ! şi décă trăiesce?.. Veleli se teme de Vasile Lupu, Veleli, la alŭ căruia glasŭ şi nume arŭ trebui să tremure tótă ţéra?...</p>
+            <p>— Măria ta, nu-sŭ în tóte ᶁilele pascele; aŭ tremuratŭ ea de când sunt eŭ robulŭ Mărieĭ téle, căcĭ de câte orĭ nu tremura, eŭ sciémŭ numaĭ decât s-o daŭ pe pêrtea eĭ.</p>
+            <p>— Şi de ce numaĭ facĭ şi acum totŭ cum facéĭ atuncĭ?</p>
+            <p>— Amŭ făcutŭ, Măria ta, însă degéba! Odinióră, numaĭ cât bâzîia vr-unŭ satŭ, şi pe locŭ lŭ liniscémŭ, că mi-ĭ trântémŭ, (după voia Mărieĭ téle), birŭ preste birŭ, beilicurĭ preste beilicurĭ, până-mĭ striga <foreign>
+                  <hi>amanŭ!</hi>
+               </foreign>
+            </p>
+            <p>— Eĭ, ş-acum cine te împedecă?...</p>
+            <p>— Nime! déră Seimeniĭ pre care-ĭ trimitŭ, ca altă dată, să strîngă birurĭ nu se maĭ întornŭ; aceĭ pre care-ĭ trimitŭ ca să-şĭ primble sineţele prin sate, totŭ ca altă dată dór, se vorŭ îngrozi câniĭ de ţĕranĭ,—éră-şĭ nu maĭ daŭ înapoĭ...</p>
+            <p>— Ce? nu s-aŭ întorsŭ?... Pre toţĭ să mi-ĭ tragĭ în ţépă! Să-ĭ vĕdŭ eŭ, nu maĭ departe decât mânĭ, înşiraţĭ pe zidurile curţeĭ!</p>
+            <p>— Pré bine, Măria ta, de i-orŭ prinde, se.... Dér Vasile Lupu?</p>
+            <p>— Eĭ, bine?</p>
+            <p>— Măria ta, elŭ e pe aice, pe unde-va, ascunsŭ... Să nu mĕ maĭ aĭ de robŭ Mărieĭ téle de n-o fi aşĭa!</p>
+            <p>— Grăsesce-lŭ déră!</p>
+            <p>— Nu-ĭ atâta de uşorŭ de a-lŭ găsi pre cât se pare Mărieĭ téle, că-ĭ omŭ agerŭ şi cu capŭ; nu s-o prinde ca şórecele în capcană... Măria ta, nu-ĭ de şuguitŭ! aŭ să-ţĭ răpună viéţa... orĭ aŭ să te mazîléscă.</p>
+            <p>— Eleĭ, Veleli! Şi ᶁĕŭ, pre legea mea! pĕcatŭ mare de m-arŭ mazîli!</p>
+            <p>— Pĕcatŭ de totŭ! Măria ta escĭ ca unŭ lucéfĕrŭ când te îmbracĭ în straele Domnescĭ.... ş-apoĭ şi noĭ ăştie-l-alţĭ, Măria ta, de te-orŭ mazîli, perdemŭ pânea din mână.</p>
+            <p>— Ce-ĭ de făcutŭ óre, Veleli?... Auᶁĭ! să ne mazîléscă!</p>
+            <p>— Măria ta, pre Vasile Lupu...</p>
+            <p>— Să-ĭ taĭ nasulŭ, să-ĭ taĭ urechile.... să-lŭ tragĭ în ţépă!...</p>
+            <p>— Ca să-ĭ taĭ nasulŭ, să-ĭ taĭ urechile, să-lŭ înţepŭ, trebue să-lŭ fi prinsŭ maĭ ântêiŭ.</p>
+            <p>— Prinde-lŭ, déră.</p>
+            <p>— Décă eŭ aşĭ avé poronca Mărieĭ téle...</p>
+            <p>— Écă-ţĭ poroncescŭ.... Da maĭ la urmă, Veleli, ce totŭ aştepţĭ să-ţĭ poroncescŭ? Tu sciĭ pré bine că toţĭ, ca şi tine, suntemŭ aice, uniĭ ca să agonisimu banĭ, alţiĭ mărire... Fă, dragulŭ meŭ, totŭ ce sciĭ că-ĭ de folosŭ în interesele nóstre ş-ale prietenilorŭ de naţia nóstră... ş-apoĭ, să bemŭ, să mâncămŭ şi să petrecemŭ, Veleli..</p>
+            <p>— Décă-ĭ aşĭa, Măria ta, nu rĕmâne decât să-mĭ iscălescĭ ârtia asta, prin care încuviinţezĭ prinderea luĭ Vasile Lupu...</p>
+            <p>— Ş-a luĭ Săvinŭ, ş-a luĭ Buliuşŭ, ş-a cuĭ veĭ pofti! Adă, Veleli!</p>
+            <p>Şi Iliaşŭ, apropiindu-se de o mésă din mizloculŭ casei, unde eraŭ nisce călimărĭ de alamă, de brâŭ, sub-în-semnă, fără să citéscă măcarŭ unŭ rendŭ, acéstă hârtiă ce-ĭ dete Veleli cu sfiélă.</p>
+            <p>— Ţine, Veleli; fă cu ea ce sciĭ.</p>
+            <p>Veleli, primind-o, orĭ cât se stăpâni, nu putu înnăduşi unŭ zîmbetŭ, ce se lăţi pre subţiratecile luĭ buze şi pre vicleniĭ sĕĭ ochĭ— „E a mea!” murmurâ elŭ între dinţĭ, cu bucuriă.</p>
+            <p>Profitândŭ acum de momentulŭ cât ministrulŭ Veleli se pregătesce de a eşi, şi vorbesce cu stăpânulŭ sĕŭ de lucrurĭ puţinŭ importante pentru şirulŭ istorieĭ nóstre, să ᶁicemŭ câte ceva care să facă maĭ cunoscutŭ cetitoruluĭ caracterulŭ luĭ Iliaşŭ. Cu inima plămădită de natură în patima cea grozavă a mândrieĭ şi în setea de mărire, Iliaşŭ, orĭ câtă parte lua şi elŭ din jafurile, din birurile ce rădica Veleli de pe ţéră, sub felurĭ de denumirĭ, nu era însă maĭ nicĭ o dată elŭ carele arunca, de la sine, tóte acele birurĭ şi angăriĭ, ce scurgé ţéra. Luĭ i trebuia mărire; înconjuratŭ de ómenĭ de naţia sa, carĭ scia a profita de setea luĭ, eĭ ĭ-o potolia prin titlurile pompóse ce, fără de ruşine, i dădé, éră eĭ să mulţămiaŭ cu ceea ce li se păré maĭ positivŭ: cu baniĭ ce scurgéŭ din ţéră, după poruncĭ Domnescĭ, pre care, le era pré uşorŭ de a le trage de la Iliaşĭ. — Aşĭa, acestuia i era de ajunsŭ ca, neocupându-se de nicĭ unŭ interesŭ alŭ ţĕreĭ, să petrécă ᶁi şi nópte la banchetuirĭ, la petrecerĭ, şi să se védă înconjuratŭ de nămolulŭ acelŭ de slugăritŭ pre care Domniĭ Moldoveĭ începuseră a-şĭ înfiinţa, după moda curţeĭ suzerane. De îndată ce Miniştriĭ sĕĭ îĭ procuraŭ cele ce-ĭ plăcé, puţinŭ i pĕsa luĭ cu ce mizlocŭ făcé eĭ acésta. Şi étă că de nepĕsarea acésta a luĭ, boieriĭ pămêntenĭ sciuseră profita, în curgere de doĭ anĭ trecuţĭ, pentru de a rĕsvrăti ţéra asupra luĭ. In deşertŭ Veleli, viclénulŭ Ministru, i arĕtase de maĭ multe orĭ ce fortună clocotia asupra tuturora, nu atât ca să scape viéţa luĭ Vodă, ci ca să nu pérdă, eşindŭ Iliaşŭ din Domniă, mizloculŭ de a se înavuţi. — Domnulŭ rîdé de tóte presupunerile, ce-ĭ arĕta fiara acea egoistă: —„Aruncă birurĭ nouĕ, Veleli, i ᶁicé elŭ; pune beilicurĭ grele!... Décă n-aŭ ce face şi gândescŭ la resvrătirĭ, dă-le de lucru!... Ce naiba! tu, care şi pre mine m-aĭ învĕţatŭ în arta de adomni asupra Moldovenilorŭ, cu asemanea modŭ, tu acum te temĭ de eĭ?... Tu, Veleli! Ha, ha, ha!...</p>
+            <p>Écă ce felŭ de persóne guvernaŭ biata Moldovă!</p>
+         </div>
+         <div type="chapter" n="2">
+            <head>CAPULŬ II.</head>
+            <head>O jupânésă.</head>
+            <p>Să venimŭ la şirulŭ istorieĭ nóstre.</p>
+            <p>Câte-va minute după ce Iliaşĭ iscălise hârtia luĭ Veleli, acesta eşi. Atunci Iliaşĭ închise după elŭ uşa cu cheia şi, deschiᶁêndă o altă uşă, ascunsă într-unŭ colţŭ de părete, dete întrare uneĭ femeĭ.</p>
+            <p>Vêrsta eĭ, (deabia să fiă-avutŭ 18 ani), adăogită de albéţă ca laptele a feţeĭ séle; ochiĭ sĕĭ maĭ frumoşĭ decât cerulŭ din Maiŭ; totŭ căpuşorulŭ eĭ încununatŭ de pĕrulŭ celŭ răsucitŭ pe după albulŭ fesŭ; talia sa cea mlădiósă, ce se desina prin fermenéoa de firŭ rotunᶁită pelângă mijlocu-ĭ trasŭ prin inelŭ şi încinsŭ de paftale cupetre scumpe, tóte, tóte făcéŭ, din nevăstuica asta o frumuseţă atâtŭ de rară, că décă aĭ fi întâlnit-o în géna ᶁileĭ, prin vr-unŭ munte séŭ codru, numaĭ decâtŭ al fi luat-o de vr-o ᶁînă.</p>
+            <p>— Eĭ bine, jupânésă Suzană, i ᶁise Iliaşŭ, luând-o demână şi făcênd-o să şédă pe divan; acumŭ s-aŭ dusŭ Veleli, poţĭ să mântuĭ...</p>
+            <p>— Măria ta, nu maĭ amŭ nimicŭ de spusŭ, respunse jupânésa cu unŭ glasŭ aşĭa de dulce cumŭ nicĭ-odată n-a fostŭ cântare ângeréscă.</p>
+            <p>— Dérŭ spune-mĭ, aşĭa să trăescĭ, dragă jupânésă! cine ţi-ĭ bărbatŭ?</p>
+            <p>— Măria ta, mĕ rogŭ de ertare, dér asta nu-ĭ nevoiă să spunŭ.</p>
+            <p>— Şi de ce nu?.. Ce? óre tu nu mĕ iubescĭ, Suzăniţă?</p>
+            <p>— Eŭ să te iubescŭ?.. eŭ, pre Măria ta?..</p>
+            <p>—D-apoĭ firesce! de vreme că ţ-a fostŭ milă de mine şi n-aĭ vrutŭ să cadŭ sub pumnalele conspiratorilorŭ, pe carĭ aĭ venitŭ să mi-ĭ descoperĭ, să vede că...</p>
+            <p>— Nu, Măria ta, nu! te-nşelĭ!... n-amŭ avutŭ nicĭ-odată altŭ gândŭ, venindŭ aicé, decâtŭ acela ca să-ţĭ mântuĭ viéţa... Asta aşĭ fi făcut-o şi pentru celŭ maĭ mare duşmanŭ alŭ meŭ.</p>
+            <p>— Dér décă acum tu-mĭ escĭ dragă, mie, Suzănicâ?..</p>
+            <p>— Eŭ, Măriei téle... să fiŭ dragă!..</p>
+            <p>— Eacă! şi ce te minunéză asta?.. Décă nu mĕ creᶁĭ...dă-mĭ o guriţă! — Şi lăsându-şĭ unŭ braţŭ pe după gâtlejulŭ eĭ celŭ delebădă, ascunsŭ sub mulţimea şirurilorŭ de salbe, maĭ îşĭ apropiese buzele de a le eĭ, dérŭ ea, de odată, smuncindu-se din braţu-ĭ fugi la uşă şi,cercândŭ s-o deschidă, răcni:</p>
+            <p>— Măria ta, dă-mĭ drumulŭ să mĕ ducŭ!..</p>
+            <p>— Să te ducĭ, Suzănică? ᶁise elŭ, reapropriindu-se de ea; da eŭ te iubescŭ?..</p>
+            <p>— Măria ta, lasă-mă!.. aĭ uitatŭ că amŭ bărbatŭ.</p>
+            <p>— Aĭ bărbatŭ!...ş-apoĭ?.. Te-oiŭ despărţi eŭ de dênsulă... Remâĭ cu mine!...</p>
+            <p>— Dă-mĭ drumulŭ, aibĭ milă!..</p>
+            <p>— Nu vréĭ să remâĭ?</p>
+            <p>— Nu! Dă-mĭ drumulŭ!</p>
+            <p>— Ha! ha! ha! şciĭ că eşcĭ poznaşă?. Să-ţĭ daŭ drumulŭ... Par-că amŭ căpiatŭ... Auᶁĭ d-ta?.. Să-mĭ vie singurică în labă, ş-apoĭ să-ĭ daŭ drumu! Suzana schimba feţe şi începuse a tremura ca vérga. „Ce amŭ făcutŭ eŭ? ce amŭ făcutŭ?” Ea îşĭ frângé mânile, pe când Iliaşĭ, în prada uneĭ mârşave pofte, o sorbia cu ochiĭ.</p>
+            <p>— Ascultă, Suzănică, i ᶁice elŭ, lăsândŭ să isbucnéscă vulcanulŭ ce-ĭ clocoté în sînŭ; fiĭ a mea!</p>
+            <p>— Eu, a Mărieĭ téle? Nu, cât oiŭ trăi!</p>
+            <p>— Fiĭ a mea, Suzănică, şi-mĭ cere ce-ĭ vré: curţĭ, moşiĭ, salbe; să nu maĭ şciĭ ce face de multe avuţiĭ!..</p>
+            <p>— Nu-mĭ trebue nimica! bărbatulŭ meŭ are de tóte...dă-mĭ drumulŭ!...Măria ta!... lasă-mĕ să esŭ!.!</p>
+            <p>— Să eşĭ?.. ha! ha! ha!.. Eĭ! apoĭ, ᶁĕŭ, eştĭ de totŭ poznaşă!.. Să eşĭ?.? Da de ce aĭ venitŭ? ca să eşĭ?</p>
+            <p>— Măria ta! îndurare!..</p>
+            <p>Şi ea se răpeᶁi spre Iliaşĭ ca şi când arŭ fi vrutŭ să i se arunce la ghenunchĭ, dér ţinêndŭ ceva cu o mână pe sub fermenea. Doĭ paşĭ și ea era lângă Vodă, cândŭ o bătaiă agitată în uşă o făcu să sté pe locŭ.</p>
+            <p>— Deschide! deschide! strigă unŭ glasŭ dincolo de uşă.</p>
+            <p>La auᶁirea acestuĭ glasŭ, Iliaşŭ se simţi maĭ la îndămână de cum era când auᶁise ântâile bătăĭ, căcĭ acum cunoscuse glasulŭ luĭ Veleli</p>
+            <p>— Intră érăşĭ unde aĭ statŭ dineóre, ᶁice elŭ încetŭ cătră Suzana. Şi apoĭ ne-îngrijindu-se maĭ multŭ de ea, se duce să deschidă uşa, ᶁicêndŭ: intră Veleli!</p>
+            <p>La numele acesta, Suzana, care nu ascultase porunca luĭ Iliaşĭ, Slobóde unŭ ţipetŭ prelungitŭ şi înainte de ce să fiă intratŭ acela, ea se răpede ca fulgerulŭ, se lovesce peptŭ în peptŭ cu elŭ, şi în fuga mare trece coridórele...</p>
+            <p>Iliaşĭ vré s-o urmăréscă, déră Veleli apucându-lŭ de póla roşeĭ séle giubele: — Stăĭ, Măria ta! nu-ĭ vreme acumŭ de petrecutŭ...</p>
+            <p>— Ce este? strigă elŭ, cu mâniă.</p>
+            <p>— Suntemŭ perduţĭ!...ţéra-ĭ în picióre!</p>
+         </div>
+         <div type="chapter" n="3">
+            <head>CAPULŬ III.</head>
+            <head>Monastirea</head>
+            <p>Cu douĕ ᶁile înainte de cele ce se petrecură la curte, étă ce se urma în altă parte.</p>
+            <p>Cetitorulŭ meŭ bine-voéscă a merge cu mine pre drumulŭ ce duce la mânăstirea..... acea mânăstire ce se înalţă singură în mizloculŭ codrilorŭ betrânĭ, ca o insulă mică în mizloculŭ oceanuluĭ.</p>
+            <p>După o ᶁi călĕtoriă prin pădurĭ, munţĭ cărunţĭ şi văĭ nesvârşite, încinse de pârae ca de nisce brăe de argintŭ, étă că noĭ sosimŭ. Biserica principală între chiliă e, ca într-o cutiă fără capacŭ, împodobită de icóne şi de tablourĭ din sânta scriptură, care de care maĭ rĕŭ, maĭ ciudatŭ zugrăvite. Să trecemŭ răpede délungulŭ cerdaculuĭ, pe la vr-o ᶁece uşĭ, ş-ajungêndŭ la alŭ unspieᶁecea (acea dinaintea căreia se vĕdŭ doĭ salcâmĭ) să intrămŭ. Casa mobilată fórte simplu, ca orĭ ce chiliă călugăréscă, este însĕ de o curăţiă şi o regulă de minune. Pre unŭ divanŭ, aşternutŭ cu scórţe de ţéră, bine ţesute şi feluritŭ vĕrgate, stă jupânésă tênĕră, de o frumuseţă mare. Lîngă ea o scrisóre deschisă, dovedesce că a cetit-o. Acumŭ însă cu ochiĭ gânditorĭ, ea nu-şĭ póte opri unŭ zîmbetŭ fericitŭ ce-ĭ scóte o copiliţă de doĭ spre treĭ anĭ, care de la capĕtulŭ divanuluĭ se dă dea dură ca o rótă, spre braţele jupâneseĭ, riᶁêndŭ cu rîsulŭ celŭ cerescŭ alŭ vĕrsteĭ séle, pe cândŭ lîngă unica mésă de lemnŭ, de lângă feréstra cea mică, ce lumină casa cu o luminŭ nesigurŭ, unŭ băetŭ de vr-o 12—13 anĭ, frumosŭ dér palidŭ ca o frunᶁă în tómnă, întórce mereŭ filele unuĭ céslovŭ.</p>
+            <p>Cetitorulŭ cunósce, póte, pre acéstă jupânésă de jupânésa luĭ Lupu, cu copilaşiĭ sĕĭ, Ionică şi Rucsăndiţa. De nevoiă este sĕ spunŭ însă cum se face că familia luĭ Lupu e la monastirea acéstă.</p>
+            <p>Să-şĭ amintéscă cetitorulŭ de ᶁioa aceea în care Lupu îşĭ pomĭ de a casă jupânésa cu copiiĭ. Atuncĭ nu era de nevoiă ca acum, să sciă cetitorulŭ meŭ, că Lupu îşĭ trimité familia să locuéscă la acéstă monastire, singurele locurĭ, carĭ eraŭ maĭ respectate până şi de Domniĭ ceĭ rĕĭ. N-amŭ nevoiă dér să maĭ spunŭ şi că de atuncĭ nicĭ o singură ᶁi, jupânésa cu copiiĭ nu maĭ eşiseră din monastire, unde din timpŭ în timpŭ venia bărbată-sĕŭ s-o véᶁă, séŭ i trimité scire de elŭ prin vr-unŭ răvaşŭ Tóte cunoscinţele de pe la oraşe ale jupâneseĭ luĭ Lupu se minunaŭ de dispărerea eĭ, dér nime nu putu afla unde se adăpostise ea.</p>
+            <p>Acum sĕ urmămŭ.</p>
+            <p>— Ce facĭ tu, acolo, Ionică, întrébă jupânésa pre băétŭ, vĕᶁêndu-lŭ că de unde voiosŭ se juca, devenise tristŭ şi cu mânica scurteiceĭ séle se silea să frece o pétă de cernélă, ce găsise pe o féţă din céslovulŭ sĕŭ.</p>
+            <p>— Mamă, uită-te că mĭ-a mânjitŭ cartea, Fluturelŭ.</p>
+            <p>— Cine ţ-a mânjit-o?</p>
+            <p>— Fluturelŭ, mămucă, băétulŭ celŭ de la maica stariţa.</p>
+            <p>— De aceea escĭ măhnitŭ?</p>
+            <p>— D-apoĭ mămucă... tata are să socótă că amŭ mânjit-o eŭ, şi elŭ mi-a ᶁisŭ dăunăᶁĭ, să mĕ silescŭ să fiŭ omŭ de omeniă şi să nu-mĭ mânjescŭ cartea.</p>
+            <p>— Dute dér de chiamă pre Fluturelŭ să-lŭ ocărăscŭ că ţi-a mânjit-o.</p>
+            <p>Băétulŭ purcese, dar când fu aprópe de uşă: Nu-lŭ maĭ ocărî, mămucuţă, ᶁise elŭ, cu accentŭ de totŭ rugătoriŭ, ca sĕ nu plângă bietulŭ Fluturelŭ... că a greşitŭ..</p>
+            <p>— Jupânésa îşĭ aţinti ochiĭ cu dragoste spre icóna din părete şi căuta par-că pre D-ᶁeŭ să-ĭ mulţăméscă de bunulŭ sufletŭ ce elŭ dăruise copiluluĭ, apoĭ cu blândeţe, cătră acesta: „Nu te teme, drăguţule; dute de-lŭ chiamă să-lŭ vĕdŭ şi eŭ”</p>
+            <p>Băétulŭ eşi, Rucsăndiţa se lăsă să lunece repede la pămêntŭ, de pe naltulŭ divanŭ şi se îndreptâ spre uşă.</p>
+            <p>— Unde te ducĭ Săndiţă? o întrebă mumă-sa.</p>
+            <p>— Vine <hi>Fluturelŭ</hi>, mamă, vine Fluturelŭ! Şi voiósă, ea se ascundé sub o laviţă de lângă uşă.</p>
+            <p>Ionică îndată intră aducêndŭ de mână pre ruşinosulŭ Fluturelŭ, unŭ băeţelŭ de vr-o 6 anĭ, cu părulŭ creţŭ şi cu ochiĭ micĭ ca de tătarŭ, frumuşelŭ ca unŭ ângerașŭ.</p>
+            <p>Ionică, ruga cu, ochiĭ pre jupânésa să-şĭ ţină cuvêntulŭ ce-ĭ dase, de a nu ᶁice nimica luĭ Fluturelŭ. Ea-lŭ sărută, şi-lŭ desmérdă, şi nu vede încă pre Rucsăndiţa, care o durea guriţa de cândŭ, de sub laviţă, pe sub scórţa ce spânᶁura până josŭ, scoţêndu-şĭ căpuşorulŭ ᶁicé, „Iţiĭ! Fluturelŭ! Iţiĭ Fluturelŭ!”</p>
+            <p>Dér décă jupânésa nu auᶁia pre copiliţă, nu era aşa şi cu Fluturelŭ; elŭ de o dată de sub mâna jupâneseĭ, care-lŭ desmierda, se răpede spre laviţă, ᶁicêndŭ şi elŭ: „Iţiĭ! Iţiĭ!”</p>
+            <p>Apoĭ copila, eşindŭ de sub laviţă şi tîrîndu-lŭ de mână lîngă jupânésă, strigă: mamă, écă Fluturelŭ!</p>
+            <p>— A cuĭ escĭ tu, drăguţă? lŭ-întrebă jupânésa.</p>
+            <p>Băétulŭ rĕspunse ceva într-o limbă strĕină.</p>
+            <p>— Nu póte vorbi mămucă, ᶁisă Ionelŭ.</p>
+            <p>— Ba nu scie vorbi limba ta, băete, respunse jupânésa, înţelegêndŭ acesta, ea, şi astă dată încredinţându-se chiar şi din fisionomia băétuluĭ.</p>
+            <p>In momentulŭ acesta intrâ o maică de vr-o 18 anĭ, frumósă ca şi jupânésa.</p>
+            <p>— Eĭ bine, măicuţă Csenie? întrébă acésta.</p>
+            <p>— S-a pusŭ la cale; îmĭ dă voiă...</p>
+            <p>— Iţĭ dă?... Ionică ié pre Rucsăndiţa şi duceţivĕ de vĕ jucaţĭ prin cerdacŭ cu Fluturelŭ Copiiĭ eşiră.</p>
+            <p>— Iţĭ dă voiă? repetă ea érăşi cătră juna maică.</p>
+            <p>— Aşĭa, jupâneşică.</p>
+            <p>— De-ĭ aşĭa, să nu perdemŭ timpulŭ! — Bărbatu-meŭ mi-a scrisŭ că nu maĭ departe decât poimânĭ are să isbucnéscă rescóla... E vreme încă..</p>
+            <p>Aşĭa, să ne grăbimŭ. să nu perdemŭ timpulŭ! — Mâne voiŭ fi acolo, şi poimâne, ajutându-mĭ D-ᶁeŭ, ţéra-i mîntuită şi bărbatulŭ d-téle, jupâneşică, scăpatŭ de primejdiă.</p>
+            <p>— O! măicuţă! dragă măicuţă! D-ᶁeŭ ţi-o ţiné în sémâ fapta asta mare! — Apoĭ dintr-unŭ săcrieşŭ jupânésa scósă unŭ rîndŭ completŭ de straie de ale séle şi îmbrăcă cu ele răpede pre maica.</p>
+            <p>— Aşĭa, escĭ de totŭ frumósă! nicĭ ângeriĭ nu ţi-arŭ puté resiste. Privesce-mĕ, bine! Aĭ fermeca cu albaştriĭ tĕĭ ochĭ nu numaĭ pre unŭ pĕcătosŭ ca dênsulŭ, dér şi pre celŭ maĭ mare împĕratŭ!..</p>
+            <p>— Óre mĕ póte cunósce cine-va?...</p>
+            <p>— Nime, câtu-ĭ lumea!</p>
+            <p>— Nicĭ?..</p>
+            <p>— Cine, Veleli?</p>
+            <p>— Ah! mĕ rogŭ, nu maĭ rosti numele luĭ celŭ...</p>
+            <p>— Spurcatŭ... de ce?... Din contra, lasă să-lŭ rostescŭ. Haide! să te vedemŭ! Acum ţi-e vremea să-ĭ resplâtescĭ ticăloşia la care te-a adusŭ...</p>
+            <p>— Ah! nu! nu-mĭ simtŭ curagluĭŭ...</p>
+            <p>— Incă-lŭ iubescĭ, sĕrmană măicuţă!..</p>
+            <p>— Nu, nu-lŭ maĭ iubescŭ!... Nici că potŭ să-lŭ iubescŭ, de când din causa luĭ, ca să nu fiŭ arĕtată cu degetulŭ, amŭ îmbrăcatŭ rasa.... Nu! jupâneşică, nu-lŭ maĭ iubescŭ, déră... să-ĭ facŭ vr-unŭ rĕŭ...</p>
+            <p>— Fiă! dér celuĭ-l-altŭ?</p>
+            <p>— Luĭ Iliaşŭ? O! de elŭ nu-ĭ vorbă! ţéra săraca nu maĭ póte sub ticăloşiile luĭ... Privesce, pumnarulŭ acesta fórte ascuţitŭ.</p>
+            <p>Şi arétă unŭ junghieriŭ, ce-lŭ ascunsese în sînŭ, sub fermenéoa de firŭ, cu care o îmbrăcase jupânésa.</p>
+            <p>— Aşĭa, strigâ şi acésta, înfocată de curagluĭŭ maĭceĭ; mórte! mórte călâuluĭ atâtorŭ boierĭ!... mórte asupritoruluĭ bieteĭ moşiĭ, mórte luĭ Iliaşŭ, carele are de scopŭ să mănânce ᶁilele draguluĭ meŭ!</p>
+            <p>— Jupânésă, liniscesce-te! Poimâne boierulŭ d-téle şi cu ţéra se vorŭ fi rĕsvrătitŭ de prisosŭ, căci mulţămită junghieruluĭ ăstuĭa, de icé, ticălosulŭ de Iliaşŭ nu va maĭ fi ca să le sté împotrivă.</p>
+            <p>— Bine! Acum spune-mĭ, drăguliţă, cum aĭ să facĭ să strĕbaţĭ până la elŭ?</p>
+            <p>— Ajungŭ la curte, cerŭ degrabă să intru la Măria sa Vodă....</p>
+            <p>— Dér de n-orŭ vré să te lase?...</p>
+            <p>— Spunŭ că amŭ venitŭ să-ĭ scapŭ ᶁilele de unŭ complotŭ...</p>
+            <p>— Nu cum-va să facĭ una cât asta!</p>
+            <p>— De ce?</p>
+            <p>— Dér bărbatu-meŭ, dér atâţia boierĭ pre carĭ i-aĭ perde?...</p>
+            <p>— Aştéptă; spunŭ aşĭa, eŭ sunt îndată primită... Mĕ uitŭ la elŭ galişŭ... elŭ îndată mĕ-ntrébă ce vréŭ...eŭ i spunŭ, fără să-ĭ numescŭ pre nime, să-şĭ feréscă ᶁilele că-sŭ în pericolŭ... Apoĭ mĕ prefacŭ, înţelegĭ, ca şi când mi-arŭ fi dragŭ, afurisitulŭ... Apoĭ...</p>
+            <p>— Apoĭ? — Elŭ mĕ opresce, după obiceluĭŭ luĭ celŭ spurcatŭ... Se întinde maĭ mulŭ; îlŭ lasŭ, să mĕ coprindă în braţe, şi mi-ţĭ împlântŭ în inimă-ĭ pumnarulŭ ăsta, şi fugŭ.</p>
+            <p>— A! maică! făcu jupânésa, îngrozită de crudulŭ eĭ curagiŭ.</p>
+            <p>— Ce? te-nfiorĭ? — Aĭ vré maĭ bine să veᶁĭ stingêndu-se ţéra ta? să-ţĭ veᶁĭ în ţépă, auᶁĭ jupânésă, în ţépă pre soţulŭ tĕŭ?.. Nu! eŭ facŭ treĭ lucrurĭ bune ucigêndulŭ; l-iŭ, mântuescŭ moşia, alŭ 2-lea, bărbatulŭ d-téle nu maĭ e în pericolŭ, şi alŭ 3-lea, eŭ.... <hi>eŭ sunt rĕsbunată de trădarea luĭ!</hi>
+            </p>
+            <p>— Ce ᶁicĭ... elŭ?</p>
+            <p>— Veĭ sci altă dată; haide! timpulŭ trece... Să te vĕdŭ sănătósă, jupâneşică...</p>
+            <p>Unŭ rĕdvanŭ o priimi la pórta mănăstireĭ. Éră jupânésa, înmărmurită de tonulŭ eĭ plinŭ de resbunare, acoperindu-şĭ féţa cu albele séle mânĭ, lăsâ să clocotéscă în bunulŭ eĭ sufletŭ, fortuna de frică, de grijĭ şi de mustrărĭ de cugetŭ, ce înnăscuse în elŭ ideea, că omorulŭ ce avé să facă maĭca, era cu a sa sciinţă şi învoire!</p>
+         </div>
+         <div type="chapter" n="4">
+            <head>CAPULŬ IV.</head>
+            <head>Conspiratoriĭ</head>
+            <p>Intre aceste, ţéra, care <hi>ferbêndŭ de greutăţĭ şi netocmelĭ</hi>, pré lesne se pornise de către boierĭ, sub povăţuirea şi înrîurirea cea puternică a luĭ Lupu, era acum gata. Flăcăĭ, năimiţĭ, seimenĭ fugiţĭ de la Domniă, aproᶁĭ, sate întregĭ aşteptaŭ numaĭ semnalulŭ, ca să năbuşéscă asupra Iaşilorŭ.</p>
+            <p>Tómna începuse a îmbrăca natura cu palida sa mantie. — Intr-o ᶁi (a doua de la ᶁioa aceea în care vĕᶁurămŭ pre maica csenia séŭ jupânésa Suzana, neisbutindŭ în planulŭ eĭ de a ucide pre Iliaşŭ), pre când razele rubinóse a le geneĭ ᶁileĭ, resfrânte în albiĭ nouraşĭ de aburĭ ce împrejuraŭ ca unŭ brâŭ de gazŭ pólele munţilorŭ, vestiaŭ curênda ivire a sóreluĭ, de o dată codriĭ din prejnrulŭ Iaşilorŭ clocotiră de buciume. Eco nu maĭ repeta decât nótele apeluluĭ, nótele care chiăma o ţéră întrégă, obosită de tiraniĭ sĕĭ, la mântuire, la ᶁile maĭ fericite.</p>
+            <p>Pré când maĭ multŭ de 50 de buciumătorĭ aşeᶁaţĭ din zare in zare îndemnaŭ pasulŭ trupelorŭ, carĭ din deosebite puncturĭ avéŭ să se întrolóce într-o întinsă poénă din aceştĭ codri; acolo, câte-va sute de Seimenĭ, arcaşĭ şi sineţaşĭ şi o mulţime de junĭ sătenĭ, înarmaţĭ de cóse şi de topóre, deşertaŭ unŭ polobocŭ de vinŭ, din carulŭ, împrejurulŭ căruia stătéŭ grămădiţĭ, închinândŭ mereŭ la pahare, când întru mântuirea moşieĭ, când în sănătatea căpitanuluĭ Lupu.</p>
+            <p>Şi căpitanulŭ Lupu era cu eĭ. Şeᶁêndŭ pe unŭ trunchiŭ de arbore tăiatŭ, cerceta, în aşteptarea sosireĭ celorŭ l-alţĭ boierĭ cu satele lorŭ, numărulŭ trupelorŭ de care avé să dispună.</p>
+            <p>Ca o rază ceréscă înseninâ mândra luĭ frunte, când se asigurâ de întinsele şirurĭ, în fruntea cărora elŭ nu era la îndoială, că va isbuti să mântuéscă moşia. — „Beţĭ, băeţĭ! striga elŭ din timpŭ în timpŭ. Umpleţĭ cupele şi beţĭ în sănătatea căpitanilorŭ Buhuşŭ, Savinŭ şi Urechiă, carĭ curêndŭ vorŭ să soséscă!</p>
+            <p>— Să trăéscă căpitaniĭ! Ura!...</p>
+            <p>— Să trăiţĭ băeţĭ! să trăimŭ cu toţiĭ copiĭ! Să ne ajute D-ᶁeŭ, ca să mântuimŭ biata nóstră moşiă de lighiónele aceste hămesite, de lighiónele aceste, carĭ nu se satură că béŭ sudórea feţeĭ vóstre, dér încă şi d-vóstră şi nouă ne necinstescŭ până şi muierile şi feciórele...</p>
+            <p>— Să móră! să móră! urlară miĭ de glasuri totŭ-de-odată.</p>
+            <p>— Aşĭa, băeţĭ! dér tăcere! auᶁiţĭ voĭ acele tropote de caĭ, acele glasurĭ ce clocotescŭ ca vuetulŭ de la o sută de morĭ la unŭ locŭ?... Iea suiţi-vĕ, băeţĭ, câţĭ va pre arborĭ, de zăriţĭ, de vinŭ fraţĭ de-aĭ noştrĭ séŭ niscaĭ duşmanĭ.</p>
+            <p>— Fraţĭ! fraţĭ! strigară maĭ mulţĭ flăcăĭ, carĭ îndepliniseră porunca Căpitanuluĭ.</p>
+            <p>In adevĕrŭ, preste câte-va minute poéna şi pădurea tótă gemé de mulţimea ticsită de ostaşĭ şi ţĕranĭ, carĭ sosiaŭ din tóte părţile, strigândŭ: — Să trăéscă jupânulŭ Lupu! Să trăéscă Hatmanulŭ Savinŭ, jupânulŭ Buhuşŭ şi jupânulŭ Urechiă! — Să móră Iliaşŭ cu lighiónele luĭ!</p>
+         </div>
+         <div type="chapter" n="5">
+            <head>CAPULŬ V.</head>
+            <head>Scrisórea.</head>
+            <p>Pre când aceste să petrecéŭ în pădure, într-o curţişóră de la Iaşĭ, din Beilicŭ, găsimŭ pre unulŭ dintre cunoscuţiĭ noştriĭ.</p>
+            <p>Acesta-ĭ Veleli. — Elŭ numĕra, cu ochiĭ holbaţĭ şi scânteitorĭ, în momentulŭ acesta, nisce grămăᶁĭ de banĭ, pre caiĭ le resturnase pre divanŭ, din maĭ multe óle, ce scosese de sub podelele patuluĭ.</p>
+            <p>— Ié aşĭa! ᶁicé elŭ, după ce toţĭ baniĭ numĕraţĭ şi legaţĭ în pungĭ de pele i pusă érăşĭ în óle la loculŭ lorŭ; ié aşĭa!... să fiă gata toţĭ bănişoriĭ... şi numaĭ câtŭ s-orŭ ivi blăstemaţiĭ ceea, pe la capĕtulŭ têrguluĭ, eŭ îmĭ apucŭ drumulŭ pe la cel-l-altŭ capĕtŭ... Dérŭ Iliaşŭ? Eĭ! scape cumŭ va puté!... Când i-amŭ spusŭ ierĭ de adoua óră vestea ce-mĭ adusese Gurdă, că conspiratoriĭ aŭ să năbuşéscă cât de curêndŭ, elŭ s-a supĕratŭ încă că l-amŭ făcutŭ de-a scăpatŭ din mânĭ o muiere! — Maĭ la urmă, ce-mĭ pésă! de nu-ĭ place să pórte capulŭ pe umere, sté să-i-lŭ pună Vasile Lupu alăturé... Eŭ n-amŭ gustŭ însă de acésta. Cum voiŭ simţi bâziindŭ prin târgŭ, iute calulŭ şi bine-cuvêntatŭ fiă numele ţĕreĭ acesteĭ. din care, din golŭ ce amŭ venitŭ. mĕ ducŭ încărcatŭ de averĭ... Eĭ! pĕcatŭ numaĭ decum-va Grurdă mi-a fi făcutŭ la mănăstire tréba cu care l-amŭ însĕrcinatŭ şi n-aşĭ avé vreme să... Mare pĕcatŭ arŭ fi, căcĭ ea este frumósă de totŭ, se ᶁice!.. Şi éră halalŭ de arŭ isbuti la ea Grurdă cu scrisórea ceea!.. M-aşĭ fi dusŭ eŭ însumĭ s-o întâlnescŭ la monăstire, dér acolo-ĭ afurisita cea de călugăriţă... şi de aşĭ da ochĭ cu dênsa apoĭ mi-arŭ strica totŭ planulŭ pe lângă <hi>jupânésa</hi>.</p>
+            <p>— Cine-ĭ acolo? strigă elŭ de-odată, auᶁindŭ nişce păsurĭ în tindă.</p>
+            <p>— Eŭ, Măria ta, eŭ, robulŭ Mărieĭ téle, respunse unŭ glasŭ grosŭ şi scărţiitorŭ ca unŭ carŭ neunsŭ.</p>
+            <p>— Tu escĭ, măĭ Gurdă?</p>
+            <p>Intră unŭ ţiganŭ urîtŭ, buzatŭ şi negru ca pĕcatulŭ.</p>
+            <p>— Ce eştĭ aşĭa de opăritŭ? întrebă Veleli, vĕᶁêndŭ féţa îngrozită ce făcé ţiganulŭ. Acesta se aruncă în genunchĭ, cu féţa la pămêntŭ: — „ Omóră-mĕ Măria ta!.. Fă ce-ĭ vré cu mine!...”</p>
+            <p>— Ce-aĭ făcutŭ, câne fără de lege?</p>
+            <p>Veleli presimţi o nenorocire, după fioriĭ ceĭ recĭ ce fiă-care cuvêntŭ alŭ ţiganuluĭ, i trecé în inimă; ce aĭ făcutŭ, tâlharule?</p>
+            <p>— Măria ta amŭ perdutŭ...</p>
+            <p>— Aĭ perdutŭ scrisórea? ur-ă Ministrulŭ. resturnândŭ cu piciorulŭ pre ţiganŭ, care-le se buşi cu capulŭ de uşă.</p>
+            <p>— Omóră-mĕ! Măria ta...</p>
+            <p>Veleli rĕmase gânditoriŭ o clipă.</p>
+            <p>— Minţeşcĭ! strigă apoĭ, minţeşcĭ! n-aĭ perdut-o, câne de ţiganŭ; aĭ dat-o luĭ Lupu... Spune!că de nu, te ucidŭ ca pe unŭ câne ce escĭ!</p>
+            <p>Ţiganulŭ, mârşava unéltă cu care se servia Veleli la aducerea în împlinire a orĭ-ce pofte şi planurĭ ticălóse d-ale séle, pentru întâeaşĭ-dată póte în viaţa luĭ spuné adevĕrulŭ, când, ameninţatŭ de paloşulŭ luĭ Veleli, ᶁicé tremurândŭ de frică; „Stăpânule! milostivule!... écă-ţĭ spunŭ tocmaĭ adevĕrulŭ: n-amŭ perdut-o...</p>
+            <p>— Ce-aĭ făcutŭ dérŭ cu ea, ticălosule?</p>
+            <p>Ţiganulŭ era se respundă, când unŭ neaşteptatŭ personagiŭ respunse pentru elŭ din tindă:</p>
+            <p>— Nu! n-a perdut-o, căcĭ étă-o la mine.</p>
+            <p>Glasulŭ acesta era alŭ Vorniculuĭ Vasile Lupu, carele intrâ pe când Veleli remăsese înmărmuritŭ în poziţia sa. — Lupu îşĭ, îndreptă de la pragulŭ uşeĭ sinéţa spre Veleli.</p>
+            <p>— Josŭ paloşulŭ, orĭ te oborŭ pre tine jos, ticălosule! strigă elŭ cu unŭ tonŭ aşĭa de ameninţătorŭ, că ticălosuluĭ ministru nicĭ-o minută nu-ĭ trecu prin gândŭ să se-’mpotrivéscă vroinţeĭ luĭ.</p>
+            <p>Apoĭ când greculŭ fu desarmatŭ, Lupu scoţêndŭ din brâŭ o carte:</p>
+            <p>— Ascultă, strigă elŭ, cu unŭ glasŭ cumplitŭ:</p>
+            <quote type="letter">
+               <p>Jupânésă Vornicesă!</p>
+               <p>Bărbatulŭ d-téle, Vorniculŭ Vasile Lupu aflatu-l-amŭ domnia nóstră că âmblă să facă svóne asupră-ne; deci étă că Domnia nóstră cercetat-amŭ de elŭ în tótă ţéra şi l-amŭ aflatŭ unde este, şi otărit-amŭ credincióseĭ nóstre slugĭ, luĭ Logof.-Veleli să-’lŭ prindă şi să-ĭ taie nasulŭ, dupre cumŭ se face la toţĭ aceĭ ce âmblă după Domniă; însă étă că aséră prinsu-l-a pre bărbatulŭ, d-le, pre Vornicu Vasile Lupu şi poĭ-mâne, otărît-amŭ Domnia nóstră, slugeĭ nóstre Logofĕtuluĭ Veleli să-ĭ taĭe nasulŭ şi urechile. — Dér d-ta, jupânésă, décă vréĭ, poţĭ să-lŭ mântuescĭ de la acéstă a nóstră dréptă urgiă, viindŭ singură la curte să dovedescĭ dumisale Boeruluĭ Veleli, precumŭ că bărbatulŭ d-téle,nu-ĭ vinovatŭ.</p>
+               <p>Iscălitŭ: <hi>Alecsandru Iliaşŭ</hi>.</p>
+            </quote>
+            <p>— Tâlharule! strigă Lupu, după ce ceti acéstă scrisóre; tâlharule!.. ce însemnéză acéstă carte?.. Acumŭ degrabă să-mĭ spuĭ de ce făcéţĭ să-mĭ vină femeea la Iaşĭ... la domniă?... Respunde, că-'mĭ slobodŭ sinéţa în tine, câne fără de lege!..</p>
+            <p>Nicĭ-odată, de când mamă-sa îlŭ născuse, într-o oră de mâniă a luĭ D-ᶁeŭ asupra Moldoveĭ, Veleli nu tremurase de gróză ca la auᶁirea acesteĭ poruncĭ, sine qua non, prin care i se cerea tălmăcirea scrisóreĭ aceleia, pre care cetitorulŭ sperŭ că-şĭ amintesce cu ce chipŭ fu iscălită de Iliaşŭ.</p>
+            <p>— Jupâne Vornice, ᶁicé elŭ, tremurândŭ fiă-care cuvêntŭ; aibĭ milă de mine, să nu morŭ în ţéră străină... că nu-’sŭ vinovatŭ!.. Măria sa Vodă a trimisŭ astă scrisóre, dupre cumŭ veᶁĭ... eŭ nu şciŭ de ea...</p>
+            <p>— Minţescĭ. neruşinatule!</p>
+            <p>— Pe D-ᶁeulŭ meŭ, mĕ jurŭ!..</p>
+            <p>— Minţescĭ, féră spurcată!..</p>
+            <p>— De ce ᶁicĭ că minţescŭ, jupâne Vasile?... Pe vluĭŭ Isusŭ..</p>
+            <p>—Sfârşesce!.. — Scólă în picióre, măĭ Gurdă şi spune-mĭ aice ce mi-aĭ spusŭ în drumŭ, unde mi te-amŭ prinsŭ...</p>
+            <p>Ţiganulŭ se ridică, déră nu rĕspunse.</p>
+            <p>— Ce aĭ? adaose Lupu...</p>
+            <p>— Măria ta, eŭ ţ-amŭ spusŭ...</p>
+            <p>Greculŭ Veleli êşĭ oprise până şi resuflarea. Ca suspendatŭ de buzele ţiganuluĭ, elŭ aştepta să-lŭ audă rostindu-ĭ sentinţa séŭ mântuirea.</p>
+            <p>— Ce mi-aĭ spusŭ? strigă Lupu, în nerăbdare, vĕᶁêndŭ că ţiganulŭ se-'ntrerupse de-o-dată: urméză! că pre legea mea...</p>
+            <p>Lupu nu băgă de sémă la unŭ gestŭ ce greculŭ făcu ţiganuluĭ, pe furişŭ, unŭ gestŭ fórte însemnătorŭ, care s-arŭ fi pututŭ traduce prin: nu spune şi ţ-oiŭ da banĭ mulţĭ!</p>
+            <p>— Amŭ spusŭ, urmă în sfârşitŭ ţiganulŭ, nedumeritŭ în alegerea ameninţărilorŭ de mórte a le luĭ Lupu, şi a făgăduinţeĭ de banĭ a luĭ Veleli; amŭ spusŭ că Măria sa...</p>
+            <p>— Cine, eŭ? urlă Veleli, rezemându-se de o laviţă ce era aprópe de elŭ.</p>
+            <p>— Nu, Măria sa Vodă m-a trimisŭ...</p>
+            <p>— Minţescĭ, tâlharule!... adevĕrulŭ, orĭ nu maĭ veᶁĭ altŭ sóre ca acuma resĕrindŭ! adaose Lupu, pe fruntea căruĭa se juca în acelŭ momentŭ o raᶁă aurită, ce sórele trimité prin o feréstră naltă, ce lumina întunecósa locuinţă secretă a Ministruluĭ. Ţiganulŭ, orĭ-cât de încuragiatŭ se simţise de gestulŭ celŭ sublimŭ alŭ luĭ Veleli, începu să tremure ca vérga, la ameninţarea luĭ Lupu. Elŭ se asvêrli érăşĭ în genunchĭ şi începu a săruta vêrfulŭ încălţămintelorŭ Vorniculuĭ: — Măria ta! măria ta! aibĭ milă... amŭ copilaşĭ!.</p>
+            <p>Bietulŭ Vorniculŭ, care, o clipăînainte, în culmea furieĭ şĭ-a indignăriĭ ştergea sudorĭ recĭ de pe-’nalta sa frunte, elŭ, la cuvêntulŭ de <hi>copilaşŭ</hi>, simţi leşinândŭ dininima luĭ şi furiă şi idignare; suvenirulŭ copilaşilorŭ seĭ se deşteptă, o amară disperare şi obosélă i cuprinseră sufletulŭ, încâtŭ elŭ nu maĭ avu putere să ţină sinéţa în mână; ea căᶁu pe podélă târîndŭ cu dânsa cea maĭ de pe urmă scântee de mâniă din inima luĭ, şi ca unŭ omŭ ce se îngrozesce de fapta ce era să facă, êşĭ ascunse cu durere capulŭ în mânile sale cele puternice.</p>
+            <p>— Amŭ trecut-o la rĕbojĭ şi pre muĭerea ta! urlă deodată la feréstră, pe din-afară, unŭ glasŭ care deşteptâ ca cu o lovitură de pumnalŭ, pre bunulŭ Lupu.</p>
+            <p>Baptiste nu maĭ era în cămară. Ca fulgerulŭ elŭ profitândŭ de abaterea luĭ Lupu se şi răpeᶁise afară. Acumŭ fugé spre curte în fuga jmare, ne-atingêndŭ pămêntultŭ şi resturnândŭ pre toţĭ ceĭ din calea sa.</p>
+            <p>— Stăĭ Căpitane! Aidemŭ! sórele-ĭ susŭ, strigă unŭ seimenŭ, care eşi de sub gârlicluĭŭ uneĭ pivniţe şi mi-şŭ încleştă braţulŭ seŭ de ferŭ asupra braţuluĭ luĭ Lupu, care se pregăté, în renăscuta sa furiă, să urmeze după Veleli.</p>
+            <p>— Aĭ dreptate! respunde elŭ, simţîndu-şĭ inima sa în prada seteĭ de resbunare şi a datorinţilorŭ ce nobilulŭ sĕŭ sufletŭ i împunea; aĭ dreptate! înainte de tóte moşia! — Şi încălecândŭ pe roĭbulŭ ce-ĭ prezenta seimenulŭ, dispăru ca o săgétă, avêndŭ pre seimenŭ dinapoia sa.</p>
+         </div>
+         <div type="chapter" n="6">
+            <head>CAPULŬ VI.</head>
+            <head>Una din ᶁilele cele frumóse ale Moldoveĭ</head>
+            <p>Câte-va ore după acésta, pe când sórele se rădicase de vr-o patru suliţĭ de la orizonŭ, Lupu era érăşi cu aĭ sĕĭ, pre cari-ĭ părăsise dândŭ de Grurdă, carele, séŭ de frica sâgeţeĭ, séŭ din îndemnulŭ a câtorŭ-va rubiele. i deduse scrisórea, prin ajutorulŭ căreĭa ticălosulŭ Veleli spera să isbândéscă în mârşavele séle planurĭ.</p>
+            <p>Ce măréţă şi impozantă adunare gâsimŭ noĭ acuma, nu maĭ multŭ în pădure, déră în şesurile şi culmele ce se întindŭ între ea şi politia Domnéscă. Cel mare de capeie încununéză sórele cu aurósele luĭ raze!..</p>
+            <p>Indată după sosirea luĭ Lupu, carele era aşteptatŭ, semnalulŭ de purcedere se dă, iér acesta poruncesce maĭ ântêiŭ să se facă rugăciunĭ. Unŭ preotŭ bĕtrânŭ începe sfinţirea apeĭ. Sórele aurindŭ albele barbe ale bĕtrânilorŭ boierĭ, lucirea sclipitóre a sineţelorŭ, a topórelorŭ, a cóselorŭ, solemitatea cântărilorŭ religióse, făcé din acéstă adunare ca nisce legióne cerescĭ cântândŭ mărirea copiluluĭ din Vitleemŭ, cântândŭ dreptatea şi pacea, pre care ele avéŭ să le restatomicéscă în lume şi să le rĕsbune. După mântuirea cerimonieĭ, după ce apa cea sântă plouă ca o plóe de aurŭ asupra capetelorŭ grămeᶁeĭ şi se sărută crucea, Lupu înorânduesce şirulŭ trupelorŭ; apoĭ de pe tulpina unuĭ arbora rĕsturnatŭ, elŭ grăesce aşĭa:</p>
+            <p>„Boierĭ d-vóstră şi ómenĭ bunĭ! D-ᶁeŭ ne-a adunatŭ pre noĭ toţĭ aicea, ca să împlinimŭ voia luĭ: să restatornicimŭ dreptatea şî puternicia moşieĭ nóstre! Boierĭ şi fraţĭ! scopulŭ nostru e sântŭ! D-ᶁeŭ ne va povĕţui săscăpămŭ moşia din ghiarele asupritorilorŭ, elŭ ne va ajuta să spălămŭ petele ce aceia aŭ impusŭ numeluĭ multora din noĭ! „In tine, Dómne, amŭ nădĕjduitŭ, şi a tremurată duşmanulŭ meŭ!”</p>
+            <p>— Să móră! să móră Iliaşŭ, urlă şirurile, întrerumpêndŭ pre Lupu.</p>
+            <p>— „Ascultaţĭ! urméză Vasile, ascultaţĭ: D-ᶁeŭ nu vré mórtea pĕcătosuluĭ; cruţare, fraţilorŭ, până şi pentru Iliaşŭ! o cerŭ de la voĭ, o cerŭ în numele luĭ D-ᶁeŭ, carele în alt-felŭ nu va bine cuvênta silinţele nóstre!...</p>
+            <p>— Ce-ĭ de făcutŭ, déră? întrébă maĭ multe glasurĭ.</p>
+            <p>— Să cătămŭ a face tóte cu binele. Să mergemŭ, boierĭ, cu toţiĭ la Iliaşŭ şi sa-ĭ spunemŭ din partea ţĕriĭ ca să ésă din scaunŭ; iér décă nu va vré, décă va avé nebunia a face ameninţărĭ, atuncĭ, boierĭ şi fraţĭ! sângele carele se va vĕrsa fiă asupra luĭ şi a némuluĭ luĭ! D-ᶁeŭ ne va ajuta!.. Cât pentru mine, sângele meŭ, décă trebui, gata voiŭ fi alŭ vĕrsa, décă cu preţulŭ luĭ se va puté, cruţândŭ braţele vóstre numeróse, care atât trebuescŭ moşieĭ, să se dobândéscă mântuirea eĭ...</p>
+            <p>— Aşĭa, aşĭa! strigă miĭ de glasurĭ; să móră atuncĭ asupritorulŭ!</p>
+            <p>— Să móră Veleli şi toţĭ ceĭ-l-alţĭ! urlă alte şirurĭ.</p>
+            <p>— Să móră atuncĭ necinstitorulŭ numeluĭ meŭ! strigă şi Lupu.</p>
+            <p>La acestŭ strigătŭ toţĭ boieriĭ se îndesuiră în jurulŭ luĭ, cerêndŭ să se esplice, ce însemnéză strigarea acésta. Elŭ le arĕtă scrisórea sciută, le o citi, le spuse vorbele grozave, ce Veleli i trimise fugindŭ, cu câte-va ore maĭ în urmă...</p>
+            <p>Să móră Veleli! Să móră! strigă toţĭ boieriĭ înfuriaţĭ la aurirea acestora.</p>
+            <p>— Să móră Veleli! strigă Lupu; dér, boierĭ, décă va vré cu binele să părăséscă moşia?</p>
+            <p>— Ce ᶁicĭ? întrerupseră câţĭ-va boierĭ; dér péta numeluĭ tĕŭ? —</p>
+            <p>— Fiă! numele meŭ va rĕmâné pĕtatŭ. Eŭ voiŭ câta prin alte mizlóce să ştergŭ acea pétă, adaose elŭ, posomorându-şĭ privirea; dér elŭ va trăi!.. Aicea nu sunteţĭ adunaţĭ să rĕbunaţĭ pre unŭ singurŭ omŭ, ci să mântuiţĭ moşia întrégă. De veţĭ puté face acésta fără vĕrsare de sânge, cruţaţĭ nu numaĭ pre Veleli şi pre Iliaşŭ, dér şi pre toţĭ ceĭ-l-alţĭ... Ast-felŭ D-ᶁeŭ ne va ajuta de apururea!... Acum, boierĭ şi fraţilorŭ, aidemŭ! Timpulŭ trece... şi fiă-care minută ce perdemŭ în deşertŭ este o armă ascuţită ce amŭ puté da în mâna asupritorilorŭ noştriĭ!.. Aideţĭ boierĭ! Aideţĭ băieţĭ! — Buciumele rĕsunară. Strigătele de ura şi tropotele cailorŭ clocotiră încă multe minute în codri, dupĕ purcederea glótelorŭ.</p>
+         </div>
+         <div type="chapter" n="7">
+            <head>CAPUL VII.</head>
+            <head>Greciĭ</head>
+            <p>E timpŭ acuma să ne înturnămŭ în cămara acea din curţile domnescĭ, în care amŭ lăsatŭ pre Iliaşŭ. Veleli, care scăpase fugindŭ de furia luĭ Lupu, alergase să vestéscă luĭ Vodă, că rebeliĭ, de carĭ ierĭ îlŭ însciinţase, sunt aprópe de têrgŭ, aŭ începutŭ a se ivi făţişŭ.</p>
+            <p>La auᶁulŭ acesteĭ scirĭ Iliaşŭ înspăimêntatŭ, ca şi când ar fi vĕᶁutŭ ridicată vr-o armă gata d’-a cădé d-a-supra capuluĭ luĭ, palidŭ ca céra galbenă, cu glasulŭ maĭ de totŭ stinsŭ, întrebase pre Veleli, ce-ĭ de făcutŭ?</p>
+            <p>Veleli stătuse pre gândurĭ. „Să aştepţĭ, Măria ta, respunse elŭ apoĭ; să aştepţĭ ca veᶁĭ nu-ĭ puté să-ĭ liniscescĭ cu cuvêntulŭ, — orĭ cu frica..” De cum-va te vor lăsa, adăogea elŭ, în sine, de cum-va te-orŭ lăsa în tronŭ, m-oĭŭ înturna şi eŭ; de nu... voĭŭ stă până atuncea în locŭ sigurŭ.</p>
+            <p>— Să aşteptŭ? — dér ᶁilele mele, dragă Veleli?..</p>
+            <p>— O! eĭ n-orŭ cuteza! — Ş-apoĭ, maĭ la urmă, în-tr-unŭ norocŭ!..</p>
+            <p>— Rĕmâĭ dér şi tu cu mine, dragă Veleli... Să sciĭ că de-oĭŭ scăpa şi din cursa asta, amŭ să te facŭ omulŭ celŭ maĭ măritŭ...</p>
+            <p>— Maĭ bine celŭ maĭ bogatŭ...</p>
+            <p>— Fiă! aşĭa déră rĕmânemŭ?</p>
+            <p>— Hă!... adecă.. Măria ta... eŭ credŭ că... maĭ bine...</p>
+            <p>— Ce? şi tu Veleli vreĭ să mĕ părăsescĭ? Tu tremurĭ maĭ tare decât mine, numaĭ chiarŭ la ideea de a rĕmâné...</p>
+            <p>— Măria ta, veᶁĭ că eĭ potŭ să mĕ omóre...</p>
+            <p>— Eŭ bine, dér el potŭ să mĕ omóre şi pre mine!..</p>
+            <p>Aşĭa... numaĭ eĭ pre Măria ta potŭ să te.... omóre... déră pre mine... Veᶁĭ Măria ta... ar fi mare pĕcatŭ să morŭ tocmaĭ acum cândŭ am douĕ treĭ părăluţe....</p>
+            <p>— Apoĭ ce-ĭ de făcutŭ?..</p>
+            <p>— Eŭ unulŭ, sciŭ că fugŭ, fugŭ unde m-orŭ duce ochiĭ!..</p>
+            <p>— Să fugimŭ, să fugimŭ! că nu-ĭ de şuguitŭ cu ᶁilele...</p>
+            <p>— Cum? Măria ta, vreĭ să fugĭ?</p>
+            <p>— D-apoĭ bine, ce? ţi-aĭ schimbatŭ otărârea?</p>
+            <p>Şiretulŭ şi mărşavulŭ Veleli vĕᶁu că nu era chipŭ de a face pre Iliaşŭ să rĕmâe. Scopulŭ pentru care elŭ ar fi poftitŭ acésta, cetitorulŭ credŭ că l-a înţelesŭ acum din convorbirea lorŭ.</p>
+            <p>— Să fugimŭ déră, să fugimŭ!.. şi cât maĭ curêndŭ, rĕspunse elŭ apoĭ după o mică pausă. Oh! Măria ta! dér unde vomŭ maĭ găsi o ţéră bine cuvêntată şi bogată ca asta? adaose elŭ suspinêndŭ.</p>
+            <p>— Aşĭa, dragă Veleli... unde voiŭ maĭ găsi o ţéră unde să fiŭ Domnŭ şi în mărire... Dér s-a sfârşitŭ, Veleli; ᶁi unuĭ idicliŭ să spună să mi se gătéscă rĕdvanele...</p>
+            <p>— Dér odórele le laşĭ aicea, Măria ta?..</p>
+            <p>— Să le strângemŭ, Veleli... Aide, ajută-mĭ.</p>
+            <p>Apoĭ Vodă aduse din maĭ multe cămărĭ totŭ ce găsi de preţŭ; făcu maĭ multe legăturĭ grele din ele, împlu maĭ multe pungĭ cu baniĭ ce avé gata; apoĭ, după ce le pecetluĭ: — Acuma, Veleli, poţĭ să ᶁicĭ să mi se gătéscă rădvanulŭ.</p>
+            <p>— Dér cu pungile ce să facĭ, Măria ta? întrébă ministrulŭ, neputêndu-şĭ deslipi privirile de la ele.</p>
+            <p>— A! chiamă pre cine-va să le daŭ să le aşeᶁe în rădvanŭ...</p>
+            <p>— Cum? şi Măria ta aĭ face una ca asta?... să maĭ scie lumea că aĭ banĭ, ca să-ţĭ ésă înainte, şi... Dăle-n cóce, să le ducŭ eŭ singurelŭ. — Şi fără a maĭ ascepta priimirea luĭ Iliaşŭ, ca unŭ zmeŭ, roşŭ de plăcere, urcă, pre subţiorĭ pungile şi eşi neputêndŭ ascunde un zîmbetŭ de mulţămire, ce se desina în colţuşórele buzeĭ séle.</p>
+            <p>Apoĭ maĭ multŭ de douĕ ore se scurseră, şi Veleli nu se maĭ întorcea.</p>
+            <p>De odată Iliaşŭ auᶁi mulţime de păsurĭ pripite prin coridórele curţiĭ, şi curêndŭ, în camăra unde se afla, năbuşiră maĭ multe sute de grecĭ, întrebuinţaţĭ în servicluĭŭ domnescŭ, serviciĭ care se mărginea: să dórmă, să mănânce, să bea şi să adune avuţiĭ, pe când îndatoririle, ale cărora nume le purtaŭ eĭ, cădéŭ în spetele a vr-o câţĭ-va moldovenĭ, ce maĭ rămăseseră pe lângă curte:</p>
+            <p>— Aman! aman! Măria ta, strigă cu toţiĭ pe limba grécă, aman! ţéra s-a rescu-atŭ!.. Măria ta!.. O să ne mănânce ᶁilele, câniĭ ceia de ţĕranĭ, că aŭ venitŭ veste că strigă prin ţéră că să móră greciĭ!..</p>
+            <p>— Uşa se deschise de unŭ idicliŭ îmbrăcatŭ în roşŭ şi unŭ ţĕranŭ intră tărîndu-se maĭ multŭ pe brâncĭ, şi lăsândŭ după elŭ urme de sânge...</p>
+            <p>— M-a ucisŭ!.. Măria ta, a fugitŭ!..</p>
+            <p>— Cine a fugitŭ? strigară totŭ de o dată toţĭ greciĭ.</p>
+            <p>— Jupânulŭ Veleli.</p>
+            <p>— Veleli? cu baniĭ meĭ, strigă Domnulŭ... A trădătorule!.. Şi se lăsă desperatŭ pre capĕtulŭ divanuluĭ lîngă care stăté în picióre.</p>
+            <p>— Veleli? murmură érăşĭ greciĭ îngroziţĭ, Veleli ne-aŭ lăsatŭ!...</p>
+            <p>Câte-va minute în cămara aceea nu se maĭ auᶁiră de cât bătăile cele sgomotóse ale resuflăreĭ grecilorŭ şi gemutulŭ ţĕranuluĭ, carele pe tótă minuta se făcé maĭ slabŭ. De odată nisce strigăte prelungite şi ca de miĭ de glasurĭ venite din apropiere, strĕbătură în cămară, şi desteptară, ca cu o ascuţită lovire, îmmărmuritele inimĭ ale celorŭ de féţă, cariĭ toţĭ se repeᶁiră spre ferestre.</p>
+         </div>
+         <div type="chapter" n="8">
+            <head>CAPULŬ VIII.</head>
+            <head>Rĕsbunarea poporuluĭ</head>
+            <p>Asemenea şiróelorŭ celorŭ furióse, ce răpeᶁindu-se din munţĭ, restornŭ totŭ din calea lorŭ, totŭ ce le împedecă cursulŭ, este poporulŭ când furia-lŭ guvernă; atuncĭ elŭ nu póte fi împedecatŭ nicĭ de ceĭ maĭ respectaţĭ şefĭ aĭ luĭ, nicĭ de gurile de tunurĭ, ce arŭ împroşca mórtea între şirurile luĭ, nicĭ de baionetele ce arŭ restuma şirurile naintaşe şi, zidurĭ de care se turtiaŭ altă dată ghluĭele tunuluĭ, cadŭ sub topórele luĭ; temniţele în care geméŭ miĭ de criminaliştĭ şi de nedreptăţiţĭ, cadŭ ca prin farmecŭ, numaĭ la ameninţarea a câtor-va sute de inşĭ din poporŭ, cadŭ, se prăbuşescŭ, sub puternica lorŭ resuflare.!...</p>
+            <p>Strigătele ce Iliaşŭ cu aĭ séĭ auᶁiseră eraŭ strigătele ce vêntulŭ aducé din strigătele sĕlbatice, ce scoţia şirurile revoluţionarilorŭ, intraţĭ de maĭ multe minute în têrgŭ. Fruntea acestora, formată din Seimenĭ şi boierĭ, era acum aprópe de curte, pre când códa séŭ maĭ bine glóta nicĭ intrase în oraşŭ, întinᶁêndu-se pre acolo pre unde astăᶁĭ sunt Pĕcurariĭ şi până sub Miroslava, atâta de mare era numĕrulŭ satelorŭ ce alergaseră să mântuéscă ţéra.</p>
+            <p>Vr-o 50 de stânjinĭ încă de călăritŭ şi boieriĭ avé să ajungă la Domniă.</p>
+            <p>Cândŭ de o dată unŭ strigătŭ, carele se prelungi din tóte şirurile cele maĭ îndepărtate până aprópe de boierĭ,i opri pre locŭ.</p>
+            <p>— Să móră! Să móră! striga şirurile de ţĕranĭ din urma seimenilorŭ.</p>
+            <p>— Ce este acolo? strigâ Lupu; ce este acolo? Locŭ! Locŭ! —</p>
+            <p>Locŭ, băeţĭ! repetă după elŭ şirurile de seimenĭ, îndesuindu-se unele în altele, ca să deschidă trecĕtóre caluluĭ luĭ Lupu, carele vroia s-alerge spre puntulŭ de unde vêntulŭ aducé strigăte sinistre, hohote grozave, sarcasme ne-auᶁite!</p>
+            <p>Curêndŭ Lupu auᶁi acele glasurĭ maĭ de aprópe: Să-ĭ tăiemŭ nasulŭ! striga uniĭ. — Ba urechile! urla alţiĭ.</p>
+            <p>— Nu! să-i scótemŭ ochiĭ cu sfredelulŭ! că aşĭa a scosŭ elŭ ochiĭ bunuluĭ meŭ!.. — Să-lŭ înţepămŭ!</p>
+            <p>— Să-lŭ ardemŭ! — Degéba, băeţĭ, că nu arde că-ĭ vârcolacĭ! ha! ha!...</p>
+            <p>— Ce naiba staĭ atâta la vorbă, măĭ Bardă? Dă-ĭ cu măciuca ’n capŭ! — Ha! bine! dă-mĭ acum urechia stângă... nu vréŭ cea dréptă, că pe cea stângă a tăiat-o elŭ tatăluĭ meŭ!</p>
+            <p>Lupu presimţi o grozavă vedere şi se înfiorâ.</p>
+            <p>— Ce este, ómenĭ bunĭ, strigă elŭ; ce este?</p>
+            <p>— Ce?... nu sciĭ? rĕspundŭ miĭ de glasurĭ: l-amŭ găbuitŭ ascunsŭ într-unŭ gârliciŭ...</p>
+            <p>— Pre cine?</p>
+            <p>— Pre tâlharulŭ carele ne-a mâncatŭ bunulŭ, moşia şi ᶁilele la atâţia... Pre Veleli.</p>
+            <p>— Pre Veleli? — Locŭ! ómenĭ bunĭ! locŭ Căpitanuluĭ Lupu!</p>
+            <p>— Locŭ Căpitanuluĭ Lupu! strigă şi seimeniĭ din urmă. Dér mulţimea stăpânită de o singură idee, de resbunare asupra luĭ Veleli, era surdă la asemenea poruncă, şi cu urechĭa la pândă, ea cerca să prindă orĭ-ce cuvêntŭ grozavŭ ce viné de la câţĭ-va stênjinĭ maĭ departe, cuvêntŭ pre care îlŭ repeta cu o viă mulţămire, rîᶁêndŭ cu hohote grozave.</p>
+            <p>Calulŭ luĭ Lupu îşi muşca zăbala şi împroşca mulţimea cu ţĕrână, în nerăbdarea sa. De o dată unŭ hohoţŭ diavolescŭ se întinde în glóta îndesuită şi miĭ de glasurĭ urlă: — Mie! mie, unŭ picioruţŭ!...</p>
+            <p>— Unŭ degetŭ măcarŭ, mie!</p>
+            <p>— Ochiĭ luĭ, daţi-mĭ!</p>
+            <p>— Capulŭ! capulŭ! să i-lŭ punŭ icea în cósă!...</p>
+            <p>— Ha! ha! ha! a peritŭ fiéra!</p>
+            <p>— E pré târᶁiŭ, gândi Lupu, la auᶁulŭ acestorŭ strigăte sĕlbatice. Şi în faptă era pré târᶁiŭ, căcĭ, când după câte-va minute, grămada îndestulată de cruda eĭ sete de resbunare, i făcu locŭ ca să trécă elŭ nu găsi în loculŭ unde urmase scena, decât câte-va pete de sânge!.. Tot trupulŭ luĭ Veleli, bucăţitŭ de poporŭ cu topórele, era împărţitŭ pre la sute de ţĕranĭ; unulŭ avé în cósă unŭ piciorŭ alŭ luĭ, altulŭ capulŭ cu ochiĭ holbaţĭ şi limba între dinţĭ... ista o urechiă, cela o mână!</p>
+            <p>Grozavă e resbunarea poporuluĭ, dér orĭ cât de grozavă arare-orĭ este nedréptă!</p>
+            <p>— „O! nestătătóre şî nicĭ odată încredinţate lucrurile lumeĭ! cum vrăstéză tóte şi turbură şi face lucrurĭ împotrivă; când cu cale este a fire frică celorŭ micĭ de ceĭ maĭ marĭ, iér cursulŭ lumeĭ aduce de multe orĭ, de este grijă celuĭ maĭ mare de ceĭ maĭ micĭ. Fericiţĭ suntŭ, Craiĭ, Impĕraţiĭ şi Domniĭ, carĭ domnescŭ aşĭa, <quote>să nu le fiă de ceĭ maĭ micĭ nicĭ o dată silă.</quote>”</p>
+            <p>Étă ce cugetărĭ scóte din inima luĭ Miron Costin, revolta ţĕriĭ în contra luĭ Iliaşŭ şi décă spiritulŭ seculuĭ în care vieţuia Miron, lu făcuse să ᶁică că „cu cale este a fire frică celorŭ maĭ micĭ de ceĭ maĭ marĭ,” ce lecţiă frumósă, ce lecţiă nu dă elŭ celorŭ marĭ când adaoge: <quote>„Fericiţĭ ceĭ cariĭ domnescŭ așĭa să nu le fiă de ceĭ maĭ micĭ silă.”</quote>
+            </p>
+            <p>Acuma să reapucămŭ naraţia nóstră de unde amŭ lăsat-o.</p>
+            <p>Lupu, bunulŭ acestŭ sufletŭ a căruia mâniă nicĭ odată nu arŭ fi mersŭ până să întindă mortŭ nicĭ pe celŭ maĭ înverşunatŭ duşmanŭ alŭ sĕŭ, Lupu se mâhni preste sémă, vĕᶁêndŭ scenele aceste crâncene, şi întorcêndu-se către boieriĭ ce-lŭ aştepta: — „D-ᶁeŭ a făcutŭ dreptatea sa! ᶁice elŭ: Veleli a fostŭ bucăţitŭ de poporŭ!... fiă numele Domnuluĭ bine-cuvântatŭ! —”</p>
+            <p>Intre aceste boieriĭ sosiră la Domniă.</p>
+            <p>Lupu în fruntea tuturora intră în curte; socotŭ de prisosŭ să spunŭ în ce stare aflară eĭ pre Iliaşŭ.</p>
+            <p>— Mĕ rogŭ, d-v., boierĭ, ertaţi-mĕ! striga elŭ, împreună cu toţĭ Greciĭ, aruncându-se în genuchĭ.</p>
+            <p>Maĭ mulţĭ boierĭ hohotiră la vederea porumbatecelorŭ feţe ce schimba aceĭa, déră Lupu i privi cu mâniă; apoĭ cu blândeţe către Iliaşŭ:</p>
+            <p>Dómne! i ᶁise elŭ, ţéra a năbuşitŭ în oraşŭ; cu toţiĭ s-aŭ ridicatŭ asupra Mărieĭ téle, ca să-ţĭ repună ᶁilele; ascultă cum strigă în tóte părţile pre Grecĭ!...</p>
+            <p>In faptă, ostaşiĭ şi poporulŭ grămăditŭ prin ograda Curţeĭ şi pre tóte uliţile, şi pre câmpŭ, chiuia şi striga: „Dă-ne, Dómne, pre Grecĭ!”</p>
+            <p>Éră aceştia în genuchĭ la auᶁulŭ turbatelorŭ acestorŭ strigăte, începură uniĭ a plânge, alţiĭ a săruta pólelele boierilorŭ strigândŭ: Amanŭ! Amanŭ!</p>
+            <p>Vodă Iliaşŭ însă maĭ încuragiatŭ de tonulŭ celŭ plinŭ de bunătate cu care vorbia Lupu, sculându-se, ᶁise:</p>
+            <p>— Boierĭ d-vóstră! décă se ridică ţéra asupra Grecilorŭ şi asupra mea se ridică; ce-ĭ de făcutŭ? —</p>
+            <p>— Să laşĭ ţéra! s-o lăsaţĭ! strigară câţĭ-va boierĭ de abia stăpânindu-şĭ mânia.</p>
+            <p>— Bucuroşĭ! pré bucuroşĭ, boierĭ d-vóstră, respunseră Iliaşŭ şi toţĭ Greciĭ, a cărora vinete feţe începură a maĭ veni la auᶁulŭ acestorŭ cuvinte în colorulŭ fesuluĭ de pe capulŭ lorŭ.</p>
+            <p>— Dér cum vomŭ puté eşi teferĭ, adaose Iliaşŭ.</p>
+            <p>— Măria ta, nu te teme, rĕspunse Lupu, noĭ te vomŭ însoţi... Şĭ-apoĭ să sciĭ Măria ta că poporulŭ nu te urĕsce atâta cât urĕsce pre d-lorŭ şi pre bietulŭ rĕposatulŭ Veleli...</p>
+            <p>— Ce? a muritŭ! întrerupseră Iliaşŭ şi Greciĭ.</p>
+            <p>— L-aŭ sfâşiétŭ, ţĕrâniĭ!</p>
+            <p>— D-ᶁeŭ mi-a rĕsbunatŭ mórtea, strigă unŭ glasŭ înnăduşitŭ, dintre Grecĭ.</p>
+            <p>Apoĭ unei buşirĭ ca şi cânŭ arŭ fi căᶁutŭ nisce plumbŭ pe podele, succedă unŭ gemetŭ lungŭ, şĭ-apoĭ tăcerea. — Boeriĭ toţĭ îşĭ întórseră privirile spre loculŭ de unde venia acestŭ gemetŭ.</p>
+            <p>— Sunt perdutŭ! ᶁise cu disperare, Vasile, privindŭ cadavrulŭ luĭ Gurdă.... a muritŭ şi acesta, singurulŭ insŭ, carele putea dovedi că femeea mea nu-ĭ vinovată!..Oh! Dumneᶁeule!</p>
+            <p>Şi-’şĭ ascundé în mânĭ capulŭ sĕŭ.</p>
+            <p>Greciĭ nu înţelegéŭ nimica din aceste, ba nicĭ Iliașŭ însuşĭ.</p>
+            <p>— Ce aĭ, vornice Lupu? îlŭ întrébă acesta.</p>
+            <p>— Ce amŭ? strigă acesta, într-unŭ momentŭ de furiă, cu unŭ tonŭ, care făcu să tremure şi măduva din ósele luĭ Iliaşŭ... Ce amŭ?.. mĕ maĭ întrebĭ!.. O! de n-aşĭ avé maĭ ântêiŭ să lucrezŭ, depărtându-te, pentru mântuirea moşieĭ; de multă te aşĭ fi trimisŭ eŭ singurŭ după ticălosulŭ tĕŭ de Logofĕtŭ... orĭ ţi-aĭ fi datŭ sémă de necinstea ce-aĭ să-mĭ laşĭ..</p>
+            <p>— Ucide-lŭ! ᶁĕŭ, ucide-lŭ! logofete, strigară vr-o câţĭ-va din boierĭ maĭ iuţĭ la caracterŭ; nu-ţĭ lăsa némulă pĕtatŭ de dênsulŭ...</p>
+            <p>— Ba nu, boierĭ, nu! să-lŭ lăsămŭ, să se ducă înplata cerluĭuĭ, de câtŭ pentru resbunarea mea... (şi nu sciŭ de sigurŭ de-ĭ vinovatŭ şi elŭ) ucigêndulŭ, să maĭ atragemŭ asupra bieteĭ moşiĭ urgia Porţeĭ...</p>
+            <p>— Dér d-ta, jupâne? strigară maĭ mulţĭ boierĭ.</p>
+            <p>— Eŭ... voiŭ căuta prin alte chipurĭ să-mĭ spălŭ péta numeluĭ meŭ....</p>
+            <p>Şi ᶁicêndŭ aceste fruntea luĭ se încreţi; ochiĭ luĭ se posomorîră; o grozavă otărîre se înfipse în mititea sa. — Boierĭ! să nu perdemŭ vremea în vorbe deşérte! ᶁice elŭ după câte-va minute de tăcere. D-ta jupâne Urechiă adu aicea câte-va sute de seĭmenĭ cu sineţile gata...</p>
+            <p>Iliaşŭ şi aĭ sĕĭ orĭ cât i reasiguraseră vorbele luĭ Lupu, la auᶁulŭ de seimenĭ cu sineţile gata, recăᶁură érăşĭ în spaima lorŭ cea d-ântêĭ. Éră Lupu apropiindu-se de feréstră se adresă către muţime:</p>
+            <p>— Ómenĭ bunĭ! aşa-ĭ că noĭ amŭ venitŭ să mântuimŭ moşia de Grecĭ.</p>
+            <p>— Aşĭa-ĭ! aşĭa-ĭ! strigă mulţimea.,..</p>
+            <p>Iliaşŭ şi Geciĭ începŭ a plânge. Lupu se întórce spre eĭ: Linisciţi-vĕ, le ᶁise elŭ. — Apoĭ érăşĭ către mulţime: — Ómenĭ bunĭ! nu-ĭ maĭ bine să nu facemŭ vĕrsare de sânge, décă Greciĭ arŭ vré să ésă singurĭ din ţéră...</p>
+            <p>— Ba nu! să móră! să móră, urlă miĭ de glasurĭ...</p>
+            <p>— Aşĭa-ĭ! să ésă maĭ bine cu toţiĭ! strigă câţĭ-va maĭ moderaţĭ.</p>
+            <p>— Eĭ bine, boerĭ, ce-ĭ de făcutŭ? se întórce de ᶁice Lupu.</p>
+            <p>— Să fiă după voĭa mulţimeĭ, murmură maĭ mulţĭ.</p>
+            <p>— După voĭa mulţimeĭ? strigă Lupu cu indignare; dar mulţimea asta pre care amŭ asculta-o astăᶁĭ, când urgia Porţiĭ arŭ veni asupra moşieĭ, pre noĭ ne-arŭ blăstema, că amŭ ascultatŭ glasulŭ furieĭ séle celeĭ turbate... Nu! boierĭ... Suitu-s-aŭ câte-va sute de seĭmenĭ acole?</p>
+            <p>— Eĭ staŭ in sală, respunde Urechiă.</p>
+            <p>— Bine. Apoĭ, cătră Iliaşŭ şi Grecĭ:</p>
+            <p>— Ascultaţĭ! poporalŭ vre mórtea vóstră; noĭ însă vĕ putemŭ mântui de furia luĭ décă acuma de-ndată veţĭ jura că nicĭ-o-dată nu-ţĭ căta, nimenĭ dintre voĭ, să faceţĭ rĕŭ ţĕreĭ acesteia, pe lângă Turcĭ... Alegeţĭ! mórtea séŭ viéţa!</p>
+            <p>— Jurămŭ! jurămŭ, strigă cu toţiĭ.</p>
+            <p>— Bine! Apoĭ scoţêndu-şĭ ascuţitulŭ sĕŭ angeriŭ, cu elŭ în mână: Urmaţi-mĕ, boerĭ, ᶁice elŭ, către tovarăşiĭ sĕĭ; urmaţi-mĕ şi voĭ, adăogi elŭ grecilorŭ, de voiŭ muri eŭ, veţĭ muri şi voĭ!</p>
+            <p>După ce toţĭ eşiră în coridóre, Lupu alcătui unŭ padratŭ de seĭmenĭ, aşeᶁă pre toţĭ Greciĭ în centrulŭ luĭ şi elŭ cu boeriĭ în frunte, cu arma în mână, dădu semnalulŭ de marşŭ şi coborîră scările curţeĭ strigândŭ: locŭ! locŭ!.. Éră mulţimea ce o clipă maĭ denainte arŭ fi năbuşitŭ să rampă pre Grecĭ sub gura a miĭ de tunurĭ măcarŭ, mulţimea acumŭ uĭmită de fapta luĭ Lupu, pre care ea n-o putea înţelege, se dădea în lăturĭ în tăcere, ca sub puterea unuĭ farmecŭ.</p>
+            <p>Ast-felŭ Lupu isbuti a eşi ca unŭ bunŭ marinariŭ, care prin mijloculŭ valurilorŭ turbate ale océnuluĭ, guvernă vasulŭ seŭ. Curêndŭ eĭ vorŭ trece şesulŭ Buhluiuluĭ, ce geme de mulţime... Étă-ĭ aprópe de Monăstirea Balicăĭ...</p>
+            <p>Dér între aceste uĭmirea cea dintâĭ a poporuluĭ făcu locŭ uneĭ furiĭ neauᶁite, până şi asupra luĭ Lupu. Sarcasmele şi înjurăturile începură a ploua asupra luĭ... Curêndŭ, orĭ câtŭ cu detunătorulŭ seŭ glasŭ striga locŭ! vibrândŭ în aerŭ arma sa, nimenĭ nu se maĭ dedea în lăturĭ, ci maĭ alesŭ năvălia asupra patratuluĭ. Pe când între aceste Lupu, în sbuciumare-ĭ nu şcie de trebue să poruncéscă seĭmenilorŭ să dea cu sineţile în mulţime séŭ de a lăsa pre Grecĭ jertfă furieĭ glótelorŭ, deodată, unulŭ din mulţime, ca unŭ glonte se asvârle, asupra careuluĭ, lŭ sparge, se răpede asupra luĭ Iliaşŭ, în repegiunea sa-lŭ apucă de manta şi cércă alŭ târî după sine; maĭ mulţĭ alţiĭ încuragiaţĭ de fapta acestuia se răpedŭ după elŭ... Déră Lupu e acolea, le arétă arma sa ameninţătóre, apoĭ ca unŭ leŭ se răpede asupra celuĭ ce tăreşce pre Iliaşŭ... Acesta îngrozitŭ cércă a tări maĭ iute pre Vodă, dér remâne numaĭ cu o bucată din mantaoa luĭ în mână, căcĭ toţĭ Greciĭ lŭ ţinu de ceealaltă parte... Elŭ fuge şi când e destulŭ de departe de Lupu, carele-lŭ urmăresce, scóte din brâŭ unŭ osŭ, unŭ fluerŭ de piciorŭ, lŭ răpede asupra acestuia! — Na! urlă tigrulŭ; na! morĭ de osŭ de Grecŭ... décă ţi-sŭ aşĭa de dragĭ, morĭ de osulŭ luĭ Veleli. Şi sângele gâlgâe din rana ce bietulŭ Lupu a primitŭ în frunte, elŭ se cumpănesce să cadă... însă nu! elŭ îşĭ şterge cu mânica straluiuĭ sĕŭ sângele de pe féţă, reaşéză şirurile pătratuluĭ, dă poruncă seimenilorŭ, în auᶁulŭ tuturora, să dea de totŭ de s-arŭ maĭ ispiti cineva să spargă patratulŭ.</p>
+            <p>Intre aceste cerulŭ se acoperise de norĭ greĭ ca plumbulŭ; curêndŭ o vijelie gróznică precedă o plóie rece de tómnă, carea împrăştia pre maĭ mulţĭ dintre înverşunata mulţime. Cu tóte aceste ceĭ maĭ furioşĭ se ţinéŭ după careŭ, înjurândŭ nu numaĭ pre Vodă şi cu aĭ luĭ, déră până şi pre boierĭ.</p>
+            <p>Orĭ câtŭ putéŭ seĭmeniĭ impune respectulŭ, şi orĭ cât de bravŭ era Lupu, elŭ vĕᶁu bine momentulŭ când de nu va avea recursŭ la alte mijióce, tot n-o să isbutéscă a scóte patratulŭ din pericolŭ; decĭ, după ce şoptesce ceva la urechile boierilorŭ, ié calulŭ unuia dintre eĭ şi dându-se cu vr-o ᶁece paşĭ în urmă începe a striga:</p>
+            <p>— Ómenĭ bunĭ! nu lăsaţĭ! aŭ maĭ remasŭ Grecĭ în Târgŭ!.. Auᶁiţĭ, ci-că daŭ focŭ!.. Nu lăsaţĭ ómenĭ bunĭ!</p>
+            <p>Şi dândŭ drumulŭ caluluĭ: locŭ! ómenĭ bunĭ! Greciĭ daŭ focŭ târguluĭ.</p>
+            <p>In zadarŭ câţĭ-va maĭ şireţĭ strigă, nu credeţĭ! nu credeţĭ ómenĭ bunĭ!</p>
+            <p>Câte-va minute după acésta de abié remaseră câte-va sute din acea mulţime nenumĕrată ce inunda şesulŭ, căcĭ uniĭ alergaseră în târgŭ, creᶁêndŭ ᶁisa luĭ Lupu, alţiĭ-aceĭ ce eraŭ de pe la sate, — să prindă Greciĭ... ceĭ maĭ mulţĭ să privéscă la focŭ, şi rĕmăşiţa, tărită în repegiunea şi îndesuirea tuturora. Acésta o prevĕᶁuse Lupu. Ceĭ remaşĭ vĕᶁêndu-se pre puţinĭ ca să pótă îndrăsni ceva în contra armelorŭ seĭmenilorŭ séŭ póte obosiţĭ şi îngheţaţĭ de plóia cea rece ce nu contenia, remaseră şi eĭ cu toţiĭ de patratŭ. Éră acesta când fu îndestulŭ de departe de ţĕranĭ, boieriĭ dădură grecilorŭ caĭ de aĭ lorŭ şi de aĭ seĭmenilorŭ, şi numindŭ din aceştia o escortă numerósă cu poruncă de a nu lăsa pre Vodă Iliaşŭ să fugă cumva la Tătarĭ ş-apoĭ să vină cu urgiă asupra ţĕreĭ, după ce ᶁicŭ, boieriĭ, făcură aceste, se reînturnară maĭ toţĭ în Oraşŭ.</p>
+         </div>
+         <div type="chapter" n="9">
+            <head>CAPULŬ IX.</head>
+            <head>După fortună.</head>
+            <p>In diminéţa ᶁileĭ următóre, unŭ sóre caldŭ succedă furioşilorŭ norĭ aĭ furtuneĭ ᶁileĭ şi a nopţiĭ trecute; o linişte adâncă în oraşiŭ şi în câmpurĭ succedă înverşiunatelorŭ strigăte a le mulţimeĭ turburate de setea resbunăriĭ...</p>
+            <p>Grămăᶁile sătenilorŭ, rîᶁêndŭ acuma de gluma ce le trase ĭerĭ Lupu, glumă pre care, de n-arŭ fi profitatŭ elŭ să se ascundă, arŭ fi plătit-o cu viéţa; acumŭ, ᶁicŭ, eĭ riᶁêndŭ se tragŭ pe la satele lorŭ; — atâta-ĭ de lesne de a îndestula setea de resbunare a poporuluĭ, pe când setea asupritorilorŭ luĭ, setea de avuţiĭ, setea de mărire... nu cu sângele unuĭ ticălosŭ ca Veleli, déră nici cu sângele a miĭ de drepţĭ, ce cadŭ jertfă lorŭ, nu li se maĭ potoleşce!...</p>
+            <p>Insă să trecemŭ de acum asupra uneĭ ᶁile aşĭa de fortunóse şi grozave, dérŭ şi frumósă în istoria orĭ căruĭ poporŭ.</p>
+            <p>In diminéţa ᶁileĭ următóre, în aceeaşĭ cămară care fusese martoră orgiilorŭ luĭ Iliaşŭ, toţĭ boieriĭ ţĕreĭ, marĭ şi micĭ, presidaţĭ de mitropolitulŭ şi de Lupu, ţi-néŭ sfatŭ: pre cine vor să alégă de Domnŭ.</p>
+            <p>O mulţime de glasurĭ începură a cere pre Vorniculŭ Lupu, dér acesta, cu fruntea legată din pricina răneĭ séle, cu faţa palidă şi cu unŭ zîmbetŭ amarŭ pe buze: — Vĕ mulţămescŭ din inimă curată de alegere, déră marturŭ îmĭ e D-ᶁeŭ, că nu maĭ potŭ primi mărirea aceasta. Eŭ vĕ propunŭ să alegeţĭ Vodă pre Barnovsky, că-ĭ omŭ cuminte şi-ĭ bunŭ cu ţéra leşéscă...</p>
+            <p>Atuncĭ tóte glasurile fură pentru Barnovsky, căruia se otărî de a i se trămite o ambasadă din boierĭ ca să-lŭ poftéscă la tronŭ.</p>
+         </div>
+         <div type="chapter" n="10">
+            <head>CAPULŬ X.</head>
+            <head>O ᶁi după aceea.</head>
+            <p>O ᶁi după ce se ţinu sfatulŭ la curţile domnescĭ, unŭ omŭ îmbrăcatŭ în straie ţĕrănescĭ cu o înaltă căciulă ţurcănéscă îndesată pre ochĭ îşĭ lega calulŭ lângă pórta Monăstireĭ, cunoscută cetitoruluĭ, apoĭ intra într-o chiliuţă de lângă pórtă, de bună sémâ chilia portăreseĭ. —</p>
+            <p>Acolea, scóse din chingă o pungă cu rubiele şi o puse pre pripiciulŭ hornuluĭ; maĭ scóse şi unŭ cuţitŭ. Apoĭ întorcêndu-se cătră bĕtrâna călugăriţă, care la intrarea luĭ se sculase de pe divanulŭ el de rogojinĭ, îngrozită de sĕlbatica luĭ privire:</p>
+            <p>— Maică i zise elŭ, privesce! — acolo avere să n-o poţĭ sfârşi cât veĭ trăi; icĭ unŭ cuţitŭ, auᶁĭ? — Unŭ cuţitŭ!..”</p>
+            <p>Maica tremura de frică.</p>
+            <p>— Nu te teme, maică; Sfinţia ta poţĭ să alegĭ pre care veĭ vré din aceste douĕ; punga veĭ lua-o când îmĭ veĭ spune adevĕratŭ décă jupânésa Vorniculuĭ Lupu a eşitŭ de treĭ sĕptĕmânĭ în cóce din Monastire... Éră cuţitulŭ îţĭ va scurta ᶁilele, când veĭ tăgădui... Alege!..</p>
+            <p>Intre aceste, călugăriţa după accentulŭ necunoscutuluĭ înţelesese pre Vorniculŭ Vasile, pre care de maĭ multe orĭ avusese ocaziă de alŭ auᶁi vorbindŭ cu soţia sa, când eşia cu ea pe pórtă, ca şi cu vr-o treĭ sĕptĕmânĭ maĭ în urmă, să facă câte o mică preâmblare.</p>
+            <p>— D-ᶁeŭ să te feréscă! jupâne dragă, de-a face unŭ pĕcatŭ ca ş-aista... maĭ bine eŭ ţi-oiŭ spune totŭ ce sciŭ, în frica ceruluĭ!...</p>
+            <p>— Haide! acum, degrabă!..</p>
+            <p>— Sunt câte-va ᶁile de când jupânésa s-a dusŭ cu redvanulŭ nu sciŭ unde...</p>
+            <p>— Şi cândŭ s-a întorsŭ? —</p>
+            <p>— Numaĭ alaltăĭerĭ diminéţă.</p>
+            <p>— Alaltăĭerĭ?... ţiĭ bine minte?..</p>
+            <p>— Prea bine...</p>
+            <p>— Dér póte nu era ea? spune!</p>
+            <p>— Cum nu? cu fermenéoa cea de firŭ, cu fesulŭ celŭ albŭ... o! ea era...</p>
+            <p>— Oh! dĕstulŭ!.. ieţĭ baniĭ, maică şi mĕ iartă?..</p>
+            <p>Apoĭ sărmanulŭ Lupu convinsŭ că ar fi înşelatŭ de jupânésa sa, eşi din chiliă strîngêndu-şĭ fruntea în mânĭ, ca şi când ar fi vrutŭ s-o împiedice de a se despica de foculŭ ce-lŭ ardé! — Elŭ stătu lingă pórtă câte-va minute, ca unŭ omŭ neotărîtŭ încă ce drumŭ va apuca; apoĭ ştergêndŭ o lacrimă: „S-a sfârşitŭ! murmură elŭ, cu unŭ tonŭ înlăcrimatŭ déră fermŭ, s-a sfârşitŭ!... Patria nu maĭ are nevoiă de mine şi nu potŭ să lasŭ celŭ puţinŭ sĕrmanuluĭ Ionelŭ şi drageĭ Rucsăndiţeĭ unŭ nume pĕtatŭ!... Sĕrmaniĭ copiĭ!... Oh D-ᶁeule! de ce trebuit-a se mĕ însorŭ, décă nu-mĭ era menită o viaţă cinstită, cu muierea mea?... de ce trebuia să lasŭ copiilorŭ meĭ numaĭ o mamă nelegiuită...” Şi suspinândŭ adăogi, după o mică pausă:</p>
+            <p>— Nu aicea, ca să mĕ maĭ védă ea; nu aiceai, ci colo-n codri!..</p>
+            <p>Apoĭ tristŭ şi obositŭ, elŭ plecă tulburatŭ spre loculŭ ce arĕta. Nu făcu însă ᶁece paşĭ şi se întâlni faţă-n faţă cu o maĭcă bĕtrână.</p>
+            <p>— A! bine ai venitŭ, jupâne dragă! strigă ea după ce cu mare luare aminte lŭ esamină o clipă până-lŭ cunoscu.</p>
+            <p>— Sărutŭ mâna, sfinţieĭ téle..</p>
+            <p>Maica acésta era stariţa. — Va să ᶁică, biata măicuţă totŭ ţi-a ajutatŭ?</p>
+            <p>Lupu nu rĕspunse, căcĭ nu înţelese despre ce e vorba.</p>
+            <p>— Biata maică Csenia totŭ ţi-a ajutatŭ? repeti ea maĭ tare, creᶁêndŭ că n-a fostŭ auᶁită.</p>
+            <p>— Despre ce vorbescĭ, sfinţia ta?</p>
+            <p>— Ceĭ te maĭ prefacĭ că nu sciĭ? Nu te teme da a spune, căcĭ eŭ i-amŭ datŭ voia să mérgă la Iliaşŭ să-ţĭ ajute</p>
+            <p>— Să mérgă la Iliaşŭ, ᶁicĭ?... Cuĭ?</p>
+            <p>— Maiceĭ Csenieĭ?.. étă cum se totŭ preface că nu scie! —</p>
+            <p>— Mĕ rogŭ, maică, vorbesce-mĭ maĭ lămuritŭ... cum? maica Csenia?</p>
+            <p>— Aşĭa, maica Csenia, îmbrăcată în vestmintele jupâneseĭ d-téle...</p>
+            <p>— In vestmintele... jupâneseĭ mele? Ah!. urméză!.. mĕ rogŭ urméză?</p>
+            <p>— A fostŭ la Iaşi.. — La Iaşi?.. — Aşĭa, ce nu sciĭ?.</p>
+            <p>— Maica Csenia îmbrăcată în vestmintele jupâneseĭ mele, a fostŭ la Iaşi?... murmură Lupu, rĕspunᶁêndŭ nu maiceĭ, ce uneĭ cugetărĭ, care-lŭ preocupa. — Aşĭa, maĭ alaltăĭerĭ..</p>
+            <p>Unŭ suspinŭ de acele care lasă peptulŭ apĕsatŭ multŭ timpŭ de o grea povară când e uşuratŭ de ea, unŭ suspinŭ de aceste scóse şi Lupu, când începu a înţelege că femeea sa póte nu era vinovată.</p>
+            <p>—„Degrabă, Maică! şi fără să-şĭ esplice gândulŭ sĕŭ către călugăriţa, rĕmasă în uimire, elŭ purcede cu fuga spre monastire, trece pórta, ajunge la chilia jupâneseĭ, nu ia séma la calulŭ legatŭ de unŭ salcâmŭ, intră...</p>
+            <p>Acolea elŭ află pre unŭ boierŭ anume Constantin Aseni, acelŭ omŭ de casa luĭ Iliaşŭ Vodă, care descoperise boierilorŭ, cu câţĭ-va anĭ înainte, éră maĭ alesŭ luĭ Lupu, luĭ Buhuşŭ şi Săvin, cum-că Vodă avea de gândŭ, după sfatulŭ luĭ Baptiste, să-ĭ ucidă. — La piciórele acestuĭ boierŭ ᶁace trântitŭ ţĕranulŭ Gurdă, carele numaĭ cât leşinase la Curtea Domnéscă, unde cetitorulŭ îşi amintesce, póte, că l-amŭ lăsatŭ. — Acesta istorisesce prin cuvinte întretăiete şi maĭ ne înţelese tóte ticălósele planurĭ ale luĭ Veleli, asupra jupâneseĭ...</p>
+            <p>Când vĕᶁu pre Lupu intrândŭ, elŭ se târî până la piciórele luĭ şi sărutându-le: — Stăpâne! jupânésa nu-ĭ de locŭ vinovată... nu! eŭ mĕ jurŭ... că orĭ ce a ᶁisŭ... calăulŭ de Veleli... carele m-a ucisŭ dóră nu mi-a da ceea ce-mĭ făgăduise de ţ-amŭ tăgăduitŭ dăunăᶁĭ adevĕrulŭ...„</p>
+            <p>Nu putu mântui vorba. Dându-şĭ ochiĭ peste capŭ, storsŭ de obosélă de opintelile cu carĭ nefericitulŭ se anima de vr-o câte-va momente de viéţă ce-ĭ maĭ rĕmânea: — Copilaşiĭ!... strigă elŭ, cu o opintire supremă şi móre pentru totdéuna.</p>
+            <p>Bietulŭ Vasile Lupu înduioşatŭ până la lacrimĭ de scenele aceste, îmbrăţişéză pre jupânésă, care spune totŭ ce cercase să facă călugăriţa Csenia dóră l-ar feri pre elŭ din pericolŭ. Vasile nu era de ideea ce avuse Csenia, care vroise să ucidă pre Iliaşŭ, dér fiindŭ că lucrulŭ nu isbutise, nu reproşă acésta ci-şĭ îmbrăţişă copilaşiĭ, carĭ-lŭ încunjuraŭ. — Apoĭ Aseni i spuse cum elŭ dăduse de ţĕrânŭ la curte, pe când urma svóna pe şesŭ, cum acesta lŭ rugase să-lŭ aducă până acolo, să spue jupâneseĭ ceva fórte însemnatŭ, ce nu vroise a spune Vorniculuĭ, în sfârşitŭ cum Aseni lŭ aduse dinapoia caluluĭ, viaţa ţiganuluĭ nedânduĭ timpŭ de a maĭ merge pe la casa sa să-şĭ iée rădvanulŭ.—</p>
+            <p>Câte-va minute după aceea Vasile Lupu reintrândŭ, după ce întovărăşise până la pórta Monastireĭ, pre Aseni,şi reîmbrăţişându-şĭ jupânésa, i ᶁise:</p>
+            <p>— Pentru tine, dragă jupânăsă, n-amŭ primitŭ Domnia; pentru tine, de acum, amŭ să lucrezŭ s-o capătŭ!”</p>
+         </div>
+         <trailer>1855. (România Literară).</trailer>
+      </body>
+   </text>
 </TEI>

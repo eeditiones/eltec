@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0099">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">84111</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Zwycięzca</title>
 <ref>http://wolnelektury.pl/katalog/lektura/trylogia-ksiezycowa-zwyciezca</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Zwycięzca</title>
 <author>Żuławski, Jerzy</author>
 <publisher>Kraków: Gebethner</publisher>
 <date>1910</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -55,10 +60,7 @@
 </div>
 </front>
 <body>
-<div>
-<p>Część pierwsza</p>
-</div>
-<div>
+<div type="group"><head>Część pierwsza</head>
 <div type="chapter"><head>I</head>
 <p>Malahuda drgnął i obrócił się w karle gwałtownie. Szelest był wprawdzie tak lekki, lżejszy, niż wydać mogła opadająca karta w pożółkłej księdze, którą czytał, ale ucho starca pochwyciło go natychmiast w tej bezdennej ciszy świętego miejsca.</p>
 <p>Osłonił oczy dłonią przed światłem rozjarzonego do połowy pająka, który zwisał u sklepionego stropu, i spojrzał ku drzwiom. Były otwarte, a w nich — zstępując właśnie z ostatniego stopnia, z jedną nogą w powietrzu jeszcze zawieszoną — stała młoda dziewczyna. Była naga, jak kobiety niezamężne zwykły w noc chodzić po domu, z ramion tylko zwisało jej puszyste białe futro, z zewnątrz i wewnątrz jednakowym miękkim włosem pokryte.</p>
@@ -194,8 +196,7 @@ uciśniony wyzwolić. I spostrzegł Malahuda, iż Ada pierwszy raz powrót Stare
 <p>Malahuda zadrżał i mimo woli pokrył oczy dłonią, słysząc to straszliwe zaklęcie, ale nie wyrzekł ani słowa.</p>
 <p>Świt coraz srebniejszy robił się na świecie, rzucając perłowe blaski na nagą dziewczynę, falą złotych włosów jeno okrytą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Elem stał na szczycie wzgórza, oddzielającego <emph>Kraj Biegunowy</emph>, w którym słońce nigdy nie wschodzi ani nie zachodzi, od wielkiej bezpowietrznej pustyni, blaskiem świętej gwiazdy, Ziemi, oświetlonej. Różowe, po horyzoncie ślizgające się
 słońce płonęło mu na gładko wygolonej czaszce i drżało metalicznymi połyskami po długiej, kruczej, kędzierzawej brodzie. Ziemia stała w pierwszej kwadrze; tam daleko, nad <emph>Wielkim Morzem</emph>, w krainie przez ludzi zamieszkałej, był właśnie poranek. Zakonnik, tyłem od srebrnego sierpa Ziemi odwrócony,
@@ -418,8 +419,7 @@ wyniosły i mięśnie potężne, tylko przez cześć bojaźliwą nie śmiejąc i
 <p>— Trzeba zwyciężyć!</p>
 <p>Elem radosnym ruchem wzniósł ręce do góry, ale Marek go nie widział. Patrzył przed siebie gdzieś w mroczną dal, gdzieś w los swój niespodziewany.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Awij zbyt gardził tymi ziemskimi intruzami na Księżycu, zwącymi się ludźmi, aby posyłać posły i pytać: dlaczego mu o zachodzie słońca nie złożono zwykłej obowiązkowej daniny albo co ma oznaczać wrogi ruch, który spostrzegł z wieczora około trójszczytowego zamczyska swego nad morzem? Postanowił natomiast spalić całą osadę przy <emph>Ciepłych Stawach</emph>, a ludność wyrżnąć do nogi. Nie wydawał jednak rozkazu, na który otaczający go morcy z utęsknieniem czekali. Wiedział, że załoga nie jest zbyt liczna i w razie oporu — a widział był gromadzących się zbrojnych — mogło przyjść do ciężkiej walki o wątpliwym wyniku, wolał więc zatrzymać
 się aż do czasu przybycia posiłków. Była to bowiem właśnie noc, kiedy szernowie przybywali z zamorskiego kraju odebrać co wieczór składany haracz i zmienić w zamku załogę.</p>
@@ -541,8 +541,7 @@ dotychczas! Z tego, co mówiłeś, widzę, że możemy być przyjaciółmi, a na
 <p>Marek wzniósł ręce i dawał znak, że chce mówić — ale długi czas upłynął, nim lud, przycichłszy nieco, pozwolił mu dojść do słowa. Zaledwie jednak usta otworzył, stało się zgoła coś niespodziewanego. Oto od strony północy, kędy trójszczytowy zamek szernów się wznosił, buchnęła fala gęstych i czarnych dymów, słońce w mgnieniu oka przysłaniając, a wraz podniósł się krzyk straszliwy trwogi i wściekłości. Słychać też było szczęk i nawoływania z nagła powstającej walki; tłum zakotłował się i ruszył — jedni cisnęli się ku Zwycięzcy, pomocy jego wzywając, inni zaś biegli, krzycząc, ku domostwom swoim zagrożonym.</p>
 <p>Oto szernowie pod wodzą Awija wypadli byli z cytadeli i przełamawszy nagłym natarciem łańcuch arcykapłańskich straży, wpadli do osady, szerząc przestrach, mord i pożogę. Marek, podniósłszy głowę, dojrzał z dala ich czarne postacie, jak wznosiły się ciężko na skrzydłach szerokich ponad tłum, miotając weń z góry pociski i żagwie płonące…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Ihezal, przytulona do stóp alabastrowej kolumny, nie mogła wyrozumieć słów, którymi Malahuda witał Zwycięzcę, ale słyszała dźwięk jego głosu i pojęła, że mówił rzeczy ważne i uroczyste. Z ukrycia swego patrzyła przez cały czas na dziadka, na płaszcz jego czarny i wysoki kołpak arcykapłański, które jej zasłaniały poniżej stojącego przybysza z dalekiej gwiazdy. Złorzeczyła w duchu temu szerokiemu płaszczowi i powitaniu, w nieskończoność się przeciągającemu, drżąc z niecierpliwości, aby ujrzeć co prędzej twarz tego oczekiwanego, a nie śmiała w dziwnym jakimś lęku wyjść z kryjówki lub chociażby ruszyć się z miejsca. Wytężała wzrok, jakby przebić chciała nim stojącą między nią a Zwycięzcą postać arcykapłana, gdy on jednakże zrobił ruch, mogący jej widok odsłonić,
 przymykała mimo woli oczy, przyciskając jednocześnie dłońmi łopotające w piersi serce…</p>
@@ -682,8 +681,7 @@ lecieć ku niej przyśpieszonym ruchem…</p>
 <p>— Ja jestem „Młody Człowiek” — rzekł — i kiedy będę wracał na Ziemię, wezmę cię z sobą… Wezmę was oboje — poprawił się, wskazując na Jereta — tam będziecie szczęśliwi…</p>
 <p>Ihezal uśmiechnęła się lekko, nie odwracając już oczu od wielkiego sinego morza.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Słońce zaledwie zaczynało się przechylać ku zachodowi, kiedy po zburzeniu zamku szernów lud odprowadzał w tryumfie Zwycięzcę do świątyni, obwołując go jedynym panem globu księżycowego…</p>
 <p>Walka była ciężka i długa. Szturm przypuszczano w samo południe, w porze, kiedy codziennie szaleją burze nad wielkim księżycowym morzem — i w mgnieniu oka przełamano obronne mury dziedzińca. Ludzie, którzy dawniej na samą myśl o szernach z zabobonnym lękiem kreślili zbawczy znak Przyjścia na piersi i ustach, teraz — widząc obiecanego Zwycięzcę na czele szeregów — rzucali się w wir boju z zapamiętałością i odwagą niesłychaną. U bram trójszczytowej wieży jednakże spotkali się z oporem, o który mało co nie rozbiło się ich waleczne natarcie. Tym razem nie szernowie to byli, ale morcy, którzy, zbiegłszy sromotnie w pierwszym boju, teraz rozpaczliwie się bronili do ostatniego tchu, wiedząc, co ich czeka w razie pogromu. Każde drzwi trzeba było oddzielnie zdobywać, każdy korytarz i zakręt schodów, niemal stopień każdy.</p>
@@ -848,8 +846,8 @@ uwolnić od natrętnej dziewczyny, która cię nużyła zapewne prośbami, abyś
 wymawiając — ale teraz naprawdę przyszedłeś nie w porę. Wolałbym zobaczyć kucharza, który by mnie nakarmił, bo głodny jestem diabelnie… Z wami później pomówię…</p>
 <p>Elem odwrócił się w milczeniu i schodził po stopniach posępny, ważąc snadź w myśli jakieś plany czy zamiary…</p>
 </div>
-<div>
-<p>Część druga</p>
+</div>
+<div type="group"><head>Część druga</head>
 <p>Wieść o przybyciu Zwycięzcy i straszliwym pogromie szernów rozeszła się szeroko po kraju — i kiedy onego dnia przyszła godzina wieczornej modlitwy, obszerny plac przed świątynią nie mógł pomieścić mnóstwa napływających zewsząd tłumów. Oprócz mieszkańców <emph>Ciepłych Stawów</emph> i osad najbliższych i oprócz tych, którzy z orszakiem Marka razem tutaj ściągnęli, przybywały gromady rybaków znad morskiego brzegu i myśliwców, w głębokich zaroślach na stokach rozłożystych <emph>Otamora</emph> zamieszkałych, szli poszukiwacze bursztynu i pereł — rolnicy, mięsiste i jadalne rośliny księżycowe uprawiający — ludzie wpółdzicy, na  <emph>Przesmyku</emph> między morzami osiadli, w ustawicznych walkach z morcami do krwawego trudu zaprawieni — i inni, z wiosek kwitnących, przywykli do zbytku i wszelkiej wygody.</p>
 <p>Miejscowi kupcy porozkładali kramy na schodach świątyni, zachwalając przybyłym sieci rybackie i sprzęt wszelaki, na który często ze zdumieniem poglądali ludzie prości, z dala przychodzący, nie wiedząc, ku jakiemu by służył użytkowi. Ruch był około kramów ustawiczny. Po bokach placu zaś, pod podcieniami, w południe od żaru słonecznego chroniącymi, tworzyły się grupy ciekawych około kilku Braci Wyczekujących, którzy przybyli na plac pod wieczór i opowiadali już po raz tysiączny może o cudownym przyjściu Zwycięzcy, co się objawił im pierwszym, jako od wieków było zapowiedziano, a
 teraz niesie pokój i błogosławieństwo na świat księżycowy. Inni cisnęli się znowu ku żołnierzom arcykapłańskim i zbrojnym Jereta, słuchając z zajęciem i uciechą o przebiegu bitwy, straszliwym pogromem szernów zakończonej. Wznoszono ręce, sławiono wielkość i moc Zwycięzcy i kupowano chętnie, płacąc toczonymi ziarnami bursztynu, skóry pobitych szernów, które zwycięscy żołnierze najwięcej dającemu ofiarowali, aby za uzyskaną cenę nabyć znów upajającego soku z rośliny noja lub rzucić ją jako stawkę w grze z towarzyszami.</p>
@@ -1029,8 +1027,7 @@ potwora, w niczym do człowieka niepodobnego.</p>
 <p>Awij zwrócił łeb w stronę dawnego sługi swego i wyrzucił z bezbrzeżną pogardą jeden tylko wyraz:</p>
 <p>— Głupi!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>— Malahudy nie znaleziono?</p>
 <p>Sewin skłonił głowę.</p>
@@ -1215,8 +1212,7 @@ kwiatu tak podobną głową — czuł już ciepło jej czoła i słodkie
 <p>Głos jej się w piersi zaparł, poruszyła bezdźwięcznie ustami — i nagle wybuchnęła spazmatycznym łkaniem.</p>
 <p>Trąba zagrzmiała po raz trzeci: wzywano teraz Zwycięzcę, aby sprawiał woje do drogi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Był czas wielkiej morskiej ciszy, która co dzień w przedpołudniowej porze poprzedzała nadejście burzy, szalejącej wichrem piorunowym, zaledwie słońce szczytu nieba dosięgło. Na wschodzie, kędyś poza <emph>Wyspą Cmentarną</emph>, chmury się już zbierały czarne i pomruk z nich szedł groźny, daleką, białą błyskawicą zapowiedziany, jakby łyśnięciem kłów potwornego zwierza, który legł na nieboskłonie i skradał się z wolna, goniąc po morzu za uciekającym słońcem. Za kilka, kilkanaście godzin ryk jego potężny wstrząśnie powietrze, ciężkie łapy opadną na wodę i stratują rozszalałą, pianą bryzgającą aż gdzieś pod niebo, na którym szare kudły zwierza się rozwełnią — ale tymczasem zwierz czaił się jeszcze w oddali, między skłon nieba a widny krąg morza wtulony — i cisza była ogromna.</p>
 <p>Powierzchnia wód wyglądała jak olbrzymia, sinostalowa tarcza gładzona doskonale; czuło się niemal okiem twardość jej niezarysowaną, nagle z płynności w metal zakrzepłą. Około brzegów dalekich wysp jeno barwa morza się zmieniała: drżały tam jakieś pawie otęcze, niby pierścienie, kamień drogi ujmujące. A nad tarczą morza łyskliwą żar wisiał w powietrzu nieruchomy, ciężki prawie i osowiały, jarkim blaskiem słońca na wskroś przebity…</p>
@@ -1340,8 +1336,7 @@ na <emph>Wielkiej Pustyni</emph> miasta podobne — w gruzach i ruinie.</p>
 <p>Wojownicy wreszcie odpoczywali…</p>
 <p>Ptak jakiś przedziwny o złocistych skrzydłach zerwał się z pobliskich zarośli i lśniąc w słońcu, krążyć począł nad głową Zwycięzcy, coraz szersze zataczając kręgi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Wieść naprzód przyszła głucha, nie wiadomo skąd, i rozchodziła się między ludem, z ust do ust podawana. Opowiadano sobie wzajem o przedziwnych Markowych przewagach i mimo że je uświęcony „Zwycięzca” odnosił, dziwiono się im, nie dowierzano prawie, zwłaszcza że nikt nie umiał podać pewnego źródła tych wiadomości… Wskazywano półdzikich rybaków z okolic <emph>Przesmyku</emph>, którzy zjawili się byli od pewnego czasu w towarzystwie jakiegoś starca obłąkanego w pobliżu <emph>Ciepłych Stawów</emph>. Podobno jeden z ich współziomków, opuściwszy szeregi Marka, z niewiadomej przyczyny do domu powrócił i przyniósł dobrą nowinę — ale że pogłoski szły z drugiej i niepewnej ręki, przyjmowano je ostrożnie, choć chciwie słuchano i poglądano po staremu ku <emph>Wielkiemu Morzu</emph>, za którym kraj szernów leżał.</p>
 <p>Wyprawa ta wydawała się czymś tak nieprawdopodobnym przyzwyczajonym z pokoleń do szernowskiego jarzma ludziom, że dotychczas oswoić się nie mogli z myślą, iż poszła ona istotnie, i z lękiem, wbrew wieściom pomyślnym, oczekiwano klęski i przybywającego po niej najazdu straszliwych pierwobylców. Byli już niektórzy, co brak pewnych wiadomości tłumaczyli wygubieniem do szczętu zuchwałych szaleńców i złorzeczenia czynili niemal Zwycięzcy, do niedawna wychwalanemu przez nich nad miarę…</p>
@@ -1432,8 +1427,7 @@ pohańbienie!</p>
 <p>Kiedy przed zapadającym wieczorem wracała przez chłodne morze, twarzą ku złotemu, zachodzącemu słońcu zwrócona, lica jej kwitły niezdrowym rumieńcem, przez cienką białą skórę gdzieś od wnętrza przeświecającym — i czarne oczy, sino podkrążone, głębszymi się jeszcze wydawały niźli zazwyczaj.</p>
 <p>Przybijając do brzegu posłyszała gwar tłumu, zgromadzonego jeszcze na placach i przed domami: klątwy, nawoływania, śpiewy, kłótnie i targi, całą ruchliwą i zgiełku pełną małość dnia dzisiejszego — i wargi ściągnęły jej się nagle niepohamowanym obrzydzeniem. Przymknęła oczy, starając się wywołać przed nie postać Zwycięzcy świetlaną, ale wbrew natężonej woli pod zwartymi powiekami zamajaczył jeno szerokoskrzydły, czarny cień szerna Awija, czterema krwawo płonącymi źrenicami w nią wpatrzony.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Stało się rzeczywiście, jak szern Awij przepowiedział.</p>
 <p>Kraj nizinny pomiędzy brzegiem <emph>Wielkiego Morza</emph> a górami, wznoszącymi się już w pobliżu południowego bieguna, zawojował Zwycięzca zupełnie. Miast zburzył trzydzieści kilka i wytracił szernów tak na tym obszarze, iż śladu po nich nawet nie zostało. Czternaście długich dni księżycowych
@@ -1542,8 +1536,7 @@ Nadto Marek zakazał zbrojnym surowo oglądać się poza siebie. Szli zatem napr
 <p>I wnet ludzie padać poczęli na twarz przed Zwycięzcą, sławiąc go, świętego Ziemi wysłańca.</p>
 <p>A on stał nieporuszony, zapomniawszy w tej chwili o szernach i korzącym się u stóp jego ludzie, i patrzył na białą zjawę ojczyzny swojej skroś nieba — po raz pierwszy wilgotnymi oczyma…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>W niskiej i ciasnej izdebce gwar panował nieopisany. Czekano na mistrza Rodę, który spóźniał się dzisiaj nad miarę, i skracano sobie czas gorącymi dysputami, przechodzącymi co chwila w spory zażarte. Młodzi ludzie, podnieceni, z błyszczącymi oczyma przyskakiwali do siebie, krzycząc i wywijając rękoma, o ile tłok i szczupłość miejsca na to pozwalały.</p>
 <p>Jakiś chłopak o płonących oczach i rozwichrzonej czuprynie dowodził zapamiętale:</p>
@@ -1742,8 +1735,7 @@ Zwycięzcę i nas z nim razem…</p>
 <p>— Mistrzu, jesteś wielki i nigdy czcić cię nie przestanę, ale wierz mi, że nam nie wolno już teraz tracić czasu. Mam swoją myśl…</p>
 <p>Deszcz jeszcze lał strugami, jakby niebo w wodę się roztopiło, kiedy jedenastu ludzi w płaszcze owiniętych wykradało się z bram miasta z małym zaprzęgiem psów, dążąc odwiecznym szlakiem ku północy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>— A jeśli ja posiłków nowych zbierać nie pozwolę?</p>
 <p>Jeret wzniósł z wolna głowę i spojrzał w twarz arcykapłanowi.</p>
@@ -1945,11 +1937,7 @@ stoimy w miejscu…</p>
 <p>Wtedy Roda zerwał się nagle i krzyknął, przyskakując z pięściami do Matareta:</p>
 <p>— Ależ Ziemia jest niezamieszkana! rozumiesz? niezamieszkana!! Ja ci zaraz udowodnię…</p>
 </div>
-<div>
-<p>Część trzecia</p>
-</div>
-<div>
-</div>
+<div type="group"><head>Część trzecia</head>
 <div type="chapter"><head>I</head>
 <p>Nechem, wyrwawszy się z rąk członkom Bractwa Prawdy, biegła w błędnym przerażeniu przez równinę, gdy nagle posłyszała potworny huk za sobą i uczuła, że prąd powietrza rzuca nią gwałtownie o ziemię. Kiedy po pewnym czasie przyszła do przytomności i powstawszy, obejrzała się za siebie, zdało jej się zrazu, że naokół nic się nie zmieniło. Wóz sterczał wśród zielonych krzewów, jak dawniej, i cisza była zupełna. Zaczęła więc zawracać nieśmiało, poglądając, gdzie by się mogli podziać ludzie, czepiający się ścian wozu jeszcze przed chwilą.</p>
 <p>Gdy jednak podeszła bliżej, zaniepokoiła ją zmiana, jaką spostrzegła. Zewnętrzny pancerz wozu stał wprawdzie w tym samym miejscu, co dawniej, ale brak w nim było stożka samego pocisku, sterczącego przedtem u wylotu. Zauważyła również, że rusztowanie, z resztek jej lichego domku wzniesione, zniknęło bez śladu. Przypomniała sobie, że gdy uciekając, obejrzała się raz, widziała członków Bractwa Prawdy uczepionych śmiesznie u wylotu maszyny, tuż około lśniącego szczytu właściwego wozu. Teraz nie widać ich było nigdzie. Tknęło ją jakieś złe przeczucie i szła ku wozowi z lękiem w zamarłym sercu, ostrożnie i gotowa w każdej chwili do ponownej ucieczki.</p>
@@ -2064,8 +2052,7 @@ wiekami i wieki całe w zaniedbaniu ginących… Na jednym miejscu, gdzie wznosz
 <p>Gdy stanął na niewielkiej platformie u szczytu, noc była na Księżycu nieprzenikniona. Cień gruby legł pod gwiazdami na mieście, na kotlinie całej i na górach, kryjąc przed okiem nawet białość ich śniegów. Jeno w stronie południowej lekki srebrzysty obrzask ponad piłą sczerniałych szczytów się znaczył — a Zwycięzca poznał, że to blask dalekiej Ziemi, tam pod widnokręgiem ukrytej…</p>
 <p>Wyciągnął ręce z tęsknotą ogromną — i pociechą mu była myśl, że jeszcze kilka długich dni księżycowych, a poleci w błyszczącym wozie swoim przez niebieskie przestworza tam, do domu, zostawiając ten straszny świat bez żalu za sobą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Słońce ukryte jeszcze było za okólnym wałem górskim i zaledwie śnieżne szczyty na zachodzie różowiły się u czół pierwszymi, złocistymi promieniami, kiedy Marek w towarzystwie Jereta i kilku ze starszyzny wyszedł na zwiedzenie zdobytego miasta.</p>
 <p>Rad był, że noc już minęła, długa, ciężka noc, podczas której myśli posępne jak złowieszcze ptaki siedziały u jego wezgłowia, czekając jeno, rychło się z krótkich męczących snów przebudzi, aby go napaść całą chmarą. W tych godzinach czuwania, przy świetle płonącego na kamiennej posadzce ognia, czyn jego i to całe „zwycięstwo” w dziwnie ponurej stawały przed nim postaci. Rozumiał, że się pokusił na rzecz szaloną i zgoła, niestety, bezowocną. Miał miasto w posiadaniu i czuł już, że mimo woli więźniem w nim będzie… Gdy zasnął na krótką chwilę, budziły go zwidzenia nocnych napadów — zrywał się z łoża w przestrachu i biegł na mróz patrzeć, czy straże czuwają i czy nie błyszczą w górze pod zaćmionymi gwiazdami blade ogniki nadlatujących chmurą szernów. Cisza jednak była niezmienna i spokój. Szernowie snadź nie chcieli się w cieniu nocnym na niepewną walkę narażać, czy też lękali się zimna, lub przestraszeni jeszcze świeżym pogromem sił dotychczas nie zebrali, dość że nic nie mąciło spokojnego snu zdobywców… Wracał tedy Marek do izby i zapatrzony w płonący ogień, usiłował snuć jakieś plany, przedrzeć myślą ten otaczający go mrok beznadziejny. Ale myśl, w jakąkolwiek stronę wysłana, grzęzła ciągle w jakiejś niemożebności zasadniczej, w niepodobieństwie wysnucia wniosku, mającego bodaj pozory sensu…</p>
@@ -2178,8 +2165,7 @@ Ziemia.
 <p>Słońce zachodziło, kiedy sanie, przygotowane już do drogi, oczekiwały na piasku, rychło mróz nocny zetnie morze szklistym pomostem. Marek, rozciągnięty na wybrzeżu, patrzył na łunę zachodnią. Paliła się szeroko, czerwieńsza i krwawsza niźli zazwyczaj, jakby symbol ostatni i pożegnalny owych długich dni, pełnych trudu, mordu i pożogi… Zwycięzca przypomniał sobie ostatni wieczór przed wyjazdem i jasną głowę Ihezal na piersi swojej opartą — i wzniósł ręce w milczeniu, jakby Bogu bez słów dziękując, że trud jego największy jest już ukończony i że wraca do kraju, skąd rychło odleci na zawsze z Księżyca…</p>
 <p>Łuna tymczasem nie gasła, lecz zdawała się owszem zażegać coraz szerzej i krwawiej, pół nieba prawie obejmując. I nagle dziwny strach przeniknął Marka, jak gdyby ten pożar niebieski i ta krew po zachodzie słońca nie tylko przeszłe dni znaczyła, lecz miała dla niego być zarazem wróżbą jakiegoś losu strasznego…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Wieść o napadzie szernów na ludzkie dziedziny przyszła tym razem od zachodu i wywołała niesłychany popłoch. Zbiegowie z rybackich krajów nad brzegiem morza w okolicy <emph>Przesmyku</emph> donieśli, że zbliża się oddział pierwobylców, nie wiadomo skąd przybyły — i pali i morduje wszystko po drodze… Nikt nie myślał stawiać oporu. Uciekano tylko na wschód, ku miastu przy <emph>Ciepłych Stawach</emph> z jękiem a przekleństwami. Wołano już głośno, że Zwycięzca zapewne poległ, a z nim i wszyscy towarzysze — i teraz zacznie się zemsta szernów nieuchronna a straszliwa. Ludzie łamali ręce w bezradnym przestrachu i cisnęli się dokoła arcykapłańskiego pałacu, wołając na próżno Elema, aby się ukazał i lud swój ratował.</p>
 <p>Elem nie wychodził. Zamknięty w komnatach, stracił głowę zupełnie i nie wiedział wprost, co począć. Nie wierzył on wprawdzie, aby Zwycięzca był już zgubiony, ale słysząc za oknami przekleństwa miotane na głowę tego do niedawna bożyszcza ludu i zarazem głosy wzywające jego, jako arcykapłana, aby w tym nieszczęściu dał pomoc i ochronę: poczuł całkowitą bezsilność władzy swojej i stanowiska.</p>
@@ -2341,8 +2327,7 @@ Elem się zawahał.
 <p>I nagle uczuła, że jakaś straszliwa czarna masa na nią się zwala. Chciała się bronić, chciała odeprzeć ciężar rękoma, sztyletem pchnąć, ale z dłoni jej jak liść zwiędły wyleciał, a w tej chwili dwa skrzydła szerokie, wzniesione, gdzieś w górze nad jej głową załopotały i opadły na nią, spowijając miękko… Uczuła ręce straszliwe, ślizgające się po jej bokach i szukające wśród sztywnych fałdów szat ciała żywego — a potem na obnażonych biodrach dotknięcie zimnych, śliskich dłoni. — Nagła noc ogarnęła jej głowę, żar w ustach i krtani, ból — jakiś potworny, nieludzki, straszliwy ból, który skręca jej mięśnie i wnętrzności, ból tak ohydny, że aż do dzikiej rozkoszy podobny…</p>
 <p>Upadła bez przytomności.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Świt wstawał szary nad zamarzłym morzem. Malahuda, w futro ciepłe przybrany, wysunął się na świat ze swojej jaskini na <emph>Wyspie Cmentarnej</emph>. Towarzyszyły mu dwa wierne psy, dzielące od pewnego czasu jego samotnię. Wybiegłszy na dwór za panem, zaczęły ujadać i skakać wesoło, rozgrzebując biały śnieg nogami i węsząc dookoła kryjówek uśpionych na noc księżycowych zwierzątek.</p>
 <p>Starzec patrzył przez chwilę na skoki psów, uradowanych, że się dostały na wolność po długim nocnym zamknięciu, a następnie zwrócił się z wolna w stronę wzgórza, przewieszoną ścianą ku morzu spadającego. Psy, spostrzegłszy, że odchodzi, zaprzestały igraszek i pobiegły za nim. Nogi grzęzły mu w sypkim, zmarzłym śniegu; idąc, podpierał się długim kosturem.</p>
@@ -2483,8 +2468,7 @@ Marek zagryzł usta.
 <p>Stała tuż przed nim, drobnymi udami pod lekką szatą kolan jego niemal dotykając. Wolnym ruchem palców rozwiązała wstęgę pod szyją i rozchyliła barwną wonną tkaninę. Naga była pod zwierzchnim odzieniem, jak poprzednio, jeno szal nieodmiennie szerokim zawojem opasywał jej biodra.</p>
 <p>Nagle Marek uczuł, że ona bierze twarz jego w dłonie i ciśnie do swojej piersi. Odurzająca woń go ogarnęła, przymknął oczy i ustami głodnymi dotykał jej ciała, czując jednocześnie, jak ostre jej paznokcie zagłębiały mu się w skórę poza uszami. Chciał ją objąć ramieniem, gdy nagle zachwiał się w tył pchnięty. Ihezal wyślizgnęła się z jego ręku; usłyszał tylko srebrzysty szyderczy śmiech i trzask drzwi zamykanych. Był znowu sam.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Stanowienie nowych praw szło Markowi opornie, jak to stary arcykapłan z góry był przewidział. W jednej chwili wszyscy stanęli przeciw niemu; ze zdumieniem spostrzegł, że wrogowie wyrastają zewsząd, tam nawet, gdzie najmniej się tego spodziewał.</p>
 <p>Zaczęło się to zaraz owego pierwszego dnia, kiedy powrócił z zamorskiej wyprawy. Zwołał był wtedy na czas popołudniowy wielkie zgromadzenie ludu do świątyni, na którym zakreślić chciał i wyjawić plan reform zamyślonych. Zebrała się ciżba sroga, ale niepokój w niej był od początku, zgoła odmienny od owego zbożnego oczekiwania, które dawniej poprzedzało każde wystąpienie Zwycięzcy. Niecierpliwiono się owszem i wołano, jakby to on właśnie był przed oblicze ludu wezwany i miał się jawić, aby zdać jakieś rachunki. Gdy wszedł na dawną arcykapłanów kazalnicę, powitał go okrzyk mieszany, wśród którego jednak nieliczne tylko głosy cześć jego obwoływały.</p>
@@ -2563,8 +2547,7 @@ A on mówił dalej:
 <p>Ihezal zaczęła drżeć na całym ciele, a on — do dziwnego królewskiego szatana podobny — zbliżył się do niej i wyciągnął straszliwe białe dłonie. Dziewczyna stała bezwładna, z rękami w dół opuszczonymi, kiedy Awij począł zzuwać z niej odzienie. Cisnął na ziemię płaszcz bogaty i spodnią szatę drogo wyszywaną, a gdy wreszcie zdarłszy z niej ostatnią białą tunikę, rozwiązał szal koło bioder owinięty, na śnieżnych i atlasowych bokach dziewczęcych ukazały się dwa piętna ohydne, od uścisku palących ręku szernowskich pochodzące…</p>
 <p>Wtedy upadła przed nim na twarz, on zaś, skrzydła czarne szeroko z obojego boku rozpostarłszy, wstąpił jedną nogą na głowę jej jasną, zadzierzgając szpony w rozsypane złoto jej włosów.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Wieść o śmierci Malahudy raziła Zwycięzcę jak grom. Wszystko szło jak najgorzej i Marek postanowił był właśnie jeszcze ostatnią próbę uczynić, nimby Księżyc opuścił: wezwać Malahudę, aby wyszedł nareszcie ze swego osamotnienia i poparł go dawną powagą swoją: kiedy rybak, służący zwykle za posła staremu arcykapłanowi, doniósł mu naraz, że ten już nie żyje. Został pono zabity — jak mówił rybak, drżąc na całym ciele.</p>
 <p>Marek w pierwszej chwili przypuszczał, że popełniono tę zbrodnię na rozkaz Elema, obawiającego się mimo wszystko wciąż dawnego rywala. Wpadł więc jak burza do pałacu arcykapłańskiego i wywlókłszy drżącego z przestrachu mnicha z pośrodku odbywającej się właśnie narady, począł go kląć i grozić śmiercią natychmiastową. Dawny mnich, nie wiedząc o niczym, oniemiał z przerażenia, gdy jednak po pewnym czasie wyrozumiał, o co chodzi, okazał takie zdumienie i tak szczerze się przysięgał, że Marek pomimo woli zaczynał wierzyć w jego niewinność… Puścił go tedy, zagroziwszy mu jeno, że całą rzecz zbada, a jeśli okaże się w tym bodaj cień winy jego, Elema, będzie on mimo straże swoje i mimo lud cały tak straszliwie ukarany, że póki jeno Księżyc istnieje, wspominać będą ludzie ze zgrozą i przestrachem zemstę Zwycięzcy. Tymczasem zaś kazał sobie natychmiast przygotować łódź, aby się udać na <emph>Wyspę Cmentarną</emph> i na miejscu zbadać, co by się dało.</p>
@@ -2679,8 +2662,8 @@ A ta myśl…
 <p>Wiadomość ta już się snadź pierwej między ludem rozeszła, niepokój bowiem i zamieszanie panowały w całym mieście. Grupy tworzyły się na placach i ulicach; rozprawiano głośno i ze zdziwieniem o zniknięciu wozu Zwycięzcy.</p>
 <p>Marek stał, jakby gromem zmiażdżony, niezdolny słowa przemówić.</p>
 </div>
-<div>
-<p>Część czwarta</p>
+</div>
+<div type="group"><head>Część czwarta</head>
 <p>
 <emph>
 Trzy są na Księżycu relacje o śmierci człowieka zwanego niegdyś Zwycięzcą, który przybył nie wiadomo skąd, za czasów arcykapłana Malahudy, a za rządów następcy jego Elema publicznie był stracony. Pierwsza z tych relacji — i zdaje się najstarsza, pochodzi z czasów, kiedy rządził Sewin, który, kazawszy udusić poprzednika swego Elema, objął był po nim stolec arcykapłański. Wówczas pamięć Zwycięzcy nie była jeszcze święta, ponieważ Sewin dopiero pod koniec dni panowania nakazał go czcić jako proroka i męczennika.
@@ -2706,9 +2689,6 @@ Wszystkie te trzy relacje zgadzają się mniej więcej w opisie wydarzeń towarz
 Z chronologicznego porządku wysuwa się naprzód opowiadanie z czasów pierwszej połowy panowania arcykapłana Sewina:
 </emph>
 </p>
-</div>
-<div>
-</div>
 <div type="chapter"><head>I</head>
 <quote>
 <p>Opowieść prawdziwa </p>
@@ -2760,8 +2740,7 @@ konając, wierzgał nader uciesznie sterczącymi do góry nogami.</p>
 <p>Tego też dnia pod wieczór zginęła z oczu ludzkich dziewica Ihezal; wielkie jest prawdopodobieństwo, iż w nagrodę cnotliwego życia swego wzięta była żywcem na Ziemię, gdzie mieszka Stary Człowiek i duchy dobre, opiekujące się pokoleniami ludzkimi na Księżycu, i skąd przyjdzie z czasem prawdziwy Zwycięzca, co oby jak najrychlej się stało!</p>
 <p>Tak tedy skończył marnie człowiek, który narobił tyle mętu na Księżycu, jak nikt przed nim i z pewnością nikt po nim nie narobi. Nauka stąd wielka a zbawienna, że władzy we wszystkim trzeba być posłusznym i nie wierzyć nowatorom, którzy ino ku złemu a ku nieszczęściu ludzi nakłaniają i wiodą…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <quote>
 <p>Z dzieła prof. Omilki, historyka,
@@ -2824,8 +2803,7 @@ pewnym niezbyt ciężkim, choć nie bardzo miłym haraczem.</p>
 <p>Zresztą być bardzo może, iż żyjąc dłużej, dałby się był może w końcu nakłonić do wyjawienia Prawdy, której my, w Bractwo związani, służymy, i byłby przyznał, że pochodzi z tamtej strony Księżyca i że tam jest odwieczny ludzki początek. To musiałoby, jak wierzę, położyć raz na zawsze kres wszelkim błędom i przyspieszyć urzeczywistnienie idealnego a tak upragnionego porządku. Obecnie zaś, z wyjątkiem członków Bractwa Prawdy, wszyscy ku Ziemi oczy wytrzeszczają: zwolennicy ubitego pseudo-Zwycięzcy w przekonaniu, że on stamtąd na nich duchem patrzy, a przeciwnicy — czekając z tej pustej gwiazdy nowego, tym razem prawdziwego Zwycięzcy.</p>
 <p>Na wszelki sposób nie jest dobrze.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <quote>
 <p>Posłowie do Braci, </p>
@@ -2834,8 +2812,7 @@ pewnym niezbyt ciężkim, choć nie bardzo miłym haraczem.</p>
 <p>który żył między nami</p>
 </quote>
 </div>
-<div>
-<p>Rozdział pięćdziesiąty siódmy</p>
+<div type="chapter"><head>Rozdział pięćdziesiąty siódmy</head>
 <p>Tak tedy Zwycięzca odwieczerza onego zebrał był ucznie swoje podle murów miasta na miejscu, kędy niegdyś był zamek szernów zburzony, a obaczywszy, iż wszyscy koło niego usiedli, odezwał się do nich, mówiąc:</p>
 <p>„Powiadam wam, że przyszedł czas, abych was opuścił, powracając na jasną gwiazdę Ziemię, skąd do was przybyłem i kędy jest dom wieczysty Starego Człowieka, ojca duchów waszych.</p>
 <p>Policzyłem dni spędzone między wami i zważyłem trud zdziałany i widzę, wstecz się oglądając, że niczego już dorzucić nie mogę do tego, co uczyniłem.</p>
@@ -2857,8 +2834,7 @@ Ziemi.</p>
 <p>Ta opowiadała im z płaczem i narzekaniem wielkim, iż czasu pewnego przyszli duchowie, a otoczywszy wóz błyskawicą jaskrawą i tak go przed oczyma jej zakrywszy, unieśli z sobą w przestworze.</p>
 <p>Ten ci był znak, iż na Ziemi chcą, aby Zwycięzca na zawsze na Księżycu pozostał i poniósł tutaj śmierć dla dobra ludzi, którzy w niego uwierzą.</p>
 </div>
-<div>
-<p>Rozdział pięćdziesiąty ósmy</p>
+<div type="chapter"><head>Rozdział pięćdziesiąty ósmy</head>
 <p>Tedy przez dziewięć dni i nocy budował Zwycięzca wóz nowy, aż dnia dziesiątego, przekonawszy się, iż duchy nie chcą, aby z Księżyca mógł odejść, wezwał ucznie swoje i tak do nich przemówił:</p>
 <p>„Los mój się dopełnił, który mi każe pozostać z wami aż do śmierci. Rzucałem dotychczas siew, plonu ja zbierać nie będę, ale chcę pługiem przeorać ziemię, iżby ziarno w niej nie zaginęło.</p>
 <p>Wy jesteście trzosłem i lemieszem, i radłem, które wodzę po twardych zagonach, odwalając skiby i niszcząc na nich bujną zieleń chwastów. Powstawać będą przeciw wam, iż burzycielami jesteście, ale wy ufajcie mi i słowom moim, które do was mówiłem.</p>
@@ -2879,8 +2855,7 @@ Ziemi.</p>
 <p>A kiedy weszli w boczną ulicę, tak że stojący podle bram uczniowie nie mogli widzieć, co się z mistrzem dzieje, wyskoczyli siepacze arcykapłańscy zza węgłów i narzuciwszy Zwycięzcy długie sznury na głowę i ręce, obalili go znienacka na ziemię.</p>
 <p>Uczniowie, krzyk jego posłyszawszy, chcieli mu bieżyć na pomoc, aliści wojsko, dotychczas po domach sąsiednich ukryte, wypadło z nagła i otoczywszy garść ludzi przeważającą siłą, wiązać zaczęło zmieszanych utratą mistrza i wodza.</p>
 </div>
-<div>
-<p>Rozdział pięćdziesiąty dziewiąty</p>
+<div type="chapter"><head>Rozdział pięćdziesiąty dziewiąty</head>
 <p>Tak tedy Zwycięzca, podstępem ujęty, stawion miał być przed sąd arcykapłański. Wprzódy jednak dla większego urągowiska zawleczono go w więzach do sklepu podziemnego w świątyni i przykuto do ściany, kędy niegdyś trzymany był szern Awij, dawny wielkorządca, przez Zwycięzcę ongi w pierwszej bitwie ujęty.</p>
 <p>Szern ten umknął był z Elemową pomocą i chował się w ukryciu pod jego opieką, jako się już rzekło.</p>
 <p>Otóż kiedy siepacze odeszli, pozostawiwszy Zwycięzcę samym, szern ten zjawił się przed nim, a usiadłszy na stosie porzuconych ksiąg świętych, w których spisana była Obietnica, począł mu urągać.</p>
@@ -2911,8 +2886,7 @@ na zawojowanie twych braci…”</p>
 <p>„Nie będę sądził tego człowieka! Litości jest pełne serce moje, gdy patrzę na jego upadek, i was proszę o litość dla niego. Wszelako czyńcie z nim, co sami zechcecie”.</p>
 <p>Gdy to powiedział, odwrócił się i odszedł, twarz swoją zakrywszy, a za nim powstali inni sędziowie, oddając Zwycięzcę na łup motłochowi.</p>
 </div>
-<div>
-<p>Rozdział sześćdziesiąty</p>
+<div type="chapter"><head>Rozdział sześćdziesiąty</head>
 <p>Tedy uwiązano u nóg jego sznury, a jako był leżał na pomoście wozu ze skrępowanymi rękoma, tak go z niego ściągnięto i przyprzęgło się do każdego sznura po sześciu ludzi, i powlekli go po ulicach miasta, aż jasne kędziory głowy jego krwią się zabarwiły od ran, wybitych twardymi kamieniami bruku.</p>
 <p>Tłum zaś biegł za wleczonym liczny i krzyczał, podżegając ciągnących ludzi do coraz szybszego biegu. A tam, gdzie gawiedź ona przeszła, szli potajemnie uczniowie Zwycięzcy (bali się bowiem tłumu) i zbierali chustami krew jego najdroższą, płacząc.</p>
 <p>A nalazła się też między nimi kobieta jedna nierządna i opętana, imieniem Ihezal, która była wnuczką arcykapłana Malahudy, zabitego przez szerna, którego sobie chował był Elem na zgubę dusz ludzkich.</p>
@@ -2935,8 +2909,7 @@ na zawojowanie twych braci…”</p>
 <p>Co gdy uczyniła, duchy ją zaraz złe napadły i zaczęła tańczyć, i jęczeć, i szlochać, i opętana pognała ku ogrodom na stokach obok świątyni i tam kędyś przepadła na zawsze, przez duchy one nieczyste snadź uniesiona.</p>
 <p>A tejże chwili kiedy skonał Zwycięzca, szern się pokazał z rozpiętymi czarnymi skrzydłami na dachu świątyni, a podleciawszy krzywym lotem z niesłychaną zuchwałością w pośrodku ludu, usiadł na szczycie słupa, kędy było ciało.</p>
 </div>
-<div>
-<p>Rozdział sześćdziesiąty pierwszy</p>
+<div type="chapter"><head>Rozdział sześćdziesiąty pierwszy</head>
 <p>Tłum, przerażony zjawieniem się szerna i z nagła powstającą burzą, rozbiegł się rychło, ostawiwszy ciało krwawe i martwe, do słupa jeszcze przywiązane.</p>
 <p>Nad wieczorem dopiero nadeszli słudzy arcykapłańscy i poprzecinawszy sznury, zdjęli zwłoki i przysypali wielką kupą piasku i kamienia.</p>
 <p>W pośrodku nocy jednakże stała się jasność niezmierna i z hukiem ogromnym, do uderzenia tysiąca piorunów podobnym, przybieżał w ogniu jasny wóz Zwycięzcy i stanął ponad mogiłą, nad brzegiem morza usypaną.</p>

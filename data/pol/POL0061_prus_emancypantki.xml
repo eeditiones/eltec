@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0061">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">129085</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Emancypantki</title>
 <ref>http://wolnelektury.pl/katalog/lektura/emancypantki</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Emancypantki</title>
 <author>Prus, Bolesław</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1894</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,11 +59,7 @@
 </div>
 </front>
 <body>
-<div>
-<p>
-Tom II</p>
-</div>
-<div>
+<div type="group"><head>Tom II</head>
 <div type="chapter"><head>1. Powrót</head>
 <p>Panno Magdaleno, czas wstawać!…</p>
 <p>
@@ -249,8 +250,7 @@ Panna Malinowska pokiwała głową.</p>
 <p>— Ubierz się — rzekła — jedziemy. Kufer odeszlę ci za godzinę.</p>
 <p>Madzię, gdy została sama, ogarnął strach. Jak ją przyjmie pani Korkowiczowa?… — może i u niej jest taki rygor jak u panny Malinowskiej?… Blada, drżącymi rękoma włożyła na siebie okrywkę, a ponieważ była sama w pokoju, więc przeżegnała się i uklękła prosząc Boga, ażeby ją pobłogosławił w tak ważnym momencie życia.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>2. Dom z guwernantką</head>
 <p>Przełożona uchyliła drzwi i wywołała Madzię. Wyszły na ulicę, wsiadły w dorożkę, a w kilka minut były na pierwszym piętrze wykwintnego domu. Panna Malinowska pociągnęła kryształową rączkę dzwonka przy drzwiach, które otworzył lokaj w granatowym fraku i czerwonej kamizelce.</p>
 <p>— Kogo mam zameldować? — spytał.</p>
@@ -405,8 +405,7 @@ Pulchna dama stropiła się.</p>
 <p>— Łatwiej jaśnie panu bić niż mnie brać — mruknął Jan.</p>
 <p>Zdziwiona i przestraszona Madzia pomyślała, że dom państwa Korkowiczów jest bardzo oryginalny.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>3. Bodajeś uczył cudze dzieci</head>
 <p>Pani Korkowiczowa posiadała dyktatorską władzę nad domem. Tylko jej lękała się służba, jej ustępował mąż, tylko jej rozkazy spełniały panienki, a nawet ukochany syn, który nie bardzo słuchał ojca.</p>
 <p>Opanowała wszystkich z mniejszym lub większym oporem z ich strony. Toteż niemałym było zdziwienie pani Korkowiczowej, gdy po niejakimś czasie spostrzegła, że obok niej w domu zaczyna wyrastać nowa indywidualność — Madzi.</p>
@@ -582,8 +581,7 @@ Pulchna dama stropiła się.</p>
 <p>Niechęci także nie wypada okazywać. Bo nuż guwernantka obrazi się i opuści jej dom? Co na to powiedziałyby córki, Bronek, mąż — a nade wszystko jakby wyglądała upragniona znajomość z Solskimi?</p>
 <p>„Dziwna ta panna Solska… — rzekła do siebie pani Korkowiczowa. — Przyjaźnić się z guwernantką!”.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>4. Niepokoje pani Korkowiczowej</head>
 <p>W pierwszych dniach października dom pani Korkowiczowej stanowczo był przewrócony do góry nogami. Ona zaś sama czuła się w położeniu rozbitka, który siedząc na wąskiej skale widzi rozhukany ocean i tylko czeka, kiedy go fale pochłoną.</p>
 <p>Córki jej, na których edukację tyle wydała pieniędzy, nie tylko przestały być opryskliwymi dla służby, ale jeszcze — weszły w zażyłość z panną służącą, kucharką, nawet z rodziną lokaja. Pani Korkowiczowa nieraz znajdywała obie panienki w garderobie, a przy stole widywała na własne oczy, że Jan uśmiecha się nie tylko do panny Brzeskiej, ale nawet do Linki i Stasi.</p>
@@ -700,8 +698,7 @@ Pulchna dama stropiła się.</p>
 <p>— Co z tobą gadać — rzekła pani. — Uczciwy jesteś człowiek, ale dyplomatą nie będziesz…</p>
 <p>— Phi!… zesłał mi Bóg takiego Metternicha w spódnicy, że na dwa browary wystarczy…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>5. Raut z bohaterem</head>
 <p>W najbliższą sobotę, jaka przypadała w drugiej połowie października, salony państwa Korkowiczów zajaśniały. Na schodach położono dywany i ustawiono kwiaty, przedpokój zapełnił się służbą, na czele której stał Jan wygolony, w granatowym fraku, czerwonej kamizelce i żółtych spodniach.</p>
 <p>— Czysta małpa z wyspy szczęśliwości!… — mruknął patrząc na niego pan Korkowicz.</p>
@@ -836,8 +833,7 @@ Pulchna dama stropiła się.</p>
 <p>Wyszedł do sieni. Pani Korkowiczowa stanęła pod drzwiami Madzi i grożąc pięścią rzekła:</p>
 <p>— Poczekaj, ty emancypantko… Niech no ja poznam się z Solskimi, a zapłacę ci za wszystko…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>6. Solscy przyjeżdżają</head>
 <p>Pierwszego dnia po wspaniałym raucie ani starszy, ani młodszy pan Korkowicz nie zasiedli do stołu. Na drugi dzień pan Korkowicz, syn, kazał przynieść obiad do swego pokoju, a ojciec wprawdzie był przy stole, lecz nie miał apetytu i zwymyślał Jana. Dopiero na trzeci dzień pan Bronisław ukazał się w jadalni z miną obrażoną, starszy zaś pan nie śmiał synowi spojrzeć w oczy.</p>
 <p>Przez te ciężkie dnie pani Korkowiczowa narzekała na migrenę, kłóciła się z córkami i ze służbą, hałaśliwie zamykała drzwi, z Madzią rozmawiała krótko, siląc się na uprzejmość.</p>
@@ -970,8 +966,7 @@ Madzia machnęła ręką.</p>
 <p>— Czy ja mogę to zrobić?… Mam przecie z nimi umowę.</p>
 <p>Ucałowały się jeszcze raz na połowie schodów.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>7. Słówko jasnowidzącej</head>
 <p>Nadciągnęła jesień. Na niebie zasłoniętym chmurami, podobnymi do rzadkiego dymu, po kilka dni nie ukazywało się słońce. Bruki ledwie wynurzały się z powodzi błota; ściany domów nabrały brudnej barwy; powietrze nasyciło się wilgotną mgłą zamieniającą się w drobny deszczyk. Przemoknięte wróble uciekając z nagich drzew gromadziły się na gzymsach i zaglądały do mieszkań ciemnych i ponurych.</p>
 <p>Solscy ani razu nie odwiedzili państwa Korkowiczów, a nawet tak gościnnie przyjmowany Norski wcale się nie ukazał. Pan Korkowicz od rana do wieczora siedział w browarze, niekiedy nawet zrywał się w nocy i biegł do fabryki potrącając czasem w bramie syna, który wracał z kolacji. Pani Korkowiczowa była zamyślona i pochmurna jak jesień, a raz zapytała Zgierskiego, który dość częstym bywał u nich gościem:</p>
@@ -1167,8 +1162,7 @@ Do rozmawiających zbliżył się uśmiechnięty pan Kazimierz Norski.</p>
 <p>„Nierozdmuchana iskra Boża!…” — mówiła sobie usiłując nie patrzeć na pana Kazimierza, który ze swoim drwiącym uśmiechem, z całą pięknością i wykwintnymi ruchami wydawał się jej banalniejszym — nawet od pani Korkowiczowej i jej pretensji.</p>
 <p>O przepowiedni jasnowidzącej nie pamiętała uważając ją za jakieś nieporozumienie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>8. Dola guwernerska</head>
 <p>Przez kilka następnych dni pani Korkowiczowa tłumiła gniew, półsłówkami nadmieniając o próżniactwie ludzi bogatych i późnym wracaniu do domu. Madzia udawała, że nic nie spostrzega.</p>
 <p>Panią drażniło to jeszcze mocniej. Więc raz przy obiedzie wziąwszy sobie potrawę z półmiska rzekła do służącego:</p>
@@ -1252,8 +1246,7 @@ Nieraz Stasia mówiła do Linki:</p>
 <p>— Róbcie, co wam się podoba!… — szepnął.</p>
 <p>Tymczasem panna Howard opowiadała znajomym i nieznajomym o arogancji pani Korkowiczowej i o braku kobiecej godności w pannie Brzeskiej. Wieści te, zataczając coraz szersze kręgi, dosięgnęły z jednej strony aż na pensję panny Malinowskiej, z drugiej — aż do ucha panny Solskiej.</p>
 </div>
-<div>
-<p>9. Nareszcie — złożyli wizytę</p>
+<div type="chapter"><head>9. Nareszcie — złożyli wizytę</head>
 <p>
 Raz… (było to po Bożym Narodzeniu) około dwunastej z rana służący Jan wezwał pannę Brzeską i panienki do salonu.</p>
 <p>
@@ -1352,8 +1345,7 @@ Stroskana matka na próżno dobijając się do nich usłyszała od Linki te wyra
 <p>— A co, nie mówiłam, że się mama dowojuje?…</p>
 <p>— Przecież będziemy pannę Brzeską odwiedzać u państwa Solskich — uspakajała ją pani Korkowiczowa, choć serce jej szarpały złe przeczucia.</p>
 </div>
-<div>
-<p>10. Dom przyjaciół</p>
+<div type="chapter"><head>10. Dom przyjaciół</head>
 <p>
 Od chwili pożegnania pani Korkowiczowej Madzia prawie nie rozumiała, co się z nią dzieje.</p>
 <p>
@@ -1511,8 +1503,7 @@ Solski uderzył palcami w krawędź stołu.</p>
 Kamerdyner potrząsnął siwą głową.</p>
 <p>— Pan przynajmniej nie powinieneś narzekać na ten interes — rzekł powoli. — Z jednej Ewy tylu przecie narodziło się ludzi, że wszyscy kucharze mają za co pić do ukamienowanej śmierci…</p>
 </div>
-<div>
-<p>11. Na nowym stanowisku</p>
+<div type="chapter"><head>11. Na nowym stanowisku</head>
 <p>
 W taki sposób osiedliła się Madzia w domu Solskich. Oprócz cioci Gabrieli nie pojmującej, jak można przyjaźnić się z „tymi panienkami”, wszyscy byli jej życzliwi. Ada lubiła ją serdecznie, służba prześcigała się w grzecznościach, a władca tej kolonii, pan Solski, wahał się jak na huśtawce między bałwochwalczym ubóstwieniem Madzi i — nieufnością do ludzkiego rodu w jego żeńskiej połowie.</p>
 <p>
@@ -1705,8 +1696,7 @@ Madzia schwyciła się za głowę.</p>
 <p>
 Ona wskazałaby Adzie środek na rozpędzenie nudów, ona umiałaby poprawić stosunki między panem Solskim a Helenką… I wszyscy byliby szczęśliwi, a ja wywdzięczyłabym się za ich dobroć…</p>
 </div>
-<div>
-<p>12. W jaki sposób ożywia się pustka</p>
+<div type="chapter"><head>12. W jaki sposób ożywia się pustka</head>
 <p>
 Przy mieszkaniu Ady Solskiej był rodzaj oranżerii, cały dzień oświetlonej przez słońce. Za życia matki Ady przynoszono tu osobliwe rośliny w czasie ich kwitnięcia. Później przez szereg lat altana stała pustką. Dziś przerobiono ją na botaniczne laboratorium Ady.</p>
 <p>
@@ -1901,8 +1891,7 @@ Wobec jej zmartwienia Madzia zapomniała o własnych przykrościach. Objęła Ad
 W tydzień później Ada i Madzia istotnie były na operze włoskiej z panią Arnoldową i bawiły się doskonale. Dowiedziawszy się o tym Solski machnął ręką i rzekł do siostry:</p>
 <p>— Chciałem zrobić ci przyjemność, ale mi się nie udało… Widzę z tego, że nasz dom może być szczęśliwym tylko przez pannę Magdalenę. Ona jedna ma ten przywilej!…</p>
 </div>
-<div>
-<p>13. Echa przeszłości</p>
+<div type="chapter"><head>13. Echa przeszłości</head>
 <p>
 Od pewnego czasu Madzi zaczyna się zdawać, iż w jej stosunkach z ludźmi zaszła jakaś zmiana.</p>
 <p>Jej uczennice podczas lekcji są spokojniejsze aniżeli dawniej, co Madzię cieszy; ale zarazem są jakby mniej śmiałe, co ją trochę dziwi. Widocznie ona sama musiała się zrobić poważniejszą, co zawsze zalecała jej nieboszczka pani Latter, niezapomniana…</p>
@@ -2033,8 +2022,7 @@ I nagle ożywiona twarz Ady spochmurniała.</p>
 <p>— Ach, nie! miałam przecie czas oswoić się z jej oryginalnością. Tylko… chciałabym wiedzieć: kto należy do towarzystwa? Bo powiem ci — mówiła po namyśle — że te towarzystwa kobiece, z jakimi zetknęłam się za granicą, wcale mnie nie pociągały. Widywałam, młode panny zaniedbane w ubiorze, z wyzywającymi minami, które paliły tytoń, piły piwo i kłóciły się jak mężczyźni. Tylko że mężczyźni nawet wśród awantur wyglądają dobrze, a te biedaczki były wprost obrzydliwe. Otóż ja z takimi nie chciałabym się spotkać.</p>
 <p>Skutkiem tej uwagi Madzia przez parę dni zasięgała między znajomymi paniami informacyj o stowarzyszeniu panny Howard. Odpowiadano jej rozmaicie. Jedne z pań uważały towarzystwo za stratę czasu, inne — za nieszkodliwą zabawkę, inne mówiły o nim z zapałem. Ogólna jednakże opinia była taka, że Madzia porozumiawszy się z Adą oświadczyła pannie Howard gotowość przystąpienia do jej kółka.</p>
 </div>
-<div>
-<p>14. Sesja</p>
+<div type="chapter"><head>14. Sesja</head>
 <p>
 W parę dni obie panny otrzymały wezwanie, ażeby w sobotę przyszły na tygodniową sesję do domu pani Zetnickiej, właścicielki magazynu ubiorów damskich. W sobotę zaś z rana do Madzi przyszedł list z Iksinowa dziwnie odpowiadający chwili i sytuacji.</p>
 <p>
@@ -2267,8 +2255,7 @@ Dajże mi twego rozkosznego buziaka i… pamiętaj o moich radach!…</p>
 <p>
 To powiedziawszy dama do towarzystwa wymknęła się z pokoju w sposób równie tajemniczy, jak do niego weszła.</p>
 </div>
-<div>
-<p>15. Odgłosy z innego świata</p>
+<div type="chapter"><head>15. Odgłosy z innego świata</head>
 <p>
 Proszę pani, przyszła pani Arnold.</p>
 <p>— Dawno?</p>
@@ -2364,8 +2351,7 @@ Gdy tak myślała, stanął jej w pamięci pan Stefan prawie piękny mimo swej b
 <p>
 Cicho westchnęła i usiłowała nie myśleć o panu Stefanie. Cóż ją obchodził pan Stefan? Szanuje go, podziwia i na tym koniec. Ale jaki on szlachetny, jaki wspaniały w swoich porywach, a jaki dobry, gdy hamuje się, ażeby nie umizgać się do Madzi, która jest przecie gościem jego siostry. Nie dziw, że arystokratyczne panny rade by go odciągnąć od Heleny. Ale on musi zostać mężem Heleny… Niczyim, tylko Heleny, na przekór wszystkim pannom z towarzystwa… Ona przecież także arystokratka z upodobań, z postawy, a nade wszystko z piękności. Któraż jej dorówna, choćby najbardziej utytułowana?</p>
 </div>
-<div>
-<p>16. Pan Zgierski wchodzi</p>
+<div type="chapter"><head>16. Pan Zgierski wchodzi</head>
 <p>
 W kilka dni na rogu ulicy Marszałkowskiej i Królewskiej z ciężkiego szafirowego tramwaju wyskoczył pan Zgierski i jak duża piłka zatoczył się prawie pod nogi Madzi. Kłaniał się szeroko, ocierał pot z łysiny i mówił:</p>
 <p>— Jakie szczęście, że panią tu spotykam!… Już nawet chciałem złożyć pani w jej mieszkaniu najgłębsze uszanowanie… Czy nie idzie pani przez Saski Ogród?…</p>
@@ -2516,8 +2502,7 @@ Kręcił się jeszcze po pokoju i wyszedł chmurny.</p>
 <p>— Cóż znowu?… Tylko widać przyszedł mu na myśl jego stosunek z Heleną i zasępił go. Ale to minie — odparła Ada.</p>
 <p>— Jaki on dobry… jaki on szlachetny… jaki on święty!… — mówiła Madzia tuląc głowę na ramieniu Ady.</p>
 </div>
-<div>
-<p>17. Brat i siostra</p>
+<div type="chapter"><head>17. Brat i siostra</head>
 <p>W domu Arnoldów panna Helena zajmowała duży, wesoły pokój urządzony jak niegdyś u matki. W oknach wisiały te same firanki, u sufitu ta sama lampa z niebieskim kloszem, na podłodze stały te same sprzęty i sprzęciki, między którymi najokazalej wyglądało lustro cieszące się największą sympatią właścicielki.</p>
 <p>
 Na schyłku kwietnia po południu w pokoju tym znajdowała się panna Helena z bratem. Ona, posępna, siedziała na niebieskiej kanapce przypatrując się swemu bucikowi, pan Kazimierz chodził rozgorączkowany.</p>
@@ -2683,8 +2668,7 @@ Kochana pani Latter gdyby mogła widzieć ich radość, niezawodnie powiedziała
 <p>
 Tu urwał się dalszy bieg myśli. Zabrakło jej odwagi do zastanawiania się nad przyszłym szczęściem pana Stefana.</p>
 </div>
-<div>
-<p>18. Co zrobił spirytyzm, a co ateizm?</p>
+<div type="chapter"><head>18. Co zrobił spirytyzm, a co ateizm?</head>
 <p>
 W końcu kwietnia państwo Arnoldowie zaprosili Solskich i Madzię na wieczór mający odbyć się w rocznicę ich ślubu. Oznajmili, że zgromadzi się nieliczne kółko znajomych, między którymi i znajdował się profesor Dębicki.</p>
 <p>
@@ -2967,8 +2951,7 @@ A potem oprzytomniawszy dodała prędko:</p>
 <p>
 Była w tej chwili pod wpływem zupełnego sceptycyzmu, a raczej — wierzyła w świeżo upieczony dogmat, że duch ludzki jest produktem tłuszczu, fosforu, żelaza…</p>
 </div>
-<div>
-<p>19. Bogacz, który szukał pracy</p>
+<div type="chapter"><head>19. Bogacz, który szukał pracy</head>
 <p>Gdy Stefan Solski był dzieckiem, dom jego rodziców odznaczał się pewną oryginalnością. Niekiedy we wszystkich pokojach i salonach głównego korpusu tudzież prawego i lewego skrzydła otwierały się drzwi na oścież, a zdziwiony gość słyszał odległy, lecz szybko zbliżający się tętent, następnie spostrzegał zadyszanego chłopczyka, który przebiegał salon jak źrebak. Po chwili znowu było słychać zbliżający się tętent, ale ze strony przeciwnej. Znowu otwartymi drzwiami wpadał chłopczyk, biegł nie zważając na gościa i niknął za drugimi drzwiami, gdzie stopniowo uciszały się jego kroki, ażeby znowu odezwać się w tym samym co pierwej porządku.</p>
 <p>
 Wówczas ojciec, a najczęściej matka, zarumieniona, ze spuszczonymi oczyma, mówiła do gości:</p>
@@ -3132,8 +3115,7 @@ Sam Solski miewał rozmaite wątpliwości i dużą skłonność do pesymizmu. Al
 <p>
 Spokojny, wiecznie roztargniony matematyk stworzył sobie jakiś system filozoficzny. Ale dotychczas rozmawiał o nim tylko z Solskim, i to bardzo oględnie.</p>
 </div>
-<div>
-<p>20. Małe fundamenta dużych celów</p>
+<div type="chapter"><head>20. Małe fundamenta dużych celów</head>
 <p>W tej epoce Solski miał prawo nazywać się szczęśliwym. Gdyby ów angielski filozof, któremu w Londynie złożył niefortunną wizytę, zapytał go dzisiaj: „Co pan robisz?”, Solski odpowiedziałby z dumą: „Buduję cukrownię, którą będę prowadził sam”.</p>
 <p>
 Solski z lekceważącym uśmiechem przypomniał sobie czasy, kiedy ziewając odbywał awanturnicze podróże bez celu albo kiedy pod wpływem nagłego wstydu, że nic nie robi, chciał zostać tragarzem w londyńskich dokach, lub kiedy gotów był prosić pierwszego lepszego fabrykanta o przyjęcie go do spółki.</p>
@@ -3214,8 +3196,7 @@ Później uspokoił się. Znowu bowiem, nie wiadomo dlaczego, przyszło mu na my
 <p>
 Solski zaczął odgadywać w sobie brak zdolności, która by zbliżała go do ludzi. Zaczął rozumieć, że on sam jest istotą niekompletną i że Madzia w wysokim stopniu posiada te przymioty, których jemu nie dostaje. Wiedział, że tu chodzi o sferę uczucia, ale jeszcze nie zdawał sobie jasno sprawy, co to jest.</p>
 </div>
-<div>
-<p>21. Cukrownia widziana z góry</p>
+<div type="chapter"><head>21. Cukrownia widziana z góry</head>
 <p>
 Pewnego wieczora Solski z Dębickim przyszedł do siostry na herbatę. Czas był pogodny, więc usiedli na dużym balkonie, wychodzącym na ogród. Ada z zapałem mówiła o jasnowidzeniach pani Arnoldowej i o własnych postępach w spirytyzmie, już bowiem duchy zaczęły rozmawiać z nią za pomocą abecadła i ekierki przytrzymywanej ręką. Z nie mniejszym ogniem Madzia opowiadała o ostatniej sesji kobiecego towarzystwa, na której panna Howard zaprojektowała zbudowanie wielkiego domu dla samotnych kobiet.</p>
 <p>— Ciekawam, skąd wezmą na to pieniędzy — odpowiedziała Ada. — Bo mnie już nudzą projekta, na wykonanie których trzeba milionów…</p>
@@ -3302,8 +3283,7 @@ Pożegnał obecnych i wyszedł. Z progu jeszcze odezwał się:</p>
 <p>— Tylko, profesorze, nie zbałamuć mi siostry i… panny Magdaleny.</p>
 <p>— Złoty, kochany profesorze! — zawołała Ada ściskając obie ręce Dębickiemu. — Znowu ożywiłeś Stefka…</p>
 </div>
-<div>
-<p>22. <emph>Spiritus fiat, ubi vult</emph></p>
+<div type="chapter"><head>22. <emph>Spiritus fiat, ubi vult</emph></head>
 <p>
 Każdemu człowiekowi zdarza się podczas zimowego dnia patrzeć na zapotniałe szyby. W widoku tym nie ma nic, na czym warto by zatrzymać uwagę: jest przezroczysta tafla, która dzięki parze wygląda jak muślin, a zresztą nic do zapamiętania, nic, co by poruszyło ciekawość.</p>
 <p>Wtem na dworze wionął wiatr chłodniejszy, temperatura spada o kilka stopni i — spotniała szyba zmienia się w jednej chwili. Muślin wilgoci zaczyna pokrywać się bogatym haftem, przedstawiającym liście dziwnych roślin albo pióra nieznanych ptaków; z mgły powstaje wyrazistość, z jednostajności rozmaitość i formy.</p>
@@ -3372,8 +3352,7 @@ Potem zrobiło jej się żal Ady, która mogłaby sądzić, że Madzia porzuca j
 <p>
 „To nie mój świat… nie mój… nie mój!… Trzeba stąd uciekać…” — myślała Madzia patrząc, że już świta na dworze.</p>
 </div>
-<div>
-<p>23. Znowu echo przeszłości</p>
+<div type="chapter"><head>23. Znowu echo przeszłości</head>
 <p>
 Od kilku dni Ada Solska spostrzegła w bracie niepokój.</p>
 <p>
@@ -3498,8 +3477,7 @@ W godzinę później przy obiedzie, na którym nie pokazał się Solski, ciotka 
 <p>
 „Pani Gabriela — myślała przestraszona Madzia — zapewne ma już kogoś na posadę lekarza cukrowni i obraziła się na mnie… Ale niech tam, byle im, biedakom, co z tego przyszło!… W każdym razie za długo tu mieszkam… Wkrótce cały świat zechce, ażebym prosiła Solskiego o posady, i w końcu obrzydnę mu tak, jak już dziś jego ciotce… Trzeba stąd uciekać czym prędzej…”.</p>
 </div>
-<div>
-<p>24. Student, który już został lekarzem</p>
+<div type="chapter"><head>24. Student, który już został lekarzem</head>
 <p>Tymczasem Solski, wysławszy naglące wezwanie do Kotowskiego, z niecierpliwością oczekiwał młodego lekarza.</p>
 <p>
 Około siódmej zameldowano go.</p>
@@ -3605,8 +3583,7 @@ Nagle zbudził się w niej gniew na samą siebie i wyrzucała sobie, że jest ni
 <p>
 Cały świat stracił w jej oczach dotychczasowe znaczenie; wszystko w nim było tylko tłuszczem, fosforem i żelazem; wszędzie poczęła dopatrywać oznak trupiej zgnilizny…</p>
 </div>
-<div>
-<p>25. Niebezpieczne strony wdzięczności</p>
+<div type="chapter"><head>25. Niebezpieczne strony wdzięczności</head>
 <p>Nazajutrz na pensji około pierwszej przełożona wezwała Madzię do kancelarii. Tam, obok uśmiechniętej panny Malinowskiej, stała płacząca Mania Lewińska, która na widok Madzi złożyła ręce i — upadła jej do nóg łkając:</p>
 <p>— Ach, Madziu… ach, pani… tyle łaski!… Władek będzie miał ogród… dom murowany i tysiąc pięćset rubli… Niech panią Bóg błogosławi…</p>
 <p>
@@ -3761,8 +3738,7 @@ Lecz gdy jakaś pensjonarka roześmiała się głośniej albo który profesor od
 <p>
 Była w takim nastroju czy rozstroju, że zatruwały jej spokój nie tylko stosunki z żywymi ludźmi, ale nawet filozoficzne rozumowania Dębickiego, jedynego człowieka, któremu ufała i którego wzniosłe poglądy rozświetlały jej duszę.</p>
 </div>
-<div>
-<p>26. Letni wieczór</p>
+<div type="chapter"><head>26. Letni wieczór</head>
 <p>
 W początkach czerwca Ada zaprosiła na wieczór Dębickiego, ażeby porozmawiać z nim o świecie duchów. Przyszedł i pan Stefan spokojniejszy aniżeli w ciągu ostatnich dni i we troje usiedli na balkonie. Madzi spodziewano się, miała bowiem wrócić z sesji towarzystwa kobiet.</p>
 <p>
@@ -3929,8 +3905,7 @@ Kiedy pożegnawszy się z towarzystwem przeszła do swojej sypialni, czuła pod 
 <p>
 „Po cóż było wszystko to wydobywać z nicości!…” — pomyślała.</p>
 </div>
-<div>
-<p>27. Czego potrzeba do zerwania stosunków?</p>
+<div type="chapter"><head>27. Czego potrzeba do zerwania stosunków?</head>
 <p>
 Jak młode drzewo co roku wypuszcza gałązkę, która z biegiem lat staje się konarem i rodzi nowe gałązki, tak z młodej duszy co pewien czas wytryska nowa siła i staje się źródłem mnóstwa uczuć, uzdolnień i czynów. A jak na podciętym konarze usychają kwiaty i liście, tak w chorej duszy gorzknieją uczucia, słabnie energia i myśl rozwija się chaotycznie.</p>
 <p>
@@ -4282,8 +4257,7 @@ I tak dalej prawiła staruszka, ale Ada nie słuchała. Z goryczą myślała, ż
 <p>
 „Jak ona go musi kochać…” — powtarzała w duchu.</p>
 </div>
-<div>
-<p>28. Co robi mędrzec, a co plotkarz?</p>
+<div type="chapter"><head>28. Co robi mędrzec, a co plotkarz?</head>
 <p>
 W ciągu tygodnia Solski wrócił ze wsi. Służba zebrała się na powitanie w przedsionku, kamerdyner wprowadził pana do pokojów.</p>
 <p>
@@ -4508,8 +4482,7 @@ Nazajutrz poszedł do mieszkania siostry zmizerowany, ale i zdecydowany.</p>
 W parę dni później, a we dwa tygodnie po wyprowadzeniu się Madzi, pałac Solskich opustoszał. Ada z ciotką Gabrielą tudzież z kolekcją mchów i porostów przeniosła się na wieś, a pan Stefan wyjechał za granicę.</p>
 <p>Służba odetchnęła. W ostatnich dniach życie w pałacu było nieznośne. Państwo prawie nie widywali się ze sobą, a pan tak był rozdrażniony, że nawet stary kamerdyner drżał na jego widok.</p>
 </div>
-<div>
-<p>29. W nowym gnieździe</p>
+<div type="chapter"><head>29. W nowym gnieździe</head>
 <p>
 W pewnym domu przy ulicy drugorzędnej, ale ruchliwej, bezdzietna wdowa, pani Burakowska, utrzymywała rodzaj pensjonatu dla kobiet. Zajęła połowę trzeciego piętra, na którym znajdowało się jedno większe mieszkanie złożone z kilku pokojów i kuchni tudzież kilku pokoików z osobnymi wejściami.</p>
 <p>
@@ -4734,8 +4707,7 @@ A Madzia wciąż myślała:</p>
 <p>
 „Więc takimi są wielcy panowie? Ażeby zemścić się nad jedną kobietą, oświadczają się drugiej?… I ja przy panu Solskim odegrywałabym taką rolę jak przy Helence Korkowicz?…”.</p>
 </div>
-<div>
-<p>30. Pan Kazimierz</p>
+<div type="chapter"><head>30. Pan Kazimierz</head>
 <p>
 Znowu upłynęło kilka dni. Na pensji zaczęły się wakacje; panna Malinowska wyjechała na wieś. Madzia dostawszy obiecane lekcje u osób prywatnych biegała z domu do domu, na szczęście niezbyt daleko od swego mieszkania. Przed obiadem miała zajęcie od godziny dziewiątej do drugiej; potem od godziny czwartej do piątej przychodziła do niej siostrzenica Dębickiego. Przez resztę czasu była swobodna i samotna. Prawie nikt jej nie odwiedzał. Tylko raz późnym wieczorem wpadła do niej wystraszona Mania Lewińska, ażeby dowiedzieć się, czy Solski utrzyma pana Kotowskiego na posadzie lekarza, czy może da dymisję…</p>
 <p>— Byłby to straszny cios — mówiła Mania Lewińska. — Bo gdyby pan Kotowski został na posadzie lekarza fabrycznego, pobraliby się w jesieni, lecz gdyby stracił to doskonałe miejsce, musieliby wszyscy zginąć. Mielnickiemu dłużnicy wcale nie płacą procentów, ona z powodu wakacyj nie ma żadnego zajęcia, a cały ich dom przez parę miesięcy musi żyć z pensji pana Kotowskiego. Gdyby więc ta pensja przepadła!… Rozumiesz, Madziu, co by się z nami stało!… — zakończyła z westchnieniem Mania Lewińska.</p>
@@ -4939,8 +4911,7 @@ Gdy wyszedł, Madzia czuła tylko zmęczenie całodziennymi lekcjami i rodzaj ż
 <p>
 „W każdym razie — myślała — już wie, że mu zastąpię siostrę i matkę… Siostrę on sam we mnie odgadł, a matkę przypomniałam mu”.</p>
 </div>
-<div>
-<p>31. Znowu echa przeszłości</p>
+<div type="chapter"><head>31. Znowu echa przeszłości</head>
 <p>Kilka dni upłynęło Madzi spokojnie: nikt jej nie odwiedzał, oswoiła się z nowymi uczennicami, hałasy w domu przestały ją razić. Te same osoby, te same swędy, ten sam turkot na ulicy, a w obszernym pokoju warczenie maszyny do szycia tak już opanowały Madzię, że robiły wrażenie ciszy.</p>
 <p>Mogła zebrać myśli, wejrzeć w siebie. I gdy podczas samotnych wieczorów rozpatrywała siebie, spostrzegła, że z chaosu zmian, osób i uczuć, jakie ją napełniły, wynurza się coś, niby na dalekim horyzoncie blade światło.</p>
 <p>
@@ -5241,8 +5212,7 @@ Pan Zgierski chwilę postał, popatrzył za odjeżdżającą i — zawrócił w 
 <p>
 Lubił być dokładnie informowanym nawet w drobiazgach.</p>
 </div>
-<div>
-<p>32. Spacer</p>
+<div type="chapter"><head>32. Spacer</head>
 <p>
 Po kilkunastominutowej podróży, która wydawała się Madzi nieskończoną, dorożka zaczęła zjeżdżać na dół Tamki. Minęli gmach Konserwatorium i zatrzymali się naprzeciw krótkiej uliczki zakończonej bramą, na szczycie której wznosił się żelazny krzyżyk.</p>
 <p>— Tu — rzekł dorożkarz.</p>
@@ -5601,8 +5571,7 @@ Pan Kazimierz postał chwilę. Wreszcie ukłonił się i wyszedł.</p>
 <p>
 Patrzyła na drzwi i śmiała się cicho. Nie z pana Kazimierza, ale z tego, że czuła się inną, zupełnie inną osobą. Dawnej Madzi, pełnej radości, różowo patrzącej na świat — już nie było.</p>
 </div>
-<div>
-<p>33. Pan Kazimierz zostaje bohaterem</p>
+<div type="chapter"><head>33. Pan Kazimierz zostaje bohaterem</head>
 <p>
 Pan Kazimierz, długi czas dziecko szczęścia, od paru miesięcy zaczął doznawać niepowodzeń. Panna Ada Solska była na niego obrażona, pan Stefan Solski okazywał mu wzgardę; w salonach przyjmowano go chłodno, wykwintni przyjaciele odsuwali się od niego, ludzie wpływowi już nie ofiarowywali mu świetnych posad. Nareszcie jego kredyt zachwiał się tak, że nawet lichwiarze zaczęli mu odmawiać większych pożyczek.</p>
 <p>Wszystkie te gorycze życia pan Kazimierz przypisywał niegodziwości siostry, Heleny, która zamiast oddać rękę Solskiemu, kokietowała mężczyzn na prawo i na lewo i wyszła za mąż za Bronisława Korkowicza, piwowarczyka!…</p>
@@ -5894,8 +5863,7 @@ Felczer wyszedł, a panu Kazimierzowi zdawało się, że zbyt długo nie wraca. 
 <p>
 To była Ada Solska.</p>
 </div>
-<div>
-<p>34. Odsłania się nowy horyzont</p>
+<div type="chapter"><head>34. Odsłania się nowy horyzont</head>
 <p>
 Spacer w Ogrodzie Botanicznym przekonał Madzię, że pan Kazimierz potrafi być niesmacznym i że ona nigdy naprawdę nie kochała syna swej przełożonej.</p>
 <p>
@@ -6141,8 +6109,7 @@ W tym punkcie mowy Dębickiego Madzia zaczęła się śmiać tak serdecznie, że
 <p>
 Madzia dała brawo profesorowi i znowu zaczęła się śmiać, jej zaś towarzysz pomagał jej, jak umiał, minami, które miały oznaczać gwałtowny wybuch ukontentowania, a właściwie nie oznaczały nic.</p>
 </div>
-<div>
-<p>35. Mrok i światło</p>
+<div type="chapter"><head>35. Mrok i światło</head>
 <p>
 W chwili kiedy zarumienionej ze śmiechu Madzi oczy napełniły się łzami, a uczony matematyk robił takie grymasy jak ścięta głowa pod wpływem prądu elektrycznego, drzwi pokoiku otworzyły się i na progu stanął dziwny człowiek.</p>
 <p>
@@ -6370,8 +6337,7 @@ Trochę kaszlał, trochę czuł się znużonym, lecz Madzi to nie dziwiło.</p>
 <p>
 „Jest lepiej, aniżeli myślałam w pierwszej chwili” — powiedziała sobie.</p>
 </div>
-<div>
-<p>36. ***</p>
+<div type="chapter"><head>36. ***</head>
 <p>
 Około dziesiątej z rana Zdzisław z porady Madzi przebrał się od stóp do głów w świeżą bieliznę i nowe ubranie. To wprowadziło go w tak doskonały humor, że zaczął nucić chrapliwym głosem, oświadczył, że ma wilczy apetyt, i kazał podać na śniadanie herbaty, jaj tudzież surowej szynki.</p>
 <p>
@@ -6550,8 +6516,7 @@ Brzeskiemu błyszczały oczy i wystąpiły na twarz wypieki. Dębicki siedział 
 <p>Przeciwnie, jest mi lepiej!… — odparł Zdzisław z uśmiechem — daleko lepiej!… Ale zmęczyłem się. Otwierasz pan nowy wszechświat; ale tak różny od tego, który znam, tak przytłaczający swoją fantastycznością, że… mąci mi się w głowie…</p>
 <p>— Rozumiem… — rzekł Dębicki krzywiąc się. — Tyle się pan naczytałeś o swoich farbach, olejach, komórkach i atomach, że nie miałeś czasu na kwestie filozoficzne. Więc i męczysz się pan jak człowiek, który pierwszy raz wsiadł na konia.</p>
 </div>
-<div>
-<p>37. ***</p>
+<div type="chapter"><head>37. ***</head>
 <p>
 Oboje Brzescy uprosili Dębickiego, ażeby zjadł z nimi obiad. Zgodził się pod warunkiem, że pozwolą mu zajrzeć do domu, do Zosi.</p>
 <p>W godzinę był z powrotem. Jedli obiad w numerze we troje, a przez ten czas Zdzisław z doskonałym humorem opowiadał im o swojej karierze przemysłowej, na której mógł zrobić duży majątek i zabezpieczyć przyszłość rodzicom i siostrom.</p>
@@ -6692,8 +6657,7 @@ Ponieważ Brzeski niekiedy chwytał się za głowę, więc profesor przerwał i 
 <p>— Ale jutro wstąpi pan do nas? — zapytała Madzia błagalnym tonem.</p>
 <p>— Owszem — odparł, już stojąc we drzwiach.</p>
 </div>
-<div>
-<p>38. ***</p>
+<div type="chapter"><head>38. ***</head>
 <p>
 Drugą noc Zdzisław przespał w łóżku, a Madzia na fotelu. Dopiero o piątej zbudził ją kaszel brata. Przybiegła do niego i spojrzała; był spotniały, miał błyszczące oczy i wypieki na twarzy.</p>
 <p>— Gorzej ci?… — spytała przestraszona Madzia.</p>
@@ -6843,8 +6807,7 @@ Czymże jest śmierć wobec Niego i czy można przypuszczać, ażeby w państwac
 <p>— A teraz bałbyś się śmierci?… — szepnęła siostra biorąc go za rękę.</p>
 <p>— Nie. Pomyślałbym o wielkości Boga i rzekłbym: nie wiem, co ze mną zrobisz, Panie, ale cokolwiek zrobisz, będzie lepszym od moich teoryj.</p>
 </div>
-<div>
-<p>39. Odjazd</p>
+<div type="chapter"><head>39. Odjazd</head>
 <p>
 Po obiedzie, na którym był profesor, Brzeski oświadczył, że wyjeżdża wieczorem, i prosił siostrę, ażeby kupiła mu kilka sztuk bielizny.</p>
 <p>Usłyszawszy to Madzia spojrzała na brata wzrokiem pytającym, a tak smutnym, że Dębickiemu żal jej się zrobiło. Ale Zdzisław sposępniał, odwrócił się od siostry i zaczął wyglądać oknem na Saski Plac.</p>
@@ -7050,8 +7013,7 @@ Nagle podniosła głowę, przypomniała sobie matkę Apolonię i od razu zmieni�
 <p>
 Istotnie, co mogło być lepszego nad zamiar przepędzenia wolnych chwil w ogrodzie szarytek? Obiad i nocleg ma w domu, a resztę czasu przesiedzi na świeżym powietrzu, wśród ciszy. Chyba tego nie odmówi jej matka Apolonia, a za kilka dni — wezwie ją brat.</p>
 </div>
-<div>
-<p>40. Oczekiwanie</p>
+<div type="chapter"><head>40. Oczekiwanie</head>
 <p>
 Madzia nazajutrz poszła do Św. Kazimierza, gdzie matka Apolonia powitała ją wykrzyknikiem:</p>
 <p>— Jak ty wyglądasz, moje dziecko?… Musisz być chora…</p>
@@ -7320,8 +7282,7 @@ Madzia poszła za siostrą, odurzona, pełna niebiańskich widzeń. Nagle oprzyt
 Madzia spojrzała na niego, na staruszkę zakonnicę i parę razy potarła czoło. A gdy Dębicki drżącą ręką powoli zaczął wydobywać jakiś papier z kieszeni, Madzia powstrzymała go i rzekła:</p>
 <p>— Wiem, Zdzisław nie żyje.</p>
 </div>
-<div>
-<p>41. Na jakie brzegi niekiedy wyrzucają fale świata?</p>
+<div type="chapter"><head>41. Na jakie brzegi niekiedy wyrzucają fale świata?</head>
 <p>
 W połowie września, około siódmej wieczór, od tłumu przechodniów, którzy mijali pałac Solskich, oderwał się niewysoki jegomość w szarym paltocie i skręcił na dziedziniec.</p>
 <p>

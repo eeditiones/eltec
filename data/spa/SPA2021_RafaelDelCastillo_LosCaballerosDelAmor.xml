@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2021" xml:lang="SPA">  
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2021" xml:lang="es">  
 		<teiHeader>
 			<fileDesc>
 				<titleStmt>
@@ -20,10 +23,10 @@
 				</extent>
            		<publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -62,6 +65,7 @@
 				</textDesc>
 			</profileDesc>
 			<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 				<change when="2019-01-18"> Anotación formato ELTeC: Judit Martínez Climent </change>
 				<change when="2019-04-18"> Revisión y corrección de la anotación ELTeC: Borja Navarro Colorado</change> 
@@ -11645,7 +11649,7 @@
 						momento de comenzar la lucha contra los manjares que sucesivamente
 						se le fueran presentando.</p> 
 						 <p>Terminada la comida, que fue suculenta,
-						quedóse el buen <foreign xml:lang="lat"> pater </foreign> dormitando en su sitial. Según
+						quedóse el buen <foreign xml:lang="LAT"> pater </foreign> dormitando en su sitial. Según
 						solía, duró la siesta una hora larga, y al
 						despertarse se levantó, despidióse echando
 						su paternal bendición a los criados que danzaban a
@@ -58850,7 +58854,7 @@
 						 <p>Y cogiendo también el cuaderno
 						que antes leía y había quedado sobre la mesa,
 						precedió a don Luis a otra habitación contigua.</p>
-						 <p>Aquella pieza se conoce que era el <foreign xml:lang="lat"> sancta sanctorum </foreign> de la
+						 <p>Aquella pieza se conoce que era el <foreign xml:lang="LAT"> sancta sanctorum </foreign> de la
 						casa.</p> 
 						 <p>Era el dormitorio de la dueña.</p> 
 						 <p>Perfectamente

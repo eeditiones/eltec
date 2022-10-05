@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml"
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="FRA07101" xml:lang="fr">
   <teiHeader>
@@ -27,44 +27,37 @@
         <measure unit="words">42483</measure>
       </extent>
       <publicationStmt>
-        <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-        <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
-        <date when="2020-11-14" />
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/" />
-        </availability>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
-        <ref type="doi" target="https://doi.org/10.5281/zenodo.4264647">ELTeC-fra release 1.0.0</ref>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462535">ELTeC-fra</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662433">ELTeC-fra release 1.0.1</ref>
+</publicationStmt>
+      <sourceDesc><bibl type="digitalSource">
           <title>Élise, ou l'éducation particulière</title>
           <author>Adèle Blondel</author>
-          <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5625757r" />
+          <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5625757r"/>
           <publisher>BnF</publisher>
           <date>2009</date>
-        </bibl>
-        <bibl type="printSource">
+        </bibl><bibl type="printSource">
           <title>Élise, ou l'éducation particulière</title>
           <author>Adèle Blondel</author>
           <publisher>Mégard</publisher>
           <pubPlace>Rouen</pubPlace>
           <date>1856</date>
-        </bibl>
-        <bibl type="firstEdition">
+        </bibl><bibl type="firstEdition">
           <title>Élise, ou l'éducation particulière</title>
           <author>Adèle Blondel</author>
           <publisher>Mégard</publisher>
           <pubPlace>Rouen</pubPlace>
           <date>1856</date>
-          <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5625757r"></ref>
-        </bibl>
-      </sourceDesc>
+          <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5625757r"/>
+        </bibl></sourceDesc>
     </fileDesc>
     <encodingDesc n="eltec-1">
-      <p />
+      <p/>
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -76,13 +69,14 @@
         </keywords>
       </textClass>
       <textDesc>
-        <authorGender xmlns="http://distantreading.net/eltec/ns" key="F" />
-        <size xmlns="http://distantreading.net/eltec/ns" key="short" />
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low" />
-        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1" />
+        <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
+        <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+        <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
       </textDesc>
     </profileDesc>
     <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
       <change when="2020-11-14">Converted by checkUp script for new release</change>
       <change when="2020-11-14">Checked by checkup script</change>
       <change when="2020-09-21">File created</change>
@@ -115,11 +109,11 @@
         <p>– Mon papa, dit-elle, permettez-moi d'aller maintenant dans ma chambre pour préparer... </p>
         <p>Elle ne put en dire davantage et sortit en mettant son mouchoir sur ses yeux. La cause de cette grande émotion était bien naturelle, car la jeune personne devait partir le lendemain matin pour aller à Tours. C'était la première fois de sa vie qu'elle s'éloignait de ses parents, et elle devait être longtemps sans les revoir. </p>
         <p>A peine Elise fut-elle sortie de l'appartement que Mme Derville donna un libre cours à ses larmes, et s'adressant à son mari : </p>
-        <p>– Est-il bien possible que tu me sépares ainsi de ma fille ? s'écria-t-elle avec des sanglots. Non, je ne puis le croire. Prends pitié de ma douleur ; je sens que je ne pourrai supporter l'absence de mon enfant...Mais il en est temps encore, mon ami, je t'en conjure, ah ! laisse-la près de moi ! </p>
+        <p>– Est-il bien possible que tu me sépares ainsi de ma fille ? s'écria-t-elle avec des sanglots. Non, je ne puis le croire. Prends pitié de ma douleur ; je sens que je ne pourrai supporter l'absence de mon enfant... Mais il en est temps encore, mon ami, je t'en conjure, ah ! laisse-la près de moi ! </p>
         <p>M. DERVILLE. --- L'excès de ton chagrin m'afflige, beaucoup, Augustine, d'autant plus que je ne puis y remédier ; tu sais que j'ai donné ma parole, c'est une affaire arrangée. Modère-toi, je t'en supplie. </p>
         <p>Mme AUBERTON. --- Allons, ma fille, rappelez votre courage. Au lieu de vous désoler ainsi, ne devriez-vous pas au contraire bénir la Providence ? Cet événement est vraiment une faveur du ciel. Notre chère enfant, à l'âge de dix-neuf ans, trouve à faire une éducation particulière dans une famille opulente et distinguée ; elle aura quinze cents francs d'appointements et viendra à Paris tous les hivers. N'y a-t-il pas là de quoi se réjouir et rendre grâces à Dieu ? </p>
         <p>Mme DERVILLE. --- Rendre grâces à Dieu, sans doute ; mais me réjouir lorsque ma fille nous quitte ! oh ! ma mère, cela m'est impossible. </p>
-        <p>M. DERVILLE. --- Crois-tu, ma bonne amie, que je sois moins que toi sensible au départ de notre enfant ?...Permets-moi de te le dire ; ton amour maternel est en ce moment un peu égoïste, tu ne penses qu'à jouir des soins et des caresses de ta fille. Moi, je l'aime d'un amour plus prévoyant et plus désintéressé ; je n'hésite pas à me priver de sa présence pendant quelques années, pour lui assurer un bel avenir. </p>
+        <p>M. DERVILLE. --- Crois-tu, ma bonne amie, que je sois moins que toi sensible au départ de notre enfant ?... Permets-moi de te le dire ; ton amour maternel est en ce moment un peu égoïste, tu ne penses qu'à jouir des soins et des caresses de ta fille. Moi, je l'aime d'un amour plus prévoyant et plus désintéressé ; je n'hésite pas à me priver de sa présence pendant quelques années, pour lui assurer un bel avenir. </p>
         <p>MmeDERVILLE. --- Il est vrai, mon ami, le courage me manque absolument. Hier, je me croyais forte, mais au moment de ce cruel départ j'éprouve un si violent chagrin que je crains bien de ne pouvoir y résister. </p>
         <p>MmeAUBERTON. --- Soyez généreuse, ma fille, Dieu vous donnera la force de faire ce sacrifice. Pour vous y encourager, faites encore une réflexion. J'ai remarqué depuis longtemps que notre chère Elise possède les qualités essentielles d'une bonne institutrice ; elle a des talents supérieurs, un caractère à la fois doux et ferme, une patience que les difficultés ne rebutent jamais ; de plus elle a pour l'enseignement un attrait particulier, car lorsqu'elle était en pension, son plus grand plaisir était de se faire la maîtresse d'étude de ses compagnes les moins avancées. </p>
         <p>Mme DERVILLE. --- J'avoue que cette dernière considération est bien puissante sur moi. Oui, ma fille a un goût décidé pour cet état si noble et si honorable ; elle doit y trouver autant de succès que de bonheur. Mais pour moi, quel sacrifice ! ô ma mère ! ô ma fille !... Il le faut donc ? pardonnez à ma faiblesse : oui, c'en est fait, je me résigne ; je croirais m'opposer aux desseins de la Providence en refusant pour Elise cette position avantageuse qui s'est offerte à nous, sans que nous l'eussions aucunement cherchée, et par une permission vraiment divine. </p>
@@ -156,7 +150,7 @@
         <p>Elise était en pension depuis six mois. Ses parents parlaient de l'en retirer pour lui donner une éducation plus simple en l'envoyant dans un externat peu éloigné de leur demeure. </p>
         <p>– C'est à regret que je prends ce parti, disait M. Derville à sa femme. Elise a des dispositions surprenantes pour les arts d'agrément ; il faut y renoncer, puisque notre position actuelle ne nous permet pas de faire cette dépense. </p>
         <p>– Que dites-vous, mon gendre ? s'écria vivement Mme Auberton, ne suis-je pas aussi la mère de votre enfant ? Non, assurément, je ne veux pas que vous la reliriez de sa pension. Cela me regarde et j'en fais mon affaire. </p>
-        <p>– Ah ! chère bonne maman, que je vous remercie ! s'écria Elise en sautant au cou de Mme Auberton.M. et Mme Derville, profondément émus, baisaient les mains de leur chère bienfaitrice en versant des larmes de reconnaissance. M. Derville se hâta de chercher un emploi. Bientôt il eut trouvé une place de teneur de livres dans une riche maison de commerce, et fut à même de pourvoir aux besoins de sa famille. Mme Derville, plus économe que jamais, renvoya sa domestique et se livra à tous les travaux du ménage, bien que depuis son enfance elle eût toujours été accoutumée à se faire servir. Son amour pour sa fille et pour son mari lui donna le courage dont elle avait besoin pour remplir les nouveaux devoirs qu'elle s'était imposés. Tout son bonheur était dans sa famille. Elise venait deux fois par mois goûter les douceurs de la maison paternelle, et ces jours-là furent pour tous des jours de fête. </p>
+        <p>– Ah ! chère bonne maman, que je vous remercie ! s'écria Elise en sautant au cou de Mme Auberton. M. et Mme Derville, profondément émus, baisaient les mains de leur chère bienfaitrice en versant des larmes de reconnaissance. M. Derville se hâta de chercher un emploi. Bientôt il eut trouvé une place de teneur de livres dans une riche maison de commerce, et fut à même de pourvoir aux besoins de sa famille. Mme Derville, plus économe que jamais, renvoya sa domestique et se livra à tous les travaux du ménage, bien que depuis son enfance elle eût toujours été accoutumée à se faire servir. Son amour pour sa fille et pour son mari lui donna le courage dont elle avait besoin pour remplir les nouveaux devoirs qu'elle s'était imposés. Tout son bonheur était dans sa famille. Elise venait deux fois par mois goûter les douceurs de la maison paternelle, et ces jours-là furent pour tous des jours de fête. </p>
       </div>
       <div type="chapter">
 
@@ -289,7 +283,7 @@
         <p>– Et pourquoi cela, madame ? </p>
         <p>– Je vais tout vous dire, vous en jugerez vous-même. Laure a eu déjà, quatre institutrices et elle ne sait presque rien ; cependant elle est douée de beaucoup d'intelligence. Elle avait six ans lorsque mon mari pensa qu'il était temps de commencer son instruction. Sa première gouvernante fut une très-jeune personne, Mlle Rosalie B..., vive, enjouée, d'une figure agréable et d'un bon caractère ; elle plut beaucoup à ma fille ; elle jouait avec elle comme une enfant ; cela me charmait. Au bout de six mois, je découvris que celte demoiselle aimait beaucoup le monde et les plaisirs. Elle était excessivement recherchée dans sa toilette. Plus d'une fois je la surpris devant ma psyché, essayant de nouveaux pas de danse qu'elle voulait, disait-elle, enseigner à Laure. Cette grande légèreté me déplut, je résolus de remercier la jeune personne. Elle me prévint et me quitta au bout d'un an, pour aller en Angleterre où sa famille venait de lui trouver une place dans un grand magasin de modes. Cela lui convenait beaucoup mieux. Cette première expérience me fit faire des réflexions. Je pensai qu'il valait mieux donner à ma fille une personne d'un âge mûr et d'un caractère sérieux ; j'eus beaucoup de peine à trouver ce que je désirais ; enfin, une maîtresse de pension de Paris me procura Mlle Joséphine C..., son amie d'enfance. Elle me la vanta comme un trésor de vertus et de talents. C'était en effet une personne de mérite. Elle avait trente-six ans, mais elle en paraissait plus de quarante. Sa figure était froide et austère. Elle était grande, roide et droite comme un capitaine prussien, n'avait aucun usage du monde et poussait la timidité jusqu'au ridicule, pour une personne de son âge. Ma fille ne l'aimait pas et se moquait d'elle avec les domestiques. Je n'approuvais pas cela, certainement, mais cette bonne demoiselle avait une mise tellement singulière, que moi-même je ne pouvais m'empêcher de rire en la regardant. Figurez-vous une robe de soie de couleur verdâtre extrêmement fanée, étroite et serrée comme un fourreau de parapluie ; un châle jaune citron à large bordure ; puis un chapeau de satin vert en forme d'éteignoir, qui venait sans doute de sa grand mère, tant il était gothique. Elle portait dans la maison des bonnets qu'elle avait la manie de façonner elle-même, et qu'elle avait soin d'orner de rubans de plusieurs couleurs. Je n'ai jamais rien vu de plus bizarre. Pour comble de disgrâce, elle prenait du tabac et portait des lunettes. </p>
         <p>Ici, Mme de Séligny se prit à rire de si bon cœur, que Mlle Derville ne put garder son sérieux. Après qu'elles se furent égayées pendant quelques instants, la jeune dame continuait son récit. </p>
-        <p>– Enfin, reprit-elle, c'était une véritable caricature. Lorsque j'avais du monde, je la priais de rester chez elle, ce qui d'ailleurs lui convenait assez, car elle aimait la retraite et se livrait à de nombreux exercices de piété. Malgré tous ses ridicules, elle était parfaitement estimable, et je la gardais autant par égard pour elle que pour la personne qui me l'avait donnée. Il y avait à peu près dix mois qu'elle était à la maison, lorsqu'un beau matin elle vint me trouver dans ma chambre, et d'un air tout à fait mystique elle m'annonça qu'elle se croyait appelée à la vie religieuse et qu'elle avait résolu d'entrer au couvent de la Visitation à Paris. J'eus beaucoup de peine à dissimuler le plaisir que me fit cette confidence. Je répondis à Mme Joséphine qu'elle serait libre de partir aussitôt qu'elle le voudrait ; huit jours après cet entretien, j'en fus débarrassée. Il y avait trois semaines qu'elle était partie, et je n'avais pas encore songé à la remplacer, lorsque Mme la comtesse V..., grande amie de ma mère, m'envoya une jeune dame, veuve d'un officier italien ; elle me la recommandait très-vivement, comme une personne d'un mérite supérieur et d'un caractère très-aimable. On l'appelait Mme Albertine. Je la reçus avec beaucoup d'égards. Elle avait à peine vingt-cinq ans et elle était charmante. Beaucoup d'esprit, des talents distingués dans la musique et la peinture. C'est elle qui a fait mon portrait et celui de ma fille. Je me pris tout de suite d'amitié pour cette jeune dame, de son côté elle me fit tant d'avances et de caresses que je n'aurais pu m'empêcher d'y répondre. Bientôt nous devînmes tout à fait intimes. Au bout de quelques mois, je la regardais comme une sœur. Nous portions les mêmes parures, nous arrangions nos cheveux de la même manière .M. de Séligny se moquait de moi ; il m'assurait que cet excès de tendresse était de la folie, que cela ne pourrait, pas durer longtemps. Laure aimait beaucoup Mme Albertine, qui ne la grondait jamais, et me vantait les progrès étonnants qu'elle faisait dans toutes ses études. J'étais véritablement enchantée. Cette illusion dura environ treize mois. Un incident vint tout à coup me découvrir la vérité. Mme Albertine, que je menais avec moi dans toutes les sociétés, s'était beaucoup liée avec la femme d'un notaire, Mme C... ; il arriva qu'un jour, je ne sais pour quel sujet, elles se brouillèrent et prirent dès lors un malin plaisir à se déchirer mutuellement. Mme C..., qui est naturellement curieuse et médisante, me lit sur Mme Albertine les rapports les plus injurieux et me conta des choses tellement extraordinaires que j'en fus indignée. Je répondis avec fermeté que je n'en croyais pas un mot, que c'étaient d'indignes calomnies. Mme C..., sans s'émouvoir, me dit alors que j'étais beaucoup trop bonne et trop prévenue en faveur de Mme Albertine ; que celle-ci ne m'aimait pas, qu'elle était excessivement fausse et flatteuse, que les progrès de ma fille étaient simulés, et que la gouvernante faisait elle-même tous les devoirs de son élève, ainsi que ses dessins et ses ouvrages à l'aiguille. Ce dernier trait me blessa au cœur ; je résolus d'éclaircir le fait par moi-même. Pendant plusieurs jours, contre mon habitude, je me rendis auprès de ma fille à l'heure des leçons. Je questionnai Laure ; je la fis travailler sous mes yeux : je fus alors certaine qu'elle n'apprenait rien et que j'étais indignement trompée. Pour la première fois je parlai sévèrement à Mme Albertine, et je lui fis les reproches qu'elle méritait. Au lieu de reconnaître ses torts, elle releva la tête avec insolence, et se permit de me dire que je n'étais pas capable d'apprécier l'instruction de ma fille. Je fus altérée de cette audace. Trop émue pour lui répondre, je me retirai dans ma chambre ; au bout d'une heure, M. de Séligny rentra et me trouva tout en larmes, il fallut bien lui en dire la cause. Mon mari m'embrassa, me dit de me tranquilliser, et qu'il ne souffrirait pas qu'une pareille scène se renouvelât jamais. Le lendemain à mon réveil, il m'apprit que l'institutrice était partie. Eh bien ! le croiriez-vous ? j'eus un instant de regret ; et pourtant cette personne était bien indigne de mon -attachement. J'ai su même que depuis.... Mais passons à la quatrième gouvernante. Celle-ci est sans contredit la meilleure que nous ayons eue avant vous, elle s'appelait Mlle Ermance B...., elle était âgée de vingt-deux ans ; bon caractère, esprit, talents, figure agréable, elle avait tout pour se faire aimer : pour une élève timide et craintive, elle eût été une institutrice parfaite ; une seule qualité essentielle lui manquait, elle n'avait point de fermeté. Son extrême douceur dégénérait souvent en faiblesse. Laure, accoutumée à ne faire que ses volontés, se montrait souvent indocile et même impertinente. Mlle Ermance voulait remplir son devoir en conscience, elle se donnait une peine infinie pour faire travailler son élève, et se désolait du faible résultat de ses efforts. Chaque jour, c'étaient de nouvelles contrariétés ; la maîtresse pleurait, la petite fille riait et se moquait d'elle. Au bout de six mois, la pauvre jeune personne se trouva tellement fatiguée et découragée, qu'elle tomba malade. Elle écrivit à ses parents ; son père vint la chercher, tout en regrettant beaucoup qu'elle n'ait pas pu s'accoutumer au caractère de ma fille. Pour moi, j'étais lasse de voir à chaque instant de nouveaux visages, et j'étais sur le point de me décider à mettre Laure en pension, lorsque ma mère m'écrivit, me parla de vous, mademoiselle. Pour celte fois, ajouta Mme de Séligny en serrant affectueusement la main d'Elise, j'espère que je ne changerai plus et que nous resterons au moins cinq ans ensemble. </p>
+        <p>– Enfin, reprit-elle, c'était une véritable caricature. Lorsque j'avais du monde, je la priais de rester chez elle, ce qui d'ailleurs lui convenait assez, car elle aimait la retraite et se livrait à de nombreux exercices de piété. Malgré tous ses ridicules, elle était parfaitement estimable, et je la gardais autant par égard pour elle que pour la personne qui me l'avait donnée. Il y avait à peu près dix mois qu'elle était à la maison, lorsqu'un beau matin elle vint me trouver dans ma chambre, et d'un air tout à fait mystique elle m'annonça qu'elle se croyait appelée à la vie religieuse et qu'elle avait résolu d'entrer au couvent de la Visitation à Paris. J'eus beaucoup de peine à dissimuler le plaisir que me fit cette confidence. Je répondis à Mme Joséphine qu'elle serait libre de partir aussitôt qu'elle le voudrait ; huit jours après cet entretien, j'en fus débarrassée. Il y avait trois semaines qu'elle était partie, et je n'avais pas encore songé à la remplacer, lorsque Mme la comtesse V..., grande amie de ma mère, m'envoya une jeune dame, veuve d'un officier italien ; elle me la recommandait très-vivement, comme une personne d'un mérite supérieur et d'un caractère très-aimable. On l'appelait Mme Albertine. Je la reçus avec beaucoup d'égards. Elle avait à peine vingt-cinq ans et elle était charmante. Beaucoup d'esprit, des talents distingués dans la musique et la peinture. C'est elle qui a fait mon portrait et celui de ma fille. Je me pris tout de suite d'amitié pour cette jeune dame, de son côté elle me fit tant d'avances et de caresses que je n'aurais pu m'empêcher d'y répondre. Bientôt nous devînmes tout à fait intimes. Au bout de quelques mois, je la regardais comme une sœur. Nous portions les mêmes parures, nous arrangions nos cheveux de la même manière. M. de Séligny se moquait de moi ; il m'assurait que cet excès de tendresse était de la folie, que cela ne pourrait, pas durer longtemps. Laure aimait beaucoup Mme Albertine, qui ne la grondait jamais, et me vantait les progrès étonnants qu'elle faisait dans toutes ses études. J'étais véritablement enchantée. Cette illusion dura environ treize mois. Un incident vint tout à coup me découvrir la vérité. Mme Albertine, que je menais avec moi dans toutes les sociétés, s'était beaucoup liée avec la femme d'un notaire, Mme C... ; il arriva qu'un jour, je ne sais pour quel sujet, elles se brouillèrent et prirent dès lors un malin plaisir à se déchirer mutuellement. Mme C..., qui est naturellement curieuse et médisante, me lit sur Mme Albertine les rapports les plus injurieux et me conta des choses tellement extraordinaires que j'en fus indignée. Je répondis avec fermeté que je n'en croyais pas un mot, que c'étaient d'indignes calomnies. Mme C..., sans s'émouvoir, me dit alors que j'étais beaucoup trop bonne et trop prévenue en faveur de Mme Albertine ; que celle-ci ne m'aimait pas, qu'elle était excessivement fausse et flatteuse, que les progrès de ma fille étaient simulés, et que la gouvernante faisait elle-même tous les devoirs de son élève, ainsi que ses dessins et ses ouvrages à l'aiguille. Ce dernier trait me blessa au cœur ; je résolus d'éclaircir le fait par moi-même. Pendant plusieurs jours, contre mon habitude, je me rendis auprès de ma fille à l'heure des leçons. Je questionnai Laure ; je la fis travailler sous mes yeux : je fus alors certaine qu'elle n'apprenait rien et que j'étais indignement trompée. Pour la première fois je parlai sévèrement à Mme Albertine, et je lui fis les reproches qu'elle méritait. Au lieu de reconnaître ses torts, elle releva la tête avec insolence, et se permit de me dire que je n'étais pas capable d'apprécier l'instruction de ma fille. Je fus altérée de cette audace. Trop émue pour lui répondre, je me retirai dans ma chambre ; au bout d'une heure, M. de Séligny rentra et me trouva tout en larmes, il fallut bien lui en dire la cause. Mon mari m'embrassa, me dit de me tranquilliser, et qu'il ne souffrirait pas qu'une pareille scène se renouvelât jamais. Le lendemain à mon réveil, il m'apprit que l'institutrice était partie. Eh bien ! le croiriez-vous ? j'eus un instant de regret ; et pourtant cette personne était bien indigne de mon -attachement. J'ai su même que depuis.... Mais passons à la quatrième gouvernante. Celle-ci est sans contredit la meilleure que nous ayons eue avant vous, elle s'appelait Mlle Ermance B...., elle était âgée de vingt-deux ans ; bon caractère, esprit, talents, figure agréable, elle avait tout pour se faire aimer : pour une élève timide et craintive, elle eût été une institutrice parfaite ; une seule qualité essentielle lui manquait, elle n'avait point de fermeté. Son extrême douceur dégénérait souvent en faiblesse. Laure, accoutumée à ne faire que ses volontés, se montrait souvent indocile et même impertinente. Mlle Ermance voulait remplir son devoir en conscience, elle se donnait une peine infinie pour faire travailler son élève, et se désolait du faible résultat de ses efforts. Chaque jour, c'étaient de nouvelles contrariétés ; la maîtresse pleurait, la petite fille riait et se moquait d'elle. Au bout de six mois, la pauvre jeune personne se trouva tellement fatiguée et découragée, qu'elle tomba malade. Elle écrivit à ses parents ; son père vint la chercher, tout en regrettant beaucoup qu'elle n'ait pas pu s'accoutumer au caractère de ma fille. Pour moi, j'étais lasse de voir à chaque instant de nouveaux visages, et j'étais sur le point de me décider à mettre Laure en pension, lorsque ma mère m'écrivit, me parla de vous, mademoiselle. Pour celte fois, ajouta Mme de Séligny en serrant affectueusement la main d'Elise, j'espère que je ne changerai plus et que nous resterons au moins cinq ans ensemble. </p>
         <p>– C'est tout mon désir, madame, répondit Mlle Derville ;'j'ai déjà fait un plan de l'emploi de nos journées. Si vous voulez me permettre... </p>
         <p>– Non, pas aujourd'hui, ma chère ; il est près de midi, je vais aller m'habiller, je veux vous faire voir notre ville, vous n'avez pas de temps à perdre, allez vous préparer avec ma fille. </p>
         <p>En achevant ces mots, la jeune dame fit un geste amical à sa compagne, puis elle monta dans son appartement. Elise prit la peine d'habiller Laure elle même, ce qui fit grand plaisir à la femme de chambre, fort occupée auprès de sa maîtresse. </p>
@@ -586,7 +580,7 @@
         <p>– Ah ! maman, je le devine ; oui, c'est bien cela, tu veux parler de ma première communion ? </p>
         <p>– Oui, ma fille. </p>
         <p>– Tu avais bien raison de dire que ma pensée allait se rencontrer avec la tienne. C'est justement cela que j'avais à te demander ; je t'avoue, maman, que j'étais un peu fâchée contre toi de ce que tu n'y avais pas encore pensé. </p>
-        <p>– Si tu avais été plus raisonnable, il y a plus d'un mois que je t'aurais annoncé cette bonne nouvelle.Je pense toujours à toi, ma fille, et je n'oublie rien de ce qui peut contribuer à ton bonheur. Depuis quinze jours ta bonne amie est si contente de ton application et surtout de ton caractère, que j'ai décidé avec elle que tu ferais ta première communion cette année. Ainsi j'espère que tu vas devenir tout à fait bonne et raisonnable. </p>
+        <p>– Si tu avais été plus raisonnable, il y a plus d'un mois que je t'aurais annoncé cette bonne nouvelle. Je pense toujours à toi, ma fille, et je n'oublie rien de ce qui peut contribuer à ton bonheur. Depuis quinze jours ta bonne amie est si contente de ton application et surtout de ton caractère, que j'ai décidé avec elle que tu ferais ta première communion cette année. Ainsi j'espère que tu vas devenir tout à fait bonne et raisonnable. </p>
         <p>– Oh ! oui, ma petite mère, merci ! merci ! Que je suis contente ! Et Laure embrasse sa mère à plusieurs reprises. </p>
         <p>Après le déjeuner, Mme de Seligny conduisit sa fille chez M. le curé, pour le prier de vouloir bien l'inscrire au nombre des jeunes communiantes. Le vénérable pasteur y consentit avec plaisir ; il interrogea Laure sur son catéchisme et sur l'histoire sainte, et fut si content de ses réponses qu'il lui fit présent d'un beau livre avec plusieurs gravures. Elle ses récréations se passèrent en lecture. Le soir, Mlle Derville voulut savoir qu'elles avaient été ses réflexions. </p>
         <p>– Ma bonne amie, répondit Laure, j'ai beaucoup pensé à ce que je dois faire pour me préparer à ma première communion ; mais j'ai vu dans mon livre que le point essentiel c'est de se bien confesser. Il faudra donc je fasse une grande confession générale ; cela m'inquiète beaucoup, je ne pourrai jamais me rappeler tout ce que j'ai fait. </p>
@@ -601,7 +595,7 @@
       <div type="chapter">
 
         <head>CHAPITRE XVI : LÉONIE. </head>
-        <p>J'ai dit que Mlle Léonie était l'institutrice d'Henriette et de Louise, filles d'un notaire, et deux amies intimes de Lauré. Cette demoiselle venait ordinairement les jeudis avec ses élèves ; elle trouvait un grand charme dans la société de Mlle Dervillie. Ces deux personnes étaient faites pour se comprendre et s'apprécier l'une l'autre ;, elles ne tardèrent, pas à devenir intimes. Elise admirait dans Léonie une grande douceur,. une parfaite égalité, dé caractère, une aimable gaieté, beaucoup de franchise et d'abandon, une piété solide et bien entendue. Léonie avait trente-six ans, elle était frêle et délicate ; sa figure, sans être jolie, était agréable, elle avait une expression de douce mélancolie qui la rendait intéressante. En la voyant pour la première fois, Elise fut disposée à l'aimer ; de son côté, Léonie fut éblouie des talents de Mlle Derville, charmée des grâces de sa personne, et surtout de la rare distinction de ses manières. Bien loin d'en être jalouse, elle l'admira sincèrement et souhaita d'obtenir son amitié ; elle comprit tout de suite combien il lui serait avantageux de fréquenter cette charmante jeune personne. Mais elle l'aima surtout par cette inclination naturelle qui la portait vers les personnes d'un grand mérite ; elle avait besoin d'admirer ses amies. Plus d'une fois elle avait éprouvé des déceptions, la bonté de son cœur lui faisant supposer de grandes vertus là où il n'y en avait que de fort médiocres. Pour cette fois, elle avait trouvé la réalisation de ses rêves ; elles rendit grâces à Dieu de cette heureuse rencontre.Mlle Derville devint la confidente de ses peines de chaque jour, elle trouva dans ses bons conseils le moyen d'adoucir les ennuis de sa position et de prouver l'avancement de ses élèves. </p>
+        <p>J'ai dit que Mlle Léonie était l'institutrice d'Henriette et de Louise, filles d'un notaire, et deux amies intimes de Lauré. Cette demoiselle venait ordinairement les jeudis avec ses élèves ; elle trouvait un grand charme dans la société de Mlle Dervillie. Ces deux personnes étaient faites pour se comprendre et s'apprécier l'une l'autre ;, elles ne tardèrent, pas à devenir intimes. Elise admirait dans Léonie une grande douceur,. une parfaite égalité, dé caractère, une aimable gaieté, beaucoup de franchise et d'abandon, une piété solide et bien entendue. Léonie avait trente-six ans, elle était frêle et délicate ; sa figure, sans être jolie, était agréable, elle avait une expression de douce mélancolie qui la rendait intéressante. En la voyant pour la première fois, Elise fut disposée à l'aimer ; de son côté, Léonie fut éblouie des talents de Mlle Derville, charmée des grâces de sa personne, et surtout de la rare distinction de ses manières. Bien loin d'en être jalouse, elle l'admira sincèrement et souhaita d'obtenir son amitié ; elle comprit tout de suite combien il lui serait avantageux de fréquenter cette charmante jeune personne. Mais elle l'aima surtout par cette inclination naturelle qui la portait vers les personnes d'un grand mérite ; elle avait besoin d'admirer ses amies. Plus d'une fois elle avait éprouvé des déceptions, la bonté de son cœur lui faisant supposer de grandes vertus là où il n'y en avait que de fort médiocres. Pour cette fois, elle avait trouvé la réalisation de ses rêves ; elles rendit grâces à Dieu de cette heureuse rencontre. Mlle Derville devint la confidente de ses peines de chaque jour, elle trouva dans ses bons conseils le moyen d'adoucir les ennuis de sa position et de prouver l'avancement de ses élèves. </p>
         <p>Un jour que les deux amies se promenaient dans la campagne, tout en surveillant les jeux des enfants, Léonie demanda à Mlle Derville par quelle suite d'événements elle se trouvait aussi éloignée de sa famille. Elise lui répondit en lui racontant l'histoire de sa vie. Quand elle eut fini de parler. </p>
         <p>– Je vous félicite, ma chère amie, lui dit Léonie. Jusqu'à présent vous avez été heureuse et vous n'avez eu qu'un seul chagrin, je veux dire le moment où vous avez quitté vos parents ; j'espère que toute votre vie sera calme et paisible. J'ai remarque que notre destinée future s'annonce dès nos premières années, c'est comme un présage de bonheur ou d'infortune. Pour mon compte, j'en ai fait l'expérience, mais je n'ose vous raconter mon histoire, cela serait trop monotone et pourrait bien vous ennuyer. </p>
         <p>– Ah ! ne dites pas cela, ma bonne amie, je vous assure que je vous écouterai avec beaucoup d'intérêt ; je vous dirai même qu'à cet égard j'éprouve une grande curiosité. Je vous aurais questionnée depuis longtemps si la crainte d'être indiscrète ne m'avait retenue. </p>
@@ -665,7 +659,7 @@
         <p>– Je vous en prie, ma chère, dit Elise à son amie, tâchez de finir votre récit avant l'arrivée de Mme de Séligny, car alors nous ne serons plus seules. </p>
         <p>– Ce qui me reste à vous apprendre ne sera pas long, répondit Léonie, je continue : </p>
         <p>Me voici donc revenue avec mon père pour ne plus le quitter ; ce fut une grande joie pour tous deux. J'avais la douce liberté d'une maîtresse de maison ; je m'occupais des détails du ménage et je me rendais utile à mon père en l'aidant dans ses écritures. Nous n'avions pas de fortune, mais nous vivions honorablement dans notre médiocrité. Quelques amis venaient à certains jours égayer notre solitude ; nous passions nos soirées sans aucun ennui : tantôt je faisais de la musique ; mon père y prenait grand plaisir, car il chantait lui-même fort bien ; il avait une gaieté charmante et se plaisait à me raconter les principaux événements de sa vie ; d'autres fois je lui faisais d'agréables lectures, plus souvent encore une partie de dames ou de piquet : c'était lui qui m'avait appris ces jeux qu'il aimait beaucoup. L'été nous faisions de jolies promenades ensemble ; enfin mon père me répétait souvent qu'il ne s'était jamais trouvé si heureux, même au temps de sa plus haute fortune. Ces paroles me comblaient de joie. Quatre ans se passèrent de la sorte. Hélas ! le bonheur n'est pas fait pour cette vie ! De nouveaux revers vinrent nous assaillir : mon père, qui était la bonté même, ne pouvait jamais refuser un service. On connaissait son caractère ; plusieurs intrigants abusèrent de sa trop grande bonté ; il prêta des sommes qui n'étaient pas en elles-mêmes considérables, mais qui l'étaient pour sa position et qui furent tout à fait perdues. Ce malheur nous réduisit à la plus pénible situation ; je fis tout ce qui dépendait de moi pour l'adoucir : je donnais des leçons, je travaillais, et à force de soins et d'économie j'épargnais à mon père des privations qu'il n'aurait pu supporter. Mais le chagrin s'empara de lui, insensiblement sa gaieté disparut ; il devint taciturne et rêveur ; plus d'une fois je l'entendis soupirer et je le vis verser des larmes qu'il s'efforçait de me cacher. C'est alors que je fus bien malheureuse, car je comprenais toutes ses peines et je ne pouvais y remédier. Cela dura environ six ans. Nous arrivâmes à cette époque fatale où le fléau destructeur promena ses ravages dans la capitale ; mon père en fut atteint ; jugez de mon désespoir ! mes soins ne purent le sauver ; il succomba après deux jours d'affreuses souffrances ; il demanda les secours de la religion et mourut dans mes bras en me bénissant. </p>
-        <p />
+        <p/>
         <p> Ici Léonie fut obligée de s'arrêter : ses pleurs lui coupaient la parole. Mlle Derville y mêla les siens. Après quelques instants de silence : </p>
         <p>– Ah ! mon amie, lui dit-elle, je comprends tout ce que vous avez souffert ; Dieu seul peut adoucir et consoler des peines de cette nature. Sans doute, il ne vous abandonna pas. </p>
         <p>– Il est vrai que sa bonté veilla sur moi d'une manière sensible ; mais j'eus d'abord des souffrances, des embarras et des misères de toutes sortes. </p>
@@ -735,165 +729,165 @@
         <p>Elise avait l'habitude, ces jours-là, de laisser les enfants seules, afin qu'elles pussent s'amuser en toute liberté ; elle se tenait dans la chambre voisine, mais de manière à pouvoir entendre ce qui se passait dans le salon. </p>
         <p>D'abord on s'entretint de nouvelles indifférentes, ensuite chacune raconta ce qui l'intéressait plus particulièrement. </p>
         <p>– Pour moi, dit l'aimable Marie, je suis bien contente ; j'ai été la première à la composition d'orthographe et à celle d'écriture. Voilà une bonne semaine ; si cela continue, j'espère bien avoir deux premiers prix, ajouta-t-elle avec une légère nuance d'amour-propre. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Voilà qui est merveilleux ! dans une classe toute composée de petites filles ! Parmi les aveugles... </p>
-        <p />
+        <p/>
         <p> LAURE. </p>
-        <p />
+        <p/>
         <p> Finis donc, Louise, ne vas-tu pas encore te moquer de Marie ? Tu me ferais croire que tu en es jalouse. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Moi ! point du tout, je t'assure ; mais seulement je n'aime pas qu'elle se vante pour si peu de chose. </p>
-        <p />
+        <p/>
         <p> MARIE. </p>
-        <p />
+        <p/>
         <p> Les élèves de ma classe ne sont plus des enfants ; elles sont de mon âge : il y en a même une grande qui a quinze ans. </p>
-        <p />
+        <p/>
         <p> LAURE. </p>
-        <p />
+        <p/>
         <p> Tu as raison d'être contente, ma petite, parce que tes succès font beaucoup de plaisir à tes parents. Aussi je t'en fais mon compliment bien sincère. </p>
-        <p />
+        <p/>
         <p> HENRIETTE. </p>
-        <p />
+        <p/>
         <p> Et moi aussi, ma chère amie. </p>
-        <p />
+        <p/>
         <p> LAURE. </p>
-        <p />
+        <p/>
         <p> As-tu appris la romance que je t'ai prêtée, Louise ? Comment la trouves-tu ? </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Elle est bien difficile. J'ai essayé de la déchiffrer, mais je n'ai pas pu en venir à bout ; je n'ai pas pris ma leçon de piano hier, parce que Mlle Léonie était malade. </p>
-        <p />
+        <p/>
         <p> HENRIETTE. </p>
-        <p />
+        <p/>
         <p> Et moi, j'ai eu bien du chagrin, j'avais peur que notre bonne amie ne fit une grande maladie ; elle était fort souffrante. Heureusement elle est bien aujourd'hui : c'est un gros rhume qui, je l'espère, n'aura pas de suites fâcheuses. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> La pauvre Henriette est toujours prête à s'alarmer. C'est vraiment le médecin Tant-pis. Croiriez-vous qu'hier elle a pleuré toute la journée, et que le soir elle m'a plantée là pour aller auprès de sa malade ? </p>
-        <p />
+        <p/>
         <p> MARIE. </p>
-        <p />
+        <p/>
         <p> Elle a fort bien fait. A sa place, j'aurais agi de même. LOUISE. Je n'ai pas un mauvais cœur, assurément, mais je ne m'effraye pas pour une légère indisposition de ma bonne amie. Cependant je n'ai pas eu le courage de faire de la musique ; je me suis amusée tranquillement à lire. </p>
-        <p />
+        <p/>
         <p> LAURE. </p>
-        <p />
+        <p/>
         <p> Veux-tu nous raconter cette lecture ? </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Oh ! ce n'était pas gai : c'est une tragédie de Voltaire ; on l'appelle Mérope. </p>
-        <p />
+        <p/>
         <p> LAURE. </p>
-        <p />
+        <p/>
         <p> Bon ! je la connais. Je l'ai lue avec maman et Mlle Elise. </p>
-        <p />
+        <p/>
         <p> HENRIETTE. </p>
-        <p />
+        <p/>
         <p> Mais, ma sœur, où donc as-tu trouvé les tragédies de Voltaire ? Cet ouvrage n'est pas dans notre bibliothèque. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> C'est un bon tour de ma façon. Figurez-vous que ce livre était dans la chambre de maman, sur le coin de la cheminée. J'ai profité d'un instant où maman regardait d'un autre côté ; crac, je l'ai pris et je l'ai mis dans ma poche. </p>
-        <p />
+        <p/>
         <p> LAURE. </p>
-        <p />
+        <p/>
         <p> Cela n'est pas bien, ma petite ; il ne faut jamais rien faire en cachette. Et cette lecture t'a sans doute amusée ? </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Oui, vraiment. C'est une fort belle tragédie ; mais il y a un passage qui m'a choquée... </p>
         <p>Ici Mlle Derville entra dans le salon. </p>
         <p>– Vraiment, Louise, dit-elle, je serais bien aise de connaître l'objet de votre critique. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> C'est l'endroit où Mérope dit ces vers : </p>
         <p>Quand on a tout perdu, quand on n'a plus d'espoir, La vie est un opprobre et la mort un devoir. </p>
-        <p />
+        <p/>
         <p> Je trouve cela très-mauvais : c'est contraire à la morale, et surtout à la religion qui nous défend le suicide. </p>
-        <p />
+        <p/>
         <p> Mlle DERVILLE. </p>
-        <p />
+        <p/>
         <p> Vous avez raison, mon enfant : c'est parfaitement bien jugé. </p>
-        <p />
+        <p/>
         <p> LAURE. </p>
-        <p />
+        <p/>
         <p> Je trouve aussi, moi, que c'est une idée fausse de dire : « Quand on n'a plus d'espoir ! » Tant que nous sommes en ce monde, nous ne devons jamais désespérer. Ce sont les cœurs lâches qui se désespèrent. </p>
-        <p />
+        <p/>
         <p> Mlle DERVILLE. </p>
-        <p />
+        <p/>
         <p> Assurément, ma chère. Mais à quoi pensez-vous donc, Marie ? Vous êtes là toute rêveuse ?... </p>
-        <p />
+        <p/>
         <p> MARIE. </p>
-        <p />
+        <p/>
         <p> Je cherche dans ma tète pour voir s'il n'y aurait pas moyen de corriger ces deux vers. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Pour le coup, Marie, c'est pousser loin la prétention. Comment, tu veux corriger les vers de Voltaire ! En vérité, ce serait plaisant. </p>
-        <p />
+        <p/>
         <p> MARIE. </p>
-        <p />
+        <p/>
         <p> Eh bien, j'ai trouvé quelque chose. Ris tant que tu voudras ; cela m'est égal. </p>
-        <p />
+        <p/>
         <p> Mlle DERVILLE. </p>
-        <p />
+        <p/>
         <p> Voulez-vous nous faire part de cette heureuse inspiration ? </p>
-        <p />
+        <p/>
         <p> MARIE. </p>
-        <p />
+        <p/>
         <p> Ne vaudrait-il pas mieux dire : Quand on a tout perdu, toujours on a l'espoir De vivre avec honneur en faisant son devoir. </p>
-        <p />
+        <p/>
         <p> Mlle DERVILLE. </p>
-        <p />
+        <p/>
         <p> Bravo, Marie ; c'est fort bien trouvé ; la morale est parfaite, et la vérité s'y trouve. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Je m'incline devant ton génie. Décidément, Marie, tu es une dixième muse. </p>
-        <p />
+        <p/>
         <p> Mlle DERVILLE. </p>
-        <p />
+        <p/>
         <p> Comment se fait-il donc, Louise, que vous ayez lu cet ouvrage sans la permission de votre maman ou de votre gouvernante ? </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Ah ! mademoiselle, je vois que vous avez tout entendu. Si j'avais su que vous étiez si près de nous, je n'en aurais pas parlé. Aussi tu ne m'as pas prévenue, Laure, c'est une trahison manifeste. </p>
-        <p />
+        <p/>
         <p> LAURE. </p>
-        <p />
+        <p/>
         <p> Je t'assure, ma petite, que je n'y ai pas pensé. D'ailleurs, je n'ai pas peur de parler devant mademoiselle. Quand j'ai quelque tort, elle me donne de bons conseils pour me corriger, et voilà tout. </p>
-        <p />
+        <p/>
         <p> Mlle DERVILLE. </p>
         <p>Vous avez bien mérité d'être punie, Louise. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Ah bah ! je ne vois pas un grand mal à cela. Ce livre est bon, car vous l'avez fait lire à Laure. </p>
-        <p />
+        <p/>
         <p> Mlle DERVILLE. </p>
-        <p />
+        <p/>
         <p> La faute est dans la désobéissance. Vous avez manqué de soumission à votre maman et à votre maîtresse. Une jeune personne bien élevée ne doit jamais se permettre d'ouvrir un livre sans avoir pris conseil des personnes qui la dirigent. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Oh ! je vous en prie, n'en dites rien à Mlle Léonie. Elle me gronderait trop, elle est si sévère ! </p>
-        <p />
+        <p/>
         <p> HENRIETTE. </p>
-        <p />
+        <p/>
         <p> Ce que tu dis là n'est pas bien, ma sœur, car notre bonne amie est douce et indulgente. </p>
-        <p />
+        <p/>
         <p> LOUISE. </p>
-        <p />
+        <p/>
         <p> Oui, pour toi, parce que tu es sa préférée ; quant à moi, c'est bien différent. </p>
-        <p />
+        <p/>
         <p> Mlle DERVILLE. </p>
-        <p />
+        <p/>
         <p> Assez, Louise ; n'ajoutez pas à votre première faute en accusant mal à propos votre gouvernante. Mlle Léonie vous aime toutes les deux, mais elle vous traitre selon votre conduite et votre caractère. Je ne lui dirai rien de ce qui s'est passé, à condition que vous lui ferez vous-même l'aveu de cette étourderie et surtout que vous promettrez sincèrement de vous corriger. </p>
         <p>Louise fit cette promesse, et tout fut dit. </p>
         <p>Vers quatre heures, Mme de Séligny vint prévenir les jeunes personnes qu'il était temps de s'occuper des préparatifs du dîner. Elles avaient demandé la permission de faire des crèmes et du nougat, et se firent un grand plaisir de cette partie. Elles y réussirent à merveille et reçurent beaucoup de compliments sur leurs talents culinaires. </p>
@@ -998,7 +992,7 @@
         <p>Lorsque M. et Mme Derville apprirent cette nouvelle à Léonie, elle en fut tellement surprise qu'elle pouvait à peine y croire. Elle n'hésita pas longtemps sur ce qu'elle devait faire. </p>
         <p>Après cinq minutes de réflexion, elle répondit avec une modeste assurance : </p>
         <p>– J'accepte la main de M. de Séligny, non pas à cause de sa fortune, mais pour lui témoigner mon estime et ma reconnaissance. </p>
-        <p>Quelques semaines après, Léonie devint l'épouse du riche propriétaire. Le mariage fut célébré sans aucun faste. La famille Derville y fut seule invitée.M. de Séligny acheta une jolie maison de campagne aux environs de Melun. Il fit bâtir une ferme absolument semblable à celle qu'il avait autrefois possédée. Il demeurait là pendant six mois de l'année. Léonie invita la famille Derville à venir partager cette charmante retraite. Elle était heureuse de leur témoigner ainsi sa reconnaissance des bons offices qu'elle en avait reçus. </p>
+        <p>Quelques semaines après, Léonie devint l'épouse du riche propriétaire. Le mariage fut célébré sans aucun faste. La famille Derville y fut seule invitée. M. de Séligny acheta une jolie maison de campagne aux environs de Melun. Il fit bâtir une ferme absolument semblable à celle qu'il avait autrefois possédée. Il demeurait là pendant six mois de l'année. Léonie invita la famille Derville à venir partager cette charmante retraite. Elle était heureuse de leur témoigner ainsi sa reconnaissance des bons offices qu'elle en avait reçus. </p>
         <p>Laure eut beaucoup d'amitié pour sa belle-mère, et lui confia les premières années de ses jeunes enfants. </p>
         <p>La nouvelle Mme de Séligny fut accueillie avec honneur dans toutes les sociétés qui l'avait connue. Chacun la félicita sincèrement de son bonheur. Mais Elise fut toujours son amie préférée. Elle lui disait quelquefois : </p>
         <p>– C'est pourtant à vous, après Dieu, chère amie, que je dois ma félicité actuelle. Vous avez été pour moi l'ange de consolation et d'espérance. </p>

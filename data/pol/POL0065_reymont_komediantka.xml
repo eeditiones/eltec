@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0065">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">83455</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Komediantka</title>
 <ref>https://pl.wikisource.org/wiki/Komedyantka</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Komediantka</title>
 <author>Reymont, Władysław Stanisław</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1896</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,13 +59,12 @@
 </div>
 </front>
 <body>
-<div>
+<div type="liminal">
 <quote>
 <p>Maryanowi Gawalewiczowi</p>
 <p>Autor.</p>
 </quote>
 </div>
-<div>
 <div type="chapter"><head>I</head>
 <p>Bukowiec, stacya kolei dąbrowskiej, leży w przepysznem miejscu!… Wycięto krętą linię pomiędzy wzgórzami, okrytemi bukiem i sosną, i w punkcie najrówniejszym, pomiędzy olbrzymią górą, sterczącą nad lasami nagiemi łysinami skal zwietrzałych, a długą i wązką dolinką, pełną wód i błot zarosłych — postawiono stacyę. Dworzec z cegły nietynkowanej, jednopiętrowy, z mieszkaniami zawiadowcy i jego pomocnika na piętrze, drewniany domek z boku dla telegrafisty i niższej służby, drugi taki sam, tuż przy ostatnich wekslach dla dozorcy drogowego, trzy budki strażnicze w różnych punktach terenu stacyjnego, rampa odkryta do ładowania towarów stanowiły wszystko.</p>
 <p>Las był za dworcem i las szumiał przed dworcem. Kawał niebieskawej opony powietrza, zarzuconej szarawemi chmurami, roztaczał się w górze, niby dach rozciągnięty szeroko.</p>
@@ -426,8 +430,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>— Suka!… — mruknął, spluwając pogardliwie. — Pani możesz sobie jeszcze dzisiaj odjechać. Zapłacę, co się należy i precz mi z domu, bo, przysięgam Bogu, że przez robotników wyrzucić każę!… Jak sam to sam… bez opiekunek!… Suka!… przysięgam Bogu!…</p>
 <p>Rozbił szklankę o stół i wyszedł.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Ogródek teatralny się budził.</p>
 <p>Kurtyna ze skrzypem poszła w górę i ukazał się rozczochrany chłopak, bosy i w koszuli, i wziął się do zamiatania przybytku sztuki. Kurz tumanami płynął na ogródek, osiadał na czerwonem suknie krzeseł i na rzadkich liściach kilku suchotniczych kasztanów.</p>
@@ -754,8 +757,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>— W domu trochę śpiewałam… ale scenicznego głosu to pewnie nie mam… zresztą ja…</p>
 <p>— Przyjdź pani, tylko wcześniej, to spróbujemy… ja tam powiem dyrektorowi muzyki.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Dzień był bardzo piękny i ciepły.</p>
 <p>Łazienki dyszały wiosną… Róże kwitły i jaśminy rozlewały duszącą woń po parku… Było tak cicho i pięknie, że Janka siedziała parę godzin nad stawem, zapominając o wszystkiem.</p>
@@ -1137,8 +1139,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>Później Cabińska rozmawiała z nią dosyć długo i prosiła, żeby przyszła do nich do mieszkania, jutro, po próbie i pożegnała ją życzliwie.</p>
 <p>Janka z teatru poszła prosto do Sowińskiej, oglądać mieszkanie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>„Dyrekcya ma zaszczyt prosić Sz. Artystki i Sz. Artystów Towarzystwa, jakoteż skład orkiestry i członków chórów, o przybycie do lokalu zarządu w dniu 6 b. m. po przedstawieniu, na herbatkę i koleżeńską pogawędkę”. Dyrektor Tow. Artystów Dramatycznych (podpisano), Jan w Oleju Cabiński.</p>
 <p>— Co?… dobrze tak będzie, Pepa?… pytał dyrektor, przeczytawszy żonie, mozolnie i z mnogiemi przekreśleniami napisane zaproszenie.</p>
@@ -1704,8 +1705,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>— Wie pani, jutro będzie wyższa frajda! imieniny Cabińskiej. Niechże się pani ubiera, to wyjdziemy razem.</p>
 <p>Zaczekały na Wawrzeckiego i później poszli wszyscy razem do cukierni na herbatę, zabierając ze sobą jeszcze Topolskiego, który w cukierni napisał okólnik do całego towarzystwa, żeby jutro, koniecznie i punktualnie zebrano się na próbę o godzinie dziesiątej rano.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>U Cabińskiego wszystkie dni, w których się grało, były ważne, ale tylko trzy dni zwykłe, nadzwyczajnymi: wigilia Bożego Narodzenia, pierwszy dzień świąt Wielkanocy i… imieniny żony, przypadające w dniu 19 lipca na św. Wincentego à Paulo.</p>
 <p>W te trzy dni dyrekcya teatru występowała z przyjęciami na wielką skalę.</p>
@@ -2040,8 +2040,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>Świt rozbielił mroczne głębie horyzontu, domy rysowały się już dosyć wyraźnie. Latarnie gazowe, niby złoty sznur o węzłach zbladłych płomieni, ciągnęły się nieskończoną linią i rozsiewały złotawy pył na pokryte rosą trotuary i szare mury kamienic. Świeży, jędrny powiew poranku lipcowego szedł ulicami i napawał dziwnym urokiem i spokojem. Domy i ulice stały ciche, zapadłe jeszcze w śnie nocy; czuć było, że wokoło jeszcze śpią ludzie, że trzepoczą dokoła sny swemi skrzydłami i snują się tłumnie w popielatym brzasku świtu.</p>
 <p>W milczeniu odprowadzili Jankę do hotelu; Niedzielska z jakąś nagłą życzliwością ucałowała ją i rozeszli się.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>— Dobrze pani będzie?…</p>
 <p>— Sądzę, że tak. Cicho i widno, to dla mnie wystarcza… Kto tu mieszkał przede mną?</p>
@@ -2271,8 +2270,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>Zesztywniała z trwogi ogromnej, nie śmiała się ruszyć, ani odezwać, tylko myślała ciężko: Kto to?… kto?… i trzęsła się wewnętrznie od zdenerwowania.</p>
 <p>Usnęła na dobre dopiero nad ranem, kiedy pierwsze czerwone promienie wschodzącego słońca wpadły do pokoju.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Obudziła się o wpół do jedenastej rano; Sowińska właśnie przyniosła jej śniadanie.</p>
 <p>— Był kto do mnie?… — zapytała Janka.</p>
@@ -2720,8 +2718,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>Janka, przyszedłszy do swojego pokoju, wstawiła kwiaty w wodę i idąc spać, spojrzała raz jeszcze na róże i szepnęła miękko:</p>
 <p>— Poczciwy!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>— Proszę pani, okólnik! — wołał Wicek.</p>
 <p>— Co tam nowego?…</p>
@@ -3345,8 +3342,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>Nie czuła teraz wstydu, ani upokorzenia, tylko bezbrzeżną złość; biegała po pokoju, jak szalona, rozdarła sobie stanik bezwiednie i nie mogąc w żaden sposób pozbyć się irytacyi, upadła na łóżko w ubraniu.</p>
 <p>Spała, męcząc się okropnie; zrywała się co chwila z krzykiem, chciała gdzieś biedź, uciekać, to znowu podnosiła rękę do góry, jakby z kieliszkiem i wołała przez sen: „Wiwat!” Zaczynała śpiewać, albo przez zgorączkowane usta wolała od czasu do czasu: „Podli! podli!”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>W kilka dni po przedstawieniu <emph>Chamów</emph>, którzy nie schodzili z afisza, ale coraz mniej przyciągali widzów, Głogowski przybiegł do Janki.</p>
 <p>— Co się z panem dzieje?… — zawołała, wyciągając przyjaźnie rękę do niego.</p>
@@ -3769,8 +3765,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>Zresztą, zrobiła klapę: była dalej tylko chórzystką, i matka mu groziła wprost wydziedziczeniem za nią…</p>
 <p>Patrzyła długo za starą, która pewnie szła szukać syna, i poszła wolno do domu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Janka leżała chora. Zdawało się jej, że leży na dnie studni i z tych głębin, w które ją zepchnęli, widzi tylko blady błękit nieba, czasem noc zupełną, czasem migotanie gwiazd, to jakieś skrzydła przelatujące kładły cień na jej oczy, że przestawała wiedzieć o wszystkiem; czuła tylko, że to falowanie życia i jego odgłosy, jego zamęty, krzyki, łzy i rozpacze, sączyły się po gładkich cembrowinach i zlewały w jej duszy jak w zbiorniku i przenikały ją całą bólem nieświadomym, który jednak czuła w każdem tętnie swojego jestestwa.</p>
 <p>Zdawało się jej, że jest coraz dalej nie tylko od życia, ale i od marzeń, bo ilekroć razy chciała coś myśleć, kombinować, tworzyć myśli jakiś obraz lub pojęcie, wymykało jej się wszystko z mózgu, jakby przez jakieś olbrzymie szczeliny i czuła tylko pustkę i ból samotności.</p>
@@ -4192,8 +4187,7 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>Dzień się zrobił i zalewał pokój mętnem światłem, a ona jeszcze siedziała na dawnem miejscu i wpadniętemi głęboko oczami, ustami czarnemi, od gorączki szeptała, zapatrzona bezmyślnie w okno.</p>
 <p>— Co dalej? Co dalej?</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Sezon się skończył.</p>
 <p>Cabiński wyjeżdżał do Płocka, z zupełnie nowem towarzystwem, bo mu Topolski zabrał najlepsze siły, a reszta rozpierzchła się po różnych towarzystwach.</p>
@@ -4331,7 +4325,6 @@ ma już śladu na świecie. Przenikały ją takie dźwięki, takie słowa, takie
 <p>Kotlicki czytał tę wiadomość kilka razy z rzędu, marszczył się, bladł, targał wąsy, znowu czytał, wreszcie zmiął „Kurier” i rzucił go ze złością na ziemię.</p>
 <p>— Komedyantka! Komedyantka!… — szepnął pogardliwie, zagryzając usta.</p>
 <p>Wolbórka, dn. 15 listopada 1894 r.</p>
-</div>
 </div>
 </body>
 </text>

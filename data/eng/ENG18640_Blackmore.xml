@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENG18640" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENG18640" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,12 +23,12 @@
             </extent>
             <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662490">ELTeC-eng release 1.0.1</ref>
 </publicationStmt>
             <sourceDesc><bibl type="digitalSource"><title>Clara Vaughan by R.D. Blackmore (3 volumes)</title>
                     <ref target="http://www.gutenberg.org/files/41020/41020-h/41020-h.htm">Gutenberg: vol 1</ref>; 
@@ -60,6 +63,7 @@
             </textDesc>
         </profileDesc>
         <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
             <change when="2020-05-19">Add text classifications from Bassett</change>
             <change when="2019-11-09">Checked by releaseChecker script</change>
@@ -7299,10 +7303,10 @@
                             some one, whom I think of, is not hard to please. Straight upon the
                             thought of him—Ah well.</p>
                         <p>My father used to quote from the "Hero and Leander" a beautiful verse,
-                            which neither he nor any other could in English render duly,
-                                <quote>[Greek: Aidoûs hyròn éreuphos apostazousa prosôpou.]—v. 173.
-                                "Showering from her cheek the flowing carmine of her
-                            shame."</quote></p>
+                            which neither he nor any other could in English render duly,</p>
+                                <quote><l>[Greek: Aidoûs hyròn éreuphos apostazousa prosôpou.]—v. 173.</l>
+                               <l> "Showering from her cheek the flowing carmine of her
+                            shame."</l></quote>
                     </div>
                     <div type="chapter">
                         <head>CHAPTER XII.</head>
@@ -8082,7 +8086,7 @@
                             neither have they sequence, impress, or seen image: only a broad stream
                             gliding, whence and whither I know not. How can I describe to others
                             what I cannot tell myself?</p>
-                        <p>"Glost'! Glost'! change here for Chelt'm!" &amp;c. broke my dreaming
+                        <p>"Glost'! Glost'! change here for Chelt'm!" etc. broke my dreaming
                             suddenly. It was eleven at night. I had come unwrapped; the heavenly
                             country and nature's tide forgot to keep me warm. Out I came upon the
                             platform, and dreamily began to seek my carpet-bag, for I had no heavy
@@ -11908,7 +11912,7 @@
                             like a white cloud, floated on the morning sky.</p>
                     </div>
                     <div type="chapter">
-                        <head>CHAPTER XIV.EDGAR VAUGHAN's STORY CONTINUED. </head>
+                        <head>CHAPTER XIV. EDGAR VAUGHAN's STORY CONTINUED. </head>
                         <p>On the Saturday night, an excellent supper was ready: the Signor's own
                             particular plate was at the head of the table, and by it gleamed, in a
                             portly bottle, his favourite Rogliano. Little Harry, who could say
@@ -12125,7 +12129,7 @@
                             the next morning. Clara, I can't tell you any more now.</p>
                     </div>
                     <div type="chapter">
-                        <head>CHAPTER XV.EDGAR VAUGHAN's STORY CONTINUED. </head>
+                        <head>CHAPTER XV. EDGAR VAUGHAN's STORY CONTINUED. </head>
                         <p>Before my own and only love departed, she knew, thank God, she knew as
                             well as I did, that I had never wronged her pure and true affection. But
                             it was long before I learned what had so distressed her. Though she
@@ -12285,7 +12289,7 @@
                             Be it so: if it were a dream, Lily's angel brought it.</p>
                     </div>
                     <div type="chapter">
-                        <head>CHAPTER XVI.EDGAR VAUGHAN's STORY CONTINUED. </head>
+                        <head>CHAPTER XVI. EDGAR VAUGHAN's STORY CONTINUED. </head>
                         <p>The next day I was a different man. All my energy had returned, and all
                             my reasoning power; but not, thank God, the rigour of my mind, the petty
                             contempt of my fellow-men. Nothing is more hard to strip than that coat
@@ -12395,8 +12399,8 @@
                         <p rend="left medium pfirst">LEPARDO DELLA CROCE."</p>
                     </div>
                     <div type="chapter">
-                        <head>CHAPTER XVII.EDGAR VAUGHAN's STORY CONTINUED. </head>
-                        <p>&gt;Instead of enraging or maddening me, as the writer perhaps expected,
+                        <head>CHAPTER XVII. EDGAR VAUGHAN's STORY CONTINUED. </head>
+                        <p>Instead of enraging or maddening me, as the writer perhaps expected,
                             this execrable letter did me a great deal of good. I determined to lower
                             that insufferable arrogance; and brought all my thoughts to bear upon
                             one definite object, the recovery of my darlings and the punishment of
@@ -12689,8 +12693,8 @@
                             darling little ones.</p>
                     </div>
                     <div type="chapter">
-                        <head>CHAPTER XVIII.EDGAR VAUGHAN's STORY CONCLUDED. </head>
-                        <p>&gt;They put me in the very hammock where that murderer of all my
+                        <head>CHAPTER XVIII. EDGAR VAUGHAN's STORY CONCLUDED. </head>
+                        <p>They put me in the very hammock where that murderer of all my
                             happiness had slept, and no wonder that I could find no rest there. Soon
                             as I knew the reason, I was allowed to change, and crept into the little
                             berth where my innocent pets had lain in each other's arms. Here I slept
@@ -12716,7 +12720,7 @@
                         <p>The weekly gazette in my hand was one of those which use the shears with
                             diligence and method. Under the heading "Provincial News," I found the
                             following paragraph:—</p>
-                        <quote>"SEASONABLE BENEVOLENCE.—We understand that in these times of severe
+                        <quote><p>"<label>SEASONABLE BENEVOLENCE</label>.—We understand that in these times of severe
                             and unmerited pressure upon the agricultural interest—the true back-bone
                             of old England—the head of one of our most ancient and respected county
                             families has announced his intention of remitting to all his tenantry no
@@ -12735,7 +12739,7 @@
                             Senate the opinions and wishes of this great county, than the scion, we
                             had almost said spawn, of the Manchester mushrooms, whom a Castle that
                             shall be nameless is attempting to foist on the county? We pause for a
-                                reply.—<hi rend="italic">Gloucester Argus</hi>."</quote>
+                                reply.—<label rend="italic">Gloucester Argus</label>."</p></quote>
                         <p>My dear brother's distinguished degree was that of B.A. after a narrow
                             escape from pluck. Clara, don't look offended. Your father had very good
                             abilities, but spent most of his Oxford time in pigeon matches at the
@@ -13387,7 +13391,7 @@
                             not stop to hear, for I wanted to leave him in good spirits.</p>
                         <p>After a rapid journey, I saw dear Annie safe in the arms of her father
                             and mother, and found Mrs. Shelfer at home, and in capital spirits, all
-                            the birds, &amp;c. well, and no distress in the house. Charley was doing
+                            the birds, etc. well, and no distress in the house. Charley was doing
                             wonders, wonders, my good friend, sticking to his work, yes, yes, and
                             not inside the public house for the best part of the week. Leastways so
                             he said, and it would not do to contradict him. And she really did
@@ -15916,7 +15920,7 @@
                             came to the lodge. Old Whitehead came out, hat in hand, and whispered
                             something into Mrs. Fletcher's ear. That good old lady had been worrying
                             me dreadfully about her jams, for the weather was so hot, she was sure
-                            all the fruit would be over, &amp;c., none of which could I listen to
+                            all the fruit would be over, etc., none of which could I listen to
                             now. As Whitehead spoke, I saw through my half-open lashes that she
                             started violently; but she would not tell me what it was, and I did not
                             want to intrude on secrets that might be between them. The farmer also

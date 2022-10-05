@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xml:id="SPA2001" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xml:id="SPA2001" xml:lang="es">
 	 <teiHeader>
  		 <fileDesc>
    			 <titleStmt>
@@ -19,10 +22,10 @@
 			</extent>
             <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -61,6 +64,7 @@
 			</textDesc>
   		</profileDesc>
   		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
   				<change when="2019-01-16">Anotación parcial formato ELTeC (encabezado): Alba Rodríguez Jiménez</change>
   				<change when="2019-01-16">Anotación completa formato ELTeC: Borja Navarro Colorado</change>
@@ -96,9 +100,7 @@ que cierto salon de los entresuelos del Café Suizo, completamente
 abandonado del público; la casa de Lhardy, que de uvas a peras
 mostraba en su escaparate algunas cabezas de jabalí, como disponía
 en sus cocinas algunas comidas de encargo; y el llamado, a la
-francesa, 
-     <foreign xml:lang="FRA">restaurant</foreign>
-     de Farrugia, sito a la
+francesa, <foreign xml:lang="FRA">restaurant</foreign> de Farrugia, sito a la
 entrada de la Carrera de San Jerónimo, casi en la desembocadura de
 la Puerta del Sol, donde un aficionado al bien comer se arruinaba,
 por dar platos buenos a bajo precio, y por fiar demasiado en las
@@ -224,7 +226,7 @@ descontentadizo al contento.
 satisfago a todos. Cuando yo era muchacho tenía por único libro
 cierta obra, que se llamaba 
 
-     <hi rend="italic">Almacén de los niños</hi>
+     <title>Almacén de los niños</title>
      , obra preciosa.
     </p>
     
@@ -1168,10 +1170,7 @@ que el sol espléndidísimo iluminaba, era una escena de exterminio a
 cuya tristeza hubieran cuadrado mejor espesísimas tinieblas y
 torrentes de lágrimas. Si algún observador hubiera podido abarcar
 Madrid antes de amanecer, como lo abarcaba desde la cima de los
-campanarios don Cleofás en 
-
-     <hi rend="italic"> El Diablo cojuelo </hi>
-     , viera vagar por todas
+campanarios don Cleofás en <title>El Diablo cojuelo</title>, viera vagar por todas
 partes hombres del pueblo que discurrían de aquí para allá con
 sigilo y que se daban al oído misteriosas consignas. A pesar del
 tiempo y de la estación, iban los más envueltos en largas capas y
@@ -4091,10 +4090,7 @@ años; y todas ellas, de tipos varios, tienen particulares encantos.
 Esta es rubia y pálida y delgada como la aparición de Ofelia que
 atraviesa, luz entre sombras, las dudas y los terrores y los
 remordimientos esparcidos en el más sublime de los dramas modernos,
-en el 
-
-     <hi rend="italic"> Hamlet </hi>
-     ; aquélla, por la línea esférica de su
+en el <title>Hamlet</title>; aquélla, por la línea esférica de su
 cabeza que anuncia la benevolencia, por la lumbre de sus ojos que
 anuncia la pasión, y por la esbeltez de sus formas que revelan la
 más acabada hermosura meridional, se asemeja completamente a una
@@ -4209,16 +4205,8 @@ Historia, Fidias en lo antiguo y Rafael en lo moderno; la boca
 grande y los labios gruesos, que al abrirse revelaban unos dientes
 de armoniosísimas proporciones y de nívea blancura, el aire de su
 persona, en que mezcló naturaleza a la majestad más solemne el más
-exquisito recogimiento y la más sencilla modestia.
-    </p>
-    
-
-    <p>
-     Elena tenía lo que llamaban los
-latinos 
-
-     <hi rend="italic"> prestancia </hi>
-     , una hermosura imponente, sin
+exquisito recogimiento y la más sencilla modestia.</p>
+<p>Elena tenía lo que llamaban los latinos <emph>prestancia</emph>, una hermosura imponente, sin
 dejar de ser femenina y delicada. La suavidad era en ella como la
 fragancia en las flores, esencia misteriosa que se exhalaba de cada
 una de sus facciones como de cada una de sus palabras. A esta
@@ -4559,11 +4547,7 @@ conocimiento claro de la moral; vencemos los monstruos que por
 todas partes abortan contra nosotros los abismos, porque llevamos
 en una mano la clave de Hércules, y en otra mano la antorcha de
 Prometeo. Yo soy al revés de ti, Federico. Yo si atiendo al
-Universo, oigo un 
-
-     <hi rend="italic"> Te-Deum </hi>
-     elevado a su Creador en coro por todas
-las cosas creadas; yo si atiendo a la tierra, veo que de aquellos
+Universo, oigo un <title><foreign xml:lang="LAT">Te-Deum</foreign></title> elevado a su Creador en coro por todas las cosas creadas; yo si atiendo a la tierra, veo que de aquellos
 períodos de catástrofes y de combates hemos pasado a este período
 de paz y de armonía en que el trabajo produce todo lo necesario a
 nuestra conservación y a nuestro sustento; yo si atiendo a la
@@ -4853,11 +4837,7 @@ propone perpetuar la especie, y que sólo desea tener sucesión y
 legar una herencia. Los seres verdaderamente enamorados no se
 ocupan sino el uno del otro; no se consagran sino al placer de
 amarse por el amor mismo. La pasión brota con una espontaneidad que
-excluye todas esas consideraciones 
-
-     <hi rend="italic"> a posteriori</hi>
-     
-     , las cuales muestran el amor en
+excluye todas esas consideraciones <foreign xml:lang="LAT">a posteriori</foreign>, las cuales muestran el amor en
 su filosofía, como el naturalista muestra los animales en su
 gabinete, disecado. El amor es un deseo tiránico. Y lo primero que
 tras sí el deseo se lleva con irresistible ímpetu, como un huracán

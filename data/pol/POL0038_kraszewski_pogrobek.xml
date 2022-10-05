@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0038">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">70511</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Pogrobek</title>
 <ref>http://wolnelektury.pl/katalog/lektura/pogrobek</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Pogrobek</title>
 <author>Kraszewski, Józef Ignacy</author>
 <publisher>Warszawa: Spółka Księgarzy Warszawskich</publisher>
 <date>1880</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -55,7 +60,7 @@
 </div>
 </front>
 <body>
-<div>
+<div type="liminal">
 <quote>
 <p>
 Prezesowi</p>
@@ -70,10 +75,7 @@ Prezesowi</p>
 <p>Drezno.</p>
 </quote>
 </div>
-<div>
-<p>Tom Pierwszy</p>
-</div>
-<div>
+<div type="group"><head>Tom Pierwszy</head>
 <div type="chapter"><head>Rozdział I</head>
 <p>Ze wszystkich dworów książęcych w Polsce w drugiej połowie
 XIII wieku, nie było mniej wystawnego, skromniejszego nad kaliski, księcia Bolesława, zwanego Pobożnym. Wojak zawołany
@@ -345,8 +347,7 @@ jako pragnie i jak wy żądacie, ale strzeżcie go! Strzeżcie!</p>
 który brzmiał radością i zwycięstwem. — Na Santok! Na Santok!
 Choćby dziś jeszcze!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział I</head>
 <p>W kilka dni potem książę Bolesław sam znowu ze swą zimnicą i starym księdzem Malcherem siedział na kaliskim zamku,
 szerzej niż zwykle wiosenną wodą Prosny oblanym. Przemko
@@ -675,8 +676,7 @@ się one zapalają, ale i gasną prędko. <emph>Caro infirma</emph> — cielsko 
 <p>— Sposóbcież siebie i jego do podróży — zakończył książę,
 wychodząc.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział II</head>
 <p>W czasie pobytu w Poznaniu, stryj na chwilę od siebie nie
 odpuszczał Przemka, w nocy jednak spać musiał, a choć w komorze sąsiedniej kładł się na spoczynek, tak że ich ściana tylko dzieliła, śpiący snem twardym książę kaliski nie wiedział o tym, jak
@@ -988,8 +988,7 @@ dolatujące przerywały okrzyki, aż stary pan i sługa stary usnęli
 jeden na wezgłowiu, drugi u nóg jego na podłodze. I przespali
 tak dziewiczy wieczór, a gdy nad ranem przebudzili się, w zamku po nocnej biesiadzie wszystko twardym snem ujęte leżało.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział I</head>
 <p>Skwarny dzień był lipcowy, niebo wypogodzone miało barwę dni letnich, płową od gorąca i jakby oparami przyćmioną. Słońce, zniżając się ku zachodowi, pozbawione promieni, toczyło się
 jak krwawa kula, wkrótce mając w pościeli mglistej zatonąć.
@@ -1302,8 +1301,7 @@ Przemko marszczył się już.</p>
 <p>— Niedawno wrócił — zamruczała — a gdzie był, to ja wiem!
 I musiało tak być! Ta go nie puści!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>Gody w Poznaniu trwały całą niedzielę. Ziemian przyjmowano, którzy nie tylko z okolic, od Kalisza i Gniezna, z Kaszub
 i dalszych stron przybywali z podarkami i winszowaniem. Książę
@@ -1613,8 +1611,7 @@ Przy niej zaś wszystko milkło i smutniało. Wkrótce też dla chłodu
 i późnej jesieni musiały ustać te wycieczki i Lukierda w izbach
 się swoich zamknęła. Jak ze wszystkim na świecie oswaja się człowiek, i ona z wolna obyła się ze swą niewolą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>Upłynęło dwa lata albo raczej przewlokły się one ciężkimi
 kroki, wydając jakby wiekami dwoma. Nic prawie nie zmieniło się
@@ -1953,8 +1950,7 @@ za sobą zamykając z hałasem.</p>
 <p>Henryk Otyły wstał.</p>
 <p>— Szatan nie baba — rzekł — ale żeby w Lignicy dla was tysiąc grzywien znalazła, wierzyć mi się nie chce.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VI</head>
 <p>W ciągu niewielu godzin, które na zamku lignickim spędziła,
 Mina się już dobrze z ludźmi obeznała. Ująć sobie potrafiła kilku
@@ -2247,8 +2243,7 @@ musi. Zaniosła wiadomość tę do Miny przyjaciółka.</p>
 Mina — Łysy trzyma Dorenową, nic im nikt nie śmie rzec!
 Czemu by Przemko nie miał żyć ze mną?!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VII</head>
 <p>Z niewoli u Rogatki wróciwszy, Przemko lat kilka spoczywał, zemstę w sobie karmiąc i starając się wzmóc w siły. Gdy
 w niewieścich komnatach baby przeciw nieszczęśliwej Lukierdzie
@@ -2544,8 +2539,7 @@ Od nich dowiedział się, że Orcha kędyś przepadła, a Mina się do
 księżnej wcisnęła, która chorą była i nieszczęśliwą. Zaciął usta,
 usłyszawszy to, Zaręba i nie otwarłszy już ich, jechał tak gniewny do Poznania, iż nikt się doń przybliżyć nie śmiał.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział I</head>
 <p>Gdy Lukierdzie dano znać, że książę pan powrócił, zdawała
 się nie rozumieć tego i nie wyszła przeciw niemu. Słyszała czy
@@ -3041,11 +3035,8 @@ Dosyć już mam i tego trupa, i tego narzekania! Póty!</p>
 <p>Uśmiechnęła się, spoglądając na drzwi.</p>
 <p>— Mam słowo! Uwolnim cię od niego!</p>
 </div>
-<div>
-<p>Tom Drugi</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom Drugi</head>
 <div type="chapter"><head>Rozdział I</head>
 <p>Zarębów i Nałęczów ród już naówczas po całej Polsce był
 rozsiadły. Dosyć ich znajdowało się na dworach śląskich, w Poznaniu, Krakowie, na Mazowszu, ale daleko więcej obojga tego zawołania ziemian po dworach swoich i gródkach siedziało.</p>
@@ -3314,8 +3305,7 @@ Cicho musimy iść, aby do swego dojść.</p>
 <p>Zasiedli więc u Tomka, skąd Zaręba po kryjomu począł na
 różne strony się wymykać, swoich i Nałęczów podburzając przeciw księciu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział I</head>
 <p>Kanclerz Wincenty, wyjechawszy z Poznania po cichu, tak
 że mało kto z bliższych wiedział o jego podróży, ściągnął pierwszego dnia na nocleg do wsi kościelnej, w której na probostwie
@@ -3622,8 +3612,7 @@ lud powie, co się stało! Zabójstwo było jawne, wie o nim cały
 <p>Zaręba jęknął, uderzył się w czoło, rzucił ku drzwiom i jakby spełniał obowiązek, rozwożąc wieść o morderstwie, siadł na
 koń z towarzyszem, lecąc dalej.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział II</head>
 <p>Noc z dnia trzynastego na czternasty grudnia na zamku
 w Poznaniu była przygotowaną już dniem poprzedzającym. Mina,
@@ -3935,8 +3924,7 @@ zamkniętych: „Przebaczam ci — lecz Bóg…”</p>
 <p>A z głębi kościoła przynosił mu szmer tłumu słowa Zaręby:</p>
 <p>„Karan będziesz śmiercią gwałtowną, jaką poniosła ona…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział I</head>
 <p>Pogrzeb księżnej jeszcze się nie dokonał, ciało właśnie do
 grobów spuszczać miano, gdy na zamek wieść przyniesiono, że
@@ -4259,8 +4247,7 @@ kazał siodłać i zniknął.</p>
 że wyjechał do majętności swych i dość długo oczekiwano nań
 w zamku. Kędy się zabawiał, nie wiedział nikt. Donoszono do Poznania o tym, iż Sędziwój mało nad bezpieczeństwem grodu powierzonego mu czuwał, ale nic nie zdawało się zagrażać.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>Na zamku wrocławskim od zgonu Henryka Brodatego niemało się razy panowie i dwory zmieniały. Coraz inaczej wyglądało to siedlisko główne Piastów śląskich, które, choć od niego dzielnic wiele oderwano, zawsze się za ich stolicę uważało. Dobijali się oń z kolei potomkowie św. Jadwigi rozrodzeni, a w tych
 rozterkach książęcych miasto samo i ludność jego coraz większego nabywało znaczenia.</p>
@@ -4522,8 +4509,7 @@ przenieść. Wjechał z oczyma spuszczonymi, wprost udając się do
 kaplicy, którą arcybiskup, z klasztoru się sąsiedniego zapożyczywszy, jako tako przybrać kazał. Tu pokląkłszy, uspokojony nieco,
 modlił się długo.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>W rok potem we wrześniu, Poznań jak niegdyś, gdy się
 sposobił powitać młodą panią swą ze Szczecina, przystrajał się na
@@ -4829,8 +4815,7 @@ wszystek nuci.</p>
 jej okryła się rumieńcem, oczy nabiegły łzami. Skinęła na starą
 towarzyszkę, aby do komnat powracać.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VI</head>
 <p>Nie była to słaba i płacząca, a przelękła Lukierda. Wprędce
 ochłonąwszy, córka Północy odzyskała męstwo. Mówiono jej
@@ -5100,8 +5085,7 @@ moje, a naówczas nie ujdzie śmierci.</p>
 poprzysięgał, że albo sprawa w tym była diabelska lub nieprzyjaciół książęcych. On pewien był, że omylić się nie mógł. Zaręba,
 gdy się to działo, zbiegłszy wraz z Nałęczem, już się u swych powinowatych ukrywał.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VII</head>
 <p>Dziewięć lat upłynęło od ożenienia Przemysława, czasu
 przeciąg wielki, który też znaczne sprowadził zmiany. Najśmielsze
@@ -5320,8 +5304,7 @@ spodziewano, i Ryksie kazał być dobrej myśli. Wysłano gońców,
 aby się dowiedzieć o wracającym, i nazajutrz zbliżanie się jego
 oznajmiono.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział I</head>
 <p>Przemysław spieszył z powrotem i miał do Gniezna jeden tylko dzień podróży, naprzód bowiem wyznaczono popasy
 i noclegi, na których go ziemianie oczekiwali, gdy w jednej ze wsi,
@@ -5625,8 +5608,7 @@ pociągnęli ku lasom.</p>
 obrzęd koronacyjny odbyć się miał w Gnieźnie, dokąd biskupi
 z całej Polski zjechać mieli.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział X</head>
 <p>Piękny był ów dzień 26 czerwca 1295 roku, gdy wiosennego
 poranka niezliczonym tłumem ziemian ze wszystkich polskich
@@ -5896,8 +5878,7 @@ w swą stronę się wynosił.</p>
 <p>— Teraz — zaśmiał się Michno, powracając do swej lepianki — gdy dwu Ottonów mamy z sobą, nie ujdzie nam królik! Niech
 się po godach wysapią, a sprawiemy im lepsze od tych.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział X</head>
 <p>Ze spuszczoną głową nad stołem stojąc, ksiądz Teodoryk
 przypatrywał się, jak na gorącym wosku pisarz Tylon ogromną

@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0074" xml:lang="pt">   
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0074" xml:lang="pt">   
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -16,16 +19,16 @@
 </respStmt>
 </titleStmt>
 <extent>
-<measure unit="words">101018</measure>
+<measure unit="words">100553</measure>
 </extent>
 <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3492067">ELTeC-por</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271644">ELTeC-por release 0.9.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4288235">ELTeC-por release 2.0.0</ref>
 <!--Added to ELTeC repo on 17-7-2020--></publicationStmt>
 <sourceDesc><bibl type="digitalSource">
 <title>A Mulata</title> 
@@ -59,7 +62,7 @@
 
 </profileDesc>
 <revisionDesc>
-<change when="2020-11-14">Converted by checkUp script for new release</change>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-07-16">Adicionado à coleção ELTeC</change>
 </revisionDesc>
 </teiHeader>
@@ -1440,7 +1443,7 @@
 <p>Pela rua estreita, de lojas fechadas, com dois lampeões ardendo nas extremidades, um bando de mascaras esvasiou de um portal, caminhou para elle, gesticulando e gritando, aos encontrões pelo mesmo passeio. Então, para evitar d'esbarrar n'aquella imrnundicie, decidiu entrar e perder-se na escuridão da escada. </p>
 <p>Anna seria talvez rasoavel e indulgente, comprehendendo o tormento do seu coração empenhado em salvaFa. Seria fácil convencer até ao perdão a sua alma humilde e elle ver-se-ia livre doesse peso, de bem comsigo mesmo, aliviado d'aquelle remorso. </p>
 <p>Devia-lhe essa hora de consolação; iria escutar-lhe piedosamente as lagrimas, reerguer-lhe o animo abatido, reaccendendo uma esperança 'n'esse pobre coração desilludido. Ficar-lhe-ia ao depois, de todo esse drama penoso e triste, apenas a pallida e romântica amargura de ter pisado uma existência -- pouco mais que o esmagar de um carreiro de formigas... </p>
-<p>Meu Deus ! elle não podia ser um reformador. Soííria a sua parte no grande crime collectivo de uma sociedade viciada de injustiça. O seu sacrifício não iria atalhar a nascente do grande vicio social, nem apressar o advento da humanidade perfeita: o desdobramento eterno e infinito da familia; a consciência solidaria do bem e da virtude, não permittindo a inutilisação criminosa de uma vida, a decadência da mulher, a dispersão das famílias. Mas chegado a cima, o medo de ha pouco gelou-o e a consciência da barbaridade commettida foi tão viva, que lhe veio a certeza de que €ssa mulher infeliz o ia expulsar da vista, indignada. </p>
+<p>Meu Deus ! elle não podia ser um reformador. Soííria a sua parte no grande crime collectivo de uma sociedade viciada de injustiça. O seu sacrifício não iria atalhar a nascente do grande vicio social, nem apressar o advento da humanidade perfeita: o desdobramento eterno e infinito da familia; a consciência solidaria do bem e da virtude, não permittindo a inutilisação criminosa de uma vida, a decadência da mulher, a dispersão das famílias. Mas chegado a cima, o medo de ha pouco gelou-o e a consciência da barbaridade commettida foi tão viva, que lhe veio a certeza de que essa mulher infeliz o ia expulsar da vista, indignada. </p>
 <p>N'um relance, viu-se tal como era, cobarde, egoista e cruel, trazendo uma compaixão hypocrita a essa mulher de que se servira e que deitava para a miséria, como um trapo. Então, atemorisado pelo grande silencio, pela treva espessa que invadia tudo, recuou de novo até ás escadas e só parou em casa, a tempo de entrar novamente na sala quando o Domingos ia atravessando o corredor com a bandeja do chá. </p>
 <p>Em volta da mesa, que uma lâmpada Carcel illuminava sob um para-luz de seda e rendas, houve longamente o rugir dos vestidos nas poltronas. Os homens chegaram-se, arrastando cadeiras, e a conversa animou-se por um instante quando o Conde de Ladario fallou do concerto da Viscondessa da Silveira -- a Silveirinha -- no domingo passado, em Cintra. </p>
 <p>-- Musica toda franceza -- disse -- encolhendo desdenhosamente os hombros. </p>

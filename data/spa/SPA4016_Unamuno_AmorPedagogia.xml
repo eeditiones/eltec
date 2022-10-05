@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="SPA" xml:id="SPA4016">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="es" xml:id="SPA4016">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -16,10 +19,10 @@
 			</extent>
 			<publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -57,6 +60,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-07-21">Borja Navarro Colorado : revisión de etiquetado ELTeC y anotación complementaria.</change>
 			<change when="2020-07-21">LB convert to ELTeC-1</change>
@@ -1561,23 +1565,21 @@
 			</div>
 			<div type="liminal">
 				<head>APUNTES PARA UN TRATADO DE COCOTOLOGÍA</head>
-
-				<div>
-					<head>Prolegómenos</head>
+					<label>Prolegómenos</label>
 					<p>En esta parte ha de tratarse de todo lo divino y lo humano, de lo conocido, de lo desconocido y de lo inconocible, arrancando siempre, a poder ser, de la nebulosa o del homogéneo primitivo si fuere preciso. Es de grandísimo interés ante todo y sobre todo establecer el concepto de la ciencia, pues sin haber establecido tal concepto es absolutamente imposible dar un solo paso en firme en ciencia alguna. Lo del concepto de la ciencia nos llevará a tratar del problema del conocimiento, y con todo esto se puede llenar muy bien un tomo de regulares dimensiones.</p>
-				</div>
-				<div>
-					<head>Historia de la Cocotología</head>
+					
+					<milestone unit="section"/>
+					<label>Historia de la Cocotología</label>
 					<p>Empezaré diciendo que la historia de la cocotología, como la de todo lo existente, posible y concebible, se pierde en la noche de los tiempos, y acudiré al <title>Larousse</title> a ver qué dice ella. Y como es de suponer que no diga nada, consideraré a las pajaritas de papel como un juego infantil y haré la historia de los juegos infantiles y de todos los juegos en general. Con esto bien puede llenarse otro tomo.</p>
-				</div>
-				<div>
-					<head>Razón de Método</head>
+					
+					<milestone unit="section"/>
+					<label>Razón de Método</label>
 					<p>Aquí expondré el por qué trato primero de lo primero y segundo de lo segundo y por qué lo tercero ha de ir antes de lo cuarto y después de este lo quinto. Esta es una parte muy importante y en que se requiere mucho pulso.</p>
 					<p>Sabido es, en efecto, que el método lo es todo y que la ciencia se reduce al método, es decir, al camino, pues método significa en griego camino. Y teniendo en cuenta que hay dos clases de caminos, vías o métodos, unos parados, por los que el caminante discurre y anda, como son los caminos terrestres, y otros «caminos que andan», que llevan al caminante, como son las vías fluviales o ríos, dividiré a los métodos, y por consiguiente a las ciencias que los encarnan, en dos grandes grupos: métodos parados o terrestres y métodos en movimiento o fluviales. De aquí las ciencias terrestres y las ciencias fluviales.</p>
 					<p>Y si me dijeren que esto es jugar con la metáfora, replicaré que todo es metáfora y así saldré del paso. Forzaré, además, la metáfora hablando de caminos o métodos férreos, como los de las matemáticas, aéreos, funiculares, vecinales, senderos, veredas, atajos, etc., y terminaré de una manera magnífica y altamente sugestiva hablando del mar, que todo él es camino, y comparándolo con la filosofía, y del aire, que también es todo él camino, comparándolo con la poesía. Porque es preciso hacer entrar la poesía entre las ciencias. Aquí encajará lo de los «húmedos senderos» de Homero y con tal ocasión hablaré de Homero y del helenismo.</p>
-				</div>
-				<div>
-					<head>Etimología</head>
+					
+					<milestone unit="section"/>
+					<label>Etimología</label>
 					<p>La palabra cocotología se compone de dos: de la francesa <foreign xml:lang="FRA">cocotte</foreign>, pajarita de papel, y de la griega <foreign xml:lang="GRC">logia</foreign>, de <foreign xml:lang="GRC">logos</foreign>, tratado. La palabra francesa <foreign xml:lang="FRA">cocotte</foreign> es una palabra infantil y que se aplica en su sentido primitivo y recto a los pollos y por extensión a todas las aves. En sentido traslaticio a las pajaritas de papel y a las mozas de vida alegre. Aquí habré de extenderme en una comparación entre estas mozas y las pajaritas, frágiles como ellas.</p>
 					<p>La primera cuestión que surge respecto al nombre de nuestra nueva ciencia es que es el tal un nombre híbrido, como el de sociología, compuesta de una palabra latina y otra griega, y son muchas las personas graves que han visto en eso del hibridismo de su título un fuerte argumento en contra de la nueva <emph>sociología</emph>.</p>
 					<p>Acaso fuera mejor llamar a nuestra ciencia papyrornithología (παπυρορνιθιολια), de las palabras griegas <foreign xml:lang="GRC">papyros</foreign> (<foreign xml:lang="GRC">παπυρος</foreign>) papel, <foreign xml:lang="GRC">ornithion (όρνιθιον)</foreign> pajarita y <foreign xml:lang="GRC">logia</foreign>, pero le encuentro a este nombre graves inconvenientes que me reservo mostrar cuando publique el tratado.</p>
@@ -1590,28 +1592,28 @@
 					<p>Y, por último, para acabar con las citas, conviene trascribir aquí aquellos preñados versos en que nos dice Shelley en su <title>«Prometeo desencadenado»</title> (<title>Prometheus unbound</title>, act. II. sc. IV) que «dio al hombre el lenguaje y el lenguaje creó el pensamiento, que es la medida del universo.»</p>
 					<p>He gave Man speech, and speech created thought which is the measure of the universe.</p>
 					<p>Con todas estas y otras consideraciones acerca del nombre, consideraciones que sacaré de mi cuadernillo rotulado Onomástica, justificaré la importancia capital que tiene el nombre que doy a la nueva ciencia, y como al nombrarla la creo. Porque el nombre y su etimología debe preceder a la definición misma.</p>
-				</div>
-				<div>
-					<head>Definición</head>
+					
+					<milestone unit="section"/>
+					<label>Definición</label>
 					<p>Aquí, después de exponer lo que es la definición y cuantas maneras de definición pueden darse y de dar la etimología de la palabra definición, pasaré a estampar cuantas definiciones pueden darse de la cocotología, empezando por la más sencilla de que es la ciencia que trata de las pajaritas de papel.</p>
-				</div>
-				<div>
-					<head>Importancia de nuestra Ciencia</head>
+					
+					<milestone unit="section"/>
+					<label>Importancia de nuestra Ciencia</label>
 					<p>Es importantísimo el dejar bien asentada <foreign xml:lang="LAT">a priori</foreign> la importancia de la ciencia de que se va a discurrir, no sea que los lectores torpes no lo conozcan. Es esto tan importante como lo que hacen ciertos predicadores dialécticos que después de desarrollar un argumento añaden: «queda, pues, evidentemente demostrada… tal o cual cosa», no sea que el oyente no lo haya conocido.</p>
 					<p>La importancia de la cocotología es que, como veremos más adelante, puede llegar a ser ciencia perfecta.</p>
-				</div>
-				<div>
-					<head>Lugar que ocupa entre las demás ciencias y sus relaciones con estas</head>
+					
+					<milestone unit="section"/>
+					<label>Lugar que ocupa entre las demás ciencias y sus relaciones con estas</label>
 					<p>He aquí dos puntos capitalísimos y que se prestan a no poca discusión. En realidad el segundo depende del primero, pues para colocar a nuestra ciencia en el lugar preeminente que le corresponde, tenemos que determinar antes sus relaciones con las demás ciencias.</p>
 					<p>Relaciónase con las físico-químicas porque el papel, sea fino sea de estraza, con que las pajaritas se hacen, está sujeto a las leyes todas físicas y químicas; pesa, refleja un color, da un sonido si se le hiere, se dilata por el calor, arde al fuego, es sensible a ciertos ácidos, etc., etc. Se relaciona con las ciencias naturales porque dicho papel se extrae de materias vegetales, y sin conocer estas mal se puede conocer bien tal papel. Relaciónase con la psicología, porque las pajaritas de papel ayudan al desarrollo de la psique infantil, y con las ciencias sociales por su valor como juego de los niños. Pero ante todo y sobre se relaciona, como veremos, con las ciencias matemáticas, porque la pajarita de papel adopta formas geométricas definidas y puede someterse a fórmula analítica.</p>
-				</div>
-				<div>
-					<head>División</head>
+					
+					<milestone unit="section"/>
+					<label>División</label>
 					<p>Aquí trataré de la división de la cocotología, pues no cabe tratar ciencia alguna sin dividirla antes por I, II, III, A, B, C, 1, 2, 3, a, b, c, etc.</p>
 					<p>La ciencia no puede ser fluyente y continua como una vena de agua, es menester que sea quieta y discontinua como un rosario.</p>
-				</div>
-				<div>
-					<head>Embriología</head>
+					
+					<milestone unit="section"/>
+					<label>Embriología</label>
 					<p>He de empezar por el estudio de la embriología de la pajarita de papel, a partir del cuadrado primitivo de papel, que salido del protoplasma papiráceo, es el óvulo de donde la pajarita habrá de desenvolverse. Y tal óvulo tiene que ser por fuerza cuadrado, lo más perfectamente cuadrado que quepa, sin que sirva que sea un cuadrilátero o paralelepípedo, pues de este no sale más que un monstruo, como puede comprobarlo el investigador si, como nosotros, lo ensaya.</p>
 					<p>El óvulo-cuadrado papiráceo experimenta primero la vuelta o involución de sus cuatro ángulos cuyos extremos vienen a coincidir en el centro, produciéndose el segundo período, el de <emph>blastotetrágono</emph>, en que hay dos capas, la formada por los cuatro extremos plegados, el <emph>endodermo</emph> o <emph>endopapiro</emph>, y la formada por el centro del óvulo-cuadrado, el <emph>ectodermo</emph> o <emph>ectopapiro</emph>.</p>
 					<p>Una vez obtenido este segundo período experimenta el <emph>blastotetrágono</emph> un tercer pliego, una tercera complicación, volviéndose las puntas de él hacia el lado inverso de aquel a que las primeras se volvieron, es decir, hacia el endopapiro, y así tenemos la gástrula papirácea. De esta puede salir ya, mediante un proceso que describiré minuciosamente en mi obra —obra ilustrada con exactos grabados— la primera forma de pájaras, la más elemental y primitiva, en que los extremos que se doblaron primero vienen a formar la cabeza, las patas y la cola. De aquí también, mediante otro proceso, puede salir una mesa, la <foreign xml:lang="LAT">trapeza papyracea</foreign>, la forma de tetrápodo o cuadrúpedo más sencilla que se conoce, como que es un cuadrúpedo puro, un mero tetrápodo, a tal punto que hay sabios que opinan, con algún fundamento, que no sirven las cuatro patas para sostener el cuadrado o tablero de la mesa, sino más bien este para soportar las patas. Aquí me extenderé en amplias consideraciones de como este tipo de la <foreign xml:lang="LAT">trapeza papirácea</foreign> lo vemos luego reproducido en todos aquellos organismos superiores, incluso el hombre, en que el cuerpo lleva las extremidades en vez de llevar estas al cuerpo, y estudiaré el tipo <emph>trapeza</emph> en la especie humana, en aquellos hombres cuya razón de ser es tener manos y pies.</p>
@@ -1620,9 +1622,9 @@
 					<p>Esto de que la boca aparezca al mismo tiempo que los bolsillos es uno de los fenómenos más sorprendentes y sugestivos que pueden darse y convendrá que me extienda sobre él cuanto lo merece.</p>
 					<p>A la vez que boca y bolsillos desarróllanse en este quinto grado de la pajarita cuatro costillas pectorales simples a la par que las costillas espaldares se hacen dobles.</p>
 					<p>De los períodos sexto, séptimo, etc., nada diremos, pero sí haré juiciosas y hondas reflexiones acerca de la infinitud del número de estos períodos o grados, de cómo son inacabables. Sin embargo, a cada nuevo grado el grosor de la pajarita crece y la materia opone serias resistencias a su perfección geométrica, que es su razón de ser, por lo cual esos grados superiores están condenados a perecer en la lucha por la existencia, ya que no se adaptan a la perfección geométrica. Y esto nos lleva a la anatomía de la pajarita.</p>
-				</div>
-				<div>
-					<head>Anatomía</head>
+					
+					<milestone unit="section"/>
+					<label>Anatomía</label>
 					<p>La razón de ser, en efecto, de la pajarita de papel es su perfección geométrica, perfección a que todas ellas tienden, aunque no logren alcanzarla jamás.</p>
 					<p>La perfecta pajarita ha de poder ser inscrita en un cuadrado perfecto, como en la figura adjunta vemos, y si recordamos que el óvulo de que salió era un cuadrado de papel, veremos que su perfección consiste en poder inscribirse en su propio óvulo-cuadrado, en mantenerse fiel a su origen. Y de aquí deduciremos que la perfección de todo ser consiste en que se inscriba y atenga a su óvulo generador, en que se mantenga en los límites de su origen.</p>
 					<p>Claro está que en las precarias y miserables condiciones de nuestra vida terrestre y dados entre otros inconvenientes los que la materia presenta —el grosor y otras imperfecciones del papel—, no hay pajarita alguna que cumpla con toda exactitud rigurosa su ideal, su ideal geométrico; ideal que se cierne en el mundo platónico de las ideas puras. El divino arquetipo de la pajarita es una especie geométrica que yace desde la eternidad en el seno de la Geometría.</p>
@@ -1651,9 +1653,9 @@
 					<p>Vamos ahora a la China, a ese país antiquísimo que guarda las más venerables reliquias de la infancia del género humano. Y una vez en China haré un caluroso elogio del interesante pueblo chino para concluir encareciendo la importancia del <emph>tangram</emph> o <emph>chinchuap</emph>, especie de rompecabezas chinesco, que sirve de distracción a los niños y que se ha adoptado en no pocas escuelas de Europa para desarrollar el sentido geométrico de los niños. Consta el <emph>tangram</emph> de siete piecitas de madera u otra materia, cortadas al modo que se ve en la figura adjunta y con las cuales puede hacerse todo género de combinaciones. Es un juego muy conocido.</p>
 					<p>Ahora bien, yo sostengo que semejante juego procede de la pajarita, y que a no más que construir la figura de la pajarita se endereza, ya que sus últimos elementos, aquellos de que sus siete piezas constan, no son ni más ni menos que los dieciséis triángulos rectángulos isósceles de que el cuadrado en que se inscribe la pajarita consta, sin más que la dislocación de dos de ellos. Y buena prueba de que el <emph>tangram</emph> chinesco se enderezaba a la comprensión de la pajarita es que, como se ve en las figuras adjuntas, se forman con sus siete piezas de un lado el óvulo papiráceo juntamente con la figura de la pajarita, pudiendo superponer esta sobre aquel, y de otro lado la pajarita toda.</p>
 					<p>Así proseguiré desarrollando la anatomía geométrica de la pajarita.</p>
-				</div>
-				<div>
-					<head>Origen y fin de la Pajarita</head>
+					
+					<milestone unit="section"/>
+					<label>Origen y fin de la Pajarita</label>
 					<p>El origen de cada <foreign xml:lang="FRA">cocotte</foreign> o pajarita se nos aparece a primera vista muy claro y obvio, la construimos nosotros con nuestras propias manos tomando un pedazo de papel. Mas ya hemos visto que al construirla no pasamos de ser humilde instrumento de una Potencia Suprema e Inteligente que guía nuestras manos. Aquí de lo que quiero tratar es de su origen filogénico, del origen de la especie. Porque nosotros las aprendimos a hacer por haber visto hacerlas, mas ¿quién las ideó primero? ¿las ideó alguien? ¿surgieron de la nada, del azar o de Inteligencia creadora y ordenadora? ¡Grave cuestión!</p>
 					<p>¿Podrá haber quien nos persuada torpemente de que ser tan maravilloso, dotado de tantas y tan excelsas perfecciones, vaso de tan admirables relaciones métricas conmensurables e inconmensurables, estáticas y dinámicas, de que este perfecto ser papiráceo pudo ser obra del acaso? ¿Tendremos que recordar lo de que echando al azar caracteres de imprenta no pudo salir la <title>Ilíada</title>? ¡Lejos de nosotros Demócrito y Leucipo y Holbach y los materialistas todos! ¡Oh ceguera de los hombres! ¡oh dureza de sus corazones! No, no es posible que nos persuadan de doctrinas tan absurdas como impías.</p>
 					<p>Ha surgido en modernos tiempos una secta proterva e impía llamada transformismo, darwinismo o evolucionismo —que con estos y otros tan pomposos nombres se engalana— que en su ceguera y arrogancia pretende que las especies hoy existentes se han producido todas, todas, incluso la humana, unas de otras, a partir de las más sencillas e imperfectas y ascendiendo a las más perfectas y complicadas. Pocas veces se ha visto error más nefasto.</p>
@@ -1667,9 +1669,8 @@
 					<p>Pero llegará el último día, el día del juicio, aquel en que nos veremos todos las caras, el día en que los ignorantes confundirán a los sabios y aquel día oiremos que se les dice a nuestros flamantes sabios modernos:</p>
 					<p>«Sí, es verdad, todo estaba trazado y dispuesto para haceros creer en que unas especies provenían de otras mediante trasformación, incluso el hombre provenir de una especie de mono; todo llevaba vuestra razón naturalmente y como por irresistible fuerza a tal creencia, pero era ¡ay! para probar vuestra fe y ver si creíais más a vuestra pobre, flaca y soberbia razón que no a palabras que por infalibles debíais tener. Cierto es también que apóstoles del error y de la mentira os hablaron de cierta quisicosa que llamaban revelación natural y de que Dios habla por sus obras y de que es la naturaleza su palabra, su verbo, y de que Él os enseñaba el transformismo y de que era esta una doctrina profundamente religiosa y piadosa en cuanto mostraba al hombre una indefinida ascensión de mejora, pero todo eso eran trampas que se os ponía para probar vuestra fe. Y así como a Faraón se le endureció el corazón y una vez con el corazón endurecido no respondió cuando se le llamaba y fue por ello castigado, así se os castigará ahora por haber creído antes a vuestra razón que no a antiquísimas y venerandas palabras.» Y sonará la fatídica trompeta.</p>
 					<p>Tal es, sin duda alguna, el hondo sentido de ese moderno y perniciosísimo error que se llama transformismo, añagaza que a la razón se le antepone. Mas a nosotros debe apartarnos de él la asidua y cuidadosa contemplación de las perfecciones que la <foreign xml:lang="FRA">cocotte</foreign> o pajarita de papel atesora…</p>
-					<milestone unit="section"/>
+					<milestone unit="subsection"/>
 					<p>Aquí termina bruscamente el manuscrito de los <title>Apuntes para un tratado de cocotología</title> del ilustre don Fulgencio, y es lástima que este nuestro primer cocotólogo, el primero en orden de tiempo y de preminencia, no haya podido llevar a cabo su proyecto de escribir en definitiva un tratado completo de la nueva ciencia. Me ha asegurado que piensa refundirla en su gran obra de <title>Ars magna combinatoria</title>, y aún parece ser que fue la cocotología lo que primero le sugirió tan considerable monumento de sabiduría.</p>
-				</div>
 			</div>
 		</back>
 	</text>

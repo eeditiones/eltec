@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0076">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">44297</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Drygałowie</title>
 <ref>https://polona.pl/item/drygalowie-powiesc-ucieszna,MTc0NTcxMjc/4/#info:metadata</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Drygałowie</title>
 <author>Świętochowski, Aleksander</author>
 <publisher>Warszawa: s.n.</publisher>
 <date>1915</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -835,7 +840,7 @@
 <p>Tupanie wraz z ulewą wyzwisk i obelg wytworzyło piekielny hałas, śród którego widać było otwarte usta, ale nie można było rozróżnić pojedyńczych głosów. Wreszcie Maczug, odpocząwszy, zapanował nad zmęczonymi przeciwnikami.</p>
 <p>- Rodzaj człowieczy składa się z istot pracujących i ich pasorzytów, jak gdyby z pcheł i pluskiew, z burżujów. Sprawiedliwa zatem polityka winna dążyć do uszczęśliwiania pierwszych i tępienia ostatnich. Robotnik jest twórcą wszelkich bogactw i wartości kultury, kapitalista-próżnującym ich spożywcą. Gdyby nawet Bóg istniał, niepodobna, ażeby miał jakikolwiek cel w utrzymaniu przy życiu rozbestwionych darmozjadów, a tem bardziej nie może takiego celu mieć ludzkość, walcząca w krwawym trudzie o byt. Ten na zagładę skazany gatunek drapieżców twierdzi, że on przechowuje w swem zgniłem cielsku duszę narodu i dlatego stanowić ma najcenniejszą część jego organizmu. To jak gdyby wrzód twierdził, że on jest mózgiem człowieka. W imieniu mojej partyi oświadczam, że plujemy na wasze obrady, plujemy na wasz patryotyzm, plujemy na wasze ideały, plujemy na was i na wszystko co do was należy i przez was powstaje, plujemy wszystkimi otworami naszego ciała i żałujemy, że ich mamy tak mało.</p>
 <p>Von de Pielesz:</p>
-<p>- W kwestyi formalnej. Ponieważ szanowny mówca wprowadził pewne zmiany do fizyologii swych towarzyszów, więc radzibyśmy wiedzieć, jak w języku socyal'demokratycznym nazywa się ten otwór, przez który wytrysło na nas tyle wonnej śliny></p>
+<p>- W kwestyi formalnej. Ponieważ szanowny mówca wprowadził pewne zmiany do fizyologii swych towarzyszów, więc radzibyśmy wiedzieć, jak w języku socyal'demokratycznym nazywa się ten otwór, przez który wytrysło na nas tyle wonnej śliny&gt;</p>
 <p>Rozsypały się śmiechy.</p>
 <p>- My mówimy ustami - odparł Maczug-r dlatego nas nie rozumiecie.</p>
 <p>- N igdy bym nie przypuszczał-rzekł von de Pięles^-że usta mogą wydawać takie tony.</p>
@@ -1113,7 +1118,7 @@
 <p>Drzwi z trzaskiem otworzyły się, wszedł Cyryak.</p>
 <p>- Nic mi się nie wiedzie. Od miesiąca nie miałem jednego mocnego przeżyciaPietrzak złapany! Nawet nie skończyliśmy partyi.</p>
 <p>Hrabina Rzeczycka była prawdziwą opatrznością przytułku św. Korduli. Bo chociaż-jak przystało Opatrzności-nie dała mu nigdy własnego rubla, ale umiała z wielką zręcznością wyciągać ofiary z kieszeni wyższego i średniego mieszczaństwa, które barykadując się skąpstwem przed zwykłymi natrętami kwestarstwa, otwierało na oścież swe kasy przed tą czułą i uprzejmą panią. Zaledwie zebrała obfity plon z ulicznej sprzedaży kwiatka, postanowiła urządzić w swym ogrodzie przy pałacu niezwykłą zabawę dobroczynną-maskaradę dzienną na dochód zakładu. Wszyscy demokraci, wyrabiający lub zbywający towary, zajmujący posady rządowe i prywatne, leczący lub procesujący ludzi, topnieją jak lód w słońcu pod blaskiem arystokracyi. Nie jest wcale rzadkością radykał, który gardzi książętami, dopóki się z nimi nie zetknie; wtedy zgina się bardzo elastycznie, uśmiecha się bardzo wdzięcznie a potem, o ile możenajczęściej, wtrąca do rozmowy z każdym: zapewniał mnie o tem... powiedział mi... książę X. Rozkupiono też biletów daleko więcej, niż mógł wygodnie pomieścić osób ładny parczek Rzeczyckich, wonny kwieciem i chłodzący cieniem drzew. Tłum składał się prawie wyłącznie z tej masy ludzkiej, która wypełnia ogromną większość każdego społeczeństwa miejskiego: z gapiów, próżniaków i modnisiów. Nie wiadomo, co by tego dnia wybrała elegancka pszczółka, wysysającfmiód z życia: nową suknię, czy bilet na maskową "garden part y", o której wszystkie dzienniki pisały przez dwa tygodnie.</p>
-<p>Według programu zabawa rozpoczęła się o godzinie 6 po południu i miała trwać do ukazania się gwiazdy Wenery. Takie oznaczenie terminu wywołało powszechny zachwyt: patronka miłości bowiem posiada najwięcej czcicieli, spodziewano się przytem> że dobra bogini dla przedłużenia wieczornych upojeń wejdzie na niebo z pewnością później, a może odsłoni się dopiero rano jako Jutrzenka... W każdym razie swojem różowem światłem nie rozjaśni tak dalece cieniów ogrodu, ażeby w nich nie ukryły się tajemnice błogosławionych przez nią rozkoszy.</p>
+<p>Według programu zabawa rozpoczęła się o godzinie 6 po południu i miała trwać do ukazania się gwiazdy Wenery. Takie oznaczenie terminu wywołało powszechny zachwyt: patronka miłości bowiem posiada najwięcej czcicieli, spodziewano się przytem&gt; że dobra bogini dla przedłużenia wieczornych upojeń wejdzie na niebo z pewnością później, a może odsłoni się dopiero rano jako Jutrzenka... W każdym razie swojem różowem światłem nie rozjaśni tak dalece cieniów ogrodu, ażeby w nich nie ukryły się tajemnice błogosławionych przez nią rozkoszy.</p>
 <p>O godzinie 7-ej było już bardzo rojno i gwarno. Z tłumu wyłoniły się odosobnione pary, w których zamaskowane kobiety używały do syta rzadkiej przyjemności mówienia szczerze i napastowania mężczyzn otwarcie. Jedne, już porzucone, zjadliwie się śmiały; drugie, jeszcze broniące się słabym oporem, zdobywały sobie nieopatrznie prawo "do przyszłej zemsty. Od drzew bił zapach, od ludzi-woń namiętności.</p>
 <p>Chociaż maskarada wyzwala człowieka tresowanego z pęt banalności, nie może odrazu manekina zamienić na istotę żywą. Więc w znacznej części to, co na niej mówiono, należało do owego znanego szabru, którym są ubite najszersze drogi stosunków ludzkich.</p>
 <p>Tu i owdzie wszakże można było usłyszeć wyrazy, jeśli nie głębokie lub dowcipne, to w każdym razie charakterystyczne.</p>

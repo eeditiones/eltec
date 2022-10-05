@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ENG18721">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ENG18721">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -12,17 +15,17 @@
    </extent>
    <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662490">ELTeC-eng release 1.0.1</ref>
 </publicationStmt>
    <sourceDesc><bibl type="digitalSource">
      <title>The Project Gutenberg E-text of Middlemarch, by George Eliot</title>
      <ref target="http://www.gutenberg.org/files/145/145-h/145-h.htm">Gutenberg</ref>
-    </bibl><bibl type="printSource" n="B5429">
+    </bibl><bibl type="firstEdition" n="B5429">
      <title>Middlemarch. A study of provincial life</title>
      <author>George Eliot</author>
      <publisher>William Blackwood and Sons</publisher>
@@ -52,6 +55,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-05-19">Add text classifications from Bassett</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
@@ -8651,7 +8655,7 @@
       news—a little news, my dear," said Mr. Brooke, nodding at Dorothea as she came towards him. "I
       looked into the library, and I saw Casaubon over his books. I told him it wouldn't do: I said,
       'This will never do, you know: think of your wife, Casaubon.' And he promised me to come up. I
-      didn't tell him my news: I said, he must come up."</p>
+      didn't tell him my news : I said, he must come up."</p>
      <p>"Ah, now they are coming out of church," Mrs. Cadwallader exclaimed. "Dear me, what a
       wonderfully mixed set! Mr. Lydgate as doctor, I suppose. But that is really a good looking
       woman, and the fair young man must be her son. Who are they, Sir James, do you know?"</p>
@@ -16080,7 +16084,7 @@
       this lot—I have a longing for it myself. What can promote innocent mirth, and I may say
       virtue, more than a good riddle?—it hinders profane language, and attaches a man to the
       society of refined females. This ingenious article itself, without the elegant domino-box,
-      card-basket, &amp;c., ought alone to give a high price to the lot. Carried in the pocket it
+      card-basket, etc., ought alone to give a high price to the lot. Carried in the pocket it
       might make an individual welcome in any society. Four shillings, sir?—four shillings for this
       remarkable collection of riddles with the et caeteras. Here is a sample: 'How must you spell
       honey to make it catch lady-birds? Answer—money.' You hear?—lady-birds—honey money. This is an

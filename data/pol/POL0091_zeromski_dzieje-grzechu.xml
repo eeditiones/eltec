@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0091">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">151924</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Dzieje grzechu</title>
 <ref>http://wolnelektury.pl/katalog/lektura/dzieje-grzechu</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Dzieje grzechu</title>
 <author>Żeromski, Stefan</author>
 <publisher>Warszawa: Nowa Gazeta</publisher>
 <date>1908</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -5503,14 +5508,11 @@ ją puścić natychmiast. Ręczę za nią całym majątkiem!</p>
 <p>Raz jeszcze szyja tak lekko, tak lekko dźwignęła ciężką głowę. Ewa czuła, że dwie ręce wsunęły się pod jej włosy i dźwignęły z podłogi bezsilną czaszkę — i że ona teraz w tych rękach troskliwych spoczywa. Już go dojrzeć nie mogła. Wiedziała, że sama leży na wznak, a on klęczy i w nieruchomych rękach głowę jej trzyma.</p>
 <p>Spłonęła wszystka w dziewczęcy, najdawniejszy swój uśmiech szczęścia i z tym uśmiechem boskiej radości na ustach umarła, szukając w mrokach śmierci jego spojrzenia.</p>
 </div>
-<div>
-<p>Dodatek</p>
-</div>
-<div>
+</body>
+<back>
+<head>Dodatek</head>
 <p>Brulionowe rzuty rozdziału mającego objąć testament Jaśniacha</p>
-</div>
-<div>
-<p>(A)</p>
+<div type="notes"><head>(A)</head>
 <p>Widziałaś sama, widziałaś to dobrze, że należało mi odejść. Odejść — to znaczy — spocząć w ziemi. Oddaliłem się bowiem od świata na taką dalekość, kiedy mi się niepotrzebną stała przyroda, a ciężarem stała się ostatnia miłość i ostatnia łaska ziemi: sztuka.</p>
 <p>Nic mi już z błękitu obłoków wiosennych, które płyną nad wiecznymi falami Śródziemnego Morza w dalekie południe, ku palmom Sycylii i dzikim na skałach kaktusom Malty. Martwa jest dla mnie wieszczba morza w dzień pełen wichru — morza, tego dobra, szczęścia i piękna, które ze wszech stron okrąża ludzkie siedlisko, nie dając mu umknąć od obrazu wieczności. Cyprys, który czarnymi gałęźmi obejmuje ruiny Palatynu, wonna macchia, osłaniająca szczerby krzesanic Korsyki, u których stóp w przepaści błądzą i jęczą wiecznie bezdomne piany — rumiane i białe kamelie, prowadzące jak urocze druhny do basenu w naszym ogrodzie — już tylko wykłuwają mi oczy. A w mojej cichej, spłaszczonej ojczyźnie rzeka dzieciństwa już nie płynie i senne widzenie konarów czarnych olch już nie budzi łkania w mym sercu. Obca i niepotrzebna stała mi się grecka tancerka z pentelikońskiego marmuru tu w mascheriach Watykanu, obce i wystygłe stałoś mi się wspomnienie lubieżnej Wenus z Neapolu, i już mi cię nie żal, Diano z Efezu, która stoisz tam samotna, straszna przez swe symbole, opuszczona przez wszystkich czcicieli. Po cóż ty jesteś dla mnie, budowlo Giotta, w różowym pyle wynurzająca się ze zgiełku ulic Florencji? Na nic jesteście duszy mojej.</p>
 <p>Przychodzę do was, barbarzyńca Północy, i żegnam was wystygłymi
@@ -5552,8 +5554,7 @@ spotkać współwygnańca, a kto nie zmarznie na śmierć, kto z głodu w drodze
 <p>Nigdy bezdenniej ukochana nie byłaś nam wygnańcom jak dziś, gdy w darnię tej nowej wiosny porastasz. Wiatr wiosenny wieje w pióra twych traw i suszy kałuże krwi po twoich „polskich” drogach.</p>
 <p>Sfruń, wietrze, westchnienie wiosny z tutejszych czystych błękitnych mórz, odleć z białych gałęzi kwitnącego migdała i różowych witek kwitnącego morela, spomiędzy mirtów nadmorskich — ku północy. Niech zakwita w Polsce wiśnia po sadach, a tarnina przy drogach. Rozgarnij, wietrzyku, murawę aż do korzenia i ucałuj miejsca nieznane, na które czoła padały. Zbierz łzy przedśmiertelne i pot krwawy, wynieś na skrzydłach ze ziemi i zawieś na złotych chustach, na białych z amarantowym wstęgach obłoków nad zajechaną wokół dziedziną, nad rozgrodzonymi drogami.</p>
 </div>
-<div>
-<p>(B)</p>
+<div type="notes"><head>(B)</head>
 <p>Ty to wiesz najlepiej, cudnowłosa, która wówczas nadeszłaś… Widziałaś sama, że należało mi odejść. (Odejść — to znaczy — kazać uprawomocnionym drabom za odpowiednim wynagrodzeniem zakopać trupa Jaśniachowego w glinę i nakryć go trzyłokciową pierzyną piasku).</p>
 <p>Oddaliłem się siostro, cokolwiek za forsownie od świata, zabrnąłem w taką odległość, że niepotrzebną stała mi się przyroda, a ciężarem i nudą stała mi się ostatnia miłość i najwyższa łaska tej ziemi, najwyższe szczęście, czyli złuda — to znaczy sztuka.</p>
 <p>Nic mi już z błękitu obłoków wiosennych, płynących nad puszczą Śródziemnego Morza! Jego otchłań nigdy się nie zmieni, wieczna zostanie jak powietrze, słońce i wiatr. Nie dla mnie ściemniasz się daleko, błękitne morze, gdzie biała, złośliwa wełna błyska jak śnieżyste zęby w złowieszczo śmiejących się ustach. Darmo wybuchasz w górę wśród suchych, wyssanych skał słupem piany, wysokim i strzelistym jak mediolańska wieża, kunsztownym jak dach świętego Marka.</p>
@@ -5563,8 +5564,8 @@ spotkać współwygnańca, a kto nie zmarznie na śmierć, kto z głodu w drodze
 <p>Nadaremnie nie dajesz mi umrzeć, o morze, na próżno wzywasz mię ku tej wielkiej drodze, którą samo przeżyłoś i którą przeżyjesz. Twoje dno lazurowe przy brzegu, przeczyste jak oczy dziecka, twoje dalekie rozpostarcie, obszerniejsze niż wzrok człowieka, twój huk nauczający, jak męską prawicą uderzyć w podłe piersi — odtrąciłem.</p>
 <p>Wiem, jakie jesteś, lecz cię już czuć nie chcę</p>
 </div>
-<div>
-<p>(C)</p>
+<div type="notes">
+<head>(C)</head>
 <p>Powiedziałem to do siebie, że powinienem już odejść, to znaczy: spocząć w ziemi. Jestem sam. Życie nie ma dla mnie wartości…</p>
 <p>To, co bym mówił, nie zostałoby wysłuchane przez współczesnych. To, co jest we mnie potężne, mocne i wieczne, leży w sobie i targa się ślepo jak wilk łańcuchem przykuty do słupa… Wiem o tym, że przyjdą czasy, kiedy byłbym zrozumiany. Moi słuchacze stoją w przyszłości pod złotą jej zorzą. Twarze ich zwrócone są ku mnie i oczy ich patrzą we mnie, gorejąc od tego samego ognia, który mi piersi przepalił za życia. Lecz świat dzisiejszy nie chce słyszeć poetów. Czeka na skinienie szpady wodza, który by jego niewolę zdusił prawicą Wdałego Walgierza… A skoro wodza nie ma, słucha pierwszej lepszej dziennikarskiej szui, pierwszego z brzegu karierowicza, który z pieniędzy publicznych żyje.</p>
 <p>Nigdy nie kochałem cię boleśniej, jak dziś, gdy się z kajdan zwłóczysz, chora i stratowana. Muszę odejść i nie zobaczę twych przemian, nie zobaczę twych skurczów boleści, walk i wysiłków. Bądź pozdrowiona w sercu mym, Matko!</p>
@@ -5581,6 +5582,6 @@ spotkać współwygnańca, a kto nie zmarznie na śmierć, kto z głodu w drodze
 <p>Należy tworzyć braterstwo pomiędzy ludźmi prawymi. Należy podnieść oczy ludzkie ku wieszczom, należy ukazać prawdę i miłość. Ale tego nie można uczynić, stojąc na ziemi reakcji ani narodowej demokracji, to należy uczynić, niwecząc wszelkie przesądy. Do tego też musi być stworzony zakon ludzi świeckich, którzy by między sobą wskrzesili braterstwo. Musi być stworzone na nowo pozwanie dusz prawych i bezinteresownych, musi być znowu rzucone w świat uczucie socjalizmu!</p>
 <p>Jestem towarzyszem wszystkiego, co cierpi, co walczy, co dąży do wolności…</p>
 </div>
-</body>
+</back>
 </text>
 </TEI>

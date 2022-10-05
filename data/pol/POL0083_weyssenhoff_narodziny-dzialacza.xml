@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0083">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">28240</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Narodziny działacza</title>
 <ref>https://polona.pl/item/narodziny-dzialacza,Mjc3MjQ1OTU/8/#info:metadata</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Narodziny działacza</title>
 <author>Weyssenhoff, Józef</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1906</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -491,7 +496,7 @@
 <p>— Ktoby jej tam nie znał, cholery... dwie wiorsty objazdu po próżnicy i most zepsuty na Mieninie. A tędy jeździliśmy w lecie, jak człek zapamięta. Tylko teraz pewnikiem zastawiły juchy sę|uzę we młynie, to łąka rozmaka jak żur, cholera.</p>
 <p>Pan Apolinary uznał trafność wywodów Kazimierza, dla którego umiejętności miał poszanowanie, pomruczał tylko: "no, no, jedźmy już" — ! zamilkł. A stary famulus, ujęty wyrozumiałością dziedzica, odwrócił do niego twarz wypogodzoną już, oprawną w uczernione klamry bujnego zarostu i, wskazując biczyskiem na lipy poza wsią wyrastające na widnokręgu, odezwał się dworsko:</p>
 <p>— Tędy droga na kuźnię, a potem już sucha droga aż do pałacu. Trzy wiorsty bliżej, proszę jaśnie pana.</p>
-<p>Dojazd do "pałacu" pana Adama Pruszczyńskiego, właściciela iundum Biadaczki, przedstawiał, oprócz niektórych przyrodzonych przeszkód drogowych, pewne jeszcze trudności oryentacyjne. Wśród pól sterczały kawałki starych alei lipowych, powstających bez powodu i nie prowadzących nigdzie. Znać było przedwiekowy czyjś zamiar postawienia Biadaczki na stopie prawdziwie pańskiej rezydencyi. Śmierć, czy odmiany fortuny, pohamowały te zamiary. Zakrój zaś okólnika i domu mieszkalnego był mniej okazały. Nadto, mury były odrapane, niektóre wątpliwegoj>ionu, a dachy wcale przemakalneTWidać, że władca starożytny, nosząc się z wizyą wspaniałej Biadaczki, zaczął od alei. Ale obecni właściciele zapewne klepali zwykłą biedę.</p>
+<p>Dojazd do "pałacu" pana Adama Pruszczyńskiego, właściciela iundum Biadaczki, przedstawiał, oprócz niektórych przyrodzonych przeszkód drogowych, pewne jeszcze trudności oryentacyjne. Wśród pól sterczały kawałki starych alei lipowych, powstających bez powodu i nie prowadzących nigdzie. Znać było przedwiekowy czyjś zamiar postawienia Biadaczki na stopie prawdziwie pańskiej rezydencyi. Śmierć, czy odmiany fortuny, pohamowały te zamiary. Zakrój zaś okólnika i domu mieszkalnego był mniej okazały. Nadto, mury były odrapane, niektóre wątpliwegoj&gt;ionu, a dachy wcale przemakalneTWidać, że władca starożytny, nosząc się z wizyą wspaniałej Biadaczki, zaczął od alei. Ale obecni właściciele zapewne klepali zwykłą biedę.</p>
 <p>— Tę oborę pewno wiatr przewróci przed zimą; nie to, co nasza — odezwał się pan Apolinary do woźnicy.</p>
 <p>ON P0L1TY02NE l.</p>
 <p>— Ii, proszę jaśnie pana, przed zimą krowy żydzi wyprowadzą, wtedy i obora na nic. Wiadomo, że nasza — co innego.</p>
@@ -806,7 +811,7 @@
 <p>Zbuntowało się coś w panu Apolinarym przeciw tej uroczystości dojazdu i pałacu. Cisnął czapkę o stół zamaszyście i rozsiadł się w fotelu z okazałą swobodą.</p>
 <p>Wkrótce jednak musiał powstać na powitanie gospodarza, który szedł do gościa krokiem umiarkowanym, bez żadnych zewnętrznych oznak radości, nie mniej jednak uprzejmie. Nosił brodę i okulary. Ubrany był szaro i skromnie, jednak nie tak, jak równość szlachecka ubierać się nakazuje.</p>
 <p>— Bardzo mi przyjemnie powitać pana w Wojewodzicach.</p>
-<p>Nie dodał: > czemu zawdzięczam fortunny wypadek oglądania?" ale domawiały to oczy jego pytające, zimne i zmęczone, zwłaszcza gdy z nich zrzucił nerwowym ruchem pince-nez.</p>
+<p>Nie dodał: &gt; czemu zawdzięczam fortunny wypadek oglądania?" ale domawiały to oczy jego pytające, zimne i zmęczone, zwłaszcza gdy z nich zrzucił nerwowym ruchem pince-nez.</p>
 <p>— Obcy jakiś, zupełnie obcy — myślał pan Apolinary.</p>
 <p>Rzekł zaś, gładząc poważnie podbródek:</p>
 <p>— Moje uszanowanie. Hm, hm... Powracam z Warszawy, gdzie dzieją się rzeczy doniosłe... powołujące do usług wszystkich obywateli kraju.</p>

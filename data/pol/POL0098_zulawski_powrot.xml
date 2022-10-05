@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0098">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">64507</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Powrót</title>
 <ref>http://wolnelektury.pl/katalog/lektura/zulawski-powrot</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Powrót</title>
 <author>Żuławski, Jerzy</author>
 <publisher>Tow. Akc. S. Orgelbranda i Synów, Warszawa</publisher>
 <date>1914</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,12 +59,11 @@
 </div>
 </front>
 <body>
-<div>
+<div type="liminal">
 <quote>
 <p>Tuum fac nes respicias finem.</p>
 </quote>
 </div>
-<div>
 <div type="chapter"><head>I</head>
 <p>Przez wpół przymknięte powieki uśmiechał się jeszcze do snu, który już odlatywał. Bladły mu w oczach subtelne barwy jedwabnych kakemonów, rozwieszonych na trzcinowej ścianie otwartej ku morzu werandy, gubiły się w dziwnie rozkosznym szmerze słodkie, dyskretne, do rytmicznego spadku drobnych pereł na szklaną czarę podobne dźwięki harf, w srebrnej mgle roztapiały się uśmiechnięte postacie o porcelanowych twarzyczkach: niknęły już, a uśmiech ich pobladły wisiał jeszcze we mgle i w ostatnim, zapachem wiśniowego kwiatu przepojonym tchnieniu letniego wiatru… Szukał mętnym spojrzeniem wewnątrz snu liliowej twarzy słodkiej Tonami, która właśnie coś doń przez łzy mówiła, ale poprzez widzenie przebijała już słonecznie złota, nad wyraz rozkoszna świadomość, że powrócił, że jest już tutaj po długiej, długiej nieobecności, w kraju rodzinnym, w mieście swojej młodości…</p>
 <p>Otworzył oczy cicho, z jasnym, ze snu pozostałym w źrenicach uśmiechem i zdawało mu się, że wszystko się doń śmieje, co tylko w źrenice mu wpadło. Nie ruszał się z miejsca, nie odwracał nawet głowy na poduszce, jakby się bał spłoszyć to, co snem już przecie nie było.</p>
@@ -191,8 +195,7 @@ uśmiech i dotknięcie ręki kobiety, która przecież w ową szaloną noc w ob�
 się cieszył, co zdziałał, co zdobył w tym okresie wieloletniej wędrówki — naraz niczym mu się stało, jak rdzeń bzu zgnieciony między dawnym, potężnym wspomnieniem, a nieubłaganą, żelazną prawdą dnia dzisiejszego.</p>
 <p>Miał wrażenie, że otchłań otwiera się przed nim na nowo.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>— Turski powrócił!</p>
 <p>Poleskiemu wpadły te słowa w ucho gdzieś od drugiego stolika i powtórzył je kilkakrotnie bezmyślnie, patrząc z natężeniem w stojące przed nim figury szachowe.</p>
@@ -371,8 +374,7 @@ razy.</p>
 <p>— Nie wiem… Doprawdy… jakoś nie zastanawiałam się nad tym. Może ja naprawdę jestem taka głupia…</p>
 <p>Wypchnął ją brutalnie z pokoju i zamknąwszy drzwi, rzucił się na podłogę, wijąc się i targając na sobie ubranie w ataku histerycznego płaczu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Teatr był już prawie pełny, kiedy Turski wszedł do widowni i zajął miejsce tuż przy wejściu w jednym z pierwszych rzędów foteli. Naokoło niego rozmawiano żywo
 i nudnie. Publiczność niedzielna, mało interesująca, zapełniała szczelnie wszystkie miejsca na dole, jedynie fotele recenzentów były niezajęte. Wyglądały poważnie i dostojnie, zasłonięte od sceny wzgardliwie własnymi, wzniesionymi siedzeniami — i w imieniu nieobecnej prasy, z którą były w bliskiej acz niezbyt zaszczytnej styczności, zdawały się mówić powściągliwym milczeniem i wyraźnym gestem: Sztuka, którą od dziesięciu lat grywają i to w niedzielę, zgoła nie jest dla nas! Zresztą i część obecnej publiczności, która chciała za wytworniejszą uchodzić, akcentowała rozmową i zachowaniem głośno, że nie dla sztuki przyszła do teatru. Jakaś dama w za ciasnej bluzce jedwabnej, o burakowo kraśnej twarzy i z fałszywymi brylantami w tłustych uszach — tuż obok Turskiego siedząca, powtarzała co pewien czas do męża, że nie lubi niedzielnej, nazbyt mieszanej publiczności i tych sztuk już ogranych… na co małżonek szepnął z pokornym usprawiedliwieniem: Wszakże wiesz, kotku, że w dzień powszedni wolnych biletów nie dają…</p>
@@ -614,8 +616,7 @@ I niechże pan powie tak szczerze, jak się tu teraz panu to wszystko wydaje?</p
 <p>— Zapłać za mnie… nie mam dziś przy sobie, ale zwrócę ci wkrótce…</p>
 <p>Turski zadzwonił w szklankę i przywołał kelnera, aby załatwić rachunek. Z zamkniętego gabinetu brzmiał nieustannie coraz wyższymi gamami srebrzysty, kryształowy śmiech kobiecy…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Turski nie był jeszcze ubrany, kiedy około południa przyniesiono mu bilet księcia z oznajmieniem, że gość czeka nań w czytelni.</p>
 <p>Wyskoczył pospiesznie z łóżka, rad, że będzie mógł wymówić się rannym nieporządkiem od obowiązku przyjmowania księcia w tym samym pokoju, w którym niegdyś żonę jego przyjmował.</p>
@@ -813,8 +814,7 @@ A tam u jej nóg siedział, a raczej stał przykucnięty na czterech łapach on 
 <p>— Rozszczepiła się we mnie — myślał — ta kobieta na dwoje. Jedna jest ta, którą ja zakochanymi oczyma niegdyś widziałem, druga tą, którą dzisiaj widzę. Ta pierwsza umarła, a we mnie jest żywa, ta druga żyje, a dla mnie jest jakby umarła. Kocham dzisiaj już nie ją, lecz miniony sen swój o niej, młodość mą, mą miłość samą, która już była.</p>
 <p>— <emph>Ainsi soit-il!</emph> — odetchnął z ulgą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Tak się złożyło, że Turski, wybierając się wciąż do Poleskiego, spotkał go dopiero w domu profesora Butryma. Poleski bywał tutaj nie tylko jako lekarz (był nader wziętym specjalistą dla chorób dziecięcych i mały synek profesora, nieco chorowity, często pomocy jego potrzebował), lecz także jako serdeczny i zażyły przyjaciel. Z Butrymem znali się od dawna, jeszcze gdzieś z uniwersyteckich czasów, chociaż Butrym był trochę starszy od niego, pani Butrymowa zaś była jedną z niewielu, jeśli nie jedyną kobietą, którą zgryźliwy lekarz znosił, a nawet — <emph>sit venia verbo</emph> — lubił.</p>
 <p>Nie znaczyło to bynajmniej, aby wobec niej powściągał zjadliwe żądło swego języka, ale w każdym razie nie ucinał z nią po dwóch lub trzech zdaniach rozmowy, jak to robił z innymi kobietami, lecz owszem z miną nieco ironiczną i pobłażliwą, uzbrojony swym świetnym i ostrym dowcipem, podejmował z nią długie dyskusje, które „pani Zośka” prowadzić bardzo lubiła, zacietrzewiona w pewnych chwilach mocno w swym feminizmie. Co prawda jego ton wyższości i chłodna, grzeczna co do formy, a jednak dotkliwa żartobliwość w dyskusji, w której niezbyt serio brał jej najbardziej gorące lecz zazwyczaj płytkie argumenty, irytowały ją do tego stopnia, że nieraz po jego odejściu płakała ze złości i przysięgała mężowi, że więcej tego ohydnego człowieka przyjmować w domu swoim nie pozwoli. To jej zresztą nie przeszkadzało dopytywać się z niepokojem, co się z doktorem dzieje, gdy się przez dwa lub trzy dni nie pokazał.</p>
@@ -972,8 +972,7 @@ Są zapewne niejakie trudności… Doświadczone i praktyczne oko mojego… pryn
 <p>— Panowie! — zaczął Golimski — otóż na dowód, że między mną a szczęśliwym Rohitynem, moim spadkobiercą i dziedzicem mojej byłej damy serca, panuje jak najlepsza zgoda, piję zdrowie jego oraz księżnej…</p>
 <p>Nie zdążył dokończyć. Poleski bowiem, powstawszy przy pierwszych słowach, podszedł ku niemu i wspinając się na palce, uderzył go długą ręką<emph> lege artis</emph> w twarz, tak że szklanka, którą trzymał przy ustach, aż w drugi kąt sali poleciała. Po czym odwrócił się powoli i obcierając chusteczką dłoń, zmoczoną rozlanym szampanem, wrócił do stolika swoich towarzyszy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Pojedynek Poleskiego z Golimskim zakończył się tak, jak to było do przewidzenia: pokrajanego w różnych kierunkach jak najdokładniej sportowca zaniesiono do szpitala na kilkutygodniową kurację.</p>
 <p>Z małej strzelnicy za miastem, gdzie o świcie spotkanie się odbyło, wracał Poleski piechotą do domu. Czuł potrzebę ruchu na świeżym powietrzu, aby oprzytomnieć nieco i ochłonąć. O samym pojedynku myślał jak najmniej, ale w ogóle od kilku dni był z siebie niezadowolony i to każdego dnia coraz bardziej. Przełamało się w nim i skrzywiło do reszty wszystko, co już i tak było połamane i krzywe. Miał ciągle uczucie popełnianych niedorzeczności, zarówno w myśli, jak w czynie. Za co właściwie nienawidzi Turskiego, który mu był zawsze przyjacielem? Dlaczego, będąc u chorego chłopca w domu księżnej, zachował się brutalnie, śmiesznie i po chamsku? Co go właściwie obchodzi księżna? Czemu wtrącił się w nie swoje sprawy, uderzając Golimskiego i co mu właściwie na tym zależało, aby go dziś tak paskudnie pokiereszować? Dlaczego wreszcie trzyma dotąd u siebie tę głupią szkatułkę i boi się przypomnienia o niej, miast ją oddać Turskiemu, i przez jaką wyrafinowaną złość Turski o nią się nie upomina?</p>
@@ -1176,8 +1175,7 @@ teraz oczy — widzisz mnie? co? Taką mnie widzisz… ”</p>
 <p>— Czy też proch mógł się zachować bez zepsucia przez tyle lat? — pomyślał z zajęciem i nacisnął cyngiel.</p>
 <p>Proch okazał się zupełnie dobry i niezwietrzały.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Wkrótce po pogrzebie Poleskiego, który się odbył w dżdżysty dzień przy bardzo nielicznym udziale jego dawnych znajomych, Turski, pożegnawszy się jedynie z profesorem Butrymem i jego żoną, wyjechał z Krakowa.</p>
 <p>Pani Zośka śmiała się, dając mu jakiś kwiat na drogę, „na szczęście”, jak mówiła.</p>
@@ -1209,8 +1207,7 @@ najczęściej — z bezdennej u nóg przepaści… Stawał wówczas i nadsłuchi
 <p>Ostatecznie z tym wszystkim szły mu dni spokojne, ciche i jasne, a szły tak szybko, że nawet nie spostrzegł, kiedy krótkie lato górskie poczęło się nakłaniać, wcześniejsze zachody słońca stawały się więcej czerwone, a na wyższe hale zaciągała się nieznacznie jakaś rdzawa złotawość — a tam wysoko zimne ranne rosy w pewnych dniach srebrzysty szron zastępował, niknący rychło w ciepłych promieniach wstającego słońca. Żleby jeno zacienione i osłonięte skałami wilgotne wądoły srebrzyły się aż do popołudnia, nikłym oparem mgły nakryte…</p>
 <p>Była już połowa sierpnia.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Lekkim wiatrem wieczornym pędzona szla z jednego końca stawu po drugi fala drobna, w której łyskał i wraz wodą o nadbrzeżne kamienie rozbijał się księżyc jeszcze niecały, jawiący się gdzieś w szczerbach pociemniałej grani między Rysami a Mięguszowieckim Szczytem. Na skalnych upłazach od Czarnego Stawu był cień; słychać było jeno łoskot wodospadu i szum sączącego się niżej po kamieniach potoku, z szumem lasu przycichym złączony.</p>
 <p>Turski siedział na głazie pod stokiem Miedzianego, z końcami stóp prawie już wodą stawu oblanymi. Myśli miał jak gdyby zmiażdżone tym potwornym cielskiem Mięguszowieckich Szczytów, co wprost z toni po przeciwległej stronie wyrastając, niemal cały widnokrąg oczom jego zabierały. Spuścił wzrok ku wodzie, nie mogąc znieść tego czarnego ciężaru na źrenicach i usiłował ścigać błysk każdej fali, w pewnym miejscu na powierzchni stawu się rozpalającej i gasnącej tuż około jego stóp…</p>
@@ -1575,8 +1572,7 @@ prosto wyciągniętą linią szosy. Wiatr bijący ich w twarz nie dochodził ju�
 <p>Lekarz o znanym nazwisku telegrafował z Krakowa:</p>
 <p>„Książę umierający. Chce widzieć żonę i syna”.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Turski nie przyjął wyzwania Rohityna. Obydwu czarno ubranym panom, którzy do niego przyszli, oświadczył spokojnie ale stanowczo, że nie przypomina sobie zgoła, aby obraził czymkolwiek zacną osobę ich klienta, dla jego zaś urojeń nie ma zamiaru bawić się w mniej lub więcej krwawą, ale zawsze w tym wypadku śmieszną komedię pojedynku. Czarno ubrani panowie byli innego zdania, a młodszy i zapalczywszy z nich przebąknął nawet coś o „dalszych krokach”, jakie pan Rohityn „ewentualnie” będzie musiał przedsięwziąć, aby opornego przeciwnika zmusić do dania mu „satysfakcji”. Turski podniósł na niego twarde, stalowe oczy, a potem uśmiechnął się leciuchno kątami ust. Młody i zapalczywy pan zrozumiał snadź. Zamienił ze swym towarzyszem szybkie spojrzenie i oświadczył następnie, że „wobec tego” oni jako zastępcy pana Rohityna przyjmują do wiadomości, iż pan Turski nie miał go zamiaru niczym obrazić i mają nadzieję, iż klient ich będzie w ten sposób uważał sprawę za załatwioną.</p>
 <p>Turski oświadczył zimno, że również ma tę niepłonną nadzieję.</p>
@@ -1755,8 +1751,7 @@ o wybudowaniu szpitala, nie ofiarował swego, nieznanymi nam środkami zdobytego
 <p>Wtedy Turski powstał z miejsca i skłoniwszy się lekko w stronę znużonego mówcy, dał mu sam krótkie brawo, które rozpętało w jednej chwili niebywałą burzę oklasków. Ci jeno, co bliżej Turskiego stali i spostrzegli, że on pierwszy w dłonie uderzył, sykali z pogardą, patrząc na niego i mówili dość głośno, aby mógł słyszeć, że to jest bezwstyd i wyzywająca bezczelność z jego strony, za którąby mu się właściwie nauczka porządna należała.</p>
 <p>Turski poszedł do domu, straciwszy najzupełniej ochotę przemawiania na tym, przez siebie samego zwolanym zebraniu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>— Księżna… Gdzie księżna?</p>
 <p>Lekarz pochylił się nad łóżkiem.</p>
@@ -1912,8 +1907,7 @@ w przymknięte oczy.</p>
 <p>Wyrwał się jej z gardła straszliwy krzyk grozy, przestrachu, wstrętu.</p>
 <p>Książę był nieżywy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Społeczna myśl Romana Turskiego wzięła w łeb całkiem ordynarnie i dokładnie. On sam za to wziął się do budowania teatru. Nabył obszerny szmat gruntu na wzgórzu, zamykającym zakopiańską osadę od wschodu — i nie zwłócząc dłużej tam, naprzeciw Tatr, pobielonych już ponad czarnymi, leśnymi reglami wczesnym śniegiem jesiennym, kazał przed zimą zakładać podwaliny pod budowę.</p>
 <p>Wzgórze całe wraz ze stokami miało być zamienione w leśny park, dołem szerokim liściem w lecie szumiący, wyżej czarny i pachnący żywicą drzew szpilkowych. Jeno zbocze południowe, ku Tatrom otwarte, miało zostać niezalesione.</p>
@@ -2024,8 +2018,7 @@ ludźmi da się pracować, trzeba ich tylko umieć wynaleźć. Chętnie panu w t
 <p>— Snadź wszystkie są w życiu poniekąd aktorkami — mówił do Zaremby — i może dlatego właśnie tak trudno znaleźć taką, która by była zdolną wyłącznie do czystego, świętego kłamstwa sztuki.</p>
 <p>Zaremba się uśmiechał.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>W jakiś czas po śmierci starego księcia, kiedy już było powszechnie wiadomo, że młoda i piękna wdowa po upływie okresu obowiązkowej żałoby ma zaślubić niejakiego pana Rohityna, wszyscy, którzy ją bliżej znali, usiłowali jej to wybić z głowy, tłumacząc, że ówże Rohityn zgoła nie jest osobą dla niej na męża odpowiednią. Robiono mu zarzuty słuszne i niesłuszne. Rozpatrywano jego pochodzenie, majątek, stanowisko, badano przeszłość, stawiano horoskopy na przyszłość, wyciągano na jaw szczegółowo jego wady, przywary i niedostatki towarzyskie, słowem w pewnych kołach zajmowano się nim w owym czasie więcej, niż przez całą resztę jego życia dotąd.</p>
 <p>Księżna w ślicznym stroju wdowim słuchała zarzutów, mając pełno łez w oczach i melancholijny uśmiech na ustach. Nie przeczyła niczemu. Zdawało się nawet, że sobie podoba w tej roli ofiary, że współczucie i żal, które jej towarzyszą, jako istocie skazanej przez swe zaślepienie na nieodpowiednią i pewno w przyszłości nieszczęśliwą partię, mają dla niej pewien osobliwy i smutny urok.</p>
@@ -2255,8 +2248,7 @@ nawet, aż położy przyniesione jej sprawunki, wpadła nań od razu przy drzwia
 <p>Więc Lutek usiłował mieć rozum i usiadłszy w kącie, pożerał nienawistnym, wściekłym wzrokiem gadającego wciąż bez przerwy i końca Rogockiego. Zrazu skracał sobie czas czekania wymyślaniem mąk, na jakie rad by skazać tego zawadzającego mu człowieka; potem zaczął wytężać niezbyt silną głowę nad rozwiązaniem problemu, dlaczego dawniej tak łatwo księżną Helenę samą w domu zastawał, a teraz stało się to po prostu niepodobieństwem? Nie doszedł do żadnego wyniku i postanowił natręta bądź co bądź przetrzymać. Liczył w myśli do stu, do trzystu, wreszcie do tysiąca i zaczynał znowu od jednego. Rogocki gadał ciągle, księżna wciąż nie słuchała.</p>
 <p>Zjedli u księżnej kolację i wyszli od niej razem, certując się we drzwiach o pierwszy krok, coś około wpół do drugiej w nocy, zmęczeni obaj i zarówno nierozumiejący nic z tego, co się dzieje.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>Podczas pewnej bytności Turskiego w Krakowie wręczono mu sądownie w spuściźnie po Poleskim żelazną szkatułkę, na której podstawie znaleziono wyskrobane jego imię.</p>
 <p>Turski doznał niewytłumaczenie przykrego wrażenia, że ta rzecz do niego powraca. Chciał jej zrazu nie przyjąć i wmówić w wysoki sąd, że była jego podarunkiem, nieboszczykowi ofiarowanym, ale zabrakło mu jakoś odwagi, aby to powiedzieć.</p>
@@ -2624,8 +2616,7 @@ odejścia. Turski jej nie zatrzymywał. Gdy pozostał w kawiarni sam, opanowało
 <p>I Butrym, jakiejś własnej myśli odpowiadając, rzekł jeszcze raz w zamyśleniu:</p>
 <p>— Dla siebie…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV</head>
 <p>Płażyński nigdy nie był właściwie zbyt wybitnym aktorem, ale — jak to mówią — miał szczęście. Z okrągłą, pucołowatą i różową gębą, niezbyt wysoki i mięciutki, wyglądał nieuleczalnie na osiemnaście czy dziewiętnaście lat, chociaż dochodził pono trzydziestki. Aktorki i nieaktorki psuły „to chłopiątko”, które na ich cześć ubierało się bardzo starannie i z wyszukaną wedle własnego rozumienia wytwornością, która za kulisami uchodziła za niemającą sobie równej. Na scenie lubiano go, bo był wesoły i w lot zgadywał, co może zabawić p. t. publiczność! Za wzięciem u publiczności poszło nieuchronnie wzięcie u dyrekcji teatrów, które go sobie wyrywały, płacąc mu gaże, do rzeczywistych zasług jego nieproporcjonalnie wysokie.</p>
 <p>Mimo to Turski nie miał ochoty przyjmowania go do składu swego pesonalu i zdziwił się niepomiernie, gdy księżna Helena wprost tego odeń żądała, stawiając to nawet poniekąd za warunek swego na scenę wstąpienia.</p>
@@ -2885,8 +2876,7 @@ chłodnych oczu.</p>
 <p>— Przejdźmy do salonu. Czekają tam na nas. O kostiumach pomówimy innym razem.</p>
 <p>Powstał — blady jak śmierć — i szedł za nią posłusznie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV</head>
 <p>Księżna Helena, leżąc na sofie, przeciągnęła się nerwowo. Czuła jakiś dreszcz niespokojny, przechodzący szeroką falą wszystkie jej żyły i unicestwiający ją prawie na jeden moment.</p>
 <p>Zerwała się i rzuciła z gniewem na dywan zeszyt z wypisaną rolą.</p>
@@ -3032,8 +3022,7 @@ o co i zostałam teraz w pracy bez pomocnika. Był mi w nauce naprawdę tak potr
 <p>Po wyjściu Turskiego odprawiła służbę i przebrawszy się w lekki strój domowy, chodziła długo niespokojnie po pokoju. Wreszcie Płażyński zadzwonił. Otworzyła drzwi sama i zaraz na progu chwyciła go drapieżnie za rękę.</p>
 <p>— Ty! przyszedłeś… Chodź! chodź…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI</head>
 <p>W głębi jednej z dwóch nisz, na wysokości balkonu się znajdujących, plecami o gładzoną murmurową kolumnę oparty, przed okiem zgromadzonych na dole gości fałdami ciężkiej portiery zakryty siedział Turski, bledszy nieco niż zwykle — i spod przymknionych powiek patrzył na rozsuwającą się z wolna przed sceną zasłonę.</p>
 <p>Mrok zupełny, scenę zalegający, nie pozwolił na niej rozróżnić żadnych dekoracji, jeśli jakie były. Otwarła się jeno ciemna czeluść, gdzieś w najdalszej głębi jakby obrzaskiem gwiazd od skalnych kolosów przebłyskująca i powiał z niej rzeźwy, wonny chłód na duszną od natłoczonych ludzi widownię.</p>
@@ -3204,7 +3193,6 @@ i twoim dzieckiem, Romek!</p>
 <p>— O tak! Teraz łańcuszek jest zamkniętymi może­my wypić zdrowie naszej boskiej artystki.</p>
 <p>Powstał z pełną szklanką szampana w ręku:</p>
 <p>— <emph>Laus tibi, femina!</emph></p>
-</div>
 </div>
 </body>
 </text>

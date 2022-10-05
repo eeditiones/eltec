@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/ns" xml:id="ENG18871" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/ns" xml:id="ENG18871" xml:lang="en">
  <teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileDesc>
    <titleStmt>
@@ -25,16 +28,16 @@
    </extent>
    <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662490">ELTeC-eng release 1.0.1</ref>
 </publicationStmt>
    <sourceDesc><bibl type="digitalSource"><title>Red as a rose is she : VWWP edition </title><author>Broughton,
       Rhoda, 1840-1920</author><publisher>Digital Library Program, Indiana
-      University</publisher><pubPlace>Bloomington, IN</pubPlace><ref target="http://purl.dlib.indiana.edu/iudl/vwwp/VAB7385">VWWP</ref></bibl><bibl type="printSource" n="B582"><title>Red as a rose is she</title><author>Broughton, Rhoda,
+      University</publisher><pubPlace>Bloomington, IN</pubPlace><ref target="http://purl.dlib.indiana.edu/iudl/vwwp/VAB7385">VWWP</ref></bibl><bibl type="firstEdition" n="B582"><title>Red as a rose is she</title><author>Broughton, Rhoda,
       1840-1920</author><pubPlace>London : </pubPlace><publisher>R. Bentley,
       </publisher><date>1887</date>
      <ref target="http://archive.org/details/redasroseissheno00brourich"/></bibl></sourceDesc>
@@ -54,6 +57,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
    <change when="2018-07-23">LB convert to ELTeC-1</change>
@@ -205,7 +209,7 @@
      <pb n="6" xml:id="VAB7385-010"/> feel Yes. I suppose I must have been pleased at any one
      wishing for my company during the term of his natural life."</p>
     <p>The name on the fly-leaf of this journal-book is Esther Craven, Glan-yr-Afon, and the date
-      <date>July 10, 186—</date>. July is very often a rather wet month—not so this year; all
+      July 10, 186—. July is very often a rather wet month—not so this year; all
      through its one-and-thirty days the sky was like brass, as it looked to Elijah (the Seer's)
      eyes on the top of Carmel, when, by his faith, he brought up the tarrying rain from the sea's
      chambers. London is pouring out her noble army of haberdashers and greengrocers into Ramsgate
@@ -1628,7 +1632,7 @@
      the one familiarity Robert is permitted; not once in all his life has he kissed his
      betrothed.</p>
     <p>"It was a foolish, silly custom," she said one day, pettishly—"no sensibler than rubbing
-     noses together, as the Feejee islanders did; for her part, she hated it, &amp;c."</p>
+     noses together, as the Feejee islanders did; for her part, she hated it, etc."</p>
     <p>"But now, what? finish your sentence, please," says the little captive, gaily.</p>
     <p>"Esther, I wish these people had not got a son."</p>
     <p>"What people?"</p>
@@ -1999,7 +2003,7 @@
      may pounce out on them at any moment. The Felton bear pounces.</p>
     <p>"What the devil do you mean leaving that door open Morris! John! George! Here, some of you!
      there's a door open somewhere between here and the kitchen: Don't contradict me, sir! I say
-     there is; if I catch you propping those swing doors open," &amp;c. &amp;c.</p>
+     there is; if I catch you propping those swing doors open," etc. etc.</p>
     <milestone unit="section" rend="stars"/>
     <p>The birds have gone to bed, and the slugs come out to walk on the damp garden paths. Now and
      then a little wind gets up, whispers a word or two to the polished laurel leaves, and lies down
@@ -2167,7 +2171,7 @@
      stooped forward a little. The family are at prayers, as she ascertained by applying her ear to
      the key-hole, and hearing a harsh, elderly voice going at a good round trot through a variety
      of petitions, for himself, his children (he has only one, and hates him), his friends, his
-     enemies, his queen, his bishops and curates, his black brethren, &amp;c., all without the
+     enemies, his queen, his bishops and curates, his black brethren, etc., all without the
      vestige of a comma between them.</p>
     <p>"What! eavesdropping?" asks St. John, coming down the handsome, shallow stairs in
      knickerbockers and heather-mixture stockings that his old mother made him.</p>
@@ -2548,7 +2552,7 @@
      one.</p>
     <p>Miss Blessington looks up shocked. This <foreign xml:lang="fr">jeune personne bien
       élevée</foreign> always is shocked at whatever people ought to be shocked at—Colenso,
-     Swinburne, skittles, &amp;c.</p>
+     Swinburne, skittles, etc.</p>
     <p>"You are not much hurt, <hi>really</hi>, I hope?" she says, suavely, walking along beside
      Esther, while Sir Thomas and his heir wrangle in the background. "Which way did you come, and
      what <hi>has</hi> become of your horse?" </p>
@@ -2609,7 +2613,7 @@
      <p>"P.S.—</p>
      <p>Mr. Gerard is not at all good-looking; he seems very fond of shooting; he has been out all
       to-day."</p>
-     <p><quote rend="center">"The long day wanes : the slow moon climbs."</quote></p>
+     <p rend="center">"The long day wanes : the slow moon climbs."</p>
     </quote>
     <p>Dinner is over; nothing to look forward to but bed-time. Yah ! How dull! A knock comes at the
      door. Miss Blessington enters with flowers in her hand—jessamine, heliotrope, everything that
@@ -2754,8 +2758,8 @@
       <hi>Pall Mall</hi>.</p>
     <p>"I don't know," she rejoins, with a certain air of doubtful reserve.</p>
     <p>"It is generally considered pleasanter to have two legs to go upon than one, isn't it? It is
-     not many people that, like Cleopatra, can <quote>'hop forty paces through the public
-      streets.'</quote> Have you any reason for imputing to Miss Craven a morbid taste for
+     not many people that, like Cleopatra, can 'hop forty paces through the public
+      streets.' Have you any reason for imputing to Miss Craven a morbid taste for
      invalidhood?" </p>
     <p>"No; but she is hardly an invalid, and to be made so much of as you, with your usual
      good-nature to the waifs and strays of humanity, make of her, must be a sensation as pleasant
@@ -2852,7 +2856,7 @@
     <p>As he speaks, his eyes involuntarily rest on the clear, rose brilliance of the young
      stranger's happy, beautiful child-face.</p>
     <p>"I don't mind being called 'tallow face,'" says Esther, with a low laugh—"Juliet was; her
-     father said to her, <quote>'Out, you baggage! you tallow face!' </quote>"</p>
+     father said to her, 'Out, you baggage! you tallow face!' "</p>
     <p>"He must have been an ancestor of Sir Thomas's in direct male line, must not he?" says the
      young man, gaily stooping over her and whispering.</p>
     <p>Seeing them so familiarly and joyously whisper together, Constance looks up with an air of
@@ -3131,8 +3135,8 @@
     <p>"No, and they shall never have the chance as long as I can prevent them," replies the
      gracious elder, walking off. For a minute Priscilla stands still, rebuffed; but recovering
      herself, speedily rushes off again, charges with her fender-stool an old maid who has one
-     already, and a poor little whity-brown curate who has no house to put one in, &amp;c.,
-     &amp;c.</p>
+     already, and a poor little whity-brown curate who has no house to put one in, etc.,
+     etc.</p>
     <p>"I am afraid I have not done them up very neatly," Esther is saying, as she gives a parcel
      into Mr. De Grey's hands—Miss Smith having at length frightened that gentleman from her side by
      the rapid strides to intimacy which she was making with him—"My fingers toil in vain after the
@@ -3459,8 +3463,8 @@
      woman nowadays in full dress is verily and indeed bare-necked and bare-backed—through the
      mellow crimson evening.</p>
     <p>To even these grumblers, however, destiny now appears kinder—now, I say, that the too candid
-     daylight is shut out, that the amber champagne—<quote>
-      <l rend="center">"With beaded bubbles winking at the brim—"</l></quote> is creaming gently in
+     daylight is shut out, that the amber champagne—
+      "With beaded bubbles winking at the brim—" is creaming gently in
      every glass, and the <foreign xml:lang="fr">entrées</foreign> are making their savoury
      rounds.</p>
     <p>Esther has fallen to the lot of one of the stray men of whom Miss Blessington spoke—a man
@@ -3660,7 +3664,7 @@
      else to do it—at least in his presence.</p>
     <pb n="150" xml:id="VAB7385-154"/>
     <p>One day at dinner, when Bessy was beginning a little sour adaptation of the text, <quote>"The
-      lust of the flesh, the lust of the eye,"</quote> &amp;c., to Esther, he interrupted her with
+      lust of the flesh, the lust of the eye,"</quote> etc., to Esther, he interrupted her with
      downright outspoken anger and rebuke; and, though he apologised to her afterwards, and begged
      her pardon for having spoken rudely to her, yet she felt that that theme must not be dealt with
      again. He had promised to love her always in all loyalty, and whether she were loyal or
@@ -4447,7 +4451,7 @@
      mummeries; that, for his
      <pb n="183" xml:id="VAB7385-187"/> part, he has stuck to his parish church for the last fifty
      years, and means to do so to the end of the chapter; and that, if we don't choose to conform to
-     the rules of his house, &amp;c."</p>
+     the rules of his house, etc."</p>
     <p>"Does he always say the same?" asks Esther, smiling.</p>
     <p>"Always. A long and affectionate study of his character has enabled me to predicate with
      exactness what he will say on any great subject, Esther."</p>
@@ -5403,7 +5407,7 @@
      exactly gentlemen: and indeed it is a matter of almost as curious inquiry as what becomes of
      all the pins that are made and lost, in what part of the train, if it be not in the guard's
      van, gentlemen and ladies travel, as assuredly they are but seldom to be met with in
-     first-class carriages. The two youths have made themselves and their hat-boxes, rugs, &amp;c.,
+     first-class carriages. The two youths have made themselves and their hat-boxes, rugs, etc.,
      luxuriously comfortable, and seem rather disposed to be funny—to "show off," as children say,
      for the benefit of the lovely girl, who looks so disconsolate and dishevelled, who seems so
      unflatteringly unaware of their presence. They eat sandwiches and drink sherry; they are
@@ -6982,8 +6986,7 @@
      gladness!</p>
     <p>As Esther lifts her streaming eyes, they fall upon the inscription on the cross at the
      grave-head:</p>
-    <quote>
-     <quote rend="center">
+      <quote rend="center">
       <l>"HERE LIETH THE BODY</l>
       <l>OF</l>
       <l>JOHN CRAVEN,</l>
@@ -6991,7 +6994,6 @@
       <l>SEPT. 24TH, 186—. AGED 21 YEARS."</l>
       <p>"<hi>Lord, have mercy upon me. a sinner!</hi>"</p>
      </quote>
-    </quote>
     <pb n="290" xml:id="VAB7385-294"/>
     <p>She casts her arms about the base of the holy symbol; she presses her panting breast against
      the stone. " Lord, have mercy upon me, a sinner!" she cries too; and surely the live sinner
@@ -8697,7 +8699,7 @@
     <p>"Old Blessington's companion, eh? I'm sure I wish she were mine."</p>
     <p>"A sort of 'Abishag the Shunammite,' I suppose ?"</p>
     <p>These are some of the comments that the unknown beauty draws forth. Five minutes later, Miss
-     Craven's scruples—such as never having skated before, having no skates, &amp;c.—being overruled
+     Craven's scruples—such as never having skated before, having no skates, etc.—being overruled
      by her new acquaintance, she is sitting on the bank; and he, kneeling before her, is fastening
      some one else's unused skates on her little feet. A great desire for pleasure has come over
      her—a great longing for warmth and colour in her grey life, that looks all the greyer now in
@@ -9347,7 +9349,7 @@
      methinks. Sunday—the day on which the Shelford shopboys and shopgirls walk about gloriously
      apparelled, arm-in-arm, man and maid, filling their lungs with country air,—day on which the
      gentlefolks, such as are men of them, debarred from horse and hound and cue, smoke a cigar or
-     two more than usual over the instructive pages of Messieurs De Kock, Sue, Balzac, &amp;c.;
+     two more than usual over the instructive pages of Messieurs De Kock, Sue, Balzac, etc.;
      while such as are women, being for the most part piously disposed, hold Goulburn's "Thoughts on
      Personal Religion," or Hannay's "Last Day of Our Lord's Passion," open on their velvet laps,
      and kill a reputation between each paragraph.</p>
@@ -10575,7 +10577,7 @@
      task to perform; but I cannot reconcile it with my conscience not to tell you that, in all
      human probability, you have not many more days to live."</p>
     <p>Through the thick veil of her weakness and its attendant apathy pierces the sting of that
-     awful news: her eyes dilate in their horror and fear, and she falls to weeping, feebly and
+     awful news : her eyes dilate in their horror and fear, and she falls to weeping, feebly and
      helplessly.</p>
     <p>"Don't say that—it is not true. How unkind you are! I don't want to die; I'm so young; I have
      had so little pleasure!" </p>

@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA4006" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA4006" xml:lang="es">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,10 +20,10 @@
             </extent>
             <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -50,9 +53,9 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="spa">Español</language>
-                <language ident="fra">Francés</language>
-                <language ident="eng">Inglés</language>
+                <language ident="SPA">Español</language>
+                <language ident="FRA">Francés</language>
+                <language ident="ENG">Inglés</language>
             </langUsage>
             <textDesc>
                 <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
@@ -62,6 +65,7 @@
             </textDesc>
         </profileDesc>
         <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
             <change when="2020-04-01">Anotación ELTeC : Borja Navarro Colorado</change>
         </revisionDesc>
@@ -372,14 +376,14 @@
                     España; testigos los más altos personajes de la patria nobleza. </p>
 
 
-                <p> Acompañó el órgano la bendición patriarcal; sirvióse un espléndido <foreign xml:lang="eng"> lunch </foreign> en el comedor: cambió Leonor, por uno de
+                <p> Acompañó el órgano la bendición patriarcal; sirvióse un espléndido <foreign xml:lang="ENG"> lunch </foreign> en el comedor: cambió Leonor, por uno de
                     viaje, su atavío de novia; imitóla Alfonso, y, despedidos por invitados y
                     parientes, ganaron un lujoso automóvil, haciendo camino a las posesiones que,
                     inmediatas a Córdoba, pregonaban la riqueza del duque. </p>
 
 
                 <p> No quiso éste zarandear su nupcia por capitales extranjeras. Tiempo habría, más
-                    tarde, de recorrerlas todas y aun de ir mar adentro en un <foreign xml:lang="eng"> yacht </foreign> , que, meciéndose sobre aguas gaditanas,
+                    tarde, de recorrerlas todas y aun de ir mar adentro en un <foreign xml:lang="ENG"> yacht </foreign> , que, meciéndose sobre aguas gaditanas,
                     aguardaba órdenes de su aristocrático armador. </p>
 
 
@@ -505,7 +509,7 @@
                 <p> Abriría los salones de su palacio a sus amigas y mataría de envidia a sus
                     rivales; impondría la moda con sus tocados y sus trenes; deslumbrarla con sus
                     esplendideces a las grandes damas d las extranjeras ciudades; recorrería los
-                    mares en su <foreign xml:lang="eng"> yacht </foreign> , los caminos en su
+                    mares en su <foreign xml:lang="ENG"> yacht </foreign> , los caminos en su
                     automóvil; triunfaría en los balnearios al llegar la estación veraniega. ¡El
                     campo! Bueno estaba para una o dos semanas dedicadas a los placeres cinegéticos;
                     pero de esto a convertirlo en residencia indefinida mediaba gran distancia: la
@@ -515,7 +519,7 @@
                 <p> Porque Leonor se aburría en aquella luna de miel aldeana. </p>
 
 
-                <p> -¡Y tan aldeana! -pensaba la duquesa-. Dando al <foreign xml:lang="eng"> confort
+                <p> -¡Y tan aldeana! -pensaba la duquesa-. Dando al <foreign xml:lang="ENG"> confort
                     </foreign> de lado -añadía-, ¿en qué me diferencio de la hija del aperador del
                     cortijo, que es recién casada también? </p>
 
@@ -552,7 +556,7 @@
 
                 <p> Un año pasaron los duques recorriendo las grandes capitales de Europa. Durante
                     él hicieron también una excursión a los Estados Unidos de América, a bordo del
-                        <foreign xml:lang="eng"> yacht </foreign> que el duque capitaneaba como
+                        <foreign xml:lang="ENG"> yacht </foreign> que el duque capitaneaba como
                     experto marino. No en balde descendía de aquel capitán que en los tiempos de
                     Carlos V echó a pique la galera de Ben-Alí. </p>
 
@@ -583,7 +587,7 @@
                     en el juego, perdidas y ganadas sin pestañear; billetes arrojados, sin
                     contarlos, de su cartera, para esta orgía para aquella aventura, proclamaban su
                     esplendidez; el mejor sastre de Madrid, su elegancia; los más rebeldes potros,
-                    sus condiciones de centauro; <foreign xml:lang="eng"> matchs </foreign> de
+                    sus condiciones de centauro; <foreign xml:lang="ENG"> matchs </foreign> de
                     esgrima y disparos certeros en cacerías y tiros de pistola, de <emph> esportista
                     </emph> famoso, avalorado en crédito por excursiones locas, hechas a giro de
                     automóvil y a aletazo de aeroplano. Un Don Juan, en fin, con todos los
@@ -778,7 +782,7 @@
                     desempeñadas o readquiridas. ¿Para qué necesitaban más? ¡Dos carcamales llenos
                     de goteras, que el día menos pensado darían en el cementerio de golpe!... ¿No
                     era mejor que los diez mil duros fueran a manos de su amante, del hombre a quien
-                    envidiaban todos los <foreign xml:lang="eng"> sportsman </foreign> de Madrid y
+                    envidiaban todos los <foreign xml:lang="ENG"> sportsman </foreign> de Madrid y
                     por quien se pirraban todas las damas del gran mundo? </p>
 
 
@@ -1758,7 +1762,7 @@
                 <p> Al salir del baile, dijo a la duquesa: </p>
 
 
-                <p> -Son las cuatro de la madrugada, y apenas si en el <foreign xml:lang="fra">
+                <p> -Son las cuatro de la madrugada, y apenas si en el <foreign xml:lang="FRA">
                         buffet </foreign> he tomado cosa apreciable. Tengo más hambre que un
                     mendigo. ¿Quieres que hagamos una locura de estudiantes? </p>
 
@@ -1773,7 +1777,7 @@
                 <p> -A tu gusto. </p>
 
 
-                <p> -Andando. ¡A Fornos! -gritó al <foreign xml:lang="fra"> chauffer </foreign> el
+                <p> -Andando. ¡A Fornos! -gritó al <foreign xml:lang="FRA"> chauffer </foreign> el
                     duque. </p>
 
 
@@ -1879,7 +1883,7 @@
 
 
                 <p> Abrió con mano firme la portezuela del vehículo, y empujando dentro a Leonor,
-                    gritó al <foreign xml:lang="fra"> chauffer </foreign> : </p>
+                    gritó al <foreign xml:lang="FRA"> chauffer </foreign> : </p>
 
 
                 <p> -Lleva a esta mujer donde quiera. </p>

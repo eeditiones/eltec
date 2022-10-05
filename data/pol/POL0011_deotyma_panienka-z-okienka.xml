@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0011">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">88493</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Panienka z okienka</title>
 <ref>http://wolnelektury.pl/katalog/lektura/deotyma-panienka-z-okienka</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Panienka z okienka</title>
 <author>Łuszczewska, Jadwiga</author>
 <publisher>Warszawa: Sadowski</publisher>
 <date>1893</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -55,7 +60,6 @@
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>I. W kamiennym pierścieniu</head>
 <p>Szedł sobie najspokojniej, powłócząc oczami po tych cudnych i cudacznych rzeczach, których może póki życia nie miał już oglądać, gdy znienacka ozwały się za nim wesołe przygrywania i szmery posuwiste, jakoby od nadciągającej ciżby. Obejrzał się, przystanął — a tu z bocznej przecznicy płynie orszak strojny z kapelą na czele. Przodem i dokoła — jak to zwykle w podobnych razach — wali tłum ciekawej gawiedzi. Wnet się też zrobiło tak ciasno, że pan Kazimierz musiał co prędzej ustąpić pod ścianę. Wprawdzie ulica nie należała bynajmniej do wąskich, ale, jak wszystkie główniejsze ulice Gdańska, była z obu stron zastawiona dwoma szeregami dużych ganków, czyli raczej tarasów, które głęboko wrzynając się w jej koryto, szczupły tylko przepływ zostawiały dla jezdnych i pieszych.</p>
 <p>Oparł się więc o podmurowanie jednego z onych tarasów, a że był słuszny, mógł ponad głowami dobrze widzieć przeciąganie wesela, bo zaraz poznał, że to weselny orszak.</p>
@@ -138,8 +142,7 @@
 <p>— Wiwat! Jest asumpt! Pójdziem po bursztyny. Co prawda, mieszek już okrutnie chudy, aleć potargować zawdy wolno, za to na gardle nie karzą. A więc do lin! I brać karawelę.</p>
 <p>Rzekł, przemierzył wszerz ulicę, skoczył na taras i, ująwszy pięknie rzeźbioną kołatkę, zaczął nią bić po kawalersku we drzwi Bursztynowego Domu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II. W Bursztynowym Domu</head>
 <p>Długo musiał czekać pode drzwiami. Przynajmniej naszemu gorączce wszelkie czekanie zawsze wydawało się długim.</p>
 <p>Na koniec z wewnętrza zaszemrały kroki dosyć lekkie. „Oho! Jużem ściągnął mego ptaszka z poddaszka. A może to i nie ptaszek. Jakoś trocha ślamazarnie nóżki za sobą ciąga… ”</p>
@@ -332,8 +335,7 @@
 <p>Właśnie majster Johann go zachodził i, drzwi otworzywszy, z pięknym ukłonem przeprowadzał.</p>
 <p>— Proszę waszą miłość na <emph>beischlag</emph>. Hej! Słyszysz tam, Hedwich? Przynaszaj nam tu kufle!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III. Na złotym ganku</head>
 <p>Na tarasie, wzdłuż kraty, pomiędzy zielenią biegły dębowe ławy o rzezanych oparciach. W pośrodku wznosił się stół okrągły, raz na zawsze już wmurowany i wyrżnięty z tegoż samego szarego granitu, co i olbrzymie przedgankowe kule.</p>
 <p>Gdy siedli, majster Johann obejrzał się po ziółkach, które dokoła pachniały z doniczek, urwał listek i, ssąc go w miękkich wargach, zaczął powoli mówić:</p>
@@ -738,8 +740,7 @@ Już dziesiąta na zegarze,</p>
 <p>Ledwie pan wyszedł, zaraz Mina zjawiła się na ganku dla pozbierania kufelków i wszelkich sprzętów ruchomych.</p>
 <p>I na innych tarasach służba gospodarzyła, sprzątając reszty wieczerzań, wynosząc stoły i krzesełka, zdejmując dogasające latarki. Potem zaczęło się zamykanie drzwi okutych; jedne po drugich zapadały z głuchym łoskotem, z ciężkim zasuwaniem ryglów, zakładaniem sztab i zgrzytem kluczów. Kto na piętrach jeszcze palił światło, ten pilnie zasuwał okna lub wynosił się do izb wewnętrznych, ażeby ront powracający nie kołatał mu do drzwi z przestrogą. Czasem jeszcze wśród wysokich donic tarasowych jakaś zapóźniona czuła para zamieniała ostatnie szepty, ale i ta nikła we dwie strony, gdy uderzenie berdyszów o ziemię zdradziło zbliżanie się nocnych stróżów. Z wolna wszystko przycichło i przygasło. Zegary wybiły jedenastą; wtedy zabrzmiała w powietrzu cudowna muzyka złożona z trąb i fletów, muzyka, która od wieków całych zawsze w owej przedpółnocnej godzinie odzywa się na kościele Świętej Katarzyny, jakby przedsenna modlitwa usypiającego miasta — i gdy ostatni dźwięk fletu rozwiał się wysoko, nic już nie świeciło nad Gdańskiem, tylko tysiączne gwiazdy ciepłej letniej nocy odbite w czarnych kanałach spichlerzowej Wenecji, w brylantowych szybkach kamienic i w marzeniach serc rozkochanych.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV. W Arturowym Dworze</head>
 <p>W sześć tygodni później, o tejże wieczornej porze na głównym placu gdańskim panował ruch wielki, a przy tym i wesoły. Z olbrzymich okien Artusowego Dworu biła na pół placu olbrzymia łuna; z najbliższych i najdalszych ulic wysypywały się pachołki z pochodniami, a za nimi szły wystrojone gromady mężów i niewiast, młodzieńców i panien. Wszystkie ciągnęły do Artusowej sali, gdzie miasto dnia tego wyprawiało walną taneczną zabawę.</p>
 <p>Pomiędzy młodzieżą najszczękliwiej stąpali, najbuńczuczniej wyglądali wojskowi od puckiej marynarki, którzy tego wieczora wszyscy znaleźli się w Gdańsku; a jak raróg jaśnieje wśród sokołów, tak wśród wojskowych jaśniał urodą i fantazją płomiennooki pan Kazimierz Korycki.</p>
@@ -1029,8 +1030,7 @@ Już dziesiąta na zegarze,</p>
 <p>Siadł tedy pan konsul w oknie, a że przez małe, wypuklaste szybki trudno było rozeznać głąb ulicy, więc uchylił nieco jedną połowę okna i z rozkoszą wciągnął do piersi wonne powietrze ciepłej, letniej nocy.</p>
 <p>Długo tak siedział i marzył, i wyglądał, ale na ulicy było pusto i głucho, tylko księżyc nieznacznie posuwał się po niebie i zegary miejskie z przekorną powolnością wydzwaniały ciążące majstrowi godziny.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V. Pod srebrnym księżycem</head>
 <p>Tymczasem w Artusowej sali Hedwiga niespokojnym wzrokiem szukała oczu pana Kazimierza, który, wcale nie patrząc na nią, siadł pod piecem i żywą rozmowę prowadził z panią Florą.</p>
 <p>— Boże mój! Czy on się na mnie sierdzi? O! Ani pojrzy…</p>
@@ -1186,8 +1186,7 @@ Już dziesiąta na zegarze,</p>
 <p>„Oj, żeby ten nieszczęsny klucz nie był odkręcon, toby ja ją był porwał z ganku precz. Nimby się stary uporał ze drzwiami, już by my cwałowali na dziesiątej ulicy. Ale tak nie mógł ja nic. Byłby majster wyleciał za nami jako ta petarda, byłby w mieście całym narobił klangoru, nimby ja ją na koń wsadził, już by mi ją sto rąk odbiło. I co gorzej, cała nasza konspiracja wylazłaby na wierzch, a wtedy bądź zdrów, już by stary nie dał jej sobie po raz wtóry zabrać. Zaś teraz, kiedy skończyło się na niczym, kiedy on jeszcze nie ma żadnych suspicji, to możem znowu konspirować, i to już na dobre. Oho! Już teraz nie dam jej marudzić. Niepoczciwa dziewczyna! Żeby nie te jej kunktatorstwa, już by my lecieli po gościńcu oliwskim… Niepoczciwa? Tak się to gada w rankorze, a z tym wszystkim, nieprawda. Onać właśnie przez luksus poczciwości taka łechtliwa na sumnieniu. Trudnoć to przyganić białogłowie, że niełacno da się wykradać. I za to jeszcze muszę ją estymować. Osobliwa rzecz, jak ta mała dzieweczka mnie intymiduje… Mnie, com nigdy nikomu nie ustąpił. Mnie, com zawdy bez miłosierdzia jachał po czułych sentymentach, jako ten tryjomfator po rozsypanych kwiatuszkach. Ej, mości panie Kazimierzu, co się to z waszmością porobiło? Dawniej każda czyniła, coś ty rozkazował, a teraz ty czynisz, coć każą. Ej, pono to przyszła kryska na Matyska. Przedtem ciebie miłowano, a teraz ty miłujesz. To całkiem jensza sprawa. Przedtem tobie służono, a teraz ty służysz. I jeszcze jest jedna rzecz: dawniej człek szukał tylko pustej rekreacji, to nie pytał: wolno, czy nie wolno? Szkoda z tego komu, czy nie szkoda? Byle sam swoim humorom dogodził i miał się czym przed kompanią pochwalić. Ale teraz, kiedy chodzi o sakrament, o <emph>felicitas</emph> na całkie życie, to w tej małej dziewce człek już respektuje przyszłą sponsę i wszystkiego się stracha, i tchnąć nie śmie, aby nie zedmuchnął kutnerku z onych motylkowych skrzydełków. Oj, żeby nie ten stary, jaki by ja był szczęśliw! On wszystko popsował — heretycki bluźnierz! Plugawy Satyrus! Co tu dłużej gadać. Niemczura, to i dosyć”.</p>
 <p>Tak żując gorzkie myśli, pan Kazimierz wyciągnął pięść grożącą w stronę Bursztynowego Domu, potem odwrócił się z gniewem i do swojej gospody poszedł — niestety — sam!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI. Ptak niebieski w klatce</head>
 <p>Nazajutrz pan Kazimierz wstał pochmurny. „Niefortunnie wczora mi poszło — rozmyślał. — No, zobaczym, co ta mądra dziewczyna dziś wysuplikuje u starego! Leciałbym ci ja tam nie mieszkając, ale trzeba jej ostawić kęs czasu na tę niełacną dyskusję. Potem pójdę niby wedle żegnania się z panem konsulem, a w rzeczy dla dostania języka”.</p>
 <p>Dopiero więc przed samym południem opuścił gospodę i z przecznicy skręcił ku Bursztynowemu Domowi.</p>
@@ -1326,8 +1325,7 @@ Już dziesiąta na zegarze,</p>
 <p>— Rad by ja to uczynił, ale sobie rememoruj wacpani, że aż do dziesiątej, do stróżowego śpiewania, ulica jest pełna ludzi, na <emph>beischlagach</emph> gry i chorały. Nim się to wszystko uspokoi, to jeszcze upłynie sporo wody. Tak tedy ledwie niecała godzinka wolna się ostanie. To strasznie kuso czasu. A wszelako co robić? Masz wacpani rację, trza się w tej godzince uładzić. Racz tedy wacpani dać pannie Hedwidze takowy ordynans, aby zaraz po „gaszeniu ognia” była w gotowości. Ja <emph>tandem</emph> lecę w świat.. Jeszcze raz całuję rączęta naszej złotej swatki.</p>
 <p>— Z Panem Bogiem waszmość idź i bądź dobrej myśli, bom ja na to węzełek zawiązała, że się pobierzecie. A co Flora Korwiczkowa raz na facolecie swoim zadzierzgnie i w sercu swym zadecyduje, to i będzie. Rzecz pewna jak amen w pacirzu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII. Miłość ma skrzydła</head>
 <quote>
 <p>Już dziesiąta na zegarze,</p>
@@ -1489,8 +1487,7 @@ Już dziesiąta na zegarze,</p>
 <p>— Bóg dobry! Och, jak ja cię miłuję! Wiktoria!</p>
 <p>Tak, wiktoria! Wyrwał ją z kamiennego pierścienia rajcowskiej przemocy, wyrwał ją z kamiennej obręczy murów miejskich i oto lecą, jakby ptaki, wyżej łanów szumiących, niżej chmur pływających, lecą szczęsni i wolni, bo miłość ma skrzydła.</p>
 </div>
-<div>
-<p>VIII. Tak — ale wszelka miłość ma skrzydła</p>
+<div type="chapter"><head>VIII. Tak — ale wszelka miłość ma skrzydła</head>
 <p>Jednakże w najszaleńszym pędzle jazdy, wśród najzawrotniejszych uściśnień i upojeń, panu Kazimierzowi ciągle przez głowę przelatywało niespokojne pytanie:</p>
 <p>„Czemu ten Maciek nas nie dopadł? Czasu miał po uszy. Ceregielowalimy się tak długo wedle bramy. Czy tam się co stało, czy co?”</p>
 <p>Istotnie Maciek miał czasu bardzo dosyć na spełnienie pańskich rozkazów. To tylko nieszczęście, że był „maćkiem”.</p>
@@ -1736,8 +1733,7 @@ Już dziesiąta na zegarze,</p>
 <p>Tylko chmury czarno podarte przesuwały się nad nim jakby płaczki wiejące długimi kirami — tylko księżyc przypatrywał mu się swoim okiem okrągłym od podziwu i przerażenia — tylko wicher jęczał nad nim przeciągle i z jękiem tym przeleciawszy pola, uderzał na morze, chwiał okrętami stojącymi w Puckiej Zatoce, targał ich liny i flagi, aż marynarze wpół zbudzeni przewracali się na twardych deskach, żegnali się znakiem krzyża i mówili:</p>
 <p>— Jak też ten wiater osobliwszo zawodzi! <emph>Richtig</emph> tak, jakby nad kim desperował.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX. Cudowne odkrycie</head>
 <p>Nazajutrz Dom Bursztynowy pozostał długo zamknięty, zaklęty, niedostępny…</p>
 <p>Już od rana, co prawda, krążyły głuche wieści o jakimś tragicznym zakończeniu nocnej przygody. Wszakże nikt nie wiedział na pewno, co się stało. Z ganków i okien sąsiednich kamienic setki oczów, setki uszów zwracały się tam nieustannie dla podchwycenia jakiejś oznaki lub odgłosu. Kupki przechodniów stały z głową zadartą, wpatrując się w kamienny pierścień. Ale pierścień był ciągle pusty, w żadnym z okien nikt się nie pokazywał, żaden jęk ani krzyk, ani najlżejszy nawet szmer nie dochodził z wnętrza i choć niektórzy znajomi poruszali kołatką, nikt im nie otwierał. Już kumoszki zaczęły szeptać, że majster Johann wszystkich pozabijał i sam się powiesił.</p>
@@ -1936,8 +1932,7 @@ Już dziesiąta na zegarze,</p>
 <p>Tak rozmyślając, spoglądał kolejno to na drzwi od panieńskiego pokoju, to na schody, którymi zeszła pani Flora, i już wrócił do swojej komnaty, już sobie znowu piwa dolewał do szklenicy, a jeszcze wahał się, która z nich godniejsza jest afektu.</p>
 <p>— Rób, co chcesz — medytował — zawsze źle. Weź tę, będzie żal tamtej. Weź tamtę, będzie żal tej. Żeby to tak można… Ano cóż, kiedy nie można… Nie wolno! Hm… Na ten raz szkoda, że ja nie Turek.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X. Wesele</head>
 <p>— Co u licha? Czy tu mór wszystkich powybijał, czy co? Maciek, zajrzyj no do której chałupy i koniecznie dostań mi języka.</p>
 <p>— Juz ja, prosę wasej miłości, kręcił się po niejednym obejściu i raz doślipił ja maluśkiego chłopacynę, ale i ten mi ucik i psepad za chliwkiem. Juz mię się wsyćko tera nie dazy, już takowa klątwa Pana Boga cięży na mnie, obzydłym gześniku.</p>
@@ -2341,8 +2336,7 @@ Już dziesiąta na zegarze,</p>
 <p>— Kochane dziecko! — szepnęła. Potem, składając ręce, wpatrzyła się w gwiaździste niebo i wielkim głosem zawołała:</p>
 <p>— Pani matko moja najmilsza! Za twoje rarytne cnoty, za twoją śmierć i palmę wyniesioną z pogańskich męk wyprośże to w niebie, ażeby twoje ostatnie życzenie na ziemi teraz w całości się spełniło!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI. Wtóre wesele</head>
 <p>— O! I znowu się gapią… I to nawet jakoweś mościpany. A wżdy i tych trza przepędzić.</p>
 <p>Tak mruczał Kuba Grubasek, spostrzegłszy kupkę ludzi zgromadzonych przed Bursztynowym Domem. Byli to widocznie przyjezdni, jacyś panicze polscy, dorodni, pełni buty i pomimo przedpołudniowej pory odświętnie przystrojeni. Niebieskie i czerwone ich wyloty migały w powietrzu jakby proporczyki, bo rękami podniesionymi pokazywali sobie w górze okrągłe okienko i powtarzali z wykrzykami podziwu:</p>
@@ -2545,8 +2539,7 @@ Już dziesiąta na zegarze,</p>
 <p>A furda z podwiki.</p>
 </quote>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII. I trzecie wesele</head>
 <p>W kilka tygodni później znów buńczuczna brama Dobrowoli powiewała trofeami ze sztandarów; znowu schody gankowe były wyłożone purpurą i znów przed ten ganek zajeżdżał orszak weselny, ale tym razem jeszcze sutszy i liczniejszy, i radośniejszy niż pierwszy.</p>
 <p>Zjechało się nie tylko już sąsiedztwo, ale prawie pół Wielkopolski. Toteż i pański dom, i wszelkie zabudowania dworskie nie wystarczały na pomieszczenie gości; musiano powyporządzać spichlerze i stodoły, gdzie ci, którzy później stanęli na miejscu, a zwłaszcza wszelka młodzież, mieścili się, jak mogli, co nietrudno przychodziło ludziom przywykłym do trudów obozowych.</p>
@@ -2633,7 +2626,6 @@ Już dziesiąta na zegarze,</p>
 <quote>
 <p>Pisałam w Warszawie 1891 r.</p>
 </quote>
-</div>
 </div>
 </body>
 </text>

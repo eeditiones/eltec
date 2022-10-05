@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0082">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">59634</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Gromada</title>
 <ref>https://polona.pl/item/gromada-powiesc,Mjc3MjQ2MTk/6/#info:metadata</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Gromada</title>
 <author>Weyssenhoff, Józef</author>
 <publisher>Warszawa: Weysenhoff</publisher>
 <date>1913</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -240,7 +245,7 @@
 <p>— Ja przecie nie do was, gospodarzu...</p>
 <p>— I lepiej, że nie do mnie. No, wstawajta! Tu dziś nie rada, jeno robota, żniwo.</p>
 <p>Stanął na swym wysieczonym szlaku, poczekał niedługo na parobków, a gdy każdy doszedł do swojego, zaświstała znowu rytmicznie " kośba.</p>
-<p>Olczakówna, o której w ferworze rozmowy zapomniano, siedziała cicho, przyglądając się Rykoniowi, jak czytał, jak gadał, jak robił kosą. We wszystkiem chłop naczelny! Tylko dziwnie na jej wdzięki nieczuły. Toć wiedziała przecie, w dwudziestym roku życia, jak to mężczyźni zerkają z podełba, a kręcą wąsa, a przestępują z nogi na nogę, a czasem i głuPieją> gdy na którego spojrzy po swojemu. Nie* tylko chłopi — nawet sam dziedzic Sławoszewa i jego goście. Każdy, który ją widział, kiedy powraca, zapytuje: czy jest tu jeszcze u was tą ładna Magdusia? A Rykoń — kawaler przede i chłop setny, tyle tylko, że ją poczęstował śniadaniem i grzecznie gadał — ale tak zimno! — nie pochwalił ubioru, który dla niego przyodziała, nic — nawet na pożegnanie zdaleka tylko głową kiwnął, od roboty, powiedział, żeby dwojaków nie zabierała i — ostańcie z Bogiem!</p>
+<p>Olczakówna, o której w ferworze rozmowy zapomniano, siedziała cicho, przyglądając się Rykoniowi, jak czytał, jak gadał, jak robił kosą. We wszystkiem chłop naczelny! Tylko dziwnie na jej wdzięki nieczuły. Toć wiedziała przecie, w dwudziestym roku życia, jak to mężczyźni zerkają z podełba, a kręcą wąsa, a przestępują z nogi na nogę, a czasem i głuPieją&gt; gdy na którego spojrzy po swojemu. Nie* tylko chłopi — nawet sam dziedzic Sławoszewa i jego goście. Każdy, który ją widział, kiedy powraca, zapytuje: czy jest tu jeszcze u was tą ładna Magdusia? A Rykoń — kawaler przede i chłop setny, tyle tylko, że ją poczęstował śniadaniem i grzecznie gadał — ale tak zimno! — nie pochwalił ubioru, który dla niego przyodziała, nic — nawet na pożegnanie zdaleka tylko głową kiwnął, od roboty, powiedział, żeby dwojaków nie zabierała i — ostańcie z Bogiem!</p>
 <p>Wzdychała Magda z rozczarowania, odchodząc polną miedzą na przełaj do Sławoszewa.</p>
 <p>III.</p>
 <p>Słońce, złoty dobrodziej, szeroką poświatą oblewało tego dnia ziemię Łowicką, więc i sąsiadująca ze Sławoszewem i Mielnem Niespucha opływała w słoneczną łaskę. Tylko ten kawał ziemi, mniej wdzięczny, nie odpowiadał słońcu taką bujnością drzew i łanów, jak tamte, nie roił się takiem mnóstwem istot żywych. Folwarczek, zdawna zaniedbany, dźwigał się widocznie ku lepszemu, bo między kilku budynkami zwietrzałymi stał nowy dom barwy wapiennej i kształtu klatki mieszkalnej, ogołocony z przystrojów zieleni, które gdy się latem do ścian i dachów przytulą, śmieje się nawet chata urokiem bezpośredniego dzieła przyrody.</p>
@@ -328,7 +333,7 @@
 <p>— Pan Godziemba?! — tak, niby piękny, ale stary. Ja mówię nie jak o obrazie, tylko inaczej — rozumiesz? No, któregobyś najchętniej pocałowała?</p>
 <p>— Oj, co też to panienka gada!</p>
 <p>Rzuciła Olczakówna swą czarną, okrągłą główkę na kolana Manieczki, ukryła twarz w batyście jej sukni, ale panna Broniecka pod, GROMADA.</p>
-<p>— :>o —</p>
+<p>— :&gt;o —</p>
 <p>"</p>
 <p>garnęła jej rękę pod brodę i przyjazną przemocą zadarła w górę głowę pokojówki. Mierzyły się tak przez chwilę oczy figlarne, siwe, jasna głowa córki szlacheckiej z oczyma onieśmielonymi, z ponsową twarzą i rozkosznie błyszczącemi zębami córki ludu.</p>
 <p>— Co ty, Magdusiu? mnie się wstydzie będziesz? — Czy to pierwszy raz gadamy?</p>
@@ -351,7 +356,7 @@
 <p>Wtem poprosił o głos Stefan Czemski.</p>
 <p>Cicho, cicho, posłuchajmy, co on powie — rzekła żywo Manieczka.</p>
 <p>Mówił zapalczywie, chociaż się zrazu hamował:</p>
-<p>— r>2 —</p>
+<p>— r&gt;2 —</p>
 <p>— Pod jednym względem zgadzam się z wygłoszonem tu zdaniem pana Młockiego, że pierwszą, zasadniczą stroną kwestyi, a więc i pierwszym punktem dzisiejszych obrad winna być zgoda obywateli, których projekt bezpośrednio dotyczy — włościan wsi Mielna. Właściwie nie zgoda, lecz wola. Czyśmy tę wolę * wybadali? Czy wiemy, jaki dom, jaką wogóle instytucyę stworzyć chce ta wola zbiorowa, której nawet z głosów paru obecnych przedstawicieli nie znamy? Może oni chcą mieć lokal tylko dla celów towarzyskich? Może wyłącznie szkołę rolniczą lub rzemieślniczą? — Zwykliśmy narzucać braciom włościanom nasze pomysły starożytne, lub naśladowane skądi inąd, nie zawsze zgodne z wolą i z usposobieniem ludu. Lud, gdy chce, wie, czego chce.</p>
 <p>Gdyby panowie Mielniacy potrzebowali naszej pomocy w jakiejś swojej zbiorowej potrzebie, niewątpliwie udaliby się do nas z własnego impulsu. O tem dotąd nie słyszałem. My zaś, radząc tu o sprawie, jakkolwiek związanej z dobrem ogólnem, jednak nas bezpośrednio nie dotyczącej, dajemy wprawdzie dowód, jak pan prezes Godziemba, tradycyjnej pieczołowitości względem młodszych braci, ale popełniamy też tradycyjny błąd: kształtujemy życie tych braci, kiedy oni nas wcale o to nie proszą, bo potrafią być obywatelami po swojemu, na swoją modłę, niezrozumiałą dla umysłów, nawykłych do zadawnionej szlacheckiej supremacyi.</p>
 <p>Szmer opozycyjny rozszedł się wśród zgromadzonych; kilku naraz poprosiło o głos.</p>
@@ -403,7 +408,7 @@
 <p>— Kupeczka, córuś! jedność, spójnia i groch z kapustą — rozumiesz?</p>
 <p>Po czem rozśmiał się bez głosu, trzęsąc całą staturą, musnął po głowie śmiejącą się też córkę i szybkiem skinieniem dłoni odesłał ją do ogrodu.</p>
 <p>Mańka z zimną powagą oświadczyła Ignacemu, że ojciec kazał, aby stoły zsunięto w jeden i jednakowo nakryto.</p>
-<p>Obrady w Sławoszewie skończyły się uchwałą po myśli przeważnej większości. Postanowiono zwołać zebranie gminy Mielna, któ — (>:* —</p>
+<p>Obrady w Sławoszewie skończyły się uchwałą po myśli przeważnej większości. Postanowiono zwołać zebranie gminy Mielna, któ — (&gt;:* —</p>
 <p>reby projekt domu ludowego urzędownie przedstawiło do zatwierdzenia władzy; Broniecki przyrzekł sprawę poprzeć u naczelnika powiatu, którego "osiodłał", jak się wyrażał; Godziemba zapewnił pożyczkę w razie, gdyby Mielniacy nie zebrali odrazu składki dostatecznej.</p>
 <p>* Opozycya jakoś się rozpłynęła. Wójt Skierski bez walki przyłączył się do większości. Rzecznicy ludowi, przyprowadzeni przez Czemskiego, nawet obcesowy, lecz małomówny Kolaczyński, pomrukiwali coś niby, że trzymają z Czemskim, że poradzą sami sobie, lecz oszołomieni wymową Rykonia, potem serdeczną, nikogo nie pomijającą gościnnością Bronieckiego, zaprzestali protestów. Jedyny na głowę pobity, przeto zły i do końca obrad oporny był Stefan Czemski. Gdy po podwieczorku włościanie zbierali się do odjazdu, Czemski chciał się też pożegnać. Nie puścił go jednak Broniecki.</p>
 <p>— Rój się Boga, panie Stefanie! Pierwszy raz tu jesteś, nie uczynisz despektu sąsiadowi, zjeżdżając do niego tylko na mielenie gębą, niby kauzyperda. — Sąsiedzi z Mielna jeszcze też posiedzą — co?</p>
@@ -537,12 +542,12 @@
 <p>— To nie razem z prefesorem?</p>
 <p>— Niech sobie śpi jak najdłużej; nie mam do niego wcale interesu.</p>
 <p>— On zaraz wstanie; ma nawet przy sobie taki zegarek z dzwonkiem. O szóstej wstaje legularnie, pije kawę, a o siódmej chodzi se codzień piechtą do Mielna.</p>
-<p>> Czemski zdumiał na dobre:</p>
+<p>&gt; Czemski zdumiał na dobre:</p>
 <p>— Jakże dawno on tu siedzi?</p>
 <p>— Będzie już trzecia... nawet czwarta noc, że u nas sypia.</p>
 <p>— Któż ci kazał przyjmować go tutaj na mieszkanie?</p>
 <p>— Bo to z panem kiedy co wiadomo? — rzekła Agatka, dyndając komicznie mocnemi biodrami — myślałam, że przyjaciel polityczny, jak to mówią.</p>
-<p>> Miała właściwie słuszność. Cała wina, niedelikatność, bezczelność pochodziła od profesora.</p>
+<p>&gt; Miała właściwie słuszność. Cała wina, niedelikatność, bezczelność pochodziła od profesora.</p>
 <p>Wtem rozdzierający głos budzika zaalarmował z sypialnego pokoju. Czemski rzucił się do drzwi uchylonych, zamknął je ostrożnie i cicho, desperacko rozkazywał Agatce:</p>
 <p>GROMAOA.</p>
 <p>— Daj mi prędko wodę i ubranie. Nie chcę go widzieć, aż się i on ubierze. — — Gdzie on kawę pija?</p>
@@ -585,7 +590,7 @@
 <p>— A nie! mam tamtego dosyć. Niech sobie profesor odczyta dzienniki, które zebrałem przywiozłem. — Wolałbym się dowiedzieć, co tak ważnego jest do roboty w Mielnie?</p>
 <p>— Jakżeż! nie rozumiecie? — zawołał profesor, odzyskując swą niezależność — ta wasza uchwała Sławoszewska jest bezecna — trzeba ją odrobić!</p>
 <p>— Znowu tam bezecna! — wzruszył Czemski ramionami — może niezupełnie pomyślna, ale gdyby nawet dom stanął staraniem Bronieckich, Godziembów i Rykoniów, można go potem pilnować i wziąć w swoje ręce.</p>
-<p>— Nie, panie Stefanie! Przekleństwo urodzenia nie pozwoli temu domowi rozwinąć się w przybytek myśli odrodzonego ludu. Narzucą ni przecie swoje warunki, wezmą w niewolę księżą i szlachecką. — U podstaw, u korzenia trzeba podciąć ten jadowity porost! — Zdawał mi sprawę z tego matactwa Jan Goździk, który tam milczał, ale pilnie słuchał. Mówiłem i ze Skierskim, i z Kołaczyńskim. Znajdziemy wielu innych prawdziwych włościan, nie obrobionych przez szlachtęI Nie przekupią ich, jak Rykonia! A rozsadnik naszej myśli we wsi tak wielkiej> i bogatej, jak Mielno, to nie bagatela, to sprawa lokalna, ale bardzo ważna, panie Stefanie!</p>
+<p>— Nie, panie Stefanie! Przekleństwo urodzenia nie pozwoli temu domowi rozwinąć się w przybytek myśli odrodzonego ludu. Narzucą ni przecie swoje warunki, wezmą w niewolę księżą i szlachecką. — U podstaw, u korzenia trzeba podciąć ten jadowity porost! — Zdawał mi sprawę z tego matactwa Jan Goździk, który tam milczał, ale pilnie słuchał. Mówiłem i ze Skierskim, i z Kołaczyńskim. Znajdziemy wielu innych prawdziwych włościan, nie obrobionych przez szlachtęI Nie przekupią ich, jak Rykonia! A rozsadnik naszej myśli we wsi tak wielkiej&gt; i bogatej, jak Mielno, to nie bagatela, to sprawa lokalna, ale bardzo ważna, panie Stefanie!</p>
 <p>Zapał profesora nie udzielał się Czemskiemu. Szedł z pochyloną głową, nie odpowiadał. Owocny, po wypaleniu oracyi, trochę ustał, ale gdy się już zbliżano do granicy Niespuchy, zagadnął ciekawie:</p>
 <p>— Powiedzcież i wy, jak tam było w Sławoszewie?</p>
 <p>— Kiedy już profesor wie wszystko od Goździka i innych —</p>
@@ -1815,7 +1820,7 @@
 <p>— Tera mi tu, Michał, obrobisz belkę po lenii do ostrego kantu — rzekł Rykoń — tylko sumiennie! Robota płatna — jak mi "śledzia" zrobisz, nie zapłacę.</p>
 <p>Westchnął grubo Bembenista, okraczał belkę i jął dziabać toporem.</p>
 <p>A Rykoń przygotował z cieślą zadanie dla Fudały, potem dla siebie, zrzucił kożuch i wziął się szczerze do toporowania.</p>
-<p>Śnieżna kaszka sypała wciąż z nieba, szemrząc i odpryskując od rozrzuconego budulcu, więznąc cicho w żółtym kobiercu trocin. Ale gorąco było przy ziemi, przy robocie; powoli i obaj parobcy Rykonia i inni robotnicy ciesielscy zrzucili kożuchy, pozostając w lejbikach, spencerach lub kamizelach. Zagrały bar> wami szaty wierzchnie, amarantowe i czarne, spodnie jaskrawo pasiaste, księżackie — niby rój pstrokatych dzięciołów obsiadł smolne, pachnące drzewo i kuł je żelaznymi dziobami toporów. A w pobliżu ptasim też głosem świstała piła w kłodzie sosnowej, położonej na Wysokich kobyłkach. W innej stronie mlaskał mokro mur pod kielniami, zaledwie nad poziom dźwignięty, ale już wymiarami swego zakładu obiecujący. I taka się zawzięła wesołość w tej ciężkiej pracy pod opryskliwem niebem, że dziewuchy od wapna zaczęły śmieszną piosenkę, przytupując po chodnikach drewnianych, 3 podśpiewywał i niejeden z robotników ciesielskich. Nawet Bembenista zagrzał się, zabawił w lym pracowitym gwarze i, skończywszy wyznaczoue zadanie, odskoczył od belki, wołając ochoczo:</p>
+<p>Śnieżna kaszka sypała wciąż z nieba, szemrząc i odpryskując od rozrzuconego budulcu, więznąc cicho w żółtym kobiercu trocin. Ale gorąco było przy ziemi, przy robocie; powoli i obaj parobcy Rykonia i inni robotnicy ciesielscy zrzucili kożuchy, pozostając w lejbikach, spencerach lub kamizelach. Zagrały bar&gt; wami szaty wierzchnie, amarantowe i czarne, spodnie jaskrawo pasiaste, księżackie — niby rój pstrokatych dzięciołów obsiadł smolne, pachnące drzewo i kuł je żelaznymi dziobami toporów. A w pobliżu ptasim też głosem świstała piła w kłodzie sosnowej, położonej na Wysokich kobyłkach. W innej stronie mlaskał mokro mur pod kielniami, zaledwie nad poziom dźwignięty, ale już wymiarami swego zakładu obiecujący. I taka się zawzięła wesołość w tej ciężkiej pracy pod opryskliwem niebem, że dziewuchy od wapna zaczęły śmieszną piosenkę, przytupując po chodnikach drewnianych, 3 podśpiewywał i niejeden z robotników ciesielskich. Nawet Bembenista zagrzał się, zabawił w lym pracowitym gwarze i, skończywszy wyznaczoue zadanie, odskoczył od belki, wołając ochoczo:</p>
 <p>— Ejże, robota gracka! prościusieńka!</p>
 <p>Dom budowano przy samym placu przed kancelaryą gminną, gdzie się kręciło ciągle trochę ludzi. Zawsze też ktoś, czy zwolennik, czy przeciwnik budowy, zatrzyma! się, aby popatrzeć na wielki warsztat, z którego, bądź co bądź, wyrośnie dziwowisko, dom ludowy. Tem bardziej dzisiaj zatrzymywali się przechodnie, poznając między robotnikami samego Jana Rykonia. Zagapiło się kilku chłopów i kilka bab z dziećmi, a że kupa przyciąga do siebie, więc każdy, kto przechodził, musiał choć na chwilę przystanąć, zadając sobie najprzód pytanie, czy też Rykoń za pieniądze robi, czy z łaski i ochoty?</p>
 <p>Przechodzi! prędko miody gospodarz, Zułek, jakby się bardzo do czegoś śpieszył. Ale, poznawszy Rykonia, zboczył z drogi i przez belki i wióry dopadł do niego:</p>

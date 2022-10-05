@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ENG18560">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="ENG18560">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -17,12 +20,12 @@
    </extent>
    <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662490">ELTeC-eng release 1.0.1</ref>
 </publicationStmt>
    <sourceDesc><bibl type="digitalSource"><title>The Daisy Chain</title><title>Nineteenth-Century Fiction
       Full-Text Database</title><publisher>Chadwyck-Healey Ltd (A Bell &amp; Howell Information and
@@ -49,6 +52,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
    <change when="2019-01-04">LB convert to ELTeC-1</change>
@@ -4864,7 +4868,7 @@
       that put me in mind of her every moment.'</p>
      <p>Dr. May gave his hand a squeeze, full of feeling, and went up to tell Margaret. She, on the
       first opportunity, told Richard, and made him happier than he had been for months, not so much
-      in Mr.Wilmot's words, as in his father's assent to, and pleasure in them.</p>
+      in Mr. Wilmot's words, as in his father's assent to, and pleasure in them.</p>
     </div>
     <div type="chapter">
      <head>CHAPTER XV.</head>
@@ -4875,7 +4879,7 @@
       <l>   Shoots higher much than he that means a tree.</l>
       <l>      A grain of glory mixed with humbleness,</l>
       <l>      Cures both a fever and lethargieness.'</l><p><hi>Herbert.</hi></p></quote>
-     <p>'Norman , do you feel up to a long day's work?' said Dr.May, on the following
+     <p>'Norman , do you feel up to a long day's work?' said Dr. May, on the following
       morning. 'I have to set off after breakfast to see old Mrs. Gould, and to be at Abbotstoke
       Grange by twelve; then I thought of going to Fordholm, and getting Miss Cleveland to give us
       some luncheon—there are some poor people on the way to look at; and that girl on Far-view
@@ -4953,7 +4957,7 @@
      <p>However, his father could not help adding, 'He is the head of the school—a thing we
       Stoneborough men think much of.'</p>
      <p>This, and Mr. Rivers's civil answer, made Norman so hot, that he did not notice much in
-      passing through a hall full of beautiful vases, stuffed birds, busts, &amp;c. tastefully
+      passing through a hall full of beautiful vases, stuffed birds, busts, etc. tastefully
       arranged, and he did not look up till they were entering a handsome dining-room, where a small
       square table was laid out for luncheon near a noble fire.</p>
      <p>The two ladies were there, and Mr. Rivers introduced them as his daughter and Mrs. Larpent.
@@ -5295,7 +5299,7 @@
      <p>Ethel gazed and went away, more put out than was usual with her. 'When Margaret has a new
       kind of fancy work,' she thought, 'she cares for nothing else! as if my poor children did not
       signify more than trumpery leather leaves!' She next met Flora.</p>
-     <p>'O Flora, see here, what a famous parcel of books Mr.Wilmot has sent us to choose from.'</p>
+     <p>'O Flora, see here, what a famous parcel of books Mr. Wilmot has sent us to choose from.'</p>
      <p>'All those!' said Flora, turning them over as they lay heaped on the drawing-room sofa;
       'what a confusion!'</p>
      <p>'See, such a parcel of reading books. I want to know what you think of setting them up with
@@ -10309,7 +10313,7 @@
       fulfil, and both agreed to leave all to her father, who, in every way, ought to have the best
       ability to judge whether there was unreasonable presumption in such a betrothal; but this very
       ability only served to perplex the poor Doctor more and more. It is far easier for a man to
-      decide when he sees only one bearing of a case, than when, like Dr.May, he not only sees them,
+      decide when he sees only one bearing of a case, than when, like Dr. May, he not only sees them,
       but is rent by them in his inmost heart. Sympathizing in turn with each lover, bitterly
       accusing his own carelessness as the cause of all their troubles, his doubts contending with
       his hopes, his conviction clashing with Sir Matthew Fleet's opinion, his conscientious
@@ -12201,7 +12205,7 @@
      <p>Mr. Rivers looked pleased, but was certain that Norman could not prefer the sketches to this
       gay scene. However, it took very little persuasion to induce him to do what he wished, and he
       took Norman's arm, crossed the lawn, and arrived in his own study, where it was a great treat
-      to him to catch anyone who would admire his accumulation of prints, drawings, coins, &amp;c.;
+      to him to catch anyone who would admire his accumulation of prints, drawings, coins, etc.;
       and his young friend was both very well amused, and pleased to be setting Miss Rivers's mind
       at ease on her father's account. It was not till half-past four that Dr. May knocked at the
       door, and stood surprised at finding his son there. Mr. Rivers spoke warmly of the young
@@ -12693,7 +12697,7 @@
       earth on Sunday next, all her fellow-scholars attending; and, I hope, profiting by the example
       she has left."</p>
      <p>"I have only to add my most earnest congratulations to those, whose labour of love has borne
-      such blessed fruit; and, hoping you will pardon the liberty, &amp;c."</p>
+      such blessed fruit; and, hoping you will pardon the liberty, etc."</p>
      <p>Etheldred finished the letter through blinding tears, while rising sobs almost choked her.
       She ran away to her own room, bolted the door, and threw herself on her knees, beside her
       bed—now confusedly giving thanks for such results—now weeping bitterly over
@@ -16992,7 +16996,7 @@
       now sat sorrowfully moralizing, and making excuses. 'People in former times had not so high an
       estimate of pastoral duty—poor Mr. Ramsden had not much education—he was already old when
       better times came in— he might have done better in a less difficult parish with better laity
-      to support him, &amp;c.' Yet after all, he exclaimed with one of his impatient gestures,
+      to support him, etc.' Yet after all, he exclaimed with one of his impatient gestures,
       'Better have my Harry's seventeen years than his sixty-seven!'</p>
      <p>'Better improve a talent, than lay it by!' said Ethel.</p>
      <p>'Hush! Ethel. How do you know what he may have done? If he acted up to his own standard, he
@@ -20449,7 +20453,7 @@
       Norman's losing his bearings, Harry would fetch a carrot, to compare. 'Better colour than
       theirs would ever be.' 'Then, what was the ointment for? to produce whiskers?—that was the
       reason Tom oiled himself like a Loyalty islander—his hair was so shiny, that Harry recommended
-      a top-knot, like theirs, &amp;c.'</p>
+      a top-knot, like theirs, etc.'</p>
      <p>Norman was, like the others, in such towering glee, and took so full a share of the
       witticisms, that were the more noisily applauded, the worse they were, that Harry suggested
       that 'old June, had lost his way, and found his spirits in Drydale—he must have met with a

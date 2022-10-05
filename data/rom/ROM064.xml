@@ -1,583 +1,558 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:e="http://distantreading.net/eltec/ns" xml:id="ROM064" xml:lang="ro">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title> Misterul morţei Jeanei Cristescu: ediție ELTeC</title>
-        <author> Caliga, George (1878-?)</author>
-        <respStmt>
-          <resp>codare ELTeC</resp>
-          <name>Lucretia Pascariu</name>
-        </respStmt>
-        <respStmt>
-          <resp>Corectura manuala </resp>
-          <name>Manuela Ursu</name>
-        </respStmt>
-      </titleStmt>
-      <extent>
-        <measure unit="words">13473</measure>
-        <measure unit="pages">80</measure>
-      </extent>
-      <publicationStmt>
-<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
-<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271645">ELTeC-rom release 0.7.0</ref>
-</publicationStmt>
-      <sourceDesc><bibl type="firstEdition">
-          <author>George Caliga</author>
-          <title>Misterul morţei Jeanei Cristescu</title>
-          <pubPlace>Bucharest</pubPlace>
-          <publisher>Minerva, Institutul de Arte Grafice şi Editură</publisher>
-          <date>1909</date>
-          <note>This is the source of the text</note>
-          <ref target="http://doi.org/10.5281/zenodo.3843324">Facsimile on zenodo</ref>
-        </bibl></sourceDesc>
-    </fileDesc>
-    <encodingDesc n="eltec-1">
-      <p/>
-    </encodingDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="ro"/>
-      </langUsage>
-      <textDesc>
-        <e:authorGender key="M"/>
-        <e:size key="short"/>
-        <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
-        <e:timeSlot key="T4"/>
-      </textDesc>
-    </profileDesc>
-    <revisionDesc>
-<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-14">Checked by checkup script</change>
-      <change when="2020-05-20">Initial TEI version generated.</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <front>
-      <div type="liminal">
-        <p>GEORGE CALIGA</p>
-        <p>Misterul morței</p>
-        <p>Jeanei Cristescu</p> 
-        <gap unit="graphic"/>
-        <p>«MINERVA» — Institutul de Arte Grafice şi Editură</p>
-        <p>Bulevardul Academiei 3. — Edgar Quinet 4. </p>
-        <p>1909</p>
-      </div>
-      
-      <div type="liminal">
-        <p>MISTERUL MORTEI</p>
-        <p>JEANEI CRISTESCU</p>     
-        <p>   Nu e zi, ca în Capitală, să nu se în-tâmle o crimă, sau o sinucidere, dar mai toate trec la rubrica «faptelor diverse» a ziarelor, consacrindu-li-se numai câteva rîn-duri. Misterul de care e înconjurată moartea nenorocitei Jeana Cristescu a pasionat însă publicul din întreaga țară și bine înțeles, în primul rând pe cei din Capi-tală. Tânără, frumoasă, și inteligentă, Jeana Cristescu și-a găsit moartea în niște împre-jurări, cari nici în prezent nu sunt bine cunoscute și a căror discuție a pasionat pe toată lumea.   </p>
-        <p>   Ca redactor al ziarului cotidian «Mi-nerva», subsemnatul am întreprins o an-chetă, pentru a desluși cât mai mult mis-terul acesta de nepătruns și am reușit să fac și pe colegii mei de la celelalte ziare, să pună același interes pentru dez-văluirea misterului. Justiția chiar, care    un moment părea că ezita, a hotărît să cerceteze mai de aproape această afacere.   </p>
-        <p>   Din ancheta pe care am făcut-o, am dat peste lucruri foarte curioase, amănunte cu totul senzaționale, am reușit între altele să dovedesc cine erà tatăl Jeanei Cristescu, și vă rog să nu surîdeți. Lucrul acesta nu a fost ușor, de oarece se pretindea, că Jeana Cristescu erà fiica colonelului Demetrescu, care după cum se știe, se sinucisese în’împrejurări iarăși misterioase. Am mai găsit apoi în cursul anchetei mele, ce a făcut Jeana Cristescu, cu câteva zile înainte de a pieri așa de misterios, ceia ce iarăși are o deosibiță importanță.   </p>
-        <p>   Dacă ar fi să înregistrez aci toate ver-siunile ce au circulat, apoi ar trebui să întreprind un adevărat roman senzațio-nal. Trebuie să mărturisec însă, că pu-blicul cititor, fie în mod anonim, fie prin    scrisori iscălite, mi-a dat un concurs foarte prețios, mi-a ușurat calea cercetărilor, numai cu interesul de a se afla adevărul.   </p>
-        <p>   Cititorul va judeca, dacă mi-am înde-plinit, pe cât s’a putut, greaua sarcină ce mi-am luat. Lui îi dedic această broșură, care poate fi socotită ca un pasaj intere-sant din viața noastră socială.   </p>
-        <p>Autorul.    </p>  
-        <pb/>
-      </div>
-      
-      <div type="liminal">
-        <gap unit="graphic"/>
-        <p> Ultima fotografie a Jeanei Cristescu   </p>
-      </div>
-      
-      <pb/>
-      <div type="liminal">
-        <gap unit="graphic"/>
-        <p>   Autograful Jeanei Cristescu   </p>
-      </div>
-    </front>
-  <body>   
-    <div type="chapter" n="1">
-            <head> Descoperirea cadavrului   </head> 
-<p>   Cerul era acoperit de nori negri, o ploaie fină se cernea peste întreaga Capitală și peste împrejurimile ei. In camera sa obiș-nuită, șeful stației B. M. din aproprierea gărei de Nord, stà liniștit, când ușa se deschise și acarul Scarlat Anghel îl vestì că a făcut o descoperire lugubră pe linie. Acarul era galben de emoție și abia putea să îngâne.   </p>
-<p>   — Un cap, un cap de femeie !   </p>
-<p>   D. Horenga, șeful stației își aruncă repede mantaua pe umeri, își îndesă chipiul pe cap și porni spre locul indicat.   </p>
-<p>   Era ora 7 și jumătate seara.   </p>
-<p>   Zăpada aproape se topise cu totul, li-niile străluceau sub lumina semnalelor de tot felul, pierzându-se în depărtare în în-tunericul nopței.   </p>
-<p>   Lanterne aprinse nenumărate spre stația București, cât și dincolo de stația B. M. se legănau ritmic, departe, în mâinele funcționarilor inferiori ai căilor ferate, cari erau de serviciu și cari rămâneau nevăzuți în besnă.   </p>
-<p>   In apropiere de primul ac de macaz, de lângă stație, acolo unde linia I. Vir-ciorova se bifurcă cu linia II Ploești, șeful gărei găsì așezat lângă șine, un cap de fată tânără, despicat de corp.   </p>
-<p>   Un cap de o frumusețe rară, împodobit de un păr bogat, negru și împletit. Capul fusese retezat de trup, ca și cum ar fi fost tăiat cu un cuțit. Pe față nici cea  mai mică sgârâitură sau rană.   </p>
-<p>   Descoperirea această lugubră, umplù de groază pe d. Horenga, care dădù imediat alarma.   </p>
-<p>   La o distanță de vre-o 15 metri, înspre gară, se descoperì și corpul victimei, mu-tilat îngrozitor. Abdomenul era deschis, iar un picior, piciorul' stâng, smuls dela șold și asvârlit la o distanță și mai mare,    tot în apropierea liniei ferate.   </p>
-<p>   Cadavrul era desbrăcat de fustă, care de asemenea a fost găsită prin apropiere.   </p>
-<p>   Rochia era de culoare marron, curată nouță și intactă.   </p>
-<p>   S’a anunțat imediat circ. 18, care a comunicat cazul parchetului. D. subco-misar Zdrafcu veni la locul descoperirei lugubre, adună membrele împrăștiate ale cadavrului și începù ancheta.   </p>
-<p>   Deșì figura victimei era nealterată, nu s’a putut totuși, stabilì repede idenditatea cadavrului. Faptul că nu avea nimic pe cap, și trupul de asemenea neâmbrăcat cu vre-o haină mai groasă, iar ghetele curate și nemurdărite de noroi, a sugerat pentru moment bănueli că victima ar fi    căzut din vreun tren de pasageri.   </p>
-<p>   Ultimul tren însă, care trecuse spre Bu-curești fusese expresul de Berlin, care so-sește în gara de Nord la ora 7 și 15 m. seara.   </p>
-<p>   După îmbrăcămintea modestă dar cu-rățică și mâinile albe și curate ale cada-vrului se putea presupune că victima era vre-o lucrătoare, sau mai curând vre-o croitoreasă. Cum, însă, trenul de Berlin nu are decât cl. I, bănuiala că victima ar fi căzut din tren, a fost îndepărtată.   </p>
-<p>   S’a făcut în urmă suposițiuni că fata, — fiindcă, după înfățișarea' cadavrului, victima nu aveà o vârstă mai mare de 15—16 ani, — ar fi încercat să traverseze linia ferată și surprinsă de tren, a fost omo-râtă, iar membrele ei despoiate și aruncate de mașină la diferite distanțe.   </p>
-<p>   Nimeni nu bănuià însă, că această des-coperire lugubră erà să fie numai începutul unui mare mister. —Victima nu erà cu-noscută încă. Nimeni nu știà, că frumosul cap, erà al nefericitei Jeana.   </p>
-    </div>
-    
-    <div type="chapter" n="2">
-                <head>Cine erà victima ? </head>    
-<p>   Pe când autoritățile făceau cercetări pentru a stabilì cum s’a petrecut neno-rocirea și a aflà numele victimei, la po-liția Capitalei se prezentà, pe la orele 10 noaptea, o doamnă care își dădù numele de doamna Amelie Cristescu și care, cu  lacrămile în ochi și cu disperarea în su-flet, comunică comisarului de serviciu, că o fată a d-sale, singura ei copilă, în etate de 17 ani, brună, înaltă și frumoasă, dis-păruse dela casa părintească, încă de cu vreme și până la acea oră nu-i știa de urmă.   </p>
-<p>   Comisarul puse imediat în legătură cazul reclamat cu descoperirea lugubră din gara B. M., și după semnalmentele date de ne-norocita mamă, bănui imediat că victima erà fata dispărută.   </p>
-<p>   Comisarul, pentru a liniștì pe nefericita mamă, o asigură că va începe cercetările și că va readuce acasă pe copila dispărută.   </p>
-<p>   Întâmplarea făcù ca în acel moment să fiu la poliție și să aud reclamația doam-nei Cristescu. Doamna aceasta era înso-țită de un domn, destul de cunoscut în cercurile ziaristice, care manifesta' ace-lași interes și grijă ca și doamna pe care o însoțea. După ce comisarul luă notă de reclamațiunea făcută, streinul conduse pe doamna în trăsura care așteptà în cur-tea prefecturei și reîntorcându-se repede în cabinetul comisarului se interesă de aproape de semnalmentele fetei, al cărei cadavru a fost găsit în stația B. M.   </p>
-<p>   Comisarul, îi șoptise mai înainte acestui domn, despre descoperirea făcută în stația B. M.   </p>
-<p>   Însoțitorul doamnei Christescu stăruì foarte mult asupra semnalmentelor cada-vrului descoperit, iar după ce le află pe toate, plecă grăbit.   </p>
-<p>   Descoperirea unui cadavru pe linia fe-rată și în asemenea împrejurări stranii îmi sugeră imediat fel și fel de bănueli. Nu văzusem de cât telegrama laconică a comisarului circ, a 18, prin care aducea cazul la cunoștința prefecturei de poliție:...</p>
-
-<quote type="letter">
-<p>«Piciorul drept, spunea telegrama, a fost  găsit la 15 metri, în spre G. N.; capul la 20 metri în spre G. Ch.; corpul lângă macaz, rochia intactă...»   </p>
-</quote>
-      
-<p>   Mă urcai repede în cea dintăi trăsură și pornii în galopul cailor spre circ, a 18. Pe drum îmi făceam fel de fel de închi-puiri; în mintea mea întrebările se suc-cedau cu iuțeala fulgerului, fără a mai gândi câtuși de puțin să le găsesc răspunsurile cuvenite.  </p>
-<p>   Presimțeam că mă aflu în fața unei întâmplări neobișnuite, sensaționale, și mă gândeam la succesul pe care l’ar fi avut tânărul nostru ziar, dacă lucrurile ar fi eșit astfel cum presimțirea ’mi le presentà. In amorul meu profesional simțeam par’că o teamă ca descoperirea făcută să nu fie mai banală de cum mă așteptam și ardeam de nerăbdare să ajung mai repede la țintă. Aveam impresia că nemerisem cel mai prost birjar. In râvna mea de a sosì mai repede îl îmboldeam cu umbrela pe la spate, strigându-i să mâne în galop. Birjarul mâna, sărmanul, bolborosind de ciudă.   </p>
-<p>   Ajunsei în sfârșit la comisariatul de poliție. Acolo se află subcomisarul Zdrafcu are fusese cel dintâi la locul descoperirei sinistre și care <hi>cu propria-i mână adunase membrele cadavrului nefericitei copile, răs-pândite pe linie, așezându-le la un loc. </hi>  </p>
-<p>   — Este o sinucidere, îmi spuse cu un aer convingător, subcomisarul. N’am sta-bilit însă încă idenditatea.   </p>
-<p>   — Cum ai găsit’o?                              </p>
-<p>   — Capul la dreapta, lângă șină, la vre-o 20 metri departe de corp, care se aflà lângă macaz; piciorul stâng la 15 metri înainte, iar rochia alături de șină.   </p>
-<p>   — Cum erà rochia ?   </p>       
-<p>   — Foarte curată. Erà o rochie nouă-nouță, n’avea cea mai mică ruptură, și am găsit-o lângă șină, pe pàrtea stângă, dincolo de cap.  </p>   
-<p>   — Nu erà pătată de sânge, de loc ?   </p>
-<p>   — De loc. Curată ca și ghetele fetei, niște ghete șevro negru cu nasturi, în stare foarte bună.   </p>
-<p>   — Nu erà noroi pe acolo?   </p>
-<p>   — Ba erà destul.   </p>
-<p>   — Atunci cum îți explici?   </p>      
-<p>   — O fi căzut din tren.   </p>       
-<p>   — Ce tren a călcat’o. ?   </p>
-<p>   — Expresul.   </p>
-<p>   —  Și zici că e lucrătoare?   </p>
-<p>   — Nu știu, dar pare croitoreasă.   </p>
-<p>   Avea mâini curate și erà curățel îmbră-cată.   </p>
-<p>   — O croitoreasă cu expresul?   </p>
-<p>   — De, știu eu? Poate!   </p>
-<p>   — Ce ai' făcut cu cadavrul?   </p>
-<p>   — La trimes procurorul Duca, la morgă.   </p>
-<p>   — Zici' că erà frumoasă fata ?   </p>
-<p>   — Foarte frumoasă, un chip ideal.   </p>
-<p>   — Cine a făcut ancheta?   </p>
-<p>   — Procurorul, comisarul, șeful stației și cu mine.   </p>
-<p>   — Și ce s’a stabilit? -   </p>
-<p>   — Că e la mijloc o simplă sinucidere.   </p>
-<p>   Am părăsit localul comisariatului, fră-mântat mereu de aceiași neliniște. După spusele subcomisarului cazul mi se părea și mai nedeslușit.   </p>
-<p>   Începui să mă gândesc la doamna care se presentase cu câte-va ore înainte la poliție și căutai să găsesc pe domnul care o însoțea. Nu l’am putut găsi. La poliție n’am mai putut aflà ceva deosebit.   </p>
-<p>   A doua zi idenditatea cadavrului se stabilise. Fata călcată de tren erà fiica doamnei Cristescu.   </p>  
-      
-      <gap unit="graphic"/>
-      <p>   Jeàna Cristescu   </p>
-          
-<p>   In dorința de a aflà cât mai multe a-mănunte cu privire la această tragică întâmplare, m’am prezentat la locuința d-nei Amelia Cristescu, din bulevardul Elisa-beta No. 9.   </p>
-<p>   D-na Cristescu locuia un apartament destul de spațios în al Il-a etaj al case-lor No. 9, de pe bulevardul Elisabeta.   </p>
-<p>   La prima întrebare'ce am pus’o d-nei Cristescu, nefericita mamă nu și-a mai putut opri durerea și a isbucnit într’un hohot de plâns.   </p>
-<p>   «Dumnezeule,se tânguia nefericita femee, cu ce am păcătuit de mă lovești atât de crud ? De ce mi-ai luat pe scumpa mea Jenny, singura mea mângâere, singura mea fericire? De ce m’ai despărțit așa de crud, așa de groaznic de dânsa?»   </p>
-<p>   — D-le, îmi spuse d-na Christescu, după ce se liniștì puțin, vrea să zică tot copila  mea este aceea pe care a tăiat-o trenul... Tot dânsa, Jenny a mea iubită. Dar, d-le, ce-a putut-o hotărî la acest pas nesocotit? ce ? 0 iubeam ca pe ochii din cap, o ido-latrizam.   </p>
-<p>   Pentru dânsa și numai pentru dânsa trăiam. Erà singurul meu copil, singura mea nădejde și singura mea bucurie. Ce a făcut-o pe dânsa oare să se despartă de mine, să-și aleagă o moarte atât de grozavă, ah, Doamne! atât de fioroasă ? Și criza cuprinse iarăși pe nefericita mamă.   </p>
-<p>   Doamna Christescu, liniștindu-se din nou, îmi răspunse de astădată mai calmă la cele câteva întrebări pe care am îndrăznit să i le pun.   </p>
-<p>   — «Scumpa mea Jenny, continua d-na Cristescu, se arătà de - câtă va vreme ne-liniștită, indispusă. O întrebam mereu ce are. Nu vroia să-mi spună. Se ferea să-mi vorbească despre ce-o doare, iar de câte ori o întrebam de așa ceva, îmi astupa gura cu sărutări. «Mămițico, n’am nimic!» zicea dânsa. Dispoziția ei, însă, mai ales în ultimele 15 zile, îi dispăruse cu totul.   </p>
-<p>   De curând îmi spusese că este răcită, că o doare pieptul, iar când am rugat’o să se lase a fi examinată de un medic, a refuzat cu atâta energie, cu atâta ho-tărâre, în cât a trebuit să renunț de a o mai silì.   </p>
-<p>   «Eri, Sâmbătă, de dimineață a plecat la școală — erà în clasa 7 a externatului din str. Gloriei — La amiază nu a venit acasă. Seara pe la orele 6 a venit. Îmi spuse că a mâncat la amiază la o colegă a ei. Avea de altfel obiceiul, de a nu re-fuzà invitațiunile colegelor sale.   </p>
-<p>   Mi s’a părut mai nervoasă ca ori când. M’a sărutat cu multă pornire, și-a scos bereta și haina și a intrat în odaia de alăturea unde se aflà croitoreasa mea.   </p>
-<p>   «Ii făcusem o rochie nouă, de culoare marron pe care o pusese pentru întâia oară și croitoreasa vroi să vază dacă îi stă bine. Deodată, în acest moment, fata mea făcu o mișcare bruscă și plecă spre a eșì din casă. Eșì puse în cap bereta și pe dânsa o pelerină de uniformă. O întrebai unde se duce și o rugai să nu iasă din casă așa de ușor îmbrăcată, căci ar puteà răci. Mi-a răspuns că se duce la o vecină și închizând ușa, după afirmările croito-resei mele, căči eu nu am auzit nimic, mi-a spus: «Adio, mamă!»   </p>
-<p>   Disperarea din nou o coprinse pe d-na Cristescu, care cu multă greutate a putut fi liniștită de către două doamne amice.   </p>
-<p>   In timpul acesta, mai multe colege ale nefericitei Jeana veniră să se informeze în persoană de groaznicul ei sfârșit. La fiecare apariție a unei colege, mama Jeanei se înecă din nou în sughițuri.   </p>
-<p>   — Nu, nu mai întrebați fetelor cum s’a întâmplat, nu mă întrebați că-i grozav...   </p>
-<p>   — A-ți fost la morgă? întrebai eu.   </p>
-<p>   — Da; nu m’au lăsat însă s’o văd.   </p>
-<p>   — Să mergem noi s’o vedem, ziseră în cor colegele Jeanei.   </p>
-<p>   Ce să vedeți fetelor, ce să vedeți? răspunse d-na Cristescu disperată; E fă-cută bucăți, nu se mai cunoaște!.. «Am promis d-n ei Cristescu că mă voi duce eu la morgă și-îi voi comunicà, dacă fata gă-sită moartă este cu adevărat Jeana, fiindcă spre a o liniștì, apucasem a-i spune în cursul convorbirei, că se vorbea despre o altă fată care s’ar fi aruncat în fața trenu-lui, și de fapt se vorbea într’adevăr că idenditatea cadravului s’a stabilit și că el aparține unei fete care locuia pe câm-pul Pleșoianu.   </p>
-<p>   Doamna Cristescu, nu se opuse, de a mă duce la morgă, dar spuse cu covingere.   </p>
-<p>   — Oh! domnule, Jeana, e lăamorgă! Am plecat de la d-na Cristescu, cu o impresie bizară.   </p>
-    </div>
-    
-    <div type="chapter" n="3">
-             <head>De ce s’a omorât Jeana?  </head>
-<p>   D-na Cristescu nu-și putea explicà moti-vul pentru care s’a omorât Jeana. Drăguța și nenorocita ființă, părea că voise să ducă cu ea în mormânt un secret îngrozitor.   </p>
-<p>   Publicul începuse să-și manifeste păre-rile lui libere, păreri, cari sub anonimat, erau bine înțeles și mai libere.   </p>
-<p>   De la mamă aflasem atât cât se părea că știe, rămâneà acum să întreb pe toți acei cari o Cunoscuseră pe biata Jeana. Cu cât se mărea misterul, cu atâta mă pasionam mai mult de această afacere..   </p>
-<p>   După’ ce am cercetat, am aflat, că cel care putea să-mi dea amănunte intere-sante asupra Jeanei, erà d. M. un bun prie-ten al familiei.   </p>
-<p>   Iată ce mi-a spus domnul în chestiune: «O cunosc de mică, pe nefericita fată. Este fiica naturală a colonelului Aurel Demetrescu, nefericitul aghiotant princiar are acum câte-va luni, a sfârșit și el    într’un mod atât de tragic.   </p>
-<p>   Jeny, erà o fată simțitoare. Dânsa iubeà pe tatăl său, sub a cărui acoperământ a trăit până la vârsta de 7 ani. Când ră-posatul colonel fusese mutat la Viena ca atașat militar, s’a văzut silit să se des-partă de fiica sa și de atunci au rămas despărțiți pentru totdeauna. Colonelul sub-venționa pe mama ei cu suma de 80 lei lunar pentru a acoperì cheltuelile ei de întreținere.   </p>
-<p>   Când s’a întâmplat nenorocirea cu co-lonelul, tânăra fată fiind informată a cerut să vadă pe tatăl ei pentru ultima dată. Mama fetei nu s’a putut opune la această cerere a fiicei sale și s’a dus cu dânsa la    cimitirul Belu, în capela căruia se aflà depus corpul nefericitului colonel.   </p>
-<p>   La vederea cadavrului tatălui ei, tânăra copilă s’a emoționat atât în cât, a tre-buit scoasă din capelă de teamă să nu-i vină rău.   </p>
-<p>   Reîntoarsă acasă, dânsa a cerut să îm-brace doliul.   </p>
-<p>   «Mama sa, însă, opunându-se, tânăra co-pilă s’a dus în târg și și-a cumpărat o rochie neagră din economiile ei. Mama sa a dojenit-o, dar lucrurile s’au uitat repede.   </p>
-<p>   «Jenny, aveà o mare aplicație, mai ales la pictură — continuă a-mi spune d. M. — unde manifestà un adevărat talent; și d.M. îmi arătă câte-va aquarele lucrate în-tr’adevăr cu o artă desăvârșită. «Acestea sunt operile ei, îmi zise d-sa.»   </p>
-<p>   Toate imformațiunile acestea mi le dă-duse d. M.cu un aer degajat, în aparență. Erau vorbe însă care-i tremurau pe buze ceea ce îi trădà turburarea sa internă.   </p>
-<p>   — Dar ce-a făcut-o pe această fată să-și aleagă o așa moarte ? l’am întrebat eu.   </p>
-<p>   După o scurtă gândire, d. M. îmi răs-punse :   </p>
-<p>   «Eu rămân deasenea foarte surprins asupra motivelor care au împins’o la a-ceastă grozavă hotărîre. Sâmbătă s’a dus la școală ca de obiceiu, iar la amiază a luat masa la o colegă a ei, d-ra Abra-movici din calea Călărași.   </p>
-<p>   «D-na Aslan, directoarea externatului de fete din strada Gloriei unde neferi-cita copilă urmà, cât și colegele ei, de-clară că în acea zi, a fost foarte suresci-tată, dar cau'zele acestei stări nu le-a îm-părtășit nici uneia.   </p>
-<p>   «Pe la 5 jum. seara când a venit acasă s’a îmbrăcat cu rochia cea nouă, pe cate i-o adusese croitoreasa și cu care a și plecat... la moarte.   </p>
-<p>   «De acasă a plecat cu bereta de școală în cap și cu pelerina pe umeri.'Noaptea pe la 11 am putut abia aflà de groaz-nicul ei sfârșit».   </p>
-<p>   «V’am declarat și adineorea — continuă d. M. — că nu-mi pot explicà motivele care au hotărît-o să se omoare.   </p>
-<p>   «Știu, că în zilele din urmă cetià pe Ana Karenina, cunoscutul roman al lui Tolstoi, al cărei eroină ’și alege un sfârșit întocmai ca și acela pe care și l’a ales dânsa. Apoi mai punând în legătură și sguduitura ce a produs’o asupra moralului său, sinuci-derea tatălui ei, înclin a crede că aceste două fapte și numai acestea, au influen-țat-o la săvârșirea actului nesocotit».   </p>
-<p>   Argumentele acestea, date de d. M. drept cause a sinuciderei Jeanei, deși pentru moment aveau aparența unei ex-plicații logice, nu le-am luat ca serioase.    </p>
-    </div>
-    
-    <div type="chapter" n="4">
-             <head>Înmormântarea Jeanei  </head> 
-<p>   Marți,’a treia zi după descoperirea ca-davrului, pe un vifor puternic și o vreme urâtă a avut loc, la orele 2 d. a. înmor-mântarea Jeanei Cristescu.   </p>
-<p>   Cu o jumătate de oră înainte, numeroși prieteni ai faniiliei au venit la morgă, unde se afla cadavrul nefericitei copile, pentru a-și lua ultimul adio.   </p>
-<p>   ntr’o trăsură de piață a sosit la morgă cu mult înainte de ora fixată pentru ridi-carea cadavrului, mama victimei, d-na Ame-lia Cristescu. Nefericita femeie se afla în prada celei mai grozave dureri și în două rânduri și-a pierdut cunoștința.   </p>
-<p>   Medicii institutului, luaseră măsura să fie acoperit corpul victimei, pentru ca publicul să nu-1 poată vedea. Erà atât de mutilată biata copilă, încât și omul cel mai stăpân pe sine, nu ar fi putut ră-mâne indiferent la vederea acelui cap frumos despicat în întregime de corp.   </p>
-<p>   Îndurerata mamă însă ceru cu tărie să i se permită să vază pentru ultima oară    pe copila ei, dar s’au opus multă vreme cei în drept.   </p>
-<p>   În cele din urmă s’au văzut nevoiți să-i acorde această ultimă dorință.   </p>
-<p>   Când cadavrul tinerei fete a fost des-coperit, un fior de groază străbătu pe cei de față. Nenorocita copilă intrase în descompunere iar capul ei, frumosul ei cap de odinioară despărțit acum de corp, erà oribil la vedere.   </p>
-<p>   Cosciugul apoi a fost așezat pe dric și urmat de prieteni, a fost dus la cimitirul Bellu unde s’a făcut înmormântarea.   </p>
-<p>   Erà o vreme așa de urâtă, Marțea aceea tristă, când rămășițele pământești ale nefericitei fete, sfâșiate îngrozitor, fuseseră duse la ultimul locaș! Un vifor îngrozitor se deslănțuise asupra Capitalei. Vântul    sufla sălbatec. Văzduhul erà inundat de fulgi deși de zăpadă care întunecau vederea, iar zăpada ce acopereă străzile erà atât de mare, în cât circulația fusese aproape intreruptă. O deslănțuire furioasă unei erni care murea ! Și totuși colegele Jeanei, au fost toate să-și ia ultimul rămas de la aceea care până în ajun frumaosă și delicată ca o floare de primăvară, atunci nu mai erà decât un morman de cărnuri !...   </p>
-<p>   Jeana erà înmormântată, dar misterul   </p>
-<p>   Iată dar atâtea întrebări care-și așteptau răspunsurile și atâteà fapte obscure care trebuiau deslușite și lămurite.   </p>
-      
-      <gap unit="graphic"/>
-      <p>   Stația B. M. (București-Mărfuri) devenită celebră prin cadavrului Jeanei Cristescu.   </p>   
-      
-<p>   Mă hotărî decii, să'le examinez, unul câte unul și să le deslușesc. Sarcina aceasta erà grea și îndrăsneață, dar aveam încre-dere în ambiția mea profesională și mare speranță în norocul meu, începui deci cercetările.   </p>
-    </div>
-    
-    <div type="chapter" n="5">
-             <head>Jeana nu e fiica Colonelului Demetrescu. </head>   
-<p>   Înainte de a trece însă mai departe, trebuie să elucidăm o chestiune foarte interesantă. Cine erà tatăl Jeanei?   </p>
-<p>   D. M. în interesanta convorbire ce am avut-o cu D-sa mi-a declarat categoric, că Jeana erà fiica sinucisului Colonel Demetrescu.   </p>
-<p>   In asemenea împrejurări, erà neevi-tabil să pui în legătură cele două morți tragice.   </p>
-<p>   Afacerea ar fi luat proporțiile unui mare roman senzațional. Trebuia deci să-mi ușurez cercetările, elucidând noua pro-blemă ce mi se pusese în cale.   </p>
-<p>   M-am adresat D-nei Cincu, sora repau-satului colonel. Erà singura persoană mai în măsură, delà care puteam aflà ceva mai sigur.   </p>
-<p>   Mă prezentai la locuința doamei Cincu, într’o după amiază la ora 6. Mi se fixase  această oră și delà început am observat că eram așteptat. De față se mai aflau d. ingi-ner Antoniu un bun amic al defunctului colonel, d-na Antoniu, și d. Nicu Cincu.   </p>
-<p>   Teama ce o avusesem de a nu putea ajunge scopul vizitei, m’a părăsit imediat ce mă aflai în cercul acesta întim. Dela început mi s’a manifestat cea mai mare bună voință și atențiune. D-na Cincu se arată foarte afectată de sgomotul ce se făcea în jurul acestei triste afaceri în care numele iubitului d-sale frate erà a-mestecat. Pe figura d-sale distinsă și plină    de bunătate se restrângea durerea care o consuma.   </p>
-<p>    «D-le, mi-a spus d-sa după ce-mi oferì un loc, cu foarte multă surprindere am aflat din ziare, despre svonurile cari cir-culă în oraș cu privire la paternitatea ne-fericitei copile. In deosebi, când am cetit în ziarul <title><hi>«Minerva»,</hi></title> cel mai serios și cel mai demn ziar ce-1 avem la noi, afirma-țiunile acelui d. M. am rămas, să vă spun drept, indignată.   </p>
-<p>   «Răposatul meu frate, n’a avut nici o legătură mai îndelungată cu vre-o femee.   </p>
-<p>   Aceasta v’o afirm cu tărie. Toate zvonurile carì circulă cu privire,1a acest fapt sunt pure invențiuni, pornite cine știe dela cine și cu ce interes.   </p>
-<p>   «Se afirmă că tânărâ Cristescu este năs-cută în orașul Buzău. Ori fratele meu n’a fost niciodată în garnizoana acelui oraș-Dânsul a stat la Tecuci, de unde a trecut alternativ la Bacău, Tg. Ocna, Focșani și București. La 1895 a fost trimes la Viena ca atașat militar, unde a stat timp de 5 ani, după care s’a reîntors în țară intrând în școala de geniu.   </p>
-<p>   In toată cariera lui militară, regretatul meu frate, a trăit mai mult în sânul fa-miliei sale.   </p>
-<p>   «Este posibil să fi avut cunoștințe în lumea femeiască, ca orice militar necăsă-torit, dar acestea au fost cu totul efemere și lipsite de legături mai trainice.   </p>
-<p>   «Ceea ce se caută a se atribuì fratelui meu, d-le, continuă d-na Cincu cu însufle-țire, este o calomnie, o ordinară calomnie. Nimic nu l’ar fi împedecat pe dânsul — stăpân absolut pe acțiunile sale — ca în timpul vieței, sau cel puțin în ultimul moment al vieței sale, să'și descarce conștiința de un păcat al tinereței. Și cred că cine l’a cunoscut pe Aurel Demetrescu știe ce însemnà la dânsul conștiința și cin-stea.   </p>
-<p>   «Vă repet deci, d-le, încă odată, că tot ce se caută a i se svârlì în spinare, este o urâtă și mare minciună, născocită ca să deruteze și să acopere cine știe ce in-calificabilă crimă sau neomenie.   </p>
-<p>   «Vă rog și vă autorizez să desmințiți din partea mea, sora colonelului Deme-trescu pe bârfitorii memoriei sale.    </p>
-<p>   «Cât privește asupra cauzelor nenoro-citei în care a lunecat, într’o zi poate vi le voi spune și atunci se va vedea cât de integru a fost fratele meu și cât de rea și pătimașe este lumea de azi».   </p>
-<p>   Cuvintele calde ale d-nei Cincu, isvo-râte dintr’o convingere adânca și dintr’o iubire fără margini pentru memoria ace-luia ce a fost colonelul Demetrescu, m’au emoționat mult și au àvut darul să mă convingă de adevăr. Jeana nu era deci fiica colonelului Demetrescu și cu toate acestea, Jeana erà convinsă că e fiica lui!   </p>
-<p>   Desmințirea dată de doamna Cincu, am publicat’o. Am primit în urmă scrisori și mărturii prețioase de la oameni bine-cunoscuți că Jeana erà fiica unui fost ju-decător numit I. D. mort acum câțiva ani, nebun.   </p>
-<p>   De altfel, iată de curiozitate actul de naștere al Jeanei, pe care mi l’au pro-curat din. Buzău, oraș în care s’a născut nefericita copilă:  </p>     
-      
-      
-<p><hi>Condica anului 1891 No. 438.</hi>   </p>
-<p>   «Din anul una mie opt sute noùă zeci și unu, luna August ziua două, orele  nouă a. m.   </p>
-<p>   Actul de naștere al copilei Jeana, de sex femenin, de religiune ortodoxă, năs-cută  eri  la ora unul dimineața, în această urbă, la casa mamei sale din strada Au-rora cu No. 4, culoarea Galbină, subur-bia bisericei Banului, fiica naturală a d-nei Amelia Cristescu, de ani două zeci și doi, de profesiune muncitoare, domiciliată în această Urbă; după declarația făcută de d-na Elena Enescu, de ani cincizeci și opt, moașa orașului, domiciliată asemenea, Cu-loarea Roșie, strada Curcanilor, care fiind moașe ne-a dat copila, în prezența ceru-ților martori și anume: d-na Sofia Prino, de ani douăzeci și patru, de profesiune menageră, domiciliată în' această urbă, culoarea Roșie, Piața Daciei, cunoscută a mamei și copilei și d-lui Nae Popoviciu, de ani douăzeci și cinci, de profesiune funcționar, domiciliat asemenea, culoarea Galbină, strada Docari, au subscris acest act după ce li s’au citit, împreună cu noi și cu declaranta.   </p>
-<p>   Constatat după lege de noi Ion Dumi-trescu, ajutorul primarului urbei Buzău.   </p>
-<p>   Declarantă (ss) E. Enescu.   </p>
-<p>   Martori (ss) S. Prino și N. Popovici.   </p>
-<p>   Ajutor  de primar (ss) Ion Dumitrescu.»   </p>
-      
-    </div>
-    
-    <div type="chapter" n="6">
-            <head>Crimă sau sinucidere ? </head>
-<p>   Descoperirea că nu colonelul Deme-trescu erà tatăl nenorocitei copile, m’a ajutat întru atât întru cât înlăturam un element, care promitea, să fie senzațional, dar care m’ar fi încurcat și mai mult.   </p>
-<p>   Cu toate cele spuse, nu se mai putea, pune sfârșitul tragic al Jeanei, în legătura cu neașteptata sinucidere a colonelului Demetrescu.    </p>
-<p>   Acum se punea o altă întrebare: Jeana s’a sinucis, sau a fost omorâtă? Omorâtă? Dar cine ar fi avut interesul să omoare pe acel înger nevinovat, care nu făcuse rău nimănui, care nu știa încă ce e viața și tiu avusese timpul șă facă rău cuiva?  Mulți au susținut sinuciderea de la început și printre cei cari s’au silit să o ilustreze mai mult, cu dovezi. psycoholo-gice, dacă nu cu altele, au fost chiar me-dicii legiști.   </p>
-<p>   Redau acì interesanta convorbire, ce am avut’o cu d. Andrei lonescu, medic legist și din care se poate scoate toate argumentele pentru cei cari vor să fie o sinucidere și nu un accident, s’au o crimă.   </p>
-<p>   — Convingerea noastră, a medicilor, a spus d. lonescu, e că tânăra Cristescu s’a si-</p>
-      
-      <gap unit="graphic"/>
-      <p>D. Andrei Ionescu, medic legist.</p>
-<p>nucis. Noi am pornit de la raționamentul acesta: avem înainte un cadavru. Urmează să ne convingem din examinarea lui dacă avem de aface cu o crimă sau cu o si-nucidere.   </p>
-<p>   Am examinat cadavrul și am constatat că trupul erà despărțit de cap care fu-sese retezat împreună cu gătul din gru-mazi, iar picioarele s’au găsit și ele mu-tilate grozav la oarecari distanță de trup și cap. Examinând capul și gâtul, am constatat că erau mânjite cu unsoare nea-gră ce se găsește pe roțile mașinilor de tren. Ochii cu pupilele de un negru frumos, rămăseseră deschiși, holbați, fixați par’că la un punct din văzduh. Piciorul stâng fusese smuls din basinul corpului, apoi tăiat din genuche ca și cel drept. Trupul erà sfâșiat de-alungul, pe partea stângă. Inima și plămânii fuseseră smulși din lo-cul lor, iar esofagul fusese desfăcut atât de plămâni cât și de stomac. Parte de in-testine erau eșite din abdomen și zdren-țuite, prăfuite. Vinele' și arterele gâtului erau injectate cu sânge închegat. Apoi hainile fetei erau și ele sfâșiate și prefă-cute în zdrențe.   </p>
-<p>   Toate aceste indicii atât de vădite nu puteau să ne dea altă convingere de cât că ne aflăm în fața unei sinucideri. Căci ori cât de violentă ar fi o crimă, crimi-nalul nu poate reuși să facă atâtea vă-tămări corpului victimei, câte avea corpul tinerei fete’ de care vorbim. Mașina tre-nului însă, în repeziciunea mersului ei, a sfâșiat corpul acelei nenorocite-copile după ce a ghilotinat capul. Și pentru noi me-dicii ar fi fost în deajuns să stabilim că ne aflăm în fața unei sinucideri prin ghilotinare, privirea cea fixă a ochilor fetei, privire în oare se citia spaima morței prin tăiarea și despărțirea capului de corp.   </p>
-<p>   — Nu se poate presupune, am întrebat eu, că mașina trenului a sfâșiat în chipul în care spuneți, un cadavru și nu o ființă vie ?   </p>
-<p>   —Nu, a răspuns medicul, pentru că n’am fi găsit sângele închegat la baza gâtului, pe vinele și arterele trunchiate, retezate — ci l-am fi găsit în alte părți ale cor-pului, unde criminalul ar fi dat lovituri,    Și lovituri anterioare celor cauzate de călcarea trenului n’am putut găsi pe corpul adus la morgă.   </p>
-<p>   — Se spune că fata ar fi fost neura-stenică, isterică spun unii. Dv. medicii, n’ați putut constată acest fapt pe cale fi-siologică ?   </p>
-<p>   — Nu, pentru că neurastenia ca și isteria sunt manifestări de natură nervoasă și ner-vii nu ne mai spun nimic într’un cadavru. Dar se poate deduce că tânăra a fost neu-rastenică și mai ales isterică prin faptul sinuciderei și prin felul cum a fost înde-plinit acest fapt, căci aceasta e caracte-ristica istericilor : iau repede, brusc, ho-tărâri eroice și tot repede, imediat, le și pun în aplicare.   </p>
-<p>   — Dar această acută stare de nervo-zitate, cum o explicați la o tânără de 17 ani, o elevă de școală, silitoare și ascul-tătoare ?   </p>
-<p>   — Explicația nu se poate găsì într’un fapt, ci ținând seama de o sere de îm-prejurări.   </p>
-<p>   — Mediul în care trăia...   </p>
-<p>   — Negreșit că și mediul și mai ales mediul în care trăia a putut să-i deter-mine starea nervoasă ; apoi preocupările ei în afară de școală: cum e posibil să fi fost și o fire reținută, care să fi păstrat în sufletul ei ascunse multe observații ce poate ar fi avut să le facă, dar din dife-rite considerații nu le-ra făcut; cum se poate deasemenea ca nervozitatea ei esce-sivă să fi fost și de natură ereditară, etc.»   </p>
-<p>   Aci convorbirea cu medicul legist s’a sfâr-șit, — dar cugetarea ziaristului a continuat să formuleze — de astădată pentru el —noui îutrebări.   </p>
-<p>   De sigur că nu poți aflà cauzele sinu-ciderei d-șoarei Jeana Cristescu, ziceam în sinea mea, dacă nu cercetezi de aproape    împrejurările în care această ființă a trăit și cari au determinat’o să se sinucidă.   </p>
-<p>   M’am hotărât să’mi îndreptez cercetă-rile pe această'nouă cale. Adevărul este că într’o afacere misterioasă, cum erà aceasta, pentru a ajunge la un résultat, trebue să cercetezi deodată în toate direcțiunile.   </p>
-    </div>
-    
-    <div type="chapter" n="7">
-            <head>Cercetări personale.</head>    
-<p>   Din câte am spus până acum, nu am vorbit de argumentele din cari s-ar putea  scoate, că nu a, fost la mijloc o sinucidere, ci o crimă.   </p>
-<p>   Cu toate explicațiile date de medicii legiști, rămâneau câteva lucruri cu totul neesplicate.   </p>
-<p>   Intre altele, lucru curios, victima ple-case de acasă cu bereta și cu pelerina. Ei bine, aceste două obiecte nu au fost găsite nici până în momentul când scriu aceste rânduri. Pentru ce au dispărut, aceste obiecte, pe care victima le aveà de sigur, înainte de a se aruncà, în tocmai ca Ana Karenina, înaintea locomotivei omorâtoare?   </p>
-<p>   Pentru ce s-au găsit ghetele cu totul curate? Pentru ce capul nu prezaent a-proape nici o leziune de și fiind tăiat de mașină și luat de ea, aruncat apoi la o  mare distanță, ar fi trebuit să fie mur-dărit, lovit, cu părul desfăcut? Dar nu, capul, retezat cu totul de trup, era frumos, părul își avea și bucla favorită a Jeanei și afară de o vănătae la tâmplă, bietul cap nu prezenta nici o lovitură, și nici murdar nu era.   </p>
-<p>   Faptul apoi că membrele nefericitei Jeana au fost găsite împrăștiate de-alungul liniei, pe o distanță colosală, nu lăsa im-presia, că Jeana s’a sinucis.   </p>
-<p>   A fost aruncată din tren între vagoane, mi se spunea într’o scrisoare; «a fost o-morâtă și cadavrul'i-a' fost pus pe linie» îmi spunea altă scrisoare.   </p>
-<p>   Scrisorilor anonime le dai importanța pe care o merită, în orice caz, era de datoria mea de prefect ziarist să fac toate cercetările.   </p>
-<p>   O anchetă la fața locului se impunea.   </p>
-<p>   Cu automobilul ziarului la care lu-crez, am putut pătrunde cu multă greu-tate, pe o șosea înfundată de zăpezi, până dincolo de cimitirul Șf. Vineri, în apropiere de stația B. M.   </p>
-<p>   Condus de către un subcomisar, am putut culege următoarele amănunte, ex-trem de interesante și din cari se pot con-chide multe.   </p>
-<p>   Cadavrul a fost găsit pe linia a doua, Kitila la o distanță de aproape zece metri de acul care bifurcă linia cu acea de Vârciorova.   </p>   
-      
-      <gap unit="graphic"/>
-      <p>Vederea reprezintă linia II Chitila, iar crucea indică locul unde a fost găsit corpul Jeanei.</p>
-      
-<p>   Scarlat Angliei, domiciliat în srada Im-păcărei 5, acarul care a descoperit corpul fetei, mi-a declarat următoarele:   </p>
-<p>   «Cu cel puțin zece minute înainte de sosirea trenului accelerat No. 56, care venea din spre Buzău, mă aflam la post, în  dreptul acului. Linia, care în această parte este foarte dreaptă erà luminată bine și eu ne văzând pe nimeni pe linie am strigat să închidă bariera din șpre Grângași.   </p>
-<p>   La 7 și un sfert trenul a trecut ca de obiceiu. După trecerea- trenului am zărit la o distanță de vreo 20 pași, de unde ma aflam ceva alb între linie.- M’am apropiat și cu groază am constatat că erà corpul ;    unei femei tăiate de tren.   </p>
-<p>   In tot timpul cât am stat la ac nu am văzut pe nimeni care să se apropie de tren s’au să se arunce în fața lui.» '   </p>
-<p>   Un alt acar, Trifu Gheorghe, domiciliat în strada Principele Carol din comuna Militari, mi-a declarat:   </p>
-<p>   «La 7 și un sfert, după ce trecù trenul 56, de Buzău, pe linia a II Chitila, din stația B. M. unde mă aflam de serviciu, am observat în apropiere de stația B.M. un cadavru de femee, fără cap și mutilat. La o distanță de 20—25 metri de cadavru în spre Kitila am găsit capul, iar la o distanță aproape egală, însă în direcție opusă, - spre București am zărit un picior. Dincolo de cap erà o rochie de culoare marron, curată și în bună stare, iar puțin mai înainte la vreo 3 metri o fustă albă, ruptă pe la poale. Piciorul care se aflà smuls de corp precum și celalt, erau încălțate cu niște ghete negre, cu nasturi și foarte curate.»   </p>
-<p>   Comisarul Negrescu șeful circ, a 18 și subcomisarul Zdrafcu, cari s’au dus cei dintâi la fața locului, au găsit pe linia chitila membrele cadavrului fetei pe care după cercetări Ie făcute le-au așezat la un loc.  </p>
-<p>   D. comisar Negrescu mi-a declarat că cel dintâi obiect, în spre Chitila, a găsit fusta albă a victimei, ruptă la poale, la trei metrii mai încoace rochia copilei, de culoare marron, nouă, foarte curată și fără    cea mai mică ruptură sau pată de sânge. Rochia se aflà la o distanță de vreo câțiva pași de linie.   </p>
-<p>   Apoi tot înaintând în spre stația B. M. a găsit, mai întâi, piciorul stâng al victimei, gol, îmbrăcat mimai cu ciorapul și gheata. Piciorul erà smuls din șold. Gheata eră foarte curată. Piciorul a fost găsit între o linie ce se bifurcă, dar aci se aflà, foarte puțin sânge închegat și    aceasta mai mult în picături.   </p>
-<p>   La 20 metri de picior a găsit corpul, iarăș între șine, pește o rigolă, oribil muti-lat și amestecat cu bluza zdrențuită. Cada-vrul nu purtà indispensabili.   </p>
-<p>   La o distanță de încă 20 metrii în apro-</p>
-      
-      <gap unit="graphic"/>
-      <p>   Locul unde stătea acarul și unde a fost găsit piciorul Jeanei   </p>  
-      
-<p>piere de rochie a găsit capul copilei cu părul împletit în două cozi și căzut pe linie.   </p>  
-<p>   Întreg abdomentul victimei precum și părțile genitale, erau cu desăvârșire dis-truse «măcinate» după însăși expresia comisarului.   </p>
-<p>   Din toate aceste declarații reeșea în mod neîndoios, că un mare mister învă-luià această moarte.   </p>
-<p>   Mai întâi nu se explică cum s’a putut găsi la o distanță, mai îndepărtată fusta  albă a copilei, iar mai- încoace rochia ei nevătămată, pe când mai logic ar fi fost contrariul. Nu se poate presupune, chiar    admițându-se că fata, înnainte de a se as-vârlì asupra trenului, și-a scos întâi fusta și apoi și-a lepădat rochia.   </p>
-<p>   Apoi cum se poate explicà faptul că rochia erà intactă și nepătată de sânge? De ce victima, dacă ar fi avut această prevedere pentru foile ei, n’a avut’o și  pentru bluză care erà deasemenea nouă și mai scumpă, fiind de catifea ? Dar ghe-tele cum de au rămas curate cu toate că plecase d’acasă fără galoși, sau șoșoni, după declarațiunile făcute de însăși mama ei?   </p>
-<p>   Dar faptul, că unde a fost găsit piciorul, nu s’a văzut sânge decât câte-va picături ? De ce linia ferată în acest loc nu erà mânjită de sânge, așa cum ar fi fost logic să fie ?   </p>
-<p>   Declarațiile celor doi acari precum și acelea făcute de ' comisarul Negrescu și ajutorul său Zdrafcu, cei dintăiu cari au fost la fața locului, imediat după desco-perirea cadavrului, erau de natură, de a sugerà cele, mai grave bănueli, cu privire la moartea tinerei Cristescu.   </p>
-<p>   Este neîndoios lucru că trupul fetei, a fost zdrobit de mașina trenului, dar nu erà de loc explicabil cum a putut fi cadavrul astfel împrăștiat.   </p>
-<p>   Din felul cum au fost găsite răspândite pe linie membrele nefericitei Jeana, precum  și hainele ei, nu se poate trage nici o concluzie în favoarea unei sinucideri.   </p>
-<p>   Judecând după pozițiunea în care au fost descoperite bucățile din cadavru, se  poate conchide ușor și logic, că fata, în momentul trecerei trenului se aflà lungită transversal pe linie, cu capul în spre ră-sărit. Astfel stând lucrurile cum se poate  explica atunci găsirea capului pe partea cealaltă a liniei și la o așa mare distanță de la corpul mutilat?   </p>
-<p>   Terenul în locul unde s’a întâmplat neno-rocirea erà foarte curat și nepătat de sânge.   </p>
-<p>   Ba, ancheta urmată în aceiași seară de autorități a stabilit ceva mai mult.  </p>
-<p>   Roțile mașinei erau nepătate de sânge. Numai roata a doua din partea stângă a locomotivei, erà puțin înroșită de sânge, dar puțin într’o parte.   </p>
-<p>   Această constatare a fost stabilită în următorul mod:   </p>
-<p>   Când în stația B. M. cadavrul a fost descoperit, șeful stației împreună cu co-misarul care venise în anchetă, după pri-mele cercetări au cerut să se examineze locomotiva trenului 56, care zdrobise corpul fetei.   </p>
-<p>   S’a chemat imediat prin telefon stația gărei de Nord și s’a comunicat ordinul unui amploiat care a și fost însărcinat să facă imediate cercetări la roțile mașinei  </p>
-<p>   Amploiatul s’a conformat ordinului pri-mit și ducându-se la trenul care abia sosise în gară, a spus mecanicului Ion Gèorgescu :   </p>
-<p>   «Măi meștere, -să examinăm roțile ba-laurului tău, fiindcă ne telefonează din stația B. M. că a lăsat un «cadou pe linie».   </p>
-<p>   Mecanicul aflând această veste s’a co-borît imediat din locomotivă și împreună cu amploiatul stației și focarul Toma lonescu, precum și cu subcomisarul gărei, au cercetat cu niște lanterne roțile ma-șinei și ale întregului tren și n’au găsit de cât că roata a doua din stânga, a lo-comotivei erà mânjită de puțin sânge, iar nu stropită.   </p>
-<p>   Această constatare este iarăși extrem de interesantă. Cum se poate ca o mașină de tren care zdrobește atât de grozav un corp omenesc viu, să nu fie stropită de sângele care ar fi țâșnit dintr’odată din corpul mutilat? Cum se face că nici linia ferată în locul accidentului nu a fost gă-sită plină de sânge, când logic ar fi fost ca în jurul ei să fie un lac de sânge? Oare nefericita copilă nu a fost încă în-nainte de a o călca trenul, un cadavru ?   </p>
-<p>   Dealtminteri, avem și declarația me-dicului legist, care ne-a spus că unei ființe, vii când e tăiată, îi curge mult sânge, ceea ce nu s’a întâmplat în cazul acesta.   </p>
-<p>   Imediat după descoperirea cadavrului, autoritățile au luat pe lângă alte decla-rații și pe acelea ale mecanicului trenului și fochistului.  </p>
-<p>   Mecanicul trenului în acea seară erà Ion Georgescu.   </p>
-<p>   La întrebările ce i s’au pus, dânsul a declarat că nu a văzut nimic înaintea liniei.   </p>
-<p>   — «Veneam cu o viteză de 30 de kilom. pe oră în acea parte, zise el; erà ce-i drept puțină pâclă, dar vedeam perfect linia până’ la o distanță de vreo 8—10 metri. Nu am văzut pe nimeni în fața liniei ; nu am simțit-nimic care să-mi deș-tepte vre-o bănuială. In acest loc toată atențiunea mea erà ațintită asupra liniei de oarece eram aproape de macazul de schimb.   </p>
-<p>   Pe acar l’am observat, dar altceva nimic».   </p>
-<p>   Declarațiuni identice a făcut și focarul Toma lonescu. El n’a văzut nimic și n’a auzit nimic.   </p>
-    </div>
-    
-    <div type="chapter" n="8">
-            <head>Cu ce s’a dus Jeana până la stația B. M.? </head>    
-<p>   In acest timp colegii de la celelalte ziare au început și dânșii cercetări per-sonale; comisarul circumscripției 18 își făcea cercetările deasemenea. Toți însă ne loveam de aceiași chestiune: cu ce s’a dus Jeana până la stația B. M. ?   </p>
-<p>   Desigur că presupunerea, că tânăra fată a plecat cu tranvaiul de Luter — care trece prin aprorierea locuinței d-nei Cris-tescu — până în dosul gărei de Nord, trebue exclusă, de oarece nu ar fi avut timpul necesar să ajungă la stație înaintea trenului care a strivit-o. Se presupune deci că s'a dus cu trăsură. Dar în acest caz unde erà birjarul? Autoritățile nu luaseră măsurile necesare pentru găsirea birjarului? Mă întrebam pentru ce? Oare declarațiunea acestuia nu avea nici o va-loare? Erà însă foarte important de a se stabili faptul daca tânăra Cristescu s’a coborît în gara de Nord și de acolo pe jos, s’a dus până în stația B. M. sau s’a dus cu trăsura până în dreptul cimitirului Sf. Vineri și d’aci pe câmpie, a trecut în stație. Și într’un caz și în altul ghetele fetei nu puteau rămâne atât de curate cum au fost găsite.   </p>
-<p>   Vedeam eu că autoritățile nu se ocupau cum ar fi trebuit, de această întâmplare destul de dramatică.   </p>
-<p>   Pe de o parte ardeam de dorința de a căpăta amănunte cât mai precise, iar pe de altă cititorii ziarului mă sileau la aceasta prin întrebările lor insistente. Am fost deci din nou în stația B. M. De astă dată m-am dus cu trăsura până la cimitirul Sf. Vineri de unde am apucat pe o stradă îngustă și mică care da în stația B. M. adică am urmat drumul pre-supus că a fost, făcut de nefericita Jeana.   </p>
-<p>   Timpul erà umed și o ceață ușoară întuneca atmosfera. Pe linie am găsit pe acarul Anghel, acela care a descoperit cel d’ântâi câdravul.   </p>
-<p>   L’am întrebat din nou, asupra împrejură-rilor acestei tragice întâmplări și mi-a repe-tat declarați unile făcute în ajun.   </p>
-<p>   — Nu-mi pot explica nici eu — adăogă acarul cum se poate ca ghetele fetei să fie atât de curate —căci erau foarte cu-rate, d-le, le-am văzut bine, fiindcă eu cel dintâi am dat peste cadavru, un minut după trecerea trenului. In acea seară erà aceiași vreme ca și astăzi; pâclă și bură de ploaie, iar noroi berechet ca și acum, precum vedeți.   </p>
-<p>   — Dar oare nu a avut în picioare galoși care să-i fi furat cineva? Îl întrebai.   </p>
-<p>   — N’ar fi putut nimeni să-i fure fiindcă, după cum vam spus, am fost cel d’ântâi care am descoperit cadavrul și eu galoși nu am văzut. Eu cred că fata s’a omorât singură,—conțină acarul—lungindu-se pe linie, fără s’o observe nimeni, dar mai cred că dânsa a venit mai de mult aci și era ascunsă prin vre-un vagon de marfă din care staționau pe linia III, iar când a observat că s’a întunecat și că sosește un tren, s’a strecurat pe șine și s’a lungit deacurmezișul.»   </p>
-<p>   Aceeași părere au exprimat-o și ceilalți acari.»   </p>
-    </div>
-    
-    <div type="chapter" n="9">
-    <head>«Jeana Cristescu s’a sinucis», spune co-misarul Negrescu.</head>       
-<p>   Cu toate amănuntele ce le-am dat mai sus, ancheta oficială, aceia a d-lui comisar Negrescu, dela circ. 18 conchidea că Jeana s-a sinucis.   </p>
-<p>   E interesant să reproduc aci convor-birea pe care am avut-o în această pri-vință cu D-sa.   </p>   
-      <gap unit="graphic"/>
-      <p>   D. Negrescu Comisarul circ, a 18-a.   </p>
-      
-<p>   — Jeana Cristescu, mi-a spus d. comisar Negrescu, a plecat de acasă la orele 6 și jumătate seara. Aceasta se stabilește din declarația mamei sale, și din declarația, co-legei sale, d-ra Abramovici, la care Jeana    fusese la amiază la masă, și cu care, după școală venise acasă.   </p>
-<p>   Jeana, deci, plecase de acasă la 6 și jumătate seara și găsită moartă pe linia ferată cu trei sferturi de oră mai târziu, nu-putea decât să se fi sinucis. Nici un criminal, ori cât de îndrăzneț și de meserie ar fi fost — a continuat d. comisar Ne-grescu — nu ar fi avut timpul material să comită o asemenea crimă.   </p>
-<p>   Deci, crima fiind exclusă, să ne închi-puim acum felul în care s’a petrecut sinu-ciderea.   </p>
-<p>   Jeana Cristescu, când a plecat de acasă, s’a urcat în cea dintâi trăsură ce i-a eșit în cale și s’a îndreptat spre gara de Nord. Odată ajunsă în gară, s’a urcat în primul tren care pleca, și acesta, era trenul de Pitești care părăsește gara de Nord la orele 6 și 45 minute. Numai astfel se poate explica faptul că ghetele fetei erau curate. Ea s’a urcat în tren fără bilet, a stat pe platforma vagonului și, când a simțit că vine conductorul, s’a aruncat între roți.   </p>
-<p>   In modul acesta Jeana Cristescu a fost călcată și omorâtă, fără a fi observată, de nimeni. Cinci minute mai târziu, pe aceiași linie, pe care rămăsese corpul ne-însuflețit al nenorocitei copile, a trecut trenul expres de Berlin, cu o viteză de 50 klm. pe oră. Trenul dând peste corpul  neînsuflețit, lăsat pe linie, l’a zdrobit și mai mult, desmembrându-1 în modul o-ribil cum a fost găsit.»   </p>
-<p>   Trebuie însă să relevăm, că trenul de Pitești care la ora arătată părăsește gara de Nord nu trece pe linia pe care au fost găsite membrele cadavrului Jeanei și apoi chiar din declarațiunea făcută de medicii legiști, reese că un corp care cade din tren pe linie are o posiție cu totul alta de aceea pe care a avut-o cadavrul Jeanei Cristescu. Precum se vede prin urmare rămâne tot stabilit că cel dintâi tren care a trecut peste corpul tinerei fete — viu sau mort — a fost tot trenul de Berlin care venea spre București.   </p>
-    </div>
-    
-    <div type="chapter" n="10">
-            <head>Dacă e sinucidere, pentru ce s’a sinucis? </head>
-<p>   Am arătat în destul, care ar putea să, fie argumentele, că Jeana nu s’ar fi putut sinucide, dar dacă admitem că în adevăr s’a sinucis, să examinăm cauzele cari ar fi putut să o împingă la sinucidere.   </p>
-<p>   Din toate cercetările ce am făcut, am, scos concluzia, că Jeana nu iubea pe ni-meni, nu avea nici o slăbiciune cât de platonică pentru cineva- Aceasta o poate afirma toate colegile ei.   </p>
-<p>   După aflarea tragicului sfârșit al Jeanei, s’a vorbit foarte mult prin presă, și de către cunoscuții cei mai apropiați ai fetei, despre boala de care ea suferea.   </p>
-<p>   Doamna Cristescu însă-și, mama tinerei copile, ne-a afirmat pe atunci că Jeana se plângea adesea, în ultimul timp, de dureri de cap și de piept; că nu avea poftă de mâncare și că de câteori îi se spunea să se lase a fi arătată unui medic, dânsa refuza cu încăpățânare. Câteva din colegele Jeanei au afirmat deasemenea același lucru.   </p>
-<p>   Medicii însă, cari o examinaseră și prin-tre care este și d. doctor Mirinescu, au afirmat că Jeana nu erà atinsă de tuber-culoză precum s’a susținut. De altă boală grea și care să poată influența în mod dezastruos asupra fizicului, sau moralului ei, Jeana nu a suferit. Deci, este de nead-mis că niște simple dureri de cap, pro-venite dintr’o ușoară răceală s’au dintr’o altă cauză, de ordin sufleteasc, s’o fi putut determina pe tânăra fată, la un pas atât de hotărât și atât de disperat.   </p>
-<p>   Dacă Jeana ar fi suferit de vreo boală ascunsă, dânsa nu ar fi putut să păstreze multă vreme secretul, nu s’ar fi încăpă-țânat într’atâta să nu fie examinată de un medic. Stabilirea fecioriei Jeanei, fă-cută pe de altă parte de medicii legiști, este o și mai strălucită dovadă despre mora-litatea și seriozitatea ei, precum este iarăși o dovadă că Jeana nu avea nici un motiv să se teamă de medici. Dacă dânsa s’a opus atât, de a se arătă doctorilor, aceasta  a-făcut’o numai pentru că știa foarte bine că nu corpul ei eră bolnav, ci sufletul ei, acel suflet ales și cast, ros de cangrena, desnădejdei morale.   </p>
-<p>   S’a mai susținut de alții că Jeana erà neurastenică, că boala aceasta omorâ-toare, provenită din surmenagiu intelec-tual, a împins-o la tragicul sfârșit ce și l-a ales. Și versiunea aceasta însă nu este serioasă. Neurastenia, în gradul înaintat, nu se poate manifestà într’un timp atât de scurt. Ori, Jeana Cristescu, de o fire mai mult veselă și liniștită, nu devenise melancolică și -tristă de cât în urmă cu câteva săptămâni de la ziua fatală. Și în acest răstimp chiar cele mai multe din momentele ei, erau momente de uitare de sine, de voioșie și de spirit.   </p>
-<p>   Un neurastenic, de altfel, este stăpânit mereu de idei negre, e blazat, devine ipo-hondrie, e urmărit de idei fixe și este mi-santrop. El exprimă tuturora disprețul de viață ce-1 simte, dorința de a încheea, de   a sfârșì cu toate. Din câte însă se știe, și în mod pozitiv, Jeana Cristescu se pronunțase dese ori contra sinuciderei. Nu numai că nu erà o admiratoare a sinuciderei cum sunt toți neurastenicii — dar-nici nu credeà acest act, demn de acțiunea unui om în toată firea. Aceasta o afirmă colegele Jeanei, cu care nefe-ricita a avut numeroase discuțiuni în le-gătură cu acest subiect.   </p>
-<p>   Din cele relatate mai sus reese în mod destul de clar că nu boala a împins pe nefericita Jeana Cristescu să-și curme firul primăvăratec al vieței sale.   </p>
-<p>   Dar, atunci care este cauza adevărată ?   </p>
-<p>   Orice cauză s’ar căutà, tot nu se-poate explicà groaza de care erà apucată Jeana Cristescu în ultimele zile, groază, care a aruncat-o înaintea locomotivei.   </p>
-    </div>
-    
-    <div type="chapter" n="11">
-            <head>Jeana și Ana Karenina.   </head>  
-<p>   Înainte de a sfârșì acest capitol, e interesant să ne amintim că s’a spus, cum că în ultimele zile, Jeana citise pe Ana Karenina și că de aceea și-a ales în urmă tragicul sfârșit al eroinei lui Tolstoi.   </p>
-<p>   Reproducem mai jos, pasajul din acel-roman unde e vorba de sinuciderea Anei Karenina.   </p>
-
-      <milestone unit="dots"/>
-      
-<p>   «Clopotul sună și voiajorii se urcară în’ tren.   </p>
-<p>   Câțiva tineri care discutau sgomotos, tăcură deodată când o văzură trecând pe lângă ei.   </p>
-<p>   Unul dintr’înșii se aplecă la urechia altuia și-i șoptì ceva, neplăcut de sigur.   </p>
-<p>   Ea urcă scara vagonului și se așeză într’un compartiment singură, înfundându-se în divanul care odată fusese alb dar care acum nu mai avea nici o coloare.   </p>
-      <milestone unit="dots"/>
-<p>   Afară pe peronul gărei, o femee diformă cu o turnură exagerată și acompaniată de o fetiță care râdea sgomotos, trecură repede prin fața compartimentului Anei. Pentru a nu vedea pe nimeni ea se întoarse la    fereastra cealaltă.   </p>
-<p>   Un mujic murdar, cu o șapcă unsuroasă din care atârnau cârlionțele de păr, trecù prin fața ferestrei și se apleca pentru a examina roțile vagonului.   </p>
-<p>   — Oare n’am mai văzut eu pe undeva pe mujicul ăsta diform ?... Se întrebă Ana.   </p>
-<p>   Și ea își aduse aminte imediat de visul său. Tremurând de frică Ana se apropie de ușa vagonului, pe care conductorul tocmai o deschidea pentru a lăsa să pă-trundă înăuntru o pereche, un bărbat și o femee.   </p>
-<p>   — Voiți să vă dați jos doamnă ? o în-trebă conductorul.   </p>
-<p>   Ana nu răspunse nimic, se întoarse însă și își luă din nou locul în colțul compar-timentului. Sub voaleta sa nimeni nu-putu remarca oroarea care îi erà pictată pe față. Noii veniți o examinau cu atenție. Ana îi găsea respingători. Cei doi soți vorbeau de lucruri casnice, expres pentru a-i atrage atenția. Ana observa că ei se detestă unul pe altul. De altfel ar fi fost imposibil să se iubească doi oameni așa de urîți.   </p>
-<p>   Locomotiva flueră și bărbatul își făcù semnul crucei.   </p>
-<p>   Ana îl privì cu un aer iritat și se în-trebă : Ași vrea să-1 întreb pentru ce și-a făcut semnul crucei?       </p>
-<p>   Curând însă ea își uită de vecinii săi. Adierea vântului ridicà perdelele ferestrei. Ana căzù din nou pradă gândurilor sale..   </p>
-<p>   — Da, unde rămăsesem oare?... Ah, n’ași putea găsi oare o situație în care viața să nu-mi fie un vârtej? Nu suntem creați decât pentru a suferì. Lucrul acesta îl știm bine și pentru aceasta inventăm remedii pentru a ne amuza. Când vedem adevărul ce ne mai rămâne de făcut?   </p>
-      <milestone unit="dots"/>
-<p>   Da, adevărul mă îngrozește iar rațiunea mi-a fost dată pentru a mă pune la a-dăpost. Trebue dar să mă hotărăsc odată.Și pentru ce oare nu ași stinge lumina când tot ce văd mă dezgustă: Dar în ce fel. </p>
-    <p>Trenul intră în gară.   </p>
-<p>   Ana se coborâ împreună cu alți voia-jori ținându-se cât mai departe de ei ca și cum ar fi fost bolnavi de ciumă.   </p>
-      <milestone unit="dots"/>
-<p>   In fine ea își aduse aminte de ceia ce trebuia să facă. Oprì un amploiat și îl în-trebă dacă nu cum-va este cineva la gară cu un bilet din partea contelui Vronsky ?   </p>
-<p>   In momentul acela, birjarul Mihail pe care ea îl trimesese în ajun, se apropie de ea și îi întinse o scrisoare.   </p>
-<p>   Ana rupse plicul și inima i se stinse mai înainte de a afla conținutul. Vronsky răspundea:   </p>
-<p>   «Regret foarte mult că biletul tău nu m’a ajuns la timp. Mă voi întoarce pe la ora 10».   </p>
-<p>   — Nici nu mă gândeam la alt lucru, își zise Ana cu un surâs răutăcios.   </p>
-<p>   Bătăile inimei sale îì împiedicau parcă răsuflarea.   </p>
-<p>   — Nu, nu-i voi mai permite să mă tur-menteze, își zise ea îndreptându-șe spre ceal’altă parte a drumului de fier.   </p>
-      <milestone unit="dots"/>
-<p>   —  Șeful de gară trecând pe lângă ea o întreabă dacă voește să se urce în tren.   </p>
-<p>   — Doamne, doamne, se gândì ea, unde să mă ascund, unde să dispar? Și ea se oprì tocmai în partea ceal’altă a gărei.   </p>
-<p>   Un tren de marfă tocmai intră în gară. Ana se gândi de-odată la mujicul tăiat de tren în ziua când a văzut pe Vronsky pentru prima oară, și în clipa acea înțelese ce-i mai rămânea de făcut.   </p>
-<p>   Ana observă de aproape vagoanele, ro-țile și lanțurile care le legau unele de altele.   </p>
-<p>   — Colo se gândì Ana, privind nisipul amestecat cu ulei, ce acoperea locul dintre șine, acolo, drept la mijloc, între roate, și mă voi pedepsì și mă voi-liberà de tot și de mine însumi.   </p>
-<p>   La un moment dat, Anei îi veni să se arunce între despărțiturile roților vagonu-lui care tocmai trecea prin fața, ei. Se oprì însă și așteptă al doilea vagon. Deo-dată însă simțì aproape aceiași senzație pe care o simți când vrei să te scalzi în maré. Ana își făcù semnul crucei. '   </p>
-<p>   Gestul acesta familiar îi readuce în su-flet toate suvenirurile din tinerețe și co-pilărie.   </p>
-<p>   Ea continuă să privească roțile vagonu-lui care se apropia. In momentul în care spațiul dintre roate ajunsese în fața ei, Ana ascunzându-și parcă capul între umeri se aruncă sub vagoane cu mâinile înainte.   </p>
-<p>   In momentul acela, actul pe care îl comisese o umplù de eroare.           </p>
-<p>   — Unde sunt ? Ce am făcut ? Pentru ce ?   </p>
-<p>   Erà prea târziu însă. Simțì ceva enorm lovind’o în cap și ne mai putând luptà, strigă:   </p>
-<p>   — Dumnezeule, iartă-mă.   </p>
-<p>   Și lumina la care Ana citise cartea plină de sbucium, de minciuni, de dureri și de rele, strălucì deodată puternic, ilu-minându-i tot ceea ce pentru ea fusese scu-fundat în întuneric, apoi pălì și se stinse pentru totdeauna.»   </p>
-      <milestone unit="dots"/>
-<p>   Dar Ana Karenina erà o femeie, care cunoștea viața, Ana Karenina iubea, pe când Jana Cristescu nu cunoștea în amă-răciunile vieței, deziluziile amare ale iu-birei.—Nu e deci nici o asemănare intre eroina lui Tolstoi și sărmana fată, care și-a găsit moartea lângă stația B. M.   </p>
-<p>   Prin sugestiune, s-a spus, dar ar fi trebuit ca Jana să fi încercat sentimentele Anei Karenina, ceia ce știm cu siguranță, că nu e adevărat.   </p>
-    </div>
-    
-    <div type="chapter" n="12">
-           <head>Scrisoarea unei colege. </head>
-<p>   Înainte de a încheia prima parte a acestei scrieri vom reproduce aci scrisoarea pe care mi-a trimes-o la redacție, una din colegile Jeanei și în care se incearcă a se esplica intr’un anumit mod, cauzele sinuciderei tinerei fete —. Bine înțeles, că ceia ce spune colega Janei, nu se    potrivește de loc cu cele spuse de d-na Cristeseu, care își adora fiica așa de mult, în cât azi îi este de sigur, groază să mai dea amănunte asupra ultimelor zile- ale Janei.   </p>
-<p>   Iată pasagii din scrisoarea colegei Janei..   </p>
-      
-      <quote type="letter">
-<p>   Stimate Domn,   </p>
-<p>   «Făcând parte din numerosul public ce se interesează așa de mult de moartea nefericitei Jeana Cristeseu, vă aduc mul-țumirile mele și vă exprim admirația și recunoștința mea.   </p>
-<p>   Prin cercetările așa de sârguitoare și trebuincioase pe care le a-ți adus prin ziarul «Minerva» acesta și-a câștigat primul loc printre x ziare, sau mai bine zis, a știut că dea asaltul decisiv pentru înfrângerea    celorlalte.   </p>
-<p>   «În lungile dv. cercetări, multe puncte au fost întunecate pentru dv. ca și pentru public.   </p>
-<p>   «Vă spun drept că simt o remușcare acum când mă gândesc că n’am dat la iveală mai înnainte ceea ce știam, pentru a se clarificà lucrurile. Totuși acuma sunt hotărîtă să spun.   </p>
-<p>   «Plecând dela început, primul punct în-tunecat a fost : — S’a sinucis Jeana ? A fost un accident? S’au a fost omorîtă?   </p>
-<p>   Răspunsul meu este : s’a sinucis ! De ce ? mă veți întrebà.   </p>
-<p>   «Cauza nu este una. Sunt mai multe, dar sunt în strînsă legătură. Jeana își cunoșteà origina, precum și felul de viață al mumei sale. Aceasta a spus-o direc-toarei, ea însăși. Fiind chemată într’o zi în cancelarie, directoarea, d-na Aslan, a întrebat-o : Cristėscu, cu ce se ocupă mama cu ce trăește?» Fata n’a răspuns nimic: a plecat plângând afară și s’a întors mai  târziu, spunând : «Màma mea trăește cu un domn»: Pe urmă s’a dus în clasă, s’a așezat în bancă plângând cu desnădejde. Intrebând-o fetele le-a spus: Auzi să mă întrebe cu ce trăiește mama ? par’că nu știa?» și a continuat a plânge...   </p>
-<p>   «Acest X — continuă colega Jeanei — este acela care a determinat pe nefericita fată să se omoare.   </p>
-<p>   Inteligentă, castă și foarte simțitoare, fata nu-1 puteà suferì.   </p>
-<p>   D. X. erà foarte bun cu Jeana. El nu știa cum să fie mai serviabil față de dânsa. Fata însă, erà foarte rece. La sărutările prea dulci ale acestuia dânsa tremurà de scârbă. Când îmbrățișările lui erau prea lungi, Jeana se sbăteà și plecà fugind în odaia ei.   </p>
-<p>   «Odaia ei! Săraca fată! O cameră ce dă în bucătărie, cu ciment pe jos și fri-guroasă !   </p>
-<p>   «Jeana întârzia la școală acum în timpul iernei. Când o întrebau colegele de ce vine târziu, le spunea: «De! aș vrea să mă scol mai de dimineață, dar e așa de frig în odae! e cu ciment pe jos și nu-mi face focul nimenea !»   </p>
-<p>   «Cu mama ei erà vecinie în ceartă din cauză că mama sa îi reproșa că nu se poartă bine cu <hi>el</hi>. «Nenorocito, o dojena, cine îți dă să mănânci și după urma cui trăești? De ce te porți așa? ce ai cu el ?» Și Jeana tăcea și plângea.   </p>
-<p>   «Miercuri seară, cu trei zile înainte de a se sinucide, certându-se iar pe acelaș motiv, Jeana a răspuns. «Nu pot să-l su-fer !» Mama sa a bătut-o — căci obișnuia, și a doua zi Jeana s’a plâns la fete și le-a    arătat vânătăi pe mâini.   </p>
-<p>   «Pentru el fetelor ! — se plângea dânsa— Ah de ași muri. Nu pot să-l sufer.»   </p>
-<p>   «Deci, ea trăia rău în casă și rău la școală (vom vedea de ce). Pentru aceasta dorea să moară. Gândul de a murì,1’a avut de mult. De aceea umblà numai cu că-mașa și șorțul peste ea — în timpul ’ernei fără indispensabili și în ghete. Se plângea fetelor că e bolnavă și zicea că ar vrea să fie ofticoasă. In ultimele zile chiar spu-nea fetelor că e turbeculoasă deși nu erà.   </p>
-<p>   «Voia doar să se auto-sugestioneze.   </p>
-<p>   «Gândul de sinucidere i-a venit în urmă când a văzut că de moarte din boală nu poate muri.   </p>
-<p>   «Am zis că trăià rău la școală și mă explic: Dv. a-ți spus în «Minerva», că elevele o iubeau și dădeați ca probă faptul, că au venit toate la înmormântare. Ei bine, să vă spun ceva : La școală era in-terzis ca fetele să vorbească cu Jeana sau să fie intime cu ea. Cele cari țineau la ea pentru inteligența și frumusețea ei, erau spionate și reclamate direcției, carele pedepsea. Această măsură în contra. Jeanei era cauzată din următoarele mo-tive : 1) Direcția credeà că ce ese din pisică șoareci mănâncă și bănuia pe ne-vinovata Jeana; 2) primise la școală niște scrisori cu declarații de dragoste dela niște imbecili din școala militară din Iași, cari o urmărise la «patinaj» și pe cari Jeana nu-i cunoștea personal, astfel ca să se poată bănui că există ceva între ei. In urma acestor scrisori i s’a interzis să mai meargă la patinaj. Așa se explică de ce Jeana n’a avut nici o prietenă sinceră între colegele ei, căreia să-i destăinuească amănunțit starea ei sufletească.   </p>
-<p>   Vin și acum la alt fapt. Ați publicat într’unul din numerile trecute ale ziarului dv. o convorbire cu d. X care susținuse că citirea romanului Anna Karenina, influențase asupra fetei și a impins-o la sinucidere și că dânsa era neurastenică.   </p>
-<p>   Aceasta de sigur numai d. X aveà in-teres s’o spună.   </p>
-<p>   Jeana nu era neurastenică. Era un înger de veselie. Ea nu era tristă decât, când își aducea aminte de casă. Joi, Vineri și Sâmbătă, deșì era zdrobită de chinurile sufletești, totuși a râs destul. Sâmbătă a scris niște formule elenice pe tablă și toată ora de germană, s’a râs de drăciile ei de  pe tablă. Era cea dântâi la matematică și prepara realul singură. N’a putut să fie influențată de romanul lui Tolstoi.   </p>
-<p> ...Jeana s’a sinucis Sâmbătă, căci în ajun băuse ultimă picătură din paharul, suferințelor. Vineri seara s’a întors târziu cu Abramovici, acasă. In fața colegei, mama șa i-a adresat cuvinte insultătoare, foarte grave. A doua zi Jeana după vor-bele ce le auzise în casă erà descurajată foarte mult. Fetele îngrijate de starea ei, au căutat s’o liniștească. In aceste trei  zile din urmă, ea nu mai învăța nimic. S’a certat cu toate profesoarele. Una — nu știu de ce obiect — i-a spus textual:   </p>
-<p>   «Dacă ai înebunit, Cristescu, să te duci la alienați». La limba latină și extemporal a tradus 4—5 rânduri și a pus tocul jos. Profesoara observând aceasta a întrebat-o de ce nu scrie. «Nu știu, n’am învățat», răs-punse ea. «Dacă n'ai învățat — ba replicat profesoara — stai acasă, pleacă, acasă, haide! «0! acasă nu mă duc, răspunse Jeana, făcând cu mâna un gest de oroare»   </p>
-        
- <milestone unit="dots"/>
-        
-<p>   «P. S.—Jeana a mers din Schitu Mă-gureanu până la strada Polizu cu auto-mobilul. De aci nu știu cu ce a fost, Jeana umblà întotdeauna în ghete chiar pe ploile cele mai mari, întotdeauna însă erà foarte curată încât fetele foarte mirate, o între-bau: Cristescu, cum nu te murdărești tu?   </p>
-<p>   «De, umblu și eu cu băgare de seamă», răspundea dânsa.   </p>
-<p>   «De altfel la două lucruri ținea Jeana mult: Ghete curate și buclă la coafură».   </p>
-<p>   O COLEGĂ BUNĂ.   </p>
-      </quote>
-    </div>
-      
-      <div type="chapter" n="13">
-           <head> Este o sinucidere!   </head>  
-<p>   Ideea unei sinucideri începuse să se înrădăcineze în public. Lumea oficială și mai ales colegele Jeanei, singurele care erau mai în măsură să o cunoască mai de aproape, afirmau că Jeana s’a sinucis.   </p>
-<p>   Cu toate că unele puncte rămăseseră încă nelămurite, sfârșisem prin a mă con-vinge deasemenea că este o sinucidere. Cu toate acestea vroiam să știu și părerea unor persoane mai sus puse și mai com-petinte, atât prin cunoștințele lor cât și prin situațiunea ce ocupau. Eram curios mai ales să cunosc dacă nedumerirea ce rămăsese în sufletul meu, era împărtășită și de alți oameni versați în asemenea în-tâmplări. Am cerut părerea d-lui Emil Petrescu, prefectul poliției Capitalei, care mi-a răspuns textual:   </p>
-        
-        <quote type="letter">
-<p>   «Părerea mea este că fata aceasta s’a sinucis. Eu nu văd nici un indiciu care să mă îndreptățească a crede că este o crimă. Pentru a căutà o crimă, trebue sădi: ne întrebăm care ar fi fost mobilul.  </p>     
-<p>   «Mai întâi nu există de fel timpul ma-terial pentru a se comite o crimă și încă atât de monstruoasă. Apoi toate indiciile pledează pentru o sinucidere. Că s’au găsit</p>
-          
-          <gap unit="graphic"/>
-          <p>   D. Emil Petrescu prefectul poliției Capitalei.   </p> 
-          
-<p>ghetele ei murdare, sau că s’a găsit ro-chia ei intactă, acestea nu sunt motive destul de puternice pentru a hotărî pe -i  cineva să se pronunțe, că este o crimă la mijloc. Sunt într’adevăr puncte nu tocmai limpezi, dar totuși ele își pot avea expli-cația lor, dacă se vor cercetà mai de aproape toate împrejurările.   </p>   
-        </quote>
-    
-<p>   — Atunci părerea d-v. este că sinuci-derea se poate stabilì fără a mai rămâne ; nici o îndoială, nici un mister?   </p>
-<p>   — Evident că se poate stabilì astfel. Căutându-se împrejurările în care cazul s’a petrecut și motivele cari au deter-minat, este aproape inadmisibil ca să nu se poată găsì și explicația fiecărui amănunt.   </p>
-<p>   Acolo unde sunt mai multe puncte că-rora nu li se poate da, la început, o des-lușire naturală, cercetările trebuesc făcute mai cu băgare de seamă și luate în totdeauna de la origină. In cazul de față lucrurile se vor petrece la fel.   </p>
-<p>   Nu pot să mă explic cum a luat naș-tere svonul acesta, că e crimă la miiloc.   </p>
-<p>   La prefectură am primit o groază de scrisori, mare parte din ele anonime, al-tele iscălite, în cari mi se aduceau la cu-noștință fel de fel de amănunte, asupra acestei întâmplări, mi se atrăgeà atențiu-nea că este o crimă și toți acești cores-pondenți mă rugau să fac lumină- Eu am dat ordin să se cerceteze lucrurile și cu toate că eram convins despre o sinucidere,totuși atunci când s’a relatat întâmplarea tânărului suspect din Chitila, am luat dis-poziția ca acest tânăr să fie urmărit și-adus în București. Ați văzut însă că nu era nimic.   </p>
-<p>   «Cine-va într’o zi mă anunță printr’o scrisoare că în curtea unei fabrici dela Chitila s’a găsit pelerina și bereta fetei omorîtă de tren; Am trimes imediat un agent în localitate, dar nu era nimic. Mai dăunăzi un altul, printr’o scrisoare, anunțà că el este în măsură să descopere       crima. L’am chemat la mine și a venit. Când l’am întrebat ce știe mi-a răspuns c’am  ncurcat că nu știe nimic, dar dacă va cerceta va puteà să descopere adevărul.   </p>
-<p>   «Vezi acum cât de repede se alarmează publicul și cât de ușuratec judecă el.   </p>
-<p>   Nu contest că modul cum se prezintă această lugrubă descoperire, n’are părți tulburi și aproape stranii. Aceasta, însă, nu înseamnă că numai decât trebue să ne pronunțăm pentru supoziția cea mai grea.</p>
-<p>   «De altfel amănuntele care pledează pentru sinucidere sunt mai numeroase decât indiciile care lasă să bănuiască o crimă și când este vorba să alegem între două rele să preferăm în totdeauna pe cel mai mic».   </p>
-<p>   — Dar dumneavoastră cum vă expli-cați dispariția beretei și a pelerinei ?   </p>
-<p>   — Cum și-a explicat-o toată lumea. Au fost furate de către cine-va care a trecut în acea zi pe acolo și în urmă de frică să nu fie bănuit, le-a ascuns sau le-a distrus.   </p>
-<p>   «Este o sinucidere — conchise d. Emil Petrescu, și acest lucru se poate spune că este stabilit. Cât privește căușele acestei sinucideri această este cu totul altceva. Cele câteva puncte nelămurite, vor fi și    ele deslușite, dar crimă nu poate fi în tot casul!»   </p>
-<p>   Așa dar, prefectul, avea aceeași părere pe care o avea multă lume.   </p>
-<p>   Judecând prin urmare, după cele afirmate de colegile Jeanei, după cele susținute de autorități și după explicațiile științifice date de medicii legiști, am putut trage conclusia că nefericita Jeana s’a sinucis.   </p>
-<p>   Dar în cazul acesta, mă gândeam ce a putut determina pe Jana, să-și pună capăt zilelor, la o vârstă atât de fragedă, când setea de viață este mai mult ca ori când desvoltată la om?   </p>
-<p>   Înconjurată de iubirea sinceră a cole-gelor și profesoarelor ei, cu cultura ei aleasă, cu inteligența-i sclipitoare, ce a făcut-o pe Jeana Cristescu, să se gân-dească la moarte ? Cu calitățile Jeanei și la vârsta ei, cari pot fi motivele puter-nice cari au putut-o îndemnà la o ase-mene hotărîre ?   </p>
-<p>   Dragostea ? Boala ? Nemulțumirea su-fletească ? Persecuția ? Sdruncinarea mo-rală ?   </p>
-<p>   Să analisăm ultimele acțiuni ale vieței sale: ultimele ei fapte ; să coordonăm cele întâmplate cu puțin înnaintea sinuciderei fetei cu resultatul material al cercetărilor făcute după descoperirea cadavrului ei și să tragem concluzia logică și firească ale acestei sinucideri.   </p>
-<p>   Ca să putem ajunge la o concluzie logică conduși totdeodată și de probele materiale culese în această direcțiune, trebuia mai întâi să studiem firea și gradul de cultură, al aceleia a cărei tragică dispariție dintre cei vii, preocupă atât, o întreagă lume.   </p>
-<p>   Jana Cristescu, erà de o inteligență sclipitoare. În școală erà considerată ca una dintre elevele eminente. Eră silitoare, ascultătoare și de o castitate cum rar se întâmplă. Directoarea sa precum și profesoarele nu aveau nimic să-i impute, ca purtare și silință. De colegele ei erà iubită de asemenea, de toate, astfel că viață în școală îi se trecea lină și fericită,  O probă de simpatia de care se bucura printre colegele ei, este grozava conster-nare pe care a produs-o asupra lor, moartea ei tragică.   </p>
-<p>   Toate cuvintele adresate memoriei ti-nerei fete, au fost duioase, de adâncă compătimire și de sinceră iubire.   </p>
-<p>   Dacă aș adminte, îmi spuneam, că Jana Cristescu iubea, atunci se poate ușor susține că sinuciderea ei se datorește unei dra-goste nefericite.   </p>
-<p>   În această direcțiune de idei am făcutr întinse cercetări, care însă au dat rezultat negativ. Jana erà de o fire liniștită, mai mult sfioasă și foarte serioasă. Colegele ei nu-și amintesc ca vreo dată să le fi    destăinuit vre-o înclinațiunè a inimei sale; n'au văzut’o niciodată împreună cu vreun tânăr, și se arăta chiar foarte rezervată și față de frații celor mai bune colege ale ei, ale căror case frecventa. Or, o tânără fată de vârsta Jeanei și bucurân-du-se de amice sincere, când are o încli-națiune de inimă, oricât de stăpână ar fi pe dânsa și ori cât ar vroi să păstreze misterul, tot se divulgă, tot sunt momente când se ambalează, când se spovedește.   </p>
-<p>   Apoi mai este și o altă dovadă că Jeana nu avea nici o slăbiciune de inimă. Este dovada că Jeana nu a trimis și nu a primit, nici acasă, nici la vre-o coleagă a ei, niciodată, vre-o-scrisoare, vre-o ilustrată din partea cuiva, care să-i fi vorbit de vre-o dragoste împărtășită. Jeana prin ur-mare, nu iubise încă. Dar atunci care să fie cauza?   </p>
-<p>   Am spus că nu trupul ei era bolnav, ci sufletul, acel suflet nobil și ales, care erà sfâșiat de suferințe grozave, de dureri mari.   </p>
-<p>   Acela care cunoaște ce înseamnă pentru o conștiință integră, pentru un suflet ales și desăvârșit, pentru o inimă nepri-hănită, rănile acestea sufletești, provocate de mari decepțiuni morale, numai acela își poate imaginà cât a suferit nefericita copilă și cum' era fatal, ca în cele din    urmă să se umple paharul răbdărei.   </p>
-<p>   Nemulțumirile sufletești ?   </p>
-<p>   Dar Jeana le-a avut cu prisosință. Mai întâi situația ei delicată în societate, în lume, față de colegele ei, care-i cunoșteau origina.   </p>
-<p>   Fiică naturală, copilă nerecunoscută din părinți bine cunoscuți, dânsa se simțeà jenată în societate fiind lipsită de tot ce are ordinea și conveniența socială mai scump. Odată cu creșterea inteligenței și    desvoltarea culturei Jeanei, rana aceasta sufletească, se măreà, cuprinzându-i su-fletul întreg.   </p>
-<p>   Câtă, vreme trăise acela pe care dânsa îl cunoscuse ca pe un tată, speranța încă mai înflorea în sufletul ei rănit. Când însă el sfârși atât de brusc, se stinse și ultima rază de speranță în inima nefericitei Jeana.   </p>
-<p>   De atunci încolo, tânăra fată se simțea singură și străină, într’o lume care n’o înțelegea, expusă mai mult la batjocura semenilor și a acelor din jurul ei.   </p>
-<p>   De o fire foarte sensibilă, Jeana găsi cu cale că o viață comună cu ai săi este imposibilă.   </p>
-<p>   Cu educația aleasă pe care o primea în școală și cu natura ei nobilă, dânsa erà veșnic lovită de contrastul izbitor pe care îl înfățișa viața trăită în afară din școală.   </p>
-<p>   Aversiunea ei de casă, teama și groaza ce o exprima colegeler ei de câte ori vorbea de anumite persoane, toate acestea dove-desc cu prisos sbuciumările ei sufletești.   </p>
-<p>   Cu două zile înainte de a se întâmpla sinuciderea, după cum m-a asigurat un domn judecător de instrucție, Jeana s’a dus la o colegă’ a ei și, plângând s’a rugat să o primească la dânsa în noaptea aceea.   </p>
-<p>   — Dacă tu nu mă primești, adăogă nefericita fată, să știi că eu voi dormì pe stradă»,   </p>
-<p>   Declarațiile făcute de o colegă a Jeanei că dânsa în ziua sinuciderei, s’a invitat a dejun singură, și că în tot timpul mesei erà deprimată, este o nouă dovadă că Jeana se simțea stingheră în lumea acesta.   </p>
-<p>   Faptul iarăși că dânsa nu a lăsat mamei sale nici o scrisoare, nu a lăsat nimănui nici un rând, dovedește și mai mult aceasta.   </p>
-<p>   Dacă Jeana ar fi trăit 'într’altă lume, mai ideală, așa cum erà sufletul și aspi-rațiunile ei, de sigur că nu ar fi gândit la sinucidere.   </p>
-<p>   Din toate acestea m-am convins că-adevărata cauză a sinuciderei tinerei fete trebuește căutată numai în mijlocul vieței prozaice pe care a trăit-o, plină de amără-ciuni și decepții, care nu se împăca de fel cu această natură delicată și sensibilă.   </p>
-      </div>
-    
-    <div type="chapter" n="14">
-           <head> Mormântul ei!    </head> 
-<p>   Găsesc mai nemerit să închei această broșură cu un crămpeiu extras dintr’o scri-soare ce mi-a fost trimisă de o colegă a nefericitei copile. Cititorul va puteà judecà din cele câteva rânduri dacă Jeana a făcut s’au nu bine, plecând din lumea aceasta.   </p>
-  <milestone unit="dots"/>
-      
-      <quote type=" letter">
-<p>   «Eri am fost la cimintir, la mormântul Jeanei. — spune scrisoarea, — 0 ! vă asigur ! o adevărată jale mi-a coprins inima când am văzut că pe mormântul  acestei martire, nu se aflà nici o floare, nici o verdeață. </p>
-        
-        <gap unit="graphic"/>
-        <p>Mormântul Janei Cristescu</p>
-        
-  <p> Nici o mână dragă nu s’a găsit pentru nefericita copilă, care să-i    îngrijească ultimul lăcaș, care să-i așeze o candelă — simbolul dragostei și al ve-gherei — la căpătâiul crucei modeste de lemn, ce se pierde fn mulțimea vecinilor necunoscuți, din valea Plângerei.   </p>
-<p>   Mă gândeam la sgomotul în oraș și la interesul ce se poartă numelui ei, la tăcerea și disprețul mormântului ei!   </p>
-<p>   Nici miile de admiratori și de compă-timitori ai Jeanei, nici colegele și amicile ei, dar nici mama sau acel domn X, nu s’au interesat să-i arunce peste mormântul ei, o floare de regret; atât au iubit-o!   </p>
-  <milestone unit="dots"/>
-<p>   «Dânsa s’a sinucis pentrucă o altă scă-pare nu avea!   </p>
-<p>   Între o viață moartă și rușinoasă a pre-ferat o moarte crudă dar cinstită. «Da, Jeana este o martiră. Dânsa trebue să devie simbolul -castităței și al cinstei!»   </p>
-      </quote>
-      
-<p>   Așa sfârșește scrisoarea.   </p>
-<p>   Precum se vede Jeana Cristescu a lăsat în inimile tuturora o adâncă compătimire tocmai pentru că și-a păstrat curățenià su-fletească, iar aceasta nu ar fi fost cu pu-tință dacă n’ar fi găsit în școală o atmosferă mai curată decât în familia ei. Dânsa n’ar fi ajuns la desnădăjduire, dacă și-ar fi pe-trecut viața internată în școală, în care se bucurà de mai multă iubire și de o mai bună purtare de grijă decât în familia ei.   </p>
-<p>   Moartea ei e dar nu numai pentru pă-rinții ce-și iubesc copiii, ci pentru toți cei ce privesc în viitor, un avertisment înspăimântător, căci sunt foarte mulți tinerii și încă mai multe fetele, care-și pierd iluziunile după ce, eșind din școala cunosc viața mai de aproape. Tocmai de aceea nu putem stărui îndeajuns să se facă lumină deplină asupra acestei întâm-plări misterioase, și, în fiecare zi trebue să punem întrebarea: Ce e de făcut, că asemenea lucruri ori altele încă mai rele să nu se întâmple ?   </p>
-<p>   E mai presus de toată îndoiala, că ne-norocita copilă a rugat pe unà dintre co-legile ei s’o primească la dânsa în aceea noapte fatală, pe care nu vroia s’o pe-treacă la mama ei. Nu erà deci hotărîtă să-și curme firul vieții și ar fi scăpat, dacă și-ar fi găsit unde-va adăpostul.   </p>
-<p>   Am stăruit deci asupra acestei neno-rociri pentru ca să pătrunză în inimi din ce în ce mai mult simțimântul, că socie-tatea e interesată să ia sub ocrotirea ei pe copii nenorociți, să-i mângâie, să ì ajute, să-i încurajeze și să-i ferească d rele...   </p>   
-      
-      <gap unit="graphic"/>
-      <p>      D. Ionescu-Dolj, energicul judecător de instrucție de la cabinetul II (Ilfov) căruia îi s’a încredințat greaua sar-cină, pentru a descoperi adevărul în jurul morței Jeane Cristescu.   </p>
-      <milestone unit="line"/>
-    </div>        
-</body>
-  </text>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:e="http://distantreading.net/eltec/ns"
+     xml:id="ROM064"
+     xml:lang="ro">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Misterul morţei Jeanei Cristescu: ediție ELTeC</title>
+            <author>Caliga, George (1878-?)</author>
+            <respStmt>
+               <resp>codare ELTeC</resp>
+               <name>Lucretia Pascariu</name>
+            </respStmt>
+            <respStmt>
+               <resp>Corectura manuala</resp>
+               <name>Manuela Ursu</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">13473</measure>
+            <measure unit="pages">80</measure>
+         </extent>
+         <publicationStmt>
+            <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+            <distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor>
+            <date when="2022-03-02"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+            </availability>
+            <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+            <ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+            <ref type="doi" target="https://doi.org/10.5281/zenodo.3543111">ELTeC-rom</ref>
+            <ref type="doi" target="https://doi.org/10.5281/zenodo.4662599">ELTeC-rom release 0.9.0</ref>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="firstEdition">
+               <author>George Caliga</author>
+               <title>Misterul morţei Jeanei Cristescu</title>
+               <pubPlace>Bucharest</pubPlace>
+               <publisher>Minerva, Institutul de Arte Grafice şi Editură</publisher>
+               <date>1909</date>
+               <note>This is the source of the text</note>
+               <ref target="http://doi.org/10.5281/zenodo.3843324">Facsimile on zenodo</ref>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-1">
+         <p>Encoding to ELTeC level 1</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ro"/>
+         </langUsage>
+         <textDesc>
+            <e:authorGender key="M"/>
+            <e:size key="short"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <e:timeSlot key="T4"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-03-02">Fixed gap attributes, replaced '-1' with '-l' and [’'] when used for contractions with '-'</change>
+         <change when="2022-03-02">Corrected errors in spacing</change>
+         <change when="2021-04-09">Converted by checkUp script for new release</change>
+         <change when="2020-11-14">Converted by checkUp script for new release</change>
+         <change when="2020-11-14">Checked by checkup script</change>
+         <change when="2020-05-20">Initial TEI version generated.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="liminal">
+            <p>GEORGE CALIGA</p>
+            <p>Misterul morței</p>
+            <p>Jeanei Cristescu</p>
+            <gap n="[editorial]" unit="graphic"/>
+            <p>«MINERVA» — Institutul de Arte Grafice şi Editură</p>
+            <p>Bulevardul Academiei 3. — Edgar Quinet 4.</p>
+            <p>1909</p>
+         </div>
+         <div type="liminal">
+            <p>MISTERUL MORTEI</p>
+            <p>JEANEI CRISTESCU</p>
+            <p>Nu e zi, ca în Capitală, să nu se în-tâmle o crimă, sau o sinucidere, dar mai toate trec la rubrica «faptelor diverse» a ziarelor, consacrindu-li-se numai câteva rîn-duri. Misterul de care e înconjurată moartea nenorocitei Jeana Cristescu a pasionat însă publicul din întreaga țară și bine înțeles, în primul rând pe cei din Capi-tală. Tânără, frumoasă, și inteligentă, Jeana Cristescu și-a găsit moartea în niște împre-jurări, cari nici în prezent nu sunt bine cunoscute și a căror discuție a pasionat pe toată lumea.</p>
+            <p>Ca redactor al ziarului cotidian «Mi-nerva», subsemnatul am întreprins o an-chetă, pentru a desluși cât mai mult mis-terul acesta de nepătruns și am reușit să fac și pe colegii mei de la celelalte ziare, să pună același interes pentru dez-văluirea misterului. Justiția chiar, care un moment părea că ezita, a hotărît să cerceteze mai de aproape această afacere.</p>
+            <p>Din ancheta pe care am făcut-o, am dat peste lucruri foarte curioase, amănunte cu totul senzaționale, am reușit între altele să dovedesc cine erà tatăl Jeanei Cristescu, și vă rog să nu surîdeți. Lucrul acesta nu a fost ușor, de oarece se pretindea, că Jeana Cristescu erà fiica colonelului Demetrescu, care după cum se știe, se sinucisese în-împrejurări iarăși misterioase. Am mai găsit apoi în cursul anchetei mele, ce a făcut Jeana Cristescu, cu câteva zile înainte de a pieri așa de misterios, ceia ce iarăși are o deosibiță importanță.</p>
+            <p>Dacă ar fi să înregistrez aci toate ver-siunile ce au circulat, apoi ar trebui să întreprind un adevărat roman senzațio-nal. Trebuie să mărturisec însă, că pu-blicul cititor, fie în mod anonim, fie prin scrisori iscălite, mi-a dat un concurs foarte prețios, mi-a ușurat calea cercetărilor, numai cu interesul de a se afla adevărul.</p>
+            <p>Cititorul va judeca, dacă mi-am înde-plinit, pe cât s-a putut, greaua sarcină ce mi-am luat. Lui îi dedic această broșură, care poate fi socotită ca un pasaj intere-sant din viața noastră socială.</p>
+            <p>Autorul.</p>
+            <pb/>
+         </div>
+         <div type="liminal">
+            <gap n="[editorial]" unit="graphic"/>
+            <p>Ultima fotografie a Jeanei Cristescu</p>
+         </div>
+         <pb/>
+         <div type="liminal">
+            <gap n="[editorial]" unit="graphic"/>
+            <p>Autograful Jeanei Cristescu</p>
+         </div>
+      </front>
+      <body>
+         <div type="chapter" n="1">
+            <head>Descoperirea cadavrului</head>
+            <p>Cerul era acoperit de nori negri, o ploaie fină se cernea peste întreaga Capitală și peste împrejurimile ei. In camera sa obiș-nuită, șeful stației B. M. din aproprierea gărei de Nord, stà liniștit, când ușa se deschise și acarul Scarlat Anghel îl vestì că a făcut o descoperire lugubră pe linie. Acarul era galben de emoție și abia putea să îngâne.</p>
+            <p>— Un cap, un cap de femeie!</p>
+            <p>D. Horenga, șeful stației își aruncă repede mantaua pe umeri, își îndesă chipiul pe cap și porni spre locul indicat.</p>
+            <p>Era ora 7 și jumătate seara.</p>
+            <p>Zăpada aproape se topise cu totul, li-niile străluceau sub lumina semnalelor de tot felul, pierzându-se în depărtare în în-tunericul nopței.</p>
+            <p>Lanterne aprinse nenumărate spre stația București, cât și dincolo de stația B. M. se legănau ritmic, departe, în mâinele funcționarilor inferiori ai căilor ferate, cari erau de serviciu și cari rămâneau nevăzuți în besnă.</p>
+            <p>In apropiere de primul ac de macaz, de lângă stație, acolo unde linia I. Vir-ciorova se bifurcă cu linia II Ploești, șeful gărei găsì așezat lângă șine, un cap de fată tânără, despicat de corp.</p>
+            <p>Un cap de o frumusețe rară, împodobit de un păr bogat, negru și împletit. Capul fusese retezat de trup, ca și cum ar fi fost tăiat cu un cuțit. Pe față nici cea mai mică sgârâitură sau rană.</p>
+            <p>Descoperirea această lugubră, umplù de groază pe d. Horenga, care dădù imediat alarma.</p>
+            <p>La o distanță de vre-o 15 metri, înspre gară, se descoperì și corpul victimei, mu-tilat îngrozitor. Abdomenul era deschis, iar un picior, piciorul' stâng, smuls dela șold și asvârlit la o distanță și mai mare, tot în apropierea liniei ferate.</p>
+            <p>Cadavrul era desbrăcat de fustă, care de asemenea a fost găsită prin apropiere.</p>
+            <p>Rochia era de culoare marron, curată nouță și intactă.</p>
+            <p>S-a anunțat imediat circ. 18, care a comunicat cazul parchetului. D. subco-misar Zdrafcu veni la locul descoperirei lugubre, adună membrele împrăștiate ale cadavrului și începù ancheta.</p>
+            <p>Deșì figura victimei era nealterată, nu s-a putut totuși, stabilì repede idenditatea cadavrului. Faptul că nu avea nimic pe cap, și trupul de asemenea neâmbrăcat cu vre-o haină mai groasă, iar ghetele curate și nemurdărite de noroi, a sugerat pentru moment bănueli că victima ar fi căzut din vreun tren de pasageri.</p>
+            <p>Ultimul tren însă, care trecuse spre Bu-curești fusese expresul de Berlin, care so-sește în gara de Nord la ora 7 și 15 m. seara.</p>
+            <p>După îmbrăcămintea modestă dar cu-rățică și mâinile albe și curate ale cada-vrului se putea presupune că victima era vre-o lucrătoare, sau mai curând vre-o croitoreasă. Cum, însă, trenul de Berlin nu are decât cl. I, bănuiala că victima ar fi căzut din tren, a fost îndepărtată.</p>
+            <p>S-a făcut în urmă suposițiuni că fata, — fiindcă, după înfățișarea' cadavrului, victima nu aveà o vârstă mai mare de 15—16 ani, — ar fi încercat să traverseze linia ferată și surprinsă de tren, a fost omo-râtă, iar membrele ei despoiate și aruncate de mașină la diferite distanțe.</p>
+            <p>Nimeni nu bănuià însă, că această des-coperire lugubră erà să fie numai începutul unui mare mister. —Victima nu erà cu-noscută încă. Nimeni nu știà, că frumosul cap, erà al nefericitei Jeana.</p>
+         </div>
+         <div type="chapter" n="2">
+            <head>Cine erà victima?</head>
+            <p>Pe când autoritățile făceau cercetări pentru a stabilì cum s-a petrecut neno-rocirea și a aflà numele victimei, la po-liția Capitalei se prezentà, pe la orele 10 noaptea, o doamnă care își dădù numele de doamna Amelie Cristescu și care, cu lacrămile în ochi și cu disperarea în su-flet, comunică comisarului de serviciu, că o fată a d-sale, singura ei copilă, în etate de 17 ani, brună, înaltă și frumoasă, dis-păruse dela casa părintească, încă de cu vreme și până la acea oră nu-i știa de urmă.</p>
+            <p>Comisarul puse imediat în legătură cazul reclamat cu descoperirea lugubră din gara B. M., și după semnalmentele date de ne-norocita mamă, bănui imediat că victima erà fata dispărută.</p>
+            <p>Comisarul, pentru a liniștì pe nefericita mamă, o asigură că va începe cercetările și că va readuce acasă pe copila dispărută.</p>
+            <p>Întâmplarea făcù ca în acel moment să fiu la poliție și să aud reclamația doam-nei Cristescu. Doamna aceasta era înso-țită de un domn, destul de cunoscut în cercurile ziaristice, care manifesta' ace-lași interes și grijă ca și doamna pe care o însoțea. După ce comisarul luă notă de reclamațiunea făcută, streinul conduse pe doamna în trăsura care așteptà în cur-tea prefecturei și reîntorcându-se repede în cabinetul comisarului se interesă de aproape de semnalmentele fetei, al cărei cadavru a fost găsit în stația B. M.</p>
+            <p>Comisarul, îi șoptise mai înainte acestui domn, despre descoperirea făcută în stația B. M.</p>
+            <p>Însoțitorul doamnei Christescu stăruì foarte mult asupra semnalmentelor cada-vrului descoperit, iar după ce le află pe toate, plecă grăbit.</p>
+            <p>Descoperirea unui cadavru pe linia fe-rată și în asemenea împrejurări stranii îmi sugeră imediat fel și fel de bănueli. Nu văzusem de cât telegrama laconică a comisarului circ, a 18, prin care aducea cazul la cunoștința prefecturei de poliție:...</p>
+            <quote type="letter">
+               <p>«Piciorul drept, spunea telegrama, a fost găsit la 15 metri, în spre G. N.; capul la 20 metri în spre G. Ch.; corpul lângă macaz, rochia intactă...»</p>
+            </quote>
+            <p>Mă urcai repede în cea dintăi trăsură și pornii în galopul cailor spre circ, a 18. Pe drum îmi făceam fel de fel de închi-puiri; în mintea mea întrebările se suc-cedau cu iuțeala fulgerului, fără a mai gândi câtuși de puțin să le găsesc răspunsurile cuvenite.</p>
+            <p>Presimțeam că mă aflu în fața unei întâmplări neobișnuite, sensaționale, și mă gândeam la succesul pe care l-ar fi avut tânărul nostru ziar, dacă lucrurile ar fi eșit astfel cum presimțirea ’mi le presentà. In amorul meu profesional simțeam par-că o teamă ca descoperirea făcută să nu fie mai banală de cum mă așteptam și ardeam de nerăbdare să ajung mai repede la țintă. Aveam impresia că nemerisem cel mai prost birjar. In râvna mea de a sosì mai repede îl îmboldeam cu umbrela pe la spate, strigându-i să mâne în galop. Birjarul mâna, sărmanul, bolborosind de ciudă.</p>
+            <p>Ajunsei în sfârșit la comisariatul de poliție. Acolo se află subcomisarul Zdrafcu are fusese cel dintâi la locul descoperirei sinistre și care <hi>cu propria-i mână adunase membrele cadavrului nefericitei copile, răs-pândite pe linie, așezându-le la un loc.</hi>
+            </p>
+            <p>— Este o sinucidere, îmi spuse cu un aer convingător, subcomisarul. N-am sta-bilit însă încă idenditatea.</p>
+            <p>— Cum ai găsit-o?</p>
+            <p>— Capul la dreapta, lângă șină, la vre-o 20 metri departe de corp, care se aflà lângă macaz; piciorul stâng la 15 metri înainte, iar rochia alături de șină.</p>
+            <p>— Cum erà rochia?</p>
+            <p>— Foarte curată. Erà o rochie nouă-nouță, n-avea cea mai mică ruptură, și am găsit-o lângă șină, pe pàrtea stângă, dincolo de cap.</p>
+            <p>— Nu erà pătată de sânge, de loc?</p>
+            <p>— De loc. Curată ca și ghetele fetei, niște ghete șevro negru cu nasturi, în stare foarte bună.</p>
+            <p>— Nu erà noroi pe acolo?</p>
+            <p>— Ba erà destul.</p>
+            <p>— Atunci cum îți explici?</p>
+            <p>— O fi căzut din tren.</p>
+            <p>— Ce tren a călcat-o.?</p>
+            <p>— Expresul.</p>
+            <p>— Și zici că e lucrătoare?</p>
+            <p>— Nu știu, dar pare croitoreasă.</p>
+            <p>Avea mâini curate și erà curățel îmbră-cată.</p>
+            <p>— O croitoreasă cu expresul?</p>
+            <p>— De, știu eu? Poate!</p>
+            <p>— Ce ai' făcut cu cadavrul?</p>
+            <p>— La trimes procurorul Duca, la morgă.</p>
+            <p>— Zici' că erà frumoasă fata?</p>
+            <p>— Foarte frumoasă, un chip ideal.</p>
+            <p>— Cine a făcut ancheta?</p>
+            <p>— Procurorul, comisarul, șeful stației și cu mine.</p>
+            <p>— Și ce s-a stabilit? -</p>
+            <p>— Că e la mijloc o simplă sinucidere.</p>
+            <p>Am părăsit localul comisariatului, fră-mântat mereu de aceiași neliniște. După spusele subcomisarului cazul mi se părea și mai nedeslușit.</p>
+            <p>Începui să mă gândesc la doamna care se presentase cu câte-va ore înainte la poliție și căutai să găsesc pe domnul care o însoțea. Nu l-am putut găsi. La poliție n-am mai putut aflà ceva deosebit.</p>
+            <p>A doua zi idenditatea cadavrului se stabilise. Fata călcată de tren erà fiica doamnei Cristescu.</p>
+            <gap n="[editorial]" unit="graphic"/>
+            <p>Jeàna Cristescu</p>
+            <p>In dorința de a aflà cât mai multe a-mănunte cu privire la această tragică întâmplare, m-am prezentat la locuința d-nei Amelia Cristescu, din bulevardul Elisa-beta No. 9.</p>
+            <p>D-na Cristescu locuia un apartament destul de spațios în al Il-a etaj al case-lor No. 9, de pe bulevardul Elisabeta.</p>
+            <p>La prima întrebare-ce am pus-o d-nei Cristescu, nefericita mamă nu și-a mai putut opri durerea și a isbucnit într-un hohot de plâns.</p>
+            <p>«Dumnezeule,se tânguia nefericita femee, cu ce am păcătuit de mă lovești atât de crud? De ce mi-ai luat pe scumpa mea Jenny, singura mea mângâere, singura mea fericire? De ce m-ai despărțit așa de crud, așa de groaznic de dânsa?»</p>
+            <p>— D-le, îmi spuse d-na Christescu, după ce se liniștì puțin, vrea să zică tot copila mea este aceea pe care a tăiat-o trenul... Tot dânsa, Jenny a mea iubită. Dar, d-le, ce-a putut-o hotărî la acest pas nesocotit? ce? 0 iubeam ca pe ochii din cap, o ido-latrizam.</p>
+            <p>Pentru dânsa și numai pentru dânsa trăiam. Erà singurul meu copil, singura mea nădejde și singura mea bucurie. Ce a făcut-o pe dânsa oare să se despartă de mine, să-și aleagă o moarte atât de grozavă, ah, Doamne! atât de fioroasă? Și criza cuprinse iarăși pe nefericita mamă.</p>
+            <p>Doamna Christescu, liniștindu-se din nou, îmi răspunse de astădată mai calmă la cele câteva întrebări pe care am îndrăznit să i le pun.</p>
+            <p>— «Scumpa mea Jenny, continua d-na Cristescu, se arătà de - câtă va vreme ne-liniștită, indispusă. O întrebam mereu ce are. Nu vroia să-mi spună. Se ferea să-mi vorbească despre ce-o doare, iar de câte ori o întrebam de așa ceva, îmi astupa gura cu sărutări. «Mămițico, n-am nimic!» zicea dânsa. Dispoziția ei, însă, mai ales în ultimele 15 zile, îi dispăruse cu totul.</p>
+            <p>De curând îmi spusese că este răcită, că o doare pieptul, iar când am rugat-o să se lase a fi examinată de un medic, a refuzat cu atâta energie, cu atâta ho-tărâre, în cât a trebuit să renunț de a o mai silì.</p>
+            <p>«Eri, Sâmbătă, de dimineață a plecat la școală — erà în clasa 7 a externatului din str. Gloriei — La amiază nu a venit acasă. Seara pe la orele 6 a venit. Îmi spuse că a mâncat la amiază la o colegă a ei. Avea de altfel obiceiul, de a nu re-fuzà invitațiunile colegelor sale.</p>
+            <p>Mi s-a părut mai nervoasă ca ori când. M-a sărutat cu multă pornire, și-a scos bereta și haina și a intrat în odaia de alăturea unde se aflà croitoreasa mea.</p>
+            <p>«Ii făcusem o rochie nouă, de culoare marron pe care o pusese pentru întâia oară și croitoreasa vroi să vază dacă îi stă bine. Deodată, în acest moment, fata mea făcu o mișcare bruscă și plecă spre a eșì din casă. Eșì puse în cap bereta și pe dânsa o pelerină de uniformă. O întrebai unde se duce și o rugai să nu iasă din casă așa de ușor îmbrăcată, căci ar puteà răci. Mi-a răspuns că se duce la o vecină și închizând ușa, după afirmările croito-resei mele, căči eu nu am auzit nimic, mi-a spus: «Adio, mamă!»</p>
+            <p>Disperarea din nou o coprinse pe d-na Cristescu, care cu multă greutate a putut fi liniștită de către două doamne amice.</p>
+            <p>In timpul acesta, mai multe colege ale nefericitei Jeana veniră să se informeze în persoană de groaznicul ei sfârșit. La fiecare apariție a unei colege, mama Jeanei se înecă din nou în sughițuri.</p>
+            <p>— Nu, nu mai întrebați fetelor cum s-a întâmplat, nu mă întrebați că-i grozav...</p>
+            <p>— A-ți fost la morgă? întrebai eu.</p>
+            <p>— Da; nu m-au lăsat însă s-o văd.</p>
+            <p>— Să mergem noi s-o vedem, ziseră în cor colegele Jeanei.</p>
+            <p>Ce să vedeți fetelor, ce să vedeți? răspunse d-na Cristescu disperată; E fă-cută bucăți, nu se mai cunoaște!.. «Am promis d-n ei Cristescu că mă voi duce eu la morgă și-îi voi comunicà, dacă fata gă-sită moartă este cu adevărat Jeana, fiindcă spre a o liniștì, apucasem a-i spune în cursul convorbirei, că se vorbea despre o altă fată care s-ar fi aruncat în fața trenu-lui, și de fapt se vorbea într-adevăr că idenditatea cadravului s-a stabilit și că el aparține unei fete care locuia pe câm-pul Pleșoianu.</p>
+            <p>Doamna Cristescu, nu se opuse, de a mă duce la morgă, dar spuse cu covingere.</p>
+            <p>— Oh! domnule, Jeana, e lăamorgă! Am plecat de la d-na Cristescu, cu o impresie bizară.</p>
+         </div>
+         <div type="chapter" n="3">
+            <head>De ce s-a omorât Jeana?</head>
+            <p>D-na Cristescu nu-și putea explicà moti-vul pentru care s-a omorât Jeana. Drăguța și nenorocita ființă, părea că voise să ducă cu ea în mormânt un secret îngrozitor.</p>
+            <p>Publicul începuse să-și manifeste păre-rile lui libere, păreri, cari sub anonimat, erau bine înțeles și mai libere.</p>
+            <p>De la mamă aflasem atât cât se părea că știe, rămâneà acum să întreb pe toți acei cari o Cunoscuseră pe biata Jeana. Cu cât se mărea misterul, cu atâta mă pasionam mai mult de această afacere..</p>
+            <p>După’ ce am cercetat, am aflat, că cel care putea să-mi dea amănunte intere-sante asupra Jeanei, erà d. M. un bun prie-ten al familiei.</p>
+            <p>Iată ce mi-a spus domnul în chestiune: «O cunosc de mică, pe nefericita fată. Este fiica naturală a colonelului Aurel Demetrescu, nefericitul aghiotant princiar are acum câte-va luni, a sfârșit și el într-un mod atât de tragic.</p>
+            <p>Jeny, erà o fată simțitoare. Dânsa iubeà pe tatăl său, sub a cărui acoperământ a trăit până la vârsta de 7 ani. Când ră-posatul colonel fusese mutat la Viena ca atașat militar, s-a văzut silit să se des-partă de fiica sa și de atunci au rămas despărțiți pentru totdeauna. Colonelul sub-venționa pe mama ei cu suma de 80 lei lunar pentru a acoperì cheltuelile ei de întreținere.</p>
+            <p>Când s-a întâmplat nenorocirea cu co-lonelul, tânăra fată fiind informată a cerut să vadă pe tatăl ei pentru ultima dată. Mama fetei nu s-a putut opune la această cerere a fiicei sale și s-a dus cu dânsa la cimitirul Belu, în capela căruia se aflà depus corpul nefericitului colonel.</p>
+            <p>La vederea cadavrului tatălui ei, tânăra copilă s-a emoționat atât în cât, a tre-buit scoasă din capelă de teamă să nu-i vină rău.</p>
+            <p>Reîntoarsă acasă, dânsa a cerut să îm-brace doliul.</p>
+            <p>«Mama sa, însă, opunându-se, tânăra co-pilă s-a dus în târg și și-a cumpărat o rochie neagră din economiile ei. Mama sa a dojenit-o, dar lucrurile s-au uitat repede.</p>
+            <p>«Jenny, aveà o mare aplicație, mai ales la pictură — continuă a-mi spune d. M. — unde manifestà un adevărat talent; și d.M. îmi arătă câte-va aquarele lucrate în-tr-adevăr cu o artă desăvârșită. «Acestea sunt operile ei, îmi zise d-sa.»</p>
+            <p>Toate imformațiunile acestea mi le dă-duse d. M.cu un aer degajat, în aparență. Erau vorbe însă care-i tremurau pe buze ceea ce îi trădà turburarea sa internă.</p>
+            <p>— Dar ce-a făcut-o pe această fată să-și aleagă o așa moarte? l-am întrebat eu.</p>
+            <p>După o scurtă gândire, d. M. îmi răs-punse:</p>
+            <p>«Eu rămân deasenea foarte surprins asupra motivelor care au împins-o la a-ceastă grozavă hotărîre. Sâmbătă s-a dus la școală ca de obiceiu, iar la amiază a luat masa la o colegă a ei, d-ra Abra-movici din calea Călărași.</p>
+            <p>«D-na Aslan, directoarea externatului de fete din strada Gloriei unde neferi-cita copilă urmà, cât și colegele ei, de-clară că în acea zi, a fost foarte suresci-tată, dar cau-zele acestei stări nu le-a îm-părtășit nici uneia.</p>
+            <p>«Pe la 5 jum. seara când a venit acasă s-a îmbrăcat cu rochia cea nouă, pe cate i-o adusese croitoreasa și cu care a și plecat... la moarte.</p>
+            <p>«De acasă a plecat cu bereta de școală în cap și cu pelerina pe umeri.'Noaptea pe la 11 am putut abia aflà de groaz-nicul ei sfârșit».</p>
+            <p>«V-am declarat și adineorea — continuă d. M. — că nu-mi pot explicà motivele care au hotărît-o să se omoare.</p>
+            <p>«Știu, că în zilele din urmă cetià pe Ana Karenina, cunoscutul roman al lui Tolstoi, al cărei eroină ’și alege un sfârșit întocmai ca și acela pe care și l-a ales dânsa. Apoi mai punând în legătură și sguduitura ce a produs-o asupra moralului său, sinuci-derea tatălui ei, înclin a crede că aceste două fapte și numai acestea, au influen-țat-o la săvârșirea actului nesocotit».</p>
+            <p>Argumentele acestea, date de d. M. drept cause a sinuciderei Jeanei, deși pentru moment aveau aparența unei ex-plicații logice, nu le-am luat ca serioase.</p>
+         </div>
+         <div type="chapter" n="4">
+            <head>Înmormântarea Jeanei</head>
+            <p>Marți,’a treia zi după descoperirea ca-davrului, pe un vifor puternic și o vreme urâtă a avut loc, la orele 2 d. a. înmor-mântarea Jeanei Cristescu.</p>
+            <p>Cu o jumătate de oră înainte, numeroși prieteni ai faniiliei au venit la morgă, unde se afla cadavrul nefericitei copile, pentru a-și lua ultimul adio.</p>
+            <p>ntr-o trăsură de piață a sosit la morgă cu mult înainte de ora fixată pentru ridi-carea cadavrului, mama victimei, d-na Ame-lia Cristescu. Nefericita femeie se afla în prada celei mai grozave dureri și în două rânduri și-a pierdut cunoștința.</p>
+            <p>Medicii institutului, luaseră măsura să fie acoperit corpul victimei, pentru ca publicul să nu-l poată vedea. Erà atât de mutilată biata copilă, încât și omul cel mai stăpân pe sine, nu ar fi putut ră-mâne indiferent la vederea acelui cap frumos despicat în întregime de corp.</p>
+            <p>Îndurerata mamă însă ceru cu tărie să i se permită să vază pentru ultima oară pe copila ei, dar s-au opus multă vreme cei în drept.</p>
+            <p>În cele din urmă s-au văzut nevoiți să-i acorde această ultimă dorință.</p>
+            <p>Când cadavrul tinerei fete a fost des-coperit, un fior de groază străbătu pe cei de față. Nenorocita copilă intrase în descompunere iar capul ei, frumosul ei cap de odinioară despărțit acum de corp, erà oribil la vedere.</p>
+            <p>Cosciugul apoi a fost așezat pe dric și urmat de prieteni, a fost dus la cimitirul Bellu unde s-a făcut înmormântarea.</p>
+            <p>Erà o vreme așa de urâtă, Marțea aceea tristă, când rămășițele pământești ale nefericitei fete, sfâșiate îngrozitor, fuseseră duse la ultimul locaș! Un vifor îngrozitor se deslănțuise asupra Capitalei. Vântul sufla sălbatec. Văzduhul erà inundat de fulgi deși de zăpadă care întunecau vederea, iar zăpada ce acopereă străzile erà atât de mare, în cât circulația fusese aproape intreruptă. O deslănțuire furioasă unei erni care murea! Și totuși colegele Jeanei, au fost toate să-și ia ultimul rămas de la aceea care până în ajun frumaosă și delicată ca o floare de primăvară, atunci nu mai erà decât un morman de cărnuri!...</p>
+            <p>Jeana erà înmormântată, dar misterul</p>
+            <p>Iată dar atâtea întrebări care-și așteptau răspunsurile și atâteà fapte obscure care trebuiau deslușite și lămurite.</p>
+            <gap n="[editorial]" unit="graphic"/>
+            <p>Stația B. M. (București-Mărfuri) devenită celebră prin cadavrului Jeanei Cristescu.</p>
+            <p>Mă hotărî decii, să-le examinez, unul câte unul și să le deslușesc. Sarcina aceasta erà grea și îndrăsneață, dar aveam încre-dere în ambiția mea profesională și mare speranță în norocul meu, începui deci cercetările.</p>
+         </div>
+         <div type="chapter" n="5">
+            <head>Jeana nu e fiica Colonelului Demetrescu.</head>
+            <p>Înainte de a trece însă mai departe, trebuie să elucidăm o chestiune foarte interesantă. Cine erà tatăl Jeanei?</p>
+            <p>D. M. în interesanta convorbire ce am avut-o cu D-sa mi-a declarat categoric, că Jeana erà fiica sinucisului Colonel Demetrescu.</p>
+            <p>In asemenea împrejurări, erà neevi-tabil să pui în legătură cele două morți tragice.</p>
+            <p>Afacerea ar fi luat proporțiile unui mare roman senzațional. Trebuia deci să-mi ușurez cercetările, elucidând noua pro-blemă ce mi se pusese în cale.</p>
+            <p>M-am adresat D-nei Cincu, sora repau-satului colonel. Erà singura persoană mai în măsură, delà care puteam aflà ceva mai sigur.</p>
+            <p>Mă prezentai la locuința doamei Cincu, într-o după amiază la ora 6. Mi se fixase această oră și delà început am observat că eram așteptat. De față se mai aflau d. ingi-ner Antoniu un bun amic al defunctului colonel, d-na Antoniu, și d. Nicu Cincu.</p>
+            <p>Teama ce o avusesem de a nu putea ajunge scopul vizitei, m-a părăsit imediat ce mă aflai în cercul acesta întim. Dela început mi s-a manifestat cea mai mare bună voință și atențiune. D-na Cincu se arată foarte afectată de sgomotul ce se făcea în jurul acestei triste afaceri în care numele iubitului d-sale frate erà a-mestecat. Pe figura d-sale distinsă și plină de bunătate se restrângea durerea care o consuma.</p>
+            <p>«D-le, mi-a spus d-sa după ce-mi oferì un loc, cu foarte multă surprindere am aflat din ziare, despre svonurile cari cir-culă în oraș cu privire la paternitatea ne-fericitei copile. In deosebi, când am cetit în ziarul <title>
+                  <hi>«Minerva»,</hi>
+               </title> cel mai serios și cel mai demn ziar ce-l avem la noi, afirma-țiunile acelui d. M. am rămas, să vă spun drept, indignată.</p>
+            <p>«Răposatul meu frate, n-a avut nici o legătură mai îndelungată cu vre-o femee.</p>
+            <p>Aceasta v-o afirm cu tărie. Toate zvonurile carì circulă cu privire,1a acest fapt sunt pure invențiuni, pornite cine știe dela cine și cu ce interes.</p>
+            <p>«Se afirmă că tânărâ Cristescu este năs-cută în orașul Buzău. Ori fratele meu n-a fost niciodată în garnizoana acelui oraș-Dânsul a stat la Tecuci, de unde a trecut alternativ la Bacău, Tg. Ocna, Focșani și București. La 1895 a fost trimes la Viena ca atașat militar, unde a stat timp de 5 ani, după care s-a reîntors în țară intrând în școala de geniu.</p>
+            <p>In toată cariera lui militară, regretatul meu frate, a trăit mai mult în sânul fa-miliei sale.</p>
+            <p>«Este posibil să fi avut cunoștințe în lumea femeiască, ca orice militar necăsă-torit, dar acestea au fost cu totul efemere și lipsite de legături mai trainice.</p>
+            <p>«Ceea ce se caută a se atribuì fratelui meu, d-le, continuă d-na Cincu cu însufle-țire, este o calomnie, o ordinară calomnie. Nimic nu l-ar fi împedecat pe dânsul — stăpân absolut pe acțiunile sale — ca în timpul vieței, sau cel puțin în ultimul moment al vieței sale, să-și descarce conștiința de un păcat al tinereței. Și cred că cine l-a cunoscut pe Aurel Demetrescu știe ce însemnà la dânsul conștiința și cin-stea.</p>
+            <p>«Vă repet deci, d-le, încă odată, că tot ce se caută a i se svârlì în spinare, este o urâtă și mare minciună, născocită ca să deruteze și să acopere cine știe ce in-calificabilă crimă sau neomenie.</p>
+            <p>«Vă rog și vă autorizez să desmințiți din partea mea, sora colonelului Deme-trescu pe bârfitorii memoriei sale.</p>
+            <p>«Cât privește asupra cauzelor nenoro-citei în care a lunecat, într-o zi poate vi le voi spune și atunci se va vedea cât de integru a fost fratele meu și cât de rea și pătimașe este lumea de azi».</p>
+            <p>Cuvintele calde ale d-nei Cincu, isvo-râte dintr-o convingere adânca și dintr-o iubire fără margini pentru memoria ace-luia ce a fost colonelul Demetrescu, m-au emoționat mult și au àvut darul să mă convingă de adevăr. Jeana nu era deci fiica colonelului Demetrescu și cu toate acestea, Jeana erà convinsă că e fiica lui!</p>
+            <p>Desmințirea dată de doamna Cincu, am publicat-o. Am primit în urmă scrisori și mărturii prețioase de la oameni bine-cunoscuți că Jeana erà fiica unui fost ju-decător numit I. D. mort acum câțiva ani, nebun.</p>
+            <p>De altfel, iată de curiozitate actul de naștere al Jeanei, pe care mi l-au pro-curat din. Buzău, oraș în care s-a născut nefericita copilă:</p>
+            <p>
+               <hi>Condica anului 1891 No. 438.</hi>
+            </p>
+            <p>«Din anul una mie opt sute noùă zeci și unu, luna August ziua două, orele nouă a. m.</p>
+            <p>Actul de naștere al copilei Jeana, de sex femenin, de religiune ortodoxă, năs-cută eri la ora unul dimineața, în această urbă, la casa mamei sale din strada Au-rora cu No. 4, culoarea Galbină, subur-bia bisericei Banului, fiica naturală a d-nei Amelia Cristescu, de ani două zeci și doi, de profesiune muncitoare, domiciliată în această Urbă; după declarația făcută de d-na Elena Enescu, de ani cincizeci și opt, moașa orașului, domiciliată asemenea, Cu-loarea Roșie, strada Curcanilor, care fiind moașe ne-a dat copila, în prezența ceru-ților martori și anume: d-na Sofia Prino, de ani douăzeci și patru, de profesiune menageră, domiciliată în' această urbă, culoarea Roșie, Piața Daciei, cunoscută a mamei și copilei și d-lui Nae Popoviciu, de ani douăzeci și cinci, de profesiune funcționar, domiciliat asemenea, culoarea Galbină, strada Docari, au subscris acest act după ce li s-au citit, împreună cu noi și cu declaranta.</p>
+            <p>Constatat după lege de noi Ion Dumi-trescu, ajutorul primarului urbei Buzău.</p>
+            <p>Declarantă (ss) E. Enescu.</p>
+            <p>Martori (ss) S. Prino și N. Popovici.</p>
+            <p>Ajutor de primar (ss) Ion Dumitrescu.»</p>
+         </div>
+         <div type="chapter" n="6">
+            <head>Crimă sau sinucidere?</head>
+            <p>Descoperirea că nu colonelul Deme-trescu erà tatăl nenorocitei copile, m-a ajutat întru atât întru cât înlăturam un element, care promitea, să fie senzațional, dar care m-ar fi încurcat și mai mult.</p>
+            <p>Cu toate cele spuse, nu se mai putea, pune sfârșitul tragic al Jeanei, în legătura cu neașteptata sinucidere a colonelului Demetrescu.</p>
+            <p>Acum se punea o altă întrebare: Jeana s-a sinucis, sau a fost omorâtă? Omorâtă? Dar cine ar fi avut interesul să omoare pe acel înger nevinovat, care nu făcuse rău nimănui, care nu știa încă ce e viața și tiu avusese timpul șă facă rău cuiva? Mulți au susținut sinuciderea de la început și printre cei cari s-au silit să o ilustreze mai mult, cu dovezi. psycoholo-gice, dacă nu cu altele, au fost chiar me-dicii legiști.</p>
+            <p>Redau acì interesanta convorbire, ce am avut-o cu d. Andrei lonescu, medic legist și din care se poate scoate toate argumentele pentru cei cari vor să fie o sinucidere și nu un accident, s-au o crimă.</p>
+            <p>— Convingerea noastră, a medicilor, a spus d. lonescu, e că tânăra Cristescu s-a si-</p>
+            <gap n="[editorial]" unit="graphic"/>
+            <p>D. Andrei Ionescu, medic legist.</p>
+            <p>nucis. Noi am pornit de la raționamentul acesta: avem înainte un cadavru. Urmează să ne convingem din examinarea lui dacă avem de aface cu o crimă sau cu o si-nucidere.</p>
+            <p>Am examinat cadavrul și am constatat că trupul erà despărțit de cap care fu-sese retezat împreună cu gătul din gru-mazi, iar picioarele s-au găsit și ele mu-tilate grozav la oarecari distanță de trup și cap. Examinând capul și gâtul, am constatat că erau mânjite cu unsoare nea-gră ce se găsește pe roțile mașinilor de tren. Ochii cu pupilele de un negru frumos, rămăseseră deschiși, holbați, fixați par-că la un punct din văzduh. Piciorul stâng fusese smuls din basinul corpului, apoi tăiat din genuche ca și cel drept. Trupul erà sfâșiat de-alungul, pe partea stângă. Inima și plămânii fuseseră smulși din lo-cul lor, iar esofagul fusese desfăcut atât de plămâni cât și de stomac. Parte de in-testine erau eșite din abdomen și zdren-țuite, prăfuite. Vinele' și arterele gâtului erau injectate cu sânge închegat. Apoi hainile fetei erau și ele sfâșiate și prefă-cute în zdrențe.</p>
+            <p>Toate aceste indicii atât de vădite nu puteau să ne dea altă convingere de cât că ne aflăm în fața unei sinucideri. Căci ori cât de violentă ar fi o crimă, crimi-nalul nu poate reuși să facă atâtea vă-tămări corpului victimei, câte avea corpul tinerei fete’ de care vorbim. Mașina tre-nului însă, în repeziciunea mersului ei, a sfâșiat corpul acelei nenorocite-copile după ce a ghilotinat capul. Și pentru noi me-dicii ar fi fost în deajuns să stabilim că ne aflăm în fața unei sinucideri prin ghilotinare, privirea cea fixă a ochilor fetei, privire în oare se citia spaima morței prin tăiarea și despărțirea capului de corp.</p>
+            <p>— Nu se poate presupune, am întrebat eu, că mașina trenului a sfâșiat în chipul în care spuneți, un cadavru și nu o ființă vie?</p>
+            <p>—Nu, a răspuns medicul, pentru că n-am fi găsit sângele închegat la baza gâtului, pe vinele și arterele trunchiate, retezate — ci l-am fi găsit în alte părți ale cor-pului, unde criminalul ar fi dat lovituri, Și lovituri anterioare celor cauzate de călcarea trenului n-am putut găsi pe corpul adus la morgă.</p>
+            <p>— Se spune că fata ar fi fost neura-stenică, isterică spun unii. Dv. medicii, n-ați putut constată acest fapt pe cale fi-siologică?</p>
+            <p>— Nu, pentru că neurastenia ca și isteria sunt manifestări de natură nervoasă și ner-vii nu ne mai spun nimic într-un cadavru. Dar se poate deduce că tânăra a fost neu-rastenică și mai ales isterică prin faptul sinuciderei și prin felul cum a fost înde-plinit acest fapt, căci aceasta e caracte-ristica istericilor: iau repede, brusc, ho-tărâri eroice și tot repede, imediat, le și pun în aplicare.</p>
+            <p>— Dar această acută stare de nervo-zitate, cum o explicați la o tânără de 17 ani, o elevă de școală, silitoare și ascul-tătoare?</p>
+            <p>— Explicația nu se poate găsì într-un fapt, ci ținând seama de o sere de îm-prejurări.</p>
+            <p>— Mediul în care trăia...</p>
+            <p>— Negreșit că și mediul și mai ales mediul în care trăia a putut să-i deter-mine starea nervoasă; apoi preocupările ei în afară de școală: cum e posibil să fi fost și o fire reținută, care să fi păstrat în sufletul ei ascunse multe observații ce poate ar fi avut să le facă, dar din dife-rite considerații nu le-ra făcut; cum se poate deasemenea ca nervozitatea ei esce-sivă să fi fost și de natură ereditară, etc.»</p>
+            <p>Aci convorbirea cu medicul legist s-a sfâr-șit, — dar cugetarea ziaristului a continuat să formuleze — de astădată pentru el —noui îutrebări.</p>
+            <p>De sigur că nu poți aflà cauzele sinu-ciderei d-șoarei Jeana Cristescu, ziceam în sinea mea, dacă nu cercetezi de aproape împrejurările în care această ființă a trăit și cari au determinat-o să se sinucidă.</p>
+            <p>M-am hotărât să-mi îndreptez cercetă-rile pe această-nouă cale. Adevărul este că într-o afacere misterioasă, cum erà aceasta, pentru a ajunge la un résultat, trebue să cercetezi deodată în toate direcțiunile.</p>
+         </div>
+         <div type="chapter" n="7">
+            <head>Cercetări personale.</head>
+            <p>Din câte am spus până acum, nu am vorbit de argumentele din cari s-ar putea scoate, că nu a, fost la mijloc o sinucidere, ci o crimă.</p>
+            <p>Cu toate explicațiile date de medicii legiști, rămâneau câteva lucruri cu totul neesplicate.</p>
+            <p>Intre altele, lucru curios, victima ple-case de acasă cu bereta și cu pelerina. Ei bine, aceste două obiecte nu au fost găsite nici până în momentul când scriu aceste rânduri. Pentru ce au dispărut, aceste obiecte, pe care victima le aveà de sigur, înainte de a se aruncà, în tocmai ca Ana Karenina, înaintea locomotivei omorâtoare?</p>
+            <p>Pentru ce s-au găsit ghetele cu totul curate? Pentru ce capul nu prezaent a-proape nici o leziune de și fiind tăiat de mașină și luat de ea, aruncat apoi la o mare distanță, ar fi trebuit să fie mur-dărit, lovit, cu părul desfăcut? Dar nu, capul, retezat cu totul de trup, era frumos, părul își avea și bucla favorită a Jeanei și afară de o vănătae la tâmplă, bietul cap nu prezenta nici o lovitură, și nici murdar nu era.</p>
+            <p>Faptul apoi că membrele nefericitei Jeana au fost găsite împrăștiate de-alungul liniei, pe o distanță colosală, nu lăsa im-presia, că Jeana s-a sinucis.</p>
+            <p>A fost aruncată din tren între vagoane, mi se spunea într-o scrisoare; «a fost o-morâtă și cadavrul-i-a' fost pus pe linie» îmi spunea altă scrisoare.</p>
+            <p>Scrisorilor anonime le dai importanța pe care o merită, în orice caz, era de datoria mea de prefect ziarist să fac toate cercetările.</p>
+            <p>O anchetă la fața locului se impunea.</p>
+            <p>Cu automobilul ziarului la care lu-crez, am putut pătrunde cu multă greu-tate, pe o șosea înfundată de zăpezi, până dincolo de cimitirul Șf. Vineri, în apropiere de stația B. M.</p>
+            <p>Condus de către un subcomisar, am putut culege următoarele amănunte, ex-trem de interesante și din cari se pot con-chide multe.</p>
+            <p>Cadavrul a fost găsit pe linia a doua, Kitila la o distanță de aproape zece metri de acul care bifurcă linia cu acea de Vârciorova.</p>
+            <gap n="[editorial]" unit="graphic"/>
+            <p>Vederea reprezintă linia II Chitila, iar crucea indică locul unde a fost găsit corpul Jeanei.</p>
+            <p>Scarlat Angliei, domiciliat în srada Im-păcărei 5, acarul care a descoperit corpul fetei, mi-a declarat următoarele:</p>
+            <p>«Cu cel puțin zece minute înainte de sosirea trenului accelerat No. 56, care venea din spre Buzău, mă aflam la post, în dreptul acului. Linia, care în această parte este foarte dreaptă erà luminată bine și eu ne văzând pe nimeni pe linie am strigat să închidă bariera din șpre Grângași.</p>
+            <p>La 7 și un sfert trenul a trecut ca de obiceiu. După trecerea- trenului am zărit la o distanță de vreo 20 pași, de unde ma aflam ceva alb între linie.- M-am apropiat și cu groază am constatat că erà corpul; unei femei tăiate de tren.</p>
+            <p>In tot timpul cât am stat la ac nu am văzut pe nimeni care să se apropie de tren s-au să se arunce în fața lui.» '</p>
+            <p>Un alt acar, Trifu Gheorghe, domiciliat în strada Principele Carol din comuna Militari, mi-a declarat:</p>
+            <p>«La 7 și un sfert, după ce trecù trenul 56, de Buzău, pe linia a II Chitila, din stația B. M. unde mă aflam de serviciu, am observat în apropiere de stația B.M. un cadavru de femee, fără cap și mutilat. La o distanță de 20—25 metri de cadavru în spre Kitila am găsit capul, iar la o distanță aproape egală, însă în direcție opusă, - spre București am zărit un picior. Dincolo de cap erà o rochie de culoare marron, curată și în bună stare, iar puțin mai înainte la vreo 3 metri o fustă albă, ruptă pe la poale. Piciorul care se aflà smuls de corp precum și celalt, erau încălțate cu niște ghete negre, cu nasturi și foarte curate.»</p>
+            <p>Comisarul Negrescu șeful circ, a 18 și subcomisarul Zdrafcu, cari s-au dus cei dintâi la fața locului, au găsit pe linia chitila membrele cadavrului fetei pe care după cercetări Ie făcute le-au așezat la un loc.</p>
+            <p>D. comisar Negrescu mi-a declarat că cel dintâi obiect, în spre Chitila, a găsit fusta albă a victimei, ruptă la poale, la trei metrii mai încoace rochia copilei, de culoare marron, nouă, foarte curată și fără cea mai mică ruptură sau pată de sânge. Rochia se aflà la o distanță de vreo câțiva pași de linie.</p>
+            <p>Apoi tot înaintând în spre stația B. M. a găsit, mai întâi, piciorul stâng al victimei, gol, îmbrăcat mimai cu ciorapul și gheata. Piciorul erà smuls din șold. Gheata eră foarte curată. Piciorul a fost găsit între o linie ce se bifurcă, dar aci se aflà, foarte puțin sânge închegat și aceasta mai mult în picături.</p>
+            <p>La 20 metri de picior a găsit corpul, iarăș între șine, pește o rigolă, oribil muti-lat și amestecat cu bluza zdrențuită. Cada-vrul nu purtà indispensabili.</p>
+            <p>La o distanță de încă 20 metrii în apro-</p>
+            <gap n="[editorial]" unit="graphic"/>
+            <p>Locul unde stătea acarul și unde a fost găsit piciorul Jeanei</p>
+            <p>piere de rochie a găsit capul copilei cu părul împletit în două cozi și căzut pe linie.</p>
+            <p>Întreg abdomentul victimei precum și părțile genitale, erau cu desăvârșire dis-truse «măcinate» după însăși expresia comisarului.</p>
+            <p>Din toate aceste declarații reeșea în mod neîndoios, că un mare mister învă-luià această moarte.</p>
+            <p>Mai întâi nu se explică cum s-a putut găsi la o distanță, mai îndepărtată fusta albă a copilei, iar mai- încoace rochia ei nevătămată, pe când mai logic ar fi fost contrariul. Nu se poate presupune, chiar admițându-se că fata, înnainte de a se as-vârlì asupra trenului, și-a scos întâi fusta și apoi și-a lepădat rochia.</p>
+            <p>Apoi cum se poate explicà faptul că rochia erà intactă și nepătată de sânge? De ce victima, dacă ar fi avut această prevedere pentru foile ei, n-a avut-o și pentru bluză care erà deasemenea nouă și mai scumpă, fiind de catifea? Dar ghe-tele cum de au rămas curate cu toate că plecase d-acasă fără galoși, sau șoșoni, după declarațiunile făcute de însăși mama ei?</p>
+            <p>Dar faptul, că unde a fost găsit piciorul, nu s-a văzut sânge decât câte-va picături? De ce linia ferată în acest loc nu erà mânjită de sânge, așa cum ar fi fost logic să fie?</p>
+            <p>Declarațiile celor doi acari precum și acelea făcute de ' comisarul Negrescu și ajutorul său Zdrafcu, cei dintăiu cari au fost la fața locului, imediat după desco-perirea cadavrului, erau de natură, de a sugerà cele, mai grave bănueli, cu privire la moartea tinerei Cristescu.</p>
+            <p>Este neîndoios lucru că trupul fetei, a fost zdrobit de mașina trenului, dar nu erà de loc explicabil cum a putut fi cadavrul astfel împrăștiat.</p>
+            <p>Din felul cum au fost găsite răspândite pe linie membrele nefericitei Jeana, precum și hainele ei, nu se poate trage nici o concluzie în favoarea unei sinucideri.</p>
+            <p>Judecând după pozițiunea în care au fost descoperite bucățile din cadavru, se poate conchide ușor și logic, că fata, în momentul trecerei trenului se aflà lungită transversal pe linie, cu capul în spre ră-sărit. Astfel stând lucrurile cum se poate explica atunci găsirea capului pe partea cealaltă a liniei și la o așa mare distanță de la corpul mutilat?</p>
+            <p>Terenul în locul unde s-a întâmplat neno-rocirea erà foarte curat și nepătat de sânge.</p>
+            <p>Ba, ancheta urmată în aceiași seară de autorități a stabilit ceva mai mult.</p>
+            <p>Roțile mașinei erau nepătate de sânge. Numai roata a doua din partea stângă a locomotivei, erà puțin înroșită de sânge, dar puțin într-o parte.</p>
+            <p>Această constatare a fost stabilită în următorul mod:</p>
+            <p>Când în stația B. M. cadavrul a fost descoperit, șeful stației împreună cu co-misarul care venise în anchetă, după pri-mele cercetări au cerut să se examineze locomotiva trenului 56, care zdrobise corpul fetei.</p>
+            <p>S-a chemat imediat prin telefon stația gărei de Nord și s-a comunicat ordinul unui amploiat care a și fost însărcinat să facă imediate cercetări la roțile mașinei</p>
+            <p>Amploiatul s-a conformat ordinului pri-mit și ducându-se la trenul care abia sosise în gară, a spus mecanicului Ion Gèorgescu:</p>
+            <p>«Măi meștere, -să examinăm roțile ba-laurului tău, fiindcă ne telefonează din stația B. M. că a lăsat un «cadou pe linie».</p>
+            <p>Mecanicul aflând această veste s-a co-borît imediat din locomotivă și împreună cu amploiatul stației și focarul Toma lonescu, precum și cu subcomisarul gărei, au cercetat cu niște lanterne roțile ma-șinei și ale întregului tren și n-au găsit de cât că roata a doua din stânga, a lo-comotivei erà mânjită de puțin sânge, iar nu stropită.</p>
+            <p>Această constatare este iarăși extrem de interesantă. Cum se poate ca o mașină de tren care zdrobește atât de grozav un corp omenesc viu, să nu fie stropită de sângele care ar fi țâșnit dintr-odată din corpul mutilat? Cum se face că nici linia ferată în locul accidentului nu a fost gă-sită plină de sânge, când logic ar fi fost ca în jurul ei să fie un lac de sânge? Oare nefericita copilă nu a fost încă în-nainte de a o călca trenul, un cadavru?</p>
+            <p>Dealtminteri, avem și declarația me-dicului legist, care ne-a spus că unei ființe, vii când e tăiată, îi curge mult sânge, ceea ce nu s-a întâmplat în cazul acesta.</p>
+            <p>Imediat după descoperirea cadavrului, autoritățile au luat pe lângă alte decla-rații și pe acelea ale mecanicului trenului și fochistului.</p>
+            <p>Mecanicul trenului în acea seară erà Ion Georgescu.</p>
+            <p>La întrebările ce i s-au pus, dânsul a declarat că nu a văzut nimic înaintea liniei.</p>
+            <p>— «Veneam cu o viteză de 30 de kilom. pe oră în acea parte, zise el; erà ce-i drept puțină pâclă, dar vedeam perfect linia până’ la o distanță de vreo 8—10 metri. Nu am văzut pe nimeni în fața liniei; nu am simțit-nimic care să-mi deș-tepte vre-o bănuială. In acest loc toată atențiunea mea erà ațintită asupra liniei de oarece eram aproape de macazul de schimb.</p>
+            <p>Pe acar l-am observat, dar altceva nimic».</p>
+            <p>Declarațiuni identice a făcut și focarul Toma lonescu. El n-a văzut nimic și n-a auzit nimic.</p>
+         </div>
+         <div type="chapter" n="8">
+            <head>Cu ce s-a dus Jeana până la stația B. M.?</head>
+            <p>In acest timp colegii de la celelalte ziare au început și dânșii cercetări per-sonale; comisarul circumscripției 18 își făcea cercetările deasemenea. Toți însă ne loveam de aceiași chestiune: cu ce s-a dus Jeana până la stația B. M.?</p>
+            <p>Desigur că presupunerea, că tânăra fată a plecat cu tranvaiul de Luter — care trece prin aprorierea locuinței d-nei Cris-tescu — până în dosul gărei de Nord, trebue exclusă, de oarece nu ar fi avut timpul necesar să ajungă la stație înaintea trenului care a strivit-o. Se presupune deci că s-a dus cu trăsură. Dar în acest caz unde erà birjarul? Autoritățile nu luaseră măsurile necesare pentru găsirea birjarului? Mă întrebam pentru ce? Oare declarațiunea acestuia nu avea nici o va-loare? Erà însă foarte important de a se stabili faptul daca tânăra Cristescu s-a coborît în gara de Nord și de acolo pe jos, s-a dus până în stația B. M. sau s-a dus cu trăsura până în dreptul cimitirului Sf. Vineri și d-aci pe câmpie, a trecut în stație. Și într-un caz și în altul ghetele fetei nu puteau rămâne atât de curate cum au fost găsite.</p>
+            <p>Vedeam eu că autoritățile nu se ocupau cum ar fi trebuit, de această întâmplare destul de dramatică.</p>
+            <p>Pe de o parte ardeam de dorința de a căpăta amănunte cât mai precise, iar pe de altă cititorii ziarului mă sileau la aceasta prin întrebările lor insistente. Am fost deci din nou în stația B. M. De astă dată m-am dus cu trăsura până la cimitirul Sf. Vineri de unde am apucat pe o stradă îngustă și mică care da în stația B. M. adică am urmat drumul pre-supus că a fost, făcut de nefericita Jeana.</p>
+            <p>Timpul erà umed și o ceață ușoară întuneca atmosfera. Pe linie am găsit pe acarul Anghel, acela care a descoperit cel d-ântâi câdravul.</p>
+            <p>L-am întrebat din nou, asupra împrejură-rilor acestei tragice întâmplări și mi-a repe-tat declarați unile făcute în ajun.</p>
+            <p>— Nu-mi pot explica nici eu — adăogă acarul cum se poate ca ghetele fetei să fie atât de curate —căci erau foarte cu-rate, d-le, le-am văzut bine, fiindcă eu cel dintâi am dat peste cadavru, un minut după trecerea trenului. In acea seară erà aceiași vreme ca și astăzi; pâclă și bură de ploaie, iar noroi berechet ca și acum, precum vedeți.</p>
+            <p>— Dar oare nu a avut în picioare galoși care să-i fi furat cineva? Îl întrebai.</p>
+            <p>— N-ar fi putut nimeni să-i fure fiindcă, după cum vam spus, am fost cel d-ântâi care am descoperit cadavrul și eu galoși nu am văzut. Eu cred că fata s-a omorât singură,—conțină acarul—lungindu-se pe linie, fără s-o observe nimeni, dar mai cred că dânsa a venit mai de mult aci și era ascunsă prin vre-un vagon de marfă din care staționau pe linia III, iar când a observat că s-a întunecat și că sosește un tren, s-a strecurat pe șine și s-a lungit deacurmezișul.»</p>
+            <p>Aceeași părere au exprimat-o și ceilalți acari.»</p>
+         </div>
+         <div type="chapter" n="9">
+            <head>«Jeana Cristescu s-a sinucis», spune co-misarul Negrescu.</head>
+            <p>Cu toate amănuntele ce le-am dat mai sus, ancheta oficială, aceia a d-lui comisar Negrescu, dela circ. 18 conchidea că Jeana s-a sinucis.</p>
+            <p>E interesant să reproduc aci convor-birea pe care am avut-o în această pri-vință cu D-sa.</p>
+            <gap n="[editorial]" unit="graphic"/>
+            <p>D. Negrescu Comisarul circ, a 18-a.</p>
+            <p>— Jeana Cristescu, mi-a spus d. comisar Negrescu, a plecat de acasă la orele 6 și jumătate seara. Aceasta se stabilește din declarația mamei sale, și din declarația, co-legei sale, d-ra Abramovici, la care Jeana fusese la amiază la masă, și cu care, după școală venise acasă.</p>
+            <p>Jeana, deci, plecase de acasă la 6 și jumătate seara și găsită moartă pe linia ferată cu trei sferturi de oră mai târziu, nu-putea decât să se fi sinucis. Nici un criminal, ori cât de îndrăzneț și de meserie ar fi fost — a continuat d. comisar Ne-grescu — nu ar fi avut timpul material să comită o asemenea crimă.</p>
+            <p>Deci, crima fiind exclusă, să ne închi-puim acum felul în care s-a petrecut sinu-ciderea.</p>
+            <p>Jeana Cristescu, când a plecat de acasă, s-a urcat în cea dintâi trăsură ce i-a eșit în cale și s-a îndreptat spre gara de Nord. Odată ajunsă în gară, s-a urcat în primul tren care pleca, și acesta, era trenul de Pitești care părăsește gara de Nord la orele 6 și 45 minute. Numai astfel se poate explica faptul că ghetele fetei erau curate. Ea s-a urcat în tren fără bilet, a stat pe platforma vagonului și, când a simțit că vine conductorul, s-a aruncat între roți.</p>
+            <p>In modul acesta Jeana Cristescu a fost călcată și omorâtă, fără a fi observată, de nimeni. Cinci minute mai târziu, pe aceiași linie, pe care rămăsese corpul ne-însuflețit al nenorocitei copile, a trecut trenul expres de Berlin, cu o viteză de 50 klm. pe oră. Trenul dând peste corpul neînsuflețit, lăsat pe linie, l-a zdrobit și mai mult, desmembrându-l în modul o-ribil cum a fost găsit.»</p>
+            <p>Trebuie însă să relevăm, că trenul de Pitești care la ora arătată părăsește gara de Nord nu trece pe linia pe care au fost găsite membrele cadavrului Jeanei și apoi chiar din declarațiunea făcută de medicii legiști, reese că un corp care cade din tren pe linie are o posiție cu totul alta de aceea pe care a avut-o cadavrul Jeanei Cristescu. Precum se vede prin urmare rămâne tot stabilit că cel dintâi tren care a trecut peste corpul tinerei fete — viu sau mort — a fost tot trenul de Berlin care venea spre București.</p>
+         </div>
+         <div type="chapter" n="10">
+            <head>Dacă e sinucidere, pentru ce s-a sinucis?</head>
+            <p>Am arătat în destul, care ar putea să, fie argumentele, că Jeana nu s-ar fi putut sinucide, dar dacă admitem că în adevăr s-a sinucis, să examinăm cauzele cari ar fi putut să o împingă la sinucidere.</p>
+            <p>Din toate cercetările ce am făcut, am, scos concluzia, că Jeana nu iubea pe ni-meni, nu avea nici o slăbiciune cât de platonică pentru cineva- Aceasta o poate afirma toate colegile ei.</p>
+            <p>După aflarea tragicului sfârșit al Jeanei, s-a vorbit foarte mult prin presă, și de către cunoscuții cei mai apropiați ai fetei, despre boala de care ea suferea.</p>
+            <p>Doamna Cristescu însă-și, mama tinerei copile, ne-a afirmat pe atunci că Jeana se plângea adesea, în ultimul timp, de dureri de cap și de piept; că nu avea poftă de mâncare și că de câteori îi se spunea să se lase a fi arătată unui medic, dânsa refuza cu încăpățânare. Câteva din colegele Jeanei au afirmat deasemenea același lucru.</p>
+            <p>Medicii însă, cari o examinaseră și prin-tre care este și d. doctor Mirinescu, au afirmat că Jeana nu erà atinsă de tuber-culoză precum s-a susținut. De altă boală grea și care să poată influența în mod dezastruos asupra fizicului, sau moralului ei, Jeana nu a suferit. Deci, este de nead-mis că niște simple dureri de cap, pro-venite dintr-o ușoară răceală s-au dintr-o altă cauză, de ordin sufleteasc, s-o fi putut determina pe tânăra fată, la un pas atât de hotărât și atât de disperat.</p>
+            <p>Dacă Jeana ar fi suferit de vreo boală ascunsă, dânsa nu ar fi putut să păstreze multă vreme secretul, nu s-ar fi încăpă-țânat într-atâta să nu fie examinată de un medic. Stabilirea fecioriei Jeanei, fă-cută pe de altă parte de medicii legiști, este o și mai strălucită dovadă despre mora-litatea și seriozitatea ei, precum este iarăși o dovadă că Jeana nu avea nici un motiv să se teamă de medici. Dacă dânsa s-a opus atât, de a se arătă doctorilor, aceasta a-făcut-o numai pentru că știa foarte bine că nu corpul ei eră bolnav, ci sufletul ei, acel suflet ales și cast, ros de cangrena, desnădejdei morale.</p>
+            <p>S-a mai susținut de alții că Jeana erà neurastenică, că boala aceasta omorâ-toare, provenită din surmenagiu intelec-tual, a împins-o la tragicul sfârșit ce și l-a ales. Și versiunea aceasta însă nu este serioasă. Neurastenia, în gradul înaintat, nu se poate manifestà într-un timp atât de scurt. Ori, Jeana Cristescu, de o fire mai mult veselă și liniștită, nu devenise melancolică și -tristă de cât în urmă cu câteva săptămâni de la ziua fatală. Și în acest răstimp chiar cele mai multe din momentele ei, erau momente de uitare de sine, de voioșie și de spirit.</p>
+            <p>Un neurastenic, de altfel, este stăpânit mereu de idei negre, e blazat, devine ipo-hondrie, e urmărit de idei fixe și este mi-santrop. El exprimă tuturora disprețul de viață ce-l simte, dorința de a încheea, de a sfârșì cu toate. Din câte însă se știe, și în mod pozitiv, Jeana Cristescu se pronunțase dese ori contra sinuciderei. Nu numai că nu erà o admiratoare a sinuciderei cum sunt toți neurastenicii — dar-nici nu credeà acest act, demn de acțiunea unui om în toată firea. Aceasta o afirmă colegele Jeanei, cu care nefe-ricita a avut numeroase discuțiuni în le-gătură cu acest subiect.</p>
+            <p>Din cele relatate mai sus reese în mod destul de clar că nu boala a împins pe nefericita Jeana Cristescu să-și curme firul primăvăratec al vieței sale.</p>
+            <p>Dar, atunci care este cauza adevărată?</p>
+            <p>Orice cauză s-ar căutà, tot nu se-poate explicà groaza de care erà apucată Jeana Cristescu în ultimele zile, groază, care a aruncat-o înaintea locomotivei.</p>
+         </div>
+         <div type="chapter" n="11">
+            <head>Jeana și Ana Karenina.</head>
+            <p>Înainte de a sfârșì acest capitol, e interesant să ne amintim că s-a spus, cum că în ultimele zile, Jeana citise pe Ana Karenina și că de aceea și-a ales în urmă tragicul sfârșit al eroinei lui Tolstoi.</p>
+            <p>Reproducem mai jos, pasajul din acel-roman unde e vorba de sinuciderea Anei Karenina.</p>
+            <milestone unit="dots"/>
+            <p>«Clopotul sună și voiajorii se urcară în’ tren.</p>
+            <p>Câțiva tineri care discutau sgomotos, tăcură deodată când o văzură trecând pe lângă ei.</p>
+            <p>Unul dintr-înșii se aplecă la urechia altuia și-i șoptì ceva, neplăcut de sigur.</p>
+            <p>Ea urcă scara vagonului și se așeză într-un compartiment singură, înfundându-se în divanul care odată fusese alb dar care acum nu mai avea nici o coloare.</p>
+            <milestone unit="dots"/>
+            <p>Afară pe peronul gărei, o femee diformă cu o turnură exagerată și acompaniată de o fetiță care râdea sgomotos, trecură repede prin fața compartimentului Anei. Pentru a nu vedea pe nimeni ea se întoarse la fereastra cealaltă.</p>
+            <p>Un mujic murdar, cu o șapcă unsuroasă din care atârnau cârlionțele de păr, trecù prin fața ferestrei și se apleca pentru a examina roțile vagonului.</p>
+            <p>— Oare n-am mai văzut eu pe undeva pe mujicul ăsta diform?... Se întrebă Ana.</p>
+            <p>Și ea își aduse aminte imediat de visul său. Tremurând de frică Ana se apropie de ușa vagonului, pe care conductorul tocmai o deschidea pentru a lăsa să pă-trundă înăuntru o pereche, un bărbat și o femee.</p>
+            <p>— Voiți să vă dați jos doamnă? o în-trebă conductorul.</p>
+            <p>Ana nu răspunse nimic, se întoarse însă și își luă din nou locul în colțul compar-timentului. Sub voaleta sa nimeni nu-putu remarca oroarea care îi erà pictată pe față. Noii veniți o examinau cu atenție. Ana îi găsea respingători. Cei doi soți vorbeau de lucruri casnice, expres pentru a-i atrage atenția. Ana observa că ei se detestă unul pe altul. De altfel ar fi fost imposibil să se iubească doi oameni așa de urîți.</p>
+            <p>Locomotiva flueră și bărbatul își făcù semnul crucei.</p>
+            <p>Ana îl privì cu un aer iritat și se în-trebă: Ași vrea să-l întreb pentru ce și-a făcut semnul crucei?</p>
+            <p>Curând însă ea își uită de vecinii săi. Adierea vântului ridicà perdelele ferestrei. Ana căzù din nou pradă gândurilor sale..</p>
+            <p>— Da, unde rămăsesem oare?... Ah, n-ași putea găsi oare o situație în care viața să nu-mi fie un vârtej? Nu suntem creați decât pentru a suferì. Lucrul acesta îl știm bine și pentru aceasta inventăm remedii pentru a ne amuza. Când vedem adevărul ce ne mai rămâne de făcut?</p>
+            <milestone unit="dots"/>
+            <p>Da, adevărul mă îngrozește iar rațiunea mi-a fost dată pentru a mă pune la a-dăpost. Trebue dar să mă hotărăsc odată.Și pentru ce oare nu ași stinge lumina când tot ce văd mă dezgustă: Dar în ce fel.</p>
+            <p>Trenul intră în gară.</p>
+            <p>Ana se coborâ împreună cu alți voia-jori ținându-se cât mai departe de ei ca și cum ar fi fost bolnavi de ciumă.</p>
+            <milestone unit="dots"/>
+            <p>In fine ea își aduse aminte de ceia ce trebuia să facă. Oprì un amploiat și îl în-trebă dacă nu cum-va este cineva la gară cu un bilet din partea contelui Vronsky?</p>
+            <p>In momentul acela, birjarul Mihail pe care ea îl trimesese în ajun, se apropie de ea și îi întinse o scrisoare.</p>
+            <p>Ana rupse plicul și inima i se stinse mai înainte de a afla conținutul. Vronsky răspundea:</p>
+            <p>«Regret foarte mult că biletul tău nu m-a ajuns la timp. Mă voi întoarce pe la ora 10».</p>
+            <p>— Nici nu mă gândeam la alt lucru, își zise Ana cu un surâs răutăcios.</p>
+            <p>Bătăile inimei sale îì împiedicau parcă răsuflarea.</p>
+            <p>— Nu, nu-i voi mai permite să mă tur-menteze, își zise ea îndreptându-șe spre ceal-altă parte a drumului de fier.</p>
+            <milestone unit="dots"/>
+            <p>— Șeful de gară trecând pe lângă ea o întreabă dacă voește să se urce în tren.</p>
+            <p>— Doamne, doamne, se gândì ea, unde să mă ascund, unde să dispar? Și ea se oprì tocmai în partea ceal-altă a gărei.</p>
+            <p>Un tren de marfă tocmai intră în gară. Ana se gândi de-odată la mujicul tăiat de tren în ziua când a văzut pe Vronsky pentru prima oară, și în clipa acea înțelese ce-i mai rămânea de făcut.</p>
+            <p>Ana observă de aproape vagoanele, ro-țile și lanțurile care le legau unele de altele.</p>
+            <p>— Colo se gândì Ana, privind nisipul amestecat cu ulei, ce acoperea locul dintre șine, acolo, drept la mijloc, între roate, și mă voi pedepsì și mă voi-liberà de tot și de mine însumi.</p>
+            <p>La un moment dat, Anei îi veni să se arunce între despărțiturile roților vagonu-lui care tocmai trecea prin fața, ei. Se oprì însă și așteptă al doilea vagon. Deo-dată însă simțì aproape aceiași senzație pe care o simți când vrei să te scalzi în maré. Ana își făcù semnul crucei. '</p>
+            <p>Gestul acesta familiar îi readuce în su-flet toate suvenirurile din tinerețe și co-pilărie.</p>
+            <p>Ea continuă să privească roțile vagonu-lui care se apropia. In momentul în care spațiul dintre roate ajunsese în fața ei, Ana ascunzându-și parcă capul între umeri se aruncă sub vagoane cu mâinile înainte.</p>
+            <p>In momentul acela, actul pe care îl comisese o umplù de eroare.</p>
+            <p>— Unde sunt? Ce am făcut? Pentru ce?</p>
+            <p>Erà prea târziu însă. Simțì ceva enorm lovind-o în cap și ne mai putând luptà, strigă:</p>
+            <p>— Dumnezeule, iartă-mă.</p>
+            <p>Și lumina la care Ana citise cartea plină de sbucium, de minciuni, de dureri și de rele, strălucì deodată puternic, ilu-minându-i tot ceea ce pentru ea fusese scu-fundat în întuneric, apoi pălì și se stinse pentru totdeauna.»</p>
+            <milestone unit="dots"/>
+            <p>Dar Ana Karenina erà o femeie, care cunoștea viața, Ana Karenina iubea, pe când Jana Cristescu nu cunoștea în amă-răciunile vieței, deziluziile amare ale iu-birei.—Nu e deci nici o asemănare intre eroina lui Tolstoi și sărmana fată, care și-a găsit moartea lângă stația B. M.</p>
+            <p>Prin sugestiune, s-a spus, dar ar fi trebuit ca Jana să fi încercat sentimentele Anei Karenina, ceia ce știm cu siguranță, că nu e adevărat.</p>
+         </div>
+         <div type="chapter" n="12">
+            <head>Scrisoarea unei colege.</head>
+            <p>Înainte de a încheia prima parte a acestei scrieri vom reproduce aci scrisoarea pe care mi-a trimes-o la redacție, una din colegile Jeanei și în care se incearcă a se esplica intr-un anumit mod, cauzele sinuciderei tinerei fete —. Bine înțeles, că ceia ce spune colega Janei, nu se potrivește de loc cu cele spuse de d-na Cristeseu, care își adora fiica așa de mult, în cât azi îi este de sigur, groază să mai dea amănunte asupra ultimelor zile- ale Janei.</p>
+            <p>Iată pasagii din scrisoarea colegei Janei..</p>
+            <quote type="letter">
+               <p>Stimate Domn,</p>
+               <p>«Făcând parte din numerosul public ce se interesează așa de mult de moartea nefericitei Jeana Cristeseu, vă aduc mul-țumirile mele și vă exprim admirația și recunoștința mea.</p>
+               <p>Prin cercetările așa de sârguitoare și trebuincioase pe care le a-ți adus prin ziarul «Minerva» acesta și-a câștigat primul loc printre x ziare, sau mai bine zis, a știut că dea asaltul decisiv pentru înfrângerea celorlalte.</p>
+               <p>«În lungile dv. cercetări, multe puncte au fost întunecate pentru dv. ca și pentru public.</p>
+               <p>«Vă spun drept că simt o remușcare acum când mă gândesc că n-am dat la iveală mai înnainte ceea ce știam, pentru a se clarificà lucrurile. Totuși acuma sunt hotărîtă să spun.</p>
+               <p>«Plecând dela început, primul punct în-tunecat a fost: — S-a sinucis Jeana? A fost un accident? S-au a fost omorîtă?</p>
+               <p>Răspunsul meu este: s-a sinucis! De ce? mă veți întrebà.</p>
+               <p>«Cauza nu este una. Sunt mai multe, dar sunt în strînsă legătură. Jeana își cunoșteà origina, precum și felul de viață al mumei sale. Aceasta a spus-o direc-toarei, ea însăși. Fiind chemată într-o zi în cancelarie, directoarea, d-na Aslan, a întrebat-o: Cristėscu, cu ce se ocupă mama cu ce trăește?» Fata n-a răspuns nimic: a plecat plângând afară și s-a întors mai târziu, spunând: «Màma mea trăește cu un domn»: Pe urmă s-a dus în clasă, s-a așezat în bancă plângând cu desnădejde. Intrebând-o fetele le-a spus: Auzi să mă întrebe cu ce trăiește mama? par-că nu știa?» și a continuat a plânge...</p>
+               <p>«Acest X — continuă colega Jeanei — este acela care a determinat pe nefericita fată să se omoare.</p>
+               <p>Inteligentă, castă și foarte simțitoare, fata nu-l puteà suferì.</p>
+               <p>D. X. erà foarte bun cu Jeana. El nu știa cum să fie mai serviabil față de dânsa. Fata însă, erà foarte rece. La sărutările prea dulci ale acestuia dânsa tremurà de scârbă. Când îmbrățișările lui erau prea lungi, Jeana se sbăteà și plecà fugind în odaia ei.</p>
+               <p>«Odaia ei! Săraca fată! O cameră ce dă în bucătărie, cu ciment pe jos și fri-guroasă!</p>
+               <p>«Jeana întârzia la școală acum în timpul iernei. Când o întrebau colegele de ce vine târziu, le spunea: «De! aș vrea să mă scol mai de dimineață, dar e așa de frig în odae! e cu ciment pe jos și nu-mi face focul nimenea!»</p>
+               <p>«Cu mama ei erà vecinie în ceartă din cauză că mama sa îi reproșa că nu se poartă bine cu <hi>el</hi>. «Nenorocito, o dojena, cine îți dă să mănânci și după urma cui trăești? De ce te porți așa? ce ai cu el?» Și Jeana tăcea și plângea.</p>
+               <p>«Miercuri seară, cu trei zile înainte de a se sinucide, certându-se iar pe acelaș motiv, Jeana a răspuns. «Nu pot să-l su-fer!» Mama sa a bătut-o — căci obișnuia, și a doua zi Jeana s-a plâns la fete și le-a arătat vânătăi pe mâini.</p>
+               <p>«Pentru el fetelor! — se plângea dânsa— Ah de ași muri. Nu pot să-l sufer.»</p>
+               <p>«Deci, ea trăia rău în casă și rău la școală (vom vedea de ce). Pentru aceasta dorea să moară. Gândul de a murì,1’a avut de mult. De aceea umblà numai cu că-mașa și șorțul peste ea — în timpul ’ernei fără indispensabili și în ghete. Se plângea fetelor că e bolnavă și zicea că ar vrea să fie ofticoasă. In ultimele zile chiar spu-nea fetelor că e turbeculoasă deși nu erà.</p>
+               <p>«Voia doar să se auto-sugestioneze.</p>
+               <p>«Gândul de sinucidere i-a venit în urmă când a văzut că de moarte din boală nu poate muri.</p>
+               <p>«Am zis că trăià rău la școală și mă explic: Dv. a-ți spus în «Minerva», că elevele o iubeau și dădeați ca probă faptul, că au venit toate la înmormântare. Ei bine, să vă spun ceva: La școală era in-terzis ca fetele să vorbească cu Jeana sau să fie intime cu ea. Cele cari țineau la ea pentru inteligența și frumusețea ei, erau spionate și reclamate direcției, carele pedepsea. Această măsură în contra. Jeanei era cauzată din următoarele mo-tive: 1) Direcția credeà că ce ese din pisică șoareci mănâncă și bănuia pe ne-vinovata Jeana; 2) primise la școală niște scrisori cu declarații de dragoste dela niște imbecili din școala militară din Iași, cari o urmărise la «patinaj» și pe cari Jeana nu-i cunoștea personal, astfel ca să se poată bănui că există ceva între ei. In urma acestor scrisori i s-a interzis să mai meargă la patinaj. Așa se explică de ce Jeana n-a avut nici o prietenă sinceră între colegele ei, căreia să-i destăinuească amănunțit starea ei sufletească.</p>
+               <p>Vin și acum la alt fapt. Ați publicat într-unul din numerile trecute ale ziarului dv. o convorbire cu d. X care susținuse că citirea romanului Anna Karenina, influențase asupra fetei și a impins-o la sinucidere și că dânsa era neurastenică.</p>
+               <p>Aceasta de sigur numai d. X aveà in-teres s-o spună.</p>
+               <p>Jeana nu era neurastenică. Era un înger de veselie. Ea nu era tristă decât, când își aducea aminte de casă. Joi, Vineri și Sâmbătă, deșì era zdrobită de chinurile sufletești, totuși a râs destul. Sâmbătă a scris niște formule elenice pe tablă și toată ora de germană, s-a râs de drăciile ei de pe tablă. Era cea dântâi la matematică și prepara realul singură. N-a putut să fie influențată de romanul lui Tolstoi.</p>
+               <p>...Jeana s-a sinucis Sâmbătă, căci în ajun băuse ultimă picătură din paharul, suferințelor. Vineri seara s-a întors târziu cu Abramovici, acasă. In fața colegei, mama șa i-a adresat cuvinte insultătoare, foarte grave. A doua zi Jeana după vor-bele ce le auzise în casă erà descurajată foarte mult. Fetele îngrijate de starea ei, au căutat s-o liniștească. In aceste trei zile din urmă, ea nu mai învăța nimic. S-a certat cu toate profesoarele. Una — nu știu de ce obiect — i-a spus textual:</p>
+               <p>«Dacă ai înebunit, Cristescu, să te duci la alienați». La limba latină și extemporal a tradus 4—5 rânduri și a pus tocul jos. Profesoara observând aceasta a întrebat-o de ce nu scrie. «Nu știu, n-am învățat», răs-punse ea. «Dacă n-ai învățat — ba replicat profesoara — stai acasă, pleacă, acasă, haide! «0! acasă nu mă duc, răspunse Jeana, făcând cu mâna un gest de oroare»</p>
+               <milestone unit="dots"/>
+               <p>«P. S.—Jeana a mers din Schitu Mă-gureanu până la strada Polizu cu auto-mobilul. De aci nu știu cu ce a fost, Jeana umblà întotdeauna în ghete chiar pe ploile cele mai mari, întotdeauna însă erà foarte curată încât fetele foarte mirate, o între-bau: Cristescu, cum nu te murdărești tu?</p>
+               <p>«De, umblu și eu cu băgare de seamă», răspundea dânsa.</p>
+               <p>«De altfel la două lucruri ținea Jeana mult: Ghete curate și buclă la coafură».</p>
+               <p>O COLEGĂ BUNĂ.</p>
+            </quote>
+         </div>
+         <div type="chapter" n="13">
+            <head>Este o sinucidere!</head>
+            <p>Ideea unei sinucideri începuse să se înrădăcineze în public. Lumea oficială și mai ales colegele Jeanei, singurele care erau mai în măsură să o cunoască mai de aproape, afirmau că Jeana s-a sinucis.</p>
+            <p>Cu toate că unele puncte rămăseseră încă nelămurite, sfârșisem prin a mă con-vinge deasemenea că este o sinucidere. Cu toate acestea vroiam să știu și părerea unor persoane mai sus puse și mai com-petinte, atât prin cunoștințele lor cât și prin situațiunea ce ocupau. Eram curios mai ales să cunosc dacă nedumerirea ce rămăsese în sufletul meu, era împărtășită și de alți oameni versați în asemenea în-tâmplări. Am cerut părerea d-lui Emil Petrescu, prefectul poliției Capitalei, care mi-a răspuns textual:</p>
+            <quote type="letter">
+               <p>«Părerea mea este că fata aceasta s-a sinucis. Eu nu văd nici un indiciu care să mă îndreptățească a crede că este o crimă. Pentru a căutà o crimă, trebue sădi: ne întrebăm care ar fi fost mobilul.</p>
+               <p>«Mai întâi nu există de fel timpul ma-terial pentru a se comite o crimă și încă atât de monstruoasă. Apoi toate indiciile pledează pentru o sinucidere. Că s-au găsit</p>
+               <gap n="[editorial]" unit="graphic"/>
+               <p>D. Emil Petrescu prefectul poliției Capitalei.</p>
+               <p>ghetele ei murdare, sau că s-a găsit ro-chia ei intactă, acestea nu sunt motive destul de puternice pentru a hotărî pe -i cineva să se pronunțe, că este o crimă la mijloc. Sunt într-adevăr puncte nu tocmai limpezi, dar totuși ele își pot avea expli-cația lor, dacă se vor cercetà mai de aproape toate împrejurările.</p>
+            </quote>
+            <p>— Atunci părerea d-v. este că sinuci-derea se poate stabilì fără a mai rămâne; nici o îndoială, nici un mister?</p>
+            <p>— Evident că se poate stabilì astfel. Căutându-se împrejurările în care cazul s-a petrecut și motivele cari au deter-minat, este aproape inadmisibil ca să nu se poată găsì și explicația fiecărui amănunt.</p>
+            <p>Acolo unde sunt mai multe puncte că-rora nu li se poate da, la început, o des-lușire naturală, cercetările trebuesc făcute mai cu băgare de seamă și luate în totdeauna de la origină. In cazul de față lucrurile se vor petrece la fel.</p>
+            <p>Nu pot să mă explic cum a luat naș-tere svonul acesta, că e crimă la miiloc.</p>
+            <p>La prefectură am primit o groază de scrisori, mare parte din ele anonime, al-tele iscălite, în cari mi se aduceau la cu-noștință fel de fel de amănunte, asupra acestei întâmplări, mi se atrăgeà atențiu-nea că este o crimă și toți acești cores-pondenți mă rugau să fac lumină- Eu am dat ordin să se cerceteze lucrurile și cu toate că eram convins despre o sinucidere,totuși atunci când s-a relatat întâmplarea tânărului suspect din Chitila, am luat dis-poziția ca acest tânăr să fie urmărit și-adus în București. Ați văzut însă că nu era nimic.</p>
+            <p>«Cine-va într-o zi mă anunță printr-o scrisoare că în curtea unei fabrici dela Chitila s-a găsit pelerina și bereta fetei omorîtă de tren; Am trimes imediat un agent în localitate, dar nu era nimic. Mai dăunăzi un altul, printr-o scrisoare, anunțà că el este în măsură să descopere crima. L-am chemat la mine și a venit. Când l-am întrebat ce știe mi-a răspuns c-am ncurcat că nu știe nimic, dar dacă va cerceta va puteà să descopere adevărul.</p>
+            <p>«Vezi acum cât de repede se alarmează publicul și cât de ușuratec judecă el.</p>
+            <p>Nu contest că modul cum se prezintă această lugrubă descoperire, n-are părți tulburi și aproape stranii. Aceasta, însă, nu înseamnă că numai decât trebue să ne pronunțăm pentru supoziția cea mai grea.</p>
+            <p>«De altfel amănuntele care pledează pentru sinucidere sunt mai numeroase decât indiciile care lasă să bănuiască o crimă și când este vorba să alegem între două rele să preferăm în totdeauna pe cel mai mic».</p>
+            <p>— Dar dumneavoastră cum vă expli-cați dispariția beretei și a pelerinei?</p>
+            <p>— Cum și-a explicat-o toată lumea. Au fost furate de către cine-va care a trecut în acea zi pe acolo și în urmă de frică să nu fie bănuit, le-a ascuns sau le-a distrus.</p>
+            <p>«Este o sinucidere — conchise d. Emil Petrescu, și acest lucru se poate spune că este stabilit. Cât privește căușele acestei sinucideri această este cu totul altceva. Cele câteva puncte nelămurite, vor fi și ele deslușite, dar crimă nu poate fi în tot casul!»</p>
+            <p>Așa dar, prefectul, avea aceeași părere pe care o avea multă lume.</p>
+            <p>Judecând prin urmare, după cele afirmate de colegile Jeanei, după cele susținute de autorități și după explicațiile științifice date de medicii legiști, am putut trage conclusia că nefericita Jeana s-a sinucis.</p>
+            <p>Dar în cazul acesta, mă gândeam ce a putut determina pe Jana, să-și pună capăt zilelor, la o vârstă atât de fragedă, când setea de viață este mai mult ca ori când desvoltată la om?</p>
+            <p>Înconjurată de iubirea sinceră a cole-gelor și profesoarelor ei, cu cultura ei aleasă, cu inteligența-i sclipitoare, ce a făcut-o pe Jeana Cristescu, să se gân-dească la moarte? Cu calitățile Jeanei și la vârsta ei, cari pot fi motivele puter-nice cari au putut-o îndemnà la o ase-mene hotărîre?</p>
+            <p>Dragostea? Boala? Nemulțumirea su-fletească? Persecuția? Sdruncinarea mo-rală?</p>
+            <p>Să analisăm ultimele acțiuni ale vieței sale: ultimele ei fapte; să coordonăm cele întâmplate cu puțin înnaintea sinuciderei fetei cu resultatul material al cercetărilor făcute după descoperirea cadavrului ei și să tragem concluzia logică și firească ale acestei sinucideri.</p>
+            <p>Ca să putem ajunge la o concluzie logică conduși totdeodată și de probele materiale culese în această direcțiune, trebuia mai întâi să studiem firea și gradul de cultură, al aceleia a cărei tragică dispariție dintre cei vii, preocupă atât, o întreagă lume.</p>
+            <p>Jana Cristescu, erà de o inteligență sclipitoare. În școală erà considerată ca una dintre elevele eminente. Eră silitoare, ascultătoare și de o castitate cum rar se întâmplă. Directoarea sa precum și profesoarele nu aveau nimic să-i impute, ca purtare și silință. De colegele ei erà iubită de asemenea, de toate, astfel că viață în școală îi se trecea lină și fericită, O probă de simpatia de care se bucura printre colegele ei, este grozava conster-nare pe care a produs-o asupra lor, moartea ei tragică.</p>
+            <p>Toate cuvintele adresate memoriei ti-nerei fete, au fost duioase, de adâncă compătimire și de sinceră iubire.</p>
+            <p>Dacă aș adminte, îmi spuneam, că Jana Cristescu iubea, atunci se poate ușor susține că sinuciderea ei se datorește unei dra-goste nefericite.</p>
+            <p>În această direcțiune de idei am făcutr întinse cercetări, care însă au dat rezultat negativ. Jana erà de o fire liniștită, mai mult sfioasă și foarte serioasă. Colegele ei nu-și amintesc ca vreo dată să le fi destăinuit vre-o înclinațiunè a inimei sale; n-au văzut-o niciodată împreună cu vreun tânăr, și se arăta chiar foarte rezervată și față de frații celor mai bune colege ale ei, ale căror case frecventa. Or, o tânără fată de vârsta Jeanei și bucurân-du-se de amice sincere, când are o încli-națiune de inimă, oricât de stăpână ar fi pe dânsa și ori cât ar vroi să păstreze misterul, tot se divulgă, tot sunt momente când se ambalează, când se spovedește.</p>
+            <p>Apoi mai este și o altă dovadă că Jeana nu avea nici o slăbiciune de inimă. Este dovada că Jeana nu a trimis și nu a primit, nici acasă, nici la vre-o coleagă a ei, niciodată, vre-o-scrisoare, vre-o ilustrată din partea cuiva, care să-i fi vorbit de vre-o dragoste împărtășită. Jeana prin ur-mare, nu iubise încă. Dar atunci care să fie cauza?</p>
+            <p>Am spus că nu trupul ei era bolnav, ci sufletul, acel suflet nobil și ales, care erà sfâșiat de suferințe grozave, de dureri mari.</p>
+            <p>Acela care cunoaște ce înseamnă pentru o conștiință integră, pentru un suflet ales și desăvârșit, pentru o inimă nepri-hănită, rănile acestea sufletești, provocate de mari decepțiuni morale, numai acela își poate imaginà cât a suferit nefericita copilă și cum' era fatal, ca în cele din urmă să se umple paharul răbdărei.</p>
+            <p>Nemulțumirile sufletești?</p>
+            <p>Dar Jeana le-a avut cu prisosință. Mai întâi situația ei delicată în societate, în lume, față de colegele ei, care-i cunoșteau origina.</p>
+            <p>Fiică naturală, copilă nerecunoscută din părinți bine cunoscuți, dânsa se simțeà jenată în societate fiind lipsită de tot ce are ordinea și conveniența socială mai scump. Odată cu creșterea inteligenței și desvoltarea culturei Jeanei, rana aceasta sufletească, se măreà, cuprinzându-i su-fletul întreg.</p>
+            <p>Câtă, vreme trăise acela pe care dânsa îl cunoscuse ca pe un tată, speranța încă mai înflorea în sufletul ei rănit. Când însă el sfârși atât de brusc, se stinse și ultima rază de speranță în inima nefericitei Jeana.</p>
+            <p>De atunci încolo, tânăra fată se simțea singură și străină, într-o lume care n-o înțelegea, expusă mai mult la batjocura semenilor și a acelor din jurul ei.</p>
+            <p>De o fire foarte sensibilă, Jeana găsi cu cale că o viață comună cu ai săi este imposibilă.</p>
+            <p>Cu educația aleasă pe care o primea în școală și cu natura ei nobilă, dânsa erà veșnic lovită de contrastul izbitor pe care îl înfățișa viața trăită în afară din școală.</p>
+            <p>Aversiunea ei de casă, teama și groaza ce o exprima colegeler ei de câte ori vorbea de anumite persoane, toate acestea dove-desc cu prisos sbuciumările ei sufletești.</p>
+            <p>Cu două zile înainte de a se întâmpla sinuciderea, după cum m-a asigurat un domn judecător de instrucție, Jeana s-a dus la o colegă’ a ei și, plângând s-a rugat să o primească la dânsa în noaptea aceea.</p>
+            <p>— Dacă tu nu mă primești, adăogă nefericita fată, să știi că eu voi dormì pe stradă»,</p>
+            <p>Declarațiile făcute de o colegă a Jeanei că dânsa în ziua sinuciderei, s-a invitat a dejun singură, și că în tot timpul mesei erà deprimată, este o nouă dovadă că Jeana se simțea stingheră în lumea acesta.</p>
+            <p>Faptul iarăși că dânsa nu a lăsat mamei sale nici o scrisoare, nu a lăsat nimănui nici un rând, dovedește și mai mult aceasta.</p>
+            <p>Dacă Jeana ar fi trăit 'într-altă lume, mai ideală, așa cum erà sufletul și aspi-rațiunile ei, de sigur că nu ar fi gândit la sinucidere.</p>
+            <p>Din toate acestea m-am convins că-adevărata cauză a sinuciderei tinerei fete trebuește căutată numai în mijlocul vieței prozaice pe care a trăit-o, plină de amără-ciuni și decepții, care nu se împăca de fel cu această natură delicată și sensibilă.</p>
+         </div>
+         <div type="chapter" n="14">
+            <head>Mormântul ei!</head>
+            <p>Găsesc mai nemerit să închei această broșură cu un crămpeiu extras dintr-o scri-soare ce mi-a fost trimisă de o colegă a nefericitei copile. Cititorul va puteà judecà din cele câteva rânduri dacă Jeana a făcut s-au nu bine, plecând din lumea aceasta.</p>
+            <milestone unit="dots"/>
+            <quote type=" letter">
+               <p>«Eri am fost la cimintir, la mormântul Jeanei. — spune scrisoarea, — 0! vă asigur! o adevărată jale mi-a coprins inima când am văzut că pe mormântul acestei martire, nu se aflà nici o floare, nici o verdeață.</p>
+               <gap n="[editorial]" unit="graphic"/>
+               <p>Mormântul Janei Cristescu</p>
+               <p>Nici o mână dragă nu s-a găsit pentru nefericita copilă, care să-i îngrijească ultimul lăcaș, care să-i așeze o candelă — simbolul dragostei și al ve-gherei — la căpătâiul crucei modeste de lemn, ce se pierde fn mulțimea vecinilor necunoscuți, din valea Plângerei.</p>
+               <p>Mă gândeam la sgomotul în oraș și la interesul ce se poartă numelui ei, la tăcerea și disprețul mormântului ei!</p>
+               <p>Nici miile de admiratori și de compă-timitori ai Jeanei, nici colegele și amicile ei, dar nici mama sau acel domn X, nu s-au interesat să-i arunce peste mormântul ei, o floare de regret; atât au iubit-o!</p>
+               <milestone unit="dots"/>
+               <p>«Dânsa s-a sinucis pentrucă o altă scă-pare nu avea!</p>
+               <p>Între o viață moartă și rușinoasă a pre-ferat o moarte crudă dar cinstită. «Da, Jeana este o martiră. Dânsa trebue să devie simbolul -castităței și al cinstei!»</p>
+            </quote>
+            <p>Așa sfârșește scrisoarea.</p>
+            <p>Precum se vede Jeana Cristescu a lăsat în inimile tuturora o adâncă compătimire tocmai pentru că și-a păstrat curățenià su-fletească, iar aceasta nu ar fi fost cu pu-tință dacă n-ar fi găsit în școală o atmosferă mai curată decât în familia ei. Dânsa n-ar fi ajuns la desnădăjduire, dacă și-ar fi pe-trecut viața internată în școală, în care se bucurà de mai multă iubire și de o mai bună purtare de grijă decât în familia ei.</p>
+            <p>Moartea ei e dar nu numai pentru pă-rinții ce-și iubesc copiii, ci pentru toți cei ce privesc în viitor, un avertisment înspăimântător, căci sunt foarte mulți tinerii și încă mai multe fetele, care-și pierd iluziunile după ce, eșind din școala cunosc viața mai de aproape. Tocmai de aceea nu putem stărui îndeajuns să se facă lumină deplină asupra acestei întâm-plări misterioase, și, în fiecare zi trebue să punem întrebarea: Ce e de făcut, că asemenea lucruri ori altele încă mai rele să nu se întâmple?</p>
+            <p>E mai presus de toată îndoiala, că ne-norocita copilă a rugat pe unà dintre co-legile ei s-o primească la dânsa în aceea noapte fatală, pe care nu vroia s-o pe-treacă la mama ei. Nu erà deci hotărîtă să-și curme firul vieții și ar fi scăpat, dacă și-ar fi găsit unde-va adăpostul.</p>
+            <p>Am stăruit deci asupra acestei neno-rociri pentru ca să pătrunză în inimi din ce în ce mai mult simțimântul, că socie-tatea e interesată să ia sub ocrotirea ei pe copii nenorociți, să-i mângâie, să ì ajute, să-i încurajeze și să-i ferească d rele...</p>
+            <gap n="[editorial]" unit="graphic"/>
+            <p>D. Ionescu-Dolj, energicul judecător de instrucție de la cabinetul II (Ilfov) căruia îi s-a încredințat greaua sar-cină, pentru a descoperi adevărul în jurul morței Jeane Cristescu.</p>
+            <milestone unit="line"/>
+         </div>
+      </body>
+   </text>
 </TEI>

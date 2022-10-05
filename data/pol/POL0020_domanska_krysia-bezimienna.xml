@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0020">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">34310</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Krysia bezimienna</title>
 <ref>http://wolnelektury.pl/katalog/lektura/krysia-bezimienna</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Krysia bezimienna</title>
 <author>Domańska, Antonina</author>
 <publisher>Poznań: Drukarnia i Księgarnia Św. Wojciecha</publisher>
 <date>1914</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,7 +59,6 @@
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>Rozdział I</head>
 <quote>
 <p>List królewny Anny Jagiellonki
@@ -598,8 +602,7 @@ królewnie.</p>
 <p>— Onegdaj, siódmego lipca, o godzinie szóstej wieczorem
 życie zakończył.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział II</head>
 <p>Mijały dni, miesiące, królewna Anna przenosiła się ze swymi
 w coraz to inne strony, uciekając przed zarazą. Nareszcie zamieszkała w Łomży.</p>
@@ -1067,8 +1070,7 @@ do kościoła i zapadł się wraz z koniem do ziemi. Wojewoda
 krakowski i marszałek wielki koronny Jan Firlej złamał o ziemię laskę marszałkowską, a kanclerz Dębiński skruszył pieczęcie.</p>
 <p>Po tych ceremoniach spuszczono trumnę do grobu i ustawiono po lewicy ojca.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział III</head>
 <p>Anna Jagiellonka zamieszkała w zamku, w komnatach śp.
 królowej Elżbiety, jak sobie tego życzyła. Podstoli Kroczewski,
@@ -1610,8 +1612,7 @@ Dwudziestotrzyletni król tańczył do upadłego przez całą noc.
 A że i miodem polskim nie pomiatało gardło francuskie, tedy
 nad ranem… nie konno, a w lektyce najjaśniejszy pan powrócił na zamek.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IV</head>
 <p>Przez osiem dni po koronacji odbywały się na podwórzu zamkowym gonitwy do pierścienia, turnieje, zapasy konnych i pieszych, słowem, przeróżne rycerskie igraszki. Przeciwnicy
 rozpoczynając potykanie przepraszali się wzajem, bo nieraz
@@ -1954,8 +1955,7 @@ koronę bezcześcić.</p>
 <p>— Utarzał w błocie świętość majestatu! — pochylając siwą
 głowę szeptał Dębiński.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>Nastało bezkrólewie. Rada Koronna wysłała poselstwo do
 króla Henryka, wzywając go do powrotu albo żądając stanowczej odpowiedzi, że się zrzeka tronu. Ani wracał, ani
@@ -2440,8 +2440,7 @@ jest i jasna: przyjmuję koronę, będę waszym królem. Całą
 duszą, wszystkimi siłami pracować chcę dla dobra ojczyzny
 waszej, którą od dzisiejszego dnia za macierz rodzoną obieram i jako macierz miłować będę, tak mi Panie Boże dopomóż.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VI</head>
 <p>Z przyjazdem Stefana Batorego do Polski uspokajały się
 i cichły zatargi stronnictw, a po jego ślubie z Anną Jagiellonką i koronacji obojga królestwa wszystkie stany i wszystkie
@@ -2895,8 +2894,7 @@ Krysiu, dziś pozwalam przywitać pana Andrzeja.</p>
 <p>— Waszmość co dzień… wszak na wojnie mogą zabić, zastrzelić, zarąbać, wojna taka straszna…</p>
 <p>— Wrócę zdrów, niech panna Krystyna będzie spokojna — zerknął na bok, miłościwa pani czytała list pilnie. — W złotogłów cię oblokę, diamentami obsypię… umiłowanie moje!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VII</head>
 <p>Po wyjściu za mąż Kachny Leszczyńskiej, podrastająca Krysia zajęła jej miejsce. Wprawdzie Marysia Krupska zawsze była niezbędna i najpotrzebniejsza we wszelkiej pokojowej usłudze i przy ubieraniu miłościwej pani, ale znowu żadna z dworek nie czytała tak pięknie ani też śpiewać przy lutni nie
 umiała tak wdzięcznym głosem jak Krysia.</p>
@@ -3418,7 +3416,6 @@ Kośmin… jedyny dzie…</p>
 królowej odbyły się zrękowiny szlachetnie urodzonego kawalera imci pana Andrzeja Chwaliboga, towarzysza chorągwi
 usarskiej wojewody podolskiego, z szlachetnie urodzoną imci
 panną Krystyną Płońską, wychowanicą najjaśniejszej pani.</p>
-</div>
 </div>
 </body>
 </text>

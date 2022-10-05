@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1003" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1003" xml:lang="es">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -19,10 +22,10 @@
 			</extent>
 			<publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -49,7 +52,7 @@
 		</encodingDesc>
 		<profileDesc>
 		<langUsage>
-			<language ident="spa" usage="99">Español</language>
+			<language ident="SPA">Español</language>
 		</langUsage>
 	<textDesc>
 		<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
@@ -59,6 +62,7 @@
 	</textDesc>
 		</profileDesc>
 	<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 		<change when="2020-01-09">Anotación formato ELTeC y revisión del texto: Marta Cabrera Iniesta</change>
 		<change when="2020-01-31">Revisión formato ELTeC y cambios menores: Borja Navarro Colorado</change>
@@ -3036,9 +3040,7 @@ maestres que les dieron el ejemplo.
 consagración, pronunció en voz alta y con una entonación lenta y
 solemne las cinco palabras sagradas: 
 
-      <foreign xml:lang="la">
-       Hoc est enim corpus meum
-      </foreign>
+      <foreign xml:lang="LAT">Hoc est enim corpus meum</foreign>
       , y elevando
 la hostia para que la adorasen, la tuvo levantada un corto espacio,
 durante el cual todas aquellas soberbias cabezas humildemente se
@@ -25046,10 +25048,7 @@ y que ceder a ese triple influjo D. Pedro Tenorio, el duque de
 Benavente y todo su bando, aceptando a D. Alfonso por tutor y
 regente 
 
-      <foreign xml:lang="la">
-       sub conditione
-      </foreign>
-      , como dice el arcediano
+      <foreign xml:lang="LAT">sub conditione</foreign>, como dice el arcediano
 de Santa Leocadia, de gobernar cinco cada seis meses.
      </p>
      

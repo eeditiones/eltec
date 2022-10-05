@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0072">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">210389</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Rodzina Połanieckich</title>
 <ref>https://polona.pl/item/rodzina-polanieckich-powiesc-t-1,ODk3NTMxMDQ/6/#info:metadata</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Rodzina Połanieckich</title>
 <author>Sienkiewicz, Henryk</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1895</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,10 +59,7 @@
 </div>
 </front>
 <body>
-<div>
-<p>Tom I</p>
-</div>
-<div>
+<div type="group"><head>Tom I</head>
 <div type="chapter"><head>I</head>
 <p>Była godzina pierwsza po północy, gdy Połaniecki zbliżał się do dworu w Krzemieniu. Za swoich dziecinnych lat był on dwukrotnie w tej wsi, dokąd jego matka, daleka krewna pierwszej żony dzisiejszego właściciela Krzemienia, woziła go na wakacye. Połaniecki usiłował teraz przypomnieć sobie tę miejscowość, ale przychodziło mu to z trudnością. Po nocy, przy księżycu, wszystko brało kształty odmienne. Nad zaroślami, łąkami i grudzią leżał nizko biały tuman, zmieniając całą okolicę w bezbrzeżne jezioro, które to złudzenie powiększały jeszcze odzywające się w tumanie chóry żab. Noc była lipcowa, bardzo pogodna i oświecona pełnią. Chwilami, gdy żaby milkły, słychać było derkacze, grające po rosie, a czasem z daleka, od błotnistych stawów, ukrytych za olszynami, odzywał się, jakby z pod ziemi, głos bąka.</p>
 <p>Połaniecki nie mógł się oprzeć urokowi tej nocy. Była mu ona jakaś swoja i tę swojskość odczuwał tem lepiej, że dawniej nieczęsto bywał w kraju, a dopiero przed dwoma laty powrócił na stałe z za granicy, gdzie spędził pierwszą młodość, a później zajmował się sprawami handlowemi. Teraz, gdy wjeżdżał do tej śpiącej wioski, przypomniało mu się także własne dzieciństwo, pamiętne ze względu na matkę, która od pięciu lat nie żyła, i dlatego, że przykrości i troski tego dzieciństwa, w porównaniu do dzisiejszych, wydawały się zupełnie błahe.</p>
@@ -111,8 +113,7 @@
 <p>Połaniecki nie był ani mizantropem, ani też człowiekiem, wygłaszającym przeciwne małżeństwu teorye. Przeciwnie: chciał się ożenić i był przekonany, że powinien to uczynić. Czuł, że przyszedł na niego czas, więc szukał naokół siebie kobiety. Z tego wypływało to ogromne zajęcie, jakie budziły w nim kobiety, a zwłaszcza panny. Jakkolwiek spędził kilka lat we Francyi i w Belgii, nie szukał miłości u mężatek, chyba u nazbyt łatwych. Był to człowiek żywy i czynny, który utrzymywał, że romansować z mężatkami mogą tylko próżniacy, i że wogóle obleganie cudzych żon jest możliwe tam, gdzie ludzie mają bardzo wiele pieniędzy, mało uczciwości, a nic do roboty, zatem w społeczeństwach, gdzie istnieje cała klasa od dawna zbogacona i pogrążona w wytwornej bezczynności towarzyskiego a zarazem i szelmowskiego życia. On sam był istotnie bardzo zajęty, że zaś kochać chciał po to, by się ożenić, więc tylko panny budziły w nim zarówno psychiczne, jak i fizyczne zaciekawienie. Gdy spotykał jaką na swej drodze, przedewszystkiem i od pierwszej chwili zadawał sobie pytanie: „Czyby nie ta?” — albo przynajmniej: „Czyby nie taka?” Obecnie myśli jego kręciły się w podobny sposób koło panny Pławickiej. Poprzednio słyszał o niej wiele od jej krewnej, zamieszkałej w Warszawie — i słyszał rzeczy dobre, a nawet wzruszające. Obecnie jej cicha, łagodna twarz stawała mu przed oczyma. Przypomniał sobie jej ręce, bardzo ładne, o długich palcach, choć nieco opalone; jej ciemno-niebieskie oczy, oraz małe, czarne znamię, które miała nad ustami. Podobał mu się także jej głos. Przytem, jakkolwiek powtarzał sobie przyrzeczenie, że nie poczyni żadnych ustępstw i musi swoje odebrać, jednakże zły był na los, który przyprowadził go do Krzemienia, jako wierzyciela. Mówiąc do siebie językiem kupieckim, powtarzał w duchu: gatunek jest dobry — ale nie będę „reflektował” — bom nie po to przyjechał.</p>
 <p>Jednakże „reflektował” i to tak dalece, że rozebrawszy się i położywszy, długi czas nie mógł zasnąć. Koguty poczęły piać, szyby blednieć i zielenieć, on zaś widział jeszcze pod zamkniętemi powiekami pogodne czoło panny Pławickiej, jej znamię nad ustami i ręce, nalewające herbatę. Potem, gdy już sen począł go morzyć, zdawało mu się, że trzyma te ręce w swoich i przyciąga je ku sobie. Nazajutrz zbudził się późno i, przypomniawszy sobie pannę Pławicką, pomyślał: „Aha! to ona tak wygląda!”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Właściwie zbudził go chłopak, który przyniósł mu kawę i wziął do czyszczenia rzeczy. Gdy z niemi powrócił, Połaniecki spytał go, czy niema w domu zwyczaju schodzić się w jadalnym pokoju na śniadanie.</p>
 <p>— Nie — odpowiedział chłopak — bo panienka rano wstaje, a starszy pan śpi do późna.</p>
@@ -455,8 +456,7 @@
 <p>Połaniecki zaś mówił sobie, zapalając w łóżku papierosa:</p>
 <p>— Dobre to, śliczne, miłe — gdzie taka druga?</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Lecz nazajutrz był szary dzień i panna Pławicka obudziła się z wyrzutami. Zdawało jej się, że wczoraj dała się unieść jakiemuś prądowi dalej, niż należało i że wprost była z Połanieckim kokietką. Przejmowało ją to szczególnym niesmakiem z tego głównie powodu, że jednak ów Połaniecki przyjechał jako wierzyciel. Wczoraj o tem zapomniała, dziś zaś mówiła sobie: „Niechybnie przyjdzie mu do głowy, żem go chciała ująć lub ułagodzić” — i na tę myśl krew napłynęła jej do policzków i czoła. Miała ona naturę prawą i wiele ambicyi, która wzburzała się na każde przypuszczenie, że może być posądzoną o wyrachowanie. Teraz, uwierzywszy w możliwość takiego posądzenia, uczuła z góry jakby urazę do Połanieckiego. Jedna jeszcze przytem myśl była nad wszelki wyraz przykrą: oto wiedziała, że wogóle w kasie krzemienieckiej grosz nie może grosza dogonić, że pieniędzy niema, i że, jeżeli, wskutek zamierzonej parcelacyi Magierówki, były na nie w przyszłości widoki, to ojciec będzie się wykręcał, gdyż inne długi uważa za pilniejsze od długu Połanieckiego. Obiecywała sobie wprawdzie, że zrobi wszystko, co będzie w jej mocy, by Połaniecki został koniecznie i przed innymi spłacony, ale wiedziała, że niewiele może wskórać. Ojciec wyręczał się nią chętnie w gospodarstwie, ale w sprawach pieniężnych rządził się sam i rzadko kiedy słuchał jej zdania. Rola jego pod tym względem polegała wprawdzie na wykręcaniu się wszystkim ze wszystkiego, na obietnicach nigdy niedotrzymywanych, na zwłokach i na przedstawianiu urojonych obliczeń i nadziei za rzeczywistość. Ponieważ dochodzenia wierzytelności, opartych na hipotekach ziemskich, same przez się są trudne i powolne, a obrona daje się przedłużać niemal dowolnie, przeto pan Pławicki trzymał się istotnie przy Krzemieniu dzięki swemu systemowi. W końcu groziło to wszystko równie nieubłaganą, jak zupełną ruiną, tymczasem jednak stary człowiek uważał się za „głowę od interesów” i tem niechętniej słuchał zdań i rad córki, że zaraz posądzał ją, iż wątpi o jego „głowie” — to zaś obrażało w najwyższym stopniu jego miłość własną.</p>
 <p>Panna Marynia przeszła już z powodu tej „głowy” i jej sposobów przez niejedno upokorzenie. Życie jej wiejskie było tylko pozorną sielanką pracy i gospodarskich zajęć. Nie brakło w niem ani przykrości, ani bolów, i jej spokojna twarz mogła oznaczać nietylko słodycz charakteru, ale i jego siłę, a przytem wielkie wyrobienie duchowe. Lecz upokorzenie, które groziło teraz, wydało się jej trudniejsze do zniesienia od innych.</p>
@@ -579,8 +579,7 @@
 <p>Połaniecki miał w tej chwili w duszy to samo i przekonanie i poczucie. Pogrążywszy się więc w milczeniu, zaczął na nowo rozmyślać o Maryni, a raczej przypominać ją sobie i wyobrażać. Nagle wydało mu się nawet, że będzie bez niej tęsknił; ale przypomniał sobie także, że podobne rzeczy nieraz już mu się wydawały, a potem czas rozwiewał te złudzenia. Jednakże myślał o niej jeszcze nawet i wówczas, gdy zbliżali się już do miasta, i wysiadając w Warszawie, mruczał przez zęby:</p>
 <p>— Jak się to głupio stało! jak głupio!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Po powrocie do Warszawy, pierwszy wieczór spędził Połaniecki w domu swego wspólnika Bigiela, z którym, jako z dawnym kolegą szkolnym, łączyła go i osobista zażyłość. Bigiel, z pochodzenia Czech, ale z rodziny, osiadłej w kraju od kilku pokoleń, prowadził już przed połączeniem się z Połanieckim niewielki dom bankowo-handlowy i zyskał sobie opinię kupca, niezbyt wprawdzie przedsiębiorczego, ale uczciwego i nadzwyczaj pewnego w stosunkach. Gdy Połaniecki jeszcze przed ostatecznym powrotem z zagranicy wszedł w spółkę, dom rozszerzył znacznie swą działalność i stał się poważną firmą. Wspólnicy dopełniali się doskonale. Połaniecki, nierównie zdolniejszy i bardziej rzutki, miał więcej pomysłów i ogarniał łatwiej całość każdej sprawy, natomiast Bigiel pilnował lepiej jej wykonania. Gdy chodziło o to, by okazać energię, lub przycisnąć kogoś do muru, tam Połaniecki był jedyny; natomiast gdy szło o rozmysł, o obejrzenie interesu z dziesięciu stron i o cierpliwość, tam zaczynała się rola Bigiela. Usposobieniem byli sobie wręcz przeciwni i może dlatego mieli dla się wzajemnie szczerą przyjaźń. Przewaga w stosunku była po stronie Połanieckiego. Bigiel wierzył w jego niepospolite zdolności, a kilka pomysłów, istotnie bardzo dla domu szczęśliwych, jakie dał Połaniecki od czasu wejścia w spółkę, utwierdziły tę wiarę. Marzeniem obydwóch było dojść z czasem do takiego kapitału, by módz założyć fabrykę perkalów, którą kierowałby Połaniecki, administrował Bigiel. Ale, jakkolwiek obaj mogli się już liczyć do ludzi niemal zamożnych, była to odległa przyszłość. Mniej cierpliwy, a bardzo na wszystkie strony spokrewniony Połaniecki, próbował wprawdzie zaraz po przyjeździe do kraju poruszyć w tym celu miejscowe, tak zwane „swojskie” kapitały. Ale spotkała go ogólna nieufność. Zauważył przytem rzecz dziwną. Oto jego nazwisko otwierało mu wszystkie drzwi, ale raczej szkodziło, niż pomagało mu w interesie. Zdawać się mogło, że tym ludziom, do których się zgłaszał, nie mieściło się w głowie, jakim sposobem jeden z nich, zatem człowiek z dobrego domu i z nazwiskiem kończącym się na <emph>ski</emph>, może dobrze prowadzić jakikolwiek interes. Połanieckiego złościło to z początku tak, że roztropny Bigiel musiał gasić jego wybryki za pomocą przedstawień, iż podobna nieufność jest istotnie opartą na latach smutnych doświadczeń. I, znając dobrze historyę rozmaitych przedsiębiorstw handlowo-przemysłowych, cytował mu cały szereg nazwisk, począwszy od pana podskarbiego Tyzenhauza, a skończywszy na rozmaitych bankach włościańskich i Tellusach, które, prócz nazwy, nie miały w sobie nic ziemskiego, czyli, inaczej mówiąc, pozbawione były wszelkich realnych podstaw. — „Czas jeszcze nie przyszedł — mówił Bigiel — ale czas przyjdzie, a raczej już nadchodzi. Do tej pory było tylko amatorstwo i dyletantyzm, teraz dopiero zjawiają się tu i owdzie ludzie fachowi.”</p>
 <p>Połaniecki, który mimo swego temperamentu, miał zmysł spostrzegawczy dość rozwinięty, poczynił przytem rozmaite dziwne odkrycia w tych sferach, do których jego stosunki otwierały mu przystęp. Oto spotykało go ogólne uznanie za to, że coś robił. Podnoszono to nawet z naciskiem, ale było w tem uznaniu jeszcze jakby pewne pobłażanie. Każdy dawał zanadto do poznania, że się na to zgadza, że uważa to za potrzebne, nikt zaś nie zachował się tak, jakby fakt, iż Połaniecki czemś się zajmuje, uważał za rzecz zupełnie zwykłą i naturalną. „Oni mnie wszyscy <emph>protegują!</emph>” — mówił Połaniecki — i to była prawda. Doszedł też do przekonania, że gdyby naprzykład chciał sięgnąć po rękę którejś z panien z tak zwanego „towarzystwa” — to jego dom bankowo-handlowy i nazwa „aferzysty” byłyby mu mimo owego uznania, raczej przeszkodą niż pomocą. Prędzejby mu oddano każdą z tych dziewczyn, gdyby, zamiast zyskownego przedsiębiorstwa, miał jaki obdłużony majątek, lub gdyby, żyjąc jak wielki pan, zjadał po prostu procenta od kapitału, albo nawet i sam kapitał.</p>
@@ -679,8 +678,7 @@
 <p>— Do głowy mi nie przyszło, że można się zakochać w pani Emilii. Dziękuję ci za ideę!</p>
 <p>— Biada wam obojgu! — odrzekł Bukacki, wykałając dalej zęby.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Nazajutrz, po wczesnym obiedzie u Bigielów, Połaniecki udał się o oznaczonej godzinie do Maszki. Czekano tam na niego widocznie, bo w gabinecie zastał wykwintną zastawę do czarnej kawy i kieliszki do likierów. Sam Maszko nie ukazał się jednak zaraz, gdyż, jak mówił służący, przyjmował jakieś panie. Jakoż przeze drzwi dochodził z salonu jego głos i słowa kobiece. Połaniecki począł się przypatrywać tymczasem przodkom Maszki, których kilka portretów wisiało na ścianach i o których autentyczności powątpiewali przyjaciele młodego adwokata. Zwłaszcza pewien zezowaty infułat dostarczał Bukackiemu przedmiotu do konceptów, ale Maszko nie zrażał się tem. Postanowił on narzucić, bądźcobądź, światu siebie, swoich przodków, swoją genialność do interesów, wiedząc, że w tem społeczeństwie, w którem żył, będą sobie ludzie z tego podrwiwali, ale nikt nie zdobędzie się na energię, by wystąpić czynnie przeciw tym pretensyom. Posiadając sam energię i zuchwałość bez granic, a oprócz tego rzeczywisty spryt do interesów, postanowił wybić się w górę za pomocą tych środków. Ludzie, którzy go nie lubili, nazywali go bezczelnym i był on nim istotnie, ale był z rozmysłu. Pochodząc z rodziny, wątpliwie nawet szlacheckiej, traktował ludzi, niewątpliwie pochodzących ze starych rodów, jakby był bez porównania lepiej od nich urodzonym, ludzi niewątpliwie bogatych, jakby był od nich bogatszym — i udawało mu się — i owa taktyka robiła swoje. Pilnował się tylko, by nie popaść w zupełną śmieszność, ale granice w takiem postępowaniu wyznaczył sobie nadzwyczaj szerokie. Ostatecznie doszedł do tego, do czego chciał: był przyjmowany wszędzie i wyrobił sobie duży kredyt. Niektóre obroty przynosiły mu rzeczywiście spore zyski, ale pieniędzy nie zbierał. Uważał, że na to czas nie przyszedł i że musi jeszcze wkładać w przyszłość, chcąc, by mu się wypłaciła tak, jak od niej żądał. Pieniędzy wprawdzie nie trwonił i nie zbytkował, sądząc, że w ten sposób wchodzą w świat parweniusze — ale gdzie trzeba było, okazywał się, według własnego wyrażenia, „solidnie hojnym”. Uchodził też za człowieka nader gładkiego w interesach i nadewszystko słownego.</p>
 <p>Słowność jego oparta była wprawdzie na kredycie, ale też i podtrzymywała go w wysokim stopniu, co znów pozwoliło mu robić obroty istotnie wielkie. Nie cofał się zaś przed byle czem. Posiadał, prócz odwagi i pewnego zapędu, wyłączającego długie rozmysły, jeszcze i wiarę w swe szczęście. Powodzenia wzmocniły tę wiarę. Nie wiedział wprawdzie nigdy sam, ile ma majątku, ale obracał dużymi pieniędzmi i ludzie mieli go za bogatego.</p>
@@ -723,8 +721,7 @@
 <p>— A pan?</p>
 <p>— A ja jadę tymczasem do Reichenhall.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>I rzeczywiście, w tydzień później wyjechał do Reichenhallu, ale przedtem jeszcze otrzymał list pani Emilii, wypytujący go o wyprawę do Krzemienia. Na list ów nie odpisał, mając zamiar ustnie nań odpowiedzieć. Dowiedział się również, ale dopiero w wigilię wyjazdu, iż Maszko poprzedniego dnia wyjechał do Krzemienia, i wiadomość ta obeszła go więcej, niż się spodziewał. Mówił sobie wprawdzie, że nie dalej, jak w Wiedniu, już o tem zapomni, ale zapomnieć nie mógł i głowę miał tak zajętą myślą o tem, czy panna Pławicka wyjdzie za Maszkę, że z Salzburga napisał list do Bigiela, niby w interesach, ale właściwie żądający przysłania mu wiadomości o Maszce. Słuchał też piąte przez dziesiąte rozpraw towarzyszącego mu Waskowskiego o wzajemnym stosunku do siebie ludów austryackich i o misyi narodów nowożytnych w ogólności. Nieraz tak był zajęty myśleniem o Maryni, że wprost nie odpowiadał na pytanie. Dziwiło go też, że chwilami widzi ją tak wyraźnie, jakby przed nim stała, więc nietylko jako dokładny obraz, ale jako żywą istotę. Widział jej miłą, łagodną twarz ze ślicznemi ustami i z maleńkiem znamieniem nad górną wargą, jej oczy, patrzące spokojnie, w których widać było skupienie i uwagę, z jaką słuchała jego słów; widział całą jej postać, wysmukłą, giętką, od której biło ciepło wielkiej, a zarazem niezmiernie dziewiczej młodości. Przypomniał sobie jej jasną suknię i końce stóp, wyglądające z pod jej sukni, i delikatne, lubo nieco opalone, ręce, i ciemne włosy, poruszane powiewem w ogrodzie. Nigdy nie spodziewał się, żeby mogła istnieć pamięć tak niemal dotykalna — i to pamięć osoby, widzianej przez czas tak krótki. Rozumiał jednak, że to jest dowód, jak głębokie naprawdę zrobiła ona na nim wrażenie, i gdy chwilami przechodziło mu przez głowę, że to wszystko, co się tak wycisnęło w jego pamięci, może posiąść Maszko, prawie nie chciało mu się w to wierzyć. Pierwszym jego porywem w takich chwilach, zresztą zgodnym z jego czynną naturą, była niepowstrzymana chęć, żeby temu przeszkodzić. Musiał sobie dopiero przypominać, że to jest sprawa już w jego woli rozstrzygnięta, i że postanowił sobie zaniechać panny Pławickiej.</p>
 <p>Obaj z Waskowskim dojechali do Reichenhallu wczesnym rankiem i zaraz pierwszego dnia, zanim dowiedzieli się o adresie pani Emilii, spotkali ją wraz z Litką w parku miejscowym. Pani Chwastowska, która nie spodziewała się ich, a przynajmniej nie Połanieckiego, ucieszyła się na ich widok szczerze. Radość jej została tylko przyćmiona tem, że Litka, dziecko wyjątkowo wrażliwe, a przytem chore na astmę i na serce, ucieszyła się jeszcze bardziej, tak nawet bardzo, że dostała silnego bicia serca w połączeniu z dusznością i niemal omdleniem.</p>
@@ -849,8 +846,7 @@
 <p>On zaś niósł ją z taką tkliwością, jak starszy brat, lub jak ojciec, i serce miał istotnie wezbrane, raz dlatego, że tę małą kochał istotnie, a powtóre, że przyszło mu do głowy to, o czem dotąd nie myślał, a przynajmniej czego nie odczuwał dość wyraźnie: mianowicie, że małżeństwo otwiera także drogę ojcostwu i tym wszystkim skarbom szczęścia, które się w niem mieszczą. Teraz, niosąc tę drogą sobie, choć obcą dziewczynkę, zrozumiał, że Bóg stworzył go do życia rodzinnego, nietylko na męża, ale i na ojca, jakoteż, że właściwy cel i znaczenie życia tkwi w tem właśnie.</p>
 <p>I wszystkie jego myśli uleciały do Maryni. Czuł teraz ze zdwojoną siłą, że ze wszystkich kobiet, jakie dotychczas spotkał, ją przedewszystkiem wybrałby za żonę i z nią chciałby mieć dzieci.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>W ciągu następnych dni Litka nie była chora, ale czuła się osłabioną, wychodziła jednak, ponieważ doktor nakazał jej wychodzić, ale polecił bardzo usilnie umiarkowany ruch pod górę. Waskowski poszedł do niego umyślnie, by dowiedzieć się, jaki jest stan jej zdrowia. Połaniecki czekał na niego w czytelni, ale już z jego twarzy poznał od razu, że nic dobrego nie przynosi.</p>
 <p>— Lekarz nie widzi natychmiastowego niebezpieczeństwa — rzekł stary człowiek — ale skazuje to dziecko na wczesną śmierć i wogóle każe nad niem czuwać, bo, jak mówi, niepodobna odgadnąć dnia, ani godziny.</p>
@@ -917,8 +913,7 @@
 <p>— Nie przypuszczam. Pan Maszko może być najzacniejszy człowiek, ale on nie dla niej. Ona nie wyjdzie za mąż bez przywiązania, a wiem, że pan Maszko nie podobał się jej zupełnie. To się nigdy nie stanie. Pan Maryni nie zna. Niech pan tylko uczyni ze swojej strony, co w pana mocy, ale o pana Maszkę niech pan będzie spokojny.</p>
 <p>— Więc, zamiast pisać, zatelegrafuję dziś do niego. On nie może w Krzemieniu długo jednym ciągiem bawić i musi w Warszawie odebrać moją depeszę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Odpowiedź Maszki, którą Połaniecki odebrał w dwa dni później, brzmiała: „W dniu wczorajszym nabyłem Krzemień.” — Jakkowiek z listu Maryni można było przewidzieć, że rzeczy wezmą taki a nie inny obrót, i młody człowiek powinien był być na to przygotowany, wiadomość sprawiła na nim wrażenie uderzenia piorunu. Zdawało mu się, że stało się zarówno niespodziewane, jak niepowetowane nieszczęście, za które cała odpowiedzialność spada na niego. Pani Emilia, znając lepiej, niż ktokolwiek, przywiązanie Maryni do Krzemienia, miała również przeczucie, którego nie potrafiła ukryć, że przez tę sprzedaż sprawa zbliżenia do siebie dwojga młodych ludzi utrudnia się w wysokim stopniu.</p>
 <p>— Maszko, jeśli nie ożeni się z Marynią — mówił Połaniecki — to złupi starego Pławickiego w ten sposób, że swoją opinię ocali, a tamtego zostawi bez grosza. Gdybym był sprzedał tę sumę pierwszemu lichwiarzowi, staryby się wykręcał, coś spłacał, więcej obiecywał — i ruina Krzemienia przewlokłaby się o całe lata, w ciągu których mogłoby się zdarzyć coś pomyślnego, a przynajmniej byłby czas sprzedać Krzemień w dobrych warunkach. Teraz, jeśli zostaną bez grosza, to będzie moja wina.</p>
@@ -1006,8 +1001,7 @@
 <p>— W takim razie oddaj mi jedną małą przysługę. Ożeń się z panną, bo z dwojga złego wolę zostać twoim kuzynem, niż tego Maszki.</p>
 <p>— Dobrze — odpowiedział krótko Połaniecki.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Po powrocie do Warszawy, Połaniecki przedewszystkiem udał się do Bigiela, który dokładnie rozpowiedział mu, w jakich warunkach Krzemień został sprzedany. Warunki te były nader dla Maszki korzystne. Zobowiązał się on wypłacić po upływie roku trzydzieści pięć tysięcy rubli, które miały wpłynąć z parcelacyi Magierówki, a prócz tego płacić po trzy tysiące rubli rocznie aż do śmierci pana Pławickiego. Połanieckiemu nie wydało się to zrazu układem zbyt dla Pławickich niepomyślnym, lecz Bigiel był innego zdania.</p>
 <p>— Ja zbyt śpiesznie ludzi nie sądzę — mówił — ale ostatecznie Pławicki jest starym egoistą, który dla własnej wygody poświęcił przyszłość dziecka, a prócz tego człowiekiem lekkomyślnym. W tym wypadku renta jest niby oparta na Krzemieniu, ale Krzemień, jako majątek zrujnowany, w który trzeba wkładać, ma wartość fikcyjną. Jeśli Maszko doprowadzi go do porządku, to dobrze, jeśli nie, to w najlepszym razie będzie zalegał z wypłatą, a przez całe lata Pławicki może grosza nie widzieć. Co wtedy zrobi? Odbierze napowrót Krzemień. Ale Maszko pozaciąga do tego czasu nowe długi, choćby dlatego, żeby spłacić stare, i — w razie jego bankructwa — Bóg wie ilu wierzycieli wyciągnie po Krzemień ręce. Ostatecznie wszystko polega na uczciwości Maszki, który może być sobie porządnym człowiekiem, ale prowadzi interesa ostro, którego zatem jeden fałszywy krok może zrujnować. Kto wie, czy samo kupno Krzemienia nie jest takim krokiem, bo, chcąc uporządkować majątek, musi wyciągnąć swój kredyt do ostateczności. Widziałem takich, którym się długo udawało, póki nie rzucili się na kupno wielkich majątków ziemskich.</p>
@@ -1093,8 +1087,7 @@
 <p>— Zagraj jeszcze raz „Träumerei”.</p>
 <p>Dźwięki ozwały się po raz drugi, spokojne i rozmarzone. I Połaniecki był zbyt młodym, by nie miał być również choć trochę marzycielem. Więc wyobraził sobie, że Marynia słucha z nim razem „Träumerei” z rękami w jego rękach, z głową na jego piersiach, kochająca bardzo i nad wszystko w świecie kochana.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Pan Pławicki był jednak człowiekiem co się nazywa dobrze wychowanym, albowiem trzeciego dnia oddał wizytę Połanieckiemu. Oddał ją nie drugiego, taka bowiem skwapliwość oznaczałaby chęć utrzymania blizkich stosunków, i nie czwartego, albo piątego, byłoby to bowiem dowodem braku znajomości zwyczajów światowych, tylko w terminie najwłaściwszym i jedynie wskazanym przez przykazania „savoir vivre”. Pan Pławicki szczycił się całe życie znajomością tych przykazań oraz właściwych im odcieni i zachowywanie ich uważał za najwyższą mądrość ludzką. Jako człowiek wyrozumiały, pozwalał wprawdzie istnieć i innym gałęziom wiedzy, pod warunkiem wszelako, żeby się nie przeceniały, a zwłaszcza, by nie miały pretensji narzucania się ludziom prawdziwie dobrze wychowanym.</p>
 <p>Połaniecki, dla którego wszystko było pożądanem, co nawiązywało jakąkolwiek nić dalszych stosunków z panną Marynią, z trudnością potrafił ukryć radość, jaką mu sprawiło przybycie pana Pławickiego. Radość ta odbiła się też w uprzejmem i pełnem dobrego humoru przyjęciu. Musiał on zresztą podziwiać pana Pławickiego i wpływ, jaki na niego uczyniło miasto. Czupryna jego lśniła się, jak skrzydła krucze, małe wąsiki sterczały do góry, walcząc o lepsze pod względem barwy z czupryną, biała kamizelka okrywała wysmukłą pierś, pąsowy zaś gwoździk przy czarnej żakietce dodawał jakiegoś świątecznego blasku całej postaci.</p>
@@ -1209,8 +1202,7 @@
 <p>— Wiesz co? Wolę nie być u was w niedzielę.</p>
 <p>— Może i dobrze zrobisz — odpowiedział Bigiel.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>W domu czekała Połanieckiego niespodzianka, zastał bowiem depeszę od pani Chwastowskiej, zawierającą następne słowa: „Wracam jutro rano, Litka dobrze!” Powrót ten był niespodziany, a przynajmniej nadzwyczaj przyśpieszony, że zaś depesza zawierała zapewnienie co do zdrowia Litki, Połaniecki więc zrozumiał, że pani Emilia wraca tylko dlatego, by się zająć jego sprawą. I na tę myśl serce wezbrało mu wdzięcznością. „Ot, to jest poczciwa natura — mówił sobie — to przyjaciółka!…” I obok wdzięczności wezbrała mu w sercu taka nadzieja, tak, jakby pani Emilia posiadała czarodziejski pierścień, lub magiczną laskę, za pomocą której mogła zmienić w jednej chwili serce panny Maryni. Połaniecki nie widział jasno, jak się to zrobi, ale wiedział, że przynajmniej ktoś, bardzo życzliwy, będzie za nim przemawiał, będzie go usprawiedliwiał, będzie podnosił jego serce i charakter, a zmniejszał uprzedzenia przeciw niemu, nagromadzone biegiem zdarzeń. Liczył, że pani Emilia będzie w tem bardzo wytrwała, i że będzie to dla niej kwestyą obowiązku. Człowiek, któremu coś dokucza, rad szuka tych, na którychby mógł złożyć za to odpowiedzialność. Tak i Połanieckiemu, zwłaszcza w chwilach wezbrania goryczy, wydawało się, że pani Emilia jest także odpowiedzialną za jego stosunek do panny Maryni, gdyby bowiem nie była pokazała owego listu, z którego widać było gotowość panny Maryni do pokochania go — to on byłby jeszcze zdołał odczepić od niej i myśl i serce. Może poniekąd i było tak, gdyż w historyi jego uczucia list ten odegrał rzeczywiście ważną rolę. On mu pokazał, jak szczęście było blizkie i prawie już realne, jak dalece ona w myśli oddawała mu już serce i duszę. Najtrudniej jest porzucić szczęście, które nietylko jest upragnione, ale i zaczęte — i gdyby nie ów list, może istotnie Połaniecki mniejby żałował przeszłości, łatwiej zapomniał i łatwiej się zgodził z położeniem. Teraz nie pamiętał, że to on sam wymógł na pani Chwastowskiej pokazanie owego listu, uważał tylko, mimo całej przyjaźni i wdzięczności dla niej, że ona powinna go wspomagać ze wszystkich sił. Zresztą rozumiał, że tak się będzie działo samo przez się; spodziewał się często widywać pannę Marynię, i to w warunkach dla siebie najkorzystniejszych, albowiem w domu, w którym go kochano, ceniono i w którym podobne uczucia musiały się udzielać każdemu z gości. Wszystko to wzmogło nadzieję Połanieckiego z nową siłą, ale wzmagając nadzieję, dodało nowe ogniwa do tych, które łączyły jego myśli z Marynią. Poprzednio był sobie obiecał, że nie będzie u Bigielów, teraz zmienił postanowienie, przypuszczając, że jeśli tylko zdrowie pozwoli, pani Emilia także weźmie udział w tej wycieczce. A swoją drogą, poza tymi wszystkimi powodami, związanymi z panną Marynią, rad był z całej duszy, że zobaczy te kochane twarze, tak pani Emilii, jak i Litki, która dotychczas była największem jego przywiązaniem w życiu.</p>
 <p>Tegoż jeszcze wieczora napisał parę słów do pana Pławickiego o przyjeździe, przypuszczając, że mu panna Marynia będzie wdzięczna za tę pośrednią wiadomość; dał znać do mieszkania pani Emilii, by nazajutrz czekano z herbatą, i zamówił wygodny powóz, by odwieźć nim te panie do domu. Nazajutrz o piątej był już na kolei.</p>
@@ -1289,8 +1281,7 @@
 <p>Prawie jednak nie zwracał się już do Maryni. Zajmował się wyłącznie panią Emilią i Litką — i dziwna rzecz: Marynia odczuła to jednak, jak przykrość. Do szeregu uraz przybyła jedna więcej.</p>
 <p>Nazajutrz pani Emilia z Litką były wieczorem na herbacie u Pławickich. Pan Pławicki zaprosił i Połanieckiego, który nie przyszedł. I taka jest natura ludzka, że to znów dotknęło Marynię. Niechęć, tak jak miłość, potrzebuje mieć blizko osobę, przeciw której się zwraca. Marynia mimowoli spoglądała cały wieczór ku drzwiom, gdy zaś nadeszła godzina, w której stało się już pewnem, że Połaniecki nie przyjdzie, poczęła kokietować Maszkę, tak, że przejęła zdziwieniem panią Emilię.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>Maszko był człowiekiem bardzo sprytnym, ale zarazem pełnym miłości własnej; nie miał zresztą żadnego powodu nie brać wprost za dobrą monetę uprzejmości, jaką okazywała mu Marynia. Niejednakowy jej stopień przypisywał trochę kokieteryi, trochę zmiennemu usposobieniu panny, i jakkolwiek to ostatnie przejmowało go pewnym niepokojem, nie było jednak dość silne, by powstrzymać go od stanowczego kroku.</p>
 <p>Bigiel odgadywał istotny stan rzeczy, twierdząc, że Maszko był zakochany. Tak istotnie było. Przedtem już panna Pławicka podobała mu się w wysokim stopniu; następnie, uczyniwszy rachunek wszystkich <emph>za</emph> i wszystkich <emph>przeciw</emph>, doszedł do przekonania, że kategorya <emph>za</emph> przeważa. Młody adwokat cenił wprawdzie majątek, ale, obdarzony przytem wielką trzeźwością umysłu i znając doskonale stosunki, w których się obracał, doszedł do przekonania, że panny bardzo majętnej nie znajdzie i nie dostanie. Zupełnie majętne panny znajdowały się albo między arystokracyą rodową i to były dla niego progi zbyt wysokie, albo wśród świata finansów, który ze swej strony szukał znowu związków z rodzinami, noszącemi mniej więcej znane nazwiska. Maszko wiedział doskonale, że jego malowani biskupi i pancernicy, z których podrwiwał Bukacki, nie potrafią mu otworzyć ogniotrwałych kas bankierskich. Rozumiał, że gdyby nawet byli mniej fantastyczni, sam jego zawód adwokacki stanowiłby pewną „deminutionem capitis” w oczach grubych ryb finansowych. Z drugiej strony czuł naprawdę pewien rasowy wstręt do tego rodzaju związków, podczas gdy dobrze wylegitymowane dziewczyny miały dla niego ten niepospolity urok, jaki miewają zwykle dla parweniuszów.</p>
@@ -1347,8 +1338,7 @@
 <p>A ona szepnęła jeszcze ciszej:</p>
 <p>— Bo ja nie kocham panny Maryni…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>Pani Emilia z Litką i Marynią, a z niemi pan Pławicki, jechali na obiad do Bigielów, do letniego ich domu, położonego w lesie, o półtrzeciej godziny drogi od miasta. Dzień był wrześniowy, pogodny, pełen błyszczących pajęczyn w powietrzu i na rżyskach. Na drzewach trzymała się jeszcze zieleń dość świeża, gdzieniegdzie jednak, wśród liściastych zagajeń, widać było jakby fontanny lub bukiety żółte i czerwone. Pannie Maryni owa blada i złotawa jesień przypominała zajęcia wiejskie, zapach zbóż w sąsiekach, pola w brogach i przejrzyste przestrzenie łąk, zakończone aż hen gdzieś na widnokręgu wstążkami olszyn. Zrobiło jej się tęskno po tem życiu i po tym spokoju, wobec których miasto, mimo pracy, która kipi w jego codziennym bycie, ale której panna Marynia nie umiała odczuć, wydało jej się czczem i próżniaczem. Czuła teraz, że to życie, w którem odnajdywała swoją wartość i swoją zasługę, jest dla niej bezpowrotnie stracone — a natomiast nie zarysowało się przed nią nic, coby jej zdołało je zastąpić i wynagrodzić. Mogła wprawdzie poniekąd wrócić do niego, zostawszy panią Maszkową, ale na samą tę myśl, serce zalało się jej goryczą i Maszko, wraz ze swą warszawską pewnością siebie, wraz ze swymi wypiekami i faworytami, wraz ze swem małpowaniem angielskiego lorda, wydał się jej wprost wstrętny. Nigdy też nie czuła większej niechęci do Połanieckiego, który jej odjął Krzemień, a podsunął na to miejsce Maszkę. Tym brzydziła się w tej chwili, tamtego, zdawało jej się, że nienawidzi. Widziała przed sobą życie z ojcem, na warszawskim bruku, bez celu, bez pracy, bez ideału — z żalem za przeszłością i do przeszłości, a z pustką w przyszłości. Z tej przyczyny, ów pogodny, jesienny dzień, zamiast ją uspokoić, przejął jej duszę smutkiem i goryczą. Droga wogóle nie odbywała się wesoło. Litka siedziała nachmurzona, ponieważ „pana Stacha” nie było w powozie. Pani Emilia zaś całą uwagę zwracała na nią w obawie, czy jej posępny humorek nie stoi w związku ze zdrowiem. Tylko pan Pławicki był w prawdziwie dobrym humorze, zwłaszcza w początku drogi. Naprzód, w swoim zapiętym surducie z czerwonym gwoździkiem w dziurce, w jasnym paletocie i z nastawionymi jak igły wąsikami, czuł się pięknym, a że reumatyzmy, które czasem odczuwał, nie dokuczały mu z powodu pogody, więc i rzeźkim; powtóre, naprzeciw niego siedziała jedna z najprzystojniejszych kobiet w Warszawie, o której przypuszczał, że nie pozostanie obojętna na tyle powabów, o tyle przynajmniej, że potrafi je zauważyć i ocenić. Niechby przynajmniej powiedziała sobie: „Ach, jaki to uroczy musiał być mężczyzna!” — byłby się pan Pławicki w najgorszym razie zadowolił choćby takiem, obowiązującem wstecz uznaniem. W tej nadziei był istotnie czarujący, bo naprzemian to wzniosły i ojcowski, to figlarny; wychodząc zaś ze stanowiska, że dzisiejsza młodzież nie umie być grzeczna dla kobiet, w grzecznościach, jakie prawił pani Emilii, zawadzał aż o mitologię, co było nawet pod pewnym względem usprawiedliwione, patrzył bowiem na nią, jak satyr.</p>
 <p>Lecz wszystko to było przyjmowane z bladym uśmiechem i ze zbyt małą uwagą, więc w końcu zraził się i począł mówić o czem innem, mianowicie, że dzięki stosunkom córki, pozna „burżuazyę,” z czego zresztą jest poniekąd rad, bo dotychczas widywał tego rodzaju towarzystwo tylko na scenie, a przecie w życiu trzeba się stykać z najrozmaitszego rodzaju ludźmi, albowiem od wszystkich można się czegoś nauczyć. Dodał wreszcie, że jest obowiązkiem pewnych sfer nie odpychać od siebie ludzi, lecz przeciwnie, przygarniać ich, by tym sposobem wdrażać w nich zdrowe zasady, więc i on, który starał się zawsze spełniać obowiązki społeczne, nie cofnie się przed tą misyą. Tu szlachetny wyraz jego twarzy przybrał pewien rodzaj melancholii i w ten sposób zajechali przed willę Bigielów.</p>
@@ -1476,8 +1466,7 @@
 <p>— Śpisz dziecinko? — spytała.</p>
 <p>— Nie, mamusiu — odpowiedziała Litka.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV</head>
 <p>— O majątek nie ubiegałem się nigdy — mówił pan Pławicki — ale jeśli Opatrzność w niezbadanych swych wyrokach tak pokierowała, żeby choć część tej wielkiej fortuny przeszła w nasze ręce, to nie chcę jej dróg krzyżować… Mnie z tego wiele już nie przyjdzie, mnie potrzebne wkrótce będą cztery deski i cicha łza dziecka, dla którego żyłem, ale tu idzie o Marynię.</p>
 <p>— Zwracam pańską uwagę — rzekł zimno Maszko — że, po pierwsze, to są widoki bardzo niepewne…</p>
@@ -1570,8 +1559,7 @@
 <p>Ale, mając nad sobą dużo władzy, unikał Maryni. Wiedział zawsze, kiedy ma być u pani Emilii i wówczas zamykał się w domu.</p>
 <p>Dopiero gdy Litka zachorowała, począł chodzić do pani Emilii codziennie, przesiadywać u niej po całych dniach i spędzać godziny razem z Marynią przy chorem dziecku.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV</head>
 <p>A biedna Litka po nowym, groźniejszym niż poprzednio, ataku, nie mogła już przyjść do zdrowia. Dnie spędzała teraz, leżąc na szezlongu w saloniku, albowiem na jej prośbę lekarze i pani Emilia zgodzili się nie trzymać jej cały czas w łóżku. Lubiła też, gdy Połaniecki siedział przy niej i rozmawiała z nim i z matką o wszystkiem, co jej przechodziło przez główkę. Z Marynią bywała zwykle milcząca, natomiast czasem wpatrywała się w nią długo, a potem podnosiła oczy do sufitu, jakby namyślając się nad czemś, jakby chcąc coś zrozumieć i zdać sobie z czegoś sprawę. Nieraz te zamyślania się jej zdarzały się i wówczas, gdy zostawała z matką sam na sam, pewnego zaś popołudnia zbudziła się jakby ze snu i, zwróciwszy się do matki, rzekła:</p>
 <p>— Mamusiu, niech mamusia siądzie przy mnie, tu, na sofie.</p>
@@ -1652,8 +1640,7 @@
 <p>— To ja przepraszam. Litka gadała mi dziś o swojej śmierci i taki jestem wzburzony, że rady sobie dać nie mogę… Pani powinna to zrozumieć i przebaczyć mi.</p>
 <p>To rzekłszy, ścisnął silnie jej rękę i wyszedł.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI</head>
 <p>Następnego dnia Marynia ofiarowała się pani Emilii zamieszkać u niej aż do zupełnego wyzdrowienia Litki, Litka zaś poparła jej prośbę, na którą pani Emilia po krótkim oporze była zmuszona się zgodzić. Rzeczywiście upadała ze znużenia; zdrowie chorej wymagało nieustającej i wyjątkowej czujności, nowy atak bowiem mógł przyjść lada chwila. Trudno było liczyć, żeby służąca, choćby najbardziej przywiązana, nie zdrzemnęła się w takiej właśnie chwili, w której śpieszny ratunek mógł stanowić o życiu dziecka — więc obecność Maryni była prawdziwą pomocą i uspokojeniem dla stroskanej matki.</p>
 <p>Co do pana Pławickiego, ten wolał jadać w restauracyi, niż w domu, nie robił więc trudności. Marynia zresztą wpadała codzień dowiedzieć się o jego zdrowie i przyprowadzić do porządku domowe rachunki, potem wracała do pani Emilii, by połowę nocy przesiedzieć przy małej.</p>
@@ -1677,8 +1664,7 @@
 <p>Po chwili podniosła jednak swoją słodką twarzyczkę, rozjaśnioną uśmiechem.</p>
 <p>— Ja mamusię bardzo kocham — rzekła — i pana Stacha kocham i Marynię kocham…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVII</head>
 <p>Profesor Waskowski dowiadywał się codziennie o zdrowie małej i choć najczęściej go nie przyjmowano, przysyłał jej kwiaty. Połaniecki, spotkawszy go kiedyś na obiedzie, począł mu dziękować w imieniu pani Emilii.</p>
 <p>— Astry tylko, astry! — odrzekł profesor. — Jak ona się dziś ma?</p>
@@ -1753,8 +1739,7 @@
 <p>Jakoż w kwadrans później Bigiel odebrał od żony kartkę ze słowami:</p>
 <p>— „Atak minął.”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVIII</head>
 <p>Połaniecki pędził do pani Emilii w trwodze, czy zastanie jeszcze Litkę przy życiu, służący bowiem powiedział mu podczas drogi, że panienka dostała konwulsyi i była konająca. Gdy jednak przybył na miejsce, pani Emilia sama wybiegła na jego spotkanie i jednym tchem, z głębi piersi, rzuciła mu słowa:</p>
 <p>— Lepiej! lepiej!</p>
@@ -1883,8 +1868,7 @@
 <p>Przerwała ją wreszcie Marynia, która pierwsza wyszła z zamkniętego pokoju, z twarzą bladą, jak płótno, i trzęsącym się głosem rzekła śpiesznie:</p>
 <p>— Wody dla pani! Panienka nie żyje!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIX</head>
 <p>Jesień w ostatnich swych dniach uśmiecha się jeszcze czasem do ludzi ogromnie smutno, ale zarazem i pogodnie, jak umierająca na suchoty kobieta. W taki pogodny dzień wypadł właśnie pogrzeb Litki. Jest w tem boleść pomieszana z pewną pociechą, że ludzie, którzy zostają, myślą i czują w dalszym ciągu za swoich zmarłych. Połanieckiego, który zajmował się pogrzebem, ów pogodny i smutny dzień przejął jeszcze większym smutkiem, ale, podstawiając się w uczucia Litki, pomyślał, że dziecko właśnieby sobie takiego dnia życzyło — i znalazł w tem pewną ulgę. Aż do tej chwili nie umiał wprost zmierzyć głębi swojego żalu. Taka świadomość przychodzi później, a zaczyna się dopiero wówczas, gdy kochana istota zostaje na cmentarzu, a człowiek wraca sam do pustego domu. Prócz tego, zajęcia pogrzebowe pochłonęły Połanieckiemu wszystek czas. Życie otoczyło sztucznemi formami i utrudniło nawet tak prosty akt, jakim jest śmierć. Połaniecki chciał oddać Litce jeszcze tę ostatnią usługę, którą zresztą nie miał się kto zająć. Wszystkie te sprężyny życia, na mocy których człowiek myśli, postanawia i działa, zostały w pani Emilii przez śmierć dziecka podcięte. Wiatr okazał się tym razem zbyt silny na wełnę jagnięcia. Na szczęście jednak, zbyt wielka boleść zabija samą siebie, albowiem odrętwia serce ludzkie. To stało się z panią Emilią. Połaniecki zauważył, że panującym wyrazem jej twarzy i oczu było bezmierne, zastygłe przerażenie. Jak w oczach jej nie było łez, tak w ustach słów, tylko jakiś szept tragiczny i zarazem dziecinny, dowodzący, że myśl jej nie ogarnia nieszczęścia, lecz krąży wokół towarzyszących mu drobiazgów, czepia się ich i otacza je troskliwością taką, jakby dziecko żyło jeszcze. W pokoju, zmienionym w żałobną świetlicę, Litce, uśpionej wśród kwiatów na atłasowej poduszce, nie mogło braknąć niczego; tymczasem zdziecinniałe z bólu serce matki zwracało się ustawicznie do tego, czego dziecku mogło braknąć. Gdy ją próbowano oderwać od ciała, nie stawiała oporu, tylko traciła resztę przytomności i poczynała jęczeć, jakby jej zadawano ból nad siły.</p>
 <p>Połaniecki i Chwastowski, brat męża, który przybył przed samym pogrzebem, usiłowali ją wyprowadzić w chwili, gdy Litkę przykrywano wiekiem; lecz gdy pani Emilia poczęła wołać małej po imieniu, obydwom nie stało odwagi. Kondukt ruszył wreszcie, wśród pochodni, liczny, ciągnący za sobą ogon karet, poprzedzany przez księży i posępny śpiew, a z miejsca otoczony gromadą ciekawych, którzy w nowożytnych miastach tak pasą oczy ludzką boleścią, jak w starożytnych pasiono je ludzką krwią po cyrkach. Pani Emilia, prowadzona przez brata męża, mając obok siebie Marynię, szła tuż za karawanem, z twarzą suchą i bezduszną. Oczy jej widziały teraz tylko jeden szczegół i myśl zajmowała się nim wyłącznie. Oto zdarzyło się, że jedno pasemko płowych, niezmiernie obfitych włosów Litki zostało na zewnątrz trumny. Pani Emilia przez całą drogę nie spuszczała z niego oczu, powtarzając co chwila: „O Boże, Boże! przycięli dziecku włosy!”</p>
@@ -1994,11 +1978,8 @@
 <p>Teraz znów począł myśleć o niej i zarazem o swej przyszłości. I nagle ujrzał jakby chmurę niezliczonych pytań, na które w tej chwili przynajmniej nie miał żadnej odpowiedzi.</p>
 <p>Czuł tylko przed niemi strach; czuł, że na razie brakuje mu zarówno sił i ochoty, żeby podjąć ten trud. Znów zacząć żyć dawnem życiem, znów wpaść w to sentymentalne koło błędne, znów niepokoić się, znów wysilać, zabiegać o rzeczy, które przynoszą tylko gorycz, porać się z sobą z uczuciowych powodów? Czy nie lepiej pilnować rachunków z Bigielem, zbijać pieniądze, by kiedyś ruszyć, jak Bukacki, do Włoch lub gdzieindziej, gdzie jest słońce, sztuka, wino dobre na żołądek i przedewszystkiem ludzie obojętni, których szczęście serca przybysza nie rozpromieni, ale za to śmierć lub niedola nie wycisną ani jednej łzy.</p>
 </div>
-<div>
-<p>Tom II</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom II</head>
 <div type="chapter"><head>I</head>
 <p>Podczas tych wszystkich rozterek duchowych, przez które przechodził Połaniecki, interesa Domu handlowego rozwijały się jednak pomyślnie. Dzięki zdrowemu rozsądkowi, pilności i czujności Bigiela, bieżące sprawy były załatwiane zawsze z jednaką dokładnością, która ze strony klientów Domu usuwała wszelką możliwość zawodu, niezadowolenia, skarg. Dom zyskiwał z każdym dniem na opinii, rozszerzał zwolna i stopniowo działalność, porastał w pierze. Połaniecki zresztą pracował nie z takim wprawdzie spokojem, jak dawniej, ale nie mniej od Bigiela. Ranne godziny spędzał codziennie w biurze, im zaś większe były jego duchowe frasunki, im nieporozumienia z Marynią stawały się od chwili jej przyjazdu do Warszawy głębsze, tem pracował gorliwiej. Ta robota, najczęściej ciężka i chwilami wymagająca nawet dość natężonego myślenia, ale nie stojąca w żadnym związku z tem, co go bolało, i nie mogąca przyczynić żadnej wewnętrznej troski, stała mu się w końcu rodzajem przystani, w której się chował przed burzą. Połaniecki począł ją lubić. „Tu przynajmniej wiem, co robię i do czego dążę (mówił Bigielowi), tu wszystko jest bardzo jasne: jeśli nie znajdę szczęścia, znajdę przynajmniej to rozszerzenie życia i tę swobodę, którą daje pieniądz, i tem lepiej dla mnie, jeśli potrafię na tem poprzestać”. Ostatnie wypadki utwierdziły go tylko w tych myślach. Rzeczywiście, od strony uczuć przychodziły nań wyłącznie zmartwienia. Ta siejba dawała gorzkie żniwo, podczas gdy jedyne powodzenia, których doznał, a które bądźcobądź, krzepią i bronią w życiu od nieszczęścia, dał mu ów Dom handlowy. Sam Połaniecki myślał z pewnem zdziwieniem, że tak jest, ale tak nie było. Sam czuł ciasnotę tego zadowolenia, które mógł dać Dom; ale jednocześnie mówił sobie, że skoro nie można inaczej, to trzeba i bezpieczniej jest na tem poprzestać, albowiem lepiej jest być wyłącznie kupcem, któremu się powodzi, niż romantykiem, którego wszystko zawodzi. Więc od śmierci Litki postanowił tem bardziej stłumić w sobie wszystkie te porywy, którym rzeczywistość nie umiała odpowiedzieć i które nie przynosiły nic, prócz zgryzot. Oczywiście Bigiel rad był z takiego usposobienia swego wspólnika, które Domowi mogło przynieść tylko korzyść.</p>
 <p>Połaniecki nie mógł jednak stać się w ciągu kilku tygodni człowiekiem zupełnie obojętnym na to wszystko, z czem niegdyś związane było jego serce. Skutkiem tego od czasu do czasu odwiedzał Litkę, której kamień grobowy pokrywały już rankami białe, zimowe szrony. Dwukrotnie spotkał na cmentarzu panią Emilię z Marynią. Raz odwoził je do miasta i wówczas pani Emilia poczęła dziękować mu za pamięć o małej. Połaniecki zauważył, że czyniła to ze względnym spokojem, zrozumiał zaś ten spokój, gdy przy pożegnaniu rzekła mu: „Ja teraz ciągle myślę, że ona, żyjąc sama w wieczności, uważa to rozłączenie za tak krótkie, jak jedno mgnienie oka — i pan nie wie, co to za pociecha, że przynajmniej nie tęskni”. Połaniecki powiedział sobie w duszy: „No, że nie wiem, to nie wiem!” Jednakże głębokie przekonanie, z jakiem mówiła pani Emilia, uderzyło go: „Jeśli to są złudzenia — pomyślał — to są prawdziwie żywotne złudzenia, skoro potrafią nawet z piwnicy grobowej wyciągnąć soki dla życia…”</p>
@@ -2058,8 +2039,7 @@
 <p>— Tak — myślał dalej — ale z miłości, czy głupiej, czy mądrej, płynie wola, a czy ja ją teraz mam? Nie, bo się waham, podczas gdy poprzednio nie wahałem się. Powtóre, trzeba zważyć, co lepsze: czy panna Pławicka, czy <emph>„ma”</emph> i <emph>„winien”</emph> w Domu pod firmą Bigiel i Połaniecki. Pieniądz daje potęgę i swobodę, a ze swobody najlepiej się korzysta, gdy się nikogo nie dźwiga ani na ramionach, ani w sercu.</p>
 <p>Tak rozmyślając, przyszedł do domu i położył się spać. W nocy śniły mu się brzozy na wydmach, spokojne niebieskie oczy i czoło ocienione ciemnymi włosami, od którego biło ciepło.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>W kilka dni później, rano, zanim wyszedł do biura, przyszedł do niego Maszko.</p>
 <p>— Przychodzę do ciebie w podwójnym interesie — rzekł — ale zaczynam od pieniężnego, żeby ci zostawić swobodę powiedzenia: „Tak, lub nie.”</p>
@@ -2212,8 +2192,7 @@
 <p>I myślał także, że jeśli brak mu już dawnej, pierwotnej ochoty do utrwalenia tego węzła — to również brakłoby mu prawie odwagi, by go stanowczo przeciąć, zwłaszcza tak prędko po śmierci Litki.</p>
 <p>Późną nocą zasiadł nad wykazami, przysłanymi przez Maszkę. Chwilami jednak czynił pomyłki w rachunkach, bo widział przed sobą pochyloną głowę Maryni i jej łzy, spadające do pudełka ze szklanemi paciorkami. Nazajutrz zakupił dąbrowę na Krzemieniu — bardzo zresztą korzystnie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Maszko powrócił po dwóch tygodniach z Petersburga, dość zadowolony z obrotu własnych spraw kredytowych, i przywiózł ważne wiadomości, które doszły go, jak utrzymywał, drogą czysto poufną i nie były dotąd nikomu znane. Oto zeszłego roku zbiory w całem państwie były bardzo niepomyślne. Tu i owdzie poczęło się pokazywać widmo głodu, łatwo zaś było odgadnąć, że do wiosny zapasy wyczerpią się w całych okolicach i że klęska głodowa może stać się powszechną. Wobec tego ludzie świadomsi rzeczy zaczęli przebąkiwać o prawdopodobieństwie zakazu wywozu zboża za granicę — i tego to rodzaju echa przywiózł Maszko, zaręczając przytem, że doszły do jego uszu przez osoby bardzo rzeczy świadome. Połanieckiego wiadomość ta uderzyła tak silnie, że zamknął się na kilka dni z ołówkiem w ręku, poczem udał się do Bigiela z propozycyą, żeby tak rozporządzalną gotowiznę, jak i kredyt Domu, obrócić na hurtowe zakupy zboża.</p>
 <p>Bigiel zląkł się — ale on od tego zaczynał wobec każdego nowego interesu. Połaniecki nie ukrywał mu zresztą, że to będzie operacya na wielką skalę, od której powodzenia lub niepowodzenia mogą ich losy zależeć. Zupełne niepowodzenie było jednak mało prawdopodobne, powodzenie zaś mogło uczynić z nich jednym zamachem ludzi prawdziwie zamożnych. Było do przewidzenia, że wobec braku zboża, ceny pójdą w każdym razie w górę — było również do przewidzenia, że prawo ograniczy wprawdzie możność robienia nowych kontraktów z kupcami innych krajów, ale uszanuje kontrakty, zawarte przed jego ogłoszeniem; gdyby zaś i to chybiło, podniesienie się cen w samym kraju było rzeczą niemal pewną. Połaniecki wszystko, o ile było w mocy ludzkiej, przewidział, wszystko obliczył — i Bigiel, który, mimo swej ostrożności, był człowiekiem rozsądnym, musiał przyznać, że widoki powodzenia są istotnie znaczne, i że szkoda pomijać sposobności.</p>
@@ -2274,8 +2253,7 @@
 <p>I rzeczywiście, gdy wszedł, z samego uścisku jej ręki poznał, że tak jest; ona zaś rzekła mu na powitanie swoim łagodnym i spokojnym głosem:</p>
 <p>— Miałam przeczucie, że pan przyjdzie. Niech pan patrzy: jest gotowa dla pana filiżanka.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Połaniecki, przybywszy do Pławickich, zastał tam Gątowskiego. Młodzi ludzie przywitali się od razu z widocznym chłodem i niechęcią. Dnia tego nie było w całym świecie nieszczęśliwszego człowieka, niż Gątowski. Stary Pławicki z niego drwił, jak zwykle, a nawet więcej niż zwykle, był bowiem w wybornym humorze z powodu swej krewnej, po której spodziewał się znacznego spadku; Marynię krępowała jego obecność, i przymus ów napróżno starała się pokryć uprzejmem obejściem się i dobrocią. Nakoniec Połaniecki udał niemal, że go nie widzi. Widocznem także było, że Gątowski nie przyznał się do niczego przed starym Pławickim i że drży teraz o to, by Połaniecki nie uczynił o jego zajściu z Maszką jakiejś wzmianki, lub żeby go nie opowiedział.</p>
 <p>Połaniecki zrozumiał to od razu, jak również i przewagę, jaką mu jego milczenie daje nad „niedźwiadkiem”; chcąc zaś jej użyć w interesie Maszki, do czasu milczał, lecz nie umiał sobie odmówić chęci ukarania Gątowskiego w inny sposób. Oto przez cały wieczór zajmował się tak Marynią, jak nigdy od czasu śmierci Litki, co Marynię przejmowało widoczną radością. Zostawiwszy Gątowskiego staremu Pławickiemu, chodzili oboje w poufnej rozmowie po pokoju, potem zaś siedli pod ową palmą, pod którą Połaniecki widział po powrocie z pogrzebu panią Emilię — i rozmawiali właśnie o jej blizkiem wstąpieniu do Sióstr miłosierdzia. Lecz Gątowskiemu zdawało się chwilami, że tak mogą rozmawiać tylko narzeczeni i czuł wówczas to, co musi czuć dusza, nie w czyścu, bo czyścowa ma jeszcze przed sobą nadzieję, lecz taka, która przestępuje bramę z napisem: „Lasciate ogni speranza”. Widząc ich tak razem, wyobrażał sobie również, że może Połaniecki kupił dąbrowę z gruntem, żeby choć część Krzemienia odzyskać dla Maryni, a zatem z jej wolą i wiedzą. I na samą myśl, jak w takim razie zabrnął, uczyniwszy awanturę Maszce, włosy powstawały mu na głowie; Pławicki zaś, słysząc jego nawpół przytomne, albo i całkiem niedorzeczne odpowiedzi, bawił się coraz lepiej kosztem „prowincyała”, który na bruku miejskim traci resztę rozumu. Pan Pławicki miał się już za wzór człowieka „stołecznego”.</p>
@@ -2351,8 +2329,7 @@
 <p>Później też przyszło mu do głowy co innego. Począł wspominać Litkę, panią Emilię, Marynię i uderzyło go to, jak tego rodzaju świat kobiecy, czysto uczuciowy, którego główny interes polega na kochaniu, na szczęściu blizkich, różny jest od świata męskiego, pełnego współzawodnictw, walki, czubienia się, gniewów, pojedynków, wysiłków dla zrobienia majątku i zmęczenia. I uznał w tej chwili, czego już nie czuł dawno, że jeśli jest na świecie spoczynek, szczęście, ukojenie, to należy ich szukać u kochającej kobiety. Było to poczucie wprost przeciwne jego filozofii z dni ostatnich, dlatego zaniepokoiło go. Ale porównywając dalej te dwa światy, nie mógł się jednak oprzeć uznaniu, że ten kobiecy, kochający, ma swoją zasadę i swoją racyę bytu.</p>
 <p>Gdyby Połaniecki był bieglejszy w Piśmie Św., byłyby mu niechybnie przyszły do głowy słowa: „Marya lepszą cząstkę obrała”.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Kresowski spóźnił się nazajutrz blizko o godzinę. Był to, według znanego u nas określenia, jeden z administratorów świeżego powietrza w mieście, to jest jeden z ludzi nie robiących nic. Miał dość znane nazwisko i stracił dość znaczny majątek. Na tych dwóch podstawach stał, żył, bywał wszędzie i uznawany był powszechnie za porządnego człowieka. Jak powyższe tytuły mogą na to wszystko wystarczyć, to jest tajemnica wielkich miast, dość, że nietylko stanowisko Kresowskiego było uznane i zapewnione, ale uważano go nadto za człowieka, do którego w delikatnych sprawach można się bezpiecznie udać. W sądach honorowych używano go za arbitra, w pojedynkach na świadka. Wysokie sfery finansowe zapraszały go rade na obiady, śluby, chrzciny i tym podobne uroczystości, albowiem miał patrycyuszowską łysinę i bardzo polską fizyognomię, doskonale więc stół ubierał.</p>
 <p>Był to człowiek w gruncie rzeczy ogromnie rozczarowany do ludzi, trochę suchotnik i bardzo zgryźliwy; posiadał jednak pewną dozę humoru, która pozwalała mu widzieć śmieszne strony rzeczy zwłaszcza bardzo drobnych, w czem przypominał nieco Bukackiego — i drwić z własnej zgryźliwości. Pozwalał także żartować z niej innym, ale pod miarę. Gdy ją przebrano, wyprostowywał się nagle i przyciskał ludzi aż nadto, wskutek czego uważano go za niebezpiecznego. Opowiadano o nim, że w kilku wypadkach znalazł odwagę tam, gdzieby wielu jej brakło i że wogóle umiał „wysoko nos nosić”. Nie szanował nikogo i niczego, prócz swojej, istotnie bardzo szlachetnej fizyognomii, nie szanował zwłaszcza czasu, albowiem spóźniał się zawsze i wszędzie.</p>
@@ -2456,8 +2433,7 @@
 <p>Połaniecki dnia tego czuł na ustach, aż do chwili snu, ciepło ręki Maryni i nie myślał ani o Maszce, ani o Gątowskim, powtarzał sobie natomiast z wielką uporczywością:</p>
 <p>— Czas to rozstrzygnąć…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Kresowski z doktorem i z pudełkiem, zawierającem pistolety, siedział w jednej karetce, a Połaniecki z Maszką w drugiej — i jechali na Bielany. Dzień był jasny i mroźny, pełen na dole różowej mgły. Koła obracały się ze skrzypieniem po zmarzłym śniegu, konie dymiły i okrywały się szronem; na drzewach leżała okiść obfita.</p>
 <p>— Mróz, bo mróz — rzekł Maszko. — Palce poprzymarzają nam do cynglów.</p>
@@ -2566,8 +2542,7 @@
 <p>Poczem, zostawszy sam, miał do panienki następującą przemowę:</p>
 <p>— Byłabyś chyba bardzo niedomyślna, gdybyś się nie domyśliła, dlaczego jutro przyjdę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Pani Krasławska przyjęła Połanieckiego mocno zdziwiona z powodu wczesnej godziny, ale jednak przyjęła go, domyślając się, że przychodzi w jakiejś niezwykłej sprawie. On też, bez długich wstępów, opowiedział jej co zaszło, kłamiąc przytem o tyle, o ile było trzeba, by osłonić Maszkę przed podejrzeniem o bankructwo lub złe interesa.</p>
 <p>Zauważył przytem, że podczas opowiadania stara dama trzymała utkwione w niego swoje zielone, wykute jakby z kamienia i pozbawione blasku oczy — i że żaden muskuł jej twarzy nie drgnął.</p>
@@ -2767,8 +2742,7 @@
 <p>— To niech pan postanowi. Ja całą duszą jestem pana.</p>
 <p>Na to on przyciągnął ją, jak pierwszego dnia, i po chwili znów począł szukać ustami jej ust, ona zaś, czy to pod wpływem myśli, że jego prawa są dziś już większe, czy pod wpływem budzących się zmysłów, nie odwracała już głowy, ale, zmrużywszy oczy, sama podała mu usta, jakby spragnione od dawna.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Dla Połanieckiego rozpoczął się teraz czas przedślubnych zabiegów i przygotowań. Mieszkanie miał wprawdzie gotowe przeszło od roku, to jest jeszcze zanim Marynię poznał. W swoim czasie, gdy Bukacki wyśmiewał się z tego mieszkania, widząc w niem dowód, do jakiego stopnia Połaniecki pała chęcią żenienia się, Połaniecki nie zaprzeczał:</p>
 <p>— Tak jest — mówił. — Mam tyle, że mogę sobie na to pozwolić, a tymczasem wydaje mi się, że już zaczynam coś w tym celu robić i że moje zamiary stają się czemś rzeczywistem.</p>
@@ -2853,8 +2827,7 @@
 <p>Tu panna Marynia nie umiała przez jakiś czas znaleźć słów, w końcu jednak rzekła:</p>
 <p>— I żeby wierzyć w męża… i żeby z nim razem pracować.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Połaniecki nie mylił się. Maszce szło wszystko tak pomyślnie, pani i panna Krasławska zapowiadały się tak wzorowo, że był coraz niespokojniejszy. Chwilami sam się śmiał z tego, a ponieważ przed Połanieckim nie miał od pewnego czasu nic skrytego, więc któregoś dnia rzekł mu z całym cynizmem:</p>
 <p>— Mój drogi — to są po prostu anioły, a mnie włosy na głowie powstają, bo w tem coś jest.</p>
@@ -2929,8 +2902,7 @@
 <p>— I widzisz, co jeszcze prócz tego myślę: że trzeba jednak, by okna domu wychodziły na słońce, inaczej będzie w mieszkaniu zimno.</p>
 <p>— Toś dobrze powiedział — odrzekł Bigiel.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Tymczasem zima poczęła się przełamywać, nadchodził koniec postu, a tem samem zbliżał się termin ślubu tak Połanieckiego, jak Maszki. Bukacki, zaproszony na drużbę, odpisał mu między innemi, co następuje: „Wytrącać wszechsiłę twórczą ze stanu ogólnego, to jest ze stanu doskonałego spoczynku, i zmuszać ją za pomocą zawieranych na ziemi małżeństw do wcielenia się w mniej więcej wrzaskliwe szczegóły, wymagające kołysek i zabawiające się trzymaniem wielkiego palca od nogi w ustach, jest zbrodnią. Przyjadę jednak, ponieważ piece są u was lepsze, niż tu.” Jakoż na tydzień przed świętami przyjechał i przywiózł w darze Połanieckiemu misternie ozdobną pergaminową kartę, w rodzaju klepsydry pogrzebowej, na której był napis: „Stanisław Połaniecki, po długiem i ciężkiem kawalerstwie etc.”</p>
 <p>Połaniecki, któremu karta się podobała, poniósł ją nazajutrz koło południa Maryni. Zapomniał jednak, że to niedziela, i ułożywszy sobie z góry miłe spędzenie czasu do obiadu, doznał jakby rozczarowania, zastawszy Marynię w kapeluszu:</p>
@@ -3080,8 +3052,7 @@
 <p>Poczem, wróciwszy do domu i spojrzawszy na fotografię Litki, rzekł głośno: „Moje kociątko kochane!…” Aż do chwili zaśnięcia myślał następnie o Maryni ze słodyczą i zarazem ze spokojem człowieka, który czuje, że jakieś wielkie zadanie życiowe zostało stanowczo rozwiązane i dobrze rozwiązane.</p>
 <p>Bo jednak, mimo słów Bukackiego, był przekonany, że gdy się ożeni — to tem samem wszystko będzie rozstrzygnięte i skończone.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>„Katastrofa,” jak mówił Bukacki, wreszcie nadeszła. Połaniecki doświadczył też, że jeśli jest w życiu wiele takich dni, w których człowiek nie może połapać własnych myśli, do takich należy przedewszystkiem dzień ślubu. Chwilami kilkanaście naraz kręciło się w jego mózgu, tak niewyraźnych, że podobnych raczej do nieuświadomionych dokładnie wrażeń, niż do myśli. Czuł więc, że w życiu jego zaczyna się nowa epoka, że bierze na siebie wielkie obowiązki, które spełnić trzeba sumiennie i poważnie, a jednocześnie, ale to zupełnie jednocześnie, dziwił się, że kareta dotąd nie zajeżdża i zdziwienie swoje wyrażał w kształcie groźby: „Niech mi się szelmy spóźnią, to im karki pokręcę.” Opanowywał go chwilami nastrój uroczysty i jakby uczciwa bojaźń przed tą przyszłością, za którą brał na siebie odpowiedzialność — czuł w sobie pewną podniosłość i w tem uczuciu podniosłości poczynał mydlić brodę i namyślał się, czy na dzień tak wyjątkowy nie wartoby wyjątkowo sprowadzić fryzyera do swej nieco niesfornej czupryny. Marynia podstawiała się współcześnie we wszystkie jego wrażenia. Widział ją tak, jakby była przed nim. Myślał, że się w tej chwili także ubiera, że stoi w swoim pokoju przed lustrem, że mówi ze służącą, a dusza jej leci ku niemu i serce bije niespokojnie. Wówczas chwytało go rozczulenie i monologował: „Tylko ty się tam nie bój, moje poczciwe stworzenie, bo, dalibóg, ja ci krzywdy nie zrobię” — i widział się w przyszłości dobrym, wyrozumiałym, tak, że z pewnem wzruszeniem począł spoglądać na lakierki, stojące obok fotelu, na którym leżało ślubne ubranie. Powtarzał sobie także od czasu do czasu: „Kiedy się żenić, to się żenić!” Mówił sobie, że był głupi, wahając się, bo takiej drugiej Maryni niema na świecie; czuł że ją kocha, a zarazem myślał, że pogoda jest niezła, ale że może i deszcz upaść, że w kościele Wizytkowskim może być chłodno, że za godzinę będzie klęczał przy Maryni, że bezpiecznej jest wziąć biały krawat wiązany, niż przypinany; że jednak ślub jest chyba najważniejszym w życiu obrządkiem, że jest w tem chyba coś świętego i że nie trzeba, u licha, głowy tracić w żadnych okolicznościach, bo za godzinę to się skończy, nazajutrz wyjadą, a potem zacznie się normalne i spokojne życie męża z żoną.</p>
 <p>Te myśli jednak rozlatywały się chwilami jak stado wróbli, w które ktoś nagle z za płotu strzeli — i w głowie Połanieckiego robiła się próżnia. Mechanicznie wówczas przychodziły mu na usta tego rodzaju frazesy, jak naprzykład: „Ósmy kwietnia, jutro środa! jutro środa! mój zegarek! jutro środa!” — Później budził się, powtarzał sobie: „Trzeba być idyotą!” — i rozproszone ptaki wracały znowu całem stadem do jego głowy i poczynały w niej wichrzyć.</p>
@@ -3101,8 +3072,7 @@
 <p>Ona tymczasem, jadąc, prosiła po cichu Boga żeby jej dopomógł i pozwolił uszczęśliwić męża; dla siebie prosiła także o trochę szczęścia, będąc zresztą pewna, że to jej zmarła matka wyprosi.</p>
 <p>Potem szli oboje prowadzeni pod ręce przez szpaler zaproszonych i ciekawych, widząc trochę jak przez mgłę: w dali świece migocące przy ołtarzu, a obok twarze znajome i nieznajome. Oboje dojrzeli wyraźniej twarz pani Emilii, przybraną w biały kwef Siostry miłosierdzia, i jej oczy, zarazem uśmiechnięte i zalane łzami. Obojgu przypomniała się Litka i przyszło im na myśl, że to ona właściwie prowadzi ich do ołtarza. Po chwili klęczeli, mając przed sobą księdza, wyżej zaś płomyki świec, blaski pozłoceń i święte twarze głównego obrazu. Ceremonia się rozpoczęła. Poczęli powtarzać za księdzem zwykłe wyrazy przysięgi ślubnej, i Połanieckiego, trzymającego rękę Maryni, ogarnęło nagle takie wzruszenie, jakiego się nie spodziewał i jakiego nie doznał od czasu, gdy matka zaprowadziła go do pierwszej komunii. Oto poczuł, że to nie jest tylko zwykły, prawny obrządek, na mocy którego mężczyzna zyskuje prawo do kobiety; ale że w tem związaniu rąk, w tej przysiędze, jest jakaś tajemnicza, zaświatowa moc — jest po prostu Bóg, przed którym uchyla się dusza i serce drży. O uszy obojga odbijały się teraz wśród ciszy uroczyste słowa: „Quod Deus junxit, homo non disjungat” — a Połaniecki odczuwał, że ta Marynia, którą brał, staje się jego ciałem i krwią i częścią jego duszy, i że dla niej również on ma być tem samem. Tymczasem na chórze wybuchnął chór głosów: „Veni Creator” i w kilka chwil później Połanieccy wyszli z kościoła. Po drodze przedtem objęły jeszcze Marynię ręce pani Emilii: „Niech was Bóg błogosławi!” — i gdy oni jechali do domu na weselne przyjęcie, ona poszła na cmentarz, by powiedzieć Litce nowinę, że „pan Stach” ożenił się dziś z Marynią.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>W dwa tygodnie później, w Wenecyi, portyer hotelu Bauera oddał Połanieckiemu list ze stemplem warszawskim. Było to w chwili, gdy oboje z żoną siadali do gondoli, by pojechać do Santa Maria della Salute, gdzie tego dnia, jako w rocznicę śmierci matki Maryni, miała się odprawić msza za jej duszę. Połaniecki, który się nic ważnego z Warszawy nie spodziewał, włożył list do kieszeni i spytał żony:</p>
 <p>— A czy to trochę na mszę nie zawcześnie?</p>
@@ -3274,8 +3244,7 @@
 <p>— Nie! to nie jest głupie.</p>
 <p>— Dalibóg, to wszystko jedno!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>Po tygodniowym pobycie we Florencyi, odebrał Połaniecki pierwszy list od Bigiela w sprawach Domu, a w nim wiadomości tak pomyślne, że przechodzące niemal oczekiwanie. Prawo wzbraniające wywozu zboża z powodu głodu zostało ogłoszone. Ale Spółka miała ogromne zapasy zakupione i wywiezione poprzednio, że zaś ceny w pierwszych zwłaszcza chwilach podskoczyły za granicą nadzwyczajnie — więc Bigiel i Połaniecki poczęli robić doskonałe interesa. Spekulacya, pomyślana i przeprowadzona na wielką skalę, okazała się tak korzystną, iż z ludzi zamożnych, jakimi byli poprzednio, stawali się niemal bogatymi. Połaniecki zresztą od dawna był pewien swego i nie żywił żadnych obaw; wiadomość jednakże ucieszyła go zarówno ze względów finansowych, jak i ze względu na miłość własną. Powodzenie upaja i wzmaga ufność do siebie samego. To też w rozmowie z żoną niezupełnie potrafił się wstrzymać od tego, by jej nie dać do zrozumienia, że jest niepospolitą głową, wyższą bezwarunkowo od całego otoczenia, jakby drzewem najbardziej wybujałem w lesie, człowiekiem, który dochodzi zawsze tam, dokąd zamierzył, słowem: rodzajem Fenixa we własnem społeczeństwie, obfitującem w ludzi, którzy nie mogą sobie dać rady na świecie. Na świecie też całym nie mógł był znaleźć wdzięczniejszego i gotowego przyjąć wszystko z głębszą wiarą słuchacza.</p>
 <p>— Ty jesteś kobieta — mówił jej nie bez pewnego odcienia wyższości — więc cóż ci mam tam opowiadać sprawę od początku i wdawać się w szczegóły. Jako kobiecie, najlepiej wszystko wyjaśnię, gdy ci powiem tak: tego medalionu z czarną perłą, który ci pokazywałem u Godoniego, wczoraj nie byłem w stanie kupić — dziś jestem — i kupię.</p>
@@ -3308,8 +3277,7 @@
 <p>— O, widzi profesor! — ot, tak nam ze sobą! tak!…</p>
 <p>A Połaniecki począł gładzić ręką jej ciemną główkę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>Po tygodniu zawiózł Połaniecki żonę na via Margutta do Świrskiego, z którym poprzednio widywali się niemal codzień, z którym się zżyli, polubili i który miał rozpocząć teraz jej portret. Zastali tam państwa Osnowskich i zrobili z nimi znajomość, tem łatwiej, że panie te były niegdyś, przed kilku laty, razem na jakimś wieczorze, a Połaniecki był nawet w swoim czasie przedstawiony w Ostendzie pani Osnowskiej, potrzebował się więc teraz tylko przypomnieć. Nie pamiętał wprawdzie Połaniecki, czy w owej epoce, w której po zobaczeniu każdej młodej i przystojnej kobiety pytał się siebie: „czyby nie ta?” — zadawał sobie takie pytania i co do dzisiejszej pani Osnowskiej — mogło to jednak być, miała bowiem wówczas opinię ładnej, chociaż nieco narwanej panny. Dziś była to kobieta lat dwudziestu sześciu lub ośmiu, bardzo wysoka, o świeżej lubo smagłej cerze, wiśniowych ustach, rozwianej grzywce i nieco skośnych fiołkowych oczach, które nadawały jej twarzy podobieństwo do twarzy chińskich, a zarazem wyraz pewnej złośliwości i sprytu. Miała dziwny zwyczaj trzymania się, polegający na zasuwaniu w tył ramion, a wysuwaniu naprzód figury, wskutek czego Bukacki mówił o niej, że nosi biust „en offrande.” W jednej niemal chwili powiedziała Maryni, iż ponieważ pozują w jednej pracowni, więc się powinny uważać za koleżanki; Połanieckiemu, że go sobie przypomina z balu w Ostendzie, jako dobrego tancerza i dobrego „causeur,” i że z tego nie omieszka i teraz korzystać; obojgu, iż jej bardzo przyjemnie, że się upaja Rzymem, że czyta „Cosmopolis,” że jest zakochana w willi Doria, w widoku z Pincio, że ma nadzieję, iż razem zobaczą katakumby, i że zna dzieła Rossiego w przekładzie Allarda. Poczem uścisnąwszy ręce Świrskiemu i uśmiechnąwszy się z kokieteryą do Połanieckiego, wyszła, oświadczając, że ustępuje miejsca godniejszej od siebie, i zostawiając wrażenie zawieruchy, Chinki i kwiatu. Pan Osnowski, człowiek bardzo młody, z nic nie znaczącą, ale dobrą twarzą jasnego blondyna, wyszedł za nią, nie zdoławszy prawie przemówić słowa.</p>
 <p>Świrski odetchnął głęboko.</p>
@@ -3381,8 +3349,7 @@
 <p>Ona zaś, podając mu rękę, mówiła głosem tak miękkim, jak ów głos fletu, dochodzący od strony kościoła:</p>
 <p>— Zacznę wierzyć w przeczucia, bo doprawdy coś mi mówiło, że znajdę tu znajomych. Jaka noc śliczna!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV</head>
 <p>Wróciwszy do hotelu, Połanieccy znaleźli z pewnem zdziwieniem karty wizytowe państwa Osnowskich, a zdziwienie ich pochodziło stąd, że im-to pierwszym, jako młodemu małżeństwu, należało składać wizyty. Na uprzejmość, i tak niezwykłą, trzeba było odpowiedzieć równą uprzejmością, nazajutrz więc pokwapili się z rewizytą. Bukacki, który ich przedtem widział, jakkolwiek mocno niezdrów i ledwie włóczący nogi, zdobył się wszelako na jeden ze swych zwykłych konceptów i rzekł Połanieckiemu, gdy na chwilę zostali sam na sam:</p>
 <p>— Ona będzie cię kokietowała, ale jeśli przypuszczasz, że się w tobie zakocha, to się mylisz. W niej jest trochę podobieństwa do brzytwy — potrzeba jej paska do ostrzenia się — i w najlepszym razie będziesz dla niej paskiem.</p>
@@ -3460,8 +3427,7 @@
 <p>A Połaniecki odpowiedział:</p>
 <p>— Ona w tej chwili pisze pamiętnik, który „Józio” uważa za arcydzieło…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV</head>
 <p>Nazajutrz, gdy Marynia wyszła ubrana do męża, ów ledwie ją poznał. Ubrana w czarną suknię i w czarnej koronce na głowie, wydawała mu się wyższą, szczuplejszą, smaglejszą i starszą. Ale podobała mu się pewna w niej powaga, która przypomniała mu chwilę ślubu. W pół godziny później wyjechali. Marynia przyznała mu się po drodze do strachu i do bicia serca, on zaś uspokajał ją, żartując, chociaż także był nieco wzruszony, a gdy po krótkiej drodze wjechali w olbrzymie półkole przed Św. Piotrem, czuł, że i jemu pulsa nie biją jak codzień, a prócz tego miał takie dziwne wrażenie, jakby był mniejszy niż zwykle. U schodów, przy których stało kilku szwajcarów, przybranych w przepyszne, obmyślone przez Michała Anioła, ubiory, znaleźli Świrskiego, który wprowadził ich na górę, wraz z tłumem ludzi, przeważnie Belgów. Marynia, trochę ogłuszona, sama nie wiedziała, kiedy znalazła się w bardzo obszernej sali, w której tłum był jeszcze większy, z wyjątkiem w środku, gdzie szwajcarowie, ustawieni w szpaler, utrzymywali szerokie wolne przejście. Tłumy, między którymi słychać było język francuski i flamandzki, szepcąc między sobą zniżonymi głosami, zwracały głowy i oczy ku temu przejściu, w którem zjawiały się od czasu do czasu przez drzwi przyległej sali postacie w dziwnych kostyumach, przenoszących Połanieckiego myślą do galeryi antwerpskich lub brukselskich. Zdawało mu się, że średnie wieki zmartwychwstają: czasem więc był to jakby jakiś rycerz średniowieczny, w innym wprawdzie hełmie niż na dawnych obrazach, ale ze stalą na piersiach; czasem niby herold w krótkiej czerwonej dalmatyce i w czerwonym na głowie berecie; chwilami przez uchylone drzwi migały purpury kardynalskie, lub fiolety biskupie, strusie pióra, koronki na czarnych aksamitach i głowy niezmiernie sędziwe, o białych włosach, lub twarze jakby z sarkofagów. A jednak znać było, że spojrzenia tłumów padają na te osobliwe stroje, na te barwy i na te twarze, jakby mimochodem, że oczy szukają czegoś innego, wyższego, i czegoś innego serca, że uwaga skupia się w myślach, a uczucie w duszach, w oczekiwaniu jakiejś chwili, którą się w życiu raz ma, a na zawsze pamięta. Połaniecki, trzymając Marynię za rękę, by jej nie zgubić w tłumie, czuł, jak ta ręka drży ze wzruszenia, sam zaś, wśród tych cichych tłumów, wśród tej powagi historycznej i jakby zmartwychwstałych prastarych czasów, wśród tego skupienia i oczekiwania — doznał znów tego dziwnego wrażenia, że staje się coraz mniejszy i mniejszy, i tak mały, jak nigdy w życiu.</p>
 <p>Wtem jakiś głos cichy i nieco zdyszany szepnął przy nich:</p>
@@ -3481,8 +3447,7 @@
 <p>— „Służba boża!” — czy pamiętasz?</p>
 <p>Lecz ona powiedziała to niegdyś z taką prostotą i jako rzecz, która tak bardzo rozumiała się sama przez się, że teraz nie pamiętała nic a nic.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI</head>
 <p>Połaniecki ciągle jednak był w niełasce u pani Osnowskiej. Spotykając się z nim u Świrskiego między jednem posiedzeniem a drugiem, mówiła z nim tylko tyle, ile nakazywało jej dobre wychowanie i grzeczność. Połaniecki widział to doskonale, czasem pytał się siebie: „Czego ona ode mnie chce”? — i niewiele sobie z tego robił, a byłby jeszcze mniej robił, gdyby jednak pani Osnowska, zamiast dwudzieściu ośmiu, miała pięćdziesiąt ośm lat, gdyby nie posiadała tak fiołkowych oczu i tak wiśniowych ust. I taka jest natura ludzka, że pomimo, iż rzeczywiście niczego od niej nie chciał i nie wyglądał, nie mógł wstrzymać się od myślenia, coby być mogło, gdyby istotnie starał się o jej łaski i do czego ona byłaby zdolna się posunąć.</p>
 <p>Odbyli we czworo jeszcze jedną przejażdżkę do katakumb Św. Kalixta, Połaniecki bowiem chciał się wypłacić grzecznością za grzeczność, to jest powozem za powóz. Ale wycieczka ta nie przyniosła zgody. Rozmawiali tylko o tyle, żeby nie zwrócić na siebie uwagi — i jego wreszcie zaczęło to gniewać. Rzeczywiście, to zachowanie się pani Osnowskiej wytwarzało między nimi szczególny stosunek, niby niechętny, ale im tylko wiadomy, zatem coś wyłącznego między nimi, jakiś rodzaj tajemnicy, do której nikt inny nie był dopuszczany. Połaniecki sądził, że wreszcie wszystko to urwie się z chwilą, gdy koło jej portretu nic już nie będzie do roboty, ale tymczasem, choć twarz była już dawno skończona, pozostawało dużo innych drobnych szczegółów, dla których obecność uroczej modelki okazywała się niezbędną.</p>
@@ -3573,8 +3538,7 @@
 <p>Sądził, że dając jej opiekę, chleb, dobre obchodzenie się i miażdżąc od czasu do czasu jej usta pocałunkami, spełnia wszelkie możliwe obowiązki, jakie względem niej zaciągnął. Tymczasem stosunki między nimi zaznaczały się coraz wyraźniej w ten sposób, że on tylko raczył kochać i raczył przyjmować miłość. W ciągu jego spostrzeżeń życiowych uderzało go niejednokrotnie dziwne zjawisko, że gdy naprzykład człowiek, znany z uczciwości, spełnił jakiś szlachetny postępek; ludzie kiwali rękoma, jakby z pewną niedbałością, mówiąc: „Ach, ten, pan X. To zupełnie naturalne!” Gdy jednak wypadkiem zdarzyło się uczynić coś uczciwego szui — ci sami ludzie mówili z wielkiem uznaniem: „A jednak w nim coś jest”. Sto razy Połaniecki widział, że grosz, dany przez skąpca, więcej czyni wrażenia, niż dukat, dany przez człowieka hojnego. Nie zdawał sobie jednak sprawy, że w stosunku do Maryni sam trzyma się takiej samej miary sądu i uznania. Oddawała mu całą swą istność, całą duszę? — „Ach, Marynia! to naturalne!” I kiwał również ręką. Gdyby jej miłość nie była tak bezwzględną, gdyby przychodziła mu z większą trudnością, gdyby w przeświadczeniu, że jest skarbem, oddawała się jako skarb, gdyby w przeświadczeniu, że jest bóstwem, wymagała schylonej głowy i czci — Połaniecki byłby ją przyjmował ze schyloną głową i czcił. Takie jest ogólnie serce ludzkie i tylko najbardziej wyborowe natury, utkane z promieni, umieją wznieść się nad ten poziom. Marynia oddawała Połanieckiemu swoją miłość, jako jego prawo — więc i przyjmował ją, jako swoje prawo. Jego miłość uważała za szczęście, więc też on dawał ją jako szczęście — sam zaś czuł się bożkiem w ołtarzu. Jeden jego promień padał na serce kobiece i rozjaśniał je — resztę promieni bożek chował dla siebie. Biorąc wszystko — oddawał tylko część. W jego miłości nie było tej bojaźni, która wypływa ze czci — i nie było tego, co w każdej pieszczocie mówi kochanej kobiecie: „Do twoich stóp!”</p>
 <p>Ale nie rozumieli jeszcze tego oboje.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVII</head>
 <p>— Nawet się nie pytam — mówił Bigiel do Połanieckiego, po jego powrocie do Warszawy — czy jesteś szczęśliwy. Z taką osobą, jak twoja żona, nie można być nieszczęśliwym.</p>
 <p>— Tak — odpowiedział Połaniecki. — Marynia taka poczciwa kobiecina, że trudno o lepszą.</p>
@@ -3699,8 +3663,7 @@
 <p>Zawiłowski odszedł tego dnia do siebie, zachwycony domem, ludźmi, ich prostotą, <emph>Pieśnią wiosenną</emph>, a szczególniej panią Połaniecką.</p>
 <p>Ona zaś ani się domyślała, że z czasem może wzbogacić „nowym dreszczem” poezyę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVIII</head>
 <p>Państwo Maszkowie odwiedzili Połanieckich w tydzień po ich przyjeździe. Ona, przybrana w szarą suknię, obszytą takiejże barwy marabutem, wyglądała tak ładnie, jak nigdy. Zapalenie oczu, na które dawniej cierpiała, przeszło. Twarz jej posiadała dawniejszą obojętną, prawie senną łagodność, ale obecnie podnosiło to tylko jej artystyczny wyraz. Dawniejsza panna Krasławska była starsza około pięciu lat od Maryni i jako panna wyglądała starzej, teraz jednak zdawało się, że odmłodniała. Wysmukła i rzeczywiście nader zgrabna jej postać rysowała się w obcisłej sukni, jak dziecinna. Szczególną było rzeczą, że Połaniecki, który jej nie lubił, znajdował w niej coś pociągającego, i ilekroć ją widział, mówił sobie: „Wszelako w niej coś jest.” Nawet jej głos monotonny i nieco dziecinny miał dla niego pewien urok. Obecnie wprost powiedział sobie, że wygląda wyjątkowo wdzięcznie i że więcej się zmieniła na korzyść od Maryni.</p>
 <p>Sam Maszko zakwitł również, jak słonecznik. Dystynkcya aż biła od niego, a obok niej pewność siebie i duma, łagodzona łaskawością. Zdawaćby się mogło, że jednego dnia nie jest w stanie objechać swych włości — słowem <emph>udawał</emph> więcej niż kiedykolwiek. Nie udawał tylko miłości do żony, znać bowiem było z każdego jego spojrzenia, że ją pokochał rzeczywiście. Naprawdę trudno byłoby znaleźć kobietę, któraby lepiej odpowiadała jego pojęciom o dobrym smaku, wykwintności i wielkoświatowym polorze. Jej obojętność, jej jakby zamrożone obejście się z ludźmi, uważał za coś wprost nieporównanego. Ona tej „dystynkcyi” nie traciła nigdy i w żadnej chwili, nawet sam na sam z nim. On zaś, jak prawdziwy parweniusz, który posiadł księżniczkę, pokochał ją właśnie dlatego, że mu się wydawała księżniczką i że ją posiadł.</p>
@@ -3770,8 +3733,7 @@
 <p>— Tak, ale nie chcę, żeby i ta stała tu, tak na widoku. Każdy robi uwagi, a czasem mnie to gniewa. Pozwolisz?</p>
 <p>— Dobrze, mój Stachu — odpowiedziała Marynia.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIX</head>
 <p>Bigiel usilnie namawiał Połanieckiego, by nie zwijać Domu i nie rzucać się zbyt pośpiesznie w innego rodzaju przedsiębiorstwa. „Stworzyliśmy uczciwy kupiecki dom — (mówił) — jakich u nas mało — i dlatego jesteśmy pożyteczni”. Utrzymywał, że przez samą wdzięczność należy prowadzić dalej interes, za pomocą którego podwoili niemal majątki, przyczem wypowiadał przekonanie, iż okażą największy rozum, gdy teraz właśnie będą prowadzili rzecz ostrożnie, gruntownie, i gdy pierwsza śmiała spekulacya, jakkolwiek szczęśliwa, nietylko nie zachęci ich do innych, ale będzie ostatnią. Połaniecki zgadzał się na to, że umiarkowanie trzeba okazać właśnie w powodzeniu, ale narzekał, iż w Domu nie może się pomieścić i pragnąłby coś produkować. Miał on tyle zmysłu praktycznego, że o fabryce na własną rękę jeszcze nie myślał. „Małej nie chcę prowadzić — mówił — bo mnie wielkie, produkujące <emph>en gros</emph>, pochłoną, a na wielką nie mam, w akcyjnej zaś pracowałbym nie na siebie, ale na innych”. Rozumiał też, że o akcyonaryuszów, złożonych z miejscowych żywiołów, nie łatwo, a obcych nie chciał, wiedząc przytem, że nie potrafi wzbudzić w nich zaufania, i że samo jego nazwisko będzie mu w tem przeszkodą. Bigiel, któremu chodziło o „Dom”, szczerze rad był z tej trzeźwości poglądu.</p>
 <p>W Połanieckim zaś zbudziła się jeszcze inna chęć, mianowicie odwieczna, stara jak ludzkość, chęć posiadania. Po szczęśliwej spekulacyi i po zapisie Bukackiego stał się on człowiekiem zupełnie zamożnym, ale przy całej swej istotnej trzeźwości, miał jakieś dziwne poczucie, że ta zamożność, polegająca choćby na najpewniejszych, zamkniętych w kasie ogniotrwałej papierach, jest również papierową i pozostanie nią dopóty, dopóki nie będzie posiadał czegoś realnego, o czemby mógł powiedzieć: „To moje!” Ta dziwna żądza ogarniała go coraz silniej. Nie chodziło mu o nic wielkiego, ale o jakikolwiek kąt, byle własny, gdzieby mógł czuć się u siebie. Próbował nad tem filozofować i tłómaczył Bigielowi, że ta chęć posiadania musi być jakąś namiętnością wrodzoną, którą można potłumić, ale która w wieku dojrzalszym odzywa się z nową siłą. Bigiel uznawał, że tak może być, i mówił mu:</p>
@@ -3844,8 +3806,7 @@
 <p>— Prawda! przepraszam!</p>
 <p>I wyszedł do swego pokoju rozpatrywać plan jakiegoś letniego domu z ogrodem, który mu dzisiejszego rana przysłano.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XX</head>
 <p>Lecz choroba pani Połanieckiej nie trwała długo i w tydzień później mogli już oboje pojechać do Bigielów, którzy tymczasem przenieśli się na letnie mieszkanie; pogoda bowiem, mimo wczesnej pory, uczyniła się piękna i w mieście zaczęły się prawie upały. Zawiłowski, który był się już oswoił, przyjechał także, wraz z ogromnym latawcem, którego mieli puszczać na współkę z Połanieckim i dziećmi. Bigielowie polubili Zawiłowskiego również, ponieważ był człowiekiem prostym i poza swoją dzikością wesołym, a chwilami nawet dziecinnym. Pani Bigielowa utrzymywała przytem, że ma szczególną głowę, co było o tyle prawdą, że posiadał bliznę na powiece i że wystająca broda nadawała mu wyraz energii, której całkowicie przeczyła górna część twarzy, tak delikatna, że prawie kobieca. Z początku pani Bigielowa doszukiwała się w nim oryginała, ale on zbyt uświadamiał wszystko, a zatem i samego siebie, by mógł być oryginałem. Był tylko nierównym przez nieśmiałość, wielkim entuzyastą i człowiekiem nie bez ukrytej pychy.</p>
 <p>Przy obiedzie rozpowiadano mu o Osnowskich, o zamierzonych wieczorach ateńsko-rzymsko-florenckich, o pannie Castelli i o ciekawości, jaką w paniach wzbudził.</p>
@@ -3936,8 +3897,7 @@
 <p>Połaniecki, spostrzegłszy jego rumieniec, począł się śmiać i rzekł:</p>
 <p>— Ha! trudno! każdy musi przez to przejść: przeszedłem i ja!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXI</head>
 <p>Marynia nie skarżyła się nawet sama przed sobą na męża. Nie było dotąd między nimi najmniejszego nieporozumienia. Musiała tylko przyznać, że prawdziwe, bardzo wielkie szczęście, a zwłaszcza bardzo wielką miłość, taką, o jakiej marzyła, gdy Połaniecki był jej narzeczonym, wyobrażała sobie inaczej. O tem przekonywał ją każdy niemal dzień. Inne były nadzieje, inną pokazywała się rzeczywistość. Prawa natura Maryni nie poczęła się przeciw tej rzeczywistości buntować, ale padł na nią cień smutku, wraz z poczuciem, że ów cień może się stać z czasem tłem życia. Mając pełną duszę dobrej woli, próbowała sobie z początku dowieść, że to są jej własne urojenia. Czego jej brakło i w czem Połaniecki mógł ją zawieść? Nie wyrządził jej nigdy umyślnej przykrości; ilekroć przyszło mu do głowy, że coś mogłoby być jej przyjemne, starał się jej to zapewnić: był dla niej hojny, dbał o jej zdrowie, chwilami zacałowywał jej twarz i ręce — słowem, był raczej dobrym, niż złym. A jednak czegoś w tem brakło. Maryni trudno było to określić w jednem lub kilku słowach, ale umysł jej był zbyt jasnym, żeby nie rozumieć tego, co serce odczuwało codzień żywiej i codzień smutniej. Czegoś brakło! Po wielkiem i uroczystem święcie miłości zaczynał się szereg dni powszednich, a jej żal było święta; chciałaby była rozciągnąć je na całe życie, widziała zaś ze zmartwieniem, że mężowi jej ta powszedniość wydawała się właśnie czemś normalnem i pożądanem. Tak jak było, nie było źle, ale to nie było owo wysokie szczęście, które <emph>„taki człowiek”</emph> powinien był zdolny czuć, stworzyć i dać. Ale prócz tego chodziło i o inne rzeczy. Oto ona czuła, iż jest więcej jego, niż on jej — i że gdy ona oddaje mu całą duszę, on zwraca jej ze swojej tylko tę cząstkę, którą z góry przeznaczył na użytek domowy. Mówiła sobie wprawdzie, że on jest mężczyzną, że ma po za nią cały świat pracy i myśli; ale niegdyś spodziewała się, że on ją weźmie za rękę i w ten świat wprowadzi, że przynajmniej w domu będzie się nim z nią dzielił, tymczasem nie mogła się nawet łudzić, żeby tak było. I rzeczywistość gorsza była, niż sobie wyobrażała. Połaniecki — jak sam się wyrażał — wziął ją i miał, i gdy wzajemne ich uczucie stało się zarazem prostym wzajemnym obowiązkiem, sądził, iż nie potrzebuje inaczej się o nie troszczyć, ani inaczej o nie zabiegać, jak o wszelkie inne obowiązki codziennego życia. Nie przyszło mu wprost do głowy, że do takiego ogniska nie dość jest dokładać zwyczajnych drew, jak się dokłada do komina, ale że trzeba sypać w nie bursztyn i myrrę, tak jak się je sypie przed ołtarzem. Gdyby mu ktokolwiek coś podobnego powiedział, wzruszyłby ramionami i uznał go za romantyka. Dlatego była w nim może troskliwość męża, ale nie było nic troski kochanka, ani przejęcia się, ani czuwania, ani takiej bojaźni, która w mniejszym zakresie ziemskich uczuć jest tem, czem bojaźń boża w uczuciu religijnem. Niegdyś, gdy po sprzedaży Krzemienia Marynia była względem niego obojętna, on czuł i przeszedł przez to wszystko, ale teraz, a nawet od czasu śmierci Litki, gdy począł być zupełnie pewnym, że ona jest jego własnością, nie myślał o niej więcej, niż wypada myśleć o własności. Uczucie jego, oparte przeważnie na jej uroku fizycznym, posiadło to, czego chciało — i było spokojne, a czas mógł je tylko w przyszłości spowszedniać, ochładzać, stępiać.</p>
 <p>Tymczasem teraz już, jakkolwiek było jeszcze żywe, brakło mu takiej naprzykład czujnej i pieszczotliwej tkliwości, jaka była w uczuciu dla Litki. I Marynia to spostrzegła. Dlaczego tak było? — na to nie umiała odpowiedzieć, nie mniej jednak wyraźnie czuła, że była dla tego człowieka, któremu chciała być wszystkiem, czemś pospolitszem i mniej cennem, niż tamto zmarłe dziecko.</p>
@@ -4000,8 +3960,7 @@
 <p>A ona, jak dziecko, które się tłómaczy, poczęła mówić głosem, w którym drgały łzy, ale zarazem i jakaś otucha:</p>
 <p>— Nie, Stachu! — owszem! — jak ciebie kocham, tak ciągle myślałam o tobie!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXII</head>
 <p>— A widzicie państwo, że byłem — mówił wesoło u Bigielów Zawiłowski — patrzyli na mnie trochę jak na jakąś panterę, albo na wilka, ale ja okazałem się bardzo oswojonem stworzeniem; nikogo nie podrapałem, nic nie rozbiłem, odpowiadałem mniej więcej przytomnie. Nie, ja to przecie dawno zauważyłem, że z ludźmi łatwiej żyć, niż się wydaje — i tylko w pierwszych chwilach mam zawsze ochotę zmykać. Ale te panie naprawdę bardzo są swobodne.</p>
 <p>— Proszę nas nie zbywać i opowiedzieć nam dokładnie wszystko, jak było — rzekła pani Bigielowa.</p>
@@ -4094,8 +4053,7 @@
 <p>Tu przypomniało mu się, co Waskowski mówił niegdyś o próżności, o komedyanctwie, poczem pomyślał:</p>
 <p>— A jednak takim ludziom u nas się powodzi!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXIII</head>
 <p>Pani Osnowska zapomniała tak zupełnie o swoich „florencko-rzymskich” wieczorach, że była zdziwiona, gdy jej je kiedy mąż przypomniał. Jakieś wieczory! ani jej w głowie! Ona ma teraz inne zajęcie, które się nazywa „oswajaniem orła.” „Jeśli kto nie widzi, że <emph>orzeł</emph> i Lineta dla siebie stworzeni, to z przeproszeniem męża i pana, ma bardzo krótki wzrok, ale na to niema rady. Mężczyźni wogóle wielu rzeczy nie rozumieją, bo im brak poczuć! Zawiłowski może być pod tym względem wyjątkiem, ale gdyby Marynia Połaniecka powiedziała mu po przyjaźni, żeby się staranniej ubierał i zapuścił brodę, toby było doskonale! Castelka taka nawskróś estetyczna, że ją byle co razi, choć z drugiej strony on ją porywa — mało powiedzieć! — wprost hipnotyzuje!… I przy jej naturze — niema w tem nic dziwnego!”</p>
 <p>Pan Osnowski, słuchając takiego szczebiotania, rozpływał się z zachwytu i korzystając ze sposobności, starał się opanować ręce żony, by je pokrywać pocałunkami aż do łokci; raz jednak zadał jej to zupełnie naturalne pytanie, które i Połaniecki zadał Maryni:</p>
@@ -4141,11 +4099,8 @@
 <p>— Ludzie zwykle sobie życzą pierwszego syna — rzekł — ale ty mi pamiętaj, żeby była córka. Damy jej na imię Litka.</p>
 <p>Oboje nie mogli jednak długo usnąć tej nocy — i oto dlaczego Zawiłowski widział światło w ich oknach.</p>
 </div>
-<div>
-<p>Tom III</p>
 </div>
-<div>
-</div>
+<div type="group"><head>Tom III</head>
 <div type="chapter"><head>I</head>
 <p>Po tygodniu, gdy prawdopodobieństwo stało się pewnością, Połaniecki zwiastował nowinę Bigielom. Pani Bigielowa poleciała jeszcze tegoż dnia do Maryni, która rozpłakała się z radości w jej poczciwych ramionach.</p>
 <p>— Zdaje mi się — rzekła — że mnie teraz i Stach będzie więcej kochał?</p>
@@ -4276,8 +4231,7 @@
 <p>— Niema nad młode…</p>
 <p>Resztę zgłuszył turkot na ulicy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Od tego czasu Zawiłowski przychodził codziennie do cioci Broniczowej. Często zastawał jeszcze Kopowskiego, albowiem w ostatnich czasach coś popsuło się w portrecie „Antinousa”. Panna Lineta mówiła, że nie zdołała jeszcze wszystkiego z tej twarzy wydobyć, że może wyraz jest nie taki, jak być powinien — słowem: potrzebowała czasu do namysłu. Z Zawiłowskim szło jej łatwiej.</p>
 <p>— W takiej głowie, jak pana Kopowskiego — rzekła raz — dość jest zmienić najmniejszą linię, dość położyć niewłaściwie światło, żeby wszystko przepadło. Tymczasem w panu Zawiłowskim trzeba chwycić przedewszystkiem charakter.</p>
@@ -4470,8 +4424,7 @@
 <p>— To kup pan sobie w takim razie harfę…</p>
 <p>Ale, na wspomnienie o harfie, Bigiel chwycił swoją wiolonczelę, mówiąc, że taki wieczór trzeba skończyć muzyką; Marynia siadła do fortepianu i po chwili poczęli serenadę Händla. Zawiłowski miał wrażenie, że dusza z niego wychodzi, bierze te łagodne tony w siebie i leci wśród nocy, kołysać nimi do snu Linetę. Późnym wieczorem wyszedł, jakby pokrzepiony widokiem tych zacnych ludzi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>A Marynia miała już spokój — „taki, jaki Bóg dał” — ale rzeczywiście głęboki. Wielką pomocą w odzyskaniu jego był ów zagrobowy głos, owa pożółkła już przez lata książeczka, w której wyczytała: „Nie po to powinno się wychodzić za mąż, by być szczęśliwą, ale po to, by spełnić te obowiązki, które Bóg wówczas wkłada”. Marynia, która często zaglądała do tej książeczki, nieraz poprzednio odczytywała te słowa, ale prawdziwego znaczenia nabrały one dla niej dopiero w ostatnich czasach, wśród tego procesu duchowego, przez który przechodziła od powrotu z Włoch. Skończył się on w ten sposób, że nietylko pogodziła się z losem, ale obecnie nie dopuszczała nawet myśli, że jest nieszczęśliwa. Powtarzała sobie, że jest to szczęście inne wprawdzie, niż sobie wyobrażała, ale nie mniej rzeczywiste. Zapewne, że gdyby jej Bóg dał moc rządzenia sercami ludzkiemi, toby chciała, żeby „Stach” okazywał jej — nie więcej czci — ale więcej takiej tkliwości, do jakiej był zdolny i jaką okazywał był w swoim czasie Litce; żeby uczucie jego dla niej mniej było trzeźwe, żeby było w niem to jakieś ziarnko poezyi, którą miała jej miłość. Ale z drugiej strony, naprzód, gdzieś, w jakimś kąciku serca żywiła zawsze nadzieję, że to przyjść może, a powtóre, myślała w duszy, że gdyby nawet nie przyszło, to i tak powinna Bogu dziękować, że jej dał człowieka dzielnego i prawego, którego mogła nietylko kochać, ale i cenić. Nieraz zastanawiała się, z kimby go tu porównać — i nie umiała znaleźć nikogo, ktoby porównanie wytrzymał. Bigiel był zacny człowiek, ale nie miał tego polotu; Osnowskiemu, przy całej jego dobroci, brakło tej dzielności życiowej i brakło pracy; Maszko był istotą we wszystkiem stokroć niższą; Zawiłowski wydawał jej się raczej genialnem dzieckiem, niż mężczyzną — słowem: z porównań Stach wychodził zawsze zwycięsko — i jedynym ich rezultatem zawsze było, że czuła do niego coraz większe zaufanie życiowe i coraz więcej go kochała. Przytem, ograniczając siebie, poddając mu swoje ja, przynosząc na ofiarę swoje rojenia i swój egoizm, miała poczucie, że coraz więcej wyrabia się duchowo, że się doskonali, że staje się lepszą, że nie schodzi na żaden niż, ale wstępuje na jakieś wyżyny, skąd duszy bliżej do Boga — i nagle spostrzegła, że w takiem poczuciu leży cały świat szczęścia. Połaniecki często bywał teraz za domem, więc ona często zostawała sama i nieraz rozumowała z wielką prostotą uczciwej kobieciny: „Przecież człowiek powinien się starać, by być coraz lepszy, a jeżeli ja nie jestem gorsza, niż byłam — to i dobrze! Gdyby było inaczej, tobym się może popsuła!” Nie przychodziło jej jednak na myśl, że jest w tem więcej mądrości, niż naprzykład we wszystkich myślach i powiedzeniach pani Osnowskiej. Wydało jej się też naturalnem, że tymczasem ma dla „Stacha” mniej powabu, niż przedtem. Od tego miała duże lustro, w które spoglądając, mówiła sobie: „No, oczy się nie zmieniają, ale co to za figura! co za twarz! Ja, żebym była Stachem, tobym uciekła z domu!” I myślała nieprawdę, bo nie byłaby uciekła, ale zdawało jej się, że w ten sposób powiększa zasługę Stacha. Dodawały jej też otuchy słowa pani Bigielowej, że potem będzie jeszcze ładniejsza, „zupełnie, jak jaka dziewczyna”. I chwilami wzbierała w jej sercu radość i wdzięczność, że tak wszystko mądrze urządzone, iż z początku jest się trochę brzydszą, potem trzeba trochę przecierpieć, a jeszcze potem, nietylko, że wszystko wraca, ale w nagrodę ma się jeszcze „bobo” kochane, które i z życiem wiąże, i nowy węzeł między żoną a mężem wytwarza. W ten sposób miewała chwile nietylko spokoju, ale i wprost wesołości — i kiedyś rzekła pani Bigielowej:</p>
 <p>— Wiesz, co ja myślę, że zawsze można być szczęśliwą, tylko trzeba się Boga bać.</p>
@@ -4500,8 +4453,7 @@
 <p>I w tem: „nie wypada!” była cała jej dusza.</p>
 <p>On wrócił, klnąc naprawdę ją i siebie, a wróciwszy, zastał w jasnym, spokojnym pokoju Marynię z Zawiłowskim, dowodzącą, że w małżeństwie winno się szukać nie jakiegoś urojonego szczęścia, ale obowiązków, które Bóg wówczas wkłada.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>— Co mi pani Osnowska i co mi jej wszystkie sprawki? — mówił sobie nazajutrz Zawiłowski, idąc do pani Broniczowej — ja nie żenię się z panią Osnowską, tylko <emph>z tą moją! </emph> Po com ja się wczoraj tak szarpał i dręczył?</p>
 <p>I rzekłszy to do „swojej duszy wyniosłej”, począł już tylko myśleć o tem, co powie pani Broniczowej, albowiem, mimo upewnień Osnowskiego, mimo wszelkiej nadziei, że ta rozmowa będzie tylko jakąś formą, którą trzeba wypełnić, mimo zaufania do serca Linety i dobroci pani Broniczowej, „wyniosła dusza” była w strachu. Zastał obie panie razem — i już, ośmielony dniem wczorajszym, przycisnął do ust rękę Castelki, która spłoniwszy się leciuchno, rzekła:</p>
@@ -4600,8 +4552,7 @@
 <p>Zdarzały się jednak na tem niebie i chmurki, ale nie oni temu byli winni. Młodemu człowiekowi zdawało się czasem, że jego uczucie nadto jest dozorowane, że i pani Broniczowa i pani Osnowska zanadto sprawdzają, czy kocha, zanadto rozpatrują, jak kocha. Tłómaczył to sobie wprawdzie ciekawością kobiecą i wogóle zajęciem, jakie w kobietach wzbudza miłość, ale wolałby był mieć więcej swobody i wolałby był, żeby mu nie pomagano kochać. Uczucie swe uważał za świętość i przykro mu było czynić z niego wystawę dla niepowołanych oczu, a tymczasem śledzono każdy jego ruch i każde słowo. Przypuszczał także, że się muszą potem odbywać kobiece sesye, na których pani Broniczowa z panią Osnowską wydają swoje „approbatur”, i ta myśl gniewała go, bo sądził, że obie nie są nawet w stanie zrozumieć jego uczucia.</p>
 <p>Gniewało go również, że Kopowski został zaproszony do Przytułowa i że wybierał się tam razem ze wszystkimi, ale w tym wypadku chodziło mu tylko o Osnowskiego, którego szczerze polubił. Pozorem do tych zaprosin był niedokończony przez pannę Linetę portret Kopowskiego. Zawiłowski zrozumiał teraz jasno, że wszystko stało się tak za namową pani Osnowskiej, która doskonale umiała ludziom podsuwać swoje życzenia, jako ich własne. Chwilami przychodziło mu nawet do głowy prosić pannę Linetę, by zaniechała kończenia tego portretu, ale wiedział, że ją zasmuci tem żądaniem, jako artystkę, a przytem bał się, by go nie posądzono o zazdrość o takiego mydłka, jak „Koposio”.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Świrski przyjechał istotnie z Włoch z ciałem Bukackiego i zaraz na drugi dzień po przyjeździe poszedł do Połanieckich. Zastał jednak tylko Marynię, mąż jej bowiem wyjechał był za rogatki dla oglądania jakiejś wystawionej na sprzedaż kolonii. Marynię znalazł tak zmienioną, że z trudnością ją poznał, ale że w Rzymie polubił ją ogromnie, więc się tylko tem bardziej rozczulił jej widokiem; po chwili zresztą wydała mu się tak wzruszająca i tak w swoim rodzaju piękna w aureoli przyszłego macierzyństwa, a prócz tego tyle mu nasunęła artystycznych porównań z rozmaitemi „primitivami” rozmaitych szkół włoskich, że, wedle zwyczaju, zaczął głośno swoje zachwyty wypowiadać. Ona śmiała się z jego oryginalności, ale jednak dodał jej pewnej w biedzie otuchy i rada była, że przyjechał — naprzód dlatego, że czuła szczerą sympatyę dla tej krzepkiej i zdrowej natury, a powtóre, iż była pewną, że się będzie nad nią zachwycał i przy „Stachu”, a tem samem podnosił ją w jego oczach.</p>
 <p>Zatrzymała go też dość długo, chcąc, by doczekał powrotu Połanieckiego; ten jednak wrócił dopiero późnym wieczorem, a tymczasem nadszedł Zawiłowski, który teraz, potrzebując kogoś, przed kimby mógł wylewać swój nadmiar szczęścia, odwiedzał panią Połaniecką dosyć często. Przez chwilę obaj ze Świrskim spoglądali na siebie z pewną ostrożnością, jak się zwykle zdarza ludziom wybitnym, którzy wzajem obawiają się wygórowanych pretensyi, a natomiast tem łatwiej przystają do siebie, gdy spostrzegą, że obaj są prości. Tak stało się i z nimi. Do złamania lodów przyczyniła się także i Marynia, przedstawiając Zawiłowskiego, jako narzeczonego znajomej Świrskiemu panny Castelli.</p>
@@ -4688,8 +4639,7 @@
 <p>Świrski siadł wraz z panią Emilią do powozu Połanieckich i przez czas jakiś zbierał w milczeniu wrażenia, a wreszcie rzekł:</p>
 <p>— Jakie to dziwne! Dziś byliśmy na pogrzebie, jutro będziem na zaręczynach: co śmierć wykosi, miłość posieje i to jest życie!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Zawiłowski życzył sobie, by jego zaręczyny odbyły się nie wieczorem, przy ludziach, tylko przedtem, i stało się zadość jego woli, tem bardziej, że Castelka, która chciała przed ludźmi ukazać się już jako narzeczona, poparła go wobec cioci Broniczowej. Było im tak swobodniej i gdy ludzie poczęli się schodzić, oboje występowali już, jako młoda para. Od panny Linety bił blask szczęścia. Sama znajdowała urok w roli narzeczonej i rola dodawała jej uroku. W wysmukłej jej postawie było coś skrzydlatego; powieki nie zapadały jej dziś sennie na oczy; źrenice były świetliste, usta w uśmiechach, twarz w rumieńcach. Była tak ładna, że Świrski, ujrzawszy ją, nie mógł się jednak wstrzymać od kilku cichych westchnień za rajem utraconym, i odzyskał pogodę duszy dopiero wówczas, gdy przypomniał sobie swoją ulubioną piosnkę:</p>
 <quote>
@@ -4868,8 +4818,7 @@
 <p>A panna Castelli odrzekła:</p>
 <p>— Ach, ciociu, wracam z gwiazd, a to taka daleka droga!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Zawiłowski mógł sobie powiedzieć, że i poetom przyświeca czasem szczęśliwa gwiazda. Od chwili zaręczyn z panną Castelli, przychodziło mu wprawdzie często do głowy, że trzeba będzie teraz pomyśleć o środkach na urządzenie domu i opędzenie wydatków, tak ślubu, jak i wesela, ale, będąc przedewszystkiem zakochanym i nie mając wogóle jasnego pojęcia o podobnych rzeczach, przedstawiał sobie to wszystko tylko jak jakąś nową trudność życiową, którą należy przezwyciężyć; złamał zaś ich już tyle w życiu, że, ufając w swe siły, mniemał, że złamie i tę, ale nad sposobami dotychczas nie rozmyślał.</p>
 <p>Natomiast rozmyślali za niego inni. Stary pan Zawiłowski, w którym, obok całego uznania dla geniuszów, nic nie mogło zachwiać wiary, iż każdy poeta musi mieć w głowie: „fiu, fiu!” — wezwał Połanieckiego na osobną naradę i rzekł mu:</p>
@@ -4951,8 +4900,7 @@
 <p>— Właśnie jego zaślepienie powinno ją ująć i powstrzymać. To byłoby okropne!</p>
 <p>— To nie „byłoby” — to jest. Widzisz, szlachetne dusze płacą za ufność wdzięcznością, podłe — pogardą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Dla pani Maryni słowa te były wielką otuchą, myśląc bowiem o swoich poprzednich niepokojach, mniemała zarazem, że Połaniecki nie powiedziałby nic podobnego, gdyby był zdolnym zawieść jej ufność. Nie przypuszczała też, że człowiek inną może mieć miarę ogólną, inną osobistą, i że w życiu co krok napotyka się takie dwie różne miary. Mówiła sobie, że dość jest okazywać mężowi ufność bez granic, by go od wszystkiego powstrzymać, i z mniejszą obawą myślała teraz o blizkiem sąsiedztwie letniego domu pani Krasławskiej z domem Bigielów, w którym oboje z mężem mieli przepędzić lato. Łatwo bowiem było odgadnąć, że pani Maszkowa, która już się była przeniosła do domu matki, będzie z samych nudów częstym gościem u Bigielów. Maszko nie wysłał jej do Krzemienia, nie chcąc się z nią na letnie miesiące rozłączać. Z Warszawy, w której musiał zostać dla interesów, łatwo mu było codziennie dojeżdżać do żony, mieszkającej o godzinę od rogatek, tymczasem odległy Krzemień wyłączał możność podobnych wypraw. Maszce, zakochanemu szczerze w żonie, obecność jej była potrzebna, jako pokrzepienie, albowiem nadchodziły znów na niego ciężkie czasy. Sama sprawa o zwalenie testamentu nie była jeszcze wcale stracona, nie brała jednak, z powodu sprężystości obrony pomyślnego obrotu; poczynała się przewlekać i ludzie poczęli o niej wątpić — już zaś to samo było dla Maszki niemal klęską. Kredyt jego, który z początku sprawy tak był odżył i rozkwitł, jak jabłoń na wiosnę, począł się powtórnie chwiać. Śledź, który był osobistym Maszki wrogiem i człowiekiem wogóle zawziętym, nietylko nie poprzestał na rozpuszczaniu wieści o złem położeniu swego współzawodnika, lecz postarał się, by wątpliwości co do pomyślnego zakończenia sprawy przedarły się i do prasy. Poczęła się bezlitosna wojna prawna i osobista, Maszko bowiem starał się również szkodzić wszelkiemi siłami nieprzyjacielowi, a przy spotkaniach się z nim zachowywał się wprost wyzywająco. Nie przynosiło mu to jednak korzyści. Kredyt stawał się coraz trudniejszym a wierzyciele, lubo spłacani dotąd regularnie tracili ufność. Zaczęło się znów gorączkowe poszukiwanie pieniędzy w tym celu, by jednym długiem zepchnąć drugi i podtrzymać opinię natychmiastowej wypłacalności. Maszko zużywał na to tyle inteligencyi i energii, że, gdyby nie zasadniczy fałsz w jego życiowych stosunkach, byłby z tymi przymiotami doszedł do sławy i wielkiego majątku.</p>
 <p>Zwalenie testamentu mogło wszystko uratować, ale na to trzeba było czekać, a tymczasem wiązać rwące się tu i owdzie nici, co było równie nie łatwem, jak upokarzającem. Przyszło do tego, że w dwa tygodnie po przeniesieniu się Połanieckich do Bigielów, gdy państwo Maszkowie przybyli do nich w odwiedziny, Maszko zmuszony był zażądać od Połanieckiego „przyjacielskiej usługi” — to jest, podpisania wekslu na kilka tysięcy rubli.</p>
@@ -5154,8 +5102,7 @@
 <p>Nastrój ten ogarnął w jednej chwili i Połanieckiego, więc przysunąwszy się nagle, począł pytać stłumionym głosem:</p>
 <p>— Pani się boi… Czemu pani się boi?</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Nazajutrz pani Połaniecka odebrała list od męża, że tego dnia nie wróci, jedzie bowiem oglądać kolonię, położoną z drugiej strony miasta. Następnego za to dnia wrócił i przywiózł ze sobą Świrskiego, który od dawna był obiecał Bigielom i Połanieckim, że ich na letniem mieszkaniu odwiedzi.</p>
 <p>— Wyobraź sobie — rzekł po przywitaniu się z żoną Połaniecki — że ten Buczynek, który oglądałem, leży o miedzę od Jaśmienia starego Zawiłowskiego; dowiedziawszy się o tem, odwiedziłem staruszka, który ma się niedobrze — i niespodzianie znalazłem w Jaśmieniu pana Świrskiego. Pomógł mi oglądać Buczynek i dom bardzo mu się podobał. Jest też ładny ogród, duży staw i trochę lasu. Niegdyś był to znaczny majątek, ale grunta rozsprzedano, tak, że przy dworze mało się pozostało.</p>
@@ -5290,8 +5237,7 @@
 <p>— Dałby Bóg tylko zawsze takie słyszeć — rzekł żywo Świrski. — Pani ma zupełną słuszność.</p>
 <p>Lecz Połaniecki w gruncie rzeczy również był przekonany, że ona ma słuszność — i, co więcej, w tych ciemnościach, które go otaczały, poczęło coś błyszczeć nakształt światełka. Oto on właśnie powiedział był sobie: jestem dostatecznie mądry, dostatecznie dobry — i mogę odpocząć — oto on właśnie zapomniał o konieczności ciągłego wysiłku, on zaprzestał poruszać rękoma na głębinie i wnet własny ciężar pociągnął go na dno. Tak było! Wszystkie te wysokie religijne i moralne zasady, które zdobył, zamknął w swej duszy tak, jak zamykał w kasie pieniądze — i uczynił z nich martwy kapitał. Miał je, ale jakby na składzie. Wpadł w zaślepienie skąpca, który cieszy się nagromadzonem złotem, ale żyje, jak nędzarz. Miał je, ale z nich nie żył — i zaufawszy swemu bogactwu, wyobraził sobie, że jego życiowe rachunki są pokończone i że może spocząć. A teraz poczynał się jakby brzask wśród tej nocy, która zalegała jego umysł, i z cienia poczęła się wychylać ku niemu mglista jeszcze i niewyraźna prawda, że tego rodzaju rachunki nie mogą być nigdy zamknięte — i że to jest ogromna, codzienna i nieustanna praca, która, jak mówi Marynia, kończy się dopiero tam, gdzieś, na drugim, lepszym świecie…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>— Mój drogi panie, czemu pan się tak nie ubiera, jak pan Kopowski? — mówiła do Zawiłowskiego pani Broniczowa. — Naturalnie, że Niteczka ceni więcej pańskie poezye, niż wszelkie na świecie ubrania, ale pan nie uwierzy, jaki to malec estetyczny i jak ona się doskonale zna nawet na takich rzeczach. Wczoraj biedactwo przyszło do mnie i pyta z taką śliczną minką, że gdyby ją pan widział, toby się pan rozpłynął: „Ciociu — pyta — czemu pan Ignaś nie ma na rano białego flanelowego kostyumu? Wszystkim panom tak ładnie w tych kostyumach”. Niech pan sobie coś podobnego sprawi, ona będzie rada. Widzi pan, że i Józio Osnowski ma flanelowy kostyum — on nawet ma kilka, przez kokieteryę względem Anetki. To są małe rzeczy — wiem! — ale kobiety to ogromnie ujmuje, gdy się zważa na ich wymagania. Pan nie ma pojęcia, jak ona wszystko widzi. W Scheveningen wszyscy do południa chodzą w takich kostyumach i jej byłoby przykro, gdyby ktoś pomyślał, że pan nie należy do towarzystwa, które wie, jak się ubierać. Pan taki dobry, pan sobie kupi taki kostyum — prawda? Pan to dla niej zrobi — i nie weźmie mi za złe, że ja mówię o tem, co Niteczka lubi?</p>
 <p>— Ach, pani — rzekł Zawiłowski — najchętniej!</p>
@@ -5342,8 +5288,7 @@
 <p>— Jaka ona jednak zgrabna i ponętna! Jest w tem jakaś ironia życia, że ten poczciwy i serdeczny Osnowski niczego się nie domyśla!</p>
 <p>I była rzeczywiście w tem ironia życia — ale nietylko w tem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Od czasu wspólnej wycieczki pani Anety i Kopowskiego do Leśniczówki, coś się zmieniło w towarzyskim nastroju mieszkańców Przytułowa. Zawiłowski patrzył wprawdzie po dawnemu w oczy narzeczonej i zachwycał się nią bez miary, natomiast w obejściu się jej z nim i z innymi, był jakiś leciuchny odcień złego humoru. Kopowski czuł się jakby skrępowany; na Castelkę spoglądał tylko ukradkiem, zbliżał się do niej skwapliwie, ale tylko w nieobecności pani Anety, a natomiast przysiadał się częściej do panny Ratkowskiej, z którą rozmawiał jakby w roztargnieniu. Pani Aneta była jeszcze rezolutniejsza niż zwykle i ku wielkiemu zadowoleniu „Józia” rozciągnęła teraz tak baczną opiekę nad wszelkiemi sprawami w Przytułowie, że dwukrotnie jeszcze brała Kopowskiego na osobną rozmowę. Wzrok Castelki nie gonił za Koposiem z taką pół wesołą, pół ironiczną swobodą, jak dawniej — natomiast chmurne oczy panny Ratkowskiej zwracały się na Zawiłowskiego z pewnem współczuciem, słowem: coś się zmieniło zarówno w spojrzeniach, jak w stosunkach. Były to jednak zmiany, dostrzegalne chyba dla oka bardzo bystrego i przywykłego patrzeć w tego rodzaju życie, w którem, w braku większych celów i tęgiej codziennej pracy, najmniejsze odcienia uczuć, najbardziej subtelne ruchy myśli, a nawet usposobień, nietylko przybierają pozory doniosłych wypadków, ale częstokroć kryją w sobie rzeczywiste ich zarody. Zewnętrznie, życie to pozostało tem, co było, to jest jakby codziennem świętowaniem, majówką, wiejskim wywczasem, splecionym z miłości, estetycznych wrażeń, mniej więcej subtelnych rozmów i wreszcie zabaw. Ułożenie całego szeregu tych zabaw, tak, aby dzień został zapełniony, było jedynem zadaniem obciążającem umysły, a i to, największą jego część brał na siebie, jako gospodarz, pan Osnowski.</p>
 <p>Pewnego jednak poranku, jednostajną pogodę tego życia przerwał grom, pod postacią dwóch listów z czarnemi obwódkami pod adresem Osnowskiego i Zawiłowskiego. W chwili, gdy je przyniesiono, całe towarzystwo było przy poobiedniej kawie — i oczy pań zwróciły się z ciekawością i niepokojem na czytających, którzy, wydobywszy karty z otwartych kopert, zawołali niemal jednocześnie:</p>
@@ -5469,8 +5414,7 @@
 <p>I nagle drgnął:</p>
 <p>— Dziwna rzecz — pomyślał — to jest głowa tragiczna!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>W kilka dni później Zawiłowski, wezwany przez Połanieckiego, pojechał do miasta. Młodemu człowiekowi bardzo nie chciało się opuszczać Przytułowa, ale panna Helena życzyła sobie, by koniecznie był obecny przy otwarciu testamentu ojca. Obaj z Połanieckim i z prawnikiem starego pana Zawiłowskiego, adwokatem Kononowiczem, udali się w tym celu do Jaśmienia. Gdy jednak przez dwa następne dni, w listach do „Niteczki”, Zawiłowski wylewał tylko swoje uczucia na papier, nie czynił zaś najmniejszej wzmianki o testamencie, pani Broniczowa, którą przedtem wprowadzały w zachwyt te wylewy, wyznała teraz pod sekretem pani Anecie, że po pierwsze: jest to głupi sposób pisywania do narzeczonej, a powtóre, że jest „quelque chose de louche” w takiem, jakby umyślnem, milczeniu. Wprawdzie, pierwszy z tych listów pisany był z miasta, drugi natychmiast po przyjeździe do Jaśmienia; stara dama twierdziła jednak, że w każdym razie Zawiłowski powinien był w nich wspomnieć przynajmniej o swoich nadziejach, milcząc bowiem, okazywał „Niteczce” brak zaufania i po prostu ją obrażał.</p>
 <p>Osnowski twierdził przeciwnie, że Zawiłowski zamilczał o swych nadziejach przez delikatność względem panny Linety i z tego powodu przyszło do małej sprzeczki między nim a panią Broniczową, która przy tej sposobności wygłosiła pewnik psychologiczny, że mężczyźni wogóle mają nader słabe pojęcie o dwóch rzeczach, mianowicie: o logice i delikatności. „Och, tak! — i o logice! może nie wasza wina, że tacy jesteście, ale tacy jesteście, mój Józiu, wszyscy!” Nie mogąc jednak usiedzieć na miejscu, po dwóch dniach, pod pierwszym lepszym pozorem, wyjechała do miasta, aby zasięgnąć w sprawie testamentu języka.</p>
@@ -5544,8 +5488,7 @@
 <p>On zaś, zamiast odpowiedzieć, wpił wąsy w jej usta. Nagle ramiona jej objęły namiętnym ruchem jego szyję i bez tchu poczęła mu zapamiętale oddawać pocałunki.</p>
 <p>I w uniesieniu nie spostrzegli oboje, że Osnowski, wróciwszy przez otwarte drzwi cieplarni, przeszedł po miękkim piasku na schodki i patrzył na nich z twarzą zmienioną i bladą ze wzruszenia, jak płótno.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>Zawiłowski bawił tymczasem między Warszawą a Buczynkiem, przejeżdżając codziennie i bawiąc po kilka godzin to tu, to tam, w miarę, jak nakazywały mu jego sprawy i zajęcia. Ponieważ ślub jego miał nastąpić jesienią, zaraz po powrocie ze Scheveningen — Połaniecki powiedział mu, że czas już wyszukać mieszkanie i urządzić je choć jako tako. Obaj z Bigielem obiecali w tej sprawie wszelką pomoc, pani Bigielowa zaś miała się zająć gospodarską częścią urządzenia. W Buczynku obecność Zawiłowskiego była również potrzebna ze względu na stosunki z panną Heleną. Ta, jakkolwiek datowany z przed roku testament ojca uczynił ją jedyną spadkobierczynią całego ogromnego majątku, nie ukrywała bynajmniej, iż wie, że ojciec nie zrobił innego testamentu tylko dlatego, że, albo nie przewidywał tak prędkiej śmierci, albo, zwyczajem starych ludzi, z dnia na dzień odkładał. Nie miała jednak najmniejszej wątpliwości, iż ojciec chciał coś uczynić dla imiennika i krewnego — i mówiła otwarcie, że poczytuje sobie za obowiązek sumienia spełnić ojcowską wolę. Nikt nie umiał wprawdzie przewidzieć, w jakiej mierze postanawia to uczynić, i jej samej, przed spisaniem dokładnego inwentarza wszystkich majątków i kapitałów, trudnoby było na podobne pytanie odpowiedzieć; tymczasem jednak poczęła obdarzać Zawiłowskiego tem wszystkiem, co, wedle jej mniemania, powinni byli męscy spadkobiercy dziedziczyć. W ten sposób oddała mu część kredensu po nieboszczyku, znaczny i cenny zbiór broni, w której zmarły się kochał, zbytkowne, umiłowane przez staruszka konie, które Połaniecki wziął w komis — i następnie ową kolekcyę fajek, o której losy tak w swoim czasie troszczył się Kopowski.</p>
 <p>Zimna i pozornie obojętna dla wszystkich, onieśmielająca ludzi surowym i skupionym wyrazem twarzy, miała dla jednego tylko Zawiłowskiego jakieś matczyne niemal odcienie w głosie i spojrzeniu, jakby razem z majątkiem odziedziczyła po starym ojcu i przychylność dla młodego człowieka. Jakoż i rzeczywiście był on jedyną na świecie istotą, z którą łączyły ją pewne węzły krwi, a przynajmniej tożsamość nazwiska. Dowiedziawszy się od Połanieckich o zachodach Zawiłowskiego co do urządzenia mieszkania, prosiła Połanieckiego, by na wydatki tegoż urządzenia złożył od niej w banku sporą sumę na imię „pana Ignasia”, prosząc jednak, by mu od razu o tem nie wspominał.</p>
@@ -5621,8 +5564,7 @@
 <p>— A gdyby go Osnowski nie chciał przestraszać, toby do mnie zatelegrafował.</p>
 <p>I obaj poczęli patrzeć sobie z niepokojem w oczy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV</head>
 <p>Nazajutrz, w pół godziny po przyjeździe Połanieckiego, zadzwonił do niego Osnowski. Połaniecki, na odgłos dzwonka, poszedł sam otworzyć. Od wczoraj żył w wielkim niepokoju. Przypuszczał od dawna, że w Przytułowie może lada dzień bomba wybuchnąć, ale napróżno bił się z myślami, jaki związek może mieć jej wybuch z Zawiłowskim.</p>
 <p>Osnowski uścisnął mu rękę na powitanie ze szczególniejszą siłą, jak się czyni w wyjątkowych okolicznościach życia, a gdy Połaniecki poprosił go do swego gabinetu, po drodze spytał:</p>
@@ -5774,8 +5716,7 @@
 <p>Ale wówczas stało się w nim coś nadzwyczajnego.</p>
 <p>Miał takie wrażenie, jakby odbijał statkiem od lądu — i zdawało mu się, co wówczas zawsze się zdaje, że to nie on się oddala, ale że od niego odsuwa się ten brzeg, na którym dotąd przebywał. Wszystko, co było nim i wogóle jego życiem, wszystkie myśli, nadzieje i ambicye, cele, zamiary, nawet miłość, nawet panna Lineta, nawet jej strata — i te koła błędne, i te męki, przez jakie przeszedł, wydały mu się nietylko już od niego oddzielone, ale jakby obce i wyłącznie do tamtego lądu należące. I stopniowo nikły, stopniowo topniały — coraz mniejsze, coraz bardziej widziadłowe, coraz podobniejsze do snu; a on oddalał się, czując, że do tej obczyzny wrócić już nie chce, nie może — i że wszystko, co z niego zostało, należy do tego przestworu, który brał go w siebie i otwierał się przed nim — niezmierny i tajemniczy…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV</head>
 <p>W cztery dni później, w dzień Wniebowzięcia Najśw. Panny, który był zarazem dniem imienin pani Połanieckiej, Bigielowie i Świrski przyjechali do Buczynka. Maryni nie zastali w domu, była bowiem wraz z panią Emilią na nieszporach w jaśmieńskim kościele. Pani Bigielowa, dowiedziawszy się o tem, udała się z całą gromadką Bigieląt za niemi. Mężczyźni, pozostawszy sami, rozmawiali o wypadku, o którym od kilku dni rozmawiało całe miasto, to jest o usiłowanem samobójstwie Zawiłowskiego.</p>
 <p>— Byłem u niego dziś trzeci raz — rzekł Bigiel — ale służba panny Heleny Zawiłowskiej ma rozkaz niedopuszczania nikogo, prócz lekarzy.</p>
@@ -5850,8 +5791,7 @@
 <p>— Nieszczęście!</p>
 <p>— Nieszczęście, ale i to, że dziś niema zasad. Wszystko to te nowe wymysły, te wasze ateizmy, hipnotyzmy, socyalizmy. Młodzież nie ma zasad — ot, co!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI</head>
 <p>Połaniecki, pod wrażeniem katastrofy, zapomniał zupełnie o obietnicy uczynionej Osnowskiemu, że napisze mu, jak Zawiłowski przeniósł zerwanie małżeństwa i odjazd panny Castelli. Osnowski jednak, dowiedziawszy się o wypadku z gazet, począł codziennie wypytywać depeszami o stan chorego — i niepokoił się nim ogromnie. W prasie i publiczności krążyły najsprzeczniejsze wieści. Niektóre pisma donosiły, iż stan ów jest bez nadziei, inne przepowiadały rychłe wyzdrowienie. Połaniecki przez długi czas nie mógł też donieść nic pewnego, i dopiero po dwóch tygodniach przesłał depeszę, że chory przestał się wahać między życiem a śmiercią — i że lekarze ręczą już stanowczo za jego ocalenie.</p>
 <p>Osnowski odpowiedział obszernym listem, w którym donosił zarazem rozmaite nowiny z Ostendy.</p>
@@ -5981,8 +5921,7 @@
 <p>— Jak ryba — odpowiedziała wesoło, podając mu czoło do pocałunku.</p>
 <p>Następnie poczęła wypytywać o Zawiłowskiego. Połaniecki, po przykrej rozmowie z Maszką, po raz pierwszy odetchnął swobodniej. „Zdrowa jest i wszystko dobrze!” — pomyślał, jakby ze zdziwieniem. I rzeczywiście było mu dobrze w tym jasnym saloniku, w tym ogromnym spokoju, wśród życzliwych dusz i obok tej najbliższej istoty, tak dobrej i pewnej. Czuł, że tu było wszystko, czego potrzeba do szczęścia, ale jednocześnie czuł, że on to szczęście dobrowolnie popsuł, że wniósł do czystej atmosfery domowej pierwiastki zepsucia i złego — i że pod takim dachem mieszka bezprawnie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVII</head>
 <p>W połowie września dni nastały tak zimne, że państwo Połanieccy przenieśli się z Buczynka do swego miejskiego mieszkania. Połaniecki na przybycie żony odświeżył je i przyozdobił kwiatami. Zdawało mu się wprawdzie, że stracił prawo do kochania jej, ale on stracił tylko dawną swoją względem niej swobodę; natomiast może właśnie wskutek tego, stał się z nią daleko bardziej uważnym i uprzedzającym. Prawa do kochania nikt nie daje i nic nie może go odebrać. Inna rzecz, że człowiek w upadku i wobec duszy nierównie szlachetniejszej może nie czuć się jej godnym. Wówczas kocha z pokorą i swego uczucia nie śmie nazwać właściwem mianem. Co Połaniecki stracił rzeczywiście, to swoją pewność siebie, swoją zamaszystość i swoją dawną bezceremonialność w stosunku z żoną. Teraz były czasem w jego obejściu się z nią takie odcienia, jakby ona była jeszcze panną Pławicką, a on niepewnym swego losu pretendentem.</p>
 <p>Jednakże ta jego niepewność wyglądała niekiedy na chłód. Ostatecznie stosunek ich, mimo większej uwagi i staranności ze strony Połanieckiego, stał się dalszym, niż był przedtem. „Nie mam prawa!” — oto, co powtarzał sobie Połaniecki przy każdem żywszem poruszeniu serca. I Marynia w końcu spostrzegła, że oni żyją teraz ze sobą jakoś inaczej, ale tłómaczyła sobie to rozmaitymi powodami.</p>
@@ -6050,8 +5989,7 @@
 <p>Tu podniósł do góry brwi, a potem spojrzał na Marynię i Połanieckiego, jakby chcąc sprawdzić, czy pojęli, co miało znaczyć „nikomu.” Ale na twarzy Maryni odbił się niesmak.</p>
 <p>— Fe! Stachu — rzekła — jakie to wszystko nietylko niegodziwe, ale brzydkie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVIII</head>
 <p>Po obiedzie Połaniecki udał się do panny Heleny. Zawiłowski nosił jeszcze na czole czarną przepaskę, z szerszym wpośrodku plastrem, zakrywającym ranę, zacinał się i, patrząc, nieco zezował, ale wogóle przychodził coraz bardziej do siebie i uważał się już za zdrowego, lekarz zaś zapewniał, że i te objawy, jakie jeszcze pozostały wskutek rany, miną bez śladu. W chwili, gdy Połaniecki wszedł, młody człowiek siedział przy stole, w głębokim fotelu, w którym niegdyś siadywał stary pan Zawiłowski, i słuchał z przymkniętemi oczyma wierszy, które mu czytała panna Ratkowska.</p>
 <p>Lecz ona na widok gościa złożyła książkę.</p>
@@ -6106,8 +6044,7 @@
 <p>— Ja znów będę pisał — tylko całkiem przyjdę do siebie.</p>
 <p>Połaniecki pożegnał się i wyszedł. Tegoż jeszcze wieczora panna Ratkowska przeniosła się do swojego pokoiku u pani Mielnickiej.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIX</head>
 <p>Rozejście się Osnowskich, którzy w życiu towarzyskiem zajmowali dość wybitne stanowisko, i wielka fortuna, która nagle spadła na Zawiłowskiego, były to najważniejsze nowiny, któremi zajmowało się całe miasto. Ludzie, którzy przypuszczali, że panna Helena wzięła do siebie młodego krewnego dlatego, by się za niego wydać, osłupieli z podziwu. Powstały nowe plotki i przypuszczenia: poczęto szeptać sobie do uszu, iż Zawiłowski był synem starego bogacza i że zagroził siostrze procesem o ukrycie testamentu, która też wolała zrzec się wszystkiego i wyjechać za granicę, niż narazić się na skandaliczny proces. Inni wszelako twierdzili, że powodem jej wyjazdu była panna Ratkowska i że między temi paniami miały miejsce niesłychane i oburzające rzeczy, wskutek których szanujące się domy nie puszczają przez próg panny Ratkowskiej. Byli wreszcie i tacy, którzy, występując w imię publicznego dobra, odmawiali wprost pannie Helenie prawa do rozporządzania w ten sposób majątkiem, dając przytem do zrozumienia, że sami, w danym razie, rozporządziliby nim inaczej i zgodniej z pożytkiem powszechności.</p>
 <p>Słowem, mówiono wszystko, na co się może zdobyć plotkarstwo, wścibstwo, lekkomyślność i niecna złośliwość. Wkrótce atoli ciekawości ogólnej przybył nowy pokarm pod postacią wieści o pojedynku Osnowskiego z Kopowskim, w którym Osnowski został ranny. Kopowski wrócił też niebawem do miasta ze sławą bohatera nadzwyczajnych przygód miłosnych i orężnych — głupszy niż kiedykolwiek, ale zarazem piękniejszy niż kiedykolwiek i wogóle tak uroczy, że na sam jego widok młodsze i starsze serca poczynały bić przyśpieszonem tętnem.</p>
@@ -6169,8 +6106,7 @@
 <p>A ona, rada z pochwały, uśmiechnęła się do niego i poczęła zbierać się do domu.</p>
 <p>Gdy wyszła, Połaniecki zbliżył się do okna i odprowadzał ją oczyma. Z daleka widział jej przegiętą postać, posuwającą się ociężałym krokiem, oraz ciemne włosy, wyglądające z pod kapelusza — i w tej chwili odczuł z nową, większą niż kiedykolwiek siłą, że to jest jego najdroższa w świecie istota — i że ją jedną kocha i będzie kochał do śmierci.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XX</head>
 <p>W dwa dni później Połaniecki odebrał od Maszki kartkę, zawierającą parę słów pożegnania. „Wyjeżdżam dziś — pisał Maszko. — Będę się starał koniecznie jeszcze wpaść do ciebie, ale na wszelki wypadek żegnam cię i dziękuję ci za wszystkie dowody przyjaźni jakie mi okazałeś. Niech ci Bóg szczęści lepiej, niż mnie dotąd szczęścił. Bardzobym chciał zobaczyć się z tobą choć na minutę — i jeśli będę mógł, wpadnę do ciebie koło czwartej do biura. Tymczasem powtarzam prośbę, byście pamiętali o mojej żonie i przygarnęli ją trochę, gdy ludzie ją opuszczą. Ciebie proszę również, byś mnie przed nią bronił przeciw ludzkim językom. Wyjeżdżam do Berlina — o dziewiątej wieczór — i zupełnie otwarcie. Do widzenia, a w każdym razie bądź zdrów — i raz jeszcze, dzięki za wszystko. — Maszko.”</p>
 <p>Połaniecki poszedł koło czwartej do biura, ale przeszło godzinę czekał napróżno. — „Nie przyjdzie — pomyślał wreszcie — tem lepiej!” I poszedł do domu z poczuciem pewnego zadowolenia, że udało mu się uniknąć kłopotliwego spotkania. Wieczorem jednak poczęło się w nim budzić pewne politowanie dla Maszki. Pomyślał, że to jest człowiek, który wprawdzie szedł złą i gorączkową drogą, ale się namęczył i naszarpał, a w końcu ciężko przypłacił — że to wszystko, co się stało, było dawno do przewidzenia, jeżeli zatem ci, którzy to przewidywali, żyli z nim i przyjmowali go u siebie, nie powinni teraz okazywać mu pogardy w chwili upadku. Rozumiał też, ile Maszce sprawi przyjemności swojem przybyciem na kolej — i po chwili wahania — poszedł.</p>
@@ -6211,8 +6147,7 @@
 <p>Jednakże wracał do domu z pewną ulgą, albowiem zdawało mu się, że powinien był tak postąpić. Był to w jego oczach mały akt pokuty — było mu zaś wszystko jedno, jak pani Maszkowa go zrozumiała. „Może sądzi, mówił sobie, żem ją przepraszał za moje późniejsze postępowanie, w każdym razie będę jej teraz śmielej w oczy patrzył”.</p>
 <p>I w tej jego myśli było niezawodnie trochę egoizmu, ale była i wola wyjścia z manowców.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXI</head>
 <p>Panna Helena odebrała również przed wyjazdem od pani Broniczowej list, w rodzaju tego, który odebrała Marynia, i również, jak Marynia, nie pokazała go Zawiłowskiemu. Zresztą i Zawiłowski wyjechał razem ze Świrskim w tydzień później, nie odwiedziwszy nikogo ze znajomych, z wyjątkiem panny Ratkowskiej. Sam Świrski odwiódł go od wszelkich odwiedzin i Połaniecki, w rozmowach z żoną, przyznawał mu zupełną słuszność. „Teraz — mówił — byłoby to przykre i dla Ignasia, i dla nas. Co innego ci, którzy go codzień odwiedzali, bo ci do niego przywykli, ale nikt z innych nie mógłby się powstrzymać, by mimo woli nie spoglądać na ślad, jaki mu na czole pozostał. Zresztą Ignaś zmienił się bardzo. Przez podróż przyjdzie zupełnie do siebie i gdy wróci, my przyjmiemy go, jakby nic nie zaszło, a obcy będą w nim przede wszystkiem widzieli bogatego panicza”.</p>
 <p>I tak mogło być rzeczywiście. Ale tymczasem przez ów wyjazd wokół Połanieckich uczyniło się pusto. Kółko ich znajomych rozproszyło się na wszystkie strony. Osnowski bawił ciągle w Brukseli; o niej nikt dobrze nie wiedział, gdzie jest. Pani Broniczowa z panną Castelli siedziały w Paryżu; zbrakło również domu Zawiłowskich; pani Krasławska z córką zamknęły się i żyły tylko jedna dla drugiej, a nakoniec choroba przykuła biedną panią Emilię raz na zawsze do łóżka.</p>
@@ -6265,8 +6200,7 @@
 <p>— Macie syna…</p>
 <p>I położyła palec na ustach.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXII</head>
 <p>Były jeszcze dni ciężkie i bardzo ciężkie. Przyszło osłabienie tak wielkie, że życie Maryni poczęło się wahać, jak płomyk. Zgaśnie czy rozetleje? — na to nie umiał nikt odpowiedzieć. Chwilami wszyscy byli przekonani, że już, już gaśnie. Jednakże młodość i ulga, jaką organizmowi przyniosło przyjście na świat dziecka, przeważyły szalę na stronę życia. Któregoś dnia chora po długim śnie obudziła się jakby rzeźwiejsza. Stary lekarz, który był przy niej i który to stwierdził, chcąc upewnić się lepiej, że owo polepszenie nie jest złudzeniem, zażądał wezwania drugiego, z którym przedtem składali konsylia. Połaniecki sam po niego pojechał i prawie odchodził od zmysłów, szukając go po mieście przez pół dnia, nie śmiał bowiem jeszcze mieć nadziei, że to już zwrot stanowczy w jej chorobie i w jego niedoli. Gdy nareszcie odnalazł utrapionego medyka i gdy przywiózł go do domu, przyjęła ich w przedpokoju pani Bigielowa, z mokremi rzęsami, ale z twarzą rozpromienioną, i rzekła:</p>
 <p>— Lepiej! stanowczo lepiej!</p>
@@ -6308,8 +6242,7 @@
 <p>Ona zaś, przytuliwszy się do niego, pytała z twarzą jasną od szczęścia, jak słońce:</p>
 <p>— Nie? naprawdę, Stachu?… powiedz!…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXIII</head>
 <p>Przyszły chrzciny. Młody człowiek był już ochrzczony z wody, albowiem uczyniła to zaraz po jego przyjściu na świat pani Bigielowa, której, pod wrażeniem choroby matki, wydawało się, że i mały umrze lada minuta… Lecz on ani o tem myślał — i w najlepszem zdrowiu i apetycie czekał na termin uroczystości, w której miał odegrać główną rolę. Połaniecki pospraszał wszystkich znajomych: była więc, prócz domowych i dziadzi Pławickiego, pani Emilia, która na ten dzień zebrała resztę sił, byli oboje państwo Bigielowie z małemi Bigielętami, i profesor Waskowski, i Świrski, i Zawiłowski, i panna Ratkowska. Pani Połaniecka, zdrowa już, wystrojona i szczęśliwa, wyglądała tak uroczo, że Świrski, ujrzawszy ją, wziął się obu rękoma za włosy i, ze zwykłą sobie szczerością, rzekł:</p>
 <p>— To przecie przechodzi wszelkie pojęcie! Dalibóg, oczy można stracić!</p>
@@ -6345,8 +6278,7 @@
 <p>Świrski, posłyszawszy te słowa, zbliżył się po śniadaniu do Maryni i rzekł, ukazując na Zawiłowskiego oczyma:</p>
 <p>— Wie pani, jakie on mi czasem robi wrażenie? — że to jest kosztowne naczynie — rozbite.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXIV</head>
 <p>W parę dni po chrzcinach, Świrski odwiedził Połanieckiego w biurze, by się dowiedzieć o zdrowie Maryni, a zarazem pogadać o rozmaitych rzeczach, które mu leżały na sercu. Widząc jednak, że się spóźnił i że Połaniecki zabierał się do wyjścia, rzekł:</p>
 <p>— Niech pan dla mnie nie zostaje. Pogawędzimy na ulicy. Światło dziś tak ostre, że nie mogę nic robić, więc odprowadzę pana do domu.</p>
@@ -6419,8 +6351,7 @@
 <p>Później widzenie znikło.</p>
 <p>Ale on począł o nie wypytywać Sióstr miłosierdzia, które niewiadomo kto przysłał, a które otaczały go teraz najtroskliwszą opieką — i począł tęsknić bez miary.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXV</head>
 <p>Po uroczystości chrzcin i po wyjeździe Świrskiego i Zawiłowskiego, Połanieccy zaczęli znowu żyć życiem zamkniętem i domowem, nie widując niemal nikogo, prócz Bigielów, pani Emilii i profesora Waskowskiego. Ale dobrze im było w tem ciasnem kółku blizkich przyjaciół, a najlepiej ze sobą. Połaniecki był w tych czasach mocno zajęty; przesiadywał w biurze i dużo za biurem, załatwiając jakieś sprawy, o których nikomu nie wspominał. Lecz po ukończonej robocie przybiegał teraz do domu z większą jeszcze skwapliwością, niż wówczas, gdy, jako narzeczony, latał każdego dnia do mieszkania Pławickich. Wróciła mu dawna żywość, dawny humor i dawne zaufanie do życia. Niebawem też uczynił odkrycie, które jemu samemu wydało się dziwnem: oto, że nietylko żonę kocha z całych sił, jak żonę i najbliższą głowę, ale, że kocha się w niej, jako w kobiecie, bez niepokoju i targaniny, bez przeskoków od radości do rozpaczy i zwątpień, ale ze wszelkiemi wzruszeniami szczerego uczucia, z całem mrowiem pragnień, z wiecznie jednaką, świeżą wrażliwością na jej kobiece uroki i z nieustającem baczeniem, które czuwa, przewiduje, jedna, uprzedza chęci i ustawicznie zabiega, by szczęścia nie zrazić i nie utracić. „Zmieniam się w Osnowskiego — mówił sobie wesoło — ale mnie jednemu wolno być Osnowskim, dlatego, że „moja mała” nigdy nie zostanie Osnowską!” Często też mówił teraz do niej „moja mała”, ale było w tem tyle czci, ile pieszczoty. Rozumiał także, że nie byłby jej tak pokochał, gdyby była inna, że to wszystko jest dzieło jej ogromnej dobrej woli i tej jakiejś dziwnej prawości, która biła od niej tak naturalnie, jak ciepło bije od ogniska. Połaniecki wiedział, że jego rozum był sprężystszy, myślenie rozleglejsze i wiedza głębsza, niż wiedza jej, a jednak czuł, że przez nią — i jedynie przez nią — wszystko to, co było w nim, stawało się jakoś bardziej wykończone i szlachetniejsze. Przez jej również wpływ te wszystkie zdobyte przez niego zasady przechodziły z jego głowy, gdzie były martwą teoryą, do jego serca, gdzie stawały się życiem. Pomiarkował, że nietylko szczęście, ale on sam jest poniekąd jej dziełem. Było w tem nawet trochę rozczarowania do siebie, widział bowiem teraz bez żadnej wątpliwości, że gdyby był dostał byle jaką kobietę, to i sam mógłby był wyjść na byle kogo. Czasem dziwił się nawet, jak ona mogła go pokochać — przypominał sobie jednak wtedy jej wyrażenie „służba boża” — i to tłómaczyło mu wszystko. Dla takiej kobiety małżeństwo było także „służbą bożą”, a zatem i miłość nie jakąś dziką siłą, leżącą poza wolą ludzką, ale właśnie aktem dobrej woli, służbą przysiędze, służbą bożemu prawu, służbą obowiązkom. Marynia kochała go dlatego, że był jej mężem. Taka była — i skończyło się! Połaniecki długi czas nie mógł pomiarkować, że to wszystko, co w niej tak uwielbiał, nakazuje po prostu pierwszy lepszy katechizm, a w niej wychowanie nie zabiło katechizmu. Być może, że nie chowano jej dość starannie, nauczono ją jednak, że ma służyć Bogu, nie posługiwać się Bogiem.</p>
 <p>Lecz Połaniecki, nie rozumiejąc dobrze powodów, dlaczego ona taka jest, jak jest, coraz bardziej ją podziwiał, czcił i kochał. Co do niej, biorąc rzecz bez przesady, nie wpadała w zbytnie o sobie rozumienie; pojmowała jednak, że nie było zawsze tak dobrze, jak dziś, że przeszła przez pewne próby, że postępowała w czasie owych prób poczciwie, że je przetrwała z cierpliwością, i że Pan Bóg ją za to wynagrodził. I poczucie to napełniało ją pogodą. Zdrowie jej wróciło zupełnie. Czuła się przytem bardzo ładną i bardzo kochaną! Ów „Stach”, którego się dawniej trochę bała, pochylał teraz często swoją ciemną czuprynę do jej kolan, niemal z pokorą, a ona myślała z radością, że „ten pan wcale nie jest z natury pokorny, a jeśli tak robi, to dlatego, że <emph>okropnie</emph> kocha!” I aż rosła. Codzień zbierało się w niej więcej wdzięczności i płaciła mu za tę miłość całem sercem.</p>
@@ -6435,8 +6366,7 @@
 <p>„Ja myślę — mówił — że Bóg jest mocniejszy, niż ludzka przewrotność a zarazem bajecznie miłosierny, i że czasem pozwala dlatego nieszczęściu bić w człowieka jak młotem, żeby z niego jakąś poczciwszą iskrę wykrzesać. Ja teraz wierzę nawet w odrodzenie się takiej Osnowskiej. Może to jest naiwne, ale chwilami przypuszczam, że całkiem złych ludzi niema na świecie! Patrzcie, że jednak coś zadrgało i w takiej pani Anecie i że go pilnowała w chorobie. Oj te kobiety! tak mi już przewróciły w głowie, że wkrótce nie będę miał zdania nietylko o nich, ale o niczem”.</p>
 <p>Dalej były zapytania o Stasia i serdeczne słowa dla jego życiodawców, a nakoniec obietnica powrotu w pierwszych dniach wiosny.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXVI</head>
 <p>A wiosna rzeczywiście szła i w dodatku czyniła się zarówno ciepła, jak wczesna. Połaniecki w końcu marca i na początku kwietnia począł znowu wyjeżdżać i spędzać po kilka dni za domem. Obadwaj z Bigielem byli tak zajęci, że niekiedy do późnego wieczora siedzieli w biurze. Pani Bigielowa przypuszczała, że muszą coś przedsiębrać na wielką skalę, dziwiło ją to jednak, że mąż, który zawsze mówił z nią o wszystkich interesach i niemal myślał przy niej głośno, a nawet często się jej radził, tym razem milczał jak zaklęty. Marynia zauważyła również, że Stach ma zaprzątniętą głowę w niezwykły sposób. Tkliwszy był dla niej niż kiedykolwiek, ale jej się zdawało, że nawet w tej jego tkliwości, jak również w każdej rozmowie i w każdej pieszczocie, jest jakaś trzecia, inna myśl, która go zajmuje tak całkowicie, że ani na chwilę nie może się od niej oderwać. I ten stan jakowegoś roztargnienia powiększał się z każdym dniem, a z nadejściem maja przeszedł w coś gorączkowego. Marynia poczęła się teraz wahać, czy nie zapytać męża, co mu jest. Bała się trochę być natrętną, ale chodziło jej również i o to, by nie pomyślał, że ją jego sprawy zbyt mało obchodzą. W tej niepewności postanowiła czekać na sposobną chwilę, mając nadzieję, że on sam zacznie mówić o swoich zajęciach, choć z daleka.</p>
 <p>Jakoż, wkrótce potem, zdawało jej się pewnego dnia, że stosowna chwila nadeszła. Połaniecki wrócił tym razem wcześniej z biura i wrócił z twarzą tak jakoś dziwnie rozpromienioną, choć poważną, że spojrzawszy mu w oczy, prawie mimowolnie spytała:</p>
@@ -6478,8 +6408,7 @@
 <p>Wieczorem zaś u Bigielów, Marynia, upojona jeszcze szczęściem, mówiła do pani Bigielowej:</p>
 <p>— No i powiedz? Jak takiego człowieka nie kochać? Powiedz sama!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXVII</head>
 <p>Nazajutrz po przybyciu Połanieckich do Krzemienia wypadła niedziela. Sam Połaniecki wstał późno, gdyż wczorajszego dnia przyjechali po pierwszej w nocy. W Krzemieniu czekała na nich służba z chlebem i solą; potem Marynia, śmiejąc się i płacząc naprzemiany, oglądała wszystkie kąty w domu, a następnie nie mogła usnąć ze wzruszenia prawie do świtu. Z tych wszystkich przyczyn Połaniecki nie puścił jej z łóżka, ponieważ zaś chciała pojechać na sumę do Wątorów nieco wcześniej, aby pomodlić się przy kościele za matkę, obiecał, że każe zaprządz i da jej znać, gdy będzie czas. Tymczasem po śniadaniu wyszedł trochę popatrzyć na swoje nowe dziedzictwo. Była druga połowa maja i dzień wyjątkowo piękny. W nocy padał deszcz, a teraz słońce przeglądało się w małych kałużach na dziedzińcu i przy zabudowaniach folwarcznych, łamało się w brylantowe połyski w kroplach zawieszonych na liściach i rozświecało mokre dachy stodół, obór i owczarni. W tych blaskach i w jasnej majowej zieleni drzew, Krzemień przedstawiał się wcale ponętnie. Wśród zabudowań folwarcznych nie było z powodu niedzieli prawie żadnego ruchu, tylko przy stajni kręciło się kilku fornali, którzy mieli jechać do kościoła. Połanieckiego dziwnie uderzyła ta cisza i to uśpienie. Przed niedawnym czasem, zamierzywszy kupić Krzemień, był w nim kilkakrotnie i wiedział, że jest to majątek opuszczony. Maszko począł wprawdzie wznosić śpichlerz kryty czerwoną dachówką, ale go nie skończył. Sam nie mieszkał tu nigdy, i w końcu nie mógł nic w majątek wkładać — więc opuszczenie widne było na każdym kroku. Ale nigdy nie przedstawiło się ono Połanieckiemu tak wyraźnie, jak teraz, gdy już mógł sobie powiedzieć: „to moje!” Budynki były jakieś krzywe; ściany w nich niezbyt szczelne, płoty krzywe i rozgrodzone; pod ścianami walały się szczątki rozmaitych połamanych sprzętów gospodarskich; wszędy ziemia zdawała się chcieć wciągnąć w siebie to, co na niej stało, wszędy widoczne było jakieś bierne pozostawienie rzeczy samym sobie, wszędy widoczna niedbałość. Połaniecki o gospodarstwie wiedział tylko tyle, że trzeba być ostrożnym z wkładami — zresztą, prócz jakichś ogólnych wiadomości, które mu się obiły o uszy jeszcze za lat dziecinnych, nie miał o niem najmniejszego pojęcia. Jednakże, spoglądając na swoje królestwo, domyślił się, że i pola muszą być uprawne w prostym stosunku do tego niedbalstwa, które naokół widział; miał wyraźne poczucie, że jeśli tu się coś robiło, to raczej ze zwyczaju, z rutyny, jakby dlatego tylko, że coś się robiło lat temu dziesięć, dwadzieścia i sto. Tego natężenia, tej nieustającej czujnej energii, która jest podstawą handlu, przemysłu i wogóle spraw miejskich, nie było tu ani śladu. „Gdybym nic więcej nie przyniósł do tej martwoty — myślał Połaniecki — to jużby było bardzo wiele, bo tu tego bezwzględny brak. A ja mam prócz tego pieniądze i przynajmniej tyle rozumu, że naprzód wiem, że nic nie wiem, a powtóre wiem, że się trzeba uczyć i pytać”. Pamiętał jeszcze ze swoich czasów belgijskich, że nawet tam, w Belgii, dusza ludzka i napięcie woli więcej znaczyło od najpotężniejszych maszyn. A pod tym względem liczył na siebie — i mógł liczyć. Czuł się człowiekiem uporczywym i sprężystym. Wszystko, co dotąd brał w ręce, musiało iść, czy chciało, czy nie chciało. Czuł prócz tego, że w interesach ma głowę nie fantastyczną, ale ściśle rachunkową, i dzięki temu poczuciu, nietylko nie stracił otuchy na widok opuszczenia, które przed sobą widział, ale znalazł w niem coś na kształt bodźca. Ta martwota, to zaniedbanie, ta inercya i ta senność zdawały się go wyzywać, a on, wodząc naokół oczyma, mówił im niemal z uciechą: „To dobrze! to się sprobujemy!” I było mu nawet pilno do tej próby.</p>
 <p>Te pierwsze oględziny i rozmyślania nie popsuły mu humoru, ale zabrały sporo czasu. Spojrzawszy na zegarek, spostrzegł, że jeśli chcą być przed sumą w Wątorach, to zaraz czas jechać; kazawszy więc zaprzęgać, wrócił śpiesznie do domu i zapukał do drzwi Maryni:</p>

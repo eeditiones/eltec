@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3002" xml:lang="SPA"> 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3002" xml:lang="es"> 
 	<teiHeader> 
 		<fileDesc>
 			<titleStmt>
 				<title ref="viaf:183080784">La Regenta :  Edición ELTeC</title>
-				<author ref="viaf:17218138">Alas, Leopoldo (1852-1901)</author>
+				<author ref="viaf:17218138">Alas, Leopoldo [Clarín] (1852-1901)</author>
 				<respStmt>
 					<resp>Edición ELTeC</resp>
 					<name>Borja Navarro Colorado</name>
@@ -18,10 +21,10 @@
 			</extent>
             <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -69,6 +72,7 @@
 			</textDesc>
 		</profileDesc> 
 		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change> 
 			<change when="2019-06-28">Anotación formato ELTeC y revisión del texto : Borja Navarro Colorado</change> 
 		</revisionDesc> 
@@ -643,7 +647,7 @@
 				restituir, alentaba el espíritu que reedificaba y ya las Hermanitas de
 				los Pobres tenían coronado el edificio de su propiedad, tacita de plata,
 				que brillaba cerca del Espolón, al Oeste, no lejos de los palacios y 
-				<foreign xml:lang="NEG">chalets</foreign> de la Colonia, o sea el barrio nuevo
+				<foreign xml:lang="FRA">chalets</foreign> de la Colonia, o sea el barrio nuevo
 				de americanos y comerciantes del reino. Hacia el Norte, entre prados de
 				terciopelo tupido, de un verde obscuro, fuerte, se levantaba la blanca
 				fábrica que con sumas fabulosas construían las Salesas, por ahora
@@ -1416,8 +1420,8 @@
 				no llegaban a tamaña altura, y exclamaba después de haber
 				olfateado varias veces, como perro que sigue un rastro:</p> 
 			  	<quote>
-				<l n="1"> -Hame dado en la nariz</l> 
-				<l n="2"> olor de...</l> 
+				<l> -Hame dado en la nariz</l> 
+				<l> olor de...</l> 
 			  	</quote>
 			 <p>La presencia del Provisor contuvo al
 				señor Arcipreste, que, cortando la cita, añadió:</p> 
@@ -1539,8 +1543,8 @@
 				como aquella:</p> 
 			  
 				<quote> 
-				  <l n="1">Yo he visto un pajarillo</l> 
-				  <l n="2">posarse en un tomillo?</l> 
+				  <l>Yo he visto un pajarillo</l> 
+				  <l>posarse en un tomillo?</l> 
 				</quote> 
 			  
 			 <p>Y recitaba la tierna poesía de Villegas hasta el
@@ -1561,8 +1565,7 @@
 				saber:</p> 
 
 				<quote> 
-				  <l n="1"><foreign xml:lang="LAT">Lasciva est nobis pagina, vita proba
-						est.</foreign></l> 
+				  <l><foreign xml:lang="LAT">Lasciva est nobis pagina, vita proba est.</foreign></l>
 				</quote> 
 			 
 			 <p>Con lo cual daba a entender, y era
@@ -2349,15 +2352,15 @@
 				oído:</p> 
 
 				<quote> 
-				  <l n="1"> Sábado, sábado, morena,</l> 
-				  <l n="2"> cayó el pajarillo en trena</l> 
-				  <l n="3"> con grillos y con cadenaaa...</l> 
+				  <l>Sábado, sábado, morena,</l> 
+				  <l>cayó el pajarillo en trena</l> 
+				  <l>con grillos y con cadenaaa...</l> 
 				</quote> 
 			 
 			 <p>Y esto otro:</p>
 				<quote> 
-				  <l n="1"> Estaba la pájara pinta</l> 
-				  <l n="2"> a la sombra de un verde limón...</l> 
+				  <l>Estaba la pájara pinta</l> 
+				  <l>a la sombra de un verde limón...</l> 
 				</quote> 
 			 
 			 <p>Estos cantares los oía en una
@@ -3713,11 +3716,11 @@
 				así:</p> 
 
 				<quote> 
-				  <l n="1">Si quieres, como algún día,</l> 
-				  <l n="2">alabar rubios cabellos,</l> 
-				  <l n="3"> alaba los de María,</l> 
-				  <l n="4">más dorados y más bellos</l> 
-				  <l n="5">que el sol claro al mediodía.</l> 
+				  <l>Si quieres, como algún día,</l> 
+				  <l>alabar rubios cabellos,</l> 
+				  <l> alaba los de María,</l> 
+				  <l>más dorados y más bellos</l> 
+				  <l>que el sol claro al mediodía.</l> 
 				</quote> 
 			 
 			 <p>El poeta eclesiástico que
@@ -4173,10 +4176,10 @@
 				las canciones comenzaba diciendo:</p> <pb n="135"/> 
 
 				<quote> 
-				  <l n="1">Esa luna que brilla en el cielo</l> 
-				  <l n="2">melancólicamente me inspira:</l> 
-				  <l n="3">es el último son de mi lira</l> 
-				  <l n="4">que por última vez resonó.</l> 
+				  <l>Esa luna que brilla en el cielo</l> 
+				  <l>melancólicamente me inspira:</l> 
+				  <l>es el último son de mi lira</l> 
+				  <l>que por última vez resonó.</l> 
 				</quote> 
 			  
 			 <p>Se trataba de un condenado a muerte.</p>
@@ -5895,8 +5898,8 @@
 				<emph>se</emph> cantó, como él
 				decía:</p> 
 			 <quote> 
-				<l n="1">Ábreme la puerta,</l> 
-				<l n="2"> puerta del postigo...</l> 
+				<l>Ábreme la puerta,</l> 
+				<l>puerta del postigo...</l> 
 			 </quote>
 			<pb n="188"/> 
 			 <p>-«Era preciso acabar con las
@@ -9349,8 +9352,8 @@
 				de</p> 
 
 				<quote> 
-				  <l n="1">Hipógrifo violento</l> 
-				  <l n="2"> que corriste parejas con el viento.</l> 
+				  <l>Hipógrifo violento</l> 
+				  <l>que corriste parejas con el viento.</l> 
 				</quote> 
 			 
 			 <p>Después supo que esto lo
@@ -9978,8 +9981,8 @@
 				quiere quitarme la honra</p> 
 
 				<quote> 
-				  <l n="1">a obscuras, como el ladrón</l> 
-				  <l n="2"> de infame merecimiento;</l> 
+				  <l>a obscuras, como el ladrón</l> 
+				  <l>de infame merecimiento;</l> 
 				</quote> 
 			 
 			 <p>pues ¿dónde habrá cosa
@@ -9987,16 +9990,16 @@
 				(representando):</p> 
 			 
 				<quote> 
-				  <l n="1">A satisfacer la fama</l> 
-				  <l n="2">que me habéis hurtado vengo:</l> 
-				  <l n="3">mi agravio es león que brama;</l> 
-				  <l n="4"> un león por armas tengo,</l> 
-				  <l n="5"> y Benavides se llama.</l> 
-				  <l n="6"> De vuestros torpes amores</l> 
-				  <l n="7">dará venganza a mi enojo, </l> <pb n="314"/> 
-				  <l n="8"> mostrando a mis sucesores</l> 
-				  <l n="9"> la nobleza de un león rojo</l> 
-				  <l n="10">en sangre de dos traidores...?».</l> 
+				  <l>A satisfacer la fama</l> 
+				  <l>que me habéis hurtado vengo:</l> 
+				  <l>mi agravio es león que brama;</l> 
+				  <l>un león por armas tengo,</l> 
+				  <l>y Benavides se llama.</l> 
+				  <l>De vuestros torpes amores</l> 
+				  <l>dará venganza a mi enojo, </l> <pb n="314"/> 
+				  <l>mostrando a mis sucesores</l> 
+				  <l>la nobleza de un león rojo</l> 
+				  <l>en sangre de dos traidores...?».</l> 
 				</quote> 
 			  
 			 <p>Don Víctor se fijó en un
@@ -10004,8 +10007,9 @@
 				son de disculpa:</p> 
 			  
 				<quote> 
-				  <l n="1">Desde que sois mi cuñado</l> 
-				  <l n="2"> ni de palabras me afrento..., etc.,</l> 
+				  <l>Desde que sois mi cuñado</l> 
+				  <l>ni de palabras me afrento...,</l>
+				  <p>etc.,</p> 
 				</quote> 
 			 
 			 <p>cuando vio con espanto sobre el mueble los
@@ -12485,25 +12489,25 @@
 				de coplas profanas el</p> 
 			  
 				<quote> 
-				  <l n="1">Santo Dios, Santo Fuerte,</l> 
-				  <l n="2">Santo Inmortal,</l> 
+				  <l>Santo Dios, Santo Fuerte,</l> 
+				  <l>Santo Inmortal,</l> 
 				</quote> 
 			 
 			 <p>y lo de</p> 
 			  
 				<quote> 
-				  <l n="1">Venid y vamos todos</l> 
-				  <l n="2">con flores a María,</l> 
+				  <l>Venid y vamos todos</l> 
+				  <l>con flores a María,</l> 
 				</quote> 
 			  
 			 <p>inventaron un cantar contra el
 				Círculo. Decía así:</p> 
 			  
 				<quote> 
-				  <l n="1">Los niños pobres no quieren</l> 
-				  <l n="2"> ir a la Libre Hermandad,</l> 
-				  <l n="3"> los niños pobres prefieren</l> 
-				  <l n="4"> la Cristiana Caridad.</l> 
+				  <l>Los niños pobres no quieren</l> 
+				  <l>ir a la Libre Hermandad,</l> 
+				  <l>los niños pobres prefieren</l> 
+				  <l>la Cristiana Caridad.</l> 
 				</quote> 
 			  
 			 <p>La 
@@ -16391,13 +16395,10 @@
 				pero más soporíferos para el espíritu. Se tuvo una
 				lástima tiernísima; y mientras el violín gemía
 				diciendo a su modo:</p> 
-			  
-				<quote> 
-				  <l n="1"><foreign xml:lang="ITA">Al palido chiaror</foreign></l> 
-				  <l n="2"><foreign xml:lang="ITA"> che vien degli astri
-						d'or</foreign></l> 
-				  <l n="3"><foreign xml:lang="ITA"> dami ancor contemplar il tuo
-						viso...</foreign></l> 
+				<quote>
+				  <l><foreign xml:lang="ITA">Al palido chiaror</foreign></l> 
+				  <l><foreign xml:lang="ITA"> che vien degli astri d'or</foreign></l> 
+				  <l><foreign xml:lang="ITA"> dami ancor contemplar il tuo viso...</foreign></l> 
 				</quote> 
 			  <pb n="511"/> 
 			 <p>el Magistral lloraba para dentro, mirando a
@@ -17449,8 +17450,8 @@
 				al humilde infante.</p> 
 			  
 				<quote> 
-				  <l n="1"> -Hola, hola, hipógrifo violento</l> 
-				  <l n="2">que corriste parejas con el viento-</l> 
+				  <l> -Hola, hola, hipógrifo violento</l> 
+				  <l>que corriste parejas con el viento-</l> 
 				</quote> 
 			  
 			 <p>dijo don Víctor, que manifestaba a
@@ -17939,8 +17940,8 @@
 				elegante:</p> 
 			  
 				<quote> 
-				  <l n="1">Son pláticas de familia</l> 
-				  <l n="2">de las que nunca hice caso...</l> 
+				  <l>Son pláticas de familia</l> 
+				  <l>de las que nunca hice caso...</l> 
 				</quote> 
 			  
 			 <p>Era el cómico alto, rubio
@@ -17958,20 +17959,20 @@
 				comienzan así:</p> 
 			  
 				<quote> 
-				  <l n="1">Y porque veáis que es error</l> 
-				  <l n="2"> que haya en el mundo quien crea</l> 
-				  <l n="3"> que el que quiere lisonjea,</l> 
-				  <l n="4"> escuchad lo que es amor.</l> 
+				  <l>Y porque veáis que es error</l> 
+				  <l>que haya en el mundo quien crea</l> 
+				  <l>que el que quiere lisonjea,</l> 
+				  <l>escuchad lo que es amor.</l> 
 				</quote> 
 			  
 			 <p>y concluyen:</p> 
 			  
 				<quote> 
-				  <l n="1"> A su propia conveniencia</l> 
-				  <l n="2">dirige amor su fatiga,</l> 
-				  <l n="3">luego es clara consecuencia</l> 
-				  <l n="4"> que ni con amor se obliga</l> 
-				  <l n="5">ni con su correspondencia.</l> 
+				  <l>A su propia conveniencia</l> 
+				  <l>dirige amor su fatiga,</l> 
+				  <l>luego es clara consecuencia</l> 
+				  <l>que ni con amor se obliga</l> 
+				  <l>ni con su correspondencia.</l> 
 				</quote> 
 			  
 			 <p>Y don Víctor le reputaba
@@ -18222,8 +18223,8 @@
 				Doña Inés decía:</p> 
 			  
 				<quote> 
-				  <l n="1">Don Juan, don Juan, yo lo imploro</l> 
-				  <l n="2"> de tu hidalga condición...</l> 
+				  <l>Don Juan, don Juan, yo lo imploro</l> 
+				  <l> de tu hidalga condición...</l> 
 				</quote> 
 			  
 			 <p>Estos versos que ha querido hacer
@@ -21165,10 +21166,10 @@
 				versos, sin que jamás se le olvidase decir con Góngora:</p> 
 			  
 				<quote> 
-				  <l n="1">A su cabaña los guía</l> 
-				  <l n="2"> que el sol deja el horizonte,</l> 
-				  <l n="3"> y el humo de su cabaña</l> 
-				  <l n="4"> les va sirviendo de Norte.</l> 
+				  <l>A su cabaña los guía</l> 
+				  <l>que el sol deja el horizonte,</l> 
+				  <l>y el humo de su cabaña</l> 
+				  <l>les va sirviendo de Norte.</l> 
 				</quote> 
 			  
 			 <p>Los sapos cantaban en los prados, el
@@ -22668,10 +22669,10 @@
 				mientras cantaba el mediquillo con voz ronca y melancolía de chulo:</p> 
 			  
 				<quote> 
-				  <l n="1">Es una coooosa</l> 
-				  <l n="2"> que maravilla mamá</l> 
-				  <l n="3">ver al Frascueeeelo</l> 
-				  <l n="4"> la pantorriiiilla mamá...</l> 
+				  <l>Es una coooosa</l> 
+				  <l>que maravilla mamá</l> 
+				  <l>ver al Frascueeeelo</l> 
+				  <l>la pantorriiiilla mamá...</l> 
 				</quote> 
 			  
 			 <p>Don Pompeyo sentía
@@ -24580,12 +24581,9 @@
 				latín y le dejo bizco; y si no oiga usted:</p> 
 			  
 				<quote> 
-				  <l n="1"><foreign xml:lang="LAT">Ordine confectu, quisque
-						libellus habet:</foreign></l> 
-				  <l n="2"><foreign xml:lang="LAT"> quis, quid, coram quo, quo jure
-						petatur et a quo.</foreign></l> 
-				  <l n="3"><foreign xml:lang="LAT">Cultus disparitas, vis, ordo, ligamen,
-						honestas...</foreign></l> 
+				  <l><foreign xml:lang="LAT">Ordine confectu, quisque libellus habet:</foreign></l> 
+				  <l><foreign xml:lang="LAT"> quis, quid, coram quo, quo jure petatur et a quo.</foreign></l> 
+				  <l><foreign xml:lang="LAT">Cultus disparitas, vis, ordo, ligamen, honestas...</foreign></l> 
 				</quote> 
 			  
 			 <p>Ripamilán se retorcía de
@@ -24594,9 +24592,9 @@
 				mezclando latines:</p> 
 			  
 				<quote> 
-				  <l n="1"> Masculino es fustis, axis</l> 
-				  <l n="2"> turris, caulis, sanguis collis...</l> 
-				  <l n="3"> piscis, vermis, callis follis.</l> 
+				  <l>Masculino es fustis, axis</l> 
+				  <l>turris, caulis, sanguis collis...</l> 
+				  <l>piscis, vermis, callis follis.</l> 
 				</quote> 
 			  
 			 <p>El médico y el prestamista
@@ -25907,32 +25905,32 @@
 				</p> <pb n="288"/> 
 			  
 				<quote> 
-				  <l n="1">Adiós, María Dolores,</l> 
-				  <l n="2"> marcho mañana</l> 
-				  <l n="3"> en un barco de flores</l> 
-				  <l n="4"> para la Habana.</l> 
+				  <l>Adiós, María Dolores,</l> 
+				  <l>marcho mañana</l> 
+				  <l>en un barco de flores</l> 
+				  <l>para la Habana.</l> 
 				</quote> 
 			  
 			 <p>y de repente, cambiaba de aire y gritaba:</p>
 			 
 			  
 				<quote> 
-				  <l n="1">La casa del señor cura</l> 
-				  <l n="2"> nunca la vi como ahora...</l> 
+				  <l>La casa del señor cura</l> 
+				  <l>nunca la vi como ahora...</l> 
 				</quote> 
 			  
 			 <p>y sin pizca de formalidad, se
 				interrumpía para cantar:</p> 
 			  
 				<quote> 
-				  <l n="1">Arriba, Manolillo,</l> 
-				  <l n="2">abajo, Manolé,</l> 
-				  <l n="3"> de la quinta pasada</l> 
-				  <l n="4">yo te liberté;</l> 
-				  <l n="5"> de la que viene ahora</l> 
-				  <l n="6"> no sé si podré...</l> 
-				  <l n="7"> arriba, Manolillo,</l> 
-				  <l n="8"> Manolillo Manolé.</l> 
+				  <l>Arriba, Manolillo,</l> 
+				  <l>abajo, Manolé,</l> 
+				  <l>de la quinta pasada</l> 
+				  <l>yo te liberté;</l> 
+				  <l>de la que viene ahora</l> 
+				  <l>no sé si podré...</l> 
+				  <l>arriba, Manolillo,</l> 
+				  <l>Manolillo Manolé.</l> 
 				</quote> 
 			  
 			 <p>Y todo esto era porque hacía mil
@@ -26027,10 +26025,10 @@
 				<emph>mandilona</emph>:</p> 
 			  
 				<quote> 
-				  <l n="1">Ahora sí que estarás contentón</l> 
-				  <l n="2">mandilón,</l> 
-				  <l n="3">mandilón,</l> 
-				  <l n="4"> mandilón.</l> 
+				  <l>Ahora sí que estarás contentón</l> 
+				  <l>mandilón,</l> 
+				  <l>mandilón,</l> 
+				  <l>mandilón.</l> 
 				</quote> 
 			  
 			 <p>Los carlistas y liberales que llenaban
@@ -27213,11 +27211,10 @@
 				adorados y repetía hasta parecer un martillo: </p> <pb n="327"/> 
 			  
 				<quote> 
-				  <l n="1">¿Qué delito cometí</l>
-				  
-				  <l n="2"> para odiarme, ingrata fiera?</l> 
-				  <l n="3">quiera Dios... pero no quiera</l> 
-				  <l n="4"> que te quiero más que a mí.</l> 
+				  <l>¿Qué delito cometí</l>
+				  <l>para odiarme, ingrata fiera?</l> 
+				  <l>quiera Dios... pero no quiera</l> 
+				  <l> que te quiero más que a mí.</l> 
 				</quote> 
 			  
 			 <p>-Por Dios y por las once mil...
@@ -27226,9 +27223,9 @@
 				declamando para su Visitación:</p> 
 			  
 				<quote> 
-				  <l n="1">En fin, señora, me veo</l> 
-				  <l n="2"> sin mí, sin Dios y sin vos,</l> 
-				  <l n="3"> sin vos porque no os poseo...</l> 
+				  <l>En fin, señora, me veo</l> 
+				  <l>sin mí, sin Dios y sin vos,</l> 
+				  <l>sin vos porque no os poseo...</l> 
 				</quote> 
 			  
 			 <p>Y Visitación le tapaba la boca
@@ -28886,8 +28883,7 @@
 				lo que fuera, que Trifón no lo sabía, comenzaba así:</p> 
 			  
 				<quote> 
-				  <l n="1">¿Qué me anuncia ese fúnebre
-					 lamento...?</l> 
+				  <l>¿Qué me anuncia ese fúnebre lamento...?</l> 
 				</quote> 
 			  
 			 <p>El poeta iba y venía de la 
@@ -28902,11 +28898,10 @@
 				encerraba con su elegía y continuaba escribiendo:</p> 
 			  
 				<quote> 
-				  <l n="1">¡Duda fatal, incertidumbre
-					 impía!...</l> 
-				  <l n="2"> Parada en el umbral, la Parca fiera</l> 
-				  <l n="3">ni ceja ni adelanta en su porfía;</l> 
-				  <l n="4"> como sombra de horror, calla y espera...</l> 
+				  <l>¡Duda fatal, incertidumbre impía!...</l> 
+				  <l>Parada en el umbral, la Parca fiera</l> 
+				  <l>ni ceja ni adelanta en su porfía;</l> 
+				  <l>como sombra de horror, calla y espera...</l> 
 				</quote> 
 			  
 			 <p>Pasaban algunas horas, volvía a
@@ -28922,9 +28917,8 @@
 				<emph>pulso febril</emph>:</p> 
 			  
 				<quote> 
-				  <l n="1">Mas ¡ay! en vano fue; del almo
-					 cielo</l> 
-				  <l n="2"> la sentencia se cumple; inexorable...</l> 
+				  <l>Mas ¡ay! en vano fue; del almo cielo</l> 
+				  <l>la sentencia se cumple; inexorable...</l> 
 				</quote> 
 			  
 			 <p>No sabía Trifón lo que
@@ -28946,10 +28940,10 @@
 				suerte:</p> 
 			  
 				<quote> 
-				  <l n="1"> No le lloréis. Del bronce los tañidos</l>
-				  
-				  <l n="2"> himnos de gloria son; la Iglesia santa</l> 
-				  <l n="3"> le recogió en su seno... etc.</l> 
+				  <l>No le lloréis. Del bronce los tañidos</l>
+				  <l>himnos de gloria son; la Iglesia santa</l> 
+				  <l>le recogió en su seno...</l>
+				  <p>etc.</p> 
 				</quote> 
 			  
 			 <p>Al pobre Trifón le salían
@@ -29108,8 +29102,7 @@
 				esto es... que como dice el poeta...</p> 
 			  
 				<quote> 
-				  <l n="1">¡No podían vencerme... y me
-					 vencieron...!</l> 
+				  <l>¡No podían vencerme... y me vencieron...!</l> 
 				</quote> 
 			  
 			 <p>-Déjese usted de versos, alma de
@@ -29632,8 +29625,8 @@
 			 <p>-Cuando contemplo el cielo,</p> 
 			  
 				<quote> 
-				  <l n="1"> de innumerables luces rodeado</l> 
-				  <l n="2"> y miro hacia el suelo...</l> 
+				  <l>de innumerables luces rodeado</l> 
+				  <l>y miro hacia el suelo...</l> 
 				</quote> 
 			  
 			 <p>perdóname, hija mía, sin querer
@@ -29675,9 +29668,9 @@
 			 <p>Don Víctor, satisfecho,
 				sujetó mejor el brazo de su mujer que colgaba del suyo, y la tomó
 				la mano como un tenor de ópera. Y cantó:</p> 
-			 <quote> 
-				<l n="1">Lasciami, lasciami</l> 
-				<l n="2"> oh lasciami partir...</l> 
+			 <quote xml:lang="ITA"> 
+				<l>Lasciami, lasciami</l> 
+				<l>oh lasciami partir...</l> 
 			 </quote> 
 			 <p>Calló y se detuvo. Un rayo de
 				luna le alumbraba las<pb n="403"/> narices. Miró a su esposa, que
@@ -29763,10 +29756,10 @@
 			 <p><emph>(Cantando y puesto en
 				  pie)</emph></p> 
 			 <quote> 
-				<l n="1">¡Cielos! monda la manzana;</l> 
-				<l n="2">¡es la marquesa</l> 
-				<l n="3"> de Pompadour!...</l> 
-				<l n="4">¡de Pompadour!...</l> 
+				<l>¡Cielos! monda la manzana;</l> 
+				<l>¡es la marquesa</l> 
+				<l> de Pompadour!...</l> 
+				<l>¡de Pompadour!...</l> 
 			 </quote> 
 			 <p>Ana soltó el trapo. Rió de
 				todo corazón el disparate del académico y la gracia de su marido.
@@ -29977,10 +29970,10 @@
 				es una música. Mientras Quintanar duerme la siesta (costumbre nueva) y
 				ronca (achaque antiguo y digno de respeto) yo abro la ventana y oigo</p> 
 			 <quote> 
-				<l n="1">el rumor de la lluvia</l> 
-				<l n="2">sobre las hojas</l> 
-				<l n="3">y el ruido de las alas</l> 
-				<l n="4">de las palomas</l> 
+				<l>el rumor de la lluvia</l> 
+				<l>sobre las hojas</l> 
+				<l>y el ruido de las alas</l> 
+				<l>de las palomas</l> 
 			 </quote> 
 			 <p>que se esponjan sobre los tejadillos de su
 				palomar cuadrado, entrando y saliendo por las ventanas angostas. Ese palomar
@@ -30146,7 +30139,7 @@
 				muy feliz el que no ha visto </p> <pb n="417"/> 
 			  
 				<quote> 
-				  <l n="1">más río que el de su patria;</l> 
+				  <l>más río que el de su patria;</l> 
 				</quote> 
 			  
 			 <p>pero yo soy a estas horas más
@@ -30154,9 +30147,8 @@
 				príncipe Esquilache:</p> 
 			  
 				<quote> 
-				  <l n="1">Porque es la patria al que dichoso
-					 fuere</l> 
-				  <l n="2"> donde se nace no, donde se quiere.</l> 
+				  <l>Porque es la patria al que dichoso fuere</l> 
+				  <l>donde se nace no, donde se quiere.</l> 
 				</quote> 
 			  
 			 <p>¡La Almunia de don Godino!
@@ -33744,8 +33736,8 @@
 				cantar el Barbero, la escena del piano; él, don Víctor, se
 				había adelantado a las baterías para decir con voz cascada:</p> 
 			  
-				<quote> 
-				  <l n="1">Quando la mia Rosina...</l> 
+				<quote xml:lang="ITA"> 
+				  <l>Quando la mia Rosina...</l> 
 				</quote> 
 			  
 			 <p>el público de las butacas había

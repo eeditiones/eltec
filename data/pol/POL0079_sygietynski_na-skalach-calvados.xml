@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0079">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">47523</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Na skałach Calvados</title>
 <ref>https://polona.pl/item/na-skalach-calvados-powiesc-z-zycia-normandzkich-rybakow,OTE5NDkyNzg/4/#info:metadata</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Na skałach Calvados</title>
 <author>Sygietyński, Antoni</author>
 <publisher>Warszawa: Lesman i Świszczowski</publisher>
 <date>1884</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -531,7 +536,9 @@
 <p>—    Glupiaś!... Spij!</p>
 <p>Berta, uspokojona obojętnym dźwiękiem ochryplego głosu Boudard'a, położyła się na powrót do łóżka i zaczęła marzyć bardziej różowo. Po godzinie wicia się w poduszkach, sen ją zmorzył. Zasnęła.</p>
 <p>Nad ranem przed odpływem morza, Boudard wszedł cicho do izdebki Berty i popatrzywszy chwilę na rozpaloną twarz córki, zaczął mruczeć pod nosem: — Ze je leż zawsze zmory dusić muszą!... Nie mogłem uawet wyspać się porządnie... Takie to zupełnie, jak nieboszczka matka! Bywało, przed ślubem nieraz ją dusiło, a trapiła się ciągle po nocach, choć wiedziała, że się z nią ożenię na pewno, bo jćj przecie samochcąc przyobiecałem. Ale cóż robić, kiedy one wszystkie takie głupie?!</p>
-<p>W kilka tygodni później, w rybackiej osadzie zagrało nowe życie.</p>
+</div>
+            <div type="chapter"><head>III.</head>
+            <p>W kilka tygodni później, w rybackiej osadzie zagrało nowe życie.</p>
 <p>Kobiety w szeptach rozpowiadały sobie niestworzone dziwy, a mężczyźni po niewinnych półsłówkach wybuchali głośnym śmiechem.</p>
 <p>Wszyscy miel' sobie coś do powiedzenia i wszyscy szeptali po kątach od rana do nocy, wystrzegając się jedni drugich. Nikt nie śmiał mówić głośno, jakkolwiek cała osada trzęsła się jedną i ta samą wieścią.</p>
 <p>Pewnego razu dopiero, kiedy rybacy wyjechali na morze, a kobiety roztasowały się po wybrzeżu i na bulwarze, matka Gibeii, stara handlarka ryb, o małych oczkach, spiczastym nosie, ważkich ustach i chudej, wydłużonej postaci, stanęła ua środku bulwaru i tajemniczem! gestami wezwała płeć piękną do siebie.</p>
@@ -683,10 +690,6 @@
 <p>Pomimo ściągnięcia skóry czoła ku podstawie nosa, brwi drgały mu nerwowym ruchem nad blyszczącemi oczyma i zdradały wewnętrzny uiepokój. Nozdrza drżały mu, jak u konia, który po biegn wydycha zmęczenie, a nata ściskały się konwulsyjnie po bokach wywiniętych warg, znacząc dwa luki wyraźne na ciemnych, spieczonych od słońca i ściętych wiatrem policzkach. Był brzydki wyrazem zemsty i pogardliwego zacięcia się. Tyłem odwrócony do chaty Boudarda, siedział na nizkim kamieniu z podwiniętemi pod siebie nogami, i z niepokoju wytrzaskiwal sobie palce w stawach.</p>
 <p>— Nareszcie! — syknął po cichu i przykuł wzrok do szarej plamy, która wysokim, a ważkim pasem zarysowała się nad widnokręgiem.</p>
 <p>Czarne oczy zaiskrzyły mu się silniej, a białka wyszły z orbit. Ciemna cera jego twarzy pokraśuiała na chwilę. W miarę, jak Eufrazya zbliżała się do przystani, stawał się spokojniejszym w wyrazie, a mrukliwszym w odpowiedziach wciąż napastującym go kobietom. Kiedy Eufrazya dotknęła nosem boku swego czółna, przygarbił się nizko do ziemi i patrzył z podełba.</p>
-<p>Boudard nie wiosłował. Ze spuszczoną głową, z ręko</p>
-<p>Berta, jakby zawstydzona, nie rzekłszy słowa, posz</p>
-</div>
-<div>
 <p>Boudard nie wiosłował. Ze spuszczoną głową, z rękoma, jakby od wczoraj nie wyjętemi z kieszeni, siedział na tyle czółna i posępnem okiem patrzył na kosze z rybami Niedaleko od brzegu podniósł głowę do góry, iak pies, który szuka wiatru, i spojrzawszy po całej linii bulwaru, zatrzymał przeszywający swój wzrok na jednem miejscu.</p>
 <p>Tam staią Berta, i trzymając miskę z rybami w jednej, a cblcb w drugiej ręce, czekała ojca, drząc ua całem ciele od strachu. Sine podkowy pod puszczonemi na dól oczyma, spieczone gorączką wargi i blada jej twarz, znamionowały niepokój oczekiwania i znużenie. Z wyciągniętemi naprzód rękoma, z pochyloną pokornie głową ku ziemi, nieruchoma, zdawała się nie prosić i błagać, lecz oliarować dary poddaństwa. Nie patrząc, czekała.</p>
 <p>Orange, jak przykuty, siedział na kamieniu i niespokojnem okiem kota, śledził każdy rucb Boudard'a, który, nie mogąc dostrzedz kochanka swej córki z pośród tłumu otaczających go kobiet, świdrował się siwem okiem w łono Berty. Czółno nareszcie utknęło w piasku. Wiosła upadły na brzeg, a kosze z rybami, dźwigane rękoma majtków, podniosły się w górę.</p>
@@ -807,7 +810,7 @@
 <p>—    He! be!... — mruknął Orange, złośliwcu) błyskając okiem. — Balem się, co prawda, aby kiedy na Pełrele rządowy nie najecbał. Zobaczylibyśmy wtedy, czyby Totain trzymał go dłużej za tę sztukę.</p>
 <p>—    Gabryel! jeżeli ty nie będziesz wisiał, to już chyba nikt na świecie — odpowiedział Keuouf, trzęsąc głową z niezadowoleniem.</p>
 <p>—    Nie bójcie się o mnie, nic mi się złego nie stanie. A nie zapomnijcie iść zaraz do Totalna—dodał Orange z progu i pędem puścił się ku morzu.</p>
-<p>Nazajutrz Orange prowadził już Petrelę, a Lemoine Eufrazyą. Młody „gospodarz,'' według zwyczaju oblewał swoje dowództwo. Nieustające kółko kawy, araku i wódki na komendę Orange brzęczało szkłem po długim stole szynku.</p>
+<p>Nazajutrz Orange prowadził już Petrelę, a Lemoine Eufrazyą. Młody „gospodarz," według zwyczaju oblewał swoje dowództwo. Nieustające kółko kawy, araku i wódki na komendę Orange brzęczało szkłem po długim stole szynku.</p>
 <p>—    Za zdrowie Gabryela!—mruknął niewyraźnie ospowaty Leon ze spuszczoną bezsilnie głową ua stół, szukając kieliszka po omacku.</p>
 <p>—    Za zdrowie Gabryelowej!—krzyknął Ludwik.</p>
 <p>—    Za zdrowie Gabryelątka! — dodał opasły Julek, stukając się kieliszkiem z nowym gospodarzem.</p>
@@ -1170,8 +1173,6 @@
 <p>—    Cóż to! Nie możesz rozpędzić tych gęsi, kiedy widzisz, że pan inżynier rachuje?</p>
 <p>—    Nie wiedziałam, że to przeszkadza panu inżynierowi.</p>
 <p>—    Ma się rozumieć, że nie pomaga, kiedy mi klapią temi przeklolemi sabotami nad głową a nosy wsadzają w rajzbret.</p>
-</div>
-<div>
 <p>Berta, jakby zawstydzona, nie rzekłszy słowa, poszła do domu i przywdziawszy skórkowe trzewiki na nogi, wróciła na bulwar. Boudard siedział na ławce i od czasu do czasu bronił inżyniera przed ciekawymi natrętami, którzy, pomimo ostrych przymówek i zakazów inżyniera, skradali się po cichu na palcach do trójnożnego stolika. Widząc córkę mijającą go obojętnie, zawołał na nia po imieniu i zatrzymał przy sobie ua ławce. Imię to przez wspomnienie kawiarki z Paryża mile zabrzmiało w uszach inżyniera. Podniósł głowę i ciekawie spojrzał na Bertę. Jego wzrok spotkał się z jedwabnem łagodnem jej wejrzeniem. Po chwili spojrzał po raz drugi, jakby mimowolnie, potem po raz trzeci—umyślnie, a potem po raz czwarty —ale wtedy już niebieskie oczy wpatrywały się w piętę wełnianej pończochy dla Orange'a. Nagle zachciało mu się palić. Przerwał robotę, jakkolwiek pilną, i usiadłszy kolo Boudard'a, zaczął kręcić papierosa. Berta patrzyła nań z ukosa i podziwiała jego różowe paznokcie, starannie zastrugane na końcach, długie palce, które łąk zręcznie kręciły papierosa, podwójne kule malakitowych spinek u szerokich rękawów i złotą dewizkę, bogato zwieszającą się z obu kieszonek białej pikowej kamizelki. Gabryel przyszedł jej na myśl. Przypomniała sobie jego ręce grube i nasiąknięte smołą, palce krótkie i paznokcie czarne, pourywane do połowy. Westchnęła.</p>
 <p>—    Zdaje mi się, że to wasza córka—rzekł inżynier po kilku słowach zamienionych z Boudard'em o pogodzie i ciężkich czasach.</p>
 <p>—    Tak, panie inżynierze, to moja córka, co jest za Orange'm.</p>

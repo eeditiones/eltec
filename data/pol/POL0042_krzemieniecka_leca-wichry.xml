@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0042">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">75740</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Lecą wichry!</title>
 <ref>https://polona.pl/item/leca-wichry-powiesc,ODk3NTc0NDY/8/#info:metadata</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Lecą wichry!</title>
 <author>Krzemieniecka, Hanna</author>
 <publisher>Poznań: Drukarnia Św. Wojciecha</publisher>
 <date>1923</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -836,7 +841,7 @@
 <p>- Bo też istotnie niebotycznych zamiarów wykonać trudno. Ale jeśli jest szczerze w duchu ofiarną, to wystarcza.</p>
 <p>- Bardzo przepraszam! do ofiar cichych, niepodziwianych przez audytorjum, panna Honorata nie jest zdolna. Musi mieć zawsze widzów i oklaskującą publiczność, wspaniały typ aktorów idei, którzy potrafią grać z przejęciem swą rolę, entuzjazmować się i płakać, oglądając się na aplauzy, a jednocześnie oszukując trochę publiczność.</p>
 <p>- Jakto - oszukując?</p>
-<p>- Naturalnie! gdyż jest o tyle sprytną, że rzucając efektowne projekty, zgóry już obmyśla plan, w jaki sposób ich nie wykona, i dlatego projekty jej nigdy nie dochodzą do skutku. To policja "nosa wtrąci'' w samą porę, to przewrotność ludzka coś "zmaluje", zwykle kończy się wszystko na pięknych zamiarach i ich urbi et orbi rozgłoszeniu. Wszystkie zaś te nieprzebyte przeszkody zjawiają się "akurat" w porę, aby ciężary trudnych do wykonania projektów zdjąć pannie Honoracie z bark.</p>
+<p>- Naturalnie! gdyż jest o tyle sprytną, że rzucając efektowne projekty, zgóry już obmyśla plan, w jaki sposób ich nie wykona, i dlatego projekty jej nigdy nie dochodzą do skutku. To policja "nosa wtrąci" w samą porę, to przewrotność ludzka coś "zmaluje", zwykle kończy się wszystko na pięknych zamiarach i ich urbi et orbi rozgłoszeniu. Wszystkie zaś te nieprzebyte przeszkody zjawiają się "akurat" w porę, aby ciężary trudnych do wykonania projektów zdjąć pannie Honoracie z bark.</p>
 <p>- Skądżeż właściwie ten jej rozgłos, jako niepospolitej patrjotki i działaczki społecznej?</p>
 <p>- Ba! lenistwo myślenia! dość raz w kurs puścić jakąś sławę, aby ją wszyscy głosili, jeden za drugim, by się zbytecznie samoistnem myśleniem nie sfatygować... Wszyscy dają się łudzić pozorom, i ledwie raz na sto trafi się mądry wróbel, który potrafi plewę od czystego ziarna odróżnić. Właściwość ta, pomiędzy ptactwem pospolita, wśród ludzi mogłaby nosić miano cechy genialnej. Ja jestem właściwie takim geniuszem bez teki, chociaż z uzdolnieniami uniwersalnemi. Do usług waszych, kuzyneczki!Łuny zachodu zaciągnęły się już kirem zmroków.</p>
 <p>Ciemność spowijała ziemię. Przez muślinowe firanki ciekawie zaglądał rożek księżyca. Przy stole herbatnim spokojnie gwarzyła moja rodzina, śmiał się i dowcipkował Bolek, a mnie wciąż stało w myśli, że on tam chory, niepokoi się i męczy, drżąc na każdy odgłos dzwonka, nasłuchując w ciszy, czy nie odezwie się mój glos, moje kroki... W myśli biegłam ku niemu i czułam, że po jednym uścisku mej dłoni, pozna, iż przewidywania jego były płonne, że nigdy nie odbiorę mu swych uczuć... Odczuwam boleśnie jego niepokój, tem boleśniej, iż iść tam nie mogę, nie chcę!</p>

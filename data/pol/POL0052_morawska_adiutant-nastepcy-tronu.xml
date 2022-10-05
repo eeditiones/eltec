@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0052">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">31605</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Adjutant następcy tronu</title>
 <ref>https://polona.pl/item/adjutant-nastepcy-tronu-powiesc-z-czasow-wojny-francusko-pruskiej,MjA3MTE5/2/#info:metadata</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Adjutant następcy tronu</title>
 <author>Morawska, Zuzanna</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1911</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -56,7 +61,6 @@
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>I.</head>
 <p><emph>MATKA I SYN.</emph></p>
 <p>Z pysznie urządzonego apartamentu wydobywał się wielce podniesiony głos chłopięcy, a wyrazy, wydostające się na długi korytarz, świadczyły o niezwykłej scenie, jaka się tam w onej chwili odbywała.</p>
@@ -108,8 +112,7 @@
 <p>Damą, która jednem słowem umiała przytłumić niewczesne jego wybryki, samowolę i niepohamowaną krnąbność, była matka jego, Eugenia, cesarzowa Francyi.</p>
 <p>(1) Prawdziwe.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II.</head>
 <p><emph>O CHLEBIE I WODZIE.</emph></p>
 <p>Pokój, do którego przeszedł następca tronu francuskiego, a przeszedł, nie czekając na wezwanie swego otoczenia, był oddzielony jednym tylko salonem od tego, w którym się rozgrywała powyższa scena.</p>
@@ -194,8 +197,7 @@
 <p>Wstydził się ich sam przed sobą i drżał, żeby kto nie wszedł i jego łkania nie posłyszał. Wkrótce ucichł zupełnie, a miarowy, spokojny oddech oznajmiał, że następca tronu francuskiego ukoił bunt i smutek we śnie.</p>
 <p>Spał, jak każdy zdrowy chłopiec w jego wieku.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III.</head>
 <p><emph>OJCIEC I SYN.</emph></p>
 <p>W r. 1866 wychodzą na widownię w Prusach dwaj znakomici ludzie: Otto Bismarck i Karol Moltke.</p>
@@ -267,8 +269,7 @@
 <p>(2) Miasto starożytne na pograniczu Austryi i Bawaryi.</p>
 <p>(3) Rzeczywiste słowa Napoleona III</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>I.</head>
 <p><emph>NA PLACU ZGODY.</emph></p>
 <p>Eugenia de Montijo, zostawszy żoną Napoleona III i cesarzową Francyi, przez jakiś czas nie wdawała się w sprawy państwa, ani też nie używała swego wpływu na małżonka w rozdawaniu godności i urzędów. Ograniczała się tylko do wynajdywania osób zręcznych, eleganckich, umiejących się bawić i wyszukiwać coraz inne i więcej urozmaicone zabawy.</p>
@@ -331,8 +332,7 @@
 <p>— Mamo, kochana moja mamo! Napoleon rozrzewnionem okiem patrzył na tę czułość matki i syna.</p>
 <p>(1) Z pamiętników damy dworu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V.</head>
 <p><emph>WYCHOWANIEC I WYCHOWAWCA.</emph></p>
 <p>W oznaczonej godzinie zjawił się młody oficer na zamku cesarskim i wprowadzony został przed oblicze obojga najjaśniejszych.</p>
@@ -437,8 +437,7 @@
 <p>Innym razem byłby może miarkował zbyt głośne okrzyki, dziś postanowił uchybić nawet zwykłej etykiecie.</p>
 <p>— Niech się wyszumi, wymusuje, jak młode wino — myślał sobie, patrząc na wychowańca — będzie potem uleglejszy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI.</head>
 <p><emph>CHWILA SWOBODY.</emph></p>
 <p>Cesarz byłby może zapomniał o młodym oficerze, któremu obiecał swą łaskę, lecz Lulu tak sobie wbił w główkę swego wybawiciela, iż, łamiąc się z trudnością, ciągle powtarzał w myśli:</p>
@@ -510,8 +509,7 @@
 <p>— Nic dziwnego, wszak on jest synem twoim!</p>
 <p>Cesarz uśmiechnął się na te pochlebne słowa, wkrótce jednak spochmurniał i na licu jego osiadła troska, która teraz coraz częściej się ukazywała.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII.</head>
 <p><emph>ORDER.</emph></p>
 <p>Szambelan, otrzymawszy rozkaz od cesarza co do wywiedzenia się o Stanisławie Horszyńskim i to z dodaniem "niezwłocznie", wymówionem z pewnym naciskiem, wydał stosowne co do tego polecenie, dodając również: — Niezwłocznie !</p>
@@ -607,8 +605,7 @@
 <p>Oczy cesarza długo jeszcze patrzyły w stronę, gdzie Lulu stał w otoczeniu swojej świty. Z powrotem uczepił się ręki swego nowego adjutanta i, wskoczywszy do powozu, wskazał mu ręką miejsce naprzeciw siebie.</p>
 <p>Obok następcy tronu siadł, jak zwykle, hr. de Villeroy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII.</head>
 <p><emph>W UPOJENIU!</emph></p>
 <p>Dwutygodniowa podróż najjaśniejszych państwa i pobyt w Salzburgu dały najwidoczniej oczekiwane rezultaty dyplomatyczne. Napoleon wrócił w doskonałym humorze, jakby odmłodzony, zdrowszy, — nawet ciągła zmarszczka na czole wygładziła się nieco.</p>
@@ -671,8 +668,7 @@
 <p>Adjutant skłonił głowę w milczeniu, z oczu pp. Gouret i d'Ancy, będących również w świcie, posypały się jakieś niebywałe dotąd błyskawice.</p>
 <p>(1) Dosłowne.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX.</head>
 <p><emph>NA WOJNĘ!</emph></p>
 <p>— Ren stanie się naturalną granicą Francyi, sięgniemy może i dalej! — wyrzekła raz cesarzowa w poufałem kółku. Słowa te rozbiegły się echem po całej Francyi, napełniając umysły niczem nie uzasadnioną otuchą.</p>
@@ -728,8 +724,7 @@
 <p>(1) Dosłowne.</p>
 <p>(2) Prawdziwe.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X.</head>
 <p><emph>ROZCZAROWANIE.</emph></p>
 <p>— Na wroga!</p>
@@ -864,8 +859,7 @@
 <p>(1) Dosłowne.</p>
 <p>(2) Dosłowne.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI.</head>
 <p><emph>REJENTKA.</emph></p>
 <p>Zaraz po bitwie weissenburskiej cesarzowa z całym dworem przeniosła się do Paryża i zamieszkała w Tuilleries. Lecz dwór jej różnił się zupełnie od dawnego.</p>
@@ -979,8 +973,7 @@
 <p>(3) Dosłowne.</p>
 <p>(4) Z pamiętników naocznego świadka.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII.</head>
 <p><emph>NASTĘPCA TRONU I JEGO ADJUTANT.</emph></p>
 <p>Wkrótce po otrzymaniu rozkazu wyjścia z Chalons cesarz, będący tam z całem swem otoczeniem, otrzyma! telegram:</p>
@@ -1081,8 +1074,7 @@
 <p>(1) Dosłowne.</p>
 <p>(2) Cała ta scena, jak i wiele innych, wzięte z "Pamiętników naocznego świadka" ("Memoires d'un temoinocculaire").</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII.</head>
 <p><emph>NASTĘPCA TRONU I PIELĘGNIARKA.</emph></p>
 <p>Dłużej na zajętem stanowisku nie można było pozostać, maleńkie, nic nie znaczące zwycięstwo, odniesione przez pułk następcy tronu, nie mogło dawać najmniejszego złudzenia.</p>
@@ -1226,8 +1218,7 @@
 <p>Pielęgniarka uśmiechnęła się boleśnie i z wielką troskliwością dotknęła głowy rannego.</p>
 <p>Potem szła do innych, niosąc im pomoc i słowa kojące.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV.</head>
 <p><emph>NASTĘPCA TRONU I CESARZ.</emph></p>
 <p>Chmury, zasłaniające cały widnokrąg, przyspieszały zmrok ostatniego sierpnia. Napoleon w swej ciasnej, zastawionej najkonieczniejszymi sprzętami kwaterze w twierdzy Sedanu pisał, pochylony nad prostym stołem.</p>
@@ -1339,8 +1330,7 @@
 <p>Napoleon jęknął i runął na ziemię.</p>
 <p>Czuwający w sąsiednim pokoju doktór de Crieux zjawił się natychmiast.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV.</head>
 <p><emph>STRASZNA NOC.</emph></p>
 <p>Omdlenie Napoleona nie wywarło takiego wrażenia, jakby to mogło być w innych okolicznościach. Syn tylko, dowiedziawszy się o tem, przybiegł do wybladłego, znękanego ojca i, idąc za popędem swych uczuć, a może żałując wyrazów, które rzucił nieszczęśliwemu, padł przed nim na kolana. Okrywał pocałunkami jego wychudłe, przezroczyste prawie dłonie i oblewał je gorącemi łzami.</p>
@@ -1483,8 +1473,7 @@
 <p>Wśród walki i nadludzkich wysiłków, część ich poległa, część z kapitanem d'Orcet i jenerałem Vinoy dotarła do Paryża.</p>
 <p>(1) Ostatnie dwa rozdziały wzięte z notatek kapitana d'Orcet, wydanych w Paryżu r. 1873,</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI.</head>
 <p><emph>SZALONY.</emph></p>
 <p>Siostra błękitnego krzyża, usuwając się z twierdzy ze swoim ambulansem, myślała w tej chwili tylko o posłudze i ocaleniu rannych.</p>
@@ -1640,8 +1629,7 @@
 <p>— Niech cię Bóg błogosławi!</p>
 <p>I łzy potoczyły się z jego oczu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVII.</head>
 <p><emph>NAJMŁODSZY PUŁK.</emph></p>
 <p>Dni mijały w gorączkowem napięciu.</p>
@@ -1779,8 +1767,7 @@
 <p>"Prusak", z odciętą prawą ręką, z ogromną szramą na czole i policzku, nie mógł się jeszcze dotąd wylizać.</p>
 <p>I do tego to Prusaka pędził teraz Pawełek.</p>
 </div>
-<div>
-<p><emph>XVIII..</emph></p>
+<div type="chapter"><head><emph>XVIII..</emph></head>
 <p><emph>PRUSAK.</emph></p>
 <p>Horszyński na pierwszy okrzyk: Prusacy! zerwał się do boju.</p>
 <p>— Stanę, umiem robić bronią, będę pożyteczny, ucząc innych! — wołał.</p>
@@ -1871,8 +1858,7 @@
 <p>Horszyński w kilka dni potem stanął na wałach.</p>
 <p>A było to wszystko we dwa dni po rozpoczętem przez Prusaków oblężeniu Paryża. Działa ich grzmiały z całą wściekłością.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIX.</head>
 <p><emph>CHORĄGIEW PRUSKA.</emph></p>
 <p>Gdy Pawełek przybiegł, zastał w pokoju samego tylko jeńca.</p>
@@ -2029,8 +2015,7 @@
 <p>Margot na znak podzięki podała mu obie dłonie.</p>
 <p>Fort dnia tego nie dostał się w ręce Prusaków.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XX.</head>
 <p><emph>MYSZY.</emph></p>
 <p>Jenerał Trochu wytężał wszystkie siły, żeby wzmocnić obronę stolicy.</p>
@@ -2172,8 +2157,7 @@
 <p>Kaleka tryumfował.</p>
 <p>Pułk chłopców zwano odtąd "Myszami".</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XXI.</head>
 <p><emph>POŻEGNANIE.</emph></p>
 <p>Od chwili pierwszych niepowodzeń wojennych Adolf Thiers, minister, jeden z prawdziwych patryotów, starał się wyjednać pomoc u dworów zagranicznych.</p>
@@ -2241,7 +2225,6 @@
 <p>Mimo że po śmierci małżonka w r. 1873 ex-cesarzowa rozwinęła jeszcze usilniejszą działalność, ażeby wprowadzić syna na tron Francyi i wskrzesić świetność drugiego cesarstwa, mimo wypłacenia 5 miliardów franków cesarstwu Niemieckiemu i odstąpienia Alzacyi i Lotaryngii, Francya poczęła dźwigać się z upadku i pozostała rzecząpospolitą.</p>
 <p>Syn Napoleona III i Eugenii, młody Ludwik Napoleon, zginął 1879 r. w Afryce, w wojnie z Zulami.</p>
 <p>Nie było już dzielnego adjutanta, któryby go piersiami swemi zasłonił.</p>
-</div>
 </div>
 </body>
 </text>

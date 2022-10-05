@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU10230" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU10230" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,10 +24,15 @@
             <measure unit="vols">3</measure>
          </extent>
          <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271637">ELTeC-hun</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662499">ELTeC-hun release 2.0.0</ref>
+<!--Published as part of ELTeC--></publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>II. Rákóczi Ferencz : 1852</title>
                <date>2012-01-02</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -49,13 +59,11 @@
                      <ref target="http://mek.oszk.hu/10200/10230/pdf/"/>
                   </bibl>
                
-            </bibl>
-            <bibl type="firstEdition">
+            </bibl><bibl type="firstEdition">
                <title>II. Rákóczi Ferencz : 1852</title>
                <author>Jósika Miklós</author>
                <date>1852</date>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
@@ -67,11 +75,12 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="unspecified"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
          <change when="2019-04-18"/>
       </revisionDesc>
    </teiHeader>
@@ -204,7 +213,7 @@
                   komát megpillantotta. Ő rögtön kész volt tervével.</p>
                <p>Minden habozás nélkül erős baltájával megtámadta a rengeteg barátságtalan
                   szörnyét: hosszú küzdés után a medve halva hevert s az ifjú irtózatosan
-                  összekarczolva tört karral s vérben forgó szemekkel nézett martalékjára.<hi xml:id="_ednref1">[i]</hi>
+                  összekarczolva tört karral s vérben forgó szemekkel nézett martalékjára.<hi n="_ednref1">[i]</hi>
                </p>
                <p>Gondoljuk-e, hogy e borzasztó állapotban hazament, idegen segélyt keresett? Oh
                   nem! a kecskeőr - ő s Isten tudja mikép - összekötözte tört karját, s daczára az
@@ -357,7 +366,7 @@
                <p>- Hová? - kérdé Vaszil.</p>
                <p>- Oda, öcsém, - mond Ursza - hová én is megyek. - Lásd, ismertem én még nagyapádat
                   is, mint ily fiatalt, minő magad vagy, pedig már akkor második nőm volt. Ennyit
-                  tudok; bár - Isten bocsássa bünömet! - minő volt első nőm, meg nem mondhatnám.<hi xml:id="_ednref2">[ii]</hi> Öreg vagyok, mint e vén hegy. Előtted, Vaszil, még
+                  tudok; bár - Isten bocsássa bünömet! - minő volt első nőm, meg nem mondhatnám.<hi n="_ednref2">[ii]</hi> Öreg vagyok, mint e vén hegy. Előtted, Vaszil, még
                   az egész élet terjed; szükségből király is lehetsz.</p>
                <p>Vaszil röhögött.</p>
                <p>- Ha soká élsz tudniillik; - folytatá az öreg. - Az én életem mától holnapig tart,
@@ -504,7 +513,7 @@
                      s kérelem hangján nyilvánítni kivánságait, most...</p>
                   <p>- Béketűrés, Amadil! - nyugtatá a másik - a sors oly helyzetbe tőn, hol ily
                      elmulasztások ellen szót emelni szégyenítőbb, mint azokat észre sem venni.</p>
-                  <p>- Nekem merne így szólani, ha Rákóczi Julia volnék!<hi xml:id="_ednref6">[vi]</hi> - mond Amadil hévvel.</p>
+                  <p>- Nekem merne így szólani, ha Rákóczi Julia volnék!<hi n="_ednref6">[vi]</hi> - mond Amadil hévvel.</p>
                   <p>E szavak közben egy ajtóhoz értek, s ezen át középnagyságú szobába léptek,
                      honnan balra egy más ajtó felé fordulván, a fiatal herczegnő számára rendelt
                      tágas, világos szobába nyitottak.</p>
@@ -615,7 +624,7 @@
                      mindent a kivitel akadályára?</p>
                   <p>- Mikor határoztunk, - szólt Julia, komolyan szakítván félbe Amadil beszédárját
                      - akkor agyrémekről le kell mondanunk. Aspermont harminczöt-harminczhat éves
-                     férfiú, a császár hadainak főparancsnoka Magyarországon;<hi xml:id="_ednref10">[x]</hi> mindazoktól, kik néha a fejedelemnőt s minket meglátogatnak, sőt
+                     férfiú, a császár hadainak főparancsnoka Magyarországon;<hi n="_ednref10">[x]</hi> mindazoktól, kik néha a fejedelemnőt s minket meglátogatnak, sőt
                      az udvarnál is magasztalni hallám lovagiasságát s igazi német őszinteségét.
                      Életem azon keserű pillanatában, melynek szégyenét ismételni, úgyszólván,
                      fölidézesz, ő kiséretünkben volt, a mint tudod, s védelmemre szót emelt,
@@ -999,7 +1008,7 @@
                      gyámjától, s én távol attól, hogy a dolgot ellenezzem, magam vezetem őt karjaid
                      közé.</p>
                   <p>- Más szavakkal, Honoria, - szakítá őt a tábornok félbe, - mellőzve Julia
-                     anyját, s őt magát: Kolonics bibornokot, ki most távol van,<hi xml:id="_ednref20">[xx]</hi> várjam be, s nyerjem azt, mit mindazok, kik
+                     anyját, s őt magát: Kolonics bibornokot, ki most távol van,<hi n="_ednref20">[xx]</hi> várjam be, s nyerjem azt, mit mindazok, kik
                      Julia kezét megkérték. Értelek, - folytatá Aspermont indulatosan - te Kolonics
                      visszhangja vagy: mi ha nem igaz, igérj legalább semlegességet.</p>
                   <p>- Nem tehetem, - felelt Honoria némi elfogultsággal - hogy szemet húnyjak ott,
@@ -1128,7 +1137,7 @@
                      összenőtt barna szemöldöktől árnyékolt szemei nem könnyen tűntek el annak
                      emlékéből, ki őt csak egyszer látta életében. Ezen ember mintegy negyven
                      évesnek látszott, s állát, ajkait tömött fekete szakáll födé.</p>
-                  <p>- Soká vártál-e, Brenkovics? - kérdé hirtelen Aspermont.<hi xml:id="_ednref21">[xxi]</hi>
+                  <p>- Soká vártál-e, Brenkovics? - kérdé hirtelen Aspermont.<hi n="_ednref21">[xxi]</hi>
                   </p>
                   <p>- Nem hevertem e kis időzés közben; - felelt szárazan a kérdett - a szem, mely
                      nyitva van, sokat lát és tapasztal egy rövid téli napon is.</p>
@@ -1188,7 +1197,7 @@
                   <p>Kolonics bibornok a herczeg jószágait Klobusiczki Ferencz közvetlen kormánya
                      alá helyzé, kitől mindig szoros számadásokat vőn, s a jövedelmekből Rákóczi
                      Ferenczet, nővérét Juliát, s Zrinyi Ilonát, Tökölyi Imre nejét, a fiatal
-                     herczeg anyját, illendően, de távol sem fejedelmi módon tartotta.<hi xml:id="_ednref25">[xxv]</hi> Tökölyi Imréné egy külvárosi kolostorban négy
+                     herczeg anyját, illendően, de távol sem fejedelmi módon tartotta.<hi n="_ednref25">[xxv]</hi> Tökölyi Imréné egy külvárosi kolostorban négy
                      szobát birt lakosztályul; Julia igénytelen szállását láttuk; s ha ehhez hozzá
                      teszszük, hogy a híres történeti család egyetlen férfiutóda a jezsuiták
                      házában, komornyikával s két apróddal együtt, mindössze négy szoba fölött
@@ -1294,10 +1303,10 @@
                      szemére kegytelen bánását, érteté meg vele, minő árva értelem s nyomorú
                      felsőségi szellem az, mely ész s meggyőző okok helyett illetlen bánásra s
                      börtönre szorul, hogy a pápa után legelső egyházi méltóságot viselő férfiú
-                     szerepet látszott vele cserélni, s feddést fogadott, a helyett, hogy adjon.<hi xml:id="_ednref28">[xxviii]</hi>
+                     szerepet látszott vele cserélni, s feddést fogadott, a helyett, hogy adjon.<hi n="_ednref28">[xxviii]</hi>
                   </p>
                   <p>Végre a szelid lelkű Eleonora császárné vetette közbe magát, s szigorúan
-                     megtiltott minden erőszakot s illetlen bánást.<hi xml:id="_ednref29">[xxix]</hi>
+                     megtiltott minden erőszakot s illetlen bánást.<hi n="_ednref29">[xxix]</hi>
                   </p>
                   <p>Később, a kedvezésnek sokkal eszélyesb rendszere, a jól alkalmazott szabadság,
                      s a helyesen felosztott órák tanulás és nemes mulatság közt, megtermék - s
@@ -2278,7 +2287,7 @@
                      kisérheted, a tulsó bércznek egy kevély fokán ül.</p>
                   <p>Mint ama fáradt vándor, lassú, de kitartó erélylyel s daczolva minden
                      akadálylyal: olyan volt Rákóczi Julia; de mint eme sas, feledve az örvényt
-                     lábai alatt, s áthasítva bérczen, völgyön: ilyen volt Amadil.<hi xml:id="_ednref37">[xxxvii]</hi>
+                     lábai alatt, s áthasítva bérczen, völgyön: ilyen volt Amadil.<hi n="_ednref37">[xxxvii]</hi>
                   </p>
                   <p>- Menni kell! - kiáltott fel heves felindulással - nem várhatok tovább: most
                      minden csendes, használnom kell e szünetet! E szavak után darabig időzött, s
@@ -2413,7 +2422,7 @@
                      Apafi Mihály halálával az erdélyi fejedelemség megürült, a török császár
                      Tökölyi Imrét nevezte ki erdélyi fejedelemnek.
                   </p>
-                  <p>Az ifjú gróf egész hadi ereje e tájban háromezer magyarból állt.<hi xml:id="_ednref42">[xlii]</hi> Egyike volt e kis sereg azoknak, melyek
+                  <p>Az ifjú gróf egész hadi ereje e tájban háromezer magyarból állt.<hi n="_ednref42">[xlii]</hi> Egyike volt e kis sereg azoknak, melyek
                      vészen, viharon át, vesztés mint diadalban, titkon vagy nyilvánosan, de mindig
                      híven ragaszkodtak hozzá.</p>
                   <p>Olyan volt e maroknyi nép, mint mikor a szőllő nemes leve borrá ért, s
@@ -2425,7 +2434,7 @@
                   <p>Tökölyi Imre a török szultántól nem hagyatott védelem nélkül. Hétezer hadnak
                      edzett spahi, gyors bessarabiai lovakon, Achmed cserkesz basa vezérlete alatt,
                      lőn melléje rendelve. Gaczigerej tatár khán, s Brankován Konstantin oláhországi
-                     vajda, mindegyik négyezer fegyveressel szövetkezett vele.<hi xml:id="_ednref43">[xliii]</hi>
+                     vajda, mindegyik négyezer fegyveressel szövetkezett vele.<hi n="_ednref43">[xliii]</hi>
                   </p>
                   <p>E nevezetes sereggel akart Tökölyi Imre Oláhországon át beütni Erdélybe, s a
                      fejedelmi széket elfoglalni.</p>
@@ -2586,7 +2595,7 @@
                      fontosabb tárgyaknak elméjében elrendezésével volt elfoglalva, azért
                      hallgatott, s darabig szó nélkül haladtak egymás mellett.</p>
                   <p>Nemsokára elérték a széles sziklapárkány végét, s egy mély szakadáshoz
-                     jutottak, melynek medre roppant kövekkel s palagörelylyel volt tele.<hi xml:id="_ednref45">[xlv]</hi>
+                     jutottak, melynek medre roppant kövekkel s palagörelylyel volt tele.<hi n="_ednref45">[xlv]</hi>
                   </p>
                   <p>Ez évben sok esőzés volt Erdélyországban, s a két Havasalföld nagy részében a
                      folyók kiáradtak, s a lapályos helyek tengert képeztek, mennyire a szem
@@ -2615,7 +2624,7 @@
                   <p>A kérdés s az adott felelet után vándoraink s az őrszemek közeledtek egymáshoz,
                      s a körülményekhez alkalmazott társalgást kezdettek.</p>
                   <p>A jöttek megtudák, hogy a táborban parancs adatott, minden pillanatban készen
-                     lenni az indulásra, mikép sokan gyaníták, Törcsvár felé.<hi xml:id="_ednref47">[xlvii]</hi>
+                     lenni az indulásra, mikép sokan gyaníták, Törcsvár felé.<hi n="_ednref47">[xlvii]</hi>
                   </p>
                   <p>- Egy kis pihenés - szólt a rőtszakállú - nem ártana a fáradságos út előtt,
                      melylyel a tábornak meg kell vívni, ha innen kimozdul.</p>
@@ -2704,7 +2713,7 @@
                      járult a fegyverkezés minden nemébeni tökéletes gyakorlottsága s ügyessége,
                      tudományos kiképezés, nyelvek ismerete; mert magyarul, latinul, németül és
                      törökül egyenlően jól értett és beszélt. De a mi őt különösen érdekessé s
-                     részvét tárgyává tette, regényes sorsa volt.<hi xml:id="_ednref48">[xlviii]</hi>
+                     részvét tárgyává tette, regényes sorsa volt.<hi n="_ednref48">[xlviii]</hi>
                   </p>
                   <p>Atyja, kézsmárki gróf Tökölyi István, schafniczi báró, Árva vármegyének örökös
                      főispánja s Felső-Magyarország egyik legdúsabb birtokosa volt, ki az akkori
@@ -2721,7 +2730,7 @@
                   <p>Végperczeiben fiát a várban levő néhány barátinak oltalma alá bízta. Miután
                      minden el lőn követve a várnak védelmére, de azt a nagy erő ellen megóvni nem
                      lehetett: feladatása előtt Tökölyi Imre, női öltönyben, Barkóczi és Petróczi hű
-                     barátjaival atyjának, éjjel járatlan utakon Likava várába vonta magát.<hi xml:id="_ednref50">[l]</hi>
+                     barátjaival atyjának, éjjel járatlan utakon Likava várába vonta magát.<hi n="_ednref50">[l]</hi>
                   </p>
                   <p>Pár nap mulva itt is megjelentek az ostromlók, s a várba lőtt egy tüzes golyó
                      minden ágyútápot felemésztvén, Tökölyi Imrének itt sem volt maradása.
@@ -2756,7 +2765,7 @@
                   </p>
                   <p>Tervünk határait haladja, itt a népszerű történetirás hivatását teljesítni, s
                      azért elhallgatván, mikép eddig tevők mindazon csaták, alkudozások, előny s
-                     veszteségek részleteit, melyeket történelmi könyveink leírtak,<hi xml:id="_ednref56">[lvi]</hi> egyes fény- és homálypontokat emelünk ki e
+                     veszteségek részleteit, melyeket történelmi könyveink leírtak,<hi n="_ednref56">[lvi]</hi> egyes fény- és homálypontokat emelünk ki e
                      feltünő férfiú életéből.</p>
                   <p>* * *</p>
                   <p>1678-ban Tökölyi Imrének - pár hadviselés után, melyekben Szobieszki János
@@ -2764,10 +2773,10 @@
                      részére megnyert - Munkács alatt látjuk zászlóit lobogni. Ott a város közepén,
                      felmagasuló szikla ormán, fészkelt a Rákócziak ősi vára. De az utolsó Rákóczi
                      még gyermek volt, s anyja, a két Magyarhon legszebb hölgye s legifjabb özvegye,
-                     ott élt két gyermekével, Ferenczczel s Juliával, magas légben.<hi xml:id="_ednref57">[lvii]</hi>
+                     ott élt két gyermekével, Ferenczczel s Juliával, magas légben.<hi n="_ednref57">[lvii]</hi>
                   </p>
                   <p>Napája, Báthori Zsófia, egy kis serget küldött az őrizetből az ifjú pártfőnök
-                     ellen Zrinyi Boldizsárnak, ki Ilonának fivére volt, vezérlete alatt.<hi xml:id="_ednref58">[lviii]</hi>
+                     ellen Zrinyi Boldizsárnak, ki Ilonának fivére volt, vezérlete alatt.<hi n="_ednref58">[lviii]</hi>
                   </p>
                   <p>Tökölyi a hevétől vakmerő támadásra ragadott ifjú hőst a viadal gomolyában
                      elfogatta. Azután a helyett, hogy a várat ostromolja, Báthori Zsófiától,
@@ -2784,7 +2793,7 @@
                      s ellenokok megfontolása után, melyek e házasság mellett és ellen szóltak,
                      végre a császár az eleven eszű, nyájas és vidám Saponara bárót küldötte
                      Tökölyihez, azon nyilatkozattal, hogy nősülésébe beleegyezik, ha lemondván
-                     további merényeiről, a török szultánt húsz évi békekötésre birandja.<hi xml:id="_ednref61">[lxi]</hi>
+                     további merényeiről, a török szultánt húsz évi békekötésre birandja.<hi n="_ednref61">[lxi]</hi>
                   </p>
                   <p>Állítólag, de egyszersmind igen valószinűen, az ifjú Tökölyi legmerészebb
                      reményei teljesülésén meg volt illetődve, s a kitelhetőkig mindent igérvén, a
@@ -2823,7 +2832,7 @@
                      legeszményiebb szabású honias öltönyben fogadá az ünnepély számos vendégeit: a
                      merre ment, a csudálat s meglepetés susogása kisérte.</p>
                   <p>Fiatal férjét szenvedélylyel szerette, s a történelem lapjai tanusítják, hogy
-                     dicsőség- és inségben hű, elszánt és szerető nő tudott lenni.<hi xml:id="_ednref63">[lxiii]</hi>
+                     dicsőség- és inségben hű, elszánt és szerető nő tudott lenni.<hi n="_ednref63">[lxiii]</hi>
                   </p>
                   <p>Ki bámulná, hogy Tökölyi Imre, e kincsnek birtokában a legszerencsésebb
                      embernek tartotta magát széles e világon?</p>
@@ -2848,12 +2857,12 @@
                      rendszeres pazarlással eltékozolták az élelemszereket, s az anya, <hi>ki rettegni magáért soha nem tudott</hi>, éhezni látta
                      gyermekeit, s lassú léptekkel közeledni a halált, legirtózatosabb alakjában az
                      éhhalálnak. Ekkor a nehéz választás órája ütött, s a nagyszivű hölgy kénytelen
-                     volt Caprarának kezébe adni a Rákócziak magas sasfészkét.<hi xml:id="_ednref64">[lxiv]</hi>
+                     volt Caprarának kezébe adni a Rákócziak magas sasfészkét.<hi n="_ednref64">[lxiv]</hi>
                   </p>
                   <p>Az egyezkedésben nyiltan ki volt mondva: hogy a herczegné férje minden
                      uradalmainak birtokában marad, s szabad választása leend ott lakni
                      gyermekeivel, hol neki tetszeni fog, csakhogy váraiba német őrizetet fogadjon.
-                     De ezen egyezkedés pontjai nemsokára megszegettek:<hi xml:id="_ednref65">[lxv]</hi> Zrinyi Ilona gyermekeivel Bécsbe lőn idéztetve, hol az
+                     De ezen egyezkedés pontjai nemsokára megszegettek:<hi n="_ednref65">[lxv]</hi> Zrinyi Ilona gyermekeivel Bécsbe lőn idéztetve, hol az
                      utóbbiakkal beszélyünk kezdetén találkozánk, s a még mindig szép és bájos
                      Tökölyi Imréné tisztességes, de szoros fogsága helye is említve volt.</p>
                   <p>Mielőtt az ifjú hős s bájos nejének multjától bucsút vennénk: még egy nevezetes
@@ -2873,7 +2882,7 @@
                   </p>
                   <p>A török udvar féltékeny óvatosságát ki kellett kerülni, nehogy küldetése oka
                      fölfedeztessék idő előtt, azért az öreg Caprara színlett tőrbe csalá őt, s
-                     egyetértés következtében elfogatván, Bécsbe küldé mint foglyot.<hi xml:id="_ednref68">[lxviii]</hi>
+                     egyetértés következtében elfogatván, Bécsbe küldé mint foglyot.<hi n="_ednref68">[lxviii]</hi>
                   </p>
                   <p>Szirmai, ura s főnöke érdekében hű szorgalommal s éber ügyességgel működött
                      Bécsben, s meg volt győződve, hogy ottani mulatása mind a honra, mind Tökölyire
@@ -2895,7 +2904,7 @@
                   <p>A basa fényes pompával, a legnyájasabban fogadta, s tágas selyem sátor alatt, a
                      várudvar közepén, őt és társait pazarul megvendégelte. Miután a
                      törökösen-alacsony asztal kivitetett, s a basa szolgái a kávét készültek
-                     felhordani: a janicsárok agája felkiáltott: Hátra még a fekete leves!<hi xml:id="_ednref72">[lxxii]</hi>
+                     felhordani: a janicsárok agája felkiáltott: Hátra még a fekete leves!<hi n="_ednref72">[lxxii]</hi>
                   </p>
                   <p>Tökölyi s társai kardot ragadtak, de a sokaság legyőzte őket. A felülkerekedett
                      gyávaság szokott szemtelenségével, aljas gúny és sértegetések közben, Tökölyi
@@ -2918,7 +2927,7 @@
                      aranyával fösvényebb lőn, s a történelem tanusága szerint, a sors
                      változandóságát tapasztalván, s látván, hogy egyetlen szó, egy léhe a gyanunak
                      elég arra, hogy a kínzó padra vonatva, kicsikart vallomásai magát s másokat
-                     pallos alá és nyársra vezessenek, - nem hitt az igéreteknek.<hi xml:id="_ednref74">[lxxiv]</hi>
+                     pallos alá és nyársra vezessenek, - nem hitt az igéreteknek.<hi n="_ednref74">[lxxiv]</hi>
                   </p>
                   <p>Tökölyi felszólításai egyetlen fontos embert sem szerzének neki.</p>
                   <p>Vadászat s portyázás volt inkább mint hadviselés, Tökölyinek fáradalmas
@@ -2945,7 +2954,7 @@
                      időszakában, midőn árnyunk legrövidebb, mikor indulataink napjának heve
                      legforróbb, s egünkön csak egy csillag ragyog, a nap!</p>
                   <p>Erdélyország választott fejedelmének szabályos vonásai szépek voltak most is;
-                     szemei fényöket el nem vesztették, míg mosolya szintoly nyerélyes<hi xml:id="_ednref75">[lxxv]</hi> kedvességű maradott, mint fiatalsága
+                     szemei fényöket el nem vesztették, míg mosolya szintoly nyerélyes<hi n="_ednref75">[lxxv]</hi> kedvességű maradott, mint fiatalsága
                      hajnalán. De a magas fehér homlokot pár redő szántotta át, s a vonások
                      kifejezésében a kiállt viharok komor intő szava volt bevésve.</p>
                   <p>Nem hiányzott az ingerültség s bizodalmatlanságnak homálya is arczában, s néha
@@ -3011,7 +3020,7 @@
                         megbosszulni</hi>,» s alább: «<hi>Az Isten segíti Felséged
                         fegyvereit</hi>, <hi>talán azért</hi>, <hi>hogy
                         kimetszhesse az eretnekség szörnyeit</hi>. <hi>Legkegyelmesebben teend Felséged</hi>, <hi>ha mindazon új
-                        vallásokat</hi>, <hi>melyekből a sok rossz eredett</hi>, <hi>a legszigorúbban kitiltja az országból</hi>.»<hi xml:id="_ednref78">[lxxviii]</hi>
+                        vallásokat</hi>, <hi>melyekből a sok rossz eredett</hi>, <hi>a legszigorúbban kitiltja az országból</hi>.»<hi n="_ednref78">[lxxviii]</hi>
                   </p>
                   <p>Jósa István szintoly szigorúsággal követelte a bosszut a katholikusok ellen,
                      mint a minő vakon hitte Bársonyi, hogy az Üdvözítő szavaival: <hi>Szeresd felebarátod</hi>, <hi>mint önnönmagadat</hi>. <hi>A ki kővel hajt</hi>, <hi>kenyérrel hajtsd
@@ -3143,7 +3152,7 @@
                   <p>- És fönséged mit teend addig? - kérdé a basa kedvetlenül s a bizalmatlanság
                      rosszul fékezett hangján.</p>
                   <p>- Szigorúan és szilárdul azt, - felelte Tökölyi méltósággal - a mit nekünk a
-                     hatalmas császár személyesen kötelességünkké tett.<hi xml:id="_ednref80">[lxxx]</hi>
+                     hatalmas császár személyesen kötelességünkké tett.<hi n="_ednref80">[lxxx]</hi>
                   </p>
                   <p>E szavak közben Tökölyi fölkelt ülhelyéből, mit a többiek is tevének. Emelt
                      termete a többágú lámpa fényében, mely a sátor közepében, magas tartóban
@@ -3191,7 +3200,7 @@
                      a Havasföldön át készül Erdélybe jőni.</p>
                   <p>- S ennyiből áll egész ereje?</p>
                   <p>- Még közel ötezer ember csatolta magát hozzá - mond Brenkovics - a
-                     vármegyékből s a székelységből, Macskási Boldizsár vezérlete alatt.<hi xml:id="_ednref81">[lxxxi]</hi> Néhány hét óta táboroznak, s az időt kártya-
+                     vármegyékből s a székelységből, Macskási Boldizsár vezérlete alatt.<hi n="_ednref81">[lxxxi]</hi> Néhány hét óta táboroznak, s az időt kártya-
                      s dorbézolással töltik.</p>
                   <p>- Annál jobb, - mond Tökölyi. - Ki van még velök?</p>
                   <p>- Azok közt, kiknek neveit megtudhattam, Norcher és Mogin tábornokokat s Doria
@@ -3224,10 +3233,10 @@
                      harmadszor; Heussler tábornok fel van ellene ingerülve: vonakodik e
                      hadviseléstől az öreg úr, de levél által tanácsolta a vezérnek, hogy a
                      Vaskapunál levő ezredeket hivassa vissza, s a várakban levő ágyukat kihozatván
-                     a táborba, egyesült erővel ütközzék meg fönségeddel.<hi xml:id="_ednref83">[lxxxiii]</hi>
+                     a táborba, egyesült erővel ütközzék meg fönségeddel.<hi n="_ednref83">[lxxxiii]</hi>
                   </p>
                   <p>- S nincsenek ágyúik? - vágott közbe a szerdár.</p>
-                  <p>- Pár nyomorú taraczkot láttam a táborban, - felelt a kém.<hi xml:id="_ednref84">[lxxxiv]</hi>
+                  <p>- Pár nyomorú taraczkot láttam a táborban, - felelt a kém.<hi n="_ednref84">[lxxxiv]</hi>
                   </p>
                   <p>- S mit mondott Heussler?</p>
                   <p>- Azt, hogy többen, mint elegen vannak.</p>
@@ -3825,7 +3834,7 @@
                <p>Alig egy negyed órával a második lövés után, melynek elsőjét hallottuk, Tökölyi
                   Imre, választott erdélyi fejedelem s Magyarország herczege már lovon ült, és
                   serege fölött szemlét tartott, mely a szoros völgyön átrohanó patak hosszában,
-                  mennyire a hely szűke engedé, meglehetős rendben terjeszté ki sorait.<hi xml:id="_ednref86">[lxxxvi]</hi>
+                  mennyire a hely szűke engedé, meglehetős rendben terjeszté ki sorait.<hi n="_ednref86">[lxxxvi]</hi>
                </p>
                <p>Rendelete szerint, a tatár khán hordájával a hegykatlan erdélyfelőli végét
                   foglalta el; a magyarok a hadhomlok közepén álltak, míg a török szerdár spahiaival
@@ -3996,7 +4005,7 @@
                   ajkai haboztak dühében, s gúnyos hahota közt erősité, hogy ő az. Az embert ugyanaz
                   nap vonták nyársra, mikor a némber hamis vádja következtében a vérengző Caraffa
                   Zimmerman Zsigmondnak, Rauscher Gáspár, Ketzer András és Bárányi Ferencznek elébb
-                  jobb kezét vágatta, azután fejeiket üttette le.<hi xml:id="_ednref89">[lxxxix]</hi>
+                  jobb kezét vágatta, azután fejeiket üttette le.<hi n="_ednref89">[lxxxix]</hi>
                </p>
                <p>- Azon isszonyokat, melyek ott történtek, nem szükség ismételnem, minden gyermek
                   tudja azokat széles Magyarhonban. Mondják: Tábori Erzsók szülői sok pénzzel
@@ -4372,7 +4381,7 @@
                   <p>A pénzhalmazokról itélve, melyek a többi előtt állottak, Heussler volt
                      veszteségben; mit egyébiránt nem nagy egykedvűséggel látszott tűrni, míg Doria,
                      kit Fortuna asszony különösen kegyelt ezen este, nevetve söpörte be mindjárt a
-                     pénzt széles karamú kalapjába, mely mellette egy széken hevert.<hi xml:id="_ednref96">[xcvi]</hi>
+                     pénzt széles karamú kalapjába, mely mellette egy széken hevert.<hi n="_ednref96">[xcvi]</hi>
                   </p>
                   <p>A színben, kis asztalokon serlegek és kanták álltak s itt-ott cselédek jártak s
                      keltek.</p>
@@ -4412,7 +4421,7 @@
                      havasföldi vajdának ijesztgetésével ne sokat gondoljon, - felelt Teleki, - de
                      így, ha nem akarunk egy kis előnynyel megelégedni, hanem az ellenséget
                      megsemmisíteni, azt tanácsolnám, hogy nagyságod a Vaskapuhoz küldött ezredeit
-                     parancsolja vissza, s a várakban levő ágyukat rendelje ide.<hi xml:id="_ednref98">[xcviii]</hi>
+                     parancsolja vissza, s a várakban levő ágyukat rendelje ide.<hi n="_ednref98">[xcviii]</hi>
                   </p>
                   <p>- Csudálkozom, gróf úr, - viszonzá hirtelen Heussler, - hogy e szegény
                      kalandornak oly nagy fontosságot tulajdonít; csak ide kaphassuk! de én attól
@@ -4710,7 +4719,7 @@
                   <p>Így forralta fel a két jezsuita, hol reggel, hol estve, mikor csak idő engedé,
                      a seregek buzgóságát; hol magyar, hol német imákat s beszédeket tartván; míg
                      más részről egy harczias szellemű református lelkész hasonló buzgósággal, de
-                     kevésbbé babonás szellemben oktatta és imádkoztatta a népet.<hi xml:id="_ednref101">[ci]</hi>
+                     kevésbbé babonás szellemben oktatta és imádkoztatta a népet.<hi n="_ednref101">[ci]</hi>
                   </p>
                   <p>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
                      . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
@@ -4752,7 +4761,7 @@
                      Egyébiránt örülhetünk, gróf úr, hogy e jó hirnökünk nem jött egy negyed órával
                      később.</p>
                   <p>- Nevetésre mindenesetre rajtunk a sor, - fejezte be Magni.</p>
-                  <p>Heussler rövid szavakban kiadott parancsa véget vetett az enyelgésnek.<hi xml:id="_ednref102">[cii]</hi>
+                  <p>Heussler rövid szavakban kiadott parancsa véget vetett az enyelgésnek.<hi n="_ednref102">[cii]</hi>
                   </p>
                   <p>A hosszas táborozás daczára, e hadnak edzett csapatok oly készen valának
                      indulásra mindig, hogy nem csudálhatjuk, ha a vett hír után alig egy órával a
@@ -4858,7 +4867,7 @@
                      vissza, melyen jött; - szólt Heussler indulatosan; azután a körülálló
                      tiszteknek parancsot adott, hogy a tábort azonnal felszedjék, s az első jelre
                      készen álljanak indulásra.</p>
-                  <p>Tökölyi csudás megjelenésének híre néhány percz alatt elterjedt a táborban.<hi xml:id="_ednref106">[cvi]</hi> Meg kell jegyeznünk, hogy a magyar és székely
+                  <p>Tökölyi csudás megjelenésének híre néhány percz alatt elterjedt a táborban.<hi n="_ednref106">[cvi]</hi> Meg kell jegyeznünk, hogy a magyar és székely
                      hadak közt többen voltak, kik már Tökölyi Imre első szerencséjében zászlói
                      alatt, vagy ellene vívtak, s hogy Tökölyi egy volt azon férfiak közül, kik
                      iránt jó és balsorsban az igaz katonakedély magasztaltságba jő. Ki soha katona
@@ -4957,7 +4966,7 @@
                      tatárokra, kikről jól tudták, hogy első támadásra hátat szoktak fordítni.</p>
                   <p>Ha valahol e vészes időben falu égett, s aggok, védetlen gyermekek üldöztettek,
                      százat lehete egyre fogadni, hogy ott vagy német gazdálkodik - vagy tatár.</p>
-                  <p>Mikor Teleki magyarosan lehordta a székelyeket,<hi xml:id="_ednref107">[cvii]</hi> kik őt nem különösen kedvelték, ezek dühösen káromkodtak s
+                  <p>Mikor Teleki magyarosan lehordta a székelyeket,<hi n="_ednref107">[cvii]</hi> kik őt nem különösen kedvelték, ezek dühösen káromkodtak s
                      békétlenkedtek, de nem mertek ellenkezni, s Macskási Pál a vett parancsra, ujra
                      elfoglalta velök régi állomását, mi nem kevés fáradtságba került, de végre
                      zsinat s morgás közt sikerült.</p>
@@ -5049,7 +5058,7 @@
                      hatalmas, roppant seregei vannak, nem tarthatunk semmitől, meg fog bennünket
                      védeni minden ellenségtől. Hogy pedig ne mondhassátok, vitézek, hogy én mint
                      ország tábornoka, elbujtam a halál és veszély elől, íme ide hoztam közitekbe
-                     fehér szakállomat, s kész vagyok győzni vagy meghalni veletek.<hi xml:id="_ednref111">[cxi]</hi>
+                     fehér szakállomat, s kész vagyok győzni vagy meghalni veletek.<hi n="_ednref111">[cxi]</hi>
                   </p>
                   <p>Tíz óra lehetett reggel, mikor a két tábor csatarendben állt szemközt; de
                      mielőtt a forradalmi csaták ezen egyik legrövidebbikét, s legvérengzőbbikét
@@ -5175,7 +5184,7 @@
                      a Gaura Drakulujban.</p>
                   <p>- Hát mit mondjak ott, domnule? - kérdé Vaszil.</p>
                   <p>- Legjobb, ha semmit sem mondasz, - felelt a kérdett, - egyszer szükségből
-                     gazember leszesz, fehér kendőt kötsz karodra, s átszöksz a németekhez.<hi xml:id="_ednref113">[cxiii]</hi>
+                     gazember leszesz, fehér kendőt kötsz karodra, s átszöksz a németekhez.<hi n="_ednref113">[cxiii]</hi>
                   </p>
                   <p>Vaszil vigyorgott: - Binye - felelt - azt sem bánom, evvel ő is odább állt,
                      lovát ama bokros hegyoldal felé irányozván, melyről fellebb említést
@@ -5441,14 +5450,14 @@
                      felszólítást. E sors várt azokra is, kik itt elszéledtek; mert az volt ama
                      zaklatott kornak egyik főbaja, hogy az események rohama s az egyszer itt,
                      egyszer máshol fellobbanó sugára a szabadságnak s reménynek, gyakran cseréltete
-                     a had e marczona fiaival urat, zászlót és vezetőt.<hi xml:id="_ednref116">[cxvi]</hi>
+                     a had e marczona fiaival urat, zászlót és vezetőt.<hi n="_ednref116">[cxvi]</hi>
                   </p>
                   <p>Mindaz, a mit eddig elbeszéltünk, rövid félóra alatt történt, de a csata habár
                      elhatározva, bevégezve tökéletesen nem volt.</p>
                   <p>Doria, mikor látta, hogy minden oldalról körülvétetett, hirtelen négyszöget
                      képezett gyalogságából.</p>
                   <p>Lassan, folytonosan tüzelve hátrált, s egy egész óráig védte magát a mindig
-                     sürüdő, s megszünés nélkül seregeire rohanó törökök s tatárok ellen.<hi xml:id="_ednref117">[cxvii]</hi>
+                     sürüdő, s megszünés nélkül seregeire rohanó törökök s tatárok ellen.<hi n="_ednref117">[cxvii]</hi>
                   </p>
                   <p>Olykor az egész négyszög eltűnt; részint a lőpor fellegei közt, részint az
                      előrerohanó tatárok sűrű tömegében, mely azt egészen körülölelte.</p>
@@ -5470,7 +5479,7 @@
                   <p>Emelt kardokkal látjuk e kis sereget most - Heusslert legelől - a tatárok
                      száguldozó csoportozatai közt, Doria gyalogsága felé nyargalni.</p>
                   <p>Gaczigerej, a tatár khán azonnal észrevette őket s a mellette levő tatárokkal
-                     egyenesen eléjökbe rohant, hogy útjokat elállja.<hi xml:id="_ednref119">[cxix]</hi>
+                     egyenesen eléjökbe rohant, hogy útjokat elállja.<hi n="_ednref119">[cxix]</hi>
                   </p>
                   <p>A védelem Heussler s kisérői részéről a legdühösebb volt, de a túlnyomó
                      tatárság annyira összeszorította őket, hogy lehetlen lőn fegyvereiket szabadon
@@ -5500,7 +5509,7 @@
                      oly erősen tartá magát, nem tudott e rohanásnak ellenállni.</p>
                   <p>Néhány tatár a zavart látván, mely a német gyalogság közt történt, s
                      felbőszülve a hosszas ellenállástól, Doriát megrohanta. Pár pillanat alatt
-                     lerántották lováról s a dühös nép korbácsolni kezdé.<hi xml:id="_ednref120">[cxx]</hi> Mert a tatároknál, a szelidségükről, tisztaságukról s
+                     lerántották lováról s a dühös nép korbácsolni kezdé.<hi n="_ednref120">[cxx]</hi> Mert a tatároknál, a szelidségükről, tisztaságukról s
                      vitézségükről oly jó hirben levő kozákok mostani ékes vademecuma, a <hi>kancsuk</hi>, akkor is megvolt, csakhogy vége vascsillagokkal
                      lőn ellátva s így nem csak sujtott, hanem sebzett is.</p>
                   <p>A lőpor által okozott füstfelleg közepette, s az iszonyú csataelegy közt
@@ -5530,7 +5539,7 @@
                      és levetkőztetvén őt, igéretei s fenyegetődzései daczára agyon <hi>merték</hi> verni: <hi>húszan valának egy
                         ellen</hi>.</p>
                   <p>Később büntetésül nehány ezer forintot rántottak a helységen a német vezérek.
-                     Az ossiáni hősiesség ily példáival telvék a szász legendák.<hi xml:id="_ednref122">[cxxii]</hi>
+                     Az ossiáni hősiesség ily példáival telvék a szász legendák.<hi n="_ednref122">[cxxii]</hi>
                   </p>
                   
                
@@ -5973,7 +5982,7 @@
                      először, s követtem őt és seregét Földvárra. Itt országgyülést hirdetett
                      Fehérvárra, de később, többek tanácsára megváltoztatta szándékát; Sziget felé
                      indulánk, hova a fejedelem az erdélyi hadakat rendelte, s hová számosan
-                     érkeztek a Székelyföldről és a vármegyékből.<hi xml:id="_ednref123">[cxxiii]</hi>
+                     érkeztek a Székelyföldről és a vármegyékből.<hi n="_ednref123">[cxxiii]</hi>
                   </p>
                   <p>- Az erdélyi urak közül naponkint többen jöttek Szigetre: Gyulai Ferencz, Daczó
                      János s Macskási Boldizsár tanácsolták a fejedelemnek: hogy hadaival a
@@ -6004,7 +6013,7 @@
                   <p>- A szemle után, trombiták harsogása közt, Tökölyi fényes kiséretével, a
                      szigeti egyházhoz közeledett, hol már a népesség az egész tért elfoglalta.</p>
                   <p>- Mindnyájan, leszállván lovaikról, az imaház szentélyébe siettek.</p>
-                  <p>- Itt a fejedelem letévén a szokott esküt, méltóságába beiktattatott.<hi xml:id="_ednref125">[cxxv]</hi>
+                  <p>- Itt a fejedelem letévén a szokott esküt, méltóságába beiktattatott.<hi n="_ednref125">[cxxv]</hi>
                   </p>
                   <p>- A nagyszerű ünnepélyt pompás lakoma követte, s az egész napon át öröm és
                      vigasság volt mind a táborban, mind Szigeten.</p>
@@ -6081,7 +6090,7 @@
                      folytonosan verték a török hadakat. József magyar királyt Augsburgban római
                      császárrá választották, Batthyány Ádám horvátországi bán bevette Kanizsát, a
                      lotharingiai herczeg pedig, a császári seregek új vezére, miután XIV. Lajos
-                     franczia király ellen több győzedelmet nyert, hirtelen meghalt.<hi xml:id="_ednref126">[cxxvi]</hi>
+                     franczia király ellen több győzedelmet nyert, hirtelen meghalt.<hi n="_ednref126">[cxxvi]</hi>
                   </p>
                   
                
@@ -6091,7 +6100,7 @@
                   <p>- Az erdélyiek s mi nehányan, kik köztök valánk, láttuk, hogy Tökölyinek
                      csillaga lehúnyt, folytonos ingerültsége közben senkiben sem bízik, s keblében
                      minden gyanusítás termékeny földre talál; elhatároztuk tehát e czél nélküli
-                     táborozás helyett idegen földön, visszatérni hazánkba.<hi xml:id="_ednref127">[cxxvii]</hi>
+                     táborozás helyett idegen földön, visszatérni hazánkba.<hi n="_ednref127">[cxxvii]</hi>
                   </p>
                   <p>- Nem volt tréfa e tervnek kivitele, életünkkel játszottunk. Titkon történt
                      tehát minden, magyarok valánk, innen megfejthető, hogy veszedelmes szándékunkat
@@ -6859,7 +6868,7 @@
                   lassúsága miatt híres s mindent, a mi feltünő, irigy szemmel kisérő, ugynevezett
                   főhaditanácstól - pedig épen a fő hiányzott a legtöbbször - s arcza verejtékében
                   hozta a világra ama szerencsétlen hadjárati terveket, melyeknek tavasza, nyara
-                  sohasem volt, s melyek mindig többnyire a szőlővel értek meg őszkor.<hi xml:id="_ednref134">[cxxxiv]</hi>
+                  sohasem volt, s melyek mindig többnyire a szőlővel értek meg őszkor.<hi n="_ednref134">[cxxxiv]</hi>
                </p>
                <p>Hogyan van, hogy mégis végeredményben szerencse kisérte ezen embereket? ki fejti
                   meg a gyorsaság és vitézség hátrányait, e nehéz menetű szekér fölött, mely görről
@@ -6874,7 +6883,7 @@
                <p>Ezen irat nem kevesebbet foglalt magában, mint a bécsi főhaditanácsnak szigorú s
                   fenyegető parancsát: <hi>hogy meg ne merjen ütközni</hi>. Egy része
                   ezen embereknek, a kényelmes meleg szobákban, attól rettegett, hogy a túlnyomó
-                  török erő győzedelmet vivand ki: a másik attól, hogy Eugen fog győzni.<hi xml:id="_ednref135">[cxxxv]</hi>
+                  török erő győzedelmet vivand ki: a másik attól, hogy Eugen fog győzni.<hi n="_ednref135">[cxxxv]</hi>
                </p>
                <p>Tudva van az elhatározó diadal, melyet az irigylett vezér kivivott. A török
                   nagyvezér, a jancsárok agája, 15 basa, 5 alvezér s több 20,000 töröknél veszett
@@ -6886,7 +6895,7 @@
                   birtokosa a magyar csatákban e mindig szerencsétlen névnek, maga is párszor csatát
                   vesztő - a császár nevében kardját kérte el a győztesnek.</p>
                <p>- Itt van, vigye kegyed! - szólt nevetve Eugen, - <hi>még most is
-                     füstölög ő felsége</hi> ellenségeinek vérétől.<hi xml:id="_ednref136">[cxxxvi]</hi>
+                     füstölög ő felsége</hi> ellenségeinek vérétől.<hi n="_ednref136">[cxxxvi]</hi>
                </p>
                <p>1698-ban megköttetett a karloviczi béke. El lőn határozva, a királyi eskük ellen,
                   a csonkítva maradott ország sorsa, róla, nélküle: sem a nádor, sem egy az ország
@@ -6899,7 +6908,7 @@
                   szárnyaival födve végnapjainak éjjelét.</p>
                <p>A karloviczi béke pedig homlokán viselte a <hi>Kain jegyet</hi>,
                   pusztulására lévén számítva azon fajnak, melynek romlatlan, egészséges vérétől s
-                  minden nyomatás után edzettebb, buzgóbb honszeretetétől - annyira rettegtek.<hi xml:id="_ednref137">[cxxxvii]</hi>
+                  minden nyomatás után edzettebb, buzgóbb honszeretetétől - annyira rettegtek.<hi n="_ednref137">[cxxxvii]</hi>
                </p>
                <p>* * *</p>
                <p>Bécsben is sok változott: Aspermont egy hadosztályt vezénylett a császári
@@ -6916,7 +6925,7 @@
                <p>A dicső szövetséggel, melynek egész értékét fel birta fogni, magáévá tette fiatal
                   nejének minden igényeit s rokonszenveit.</p>
                <p>A fiatal Rákóczi Ferencz sógora lőn, s hév részvéttel s lelke egész erejével e
-                  végzetszerű fiatal élet sorsára fordította figyelmét.<hi xml:id="_ednref138">[cxxxviii]</hi>
+                  végzetszerű fiatal élet sorsára fordította figyelmét.<hi n="_ednref138">[cxxxviii]</hi>
                </p>
                <p>Nem csekély fáradság után reábirta a császárt, hogy az ifjú herczegnek engedelmet
                   adjon utazásra.</p>
@@ -6978,7 +6987,7 @@
                <p>A Rákóczi-uradalmak jobbágyai, a minő hivek és türelmesek voltak még a két,
                   fösvénységéről és szigorúságáról ismeretes, Rákóczy György iránt is, annyira fel
                   voltak ingerülve főleg Kolonics ellen, kinek kormánya alatt folytonos
-                  zaklatásoknak s igazságtalan üldöztetéseknek valának kitéve.<hi xml:id="_ednref139">[cxxxix]</hi>
+                  zaklatásoknak s igazságtalan üldöztetéseknek valának kitéve.<hi n="_ednref139">[cxxxix]</hi>
                </p>
                <p>Ehhez járult a német őrizet s a várakban elhelyezett német tisztek korlátlan
                   kicsapongása, kik, nem elégedvén meg bérükkel, mindegyre a birtokos jogait
@@ -8069,7 +8078,7 @@
                      megbizott, azon leverő hírt hozta, hogy a fiatal herczegnő halálán van.</p>
                   <p>Két héttel az irtózatos tudósítás után, melynek valóságát a császári udvarnál
                      is erősítették, Erneszt herczeg mély gyászban megjelent Bécsben s Rákóczi
-                     megtudta annak halálát, ki első szerelmét birta.<hi xml:id="_ednref142">[cxlii]</hi>
+                     megtudta annak halálát, ki első szerelmét birta.<hi n="_ednref142">[cxlii]</hi>
                   </p>
                   <p>Mihelyt a császári udvarnál a baleset tudva lőn, azonnal lépéseket kezdettek
                      tenni Rákóczi megházasítására.</p>
@@ -8098,7 +8107,7 @@
                   <p>Rákóczi Ferencz egy évvel az egybekelés előtt, törvényesen nagykorúnak lőn
                      nyilatkoztatva, s azért nem tartotta szükségesnek e szövetségre a császártól
                      engedelmet nyerni.</p>
-                  <p>A lakodalom számos vendég jelenlétében Kölnben ünnepeltetett.<hi xml:id="_ednref144">[cxliv]</hi>
+                  <p>A lakodalom számos vendég jelenlétében Kölnben ünnepeltetett.<hi n="_ednref144">[cxliv]</hi>
                   </p>
                   <p>A császári udvar s a kormány sohasem bocsájtották meg neki e figyelmetlenséget,
                      s a neheztelés azon nevetséges szélsőségig ment, hogy midőn Rákóczi fiatal
@@ -8509,7 +8518,7 @@
                   <p>Annyi kicsinyes és gyűlöletes volt ezen egész nemtelen cselszövényben, oly
                      alacsony, gyáva eszközök s nyilt hazugság használtattak a házasság
                      meggátlására, hogy nem lehet csudálni, ha Rákóczinak arany tisztaságú jelleme
-                     nem birhatott sejtelmével is azon rút játéknak, mely vele üzetett.<hi xml:id="_ednref147">[cxlvii]</hi>
+                     nem birhatott sejtelmével is azon rút játéknak, mely vele üzetett.<hi n="_ednref147">[cxlvii]</hi>
                   </p>
                   <p>Hasonló volt tehát az undor is, mely e felfödözés után betöltötte szivét.
                      Világosan látta most, a min darab idő óta már megszünt kétkedni, hogy minden
@@ -8837,7 +8846,7 @@
                <p>- S ezek a vallás emberei! - mond Magdaléna.</p>
                <p>- Folytasd, kérlek, - szólt Rákóczi.</p>
                <p>- Igen, Kellio az, kitől megtudtam Magdaléna megérkezését, s ki ma e sorokat küldé
-                  nekem az udvarhoz, Eleonora császárné belső szobáiba, melyeket Kinszky<hi xml:id="_ednref148">[cxlviii]</hi> adott kezembe.</p>
+                  nekem az udvarhoz, Eleonora császárné belső szobáiba, melyeket Kinszky<hi n="_ednref148">[cxlviii]</hi> adott kezembe.</p>
                <p>Evvel Amália egy szelet papirost vett ki kebléből s átadta férjének, míg
                   életteljes szemei a nyiltság s bizodalom utánozhatlan kifejezésével nyugodtak
                   vonásain; hasonlított e szép pillanatban Nagy Sándorhoz, mikor Philep orvosától a
@@ -9201,9 +9210,9 @@
                      itt, azon elevenséget idézték elő, mely e híres ház tagjainál minden időben
                      napirenden volt. A várfalak hosszában a cselédek osztálya, ólak, raktárak
                      voltak.</p>
-                  <p>Rákóczi Ferencznek udvarához tartozó számos nemes ifjú<hi xml:id="_ednref155">[clv]</hi> a főépület egyik szárnyában bő és kényelmes lakásra talált.
+                  <p>Rákóczi Ferencznek udvarához tartozó számos nemes ifjú<hi n="_ednref155">[clv]</hi> a főépület egyik szárnyában bő és kényelmes lakásra talált.
                      Aminő fösvény volt Kolonics s a mennyire takarékos Klobusiczki, kinek sikerült
-                     a herczeg bizodalmát megnyerni, s ki később minden javainak kormányzója lön:<hi xml:id="_ednref156">[clvi]</hi> annyira nem ismerte Rákóczi s neje azon
+                     a herczeg bizodalmát megnyerni, s ki később minden javainak kormányzója lön:<hi n="_ednref156">[clvi]</hi> annyira nem ismerte Rákóczi s neje azon
                      nemét a gazdálkodásnak, mely megszorításokból áll.</p>
                   <p>Rákóczi háztartása egészen magyaros volt. Fényes cselédség, számtalan ló, a
                      legjobban ellátott vadászkiséret minden hozzátartozandóival, zenekar s élénk
@@ -9234,7 +9243,7 @@
                      hogy a deák név reá oly okból ragadott, mint latinul a lucus az erdőre.</p>
                   <p>Rákóczinak belső cselédei, az akkori divat szerinti fényes magyar öltözéket
                      nyertek, míg a külsők, a gyalog szolgák, csatlós név alatt, horvát dolmányokat
-                     viseltek s szárnyas csákókkal födték fejeiket.<hi xml:id="_ednref157">[clvii]</hi> Mindezen öltözeteken arany s ezüst nem hiányzott s 24 huszárja
+                     viseltek s szárnyas csákókkal födték fejeiket.<hi n="_ednref157">[clvii]</hi> Mindezen öltözeteken arany s ezüst nem hiányzott s 24 huszárja
                      tigris-kaczagányokkal különböztette meg magát.</p>
                   <p>Mikor Rákóczi vadászatra ment, vagy utazott, egész kis hadcsapat volt
                      kiséretében, s ezt vadászat alkalmával nagy serege a kopóknak kisérte,
@@ -9242,18 +9251,18 @@
                      peczér felügyelete alatt, kik az egész vidéken híres kürtfuvók valának.</p>
                   <p>Rákóczi az udvarában lévő nemes ifjakat nagy óvatossággal s többnyire meghitt
                      barátai javallására s ajánlatára választotta. Egytől-egyig törzsökös nemes
-                     családokból eredtek ezek, s egyről-egyig magyarok voltak.<hi xml:id="_ednref158">[clviii]</hi>
+                     családokból eredtek ezek, s egyről-egyig magyarok voltak.<hi n="_ednref158">[clviii]</hi>
                   </p>
                   <p>Rákóczi félelem, irigység s vetély tárgya volt egyszerre, mikép mondtuk: semmi
                      sem lőn tehát elmulasztva e közvetlen körözetében lévő ifjak megvesztegetésére,
                      s mégis egész udvarában egyetlen sem találtatott, ki olykor a legpazarabb
-                     igéretek mellett a kém s áruló szerepét akarta volna felvállalni.<hi xml:id="_ednref159">[clix]</hi> - Idegen kellett! - de ne előzzünk
+                     igéretek mellett a kém s áruló szerepét akarta volna felvállalni.<hi n="_ednref159">[clix]</hi> - Idegen kellett! - de ne előzzünk
                      semmit.</p>
                   <p>Mihelyt a bécsi udvarnál a nehéz áldozat, Rákóczi Ferencz szabad szárnyra
                      bocsájtása, megtörtént, azonnal gondoskodtak, hogy a sárosi vár közelében
                      valóságos titkos rendőrség vegyen állomást. A kormány folytonosan tudott a
                      legapróbb részletekig mindent, a mi Rákóczi közelében történt: kik látogatják,
-                     kikkel van nagyobb bensőségben s kikkel levelezik.<hi xml:id="_ednref160">[clx]</hi>
+                     kikkel van nagyobb bensőségben s kikkel levelezik.<hi n="_ednref160">[clx]</hi>
                   </p>
                   <p>E kémek egyről-egyig nem voltak magyarok: megtette a bécsi kormány minden
                      időben azon néma vallomást a magyar jellemről: hogy orgyilkolásra s kémkedésre
@@ -9690,7 +9699,7 @@
                      ajánlatokat tenni. Rákóczi a maga részéről semmit el nem mulasztott, hogy
                      minden gyanút elhárítson magáról. A császári udvarnál, még akkor is, mikor már
                      az ármány elintézte ellene s gazdag birtokai ellen tőreit, gyakran s őszinte
-                     hódolattal jelent meg, hol színlett s álnok szivességgel fogadtatott.<hi xml:id="_ednref163">[clxiii]</hi>
+                     hódolattal jelent meg, hol színlett s álnok szivességgel fogadtatott.<hi n="_ednref163">[clxiii]</hi>
                   </p>
                   <p>Ez Villars grófot meg nem lepte. Ő tökéletesen beleokult a légbe, melyben
                      élt.</p>
@@ -9714,15 +9723,15 @@
                      mészárláskor is azon fő törekedéseknek, hogy az ártatlanul elítéltek javait
                      elkobozzák: előre kezdettek attól tartani, hogy a szenteskedő el nem fogadásnak
                      oka valami veszedelmes utógondolat, a remény tudniillik, olcsóbb áron
-                     kifoszthatni a herczeget, mint bármi nyomorúságos csere által.<hi xml:id="_ednref165">[clxv]</hi>
+                     kifoszthatni a herczeget, mint bármi nyomorúságos csere által.<hi n="_ednref165">[clxv]</hi>
                   </p>
                   <p>Rákóczi, hosszas bécsi tartózkodása közben, gróf Villarssal gyakran
                      találkozott, s mikor pataki várát és uradalmát Vaudemont herczeg lázadási
-                     egyetértés hazug ürügye alatt kizsákmányoltatta,<hi xml:id="_ednref166">[clxvi]</hi> elérkezettnek gondolta az eszes franczia az időt, hogy
+                     egyetértés hazug ürügye alatt kizsákmányoltatta,<hi n="_ednref166">[clxvi]</hi> elérkezettnek gondolta az eszes franczia az időt, hogy
                      Rákóczival nyiltan szóljon.</p>
                   <p>Bizonyossá tevé őt hímezés nélkül: hogy ha kedve volna, gazdag örökségének
                      erőszakosan letartóztatott részét visszanyerni, s az erdélyi fejedelemségre
-                     jutni - biztosan számíthat XIV. Lajos segítségére.<hi xml:id="_ednref167">[clxvii]</hi>
+                     jutni - biztosan számíthat XIV. Lajos segítségére.<hi n="_ednref167">[clxvii]</hi>
                   </p>
                   <p>Rákóczi az ajánlatra inkább tagadó, mint kikerülő feleletet adott. Ez időben
                      még kevés bizodalma volt a francziákban, kik éppen oly nagyok voltak tett
@@ -9733,18 +9742,18 @@
                      hogy ha a franczia kormány s az egész nemzet természetes vérmességénél fogva,
                      mikor igér, nem is számítja ki mindig a teljesítés lehetőségét: - egyben az
                      ifjú herczeg nem kétkedhetik, abban tudniillik, hogy XIV. Lajos maga mindent a
-                     legnagyobb készséggel el fog követni, mivel a német császárnak árthat.<hi xml:id="_ednref168">[clxviii]</hi>
+                     legnagyobb készséggel el fog követni, mivel a német császárnak árthat.<hi n="_ednref168">[clxviii]</hi>
                   </p>
                   <p>A büszke király azon eszmével ki nem tudott békülni, hogy a kis habsburgi gróf
                      - a <hi>lábainál két térden hűbéri megerősítését a barri
                         herczegségben elfogadó</hi> lotharingiai herczeg - császári czímet visel. -
                      Azon időben divattá vált a gazdag, régi franczia arisztokraták közt, a lorraini
-                     herczeget a legnagyobb hetykeséggel lenézni.<hi xml:id="_ednref169">[clxix]</hi>
+                     herczeget a legnagyobb hetykeséggel lenézni.<hi n="_ednref169">[clxix]</hi>
                   </p>
                   <p>A mi Villarsnak nem sikerült egyelőre, arra Longueval kedvet kezdett Rákócziban
                      ébreszteni.</p>
                   <p>Magyarországon annyi irgalom nélküli szenynyes kegyetlenség vitetett véghez, s
-                     maga Rákóczi oly szemtelen rablások súlya alatt szenvedett,<hi xml:id="_ednref170">[clxx]</hi> hogy könnyen megfogható, ha oly lépésre
+                     maga Rákóczi oly szemtelen rablások súlya alatt szenvedett,<hi n="_ednref170">[clxx]</hi> hogy könnyen megfogható, ha oly lépésre
                      határozta magát, mely által a véletlenségek esetére menedéket biztosítson.</p>
                   <p>
                      <hi>Ennyi volt s nem több</hi>, <hi>a mit
@@ -9788,7 +9797,7 @@
                      ízlés s gyöngédebb társalgás ama világvárosában, Párizsban, sok rokonszenvvel
                      birnak a magyarországi érdekek.</p>
                   <p>- Tudja-e Fönséged, hogy Voltaire maga, kinek neve most egyszerre annyira
-                     hangzani kezd, valódi szenvedélylyel vesz részt főleg Erdély sorsán?<hi xml:id="_ednref172">[clxxii]</hi>
+                     hangzani kezd, valódi szenvedélylyel vesz részt főleg Erdély sorsán?<hi n="_ednref172">[clxxii]</hi>
                   </p>
                   <p>- Annál jobb, - viszonzá Rákóczi mosolylyal, - remélem, kegyed majd sok
                      érdekest beszélhet Párizsról s XIV. Lajos fényes udvaráról.</p>
@@ -9813,7 +9822,7 @@
                      felidézésére! de éppen mivel a gondviselés maga, makacsságig szokja a
                      felülkerekedett gyávaságot fokozni, hogy hatalma megtörjön; ez esetre jó a
                      menedék, jó tudnunk, kihez szóljunk nehéz napokban. Herczegséged irántam annyi
-                     részvéttel volt, s kegyét oly nagy mértékben árasztotta reám,<hi xml:id="_ednref173">[clxxiii]</hi> hogy fekete hálátlanságnak tartanám, ha
+                     részvéttel volt, s kegyét oly nagy mértékben árasztotta reám,<hi n="_ednref173">[clxxiii]</hi> hogy fekete hálátlanságnak tartanám, ha
                      most, midőn holdakra távozom innen, legbensőbb meggyőződéseimet elhallgatnám.
                      Ne kétkedjék, Fönség! Ürügy mindig kéznél van, hol az akarat ártani valakinek
                      kész. Gondolja-e herczegséged, hogy ama nép, mely most a császár trónja körül
@@ -9847,7 +9856,7 @@
                      támaszpontja leend.</p>
                   <p>- De mit tehetnek ellenem, - kiáltott fel Rákóczi, - míg nyugodtan élek
                      jószágaimban, sem hivatalt nem keresek, sem az erdélyi fejedelemségre nem
-                     vágyom? sőt miként most állanak a dolgok, el sem fogadnám azt.<hi xml:id="_ednref176">[clxxvi]</hi>
+                     vágyom? sőt miként most állanak a dolgok, el sem fogadnám azt.<hi n="_ednref176">[clxxvi]</hi>
                   </p>
                   <p>- Mikép most állanak! - szólt alig hallható hangon Longueval, - de mindig
                      állhatnak e így? ennyi titkos gyűlölség, elfojtott bosszú s felingerlett
@@ -9929,7 +9938,7 @@
                   <p>- Ez megtörtént már Vaudemont által, - mond Rákóczi, - ki szennyes zsebeléseit
                      és dúlásait avval takarja, hogy egy gonoszságból kettőt csinál: miután
                      tudniillik pataki váramban úgy gazdálkodott mint a tatár, most mindenkép
-                     törekedik a pórnépnek, általam leginkább kárhoztatott kihágásait<hi xml:id="_ednref177">[clxxvii]</hi> nekem tulajdonítani.</p>
+                     törekedik a pórnépnek, általam leginkább kárhoztatott kihágásait<hi n="_ednref177">[clxxvii]</hi> nekem tulajdonítani.</p>
                   <p>- Hazugságot s igazságtalanságot elkövetni együtt jár, - viszonzá Amália, -
                      azért volt minden időben hasonló sértés, ha hazugnak vagy gyávának neveztek
                      valakit. Mi az igazság mellett maradjunk s kisértsük meg erőnket a türelemben,
@@ -9952,7 +9961,7 @@
                      egy magas, karcsú ifjú lépett be, kire lehetlen rá nem ismernünk. Nem volt az
                      más, mint a magas szőke ifjú, kire Longueval Kinszkit figyelmessé tette az
                      utóbbi ünnepély alkalmával.</p>
-                  <p>- Ah! Clermont gróf! - kiáltott fel a herczegnő meglepetve.<hi xml:id="_ednref179">[clxxix]</hi> Kegyed! minő váratlan meglepetés!</p>
+                  <p>- Ah! Clermont gróf! - kiáltott fel a herczegnő meglepetve.<hi n="_ednref179">[clxxix]</hi> Kegyed! minő váratlan meglepetés!</p>
                   <p>- Üdvözlöm kegyedet, gróf! - szólt Rákóczi, - s remélem jó, nem balszerencse
                      hozta ide?</p>
                   <p>Egyike volt e fiatal franczia lovag azon embereknek, kikkel a sors sajátos
@@ -10133,7 +10142,7 @@
                      találkoztunk, itt egyszerre az érdekes, mivel Rákóczi termeiben új és kellemes
                      oldalról ismerteti meg magát.</p>
                   <p>A minő nyers, önakaratú, heves és makacs volt Bercsényi, annyira tudta
-                     indulatosságát s természetes viszketegét a gúnyra<hi xml:id="_ednref180">[clxxx]</hi> fékezni, ha akarta.</p>
+                     indulatosságát s természetes viszketegét a gúnyra<hi n="_ednref180">[clxxx]</hi> fékezni, ha akarta.</p>
                   <p>A velős vonások kifejezése a dacz s erő helyett, melyet azok majd mindig
                      leheltek, most a búskomolyság árnyával birtak. Félreismerhetlen volt bennök a
                      titkolt bánat s szórakodottság, a mi arczának kifejezését szelidítvén, érdekét
@@ -10217,7 +10226,7 @@
                      lehető forradalom sárkányfejét összetiporni.</p>
                   <p>Nagy Leopold - ha nagy volt - nem tagadhatni, hogy e nagyság főleg azon vak és
                      kényelmes bizodalomban mutatkozott, melyet kiválólag azok iránt tanusított, kik
-                     nevére homályt és szégyent hoztak, s kik közől egy-kettőre később ráismert.<hi xml:id="_ednref182">[clxxxii]</hi>
+                     nevére homályt és szégyent hoztak, s kik közől egy-kettőre később ráismert.<hi n="_ednref182">[clxxxii]</hi>
                   </p>
                   <p>Azon ellenszenv, mely Rákóczi iránt a császári udvarban létezett, tetőpontját
                      érte Longueval feladásai után, nem csudálhatjuk tehát, hogy a jó, mindenek
@@ -10605,13 +10614,13 @@
                      jogtalanság! fájdalom, nem mondhatom, hogy példanélküli: mert éppen a jogos,
                      nyilt eljárás tartozik a kivételek közé; de mivel kegyetek azt erősítik, hogy a
                      parancs ő felségétől a császártól jő, engedelmeskedni fogok és tüstént. Ez
-                     által is be akarom ő felsége iránti tiszteletemet bizonyítani;<hi xml:id="_ednref192">[cxcii]</hi> pedig elhihetik kegyetek uraim, hogy egy
+                     által is be akarom ő felsége iránti tiszteletemet bizonyítani;<hi n="_ednref192">[cxcii]</hi> pedig elhihetik kegyetek uraim, hogy egy
                      intésembe kerülne kegyetekre s mindnyájunkra dönteni e szoba falait; nézzék e
                      kanóczot, mely a falból áll ki s ötven mázsa lőporra vezet, - folytatá Rákóczi,
                      fölemelvén a lámpát, s az a fölött függő feszületet, s a kanóczhoz közelítvén
                      azt.</p>
                   <p>A két tiszt hátra tántorodott s a 20 emberből álló betolakodott kiséret, mely
-                     az ágyat fogta körül, hirtelen az ajtó felé tódult!<hi xml:id="_ednref193">[cxciii]</hi>
+                     az ágyat fogta körül, hirtelen az ajtó felé tódult!<hi n="_ednref193">[cxciii]</hi>
                   </p>
                   <p>- Nyugalom, uraim! - folytatá Rákóczi gúnyos mosolylyal: - először nyilt
                      lovagias támadók ellen van számítva végveszélyben. Engedjenek kegyetek időt
@@ -11121,7 +11130,7 @@
                      természetesen megfejthető valóság, a nélkül, hogy az emberi elme babonára és
                      természetfölötti fejtegetésekre szoruljon.
                   </p>
-                  <p>A sok esemény, talán mese közül, melyek a rengeteg e második <hi>Rübezal</hi>járól a nép ajkain kerengtek, legnevezetesb egy - a <hi>vinnai lakomához</hi> hasonló - monda.<hi xml:id="_ednref198">[cxcviii]</hi>
+                  <p>A sok esemény, talán mese közül, melyek a rengeteg e második <hi>Rübezal</hi>járól a nép ajkain kerengtek, legnevezetesb egy - a <hi>vinnai lakomához</hi> hasonló - monda.<hi n="_ednref198">[cxcviii]</hi>
                   </p>
                   <p>Bethlen Gábor erdélyi fejedelem egy vadászaton eltévedvén, végre a Gaura
                      Drakulujra bukkant. Maga s vadászkisérete fáradtak lévén, a hűs barlangban
@@ -12260,7 +12269,7 @@
                   Tökölyi szerencséje hanyatlott s az Isten dicsőségére a protestánsok üldöztetése
                   nagyban megkezdetett, - Amadil ezen utóbbi szavakat rosszul titkolt gúnynyal ejté
                   ki s Honoriának szeliden feddő tekintetével találkozván, folytatá: - Tökölyi azt
-                  írta nejének Munkácsra, hogy a római pápa közbenjárásáért folyamodjék,<hi xml:id="_ednref201">[cci]</hi> igéretet tevén ő szentségének, hogy ha férjének
+                  írta nejének Munkácsra, hogy a római pápa közbenjárásáért folyamodjék,<hi n="_ednref201">[cci]</hi> igéretet tevén ő szentségének, hogy ha férjének
                   bocsánatot s javai megtarthatását kieszközlendi a császártól, kész leend az,
                   nemcsak maga áttérni a katholikus egyházhoz, hanem hite sorsosait is ily áttérésre
                      birni.
@@ -12414,7 +12423,7 @@
                <p>- És te kedves leányom, magadhoz vetted őt! - kiáltott fel Honoria, - oh ez szép
                   és nemes tett, - neveld őt Isten dicsőségére! - Hiszen úgy is koldusok vagyunk
                   mindnyájan, első hangunk a fájdalom s kérésé, mikor a napot megpillantjuk. Ott
-                  fönn a világosság árjában lakik a nagy alamizsnár!<hi xml:id="_ednref203">[cciii]</hi> - Minden kéz, - minden szem hozzá emelkedik. Koldus az egész
+                  fönn a világosság árjában lakik a nagy alamizsnár!<hi n="_ednref203">[cciii]</hi> - Minden kéz, - minden szem hozzá emelkedik. Koldus az egész
                   emberi nem, s ki hátat fordít Istennek, térdein hever a zsarnok s hatalmas előtt:
                   a szabadság fia, ki nem ismer urat, szeretője lábainál esd egy tekintetért.
                   Királyok koldultak már szőrzsákban az egyház csarnokában, s a gyilkos, ki a
@@ -12487,7 +12496,7 @@
                   míg egészen biztos eszközökre szert tehettek.</p>
                <p>Gróf Buccelini, osztrák korlátnok, s főhaditanácsi előadó, Euler, kinek nevét a
                   magyarok <hi>Bagolyfira</hi> fordították el, színleg az ügy
-                  megvizsgálására, valóságban Rákóczinak mindenesetrei elitélésére<hi xml:id="_ednref208">[ccviii]</hi> hivattak össze.</p>
+                  megvizsgálására, valóságban Rákóczinak mindenesetrei elitélésére<hi n="_ednref208">[ccviii]</hi> hivattak össze.</p>
                <p>Az úgynevezett itélőbiróság, az említetteken kívül Ottinger grófból s három
                   osztrák birtokosból állt.
                </p>
@@ -12654,7 +12663,7 @@
                <p>- Longueval úr! kész kegyed a szokott esküt letenni, hogy vallomása s feladása, a
                   gróf az utóbbi szóra nyomatékot tőn, eskü erejével s hitelességével birjon?</p>
                <p>Alig hallható <hi>igen</hi> lőn a tiszt felelete, kinek
-                  zavarodottsága fő fokát elérte, s minden tagja reszketett.<hi xml:id="_ednref214">[ccxiv]</hi>
+                  zavarodottsága fő fokát elérte, s minden tagja reszketett.<hi n="_ednref214">[ccxiv]</hi>
                </p>
                <p>- Longueval! - mond Rákóczi az őszinteség kifejezésével szemeiben, melyek most a
                   halvány tiszten függöttek, - megbocsájtom minden utógondolat nélkül kegyednek
@@ -12808,7 +12817,7 @@
                   utóbbi tettemet megakadályozandá, ha időm leende magammal tisztába jőni; de miként
                   nagyméltóságtok tudják, Linczben elfogattattam. Nem tagadom azt sem, hogy többen
                   az elégületlen urak közől megbizván állítólag igénytelen leveleikkel, mikor ezek
-                  nálam megtaláltattak, a herczeg levelét el akartam nyelni,<hi xml:id="_ednref218">[ccxviii]</hi> de ebben meg levék akadályozva.</p>
+                  nálam megtaláltattak, a herczeg levelét el akartam nyelni,<hi n="_ednref218">[ccxviii]</hi> de ebben meg levék akadályozva.</p>
                <p>- Mondja meg, Longueval úr, - szólítá meg Buccellini komolyan, - hogyan fejti meg,
                   hogy tudván azon uraknak titkos ármánykodásait, s mikép állítá, egyik
                   összejövetelüknek Sároson maga tanúja levén, mégis elvállalta e leveleket?</p>
@@ -12837,10 +12846,10 @@
                <p>- Euler úr! legyen szives e levelet a herczegnek megmutatni, - szólt az elnök.</p>
                <p>Euler átvette a levelet, s felkelvén, a vádlotthoz közeledett.</p>
                <p>Rákóczi egy tekintetet vetett arra, s minden tartózkodás nélkül szólt.</p>
-               <p>- E levél az, melylyel Longueval urat saját többszöri felszólítására<hi xml:id="_ednref220">[ccxx]</hi> megbíztam; ezt annál kevesebb okom van tagadni,
+               <p>- E levél az, melylyel Longueval urat saját többszöri felszólítására<hi n="_ednref220">[ccxx]</hi> megbíztam; ezt annál kevesebb okom van tagadni,
                   mivel ebben csak az találhat felségsértést és pártütési szándékot, kinek
                   legtávolabb eszméje sincsen alkotmányos állományról s arról, mit alkotmányos
-                  férfiunak mondani szabad a kormánynak szándéka s tévedései ellen.<hi xml:id="_ednref221">[ccxxi]</hi>
+                  férfiunak mondani szabad a kormánynak szándéka s tévedései ellen.<hi n="_ednref221">[ccxxi]</hi>
                </p>
                <p>- Herczegséged tehát e levelet magáénak vallja? - kérdé Ottinger, - kinek vonásai
                   derültebb kifejezést nyertek.</p>
@@ -12854,7 +12863,7 @@
                   - mely kezünkhöz jött.</p>
                <p>Rákóczi, a neki Euler által kézbesített irományt minden jeleivel a növekedő
                   haragnak futotta át, azután Longuevalhoz fordulva szólt: - Hogyan uram! tehát
-                  kegyed Párizsban volt, holott elébb azt állítá, hogy elfogattatott?<hi xml:id="_ednref222">[ccxxii]</hi>
+                  kegyed Párizsban volt, holott elébb azt állítá, hogy elfogattatott?<hi n="_ednref222">[ccxxii]</hi>
                </p>
                <p>- Nem tartozom senki másnak felelettel, mint a mélyen tisztelt császári királyi
                   itélőszéknek, - viszonzá a tiszt büszkén.</p>
@@ -12890,7 +12899,7 @@
                   hogy engemet tőrbe ejtsen. Kegyetek erősíték, hogy szabadon kimondhatom, a mit
                   védelmemre tudok, én e pillanattól kezdve nem védendem magamat! De annyit
                   kimondok, hogy Longueval úr Párizsban levelemnek egészen más értelmet adott, mint
-                  a minőt annak félremagyarázhatlan, világos szavai magukban foglalnak.<hi xml:id="_ednref224">[ccxxiv]</hi> Ezt hozza Longueval úr tisztába
+                  a minőt annak félremagyarázhatlan, világos szavai magukban foglalnak.<hi n="_ednref224">[ccxxiv]</hi> Ezt hozza Longueval úr tisztába
                   lelkiismeretével; mert a felelet levelemre, melyet elnök úr kezembe adatott, nem
                   válasz arra, a mit írtam, hanem viszonzás arra, mit Longueval úrnak tetszett
                   levelem magyarázatául Párizsban költeni s hevenyészni.</p>
@@ -12911,7 +12920,7 @@
                   alkalmasint több erélylyel s kevesebb óvatossággal voltak írva, mint a Rákóczié.
                   Főleg miután Longueval számításához tartozott, nekik megsugni, hogy a herczegtől
                   is meg van bízva; meglehet, hogy oly részletekre is terjeszkedtek, melyek Rákóczi
-                  egyszerű nyilatkozataira a gyanú árnyát veték.<hi xml:id="_ednref226">[ccxxvi]</hi>
+                  egyszerű nyilatkozataira a gyanú árnyát veték.<hi n="_ednref226">[ccxxvi]</hi>
                </p>
                <p>Longueval vallomásaiból világos lőn, hogy ő azok közől, kiket bevádolt, többeket
                   sohasem látott. Már azon körülmény, hogy őt, ki csak színleg fogattatott el,
@@ -12939,7 +12948,7 @@
                <p>Hitték-e ezt ama nagy jó urak? vagy gondolták-e, hogy ezt másokkal elhitethetik?
                   ez legkevesebbet sem változtat a dolgon; mert a rossz lelkiismeret, mikor
                   kitisztázási s beszépítési hajlamot mutat, ez többnyire csak saját magára
-                  vonatkozik, s evvel mindent meggondolt tenni, a mit az ildom<hi xml:id="_ednref229">[ccxxix]</hi> követel, legkisebb gondja lévén arra, ha
+                  vonatkozik, s evvel mindent meggondolt tenni, a mit az ildom<hi n="_ednref229">[ccxxix]</hi> követel, legkisebb gondja lévén arra, ha
                   elhiszi-e a világ, a mi költészet - üres szavaiban.</p>
                <p>Magyarországon egy hang terjedt, átalános, el nem vitatható, hogy Rákóczi, bár a
                   közelebbi időkben buzgón ragaszkodik hazájához, semmi pártütésről nem
@@ -13036,7 +13045,7 @@
                   Tökölyi elfogatása, sőt saját kifosztatása után is - még ez időben egész erejéből
                   törekedett a császár iránti bizodalmat rábeszélni magára; míg ellene minden ármány
                   igénybe vétetett, s legjobb barátait igyekeztek pénzzel, igéretekkel
-                  megvesztegetni, hogy ellene igaztalanul valljanak:<hi xml:id="_ednref234">[ccxxxiv]</hi> addig azok, kiket az önkénynek nem sikerült kézhez keríteni,
+                  megvesztegetni, hogy ellene igaztalanul valljanak:<hi n="_ednref234">[ccxxxiv]</hi> addig azok, kiket az önkénynek nem sikerült kézhez keríteni,
                   vagy szerencsések valának szomjas gyanúját fel nem gerjeszteni, pillanatig nem
                   szűntek meg egész erélyüket felfokozni, hogy őt végveszélytől megőrizzék.</p>
                <p>Különösen s első helyen kell itt dicső nejét s ennek meghitt barátnéját,
@@ -13046,7 +13055,7 @@
                   együtt munkált, - feljárták a külhoni követségeket s mindenütt rokonszenvvel s
                   részvéttel találkoztak, lett légyen ez színlelt vagy való.</p>
                <p>Amália herczegnő Orbán deákot, kiről már tevénk rövid említést, - magával hozta
-                  Bécsbe, hol az udvar által kolostorba vonulni kényszeríttetett.<hi xml:id="_ednref235">[ccxxxv]</hi> E jó és erélyes öreget küldötte férjéhez,
+                  Bécsbe, hol az udvar által kolostorba vonulni kényszeríttetett.<hi n="_ednref235">[ccxxxv]</hi> E jó és erélyes öreget küldötte férjéhez,
                   tudtára adatván neki szóval, mert minden levelezés tilos volt, hogy az angol és
                   porosz, a mainzi s hannoverai követ őt
                   biztosították uralkodóik erélyes közbenjárásáról. Magdaléna részéről Orbán deák
@@ -13151,7 +13160,7 @@
                <p>Mind a hárman az egyszerű, s egészen tudományokkal elfoglalt férfiú szállását
                   jelelő szobában ültek. Stratmann szólt:</p>
                <p>- Ő felségének hatalmában van, ily gyanús, veszedelmes alattvaló ellen törvényen
-                  kívüli módokon kiszolgáltatni az igazságot.<hi xml:id="_ednref238">[ccxxxviii]</hi>
+                  kívüli módokon kiszolgáltatni az igazságot.<hi n="_ednref238">[ccxxxviii]</hi>
                </p>
                <p>- Ebben semmi kétség nincsen, - viszonzá Kellio - bár a világra nézve, mely
                   felsőbb állományi érveket fel nem bir fogni, inkább szerettem volna, ha ellene
@@ -13170,7 +13179,7 @@
                   minden becsületes ember, kinek szive helyén van, jóvá hagyandja, ha eltérve a
                   törvény nyügöző betűitől, egész hatalmával él, s e veszedelmes embert elítéli!</p>
                <p>- Itt az egész ország nyugalma s egy kis formaság közt lévén a kérdés, pillanatig
-                  sem lehet kétkedni, hogy mi a helyes és Isten előtt kedves.<hi xml:id="_ednref240">[ccxl]</hi>
+                  sem lehet kétkedni, hogy mi a helyes és Isten előtt kedves.<hi n="_ednref240">[ccxl]</hi>
                </p>
                <p>- Ő felsége előtt mindent elkövettem, - tevé hozzá Kinszki haragosan - de nem
                   lehet rábirni, hogy erőszakkal éljen. Az a fejedelmek nagy szerencsétlensége, hogy
@@ -13181,7 +13190,7 @@
                   lehetlen, hogy ezen ember segedelmével, ki iránt legnagyobb bizodalma van, hozzá
                   ne férhessünk: de a törvényes eljárás külsőségét mellőzhetlennek tartom; akkor
                   bátran szeme közé nevethetünk a közvéleménynek, mondván, hogy minden ítéletileg
-                  ment, hozzátehetjük, hogy ezt a herczeg saját rokonai s barátai is elismerték.<hi xml:id="_ednref242">[ccxlii]</hi>
+                  ment, hozzátehetjük, hogy ezt a herczeg saját rokonai s barátai is elismerték.<hi n="_ednref242">[ccxlii]</hi>
                </p>
                <p>- Én úgy tudom, - szólt Kinszki - hogy Rákóczi éppen gyóntató atyja által
                   igyekezett már harmadszor siralmas kérelmeit ő felsége kezeihez juttatni.</p>
@@ -13196,7 +13205,7 @@
                   alkalmatlankodásoktól megóvni. Az kellene még, hogy a fejedelmek reggeltől estig a
                   vádlottak panaszait hallgassák! miért van törvény és ítélőszék! Ime, itt vannak a
                   magyar szószaporítás e remek művei, - ezzel Kinszki egy csomag iratot az asztalra
-                  vetett - olvassa kegyed, Kellio atya, mulattatni fogják.<hi xml:id="_ednref243">[ccxliii]</hi>
+                  vetett - olvassa kegyed, Kellio atya, mulattatni fogják.<hi n="_ednref243">[ccxliii]</hi>
                </p>
                <p>- Alkalmasint - tevé éles gúnynyal hozzá - mint gonosz szellemek s rosszlelkű
                   tanácsadók szerepelünk e bölcs iratokban! de kezünkben van üstöke e szép madárnak:
@@ -13383,7 +13392,7 @@
                   legszeszélyesebb jezsuitáknak megingatni, oly elvitathatlan érv erre az, a mi
                   bekövetkezett. Későbbi írók hallgatnak e körülményről, de egyike a leghitelesebb,
                   Rákóczi korabeli honi íróinknak, Cserei Mihály erősíti, <hi>hogy a
-                     jezsuiták meg voltak Rákóczi részére nyerve</hi>.<hi xml:id="_ednref246">[ccxlvi]</hi>
+                     jezsuiták meg voltak Rákóczi részére nyerve</hi>.<hi n="_ednref246">[ccxlvi]</hi>
                </p>
                <p>Azért nincs is okunk a diplomatikai taglalgatást a gyönyörű fiatal hölgy s egy
                   kiaszott szerzetes közt tovább folytatni; nemsokára megtudandjuk, hogy Magdaléna
@@ -13416,7 +13425,7 @@
                   <p>Bercsényinek czélja volt Bécsbe menni, egész szenvedélye feléledt, s bár e
                      merény életveszélylyel járt az akkori körülmények közt; nincs kétség benne,
                      hogy azon férfiú, ki nem tudta, mi a félelem, mi a veszély, nemcsak megvetendé
-                     ezt, hanem ez inkább ingerül szolgálanda szándoka kivitelében.<hi xml:id="_ednref247">[ccxlvii]</hi>
+                     ezt, hanem ez inkább ingerül szolgálanda szándoka kivitelében.<hi n="_ednref247">[ccxlvii]</hi>
                   </p>
                   <p>De útjában Szirmai Istvánnak küldöttjével találkozott, kitől több részletet
                      megtudván a Rákóczi elleni kereset természetéről, s azt is: hogy minden el fog
@@ -13687,7 +13696,7 @@
                      - eltávolítni a császártól, s Juliának magának ezen ürügy alatt lehetlenné
                      tenni a személyes megjelenést az udvarnál.</p>
                   <p>Hogy levelei szintúgy, mint azok, melyeket Rákóczi irt, soha a császár kezébe
-                     nem jutottak - minő hihetlennek is látszassék - a történelem erősíti.<hi xml:id="_ednref252">[cclii]</hi> Nem maradt tehát egyéb hátra Amáliának a
+                     nem jutottak - minő hihetlennek is látszassék - a történelem erősíti.<hi n="_ednref252">[cclii]</hi> Nem maradt tehát egyéb hátra Amáliának a
                      különböző követségeknél tett lépéseit előmozdítani, s azoknak eredményéről
                      közlések által Rákócziban a remény sugarát éleszteni. Aspermont és Julia aligha
                      oly biztató színben látták a külhoni békítők működését, mint azt leveleik
@@ -13878,7 +13887,7 @@
                   <p>Lehetett máskor is a századost ily esti órákban itt látni, egyébiránt nem is
                      volt oly késő még.</p>
                   <p>Lehmannak szállása közel volt a börtönhöz, s midőn abba benyitott, Rákóczi már
-                     a Montecuccoli ezred közvitézévé átöltözködve a kardot övezte derekára.<hi xml:id="_ednref257">[cclvii]</hi>
+                     a Montecuccoli ezred közvitézévé átöltözködve a kardot övezte derekára.<hi n="_ednref257">[cclvii]</hi>
                   </p>
                   <p>Mellette Magdaléna állt, teljes hadi ékben.</p>
                   <p>Lehmann bezárta az ajtót maga után, és szólt: Ne késsünk, senki sem ismer
@@ -13915,7 +13924,7 @@
                      kapuján behaladtak, s az alház tornáczában egy öreg nő üdvözlé őket.</p>
                   <p>- Nyergelve van-e a ló? - kérdé Magdaléna hirtelen.</p>
                   <p>- Igen, - felelt a nő, kinek óljába szállíttatta Lehmann az egyik lovat, míg a
-                     kiséret a többiekkel a külvárosban várt Rákóczira.<hi xml:id="_ednref258">[cclviii]</hi>
+                     kiséret a többiekkel a külvárosban várt Rákóczira.<hi n="_ednref258">[cclviii]</hi>
                   </p>
                   <p>- János! hozd ki a lovat - mond Magdaléna Rákóczihoz fordulva - eredj
                      szállásomra, nyergeld fel a lovamat s várj reám; még egy kis dolgom van a
@@ -13939,7 +13948,7 @@
                      kétes sötétben a kastély kapuját megpillantotta, honnan csak kevéssel ezelőtt
                      menekült ki. Itt azonnal tájékozta magát s a város kapuja felé lovagolt.</p>
                   <p>Mikor oda ért, a polgárőrséget már ott találta, Rákóczi nem volt minden aggály
-                     nélkül, s hogy annálinkább elváltoztassa vonásait, ittasnak tetteté magát.<hi xml:id="_ednref259">[cclix]</hi>
+                     nélkül, s hogy annálinkább elváltoztassa vonásait, ittasnak tetteté magát.<hi n="_ednref259">[cclix]</hi>
                   </p>
                   <p>- Ho! - kiáltott rekedt hangon - nem kell bezárni a kaput! itt van egy vitéz
                      lovag, ki a külvárosba akar menni, ha kegyeteknek nincsen ellenére.</p>
@@ -14187,7 +14196,7 @@
                      az Isten intézi el a dolgot a maga bölcsesége szerint. Látjuk, mire ment; ott
                      étették, ruházták a szegény gyermekeket, míg azt hitték, hogy kezébe adák a
                      sátánnak, aztán mikor haza jöttek, újra csak a régit vették elő. Na, egyet
-                     mondok Mertine! mivel rosszabb protestáns a bélai nálunknál?<hi xml:id="_ednref260">[cclx]</hi>
+                     mondok Mertine! mivel rosszabb protestáns a bélai nálunknál?<hi n="_ednref260">[cclx]</hi>
                   </p>
                   <p>- Patvar vigye! - kiáltott fel az öreg - csináljatok, a mit akartok, ha
                      Marichen rászánja magát, ő lássa! nekem mi közöm sincs hozzá, a fiu jól birja
@@ -14204,7 +14213,7 @@
                      jobban, mint uram atyám? de ám most is kalapot emelnek, még Eperjesen s
                      Szebenben is, ha végig megy az utczán.</p>
                   <p>- Más idők, más emberek! - sóhajtott az öreg Szeniczer - most édes fiam, csak a
-                     sepreje jár a jó bornak, mely akkor pezsgett!<hi xml:id="_ednref261">[cclxi]</hi> Hagyjuk ezt, csak hogy mi nem lettünk polyákok még! Hanem,
+                     sepreje jár a jó bornak, mely akkor pezsgett!<hi n="_ednref261">[cclxi]</hi> Hagyjuk ezt, csak hogy mi nem lettünk polyákok még! Hanem,
                      hogy Marichenre visszatérjünk, nah! ne fészkelődj s ne pirulj gyermekem! - veté
                      közben az öreg, idősb leányához intézvén szavait, ki égve, mint a basarózsa,
                      igen vastagon kezdé fonalát sodrani - Isten neki, beleegyezem; úgy-e jól
@@ -14217,7 +14226,7 @@
                      vidéken, s minden sehonnai tolvajnak, zsiványnak kész vására van, mert a mit
                      lop, ráfogja. Mi tagadás benne, az ily atyafiság nem sok áldást hoz a
                      házhoz.</p>
-                  <p>- Atyafiság! - felelt hirtelen, s maga körül tekintve a nő<hi xml:id="_ednref262">[cclxii]</hi> - sógorság nem atyafiság, aztán annál a
+                  <p>- Atyafiság! - felelt hirtelen, s maga körül tekintve a nő<hi n="_ednref262">[cclxii]</hi> - sógorság nem atyafiság, aztán annál a
                      becsületes háznál még senki sem látta Kaspereket - - - jaj Istenem,
                      kipottyantám nevét, oda van a tyúk!</p>
                   <p>E pillanatban megnyilt az ajtó, s az egész jámbor család annyira fejét
@@ -14638,13 +14647,13 @@
                      hogy e védeszközökre senki sem gyaníthatott. Bercsényi az idő minden
                      viszontagságainak edzett férfiu volt, idegei a vas erejével s aczél
                      ruganyosságával birtak, a hideget, meleget egyenlően ki tudta állni, s neki, a
-                     szenvedélyes vadásznak a gyaloglás tréfa lőn.<hi xml:id="_ednref264">[cclxiv]</hi>
+                     szenvedélyes vadásznak a gyaloglás tréfa lőn.<hi n="_ednref264">[cclxiv]</hi>
                   </p>
                   <p>Későn este érkezett a kolostorba, hol őt mint ismeretlent a szegény szerzetesek
                      szivesen fogadták s nevét sem tudakozták.</p>
                   <p>Reggel Bercsényi e jámbor egyszerű emberek egyikének, kinek becsületes arcza
                      leginkább felidézte bizodalmát, őszintén megvallá nevét, helyzetét, s kérte,
-                     hogy őt néhány napig szenvedjék meg a kolostorban.<hi xml:id="_ednref265">[cclxv]</hi>
+                     hogy őt néhány napig szenvedjék meg a kolostorban.<hi n="_ednref265">[cclxv]</hi>
                   </p>
                   <p>Bercsényi nem csalatkozott: a lelkészek közt csak a nagy egyházi urakkal üdvös
                      igen csinján borotválni, s ha lehet, nem egy tálból enni a cseresnyét, az
@@ -14695,7 +14704,7 @@
                      cselekvésre lőn szüksége.</p>
                   <p>A király reményén felül kegyesen fogadta őt, nemcsak többször s nagy érdekkel
                      társalgott vele Magyarország ügyeiről s viszonyairól, hanem még e fölött
-                     Lithvániában szép birtokkal ajándékozta meg.<hi xml:id="_ednref268">[cclxviii]</hi>
+                     Lithvániában szép birtokkal ajándékozta meg.<hi n="_ednref268">[cclxviii]</hi>
                   </p>
                   <p>Heron marquis ez időben nevezetes befolyással birt Auguszt lengyel királynál, s
                      mindenkép törekedett őt frigyesül megnyerni XIV. Lajosnak. Ez okon a magyar
@@ -14798,9 +14807,9 @@
                   <p>A miniszternek sikerült Bercsényit meggyőzni.</p>
                   <p>- Hogy kegyed nagyobb kényelemmel utazhassék, saját kocsimat adom
                      rendelkezésére - szólt rövid szünet után - s hogy Testakowba diplomatikai
-                     minőségben fölléphessen, ő felségének biztosa követendi.<hi xml:id="_ednref272">[cclxxii]</hi>
+                     minőségben fölléphessen, ő felségének biztosa követendi.<hi n="_ednref272">[cclxxii]</hi>
                   </p>
-                  <p>Bercsényi mindent elhitt, s nem vitt magával többet három cselédnél.<hi xml:id="_ednref273">[cclxxiii]</hi>
+                  <p>Bercsényi mindent elhitt, s nem vitt magával többet három cselédnél.<hi n="_ednref273">[cclxxiii]</hi>
                   </p>
                   <p>Másnap hajnalban indultak, a kocsiban vele a király megbizottja ült, a cselédek
                      lóháton kisérték.</p>
@@ -14812,7 +14821,7 @@
                   <p>- Ezek haramiák! - kiáltott fel, de nem maradt ideje hosszas
                      észrevételekre.</p>
                   <p>A lovas, ki az utazókra kiáltott, a kocsi ajtaja mellett termett, s Bercsényi
-                     azonnal látta, hogy német egyenruhában van.<hi xml:id="_ednref274">[cclxxiv]</hi>
+                     azonnal látta, hogy német egyenruhában van.<hi n="_ednref274">[cclxxiv]</hi>
                   </p>
                   <p>E közben a támadónak kisérete már kardra kelt Bercsényi cselédeivel s ezek
                      egyike dühös védelem után halva hevert a földön; a többiek, elbódulva a rögtöni
@@ -14865,7 +14874,7 @@
                      fenyegetődzéseiket jól hallotta menhelyéből, mert a katonák az egyházat is
                      megrohanták s mindent kikutattak, de nem jutott eszükbe a torony födelét
                      megvizsgálni. Végre félvén, hogy a lelkész a falusiakat fellázítja ellenük,
-                     megoldották a kereket s kisöpörködtek a helységből.<hi xml:id="_ednref277">[cclxxvii]</hi>
+                     megoldották a kereket s kisöpörködtek a helységből.<hi n="_ednref277">[cclxxvii]</hi>
                   </p>
                   <p>Másnap Bercsényi, lengyel kocsisnak átöltözködve, megmentőjét a közelebbi
                      kolostorhoz vitte kis járművén, honnan hasonló átöltözködésben a szerzetesek
@@ -14956,7 +14965,7 @@
                      felugrott székéről s benyitott a mellékajtón.</p>
                   <p>A szomszéd szobában Rákóczi volt! a két barát szótlan tartá ölelve egymást.</p>
                   <p>- Igen, Montméjan - mond Bercsényi az első szenvedélyes felindulás után - ezen
-                     embert igen is jól ismerem - ez Rákóczi Ferencz!<hi xml:id="_ednref280">[cclxxx]</hi>
+                     embert igen is jól ismerem - ez Rákóczi Ferencz!<hi n="_ednref280">[cclxxx]</hi>
                   </p>
                   <p>- Maradjanak kegyetek itt együtt, - felelt a szerzetes érzékeny hangon -
                      barátoknak, kik annyit szenvedtek s oly régen nem látták egymást, sok közleni
@@ -15073,7 +15082,7 @@
                         ellensége!
                   </p>
                   <p>- Tudom bizonyosan - folytatá Bercsényi - hogy Stratmann mindent elkövetett,
-                     hogy tőlünk s főleg tőled a vendégjog megtagadtassék,<hi xml:id="_ednref284">[cclxxxiv]</hi> azért óvatosak leendünk.</p>
+                     hogy tőlünk s főleg tőled a vendégjog megtagadtassék,<hi n="_ednref284">[cclxxxiv]</hi> azért óvatosak leendünk.</p>
                   <p>- Nem tagadom - mond Rákóczi - hogy egészen más körülményekre számítottam, mint
                      a minők itt fejledeznek előttem. Nőm s Magdaléna megírták, nemcsak azt, hogy
                      megmenekültél, hanem azt is, minő előző szivességgel fogadott a király: ez oka,
@@ -15082,7 +15091,7 @@
                      egyikében, s francziának adtam ki magamat. Hogy Heron marquishoz juthassak, ide
                      a kolostorba jöttem, s a marquis gyóntató atyja után tudakozódtam. A derék
                      lelkész kihallgatta vallomásomat, s miután nevemet felfödöztem, neki
-                     köszönhetem, hogy másnap Heron marquis maga fölkeresett.<hi xml:id="_ednref285">[cclxxxv]</hi>
+                     köszönhetem, hogy másnap Heron marquis maga fölkeresett.<hi n="_ednref285">[cclxxxv]</hi>
                   </p>
                   <p>- Világosan láttam, hogy nem bizik bennem, tudakozódtam felőled, s kitérőleg
                      felelt: mondá, hogy a király egyelőre szivesen fogadott, de később Reichling az
@@ -15216,21 +15225,21 @@
                      nemességgel, őt a magyar trónra emelni.
                   </p>
                   <p>A bajor választófejedelem, bár Linczet és Passaut elfoglalta már, nem bírt azon
-                     erélylyel, hogy a koczkáztatott merényt még csak lehetőnek is higyje.<hi xml:id="_ednref291">[ccxci]</hi>
+                     erélylyel, hogy a koczkáztatott merényt még csak lehetőnek is higyje.<hi n="_ednref291">[ccxci]</hi>
                   </p>
                   <p>Könnyítésére e tervnek, a franczia kormány igérkezett a török udvart arra
                      bírni, hogy Tökölyit segitse, s ha mindez megtörténik, kétségtelennek látszott
                      a siker mindazok előtt, kik Magyarország erejét s viszonyait ismerték. A bajor
                      választófejedelem minisztere nem látott egyebet e tervben, mint egy nemzet
                      kétségbeesését, mely hogy a tűrhetlen nyomatástól szabaduljon, eszeveszett
-                     vállalatokra szánja magát, - így telt el két drága visszahozhatlan év.<hi xml:id="_ednref292">[ccxcii]</hi>
+                     vállalatokra szánja magát, - így telt el két drága visszahozhatlan év.<hi n="_ednref292">[ccxcii]</hi>
                   </p>
                   <p>E közben Magyarországon leírhatlan zsarolások voltak napi renden: 12,000 katona
                      követeltetvén, kénytelenek valának a német hatalmasok ezeket kötéllel fogatni,
                      s rengetegben s barlangokban hajtó-vadászatot űzni a menekülő fiatal nép
                      ellen.</p>
                   <p>A só e gazdag kincse Magyarországnak, e hegyei az áldásnak, oly magas áron
-                     adatott, hogy a szegénység só nélkül ette kenyerét.<hi xml:id="_ednref293">[ccxciii]</hi> Nemcsak az elviselhetlen adó, hanem főleg az adószedők
+                     adatott, hogy a szegénység só nélkül ette kenyerét.<hi n="_ednref293">[ccxciii]</hi> Nemcsak az elviselhetlen adó, hanem főleg az adószedők
                      szabálytalan, önkényes eljárása fellázította a kedélyeket. Olyan volt a nép,
                      mint a fáradt vándor, kit a hűs folyam partján szomjhalál fenyeget. Ki a mindig
                      változó, félig vagy éppen nem értett rendeletek ellen vétett, a kérlelhetlen
@@ -15262,7 +15271,7 @@
                         ajándékul. 1703-ban, tavasz elején,
                      végre egy Bige Pál nevű embert indított el Lengyelországba, hogy Rákóczit
                      felkeresse, s élete vagy halála hírét hozza meg. Kiséretében egyike volt azon
-                     kalugereknek, kikkel a Gaura Drakulujban találkoztunk.<hi xml:id="_ednref296">[ccxcvi]</hi>
+                     kalugereknek, kikkel a Gaura Drakulujban találkoztunk.<hi n="_ednref296">[ccxcvi]</hi>
                   </p>
                   <p>Összejárta a két tevékeny biztos egész Lengyelországot.</p>
                   <p>Ráfael, kit jól ismerünk, vette magára a Bige nevet: ő Brenkovics által
@@ -15309,7 +15318,7 @@
                      terjedelmes csuklyával, s hosszú szakálla tiszteletet előidéző tekintetet ada
                      neki.</p>
                   <p>Az öreg Rákóczi kezét vonta ajkaihoz, aztán megölelte, s annyira el volt
-                     érzékenyedve, hogy egyes könnyek folytak le tisztes arczán.<hi xml:id="_ednref298">[ccxcviii]</hi>
+                     érzékenyedve, hogy egyes könnyek folytak le tisztes arczán.<hi n="_ednref298">[ccxcviii]</hi>
                   </p>
                   <p>Rákóczi az öröm e kifejezését szives rokonszenvvel fogadta s az nagy hatást
                      gyakorolt kedélyére.</p>
@@ -15333,7 +15342,7 @@
                   <p>- Leitták magukat, míg egy csepp bor s pálinka volt a csapszékekben; az ital
                      kifogyott - de nem a szomj! rámentek előbb a magános majorokra, azután a
                      kastélyokat támadták meg, ittak, raboltak, romboltak, az ember borzad, ha
-                     meggondolja, mit mert e gaznép tenni herczegséged zászlói alatt s nevében!<hi xml:id="_ednref299">[ccxcix]</hi>
+                     meggondolja, mit mert e gaznép tenni herczegséged zászlói alatt s nevében!<hi n="_ednref299">[ccxcix]</hi>
                   </p>
                   <p>- S kegyetekben nem volt annyi erő, hogy e népet féken tartsa! - mond Bercsényi
                      haraggal - forradalmat akarunk, hadsereget! s 5-600 ember paczkázik orrunk
@@ -15459,11 +15468,11 @@
                      következőleg parancsaik is ez állapot jellegét viselték.</p>
                   <p>Egy Móricz nevű régi katona, közvitéz azelőtt a munkácsi várban, s Horváth,
                      egykori őrmester valami német ezredben, birtak némi távoli eszméjével a hadi
-                     fegyelemnek, de legfeljebb egy jó altisztével.<hi xml:id="_ednref304">[ccciv]</hi>
+                     fegyelemnek, de legfeljebb egy jó altisztével.<hi n="_ednref304">[ccciv]</hi>
                   </p>
                   <p>Pap Mihály, e durva egyéniség, éppen félszeg fogalmai által több zavart, mint
                      rendet eszközölt s folytonos ellenkezésben állt Majos nevű korhely nemes
-                     ifjúval, ki mindenkép törekedett a lovas csapat vezérségét megnyerni.<hi xml:id="_ednref305">[cccv]</hi>
+                     ifjúval, ki mindenkép törekedett a lovas csapat vezérségét megnyerni.<hi n="_ednref305">[cccv]</hi>
                   </p>
                   <p>Oly nevek, melyek később egészen eltűntek s másoknak adtak helyet.</p>
                   <p>Mindezekből világos, minő selejtes és aljas volt az anyag, melyet Rákóczi
@@ -15664,7 +15673,7 @@
                   <p>A lengyel lovas csapat mögött jöttek a zenészek! maradványa Tökölyi
                      czigányainak, kiknek buzdító zenéjét hallottuk már egykor, s kikhez később
                      fiatalabbak szövetkeztek.</p>
-                  <p>Senki sem ismerte a varázsdalt, mert nem volt az induló.<hi xml:id="_ednref307">[cccvii]</hi> Az öreg karmester titkon, a csaták riadásaiból, az ágyuk
+                  <p>Senki sem ismerte a varázsdalt, mert nem volt az induló.<hi n="_ednref307">[cccvii]</hi> Az öreg karmester titkon, a csaták riadásaiból, az ágyuk
                      dörgéséből, a haldoklók jajából s a fékvesztett vihar zúgásából egy dalt
                      olvasztott össze, - minő még nem volt.</p>
                   <p>Titkon gyakorlá be néma erdőkben és sötét barlangokban. Rákóczi sem hallotta
@@ -15861,7 +15870,7 @@
                      magyar a zabkenyeret undorral ette.
                   </p>
                   <p>Rákóczi álruhában a nép közé vegyült, kihallgatta panaszait, megismerkedett
-                     szellemével s a hol lehetett, segítni tudott.<hi xml:id="_ednref311">[cccxi]</hi>
+                     szellemével s a hol lehetett, segítni tudott.<hi n="_ednref311">[cccxi]</hi>
                   </p>
                   <p>Mégis volt e táborozásban valami, a mi a reményt folytonosan élesztette: azon
                      félreismerhetlen ösztön, mely az ország legtávolabb részeiről oda vezette az
@@ -15953,12 +15962,12 @@
                   <p>Rákóczit az alföldi küldöttségek arra unszolták, hogy hagyja el a zabkenyér
                      árva völgyeit, s lépjen ki a síkra, Munkács vidékére.</p>
                   <p>Erősíték többen, hogy a Montecuccoli-ezred, Károlyi Sándor dolhai győzelmének
-                     hírére, új és sürgető parancsot kapott, hogy Olaszországba menjen.<hi xml:id="_ednref313">[cccxiii]</hi>
+                     hírére, új és sürgető parancsot kapott, hogy Olaszországba menjen.<hi n="_ednref313">[cccxiii]</hi>
                   </p>
                   <p>Ha a jó, mint a rossz hírek, ha a lég, mely a forrpontról a jégfokig szállt le
                      és viszont, a kedélyeket folytonos hullámzásban tarták: Rákóczi maga nyugodt
                      volt.</p>
-                  <p>Mikor a Rubicont átlépte, - miként maga mondja emléklapjaiban,<hi xml:id="_ednref314">[cccxiv]</hi> - a czél állt előtte, s szíve sem a
+                  <p>Mikor a Rubicont átlépte, - miként maga mondja emléklapjaiban,<hi n="_ednref314">[cccxiv]</hi> - a czél állt előtte, s szíve sem a
                      veszélyen, sem az eszközök csekély voltán meg nem rezzent; ismerte a földet,
                      hová jött, bizott a népben, melyért mindenét koczkára tette.</p>
                   <p>Azonban a mi történt, a mit hallott, meggyőzte őt, hogy késnie nem lehet.</p>
@@ -16110,7 +16119,7 @@
                      jobban tennék, már csak a példáért is, ha visszatérnének lakjaikba. A
                      várparancsnokot, régi ösmerősömet, üdvözölje nevemben; amicus personae,
                      inimicus causae.</p>
-                  <p>A lelkész érzékeny bucsút vett s eltávozott.<hi xml:id="_ednref316">[cccxvi]</hi>
+                  <p>A lelkész érzékeny bucsút vett s eltávozott.<hi n="_ednref316">[cccxvi]</hi>
                   </p>
                   <p>* * *</p>
                   <p>Alig telt el egy negyed óra, Pap Mihály lépett a szobába, kivételes józanságban
@@ -16265,7 +16274,7 @@
                      lehetetlen, hogy Montecuccoli ezredének többi része is itt terem nemsokára, és
                      zaklatni fog bennünket, azért el nem ereszthetek innen annyi vitéz férfiút; Pap
                      Mihály uram okos, bátor férfiú, elintézendi a merényt 3-400 emberrel.</p>
-                  <p>Rákóczi e szavak után fölkelt, s a tanácskozás be volt fejezve.<hi xml:id="_ednref317">[cccxvii]</hi>
+                  <p>Rákóczi e szavak után fölkelt, s a tanácskozás be volt fejezve.<hi n="_ednref317">[cccxvii]</hi>
                   </p>
                   <p>Pap Mihály, kit nem lehete eddig mellőzni, mivel a nép sokat tartott róla, még
                      az éjjel megindult Szerednye felé, minő sikerrel, megtudjuk nemsokára.</p>
@@ -16291,7 +16300,7 @@
                      szent-miklósi várba, két órányira Munkácstól, vonuljon, s maga mellett csak az
                      aránylag legjobban felszerelt részét seregének, s az utóbbiakhoz csatlakozott
                      nemességet tartotta. Hogy a távozókat vidor kedv kisérje, a czigány zenészek
-                     velök mentek, mindig elől, s harsogtatva a kedves honi dalokat.<hi xml:id="_ednref318">[cccxviii]</hi>
+                     velök mentek, mindig elől, s harsogtatva a kedves honi dalokat.<hi n="_ednref318">[cccxviii]</hi>
                   </p>
                   <p>Minő vakmerőnek is látszatik ezen intézkedés első tekintetre, oly jó hatással
                      volt mind a hadseregre magára, mind a vidéki népre.</p>
@@ -16436,7 +16445,7 @@
                   védhetjük magunkat ily erő ellen, hátra fogunk vonulni.</p>
                <p>E perczben pár ház közel Rákóczi szállásához lángot vetett, a németek szándékosan
                   felgyujtották azokat. A sűrű füst eltöltötte az egész tért, s Rákóczi kisérete
-                  esküt tőn, hogy utolsó emberig védendi a herczeget, s meghal vele, ha kell.<hi xml:id="_ednref327">[cccxxvii]</hi>
+                  esküt tőn, hogy utolsó emberig védendi a herczeget, s meghal vele, ha kell.<hi n="_ednref327">[cccxxvii]</hi>
                </p>
                <p>Úgy látszott, hogy az egyedüli kilátás csak a becsületes halál volt: mert a
                   hátrálás rendes lovasság elől, ily gyakorlatlan tömeggel, szintén annyi
@@ -16532,7 +16541,7 @@
                   vidéken.</p>
                <p>Ott állt Rákóczi a tetőn, körözve lovas kiséretétől s mellette a gyalogság sötét
                   tömegei. Mentve volt, mentve sokkal nagyobb veszélytől, mint talán maga ez
-                  elhatározó órában s harczias felhevülésében gondolta.<hi xml:id="_ednref330">[cccxxx]</hi>
+                  elhatározó órában s harczias felhevülésében gondolta.<hi n="_ednref330">[cccxxx]</hi>
                </p>
                <p>Ha az első német századnak sikerül őt kézhez keríteni, mit a legkönnyebben
                   megtehetende, - a Rákóczi-forradalom első lapjaiban be van fejezve.</p>
@@ -16549,7 +16558,7 @@
                   ő, leszállt lovairól s azokat kantáron vezette - oly állást vőn, honnan az egész
                   vidékre széttekinthetett.</p>
                <p>- Nézze csak kegyed, Clermont! - mond Rákóczi, távcsövét Munkács felé irányozva -
-                  egy kis gyalog csapat jő a várból s pár ágyút vonnak magok után.<hi xml:id="_ednref331">[cccxxxi]</hi>
+                  egy kis gyalog csapat jő a várból s pár ágyút vonnak magok után.<hi n="_ednref331">[cccxxxi]</hi>
                </p>
                <p>- Valóban nem tehettünk okosabbat, - viszonzá Clermont - mint a szabadba jönni a
                   szalmafödelek közől: nézze csak herczegséged, több ég már 20 háznál.</p>
@@ -16597,7 +16606,7 @@
                      aggok, nők, gyermekek.</p>
                   <p>Lehetetlen a sírást s jajgatást képzelni, melyet e nép véghez vitt; Rákóczi
                      maga, ki e körülményt említi emléklapjaiban, hihetlennek nevezi azt, de a mi e
-                     népnek s átalán fogva az orosz fajú népeknek szokásában van.<hi xml:id="_ednref332">[cccxxxii]</hi>
+                     népnek s átalán fogva az orosz fajú népeknek szokásában van.<hi n="_ednref332">[cccxxxii]</hi>
                   </p>
                   <p>A hír Rákóczi visszavonulását szokott hozzátételekkel kürtölte ki a vidékekben,
                      legtöbben azt hitték, hogy nemcsak semmivé tétetett serege, hanem maga
@@ -16612,7 +16621,7 @@
                   <p>Mikor a nép Rákóczit megpillantotta, alig hitt szemeinek. A zászlókat a földbe
                      szúrták, a pópák leszálltak lovaikról, s a nép leborult. Mint a láng a száraz
                      mezőn, úgy áradott el Rákóczi élethire a vidékben. A minő nagy volt a bánat és
-                     csüggedés, oly határtalan lőn az öröm, mikor megtudták, hogy él.<hi xml:id="_ednref334">[cccxxxiv]</hi>
+                     csüggedés, oly határtalan lőn az öröm, mikor megtudták, hogy él.<hi n="_ednref334">[cccxxxiv]</hi>
                   </p>
                   <p>Rákóczi végre Zavadkára ért, saját jószágába a lengyel határon. Azonnal
                      Szent-Miklósra küldött, hol hasonló rossz hirek terjedtek, s honnan a népet
@@ -16635,7 +16644,7 @@
                      rögtöni igazságtétellel, mely ellenmondást nem szenvedett, mivel a ki
                      ellenmondásra nyitotta ajkait, a jövő perczben halva hevert a földön.</p>
                   <p>Rákóczi látta, hogy e népnek kénytelen meghagyni tiszteit, ha avval boldogulni
-                     akar; azért néhányat előléptetett, a többieket megerősítette hivatalaikban.<hi xml:id="_ednref335">[cccxxxv]</hi>
+                     akar; azért néhányat előléptetett, a többieket megerősítette hivatalaikban.<hi n="_ednref335">[cccxxxv]</hi>
                   </p>
                   <p>Az újon jöttek beszélték, hogy a munkácsi őrizetnek s a Montecuccoli-ezrednek
                      szemeláttára haladtak el a vár előtt.
@@ -16687,7 +16696,7 @@
                      Zavadkán is - csak sokkal nagyobbszerű arányban - ismétlék magukat.</p>
                   <p>Küldöttség jött küldöttség után, s ezek többnyire arra kérték és unszolták
                      Rákóczit, hogy minden áron igyekezzék a Tiszán átjönni, mert csak azon túl van
-                     remény a lovasságot nagy arányban növelhetni.<hi xml:id="_ednref338">[cccxxxviii]</hi>
+                     remény a lovasságot nagy arányban növelhetni.<hi n="_ednref338">[cccxxxviii]</hi>
                   </p>
                   <p>Most következtek azon gyors villanyszerű hadjáratok, minőkről kevés forradalom
                      története tesz tanuságot, s melyeket röviden varázslunk elő, mivel nem
@@ -16783,7 +16792,7 @@
                   <p>- Mihelyt a helyszinére érkeztek, tömegbe szorultak össze, s az ellenséget háta
                      mögött megrohanván, egyenesen a Tiszának s az azt köröző mocsároknak
                      szorították. Fele oda veszett, a többit levágtuk vagy elfogtuk.</p>
-                  <p>- A tulsó parton a németek maguk bámulták lovasságunkat.<hi xml:id="_ednref342">[cccxlii]</hi>
+                  <p>- A tulsó parton a németek maguk bámulták lovasságunkat.<hi n="_ednref342">[cccxlii]</hi>
                   </p>
                   <p>- De hallják kelmetek, mert nem eddig van. Egy német trombitás, kit valahol a
                      Tisza partján fogtak el embereink, e csata közben megszökött. Nagyon tartottunk
@@ -16848,7 +16857,7 @@
                      megbizások vártak.</p>
                   <p>Rákóczi hires manifestuma, mely már Zavadkán elkészült, szétküldetett: magyar,
                      német, tót és oláh fordítása elterjedt az országban, s neki több szolgálatot
-                     tőn, mint jó szándékú, de tapasztalatlan s önfejű vezérei.<hi xml:id="_ednref347">[cccxlvii]</hi>
+                     tőn, mint jó szándékú, de tapasztalatlan s önfejű vezérei.<hi n="_ednref347">[cccxlvii]</hi>
                   </p>
                   <p>
                      <hi>Recrudescunt vulnera inclytae gentis hungarae!</hi> hangzott
@@ -16921,7 +16930,7 @@
                   <p>Szűcs egészen azon idők embere volt, melyekben zajos élte lefolyt: megfordult
                      sarkán s lehetlenség helyett lehetőt hajtott végre. Somlyó előtt termett, mint
                      a villám rohanta meg: egy óra alatt, falak, sánczok megmászattak; s az őrség
-                     hódolt, egyről-egyig szolgálatot vevén Rákóczi seregeiből.<hi xml:id="_ednref350">[cccl]</hi>
+                     hódolt, egyről-egyig szolgálatot vevén Rákóczi seregeiből.<hi n="_ednref350">[cccl]</hi>
                   </p>
                   <p>E közben Pintye Gergely, kit a Gaura Drakulujban láttunk, Mirián parancsára,
                      vad népével megrohanta Nagybányát, s Rákóczi nevében elfoglalta: világos, mikép
@@ -16937,7 +16946,7 @@
                      rendet akart csinálni, kinek a kihágások minden reményét leölték, miután saját
                      emberei közől négyet lelőtt, azon pillanatban rohantatott meg, midőn egy házba
                      belépett, hogy onnan a rablókat kikergesse. Szóhoz nem juthatott, a felbőszült
-                     nép ízről-ízre szaggatta őt: fizetett a multért.<hi xml:id="_ednref351">[cccli]</hi>
+                     nép ízről-ízre szaggatta őt: fizetett a multért.<hi n="_ednref351">[cccli]</hi>
                   </p>
                   <p>Nagybánya szabad volt; de szabadságát arra használta, egy küldöttség által
                      hírül adni Rákóczinak a történteket s a derék magyar város feltétlen hódolatát.
@@ -16986,7 +16995,7 @@
                   <p>Végre a gomoly kifejlett, az emberek egymásra ismertek, s iszonyú zsinat után a
                      csend helyreállt: de lehetlen volt tovább menni, s Rákóczi tábort ütött.</p>
                   <p>Bercsényi kemény ütést kapott fején, de nem halálosat, s mihelyt ájultságából
-                     magához tért, Rákóczi őt Károlyba küldötte, saját orvosa kiséretében.<hi xml:id="_ednref355">[ccclv]</hi>
+                     magához tért, Rákóczi őt Károlyba küldötte, saját orvosa kiséretében.<hi n="_ednref355">[ccclv]</hi>
                   </p>
                   <p>Másnap Pálfalvára ért végre a sereg s Rákóczi azonnal erődített sánczokhoz
                      fogatott a Szamos irányában.</p>
@@ -17042,7 +17051,7 @@
                      ember, hogy az erdélyi nemesség nagy része Rákóczihoz szít, ki nem kerülte
                      figyelmét a terjedő láng, azért Nagy-Szebenbe idézte a főurakat tanácskozás
                      ürügye alatt, a fejöket vesztett, jajveszéklő szászok közé, kik falaik közt
-                     összezsugorodva, kétségbeesetten vártak segélyre.<hi xml:id="_ednref359">[ccclix]</hi>
+                     összezsugorodva, kétségbeesetten vártak segélyre.<hi n="_ednref359">[ccclix]</hi>
                   </p>
                   <p>Kevesen hagyták magukat odacsalatni. Toroczkai István, Pekri Lőrincz, Orosz és
                      Guthi István, kik ellenszegültek, elfogattak és börtönbe kisértettek. Mit sem
@@ -17058,13 +17067,13 @@
                      elő s hátra. Károlyi Sándor férfias nyiltsággal figyelmeztette őket
                      balfogásaikra s a veszélyre, melyet bosszantó rendszerük felidézett. Magával a
                      császárral szólt, s kérte őt, hogy legalább Ugocsa, Bereg és Szathmár megyéknek
-                     engedtessék el az iszonyú adó, mely rájok vettetett.<hi xml:id="_ednref361">[ccclxi]</hi> Károlyi látta, hogy a császár semmit sem tehet s hatalmát
+                     engedtessék el az iszonyú adó, mely rájok vettetett.<hi n="_ednref361">[ccclxi]</hi> Károlyi látta, hogy a császár semmit sem tehet s hatalmát
                      elvetemült bitorlók aknázzák ki, Kassára
                      sietett, honnan az ijedtében meghalt Nigrelli eltemettetése után Tokajba
                      jött.</p>
                   <p>Rákóczi őt előző szivességgel fogadta. Bercsényi ajánlatára azonnal a jászok és
                      kunok kapitányává nevezte ki s vezérévé tette a roppant seregnek, mely a
-                     kecskeméti pusztán s a Duna egész balpartján összegyűlt.<hi xml:id="_ednref363">[ccclxiii]</hi>
+                     kecskeméti pusztán s a Duna egész balpartján összegyűlt.<hi n="_ednref363">[ccclxiii]</hi>
                   </p>
                   <p>Bercsényi meggondolatlan hevessége s indulatossága már ez időben nagy terhére
                      volt Rákóczinak, ki rettenthetlen bátorság mellett nélkülözte benne a vezéri
@@ -17079,7 +17088,7 @@
                      ellenségre.</p>
                   <p>A Montecuccoli-ezred parancsnoka tökéletesen fejét vesztette azon gyors
                      előnyökre, melyeket Rákóczi kivívott, s a nép általános, áradatos felkelésére,
-                     odahagyta pár hét előtt az erős munkácsi állást, s Kassára futott.<hi xml:id="_ednref365">[ccclxv]</hi>
+                     odahagyta pár hét előtt az erős munkácsi állást, s Kassára futott.<hi n="_ednref365">[ccclxv]</hi>
                   </p>
                   <p>Az egész Érmellék, Hegyalja s a hajduvárosok e fejetlen visszavonulása által
                      szabad tért nyervén, fegyvert ragadtak s ezrenkint siettek Bercsényi elé.</p>
@@ -17863,7 +17872,7 @@
                   szenvedélylyel ragaszkodó tisztekkel kellett megmérkőzni. Ezenkívül Klökelsberg
                   német tábornok, ki közemberből vezérségig vitte, nemcsak elszánt, hanem hősies
                   lelkű, s e mellett saját személyessége miatt becsült férfiú volt. Ő a magyar
-                  nemesség legtehetősbjei közt számos barátokkal birt.<hi xml:id="_ednref371">[ccclxxi]</hi>
+                  nemesség legtehetősbjei közt számos barátokkal birt.<hi n="_ednref371">[ccclxxi]</hi>
                </p>
                <p>Ehhez járult azon körülmény, hogy mihelyt a magyar forradalom nagyobb arányt vőn,
                   s a bécsi kormány a gyors előhaladásnak s egyes győzedelmeknek a kuruczok részéről
@@ -17961,7 +17970,7 @@
                   bebizonyította, hogy Brenkovics jóslatai szóról-szóra teljesedtek. Ő volt első, ki
                   Rákóczit meggyőzte arról, mikép Károlyi Sándor csak alkalomra vár vele
                   szövetkezhetni, hogy Forgách Simon a bécsi kormány részéről fel van szólítva,
-                  színleg csatlakozni Rákóczival, hogy minden lépéseit tudassa az illető helyen.<hi xml:id="_ednref374">[ccclxxiv]</hi> De azt is megtudta, hogy a csatákban hős
+                  színleg csatlakozni Rákóczival, hogy minden lépéseit tudassa az illető helyen.<hi n="_ednref374">[ccclxxiv]</hi> De azt is megtudta, hogy a csatákban hős
                   lelkű, a tanácsban higgadt Károlyi, nehéz napokban mindig a kiegyenlítések s
                   egyezkedések embere leend; azért olyan, kit szemmel szükség tartani.</p>
                <p>Brenkovics kellemesen meg lőn lepetve; azon gyors terjedése által a felkelésnek,
@@ -18041,7 +18050,7 @@
                   s gyűlölte a magyar népet. Miután mindent elkövetett a marmarosi oláh népesség
                   felbujtogatására, legkisebb siker nélkül, a nemességgel még ellenségesebb állásba
                   tette magát, mint valaha. Ez oka, hogy őt mindenki kerülte.</p>
-               <p>Az őrizet maga s annak tisztei féltek tőle, senki sem szerette:<hi xml:id="_ednref375">[ccclxxv]</hi> de a fegyelemben oly valami varázs van, hogy
+               <p>Az őrizet maga s annak tisztei féltek tőle, senki sem szerette:<hi n="_ednref375">[ccclxxv]</hi> de a fegyelemben oly valami varázs van, hogy
                   míg ennek bája tart, a hatalom, sőt önkény biztosak. De a fegyelem két nagy
                   ellenséggel bir: ezek, ismételt csatavesztés és pénzhiány. Ha egy sereg nehányszor
                   istenesen megpaskoltatik, ha azt rendesen, vagy éppen nem lehet többé fizetni,
@@ -18239,10 +18248,10 @@
                   kardjától, a várnagy kiejtette hosszú pallosát kezéből, s a következő perczben egy
                   szurás után, melyet senki sem vallott magáénak, s melyről nem lehetett tudni,
                   kitől jött, egy felkiáltással: - <hi>éljen a császár!</hi> hanyatt
-                  esett emberei közé, kiket páni rettegés kapott meg, s lemondtak a védelemről.<hi xml:id="_ednref376">[ccclxxvi]</hi>
+                  esett emberei közé, kiket páni rettegés kapott meg, s lemondtak a védelemről.<hi n="_ednref376">[ccclxxvi]</hi>
                </p>
                <p>Pár keréknélküli ágyu, csekély mennyiségű lőpor, s mintegy száz darab lőszer volt
-                  a martalék. Az őrizet, minden tisztjeivel Rákóczi zászlói alá esküdt.<hi xml:id="_ednref377">[ccclxxvii]</hi>
+                  a martalék. Az őrizet, minden tisztjeivel Rákóczi zászlói alá esküdt.<hi n="_ednref377">[ccclxxvii]</hi>
                </p>
                <p>Ilosvay egy embert sem vesztett, az ajtóhoz állított őrt is, betömött szájjal egy
                   rejtekben találták. A csata közben összeesett tiszt sebei nem voltak halálosak.
@@ -18316,7 +18325,7 @@
                   falakra puffogtatni. A tisztek előnyargalva hirtelen felkantározott lovaikon,
                   ügyekeztek ugyan némi rendet előidézni, a támadást szabályozni, de ez lehetlen
                   lőn. Mihelyt a söppedékes átjárási töltés kész volt, oly erővel rohanták meg a
-                  kaput tömegben, mikép azt kellé hinni, hogy összetörik fegyveragyaikkal.<hi xml:id="_ednref379">[ccclxxix]</hi>
+                  kaput tömegben, mikép azt kellé hinni, hogy összetörik fegyveragyaikkal.<hi n="_ednref379">[ccclxxix]</hi>
                </p>
                <p>A támadás azonban nem sikerült; a kapu a rohamnak, fejszéknek s fegyveragyaknak
                   ellentállt; a várból pedig a tömegre intézett lövések nem egyet találtak a merész
@@ -18743,7 +18752,7 @@
                   erejével védte magát, s nem egyet a megtámadók közől rútul megjegyzett.</p>
                <p>Mellette a vén Fiedler hadonázott, s egy majdnem ötven éves rácz káplár, az
                   őrségből, ügyekezett tisztjét védeni, vagy vele meghalni.</p>
-               <p>E közben a lefegyverzett őrség éljenezte Rákóczit.<hi xml:id="_ednref382">[ccclxxxii]</hi>
+               <p>E közben a lefegyverzett őrség éljenezte Rákóczit.<hi n="_ednref382">[ccclxxxii]</hi>
                </p>
                <p>Nem csekély időbe került a hadnagyot a falhoz szorítani, s kifacsarni kezéből
                   kardját, melyet oly szorosan tartott, hogy keze kificzamlott az erőködésben. -
@@ -18776,7 +18785,7 @@
                <p>Ily csudás módon jött a kállói vár Rákóczi kezébe.</p>
                <p>Az őrségből összesen 15 ember hiányzott, többen a menekültek közől sebet kaptak,
                   de a vár fél kettőre éjfél után Rákóczi vezérének kezei közt volt, négy könnyű
-                  ágyú, s jó minőségü lőpor s fegyver lőn a martalék.<hi xml:id="_ednref383">[ccclxxxiii]</hi>
+                  ágyú, s jó minőségü lőpor s fegyver lőn a martalék.<hi n="_ednref383">[ccclxxxiii]</hi>
                </p>
                <p>Az őrizet, miként az majdnem mindig történt e forradalom alatt, szolgálatot vett
                   Rákóczi seregében.
@@ -18819,7 +18828,7 @@
                      irányában, minőre példa nincsen.</p>
                   <p>Azok, kik nagy Leopold nevében oly törpén uralkodtak, keveset gondoltak avval,
                      ha nem is marad semmi kétség fenn, hogy a császárt eszközül használják saját
-                     terveik s személyes szenvedélyeik kielégítésére.<hi xml:id="_ednref386">[ccclxxxvi]</hi>
+                     terveik s személyes szenvedélyeik kielégítésére.<hi n="_ednref386">[ccclxxxvi]</hi>
                   </p>
                   <p>Hihetlennel határos, mennyire körül volt bástyázva az udvari légkör. A
                      fejedelem a sűrű féltékeny hálón át nem láthatott, s el volt úgyszólván zárva
@@ -18900,7 +18909,7 @@
                   <p>Sokan azon véleményben voltak a bécsi és prágai mindenhatók közt, különösen
                      Stratmann és Kinszki: Aspermontnak valami külhoni megbizást adni, hogy a lehető
                      legtávolabb legyen sógorától; Rákóczinét pedig a kolostor helyett, hol eddig
-                     tisztességes fogságban tartatott, Olmützbe küldeni.<hi xml:id="_ednref389">[ccclxxxix]</hi>
+                     tisztességes fogságban tartatott, Olmützbe küldeni.<hi n="_ednref389">[ccclxxxix]</hi>
                   </p>
                   <p>Eleonora császárné mind a két tervnek ellenszegült, bár Aspermont s főleg neje
                      mind azok után, a mit rólok mondtak, elvesztették hitelüket előtte. A császárné
@@ -18933,7 +18942,7 @@
                      kis válogatott társaság együtt volt: a császárnét ízléses, de nem fényes
                      öltözetben s kevés ékszerrel látjuk a pamlagon ülni, mely előtti asztalon
                      Dietrichstein grófnő, Kolonics, a bibornok egyszerű fekete egyházi öltönyben, s
-                     Kaunitz András alkorlátnok játszottak Eleonorával.<hi xml:id="_ednref390">[cccxc]</hi>
+                     Kaunitz András alkorlátnok játszottak Eleonorával.<hi n="_ednref390">[cccxc]</hi>
                   </p>
                   <p>A császár gróf Kinszkivel beszélgetett állva, s néha a többi termeken át
                      sétálgatva.</p>
@@ -19412,7 +19421,7 @@
                <p>Ki lehetett ezen ember? hogy nem az, kinek nevét vette fel, bizonyos, hiszen
                   Apagyi kétszer meghalt? szólt Caraffa a papirost a gyertya lángjának nyújtván
                   martalékul. Várj, várj, megtalállak! - Oh, az éj, az éj, tevé hozzá, míg szemei
-                  körülkémeltek a tágas szoba sötétebb szögletein.<hi xml:id="_ednref394">[cccxciv]</hi>
+                  körülkémeltek a tágas szoba sötétebb szögletein.<hi n="_ednref394">[cccxciv]</hi>
                </p>
                <p>Volt valami hiéna vonásaiban, mikor tömött bajuszát fésülvén két keze ujjaival, a
                   hamvadó iratra nézett.</p>
@@ -19490,7 +19499,7 @@
                <p>És most egy szép, tisztes öreg férfiú ment: övig érő hószakálla födte széles
                   mellét, magasan tartotta fejét, mely fölött sok vihar elvonult már. Tekintete
                   büszke volt és fönséges: mikor Caraffára estek annak sugárai, úgy tetszett, mintha
-                  tőrként hasadnának át a gyáva gyilkos sivár mellén.<hi xml:id="_ednref395">[cccxcv]</hi> E szép öreg, e dicső alak a régi korból, Székely András volt:
+                  tőrként hasadnának át a gyáva gyilkos sivár mellén.<hi n="_ednref395">[cccxcv]</hi> E szép öreg, e dicső alak a régi korból, Székely András volt:
                   egyike Caraffa s szemtelen ágyasa Tábori Erzsók - első áldozatainak az eperjesi
                   vérvásárban.</p>
                <p>Nyomában egy magas homlokú, gyérhajú férfiu jött, Rudnyánszki György, gyönyörű kép
@@ -19498,7 +19507,7 @@
                <p>És jöttek mindig a véres alakok, kiket Caraffa felakasztatott, lefejeztetett,
                   felnyársaltatott s négy felé vágatott: kiknek tagjait 30 hóhér rángatta, sütötte
                   és marczangolta szét a kínzópadon. 600 forint volt igérve, ki új nemét a kínzásnak
-                  találja fel nagy Leopold korában, nagy Leopold nevében.<hi xml:id="_ednref396">[cccxcvi]</hi>
+                  találja fel nagy Leopold korában, nagy Leopold nevében.<hi n="_ednref396">[cccxcvi]</hi>
                </p>
                <p>Oh! ezen arczok, e vértanuk, a vád jegesztő kifejezésével vonásaikban, a meredt,
                   fagylaló tekintettel a véremberre, s a bús zene, mely a sivatag határain elömlött
@@ -19574,7 +19583,7 @@
                   érdekében, Isten és jobb emberek előtt kedves dolgot tett, midőn a sátán
                   sarjadékait, az elvetemült lázadókat illő szigorral kiirtotta a föld szinéről,
                   látván ezt - ismétlé most a jámbor férfiú - ellene esküdt s elébe csődítette a
-                  pokol söpredékét, hogy ne legyen sem éje, sem nappala.<hi xml:id="_ednref399">[cccxcix]</hi>
+                  pokol söpredékét, hogy ne legyen sem éje, sem nappala.<hi n="_ednref399">[cccxcix]</hi>
                </p>
                <p>A sátán és nem más az, kinek Caraffa köszönheti örökös zaklattatásait. Azért
                   tömjént és szentelt vizet ajánlott s Caraffát egy jeruzsálemi olvasóval s több
@@ -19666,7 +19675,7 @@
                      romboltatni.</p>
                   <p>A tisztek nem voltak e véleményben: de Rákóczi meggyőzte őket, minő kevés
                      előnyt nyujtanak az ily apró várfészkek, melyekben őrizetet kell tartani, s ha
-                     a koczka fordul, s az ellenség kezére jutnak, csak akadályt okoznak.<hi xml:id="_ednref403">[cdiii]</hi>
+                     a koczka fordul, s az ellenség kezére jutnak, csak akadályt okoznak.<hi n="_ednref403">[cdiii]</hi>
                   </p>
                   <p>- Bár ne léteznék egye is ezen apró váraknak - fejezte be Rákóczi - melyek
                      miatt annyi időt vesztegetünk, annyi vért pazarlunk: mint Szathmár, Eger,
@@ -19748,7 +19757,7 @@
                      hintóban, mikor az a vár udvarán végig gördült, oly csodásnak tekinthette a
                      látogatás kivitelét.</p>
                   <p>Tudjuk, hogy Rákócziné fogva tartatott ugyanazon kolostorban, honnan neki már
-                     egyszer sikerült férjét Bécsújhelyen meglátogatni.<hi xml:id="_ednref404">[cdiv]</hi> Juliának férje tántoríthatlan híve volt a császárnak, s azért
+                     egyszer sikerült férjét Bécsújhelyen meglátogatni.<hi n="_ednref404">[cdiv]</hi> Juliának férje tántoríthatlan híve volt a császárnak, s azért
                      nejét saját érdekében sem hatalmazhatta fel, hogy az ellenség által elfoglalt
                      részekbe menjen, egy nagy és hatalmas forradalom főnökéhez. Magdaléna végre,
                      bár sok önállást vívott ki, s nem szerette más, mint saját eszének sugallatait
@@ -19985,7 +19994,7 @@
                      átadta Rákóczinak.</p>
                   <p>A levél Radzsinszkitól, Lengyelország primásától jött: ki tudtára adta, mikép
                      magas hivatalánál fogva, ünnepiesen kinyilatkoztatta, hogy a lengyel trón
-                     megürült, s az új király választásának ideje bekövetkezett.<hi xml:id="_ednref409">[cdix]</hi>
+                     megürült, s az új király választásának ideje bekövetkezett.<hi n="_ednref409">[cdix]</hi>
                   </p>
                   <p>A korona főtábornoka Lubomirski a primással egyetértett, s meggyőződvén
                      mindketten a svéd király semlegességéről, abban állapodtak meg, hogy Rákóczit
@@ -20025,7 +20034,7 @@
                      homlokukra tornyozandnák, ha lehetne.</p>
                   <p>Rákóczi rövid szünet után nyugodtan szólt: - Igen, Wisnyovszki s Potoczki
                      barátim, nekem biztos révbe kell vinnem a vészbe hányatott hajót; ez első
-                     közvetlen kötelességem, bocsássatok meg nekem.<hi xml:id="_ednref413">[cdxiii]</hi>
+                     közvetlen kötelességem, bocsássatok meg nekem.<hi n="_ednref413">[cdxiii]</hi>
                   </p>
                   <p>A két férfiú csalatva reményeiben, sértve, hogy országuk koronája
                      visszautasíttatik, minden ékesenszólásukat elővették, hogy Rákóczit
@@ -20043,7 +20052,7 @@
                      kik miként Longueval egykor és rokona Pál, később színlett buzgóság által,
                      belopják magukat a bizodalomba. Egy volt az utóbbi a német kormány titkos kémei
                      s ügyvivői közűl, minők minden forradalomban űzik életvásárukat; ármány s
-                     cselszövény az elem, melyben ezen emberek élnek.<hi xml:id="_ednref414">[cdxiv]</hi>
+                     cselszövény az elem, melyben ezen emberek élnek.<hi n="_ednref414">[cdxiv]</hi>
                   </p>
                   <p>Rákóczi rájok bízta, hogy Radzsinszki bibornokkal beszéljenek, őt okai
                      helyességéről meggyőzzék; azután a svéd királyhoz siessenek.</p>
@@ -20051,7 +20060,7 @@
                      tanusított barátságát, s emlékeztetni őt azon szövetségre, mely híres nagyatyja
                      s Rákóczi György közt létezett, hogy t. i. azon esetben, ha a Rákócziakat az
                      erdélyi fejedelemségből ki akarják szorítani, a svéd király őket 40,000
-                     tallérral s 6000 főre menő sereggel segítendi.<hi xml:id="_ednref415">[cdxv]</hi>
+                     tallérral s 6000 főre menő sereggel segítendi.<hi n="_ednref415">[cdxv]</hi>
                   </p>
                   <p>A két férfiú még az nap este távozott Rákóczi küldötteinek társaságában.
                      Wisnyovszki s Potoczki őszinte barátjai voltak Rákóczinak s midőn megbizásukban
@@ -20429,7 +20438,7 @@
                   áron szolgáló gépekhez.</p>
                <p>Senki sem látszott a nehéz munka kivitelére alkalmasbnak, mint Széchenyi Pál, ki
                   értelmisége által minden pártnak kivívta méltánylását s még a heves, ingerlékeny,
-                  de éles eszű Bercsényire sem hibázta el hatását.<hi xml:id="_ednref422">[cdxxii]</hi>
+                  de éles eszű Bercsényire sem hibázta el hatását.<hi n="_ednref422">[cdxxii]</hi>
                </p>
                <p>E közben József, a koronaherczeg, maga át kezdé látni, hogy a bécsi kormány
                   balfogásaiban oda ért, hogy csak nagy és gyors engedményezések adhatnak némi
@@ -20451,7 +20460,7 @@
                   mint valaha; ha Rákóczi vezérei vívtak is ki egy diadalt a másik után, - valami
                   történt, a mi ez idő óta zsibbasztó hatását gyakorlá. Egy méregcsöpp esett a
                   közérzelem nemes ihletébe; egy fellegfolt mutatkozott a tiszta égen, láthatlan
-                  lassúsággal növekedve, de gyűjtvén vihart és villanyt méhébe.<hi xml:id="_ednref424">[cdxxiv]</hi>
+                  lassúsággal növekedve, de gyűjtvén vihart és villanyt méhébe.<hi n="_ednref424">[cdxxiv]</hi>
                </p>
                <p>Széchenyi elvállalta a közbenjárói tisztet. Ő valóban óhajtotta a békét, ki ne
                   óhajtaná ezt! s ki ne sajnálna minden csöpp vért, melyet testvérek ontanak ki! De
@@ -20517,7 +20526,7 @@
                   mely összeszedve s rendesen működve, csodákat teende, szétoszlott egymást irigy
                   szemmel kisérő vezérei közt, s elfolyt a sok drága vér, gyors s a nemzet érdekeit
                   elhatározó eredmény nélkül.</p>
-               <p>Bethlen Samu szétvert hada nagyobb részt Rákóczi zászlói alá sereglett.<hi xml:id="_ednref426">[cdxxvi]</hi> Bussi Rabutin, látván, hogy segítség nem
+               <p>Bethlen Samu szétvert hada nagyobb részt Rákóczi zászlói alá sereglett.<hi n="_ednref426">[cdxxvi]</hi> Bussi Rabutin, látván, hogy segítség nem
                   érkezik Erdélybe, maga erején akarta védni ez országot. Azok közűl, kik a
                   császárhoz híveknek mutatkoztak, kettőt választott ki: gróf Pekry Lőrinczet és
                   Mikes Mihályt, rájok bízván, hogy sereget gyűjtsenek. Pekryt Szebenbe küldte, az
@@ -20543,7 +20552,7 @@
                   közben az erdélyi urak, többnyire hadi foglyok, nagy buzgóságot nyilvánítottak
                   Rákóczi iránt, de elhatározott ellenszenvével találkoztak. Oka ennek az, hogy a
                   rokonszenvnek ily késői nyilatkozata, még pedig hadi foglyoknál, Rákóczi előtt úgy
-                  tűnt fel, mintha evvel szabadságukat akarnák megvásárolni.<hi xml:id="_ednref430">[cdxxx]</hi>
+                  tűnt fel, mintha evvel szabadságukat akarnák megvásárolni.<hi n="_ednref430">[cdxxx]</hi>
                </p>
                <p>Ez az oka, hogy ajánlatukat határozottan visszautasította, sőt arra akarta őket
                   birni, hogy a német táborban levő hadi foglyokkal kicseréltetvén, a császár
@@ -20552,7 +20561,7 @@
                   hosszas kérelem után, nem a legjobb kedvvel, elfogadta hűségesküjöket. Pekryt
                   Bercsényihez küldötte, gondolván, hogy e heves, de a haza iránti buzgóságban
                   arany-tiszta jellemű hős, szemmel fogja őt tartani, mert Rákóczi Pekryt mindig
-                  cselszövényes s a zavarosban halászó embernek hitte.<hi xml:id="_ednref431">[cdxxxi]</hi>
+                  cselszövényes s a zavarosban halászó embernek hitte.<hi n="_ednref431">[cdxxxi]</hi>
                </p>
                <p>Alig fogadta el ez erdélyiek hódolatát, Teleki Mihály kővári parancsnok feladta a
                   kis várat s kitűzvén a magyar lobogót, Rákóczi mellett nyilatkozott.</p>
@@ -20583,7 +20592,7 @@
                <p>Mihelyt Bercsényi, Rákóczi beleegyezése előtt, a hollandi követnek megküldötte az
                   útlevelet, s így az alkudozásokra ajtót nyitott, a többi vezérek fel voltak ellene
                   bőszülve. A legtöbben azt hitték, hogy saját személyére, s a körülötte levő
-                  tisztek előnyére, külön egyezséget fog kötni, s Rákóczit feláldozza.<hi xml:id="_ednref433">[cdxxxiii]</hi>
+                  tisztek előnyére, külön egyezséget fog kötni, s Rákóczit feláldozza.<hi n="_ednref433">[cdxxxiii]</hi>
                </p>
                <p>Ehhez egy visszahozhatlan hiba járult még: az éretlen túlbuzgóság azon nagy vétke,
                   mely már annyi előny eredményét átokká változtatta, főleg forradalmi csatákban és
@@ -20638,7 +20647,7 @@
                   kilátásai növekedtek.</p>
                <p>Rákóczi mindezt látta, s ha becsületes béke sohasem volt ellenére, őszintén
                   megirta Bercsényinek mégis, minő bizalmatlanságot s gyanút szült vezértársaiban,
-                  beleegyezése a békealkudozások megkezdésébe, mielőtt maga eziránt határozna.<hi xml:id="_ednref437">[cdxxxvii]</hi>
+                  beleegyezése a békealkudozások megkezdésébe, mielőtt maga eziránt határozna.<hi n="_ednref437">[cdxxxvii]</hi>
                </p>
                <p>De ha Bercsényinek leplezetlenül megmondotta véleményét, hite e legrégibb s
                   leghívebb barátjában - miként azt maga mondja - sohasem ingadozott. Azért szokott
@@ -20667,7 +20676,7 @@
                   Űzte-e valaki? Senki! - de csalatkozunk; űzték őt a rémület szörnyei, melyek a
                   handabandázó tisztek sarkában voltak.</p>
                <p>S mit tett Heister? Erőt mutatott - a német szótár szerint - azaz, legyilkoltatta
-                  a csecsemőket s az oltár zsámolyánál összevagdaltatta a nőket és aggokat!<hi xml:id="_ednref439">[cdxxxix]</hi>
+                  a csecsemőket s az oltár zsámolyánál összevagdaltatta a nőket és aggokat!<hi n="_ednref439">[cdxxxix]</hi>
                </p>
                <p>- Minő nagyszerű jellem! - kiáltottak fel Kinszky és Stratmann. - Mennyi hidegvér,
                   minő lélekerő van e sok öldöklésben! Hogyan arat a nagy ember, mint a
@@ -20686,7 +20695,7 @@
                   tanácsos tenni, mivel a népet igen jól ismerték, s tudták, hogy mihelyt igen távol
                   akarják azt tüzelőitől vinni, szétszalad; ha győzött, hazafut a nyert
                   zsákmánynyal; ha amúgy istenesen megveretett, családjához siet, hogy azt
-                  vigasztalja s megnyugtassa. Ilyen volt a nép akkor.<hi xml:id="_ednref440">[cdxl]</hi>
+                  vigasztalja s megnyugtassa. Ilyen volt a nép akkor.<hi n="_ednref440">[cdxl]</hi>
                </p>
                <p>Hol ráczok voltak a szomszédok, onnan a nép nem szeretett messze távozni, mert a
                   minő semlegesnek s meghunyászkodottnak mutatta magát e népség, ha Rákóczinak
@@ -20803,7 +20812,7 @@
                      szellemről helyes ismeretet szerezzen magának; végre, hogy azon kuruczok közé
                      rendet és fegyelmet hozzon, kik Rákóczi nevét ürügyül használva,
                      összecsatangolták az országot rabolva és fosztogatva; de az ellenségben nem sok
-                     kárt tettek s a magyar fegyver hírét és dicsőségét beszennyezték.<hi xml:id="_ednref442">[cdxlii]</hi>
+                     kárt tettek s a magyar fegyver hírét és dicsőségét beszennyezték.<hi n="_ednref442">[cdxlii]</hi>
                   </p>
                   <p>Az utóbbi darázsfészek közé nyulni s egy országba hatni, hol Bussi Rabutin az
                      őrködés és védelem oly csodás tevékenységét fejtette ki, nem könnyű feladat
@@ -20816,14 +20825,14 @@
                      tanusítják, minő helyes volt Rákóczi választása. Radvánszki Apafi fejedelem
                      életében néhány évet töltött Erdélyben, ott igen kedvelt ember volt, az oláh
                      nyelvet inkább szeszélyből mint czélból tanulta meg. Férfias jelleme, mely nem
-                     sok hímet varrt, elég ellenséget s rágalmazót szerzett neki.<hi xml:id="_ednref443">[cdxliii]</hi> Kevés ember gyűlölte a német vezéreket
+                     sok hímet varrt, elég ellenséget s rágalmazót szerzett neki.<hi n="_ednref443">[cdxliii]</hi> Kevés ember gyűlölte a német vezéreket
                      inkább, mint ő; mit érteni fogunk, ha itt említjük, hogy atyját, mint Tökölyi
-                     Imre hívét, a német hatalmasok kivégeztették.<hi xml:id="_ednref444">[cdxliv]</hi>
+                     Imre hívét, a német hatalmasok kivégeztették.<hi n="_ednref444">[cdxliv]</hi>
                   </p>
                   <p>Mihelyt Rákóczitól parancsot nyert Erdélybe menni, azon volt, hogy oly
                      emberekkel jőjjön érintkezésbe, kik az ottani körülményeket ismerik.</p>
                   <p>Tudjuk, hogy Apagyi és Clermont - Fierville, mikép őt Rákóczi táborában
-                     nevezték s mely utóbbi név alatt XIV. Lajos által meg lőn bizatva,<hi xml:id="_ednref445">[cdxlv]</hi> folytonos összeköttetésben éltek Miriánnal,
+                     nevezték s mely utóbbi név alatt XIV. Lajos által meg lőn bizatva,<hi n="_ednref445">[cdxlv]</hi> folytonos összeköttetésben éltek Miriánnal,
                      ki - mit alig szükség ismételnünk - az üteret képezte, hova a népéletnek vére
                      visszafolyt.</p>
                   <p>Apagyival és Clermonttal értekezett tehát legelőbb is, kik mindketten Rákóczi
@@ -21233,7 +21242,7 @@
                      semmi sem árt inkább, mint emberek, kik azt gaztettekkel beszennyezik s ürügyül
                      használják rablásra és féktelenségre.</p>
                   <p>- Barátom! - szólt közbe emelt hangon Apagyi - legyünk méltányosak és béketűrők
-                     s ne hagyjunk fel rajta! Miért követelünk mi e néptől szelid ildényt,<hi xml:id="_ednref446">[cdxlvi]</hi> világos eszméket, nemes irányt?! Mit tett
+                     s ne hagyjunk fel rajta! Miért követelünk mi e néptől szelid ildényt,<hi n="_ednref446">[cdxlvi]</hi> világos eszméket, nemes irányt?! Mit tett
                      a kormány ennyi milliók polgáriasítására? Semmit. A nagy Bethlen Gábor s néhány
                      hű fia a hazának, voltak az egyedüliek, kiknek köszönni lehet, hogy a nemesség
                      nagy része valamivel fölebb áll értelemben ezen elhanyagolt csordáknál. Ha a
@@ -21340,7 +21349,7 @@
                      kiknek eszméi nagyobb röptet vettek, s kiknek álmai s ábrándjai nem voltak oly
                      üresek, mint gondolnók; mert ha a lélek halhatatlan, az egyszer megszületett
                      nagy eszmék is azok. Észrevehetlen elárjongnak, mint az esőcsepp gyűrűje a
-                     csendes tavon, s annak, a mi szellemi, üledése<hi xml:id="_ednref447">[cdxlvii]</hi> el nem mosódik, mint a durvább anyagé, mely elidül s
+                     csendes tavon, s annak, a mi szellemi, üledése<hi n="_ednref447">[cdxlvii]</hi> el nem mosódik, mint a durvább anyagé, mely elidül s
                      elhamvad.</p>
                   <p>Éppen mivel Mirián s társai a tett emberei voltak, szemmel tartották a fő, a
                      közvetlen eszmét. Apagyi maga s mindnyájan átlátták, miként szemközt egy névvel
@@ -21495,7 +21504,7 @@
                      át Deésig menekülni.</p>
                   <p>A nép, melynek csodás feltámadását a sírból elbeszélte, mint egyedüli hírhozót
                      annyi elveszett közűl, Hirmondónak nevezte, s babonás tiszteletet érzett
-                     iránta, mint olyan iránt, kin a halál nem fog.<hi xml:id="_ednref448">[cdxlviii]</hi>
+                     iránta, mint olyan iránt, kin a halál nem fog.<hi n="_ednref448">[cdxlviii]</hi>
                   </p>
                   <p>Lehet, hogy Hirmondó, kinek valódi neve <hi>Horváth György</hi>
                      volt, miként az később tudva lőn, e körülményt használta s feltámadásának
@@ -21513,7 +21522,7 @@
                      azzal puffogtasson.</p>
                   <p>A legelső kis csapatot, mely aránylag jobban is volt fegyverkezve, követte a
                      czigány hangászkar. Ezután jött a lovas sereg, mintegy száz lépésnyire, egy kis
-                     dandár által megelőztetve. Hasonlított ez a mostani úgynevezett plájásokhoz;<hi xml:id="_ednref449">[cdxlix]</hi> fegyverzete egészen törökös volt, s hosszú
+                     dandár által megelőztetve. Hasonlított ez a mostani úgynevezett plájásokhoz;<hi n="_ednref449">[cdxlix]</hi> fegyverzete egészen törökös volt, s hosszú
                      lőszerekből s handzsárokból állt.</p>
                   <p>Mindezek vidéki öltözetben valának, melynek csak a fegyverzet adott hadias
                      tekintetet, de ez is, ama kis dandárt kivéve, többnyire saját készítésű
@@ -21692,7 +21701,7 @@
                   helyét találták s az ellenség seregei közt kelle utat keresniök az új
                   főhadiszállásig.</p>
                <p>Rákóczi Dunaföldvár felé sietett eseményeink e szakában s ott táborát jól
-                  rendezett karózásokkal s földhányásokkal megerődítteté.<hi xml:id="_ednref452">[cdlii]</hi>
+                  rendezett karózásokkal s földhányásokkal megerődítteté.<hi n="_ednref452">[cdlii]</hi>
                </p>
                <p>A ráczok, meghallván a békealkudozásokat s látván, hogy a német vezérek csak úgy
                   gazdálkodnak az országban, mint eddig, vérszemet kaptak s újra összesereglettek,
@@ -21884,8 +21893,8 @@
                      hihetőbb, mivel akkor tájban néhány ismerője Egerben mulatott.</p>
                   <p>Hová ment később, nem lehet tudni, de mikor Rákóczi Szeged alatt állt, míg a
                      ráczok elleni vadászat tartott s a herczeg kifáradva a sok nyugtalanságtól s
-                     nélkülözéstől, egész táborozása alatt orvosoktól volt körözve:<hi xml:id="_ednref454">[cdliv]</hi> addig Amadil Rózsát elvitte Clermonthoz
-                     Debreczenbe, ki éppen e tájban érkezett vissza XIV. Lajostól.<hi xml:id="_ednref455">[cdlv]</hi> Onnan érzékeny búcsú után Pozsonyba indult,
+                     nélkülözéstől, egész táborozása alatt orvosoktól volt körözve:<hi n="_ednref454">[cdliv]</hi> addig Amadil Rózsát elvitte Clermonthoz
+                     Debreczenbe, ki éppen e tájban érkezett vissza XIV. Lajostól.<hi n="_ednref455">[cdlv]</hi> Onnan érzékeny búcsú után Pozsonyba indult,
                      hol eddig senki sem bántotta őt s hol szeretett koronkint megjelenni, hogy
                      közelebb legyen Rákóczinéhoz és Aspermontnéhoz. Amadil gyanú kikerülésére kevés
                      kisérettel járt, kényelmes hintójába négy pompás ló volt befogva; egy öreg
@@ -22218,7 +22227,7 @@
                      hangját, viszonzá:</p>
                   <p>- Elég ennyi, asszonyom! majd helyt állok én a gáton, s minden úgy lesz, miként
                      parancsolta.</p>
-                  <p>Van-e a haramiák nyeregzsákjában vagy szerdásában<hi xml:id="_ednref456">[cdlvi]</hi> eleség? ennél Amadilnak kisebb gondja is nagyobb volt. Miként
+                  <p>Van-e a haramiák nyeregzsákjában vagy szerdásában<hi n="_ednref456">[cdlvi]</hi> eleség? ennél Amadilnak kisebb gondja is nagyobb volt. Miként
                      félelmét, vagy inkább aggodalmát nem árulta el, úgy semmi a világon rá nem
                      birandá, kegy-előlegezésekkel lekenyerezni üldözőit.</p>
                   <p>Gyanítjuk azonban, hogy a martalóczok gondoskodtak magukról, mert öt órai
@@ -22810,7 +22819,7 @@
                   <p>Végre kilépett a hálószobából. Fehér nehéz selyem födte tagjait, széles, gazdag
                      csipkékkel; gyöngyei s gyémántjai a legszebbek voltak, melyeket valaha szem
                      látott Magyarországon, bár ékességeinek kis részét vitte magával. Történetileg
-                     tudva van, mikép szenvedélyei közé tartozott a fényüzés,<hi xml:id="_ednref457">[cdlvii]</hi> mely ha sok irigyet szerzett neki, mint a vagyon s gazdagság,
+                     tudva van, mikép szenvedélyei közé tartozott a fényüzés,<hi n="_ednref457">[cdlvii]</hi> mely ha sok irigyet szerzett neki, mint a vagyon s gazdagság,
                      főleg szegény országban, s egyenetlen osztály után támaszt; azok, kik őt
                      közelebbről ismerték, annál könnyebben bocsájtották ezt meg neki, mivel több
                      nagylelkűség s valóságos adakozási szenvedély, mint e nőben, kevés nőben
@@ -23090,7 +23099,7 @@
                   <p>Míg ezek történtek, a békealkudozások folytak a nélkül, hogy a csaták
                      szűnnének, mert a német vezérek mitsem gondoltak a hadüzenetekkel s a szigorú
                      parancsokkal, ha ilyenek valóban adattak; s nem, miként a történet példákat
-                     mutathat fel, két ellenkező parancs állt alkalomszerű rendelkezésükre.<hi xml:id="_ednref459">[cdlix]</hi>
+                     mutathat fel, két ellenkező parancs állt alkalomszerű rendelkezésükre.<hi n="_ednref459">[cdlix]</hi>
                   </p>
                   <p>Leopold császár békekövetjei által kinyilatkoztatta: hogy diplomái tudta
                      akarata ellen szegettek meg; békét, bocsánatot igért azoknak, kik hitték, hogy
@@ -23128,7 +23137,7 @@
                      Rákóczi őszinte nyiltsággal, de erélylyel felelt, kijelentvén, mikép saját neve
                      az oklevelekben megvetőleg mellőztetik s Heister, még magának Széchenyi Pálnak
                      is, a békítő küldöttnek, vagyonát pusztítja. Mondta, hogy ott áll az ügy, hol
-                     kétség támad a fölött, ki az uralkodó s kinek akarata határoz?<hi xml:id="_ednref462">[cdlxii]</hi>
+                     kétség támad a fölött, ki az uralkodó s kinek akarata határoz?<hi n="_ednref462">[cdlxii]</hi>
                   </p>
                   <p>Semmi biztos nem lőn határozva. Malborough és Savoyai Eugen schellenbergi s
                      hochstädti győzelmei a bajorok s francziák fölött, azon balvéleményre
@@ -23141,14 +23150,14 @@
                      koczkavetéstől függött.</p>
                   <p>Ez okozta, hogy a békealkudozások eredményre nem vezethettek, hogy mindenki
                      újra a zászlókhoz, a szabad ég alá sietett s a gondolatok eltitkolására
-                     összeszőtt szép beszédekre, az ágyúk dörgése felelt.<hi xml:id="_ednref463">[cdlxiii]</hi>
+                     összeszőtt szép beszédekre, az ágyúk dörgése felelt.<hi n="_ednref463">[cdlxiii]</hi>
                   </p>
                   <p>Erdélyben a magyarok seregének száma folytonosan szaporodott, de Bussi
                      Rabutinban erélyes ellenségre talált, ki, ha minden lépteit nehezítette is, nem
                      volt képes gátat vetni az árnak; minden vesztett előny után a magyar sereg
                      növekedni, nem csökkenni látszott számában. Teleki Mihály, a második e néven, s
                      Kassai Pál, több mint 10,000 ember felett rendelkezett már s e hadseregen kívül
-                     számtalan apró csapatok árasztották el az országot.<hi xml:id="_ednref464">[cdlxiv]</hi>
+                     számtalan apró csapatok árasztották el az országot.<hi n="_ednref464">[cdlxiv]</hi>
                   </p>
                   <p>Radvánszki, mikép láttuk, az erdélyi szabad seregek egyik legnevezetesebbikét
                      esketé fel Rákóczi hűségére, azután Gyula-Fehérvárra sietett, hol Rákóczinak
@@ -23162,7 +23171,7 @@
                   <p>Mindennek ellenmondottak, jónak, rossznak; nem hagytak fillérnyi becsületet sem
                      Rákóczin, sem hívein; s a földre vetették magukat, szerelmes buzgósággal
                      kiáltván: íme uram! itt vagyunk, meghajtott térdekkel s könnyes szemekkel
-                     leborulva s várva, a mit felettünk határozol!<hi xml:id="_ednref465">[cdlxv]</hi>
+                     leborulva s várva, a mit felettünk határozol!<hi n="_ednref465">[cdlxv]</hi>
                   </p>
                   <p>S miután így elmálladt szívvel össze meg összepecsételték a protestáló
                      okleveleket, a szászok a magyar urak karjai közé omoltak s könnyeik
@@ -23180,7 +23189,7 @@
                      semmisíteni s rábirván a pápát, hogy XIV. Lajost a magyar érdekekbeni
                      semlegességre intse.</p>
                   <p>Mindez megtörtént s a franczia király követe által tudtára adatta Rákóczinak,
-                     hogy olynemű törekedésekre, mint az övéi, segédkezet nem nyujthat.<hi xml:id="_ednref466">[cdlxvi]</hi>
+                     hogy olynemű törekedésekre, mint az övéi, segédkezet nem nyujthat.<hi n="_ednref466">[cdlxvi]</hi>
                   </p>
                   <p>Rákóczinak sikerült az embereket ellenkezőről meggyőzni s oly nagy volt az
                      igazság ereje, mikép a gyanú daczára, melyet Okolicsányi fenyegető nagyságra
@@ -23203,7 +23212,7 @@
                   <p>Seilernnek szőrszálhasogatásai s azon gyermekies aprólékoskodás, mely a kákán
                      is csomót keres, végre magának Széchenyinek kimerítették béketűrését. Az öreg
                      érsek kinyilatkoztatta, mikép látja, hogy Seilern a császár elhatározott
-                     jószándéka ellen, csak azért akad mindenbe bele, hogy időt nyerjen.<hi xml:id="_ednref468">[cdlxviii]</hi>
+                     jószándéka ellen, csak azért akad mindenbe bele, hogy időt nyerjen.<hi n="_ednref468">[cdlxviii]</hi>
                   </p>
                   <p>Eredmény nélkül félbeszakadt a selmeczi gyülés is, mert Rákóczi, miután
                      Széchenyi hosszas kéréseire beleegyezett, a két hétre határozott
@@ -23269,7 +23278,7 @@
                      szabad tanácskozásokban, de Bercsényi honfiai szellemét aligha jobban nem
                      ismervén, arra igyekezett őt birni, hogy parancsolólag lépjen föl s a
                      tanácskozásoknak maga adjon irányt. Bercsényinek okoskodása s érvei meg nem
-                     ingatták Rákóczi szerény s önzéstelen elhatározását.<hi xml:id="_ednref474">[cdlxxiv]</hi>
+                     ingatták Rákóczi szerény s önzéstelen elhatározását.<hi n="_ednref474">[cdlxxiv]</hi>
                   </p>
                   <p>Magyarhon minden megyéi, <hi>öt híján</hi>, hol ideiglenesen
                      német sereg létezett, s minden királyi város képviselve lőnek e nevezetes, nagy
@@ -23277,7 +23286,7 @@
                   <p>Okolicsányi Pál itt újra megkisértette, konkolyt hinteni a protestáns és
                      katholikusok közé. Ármányainak sikerült széles sebet nyitni az alig behegedt
                      viszálykodásokba, mert tanácsára a protestánsok Radvánszki Jánost választották
-                     főnöküknek s elkülönzötten kezdettek értekezni.<hi xml:id="_ednref475">[cdlxxv]</hi>
+                     főnöküknek s elkülönzötten kezdettek értekezni.<hi n="_ednref475">[cdlxxv]</hi>
                   </p>
                   <p>E szakadás igen rossz vért okozott s Bercsényi kinyilatkoztatta, hogy minden
                      onnan ered, mivel az országnak választott feje nincsen. Mindenekelőtt
@@ -23290,7 +23299,7 @@
                      akarata gyors és biztos teljesítést nyerjen.</p>
                   <p>
                      <hi>E gyűlésben választatott Rákóczi Ferencz egyes akarattal
-                        Magyarország fejedelmévé s a szövetség főnökévé</hi>.<hi xml:id="_ednref476">[cdlxxvi]</hi>
+                        Magyarország fejedelmévé s a szövetség főnökévé</hi>.<hi n="_ednref476">[cdlxxvi]</hi>
                   </p>
                   <p>A közlelkesedés, mely őt e több mint királyi hatalommal járó méltóságra emelte
                      s a 25 tanácsos neve, kik melléje rendeltettek, elvitathatlanul tanusítják a
@@ -23311,7 +23320,7 @@
                      szóló oklevél mindenkitől <hi>személyesen s egyenkint</hi>
                      aláírva s a szokott pecsétekkel erősítve, három példányban elkészült. Egyike
                      ezeknek Rákóczinak adatott át, a másik a lengyelhoni primásnak, a harmadik
-                     végre a hannoverai választó fejedelemnek küldetett el.<hi xml:id="_ednref478">[cdlxxviii]</hi>
+                     végre a hannoverai választó fejedelemnek küldetett el.<hi n="_ednref478">[cdlxxviii]</hi>
                   </p>
                   <p>A kincstár kezelésére egy elnök s tizennégy tanácsos lőn választva.</p>
                   <p>A többi nevezetes végzések közt nem szabad felednünk e gyűlés azon határozatát,
@@ -23410,7 +23419,7 @@
                      ágyú s 50 zászló lőnek Herbeville martaléka. Még folyt a csata, midőn
                      Wesselényi megtudván a lelkész árulását, kit visszatérő utjában Herbevilletől,
                      a Szamos partján csiptek el, azonnal magas akasztófát emeltetett szemközt az
-                     egyházzal s a tiszteletes urat rávonatta.<hi xml:id="_ednref484">[cdlxxxiv]</hi>
+                     egyházzal s a tiszteletes urat rávonatta.<hi n="_ednref484">[cdlxxxiv]</hi>
                   </p>
                   <p>Erdély a császár hatalmába esett s a Nagy-Szebenben összehivott rendek, a
                      hősies szászok örömköny-záporai közt újra esküdtek egy szelet alkalmi hűséget,
@@ -23512,7 +23521,7 @@
                      megfelelni! Az erdélyi fejedelemséget nem én kerestem; e részben elég, ha ő
                      felsége Apafivali egyezkedésének pontjait híven megtartja. Ha személyem ellen
                      van kifogás, kész leendek minden pillanatban választási oklevelemet visszaadni
-                     az erdélyieknek, hogy ő felsége előtt kedvesebb fejedelmet választhassanak.<hi xml:id="_ednref492">[cdxcii]</hi>
+                     az erdélyieknek, hogy ő felsége előtt kedvesebb fejedelmet választhassanak.<hi n="_ednref492">[cdxcii]</hi>
                   </p>
                   <p>Wratislaw átlátta végre Rákóczi nemességét s önzéstelenségét. Ha mindamellett
                      igyekezett őt engedékenyebbé tenni, nem csodálhatjuk: nem volt magyar, más
@@ -23578,7 +23587,7 @@
                      kedvezőbb alkalom a legdicsőbb békekötésre, mint éppen ez, hol a császár a
                      zaklatásokat halálosan megunván, kész nagy áldozatokat tenni, hogy kormányát
                      rendezhesse s ennyi nyugtalanságon túl lehessen.</p>
-                  <p>Rákóczi elveihez híven, semmit sem tehetett és semmit sem akart tenni a <hi>szövetség beleegyezése nélkül</hi>.<hi xml:id="_ednref496">[cdxcvi]</hi>
+                  <p>Rákóczi elveihez híven, semmit sem tehetett és semmit sem akart tenni a <hi>szövetség beleegyezése nélkül</hi>.<hi n="_ednref496">[cdxcvi]</hi>
                   </p>
                   <p>Összehívta tehát Érsekujvárra a tanácsot. A császár küldöttjei s a külhatalmak
                      megbizottjai Pozsonyban voltak s ezek közt a császár testvére is, később trieri
@@ -23612,14 +23621,14 @@
                      áthágásával vádolni ama nemzetet, mely annyi áldozatért 46 évig minden törvény
                      s szabadság megvetésével a legféktelenebb önkény alatt sínylett.</p>
                   <p>Ki csodálná, hogy a magyar küldöttek minden vádat büszke önérzettel
-                     visszautasítottak azok fejére, kiktől a gonosz jött.<hi xml:id="_ednref499">[cdxcix]</hi>
+                     visszautasítottak azok fejére, kiktől a gonosz jött.<hi n="_ednref499">[cdxcix]</hi>
                   </p>
                   <p>* * *</p>
                   <p>E közben Rákócziné, Forgách Simon s férje orvosának kiséretében, elérte a morva
                      határt; ott Forgách búcsút vett tőle s a közeli német parancsnok egy század
                      lovasságot rendelt melléje. Őrizték e nőt mint szemök fényét, - de nem
                      szeretetből. Még el nem érkezett a herczegnő Prágába, midőn megtudta, hogy a
-                     hadszünet végét érte s az ellenségeskedések kettőzött hévvel megkezdettek.<hi xml:id="_ednref500">[d]</hi>
+                     hadszünet végét érte s az ellenségeskedések kettőzött hévvel megkezdettek.<hi n="_ednref500">[d]</hi>
                   </p>
                   <p>Mihelyt Prágába jött, azonnal körülvette őt a rendőrség. Legnagyobb figyelmét a
                      prágai határoknak egy <hi>átalag</hi> ingerlette fel, melyben
@@ -23629,7 +23638,7 @@
                      szavait, bár a hordócskában csakugyan kincs rejlett, folyó arany, a világ első
                      bora, - tokaji nedv!</p>
                   <p>De a rendőrség emberei a mellett maradtak, hogy a fejedelemné számtalan pénzt
-                     visz magával, hogy Csehországban forradalmat idézzen elő.<hi xml:id="_ednref501">[di]</hi>
+                     visz magával, hogy Csehországban forradalmat idézzen elő.<hi n="_ednref501">[di]</hi>
                   </p>
                   <p>Végre sok kedvetlenségek s udvariatlan tolakodások után a herczegnő megérkezett
                      Carlsbadba. De itt el kell a kedves hölgytől ideiglenesen válnunk, hogy azon
@@ -23703,7 +23712,7 @@
                <p>A vármegyék követei mellett számos egyházi férfi, a többek közt Pettesi s az egri
                   püspök Telekesi, feles főurakkal az ország minden szögletéből megjelentek. Még
                   azon megyékből sem hiányzottak, melyek ideiglenesen császáriak hatalmában levén,
-                  követeket vagy nem küldhettek vagy nem akartak küldeni.<hi xml:id="_ednref504">[div]</hi>
+                  követeket vagy nem küldhettek vagy nem akartak küldeni.<hi n="_ednref504">[div]</hi>
                </p>
                <p>Rákóczi tanácsosaival s a fontosabb országgyűlési tagokkal előleges titkos üléssel
                   kezdette meg az értekezéseket.</p>
@@ -23771,7 +23780,7 @@
                <p>Ezen inditványok legnevezetesebbike a kibékülés terve volt. Rákóczi úgy
                   vélekedett, hogy egészen felmondani a hűséget a királynak nem tanácsos, mert a
                   hadi szerencse koczkája forgandó s ha végre a király előnyére fordulna: akkor
-                  Magyarországot meghódított tartománynak tekintendi.<hi xml:id="_ednref506">[dvi]</hi>
+                  Magyarországot meghódított tartománynak tekintendi.<hi n="_ednref506">[dvi]</hi>
                </p>
                <p>Sokaknak ínyére esett Rákóczinak ezen eszméje, azért a sor e pontra kerülvén,
                   többen nyugodt higgadtsággal pártolták azt. Érveik közt nem akarjuk említtetlen
@@ -23846,7 +23855,7 @@
                   vége! Százankint elkoldusodtak a családok s főleg az értéktelen pénz az, melytől
                   végromlásukat várhatják azok, kiknek még valamijök maradott. Én nem vagyok se
                   áruló, sem bujtogató! Nyiltan írtam és csak annyit, nem többet, mint a mennyit itt
-                  akarok és fogok az ország színe előtt kimondani - - - -<hi xml:id="_ednref508">[dviii]</hi>
+                  akarok és fogok az ország színe előtt kimondani - - - -<hi n="_ednref508">[dviii]</hi>
                </p>
                <p>- Ah nyomorú semmirekellő! - riadt fel Bercsényi, kinek szemei szikráztak s ki
                   haragjának nem tudott többé parancsolni.</p>
@@ -23928,7 +23937,7 @@
                <p>Mihelyt Eszterházy Pál, a nádor, az ónodi gyűlés végzéseit megtudta, azonnal
                   összegyűjtötte híveit s mindazokat, kik Rákóczitól elpártoltak. Ezekkel egyetértve
                   ellennyilatkozatot bocsátott ki. Két érsek, 20 püspök, 20 főispán, 13 királyi
-                  város s egész Tót- és Horvátország résztvettek az ellenmondásban.<hi xml:id="_ednref510">[dx]</hi>
+                  város s egész Tót- és Horvátország résztvettek az ellenmondásban.<hi n="_ednref510">[dx]</hi>
                </p>
                <p>A függetlenségi nyilatkozat után a harcz kétségbeesett elszántsággal megkezdetett
                   újra.</p>
@@ -24607,7 +24616,7 @@
                   hullámira a nélkül, hogy a vészt leigézni tudná.</p>
                <p>Bussi Rabutin parancsot vett Erdélybe betörni, de serege az utóbbi veszteségek
                   után annyira alászállt, hogy negyvenöt nap kellett, míg Erdélybe ért, hol a
-                  rendetlen magyar csapatokat legyőzvén, Rákóczi fejedelemségének véget vetett.<hi xml:id="_ednref518">[dxviii]</hi>
+                  rendetlen magyar csapatokat legyőzvén, Rákóczi fejedelemségének véget vetett.<hi n="_ednref518">[dxviii]</hi>
                </p>
                <p>Ez volt az első, de hatalmas csapás, mely Rákóczi Ferenczet az ónodi gyülés után
                   érte.</p>
@@ -24729,7 +24738,7 @@
                <p>Rákóczi meg akarta őt menteni a haláltól, mely reá s ezredesére Bodóra
                   kimondatott, de Eszterházy Antal ellenmondott, kinyilatkoztatván a hadsereg s
                   vezértársai nevében, hogy ily szennyet nem tűr a magyar néven, s ha Bezerédi s
-                  Bodó bocsánatot nyernek, jelszó leend az általános fegyverletételre.<hi xml:id="_ednref529">[dxxix]</hi>
+                  Bodó bocsánatot nyernek, jelszó leend az általános fegyverletételre.<hi n="_ednref529">[dxxix]</hi>
                </p>
                <p>A hős, de elszédített férfiaknak meg kelle halniok.</p>
                <p>* * *</p>
@@ -24792,19 +24801,19 @@
                   Erdélyországot. A tehetősebbek egy helyről a másikra menekültek, olykor a halál
                   torkába sietvén, mikor azt kerülni akarták. A szegénységet nem egyszer érte
                   utjában a halál. Egész helységek kipusztultak, s úton útfélen találkozott a szem a
-                  mirigy áldozataival, kiket eltemetni sem mert senki.<hi xml:id="_ednref534">[dxxxiv]</hi>
+                  mirigy áldozataival, kiket eltemetni sem mert senki.<hi n="_ednref534">[dxxxiv]</hi>
                </p>
                <p>A halálnak alig volt IV. Béla kora óta oly gazdag aratása.</p>
                <p>És miként a vesztés angyala palotát, mint kunyhót feljárt lángpallosával, úgy
                   csatákban is szaporodott a rémsereg, a zarándokok egy jobb életbe.</p>
                <p>Egy vesztés a másikat érte. Somogy, Simontornya német kézre jöttek; Veszprém
                   parancsnokát, Ecksteint, a német vezérek, szokott kegyigéretekkel, feltétlen
-                  hódolatra birták, s mikor a várat feladta, vesztőhelyre vezették.<hi xml:id="_ednref535">[dxxxv]</hi>
+                  hódolatra birták, s mikor a várat feladta, vesztőhelyre vezették.<hi n="_ednref535">[dxxxv]</hi>
                </p>
                <p>Bercsényi Liptóban, Pálffy János és Wiard ellen új csatát vesztett: Nógrád, Gömör
-                  német kézre jutottak, Perényi, a papság hosszas nógatására, feladta Egert.<hi xml:id="_ednref536">[dxxxvi]</hi>
+                  német kézre jutottak, Perényi, a papság hosszas nógatására, feladta Egert.<hi n="_ednref536">[dxxxvi]</hi>
                </p>
-               <p>Egyszerre négy magyar vezér s 50 ezredes hitet szegtek és hódoltak.<hi xml:id="_ednref537">[dxxxvii]</hi>
+               <p>Egyszerre négy magyar vezér s 50 ezredes hitet szegtek és hódoltak.<hi n="_ednref537">[dxxxvii]</hi>
                </p>
                <p>I. József emlékezett, minő csekély erővel kezdette meg Rákóczi a forradalmat, mely
                   mint tenger árasztotta el az országot, s tartván attól, hogy a had koczkájának
@@ -24815,7 +24824,7 @@
                <p>Pálffy János, a nap hőse, a tulsó táborban nyerte a megbízást, hogy az
                   elégületlenekkel egyezkedjék. A császár őt különösen kegyelte, mert Pálffynak
                   saját leánya József kedvese volt; azért őt, a német vezérek nagy boszúságára,
-                  tulajdon leánya, magyarországi fővezérnek nevezteté ki imádója által.<hi xml:id="_ednref538">[dxxxviii]</hi>
+                  tulajdon leánya, magyarországi fővezérnek nevezteté ki imádója által.<hi n="_ednref538">[dxxxviii]</hi>
                </p>
                <p>Terjedtebb hatalommal kevés biztos birt valaha, mint ez.</p>
                <p>A császár két pontot tűzött ki: <hi>az uralkodó-ház örökösödését s
@@ -24839,10 +24848,10 @@
                   Bercsényinek Lengyelországból írt sűrű levelei, melyek mind annyi reményt
                   foglaltak magokban, s Rákóczit rendezett orosz segélysereggel kecsegtették
                   Magyarhon érdekei előmozdítására: ha nem nevelték is bizodalmát, lelkiismeretben
-                  járó dolognak tevék a békét el nem hamarkodni.<hi xml:id="_ednref539">[dxxxix]</hi>
+                  járó dolognak tevék a békét el nem hamarkodni.<hi n="_ednref539">[dxxxix]</hi>
                </p>
                <p>Károlyi Sándor maradt most az egyedüli vezér, ki Rákóczinak e nehéz napokban
-                  segítségére volt, s kivel a teendők fölött tanácskozott.<hi xml:id="_ednref540">[dxl]</hi>
+                  segítségére volt, s kivel a teendők fölött tanácskozott.<hi n="_ednref540">[dxl]</hi>
                </p>
                <p>Rákóczi szeretett a maga szemeivel látni, azért két dolgot tett fel magában:
                   először, egy kirándulást Lengyelhonba, hogy Dolgoruckitól magától megtudja, mennyi
@@ -24859,7 +24868,7 @@
                <p>Inkább ínye szerinti volt a közlés, melylyel őt Károlyi visszajöttekor meglepte,
                   hogy Pálffy nemcsak kész rövid, s talán később meghosszabbítható fegyverszünetre,
                   hanem örömmel hajlandó Rákóczival találkozni, hozzátevén, mikép reméli, hogy vele
-                  egyetlen órában többet végez, mint képviselők által egy év alatt.<hi xml:id="_ednref542">[dxlii]</hi>
+                  egyetlen órában többet végez, mint képviselők által egy év alatt.<hi n="_ednref542">[dxlii]</hi>
                </p>
                <p>Rákóczi azonnal tudósította Pálffyt, hogy vele Vaján, a Vayak házánál akar
                   összejönni.</p>
@@ -24891,7 +24900,7 @@
                   béke által nyerhet, szivesen elfogadom; <hi>de semmit személyem
                      előnyére</hi>, mert jól tudom, az első alkalom arra fog használtatni, hogy a
                   nemzet letévén fegyverét, kijátszattassék, s nem akarok a maradéknak azon vádra
-                  okot adni, hogy személyes érdekből elárultam a hazát;<hi xml:id="_ednref544">[dxliv]</hi> de - tevé hozzá - mindezt csak akkor intézhetem el biztosan, ha a
+                  okot adni, hogy személyes érdekből elárultam a hazát;<hi n="_ednref544">[dxliv]</hi> de - tevé hozzá - mindezt csak akkor intézhetem el biztosan, ha a
                   tanácsot összehívtam, s annak, a magyar szövetség főnökeinek véleményét
                   kihallgattam.</p>
                <p>Pálffy újabban erősítette, hogy Rákóczi benne bízhatik s ismételte, hogy a
@@ -24976,7 +24985,7 @@
                   a választás országul s közegyezséggel történt, Rákóczit csak az ország összesége
                   törvényes gyülésben oldhatja fel esküjétől.</p>
                <p>Mindnyájan egy szívvel egy lélekkel erősítették, hogy soha el nem hagyják s készek
-                  őt tűzön-vizen át kisérni, hová őket vezetni akarja.<hi xml:id="_ednref548">[dxlviii]</hi>
+                  őt tűzön-vizen át kisérni, hová őket vezetni akarja.<hi n="_ednref548">[dxlviii]</hi>
                </p>
                <p>Rákóczi elintézvén így mindazt, mit a körülmények kényszerűsége parancsúl tüzött
                   ki, Károlyinak írt s a hadsereg főparancsnokságát neki adta át, kivévén a munkácsi
@@ -25015,7 +25024,7 @@
                   elvárni; azért Károlyi Rákóczinak mellőzésével s annak parancsa ellen, önfejűleg s
                   a határnap előtt Husztról Nagy-Károlyba tette a szövetség gyülését. Egy követséget
                   indítván színleg Rákóczihoz, mely tudtára adta: mikép a szövetség együtt van s őt
-                  meg hívja maga közé, hogy a békepontokat aláirása által megerősítse, <hi>melyek már elfogadva vannak</hi>.<hi xml:id="_ednref551">[dli]</hi>
+                  meg hívja maga közé, hogy a békepontokat aláirása által megerősítse, <hi>melyek már elfogadva vannak</hi>.<hi n="_ednref551">[dli]</hi>
                </p>
                <p>Rákóczit semmi sem lephette meg inkább, mint Károlyinak ezen önfejűsége s azoknak
                   vakmerősége, kik magukat Károlyban a szövetség karainak s rendeinek merték
@@ -25037,10 +25046,10 @@
                   <p>Ebben különösen kiemelte Károlyi önfejűségét ki nemcsak az országgyülést merte
                      Husztról Nagy-Károlyba, saját jószágára áttenni, hanem eszköz volt abban is,
                      hogy oly végzés keletkezzék, melyben Rákóczi, mint a szövetség feje s
-                     Magyarország választott fejedelme, be nem folyt s bele nem egyezett.<hi xml:id="_ednref552">[dlii]</hi>
+                     Magyarország választott fejedelme, be nem folyt s bele nem egyezett.<hi n="_ednref552">[dlii]</hi>
                   </p>
                   <p>E nyilatkozvány heves erélylyel volt írva s képes fölrázni az egybegyültek
-                     kedélyét: két hónappal ezelőtt ily oklevél Károlyi életébe kerülende,<hi xml:id="_ednref553">[dliii]</hi> de most minden megváltozott, minden alá
+                     kedélyét: két hónappal ezelőtt ily oklevél Károlyi életébe kerülende,<hi n="_ednref553">[dliii]</hi> de most minden megváltozott, minden alá
                      volt ásva s Rákóczi izenete mellőztetett.</p>
                   <p>1711 ápril 30-ikán, a <hi>majtényi mezőn</hi>, Nagy-Majtény és
                      Szatmár közt, Pálffy János számos lovassággal megjelent s seregét csatarendbe
@@ -25052,7 +25061,7 @@
                      elfogadtatott.</p>
                   <p>Ezt követte a hódolati eskü, melyet a vezérek, tisztek s az egész hadsereg
                      letett. Mi meglévén, a zászlókat a földre eresztették; fegyverek, dobok s egyéb
-                     hadi eszközök egy csomóba hordattak s Pálffy Jánosnak átadattak.<hi xml:id="_ednref554">[dliv]</hi>
+                     hadi eszközök egy csomóba hordattak s Pálffy Jánosnak átadattak.<hi n="_ednref554">[dliv]</hi>
                   </p>
                   <p>A magyar sereg nagy része nehéz szívvel engedelmeskedett, nyiltan árulásnak
                      nevezvén, a mi történt.</p>
@@ -25087,7 +25096,7 @@
                      kiváltságai szerint kormányzandja.</p>
                   <p>* * *</p>
                   <p>Elkerülhetlen volt e kiválólag történeti regényünkben e békekötés rövid
-                     vázlatát adnunk, részleteire nézve a történelemre utalván.<hi xml:id="_ednref555">[dlv]</hi>
+                     vázlatát adnunk, részleteire nézve a történelemre utalván.<hi n="_ednref555">[dlv]</hi>
                   </p>
                   <p>Pünkösd keddjén, 1711 május 26-án Eleonora császárné a békeoklevelet saját
                      aláirása által megerősítette, mint VI. Károlynak visszaérkezéseig a birodalom
@@ -25112,7 +25121,7 @@
                   <p>* * *</p>
                   <p>Június elején Rákóczi Lengyelhonban a kukoviczai kastélyban mulatott.
                      Kiséretében voltak Mikes István, Vay Ádám, Sibrik Miklós, Radalovics apát,
-                     Kajdacsi Ferencz, Kovács György s két franczia tiszt táborkarából.<hi xml:id="_ednref556">[dlvi]</hi>
+                     Kajdacsi Ferencz, Kovács György s két franczia tiszt táborkarából.<hi n="_ednref556">[dlvi]</hi>
                   </p>
                   <p>Hogy azon időben, mikor Károlyi Sándor Rákóczi beleegyezése nélkül Pálffyval
                      végzett, nem enyészett volt még el minden remény a haza jövője felett, s ha nem
@@ -25172,7 +25181,7 @@
                   <p>E várakozás, e lesése a jövő órának, nem volt egészen indokolatlan. Rákóczitól
                      magától tudjuk, hogy éppen ez időben sikerült neki a franczia királyt az orosz
                      czárrali egyezkedésre birni. Nem volt kevesebbről szó, mint egy kiszállásáról
-                     Vendôme herczegnek franczia hadseregével a dalmácziai partokra.<hi xml:id="_ednref559">[dlix]</hi>
+                     Vendôme herczegnek franczia hadseregével a dalmácziai partokra.<hi n="_ednref559">[dlix]</hi>
                   </p>
                   <p>Rákóczi egy Wojovič nevű horvátot küldött oda, hogy barátai s rokonai
                      segedelmével oly állást vegyen, mely által Vendôme herczeg kiszállását
@@ -25191,7 +25200,7 @@
                      svédekkel, a német hadsereget Bécsig űzze s ott a magyar igényeknek s igazságos
                      követeléseknek megfelelő békét mondjon a német kormány tollába.</p>
                   <p>A franczia király valóban akart is egyezkedni Péter czárral s e czélból követet
-                     is indított Javorowba, hol akkor a czár mulatott.<hi xml:id="_ednref561">[dlxi]</hi>
+                     is indított Javorowba, hol akkor a czár mulatott.<hi n="_ednref561">[dlxi]</hi>
                   </p>
                   <p>Rákóczi mindezt Clermont utóbbi jelentéseiből tudván, közel vonult Javorowhoz s
                      várta a franczia küldött eljárásának eredményét.</p>
@@ -25499,7 +25508,7 @@
                   Francziaországba mentek, hová őket Bercsényi és Clermont nejeikkel s számosan
                   mások kisérték. - Rákóczit a király kegyesen,
                   de <hi>mint elhasznált eszközt</hi> fogadta, bár a királyi család
-                  többi tagjai sok és meleg rokonszenvet és részvétet tanusítottak iránta.<hi xml:id="_ednref564">[dlxiv]</hi>
+                  többi tagjai sok és meleg rokonszenvet és részvétet tanusítottak iránta.<hi n="_ednref564">[dlxiv]</hi>
                </p>
                <p>A király neki még a magyarországi hadviselés alkalmával 50,000 franknyi
                   segélypénzt igért volt havonkint. De a hadszerencse hanyatlása után e segély
@@ -25507,15 +25516,15 @@
                      beolvasztatni. Mikor Francziaországba
                   érkezett, számot vetett a király minisztereivel s 600,000 franknyi követelése
                   mutatkozott. Ezen összeg tőkésítve lőn s ennek kamatját húzta. Ezen kívül élelmére
-                  a király 100,000 frank évdíjat, kisérete számára 40,000 frankot rendelt.<hi xml:id="_ednref566">[dlxvi]</hi> E 140,000 frankból Fleury miniszter, mihelyt a
-                  pénzügyet Francziaországban átvette, 80,000 frankot vont le.<hi xml:id="_ednref567">[dlxvii]</hi>
+                  a király 100,000 frank évdíjat, kisérete számára 40,000 frankot rendelt.<hi n="_ednref566">[dlxvi]</hi> E 140,000 frankból Fleury miniszter, mihelyt a
+                  pénzügyet Francziaországban átvette, 80,000 frankot vont le.<hi n="_ednref567">[dlxvii]</hi>
                </p>
                <p>A megmaradott évdíj egy <hi>Brenner</hi> nevű lelkésznek, kit
                   Rákóczi a pénz kezelésével megbízott - ármányai s piszkos haszonlesése által úgy
                   bebonyolíttatott, hogy midőn a csalárd eljárás kisült, az egész 6000 frankra menő
                   évi jövedelemre olvadt össze.
                </p>
-               <p>Brenner, kit a Bastilleba zártak gaz tettéért, maga metszette el torkát.<hi xml:id="_ednref569">[dlxix]</hi>
+               <p>Brenner, kit a Bastilleba zártak gaz tettéért, maga metszette el torkát.<hi n="_ednref569">[dlxix]</hi>
                </p>
                <p>Rákóczi hat évig mulatott Francziaországban <hi>Sárosy</hi> gróf név
                      alatt. 1717-ben a török háború kezdetével
@@ -25524,7 +25533,7 @@
                   függesztették reményeiket.</p>
                <p>A háború bevégeztével s miután a béke megköttetett, a szultán Rákóczit - mint már
                   többé nem használható ijesztőt - Bessarábiába, Rodostóra belzette, hol egyébiránt
-                  mind róla, mind kiséretéről fejedelmi nagylelkűséggel gondoskodott.<hi xml:id="_ednref571">[dlxxi]</hi>
+                  mind róla, mind kiséretéről fejedelmi nagylelkűséggel gondoskodott.<hi n="_ednref571">[dlxxi]</hi>
                </p>
                <p>Bercsényi nejével együtt s a hű Radsinszki osztoztak sorsában.</p>
                <p>Apagyi, mint Rákóczi jaroslawi jószágfelügyelője, anyósával az öreg Ráfaelnével és
@@ -25548,7 +25557,7 @@
                   évek mulva - - miként azt egykor az ifjú Kálmán a pusztán látta, vagy álmodta, a
                   szelíd hold a rodostói sírkertben egyszerű kőre öntötte kisérteti fényét, melyen
                   Bercsényiné akaratából csak az egyszerű, de annyi édes és keserű
-                  visszaemlékezésekkel gazdag név volt vésve: <hi>Amadil</hi>.<hi xml:id="_ednref572">[dlxxii]</hi>
+                  visszaemlékezésekkel gazdag név volt vésve: <hi>Amadil</hi>.<hi n="_ednref572">[dlxxii]</hi>
                </p>
                <p>Halála után Bercsényi visszatért Francziaországba egy fiával s két leányával, hol
                   utódai hadi hivatalokat viseltek, s egyiknek ezek közül ezrede, a híres <hi>Bercsényi-huszárok</hi>, miként Eszterházy egyik utódjáé is, az

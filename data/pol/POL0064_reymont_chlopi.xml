@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0064">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">326603</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Chłopi</title>
 <ref>http://wolnelektury.pl/katalog/lektura/chlopi</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Chłopi</title>
 <author>Reymont, Władysław Stanisław</author>
 <publisher>Warszawa: Gebethner i Wolff</publisher>
 <date>1909</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -55,13 +60,12 @@
 </div>
 </front>
 <body>
-<div>
+<div type="liminal">
 <quote>
 <p>Miriamowi</p>
 <p>(Zenonowi Przesmyckiemu)</p>
 </quote>
 </div>
-<div>
 <div type="chapter"><head>I</head>
 <p>— Niech będzie pochwalony Jezus Chrystus!</p>
 <p>— Na wieki wieków, moja Agato, a dokąd to wędrujecie, co?</p>
@@ -203,8 +207,7 @@
 </quote>
 <p>— Cie, głupia, wrzeszczy, kiejby ją kto ze skóry obdzierał.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Na borynowym podworcu obstawionym z trzech stron budowlami gospodarskimi, a z czwartej sadem, który go oddzielał od drogi, już się zebrało dość narodu; kilka kobiet radziło i wydziwiało nad ogromną czerwono–białą krową, leżącą przed oborą na kupie nawozu.</p>
 <p>Stary pies, kulawy nieco i z oblazłą na bokach sierścią, oganiał graniastą, obwąchiwał ją, szczekał, to wypadał w opłotki i gnał dzieci na drogę, co się były wieszały na płotach i zazierały ciekawie w obejście, albo docierał do maciory, co legła pod chałupą i rozwalona jęczała cicho, bo ssały ją białe, młode prosięta.</p>
@@ -437,8 +440,7 @@
 <p>— Maryś! Żenić się czy to się nie żenić z Jagną?…</p>
 <p>Ale w czas sobie przypomniał, że Maryś już od zwiesny na cmentarzu, a tam se śpi Józka i chrapie, a on jest sierotą, która poradzić się nikogo nie ma; to ino westchnął ciężko, przeżegnał się i jął mówić zdrowaśki za nieboszczkę i wszystkie dusze w czyścu ostające.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Już świt ubielił dachy i zgrzebną, szarą płachtą przysłonił noc i gwiazdy pobladłe, gdy ruch się uczynił w Borynowym obejściu.</p>
 <p>Kuba zwlókł się z wyrka i wyjrzał przed stajnię — szron leżał na ziemi i szaro było jeszcze, ale już zorze rozpalały się na wschodniej stronie i czerwieniły czuby drzew oszroniałych — przeciągnął się z lubością, ziewnął parę razy i poszedł do obory, aby krzyknąć na Witka, że czas wstawać, ale chłopak uniósł nieco senną głowę i szepnął:</p>
@@ -754,8 +756,7 @@
 <p>— Suchy kiej pieprz, jaże się łamie… — Znowu spojrzała na starego z uśmiechem, aż ciarki przeszły po nim, że świsnął batem i odjechał, ale raz wraz się obracał za nią, choć już widna nie była, bo mu jak żywa stała w oczach…</p>
 <p>— Dzieucha kiej łania… W sam raz — rozmyślał.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Była niedziela — cichy, opajęczony, przesłoneczniony dzień wrześniowy.</p>
 <p>Na ściernisku, tuż za stodołami, pasł się dzisiaj cały inwentarz Borynowy, a pod brogiem wysokim i pękatym, okrążonym zieloną szczotką żyta, wykruszonego przy układaniu, leżał Kuba, dawał baczenie na inwentarz i uczył pacierza Witka — często pokrzykiwał na niego albo i zasie szturchał biczyskiem, bo chłopak mylił się i latał oczami po sadach.</p>
@@ -999,8 +1000,7 @@
 <p>Da Maryś moja, Maryś!…</p>
 </quote>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Jesień szła coraz głębsza.</p>
 <p>Blade dnie wlekły się przez puste, ogłuchłe pola i przymierały w lasach coraz cichsze, coraz bladsze — niby te święte Hostie w dogasających brzaskach gromnic.</p>
@@ -1346,8 +1346,7 @@
 <p>A środkiem topolowej drogi, co ino szumiała głucho i pojękiwała jakby z zimna, szedł Jambroży pijany już całkiem, taczał się z boku na bok, czasem utknął na drzewo abo i w błoto, ale się rychło podnosił i cięgiem podśpiewywał na całe gardło, jak to miał we zwyczaju.</p>
 <p>Plucha szła taka i ciemność, że koniom ogonów nie rozeznał, a i światła wsi widziały się ledwie jako to wilczych ślepiów migotanie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Deszcze się rozpadały na dobre.</p>
 <p>Już od samego jarmarku świat z wolna zatapiał się w szarych, mętnych szkliwach deszczów, że tylko obrysy borów i wsi majaczyły blade, niby z przemiękłej przędzy utkane.</p>
@@ -1537,8 +1536,7 @@
 </quote>
 <p>A chłopaki z Jagną wtórowali z cicha, a tak przenikliwie, aż kury w sieni na grzędach krzekorzyć zaczęty i pogdakiwać.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Nazajutrz dzień był tak samo zadeszczony i posępny.</p>
 <p>Co chwila ktoś wychodził z jakiejś chałupy i długo a frasobliwie poglądał w omglony świat, czy się gdzie nie przejaśnia — ale nic, kromie burych chmur, płynących tak nisko, że darły się o drzewa, widać nie było; deszcz mżył bezustannie, tyle że jakoś zaraz z południa przeszedł w ulewę, jakoby kto upusty niebieskie otworzył, że ino dudniło po dachach.</p>
@@ -1784,8 +1782,7 @@
 <p>— Odprowadzę cię, Jaguś! — Obejrzał się — noc była ciemna, bez gwiazd, wiatr huczał górą i miotał drzewami.</p>
 <p>Objął ją wpół mocno i tak przytuleni do siebie zginęli w ciemnościach.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Nazajutrz gruchnęła po Lipcach wieść o Borynowych z Jagną zmówinach.</p>
 <p>Wójt był dziewosłębem — więc wójtowa, że mąż srogo przykazywał pary z gęby nie puszczać przódzi, nim powróci, dopiero na odwieczerzu pobiegła do sąsiadki, rzekomo soli pożyczyć, i już na odchodnym nie wytrzymała, ino wzięła kumę na bok i szepnęła:</p>
@@ -1991,8 +1988,7 @@
 <p>— Sprzedał, ino że wziąć nie damy, jak Bóg na niebie, nie damy! — wołał Boryna i bił pięścią w stół…</p>
 <p>Młynarz poszedł, a oni jeszcze długo w noc radzili i odgrażali się dworowi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Zbiegło dni parę od zmówin Jagusinych.</p>
 <p>Deszcze ustały, drogi ociekły i stężały nieco, wody spłynęły, że ino po bruzdach, a gdzieniegdzie i po nizinach a łęgach siwiały się mętne kałuże kiej te oczy zapłakane…</p>
@@ -2108,8 +2104,7 @@
 <p>I złość jako te osty się pleni, i w bory urasta!</p>
 <p>A wszystko próżne jest i daremne — jako to próchno, jako te pępuszki, co je na wodzie wiater wydyma, a drugi je zasię precz żenie.”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>— Na ambonie i każdemu z osobna to mówię, ale wy jak te psy tylko nastajecie jeden na drugiego, tylko… — wiatr resztę słów wepchnął mu do gardła, że ksiądz się srodze zakasłał, a Antek nic nie rzekł, szedł w podle i wypatrywał w mrokach, pomiędzy drzewami.</p>
 <p>Wiatr się podnosił coraz mocniejszy, przewalał się po drodze i tak bił w topole, i miotał nimi, aż się przyginały z jękiem i szumiały rozsrożone.</p>
@@ -2378,8 +2373,7 @@
 <p>— I wstążek, ino długich, bobym nie miała na wasze wesele.</p>
 <p>— Co ci ino potrza, mów, a wszystko miała będziesz, wszystko.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>— Śpisz to, Jaguś?…</p>
 <p>— A bo to mogę. Ocknęłam na rozświcie i cięgiem mi w głowie stoi, że już dzisiaj wesele… aż wierzyć trudno.</p>
@@ -2784,8 +2778,7 @@
 </quote>
 <p>Ale nikt ich nie słuchał!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>Już na samym świtaniu Witek, umęczony zabawą i wyganiany przez Jagustynkę, pobiegł do chałupy.</p>
 <p>Wieś spała jeszcze na dnie mroków, co słały się nisko nad ziemią grubym, rzednącym zwałem, staw leżał martwy, przygnieciony mroczną gęstwą drzew obrzeżnych i tak utopiony w ciemnicy, że ledwie ku środkowi wyleniał się z nocy i majaczył brzaskami niby to oko zasnute bielmem.</p>
@@ -3111,8 +3104,7 @@
 </quote>
 <p>A Kuba w ten sam czas składał duszę swoją pod święte Panajezusowe nóżki.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>I</head>
 <p>Nadchodziła zima…</p>
 <p>— jeszcze się barowała z jesienią i porykujący tłukła po sinych dalach jako ten zwierz srogi i głodny, że nie wiada było, kiej przeprze a skoczy i lutymi kłami weżre się we świat…</p>
@@ -3295,8 +3287,7 @@ drogi przetrą, zabawią się — w mieście też potrzebują nasi utargować. W
 <p>— Z drogi, psiakrew, Żydzie, bo cię zakatrupię! — wrzasnął z taką mocą, że Żyd zbladł i spiesznie się usunął.</p>
 <p>Antek ino gruchnął w drzwi i wybiegł.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Jakoś o samym południu dzień się nieco rozjaśnił, ale ino tyla, coby kto łuczywem przeciągnął po świecie, bo wnet zgasło i omroczało, jakby śnieg narastał i sposobił się znowu.</p>
 <p>W izbie Antków też było dziwnie mroczno, chłodno i smutnie; dzieci bawiły się na łóżku i z cicha do się krzekorzyły, kiej te kurczątka zestraszone, a Hankę tak podrzucała niespokojność, że rady sobie dać nie mogła. Chodziła z kąta w kąt, wyglądała przez okno, to przed domem stała i rozpalonymi oczami wodziła po śniegach. Hale, ani żywej duszy nie ujrzał na drogach ni na polach — parę sań przewlekło się od karczmy i zginęło pod topolami, jakby się zapadły w tej śniegowej topieli, że ni znaku, ni głosu nie ostało po nich. Nic, jeno ta cichość zmartwiała i pustka nieprzejrzana!</p>
@@ -3526,8 +3517,7 @@ zakładać, że to im przecież Magda ni swat, ni brat.</p>
 <p>— Idź, Jantoś, idź… — prosiła miętko i zarzuciła mu rękę na szyję i szukała gorącymi ustami jego ust ledwie dyszących.</p>
 <p>Ale on nie drgnął nawet, nie odpowiedział, nie poczuł jej uścisku, nie wiedział o niej, szeroko otwartymi oczami patrzył w tamtej oczy, w Jagusine modre oczy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Na dobrym już dniu, po śniadaniu, młynarz przywiódł Antka na robotę; ostawił go na zajeździe wśród kloców zwalonych na wielkie kupy, a sam poszedł do Mateusza, któren akuratnie przyrychtowywał drzewo na tartaku i puszczał piły, pogadał z nim cosik i zawołał:</p>
 <p>— Róbcie tu sobie, a we wszystkim słuchajcie Mateusza, on tu za mnie rządzi — i poszedł zaraz, bo przykry, przejmujący ziąb ciągnął od rzeki.</p>
@@ -3728,8 +3718,7 @@ nic mi do tego, a tartak stać nie może, dopóki nie ozdrowieje; prowadźcie ro
 zaraz go też zabrał i poszli.</p>
 <p>Hanka nic z tego jeszcze nie pojęła, bo o niczym nie wiedziała.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>W Wigilię przed godnymi świętami już od samego świtania wrzał przyspieszony, gorączkowy ruch w całych Lipcach.</p>
 <p>W nocy czy też dopiero na odedniu mróz był znowu krzepko chycił, a że przyszedł po paru dniach miętkich i wilgnych mgieł, to obwalił drzewa sadzią jakby tymi szklanymi strużynami albo zasie puchem co najbielszym; słońce się nawet całkiem wyłupało i świeciło na modrym, jakby oprzędzonym w cieniuśkie, przejrzyste mgły niebie, jeno że blade było, ostygłe kiej ta Hostia w monstrancji utajona, nic nie grzejące, a naprzeciw, bo mróz brał na dzień, podnosił się jeszcze i przejmował taką skrzytwą, że dech zapierało i stworzenie wszelkie chodziło w parach oddechów, niby w kłębach mgieł, ale świat się cały rozsłonecznił i stanął w takich migotliwych, jarzących blaskach, w takich ostrych skrzeniach, jak żeby kto diamentową rosą przyokrył śniegi, aż oczy bolały patrzeć.</p>
@@ -3994,8 +3983,7 @@ i tak blisko, tak blisko, aż ją twarz paliła od jego oddechów…</p>
 <p>Ale Antka już nie było, odsunął się nieznacznie i z wolna wycofał aż na cmentarz.</p>
 <p>Długo stał na mrozie pod dzwonnicą, rzeźwił się i nabierał powietrza, przytomniał… ale taka radość rozpierała mu serce, taki krzyk miał w sobie, taki wicher mocy, że nie słyszał śpiewu, jaki bił z drzwi kościelnych i szedł na świat, ni jakichś cichych, skamlących głosów, rozlegających się w dzwonnicy… Nic, o niczym nie wiedział, nabrał garść śniegu i połykał chciwie, a potem skoczył przez mur na drogę — i poniósł się jak wicher na pola.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Borynowie dopiero na samym świtaniu powrócili z kościoła i ledwie w pacierz potem już cały dom chrapał, aż się rozlegało, tylko jedna Jagusia, choć była wielce utrudzona, nie zasnęła; próżno się wciskała w poduszki, próżno oczy przywierała i nawet pierzyną zasłaniała głowę — nie pomogło, sen nie przychodził, a jeno jakby zmora zwaliła się na nią i na piersi padła takim ciężarem, że ani odetchnąć mogła, ni krzyknąć, ni się porwać z łóżka; leżała nieruchoma, w odrętwieniu takiego półsnu, półjawy, w którym rozum niczego nie rozeznaje, a ino sama dusza się wyprzędza ze wspominek, jak gdyby z kądzieli, i omotuje sobą świat cały, cudności różne patrzy, nad ziemiami się nosi, w słońce się ubiera — a tyla sama jest, co te odbicia na wodzie czystej a zwichrzonej… Tak było z Jagną, że chociaż nie zasnęła, a sczezło z jej pamięci wszystko i jako ten ptak niesła się duszą po cudeńkach — po onych dniach pogasłych, po czasach pomarłych, a we wspominaniach jeno żywiących… w kościele się być czuła… Antek klęczał pobok… mówił wciąż i parzył ją oczami, parzył ją słowami, przejmował słodką męką i strachem zarazem… to śpiew jakiś się rozlegał i organy huczały tak przenikliwie, aż każdą nutę z osobna czuła w sobie… to czerwona groźna twarz księdza się jej widziała i wyciągnięte nad narodem ręce… to światła… to potem inne, dawne wspominki przychodziły… spotykania się z nim… całunki… uściski… aż gorąc ją przenikał i taka lubość, że się prężyła cisnąc mocno do poduszek… to znowu wyraźnie, głośno słyszała: „Wyjdź! Wyjdź!…” aż się podnosiła i jakby szła w sobie, szła… chyłkiem pod drzewami, w mrokach… a strach w niej dygotał, krzyk jakiś leciał za nią, przerażenie wiało z ciemności.</p>
 <p>I tak wciąż w kółko, to jedno, to drugie, to dziesiąte przychodziło na nią, że się opamiętać ni wyrwać spod tego nie mogła — nic, tylko zmora musiała ją dusić albo zły nagabywał i do grzechu sposobił.</p>
@@ -4181,8 +4169,7 @@ niźli zgodą. Niech se radzą, poczekam na boku, nie pilno mi, nie!…</p>
 <p>W parę chwil już była gotowa i ruszyli zaraz sprzed domu ostro z kopyta, aż sanie zamietły.
 </p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>— Myślałech, żeś gdzie w śniegach uwięzła — szepnął przekąśliwie.</p>
 <p>— Hale, można to przyspieszyć na taką wieję, po omacku szłam całkiem, bo tak ciepie śniegiem, że oczów nie można ozewrzeć, a takie zaspy na drogach, taki mąt, że i na dwa kroki nic nie rozezna przed się.</p>
@@ -4484,8 +4471,7 @@ chojki nie zetnie, póki się z nami nie ugodzi i nie odda, co nasze.</p>
 <p>— Łapa?… cie… no, no… — szeptał urągliwie, bo nic a nic nie uwierzył.
 </p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>We Trzy Króle, które jakoś tego roku wypadały w poniedziałek, jeszcze przed skończeniem nieszporów, bo słychać było grania i przyśpiewy w kościele, a już naród z wolna ciągnął do karczmy, że to pierwszy raz po adwencie i Godach miała być muzyka, a i szykowały się zmówiny Małgośki Kłębianki z Wickiem Sochą, któren chocia tak samo się pisał jak nieboszczyk Kuba, ale krewniactwa się z nim wypierał, jako że parob był niepoczciwy i sielnie dufający w swoje morgi.</p>
 <p>Powiadali też, jako i Stacho Płoszka, mający się już od kopania ku Ulisi sołtysównie, pewnikiem dzisiaj zapije sprawę i wszystko ze starym uładzi, bo krzyw mu był i córki odmawiał, że Stacho był sielny zabijaka, wicher nieposkromiony i z rodzicielami cięgiem się wadził, a za Ulisią chciał całe cztery morgi abo dwa tysiące spłaty na rękę i dwa krowie ogony w dodatku.</p>
@@ -4708,8 +4694,7 @@ z karczmy.</p>
 <p>Nie mówili nic ze sobą, bo Hanka rzewnie płakała.
 </p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>U Borynów było kiej w grobie po tym święcie — nie płacz, nie krzyki, nie pomstowania, a ino ciężka cichość, złowrogo przyczajona i pełna powstrzymywanych gniewów a żalów.</p>
 <p>Cały dom zmilknął, osnuł się posępnością, a żył w ciągłej trwodze i oczekiwaniu czegoś strasznego, jak kieby pod dachem, któren lada chwila ma paść na głowy.</p>
@@ -4938,8 +4923,7 @@ powiedział dobrotliwie i całkiem miętko nie podnosząc oczów na Jagnę:</p>
 <p>— Widzi mi się, że chyba dopiero późno w noc… na śnieg się ma, daleko, nie pospieszę… ale kiej się napierasz, idź, nie wzbraniam…
 </p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Już od wczesnego rana miało się na kurzawę; dzień nastał chmurny, wietrzny i wielce swarliwy, śnieg prószył drobny, suchy a ostry kiej kasza ledwie przetarta w żarnach, po równo zaś zrywał się coraz mocniejszy wiatr, hukliwy sielnie i kołujący niespodzianymi nawrotami, że jako ten pijanica taczał się na wszystkie strony, skowyczał, przegwizdywał a śniegami miecił zapalczywie.</p>
 <p>Nie bacząc jednak na pogodę, zaraz z pierwszego południa Hanka ze starym Bylicą, a z nimi jeszcze parę komornic, wybrali się po susz do lasu.</p>
@@ -5105,8 +5089,7 @@ Jezus podaje ci taką godzinę, by z biedy wyciągnąć… to nikogo nie słucha
 <p>— Wracaj, psiakrew! — ryknął porywając ją przez siłę do izby.</p>
 <p>Okrwawiony był, bez czapki, kożuch miał porozrywany, twarz osmoloną i dziki, nieprzytomny ogień w oczach.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Tegoż samego dnia, po obrządkach, a już o dobrym wieczorze zaczęli się  schodzić do Kłębów na oną przęślicową wieczornicę.</p>
 <p>Kłębowa sprosiła głównie same starsze kobiety — powinowate swoje albo w kumostwie będące. Przychodziły też w porę, jedna za drugą, nie zawodząc ni się zbytnio opóźniając, boć każda kuma rada ciągnęła do drugiej, aby się zgwarzyć społecznie i co nowego posłuchać.</p>
@@ -5343,8 +5326,7 @@ grzesznika, póki nie przyjdę.</p>
 <p>Wiater to miało znaczyć; zaczęli się o to swarzyć, prześmiewać i coraz ucieszniejsze zagadki powiadać, aż się izba roztrzęsła gwarem i wesołością.</p>
 <p>I jeszcze długo w noc tak się społecznie zabawiali.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Wpadli do sadu, chyłkiem przesunęli się pod obwisłymi gałęziami i prędko, trwożnie, niby spłoszone jelonki, wybiegli za stodoły, w omroczałe śniegi, w noc bezgwiezdną i w niezgłębioną cichość pól przemarzłych.</p>
 <p>Przepadli w nocy; zginęła wieś, umilkła nagle wrzawa ludzka, porwały się nawet najsłabsze odgłosy życia, że zapomnieli wnet o wszystkim i ująwszy się wpół, przywarli mocno do siebie biedro w biedro, przychyleni nieco, radośni a strwożeni, milczący a pełni rozśpiewania, lecieli ze wszystkich sił w cały ten świat, modrością siną zasnuty i milczeniem.</p>
@@ -5453,8 +5435,7 @@ jakby na tej samej dróżce, zaskrzypiał śnieg i jakiś cień wysoki zamajaczy
 <p>Rzucił się wtedy stary do brogu, ale już i Jagny nie było, jeno mu mignęła i przepadła w nocy, więc jął ryczeć oszalałym, nieprzytomnym zgoła głosem:</p>
 <p>— Gore! gore! — i biegał z widłami dookoła brogu, że kiej zły widział się w krwawym brzasku, bo ogień objął już cały bróg i z szumem miotając się, sycząc, bił w górę okropnym słupem płomieni i dymów. Ludzie zaczęli nadbiegać, krzyki poszły po wsi, ktosik uderzył w dzwon, trwoga zaszarpała serca, a łuna rosła i pożar ognistą płachtą powiewał na wsze strony, i pryskał deszczem iskier na zabudowania, na wieś całą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>Co się działo w Lipcach po onej nocy pamiętliwej, to i najpierwszemu głowaczowi niełacno byłoby zapamiętać wszystko a opowiedzieć; tak się bowiem zakotłowało we wsi jakoby w tym mrowisku, kiej w nim jaki niecnota kijaszkiem zagrzebie.</p>
 <p>Ledwie rozedniało chyla tyla i ludzie oczy z pomroki nocnej przetarli, a już każdemu było pilno na pogorzelisko, że niejeden pacierze jeszcze w drodze odmawiał, a pędem bieżał kieby na ten jarmarek.</p>
@@ -5686,8 +5667,7 @@ nie daruję… żebym skapiał, nie daruję, psiakrew!…
 <p>Nacisnął czapkę i poszedł do karczmy.
 </p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>Na zwiesnę się miało; ciągiem nieprzerwanym szły już te rozkisłe dnie marcowe, że czas się ano uczynił zgoła psi, rozmiękły, zimny i przemglony; co dnia padały deszcze ze śniegiem, co dnia szły takie wycinki a flagi, iż na świat wyjrzeć było nie sposób; co dnia brudne, skołtunione ciemnice tłukły się po polach i tak przyduszały wszelką światłość, że posępne, ciężkie zmierzchy wisiały nad ziemią od świtu do nocy, zaś niekiedy, jeśli z burych topieli wyjrzało słońce, to ledwie na to Zdrowaś, że nim dusza pocieszyła się jasnością i kości poczuły ciepło — już nowe mroki się roztrzęsały nad światem, nowe wichry zawodziły, nowe pluchy i flagi szły, aż dzień się niejeden widział jako ten psiak utytłany, błotem ociekły i z zimna skamlący.</p>
 <p>Matyjasiło się to narodowi, że i nie wypowiedzieć, tym się jeno każden krzepił a pocieszał, bych jeszcze jaką niedzielę wstrzymać abo i dwie, i zwiesna całkiem przemoże i za wszystko zapłaci, ale tymczasowie flażyło cięgiem nie do wytrzymania, przeciekało przez dachy, kajś niekaj zacinało przez ściany i okna, lało ze wszystkich stron, że już nie można było sobie dać rady z wodą, waliła bowiem z pól, pełno jej było po rowach, a drogi lśkniły się kiej te potoki bystre, zatapiała opłotki i stała grząskimi sadzawkami w obejściach, a że zaś śnieg co dnia barzej topniał i szły ciągłe deszcze, ziemia prędko odmarzała i puszczały lody, to już miejscami, po stronie przypołudniowej, czyniło się takie błocko, iż musieli kłaść przed chałupami deski albo mościć przejścia słomą.</p>
@@ -5961,8 +5941,7 @@ do trupa.</p>
 <p>— Tyżeś to, synu?… Tyżeś?…</p>
 <p>I omdlał znowu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>I</head>
 <p>Czas był wiosenny o świtaniu.</p>
 <p>Kwietniowy dzień dźwigał się leniwie z legowisk mroków i mgieł jako ten parob, któren legł spracowany, a nie wywczasowawszy się do cna zrywać się ano musi nade dniem, by wnetki imać się pługa i do orki się brać.</p>
@@ -6187,8 +6166,7 @@ do trupa.</p>
 <p>I długo pacierz mówiła łzami go polewając gorzkimi, długo płakała i boleśnie a cichuśko skarżyła się Jezusowi kochanemu na krzywdę swoją…</p>
 <p>Noc musiała już być duża, bo ano kury piać zaczynały na północek albo i na odmianę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Nazajutrz była Palmowa Niedziela.</p>
 <p>Jeszcze dobrze przed słońcem, ale już o dużym dniu, wyjrzała z Borynowej chałupy Hanka, w wełniak jeno przyodziana i jakąś chuścinę, że to ziąb był na świecie galanty.</p>
@@ -6521,8 +6499,7 @@ do trupa.</p>
 <p>Zimny pot strachu ją oblał i serce gwałtownie zakołatało.</p>
 <p>Prawie że nie spała tej nocy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Józia, rozpal na kominie i co jest garnków, zbierz, nalej wodą i przystaw do ognia, ja polecę do Żyda po przyprawy.</p>
 <p>— A śpieszcie, bo Jambroża ino patrzeć.</p>
@@ -6879,8 +6856,7 @@ do trupa.</p>
 <p>— Zajrzę do was którego dnia wieczorem, a teraz wama jeno rzeknę: Poniechajcie jej, róbcie swoje, a resztę Pan Jezus sprawi…</p>
 <p>Pochwalił Boga i poszedł na wieś.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Rocho wlókł się wolno drogą nad stawem, raz, że wiatr tak w niego siepał, iż ledwie się na nogach utrzymał, a po drugie, jako strapiony był wielce tym wszystkim, co się we wsi działo, to jeno raz po raz wznosił rozpalone oczy na chałupy, przemyśliwał ważnie i wzdychał żałośnie. Tak źle się bowiem działo w Lipcach, że już zgoła gorzej nie mogło.</p>
 <p>Zaś nie to było najgorsze, że niejeden głodem przymierał, że choroby się krzewiły, że się kłócili barzej i za łby brali, że nawet śmierć wybierała swoje gęściej niźli po inne roki — takusieńko było i łoni, i drzewiej, do tego się już był naród wezwyczaił rozumiejąc dobrze, jako inaczej być nie będzie… Złe i o wiele gorsze było całkiem co inszego — oto, że ziemia stojała odłogiem, bo nie miał w niej kto robić…</p>
@@ -7244,8 +7220,7 @@ do trupa.</p>
 <p>Hanka wyprawiła najpierw Józkę z dziećmi i parobka; sama później miała nadejść. Ubrana już była, ale ociągała się z wyjściem, jakby na coś oczekując, że wciąż wystawała w ganku i stróżowała na drodze. Dopiero gdy Jagna poszła z kowalową i dosłyszała kowala idącego z wójtem ku kościołowi, wróciła do izby, przykazując cosik po cichu staremu. Stanął na straży w opłotkach, a ona wsunęła się na palcach do ojcowej komory… Po dobrej półgodzinie wyszła stamtąd, coś pilnie zapinając stanik; oczy jej gorzały i ręce się trzęsły.</p>
 <p>Nagadała, czego nikto nie pojął, i poszła na rezurekcję.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Na drogach było pusto i ciemno, w chałupach gasły światła i przechodzili już ostatni ludzie, jeno na kościelnym placu stały gęstwą wozy z wyłożonymi końmi, że tylko tupoty a parskania roznosiły się w mroku, a pod dzwonnicą czerniały dworskie powozy.</p>
 <p>Hanka jeszcze raz w kruchcie cosik pomajdrowała kiele stanika i spuściwszy chustę na plecy, jęła się ostro przepychać do przednich ławek.</p>
@@ -7654,8 +7629,7 @@ do trupa.</p>
 <p>Da dobre piwo warzysz!</p>
 </quote>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Na taką dziwną wieść Hanka aż się uniesła z pościeli, że Jagustynka przychwyciła ją jeszcze w porę i do poduszek przygniotła.</p>
 <p>— Dyć się nie ruchajcie, nie pali się nikaj!</p>
@@ -8043,8 +8017,7 @@ Teraz, Maryś, takie ziąby —</p>
 </p>
 <p>Dzwoniły młode głosy po rosie i we wszystek świat się niesły radosne.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Chłopy wracają!</p>
 <p>Piorunem ta wieść runęła i kiej płomień rozniesła się po Lipcach!</p>
@@ -8475,8 +8448,7 @@ Reh! reh! reh!</p>
 </p>
 </quote>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Dzień wstawał cudny, ciepły, a jędrny, niby ten chłop dobrze wyspany, któren ledwie przecknąwszy na równe nogi się zrywa i szepcąc pacierze, trąc oczy, a ździebko poziewając za robotą się rozgląda.</p>
 <p>Słońce wschodziło pogodnie; czerwone i ogromne, z wolna wtaczało się na wysokie niebo, jakoby na to pole nieobjęte, kaj w sinych oprzędach mgieł leżały nieprzeliczone stada białych chmur.</p>
@@ -8995,8 +8967,7 @@ Dobranoc, wonna lilija!</p>
 <p>Nie słuchała już, cichość znowu spadła na świat, słowiki zaśpiewały, a ona siedziała kieby zmartwiała, powtarzając niekiej z męką i strachem:</p>
 <p>— W cały świat uciekać! Na zawsze! Jezu miłosierny! Na zawsze…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Jeszczech były po świątkach umajenia chałup do cna nie przewiędły, kiej któregoś dnia rankiem najniespodziewaniej zjawił się Rocho.</p>
 <p>Jeno co dopiero po mszy i długiej rozmowie z księdzem pokazał się na wsi. Niewiela ludzi kręciło się w obejściach, że to pora była osypywania ziemniaków, lecz skoro się rozniesło, jako Rocho idzie przez wieś, wnet ci ten i ów na drogę śpieszył witać dawno nie widzianego.</p>
@@ -9360,8 +9331,7 @@ Dobranoc, wonna lilija!</p>
 <p>Nie boję się chłopa, choćby było kopa!…</p>
 </quote>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Owóż te dnie od Bożego Ciała do niedzieli nie przeszły letko Mateuszowi, Grzeli ni ich kamratom; Mateusz bowiem przerwał roboty przy Stachowej chałupie, zaś drudzy też poniechali swoich zajęć, a ino całe te dnie i wieczory chodzili po chałupach w pojedynkę i podjudzali naród przeciwko Miemcom, nawołując do przepędzenia ich z Podlesia.</p>
 <p>Karczmarz ze swojej strony też nie żałował namów, a jak było potrza na upartych, to i poczęstunków albo borgowań, ale szło kiej po grudzie; starsi drapali się jeno po łbach, wzdychali ciężko i, nie ważąc się na żadną stronę, oglądali się na drugich i na kobiety, które jak jedna ani słuchać nie chciały o wyprawie na Miemców.</p>
@@ -9686,8 +9656,7 @@ Dobranoc, wonna lilija!</p>
 <p>— Człowiek bych się wparł w ziemię kiej drzewo i niech mu kto poredzi, niech poprobuje wyrwać!</p>
 <p>Rozgwarzali się między sobą, coraz prędzej idąc, bo już od wsi zaciemniała gromada kobiet biegnących naprzeciw.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Już tak dniało, że caluśki świat pokrył się był sinawą modrością kiej śliwa dojrzała, gdy Hanka zajechała przed chałupę, jeszcze leżącą we śpiku, ale na ostry turkot bryki dzieci wypadły z wrzaskiem i Łapa jął szczekać radośnie i wyskakiwać przed końmi.</p>
 <p>— A kaj Antek? — krzyczała z proga Józka nadziewając przez głowę wełniak.</p>
@@ -9877,8 +9846,7 @@ Dobranoc, wonna lilija!</p>
 <p>Padł i pomarł w onej łaski Pańskiej godzinie.</p>
 <p>Świt się nad nim uczynił, a Łapa wył długo i żałośnie…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>I</head>
 <p>I tak się ano było zmarło Maciejowi Borynie.</p>
 <p>Zaś w chałupie zaspali ździebko z powodu niedzieli, jaże dopiero Łapa przebudził ich szczekaniem, bo tak ujadał, tak wył, tak ciskał się do drzwi, a kiej mu otworzyli, tak szarpał za przyodziewy i wylatywał obzierając się, czy za nim lecą, że Hankę jakby cosik tknęło.</p>
@@ -10252,8 +10220,7 @@ Dobranoc, wonna lilija!</p>
 </quote>
 <p>Przywtarzali gorąco i z niezmierną ulgą.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>Dzień był bardzo cudny, prawdziwie latowy.</p>
 <p>Może szła dziesiąta rano, bo już słońce wisiało w pół drogi między wschodem a południem i wynosiło się coraz bardziej palące, kiej lipeckie dzwony, ile ich jeno było, zadzwoniły rozgłośnie i ze wszystkiej mocy.</p>
@@ -10634,8 +10601,7 @@ Dobranoc, wonna lilija!</p>
 <p>Ale Jasio jeno popatrzył w opłotki, a nie dojrzawszy zamknął okno, rozebrał się prędko i światło zgasło…</p>
 <p>Noc padła na jej duszę, ale jeszcze długo siedziała wpatrzona w czarne i nieme okno. Przejął ją chłód i jakby operlił srebrną rosą jej duszę wniebowziętą, gdyż wszystko, co w niej wrzało z krwie pożądliwej, przygasło rozlewając się po niej nieopowiedzianą błogością. Spłynęła na nią uroczysta, święta cichość, jakby to zadumanie kwiatów przed wschodem słońca, że rozmodliła się pacierzem szczęścia, któren nie miał słów, a jeno dziwną słodkość zachwytów, przenajświętsze zdumienie duszy, niepojętą radość budzącego się dnia zwiesnowego i przeplatał się grubymi ziarnami błogich łez niby tym różańcem łaski Pańskiej i dziękczynienia.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>— Pójdę już, Hanuś! — prosiła Józka pokładając głowę na ławkę.</p>
 <p>— A zadrzyj ogona kiej cielak i leć! — zgromiła ją odrywając oczy od różańca.</p>
@@ -10887,8 +10853,7 @@ Dobranoc, wonna lilija!</p>
 <p>— Kogóż to bronicie, pokrzywdzonej czy swojej kochanicy?</p>
 <p>Sypnął koniom takie baty, jaże z miejsca poniesły!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Ale przez takie przeróżne a ciężkie przejścia Hanka całkiem nie mogła zasnąć tej nocy, a przy tym cięgiem się jej widziało, że słyszy czyjeś kroki w opłotkach, to na drodze, to nawet jakby pod samą chałupą. Nasłuchiwała z bijącym sercem, ale cały dom spał głęboko, nawet dzieci nie matyjasiły, noc była głucha, chociaż widnawa, gwiazdy zaglądały w okna i niekiedy poszumiały drzewa, gdyż jakoś od samego północka podniósł się wiater przedmuchując kiej niekiej.</p>
 <p>W izbie było duszno i gorąco, zły fetor zalatywał od kacząt nocujących pod łóżkami, ale Hance nie chciało się otworzyć okna, śpik już ją całkiem odszedł, parzyła ją pierzyna i poduszki zdały się rozpalone kiej blachy, że jeno przewracała się z boku na bok, coraz barzej niespokojna, boć te przeróżne pomyślunki roiły się we głowie kieby mrowisko, obłażąc ją całą gorącymi potami, a przejmując takim dygotem, że już nie mogąc zapanować nad strachem porwała się nagle z łóżka i boso, w koszuli, a ze siekierą w garści, która się jakoś sama nawinęła, poszła w podwórze.</p>
@@ -11209,8 +11174,7 @@ Kiedy ranne wstają zorze!
 <p>Jęła się prędko rozdziewać szepcąc pacierz roztrzęsionymi wargami.</p>
 <p>— A jak me zasądzą na Syberię, to co? — myślał frasobliwie, wchodząc do izby.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>— Pietrek, przynieś no drewek — krzyknęła sprzed domu Hanka, rozmamłana była całkiem i omączona przy wyrabianiu chleba.</p>
 <p>W szabaśniku huczał już tęgi ogień, przegarniała go raz po raz i leciała obtaczać bochny i wynosić je w ganek, na deskę ździebko wystawioną w słońcu, bych prędzej rosły. Zwijała się siarczyście, gdyż ciasto prawie już kipiało z wielkiej dzieży, przyokrytej pierzyną.</p>
@@ -11636,8 +11600,7 @@ Kiedy ranne wstają zorze!
 <p>— To bedzie, co Bóg da! Trza poczekać na sprawę.</p>
 <p>Że na nic się zdały chytre kowalowe zabiegi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>— Uwal się już raz i nie przeszkadzaj! — mruknął zgniewany Mateusz, przewracając się na drugi bok.</p>
 <p>Szymek przywarł na chwilę, a skoro tamten znowu zachrapał, jął się cicho przebierać ze sąsieka, gdyż mu się przywidziało, jako do stodoły, kaj spali, już się wdzierają mąty pierwszych świtań.</p>
@@ -11833,8 +11796,7 @@ Kiedy ranne wstają zorze!
 <p>Śmiali się niemało rozpowiadając o tym Jagustynce wracającej z boru, stara skrzywiła się wzgardliwie i rzekła:</p>
 <p>— W przypołudnie zbierał la cię, Nastuś, jagódki, ale matka mu odebrała.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Pociągnęła do Borynów niesąc czerwonych jagód la Józki, a że właśnie Hanka doiła krowy przed chałupą, przysiadła pobok na przyźbie, rozpowiadając szeroko, jak to Nastusię obdarzają.</p>
 <p>— Hale, na złość Dominikowej to robią — zakończyła.</p>
@@ -11996,8 +11958,7 @@ Kiedy ranne wstają zorze!
 <p>— Przyjedzie, przyjedzie!</p>
 <p>I kłoniła się bezwolnie, jakby nad jutrem, jakby chcąc dojrzeć, co la niej niesie ten świt szarzejący nad ziemią, z lękiem a radością dając się temu, co miało się stać.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Przypołudnie dochodziło, skwar czynił się coraz większy i naród już się wszystek zgromadził przed kancelarią, a naczelnika jeszcze nie było. Pisarz raz po raz wychodził na próg i przysłoniwszy dłonią oczy, wyzierał na szeroką drogę obsadzoną pokrzywionymi wierzbami, ale tam się jeno lśniły kałuże, ostałe po wczorajszej ulewie, toczył się z wolna jakiś zapóźniony wóz i kajś niekaj między drzewami zabielała chłopska kapota.</p>
 <p>Gromada czekała cierpliwie, a tylko jeden wójt latał kiej oparzony, wyglądał na drogę i coraz głośniej przynaglał chłopów zasypujących wyrwy i doły na placu przed kancelarią.</p>
@@ -12244,8 +12205,7 @@ Kiedy ranne wstają zorze!
 <p>— Poszli jakby w stronę Lipiec.</p>
 <p>Grzela zakręcił się po karczmie i ani spostrzegli, jak się wyniósł i szedł ku wsi miedzami rozglądając się pilnie dokoła.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Antek obzierał się za gromadą kieby ten kot odpędzony od miski, a rozważał, czyby nie zawrócić, lecz widząc następujących strażników powziął nagle jakąś myśl, bo wyłamał po drodze sporą gałąź i wsparłszy się o płot obstrugiwał, pasując do ręki a zważając na burków, którzy chociaż szli jak mogli najpowolniej, zrównali się z nim pokrótce.</p>
 <p>— Kajże to pan starszy, na prześpiegi? — zagadał urągliwie.</p>
@@ -12557,8 +12517,7 @@ Kiedy ranne wstają zorze!
 <p>— Żeby wam ten paskudny ozór pokręciło — buchnęła wyrywając się naprzód.</p>
 <p>— I będzie cie miał kto rozgrzeszyć! — krzyknęła za nią urągliwie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Jagusia zaraz na wstępie pomiarkowała, że na wsi dzieje się cosik ważnego, psy jakoś zajadlej naszczekiwały w obejściach, dzieci kryły się po sadach wyzierając jeno zza drzew i płotów, ludzie już ściągali z pól, chociaż słońce było jeszcze wysoko, gdzieś znów zbierały się rajcujące cicho kobiety, a na wszystkich twarzach widniał srogi niepokój i wszystkie oczy pełne były lęku i oczekiwań.</p>
 <p>— Co się to wyrabia? — spytała Balcerkówny, wyglądającej zza węgła.</p>
@@ -12731,8 +12690,7 @@ Kiedy ranne wstają zorze!
 <p>— Widzę, co nie darmo powiadają, że kierujesz się na księżą gospodynię…</p>
 <p>Porwała się jak wicher i łzy potrzęsły się jej z oczów rzęsistymi, palącymi strugami.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Już stronami, na piaskach i lżejszych gruntach wychodzono ze sierpem, już nawet kaj niekaj po wyżniach błyskały kosy, ale we wsiach, gdzie były mocniejsze ziemie, dopiero imano się przygotowań i żniwa leda dzień miały się rozpoczynać.</p>
 <p>Więc i w Lipcach, jakoś w parę dni po ucieczce Rocha, jęto się ostro sposobić do żniwa, rychtowano na gwałt drabiny i moczono we stawie wozy co barzej rozeschnięte, oprzątano stodoły, że już stojały wywarte na przestrzał, gdzie w cieniach sadów wykręcano powrósła, zaś prawie pod każdą chałupą brząkały rozklepywane kosy, kobiety zwijały się przy pieczeniu chlebów i sposobieniu zapasów, a z tego wszystkiego zrobiło się tylachna skrzętu i rwetesów, że wieś wyglądała jakby przed jakimś wielkim świętem.</p>
@@ -12902,8 +12860,7 @@ Kiedy ranne wstają zorze!
 <p>Jagusia buchnęła płaczem, wypadła przed dom i pognała w cały świat.</p>
 <p>A Jasio stanął jakby rażony piorunem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>Naraz porwał się za nią lecieć.</p>
 <p>— A to gdzie? — warknęła groźnie matka zapierając mu sobą drzwi.</p>
@@ -13051,8 +13008,7 @@ Kiedy ranne wstają zorze!
 <p>A tylko niekiej, przy pacierzu, zrywała się ze spiekłych warg żałosna skarga.</p>
 <p>— I za co to wszystko, mój Boże, za co?</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>U Dominikowej zrobiło się już zgoła nie do wytrzymania, Jagusia bowiem łaziła kiej nieprzytomna i o bożym świecie niewiedząca, Jędrzych też jeno zbywał roboty, coraz częściej przesiadując u Szymków, a w gospodarstwie czynił się taki upadek i opuszczenie, że nieraz niewydojone krowy pędzili na paśniki, świnie kwiczały z głodu i konie obgryzały drabiny rżąc przy pustych żłobach, boć stara nie poredziła zaradzić wszystkiemu, jeszczek ona utykała o kiju, z przewiązanymi oczami, na pół ślepa, to i nie dziwota, co głowa jej pękała od turbacji.</p>
 <p>Bo i jakże: gnój pod pszenicę wysychał w polu, a nie miał go kto przyorać, len się już prosił o wyrywanie, ziemniaki zdałoby się jeszcze raz opleć i osypać, brakowało drew na opał, porządek gospodarski niszczał, żniwa były za pasem, roboty starczyło choćby i na dziesięć rąk, a tu szło, kieby kto w nosie podłubywał. Przynajęła nawet komornicę, sama też zabiegała, jak mogła, i dzieci pędziła do roboty, ale Jagusia była jakby głucha na wszyćkie prośby i przekładania, zaś Jędrzych na jakąś pogrozę odburknął hardo:</p>
@@ -13257,7 +13213,6 @@ Kiedy ranne wstają zorze!
 <p>Od Lipiec roznosiło się dzwonienie na Anioł Pański, a niekiedy dochodziły turkoty wozów, szczęki naostrzanych kos i dalekie, dalekie śpiewania, złocista kurzawa zachodu przysłaniać jęła całą wieś i pola wszystkie, i lasy.</p>
 <p>Dziad podniósł się, spędził psy, poprawił torebek i wsparłszy się na kulach rzekł:</p>
 <p>— Ostańcie z Bogiem, ludzie kochane.</p>
-</div>
 </div>
 </body>
 </text>

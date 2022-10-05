@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3005" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3005" xml:lang="es">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -19,10 +22,10 @@
 		</extent>
         <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -51,10 +54,10 @@
 </encodingDesc>
 	 <profileDesc> 
 		<langUsage> 
-		  <language ident="spa">Español</language> 
-		  <language ident="lat">Latín</language> 
-		  <language ident="fra">Francés</language> 
-		  <language ident="glg">Gallego</language> 
+		  <language ident="SPA">Español</language> 
+		  <language ident="LAT">Latín</language> 
+		  <language ident="FRA">Francés</language> 
+		  <language ident="GLG">Gallego</language> 
 		</langUsage>
 		<textDesc>
 			<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
@@ -64,6 +67,7 @@
 		</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2019-12-19">Anotación formato ELTeC y revisión del texto: Julen García Cerdá</change>
 			<change when="2020-01-31">Revisión formato ELTeC y correcciones varias: Borja Navarro Colorado</change>			
@@ -2099,7 +2103,7 @@
 				ejemplo, los 
 				<emph>pretéritos</emph> y 
 				<emph>supinos de la segunda conjugación</emph>, 
-				<foreign xml:lang="la">moneo, mones, monere, monui, monitum</foreign>, 
+				<foreign xml:lang="LAT">moneo, mones, monere, monui, monitum</foreign>, 
 				<emph>avisar</emph>... que los compañeros de clase
 				se apuntaban unos a otros de esta manera: 
 				<emph>mono, mona, monitos, monitas, micos</emph>... Al
@@ -2142,7 +2146,7 @@
 				razón, antes que provechosa era funesta, matando en germen las
 				facultades naturales y apabullando la masa encefálica que venía a
 				quedarse como un higo paso. Todo esto se le había ocurrido 
-				<foreign xml:lang="la">a posteriori</foreign>. <pb n="125"/> En el
+				<foreign xml:lang="LAT">a posteriori</foreign>. <pb n="125"/> En el
 				colegio estaba lleno su corazón de esa buena fe absoluta de los primeros
 				años de la vida, y ni soñaba en discutir las opiniones admitidas
 				y las fórmulas consagradas: creía cuanto creían sus
@@ -3984,7 +3988,7 @@
 				respaldo, el péndulo solemne. También la mesa se le antojó
 				que tenía 
 				<emph>carácter</emph> o 
-				<foreign xml:lang="fra">cachet</foreign>, ese no sé qué de
+				<foreign xml:lang="FRA">cachet</foreign>, ese no sé qué de
 				arcaico que enamora a las cansadas imaginaciones modernas, y se confirmó
 				en ello al fijarse en el plato que le pusieron delante, en cuyo fondo campeaban
 				emblemas curiosísimos, que le trajeron a la memoria su edad infantil,
@@ -3997,9 +4001,9 @@
 				la izquierda <pb n="232"/> otro león y cuatro cruces de Malta en campo
 				de oro. Un casco con una cruz de Caravaca por cimera remataba el escudo: sobre
 				él se leía en una banderola la divisa: 
-				<foreign xml:lang="lat">Fortis in fide et regi fidelis</foreign>; bajo
+				<foreign xml:lang="LAT">Fortis in fide et regi fidelis</foreign>; bajo
 				el escudo, en otra banderola, 
-				<foreign xml:lang="lat">Per cruces ad triumphos</foreign>. ¡Resto
+				<foreign xml:lang="LAT">Per cruces ad triumphos</foreign>. ¡Resto
 				de algo glorioso, esculpida y dorada proa que recuerda al buque
 				náufrago! Distrajo a Gabriel de la contemplación del plato, su
 				cuñado que con inmenso cucharón de plata le servía una
@@ -4691,7 +4695,7 @@
 				tanto a la mano de su tío que este sintió el húmedo calor
 				y la <pb n="270"/> frescura de su sano aliento, murmuró
 				misteriosamente:</p> 
-			 <p>-<foreign xml:lang="glg">Mariquiña, voa, voa, que ch’ei de dar
+			 <p>-<foreign xml:lang="GLG">Mariquiña, voa, voa, que ch’ei de dar
 				  pan è ceboa.</foreign></p> 
 			 <p>A las primeras sílabas del
 				conjuro el insecto se bullió; a las segundas removió sus patas,
@@ -6887,7 +6891,7 @@
 				veía, en un grabado en madera, la faz pensativa y melancólica, la
 				espaciosa y abovedada frente del Maestro León; debajo un emblema, un
 				árbol con el hacha al pie y la leyenda siguiente: 
-				<foreign xml:lang="lat">ab ipso ferro</foreign>. La polilla se
+				<foreign xml:lang="LAT">ab ipso ferro</foreign>. La polilla se
 				había ensañado en el volumen, recortando caprichosos calados al
 				través de las hojas.</p> 
 			 <p>-Aquí tiene usted un libro
@@ -7404,14 +7408,15 @@
 				los más altos, de los más acopados y frondosos, sobre cuyas
 				flores caídas, que mullían dobladamente el tapiz de manzanilla y
 				grama, encontró buen recostadero.</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-No hay remedio... -comenzó a
 				devanar Gabriel-. Yo corto por lo sano... El animal de mi cuñado, tengo
 				que reconocerlo, no ve 
 				<emph>esto</emph> que veo yo... Es que si lo viese y
-				viéndolo lo consintiese... nada, cuatro tiros.</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p><pb n="116"/> 
+				viéndolo lo consintiese... nada, cuatro tiros.</p>
+			 
+			 <pb n="116"/>
 			 <p>-Y yo, ¿qué veo, en
 				resumen? ¿Tiene fundamento, tiene cuerpo, tiene base esta idea?
 				¡No, y renó! Aquí no hay más que una cuestión
@@ -7419,7 +7424,7 @@
 				montañesilla inexperta... bárbara indiferencia, atroz descuido de
 				un hombre zafio y adocenado... fatalidades de educación, de medio
 				ambiente...</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-No puede negarse que mi venida
 				aquí ha sido providencial. El abandono en que está la
@@ -7427,7 +7432,7 @@
 				antes, mucho antes. He dejado pasar años sin tomarme la molestia...
 				Bien, yo no podía tampoco suponer... ¡Qué calor! Comprendo
 				a los japoneses...</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>Suspiró y cortó una rama
 				de castaño para abanicarse con ella. Lo que le sofocaba era, más
@@ -7439,7 +7444,7 @@
 				silencio del bosque, el ronco quejido de la presa, la fragancia de las flores
 				del castaño, ayudaban a exaltar la fantasía de Gabriel, muy
 				inclinada, como sabemos, a echarse por esos trigos.</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-¿Por qué causa tal
 				impresión la naturaleza? Yo lo había leído en libros, pero
@@ -7456,30 +7461,31 @@
 				se le antoja... Las voces están dentro... A mi cuñado le suena la
 				naturaleza así -¡Buen día de maja!- Y al creyente le
 				murmura que hay Dios...</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-¿Que no existe el mundo
 				exterior; que lo creamos nosotros? ¡Puf! Idealismo trascendental...
 				Váyase a paseo este afán de escudriñar el fondo de todas
 				las cosas...</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>Un saltón verde, muy zanquilargo,
 				vino a posarse en la mano del pensador. Gabriel le cogió por las zancas
 				traseras y le sujetó algún tiempo, divirtiéndose en ver la
 				fuerza que hacía para soltarse. Al fin aflojó, y el bicho se puso
 				en cobro pegando un brinco fenomenal.</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-Y a Manuela, ¿qué le
 				dirá la señora naturaleza, la única mamá que ha
 				conocido?</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p><pb n="119"/> 
+			 
+			 <pb n="119"/> 
 			 <p>En la memoria de Gabriel, como en placa
 				fonográfica, empezaron a revivir fragmentos de la lectura de la noche
 				anterior, sólo que encontrándoles un sentido y dándoles un
 				alcance nuevo de respuesta a la última pregunta.</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-«La sazón es fresca y el
 				campo está hermoso: todas las cosas favorecen a tu venida y ayudan a
@@ -7493,7 +7499,8 @@
 				nuestro campo: la higuera brota sus higos, y las pequeñas uvas dan olor:
 				por ende, levántate, amiga mía, hermosa mía y
 				ven».</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p><pb n="120"/> 
+			 
+			 <pb n="120"/> 
 			 <p>-Según los garrapatos que he
 				visto en la edición, Manuela y su... ¡lo que sea!, aprendieron a
 				leer por ese libro... Tiene algo de simbólico... La más negra no
@@ -7502,7 +7509,7 @@
 				Sí, que no sabrían ellos solos retozar entre los
 				árboles... Pues ¿y el enseñarles a que se fijen y reparen
 				en los arrullos de las palomas y en los amoríos de los avechuchos?</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-Lo más tremendo es la
 				manía de llamarla 
@@ -7511,14 +7518,14 @@
 				un sartal de tu cuello... Panal que destila tus labios, esposa, miel y leche
 				están en tu lengua; y el olor de tus vestidos, como el olor del
 				incienso. Huerto cerrado, hermana mía, esposa...».</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-Este lenguaje oriental...</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p><pb n="121"/> 
+			 <pb n="121"/> 
 			 <p>-«¿Quién te me
 				dará como hermano que mamase los pechos de mi madre? Hallarteía
 				fuera, besaríate, y ya nadie me despreciaría».</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-Con permiso de Fray Luis de
 				León: lo que es sus comentarios a este pasaje, son una confusión
@@ -7527,7 +7534,7 @@
 				amores desiguales... Cosa más disolvente que estos místicos y
 				contempladores... ¡y el pasaje está más claro que el
 				agua!</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-«Porque se ha de entender que
 				entre dos personas (aunque las demás calidades o que se adquieren por
@@ -7537,10 +7544,10 @@
 				señora; así todos en ella son iguales, <pb n="122"/> sin conocer
 				ventaja del uno al otro, por diferentes estados y condiciones que
 				sean».</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-¡Caracoles con Fray Luis!</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-Quieto, Gabriel, que estás
 				discurriendo como un quídam, sin asomo de cultura, como si toda tu vida
@@ -7551,7 +7558,7 @@
 				pensar a ti, por lo mismo que estás muy civilizado y muy saturado de
 				libros y muy harto de meterte en honduras. Lo que es a ellos... No has de ser
 				majadero por empeñarte en ser sagaz.</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-Se me figura que la naturaleza se
 				encara conmigo y me dice: Necio, pon a una pareja linda, salida apenas de la
@@ -7570,7 +7577,7 @@
 				palabra es la clave de la creación, y yo la repito sin cesar, pues todo
 				es en mí canto epitalámico, y para entenderlo, simple,
 				¿qué falta hacen libros ni filosofías?</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-Pero es cosa que eriza los pelos... La
 				hija de mi hermana, la esperanza de mi corazón, <pb n="124"/>
@@ -7581,14 +7588,14 @@
 				bien hiciste en morirte... Todo el día solos, campando por su respeto a
 				una o dos leguas de la casa... ¿Qué hacen a estas horas?
 				¿En qué clase de juego entretienen la siesta? De seguro...</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-Maldito yo por no venir antes. Aunque
 				sabe Dios desde cuándo... ¿Y qué hago ahora aquí,
 				cavilando y lamentándome? Tocan a moverse... a buscarla, ¡voto a
 				sanes!, y a deshacer este enredo horrible, y a sacarla de la abyección,
 				y a cortar de raíz...</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>-¿Hacia dónde
 				tomarían?</p> 
@@ -10022,7 +10029,7 @@
 				lacónicamente el artillero, que se levantó del suelo, se
 				inclinó sobre la montañesa y le dio un beso a bulto, hacia la
 				sien.</p> 
-			 <p><milestone unit="subchapter" rend="stars"/></p>
+			 
 			 
 			 <p>Quiso ir a pie hasta Cebre, y Juncal,
 				por supuesto, se empeñó en acompañarle. En lo alto de la

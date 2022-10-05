@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0016">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">85595</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Kariera Nikodema Dyzmy</title>
 <ref>http://wolnelektury.pl/katalog/lektura/kariera-nikodema-dyzmy</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Kariera Nikodema Dyzmy</title>
 <author>Dołęga, Tadeusz-Mostowicz</author>
 <publisher>Warszawa: Towarzystwo Wydawnicze "Rój"</publisher>
 <date>1932</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,7 +59,6 @@
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>Rozdział pierwszy</head>
 <p>Właściciel restauracji dał znak taperowi i tango urwało się
 w połowie taktu. Tańcząca para zatrzymała się w środku
@@ -603,8 +607,7 @@ pozostał pułkownik.</p>
 <p>— Urżnął się czy co, do licha — rzekł do siebie — co ma
 wspólnego charakter z chronologią?…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział drugi</head>
 <p>Na stole stała lampa z zielonym, niskim kloszem, oświetlając jedynie mały krąg pluszowej serwety, pudło z cygarami, omszałą butelkę i dwa kieliszki bursztynowego płynu.
 Pokój tonął w mroku, w którym niewyraźnie rozpływały się
@@ -915,8 +918,7 @@ opozycją Mańki.</p>
 <p>Mańka wyjęła z szafy batystową chusteczkę i nakryła
 nią głowę śpiącego, w izbie bowiem było dużo much.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział trzeci</head>
 <p>Cały ranek zajęły przygotowania do wyjazdu. Dyzma duże porobił zakupy, gdyż zdawał sobie sprawę, że musi
 wyglądać przyzwoicie. Kupił więc kilka zmian bielizny,
@@ -1435,8 +1437,7 @@ U tych wielkich panów zawsze takie różne świństwa bywają… Może i prawd�
 głęboki głos gongu. Kolacja.</p>
 <p>Dyzma wstał z ławki i poszedł w kierunku pałacu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział czwarty</head>
 <p>Kolacja składała się z kilku potraw, które podawał lokaj
 sztywny i bezszelestny. Nastrój był nieco lepszy niż przy
@@ -1967,8 +1968,7 @@ lekarstwa.</p>
 senność i zasypiając, pomyślał:</p>
 <p>„Ta pani Nina to sympatyczna baba… Ba, hrabianka…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział piąty</head>
 <p>Klimat Koborowa fatalnie wpływał na reumatyzm Nikodema Dyzmy. Rankiem okazało się, że przez całą noc oka nie
 zmrużył i że bóle się wzmogły. Z takim raportem przyszła
@@ -2394,8 +2394,7 @@ z zadowoleniem.</p>
 i długo przyglądał się własnej twarzy, trochę zdziwiony,
 trochę zaciekawiony i trochę kontent z siebie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział szósty</head>
 <p>Auto szło równą szosą lekko i płynnie, prowadzone wprawną ręką szofera. Po wczorajszym deszczu szkliły się jeszcze
 tu i ówdzie małe szybki wody, świeży ranek pełen był
@@ -3034,8 +3033,7 @@ stajnię wyścigową, ale mu nie szło.</p>
 <p>— Musi to być cwaniak! — rzekł Nikodem.</p>
 <p>— O-ho-ho — pokręcił głową szofer.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział siódmy</head>
 <p>Był to obszerny gabinet w stylu Ludwika Filipa, o ciemnych
 zielonych tapetach i wysokich oknach, oszklonych do samej
@@ -3604,8 +3602,7 @@ podziękował i, poklepawszy urzędnika po ramieniu, pożegnał go słowami:</p>
 <p>— No, w porządku. A nie zadzieraj pan ze mną, bo to,
 bracie, na dobre nie wyjdzie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział ósmy</head>
 <p>Awantura zaczęła się od tego, że pani Nina zmieniła suknię
 wieczorem na bardziej szykowną i że dłużej niż zwykle
@@ -4411,8 +4408,7 @@ nierealny sen, który minie, musi minąć, minie prędko. Gdy
 zażądała od Dyzmy, by powiedział, że również w to wierzy
 — ten nie robił jej żadnych trudności.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział dziewiąty</head>
 <p>Dni biegły równe, pogodne i jasne. Dyzma zadomowił się
 w Koborowie i czuł się jak u siebie w domu. Wprawdzie zły
@@ -5249,8 +5245,7 @@ lubisz dzieci?</p>
 i mruknął:</p>
 <p>— Ee… do cholery z taką miłością.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział dziesiąty</head>
 <p>Państwowy Bank Zbożowy prosperował świetnie. Eksperyment ekonomiczny udał się ponad wszelkie przewidywania. Zwróciło to baczną uwagę innych państw europejskich, a prasa zagraniczna, a zwłaszcza w krajach rolniczych, domagała się od swoich rządów zastosowania
 „metody prezesa Dyzmy”.</p>
@@ -5757,8 +5752,7 @@ były sublokator jest teraz takim grubym fiszem… Otworzyłaby gębę od ucha d
 wiedziałbym, co z taką robić… Chociaż wszystkie jednakie.
 Byle zdrowy chłop, jak się patrzy, każdej da radę…”</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział jedenasty</head>
 <p>Posiedzenie rady nadzorczej banku otworzył pan prezes
 Dyzma, po czym sekretarz Krzepicki odczytał porządek
@@ -6384,8 +6378,7 @@ spływały jasnozielone krople czarodziejskiego płynu.</p>
 <p>Przez kogoś potrącony wywrócił się świecznik i pokój
 zaległa ciemność, parna, krwista ciemność, pełna namiętnych szeptów i spazmatycznego, oszalałego śmiechu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział dwunasty</head>
 <p>Przez szczelinę ciężkich firanek wdarła się do pokoju
 czerwona smuga zachodzącego słońca.</p>
@@ -7017,8 +7010,7 @@ rugnąłem, ale teraz gotowi mnie za ordynusa mieć.</p>
 <p>— Co tam, drobiazg — pocieszał Krzepicki.</p>
 <p>— Bo mnie rozzłościli, dranie!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział trzynasty</head>
 <p>Ulica Krochmalna o tej porze była całkiem pusta. I nie dziw,
 bo minęła północ, a mieszkańcy tej dzielnicy już o szóstej
@@ -7314,8 +7306,7 @@ czerstwy pasztecik, a Ignacy ułożył się na otomanie, Nikodem uczuł zupełny
 <p>— Tfu, baba ze mnie — powiedział do siebie, odwrócił
 się do ściany i zasnął kamiennym snem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział czternasty</head>
 <p>Krzepicki obejrzał plenipotencję i, zwracając ją Dyzmie,
 rzekł:</p>
@@ -7967,8 +7958,7 @@ zdrowie, panie prezesie!</p>
 <p>W szyby siekł drobny, ostry deszcz, za oknami było
 szaro.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział piętnasty</head>
 <p>Dyzma nie lubił generała Jarzynowskiego z powodu jego drwiącej miny, oziębłości i głównie dlatego, że najbliższym przyjacielem generała był Terkowski. Toteż pomimo kilkakrotnych zaprosin wykręcał się od bywania
 u państwa Jarzynowskich. Tego jednak dnia musiał
@@ -8351,8 +8341,7 @@ Dyzmie, tego zawsze diabli wezmą. Rozumiesz?</p>
 przewrócić, bo trzymają z diabłami…</p>
 <p>— I pewno — potwierdził Ignacy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział szesnasty</head>
 <p>We wtorek Nikodem wraz z Krzepickim byli u mecenasa
 Licuńskiego, specjalisty od spraw rozwodowych, a w środę
@@ -8762,8 +8751,7 @@ myślę kategoriami przedwojennymi. Nie potrafię.</p>
 Na nie malowanych deskach podłogi pozostały liczne mokre ślady stóp, śnieg bowiem na dworze był tego dnia
 niezwykle lepki.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział siedemnasty</head>
 <p>Dwa najpiękniejsze pokoje w mieszkaniu pani Przełęskiej
 zostały oddane do dyspozycji kochanej Ninusi. Wyglądały
@@ -9512,8 +9500,7 @@ ją, powiedziała z pogardą:</p>
 <p>— Tfy, bezwstydna pijaczka!</p>
 <p>Mańka nie odpowiedziała.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział osiemnasty</head>
 <p>Gabinet mecenasa urządzony był z przepychem, łączącym
 powagę z elegancją, surowość form ze znajomością smaku,
@@ -9761,8 +9748,7 @@ opinia stanie po pańskiej stronie.</p>
 <p>— Cwaniak z pana, panie Krzepicki.</p>
 <p>— Do usług pana prezesa.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział dzięwiętnasty</head>
 <p>Przepowiednia Krzepickiego sprawdziła się o tyle, że nazajutrz w większości dzienników ukazały się wzmianki, lecz
 bardzo mgliste i powściągliwe, oraz komunikat oficjalny
@@ -10039,8 +10025,7 @@ wróci.</p>
 <p>„Co ma piernik do wiatraka — łamał sobie głowę Dyzma
 — baby to doprawdy mają we łbie groch z kapustą”.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział dwudziesty</head>
 <p>Był to moment wzruszający. W sali posiedzeń, z której
 usunięto stoły i krzesła, zebrał się cały personel banku.</p>
@@ -10589,8 +10574,7 @@ refleksję:</p>
 i nowa dba o podniesienie rasy chłopstwa”.</p>
 <p>Na wschodzie niebo zaczynało szarzeć.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział dwudziesty czwarty</head>
 <p>Wiadomość przyszła tuż przed obiadem, wywołując ogólne
 podniecenie.</p>
@@ -10919,7 +10903,6 @@ niespełna rozumu.</p>
 <p>— To wariat — wyjaśnił wojewoda.</p>
 <p>— Biedny chłopak — westchnęła panna Czarska.</p>
 <p>— Aha — uśmiechnął się doktor Litwinek — no, oczywiście, wariat.</p>
-</div>
 </div>
 </body>
 </text>

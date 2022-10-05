@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0093">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">65554</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Syzyfowe prace</title>
 <ref>http://wolnelektury.pl/katalog/lektura/syzyfowe-prace</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Syzyfowe prace</title>
 <author>Żeromski, Stefan</author>
 <publisher>Lwów: Lwowskie Towarzystwo Wydawnicze</publisher>
 <date>1898</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,7 +59,6 @@
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>I</head>
 <p>Termin odstawienia Marcina do szkoły przypadł na dzień czwarty stycznia.</p>
 <p>Obydwoje państwo Borowiczowie postanowili odwieźć jedynaka na miejsce. Zaprzężono konie do malowanych i kutych sanek, główne siedzenie wysłano barwnym, strzyżonym dywanem, który zazwyczaj wisiał nad łóżkiem pani, i około pierwszej z południa wśród powszechnego płaczu wyruszono.</p>
@@ -217,8 +221,7 @@ On to zresztą wie, on pokaże, jaki to z niego chłopiec i czy to słuszne, co 
 <p><emph>Kol sławien nasz Gospod' w Sijonie</emph>…</p>
 </quote>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>II</head>
 <p>W ciągu dwumiesięcznej bytności w szkole Marcinek „zdumiewające uczynił w naukach postępy”.</p>
 <p>Tak donosiła listownie rodzicom chłopca pani nauczycielowa.</p>
@@ -365,8 +368,7 @@ Powiedziała tak… Ażem ścierpła, jak zaczęła mleć tym pyskiem! Powiedzia
 <p>Pytanie to wytrysło niespodziewanie z głębi dumań Jaczmieniewa i stanęło przed nim z całą swoją stanowczą wyrazistością niby tajny agent policji ukazujący się zza węgła, kiedy się go najmniej spodziewają.</p>
 <p>Kareta znajdowała się na szczycie góry, po której grzbiecie szła droga. Z prawej i lewej strony otwarty był widok rozległy na dwie płaskie doliny. Tu i tam ciągnęły się smugami lasy, pagórki, wielkie białe płaty pól… Daleko, daleko za ostatnimi sinymi borami szarzały lekkie mgły przesłaniając widnokrąg. Było samo południe. Z kominów chat w ogromnych wsiach szły wszędzie dymy błękitnymi słupami. Był to jedyny ruch w tej niezmiernej przestrzeni. Cała ona leżała w niemym spokoju, jakby spała. Tylko długie pasma dymów zdawały się pisać na białych, martwych kartach polan nikomu nieznane, tajemnicze znaki.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>III</head>
 <p>Na dolnym korytarzu gimnazjum klasycznego w Klerykowie znajdowało się mnóstwo osób. Byli tam urzędnicy, szlachta, księża, przemysłowcy, a nawet zamożniejsi chłopi. Cały ten tłum stanowił w owej chwili jedną kategorię: rodziców.</p>
 <p>Korytarz był długi, wyłożony posadzką z piaskowca i bardzo dobrze przypominał pierwotną swoją fizjonomię: korytarz klasztorny. Wąskie okna wpuszczone były w mury bardzo grube i chłodne; panował tam jeszcze dawny cień i smutek.</p>
@@ -525,8 +527,7 @@ Powiedziała tak… Ażem ścierpła, jak zaczęła mleć tym pyskiem! Powiedzia
 <p>Pomimo że pani Borowiczowa wcale nie nadawała się na brata pana Majewskiego, nie wzięła mu jednak za złe tej maksymy. Przyjąwszy rubla, wśród ukłonów zobopólnych oraz tysiącznych komplementów profesora wyszła odprowadzona przezeń aż do drzwi wchodowych. W sieni pan Majewski ujął malca za ramię i otworzywszy drzwi na lewo wskazał mu duży pokój, prawie pusty, z ogromnym sosnowym stołem na środku.</p>
 <p>— Przychodź na lekcje od dziś codziennie punkt o piątej… i od razu wchodź do tego pokoju… — rzekł głaszcząc chłopcu czuprynę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IV</head>
 <p>Tylko trzy razy pani Borowiczowa zaprowadziła jedynaka z hotelu na popołudniowe lekcje do profesora, już bowiem czwartego dnia odbył się pierwszy egzamin z języka rosyjskiego. Na korytarzu gimnazjalnym panował tego dnia istny stan oblężenia. Publiczność tłoczyła się tak zapamiętale w celu podpatrywania i podsłuchiwania tego, co się odbywało w sali egzaminacyjnej, że władza zmuszona była wydelegować aż trzech asystentów gospodarzy klas i pana Pazura do wypowiadania grubiańskich uwag pod adresem rodziców, a nawet do forsownego rozpychania ich łokciami.</p>
 <p>Komisja egzaminacyjna składała się z trzech osób: z inspektora gimnazjum, pana Majewskiego i jednego z nauczycieli. Ten ostatni zresztą niewielką do całej sprawy zdawał się przywiązywać wagę, gdyż zajęty był wyłącznie grzebaniem w uchu za pomocą bardzo cienkich patyczków brzozowych uciętych z miotły. Cały pęk tego rodzaju instrumentów wychylał się z bocznej kieszeni jego fraka. Inspektor był mężczyzną ogromnego wzrostu, z głową porosłą istnym wygrabkiem rudawych włosów. Jego wielkie niebieskie oczy spoglądały tak posępnie i złowrogo, że dreszcz trwogi przejmował nie tylko uczniów, ale i rodziców. Stos papierów leżący przed inspektorem służył mu za rodzaj listy przystępujących do egzaminu. Były to prośby i dokumenty kandydatów. Papiery te, w miarę jak nauczyciel Majewski egzaminował malca, inspektor odczytywał z uwagą i dawał swoją notę. Przesłuchiwanie trwało krótko: dwa, trzy zdania chłopiec czytał, później opowiadał, wygłaszał jakiś wiersz rosyjski, jeśli go umiał na pamięć, następnie rzucano mu pytanie z gramatyki i polecano wykonać rozbiór. Rozbiór i pytania zadawane chłopcom znienacka, pospolite pytania konwersacyjne, ogłupiały większość niewielkich Polaczków.</p>
@@ -647,8 +648,7 @@ Powiedziała tak… Ażem ścierpła, jak zaczęła mleć tym pyskiem! Powiedzia
 <p>— Chryste ukrzyżowany! — zawołał Grzebicki — radca Somonowicz chce w nas utwierdzić mniemanie, że on naprawia społeczność od początku świata!</p>
 <p>Kiedy tak radcowie roztrząsali sprawy wielkiej polityki, pani Borowiczowa, słuchając na pozór uważnie ich twierdzeń, daleko odbiegła myślami. Jakieś kształty i zjawienia, jakieś cienie i widma bezcielesne ukazywały się przed nią, tworząc ze siebie jakby sceny i wypadki z przyszłego życia Marcinka. Kiedy je chciała złapać wzrokiem i myślami — znikały… Mochnacki, którego tłuszcza ściga dla powieszenia jak psa na szubienicy… „Któż to jest Mochnacki, co to za jeden? Ach, to ten, to to znaczy… — myślała rzucając się duszą w jakiś widok pełen ludzi i wrzasku. — Murawiew? kto to Murawiew?” I nagle serce jej przestawało uderzać i umierało jak żywa istota, którą przebiło zabójcze żelazo.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>V</head>
 <p>Niski mur, tu i ówdzie rozwalony, zarośnięty trawą i mchem, stanowił granicę podwórza. Za murem płynął kanał w obmurowanym niegdyś łożysku. Z czasem wiele kamieni wysunęło się, wpadło do wody i ugrzęzło w cuchnącym ile dna tej strugi, a bujne krzaki i błotne zielska obsiadły jej brzegi.</p>
 <p>Dalej, za rowem, ciągnął się czyjś park rosnący na błotnistym gruncie, zaniedbany tak dalece, że mógł przedstawiać małą puszczę, której nigdy stopa ludzka nie przebyła i gdzie tylko ptaki mieszkają.</p>
@@ -707,8 +707,7 @@ Powiedziała tak… Ażem ścierpła, jak zaczęła mleć tym pyskiem! Powiedzia
 <p>— <emph>Pałę</emph>!</p>
 <p>Mały Gumowicz skurczył się dziwnie i tak został bez ruchu, zapatrzony w kajet z arytmetyką. Marcinek przyglądał mu się i pokazywał go sąsiadom. Po chwili na długiej czarnej rzęsie „pachciarskiej kobyły” ukazała się jedna wielka łza, samotna łza, sygnał bezdennej rozpaczy. Borowicz przestał się śmiać i ze zmarszczonym czołem wciąż patrzał na tę łzę błyszczącą. Pochłonęła ona jego uwagę, pamięć i jakby całą duszę. Pierwsze w życiu współczucie drgnęło w jego piersi.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VI</head>
 <p>Z twardej szosy bryczka skręciła na uboczny gościniec, z gościńca na dróżkę, zajmującą między działkami chłopskimi szerokość nie większą od pospolitego wygonu. Słońce już się skryło za grzbietem wzgórz, zostawiając po sobie tylko przecudną zorzę, w której kierunku bryczka zdążała i na którą zwrócone były oczy Marcinka i jego matki. Konie biegły miernego kłusa, wózek toczył się z wolna w głębokich koleinach drożyny. Po obudwu jej stronach stały niwki żyta, na którym nie widać było jeszcze kłosów, stajonka wczesnych kartofli, mocno zielone smugi owsa i zagony lnu. W pobliżu czerniła się biedna wioska. Dalej, na tle przejrzystego firmamentu, widać było ciemne kształty łańcucha wzgórz porosłych jałowcem i brzeziną.</p>
 <p>Zdarzyło się, że w przeddzień uroczystości Zielonych Świątek wypadł pani Borowiczowej jakiś pilny interes w Klerykowie. Zawarta na początku roku szkolnego znajomość z panem Majewskim ułatwiła jej pozyskanie dla Marcinka na dwa dni świąteczne urlopu, wypisanego na urzędowym blankiecie z ogromną pieczęcią. I oto wiozła do Gawronek jedynaka jako niespodziankę dla ojca i całego folwarku. Radość obojga była tym większa, że ani matka, ani syn nie spodziewali się tak pomyślnego załatwienia sprawy, gdyż rzadko kiedy dawano na te święta urlopy. Gdy wózek polnymi dróżkami zjeżdżał z pochyłego przestworza i znalazł się u wejścia do rozdołu między dwoma wielkimi wzgórzami, noc już zapadała. Zbocza gór wznosiły się stromo po prawej i lewej ręce, a wielkie ich garby niby kolana i stopy wysuwały się z mroku i rosły w oczach, gdy się ku nim zbliżano.</p>
@@ -755,8 +754,7 @@ Powiedziała tak… Ażem ścierpła, jak zaczęła mleć tym pyskiem! Powiedzia
 <p>Nie miała serca wymawiać mu, że obrabował biedną, starą kapliczkę.</p>
 <p>Mokre kwiateczki odrywały się, spadały wraz z kroplami rosy i lgnęły do jej palców, a duszny zapach tak dziwnie ją upajał…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VII</head>
 <p>Otrzymawszy promocję do klasy pierwszej Marcinek się zaniedbał, a z dawnej jego pracowitości niewiele pozostało. W jesieni uczył się jeszcze jako tako, ale około Bożego Narodzenia uprawiał <emph>wykpiwankę</emph> zarówno przed korepetytorem, jak i w klasie. Wszyscy mniej teraz uwagi na niego zwracali i on czuł na sobie mniej obowiązków.</p>
 <p>Pani Borowiczowa zmarła była w lecie owego roku. Marcinek początkowo nie odczuł tej straty. Na pogrzebie zmuszał się do płaczu i przybierał miny efektowne, wrzeszczał i usiłował rzucić się za trumną do jamy mogilnej, wiedząc ze słuchu, że to pasuje, i przeczuwając, że to jeszcze go bardziej w tym dniu wyróżni. Z pogrzebu zabrał go ojciec do Gawronek. Dom był w nieładzie. Największy pokój, gdzie jeszcze tak niedawno stała trumna, cuchnął zgnilizną i kopciem świec. Pan Borowicz pociągnął Marcinka do sąsiedniego, który był sypialnią nieboszczki. Panował tam jeszcze większy nieład. Łóżko było nieprzykryte, prześcieradło i kołdra leżały na ziemi, w drewnianej kraszuarce więcej było plwocin niż piasku. Pan Borowicz usiadł pod oknem i, zdawało się, słuchał, jak haczyki okna monotonnie stukają w ramę, jak wiatr dzwoni po szybach… Marcinek wpatrzył się w opustoszałe łóżko i wtedy poczuł, że mu matka umarła.</p>
@@ -823,8 +821,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>— Ani żadnemu, ani nikomu.</p>
 <p>— No, pamiętaj se, ośle zatracony!</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>VIII</head>
 <p>Gospodarzem klasy pierwszej oddziału A był pan Rudolf Leim, nauczyciel łaciny w klasach niższych. Należał on do grupy starszych profesorów i weteranów szkoły. Pochodził z rodziny niemieckiej, która dawno przywędrowała do kraju i na poły się spolszczyła. Profesor Leim skończył onego czasu nauki uniwersyteckie w Lipsku i od niepamiętnych czasów wykładał w szkołach jeszcze wojewódzkich historię powszechną, języki starożytne i niemiecki. Z usposobienia i fachu niejako był zajadłym, zakamieniałym historykiem. Przez całe życie układał jakieś niesłychanie szczegółowe i dowcipne tablice synchronistyczne. Po zamianie szkół wojewódzkich w Klerykowie na gimnazjum rosyjskie Leim utrzymał się na posadzie, ale zepchnięty został do ostatnich szeregów. Po rosyjsku źle mówił, wykład historii powszechnej (a właściwie „rosyjskiej w związku z powszechną”) mógł być prowadzony tylko przez Rosjanina, więc Leim z najcelniejszego ongi nauczyciela zjechał do klasy pierwszej. Z łaski dawano mu jeszcze gospodarstwo w jakiejś paralelce, co nabawiało go mnóstwa kłopotu, ale czyniło kilkaset rubli.</p>
 <p>Pan Leim był to starzec wysoki, bardzo chudy i wiecznie pokaszlujący. Twarz golił starym obyczajem, czaszkę łysą jak kolano nakrywał pewnego rodzaju wiekiem z włosów wyhodowanych w okolicy ucha. Idąc wydymał policzki zawsze różowe i wyszczerzał raz za razem szeregi zębów jak ser białych. Nie było wypadku, żeby profesor Leim opuścił kiedykolwiek lekcję. Zakatarzony, kaszlący, z ustami osłoniętymi szalem, przyłaził w najcięższe mrozy i gwałtowne wichry regularnie o godzinie ósmej, pozdrawiał skinieniem głowy pana Pazura, drugiego z rzędu, a jednak znacznie młodszego weterana gimnazjum, i rozpoczynał swój monotonny spacer po górnym korytarzu. Był nadzwyczajnie starannym służbistą i lojalistą gorliwym.</p>
@@ -878,8 +875,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>Niegdyś bywał i on farysem. Pisywał do gazet. Chodziła głucha fama, którą sam, jak mógł, dusił, że na pewno drukował duże artykuły z zakresu jakiejś socjologii. Dziś, gdy z pana Sztettera nie ma w gimnazjum klerykowskim ani dymu, ani popiołu, możemy na tym miejscu, nie szkodząc mu, wspomnieć o drugiej jego tajemnicy. Przez długi szereg lat tłumaczył przecudnym, niepokalanym wierszem poezje ulubionego melancholika Shelleya i miał zamiar wydać ów przekład bezimiennie. Widocznie jednak ubezwładniła natchnienie <emph>Grammatika polskawo jazyka</emph>, bo przekład nie ukazuje się w druku…</p>
 <p>Jeżeli Sztetter nie cieszył się w klasie pierwszej poważaniem, za to nauczyciel arytmetyki, pan Nogacki, miał go nadmiar. Był to urzędnik surowy, nauczający dobrze, profesor zimny, sumienny i sprawiedliwy. Nikt nie wiedział, co on myśli, a nikomu do głowy nie przychodziło mniemanie, że on co czuje. Prawdopodobnie pan Nogacki nie myślał nic nadzwyczajnego, aczkolwiek matematyka jest „jako góra winnym krzewem” itd. Jeżeliby przyrównać system szkoły rosyjskiej w Klerykowie do maszyny, to profesora Nogackiego trzeba by nazwać jednym z najgłówniejszych jej kół zębatych. Ani mu się śniło rusyfikować kogokolwiek, oburzyłby się prawdopodobnie, gdyby go kto nazwał złym Polakiem, a jednak… Po upływie dziesiątka lat, kiedy z forsownego wysiłku najbardziej utalentowanych rusyfikatorów nie zostało w głowie byłego ucznia klerykowskiego jednej szczypty czegokolwiek, co by za rosyjskie uchodzić mogło, to na pytanie, zadane znienacka, ile jest pięć razy osiem — tenże uczeń nie odpowie we własnej myśli: — czterdzieści, lecz <emph>sorok</emph>. Było coś w wykładzie pana Nogackiego, co zmuszało chłopców do myślenia po rosyjsku. Wymagał szybkiej, natychmiastowej, piorunującej kombinacji, prędkich odpowiedzi, sprężystych a ukutych przezeń frazesów, formuł mówienia, którymi się lubował i które wdrażał, wtłaczał, wciskał w umysły i w pamięć jemu tylko znanymi środkami moralnego postrachu. Miał swój własny stalowy system, dopasowany do szkolnego, i przeprowadzał go z konsekwencją niezmordowaną. Gdyby go kto był zapytał, na co mu to wszystko jest potrzebne — z pewnością wytrzeszczyłby oczy i nie umiał odpowiedzieć.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>IX</head>
 <p>Marcinek stale mieszkał na stancji pani Przepiórkowskiej, uczęszczając do klasy drugiej i trzeciej. Postępy w naukach czynił jakie takie, ale nienadzwyczajne.</p>
 <p>Dopiero w drugim półroczu za pobytu w klasie trzeciej wziął się szczerzej do nauki. Wpłynęły na to rozmaite okoliczności.</p>
@@ -935,8 +931,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>Raz tylko, idąc ze szkoły, Marcinek spotkał na ulicy swego znajomego z kruchty. W świetle dziennym twarz starego pana wydała mu się daleko mizerniejszą i odzież jeszcze bardziej zniszczoną. Krok jego był bardziej ociężały, głowa na piersi zwieszona. Dźwigał pod pachą jakieś zawiniątko w starej serwecie i przesuwał się obok murów ulicy. Wymijając Marcinka podniósł oczy i wtedy bezgranicznie smutna twarz jego rozjaśniła się przedziwnym uśmiechem.</p>
 <p>Marcinkowi zaćmiły się oczy łzami szczególnego wzruszenia. W ciągu przelotnej minuty miał jakby zachwycenie. Uczuł, że kiedy dusze cnotliwych ludzi po życiu wśród cierpień opuszczają tę ziemię i u tronu Przedwiecznego spotykają się ze sobą, to takimi anielskimi uśmiechami muszą się witać i pozdrawiać nawzajem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>X</head>
 <p>Po ukończeniu egzaminów i otrzymaniu przejścia z klasy czwartej do piątej Marcinek spędzał wakacje, jak zwykle, w Gawronkach. Stary pan Borowicz już był wówczas znacznie posunął się w lata, gospodarstwo na folwarku szło gorzej, a w domu widać było z wolna idącą ruinę. Jedzenie gotowała stara kucharka, która onego czasu niańczyła Marcinka, a gotowała, jak jej się żywnie podobało. Talerze były wyszczerbione, łyżki, noże i widelce ginęły, a pozostałe były karykaturami zaginionych. Starszy pan prowadził nieustanną walkę z Małgorzatą, ale irytował się na próżno. W domu coraz bardziej widzieć się dawał brak bielizny, odzieży, najprostszych wygód. Nawet same sprzęty w mieszkaniu przybrały wyraz dziwnego zaniedbania i opuszczenia.</p>
 <p>W pokoju najobszerniejszym, który ze względu na obecność w nim garnituru starych mebli z wyprawy nieboszczki matki Marcinka nazywany był bawialnym, portrety sztychowane marszałków francuskich, Kościuszki, księcia Józefa — okrył kurz nieprzenikniony; na krzesłach wisiały pokrowce zbrudzone do szczętu przez ogary i jamniki, które obrały sobie tutaj legowiska i zajmowały je ze stanowczością bezwzględną. W „serwantce” pełnej niegdyś różnych cacek pamiątkowych, szyby „ktoś” powybijał, a ze sprzęcików nie zostawił ani jednego. Nie lepiej było przed domem. Obok ganku, gdzie za życia nieboszczki było mnóstwo klombów z kwiatami tak pięknymi, że o nich mówiono w całej okolicy — nie było nie tylko kwiatów, ale nawet klombów. Prosięta rozkopały cały ogród kwiatowy, krowy i źrebięta porozwalały tu i owdzie sztachety… Tylko bujna rezeda zasiewająca się sama naokół pachniała mocno jak dawniej i ten jej zapach przywitał Marcina niby wspomnienie matki, kiedy przybywszy na wakacje stanął w oknie wieczorem.</p>
@@ -1007,8 +1002,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>Marcinek z całym pietyzmem i zapałem oddał się wabieniu. Gwizdał godzinę, dwie, trzy, cztery, nie uczuwając wcale znużenia. Raz mu się wydało, że niezmiernie daleko słyszy dźwięk zupełnie podobny do głosu wabika, i wtedy dmuchał ze zdwojonym entuzjazmem. Dopiero gdy po lesie rozszedł się cień odwieczerza — począł tracić nadzieję. Szczęki mu ścierpły od nieustannego ich wytężania, więc odpoczywał przez chwilę. Już jednak wkrótce znowu się zabrał do dzieła i wabił aż do zmierzchu. Czerwony blask zachodu przedarł się do głębiny lasu. Była cisza naokół. Marcinek wstał, gdyż utracił był już wszelką nadzieję. Miał zamiar odnaleźć Szymona i wracać. Zaledwie jednak uszedł kilkanaście kroków, usłyszał jakiś głos zupełnie odmienny. Było to zarazem i mocne pogwizdywanie, i coś w rodzaju bełkotu. Marcinek chwycił broń oburącz i krok za krokiem szedł w kierunku tego głosu, pewny, że nareszcie zobaczy głuszca. Dziwny głos rozlegał się ciągle tuż za najbliższymi krzewami. Zachowując śmiertelną ciszę Marcinek obszedł jedną grubą sosnę, drugą i — wyjrzał za owe sośniaki. Zamiast głuszca ujrzał tam Nogę rozwalonego pod cienistym drzewkiem i chrapiącego z pogwizdywaniem i bełkotem. Obok śpiącego chłopa leżała pusta butla po wódce.</p>
 <p>Znacznie później Marcinek dowiedział się, że maszynka służyła do wabienia słomek i że głuszców od wieku w tamtejszych lasach nie było.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XI</head>
 <p>Po powrocie z wakacji Borowicz zastał w gimnazjum duże zmiany. Znikł z horyzontu miasta Klerykowa dyrektor gimnazjum, przeszedłszy do emerytury; przeniesiony został do innej szkoły inspektor, ustąpił zupełnie stary Leim, jeden z pomocników gospodarzy klas i dwaj nauczyciele historii. Na ich miejscu figurował nowy zarząd: dyrektor Kriestoobriadnikow, inspektor Zabielskij, nowy nauczyciel łaciny Rosjanin Pietrow, pomocnik gospodarzy klasowych Mieszoczkin i nauczyciel historii Kostriulew.</p>
 <p>Zarazem ogólny nastrój i zewnętrzna fizjonomia szkoły uległy zmianie radykalnej. Uczniowie starsi poczuli od razu, że teraz dopiero ujęto ich pod żeberka, pan Pazur umilkł i tylko minami oraz wytrzeszczaniem oczu pokazywał starym ulubieńcom, że za nic w świecie nie będzie gadał ani jednego słowa; — wreszcie nauczyciele Polacy nie odzywali się wcale do uczniów <emph>extra muros</emph> szkoły, ażeby nie mówić po rosyjsku, a jeżeli konieczność zmuszała ich do takiej rozmowy, to prowadzili ją nie inaczej jak w języku urzędowym.</p>
@@ -1058,8 +1052,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>Widok gabinetu wykwintnie urządzonego zniewalał go do jakiegoś rozczulenia, duma jego była połechtaną, w głowie burzył się rozkoszny zamęt. Wychodząc z wizyty, już za następną tęsknił. Z pychą spoglądał na przechodniów, jakby im chciał jednym spojrzeniem oznajmić, że jest za pan brat z osobą tak wszechpotężną na gruncie gimnazjalnym.</p>
 <p>Odtąd Marcinek Borowicz był częstym i prawie stałym gościem inspektora Zabielskiego.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XII</head>
 <p>Nieznośny upał jednego z ostatnich dni sierpnia żarzył się nad pagórkowatą okolicą. Spiekota ogarnęła pola, ssała mokre łąki i dosięgała najbardziej cienistych kryjówek lasu. Było już po żniwach i widzialny przestwór kraju spał w tym cieple snem kamiennym.</p>
 <p>Naokół ciągnęły się żółtawoszare ścierniska, połyskujące szczeciną ździebeł równo uciętych. Tu i owdzie złociło się pólko lnu, czerniały stożki koniczyny albo niwka ziemniaków o więdnących badylach. Teraz wśród pól ogołoconych widniało dokładniej niż zwykle białe pasmo szosy. Ginąc za najbliższym pagórkiem, jakby się raptem urywało w zakresie szczerego pola, ukazywało się dalej niby równa i ostra linia dzieląca płaszczyznę na dwa obszary, kryło się w zaroślach i znowu jak wąż bielało w ogromnej dalekości, pod niebieskawą smużką leśną u samego krańca widnokręgu.</p>
@@ -1278,8 +1271,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>Jędrek rozstawił nogi, ukłonił się ogniście i ruszył do klasy. Twarz jego była po dawnemu blada, oczy tak samo zgasłe, tylko teraz brwi, nozdrza i wargi spazmatycznie drgały. Gdy otoczony przez chmarę wrzeszczącą miał z powrotem przestąpić próg klasy, nagle się wstrzymał i zaczął oczyma szukać w tłumie pewnej twarzy. Nie było jej nigdzie w bliskości. Tymczasem odezwał się dzwonek, uczniowie rozpierzchli się w przeróżne strony i Radek usiadł na swoim miejscu.</p>
 <p>Podczas trwania lekcji języka greckiego, która właśnie miała miejsce, siedział wyprostowany, z oczyma utkwionymi w nauczyciela, pilnie chwytał każdy dźwięk padający z katedry, ale dusza jego była za murami tej klasy. Z wielkim pośpiechem i trudem szukał wciąż myślami owego ucznia, który go wybawił. Rysów Borowicza wśród omdlenia swego nie zapamiętał. Tkwiło tylko w jego sercu nikłe wspomnienie twarzy nachylonej… Im dłużej myślał, im goręcej usiłował wywabić z przeszłości dopiero co minionej całą postać, tym cudowniejszy, jak gdyby księżycowy blask otaczał ją dokoła. Niepostrzeżone, wewnętrzne łzy Radka, łzy prędzej duszy niż ciała, płynęły i płynęły na to widmo przeczyste…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIII</head>
 <p>Za pobytu Borowicza klasa szósta liczyła trzydziestu trzech uczniów. Współtowarzyszów, którzy z nim razem rozpoczęli kurs nauki od klasy wstępnej, dobrnęło do tego punktu zaledwie kilkunastu. Reszta składała się z drugoroczniaków i przybyszów. Dominującą większość stanowili Polacy, było bowiem tylko trzech Żydków (z tych Szlama Goldbaum dzierżył miejsce prymusa) i dwu Rosjan. Ogół tej młodzieży rozpadał się na dwie nierówne części, wyobrażające jak gdyby dwie warstwy społeczne, a przynajmniej dwa obozy. Jedna gromada, do której należał Borowicz, jego adherenci, Rosjanie i Żydkowie, zostawała pod wpływem inspektora i reprezentowała poniekąd maleńkie stronnictwo ugodowe; druga była zupełnie bezbarwna, wrogo usposobiona względem pierwszej i ubierała się, o ile tylko można, elegancko. Zarówno pierwsza jak druga grupa piastowała w swym łonie różne odcienie wywołane przez związki krwi, zamieszkanie na wspólnej stancji, kopcenie wspólnych papierosów, „ściąganie” ze wspólnych podręczników albo zapalanie się do tych samych pensjonarek. Część inspektorska nosiła pogardliwe miano „literatów” — część druga sama ochotnie przezywała się ligą wolnopróżniaków.</p>
 <p>Borowicz odgrywał w pierwszej rolę niemałą. Jeszcze w klasie piątej, za delikatną podnietą inspektora, Borowicz założył wśród swych przyjaciół kółeczko zbierające się w niedzielę po nabożeństwie na jednej ze stancji w celu studiowania literatury rosyjskiej, a to dla lepszego pisania ćwiczeń. W klasie szóstej literaci mieli w swym gronie już kilkanaście osób, a po świętach Bożego Narodzenia złączyli się z dwiema takimiż grupami z klasy siódmej i ósmej, odbywali zebrania wspólne w mieszkaniu pewnego siódmoklasisty, a częstokroć w mieszkaniu samego inspektora. Na tych posiedzeniach czytano i roztrząsano byliny, utwory Karamzina, Żukowskiego, Gribojedowa, Puszkina, Lermontowa, Kryłowa, Gogola, Ostrowskiego itd. Lektura dzieł tych pisarzów rozwijała instynkty artystyczne młodzieży. Uczniowie klasy szóstej, którzy w kursie swym mieli wykład „bylin” o bohaterach przedwłodzimierzowskich, jak Wolga Swiatosławicz, Mikuła Sielaninowicz, o bohaterach kijowskich, jak Ilja Muromiec, Alosza Popowicz, Dobrynia Nikiticz itd., czyli o rzeczach nudnych jak flaki z olejem, a dla nastroju badawczo-racjonalistycznych podrostków niezmiernie śmiesznych, z zapałem czytali piękne utwory Puszkina, jak <emph>Eugeniusz Oniegin</emph>, albo Lermontowa, jak <emph>Demon</emph>.</p>
@@ -1319,8 +1311,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>Kolosalny zakres wiedzy odsłaniający się na kartach <emph>Historii cywilizacji Anglii</emph> miał przede wszystkim ten skutek, że znaglił Borowicza i jego współwyznawców do pracy, do rzetelnego cenienia czasu na wagę złota. Kto ma zostać Bucklem, ten nie może tracić minuty, musi rozłożyć prawidłowo godziny i kwadranse, a wszystkie wypełnić trudem. Stamtąd, z wyżyny buckle'izmu, ani jeden z adeptów nie zstąpił na chwilę do dziedzin wolnopróżniactwa i cenił młódź bawiącą się tym procederem jako nędzną trzodę. Tak tedy całkowite pochłonięcie sił duszy przez nauki, a raczej przez marzenia i piękne sny w dziedzinie nauk — oderwało ją od wszelkiego brudu ziemi, dźwignęło bardzo wysoko i szybko a nieodwołalnie uszlachetniło.</p>
 <p>Ponieważ znano <emph>książkę</emph> tylko w przekładzie rosyjskim, z natury rzeczy tedy wszelkiego rodzaju terminy naukowe i urobione formuły bardziej ścisłego myślenia przywierały do mózgów w postaci rosyjskiej. Na dysputach wieczornych wszystko, cokolwiek tyczyło się rzeczy „abstrakcyjnych”, wypowiadano między sobą po rosyjsku. Nikt „przekonań” swoich po polsku nie umiałby ze ścisłością wyłożyć. Była to najbardziej zjadliwa forma <emph>obrusienja</emph>, bo dobrowolnie, we wnętrzu własnych czaszek, stopniowo zaprowadzana przez młodzież. Ale nie mogło być inaczej. Młodzież ta łaknęła strawy naukowej, znalazła ją i karmiła się tym, co znalazła. Ogół inteligencji miejskiej umiał jedynie (w największym sekrecie) stękać na „ucisk”, dziwować się, jakim to sposobem można w kraju polskim gramatykę polską wykładać „<emph>pa russki</emph>”, ale nie był uzdolniony politycznie nawet do założenia dla tej młodzieży czytelni z dzieł naukowych, swoich i tłumaczonych, kształcących systematycznie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XIV</head>
 <p>Mdłe światło jesienne wlewało się do klasy siódmej, napełniając ją dziwnie smutnym i nudnym półmrokiem. Przed chwilą wyszedł był „Grek”, z którym tłumaczono dialogi Lukianosa, a wkrótce miał się ukazać nauczyciel historii. Wszyscy uczniowie siedzieli w klasie. Z szóstej do siódmej przeszło ich zaledwie dwudziestu trzech. Przybysze zastali pięciu drugorocznych. Ci nadawali szyk i odpowiedni ton „sztubie”. Właśnie jeden z takich, blady i wychudły mężczyzna w mundurze uczniowskim, opowiadał naprędce sprośną anegdotkę kółku zgromadzonych przy jego ławie, co chwila wybuchającemu homerycznym śmiechem. W drugim kącie sali Borowicz prowadził ożywiony dyskursik z Waleckim, zwanym „Figą”. Walecki miał dopiero lat siedemnaście. Był to chłopczyna tak małego wzrostu, że, ku jego śmiertelnej męce, uważano go za trzecioklasistę. Uczył się wybornie i tylko dzięki „złemu sprawowaniu” figurował na liście jako drugi uczeń z kolei, ustępując pierwszeństwa Szlamie Goldbaumowi. Złe sprawowanie, czyli czwórkę zamiast piątki, Walecki zdobywał sobie nadzwyczajną hardością.</p>
 <p>Nie było tygodnia, żeby ten prześliczny chłopak nie skakał do oczu któremu z belfrów. Na każdą uwagę musiał odpowiedzieć jeśli nie dowcipnym sarkazmem, to przynajmniej znamiennym chrząknięciem albo piorunującym spojrzeniem oczu, podobnych do pary diamentów. Całe stronnictwo literacko-buckle'owskie starało się o pozyskanie „Figi”, ale on uchylał się od rozmów bezbożnych. Miał kilka sióstr, a był jedynakiem u matki, właścicielki niedużego sklepu z materiałami piśmiennymi, katoliczki. Jak agent policji tajnej kontrolowała ona każdy krok syna, wydzierała mu z rąk książki nie tylko wolnomyślne, ale wszelkie tak zwane „złe”, nad wiedzą zaś tego wybitnego siódmoklasisty panowała tak wszechwładnie, że musiał jej sumiennie opowiadać treść rozmów swoich z kolegami, przedstawiać swe tajemne myśli, z góry uznane za zdrożne, wyjawiać wszelkiego rodzaju projekty i marzenia. Tak prowadzony hardy Tomasz musiał również wystrzegać się nie tylko dyskusji, ale nie miał prawa słyszeć „złych” myśli i pozwalać, ażeby znalazły miejsce w jego głowie.</p>
@@ -1380,8 +1371,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>Za ścianą gwar wzmagał się coraz bardziej, stawał się zgiełkliwy jak wściekła kłótnia, czasami znowu nacichał zupełnie. W pewnej chwili dał się słyszeć krzyk Waleckiego, spazmatyczny, rozpaczliwy… Uczniowie rzucili się do drzwi, postawali na ławkach, wspięli się na palce i wyjrzeli na korytarz przez szybki we drzwiach. Zobaczyli wkrótce Waleckiego w otoczeniu trzech stróżów i pana Pazura, którzy go nieśli w powietrzu. „Figa” rwał się i siepał w rękach jak lis złapany w żelaza. W pobliżu kancelarii stała jego matka. Twarz jej nic nie wyrażała, tylko wargi chwilami odymały się w szczególny sposób i lewa powieka dygotała. Gdy „Figę” wwalono we drzwi izby zwanej „zapasową”, pani Walecka zwróciła się szybko ku wyjściu. Szła przy samej ścianie i coś mamrotała do siebie… Wkrótce przyszedł do klasy Rutecki, skazany na długą kozę, z wieścią, że mały za zgodą matki, a w zamian za wypędzenie z „wilczym biletem” — dostanie rózgi…</p>
 <p>W połowie następnej lekcji, którą odbywał wiecznie spokojny matematyk, drzwi się uchyliły i pan Majewski wpuścił do sali Waleckiego. Nieszczęsny buntownik miał twarz tak nabiegłą krwią, że wydawała się prawie czarną. Dolna warga była wysunięta jak u matki, białe zęby dolnej szczęki nakrywały wargę górną, oczy cofnęły się i skryły pod boleśnie zsuniętymi brwiami. Szedł do swego miejsca z wolna, jakby omackiem. Gdy je miał już zająć, w przeciągu jednego momentu wejrzał na Borowicza. Marcin wtedy zadrżał, było to bowiem spojrzenie straszliwe.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XV</head>
 <p>Na początku trzeciego kwartału, po przyjeździe ze świąt Bożego Narodzenia, uczniowie klasy siódmej zastali nowego kolegę. Był nim Bernard Sieger, wydalony z tejże klasy któregoś gimnazjum w Warszawie. Nikt z klerykowian nie miał wiadomości autentycznych, za co właściwie Sieger był ze stolicy raz na zawsze wypędzony, a do Klerykowa przyjęty. Chodziły tylko niezdecydowane pogłoski, że to „ptaszek”. Z czasem dopiero jeden z ósmoklasistów, któremu zdarzyło się być podczas świąt w Warszawie, oświetlił nieco sprawę, rozgłaszając, że tajemniczy przybysz wyrzucony został za <emph>niebłagonadiotnost'</emph>. Do Klerykowa, według tejże relacji, udało mu się wstąpić za specjalnym zezwoleniem kuratora okręgu naukowego, który znowu miał dać takie zezwolenie dzięki wstawiennictwu jednej ze znakomitych figur wielkiego świata.</p>
 <p>W nowej szkole Sieger natychmiast otoczony został szczególniejszą opieką. Mieszkał sam jeden u pana Kostriulewa i poza murami szkoły nie miał prawa stykać się z kolegami. W gimnazjum pilnowano go również w sposób niezostawiający nic do życzenia. Codziennie ktoś upoważniony, a więc pan Majewski, inspektor, dyrektor, Mieszoczkin — rewidował jego tornister, wszyscy udzielali mu admonicji surowszych niż innym, a do wydawania lekcji powoływano go bez ustanku. Bernard Sieger miał lat osiemnaście, dziewiętnaście, był wzrostu średniego, krępy, nieco ospowaty. Rysy twarzy miał wyraziste, nos duży, oczy barwy nieokreślonej jak woda. Oczy te patrzały spokojnie, ale ze szczególną uwagą. Sieger nigdy nie zdradzał strachu lub złości, gdy go niepokojono, gdy mu rozkazującym tonem czegoś „surowo zabraniano”. Na twarzy jego malował się stale pewien wyraz, który można by chyba ochrzcić imieniem — uprzejmej drwiny.</p>
@@ -1456,8 +1446,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 </quote>
 <p>Borowicz zamknął oczy. Znalazł już wszystko. To ten sam żołnierz, o którym mówił mu przed laty strzelec Noga na pagórku pod lasem. Ten sam, zabity nahajami, leżący w skrwawionej mogile pod świerkiem. Serce Marcina szarpnęło się nagle, jakby chciało wydrzeć się z piersi, ciałem jego potrząsało wewnętrzne łkanie. Ścisnął mocno zęby, żeby z krzykiem nie szlochać. Zdawało mu się, że nie wytrzyma, że skona z żalu. Sztetter siedział na swym miejscu wyprostowany. Powieki jego były jak zwykle przymknięte, tylko teraz kiedy niekiedy wymykała się spod nich łza i płynęła po bladej twarzy.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVI</head>
 <p>Miejscem bardzo drogim dla Borowicza i jego kolegów przez cały czas egzystencji w klasie ósmej był tak zwany Stary Browar, obszerna posesja leżąca u wejścia na przedmieście wygwizdowskie. Niegdyś istniała rzeczywiście w tym miejscu fabryka nędznego piwska. Z czasem właściciel jej zrujnował się doszczętnie, a całkowity jego „interes” poszedł w ruinę. Wielkie mury, budowle otaczające, składy i piwnice stały pustkami. Dopiero po upływie lat kilku nabył wszystko za małe pieniądze chudy Żydek z czarną bródką i za mniejsze jeszcze pieniądze przerobił browar i składy na lokale mieszkalne. Cały szereg tych budynków wraz z niezmiernym podwórzem i ogrodami stanowił samoistną dzielnicę. Z jednej strony ograniczała ją wiecznie gnijąca rzeczułka, z trzech innych uliczki boczne. Wysoki, jakby więzienny mur z posępnymi bramami wychodzącymi na trzy strony świata, biegł dokoła obszaru browarnego wzdłuż ulic sąsiednich. Ponad kanałem sterczał tylko mocny parkan z czterocalówek. Wielki dziedziniec był brukowany, a nawet przecięty w poprzek przez trotuar wyłożony marmurowymi płytami. Jednakże tuż obok chodnika istniały głębokie wądoły wybrane w ziemi, nie wiadomo w jakim celu. Kiedy dżdżysty październik napełnił je wodą, miały one wszelkie pozory pułapek zastawionych przez właściciela Starego Browaru w celu chwytania żywcem lokatorów, którzy nieuiszczone komorne trwonili w knajpach i cukierniach, a późną i ciemną nocą wracali do gniazd rodzinnych. Mieszkania ceglanym równoległobokiem otaczające podwórzec miały wyraz wcale nie weselszy od więzienia Mazas. Okna w nich były małe, drzwi nieforemne, sienie jak pieczary pogrążone w wiekuistym mroku, schody śliskie i brudne. Na wprost bramy głównej wysuwał się z głębi dziedzińca gmach fundamentalny, a raczej ściana jego, bardzo wysoka i naga. Tu i owdzie tkwiły w niej okna, znacznie później wmurowane. Stary tynk muru, obleczony niegdyś w zewnętrzną farbę, poobrywał się, spadł na ziemię i leżał tam z wolna unicestwiany przez deszcze. Wątpliwa, żółtaworóżowa barwa miejsc jeszcze trwających zamokła i wynikały tam przeróżne mapy, zygzaki, dziwaczne kształty i wierne symbole. Przypominały one rozmaite zjawiska tego padołu, jakby dla stwierdzenia myśli Schellinga, że natura, zdążając ku wiekuistej refleksji, zawsze wraca do raz już utworzonych, a gdzie indziej tkwiących postaci bytu.</p>
 <p>W tej oficynie mieszkali na piąterku rodzice Mariana Gontali, ósmoklasisty, jednego z kolegów Borowicza. Ojciec „Mańka” był nieznacznym urzędnikiem Izby Skarbowej. Mieszkanie Gontalów składało się z trzech małych, wilgotnych izdebek i kuchni. Mieściły się tam dzieci, jakaś ciotka Matylda z ogromnymi kuframi, staruszka babka. Maniek z dwoma braćmi uczęszczającymi do niższych klas gimnazjalnych mieszkał na górce. Od klasy piątej, jak większość niezamożnej młodzieży klerykowskiej, całkowite utrzymanie swoje opłacał korepetycjami. Dawał ich dużo i pomimo bardzo niskiego wynagrodzenia zarabiał tyle, że mógł dopomagać familii w jej ciężkim życiu.</p>
@@ -1502,8 +1491,7 @@ kiedy Marcinek spostrzegł, że ręka księdza Wargulskiego z klamki przeniosła
 <p>— Cicho?… No, to cicho…</p>
 <p>Wszyscy spiesznie opuścili górkę, zbiegli ze schodów i minęli ogród. Za radą Borowicza wysuwano się przez „dziurę Efialtesa” pojedynczo i w pewnych odstępach czasu. Wkrótce wszyscy rozpierzchli się na wsze strony świata — a w okolicy kanału zaległa zwykła, głucha cisza i pustka. Około godziny dwunastej z uliczki brukowanej dał się słyszeć łoskot kroków kilku osób. To pan Majewski, przebrany i osuszony, w towarzystwie dwu strażników miejskich przybywał na miejsce, gdzie tyle wycierpiał. Stójkowi mieli ze sobą ślepą latarkę. Otwarłszy ją znienacka, zbadali miejsce. Wbrew twierdzeniom pedagoga dyl leżał nad kanałem, a dziury w parkanie opiekunowie bezpieczeństwa publicznego i teraz odszukać nie mogli. Pan Majewski wymagał, żeby siedzieć w tym miejscu pod osłoną nocy i czekać na rozbójników, którzy go zmasakrowali, ale strażnicy niezbyt gorliwie myśl tę poparli. Przystawali w zasadzie na sam proces czekania, tylko nie nad brzegiem cuchnącego kanału, lecz w szynku, który według ich zdania mieścił się w odległości bardzo nieznacznej. Samemu panu Majewskiemu reprezentanci siły wykonawczej nie stawiali żadnych przeszkód co do zamiaru czatowania przy kładce. Chcieli mu nawet pożyczyć ślepej latarki. Ponieważ jednak noc była ciemna i wietrzna, a w okienku Gontali światło zagaszone, więc i sam pan Majewski zdecydował się odłożyć zemstę <emph>ad calendas graecas</emph> i ruszył do domu.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVII</head>
 <p>Po świętach Wielkiej Nocy gromadka ósmoklasistów gotowała się w skupieniu ducha do egzaminu <emph>maturitatis</emph>. Powtarzano wszystkie nauki gimnazjalne od <emph>a</emph> do <emph>z</emph>, ćwiczono się w nich z uporem i zawziętością. Tworzyły się gromadki odosobnione na mocy doboru zdolnościowego, pary i trójki <emph>kujące</emph> poszczególne przedmioty, a całość, jakkolwiek rozbita, dziwnie się skonsolidowała, zbiła w masę jedno czującą. Mało kto wiedział, że minął kwiecień i większość maja. Dla <emph>powtarzaków</emph> były to tylko dni zawierające tyle a tyle godzin pracy i tyle a tyle snu. Niektórzy z mniej zdolnych mało sypiali, mniej niż zwykle jedli, przytłoczeni depresją, inni trwali w nieustannym zwątpieniu i rozpaczy.</p>
 <p>A wiosna objęła już była świat w posiadanie. Stary park miejski nakrył się oponą lśniących jasnozielonych liści i hodował w swej głębi, pełnej przecudnych cieniów i świateł, młode kwiaty i trawy. Dróżki ubite z okruchów cegły i wysypane żółtym piaskiem ginęły wśród zieleni niby drobne ruczaje między brzegami; — mury starych domostw u jednego z krańców ogrodu schowały swą nagość pod wieńcami dzikiego wina. Nawet starodawne kamienne ławki lśniły się od mchów zielonych i miękkich. Park leżał dość nisko, między murami, pełen był wilgoci i chłodu. Olbrzymie drzewa rozpościerały nad jego wnętrzem cień taki, że w dnie bardzo upalne było tam chłodno niby w podziemnej jaskini. W zakątkach krzewy bzu i czeremchy skupiały się w niedostępne gąszcze albo rozrosły w klomby. Szeregi młodych grabów tworzyły ulice prowadzące do ławek ustronnych.</p>
@@ -1544,8 +1532,7 @@ Trafiało mu się stać tam bez ruchu, bez wiedzy, nie wiadomo jak długo, z ocz
 <p>Oczy „Biruty” zwyciężone i bezwładne przywitały miłosne wejrzenie. Na ustach jej błąkał się uśmiech niewypowiedziany; ni to strach, ni wstyd, ni rozpacz…</p>
 <p>W tym uścisku spojrzeń przetrwali nadziemskie chwile. Wreszcie panna Anna odwróciła głowę i zakryła oczy rękoma. Nim jednak upłynęła chwila, wzniosła je znowu. Twarz jej była blada jak śnieg; na czoło zsuwały się promyki włosów, ręce splotły się konwulsyjnie nad kartami zeszytu. Teraz nie była już w możności sprzeciwiać się i opierać. Gdy odwracała oczy, nieme błaganie niby krzyk przyciągało je znowu i obłąkana pieszczota dłużyła się w jakiś byt zaziemski, wieczny. Szczęścia ich nie mącił nikt, żaden głos nie płoszył milczenia, prócz bełkotu wody, mówiącej niepojętą rzecz swoją…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>XVIII</head>
 <p>Na początku września tegoż roku Borowicz, jako już młodzian „dojrzały” i cywilny, przybył do Klerykowa z wakacji niby to w celu załatwienia jakichś spraw koleżeńskich niecierpiących zwłoki. Ogorzała twarz jego była chuda, wzrok mu płonął. Od wyznania w parku miłości spojrzeniami, bez słów, nie widział „Biruty” ani razu. Na próżno szukał jej wszędzie, na próżno czatował po rogach ulic, w bramie sąsiedniej kamienicy, w parku, u ścian gimnazjum żeńskiego, we dnie i nocami.
 Zginęła dlań, jakby się w ziemię zapadła. Wiedział tyle tylko, że jest w Klerykowie i że zdaje na patent dojrzałości. Egzamina pisemne i ustne, wręczenie świadectw, uczta pożegnalna, zdjęcie mundurów, ostatni dzień i ostatnia noc w Klerykowie — wszystko to minęło dla niego jak nierzeczywistość luźnie tycząca się jego osoby. Wakacje spędził w domu ojca, który zapadł był bardzo na zdrowiu. Marcin musiał prowadzić całkowicie gospodarstwo folwarczne, pilnować sianokosu i żniw. Gdy już wszystko sprzątnął, wyrwał się z domu na kilka dni. Ledwie wysiadł z bryczki, umył się w zajeździe i pędem wybiegł z jego bramy — padł w otwarte ramiona „starej Przepiórzycy”. Babcia rozpłakała się z miejsca.</p>
@@ -1628,7 +1615,6 @@ Ach, kiedyż wykujem, strudzeni oracze,</p>
 <p>Szerokoramienny, chudy i śniady chłop wlepił swe siwe oczy w twarz jego i cicho pytał:</p>
 <p>— Cóż ci to, Borowicz, cóż ci to?</p>
 <p>Marcin nie był w stanie rzec słowa, nie mógł patrzeć, wyciągnął tylko rękę i wspomógł się na siłach, czując uściśnienie kościstej, a jakby z żelaza urobionej prawicy Radkowej.</p>
-</div>
 </div>
 </body>
 </text>

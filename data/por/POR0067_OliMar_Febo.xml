@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0067" xml:lang="pt">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0067" xml:lang="pt">
         <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -16,16 +19,16 @@
 </respStmt>
 </titleStmt>
 <extent>
-<measure unit="words">69683</measure>
+<measure unit="words">69033</measure>
 </extent>
 <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3492067">ELTeC-por</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271644">ELTeC-por release 0.9.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4288235">ELTeC-por release 2.0.0</ref>
 </publicationStmt>
 <sourceDesc><bibl type="digitalSource">
 <title>Febo Moniz</title>
@@ -62,7 +65,7 @@
 
 </profileDesc>
 <revisionDesc>
-<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-03-08">Checked by checkup
+<change when="2021-04-09">Converted by checkUp script for new release</change><change when="2020-03-08">Checked by checkup
 script</change>
 <change when="2020-02-28">Mudada a classificação de canonicidade</change>
 <change when="2019-12-30">Adicionado à coleção ELTeC</change>
@@ -86,7 +89,7 @@ script</change>
 </front>
 <body>
 <div type="liminal">
-<head>INTRODUÇÃO </head>
+<head>INTRODUÇÃO</head>
 <p>Eram contados os séculos de existência do ciclo gótico. O
 feudalismo estrebuchava decrépito, porque a aristocracia
 militar prestável nos tempos da conquista, era odiosa na
@@ -354,7 +357,7 @@ se o pensamento fosse ruim ou mesquinho. </p>
 <p>(^) Era em 2 volumes ai.* edição desta obra. -- N. do E. </p>
 </div>
 <div type="chapter">
-<head>ANTES DA SESSÃO </head>
+<head>ANTES DA SESSÃO</head>
 <p>Por uma fria manhã de Inverno, em que, num céu azul puríssimo, o
 sol brilhava esplêndido, estavam dois rapazes conversando
 animadamente na praça, que se abria em frente dos reais
@@ -542,7 +545,7 @@ derrubo o terceiro, e com um murro esmago a cabeça ao
 <p>E todos riram, e partiram todos a ver a abertura das Cortes. </p>
 </div>
 <div type="chapter">
-<head>QUI REGIS ISRAEL, INTENDE! </head>
+<head>QUI REGIS ISRAEL, INTENDE!</head>
 <p>Era o dia solene da abertura das Cortes, convocadas pelo Cardeal
 para decidirem, a quem de direito competia a régia herança.
 Nos paços de Almeirim e na sala chamada da rainha, estavam
@@ -770,7 +773,7 @@ Prior e do duque de Bragança boquiabertos, extasiados,
 diziam entre si : -- Temos homem! </p>
 </div>
 <div type="chapter">
-<head>A POLÍTICA DE CASTELA </head>
+<head>A POLÍTICA DE CASTELA</head>
 <p>Atabales e trombetas anunciaram, que era findo o auto, retirou-se
 o Cardeal, dispersaram-se os fidalgos, os clérigos e os
 procuradores do povo; o discurso de Febo impressionara
@@ -966,7 +969,7 @@ terminou aqui, rompidas as relações entre os bons amigos,
 que tinham sido, Fernão da Silva e D. Alonso Domingues. </p>
 </div>
 <div type="chapter">
-<head>SEREI REI! </head>
+<head>SEREI REI!</head>
 <p>O lugar das sessões do braço popular nas Cortes fora transferido
 de Almeirim. Na corte tinham ficado o Clero e a Nobreza.
 Febo Moniz com os outros procuradores das vilas e cidades
@@ -1144,7 +1147,7 @@ livre de tal rei! Ah Portugal, Portugal! que desta vez te
 não salvas das garras do leão! </p>
 </div>
 <div type="chapter">
-<head>AS MENINAS MONIZ </head>
+<head>AS MENINAS MONIZ</head>
 <p>Baixava o sol por uma daquelas serenas tardes de Inverno, em que
 o céu, puríssima cúpula azul, se espelha no mar, em que a
 atmosfera, transparente como límpido cristal, descobre o
@@ -1176,8 +1179,14 @@ pouco, um caprichoso lavor e tinha nas mãos um livro.
 Deitava os olhos ao céu, ao mar, às terras de além,
 volvia-os depois à sua leitura, abstracta e pensativa.
 Fixando-os no livro ia lendo: </p>
-<quote> </quote>
-<p>(1) Bernardim Ribeiro -- Menina e moça, Romance de Avalor. </p>
+<quote> 
+<l>As águas levam seu bem <ref target="#POR0067-nota-1"/></l>
+<l>Ele leva o seu pesar</l>
+<l>E só vai sem companhia</l>
+<l>Que os seus fora ele leixar.</l>
+<l>Querer cantar suas mágoas</l>
+<l>Seria areias contar...</l>
+</quote>
 <p>-- Dizes bem, poeta. Querer contar minhas mágoas seria areias
 contar! Que triste livro, mas que meigas palavras! bem se
 sentem as lágrimas, bem se ouve o bater do coração! Oh quem
@@ -1353,7 +1362,7 @@ gritos tão sedutores nos lábios de uma mulher. </p>
 portador. </p>
 </div>
 <div type="chapter">
-<head>UMA SANTA MULHER </head>
+<head>UMA SANTA MULHER</head>
 <p>Alguns dias se passaram, nos quais o castelhano executava sempre
 a prática da véspera: percorria de alto a baixo, de
 princípio a fim, o espaço que se avistava das janelas de
@@ -1568,7 +1577,7 @@ para tornar, mas depois lembrou-se, de que era de pedras
 falsas. </p>
 </div>
 <div type="chapter">
-<head>TRAÇAS DA ARANHA PARA PRENDER O MOSQUITO </head>
+<head>TRAÇAS DA ARANHA PARA PRENDER O MOSQUITO</head>
 <p>Fiel no cumprimento do ajuste e esperando novos cruzados para
 vestir e alumiar a Senhora, Margarida não perdera tempo para
 pôr em execução a incumbência de D. Alonso. </p>
@@ -1750,7 +1759,7 @@ beata, e foi-lhe dando alguns cruzados. </p>
 <p>D. Alonso estava alegre. </p>
 </div>
 <div type="chapter">
-<head>O ERRO </head>
+<head>O ERRO</head>
 <p>D. Alonso e Margarida concertaram habilmente a rede em que Ana
 havia de cair. A primeira ideia fora escolher um lugar
 recôndito, aí preparar convenientemente uma sala onde a
@@ -1869,26 +1878,39 @@ Tremeu. D. Alonso deixou cair no chão o chapéu e
 experimentando as cordas, foi ao mesmo tempo examinando o
 rosto da sua conquista. O castelhano era bom tocador e tinha
 uma bela voz; começou: </p>
-<p>De vuestros ojos centellas (1), Que encienden pechos de hielo,
-Suben ipor el aire ai cielo, Y en legando son estrelas. </p>
+<quote xml:lang="es">
+<l>De vuestros ojos centellas, <ref target="#POR0067-nota-2"/></l>
+<l>Que encienden pechos de hielo,</l>
+<l>Suben por el aire ai cielo,</l> 
+<l>Y en legando son estrelas. </l>
+</quote>
 <p>D. Alonso ia examinando a fisionomia da menina, esperava
 dominá-la pela música e a outra qualquer dominaria, que não
 a ela fria e pouco sensível como era. Ana tinha pintado no
 rosto o temor, porque dera pela falta de Margarida. O
 castelhano adivinhara-o já e continuou: </p>
-<p>Falsos loores os dan. Que essas oentellas tan raias No son nel
-cielo mas claras, Que en los ojos donde estan. Porque cuando
-miro en ellas Lo como alumbran ai suelo, No sé que sean nel
-cielo Mas sé que acá son estrellas. </p>
-<p>Ni se puede presumir Que ai cielo suban senora; Que la lumbre que
-en vós mora, No tiene mas que subir; Mas pienso que dan
-querellas A Dios nel octavo cielo. Porque son acá en el
-suelo Dos tan hermosas estrellas. </p>
+<quote xml:lang="es">
+<l>Falsos loores os dan, </l>
+<l>Que essas oentellas tan raias </l>
+<l>No son nel cielo mas claras, </l>
+<l>Que en los ojos donde estan. </l>
+<l>Porque cuando miro en ellas </l>
+<l>Lo como alumbran ai suelo, </l>
+<l>No sé que sean nel cielo </l>
+<l>Mas sé que acá son estrellas. </l>
+<l>Ni se puede presumir </l>
+<l>Que ai cielo suban senora; </l>
+<l>Que la lumbre que en vós mora, </l>
+<l>No tiene mas que subir; </l>
+<l>Mas pienso que dan querellas </l>
+<l>A Dios nel octavo cielo. </l>
+<l>Porque son acá en el suelo </l>
+<l>Dos tan hermosas estrellas.</l>
+</quote>
 <p>D. Alonso acabara. Ana admirara a letra, a música e a execução,
 mas não lhe pudera a admiração dominar o temor; não se
 iludiu o castelhano, e vendo que não ganhava com aquele
 jogo, desistiu. </p>
-<p>(1) Camões, Redondilhas . </p>
 <p>-- Bonita letra, bela música e melhor execução, Sr. D. Alonso. </p>
 <p>-- Não o mereço, senhora, não o mereço; louvai o poeta, que vos
 louvais a vós. </p>
@@ -1983,7 +2005,7 @@ evidente de realidade. Maria saiu, limpando e escondendo as
 lágrimas. </p>
 </div>
 <div type="chapter">
-<head>EM QUE TOME SE MOSTRA FIEL SERVIDOR E LITERATO </head>
+<head>EM QUE TOME SE MOSTRA FIEL SERVIDOR E LITERATO</head>
 <p>Tomé se chamava o escudeiro de Febo Moniz. Há pequeninas coisas,
 que muitas vezes destroem ou concorrem para grandes
 empresas. Napoleão, dizem, que devera a coroa a umas botas.
@@ -2201,7 +2223,7 @@ e encontrando barco essa mesma tarde, se fez de vela, Tejo
 acima, para Santarém. </p>
 </div>
 <div type="chapter">
-<head>NOTICIA TRISTE </head>
+<head>NOTICIA TRISTE</head>
 <p>Enquanto Tomé vai seguindo seu caminho, nós, amigo leitor,
 entraremos na vila mais depressa para examinar o que há
 passado. </p>
@@ -2424,7 +2446,7 @@ Tomé. </p>
 <p>-- Parto, esta mesma noite largaremos. </p>
 </div>
 <div type="chapter">
-<head>INTERRUPÇÃO QUE O AUTOR FAZ À NARRATIVA </head>
+<head>INTERRUPÇÃO QUE O AUTOR FAZ À NARRATIVA</head>
 <p>Meditai, leitor, no proceder deste homem, sobre quem a
 infelicidade descarrega a um tempo todos os golpes cruéis.
 Vede como ele ferido pela perda da filha, ferido pela ruína
@@ -2597,7 +2619,7 @@ o colo. </p>
 <p>Não é mais belo? </p>
 </div>
 <div type="chapter">
-<head>CONTINUA D. ALONSO A FAZER DAS SUAS </head>
+<head>CONTINUA D. ALONSO A FAZER DAS SUAS</head>
 <p>Muitas coisas e importantes sucederam durante a viagem de Tomé
 para Santarém: tais acontecimentos vão dar assunto para
 estes três capítulos. </p>
@@ -2944,7 +2966,7 @@ que restava da cena era um homem estendido no chão, um vulto
 afastando-se ao longe, e uma janela vazia. </p>
 </div>
 <div type="chapter">
-<head>RESIGNAÇÃO </head>
+<head>RESIGNAÇÃO</head>
 <p>Vê-se do capítulo precedente que D. Alonso, apesar do mau
 resultado, que tivera, na sua entrevista com a filha mais
 velha de Febo Moniz, não desistira de alcançar mais
@@ -3148,7 +3170,7 @@ duas meninas, disse-lhe: </p>
 conversando a sós. </p>
 </div>
 <div type="chapter">
-<head>UMA BRUXA DIFERENTE DE TODAS AS MAIS </head>
+<head>UMA BRUXA DIFERENTE DE TODAS AS MAIS</head>
 <p>A singular entrevista que Ana tivera com D. Alonso promoveu uma
 forte sensação no seu espírito. Agora era o reoeio de que
 seu pai descobrisse o acontecimento, era o desprezo por
@@ -3280,11 +3302,16 @@ feriam, como duas balas de chumbo que lhe pesavam. </p>
 <p>Desceu depois a feiticeira, tomou uma feição menos austera e
 disse-lhe em verso, porque a poesia é a linguagem dos
 deuses: </p>
-<p>-- Vou polo alguidarinho (1), A candeia e o saquinho... E veredes
-labaredas. Se vos tremerem as peles D'espantos e de temores
-Hi estão vossos servidores. Encostade-vos a eles E
-cobride-vos d'amores. </p>
-<p>(1) Vide nota F. </p>
+<quote>
+<l>-- Vou polo alguidarinho, </l>
+<l>A candeia e o saquinho... </l>
+<l>E veredes labaredas. </l>
+<l>Se vos tremerem as peles </l>
+<l>D'espantos e de temores</l>
+<l>Hi estão vossos servidores. </l>
+<l>Encostade-vos a eles </l>
+<l>E cobride-vos d'amores. </l>
+</quote>
 <p>Sumiu-se então atrás da cortina, e ouviu-se um rumor surdo,
 contínuo, e ais e gemidos; o vento assobiava fora e
 estremecia as árvores e baloiçava as copas das canas, e
@@ -3298,40 +3325,77 @@ diante da profetisa sobre um estrado via-se um alguidar de
 barro com água, dentro dele uma panela com sangue de leão e
 fel de coruja, e um saquinho em cima, pleno de feitiços.
 Genebra, correndo as contas, ia dizendo: </p>
-<p>-- Ó Senhora Ladainha Ajudade-m'ora vós. Que já de esperar sam
-farta, E traga as fadas asinha... Cabra preta vai por vinha.
-Vai por vinha, mana minha, </p>
-<p>Te rogamus audi nos. Quando fordes à igreja Não vos esqueça a
-soberba. Tomad'ora meu conselho. Ó açoutes do concelho. Que
-estrearam meus avós </p>
-<p>Te rogamus audi nos. Ladainha da Pereira, Escrita em pele de
-rata. Tinta de pingo de pata, Assada per mão de mógueira. Ó
-picota da Ribeira, Que estrearam meus avós </p>
-<p>Te rogamus audi nos. </p>
+<quote>
+<l>-- Ó Senhora Ladainha </l>
+<l>Ajudade-m'ora vós. </l>
+<l>Que já de esperar sam farta, </l>
+<l>E traga as fadas asinha... </l>
+<l>Cabra preta vai por vinha.</l>
+<l>Vai por vinha, mana minha,</l>
+<l>Te rogamus audi nos. </l>
+<l>Quando fordes à igreja </l>
+<l>Não vos esqueça a soberba. </l>
+<l>Tomad'ora meu conselho. </l>
+<l>Ó açoutes do concelho. </l>
+<l>Que estrearam meus avós</l>
+<l>Te rogamus audi nos. </l>
+<l>Ladainha da Pereira, </l>
+<l>Escrita em pele de rata. </l>
+<l>Tinta de pingo de pata, </l>
+<l>Assada per mão de mógueira. </l>
+<l>Ó picota da Ribeira, </l>
+<l>Que estrearam meus avós</l>
+<l>Te rogamus audi nos. </l>
+</quote>
 <p>Guardou Genebra então com gesto solene o rasário de pupilas
 humanas, e descendo da tripeça, dobrou-se junto ao alguidar,
 e, correndo desenfreada como uma bacante em roda dele, ia
 dizendo numa toada de fazer erriçar os cabelos, poisando-lhe
 as mãos nas bordas: </p>
-<p>-- Alguidar, alguidar, Que feito foste ao luar Debaixo das sete
-estrelas, Com cuspinhos de donzelas Te mandei eu amassar: Ó
-cuspinhos preciosos De beiços tão preciosos Dai ora prazer A
-quem vos bem quer, E dai boas fadas Nas encruzilhadas. </p>
-<p>Este caminho vai pera lá, Est'outro atravessa cá; Vós no meio,
-alguidar, Que aqui cruz não há-de estar. Embora esteis,
-encruzilhada. Perequi entrou, pereli saiu. Bem venhades,
-dona honrada. Vai a estrada pola estrada. Benta é a gata que
-pariu Gato negro, negro é o gato. Bode negro anda no mato.
-Negro é o corvo e negro é o pez, Negro é o rei do enxadrez
-Negra é a vira do sapato, Negro é o saco que eu desato... </p>
+<quote>
+<l>-- Alguidar, alguidar, </l>
+<l>Que feito foste ao luar </l>
+<l>Debaixo das sete estrelas, </l>
+<l>Com cuspinhos de donzelas </l>
+<l>Te mandei eu amassar: </l>
+<l>Ó cuspinhos preciosos </l>
+<l>De beiços tão preciosos </l>
+<l>Dai ora prazer </l>
+<l>A quem vos bem quer, </l>
+<l>E dai boas fadas </l>
+<l>Nas encruzilhadas. </l>
+<l>Este caminho vai pera lá, </l>
+<l>Est'outro atravessa cá; </l>
+<l>Vós no meio, alguidar, </l>
+<l>Que aqui cruz não há-de estar. </l>
+<l>Embora esteis, encruzilhada. </l>
+<l>Perequi entrou, pereli saiu. </l>
+<l>Bem venhades, dona honrada. </l>
+<l>Vai a estrada pola estrada. </l>
+<l>Benta é a gata que pariu </l>
+<l>Gato negro, negro é o gato. </l>
+<l>Bode negro anda no mato.</l>
+<l>Negro é o corvo e negro é o pez, </l>
+<l>Negro é o rei do enxadrez</l>
+<l>Negra é a vira do sapato, </l>
+<l>Negro é o saco que eu desato... </l>
+</quote>
 <p>E aqui tomando de sobre a panela o saco dos feitiços, correu-lhe
 os cordões e abriu-o: nada continha a olhos profanos; mas
 Genebra foi tirando dele: </p>
-<p>-- Isto é fersura de sapo, Que está neste guardanapo. Eis aqui
-mama de porca, Barbas de bode furtado. Fel de morto
-excomungado, Seixinhos dope da forca: Bolo de trigo
-alqueivado Com dous ratos no meu lar. Per minha mão semeado,
-Colhido, moído, amassado. Nas costas do alguidar... </p>
+<quote>
+<l>-- Isto é fersura de sapo, </l>
+<l>Que está neste guardanapo. </l>
+<l>Eis aqui mama de porca, </l>
+<l>Barbas de bode furtado. </l>
+<l>Fel de morto excomungado, </l>
+<l>Seixinhos dope da forca: </l>
+<l>Bolo de trigo alqueivado </l>
+<l>Com dous ratos no meu lar. </l>
+<l>Per minha mão semeado,</l>
+<l>Colhido, moído, amassado. </l>
+<l>Nas costas do alguidar... </l>
+</quote>
 <p>A voz da profetisa percorria nesta singular descrição toda a
 escala de sons que laringe humana pode produzir, desde o
 mais profundo baixo até ao soprano mais agudo; ora uma voz
@@ -3354,17 +3418,28 @@ por um momento a sessão sagrada; ouviu-se depois um assobio
 e o rosto da profetisa asserenou-se ; Ana porém não sei qual
 a atemorizou mais se o trovão, se o assobio. Genebra
 continuou: </p>
-<p>-- Achegade-vos a mim: Que papades meu qu'rubim? Escumas de
-demoninhado Quem vo-las deu? </p>
-<p>Dei-vo-las eu. </p>
-<p>Fel de morto, meu conforto, Bolo cornudo, vós sabedes tudo, Bico
-de pego, asa de morcego. Bafo de drago, tudo vos trago... </p>
+<quote>
+<l>-- Achegade-vos a mim: </l>
+<l>Que papades meu qu'rubim? </l>
+<l>Escumas de demoninhado </l>
+<l>Quem vo-las deu? </l>
+<l>Dei-vo-las eu.</l>
+<l>Fel de morto, meu conforto, </l>
+<l>Bolo cornudo, vós sabedes tudo, </l>
+<l>Bico de pego, asa de morcego. </l>
+<l>Bafo de drago, tudo vos trago... </l>
+</quote>
 <p>Sentiam-se passos e falas no pavimento inferior e aproximavam-se
 : </p>
-<p>-- Eu não juro, nem esconjuro. Mas galo negro suro </p>
-<p>Cantou no meu monturo... </p>
+<quote>
+<l>-- Eu não juro, nem esconjuro. </l>
+<l>Mas galo negro suro</l>
+<l>Cantou no meu monturo... </l>
+</quote>
 <p>Os passos faziam tremer a escada. </p>
-<p>-- Ei-lo Demo vai, ei-lo Demo vem... </p>
+<quote>
+<l>-- Ei-lo Demo vai, ei-lo Demo vem... </l>
+</quote>
 <p>-- O Demo! O Demo aqui está, Genebra! </p>
 <p>Ana levantou-se horrorizada; mas não pôde deixar de querer ver o
 demo; viu-o e mais horrorizada ficou: o demo era D. Alonso. </p>
@@ -3405,7 +3480,7 @@ dentro em dois dias, logo que largasse a velha, a inquisição
 estava de volta com ela. </p>
 </div>
 <div type="chapter">
-<head>AS TURBAS </head>
+<head>AS TURBAS</head>
 <p>Era à noitinha; quando não resta do sol mais do que um clarão
 purpúreo no ocidente, quando as sombras se vão apoderando do
 espaço, as estrelas começam vagamente a tremer no céu, e a
@@ -3646,7 +3721,7 @@ céu e a sua luz iluminava os topes das torres da catedral,
 dando-lhes uma cor sombria, amarela e triste. </p>
 </div>
 <div type="chapter">
-<head>O FEL DEPOIS DO MEL </head>
+<head>O FEL DEPOIS DO MEL</head>
 <p>Febo Moniz entrara em casa meio embriagado pela ovação popular.
 Qual será o espírito forte que alguma hora se não deixasse
 levar, não digo já por um triunfo como aquele merecido e
@@ -3840,7 +3915,7 @@ praticava um dos maiores sacrifícios que o homem pode fazer
 à sociedade. </p>
 </div>
 <div type="chapter">
-<head>O CARDEAL-REI </head>
+<head>O CARDEAL-REI</head>
 <p>A feição resolutamente inimiga que a intimação do Cardeal
 encontrou na assembleia dos procuradores do povo assustou o
 velho rei, e fê-lo por um instante vacilar no trilho errado
@@ -4058,7 +4133,7 @@ acontecesse estava ganha a vitória: era isso que ia
 experimentar. </p>
 </div>
 <div type="chapter">
-<head>O CARDEAL-REI (continuação) </head>
+<head>O CARDEAL-REI (continuação)</head>
 <p>O espectáculo que se desenrola aos olhos do historiador durante o
 breve governo do Cardeal é pungente, é miserável: assiste-se
 ao desmoronar de uma sociedade; é como um morro de terra que
@@ -4318,7 +4393,7 @@ Cardeal vos tinha. </p>
 amor. </p>
 </div>
 <div type="chapter">
-<head>O CARDEAL-REI (Continuação) </head>
+<head>O CARDEAL-REI (Continuação)</head>
 <p>Não obstante termos encontrado já os duque? de Bragança nos
 degraus do paço real, permita o leitor que retrograde e lhe
 pinte a entrada da duquesa na vila de Almeirim, elevada à
@@ -4587,7 +4662,7 @@ senão ceder a D. Filipe? Que forças havíamos de opor à suas?
 </p>
 </div>
 <div type="chapter">
-<head>O CARDEAL-REI (Continuação) </head>
+<head>O CARDEAL-REI (Continuação)</head>
 <p>Enquanto os embaixadores castelhanos, apoiados pelo Cardeal, iam
 abrindo o caminho que o filho de Carlos V devia pisar para
 subir ao trono, enquanto o Prior do Crato, glosando o mote
@@ -4746,11 +4821,15 @@ domina, e, invadindo as ruas e as praças, os becos e as
 vielas, levantando em trono efémero o seu ídolo, o seu
 escolhido, bradava, cantando com vozes miseravelmente
 terríveis: </p>
-<p>Viva el-rei D. Henrique No inferno muitos anos, Pois deixou em
-testamento Portugal aos castelhanos! </p>
+<quote>
+<l>Viva el-rei D. Henrique </l>
+<l>No inferno muitos anos, </l>
+<l>Pois deixou em testamento </l>
+<l>Portugal aos castelhanos! </l>
+</quote>
 </div>
 <div type="chapter">
-<head>ENCONTRA-SE AFINAL A FILHA MAIS VELHA DE FEBO </head>
+<head>ENCONTRA-SE AFINAL A FILHA MAIS VELHA DE FEBO</head>
 <p>Jorrava do nascente um manancial de luz purpureando no horizonte
 o firmamento; começavam os pássaros a trinar nas balsas,
 saudando o levantar do Sol; imia aragem fresca e impregnada
@@ -4955,7 +5034,7 @@ quando despede os seus vividos raios, as rosas semimortas
 recobram viço e frescura e aroma! </p>
 </div>
 <div type="chapter">
-<head>SANTA MARIA DE BELÉM </head>
+<head>SANTA MARIA DE BELÉM</head>
 <p>Vamos encontrar antigos personagens, afastados, mas não
 esquecidos, no decurso deste romance; o primeiro é o fiel
 Tomé, o segundo fr. Marcos, o Jerónimo. </p>
@@ -5146,7 +5225,7 @@ brincadeira do padre, mas resignando-se pelo seu amor à
 arte. </p>
 </div>
 <div type="chapter">
-<head>O AUTO DE FR. MARCOS </head>
+<head>O AUTO DE FR. MARCOS</head>
 <p>Os ódios violentos, a exaltação partidária, fermentando entre os
 grupos pretendentes ao poder, e a quase anarquia, em que a
 dobrez e fraqueza do governo constituído traziam o país,
@@ -5368,7 +5447,7 @@ verdade, levou descaminho. </p>
 decerto parar às mãos do frade. </p>
 </div>
 <div type="chapter">
-<head>UMA LÚGUBRE PÁGINA DE HISTORIA </head>
+<head>UMA LÚGUBRE PÁGINA DE HISTORIA</head>
 <p>Dias depois da entrevista com fr. Marcos, Tomé passeava distraído
 no largo, que se abria defronte do convento de S. Domingos,
 e, deitando os olhos para debaixo do alpendre, lugar
@@ -5773,7 +5852,7 @@ jesuíta, por fim, era simplesmente jesuíta, e dito isto está
 dito tudo, embora me alcunhem de ignorante vulgar. </p>
 </div>
 <div type="chapter">
-<head>O MEL DEPOIS DO FEL </head>
+<head>O MEL DEPOIS DO FEL</head>
 <p>Febo Moniz voltara para Lisboa, dissolvidas as Cortes,
 profundamente desanimado do futuro do seu país. Eram
 decorridos cinco meses depois da morte de D. Henrique e
@@ -5953,7 +6032,7 @@ filha perguntando-lhe : </p>
 <p>-- Oh não, não! Agora não, meu pai! </p>
 </div>
 <div type="chapter">
-<head>MISÉRIAS DO MUNDO </head>
+<head>MISÉRIAS DO MUNDO</head>
 <p>-- Então porque choras, Ana? </p>
 <p>-- Eu, Alonso, eu... não chorava. </p>
 <p>-- Bem, bem; nada de lágrimas, que sou pouco de ternuras. Cara
@@ -6191,7 +6270,7 @@ tomando nos braços o filhinho disse adeus aquela triste
 pousada, e partiu. </p>
 </div>
 <div type="chapter">
-<head>FR. MARCOS PATENTEIA O FUNDO DO SEU CORAÇÃO </head>
+<head>FR. MARCOS PATENTEIA O FUNDO DO SEU CORAÇÃO</head>
 <p>Reclinado em vasta poltrona estava fr. Marcos na sua cela rezando
 sossegadamente no breviário, quando um leigo, batendo com os
 nós dos dedos na parte exterior da porta, veio interromper
@@ -6371,7 +6450,7 @@ tomou o braço que fr. Marcos lhe oferecia. </p>
 primeiros golpes a superfície azulada e límpida do rio. </p>
 </div>
 <div type="chapter">
-<head>VOLTA DA POMBA À ARCA </head>
+<head>VOLTA DA POMBA À ARCA</head>
 <p>Meia hora depois estava percorrido o caminho; aproava o barco às
 portas do mar, e Ana, encostada ao braço de fr. Marcos,
 subia pela rua que leva ao largo da Sé: o frade consolava-a
@@ -6518,7 +6597,7 @@ reprimindo com os beiços um jacto de sangue que lhe subira à
 garganta! </p>
 </div>
 <div type="chapter">
-<head>O ACTO FINAL </head>
+<head>O ACTO FINAL</head>
 <p>Os governadores, sabendo da aclamação do Prior do Crato em
 Lisboa, tremeram; debelar a revolução era-lhes impossível,
 auxiliá-la também: viam-se a braços com a maior angústia, a
@@ -6830,7 +6909,7 @@ dos que fugiam desordenadamente acossados pela cavalaria
 castelhana. </p>
 </div>
 <div type="chapter">
-<head>DERRADEIRA PROEZA DO CASTELHANO </head>
+<head>DERRADEIRA PROEZA DO CASTELHANO</head>
 <p>A batalha, se batalha se pode chamar ao desastre de Alcântara,
 tinha acabado; depois dela começava o que sucede sempre em
 ocasiões análogas: a fuga e a perseguição; o terror de um
@@ -7033,7 +7112,7 @@ fosse mais uma expressão da política adoptada, seria um
 brasão de glória para o rei e para o general. </p>
 </div>
 <div type="chapter">
-<head>FEBO MONIZ </head>
+<head>FEBO MONIZ</head>
 <p>«Aos outros pôs-lhes estátua o Senado, a Catão o mundo.» </p>
 <p>PADRE VIEIRA. Sermões. </p>
 <p>Ao mesmo tempo que nas margens do Alcântara se decidia a sorte da
@@ -7319,7 +7398,7 @@ continuou com uma voz tenuíssima: </p>
 brincar-lhe nos lábios, expirou. </p>
 </div>
 <div type="chapter">
-<head>ÚLTIMAS NOTICIAS </head>
+<head>ÚLTIMAS NOTICIAS</head>
 <p>-- Resta saber agora, perguntará o leitor, se o infame D. Alonso,
 o causador de tamanhas desgraças, ficou impune. </p>
 <p>-- Ficou -- lhe responde a crónica. </p>
@@ -7376,7 +7455,7 @@ libertadora. </p>
 <p>Assim acaba esta história. </p>
 </div>
 <div type="chapter">
-<head>NOTAS </head>
+<head>NOTAS</head>
 <p>«D. Alonso era um Cristóvão de Moura em ponto pequeno.» </p>
 <p>Cristóvão de Moura era português pelo berço, mas castelhano pela
 política. </p>
@@ -7569,8 +7648,8 @@ dispunham, dispersaram os magotes de povo e fizeram abortar
 o plano. </p>
 </div>
 <div type="chapter">
-<head>NOTA FINAL </head>
-<p><foreign xml:lang="la">E pluribus unum. </foreign></p>
+<head>NOTA FINAL</head>
+<p xml:lang="la">E pluribus unum. </p>
 <p>As linhas que se seguem são a explicação e o complemento deste
 livro. </p>
 <p>Pretendeu o autor mostrar nele a agonia e a morte da autonomia
@@ -7854,5 +7933,11 @@ esplendor no céu azul e sereno da humanidade crente em si. </p>
 <p>Lisboa. Outubro de 1867 </p>
 </div>
 </body>
+<back>
+<div type="notes">
+<note xml:id="POR0067-nota-1"> <p>Bernardim Ribeiro -- Menina e moça, Romance de Avalor. </p></note>
+<note xml:id="POR0067-nota-2"> <p>Camões, Redondilhas . </p></note>
+</div>
+</back>
 </text>
 </TEI>

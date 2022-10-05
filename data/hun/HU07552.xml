@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU07552" xml:lang="hu">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU07552" xml:lang="hu">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,10 +24,15 @@
             <measure unit="vols">2</measure>
          </extent>
          <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4271637">ELTeC-hun</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662499">ELTeC-hun release 2.0.0</ref>
+<!--Published as part of ELTeC--></publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
                <title>Hazai rejtelmek : Regény</title>
                <date>2009-11-04</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
@@ -51,13 +61,11 @@
                      
                   </bibl>
                
-            </bibl>
-            <bibl type="firstEdition">
+            </bibl><bibl type="firstEdition">
                <title>Hazai rejtelmek : Regény</title>
                <author>Kuthy Lajos</author>
                <date>1846</date>
-            </bibl>
-         </sourceDesc>
+            </bibl></sourceDesc>
       </fileDesc>
       <encodingDesc n="eltec-0">
          <p/>
@@ -69,11 +77,12 @@
          <textDesc>
             <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
             <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
             <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
          </textDesc>
       </profileDesc>
       <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
          <change when="2019-04-18"/>
       </revisionDesc>
    </teiHeader>
@@ -538,8 +547,8 @@
             <div type="chapter">
                <head>III.</head>
                <head>(A hortobágyi csárda.)</head>
-                  <p>A debreczeni uton addig különböző jelenetek folytak. Egy gyaloghid<hi xml:id="_ftnref2">[2]</hi> czölöpjét kimosta az iménti fellegszakadás, s az
-                     emeletmagas tótszekér alatt lerogyott. Kilencz száraz macska<hi xml:id="_ftnref3">[3]</hi> van elibe fogva, de két szökött katona kihúzná
+                  <p>A debreczeni uton addig különböző jelenetek folytak. Egy gyaloghid<hi n="_ftnref2">[2]</hi> czölöpjét kimosta az iménti fellegszakadás, s az
+                     emeletmagas tótszekér alatt lerogyott. Kilencz száraz macska<hi n="_ftnref3">[3]</hi> van elibe fogva, de két szökött katona kihúzná
                      helyökből. A tót iparkodik ostor- s tengelyemelővel, de mig egyik kerekét
                      kihúzza, a másik merül agyig. Végre azon magyar gondolatra jő: «inkább hátra
                      mint előre» s csikóit az épület farához ragasztja. A csikók igyekeztek is az
@@ -582,7 +591,7 @@
                      butor mindenütt két-három fehér, vagy inkább sárgult fenyűágy, zsáktalan
                      tavalyi szalmával, ugyanolyan asztal, s nehány festetlen szék, melyek dühösen
                      szétvetik durva lábaikat, mint egy perelő gazdasszony. És ezen együgyű
-                     eszközökre ákombákon s irgalmatlanul van besütve a D. V. bilyog,<hi xml:id="_ftnref5">[5]</hi> mely annyit tesz: Debreczen városa. Ez egy
+                     eszközökre ákombákon s irgalmatlanul van besütve a D. V. bilyog,<hi n="_ftnref5">[5]</hi> mely annyit tesz: Debreczen városa. Ez egy
                      dicséretes ősszokás, mely marhán és ékszeren, firól-fira, nagy tiszteletben
                      gyakoroltatik. Különben az ónas ablakokat mészpettyes vasazat őrzi, s függönyök
                      helyett repedt deszkatáblák tesznek szolgálatot, miket csepümadzaggal szoktak
@@ -781,7 +790,7 @@
                      tizennyolcz krajczárral s könnyebb a lelkének, ha lyukas huszast vagy régi
                      kétgarasost adhat fizetéskor.</p>
                   <p>- Pedig mennyi kincse, háza, családja. Tavaly, hogy nyíréskor terhet vittünk
-                     neki, a pesti dunaoldalon tele volt gyapjúval három bagazinja.<hi xml:id="_ftnref9">[9]</hi>
+                     neki, a pesti dunaoldalon tele volt gyapjúval három bagazinja.<hi n="_ftnref9">[9]</hi>
                   </p>
                   <p>- Egy szó mint száz, a bőröket ki nem teregetjük két pint boron alúl, punctum -
                      mondá határozottan a negyedik.</p>
@@ -830,7 +839,7 @@
                   <p>- Löbl Simon.</p>
                   <p>- Soh’se felejtem el.</p>
                   <p>- Fel kék irni minden falu farkán s akasztófára, hogy ne kapjon furmányost
-                     magának - jegyzé meg egyik paraszt, miközben kusztorájából<hi xml:id="_ftnref10">[10]</hi> a lucskos bagót tenyerébe verte.</p>
+                     magának - jegyzé meg egyik paraszt, miközben kusztorájából<hi n="_ftnref10">[10]</hi> a lucskos bagót tenyerébe verte.</p>
                   <p>- Jövőre megkérdem, ha terhet vállalok, s Löbl Simon névre aranyért sem
                      szállítom mázsáját.</p>
                   <p>- Én is, én is - mondák a többiek.</p>
@@ -842,7 +851,7 @@
                      agyagcsatak. Mindnyája reszketett, mint a hideglelős; patkótlan körmeik ide s
                      tova csusztak a bizonytalan sárban, s mig gazdájuk kezdé vetkeztetni a
                         törtszíjhámokból, kétkedő hiszemmel
-                     tekintgettek hátra: vajjon kapnak-e egy marok üszögös ocsút<hi xml:id="_ftnref12">[12]</hi> abrakúl, mi csak két esetben illetheté őket, ha
+                     tekintgettek hátra: vajjon kapnak-e egy marok üszögös ocsút<hi n="_ftnref12">[12]</hi> abrakúl, mi csak két esetben illetheté őket, ha
                      menyasszony alá jártak, vagy nagy út, azaz három-négy mértföld állt
                      előttük.</p>
                   <p>- Gombolja ki kend azt a csára lógóst földi! mert elesik - mond egyik bőrterítő
@@ -859,7 +868,7 @@
                      hátravetett kézzel szóba állott.</p>
                   <p>- Facsarjátok ki kendtek legalább a nagyjából; hisz így meg nem szikkad
                      itéletnapjáig - mondá igazítólag azoknak, csak hogy hibát találjon mások
-                     dolgában, mit szenvedélylyel szokott keresni. «Kefurt»<hi xml:id="_ftnref13">[13]</hi> kiálta azonban egy lompos kuvasznak, mely a szekér alá
+                     dolgában, mit szenvedélylyel szokott keresni. «Kefurt»<hi n="_ftnref13">[13]</hi> kiálta azonban egy lompos kuvasznak, mely a szekér alá
                      sompolygott s egész kényelemmel kezde rágni két-három lenyúlt bőrt.</p>
                   <p>- Tán nem ettünk gombát, mondá az egyik paraszt, ha facsarnánk, mind paczal
                      lenne ez, s karácson napjára sem lennénk vele készek.</p>
@@ -877,7 +886,7 @@
                      másik bőrterítő paraszt.</p>
                   <p>- Hja, de ha az ember egy vagy más bünt bizonyosan nem tud, még sem illik ám
                      felebarátját agyon rágalmazni.</p>
-                  <p>- No Tógyer, azt ugyan meglőtte. Hát felebarát az a vörös Judás Eskiriótes?<hi xml:id="_ftnref14">[14]</hi> mondá ingerlőleg az egyik.</p>
+                  <p>- No Tógyer, azt ugyan meglőtte. Hát felebarát az a vörös Judás Eskiriótes?<hi n="_ftnref14">[14]</hi> mondá ingerlőleg az egyik.</p>
                   <p>- Osztán a ki haszonhajtó cseléddel úgy bánik, arra nincs rágalom. Én arról
                      mindent elhiszek.</p>
                   <p>- Mi is! mi is!</p>
@@ -1070,7 +1079,7 @@
                      nem tudjuk, ki fia.</p>
                   <p>- Hisz azt én sem tudom, de magát...</p>
                   <p>- Mondjuk: nem ismerjük.</p>
-                  <p>- No bizony salavári ficzkók. Kérdjék meg csak bent a nemzetes uramat,<hi xml:id="_ftnref19">[19]</hi> bezzeg tudja ám ő, hogy dobaz pugyillárist
+                  <p>- No bizony salavári ficzkók. Kérdjék meg csak bent a nemzetes uramat,<hi n="_ftnref19">[19]</hi> bezzeg tudja ám ő, hogy dobaz pugyillárist
                      hordoz Lajos úrfi. Minap is egy szálig kifizette, mit a kócsi indzsellérek
                      harmadnapig szekerestől lovastól ettek ittak, mulattak és törtek. Mikor ide
                      kint van, okos bolond neki megy a bornak, mint a csordakút, mindig ő a gazda.
@@ -1225,7 +1234,7 @@
                      megjegyezve, miként nincs mit kimélni a fukar lócsiszárt, kinek zsebe olyan
                      puffadt tárczát hord.</p>
                   <p>- Tizenöt markos sincs; csak dézsát hordani való ily oláh ló. Mégis mivel
-                     mondod, hogy jó futós, minden marokért kapsz öt forintot üstben.<hi xml:id="_ftnref25">[25]</hi>
+                     mondod, hogy jó futós, minden marokért kapsz öt forintot üstben.<hi n="_ftnref25">[25]</hi>
                   </p>
                   <p>- Én tudom, ha ráül, tizet is megigér, kupecz uram; de annyiért sem adom. Csak
                      üljön rá! tessék megpróbálni.</p>
@@ -1255,7 +1264,7 @@
                      betyár, visszakiáltva a hüledő Iczikhez:</p>
                   <p>- Majd csak a városig próbálom a sárgát, hogy gyalog ne menjek. Nem szoktam én
                      lovat soha pénzen venni, de ily borzfogó zabduda ingyen se kell; holnap, ha
-                     keresed, a vásáron leled. - S azzal neki rugaszkodék a sigyepnek,<hi xml:id="_ftnref26">[26]</hi> mint egy fenicziai nyilas, nevetségre hagyva a
+                     keresed, a vásáron leled. - S azzal neki rugaszkodék a sigyepnek,<hi n="_ftnref26">[26]</hi> mint egy fenicziai nyilas, nevetségre hagyva a
                      rémült Icziket, kinek kárvallásán a bőrteregetők leginkább örvendtek.</p>
                   <p>- Prosit a lóvásár, zsidó! - kiált Iczik megett egy gyepensült fiú, ki eddig
                      észrevétlenül hasalt a vágott faboglyán s lószőrgyűrüt tekert vékony
@@ -1352,7 +1361,7 @@
                      pedig óvszer volt a szürke elbukása ellen, mi is e nélkül minden lépten-nyomon
                      meg szokott történni. A talyiga váltig iparkodott a kiállott locomotiv után,
                      biczegvén tengelyén, mint a hízott gácsir, mely untalan ülepére törekszik esni.
-                     A talyiga színig rakva van, de titkait fejtős abrosz fedi, s a nőtlen szekér<hi xml:id="_ftnref31">[31]</hi> farkán egy czíva<hi xml:id="_ftnref32">[32]</hi> szunyókál, ölén tartva nagy fülü kosarat tele fonatossal.</p>
+                     A talyiga színig rakva van, de titkait fejtős abrosz fedi, s a nőtlen szekér<hi n="_ftnref31">[31]</hi> farkán egy czíva<hi xml:id="_ftnref32">[32]</hi> szunyókál, ölén tartva nagy fülü kosarat tele fonatossal.</p>
                   <p>Díszfogatunk a fogadóhoz ért. Harangi lekapaszkodék a megvedlett nyeregből, s
                      isten segedelmével talpra állt. Hosszú lófejű, tüskés hajú, ürgeszin bajuszú
                      goromba férfiú, ötvenen felül. Ádámcsutkája vastag, nyaka vékony és
@@ -1647,7 +1656,7 @@
                      dolgaiban eszes, gondos, ügyes, találékony: hideg közönynyel s tudvágy nélkül
                      néz minden jelenetet, mit nem ismer, vagy megfejteni nem tud, legyen az
                      meglepő, szokatlan, vagy rémes, épen úgy, mint a földi rang tartozékait vagy
-                     haladó művészet teremtményeit. És ez újabb tényjel,<hi xml:id="_ftnref38">[38]</hi> miként ez osztály folyvást közel áll az anyatermészethez. Mint
+                     haladó művészet teremtményeit. És ez újabb tényjel,<hi n="_ftnref38">[38]</hi> miként ez osztály folyvást közel áll az anyatermészethez. Mint
                      több állatfaj, élénk, okos, ravasz, s önérdekeiben az embert is kijátsza; de
                      ösztöne magán kivül nem terjed, s idegen tárgyak, esetek irányában nála minden
                      hatás, fogékonyság s eszmélet megszünik. Észrevételem nem föltételezi, mintha
@@ -2439,7 +2448,7 @@
                   <p>- S minő egyszerűség egész művészete. Tollkéssel teszi fel gyéren a körrajzot,
                      ugyanazzal karczolgatja a hajszálfinom művet, s pipamocsokkal befeni a kész
                      metszvényt.</p>
-                  <p>- Pedig jobb kezén nincs használható ujja; a balon is csak három.<hi xml:id="_ftnref42">[42]</hi>
+                  <p>- Pedig jobb kezén nincs használható ujja; a balon is csak három.<hi n="_ftnref42">[42]</hi>
                   </p>
                   <p>- Kedves szerzeményem, mondhatom, e rabszár, megjegyzé Lajos, mint minden
                      alföldi készítmény, mi sajátsággal bir, s önnemében jeles.</p>
@@ -2675,7 +2684,7 @@
                      levelei éltető nedűt fogtak fel szártövön a felhőszakadásból. És ott kékes
                      pókhálóba szőve terjed a bojtorjánliget, melynek kesernyés magvain ezer
                      tengeliczék dalolva telelnek, s barátságos vaczkát csomolygós serényén
-                     évről-évre hordja a potrohos csikó. Az óriás lapuk vetélkednek a musa<hi xml:id="_ftnref46">[46]</hi> levéllel s árnyain jóllakott tarka baromfiak
+                     évről-évre hordja a potrohos csikó. Az óriás lapuk vetélkednek a musa<hi n="_ftnref46">[46]</hi> levéllel s árnyain jóllakott tarka baromfiak
                      bibirkélik nedves tollaikat. S e fényes simazöld csuda faerdőcske mily izmosan
                      tartja törzsén tiszta ágait. Fehér tölcsérével túlvirágzik halvány pukkantóján,
                      s festékes levele szeszélyes czikkczakkal kétágú ágak közt tüskés gyümölcsöt
@@ -2705,11 +2714,11 @@
                      ki jobban birja forgatni a hálót. Pedig fele sem igaz; mert az öreg most is úgy
                      hányja a hurkot, hogy a legerősebb révész is csudálja; a pendelyhálót meg úgy
                      kiveti mindig, hogy egy ránczot sem vet, ha a vízre terül. Most már megunta a
-                     sokat. Néha bokorhálót ha vet a harcsák kedveért; s legfeljebb koczával<hi xml:id="_ftnref48">[48]</hi> mulatja magát vagy szákkal<hi xml:id="_ftnref49">[49]</hi> szedeget vízi húst. Gyalommal ritkán
+                     sokat. Néha bokorhálót ha vet a harcsák kedveért; s legfeljebb koczával<hi n="_ftnref48">[48]</hi> mulatja magát vagy szákkal<hi xml:id="_ftnref49">[49]</hi> szedeget vízi húst. Gyalommal ritkán
                      bajoskodik. Vejész körül, olykor ha rákot
                      borogat.</p>
                   <p>- Nekem hát becsület, hogy most hálóvezér?</p>
-                  <p>- No de milyen. Ezelőtt csak elment, ha a füredi kanposseratus<hi xml:id="_ftnref51">[51]</hi> halászatot tartott; de most negyedéve Józsa
+                  <p>- No de milyen. Ezelőtt csak elment, ha a füredi kanposseratus<hi n="_ftnref51">[51]</hi> halászatot tartott; de most negyedéve Józsa
                      eczetes borral traktálta, s nem adott egyéb fizetést egy füzér döglött
                      csukánál; pedig a holt Tiszán voltak öreg hálóval; s a ki ott beesik, nem szeg
                      több karé kenyeret. Azóta nem megyen Poncziusnak se, pedig gyakran
@@ -2723,7 +2732,7 @@
                      tiszteletét, bebizonyítsa: saját mocskos markával a zöld magyarka hátulsó
                      zsebébe surrantá. Aztán, mint ki szénáját jól rendezé, tovább ment a
                      mulatásban.</p>
-                  <p>- A meg az árva halász, az ismétlő félen; az a laptározó.<hi xml:id="_ftnref52">[52]</hi>
+                  <p>- A meg az árva halász, az ismétlő félen; az a laptározó.<hi n="_ftnref52">[52]</hi>
                   </p>
                   <p>- Az apja halt meg?</p>
                   <p>- Biz annak az öreg apja él.</p>
@@ -3520,7 +3529,7 @@
                      a szárazra. Kilencz esztendeje, ott a fűz tövénél egy tokot is fogtunk, az
                      áradás hozta fel a nagy Tiszából. A drágaság előtt meg mázsás harcsát kaptunk,
                      itt a vizkönyöknél; de már öt-hat idén kiveszett a nagy hal. Azóta nyaranként
-                     nem fogy a vizihús; még héjjas férget<hi xml:id="_ftnref56">[56]</hi> sem kap annyit az ember.</p>
+                     nem fogy a vizihús; még héjjas férget<hi n="_ftnref56">[56]</hi> sem kap annyit az ember.</p>
                   <p>- Úgy hát alkalmasint hiában fárasztom.</p>
                   <p>- De’szen, ha bő a víz, halban nincsen szükség. Úgy hiszem, nagy barom akadt a
                      hálóba, mert karom rángatja. Aztán meg a Cziriák-öböl soh sincsen hús nélkül,
@@ -3598,7 +3607,7 @@
                      Gondja, eszméje, foglalkodási, az őskunyhói szegény gazdaságban s öröme nyájas
                      cziczájával oszlék meg, melynek piros nyakkötője volt Zsuzsika legértékesebb
                      drágasága. Minden istenadta nap templomba járt s irtózatosabb reá nézve nem
-                     volt elképzelhető, mintha valaki eklézsiát követ.<hi xml:id="_ftnref59">[59]</hi> Első távolléte anyja nélkül ez vala, miről a becsületes Cziriák
+                     volt elképzelhető, mintha valaki eklézsiát követ.<hi n="_ftnref59">[59]</hi> Első távolléte anyja nélkül ez vala, miről a becsületes Cziriák
                      őrködése lőn kezes, s mi csak azért engedteték meg, hogy beteges napának halat
                      vigyen haza, míg a férfiak, mint Lajos hivott vendégei, Hortobágyon lesznek.
                      Most az ártatlanka elrabolva hivé védett szűzességét. Ő, a tiszta, érintetlen
@@ -8522,7 +8531,7 @@
                      úti bútora. Most feje búbján állott tótágast az akaratos kas, majd a saraglyát
                      ölté tarkójára, mint egy nemzeti kokárdát, vagy a kasfarban rángattatá magát
                      enyves marku édes szülöttével, míg amaz palástul köté fel a lánczos saraglyát,
-                     vagy istenben bizó pofával kapta hóna alá, mint egy nyebeczka zahradát.<hi xml:id="_ftnref63">[63]</hi>
+                     vagy istenben bizó pofával kapta hóna alá, mint egy nyebeczka zahradát.<hi n="_ftnref63">[63]</hi>
                   </p>
                   <p>Korcsmáros úr szeretett volna nevetőtárs lenni a parasztok között, kiket a
                      szeszélyes beszély fülig felvidított; de komoly gondja a bántó fájdalom,
@@ -8606,7 +8615,7 @@
                      műkiállításait.</p>
                   <p>De mit érdeklé mindez ordas pánszlávunkat, ki álom s fölocsudás után úgy
                      kiéhezett, mint egy tavalyi verem? Ugyanazért nem is soká hivatá magát, hanem
-                     úttársul szegődék a majoroshoz, ki egy fakó talyigán<hi xml:id="_ftnref66">[66]</hi> éppen beszamarolt.</p>
+                     úttársul szegődék a majoroshoz, ki egy fakó talyigán<hi n="_ftnref66">[66]</hi> éppen beszamarolt.</p>
                   <p>Máté úr pártfogó mosolylyal köszönté; kiadatván rögtön két tekercs drótját, a
                      pitykés szeredást, rézfokost s többi úti járulékit, mik országos hivatalához
                      tartoztak, s miknek kasza-felvételkor letét őrévé lőn.</p>
@@ -8652,7 +8661,7 @@
                      Szlupuj ünnepnapon olykor nagyot álmodék; s a porhanyó pecsenye egész bűverejét
                      gyakorlá a nyeldeső szemekben. Ah! Mily ellenállhatlanul kinálta magát a
                      gőzölgő kakas! Hova legyen, lehetetlen volt csak egy czombbal is
-                     megpróbálkoznia. Még is neki esék a kisértő martaléknak mint egy Bruhopesz.<hi xml:id="_ftnref67">[67]</hi>
+                     megpróbálkoznia. Még is neki esék a kisértő martaléknak mint egy Bruhopesz.<hi n="_ftnref67">[67]</hi>
                   </p>
                   <p>Hiába; lehetetlen lőn minden további erőszakoskodás. Tehát neki dőlt az illatos
                      tálnak, s orrát nyitá meg a boldogító pára előtt, hogy egyik érzéke legalább
@@ -8661,7 +8670,7 @@
                      ülni, sem állni, sem feküdni nem tudott a megrakott has miatt.</p>
                   <p>Másnap, midőn szólani tudott, hálás könyűt törle pillátlan szeméből, s dicsérve
                      Agárdiné asszony bőkezűségét, csak egy keserű észrevételben kivánta jó útra
-                     vezetni: hogy máskor: javat tálalna előre, mert most nye zna na stol davacz.<hi xml:id="_ftnref68">[68]</hi>
+                     vezetni: hogy máskor: javat tálalna előre, mert most nye zna na stol davacz.<hi n="_ftnref68">[68]</hi>
                   </p>
                   <p>A bevégzett mesére üdvözlő áldomást ittak a diákért, ki oly módosan elvégzé
                      mondókáját; a ház gazdája pedig, ki már veszélyt kezde gyanítni a próbatét

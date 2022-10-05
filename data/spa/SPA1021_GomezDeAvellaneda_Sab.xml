@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xml:id="SPA1021" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="http://www.w3.org/1999/xhtml" xml:id="SPA1021" xml:lang="es">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -22,10 +25,10 @@
 			</extent>
 			<publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -52,8 +55,8 @@
 		</encodingDesc>
 		<profileDesc>
 			<langUsage>
-				<language ident="SPA" usage="99">Español castellano</language>
-				<language ident="ITA" usage="01">Italiano</language>
+				<language ident="SPA">Español</language>
+				<language ident="ITA">Italiano</language>
 			</langUsage>
 			<textDesc>
 				<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
@@ -63,6 +66,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2019-02-13">Anotación formato ELTeC y revisión del texto: Borja Navarro Colorado</change>
 		</revisionDesc>
@@ -5634,7 +5638,7 @@ jamás. Mi patrimonio, aunque corto, cubre la dote
 que necesito para ser admitida, y dentro de un año
 espero que me será permitido pronunciar mis votos.</p>
  <p>A Dios Carlota, a Dios Enrique... amaos y sed felices.</p> 
-<p><hi rend="italic">Teresa</hi>.</p>
+<p><emph>Teresa</emph>.</p>
  <p>-¡Oh Enrique!- exclamó Carlota-. ¡Ya lo ves! Todo
 se reúne para afligirme, para hacer triste y sombrío
 este día de nuestra unión: ¡este día
@@ -6055,7 +6059,7 @@ y la muerte la rodea: ella duerme junto a dos moribundos:
 ver hace un momento su frente calva, surcada por los años
 y por los dolores, reposar fatigada sobre mi pecho, y cuando
 su voz -aquella voz que me ha dado el dulce nombre de hijo-,
-me decía «<hi rend="italic">Sólo tú me quedas en el mundo</hi>»,
+me decía «<emph>Sólo tú me quedas en el mundo</emph>»,
 en aquel momento he deseado la vida y he llevado convulsivamente
 las manos sobre mi corazón, para arrancar de él
 el dolor que me mata.</p>  <p>¡Ah!, sí la muerte era mi único
@@ -6212,9 +6216,9 @@ era el sello de una fatalidad eterna, una sentencia de muerte
 moral.</p>  <p>Un día Carlota leyó un drama en el
 cual encontré por fin a una noble doncella que amaba
 a un africano, y me sentí trasportado de placer y
-de orgullo cuando oí a aquel hombre decir: «<hi rend="italic">No es
+de orgullo cuando oí a aquel hombre decir: «<emph>No es
 mi baldón el nombre de africano, y el color de mi
-rostro no paraliza mi brazo</hi>.» ¡Oh sensible y desventurada
+rostro no paraliza mi brazo</emph>.» ¡Oh sensible y desventurada
 doncella! ¡Cuánto te amaba yo! ¡Oh Otelo! ¡Qué
 ardientes simpatías 
 <pb n="137"/> encontrabas en mi corazón!
@@ -6342,7 +6346,7 @@ de mí. ¿No veis? Es ella, es Carlota, con su anillo
 nupcial y su corona de virgen... ¡pero la sigue una tropa
 escuálida y odiosa...! Son el desengaño, el
 tedio, el arrepentimiento... y más atrás ese
-monstruo de voz sepulcral y cabeza de hierro... <hi rend="italic">¡lo irremediable!</hi> ¡Oh!, ¡las mujeres! ¡Pobres y ciegas víctimas! Como
+monstruo de voz sepulcral y cabeza de hierro... <emph>¡lo irremediable!</emph> ¡Oh!, ¡las mujeres! ¡Pobres y ciegas víctimas! Como
 los esclavos ellas arrastran pacientemente su cadena y bajan
 la cabeza bajo el yugo de las leyes humanas. Sin otra guía
 que su corazón ignorante y crédulo eligen un

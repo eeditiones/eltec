@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3008" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA3008" xml:lang="es">
 
 <teiHeader>
   	<fileDesc>
@@ -19,10 +22,10 @@
 		</extent>
 		<publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -55,8 +58,8 @@
 		</encodingDesc>
 		<profileDesc>
 			<langUsage>
-    				<language ident="spa" usage="98">Español</language>
-				<language ident="lat" usage="02">Latín</language>
+    			<language ident="SPA" usage="98">Español</language>
+				<language ident="LAT" usage="02">Latín</language>
 			</langUsage>
 			<textDesc>
 				<authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
@@ -66,6 +69,7 @@
 			</textDesc>  
 		</profileDesc>
      <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 		<change when="2020-01-09">Anotación formato ELTeC y revisión del texto: Carlos Mario Lopez Tombe</change>
 		<change when="2020-02-04">Revisión y corrección de la anotación formato ELTeC: Borja Navarro Colorado</change>
@@ -109,7 +113,7 @@ me faltan:
      
 
      
-      <l><foreign xml:lang="lat">
+      <l><foreign xml:lang="LAT">
         «Dominus dedit; Dominus abstulit.
        </foreign></l>
       
@@ -117,7 +121,7 @@ me faltan:
       <l>
        
 
-       <foreign xml:lang="lat">
+       <foreign xml:lang="LAT">
         Sicut Domino placuit, ita factum est».
        </foreign>
        
@@ -653,7 +657,7 @@ reflexión contraria a lo convenido,
     <p>
      y 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Alea jacta est
      </foreign>
      me dije, como César, resuelto a pasar a todo trance mi correspondiente Rubicón.
@@ -2511,14 +2515,14 @@ así, Cura?
     <p>
      -
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Est Deus in nobis
      </foreign>
      -respondió éste
 moviendo la cabeza de un lado a otro, como quien afirma algo bueno
 que es además indiscutible-. No hay que darle vueltas, 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       est Deus in nobis, semper et ubique
      </foreign>
      . Y
@@ -2640,14 +2644,14 @@ por indudable.
     <p>
      -
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       A custodia matutina usque ad noctem speret
 Israel in Domino
      </foreign>
      -confirmó don Sabas-, sin contar con lo
 que tengo dicho y no me cansaré de repetir: 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       est Deus in nobis
      </foreign>
      ; y por eso no hay
@@ -4386,7 +4390,7 @@ Tablanca, donde son todos la misma cortesía; pero yo era además
 sobrino carnal de don Celso, hijo «del difunto don Juan Antonio»,
 sangre de los Ruiz de Bejos, de la enjundia nobiliaria de Tablanca,
 de la «casona» «de allá arriba...», vamos, de los Faraones de allí;
-algo indiscutible, prestigioso y respetable <foreign xml:lang="lat">per se</foreign>
+algo indiscutible, prestigioso y respetable <foreign xml:lang="LAT">per se</foreign>
 y como de derecho divino; pero no a la manera autoritaria y despótica de las tradiciones feudales,
 sino a la patriarcal y llanota de los tiempos bíblicos.
     </p>
@@ -5837,7 +5841,7 @@ picacho, es la última de las luminarias con que el mundo festeja a
 su Creador mientras el sol anda apagado por los abismos de la
 noche? ¡Cosa buena! ¡Cosa grande! 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Laudate Dominum omnes gentes... Magnificentia
 opus ejus, manet in aeternum
      </foreign>
@@ -6167,7 +6171,7 @@ alturas majestuosas:
     <p>
      -
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Excelsus super omnes gentes, Dominus, et super
 coelos... gloria ejus
      </foreign>
@@ -8885,7 +8889,7 @@ Como que se había jactado más de una vez delante de mí, de que con
 esas ataduras había de amarrarme él a la tierra de mis mayores, y
 para siempre jamás, «
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       per saecula saeculorum
      </foreign>
      »: así, hasta en
@@ -11418,7 +11422,7 @@ pasapán...»
     <p>
      Era lo mismo, 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       plus minusve
      </foreign>
      , que ya me había dicho
@@ -13463,9 +13467,9 @@ entreabierta, la respiración anhelosa y difícil, y un estertor en
 el pecho que parecía el de la muerte. Recitaba, sílaba a sílaba,
 salmos del 
 
-     <hi rend="lat">
+     <title>
       Miserere
-     </hi>
+     </title>
      ... y yo no supe qué hacer ni qué
 decirle en los primeros momentos: me imponía aquel cuadro que nunca
 había visto, y sentía al mismo tiempo mucha compasión. Contando con
@@ -14699,7 +14703,7 @@ demás corre de nuestra cuenta. Ya daremos con el gato, por
 escondido que esté. Si hay alguno demasiado ligero de sueño, boca
 abajo para 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       in saecula
      </foreign>
      en cuanto se despierte, y el
@@ -15011,7 +15015,7 @@ estaba el que yo temía para aquella noche, si las amenazas del
 baratijero se realizaban, o no venía a impedirlo y arreglarlo todo
 el 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       deus ex machina
      </foreign>
      de la nieve, en la
@@ -15823,7 +15827,7 @@ y patética, este versículo del
     <p>
      
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Ecce enim in inquitatibus conceptus sum: et in
 pecatis concepit me mater mea
      </foreign>
@@ -15846,7 +15850,7 @@ otro salmo:
     <p>
      
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Ecce enim veritatem dilexisti: incerta et oculta
 sapientiae tuae manifestati mihi
      </foreign>
@@ -15865,7 +15869,7 @@ sepultura, respondió a las palabras del sacerdote:
     <p>
      
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Averte faciem tuam a pecatis meis: et omnes
 iniquitates meas dele
      </foreign>
@@ -16957,7 +16961,7 @@ vicaría en el canto fúnebre, y, por ende, no faltó el párroco de
 Zarzaleda, que era una especialidad muy admirada, y no sin razón de
 fundamento, para entonar el 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Dies irae
      </foreign>
      con su voz atenorada y

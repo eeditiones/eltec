@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0100" xml:lang="pt">   
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="POR0100" xml:lang="pt">   
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -16,17 +19,11 @@
 </respStmt>
 </titleStmt>
 <extent>
-<measure unit="words">136960</measure>
+<measure unit="words">134088</measure>
 </extent>
 <publicationStmt>
-<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
-<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.3492067">ELTeC-por</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271644">ELTeC-por release 0.9.0</ref>
-<!--Adicionado à coleção ELTeC 14 de maio de 2020. --></publicationStmt>
+<p>Adicionado à coleção ELTeC <date>14 de maio de 2020</date>. </p>
+</publicationStmt>
 <sourceDesc><bibl type="digitalSource">
 <author>Luciano Cordeiro</author>
 <title>A senhora duqueza</title>
@@ -56,7 +53,6 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
-<change when="2020-11-14">Converted by checkUp script for new release</change>
 <change when="2020-05-14">Adicionado à coleção ELTeC</change>
 </revisionDesc>
 </teiHeader>
@@ -117,7 +113,7 @@
 <p>Casos succedem no mundo que parece se descuida Deus do governo d'elle...</p>
 <p>A. Vieira. - Or. fun. nas exeq. de D. Maria de Athayde</p>
 <p>O caso, -- como nol-o transmittiu a Historia, -- meio perdido por anecdota banal nos ruidos espantosos de uma época em que germinava um mundo; -- como o tem querido devassar e reconstruir a Arte nos estos insaciaveis da sua inspiração creadora, -- o caso foi este: -- simples e nitido. </p>
-<p>Ás duas horas, -- «ante-manhã,» -- de 2 de novembro de 1512, -- dia de Finados, -- entravam açodadamente nas casas que o Duque de Bragança fizera construir no reguengo de Villa Viçosa, e onde habitava com a esposa, os filhos e a famulagem domestica, -- o bacharel Gaspar Lopes,   ouvidor de Sua Senhoria, João Alvares Mouro, <ref target="#POR0100-nota-3"/>  juiz ordinario da Villa, e Álvaro Pacheco, tabellião, acordados, no melhor do seu somno, por um recado terminante do Duque, para que fossem ali. </p>
+<p>Ás duas horas, -- «ante-manhã,» -- de 2 de novembro de 1512, -- dia de Finados, -- entravam açodadamente nas casas que o Duque de Bragança fizera construir no reguengo de Villa Viçosa, e onde habitava com a esposa, os filhos e a famulagem domestica, -- o bacharel Gaspar Lopes, <ref target="#POR0100-nota-2"/>  ouvidor de Sua Senhoria, João Alvares Mouro, <ref target="#POR0100-nota-3"/>  juiz ordinario da Villa, e Álvaro Pacheco, tabellião, acordados, no melhor do seu somno, por um recado terminante do Duque, para que fossem ali. </p>
 <p>Seguia-os de perto o escrivão Diogo de Negreiros. <ref target="#POR0100-nota-4"/> </p>
 <p>Aquellas casas foram o inicio do grandioso Paço actual, e uma parte d'ellas conserva-se com a sua feição, até com a sua traça primitiva, facilmente destrinçavel, no meio das largas e sobrepostas construcções posteriores. </p>
 <p>Procurando maiores commodidades e larguezas á sua prosapia solarenga, fugindo talvez, tambem, ás sombrias recordações da infância, o Duque abandonara o velho -- «Castello da Menagem,» <ref target="#POR0100-nota-5"/>  -- estreito e arruinado, onde mal poderia expandir-se a rejuvenescida grandeza da sua Casa ao sopro estimulante da Renascença. </p>
@@ -176,10 +172,12 @@
 <p>Fôra o Rei D. Manuel, quem laboriosamente, com um grande cuidado de Pae e com um grande tino de Politico, escolhera esta Duqueza para que por ella continuasse e se consolidasse, junto da Coroa nacional, a forte e poderosa Casa que restaurara em D. Jayme. </p>
 <p>É possivel que nem todas estas apprehensões, ou que muitas outras, atormentassem os cerebros mal dormidos das justiças de Villa Viçosa, mas é muito presumivel que ao abrirem a sua -- «inquirição devassa» <ref target="#POR0100-nota-16"/>  n'uma das salas do Paço ducal, ellas se apercebessem que um outro juiz assistia, invisivel e sereno, á grave ceremonia, ou sentissem que alguma cousa insolita e superior penetrava através das paredes e das consciencias: -- ou fosse o olhar de Deus, ou fosse a magestade do Rei, ou fosse um raio da Historia... ou fosse simplesmente a curiosidade indiscreta, malevola, irreductivel de Toda-a-Gente. </p>
 </div><div type="chapter"><head>II</head>
-<p>Estavas linda Ignez posta em socego</p>
-<p>Do teus annos gosando o doce fruito...</p>
+<quote>
+<l>Estavas linda Ignez posta em socego</l>
+<l>Do teus annos gosando o doce fruito...</l>
+</quote>
 <p>Camões. - Lusiadas.</p>
-<p>Menor de doze annos e maior de sete, »-- que é quanto dizem os velhos papeis,   e com que se teem contentado os modernos e pouco teimosos investigadores, -- Leonor de Mendonça soubera um dia, por fins de setembro de 1500, em S. Lucar de Barrameda,   que se achava casada em Lisboa com o -- «mui illustre e excellente senhor Dom James, <ref target="#POR0100-nota-19"/>  Duque de Bragança e de Guimarães.» </p>
+<p>Menor de doze annos e maior de sete, »-- que é quanto dizem os velhos papeis, <ref target="#POR0100-nota-17"/>  e com que se teem contentado os modernos e pouco teimosos investigadores, -- Leonor de Mendonça soubera um dia, por fins de setembro de 1500, em S. Lucar de Barrameda, <ref target="#POR0100-nota-18"/>  que se achava casada em Lisboa com o -- «mui illustre e excellente senhor Dom James, <ref target="#POR0100-nota-19"/>  Duque de Bragança e de Guimarães.» </p>
 <p>Como a fidalguinha andaluza receberia, entre alegre e amuada, as graves cortezias da nobreza da Villa, os graciosos cumprimentos dos irmãosinhos, as felicitações aguadas pela idéa d'uma proxima ausencia, -- que devia ser eterna, -- dos velhos companheiros e capitães do pae, os rudes soldados de Granada e Melilla, costumados a vel-a folgar e correr, menina e moça, por aquellas veigas do Guadalquibir!... </p>
 <p>Ouvira já fallar n'isto. </p>
 <p>Mezes antes, muito provavelmente, começariam as donas e a gleba da casa a chamar-lhe, n'um grande respeito amoravel, -- «a senhora duqueza,» -- como alguns annos depois os escribas de Villa Viçosa quando lhe «devassavam» a honra de mulher e de esposa sobre o mal arrefecido cadaver, com todas as reverencias do estylo. </p>
@@ -193,7 +191,7 @@
 <p>Tomára novos amores. </p>
 <p>Terceiro duque de Medina Sidonia, quinto conde de Niebla, mais tarde primeiro marquez de Caçaça; oitavo morgado de S. Lucar, Bejel e Almadrava, senhor de Gibraltar, Ximena, Chinclana, Gausin, -- con su serrania (a Ronda), Huelva, Montecorto, Conil, Zahara, etc. -- fronteiro-mór da Andaluzia, -- Adelantado mayor de la frontera: -- D. João de Gusmão, ou mais propriamente D. Juan de Guzman, era um dos mais levantados e prestigiosos fidalgos de Castella, não só pela prosapia herdada, como pela desempenada grandeza de seu animo e de seu trato que lh'a fortalecia e augmentava em toda a Andaluzia e na Côrte. <ref target="#POR0100-nota-22"/> </p>
 <p>Essa prosápia tinha ramificações numerosas e brilhantes na heraldica peninsular que subiam orgulhosamente a enroscar-se nos mais gloriosos thronos. </p>
-<p>Só á sua parte, uma formosa Gusmão, -- la mas apuesta muger que avia en el regno,   -- no tempo de Affonso XI, seu insaciavel amante, o marido da nossa infanta D. Maria,   a ... carissima (?) consorte Mulher de quem a manda e filha amada D'aquelle a cujo reino foi mandada, -- só essa Gusmão, acerescentára consideravelmente na sua «prodigiosa fecundidade,» como diz um grave historiador, a nobreza da Península. <ref target="#POR0100-nota-25"/>  </p>
+<p>Só á sua parte, uma formosa Gusmão, -- la mas apuesta muger que avia en el regno, <ref target="#POR0100-nota-23"/>  -- no tempo de Affonso XI, seu insaciavel amante, o marido da nossa infanta D. Maria, <ref target="#POR0100-nota-24"/>  a ... carissima (?) consorte Mulher de quem a manda e filha amada D'aquelle a cujo reino foi mandada, -- só essa Gusmão, acerescentára consideravelmente na sua «prodigiosa fecundidade,» como diz um grave historiador, a nobreza da Península. <ref target="#POR0100-nota-25"/>  </p>
 <p>Outra Gusmão, tambem, a bastarda de Affonso X, fôra desde os oito ou nove annos, rainha de Portugal, -- e uma boa e santa rainha a quem o pae dera os senhorios de Niebla e de Elche. <ref target="#POR0100-nota-26"/>  </p>
 <p>Dos antepassados varões bastava a memoria de Affonso Peres de Gusmão el Bueno, o verdadeiro fundador da Casa, para lhe sobredourar o nome no respeito das gerações. </p>
 <p>El Bueno, um aventureiro intrepido e um notavel capitão, estivera ao serviço do Rei de Marrocos n'uma d'aquellas treguas entre christãos e mouros aproveitadas, por uns e por outros, para se dilacerarem intestinamente. Ali começára a amontoar o grande thesouro tão cubiçado e disputado depois. </p>
@@ -342,7 +340,7 @@
 </div><div type="chapter"><head>IV</head>
 <p>Depois de vós...</p>
 <p>Lemma da Casa de Bragança, restaurada em D. Jayme.</p>
-<p>D. Jayme era o segundo filho do terceiro Duque de Bragança, D. Fernando II, o das pernas gordas,   e da Duqueza D. Isabel, filha do Infante D. Fernando, Duque de Vizeu. <ref target="#POR0100-nota-48"/>  </p>
+<p>D. Jayme era o segundo filho do terceiro Duque de Bragança, D. Fernando II, o das pernas gordas, <ref target="#POR0100-nota-47"/>  e da Duqueza D. Isabel, filha do Infante D. Fernando, Duque de Vizeu. <ref target="#POR0100-nota-48"/>  </p>
 <p>Nascera aos 22 de julho de 1478: -- tinha pois cinco annos, apenas, quando uma tempestade de sangue e de terror o atirou, e aos pequenos irmãos, -- orphãos e desvalidos, -- para o exilio. <ref target="#POR0100-nota-49"/>  </p>
 <p>O pae era decapitado em Evora, em 1483; -- um tio apunhalado em Setubal, pelo proprio Rei; -- outro executado em estatua, -- as Casas de Bragança e de Vizeu sequestradas e dispersas. </p>
 <p>Na torva intriga das pretensões senhoriaes e da politica castelhana, a fraqueza dos desventurados chefes das duas poderosas Familias, trahira-lhes desalmadamente a tradição nacional e popular da dynastia de João I, que era a d'ellas, e que só a de Bragança havia de saber resgatar nobremente na restauração da Independencia portugueza, quasi dois seculos depois. </p>
@@ -428,7 +426,7 @@
 <p>EM VILLA VIÇOSA </p>
 </div><div type="chapter"><head>V</head>
 <p>Não se póde dar regra certa para todos. </p>
-<p>M. Bern. Pão Part., 1.ª parte, </p>
+<p>M. Bern. Pão Part., 1.ª parte. </p>
 <p>Quantas vezes, desde que repassára a fronteira. -- homem feito, restituido á grandeza, a familia, ao valimento regio, ao respeito popular, -- quantas vezes volveria elle os olhos, cheio de funda saudade, -- ao tempo em que, exilado, quasi sem nome, pobre de recursos, entre estranhos insolentes de poderio e de riqueza, escondido receiosamente na sombra d'uma protecção precaria, -- era livre, ao menos, bem mais livre, certamente, -- se alguma vez o fora, -- no coração, no pensamento, na vontade!... </p>
 <p>Agora, a situação era outra : -- o coração, que lhe desabrochava em plena adolescencia, tinha de retrahir-se e conter-se nas conveniencias e nos interesses d'uma vontade alheia; -- a vontade que lhe saltitava, talvez, fremente e leviana, nas illusões e nos impetos da mocidade, -- como avesinha que ensaiava os primeiros voos, -- tinha de recolher-se, muda e inerte, no pensamento e nos calculos da politica real. E que politica, a d'aquelles tempos!... </p>
 <p>A propria familia lhe era mais estranha do que os estranhos que deixára. </p>
@@ -518,7 +516,7 @@
 <p>Como uma «alma tisnada de fanático»! <ref target="#POR0100-nota-67"/> </p>
 <p>Chãmente, como uma «devota besta fera»! <ref target="#POR0100-nota-68"/>  </p>
 </div><div type="chapter"><head>VI</head>
-<p>A vaporibus prauis in ventriculo multiplicatis ascenditibus ad cerebrum, aegros in grauissima pericula, deprauatas imaginationes, et innumeras delirij fortes incidere, probat Aetius tetrab. 2 serm. in hypochondriaca melancholia firmant Gal. 3 de loco. cap. 7... </p>
+<p xml:lang="la">A vaporibus prauis in ventriculo multiplicatis ascenditibus ad cerebrum, aegros in grauissima pericula, deprauatas imaginationes, et innumeras delirij fortes incidere, probat Aetius tetrab. 2 serm. in hypochondriaca melancholia firmant Gal. 3 de loco. cap. 7... </p>
 <p>Zacvti Lusitani... Operum, etc. Lvgd. 1657. </p>
 <p>D. Jayme era um melancholico. </p>
 <p>É esta a indicação pathologica de Goes. </p>
@@ -605,7 +603,7 @@
 <p>Annos mais tarde, quando Arzilla esteve a pique de perder-se, D. Manuel, recebendo a nova, em Evora, indo para uma festa n'aquella formosissima egreja de S. Francisco, que é ainda um dos nossos mais notaveis monumentos, -- e dos menos conhecidos, -- mandou prescindir do sermão, apressar o jantar, apparelhar a sua melhor egua andadeira, e sem mais ceremonias poz-se, a mata-cavallos, no caminho do Algarve, com sete ou oito servidores, na resolução de passar além. </p>
 <p>Naturalmente com pressa egual, embora sob bem differente impulso, o nosso D. Jayme atravessára escondidamente a Estremadura e as Castellas, e chegara á tradicionaria Bilbilis, á pequena patria de Marcial, d'onde tanto podia fazer caminho para Barcelona e ir embarcar ali, como seguir para o norte a entrar em França. </p>
 <p>Se realmente levava o fito em Roma e a cabeça exaltada nas glorias da religião, de bem cruel decepção o livraram os enviados de D. Manuel. </p>
-<p>Em Roma tripudiava á solta o Boi Borgia, sanguinolento, impudico, garanhão, e o pobre Duque portuguez que alguns annos depois fallava das «embrulhadas» que iam por lá,   n'uma especie de recatado assombro do seu caracter sinceramente devoto e austero, havia de sentir-se muito ridiculo e desastrado quando defrontasse com o glorioso collega, aquelle outro Duque, -- o de Valentinois, -- filho do Papa, -- «o que fazia tremera cidade,» -- ou quando depois de atravessar os opulentos oedes Borgia do Vaticano, cheios de mulheres e de cortesãos, para pedir ao glorioso Pontifice a graça do burel, elle o convidasse amistosamente para um «banquete de castanhas,» ou para um almoço de familia em casa da, bella Julia Farnesio, a Sposa del Cristo! <ref target="#POR0100-nota-83"/> </p>
+<p>Em Roma tripudiava á solta o Boi Borgia, sanguinolento, impudico, garanhão, e o pobre Duque portuguez que alguns annos depois fallava das «embrulhadas» que iam por lá, <ref target="#POR0100-nota-82"/>  n'uma especie de recatado assombro do seu caracter sinceramente devoto e austero, havia de sentir-se muito ridiculo e desastrado quando defrontasse com o glorioso collega, aquelle outro Duque, -- o de Valentinois, -- filho do Papa, -- «o que fazia tremera cidade,» -- ou quando depois de atravessar os opulentos oedes Borgia do Vaticano, cheios de mulheres e de cortesãos, para pedir ao glorioso Pontifice a graça do burel, elle o convidasse amistosamente para um «banquete de castanhas,» ou para um almoço de familia em casa da, bella Julia Farnesio, a Sposa del Cristo! <ref target="#POR0100-nota-83"/> </p>
 <p>Ou porque visse que não havia meio de eximir-se ás ordens e exortações de D. Manuel, ou porque attenuado e espairecido na longa travessia o accesso misanthropico, a rasão lhe impozesse o regresso, D. Jayme voltou para Portugal. </p>
 <p>Entre a partida e a volta deveriam medear longos mezes. </p>
 <p>Como dissemos já, em meiado de 1502, -- antes até, -- estava o Duque em Lisboa, e apparecia em publico engrandecido por uma nova e singular demonstração do favor e da dilecção real. </p>
@@ -672,9 +670,11 @@
 <p>Eram ambos muito creanças em 1512. </p>
 <p>Queira perdoar a poesia da Lenda: -- poderia suppôr-se até que usassem ainda «coeiros,» da funcção de cuidar doestes consignada a certa mulhersinha que foi personagem importante na tragedia de então. </p>
 </div><div type="chapter"><head>VIII</head>
-<p>Andei daquem para alem </p>
-<p>Terras vi, e vi lugares </p>
-<p>Tudo seus avessos tem. </p>
+<quote>
+<l>Andei daquem para alem </l>
+<l>Terras vi, e vi lugares </l>
+<l>Tudo seus avessos tem. </l>
+</quote>
 <p>Sá de Miranda. -- Ecl. v. </p>
 <p>Tres ou quatro annos depois do consorcio definitivo, em pleno inverno de 1508, um extraordinario incidente veiu agitar a vida, pelo que póde entender-se monotonamente tranquilla, do Paço de Villa Viçosa. </p>
 <p>Chegára ali o irmão mais novo de D. Leonor, D. Henrique de Gusmão, acompanhado, -- mais propriamente raptado, trazido, pelo cunhado D. Pedro de Girão ou Giron, terceiro conde de Urenha, que casára, dois annos antes, com D. Mecia, -- a que ficára de remissa no contracto de casamento de D. Jayme para o caso de D. Leonor fallecer menina. </p>
@@ -850,7 +850,7 @@
 <p>O que é certo e claro é que uma familia de Alcoforados, tendo por chefe um Affonso Pires Alcoforado, moço-fldalgo e «amo» de D. Jayme, vivia em Villa Viçosa ao tempo da nossa historia, no fim da rua da Freira, que, como notámos já, existe ainda com o mesmo nome, e é hoje das mais escusas e pobres da villa. Começa junto das ruinas do Convento da Esperança. </p>
 <p>Curiosa coincidencia! -- n'aquellas ruinas, no côro de baixo, hoje aberto e reunido á Egreja, jazem os ossos da Senhora Duqueza. </p>
 <p>Para bem proximo da casa do pobre pagem foram elles morar eternamente! <ref target="#POR0100-nota-113"/>  </p>
-<p>Antonio Alcoforado tinha um irmão mais velho, -- Manuel, --   com o qual dormia no mesmo quarto, -- e uma irmã, -- Maria, -- que estava ou vivia para os lados de Arrayolos. <ref target="#POR0100-nota-115"/>  </p>
+<p>Antonio Alcoforado tinha um irmão mais velho, -- Manuel, -- <ref target="#POR0100-nota-114"/>  com o qual dormia no mesmo quarto, -- e uma irmã, -- Maria, -- que estava ou vivia para os lados de Arrayolos. <ref target="#POR0100-nota-115"/>  </p>
 <p>A mãe era viva e o pae pressente-se que o era tambem, e até que o era ainda quando D. Isabel, a mãe de D. Jayme, faz em 1521 o seu testamento. </p>
 <p>O Pagem devia ser muito moço, não só porque era pagem, mas porque ainda não podia usar espada. </p>
 <p>Comtudo entre 1511 e 1512 revelava já instinctos e basofias adolescentes: -- deitaria talvez aos quinze ou dezeseis annos. </p>
@@ -858,7 +858,7 @@
 <p>Era petulante e sobejo no trato e no fallar. </p>
 <p>Naturalmente, as confianças e familiaridades da joven Duqueza, com os moços, envaideciam-n'o um pouco, ferindo o amor proprio das donas, algumas das quaes, -- de uma, pelo menos, póde desconfiar-se, -- sentiriam o coração ou os sentidos alvoroçados por esta mocidade que se expandia e ensaiava entre ellas. </p>
 <p>Aquelle desenfadamento incorrecto da magestade ducal suggeria reparo nos servidores respeitosos, -- dissemos. </p>
-<p>Um D. João, -- que devia ser o importante D. João de Eça, alcaide-mór de Villa Viçosa, grande amigo e cortezão da Casa,   fizera já advertencia do caso ao vedor da Duqueza, o Fernão Velho. <ref target="#POR0100-nota-117"/>  </p>
+<p>Um D. João, -- que devia ser o importante D. João de Eça, alcaide-mór de Villa Viçosa, grande amigo e cortezão da Casa, <ref target="#POR0100-nota-116"/>  fizera já advertencia do caso ao vedor da Duqueza, o Fernão Velho. <ref target="#POR0100-nota-117"/>  </p>
 <p>Outros e este se amofinavam tambem. Não ficava bem a uma grande Senhora aquelle «desauctorisar-se,» -- era a phrase, -- em palestras e gracejos com os mocinhos de tão inferior gerarchia. </p>
 <p>O Vedor, com a auctoridade do officio e da edade, expozera francamente a inconveniencia a D. Leonor. Mas esta, nova e jovial, ria-se das impertinentes observações do Velho e continuava a conversar e a motejar com os rapazes, -- mais especialmente com Antonio Alcoforado, o companheiro e guarda do filho. -- talvez até porque seria o mais crescido, o mais intelligente, o mais petulante, o mais travesso. </p>
 <p>Uma dona, -- a tal cuja isenção sentimental puzemos em suspeita e que encontraremos adiante, -- Anna Camella se chamava, -- é a que leva mais longe a lembrança reprehensiva das familiaridades concedidas pela Senhora ao Pagem. </p>
@@ -1200,11 +1200,13 @@
 <p>Logo no proximo domingo, -- diz o hortelão, -- sentiram abrir -- «a janella da camara donde dormia a Senhora Duqueza, duas ou tres vezes, e viram uma mulher que chegava á dita janella e dicera que aquella era a hora, mas nessa occasião não viram mais.» </p>
 <p>Não tardariam a ver melhor. </p>
 </div><div type="chapter"><head>XII</head>
-<p>Vimos mortes apressadas </p>
-<p>E vidas muy encurtadas </p>
-<p>Doenças não conhecidas </p>
-<p>Muytas canceiras nas vidas </p>
-<p>Poucas vidas descancadas. </p>
+<quote>
+<l>Vimos mortes apressadas </l>
+<l>E vidas muy encurtadas </l>
+<l>Doenças não conhecidas </l>
+<l>Muytas canceiras nas vidas </l>
+<l>Poucas vidas descancadas. </l>
+</quote>
 <p>Res. -- Misc. </p>
 <p>Na noite de 1 de novembro, a Senhora Duqueza, tendo descido a ceiar á sala terrea, como de costume, -- depois da ceia, seriam dez horas, mandou pedir acima á dona da sua camara, Beatriz Annes, papel, tinta -- «e dois ou tres vintens,» -- que ella logo lhe enviou. </p>
 <p>Escreveu uma carta, rasgou parte d'ella, talvez um rascunho, metteu no seio os fragmentos, e, chamando o Roseymo, deu-lhe a parte que fechára, e disse, alto, que mandava resar umas missas. </p>
@@ -1746,13 +1748,15 @@
 <p>Como uma vergastada de luz, o testamento do Duque D. Jayme, fustiga e dissolve todo esse castello nevoento e phantastico de hypocrita sentimentalidade e de desastrada adulação em que haviam de querer encerral-o com a mulher que matara, como simples joguetes, -- elle, de uma insania de momento, -- ella, da fatalidade de um equivoco, - ambos, de uma intriga de criadagem. </p>
 <p>Sim, uma loucura o fez matar; -- mas foi a da Honra. </p>
 <p>Sim, uma Fatalidade a matou; -- mas foi a do Amor. </p>
-<p>A Sociedade e a Natureza: -- it is the cause, it is the cause... </p>
+<p>A Sociedade e a Natureza: -- <foreign xml:lang="en">it is the cause, it is the cause...</foreign> </p>
 <p>Assim é que ambos ficam bem na Historia, por que assim é que foram. </p>
 <p>Nem culpa tiveram de ser assim. </p>
 </div><div type="chapter"><head>XV</head>
-<p>Tornemos ao desastre a nós choroso, </p>
-<p>Furtando-me ia á dôr, que ainda ameaça </p>
-<p>Sá DE Mir. -- Obs. </p>
+<quote>
+<l>Tornemos ao desastre a nós choroso, </l>
+<l>Furtando-me ia á dôr, que ainda ameaça </l>
+</quote>
+<p>Sá de Mir. -- Obs. </p>
 <p>É tempo de retroceder, de fechar o longo parenthese da Lenda, de tornar ao tempo, á historia, á verdade, á tragedia real. </p>
 <p>Claramente, o acontecimento havia de produzir uma certa sensação, uma grande sensação até, como diriamos hoje. </p>
 <p>Enganar-se-hia, porém, quem quizesse irmanal-a com a que produziria no nosso tempo, com a que nos suggere agora o seu enfraquecido echo. </p>
@@ -2019,85 +2023,87 @@
 <p>Archivo Nac. Gav. XI, Maço 8, N.° 10. </p>
 <p>Livro da Leitura nova (q. abr. a Gav. XI do Maço I a XI) -- Fs. 243--278 v. </p>
 </div><div type="chapter"><head>II</head>
-<p>ROMANCE DEL DUQUE DE BERGÃÇA </p>
-<p>Lunes se clecia, lunes, </p>
-<p>tres horas antes del dia, </p>
-<p>quando el Duque de Berganza </p>
-<p>con la Duquesa reñia. </p>
-<p>El Duque con gran enojo </p>
-<p>estas palabras decia, </p>
-<p>traidora me sois Duquesa, </p>
-<p>traidora falsa, maligna, </p>
-<p>porque pienso que traición </p>
-<p>me haceis y alevosía; </p>
-<p>no te soy traidora el Duque </p>
-<p>ni en mi linaje lo había. </p>
-<p>Echó mano de su espada </p>
-<p>viendo que así respondia; </p>
-<p>la Duquesa con esfuerzo </p>
-<p>con las manos la tenia. </p>
-<p>Dejes la espada Duquesa </p>
-<p>las manos te cortaria; </p>
-<p>por mas cortadas el Duque </p>
-<p>á mi nada se daria, </p>
-<p>sinó veldo por la sangre </p>
-<p>que mi camisa teñia; </p>
-<p>socorred mis caballeros </p>
-<p>socorred por cortesía; </p>
-<p>no hay ninguno alli de aquellos </p>
-<p>á quien la favor pedia, </p>
-<p>queran todos portugueses </p>
-<p>y nadie no lo entendia, </p>
-<p>sinó era un pagecico </p>
-<p>que á la mesa la servia </p>
-<p>dejes la Duquesa el Duque </p>
-<p>que nada te merecia </p>
-<p>el Duque muy enojado </p>
-<p>detrás el page corria </p>
-<p>y cortóle la cabeza </p>
-<p>aunque no lo merecia </p>
-<p>vuelve el Duque á la Duquesa </p>
-<p>otra vez la persuadia </p>
-<p>morir teneis la Duquesa </p>
-<p>antes que viniese el dia </p>
-<p>en tus manos estoy Duque </p>
-<p>haz de mi á tu fantasía </p>
-<p>que padre y hermanos tengo </p>
-<p>que te lo demandarian </p>
-<p>y aunquesten en España </p>
-<p>allá muy bien se sabria </p>
-<p>no me amenaceis Duquesa </p>
-<p>con éllos yo me avernía </p>
-<p>confesar me dejes Duque </p>
-<p>y mi alma ordenaria </p>
-<p>confesaos con Dios Duquesa </p>
-<p>con Dios y santa Maria </p>
-<p>mirad Duque éstos hijicos </p>
-<p>quentre vos y mi habia </p>
-<p>no los lloreis mas Duquesa </p>
-<p>que yo me los criaria </p>
-<p>revolvió el Duque su espada </p>
-<p>á la Duquesa heria </p>
-<p>dióle sobre su cabeza </p>
-<p>y á sus pies nmerta caía </p>
-<p>cuando ya la vido muerta </p>
-<p>y la cabeza volvía </p>
-<p>vido estar sus dos hijieos </p>
-<p>en la cama do dormia </p>
-<p>que reían y jugaban </p>
-<p>con sus juegos á porfia </p>
-<p>cuando asi jugar les vido </p>
-<p>muy tristes llantos hacía </p>
-<p>con lagrimas de sus ojos </p>
-<p>les hablava y les decia </p>
-<p>hijos cual quedais sin madre </p>
-<p>á la cual yo muerto habia </p>
-<p>matéla sin mercello </p>
-<p>con enojo que tenia </p>
-<p>donde irás el triste Duque </p>
-<p>de tu vida que seria </p>
-<p>como tan grande pecado </p>
-<p>Dios te lo perdonaria. </p>
+<quote xml:lang="es">
+<l>ROMANCE DEL DUQUE DE BERGÃÇA </l>
+<l>Lunes se clecia, lunes, </l>
+<l>tres horas antes del dia, </l>
+<l>quando el Duque de Berganza </l>
+<l>con la Duquesa reñia. </l>
+<l>El Duque con gran enojo </l>
+<l>estas palabras decia, </l>
+<l>traidora me sois Duquesa, </l>
+<l>traidora falsa, maligna, </l>
+<l>porque pienso que traición </l>
+<l>me haceis y alevosía; </l>
+<l>no te soy traidora el Duque </l>
+<l>ni en mi linaje lo había. </l>
+<l>Echó mano de su espada </l>
+<l>viendo que así respondia; </l>
+<l>la Duquesa con esfuerzo </l>
+<l>con las manos la tenia. </l>
+<l>Dejes la espada Duquesa </l>
+<l>las manos te cortaria; </l>
+<l>por mas cortadas el Duque </l>
+<l>á mi nada se daria, </l>
+<l>sinó veldo por la sangre </l>
+<l>que mi camisa teñia; </l>
+<l>socorred mis caballeros </l>
+<l>socorred por cortesía; </l>
+<l>no hay ninguno alli de aquellos </l>
+<l>á quien la favor pedia, </l>
+<l>queran todos portugueses </l>
+<l>y nadie no lo entendia, </l>
+<l>sinó era un pagecico </l>
+<l>que á la mesa la servia </l>
+<l>dejes la Duquesa el Duque </l>
+<l>que nada te merecia </l>
+<l>el Duque muy enojado </l>
+<l>detrás el page corria </l>
+<l>y cortóle la cabeza </l>
+<l>aunque no lo merecia </l>
+<l>vuelve el Duque á la Duquesa </l>
+<l>otra vez la persuadia </l>
+<l>morir teneis la Duquesa </l>
+<l>antes que viniese el dia </l>
+<l>en tus manos estoy Duque </l>
+<l>haz de mi á tu fantasía </l>
+<l>que padre y hermanos tengo </l>
+<l>que te lo demandarian </l>
+<l>y aunquesten en España </l>
+<l>allá muy bien se sabria </l>
+<l>no me amenaceis Duquesa </l>
+<l>con éllos yo me avernía </l>
+<l>confesar me dejes Duque </l>
+<l>y mi alma ordenaria </l>
+<l>confesaos con Dios Duquesa </l>
+<l>con Dios y santa Maria </l>
+<l>mirad Duque éstos hijicos </l>
+<l>quentre vos y mi habia </l>
+<l>no los lloreis mas Duquesa </l>
+<l>que yo me los criaria </l>
+<l>revolvió el Duque su espada </l>
+<l>á la Duquesa heria </l>
+<l>dióle sobre su cabeza </l>
+<l>y á sus pies nmerta caía </l>
+<l>cuando ya la vido muerta </l>
+<l>y la cabeza volvía </l>
+<l>vido estar sus dos hijieos </l>
+<l>en la cama do dormia </l>
+<l>que reían y jugaban </l>
+<l>con sus juegos á porfia </l>
+<l>cuando asi jugar les vido </l>
+<l>muy tristes llantos hacía </l>
+<l>con lagrimas de sus ojos </l>
+<l>les hablava y les decia </l>
+<l>hijos cual quedais sin madre </l>
+<l>á la cual yo muerto habia </l>
+<l>matéla sin mercello </l>
+<l>con enojo que tenia </l>
+<l>donde irás el triste Duque </l>
+<l>de tu vida que seria </l>
+<l>como tan grande pecado </l>
+<l>Dios te lo perdonaria. </l>
+</quote>
 <p>Canc. llamado Flor de Enamorados... Por Iuan de Linares. Barcelona, 1612 -- 12.° </p>
 </div><div type="chapter"><head>III</head>
 <p>Casa y estados del ex.mo sr. marques de Villafranca, duque de Medina Sidonia, conde de Niebla, &amp;. &amp;. </p>
@@ -2110,13 +2116,15 @@
 <p>SERÕES MANUELINOS-II </p>
 <p>A SEGUNDA DUQUEZA </p>
 </div><div type="chapter"><head>I</head>
-<p>SORTES VENTUREIRAS </p>
-<p>Quando vi de tal feição </p>
-<p>Tão frio o tempo moderno, </p>
-<p>Fiz um triumpho d'Inverno </p>
-<p>Depois será o do Verão; </p>
-<p>Nos quaes foi meu pensamento </p>
-<p>Fazer a farca distincta... </p>
+<quote>
+<l>SORTES VENTUREIRAS </l>
+<l>Quando vi de tal feição </l>
+<l>Tão frio o tempo moderno, </l>
+<l>Fiz um triumpho d'Inverno </l>
+<l>Depois será o do Verão; </l>
+<l>Nos quaes foi meu pensamento </l>
+<l>Fazer a farca distincta... </l>
+</quote>
 <p>Gil Vicente. </p>
 </div><div type="chapter"><head>I</head>
 <p>O CONVENTINHO DAS CHAGAS </p>
@@ -2174,11 +2182,13 @@
 <p>Assim nasceu este Livro. </p>
 <p>Infelizmente,... para a Historia, a gentilissima e alegre visão, fulgurando por um momento, apenas, no culto e na palavra apaixonada dos poetas e dos chronistas da Côrte, desapparece completamente na grande obscuridade da virtude tranquilla e silenciosa do Lar. </p>
 </div><div type="chapter"><head>II</head>
-<p>OUTROS TEMPOS! </p>
-<p>Guerra, guerra todo o estado! </p>
-<p>Guerra, guerra mui cruel! </p>
-<p>Que o gran Rei Dom Manuel </p>
-<p>Contra Mouros está irado. </p>
+<quote>
+<l>OUTROS TEMPOS! </l>
+<l>Guerra, guerra todo o estado! </l>
+<l>Guerra, guerra mui cruel! </l>
+<l>Que o gran Rei Dom Manuel </l>
+<l>Contra Mouros está irado. </l>
+</quote>
 <p>Gil Via, Exh. </p>
 <p>A voz do grande Rei vibrara forte e longe, nos solares e nos concelhos, nos interesses e nas consciencias, desde o Minho ao litoral algarvio. </p>
 <p>Como se a annunciassem gloriosamente, -- os Berços de João Goterres, inventados pelo proprio Monarcha, haviam estrondeado no Cata que farás, visando o pontal de Almada, sombrio simulacro das praias e muralhas mauritanas. <ref target="#POR0100-nota-175"/>  </p>
@@ -2320,7 +2330,7 @@
 <p>E não havia de ser mentirosa a Lenda!... </p>
 <p>E não havia de ser absurda a Critica!... </p>
 <p>Era a elle, ao que matara a «Senhora Duqueza», pouco mezes antes, -- e deviam conhecel-o bem, e deviam saber excellentemente se era um doudo, um mau! -- que se entregavam honras, prosapias, e vidas como estas: -- Dom João de Menezes, o prestigioso almirante do Meditteraneo; Dom Affonso de Portugal, o que havia de ser o primoroso Conde de Vimioso; o habil Alcaide mór de Faro, Ruy Barreto, já nomeado para capitão da conquista; o pundonoroso Conde de Borba; Dom Luiz dê Menezes, o futuro Alferes mór do Reino; Dom Henrique de Menezes que havia de ser embaixador á Roma de Paulo III; João da Silva, o dilecto sobrinho do bispo do Algarve, Dom Aleixo; Ayres Telles, o poeta batalhador; Luiz da Silveira, o futuro Conde de Sortelha; João Rodrigues de Sá, o Alcaide Mór do Porto; e os Mascarenhas, e os Abreus, e os Eças; e os Mendonças, de Mourão; e os Pereiras, de Arrayollos, e os Camaras, os Ornellas, os Esmeraldos, das ilhas, e tantos e tantos. <ref target="#POR0100-nota-182"/>  </p>
-<p>E fora elle que presidira assiduamente á organização da empreza; -- que iniciara n'ella a reforma da tactica e da disciplina antiga; -- que ao mesmo tempo marinheiro e soldado, almirante e general; -- no mar -- «com a agulha deante de mim», -- como elle proprio o conta, discutindo com os pilotos, com os Berrios, com o Pedro Affonso de Aguiar,   com o João de Lisboa, havia de guiar aquella formidavel armada de 430 embarcações, -- «em que haviam mais de 30 de gavea», -- e em terra, acautelando e trabalhando, animando e reprehendendo, distribuindo contoadas e conselhos, formaria as varias batalhas e bandeiras d'aquelle confuso exercito de vinte e tantos mil homens, apoz o desembarque tumultuoso e arriscado, entrando com elle em Azamor, refreando-o firmemente na investida triumphante, caminho do sertão. <ref target="#POR0100-nota-184"/>  </p>
+<p>E fora elle que presidira assiduamente á organização da empreza; -- que iniciara n'ella a reforma da tactica e da disciplina antiga; -- que ao mesmo tempo marinheiro e soldado, almirante e general; -- no mar -- «com a agulha deante de mim», -- como elle proprio o conta, discutindo com os pilotos, com os Berrios, com o Pedro Affonso de Aguiar, <ref target="#POR0100-nota-183"/>  com o João de Lisboa, havia de guiar aquella formidavel armada de 430 embarcações, -- «em que haviam mais de 30 de gavea», -- e em terra, acautelando e trabalhando, animando e reprehendendo, distribuindo contoadas e conselhos, formaria as varias batalhas e bandeiras d'aquelle confuso exercito de vinte e tantos mil homens, apoz o desembarque tumultuoso e arriscado, entrando com elle em Azamor, refreando-o firmemente na investida triumphante, caminho do sertão. <ref target="#POR0100-nota-184"/>  </p>
 <p>Rezolvido rapidamente, em dias, apenas, o temeroso problema que afrontara as melhores espadas e longamente preoccupara as melhores cabeças, havia de ser elle, ainda, que no meio do bulicio da conquista, emquanto talvez os seus companheiros de armas, esqueceriam na furia selvagem do saque os mais rudimentares deveres de christãos e cavalleiros, havia de ser elle ainda, que redigisse singelamente, friamente, o relatorio da campanha, dando conta ao Rei de como cumprira a commissão que recebera d'elle: </p>
 <p>-- «Louvores a nosso Senhor, Azamor é de Vossa Altesa sem morte nem ferida de homem fidalgo, salvo algumas feridinhas que alguns houveram em um desmando de uma escaramuça o dia que aqui chegámos; mas de quantas feridas meu coração ha sido trespassado pelo mau aviamento que trazemos das cousas necessarias, não o poderá crer senão quem me vê lançar os bofes...» <ref target="#POR0100-nota-185"/> </p>
 <p>Mas poucos mezes havia que Dom Jayme matara a pobre «Senhora Duqueza», e a sombria fatalidade que desde o berço pesava sobre o filho do Degolado de Evora, -- vencida pela justiça dos contemporaneos, -- vingou-se ferozmente chamando a Lenda cortezã a desfigurar, perante a Historia e a Politica, n'um doudo sinistro o Pensador austero, o habil General, o leal e patriotico conselheiro do Rei Venturoso. </p>
@@ -2339,7 +2349,7 @@
 <p>Moço era ainda, e sobre as sombras geladas da sua pobre mocidade, batia novamente a luz larga e quente da Côrte Manuelina, não já em aurora indecisa e suave, senão em meio-dia ardente e triumphante. </p>
 <p>Mas como então, tambem, vigiava-o, acompanhava-o, suppunha possuil-o, com um amor cioso e oppressivo, -- cego, ainda!-- a politica e o favor real. </p>
 <p>Talvez logo á volta de Azamor, e, pelo menos, em 1515, Dom Manuel dispozera já d'aquelle marido em disponabilidade. </p>
-<p>Promettera-o, em Setubal, ao segundo Marquez de Villa Real, Dom Fernando de Menezes, para a filha, Dona Leonor de Noronha, que andava nos seus 27 annos   e que já então começaria a revelar-se, sob a direcção de Mestre Resende, aquella afamada Senhora muito -- «erudita nas humanas e Divinas lettras» -- que veiu a ter grande nomeada depois. <ref target="#POR0100-nota-191"/>  </p>
+<p>Promettera-o, em Setubal, ao segundo Marquez de Villa Real, Dom Fernando de Menezes, para a filha, Dona Leonor de Noronha, que andava nos seus 27 annos <ref target="#POR0100-nota-190"/>  e que já então começaria a revelar-se, sob a direcção de Mestre Resende, aquella afamada Senhora muito -- «erudita nas humanas e Divinas lettras» -- que veiu a ter grande nomeada depois. <ref target="#POR0100-nota-191"/>  </p>
 <p>Este Marquez de Villa Real, que era tambem Conde de Alcoutim e de Valença e que só deixara de ser tres vezes Conde por ter tido de ceder o Condado de Ourem, em 1496, á reconstituição da Casa de Bragança, era um poderoso e influente fidalgo do tempo e da estima de João II; parente do Rei, e primo do proprio Duque Dom Jayme, com o qual, é bem de ver, andava mal avindo. <ref target="#POR0100-nota-192"/>  </p>
 <p>Era filho do celebre governador de Ceuta, o Conde Dom Pedro de Menezes, o que Dom João II fizera primeiro Marquez de Villa Real com extraordinario aparato, e de Dona Brites, segunda filha do Duque de Bragança, Dom Fernando I. <ref target="#POR0100-nota-193"/>  </p>
 <p>Além de outros irmãos, incluindo, como era de uso, uma bella enfiada de bastardos, o velho governador de Ceuta dera ao seu successor, uma irmã, -- Dona Joanna de Noronha, -- que casara com o Condestavel Dom Affonso. </p>
@@ -2381,10 +2391,12 @@
 <p>É a de vêr-mos, poucos annos passados, ser o proprio Rei quem promova e faça o casamento da gentil e disputada sobrinha com o filho do Marquez, então bem menos talvez a contento d'elle, e não lhe custando pouco a obter do Duque que o exonere da promessa feita. </p>
 <p>Nem é tão somenos o facto que não se desnovele inesperadamente na historica liquidação de uma lenda interessante longamente acariciada por litteratos e chronistas. </p>
 </div><div type="chapter"><head>IV</head>
-<p>CORTE PLENA </p>
-<p>Oh lusida côrte formosa, leal </p>
-<p>Dourada e honrada de manhas e galas </p>
-<p>Espelho de todas as galas e falas.... </p>
+<quote>
+<l>CORTE PLENA </l>
+<l>Oh lusida côrte formosa, leal </l>
+<l>Dourada e honrada de manhas e galas </l>
+<l>Espelho de todas as galas e falas.... </l>
+</quote>
 <p>Gil Vicente, Nao, etc. </p>
 <p>Não casou, pois, o Duque Dom Jayme com Dona Leonor de Noronha. </p>
 <p>O Rei, a Politica, a Rasão de Estado, não poderam já dispôr d'aquelle marido, como o haviam feito quando o ligaram á pobre moça andalusa que -- «se lançara com o Pagem» -- na bucolica e solarenga semsaboria de Villa Viçosa. </p>
@@ -2539,9 +2551,7 @@
 <l>preciosa e mui lustrosa, </l>
 <l>mui querida e mui oufana, </l>
 </quote>
-<p>a Dona Joanna que traz captiva uma multidão de poetas do Cancioneiro e com a qual havemos de conversar longamente; -- e a sua homonyma, a Dona Joanna Manuel, </p>
-<p>... angelica e humana, </p>
-<p>naturalmente a filha do Camareiro mór Dom João Manuel, a que foi primeira mulher do castelhano Dom Affonso Pacheco, e n'esse caso, realmente, angelico testemunho da humanidade de um bispo de que era neta, o illustre bispo de Ceuta Dom João Mauuel, como este fora tambem a prova viril da humanidade de um austero monarcha, o nosso Dom Duarte. <ref target="#POR0100-nota-212"/>  </p>
+<p>a Dona Joanna que traz captiva uma multidão de poetas do Cancioneiro e com a qual havemos de conversar longamente; -- e a sua homonyma, a Dona Joanna Manuel,... angelica e humana, naturalmente a filha do Camareiro mór Dom João Manuel, a que foi primeira mulher do castelhano Dom Affonso Pacheco, e n'esse caso, realmente, angelico testemunho da humanidade de um bispo de que era neta, o illustre bispo de Ceuta Dom João Mauuel, como este fora tambem a prova viril da humanidade de um austero monarcha, o nosso Dom Duarte. <ref target="#POR0100-nota-212"/>  </p>
 <p>Apparece-nos logo a Calataud, de sangue aragonez, -- «a perfeita» -- Dona Maria de Calataud que veiu a casar com o Senhor de Barbacena, Dom Jorge Henriques, Reposteiro-Mór de João III, e de quem e de outra dizia Rezende: </p>
 <quote>
 <l>Calataud, Figueirós... </l>
@@ -2740,7 +2750,7 @@
 <p>Essas mesmas disposições revelam que o suppunha apto e prompto a realisar tal casamento; recuar agora seria tornar-se suspeito e hostil. </p>
 <p>Ainda em setembro de 1517, quando chegaram a Lisboa as reliquias de Santa Auta, otferecidas pelo Imperador, estava Dom Manuel no proposito de abandonar o Poder, segundo testemunho contemporaneo. <ref target="#POR0100-nota-226"/>  </p>
 <p>Emquanto porém estas grandes novidades alvoroçavam, naturalmente, a Côrte e o Paiz, e se não a eminencia de uma positiva abdicação, o crescimento da auctoridade e da influencia de Dom João junto do desolado Pae, havia de açular em volta do Principe as intrigas e cubicas cortezãs: -- Dom Manuel toma, em profundo segredo, uma resolução insolita. </p>
-<p>Despachando, em outubro d'aquelle anno, o seu Camareiro e Privado, Dom Alvaro da Costa, a comprimentar o novo monarcha hespanhol que nem ainda aportara á Peninsula e não fora, tão pouco, regularmente reconhecido,   encarrega-o, confidencialmente, de negociar o casamento d'elle próprio, Dom Manuel, com a irmã de Dom Carlos, a esposa que pedira para o filho, mettendo n'esta nova e extraordinaria negociação os homens que mais actuavam no animo e no Conselho do futuro Imperador e Rei. <ref target="#POR0100-nota-228"/> </p>
+<p>Despachando, em outubro d'aquelle anno, o seu Camareiro e Privado, Dom Alvaro da Costa, a comprimentar o novo monarcha hespanhol que nem ainda aportara á Peninsula e não fora, tão pouco, regularmente reconhecido, <ref target="#POR0100-nota-227"/>  encarrega-o, confidencialmente, de negociar o casamento d'elle próprio, Dom Manuel, com a irmã de Dom Carlos, a esposa que pedira para o filho, mettendo n'esta nova e extraordinaria negociação os homens que mais actuavam no animo e no Conselho do futuro Imperador e Rei. <ref target="#POR0100-nota-228"/> </p>
 <p>Conserva-se um completo sigillo em ambas as Côrtes, seguramente, ácerca d'esta negociação inopinada, cuja noticia, com a da sua conclusão, somente em julho de 1518 surprehende Lisboa, firmando-se o contracto nupcial em 16 d'esse mez, logo que chega a dispensa pontificia, urgente e caramente obtida. <ref target="#POR0100-nota-229"/>  </p>
 <p>O que movera Dom Manuel a esta brusca resolução, tão destoante das suas anteriores deligencias e das suas recentes disposições de coração e de espirito? </p>
 <p>A -- «razão da carne» -- que Frei Luiz de Sousa tem a fraqueza, não de adoptar, felizmente, mas de insinuar, com outras em que a sua penna cortezã, mas intelligente, manifestamente se embaraça e hesita, <ref target="#POR0100-nota-230"/>  sómente poderia merecer reparo por lembrar que chamado, moço e forte, de uma quasi obscuridade ociosa ao supremo fastigio do Poder Real; cercado de uma Côrte que a Graça, a Bellesa, a Ambição feminina opulenlavam, ao sol da Renascença, com todos os appetites, com todas as seducções da Aventura galante, Dom Manuel offerece á Historia esta singularidade de a ter poupado ao registo banal de formosas damas penitenciando os regios caprichos no abbadessado de grandes conventos, e de bastardos pimpolhos creados para illustres senhores em pouco ceremonioso resguardo. </p>
@@ -2834,15 +2844,19 @@
 <p>Isto explica, naturalmente, a demora de Dom Manuel, em communicar-lhe os acontecimentos e em não chamar opportunamente Dom Jayme, o seu amigo e conselheiro leal, a acudir-lhe na paixão e no desserviço do escandalo domestico. </p>
 <p>Desauctoriza-se um pouco, para taes casos, o discreto e prestigioso Duque, como é tempo de vermos. </p>
 </div><div type="chapter"><head>VII</head>
-<p>DAMA DE FOLGAR </p>
-<p>Á barca, á barca segura! </p>
-<p>Guardar da barca perdida! </p>
-<p>Á barca, á barca da vida! </p>
+<quote>
+<l>DAMA DE FOLGAR </l>
+<l>Á barca, á barca segura! </l>
+<l>Guardar da barca perdida! </l>
+<l>Á barca, á barca da vida! </l>
+</quote>
 <p>G. Vic. A. da B. </p>
 <p>Foi em Dona Joanna de Mendonça, </p>
-<p>... tão formosa </p>
-<p>Preciosa e mui lustrosa, </p>
-<p>Mui querida e mui oufana, </p>
+<quote>
+<l>... tão formosa </l>
+<l>Preciosa e mui lustrosa, </l>
+<l>Mui querida e mui oufana, </l>
+</quote>
 <p>-- n'uma Mendonça, ainda! -- que a alma viuva e devastada -- «do que tomou Azamor,» -- procurou dessedentar-se e reviver, na necessidade inconsciente, fatidica, physiologica, de amar livremente e de sentir-se expontaneamente amada; de se abraçar com outra alma, de se fundir e completar n'ella. </p>
 <p>Foi áquella graciosa e dominadora mulher, creança quasi, pobre, desvalidosa, pouco menos que obscura, que se lhe apegaram olhos e coração, n'uma paixão ardente, desesperada, irreductivel dos quarenta annos, -- que já os passara Dom Jayme. </p>
 <p>É ainda a Natureza reconstituindo-se e vingando-se, triumphantemente, da Convenção que a tyranisa, do Preconceito que a deforma e mulila, da Lenda, -- da injusta Lenda, cortezan e hypocrita, -- que a relega e falsea. </p>
@@ -2896,7 +2910,7 @@
 <p>Com um certo desapego pela ascendencia realenga, casou com Brites Soares, bastarda d'um pequeno fidalgo sertanejo, Fernão Soares d' Albergaria, «Senhor do Prado» e de uma rapariga beiroa, Maria Gonsalves, de Alfacachão, ao pé de Vizeu. </p>
 <p>Foi, tambem, prolifico este casamento. </p>
 <p>Dos filhos, o primogenito, Francisco de Mendonça, foi capitão de Ormuz e morreu moço, sendo casado com uma filha do celebre Dom Francisco d'Almeida, Dona Leonor da Silva que trancou a viuvez com Dom Rodrigo de Mello, o primeiro Marquez de Ferreira. </p>
-<p>Foram os outros: Pedro de Mendonça   que succedeu ao pae na Alcaidaria de Mourão e foi do Conselho de Dom João III, casando com Dona Thereza de Lima, filha de Dom Alvaro de Lima; -- Antonio de Mendonça o Martello, <ref target="#POR0100-nota-250"/>  que casou com uma filha do aio e depois Camareiro e Guarda Roupa de Dom João III, Ruy de Paiva; -- Chrystovão de Mendonça, que em 1519 embarcou para a India e foi, como o primeiro, capitão de Ormuz, onde morreu, tendo casado com Dona Maria de Vilhena, que se consorciou depois com o Vedor das ^Obras, Simão da Silveira. </p>
+<p>Foram os outros: Pedro de Mendonça <ref target="#POR0100-nota-249"/>  que succedeu ao pae na Alcaidaria de Mourão e foi do Conselho de Dom João III, casando com Dona Thereza de Lima, filha de Dom Alvaro de Lima; -- Antonio de Mendonça o Martello, <ref target="#POR0100-nota-250"/>  que casou com uma filha do aio e depois Camareiro e Guarda Roupa de Dom João III, Ruy de Paiva; -- Chrystovão de Mendonça, que em 1519 embarcou para a India e foi, como o primeiro, capitão de Ormuz, onde morreu, tendo casado com Dona Maria de Vilhena, que se consorciou depois com o Vedor das ^Obras, Simão da Silveira. </p>
 <p>Das filhas, casou uma, Dona Izabel de Mendonça com Dom João Manuel de Vilhena, morgado castellano; -- outra, Dona Margarida, foi mulher de Jorge de Mello, o Monteiro-Mór, -- e tres ultimas perderam-se nas sombras do Claustro, sabendo-se apenas de uma que foi abbadessa de Santa Clara, de Coimbra. </p>
 <p>Entre estas ultimas e a segunda é que viera ao mundo a bem fadada para mais altos destinos, -- Dona Joanna de Mendonça, Dama da Rainha, -- da Dona Maria, primeiro, talvez da Dona Leonor, ainda, -- mais propriamente: uma d'aquellas moças, filhas segundas e pobres, de servidores da Coroa, que andavam no Paço amparadas e educadas pela munificencia regia. </p>
 <p>Dona Joanna de Mendonça não deveria ser já uma creança, em 1512, pois que andava nos Saraus e era das </p>
@@ -3127,12 +3141,14 @@
 <p>Morreu em 1580, mais do que octogenaria, com certeza, fazendo-se sepultar no Côro de Baixo do conventinho das Chagas, alli defronte dos Agostinhos onde dormia o somno eterno o grande desgraçado a quem dera, talvez, os unicos dias felizes que elle poude arrancar á Fatalidade sombria e á oppressiva Grandeza, -- n'aquelle mesmo escuro e pobre Côro de Baixo do Conventinho das Chagas, de Villa Viçosa, d'entre as sombras humidas do qual, um dia, quando eu procurava nas lageas sepulchraes a que deveria cobrir-lhe a sepultura, á minha imaginação fortemente commovida na reconstrucção ideal do Passado, por momentos pareceu que resurgia, -- viva alegre, triumphante, como a cantaram os poetas do Cancioneiro Geral, a bella figura da segunda e virtuosa esposa do grande Duque, -- a que o soube comprehender e a que o soube amar. </p>
 </div><div type="chapter"><head>II</head>
 <p>CANTIGAS DA CÔRTE </p>
-<p>...os serões de Portugal </p>
-<p>Tam falados no mundo, onde são idos? </p>
-<p>E as graças temperadas do seu sal? </p>
-<p>Dos motes o primor e altos sentidos, </p>
-<p>Os ditos avisados, cortesãos, </p>
-<p>Que é delles? quem lhes dá sómente ouvidos? </p>
+<quote>
+<l>...os serões de Portugal </l>
+<l>Tam falados no mundo, onde são idos? </l>
+<l>E as graças temperadas do seu sal? </l>
+<l>Dos motes o primor e altos sentidos, </l>
+<l>Os ditos avisados, cortesãos, </l>
+<l>Que é delles? quem lhes dá sómente ouvidos? </l>
+</quote>
 <p>Sá de M. Cart. </p>
 <p>Melhor, talvez, devera epygraphar-se esta parte: -- Cancioneirinho de Dona Joanna de Mendonça. </p>
 <p>E até, mais aperitivamente: -- Album de uma Duqueza do seculo XVI. </p>
@@ -3165,10 +3181,12 @@
 <p>E nem se quer prejudicamos os cacóphatons de quem, se tivesse aprendido rhetorica, naturalmente os não faria, mas não faria tambem... as trovas que é o que queremos tornar legivel e conhecido. </p>
 </div><div type="chapter"><head>I</head>
 <p>DE DOM JOANNA DE MENDONÇA </p>
-<p>Rifão <ref target="#POR0100-nota-262"/>  </p>
+<p>Rifão: <ref target="#POR0100-nota-262"/>  </p>
+<quote>
 <l>Não se espera outro remedio, </l>
 <l>de quem vir a Perigosa, </l>
 <l>se não vida duvidosa...</l>
+</quote>
 <p>A Senhora Dona Joanna de Mendonça</p>
 <p>Por acudir ao rifão, não sei cousa que não faça, até confessar na praça tudo o que n'elle vos dão. </p>
 <quote>
@@ -3176,7 +3194,7 @@
 <l>que pois sois tão perigosa </l>
 <l>não sejaes... despiedosa. </l>
 </quote>
-<p>... Começam logo os louvores das damas os quaes fez todos a Senhora Donna Joanna de Mendonça <ref target="#POR0100-nota-263"/> </p>
+<p>... Começam logo os louvores das damas os quaes fez todos a Senhora Donna Joanna de Mendonça: <ref target="#POR0100-nota-263"/> </p>
 <quote>
 <l>I</l>
 <l>Não sei que possa dizer, </l>
@@ -3442,7 +3460,7 @@
 <l>não pode pena sentir </l>
 <l>que não sinta mais prazer. </l>
 </quote>
-<p>O barão <ref target="#POR0100-nota-268"/> </p>
+<p>O barão: <ref target="#POR0100-nota-268"/> </p>
 <quote>
 <l>Se com vosso parecer: </l>
 <l>condições, manhas, conseguem </l>
@@ -3454,7 +3472,7 @@
 <l>d'onde não deixam sentir </l>
 <l>a pena que dá prazer. </l>
 </quote>
-<p>Francisco da Silva <ref target="#POR0100-nota-269"/>  </p>
+<p>Francisco da Silva: <ref target="#POR0100-nota-269"/> </p>
 <quote>
 <l>O que menos vos conhece </l>
 <l>este hei por mais perdido, </l>
@@ -3466,7 +3484,7 @@
 <l>o gosto de vos servir </l>
 <l>para mais vos merecer. </l>
 </quote>
-<p>O conde de Vimisoso <ref target="#POR0100-nota-270"/> </p>
+<p>O conde de Vimisoso: <ref target="#POR0100-nota-270"/> </p>
 <quote>
 <l>Se prazer é ser perdido, </l>
 <l>grande dita foi a minha, </l>
@@ -3488,7 +3506,7 @@
 <l>a gloria que deve ter, </l>
 <l>senhora, quem vos servir. </l>
 </quote>
-<p>Alvaro Fernandes d'Almeida <ref target="#POR0100-nota-271"/> </p>
+<p>Alvaro Fernandes d'Almeida: <ref target="#POR0100-nota-271"/> </p>
 <quote>
 <l>Por este contentamento, </l>
 <l>que declara este rifão, </l>
@@ -3499,7 +3517,7 @@
 <l>pois que quando me perder </l>
 <l>hade ser por vos servir. </l>
 </quote>
-<p>Manuel de Vilhena</p>
+<p>Manuel de Vilhena:</p>
 <quote>
 <l>Esta gloria quem a tem, </l>
 <l>posto que folgue com ella, </l>
@@ -3510,7 +3528,7 @@
 <l>não se pode achar prazer </l>
 <l>se não só em vos servir. </l>
 </quote>
-<p>Garcia de Rezende</p>
+<p>Garcia de Rezende:</p>
 <quote>
 <l>Quem menos vos tem servido, </l>
 <l>tem mais que vos allegar, </l>
@@ -3522,7 +3540,7 @@
 <l>deveis crer e consentir </l>
 <l>que foi por mais merecer. </l>
 </quote>
-<p>Francisco de Sousa <ref target="#POR0100-nota-272"/> </p>
+<p>Francisco de Sousa: <ref target="#POR0100-nota-272"/> </p>
 <quote>
 <l>Tres annos ha que sou fóra, </l>
 <l>quatro mil legoas daqui, </l>
@@ -3534,7 +3552,7 @@
 <l>que quanta pena sentir </l>
 <l>se paga só com vos ver. </l>
 </quote>
-<p>Diogo de Mello <ref target="#POR0100-nota-273"/> </p>
+<p>Diogo de Mello: <ref target="#POR0100-nota-273"/> </p>
 <quote>
 <l>Pois nos Deus quiz amostrar, </l>
 <l>em vós todo seu poder </l>
@@ -3547,7 +3565,7 @@
 <l>a gloria que é perder </l>
 <l>a vida por vos servir. </l>
 </quote>
-<p>João Rodrigues de Sá <ref target="#POR0100-nota-274"/> </p>
+<p>João Rodrigues de Sá: <ref target="#POR0100-nota-274"/> </p>
 <quote>
 <l>Mas, porém, não a quiz dar </l>
 <l>tão barato, que escusasse </l>
@@ -3559,7 +3577,7 @@
 <l>deu mal para resistir </l>
 <l>a tão sobejo prazer </l>
 </quote>
-<p>Dom Francisco de Viveiro <ref target="#POR0100-nota-275"/> </p>
+<p>Dom Francisco de Viveiro: <ref target="#POR0100-nota-275"/> </p>
 <quote>
 <l>Cuidar em dar-vos louvores, </l>
 <l>é lançar agoa no mar, </l>
@@ -3570,7 +3588,7 @@
 <l>que é morrer por vos servir </l>
 <l>e sem isso não viver. </l>
 </quote>
-<p>Francisco Homem <ref target="#POR0100-nota-276"/> </p>
+<p>Francisco Homem: <ref target="#POR0100-nota-276"/> </p>
 <quote>
 <l>Tão grande merecimento </l>
 <l>que razão leve por guia, </l>
@@ -3581,7 +3599,7 @@
 <l>sem se poder encobrir </l>
 <l>de ninguem mais seu prazer </l>
 </quote>
-<p>Pero Moniz <ref target="#POR0100-nota-277"/> </p>
+<p>Pero Moniz: <ref target="#POR0100-nota-277"/> </p>
 <quote>
 <l>Tal rosto e tal figura </l>
 <l>vos foi Deus, senhora, dar </l>
@@ -3592,7 +3610,7 @@
 <l>a pena qu'hade sentir </l>
 <l>com a gloria qu'hade ter. </l>
 </quote>
-<p>Cabo de Ayres Telles</p>
+<p>Cabo de Ayres Telles:</p>
 <quote>
 <l>Se eu podesse ganhar </l>
 <l>d'outra parte cem mil vidas, </l>
@@ -3641,8 +3659,6 @@
 <l>Se vedes, pelo que faço, </l>
 <l>que o posso bem fazer, </l>
 <l>é porque al não pode ser. <ref target="#POR0100-nota-281"/> </l>
-</quote>
-<quote>
 <l>N'este tempo que passou, </l>
 <l>que nunca pode passar, </l>
 <l>na vida que me deixou </l>
@@ -3785,7 +3801,7 @@
 <l>quem te fez tão enganado </l>
 <l>que te não deu fundamento? </l>
 </quote>
-<p>De Simão de Sousa estando Dona Joanna presa por mandado da Rainha</p>
+<p>De Simão de Sousa estando Dona Joanna presa por mandado da Rainha:</p>
 <quote>
 <l>Senhora, pois que sois presa, </l>
 <l>e já não pode ser ai, </l>
@@ -3796,7 +3812,7 @@
 <l>sendo eu o carçareiro, </l>
 <l>e senhor, quem se pagasse. </l>
 </quote>
-<p>De Simão de Sousa á Senhora Dona Joanna de Mendonça</p>
+<p>De Simão de Sousa á Senhora Dona Joanna de Mendonça:</p>
 <quote>
 <l>Não sei de mim o que fôra, </l>
 <l>nem que fizera, </l>
@@ -3858,7 +3874,7 @@
 <l>quem tivera </l>
 <l>mor poder, quem sim, vos dera! </l>
 </quote>
-<p>Fim</p>
+<p>Fim.</p>
 <quote>
 <l>Não quero mais que a razão, </l>
 <l>faze o peior que souberdes, </l>
@@ -3880,7 +3896,7 @@
 <l>até aqui, mas não creaes </l>
 <l>que a pude encobrir mais. </l>
 </quote>
-<p>De Simão de Sousa á senhora Dona Joanna de Mendonça</p>
+<p>De Simão de Sousa á senhora Dona Joanna de Mendonça:</p>
 <quote>
 <l>Males que não são de fóra, </l>
 <l>e que vem do coração: </l>
@@ -3938,7 +3954,7 @@
 <l>mi vida que es mi dolor, </l>
 <l>loado seas amor! </l>
 </quote>
-<p>De Simão de Sousa, que lhe isseram que casava Dona Joanna de Mendonça</p>
+<p>De Simão de Sousa, que lhe disseram que casava Dona Joanna de Mendonça:</p>
 <quote>
 <l>Diz que quem cala consente, </l>
 <l>isto não se entenda em vós, </l>
@@ -4021,7 +4037,7 @@
 <l>-- «mandar fazer de comer </l>
 <l>senhora, para meu senhor,» </l>
 </quote>
-<p>Fim </p>
+<p>Fim. </p>
 <quote>
 <l>Este aviso quere-o, </l>
 <l>Ou o podes engeitar, </l>
@@ -4032,7 +4048,6 @@
 <l>em a tirardes de vós </l>
 <l>por a dar a quem vos daes. </l>
 </quote>
-</div><div type="chapter"><head>III</head>
 <p>DOCUMENTOS </p>
 </div><div type="chapter"><head>I</head>
 <p>Transladação dos restos da «Senhora Duqueza» para Villa Viçosa Saybão quantos este stromento de treslado dado por mandado e authoridade de justiça virem que no anno do nacimento de nosso sõr Jesv xpto de mil equinhentos e noventa anos aos seis dias do mez de dezembro do dito año ê villa viçosa nos paços do Reguengo do duque nosso sõr estando ahi presente o licenciado Archadeo damdrade desembargador do dito sõr e ouuidor dos feitos de sua fazenda por afonso alures solicitador das causas de sua ex.cia fora presemtado ao dito ouuidor hum breue cujo trestado de verbo ad verbum he o seguinte. Albertus miseratione diuina tt.° S.te crucis in Hierusalê S. te Rom. Ecc.e põr Carlis Archidux Austrie in portugalie et Algarbior Regnis ceteris q õibus hac dnys ptis et corû Regi sanctis sedis Aplice de latere leg. Dilecto nobis in xp.° atq Illustrissimo Dom Theodosio bragantie duci saltêm in dûo sempiternão ex parte tua nobis nuper oblata petitio continebat q eum quoendam Doña leonora proauia tua ducis tunc bragantie uxor inhumata existat in ecclesia Monasterij fratrum Ordinis S.te Paule prime heremite Ville seu loci De froentia de Montibus claris elborem dioeis dietiq frês nunc aliud monasterium cû alia ecclesia aliquantu per ab antiqua sub mota atq segregata de nouo edificari faciant, et tam hac de causa q et ex eo q sepultura predicti quoendam Done leonori iuxta qualitatem ejus decens non existit, tu ossa cadauris ipsius quoñ done leonore ad ecclesiam Monasterij beate Marie De Spe ordinis S.te francisci oppidi de villa viçosa nuncupati predicti Diocesj transferri, et ibi descenter collari facere uehementer obtas, sed hoc tibilicere Dubitas in consulta de super apostolica sede. Quare nobis humilita supplicari feciste, ut tibi inpremissis opportune prouidere benigne Dignaremur, nos igr. qui ad infrapta per lrãs aplicas ad quaru insertionem nontinemur sufficienti facultate muniti sumus, tuo pio desiderio in hac parte annuere volentos...... a quibus nis excois, ac alqs ecclijs ad sentijs cençuris et penis á iure vel ab homine qua ins ocêone vel causa latis, siquibus quo molt inno Datus existit ad effectû putium duntaxat consequendum harum sene absoluetes et absolutum fore et esse consentes tibi ut ossa cadauris praedicti quoñ done leonore proanie tue de eccliã p.ti Monasterij fratris ordinis sancti Pauli prime heremite loci seu ville de proentia de Mantibus claris, in qua nunc iacent, ad eccliãm Monasterij Beate Marie de Spe ordinis s.te Franciscis dicti oppidi de villa viçosa vulgariter ut prefertur nuncupati absq tamen alimius prejuditio transferri eaq tandem ibi decenter sepelire facere libere, et licito possu et valeas auocate aplicã tenore putium licentiam et facultatem omni modam concedimus, et impartimur non obstantibus praemissis, ac quibusuis apliis ac in preuincialibus, et sinodalibus conciliis, edilis ignalibus, vel specialibus constitutionibas et ordinariobus celerisq contrariis quibuscunq. Date Vlixbone Anno incarnationis Dominici MDL0100. Prid. nouembr. Sede Aplicã per obitum felicis recordationis Urbani pp septimi Vacante. Grátis ubiq. Gbristophorus zannolinus. Alb. Gar. leg. E apresentando assi o dito breue ao dito ouuidor pello dito afomso alvz. por quem foi dito que ao dito sõr Duque era necessario o trestado delle ê pubrica forma q lhe requeria lhe mandase dar de modo q fizesse fee, o q visto por o dito auuy.or o dito breue ê como estaua são sem ter vicio allgun mandou a mim notr.º q delle desse o treslado ao dito afomso Allurês como o pedia o ql mandou q valese e fizese fee como o proprio para o q interpunha seu decreto e authoridade ordinaria, ê comprimento do ql mandado eu diogo lopes, publico notr.º por authoridade real ê todas as causas tocantes ao duque nosso sõr tresladei o dito breue do proprio que me fora apresentado e tornei ao dito afomso allz..... este treslado concertey bem e fielmente com o official abaixo asinado sem leuar cousa q faça duvida e aqui de meu pubrico sinal asiney que tal he. </p>
@@ -4063,13 +4078,13 @@
 <p>Testamento do duque de Bargança Dom Jaimes <ref target="#POR0100-nota-284"/>  </p>
 <p>Em nome de Deus e da virgem maria nosa senhora a que me encomendo e protesto de viver e morrer na santa fee catholica sometendome aa santa madre egreja e crendo ho que ella cre. Esta he a minha derradeira vontade que quero que se cumpra assi como neste meu testamento for declarado, e se alguum outro testamento parecer nom seja valioso que antes deste seja feito <ref target="#POR0100-nota-285"/> . </p>
 <p>Primeiramente mando que se eu fallecer da vida deste mundo sem declarar onde me enterrem que lancem meu corpo em qualquer casa honesta do luguar onde eu falecer ou preto delle em modo de deposito pera depois se meu herdeiro ou testamenteiro me quiserem mudar o possam ffazer depois do corpo ser comido. Na minha coua onde quer que me enterrarem ou logo ou depois nom ponham degraaes nem tumba nem cousa nenhuma de pompa, e o mais que faraam seraa huuma pedra chaam e com letras em cima que diguam quem alii jaz sem mais retoricas, e em quanto nom posserem a pedra, poderam cobrir com pano preto de doo a coua, que depois de a pedra posta se dee a huum pobre. </p>
-<p>Em nenhum cabo me façam capella nem outro   gasto nenhum, e digo que me poderam mudar porque por ventura folguaram que jaça eu onde jacem cada huum de meus antecessores. E quando leuarem meu corpo a enterrar seraa de noyte, os confrades da misiricordia nas andas <ref target="#POR0100-nota-287"/>  da mesma misiricordia como leuam qualquer pobre homem sem mais tochas nem mays cirios nem mais clerisia nem religiosos do que soem fazer a qualquer pobre, pois naquella ora nom haa differencia em neuhuma pessoa. E nam avendo no lugar onde eu fallecer confraria da misiricordia me leuarã somente os cleriguos de huuma soo freguesia ou os religiosos da casa donde me ouuerem de soterrar, e por seu trabalho daram de esmola a misiricordia se ella me leuar dez mil reis, e se nam for misiricordia aos que me leuarem se forem religiosos ou se forem clerigos dous mill reis, e os oyto a pobres que acompanhem ou roguem a deus por mym. </p>
-<p>Nenhum officio me diram cantado nem favor delo   senam assi resado e nam mais que aquilo que ffazem a quallquer homem comum e ao outro dia seguinte me diram trinta e huma missas resadas se tantos sacerdotes ouuer ne luguar onde eu fallecer, saber, tres de trindades,   sete de spirito santo, noue, da anunciaçãa de nosa senhora, e nonve dos angeos e tres de defuntos porque nestas missas tiue sempre muita deuaçam, e nam me digam mais misas, e se no dito dia se podarem diser, <ref target="#POR0100-nota-290"/>  naquelle dia se diguam, e se nom o mais asinha que poder ser por pessoas de bom exemplo. E se alguem pola ventura me quiser faser mais pella alma faça ho em esmolas, porque a obra que haa de praser a deus ham de gostar os pobres della segundo sam iheronimo. E se ouuerem de mudar meus ossos nom ho ffaçam com chamamento de gente nem gasto somente com atee mea duzia de clerigos ou religiosos. </p>
+<p>Em nenhum cabo me façam capella nem outro <ref target="#POR0100-nota-286"/>  gasto nenhum, e digo que me poderam mudar porque por ventura folguaram que jaça eu onde jacem cada huum de meus antecessores. E quando leuarem meu corpo a enterrar seraa de noyte, os confrades da misiricordia nas andas <ref target="#POR0100-nota-287"/>  da mesma misiricordia como leuam qualquer pobre homem sem mais tochas nem mays cirios nem mais clerisia nem religiosos do que soem fazer a qualquer pobre, pois naquella ora nom haa differencia em neuhuma pessoa. E nam avendo no lugar onde eu fallecer confraria da misiricordia me leuarã somente os cleriguos de huuma soo freguesia ou os religiosos da casa donde me ouuerem de soterrar, e por seu trabalho daram de esmola a misiricordia se ella me leuar dez mil reis, e se nam for misiricordia aos que me leuarem se forem religiosos ou se forem clerigos dous mill reis, e os oyto a pobres que acompanhem ou roguem a deus por mym. </p>
+<p>Nenhum officio me diram cantado nem favor delo <ref target="#POR0100-nota-288"/>  senam assi resado e nam mais que aquilo que ffazem a quallquer homem comum e ao outro dia seguinte me diram trinta e huma missas resadas se tantos sacerdotes ouuer ne luguar onde eu fallecer, saber, tres de trindades, <ref target="#POR0100-nota-289"/>  sete de spirito santo, noue, da anunciaçãa de nosa senhora, e nonve dos angeos e tres de defuntos porque nestas missas tiue sempre muita deuaçam, e nam me digam mais misas, e se no dito dia se podarem diser, <ref target="#POR0100-nota-290"/>  naquelle dia se diguam, e se nom o mais asinha que poder ser por pessoas de bom exemplo. E se alguem pola ventura me quiser faser mais pella alma faça ho em esmolas, porque a obra que haa de praser a deus ham de gostar os pobres della segundo sam iheronimo. E se ouuerem de mudar meus ossos nom ho ffaçam com chamamento de gente nem gasto somente com atee mea duzia de clerigos ou religiosos. </p>
 <p>Eu casey com a duquesa dona johana de mendonça </p>
 <p>pelo contentamento que tinha della e nom olhey a ffazer contrato nem pera seu proueito nem pera o meu. </p>
-<p>E por que segundo me dizem letrados haa hii duvida se lhe pertenceraa a metade de minha ffasenda patrimonial na qual tambem haa muitas duuidas como faz menção na doação que della me fez elRei Dom Manuel, e por tirar escandalo antre ella e meus filhos e por que ella melhor se possa sustentar me parece que lhe viria melhor alguuma renda em sua vida que lhe meu filho herdeiro desse, e assi ao dito meu filho fiquar-lhe a dita metade da fasenda per via de concerto aprasendo-lhe a ella de querer estar por ysso, e nom entrar em demanda ou partilha, encomendo e rogo a meu filho herdeiro que lhe queira leixar   em sua vida da duquesa a villa dalter do chaão com seu castello por ter bom apousentamento <ref target="#POR0100-nota-292"/>  e honesto com sua jurdiçaão; pode somente reseruar meu filho pera si a alçada do ciuel, e com os dinheiros que alii temos assentados, a saber de conto e meo e da vidigueira, e a demasia em monforte lhe reffaraa quinhentos mil reis cada anno e com estes, e com os tresentos mil reis de seu assentamento que he pera honestamente se poder manter. </p>
+<p>E por que segundo me dizem letrados haa hii duvida se lhe pertenceraa a metade de minha ffasenda patrimonial na qual tambem haa muitas duuidas como faz menção na doação que della me fez elRei Dom Manuel, e por tirar escandalo antre ella e meus filhos e por que ella melhor se possa sustentar me parece que lhe viria melhor alguuma renda em sua vida que lhe meu filho herdeiro desse, e assi ao dito meu filho fiquar-lhe a dita metade da fasenda per via de concerto aprasendo-lhe a ella de querer estar por ysso, e nom entrar em demanda ou partilha, encomendo e rogo a meu filho herdeiro que lhe queira leixar <ref target="#POR0100-nota-291"/>  em sua vida da duquesa a villa dalter do chaão com seu castello por ter bom apousentamento <ref target="#POR0100-nota-292"/>  e honesto com sua jurdiçaão; pode somente reseruar meu filho pera si a alçada do ciuel, e com os dinheiros que alii temos assentados, a saber de conto e meo e da vidigueira, e a demasia em monforte lhe reffaraa quinhentos mil reis cada anno e com estes, e com os tresentos mil reis de seu assentamento que he pera honestamente se poder manter. </p>
 <p>E a duquesa lhe alargue a metade da ffasenda se lhe pode pertencer, a qual metade com a terça meu filho tome nas cousas que ordeno que fiquem em morguado. </p>
-<p>E com estes oytocentos mill reis com boom recado se remedearaa, e meu filho nam perde em darlho ante ganha e ffaz uirtude e minha bençam ganha, e ficam-lhe estas cousas pera sempre, assy que me parece que pera ambos estaa muito bem. E se meu filho estiuer por ysto deixolhe minha terça pera o morgado, ysto aynda que a duquesa nom queira estar por ysto, e se elle nom quiser estar por ysto e ella sy deixo a ella minha terça, e esta terça deixo em galarardaon de quem estiuer por este contranto por causa de concordia. E em tal caso que a terça fique a duquesa tomesse em cousa junta e que renda assy como em corvelhãa se couber e aja a duquesa em sua vida, e por seu fallecimento aja o mayor filho que della e de mim fiquar a hora de sua morte. E nom ficando ffilho macho fique pera a filha dantre ambos mayor assy por via de morgado por sempre, e nem ficando por sua morte nenhuum de nossos filhos ou netos ou outros que della e de mym descendam fique a outro meu filho ou filha mayor que nam seja o herdeiro, que nam quis estar por este concerto porque a este quero que nam venha ainda que nom aja ffilho nenhuum, antes quero que entonces ffique esta minha terça ao esprital de Villa viçosa de Samtispritus per ser gouernado pellos officiaaes da misiricordia. E querendo ambos, a saber a duqueza e meu filho estar por ysto, faças se disto escritura dambas as partes forte e segura e confirmesse por elRei meu senhor, e assi do morguado quallquer que se ouuer de ffazer. Vsse   meu filho com seus irmaaos como deue, e bem pode ter maneira com elles e darlhe e fazerlhe auer cousas que a elle prejudicaram pouco, e a elles aproueitaraa muito, <ref target="#POR0100-nota-294"/>  de maneira que nam seja necessaria partilha, olhando em todo sua consciencia que elles nam sejam danificados de satisfaçaão da quantidade que por direito lhe pode pertencer, ysto diguo porque espedaçandosse tam pouca ffazenda por taaes pessoas a cada huum viraa pouco, e mais lhes pode seu irmaão aproueitar em al, e segundo sam bernardo de Regimine familie este he o melhor comselho. </p>
+<p>E com estes oytocentos mill reis com boom recado se remedearaa, e meu filho nam perde em darlho ante ganha e ffaz uirtude e minha bençam ganha, e ficam-lhe estas cousas pera sempre, assy que me parece que pera ambos estaa muito bem. E se meu filho estiuer por ysto deixolhe minha terça pera o morgado, ysto aynda que a duquesa nom queira estar por ysto, e se elle nom quiser estar por ysto e ella sy deixo a ella minha terça, e esta terça deixo em galarardaon de quem estiuer por este contranto por causa de concordia. E em tal caso que a terça fique a duquesa tomesse em cousa junta e que renda assy como em corvelhãa se couber e aja a duquesa em sua vida, e por seu fallecimento aja o mayor filho que della e de mim fiquar a hora de sua morte. E nom ficando ffilho macho fique pera a filha dantre ambos mayor assy por via de morgado por sempre, e nem ficando por sua morte nenhuum de nossos filhos ou netos ou outros que della e de mym descendam fique a outro meu filho ou filha mayor que nam seja o herdeiro, que nam quis estar por este concerto porque a este quero que nam venha ainda que nom aja ffilho nenhuum, antes quero que entonces ffique esta minha terça ao esprital de Villa viçosa de Samtispritus per ser gouernado pellos officiaaes da misiricordia. E querendo ambos, a saber a duqueza e meu filho estar por ysto, faças se disto escritura dambas as partes forte e segura e confirmesse por elRei meu senhor, e assi do morguado quallquer que se ouuer de ffazer. Vsse <ref target="#POR0100-nota-293"/>  meu filho com seus irmaaos como deue, e bem pode ter maneira com elles e darlhe e fazerlhe auer cousas que a elle prejudicaram pouco, e a elles aproueitaraa muito, <ref target="#POR0100-nota-294"/>  de maneira que nam seja necessaria partilha, olhando em todo sua consciencia que elles nam sejam danificados de satisfaçaão da quantidade que por direito lhe pode pertencer, ysto diguo porque espedaçandosse tam pouca ffazenda por taaes pessoas a cada huum viraa pouco, e mais lhes pode seu irmaão aproueitar em al, e segundo sam bernardo de Regimine familie este he o melhor comselho. </p>
 <p>E por que a Duquesa tem alguumas joyas douro e assy prata de seruir que nam he muita quantidade, e serlhe haa necessaria pera seu seruiço, e assi pera testar e desça rreguar sua consciencia quero e mando que das joyas douro e prata que em poder de seus officiaaes e delia sam aja a dita duquesa valia de huum conto de reis, e ysto ffazendose o concerto antre ella e meu filho porque nam se ffazendo nam averaa ysto luguar, e com esta condição destes huum conto de reis quero que se ffaça este concerto acima dito. E assy lhe fiquem as escrauas que em seu servjço estam tirando as que seruem a minha filha dona ysabel. E assy lhe fique a roupa de cama e de estrado que soaê geralmente seruir em sua casa, porque seria cousa fea tirarem lha ou avaliarem lha, as jóias de pedraria aja sua senhoria por bem se partam antre meus filhos por yguaaes legitimas se a ffasenda mouel a ysto abranger aynda que melhor seraa que o herdeiro as aja, e lhes pague o que valerem suas legitimas tirando a terça de que acima ffaz menção. </p>
 <p>Porque eu tenho alguma fazenda que aproueiley e se se partisse poderia traser discordia antre os herdeiros me parece que he melhor que fique em quem for senhor da casa, se meu filho herdeiro estiuer pello concerto que acima digo com a duquesa, ou se pola ventura ella fallecer antes que eu a parto primeiramente em a terça todas as herdades e ffazenda que eu comprey e comprar em Villa boym porque he muy necessaria pera o senhor da casa, e se toda a fazenda da dita villa nom tiuer comprada a hora da minha morte aconselho a meu herdeiro que a acabe de comprar se poder e que o faça assy mesmo em morguado, porque se o duque meu avoo fisera em morgado a ffasenda que alii tinha comprada tiuera eu pouco trabalho daver o restante. </p>
 <p>E assy aparto tambem na dita terça as minhas casas de Lixboa que estam na freguesia das merces <ref target="#POR0100-nota-295"/>  que partem com a cordoaria onde eu agora viuo quando laa estou, com todos seus pomares e quinlaaes e eyrados e pertenças. </p>
@@ -4691,9 +4706,9 @@
 </quote>
 <p>Satisfazendo os da orthographia fiel, deviamos reproduzir assim o -- Rifam -- : </p>
 <quote>
-<p>Nã sespera outro rremedio </p>
-<p>de quem vyr a periguosa, </p>
-<p>se nam vida douidosa. </p>
+<l>Nã sespera outro rremedio </l>
+<l>de quem vyr a periguosa, </l>
+<l>se nam vida douidosa. </l>
 </quote>
 <p>Entre as Vilhonas, que por diversas procedencias enxameiam a fidalguia portugueza, não é fácil precisar qual fosse a perigosa Beatriz. Seria, provavelmente, a Dona Brites de Vilhena, filha de Ruy Telles e irmã do Ayres Telles, de que adeante falaremos, que foi primeira mulher do Conde de Vimioso. </p> </note> 
 <note xml:id="POR0100-nota-263"> <p> Estas trovas desencanlámol-as de uma longa serie que uma leitura incompleta da respectiva epygraphe tem feito suppor ser toda de Rezende. </p>
@@ -4744,9 +4759,11 @@
 </quote> </note>
 <note xml:id="POR0100-nota-280"> <p> Demais conversámos já acerca de quem seria o amoroso e elegiaco Simão, no cap. VIII. </p> </note> 
 <note xml:id="POR0100-nota-281"> <p> Fielmente, reproduziriamos: </p>
-<p>Se vedes polo que faço </p>
-<p>que o posso bem fazer </p>
-<p>he por cal nam pode sser, </p>
+<quote>
+<l>Se vedes polo que faço </l>
+<l>que o posso bem fazer </l>
+<l>he por cal nam pode sser, </l>
+</quote>
 <p>-- Al, -- forma infelizmente obsoleta na linguagem litteraria, mas que se conserva ainda na popular, pelo menos na provinciana: -- «pron. ind. ant. (Do latim alivd, etc.) Outra coisa, mais, tudo o mais. etc. Vieira, Dicc. </p> </note> 
 <note xml:id="POR0100-nota-282"> <p> Sinto sempre um verdeiro prazer em ter occasião de publicamente prestar a J. Basto, -- o dedicado, obsequioso e insubstituivel Archivista da Torre do Tombo, -- o meu agradecimento de estudioso, associando um testemunho mais, embora invalidoso, aos de quantos estimam e procuram a verdade da Historia cuja investigação honrada tem sempre entre nós, encontrado n'aquelle modesto e intelligentissimo successor de Goes, o mais generoso auxiliar. </p>
 <p>Posso, e estimo dizer que a elle devo estas cartas, e as que se lhe seguem, como lhe devo outros muitos documentos interessantissimos, procnrados e prestados com a maior gentileza, e mal poderá apreciar o valor d'estas finezas e mais ainda o dos serviços d'aquella estimavel dynastia dos Bastos, do Archivo Nacional, quem não conhecer a desolada penuria de pessoal e de recursos em que a sua acrisolada dedicação tem de exercer-se, alli. E já agora, não deixarei de acrescentar aqui os meus agradecimentos á Bibliotheca Nacional e á Inspecção Geral das Bibliotbecas e Archivos, que muito lhes devo tambem. </p> </note> 

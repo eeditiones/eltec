@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2003" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2003" xml:lang="es">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -17,10 +20,10 @@
 			</extent>
             <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -72,6 +75,7 @@
 			</textDesc>
 		</profileDesc>
 		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2018-09-01">Revisión del texto, anotación y edición ELTeC : Borja Navarro Colorado</change>
 			<change when="2020-01-30">Corrección información bibliográfica : Borja Navarro Colorado</change>
@@ -116,7 +120,7 @@
 				<head>-II-</head>
 				<p>En uno de los primeros días de Octubre de aquel año funesto (1805), mi noble amo me llamó a su cuarto, y mirándome con su habitual severidad (cualidad tan sólo aparente, pues su carácter era sumamente blando), me dijo:</p>
 				<p><gap unit="graphic" n="persona"/> «Gabriel, ¿eres tú hombre de valor?»</p>
-				<p>No supe al principio qué contestar, porque, a decir verdad, en mis catorce años de vida no se me había presentado aún ocasión de asombrar <corr>al</corr>  mundo con ningún hecho heroico; pero <corr>el</corr> oírme llamar <hi rend="italic">hombre</hi> me llenó de orgullo, y pareciéndome al mismo tiempo indecoroso negar mi valor ante persona que lo tenía en tan alto grado, contesté con pueril arrogancia:</p>
+				<p>No supe al principio qué contestar, porque, a decir verdad, en mis catorce años de vida no se me había presentado aún ocasión de asombrar <corr>al</corr>  mundo con ningún hecho heroico; pero <corr>el</corr> oírme llamar <emph>hombre</emph> me llenó de orgullo, y pareciéndome al mismo tiempo indecoroso negar mi valor ante persona que lo tenía en tan alto grado, contesté con pueril arrogancia:</p>
 				<p>«Sí, mi amo: soy hombre de valor».</p>
 				<p>Entonces aquel insigne varón, que había derramado su sangre en cien combates gloriosos, sin que por esto se desdeñara de tratar confiadamente a su leal criado, sonrió ante mí, hízome seña de que me sentara, y ya iba <pb n="19"/> a poner en mi conocimiento alguna importante resolución, cuando su esposa y mi ama Doña Francisca entró de súbito en el despacho para dar mayor interés a la conferencia, y comenzó a hablar destempladamente en estos términos:</p>
 				<p>-No, no irás... te aseguro que no irás a la escuadra. ¡Pues no faltaba más!... ¡A tus años y cuando te has retirado del servicio por viejo!... ¡Ay, Alonsito, has llegado a los setenta y ya no estás para fiestas!</p>
@@ -144,7 +148,7 @@
 			<pb n="26"/>
 			<div type="chapter" n="SPA2003003">
 				<head>-III-</head>
-				<p>D. Alonso Gutiérrez de Cisniega pertenecía a una antigua familia del mismo Vejer. Consagráronle a la carrera naval, y desde su juventud, siendo guardia marina, se distinguió honrosamente en el ataque que los ingleses dirigieron contra la Habana en 1748. Formó parte de la expedición que salió de Cartagena contra Argel en 1775, y también se halló en el ataque de Gibraltar por el Duque de Crillon en 1782. Embarcose más tarde para la expedición al estrecho de Magallanes en la corbeta <hi rend="italic">Santa María de la Cabeza</hi>, que mandaba Don Antonio de Córdova; también se halló en los gloriosos combates que sostuvo la escuadra anglo-española contra la francesa delante de Tolón en 1793, y, por último, terminó su gloriosa carrera en el desastroso encuentro del cabo de San Vicente, mandando el navío <hi rend="italic">Mejicano</hi>, uno de los que tuvieron que
+				<p>D. Alonso Gutiérrez de Cisniega pertenecía a una antigua familia del mismo Vejer. Consagráronle a la carrera naval, y desde su juventud, siendo guardia marina, se distinguió honrosamente en el ataque que los ingleses dirigieron contra la Habana en 1748. Formó parte de la expedición que salió de Cartagena contra Argel en 1775, y también se halló en el ataque de Gibraltar por el Duque de Crillon en 1782. Embarcose más tarde para la expedición al estrecho de Magallanes en la corbeta <emph>Santa María de la Cabeza</emph>, que mandaba Don Antonio de Córdova; también se halló en los gloriosos combates que sostuvo la escuadra anglo-española contra la francesa delante de Tolón en 1793, y, por último, terminó su gloriosa carrera en el desastroso encuentro del cabo de San Vicente, mandando el navío <emph>Mejicano</emph>, uno de los que tuvieron que
 rendirse.</p>
 				<p>Desde entonces, mi amo, que no había ascendido conforme a su trabajosa y dilatada carrera, se retiró del servicio. De resultas de <pb n="27"/> las heridas recibidas en aquella triste jornada, cayó enfermo del cuerpo, y más gravemente del alma, a consecuencia del pesar de la derrota. Curábale su esposa con amor, aunque no sin gritos, pues el maldecir a la marina y a los navegantes era en su boca tan habitual como los dulces nombres de Jesús y María en boca de un devoto.</p>
 				<p>Era Doña Francisca una señora excelente, ejemplar, de noble origen, devota y temerosa de Dios, como todas las hembras de aquel tiempo; caritativa y discreta, pero con el más arisco y endemoniado genio que he conocido en mi vida. Francamente, yo no considero como ingénito aquel iracundo temperamento, sino, antes bien, creado por los disgustos que la ocasionó la desabrida profesión de su esposo; y es preciso confesar que no se quejaba sin razón, pues aquel matrimonio, que durante cincuenta años habría podido dar veinte hijos al mundo y a Dios, tuvo que contentarse con uno solo: la encantadora y sin par Rosita, de quien hablaré después. Por éstas y otras razones, Doña Francisca pedía al cielo en sus diarias oraciones el aniquilamiento de todas las escuadras europeas.</p>
@@ -162,24 +166,24 @@ a todas horas sobre un tema importante, es decir: que si Córdova,
 comandante de nuestra escuadra, hubiera mandado orzar a babor en
 vez de ordenar la maniobra a estribor, los navíos 
 
-     <hi rend="italic">
+     <emph>
       Mejicano
-     </hi>
+     </emph>
      , 
 
-     <hi rend="italic">
+     <emph>
       San José
-     </hi>
+     </emph>
      , 
 
-     <hi rend="italic">
+     <emph>
       San Nicolás
-     </hi>
+     </emph>
      y 
 
-     <hi rend="italic">
+     <emph>
       San Isidro
-     </hi>
+     </emph>
      no habrían caído en poder de los
 ingleses, y el almirante inglés Jerwis habría sido derrotado. Su
 mujer, Marcial, hasta yo mismo, extralimitándome en mis
@@ -255,24 +259,24 @@ y principios del presente; historia en cuyas páginas las gloriosas
 acciones alternan con lamentables desdichas. Marcial había navegado
 en el 
 
-     <hi rend="italic">
+     <emph>
       Conde de Regla
-     </hi>
+     </emph>
      , en el 
 
-     <hi rend="italic">
+     <emph>
       San Joaquín
-     </hi>
+     </emph>
      , en el 
 
-     <hi rend="italic">
+     <emph>
       Real Carlos
-     </hi>
+     </emph>
      , en el 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , y en otros heroicos y desgraciados
 barcos que, al parecer derrotados con honra o destruidos con
 alevosía, sumergieron con sus viejas tablas el poderío naval de
@@ -311,9 +315,9 @@ se apercibía para un gran combate, sintió renacer en su pecho el
 amortiguado entusiasmo, y soñó que se hallaba mandando la marinería
 en el alcázar de proa del 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      . Como notase en D. Alonso
 iguales síntomas de recrudecimiento, se franqueó con él, y desde
 entonces pasaban gran parte del día y de la noche comunicándose,
@@ -335,7 +339,7 @@ opinión de mi ama y las mil picardías que dijo del marinero
 embaucador; ya saben que D. Alonso insistía en poner en ejecución
 tan atrevido pensamiento, acompañado de su paje, y ahora me resta
 referir lo que todos dijeron cuando Marcial se presentó a defender
-la guerra contra el vergonzoso <foreign xml:lang="lat">statu quo</foreign>de Doña Francisca.</p>
+la guerra contra el vergonzoso <foreign xml:lang="LAT">statu quo</foreign>de Doña Francisca.</p>
     
 
    </div>
@@ -388,9 +392,9 @@ amo.
     <p>
      «Pero el 
 
-     <hi rend="italic">
+     <emph>
       Señorito
-     </hi>
+     </emph>
      -continuó Medio-hombre-, traerá
 muchos también. Así me gustan a mí las funciones: mucha madera
 donde 
@@ -398,9 +402,9 @@ donde
      <pb n="34"/>
      mandar balas, y mucho 
 
-     <hi rend="italic">
+     <emph>
       jumo
-     </hi>
+     </emph>
      de pólvora que caliente el aire cuando
 hace frío.»
     </p>
@@ -429,86 +433,86 @@ de una forzada analogía entre las partes de aquél y los miembros de
 éste. Por ejemplo, hablando de la pérdida de su ojo, decía que
 había cerrado el 
 
-     <hi rend="italic">
+     <emph>
       portalón de estribor
-     </hi>
+     </emph>
      ; y para expresar la
 rotura del brazo, decía que se había quedado sin la 
 
-     <hi rend="italic">
+     <emph>
       serviola de babor
-     </hi>
+     </emph>
      . Para él el corazón,
 residencia del valor y del heroísmo, 
 
      <pb n="35"/>
      era el 
 
-     <hi rend="italic">
+     <emph>
       pañol de la pólvora,
-     </hi>
+     </emph>
      así como el estómago el 
 
-     <hi rend="italic">
+     <emph>
       pañol del viscocho.
-     </hi>
+     </emph>
      Al menos estas frases las
 entendían los marineros; pero había otras, hijas de su propia
 inventiva filológica, de él sólo conocidas y en todo su valor
 apreciadas. ¿Quién podría comprender lo que significaban 
 
-     <hi rend="italic">
+     <emph>
       patigurbiar, chingurria
-     </hi>
+     </emph>
      y otros feroces
 nombres del mismo jaez? Yo creo, aunque no lo aseguro, que con el
 primero significaba dudar, y con el segundo tristeza. La acción de
 embriagarse la denominaba de mil maneras distintas, y entre éstas
 la más común era 
 
-     <hi rend="italic">
+     <emph>
       ponerse la casaca
-     </hi>
+     </emph>
      , idiotismo cuyo sentido no
 hallarán mis lectores, si no les explico que, habiéndole merecido
 los marinos ingleses el dictado de 
 
-     <hi rend="italic">
+     <emph>
       casacones
-     </hi>
+     </emph>
      , sin duda a causa de su uniforme,
 al decir 
 
-     <hi rend="italic">
+     <emph>
       ponerse la casaca
-     </hi>
+     </emph>
      por emborracharse, quería
 significar Marcial una acción común y corriente entre sus enemigos.
 A los almirantes extranjeros los llamaba con estrafalarios nombres,
 ya creados por él, ya traducidos a su manera, fijándose en
 semejanzas de sonido. A Nelson le llamaba el 
 
-     <hi rend="italic">
+     <emph>
       Señorito
-     </hi>
+     </emph>
      , voz que indicaba cierta
 consideración o respeto; a Collingwood el 
 
-     <hi rend="italic">
+     <emph>
       tío Calambre
-     </hi>
+     </emph>
      , frase que a él le parecía
 exacta traducción del inglés; a Jerwis le nombraba como los mismos
 ingleses, esto es, 
 
-     <hi rend="italic">
+     <emph>
       viejo zorro
-     </hi>
+     </emph>
      ; a Calder el 
 
-     <hi rend="italic">
+     <emph>
       tío Perol
-     </hi>
+     </emph>
      , porque encontraba mucha relación 
 
      <pb n="36"/>
@@ -516,9 +520,9 @@ ingleses, esto es,
 lingüístico enteramente opuesto, designaba a Villeneuve, jefe de la
 escuadra combinada, con el apodo de 
 
-     <hi rend="italic">
+     <emph>
       Monsieur Corneta
-     </hi>
+     </emph>
      , nombre tomado de un sainete
 a cuya representación asistió Marcial en Cádiz. En fin, tales eran
 los disparates que salían de su boca, que me veré obligado, para
@@ -553,20 +557,20 @@ como la del cabo de San Vicente.
 con placer, viendo mencionado su tema favorito-, que si el
 almirante Córdova hubiera mandado virar a babor a los navíos 
 
-     <hi rend="italic">
+     <emph>
       San José
-     </hi>
+     </emph>
      y 
 
-     <hi rend="italic">
+     <emph>
       Mejicano
-     </hi>
+     </emph>
      , el Sr. de Jerwis no se habría
 llamado 
 
-     <hi rend="italic">
+     <emph>
       Lord Conde de San Vicente
-     </hi>
+     </emph>
      . De eso estoy 
 
      <pb n="37"/>
@@ -594,22 +598,22 @@ no fuera por sus muchas astucias y picardías!... Nosotros vamos
 siempre contra ellos con el alma a un largo, pues, con nobleza,
 bandera izada y manos limpias. El inglés no se 
 
-     <hi rend="italic">
+     <emph>
       larguea
-     </hi>
+     </emph>
      , y siempre ataca por sorpresa,
 buscando las aguas malas y las horas de cerrazón. Así fue la del
 Estrecho, que nos tienen que pagar. Nosotros navegábamos confiados,
 porque ni de perros herejes moros se teme la traición, 
 
-     <hi rend="italic">
+     <emph>
       cuantimás
-     </hi>
+     </emph>
      de un inglés que es 
 
-     <hi rend="italic">
+     <emph>
       civil
-     </hi>
+     </emph>
      y al modo de cristiano. Pero no: el que
 ataca a traición no es cristiano, sino un salteador de caminos.
 Figúrese usted, señora -añadió dirigiéndose a Doña Francisca para
@@ -620,41 +624,41 @@ por los ingleses.
      <pb n="38"/>
      Hace de esto cuatro años, y 
 
-     <hi rend="italic">
+     <emph>
       entavía
-     </hi>
+     </emph>
      tengo tal coraje que la sangre se me
 emborbota cuando lo recuerdo. Yo iba en el 
 
-     <hi rend="italic">
+     <emph>
       Real Carlos
-     </hi>
+     </emph>
      , de 112 cañones, que mandaba
 Ezguerra, y además llevábamos el 
 
-     <hi rend="italic">
+     <emph>
       San Hermenegildo
-     </hi>
+     </emph>
      , de 112 también; el 
 
-     <hi rend="italic">
+     <emph>
       San Fernando
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Argonauta
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       San Agustín
-     </hi>
+     </emph>
      y la fragata 
 
-     <hi rend="italic">
+     <emph>
       Sabina
-     </hi>
+     </emph>
      . Unidos con la escuadra francesa, que
 tenía cuatro navíos, tres fragatas y un bergantín, salimos de
 Algeciras para Cádiz a las doce del día, y como el tiempo era
@@ -665,43 +669,43 @@ me acuerdo que estaba yo en el castillo de proa hablando con mi
 primo Pepe Débora, que me contaba las perradas de su suegra, y
 desde allí vi las luces del 
 
-     <hi rend="italic">
+     <emph>
       San Hermenegildo
-     </hi>
+     </emph>
      , que navegaba a estribor
 como a tiro de cañón. Los demás barcos iban delante. 
 
-     <hi rend="italic">
+     <emph>
       Pusque
-     </hi>
+     </emph>
      lo que menos creíamos era que los
 casacones habían salido de Gibraltar tras de nosotros y nos daban
 caza. ¿Ni cómo los habíamos de ver, si tenían apagadas las luces y
 se nos acercaban sin que nos percatáramos de ello? De repente, y 
 
-     <hi rend="italic">
+     <emph>
       anque
-     </hi>
+     </emph>
      la noche estaba muy obscura, me pareció
 ver... yo siempre he tenido un 
 
-     <hi rend="italic">
+     <emph>
       farol
-     </hi>
+     </emph>
      como un lince... 
 
      <pb n="39"/>
      me pareció que un barco pasaba entre nosotros y el 
 
-     <hi rend="italic">
+     <emph>
       San Hermenegildo
-     </hi>
+     </emph>
      . «José Débora -dije a mi
 compañero-; o yo estoy viendo 
 
-     <hi rend="italic">
+     <emph>
       pantasmas
-     </hi>
+     </emph>
      , o tenemos un barco inglés por
 estribor».
     </p>
@@ -716,9 +720,9 @@ estribor».
      «Que el palo mayor se caiga por la
 fogonadura y me parta, si hay por estribor más barco que el 
 
-     <hi rend="italic">
+     <emph>
       San Hermenegildo
-     </hi>
+     </emph>
      .
     </p>
     
@@ -733,9 +737,9 @@ avisarle al oficial que está de cuarto».
      No había acabado de decirlo, cuando
 pataplús... sentimos el 
 
-     <hi rend="italic">
+     <emph>
       musiqueo
-     </hi>
+     </emph>
      de toda una andanada que nos soplaron
 por el costado. En un minuto la tripulación se levantó... cada uno
 a su puesto... ¡Qué batahola, señora Doña Francisca! Me alegrara de
@@ -744,17 +748,17 @@ Todos jurábamos como demonios y pedíamos a Dios que nos pusiera un
 cañón en cada dedo para contestar al ataque. Ezguerra subió al
 alcázar y mandó disparar la andanada de estribor... 
 
-     <hi rend="italic">
+     <emph>
       ¡zapataplús!
-     </hi>
+     </emph>
      La andanada de estribor disparó
 en seguida, y al poco rato nos contestaron... Pero en aquella
 trapisonda no vimos que con el primer disparo nos habían soplado a
 bordo unas endiabladas materias 
 
-     <hi rend="italic">
+     <emph>
       comestibles
-     </hi>
+     </emph>
      (combustibles quería 
 
      <pb n="40"/>
@@ -767,9 +771,9 @@ enemigo. Aquí te quiero ver... Yo estaba en mis glorias... En un
 guiñar del ojo preparamos las hachas y picas para el abordaje... el
 barco enemigo se nos venía encima, lo cual me 
 
-     <hi rend="italic">
+     <emph>
       encabrilló
-     </hi>
+     </emph>
      (me alegró) el alma, porque así nos
 enredaríamos más pronto... Mete, mete a estribor... ¡qué julepe!
 Principiaba a amanecer: ya los penoles se besaban; ya estaban
@@ -777,9 +781,9 @@ dispuestos los grupos, cuando oímos juramentos españoles a bordo
 del buque enemigo. Entonces nos quedamos todos tiesos de espanto,
 porque vimos que el barco con que nos batíamos era el mismo 
 
-     <hi rend="italic">
+     <emph>
       San Hermenegildo
-     </hi>
+     </emph>
      .
     </p>
     
@@ -795,14 +799,14 @@ tan burros que uno y otro...?
      -Diré a usted: no tuvimos tiempo de
 andar con palabreo. El fuego del 
 
-     <hi rend="italic">
+     <emph>
       Real Carlos
-     </hi>
+     </emph>
      se pasó al 
 
-     <hi rend="italic">
+     <emph>
       San Hermenegildo
-     </hi>
+     </emph>
      , y entonces... ¡Virgen del
 Carmen, la que se armó! ¡A las lanchas!, gritaron muchos. El fuego
 estaba ya ras con ras con 
@@ -810,9 +814,9 @@ estaba ya ras con ras con
      <pb n="41"/>
      la 
 
-     <hi rend="italic">
+     <emph>
       Santa Bárbara
-     </hi>
+     </emph>
      , y esta señora no se anda con
 bromas... Nosotros jurábamos, gritábamos insultando a Dios, a la
 Virgen y a todos los santos, porque así parece que se desahoga uno
@@ -830,9 +834,9 @@ cuando está lleno de coraje hasta la escotilla.
      -Nos salvamos cuarenta en la falúa y
 seis o siete en el chinchorro: éstos recogieron al segundo del 
 
-     <hi rend="italic">
+     <emph>
       San Hermenegildo
-     </hi>
+     </emph>
      . José Débora se aferró a un
 pedazo de palo y arribó más muerto que vivo a las playas de
 Marruecos.
@@ -852,9 +856,9 @@ Marruecos.
      y en ella cabe
 mucha gente. Dos mil hombres 
 
-     <hi rend="italic">
+     <emph>
       apagaron fuegos
-     </hi>
+     </emph>
      aquel día, entre ellos nuestro
 comandante Ezguerra, y Emparán el del otro barco.
     </p>
@@ -873,9 +877,9 @@ Don Alonso, que gustaba de interesar a su mujer en tan dramáticos
 sucesos-, fue la siguiente. Los ingleses, validos de la obscuridad
 de la noche, dispusieron que el navío 
 
-     <hi rend="italic">
+     <emph>
       Soberbio
-     </hi>
+     </emph>
      , el más ligero de los que traían,
 apagara sus luces y se colocara entre nuestros dos hermosos 
 
@@ -884,14 +888,14 @@ apagara sus luces y se colocara entre nuestros dos hermosos
 su aparejo en facha con mucha presteza, orzando al mismo tiempo
 para librarse de la contestación. El 
 
-     <hi rend="italic">
+     <emph>
       Real Carlos
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       San Hermenegildo
-     </hi>
+     </emph>
      , viéndose atacados
 inesperadamente, hicieron fuego; pero se estuvieron batiendo el uno
 contra el otro, hasta que cerca del amanecer y estando a punto de
@@ -910,20 +914,20 @@ ha contado Marcial.
      -Qué ha de ser -añadió Medio-hombre-.
 Entonces yo no los quería bien; pero 
 
-     <hi rend="italic">
+     <emph>
       dende
-     </hi>
+     </emph>
      esa noche... Si están ellos en el Cielo,
 no quiero ir al Cielo, 
 
-     <hi rend="italic">
+     <emph>
       manque
-     </hi>
+     </emph>
      me condene para toda la 
 
-     <hi rend="italic">
+     <emph>
       enternidad
-     </hi>
+     </emph>
      ...
     </p>
     
@@ -947,9 +951,9 @@ para llegar, cuando de pronto...
 que vea las mañas de esa gente. Después de lo del Estrecho, me
 embarqué en la 
 
-     <hi rend="italic">
+     <emph>
       Fama
-     </hi>
+     </emph>
      para Montevideo, y ya hacía mucho tiempo
 que estábamos allí, cuando el jefe de la escuadra recibió orden de
 traer a España los caudales de Lima y Buenos Aires. El viaje fue
@@ -957,9 +961,9 @@ muy bueno, y no tuvimos más percance que unas calenturillas, que no
 mataron ni tanto así de hombre... Traíamos mucho dinero del Rey y
 de particulares, y también lo que llamamos la 
 
-     <hi rend="italic">
+     <emph>
       caja de soldadas
-     </hi>
+     </emph>
      , que son los ahorrillos de
 la tropa que sirve en las Américas. Por junto, si no me engaño,
 eran cosa de cinco millones de pesos, como quien no dice nada, y
@@ -969,9 +973,9 @@ cincuenta días de navegación, el 5 de Octubre, vimos tierra, y ya
 contábamos entrar en Cádiz al día siguiente, cuando cátate que
 hacia el Nordeste se nos presentan cuatro señoras fragatas. 
 
-     <hi rend="italic">
+     <emph>
       Anque
-     </hi>
+     </emph>
      era tiempo de paz, y nuestro capitán, D.
 Miguel de Zapiaín, parecía no tener maldito recelo, yo, que soy
 perro viejo en la mar, llamé a Débora y le dije que el tiempo me
@@ -981,9 +985,9 @@ cerca,
      <pb n="44"/>
      el general mandó hacer zafarrancho; la 
 
-     <hi rend="italic">
+     <emph>
       Fama
-     </hi>
+     </emph>
      iba delante, y al poco rato nos
 encontramos a tiro de pistola de una de las inglesas por
 barlovento.
@@ -1012,26 +1016,26 @@ inglesas tenía otra española por el costado de sotavento.
 jefe de nuestra escuadra, D. José Bustamante, anduvo poco listo,
 que si hubiera sido yo... Pues, señor, el 
 
-     <hi rend="italic">
+     <emph>
       comodón
-     </hi>
+     </emph>
      (quería decir el comodoro) inglés
 envió a bordo de la 
 
-     <hi rend="italic">
+     <emph>
       Medea
-     </hi>
+     </emph>
      un oficialillo de estos de cola de
 abadejo, el cual, sin andarse en chiquitas, dijo que 
 
-     <hi rend="italic">
+     <emph>
       anque
-     </hi>
+     </emph>
      no estaba declarada la guerra, el 
 
-     <hi rend="italic">
+     <emph>
       comodón
-     </hi>
+     </emph>
      tenía orden de apresarnos. Esto sí que
 se llama ser inglés. El combate empezó al poco rato; nuestra
 fragata recibió la primera andanada por babor; se le contestó al
@@ -1041,48 +1045,48 @@ saludo, y cañonazo va, cañonazo
      viene... lo cierto del caso es que no metimos en un
 puño a aquellos herejes 
 
-     <hi rend="italic">
+     <emph>
       por mor
-     </hi>
+     </emph>
      de que el demonio fue y pegó fuego a
 la Santa Bárbara de la 
 
-     <hi rend="italic">
+     <emph>
       Mercedes
-     </hi>
+     </emph>
      , que se voló en un suspiro, ¡y todos
 con este suceso, nos afligimos tanto, sintiéndonos tan
 apocados...!, no por falta de valor, sino por aquello que dicen...
 en 
 
-     <hi rend="italic">
+     <emph>
       la moral
-     </hi>
+     </emph>
      ... pues... 
 
-     <hi rend="italic">
+     <emph>
       denque
-     </hi>
+     </emph>
      el mismo momento nos vimos perdidos.
 Nuestra fragata tenía las velas con más agujeros que capa vieja,
 los cabos rotos, cinco pies de agua en bodega, el palo de mesana
 tendido, tres balazos a flor de agua y bastantes muertos y heridos.
 A pesar de esto, seguíamos la 
 
-     <hi rend="italic">
+     <emph>
       cuchipanda
-     </hi>
+     </emph>
      con el inglés; pero cuando vimos
 que la 
 
-     <hi rend="italic">
+     <emph>
       Medea
-     </hi>
+     </emph>
      y la 
 
-     <hi rend="italic">
+     <emph>
       Clara
-     </hi>
+     </emph>
      , no pudiendo resistir la chamusquina,
 arriaban bandera, forzamos de vela y nos retiramos defendiéndonos
 como podíamos. La maldita fragata inglesa nos daba caza, y como era
@@ -1112,9 +1116,9 @@ perdiste la pata? -le dijo compasivamente Doña Francisca.
 yo no era bailarín, creyeron que tenía bastante con una. En la
 travesía me curaron bien: en un pueblo que llaman 
 
-     <hi rend="italic">
+     <emph>
       Plinmuf
-     </hi>
+     </emph>
      (Plymouth) estuve seis meses en el
 pontón, con el petate liado y la patente para el otro mundo en el
 bolsillo... Pero Dios quiso que no me fuera a pique tan pronto: un
@@ -1123,9 +1127,9 @@ otra, porque aquélla me dolía de la condenada reúma, y ésta, a Dios
 gracias, no duele aunque la echen una descarga de metralla. En
 cuanto a dureza, creo que la tiene, 
 
-     <hi rend="italic">
+     <emph>
       aunque entavía
-     </hi>
+     </emph>
      no se me ha puesto delante la
 popa de ningún inglés para probarla.
     </p>
@@ -1518,14 +1522,14 @@ una sensación,
      ¿Y qué diré de su canto? Desde muy
 niña acostumbraba a cantar el 
 
-     <hi rend="italic">
+     <emph>
       olé
-     </hi>
+     </emph>
      y las 
 
-     <hi rend="italic">
+     <emph>
       cañas
-     </hi>
+     </emph>
      , con la maestría de los ruiseñores, que
 lo saben todo en materia de música sin haber aprendido nada. Todos
 le alababan aquella habilidad, y formaban corro para oírla; pero a
@@ -1601,9 +1605,9 @@ y encubridora de mi holgazanería, me reprendía entonces por
 perezoso. ¡Y a todas éstas, ni una sonrisa, ni un salto, ni una
 monada, ni una veloz carrera, ni un poco de 
 
-     <hi rend="italic">
+     <emph>
       olé
-     </hi>
+     </emph>
      , ni esconderse de mí para que la buscara,
 ni fingirse enfadada para reírse después, ni una disputilla, ni
 siquiera un pescozón con su blanda manecita! ¡Terribles crisis de
@@ -1866,7 +1870,7 @@ acto solemne que se verificaba en el comedor con asistencia de
 todos los de la casa, mi amo, que otras veces solía dormirse,
 murmurando perezosamente los 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Pater-noster
      </foreign>
      , lo cual le valía algunas
@@ -1904,14 +1908,14 @@ amo-, estaba aquí mirando el derrotero de Alcalá
      <pb n="70"/>
      Galiano y de Valdés en las goletas 
 
-     <hi rend="italic">
+     <emph>
       Sutil
-     </hi>
+     </emph>
      y 
 
-     <hi rend="italic">
+     <emph>
       Mejicana
-     </hi>
+     </emph>
      , cuando fueron a reconocer el
 estrecho de Fuca. Es un viaje muy bonito: me parece que te lo he
 contado.
@@ -2146,35 +2150,35 @@ la puerta, no pudo contenerse y entró diciendo:
     <p>
      «¿Qué ha de faltar? El 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      140 cañones: 32 de a 36, 34 de a 24,
 36 de a 12, 18 de a 30, y 10 obuses de a 24. El 
 
-     <hi rend="italic">
+     <emph>
       Príncipe de Asturias
-     </hi>
+     </emph>
      118, el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      120, el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      100, el 
 
-     <hi rend="italic">
+     <emph>
       Nepomuceno
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       San
-     </hi>
+     </emph>
      ...
     </p>
     
@@ -2562,9 +2566,9 @@ la Artillería de aquel país... Todos los días comía con Pitt, con
 Burke, con Lord North, con el general Conwallis y otros personajes
 importantes que me llamaban 
 
-     <hi rend="italic">
+     <emph>
       el chistoso español
-     </hi>
+     </emph>
      . Recuerdo que una vez,
 estando en Palacio, me suplicaron que les mostrase cómo era una 
 
@@ -2577,14 +2581,14 @@ buenas. ¡Oh!, tenía mucha confianza conmigo. Todo su empeño era que
 le enseñase palabras de español y, sobre todo algunas de ésta
 nuestra graciosa Andalucía; pero nunca pudo aprender más que 
 
-     <hi rend="italic">
+     <emph>
       otro toro
-     </hi>
+     </emph>
      y 
 
-     <hi rend="italic">
+     <emph>
       vengan esos cinco
-     </hi>
+     </emph>
      , frase con que me saludaba
 todos los días cuando iba a almorzar con él pescadillas y unas
 cañitas de Jerez.
@@ -2703,9 +2707,9 @@ Godoy se vio obligado a concluir la guerra en el verano del 95,
 cuando comprendió su ineficacia, y entonces se adjudicó a sí mismo
 el retumbante título de 
 
-     <hi rend="italic">
+     <emph>
       Príncipe de la Paz
-     </hi>
+     </emph>
      .
     </p>
     
@@ -2834,9 +2838,9 @@ al paso, diciéndoles que yo también iba a la escuadra, y
 preguntándoles con tono muy enfático si había recalado la escuadra
 de Nelson. Después les dije que 
 
-     <hi rend="italic">
+     <emph>
       Mr. Corneta
-     </hi>
+     </emph>
      era un cobarde, y que la próxima
 función sería buena.
     </p>
@@ -3098,20 +3102,20 @@ vengar los agravios recibidos. No me quiero acordar de lo del cabo
 de Finisterre, donde por la cobardía de nuestros aliados perdimos
 el 
 
-     <hi rend="italic">
+     <emph>
       Firme
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Rafael
-     </hi>
+     </emph>
      , dos navíos como dos soles, ni de la
 voladura del 
 
-     <hi rend="italic">
+     <emph>
       Real Carlos
-     </hi>
+     </emph>
      , que fue una traición tal, que ni
 entre moros berberiscos pasaría igual, ni del robo de las cuatro
 fragatas, ni del combate del cabo de...
@@ -3188,9 +3192,9 @@ casado poco antes, por cuya razón le compadecí, pareciéndome muy
 atroz que se le mandara al combate en tan felices días. Habló luego
 de su barco, el 
 
-     <hi rend="italic">
+     <emph>
       San Juan Nepomuceno
-     </hi>
+     </emph>
      , al que mostró igual
 cariño que a su joven esposa, pues según dijo, él lo había
 compuesto y arreglado a su gusto, por privilegio especial, haciendo
@@ -3216,9 +3220,9 @@ en olvido sus errores, se ha mostrado, desde que estamos aquí,
 partidario de salir en busca de los ingleses. El 8 de octubre
 escribió a Gravina, diciéndole que deseaba celebrar a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Bucentauro
-     </hi>
+     </emph>
      un consejo de guerra para acordar
 lo que fuera más conveniente. En efecto, Gravina acudió al consejo,
 llevando al teniente general Álava, a los jefes de escuadra Escaño
@@ -3314,9 +3318,9 @@ la
 animal, que hablaba como un teólogo y nos despertaba a todos por la
 mañana, gritando: 
 
-     <hi rend="italic">
+     <emph>
       perro inglés, perro inglés
-     </hi>
+     </emph>
      . Luego me llevó
 consigo a misa, haciéndome cargar la banqueta, y en la iglesia no
 cesaba de volver la cabeza para ver si estaba por allí. Después me
@@ -3509,9 +3513,9 @@ esperaba un bote que nos condujo a bordo.
 estupor, ¡qué digo estupor!, mi entusiasmo, mi enajenación, cuando
 me vi cerca del 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      , el mayor barco del mundo,
 aquel alcázar de madera, que visto de lejos se representaba en mi
 imaginación como una fábrica portentosa, sobrenatural, único
@@ -3532,9 +3536,9 @@ atención.
     <p>
      Por fin llegamos al 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      . A medida que nos acercábamos, las
 formas de aquel coloso iban aumentando, y cuando la lancha se puso
 al costado, confundida en el espacio de mar donde se proyectaba,
@@ -3567,9 +3571,9 @@ de
      <pb n="116"/>
      aquellos magníficos barcos, ni menos del 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      , por las malas estampas en
 que los han visto representados. Tampoco se parecen nada a los
 buques guerreros de hoy, cubiertos con su pesado arnés de hierro,
@@ -3612,9 +3616,9 @@ espíritu las impresiones de la niñez.
     <p>
      El 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      era un navío de cuatro
 puentes. Los mayores del mundo eran de tres. Aquel coloso,
 construido en La Habana, con las más ricas maderas de Cuba en 1769,
@@ -3749,9 +3753,9 @@ Por él supe que el novio de mi amita se había embarcado en el
      <gap unit="graphic" n="barcos"/> 
       
 
-      <hi rend="italic">
+      <emph>
        Nepomuceno
-      </hi>.
+      </emph>.
     </p>
     
 
@@ -3892,42 +3896,42 @@ consejos si eran ligeros y zarpaban pronto.
      «¡Qué pesado está D. Federico! -decía
 observando el 
 
-     <hi rend="italic">
+     <emph>
       Príncipe de Asturias
-     </hi>
+     </emph>
      , mandado por Gravina-.
 Allá va 
 
-     <hi rend="italic">
+     <emph>
       Mr. Corneta
-     </hi>
+     </emph>
      -exclamaba mirando al 
 
-     <hi rend="italic">
+     <emph>
       Bucentauro
-     </hi>
+     </emph>
      , navío general-. Bien 
 
-     <hi rend="italic">
+     <emph>
       haiga
-     </hi>
+     </emph>
      quien te puso 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      -decía irónicamente mirando al navío de
 este nombre, que era el más pesado de toda la escuadra... -Bien por
 
 
-     <hi rend="italic">
+     <emph>
       papá Ignacio
-     </hi>
+     </emph>
      -añadía dirigiéndose al 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , que montaba Álava-. Echa toda la
 gavia, pedazo de tonina -decía contemplando el navío de Dumanoir-;
 este gabacho tiene un peluquero para rizar la gavia, y carga las
@@ -3974,21 +3978,21 @@ francés ha dicho que si el enemigo se nos presenta a sotavento,
 formaremos la línea de batalla y caeremos sobre él... Esto está muy
 guapo, dicho en el camarote; pero ya... ¿El 
 
-     <hi rend="italic">
+     <emph>
       Señorito
-     </hi>
+     </emph>
      va a ser tan buey que se nos presente
 a sotavento?... Sí, porque tiene poco 
 
-     <hi rend="italic">
+     <emph>
       farol
-     </hi>
+     </emph>
      (inteligencia) su señoría para dejarse
 pescar así... 
 
-     <hi rend="italic">
+     <emph>
       Veremos a ver si vemos
-     </hi>
+     </emph>
      lo que espera el
 francés... Si el enemigo se presenta a barlovento y nos ataca,
 debemos esperarle en línea de batalla; y como tendrá que dividirse
@@ -3998,9 +4002,9 @@ también que no hará señales y que todo lo espera de cada capitán.
 ¡Si iremos a ver lo que yo vengo predicando desde que se hicieron
 esos malditos tratados de 
 
-     <hi rend="italic">
+     <emph>
       sursillos
-     </hi>
+     </emph>
      , y es que... más vale callar...
 quiera Dios...! Ya les he dicho a ustedes que Mr. Corneta 
 
@@ -4010,40 +4014,40 @@ cincuenta barcos en la cabeza. Cuidado con un almirante que llama a
 sus capitanes el día antes de una batalla, y les dice que haga cada
 uno lo que le diere la gana... 
 
-     <hi rend="italic">
+     <emph>
       Pos pá eso
-     </hi>
+     </emph>
      ... (Grandes muestras de
 asentimiento.) En fin, allá veremos... Pero vengan acá ustedes y
 díganme: si nosotros los españoles queremos defondar a unos cuantos
 barcos ingleses, ¿no nos bastamos y nos sobramos para ello? ¿Pues a
 
 
-     <hi rend="italic">
+     <emph>
       cuenta qué
-     </hi>
+     </emph>
      hemos de juntarnos con franceses
 que no nos dejan hacer lo que nos 
 
-     <hi rend="italic">
+     <emph>
       sale de dentro
-     </hi>
+     </emph>
      , sino que hemos de ir al
 remolque de sus señorías? 
 
-     <hi rend="italic">
+     <emph>
       Siempre di cuando
-     </hi>
+     </emph>
      fuimos con ellos, 
 
-     <hi rend="italic">
+     <emph>
       siempre di cuando
-     </hi>
+     </emph>
      salimos 
 
-     <hi rend="italic">
+     <emph>
       destaponados
-     </hi>
+     </emph>
      ... En fin... Dios y la Virgen
 del Carmen vayan con nosotros, y nos libren de amigos franceses por
 siempre jamás amén». (Grandes aplausos.)
@@ -4057,15 +4061,15 @@ naval hasta la ciencia diplomática. La noche fue serena y
 navegábamos con viento fresco. Se me permitirá que al hablar de la
 escuadra diga 
 
-     <hi rend="italic">
+     <emph>
       nosotros
-     </hi>
+     </emph>
      . Yo estaba tan orgulloso de
 encontrarme a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      , que me llegué a figurar
 que iba a desempeñar algún papel importante 
 
@@ -4128,9 +4132,9 @@ centro y retaguardia.
      Tal era la situación de ambos
 contendientes, cuando el 
 
-     <hi rend="italic">
+     <emph>
       Bucentauro
-     </hi>
+     </emph>
      hizo señal de virar en redondo.
 Ustedes quizá no entiendan esto; pero les diré que consistía en
 variar diametralmente de rumbo, es decir, que si antes el viento
@@ -4140,9 +4144,9 @@ opuesta a la que antes teníamos. Las proas se dirigían al Norte, y
 este movimiento, cuyo objeto era tener a Cádiz bajo el viento, para
 arribar a él en caso de desgracia, fue muy criticado a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , y especialmente por Marcial, que
 decía:
     </p>
@@ -4151,9 +4155,9 @@ decía:
     <p>
      «Ya se 
 
-     <hi rend="italic">
+     <emph>
       esparrancló
-     </hi>
+     </emph>
      la línea de batalla, que antes era
 mala y ahora es peor».
     </p>
@@ -4187,37 +4191,37 @@ más cercanos, Medio-hombre decía:
      «La línea es más larga que el camino
 de Santiago. Si el 
 
-     <hi rend="italic">
+     <emph>
       Señorito
-     </hi>
+     </emph>
      la corta, adiós mi bandera:
 perderíamos hasta el modo de andar, 
 
-     <hi rend="italic">
+     <emph>
       manque
-     </hi>
+     </emph>
      los pelos se nos hicieran cañones.
 Señores, nos van a dar julepe por el centro. ¿Cómo pueden venir a
 ayudarnos el 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      , que están a la cola, ni el 
 
-     <hi rend="italic">
+     <emph>
       Neptuno
-     </hi>
+     </emph>
      ni el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , que están a la cabeza? (Rumores de
 aprobación.) Además, estamos a sotavento, y los casacones pueden
 elegir el punto que quieran para atacarnos. Bastante haremos
@@ -4326,15 +4330,15 @@ en dos grupos. Uno se dirigía hacia nosotros, y traía en su cabeza,
 o en el vértice de la cuña, un gran navío con insignia de
 almirante. Después supe que era el 
 
-     <hi rend="italic">
+     <emph>
       Victory
-     </hi>
+     </emph>
      y que lo mandaba Nelson. El otro traía
 a su frente el 
 
-     <hi rend="italic">
+     <emph>
       Royal Sovereign
-     </hi>
+     </emph>
      , mandado por Collingwood.
     </p>
     
@@ -4401,19 +4405,19 @@ quiere meter por la popa».
      Al punto comprendí que se había
 mandado detener la marcha del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      para estrecharle contra el 
 
-     <hi rend="italic">
+     <emph>
       Bucentauro
-     </hi>
+     </emph>
      , que venía detrás, porque el 
 
-     <hi rend="italic">
+     <emph>
       Victory
-     </hi>
+     </emph>
      parecía venir dispuesto a cortar la
 línea por entre los dos navíos.
     </p>
@@ -4548,33 +4552,33 @@ cañonazo.
      Un navío de la retaguardia disparó el
 primer tiro contra el 
      <gap unit="graphic" n="barco"/> 
-      <hi rend="italic">
+      <emph>
        Royal Sovereign
-      </hi>, que mandaba Collingwood. Mientras trababa combate con este
+      </emph>, que mandaba Collingwood. Mientras trababa combate con este
 el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Victory
-     </hi>
+     </emph>
      se dirigía contra nosotros. En el 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      todos demostraban gran ansiedad por
 comenzar el fuego; pero nuestro comandante esperaba el momento más
 favorable. Como si unos navíos se lo comunicaran a los otros, cual
 piezas pirotécnicas enlazadas por una mecha común, el fuego se
 corrió desde el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      hasta los dos extremos de la
 línea.
     </p>
@@ -4583,21 +4587,21 @@ línea.
     <p>
      El 
 
-     <hi rend="italic">
+     <emph>
       Victory
-     </hi>
+     </emph>
      atacó primero al 
 
-     <hi rend="italic">
+     <emph>
       Redoutable
-     </hi>
+     </emph>
      francés, y rechazado por este, vino
 a quedar frente a nuestro costado por barlovento. El momento
 terrible había llegado: cien voces dijeron 
 
-     <hi rend="italic">
+     <emph>
       ¡fuego!
-     </hi>
+     </emph>
      , repitiendo como un eco infernal la
 del comandante, y la andanada lanzó cincuenta proyectiles sobre el
 navío inglés. Por un instante el humo me quitó la vista del
@@ -4621,27 +4625,27 @@ y con su gesto alentaba a los que servían las piezas.
     <p>
      El 
 
-     <hi rend="italic">
+     <emph>
       Bucentauro
-     </hi>
+     </emph>
      , que estaba a nuestra popa, hacía
 fuego igualmente sobre el 
 
-     <hi rend="italic">
+     <emph>
       Victory
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Temerary
-     </hi>
+     </emph>
      , otro poderoso navío inglés. Parecía
 que el navío de Nelson iba a caer en nuestro poder, porque la
 artillería del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      le había destrozado el aparejo, y
 vimos con orgullo que perdía su palo de mesana.
     </p>
@@ -4675,59 +4679,59 @@ me arriesgaba a ver desde los sitios de mayor peligro aquel gran
 espectáculo. Pero, dejando a un lado mi humilde persona, voy a
 narrar el momento más terrible de nuestra lucha con el 
 
-     <hi rend="italic">
+     <emph>
       Victory
-     </hi>
+     </emph>
      . El 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      le destrozaba con mucha fortuna,
 cuando el 
 
-     <hi rend="italic">
+     <emph>
       Temerary
-     </hi>
+     </emph>
      , ejecutando una habilísima maniobra,
 se interpuso entre los dos combatientes, salvando a su compañero de
 nuestras balas. En seguida se dirigió a cortar la línea por la popa
 del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , y como el 
 
-     <hi rend="italic">
+     <emph>
       Bucentauro
-     </hi>
+     </emph>
      , durante el fuego, se había
 estrechado contra este hasta el punto de tocarse los penoles,
 resultó un gran claro, por donde se precipitó el 
 
-     <hi rend="italic">
+     <emph>
       Temerary
-     </hi>
+     </emph>
      , que viró prontamente, y colocándose
 a nuestra aleta de babor, nos disparó por aquel costado, hasta
 entonces ileso. Al mismo tiempo, el 
 
-     <hi rend="italic">
+     <emph>
       Neptune
-     </hi>
+     </emph>
      , otro poderoso navío inglés, colocose
 donde antes estaba el 
 
-     <hi rend="italic">
+     <emph>
       Victory
-     </hi>
+     </emph>
      ; éste se sotaventó, de modo que en un
 momento el 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      
 
      <pb n="145"/>
@@ -4747,30 +4751,30 @@ desorden. Estábamos envueltos por el enemigo, cuya artillería
 lanzaba una espantosa lluvia de balas y de metralla sobre nuestro
 navío, lo mismo que sobre el 
 
-     <hi rend="italic">
+     <emph>
       Bucentauro
-     </hi>
+     </emph>
      . El 
 
-     <hi rend="italic">
+     <emph>
       Agustín
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Herós
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Leandro
-     </hi>
+     </emph>
      se batían lejos de nosotros, en
 posición algo desahogada, mientras el 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , lo mismo que el navío almirante,
 sin poder disponer de sus movimientos, cogidos en terrible
 escaramuza por el genio del gran Nelson, luchaban heroicamente, no
@@ -4810,9 +4814,9 @@ la derrota.
      El espectáculo que ofrecía el interior
 del 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      era el de un <gap unit="graphic" n="soldados cayendo por la borda"/> infierno. Las maniobras habían sido abandonadas, porque el barco no se movía ni podía moverse.
 Todo 
 
@@ -4884,37 +4888,37 @@ grietas del casco acribillado, y comenzaba a inundar la bodega.
     
 
     <p>
-     El <gap unit="graphic" n="barco"/> <hi rend="italic">Bucentauro</hi>, navío general, se rindió a nuestra vista. Villeneuve había
+     El <gap unit="graphic" n="barco"/> <emph>Bucentauro</emph>, navío general, se rindió a nuestra vista. Villeneuve había
 arriado bandera. Una vez entregado el jefe de la escuadra, ¿qué
 esperanza quedaba a los buques? El pabellón francés desapareció de
 la popa de aquel gallardo navío, y cesaron sus fuegos. El 
 
-     <hi rend="italic">
+     <emph>
       San Agustín
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Herós
-     </hi>
+     </emph>
      se sostenían todavía, y el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Neptuno
-     </hi>
+     </emph>
      , pertenecientes a la vanguardia, que
 habían venido a auxiliarnos, intentaron en vano salvarnos de los
 navíos enemigos que nos asediaban. Yo pude observar la parte del
 combate más inmediata al 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      , porque del resto de la
 línea no era posible ver nada. El viento parecía haberse detenido,
 y el humo se quedaba sobre nuestras cabezas, envolviéndonos en su
@@ -4951,30 +4955,30 @@ todos.
      Las opiniones fueron diversas, y se
 dudaba si el buque volado era el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Argonauta
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Ildefonso
-     </hi>
+     </emph>
      o el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      . Después se supo que había sido el
 francés nombrado 
 
-     <hi rend="italic">
+     <emph>
       Achilles
-     </hi>
+     </emph>
      . La expansión de los gases
 desparramó por mar y cielo en pedazos mil cuanto momentos antes
 constituía un hermoso navío con 74 cañones y 600 hombres de
@@ -4994,9 +4998,9 @@ explosión, ya no pensábamos más que en nosotros mismos.
     <p>
      Rendido el 
 
-     <hi rend="italic">
+     <emph>
       Bucentauro
-     </hi>
+     </emph>
      , todo el fuego enemigo se dirigió
 contra nuestro navío, cuya pérdida era ya segura. El entusiasmo de
 los primeros momentos se había apagado en mí, y mi corazón se llenó
@@ -5127,9 +5131,9 @@ Javier Uriarte, he podido comprender todo lo que nos cuentan de los
 heroicos capitanes de la antigüedad. Entonces no conocía yo la
 palabra 
 
-     <hi rend="italic">
+     <emph>
       sublimidad
-     </hi>
+     </emph>
      ; pero viendo a nuestro comandante
 comprendí que todos los idiomas deben tener un hermoso vocablo para
 expresar aquella grandeza de alma que me parecía favor rara vez
@@ -5292,9 +5296,9 @@ fantasía, entonces trastornada,
      <pb n="158"/>
      resonó en el combés una voz que decía: «¡El 
 
-     <gap unit="graphic" n="barco"/> <hi rend="italic">
+     <gap unit="graphic" n="barco"/> <emph>
        Trinidad
-      </hi> no se rinde». De fijo fue la voz de Marcial, si es que
+      </emph> no se rinde». De fijo fue la voz de Marcial, si es que
 realmente dijo alguien tal cosa.
     </p>
     
@@ -5414,9 +5418,9 @@ Don Alonso podía necesitar de mí, fui a la cámara. Entonces vi a
 algunos ingleses ocupados en poner el pabellón británico en la popa
 del 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      . Como cuento con que el
 lector benévolo me ha de perdonar que apunte aquí mis impresiones,
 diré que aquello me hizo pensar un poco. Siempre se me habían
@@ -5473,14 +5477,14 @@ navíos -contestó el inglés.
      -De la vanguardia sólo han venido a
 auxiliarnos el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Neptuno
-     </hi>
+     </emph>
      .
     </p>
     
@@ -5488,24 +5492,24 @@ auxiliarnos el
     <p>
      -Los cuatro franceses, 
 
-     <hi rend="italic">
+     <emph>
       Duguay-Trouin
-     </hi>
+     </emph>
      , 
 
-     <hi rend="italic">
+     <emph>
       Mont-Blanc
-     </hi>
+     </emph>
      , 
 
-     <hi rend="italic">
+     <emph>
       Scipion
-     </hi>
+     </emph>
      y 
 
-     <hi rend="italic">
+     <emph>
       Formidable
-     </hi>
+     </emph>
      , son los únicos que no han entrado
 en acción.
     </p>
@@ -5520,9 +5524,9 @@ Gravina? -insistió mi amo.
     <p>
      -Se ha retirado en el 
 
-     <hi rend="italic">
+     <emph>
       Príncipe de Asturias
-     </hi>
+     </emph>
      ; mas como se le ha dado
 caza, ignoro si habrá llegado a Cádiz.
     </p>
@@ -5531,9 +5535,9 @@ caza, ignoro si habrá llegado a Cádiz.
     <p>
      -¿Y el 
 
-     <hi rend="italic">
+     <emph>
       San Ildefonso
-     </hi>
+     </emph>
      ?
     </p>
     
@@ -5546,9 +5550,9 @@ caza, ignoro si habrá llegado a Cádiz.
     <p>
      -¿Y el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      ?
     </p>
     
@@ -5562,9 +5566,9 @@ caza, ignoro si habrá llegado a Cádiz.
      -¡Vive Dios! -exclamó D. Alonso sin
 poder disimular su enojo-. Apuesto a que no ha sido apresado el 
 
-     <hi rend="italic">
+     <emph>
       Nepomuceno
-     </hi>
+     </emph>
      .
     </p>
     
@@ -5590,14 +5594,14 @@ tristeza.
      -¡Oh! ¡Ha muerto! ¡Ha muerto Churruca!
 -exclamó mi amo con angustiosa perplejidad-. Pero el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      se habrá salvado, el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      habrá vuelto ileso a Cádiz.
     </p>
     
@@ -5625,9 +5629,9 @@ pero ha muerto también.
     <p>
      -¿Y qué es del 
 
-     <hi rend="italic">
+     <emph>
       Montañés
-     </hi>
+     </emph>
      ? ¿Qué ha sido de Alcedo?
     </p>
     
@@ -5746,14 +5750,14 @@ trabajo, lo cual, unido al cansancio de la tripulación, empeoraba
 nuestro estado de hora en hora. Un navío inglés, que después supe
 se llamaba 
 
-     <hi rend="italic">
+     <emph>
       Prince
-     </hi>
+     </emph>
      , trató de remolcar al 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      ; pero sus esfuerzos fueron inútiles,
 y tuvo que alejarse por temor a un choque, que habría sido funesto
 para ambos buques.
@@ -5810,9 +5814,9 @@ los enemigos demostraban más suspicacia que buen sentido, pues
 menester era haber perdido el juicio para intentar represar un
 buque en tal estado. Ello es que los 
 
-     <hi rend="italic">
+     <emph>
       casacones
-     </hi>
+     </emph>
      
 
      <pb n="169"/>
@@ -5841,9 +5845,9 @@ Entre tanta desolación, ante el espectáculo de tantos dolores,
 había en aquellos cadáveres no sé qué de envidiable: ellos solos
 descansaban a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , y todo les era ajeno, fatigas y
 penas, la vergüenza de la derrota y los padecimientos físicos. La
 bandera que les servía de ilustre mortaja parecía ponerles fuera de
@@ -5976,14 +5980,14 @@ Dios.
      Avanzado el día, intentó de nuevo el
 navío 
 
-     <hi rend="italic">
+     <emph>
       Pince
-     </hi>
+     </emph>
      remolcar al 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      ; pero con tan poca fortuna
 como en la noche anterior. La situación no empeoraba, a pesar de
 que seguía el temporal con igual fuerza, pues se habían reparado
@@ -6019,9 +6023,9 @@ procurando todos alcanzar la costa para refugiarse. También los
 vimos españoles y franceses, unos desarbolados, otros remolcados
 por algún barco enemigo. Marcial reconoció en uno de éstos al 
 
-     <hi rend="italic">
+     <emph>
       San Ildefonso
-     </hi>
+     </emph>
      . Vimos flotando en el agua
 multitud de restos y despojos, como masteleros, cofas, lanchas
 rotas, escotillas, trozos de balconaje, portas, y, por último,
@@ -6030,9 +6034,9 @@ palo, eran llevados por las olas, y habrían perecido si los
 ingleses no corrieran al instante a darles auxilio. Traídos a bordo
 del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , volvieron a la vida, que, recobrada
 después de sentirse en los brazos de la muerte, equivale a nacer de
 nuevo.
@@ -6068,14 +6072,14 @@ del combate.
      Comenzó precipitadamente el trasbordo
 con las lanchas del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , las del 
 
-     <hi rend="italic">
+     <emph>
       Pince
-     </hi>
+     </emph>
      y las de otros tres buques de la
 escuadra inglesa. Dios la preferencia a los heridos; mas aunque se
 trató de evitarles toda molestia, fue imposible levantarles de
@@ -6097,9 +6101,9 @@ inglesa; y habiendo instado a mi amo para que entrase también en
 ellos, éste se negó resueltamente, diciendo que deseaba ser el
 último en abandonar el 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      . Esto no dejó de contrariarme,
 porque desvanecidos en mí los efluvios de patriotismo, que al
 principio me dieron cierto arrojo, no pensaba ya más que en salvar
@@ -6234,9 +6238,9 @@ para siempre.
 aquella gran masa informe, aunque sospecho que era mi fantasía, no
 mis ojos, la que miraba el 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      en la obscuridad de la noche, y hasta
 creí distinguir en el negro cielo un gran brazo que descendía hasta
 la superficie de las aguas. Fue sin duda la imagen de mis
@@ -6260,9 +6264,9 @@ el mismo Marcial sabía a dónde nos dirigíamos. La obscuridad era
 tan fuerte, que perdimos de vista las demás lanchas, y las luces
 del navío 
 
-     <hi rend="italic">
+     <emph>
       Pince
-     </hi>
+     </emph>
      se desvanecieron tras la niebla, como si
 un soplo las hubiera extinguido. Las olas eran tan gruesas, y el
 vendaval tan recio, que la débil embarcación avanzaba muy poco, y
@@ -6365,9 +6369,9 @@ ningún barco.
     <p>
      El 
 
-     <hi rend="italic">
+     <emph>
       Pince
-     </hi>
+     </emph>
      se había apartado de donde estaba;
 ninguna luz nos indicaba la presencia de un buque enemigo. Por
 último, divisamos una, y un rato después la mole confusa de un
@@ -6392,9 +6396,9 @@ nuestros.
     <p>
      «Es el 
 
-     <hi rend="italic">
+     <emph>
       San Agustín
-     </hi>
+     </emph>
      -dijo Marcial.
     </p>
     
@@ -6402,15 +6406,15 @@ nuestros.
     <p>
      -El 
 
-     <hi rend="italic">
+     <emph>
       San Agustín
-     </hi>
+     </emph>
      se ha ido a pique -contestó D.
 Alonso-. Me parece que será el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , que también está apresado».
     </p>
     
@@ -6419,9 +6423,9 @@ Alonso-. Me parece que será el
      Efectivamente, al acercanos, todos
 reconocieron al 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , mandado en el combate por el
 teniente general Álava. Al punto los ingleses que lo custodiaban
 dispusieron prestarnos auxilio, y no tardamos en hallarnos todos
@@ -6435,22 +6439,22 @@ sanos y salvos sobre cubierta.
     <p>
      El 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , navío de 112 cañones, había
 sufrido también grandes averías, aunque no tan graves como las del 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      ; y si bien estaba
 desarbolado de todos sus palos y sin timón, el casco no se
 conservaba mal. El 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      vivió once años más después de
 Trafalgar, y aún habría vivido más si por falta de carena no se
 hubiera ido a pique en la bahía de la Habana en 1816. Su acción en
@@ -6461,28 +6465,28 @@ ustedes que la columna mandada por Collingwood se dirigió a
 combatir la retaguardia, mientras Nelson marchó contra el centro.
 El 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , amparado sólo por el 
 
-     <hi rend="italic">
+     <emph>
       Fougueux
-     </hi>
+     </emph>
      , francés, tuvo que batirse con el 
 
-     <hi rend="italic">
+     <emph>
       Royal Sovereign
-     </hi>
+     </emph>
      y otros cuatro ingleses; y a
 pesar de la desigualdad de fuerzas, tanto padecieron los unos como
 los otros, siendo el navío de Collingwood el primero que quedó
 fuera de combate, por lo cual tuvo aquél que trasladarse a la
 fragata 
 
-     <hi rend="italic">
+     <emph>
       Eurygalus.
-     </hi>
+     </emph>
      Según allí refirieron, la lucha
 había sido horrorosa, y los dos poderosos navíos, cuyos penoles se
 tocaban, estuvieron destrozándose por espacio de seis horas, hasta
@@ -6493,9 +6497,9 @@ que herido el general Álava, herido el
 noventa y siete marineros, con más de ciento cincuenta heridos,
 tuvo que rendirse el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      . Apresado por los ingleses, era
 casi imposible manejarlo a causa del mal estado y del furioso
 vendaval que se desencadenó en la noche del 21; así es que cuando
@@ -6515,14 +6519,14 @@ fue que los oficiales ingleses que custodiaban el buque no eran, ni
 con mucho, tan complacientes y bondadosos como los que desempeñaron
 igual cargo a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      . Por el contrario, eran los del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      unos caballeros muy foscos y
 antipáticos, y mortificaban con exceso a los nuestros, exagerando
 su propia autoridad y poniendo reparos a todo con suma
@@ -6543,9 +6547,9 @@ navegación el vagar a la ventura, a merced de las olas, sin velamen
 ni timón. No quiero, pues, fastidiar a mis lectores repitiendo
 hechos que ya presenciamos a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , y paso a contarles otros
 enteramente nuevos y que sorprenderán a ustedes tanto como me
 sorprendieron a mí.
@@ -6557,9 +6561,9 @@ sorprendieron a mí.
 por el combés y alcázar de proa, y así, desde que me encontré a
 bordo del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , me refugié con mi amo en la
 cámara, donde pude descansar un poco y alimentarme, pues de ambas
 cosas estaba muy necesitado. Había allí, sin embargo, muchos
@@ -6623,14 +6627,14 @@ sano».
      El pobre Malespina había sido
 transportado al 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      desde el 
 
-     <hi rend="italic">
+     <emph>
       Nepomuceno
-     </hi>
+     </emph>
      , navío apresado también, donde era
 tal el número de heridos, que fue preciso, según dijo, repartirlos
 para que no perecieran todos de abandono. En cuanto suegro y yerno
@@ -6638,9 +6642,9 @@ cambiaron los primeros saludos, consagrando algunas palabras a las
 familias ausentes, la conversación recayó sobre la batalla: mi amo
 contó lo ocurrido en el 
 
-     <hi rend="italic">
+     <emph>
       Santísima Trinidad
-     </hi>
+     </emph>
      , y después añadió:
     </p>
     
@@ -6655,54 +6659,54 @@ está Gravina. ¿Ha caído prisionero, o se retiró a Cádiz?
      -El general -contestó Malespina-,
 sostuvo un horroroso fuego contra el 
 
-     <hi rend="italic">
+     <emph>
       Defiance
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Revenge
-     </hi>
+     </emph>
      . Le auxiliaron el 
 
-     <hi rend="italic">
+     <emph>
       Neptune
-     </hi>
+     </emph>
      , francés, y el 
 
-     <hi rend="italic">
+     <emph>
       San Ildefonso
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       San Justo
-     </hi>
+     </emph>
      , nuestros; pero las fuerzas de los
 enemigos se duplicaron con 
 
      <pb n="190"/>
      la ayuda del 
 
-     <hi rend="italic">
+     <emph>
       Dreadnoutgh
-     </hi>
+     </emph>
      , del 
 
-     <hi rend="italic">
+     <emph>
       Thunderer
-     </hi>
+     </emph>
      y del 
 
-     <hi rend="italic">
+     <emph>
       Poliphemus
-     </hi>
+     </emph>
      , después de lo cual fue imposible
 toda resistencia. Hallándose el 
 
-     <hi rend="italic">
+     <emph>
       Príncipe de Asturias
-     </hi>
+     </emph>
      con todas las jarcias
 cortadas, sin palos, acribillado a balazos, y habiendo caído herido
 el general Gravina y su mayor general Escaño, resolvieron abandonar
@@ -6710,40 +6714,40 @@ la lucha, porque toda resistencia era insensata y la batalla estaba
 perdida. En un resto de arboladura puso Gravina la señal de
 retirada, y acompañado del 
 
-     <hi rend="italic">
+     <emph>
       San Justo
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       San Leandro
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Montañés
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Indomptable
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Neptune
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Argonauta
-     </hi>
+     </emph>
      , se dirigió a Cádiz, con la pena de
 no haber podido rescatar el 
 
-     <hi rend="italic">
+     <emph>
       San Ildefonso
-     </hi>
+     </emph>
      , que ha quedado en poder de los
 enemigos.
     </p>
@@ -6753,9 +6757,9 @@ enemigos.
      -Cuénteme usted lo que ha pasado en el
 
 
-     <hi rend="italic">
+     <emph>
       Nepomuceno
-     </hi>
+     </emph>
      -dijo mi amo con el mayor interés-.
 Aún me cuesta trabajo creer que ha muerto Churruca, y a pesar de
 que todos lo dan como cosa cierta, yo tengo la creencia de que
@@ -6825,9 +6829,9 @@ arrastre el resto de sus días miserable y desgraciado».
 sencilla, que hermanaba el cumplimiento del deber militar con la
 idea religiosa, causó entusiasmo en toda la dotación del 
 
-     <hi rend="italic">
+     <emph>
       Nepomuceno
-     </hi>
+     </emph>
      . ¡Qué lástima de valor! Todo se
 perdió como un tesoro que cae al fondo del mar. Avistados los
 ingleses, Churruca vio con el mayor desagrado las primeras
@@ -6848,27 +6852,27 @@ pudieran prestarse auxilio.
     <p>
      »El 
 
-     <hi rend="italic">
+     <emph>
       Nepomuceno
-     </hi>
+     </emph>
      vino a quedar al extremo de la
 línea. Rompiose el fuego entre el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      y 
 
-     <hi rend="italic">
+     <emph>
       Royal Sovereign
-     </hi>
+     </emph>
      , y sucesivamente todos los
 navíos fueron entrando en el combate. Cinco navíos ingleses de la
 división de Collingwood se dirigieron contra el 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      ; pero dos de ellos siguieron
 adelante, y Churruca no tuvo que hacer frente más que a fuerzas
 triples.
@@ -6896,14 +6900,14 @@ habían atacado primero, y el
      <pb n="194"/>
      
 
-     <hi rend="italic">
+     <emph>
       Dreadnoutgh
-     </hi>
+     </emph>
      se puso al costado del 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      , para batirnos a medio tiro de
 pistola. Figúrense ustedes el fuego de estos seis colosos,
 vomitando balas y metralla sobre un buque de 74 cañones. Parecía
@@ -6936,9 +6940,9 @@ de la terrible porfía. Viendo que no era posible hostilizar
      <pb n="195"/>
      a un navío que por la proa molestaba al 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      impunemente, fue él mismo a apuntar
 el cañón, y logró desarbolar al contrario. Volvía al alcázar de
 popa, cuando una bala de cañón le alcanzó en la pierna derecha, con
@@ -6952,9 +6956,9 @@ se le inclinaba sobre el pecho, le vi tratando de reanimar con una
 sonrisa su semblante, cubierto ya de mortal palidez, mientras con
 voz apenas alterada, exclamó: 
 
-     <hi rend="italic">
+     <emph>
       Esto no es nada. Siga el fuego
-     </hi>
+     </emph>
      .
     </p>
     
@@ -6981,9 +6985,9 @@ achicó: de gigante se convirtió en enano; desapareció el valor, y
 comprendimos que era indispensable rendirse. La consternación de
 que yo estaba poseído desde que recibí en mis brazos al héroe del 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      , no me impidió observar el terrible
 efecto causado en los ánimos de todos por aquella desgracia. Como
 si una repentina parálisis moral y física hubiera invadido la
@@ -7000,15 +7004,15 @@ excepto el palo de trinquete, había caído, y el timón no
 funcionaba. En tan lamentable estado, aún se quiso hacer un
 esfuerzo para seguir al 
 
-     <hi rend="italic">
+     <emph>
       Príncipe de Asturias
-     </hi>
+     </emph>
      , que había izado la
 señal de retirada; pero el 
 
-     <hi rend="italic">
+     <emph>
       Nepomuceno
-     </hi>
+     </emph>
      , herido de muerte, no pudo
 gobernar en dirección alguna. Y a pesar de la ruina y destrozo del
 buque; a pesar del desmayo de la tripulación; a pesar de concurrir
@@ -7057,9 +7061,9 @@ había infundido.
     <p>
      »Rindiose el 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      , y cuando subieron a bordo los
 oficiales de las seis naves que lo habían destrozado, cada uno
 pretendía para sí el honor de recibir la espada del brigadier
@@ -7068,16 +7072,16 @@ disputaron reclamando el honor de la victoria para uno u otro de
 los buques a que pertenecían. Quisieron que el comandante
 accidental del 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      decidiera la cuestión, diciendo a
 cuál de los navíos ingleses se había rendido, y aquél respondió: «A
 todos, que a uno solo jamás se hubiera rendido el 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      ».
     </p>
     
@@ -7101,18 +7105,18 @@ magnánimos y generosos.
     <p>
      »El número de heridos a bordo del 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      era tan considerable, que nos
 transportaron a otros barcos suyos o prisioneros. A mí me tocó
 pasar a éste, que ha sido de los más maltratados; pero ellos
 cuentan poderlo remolcar a Gibraltar antes que ningún otro, ya que
 no pueden llevarse al 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , el mayor y el más apetecido de
 nuestros navíos».
     </p>
@@ -7185,9 +7189,9 @@ ingleses habidos y por haber, con más facilidad que si sus barcos
 fueran de cartón, y de miga de pan sus balas. Yo tenía bajo mi
 insignia como unos mil navíos, mayores todos que el 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , y se movían a mi antojo con tanta
 precisión como los juguetes con que mis amigos y yo nos divertíamos
 en los charcos de la Caleta.
@@ -7208,15 +7212,15 @@ sentí el espantoso rumor de la refriega, y gritos que
 soñar todavía; me incorporé en el canapé donde había dormido,
 atendí con todo cuidado, y, en efecto, un atronador grito de 
 
-     <hi rend="italic">
+     <emph>
       viva el Rey
-     </hi>
+     </emph>
      hirió mis oídos, no dejándome duda
 de que el navío 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      se estaba batiendo de nuevo.
     </p>
     
@@ -7227,9 +7231,9 @@ situación. El tiempo había calmado bastante: por barlovento se
 veían algunos navíos desmantelados, y dos de ellos, ingleses,
 hacían fuego sobre el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , que se defendía al amparo de otros
 dos, un español y un francés. No me explicaba aquel cambio
 repentino en nuestra situación de prisioneros; miré a popa, y vi
@@ -7244,9 +7248,9 @@ comprendí era el general Álava, y, aunque herido en varias partes
 de su cuerpo, mostraba fuerzas bastantes para dirigir aquel segundo
 combate, destinado quizá a hacer olvidar respecto al 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      las desventuras del primero. Los
 oficiales alentaban a la marinería; ésta cargaba y disparaba las
 piezas que habían quedado servibles, mientras algunos se ocupaban
@@ -7263,9 +7267,9 @@ nuestros guardianes, se habían convertido en prisioneros.
      Todo lo comprendí. El heroico
 comandante del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , D. Ignacio M. de Álava, viendo que
 se aproximaban algunos navíos españoles, salidos de Cádiz, con
 objeto de represar los buques prisioneros y salvar la tripulación
@@ -7275,9 +7279,9 @@ supremo esfuerzo; obligaron a rendirse a los ingleses que
 custodiaban el barco; enarbolaron de nuevo la bandera española, y
 el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      quedó libre, aunque comprometido en
 nueva lucha, más peligrosa quizás que la primera.
     </p>
@@ -7292,28 +7296,28 @@ lamentable. Preciso fue, una vez consumado aquel acto, arrostrar
 sus consecuencias: dos navíos ingleses, también muy mal parados,
 hacían fuego sobre el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      ; pero éste era socorrido
 oportunamente por el 
 
      <pb n="205"/>
      
 
-     <hi rend="italic">
+     <emph>
       Asís
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Montañés
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , tres de los que se retiraron con
 Gravina el día 21, y que habían vuelto a salir para rescatar a los
 apresados. Aquellos nobles inválidos trabaron nueva y desesperada
@@ -7332,9 +7336,9 @@ que hecho tan heroico no haya ocupado en nuestra historia más que
 una breve página, si bien es verdad que junto al gran suceso que
 hoy se conoce con el nombre de 
 
-     <hi rend="italic">
+     <emph>
       Combate de Trafalgar
-     </hi>
+     </emph>
      , estos episodios se
 achican, y casi desaparecen como débiles resplandores en una
 horrenda noche.
@@ -7367,9 +7371,9 @@ Entraremos triunfantes en Cádiz».
 felizmente, porque los ingleses comprendieron la imposibilidad de
 represar al 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , a quien favorecían, a más de los
 tres navíos indicados, otros dos franceses y una fragata, que
 llegaron en lo más recio de la pelea.
@@ -7381,50 +7385,50 @@ llegaron en lo más recio de la pelea.
 gloriosa; pero en el punto en que concluyó aquella hazaña, comenzó
 a verse claro el peligro en que nos encontrábamos, pues el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      debía ser remolcado hasta Cádiz, a
 causa del mal estado de su casco. La fragata francesa 
 
-     <hi rend="italic">
+     <emph>
       Themis
-     </hi>
+     </emph>
      echó un cable y puso la proa al Norte;
 pero ¿qué fuerza podía tener aquel barco para remolcar otro tan
 pesado como el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , y que sólo podía ayudarse con las
 velas desgarradas que quedaban en el palo del trinquete? Los navíos
 que nos habían rescatado, esto es, el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       Montañés
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       San Francisco de Asís
-     </hi>
+     </emph>
      , quisieron llevar más
 adelante su proeza, y forzaron de vela para rescatar también al 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      y al 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      , que iban marinados por los ingleses.
 Nos quedamos, pues, solos, sin 
 
@@ -7459,33 +7463,33 @@ y con salud.
      La intrepidez de los navíos españoles
 no tuvo más éxito que el rescate del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , pues les cargó el tiempo y
 tuvieron que retroceder sin poder dar caza a los navíos ingleses
 que custodiaban al 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      , al 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      y al 
 
-     <hi rend="italic">
+     <emph>
       San Ildefonso
-     </hi>
+     </emph>
      . Aún distábamos cuatro leguas
 del término de nuestro viaje cuando los vimos retroceder. El
 vendaval había arreciado, y fue opinión general a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      que, si tardábamos en llegar,
 pasaríamos muy mal 
 
@@ -7518,9 +7522,9 @@ tristeza lo mismo en el semblante de mi amo que en el del general
 Álava, quien, a pesar de sus heridas, estaba en todo, y mandaba
 hacer señales a la fragata 
 
-     <hi rend="italic">
+     <emph>
       Themis
-     </hi>
+     </emph>
      para que acelerase su marcha si era
 posible. Lejos de corresponder a su justa impaciencia, nuestra
 remolcadora se preparaba 
@@ -7573,9 +7577,9 @@ desventuras?
 mí y para mi amo las tristezas de aquella tarde. Desde que se
 rescató el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      no habíamos visto al joven
 Malespina. Por último, después de buscarle mucho, le encontré
 acurrucado en uno de los canapés de la cámara.
@@ -7653,9 +7657,9 @@ pero añadió que si no llegábamos a Cádiz aquella noche para que
 fuese convenientemente asistido en tierra, la vida de aquél, así
 como la de otros heridos, corría gran peligro. El 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      había tenido en el combate del 21
 noventa y siete muertos y ciento cuarenta heridos: se habían 
 
@@ -7676,21 +7680,21 @@ de veinticuatro años: Medio-hombre tenía más de sesenta.
     <p>
      En tanto, el navío 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      pasaba por babor y al habla. Álava mandó
 que se le preguntase a la fragata 
 
-     <hi rend="italic">
+     <emph>
       Themis
-     </hi>
+     </emph>
      si creía poder entrar en Cádiz, y
 habiendo contestado rotundamente que no, se hizo igual pregunta al 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , que hallándose casi ileso, contaba con
 arribar seguramente al puerto. Entonces, reunidos varios oficiales,
 acordaron trasladar a aquel navío al comandante Gardoqui,
@@ -7707,9 +7711,9 @@ Cádiz o en Vejer en poder de su familia. Me dispuse a obedecer,
 intenté persuadir a mi amo de que él también debía transbordarse al
 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      por ser más seguro; pero ni siquiera
 quiso oír tal proposición.
     </p>
@@ -7769,9 +7773,9 @@ verás lo que te contesta -replicó él cada vez más agitado-. En fin,
 dile que estoy bueno y sano, y que mi presencia aquí ha sido muy
 necesaria. La verdad es que en el rescate del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      he tomado parte muy principal. Si yo
 no hubiera apuntado tan bien aquellos cañones, quién sabe, quién
 sabe... ¿Y qué crees 
@@ -7789,9 +7793,9 @@ a Paca.
      -No, no me olvidaré. Ya sabrá que si
 no es por usía no se represa el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , y sabrá también que puede ser que
 a lo mejor nos traiga a Cádiz dos docenas de navíos.
     </p>
@@ -7831,17 +7835,17 @@ trabajo, por robustos marineros. Las fuertes olas estorbaban mucho
 esta operación; pero al fin se hizo, y las dos embarcaciones se
 dirigieron al 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      . La travesía de un navío a otro fue
 malísima; mas, al fin, aunque hubo momentos en que a mí me parecía
 que la embarcación iba a desaparecer para siempre, llegamos al
 costado del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , y con muchísimo trabajo subimos la
 escala.
     </p>
@@ -7863,9 +7867,9 @@ en Guatepeor -dijo Marcial cuando le pusieron sobre cubierta-. Pero
 donde manda capitán no manda marinero. A este condenado le pusieron
 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      por mal nombre. Él dice que entrará en
 Cádiz antes de media noche, y yo digo que no entra. Veremos a
 ver.
@@ -7888,14 +7892,14 @@ esto.
      -Es que cuando mi señor D. Alonso y
 los oficiales del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      creen que el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      entrará esta noche, por fuerza tiene que
 entrar. Ellos que lo dicen, bien sabido se lo tendrán.
     </p>
@@ -7904,36 +7908,36 @@ entrar. Ellos que lo dicen, bien sabido se lo tendrán.
     <p>
      -Y tú no sabes, 
 
-     <hi rend="italic">
+     <emph>
       sardiniya
-     </hi>
+     </emph>
      , que esos señores de popa se 
 
-     <hi rend="italic">
+     <emph>
       candilean
-     </hi>
+     </emph>
      (se equivocan) más fácilmente que
 nosotros los marinos de combés. Si no, ahí tienes al jefe de toda
 la escuadra, 
 
-     <hi rend="italic">
+     <emph>
       Mr. Corneta
-     </hi>
+     </emph>
      , que cargue el diablo con él. Ya
 ves como no ha tenido ni tanto así 
 
-     <hi rend="italic">
+     <emph>
       de idea
-     </hi>
+     </emph>
      para mandar la acción. ¿Piensas tú que
 si 
 
      <pb n="218"/>
      
 
-     <hi rend="italic">
+     <emph>
       Mr. Corneta
-     </hi>
+     </emph>
      hubiera hecho lo que yo decía se
 hubiera perdido la batalla?
     </p>
@@ -7956,9 +7960,9 @@ echan la caña para aquí, él va para allí».
     <p>
      En efecto: el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , según opinión general, era un barco de
 malísimas condiciones marineras. Pero a pesar de esto y de su
 avanzada edad, que frisaba en los cincuenta y seis años, como se
@@ -7966,9 +7970,9 @@ hallaba en buen estado, no parecía correr peligro alguno, pues si
 el vendaval era cada vez mayor, también el puerto estaba cerca. De
 todos modos, ¿no era lógico suponer que mayor peligro corría el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , desarbolado, sin timón, y obligado
 a marchar a remolque de una fragata?
     </p>
@@ -8010,9 +8014,9 @@ en el ataque de Bellegarde».
      Después explicó el motivo de su
 presencia a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , de este modo:
     </p>
     
@@ -8028,9 +8032,9 @@ entre ellos venía el
      <pb n="220"/>
      
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      , donde estabas tú; pero me dijeron
 que había sido apresado. No puedo pintar a ustedes mi ansiedad:
 casi no me quedaba duda de tu muerte, mayormente desde que supe el
@@ -8042,24 +8046,24 @@ embarcándome en uno de ellos. Expuse mi pretensión a Solano, y
 después al mayor general de la escuadra, mi antiguo amigo Escaño, y
 no sin escrúpulo me dejaron venir. A bordo del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , donde me embarqué esta mañana, pregunté
 por ti, por el 
 
-     <hi rend="italic">
+     <emph>
       San Juan
-     </hi>
+     </emph>
      ; mas nada consolador me dijeron,
 sino, por el contrario, que Churruca había muerto, y que su navío,
 después de batirse con gloria, había caído en poder de los
 enemigos. ¡Figúrate cuál sería mi ansiedad! ¡Qué lejos estaba hoy,
 cuando rescatamos al 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , de que tú te hallabas en él! A
 saberlo con certeza, hubiera redoblado mis esfuerzos en las
 disposiciones que di con permiso de estos señores, y el navío de
@@ -8133,12 +8137,12 @@ hábil, la más estratégica que ha visto el mundo desde Epaminondas?
 Claro es que no; pues allí todo fue extraordinario, y puedo dar fe
 de ello, que la presencié desde el 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Introito
      </foreign>
      hasta el 
 
-     <foreign xml:lang="lat">
+     <foreign xml:lang="LAT">
       Ite misa est
      </foreign>
      . A aquella guerra debo mi
@@ -8183,9 +8187,9 @@ escuadra enemiga -dijo Malespina-. Pero ¿qué demonios es esto?
 -añadió agarrándose para no rodar por el suelo, pues los balanceos
 del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      eran tales que muy difícilmente podía uno
 tenerse derecho.
     </p>
@@ -8213,9 +8217,9 @@ construir barcos de 95 a 100 varas de largo.
      -¡Caracoles! ¿Sabe usted que la
 lanchita sería regular? -indicó un oficial-. ¡Cien varas! El 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , que santa gloria haya, tenía
 setenta, y a todos parecía demasiado largo. Ya sabe usted que
 viraba mal, y que todas las maniobras se hacían en él muy
@@ -8250,9 +8254,9 @@ construiría un barco de hierro de 7.000 toneladas.
     <p>
      -¡Y el 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      no tenía más que 4.000! -indicó un
 oficial-, lo cual parecía excesivo. ¿Pero no comprende usted que
 para mover esa mole sería preciso un aparejo tan colosal, que no
@@ -8397,9 +8401,9 @@ treinta años más
 más aún, cuando al cabo de medio siglo vi en nuestra gloriosa
 fragata 
 
-     <hi rend="italic">
+     <emph>
       Numancia
-     </hi>
+     </emph>
      la acabada realización de los
 estrafalarios proyectos del mentiroso de Trafalgar.
     </p>
@@ -8425,17 +8429,17 @@ parecen hombres de genio.
 pasaba, y en cuanto puse los pies fuera de la cámara, me enteré de
 la comprometida situación en que se encontraba el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      . El vendaval, no sólo le impedía la
 entrada en Cádiz, sino que le impulsaba hacia la costa, donde
 encallaría de seguro, estrellándose contra las rocas. Por mala que
 fuera la suerte del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , que habíamos abandonado, no podía
 ser peor que la nuestra. Yo observé con afán los rostros de
 oficiales y marineros, por ver si encontraba alguno que indicase
@@ -8452,9 +8456,9 @@ tan poco propicio con nosotros desde el 21!...
     <p>
      El 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      corría hacia el Norte. Según las
 indicaciones que iban haciendo los marineros, junto a quienes
 estaba yo, pasábamos frente al banco de Marrajotes, de Hazte
@@ -8473,9 +8477,9 @@ impedirlo.
 nuestra derecha quedó bien pronto Rota, Punta Candor, Punta de
 Meca, Regla y Chipiona. No quedaba duda de que el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      iba derecho a estrellarse inevitablemente
 en la costa cercana a la embocadura del Guadalquivir. No necesito
 decir que las velas habían sido cargadas, y que no bastando este
@@ -8522,9 +8526,9 @@ tales, que ninguna fuerza humana puede vencerlos.
      Por último, después de algunas horas
 de mortal angustia, la quilla del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      tocó en un banco de arena y se paró. El
 casco todo y los restos de su arboladura retemblaron un instante:
 parecía que intentaban vencer el obstáculo interpuesto en su
@@ -8545,9 +8549,9 @@ ella, y no podía estar lejos alguna de las balandras de guerra cuya
 salida para tales casos debía haber dispuesto la autoridad naval de
 Cádiz... El 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      hizo nuevos disparos, y esperamos
 socorros con la mayor 
 
@@ -8570,9 +8574,9 @@ acercó por la proa, manteniéndose a buena distancia. Desde que
 avistamos su gran vela mayor vimos segura nuestra salvación, y el
 comandante del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      dio las órdenes para que el trasbordo se
 verificara sin atropello en tan peligrosos momentos.
     </p>
@@ -8659,9 +8663,9 @@ como un problema terrible la idea de cuál de aquellos dos
 procedimientos emplearía para salvarme. No había tiempo que perder,
 porque el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      se desbarataba: casi toda la popa estaba
 hundida, y los estallidos de los baos y de las cuadernas medio
 podridas anunciaban que bien pronto aquella mole iba a dejar de ser
@@ -8746,9 +8750,9 @@ olas que sacudían los restos del barco; en el cielo ni una
 estrella, en la costa ni una luz. La balandra había desaparecido
 también. Bajo mis pies, que pataleaban con ira, el casco del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      se quebraba en pedazos, y sólo se
 conservaba unida y entera la parte de proa, con la cubierta llena
 de despojos. Me encontraba sobre una balsa informe que amenazaba
@@ -8791,9 +8795,9 @@ lado, y fue preciso que nos agarráramos fuertemente a la base de un
 molinete para no caer al agua. El piso nos faltaba; el último resto
 del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      iba a ser tragado por las olas. Mas como
 la esperanza no abandona nunca, yo aún creí posible que aquella
 situación se prolongase hasta el amanecer sin empeorarse, y me
@@ -8836,9 +8840,9 @@ niño. Pero yo... Bien que cuando uno se muere así... vamos al
 decir... así, al modo de perro o gato, no necesita de que un cura
 venga y le dé la 
 
-     <hi rend="italic">
+     <emph>
       solución
-     </hi>
+     </emph>
      , sino que basta y sobra con que uno
 mismo se entienda con Dios. ¿No has oído tú eso?».
     </p>
@@ -8875,17 +8879,17 @@ este modo:
      «Pues digo que siempre he sido
 cristiano católico, 
 
-     <hi rend="italic">
+     <emph>
       postólico
-     </hi>
+     </emph>
      , romano, y que siempre he sido y
 soy devoto de la Virgen del Carmen, a quien llamo en mi ayuda en
 este momento; y digo también que, si hace veinte años que no he
 confesado ni comulgado, no fue por mí, sino por 
 
-     <hi rend="italic">
+     <emph>
       mor
-     </hi>
+     </emph>
      del maldito servicio, y porque siempre lo
 va uno dejando para el domingo que viene. Pero ahora me pesa de no
 haberlo hecho, y digo, y declaro, y perjuro, que quiero a Dios y a
@@ -8893,66 +8897,66 @@ la Virgen y a todos los santos; y que por todo lo que les haya
 ofendido me castiguen, pues si no me confesé y comulgué este año
 fue por 
 
-     <hi rend="italic">
+     <emph>
       aquél
-     </hi>
+     </emph>
      de los malditos 
 
-     <hi rend="italic">
+     <emph>
       casacones
-     </hi>
+     </emph>
      , que me hicieron salir al mar
 cuando tenía el 
 
-     <hi rend="italic">
+     <emph>
       proeto
-     </hi>
+     </emph>
      de cumplir con la Iglesia. Jamás he
 robado ni la punta de un alfiler, ni he dicho más mentiras que
 alguna que otra para bromear. De los palos que le daba a mi mujer
 hace treinta años, me arrepiento, aunque creo que bien dados
 estuvieron, porque era más mala que las 
 
-     <hi rend="italic">
+     <emph>
       churras
-     </hi>
+     </emph>
      , y con un genio más 
 
      <pb n="240"/>
      picón que un alacrán. No he faltado ni tanto así a lo
 que manda la Ordenanza; no aborrezco a nadie más que a los 
 
-     <hi rend="italic">
+     <emph>
       casacones
-     </hi>
+     </emph>
      , a quienes hubiera querido ver
 hechos picadillo; pero pues dicen que todos somos hijos de Dios, yo
 les perdono, y 
 
-     <hi rend="italic">
+     <emph>
       así mismamente
-     </hi>
+     </emph>
      perdono a los franceses, que
 nos han traído esta guerra. Y no digo más, porque me parece que me
 voy a toda vela. Yo amo a Dios y estoy tranquilo. Gabrielillo,
 abrázate conmigo, y apriétate bien contra mí. Tú no tienes pecados,
 y vas a andar 
 
-     <hi rend="italic">
+     <emph>
       finiqueleando
-     </hi>
+     </emph>
      con los ángeles divinos. Más
 vale morirse a tu edad que vivir en este 
 
-     <hi rend="italic">
+     <emph>
       emperrado
-     </hi>
+     </emph>
      mundo... Con que ánimo, chiquillo,
 que esto se acaba. El agua sube, y el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      se acabó para siempre. La muerte del que
 se ahoga es muy buena: no te asustes... abrázate conmigo. Dentro de
 un ratito estaremos libres de pesadumbres, yo dando cuenta a Dios
@@ -9003,9 +9007,9 @@ las primeras palabras articuladas por mis labios fueron para
 preguntar por él. Nadie supo contestarme. Entre los que me rodeaban
 reconocí a algunos marineros del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , les pregunté por Medio-hombre, y todos
 convinieron en que había perecido. Después quise enterarme de cómo
 me habían salvado; pero tampoco me dieron razón.
@@ -9022,9 +9026,9 @@ una vieja, recobré la salud, aunque no las fuerzas. Entonces me
 dijeron que habiendo salido otra balandra a reconocer los restos
 del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , y los de un navío francés que corrió
 igual suerte, me encontraron junto a Marcial, y pudieron salvarme
 la vida. Mi compañero de agonía estaba muerto. También supe que en
@@ -9038,9 +9042,9 @@ infelices.
 Malespina, y no hubo quien me diera razón del padre ni del hijo.
 Pregunté por el 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , y me dijeron que había llegado
 felizmente a Cádiz, por cuya noticia resolví ponerme inmediatamente
 en camino para reunirme con mi amo. Me encontraba a bastante
@@ -9110,9 +9114,9 @@ licencia.
      -Pues no podrá usted quejarse,
 amiguito, si le tocó ir en el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , navío que apenas entró en acción.
     </p>
     
@@ -9120,14 +9124,14 @@ amiguito, si le tocó ir en el
     <p>
      -Yo no estaba en el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , sino en el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      , que sin duda fue de los barcos que
 mejor y por más tiempo pelearon.
     </p>
@@ -9173,9 +9177,9 @@ de mapas y había descubierto no sé qué tierras que están allá por
 el mismo infierno! ¡Y hombres así los mandan a una batalla para que
 perezcan como un grumete! Le contaré a usted lo que pasó en el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      . Desde que empezó la batalla, D.
 Dionisio Alcalá Galiano sabía que la habíamos de perder, porque
 aquella maldita virada en redondo... Nosotros estábamos en la
@@ -9185,7 +9189,7 @@ reserva y nos quedamos
      a la cola. Nelson, que no era ningún rana, vio
 nuestra línea y dijo: «Pues si la corto por dos puntos distintos, y
 les cojo entre dos fuegos, no se me escapa ni tanto así de navío».
-Así lo hizo el maldito, y como nuestra línea era tan larga, <hi rend="italic"> la cabeza no podía ir en auxilio de la cola</hi><ref target="#SPA2003N02">[2]</ref>. Nos derrotó por partes, atacándonos en dos fuertes
+Así lo hizo el maldito, y como nuestra línea era tan larga, <emph> la cabeza no podía ir en auxilio de la cola</emph><ref target="#SPA2003N02">[2]</ref>. Nos derrotó por partes, atacándonos en dos fuertes
 columnas dispuestas al modo de cuña, que es, según dicen, el modo
 de combatir que usaba el capitán moro Alejandro Magno, y que hoy
 dicen usa también Napoleón. Lo cierto es que nos envolvió y nos
@@ -9198,9 +9202,9 @@ combatir con tres o cuatro.
     <p>
      »Pues verá usted: el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      fue de los que primero entraron en
 fuego. Alcalá Galiano revistó la tripulación al mediodía, examinó
 las baterías, y nos echó una arenga en que dijo, señalando la
@@ -9227,9 +9231,9 @@ encargó del mando de la escuadra.
 que pasó. Empezó la refriega, que ya sabrá usted fue cosa buena, si
 estuvo a bordo del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      . Tres navíos nos acribillaron a
 balazos por babor y estribor. Desde los primeros momentos caían
 como moscas los heridos, y el mismo comandante recibió una fuerte
@@ -9262,9 +9266,9 @@ ocultaron para que no le viéramos; pero nadie dejó de comprender lo
 que había pasado, y después de una lucha desesperada sostenida por
 el honor de la bandera, el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      se rindió a los ingleses, que se lo
 llevarán a <gap unit="graphic" n="peñón de Gibraltar"/> Gibraltar si antes no se les va
 a pique, como sospecho».
@@ -9275,23 +9279,23 @@ a pique, como sospecho».
      Al concluir su relación, y después de
 contar cómo había pasado del 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      al 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      , mi compañero dio un fuerte suspiro
 y calló por mucho tiempo. Pero como el camino se hacía largo y
 pesado, yo intenté trabar de nuevo la conversación, y principié
 contándole lo que había visto, y, por último, mi traslado a bordo
 del 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      con el joven Malespina.
     </p>
     
@@ -9406,117 +9410,117 @@ conocía sino por casos particulares, pues lo largo de la línea, lo
 complicado de los movimientos y la diversa suerte de los navíos, no
 permitían otra cosa. Según allí me dijeron, además del 
 
-     <hi rend="italic">
+     <emph>
       Trinidad
-     </hi>
+     </emph>
      , se habían ido a pique el 
 
-     <hi rend="italic">
+     <emph>
       Argonauta
-     </hi>
+     </emph>
      , de 92, mandado por D. Antonio
 Pareja, y el 
 
-     <hi rend="italic">
+     <emph>
       San Agustín
-     </hi>
+     </emph>
      , de 80, 
 
      <pb n="253"/>
      mandado por D. Felipe Cajigal. Con Gravina, en el 
 
-     <hi rend="italic">
+     <emph>
       Príncipe de Asturias
-     </hi>
+     </emph>
      , habían vuelto a Cádiz
 el 
 
-     <hi rend="italic">
+     <emph>
       Montañés
-     </hi>
+     </emph>
      , de 80, comandante Alcedo, que murió
 en el combate en unión del segundo Castaños; el 
 
-     <hi rend="italic">
+     <emph>
       San Justo
-     </hi>
+     </emph>
      , de 76, mandado por D. Miguel
 Gastón; el 
 
-     <hi rend="italic">
+     <emph>
       San Leandro
-     </hi>
+     </emph>
      , de 74, mandado por D. José
 Quevedo; el 
 
-     <hi rend="italic">
+     <emph>
       San Francisco
-     </hi>
+     </emph>
      , de 74, mandado por D. Luis
 Flores; el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      , de 100, que mandaba Macdonell. De
 éstos, salieron el 23, para represar las naves que estaban a la
 vista, el 
 
-     <hi rend="italic">
+     <emph>
       Montañés
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       San Justo
-     </hi>
+     </emph>
      , el 
 
-     <hi rend="italic">
+     <emph>
       San Francisco
-     </hi>
+     </emph>
      y el 
 
-     <hi rend="italic">
+     <emph>
       Rayo
-     </hi>
+     </emph>
      ; pero los dos últimos se perdieron en la
 costa, lo mismo que el 
 
-     <hi rend="italic">
+     <emph>
       Monarca
-     </hi>
+     </emph>
      , de 74, mandado por Argumosa, y el 
 
-     <hi rend="italic">
+     <emph>
       Neptuno
-     </hi>
+     </emph>
      , de 80, cuyo heroico comandante, D.
 Cayetano Valdés, ya célebre por la jornada del 14, estuvo a punto
 de perecer. Quedaron apresados el 
 
-     <hi rend="italic">
+     <emph>
       Bahama
-     </hi>
+     </emph>
      , que se deshizo antes de llegar a
 Gibraltar; el 
 
-     <hi rend="italic">
+     <emph>
       San Ildefonso
-     </hi>
+     </emph>
      , de 74, comandante Vargas, que
 fue conducido a Inglaterra, y el 
 
-     <hi rend="italic">
+     <emph>
       Nepomuceno
-     </hi>
+     </emph>
      , que por muchos años permaneció en
 Gibraltar, conservado como un objeto de veneración o sagrada
 reliquia. El 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      llegó felizmente a Cádiz en la misma
 noche en que le abandonamos. Los ingleses también perdieron algunos
 de sus fuertes navíos, y no pocos de sus oficiales generales
@@ -9540,9 +9544,9 @@ poder de los ingleses, y algunos murieron. Sus navíos corrieron
 igual suerte que los nuestros: unos se retiraron con Gravina; otros
 fueron apresados, y muchos se perdieron en las costas. El 
 
-     <hi rend="italic">
+     <emph>
       Achilles
-     </hi>
+     </emph>
      se voló en medio del combate, como
 indiqué en mi relación.
     </p>
@@ -9602,19 +9606,19 @@ Flora, más pintorreado aquel día que un retablo, y ferozmente
 desfigurado con la alegría que mi presencia causó en el espíritu de
 la excelente vieja. Los dulces nombres de 
 
-     <hi rend="italic">
+     <emph>
       pimpollo
-     </hi>
+     </emph>
      , 
 
-     <hi rend="italic">
+     <emph>
       remono
-     </hi>
+     </emph>
      , 
 
-     <hi rend="italic">
+     <emph>
       angelito
-     </hi>
+     </emph>
      , y otros que me prodigó con toda
 largueza, no me hicieron 
 
@@ -9859,9 +9863,9 @@ D. Dionisio Alcalá Galiano.
 palabras de su mujer; y cuando ésta salió, observé que el pobre
 anciano rezaba con tanta piedad como en la cámara del 
 
-     <hi rend="italic">
+     <emph>
       Santa Ana
-     </hi>
+     </emph>
      la
 
      <pb n="264"/>
@@ -9877,14 +9881,14 @@ casara con D. Rafael Malespina, acontecimiento que hubo de
 efectuarse dos meses después de la gran función naval que los
 españoles llamaron 
 
-     <hi rend="italic">
+     <emph>
       la del
-     </hi>
+     </emph>
      21 y los ingleses 
 
-     <hi rend="italic">
+     <emph>
       Combate de Trafalgar
-     </hi>
+     </emph>
      , por haber ocurrido
 cerca del cabo de este nombre. Mi amita se casó en Vejer al
 amanecer de un día hermoso, aunque de invierno, y al punto
@@ -9972,11 +9976,7 @@ menguados, pero todos dignos de memoria. ¿Queréis saber mi vida
 entera? Pues aguardad un poco, y os diré algo más en otro
 libro.
     </p>
-    
-
    </div>
-   
-
    <trailer>
     FIN DE TRAFALGAR
     <date>Madrid, enero-febrero 1873.</date>
@@ -9984,10 +9984,9 @@ libro.
 </body>
 <back>
 	<div type="notes">
-		<note xml:id="SPA2003N01">Así se llamaba al combate del cabo de San Vicente.</note>
-		<note xml:id="SPA2003N02">Palabras de Nelson.</note>
-		<note xml:id="SPA2003N03">Murió en marzo de 1806, de resultas de sus heridas.</note>
-
+		<note xml:id="SPA2003N01"><p>Así se llamaba al combate del cabo de San Vicente.</p></note>
+		<note xml:id="SPA2003N02"><p>Palabras de Nelson.</p></note>
+		<note xml:id="SPA2003N03"><p>Murió en marzo de 1806, de resultas de sus heridas.</p></note>
 	</div>
 </back>
 </text>

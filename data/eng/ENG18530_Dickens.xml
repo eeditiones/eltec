@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENG18530" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ENG18530" xml:lang="en">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -23,16 +26,16 @@
    </extent>
    <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3533868">ELTeC-eng</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271630">ELTeC-eng release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662490">ELTeC-eng release 1.0.1</ref>
 </publicationStmt>
    <sourceDesc><bibl type="digitalSource"><title>Bleak House [monthly parts] : TEI P5 edition</title>
      <ref target="https://github.com/lb42/Dickens">Github</ref>
-    </bibl><bibl type="printSource" n="B7470">
+    </bibl><bibl type="firstEdition" n="B7470">
      <title>Bleak House </title>
      <author>Charles Dickens</author>
      <publisher>Bradbury &amp; Evans, Bouverie Street.</publisher>
@@ -63,6 +66,7 @@
    </textDesc>
   </profileDesc>
   <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
    <change when="2020-05-19">Add text classifications from Bassett</change>
    <change when="2019-11-09">Checked by releaseChecker script</change>
@@ -104,13 +108,12 @@
     <p>This seemed to me too profound a joke to be inserted in the body of this book, or I should
      have restored it to Conversation Kenge or to Mr. Vholes, with one or other of whom I think it
      must have originated. In such mouths I might have
-     <pb xml:id="pviii"/> coupled it with an apt quotation from one of SHAKSPEARE'S Sonnets:
+     <pb xml:id="pviii"/> coupled it with an apt quotation from one of SHAKSPEARE'S Sonnets:</p>
      <quote>
       <l>My nature is subdued</l>
       <l>To what it works in, like the dyer's hand:</l>
       <l>Pity me then, and wish I were renew'd!</l>
      </quote>
-    </p>
     <p>But as it is wholesome that the parsimonious public should know what has been doing, and
      still is doing, in this connexion, I mention here that everything set forth in these pages
      concerning the Court of Chancery is substantially true, and within the truth. The case of
@@ -3965,7 +3968,7 @@
       shall be back presently.” Very rarely tells him anything more explicit.</p>
      <p>Mr. Tulkinghorn goes, as the crow came—not quite so straight, but nearly—to Cook's Court,
       Cursitor Street. To Snagsby's, Law Stationer's, Deeds engrossed and copied, Law-Writing
-      executed in all its branches, &amp;c., &amp;c., &amp;c.</p>
+      executed in all its branches, etc., etc., etc.</p>
      <p>It is somewhere about five or six o'clock in the afternoon, and a balmy fragrance of warm
       tea hovers in Cook's Court. It hovers about Snagsby's door. The hours are early there; dinner
       at half-past one, and supper at half-past nine. Mr. Snagsby was about to descend into the
@@ -8947,7 +8950,7 @@
       long whitewashed passage, at a great brick building, composed of bare walls, floor,
       roof-rafters, and skylights; on the front of which, if it can be said to have any front, is
       painted GEORGE'S SHOOTING GALLERY, &amp;C.</p>
-     <p>Into George's Shooting Gallery, &amp;c., he goes; and in it there are gaslights (partly
+     <p>Into George's Shooting Gallery, etc., he goes; and in it there are gaslights (partly
       turned off now), and two whitened targets for rifle-shooting, and archery accommodation, and
       fencing appliances, and all necessaries for the British art of boxing. None of these sports or
       exercises are being pursued in George's Shooting Gallery to-night; which is so devoid of

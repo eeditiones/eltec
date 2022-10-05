@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1023" xml:lang="SPA">
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA1023" xml:lang="es">
 	<teiHeader> 
-		<fileDesc> <titleStmt> 	<title>La velada del helecho o El donativo del diablo: novela : edición ELTeC</title> 	<author ref="viaf:76328537">Gómez de Avellaneda, Gertrudis (1814-1873)</author>
+		<fileDesc>
+			<titleStmt>
+				<title>La velada del helecho o El donativo del diablo: novela : edición ELTeC</title>
+				<author ref="viaf:76328537">Gómez de Avellaneda, Gertrudis (1814-1873)</author>
 			<respStmt>
 				<resp>Edición ELTeC</resp>
 				<name>Laura Marcela García Ramírez</name>
@@ -15,10 +21,10 @@
 			</extent>
 			<publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -44,10 +50,10 @@
 		</encodingDesc>
 		<profileDesc>
 			<langUsage>
-				<language ident="spa" usage="99">Español</language>
-				<language ident="fra" usage="01">Francés</language>
-				<language ident="eng" usage="01">Inglés</language>
-				<language ident="deu" usage="01">Alemán</language>
+				<language ident="SPA">Español</language>
+				<language ident="FRA">Francés</language>
+				<language ident="ENG">Inglés</language>
+				<language ident="DEU">Alemán</language>
 			</langUsage>
 			<textDesc>
 				<authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
@@ -56,6 +62,7 @@
 				<timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>  </textDesc> 
 		</profileDesc>
 		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2019-01-18"> Anotación formato ELTeC : Laura Marcela García Ramírez</change>
 			<change when="2019-04-14"> Revisión y corrección formato ELTeC : Borja Navarro Colorado</change>
@@ -76,15 +83,15 @@
 			</div>
 		</front>
 		<body>
-		<pb n="1"/> <div type="chapter" n="SPA1023001"> <head>-I-</head> <p>Al tomar la pluma para escribir esta sencilla leyenda de los pasados tiempos no se me oculta la imposibilidad en que me hallo de conservarle toda la	magia de su simplicidad, y de prestarle aquel vivo interés con que sería indudablemente acogida por los benévolos lectores (a quienes la dedico), si en vez de presentársela hoy con las comunes formas de la novela, pudiera hacerles su revelación verbal junto al fuego de la chimenea en una fría y prolongada noche de diciembre; pero más que todo, si me fuera dado trasportarlos de un golpe al país en que se verificaron los hechos que voy a referirles, y apropiarme por mi parte el tono, el gesto y las inflexiones de voz con que deben ser realzados en boca de los rústicos habitantes de aquellas montañas. No me arredraré, sin embargo, en vista de las desventajas de mi posición, y la historia cuyo nombre sirve de encabezamiento a estas líneas saldrá de mi pluma tal cual llegó a mis oídos en los acentos de un joven viajero, que tocándome muy de cerca por los vínculos de la sangre, me perdonará sin duda el que me haya decidido a confiársela a la negra prensa, desnuda del encanto con que su expresión la revestía.</p>			 <p>Era la víspera del día en que solemniza la Iglesia la fausta natividad del precursor del Mesías. El sol iba a ocultarse detrás de las majestuosas cimas del <emph>Moléson</emph> y del <emph>Jomman</emph> (en español <emph>Diente de Jaman</emph>), magníficas ramificaciones de los Alpes en la parte occidental de la Suiza, y la pequeña y pintoresca villa de <emph>Neirivue</emph>, situada a alguna distancia de las orillas del río <emph>Sarine</emph> en el cantón de Friburgo, presentaba en aquella tarde el espectáculo de un movimiento inusitado entre sus pacíficos moradores. La causa, sin embargo, no era otra que el estar convidados una parte de ellos, que en la época de nuestra historia no llegaban a doscientos, a pasar la velada en la casa del <pb n="2"/> rico ganadero Juan Bautista Keller, poseedor del más grande y hermoso <foreign xml:lang="fra">Chalet</foreign> (o casería) de cuantos se conocían en Neirivue, el cual celebraba en él todos los años, en compañía de sus amigos, la noche que antecede a la festividad de su glorioso patrón.</p> <p>Los viejos del país, que podían atestiguar la antigüedad que tenía en él la costumbre de solemnizar la mencionada noche con una alegre velada, acudían gozosos a tomar parte en la fiesta del espléndido Keller, que en tales circunstancias ponía a disposición de sus convidados los más exquisitos productos de su quesera, y los mejores vinos de Berna y de Friburgo. Los mozos, por su parte, no desperdiciaban la ocasión de ir a solazarse un poco de las fatigas de sus diarias faenas, animado además, cada uno de ellos con la lisonjera esperanza de merecer la dicha de bailar con la joven Ida Keller, que no era solamente una de las más ricas herederas del lugar, sino	también la más apuesta y gentil doncella de cuantas pudieran encontrarse en muchas leguas a la redonda. A pesar de esto era tan modesta y tan amable la hija de Juan Bautista, que la querían de todo corazón sus compañeras, y andaban también muy listas en ir a felicitarla por el santo de su padre, ataviándose por tan plausible motivo con sus galas de los domingos.</p>
-			<p>Veíanse, pues, circular por las calles de la humilde población, dirigiéndose de todas partes al <foreign xml:lang="fra">Chalet</foreign> de Keller, bulliciosos pelotones de zagalas y pastores, entonando a coros aquellos cantos particulares de su país, cuyo mágico poder sería probablemente nulo para los oídos del extranjero, si no conociese de antemano ser tan grande el que ejerce sobre los naturales, que, según nos han hecho saber el elocuente autor de la nueva Heloísa, hubo que prohibir, bajo pena de muerte, que se tocasen aquellas melodías llamadas <emph>Ranz de las vacas</emph> entre los soldados suizos, a causa de ser tan enérgica y profunda la impresión que hacían en ellos, que desertaban para volver a su patria, o morían	de dolor por no poder verificarlo.</p> 		
-			<p>La siempre limpia casería del opulento ganadero ostentaba aquel día las señales del extraordinario esmero con que procuraba la bella Ida hacerla más agradable y digna de los regocijos de que iba a ser teatro. Hallábase construida aisladamente a las orillas de un arroyuelo formado por parte de las aguas del torrente de <hi rend="italic">Hongryn</hi>, que después de perderse entre las villas de Allières y Montvon vuelve a aparecer cerca de la Neirivue, cuyo nombre toma, andando para ello cerca de legua y media por un canal subterráneo.</p>
-			<p>Lo exterior de aquel sencillo edificio de madera no ofrecía nada que notable fuese, mas cuando se traspasaban sus humildes dinteles, echábase de ver que no carecía en él su dueño de ciertas comodidades, no comunes en los <foreign xml:lang="fra">Chalets</foreign>, que no consistían generalmente sino en cuatro extensas paredes de madera formando un cuadro, con techo de tablas sobrecargado de piedras para servir de abrigo en el mal tiempo a los ganaderos y a sus reses, que se aposentaban juntos en maravillosa armonía.</p>
+		<pb n="1"/> <div type="chapter" n="SPA1023001"> <head>-I-</head> <p>Al tomar la pluma para escribir esta sencilla leyenda de los pasados tiempos no se me oculta la imposibilidad en que me hallo de conservarle toda la	magia de su simplicidad, y de prestarle aquel vivo interés con que sería indudablemente acogida por los benévolos lectores (a quienes la dedico), si en vez de presentársela hoy con las comunes formas de la novela, pudiera hacerles su revelación verbal junto al fuego de la chimenea en una fría y prolongada noche de diciembre; pero más que todo, si me fuera dado trasportarlos de un golpe al país en que se verificaron los hechos que voy a referirles, y apropiarme por mi parte el tono, el gesto y las inflexiones de voz con que deben ser realzados en boca de los rústicos habitantes de aquellas montañas. No me arredraré, sin embargo, en vista de las desventajas de mi posición, y la historia cuyo nombre sirve de encabezamiento a estas líneas saldrá de mi pluma tal cual llegó a mis oídos en los acentos de un joven viajero, que tocándome muy de cerca por los vínculos de la sangre, me perdonará sin duda el que me haya decidido a confiársela a la negra prensa, desnuda del encanto con que su expresión la revestía.</p>			 <p>Era la víspera del día en que solemniza la Iglesia la fausta natividad del precursor del Mesías. El sol iba a ocultarse detrás de las majestuosas cimas del <emph>Moléson</emph> y del <emph>Jomman</emph> (en español <emph>Diente de Jaman</emph>), magníficas ramificaciones de los Alpes en la parte occidental de la Suiza, y la pequeña y pintoresca villa de <emph>Neirivue</emph>, situada a alguna distancia de las orillas del río <emph>Sarine</emph> en el cantón de Friburgo, presentaba en aquella tarde el espectáculo de un movimiento inusitado entre sus pacíficos moradores. La causa, sin embargo, no era otra que el estar convidados una parte de ellos, que en la época de nuestra historia no llegaban a doscientos, a pasar la velada en la casa del <pb n="2"/> rico ganadero Juan Bautista Keller, poseedor del más grande y hermoso <foreign xml:lang="FRA">Chalet</foreign> (o casería) de cuantos se conocían en Neirivue, el cual celebraba en él todos los años, en compañía de sus amigos, la noche que antecede a la festividad de su glorioso patrón.</p> <p>Los viejos del país, que podían atestiguar la antigüedad que tenía en él la costumbre de solemnizar la mencionada noche con una alegre velada, acudían gozosos a tomar parte en la fiesta del espléndido Keller, que en tales circunstancias ponía a disposición de sus convidados los más exquisitos productos de su quesera, y los mejores vinos de Berna y de Friburgo. Los mozos, por su parte, no desperdiciaban la ocasión de ir a solazarse un poco de las fatigas de sus diarias faenas, animado además, cada uno de ellos con la lisonjera esperanza de merecer la dicha de bailar con la joven Ida Keller, que no era solamente una de las más ricas herederas del lugar, sino	también la más apuesta y gentil doncella de cuantas pudieran encontrarse en muchas leguas a la redonda. A pesar de esto era tan modesta y tan amable la hija de Juan Bautista, que la querían de todo corazón sus compañeras, y andaban también muy listas en ir a felicitarla por el santo de su padre, ataviándose por tan plausible motivo con sus galas de los domingos.</p>
+			<p>Veíanse, pues, circular por las calles de la humilde población, dirigiéndose de todas partes al <foreign xml:lang="FRA">Chalet</foreign> de Keller, bulliciosos pelotones de zagalas y pastores, entonando a coros aquellos cantos particulares de su país, cuyo mágico poder sería probablemente nulo para los oídos del extranjero, si no conociese de antemano ser tan grande el que ejerce sobre los naturales, que, según nos han hecho saber el elocuente autor de la nueva Heloísa, hubo que prohibir, bajo pena de muerte, que se tocasen aquellas melodías llamadas <emph>Ranz de las vacas</emph> entre los soldados suizos, a causa de ser tan enérgica y profunda la impresión que hacían en ellos, que desertaban para volver a su patria, o morían	de dolor por no poder verificarlo.</p> 		
+			<p>La siempre limpia casería del opulento ganadero ostentaba aquel día las señales del extraordinario esmero con que procuraba la bella Ida hacerla más agradable y digna de los regocijos de que iba a ser teatro. Hallábase construida aisladamente a las orillas de un arroyuelo formado por parte de las aguas del torrente de <emph>Hongryn</emph>, que después de perderse entre las villas de Allières y Montvon vuelve a aparecer cerca de la Neirivue, cuyo nombre toma, andando para ello cerca de legua y media por un canal subterráneo.</p>
+			<p>Lo exterior de aquel sencillo edificio de madera no ofrecía nada que notable fuese, mas cuando se traspasaban sus humildes dinteles, echábase de ver que no carecía en él su dueño de ciertas comodidades, no comunes en los <foreign xml:lang="FRA">Chalets</foreign>, que no consistían generalmente sino en cuatro extensas paredes de madera formando un cuadro, con techo de tablas sobrecargado de piedras para servir de abrigo en el mal tiempo a los ganaderos y a sus reses, que se aposentaban juntos en maravillosa armonía.</p>
 			<p>Distinguíase el de Keller tanto por la mayor solidez de su construcción, como por su capacidad y buen arreglo. Constaba como los otros de un solo piso bajo, pero suficiente para prestar alojamiento a los varios pastores que empleaba Juan Bautista en la guarda de su numeroso ganado, teniendo además un espacioso departamento reservado para el propietario, y que será el único de que hablaremos, por ser el destinado a servir de punto de reunión a los convidados a la velada de San Juan.Componíase, pues, dicha parte de la casería de dos salitas	cuadrilongas, de las cuales una estaba señalada el día a que nos referimos para la recepción de los convidados, y la otra para las mesas en que debían disfrutar más tarde la agradable refacción que se les preparaba. Servían de ornato a las paredes de la primera varias cornamentas de gamuza, que indicaban no ser Keller menos buen cazador que ganadero; confirmando la verdad de dichas señales los grandes cuchillos de monte que alternaban con aquellas, y las escopetas que en unión con gruesos garrotes de agudas y férreas puntas(indispensables a los que transitan por los Alpes), se veían hacinadas debajo de las altas rinconeras clavadas en los cuatro ángulos de la sala. Dos largos bancos de pino se extendían por dos testeros de esta, y una monstruosa mesa de encina que ocupaba otro, y algunas sillas de haya agrupadas cerca del hogar enfrente de aquella, completaban el mueblaje que tenía por exuberancia la añadidura de cuatro figuras de aliso hábilmente labrado, representando a la Santa Virgen, al bienaventurado San Juan Bautista, al glorioso apóstol San Pedro y al bendito San Nicolás, que es objeto de especial devoción entre los friburgueses. Se ostentaban las mencionadas efigies sobre las rinconeras de encina, entre jarrones de flores agrupadas con tal arte y <pb n="3"/> variedad de colores, que demostraban haber andado en ellas la delicada mano de Ida Keller.</p> 	
-			<p>A pesar de la buena disposición de su <foreign xml:lang="fra">Chalet</foreign>, el ganadero era bastante rico para no vivir en él, y había
-			hecho construir en el centro de la villa una linda casa de dos cuerpos, en la que se daba la importancia de un señor feudal, si bien conservando siempre a su <foreign xml:lang="fra">Chalet</foreign> el exclusivo privilegio de servir de teatro a las campesinas fiestas de la víspera de su santo.</p>
-			<p>La tarde era serena y el sol acababa de desaparecer, dejando coronadas las montañas con brillantes aureolas de sus últimos rayos, cuando los convidados de Keller comenzaron a llegar al <foreign xml:lang="fra">Chalet</foreign>, que al punto fue iluminado con numerosas hachas de viento, sembradas en las márgenes del arroyo, y por grandes faroles que se encendieron en lo interior de la casa. Juan Bautista, con un aire de hospitalidad verdaderamente patriarcal, salió al encuentro de sus huéspedes, mientras que su graciosa hija, puesta de pie en el umbral, tendía por todos los grupos que se aproximaban anhelantes miradas cual si intentase distinguir algún objeto, que sin duda no logró encontrar, pues exhalando un largo suspiro se adelantó enseguida a recibir a sus alegres compañeras con una sonrisa que tenía algo de forzada y melancólica.</p>
-			<p>En breve fue tan numerosa la concurrencia, que hallándose apretados en la pequeña sala del <foreign xml:lang="fra">Chalet</foreign> y viendo la serenidad del tiempo, corrieron los jóvenes de ambos sexos a esparcirse y a bailar a las orillas del arroyo; mientras que las personas de edad madura tomaban posesión, en fuerza del hábito, de las inmediaciones del apagado hogar.</p>
+			<p>A pesar de la buena disposición de su <foreign xml:lang="FRA">Chalet</foreign>, el ganadero era bastante rico para no vivir en él, y había
+			hecho construir en el centro de la villa una linda casa de dos cuerpos, en la que se daba la importancia de un señor feudal, si bien conservando siempre a su <foreign xml:lang="FRA">Chalet</foreign> el exclusivo privilegio de servir de teatro a las campesinas fiestas de la víspera de su santo.</p>
+			<p>La tarde era serena y el sol acababa de desaparecer, dejando coronadas las montañas con brillantes aureolas de sus últimos rayos, cuando los convidados de Keller comenzaron a llegar al <foreign xml:lang="FRA">Chalet</foreign>, que al punto fue iluminado con numerosas hachas de viento, sembradas en las márgenes del arroyo, y por grandes faroles que se encendieron en lo interior de la casa. Juan Bautista, con un aire de hospitalidad verdaderamente patriarcal, salió al encuentro de sus huéspedes, mientras que su graciosa hija, puesta de pie en el umbral, tendía por todos los grupos que se aproximaban anhelantes miradas cual si intentase distinguir algún objeto, que sin duda no logró encontrar, pues exhalando un largo suspiro se adelantó enseguida a recibir a sus alegres compañeras con una sonrisa que tenía algo de forzada y melancólica.</p>
+			<p>En breve fue tan numerosa la concurrencia, que hallándose apretados en la pequeña sala del <foreign xml:lang="FRA">Chalet</foreign> y viendo la serenidad del tiempo, corrieron los jóvenes de ambos sexos a esparcirse y a bailar a las orillas del arroyo; mientras que las personas de edad madura tomaban posesión, en fuerza del hábito, de las inmediaciones del apagado hogar.</p>
 			<p>A los sonidos del tamboril y la zampoña, que tocaban dos pastores, la bulliciosa tropa juvenil comenzó a bailar con creciente vigor; pero Ida continuaba distraída y displicente, negándose a tomar parte en el baile por más que la invitasen a porfía los mejores mozos de la reunión, y que la diesen incitantes ejemplos de compañeras. Sin embargo, quien la observase atentamente hubiera notado poco después iluminarse de repente su mirada con la inefable expresión de la esperanza; mientras sus oídos parecían atender con la vigilancia de un perro a cierto leve rumor que apenas se podía percibir entre el ruido que armaban los bailadores; y también habría echado de ver que una sonrisa deliciosa vagó fugaz sobre el carmín de sus labios en el instante en que vino a interrumpir momentáneamente la danza pastoril la aparición de un nuevo personaje.</p>
 			<p>Era este un joven como de veintidós a veintitrés años, delgado, esbelto, de estructura nerviosa, con hermosos ojos y rizados cabellos oscuros, tez fina y pálida, y manos cuya blancura indicaba no pertenecer a un hombre consagrado a los trabajos del campo. «¡Arnoldo Kessman! ¡Arnoldo Kessman!», exclamaron al verle los circunstantes. «¡Que baile con Ida!». «Sí, que baile con Ida», -repitieron, aunque de mala gana, los mancebos.</p> 	
 			<p>El recién llegado obedeció presentando su diestra a la hermosa hija de Keller, que no se negó esta vez a tomar parte en la danza: no, empero, sin decir antes a su pareja con tono de reconvención:</p> 	
@@ -99,13 +106,13 @@
 			<p>Instruidos ya los lectores de estas no insignificantes circunstancias, volvamos a buscar a la juvenil cuadrilla que acababa de terminar su prolongada danza.</p> 	
 			<p>-¡Arnoldo! -decía un robusto mocetón, que veía con envidia las preferencias que aquel alcanzaba de la bella hija de Juan Bautista, y que deseaba probar ante esta la superioridad de su propio mérito, graduado por él según la extensión de las fuerzas corporales-. ¡Arnoldo! ¿queréis luchar conmigo?	aquel que derribe a su contrario tendrá derecho de estar toda la velada cerca de Ida Keller.</p>
 			<p>-Forma un talle como el mío cada uno de vuestros brazos, Gerster -respondió el provocado-; pero no importa: lucharé con vos si lo permiten estas beldades.</p> 	
-			<p>-No por cierto -dijo Ida asiéndose de uno de los brazos de su amante-. Mirad, amigos, el cielo se va oscureciendo mucho, y viene de las montañas un viento desagradable. Os ruego que volvamos al <foreign xml:lang="fra">Chalet</foreign>, donde ya debe estar preparada la frugal colación en que tenéis la bondad de querer acompañarnos.</p> 	
+			<p>-No por cierto -dijo Ida asiéndose de uno de los brazos de su amante-. Mirad, amigos, el cielo se va oscureciendo mucho, y viene de las montañas un viento desagradable. Os ruego que volvamos al <foreign xml:lang="FRA">Chalet</foreign>, donde ya debe estar preparada la frugal colación en que tenéis la bondad de querer acompañarnos.</p> 	
 			<p>-Tiene razón Ida -dijo otra de las doncellas-: ¡estaba tan hermoso el tiempo hace un momento!... ¡Kessman! -añadió riéndose-, habéis traído con vos la tempestad.</p> 	
-			<p>-Es que la llevo siempre en el corazón -dijo Kessman en voz baja a su bella compañera, y empezó a andar con ella en dirección al <foreign xml:lang="fra">Chalet</foreign>, siguiéndolos en pelotón toda aquella gente turbulenta, que inundó con un torrente el hasta entonces pacífico recinto en que platicaban las personas sensatas.</p> 	
+			<p>-Es que la llevo siempre en el corazón -dijo Kessman en voz baja a su bella compañera, y empezó a andar con ella en dirección al <foreign xml:lang="FRA">Chalet</foreign>, siguiéndolos en pelotón toda aquella gente turbulenta, que inundó con un torrente el hasta entonces pacífico recinto en que platicaban las personas sensatas.</p> 	
 			<p>Habían discutido sin alterarse sobre los precios de los cereales en aquel año; graduado la exportación de quesos que tuviera Friburgo; y aun entraban ya en la enumeración de las arbitrariedades y rapiñas del gobernador austriaco, a quien cordialmente detestaban a pesar de sufrir pacientemente su yugo, cuando se vieron de pronto interrumpidas sus importantes conversaciones por la bulliciosa tropa que invadió sus dominios y desterró de ellos para siempre toda esperanza de calma. En balde los más ancianos, que son por lo común los más tenaces, intentaron repetidas veces reanudar el roto hilo de sus agradables pláticas; imposible era entenderse en medio de la algazara de la joven cuadrilla que intentaba continuar en la sala el baile comenzado en el campo, y para acallar a unos y disipar el enojo de otros, Juan Bautista creyó lo más prudente anunciar en alta voz que iban a dar las nueve, y que le parecía conveniente pasar a la otra sala donde la refacción los esperaba.</p>
 			<p>Nadie oyó con disgusto tan halagüeñain vitación y en un instante se vieron sitiadas por todos lados dos largas mesas, colocadas paralelamente en medio del cuadrilongo que formaba el nuevo recinto, las que, cubiertas por blancos manteles, ostentaban <pb n="5"/> a porfía los más ricos quesos del país y las más exquisitas mantecas, alternando con promontorios de sazonadas y diversas frutas, y flanqueadas por anchas ánforas llenas de vino, y por cestillos de mimbres atestados de tortas de cebada amasadas con manteca, y de blancos panecillos de trigo.</p>
 			<p>Durante algunos minutos preocupó tanto a los convidados de Keller la presencia de aquellos apetitosos objetos que no se limitaba a gozar con el solo sentido de la vista, que reinó gran silencio en toda la compañía y pudo oírse el ruido del viento que arreciaba por instantes, probando que el inconstante cielo de la Suiza había hecho suceder la tempestad a la deliciosa calma con que comenzó la noche.</p>
-			<p>Sin embargo, la gente desvelada no parecía inquietarse por aquel cambio repentino a que están asaz habituados los moradores del país, y como la estación alejaba los temores de una <foreign xml:lang="fra">avalanche</foreign> <ref target="#SPA1023N01">[1]</ref>, ni los silbidos del viento, ni los sordos y dilatados truenos que devolvían las montañas, interrumpieron las inequívocas señales con que daban a entender a Juan Bautista que encontraban verdaderamente deliciosa la colación prevenida.</p>
+			<p>Sin embargo, la gente desvelada no parecía inquietarse por aquel cambio repentino a que están asaz habituados los moradores del país, y como la estación alejaba los temores de una <foreign xml:lang="FRA">avalanche</foreign> <ref target="#SPA1023N01">[1]</ref>, ni los silbidos del viento, ni los sordos y dilatados truenos que devolvían las montañas, interrumpieron las inequívocas señales con que daban a entender a Juan Bautista que encontraban verdaderamente deliciosa la colación prevenida.</p>
 			<p>Dos personas únicamente hacían poco honor a los incitantes manjares; eran Ida y Arnoldo, que aprovechándose de la general distracción entablaron en voz baja el diálogo siguiente.</p>
 	</div> 
 	<div type="chapter" n="SPA1023002">
@@ -127,7 +134,7 @@
 			<p>-Sois muy lisonjera conmigo y muy severa con mi protector, querida niña: pero creo como vos que carece de toda verosimilitud la suposición a que os referís. No, el conde Montsalvens no es mi padre: el corazón me lo asegura. Siempre he creído firmemente en el presentimiento interior que llaman <emph>voz de la sangre</emph>. Si yo viera a mi padre adivinaría que lo era. Mas hablemos del vuestro, Ida. ¿Tenéis alguna esperanza de que pueda ablandarse en favor nuestro?</p> 		
 			<p>-No puedo negaros que lo considero milagro, y que por tanto solo lo espero del poder y de la piedad divina. Mi padre no os mira con buenos ojos desde que ha sospechado que me amáis, y ayer mismo me habló con un tono que no acostumbra usar conmigo, expresándome terminantemente que cesaría de ser un buen padre si llegaba a conocer que se pasaba por el pensamiento la loca idea, así dijo, de casarme con vos.</p>
 			<p>-¡Ya lo veis, Ida!... -exclamó el joven con profundo dolor-: ¡no hay para mí ninguna esperanza de felicidad en la tierra!... morir, solo morir es lo que debo anhelar.</p> 		
-			<p>-No os desalentéis así, mi buen Arnoldo -le dijo la doncella esforzándose por ocultar una lágrima que temblaba, a pesar suyo, en sus hermosos párpados-. ¡Escuchad! hablábamos hace un instante del barón de Charmey, y no sin idea os he hecho su elogio; porque os confieso que he pensado más de una vez en implorar su poderosa mediación en favor de nuestros amores. Habéis de saber que cuando fuimos mi padre <pb n="7"/> y yo a felicitarle y a ofrecerle nuestros respetos la última vez que estuvo en su castillo, me dijo muy bajito al despedirme: «Ya sé por William (William es su conserje, querido Kessman); ya sé por William que un buen mozo delira por tus ojos y que el papá no se muestra propicio: cuenta con mi apoyo cuando lo necesites». Por desgracia dejó el castillo dos días después, hace ya dos meses, y aun no ha vuelto, a pesar de que le decía en aquella ocasión a mi padre: «¡Mi gordinflón! resérvame un jarro de vino y el mejor pedazo de tu queso la noche de la velada de San Juan, pues te advierto que tengo vivos deseos de visitar tu <foreign xml:lang="fra">Chalet</foreign> en aquella época de su gloria.</p>
+			<p>-No os desalentéis así, mi buen Arnoldo -le dijo la doncella esforzándose por ocultar una lágrima que temblaba, a pesar suyo, en sus hermosos párpados-. ¡Escuchad! hablábamos hace un instante del barón de Charmey, y no sin idea os he hecho su elogio; porque os confieso que he pensado más de una vez en implorar su poderosa mediación en favor de nuestros amores. Habéis de saber que cuando fuimos mi padre <pb n="7"/> y yo a felicitarle y a ofrecerle nuestros respetos la última vez que estuvo en su castillo, me dijo muy bajito al despedirme: «Ya sé por William (William es su conserje, querido Kessman); ya sé por William que un buen mozo delira por tus ojos y que el papá no se muestra propicio: cuenta con mi apoyo cuando lo necesites». Por desgracia dejó el castillo dos días después, hace ya dos meses, y aun no ha vuelto, a pesar de que le decía en aquella ocasión a mi padre: «¡Mi gordinflón! resérvame un jarro de vino y el mejor pedazo de tu queso la noche de la velada de San Juan, pues te advierto que tengo vivos deseos de visitar tu <foreign xml:lang="FRA">Chalet</foreign> en aquella época de su gloria.</p>
 			<p>-No prestéis crédito, ángel mío, a las promesas de los grandes señores, porque tan pronto son en hacerlas como en olvidarlas. Además, Ida, por grande que pueda ser el respeto de vuestro padre por el barón de Charmey, no condescendería en dar su hija única a un pobre mancebo como yo, sin porvenir en el mundo. Necesito ser rico y no puedo serlo. ¡Oh! ¡no podéis imaginar cuán devorante es esta sed de oro que el amor ha despertado en mi alma! Daría mi vida por un solo día de riqueza, porque ese día, Ida, lo pasaría en vuestros brazos. ¡Dios mío!¡perdonadme! pero momentos ha habido en que creo que hubiera pagado el oro a precio de mi salvación eterna.</p> 	
 			<p>-No digáis eso, Arnoldo; ¡oh! ¡no digáis eso nunca! Yo quiero que me améis más que a todas las cosas del
 			mundo, pero no consiento en que prefiráis a vuestra felicidad en la otra
@@ -775,9 +782,9 @@
 			 que exijáis sea un potentado vuestro yerno.</p> 		
 					<p>-No, ciertamente -dijo Keller-; ni un potentado ni un mendigo; ni
 			 más ni menos que mi hija; pero sabed, Kessman, que el día que se
-			 case Ida llevará por dote a su marido un  <foreign xml:lang="fra">alpage</foreign> de primer clase con una  <emph>sennte</emph>  de doscientas vacas de las mejores del país, con la	añadidura de trescientos ducados de Berna <ref target="#SPA1023N03">[3]</ref> en buena moneda de oro.</p> 		
+			 case Ida llevará por dote a su marido un  <foreign xml:lang="FRA">alpage</foreign> de primer clase con una  <emph>sennte</emph>  de doscientas vacas de las mejores del país, con la	añadidura de trescientos ducados de Berna <ref target="#SPA1023N03">[3]</ref> en buena moneda de oro.</p> 		
 					<p>-¿Os bastaría -dijo Arnoldo-, que esa dote pudiera ser
-			 aumentada por el marido de Ida con mil piezas de oro de treinta y dos  <foreign xml:lang="deu">franken</foreign>
+			 aumentada por el marido de Ida con mil piezas de oro de treinta y dos  <foreign xml:lang="DEU">franken</foreign>
 			 <ref target="#SPA1023N04">[4]</ref></p>                           
 			 <p>-¿Qué duda cabe? -contestó el ganadero, que no
 			 sabía qué pensar de todo aquello. Os he dicho que no ambiciono
@@ -785,7 +792,7 @@
 			 manos de un descamisado; esto no lo digo por vos, Arnoldo, no trato de
 			 ofenderos en lo más leve. Si se le presenta un partido ventajoso, y por
 			 tal estimaría al mozo que comenzase su carrera con mil piezas de oro de
-			 treinta y dos  <foreign xml:lang="deu">franken</foreign>, no solo lo aceptaría gustoso,
+			 treinta y dos  <foreign xml:lang="DEU">franken</foreign>, no solo lo aceptaría gustoso,
 			 sino que hasta aumentaría la dote de la niña con cincuenta vacas
 			 más.</p> 		
 					<p>-Pues yo venía precisamente a rogaros, señor Keller,
@@ -798,7 +805,7 @@
 			 oídos al sonido del metal (pues no se fiaba del testimonio de un solo
 			 sentido), miraba sucesivamente a Arnoldo y al dinero, sin acabar de persuadirse
 			 con todo eso de que era realidad lo que pasaba a su vista.</p> 		
-					<p>-Aquí tenéis mil piezas de treinta y dos  <foreign xml:lang="deu">franken</foreign> -dijo Kessman cuando acabó de
+					<p>-Aquí tenéis mil piezas de treinta y dos  <foreign xml:lang="DEU">franken</foreign> -dijo Kessman cuando acabó de
 			 amontonar delante del ganadero todo el oro que traía-: podéis
 			 contarlas si gustáis.</p> 		
 					<p>Hízolo así Juan Bautista, mientras su interlocutor,
@@ -808,7 +815,7 @@
 			 mano, y el ganadero se halló con entrambos enfrente cuando
 			 concluyó la cuenta.</p> 		
 					<p>-Mira, Ida, mira -dijo trasportado-: ¡mil piezas de oro de
-			 treinta y dos  <foreign xml:lang="deu">franken</foreign>! ¡de Arnoldo, todo es de Arnoldo!
+			 treinta y dos  <foreign xml:lang="DEU">franken</foreign>! ¡de Arnoldo, todo es de Arnoldo!
 			 ¿no es así, mi guapo Kessman? ¿vuestro exclusivamente?</p>
 		  					
 					<p>-Sí, señor Keller; esa suma me pertenece, y si ella os
@@ -817,7 +824,7 @@
 			 anhelada unión.</p> 		
 					<p>-Ningún inconveniente veo -respondió Juan Bautista-;
 			 ¿pero sabéis que no hubiera sospechado jamás fuese tan
-			 generoso el conde de Montsalvens? ¡Mil piezas de oro de treinta y dos  <foreign xml:lang="deu">franken</foreign>!... Creo ahora positivamente, mi
+			 generoso el conde de Montsalvens? ¡Mil piezas de oro de treinta y dos  <foreign xml:lang="DEU">franken</foreign>!... Creo ahora positivamente, mi
 			 querido Arnoldo, que era fundada, exacta la suposición que hacían
 			 en el lugar... sí, el señor de Montsalvens es vuestro padre.</p> 		
 					<p>-No es el conde de Montsalvens quien me ha hecho ese donativo
@@ -905,7 +912,7 @@
 			 opulentísimo, a quien motivos poderosos obligaron a guardar hasta
 			 entonces el más profundo silencio; pero que acababa de reconocerlo,
 			 haciéndole por primera demostración de su paternal afecto
-			 <pb n="17"/> un regalo de  <emph>dos mil</emph> piezas de oro de 32  <foreign xml:lang="deu">franken</foreign>; pues no ignoraba Juan Bautista que en
+			 <pb n="17"/> un regalo de  <emph>dos mil</emph> piezas de oro de 32  <foreign xml:lang="DEU">franken</foreign>; pues no ignoraba Juan Bautista que en
 			 lo tocante a intereses pecuniarios es asaz general la antigua costumbre de
 			 atribuirse el duplo de lo que realmente se posee, siempre que no sea mayor la
 			 conveniencia de rebajarlo en proporción del aumento.</p> 		
@@ -1038,7 +1045,7 @@
 					<p>-Nosotras también estamos convidadas.</p> 		
 					<p>-¡Oh, todo el pueblo! ese Keller es rumboso: respecto a esto
 			 no se le puede tildar.</p> 		
-					<p>Las mujeres se separaron para hacer sus  <foreign xml:lang="fra">toilletes</foreign>, y en idéntica
+					<p>Las mujeres se separaron para hacer sus  <foreign xml:lang="FRA">toilletes</foreign>, y en idéntica
 			 ocupación se halló una considerable parte de la gente femenina
 			 del lugar, hasta que sonaron las once en la gran campana de la iglesia.
 			 Entonces los ámbitos de la casa de Keller comenzaron a llenarse de
@@ -1048,10 +1055,10 @@
 			 atavíos. Unánime aclamación resonó entonces en la
 			 sala, y todos los asistentes se apresuraron a porfía a ir a felicitar a
 			 entrambos, y en especial al hijo del  <emph>opulento príncipe</emph> que recibía por
-			 primer caricia paternal dos mil piezas de oro de 32  <foreign xml:lang="deu">franken</foreign>. Al mismo tiempo apareció el
+			 primer caricia paternal dos mil piezas de oro de 32  <foreign xml:lang="DEU">franken</foreign>. Al mismo tiempo apareció el
 			 escribano con las manos cargadas de papeles, y leyó en alta voz la
 			 escritura dotal de la novia, en la que declaraba el esposo recibir de su padre
-			 político un extenso  <foreign xml:lang="fra">alpage</foreign> con 200 vacas gordas, otro
+			 político un extenso  <foreign xml:lang="FRA">alpage</foreign> con 200 vacas gordas, otro
 			 más pequeño con 50, y la cantidad de 300 ducados de Berna en
 			 buena moneda de oro.</p> 		
 					<p>-¡Viva el rico ganadero! ¡viva el generoso papá!
@@ -1060,7 +1067,7 @@
 			 mencionados. Nuevos vítores resonaron al ver en manos del joven aquella
 			 dote considerable para ser de una villana, y se aumentó el entusiasmo
 			 cuando el joven declaró en alta voz que dotaba por su parte a la joven
-			 desposada con mil piezas de oro de treinta y dos  <foreign xml:lang="deu">franken</foreign>.</p> 		
+			 desposada con mil piezas de oro de treinta y dos  <foreign xml:lang="DEU">franken</foreign>.</p> 		
 					<p>-¡La mitad de su fortuna actual! -decía Keller al
 			 oído de sus vecinos-: ¡le regala la <pb n="19"/> mitad de su
 			 fortuna actual! ¿pero qué es eso para él? ¡el hijo
@@ -1150,7 +1157,7 @@
 					<p>-No lo niego, señor Bull, ¡pero también las
 			 apariencias son a veces claras, acusadoras! Arnoldo que no tenía la
 			 más remota esperanza de herencia o donativo, deja de repente el servicio
-			 del conde y aparece poseedor de mil piezas de oro de 32  <foreign xml:lang="deu">franken</foreign>, al mismo tiempo que se descubre la
+			 del conde y aparece poseedor de mil piezas de oro de 32  <foreign xml:lang="DEU">franken</foreign>, al mismo tiempo que se descubre la
 			 perpetración de un robo considerable en el castillo de su amo.
 			 ¿Qué hemos de pensar en vista de esta notabilísima
 			 coincidencia? ¿Es dable no ver la luz cuando brilla delante de nuestros
@@ -1396,7 +1403,7 @@
 			 derecho a ellos. Es menester que descubras el sitio en que se encuentra esa
 			 alhaja; que la sustraigas, y que dentro de tres días, a esta misma hora,
 			 me la traigas a este sitio. <pb n="23"/> En cambio de ella tendrás al
-			 instante mil piezas de oro de 32  <foreign xml:lang="deu">franken</foreign>. Guárdate empero de abrirla,
+			 instante mil piezas de oro de 32  <foreign xml:lang="DEU">franken</foreign>. Guárdate empero de abrirla,
 			 porque si lo haces quedas desde aquel instante siervo del infierno para
 			 siempre, y yo no quiero en mis dominios sino a los que conquistan su entrada
 			 con hechos más funestos y trascendentales. ¡Oh!
@@ -1414,7 +1421,7 @@
 			 vil de todos los embusteros del mundo.</p> 		
 					<p>-No estoy loco ni miento -repuso el joven cada vez más
 			 desolado-: toda la villa de Neirivue sabe que después de aquella aciaga
-			 noche soy poseedor de mil piezas de oro de 32  <foreign xml:lang="deu">franken</foreign>: tal fue la recompensa que me dio
+			 noche soy poseedor de mil piezas de oro de 32  <foreign xml:lang="DEU">franken</foreign>: tal fue la recompensa que me dio
 			 Satanás por la villana conducta que tan justamente estoy expiando.</p> 		
 					<p>-Me robarías esa suma, infame, cuando me robaste los papeles:
 			 no presumas engañarme con tus cuentos de bruja. ¡Mi caja!
@@ -1477,7 +1484,7 @@
 			 con indescribible afán. Este, apenas quedaron solos, dijo con dignidad,
 			 después de cerrar por sí mismo todas las puertas:</p> 		
 					<p>-Señor conde, la villa de Neirivue acusa a este mancebo de
-			 haberos robado mil <pb n="24"/> piezas de oro de 32  <foreign xml:lang="deu">franken</foreign>; pero en el momento en que tengo la
+			 haberos robado mil <pb n="24"/> piezas de oro de 32  <foreign xml:lang="DEU">franken</foreign>; pero en el momento en que tengo la
 			 honra de hablaros, se está desmintiendo como es debido tan vil calumnia
 			 por todos mis agentes, a quienes he dado el expreso encargo de divulgar la
 			 verdad, restableciendo la buena reputación que merece el acusado. Las
@@ -1508,7 +1515,7 @@
 			 entregaseis a este huérfano cuando cumpliese los veinte años: en
 			 segundo lugar, consta también en ellas, recordadlo, que como de aquellos
 			 papeles se os dejó depositario también de la considerable suma de
-			 cinco mil piezas de oro de 32  <foreign xml:lang="deu">franken</foreign>, de las cuales sois deudor a este joven
+			 cinco mil piezas de oro de 32  <foreign xml:lang="DEU">franken</foreign>, de las cuales sois deudor a este joven
 			 todavía.</p> 		
 					<p>Palideció el conde mientras hablaba su contrario, y
 			 tembló de pies a cabeza al oír la conclusión de su
@@ -1649,7 +1656,7 @@
 					<p>-Vamos, amigo mío, a abrazar a Ida (espero que me lo
 			 permitiréis sin tener celos esta vez), y a advertirle a Juan Bautista
 			 que debe añadir a los contratos la cláusula de que
-			 aportáis al matrimonio cinco mil piezas de oro de treinta y dos  <foreign xml:lang="deu">franken</foreign> de las que me reconozco deudor. Yo me
+			 aportáis al matrimonio cinco mil piezas de oro de treinta y dos  <foreign xml:lang="DEU">franken</foreign> de las que me reconozco deudor. Yo me
 			 reservo el derecho exclusivo de disponer los festejos de las nupcias, y os
 			 advierto desde ahora que una de las novedades con que quiero obsequiaros
 			 será la iluminación del camino de Eví, adonde hemos de ir
@@ -1674,10 +1681,10 @@
 	 </body>
 	 <back>
 		<div type="notes">
-			<note xml:id="SPA1023N01"><p>Creemos que nuestros ilustrados lectores no ignorarán que las <foreign xml:lang="fra">avalanches</foreign>, fenómeno el más terrible y extraordinario de los que presenta la naturaleza en los Alpes, consisten en la precipitación de enormes masas de nieve o de hielo que con un ruido semejante al trueno, se desprenden y ruedan desde las  montañas a los valles, arrastrando cuanto se opone a su paso, y causando a veces grandísimos daños. En nuestros Pirineos, donde también se experimentan, aunque con menos violencia y estragos, se llaman <foreign xml:lang="eng">valudes</foreign>.</p></note>
-			<note xml:id="SPA1023N02"><p>En Suiza se da el nombre de <foreign xml:lang="fra">alpage</foreign> o <foreign xml:lang="fra">alpe</foreign> a la extensión de terreno de pasto que es propiedad de alguno, y se llama <emph>sennte</emph> el número de vacas que se alimenta de él. El valor de un <foreign xml:lang="fra">alpage</foreign> varía según su extensión y la calidad de su pasto.</p></note>
+			<note xml:id="SPA1023N01"><p>Creemos que nuestros ilustrados lectores no ignorarán que las <foreign xml:lang="FRA">avalanches</foreign>, fenómeno el más terrible y extraordinario de los que presenta la naturaleza en los Alpes, consisten en la precipitación de enormes masas de nieve o de hielo que con un ruido semejante al trueno, se desprenden y ruedan desde las  montañas a los valles, arrastrando cuanto se opone a su paso, y causando a veces grandísimos daños. En nuestros Pirineos, donde también se experimentan, aunque con menos violencia y estragos, se llaman <foreign xml:lang="ENG">valudes</foreign>.</p></note>
+			<note xml:id="SPA1023N02"><p>En Suiza se da el nombre de <foreign xml:lang="FRA">alpage</foreign> o <foreign xml:lang="FRA">alpe</foreign> a la extensión de terreno de pasto que es propiedad de alguno, y se llama <emph>sennte</emph> el número de vacas que se alimenta de él. El valor de un <foreign xml:lang="FRA">alpage</foreign> varía según su extensión y la calidad de su pasto.</p></note>
 			<note xml:id="SPA1023N03">El ducado de oro de Berna equivale a poco más de once francos y medio de Francia.</note>
-			<note xml:id="SPA1023N04"><p>Cada pieza de oro de treinta y dos <foreign xml:lang="deu">franken</foreign> vale en el cambio con la moneda francesa cuarenta y siete francos y dos céntimos. Es decir, nueve duros españoles próximamente.</p></note>
+			<note xml:id="SPA1023N04"><p>Cada pieza de oro de treinta y dos <foreign xml:lang="DEU">franken</foreign> vale en el cambio con la moneda francesa cuarenta y siete francos y dos céntimos. Es decir, nueve duros españoles próximamente.</p></note>
 		</div>
 	</back>
   </text>

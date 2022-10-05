@@ -1,6 +1,7 @@
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
             schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="pl" xml:id="POL0018">
 <teiHeader>
@@ -13,23 +14,26 @@
 <measure unit="words">80253</measure>
 </extent>
 <publicationStmt>
-<p>Published as part of ELTeC <date>2019-06-09</date></p>
-</publicationStmt>
-<sourceDesc>
-<bibl type="digitalSource">
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662595">ELTeC-$textLang</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662725">ELTeC-$textLang release 1.0.0</ref>
+<!--Published as part of ELTeC 2019-06-09--></publicationStmt>
+<sourceDesc><bibl type="digitalSource">
 <title>Znachor</title>
 <ref>http://wolnelektury.pl/katalog/lektura/znachor</ref>
-</bibl>
-<bibl type="printSource">
+</bibl><bibl type="printSource">
 <title>Znachor</title>
 <author>Dołęga, Tadeusz-Mostowicz</author>
 <publisher>Poznań: Drukarnia polska</publisher>
 <date>1938</date>
-</bibl>
-</sourceDesc>
+</bibl></sourceDesc>
 </fileDesc>
 <encodingDesc n="eltec-1">
-<p></p>
+<p/>
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -43,6 +47,7 @@
 </textDesc>
 </profileDesc>
 <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-04-07">JR convert to ELTeC-1</change>
 </revisionDesc>
 </teiHeader>
@@ -54,7 +59,6 @@
 </div>
 </front>
 <body>
-<div>
 <div type="chapter"><head>Rozdział I</head>
 <p>W sali operacyjnej panowała zupełna cisza. Z rzadka przerywał ją ostry, krótki brzęk metalowych narzędzi chirurgicznych na szklanej płycie. Powietrze nagrzane do trzydziestu siedmiu stopni Celsjusza przenikał słodkawy zapach chloroformu i surowa woń krwi, które przenikając przez respiratory napełniały płuca nieznośną mieszaniną. Jedna z sanitariuszek zemdlała w kącie sali, lecz nikt z pozostałych nie mógł odejść od stołu operacyjnego, by ją ocucić. Nie mógł i nie chciał. Trzej asystujący lekarze nie spuszczali czujnego wzroku z otwartej czerwonej jamy, nad którą poruszały się wolno i zdawało się niezgrabnie wielkie, grube ręce profesora Wilczura.</p>
 <p>Każdy najmniejszy ruch tych rąk trzeba było zrozumieć natychmiast.
@@ -480,8 +484,7 @@ grzbiecie konia. Wóz potoczył się naprzód.</p>
 brzegiem szosy za nim.</p>
 <p>— Tfu! — powtórzył i podciął szkapę, aż przeszła w kłusa.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział II</head>
 <p>Zniknięcie profesora Rafała Wilczura poruszyło całe miasto. Przede
 wszystkim w całej sprawie wyczuwało się jakąś tajemnicę. Ci wszyscy, którzy od lat stykali się z profesorem i znali go dobrze, zapewniali, że wszelkie przypuszczenia na temat samobójstwa byłyby absurdem. Wilczur odznaczał się przecie wręcz żywiołową witalnością, kochał swoją pracę, kochał rodzinę, kochał życie. Jego stan majątkowy był wyborny. Jego sława wciąż rosła. W świecie lekarskim był uważany za znakomitość.</p>
@@ -576,8 +579,7 @@ im. Prof. dra Wilczura”. W związku z tym wyszła z druku dość obszerna biog
 <p>Praca ta kończyła się słowami:</p>
 <p>„Składając hołd nieodżałowanej pamięci najlepszego Człowieka, mądrego Nauczyciela i wielkiego Uczonego, polski świat lekarski pozostaje okryty żałobą po jego tragicznym zniknięciu, które niestety już zapewne na zawsze pozostanie okryte mrokiem bolesnej tajemnicy”.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział III</head>
 <p>Przodownik policji w Chotymowie, Wiktor Kania, siedział bezczynnie
 przy stole kancelaryjnym, pokrytym czystą zieloną bibułą i ziewał od czasu do czasu, patrząc przez okno. Posterunek mieścił się w ostatnim domku na skraju miasteczka i z okien roztaczał się rozległy widok na pola pokryte już gęstą zielenią, na brzeg jeziora, gdzie właśnie rozwieszano sieci, na czarną smugę lasu, spod której dymił komin tartaku Hasfelda, i na drogę do tego tartaku, którą szedł właśnie zastępca Kani, posterunkowy Sobczak, z jakimś wysokim, chudym brodaczem.</p>
@@ -676,8 +678,7 @@ i został skazany na trzy tygodnie aresztu za nałogowe uprawnianie włóczęgi.
 <p>Po trzech tygodniach wyszedł jednak z więzienia powiatowego i ruszył
 w świat już jako Antoni Kosiba.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IV</head>
 <p>W samych Odrynach, w majątku, nie było nic godnego widzenia. Wielki
 pałac spalony podczas wojny, obrosły pokrzywami, łopianem i końskim
@@ -776,8 +777,7 @@ nie tamto. Zastanów się, z jakim czołem mogłabym przyjść do jego spadkobie
 <p>Wtedy zobaczyła, że ma otwarte oczy.</p>
 <p>Już nie żył.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział V</head>
 <p>Akurat na połowie drogi między Radoliszkami a Nieskupą stał od niepamiętnych czasów młyn wodny, niegdyś własność ojców bazylianów z klasztoru w Wickunach, przez nich założony za czasów króla Batorego, obecnie należący do Prokopa Szapiela, zwanego powszechnie z białoruska Prokopem Mielnikiem.</p>
 <p>Ziemia w okolicy nie była ani zbyt bogata, ani zbyt żyzna, ot, żytnio-kartoflana i przeważnie należąca do drobniejszej szlachty i chłopów, ale żyta do przemiału Prokopowi nie brakowało, bo konkurencji żadnej w pobliżu nie miał, nie licząc wiatraka w odległej o pięć kilometrów litewskiej wiosce Bierwintach. A ten na osiemdziesiąt chat nastarczyć nie mógł, bo Litwini odznaczali się wyjątkową gospodarnością i niejeden z pięciu dziesięcin więcej
@@ -1025,8 +1025,7 @@ końskich i pokrzykiwanie: ludzie przywieźli żyto do młyna. W sieni rozległo
 <p>— To znaczy, że weźmiesz mnie do pracy? — zapytał uradowany.</p>
 <p>— Niech tam już. Wezmę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VI</head>
 <p>Od tego dnia zadomowił się Antoni Kosiba w młynie Prokopa Mielnika.
 A chociaż nie śmiał się nigdy, a uśmiechał bardzo rzadko, było mu tu dobrze jak nigdzie dotychczas. Roboty się nie bał, rąk ani pleców nie żałował, w gadanie nie lubił się wdawać, toteż stary Prokop nic mu nie miał do zarzucenia. Owszem, nawet zadowolony był z nowego parobka. Jeżeli zaś niczym tego nie objawiał, to tylko dlatego, że nie leżało to w jego zwyczajach.</p>
@@ -1220,8 +1219,7 @@ na ławce siedział, wpatrując się weń, ojciec. Obok stał Antoni.</p>
 <p>Powieki Wasila opadły znowu.</p>
 <p>— Zasnął — objaśnił Antoni. — Niech śpi. Sen siłę daje.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VII</head>
 <p>Już tydzień później Wasilowi minęła gorączka i odzyskał apetyt. Wraz
 z nadzieją wrócił mu też humor. Podczas opatrunków krzywił się z bólu, ale żartował. Doglądał go Antoni sam, a gdy we młynie więcej było roboty, nad chorym czuwały kobiety.</p>
@@ -1467,8 +1465,7 @@ pulsowała w skroniach. Niespodziewanie odsunął od siebie z rozmachem niedopit
 <p>— Oczywiście! Oczywiście! Nie jestem chirurgiem. Ale ten znachor też, do diabła, nim nie jest. Jest zwykłym chłopem! Jest zwykłym parobkiem u młynarza!… Ale już mam tego dość! Wszystko mi jedno! Nie pozwolę się zagłodzić! Zobaczycie! Zobaczycie, że i ja potrafię walczyć!</p>
 <p>Wyszedł, trzasnąwszy drzwiami…</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział VIII</head>
 <p>W miasteczku Radoliszkach, tam gdzie zbiega się wąska uliczka, nosząca nazwę ulicy Napoleona, z Drugim Rynkiem, ochrzczonym imieniem placu Niepodległości, stoi jednopiętrowa kamieniczka z czerwonej cegły, a w niej na parterze mieszczą się cztery sklepiki. Największy z nich i najokazalszy jest sklepik narożny, własność pani Michaliny Szkopkowej. W sklepiku są do nabycia materiały piśmienne, znaczki stemplowe i pocztowe, nici, wstążki, guziki, słowem norymberszczyzna oraz tytoń i papierosy.</p>
 <p>Ilekroć Antoni Kosiba przychodził do Radoliszek, właśnie w sklepiku pani Szkopkowej zaopatrywał się w tytoń, gilzy i zapałki a także kupował tu jedwabne nici..</p>
@@ -1731,8 +1728,7 @@ prozaiczne. Zresztą jeżeliby tak było, dlaczego doznał takiego wstrząsu?…
 <p>Była pewna, że trafiła na ślad wielkiej i przejmującej tajemnicy, i postanowiła sobie, że ją rozwikła. Jeszcze nie wiedziała, w jaki sposób to zrobi, lecz wiedziała, że nie zazna spokoju, nim do sedna zagadki nie dotrze.</p>
 <p>Tymczasem jednak zaszły wypadki, które odwróciły jej myśli i zainteresowania w zupełnie innym kierunku.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział IX</head>
 <p>Mniej więcej w połowie czerwca wczesnym rankiem na rynku zatrzymał się wielki granatowy samochód. W Radoliszkach znał go każdy i wiedział, że należy do państwa z Ludwikowa. Samochód zatrzymał się przed kolonialnym sklepem Mordki Rabinowa. Z okien sklepiku pani Michaliny Szkopkowej widać było dokładnie, jak najpierw wysiadł stary pan Czyński, później pani Czyńska i wreszcie ich syn, pan Leszek.</p>
 <p>Marysia szybko odskoczyła od okna. Zdążyła tylko zauważyć, że młody
@@ -2236,8 +2232,7 @@ i młodych mężatek, na pewno przyjemniej spędzi czas niż w tej obrzydliwej o
 <p>Tak myślał aż do chwili, gdy przed oknami wagonu zaczęły się przesuwać uciekające budynki stacyjne. Gdy jednak koła pociągu wpadły w monotonny, rytmiczny stukot, myśli zmąciły się, zawirowały i nagle pobiegły w innym, w zupełnie przeciwnym kierunku.</p>
 <p>Ale to już jest dalsza historia.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział X</head>
 <p>Spokojnie płynęło życie w młynie starego Prokopa Szapiela, zwanego
 Prokopem Mielnikiem. Pogodne, błękitne niebo odbijało się w gładkiej powierzchni cichych stawów, miodnym zapachem pachniały lipy, dobra woda żywicielka lśniącą wstęgą spływała na wielkie koło młyńskie niby niekończąca się wstęga lustrzana, roztrzaskując się na skrzydełkach w zielonawe, przezroczyste kawałki, coraz drobniejsze, coraz bielsze, aż wytłaczające się dołem skłębioną pianą w bryzgach i bulgocie.</p>
@@ -2403,8 +2398,7 @@ czynienia z człowiekiem, który wie, czego chce. Obaj byliśmy tym bardzo ucies
 <p>Rozmowa ta odbyła się wieczorem po kolacji i napełniła państwa Czyńskich najróżowszymi nadziejami. Jakież było ich zdziwienie, gdy nazajutrz rano służący zapytany, czy panicz jeszcze śpi, oświadczył:</p>
 <p>— Panicz kazał podać motocykl i pojechał w stronę Radoliszek.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XI</head>
 <p>Proboszcz, ksiądz Pełka, był już starszym mężczyzną. Sypiał mało
 i wcześnie się budził. Pewne zaś niedokładności w systemie trawiennym sprawiały, iż na czczo czuł się fatalnie. Dlatego też na mszę w dni powszednie dzwoniono już przed siódmą, a o siódmej ksiądz Pełka wychodził do ołtarza.</p>
@@ -2672,8 +2666,7 @@ pierwszy tatuś nie żyje, a z drugim tatusiem i mamusią mieszkamy w naszej koc
 <p>Mimo woli uśmiechały się usta i wilgotniały oczy przy wczytywaniu się
 w te kartki, w te drogie, najdroższe na świecie kartki, które dzień po dniu, miesiąc po miesiącu, rok po roku pozwalały mu patrzeć na jej malutkie, lecz jakże ważne radości, na dziecinne, lecz wzruszające zmartwienia, na tę jasną duszyczkę, tak czystą, tak czułą, tak wrażliwą, te kartki, które pozwalały mu towarzyszyć jej dzieciństwu, jej latom dziewczęcym, wżyć się w nie i jeszcze mocniej zapragnąć, by nic go już z nią nie rozdzieliło.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XII</head>
 <p>Pierwsze czerwone liście klonów zaczęły opadać z drzew. Jesień była
 wczesna jeszcze, ciepła, cicha, słoneczna. W dni powszednie pługi wychodziły w pole i traktem ciągnęły furmanki obładowane ciężkimi workami, ale w niedzielę pusto było wszędzie. Tylko świerszcze ćwierkały, tylko ptak jakiś poderwał się czasem nad rżyskami spokojnym, niespłoszonym lotem lub ociężałym kłusem przebiegł spasiony zając.</p>
@@ -2824,8 +2817,7 @@ działo się coś dziwnego. Czuł, że ogarnia go jakieś nowe, nieznane uczucie
 <p>Krzyk przechodził w wycie, dzikie, zwierzęce wycie, w nieartykułowany
 skowyt, w którym nie można już było dosłyszeć słów, tylko obłędny strach i rozpaczliwe błaganie.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIII</head>
 <p>W młynie wcześnie układano się do snu. Nawet baby, które pomimo
 dziennego trudu lubiły kocołować do późna i nigdy nie mogły dość się nagadać, wysiadując nieraz do północy przed chatą, jako że noce zaczęły się chłodnawe, też zabierały się do spoczynku.</p>
@@ -3108,8 +3100,7 @@ wiedział, poznał z ruchu warg, że wymówiła te same słowa, którymi go nazy
 <p>Świtało już. Mieszkańcy młyna powstawali. Witalis poszedł otworzyć
 zastawy, młody Wasil do stajni, Agata i Olga krzątały się przy kuchni, a Zonia siedziała na progu i skubała białą kurę.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIV</head>
 <p>Po dwutygodniowej nieobecności w Radoliszkach, powrócił doktor
 Pawlicki i zaraz następnego dnia został wezwany do Rajewszczyzny państwa Skirwoynów, gdzie parobkowi sieczkarnia poszarpała rękę.</p>
@@ -3299,8 +3290,7 @@ serca nie okazał, to i jego stwardniało. A i to jeszcze pamiętaj, że jemu ci
 <p>— Pokochać? — zawołała. — Ależ ja cię, stryjciu, tak kocham, jak tylko mamusię kochałam!</p>
 <p>— Bóg ci zapłać, gołąbeczko — odpowiedział drżącym głosem.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XV</head>
 <p>Sprawa Zenona Wojdyłły odbyła się w połowie października w Wilnie.
 W Radoliszkach dowiedziano się o tym dopiero nazajutrz, po wyroku, gdyż wobec przyznania się oskarżonego świadków nie wzywano do sądu żadnych, poza poszkodowanymi, którzy z powodu stanu zdrowia stawić się nie mogli.</p>
@@ -3489,8 +3479,7 @@ gdyby nie szum wody na kole i nie prychanie koni pod młynem, nie dostrzegłaby 
 <p>Otrzepała w sionce buciki ze śniegu, otworzyła drzwi i stanęła jak wryta.</p>
 <p>Izba nagle zawirowała przed jej oczami, serce uderzyło gwałtownie, z ust wyrwał się cichy okrzyk i — straciła przytomność.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVI</head>
 <p>W sanatorium doktora du Chateau w Arcachon zwykle z początkiem
 grudnia zaczynał się zimowy sezon i masowy napływ paryskich artretyków. Toteż gdy w połowie grudnia przybył pan Stanisław Czyński i oznajmił doktorowi, że chce zabrać syna do kraju, lekarz nie sprzeciwiał się wcale.</p>
@@ -3720,8 +3709,7 @@ Sięgnął do jednej kieszeni, do drugiej, obszukał wszystkie.</p>
 <p>— Po cóż mi było żyć bez ciebie!</p>
 <p>Przytulili się do siebie i łzy spływały im gęstymi kroplami po policzkach, mieszając się razem. Płakali nad minioną złą przeszłością, nad smutkami serdecznymi, nad rozpaczą, która w nich wypaliła się do dna, płakali nad szczęściem swoim, tak wielkim, tak nieogarnionym, że sami w jego ogromie czuli się zagubieni, maluczcy i nieśmiali.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVII</head>
 <p>Leszek nie omylił się. Wyjeżdżając z domu półprzytomny, rzeczywiście
 listy zostawił na biurku obok niezaadresowanych jeszcze kopert. Po jego wyjeździe w Ludwikowie zapanował chaos. Gospodyni, pani Michalewska, od nadmiaru wzruszeń sama dostała spazmów, a później doprowadzona do stanu jakiej takiej równowagi, opowiadała przebieg rozmowy z Leszkiem tak zawikłanie, że minęło sporo czasu, zanim zdołano ustalić, co właściwie i dlaczego zaszło.</p>
@@ -3891,8 +3879,7 @@ w okresie przedświątecznym, w poczekalni było sporo kupców z miasteczka udaj
 <p>Naczelnik aż usta otworzył ze zdziwienia. Leszek zaś uśmiechnął się i pomyślał z zadowoleniem:</p>
 <p>„No, jutro będą mieli o czym gadać w Radoliszkach i w całej okolicy”.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XVIII</head>
 <p>Za piekarnią więzienną pękła rura kanalizacyjna. Więźniowie, których
 wyroki jeszcze nie uprawomocniły się, nie mieli obowiązku pracy, ale Antoni Kosiba zgłosił się na ochotnika. Wolał ciężki, fizyczny trud niż bezczynność w dusznej celi, gdzie trzeba było wysłuchiwać opowiadań towarzyszów o różnych wyprawach złodziejskich, o bójkach i o planowanych przedsięwzięciach tegoż typu na przyszłość. Po takich pustych dniach przychodziły najbardziej męczące, bezsenne noce. Toteż napraszał się do każdej pracy. Gdy trzeba było zsypywać węgiel, oczyszczać podwórza lub dachy ze śniegu, nosić kartofle do kuchni — pierwszy zgłaszał się na ochotnika. Potem zmęczony zasypiał kamiennym snem i nie miał czasu rozmyślać o sobie ani o Marysi, ani o czymkolwiek.</p>
@@ -4114,8 +4101,7 @@ znachora. Potem poproszono do stołu, a wieczorem Korczyński odjechał na stacj
 <p>— O, tak — potwierdził Leszek. — Dlatego też jeżeli chodzi o sprawę, mam najlepsze nadzieje. I sądzę, że trzeba przyśpieszyć odnowienie tego domku w ogródku, w którym ulokujemy Kosibę.</p>
 <p>Domek istotnie był już od tygodnia remontowany pod pieczołowitym doglądem obojga narzeczonych, którym nawet do głowy nie przychodziło, że ich praca jest daremna i że przyszłość inaczej ułoży się, niż sobie uplanowali.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XIX</head>
 <p>Niewielka sala sądu apelacyjnego szybko się zapełniła publicznością
 o dziwnym składzie. Ceglaste kożuchy chłopów z okolic Radoliszek mieszały się z eleganckimi futrami panów z miasta. Sprawa wywołała wielkie zainteresowanie nie tylko w kołach prawniczych, gdzie już od dawna krążyły ekscytujące pogłoski o rewelacyjności obrony przygotowanej przez Korczyńskiego, lecz i w świecie lekarskim wzbudziła sensację, tak ze względu na swoje tło, jak i na fakt, że na rozprawie wystąpić miał w charakterze świadka profesor doktor Dobraniecki, najwybitniejszy chirurg polski, cieszący się powszechnym
@@ -4477,8 +4463,7 @@ sprawy.</p>
 <p>— Tak. Dlatego też mam najlepsze nadzieje — powiedział, wstając,
 Dobraniecki.</p>
 </div>
-<div>
-</div>
+
 <div type="chapter"><head>Rozdział XX</head>
 <p>Pociąg, sapiąc, zatrzymał się na małej stacyjce. Był jasny, słoneczny ranek. Dachy budynków pokrywała gruba warstwa śniegu, gałęzie drzew uginały się pod obfitą okiścią. Szeroki widok roztaczający się z peronu zdawał się w swojej bieli i jasności czymś odświętnym, zdawał się zalotnie uśmiechać i wabić swoją puszystą, przytulną ciszą.</p>
 <p>Profesor Dobraniecki stał i wpatrywał się w tę białą przestrzeń. Tak
@@ -4616,7 +4601,6 @@ głosem i wybuchnął łkaniem.</p>
 <p>Tymczasem łzy przyniosły widocznie znachorowi ulgę. Podniósł się ciężko z ziemi, lecz nie odchodził. Marysia podbiegła doń i przytuliła twarz do jego ramienia. Nie widziała nic, bo łzy zalewały jej oczy, lecz słyszała jego cichy głos:</p>
 <p>— Wieczne odpoczywanie racz jej dać, Panie…</p>
 <p>Zachodziło słońce, czerwienią i złotem jarzyło się niebo na widnokręgu, na śniegu kładły się niebieskawe cienie, pierwsze muśnięcie wczesnego zimowego zmierzchu.</p>
-</div>
 </div>
 </body>
 </text>

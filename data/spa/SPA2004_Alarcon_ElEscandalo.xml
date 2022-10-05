@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
-            schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2004" xml:lang="SPA"> 
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="SPA2004" xml:lang="es"> 
 
  <teiHeader>
   	<fileDesc>
    		<titleStmt>
     			<title ref="viaf:206873727">El Escándalo : Edición ELTeC</title>
-				<author ref="viaf:27087132">Alarcón, Pedro Antonio de (1833-1891)</author>
+				<author ref="viaf:44294383">Alarcón, Pedro Antonio de (1833-1891)</author>
 				<respStmt>
 					<resp>Edición ELTeC</resp>
 					<name>Jaime Alejandro Rodríguez Rojas</name>
@@ -19,10 +22,10 @@
 		</extent>
            <publicationStmt>
 <publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
-<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2020-11-14"/>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
 <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
-<ref type="doi" target="https://doi.org/10.5281/zenodo.4271467">ELTeC release 1.0.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang</ref>
 <ref type="doi" target="https://doi.org/10.5281/zenodo.">ELTeC-$textLang release </ref>
 </publicationStmt>
@@ -47,10 +50,10 @@
 			</encodingDesc>
 		<profileDesc>
 			<langUsage>
-    				<language ident="spa">Español</language>
-    				<language ident="lat">Latín</language>
-    				<language ident="eng">Inglés</language>
-    				<language ident="fra">Francés</language>
+    				<language ident="SPA">Español</language>
+    				<language ident="LAT">Latín</language>
+    				<language ident="ENG">Inglés</language>
+    				<language ident="FRA">Francés</language>
 			</langUsage>
 			<textDesc>
 				<authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
@@ -61,6 +64,7 @@
 		</profileDesc>
   
 		<revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change>
 <change when="2020-11-14">Converted by checkUp script for new release</change>
 			<change when="2020-01-09">Anotación formato ELTeC y revisión del texto: Jaime Alejandro Rodríguez Rojas</change>
 			<change when="2020-02-03">Revisión, actualización y corrección de la anotación formato ELTeC: Borja Navarro Colorado</change>
@@ -127,7 +131,7 @@ bien servir de <emph>Don Juan</emph>. Asemejábase, en efecto, a
 todos los héroes románticos del gran poeta
 del siglo, lo cual quiere decir que también se asemejaba
 mucho al mismo poeta.</p>  <p>Sentado, o más bien clavado
-a su izquierda, iba un lacayuelo (<foreign>groom</foreign> en inglés)
+a su izquierda, iba un lacayuelo (<foreign xml:lang="ENG">groom</foreign> en inglés)
 que no tendría doce años, tiesecillo, inmóvil
 y peripuesto como un milord, y ridículo y gracioso
 como una caricatura de porcelana de Sèvres, especie
@@ -135,7 +139,7 @@ de palillero animado, cuyo único destino sobre la
 tierra parecía ser llevar, como llevaba, entre los
 cruzados brazos, el aristocrático bastón de
 su dueño, mientras que su dueño empuñaba
-la plebeya fusta.</p>  <p>La librea del <foreign>groom</foreign> y los arreos del caballo
+la plebeya fusta.</p>  <p>La librea del <foreign xml:lang="ENG">groom</foreign> y los arreos del caballo
 ostentaban, en botones y hebillas, algunas docenas de coronas
 de Conde. En cambio, el que sin duda estaba investido de
 tan alta dignidad hacía gala de un traje sencillísimo
@@ -143,7 +147,7 @@ y severo, impropio del día y de su lozana juventud,
 si bien elegante como todo lo que atañía a
 su persona. Iba de negro, aunque no de luto (pues los guantes
 eran de medio color), con una grave levita abotonada hasta
-lo alto, y sin abrigo ni <foreign>couvrepieds</foreign> que lo preservasen del
+lo alto, y sin abrigo ni <foreign xml:lang="FRA">couvrepieds</foreign> que lo preservasen del
 frío sutil de aquella tarde, serena en apariencia,
 pero que no dejaba de ser la tarde de un 27 de febrero...
 en Madrid.</p>  <p>Indudablemente, aquel joven no cruzaba la Puerta
@@ -208,7 +212,7 @@ más allá otro de aquellos hermafroditas-. ¡Paso
 a Fabián Conde, al César, al Gengiskan, al
 Napoleón de las mujeres!</p>  <p>El público aplaudió,
 creyendo que aquel su aplauso venía a cuento.</p>  <p>-¡Milagro,
-hombre! ¡Milagro! -añadió un elegante <foreign>pierrot</foreign>,
+hombre! ¡Milagro! -añadió un elegante <foreign xml:lang="FRA">pierrot</foreign>,
 haciendo mil jerigonzas-. ¡Fabián Conde no se ha disfrazado
 este Carnaval!... ¡Los maridos están de enhorabuena!</p>
  <p>-¿Qué sabes tú? -agregó un mandarín
@@ -266,7 +270,7 @@ mientras que los perros hacían alto y le lanzaban
 sus últimos y más solemnes aullidos de reprobación...</p>
  <p>Entonces, viéndose ya sin testigos y libre de aquella
 batida infernal, el desgraciado joven entregó las
-riendas al <foreign>groom</foreign>, sepultó el rostro entre las manos
+riendas al <foreign xml:lang="ENG">groom</foreign>, sepultó el rostro entre las manos
 y lanzó un sollozo semejante al rugido de león
 moribundo.</p>  <p>-¿Adónde vamos, señor? -le preguntó
 poco después el lacayuelo, cuyo terror y extrañeza
@@ -346,7 +350,7 @@ que era naturalmente <emph>pacífico, manso, limpio de corazón
 y pobre de espíritu</emph>; que <emph>lloraba y tenía hambre
 y sed de justicia</emph>, y que había ya <emph>sufrido por ella
 alguna persecución</emph>. En cambio, su ademán al
-ver al joven, al <foreign>groom</foreign> y aquel tan profano cochecillo, no
+ver al joven, al <foreign xml:lang="ENG">groom</foreign> y aquel tan profano cochecillo, no
 tuvo nada de <emph>misericordioso</emph>.</p>  <p>-¡Usted viene equivocado! -dijo
 destempladamente sin acabar de abrir el portón y tapando
 con su cuerpo la parte abierta.</p>  <p>-¿No es éste el convento
@@ -384,7 +388,7 @@ gruñendo-. ¡Ahí verá usted la escalera!...
 Piso principal...</p>  <p>-Muchísimas gracias... -respondió
 el joven, quitándose el sombrero hasta los pies.</p> 
 <p>-¡No las merezco! -replicó el conserje echando otra
-mirada de recelo al <foreign>groom</foreign> y al cochecillo, y complaciéndose
+mirada de recelo al <foreign xml:lang="ENG">groom</foreign> y al cochecillo, y complaciéndose
 en cerrar la puerta de golpe y dejarlos en la calle.</p>  <p>-¡Hum,
 hum! -murmuró enseguida-. ¡Estos magnates renegados
 son los que tienen la culpa de todo!</p>  <p>Con lo cual, se encerró
@@ -500,7 +504,7 @@ el cual hay también un agua purísima, que nunca
 niega Dios a los verdaderos sedientos.</p>  <p>-¡Gracias, padre!
 -suspiró Fabián después de beber.</p>  <p>-No
 tiene usted gracias que darme... -replicó el sacerdote-.
-Dios es la gracia, <foreign>et gratis datur</foreign>. A esa agua del alma me
+Dios es la gracia, <foreign xml:lang="LAT">et gratis datur</foreign>. A esa agua del alma me
 refería hace un momento.</p>  <p>-¡Dios!... -suspiró
 Fabián, inclinando la frente sobre el pecho con indefinible
 tristeza.</p>  <p>Y no dijo más.</p>  <p>El jesuita se calló
@@ -2142,7 +2146,7 @@ de la suya... ¡Pobre Diego! ¡Pobre de mí! </p>
  V
  </head> 
 
-<head><foreign>Angelus Domini</foreign></head>
+<head><foreign xml:lang="LAT">Angelus Domini</foreign></head>
 
 <p>-Hábleme usted más
 de Lázaro... -interrumpió el padre Manrique-.
@@ -2159,8 +2163,7 @@ hasta el día siguiente.</p>  <p>-La oración... -murmuró
 el clérigo-. Yo tengo que rezarla... Usted hará
 lo que guste.
 
-<quote>«<foreign>Angelus Domini nuntiavit Mariae et concepit
-de Spiritu Sancto</foreign>.</quote>
+<quote>«<foreign xml:lang="LAT">Angelus Domini nuntiavit Mariae et concepit de Spiritu Sancto</foreign>.</quote>
 
 <quote>Dios te salve, María..., etc.,
 etcétera.»</quote></p>
@@ -2285,7 +2288,7 @@ a usted de la mujer de Diego, demonio encargado de castigarme!...
 en que se hallan mi honor y mi conciencia!</p>  <p>-Puede ser que
 me equivoque... -respondió el jesuita-. Pero, en fin,
 tomemos el chocolate, y luego veremos cómo <emph>orillar</emph>
-lo que quiera que a usted le ocurra. <foreign>Nihil clausum est Deo</foreign>.
+lo que quiera que a usted le ocurra. <foreign xml:lang="LAT">Nihil clausum est Deo</foreign>.
 ¿Ve usted? ¡Soy tan malo, que hasta le hablo a usted en latín
 para seducirlo y perderlo!... Porque, ¿quién lo duda?
 ¡Gran perdición sería para usted el que yo
@@ -2832,7 +2835,7 @@ a las cosas su verdadero nombre... Para algo somos amigos...</p>
  <p>-¡Buena manera de entender la amistad!... -prorrumpió
 Diego.</p>  <p>-Déjalo que hable... -añadí
 yo-. Quiero conocer su teoría... Prosigue, Lázaro...</p>
- <p>-El fondo de mí teoría es éste: <foreign>Bonum
+ <p>-El fondo de mí teoría es éste: <foreign xml:lang="LAT">Bonum
 ex integra causa: malum ex quocumque defectu... </foreign></p>  <p>-¡Vaya!
 ¡Vaya! -interrumpió Diego, levantándose otra
 vez-. ¡Tú te estás burlando de nosotros! ¡Pues
@@ -5068,7 +5071,7 @@ por cuyos merecimientos yo mismo te felicito.</p>  <p>»Háblase,
 en efecto, de las cuantiosas limosnas que das a los católicos
 pobres del país y a los papistas emigrados de Italia
 y Portugal; de cómo has resistido las seductoras miradas
-y sonrisas de más de una lady <foreign>non sancta</foreign>; de tus concienzudos
+y sonrisas de más de una lady <foreign xml:lang="LAT">non sancta</foreign>; de tus concienzudos
 trabajos diplomáticos mientras has estado encargado
 de la Legación en ausencia de tu ministro; del culto
 ferviente que rinde tu alma al recuerdo de Gabriela, «<emph>a quien
@@ -5166,7 +5169,7 @@ timidez de la soltera, principian a hablarme en el dulce
 estilo que me hablarán los de la casada!...</p>  <p>»¡Conque...
 ya ves que no podemos aguardar tu venida para recibir la
 indispensable bendición, como tampoco pude aguantar
-tu <foreign>exequátur</foreign> para entablar la demanda matrimonial!
+tu <foreign xml:lang="LAT">exequátur</foreign> para entablar la demanda matrimonial!
 En resumen: tú serás desde ahí, por
 medio de poderes, padrino de nuestra boda, la cual se verificará
 pocos días después de mi regreso de Aragón.
@@ -5932,7 +5935,7 @@ y esta tarde quedarán ratificadas vuestras amistades.¡Es
 tan buena!... Desde anoche no piensa más que en la
 comida de hoy, a fin de que todo esté en regla y no
 eches de menos la mesa de los Grandes de España ni
-los <foreign>restaurants</foreign> de París y Londres... ¡Va a tirar
+los <foreign xml:lang="FRA">restaurants</foreign> de París y Londres... ¡Va a tirar
 la casa por la ventana!</p>  <p>Paso por alto la descripción
 de esta malhadada comida, ridículamente aparatosa,
 en que hubo de todo menos cordialidad y regocijo, por más
@@ -8267,7 +8270,7 @@ hasta las hojas secas de los árboles.</p>  <p>-¡Buen discípulo
 del de arriba! -exclamó el joven, aludiendo sin duda
 al padre Manrique.</p>  <p>-¡Y del de más arriba! -repuso
 el viejo, pensando seguramente en Dios.</p>  <p>A todo esto, habían
-salido a la calle.</p>  <p>El <foreign>groom</foreign> no estaba ya envuelto en la
+salido a la calle.</p>  <p>El <foreign xml:lang="ENG">groom</foreign> no estaba ya envuelto en la
 manta, de la cual se había despojado apresuradamente
 al conocer que salía su amo.</p>  <p>-¡Pobre Juanito! -le
 dijo Fabián acariciándolo-. ¡Perdona el mal
@@ -8326,7 +8329,7 @@ saludo, triste mujerzuela, personificación y vehículo
 de la <emph>opinión pública</emph>!... ¡Tú serás
 la ejecutora de la venganza de Diego! ¡Tú serás
 la trompeta del escándalo!</p>  <p>En la calle de Espoz y
-Mina volvió el joven a dirigir la palabra al <foreign>groom</foreign>.</p>
+Mina volvió el joven a dirigir la palabra al <foreign xml:lang="ENG">groom</foreign>.</p>
  <p>-Juanito, ¿tienes padre? -le preguntó, afectando
 cierta indiferencia.</p>  <p>-No, señor.</p>  <p>-¿Y madre?</p>  <p>-Tampoco.</p>
  <p>-¿Quién te trajo a Madrid?</p>  <p>-Nadie... Víneme
